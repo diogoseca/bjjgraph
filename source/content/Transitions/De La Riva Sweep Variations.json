@@ -13,8 +13,6 @@
     "competition",
     "gi"
   ],
-  "starting_position": "De La Riva Guard",
-  "ending_position": "Side Control",
   "success_rates": {
     "beginner": 35,
     "intermediate": 55,
@@ -290,6 +288,24 @@
     {
       "name": "Balloon Sweep",
       "relationship": "Variation - specific DLR sweep using pushing rather than pulling mechanics"
+    }
+  ],
+  "from_position": "De La Riva Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Side Control/Top",
+      "probability": 75,
+      "result": "success"
+    },
+    {
+      "to": "De La Riva Guard/Bottom",
+      "probability": 15,
+      "result": "failure"
+    },
+    {
+      "to": "De La Riva Guard/Top",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

@@ -10,8 +10,6 @@
     "off-balancing",
     "bottom-position"
   ],
-  "starting_position": "X-Guard",
-  "ending_position": "Mount",
   "success_rates": {
     "beginner": 35,
     "intermediate": 50,
@@ -292,6 +290,24 @@
     {
       "name": "Technical Stand Up to Single Leg",
       "relationship": "Alternative Standing Attack"
+    }
+  ],
+  "from_position": "X-Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Mount/Top",
+      "probability": 65,
+      "result": "success"
+    },
+    {
+      "to": "X-Guard/Bottom",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "X-Guard/Top",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

@@ -93,29 +93,22 @@ Mastery of both perspectives is essential for modern grapplers, as the leg weave
 - Maintain awareness of back exposure - avoid turning too far into opponent when attempting escapes
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Frame and Shrimp]]** → [[Knee Shield Half Guard]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Frame and Shrimp]]** (16% of attempts)
 
-- **[[Underhook Sweep from Half]]** → [[Side Control]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+- **[[Underhook Sweep from Half]]** (13% of attempts)
 
-- **[[Deep Half Entry]]** → [[Deep Half Guard]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Deep Half Entry]]** (14% of attempts)
 
-- **[[Old School Sweep]]** → [[Side Control]]
-  - Success Rate: Beginner 10%, Intermediate 25%, Advanced 40%
+- **[[Old School Sweep]]** (12% of attempts)
 
-- **[[Dogfight Position]]** → [[Dogfight Position]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Dogfight Position]]** (18% of attempts)
 
-- **[[Rolling to Guard]]** → [[Closed Guard]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Rolling to Guard]]** (14% of attempts)
 
-- **[[Lockdown Sweeps]]** → [[Lockdown]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+- **[[Lockdown Sweeps]]** (13% of attempts)
 
 
 ### Common Mistakes
@@ -169,32 +162,24 @@ Mastery of both perspectives is essential for modern grapplers, as the leg weave
 - Keep weight distributed between the weaved leg and supporting leg to maintain balance and prevent sweeps
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Leg Weave Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 70%
+- **[[Leg Weave Pass]]** (14% of attempts)
 
-- **[[Knee Slice Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 40%, Intermediate 60%, Advanced 75%
+- **[[Knee Slice Pass]]** (17% of attempts)
 
-- **[[Leg Drag Pass]]** → [[Leg Drag Position]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 65%
+- **[[Leg Drag Pass]]** (13% of attempts)
 
-- **[[Smash Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 60%
+- **[[Smash Pass]]** (12% of attempts)
 
-- **[[Over-Under Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 65%
+- **[[Over-Under Pass]]** (13% of attempts)
 
-- **[[Long Step Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 60%
+- **[[Long Step Pass]]** (12% of attempts)
 
-- **[[Transition to Mount]]** → [[Mount]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Side Control to Mount]]** (10% of attempts)
 
-- **[[Back Step]]** → [[Back Control]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+- **[[Back Step]]** (9% of attempts)
 
 
 ### Common Mistakes

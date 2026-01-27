@@ -18,7 +18,7 @@ description: "Master Electric Chair position in BJJ. 10th Planet's lockdown swee
 
 <section id="overview" class="content-section">
 
-Electric Chair is a devastating attacking position from the lockdown half guard system, popularized by 10th Planet's and 10th Planet Jiu-Jitsu. This position combines elements of a sweep, submission threat, and positional control, creating a powerful offensive weapon from bottom half guard. The practitioner uses the lockdown to control the opponent's leg while simultaneously elevating their hips and creating a crotch-splitting pressure that forces the opponent into increasingly compromised positions.
+Electric Chair is a devastating attacking position from the lockdown half guard system, popularized by 10th Planet Jiu-Jitsu. This position combines elements of a sweep, submission threat, and positional control, creating a powerful offensive weapon from bottom half guard. The practitioner uses the lockdown to control the opponent's leg while simultaneously elevating their hips and creating a crotch-splitting pressure that forces the opponent into increasingly compromised positions.
 
 The Electric Chair represents a fundamental departure from traditional half guard sweeps by utilizing the lockdown's control to create a unique mechanical advantage. Rather than simply sweeping the opponent, the bottom player generates intense pressure on the hip joint and groin area, creating both a submission threat and a powerful sweeping mechanism. This dual-threat nature makes the position exceptionally difficult to defend, as opponents must simultaneously address the submission danger while preventing the sweep.
 
@@ -42,6 +42,8 @@ From a tactical perspective, Electric Chair serves as a cornerstone of the lockd
 - Keep shoulders flat to the mat initially, then rotate toward opponent to increase sweeping power
 
 - Time the sweep for when opponent is maximally stretched and off-balance from the submission pressure
+
+- Create a dilemma where defending the submission exposes the sweep and vice versa
 
 
 </section>
@@ -91,26 +93,20 @@ From a tactical perspective, Electric Chair serves as a cornerstone of the lockd
 - Maintain active offensive pressure throughout, never allowing opponent to settle or establish counters to your control
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Old School Sweep]]** → [[Mount]]
-  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+- **[[Old School Sweep]]** (18% of attempts)
 
-- **[[Electric Chair Submission]]** → [[Won by Submission]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Electric Chair Submission]]** (16% of attempts)
 
-- **[[Transition to Truck]]** → [[Truck]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Turtle to Truck]]** (17% of attempts)
 
-- **[[Lockdown Sweeps]]** → [[Mount]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Lockdown Sweeps]]** (16% of attempts)
 
-- **[[Deep Half Entry]]** → [[Deep Half Guard]]
-  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 80%
+- **[[Deep Half Entry]]** (19% of attempts)
 
-- **[[Transition to Omoplata]]** → [[Omoplata Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Dogfight Position]]** (14% of attempts)
 
 
 ### Common Mistakes
@@ -165,27 +161,23 @@ From a tactical perspective, Electric Chair serves as a cornerstone of the lockd
 
 - Stay patient and methodical - rushing the escape often leads to giving up back control or being swept
 
+- Use the limp leg concept to reduce the effectiveness of the stretch on your trapped leg
 
-### Primary Techniques
+
+### Available Transitions
 
 
-- **[[Lockdown Break and Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 65%
+- **[[Lockdown Break and Pass]]** (21% of attempts)
 
-- **[[Limp Leg Escape to Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 60%
+- **[[Limp Leg Escape to Pass]]** (18% of attempts)
 
-- **[[Back Take from Lockdown Defense]]** → [[Back Control]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+- **[[Back Take from Lockdown Defense]]** (14% of attempts)
 
-- **[[Knee Slice Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 20%, Intermediate 40%, Advanced 55%
+- **[[Knee Slice Pass]]** (17% of attempts)
 
-- **[[Smash Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 60%
+- **[[Smash Pass]]** (18% of attempts)
 
-- **[[Darce from Lockdown Counter]]** → [[D'arce Control]]
-  - Success Rate: Beginner 10%, Intermediate 25%, Advanced 40%
+- **[[Darce from Lockdown Counter]]** (12% of attempts)
 
 
 ### Common Mistakes

@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Kimura to Back Take | BJJ Technique | BJJ Graph"
 description: "Master the Kimura to Back Take in BJJ. Complete transition from Kimura Control to Back Control. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%."
@@ -16,7 +17,7 @@ description: "Master the Kimura to Back Take in BJJ. Complete transition from Ki
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Kimura to Back Take in BJJ",
-  "description": "Step-by-step guide for Kimura to Back Take from Kimura Control to Back Control.",
+  "description": "Step-by-step guide for Kimura to Back Take from Kimura Control/Top. Possible outcomes: Back Control/Top (65%), Kimura Control/Top (25%), Kimura Control/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -154,11 +155,25 @@ description: "Master the Kimura to Back Take in BJJ. Complete transition from Ki
 
 The Kimura to Back Take is a fundamental transition that exemplifies the principle of using submission threats to advance position. When an opponent defends the Kimura finish by pulling their elbow tight to their body or rolling with the lock, this creates a predictable defensive pathway that can be exploited to transition to back control. This transition is particularly effective because the opponent's defensive instinct to protect their shoulder naturally exposes their back. The grip control established in the Kimura position provides exceptional leverage to maintain connection throughout the transition, making it one of the highest-percentage back take sequences available from side control or turtle positions. Understanding this transition fundamentally changes how practitioners approach the Kimura, transforming it from merely a submission attempt into a positional control system that offers multiple attacking pathways.
 
-**Starting Position**: [[Kimura Control]]
-**Ending Position**: [[Back Control]]
+**From Position**: [[Kimura Control/Top]]
 **Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Back Control/Top]] | 65% |
+| Failure | [[Kimura Control/Top]] | 25% |
+| Counter | [[Kimura Control/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

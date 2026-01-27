@@ -437,4 +437,14 @@ The guillotine choke represents one of the most versatile submission families in
 
 </section>
 
+<section id="terminal-state" class="content-section">
+
+## Match Outcome
+
+Successful execution of Guillotine Variations leads to → [[game-over|Game Over]]
+
+*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+
+</section>
+
 </main>

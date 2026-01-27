@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Leg Drag Pass | BJJ Technique | BJJ Graph"
 description: "Master the Leg Drag Pass in BJJ. Dominant guard passing technique from open guard to side control. Success: 45% beginner, 60% intermediate, 75% advanced."
@@ -16,7 +17,7 @@ description: "Master the Leg Drag Pass in BJJ. Dominant guard passing technique 
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Leg Drag Pass in BJJ",
-  "description": "Step-by-step guide for Leg Drag Pass from Open Guard to Side Control.",
+  "description": "Step-by-step guide for Leg Drag Pass from Open Guard/Bottom. Possible outcomes: Side Control/Top (75%), Open Guard/Bottom (15%), Open Guard/Top (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -154,11 +155,25 @@ description: "Master the Leg Drag Pass in BJJ. Dominant guard passing technique 
 
 The Leg Drag Pass is one of the most fundamental and high-percentage guard passing techniques in modern Brazilian Jiu-Jitsu. This pass works by controlling the opponent's legs and dragging them across their body, creating an angle that eliminates their guard retention capabilities while establishing dominant control. The technique is particularly effective against seated guards, butterfly guard, and various open guard positions where the opponent's legs are extended or not locked together. What makes the leg drag so powerful is its ability to simultaneously shut down the opponent's offensive options while creating a clear path to side control or back control. The pass requires precise timing, proper weight distribution, and the ability to anticipate and counter common guard retention tactics. When executed correctly, the leg drag creates a positional hierarchy shift where the passer moves from a neutral or slightly disadvantaged position directly into a dominant control position. This makes it a cornerstone technique for competitive grapplers at all levels.
 
-**Starting Position**: [[Open Guard]]
-**Ending Position**: [[Side Control]]
+**From Position**: [[Open Guard/Bottom]]
 **Success Rates**: Beginner 45%, Intermediate 60%, Advanced 75%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Side Control/Top]] | 75% |
+| Failure | [[Open Guard/Bottom]] | 15% |
+| Counter | [[Open Guard/Top]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

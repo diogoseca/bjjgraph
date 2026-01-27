@@ -84,7 +84,7 @@ The position's integration within the broader 10th Planet system provides multip
 ### Key Principles
 
 
-- Overhook depth determines position sustainability - shallow overhoooks collapse under pressure
+- Overhook depth determines position sustainability - shallow overhooks collapse under pressure
 
 - Leg across back must maintain constant downward pressure to prevent opponent posturing
 
@@ -99,32 +99,24 @@ The position's integration within the broader 10th Planet system provides multip
 - Use opponent's weight shifts to determine which submission chain to pursue
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Gogoplata]]** → [[Gogoplata Control]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 50%
+- **[[Gogoplata]]** (11% of attempts)
 
-- **[[Omoplata]]** → [[Omoplata Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 60%
+- **[[Omoplata]]** (13% of attempts)
 
-- **[[Triangle Choke]]** → [[Triangle Control]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 55%
+- **[[Triangle Choke]]** (12% of attempts)
 
-- **[[Transition to Carni]]** → [[Carni]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 70%
+- **[[Crackhead Control to Carni]]** (15% of attempts)
 
-- **[[Armbar from Guard]]** → [[Armbar Control]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 55%
+- **[[Armbar from Guard]]** (12% of attempts)
 
-- **[[Baratoplata]]** → [[Won by Submission]]
-  - Success Rate: Beginner 10%, Intermediate 20%, Advanced 35%
+- **[[Baratoplata]]** (7% of attempts)
 
-- **[[Transition to Mission Control]]** → [[Mission Control]]
-  - Success Rate: Beginner 40%, Intermediate 60%, Advanced 75%
+- **[[Crackhead Control to Mission Control]]** (15% of attempts)
 
-- **[[Transition to New York]]** → [[New York]]
-  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 70%
+- **[[Crackhead Control to New York]]** (15% of attempts)
 
 
 ### Common Mistakes
@@ -182,26 +174,20 @@ The position's integration within the broader 10th Planet system provides multip
 - Double underhooks provide strongest passing pathway but require patient establishment
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Back Take]]** → [[Back Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Back Take]]** (18% of attempts)
 
-- **[[Stack Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Stack Pass]]** (15% of attempts)
 
-- **[[Double Underhook Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Double Underhook Pass]]** (16% of attempts)
 
-- **[[Rolling Back Take]]** → [[Back Control]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Rolling Back Take]]** (15% of attempts)
 
-- **[[Posture Recovery to Closed Guard]]** → [[Closed Guard]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Posture Recovery to Closed Guard]]** (20% of attempts)
 
-- **[[Arm Extraction and Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Arm Extraction and Pass]]** (16% of attempts)
 
 
 ### Common Mistakes

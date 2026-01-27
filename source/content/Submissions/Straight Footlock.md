@@ -427,4 +427,14 @@ The Straight Footlock, also known as the Straight Ankle Lock, represents the fun
 
 </section>
 
+<section id="terminal-state" class="content-section">
+
+## Match Outcome
+
+Successful execution of Straight Footlock leads to → [[game-over|Game Over]]
+
+*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+
+</section>
+
 </main>

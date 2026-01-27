@@ -225,6 +225,36 @@
       "question": "How should you transition if opponent successfully defends the triangle by hiding their arm inside your legs?",
       "answer": "If the arm remains defended inside, transition to omoplata by bringing your free leg over their back, or attack the back take if they turn away. The leg-over-shoulder position provides multiple offensive options, so never force a defended triangle. Instead, flow to the next highest percentage attack based on their defensive reaction.",
       "safety_critical": false
+    },
+    {
+      "question": "What anatomical structures does the triangle choke target and how does proper arm positioning affect the finish?",
+      "answer": "The triangle choke targets the carotid arteries on both sides of the neck, restricting blood flow to the brain. The trapped arm must be positioned across the opponent's own neck, placing their bicep against one carotid while your thigh compresses the other. If the arm is outside your leg structure or not pulled across the centerline, only one carotid is compressed and the choke becomes significantly less effective.",
+      "safety_critical": false
+    },
+    {
+      "question": "Your opponent begins to posture up as you lock the triangle - what grip adjustments maintain control and set up the finish?",
+      "answer": "When opponent postures, immediately overhook or cup behind their head with both hands to create downward pulling leverage. Never push on the knee to break posture - this is weak mechanically. Instead, use your pulling grip combined with leg extension to drive their head toward the mat. If they achieve full posture, consider transitioning to armbar or omoplata rather than fighting an uphill battle.",
+      "safety_critical": false
+    },
+    {
+      "question": "What indicators tell you the choke is properly aligned versus just causing neck discomfort?",
+      "answer": "A properly aligned blood choke creates rapid facial color change (reddening or purpling), visible distress without ability to speak clearly, and rapid onset of effects within 5-10 seconds. If opponent is only experiencing neck discomfort without these signs after 10+ seconds, the choke is likely an air choke or misaligned blood choke. Reposition by adjusting your angle and ensuring the trapped arm crosses their centerline before reapplying pressure.",
+      "safety_critical": true
+    },
+    {
+      "question": "How does the figure-four leg lock configuration contribute to finishing strength versus alternative triangle locks?",
+      "answer": "The figure-four configuration (ankle behind opposite knee) creates a unified leg structure where extending the locking leg simultaneously tightens the entire triangle and compresses both sides of the neck. This mechanical linkage means your leg extension directly translates to choking pressure. Alternative locks that don't create this connection require more isolated muscle effort and are easier for opponents to defend through posture and frame manipulation.",
+      "safety_critical": false
+    },
+    {
+      "question": "Your opponent stacks hard and begins to pass while you have the triangle locked - what is your priority and escape sequence?",
+      "answer": "Priority is maintaining the triangle structure while creating an angle to release stack pressure. Shrimp your hips away from their passing direction, maintain grip behind head, and use your free arm to post and rotate your body perpendicular to theirs. If they achieve side control position with triangle locked, you can still finish by completing the perpendicular angle or transition to armbar by extending their trapped arm while maintaining leg control.",
+      "safety_critical": false
+    },
+    {
+      "question": "What is the point of no escape in the triangle and what must be controlled before reaching it?",
+      "answer": "The point of no escape occurs when you achieve proper perpendicular angle with opponent's posture broken, arm trapped across their centerline, and knee positioned behind their head. Before this point, you must control their posture through head grip, secure the trapped arm position, and lock the figure-four configuration. Once these elements align, even skilled opponents have very limited defensive options and the finish becomes largely a matter of progressive pressure application.",
+      "safety_critical": false
     }
   ],
   "training_progressions_and_safety_protocols": [
@@ -288,12 +318,8 @@
     "Omoplata from Guard",
     "Armbar from Guard",
     "Inverted Triangle",
-    "Triangle to Armbar",
-    "Triangle to Omoplata",
-    "Switch to Triangle",
     "Baratoplata",
-    "Gogoplata",
-    "Monoplata"
+    "Gogoplata"
   ],
   "related_content": [
     {
@@ -309,10 +335,6 @@
       "relationship": "Direct transition when opponent hides arm to defend triangle"
     },
     {
-      "name": "Ryan Hall Triangle System",
-      "relationship": "Comprehensive system incorporating De La Riva triangle entries and variations"
-    },
-    {
       "name": "Guard Retention",
       "relationship": "Foundational principle for maintaining De La Riva control during setup phase"
     },
@@ -321,16 +343,20 @@
       "relationship": "Conceptual framework for linking triangle to omoplata, armbar, and sweep options"
     },
     {
-      "name": "Dynamic Guard System",
-      "relationship": "Systematic approach to integrating De La Riva triangle into complete guard game"
-    },
-    {
       "name": "Triangle Setup",
       "relationship": "Transition technique for creating triangle entry from De La Riva position"
     },
     {
       "name": "Back Control",
       "relationship": "Position achieved when opponent turns away from triangle pressure"
+    },
+    {
+      "name": "De La Riva Guard",
+      "relationship": "Starting position and guard system from which this submission is executed"
+    },
+    {
+      "name": "Triangle Control",
+      "relationship": "Control position maintained during finishing phase of the submission"
     }
   ]
 }

@@ -21,37 +21,37 @@ description: "Attack from Buggy Choke position. Complete offensive guide coverin
     {
       "@type": "HowToStep",
       "name": "Execute Finish Buggy Choke",
-      "text": "From this position, execute Finish Buggy Choke to transition to Won by Submission. Success rate for advanced practitioners: 80%.",
+      "text": "From this position, attempt Finish Buggy Choke. This technique is attempted in 11% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Back Control",
-      "text": "From this position, execute Transition to Back Control to transition to Back Control. Success rate for advanced practitioners: 75%.",
+      "name": "Execute Aoki Lock to Back Control",
+      "text": "From this position, attempt Aoki Lock to Back Control. This technique is attempted in 11% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hook Leg and Take Back",
-      "text": "From this position, execute Hook Leg and Take Back to transition to Back Control. Success rate for advanced practitioners: 72%.",
+      "text": "From this position, attempt Hook Leg and Take Back. This technique is attempted in 11% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Crucifix",
-      "text": "From this position, execute Transition to Crucifix to transition to Crucifix. Success rate for advanced practitioners: 65%.",
+      "name": "Execute Aoki Lock to Crucifix",
+      "text": "From this position, attempt Aoki Lock to Crucifix. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Roll to Truck",
-      "text": "From this position, execute Roll to Truck to transition to Truck. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Roll to Truck. This technique is attempted in 9% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Switch to Darce Configuration",
-      "text": "From this position, execute Switch to Darce Configuration to transition to D'arce Control. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Switch to Darce Configuration. This technique is attempted in 8% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -213,109 +213,26 @@ From a technical perspective, the buggy choke teaches important principles about
 
 ## Available Attacks
 
-### [[Finish Buggy Choke]] → [[Won by Submission]]
+### [[Finish Buggy Choke]] (11% of attempts)
 
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 65%
-- Advanced: 80%
+### [[Aoki Lock to Back Control]] (11% of attempts)
 
-### [[Transition to Back Control]] → [[Back Control]]
+### [[Hook Leg and Take Back]] (11% of attempts)
 
-**Success Rates:**
-- Beginner: 50%
-- Intermediate: 65%
-- Advanced: 75%
+### [[Aoki Lock to Crucifix]] (10% of attempts)
 
-### [[Hook Leg and Take Back]] → [[Back Control]]
+### [[Roll to Truck]] (9% of attempts)
 
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 60%
-- Advanced: 72%
+### [[Switch to Darce Configuration]] (8% of attempts)
 
-### [[Transition to Crucifix]] → [[Crucifix]]
+### [[Switch to Anaconda Configuration]] (8% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Buggy Choke to Side Control]] (12% of attempts)
 
-### [[Roll to Truck]] → [[Truck]]
+### [[Rolling Back Take]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Buggy Choke to Front Headlock]] (10% of attempts)
 
-### [[Switch to Darce Configuration]] → [[D'arce Control]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-### [[Switch to Anaconda Configuration]] → [[Anaconda Control]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-### [[Transition to Side Control]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 55%
-- Intermediate: 70%
-- Advanced: 80%
-
-### [[Rolling Back Take]] → [[Back Control]]
-
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
-
-### [[Transition to Front Headlock]] → [[Front Headlock]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Opponent Strips Grips]]** → [[Turtle]] (Opponent Success: 30%)
-- **[[Opponent Sits to Guard]]** → [[Half Guard]] (Opponent Success: 25%)
-- **[[Opponent Granby Rolls Away]]** → [[Scramble Position]] (Opponent Success: 20%)
-- **[[Opponent Technical Stand Up]]** → [[Standing Position]] (Opponent Success: 15%)
-- **[[Opponent Turns Into Choke]]** → [[Open Guard]] (Opponent Success: 25%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Finish Choke Immediately]]** → [[Won by Submission]]
-  - Opponent remains static or grip fights without movement, exposing neck further
-- **[[Hook Near Leg and Take Back]]** → [[Back Control]]
-  - Opponent attempts to sit to guard, exposing hips and creating back take opportunity
-- **[[Roll to Truck Position]]** → [[Truck]]
-  - Opponent attempts granby roll away from pressure to escape
-- **[[Attack Crucifix]]** → [[Crucifix]]
-  - Opponent extends far arm to base and prevent flattening
-- **[[Switch to Darce]]** → [[D'arce Control]]
-  - Opponent turns into the choke creating head-and-arm configuration
-- **[[Transition to Side Control]]** → [[Side Control]]
-  - Opponent successfully strips grips but remains flattened
 
 
 </section>
@@ -325,7 +242,7 @@ From a technical perspective, the buggy choke teaches important principles about
 ## Decision Making from This Position
 
 **If opponent remains static and defensive without movement:**
-- Execute **[[Tighten grips and finish buggy choke]]** → [[Won by Submission]] (Probability: 70%)
+- Execute **[[Tighten grips and finish buggy choke]]** → [[game-over]] (Probability: 70%)
 - Execute **[[Apply progressive choking pressure]]** → [[Buggy Choke Top]] (Probability: 30%)
 
 
@@ -434,33 +351,39 @@ Begin from turtle top without grips. Partner provides graduated resistance: Roun
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Direct submission path
+## Test Your Knowledge
 
-`Turtle → Buggy Choke Top → Won by Submission`
+**Q1**: What is the optimal grip depth for the threading arm in the Buggy Choke?
+**A**: The threading arm must reach deep enough that your palm-up hand can secure the far-side collar or neck area. Shallow threading allows the opponent to easily strip the grip or create defensive frames. The hand should travel completely under the armpit and across the back until it can grip collar material on the opposite side.
 
-### Back control path
+**Q2**: Your opponent begins sitting to guard while you have buggy choke grips established - what adjustment do you make?
+**A**: Immediately hook the near leg with your leg and use their sitting motion to transition to back control. Their hip exposure during the sit creates the perfect opportunity to insert hooks. Maintain your collar grip as you follow them, converting the choke attempt into a back take with superior control.
 
-`Turtle → Buggy Choke Top → Back Control → Rear Naked Choke`
+**Q3**: How should weight distribution be managed to maintain the Buggy Choke position?
+**A**: Apply perpendicular pressure with chest heavy on the opponent's back and shoulders while keeping hips weighted down on their near hip. This creates a flattening force that restricts their ability to sit, roll, or stand. Avoid keeping hips high or weight centered over your knees, as this allows escape movements.
 
-### Crucifix path
+**Q4**: What is the role of head position in maintaining Buggy Choke control?
+**A**: The head serves as an active control point that must stay tight to the opponent's far shoulder. This prevents them from creating rotational space to turn into the choke, strip grips with improved leverage, or roll away from pressure. Letting the head drift away opens escape angles and weakens the overall control structure.
 
-`Turtle → Buggy Choke Top → Crucifix → Choke from Crucifix`
+**Q5**: When should you prioritize finishing the choke versus transitioning to another position?
+**A**: Finish the choke when the opponent remains static or focuses purely on grip fighting without movement. Transition to back control when they sit to guard, attack the crucifix when they extend their far arm to base, or roll to truck when they attempt granby escapes. The opponent's defensive choice determines your optimal path.
 
-### Truck system path
+**Q6**: Your opponent extends their far arm to base and prevent being flattened - what opportunity does this create?
+**A**: The extended arm creates a direct pathway to the crucifix position. Immediately trap the extended arm with your legs while maintaining upper body control. The crucifix offers superior control and multiple submission options compared to continuing the choke attempt against an actively defending opponent.
 
-`Turtle → Buggy Choke Top → Truck → Twister Control → Twister`
+**Q7**: How do you prevent energy depletion when attacking from Buggy Choke Top?
+**A**: Use body mechanics rather than arm strength for choking pressure. Let your chest weight drive the pressure while hips control position. Apply progressive pressure rather than explosive squeezing. The arms should complete the structure through leverage, not power. This allows sustained attacks without exhaustion.
 
-### Darce conversion path
-
-`Turtle → Buggy Choke Top → D'arce Control → Darce Choke`
+**Q8**: What is the critical timing window for securing the second grip after threading?
+**A**: The second grip must be secured immediately after the threading arm reaches depth - within 1-2 seconds. This window is the opponent's primary escape opportunity. Delaying allows them to strip the initial grip, turn into the position, or sit to guard before the choke structure is complete. Eliminate this defensive window by training fast grip connection.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 

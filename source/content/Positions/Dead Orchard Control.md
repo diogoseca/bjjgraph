@@ -58,7 +58,7 @@ Dead Orchard Control represents an advanced positional control within Brazilian 
 | **Energy Cost** | High | Medium |
 | **Time** | Short | Medium |
 
-**Key Difference:** Anaconda grip emphasizing extended control
+**Key Difference:** Trades quick finish for extended control
 
 
 
@@ -89,26 +89,18 @@ Dead Orchard Control represents an advanced positional control within Brazilian 
 - Keep chin tucked and neck protected to minimize submission vulnerability while working systematic escapes
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Hip Escape]]** → [[Turtle]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Hip Escape]]** (25% of attempts)
 
-- **[[Rolling to Guard]]** → [[Closed Guard]]
-  - Success Rate: Beginner 15%, Intermediate 25%, Advanced 40%
+- **[[Rolling to Guard]]** (20% of attempts)
 
-- **[[Frame and Shrimp]]** → [[Turtle]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Granby Roll]]** (18% of attempts)
 
-- **[[Granby Roll]]** → [[Half Guard]]
-  - Success Rate: Beginner 10%, Intermediate 20%, Advanced 35%
+- **[[Arm Extraction]]** (20% of attempts)
 
-- **[[Arm Extraction]]** → [[Front Headlock]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
-
-- **[[Technical Standup]]** → [[Standing Position]]
-  - Success Rate: Beginner 5%, Intermediate 15%, Advanced 25%
+- **[[Technical Standup]]** (17% of attempts)
 
 
 ### Common Mistakes
@@ -170,26 +162,18 @@ Dead Orchard Control represents an advanced positional control within Brazilian 
 - Adjust body position based on opponent's escape attempts while preserving grip integrity and submission mechanics
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Anaconda Choke]]** → [[Won by Submission]]
-  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 75%
+- **[[Anaconda Choke]]** (25% of attempts)
 
-- **[[Transition to Mount]]** → [[Mount]]
-  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+- **[[Side Control to Mount]]** (20% of attempts)
 
-- **[[Transition to North-South]]** → [[North-South]]
-  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 80%
+- **[[Side Control to North-South]]** (20% of attempts)
 
-- **[[Darce from Turtle]]** → [[D'arce Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 65%
+- **[[Darce from Turtle]]** (15% of attempts)
 
-- **[[Front Headlock to Back]]** → [[Back Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 70%
-
-- **[[Side Control to Mount]]** → [[Side Control]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Front Headlock to Back]]** (20% of attempts)
 
 
 ### Common Mistakes

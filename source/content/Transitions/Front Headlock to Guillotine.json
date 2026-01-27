@@ -15,8 +15,6 @@
     "wrestling",
     "scramble"
   ],
-  "starting_position": "Front Headlock",
-  "ending_position": "Guillotine Control",
   "success_rates": {
     "beginner": 35,
     "intermediate": 50,
@@ -287,6 +285,24 @@
     {
       "name": "Turtle",
       "relationship": "Common Setup - opponent position that often leads to front headlock"
+    }
+  ],
+  "from_position": "Front Headlock/Top",
+  "outcomes": [
+    {
+      "to": "Guillotine Control/Top",
+      "probability": 65,
+      "result": "success"
+    },
+    {
+      "to": "Front Headlock/Top",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Front Headlock/Bottom",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

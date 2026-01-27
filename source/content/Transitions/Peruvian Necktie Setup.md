@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Peruvian Necktie Setup | BJJ Technique | BJJ Graph"
 description: "Learn Peruvian Necktie Setup in BJJ. Step-by-step execution from Front Headlock to submission position. Success rates: Beginner 20%, Intermediate 35%, Advanced 50%."
@@ -16,7 +17,7 @@ description: "Learn Peruvian Necktie Setup in BJJ. Step-by-step execution from F
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Peruvian Necktie Setup in BJJ",
-  "description": "Step-by-step guide for Peruvian Necktie Setup from Front Headlock to Peruvian Necktie.",
+  "description": "Step-by-step guide for Peruvian Necktie Setup from Front Headlock/Top. Possible outcomes: Peruvian Necktie/Top (50%), Front Headlock/Top (40%), Front Headlock/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -160,11 +161,25 @@ description: "Learn Peruvian Necktie Setup in BJJ. Step-by-step execution from F
 
 The Peruvian Necktie Setup is an advanced submission transition that exploits opponent's defensive turtle position or failed takedown attempts. This technique combines elements of front headlock control with creative body positioning to establish a powerful choking mechanism. The setup requires precise timing and exceptional understanding of weight distribution, as the practitioner must maintain control while transitioning their body underneath the opponent. Unlike traditional front headlock attacks, the Peruvian Necktie utilizes the opponent's own shoulder as a fulcrum point, creating a unique choking mechanism that attacks both the carotid arteries and applies pressure to the neck. The technique gained prominence in modern no-gi competition and represents the evolution of front headlock finishing sequences. Success with this setup demands strong grip control, flexibility to maneuver underneath the opponent, and the ability to recognize the precise moment when defensive posture creates the necessary opening for entry.
 
-**Starting Position**: [[Front Headlock]]
-**Ending Position**: [[Peruvian Necktie]]
+**From Position**: [[Front Headlock/Top]]
 **Success Rates**: Beginner 20%, Intermediate 35%, Advanced 50%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Peruvian Necktie/Top]] | 50% |
+| Failure | [[Front Headlock/Top]] | 40% |
+| Counter | [[Front Headlock/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

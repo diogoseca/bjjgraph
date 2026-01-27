@@ -21,37 +21,37 @@ description: "Master Backside 50-50 Top in BJJ. Complete guide covering dominant
     {
       "@type": "HowToStep",
       "name": "Execute Inside Heel Hook",
-      "text": "From this position, execute Inside Heel Hook to transition to Won by Submission. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Inside Heel Hook. This technique is attempted in 11% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Outside Heel Hook",
-      "text": "From this position, execute Outside Heel Hook to transition to Won by Submission. Success rate for advanced practitioners: 45%.",
+      "text": "From this position, attempt Outside Heel Hook. This technique is attempted in 10% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Toe Hold",
-      "text": "From this position, execute Toe Hold to transition to Won by Submission. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Toe Hold. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Straight Ankle Lock",
-      "text": "From this position, execute Straight Ankle Lock to transition to Won by Submission. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Straight Ankle Lock. This technique is attempted in 14% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Take Generic",
-      "text": "From this position, execute Back Take Generic to transition to Back Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Back Take Generic. This technique is attempted in 16% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Saddle Entry from Top",
-      "text": "From this position, execute Saddle Entry from Top to transition to Saddle. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Saddle Entry from Top. This technique is attempted in 14% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -214,94 +214,22 @@ Backside 50-50 Top is commonly seen in no-gi competition and leg lock-focused tr
 
 ## Available Attacks
 
-### [[Inside Heel Hook]] → [[Won by Submission]]
+### [[Inside Heel Hook]] (11% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
+### [[Outside Heel Hook]] (10% of attempts)
 
-### [[Outside Heel Hook]] → [[Won by Submission]]
+### [[Toe Hold]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 45%
+### [[Straight Ankle Lock]] (14% of attempts)
 
-### [[Toe Hold]] → [[Won by Submission]]
+### [[Back Take Generic]] (16% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
+### [[Saddle Entry from Top]] (14% of attempts)
 
-### [[Straight Ankle Lock]] → [[Won by Submission]]
+### [[Kneebar]] (11% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
+### [[50-50 Pass]] (12% of attempts)
 
-### [[Back Take Generic]] → [[Back Control]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-### [[Saddle Entry from Top]] → [[Saddle]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[Kneebar]] → [[Won by Submission]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
-
-### [[50-50 Pass]] → [[Leg Drag Position]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Saddle Defense]]** → [[50-50 Guard]] (Opponent Success: 35%)
-- **[[Hip Escape]]** → [[Open Guard]] (Opponent Success: 30%)
-- **[[Counter Sweep]]** → [[Defensive Position]] (Opponent Success: 25%)
-- **[[Rolling to Guard]]** → [[Open Guard]] (Opponent Success: 20%)
-- **[[Defensive Position]]** → [[Defensive Position]] (Opponent Success: 40%)
-- **[[Turtle Transition]]** → [[Turtle]] (Opponent Success: 30%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Back Take Generic]]** → [[Back Control]]
-  - Opponent attempts to turn into you or escape legs
-- **[[Saddle Entry from Top]]** → [[Saddle]]
-  - Opponent tries to straighten trapped leg
-- **[[Heel Hook]]** → [[Won by Submission]]
-  - Opponent focuses defense on preventing back control
-- **[[50-50 Pass]]** → [[Leg Drag Position]]
-  - Opponent creates defensive frame and stops attacking
-- **[[Pressure Pass]]** → [[Side Control]]
-  - Opponent flattens and turtles to protect back
 
 
 </section>
@@ -311,9 +239,9 @@ Backside 50-50 Top is commonly seen in no-gi competition and leg lock-focused tr
 ## Decision Making from This Position
 
 **If opponent is primarily defending their back and creating frames to prevent you from walking up their body:**
-- Execute **[[Inside Heel Hook]]** → [[Won by Submission]] (Probability: 50%)
-- Execute **[[Outside Heel Hook]]** → [[Won by Submission]] (Probability: 45%)
-- Execute **[[Toe Hold]]** → [[Won by Submission]] (Probability: 40%)
+- Execute **[[Inside Heel Hook]]** → [[game-over]] (Probability: 50%)
+- Execute **[[Outside Heel Hook]]** → [[game-over]] (Probability: 45%)
+- Execute **[[Toe Hold]]** → [[game-over]] (Probability: 40%)
 
 
 **If opponent is primarily defending leg attacks with good positioning and control of your legs:**
@@ -323,14 +251,14 @@ Backside 50-50 Top is commonly seen in no-gi competition and leg lock-focused tr
 
 
 **If opponent attempts to sweep by inverting or creating angles with their hips:**
-- Execute **[[Pressure Application]]** → [[Backside 50-50 Top]] (Probability: 70%)
+- Execute **[[Pressure Application]]** → [[Backside 50-50]] (Probability: 70%)
 - Execute **[[Back Take Generic]]** → [[Back Control]] (Probability: 60%)
 - Execute **[[Saddle Entry from Top]]** → [[Saddle]] (Probability: 55%)
 
 
 **If opponent exposes their near leg by straightening or extending it during escape attempts:**
-- Execute **[[Kneebar]]** → [[Won by Submission]] (Probability: 55%)
-- Execute **[[Straight Ankle Lock]]** → [[Won by Submission]] (Probability: 60%)
+- Execute **[[Kneebar]]** → [[game-over]] (Probability: 55%)
+- Execute **[[Straight Ankle Lock]]** → [[game-over]] (Probability: 60%)
 
 
 **If opponent commits to turtle position to defend both back and legs simultaneously:**
@@ -423,33 +351,39 @@ Starting from backside 50-50 top, practice finishing sequence for inside heel ho
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Shortest path to submission
+## Test Your Knowledge
 
-`Backside 50-50 Top → Inside Heel Hook → Won by Submission`
+**Q1**: What is the primary mechanism for maintaining dominant pressure in Backside 50-50 Top?
+**A**: Chest-to-back pressure is the primary control mechanism. Your chest should be heavy on opponent's upper back, driving their hips into the mat. This limits their hip mobility and prevents them from creating angles or frames. Weight distribution should favor forward pressure rather than sitting back on your heels.
 
-### High-percentage back attack path
+**Q2**: Your opponent starts bridging and creating hip movement while you have Backside 50-50 Top. What adjustment do you make?
+**A**: Drive your chest pressure forward and down immediately when you feel them bridge. Lower your hips closer to the mat to increase base stability. Use your forearm on their hip to post and prevent the turn. If they continue creating movement, walk your hips higher up their body toward back control rather than fighting to stay in the leg entanglement.
 
-`Backside 50-50 Top → Back Take Generic → Back Control → Rear Naked Choke → Won by Submission`
+**Q3**: What are the essential grips for maintaining Backside 50-50 Top position?
+**A**: Primary control comes from body positioning, not grips. Your chest pressure and leg entanglement provide base control. Hands should be free for attacking - one hand controlling opponent's heel or ankle for submissions, the other posting or framing against their hip. Avoid using arm strength to hold position as this fatigues quickly and reduces attacking options.
 
-### Saddle control path
+**Q4**: How do you shut down the bottom player's primary escape attempts from Backside 50-50 Top?
+**A**: Their main escapes involve hip movement and turning to face you. Counter by maintaining heavy forward pressure that pins their hips. When they try to turn, walk your hips toward back control - their turn actually helps your advancement. Keep your legs active in the entanglement to prevent them from extracting. If they frame with their arms, use their frames against them by driving through them toward back control.
 
-`Backside 50-50 Top → Saddle Entry from Top → Saddle → Outside Heel Hook → Won by Submission`
+**Q5**: What determines whether you should attack legs or advance to back control from Backside 50-50 Top?
+**A**: Read opponent's defensive focus. If they're creating frames to prevent back control advancement, their leg defense is compromised - attack the heel. If they're hiding their heel and defending leg attacks well, abandon legs and take the back. The position's power comes from this dilemma - they cannot defend both optimally. Take what they give you rather than forcing your preferred attack.
 
-### Opportunistic toe hold path
+**Q6**: Your opponent grabs your foot and starts working to clear your leg entanglement. How do you respond?
+**A**: This defense exposes them to back control. As they focus on leg clearing, walk your hips up their body and establish seat belt grip. Alternatively, if their heel becomes exposed during the clearing attempt, immediately attack the heel hook. Their focus on one threat opens the other. Maintain pressure throughout - if you lighten up, they'll successfully clear and create distance.
 
-`Backside 50-50 Top → Toe Hold → Won by Submission`
+**Q7**: How do you manage energy expenditure to maintain Backside 50-50 Top for extended periods?
+**A**: Let your body structure do the work rather than muscular effort. Chest pressure comes from positioning and weight distribution, not active pressing. Legs stay entangled through proper positioning, not squeezing. Arms remain relaxed until attacking. Keep breathing steady. The position should feel sustainable - if you're working hard just to maintain it, your body position is wrong.
 
-### Kneebar exposure path
-
-`Backside 50-50 Top → Kneebar → Won by Submission`
+**Q8**: You've partially lost control and your opponent creates a frame against your shoulder. How do you recover full control?
+**A**: Don't fight the frame directly - redirect around it. Circle your pressure to the side away from their frame while maintaining leg entanglement. Alternatively, swim your arm under their frame while driving forward to collapse it. If the frame is too strong, use it as an opportunity to transition - either advance to back control by going around the frame, or drop to a leg attack while they're committed to the upper body frame.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -476,8 +410,8 @@ Starting from backside 50-50 top, practice finishing sequence for inside heel ho
 - **[[Inside Ashi-Garami]]** - Related leg entanglement with single leg control
 - **[[Honey Hole]]** - Alternative leg entanglement configuration from top
 - **[[Inside Heel Hook]]** - Primary submission finish from this position
-- **[[Craig Jones Leg Lock System]]** - Competition-proven system featuring this position prominently
-- **[[systematic approach Leg Lock System]]** - Systematic framework incorporating this position into comprehensive hierarchy
+- **[[Outside Heel Hook]]** - Alternative heel attack option from this position
+- **[[Toe Hold]]** - Complementary leg attack when heel is defended
 
 
 </section>

@@ -21,37 +21,37 @@ description: "Master Kesa Gatame Bottom position in BJJ. Complete escape guide c
     {
       "@type": "HowToStep",
       "name": "Execute Bridge and Roll",
-      "text": "From this position, execute Bridge and Roll to transition to Scarf Hold Position. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 13% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Elbow Escape",
-      "text": "From this position, execute Elbow Escape to transition to Half Guard. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Elbow Escape. This technique is attempted in 16% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape",
-      "text": "From this position, execute Hip Escape to transition to Closed Guard. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Hip Escape. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Take Generic",
-      "text": "From this position, execute Back Take Generic to transition to Back Control. Success rate for advanced practitioners: 40%.",
+      "text": "From this position, attempt Back Take Generic. This technique is attempted in 11% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Turtle Transition",
-      "text": "From this position, execute Turtle Transition to transition to Turtle. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Turtle Transition. This technique is attempted in 17% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Ghost Escape",
-      "text": "From this position, execute Ghost Escape to transition to Turtle. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Ghost Escape. This technique is attempted in 15% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -211,84 +211,20 @@ The defensive challenge of Kesa Gatame Bottom centers on the opponent's ability 
 
 ## Available Escapes
 
-### [[Bridge and Roll]] → [[Scarf Hold Position]]
+### [[Bridge and Roll]] (13% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 35%
-- Advanced: 50%
+### [[Elbow Escape]] (16% of attempts)
 
-### [[Elbow Escape]] → [[Half Guard]]
+### [[Hip Escape]] (13% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Back Take Generic]] (11% of attempts)
 
-### [[Hip Escape]] → [[Closed Guard]]
+### [[Turtle Transition]] (17% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
+### [[Ghost Escape]] (15% of attempts)
 
-### [[Back Take Generic]] → [[Back Control]]
+### [[Frame and Shrimp]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 25%
-- Advanced: 40%
-
-### [[Turtle Transition]] → [[Turtle]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-### [[Ghost Escape]] → [[Turtle]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 55%
-
-### [[Frame and Shrimp]] → [[Open Guard]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Transition to Mount]]** → [[Mount]] (Opponent Success: 35%)
-- **[[Transition to North-South]]** → [[North-South]] (Opponent Success: 30%)
-- **[[Position Change]]** → [[Kuzure Kesa-Gatame]] (Opponent Success: 40%)
-- **[[Americana from Side Control]]** → [[Americana Control]] (Opponent Success: 25%)
-- **[[North-South Choke]]** → [[Won by Submission]] (Opponent Success: 15%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Re-Guard]]** → [[Half Guard]]
-  - Opponent loosens head control to transition
-- **[[Granby Roll]]** → [[Turtle]]
-  - Opponent shifts weight forward toward your head
-- **[[Technical Standup]]** → [[Standing Position]]
-  - Opponent's base becomes compromised during transition attempt
-- **[[Guard Replacement]]** → [[Closed Guard]]
-  - Opponent releases head control to attack submission
 
 
 </section>
@@ -403,25 +339,39 @@ Bottom player cycles through multiple escape attempts in sequence: attempt elbow
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Not applicable - defensive position
+## Test Your Knowledge
 
-`Focus is on escaping rather than submitting from bottom`
+**Q1**: Your opponent is applying crushing chest pressure and you're struggling to breathe - what's your immediate priority?
+**A**: Turn your head away from the pressure to create a small pocket of breathing space, and use your free arm to frame against their shoulder or face to create distance between their chest and your face. Do not panic or waste energy fighting the pressure directly. Establish controlled breathing through your nose if possible, and accept some discomfort while working methodically toward escape. Panic breathing and explosive struggling will exhaust you rapidly.
 
-### Counter-submission opportunity
+**Q2**: What are the essential defensive frames you need to establish before attempting any escape?
+**A**: The primary frame is your free arm (far arm) pressing against opponent's face, neck, or shoulder to create distance and prevent smothering. Secondary is using your near elbow (if you can extract it) against their hip to prevent them from advancing. Tertiary is keeping your chin tucked to your chest to protect against chokes. These frames must be structural, using bone alignment rather than muscular pushing, so they don't exhaust you while you wait for escape opportunities.
 
-`Kesa Gatame Bottom → Bridge and Roll → Scarf Hold Position → Americana from Side Control → Won by Submission`
+**Q3**: Why is standard shrimping ineffective from Kesa Gatame and what should you do instead?
+**A**: Standard shrimping is ineffective because the opponent's perpendicular angle means your hip escape pushes you directly into their hips rather than creating usable space. Instead, use bridge-and-turn mechanics where you bridge toward them while turning your body to face them, or turn away to reach turtle position. The escape direction must account for their perpendicular positioning rather than the parallel alignment of traditional side control.
 
-### Back attack path
+**Q4**: Your opponent's back is exposed because they're sitting heavily - how do you exploit this vulnerability?
+**A**: When opponent sits back heavily, immediately turn into them rather than away. Use your free arm to reach around their back while turning your hips to face them. Your goal is to get chest-to-chest facing them, which allows you to either take their back directly or transition to turtle and then attack their back from there. This is the highest-percentage escape unique to Kesa Gatame because their perpendicular positioning inherently exposes their back.
 
-`Kesa Gatame Bottom → Back Take Generic → Back Control → Rear Naked Choke → Won by Submission`
+**Q5**: How do you apply pressure against opponent's base to set up the bridge-and-roll escape?
+**A**: Before bridging, grab their far arm at the wrist or elbow to prevent them from posting when you bridge. If wearing gi, grip their far sleeve or lapel. Pull this arm across your body while simultaneously trapping their near leg with your legs. Then bridge explosively toward their trapped side at a 45-degree angle. Without controlling their posting arm first, they will simply base out and your bridge will be ineffective.
+
+**Q6**: Your opponent starts transitioning toward mount - what do you do to prevent advancement?
+**A**: Use your legs actively to hook their near leg, creating a barrier that prevents them from stepping over to mount. Your knee should be between your bodies, and your foot should be hooking behind their knee or thigh. If they persist in trying to mount, this leg entanglement creates an opportunity to either recover half guard or execute a bridge-and-roll as they lift their leg. Never let them freely step over without resistance.
+
+**Q7**: How do you manage your energy when you're unable to escape immediately?
+**A**: Accept that you're in a bad position and focus on survival rather than forcing escapes. Maintain your frames using structural alignment rather than muscular effort. Breathe through your nose in a controlled pattern. Wait for opponent to make a mistake - when they attempt submissions or transitions, that's when escape windows open. Conserve explosive effort for when opportunities arise rather than constantly fighting. Most people exhaust themselves within 30-60 seconds of panicked struggling.
+
+**Q8**: You partially escape and get space but opponent is re-engaging - how do you complete the guard recovery?
+**A**: Once you have space, commit fully to guard recovery rather than trying to maintain the intermediate position. Immediately bring your knees to your chest and insert your knee shield or closed guard before they can re-establish pressure. If they're driving forward, use their momentum to pull them into your closed guard. If going to turtle, complete the transition fully rather than stopping halfway where you can be flattened again. Partial positions are dangerous - commit to completing the escape.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -450,8 +400,8 @@ Bottom player cycles through multiple escape attempts in sequence: attempt elbow
 - **[[Mount]]** - Common transition target for top player
 - **[[Turtle]]** - Primary escape target position
 - **[[Half Guard]]** - Primary guard recovery target
-- **[[Escape Hierarchy]]** - Conceptual framework for escape prioritization
-- **[[Bridge and Shrimp]]** - Core movement concept for escapes
+- **[[Bridge and Roll]]** - Primary escape technique from this position
+- **[[Elbow Escape]]** - Fundamental escape movement pattern
 
 
 </section>

@@ -267,6 +267,31 @@
       "question": "What is the danger in positioning your extending leg too high on the opponent's torso rather than their hip?",
       "answer": "Positioning your leg too high creates dangerous rib pressure that can cause rib fractures, intercostal muscle tears, or damage to internal organs without effectively tightening the choke. The bow-and-arrow works through hip extension creating length, not through crushing the torso. The hip is the structural pivot point - pushing here creates the bow effect safely by extending their spine and tightening the collar. Target your leg against the hip or upper thigh only, never the ribs or mid-torso.",
       "safety_critical": true
+    },
+    {
+      "question": "Your opponent starts bridging explosively while you have the collar secured - what adjustment prevents losing position?",
+      "answer": "When opponent bridges explosively, immediately increase your leg extension pressure to counter their upward force, driving their hip away to flatten them back down. Simultaneously tighten your chest-to-back connection by sinking your weight lower. If the bridge creates momentary space, use that extension to deepen your collar grip rather than fighting the movement. The bridge actually assists your choke mechanics if you ride it correctly - their extension combined with yours amplifies the bow-and-arrow tension rather than defeating it.",
+      "safety_critical": false
+    },
+    {
+      "question": "At what point in the bow and arrow sequence is the opponent past the point of no escape, and what indicates this?",
+      "answer": "The point of no escape occurs when three conditions align: deep four-finger collar grip with knuckles touching neck, leg extended across far hip creating full bow tension, and their body stretched in the characteristic bow shape with shoulders pinned. The key indicator is when you feel their body go tight against the stretch - they cannot turn toward or away from you, and their only remaining defense is grip fighting against an already secured collar. Once full extension is achieved with proper grip depth, the choke becomes biomechanically inescapable within 3-5 seconds.",
+      "safety_critical": false
+    },
+    {
+      "question": "How do you adjust your grip mechanics when the standard collar grip isn't producing carotid compression?",
+      "answer": "If the choke feels like an air choke rather than blood choke, your blade (forearm edge against the collar) is likely positioned on the trachea rather than the carotid. Rotate your wrist slightly outward so your forearm blade angles toward the side of the neck. Simultaneously, pull your elbow back toward your hip rather than across your body - this changes the angle of compression from frontal to lateral. The sensation should shift from your partner coughing or gasping to rapid onset of pressure behind the eyes and flushing in the face.",
+      "safety_critical": false
+    },
+    {
+      "question": "What specific breaking point indicators tell you the submission is working correctly before the tap?",
+      "answer": "Proper blood choke indicators include: opponent's face flushing red or turning purple, their defensive movements becoming sluggish or uncoordinated, hands weakening on grip defense, and a characteristic gurgling or deep breathing sound. You may also feel their body tension suddenly decrease as blood flow restriction affects consciousness. These signs appear within 5-8 seconds of proper application. If you see coughing, gagging, or hear choking sounds, you have an air choke and need to adjust angle for carotid targeting.",
+      "safety_critical": true
+    },
+    {
+      "question": "Your collar grip is secure but opponent is successfully turning their shoulders toward you - what immediate adjustment maintains the finish?",
+      "answer": "When opponent begins turning toward you, immediately increase leg extension pressure on their far hip to counter the rotation. Simultaneously, hip escape away from them to maintain the perpendicular angle needed for the choke. If they continue rotating despite this, follow their turn by transitioning to a mounted or top position while keeping the collar grip, then reestablish the bow-and-arrow from the new angle. The collar grip is your constant - as long as it remains deep, positional adjustments allow you to finish from multiple angles including during or after their rotation attempt.",
+      "safety_critical": false
     }
   ],
   "training_progressions_and_safety_protocols": [
@@ -321,7 +346,7 @@
     "Gift Wrap",
     "Harness",
     "Technical Mount",
-    "Cross Body Ride"
+    "Crucifix"
   ],
   "related_submissions": [
     "Bow and Arrow Choke",
@@ -330,12 +355,11 @@
     "Baseball Bat Choke",
     "Clock Choke",
     "Armbar from Back",
-    "Kimura from Turtle",
     "Triangle from Back",
     "Crucifix Submissions",
     "Choke from Crucifix",
     "Cross Collar Choke",
-    "Baseball Bat Choke Variations"
+    "Armbar from Back with Legs"
   ],
   "related_content": [
     {
@@ -363,16 +387,8 @@
       "relationship": "Common defensive position where opponent retreats when escaping bow-and-arrow attempts"
     },
     {
-      "name": "Back Take Generic",
-      "relationship": "Transition that establishes the back control required for bow-and-arrow variations"
-    },
-    {
-      "name": "Kimura to Back Take",
-      "relationship": "Entry sequence that leads to back control then bow-and-arrow finish"
-    },
-    {
-      "name": "Turtle to Back Control",
-      "relationship": "Common transition path that sets up bow-and-arrow opportunities"
+      "name": "Crucifix",
+      "relationship": "Advanced position accessible when opponent exposes arms during defense"
     },
     {
       "name": "Clock Choke",
@@ -385,6 +401,14 @@
     {
       "name": "Technical Mount",
       "relationship": "Transitional position during rolling bow-and-arrow variation execution"
+    },
+    {
+      "name": "Harness",
+      "relationship": "Upper body control configuration used during bow-and-arrow setup phase"
+    },
+    {
+      "name": "Armbar from Back",
+      "relationship": "Alternative submission when bow-and-arrow defense exposes the arm"
     }
   ]
 }

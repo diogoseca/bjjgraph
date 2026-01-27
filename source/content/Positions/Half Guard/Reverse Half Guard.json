@@ -50,6 +50,265 @@
       "relationship": "Standard half guard variation for comparison of defensive structures"
     }
   ],
+  "top": {
+    "name": "Reverse Half Guard Top",
+    "description": "Master Reverse Half Guard Top in BJJ. Complete guide covering control, passing strategies, and transitions. Success rates: Beginner 55%, Intermediate 70%, Advanced 85%.",
+    "tags": [
+      "bjj",
+      "position",
+      "half-guard",
+      "top",
+      "passing",
+      "reverse-half"
+    ],
+    "overview": "Reverse Half Guard Top occurs when the passer has successfully circled behind the bottom player's half guard, trapping their leg from behind. This advantageous position offers multiple high-percentage passing options, including back takes and leg drag passes. The reverse orientation disrupts the bottom player's traditional half guard defensive structure, making it difficult for them to recover their frames and underhooks. This position is particularly effective because it neutralizes many common half guard escapes and sweeps.\n\nThe reverse half guard top position represents a critical moment in passing sequences where the top player has gained a positional advantage but must consolidate it quickly before the bottom player can recover their guard structure. This position commonly arises from backstep movements during traditional half guard passing, or when circling to avoid the lockdown. The key to success is recognizing this as a transitional window of opportunity rather than a static control position.",
+    "state_properties": {
+      "point_value": 2,
+      "position_type": "Offensive",
+      "risk_level": "Medium",
+      "energy_cost": "Medium",
+      "time_sustainability": "Short"
+    },
+    "state_invariants": [
+      "Top player's hips positioned behind and to the side of bottom player's hips, with their trapped leg extending between bottom player's legs from the reverse angle, creating an awkward defensive geometry",
+      "Bottom player facing away from top player or at a severe angle, unable to establish traditional half guard frames or chest-to-chest connection, with their upper body twisted uncomfortably",
+      "Top player's chest pressure directed toward bottom player's hips from behind, with weight distribution preventing bottom player from rotating to face them or recovering full guard structure",
+      "Bottom player's half guard hook engaged on top player's leg but from a compromised reverse angle, limiting their ability to create sweeping leverage or maintain defensive posture"
+    ],
+    "prerequisites": [
+      "Successful backstep or circling movement from traditional half guard top position",
+      "Bottom player's half guard structure disrupted through angular change",
+      "Top player's leg trapped in half guard but from reverse orientation",
+      "Bottom player unable to maintain facing position or establish underhooks"
+    ],
+    "key_principles": [
+      "Maintain chest pressure directed toward opponent's hips to prevent rotation and re-facing",
+      "Keep low base with hips close to opponent to limit their mobility and space for recovery",
+      "Control the head with crossface from behind to freeze defensive movements",
+      "Immediately choose between back take or pass completion—this is a decision point, not a resting position",
+      "Prevent opponent from turning to face you by maintaining angular advantage and pressure",
+      "Use the threat of back control to force opponent into defensive reactions that open passing lanes",
+      "Work methodically to extract trapped leg while maintaining positional dominance"
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the primary strategic decision you must make immediately upon achieving reverse half guard top?",
+        "answer": "You must immediately choose between pursuing the back take or completing the guard pass. This position is a decision point, not a control position. Hesitation allows the bottom player to recover their defensive structure. If they turn toward you, take the back; if they flatten away, complete the pass to side control."
+      },
+      {
+        "question": "How do you prevent the bottom player from rotating to face you and recovering standard half guard?",
+        "answer": "Maintain constant chest pressure directed toward their hips from behind, keeping your weight low and heavy. Establish crossface control from the reverse angle by driving your shoulder or arm into their head. This pressure freezes their upper body rotation and prevents them from re-establishing frames or the underhook battle."
+      },
+      {
+        "question": "Your opponent starts turning their shoulders toward you to face you - what immediate action should you take?",
+        "answer": "This is your cue to take the back. Their rotation exposes their back, so immediately transition to back control by inserting hooks and establishing seat belt grip. Do not fight to prevent their turn - instead, use their movement to secure the superior back control position."
+      },
+      {
+        "question": "What happens if you stay static in reverse half guard top without advancing?",
+        "answer": "The position favors movement, not static control. Staying static gives the bottom player time to identify escape routes, recover their guard structure, and potentially sweep you. The reverse half guard top is inherently unstable as a holding position - you must immediately advance to back take or pass completion."
+      },
+      {
+        "question": "How should you adjust your weight distribution when the bottom player tries to create space by shrimping?",
+        "answer": "Keep your hips low and heavy, driving your weight into their hips rather than staying high. When they shrimp, follow their hip movement while maintaining chest pressure. Use the smash pass or pressure pass to cut off their space creation and complete the guard pass to side control."
+      },
+      {
+        "question": "What grip and pressure should you maintain to control the trapped leg while setting up your pass?",
+        "answer": "Control the trapped leg by maintaining hip pressure that pins it between your body and theirs. Your chest should drive toward their hips, creating a wedge effect. This allows you to work methodically on leg extraction while maintaining positional dominance. Don't rush the extraction - controlled pressure prevents their recovery."
+      },
+      {
+        "question": "Your opponent reaches for an underhook while you're in reverse half guard top - how do you capitalize on this?",
+        "answer": "Their reaching arm exposes them to kimura attacks. Secure a kimura grip on their reaching arm and use it to either submit them or transition to kimura control position. Alternatively, use their extended arm as leverage to complete your pass by driving a crossface and sliding through to north-south or side control."
+      },
+      {
+        "question": "What distinguishes a successful back take attempt versus a failed one from reverse half guard top?",
+        "answer": "Success depends on timing with the opponent's defensive movement. Successful back takes occur when the opponent turns toward you, exposing their back - you follow their rotation and insert hooks. Failed attempts happen when you force the back take against a flattened opponent who hasn't committed to turning. Read their defensive reaction first."
+      }
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent attempts to turn and face you by rotating their chest toward you",
+        "actions": [
+          {
+            "technique": "Aoki Lock to Back Control",
+            "target": "Back Control",
+            "probability": 70
+          },
+          {
+            "technique": "Crab Ride to Back",
+            "target": "Crab Ride",
+            "probability": 60
+          }
+        ]
+      },
+      {
+        "condition": "If opponent flattens defensively to their stomach to prevent the back take",
+        "actions": [
+          {
+            "technique": "Leg Drag Pass",
+            "target": "Side Control",
+            "probability": 75
+          },
+          {
+            "technique": "Knee Slice from Half",
+            "target": "Side Control",
+            "probability": 65
+          }
+        ]
+      },
+      {
+        "condition": "If opponent attempts to recover full guard by shrimping away",
+        "actions": [
+          {
+            "technique": "Smash Pass",
+            "target": "Side Control",
+            "probability": 60
+          },
+          {
+            "technique": "Pressure Pass",
+            "target": "Side Control",
+            "probability": 65
+          }
+        ]
+      },
+      {
+        "condition": "If opponent reaches for underhook to recover half guard structure",
+        "actions": [
+          {
+            "technique": "Kimura from Half Guard",
+            "target": "Kimura Trap",
+            "probability": 55
+          },
+          {
+            "technique": "Crossface Pass",
+            "target": "North-South",
+            "probability": 60
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Allowing opponent to turn and face you by failing to maintain chest pressure from behind",
+        "consequence": "Opponent regains their defensive frames and half guard structure, negating your positional advantage and allowing them to re-establish their sweep and submission threats",
+        "correction": "Immediately establish crossface control from behind and maintain chest pressure toward their hips. Use your weight to prevent rotation and keep them facing away from you"
+      },
+      {
+        "error": "Staying static in reverse half guard without immediately advancing to back take or pass completion",
+        "consequence": "This position is inherently unstable and favors movement—staying static allows opponent time to identify escape routes and recover their guard structure",
+        "correction": "Immediately choose either back take or pass completion and commit to that action. This is a decision point, not a control position—hesitation loses the advantage"
+      },
+      {
+        "error": "Failing to control the head with crossface from the reverse angle",
+        "consequence": "Opponent can freely move their upper body to establish frames, turn into you, or create escape angles that neutralize your reverse position advantage",
+        "correction": "Establish strong crossface control from behind using your arm or shoulder pressure against their head, preventing rotation and freezing their defensive movements"
+      },
+      {
+        "error": "Standing up too high or lifting hips away from opponent during the transition",
+        "consequence": "Creates space underneath for opponent to recover guard, insert knee shield, or escape their hips away from your control, losing the passing opportunity",
+        "correction": "Keep your hips low and heavy on opponent throughout the transition, maintaining constant pressure that prevents space creation and guard recovery"
+      },
+      {
+        "error": "Ignoring the back take opportunity and forcing a pass when opponent is turning toward you",
+        "consequence": "Missing the higher-percentage back control option and potentially allowing opponent to re-establish half guard frames during your forced passing attempt",
+        "correction": "Read opponent's defensive reactions—if they turn toward you, take the back; if they flatten away, complete the pass. Let their movement dictate your choice"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Reverse Half Guard Decision Drill",
+        "description": "Start in reverse half guard top position. Partner alternates between turning toward you (triggering back take) and flattening away (triggering pass completion). Practice reading defensive reactions and choosing the appropriate finish within 3 seconds.",
+        "duration": "5 minutes per partner"
+      },
+      {
+        "name": "Backstep to Reverse Half Flow Drill",
+        "description": "Start in traditional half guard top. Execute backstep movement to enter reverse half guard, then immediately finish with either back take or leg drag pass. Reset and repeat, focusing on smooth transitions and maintaining pressure throughout.",
+        "duration": "8 minutes continuous flow"
+      },
+      {
+        "name": "Reverse Half Guard Resistance Progression",
+        "description": "Start with cooperative partner in reverse half guard. Progress through: no resistance (technique refinement), 25% resistance (timing practice), 50% resistance (decision-making under pressure), 75% resistance (competition simulation). Focus on maintaining control and finishing within 10 seconds at each resistance level.",
+        "duration": "10 minutes with progressive resistance"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Half Guard",
+        "relationship": "Parent position from which reverse half guard is entered"
+      },
+      {
+        "name": "Back Control",
+        "relationship": "Primary advancement target when opponent turns to face you"
+      },
+      {
+        "name": "Side Control",
+        "relationship": "Primary passing completion target when opponent flattens defensively"
+      },
+      {
+        "name": "Leg Drag Position",
+        "relationship": "Common passing variation from reverse half guard"
+      },
+      {
+        "name": "Crab Ride",
+        "relationship": "Transitional position when pursuing back control"
+      },
+      {
+        "name": "Truck",
+        "relationship": "Alternative back attack entry from reverse half guard"
+      },
+      {
+        "name": "Knee Shield Half Guard",
+        "relationship": "Position opponent attempts to recover from reverse half"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "beginner": 30,
+        "intermediate": 50,
+        "advanced": 70
+      },
+      "advancement_probability": {
+        "beginner": 55,
+        "intermediate": 70,
+        "advanced": 85
+      },
+      "submission_probability": {
+        "beginner": 20,
+        "intermediate": 35,
+        "advanced": 50
+      },
+      "average_time": "10-20 seconds"
+    },
+    "transitions": [
+      {
+        "transition": "Aoki Lock to Back Control",
+        "attempt_probability": 15
+      },
+      {
+        "transition": "Leg Drag Pass",
+        "attempt_probability": 19
+      },
+      {
+        "transition": "Knee Slice from Half",
+        "attempt_probability": 14
+      },
+      {
+        "transition": "Side Control to Mount",
+        "attempt_probability": 13
+      },
+      {
+        "transition": "Crossface Pass",
+        "attempt_probability": 14
+      },
+      {
+        "transition": "Turtle to Truck",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Smash Pass",
+        "attempt_probability": 13
+      }
+    ]
+  },
   "bottom": {
     "name": "Reverse Half Guard Bottom",
     "description": "Master Reverse Half Guard Bottom in BJJ. Inverted half guard position with unique sweeps and back takes. Success rates: Beginner 40%, Intermediate 55%, Advanced 70%.",
@@ -92,137 +351,38 @@
       "Hip Mobility: Use hip rotation and movement to create sweep angles and back take opportunities through explosive directional changes",
       "Transition Readiness: Recognize this as transitional position requiring quick offensive action rather than sustained defensive holding"
     ],
-    "offensive_transitions": [
+    "knowledge_assessment": [
       {
-        "technique": "Old School Sweep",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 50,
-          "advanced": 65
-        }
+        "question": "What is the most critical element for maintaining the reverse half guard position?",
+        "answer": "Secure leg control is the most critical element. You must maintain tight clamping on the opponent's trapped leg using both of your legs with constant active tension. Without strong leg control, the opponent extracts their leg and passes immediately. Use hip pressure and continuous squeezing to prevent any space for leg removal."
       },
       {
-        "technique": "Half Guard to Back Take",
-        "target_position": "Back Control",
-        "success_rates": {
-          "beginner": 40,
-          "intermediate": 55,
-          "advanced": 70
-        }
+        "question": "How do you protect your back while in the inverted reverse half guard configuration?",
+        "answer": "Keep your chin tucked to your chest and maintain defensive hand positioning to protect your neck. Monitor the opponent's arm movements and immediately address any attempt to establish seat belt grips or hooks. One hand should always be ready to defend against neck attacks while the other controls the opponent's posture."
       },
       {
-        "technique": "Rolling Back Take",
-        "target_position": "Back Control",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 45,
-          "advanced": 60
-        }
+        "question": "Your opponent drives heavy forward pressure into you - what sweep opportunity does this create?",
+        "answer": "Heavy forward pressure creates the ideal timing for the rolling back take or momentum-based sweeps. Use their committed weight against them by timing your rotation or sweep to coincide with their forward drive. The more they commit forward, the easier it is to redirect their momentum into a sweep or back exposure."
       },
       {
-        "technique": "Hip Bump Sweep",
-        "target_position": "Mount",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 40,
-          "advanced": 55
-        }
+        "question": "When should you abandon your sweep attempt and recover to standard half guard?",
+        "answer": "Recover to standard half guard when the opponent backs away, reduces forward pressure, or when you cannot find good timing for your sweep. If their weight is neutral or backward rather than forward, sweep attempts will fail. Also recover if they establish strong crossface control that prevents your rotation - address the control first."
       },
       {
-        "technique": "Transition to Truck",
-        "target_position": "Truck",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 50,
-          "advanced": 65
-        }
+        "question": "What happens if you remain static in reverse half guard bottom without attacking?",
+        "answer": "The opponent settles their weight, establishes controlling grips, and methodically passes or takes your back. Reverse half guard bottom is a transitional position requiring immediate offensive action. You must attack within 2-3 seconds of establishing the position. Static defense allows the opponent time to stabilize and advance."
       },
       {
-        "technique": "Re-Guard",
-        "target_position": "Half Guard",
-        "success_rates": {
-          "beginner": 45,
-          "intermediate": 60,
-          "advanced": 75
-        }
+        "question": "How do you time your sweep attempt for maximum effectiveness?",
+        "answer": "Wait for the opponent to commit their weight forward before initiating. Feel for the moment when their base is compromised by forward pressure - this is when their weight is over their knees rather than their hips. Execute the sweep explosively when this timing window opens. If their weight is neutral, wait or reposition rather than forcing a low-percentage attempt."
       },
       {
-        "technique": "Underhook Sweep from Half",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 45,
-          "advanced": 60
-        }
+        "question": "Your opponent posts their hand to prevent your rotation - how do you capitalize on this?",
+        "answer": "Their posting hand creates the perfect setup for the old school sweep. When they post to establish base, their weight shifts and they become vulnerable to being swept in the opposite direction. Use your underhook to lift and off-balance them over their posted hand while controlling their trapped leg."
       },
       {
-        "technique": "Deep Half Entry",
-        "target_position": "Deep Half Guard",
-        "success_rates": {
-          "beginner": 40,
-          "intermediate": 55,
-          "advanced": 70
-        }
-      }
-    ],
-    "defensive_responses": [
-      {
-        "technique": "Knee Slice Pass",
-        "target_position": "Side Control",
-        "success_rate": 45
-      },
-      {
-        "technique": "Half Guard Pass",
-        "target_position": "Side Control",
-        "success_rate": 50
-      },
-      {
-        "technique": "Underhook Pass",
-        "target_position": "Side Control",
-        "success_rate": 40
-      },
-      {
-        "technique": "Transition to Mount",
-        "target_position": "Mount",
-        "success_rate": 35
-      },
-      {
-        "technique": "Back Take Generic",
-        "target_position": "Back Control",
-        "success_rate": 55
-      },
-      {
-        "technique": "Sprawl",
-        "target_position": "Turtle",
-        "success_rate": 30
-      }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Rolling Back Take",
-        "target_position": "Back Control",
-        "trigger": "Opponent attempts to flatten you or secure crossface control"
-      },
-      {
-        "technique": "Deep Half Entry",
-        "target_position": "Deep Half Guard",
-        "trigger": "Opponent drives forward with heavy pressure to pass"
-      },
-      {
-        "technique": "Old School Sweep",
-        "target_position": "Side Control",
-        "trigger": "Opponent posts hand or shifts weight to control upper body"
-      },
-      {
-        "technique": "Transition to Truck",
-        "target_position": "Truck",
-        "trigger": "Opponent attempts to take back but you intercept with rotation"
-      },
-      {
-        "technique": "Re-Guard",
-        "target_position": "Half Guard",
-        "trigger": "Opponent backs away or reduces forward pressure"
+        "question": "What are the key differences between attacking from reverse half guard versus standard half guard?",
+        "answer": "Reverse half guard emphasizes momentum-based attacks using opponent's forward pressure, while standard half guard allows more methodical underhook-based sweeps. The inverted orientation creates unique rolling back take opportunities but increases back exposure risk. Attacks must be more explosive and timed with opponent's weight commitment rather than built through sustained control."
       }
     ],
     "decision_tree": [
@@ -260,7 +420,7 @@
         "condition": "If opponent attempts to extract trapped leg or backs away to create distance",
         "actions": [
           {
-            "technique": "Re-Guard",
+            "technique": "Butterfly Hook Recovery",
             "target": "Half Guard",
             "probability": 65
           },
@@ -275,7 +435,7 @@
         "condition": "If opponent reaches for back control with hooks or seat belt grip",
         "actions": [
           {
-            "technique": "Transition to Truck",
+            "technique": "Turtle to Truck",
             "target": "Truck",
             "probability": 50
           },
@@ -341,28 +501,6 @@
         "duration": "5-minute rounds with positional reset"
       }
     ],
-    "optimal_submission_paths": [
-      {
-        "name": "Back Attack Path",
-        "path": "Reverse Half Guard Bottom → Rolling Back Take → Back Control → Rear Naked Choke"
-      },
-      {
-        "name": "Top Control to Submission",
-        "path": "Reverse Half Guard Bottom → Old School Sweep → Side Control → Kimura from Side Control"
-      },
-      {
-        "name": "Leg Lock Entry",
-        "path": "Reverse Half Guard Bottom → Deep Half Entry → Deep Half Guard → Outside Ashi-Garami → Heel Hook"
-      },
-      {
-        "name": "Truck System Path",
-        "path": "Reverse Half Guard Bottom → Transition to Truck → Truck → Twister"
-      },
-      {
-        "name": "Mount Dominance Path",
-        "path": "Reverse Half Guard Bottom → Hip Bump Sweep → Mount → Armbar from Mount"
-      }
-    ],
     "related_content": [
       {
         "name": "Half Guard",
@@ -418,341 +556,40 @@
         "advanced": 50
       },
       "average_time": "15-30 seconds (transitional position)"
-    }
-  },
-  "top": {
-    "name": "Reverse Half Guard Top",
-    "description": "Master Reverse Half Guard Top in BJJ. Complete guide covering control, passing strategies, and transitions. Success rates: Beginner 55%, Intermediate 70%, Advanced 85%.",
-    "tags": [
-      "bjj",
-      "position",
-      "half-guard",
-      "top",
-      "passing",
-      "reverse-half"
-    ],
-    "overview": "Reverse Half Guard Top occurs when the passer has successfully circled behind the bottom player's half guard, trapping their leg from behind. This advantageous position offers multiple high-percentage passing options, including back takes and leg drag passes. The reverse orientation disrupts the bottom player's traditional half guard defensive structure, making it difficult for them to recover their frames and underhooks. This position is particularly effective because it neutralizes many common half guard escapes and sweeps.\n\nThe reverse half guard top position represents a critical moment in passing sequences where the top player has gained a positional advantage but must consolidate it quickly before the bottom player can recover their guard structure. This position commonly arises from backstep movements during traditional half guard passing, or when circling to avoid the lockdown. The key to success is recognizing this as a transitional window of opportunity rather than a static control position.",
-    "state_properties": {
-      "point_value": 2,
-      "position_type": "Offensive",
-      "risk_level": "Medium",
-      "energy_cost": "Medium",
-      "time_sustainability": "Short"
     },
-    "state_invariants": [
-      "Top player's hips positioned behind and to the side of bottom player's hips, with their trapped leg extending between bottom player's legs from the reverse angle, creating an awkward defensive geometry",
-      "Bottom player facing away from top player or at a severe angle, unable to establish traditional half guard frames or chest-to-chest connection, with their upper body twisted uncomfortably",
-      "Top player's chest pressure directed toward bottom player's hips from behind, with weight distribution preventing bottom player from rotating to face them or recovering full guard structure",
-      "Bottom player's half guard hook engaged on top player's leg but from a compromised reverse angle, limiting their ability to create sweeping leverage or maintain defensive posture"
-    ],
-    "prerequisites": [
-      "Successful backstep or circling movement from traditional half guard top position",
-      "Bottom player's half guard structure disrupted through angular change",
-      "Top player's leg trapped in half guard but from reverse orientation",
-      "Bottom player unable to maintain facing position or establish underhooks"
-    ],
-    "key_principles": [
-      "Maintain chest pressure directed toward opponent's hips to prevent rotation and re-facing",
-      "Keep low base with hips close to opponent to limit their mobility and space for recovery",
-      "Control the head with crossface from behind to freeze defensive movements",
-      "Immediately choose between back take or pass completion—this is a decision point, not a resting position",
-      "Prevent opponent from turning to face you by maintaining angular advantage and pressure",
-      "Use the threat of back control to force opponent into defensive reactions that open passing lanes",
-      "Work methodically to extract trapped leg while maintaining positional dominance"
-    ],
-    "offensive_transitions": [
+    "transitions": [
       {
-        "technique": "Transition to Back Control",
-        "target_position": "Back Control",
-        "success_rates": {
-          "beginner": 45,
-          "intermediate": 60,
-          "advanced": 75
-        }
+        "transition": "Old School Sweep",
+        "attempt_probability": 14
       },
       {
-        "technique": "Leg Drag Pass",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 50,
-          "intermediate": 65,
-          "advanced": 80
-        }
+        "transition": "Half Guard to Back Take",
+        "attempt_probability": 15
       },
       {
-        "technique": "Knee Slice from Half",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 40,
-          "intermediate": 55,
-          "advanced": 70
-        }
+        "transition": "Rolling Back Take",
+        "attempt_probability": 14
       },
       {
-        "technique": "Transition to Mount",
-        "target_position": "Mount",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 50,
-          "advanced": 65
-        }
+        "transition": "Hip Bump Sweep",
+        "attempt_probability": 12
       },
       {
-        "technique": "Crossface Pass",
-        "target_position": "North-South",
-        "success_rates": {
-          "beginner": 40,
-          "intermediate": 55,
-          "advanced": 70
-        }
+        "transition": "Turtle to Truck",
+        "attempt_probability": 13
       },
       {
-        "technique": "Transition to Truck",
-        "target_position": "Truck",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 45,
-          "advanced": 60
-        }
+        "transition": "Butterfly Hook Recovery",
+        "attempt_probability": 10
       },
       {
-        "technique": "Smash Pass",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 50,
-          "advanced": 65
-        }
+        "transition": "Underhook Sweep from Half",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Deep Half Entry",
+        "attempt_probability": 12
       }
-    ],
-    "defensive_responses": [
-      {
-        "technique": "Hip Escape",
-        "target_position": "Half Guard",
-        "success_rate": 35
-      },
-      {
-        "technique": "Granby Roll",
-        "target_position": "Closed Guard",
-        "success_rate": 25
-      },
-      {
-        "technique": "Technical Standup",
-        "target_position": "Standing Position",
-        "success_rate": 20
-      },
-      {
-        "technique": "Re-Guard",
-        "target_position": "Open Guard",
-        "success_rate": 30
-      },
-      {
-        "technique": "Turtle Transition",
-        "target_position": "Turtle",
-        "success_rate": 40
-      }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Back Step",
-        "target_position": "Back Control",
-        "trigger": "Opponent attempts to turn and face you"
-      },
-      {
-        "technique": "Pressure Pass",
-        "target_position": "Side Control",
-        "trigger": "Opponent flattens out defensively"
-      },
-      {
-        "technique": "Kimura from Half Guard",
-        "target_position": "Kimura Control",
-        "trigger": "Opponent reaches to establish underhook"
-      },
-      {
-        "technique": "Crab Ride to Back",
-        "target_position": "Crab Ride",
-        "trigger": "Opponent tries to turn into turtle position"
-      }
-    ],
-    "decision_tree": [
-      {
-        "condition": "If opponent attempts to turn and face you by rotating their chest toward you",
-        "actions": [
-          {
-            "technique": "Transition to Back Control",
-            "target": "Back Control",
-            "probability": 70
-          },
-          {
-            "technique": "Crab Ride to Back",
-            "target": "Crab Ride",
-            "probability": 60
-          }
-        ]
-      },
-      {
-        "condition": "If opponent flattens defensively to their stomach to prevent the back take",
-        "actions": [
-          {
-            "technique": "Leg Drag Pass",
-            "target": "Side Control",
-            "probability": 75
-          },
-          {
-            "technique": "Knee Slice from Half",
-            "target": "Side Control",
-            "probability": 65
-          }
-        ]
-      },
-      {
-        "condition": "If opponent attempts to recover full guard by shrimping away",
-        "actions": [
-          {
-            "technique": "Smash Pass",
-            "target": "Side Control",
-            "probability": 60
-          },
-          {
-            "technique": "Pressure Pass",
-            "target": "Side Control",
-            "probability": 65
-          }
-        ]
-      },
-      {
-        "condition": "If opponent reaches for underhook to recover half guard structure",
-        "actions": [
-          {
-            "technique": "Kimura from Half Guard",
-            "target": "Kimura Control",
-            "probability": 55
-          },
-          {
-            "technique": "Crossface Pass",
-            "target": "North-South",
-            "probability": 60
-          }
-        ]
-      }
-    ],
-    "common_errors": [
-      {
-        "error": "Allowing opponent to turn and face you by failing to maintain chest pressure from behind",
-        "consequence": "Opponent regains their defensive frames and half guard structure, negating your positional advantage and allowing them to re-establish their sweep and submission threats",
-        "correction": "Immediately establish crossface control from behind and maintain chest pressure toward their hips. Use your weight to prevent rotation and keep them facing away from you"
-      },
-      {
-        "error": "Staying static in reverse half guard without immediately advancing to back take or pass completion",
-        "consequence": "This position is inherently unstable and favors movement—staying static allows opponent time to identify escape routes and recover their guard structure",
-        "correction": "Immediately choose either back take or pass completion and commit to that action. This is a decision point, not a control position—hesitation loses the advantage"
-      },
-      {
-        "error": "Failing to control the head with crossface from the reverse angle",
-        "consequence": "Opponent can freely move their upper body to establish frames, turn into you, or create escape angles that neutralize your reverse position advantage",
-        "correction": "Establish strong crossface control from behind using your arm or shoulder pressure against their head, preventing rotation and freezing their defensive movements"
-      },
-      {
-        "error": "Standing up too high or lifting hips away from opponent during the transition",
-        "consequence": "Creates space underneath for opponent to recover guard, insert knee shield, or escape their hips away from your control, losing the passing opportunity",
-        "correction": "Keep your hips low and heavy on opponent throughout the transition, maintaining constant pressure that prevents space creation and guard recovery"
-      },
-      {
-        "error": "Ignoring the back take opportunity and forcing a pass when opponent is turning toward you",
-        "consequence": "Missing the higher-percentage back control option and potentially allowing opponent to re-establish half guard frames during your forced passing attempt",
-        "correction": "Read opponent's defensive reactions—if they turn toward you, take the back; if they flatten away, complete the pass. Let their movement dictate your choice"
-      }
-    ],
-    "training_drills": [
-      {
-        "name": "Reverse Half Guard Decision Drill",
-        "description": "Start in reverse half guard top position. Partner alternates between turning toward you (triggering back take) and flattening away (triggering pass completion). Practice reading defensive reactions and choosing the appropriate finish within 3 seconds.",
-        "duration": "5 minutes per partner"
-      },
-      {
-        "name": "Backstep to Reverse Half Flow Drill",
-        "description": "Start in traditional half guard top. Execute backstep movement to enter reverse half guard, then immediately finish with either back take or leg drag pass. Reset and repeat, focusing on smooth transitions and maintaining pressure throughout.",
-        "duration": "8 minutes continuous flow"
-      },
-      {
-        "name": "Reverse Half Guard Resistance Progression",
-        "description": "Start with cooperative partner in reverse half guard. Progress through: no resistance (technique refinement), 25% resistance (timing practice), 50% resistance (decision-making under pressure), 75% resistance (competition simulation). Focus on maintaining control and finishing within 10 seconds at each resistance level.",
-        "duration": "10 minutes with progressive resistance"
-      }
-    ],
-    "optimal_submission_paths": [
-      {
-        "name": "Back Attack Path",
-        "path": "Reverse Half Guard Top → Back Control → Rear Naked Choke"
-      },
-      {
-        "name": "Passing to Submission Path",
-        "path": "Reverse Half Guard Top → Side Control → Kimura from Side Control"
-      },
-      {
-        "name": "Kimura Trap Path",
-        "path": "Reverse Half Guard Top → Kimura Control → Kimura from Half Guard"
-      },
-      {
-        "name": "Mount Attack Path",
-        "path": "Reverse Half Guard Top → Mount → Americana from Mount"
-      }
-    ],
-    "related_content": [
-      {
-        "name": "Half Guard",
-        "relationship": "Parent position from which reverse half guard is entered"
-      },
-      {
-        "name": "Back Control",
-        "relationship": "Primary advancement target when opponent turns to face you"
-      },
-      {
-        "name": "Side Control",
-        "relationship": "Primary passing completion target when opponent flattens defensively"
-      },
-      {
-        "name": "Reverse Half Guard Bottom",
-        "relationship": "Opponent's perspective of this position"
-      },
-      {
-        "name": "Leg Drag Position",
-        "relationship": "Common passing variation from reverse half guard"
-      },
-      {
-        "name": "Crab Ride",
-        "relationship": "Transitional position when pursuing back control"
-      },
-      {
-        "name": "Truck",
-        "relationship": "Alternative back attack entry from reverse half guard"
-      },
-      {
-        "name": "Knee Shield Half Guard",
-        "relationship": "Position opponent attempts to recover from reverse half"
-      },
-      {
-        "name": "Back Step",
-        "relationship": "Entry technique used to achieve reverse half guard"
-      }
-    ],
-    "position_metrics": {
-      "retention_rate": {
-        "beginner": 30,
-        "intermediate": 50,
-        "advanced": 70
-      },
-      "advancement_probability": {
-        "beginner": 55,
-        "intermediate": 70,
-        "advanced": 85
-      },
-      "submission_probability": {
-        "beginner": 20,
-        "intermediate": 35,
-        "advanced": 50
-      },
-      "average_time": "10-20 seconds"
-    }
+    ]
   }
 }

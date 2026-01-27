@@ -440,4 +440,14 @@ The Flying Kneebar is an advanced, dynamic leg lock submission that involves jum
 
 </section>
 
+<section id="terminal-state" class="content-section">
+
+## Match Outcome
+
+Successful execution of Flying Kneebar leads to → [[game-over|Game Over]]
+
+*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+
+</section>
+
 </main>

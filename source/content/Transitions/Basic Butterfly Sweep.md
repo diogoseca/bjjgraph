@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Basic Butterfly Sweep | BJJ Technique | BJJ Graph"
 description: "Learn the Basic Butterfly Sweep in BJJ. Step-by-step execution from Butterfly Guard to Mount or Side Control. Success rates: Beginner 40%, Intermediate 55%, Advanced 70%."
@@ -16,7 +17,7 @@ description: "Learn the Basic Butterfly Sweep in BJJ. Step-by-step execution fro
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Basic Butterfly Sweep in BJJ",
-  "description": "Step-by-step guide for Basic Butterfly Sweep from Butterfly Guard to Mount.",
+  "description": "Step-by-step guide for Basic Butterfly Sweep from Butterfly Guard/Bottom. Possible outcomes: Mount/Top (70%), Butterfly Guard/Bottom (20%), Butterfly Guard/Top (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -160,11 +161,25 @@ description: "Learn the Basic Butterfly Sweep in BJJ. Step-by-step execution fro
 
 The Basic Butterfly Sweep is a fundamental technique from the Butterfly Guard that exploits opponent's forward pressure and balance. Using hooks underneath the opponent's thighs combined with proper grip control and hip movement, the practitioner elevates and off-balances the opponent to achieve a dominant top position. This sweep is highly effective against opponents who attempt to establish base in your butterfly guard or pressure forward without proper posture. The technique relies on timing, leverage, and the mechanical advantage created by the butterfly hooks rather than pure strength. When executed properly, the Basic Butterfly Sweep can transition smoothly into mount, side control, or back control depending on the opponent's defensive reactions. This is considered an essential technique for all BJJ practitioners and forms the foundation for more advanced butterfly guard sweeping systems.
 
-**Starting Position**: [[Butterfly Guard]]
-**Ending Position**: [[Mount]]
+**From Position**: [[Butterfly Guard/Bottom]]
 **Success Rates**: Beginner 40%, Intermediate 55%, Advanced 70%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Mount/Top]] | 70% |
+| Failure | [[Butterfly Guard/Bottom]] | 20% |
+| Counter | [[Butterfly Guard/Top]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

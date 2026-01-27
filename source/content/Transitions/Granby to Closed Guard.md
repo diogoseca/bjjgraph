@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Granby to Closed Guard | BJJ Technique | BJJ Graph"
 description: "Learn Granby to Closed Guard recovery technique. Master Granby roll mechanics to recover guard from compromised positions. Beginner 35%, Intermediate 50%, Advanced 65%."
@@ -16,7 +17,7 @@ description: "Learn Granby to Closed Guard recovery technique. Master Granby rol
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Granby to Closed Guard in BJJ",
-  "description": "Step-by-step guide for Granby to Closed Guard from Turtle to Closed Guard.",
+  "description": "Step-by-step guide for Granby to Closed Guard from Turtle/Top. Possible outcomes: Closed Guard/Bottom (65%), Turtle/Top (25%), Turtle/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -158,11 +159,25 @@ The technique is particularly valuable because it works against forward pressure
 
 Mastery of the Granby to Closed Guard provides practitioners with a reliable escape route from dangerous positions, reducing the effectiveness of common pinning attacks and creating opportunities to return to offensive guard play. The technique requires good body awareness, hip mobility, and timing, but once developed becomes an instinctive defensive reaction that can save matches.
 
-**Starting Position**: [[Turtle]]
-**Ending Position**: [[Closed Guard]]
+**From Position**: [[Turtle/Top]]
 **Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Closed Guard/Bottom]] | 65% |
+| Failure | [[Turtle/Top]] | 25% |
+| Counter | [[Turtle/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

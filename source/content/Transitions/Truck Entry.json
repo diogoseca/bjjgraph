@@ -13,8 +13,6 @@
     "no-gi",
     "10th planet"
   ],
-  "starting_position": "Turtle",
-  "ending_position": "Truck",
   "success_rates": {
     "beginner": 35,
     "intermediate": 50,
@@ -282,6 +280,24 @@
     {
       "name": "Electric Chair Submission",
       "relationship": "Related system attack"
+    }
+  ],
+  "from_position": "Turtle/Top",
+  "outcomes": [
+    {
+      "to": "Truck/Top",
+      "probability": 65,
+      "result": "success"
+    },
+    {
+      "to": "Turtle/Top",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Turtle/Bottom",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

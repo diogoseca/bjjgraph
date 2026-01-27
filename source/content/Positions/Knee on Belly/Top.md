@@ -20,38 +20,38 @@ description: "Master Knee on Belly Top control in BJJ. Dynamic offensive positio
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Mount",
-      "text": "From this position, execute Transition to Mount to transition to Mount. Success rate for advanced practitioners: 75%.",
+      "name": "Execute Side Control to Mount",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 22% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Armbar from Side Control",
-      "text": "From this position, execute Armbar from Side Control to transition to Armbar Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Armbar from Side Control. This technique is attempted in 14% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Baseball Bat Choke",
-      "text": "From this position, execute Baseball Bat Choke to transition to Baseball Bat Choke. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Baseball Bat Choke. This technique is attempted in 16% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to North-South",
-      "text": "From this position, execute Transition to North-South to transition to North-South. Success rate for advanced practitioners: 80%.",
+      "name": "Execute Side Control to North-South",
+      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 15% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Side Control to Mount",
-      "text": "From this position, execute Side Control to Mount to transition to Side Control. Success rate for advanced practitioners: 70%.",
+      "name": "Execute Kimura from Side Control",
+      "text": "From this position, attempt Kimura from Side Control. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kimura from Side Control",
-      "text": "From this position, execute Kimura from Side Control to transition to Kimura Control. Success rate for advanced practitioners: 65%.",
+      "name": "Execute Back Take Generic",
+      "text": "From this position, attempt Back Take Generic. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -209,91 +209,20 @@ Knee on Belly Top is a highly effective transitional control position where the 
 
 ## Available Attacks
 
-### [[Transition to Mount]] → [[Mount]]
+### [[Side Control to Mount]] (22% of attempts)
 
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 60%
-- Advanced: 75%
+### [[Armbar from Side Control]] (14% of attempts)
 
-### [[Armbar from Side Control]] → [[Armbar Control]]
+### [[Baseball Bat Choke]] (16% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Side Control to North-South]] (15% of attempts)
 
-### [[Baseball Bat Choke]] → [[Baseball Bat Choke]]
+### [[Kimura from Side Control]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Back Take Generic]] (10% of attempts)
 
-### [[Transition to North-South]] → [[North-South]]
+### [[S Mount Transition]] (11% of attempts)
 
-**Success Rates:**
-- Beginner: 50%
-- Intermediate: 65%
-- Advanced: 80%
-
-### [[Side Control to Mount]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
-
-### [[Kimura from Side Control]] → [[Kimura Control]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-### [[Back Take Generic]] → [[Back Control]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-### [[S Mount Transition]] → [[S Mount]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Elbow Escape]]** → [[Half Guard]] (Opponent Success: 35%)
-- **[[Shrimp Escape]]** → [[Open Guard]] (Opponent Success: 30%)
-- **[[Frame and Shrimp]]** → [[Open Guard]] (Opponent Success: 25%)
-- **[[Technical Standup]]** → [[Standing Position]] (Opponent Success: 20%)
-- **[[Hip Escape]]** → [[Closed Guard]] (Opponent Success: 25%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Transition to Mount]]** → [[Mount]]
-  - Opponent creates space by pushing knee away
-- **[[Back Take Generic]]** → [[Back Control]]
-  - Opponent turns to their side attempting to escape
-- **[[Armbar from Side Control]]** → [[Armbar Control]]
-  - Opponent extends arms to create frames
-- **[[Transition to North-South]]** → [[North-South]]
-  - Opponent attempts to bridge or escape toward head side
 
 
 </section>
@@ -303,22 +232,22 @@ Knee on Belly Top is a highly effective transitional control position where the 
 ## Decision Making from This Position
 
 **If opponent remains flat and defensive without creating frames:**
-- Execute **[[Baseball Bat Choke]]** → [[Baseball Bat Choke]] (Probability: 55%)
-- Execute **[[Transition to Mount]]** → [[Mount]] (Probability: 65%)
+- Execute **[[Baseball Bat Choke]]** → [[game-over]] (Probability: 55%)
+- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 65%)
 
 
 **If opponent pushes against knee or creates frames with arms:**
 - Execute **[[Armbar from Side Control]]** → [[Armbar Control]] (Probability: 60%)
-- Execute **[[Kimura from Side Control]]** → [[Kimura Control]] (Probability: 55%)
+- Execute **[[Kimura from Side Control]]** → [[Kimura Trap]] (Probability: 55%)
 
 
 **If opponent turns to side attempting to escape:**
 - Execute **[[Back Take Generic]]** → [[Back Control]] (Probability: 50%)
-- Execute **[[Transition to North-South]]** → [[North-South]] (Probability: 70%)
+- Execute **[[Side Control to North-South]]** → [[North-South]] (Probability: 70%)
 
 
 **If opponent successfully creates space by shrimping away:**
-- Execute **[[Side Control to Mount]]** → [[Side Control]] (Probability: 75%)
+- Execute **[[Side Control Maintenance]]** → [[Side Control]] (Probability: 75%)
 - Execute **[[Knee Slice Pass]]** → [[Side Control]] (Probability: 65%)
 
 
@@ -400,33 +329,39 @@ Partner gives feedback on pressure levels as you experiment with different weigh
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### High-percentage armbar path
+## Test Your Knowledge
 
-`Knee on Belly Top → Armbar from Side Control (when opponent frames) → Armbar Control → Straight Armbar`
+**Q1**: What is the optimal knee placement for maximum pressure and control in Knee on Belly?
+**A**: The knee should be positioned directly on the opponent's solar plexus or lower ribs, with the shin perpendicular to their centerline. This placement creates direct downward pressure on the diaphragm, disrupting breathing and limiting their ability to generate power for escapes. Placing the knee too high on the chest reduces pressure effectiveness and makes it easier for the opponent to frame.
 
-### Gi-specific choke path
+**Q2**: How should weight be distributed to maintain both pressure and mobility from Knee on Belly Top?
+**A**: Weight should be distributed forward through the knee contact point while keeping the feet light and mobile. The hips stay high and mobile, allowing quick weight shifts. The opposite leg extends wide with the foot planted firmly, creating a stable tripod structure. Avoid committing full weight to the knee as this sacrifices mobility and makes you vulnerable to sweeps.
 
-`Knee on Belly Top → Baseball Bat Choke setup → Baseball Bat Choke finish`
+**Q3**: Your opponent starts creating frames by placing their hands on your knee - what adjustment do you make?
+**A**: When the opponent extends their arms to frame, this creates an immediate submission opportunity. Their extended arms become vulnerable to armbars and kimuras. You should capitalize by attacking the extended arm with an armbar from side control or trapping the far arm for a kimura. Alternatively, use their pushing reaction to slide your knee through and transition to mount.
 
-### Kimura attack path
+**Q4**: What are the essential grips for maintaining Knee on Belly control?
+**A**: The primary grips are near-side collar control and far-side pants or belt grip. The collar grip controls the opponent's upper body and prevents them from sitting up or turning toward you. The far-side pants/belt grip prevents them from turning away and creates control of their hip movement. Together these grips establish the control framework that enables pressure application and submission setups.
 
-`Knee on Belly Top → Kimura from Side Control (when opponent pushes knee) → Kimura Control → Kimura finish or Back Take`
+**Q5**: Why is Knee on Belly considered a transitional rather than settling position?
+**A**: Knee on Belly's value comes from its mobility and attack versatility rather than static control. The position creates multiple dilemmas - defend submissions, prevent mount transition, or escape pressure - but prolonged stillness allows the opponent to solve these problems. Maintaining offensive momentum through constant threats keeps the opponent reactive and prevents them from executing coordinated defense.
 
-### Mount to submission path
+**Q6**: Your opponent begins to bridge and turn away from you - how do you respond?
+**A**: When the opponent turns away, follow their movement and look for back control. Their turning motion exposes their back, creating an opportunity to transition to back control or take the seat belt grip. Alternatively, use their turning motion to slide into north-south position if back control isn't available. Never fight their turning momentum - use it to advance position.
 
-`Knee on Belly Top → Transition to Mount → Mount → Armbar from Mount or Ezekiel Choke`
+**Q7**: How do you recover position when an opponent partially escapes by creating space with hip movement?
+**A**: When the opponent creates space through shrimping, immediately transition back to side control rather than fighting to maintain Knee on Belly. Use your grips to follow their movement and re-establish chest-to-chest pressure. From solid side control, you can re-establish Knee on Belly once they're flattened again. Chasing a compromised Knee on Belly often leads to guard recovery.
 
-### Back attack path
-
-`Knee on Belly Top → Back Take Generic (when opponent turns) → Back Control → Rear Naked Choke`
+**Q8**: What role does the base leg play in effective Knee on Belly control?
+**A**: The base leg provides the stable platform that enables both pressure application and rapid transitions. It should be extended wide with toes pointing away from the opponent, creating a tripod structure with your knee and posting hand. This wide base prevents sweeps, enables quick directional changes, and allows you to post and recover if the opponent disrupts your balance. A narrow base makes the position unstable and easily countered.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -450,13 +385,11 @@ Partner gives feedback on pressure levels as you experiment with different weigh
 - **[[Side Control]]** - Primary entry position - Knee on Belly often entered from side control
 - **[[Mount]]** - Common transition target - natural progression when opponent creates space
 - **[[North-South]]** - Alternative transition - effective when opponent escapes toward head
-- **[[Knee on Belly Bottom]]** - Opposite perspective - understanding bottom helps improve top control
-- **[[Pressure Application]]** - Core concept - fundamental principle for effective Knee on Belly control
-- **[[Weight Distribution]]** - Core concept - essential for maintaining mobility while applying pressure
 - **[[Baseball Bat Choke]]** - Primary submission - high-percentage attack from this position in gi
 - **[[S Mount]]** - Advanced variation - evolution of Knee on Belly toward mount
-- **[[Knee on Belly Escape]]** - Defensive concept - understanding escapes improves position retention
 - **[[Back Control]]** - Opportunistic target when opponent turns away from pressure
+- **[[Armbar from Side Control]]** - Primary arm attack when opponent extends frames
+- **[[Kimura from Side Control]]** - Alternative arm attack targeting opponent's far arm
 
 
 </section>

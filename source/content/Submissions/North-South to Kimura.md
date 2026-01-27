@@ -410,7 +410,7 @@ The North-South to Kimura represents a highly effective transitional submission 
 ## Additional Related Content
 
 - [[Kimura Trap System]] - Strategic system built around kimura control and finishing mechanics
-- [[Transition to North-South]] - Entry technique to establish north-south position before applying kimura
+- [[Side Control to North-South]] - Entry technique to establish north-south position before applying kimura
 - [[Kimura to Back Take]] - Alternative transition if opponent defends kimura by rolling
 - [[Side Control to Mount]] - Alternative progression from side control family of positions
 - [[Kimura Control]] - Control position using kimura grip structure
@@ -422,6 +422,16 @@ The North-South to Kimura represents a highly effective transitional submission 
 - [[Headquarters Position]] - Transitional position leading to north-south control
 - [[Combat Base]] - Defensive position opponent may use to prevent north-south establishment
 
+
+</section>
+
+<section id="terminal-state" class="content-section">
+
+## Match Outcome
+
+Successful execution of North-South to Kimura leads to → [[game-over|Game Over]]
+
+*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
 
 </section>
 

@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Butterfly Guard to X-Guard | BJJ Technique | BJJ Graph"
 description: "Master the Butterfly Guard to X-Guard transition in BJJ. Learn setup, execution, and control with success rates: Beginner 35%, Intermediate 50%, Advanced 65%."
@@ -16,7 +17,7 @@ description: "Master the Butterfly Guard to X-Guard transition in BJJ. Learn set
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Butterfly Guard to X-Guard in BJJ",
-  "description": "Step-by-step guide for Butterfly Guard to X-Guard from Butterfly Guard to X-Guard.",
+  "description": "Step-by-step guide for Butterfly Guard to X-Guard from Butterfly Guard/Bottom. Possible outcomes: X-Guard/Bottom (65%), Butterfly Guard/Bottom (25%), Butterfly Guard/Top (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -154,11 +155,25 @@ description: "Master the Butterfly Guard to X-Guard transition in BJJ. Learn set
 
 The Butterfly Guard to X-Guard transition represents a fundamental evolution in modern guard play, connecting dynamic elevation mechanics with sophisticated off-balancing systems. This transition capitalizes on the opponent's forward pressure and posture, using butterfly hooks as launching mechanisms to establish the powerful X-Guard position. The technique exploits the natural reaction of opponents who base wide or post their weight forward while defending butterfly sweeps, creating the perfect opportunity to slide underneath and capture the standing leg. This transition is particularly effective against pressure passers who commit their weight forward, as their defensive posture naturally sets up the mechanics required for X-Guard entry. The movement requires precise timing, active hip mobility, and the ability to maintain connection throughout the transition, making it a cornerstone technique for guard players at all levels who want to develop a dynamic, flowing guard game.
 
-**Starting Position**: [[Butterfly Guard]]
-**Ending Position**: [[X-Guard]]
+**From Position**: [[Butterfly Guard/Bottom]]
 **Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[X-Guard/Bottom]] | 65% |
+| Failure | [[Butterfly Guard/Bottom]] | 25% |
+| Counter | [[Butterfly Guard/Top]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

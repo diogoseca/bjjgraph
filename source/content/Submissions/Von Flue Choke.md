@@ -416,4 +416,14 @@ The Von Flue Choke is a devastating counter-submission that punishes opponents w
 
 </section>
 
+<section id="terminal-state" class="content-section">
+
+## Match Outcome
+
+Successful execution of Von Flue Choke leads to → [[game-over|Game Over]]
+
+*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+
+</section>
+
 </main>

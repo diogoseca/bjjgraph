@@ -21,37 +21,37 @@ description: "Master offensive control from Anaconda Control Top position. Learn
     {
       "@type": "HowToStep",
       "name": "Execute Anaconda Choke",
-      "text": "From this position, execute Anaconda Choke to transition to Lost by Submission. Success rate for advanced practitioners: 80%.",
+      "text": "From this position, attempt Anaconda Choke. This technique is attempted in 18% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Anaconda from Turtle",
-      "text": "From this position, execute Anaconda from Turtle to transition to Side Control. Success rate for advanced practitioners: 85%.",
+      "text": "From this position, attempt Anaconda from Turtle. This technique is attempted in 20% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Front Headlock to Anaconda",
-      "text": "From this position, execute Front Headlock to Anaconda to transition to Front Headlock. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Front Headlock to Anaconda. This technique is attempted in 17% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Front Headlock to Darce",
-      "text": "From this position, execute Front Headlock to Darce to transition to D'arce Control. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Front Headlock to Darce. This technique is attempted in 16% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Take Generic",
-      "text": "From this position, execute Back Take Generic to transition to Back Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Back Take Generic. This technique is attempted in 15% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Mount",
-      "text": "From this position, execute Transition to Mount to transition to Mount. Success rate for advanced practitioners: 60%.",
+      "name": "Execute Side Control to Mount",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 14% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -214,74 +214,18 @@ The effectiveness of this position lies in its multi-layered control mechanisms:
 
 ## Available Attacks
 
-### [[Anaconda Choke]] → [[Lost by Submission]]
+### [[Anaconda Choke]] (18% of attempts)
 
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 65%
-- Advanced: 80%
+### [[Anaconda from Turtle]] (20% of attempts)
 
-### [[Anaconda from Turtle]] → [[Side Control]]
+### [[Front Headlock to Anaconda]] (17% of attempts)
 
-**Success Rates:**
-- Beginner: 50%
-- Intermediate: 70%
-- Advanced: 85%
+### [[Front Headlock to Darce]] (16% of attempts)
 
-### [[Front Headlock to Anaconda]] → [[Front Headlock]]
+### [[Back Take Generic]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 60%
-- Advanced: 75%
+### [[Side Control to Mount]] (14% of attempts)
 
-### [[Front Headlock to Darce]] → [[D'arce Control]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 55%
-- Advanced: 70%
-
-### [[Back Take Generic]] → [[Back Control]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 65%
-
-### [[Transition to Mount]] → [[Mount]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 45%
-- Advanced: 60%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Hip Escape]]** → [[Turtle]] (Opponent Success: 30%)
-- **[[Guard Recovery]]** → [[Half Guard]] (Opponent Success: 25%)
-- **[[Technical Standup]]** → [[Standing Position]] (Opponent Success: 20%)
-- **[[Rolling Escape]]** → [[Defensive Position]] (Opponent Success: 15%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Anaconda from Turtle]]** → [[Side Control]]
-  - Opponent attempts to roll away from pressure
-- **[[Back Take Generic]]** → [[Back Control]]
-  - Opponent turns into the grip exposing their back
-- **[[Front Headlock to Darce]]** → [[D'arce Control]]
-  - Opponent straightens their trapped arm creating darce angle
 
 
 </section>
@@ -291,23 +235,23 @@ The effectiveness of this position lies in its multi-layered control mechanisms:
 ## Decision Making from This Position
 
 **If opponent's base is strong and they resist rolling:**
-- Execute **[[Anaconda Choke]]** → [[Lost by Submission]] (Probability: 70%)
+- Execute **[[Anaconda Choke]]** → [[game-over]] (Probability: 70%)
 - Execute **[[Front Headlock to Anaconda]]** → [[Front Headlock]] (Probability: 50%)
 
 
 **If opponent rolls away from pressure to escape:**
 - Execute **[[Anaconda from Turtle]]** → [[Side Control]] (Probability: 80%)
-- Execute **[[Anaconda Choke]]** → [[Lost by Submission]] (Probability: 75%)
+- Execute **[[Anaconda Choke]]** → [[game-over]] (Probability: 75%)
 
 
 **If opponent turns into the grip exposing their back:**
 - Execute **[[Back Take Generic]]** → [[Back Control]] (Probability: 65%)
-- Execute **[[Transition to Mount]]** → [[Mount]] (Probability: 55%)
+- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 55%)
 
 
 **If opponent straightens their trapped arm in defense:**
 - Execute **[[Front Headlock to Darce]]** → [[D'arce Control]] (Probability: 70%)
-- Execute **[[Anaconda Choke]]** → [[Lost by Submission]] (Probability: 65%)
+- Execute **[[Anaconda Choke]]** → [[game-over]] (Probability: 65%)
 
 
 
@@ -376,29 +320,39 @@ Start with anaconda grip established, bottom player works to escape while top pl
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Direct Anaconda Finish
+## Test Your Knowledge
 
-`Anaconda Control Top → Anaconda Choke → Lost by Submission`
+**Q1**: What is the optimal weight distribution for maintaining anaconda control from top?
+**A**: The optimal weight distribution concentrates chest pressure directly on the opponent's trapped shoulder while keeping hips slightly behind or beside their hips. This creates a see-saw effect where your upper body weight drives down through the shoulder while your hips remain mobile for adjustments. Approximately 70% of your weight should be forward through your chest, with the remaining 30% available for base and mobility. Avoid putting weight too far forward past their head, as this compromises your ability to follow their movement.
 
-### Roll-Through to Finish
+**Q2**: How do you maintain control when your opponent starts bridging and creating space?
+**A**: When opponent bridges, immediately drive your chest deeper into their trapped shoulder rather than lifting up. Simultaneously, squeeze your elbows together to tighten the loop and walk your hips laterally to maintain perpendicular angle. The bridge actually creates opportunity - as they elevate, their neck becomes more exposed. Stay heavy, stay connected, and use their movement energy to tighten rather than fighting against the bridge with pure resistance.
 
-`Anaconda Control Top → Anaconda from Turtle → Side Control → Anaconda Choke → Lost by Submission`
+**Q3**: What grip configuration provides the strongest anaconda control?
+**A**: The gable grip (palm-to-palm) provides the strongest structural integrity for anaconda control. Lock your hands with palms pressed flat against each other, fingers pointing in opposite directions. Keep your wrists straight and forearms parallel, pulling elbows tight together. This configuration distributes force across both arms equally and is extremely difficult to break. The S-grip is an acceptable alternative when hand position doesn't allow gable grip, but provides slightly less strength.
 
-### Darce Conversion Path
+**Q4**: Your opponent pulls their trapped arm free during control - what immediate adjustment do you make?
+**A**: If the trapped arm escapes, immediately transition to darce choke by sliding your choking arm deeper across their neck and threading to the far shoulder. The arm escape actually opens the darce angle that wasn't available with the arm trapped. Alternatively, if they extract the arm by pulling it toward you, transition to guillotine by releasing one hand and securing their chin. Never try to re-trap the arm - flow to the submission that the defensive movement creates.
 
-`Anaconda Control Top → Front Headlock to Darce → D'arce Control → Darce Choke → Lost by Submission`
+**Q5**: How do you apply pressure correctly to attack the carotid arteries rather than the windpipe?
+**A**: Carotid pressure requires angling your choking forearm across the side of their neck at approximately 45 degrees, with your bicep on one side and their trapped arm/shoulder creating pressure on the other side. The choking action comes from squeezing elbows together while expanding your chest, not from pushing straight into the front of the throat. When positioned correctly, the opponent feels immediate blood choke symptoms (tunnel vision, lightheadedness) rather than windpipe discomfort.
 
-### Back Attack Sequence
+**Q6**: What is the correct timing and execution for initiating the roll-through finish?
+**A**: Initiate the roll only after three conditions are met: grip is locked tight with no gaps, chest pressure has broken opponent's posture, and their base is compromised (usually by walking your hips to one side). Roll toward your choking arm side by stepping over their back and pulling them with you in one explosive motion. Commit fully - hesitation allows them to base out. The roll should be fast enough that their hands cannot post to stop the rotation.
 
-`Anaconda Control Top → Back Take Generic → Back Control → Rear Naked Choke → Lost by Submission`
+**Q7**: How do you manage energy expenditure during extended anaconda control exchanges?
+**A**: Energy management in anaconda control relies on structure over strength. Use your skeleton and body weight rather than muscular squeezing to maintain pressure. Keep your grip locked but relaxed between submission attempts - constant maximum squeezing exhausts your forearms without benefit. Breathe steadily and stay patient. The position favors the attacker energetically because the defender must actively fight against both the choke and the positional control simultaneously.
+
+**Q8**: Your opponent partially escapes and you feel the control slipping - how do you recover?
+**A**: When control slips, immediately re-establish chest-to-shoulder connection before addressing the grip. Drive your chest back into their trapped shoulder while pulling your elbows tight. If the grip has loosened but not broken, squeeze to re-tighten while maintaining chest pressure. If they've created significant space, consider transitioning to front headlock position to reset rather than forcing a compromised anaconda. Sometimes the best recovery is accepting position reset rather than fighting a losing grip battle.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 

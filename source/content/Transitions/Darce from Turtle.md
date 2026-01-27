@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Darce from Turtle | BJJ Technique | BJJ Graph"
 description: "Learn Darce from Turtle in BJJ. Step-by-step execution from Turtle Top to Darce Control. Success rates: Beginner 35%, Intermediate 55%, Advanced 70%. Master front headlock attacks."
@@ -16,7 +17,7 @@ description: "Learn Darce from Turtle in BJJ. Step-by-step execution from Turtle
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Darce from Turtle in BJJ",
-  "description": "Step-by-step guide for Darce from Turtle from Turtle to D'arce Control.",
+  "description": "Step-by-step guide for Darce from Turtle from Turtle/Top. Possible outcomes: D'arce Control/Top (70%), Turtle/Top (20%), Turtle/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -154,11 +155,25 @@ description: "Learn Darce from Turtle in BJJ. Step-by-step execution from Turtle
 
 The Darce choke from turtle position is one of the most high-percentage submissions in modern Brazilian Jiu-Jitsu, particularly in no-gi competition. This technique capitalizes on the opponent's defensive turtle posture by attacking the exposed neck and far-side arm, creating a powerful blood choke that can force a tap within seconds when properly executed. The Darce from turtle is especially effective because opponents often feel safe in the turtle position, making them less defensive against this attack. The technique requires precise arm positioning, shoulder pressure, and an understanding of how to create the necessary space to thread your choking arm through. When executed correctly, the Darce choke cuts off blood flow to both carotid arteries while simultaneously creating structural pressure on the neck, making it extremely difficult to defend once locked in. This submission has become a staple in the arsenals of high-level competitors due to its effectiveness against various turtle defensive strategies and its ability to transition seamlessly from other front headlock attacks.
 
-**Starting Position**: [[Turtle]]
-**Ending Position**: [[D'arce Control]]
+**From Position**: [[Turtle/Top]]
 **Success Rates**: Beginner 35%, Intermediate 55%, Advanced 70%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[D'arce Control/Top]] | 70% |
+| Failure | [[Turtle/Top]] | 20% |
+| Counter | [[Turtle/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

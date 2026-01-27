@@ -45,6 +45,279 @@
       "relationship": "Natural submission progression when the opponent's posture breaks forward into the lasso"
     }
   ],
+  "top": {
+    "overview": "Facing **Lasso Guard Top** presents unique technical challenges that require systematic understanding of grip breaking, pressure application, and passing mechanics. The opponent's lasso creates a powerful lever against your trapped arm, restricting mobility and base while exposing you to constant sweep threats. Success in this position demands methodical approach to neutralizing the lasso's mechanical advantage while advancing your passing game.\n\nThe fundamental problem when caught in lasso guard is the asymmetric control the bottom player establishes. Your trapped arm becomes a liability, unable to post effectively or establish grips that support passing. This forces you to rely heavily on your free arm and legs for base and pressure, making you vulnerable to off-balancing attacks. Understanding this mechanical disadvantage is essential for developing appropriate counter-strategies.\n\nEffective top play against lasso requires prioritizing grip fighting and positional adjustments before attempting aggressive passing. Your first objective is addressing the sleeve grip and leg positioning that create the lasso control. This often involves specific grip breaks, posture adjustments, or creating angles that reduce the lasso's effectiveness. Rushing into passing attempts while the lasso remains fully established typically results in being swept or submitted.\n\nSuccessful passers against lasso guard demonstrate patience and systematic technique. They recognize that clearing the lasso completely may not be necessary - reducing its effectiveness enough to establish passing grips and pressure often suffices. Common strategies include stepping over the lasso leg to remove the perpendicular angle, driving the knee through to create smashing pressure, or using specific grip breaks combined with posture changes to minimize the leverage disadvantage.\n\nThe position also offers offensive opportunities when approached correctly. If the bottom player becomes too committed to maintaining the lasso, certain submission entries become available, particularly kimuras and armlocks on the non-lasso arm. Additionally, when they extend the lasso leg fully, leg lock entries can present themselves for those training in leg entanglement systems. These counter-attacking options force the bottom player to balance their offensive threats against their defensive vulnerabilities.\n\nAdvanced understanding involves recognizing the relationship between your posture, weight distribution, and the lasso's effectiveness. Upright posture makes you vulnerable to sweeps but helps maintain base. Driving forward reduces sweep angles but exposes you to submissions. Learning to dynamically adjust between these positions based on the opponent's reactions separates competent passers from those who struggle consistently against lasso guard.\n\nDeveloping competency on top in lasso guard situations builds fundamental skills applicable across many guard passing scenarios: grip fighting under disadvantage, maintaining composure under constant pressure, and systematic problem-solving when faced with mechanical disadvantages. These attributes prove valuable far beyond this specific position.",
+    "state_properties": {
+      "point_value": 0,
+      "position_type": "Defensive",
+      "risk_level": "Medium",
+      "energy_cost": "Medium",
+      "time_sustainability": "Short"
+    },
+    "state_invariants": [
+      "Your arm is threaded through the opponent's shin creating a lasso control that restricts your mobility and base on that side",
+      "The opponent maintains a tight sleeve grip on your trapped arm, creating a lever system against your shoulder",
+      "Your trapped arm cannot effectively post or establish controlling grips while the lasso remains engaged",
+      "You must rely primarily on your free arm and leg positioning to maintain base and generate passing pressure"
+    ],
+    "prerequisites": [
+      "Solid understanding of guard passing fundamentals including pressure, base maintenance, and grip fighting principles",
+      "Experience with grip breaking techniques and strategies for dealing with extended guard controls",
+      "Knowledge of stack passing, knee cut passing, and smash passing mechanics applicable to open guard situations",
+      "Understanding of when to stand versus when to remain low during guard passing sequences",
+      "Basic awareness of sweep defense and base recovery when off-balanced from guard positions"
+    ],
+    "key_principles": [
+      "Address the lasso control systematically before attempting aggressive passing - clear or minimize the sleeve grip and leg positioning that create mechanical disadvantage",
+      "Maintain wide base with your legs to prevent being swept, particularly protecting against triangle and hook sweep variations",
+      "Control the opponent's non-lasso leg immediately to prevent them establishing secondary controls or transitioning to other guard systems",
+      "Use strategic posture changes between upright and forward pressure based on the opponent's reactions and attack attempts",
+      "Create angles that reduce the lasso's perpendicular force vector, particularly by stepping over the leg or driving the knee through their guard",
+      "Remain patient and methodical, recognizing that rushing into passing attempts while fully lassoed typically results in being swept or submitted"
+    ],
+    "transitions": [
+      {
+        "transition": "Lasso Guard Pass",
+        "attempt_probability": 20
+      },
+      {
+        "transition": "Stack Pass",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Knee Cut Pass",
+        "attempt_probability": 18
+      },
+      {
+        "transition": "Smash Pass",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Toreando Pass",
+        "attempt_probability": 15
+      },
+      {
+        "transition": "Long Step Pass",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Leg Weave Pass",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Kimura from Standing",
+        "attempt_probability": 5
+      }
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent maintains tight lasso with strong sleeve grip and extended leg creating maximum leverage",
+        "actions": [
+          {
+            "technique": "Lasso Guard Pass",
+            "target": "Side Control",
+            "probability": 50
+          },
+          {
+            "technique": "Stack Pass",
+            "target": "Side Control",
+            "probability": 45
+          }
+        ]
+      },
+      {
+        "condition": "If opponent attempts to sweep by pulling you forward and off-balancing toward the lasso side",
+        "actions": [
+          {
+            "technique": "Stack Defense",
+            "target": "Headquarters Position",
+            "probability": 55
+          },
+          {
+            "technique": "Pressure Pass",
+            "target": "Side Control",
+            "probability": 50
+          }
+        ]
+      },
+      {
+        "condition": "If opponent's non-lasso leg becomes available or loses positional control",
+        "actions": [
+          {
+            "technique": "Knee Cut Pass",
+            "target": "Side Control",
+            "probability": 60
+          },
+          {
+            "technique": "Leg Weave Pass",
+            "target": "Side Control",
+            "probability": 55
+          }
+        ]
+      },
+      {
+        "condition": "If you successfully reduce lasso pressure through grip breaks or posture changes",
+        "actions": [
+          {
+            "technique": "Toreando Pass",
+            "target": "Side Control",
+            "probability": 65
+          },
+          {
+            "technique": "Long Step Pass",
+            "target": "Side Control",
+            "probability": 55
+          }
+        ]
+      },
+      {
+        "condition": "If opponent over-commits to lasso and exposes their non-lasso arm or neck",
+        "actions": [
+          {
+            "technique": "Kimura from Standing",
+            "target": "Kimura Trap",
+            "probability": 45
+          },
+          {
+            "technique": "Smash Pass",
+            "target": "Side Control",
+            "probability": 50
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting aggressive passing immediately without addressing the lasso control first",
+        "consequence": "Opponent easily sweeps you using the mechanical advantage of the fully established lasso position",
+        "correction": "First address the lasso through grip breaks, posture adjustments, or strategic pressure before committing to passing attempts"
+      },
+      {
+        "error": "Keeping base too narrow while caught in lasso, making you vulnerable to off-balancing attacks",
+        "consequence": "Opponent sweeps you easily using hook sweeps, triangle sweeps, or omoplata variations that exploit your compromised base",
+        "correction": "Maintain wide leg base even with one arm trapped, using your free arm and legs to create stable triangular support structure"
+      },
+      {
+        "error": "Neglecting to control the opponent's non-lasso leg, allowing them to establish secondary hooks or guards",
+        "consequence": "Opponent transitions to De La Riva, X-guard, or other guard systems while maintaining the lasso, creating multi-layered problems",
+        "correction": "Immediately establish control on the non-lasso leg with your free hand or by pinning it with your leg positioning"
+      },
+      {
+        "error": "Remaining in static posture without making adjustments as the opponent attacks",
+        "consequence": "Opponent patiently works their sweeps and submissions against your unchanging position, eventually finding success",
+        "correction": "Dynamically adjust posture between upright and forward pressure based on opponent's attacks, never allowing them to settle into optimal attacking position"
+      },
+      {
+        "error": "Pulling back or away from the lasso instead of addressing it strategically",
+        "consequence": "You extend the opponent's lasso even further, increasing their leverage and making the position stronger for them",
+        "correction": "Step over the lasso leg or drive forward strategically to reduce the perpendicular angle rather than pulling straight back"
+      },
+      {
+        "error": "Using excessive strength to muscle through the lasso without proper technique",
+        "consequence": "You expend enormous energy while making minimal progress, eventually fatiguing and becoming vulnerable to submissions",
+        "correction": "Use technical solutions like specific grip breaks, angle changes, and pressure application rather than relying on strength alone"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Lasso Grip Breaking and Posture Control Drill",
+        "description": "Partner establishes full lasso control with proper grips and leg positioning. Practice various grip breaking methods combined with posture adjustments for 2-minute rounds. Partner maintains resistance but doesn't actively sweep. Focus on systematically reducing the lasso's effectiveness through technique rather than strength. Rotate through different grip break variations each round.",
+        "duration": "5 rounds of 2 minutes with specific grip break focus each round"
+      },
+      {
+        "name": "Lasso Pass Progression Drill",
+        "description": "Start with partner in lasso guard at 30% resistance. Execute full passing sequence from initial grip break through final pass completion. Partner gradually increases resistance as you demonstrate proper mechanics. Cycle through different passing approaches: stack pass, knee cut, leg weave, toreando. Emphasizes complete passing sequences rather than isolated techniques.",
+        "duration": "15 minutes of progressive resistance drilling, increasing from 30% to 70% intensity"
+      },
+      {
+        "name": "Lasso Sweep Defense Reactions",
+        "description": "Partner actively attacks with lasso sweeps at 60-70% intensity. Your goal is maintaining base and recovering position when off-balanced rather than completing passes. Develops defensive reflexes and base recovery specific to lasso threats. Partner focuses on triangle sweeps, hook sweeps, and omoplata attempts. Reset after each near-sweep and continue.",
+        "duration": "10 minutes of continuous action with brief resets after defensive saves"
+      },
+      {
+        "name": "Situational Sparring from Lasso Top",
+        "description": "Start every round with partner in established lasso control. Full intensity sparring with goal of passing or achieving superior position. Partner can sweep, submit, or transition to other guards. You reset to lasso top after any transition. Develops complete problem-solving abilities against active lasso players. Track pass completion rate over multiple sessions.",
+        "duration": "5 rounds of 3 minutes full intensity with 1-minute rest between rounds"
+      }
+    ],
+    "optimal_submission_paths": [
+      {
+        "name": "Lasso Clear to Knee Cut Finish",
+        "path": "Lasso Guard Top → Grip Break → Knee Cut Pass → Side Control"
+      },
+      {
+        "name": "Stack to Smash Sequence",
+        "path": "Lasso Guard Top → Stack Pass → Smash Pass → Side Control → Kimura"
+      },
+      {
+        "name": "Toreando Counter Attack",
+        "path": "Lasso Guard Top → Standing Posture → Toreando Pass → Side Control → Arm Triangle"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Spider Guard",
+        "relationship": "Related guard position with similar sleeve control mechanics that requires comparable passing strategies"
+      },
+      {
+        "name": "De La Riva Guard",
+        "relationship": "Often combined with lasso on opposite leg, requiring integrated passing approach to both systems simultaneously"
+      },
+      {
+        "name": "Open Guard",
+        "relationship": "Parent category providing fundamental passing principles applicable to dealing with lasso situations"
+      },
+      {
+        "name": "Headquarters Position",
+        "relationship": "Transitional position often achieved when standing to disengage from lasso before completing pass"
+      },
+      {
+        "name": "Side Control",
+        "relationship": "Primary passing objective when successfully clearing lasso and completing guard pass"
+      },
+      {
+        "name": "Combat Base",
+        "relationship": "Essential posture for maintaining base and stability while dealing with lasso control and sweep threats"
+      },
+      {
+        "name": "Kimura Trap",
+        "relationship": "Counter-attacking opportunity when opponent over-commits to lasso and exposes non-lasso arm"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "beginner": 35,
+        "intermediate": 55,
+        "advanced": 70,
+        "description": "Ability to maintain top position without being swept increases substantially with technical understanding and experience"
+      },
+      "advancement_probability": {
+        "beginner": 30,
+        "intermediate": 50,
+        "advanced": 65,
+        "description": "Likelihood of successfully passing lasso guard improves dramatically with proper systematic approach and grip fighting skills"
+      },
+      "submission_probability": {
+        "beginner": 10,
+        "intermediate": 20,
+        "advanced": 35,
+        "description": "Counter-submission opportunities from top exist but require recognizing specific vulnerabilities when opponent over-commits to lasso"
+      },
+      "average_time": "60-120 seconds typically required to systematically clear lasso and complete passing sequence"
+    },
+    "name": "Lasso Guard Top",
+    "description": "Master passing Lasso Guard from top position. Learn systematic clearing methods, grip breaks, pressure passing, and counter-attacking with expert analysis.",
+    "tags": [
+      "lasso guard passing",
+      "open guard passing techniques",
+      "gi guard passing",
+      "grip breaking methods",
+      "sweep defense from top",
+      "systematic passing approach",
+      "stack passing variations",
+      "competition guard passing"
+    ]
+  },
   "bottom": {
     "overview": "Playing **Lasso Guard Bottom** requires sophisticated understanding of leverage mechanics, grip control, and dynamic movement patterns. From the bottom position, you thread your shin across the opponent's tricep while controlling their sleeve, creating a powerful lever that restricts their mobility and creates constant off-balancing threats. This position fundamentally alters the passing game by removing the opponent's ability to effectively use their trapped arm for base, pressure, or grips.\n\nThe strategic value of Lasso Guard Bottom lies in its asymmetric control system. By dominating one side of the opponent's body completely, you force them into predictable defensive patterns. They must address the lasso control before attempting meaningful passing sequences, which creates opportunities for proactive attacks. The position excels at neutralizing larger, stronger opponents by using mechanical advantage rather than strength-on-strength confrontation.\n\nSuccessful execution demands constant attention to grip fighting and positioning adjustments. Your sleeve grip must remain tight and extended to maintain the lasso's effectiveness. Your non-lasso leg serves multiple functions: posting on the hip to control distance, hooking the opposite leg to prevent circling, or establishing spider guard pressure on the free arm. Hip positioning is critical - maintaining a perpendicular angle to the opponent maximizes your sweep vectors while minimizing their passing angles.\n\nThe offensive arsenal from Lasso Guard Bottom includes numerous high-percentage sweeps that exploit the opponent's compromised base. Triangle sweeps work when they attempt to posture up, omoplata sweeps target their attempts to pull their arm free, and various hook sweeps become available when they try to move around the position. Each defensive response from the opponent opens specific attacking opportunities, creating a true dilemma situation.\n\nSubmission opportunities emerge naturally from proper positioning. As the opponent struggles with the lasso, their posture often breaks forward, creating triangle and omoplata entries. If they manage to clear the lasso but remain close, armbar and kimura opportunities present themselves. Understanding these submission chains transforms Lasso Guard from purely a sweeping position to a complete attacking system.\n\nDefensive awareness remains essential even from this controlling position. Common counters include the opponent stepping over the lasso leg, driving their knee through to smash passing, or using aggressive stacking pressure. Recognizing these passing attempts early allows you to transition to retention strategies or alternative guard positions before losing the position completely. The ability to abandon the lasso when necessary and recover to other guard systems separates intermediate practitioners from advanced competitors.\n\nTraining Lasso Guard Bottom develops several fundamental skills that transfer across multiple guard positions: grip endurance, hip mobility, off-balancing timing, and the ability to maintain control while remaining mobile. These attributes make Lasso Guard valuable not just as an isolated position, but as a foundational element in developing comprehensive open guard systems.",
     "state_properties": {
@@ -75,122 +348,38 @@
       "Chain attacks together fluidly, transitioning between sweeps, submissions, and guard recoveries based on the opponent's defensive reactions",
       "Recognize when to abandon the lasso early if the opponent successfully counters, recovering to alternative guard positions before losing control completely"
     ],
-    "offensive_transitions": [
+    "transitions": [
       {
-        "technique": "Lasso Guard Sweeps",
-        "target_position": "Mount",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 50,
-          "advanced": 65
-        }
+        "transition": "Lasso Guard Sweeps",
+        "attempt_probability": 25
       },
       {
-        "technique": "Triangle Setup",
-        "target_position": "Triangle Control",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 45,
-          "advanced": 60
-        }
+        "transition": "Triangle Setup",
+        "attempt_probability": 18
       },
       {
-        "technique": "Omoplata Sweep",
-        "target_position": "Omoplata Control",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 40,
-          "advanced": 55
-        }
+        "transition": "Omoplata Sweep",
+        "attempt_probability": 15
       },
       {
-        "technique": "De La Riva Sweep",
-        "target_position": "Back Control",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 45,
-          "advanced": 60
-        }
+        "transition": "De La Riva Sweep",
+        "attempt_probability": 12
       },
       {
-        "technique": "Spider Guard Sweeps",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 50,
-          "advanced": 65
-        }
+        "transition": "Spider Guard Sweeps",
+        "attempt_probability": 10
       },
       {
-        "technique": "X-Guard Sweep",
-        "target_position": "Mount",
-        "success_rates": {
-          "beginner": 20,
-          "intermediate": 35,
-          "advanced": 50
-        }
+        "transition": "X-Guard Sweep",
+        "attempt_probability": 8
       },
       {
-        "technique": "Armbar from Guard",
-        "target_position": "Armbar Control",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 40,
-          "advanced": 55
-        }
+        "transition": "Armbar from Guard",
+        "attempt_probability": 7
       },
       {
-        "technique": "Kimura from Guard",
-        "target_position": "Kimura Control",
-        "success_rates": {
-          "beginner": 20,
-          "intermediate": 35,
-          "advanced": 50
-        }
-      }
-    ],
-    "defensive_responses": [
-      {
-        "technique": "Lasso Guard Pass",
-        "target_position": "Side Control",
-        "success_rate": 45
-      },
-      {
-        "technique": "Stack Pass",
-        "target_position": "Side Control",
-        "success_rate": 40
-      },
-      {
-        "technique": "Knee Cut Pass",
-        "target_position": "Side Control",
-        "success_rate": 35
-      },
-      {
-        "technique": "Smash Pass",
-        "target_position": "Side Control",
-        "success_rate": 40
-      },
-      {
-        "technique": "Standing up",
-        "target_position": "Headquarters Position",
-        "success_rate": 50
-      }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Lasso Guard Variations",
-        "target_position": "Inverted Lasso Guard",
-        "trigger": "When opponent begins to step over the lasso leg, invert underneath to recover the position or transition to berimbolo"
-      },
-      {
-        "technique": "De La Riva Sweep",
-        "target_position": "Single Leg X-Guard",
-        "trigger": "If opponent successfully clears the lasso, immediately establish DLR hook on the same leg to maintain control"
-      },
-      {
-        "technique": "Butterfly Sweep",
-        "target_position": "Mount",
-        "trigger": "When opponent drops their weight forward to smash the lasso, convert to butterfly hooks and sweep the opposite direction"
+        "transition": "Kimura from Guard",
+        "attempt_probability": 5
       }
     ],
     "decision_tree": [
@@ -264,7 +453,7 @@
           },
           {
             "technique": "Kimura from Guard",
-            "target": "Kimura Control",
+            "target": "Kimura Trap",
             "probability": 40
           }
         ]
@@ -326,24 +515,16 @@
     ],
     "optimal_submission_paths": [
       {
-        "name": "Lasso to Triangle Chain",
-        "path": "Lasso Guard → Triangle Setup → Triangle Control → Triangle Choke"
+        "name": "Lasso to Triangle Finish",
+        "path": "Lasso Guard Bottom → Triangle Setup → Triangle Control → Triangle Choke"
       },
       {
-        "name": "Lasso to Omoplata Progression",
-        "path": "Lasso Guard → Omoplata Sweep → Omoplata Control → Omoplata"
+        "name": "Sweep to Mount Attack",
+        "path": "Lasso Guard Bottom → Lasso Guard Sweeps → Mount → Armbar from Mount"
       },
       {
-        "name": "Lasso to Back Attack",
-        "path": "Lasso Guard → De La Riva Sweep → Back Control → Rear Naked Choke"
-      },
-      {
-        "name": "Lasso to Armbar System",
-        "path": "Lasso Guard → Spider Guard Sweeps → Mount → Armbar from Mount"
-      },
-      {
-        "name": "Lasso to Kimura Trap",
-        "path": "Lasso Guard → Kimura from Guard → Kimura Control → Kimura"
+        "name": "Omoplata Chain",
+        "path": "Lasso Guard Bottom → Omoplata Sweep → Omoplata Control → Omoplata"
       }
     ],
     "related_content": [
@@ -412,367 +593,6 @@
       "triangle entries from lasso",
       "omoplata setups",
       "competition guard systems"
-    ]
-  },
-  "top": {
-    "overview": "Facing **Lasso Guard Top** presents unique technical challenges that require systematic understanding of grip breaking, pressure application, and passing mechanics. The opponent's lasso creates a powerful lever against your trapped arm, restricting mobility and base while exposing you to constant sweep threats. Success in this position demands methodical approach to neutralizing the lasso's mechanical advantage while advancing your passing game.\n\nThe fundamental problem when caught in lasso guard is the asymmetric control the bottom player establishes. Your trapped arm becomes a liability, unable to post effectively or establish grips that support passing. This forces you to rely heavily on your free arm and legs for base and pressure, making you vulnerable to off-balancing attacks. Understanding this mechanical disadvantage is essential for developing appropriate counter-strategies.\n\nEffective top play against lasso requires prioritizing grip fighting and positional adjustments before attempting aggressive passing. Your first objective is addressing the sleeve grip and leg positioning that create the lasso control. This often involves specific grip breaks, posture adjustments, or creating angles that reduce the lasso's effectiveness. Rushing into passing attempts while the lasso remains fully established typically results in being swept or submitted.\n\nSuccessful passers against lasso guard demonstrate patience and systematic technique. They recognize that clearing the lasso completely may not be necessary - reducing its effectiveness enough to establish passing grips and pressure often suffices. Common strategies include stepping over the lasso leg to remove the perpendicular angle, driving the knee through to create smashing pressure, or using specific grip breaks combined with posture changes to minimize the leverage disadvantage.\n\nThe position also offers offensive opportunities when approached correctly. If the bottom player becomes too committed to maintaining the lasso, certain submission entries become available, particularly kimuras and armlocks on the non-lasso arm. Additionally, when they extend the lasso leg fully, leg lock entries can present themselves for those training in leg entanglement systems. These counter-attacking options force the bottom player to balance their offensive threats against their defensive vulnerabilities.\n\nAdvanced understanding involves recognizing the relationship between your posture, weight distribution, and the lasso's effectiveness. Upright posture makes you vulnerable to sweeps but helps maintain base. Driving forward reduces sweep angles but exposes you to submissions. Learning to dynamically adjust between these positions based on the opponent's reactions separates competent passers from those who struggle consistently against lasso guard.\n\nDeveloping competency on top in lasso guard situations builds fundamental skills applicable across many guard passing scenarios: grip fighting under disadvantage, maintaining composure under constant pressure, and systematic problem-solving when faced with mechanical disadvantages. These attributes prove valuable far beyond this specific position.",
-    "state_properties": {
-      "point_value": 0,
-      "position_type": "Defensive",
-      "risk_level": "Medium",
-      "energy_cost": "Medium",
-      "time_sustainability": "Short"
-    },
-    "state_invariants": [
-      "Your arm is threaded through the opponent's shin creating a lasso control that restricts your mobility and base on that side",
-      "The opponent maintains a tight sleeve grip on your trapped arm, creating a lever system against your shoulder",
-      "Your trapped arm cannot effectively post or establish controlling grips while the lasso remains engaged",
-      "You must rely primarily on your free arm and leg positioning to maintain base and generate passing pressure"
-    ],
-    "prerequisites": [
-      "Solid understanding of guard passing fundamentals including pressure, base maintenance, and grip fighting principles",
-      "Experience with grip breaking techniques and strategies for dealing with extended guard controls",
-      "Knowledge of stack passing, knee cut passing, and smash passing mechanics applicable to open guard situations",
-      "Understanding of when to stand versus when to remain low during guard passing sequences",
-      "Basic awareness of sweep defense and base recovery when off-balanced from guard positions"
-    ],
-    "key_principles": [
-      "Address the lasso control systematically before attempting aggressive passing - clear or minimize the sleeve grip and leg positioning that create mechanical disadvantage",
-      "Maintain wide base with your legs to prevent being swept, particularly protecting against triangle and hook sweep variations",
-      "Control the opponent's non-lasso leg immediately to prevent them establishing secondary controls or transitioning to other guard systems",
-      "Use strategic posture changes between upright and forward pressure based on the opponent's reactions and attack attempts",
-      "Create angles that reduce the lasso's perpendicular force vector, particularly by stepping over the leg or driving the knee through their guard",
-      "Remain patient and methodical, recognizing that rushing into passing attempts while fully lassoed typically results in being swept or submitted"
-    ],
-    "offensive_transitions": [
-      {
-        "technique": "Lasso Guard Pass",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 45,
-          "advanced": 60
-        }
-      },
-      {
-        "technique": "Stack Pass",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 40,
-          "advanced": 55
-        }
-      },
-      {
-        "technique": "Knee Cut Pass",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 45,
-          "advanced": 60
-        }
-      },
-      {
-        "technique": "Smash Pass",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 40,
-          "advanced": 55
-        }
-      },
-      {
-        "technique": "Toreando Pass",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 50,
-          "advanced": 65
-        }
-      },
-      {
-        "technique": "Pressure Pass",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 45,
-          "advanced": 60
-        }
-      },
-      {
-        "technique": "Long Step Pass",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 20,
-          "intermediate": 35,
-          "advanced": 50
-        }
-      },
-      {
-        "technique": "Kimura from Standing",
-        "target_position": "Kimura Control",
-        "success_rates": {
-          "beginner": 15,
-          "intermediate": 25,
-          "advanced": 40
-        }
-      }
-    ],
-    "defensive_responses": [
-      {
-        "technique": "Lasso Guard Sweeps",
-        "target_position": "Mount",
-        "success_rate": 50
-      },
-      {
-        "technique": "Triangle Setup",
-        "target_position": "Triangle Control",
-        "success_rate": 45
-      },
-      {
-        "technique": "Omoplata Sweep",
-        "target_position": "Mount",
-        "success_rate": 40
-      },
-      {
-        "technique": "De La Riva Sweep",
-        "target_position": "Turtle",
-        "success_rate": 45
-      },
-      {
-        "technique": "X-Guard Sweep",
-        "target_position": "Mount",
-        "success_rate": 40
-      }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Stack Defense",
-        "target_position": "Headquarters Position",
-        "trigger": "When opponent establishes lasso but commits too much to extension, use aggressive stacking pressure to fold them backwards"
-      },
-      {
-        "technique": "Leg Weave Pass",
-        "target_position": "Side Control",
-        "trigger": "If opponent's non-lasso leg becomes available and uncontrolled, immediately weave your leg through to begin passing sequence"
-      },
-      {
-        "technique": "Kimura from Standing",
-        "target_position": "Kimura Control",
-        "trigger": "When opponent over-commits to lasso control and exposes their non-lasso arm, attack with kimura grip to force defensive response"
-      }
-    ],
-    "decision_tree": [
-      {
-        "condition": "If opponent maintains tight lasso with strong sleeve grip and extended leg creating maximum leverage",
-        "actions": [
-          {
-            "technique": "Lasso Guard Pass",
-            "target": "Side Control",
-            "probability": 50
-          },
-          {
-            "technique": "Stack Pass",
-            "target": "Side Control",
-            "probability": 45
-          }
-        ]
-      },
-      {
-        "condition": "If opponent attempts to sweep by pulling you forward and off-balancing toward the lasso side",
-        "actions": [
-          {
-            "technique": "Stack Defense",
-            "target": "Headquarters Position",
-            "probability": 55
-          },
-          {
-            "technique": "Pressure Pass",
-            "target": "Side Control",
-            "probability": 50
-          }
-        ]
-      },
-      {
-        "condition": "If opponent's non-lasso leg becomes available or loses positional control",
-        "actions": [
-          {
-            "technique": "Knee Cut Pass",
-            "target": "Side Control",
-            "probability": 60
-          },
-          {
-            "technique": "Leg Weave Pass",
-            "target": "Side Control",
-            "probability": 55
-          }
-        ]
-      },
-      {
-        "condition": "If you successfully reduce lasso pressure through grip breaks or posture changes",
-        "actions": [
-          {
-            "technique": "Toreando Pass",
-            "target": "Side Control",
-            "probability": 65
-          },
-          {
-            "technique": "Long Step Pass",
-            "target": "Side Control",
-            "probability": 55
-          }
-        ]
-      },
-      {
-        "condition": "If opponent over-commits to lasso and exposes their non-lasso arm or neck",
-        "actions": [
-          {
-            "technique": "Kimura from Standing",
-            "target": "Kimura Control",
-            "probability": 45
-          },
-          {
-            "technique": "Smash Pass",
-            "target": "Side Control",
-            "probability": 50
-          }
-        ]
-      }
-    ],
-    "common_errors": [
-      {
-        "error": "Attempting aggressive passing immediately without addressing the lasso control first",
-        "consequence": "Opponent easily sweeps you using the mechanical advantage of the fully established lasso position",
-        "correction": "First address the lasso through grip breaks, posture adjustments, or strategic pressure before committing to passing attempts"
-      },
-      {
-        "error": "Keeping base too narrow while caught in lasso, making you vulnerable to off-balancing attacks",
-        "consequence": "Opponent sweeps you easily using hook sweeps, triangle sweeps, or omoplata variations that exploit your compromised base",
-        "correction": "Maintain wide leg base even with one arm trapped, using your free arm and legs to create stable triangular support structure"
-      },
-      {
-        "error": "Neglecting to control the opponent's non-lasso leg, allowing them to establish secondary hooks or guards",
-        "consequence": "Opponent transitions to De La Riva, X-guard, or other guard systems while maintaining the lasso, creating multi-layered problems",
-        "correction": "Immediately establish control on the non-lasso leg with your free hand or by pinning it with your leg positioning"
-      },
-      {
-        "error": "Remaining in static posture without making adjustments as the opponent attacks",
-        "consequence": "Opponent patiently works their sweeps and submissions against your unchanging position, eventually finding success",
-        "correction": "Dynamically adjust posture between upright and forward pressure based on opponent's attacks, never allowing them to settle into optimal attacking position"
-      },
-      {
-        "error": "Pulling back or away from the lasso instead of addressing it strategically",
-        "consequence": "You extend the opponent's lasso even further, increasing their leverage and making the position stronger for them",
-        "correction": "Step over the lasso leg or drive forward strategically to reduce the perpendicular angle rather than pulling straight back"
-      },
-      {
-        "error": "Using excessive strength to muscle through the lasso without proper technique",
-        "consequence": "You expend enormous energy while making minimal progress, eventually fatiguing and becoming vulnerable to submissions",
-        "correction": "Use technical solutions like specific grip breaks, angle changes, and pressure application rather than relying on strength alone"
-      }
-    ],
-    "training_drills": [
-      {
-        "name": "Lasso Grip Breaking and Posture Control Drill",
-        "description": "Partner establishes full lasso control with proper grips and leg positioning. Practice various grip breaking methods combined with posture adjustments for 2-minute rounds. Partner maintains resistance but doesn't actively sweep. Focus on systematically reducing the lasso's effectiveness through technique rather than strength. Rotate through different grip break variations each round.",
-        "duration": "5 rounds of 2 minutes with specific grip break focus each round"
-      },
-      {
-        "name": "Lasso Pass Progression Drill",
-        "description": "Start with partner in lasso guard at 30% resistance. Execute full passing sequence from initial grip break through final pass completion. Partner gradually increases resistance as you demonstrate proper mechanics. Cycle through different passing approaches: stack pass, knee cut, leg weave, toreando. Emphasizes complete passing sequences rather than isolated techniques.",
-        "duration": "15 minutes of progressive resistance drilling, increasing from 30% to 70% intensity"
-      },
-      {
-        "name": "Lasso Sweep Defense Reactions",
-        "description": "Partner actively attacks with lasso sweeps at 60-70% intensity. Your goal is maintaining base and recovering position when off-balanced rather than completing passes. Develops defensive reflexes and base recovery specific to lasso threats. Partner focuses on triangle sweeps, hook sweeps, and omoplata attempts. Reset after each near-sweep and continue.",
-        "duration": "10 minutes of continuous action with brief resets after defensive saves"
-      },
-      {
-        "name": "Situational Sparring from Lasso Top",
-        "description": "Start every round with partner in established lasso control. Full intensity sparring with goal of passing or achieving superior position. Partner can sweep, submit, or transition to other guards. You reset to lasso top after any transition. Develops complete problem-solving abilities against active lasso players. Track pass completion rate over multiple sessions.",
-        "duration": "5 rounds of 3 minutes full intensity with 1-minute rest between rounds"
-      }
-    ],
-    "optimal_submission_paths": [
-      {
-        "name": "Counter Kimura from Lasso Top",
-        "path": "Lasso Guard Top → Kimura from Standing → Kimura Control → Kimura"
-      },
-      {
-        "name": "Pass to Submission Chain",
-        "path": "Lasso Guard Top → Knee Cut Pass → Side Control → Americana from Side Control"
-      },
-      {
-        "name": "Stack Pass to Mount Attacks",
-        "path": "Lasso Guard Top → Stack Pass → Mount → Armbar from Mount"
-      },
-      {
-        "name": "Pressure Pass to North-South",
-        "path": "Lasso Guard Top → Pressure Pass → North-South → North-South Choke"
-      }
-    ],
-    "related_content": [
-      {
-        "name": "Spider Guard",
-        "relationship": "Related guard position with similar sleeve control mechanics that requires comparable passing strategies"
-      },
-      {
-        "name": "De La Riva Guard",
-        "relationship": "Often combined with lasso on opposite leg, requiring integrated passing approach to both systems simultaneously"
-      },
-      {
-        "name": "Open Guard",
-        "relationship": "Parent category providing fundamental passing principles applicable to dealing with lasso situations"
-      },
-      {
-        "name": "Headquarters Position",
-        "relationship": "Transitional position often achieved when standing to disengage from lasso before completing pass"
-      },
-      {
-        "name": "Side Control",
-        "relationship": "Primary passing objective when successfully clearing lasso and completing guard pass"
-      },
-      {
-        "name": "Combat Base",
-        "relationship": "Essential posture for maintaining base and stability while dealing with lasso control and sweep threats"
-      },
-      {
-        "name": "Kimura Control",
-        "relationship": "Counter-attacking opportunity when opponent over-commits to lasso and exposes non-lasso arm"
-      }
-    ],
-    "position_metrics": {
-      "retention_rate": {
-        "beginner": 35,
-        "intermediate": 55,
-        "advanced": 70,
-        "description": "Ability to maintain top position without being swept increases substantially with technical understanding and experience"
-      },
-      "advancement_probability": {
-        "beginner": 30,
-        "intermediate": 50,
-        "advanced": 65,
-        "description": "Likelihood of successfully passing lasso guard improves dramatically with proper systematic approach and grip fighting skills"
-      },
-      "submission_probability": {
-        "beginner": 10,
-        "intermediate": 20,
-        "advanced": 35,
-        "description": "Counter-submission opportunities from top exist but require recognizing specific vulnerabilities when opponent over-commits to lasso"
-      },
-      "average_time": "60-120 seconds typically required to systematically clear lasso and complete passing sequence"
-    },
-    "name": "Lasso Guard Top",
-    "description": "Master passing Lasso Guard from top position. Learn systematic clearing methods, grip breaks, pressure passing, and counter-attacking with expert analysis.",
-    "tags": [
-      "lasso guard passing",
-      "open guard passing techniques",
-      "gi guard passing",
-      "grip breaking methods",
-      "sweep defense from top",
-      "systematic passing approach",
-      "stack passing variations",
-      "competition guard passing"
     ]
   }
 }

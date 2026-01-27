@@ -51,6 +51,331 @@
       "relationship": "Alternative control position - can transition between positions for varied attacks"
     }
   ],
+  "top": {
+    "name": "Mounted Crucifix Top",
+    "description": "Dominate with mounted crucifix top position in BJJ. Complete guide covering arm isolation, submission attacks, back takes, and maintaining this devastating control position.",
+    "tags": [
+      "Position",
+      "Offensive",
+      "Mount Attack",
+      "Crucifix Control",
+      "Advanced",
+      "Submission Position"
+    ],
+    "overview": "The mounted crucifix from top position represents one of Brazilian Jiu-Jitsu's most dominant attacking platforms, combining the positional superiority of mount with the arm-control advantages of the traditional crucifix. This position creates an asymmetric control scenario where the top player enjoys maximum attacking options while the bottom player's defensive capabilities are severely diminished.\n\nThe strategic value of mounted crucifix top stems from its systematic removal of the opponent's defensive tools. In standard mount, opponents can use their arms to create frames, establish grips, and build the structural defense necessary for escapes. By trapping one or both arms with your legs, you eliminate these primary defensive mechanisms, leaving your opponent vulnerable to a wide array of high-percentage submissions and positional advances. This control hierarchy - position first, then removing defensive tools, then attacking - exemplifies fundamental BJJ strategy.\n\nTechnically, achieving mounted crucifix requires precise sequencing and timing. The position typically emerges from high mount or S-mount variations where the opponent's arms become exposed and vulnerable to leg-based entanglement. Threading your leg over the opponent's arm while maintaining balance and mount control demands coordination between upper body weight distribution and lower body positioning. The key is establishing the arm trap without sacrificing mount stability or creating escape opportunities during the transition.\n\nOnce established, the mounted crucifix offers diverse attacking pathways. Choke submissions become highly accessible as the opponent cannot defend their neck with trapped arms. Armbars present themselves on both trapped arms and any free arm with minimal defensive resistance. The position also serves as an excellent launching point for back takes, as you already control the opponent's arms and can easily transition to back control while maintaining arm entanglement through the crucifix or seat belt configurations.\n\nMaintaining the mounted crucifix requires active balance management and constant pressure. The opponent will attempt to extract their trapped arms through bridging, hip escapes, and explosive movements. Your leg positioning must remain tight while your upper body weight distribution prevents bridging and maintains forward control. This balance between stable control and mobile attacking creates the position's dynamic nature - you must be secure enough to prevent escapes while fluid enough to capitalize on submission opportunities.\n\nThe progression from mounted crucifix follows a logical hierarchy: establish position, secure arm control, attack submissions or advance position. This systematic approach ensures you maximize the position's offensive potential while minimizing risks of losing control. Understanding when to finish submissions versus when to advance position based on opponent's defensive responses represents advanced tactical decision-making that separates good competitors from great ones.\n\nFrom a teaching perspective, the mounted crucifix demonstrates critical concepts about control progression, defensive tool removal, and submission hunting. It shows how systematic control development creates submission opportunities, how removing opponent options forces errors, and how positional dominance enables finishing techniques. These lessons extend beyond this specific position into broader principles about establishing and maintaining dominant positions throughout your jiu-jitsu game.",
+    "state_properties": {
+      "point_value": 4,
+      "position_type": "Offensive/Controlling",
+      "risk_level": "Low",
+      "energy_cost": "Low",
+      "time_sustainability": "Medium to Long"
+    },
+    "state_invariants": [
+      "Top player maintains mount position with knees on mat on either side of opponent's torso, weight distributed forward to prevent bridging escapes, while simultaneously controlling one or both of opponent's arms through leg entanglement - typically threading leg over opponent's arm near shoulder or bicep area creating mechanical trap that prevents defensive framing",
+      "Opponent's arms are isolated and controlled by top player's legs with knees tight to maintain arm entanglement, while top player's upper body remains mobile and positioned to attack neck, free arm, or transition to back control, creating asymmetric control where opponent cannot effectively defend or escape",
+      "Top player's weight distribution balances between maintaining mount stability to prevent bridging and positioning upper body to attack submissions or advance position, with hips staying low and forward to control opponent's movement while hands remain free to attack neck, isolate additional limbs, or establish grips for positional transitions"
+    ],
+    "prerequisites": [
+      "Mount position must be established with stable weight distribution and opponent on their back",
+      "Opponent's arms become exposed or extended creating opportunity for leg-based isolation",
+      "Balance and base are sufficient to thread leg over opponent's arm without losing mount",
+      "Hip positioning allows leg to trap arm while maintaining mount control",
+      "Opponent's defensive posture is compromised allowing arm isolation"
+    ],
+    "key_principles": [
+      "Establish mount stability first before attempting arm isolation to prevent losing position during transition",
+      "Thread legs over arms using hip movement and weight shifts rather than force",
+      "Maintain tight knee pressure to secure arm traps and prevent extraction",
+      "Balance weight distribution between positional control and submission mobility",
+      "Attack multiple threats simultaneously to create tactical dilemmas preventing focused defense",
+      "Use trapped arms as anchors for stability while attacking neck or transitioning to back",
+      "Progress systematically through control hierarchy: position, arm isolation, then submissions or advancement"
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent's neck is exposed and both arms are trapped",
+        "actions": [
+          {
+            "technique": "Choke from Crucifix",
+            "target": "game-over",
+            "probability": 75
+          },
+          {
+            "technique": "Rear Naked Choke",
+            "target": "game-over",
+            "probability": 65
+          }
+        ]
+      },
+      {
+        "condition": "If opponent extends trapped arm attempting extraction",
+        "actions": [
+          {
+            "technique": "Armbar from Crucifix",
+            "target": "game-over",
+            "probability": 80
+          },
+          {
+            "technique": "Straight Armbar",
+            "target": "game-over",
+            "probability": 75
+          }
+        ]
+      },
+      {
+        "condition": "If opponent turns away to defend neck",
+        "actions": [
+          {
+            "technique": "Back Control to Crucifix",
+            "target": "Back Control",
+            "probability": 85
+          },
+          {
+            "technique": "Seat Belt Control Back",
+            "target": "Seat Belt Control Back",
+            "probability": 80
+          }
+        ]
+      },
+      {
+        "condition": "If opponent creates bridge creating space",
+        "actions": [
+          {
+            "technique": "Gift Wrap to Technical Mount",
+            "target": "Technical Mount",
+            "probability": 70
+          },
+          {
+            "technique": "Mounted Crucifix to S Mount",
+            "target": "S Mount",
+            "probability": 65
+          }
+        ]
+      },
+      {
+        "condition": "If one arm escapes but opponent remains controlled",
+        "actions": [
+          {
+            "technique": "Gift Wrap Transition",
+            "target": "Gift Wrap",
+            "probability": 60
+          },
+          {
+            "technique": "Mount to Armbar",
+            "target": "Armbar Control",
+            "probability": 70
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting to trap arms before establishing solid mount foundation",
+        "consequence": "Creates instability allowing opponent to bridge and escape mount entirely during crucifix transition attempt",
+        "correction": "First secure stable mount with proper weight distribution and base, then systematically work to isolate arms when base is secure"
+      },
+      {
+        "error": "Threading leg over arm using force rather than timing and weight shifts",
+        "consequence": "Telegraphs intention allowing opponent to defend, wastes energy, and may lose mount position during forced attempt",
+        "correction": "Use opponent's movement and arm extensions as opportunities, shift weight to create space for leg threading, flow rather than force"
+      },
+      {
+        "error": "Allowing knees to separate widely once crucifix is established",
+        "consequence": "Loosens arm traps allowing opponent to extract arms and restore defensive frames, losing primary control advantage",
+        "correction": "Keep knees tight together pinching opponent's trapped arms, maintain constant inward pressure with legs throughout position"
+      },
+      {
+        "error": "Committing fully to submission without maintaining positional control",
+        "consequence": "Opponent escapes position during submission attempt because control was abandoned in favor of finish",
+        "correction": "Maintain crucifix control throughout submission attempts, only commit to finish when submission is deeply secured"
+      },
+      {
+        "error": "Focusing only on one attack without creating multiple threats",
+        "consequence": "Allows opponent to defend single attack effectively, often leading to position loss when defense succeeds",
+        "correction": "Chain multiple threats - attack neck forcing arm defense, then switch to armbar on defending arm, creating tactical dilemmas"
+      },
+      {
+        "error": "Sitting too upright reducing weight pressure on opponent",
+        "consequence": "Enables opponent to bridge explosively and create escape space or extract trapped arms",
+        "correction": "Lean forward maintaining chest pressure on opponent while keeping hips low, balance mobility for attacks with weight for control"
+      },
+      {
+        "error": "Releasing arm control prematurely when opponent shows signs of tiring",
+        "consequence": "Gives opponent recovery opportunity and chance to restore defensive position, wasting dominant control achieved",
+        "correction": "Maintain crucifix control until submission is achieved or clear advancement to back control is available"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Crucifix Entry Repetitions",
+        "description": "From established mount position, practice threading legs over partner's arms to achieve crucifix control. Focus on weight distribution, timing the entry with partner's movements, and maintaining balance throughout transition. Reset to mount and repeat 10 times per side.",
+        "duration": "5 minutes"
+      },
+      {
+        "name": "Submission Attack Flow",
+        "description": "With crucifix established, flow between attacking chokes and armbars based on partner's defensive reactions. Practice recognizing which attack is available based on opponent's arm and neck positioning. Emphasize smooth transitions between submission attempts while maintaining control.",
+        "duration": "6 minutes"
+      },
+      {
+        "name": "Control Maintenance Under Pressure",
+        "description": "Establish mounted crucifix and have partner attempt escapes with increasing resistance (50%, 75%, 100%). Focus on maintaining tight knee pressure, proper weight distribution, and preventing arm extraction. Develop feeling for when control is compromised and how to recover.",
+        "duration": "5 minutes"
+      },
+      {
+        "name": "Crucifix to Back Take Transitions",
+        "description": "From mounted crucifix, practice recognizing when opponent turns away or creates space. Execute smooth transitions to back control while maintaining arm control through crucifix or transitioning to seat belt. Emphasize capitalizing on opponent's defensive movements.",
+        "duration": "4 minutes"
+      },
+      {
+        "name": "Multiple Threat Combinations",
+        "description": "Chain attacks from mounted crucifix creating tactical dilemmas. Attack neck with choke forcing arm defense, immediately switch to armbar on defending arm. If armbar is defended, transition to back control. Practice flowing through entire attack chain without losing control.",
+        "duration": "6 minutes"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Crucifix",
+        "relationship": "Parent position - traditional crucifix shares arm-trapping mechanics"
+      },
+      {
+        "name": "High Mount",
+        "relationship": "Common entry - high mount positioning facilitates crucifix transitions"
+      },
+      {
+        "name": "S Mount",
+        "relationship": "Related attack position - shares isolation principles and submission paths"
+      },
+      {
+        "name": "Technical Mount",
+        "relationship": "Natural transition - can flow between positions based on opponent's defense"
+      },
+      {
+        "name": "Back Control",
+        "relationship": "Primary advancement - crucifix control enables high-percentage back takes"
+      },
+      {
+        "name": "Gift Wrap",
+        "relationship": "Alternative control - similar arm-trapping with different mechanics"
+      },
+      {
+        "name": "Armbar Control",
+        "relationship": "Submission position - crucifix creates easy armbar entries"
+      },
+      {
+        "name": "Seat Belt Control Back",
+        "relationship": "Transition target - natural progression when taking back from crucifix"
+      },
+      {
+        "name": "Mount",
+        "relationship": "Foundation position - mounted crucifix builds upon standard mount control"
+      },
+      {
+        "name": "North South Control",
+        "relationship": "Alternative control - can transition to for different attack angles"
+      },
+      {
+        "name": "Kimura Trap",
+        "relationship": "Related arm control - similar principles of isolating opponent's limbs"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "beginner": 60,
+        "intermediate": 75,
+        "advanced": 85,
+        "description": "Ability to maintain crucifix control against escape attempts"
+      },
+      "advancement_probability": {
+        "beginner": 65,
+        "intermediate": 80,
+        "advanced": 90,
+        "description": "Probability of achieving submission or advancing to back control"
+      },
+      "submission_probability": {
+        "beginner": 55,
+        "intermediate": 70,
+        "advanced": 85,
+        "description": "Probability of finishing submission from this position"
+      },
+      "average_time": "45-90 seconds until submission or position advancement"
+    },
+    "transitions": [
+      {
+        "transition": "Armbar from Crucifix",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Choke from Crucifix",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Back Control to Crucifix",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Rear Naked Choke",
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Gift Wrap to Technical Mount",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Straight Armbar",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Mount to Armbar",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Mounted Crucifix to S Mount",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Gift Wrap Transition",
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Seat Belt Control Back",
+        "attempt_probability": 11
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What are the essential weight distribution principles for maintaining mounted crucifix control?",
+        "answer": "Weight should be distributed forward with hips low to prevent bridging escapes while keeping upper body mobile for attacks. The balance requires approximately 60% of weight forward over opponent's chest to control their hip movement, while the remaining 40% stays centered to maintain base. Leaning too far back enables explosive bridges; leaning too far forward risks being rolled. The key is staying heavy through your hips while keeping shoulders light enough to attack or adjust."
+      },
+      {
+        "question": "How should you adjust your knee pressure when opponent attempts to extract their trapped arm?",
+        "answer": "When opponent initiates arm extraction, immediately squeeze knees tighter together while driving your shin bone across their upper arm or bicep. Simultaneously shift weight slightly toward the escaping arm side to add pressure. The pinching motion with knees creates a vice-like trap that tightens as they pull. Avoid widening your knees or lifting your hips, as this creates the space they need. Think of your legs as a closing gate rather than a static barrier."
+      },
+      {
+        "question": "Your opponent starts bridging explosively while you have mounted crucifix - what adjustment prevents them from creating escape space?",
+        "answer": "Drop your chest pressure immediately onto their face or shoulder while driving hips forward and down into their midsection. Time your weight shift to land heavy just as their bridge peaks, using their own momentum against them. Keep knees tight and ride their movement rather than fighting against it. If the bridge is toward your trapped-arm side, you may transition to that side's submission attack while they are committed to the explosive movement."
+      },
+      {
+        "question": "What grip priorities should you establish from mounted crucifix top position?",
+        "answer": "Primary grip priority is controlling the opponent's far-side collar or underhook for choke setup. Secondary is wrist control on any free arm to prevent defensive framing. In no-gi, prioritize a cross-face or head control with one hand while the other threatens submissions. Avoid gripping both arms simultaneously as this reduces your attack options. Your legs provide the primary arm control, freeing your hands for offense rather than grip-fighting."
+      },
+      {
+        "question": "How do you apply pressure to drain opponent's energy while maintaining mounted crucifix?",
+        "answer": "Settle your weight through your pelvis directly onto their diaphragm area, making each breath difficult and energy-intensive. Keep constant forward pressure that forces them to carry your weight. Maintain the arm traps tight so their attempts to create space require full-body effort rather than efficient technical movements. The psychological pressure of being unable to defend with trapped arms accelerates fatigue. Avoid unnecessary movement that gives them recovery windows."
+      },
+      {
+        "question": "Your opponent partially extracts one arm but remains pinned - how do you recover full control?",
+        "answer": "Immediately re-establish control before they complete extraction by driving your knee back over their arm while shifting weight to that side. If the arm is too far extracted, transition to Gift Wrap control by capturing their escaping arm across their face with your hand and re-securing. Alternatively, abandon that arm entirely and attack the remaining trapped arm with an immediate submission threat, using their escape effort against them as they're now committed to one direction."
+      },
+      {
+        "question": "What signals indicate you should transition to back control rather than continuing submission attempts from mounted crucifix?",
+        "answer": "Transition to back when opponent consistently turns their face away exposing the back of their head, when they start turtling their upper body to defend chokes, when your submission attempts are being effectively defended but they're opening their back during defense, or when fatigue has reduced your ability to maintain tight crucifix control. The back take preserves your dominant position if you sense control slipping, and opponents often give their back more readily than expected when defending crucifix submissions."
+      },
+      {
+        "question": "How do you recover mounted crucifix control if your base is disrupted during a submission attempt?",
+        "answer": "Post immediately with your free hand on the mat to prevent being rolled while keeping the arm-trapping leg tight. Re-establish mount fundamentals first by squaring your hips and dropping weight, then re-isolate arms systematically. If the crucifix is lost entirely, settle for standard mount and work back to crucifix when stability returns. Never chase the crucifix position at the expense of mount - mount is still dominant and crucifix can be re-established from a stable foundation."
+      }
+    ]
+  },
   "bottom": {
     "name": "Mounted Crucifix Bottom",
     "description": "Escape the mounted crucifix position in BJJ. Comprehensive guide covering arm extraction, explosive escapes, damage mitigation, and survival strategies from this dangerous bottom position.",
@@ -91,141 +416,13 @@
       "Energy conservation is essential - explosive attempts must be timed strategically rather than continuously",
       "Accept transitional positions like side control or turtle if they facilitate arm extraction from crucifix"
     ],
-    "offensive_transitions": [
-      {
-        "technique": "Arm Extraction",
-        "target_position": "Mount",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 40,
-          "advanced": 55
-        }
-      },
-      {
-        "technique": "Bridge and Roll",
-        "target_position": "Closed Guard",
-        "success_rates": {
-          "beginner": 15,
-          "intermediate": 25,
-          "advanced": 40
-        }
-      },
-      {
-        "technique": "Elbow Escape",
-        "target_position": "Half Guard",
-        "success_rates": {
-          "beginner": 20,
-          "intermediate": 35,
-          "advanced": 50
-        }
-      },
-      {
-        "technique": "Upa Escape",
-        "target_position": "Closed Guard",
-        "success_rates": {
-          "beginner": 10,
-          "intermediate": 20,
-          "advanced": 35
-        }
-      },
-      {
-        "technique": "Hip Escape",
-        "target_position": "Defensive Position",
-        "success_rates": {
-          "beginner": 20,
-          "intermediate": 30,
-          "advanced": 45
-        }
-      },
-      {
-        "technique": "Explosive Bridge to Turtle",
-        "target_position": "Turtle",
-        "success_rates": {
-          "beginner": 15,
-          "intermediate": 25,
-          "advanced": 40
-        }
-      },
-      {
-        "technique": "Arm Drag Sweep",
-        "target_position": "Half Guard",
-        "success_rates": {
-          "beginner": 5,
-          "intermediate": 15,
-          "advanced": 25
-        }
-      },
-      {
-        "technique": "Rolling Escape",
-        "target_position": "Standing Position",
-        "success_rates": {
-          "beginner": 10,
-          "intermediate": 20,
-          "advanced": 30
-        }
-      }
-    ],
-    "defensive_responses": [
-      {
-        "technique": "Armbar from Crucifix",
-        "target_position": "Lost by Submission",
-        "success_rate": 70
-      },
-      {
-        "technique": "Choke from Crucifix",
-        "target_position": "Lost by Submission",
-        "success_rate": 65
-      },
-      {
-        "technique": "Transition to Back Control",
-        "target_position": "Back Control",
-        "success_rate": 60
-      },
-      {
-        "technique": "Transition to Technical Mount",
-        "target_position": "Technical Mount",
-        "success_rate": 55
-      },
-      {
-        "technique": "Rear Naked Choke",
-        "target_position": "Lost by Submission",
-        "success_rate": 50
-      },
-      {
-        "technique": "Straight Armbar",
-        "target_position": "Lost by Submission",
-        "success_rate": 60
-      }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Frame and Shrimp",
-        "target_position": "Half Guard",
-        "trigger": "Opponent shifts weight forward to attack neck"
-      },
-      {
-        "technique": "Explosive Bridge",
-        "target_position": "Turtle",
-        "trigger": "Opponent loosens leg control to adjust position"
-      },
-      {
-        "technique": "Hip Escape",
-        "target_position": "Defensive Position",
-        "trigger": "Opponent transitions toward back control"
-      },
-      {
-        "technique": "Arm Extraction Sequence",
-        "target_position": "Mount",
-        "trigger": "Opponent focuses attention on attacking free arm"
-      }
-    ],
     "decision_tree": [
       {
         "condition": "If opponent attacks neck with choke while arms are trapped",
         "actions": [
           {
             "technique": "Chin Protection",
-            "target": "Defensive Position",
+            "target": "Mounted Crucifix",
             "probability": 70
           },
           {
@@ -235,7 +432,7 @@
           },
           {
             "technique": "Tap Out",
-            "target": "Lost by Submission",
+            "target": "game-over",
             "probability": 5
           }
         ]
@@ -250,7 +447,7 @@
           },
           {
             "technique": "Hip Escape",
-            "target": "Defensive Position",
+            "target": "Open Guard",
             "probability": 35
           },
           {
@@ -355,20 +552,6 @@
         "duration": "6 minutes"
       }
     ],
-    "optimal_submission_paths": [
-      {
-        "name": "Survival to Guard Recovery",
-        "path": "Mounted Crucifix Bottom → Arm Extraction → Mount → Elbow Escape → Half Guard → Guard Recovery → Closed Guard"
-      },
-      {
-        "name": "Emergency Turtle Transition",
-        "path": "Mounted Crucifix Bottom → Explosive Bridge → Turtle → Sit Through → Single Leg X-Guard → Standing Guard"
-      },
-      {
-        "name": "Accept Back, Escape Back",
-        "path": "Mounted Crucifix Bottom → Allow Back Take → Back Control → Arm Drag Sweep → Closed Guard"
-      }
-    ],
     "related_content": [
       {
         "name": "Mount",
@@ -383,8 +566,8 @@
         "relationship": "Common transition - opponent often advances here from mounted crucifix"
       },
       {
-        "name": "Defensive Position",
-        "relationship": "Emergency position - may need to accept this temporarily during escape attempts"
+        "name": "Open Guard",
+        "relationship": "Recovery target - successful hip escapes may lead to open guard positions"
       },
       {
         "name": "Half Guard",
@@ -395,12 +578,12 @@
         "relationship": "Transitional escape - explosive bridge may lead to turtle position"
       },
       {
-        "name": "Escape Hierarchy",
-        "relationship": "Conceptual framework - guides prioritization of escape attempts"
+        "name": "Closed Guard",
+        "relationship": "Ultimate recovery goal - safe position to establish after escape"
       },
       {
-        "name": "Submission Defense",
-        "relationship": "Essential principle - immediate application required in this position"
+        "name": "Side Control",
+        "relationship": "Transitional position - may accept temporarily during escape sequence"
       }
     ],
     "position_metrics": {
@@ -423,419 +606,74 @@
         "description": "Virtually no submission opportunities from this bottom position"
       },
       "average_time": "30-60 seconds before submission or position change"
-    }
-  },
-  "top": {
-    "name": "Mounted Crucifix Top",
-    "description": "Dominate with mounted crucifix top position in BJJ. Complete guide covering arm isolation, submission attacks, back takes, and maintaining this devastating control position.",
-    "tags": [
-      "Position",
-      "Offensive",
-      "Mount Attack",
-      "Crucifix Control",
-      "Advanced",
-      "Submission Position"
-    ],
-    "overview": "The mounted crucifix from top position represents one of Brazilian Jiu-Jitsu's most dominant attacking platforms, combining the positional superiority of mount with the arm-control advantages of the traditional crucifix. This position creates an asymmetric control scenario where the top player enjoys maximum attacking options while the bottom player's defensive capabilities are severely diminished.\n\nThe strategic value of mounted crucifix top stems from its systematic removal of the opponent's defensive tools. In standard mount, opponents can use their arms to create frames, establish grips, and build the structural defense necessary for escapes. By trapping one or both arms with your legs, you eliminate these primary defensive mechanisms, leaving your opponent vulnerable to a wide array of high-percentage submissions and positional advances. This control hierarchy - position first, then removing defensive tools, then attacking - exemplifies fundamental BJJ strategy.\n\nTechnically, achieving mounted crucifix requires precise sequencing and timing. The position typically emerges from high mount or S-mount variations where the opponent's arms become exposed and vulnerable to leg-based entanglement. Threading your leg over the opponent's arm while maintaining balance and mount control demands coordination between upper body weight distribution and lower body positioning. The key is establishing the arm trap without sacrificing mount stability or creating escape opportunities during the transition.\n\nOnce established, the mounted crucifix offers diverse attacking pathways. Choke submissions become highly accessible as the opponent cannot defend their neck with trapped arms. Armbars present themselves on both trapped arms and any free arm with minimal defensive resistance. The position also serves as an excellent launching point for back takes, as you already control the opponent's arms and can easily transition to back control while maintaining arm entanglement through the crucifix or seat belt configurations.\n\nMaintaining the mounted crucifix requires active balance management and constant pressure. The opponent will attempt to extract their trapped arms through bridging, hip escapes, and explosive movements. Your leg positioning must remain tight while your upper body weight distribution prevents bridging and maintains forward control. This balance between stable control and mobile attacking creates the position's dynamic nature - you must be secure enough to prevent escapes while fluid enough to capitalize on submission opportunities.\n\nThe progression from mounted crucifix follows a logical hierarchy: establish position, secure arm control, attack submissions or advance position. This systematic approach ensures you maximize the position's offensive potential while minimizing risks of losing control. Understanding when to finish submissions versus when to advance position based on opponent's defensive responses represents advanced tactical decision-making that separates good competitors from great ones.\n\nFrom a teaching perspective, the mounted crucifix demonstrates critical concepts about control progression, defensive tool removal, and submission hunting. It shows how systematic control development creates submission opportunities, how removing opponent options forces errors, and how positional dominance enables finishing techniques. These lessons extend beyond this specific position into broader principles about establishing and maintaining dominant positions throughout your jiu-jitsu game.",
-    "state_properties": {
-      "point_value": 4,
-      "position_type": "Offensive/Controlling",
-      "risk_level": "Low",
-      "energy_cost": "Low",
-      "time_sustainability": "Medium to Long"
     },
-    "state_invariants": [
-      "Top player maintains mount position with knees on mat on either side of opponent's torso, weight distributed forward to prevent bridging escapes, while simultaneously controlling one or both of opponent's arms through leg entanglement - typically threading leg over opponent's arm near shoulder or bicep area creating mechanical trap that prevents defensive framing",
-      "Opponent's arms are isolated and controlled by top player's legs with knees tight to maintain arm entanglement, while top player's upper body remains mobile and positioned to attack neck, free arm, or transition to back control, creating asymmetric control where opponent cannot effectively defend or escape",
-      "Top player's weight distribution balances between maintaining mount stability to prevent bridging and positioning upper body to attack submissions or advance position, with hips staying low and forward to control opponent's movement while hands remain free to attack neck, isolate additional limbs, or establish grips for positional transitions"
-    ],
-    "prerequisites": [
-      "Mount position must be established with stable weight distribution and opponent on their back",
-      "Opponent's arms become exposed or extended creating opportunity for leg-based isolation",
-      "Balance and base are sufficient to thread leg over opponent's arm without losing mount",
-      "Hip positioning allows leg to trap arm while maintaining mount control",
-      "Opponent's defensive posture is compromised allowing arm isolation"
-    ],
-    "key_principles": [
-      "Establish mount stability first before attempting arm isolation to prevent losing position during transition",
-      "Thread legs over arms using hip movement and weight shifts rather than force",
-      "Maintain tight knee pressure to secure arm traps and prevent extraction",
-      "Balance weight distribution between positional control and submission mobility",
-      "Attack multiple threats simultaneously to create tactical dilemmas preventing focused defense",
-      "Use trapped arms as anchors for stability while attacking neck or transitioning to back",
-      "Progress systematically through control hierarchy: position, arm isolation, then submissions or advancement"
-    ],
-    "offensive_transitions": [
+    "transitions": [
       {
-        "technique": "Armbar from Crucifix",
-        "target_position": "Won by Submission",
-        "success_rates": {
-          "beginner": 50,
-          "intermediate": 65,
-          "advanced": 80
-        }
+        "transition": "Arm Extraction",
+        "attempt_probability": 18
       },
       {
-        "technique": "Choke from Crucifix",
-        "target_position": "Won by Submission",
-        "success_rates": {
-          "beginner": 45,
-          "intermediate": 60,
-          "advanced": 75
-        }
+        "transition": "Bridge and Roll",
+        "attempt_probability": 12
       },
       {
-        "technique": "Back Control to Crucifix",
-        "target_position": "Back Control",
-        "success_rates": {
-          "beginner": 55,
-          "intermediate": 70,
-          "advanced": 85
-        }
+        "transition": "Elbow Escape",
+        "attempt_probability": 16
       },
       {
-        "technique": "Rear Naked Choke",
-        "target_position": "Won by Submission",
-        "success_rates": {
-          "beginner": 40,
-          "intermediate": 55,
-          "advanced": 70
-        }
+        "transition": "Upa Escape",
+        "attempt_probability": 11
       },
       {
-        "technique": "Transition to Technical Mount",
-        "target_position": "Technical Mount",
-        "success_rates": {
-          "beginner": 60,
-          "intermediate": 75,
-          "advanced": 85
-        }
+        "transition": "Hip Escape",
+        "attempt_probability": 14
       },
       {
-        "technique": "Straight Armbar",
-        "target_position": "Won by Submission",
-        "success_rates": {
-          "beginner": 50,
-          "intermediate": 65,
-          "advanced": 80
-        }
+        "transition": "Explosive Bridge to Turtle",
+        "attempt_probability": 12
       },
       {
-        "technique": "Mount to Armbar",
-        "target_position": "Armbar Control",
-        "success_rates": {
-          "beginner": 45,
-          "intermediate": 60,
-          "advanced": 75
-        }
+        "transition": "Arm Drag Sweep",
+        "attempt_probability": 8
       },
       {
-        "technique": "Transition to S Mount",
-        "target_position": "S Mount",
-        "success_rates": {
-          "beginner": 50,
-          "intermediate": 65,
-          "advanced": 80
-        }
-      },
-      {
-        "technique": "Gift Wrap Transition",
-        "target_position": "Gift Wrap",
-        "success_rates": {
-          "beginner": 45,
-          "intermediate": 60,
-          "advanced": 70
-        }
-      },
-      {
-        "technique": "Seat Belt Control Back",
-        "target_position": "Seat Belt Control Back",
-        "success_rates": {
-          "beginner": 55,
-          "intermediate": 70,
-          "advanced": 85
-        }
+        "transition": "Rolling Escape",
+        "attempt_probability": 9
       }
     ],
-    "defensive_responses": [
+    "knowledge_assessment": [
       {
-        "technique": "Arm Extraction",
-        "target_position": "Mount",
-        "success_rate": 30
+        "question": "What is your first priority when you find yourself in mounted crucifix bottom position?",
+        "answer": "Your first priority is immediate submission defense - protect your neck and any remaining free limbs before attempting any positional escape. Tuck your chin tightly to your chest, elevate your shoulders toward your ears to protect the sides of your neck, and use any free arm to create secondary defensive barriers. Positional escapes come second because attempting to escape while arms are trapped typically results in either back exposure or submission. Survival must precede improvement."
       },
       {
-        "technique": "Bridge and Roll",
-        "target_position": "Closed Guard",
-        "success_rate": 20
+        "question": "Why must arm extraction precede traditional mount escape attempts from this position?",
+        "answer": "Attempting mount escapes like bridge and roll or elbow escape while arms remain trapped creates catastrophic vulnerabilities. Without arms to post or frame, escape movements expose your back directly to opponent who already has dominant control. The opponent can easily transition to back control with your arms still compromised, which is significantly worse than mounted crucifix. Arm extraction first restores your primary defensive tools, making subsequent escapes possible and safe."
       },
       {
-        "technique": "Elbow Escape",
-        "target_position": "Half Guard",
-        "success_rate": 25
+        "question": "Your opponent shifts their weight forward to attack your neck with a choke - what escape opportunity does this create?",
+        "answer": "When opponent shifts forward for neck attacks, their base becomes compromised as weight moves off their hips. This creates a brief window for explosive hip movement - either a powerful bridge toward their trapped-arm side to disrupt balance, or a hip escape toward the open side. The key is timing your explosion precisely when their weight commits forward. Their attack commitment often loosens their leg control momentarily, potentially creating arm extraction opportunities simultaneously."
       },
       {
-        "technique": "Explosive Bridge to Turtle",
-        "target_position": "Turtle",
-        "success_rate": 20
+        "question": "How should you manage energy when trapped in mounted crucifix bottom?",
+        "answer": "Energy must be conserved for strategic moments rather than wasted on continuous explosive attempts. Maintain constant subtle hip movement to prevent opponent from settling perfectly, but save explosive escapes for windows when opponent's balance is compromised - typically during their positional adjustments, submission setups, or weight shifts. Continuous explosive bridging against stable control depletes energy rapidly with no escape benefit, leaving you exhausted and more vulnerable to submission."
       },
       {
-        "technique": "Hip Escape",
-        "target_position": "Defensive Position",
-        "success_rate": 15
+        "question": "What technique should you use to extract trapped arms without strengthening opponent's control?",
+        "answer": "Use subtle hip movements and angle changes rather than forcefully pulling arms against established leg control. Hip rotation creates small spaces in the arm entanglement that allow sliding extraction. Wait for moments when opponent shifts weight or adjusts position to time your extraction - their movement naturally loosens the leg trap momentarily. Pulling forcefully against tight control actually creates leverage that tightens the trap and may expose the arm to direct armbar attacks."
+      },
+      {
+        "question": "When might accepting a worse-seeming position like turtle actually improve your situation from mounted crucifix bottom?",
+        "answer": "Accepting turtle can be advantageous when your arms become freed during an explosive bridge even if you cannot complete a full reversal. Turtle without arm entanglement offers significantly more escape options than mounted crucifix - you can immediately work for guard recovery, standing base, or sit-out escapes. The key is ensuring arm extraction happens during or before the turtle transition. Turtle with free arms is a recoverable position; mounted crucifix is a position trending toward submission."
+      },
+      {
+        "question": "How do you defend against chokes when both arms are trapped and cannot protect your neck?",
+        "answer": "Without arms, neck defense relies entirely on positioning adjustments. Tuck chin extremely tight to chest, making it difficult for opponent to sink choking arm underneath. Elevate shoulders toward ears to close gaps on the sides of neck. Turn head toward whichever arm is attacking to reduce choking leverage. Keep constant subtle movement to prevent opponent from settling their choke grip. If one arm has any mobility, use it to fight the choking arm or create space at your neck."
+      },
+      {
+        "question": "What mental approach helps maintain composure in the mounted crucifix bottom position?",
+        "answer": "Accept that this is a bad position requiring patience rather than panic. Focus on small, achievable goals - first survive the immediate submission threat, then create small spaces, then extract one arm, then escape mount. Each step builds toward escape rather than trying to accomplish everything at once. Recognize that opponent must also expend energy to attack, and patient defense can create opportunities when they overcommit. Panic leads to energy depletion and technical breakdown; composure maintains efficient defense until escape windows appear."
       }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Choke from Crucifix",
-        "target_position": "Won by Submission",
-        "trigger": "Opponent focuses on arm extraction and exposes neck"
-      },
-      {
-        "technique": "Armbar from Crucifix",
-        "target_position": "Won by Submission",
-        "trigger": "Opponent creates space or extends trapped arm attempting escape"
-      },
-      {
-        "technique": "Back Control to Crucifix",
-        "target_position": "Back Control",
-        "trigger": "Opponent turns away attempting to protect face from strikes or chokes"
-      },
-      {
-        "technique": "Technical Mount Transition",
-        "target_position": "Technical Mount",
-        "trigger": "Opponent bridges and creates angle opening technical mount opportunity"
-      },
-      {
-        "technique": "Gift Wrap Transition",
-        "target_position": "Gift Wrap",
-        "trigger": "Opponent frees one arm but creates opportunity for gift wrap control"
-      }
-    ],
-    "decision_tree": [
-      {
-        "condition": "If opponent's neck is exposed and both arms are trapped",
-        "actions": [
-          {
-            "technique": "Choke from Crucifix",
-            "target": "Won by Submission",
-            "probability": 75
-          },
-          {
-            "technique": "Rear Naked Choke",
-            "target": "Won by Submission",
-            "probability": 65
-          }
-        ]
-      },
-      {
-        "condition": "If opponent extends trapped arm attempting extraction",
-        "actions": [
-          {
-            "technique": "Armbar from Crucifix",
-            "target": "Won by Submission",
-            "probability": 80
-          },
-          {
-            "technique": "Straight Armbar",
-            "target": "Won by Submission",
-            "probability": 75
-          }
-        ]
-      },
-      {
-        "condition": "If opponent turns away to defend neck",
-        "actions": [
-          {
-            "technique": "Back Control to Crucifix",
-            "target": "Back Control",
-            "probability": 85
-          },
-          {
-            "technique": "Seat Belt Control Back",
-            "target": "Seat Belt Control Back",
-            "probability": 80
-          }
-        ]
-      },
-      {
-        "condition": "If opponent creates bridge creating space",
-        "actions": [
-          {
-            "technique": "Transition to Technical Mount",
-            "target": "Technical Mount",
-            "probability": 70
-          },
-          {
-            "technique": "Transition to S Mount",
-            "target": "S Mount",
-            "probability": 65
-          }
-        ]
-      },
-      {
-        "condition": "If one arm escapes but opponent remains controlled",
-        "actions": [
-          {
-            "technique": "Gift Wrap Transition",
-            "target": "Gift Wrap",
-            "probability": 60
-          },
-          {
-            "technique": "Mount to Armbar",
-            "target": "Armbar Control",
-            "probability": 70
-          }
-        ]
-      }
-    ],
-    "common_errors": [
-      {
-        "error": "Attempting to trap arms before establishing solid mount foundation",
-        "consequence": "Creates instability allowing opponent to bridge and escape mount entirely during crucifix transition attempt",
-        "correction": "First secure stable mount with proper weight distribution and base, then systematically work to isolate arms when base is secure"
-      },
-      {
-        "error": "Threading leg over arm using force rather than timing and weight shifts",
-        "consequence": "Telegraphs intention allowing opponent to defend, wastes energy, and may lose mount position during forced attempt",
-        "correction": "Use opponent's movement and arm extensions as opportunities, shift weight to create space for leg threading, flow rather than force"
-      },
-      {
-        "error": "Allowing knees to separate widely once crucifix is established",
-        "consequence": "Loosens arm traps allowing opponent to extract arms and restore defensive frames, losing primary control advantage",
-        "correction": "Keep knees tight together pinching opponent's trapped arms, maintain constant inward pressure with legs throughout position"
-      },
-      {
-        "error": "Committing fully to submission without maintaining positional control",
-        "consequence": "Opponent escapes position during submission attempt because control was abandoned in favor of finish",
-        "correction": "Maintain crucifix control throughout submission attempts, only commit to finish when submission is deeply secured"
-      },
-      {
-        "error": "Focusing only on one attack without creating multiple threats",
-        "consequence": "Allows opponent to defend single attack effectively, often leading to position loss when defense succeeds",
-        "correction": "Chain multiple threats - attack neck forcing arm defense, then switch to armbar on defending arm, creating tactical dilemmas"
-      },
-      {
-        "error": "Sitting too upright reducing weight pressure on opponent",
-        "consequence": "Enables opponent to bridge explosively and create escape space or extract trapped arms",
-        "correction": "Lean forward maintaining chest pressure on opponent while keeping hips low, balance mobility for attacks with weight for control"
-      },
-      {
-        "error": "Releasing arm control prematurely when opponent shows signs of tiring",
-        "consequence": "Gives opponent recovery opportunity and chance to restore defensive position, wasting dominant control achieved",
-        "correction": "Maintain crucifix control until submission is achieved or clear advancement to back control is available"
-      }
-    ],
-    "training_drills": [
-      {
-        "name": "Crucifix Entry Repetitions",
-        "description": "From established mount position, practice threading legs over partner's arms to achieve crucifix control. Focus on weight distribution, timing the entry with partner's movements, and maintaining balance throughout transition. Reset to mount and repeat 10 times per side.",
-        "duration": "5 minutes"
-      },
-      {
-        "name": "Submission Attack Flow",
-        "description": "With crucifix established, flow between attacking chokes and armbars based on partner's defensive reactions. Practice recognizing which attack is available based on opponent's arm and neck positioning. Emphasize smooth transitions between submission attempts while maintaining control.",
-        "duration": "6 minutes"
-      },
-      {
-        "name": "Control Maintenance Under Pressure",
-        "description": "Establish mounted crucifix and have partner attempt escapes with increasing resistance (50%, 75%, 100%). Focus on maintaining tight knee pressure, proper weight distribution, and preventing arm extraction. Develop feeling for when control is compromised and how to recover.",
-        "duration": "5 minutes"
-      },
-      {
-        "name": "Crucifix to Back Take Transitions",
-        "description": "From mounted crucifix, practice recognizing when opponent turns away or creates space. Execute smooth transitions to back control while maintaining arm control through crucifix or transitioning to seat belt. Emphasize capitalizing on opponent's defensive movements.",
-        "duration": "4 minutes"
-      },
-      {
-        "name": "Multiple Threat Combinations",
-        "description": "Chain attacks from mounted crucifix creating tactical dilemmas. Attack neck with choke forcing arm defense, immediately switch to armbar on defending arm. If armbar is defended, transition to back control. Practice flowing through entire attack chain without losing control.",
-        "duration": "6 minutes"
-      }
-    ],
-    "optimal_submission_paths": [
-      {
-        "name": "Direct Crucifix Finish",
-        "path": "High Mount → Mounted Crucifix Top → Armbar from Crucifix → Won by Submission"
-      },
-      {
-        "name": "Crucifix to Back Finish",
-        "path": "Mounted Crucifix Top → Back Control to Crucifix → Seat Belt Control Back → Rear Naked Choke → Won by Submission"
-      },
-      {
-        "name": "Technical Mount Chain",
-        "path": "Mounted Crucifix Top → Technical Mount → S Mount → Armbar Control → Straight Armbar → Won by Submission"
-      },
-      {
-        "name": "Choke Attack Sequence",
-        "path": "Mounted Crucifix Top → Choke from Crucifix → Gift Wrap → Rear Naked Choke → Won by Submission"
-      }
-    ],
-    "related_content": [
-      {
-        "name": "Crucifix",
-        "relationship": "Parent position - traditional crucifix shares arm-trapping mechanics"
-      },
-      {
-        "name": "High Mount",
-        "relationship": "Common entry - high mount positioning facilitates crucifix transitions"
-      },
-      {
-        "name": "S Mount",
-        "relationship": "Related attack position - shares isolation principles and submission paths"
-      },
-      {
-        "name": "Technical Mount",
-        "relationship": "Natural transition - can flow between positions based on opponent's defense"
-      },
-      {
-        "name": "Back Control",
-        "relationship": "Primary advancement - crucifix control enables high-percentage back takes"
-      },
-      {
-        "name": "Gift Wrap",
-        "relationship": "Alternative control - similar arm-trapping with different mechanics"
-      },
-      {
-        "name": "Armbar Control",
-        "relationship": "Submission position - crucifix creates easy armbar entries"
-      },
-      {
-        "name": "Seat Belt Control Back",
-        "relationship": "Transition target - natural progression when taking back from crucifix"
-      },
-      {
-        "name": "Control Maintenance",
-        "relationship": "Essential principle - maintaining crucifix requires constant pressure and adjustment"
-      },
-      {
-        "name": "Submission Control Position",
-        "relationship": "Conceptual framework - crucifix exemplifies submission-ready control positions"
-      },
-      {
-        "name": "systematic approach Front Headlock System",
-        "relationship": "Related system - shares principles of arm isolation and control progression"
-      }
-    ],
-    "position_metrics": {
-      "retention_rate": {
-        "beginner": 60,
-        "intermediate": 75,
-        "advanced": 85,
-        "description": "Ability to maintain crucifix control against escape attempts"
-      },
-      "advancement_probability": {
-        "beginner": 65,
-        "intermediate": 80,
-        "advanced": 90,
-        "description": "Probability of achieving submission or advancing to back control"
-      },
-      "submission_probability": {
-        "beginner": 55,
-        "intermediate": 70,
-        "advanced": 85,
-        "description": "Probability of finishing submission from this position"
-      },
-      "average_time": "45-90 seconds until submission or position advancement"
-    }
+    ]
   }
 }

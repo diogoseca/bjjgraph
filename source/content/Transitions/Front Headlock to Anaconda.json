@@ -11,8 +11,6 @@
     "turtle",
     "offensive"
   ],
-  "starting_position": "Front Headlock",
-  "ending_position": "Anaconda Control",
   "success_rates": {
     "beginner": 30,
     "intermediate": 50,
@@ -286,6 +284,24 @@
     {
       "name": "Guillotine Choke",
       "relationship": "Alternative attack - another front headlock submission option"
+    }
+  ],
+  "from_position": "Front Headlock/Top",
+  "outcomes": [
+    {
+      "to": "Anaconda Control/Top",
+      "probability": 68,
+      "result": "success"
+    },
+    {
+      "to": "Front Headlock/Top",
+      "probability": 22,
+      "result": "failure"
+    },
+    {
+      "to": "Front Headlock/Bottom",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

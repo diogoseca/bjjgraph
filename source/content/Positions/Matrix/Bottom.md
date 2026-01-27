@@ -21,37 +21,37 @@ description: "Execute the Matrix back take from bottom position. Technical guide
     {
       "@type": "HowToStep",
       "name": "Execute Matrix Back Take",
-      "text": "From this position, execute Matrix Back Take to transition to Back Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Matrix Back Take. This technique is attempted in 13% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling Back Take",
-      "text": "From this position, execute Rolling Back Take to transition to Back Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm Drag to Back",
-      "text": "From this position, execute Arm Drag to Back to transition to Back Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Arm Drag to Back. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Chair Sit to Back",
-      "text": "From this position, execute Chair Sit to Back to transition to Crab Ride. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Chair Sit to Back. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Granby Roll",
-      "text": "From this position, execute Granby Roll to transition to Closed Guard. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Granby Roll. This technique is attempted in 14% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling to Guard",
-      "text": "From this position, execute Rolling to Guard to transition to Open Guard. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Rolling to Guard. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -219,91 +219,22 @@ Risk management is essential when executing the Matrix. Incomplete rotations can
 
 ## Available Escapes
 
-### [[Matrix Back Take]] → [[Back Control]]
+### [[Matrix Back Take]] (13% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 40%
-- Advanced: 65%
+### [[Rolling Back Take]] (12% of attempts)
 
-### [[Rolling Back Take]] → [[Back Control]]
+### [[Arm Drag to Back]] (13% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Chair Sit to Back]] (12% of attempts)
 
-### [[Arm Drag to Back]] → [[Back Control]]
+### [[Granby Roll]] (14% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Rolling to Guard]] (12% of attempts)
 
-### [[Chair Sit to Back]] → [[Crab Ride]]
+### [[Berimbolo Entry]] (11% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Turtle to Back Take]] (13% of attempts)
 
-### [[Granby Roll]] → [[Closed Guard]]
-
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
-
-### [[Rolling to Guard]] → [[Open Guard]]
-
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 60%
-- Advanced: 75%
-
-### [[Berimbolo Entry]] → [[Back Control]]
-
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 35%
-- Advanced: 55%
-
-### [[Turtle to Back Take]] → [[Back Control]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 65%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Base Widening]]** → [[Turtle]] (Opponent Success: 60%)
-- **[[Weight Distribution Adjustment]]** → [[Turtle]] (Opponent Success: 55%)
-- **[[Hip Block]]** → [[Turtle]] (Opponent Success: 50%)
-- **[[Grip Break and Sprawl]]** → [[Turtle]] (Opponent Success: 45%)
-- **[[Counter Roll]]** → [[Scramble Position]] (Opponent Success: 40%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Arm Drag to Back]]** → [[Back Control]]
-  - Opponent attempts to block rotation by reaching across body, exposing arm for drag
-- **[[Turtle to Back Take]]** → [[Back Control]]
-  - Opponent defends Matrix by turtling tighter, creating traditional back attack opening
-- **[[Rolling to Guard]]** → [[Closed Guard]]
-  - Rotation is blocked mid-movement, requiring immediate continuation to guard recovery
-- **[[Granby Roll]]** → [[Closed Guard]]
-  - Opponent sprawls heavily on rotation attempt, necessitating continuation through to guard
 
 
 </section>
@@ -410,29 +341,39 @@ Intentionally practice incomplete or defended Matrix attempts, focusing on immed
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Matrix to Rear Naked Choke
+## Test Your Knowledge
 
-`Matrix Bottom → Back Control → Seat Belt Control Back → Rear Naked Choke`
+**Q1**: What are the essential grip connection points you must establish before initiating the Matrix rotation?
+**A**: You need at least one strong connection point to the opponent's torso or hips—typically a belt grip, pants grip at the hip, or leg hook around their thigh. Without this connection, your rotation happens independently of their position, meaning you arrive behind them without actual control. The grip pulls them into your rotation and ensures they move with you rather than simply watching you roll past.
 
-### Matrix to Bow and Arrow
+**Q2**: Your hips are elevated but your opponent starts shifting their base—do you continue or abort?
+**A**: Abort immediately and return to your defensive structure. The Matrix requires a static or weight-transitioning opponent—their active base adjustment means they've recognized the threat and are countering. Continuing against a moving, aware opponent almost always results in a stuffed rotation where you end up in a worse position. Reset, re-establish your grips, and wait for another timing window when they settle.
 
-`Matrix Bottom → Back Control → Bow and Arrow Choke`
+**Q3**: At what point during the rotation must you begin inserting your first hook?
+**A**: Begin threading the first hook as soon as your hips pass the opponent's centerline during the rotation—while you're still inverted. Waiting until the rotation completes gives the opponent time to turn into you, sprawl away, or establish their own hooks. The hook insertion should be part of the continuous motion, not a separate action. Your leg is already traveling in that direction; guide it into position during transit.
 
-### Matrix to Armbar
+**Q4**: Why must shoulder contact with the mat be maintained during the initial rotation phase?
+**A**: The shoulder on the mat serves as your pivot point—the fulcrum around which your entire body rotates. Without this contact, you're rotating through open space with no mechanical advantage, creating a slow, floating movement that opponents easily stuff. The shoulder anchors your rotation to a fixed point, allowing your hips and legs to generate momentum around it. Only lift the shoulder after your hips have passed their apex.
 
-`Matrix Bottom → Back Control → Armbar from Back`
+**Q5**: You're mid-rotation and feel your opponent beginning to follow and flatten you—what's your response?
+**A**: Accelerate the rotation and commit harder rather than slowing down. Hesitation mid-rotation is the worst possible outcome—you're inverted with your back exposed and no defensive structure. Either complete the rotation explosively and race them to hook establishment, or if that's impossible, immediately transition to a granby roll to guard recovery. Never stop in the vulnerable inverted position.
 
-### Matrix to Body Triangle Attacks
+**Q6**: How do you recognize the optimal timing window for Matrix entry against a turtle opponent?
+**A**: Watch for moments of stillness or weight commitment. When they settle their weight, stop adjusting their base, or commit to a grip or movement that loads them onto one side, that's your window. Also effective: the moment after they complete their own movement (reaching for a grip, adjusting position) when they're momentarily static before starting their next action. Their weight transfer creates the stability you need to rotate against.
 
-`Matrix Bottom → Back Control → Body Triangle → Rear Naked Choke`
+**Q7**: What backup transitions should you have ready if the Matrix rotation is blocked mid-movement?
+**A**: Primary backup is the granby roll to guard recovery—continue the rolling momentum but redirect into closed guard establishment rather than back control. Secondary option is converting to an arm drag if their blocking arm is extended and vulnerable. Third option is completing a seated guard recovery if you can disengage cleanly. Never remain stuck mid-rotation; always have a continuous path to a safe position.
+
+**Q8**: How do you generate sufficient hip elevation for effective rotational momentum?
+**A**: Drive explosively upward using leg extension and core engagement simultaneously. Your posted foot pushes into the mat while your core contracts to lift your hips above shoulder level. Think of it as a hip thrust combined with a shoulder bridge but directed into rotation. The hips must clearly exceed shoulder height—insufficient elevation creates weak momentum that opponents defend simply by maintaining their base.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 

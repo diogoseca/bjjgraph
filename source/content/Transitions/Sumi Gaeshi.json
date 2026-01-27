@@ -11,8 +11,6 @@
     "guard",
     "butterfly guard"
   ],
-  "starting_position": "Standing Position",
-  "ending_position": "Mount",
   "success_rates": {
     "beginner": 30,
     "intermediate": 50,
@@ -264,6 +262,24 @@
     {
       "name": "De La Riva Sweep",
       "relationship": "Alternative sweeping system using leg hooks and angles"
+    }
+  ],
+  "from_position": "Standing Position/Top",
+  "outcomes": [
+    {
+      "to": "Mount/Top",
+      "probability": 70,
+      "result": "success"
+    },
+    {
+      "to": "Standing Position/Top",
+      "probability": 20,
+      "result": "failure"
+    },
+    {
+      "to": "Standing Position/Bottom",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

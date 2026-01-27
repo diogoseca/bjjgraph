@@ -21,37 +21,37 @@ description: "Master the Jailbreak escape from bottom half guard. Advanced 10th 
     {
       "@type": "HowToStep",
       "name": "Execute Jailbreak to Turtle",
-      "text": "From this position, execute Jailbreak to Turtle to transition to Turtle. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Jailbreak to Turtle. This technique is attempted in 19% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Jailbreak to Back Take",
-      "text": "From this position, execute Jailbreak to Back Take to transition to Back Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Jailbreak to Back Take. This technique is attempted in 16% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Jailbreak to Deep Half Entry",
-      "text": "From this position, execute Jailbreak to Deep Half Entry to transition to Deep Half Guard. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Jailbreak to Deep Half Entry. This technique is attempted in 17% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Guard Recovery",
-      "text": "From this position, execute Guard Recovery to transition to Half Guard. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Guard Recovery. This technique is attempted in 19% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Old School Sweep",
-      "text": "From this position, execute Old School Sweep to transition to Mount. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Old School Sweep. This technique is attempted in 13% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Technical Standup",
-      "text": "From this position, execute Technical Standup to transition to Standing Position. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Technical Standup. This technique is attempted in 16% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -213,74 +213,18 @@ The biomechanical principle underlying the Jailbreak involves converting the opp
 
 ## Available Escapes
 
-### [[Jailbreak to Turtle]] → [[Turtle]]
+### [[Jailbreak to Turtle]] (19% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Jailbreak to Back Take]] (16% of attempts)
 
-### [[Jailbreak to Back Take]] → [[Back Control]]
+### [[Jailbreak to Deep Half Entry]] (17% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 40%
-- Advanced: 60%
+### [[Guard Recovery]] (19% of attempts)
 
-### [[Jailbreak to Deep Half Entry]] → [[Deep Half Guard]]
+### [[Old School Sweep]] (13% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 45%
-- Advanced: 65%
+### [[Technical Standup]] (16% of attempts)
 
-### [[Guard Recovery]] → [[Half Guard]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 70%
-
-### [[Old School Sweep]] → [[Mount]]
-
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 50%
-
-### [[Technical Standup]] → [[Standing Position]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 60%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Crossface and Flatten]]** → [[Flattened Half Guard]] (Opponent Success: 60%)
-- **[[Underhook Strip and Pass]]** → [[Side Control]] (Opponent Success: 55%)
-- **[[Follow the Roll to Mount]]** → [[Mount]] (Opponent Success: 45%)
-- **[[Knee Slice Pass]]** → [[Side Control]] (Opponent Success: 50%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Re-Jailbreak from Flatten Attempt]]** → [[Turtle]]
-  - When top player drives chest forward to flatten, use their forward momentum to accelerate the roll
-- **[[Switch to Deep Half Entry]]** → [[Deep Half Guard]]
-  - When top player bases out wide to prevent roll, dive under their hips to deep half guard
-- **[[Granby Roll to Guard]]** → [[Half Guard]]
-  - When top player follows the jailbreak roll, continue rolling motion through to re-guard
 
 
 </section>
@@ -387,25 +331,39 @@ Bottom player executes jailbreak while top player intentionally follows the roll
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Fastest path to submission
+## Test Your Knowledge
 
-`Jailbreak Bottom → Back Take → Back Control → Rear Naked Choke`
+**Q1**: What is the single most important control point that must be maintained throughout the Jailbreak escape?
+**A**: The underhook on the same side as your trapped leg is the essential control point. This underhook serves as the connection that prevents the top player from separating from you during the roll, enables you to control the direction of the escape, and provides the leverage needed to complete the inversion. Without maintaining this underhook, the top player can easily disengage, follow to mount, or re-establish dominant top position during your escape attempt.
 
-### High-percentage sweep to submission
+**Q2**: The top player drives their chest forward to flatten you - what adjustment do you make?
+**A**: When the top player commits weight forward to flatten you, this is actually the optimal moment to execute the jailbreak. Use their forward momentum against them by immediately initiating the explosive roll. Their forward weight commitment means their base is compromised and vulnerable to being rolled through. The key is recognizing this moment and reacting explosively rather than trying to frame against the pressure. Tighten your underhook, tuck your chin, and roll through the pressure.
 
-`Jailbreak Bottom → Old School Sweep → Mount → Armbar from Mount`
+**Q3**: What are the essential body mechanics for executing the Jailbreak roll safely and effectively?
+**A**: Essential mechanics include: chin tucked to chest to protect neck and enable smooth rolling, shoulders actively inverting toward the mat while maintaining underhook connection, free leg posting against mat to generate propulsion, hips turned toward trapped leg side to create angular momentum, and elbow of underhook arm tight to your hip to maintain structural connection. The movement should be explosive and committed - partial execution results in getting stuck in worse position.
 
-### Deep half guard submission path
+**Q4**: How do you shut down the primary counter (top player following to mount) when executing Jailbreak?
+**A**: The primary defense against the follow-to-mount counter is maintaining underhook connection and reading the opponent's reaction. If they follow your roll, continue the momentum rather than stopping at turtle - chain directly into a back take by using your underhook to pull yourself behind them while they chase. If you feel them loading weight to follow, accelerate your roll and keep moving. The worst outcome is stopping mid-roll which allows them to establish mount.
 
-`Jailbreak Bottom → Deep Half Entry → Deep Half Guard → Homer Simpson Sweep → Back Control → Rear Naked Choke`
+**Q5**: What determines whether you should attempt the Jailbreak versus switching to Deep Half entry?
+**A**: The decision depends on the top player's weight distribution and base width. Jailbreak is optimal when they commit weight forward onto your upper body with a narrow base, making them vulnerable to being rolled. Deep half entry is better when they base wide with hips back to prevent the roll, as this creates space to dive underneath them. Read their pressure - forward commitment means jailbreak, wide defensive base means deep half. Both options use the underhook as the entry point.
+
+**Q6**: Your underhook gets stripped mid-escape attempt - what is your recovery protocol?
+**A**: When the underhook is lost mid-escape, immediately abort the jailbreak attempt and switch to emergency defense. You have two options: establish frames against their shoulder and hip while shrimping to recover half guard, or continue to turtle and play defensive turtle escapes. Never try to complete the jailbreak without the underhook as this guarantees they follow to mount or side control. The underhook is your lifeline - without it, the escape mechanics don't work.
+
+**Q7**: How do you manage energy expenditure when the top player is preventing your escape attempts?
+**A**: Energy management in Jailbreak Bottom requires strategic patience combined with explosive execution. Don't continuously fight for the escape against a well-based opponent. Instead, maintain your underhook defensively while waiting for them to commit weight forward for their pass. When they don't commit, consider switching to lockdown to recover energy, or threatening other attacks to force reactions. Save your explosive energy for moments when their weight is forward and the escape mechanics will work.
+
+**Q8**: Your jailbreak fails and you end up in turtle with the opponent on top - how do you continue the escape sequence?
+**A**: If you reach turtle after a jailbreak attempt, immediately protect your neck and far arm from chokes and back takes. Your options from turtle include: sitting through to guard recovery by posting and rotating, standing up through a technical standup if you can create space, or attacking with a Peterson roll or Granby to re-guard. The key is staying active in turtle rather than stalling, as the opponent will quickly establish back control if you remain static. Chain your escape attempts together.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -431,9 +389,9 @@ Bottom player executes jailbreak while top player intentionally follows the roll
 - **[[Deep Half Guard]]** - Alternative transition target when jailbreak roll is defended
 - **[[Turtle]]** - Primary transition target - most common jailbreak destination
 - **[[Old School]]** - Related technique - uses similar underhook mechanics
-- **[[10th Planet Half Guard Bottom System]]** - Parent system - jailbreak is key component of this system
 - **[[Electric Chair]]** - Related system - jailbreak often used when electric chair is defended
-- **[[Granby Roll Concept]]** - Related concept - similar inverting mechanics and body movement
+- **[[Back Control]]** - Advanced transition target - achieved when opponent follows roll
+- **[[Flattened Half Guard]]** - Position to escape from - jailbreak addresses being flattened
 
 
 </section>

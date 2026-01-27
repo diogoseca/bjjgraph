@@ -417,4 +417,14 @@ The Arm Triangle (Kata Gatame) is a fundamental blood choke that uses the oppone
 
 </section>
 
+<section id="terminal-state" class="content-section">
+
+## Match Outcome
+
+Successful execution of Arm Triangle leads to → [[game-over|Game Over]]
+
+*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+
+</section>
+
 </main>

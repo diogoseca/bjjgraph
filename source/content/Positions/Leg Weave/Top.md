@@ -21,37 +21,37 @@ description: "Master leg weave passing from top position. Advanced guard passing
     {
       "@type": "HowToStep",
       "name": "Execute Leg Weave Pass",
-      "text": "From this position, execute Leg Weave Pass to transition to Side Control. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Leg Weave Pass. This technique is attempted in 14% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, execute Knee Slice Pass to transition to Side Control. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 17% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag Pass",
-      "text": "From this position, execute Leg Drag Pass to transition to Leg Drag Position. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Smash Pass",
-      "text": "From this position, execute Smash Pass to transition to Side Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Smash Pass. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Over-Under Pass",
-      "text": "From this position, execute Over-Under Pass to transition to Side Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Over-Under Pass. This technique is attempted in 13% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Long Step Pass",
-      "text": "From this position, execute Long Step Pass to transition to Side Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Long Step Pass. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -209,91 +209,22 @@ The Leg Weave Top Position is an advanced guard passing control where the top pl
 
 ## Available Attacks
 
-### [[Leg Weave Pass]] → [[Side Control]]
+### [[Leg Weave Pass]] (14% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Knee Slice Pass]] (17% of attempts)
 
-### [[Knee Slice Pass]] → [[Side Control]]
+### [[Leg Drag Pass]] (13% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 60%
-- Advanced: 75%
+### [[Smash Pass]] (12% of attempts)
 
-### [[Leg Drag Pass]] → [[Leg Drag Position]]
+### [[Over-Under Pass]] (13% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Long Step Pass]] (12% of attempts)
 
-### [[Smash Pass]] → [[Side Control]]
+### [[Side Control to Mount]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Back Step]] (9% of attempts)
 
-### [[Over-Under Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 65%
-
-### [[Long Step Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[Transition to Mount]] → [[Mount]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
-
-### [[Back Step]] → [[Back Control]]
-
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 45%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Frame and Shrimp]]** → [[Knee Shield Half Guard]] (Opponent Success: 40%)
-- **[[Underhook Sweep from Half]]** → [[Side Control]] (Opponent Success: 25%)
-- **[[Deep Half Entry]]** → [[Deep Half Guard]] (Opponent Success: 30%)
-- **[[Re-Guard]]** → [[Closed Guard]] (Opponent Success: 20%)
-- **[[Lockdown Sweeps]]** → [[Lockdown]] (Opponent Success: 25%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Knee Slice Pass]]** → [[Side Control]]
-  - Opponent attempts to recover knee shield or create frames
-- **[[Leg Drag Pass]]** → [[Leg Drag Position]]
-  - Opponent turns away or attempts to turtle
-- **[[Smash Pass]]** → [[Side Control]]
-  - Opponent flattens out and tries to prevent pass with legs
-- **[[Back Step]]** → [[Back Control]]
-  - Opponent exposes back while attempting deep half entry
 
 
 </section>
@@ -395,29 +326,39 @@ Bottom player attempts specific escapes (knee shield recovery, deep half entry, 
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### High-percentage control to submission path
+## Test Your Knowledge
 
-`Leg Weave Top → Side Control → Americana from Side Control`
+**Q1**: Your opponent begins bridging explosively while you're in leg weave - what adjustment prevents them from creating space?
+**A**: Drop your weight immediately by lowering your hips and driving your chest into their shoulder. Maintain your weaved leg deep and use your far hand to post on the mat for stability. The key is anticipating the bridge and settling your weight before they generate momentum, not reacting after they've already created space.
 
-### Back attack path via exposure
+**Q2**: What are the essential grips for maintaining leg weave control against an active opponent?
+**A**: The primary grips are collar control with your crossface-side hand to prevent them sitting up, and far hip or pants grip to control their rotation. In no-gi, underhook on the near side combined with head pressure replaces collar control. The weaved leg itself becomes a third point of control, pinning their bottom leg while your grips manage upper body movement.
 
-`Leg Weave Top → Back Control → Rear Naked Choke`
+**Q3**: How do you shut down the primary escape when opponent attempts to recover knee shield?
+**A**: As they try to insert their knee, drive your weaved leg deeper while simultaneously increasing chest pressure toward their head. Use your far hand to block their knee from coming inside by posting on their thigh. The key is recognizing the attempt early and smothering it before their knee gets between your bodies - once the shield is half-established, you must address it rather than forcing through.
 
-### Mount control to armbar path
+**Q4**: What grip priorities should you maintain when the opponent actively fights your controls?
+**A**: First priority is maintaining the weave depth - if your leg comes out, the position is lost. Second priority is upper body control to prevent sitting up, whether through collar, underhook, or crossface. Third is far hip control to prevent rotation. If forced to choose, keep the weave and reestablish upper body control through pressure rather than abandoning leg position for grips.
 
-`Leg Weave Top → Mount → Armbar from Mount`
+**Q5**: How should you apply pressure in leg weave without exhausting yourself?
+**A**: Pressure comes from structural positioning, not muscle tension. Keep your hips low and let gravity do the work by relaxing into the position rather than actively pushing. Your chest pressure should come from body position with your shoulder driving into their chest. Use your weaved leg like an anchor point and distribute weight across chest, shoulder, and leg rather than holding yourself up with arms.
 
-### Leg entanglement path for advanced practitioners
+**Q6**: Your opponent starts turning away to attempt turtle - what movement pattern should you follow?
+**A**: Immediately begin circling toward their back while maintaining your weave. As they turn, your weaved leg becomes a hook that prevents them from completing the turtle. Simultaneously transition your upper body grips to establish seat belt control. The key is following their rotation rather than trying to stop it - their turn actually accelerates your back take if you maintain connection and circle with them.
 
-`Leg Weave Top → Ashi Garami → Inside Heel Hook`
+**Q7**: How do you manage energy during extended leg weave sequences against a defensive opponent?
+**A**: Settle your weight and establish control points rather than constantly driving. Create waves of pressure followed by brief consolidation periods. Let the opponent carry your weight while you use the position to rest. Make them work to escape by maintaining threatening position without constant exertion. When you do attack, use explosive bursts on single passing attempts rather than sustained grinding pressure.
+
+**Q8**: Your opponent partially escapes and gets their knee shield halfway established - how do you recover full leg weave control?
+**A**: Rather than fighting directly against their inserted knee, angle your hips and drive your shoulder into the knee shield to collapse it. Use your far hand to control their bottom leg and prevent them from establishing full shield. Sometimes the best recovery is accepting the partial loss and transitioning to a complementary pass like knee slice that uses their shield position against them rather than forcing back to pure leg weave.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -442,8 +383,8 @@ Bottom player attempts specific escapes (knee shield recovery, deep half entry, 
 - **[[Half Guard]]** - Common starting position before establishing leg weave
 - **[[Side Control]]** - Primary completion target for leg weave passes
 - **[[Headquarters Position]]** - Related passing position with similar pressure principles
-- **[[Pressure Passing]]** - Core concept underlying this position
-- **[[Guard Passing Principles]]** - Fundamental concept applied in this position
+- **[[Knee Slice Pass]]** - Primary passing technique from leg weave
+- **[[Smash Pass]]** - Alternative passing technique when opponent flattens
 - **[[Long Step Pass]]** - Related passing concept with leg threading mechanics
 
 

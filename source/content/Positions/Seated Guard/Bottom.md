@@ -21,37 +21,37 @@ description: "Master Seated Guard Bottom in BJJ. Upright open guard with posted 
     {
       "@type": "HowToStep",
       "name": "Execute Technical Stand-up",
-      "text": "From this position, execute Technical Stand-up to transition to Standing Position. Success rate for advanced practitioners: 85%.",
+      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 16% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Butterfly Sweep",
-      "text": "From this position, execute Butterfly Sweep to transition to Mount. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Butterfly Sweep. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Scissor Sweep",
-      "text": "From this position, execute Scissor Sweep to transition to Mount. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Scissor Sweep. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Single Leg X Entry",
-      "text": "From this position, execute Single Leg X Entry to transition to Single Leg X-Guard. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Single Leg X Entry. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Ankle Pick",
-      "text": "From this position, execute Ankle Pick to transition to Side Control. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Ankle Pick. This technique is attempted in 11% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Tripod Sweep",
-      "text": "From this position, execute Tripod Sweep to transition to Side Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Tripod Sweep. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -212,94 +212,22 @@ Seated Guard works best when opponent is standing or on knees with distance, but
 
 ## Available Escapes
 
-### [[Technical Stand-up]] → [[Standing Position]]
+### [[Technical Stand-up]] (16% of attempts)
 
-**Success Rates:**
-- Beginner: 60%
-- Intermediate: 75%
-- Advanced: 85%
+### [[Butterfly Sweep]] (12% of attempts)
 
-### [[Butterfly Sweep]] → [[Mount]]
+### [[Scissor Sweep]] (13% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Single Leg X Entry]] (12% of attempts)
 
-### [[Scissor Sweep]] → [[Mount]]
+### [[Ankle Pick]] (11% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Tripod Sweep]] (12% of attempts)
 
-### [[Single Leg X Entry]] → [[Single Leg X-Guard]]
+### [[X-Guard Sweep]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Lumberjack Sweep]] (12% of attempts)
 
-### [[Ankle Pick]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-### [[Tripod Sweep]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-### [[X-Guard Sweep]] → [[Mount]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[Lumberjack Sweep]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Knee Slice Pass]]** → [[Side Control]] (Opponent Success: 45%)
-- **[[Toreando Pass]]** → [[Side Control]] (Opponent Success: 40%)
-- **[[Long Step Pass]]** → [[Side Control]] (Opponent Success: 35%)
-- **[[Leg Drag Pass]]** → [[Side Control]] (Opponent Success: 50%)
-- **[[Smash Pass]]** → [[Side Control]] (Opponent Success: 55%)
-- **[[Stack Pass]]** → [[Side Control]] (Opponent Success: 45%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Technical Stand-up]]** → [[Standing Position]]
-  - Opponent attempts to establish grips while standing
-- **[[Single Leg X Entry]]** → [[Single Leg X-Guard]]
-  - Opponent steps forward to pass
-- **[[Butterfly Sweep]]** → [[Mount]]
-  - Opponent drops weight forward attempting to flatten you
-- **[[Scissor Sweep]]** → [[Mount]]
-  - Opponent establishes high posture and drives forward
-- **[[Tripod Sweep]]** → [[Side Control]]
-  - Opponent reaches for leg grips while standing
 
 
 </section>
@@ -422,33 +350,39 @@ Start in seated guard. Partner attempts to pass. You defend and look for sweeps 
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Triangle Path from Seated Guard
+## Test Your Knowledge
 
-`Seated Guard → Scissor Sweep → Mount → Triangle from Mount`
+**Q1**: What is the optimal hand posting position for maintaining seated guard, and why does it matter?
+**A**: Post hands slightly wider than shoulder-width apart, fingers pointing away from body, elbows slightly bent like springs. This creates a stable tripod base with your hips while allowing mobility. Too narrow collapses under pressure, too wide limits your ability to move laterally. The slight elbow bend creates a spring-like structure that absorbs pressure without collapsing, while engaging your lats provides additional structural support.
 
-### Armbar Path via X-Guard
+**Q2**: Your opponent is standing at distance without committing to pass - what is the best tactical response?
+**A**: When opponent maintains distance without engaging, the technical standup is often the highest-percentage response. You have space to stand safely, and standing resets the position to neutral where you can re-engage on equal terms or shoot takedowns. Alternatively, you can scoot forward to force engagement, but this requires reading their reaction. A passive opponent at distance is an opportunity to improve your position.
 
-`Seated Guard → Single Leg X Entry → Single Leg X-Guard → Single Leg X Sweep → Side Control → Armbar from Guard`
+**Q3**: How should your feet function in seated guard, and what happens if they become passive?
+**A**: Your feet should actively manage distance by pushing, pulling, framing, and probing. They detect opponent's weight distribution and act as barriers to prevent advancement. Active feet push on hips to maintain space, hook ankles for sweep setups, and frame against knees to prevent passes. Passive feet allow opponent to close distance at will, establish pressure, and pass without meaningful resistance. The difference between good and poor seated guard is primarily foot activity.
 
-### Kimura Path from Butterfly
+**Q4**: Opponent steps forward aggressively - what sweep options become available and why?
+**A**: When opponent steps forward, their weight shifts onto their lead leg, compromising their base. This opens scissor sweep (catch stepping leg with your shin while driving with other leg), tripod sweep (feet on hip and ankle while pulling their sleeve), and butterfly sweep (insert hook and elevate as their weight commits forward). The key is recognizing the weight shift and attacking during the transition when their base is weakest.
 
-`Seated Guard → Butterfly Sweep → Side Control → Kimura from Guard`
+**Q5**: What is the correct response when opponent achieves chest-to-chest pressure in seated guard?
+**A**: Once chest-to-chest pressure is established, seated guard has failed - you must immediately transition. Frame with forearms or elbows against their shoulders/chest to create space, then shrimp your hips away to recover half guard or butterfly guard. The key is not to accept the pressure but to immediately work to recover a more defensible position. Trying to maintain seated guard under chest pressure is futile and leads to getting passed.
 
-### Guillotine Path from Standup
+**Q6**: Why is constant hip movement essential in seated guard, and what should this movement look like?
+**A**: Constant hip adjustment prevents opponent from establishing static control and timing their passes. Movement should include small lateral shifts, forward scoots to close distance for attacks, and backward movements to create space. You should always be micro-adjusting based on opponent's positioning. If opponent seems comfortable and is slowly advancing their position, you're too static. The movement makes it impossible for them to time grips and passes precisely.
 
-`Seated Guard → Technical Stand-up → Standing Position → Guillotine Choke`
+**Q7**: When opponent controls one of your legs, what is the correct defensive response?
+**A**: Immediately activate your free leg as both a defensive and offensive tool. The free leg can push on their hip to create distance, frame against their knee to prevent advancement, hook their ankle for sweep attempts, or set up Single Leg X-Guard entry. Never allow both legs to be controlled simultaneously. Think of your legs as independent systems - when one is compromised, the other compensates. The worst response is to try to free the controlled leg while leaving the other passive.
 
-### Back Take Path
-
-`Seated Guard → X-Guard Sweep → Back Control → Rear Naked Choke`
+**Q8**: What visual cues indicate it's time to execute a technical standup rather than stay in seated guard?
+**A**: Execute technical standup when: opponent commits to standing passes and is focused on leg control rather than pressure; when you've created enough distance that they can't immediately close; when opponent hesitates or resets their position; when grip fighting has stalemated and neither has dominant control; or when you need to reset after a near-pass. The key cue is space - if you have room to stand without opponent immediately driving into you, the standup is available.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -476,9 +410,8 @@ Start in seated guard. Partner attempts to pass. You defend and look for sweeps 
 - **[[X-Guard]]** - Related guard variation with similar entries
 - **[[Technical Stand-up]]** - Primary escape and transition technique from seated guard
 - **[[Scissor Sweep]]** - High-percentage sweep from seated guard
-- **[[Guard Recovery]]** - Position often needed when seated guard is compromised
-- **[[Distance Creation]]** - Core concept for effective seated guard management
-- **[[Guard Retention Concepts]]** - Conceptual framework for maintaining guard positions
+- **[[De La Riva Guard]]** - Alternative guard when opponent stands with leg forward
+- **[[Shin-to-Shin Guard]]** - Transitional guard connecting seated to leg entanglements
 
 
 </section>

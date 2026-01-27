@@ -95,26 +95,20 @@ The position scores 4 points in IBJJF competition when held from top, placing it
 - Coordinate bridge and shrimp movements to systematically create space and angle for guard recovery or positional improvement
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Elbow Escape]]** → [[Half Guard]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Elbow Escape]]** (19% of attempts)
 
-- **[[Bridge and Roll]]** → [[Closed Guard]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Bridge and Roll]]** (16% of attempts)
 
-- **[[Shrimp Escape]]** → [[Open Guard]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Shrimp Escape]]** (17% of attempts)
 
-- **[[Hip Escape]]** → [[Open Guard]]
-  - Success Rate: Beginner 22%, Intermediate 38%, Advanced 52%
+- **[[Hip Escape]]** (16% of attempts)
 
-- **[[Frame and Shrimp]]** → [[Half Guard]]
-  - Success Rate: Beginner 18%, Intermediate 32%, Advanced 48%
+- **[[Frame and Shrimp]]** (15% of attempts)
 
-- **[[Upa Escape]]** → [[Closed Guard]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Upa Escape]]** (17% of attempts)
 
 
 ### Common Mistakes
@@ -172,41 +166,24 @@ The position scores 4 points in IBJJF competition when held from top, placing it
 - Stay mobile and ready to transition, recognizing that 3-4 Mount is often a transitional position leading to full mount, side control, or submission attacks
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Mount to Armbar]]** → [[Armbar Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 70%
+- **[[Mount to Armbar]]** (18% of attempts)
 
-- **[[Transition to Mount]]** → [[Mount]]
-  - Success Rate: Beginner 55%, Intermediate 70%, Advanced 85%
+- **[[Side Control to Mount]]** (15% of attempts)
 
-- **[[Americana from Mount]]** → [[Americana Control]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Americana from Mount]]** (14% of attempts)
 
-- **[[Side Control to Mount]]** → [[Side Control]]
-  - Success Rate: Beginner 60%, Intermediate 75%, Advanced 85%
+- **[[Ezekiel from Mount]]** (12% of attempts)
 
-- **[[Ezekiel from Mount]]** → [[Armbar Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 60%
+- **[[Triangle from Mount]]** (10% of attempts)
 
-- **[[Triangle from Mount]]** → [[Mounted Triangle]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 55%
+- **[[Kimura from Mount]]** (11% of attempts)
 
-- **[[Kimura from Mount]]** → [[Kimura Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 65%
+- **[[Side Control to North-South]]** (8% of attempts)
 
-- **[[Transition to North-South]]** → [[North-South]]
-  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 80%
-
-- **[[Back Take Generic]]** → [[Back Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 70%
-
-- **[[Transition to Mount]]** → [[S Mount]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
-
-- **[[Transition to Mount]]** → [[Technical Mount]]
-  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+- **[[Back Take Generic]]** (12% of attempts)
 
 
 ### Common Mistakes
@@ -265,9 +242,9 @@ The position scores 4 points in IBJJF competition when held from top, placing it
 
 - **[[Back Control]]** - Advanced position accessed when bottom player turns away during escape attempts
 
-- **[[Escape Hierarchy]]** - Governing principle establishing priority system for bottom player's defensive options
+- **[[Closed Guard]]** - Guard recovery position when bottom player successfully creates space and inserts legs
 
-- **[[Positional Hierarchy]]** - Framework positioning 3-4 Mount within overall BJJ position advancement ladder
+- **[[Knee on Belly]]** - Alternative control position top player may transition to when mount becomes unstable
 
 
 </section>

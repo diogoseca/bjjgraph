@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Double Leg Finish | BJJ Technique | BJJ Graph"
 description: "Master the Double Leg Finish in BJJ. Complete execution from penetration to dominant position. Success rates: Beginner 55%, Intermediate 75%, Advanced 88%. Step-by-step guide."
@@ -16,7 +17,7 @@ description: "Master the Double Leg Finish in BJJ. Complete execution from penet
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Double Leg Finish in BJJ",
-  "description": "Step-by-step guide for Double Leg Finish from Clinch to Side Control.",
+  "description": "Step-by-step guide for Double Leg Finish from Clinch/Top. Possible outcomes: Side Control/Top (75%), Clinch/Top (15%), Clinch/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -164,11 +165,25 @@ The effectiveness of the double leg finish lies in its directness and mechanical
 
 Mastery of the double leg finish is essential for any grappler's takedown game, as the entry without a solid finish leaves the practitioner vulnerable to guillotine chokes, sprawls, and scrambles. The finish must be practiced with emphasis on maintaining connection throughout the motion, controlling the opponent's landing, and immediately transitioning to dominant position without allowing guard establishment or re-guarding opportunities.
 
-**Starting Position**: [[Clinch]]
-**Ending Position**: [[Side Control]]
+**From Position**: [[Clinch/Top]]
 **Success Rates**: Beginner 55%, Intermediate 75%, Advanced 88%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Side Control/Top]] | 75% |
+| Failure | [[Clinch/Top]] | 15% |
+| Counter | [[Clinch/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 
@@ -353,7 +368,7 @@ The double leg finish also integrates defensively within the scrambling system. 
 - [[Single Leg Finish]] - Alternative finishing technique - shares similar mechanical principles but from single leg rather than double leg structure
 - [[High Crotch]] - Related entry variation - can transition to double leg finish mechanics with modified grip structure
 - [[Body Lock Pass]] - Similar driving mechanics - uses comparable hip extension and forward pressure principles in different context
-- [[Transition to Mount]] - Follow-up transition - alternative positional outcome after successful double leg finish
+- [[Side Control to Mount]] - Follow-up transition - alternative positional outcome after successful double leg finish
 - [[Sprawl Defense]] - Primary counter technique - understanding sprawl mechanics helps execute finish before opponent can establish sprawl
 - [[Guillotine Choke]] - Common counter to defend against - requires awareness and technical adjustments during finish execution
 - [[Guard Opening Sequence]] - Contingency technique - needed if opponent establishes guard during landing phase

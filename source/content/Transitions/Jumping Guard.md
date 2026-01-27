@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Jumping Guard | BJJ Technique | BJJ Graph"
 description: "Master Jumping Guard in BJJ. Dynamic guard pull from standing to Closed Guard. Step-by-step execution with setup, timing, counters. Beginner 30%, Intermediate 50%, Advanced 65%."
@@ -16,7 +17,7 @@ description: "Master Jumping Guard in BJJ. Dynamic guard pull from standing to C
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Jumping Guard in BJJ",
-  "description": "Step-by-step guide for Jumping Guard from Standing Position to Closed Guard.",
+  "description": "Step-by-step guide for Jumping Guard from Standing Position/Top. Possible outcomes: Closed Guard/Bottom (65%), Standing Position/Top (25%), Standing Position/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -154,11 +155,25 @@ description: "Master Jumping Guard in BJJ. Dynamic guard pull from standing to C
 
 Jumping Guard is a dynamic and aggressive guard pull technique that involves literally jumping onto your opponent from standing position, wrapping your legs around their torso to establish closed guard. This technique represents a high-risk, high-reward approach to guard engagement that can catch opponents off-guard and immediately establish offensive control. Unlike traditional guard pulls that emphasize control and connection before committing, jumping guard requires explosive athleticism, precise timing, and confident execution. The technique is particularly effective against opponents who maintain distance or refuse to engage in grip fighting, as it closes distance instantly and forces immediate close-range grappling. While spectacular when successful, jumping guard carries inherent risks including potential for opponent to pass immediately, exposure to slams in certain rulesets, and significant energy expenditure. Modern competition BJJ has seen both the rise and decline of jumping guard variations, with current trends favoring more controlled guard pull entries that prioritize safety and retention.
 
-**Starting Position**: [[Standing Position]]
-**Ending Position**: [[Closed Guard]]
+**From Position**: [[Standing Position/Top]]
 **Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Closed Guard/Bottom]] | 65% |
+| Failure | [[Standing Position/Top]] | 25% |
+| Counter | [[Standing Position/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

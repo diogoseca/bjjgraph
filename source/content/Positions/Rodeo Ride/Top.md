@@ -21,37 +21,37 @@ description: "Master Rodeo Ride attacks in BJJ. Advanced turtle control position
     {
       "@type": "HowToStep",
       "name": "Execute Turtle to Back Take",
-      "text": "From this position, execute Turtle to Back Take to transition to Back Control. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Turtle to Back Take. This technique is attempted in 18% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Crab Ride to Back",
-      "text": "From this position, execute Crab Ride to Back to transition to Crab Ride. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Crab Ride to Back. This technique is attempted in 15% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Truck",
-      "text": "From this position, execute Transition to Truck to transition to Truck. Success rate for advanced practitioners: 65%.",
+      "name": "Execute Turtle to Truck",
+      "text": "From this position, attempt Turtle to Truck. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Crucifix from Turtle",
-      "text": "From this position, execute Crucifix from Turtle to transition to Crucifix. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Crucifix from Turtle. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Clock Choke",
-      "text": "From this position, execute Clock Choke to transition to Won by Submission. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Clock Choke. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bow and Arrow Choke",
-      "text": "From this position, execute Bow and Arrow Choke to transition to Won by Submission. Success rate for advanced practitioners: 45%.",
+      "text": "From this position, attempt Bow and Arrow Choke. This technique is attempted in 8% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -212,108 +212,24 @@ Rodeo Ride is particularly valuable in modern competition BJJ because it provide
 
 ## Available Attacks
 
-### [[Turtle to Back Take]] → [[Back Control]]
+### [[Turtle to Back Take]] (18% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 60%
-- Advanced: 75%
+### [[Crab Ride to Back]] (15% of attempts)
 
-### [[Crab Ride to Back]] → [[Crab Ride]]
+### [[Turtle to Truck]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Crucifix from Turtle]] (12% of attempts)
 
-### [[Transition to Truck]] → [[Truck]]
+### [[Clock Choke]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Bow and Arrow Choke]] (8% of attempts)
 
-### [[Crucifix from Turtle]] → [[Crucifix]]
+### [[Side Control to Mount]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Rolling Back Take]] (8% of attempts)
 
-### [[Clock Choke]] → [[Won by Submission]]
+### [[Darce from Turtle]] (7% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
-
-### [[Bow and Arrow Choke]] → [[Won by Submission]]
-
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 45%
-
-### [[Transition to Mount]] → [[Mount]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[Rolling Back Take]] → [[Back Control]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-### [[Side Control to Mount]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
-
-### [[Darce from Turtle]] → [[Won by Submission]]
-
-**Success Rates:**
-- Beginner: 18%
-- Intermediate: 32%
-- Advanced: 48%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Turtle to Guard]]** → [[Closed Guard]] (Opponent Success: 30%)
-- **[[Technical Stand-up]]** → [[Standing Position]] (Opponent Success: 25%)
-- **[[Granby Roll]]** → [[Open Guard]] (Opponent Success: 20%)
-- **[[Turtle to Standing]]** → [[Standing Position]] (Opponent Success: 25%)
-- **[[Rolling to Guard]]** → [[Half Guard]] (Opponent Success: 20%)
-- **[[Elbow Escape]]** → [[Half Guard]] (Opponent Success: 15%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Back Take Generic]]** → [[Back Control]]
-  - Opponent attempts to sit back to guard or creates space between hips and mat
-- **[[Truck Entry]]** → [[Truck]]
-  - Opponent turns away to protect neck or attempts to roll away from pressure
-- **[[Crucifix from Turtle]]** → [[Crucifix]]
-  - Opponent extends far arm for base or posts to prevent being flattened
-- **[[Rolling Back Take]]** → [[Back Control]]
-  - Opponent attempts granby roll escape or rolls toward their defensive side
-- **[[Side Control to Mount]]** → [[Mount]]
-  - Opponent flattens out on stomach or gives up defensive turtle structure
 
 
 </section>
@@ -324,7 +240,7 @@ Rodeo Ride is particularly valuable in modern competition BJJ because it provide
 
 **If opponent maintains tight turtle with good base and head protection:**
 - Execute **[[Crab Ride to Back]]** → [[Crab Ride]] (Probability: 55%)
-- Execute **[[Clock Choke]]** → [[Won by Submission]] (Probability: 35%)
+- Execute **[[Clock Choke]]** → [[game-over]] (Probability: 35%)
 - Execute **[[Crucifix from Turtle]]** → [[Crucifix]] (Probability: 45%)
 
 
@@ -334,18 +250,18 @@ Rodeo Ride is particularly valuable in modern competition BJJ because it provide
 
 
 **If opponent turns away to protect neck or attempts to stand:**
-- Execute **[[Transition to Truck]]** → [[Truck]] (Probability: 65%)
-- Execute **[[Bow and Arrow Choke]]** → [[Won by Submission]] (Probability: 40%)
+- Execute **[[Turtle to Truck]]** → [[Twister Control]] (Probability: 65%)
+- Execute **[[Bow and Arrow Choke]]** → [[game-over]] (Probability: 40%)
 
 
 **If opponent flattens out on stomach or extends arms for base:**
-- Execute **[[Transition to Mount]]** → [[Mount]] (Probability: 60%)
+- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 60%)
 - Execute **[[Crucifix from Turtle]]** → [[Crucifix]] (Probability: 55%)
 
 
 **If opponent creates space between hips and mat:**
 - Execute **[[Turtle to Back Take]]** → [[Back Control]] (Probability: 75%)
-- Execute **[[Side Control to Mount]]** → [[Side Control]] (Probability: 50%)
+- Execute **[[Flatten to Side Control]]** → [[Side Control]] (Probability: 50%)
 
 
 
@@ -431,37 +347,39 @@ Partner in turtle, practitioner establishes Rodeo Ride and flows through submiss
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Highest percentage path to submission
+## Test Your Knowledge
 
-`Rodeo Ride Top → Turtle to Back Take → Back Control → Rear Naked Choke`
+**Q1**: What is the primary weight distribution pattern that distinguishes Rodeo Ride from static turtle control?
+**A**: Rodeo Ride uses dynamic, asymmetric weight distribution where the hips are loaded onto the opponent's torso while one leg remains posted for base. Unlike static control where you try to pin the opponent with consistent pressure, Rodeo Ride requires constant micro-adjustments that shift responsively with opponent movement. Your chest maintains contact with their back while your posted leg serves as a stabilizing tripod point, allowing you to ride their escape attempts rather than fighting against them with static pressure.
 
-### Quickest submission from position
+**Q2**: Why is near-arm control considered essential for maintaining Rodeo Ride position?
+**A**: Near-arm control prevents the opponent from posting and creating defensive frames that would allow them to create space, stand up, or turn into you. When the near arm is controlled—whether through wrist grip, elbow control, or shoulder pressure—the opponent loses their primary tool for generating base and movement on that side. This control also sets up many attacking options including back takes and crucifix entries, as the controlled arm cannot defend against subsequent attacks.
 
-`Rodeo Ride Top → Clock Choke → Won by Submission`
+**Q3**: Your opponent starts posting with their far hand and attempts to create space—what adjustment should you make?
+**A**: When the opponent posts with their far hand, immediately threaten the crucifix position by controlling that extended arm while maintaining your existing near-arm control. Alternatively, use their posting as an opportunity to collapse their structure by driving your hip pressure forward while pulling their near arm away from their body. Their extended arm actually creates vulnerability—they cannot defend both the back take and the crucifix simultaneously, so use this dilemma to advance position.
 
-### Alternative high-percentage path
+**Q4**: How should you adjust when the opponent begins sitting back toward guard recovery?
+**A**: As the opponent sits back, they create space between their hips and the mat—this is your entry window for hooks and back control. Follow their movement by transitioning your hips underneath while maintaining upper body control through the seat belt or harness grip. The key is to ride their backward movement rather than resist it, using their energy to accelerate your transition to back control. Keep your chest connected to their back throughout the transition.
 
-`Rodeo Ride Top → Crab Ride to Back → Crab Ride → Turtle to Back Control → Back Control → Rear Naked Choke`
+**Q5**: What is the proper response when your opponent explosively attempts to stand from turtle?
+**A**: When the opponent drives to stand, you have two primary options based on your hook and grip status. If you have adequate upper body control (seat belt grip), follow them up to standing back control while working to insert hooks. If your grips are compromised, switch to a front headlock or snap-down to return them to the mat. Never release your chest-to-back connection during their stand attempt—staying attached allows you to either ride to standing back control or pull them back down.
 
-### Truck system path
+**Q6**: How do you manage energy expenditure when your opponent maintains a strong defensive turtle?
+**A**: Against a well-defended turtle, avoid trying to force submissions or positions through strength. Instead, use systematic pressure cycling: threaten one attack to force a defensive reaction, then immediately transition to attack the opening created by that reaction. This creates a dilemma-based scenario where the opponent expends energy defending while you flow between attacks efficiently. Maintain constant hip pressure but use your legs and body positioning rather than arm strength for control.
 
-`Rodeo Ride Top → Transition to Truck → Truck → Twister Finish`
+**Q7**: Your opponent turns their head away to protect their neck—what does this opening present?
+**A**: When the opponent turns away to protect the near-side neck, they expose the far side and create an angle for truck entry or twister control. Their head turn also shifts their defensive focus, potentially allowing you to advance to back control on the exposed side. Additionally, the head turn often indicates they're preparing to granby roll toward the protected side—anticipate this by loading your weight in that direction and being ready to follow their roll while maintaining control.
 
-### Crucifix submission path
-
-`Rodeo Ride Top → Crucifix from Turtle → Crucifix → Choke from Crucifix → Won by Submission`
-
-### Gi-specific path
-
-`Rodeo Ride Top → Bow and Arrow Choke → Won by Submission`
+**Q8**: What recovery options exist if your opponent partially escapes and turns to face you?
+**A**: If the opponent successfully turns into you before you can secure back control, immediately transition to front headlock or guillotine control rather than forcing the back take against their defensive frames. From front headlock, you can reset to turtle attacks or advance to submission attempts. The key is recognizing when the back attack window has closed and flowing to the next available dominant position rather than fighting for a position that's no longer available.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -484,7 +402,7 @@ Partner in turtle, practitioner establishes Rodeo Ride and flows through submiss
 
 - **[[Back Control]]** - Primary advancement target from Rodeo Ride
 - **[[Crab Ride]]** - Related turtle attack position with similar control mechanics
-- **[[Truck]]** - Alternative advancement position when opponent turns away
+- **[[Twister Control]]** - Alternative advancement position when opponent turns away
 - **[[Crucifix]]** - Submission position accessible from Rodeo Ride
 - **[[Turtle]]** - Parent position from which Rodeo Ride develops
 - **[[Turtle to Back Take]]** - Key transition technique from this position

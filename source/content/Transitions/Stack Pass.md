@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Stack Pass | BJJ Technique | BJJ Graph"
 description: "Master the Stack Pass in BJJ. High-pressure guard passing technique using opponent's legs to create passing angle. Success rates: Beginner 35%, Intermediate 55%, Advanced 70%."
@@ -16,7 +17,7 @@ description: "Master the Stack Pass in BJJ. High-pressure guard passing techniqu
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Stack Pass in BJJ",
-  "description": "Step-by-step guide for Stack Pass from Closed Guard to Side Control.",
+  "description": "Step-by-step guide for Stack Pass from Closed Guard/Bottom. Possible outcomes: Side Control/Top (70%), Closed Guard/Bottom (20%), Closed Guard/Top (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -166,11 +167,25 @@ description: "Master the Stack Pass in BJJ. High-pressure guard passing techniqu
 
 The Stack Pass is a fundamental pressure passing technique that uses vertical pressure and weight distribution to break through the guard. By driving the opponent's knees toward their chest and stacking their hips over their shoulders, you create a mechanical disadvantage that makes guard retention extremely difficult. This pass is particularly effective against opponents who rely on active guard retention, as the stacking pressure limits their hip mobility and ability to create defensive frames. The technique requires excellent base, timing, and the ability to maintain heavy top pressure while navigating past the legs. When executed properly, the Stack Pass transitions seamlessly into dominant side control or mount positions.
 
-**Starting Position**: [[Closed Guard]]
-**Ending Position**: [[Side Control]]
+**From Position**: [[Closed Guard/Bottom]]
 **Success Rates**: Beginner 35%, Intermediate 55%, Advanced 70%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Side Control/Top]] | 70% |
+| Failure | [[Closed Guard/Bottom]] | 20% |
+| Counter | [[Closed Guard/Top]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

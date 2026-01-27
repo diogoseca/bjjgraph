@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "High Crotch | BJJ Technique | BJJ Graph"
 description: "Master the High Crotch takedown in BJJ. Complete step-by-step execution from standing to top position. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%."
@@ -16,7 +17,7 @@ description: "Master the High Crotch takedown in BJJ. Complete step-by-step exec
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute High Crotch in BJJ",
-  "description": "Step-by-step guide for High Crotch from Standing Position to Side Control.",
+  "description": "Step-by-step guide for High Crotch from Standing Position/Top. Possible outcomes: Side Control/Top (70%), Standing Position/Top (20%), Standing Position/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -158,11 +159,25 @@ The High Crotch works by combining forward pressure with rotational mechanics, f
 
 In the context of BJJ competition, the High Crotch has gained prominence due to its effectiveness in both gi and no-gi settings, its compatibility with guard pulling as a backup option, and its ability to score takedown points while maintaining relatively safe positioning. The technique requires proper timing, explosive penetration step, and understanding of weight distribution, but once mastered, it becomes one of the highest percentage takedowns available to grapplers at all levels.
 
-**Starting Position**: [[Standing Position]]
-**Ending Position**: [[Side Control]]
+**From Position**: [[Standing Position/Top]]
 **Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Side Control/Top]] | 70% |
+| Failure | [[Standing Position/Top]] | 20% |
+| Counter | [[Standing Position/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

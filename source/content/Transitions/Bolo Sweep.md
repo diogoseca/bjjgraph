@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Bolo Sweep | BJJ Technique | BJJ Graph"
 description: "Master the Bolo Sweep from De La Riva Guard. Learn setup, execution, and back-take options. Success rates: Beginner 25%, Intermediate 45%, Advanced 65%."
@@ -16,7 +17,7 @@ description: "Master the Bolo Sweep from De La Riva Guard. Learn setup, executio
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Bolo Sweep in BJJ",
-  "description": "Step-by-step guide for Bolo Sweep from De La Riva Guard to Back Control.",
+  "description": "Step-by-step guide for Bolo Sweep from De La Riva Guard/Bottom. Possible outcomes: Back Control/Top (65%), De La Riva Guard/Bottom (25%), De La Riva Guard/Top (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -154,11 +155,25 @@ description: "Master the Bolo Sweep from De La Riva Guard. Learn setup, executio
 
 The Bolo Sweep, short for Berimbolo, is one of the most revolutionary techniques in modern Brazilian Jiu-Jitsu, fundamentally transforming how practitioners approach the De La Riva guard. This dynamic sweeping technique utilizes rotation and inversion to destabilize opponents while simultaneously creating opportunities to take the back. The movement combines elements of traditional sweeping mechanics with gymnastic-style inversion, making it particularly effective against standing opponents who base heavily on their De La Riva-hooked leg. The technique's effectiveness lies in its ability to create a rotational force that opponents cannot easily counter without risking being swept or having their back taken. What makes the Bolo particularly powerful is its scalability - it can be executed as a pure sweep to off-balance and reverse positions, or it can seamlessly transition into back-taking sequences when the opponent attempts to defend the initial sweep. The technique has become a cornerstone of modern sport BJJ competition, particularly in the lighter weight divisions where flexibility and speed can be maximized.
 
-**Starting Position**: [[De La Riva Guard]]
-**Ending Position**: [[Back Control]]
+**From Position**: [[De La Riva Guard/Bottom]]
 **Success Rates**: Beginner 25%, Intermediate 45%, Advanced 65%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Back Control/Top]] | 65% |
+| Failure | [[De La Riva Guard/Bottom]] | 25% |
+| Counter | [[De La Riva Guard/Top]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

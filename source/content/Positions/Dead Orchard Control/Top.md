@@ -21,38 +21,32 @@ description: "Master Dead Orchard Control Top in BJJ. Advanced anaconda variatio
     {
       "@type": "HowToStep",
       "name": "Execute Anaconda Choke",
-      "text": "From this position, execute Anaconda Choke to transition to Won by Submission. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Anaconda Choke. This technique is attempted in 25% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Mount",
-      "text": "From this position, execute Transition to Mount to transition to Mount. Success rate for advanced practitioners: 75%.",
+      "name": "Execute Side Control to Mount",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 20% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to North-South",
-      "text": "From this position, execute Transition to North-South to transition to North-South. Success rate for advanced practitioners: 80%.",
+      "name": "Execute Side Control to North-South",
+      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 20% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Darce from Turtle",
-      "text": "From this position, execute Darce from Turtle to transition to D'arce Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Darce from Turtle. This technique is attempted in 15% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Front Headlock to Back",
-      "text": "From this position, execute Front Headlock to Back to transition to Back Control. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Front Headlock to Back. This technique is attempted in 20% of exchanges from this position.",
       "position": 5
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Side Control to Mount",
-      "text": "From this position, execute Side Control to Mount to transition to Side Control. Success rate for advanced practitioners: 70%.",
-      "position": 6
     }
   ],
   "totalTime": "PT2M"
@@ -209,76 +203,16 @@ Dead Orchard Control Top is an advanced anaconda choke variation developed withi
 
 ## Available Attacks
 
-### [[Anaconda Choke]] → [[Won by Submission]]
+### [[Anaconda Choke]] (25% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 55%
-- Advanced: 75%
+### [[Side Control to Mount]] (20% of attempts)
 
-### [[Transition to Mount]] → [[Mount]]
+### [[Side Control to North-South]] (20% of attempts)
 
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 60%
-- Advanced: 75%
+### [[Darce from Turtle]] (15% of attempts)
 
-### [[Transition to North-South]] → [[North-South]]
+### [[Front Headlock to Back]] (20% of attempts)
 
-**Success Rates:**
-- Beginner: 50%
-- Intermediate: 65%
-- Advanced: 80%
-
-### [[Darce from Turtle]] → [[D'arce Control]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 65%
-
-### [[Front Headlock to Back]] → [[Back Control]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 70%
-
-### [[Side Control to Mount]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Hip Escape]]** → [[Turtle]] (Opponent Success: 25%)
-- **[[Arm Extraction]]** → [[Front Headlock]] (Opponent Success: 30%)
-- **[[Rolling to Guard]]** → [[Closed Guard]] (Opponent Success: 20%)
-- **[[Grip Break]]** → [[Scramble Position]] (Opponent Success: 15%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Transition to Mount]]** → [[Mount]]
-  - Opponent attempts to turn away from pressure
-- **[[Front Headlock to Back]]** → [[Back Control]]
-  - Opponent drives forward attempting to escape grip
-- **[[Darce from Turtle]]** → [[D'arce Control]]
-  - Opponent defends anaconda by creating space on trapped arm side
-- **[[Transition to North-South]]** → [[North-South]]
-  - Opponent attempts to bridge or create space underneath
 
 
 </section>
@@ -288,12 +222,12 @@ Dead Orchard Control Top is an advanced anaconda choke variation developed withi
 ## Decision Making from This Position
 
 **If opponent remains stationary with minimal defensive movement:**
-- Execute **[[Anaconda Choke]]** → [[Won by Submission]] (Probability: 70%)
-- Execute **[[Increase shoulder pressure gradually]]** → [[Dead Orchard Control Top]] (Probability: 30%)
+- Execute **[[Anaconda Choke]]** → [[game-over]] (Probability: 70%)
+- Execute **[[Increase shoulder pressure gradually]]** → [[Dead Orchard Control]] (Probability: 30%)
 
 
 **If opponent attempts to turn away from the choke pressure:**
-- Execute **[[Transition to Mount]]** → [[Mount]] (Probability: 60%)
+- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 60%)
 - Execute **[[Front Headlock to Back]]** → [[Back Control]] (Probability: 40%)
 
 
@@ -304,11 +238,11 @@ Dead Orchard Control Top is an advanced anaconda choke variation developed withi
 
 **If opponent creates space on the trapped arm side:**
 - Execute **[[Darce from Turtle]]** → [[D'arce Control]] (Probability: 65%)
-- Execute **[[Transition to North-South]]** → [[North-South]] (Probability: 35%)
+- Execute **[[Side Control to North-South]]** → [[North-South]] (Probability: 35%)
 
 
 **If opponent establishes strong defensive grips preventing finish:**
-- Execute **[[Transition to North-South]]** → [[North-South]] (Probability: 50%)
+- Execute **[[Side Control to North-South]]** → [[North-South]] (Probability: 50%)
 - Execute **[[Side Control to Mount]]** → [[Side Control]] (Probability: 50%)
 
 
@@ -390,33 +324,39 @@ Partner executes specific escape sequences from dead orchard control (hip escape
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Direct finishing path
+## Test Your Knowledge
 
-`Front Headlock → Dead Orchard Control Top → Anaconda Choke → Won by Submission`
+**Q1**: What grip adjustment maintains choke pressure when opponent attempts to create space at the neck?
+**A**: When opponent creates space at the neck, walk your gable grip deeper toward their far shoulder while simultaneously driving your shoulder harder into their trapped shoulder. This re-establishes the compression angle and tightens the blood choke mechanics. The key is maintaining circular pressure direction toward their far armpit rather than simply squeezing harder in place.
 
-### Control-to-mount path
+**Q2**: Your opponent starts turning their body away from the choke - what adjustment prevents escape?
+**A**: Follow their turning motion by walking your hips around while maintaining chest pressure on their trapped shoulder. Use their turning momentum to transition to mount or back control rather than fighting to keep them flat. If they turn toward you, accelerate to back control. If they turn away, step over to mount. The dead orchard position naturally flows into these superior positions when opponents try to turn.
 
-`Turtle → Dead Orchard Control Top → Mount → Armbar from Mount → Won by Submission`
+**Q3**: What are the essential weight distribution points for maintaining dead orchard control?
+**A**: Primary weight drives through your shoulder into opponent's trapped shoulder, pinning it to the mat. Secondary weight distribution uses your hips to control their movement - keep hips low and connected to their body rather than floating. Your chest maintains constant contact with their upper back. The free hand posts or controls their far hip to prevent rolling. Weight should feel like a gradual crushing pressure, not static dead weight.
 
-### Choke variation path
+**Q4**: How do you recognize when to finish the choke versus continue holding position?
+**A**: Finish attempts are optimal when opponent's defensive movements slow, their breathing becomes labored, their trapped arm relaxes, or their free arm stops actively fighting your grips. Continue holding when opponent is actively hand-fighting, has strong neck defense, or is explosively trying to escape. The dead orchard philosophy emphasizes patience - a tired opponent who has burned energy defending becomes much easier to finish than a fresh opponent with full defensive capacity.
 
-`Front Headlock → Dead Orchard Control Top → D'arce Control → Darce Choke → Won by Submission`
+**Q5**: Your opponent manages to get their free hand inside the choking arm - how do you re-establish the strangle?
+**A**: Rather than fighting their grip directly, use body movement to re-establish control. Walk your hips slightly away to create angle, which naturally tightens the grip around their neck. Simultaneously, use your free arm to attack their defending hand by stripping it toward their hip or controlling their elbow. If the hand fight continues, transition to darce grip or advance to mount/back control where their defensive hand becomes irrelevant.
 
-### Back attack path
+**Q6**: What breathing pattern should you maintain during extended dead orchard control?
+**A**: Maintain slow, controlled nasal breathing that matches your pressure application rhythm. Exhale when increasing pressure, inhale during brief relaxation phases. This prevents tension buildup that causes premature fatigue and helps you remain sensitive to opponent's defensive patterns. Your breathing should reflect the patient, methodical nature of the position - not the rapid breathing of explosive attacks.
 
-`Dead Orchard Control Top → Back Control → Rear Naked Choke → Won by Submission`
+**Q7**: How do you prevent opponent from recovering turtle base during the control sequence?
+**A**: Keep constant downward shoulder pressure that flattens their trapped shoulder to the mat. Your hip placement should block their ability to get their nearside knee underneath them. Use your free arm to control their far hip, preventing them from building base on that side. If they start to post on their far hand, immediately drive weight forward and walk your hips to take their angle away. The dead orchard position should progressively flatten them rather than allowing any base recovery.
 
-### Position advancement path
-
-`Turtle → Dead Orchard Control Top → North-South → North-South Choke → Won by Submission`
+**Q8**: What indicates you should abandon the choke and transition to a different position?
+**A**: Transition when opponent successfully extracts their trapped arm past your grip depth, when they establish solid frames that you cannot collapse after 15-20 seconds of effort, when they achieve strong underhook on your far leg threatening sweep, or when they begin to successfully stand or build base despite your pressure. In these scenarios, flowing to mount, back control, or north-south maintains your advantage better than fighting for a position that has been significantly compromised.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -442,13 +382,11 @@ Partner executes specific escape sequences from dead orchard control (hip escape
 - **[[Front Headlock]]** - Entry position - primary setup position for dead orchard control establishment
 - **[[Guillotine Control]]** - Alternative control - different front headlock choke configuration
 - **[[Anaconda Choke]]** - Primary submission - main finishing technique from this control position
-- **[[Front Headlock to Anaconda]]** - Entry transition - technique for establishing dead orchard from front headlock
-- **[[systematic approach Front Headlock System]]** - Strategic framework - systematic approach to front headlock positions including anaconda variations
 - **[[Turtle]]** - Common entry - opponent position from which dead orchard is frequently established
 - **[[Mount]]** - Transition target - high-percentage advancement when opponent defends submission
-- **[[Pressure Application]]** - Core concept - fundamental principle for maintaining dead orchard control effectively
-- **[[10th Planet No-Gi Guard System]]** - System origin - dead orchard control developed within 10th Planet methodology
 - **[[Back Control]]** - Alternative advancement - transition when opponent drives forward
+- **[[North-South]]** - Control alternative - transition option maintaining top pressure
+- **[[Darce Choke]]** - Alternative submission - accessible when opponent defends anaconda by creating space
 
 
 </section>

@@ -21,37 +21,37 @@ description: "Master Standing Guard Bottom in BJJ. Defensive position with dista
     {
       "@type": "HowToStep",
       "name": "Execute Pull guard",
-      "text": "From this position, execute Pull guard to transition to Closed Guard. Success rate for advanced practitioners: 85%.",
+      "text": "From this position, attempt Pull guard. This technique is attempted in 13% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Sitting Guard Pull",
-      "text": "From this position, execute Sitting Guard Pull to transition to Seated Guard. Success rate for advanced practitioners: 80%.",
+      "text": "From this position, attempt Sitting Guard Pull. This technique is attempted in 13% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Shin to Shin Pull",
-      "text": "From this position, execute Shin to Shin Pull to transition to Shin-to-Shin Guard. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Shin to Shin Pull. This technique is attempted in 11% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Standing to Single Leg X",
-      "text": "From this position, execute Standing to Single Leg X to transition to Single Leg X-Guard. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Standing to Single Leg X. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Ankle Pick",
-      "text": "From this position, execute Ankle Pick to transition to Side Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Ankle Pick. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm Drag to Back",
-      "text": "From this position, execute Arm Drag to Back to transition to Back Control. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Arm Drag to Back. This technique is attempted in 9% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -213,108 +213,26 @@ Modern guard players use Standing Guard Bottom as a tactical platform for enteri
 
 ## Available Escapes
 
-### [[Pull guard]] → [[Closed Guard]]
+### [[Pull guard]] (13% of attempts)
 
-**Success Rates:**
-- Beginner: 55%
-- Intermediate: 70%
-- Advanced: 85%
+### [[Sitting Guard Pull]] (13% of attempts)
 
-### [[Sitting Guard Pull]] → [[Seated Guard]]
+### [[Shin to Shin Pull]] (11% of attempts)
 
-**Success Rates:**
-- Beginner: 50%
-- Intermediate: 65%
-- Advanced: 80%
+### [[Standing to Single Leg X]] (10% of attempts)
 
-### [[Shin to Shin Pull]] → [[Shin-to-Shin Guard]]
+### [[Ankle Pick]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Arm Drag to Back]] (9% of attempts)
 
-### [[Standing to Single Leg X]] → [[Single Leg X-Guard]]
+### [[Rolling Guard Pull]] (8% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Double Leg Entry]] (9% of attempts)
 
-### [[Ankle Pick]] → [[Side Control]]
+### [[Single Leg Entry]] (9% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Snap Down to Front Headlock]] (8% of attempts)
 
-### [[Arm Drag to Back]] → [[Back Control]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-### [[Rolling Guard Pull]] → [[De La Riva Guard]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
-
-### [[Double Leg Entry]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-### [[Single Leg Entry]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 28%
-- Intermediate: 42%
-- Advanced: 58%
-
-### [[Snap Down to Front Headlock]] → [[Front Headlock]]
-
-**Success Rates:**
-- Beginner: 22%
-- Intermediate: 38%
-- Advanced: 52%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Sprawl]]** → [[Front Headlock]] (Opponent Success: 45%)
-- **[[Guard Pass]]** → [[Side Control]] (Opponent Success: 35%)
-- **[[Snap Down]]** → [[Front Headlock]] (Opponent Success: 40%)
-- **[[Double Leg Entry]]** → [[Turtle]] (Opponent Success: 38%)
-- **[[Single Leg Entry]]** → [[Defensive Position]] (Opponent Success: 40%)
-- **[[Body Lock Pass]]** → [[Side Control]] (Opponent Success: 32%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Technical Standup]]** → [[Standing Position]]
-  - Opponent attempts to force seated position or drive forward
-- **[[Collar Drag]]** → [[Back Control]]
-  - Opponent reaches for collar grip or overextends with hands
-- **[[Sprawl Defense]]** → [[Front Headlock]]
-  - Opponent shoots for legs with takedown attempt
-- **[[Grip Break]]** → [[Standing Guard]]
-  - Opponent establishes dominant grip on collar or sleeve
-- **[[Shin to Shin Pull]]** → [[Shin-to-Shin Guard]]
-  - Opponent closes distance and attempts to establish passing grips
 
 
 </section>
@@ -443,33 +361,39 @@ Start standing with grips engaged. Bottom player must successfully pull guard to
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### High-percentage guard pull to submission sequence
+## Test Your Knowledge
 
-`Standing Guard Bottom → Pull guard → Closed Guard → Triangle Setup → Triangle from Closed Guard → Won by Submission`
+**Q1**: What is the optimal weight distribution and stance for maintaining defensive stability while remaining mobile in Standing Guard Bottom?
+**A**: Maintain weight on the balls of your feet with knees bent in an athletic stance, hips slightly back, and approximately 60% of weight on your rear foot for stability while keeping the front foot light for quick movement. Your stance width should be roughly shoulder-width, allowing lateral movement in either direction. This distribution enables quick level changes for guard pulls, lateral circling to avoid pressure, and immediate sprawling if opponent shoots for takedowns.
 
-### Aggressive snap-down to submission path
+**Q2**: Your opponent aggressively closes distance and establishes a collar grip while driving forward. How do you maintain your position without being pushed back?
+**A**: Address the grip immediately using two-on-one grip breaking while creating an angle through lateral footwork rather than backing straight up. Frame against their shoulder with your free hand to create space while working the grip break. If the grip solidifies, use their forward pressure against them by timing a guard pull or collar drag that capitalizes on their committed weight. Never fight grip strength with grip strength alone - use angles, timing, and technique to neutralize their control.
 
-`Standing Guard Bottom → Snap Down to Front Headlock → Front Headlock → Guillotine Choke → Won by Submission`
+**Q3**: What are the primary grip configurations you should establish before pulling guard from Standing Guard Bottom?
+**A**: For closed guard pulls, establish collar and sleeve grips or double sleeve grips to control opponent's posture during the pull. For seated guard entries, a same-side collar grip with cross-sleeve control works well. For De La Riva entries, secure cross-collar grip and same-side sleeve. For butterfly guard, double underhooks or overhook-underhook work effectively. The key principle is establishing grips that allow you to break opponent's posture and maintain connection throughout the sitting motion while setting up your intended guard structure.
 
-### Arm drag to back attack sequence
+**Q4**: How do you defend against a snap-down attempt while maintaining your offensive threat potential?
+**A**: Keep your chin tucked with a strong neck posture and elbows tight to your body, creating a defensive frame that makes the snap-down difficult. When you feel the pull downward, immediately circle laterally rather than fighting straight back up, which breaks their pulling angle. Counter-attack opportunities include collar drags when they overextend, arm drags to expose their back, or timing a guard pull as they commit to the snap-down. The key is maintaining your posture while making them pay for failed offensive attempts.
 
-`Standing Guard Bottom → Arm Drag to Back → Back Control → Rear Naked Choke → Won by Submission`
+**Q5**: Your opponent is playing very defensively and maintaining distance without engaging. What is the appropriate strategic response?
+**A**: Use the space to establish your preferred grips without opposition, then initiate engagement on your terms. Options include controlled sitting to seated guard to force them to engage with your guard game, closing distance with confident forward pressure while threatening collar drags or snap-downs, or using ankle pick or single leg entries when they remain stationary. The passive opponent gives you time to set up your ideal grip configuration and choose your moment to transition - don't waste this advantage by also being passive.
 
-### Single leg X entry to leg lock path
+**Q6**: What is the correct recovery sequence when you lose your balance or get slightly off-based during standing engagement?
+**A**: If pushed or pulled off-balance, immediately lower your level by bending your knees deeper rather than stiffening up, which makes recovery easier. Use circular footwork to reestablish base while maintaining at least one grip connection to prevent complete disengagement. If recovery to standing is not possible, transition immediately to a guard pull rather than fighting to regain standing from a compromised position. The worst response is stiffening and trying to muscle back to upright posture, which exposes you to further attacks.
 
-`Standing Guard Bottom → Standing to Single Leg X → Single Leg X-Guard → Inside Ashi Entry → Inside Ashi-Garami → Heel Hook → Won by Submission`
+**Q7**: How do you manage energy expenditure while maintaining defensive pressure in an extended standing engagement?
+**A**: Use efficient technique rather than strength for grip fighting - circular grip breaks require less energy than pulling matches. Maintain a relaxed but ready athletic stance rather than tensing constantly. Make opponent work by forcing them to pursue you with lateral movement rather than absorbing their pressure statically. When engaging offensively, use committed explosive attempts with full technique rather than half-efforts that waste energy. If the standing engagement extends, prioritize pulling guard to your strongest position rather than depleting energy in an unfavorable exchange.
 
-### Seated guard to omoplata finish
-
-`Standing Guard Bottom → Sitting Guard Pull → Seated Guard → Omoplata from Guard → Won by Submission`
+**Q8**: Your guard pull attempt partially fails and you land in a compromised seated position with opponent already moving to pass. How do you recover?
+**A**: Immediately establish frames with both hands on their shoulders or collar to create distance while getting your feet between you and your opponent. Hip escape to create angle and prevent them from establishing a passing lane. If they're already past your initial frames, transition to retention tactics like shrimping, inverting, or establishing knee shield. The critical error is fighting to complete the original guard pull from a compromised position - accept the situation and transition to guard recovery rather than insisting on your planned guard type.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -494,11 +418,11 @@ Start standing with grips engaged. Bottom player must successfully pull guard to
 - **[[Closed Guard]]** - Common transition target via guard pull
 - **[[Seated Guard]]** - Alternative guard pull target position
 - **[[Combat Base]]** - Related standing defensive posture concept
-- **[[Technical Standup Concept]]** - Key principle for returning to this position from seated guards
-- **[[Guard Opening Sequence]]** - Precursor to establishing this position
-- **[[Sprawl Defense]]** - Critical defensive technique from this position
-- **[[Guard Retention Concepts]]** - Fundamental concept underlying position strategy
-- **[[Grip Fighting]]** - Essential concept for success in this position
+- **[[Butterfly Guard]]** - Common guard type accessed from sitting pull
+- **[[De La Riva Guard]]** - Advanced guard entry from standing
+- **[[Pull guard]]** - Primary transition technique from this position
+- **[[Sitting Guard Pull]]** - Essential transition to seated guard positions
+- **[[Front Headlock]]** - Position to achieve after successful snap-down
 
 
 </section>

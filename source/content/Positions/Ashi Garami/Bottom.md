@@ -21,37 +21,37 @@ description: "Master Ashi Garami from bottom with systematic leg control, hierar
     {
       "@type": "HowToStep",
       "name": "Execute Inside Ashi Entry",
-      "text": "From this position, execute Inside Ashi Entry to transition to Inside Ashi-Garami. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Inside Ashi Entry. This technique is attempted in 25% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Outside Ashi Entry",
-      "text": "From this position, execute Outside Ashi Entry to transition to Outside Ashi-Garami. Success rate for advanced practitioners: 75%.",
+      "name": "Execute Saddle Entry from Top",
+      "text": "From this position, attempt Saddle Entry from Top. This technique is attempted in 15% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Saddle Entry from Top",
-      "text": "From this position, execute Saddle Entry from Top to transition to Saddle. Success rate for advanced practitioners: 55%.",
+      "name": "Execute 50-50 Entry from Standing",
+      "text": "From this position, attempt 50-50 Entry from Standing. This technique is attempted in 15% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute 50-50 Entry from Standing",
-      "text": "From this position, execute 50-50 Entry from Standing to transition to 50-50 Guard. Success rate for advanced practitioners: 70%.",
+      "name": "Execute Heel Hook",
+      "text": "From this position, attempt Heel Hook. This technique is attempted in 20% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute X-Guard to Ashi Transition",
-      "text": "From this position, execute X-Guard to Ashi Transition to transition to Inside Ashi-Garami. Success rate for advanced practitioners: 65%.",
+      "name": "Execute Straight Ankle Lock",
+      "text": "From this position, attempt Straight Ankle Lock. This technique is attempted in 15% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute De La Riva to X-Guard Transition",
-      "text": "From this position, execute De La Riva to X-Guard Transition to transition to Single Leg X-Guard. Success rate for advanced practitioners: 70%.",
+      "name": "Execute X-Guard to Ashi Transition",
+      "text": "From this position, attempt X-Guard to Ashi Transition. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -200,7 +200,7 @@ Bottom Ashi Garami mastery requires extensive drilling of fundamental mechanics 
 - **Inside Space Dominance**: Control the inside space between your hip and opponent's hip to prevent escapes and enable advancement
 - **Hierarchical Progression**: Advance systematically through Outside Ashi → Inside Ashi → Cross Ashi → Saddle rather than forcing submissions from inferior positions
 - **Heel Protection**: Understand heel exposure mechanics and maintain defensive leg positioning to protect your own finish while attacking opponent
-- **Connection Maintenance**: Maintain critical connection points (inside leg control, hip pressure, upper body grips) that prevent opponent position improvement
+- **Connection Maintenance**: Maintain critical connection points (inside leg hook, hip pressure, upper body grips) that prevent opponent position improvement
 - **Bilateral Awareness**: Recognize reciprocal nature of leg entanglements where both practitioners can attack; prioritize superior position before submission attempts
 
 
@@ -210,88 +210,18 @@ Bottom Ashi Garami mastery requires extensive drilling of fundamental mechanics 
 
 ## Available Escapes
 
-### [[Inside Ashi Entry]] → [[Inside Ashi-Garami]]
+### [[Inside Ashi Entry]] (25% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 70%
+### [[Saddle Entry from Top]] (15% of attempts)
 
-### [[Outside Ashi Entry]] → [[Outside Ashi-Garami]]
+### [[50-50 Entry from Standing]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 60%
-- Advanced: 75%
+### [[Heel Hook]] (20% of attempts)
 
-### [[Saddle Entry from Top]] → [[Saddle]]
+### [[Straight Ankle Lock]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 55%
+### [[X-Guard to Ashi Transition]] (10% of attempts)
 
-### [[50-50 Entry from Standing]] → [[50-50 Guard]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 55%
-- Advanced: 70%
-
-### [[X-Guard to Ashi Transition]] → [[Inside Ashi-Garami]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 45%
-- Advanced: 65%
-
-### [[De La Riva to X-Guard Transition]] → [[Single Leg X-Guard]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 70%
-
-### [[Heel Hook]] → [[Won by Submission]]
-
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 50%
-
-### [[Straight Ankle Lock]] → [[Won by Submission]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 55%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Ashi Garami Escape]]** → [[Standing Position]] (Opponent Success: 40%)
-- **[[Counter Ashi Entry]]** → [[Inside Ashi-Garami]] (Opponent Success: 35%)
-- **[[Saddle Defense]]** → [[Outside Ashi-Garami]] (Opponent Success: 30%)
-- **[[Heel Hook]]** → [[Won by Submission]] (Opponent Success: 50%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Inside Ashi Entry]]** → [[Inside Ashi-Garami]]
-  - When opponent attempts leg extraction from Outside Ashi, redirect to inside position control
-- **[[Saddle Entry from Top]]** → [[Saddle]]
-  - When opponent exposes back during 50-50 or Cross Ashi defense, capitalize on back exposure
-- **[[Outside Ashi Entry]]** → [[Outside Ashi-Garami]]
-  - When opponent attempts standing escape, re-establish fundamental outside leg entanglement
 
 
 </section>
@@ -306,18 +236,18 @@ Bottom Ashi Garami mastery requires extensive drilling of fundamental mechanics 
 
 
 **If opponent exposes heel through poor positioning or defensive error:**
-- Execute **[[Heel Hook]]** → [[Won by Submission]] (Probability: 50%)
-- Execute **[[Saddle Entry from Top]]** → [[Saddle]] (Probability: 40%)
+- Execute **[[Heel Hook]]** → [[game-over]] (Probability: 55%)
+- Execute **[[Saddle Entry from Top]]** → [[Saddle]] (Probability: 45%)
 
 
 **If opponent establishes reciprocal leg entanglement in 50-50 configuration:**
-- Execute **[[50-50 Entry from Standing]]** → [[50-50 Guard]] (Probability: 60%)
-- Execute **[[Inside Ashi Entry]]** → [[Inside Ashi-Garami]] (Probability: 35%)
+- Execute **[[50-50 Entry from Standing]]** → [[50-50 Guard]] (Probability: 55%)
+- Execute **[[Inside Ashi Entry]]** → [[Inside Ashi-Garami]] (Probability: 45%)
 
 
 **If opponent attempts standing extraction or escape:**
-- Execute **[[X-Guard to Ashi Transition]]** → [[Single Leg X-Guard]] (Probability: 50%)
-- Execute **[[Outside Ashi Entry]]** → [[Outside Ashi-Garami]] (Probability: 40%)
+- Execute **[[X-Guard to Ashi Transition]]** → [[Single Leg X-Guard]] (Probability: 55%)
+- Execute **[[Outside Ashi Entry]]** → [[Outside Ashi-Garami]] (Probability: 45%)
 
 
 
@@ -386,25 +316,7 @@ Drill seamless entries from guard positions (SLX, De La Riva, X-Guard) into vari
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
-
-### Systematic Hierarchy Advancement
-
-`Outside Ashi-Garami → Inside Ashi-Garami → Cross Ashi-Garami → Saddle → Heel Hook`
-
-### Guard Integration Path
-
-`Single Leg X-Guard → Outside Ashi-Garami → Inside Ashi-Garami → Heel Hook`
-
-### 50-50 Competition Path
-
-`50-50 Guard → Inside Space Control → Cross Ashi-Garami → Saddle → Heel Hook`
-
-
-
-</section>
 
 <section id="position-metrics" class="content-section">
 
@@ -428,6 +340,8 @@ Drill seamless entries from guard positions (SLX, De La Riva, X-Guard) into vari
 - **[[Single Leg X-Guard]]** - Primary entry position for Outside Ashi; single leg control precedes double leg entanglement
 - **[[De La Riva Guard]]** - Hook-based guard providing technical entries into outside Ashi positions through leg drag mechanics
 - **[[X-Guard]]** - Shares leg hooking principles; transitional position between traditional guards and leg entanglement systems
+- **[[Saddle]]** - Apex of leg entanglement hierarchy; primary finishing position for heel hook attacks
+- **[[Inside Ashi-Garami]]** - First major advancement from Outside Ashi; provides superior control and finishing angles
 
 
 </section>

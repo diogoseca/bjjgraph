@@ -21,37 +21,37 @@ description: "Offensive guillotine variation from top position using body weight
     {
       "@type": "HowToStep",
       "name": "Execute Guillotine Choke",
-      "text": "From this position, execute Guillotine Choke to transition to Won by Submission. Success rate for advanced practitioners: 80%.",
+      "text": "From this position, attempt Guillotine Choke. This technique is attempted in 12% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Darce Choke",
-      "text": "From this position, execute Transition to Darce Choke to transition to D'arce Control. Success rate for advanced practitioners: 75%.",
+      "name": "Execute Hindulotine to Darce Choke",
+      "text": "From this position, attempt Hindulotine to Darce Choke. This technique is attempted in 13% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Anaconda Choke",
-      "text": "From this position, execute Transition to Anaconda Choke to transition to Anaconda Control. Success rate for advanced practitioners: 70%.",
+      "name": "Execute Hindulotine to Anaconda Choke",
+      "text": "From this position, attempt Hindulotine to Anaconda Choke. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Take from Top",
-      "text": "From this position, execute Back Take from Top to transition to Back Control. Success rate for advanced practitioners: 80%.",
+      "text": "From this position, attempt Back Take from Top. This technique is attempted in 14% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Mount",
-      "text": "From this position, execute Transition to Mount to transition to Mount. Success rate for advanced practitioners: 75%.",
+      "name": "Execute Side Control to Mount",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 13% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to North-South",
-      "text": "From this position, execute Transition to North-South to transition to North-South. Success rate for advanced practitioners: 70%.",
+      "name": "Execute Side Control to North-South",
+      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -215,91 +215,22 @@ Success from top Hindulotine requires understanding weight distribution and hip 
 
 ## Available Attacks
 
-### [[Guillotine Choke]] → [[Won by Submission]]
+### [[Guillotine Choke]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 60%
-- Advanced: 80%
+### [[Hindulotine to Darce Choke]] (13% of attempts)
 
-### [[Transition to Darce Choke]] → [[D'arce Control]]
+### [[Hindulotine to Anaconda Choke]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 55%
-- Advanced: 75%
+### [[Back Take from Top]] (14% of attempts)
 
-### [[Transition to Anaconda Choke]] → [[Anaconda Control]]
+### [[Side Control to Mount]] (13% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 70%
+### [[Side Control to North-South]] (12% of attempts)
 
-### [[Back Take from Top]] → [[Back Control]]
+### [[Front Headlock to Back]] (13% of attempts)
 
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 65%
-- Advanced: 80%
+### [[Arm Triangle from Top]] (11% of attempts)
 
-### [[Transition to Mount]] → [[Mount]]
-
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 60%
-- Advanced: 75%
-
-### [[Transition to North-South]] → [[North-South]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 55%
-- Advanced: 70%
-
-### [[Front Headlock to Back]] → [[Back Control]]
-
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 60%
-- Advanced: 75%
-
-### [[Arm Triangle from Top]] → [[Won by Submission]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 65%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Stand Up Escape]]** → [[Standing Position]] (Opponent Success: 35%)
-- **[[Roll Through Escape]]** → [[Closed Guard]] (Opponent Success: 30%)
-- **[[Turtle Defense]]** → [[Turtle]] (Opponent Success: 40%)
-- **[[Hand Fighting to Break Grip]]** → [[Front Headlock]] (Opponent Success: 25%)
-- **[[Hip Escape to Create Space]]** → [[Open Guard]] (Opponent Success: 30%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Back Take]]** → [[Back Control]]
-  - Opponent turns away to relieve neck pressure and exposes back
-- **[[Transition to Mount]]** → [[Mount]]
-  - Opponent flattens out or drops to elbow-knee position while you maintain head control
-- **[[Darce Transition]]** → [[D'arce Control]]
-  - Opponent creates space on near side with defensive frames
-- **[[Anaconda Transition]]** → [[Anaconda Control]]
-  - Opponent turns into you creating arm-in configuration opportunity
 
 
 </section>
@@ -311,7 +242,7 @@ Success from top Hindulotine requires understanding weight distribution and hip 
 **If opponent attempts to stand up or achieve vertical posture to escape:**
 - Execute **[[Follow to Standing Guillotine]]** → [[Standing Position]] (Probability: 50%)
 - Execute **[[Snap Down to Front Headlock]]** → [[Front Headlock]] (Probability: 60%)
-- Execute **[[Guillotine Finish]]** → [[Won by Submission]] (Probability: 55%)
+- Execute **[[Guillotine Finish]]** → [[game-over]] (Probability: 55%)
 
 
 **If opponent turns away to relieve pressure and exposes their back:**
@@ -320,14 +251,14 @@ Success from top Hindulotine requires understanding weight distribution and hip 
 
 
 **If opponent flattens out completely in defensive turtle position:**
-- Execute **[[Transition to Mount]]** → [[Mount]] (Probability: 65%)
+- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 65%)
 - Execute **[[Front Headlock to Back]]** → [[Back Control]] (Probability: 70%)
-- Execute **[[Arm Triangle from Top]]** → [[Won by Submission]] (Probability: 50%)
+- Execute **[[Arm Triangle from Top]]** → [[game-over]] (Probability: 50%)
 
 
 **If opponent creates defensive frames with arms while defending neck:**
-- Execute **[[Transition to Darce Choke]]** → [[D'arce Control]] (Probability: 65%)
-- Execute **[[Transition to North-South]]** → [[North-South]] (Probability: 55%)
+- Execute **[[Hindulotine to Darce Choke]]** → [[D'arce Control]] (Probability: 65%)
+- Execute **[[Side Control to North-South]]** → [[North-South]] (Probability: 55%)
 
 
 
@@ -403,29 +334,39 @@ Partner starts in turtle position. Practice establishing front headlock control 
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Takedown defense to submission
+## Test Your Knowledge
 
-`Standing Position → Sprawl Defense → Front Headlock → Hindulotine Top → Guillotine Choke → Won by Submission`
+**Q1**: What weight distribution maintains maximum choking pressure while preventing sweeps from top Hindulotine?
+**A**: Distribute weight through your hips and chest onto opponent's upper back while maintaining a wide base with at least one leg posted far from your body. Your weight should angle forward and downward through the grip rather than sitting back, using gravity to assist the choke while the wide base prevents roll attempts.
 
-### Turtle attack sequence
+**Q2**: Your opponent starts to stand up from bottom while you have top Hindulotine locked - what adjustment do you make?
+**A**: Follow their rise while maintaining the grip, transitioning to a standing guillotine position. As they stand, drop your hips and pull downward on the neck to break their posture back down. If they achieve full standing, either finish the standing guillotine or snap them back down to front headlock control.
 
-`Turtle → Front Headlock → Hindulotine Top → Guillotine Choke → Won by Submission`
+**Q3**: What are the essential grip mechanics for maintaining top Hindulotine control?
+**A**: Secure a gable grip or chin strap configuration with your choking arm blade positioned high under opponent's chin. Your wrist should create pressure on the carotid, not the trachea. Lock your hands tightly and use your entire body to maintain pressure rather than squeezing with arms alone.
 
-### Front headlock to back take
+**Q4**: How do you shut down the primary escape where opponent tries to roll through your control?
+**A**: Maintain a wide tripod base with your legs, keeping one leg posted far to the side opponent wants to roll toward. When they initiate the roll, drive your hip into their shoulder on the rolling side and sprawl your weight backward while maintaining the grip. The wide base removes their mechanical advantage for the roll.
 
-`Front Headlock → Hindulotine Top → Opponent Turns Away → Back Control`
+**Q5**: What grip adjustment increases finishing pressure without releasing control when opponent tucks their chin?
+**A**: Walk your choking arm higher on their neck by making small incremental adjustments while maintaining constant pressure. Simultaneously angle your hips more perpendicular to their spine and pull your elbow toward your opposite hip. This creates rotational torque that works around the chin tuck defense.
 
-### Scramble to dominant position
+**Q6**: Your opponent creates a defensive frame with their near-side arm - how do you capitalize on this reaction?
+**A**: The frame creates space for a darce transition. Thread your choking arm deeper across their neck and under their near armpit, then lock a figure-four grip. Walk your hips toward their head while maintaining pressure. The frame they created becomes trapped against their own neck, tightening the choke.
 
-`Scramble Position → Front Headlock → Hindulotine Top → Transition to Mount → Mount`
+**Q7**: How do you manage energy expenditure during an extended top Hindulotine control sequence?
+**A**: Rely on skeletal structure and body positioning rather than muscular tension. Let your body weight create pressure through proper hip angle rather than squeezing with arms. Make micro-adjustments rather than large movements. Use your legs for base and control, saving grip strength for maintaining the lock rather than active squeezing.
+
+**Q8**: Your opponent partially extracts their head and begins recovering posture - how do you recover the position?
+**A**: Immediately snap their head back down before they achieve full posture by pulling with your grip while sprawling your hips back. If they get significant posture, release the guillotine attempt and transition to front headlock control to reset. Chasing a lost guillotine wastes energy - better to control and re-establish.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 

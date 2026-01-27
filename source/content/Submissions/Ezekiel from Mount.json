@@ -271,6 +271,31 @@
       "question": "What immediate actions must you take if your training partner goes limp or shows loss of resistance during the Ezekiel choke application?",
       "answer": "You must immediately and completely release all choking pressure by opening your arms and removing your forearm from contact with their neck. Maintain mount position for control but elevate your posture to ensure their airway is completely clear. Monitor their breathing and level of consciousness closely. If they were rendered unconscious, elevate their legs above heart level to promote blood flow to the brain and ensure they receive medical attention if needed. Never assume they're just 'playing possum' or being tough - loss of resistance always means immediate release. Never resume training immediately after a choke that caused unconsciousness. This is a critical safety protocol that must never be violated.",
       "safety_critical": true
+    },
+    {
+      "question": "Your opponent begins to posture up and create space during your Ezekiel attempt - what grip adjustments maximize your finishing ability?",
+      "answer": "When the opponent postures up, immediately deepen your sleeve grip by pulling more material into your fist and driving your choking elbow toward the mat to maintain forearm pressure. Simultaneously, use your pulling hand to cup the back of their head more aggressively, actively pulling their head down into the choke rather than letting them create distance. Drive your chest forward and down onto their face and upper chest to flatten them back down. If they continue creating space, consider transitioning to high mount where your elevated knee position adds additional control that prevents their posturing while maintaining the choke setup.",
+      "safety_critical": false
+    },
+    {
+      "question": "What are the indicators that the Ezekiel choke is properly positioned for a blood choke versus an air choke, and why does this distinction matter?",
+      "answer": "A properly positioned blood choke produces specific indicators: the opponent's face may flush red or darken, they experience rapid cognitive impairment (within 5-10 seconds), their resistance diminishes progressively rather than abruptly, and they typically tap calmly before unconsciousness. An air choke shows different signs: the opponent experiences immediate panic response, makes choking or gasping sounds, their face may turn pale or blue, they thrash desperately, and consciousness takes 30+ seconds to affect. The distinction matters because blood chokes are more effective (faster finish), safer (no trachea trauma), and provide cleaner training feedback. The 45-degree blade angle across the carotids creates the blood choke; direct frontal trachea pressure creates the painful, dangerous air choke.",
+      "safety_critical": true
+    },
+    {
+      "question": "How do you maintain control and continue the Ezekiel when your opponent bridges explosively during the finishing sequence?",
+      "answer": "When facing an explosive bridge during the finish, immediately widen your base by posting your knees further apart while keeping them tight to their body. Post your free hand (if available) toward their head for tripod stability. Keep your hips heavy and drive your weight forward - the bridge loses power when your center of gravity is over their chest rather than their hips. Crucially, do not abandon the choke during the bridge; maintain your sleeve grip and pulling pressure throughout their explosive movement. As their bridge collapses (they cannot sustain it indefinitely), immediately re-tighten your position and continue the finish. The bridge is their last desperate escape attempt - riding through it often leads directly to the tap.",
+      "safety_critical": false
+    },
+    {
+      "question": "What is the optimal depth for the sleeve grip, and how does grip depth affect both the mechanical advantage and finishing ability of the Ezekiel?",
+      "answer": "The optimal sleeve grip depth is 4-6 inches above your wrist, gripping deep into the sleeve material with a thumb-in configuration. This depth provides maximum structural integrity because the grip creates a longer lever arm for the forearm blade, the material bunches create a solid fulcrum point, and the grip position allows your elbow to drive into the mat while maintaining the choking angle. A shallow grip (near the wrist) loses leverage because the lever arm shortens, the material can slip under pressure, and the choking arm becomes easier to push away. A grip that's too deep (near the elbow) restricts your range of motion and makes it difficult to achieve the proper 45-degree blade angle. The 4-6 inch sweet spot balances leverage, stability, and technical execution.",
+      "safety_critical": false
+    },
+    {
+      "question": "In competition, your opponent is highly defensive and protecting their neck effectively - how do you create the opening for the Ezekiel entry?",
+      "answer": "Against a highly defensive opponent, use systematic threats to open the Ezekiel entry. First, attack with americana or armbar attempts to force them to extend their arms defensively - when they retract their arms to defend, immediately thread the Ezekiel. Second, use collar threats to force their hands high toward their neck - the moment they defend the collar, their head becomes accessible for the arm thread. Third, apply sustained chest pressure to exhaust their defensive posture - tired defenders create larger gaps between their chin and chest. Fourth, transition to high mount where the tighter position makes the threading distance shorter and defensive frames less effective. The key is recognizing that pure neck defense is unsustainable; systematic attacks create the windows needed for Ezekiel entry.",
+      "safety_critical": false
     }
   ],
   "training_progressions_and_safety_protocols": [
@@ -336,15 +361,15 @@
     "Cross Collar Choke",
     "Rear Naked Choke",
     "Guillotine Choke",
-    "Loop Choke",
     "Breadcutter Choke",
     "Baseball Bat Choke",
     "Americana from Mount",
-    "Kimura from Mount",
     "Armbar from Mount",
-    "Triangle from Mount",
-    "North-South Choke",
-    "Paper Cutter Choke"
+    "Americana from Side Control",
+    "Armbar from Side Control",
+    "Brabo Choke",
+    "Darce Choke",
+    "Americana"
   ],
   "related_content": [
     {
@@ -360,8 +385,8 @@
       "relationship": "Alternative position from which this choke can be applied with excellent control"
     },
     {
-      "name": "Mount Control",
-      "relationship": "Control concepts essential for maintaining position during submission"
+      "name": "S Mount",
+      "relationship": "Advanced mount variation allowing armbar transitions when Ezekiel is defended"
     },
     {
       "name": "Ezekiel Choke",
@@ -381,7 +406,7 @@
     },
     {
       "name": "Cross Collar Choke",
-      "relationship": "Related gi-based choke from guard using similar leverage principles"
+      "relationship": "Related gi-based choke from mount using similar leverage principles"
     },
     {
       "name": "Arm Triangle",
@@ -392,8 +417,8 @@
       "relationship": "Similar bilateral carotid compression mechanics from different position"
     },
     {
-      "name": "Submission Chains",
-      "relationship": "Concept system for linking Ezekiel with other mount attacks"
+      "name": "Guillotine Choke",
+      "relationship": "Alternative neck submission using different grip configuration"
     }
   ]
 }

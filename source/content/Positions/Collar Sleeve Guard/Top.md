@@ -21,37 +21,37 @@ description: "Defend and pass collar sleeve guard from top position. Learn grip 
     {
       "@type": "HowToStep",
       "name": "Execute Toreando Pass",
-      "text": "From this position, execute Toreando Pass to transition to Side Control. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Toreando Pass. This technique is attempted in 12% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Cut Pass",
-      "text": "From this position, execute Knee Cut Pass to transition to Side Control. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Knee Cut Pass. This technique is attempted in 13% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Stack Pass",
-      "text": "From this position, execute Stack Pass to transition to Side Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Stack Pass. This technique is attempted in 11% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Double Under Pass",
-      "text": "From this position, execute Double Under Pass to transition to Side Control. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Double Under Pass. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag Pass",
-      "text": "From this position, execute Leg Drag Pass to transition to Side Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 11% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, execute Knee Slice Pass to transition to Side Control. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 13% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -221,89 +221,22 @@ Transitioning to dominant positions occurs when you successfully clear the guard
 
 ## Available Attacks
 
-### [[Toreando Pass]] → [[Side Control]]
+### [[Toreando Pass]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Knee Cut Pass]] (13% of attempts)
 
-### [[Knee Cut Pass]] → [[Side Control]]
+### [[Stack Pass]] (11% of attempts)
 
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 60%
-- Advanced: 75%
+### [[Double Under Pass]] (12% of attempts)
 
-### [[Stack Pass]] → [[Side Control]]
+### [[Leg Drag Pass]] (11% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Knee Slice Pass]] (13% of attempts)
 
-### [[Double Under Pass]] → [[Side Control]]
+### [[Pressure Pass]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Headquarters Pass]] (16% of attempts)
 
-### [[Leg Drag Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-### [[Knee Slice Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 60%
-- Advanced: 75%
-
-### [[Pressure Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
-
-### [[Headquarters Pass]] → [[Headquarters Position]]
-
-**Success Rates:**
-- Beginner: 50%
-- Intermediate: 65%
-- Advanced: 80%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Pendulum Sweep]]** → [[Mount]]
-- **[[Triangle Setup]]** → [[Triangle Control]]
-- **[[Scissor Sweep]]** → [[Mount]]
-- **[[Flower Sweep]]** → [[Mount]]
-- **[[Omoplata Sweep]]** → [[Omoplata Control]]
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Knee Slice Pass]]** → [[Side Control]]
-  - Opponent commits to pendulum sweep and extends legs
-- **[[Stack Pass]]** → [[Side Control]]
-  - Opponent attempts triangle and brings knees high
-- **[[Toreando Pass]]** → [[Side Control]]
-  - Opponent extends both legs for scissor sweep attempt
 
 
 </section>
@@ -415,25 +348,39 @@ Partner plays collar sleeve guard with graded resistance: Round 1 (30% resistanc
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Guard Pass to Submission Control
+## Test Your Knowledge
 
-`Collar Sleeve Guard Top → Knee Slice Pass → Side Control → Kimura from Side Control`
+**Q1**: Your opponent has established strong collar and sleeve grips and starts pulling your posture forward - what immediate adjustment do you make?
+**A**: Drive your hips backward while simultaneously widening your knees to create a stable tripod base. Keep your chest elevated and look forward rather than down. This repositions your center of gravity behind their pulling force vector, making it mechanically inefficient for them to continue breaking your posture. Avoid fighting their pull with pure upper body strength, which is unsustainable and leads to exhaustion.
 
-### Counter Triangle to Pass
+**Q2**: What are the essential grips you should prioritize when facing collar sleeve guard?
+**A**: Prioritize controlling their collar-gripping wrist with your free hand to neutralize their posture control, then establish your own pants grips at the knees or pant cuffs on both legs. These grips allow you to control their leg positioning for passing while preventing them from using their legs to create frames. If you cannot immediately break their collar grip, establishing your own cross-collar grip provides a counter-balance and opens passing opportunities.
 
-`Collar Sleeve Guard Top → Triangle Setup (Defended) → Stack Pass → Side Control → Americana from Side Control`
+**Q3**: How do you shut down the primary triangle threat from collar sleeve guard?
+**A**: Keep your controlled arm's elbow tight to your ribs rather than letting it float forward where they can capture it with their legs. Maintain strong upright posture so your head stays out of triangle range. When you feel them load their leg to shoot the triangle, immediately drive your free hand to the mat on the opposite side and drive your hips back. The combination of posture, elbow position, and base distribution makes triangle entries extremely difficult.
 
-### Distance Pass to Mount Attack
+**Q4**: What grip priorities should guide your approach to breaking collar sleeve guard structure?
+**A**: Break the collar grip first since it provides the most control over your posture and positioning. Use a two-on-one grip break where your free hand controls their gripping wrist while you explosively drive your hips back. Once the collar grip is broken, the sleeve grip becomes much less dangerous as they cannot effectively combine it with posture control for attacks. After breaking grips, immediately establish your own controlling grips before they can re-establish.
 
-`Collar Sleeve Guard Top → Toreando Pass → Side Control → Side Control to Mount → Armbar from Mount`
+**Q5**: How should you apply pressure when passing collar sleeve guard without exposing yourself to sweeps?
+**A**: Apply pressure in controlled bursts of 15-20 seconds rather than constant grinding. When pressuring forward, keep your base wide and hips low with weight distributed to both legs. Drive your chest and shoulder into their upper body to flatten their hips while maintaining the ability to post your free hand. If you feel them loading for a sweep, immediately sit your hips back and widen your base rather than trying to muscle through the sweep attempt.
+
+**Q6**: Your opponent starts to hip escape and angle away as you pressure forward - what adjustment prevents guard recovery?
+**A**: Follow their hip movement with your body rather than letting them create angle. When they escape their hips, immediately cut your knee through the space they create toward their far hip. Use your chest to pin their near shoulder while your knee slides across their thigh line. This knee cut motion intercepts their guard recovery by occupying the space before they can insert frames or hooks. The key is reacting immediately to hip movement rather than allowing them to complete the escape and re-establish guard structure.
+
+**Q7**: What indicators tell you an opponent is about to attempt a pendulum or flower sweep from collar sleeve guard?
+**A**: Watch for hip elevation and angle creation as they shift their body perpendicular to yours. They will typically extend the sleeve-grip side leg while loading weight onto the opposite hip. The collar pull will intensify and change direction from straight back to angular, pulling you toward the sweeping direction. Their free leg will begin to hook behind your leg or elevate toward your shoulder. Recognizing these loading motions allows you to preemptively base out in the opposite direction of their sweep before they can generate momentum.
+
+**Q8**: How do you manage energy when facing an opponent with very active collar sleeve guard?
+**A**: Establish a rhythm where you apply intense passing pressure for 15-20 seconds, then briefly disengage to a safe standing or combat base distance for 5-10 seconds. During pressure phases, work to break grips and advance position. During recovery phases, maintain distance that prevents them from re-establishing ideal grips without expending energy defending. Avoid trying to pass through continuous grinding which leads to exhaustion and mistakes. Also focus on efficient grip breaks using leverage rather than strength to conserve grip endurance.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -458,10 +405,10 @@ Partner plays collar sleeve guard with graded resistance: Round 1 (30% resistanc
 - **[[Headquarters Position]]** - Transitional position when passing around legs
 - **[[Toreando Pass]]** - High-percentage distance passing technique against collar sleeve
 - **[[Stack Pass]]** - Pressure passing option when opponent brings knees high
-- **[[Grip Breaking]]** - Essential skill for neutralizing opponent's control
-- **[[Posture Up]]** - Fundamental defensive principle against collar pulling
-- **[[Guard Passing Principles]]** - Systematic framework for passing any guard variation
-- **[[Knee Slice Pass]]** - Effective counter when opponent commits to sweeps
+- **[[Knee Cut Pass]]** - Effective counter when opponent commits to sweeps
+- **[[Knee on Belly]]** - Intermediate control position when transitioning past guard
+- **[[Combat Base]]** - Starting stance for initiating passes against collar sleeve
+- **[[Double Under Pass]]** - Pressure passing option when opponent's grips are compromised
 
 
 </section>

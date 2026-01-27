@@ -268,6 +268,31 @@
       "question": "What critical error involves combining the calf slicer with other pressures, and why is this dangerous?",
       "answer": "Combining calf slicer compression with twisting or rotational pressure on the knee joint is critically dangerous because it can cause MCL/LCL ligament tears and serious knee damage. The calf slicer should apply pure compression along the line of the leg only. Adding torque or rotation simultaneously attacks both soft tissue and knee ligaments, dramatically increasing injury risk. Always maintain alignment and avoid twisting pressure.",
       "safety_critical": true
+    },
+    {
+      "question": "Your opponent begins straightening their trapped leg to relieve compression - what grip adjustment maintains the finish?",
+      "answer": "When the opponent attempts to straighten their leg, immediately increase your pull on their foot toward their buttocks using your figure-four grip or hands on their ankle. This maintains the knee bend required for compression. Simultaneously drive your hips forward to keep your shin wedged behind their knee. If they achieve significant straightening, transition to a straight ankle lock rather than fighting a lost compression angle.",
+      "safety_critical": false
+    },
+    {
+      "question": "What anatomical structures are primarily affected by the calf slicer, and what are the warning signs that indicate the point of no escape for your opponent?",
+      "answer": "The calf slicer primarily compresses the gastrocnemius and soleus muscles against the tibia bone, with secondary pressure on the knee joint soft tissues. The point of no escape occurs when you achieve perpendicular shin placement with figure-four locked, their knee bent past 90 degrees, and their upper body controlled flat. Warning signs include visible muscle deformation, opponent's inability to move their leg, and the onset of cramping or spasming in their calf.",
+      "safety_critical": false
+    },
+    {
+      "question": "In competition, what strategic adjustments should you make when finishing the calf slicer compared to training?",
+      "answer": "In competition, you can apply compression more quickly (2-3 seconds versus 5-7 in training) since opponents are expected to tap responsibly. Focus on securing the position before the finish since referees may restart if position is unstable. Commit fully to the figure-four lock to prevent last-second escapes. However, always maintain sensitivity to the tap and release immediately - even in competition, causing unnecessary injury damages your reputation and the sport.",
+      "safety_critical": false
+    },
+    {
+      "question": "What physical sensations does the opponent experience that indicate the breaking point of a properly applied calf slicer?",
+      "answer": "The opponent experiences intense crushing pain in the belly of the calf muscle as the shin bone compresses the soft tissue against the femur and tibia. This progresses to a cramping sensation, numbness radiating toward the foot, and sharp pain at the knee if any twisting is present. The breaking point occurs when compression reaches the threshold where muscle fibers begin separating - an experienced opponent will tap before this point, recognizing that the position offers no escape once fully locked.",
+      "safety_critical": false
+    },
+    {
+      "question": "How do you adjust your grip when transitioning between the 50-50 calf slicer and truck calf slicer variations during live rolling?",
+      "answer": "When transitioning from 50-50 to truck, shift from the symmetrical leg entanglement to an asymmetrical control by releasing your outside leg's hook and repositioning it as the boot pressure against their hip. Your inside shin remains behind their knee but now drives at a different angle - more laterally than straight back. Hand grips shift from controlling their far leg to controlling their upper body for twister threats. The key is maintaining shin contact throughout the transition so they cannot straighten their leg during the position change.",
+      "safety_critical": false
     }
   ],
   "training_progressions_and_safety_protocols": [
@@ -328,7 +353,7 @@
     "Calf Slicer",
     "Calf Slicer from 50-50",
     "Calf Slicer from Truck",
-    "Heel Hook",
+    "Heel Hook Variations",
     "Kneebar",
     "Toe Hold",
     "Straight Ankle Lock",
@@ -336,8 +361,6 @@
     "Banana Split",
     "Bicep Slicer",
     "Kneebar from 50-50",
-    "Outside Heel Hook",
-    "Inside Heel Hook",
     "Achilles Lock",
     "Twister"
   ],
@@ -355,7 +378,7 @@
       "relationship": "Sweeping position that creates calf slicer opportunities on posted leg"
     },
     {
-      "name": "Heel Hook",
+      "name": "Heel Hook Variations",
       "relationship": "Primary submission in leg entanglements; calf slicer serves as alternative when heel hook is defended"
     },
     {

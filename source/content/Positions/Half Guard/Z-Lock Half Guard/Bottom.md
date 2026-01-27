@@ -21,37 +21,37 @@ description: "Master Z-Lock Half Guard Bottom in BJJ. Advanced lockdown variatio
     {
       "@type": "HowToStep",
       "name": "Execute Old School Sweep",
-      "text": "From this position, execute Old School Sweep to transition to Mount. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Old School Sweep. This technique is attempted in 17% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Electric Chair Submission",
-      "text": "From this position, execute Electric Chair Submission to transition to Electric Chair. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Electric Chair Submission. This technique is attempted in 14% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Butterfly Sweep",
-      "text": "From this position, execute Butterfly Sweep to transition to Mount. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Butterfly Sweep. This technique is attempted in 18% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Deep Half Entry",
-      "text": "From this position, execute Deep Half Entry to transition to Deep Half Guard. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 19% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Lockdown Sweeps",
-      "text": "From this position, execute Lockdown Sweeps to transition to Side Control. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Lockdown Sweeps. This technique is attempted in 15% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Sweep from Half",
-      "text": "From this position, execute Underhook Sweep from Half to transition to Mount. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 17% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -213,74 +213,18 @@ Developed primarily within the 10th Planet Jiu-Jitsu system and refined by lockd
 
 ## Available Escapes
 
-### [[Old School Sweep]] → [[Mount]]
+### [[Old School Sweep]] (17% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Electric Chair Submission]] (14% of attempts)
 
-### [[Electric Chair Submission]] → [[Electric Chair]]
+### [[Butterfly Sweep]] (18% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
+### [[Deep Half Entry]] (19% of attempts)
 
-### [[Butterfly Sweep]] → [[Mount]]
+### [[Lockdown Sweeps]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Underhook Sweep from Half]] (17% of attempts)
 
-### [[Deep Half Entry]] → [[Deep Half Guard]]
-
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
-
-### [[Lockdown Sweeps]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-### [[Underhook Sweep from Half]] → [[Mount]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Knee Slice from Half]]** → [[Side Control]] (Opponent Success: 45%)
-- **[[Smash Pass]]** → [[Side Control]] (Opponent Success: 40%)
-- **[[Half Guard Pass]]** → [[Side Control]] (Opponent Success: 50%)
-- **[[Knee Cut Pass]]** → [[Side Control]] (Opponent Success: 35%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Deep Half Entry]]** → [[Deep Half Guard]]
-  - Opponent attempts to drive forward with knee slice or pressure pass
-- **[[Electric Chair Submission]]** → [[Electric Chair]]
-  - Opponent commits weight forward while trying to break lockdown
-- **[[Old School Sweep]]** → [[Mount]]
-  - Opponent bases out wide to counter butterfly hook threat
 
 
 </section>
@@ -387,29 +331,39 @@ Positional sparring starting from Z-Lock Half Guard Bottom. Bottom player can on
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Electric chair finish path
+## Test Your Knowledge
 
-`Z-Lock Half Guard Bottom → Electric Chair → Won by Submission`
+**Q1**: Opponent drives heavy shoulder pressure into your chest while attempting to flatten you - what immediate adjustment preserves Z-Lock control?
+**A**: Hip out to your underhook side while simultaneously pulling with the lockdown to off-balance them. Use your butterfly hook leg to create space by pushing against their thigh. Frame on their shoulder with your free arm while turning your body to face them rather than laying flat. The angle change makes their pressure less effective and opens sweep opportunities as they adjust.
 
-### Sweep to mount submission path
+**Q2**: What are the essential grips for maintaining Z-Lock Half Guard Bottom and preventing guard passes?
+**A**: The three critical grips are: (1) underhook on the far side reaching toward their back or belt, (2) collar grip, overhook, or wrist control on the near side to prevent crossface, and (3) your lockdown leg configuration securing their trapped leg. The underhook is highest priority as it prevents flattening and enables offensive threats. Without it, focus on collar or overhook control to prevent them establishing crossface before working to recover the underhook.
 
-`Z-Lock Half Guard Bottom → Old School Sweep → Mount → Armbar from Mount → Won by Submission`
+**Q3**: How do you shut down the knee slice pass - the primary threat to your Z-Lock position?
+**A**: When opponent initiates knee slice, immediately hip out away from the slicing knee while maintaining lockdown tension. Use your butterfly hook to block their knee from advancing by lifting and redirecting it. Frame on their shoulder to prevent them driving through. If possible, transition to deep half by ducking under their pressure. The key is early recognition and immediate hip movement - once the knee clears your hip line, recovery is difficult.
 
-### Deep half to back attack path
+**Q4**: Your opponent establishes crossface control and begins flattening you - what sequence restores the position?
+**A**: First, frame on their crossface arm or shoulder to create space for your head. Bridge and hip escape toward your underhook side to create the angle needed to relieve pressure. As space opens, reinforce your lockdown grip and activate your butterfly hook to threaten elevation. Work to recover your underhook or at minimum establish an overhook to control their attacking arm. Prevention is easier than recovery - prioritize denying crossface initially.
 
-`Z-Lock Half Guard Bottom → Deep Half Entry → Deep Half Guard → Back Take Generic → Back Control → Rear Naked Choke → Won by Submission`
+**Q5**: What is the correct weight distribution through your Z-Lock leg configuration to maintain control?
+**A**: Your lockdown leg should maintain constant pulling tension toward your body, keeping their trapped leg stretched and unable to post. Your butterfly hook should be active but not overcommitted - positioned under their thigh with enough pressure to threaten elevation but able to adjust quickly. Avoid death-gripping with both legs simultaneously as this limits your mobility. Think 70% lockdown tension, 30% butterfly activity, adjusting ratio based on opponent's reactions.
 
-### Butterfly sweep to submission path
+**Q6**: Opponent attempts to strip your lockdown by straightening their trapped leg forcefully - what counter maintains position?
+**A**: When they straighten, immediately attack the electric chair by transitioning to a shoulder-walk position while maintaining lockdown. Their straightening actually helps your electric chair attack by creating the stretch. If electric chair isn't available, use their straightening momentum to come up toward dogfight by driving off your butterfly hook while maintaining underhook. Converting their escape attempt into your offensive transition neutralizes the defense.
 
-`Z-Lock Half Guard Bottom → Butterfly Sweep → Mount → Americana from Mount → Won by Submission`
+**Q7**: How do you manage energy conservation when playing extended Z-Lock sequences against a heavy pressure passer?
+**A**: Focus on structural frames rather than muscular resistance. Keep your skeleton aligned so their pressure transfers through your frame to the mat. Use hip movement to redirect pressure rather than absorbing it directly. Attack in short bursts when they commit weight forward, then return to defensive framing. Avoid constant grip tension - grip firmly during attacks, maintain lighter control during defensive phases. Let them work harder than you while you control distance and timing.
+
+**Q8**: Your opponent nearly passes and you lose your butterfly hook but maintain lockdown - how do you recover full Z-Lock configuration?
+**A**: Immediately create space by bridging and hip escaping toward your underhook side while pulling with lockdown. As opponent adjusts to your movement, use the opening to re-insert your butterfly hook under their free leg. You may need to temporarily abandon the full Z-Lock to recover closed guard or traditional half guard, then re-establish the butterfly hook once you've stabilized. Recovery requires space - create it through movement before attempting to reconfigure.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -436,7 +390,8 @@ Positional sparring starting from Z-Lock Half Guard Bottom. Bottom player can on
 - **[[Butterfly Half Guard]]** - Similar concept using butterfly hook in half guard context
 - **[[Old School]]** - High-percentage sweep from Z-Lock when opponent bases wide
 - **[[Half Guard]]** - Parent category - Z-Lock is specialized variation
-- **[[10th Planet Half Guard Bottom System]]** - Systematic framework - Z-Lock fits into 10th Planet lockdown system
+- **[[Dogfight Position]]** - Transition position when coming up from Z-Lock
+- **[[Old School Sweep]]** - Primary sweep transition from Z-Lock bottom
 
 
 </section>

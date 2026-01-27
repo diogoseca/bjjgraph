@@ -9,8 +9,6 @@
     "underhook",
     "bottom-game"
   ],
-  "starting_position": "Half Guard",
-  "ending_position": "Side Control",
   "success_rates": {
     "beginner": 35,
     "intermediate": 50,
@@ -285,6 +283,24 @@
     {
       "name": "Electric Chair Submission",
       "relationship": "Lockdown variation finish"
+    }
+  ],
+  "from_position": "Half Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Side Control/Top",
+      "probability": 65,
+      "result": "success"
+    },
+    {
+      "to": "Half Guard/Bottom",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Half Guard/Top",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

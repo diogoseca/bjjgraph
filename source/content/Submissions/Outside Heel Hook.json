@@ -20,7 +20,7 @@
     "intermediate": 35,
     "advanced": 55
   },
-  "overview": "The Outside Heel Hook is one of the most dangerous and effective leg lock submissions in Brazilian Jiu-Jitsu, targeting the knee joint through rotational force applied to the heel and foot. Unlike inside heel hooks which attack from inside positioning, the outside heel hook is applied when controlling the opponent's leg from the outside position, typically from outside ashi-garami or similar leg entanglement positions. This submission creates torque on the knee joint by rotating the foot and lower leg while the upper leg remains fixed, placing tremendous stress on the ACL, MCL, meniscus, and other knee structures. The outside heel hook gained prominence in modern no-gi competition through the leg lock revolution pioneered by practitioners like systematic Death Squad and has become a fundamental finishing position in high-level competition. Due to its extreme injury potential and the speed at which damage occurs, this technique requires exceptional technical precision, safety awareness, and should only be practiced by experienced grapplers with trustworthy training partners. The mechanical advantage created by proper hip positioning and heel control makes this one of the highest percentage finishing attacks from leg entanglement positions, but also one requiring the greatest responsibility and control during application.",
+  "overview": "The Outside Heel Hook is one of the most dangerous and effective leg lock submissions in Brazilian Jiu-Jitsu, targeting the knee joint through rotational force applied to the heel and foot. Unlike inside heel hooks which attack from inside positioning, the outside heel hook is applied when controlling the opponent's leg from the outside position, typically from outside ashi-garami or similar leg entanglement positions. This submission creates torque on the knee joint by rotating the foot and lower leg while the upper leg remains fixed, placing tremendous stress on the ACL, MCL, meniscus, and other knee structures. The outside heel hook gained prominence in modern no-gi competition through the leg lock revolution and has become a fundamental finishing position in high-level competition. Due to its extreme injury potential and the speed at which damage occurs, this technique requires exceptional technical precision, safety awareness, and should only be practiced by experienced grapplers with trustworthy training partners. The mechanical advantage created by proper hip positioning and heel control makes this one of the highest percentage finishing attacks from leg entanglement positions, but also one requiring the greatest responsibility and control during application.",
   "safety_considerations": {
     "injury_risks": [
       {
@@ -272,6 +272,31 @@
       "question": "Under what circumstances should you NOT practice outside heel hooks?",
       "answer": "Do not practice outside heel hooks if: (1) you or your partner have current knee injuries or previous knee surgeries without medical clearance, (2) you are below purple belt or lack extensive leg lock experience, (3) your training partner is unfamiliar with leg locks or heel hook defense, (4) you cannot commit to extremely slow application speed, (5) you are tired or unable to maintain complete control, (6) there is not clear mutual communication and agreement to practice leg locks, or (7) you are in a competition-paced training situation where control might be compromised. The injury risk is too severe to practice without ideal conditions and experienced partners.",
       "safety_critical": true
+    },
+    {
+      "question": "Your opponent begins rotating their knee inward to escape - what grip adjustment maintains finishing pressure?",
+      "answer": "When the opponent rotates their knee inward, first reinforce your inside leg pressure across their hip to halt the rotation. Then adjust your heel grip by pulling the heel tighter to your chest while simultaneously extending your hips more aggressively. This combination of increased hip extension and tighter heel connection maintains the rotational potential despite their defensive movement. If they continue rotating, consider transitioning to inside ashi-garami where their rotation actually improves your position for an inside heel hook.",
+      "safety_critical": false
+    },
+    {
+      "question": "What indicates you have reached the point of no escape for your opponent in the outside heel hook?",
+      "answer": "The point of no escape occurs when three conditions are met simultaneously: (1) your hip extension has fully straightened their leg with no remaining slack, (2) your heel cup is deep with the heel secured in the crook of your elbow and hands locked, and (3) your inside leg has prevented any hip rotation so their knee line points away from you. At this point, even minimal rotation creates immediate submission pressure. In training, this is precisely when you must slow down most dramatically, as the margin between tap and injury is extremely small.",
+      "safety_critical": true
+    },
+    {
+      "question": "How do you adjust your finishing mechanics when the opponent has unusually flexible ankles?",
+      "answer": "Flexible opponents require focusing on hip extension before rotation rather than relying on ankle torque alone. Extend your hips more aggressively to take all slack from the leg system, ensuring the knee joint receives the rotational force rather than being absorbed by ankle flexibility. Keep your chest extremely tight to the foot and heel, eliminating any space. You may also need to adjust your grip higher on the heel, closer to the Achilles, to reduce the opponent's ability to dissipate force through ankle movement. The finish comes from knee rotation, not ankle manipulation.",
+      "safety_critical": false
+    },
+    {
+      "question": "In competition, what signals indicate your heel hook is about to force a tap versus when you should transition?",
+      "answer": "Signals indicating imminent tap include: opponent's free leg stops fighting and goes limp, verbal sounds of distress, hands desperately grabbing your arms rather than defending strategically, and visible tension in their facial expression. Signals to transition include: opponent successfully rotating their knee line despite your control, their hands effectively breaking your heel grip, their hips escaping your inside leg control, or significant space developing between your chest and their heel. In competition, decisively attack finishing indicators while immediately abandoning compromised positions for transitions to saddle, inside ashi, or back control.",
+      "safety_critical": false
+    },
+    {
+      "question": "What is the proper figure-four grip configuration for maximum heel hook control?",
+      "answer": "The proper figure-four configuration places the blade of your forearm across the Achilles tendon with the heel cupped deep in the crook of your elbow. Your gripping hand cups around the top of the foot, with fingers pointing toward the toes. Your other arm reaches across and grabs your own wrist or forearm, creating the figure-four lock. This configuration maximizes rotational control because the heel cannot slip out, and your entire torso can generate the rotation rather than just your arms. Keep elbows tight to your body and chest pressed against the heel for maximum mechanical advantage.",
+      "safety_critical": false
     }
   ],
   "training_progressions_and_safety_protocols": [
@@ -361,14 +386,6 @@
       "relationship": "Alternative leg attack from same positions"
     },
     {
-      "name": "Craig Jones Leg Lock System",
-      "relationship": "Modern competition system featuring this technique"
-    },
-    {
-      "name": "Lachlan Giles Leg Lock Defense Framework",
-      "relationship": "Defense concepts for countering this submission"
-    },
-    {
       "name": "50-50 Guard",
       "relationship": "Common entry position requiring transition to outside control"
     },
@@ -377,8 +394,16 @@
       "relationship": "Conceptual principle underlying all leg lock positions"
     },
     {
-      "name": "Outside Ashi Entry",
-      "relationship": "Transition technique to establish attacking position"
+      "name": "Backside 50-50",
+      "relationship": "Transition position with natural outside control"
+    },
+    {
+      "name": "Single Leg X-Guard",
+      "relationship": "Entry position for establishing outside ashi control"
+    },
+    {
+      "name": "Straight Ankle Lock",
+      "relationship": "Lower-risk alternative from similar positions"
     }
   ]
 }

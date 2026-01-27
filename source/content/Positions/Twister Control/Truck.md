@@ -18,7 +18,7 @@ description: "Master Truck Position in BJJ with comprehensive bottom and top per
 
 <section id="overview" class="content-section">
 
-The Truck Position is a specialized back-attack control position developed and popularized by 10th Planet's within the 10th Planet Jiu-Jitsu system. This position creates a unique control system where the controlling practitioner is positioned perpendicular to their opponent, with legs entangled in a figure-four configuration controlling the opponent's lower body while maintaining upper body control through various grips.
+The Truck Position is a specialized back-attack control position developed and popularized within the 10th Planet Jiu-Jitsu system. This position creates a unique control system where the controlling practitioner is positioned perpendicular to their opponent, with legs entangled in a figure-four configuration controlling the opponent's lower body while maintaining upper body control through various grips.
 
 The truck represents the convergence of leg lock systems and back attack systems, making it one of the most dangerous positions in modern no-gi grappling. The position's power comes from the dilemma it creates: defending upper body attacks (Twister, bow and arrow choke) exposes the lower body to leg attacks (calf slicer, banana split), while defending leg attacks allows upper body submissions. This multiple-threat system makes the truck one of the highest finishing-rate positions in modern BJJ.
 
@@ -93,26 +93,20 @@ The position exists in two distinct perspectives: from the bottom, it is a high-
 - Calm under pressure: maintain composure and systematic defense rather than panicking and burning energy
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Granby Roll]]** → [[Turtle]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 60%
+- **[[Granby Roll]]** (18% of attempts)
 
-- **[[Hip Escape]]** → [[Half Guard]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 65%
+- **[[Hip Escape]]** (20% of attempts)
 
-- **[[Leg Extraction]]** → [[Turtle]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Leg Extraction]]** (18% of attempts)
 
-- **[[Rolling Back Take]]** → [[Open Guard]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 55%
+- **[[Rolling Back Take]]** (17% of attempts)
 
-- **[[Forward Roll]]** → [[Deep Half Guard]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 50%
+- **[[Forward Roll]]** (15% of attempts)
 
-- **[[Technical Standup]]** → [[Standing Position]]
-  - Success Rate: Beginner 10%, Intermediate 25%, Advanced 40%
+- **[[Technical Standup]]** (12% of attempts)
 
 
 ### Common Mistakes
@@ -170,32 +164,24 @@ The position exists in two distinct perspectives: from the bottom, it is a high-
 - Back Control Option: Always maintain ability to transition to traditional back control as fallback
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Twister]]** → [[Won by Submission]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Twister]]** (11% of attempts)
 
-- **[[Calf Slicer from Truck]]** → [[Won by Submission]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Calf Slicer from Truck]]** (12% of attempts)
 
-- **[[Banana Split]]** → [[Won by Submission]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+- **[[Banana Split]]** (10% of attempts)
 
-- **[[Rolling Back Take]]** → [[Back Control]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Rolling Back Take]]** (16% of attempts)
 
-- **[[Bow and Arrow Choke]]** → [[Won by Submission]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Bow and Arrow Choke]]** (11% of attempts)
 
-- **[[Crab Ride to Back]]** → [[Crab Ride]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 65%
+- **[[Crab Ride to Back]]** (14% of attempts)
 
-- **[[Crucifix from Turtle]]** → [[Crucifix]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 60%
+- **[[Crucifix from Turtle]]** (13% of attempts)
 
-- **[[Transition to Mount]]** → [[Mount]]
-  - Success Rate: Beginner 28%, Intermediate 45%, Advanced 58%
+- **[[Side Control to Mount]]** (13% of attempts)
 
 
 ### Common Mistakes

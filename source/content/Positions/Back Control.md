@@ -87,26 +87,22 @@ From back control, the top practitioner maintains a significant positional advan
 - Accept position improvement as victory even when full escape not achieved within single sequence
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Back Escape Series]]** → [[Half Guard]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Back Escape Series]]** (20% of attempts)
 
-- **[[Hip Escape]]** → [[Turtle]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Hip Escape to Turtle]]** (22% of attempts)
 
-- **[[Rolling Escape]]** → [[Closed Guard]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+- **[[Rolling Escape to Guard]]** (10% of attempts)
 
-- **[[Granby Roll]]** → [[Turtle]]
-  - Success Rate: Beginner 10%, Intermediate 25%, Advanced 40%
+- **[[Granby Roll Escape]]** (8% of attempts)
 
-- **[[Hand Fighting from Back]]** → [[Defensive Position]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 70%
+- **[[Turn and Face Escape]]** (15% of attempts)
 
-- **[[Hook Removal Sequence]]** → [[Turtle]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Hook Removal to Side Position]]** (10% of attempts)
+
+- **[[Survive and Defend]]** (15% of attempts)
 
 
 ### Common Mistakes
@@ -164,32 +160,24 @@ From back control, the top practitioner maintains a significant positional advan
 - Follow position-before-submission principle by securing complete positional dominance before committing to submission attempts
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Rear Naked Choke]]** → [[Won by Submission]]
-  - Success Rate: Beginner 40%, Intermediate 60%, Advanced 75%
+- **[[Rear Naked Choke]]** (25% of attempts)
 
-- **[[Armbar from Back with Legs]]** → [[Armbar Control]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 65%
+- **[[Armbar from Back with Legs]]** (8% of attempts)
 
-- **[[Back Control to Crucifix]]** → [[Crucifix]]
-  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 70%
+- **[[Bow and Arrow Choke]]** (15% of attempts)
 
-- **[[Bow and Arrow Choke]]** → [[Won by Submission]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 60%
+- **[[Back Control to Crucifix]]** (10% of attempts)
 
-- **[[Transition to Mount]]** → [[Mount]]
-  - Success Rate: Beginner 45%, Intermediate 65%, Advanced 80%
+- **[[Armbar from Back]]** (7% of attempts)
 
-- **[[Transition to Truck]]** → [[Truck]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 65%
+- **[[Body Triangle Lock]]** (10% of attempts)
 
-- **[[Choke from Crucifix]]** → [[Won by Submission]]
-  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 70%
+- **[[Choke from Crucifix]]** (5% of attempts)
 
-- **[[Armbar from Back]]** → [[Won by Submission]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 60%
+- **[[Maintain Back Control]]** (20% of attempts)
 
 
 ### Common Mistakes
@@ -234,7 +222,7 @@ From back control, the top practitioner maintains a significant positional advan
 
 - **[[Turtle]]** - Common entry position for establishing back control when opponent assumes turtle defensive position
 
-- **[[Truck]]** - Related back attack position with different leg configuration leading to twister and calf slicer submissions
+- **[[Twister Control]]** - Related back attack position with different leg configuration leading to twister and calf slicer submissions
 
 - **[[Gift Wrap]]** - Arm trap variation used to isolate opponent's arm during back control for submission entries
 

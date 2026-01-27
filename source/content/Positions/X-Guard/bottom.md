@@ -21,37 +21,37 @@ description: "Master X-Guard Bottom in BJJ. Comprehensive guide covering sweeps,
     {
       "@type": "HowToStep",
       "name": "Execute X-Guard Sweep",
-      "text": "From this position, execute X-Guard Sweep to transition to Mount. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt X-Guard Sweep. This technique is attempted in 25% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Single Leg X Entry",
-      "text": "From this position, execute Single Leg X Entry to transition to Single Leg X-Guard. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Single Leg X Entry. This technique is attempted in 20% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute X-Guard to Ashi Transition",
-      "text": "From this position, execute X-Guard to Ashi Transition to transition to Ashi Garami. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt X-Guard to Ashi Transition. This technique is attempted in 15% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Standing to Single Leg X",
-      "text": "From this position, execute Standing to Single Leg X to transition to Single Leg X-Guard. Success rate for advanced practitioners: 70%.",
+      "name": "Execute Technical Stand Up to Single Leg",
+      "text": "From this position, attempt Technical Stand Up to Single Leg. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Technical Standup",
-      "text": "From this position, execute Technical Standup to transition to Standing Position. Success rate for advanced practitioners: 80%.",
+      "name": "Execute Deep Half Entry",
+      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Deep Half Entry",
-      "text": "From this position, execute Deep Half Entry to transition to Deep Half Guard. Success rate for advanced practitioners: 65%.",
+      "name": "Execute Butterfly Guard to X-Guard",
+      "text": "From this position, attempt Butterfly Guard to X-Guard. This technique is attempted in 8% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -209,84 +209,22 @@ X-Guard Bottom is a powerful open guard position where the bottom practitioner c
 
 ## Available Escapes
 
-### [[X-Guard Sweep]] → [[Mount]]
+### [[X-Guard Sweep]] (25% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Single Leg X Entry]] (20% of attempts)
 
-### [[Single Leg X Entry]] → [[Single Leg X-Guard]]
+### [[X-Guard to Ashi Transition]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 60%
-- Advanced: 75%
+### [[Technical Stand Up to Single Leg]] (10% of attempts)
 
-### [[X-Guard to Ashi Transition]] → [[Ashi Garami]]
+### [[Deep Half Entry]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Butterfly Guard to X-Guard]] (8% of attempts)
 
-### [[Standing to Single Leg X]] → [[Single Leg X-Guard]]
+### [[Overhead Sweep]] (7% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Kneebar from Guard]] (5% of attempts)
 
-### [[Technical Standup]] → [[Standing Position]]
-
-**Success Rates:**
-- Beginner: 50%
-- Intermediate: 65%
-- Advanced: 80%
-
-### [[Deep Half Entry]] → [[Deep Half Guard]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-### [[Butterfly Guard to X-Guard]] → [[Butterfly Guard]]
-
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Knee Slice Pass]]** → [[Side Control]] (Opponent Success: 25%)
-- **[[Leg Drag Pass]]** → [[Leg Drag Position]] (Opponent Success: 30%)
-- **[[Stack Pass]]** → [[Side Control]] (Opponent Success: 20%)
-- **[[Posture Recovery]]** → [[Combat Base]] (Opponent Success: 35%)
-- **[[Guard Pass]]** → [[Open Guard]] (Opponent Success: 40%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Single Leg X Entry]]** → [[Single Leg X-Guard]]
-  - Opponent attempts to backstep or extract their trapped leg
-- **[[Butterfly Guard to X-Guard]]** → [[Butterfly Guard]]
-  - Opponent sits back to break X-Guard configuration
-- **[[X-Guard to Ashi Transition]]** → [[Ashi Garami]]
-  - Opponent attempts to step over the outside leg
-- **[[Deep Half Entry]]** → [[Deep Half Guard]]
-  - Opponent drives knee forward through X-Guard
 
 
 </section>
@@ -297,7 +235,7 @@ X-Guard Bottom is a powerful open guard position where the bottom practitioner c
 
 **If opponent maintains strong upright posture with both feet planted and good base:**
 - Execute **[[X-Guard Sweep]]** → [[Mount]] (Probability: 65%)
-- Execute **[[Technical Standup]]** → [[Standing Position]] (Probability: 55%)
+- Execute **[[Technical Stand Up to Single Leg]]** → [[Standing Position]] (Probability: 55%)
 
 
 **If opponent attempts to backstep or circle away from the X-Guard configuration:**
@@ -393,29 +331,7 @@ Practice flowing from X-Guard to Single Leg X to Ashi Garami and back based on p
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
-
-### Shortest path to submission from X-Guard
-
-`X-Guard Bottom → Ashi Garami → Straight Ankle Lock`
-
-### High-percentage sweep to submission path
-
-`X-Guard Bottom → Mount → Armbar from Mount`
-
-### Leg entanglement specialist path
-
-`X-Guard Bottom → Single Leg X-Guard → Kneebar from Guard`
-
-### Back attack path through sweep
-
-`X-Guard Bottom → Mount → Back Control → Rear Naked Choke`
-
-
-
-</section>
 
 <section id="position-metrics" class="content-section">
 
@@ -442,9 +358,7 @@ Practice flowing from X-Guard to Single Leg X to Ashi Garami and back based on p
 - **[[De La Riva Guard]]** - Related open guard - shares similar leg hooking mechanics
 - **[[Deep Half Guard]]** - Transition target - common fallback when X-Guard is pressured
 - **[[Ashi Garami]]** - Leg entanglement transition - natural progression for leg lock attacks
-- **[[Marcelo Garcia X-Guard System]]** - Complete system - comprehensive approach to X-Guard positions and transitions
-- **[[Sweep Mechanics]]** - Foundational concept - principles that make X-Guard sweeps effective
-- **[[Off-Balancing]]** - Core concept - mechanical principles behind X-Guard control
+- **[[X-Guard Sweep]]** - Primary offensive technique - main sweeping option from this position
 - **[[Leg Entanglement]]** - Related concept - understanding leg control mechanics in guard systems
 
 

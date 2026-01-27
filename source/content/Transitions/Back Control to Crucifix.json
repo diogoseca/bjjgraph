@@ -11,8 +11,6 @@
     "submission-setup",
     "control-progression"
   ],
-  "starting_position": "Back Control",
-  "ending_position": "Crucifix",
   "success_rates": {
     "beginner": 35,
     "intermediate": 50,
@@ -269,6 +267,24 @@
     {
       "name": "Back Take Generic",
       "relationship": "Prerequisite skill - general back taking ability needed before advancing to crucifix"
+    }
+  ],
+  "from_position": "Back Control/Top",
+  "outcomes": [
+    {
+      "to": "Crucifix/Top",
+      "probability": 65,
+      "result": "success"
+    },
+    {
+      "to": "Back Control/Top",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Back Control/Bottom",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

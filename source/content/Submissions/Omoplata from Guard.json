@@ -272,6 +272,26 @@
       "question": "What is the appropriate application speed and pressure level for the Omoplata finish in training versus competition?",
       "answer": "In training, the Omoplata finish must be applied slowly over a minimum of 3-5 seconds with progressive, gradual pressure. You should stop at light to moderate pressure as soon as you feel resistance - never finish fully in training. The goal is to allow your partner to recognize the position and tap early. In competition, faster application is acceptable but still must be controlled and progressive, not explosive or jerking. However, competition finishing speed and pressure are never appropriate for training, as they create severe injury risk (rotator cuff tear, dislocation) without adequate warning for the partner to tap.",
       "safety_critical": true
+    },
+    {
+      "question": "What anatomical structures are under attack during the Omoplata, and what sensations indicate the breaking point is approaching?",
+      "answer": "The Omoplata primarily attacks the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis) and the glenohumeral joint capsule through forced external rotation and extension. Secondary stress is placed on the AC joint and labrum. The breaking point approaches when the defender feels deep rotational tension in the posterior shoulder, sharp pain at the joint line, and inability to further rotate the shoulder internally. The attacker should feel increased resistance to hip extension and may notice the defender's body starting to twist to relieve pressure - these are signals to stop in training.",
+      "safety_critical": true
+    },
+    {
+      "question": "Your opponent begins posturing up strongly as you attempt the leg swing - what grip adjustment maintains control and what transition becomes available?",
+      "answer": "When opponent postures strongly during the leg swing, immediately tighten your overhook by pulling your elbow toward your hip and driving your shoulder into their tricep. If they continue to posture and begin extracting, this creates the angle and arm isolation needed for a Triangle Choke - simply redirect your swinging leg across their neck instead of over the shoulder. Alternatively, if their arm extends fully during the posture, you can transition to a straight Armbar by controlling the wrist and extending their arm while pivoting your hips. The key is recognizing their defensive posture creates submission opportunities rather than forcing the Omoplata.",
+      "safety_critical": false
+    },
+    {
+      "question": "What is the point of no escape in the Omoplata, and how do you recognize when your opponent has passed this threshold?",
+      "answer": "The point of no escape occurs when your leg triangle is fully secured with hips flush against their back, their trapped arm is bent at approximately 90 degrees with elbow past their hip line, and their far arm is controlled preventing the posting escape. Visual indicators include: opponent's face is turned toward the mat (not toward you), their trapped shoulder is already in external rotation, and their body weight has shifted forward onto their trapped side. At this point, even minimal hip extension creates submission pressure. In training, this is actually where you should stop - recognizing the submission is secured without needing to finish with pressure.",
+      "safety_critical": false
+    },
+    {
+      "question": "During competition, your opponent is defending by staying flat and refusing to concede position - what finishing adjustments maximize pressure while maintaining control?",
+      "answer": "Against a flat, defensive opponent: First, ensure your leg over their shoulder is hooked deeply with your heel pulling toward their far armpit. Second, use your free hand to grab their far hip or belt and pull them toward you, preventing them from staying flat. Third, walk your hips even closer to eliminate any remaining space. Fourth, lean your torso forward over their back to add body weight to the rotation. Fifth, extend hips forward while simultaneously pulling their far hip, creating a twisting motion that amplifies shoulder rotation. The combination of hip extension, body weight, and the pulling action on their far side creates finishing pressure even against stubborn defenders.",
+      "safety_critical": false
     }
   ],
   "training_progressions_and_safety_protocols": [
@@ -341,9 +361,6 @@
     "Kimura",
     "Gogoplata",
     "Baratoplata",
-    "Tarikoplata",
-    "Monoplata",
-    "Triangle from Closed Guard",
     "Kimura from Guard",
     "Inverted Triangle"
   ],
@@ -365,7 +382,7 @@
       "relationship": "Alternative submission when opponent defends Omoplata by posturing or when entry fails"
     },
     {
-      "name": "Transition to Omoplata",
+      "name": "Closed Guard to Omoplata",
       "relationship": "Generic transition category covering various entries from different guard positions"
     },
     {
@@ -377,20 +394,20 @@
       "relationship": "Related attack chain from closed guard sharing similar control concepts"
     },
     {
-      "name": "Hip Movement",
-      "relationship": "Fundamental principle required for creating angle and establishing position"
+      "name": "Closed Guard",
+      "relationship": "Primary starting position for establishing Omoplata control"
     },
     {
-      "name": "Shoulder Pressure",
-      "relationship": "Core principle for maintaining control and preventing escapes during setup"
+      "name": "Omoplata Control",
+      "relationship": "Control position established before finishing the submission"
     },
     {
-      "name": "Guard Retention",
-      "relationship": "Defensive principle that complements offensive Omoplata attacks from bottom"
+      "name": "Back Control",
+      "relationship": "Alternative finish when opponent turns away from shoulder pressure"
     },
     {
-      "name": "Submission Chains",
-      "relationship": "Strategic concept - Omoplata is central hub for multiple submission and sweep chains"
+      "name": "Mount",
+      "relationship": "Sweep destination when opponent rolls forward to escape"
     }
   ]
 }

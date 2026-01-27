@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Turtle to Guard | BJJ Technique | BJJ Graph"
 description: "Master Turtle to Guard recovery in BJJ. Essential defensive transition to Closed Guard, Half Guard, or Butterfly. Success: Beginner 45%, Intermediate 60%, Advanced 75%."
@@ -16,7 +17,7 @@ description: "Master Turtle to Guard recovery in BJJ. Essential defensive transi
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Turtle to Guard in BJJ",
-  "description": "Step-by-step guide for Turtle to Guard from Turtle to Closed Guard.",
+  "description": "Step-by-step guide for Turtle to Guard from Turtle/Top. Possible outcomes: Closed Guard/Bottom (75%), Turtle/Top (15%), Turtle/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -154,11 +155,25 @@ description: "Master Turtle to Guard recovery in BJJ. Essential defensive transi
 
 The Turtle to Guard recovery is a fundamental defensive transition that allows practitioners to escape the vulnerable turtle position and re-establish their guard. This transition is critical for maintaining defensive integrity when an opponent is attempting back takes or submissions from turtle. The technique involves creating space, managing opponent's grips and hooks, and using hip movement to rotate underneath the opponent while establishing guard frames. Success depends on timing, hip mobility, and understanding weight distribution principles. The recovery can lead to multiple guard variations including Closed Guard, Half Guard, Butterfly Guard, or Open Guard depending on opponent positioning and grip configurations. This transition represents a key defensive skill that prevents opponents from consolidating dominant positions while allowing the defender to return to offensive guard positions where they can threaten sweeps and submissions.
 
-**Starting Position**: [[Turtle]]
-**Ending Position**: [[Closed Guard]]
+**From Position**: [[Turtle/Top]]
 **Success Rates**: Beginner 45%, Intermediate 60%, Advanced 75%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Closed Guard/Bottom]] | 75% |
+| Failure | [[Turtle/Top]] | 15% |
+| Counter | [[Turtle/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

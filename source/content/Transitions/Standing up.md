@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Standing up | BJJ Technique | BJJ Graph"
 description: "Master the Technical Standup in BJJ. Learn proper base mechanics, hip elevation, and defensive positioning. Success rates: Beginner 50%, Intermediate 70%, Advanced 85%."
@@ -16,7 +17,7 @@ description: "Master the Technical Standup in BJJ. Learn proper base mechanics, 
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Standing up in BJJ",
-  "description": "Step-by-step guide for Standing up from Open Guard to Standing Position.",
+  "description": "Step-by-step guide for Standing up from Open Guard/Bottom. Possible outcomes: Standing Position/Top (75%), Open Guard/Bottom (15%), Open Guard/Top (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -160,11 +161,25 @@ description: "Master the Technical Standup in BJJ. Learn proper base mechanics, 
 
 The Technical Standup is a fundamental defensive transition in Brazilian Jiu-Jitsu that allows a grounded practitioner to safely return to their feet while maintaining defensive frames and preventing takedowns. This transition represents a critical bridge between ground and standing combat, serving as both an escape mechanism from inferior positions and a method of disengagement when desired. The technical standup is essential for maintaining distance management, creating space, and resetting the engagement to a more favorable position. It is particularly crucial in self-defense scenarios, MMA contexts, and competitive situations where standing offers strategic advantages. The position requires precise weight distribution, balance, timing, and spatial awareness to execute safely without compromising defensive integrity. Mastery of the standing up sequence provides practitioners with autonomy over engagement range and the ability to dictate whether the match remains on the ground or returns to standing combat. The transition involves posting a base hand, elevating the hips, loading the near leg, and driving explosively to standing while maintaining the far leg as a defensive barrier throughout the sequence.
 
-**Starting Position**: [[Open Guard]]
-**Ending Position**: [[Standing Position]]
+**From Position**: [[Open Guard/Bottom]]
 **Success Rates**: Beginner 50%, Intermediate 70%, Advanced 85%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Standing Position/Top]] | 75% |
+| Failure | [[Open Guard/Bottom]] | 15% |
+| Counter | [[Open Guard/Top]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

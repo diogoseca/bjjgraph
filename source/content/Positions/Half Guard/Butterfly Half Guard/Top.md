@@ -21,37 +21,37 @@ description: "Master top butterfly half guard defense and passing. Learn to coun
     {
       "@type": "HowToStep",
       "name": "Execute Half Guard Pass",
-      "text": "From this position, execute Half Guard Pass to transition to Side Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Half Guard Pass. This technique is attempted in 17% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, execute Knee Slice Pass to transition to Side Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 16% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Smash Pass",
-      "text": "From this position, execute Smash Pass to transition to Side Control. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Smash Pass. This technique is attempted in 19% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Pass",
-      "text": "From this position, execute Underhook Pass to transition to Side Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Underhook Pass. This technique is attempted in 17% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Long Step Pass",
-      "text": "From this position, execute Long Step Pass to transition to Side Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Long Step Pass. This technique is attempted in 16% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Pressure Pass",
-      "text": "From this position, execute Pressure Pass to transition to Headquarters Position. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Pressure Pass. This technique is attempted in 15% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -213,75 +213,18 @@ The strategic approach from top butterfly half guard involves several key consid
 
 ## Available Attacks
 
-### [[Half Guard Pass]] → [[Side Control]]
+### [[Half Guard Pass]] (17% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Knee Slice Pass]] (16% of attempts)
 
-### [[Knee Slice Pass]] → [[Side Control]]
+### [[Smash Pass]] (19% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Underhook Pass]] (17% of attempts)
 
-### [[Smash Pass]] → [[Side Control]]
+### [[Long Step Pass]] (16% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Pressure Pass]] (15% of attempts)
 
-### [[Underhook Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-### [[Long Step Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[Pressure Pass]] → [[Headquarters Position]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[100% Sweep]]** → [[Mount]] (Opponent Success: 55%)
-- **[[Old School Sweep]]** → [[Side Control]] (Opponent Success: 60%)
-- **[[Butterfly Sweep]]** → [[Mount]] (Opponent Success: 50%)
-- **[[Deep Half Entry]]** → [[Deep Half Guard]] (Opponent Success: 65%)
-- **[[Half Guard to Back Take]]** → [[Back Control]] (Opponent Success: 45%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Smash Pass]]** → [[Side Control]]
-  - Opponent attempts 100% sweep and commits weight to butterfly side creating opportunity to drive through
-- **[[Knee Slice Pass]]** → [[Side Control]]
-  - Opponent's butterfly hook becomes passive or loses upward pressure allowing leg to be cleared
-- **[[Underhook Pass]]** → [[Side Control]]
-  - Opponent attempts old school sweep and posts hand on mat creating opening for underhook control
 
 
 </section>
@@ -371,25 +314,39 @@ Start in top butterfly half guard and reset after each pass or sweep. Focus on m
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Pass to submission path
+## Test Your Knowledge
 
-`Butterfly Half Guard Top → Smash Pass → Side Control → Kimura from Side Control`
+**Q1**: What is the most critical weight distribution adjustment when your opponent starts to elevate with their butterfly hook?
+**A**: Immediately drop your hips lower and shift weight toward the butterfly hook side while driving your shoulder into their chest or face. This removes the space underneath your body that allows their hook to generate elevation power. Simultaneously widen your base with your free leg and post your hand on the mat to create a tripod-like structure that resists upward momentum.
 
-### Pressure passing sequence
+**Q2**: What are the essential grips and controls for maintaining top position against an active butterfly half guard player?
+**A**: The primary controls are crossface with your shoulder driving into their face/jaw to turn their head away, and either an overhook or underhook on the butterfly side to limit their upper body movement. Secondary controls include controlling their far hip with your hand to prevent them from creating angles, and keeping your trapped leg's knee pinned to the mat to prevent easy elevation.
 
-`Butterfly Half Guard Top → Knee Slice Pass → Side Control → Arm Triangle`
+**Q3**: Your opponent attempts the old school sweep by securing an underhook and driving into you - what immediate adjustment prevents being swept?
+**A**: Post your far hand on the mat immediately to create a base point that prevents being rolled. Simultaneously whizzer their underhook arm by threading your arm over their bicep and clamping down while driving your weight onto their shoulder. This neutralizes their underhook power and forces them flat. Then work to strip their underhook before they can re-attack.
 
-### Opportunistic submission
+**Q4**: What grip priorities should you establish before attempting to extract your trapped leg?
+**A**: Establish crossface control first to turn their head and limit their ability to follow your movement. Then secure control of their far hip or pants to prevent them from bridging or creating angles as you extract. Only attempt leg extraction when you have both upper body control (crossface) and hip control (far side grip) secured. Attempting extraction without these controls allows them to sweep using your movement.
 
-`Butterfly Half Guard Top → Guillotine Choke (when opponent overextends on sweep attempt)`
+**Q5**: How should you apply pressure when the bottom player is fighting for an upright seated posture?
+**A**: Drive forward pressure through your shoulder directly into their chest and face, not down toward the mat. Your goal is to break their posture backward, not pin them flat initially. Keep your chest connected to their chest at all times. If they achieve seated posture, immediately change angles by circling toward the non-butterfly side while maintaining shoulder pressure to collapse their structure.
+
+**Q6**: Your opponent bridges hard and attempts to roll you over - what base adjustment do you make?
+**A**: Immediately post your far hand wide on the mat and extend your free leg out perpendicular to their body to create a wide tripod base. Drop your hips low and heavy while slightly sprawling your weight back to counteract their bridge momentum. If they commit strongly to one direction, be ready to flow with their movement and transition to a different passing angle rather than fighting directly against their bridge.
+
+**Q7**: How do you manage energy expenditure when maintaining top butterfly half guard?
+**A**: Use bone-on-bone pressure rather than muscular effort wherever possible - your shoulder bone into their face, your knee pinned to the mat. Keep movements minimal and precise rather than constantly shifting. Wait for the bottom player to expend energy attempting sweeps, then capitalize on their recovery moments to advance position. The top player should be making the bottom player work harder by maintaining uncomfortable pressure.
+
+**Q8**: Your opponent partially escapes and recovers a knee shield - what immediate recovery prevents full guard retention?
+**A**: Immediately control their knee shield knee with your hand and push it down toward the mat while driving your hip forward and low. Do not allow space for them to fully extend the knee shield. If they get the knee shield established, transition to a knee slice angle by stepping your outside leg wide and preparing to slice through. The critical moment is preventing the frame from locking into place - act within the first second of their recovery attempt.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -416,7 +373,6 @@ Start in top butterfly half guard and reset after each pass or sweep. Focus on m
 - **[[Headquarters Position]]** - Transitional position during passing sequences
 - **[[Combat Base]]** - Base management concept essential for preventing sweeps
 - **[[Pressure Passing]]** - Fundamental passing principle applicable to this position
-- **[[Guard Passing Principles]]** - Core concepts for advancing position against retention
 
 
 </section>

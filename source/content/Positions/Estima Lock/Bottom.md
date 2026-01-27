@@ -21,37 +21,37 @@ description: "Master the Estima Lock Bottom Position in BJJ. Defensive leg entan
     {
       "@type": "HowToStep",
       "name": "Execute Ashi Garami Escape",
-      "text": "From this position, execute Ashi Garami Escape to transition to Open Guard. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Ashi Garami Escape. This technique is attempted in 25% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Extraction",
-      "text": "From this position, execute Leg Extraction to transition to Seated Guard. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Leg Extraction. This technique is attempted in 25% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Counter Sweep",
-      "text": "From this position, execute Counter Sweep to transition to Estima Lock. Success rate for advanced practitioners: 40%.",
+      "text": "From this position, attempt Counter Sweep. This technique is attempted in 15% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Saddle Defense",
-      "text": "From this position, execute Saddle Defense to transition to Half Guard. Success rate for advanced practitioners: 45%.",
+      "text": "From this position, attempt Saddle Defense. This technique is attempted in 15% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Technical Standup",
-      "text": "From this position, execute Technical Standup to transition to Standing Position. Success rate for advanced practitioners: 35%.",
+      "text": "From this position, attempt Technical Standup. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling Back Take",
-      "text": "From this position, execute Rolling Back Take to transition to Back Control. Success rate for advanced practitioners: 30%.",
+      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -211,74 +211,18 @@ From bottom, the primary concern is preventing the completion of the submission 
 
 ## Available Escapes
 
-### [[Ashi Garami Escape]] → [[Open Guard]]
+### [[Ashi Garami Escape]] (25% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
+### [[Leg Extraction]] (25% of attempts)
 
-### [[Leg Extraction]] → [[Seated Guard]]
+### [[Counter Sweep]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
+### [[Saddle Defense]] (15% of attempts)
 
-### [[Counter Sweep]] → [[Estima Lock]]
+### [[Technical Standup]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 25%
-- Advanced: 40%
+### [[Rolling Back Take]] (10% of attempts)
 
-### [[Saddle Defense]] → [[Half Guard]]
-
-**Success Rates:**
-- Beginner: 18%
-- Intermediate: 30%
-- Advanced: 45%
-
-### [[Technical Standup]] → [[Standing Position]]
-
-**Success Rates:**
-- Beginner: 12%
-- Intermediate: 22%
-- Advanced: 35%
-
-### [[Rolling Back Take]] → [[Back Control]]
-
-**Success Rates:**
-- Beginner: 10%
-- Intermediate: 18%
-- Advanced: 30%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Estima Lock]]** → [[Lost by Submission]] (Opponent Success: 65%)
-- **[[Toe Hold]]** → [[Lost by Submission]] (Opponent Success: 45%)
-- **[[Transition to Ashi]]** → [[Ashi Garami]] (Opponent Success: 50%)
-- **[[Saddle Entry from Top]]** → [[Saddle]] (Opponent Success: 40%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Grip Break to Guard Recovery]]** → [[Half Guard]]
-  - Opponent's grip on foot loosens or repositions
-- **[[Hip Escape to Open Guard]]** → [[Open Guard]]
-  - Opponent overextends or loses hip pressure
-- **[[Leg Weave Counter]]** → [[Single Leg X-Guard]]
-  - Free leg successfully hooks opponent's leg during escape attempt
 
 
 </section>
@@ -288,23 +232,23 @@ From bottom, the primary concern is preventing the completion of the submission 
 ## Decision Making from This Position
 
 **If opponent has shallow grip on foot without full inversion control:**
-- Execute **[[Immediate Leg Extraction]]** → [[Open Guard]] (Probability: 60%)
-- Execute **[[Counter Rotation Escape]]** → [[Seated Guard]] (Probability: 50%)
+- Execute **[[Immediate Leg Extraction]]** → [[Open Guard]] (Probability: 55%)
+- Execute **[[Counter Rotation Escape]]** → [[Seated Guard]] (Probability: 45%)
 
 
 **If opponent has deep grip with full inversion and hip pressure established:**
 - Execute **[[Frame and Hip Escape Sequence]]** → [[Half Guard]] (Probability: 35%)
-- Execute **[[Tactical Tap]]** → [[Lost by Submission]] (Probability: 65%)
+- Execute **[[Tactical Tap]]** → [[game-over]] (Probability: 65%)
 
 
 **If free leg can establish hooks or frames on opponent's body:**
-- Execute **[[Leverage Sweep to Top]]** → [[Estima Lock]] (Probability: 40%)
-- Execute **[[Push and Extract]]** → [[Open Guard]] (Probability: 45%)
+- Execute **[[Leverage Sweep to Top]]** → [[Estima Lock]] (Probability: 45%)
+- Execute **[[Push and Extract]]** → [[Open Guard]] (Probability: 55%)
 
 
 **If opponent transitions grip toward toe hold or other submission:**
-- Execute **[[Capitalize on Grip Change]]** → [[Ashi Garami]] (Probability: 55%)
-- Execute **[[Technical Standup Escape]]** → [[Standing Position]] (Probability: 35%)
+- Execute **[[Capitalize on Grip Change]]** → [[Ashi Garami]] (Probability: 60%)
+- Execute **[[Technical Standup Escape]]** → [[Standing Position]] (Probability: 40%)
 
 
 
@@ -378,25 +322,39 @@ Bottom player in Estima Lock position focuses exclusively on using free leg for 
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Direct escape to safety
+## Test Your Knowledge
 
-`Estima Lock Bottom → Frame establishment → Hip escape → Open Guard → Guard consolidation`
+**Q1**: What is the first defensive action you should take when caught in an Estima Lock?
+**A**: Immediately address the inverted foot position by counter-rotating the ankle to reduce strain on the joint and ligaments. This buys time and reduces immediate submission pressure. Simultaneously begin establishing frames on the opponent's hips or torso while keeping your free leg active and mobile for defensive leverage.
 
-### Counter-attack path
+**Q2**: Your opponent tightens their grip and begins applying rotational pressure—what physical signals indicate you should tap?
+**A**: Tap signals include: sharp pain in the ankle joint or Achilles tendon area, sensation of the ankle being twisted beyond normal range, inability to reduce pressure through counter-rotation, loss of hip mobility preventing escape attempts, and recognition that the mechanical completion of the lock has occurred. When any of these signals appear, immediate tap preserves joint health and training longevity.
 
-`Estima Lock Bottom → Free leg hooks → Counter sweep → Estima Lock Top → Pass to dominant position`
+**Q3**: Why is keeping a slight bend in the trapped knee important during escape attempts?
+**A**: A slight knee bend reduces the linear force transmission through the leg, decreasing the mechanical advantage of the Estima Lock. A completely straight leg creates a direct line of force that dramatically increases ankle pressure and accelerates submission. The bent knee also preserves options for circular hip movements that can reduce lock pressure and create escape angles.
 
-### Defensive extraction sequence
+**Q4**: How should you use your free leg when defending the Estima Lock position?
+**A**: The free leg is your most important defensive tool. Use it to push opponent's hips to create distance, hook their legs to set up sweeps or create structural instability, create butterfly hooks for elevation opportunities, or post on the mat for technical standup escapes. A passive free leg surrenders your primary leverage point and allows the opponent to advance or maintain control without resistance.
 
-`Estima Lock Bottom → Grip break → Leg extraction → Seated Guard → Distance creation → Standing Position`
+**Q5**: Your opponent's grip momentarily loosens as they adjust their position—what is the correct response?
+**A**: Immediately capitalize on grip loosening by initiating leg extraction before they can re-establish tight control. Simultaneously create frames on their hips to generate additional space and use your free leg to push or hook. The moment of grip adjustment is your best escape window—act decisively rather than waiting for a better opportunity that may not come.
+
+**Q6**: Why is it a mistake to grab the opponent's hands directly when trying to escape?
+**A**: Grabbing hands without addressing body position wastes energy on grip fighting while the opponent maintains superior positional control. They can simply re-grip or finish the submission because you have not changed the fundamental positional dynamic. The correct approach prioritizes creating frames on their hips or torso to generate space first, then systematically addressing grips while maintaining your defensive structure.
+
+**Q7**: What happens if you attempt an explosive roll or spin without first establishing proper frames?
+**A**: Explosive movements without proper setup increase torque on the trapped ankle dangerously and can cause self-inflicted injury. The opponent typically follows the movement while maintaining the lock, resulting in worse position with the same or greater submission pressure. Controlled technical movements with frames established first allow incremental position improvements rather than explosive gambling that often backfires.
+
+**Q8**: How do you maintain upper body mobility while defending the Estima Lock?
+**A**: Keep posting hands active and ready to create frames, turn your shoulders toward the trapped leg to maintain hip mobility, and avoid being flattened onto your back. Upper body activity preserves the escape angles necessary for successful leg extraction. If the opponent flattens you completely, hip mobility is eliminated and all escapes become significantly more difficult or impossible.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -417,7 +375,6 @@ Bottom player in Estima Lock position focuses exclusively on using free leg for 
 
 ## Related Positions and Techniques
 
-- **[[Estima Lock]]** - Opposite perspective—counter position where practitioner applies the lock
 - **[[Estima Lock]]** - Primary submission threat from this position
 - **[[50-50 Guard]]** - Common entry position where Estima Lock threat often develops
 - **[[Outside Ashi-Garami]]** - Related leg entanglement position with similar defensive principles
@@ -425,9 +382,9 @@ Bottom player in Estima Lock position focuses exclusively on using free leg for 
 - **[[Straight Ankle Lock Control]]** - Related footlock bottom position with overlapping defensive concepts
 - **[[Toe Hold Control]]** - Alternative foot attack bottom position requiring similar awareness
 - **[[Ashi Garami Escape]]** - Primary escape transition technique from leg entanglements
-- **[[Saddle Defense]]** - Related defensive concept applicable to leg entanglement escapes
 - **[[Half Guard]]** - Target position for successful escapes from leg entanglements
 - **[[Leg Entanglement]]** - Broader category encompassing this specific entanglement variant
+- **[[Open Guard]]** - Recovery position after successful leg extraction
 
 
 </section>

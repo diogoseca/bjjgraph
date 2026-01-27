@@ -91,32 +91,24 @@ This position requires precise understanding of weight distribution, hip positio
 - Combine leg hook control with upper body frames to create off-balancing opportunities
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Deep Half Entry]]** → [[Deep Half Guard]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Deep Half Entry]]** (14% of attempts)
 
-- **[[Old School Sweep]]** → [[Mount]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Old School Sweep]]** (13% of attempts)
 
-- **[[Underhook Sweep from Half]]** → [[Side Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Underhook Sweep from Half]]** (12% of attempts)
 
-- **[[Single Leg X Entry]]** → [[Single Leg X-Guard]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Single Leg X Entry]]** (13% of attempts)
 
-- **[[X-Guard to Ashi Transition]]** → [[Ashi Garami]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[X-Guard to Ashi Transition]]** (11% of attempts)
 
-- **[[Rolling Back Take]]** → [[Back Control]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Rolling Back Take]]** (10% of attempts)
 
-- **[[Lockdown Sweeps]]** → [[Lockdown]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Lockdown Sweeps]]** (12% of attempts)
 
-- **[[Shin Shield Recovery]]** → [[Knee Shield Half Guard]]
-  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+- **[[Shin Shield Recovery]]** (15% of attempts)
 
 
 ### Common Mistakes
@@ -174,32 +166,24 @@ This position requires precise understanding of weight distribution, hip positio
 - Transition smoothly to the next phase of the pass once the hook has served its controlling purpose, typically moving to leg drag, knee slice, or direct pressure pass completion
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Knee Slice Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+- **[[Knee Slice Pass]]** (18% of attempts)
 
-- **[[Leg Drag Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Leg Drag Pass]]** (14% of attempts)
 
-- **[[Leg Weave Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Leg Weave Pass]]** (13% of attempts)
 
-- **[[Transition to Mount]]** → [[Mount]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Side Control to Mount]]** (12% of attempts)
 
-- **[[Back Take Generic]]** → [[Back Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Back Take Generic]]** (11% of attempts)
 
-- **[[Knee on Belly]]** → [[Knee on Belly]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Knee on Belly]]** (13% of attempts)
 
-- **[[Kimura from Half Guard]]** → [[Kimura Control]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Kimura from Half Guard]]** (10% of attempts)
 
-- **[[Darce Setup]]** → [[D'arce Control]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+- **[[Darce Setup]]** (9% of attempts)
 
 
 ### Common Mistakes

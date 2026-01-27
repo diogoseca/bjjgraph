@@ -8,8 +8,6 @@
     "fundamental",
     "defensive"
   ],
-  "starting_position": "Mount",
-  "ending_position": "Closed Guard",
   "success_rates": {
     "beginner": 35,
     "intermediate": 50,
@@ -288,6 +286,24 @@
     {
       "name": "Scissor Sweep",
       "relationship": "Possible immediate follow-up sweep from landed guard position"
+    }
+  ],
+  "from_position": "Mount/Top",
+  "outcomes": [
+    {
+      "to": "Closed Guard/Bottom",
+      "probability": 65,
+      "result": "success"
+    },
+    {
+      "to": "Mount/Top",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Mount/Bottom",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

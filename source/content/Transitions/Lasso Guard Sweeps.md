@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Lasso Guard Sweeps | BJJ Technique | BJJ Graph"
 description: "Master Lasso Guard sweeps in BJJ. Learn high-percentage sweeps from lasso control with step-by-step execution. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%."
@@ -16,7 +17,7 @@ description: "Master Lasso Guard sweeps in BJJ. Learn high-percentage sweeps fro
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Lasso Guard Sweeps in BJJ",
-  "description": "Step-by-step guide for Lasso Guard Sweeps from Lasso Guard to Mount.",
+  "description": "Step-by-step guide for Lasso Guard Sweeps from Lasso Guard/Bottom. Possible outcomes: Mount/Top (65%), Lasso Guard/Bottom (25%), Lasso Guard/Top (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -154,11 +155,25 @@ description: "Master Lasso Guard sweeps in BJJ. Learn high-percentage sweeps fro
 
 Lasso Guard sweeps represent a sophisticated set of techniques that leverage the unique control offered by threading your leg over the opponent's arm. By isolating one arm and controlling the corresponding leg, you create powerful leverage points for off-balancing attacks. The lasso configuration naturally disrupts your opponent's base while maintaining distance control, making it an ideal platform for technical sweeps. The key to successful lasso sweeps lies in understanding how to manipulate your opponent's weight distribution while maintaining the integrity of the lasso control. These sweeps work best when combined with active grip fighting and the ability to transition between different lasso variations based on your opponent's reactions.
 
-**Starting Position**: [[Lasso Guard]]
-**Ending Position**: [[Mount]]
+**From Position**: [[Lasso Guard/Bottom]]
 **Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Mount/Top]] | 65% |
+| Failure | [[Lasso Guard/Bottom]] | 25% |
+| Counter | [[Lasso Guard/Top]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

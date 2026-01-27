@@ -10,8 +10,6 @@
     "turtle",
     "rotation"
   ],
-  "starting_position": "Side Control",
-  "ending_position": "Turtle",
   "success_rates": {
     "beginner": 30,
     "intermediate": 50,
@@ -268,6 +266,24 @@
     {
       "name": "Turtle to Back Control",
       "relationship": "Counter you must defend against after escaping to turtle"
+    }
+  ],
+  "from_position": "Side Control/Top",
+  "outcomes": [
+    {
+      "to": "Turtle/Top",
+      "probability": 70,
+      "result": "success"
+    },
+    {
+      "to": "Side Control/Top",
+      "probability": 20,
+      "result": "failure"
+    },
+    {
+      "to": "Side Control/Bottom",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

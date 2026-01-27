@@ -59,6 +59,309 @@
       "relationship": "Systematic passing framework applicable to K-Guard top scenarios"
     }
   ],
+  "top": {
+    "name": "K-Guard Top",
+    "description": "Master K-Guard Top in BJJ. Navigate inverted hook systems while maintaining passing pressure. Systematic approach to overcoming dynamic retention mechanics. Success rates: Beginner 50%, Intermediate 65%, Advanced 80%.",
+    "tags": [
+      "bjj",
+      "position",
+      "half-guard",
+      "top-position",
+      "passing",
+      "k-guard",
+      "pressure-passing",
+      "guard-passing"
+    ],
+    "overview": "K-Guard Top is the top position in the K-Guard system, where the passer faces a bottom player who has configured their legs in an inverted butterfly hook structure creating the characteristic 'K' shape. From the top perspective, this position requires careful navigation of the bottom player's active hook system and upper body frames while maintaining forward pressure and working toward guard passing opportunities. The position demands systematic pressure application, grip dominance, and awareness of the bottom player's sweep and back-take threats.\n\nThe K-Guard Top position is characterized by facing a dynamic retention system that combines elements of deep half guard and butterfly guard mechanics. Unlike traditional half guard top positions where the bottom player's legs are more static, K-Guard presents constantly shifting angles and tension vectors that must be neutralized through weight distribution and strategic pressure points. The top player must balance maintaining upper body control while dealing with the bottom player's inverted hook pulling their trapped leg across centerline and the butterfly hook threatening elevation.\n\nStrategically, K-Guard Top represents a transitional position where the top player is working to consolidate passing pressure while the bottom player attempts to create offensive opportunities or recover full guard. Success from this position requires understanding how to redirect the bottom player's hook tension, flatten their defensive structure through shoulder pressure and hip positioning, and time passing sequences to coincide with moments when the bottom player's frames are compromised. The position demands patience and systematic pressure to overcome the bottom player's dynamic retention mechanics and advance to more dominant positions like side control or mount.",
+    "state_properties": {
+      "point_value": 0,
+      "position_type": "Offensive/Controlling",
+      "risk_level": "Medium",
+      "energy_cost": "Medium",
+      "time_sustainability": "Medium to Long"
+    },
+    "state_invariants": [
+      "Top player's hips positioned forward toward bottom player's guard with one leg trapped between bottom player's inverted and butterfly hooks, maintaining forward pressure through hip placement and weight distribution",
+      "Bottom player's inverted inside hook crosses trapped leg creating lateral pulling force while butterfly hook creates elevation threat, forming characteristic 'K' configuration that disrupts top player's base",
+      "Top player maintains upper body control through grips on bottom player's collar, sleeves, or underhooks while working to control the space created by hooks and establish dominant angles for passing",
+      "Bottom player on their side with shoulders angled toward top player, using frames and active hook tension to create defensive structure while seeking opportunities for sweeps or back-takes",
+      "Top player's free leg maintains stable base position to counter elevation threats from butterfly hook while trapped leg manages inverted hook's pulling force"
+    ],
+    "prerequisites": [
+      "Bottom player has established K-Guard configuration from half guard bottom with inverted and butterfly hooks active",
+      "Top player has one leg trapped in bottom player's hook system",
+      "Bottom player has created active tension in both hooks with frames preventing chest-to-chest contact",
+      "Top player maintains forward pressure and upper body connection through grips or underhooks",
+      "Engagement distance allows for grip fighting and positional control"
+    ],
+    "key_principles": [
+      "Maintain constant forward hip pressure to prevent bottom player from creating additional space or recovering full guard",
+      "Control the bottom player's far hip to anchor their position and prevent hip escape movements that enable sweeps",
+      "Establish dominant grips that limit bottom player's mobility and offensive options while enabling your passing sequences",
+      "Use shoulder pressure and head position to flatten bottom player's spine and reduce their ability to generate offensive momentum",
+      "Keep weight distributed strategically to pressure bottom player's hooks while maintaining base against sweep and elevation attempts",
+      "Stay patient and systematic in breaking down hook tension and defensive frames rather than forcing premature passing attempts",
+      "Maintain awareness of bottom player's underhook attempts and back-take opportunities while advancing position"
+    ],
+    "decision_tree": [
+      {
+        "condition": "If bottom player maintains strong hook tension and active frames with good hip mobility",
+        "actions": [
+          {
+            "technique": "Smash Pass",
+            "target": "Side Control",
+            "probability": 55
+          },
+          {
+            "technique": "Knee Slice Pass",
+            "target": "Side Control",
+            "probability": 60
+          }
+        ]
+      },
+      {
+        "condition": "If bottom player loses hook tension or flattens out to back",
+        "actions": [
+          {
+            "technique": "Half Guard Pass",
+            "target": "Side Control",
+            "probability": 70
+          },
+          {
+            "technique": "Side Control to Mount",
+            "target": "Mount",
+            "probability": 50
+          }
+        ]
+      },
+      {
+        "condition": "If bottom player attempts underhook or reaches for back take",
+        "actions": [
+          {
+            "technique": "Kimura from Half Guard",
+            "target": "Kimura Trap",
+            "probability": 45
+          },
+          {
+            "technique": "Underhook Pass",
+            "target": "Side Control",
+            "probability": 60
+          }
+        ]
+      },
+      {
+        "condition": "If bottom player turns away or attempts to recover guard",
+        "actions": [
+          {
+            "technique": "Leg Drag Pass",
+            "target": "Side Control",
+            "probability": 65
+          },
+          {
+            "technique": "Back Take Generic",
+            "target": "Back Control",
+            "probability": 40
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Standing too upright and allowing bottom player to extend hooks and frames fully",
+        "consequence": "Bottom player can create excessive space, maintain active hook tension, and execute sweeps or back-takes more easily",
+        "correction": "Maintain forward hip pressure and keep chest angled down toward bottom player to compress their defensive hooks and frames"
+      },
+      {
+        "error": "Pushing directly against the hook system without redirecting or neutralizing tension",
+        "consequence": "Creates stalemate position where neither player can advance, wastes energy, and plays into bottom player's retention strategy",
+        "correction": "Use hip pressure and angle changes to redirect hook tension, flatten bottom player's spine, and create passing lanes around the hook system"
+      },
+      {
+        "error": "Neglecting to control bottom player's far hip",
+        "consequence": "Bottom player can easily escape hips, maintain hook tension, recover full guard, or execute sweeps and back-takes",
+        "correction": "Establish underhook or grip on far hip to anchor bottom player and prevent hip escape movements that power their offensive options"
+      },
+      {
+        "error": "Leaving head and neck vulnerable to guillotine or darce setups",
+        "consequence": "Bottom player can threaten submissions that force defensive reactions and disrupt passing sequences",
+        "correction": "Keep head positioned safely on bottom player's far shoulder or maintain proper posture to avoid neck exposure"
+      },
+      {
+        "error": "Failing to establish grip dominance before attempting to pass",
+        "consequence": "Bottom player maintains offensive grips that enable active hook retention, sweeps, back-takes, or guard recovery",
+        "correction": "Win the grip fight first by breaking bottom player's grips and establishing your own dominant control points before initiating passes"
+      },
+      {
+        "error": "Committing weight too far forward without proper base",
+        "consequence": "Vulnerable to sweep attempts, especially when butterfly hook creates elevation or inverted hook redirects your weight",
+        "correction": "Maintain balanced weight distribution with strong base while applying forward pressure strategically to compress hooks"
+      },
+      {
+        "error": "Attempting to pass too quickly without breaking down hook tension and defensive structure",
+        "consequence": "Telegraphs passing intentions, allows bottom player to reinforce hook tension and frames, creates failed passing attempts",
+        "correction": "Use systematic approach to break grips, flatten hooks, and establish dominant angles before initiating pass"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "K-Guard Pressure Maintenance Drill",
+        "description": "Bottom player holds K-Guard structure with active hooks while top player practices maintaining constant forward pressure without standing up or backing away. Focus on hip pressure, weight distribution, and keeping bottom player compressed. Switch roles every 2 minutes.",
+        "duration": "3 x 2 minutes per person"
+      },
+      {
+        "name": "Hook Neutralization Drill",
+        "description": "Bottom player maintains both inverted and butterfly hooks while top player practices different methods of neutralizing hook tension: blocking the hooks, redirecting them, flattening bottom player's spine, or controlling the far hip. Top player attempts to reduce hook effectiveness within 30-second windows. Reset and repeat.",
+        "duration": "5 x 30 seconds per method"
+      },
+      {
+        "name": "Grip Fighting from K-Guard Top",
+        "description": "Both players engage in grip fighting from K-Guard Top position. Top player works to establish dominant grips (underhook, crossface, far hip control) while bottom player fights for defensive grips and maintains hook tension. 30-second rounds with intensity.",
+        "duration": "8 x 30 seconds"
+      },
+      {
+        "name": "Passing Chain from K-Guard",
+        "description": "Top player attempts to pass using any technique while bottom player provides 50% resistance. When first pass is defended, immediately chain to second passing option. Practice flowing between knee slice, smash pass, and leg drag. Focus on smooth transitions between techniques.",
+        "duration": "4 x 3 minutes"
+      },
+      {
+        "name": "Positional Sparring: K-Guard Top",
+        "description": "Start in K-Guard Top position. Top player's goal is to advance to side control or better within 2 minutes. Bottom player's goal is to sweep or take the back. Full resistance. Winner stays on top, loser resets to bottom.",
+        "duration": "10 x 2 minutes"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Half Guard",
+        "relationship": "Parent position - K-Guard is a specialized variation of half guard top"
+      },
+      {
+        "name": "K-Guard",
+        "relationship": "Hub page - overview of both perspectives"
+      },
+      {
+        "name": "Knee Shield Half Guard",
+        "relationship": "Similar position - closely related defensive structure"
+      },
+      {
+        "name": "Lockdown",
+        "relationship": "Related half guard variation - different leg configuration"
+      },
+      {
+        "name": "Z-Guard",
+        "relationship": "Related half guard variation - similar defensive structure"
+      },
+      {
+        "name": "Side Control",
+        "relationship": "Common transition target - primary passing objective"
+      },
+      {
+        "name": "Smash Pass",
+        "relationship": "Primary passing technique - common approach from K-Guard"
+      },
+      {
+        "name": "Headquarters Position",
+        "relationship": "Related passing position - systematic passing framework"
+      },
+      {
+        "name": "Half Guard Pass",
+        "relationship": "Primary technique - essential passing method"
+      },
+      {
+        "name": "Knee Slice Pass",
+        "relationship": "High-percentage pass - effective against K-Guard retention"
+      },
+      {
+        "name": "Leg Drag Pass",
+        "relationship": "Alternative pass - useful when hooks extend"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "beginner": 50,
+        "intermediate": 65,
+        "advanced": 80
+      },
+      "advancement_probability": {
+        "beginner": 40,
+        "intermediate": 55,
+        "advanced": 70
+      },
+      "submission_probability": {
+        "beginner": 15,
+        "intermediate": 25,
+        "advanced": 35
+      },
+      "average_time": "45-90 seconds for experienced players to pass or reset"
+    },
+    "transitions": [
+      {
+        "transition": "Knee Slice Pass",
+        "attempt_probability": 14
+      },
+      {
+        "transition": "Smash Pass",
+        "attempt_probability": 13
+      },
+      {
+        "transition": "Leg Drag Pass",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Half Guard Pass",
+        "attempt_probability": 16
+      },
+      {
+        "transition": "Underhook Pass",
+        "attempt_probability": 13
+      },
+      {
+        "transition": "Side Control to Mount",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Side Control to North-South",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Kimura from Half Guard",
+        "attempt_probability": 10
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the primary weight distribution strategy for maintaining passing pressure from K-Guard Top?",
+        "answer": "The primary strategy is directing weight through forward hip pressure angled toward the bottom player's upper body while maintaining a low chest position. Weight should compress the hook system rather than push against it, with the trapped leg staying heavy to prevent elevation while the free leg provides stable base. This creates downward and forward pressure that limits the bottom player's hip mobility without exposing you to sweep attempts."
+      },
+      {
+        "question": "Your opponent starts elevating your trapped leg with their butterfly hook - what adjustment do you make?",
+        "answer": "Immediately widen your free leg base and drop your hips lower while driving your weight laterally into the butterfly hook side rather than fighting the elevation directly. Simultaneously control their far hip to prevent them from completing the off-balancing motion. If elevation continues, backstep the trapped leg to remove it from the hook system entirely and re-engage from a safer angle."
+      },
+      {
+        "question": "What are the essential grip priorities when facing K-Guard from top position?",
+        "answer": "First priority is far hip control to anchor their position and prevent hip escapes that power sweeps. Second priority is collar or crossface grip to control their upper body and flatten their spine. Third priority is controlling the knee shield or inside arm to prevent re-framing. Grips should be established before initiating any pass to ensure the bottom player cannot reinforce their defensive structure."
+      },
+      {
+        "question": "How should you shut down the primary back-take threat from K-Guard bottom?",
+        "answer": "The back-take primarily occurs when you commit weight forward and the bottom player swims under for an underhook. Prevent this by maintaining chest angle down with your head positioned on their far shoulder, controlling their inside arm to block underhook attempts, and keeping pressure diagonal rather than straight down. If they begin the underhook motion, immediately whizzer and drive them flat before they can complete the back-take sequence."
+      },
+      {
+        "question": "What is the most common base error that leads to getting swept from K-Guard Top?",
+        "answer": "The most common error is standing too upright while attempting to extract the trapped leg, which allows the bottom player to extend their hooks and frames to full length. This creates maximum leverage for their sweep attempts and removes your ability to pressure their hooks. The correction is to maintain forward hip pressure with chest angled down throughout the passing attempt, only creating height when you've already broken their hook tension."
+      },
+      {
+        "question": "Your opponent maintains active hook tension and you cannot flatten them - what systematic approach should you take?",
+        "answer": "Begin by winning the grip fight to establish dominant control points. Then use hip pressure combined with angle changes to redirect rather than fight their hook tension. Work to flatten their spine through shoulder pressure while controlling the far hip. Once their defensive structure is compromised, time your passing sequence to coincide with the moment their frames collapse. Patience is essential - forcing premature passes against active hooks leads to sweep counters."
+      },
+      {
+        "question": "How do you manage energy expenditure when facing a strong K-Guard retention system?",
+        "answer": "Use positional pressure through body weight rather than muscular effort. Establish grips that allow you to rest weight on them while maintaining control. Avoid pushing directly against their hook system which creates stalemates. Instead, use angle changes and redirections that require minimal energy while systematically degrading their position. Accept that passing a skilled K-Guard player requires patience and methodical pressure rather than explosive attempts."
+      },
+      {
+        "question": "Your opponent partially recovers full guard as you attempt to pass - how do you prevent complete guard recovery?",
+        "answer": "Immediately stop the passing attempt and re-establish pressure on the K-Guard structure before they can fully close their guard. Drive your trapped knee down between their legs to maintain the half guard configuration. Control their inside arm to prevent framing and re-apply hip pressure to compress their hooks. If they've already begun closing, backstep and disengage momentarily rather than getting caught in a compromised closed guard position, then re-engage with better angles."
+      }
+    ]
+  },
   "bottom": {
     "name": "K-Guard Bottom",
     "description": "Master K-Guard Bottom in BJJ. Dynamic half guard variation with inverted hook retention, sweep mechanics, and back-take opportunities. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.",
@@ -103,125 +406,6 @@
       "Coordinate hook actions with upper body frames to create pushing-pulling dynamics that amplify off-balancing effects",
       "Transition seamlessly between retention mode and attack sequences without telegraphing intentions through grip or position changes",
       "Utilize opponent's forward pressure against them by redirecting force through hook system into sweep or back-take trajectories"
-    ],
-    "offensive_transitions": [
-      {
-        "technique": "X-Guard Sweep",
-        "target_position": "X-Guard",
-        "success_rates": {
-          "beginner": 40,
-          "intermediate": 55,
-          "advanced": 70
-        }
-      },
-      {
-        "technique": "Single Leg X Sweep",
-        "target_position": "Single Leg X-Guard",
-        "success_rates": {
-          "beginner": 45,
-          "intermediate": 60,
-          "advanced": 75
-        }
-      },
-      {
-        "technique": "Deep Half Entry",
-        "target_position": "Deep Half Guard",
-        "success_rates": {
-          "beginner": 50,
-          "intermediate": 65,
-          "advanced": 80
-        }
-      },
-      {
-        "technique": "Old School Sweep",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 50,
-          "advanced": 65
-        }
-      },
-      {
-        "technique": "Waiter Sweep",
-        "target_position": "Mount",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 45,
-          "advanced": 60
-        }
-      },
-      {
-        "technique": "Half Guard to Back Take",
-        "target_position": "Back Control",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 50,
-          "advanced": 70
-        }
-      },
-      {
-        "technique": "Butterfly Sweep",
-        "target_position": "Mount",
-        "success_rates": {
-          "beginner": 40,
-          "intermediate": 55,
-          "advanced": 70
-        }
-      }
-    ],
-    "defensive_responses": [
-      {
-        "technique": "Knee Slice Pass",
-        "target_position": "Side Control",
-        "success_rate": 35
-      },
-      {
-        "technique": "Smash Pass",
-        "target_position": "Side Control",
-        "success_rate": 40
-      },
-      {
-        "technique": "Long Step Pass",
-        "target_position": "Side Control",
-        "success_rate": 30
-      },
-      {
-        "technique": "Half Guard Pass",
-        "target_position": "Side Control",
-        "success_rate": 35
-      },
-      {
-        "technique": "Headquarters Pass",
-        "target_position": "Headquarters Position",
-        "success_rate": 25
-      }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Deep Half Entry",
-        "target_position": "Deep Half Guard",
-        "trigger": "Opponent attempts to drive forward pressure to flatten hooks"
-      },
-      {
-        "technique": "X-Guard Sweep",
-        "target_position": "X-Guard",
-        "trigger": "Opponent posts hand far side to prevent sweep initiation"
-      },
-      {
-        "technique": "Single Leg X Sweep",
-        "target_position": "Single Leg X-Guard",
-        "trigger": "Opponent extracts trapped leg and steps back to disengage"
-      },
-      {
-        "technique": "Half Guard to Back Take",
-        "target_position": "Back Control",
-        "trigger": "Opponent commits weight forward attempting crossface control"
-      },
-      {
-        "technique": "Guard Replacement",
-        "target_position": "Butterfly Guard",
-        "trigger": "Opponent disengages and creates distance to reset passing attack"
-      }
     ],
     "decision_tree": [
       {
@@ -339,24 +523,6 @@
         "duration": "5 minutes per person"
       }
     ],
-    "optimal_submission_paths": [
-      {
-        "name": "Back Attack Path",
-        "path": "K-Guard Bottom → Half Guard to Back Take → Back Control → Rear Naked Choke"
-      },
-      {
-        "name": "Sweep to Mount Submission",
-        "path": "K-Guard Bottom → Waiter Sweep → Mount → Armbar from Mount"
-      },
-      {
-        "name": "Deep Half to Leg Lock",
-        "path": "K-Guard Bottom → Deep Half Entry → Deep Half Guard → Ashi Garami → Heel Hook"
-      },
-      {
-        "name": "X-Guard to Top Control",
-        "path": "K-Guard Bottom → X-Guard Sweep → Mount → Ezekiel Choke"
-      }
-    ],
     "related_content": [
       {
         "name": "Deep Half Guard",
@@ -416,395 +582,70 @@
         "advanced": 40
       },
       "average_time": "45-90 seconds before sweep or pass attempt"
-    }
-  },
-  "top": {
-    "name": "K-Guard Top",
-    "description": "Master K-Guard Top in BJJ. Navigate inverted hook systems while maintaining passing pressure. Systematic approach to overcoming dynamic retention mechanics. Success rates: Beginner 50%, Intermediate 65%, Advanced 80%.",
-    "tags": [
-      "bjj",
-      "position",
-      "half-guard",
-      "top-position",
-      "passing",
-      "k-guard",
-      "pressure-passing",
-      "guard-passing"
-    ],
-    "overview": "K-Guard Top is the top position in the K-Guard system, where the passer faces a bottom player who has configured their legs in an inverted butterfly hook structure creating the characteristic 'K' shape. From the top perspective, this position requires careful navigation of the bottom player's active hook system and upper body frames while maintaining forward pressure and working toward guard passing opportunities. The position demands systematic pressure application, grip dominance, and awareness of the bottom player's sweep and back-take threats.\n\nThe K-Guard Top position is characterized by facing a dynamic retention system that combines elements of deep half guard and butterfly guard mechanics. Unlike traditional half guard top positions where the bottom player's legs are more static, K-Guard presents constantly shifting angles and tension vectors that must be neutralized through weight distribution and strategic pressure points. The top player must balance maintaining upper body control while dealing with the bottom player's inverted hook pulling their trapped leg across centerline and the butterfly hook threatening elevation.\n\nStrategically, K-Guard Top represents a transitional position where the top player is working to consolidate passing pressure while the bottom player attempts to create offensive opportunities or recover full guard. Success from this position requires understanding how to redirect the bottom player's hook tension, flatten their defensive structure through shoulder pressure and hip positioning, and time passing sequences to coincide with moments when the bottom player's frames are compromised. The position demands patience and systematic pressure to overcome the bottom player's dynamic retention mechanics and advance to more dominant positions like side control or mount.",
-    "state_properties": {
-      "point_value": 0,
-      "position_type": "Offensive/Controlling",
-      "risk_level": "Medium",
-      "energy_cost": "Medium",
-      "time_sustainability": "Medium to Long"
     },
-    "state_invariants": [
-      "Top player's hips positioned forward toward bottom player's guard with one leg trapped between bottom player's inverted and butterfly hooks, maintaining forward pressure through hip placement and weight distribution",
-      "Bottom player's inverted inside hook crosses trapped leg creating lateral pulling force while butterfly hook creates elevation threat, forming characteristic 'K' configuration that disrupts top player's base",
-      "Top player maintains upper body control through grips on bottom player's collar, sleeves, or underhooks while working to control the space created by hooks and establish dominant angles for passing",
-      "Bottom player on their side with shoulders angled toward top player, using frames and active hook tension to create defensive structure while seeking opportunities for sweeps or back-takes",
-      "Top player's free leg maintains stable base position to counter elevation threats from butterfly hook while trapped leg manages inverted hook's pulling force"
-    ],
-    "prerequisites": [
-      "Bottom player has established K-Guard configuration from half guard bottom with inverted and butterfly hooks active",
-      "Top player has one leg trapped in bottom player's hook system",
-      "Bottom player has created active tension in both hooks with frames preventing chest-to-chest contact",
-      "Top player maintains forward pressure and upper body connection through grips or underhooks",
-      "Engagement distance allows for grip fighting and positional control"
-    ],
-    "key_principles": [
-      "Maintain constant forward hip pressure to prevent bottom player from creating additional space or recovering full guard",
-      "Control the bottom player's far hip to anchor their position and prevent hip escape movements that enable sweeps",
-      "Establish dominant grips that limit bottom player's mobility and offensive options while enabling your passing sequences",
-      "Use shoulder pressure and head position to flatten bottom player's spine and reduce their ability to generate offensive momentum",
-      "Keep weight distributed strategically to pressure bottom player's hooks while maintaining base against sweep and elevation attempts",
-      "Stay patient and systematic in breaking down hook tension and defensive frames rather than forcing premature passing attempts",
-      "Maintain awareness of bottom player's underhook attempts and back-take opportunities while advancing position"
-    ],
-    "offensive_transitions": [
+    "transitions": [
       {
-        "technique": "Knee Slice Pass",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 45,
-          "intermediate": 60,
-          "advanced": 75
-        }
+        "transition": "X-Guard Sweep",
+        "attempt_probability": 14
       },
       {
-        "technique": "Smash Pass",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 40,
-          "intermediate": 55,
-          "advanced": 70
-        }
+        "transition": "Single Leg X Sweep",
+        "attempt_probability": 15
       },
       {
-        "technique": "Leg Drag Pass",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 50,
-          "advanced": 65
-        }
+        "transition": "Deep Half Entry",
+        "attempt_probability": 18
       },
       {
-        "technique": "Half Guard Pass",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 50,
-          "intermediate": 65,
-          "advanced": 80
-        }
+        "transition": "Old School Sweep",
+        "attempt_probability": 13
       },
       {
-        "technique": "Underhook Pass",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 38,
-          "intermediate": 53,
-          "advanced": 68
-        }
+        "transition": "Waiter Sweep",
+        "attempt_probability": 12
       },
       {
-        "technique": "Transition to Mount",
-        "target_position": "Mount",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 40,
-          "advanced": 55
-        }
+        "transition": "Half Guard to Back Take",
+        "attempt_probability": 14
       },
       {
-        "technique": "Transition to North-South",
-        "target_position": "North-South",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 45,
-          "advanced": 60
-        }
-      },
-      {
-        "technique": "Kimura from Half Guard",
-        "target_position": "Kimura Control",
-        "success_rates": {
-          "beginner": 20,
-          "intermediate": 35,
-          "advanced": 50
-        }
+        "transition": "Butterfly Sweep",
+        "attempt_probability": 14
       }
     ],
-    "defensive_responses": [
+    "knowledge_assessment": [
       {
-        "technique": "Lockdown Sweeps",
-        "target_position": "Half Guard",
-        "success_rate": 40
+        "question": "What is the correct weight distribution for maintaining K-Guard Bottom against a pressure passer?",
+        "answer": "Weight should be distributed primarily on your shoulder and hip rather than flat on your back. Keep your head elevated off the mat to maintain spine angle that enables hip mobility. Your hooks should be actively loaded with tension - the inverted hook pulling the trapped leg across centerline while the butterfly hook creates constant upward pressure. This positioning allows you to redirect their pressure rather than absorbing it directly."
       },
       {
-        "technique": "Underhook Sweep from Half",
-        "target_position": "Half Guard",
-        "success_rate": 45
+        "question": "Your opponent starts driving heavy crossface pressure to flatten you - what adjustment do you make?",
+        "answer": "Immediately increase angle by moving your hips in a circular motion away from the pressure while maintaining your hook connections. Frame with your inside arm against their crossface to create distance, and coordinate this with increased butterfly hook pressure to elevate their weight off you. If they continue driving, use their forward commitment to enter Deep Half Guard by diving under their weight rather than fighting the pressure directly."
       },
       {
-        "technique": "Deep Half Entry",
-        "target_position": "Deep Half Guard",
-        "success_rate": 35
+        "question": "What are the essential hook mechanics that distinguish K-Guard from standard half guard?",
+        "answer": "The defining characteristic is the inverted inside hook that crosses over the opponent's trapped leg with your knee pointing toward their far hip, combined with an active outside butterfly hook at hip level. Unlike standard half guard where hooks primarily retain, K-Guard hooks create dynamic off-balancing through simultaneous lateral pulling (inverted hook) and vertical elevation (butterfly hook). Both hooks must maintain active tension creating a push-pull system rather than static retention."
       },
       {
-        "technique": "Old School Sweep",
-        "target_position": "Half Guard",
-        "success_rate": 30
+        "question": "How do you shut down the knee slice pass from K-Guard Bottom?",
+        "answer": "The knee slice becomes difficult when you maintain your inverted hook pulling their trapped leg across centerline - this prevents them from driving their knee through. Coordinate this with active butterfly hook pressure to elevate their weight when they attempt to slice. Use your inside frame to prevent them from flattening your shoulders, and continuously create angle changes with hip movement. If they begin slicing successfully, transition to Deep Half Guard before they complete the pass."
       },
       {
-        "technique": "Back Take Generic",
-        "target_position": "Back Control",
-        "success_rate": 25
+        "question": "What are the grip priorities for maintaining effective K-Guard retention?",
+        "answer": "Primary grip should be an inside underhook or cross-face frame to prevent them from establishing chest-to-chest pressure. Secondary grip controls their far sleeve or collar to limit their posting options during sweep attempts. All grips should be active and coordinated with your hook actions - pushing with frames while pulling with hooks creates the amplified off-balancing effect that makes K-Guard effective. Avoid death-gripping statically as this creates predictable defensive positions."
       },
       {
-        "technique": "Re-Guard",
-        "target_position": "Closed Guard",
-        "success_rate": 35
+        "question": "Your opponent begins extracting their trapped leg and stepping back - what sequence do you follow?",
+        "answer": "As they step back, maintain your butterfly hook connection and follow their movement by extending your hips toward them. This creates the perfect entry for Single Leg X-Guard or standard X-Guard transitions. Use their backward momentum against them by immediately threatening the elevation sweep - their defensive extraction actually gives you the angle and distance needed for these high-percentage sweeps. Key is maintaining hook connection throughout their extraction attempt."
+      },
+      {
+        "question": "How do you manage energy when maintaining K-Guard against a persistent pressure passer?",
+        "answer": "Use your skeletal structure rather than muscular effort for retention - proper spine angle and hook positioning should allow you to redirect pressure without constant effort. Move your hips in small, efficient circular patterns rather than large explosive movements. Let their forward pressure load your hooks for sweep opportunities rather than fighting it. Maintain active but not maximal tension in hooks, saving explosive effort for sweep execution rather than retention."
+      },
+      {
+        "question": "Your opponent controls your inside arm and begins flattening your hooks systematically - how do you recover?",
+        "answer": "First priority is recovering inside arm position through swimming motions or framing against their shoulder. Simultaneously increase hip movement to create angles that prevent complete flattening. If they continue progressing, transition to Deep Half Guard by diving your upper body under their weight while maintaining bottom leg hook connection. Alternatively, release the inverted hook and recover to Butterfly Guard if they've created enough distance - maintaining a guard position is preferable to getting completely flattened."
       }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Smash Pass",
-        "target_position": "Side Control",
-        "trigger": "Bottom player attempts to recover full guard or create distance"
-      },
-      {
-        "technique": "Leg Drag Pass",
-        "target_position": "Side Control",
-        "trigger": "Bottom player extends hooks too far or loses hip connection"
-      },
-      {
-        "technique": "Kimura from Half Guard",
-        "target_position": "Kimura Control",
-        "trigger": "Bottom player reaches for underhook and overextends arm"
-      },
-      {
-        "technique": "Transition to North-South",
-        "target_position": "North-South",
-        "trigger": "Bottom player turns away or attempts to turtle"
-      }
-    ],
-    "decision_tree": [
-      {
-        "condition": "If bottom player maintains strong hook tension and active frames with good hip mobility",
-        "actions": [
-          {
-            "technique": "Smash Pass",
-            "target": "Side Control",
-            "probability": 55
-          },
-          {
-            "technique": "Knee Slice Pass",
-            "target": "Side Control",
-            "probability": 60
-          }
-        ]
-      },
-      {
-        "condition": "If bottom player loses hook tension or flattens out to back",
-        "actions": [
-          {
-            "technique": "Half Guard Pass",
-            "target": "Side Control",
-            "probability": 70
-          },
-          {
-            "technique": "Transition to Mount",
-            "target": "Mount",
-            "probability": 50
-          }
-        ]
-      },
-      {
-        "condition": "If bottom player attempts underhook or reaches for back take",
-        "actions": [
-          {
-            "technique": "Kimura from Half Guard",
-            "target": "Kimura Control",
-            "probability": 45
-          },
-          {
-            "technique": "Underhook Pass",
-            "target": "Side Control",
-            "probability": 60
-          }
-        ]
-      },
-      {
-        "condition": "If bottom player turns away or attempts to recover guard",
-        "actions": [
-          {
-            "technique": "Leg Drag Pass",
-            "target": "Side Control",
-            "probability": 65
-          },
-          {
-            "technique": "Back Take Generic",
-            "target": "Back Control",
-            "probability": 40
-          }
-        ]
-      }
-    ],
-    "common_errors": [
-      {
-        "error": "Standing too upright and allowing bottom player to extend hooks and frames fully",
-        "consequence": "Bottom player can create excessive space, maintain active hook tension, and execute sweeps or back-takes more easily",
-        "correction": "Maintain forward hip pressure and keep chest angled down toward bottom player to compress their defensive hooks and frames"
-      },
-      {
-        "error": "Pushing directly against the hook system without redirecting or neutralizing tension",
-        "consequence": "Creates stalemate position where neither player can advance, wastes energy, and plays into bottom player's retention strategy",
-        "correction": "Use hip pressure and angle changes to redirect hook tension, flatten bottom player's spine, and create passing lanes around the hook system"
-      },
-      {
-        "error": "Neglecting to control bottom player's far hip",
-        "consequence": "Bottom player can easily escape hips, maintain hook tension, recover full guard, or execute sweeps and back-takes",
-        "correction": "Establish underhook or grip on far hip to anchor bottom player and prevent hip escape movements that power their offensive options"
-      },
-      {
-        "error": "Leaving head and neck vulnerable to guillotine or darce setups",
-        "consequence": "Bottom player can threaten submissions that force defensive reactions and disrupt passing sequences",
-        "correction": "Keep head positioned safely on bottom player's far shoulder or maintain proper posture to avoid neck exposure"
-      },
-      {
-        "error": "Failing to establish grip dominance before attempting to pass",
-        "consequence": "Bottom player maintains offensive grips that enable active hook retention, sweeps, back-takes, or guard recovery",
-        "correction": "Win the grip fight first by breaking bottom player's grips and establishing your own dominant control points before initiating passes"
-      },
-      {
-        "error": "Committing weight too far forward without proper base",
-        "consequence": "Vulnerable to sweep attempts, especially when butterfly hook creates elevation or inverted hook redirects your weight",
-        "correction": "Maintain balanced weight distribution with strong base while applying forward pressure strategically to compress hooks"
-      },
-      {
-        "error": "Attempting to pass too quickly without breaking down hook tension and defensive structure",
-        "consequence": "Telegraphs passing intentions, allows bottom player to reinforce hook tension and frames, creates failed passing attempts",
-        "correction": "Use systematic approach to break grips, flatten hooks, and establish dominant angles before initiating pass"
-      }
-    ],
-    "training_drills": [
-      {
-        "name": "K-Guard Pressure Maintenance Drill",
-        "description": "Bottom player holds K-Guard structure with active hooks while top player practices maintaining constant forward pressure without standing up or backing away. Focus on hip pressure, weight distribution, and keeping bottom player compressed. Switch roles every 2 minutes.",
-        "duration": "3 x 2 minutes per person"
-      },
-      {
-        "name": "Hook Neutralization Drill",
-        "description": "Bottom player maintains both inverted and butterfly hooks while top player practices different methods of neutralizing hook tension: blocking the hooks, redirecting them, flattening bottom player's spine, or controlling the far hip. Top player attempts to reduce hook effectiveness within 30-second windows. Reset and repeat.",
-        "duration": "5 x 30 seconds per method"
-      },
-      {
-        "name": "Grip Fighting from K-Guard Top",
-        "description": "Both players engage in grip fighting from K-Guard Top position. Top player works to establish dominant grips (underhook, crossface, far hip control) while bottom player fights for defensive grips and maintains hook tension. 30-second rounds with intensity.",
-        "duration": "8 x 30 seconds"
-      },
-      {
-        "name": "Passing Chain from K-Guard",
-        "description": "Top player attempts to pass using any technique while bottom player provides 50% resistance. When first pass is defended, immediately chain to second passing option. Practice flowing between knee slice, smash pass, and leg drag. Focus on smooth transitions between techniques.",
-        "duration": "4 x 3 minutes"
-      },
-      {
-        "name": "Positional Sparring: K-Guard Top",
-        "description": "Start in K-Guard Top position. Top player's goal is to advance to side control or better within 2 minutes. Bottom player's goal is to sweep or take the back. Full resistance. Winner stays on top, loser resets to bottom.",
-        "duration": "10 x 2 minutes"
-      }
-    ],
-    "optimal_submission_paths": [
-      {
-        "name": "High-percentage submission path",
-        "path": "K-Guard Top → Knee Slice Pass → Side Control → Kimura"
-      },
-      {
-        "name": "Direct submission opportunity",
-        "path": "K-Guard Top → Kimura from Half Guard → Kimura Control → Kimura"
-      },
-      {
-        "name": "Dominant position path",
-        "path": "K-Guard Top → Half Guard Pass → Side Control → Transition to Mount → Mount → Armbar from Mount"
-      },
-      {
-        "name": "Back attack path",
-        "path": "K-Guard Top → Leg Drag Pass → Back Take Generic → Back Control → Rear Naked Choke"
-      },
-      {
-        "name": "North-South submission path",
-        "path": "K-Guard Top → Transition to North-South → North-South → North-South Choke"
-      }
-    ],
-    "related_content": [
-      {
-        "name": "Half Guard",
-        "relationship": "Parent position - K-Guard is a specialized variation of half guard top"
-      },
-      {
-        "name": "K-Guard Bottom",
-        "relationship": "Opposite perspective - bottom player's view of same position"
-      },
-      {
-        "name": "Knee Shield Half Guard",
-        "relationship": "Similar position - closely related defensive structure"
-      },
-      {
-        "name": "Lockdown",
-        "relationship": "Related half guard variation - different leg configuration"
-      },
-      {
-        "name": "Z-Guard",
-        "relationship": "Related half guard variation - similar defensive structure"
-      },
-      {
-        "name": "Side Control",
-        "relationship": "Common transition target - primary passing objective"
-      },
-      {
-        "name": "Smash Pass",
-        "relationship": "Primary passing technique - common approach from K-Guard"
-      },
-      {
-        "name": "Headquarters Position",
-        "relationship": "Related passing position - systematic passing framework"
-      },
-      {
-        "name": "Half Guard Pass",
-        "relationship": "Primary technique - essential passing method"
-      },
-      {
-        "name": "Pressure Passing Framework",
-        "relationship": "Conceptual framework - strategic approach for this position"
-      },
-      {
-        "name": "Guard Passing Principles",
-        "relationship": "Conceptual foundation - underlying principles for success"
-      },
-      {
-        "name": "Underhook Defense",
-        "relationship": "Defensive concept - preventing bottom player's primary attack"
-      }
-    ],
-    "position_metrics": {
-      "retention_rate": {
-        "beginner": 50,
-        "intermediate": 65,
-        "advanced": 80
-      },
-      "advancement_probability": {
-        "beginner": 40,
-        "intermediate": 55,
-        "advanced": 70
-      },
-      "submission_probability": {
-        "beginner": 15,
-        "intermediate": 25,
-        "advanced": 35
-      },
-      "average_time": "45-90 seconds for experienced players to pass or reset"
-    }
+    ]
   }
 }

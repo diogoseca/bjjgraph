@@ -21,38 +21,32 @@ description: "Survive and escape High Mount Bottom in BJJ. Emergency defensive s
     {
       "@type": "HowToStep",
       "name": "Execute Upa Escape",
-      "text": "From this position, execute Upa Escape to transition to Guard Recovery. Success rate for advanced practitioners: 35%.",
+      "text": "From this position, attempt Upa Escape. This technique is attempted in 18% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Elbow Escape",
-      "text": "From this position, execute Elbow Escape to transition to Half Guard. Success rate for advanced practitioners: 40%.",
+      "text": "From this position, attempt Elbow Escape. This technique is attempted in 25% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bridge and Roll",
-      "text": "From this position, execute Bridge and Roll to transition to Guard Recovery. Success rate for advanced practitioners: 25%.",
+      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 15% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Shrimp Escape",
-      "text": "From this position, execute Shrimp Escape to transition to Guard Recovery. Success rate for advanced practitioners: 30%.",
+      "text": "From this position, attempt Shrimp Escape. This technique is attempted in 18% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Frame Creation",
-      "text": "From this position, execute Frame Creation to transition to Defensive Position. Success rate for advanced practitioners: 50%.",
-      "position": 5
-    },
-    {
-      "@type": "HowToStep",
       "name": "Execute Hip Escape",
-      "text": "From this position, execute Hip Escape to transition to Half Guard. Success rate for advanced practitioners: 35%.",
-      "position": 6
+      "text": "From this position, attempt Hip Escape. This technique is attempted in 24% of exchanges from this position.",
+      "position": 5
     }
   ],
   "totalTime": "PT2M"
@@ -216,80 +210,16 @@ From a training perspective, High Mount Bottom teaches practitioners to remain c
 
 ## Available Escapes
 
-### [[Upa Escape]] → [[Guard Recovery]]
+### [[Upa Escape]] (18% of attempts)
 
-**Success Rates:**
-- Beginner: 10%
-- Intermediate: 20%
-- Advanced: 35%
+### [[Elbow Escape]] (25% of attempts)
 
-### [[Elbow Escape]] → [[Half Guard]]
+### [[Bridge and Roll]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 25%
-- Advanced: 40%
+### [[Shrimp Escape]] (18% of attempts)
 
-### [[Bridge and Roll]] → [[Guard Recovery]]
+### [[Hip Escape]] (24% of attempts)
 
-**Success Rates:**
-- Beginner: 8%
-- Intermediate: 15%
-- Advanced: 25%
-
-### [[Shrimp Escape]] → [[Guard Recovery]]
-
-**Success Rates:**
-- Beginner: 10%
-- Intermediate: 18%
-- Advanced: 30%
-
-### [[Frame Creation]] → [[Defensive Position]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
-
-### [[Hip Escape]] → [[Half Guard]]
-
-**Success Rates:**
-- Beginner: 12%
-- Intermediate: 22%
-- Advanced: 35%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Armbar from Mount]]** → [[Armbar Control]] (Opponent Success: 75%)
-- **[[Ezekiel from Mount]]** → [[Won by Submission]] (Opponent Success: 65%)
-- **[[Cross Collar Choke]]** → [[Won by Submission]] (Opponent Success: 70%)
-- **[[Triangle from Mount]]** → [[Triangle Control]] (Opponent Success: 55%)
-- **[[Transition to Mount]]** → [[S Mount]] (Opponent Success: 80%)
-- **[[Kimura from Mount]]** → [[Kimura Control]] (Opponent Success: 60%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Upa Escape]]** → [[Guard Recovery]]
-  - Opponent posts hand high near head to establish submission grip or transitions weight forward
-- **[[Elbow Escape]]** → [[Half Guard]]
-  - Opponent's knee slides away from armpit during position adjustment or submission setup
-- **[[Frame Creation]]** → [[Defensive Position]]
-  - Opponent reaches for collar grip or attempts to isolate arm for submission attack
-- **[[Bridge and Roll]]** → [[Guard Recovery]]
-  - Opponent sits upright reducing forward pressure or narrows base to attack submission
-- **[[Hip Escape]]** → [[Half Guard]]
-  - Opponent transitions to technical mount creating momentary gap in hip control
 
 
 </section>
@@ -299,8 +229,8 @@ From a training perspective, High Mount Bottom teaches practitioners to remain c
 ## Decision Making from This Position
 
 **If opponent posts hand high near head to establish grip for submission attempt:**
-- Execute **[[Upa Escape]]** → [[Guard Recovery]] (Probability: 30%)
-- Execute **[[Bridge and Roll]]** → [[Guard Recovery]] (Probability: 25%)
+- Execute **[[Upa Escape]]** → [[Closed Guard]] (Probability: 30%)
+- Execute **[[Bridge and Roll]]** → [[Closed Guard]] (Probability: 25%)
 
 
 **If opponent's knee slides away from armpit during transition or submission setup:**
@@ -309,13 +239,13 @@ From a training perspective, High Mount Bottom teaches practitioners to remain c
 
 
 **If opponent reaches for collar or attempts to isolate extended arm for attack:**
-- Execute **[[Frame Creation]]** → [[Defensive Position]] (Probability: 45%)
-- Execute **[[Armbar Defense]]** → [[Defensive Position]] (Probability: 40%)
+- Execute **[[Frame and Shrimp]]** → [[Open Guard]] (Probability: 45%)
+- Execute **[[Armbar Defense]]** → [[High Mount]] (Probability: 40%)
 
 
 **If opponent maintains static control without immediate submission threat:**
-- Execute **[[Shrimp Escape]]** → [[Guard Recovery]] (Probability: 25%)
-- Execute **[[Frame Creation]]** → [[Defensive Position]] (Probability: 30%)
+- Execute **[[Shrimp Escape]]** → [[Open Guard]] (Probability: 25%)
+- Execute **[[Frame and Shrimp]]** → [[Open Guard]] (Probability: 30%)
 
 
 
@@ -408,29 +338,30 @@ Drill all escape options (upa, elbow escape, frame and shrimp) against progressi
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Emergency Elbow Escape Path
+## Test Your Knowledge
 
-`High Mount Bottom → Create Frame During Submission Setup → Elbow Escape → Half Guard (most realistic escape)`
+**Q1**: What is the optimal defensive arm position when trapped in High Mount Bottom?
+**A**: Keep elbows tight to your ribs with hands positioned near your chin and neck, creating a protective shell. Arms should never be fully extended as this creates immediate armbar opportunities. Maintain bent arms with elbows connected to your torso - this protects against arm isolation while keeping hands available to defend chokes. When forced to frame, use short, bent-arm frames rather than extended pushing.
 
-### Explosive Bridge Path
+**Q2**: Your opponent reaches for a collar grip to set up a choke - what adjustment do you make?
+**A**: The moment they reach for the collar, their weight shifts forward onto their posting hand. This is your escape window. Trap their posting arm by pulling it across your chest, trap their foot on the same side with your heel, and execute an explosive bridge toward that side. If the bridge isn't available, use their forward weight shift to create frames and begin shrimping to recover guard. Their offensive action creates the opening for your defensive action.
 
-`High Mount Bottom → Wait for Weight Shift → Explosive Bridge and Roll → Guard Recovery (timing-dependent)`
+**Q3**: What is the timing window for attempting an elbow escape from High Mount Bottom?
+**A**: The elbow escape window opens when the opponent's knee slides away from your armpit - typically when they transition, reach for grips, or adjust their position. You cannot elbow escape when their knee is wedged tight against your armpit. Wait for them to create the gap, then immediately turn to your side and insert your knee before they can reestablish the wedge. The window is brief (1-2 seconds), so you must be prepared to move instantly.
 
-### Frame and Shrimp Path
+**Q4**: How do you defend the armbar setup from High Mount Bottom?
+**A**: When you feel them isolating your arm, immediately grip your own clothing (gi) or clasp your hands together to create a connection point. Turn your body toward the trapped arm to prevent them from rotating to finish. Pull your elbow tight to your hip, making it difficult to extend. If they commit to the armbar rotation, follow them with your body and use their transition as an opportunity to escape mount, even if you end up defending armbar from a better position.
 
-`High Mount Bottom → Create Strong Frame → Shrimp Hip Away → Half Guard Recovery (requires opponent error)`
-
-### Survival to Re-Guard Path
-
-`High Mount Bottom → Survive Submission Attempts → Capitalize on Failed Attack → Guard Recovery (patience-based)`
+**Q5**: What should you prioritize defending: your neck or your arms?
+**A**: Neck defense takes priority because chokes can finish faster and with less setup than armbars. However, completely abandoning arm defense creates easy armbar opportunities. The balance is maintaining elbows tight to your ribs (protecting arms) while keeping hands near your chin and neck (protecting chokes). When forced to choose, defend the immediate threat - if they have collar grips, focus on the neck; if they're isolating an arm, defend the arm. Recognize that defending one often exposes the other, which is why High Mount is so dangerous.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -455,12 +386,10 @@ Drill all escape options (upa, elbow escape, frame and shrimp) against progressi
 - **[[S Mount]]** - Worse position - common progression when high mount escapes fail and opponent advances
 - **[[Technical Mount]]** - Alternative bad position - result of turning to side attempting elbow escape
 - **[[Half Guard]]** - Escape target - realistic goal position when elbow escape succeeds
-- **[[Defensive Position]]** - Intermediate state - temporary defensive structure while seeking escape opportunities
-- **[[Armbar Defense]]** - Required skill - essential defensive technique for primary submission threat from high mount
+- **[[Closed Guard]]** - Escape target - optimal goal position when upa or bridge escapes succeed
 - **[[Upa Escape]]** - Primary technique - bridge-based escape requiring perfect timing during opponent's transitions
 - **[[Elbow Escape]]** - Most realistic technique - frame and shrimp escape to recover half guard
-- **[[Frame Creation]]** - Defensive principle - fundamental skill for creating space under extreme pressure
-- **[[Guard Recovery]]** - Ultimate goal - successful escape outcome restoring neutral or guard position
+- **[[Open Guard]]** - Escape target - possible outcome when frames and shrimps create sufficient space
 
 
 </section>

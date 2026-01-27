@@ -45,151 +45,42 @@
     "Stay active and mobile with constant weight shifts and directional changes—Dogfight rewards dynamic movement over static holding and creates reactions to capitalize on",
     "Control opponent's far hip or near-side hip with free hand to limit their mobility and posting options while setting up sweeps and transitions"
   ],
-  "offensive_transitions": [
+  "transitions": [
     {
-      "technique": "Old School Sweep",
-      "target_position": "Half Guard",
-      "success_rates": {
-        "beginner": 40,
-        "intermediate": 55,
-        "advanced": 70
-      }
+      "transition": "Old School Sweep",
+      "attempt_probability": 18
     },
     {
-      "technique": "Back Take Generic",
-      "target_position": "Back Control",
-      "success_rates": {
-        "beginner": 35,
-        "intermediate": 50,
-        "advanced": 65
-      }
+      "transition": "Back Take Generic",
+      "attempt_probability": 18
     },
     {
-      "technique": "Deep Half Entry",
-      "target_position": "Deep Half Guard",
-      "success_rates": {
-        "beginner": 45,
-        "intermediate": 60,
-        "advanced": 75
-      }
+      "transition": "Deep Half Entry",
+      "attempt_probability": 15
     },
     {
-      "technique": "Waiter Sweep",
-      "target_position": "Mount",
-      "success_rates": {
-        "beginner": 30,
-        "intermediate": 45,
-        "advanced": 60
-      }
+      "transition": "Waiter Sweep",
+      "attempt_probability": 10
     },
     {
-      "technique": "John Wayne Sweep",
-      "target_position": "Half Guard",
-      "success_rates": {
-        "beginner": 30,
-        "intermediate": 45,
-        "advanced": 60
-      }
+      "transition": "John Wayne Sweep",
+      "attempt_probability": 10
     },
     {
-      "technique": "Underhook Sweep from Half",
-      "target_position": "Side Control",
-      "success_rates": {
-        "beginner": 35,
-        "intermediate": 50,
-        "advanced": 65
-      }
+      "transition": "Underhook Sweep from Half",
+      "attempt_probability": 10
     },
     {
-      "technique": "Electric Chair Submission",
-      "target_position": "Electric Chair",
-      "success_rates": {
-        "beginner": 20,
-        "intermediate": 35,
-        "advanced": 50
-      }
+      "transition": "Electric Chair Submission",
+      "attempt_probability": 7
     },
     {
-      "technique": "Hip Bump Sweep",
-      "target_position": "Half Guard",
-      "success_rates": {
-        "beginner": 30,
-        "intermediate": 45,
-        "advanced": 60
-      }
+      "transition": "Hip Bump Sweep",
+      "attempt_probability": 7
     },
     {
-      "technique": "Rolling to Guard",
-      "target_position": "Closed Guard",
-      "success_rates": {
-        "beginner": 40,
-        "intermediate": 55,
-        "advanced": 70
-      }
-    }
-  ],
-  "defensive_responses": [
-    {
-      "technique": "Knee Slice from Half",
-      "target_position": "Side Control",
-      "success_rate": 45
-    },
-    {
-      "technique": "Smash Pass",
-      "target_position": "Side Control",
-      "success_rate": 50
-    },
-    {
-      "technique": "Crossface Pass",
-      "target_position": "Side Control",
-      "success_rate": 40
-    },
-    {
-      "technique": "Whizzer",
-      "target_position": "Half Guard",
-      "success_rate": 55
-    },
-    {
-      "technique": "Half Guard Pass",
-      "target_position": "Side Control",
-      "success_rate": 45
-    },
-    {
-      "technique": "Back Step",
-      "target_position": "Back Control",
-      "success_rate": 35
-    },
-    {
-      "technique": "Sprawl Defense",
-      "target_position": "Front Headlock",
-      "success_rate": 40
-    }
-  ],
-  "counter_transitions": [
-    {
-      "technique": "Back Take Generic",
-      "target_position": "Back Control",
-      "trigger": "Opponent attempts to flatten you with crossface or removes their whizzer, exposing their back"
-    },
-    {
-      "technique": "Deep Half Entry",
-      "target_position": "Deep Half Guard",
-      "trigger": "Opponent drives forward pressure, attempts to smash pass, or posts their free leg far out creating space underneath"
-    },
-    {
-      "technique": "Old School Sweep",
-      "target_position": "Half Guard",
-      "trigger": "Opponent posts their far leg to prevent back take or establishes strong base with outside leg"
-    },
-    {
-      "technique": "Hip Bump Sweep",
-      "target_position": "Half Guard",
-      "trigger": "Opponent shifts weight backward to counter underhook pressure or creates vertical posture"
-    },
-    {
-      "technique": "Rolling to Guard",
-      "target_position": "Closed Guard",
-      "trigger": "Opponent establishes dominant whizzer and you cannot maintain upright posture against pressure"
+      "transition": "Rolling to Guard",
+      "attempt_probability": 5
     }
   ],
   "decision_tree": [
@@ -338,28 +229,6 @@
       "duration": "6 minutes, 3 rounds per side"
     }
   ],
-  "optimal_submission_paths": [
-    {
-      "name": "Highest percentage submission path via back control",
-      "path": "Dogfight Position → Back Take Generic → Back Control → Rear Naked Choke"
-    },
-    {
-      "name": "Submission path via sweep to dominant position",
-      "path": "Dogfight Position → Old School Sweep → Half Guard → Side Control → Mount → Armbar from Mount"
-    },
-    {
-      "name": "Technical submission path via deep half system",
-      "path": "Dogfight Position → Deep Half Entry → Deep Half Guard → Waiter Sweep → Mount → Kimura from Mount"
-    },
-    {
-      "name": "Lockdown variation submission path",
-      "path": "Dogfight Position → Electric Chair Submission → Lockdown → Electric Chair"
-    },
-    {
-      "name": "Leg lock path from Dogfight transitions",
-      "path": "Dogfight Position → Deep Half Entry → Deep Half Guard → Ashi Garami → Heel Hook"
-    }
-  ],
   "related_content": [
     {
       "name": "Half Guard",
@@ -382,11 +251,11 @@
       "relationship": "Primary offensive target from Dogfight via back take transitions when opponent exposes back"
     },
     {
-      "name": "Old School Sweep",
+      "name": "Old School",
       "relationship": "Signature sweep technique from Dogfight position targeting opponent's posted far leg"
     },
     {
-      "name": "Whizzer Control",
+      "name": "Overhook Control",
       "relationship": "Defensive concept the top player uses to counter Dogfight underhook and flatten opponent"
     },
     {
@@ -396,10 +265,6 @@
     {
       "name": "Butterfly Guard",
       "relationship": "Alternative guard position with similar underhook battles and elevated posture dynamics"
-    },
-    {
-      "name": "Underhook Battle",
-      "relationship": "Core positional concept that defines the Dogfight engagement and determines outcomes"
     },
     {
       "name": "Crab Ride",

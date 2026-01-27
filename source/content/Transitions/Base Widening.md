@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Base Widening | BJJ Technique | BJJ Graph"
 description: "Learn Base Widening defensive technique in BJJ. Essential stability recovery from compromised positions. Success rates: Beginner 65%, Intermediate 80%, Advanced 90%."
@@ -16,7 +17,7 @@ description: "Learn Base Widening defensive technique in BJJ. Essential stabilit
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Base Widening in BJJ",
-  "description": "Step-by-step guide for Base Widening from Defensive Position to Combat Base.",
+  "description": "Step-by-step guide for Base Widening from Half Guard/Top. Possible outcomes: Combat Base/Top (75%), Half Guard/Top (15%), Half Guard/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -160,11 +161,25 @@ description: "Learn Base Widening defensive technique in BJJ. Essential stabilit
 
 Base Widening is a fundamental defensive technique that involves expanding your stance and lowering your center of gravity to recover stability when your base is threatened. This technique is essential across all grappling positions, from standing to ground fighting, and represents one of the most important defensive reflexes in Brazilian Jiu-Jitsu. The principle is rooted in basic physics: a wider base creates a more stable platform that is significantly harder to destabilize or sweep. When executed properly, base widening allows you to resist sweeps, prevent takedowns, and maintain control even when your opponent is actively trying to off-balance you. The technique involves spreading your weight-bearing points farther apart while simultaneously lowering your hips, creating a pyramid-like structure that distributes force more effectively. This defensive movement is often combined with other defensive principles such as posting hands, head positioning, and weight distribution to create a comprehensive defensive framework. Mastery of base widening is crucial for all belt levels, as it forms the foundation for defending against attacks from nearly every position in BJJ.
 
-**Starting Position**: [[Defensive Position]]
-**Ending Position**: [[Combat Base]]
+**From Position**: [[Half Guard/Top]]
 **Success Rates**: Beginner 65%, Intermediate 80%, Advanced 90%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Combat Base/Top]] | 75% |
+| Failure | [[Half Guard/Top]] | 15% |
+| Counter | [[Half Guard/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

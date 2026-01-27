@@ -426,13 +426,23 @@ Strategically, the Ezekiel serves multiple purposes beyond just finishing the su
 - [[North-South]] - Transition position where reverse Ezekiel can be applied when opponent turns to avoid standard application
 - [[Arm Triangle]] - Related blood choke targeting same arteries - can transition between techniques when opponent defends one
 - [[Cross Collar Choke]] - Complementary mount submission - creates dilemma when alternated with Ezekiel attempts
-- [[Transition to Mount]] - Essential transition for establishing position before Ezekiel attempt
+- [[Side Control to Mount]] - Essential transition for establishing position before Ezekiel attempt
 - [[Collar Control]] - Fundamental concept for controlling opponent and setting up gi-based chokes including Ezekiel
 - [[Pressure Application]] - Core concept for understanding proper force distribution in chokes and maintaining dominant positions
 - [[Submission Chains]] - Strategic concept for combining Ezekiel with armbars and other mount attacks to create offensive sequences
 - [[Armbar from Mount]] - Complementary submission creating dilemma - when opponent defends Ezekiel with high hands, armbar becomes available
 - [[Position-Over-Submission Approach]] - Fundamental principle requiring position maintenance as priority over submission attempts
 
+
+</section>
+
+<section id="terminal-state" class="content-section">
+
+## Match Outcome
+
+Successful execution of Ezekiel Choke leads to → [[game-over|Game Over]]
+
+*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
 
 </section>
 

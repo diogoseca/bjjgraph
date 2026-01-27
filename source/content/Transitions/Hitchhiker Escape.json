@@ -9,8 +9,6 @@
     "armbar",
     "advanced"
   ],
-  "starting_position": "Armbar Control",
-  "ending_position": "Defensive Position",
   "success_rates": {
     "beginner": 35,
     "intermediate": 55,
@@ -251,6 +249,24 @@
     {
       "name": "Defensive Position",
       "relationship": "Position to recover after escape - establishing defensive structure"
+    }
+  ],
+  "from_position": "Armbar Control/Top",
+  "outcomes": [
+    {
+      "to": "Defensive Position/Top",
+      "probability": 70,
+      "result": "success"
+    },
+    {
+      "to": "Armbar Control/Top",
+      "probability": 20,
+      "result": "failure"
+    },
+    {
+      "to": "Armbar Control/Bottom",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

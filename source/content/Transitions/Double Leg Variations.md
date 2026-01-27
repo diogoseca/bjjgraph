@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Double Leg Variations | BJJ Technique | BJJ Graph"
 description: "Learn Double Leg Variations in BJJ. Step-by-step execution from Standing Position to Top Position. Success: Beginner 45%, Intermediate 65%, Advanced 80%."
@@ -16,7 +17,7 @@ description: "Learn Double Leg Variations in BJJ. Step-by-step execution from St
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Double Leg Variations in BJJ",
-  "description": "Step-by-step guide for Double Leg Variations from Standing Position to Side Control.",
+  "description": "Step-by-step guide for Double Leg Variations from Standing Position/Top. Possible outcomes: Side Control/Top (75%), Standing Position/Top (15%), Standing Position/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -154,11 +155,25 @@ description: "Learn Double Leg Variations in BJJ. Step-by-step execution from St
 
 The Double Leg Takedown represents one of the most fundamental and highest-percentage takedowns in Brazilian Jiu-Jitsu, borrowed from wrestling and adapted for both gi and no-gi competition. This technique involves attacking both of the opponent's legs simultaneously, driving through their base, and securing a dominant top position. The beauty of the double leg lies in its versatility—it can be executed from various setups including level changes, penetration steps, and reactive entries when opponents commit their weight forward. Unlike single leg attacks that isolate one limb, the double leg controls both legs, making it significantly harder for opponents to maintain balance or counter. The technique's effectiveness spans all skill levels, though execution refinement and setup sophistication increase dramatically with experience. Mastery of double leg variations allows practitioners to control the standing phase of matches, dictate where the fight takes place, and establish dominant positions from the opening engagement. Understanding the multiple finishing variations—from traditional dumps to mat returns to direct passes—transforms this fundamental takedown into a complete offensive system.
 
-**Starting Position**: [[Standing Position]]
-**Ending Position**: [[Side Control]]
+**From Position**: [[Standing Position/Top]]
 **Success Rates**: Beginner 45%, Intermediate 65%, Advanced 80%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Side Control/Top]] | 75% |
+| Failure | [[Standing Position/Top]] | 15% |
+| Counter | [[Standing Position/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

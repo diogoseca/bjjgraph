@@ -93,38 +93,28 @@ Modern BJJ competition has elevated the importance of Standing Guard mastery, as
 - Stay mentally prepared to transition immediately to guard pull or takedown defense based on opponent actions
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Pull guard]]** → [[Closed Guard]]
-  - Success Rate: Beginner 55%, Intermediate 70%, Advanced 85%
+- **[[Pull guard]]** (13% of attempts)
 
-- **[[Sitting Guard Pull]]** → [[Seated Guard]]
-  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 80%
+- **[[Sitting Guard Pull]]** (13% of attempts)
 
-- **[[Shin to Shin Pull]]** → [[Shin-to-Shin Guard]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Shin to Shin Pull]]** (11% of attempts)
 
-- **[[Standing to Single Leg X]]** → [[Single Leg X-Guard]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Standing to Single Leg X]]** (10% of attempts)
 
-- **[[Ankle Pick]]** → [[Side Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Ankle Pick]]** (10% of attempts)
 
-- **[[Arm Drag to Back]]** → [[Back Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Arm Drag to Back]]** (9% of attempts)
 
-- **[[Rolling Guard Pull]]** → [[De La Riva Guard]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Rolling Guard Pull]]** (8% of attempts)
 
-- **[[Double Leg Entry]]** → [[Side Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Double Leg Entry]]** (9% of attempts)
 
-- **[[Single Leg Entry]]** → [[Side Control]]
-  - Success Rate: Beginner 28%, Intermediate 42%, Advanced 58%
+- **[[Single Leg Entry]]** (9% of attempts)
 
-- **[[Snap Down to Front Headlock]]** → [[Front Headlock]]
-  - Success Rate: Beginner 22%, Intermediate 38%, Advanced 52%
+- **[[Snap Down to Front Headlock]]** (8% of attempts)
 
 
 ### Common Mistakes
@@ -186,32 +176,24 @@ Modern BJJ competition has elevated the importance of Standing Guard mastery, as
 - Time explosive movements with opponent's defensive adjustments to exploit openings in guard retention
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Toreando Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Toreando Pass]]** (14% of attempts)
 
-- **[[Leg Drag Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Leg Drag Pass]]** (13% of attempts)
 
-- **[[Knee Slice Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Knee Slice Pass]]** (13% of attempts)
 
-- **[[Double Under Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Double Under Pass]]** (12% of attempts)
 
-- **[[X Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[X Pass]]** (13% of attempts)
 
-- **[[Long Step Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Long Step Pass]]** (14% of attempts)
 
-- **[[Stack Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Stack Pass]]** (11% of attempts)
 
-- **[[Back Step]]** → [[Back Control]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+- **[[Back Step]]** (10% of attempts)
 
 
 ### Common Mistakes

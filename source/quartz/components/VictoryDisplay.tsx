@@ -6,9 +6,9 @@ import script from "./scripts/victoryDisplay.inline"
 const VictoryDisplay: QuartzComponent = ({ fileData, displayClass }: QuartzComponentProps) => {
   const slug = fileData.slug ?? ""
 
-  // Only render on Won by Submission page
-  // Slug format: "Positions/Won-by-Submission" (hyphens, lowercase 'by')
-  const isVictoryPage = slug.toLowerCase() === "positions/won-by-submission"
+  // Only render on game-over page
+  // Slug format: "game-over" (lowercase)
+  const isVictoryPage = slug.toLowerCase() === "game-over"
 
   if (!isVictoryPage) {
     return null
@@ -20,7 +20,7 @@ const VictoryDisplay: QuartzComponent = ({ fileData, displayClass }: QuartzCompo
       class={classNames(displayClass, "victory-display")}
       data-page-type="victory"
     >
-      {/* Victory Header - shown when journey data exists */}
+      {/* Victory content - shown when journey data exists */}
       <div id="victory-content" class="terminal-state victory" style="display: none;">
         <div id="confetti-container"></div>
         <h2 id="victory-title">Victory!</h2>
@@ -39,6 +39,20 @@ const VictoryDisplay: QuartzComponent = ({ fileData, displayClass }: QuartzCompo
           <div class="stat-item">
             <span class="stat-value" id="stat-failures">0</span>
             <span class="stat-label">Defended</span>
+          </div>
+        </div>
+
+        {/* Performance Report */}
+        <div id="performance-report" class="performance-report" style="display: none;">
+          <div class="report-columns">
+            <div class="report-column strengths">
+              <h4 class="report-heading">Strengths</h4>
+              <ul id="report-strengths" class="report-list"></ul>
+            </div>
+            <div class="report-column weaknesses">
+              <h4 class="report-heading">Revisit</h4>
+              <ul id="report-weaknesses" class="report-list"></ul>
+            </div>
           </div>
         </div>
 

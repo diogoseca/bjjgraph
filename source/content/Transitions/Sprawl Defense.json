@@ -9,8 +9,6 @@
     "standing",
     "fundamentals"
   ],
-  "starting_position": "Standing Position",
-  "ending_position": "Front Headlock",
   "success_rates": {
     "beginner": 45,
     "intermediate": 65,
@@ -281,6 +279,24 @@
     {
       "name": "Back Control",
       "relationship": "Position advancement after successful sprawl and go-behind"
+    }
+  ],
+  "from_position": "Standing Position/Top",
+  "outcomes": [
+    {
+      "to": "Front Headlock/Top",
+      "probability": 75,
+      "result": "success"
+    },
+    {
+      "to": "Standing Position/Top",
+      "probability": 15,
+      "result": "failure"
+    },
+    {
+      "to": "Standing Position/Bottom",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

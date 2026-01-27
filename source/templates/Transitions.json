@@ -8,8 +8,8 @@
     "name",
     "description",
     "tags",
-    "starting_position",
-    "ending_position",
+    "from_position",
+    "outcomes",
     "success_rates",
     "overview",
     "key_principles",
@@ -59,24 +59,69 @@
         ]
       ]
     },
-    "starting_position": {
+    "from_position": {
       "type": "string",
-      "description": "Position where technique begins",
+      "description": "Position/Role where technique begins (format: Position/Role, e.g., 'Closed Guard/Bottom')",
       "examples": [
-        "Closed Guard Bottom",
-        "Half Guard Bottom"
+        "Closed Guard/Bottom",
+        "Half Guard/Bottom",
+        "Mount/Top"
       ]
     },
-    "ending_position": {
-      "type": "string",
-      "description": "Position where technique ends",
-      "examples": [
-        "Mount",
-        "Side Control Top"
-      ]
+    "outcomes": {
+      "type": "array",
+      "description": "Possible outcomes of this transition. probability MUST sum to 100%",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "to",
+          "probability",
+          "result"
+        ],
+        "properties": {
+          "to": {
+            "type": "string",
+            "description": "Target position/role"
+          },
+          "probability": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 100
+          },
+          "result": {
+            "type": "string",
+            "enum": [
+              "success",
+              "failure",
+              "counter"
+            ]
+          }
+        }
+      }
     },
     "success_rates": {
-      "$ref": "#/$defs/skill_level_success_rates"
+      "type": "object",
+      "description": "Success rates by skill level (beginner ≤ intermediate ≤ advanced)",
+      "additionalProperties": false,
+      "required": ["beginner", "intermediate", "advanced"],
+      "properties": {
+        "beginner": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "intermediate": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "advanced": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100
+        }
+      }
     },
     "overview": {
       "type": "string",

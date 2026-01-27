@@ -93,35 +93,26 @@ While Squid Guard is primarily used in gi grappling due to its reliance on lapel
 - Use asymmetry as advantage by creating unfamiliar angles that bypass opponent's trained passing responses
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Kiss of the Dragon]]** → [[Back Control]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 65%
+- **[[Kiss of the Dragon]]** (11% of attempts)
 
-- **[[X-Guard Sweep]]** → [[X-Guard]]
-  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 70%
+- **[[X-Guard Sweep]]** (12% of attempts)
 
-- **[[Single Leg X Sweep]]** → [[Single Leg X-Guard]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 68%
+- **[[Single Leg X Sweep]]** (12% of attempts)
 
-- **[[Berimbolo Entry]]** → [[Back Control]]
-  - Success Rate: Beginner 20%, Intermediate 40%, Advanced 60%
+- **[[Berimbolo Entry]]** (11% of attempts)
 
-- **[[De La Riva Sweep]]** → [[Side Control]]
-  - Success Rate: Beginner 30%, Intermediate 48%, Advanced 65%
+- **[[De La Riva Sweep]]** (11% of attempts)
 
-- **[[Technical Stand Up]]** → [[Standing Position]]
-  - Success Rate: Beginner 40%, Intermediate 58%, Advanced 72%
+- **[[Technical Stand Up]]** (12% of attempts)
 
-- **[[Omoplata Sweep]]** → [[Mount]]
-  - Success Rate: Beginner 22%, Intermediate 38%, Advanced 55%
+- **[[Omoplata Sweep]]** (10% of attempts)
 
-- **[[Triangle Setup]]** → [[Triangle Control]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 55%
+- **[[Triangle Setup]]** (10% of attempts)
 
-- **[[Omoplata to Back]]** → [[Back Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 60%
+- **[[Omoplata to Back]]** (11% of attempts)
 
 
 ### Common Mistakes
@@ -179,26 +170,20 @@ While Squid Guard is primarily used in gi grappling due to its reliance on lapel
 - Use pressure and grip fighting to force bottom player into defensive postures before advancing
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Stack Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+- **[[Stack Pass]]** (17% of attempts)
 
-- **[[Leg Drag Pass]]** → [[Leg Drag Control]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Leg Drag Pass]]** (16% of attempts)
 
-- **[[Back Step]]** → [[Reverse De La Riva Guard]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Back Step]]** (15% of attempts)
 
-- **[[Toreando Pass]]** → [[Headquarters Position]]
-  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 78%
+- **[[Toreando Pass]]** (17% of attempts)
 
-- **[[Pressure Pass]]** → [[Half Guard]]
-  - Success Rate: Beginner 55%, Intermediate 68%, Advanced 80%
+- **[[Pressure Pass]]** (18% of attempts)
 
-- **[[Knee Slice Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 48%, Intermediate 62%, Advanced 74%
+- **[[Knee Slice Pass]]** (17% of attempts)
 
 
 ### Common Mistakes

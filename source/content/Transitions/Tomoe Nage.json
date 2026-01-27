@@ -11,8 +11,6 @@
     "sweep",
     "guard pull"
   ],
-  "starting_position": "Standing Position",
-  "ending_position": "Closed Guard",
   "success_rates": {
     "beginner": 30,
     "intermediate": 50,
@@ -300,6 +298,24 @@
     {
       "name": "Shin-to-Shin Guard",
       "relationship": "Backup - Alternative guard entry if throw fails"
+    }
+  ],
+  "from_position": "Standing Position/Top",
+  "outcomes": [
+    {
+      "to": "Closed Guard/Bottom",
+      "probability": 70,
+      "result": "success"
+    },
+    {
+      "to": "Standing Position/Top",
+      "probability": 20,
+      "result": "failure"
+    },
+    {
+      "to": "Standing Position/Bottom",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

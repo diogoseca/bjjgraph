@@ -9,8 +9,6 @@
     "submission-escape",
     "guard-bottom"
   ],
-  "starting_position": "Triangle Control",
-  "ending_position": "Guard Recovery",
   "success_rates": {
     "beginner": 30,
     "intermediate": 50,
@@ -278,6 +276,24 @@
     {
       "name": "Standing up in Base",
       "relationship": "Alternative defensive strategy against guard attacks"
+    }
+  ],
+  "from_position": "Triangle Control/Top",
+  "outcomes": [
+    {
+      "to": "Guard Recovery/Bottom",
+      "probability": 70,
+      "result": "success"
+    },
+    {
+      "to": "Triangle Control/Top",
+      "probability": 20,
+      "result": "failure"
+    },
+    {
+      "to": "Triangle Control/Bottom",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

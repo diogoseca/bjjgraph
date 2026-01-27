@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Lumberjack Sweep | BJJ Technique | BJJ Graph"
 description: "Master the Lumberjack Sweep from half guard in BJJ. Step-by-step execution with underhook control. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%."
@@ -16,7 +17,7 @@ description: "Master the Lumberjack Sweep from half guard in BJJ. Step-by-step e
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Lumberjack Sweep in BJJ",
-  "description": "Step-by-step guide for Lumberjack Sweep from Half Guard to Side Control.",
+  "description": "Step-by-step guide for Lumberjack Sweep from Half Guard/Bottom. Possible outcomes: Side Control/Top (70%), Half Guard/Bottom (20%), Half Guard/Top (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -154,11 +155,25 @@ description: "Master the Lumberjack Sweep from half guard in BJJ. Step-by-step e
 
 The Lumberjack Sweep is a fundamental half guard sweep that capitalizes on underhook control to off-balance and sweep an opponent who is attempting to pass. Named for the chopping motion used to break down the opponent's base, this technique is particularly effective against opponents who overcommit their weight forward or fail to establish proper crossface control. The sweep combines hip movement, underhook leverage, and precise timing to elevate the opponent and transition to a dominant top position. This technique serves as a cornerstone of modern half guard systems, providing a reliable option when the opponent is pressuring into your half guard. The Lumberjack Sweep's effectiveness lies in its ability to exploit the opponent's forward momentum, turning their pressure into a liability. By controlling the underhook and creating the proper angle, the bottom player can generate significant leverage despite being in an inferior position. This sweep integrates seamlessly with other half guard attacks, forming part of a comprehensive sweeping system that keeps opponents defensive and hesitant to engage.
 
-**Starting Position**: [[Half Guard]]
-**Ending Position**: [[Side Control]]
+**From Position**: [[Half Guard/Bottom]]
 **Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Side Control/Top]] | 70% |
+| Failure | [[Half Guard/Bottom]] | 20% |
+| Counter | [[Half Guard/Top]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

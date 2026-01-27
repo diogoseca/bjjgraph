@@ -4,7 +4,7 @@
 
 ---
 title: "Z-Guard Top | BJJ Position Guide | BJJ Graph"
-description: "Master Z-Guard Top in BJJ. Complete guide covering passing strategies, pressure tactics, and transitions. Offensive passing position with 65% success rate."
+description: "Master Z-Guard Top in BJJ. Complete guide covering passing strategies, pressure tactics, and transitions. Offensive passing position with systematic breakdown techniques."
 ---
 
 
@@ -21,37 +21,37 @@ description: "Master Z-Guard Top in BJJ. Complete guide covering passing strateg
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, execute Knee Slice Pass to transition to Side Control. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 18% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice from Half",
-      "text": "From this position, execute Knee Slice from Half to transition to Side Control. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Knee Slice from Half. This technique is attempted in 16% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Cut Pass",
-      "text": "From this position, execute Knee Cut Pass to transition to Side Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Knee Cut Pass. This technique is attempted in 14% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Long Step Pass",
-      "text": "From this position, execute Long Step Pass to transition to Side Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Long Step Pass. This technique is attempted in 13% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Smash Pass",
-      "text": "From this position, execute Smash Pass to transition to Side Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Smash Pass. This technique is attempted in 14% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Step",
-      "text": "From this position, execute Back Step to transition to Back Control. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Back Step. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -115,7 +115,7 @@ description: "Master Z-Guard Top in BJJ. Complete guide covering passing strateg
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Z-Guard Top",
-  "description": "Master Z-Guard Top in BJJ. Complete guide covering passing strategies, pressure tactics, and transitions. Offensive passing position with 65% success rate.",
+  "description": "Master Z-Guard Top in BJJ. Complete guide covering passing strategies, pressure tactics, and transitions. Offensive passing position with systematic breakdown techniques.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -211,81 +211,20 @@ From a competitive perspective, mastering Z-Guard Top passing is essential for a
 
 ## Available Attacks
 
-### [[Knee Slice Pass]] → [[Side Control]]
+### [[Knee Slice Pass]] (18% of attempts)
 
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 60%
-- Advanced: 75%
+### [[Knee Slice from Half]] (16% of attempts)
 
-### [[Knee Slice from Half]] → [[Side Control]]
+### [[Knee Cut Pass]] (14% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Long Step Pass]] (13% of attempts)
 
-### [[Knee Cut Pass]] → [[Side Control]]
+### [[Smash Pass]] (14% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Back Step]] (12% of attempts)
 
-### [[Long Step Pass]] → [[Side Control]]
+### [[Underhook Pass]] (13% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[Smash Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-### [[Back Step]] → [[Back Control]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-### [[Underhook Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Deep Half Entry]]** → [[Deep Half Guard]] (Opponent Success: 35%)
-- **[[Underhook Sweep from Half]]** → [[Half Guard]] (Opponent Success: 30%)
-- **[[Lockdown Sweeps]]** → [[Lockdown]] (Opponent Success: 25%)
-- **[[Old School Sweep]]** → [[Half Guard]] (Opponent Success: 20%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Knee Slice Pass]]** → [[Side Control]]
-  - Bottom player extends knee shield too far, creating gap under the shin
-- **[[Long Step Pass]]** → [[Side Control]]
-  - Bottom player commits too much weight to the knee shield frame
-- **[[Back Step]]** → [[Back Control]]
-  - Bottom player turns to their side to defend the pass, exposing their back
 
 
 </section>
@@ -392,29 +331,39 @@ Positional sparring starting from Z-Guard with emphasis on grip fighting. Top pl
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### High-percentage passing path
+## Test Your Knowledge
 
-`Z-Guard Top → Knee Slice Pass → Side Control → Kimura from Side Control → Won by Submission`
+**Q1**: Your opponent has a strong knee shield and you feel them starting to bump you off-balance - what immediate adjustment should you make?
+**A**: Widen your base by spreading your knees further apart and drop your hips lower to create a more stable platform. Shift your weight forward into their knee shield rather than pulling back, as retreating only gives them more space to work. Simultaneously look to control their far arm or establish a collar grip to prevent them from coordinating the bump with an underhook entry.
 
-### Back attack path
+**Q2**: What are the essential grips for maintaining pressure and control from Z-Guard Top?
+**A**: The primary grips are crossface control (hand behind their head driving their face away from you), collar grip on the near side for posture control, and far hip or pants grip to prevent them from creating angles. The underhook on the far side is crucial - securing it prevents their sweeps and opens passing lanes. Secondary grips include controlling their knee shield leg at the knee to collapse it systematically.
 
-`Z-Guard Top → Back Step → Back Control → Rear Naked Choke → Won by Submission`
+**Q3**: How do you shut down the opponent's primary escape attempt - the deep half entry?
+**A**: Prevent deep half by keeping your hips heavy and forward, not allowing them to shoot their head underneath you. When you feel them diving underneath, immediately sprawl your hips back and drive your shoulder pressure into their shoulder. Control their far underhook arm to prevent them from getting the necessary angle. If they're persistent, backstep to face their hips directly rather than letting them duck under.
 
-### Pressure passing path
+**Q4**: What grip priorities should you establish before attempting to pass?
+**A**: First priority is winning the underhook battle on the far side or establishing crossface control to limit their mobility. Second priority is controlling their far hip or pants to prevent angle creation. Third priority is addressing their knee shield leg through knee or ankle control. Only after securing at least two of these control points should you initiate passing sequences - attempting to pass without proper grips leads to being swept.
 
-`Z-Guard Top → Smash Pass → Side Control → North-South Control → North-South Choke → Won by Submission`
+**Q5**: How should you apply pressure to collapse the knee shield without overcommitting?
+**A**: Apply pressure at a 45-degree angle rather than straight down, driving your shoulder into their shin while keeping your weight distributed. Use your chest to pin their knee shield leg rather than just your arms. Keep your head tight to their body on the crossface side to prevent them from creating space. The key is sustained, progressive pressure that collapses their frame over time rather than explosive force that they can redirect into sweeps.
 
-### Underhook control path
+**Q6**: Your opponent begins turning to their side to defend your pressure - how should you react?
+**A**: When they turn to their side, immediately recognize this as a back-take opportunity rather than forcing the frontal pass. Follow their rotation by circling toward their back while maintaining your underhook or collar grip. If they've exposed their back significantly, transition to seatbelt grip and start establishing hooks. If they're only partially turned, use the angle to accelerate your knee slice or backstep pass.
 
-`Z-Guard Top → Underhook Pass → Side Control → Transition to Mount → Mount → Armbar from Mount → Won by Submission`
+**Q7**: How do you manage energy when facing a skilled Z-Guard player who maintains excellent frame integrity?
+**A**: Avoid constant maximum pressure which burns energy without results. Use intermittent pressure bursts combined with grip fighting to tire them out while conserving your own energy. Make them carry your weight by settling into the position rather than actively fighting every moment. Focus on winning small battles - strip one grip, collapse the frame slightly, control one arm - rather than trying to pass in one explosive effort.
+
+**Q8**: After their knee shield partially collapses but they haven't fully given up the position, what's your recovery strategy?
+**A**: Immediately establish a dominant control point before they can re-extend their frame - either secure the crossface, control their pants at the knee, or establish your underhook. Keep your hips heavy on the collapsed shield to prevent re-extension. From this halfway point, you can choose between completing the knee slice if there's enough space, or resetting with better grips if they're defending well. Don't retreat to neutral - maintain whatever ground you've gained.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -436,7 +385,7 @@ Positional sparring starting from Z-Guard with emphasis on grip fighting. Top pl
 ## Related Positions and Techniques
 
 - **[[Z-Guard Bottom]]** - Opposite perspective - defensive position
-- **[[Knee Shield Half Guard]]** - Alternative name for same bottom position
+- **[[Knee Shield Half Guard]]** - Related position with similar mechanics
 - **[[Half Guard]]** - Parent position without knee shield frame
 - **[[Side Control]]** - Primary passing destination
 - **[[Headquarters Position]]** - Related passing position with similar pressure concepts

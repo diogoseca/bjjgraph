@@ -60,7 +60,7 @@ The effectiveness of D'arce Control lies in its ability to create multiple dilem
 | **Energy Cost** | High | Medium |
 | **Time** | Short | Medium |
 
-**Key Difference:** Arm-in choke creating submission threat
+**Key Difference:** Arm-in choke trades mobility for submission threat
 
 
 
@@ -87,26 +87,18 @@ The effectiveness of D'arce Control lies in its ability to create multiple dilem
 - Move toward the choke not away - stepping over opponent's head or turning into them can relieve pressure and create escape opportunities
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Arm Extraction]]** → [[Turtle]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Arm Extraction]]** (25% of attempts)
 
-- **[[Rolling to Guard]]** → [[Half Guard]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Rolling to Guard]]** (25% of attempts)
 
-- **[[Step Over Escape]]** → [[Open Guard]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+- **[[Granby Roll]]** (20% of attempts)
 
-- **[[Back Door Escape]]** → [[Turtle]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Back Door Escape]]** (18% of attempts)
 
-- **[[Counter Roll]]** → [[Side Control]]
-  - Success Rate: Beginner 10%, Intermediate 20%, Advanced 35%
-
-- **[[Granby Roll]]** → [[Closed Guard]]
-  - Success Rate: Beginner 15%, Intermediate 25%, Advanced 40%
+- **[[Counter Roll]]** (12% of attempts)
 
 
 ### Common Mistakes
@@ -156,26 +148,18 @@ The effectiveness of D'arce Control lies in its ability to create multiple dilem
 - Continuously adjust grip tightness and body position as opponent attempts defensive movements
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Darce Choke]]** → [[Won by Submission]]
-  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+- **[[Darce Choke]]** (25% of attempts)
 
-- **[[Transition to Mount]]** → [[Mount]]
-  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 80%
+- **[[Side Control to Mount]]** (20% of attempts)
 
-- **[[Turtle to Back Take]]** → [[Back Control]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Turtle to Back Take]]** (20% of attempts)
 
-- **[[Anaconda from Turtle]]** → [[Anaconda Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Anaconda from Turtle]]** (15% of attempts)
 
-- **[[Transition to North-South]]** → [[North-South]]
-  - Success Rate: Beginner 55%, Intermediate 70%, Advanced 85%
-
-- **[[Arm Triangle from Turtle]]** → [[Side Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Side Control to North-South]]** (20% of attempts)
 
 
 ### Common Mistakes

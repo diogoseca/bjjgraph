@@ -62,7 +62,7 @@ Mastery of Cross Body Ride requires understanding weight distribution mechanics,
 | **Energy Cost** | High | Medium |
 | **Time** | Short | Medium |
 
-**Key Difference:** Perpendicular pressure isolates limbs
+**Key Difference:** Trades mobility for perpendicular pressure
 
 
 
@@ -93,26 +93,20 @@ Mastery of Cross Body Ride requires understanding weight distribution mechanics,
 - Recognize timing windows when opponent shifts weight or adjusts grips to initiate escape sequences
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Granby Roll]]** → [[Closed Guard]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Granby Roll]]** (18% of attempts)
 
-- **[[Hip Escape]]** → [[Half Guard]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Hip Escape]]** (17% of attempts)
 
-- **[[Technical Standup]]** → [[Standing Position]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+- **[[Technical Standup]]** (15% of attempts)
 
-- **[[Shrimp Escape]]** → [[Closed Guard]]
-  - Success Rate: Beginner 18%, Intermediate 32%, Advanced 48%
+- **[[Shrimp Escape]]** (16% of attempts)
 
-- **[[Rolling to Guard]]** → [[Open Guard]]
-  - Success Rate: Beginner 22%, Intermediate 38%, Advanced 52%
+- **[[Rolling to Guard]]** (17% of attempts)
 
-- **[[Turtle to Guard]]** → [[Butterfly Guard]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Turtle to Guard]]** (17% of attempts)
 
 
 ### Common Mistakes
@@ -170,32 +164,24 @@ Mastery of Cross Body Ride requires understanding weight distribution mechanics,
 - Maintain constant pressure to drain opponent's energy while preserving your own through efficient weight distribution
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Turtle to Back Control]]** → [[Back Control]]
-  - Success Rate: Beginner 40%, Intermediate 60%, Advanced 75%
+- **[[Turtle to Back Control]]** (18% of attempts)
 
-- **[[Crucifix from Turtle]]** → [[Crucifix]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 65%
+- **[[Crucifix from Turtle]]** (13% of attempts)
 
-- **[[Crab Ride to Back]]** → [[Crab Ride]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 70%
+- **[[Crab Ride to Back]]** (14% of attempts)
 
-- **[[Transition to Mount]]** → [[Mount]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Side Control to Mount]]** (13% of attempts)
 
-- **[[Bow and Arrow Choke]]** → [[Back Control]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 55%
+- **[[Bow and Arrow Choke]]** (11% of attempts)
 
-- **[[Rear Naked Choke]]** → [[Back Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 60%
+- **[[Rear Naked Choke]]** (12% of attempts)
 
-- **[[Armbar from Back]]** → [[Back Control]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 50%
+- **[[Armbar from Back]]** (10% of attempts)
 
-- **[[Twister]]** → [[Twister Control]]
-  - Success Rate: Beginner 10%, Intermediate 25%, Advanced 45%
+- **[[Twister]]** (9% of attempts)
 
 
 ### Common Mistakes
@@ -238,7 +224,7 @@ Mastery of Cross Body Ride requires understanding weight distribution mechanics,
 
 - **[[Crucifix]]** - Secondary advancement target - exploits opponent's posting defense
 
-- **[[Truck]]** - Alternative advancement - capitalized when opponent sits through
+- **[[Twister Control]]** - Alternative advancement - capitalized when opponent sits through to truck
 
 - **[[Crab Ride]]** - Transitional variation - intermediate position to back control
 
@@ -248,9 +234,9 @@ Mastery of Cross Body Ride requires understanding weight distribution mechanics,
 
 - **[[Harness]]** - Control system - uses same seatbelt grip mechanics
 
-- **[[Twister Control]]** - Advanced submission threat - accessed through truck transition
+- **[[Front Headlock]]** - Alternative turtle control - transitions possible between positions
 
-- **[[Rodeo Ride]]** - Similar position - alternative turtle attack with different body alignment
+- **[[Seat Belt Control Back]]** - Follow-up position - established after successful back take
 
 
 </section>

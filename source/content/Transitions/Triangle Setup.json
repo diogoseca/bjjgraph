@@ -11,8 +11,6 @@
     "submission-setup",
     "arm-control"
   ],
-  "starting_position": "Closed Guard",
-  "ending_position": "Triangle Control",
   "success_rates": {
     "beginner": 30,
     "intermediate": 50,
@@ -299,6 +297,24 @@
     {
       "name": "Overhook Guard",
       "relationship": "Alternative starting position for variant"
+    }
+  ],
+  "from_position": "Closed Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Triangle Control/Top",
+      "probability": 70,
+      "result": "success"
+    },
+    {
+      "to": "Closed Guard/Bottom",
+      "probability": 20,
+      "result": "failure"
+    },
+    {
+      "to": "Closed Guard/Top",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

@@ -21,37 +21,37 @@ description: "Control opponent with cross-collar and sleeve grips. Learn sweep m
     {
       "@type": "HowToStep",
       "name": "Execute Pendulum Sweep",
-      "text": "From this position, execute Pendulum Sweep to transition to Mount. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Pendulum Sweep. This technique is attempted in 11% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Flower Sweep",
-      "text": "From this position, execute Flower Sweep to transition to Mount. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Flower Sweep. This technique is attempted in 10% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Setup",
-      "text": "From this position, execute Triangle Setup to transition to Triangle Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Triangle Setup. This technique is attempted in 9% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Omoplata Sweep",
-      "text": "From this position, execute Omoplata Sweep to transition to Omoplata Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 9% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Bump Sweep",
-      "text": "From this position, execute Hip Bump Sweep to transition to Mount. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Hip Bump Sweep. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Scissor Sweep",
-      "text": "From this position, execute Scissor Sweep to transition to Mount. Success rate for advanced practitioners: 80%.",
+      "text": "From this position, attempt Scissor Sweep. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -221,105 +221,26 @@ Transitioning out of collar sleeve guard bottom occurs through successful sweeps
 
 ## Available Escapes
 
-### [[Pendulum Sweep]] → [[Mount]]
+### [[Pendulum Sweep]] (11% of attempts)
 
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 60%
-- Advanced: 75%
+### [[Flower Sweep]] (10% of attempts)
 
-### [[Flower Sweep]] → [[Mount]]
+### [[Triangle Setup]] (9% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Omoplata Sweep]] (9% of attempts)
 
-### [[Triangle Setup]] → [[Triangle Control]]
+### [[Hip Bump Sweep]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Scissor Sweep]] (12% of attempts)
 
-### [[Omoplata Sweep]] → [[Omoplata Control]]
+### [[Arm Drag to Back]] (9% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Technical Stand Up]] (9% of attempts)
 
-### [[Hip Bump Sweep]] → [[Mount]]
+### [[Lasso Guard Variations]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Spider Guard Variations]] (11% of attempts)
 
-### [[Scissor Sweep]] → [[Mount]]
-
-**Success Rates:**
-- Beginner: 50%
-- Intermediate: 65%
-- Advanced: 80%
-
-### [[Arm Drag to Back]] → [[Back Control]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-### [[Technical Stand Up to Single Leg]] → [[Standing Position]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[Lasso Guard Variations]] → [[Lasso Guard]]
-
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
-
-### [[Spider Guard Variations]] → [[Spider Guard]]
-
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 60%
-- Advanced: 75%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Collar Drag]]** → [[Side Control]]
-- **[[Guard Pass]]** → [[Side Control]]
-- **[[Stack Pass]]** → [[Side Control]]
-- **[[Knee Cut Pass]]** → [[Side Control]]
-- **[[Toreando Pass]]** → [[Side Control]]
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Triangle Setup]]** → [[Triangle Control]]
-  - Opponent posts free hand to defend sweep attempt
-- **[[Omoplata to Sweep]]** → [[Omoplata Control]]
-  - Opponent pulls sleeve arm back to break grip
-- **[[Arm Drag]]** → [[Back Control]]
-  - Opponent reaches over to establish cross-face grip
-- **[[Pendulum Sweep]]** → [[Mount]]
-  - Opponent stands to create distance and attempt standing pass
 
 
 </section>
@@ -335,7 +256,7 @@ Transitioning out of collar sleeve guard bottom occurs through successful sweeps
 
 **If opponent posts free hand forward to defend collar pull or sweep attempt:**
 - Execute **[[Triangle Setup]]** → [[Triangle Control]] (Probability: 65%)
-- Execute **[[Transition to Omoplata]]** → [[Omoplata Control]] (Probability: 50%)
+- Execute **[[Omoplata Sweep]]** → [[Omoplata Control]] (Probability: 50%)
 
 
 **If opponent sits back heavily to break posture and defend collar grip:**
@@ -349,7 +270,7 @@ Transitioning out of collar sleeve guard bottom occurs through successful sweeps
 
 
 **If opponent stands up completely to initiate standing guard pass:**
-- Execute **[[Technical Stand-up]]** → [[Standing Position]] (Probability: 50%)
+- Execute **[[Technical Stand Up]]** → [[Standing Position]] (Probability: 50%)
 - Execute **[[Arm Drag to Back]]** → [[Back Control]] (Probability: 45%)
 
 
@@ -431,29 +352,39 @@ Attempt collar sleeve sweep (pendulum, flower, or scissor). If partner defends a
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Collar Sleeve to Triangle via Post
+## Test Your Knowledge
 
-`Collar Sleeve Guard Bottom → Opponent Posts Free Hand → Triangle Setup → Triangle Control → Triangle from Closed Guard`
+**Q1**: Your opponent starts to posture up strongly against your collar grip - what immediate adjustment do you make?
+**A**: Pull the collar at a 45-degree angle toward one of your shoulders rather than straight back toward your chest. This angular pull creates rotational force that is much harder to resist than a linear pull. Simultaneously elevate your hips and pump your legs to add lower body force to the pull. If they continue posturing, transition to a sweep that capitalizes on their backward weight shift, such as a flower sweep or sitting guard sweep, rather than fighting a losing strength battle.
 
-### Collar Sleeve to Armbar via Sweep
+**Q2**: What are the essential grips for maintaining effective collar sleeve guard?
+**A**: The cross-collar grip should have four fingers deep inside the collar near the opponent's shoulder or upper chest, with thumb outside for maximum purchase. This grip controls posture and creates rotational leverage. The same-side sleeve grip controls at the wrist or mid-forearm, never higher than the elbow, to prevent posting and manage distance. The wrist-level grip gives you the longest lever arm and maximum control over where their hand can reach.
 
-`Collar Sleeve Guard Bottom → Pendulum Sweep → Mount → Armbar from Mount`
+**Q3**: How do you shut down a toreando pass attempt from collar sleeve guard?
+**A**: When you feel them grab your knees or pants to initiate toreando, immediately frame with your feet on their hips or biceps to maintain distance. Pull hard on the collar grip to break their posture forward which compromises their passing base. If they commit to the lateral step, follow their movement with your hips by hip escaping in the same direction while maintaining collar tension. The collar grip is your anchor - as long as you keep pulling them forward and off-balance, they cannot complete the lateral passing motion effectively.
 
-### Collar Sleeve to Omoplata Finish
+**Q4**: What grip priorities guide your attack selection from collar sleeve guard?
+**A**: Your attack options flow from which grip is strongest. If your collar grip is deep and controlling their posture effectively, prioritize sweeps that use collar pulls like pendulum and flower sweeps. If your sleeve grip has full extension preventing their posting, triangles become high percentage because they cannot use that arm to defend. When both grips are strong, you can chain any attack because their defensive options are limited. Always secure the collar grip first as it provides more versatile control.
 
-`Collar Sleeve Guard Bottom → Triangle Setup (Defended) → Transition to Omoplata → Omoplata Control → Omoplata from Guard`
+**Q5**: How should you apply off-balancing pressure to set up sweeps from collar sleeve guard?
+**A**: Create continuous multi-directional off-balancing rather than single committed pulls. Alternate between pulling their collar forward to break posture, then angular pulls toward your shoulders to create rotational instability. Use your legs actively - pump the hip with the sleeve-side foot on their bicep or hip while your other leg hooks behind their leg or elevates for attacks. This constant movement prevents them from settling their weight and creates the loading moment where a committed sweep becomes high percentage. The goal is to make them constantly adjust their base until they commit too far in one direction.
 
-### Collar Sleeve to Back Attack
+**Q6**: Your opponent breaks your sleeve grip and starts advancing their knee to pass - what recovery options do you have?
+**A**: Immediately hip escape away from their advancing knee while maintaining your collar grip anchor. Use your free hand to frame on their shoulder or bicep on the passing side to create space. If space allows, re-establish sleeve control before they complete the pass. If they have too much momentum, transition to lasso guard by threading your leg around their arm on the passing side, or transition to De La Riva by inserting a hook on their far leg. The collar grip gives you a connection point to work guard retention even when other grips are lost.
 
-`Collar Sleeve Guard Bottom → Arm Drag to Back → Back Control → Rear Naked Choke`
+**Q7**: What indicators tell you it's time to transition from sweep attempts to triangle attacks?
+**A**: The primary indicator is when the opponent posts their free hand on the mat or your body to defend sweep attempts. This hand posting creates the arm isolation needed for triangle entry. Watch for their free arm to extend forward - this is your cue to immediately shoot your leg over their shoulder while pulling their head down with the collar grip. Other indicators include when they elevate onto their toes for base (hips become light making leg entry easier) or when they square up to you directly (makes their arm more accessible to your leg).
+
+**Q8**: How do you manage energy during extended collar sleeve guard exchanges without becoming passive?
+**A**: Develop a rhythm that alternates between high-intensity attack sequences and lower-intensity control phases. During attack phases (10-15 seconds), commit fully to sweep or submission chains with active hip movement. During control phases (5-10 seconds), maintain grip tension and hip elevation but reduce large movements while you recover grip strength and assess their reactions. Never go completely passive - always maintain some degree of off-balancing pressure through your grips. Focus on efficiency by using hip movement to amplify grip power rather than relying solely on grip strength.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -479,9 +410,9 @@ Attempt collar sleeve sweep (pendulum, flower, or scissor). If partner defends a
 - **[[Triangle Control]]** - Primary submission path when opponent posts to defend sweeps
 - **[[Omoplata Control]]** - Alternative submission when triangle is defended
 - **[[Closed Guard]]** - Common entry position before opening to collar sleeve
-- **[[Grip Fighting]]** - Essential principle for establishing and maintaining grips
-- **[[Posture Breaking]]** - Fundamental principle applied through collar grip control
-- **[[Off-Balancing]]** - Core principle for creating sweep opportunities
+- **[[De La Riva Guard]]** - Complementary guard combining hooks with collar sleeve grips
+- **[[Mount]]** - Target position after successful sweep completion
+- **[[Back Control]]** - Alternative target when opponent turns away during attacks
 
 
 </section>

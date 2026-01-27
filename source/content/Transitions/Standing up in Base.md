@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Standing up in Base | BJJ Technique | BJJ Graph"
 description: "Master the technical standup from bottom position in BJJ. Step-by-step execution from defensive positions to standing. Success rates: Beginner 50%, Intermediate 70%, Advanced 85%."
@@ -16,7 +17,7 @@ description: "Master the technical standup from bottom position in BJJ. Step-by-
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Standing up in Base in BJJ",
-  "description": "Step-by-step guide for Standing up in Base from Turtle to Standing Guard.",
+  "description": "Step-by-step guide for Standing up in Base from Turtle/Top. Possible outcomes: Standing Guard/Bottom (75%), Turtle/Top (15%), Turtle/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -160,11 +161,25 @@ description: "Master the technical standup from bottom position in BJJ. Step-by-
 
 The technical standup from base is a fundamental defensive movement that allows a grounded fighter to safely return to standing position while maintaining defensive posture and base. This essential skill bridges the gap between ground-based positions and standing engagement, providing both escape utility and offensive opportunity. The technique emphasizes proper weight distribution, frame creation, and sequential base-building to prevent opponent interference during the standup process. Understanding this movement is critical for guard retention, scramble navigation, and preventing opponents from consolidating top position control. The standup sequence involves establishing a stable posting base, creating distance through frames, and executing a coordinated hip elevation that brings you to your feet while maintaining defensive awareness. This technique serves as a gateway movement that connects various bottom positions to standing engagements, making it indispensable for complete positional fluency in Brazilian Jiu-Jitsu.
 
-**Starting Position**: [[Turtle]]
-**Ending Position**: [[Standing Guard]]
+**From Position**: [[Turtle/Top]]
 **Success Rates**: Beginner 50%, Intermediate 70%, Advanced 85%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Standing Guard/Bottom]] | 75% |
+| Failure | [[Turtle/Top]] | 15% |
+| Counter | [[Turtle/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

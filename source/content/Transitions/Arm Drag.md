@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Arm Drag | BJJ Technique | BJJ Graph"
 description: "Master the Arm Drag in BJJ. Complete guide from setup to back control with step-by-step execution. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%."
@@ -16,7 +17,7 @@ description: "Master the Arm Drag in BJJ. Complete guide from setup to back cont
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Arm Drag in BJJ",
-  "description": "Step-by-step guide for Arm Drag from Standing Position to Back Control.",
+  "description": "Step-by-step guide for Arm Drag from Standing Position/Top. Possible outcomes: Back Control/Top (75%), Standing Position/Top (15%), Standing Position/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -158,11 +159,25 @@ The technique works by controlling the opponent's wrist and tricep simultaneousl
 
 Mastery of the Arm Drag opens entire systematic approaches to grappling, as it serves as both an entry point for attacks and a fundamental movement pattern for creating angles. High-level competitors use Arm Drags to initiate their offensive sequences, chain multiple techniques together, and maintain constant pressure on opponents who struggle to defend the dynamic positional changes it creates.
 
-**Starting Position**: [[Standing Position]]
-**Ending Position**: [[Back Control]]
+**From Position**: [[Standing Position/Top]]
 **Success Rates**: Beginner 45%, Intermediate 60%, Advanced 75%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Back Control/Top]] | 75% |
+| Failure | [[Standing Position/Top]] | 15% |
+| Counter | [[Standing Position/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

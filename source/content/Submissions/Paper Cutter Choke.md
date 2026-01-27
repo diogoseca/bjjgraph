@@ -409,12 +409,22 @@ The Paper Cutter Choke is a highly effective blood choke executed primarily from
 - [[Kesa Gatame]] - Traditional scarf hold position where paper cutter can be applied
 - [[Cross Collar Choke]] - Related collar choke that uses similar grip mechanics
 - [[Arm Triangle]] - Common backup submission when paper cutter is defended
-- [[Transition to North-South]] - Transition that creates paper cutter opportunities
+- [[Side Control to North-South]] - Transition that creates paper cutter opportunities
 - [[Side Control to Mount]] - Alternative transition when opponent defends paper cutter by turning
 - [[Collar Control]] - Fundamental principle for establishing effective grip
 - [[Pressure Application]] - Core principle for maintaining side control during setup
 - [[Submission Chains]] - Principle for combining paper cutter with other side control attacks
 
+
+</section>
+
+<section id="terminal-state" class="content-section">
+
+## Match Outcome
+
+Successful execution of Paper Cutter Choke leads to → [[game-over|Game Over]]
+
+*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
 
 </section>
 

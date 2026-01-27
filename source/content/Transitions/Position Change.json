@@ -10,8 +10,6 @@
     "position control",
     "strategy"
   ],
-  "starting_position": "Open Guard",
-  "ending_position": "Side Control",
   "success_rates": {
     "beginner": 30,
     "intermediate": 50,
@@ -254,7 +252,7 @@
       "relationship": "Defensive position change to recover guard from inferior positions"
     },
     {
-      "name": "Transition to North-South",
+      "name": "Side Control to North-South",
       "relationship": "Alternative position change when mount or back control is defended"
     },
     {
@@ -280,6 +278,24 @@
     {
       "name": "Control Maintenance",
       "relationship": "Essential skill for preventing position loss during transitions"
+    }
+  ],
+  "from_position": "Open Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Side Control/Top",
+      "probability": 70,
+      "result": "success"
+    },
+    {
+      "to": "Open Guard/Bottom",
+      "probability": 20,
+      "result": "failure"
+    },
+    {
+      "to": "Open Guard/Top",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

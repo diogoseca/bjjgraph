@@ -11,8 +11,6 @@
     "posture_control",
     "hand_fighting"
   ],
-  "starting_position": "Open Guard",
-  "ending_position": "Open Guard",
   "success_rates": {
     "beginner": 60,
     "intermediate": 75,
@@ -260,6 +258,24 @@
     {
       "name": "Standing up in Base",
       "relationship": "Requires breaking pant and sleeve grips before standing"
+    }
+  ],
+  "from_position": "Open Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Open Guard/Bottom",
+      "probability": 75,
+      "result": "success"
+    },
+    {
+      "to": "Open Guard/Bottom",
+      "probability": 15,
+      "result": "failure"
+    },
+    {
+      "to": "Open Guard/Top",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

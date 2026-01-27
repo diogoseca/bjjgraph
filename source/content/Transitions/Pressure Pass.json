@@ -9,8 +9,6 @@
     "fundamental",
     "top_game"
   ],
-  "starting_position": "Combat Base",
-  "ending_position": "Side Control",
   "success_rates": {
     "beginner": 45,
     "intermediate": 65,
@@ -268,6 +266,24 @@
     {
       "name": "Guard Retention",
       "relationship": "Understanding opponent's retention helps predict and counter their defensive reactions"
+    }
+  ],
+  "from_position": "Combat Base/Top",
+  "outcomes": [
+    {
+      "to": "Side Control/Top",
+      "probability": 75,
+      "result": "success"
+    },
+    {
+      "to": "Combat Base/Top",
+      "probability": 15,
+      "result": "failure"
+    },
+    {
+      "to": "Combat Base/Bottom",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

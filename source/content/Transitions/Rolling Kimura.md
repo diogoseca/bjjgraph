@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Rolling Kimura | BJJ Technique | BJJ Graph"
 description: "Master the Rolling Kimura in BJJ. Dynamic sweep and submission technique from turtle using kimura grip mechanics. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%."
@@ -16,7 +17,7 @@ description: "Master the Rolling Kimura in BJJ. Dynamic sweep and submission tec
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Rolling Kimura in BJJ",
-  "description": "Step-by-step guide for Rolling Kimura from Turtle to Back Control.",
+  "description": "Step-by-step guide for Rolling Kimura from Turtle/Top. Possible outcomes: Back Control/Top (70%), Turtle/Top (20%), Turtle/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -164,11 +165,25 @@ Historically developed through innovation in no-gi grappling, the Rolling Kimura
 
 The Rolling Kimura works particularly well in both gi and no-gi contexts, though the mechanics differ slightly. In gi, you have additional grip options using the opponent's clothing, while in no-gi, you rely more heavily on wrist and arm control. Understanding both variations allows practitioners to adapt the technique across different competitive formats and training environments.
 
-**Starting Position**: [[Turtle]]
-**Ending Position**: [[Back Control]]
+**From Position**: [[Turtle/Top]]
 **Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Back Control/Top]] | 70% |
+| Failure | [[Turtle/Top]] | 20% |
+| Counter | [[Turtle/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

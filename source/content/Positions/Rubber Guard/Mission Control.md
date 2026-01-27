@@ -97,44 +97,26 @@ Mission Control serves as the central hub of the rubber guard system, connecting
 - Mission Control is a transitional hub - be ready to flow to New York, Carni, or submission controls based on opponent's defensive responses
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Triangle Setup]]** → [[Triangle Control]]
-  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 75%
+- **[[Triangle Setup]]** (15% of attempts)
 
-- **[[Omoplata to Sweep]]** → [[Omoplata Control]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 70%
+- **[[Omoplata to Sweep]]** (12% of attempts)
 
-- **[[Transition to Omoplata]]** → [[Omoplata Control]]
-  - Success Rate: Beginner 28%, Intermediate 48%, Advanced 68%
+- **[[Closed Guard to Omoplata]]** (12% of attempts)
 
-- **[[Triangle from Guard]]** → [[Triangle Control]]
-  - Success Rate: Beginner 32%, Intermediate 52%, Advanced 72%
+- **[[Triangle from Guard]]** (14% of attempts)
 
-- **[[Armbar from Guard]]** → [[Armbar Control]]
-  - Success Rate: Beginner 25%, Intermediate 42%, Advanced 62%
+- **[[Armbar from Guard]]** (10% of attempts)
 
-- **[[Transition to Truck]]** → [[New York]]
-  - Success Rate: Beginner 20%, Intermediate 38%, Advanced 58%
+- **[[Hip Bump Sweep]]** (10% of attempts)
 
-- **[[Hip Bump Sweep]]** → [[Mount]]
-  - Success Rate: Beginner 18%, Intermediate 32%, Advanced 50%
+- **[[Omoplata Sweep]]** (10% of attempts)
 
-- **[[Omoplata Sweep]]** → [[Back Control]]
-  - Success Rate: Beginner 22%, Intermediate 40%, Advanced 60%
+- **[[Closed Guard to Triangle]]** (8% of attempts)
 
-- **[[Transition to Omoplata]]** → [[Carni]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 50%
-
-- **[[Closed Guard to Triangle]]** → [[Gogoplata Control]]
-  - Success Rate: Beginner 10%, Intermediate 22%, Advanced 40%
-
-- **[[Triangle to Omoplata]]** → [[Invisible Collar]]
-  - Success Rate: Beginner 12%, Intermediate 25%, Advanced 45%
-
-- **[[Omoplata to Back]]** → [[Zombie]]
-  - Success Rate: Beginner 8%, Intermediate 18%, Advanced 35%
+- **[[Triangle to Omoplata]]** (9% of attempts)
 
 
 ### Common Mistakes
@@ -196,26 +178,20 @@ Mission Control serves as the central hub of the rubber guard system, connecting
 - Mission Control defense is a war of attrition - extend the positional battle beyond the bottom practitioner's sustainable timeframe
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Posture Recovery]]** → [[Closed Guard]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 55%
+- **[[Posture Recovery]]** (19% of attempts)
 
-- **[[Guard Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 15%, Intermediate 28%, Advanced 45%
+- **[[Guard Pass]]** (16% of attempts)
 
-- **[[Stack Defense]]** → [[Headquarters Position]]
-  - Success Rate: Beginner 18%, Intermediate 32%, Advanced 50%
+- **[[Stack Defense]]** (17% of attempts)
 
-- **[[Standing up in Base]]** → [[Standing Guard]]
-  - Success Rate: Beginner 22%, Intermediate 38%, Advanced 58%
+- **[[Standing up in Base]]** (20% of attempts)
 
-- **[[Arm Extraction]]** → [[Open Guard]]
-  - Success Rate: Beginner 12%, Intermediate 25%, Advanced 42%
+- **[[Arm Extraction]]** (15% of attempts)
 
-- **[[Guard Opening Sequence]]** → [[Combat Base]]
-  - Success Rate: Beginner 10%, Intermediate 20%, Advanced 38%
+- **[[Guard Opening Sequence]]** (13% of attempts)
 
 
 ### Common Mistakes

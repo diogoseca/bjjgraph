@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "X Pass | BJJ Technique | BJJ Graph"
 description: "Learn the X Pass in BJJ. Comprehensive guide to executing this dynamic guard pass from half guard positions. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%."
@@ -16,7 +17,7 @@ description: "Learn the X Pass in BJJ. Comprehensive guide to executing this dyn
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute X Pass in BJJ",
-  "description": "Step-by-step guide for X Pass from Half Guard to Side Control.",
+  "description": "Step-by-step guide for X Pass from Half Guard/Bottom. Possible outcomes: Side Control/Top (75%), Half Guard/Bottom (15%), Half Guard/Top (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -154,11 +155,25 @@ description: "Learn the X Pass in BJJ. Comprehensive guide to executing this dyn
 
 The X Pass is a highly effective guard passing technique that combines pressure, angle creation, and strategic weight distribution to neutralize the bottom player's defensive structure. Originating from top half guard positions, this pass leverages crossface control and hip pressure to flatten the opponent while simultaneously clearing the legs. The technique's name derives from the cross-body angle created during execution, where the passer's torso forms an 'X' shape relative to the opponent's body. This pass is particularly effective against knee shield and standard half guard variations, as it attacks the fundamental defensive frames that bottom players rely upon. The X Pass exemplifies modern pressure passing principles by combining forward pressure with lateral movement, creating a dilemma where the opponent must choose between maintaining their guard structure or preventing the pass. When executed with proper timing and pressure application, the X Pass becomes a cornerstone technique for any guard passing system, seamlessly transitioning into dominant top positions.
 
-**Starting Position**: [[Half Guard]]
-**Ending Position**: [[Side Control]]
+**From Position**: [[Half Guard/Bottom]]
 **Success Rates**: Beginner 45%, Intermediate 60%, Advanced 75%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Side Control/Top]] | 75% |
+| Failure | [[Half Guard/Bottom]] | 15% |
+| Counter | [[Half Guard/Top]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

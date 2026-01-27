@@ -21,37 +21,37 @@ description: "Master Leg Hook Top in BJJ. Control position from half guard top w
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, execute Knee Slice Pass to transition to Side Control. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 18% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag Pass",
-      "text": "From this position, execute Leg Drag Pass to transition to Side Control. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 14% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Weave Pass",
-      "text": "From this position, execute Leg Weave Pass to transition to Side Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Leg Weave Pass. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Mount",
-      "text": "From this position, execute Transition to Mount to transition to Mount. Success rate for advanced practitioners: 60%.",
+      "name": "Execute Side Control to Mount",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Take Generic",
-      "text": "From this position, execute Back Take Generic to transition to Back Control. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Back Take Generic. This technique is attempted in 11% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee on Belly",
-      "text": "From this position, execute Knee on Belly to transition to Knee on Belly. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Knee on Belly. This technique is attempted in 13% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -209,93 +209,22 @@ Leg Hook Top Position represents a transitional control state where the top prac
 
 ## Available Attacks
 
-### [[Knee Slice Pass]] → [[Side Control]]
+### [[Knee Slice Pass]] (18% of attempts)
 
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 60%
-- Advanced: 75%
+### [[Leg Drag Pass]] (14% of attempts)
 
-### [[Leg Drag Pass]] → [[Side Control]]
+### [[Leg Weave Pass]] (13% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Side Control to Mount]] (12% of attempts)
 
-### [[Leg Weave Pass]] → [[Side Control]]
+### [[Back Take Generic]] (11% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Knee on Belly]] (13% of attempts)
 
-### [[Transition to Mount]] → [[Mount]]
+### [[Kimura from Half Guard]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Darce Setup]] (9% of attempts)
 
-### [[Back Take Generic]] → [[Back Control]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-### [[Knee on Belly]] → [[Knee on Belly]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-### [[Kimura from Half Guard]] → [[Kimura Control]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
-
-### [[Darce Setup]] → [[D'arce Control]]
-
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 45%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Hip Escape]]** → [[Half Guard]] (Opponent Success: 45%)
-- **[[Re-Guard]]** → [[Open Guard]] (Opponent Success: 35%)
-- **[[Deep Half Entry]]** → [[Deep Half Guard]] (Opponent Success: 30%)
-- **[[Butterfly Hook Control]]** → [[Butterfly Guard]] (Opponent Success: 25%)
-- **[[Lockdown Sweeps]]** → [[Lockdown]] (Opponent Success: 20%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Pressure Pass]]** → [[Side Control]]
-  - Bottom player attempts to create space or frame
-- **[[Smash Pass]]** → [[Side Control]]
-  - Bottom player tries to recover full guard or establish butterfly hooks
-- **[[Kimura from Half Guard]]** → [[Kimura Control]]
-  - Bottom player extends arm to frame or push
-- **[[Darce from Turtle]]** → [[D'arce Control]]
-  - Bottom player turns away to turtle
-- **[[Back Take Generic]]** → [[Back Control]]
-  - Bottom player fully commits to turning away
 
 
 </section>
@@ -306,7 +235,7 @@ Leg Hook Top Position represents a transitional control state where the top prac
 
 **If bottom player is flat on their back with minimal defensive frames:**
 - Execute **[[Knee Slice Pass]]** → [[Side Control]] (Probability: 70%)
-- Execute **[[Transition to Mount]]** → [[Mount]] (Probability: 60%)
+- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 60%)
 
 
 **Else if bottom player is on their side attempting to create frames and distance:**
@@ -315,13 +244,13 @@ Leg Hook Top Position represents a transitional control state where the top prac
 
 
 **Else if bottom player extends arms to push or frame:**
-- Execute **[[Kimura from Half Guard]]** → [[Kimura Control]] (Probability: 50%)
+- Execute **[[Kimura from Half Guard]]** → [[Kimura Trap]] (Probability: 50%)
 - Execute **[[Darce Setup]]** → [[D'arce Control]] (Probability: 45%)
 
 
 **Else if bottom player attempts to turn away or go to turtle:**
 - Execute **[[Back Take Generic]]** → [[Back Control]] (Probability: 65%)
-- Execute **[[Darce from Turtle]]** → [[D'arce Control]] (Probability: 55%)
+- Execute **[[Darce Setup]]** → [[D'arce Control]] (Probability: 55%)
 
 
 **Else if bottom player is actively trying to recover full guard:**
@@ -419,33 +348,39 @@ Start in leg hook top position. Practice transitioning to submission threats (ki
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Shortest path to submission
+## Test Your Knowledge
 
-`Leg Hook Top → Kimura from Half Guard → Kimura Control → Kimura`
+**Q1**: What three points of contact form the stable tripod base in Leg Hook Top position?
+**A**: The stable tripod base consists of the hooked leg, the grounded knee, and upper body pressure distributed through chest and shoulder contact. This three-point distribution creates maximum stability while resisting the bottom player's attempts to off-balance or reverse you. The weight should shift dynamically between these points based on opponent reactions.
 
-### High-percentage darce path
+**Q2**: Your opponent starts hip escaping away from your hook - what adjustment do you make?
+**A**: Immediately follow their hip movement by circling your hips in the same direction while maintaining the hook tension. Use your far hand to control their hip and prevent further escape distance. Drive your chest pressure forward and slightly toward the direction they're escaping to cut off the angle. If they create significant space, transition to leg drag mechanics to re-establish control.
 
-`Leg Hook Top → Darce Setup → D'arce Control → Darce Choke`
+**Q3**: Why is controlling the far hip critical for maintaining Leg Hook Top position?
+**A**: Far hip control prevents the bottom player from executing hip escapes, turning into you, or creating the angular movement needed to recover guard. Without this control, they can use their free leg to push off your hips or establish butterfly hooks. The far hip grip acts as a tether that keeps them flat and limits their defensive options to only those that don't require hip mobility.
 
-### Back attack path
+**Q4**: What is the primary error that allows bottom players to recover guard from Leg Hook Top?
+**A**: Lifting chest and shoulder pressure off the bottom player's upper body to focus entirely on leg control is the primary error. This allows them to sit up, establish frames, or create space for guard recovery. The leg hook alone provides insufficient control - it must be combined with constant upper body pressure to create a complete control system that addresses both halves of their body.
 
-`Leg Hook Top → Back Take Generic → Back Control → Rear Naked Choke`
+**Q5**: Your opponent inserts a butterfly hook with their free leg - how do you respond?
+**A**: Immediately flatten the butterfly hook by driving your hip weight down onto their thigh while maintaining your primary leg hook. Use your free hand to push their knee to the mat or pin it against their other leg. Shift to a more smashing pressure distribution to eliminate the space they need to elevate you with the butterfly hook. If the hook is deep, consider transitioning to a smash pass variation.
 
-### Position advancement to submission
+**Q6**: What angle should your body maintain relative to the bottom player during Leg Hook Top?
+**A**: Position your body at 45-90 degrees relative to the bottom player rather than squared up directly. This passing angle creates efficient force direction for pass completion, limits their framing effectiveness, and provides better mobility to adjust to their defensive reactions. A squared-up posture makes you vulnerable to their frames and limits your passing options.
 
-`Leg Hook Top → Knee Slice Pass → Side Control → Kimura from Side Control`
+**Q7**: How do you prevent being swept when transitioning from Leg Hook Top to knee slice pass?
+**A**: Maintain the far hip control grip throughout the transition and keep your weight low with hips driving forward. Don't lift your weight to create the slice - drive through with hip pressure while keeping chest contact. The common sweep opportunity occurs when passers elevate their hips too high during the knee slice entry, so keep your center of gravity low and use lateral pressure rather than upward movement.
 
-### Mount finish path
-
-`Leg Hook Top → Transition to Mount → Mount → Armbar from Mount`
+**Q8**: What indicates the optimal timing to advance from Leg Hook Top to pass completion?
+**A**: The optimal timing is when the bottom player's defensive frames collapse or when they commit to a single escape direction. Signs include: their far leg stops actively defending, their upper body flattens to the mat, they stop fighting the crossface, or they commit to turning away. Attempting to advance while they're actively framing and mobile typically results in guard recovery or scramble opportunities.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -474,8 +409,8 @@ Start in leg hook top position. Practice transitioning to submission threats (ki
 - **[[Headquarters Position]]** - Related passing position - similar control concepts with different leg configuration
 - **[[Kimura from Half Guard]]** - Submission threat - opportunistic submission from this position
 - **[[Darce Choke]]** - Submission threat - available when bottom player makes defensive errors
-- **[[Underhook Pass]]** - Related passing concept - complementary passing strategy from half guard top
-- **[[10th Planet Half Guard Bottom System]]** - Defensive system - understanding opponent's systematic defense from bottom
+- **[[Smash Pass]]** - Related passing concept - complementary pressure passing strategy
+- **[[Lockdown]]** - Defensive system - understanding opponent's control from bottom
 
 
 </section>

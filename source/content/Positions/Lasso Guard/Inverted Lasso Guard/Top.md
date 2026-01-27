@@ -21,37 +21,37 @@ description: "Master top inverted lasso guard defense. Complete guide to prevent
     {
       "@type": "HowToStep",
       "name": "Execute Lasso Guard Pass",
-      "text": "From this position, execute Lasso Guard Pass to transition to Side Control. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Lasso Guard Pass. This technique is attempted in 13% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Stack Pass",
-      "text": "From this position, execute Stack Pass to transition to Side Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Stack Pass. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm Extraction",
-      "text": "From this position, execute Arm Extraction to transition to Open Guard. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Arm Extraction. This technique is attempted in 14% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Cartwheel Pass",
-      "text": "From this position, execute Cartwheel Pass to transition to Back Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Cartwheel Pass. This technique is attempted in 11% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Pressure Pass",
-      "text": "From this position, execute Pressure Pass to transition to Side Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Pressure Pass. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Cut Pass",
-      "text": "From this position, execute Knee Cut Pass to transition to Side Control. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Knee Cut Pass. This technique is attempted in 13% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -215,91 +215,22 @@ Advanced top players learn to create dilemmas in reverse - making the inverted p
 
 ## Available Attacks
 
-### [[Lasso Guard Pass]] → [[Side Control]]
+### [[Lasso Guard Pass]] (13% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 70%
+### [[Stack Pass]] (12% of attempts)
 
-### [[Stack Pass]] → [[Side Control]]
+### [[Arm Extraction]] (14% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 45%
-- Advanced: 65%
+### [[Cartwheel Pass]] (11% of attempts)
 
-### [[Arm Extraction]] → [[Open Guard]]
+### [[Pressure Pass]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 55%
-- Advanced: 75%
+### [[Knee Cut Pass]] (13% of attempts)
 
-### [[Cartwheel Pass]] → [[Back Control]]
+### [[Smash Pass]] (11% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 40%
-- Advanced: 60%
+### [[Toreando Pass]] (14% of attempts)
 
-### [[Pressure Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 45%
-- Advanced: 65%
-
-### [[Knee Cut Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 70%
-
-### [[Smash Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 40%
-- Advanced: 60%
-
-### [[Standing up in Base]] → [[Standing Position]]
-
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 60%
-- Advanced: 75%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Berimbolo Entry]]** → [[Back Control]] (Opponent Success: 55%)
-- **[[Hip Bump Sweep V2]]** → [[Mount]] (Opponent Success: 50%)
-- **[[Kiss of the Dragon]]** → [[Back Control]] (Opponent Success: 45%)
-- **[[Triangle Setup]]** → [[Triangle Control]] (Opponent Success: 35%)
-- **[[Omoplata Sweep]]** → [[Omoplata Control]] (Opponent Success: 40%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Cartwheel Pass]]** → [[Back Control]]
-  - Bottom player initiates berimbolo rotation by threading leg behind back
-- **[[Stack Pass]]** → [[Side Control]]
-  - Bottom player commits to overhead sweep by extending lassoed leg
-- **[[Arm Extraction]]** → [[Open Guard]]
-  - Bottom player's lasso hook loosens during position adjustment
-- **[[Pressure Pass]]** → [[Side Control]]
-  - Bottom player's hips lower toward mat, reducing mobility
 
 
 </section>
@@ -411,25 +342,39 @@ Start in established inverted lasso guard. Top player has 2 minutes to systemati
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Cartwheel Counter to Rear Naked Choke
+## Test Your Knowledge
 
-`Inverted Lasso Guard Top → Cartwheel Pass → Back Control → Rear Naked Choke → Won by Submission`
+**Q1**: What is the most critical timing window for countering the inverted lasso guard?
+**A**: The most critical timing window is during the inversion transition itself, before the bottom player completes the roll onto their shoulders and establishes their attacking angle. Once the inversion is complete and they have proper hip elevation with maintained lasso tension, defensive options narrow significantly. Responding within 1-2 seconds of recognizing the inversion initiation allows for cartwheel counters, immediate arm extraction, or preventive pressure that disrupts the technique.
 
-### Stack to Arm Triangle
+**Q2**: Why does driving forward pressure directly into an inverted opponent's hips actually help their sweep?
+**A**: Forward pressure into an inverted opponent's hips adds momentum to their overhead sweep mechanics. The inverted position creates a fulcrum where the lasso hook acts as a pivot point - your forward force gets redirected into rotational energy that lifts your base off the mat and drives you over their body. Instead, pressure should be angled toward their shoulders and chest while keeping your hips back and base wide to prevent becoming a lever arm for their technique.
 
-`Inverted Lasso Guard Top → Stack Pass → Side Control → Arm Triangle → Won by Submission`
+**Q3**: What are the three primary strategic approaches for defending inverted lasso guard from top?
+**A**: The three primary strategies are: arm extraction (systematically removing the lassoed limb by addressing the ankle grip first, creating slack, then withdrawing the arm), pressure passing (establishing heavy shoulder and chest control to prevent hip mobility and make the inverted position uncomfortable), and counter-inversions (following the bottom player's rotational movement with cartwheels or back steps that match their angle and neutralize their geometric advantage). Each has specific timing requirements and risk profiles.
 
-### Extract to Knee Bar
+**Q4**: Your opponent inverts into lasso guard and begins hip rotation for a berimbolo. What immediate adjustment should you make?
+**A**: When the opponent begins berimbolo rotation by threading their leg behind your back, you should immediately initiate a cartwheel pass by following their rotational direction while maintaining connection. Your free hand controls their far hip while you cartwheel over their rotating body, using their momentum to establish back control or side control on the other side. Fighting against their rotation allows them to complete the back take, but matching it with a counter-rotation neutralizes their advantage.
 
-`Inverted Lasso Guard Top → Arm Extraction → Open Guard → Kneebar from Top → Won by Submission`
+**Q5**: How should you approach extracting your lassoed arm, and why is explosive pulling ineffective?
+**A**: Arm extraction requires a systematic approach: first control their free leg to prevent them from using it for angles, then address the ankle grip on your lassoed arm to create slack in the lasso, finally withdraw the arm in a controlled pulling motion once slack exists. Explosive pulling fails because the lasso structure creates mechanical advantage that increases with sudden force - their leg wrapped around your arm acts like a finger trap that tightens with jerky movement. Controlled, sequential extraction defeats the mechanical structure rather than fighting against it.
+
+**Q6**: What common error allows the bottom player to successfully initiate berimbolo or sweeps unopposed?
+**A**: The most common enabling error is ignoring the free leg that isn't involved in the lasso. When you fail to control this leg, the bottom player can post it on your hip to control distance, thread it behind your back to initiate berimbolo, or use it to create the angles necessary for overhead sweeps. The free leg is their steering mechanism and attacking tool - controlling it with your hand or pinning it with your hip prevents them from converting the inverted position into offensive techniques.
+
+**Q7**: Why should you stay connected to an inverted lasso guard player rather than creating distance?
+**A**: Creating distance by stepping back opens massive space for berimbolo entries and allows the bottom player to thread their legs more easily and rotate behind your back. Space also permits them to reset with better angles or chain the inversion with other guard positions. Staying connected with strategic pressure points while controlling their hips prevents rotation without giving them room to maneuver. Connection limits their options to defending your pressure rather than freely attacking.
+
+**Q8**: How can you make the inverted position itself uncomfortable enough to force the bottom player to abandon it?
+**A**: Apply strategic pressure on their inverted shoulders and upper back (not their hips), forcing them to support your weight while maintaining their inverted posture. Control their hips with your free hand to prevent the rotation necessary for techniques. Threaten submissions or passes that force them to use their grips defensively rather than offensively. The goal is making the energy cost of maintaining the inversion exceed the potential benefit, converting their offensive position into an exhausting defensive struggle that they must abandon.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 

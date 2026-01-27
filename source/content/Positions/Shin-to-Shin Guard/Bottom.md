@@ -21,37 +21,37 @@ description: "Master Shin-to-Shin Guard from bottom perspective. Learn shin conn
     {
       "@type": "HowToStep",
       "name": "Execute Single Leg X Entry",
-      "text": "From this position, execute Single Leg X Entry to transition to Single Leg X-Guard. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Single Leg X Entry. This technique is attempted in 11% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute X-Guard Sweep",
-      "text": "From this position, execute X-Guard Sweep to transition to X-Guard. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt X-Guard Sweep. This technique is attempted in 10% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Butterfly Sweep",
-      "text": "From this position, execute Butterfly Sweep to transition to Butterfly Guard. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Butterfly Sweep. This technique is attempted in 11% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Outside Ashi Entry",
-      "text": "From this position, execute Outside Ashi Entry to transition to Outside Ashi-Garami. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Outside Ashi Entry. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute De La Riva Sweep",
-      "text": "From this position, execute De La Riva Sweep to transition to De La Riva Guard. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt De La Riva Sweep. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Technical Stand Up to Single Leg",
-      "text": "From this position, execute Technical Stand Up to Single Leg to transition to Standing Position. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Technical Stand Up to Single Leg. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -210,108 +210,26 @@ Shin-to-Shin Guard from the bottom perspective represents one of the most versat
 
 ## Available Escapes
 
-### [[Single Leg X Entry]] → [[Single Leg X-Guard]]
+### [[Single Leg X Entry]] (11% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 55%
-- Advanced: 70%
+### [[X-Guard Sweep]] (10% of attempts)
 
-### [[X-Guard Sweep]] → [[X-Guard]]
+### [[Butterfly Sweep]] (11% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Outside Ashi Entry]] (10% of attempts)
 
-### [[Butterfly Sweep]] → [[Butterfly Guard]]
+### [[De La Riva Sweep]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Technical Stand Up to Single Leg]] (10% of attempts)
 
-### [[Outside Ashi Entry]] → [[Outside Ashi-Garami]]
+### [[Omoplata Sweep]] (8% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Shin to Shin Pull]] (10% of attempts)
 
-### [[De La Riva Sweep]] → [[De La Riva Guard]]
+### [[Hook Sweep]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Tripod Sweep]] (10% of attempts)
 
-### [[Technical Stand Up to Single Leg]] → [[Standing Position]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-### [[Omoplata Sweep]] → [[Mount]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
-
-### [[Shin to Shin Pull]] → [[Scramble Position]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[Hook Sweep]] → [[Mount]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 48%
-- Advanced: 62%
-
-### [[Tripod Sweep]] → [[Standing Position]]
-
-**Success Rates:**
-- Beginner: 28%
-- Intermediate: 46%
-- Advanced: 60%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Knee Slice Pass]]** → [[Headquarters Position]] (Opponent Success: 40%)
-- **[[Long Step Pass]]** → [[Side Control]] (Opponent Success: 35%)
-- **[[Leg Drag Pass]]** → [[Back Control]] (Opponent Success: 30%)
-- **[[Stack Pass]]** → [[Side Control]] (Opponent Success: 25%)
-- **[[Pressure Pass]]** → [[Side Control]] (Opponent Success: 30%)
-- **[[Combat Base]]** → [[Combat Base]] (Opponent Success: 50%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Single Leg X Entry]]** → [[Single Leg X-Guard]]
-  - Opponent attempts to step over shin connection or drive forward with weight
-- **[[X-Guard Sweep]]** → [[X-Guard]]
-  - Opponent posts significant weight on the shin-to-shin leg while attempting to clear
-- **[[De La Riva Sweep]]** → [[De La Riva Guard]]
-  - Opponent steps back and creates distance to disengage from shin connection
-- **[[Butterfly Sweep]]** → [[Mount]]
-  - Opponent drops their center of gravity and attempts to pressure forward into guard
-- **[[Technical Stand-up]]** → [[Standing Position]]
-  - Opponent completely disengages and creates significant distance, breaking all connections
 
 
 </section>
@@ -342,7 +260,7 @@ Shin-to-Shin Guard from the bottom perspective represents one of the most versat
 
 **If opponent secures strong upper body control with dominant grips and attempts to control posture for passing sequences:**
 - Execute **[[X-Guard Sweep]]** → [[X-Guard]] (Probability: 50%)
-- Execute **[[Guard Recovery]]** → [[Defensive Position]] (Probability: 45%)
+- Execute **[[Guard Recovery]]** → [[Open Guard]] (Probability: 45%)
 
 
 
@@ -428,37 +346,39 @@ Partner defends your first sweep attempt using one of several predetermined defe
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Leg entanglement attack pathway
+## Test Your Knowledge
 
-`Shin-to-Shin Guard Bottom → Single Leg X Entry → Outside Ashi-Garami → Straight Ankle Lock`
+**Q1**: What is the optimal placement and angle for the shin connection in shin-to-shin guard?
+**A**: Position your shin across the lower third of the opponent's tibia at approximately 45 degrees perpendicular to their leg. This placement creates maximum leverage for off-balancing while making it mechanically difficult for them to clear without exposing themselves to transitions. Too high (near knee) reduces leverage; too low (near ankle) allows easy clearing; too shallow an angle provides insufficient control over their base.
 
-### High-percentage sweep to mount submission
+**Q2**: Your opponent begins circling to their right while attempting to strip your ankle grip—how do you maintain the shin connection?
+**A**: Follow their movement by adjusting your hip angle in the same direction, keeping your shin pressure constant while rotating to match their circle. Simultaneously reinforce your grip or establish a new control point on their leg before the original is stripped. If they continue circling aggressively, this often creates ideal timing for single leg X entry as their weight shifts over the trapped leg.
 
-`Shin-to-Shin Guard Bottom → X-Guard Sweep → Mount → Americana from Mount`
+**Q3**: What are the primary grips you should prioritize from shin-to-shin bottom and why?
+**A**: Prioritize sleeve grip on the same side as your shin connection to prevent them from posting and to assist with off-balancing, combined with either collar grip for posture control or pants/belt grip for distance management. These grips prevent the opponent from achieving dominant passing grips while allowing you to manage distance and set up sweeps. Without upper body control, the shin connection alone is insufficient to prevent being passed.
 
-### Direct omoplata attack from guard
+**Q4**: Your opponent drops their weight and begins driving forward with pressure—what transition should you initiate?
+**A**: Their forward pressure actually creates the ideal setup for butterfly sweep or elevation to X-guard. Use their forward momentum against them by transitioning your shin-to-shin hook to a butterfly hook, then execute the butterfly sweep using their committed weight. Alternatively, if you can get underneath them, use the forward pressure to facilitate X-guard entry by getting your second hook in and elevating.
 
-`Shin-to-Shin Guard Bottom → Omoplata Sweep → Omoplata`
+**Q5**: How do you recognize when shin-to-shin has been neutralized and it's time to transition?
+**A**: Key indicators include: your shin pressure no longer affecting their base, opponent has established dominant upper body grips that control your posture, you cannot generate off-balancing force despite hip adjustment, opponent's weight is no longer threatened by your connection, or they've successfully changed the angle to make your shin contact ineffective. When these occur, immediately flow to single leg X, De La Riva, or butterfly rather than fighting a losing battle.
 
-### Advanced leg lock system entry
+**Q6**: What role does hip mobility play in maintaining effective shin-to-shin guard?
+**A**: Hip mobility is essential for creating dynamic pressure adjustments, maintaining the shin connection angle as opponents move, generating off-balancing force without relying solely on arm strength, enabling smooth transitions to related guards, and recovering position when partially cleared. Mobile hips allow you to constantly threaten while making your guard an active puzzle rather than a static barrier that can be systematically dismantled.
 
-`Shin-to-Shin Guard Bottom → Single Leg X Entry → Inside Ashi-Garami → Heel Hook`
+**Q7**: Your opponent successfully clears your shin and begins their knee slice pass—what is your highest-percentage recovery option?
+**A**: As the shin is cleared during a knee slice, your best option is typically to pummel your inside leg to establish knee shield in their path while simultaneously establishing frames and recovering guard angle. If the knee slice is already past the initial stage, transition to half guard retention or consider using their forward momentum to enter deep half guard. The key is immediate recognition—the sooner you respond, the more options remain available.
 
-### Butterfly system sweep combination
-
-`Shin-to-Shin Guard Bottom → Butterfly Guard → Butterfly Sweep → Side Control → Kimura from Side Control`
-
-### X-guard system to back attack
-
-`Shin-to-Shin Guard Bottom → X-Guard Sweep → Turtle → Back Control → Rear Naked Choke`
+**Q8**: How should you manage your free leg (the one not creating the shin connection) to prevent it from being used against you?
+**A**: Keep your free leg active and positioned to serve multiple functions: use it to frame against their hip or shoulder to control distance, post it on the mat for base adjustments and hip mobility, use it to threaten secondary entries like De La Riva or butterfly, and most importantly, keep it moving so they cannot grip it and use it as a handle to break your structure. A static free leg is easily controlled and becomes a liability.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 

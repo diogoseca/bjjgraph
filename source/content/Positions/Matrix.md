@@ -101,32 +101,24 @@ The position's learning curve is steep, requiring months of dedicated drilling t
 - Prepare multiple backup transitions if rotation is defended or incomplete
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Matrix Back Take]]** → [[Back Control]]
-  - Success Rate: Beginner 20%, Intermediate 40%, Advanced 65%
+- **[[Matrix Back Take]]** (13% of attempts)
 
-- **[[Rolling Back Take]]** → [[Back Control]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 60%
+- **[[Rolling Back Take]]** (12% of attempts)
 
-- **[[Arm Drag to Back]]** → [[Back Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Arm Drag to Back]]** (13% of attempts)
 
-- **[[Chair Sit to Back]]** → [[Crab Ride]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Chair Sit to Back]]** (12% of attempts)
 
-- **[[Granby Roll]]** → [[Closed Guard]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Granby Roll]]** (14% of attempts)
 
-- **[[Rolling to Guard]]** → [[Open Guard]]
-  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+- **[[Rolling to Guard]]** (12% of attempts)
 
-- **[[Berimbolo Entry]]** → [[Back Control]]
-  - Success Rate: Beginner 15%, Intermediate 35%, Advanced 55%
+- **[[Berimbolo Entry]]** (11% of attempts)
 
-- **[[Turtle to Back Take]]** → [[Back Control]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 65%
+- **[[Turtle to Back Take]]** (13% of attempts)
 
 
 ### Common Mistakes
@@ -184,32 +176,24 @@ The position's learning curve is steep, requiring months of dedicated drilling t
 - Transitional movement (passing, advancing) naturally defends against static Matrix setups
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Sprawl Defense]]** → [[Turtle]]
-  - Success Rate: Beginner 40%, Intermediate 60%, Advanced 75%
+- **[[Sprawl Defense]]** (15% of attempts)
 
-- **[[Crossface Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Crossface Pass]]** (13% of attempts)
 
-- **[[Back Step]]** → [[Back Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Back Step]]** (12% of attempts)
 
-- **[[Knee Slice Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Knee Slice Pass]]** (14% of attempts)
 
-- **[[Turtle to Back Take]]** → [[Back Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Turtle to Back Take]]** (13% of attempts)
 
-- **[[Darce from Turtle]]** → [[D'arce Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Darce from Turtle]]** (11% of attempts)
 
-- **[[Guillotine from Turtle]]** → [[Guillotine Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Guillotine from Turtle]]** (12% of attempts)
 
-- **[[Anaconda from Turtle]]** → [[Anaconda Control]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Anaconda from Turtle]]** (10% of attempts)
 
 
 ### Common Mistakes

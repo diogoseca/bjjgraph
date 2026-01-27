@@ -86,29 +86,24 @@ X-Guard is an advanced open guard position where the bottom practitioner entangl
 - Transition seamlessly between X-Guard variations based on opponent reactions
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[X-Guard Sweep]]** → [[Mount]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[X-Guard Sweep]]** (25% of attempts)
 
-- **[[Single Leg X Entry]]** → [[Single Leg X-Guard]]
-  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+- **[[Single Leg X Entry]]** (20% of attempts)
 
-- **[[X-Guard to Ashi Transition]]** → [[Ashi Garami]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[X-Guard to Ashi Transition]]** (15% of attempts)
 
-- **[[Standing to Single Leg X]]** → [[Single Leg X-Guard]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Technical Stand Up to Single Leg]]** (10% of attempts)
 
-- **[[Technical Standup]]** → [[Standing Position]]
-  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 80%
+- **[[Deep Half Entry]]** (10% of attempts)
 
-- **[[Deep Half Entry]]** → [[Deep Half Guard]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Butterfly Guard to X-Guard]]** (8% of attempts)
 
-- **[[Butterfly Guard to X-Guard]]** → [[Butterfly Guard]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Overhead Sweep]]** (7% of attempts)
+
+- **[[Kneebar from Guard]]** (5% of attempts)
 
 
 ### Common Mistakes
@@ -166,32 +161,24 @@ X-Guard is an advanced open guard position where the bottom practitioner entangl
 - Maintain calm patience while systematically dismantling the guard
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Smash Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+- **[[Smash Pass]]** (18% of attempts)
 
-- **[[Knee Slice Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Knee Slice Pass]]** (20% of attempts)
 
-- **[[Long Step Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Long Step Pass]]** (12% of attempts)
 
-- **[[Saddle Entry from Top]]** → [[Honey Hole]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 60%
+- **[[Saddle Entry from Top]]** (10% of attempts)
 
-- **[[Outside Ashi Entry]]** → [[Outside Ashi-Garami]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Outside Ashi Entry]]** (8% of attempts)
 
-- **[[Leg Weave Pass]]** → [[Headquarters Position]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Leg Weave Pass]]** (12% of attempts)
 
-- **[[Stack Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Back Step]]** (8% of attempts)
 
-- **[[Back Step]]** → [[Back Control]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Stack Pass]]** (12% of attempts)
 
 
 ### Common Mistakes

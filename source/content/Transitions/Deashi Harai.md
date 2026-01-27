@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Deashi Harai | BJJ Technique | BJJ Graph"
 description: "Learn Deashi Harai in BJJ. Step-by-step execution from Standing Position to Side Control. Success: Beginner 30%, Intermediate 50%, Advanced 70%."
@@ -16,7 +17,7 @@ description: "Learn Deashi Harai in BJJ. Step-by-step execution from Standing Po
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Deashi Harai in BJJ",
-  "description": "Step-by-step guide for Deashi Harai from Standing Position to Side Control.",
+  "description": "Step-by-step guide for Deashi Harai from Standing Position/Top. Possible outcomes: Side Control/Top (70%), Standing Position/Top (20%), Standing Position/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -170,11 +171,25 @@ The technique is particularly effective in BJJ because it requires minimal stren
 
 In the BJJ context, Deashi Harai serves as both a scoring takedown and a strategic tool for controlling the pace of engagement. It works exceptionally well against opponents who use aggressive forward pressure or attempt to establish collar-and-sleeve grips, as these actions naturally create the weight transfer necessary for the sweep to succeed. The technique also chains effectively with other foot sweeps and throws, creating a comprehensive standup system that keeps opponents defensive and hesitant.
 
-**Starting Position**: [[Standing Position]]
-**Ending Position**: [[Side Control]]
+**From Position**: [[Standing Position/Top]]
 **Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Side Control/Top]] | 70% |
+| Failure | [[Standing Position/Top]] | 20% |
+| Counter | [[Standing Position/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

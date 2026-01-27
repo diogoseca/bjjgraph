@@ -21,37 +21,37 @@ description: "Master Scarf Hold Top (Kesa Gatame) in BJJ. Traditional judo pinni
     {
       "@type": "HowToStep",
       "name": "Execute Americana from Side Control",
-      "text": "From this position, execute Americana from Side Control to transition to Americana Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Americana from Side Control. This technique is attempted in 17% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kimura from Side Control",
-      "text": "From this position, execute Kimura from Side Control to transition to Kimura Control. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Kimura from Side Control. This technique is attempted in 14% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Mount",
-      "text": "From this position, execute Transition to Mount to transition to Mount. Success rate for advanced practitioners: 70%.",
+      "name": "Execute Side Control to Mount",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 18% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to North-South",
-      "text": "From this position, execute Transition to North-South to transition to North-South. Success rate for advanced practitioners: 80%.",
+      "name": "Execute Side Control to North-South",
+      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 22% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Armbar from Side Control",
-      "text": "From this position, execute Armbar from Side Control to transition to Armbar Control. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Armbar from Side Control. This technique is attempted in 13% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm Triangle",
-      "text": "From this position, execute Arm Triangle to transition to Americana Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Arm Triangle. This technique is attempted in 16% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -208,74 +208,18 @@ Scarf Hold Top Position (Kesa Gatame) is a classical pinning position derived fr
 
 ## Available Attacks
 
-### [[Americana from Side Control]] → [[Americana Control]]
+### [[Americana from Side Control]] (17% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Kimura from Side Control]] (14% of attempts)
 
-### [[Kimura from Side Control]] → [[Kimura Control]]
+### [[Side Control to Mount]] (18% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
+### [[Side Control to North-South]] (22% of attempts)
 
-### [[Transition to Mount]] → [[Mount]]
+### [[Armbar from Side Control]] (13% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Arm Triangle]] (16% of attempts)
 
-### [[Transition to North-South]] → [[North-South]]
-
-**Success Rates:**
-- Beginner: 50%
-- Intermediate: 65%
-- Advanced: 80%
-
-### [[Armbar from Side Control]] → [[Armbar Control]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
-
-### [[Arm Triangle]] → [[Americana Control]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Frame and Shrimp]]** → [[Closed Guard]] (Opponent Success: 30%)
-- **[[Elbow Escape]]** → [[Half Guard]] (Opponent Success: 35%)
-- **[[Bridge and Roll]]** → [[Scramble Position]] (Opponent Success: 20%)
-- **[[Hip Escape]]** → [[Closed Guard]] (Opponent Success: 25%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Transition to Mount]]** → [[Mount]]
-  - Opponent attempts to turn into you or bridge
-- **[[Transition to North-South]]** → [[North-South]]
-  - Opponent pushes away with far arm or attempts to create distance
-- **[[Americana from Side Control]]** → [[Americana Control]]
-  - Opponent exposes near arm while attempting to frame or post
 
 
 </section>
@@ -285,23 +229,23 @@ Scarf Hold Top Position (Kesa Gatame) is a classical pinning position derived fr
 ## Decision Making from This Position
 
 **If opponent attempts to turn their face toward you and bridge:**
-- Execute **[[Transition to Mount]]** → [[Mount]] (Probability: 65%)
-- Execute **[[Kimura from Side Control]]** → [[Kimura Control]] (Probability: 45%)
+- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 65%)
+- Execute **[[Kimura from Side Control]]** → [[Kimura Trap]] (Probability: 45%)
 
 
 **If opponent pushes on your head with far arm to create space:**
-- Execute **[[Transition to North-South]]** → [[North-South]] (Probability: 70%)
+- Execute **[[Side Control to North-South]]** → [[North-South]] (Probability: 70%)
 - Execute **[[Armbar from Side Control]]** → [[Armbar Control]] (Probability: 50%)
 
 
 **If opponent attempts to extract trapped near arm:**
-- Execute **[[Americana from Side Control]]** → [[Americana Control]] (Probability: 60%)
-- Execute **[[Transition to Mount]]** → [[Mount]] (Probability: 55%)
+- Execute **[[Americana from Side Control]]** → [[Armbar Control]] (Probability: 60%)
+- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 55%)
 
 
 **If opponent is passive and not defending actively:**
-- Execute **[[Americana from Side Control]]** → [[Americana Control]] (Probability: 75%)
-- Execute **[[Kimura from Side Control]]** → [[Kimura Control]] (Probability: 65%)
+- Execute **[[Americana from Side Control]]** → [[Armbar Control]] (Probability: 75%)
+- Execute **[[Kimura from Side Control]]** → [[Kimura Trap]] (Probability: 65%)
 
 
 
@@ -349,51 +293,60 @@ Scarf Hold Top Position (Kesa Gatame) is a classical pinning position derived fr
 
 Partner starts in scarf hold top, bottom partner attempts to create space by bridging and framing. Top partner focuses on maintaining tight connection, low hips, and constant pressure through weight distribution. Work 2-minute rounds with emphasis on feeling opponent's movements and adjusting weight accordingly.
 
+**Duration**: 2 minutes
 
 
 ### Scarf Hold Transition Flow
 
 From scarf hold top, practice flowing between scarf hold, north-south, mount, and back to scarf hold. Bottom partner provides 30% resistance. Focus on maintaining control through transitions and never losing connection with opponent's upper body. Emphasize smooth weight transfers and grip adjustments.
 
+**Duration**: 3 minutes
 
 
 ### Scarf Hold Submission Chain Drill
 
 Start in scarf hold top and chain between Americana, arm triangle, and kimura setups based on opponent's defensive reactions. Bottom partner defends intelligently but allows top partner to complete setups. Focus on recognizing submission opportunities created by opponent's escape attempts.
 
+**Duration**: 5 minutes
 
 
 
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Shortest path to submission
+## Test Your Knowledge
 
-`Scarf Hold Position Top → Americana from Side Control → Won by Submission`
+**Q1**: What is the primary weight distribution point for maintaining effective scarf hold control?
+**A**: Weight should be distributed primarily through your hips pressing directly into the opponent's ribcage, not through extended arms or a posted base. Sitting low with hips heavy on the mat beside their torso creates crushing pressure that restricts breathing and limits their movement options. Keeping weight through the pelvis rather than the legs or arms maintains constant control while conserving energy.
 
-### High-percentage arm attack sequence
+**Q2**: Your opponent starts bridging explosively - what adjustment do you make to maintain position?
+**A**: When opponent bridges, widen your base by extending your back leg further behind you and driving your hip pressure deeper into their ribs. Simultaneously tighten your head control to prevent them from turning their face toward you. Ride the bridge by staying connected rather than posting away, and as they return to the mat, immediately re-consolidate your perpendicular angle and arm trap before they can chain into another escape attempt.
 
-`Scarf Hold Position Top → Armbar from Side Control → Armbar Control → Won by Submission`
+**Q3**: What are the essential grips for maintaining scarf hold position?
+**A**: The primary grips involve threading your near arm underneath opponent's near arm and securing above their elbow or on the tricep to prevent extraction. Your far arm wraps around their head with your hand gripping their far collar, your own belt, or clasping behind their neck. These combined grips create the control triangle of angle, arm, and head that defines effective scarf hold retention.
 
-### North-south transition path
+**Q4**: How do you shut down the opponent's primary bridge-and-roll escape attempt?
+**A**: The bridge-and-roll relies on opponent trapping your far arm and rolling you over your shoulder. Prevent this by keeping your far arm (the one around their head) tight and mobile, never letting them pin it to their chest. If they grab your arm, immediately circle it free or use your head control to turn their face away, breaking their alignment for the roll. Additionally, extend your legs wide for base and keep hips low to make elevating you nearly impossible.
 
-`Scarf Hold Position Top → Transition to North-South → North-South → North-South Choke → Won by Submission`
+**Q5**: What grip priorities should you establish immediately upon transitioning to scarf hold?
+**A**: First priority is head control - wrap your far arm around their head before they can establish defensive frames. Second priority is near arm control by threading underneath and securing above elbow. Third is hip positioning, sitting low and tight against their ribcage. Never settle your weight until both head and arm control are secured, as a loose transition allows immediate escape opportunities.
 
-### Mount consolidation path
+**Q6**: Your opponent turns their face toward you and starts establishing frames - how do you respond?
+**A**: This is a critical moment requiring immediate response. Drive your crossface deeper using your far arm to turn their head away, eliminating their visual reference and frame effectiveness. Simultaneously tighten your arm control to prevent them from creating space. If they get a frame on your shoulder, drive your weight through your hips into their ribs while working to swim your arm inside their frame. Never allow them to complete the turn as this leads to guard recovery or reversal.
 
-`Scarf Hold Position Top → Transition to Mount → Mount → Americana from Mount → Won by Submission`
+**Q7**: How do you manage energy expenditure while maintaining scarf hold for extended periods?
+**A**: Scarf hold should be low-energy when positioned correctly. Rest your weight through skeletal structure rather than muscular tension by keeping hips low and heavy. Use body positioning rather than grip strength where possible. When opponent is not actively escaping, relax your muscles while maintaining structural connection. The perpendicular angle naturally pins them when weight is properly distributed, requiring minimal effort compared to fighting their escape attempts reactively.
 
-### Kimura control chain
-
-`Scarf Hold Position Top → Kimura from Side Control → Kimura Control → Kimura → Won by Submission`
+**Q8**: Your opponent extracts their trapped arm partially - how do you recover control?
+**A**: Immediately transition to attacking the exposed arm with americana or kimura threat, which forces them to defend the submission rather than complete the extraction. If they continue extracting, switch your arm control by diving your near arm to their far shoulder (modified scarf hold variation) or transition to mount as their arm extraction creates the space for leg step-over. Never chase a fully extracted arm - use the extraction as a transition trigger instead.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -423,7 +376,6 @@ Start in scarf hold top and chain between Americana, arm triangle, and kimura se
 - **[[Mount]]** - Transition target - advancement option when opponent turns in
 - **[[Americana from Side Control]]** - Primary submission - highest percentage finish from this position
 - **[[Kimura from Side Control]]** - Secondary submission when opponent defends americana
-- **[[Pressure Application]]** - Core concept - fundamental to effective scarf hold control
 
 
 </section>

@@ -21,37 +21,37 @@ description: "Defend and escape body triangle position in BJJ. Strategic guide c
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Turtle",
-      "text": "From this position, execute Hip Escape to Turtle to transition to Turtle. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Hip Escape to Turtle. This technique is attempted in 20% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Frame and Shrimp",
-      "text": "From this position, execute Frame and Shrimp to transition to Half Guard. Success rate for advanced practitioners: 45%.",
+      "text": "From this position, attempt Frame and Shrimp. This technique is attempted in 18% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Granby Roll",
-      "text": "From this position, execute Granby Roll to transition to Guard Recovery. Success rate for advanced practitioners: 48%.",
+      "text": "From this position, attempt Granby Roll. This technique is attempted in 19% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling Back Take Reversal",
-      "text": "From this position, execute Rolling Back Take Reversal to transition to Back Control. Success rate for advanced practitioners: 35%.",
+      "text": "From this position, attempt Rolling Back Take Reversal. This technique is attempted in 14% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Clear to Side",
-      "text": "From this position, execute Triangle Clear to Side to transition to Side Control. Success rate for advanced practitioners: 40%.",
+      "text": "From this position, attempt Triangle Clear to Side. This technique is attempted in 16% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Technical Standup",
-      "text": "From this position, execute Technical Standup to transition to Standing Position. Success rate for advanced practitioners: 32%.",
+      "text": "From this position, attempt Technical Standup. This technique is attempted in 13% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -211,75 +211,18 @@ Successful defense from body triangle top requires calm breathing management, sy
 
 ## Available Attacks
 
-### [[Hip Escape to Turtle]] → [[Turtle]]
+### [[Hip Escape to Turtle]] (20% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
+### [[Frame and Shrimp]] (18% of attempts)
 
-### [[Frame and Shrimp]] → [[Half Guard]]
+### [[Granby Roll]] (19% of attempts)
 
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 45%
+### [[Rolling Back Take Reversal]] (14% of attempts)
 
-### [[Granby Roll]] → [[Guard Recovery]]
+### [[Triangle Clear to Side]] (16% of attempts)
 
-**Success Rates:**
-- Beginner: 18%
-- Intermediate: 33%
-- Advanced: 48%
+### [[Technical Standup]] (13% of attempts)
 
-### [[Rolling Back Take Reversal]] → [[Back Control]]
-
-**Success Rates:**
-- Beginner: 10%
-- Intermediate: 20%
-- Advanced: 35%
-
-### [[Triangle Clear to Side]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 12%
-- Intermediate: 25%
-- Advanced: 40%
-
-### [[Technical Standup]] → [[Standing Position]]
-
-**Success Rates:**
-- Beginner: 8%
-- Intermediate: 18%
-- Advanced: 32%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Rear Naked Choke]]** → [[Lost by Submission]] (Opponent Success: 65%)
-- **[[Bow and Arrow Choke]]** → [[Lost by Submission]] (Opponent Success: 60%)
-- **[[Armbar from Back with Legs]]** → [[Armbar Control]] (Opponent Success: 55%)
-- **[[Short Choke]]** → [[Lost by Submission]] (Opponent Success: 50%)
-- **[[Back Control to Crucifix]]** → [[Crucifix]] (Opponent Success: 45%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Hip Escape to Turtle]]** → [[Turtle]]
-  - When you create enough space to rotate hips and begin turning into opponent
-- **[[Frame and Shrimp to Half Guard]]** → [[Half Guard]]
-  - After clearing triangle and creating frame to prevent opponent from maintaining back control
-- **[[Technical Standup]]** → [[Standing Position]]
-  - When triangle is cleared and you have posting opportunity to elevate to standing
 
 
 </section>
@@ -300,7 +243,7 @@ Successful defense from body triangle top requires calm breathing management, sy
 
 **If opponent's triangle lock is loosening or not optimally positioned:**
 - Execute **[[Hip Escape to Turtle]]** → [[Turtle]] (Probability: 50%)
-- Execute **[[Granby Roll escape]]** → [[Guard Recovery]] (Probability: 48%)
+- Execute **[[Granby Roll escape]]** → [[Open Guard]] (Probability: 48%)
 
 
 **If you have cleared triangle completely but opponent maintains upper body control:**
@@ -386,33 +329,39 @@ Partner maintains body triangle while you focus exclusively on optimal defensive
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Shortest escape path
+## Test Your Knowledge
 
-`Body Triangle → Hip Escape → Turtle → Standing Position`
+**Q1**: Your opponent squeezes the body triangle tighter when you attempt to clear it - what adjustment should you make?
+**A**: Stop fighting the squeeze directly and focus on attacking the lock mechanics instead. Target the foot behind their knee by creating space with your hips first, then using your hand to push their ankle out of the figure-four lock. The tighter they squeeze, the more committed their legs become, making the lock position itself the vulnerability rather than the pressure.
 
-### Guard recovery path
+**Q2**: What are the essential defensive positions for your hands when trapped in body triangle?
+**A**: One hand should always be defending your neck by keeping your chin tucked and hand positioned to block choking arm entry. The second hand fights their controlling hand or works to create frames against their body. Never have both hands attacking the triangle simultaneously as this exposes your neck completely to their submission attempts.
 
-`Body Triangle → Granby Roll → Guard Recovery → Closed Guard`
+**Q3**: How should you manage your breathing when the body triangle restricts your diaphragm?
+**A**: Take controlled, shallow breaths using your chest rather than trying to breathe deeply with your diaphragm. Avoid holding your breath or breathing erratically as this accelerates panic and oxygen depletion. Accept that you cannot take full breaths and work efficiently with reduced oxygen, saving explosive efforts for critical escape moments rather than constant struggling.
 
-### Half guard safety path
+**Q4**: Your opponent starts increasing squeeze pressure - what is your immediate priority?
+**A**: Immediately turn your body toward the triangle leg to reduce the squeezing angle and surface area. By angling your torso toward the locked leg side, you reduce the effectiveness of their squeeze while positioning yourself to begin attacking the lock. This buys time without requiring excessive energy expenditure.
 
-`Body Triangle → Frame and Shrimp → Half Guard → Half Guard Recovery`
+**Q5**: What is the primary vulnerability in the body triangle lock you should target for escape?
+**A**: The foot tucked behind their knee is the structural weakness of the body triangle. If you can push this foot out of position, the entire lock fails. Target this by first creating space through hip movement, then using your hand to attack the ankle position rather than trying to pry their legs apart with strength.
 
-### Reversal path
+**Q6**: How do you recover if opponent nearly sinks a rear naked choke while you're working on clearing the triangle?
+**A**: Immediately prioritize neck defense by tucking your chin deeply and bringing both hands to protect your throat. The triangle escape becomes secondary - you must survive the choke attempt first. Once you've defended the immediate choke threat, resume systematic escape work but expect opponent to attack neck again when you redirect attention to the triangle.
 
-`Body Triangle → Rolling Back Take Reversal → Back Control`
+**Q7**: What base fundamentals help reduce the body triangle's effectiveness?
+**A**: Keep your shoulders on the mat and avoid allowing opponent to roll you to your side where the squeeze becomes more effective. Create angles by turning your hips while keeping back connection to mat. Use your feet and legs to post against the mat for stability and to generate hip movement for escape attempts.
 
-### Standing escape path
-
-`Body Triangle → Triangle Clear → Technical Standup → Standing Position`
+**Q8**: After partially clearing the body triangle, opponent tries to re-establish it - how do you prevent this?
+**A**: As soon as you feel the triangle loosen, immediately insert your elbow or forearm between your body and their legs to prevent re-locking. Continue turning into them while maintaining this frame. The key is not pausing to rest after breaking the initial lock - opponent will quickly re-establish if you don't immediately occupy the space you've created.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -436,11 +385,11 @@ Partner maintains body triangle while you focus exclusively on optimal defensive
 - **[[Back Control]]** - Parent position opponent is controlling you from
 - **[[Turtle]]** - Common escape target position from body triangle
 - **[[Half Guard]]** - Alternative escape target achieving guard recovery
-- **[[Back Escape Series]]** - Systematic escape principles applicable to body triangle
-- **[[RNC Defense]]** - Critical defensive skill needed while escaping triangle
-- **[[Hand Fighting from Back]]** - Upper body defensive skills used throughout escape process
-- **[[Hip Escape]]** - Key movement pattern for creating angles and clearing triangle
+- **[[Frame and Shrimp]]** - Key escape movement pattern for creating space
 - **[[Granby Roll]]** - Advanced escape technique from body triangle control
+- **[[Hip Escape to Turtle]]** - Primary escape transition from body triangle
+- **[[Technical Standup]]** - Alternative escape path to standing position
+- **[[Rear Naked Choke]]** - Primary submission threat you must defend during escape
 
 
 </section>

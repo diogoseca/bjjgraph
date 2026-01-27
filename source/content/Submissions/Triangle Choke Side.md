@@ -424,4 +424,14 @@ The side triangle is particularly valuable in no-gi grappling and MMA contexts w
 
 </section>
 
+<section id="terminal-state" class="content-section">
+
+## Match Outcome
+
+Successful execution of Triangle Choke Side leads to → [[game-over|Game Over]]
+
+*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+
+</section>
+
 </main>

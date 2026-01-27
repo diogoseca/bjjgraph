@@ -21,37 +21,37 @@ description: "Attacking perspective in reversed leg entanglement. Master control
     {
       "@type": "HowToStep",
       "name": "Execute Inside Heel Hook from Ushiro",
-      "text": "From this position, execute Inside Heel Hook from Ushiro to transition to Won by Submission. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Inside Heel Hook from Ushiro. This technique is attempted in 11% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Saddle",
-      "text": "From this position, execute Transition to Saddle to transition to Saddle. Success rate for advanced practitioners: 60%.",
+      "name": "Execute Estima Lock to Saddle",
+      "text": "From this position, attempt Estima Lock to Saddle. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Follow to Back Control",
-      "text": "From this position, execute Follow to Back Control to transition to Back Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Follow to Back Control. This technique is attempted in 16% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Ankle Lock Finish",
-      "text": "From this position, execute Ankle Lock Finish to transition to Won by Submission. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Ankle Lock Finish. This technique is attempted in 11% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Honey Hole",
-      "text": "From this position, execute Transition to Honey Hole to transition to Honey Hole. Success rate for advanced practitioners: 50%.",
+      "name": "Execute Inside Ashi-Garami to Honey Hole",
+      "text": "From this position, attempt Inside Ashi-Garami to Honey Hole. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Cross Ashi Transition",
-      "text": "From this position, execute Cross Ashi Transition to transition to Cross Ashi-Garami. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Cross Ashi Transition. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -215,98 +215,24 @@ Control maintenance in ushiro ashi-garami requires constant adjustment to the op
 
 ## Available Attacks
 
-### [[Inside Heel Hook from Ushiro]] → [[Won by Submission]]
+### [[Inside Heel Hook from Ushiro]] (11% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 55%
+### [[Estima Lock to Saddle]] (12% of attempts)
 
-### [[Transition to Saddle]] → [[Saddle]]
+### [[Follow to Back Control]] (16% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 60%
+### [[Ankle Lock Finish]] (11% of attempts)
 
-### [[Follow to Back Control]] → [[Back Control]]
+### [[Inside Ashi-Garami to Honey Hole]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 65%
+### [[Cross Ashi Transition]] (10% of attempts)
 
-### [[Ankle Lock Finish]] → [[Won by Submission]]
+### [[Outside Heel Hook Adjustment]] (9% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
+### [[Return to Outside Ashi]] (13% of attempts)
 
-### [[Transition to Honey Hole]] → [[Honey Hole]]
+### [[Kneebar from Ushiro]] (8% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
-
-### [[Cross Ashi Transition]] → [[Cross Ashi-Garami]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 35%
-- Advanced: 50%
-
-### [[Outside Heel Hook Adjustment]] → [[Won by Submission]]
-
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 45%
-
-### [[Return to Outside Ashi]] → [[Outside Ashi-Garami]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-### [[Kneebar from Ushiro]] → [[Won by Submission]]
-
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 25%
-- Advanced: 40%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Complete Inversion Escape]]** → [[Standing Position]] (Opponent Success: 40%)
-- **[[Turtle Recovery]]** → [[Turtle]] (Opponent Success: 50%)
-- **[[Counter Ashi Entry]]** → [[Outside Ashi-Garami]] (Opponent Success: 25%)
-- **[[Deep Half Transition]]** → [[Deep Half Guard]] (Opponent Success: 30%)
-- **[[Single Leg X Recovery]]** → [[Single Leg X-Guard]] (Opponent Success: 30%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Saddle Lock During Escape]]** → [[Saddle]]
-  - When opponent clears outside leg but inside leg remains deeply entangled
-- **[[Back Take from Inversion]]** → [[Back Control]]
-  - When opponent commits to turtle rotation and turns their back to escape
-- **[[Heel Hook During Rotation]]** → [[Won by Submission]]
-  - When opponent's heel becomes exposed during inversion attempt before escape completes
-- **[[Cross Ashi Control]]** → [[Cross Ashi-Garami]]
-  - When opponent attempts to counter-attack and exposes opposite leg during escape effort
 
 
 </section>
@@ -316,13 +242,13 @@ Control maintenance in ushiro ashi-garami requires constant adjustment to the op
 ## Decision Making from This Position
 
 **If opponent's inversion is shallow and leg clearing has not progressed significantly:**
-- Execute **[[Immediate Heel Hook Attempt]]** → [[Won by Submission]] (Probability: 50%)
-- Execute **[[Transition to Saddle]]** → [[Saddle]] (Probability: 55%)
+- Execute **[[Immediate Heel Hook Attempt]]** → [[game-over]] (Probability: 50%)
+- Execute **[[Estima Lock to Saddle]]** → [[Saddle]] (Probability: 55%)
 
 
 **If opponent is actively rotating toward turtle with committed movement:**
 - Execute **[[Follow to Back Control]]** → [[Back Control]] (Probability: 60%)
-- Execute **[[Ankle Lock During Transition]]** → [[Won by Submission]] (Probability: 45%)
+- Execute **[[Ankle Lock During Transition]]** → [[game-over]] (Probability: 45%)
 
 
 **If opponent has cleared outside leg and is working to clear inside leg:**
@@ -331,7 +257,7 @@ Control maintenance in ushiro ashi-garami requires constant adjustment to the op
 
 
 **If opponent is attempting counter-attack on attacker's legs:**
-- Execute **[[Accelerate Heel Hook Finish]]** → [[Won by Submission]] (Probability: 50%)
+- Execute **[[Accelerate Heel Hook Finish]]** → [[game-over]] (Probability: 50%)
 - Execute **[[Cross Ashi Defense]]** → [[Cross Ashi-Garami]] (Probability: 45%)
 
 
@@ -413,29 +339,39 @@ Begin in ushiro ashi-garami with both practitioners working at 60% intensity. De
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Direct Heel Hook Finish
+## Test Your Knowledge
 
-`Outside Ashi-Garami → Opponent Inverts → Ushiro Ashi-Garami Top → Inside Heel Hook`
+**Q1**: What leg configuration adjustment must you make when your opponent inverts from standard ashi-garami?
+**A**: As the opponent inverts, you must adapt your figure-four by keeping your outside leg crossing over their knee line while your inside leg stays underneath. Follow their hip rotation rather than fighting it, adjusting your leg pressure to maintain entanglement integrity throughout their movement. This creates the ushiro configuration where you can still attack despite their reversed hip orientation.
 
-### Saddle Transition Path
+**Q2**: Your opponent has begun inverting but their heel is momentarily exposed - what should you prioritize?
+**A**: When the heel becomes exposed during inversion, you face a timing decision. If the exposure is clear and your grip position is favorable, immediately attack the heel hook before they complete rotation. However, if their inversion is progressing rapidly and your grip isn't optimal, prioritize following to maintain entanglement and transition to saddle or back control rather than a low-percentage submission attempt.
 
-`Ushiro Ashi-Garami Top → Saddle Transition → Honey Hole → Outside Heel Hook`
+**Q3**: How does grip placement differ for heel hooks in ushiro versus standard outside ashi-garami?
+**A**: In ushiro, your opponent's inverted hip position changes the optimal heel hook grip angle. You typically need to adjust your hand placement closer to your own hip line rather than reaching across their body. The reversed configuration often requires a more compact finishing position with different shoulder and hip alignment relative to their trapped leg compared to standard outside ashi mechanics.
 
-### Back Attack Sequence
+**Q4**: What indicates that you should abandon the submission attempt and transition to saddle instead?
+**A**: Transition to saddle when your opponent has successfully cleared your outside leg but your inside leg remains deeply controlling their thigh. Also transition when their continued rotation makes heel hook leverage progressively worse, or when their hand fighting has successfully prevented heel exposure for more than 3-4 seconds. The inside leg control creates the entry point for saddle transition.
 
-`Ushiro Ashi-Garami Top → Follow Inversion → Back Control → Rear Naked Choke`
+**Q5**: Your opponent's free leg is working underneath your body during their inversion - how do you address this?
+**A**: Use your outside leg to actively control their free leg by pressing it away from your center line. If their free leg gets underneath you, they gain a rotational lever to complete escape or enter counter-entanglement. Maintain outside leg pressure on their free thigh while using your inside leg to control the entangled leg, preventing them from using the free leg as a posting or pushing mechanism.
 
-### Ankle Lock Finish
+**Q6**: When is following to back control the superior option compared to maintaining ushiro ashi-garami?
+**A**: Follow to back control when your opponent commits fully to turtle rotation and turns their back to escape, when your leg entanglement has degraded to the point where submission attempts have low success probability, or when they've cleared both legs but their turtle position exposes back access. The back take becomes optimal when their rotation momentum is too strong to reverse for leg attacks.
 
-`Ushiro Ashi-Garami Top → Ankle Lock Adjustment → Straight Ankle Lock`
+**Q7**: How do you manage energy expenditure in the dynamic ushiro position?
+**A**: Allow controlled inversion rather than exhausting yourself trying to prevent the inevitable rotation through pure strength. Conserve energy by using technical leg positioning and grip fighting rather than muscular holding. Focus energy expenditure on the critical moments: grip establishment, submission finishing, or transition timing rather than sustained resistance throughout the entire scramble sequence.
+
+**Q8**: What are the key indicators that your opponent is about to attempt a counter-attack on your legs?
+**A**: Watch for their free hand reaching toward your legs rather than defending their heel, hip movement that creates angle toward your lower body rather than away, attempts to square their hips back toward you during the inversion, or deliberate slowing of their escape rotation. These indicate they're shifting from escape to counter-attack, requiring you to either accelerate your finish or address their leg entanglement attempt.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -457,13 +393,13 @@ Begin in ushiro ashi-garami with both practitioners working at 60% intensity. De
 ## Related Positions and Techniques
 
 - **[[Outside Ashi-Garami]]** - Primary position that ushiro ashi-garami transitions from during opponent's inversion
-- **[[Saddle Entry from Top]]** - High-percentage transition option when opponent clears outside leg from ushiro
+- **[[Saddle]]** - High-percentage transition target when opponent clears outside leg from ushiro
 - **[[Inside Heel Hook]]** - Primary submission finish from ushiro ashi-garami with adjusted mechanics
 - **[[Back Control]]** - Common transition target when following opponent's continued inversion
 - **[[Honey Hole]]** - Alternative high-control position accessible from ushiro configuration
-- **[[systematic approach Leg Lock System]]** - Comprehensive framework including specific ushiro ashi-garami attacking protocols
-- **[[Craig Jones Leg Lock System]]** - Modern competitive approach with emphasis on attacking through transitions like ushiro
 - **[[Leg Entanglement]]** - Fundamental principle governing all ushiro ashi-garami control and submission options
+- **[[Cross Ashi-Garami]]** - Related entanglement with different mechanical properties for transition options
+- **[[Inside Ashi-Garami]]** - Alternative standard configuration for comparison of finishing mechanics
 
 
 </section>

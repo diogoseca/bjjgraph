@@ -90,38 +90,20 @@ Modern butterfly guard has evolved significantly, particularly in no-gi grapplin
 - Use hooks dynamically to adjust angles, create off-balancing opportunities, and transition to alternative positions when needed
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Butterfly Sweep]]** → [[Mount]]
-  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 80%
+- **[[Butterfly Sweep]]** (30% of attempts)
 
-- **[[Butterfly Sweep]]** → [[Side Control]]
-  - Success Rate: Beginner 55%, Intermediate 70%, Advanced 82%
+- **[[Elevator Sweep]]** (20% of attempts)
 
-- **[[Arm Drag to Back]]** → [[Back Control]]
-  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+- **[[Hook Sweep]]** (18% of attempts)
 
-- **[[Butterfly Guard to X-Guard]]** → [[X-Guard]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Arm Drag to Back]]** (15% of attempts)
 
-- **[[Elevator Sweep]]** → [[Mount]]
-  - Success Rate: Beginner 48%, Intermediate 63%, Advanced 78%
+- **[[Butterfly Guard to X-Guard]]** (12% of attempts)
 
-- **[[Hook Sweep]]** → [[Side Control]]
-  - Success Rate: Beginner 52%, Intermediate 67%, Advanced 80%
-
-- **[[Overhook Sweep]]** → [[Mount]]
-  - Success Rate: Beginner 46%, Intermediate 61%, Advanced 76%
-
-- **[[Butterfly Guard to X-Guard]]** → [[Single Leg X-Guard]]
-  - Success Rate: Beginner 38%, Intermediate 53%, Advanced 68%
-
-- **[[Open Guard to Deep Half]]** → [[Deep Half Guard]]
-  - Success Rate: Beginner 42%, Intermediate 57%, Advanced 72%
-
-- **[[Arm Drag]]** → [[Turtle]]
-  - Success Rate: Beginner 44%, Intermediate 59%, Advanced 74%
+- **[[Guillotine Choke]]** (5% of attempts)
 
 
 ### Common Mistakes
@@ -183,35 +165,20 @@ Modern butterfly guard has evolved significantly, particularly in no-gi grapplin
 - Transition fluidly between combat base, standing, and passing configurations based on opponent's reactions
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Butterfly Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Knee Slice Pass]]** (25% of attempts)
 
-- **[[Double Under Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Double Under Pass]]** (20% of attempts)
 
-- **[[Long Step Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 38%, Intermediate 53%, Advanced 68%
+- **[[Butterfly Pass]]** (18% of attempts)
 
-- **[[Knee Cut Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 36%, Intermediate 51%, Advanced 66%
+- **[[Long Step Pass]]** (15% of attempts)
 
-- **[[Stack Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 32%, Intermediate 47%, Advanced 62%
+- **[[Over-Under Pass]]** (12% of attempts)
 
-- **[[Toreando Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 34%, Intermediate 49%, Advanced 64%
-
-- **[[Over-Under Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 42%, Intermediate 57%, Advanced 72%
-
-- **[[Half Guard Pass]]** → [[Half Guard]]
-  - Success Rate: Beginner 44%, Intermediate 59%, Advanced 74%
-
-- **[[Knee Slice Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 37%, Intermediate 52%, Advanced 67%
+- **[[Toreando Pass]]** (10% of attempts)
 
 
 ### Common Mistakes

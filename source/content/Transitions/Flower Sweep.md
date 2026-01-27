@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Flower Sweep | BJJ Technique | BJJ Graph"
 description: "Learn the Flower Sweep in BJJ. Master this fundamental closed guard sweep with step-by-step execution from guard to mount. Beginner 35%, Intermediate 55%, Advanced 70%."
@@ -16,7 +17,7 @@ description: "Learn the Flower Sweep in BJJ. Master this fundamental closed guar
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Flower Sweep in BJJ",
-  "description": "Step-by-step guide for Flower Sweep from Closed Guard to Mount.",
+  "description": "Step-by-step guide for Flower Sweep from Closed Guard/Bottom. Possible outcomes: Mount/Top (70%), Closed Guard/Bottom (20%), Closed Guard/Top (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -154,11 +155,25 @@ description: "Learn the Flower Sweep in BJJ. Master this fundamental closed guar
 
 The Flower Sweep is a fundamental closed guard sweep that exploits the opponent's reaction to your initial attack. Named for the circular, flowing motion that resembles a flower opening, this technique is one of the highest-percentage sweeps available from closed guard. The sweep works by creating a pendulum-like momentum that uses the opponent's forward pressure against them. What makes the Flower Sweep particularly effective is its ability to chain seamlessly with other attacks - if the opponent defends the sweep, you're already positioned for triangles, armbars, or omoplatas. The technique requires excellent hip mobility and precise timing, but once mastered, it becomes an instinctive response to the opponent's posture. The Flower Sweep is often one of the first sweeps taught to beginners due to its mechanical simplicity and high success rate, yet it remains effective at the highest levels of competition when executed with proper timing and setup.
 
-**Starting Position**: [[Closed Guard]]
-**Ending Position**: [[Mount]]
+**From Position**: [[Closed Guard/Bottom]]
 **Success Rates**: Beginner 35%, Intermediate 55%, Advanced 70%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Mount/Top]] | 70% |
+| Failure | [[Closed Guard/Bottom]] | 20% |
+| Counter | [[Closed Guard/Top]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

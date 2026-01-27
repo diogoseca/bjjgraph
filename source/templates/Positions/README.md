@@ -26,9 +26,9 @@ This directory contains templates for creating BJJ position content with hub-and
 ## Template Selection Guide
 
 ### Use TEMPLATE-POSITION-FAMILY.json when:
-- ✅ Position has variations (high mount, s-mount, deep half, lockdown, etc.)
-- ✅ You want hub page + bottom page + top page
-- ✅ Examples: Mount, Closed Guard, Half Guard, Side Control, Back Control
+- Position has variations (high mount, s-mount, deep half, lockdown, etc.)
+- You want hub page + bottom page + top page
+- Examples: Mount, Closed Guard, Half Guard, Side Control, Back Control
 
 **Generates:**
 - `/positions/mount` (hub - 2500w)
@@ -36,18 +36,18 @@ This directory contains templates for creating BJJ position content with hub-and
 - `/positions/mount/top` (2000w)
 
 ### Use TEMPLATE-POSITION-DUAL.json when:
-- ✅ Position has two clear perspectives (top/bottom)
-- ✅ NO variations
-- ✅ Examples: Turtle, North-South, Kesa Gatame, Crucifix, 50-50 Guard
+- Position has two clear perspectives (top/bottom)
+- NO variations
+- Examples: Turtle, North-South, Kesa Gatame, Crucifix, 50-50 Guard
 
 **Generates:**
 - `/positions/turtle/bottom` (2000w)
 - `/positions/turtle/top` (2000w)
 
 ### Use TEMPLATE-POSITION-SINGLE.json when:
-- ✅ Position is neutral (no clear top/bottom)
-- ✅ Both players have equal opportunity
-- ✅ Examples: Standing, Clinch, Scramble, Guard Pull (transitional)
+- Position is neutral (no clear top/bottom)
+- Both players have equal opportunity
+- Examples: Standing, Clinch, Scramble, Guard Pull (transitional)
 
 **Generates:**
 - `/positions/standing` (2000w single page)
@@ -77,18 +77,18 @@ This directory contains templates for creating BJJ position content with hub-and
   "bottom": {
     "metadata": {...},
     "overview": "400+ words (defensive)",
-    // ALL 15 sections (full content)
+    // 13 sections (see Role Sections below)
   },
 
   "top": {
     "metadata": {...},
     "overview": "400+ words (offensive)",
-    // ALL 15 sections (full content)
+    // 13 sections (see Role Sections below)
   }
 }
 ```
 
-**One JSON file → Three web pages**
+**One JSON file -> Three web pages**
 
 ---
 
@@ -100,16 +100,16 @@ This directory contains templates for creating BJJ position content with hub-and
   "slug": "turtle",
 
   "bottom": {
-    // ALL 15 sections (defensive focus)
+    // 13 sections (defensive focus)
   },
 
   "top": {
-    // ALL 15 sections (offensive focus)
+    // 13 sections (offensive focus)
   }
 }
 ```
 
-**One JSON file → Two web pages**
+**One JSON file -> Two web pages**
 
 ---
 
@@ -124,11 +124,33 @@ This directory contains templates for creating BJJ position content with hub-and
 
   "overview": "400+ words",
   "state_properties": {...},
-  // ALL 15 sections (neutral perspective)
+  // 13 sections (neutral perspective)
 }
 ```
 
-**One JSON file → One web page**
+**One JSON file -> One web page**
+
+---
+
+### Role Sections (13 per Top/Bottom)
+
+Each role object (top or bottom) contains these keys:
+
+| # | Key | Description |
+|---|-----|-------------|
+| 1 | `name` | Role name (e.g., "Mount Top") |
+| 2 | `description` | SEO meta description (140-180 chars) |
+| 3 | `overview` | 400+ word narrative |
+| 4 | `state_properties` | Point value, position type, risk level, energy cost |
+| 5 | `state_invariants` | 3+ anatomical/positional conditions that must hold |
+| 6 | `prerequisites` | 3+ conditions required before entering |
+| 7 | `key_principles` | 5-7 fundamental concepts |
+| 8 | `transitions` | Array of `{transition, attempt_probability}` (must sum to 100%) |
+| 9 | `decision_tree` | 3+ if/else conditions with probabilistic actions |
+| 10 | `common_errors` | 5+ mistakes with consequence and correction |
+| 11 | `training_drills` | 3+ drills with name, description, duration |
+| 12 | `related_content` | 3-15 related positions/techniques |
+| 13 | `position_metrics` | Retention, advancement, submission rates by skill level |
 
 ---
 
@@ -138,35 +160,33 @@ This directory contains templates for creating BJJ position content with hub-and
 
 1. **Copy template**
    ```bash
-   cp templates/Positions/TEMPLATE-POSITION-FAMILY.json positions/mount.json
+   cp source/templates/Positions/TEMPLATE-POSITION-FAMILY.json source/templates/Positions/Mount.json
    ```
 
-2. **Fill out hub section** (~30 minutes)
+2. **Fill out hub section**
    - General overview (400w)
    - Key principles (3-5 general)
    - List variations
    - Related positions
 
-3. **Fill out bottom section** (~2 hours)
+3. **Fill out bottom section**
    - Defensive overview (400w)
-   - 6-9 escape techniques with success rates
+   - 4+ transitions with `attempt_probability` summing to 100%
    - 5+ defensive errors
    - Training drills
 
-4. **Fill out top section** (~2 hours)
+4. **Fill out top section**
    - Offensive overview (400w)
-   - 9+ attack techniques with success rates
+   - 4+ transitions with `attempt_probability` summing to 100%
    - 5+ offensive errors
-   - Submission chains
+   - Training drills
 
-5. **Run build script** (30 seconds)
+5. **Validate and regenerate**
    ```bash
-   python scripts/generate_hub_pages.py
+   npm run regenerate
    ```
 
-6. **Result:** 3 pages generated automatically!
-
-**Total time:** ~5 hours for complete position family
+6. **Result:** 3 pages generated automatically
 
 ---
 
@@ -174,20 +194,21 @@ This directory contains templates for creating BJJ position content with hub-and
 
 1. **Copy template**
    ```bash
-   cp templates/Positions/TEMPLATE-POSITION-DUAL.json positions/turtle.json
+   cp source/templates/Positions/TEMPLATE-POSITION-DUAL.json source/templates/Positions/Turtle.json
    ```
 
-2. **Fill out bottom section** (~2 hours)
+2. **Fill out bottom section**
    - Defensive content
 
-3. **Fill out top section** (~2 hours)
+3. **Fill out top section**
    - Offensive content
 
-4. **Run build script** (30 seconds)
+4. **Validate and regenerate**
+   ```bash
+   npm run regenerate
+   ```
 
 5. **Result:** 2 pages generated
-
-**Total time:** ~4 hours
 
 ---
 
@@ -195,36 +216,42 @@ This directory contains templates for creating BJJ position content with hub-and
 
 1. **Copy template**
    ```bash
-   cp templates/Positions/TEMPLATE-POSITION-SINGLE.json positions/standing.json
+   cp source/templates/Positions/TEMPLATE-POSITION-SINGLE.json source/templates/Positions/Standing.json
    ```
 
-2. **Fill out content** (~2 hours)
+2. **Fill out content**
    - Neutral perspective
    - All techniques available to both players
 
-3. **Run build script** (30 seconds)
+3. **Validate and regenerate**
+   ```bash
+   npm run regenerate
+   ```
 
 4. **Result:** 1 page generated
-
-**Total time:** ~2 hours
 
 ---
 
 ## Build Script Integration
 
-The build script `scripts/generate_hub_pages.py` will:
+The regeneration script `scripts/regenerate_md_from_json.py` handles:
 
-1. **Scan** `source/content/Positions/*.json`
+1. **Scan** `source/templates/Positions/*.json`
 2. **Detect** template type:
-   - Has `hub` key? → FAMILY
-   - Has `bottom` and `top` keys but no `hub`? → DUAL
-   - Neither? → SINGLE
+   - Has `hub` key? -> FAMILY
+   - Has `bottom` and `top` keys but no `hub`? -> DUAL
+   - Neither? -> SINGLE
 3. **Generate** appropriate pages:
-   - FAMILY → hub + bottom + top
-   - DUAL → bottom + top
-   - SINGLE → single page
+   - FAMILY -> hub + bottom + top
+   - DUAL -> bottom + top
+   - SINGLE -> single page
 4. **Render** using appropriate Jinja2 template
-5. **Validate** output
+5. **Write** to `source/content/Positions/`
+
+Run with:
+```bash
+npm run regenerate:md
+```
 
 ---
 
@@ -234,18 +261,18 @@ The build script `scripts/generate_hub_pages.py` will:
 
 ```python
 # Read single JSON
-data = read_json("mount.json")
+data = read_json("Mount.json")
 
 # Extract summaries for hub
 bottom_summary = {
     'key_principles': data['bottom']['key_principles'][:5],
-    'top_escapes': data['bottom']['offensive_transitions'][:4],
+    'top_escapes': data['bottom']['transitions'][:4],
     'top_errors': data['bottom']['common_errors'][:3]
 }
 
 top_summary = {
     'key_principles': data['top']['key_principles'][:5],
-    'top_attacks': data['top']['offensive_transitions'][:6],
+    'top_attacks': data['top']['transitions'][:6],
     'top_errors': data['top']['common_errors'][:3]
 }
 
@@ -272,7 +299,7 @@ top_content = top_template.render(top=data['top'])
 write_file(f"positions/{slug}/top.md", top_content)
 ```
 
-**Result:** 1 JSON file → 3 markdown pages
+**Result:** 1 JSON file -> 3 markdown pages
 
 ---
 
@@ -352,83 +379,31 @@ write_file(f"positions/{slug}/top.md", top_content)
 
 ## File Organization
 
-### Before Consolidation
+### JSON Source (in source/templates/Positions/)
+```
+source/templates/Positions/
+├── Mount.json (FAMILY - contains hub + bottom + top)
+├── High Mount.json (FAMILY - subvariation)
+├── S Mount.json (FAMILY - subvariation)
+├── Technical Mount.json (FAMILY - subvariation)
+├── Turtle.json (DUAL - bottom + top)
+├── Standing Position.json (SINGLE)
+...
+```
+
+### Generated Output (in source/content/Positions/)
 ```
 source/content/Positions/
-├── Mount Bottom.json
-├── Mount Top.json
-├── High Mount Bottom.json
-├── High Mount Top.json
-├── 3-4 Mount.json
-├── Modified Mount.json
-... (29 mount files, many duplicates)
+├── Mount.md (hub - AUTO-GENERATED)
+├── Mount/
+│   ├── Bottom.md (from Mount.json bottom section)
+│   ├── Top.md (from Mount.json top section)
+│   ├── High Mount.md (subhub)
+│   ├── High Mount/
+│   │   ├── Bottom.md
+│   │   └── Top.md
+│   └── S Mount/
+│       ├── Bottom.md
+│       └── Top.md
+...
 ```
-
-### After Consolidation
-```
-source/content/Positions/
-├── mount.json (FAMILY - contains hub + bottom + top)
-├── high-mount.json (FAMILY - subvariation)
-├── s-mount.json (FAMILY - subvariation)
-├── technical-mount.json (FAMILY - subvariation)
-... (4 files total for mount family)
-```
-
-### Generated Output
-```
-public/positions/
-├── mount/
-│   ├── index.html (hub - AUTO-GENERATED)
-│   ├── bottom.html (from mount.json bottom section)
-│   ├── top.html (from mount.json top section)
-│   ├── high-mount/
-│   │   ├── index.html (subhub - AUTO-GENERATED)
-│   │   ├── bottom.html
-│   │   └── top.html
-│   └── s-mount/
-│       ├── index.html (subhub - AUTO-GENERATED)
-│       ├── bottom.html
-│       └── top.html
-... (15 pages total for mount family)
-```
-
----
-
-## Expected Results
-
-### Before
-- 557 JSON files (many duplicates/placeholders)
-- Manual hub creation
-- Inconsistent structure
-- SEO cannibalization
-
-### After
-- ~60 JSON files (89% reduction)
-- Automated hub generation
-- Consistent hub-and-spoke structure
-- Clear SEO targeting
-- Better user experience
-
-**Content creator burden:**
-- BEFORE: 29 files for mount family
-- AFTER: 4 files for mount family, script generates 15 pages
-
-**Time savings:**
-- BEFORE: ~29 hours (1 hour per file)
-- AFTER: ~16 hours (4 hours per JSON), automation does the rest
-
----
-
-## Next Steps
-
-1. Create `scripts/generate_hub_pages.py` - Build automation script
-2. Test with mount family (create mount.json from FAMILY template)
-3. Validate generated pages
-4. Create migration guide for converting existing 557 files
-5. Scale to all position families
-
----
-
-## Questions?
-
-See `scripts/README.md` for build script documentation (once created).

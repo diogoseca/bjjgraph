@@ -4,7 +4,7 @@
 
 ---
 title: "Worm Guard | BJJ Position Guide | BJJ Graph"
-description: "Master Worm Guard in BJJ. Innovative lapel-based guard with sweeps and back takes. Learn Keenan Cornelius's signature position with complete perspective analysis."
+description: "Master Worm Guard in BJJ. Innovative lapel-based guard with sweeps and back takes. Complete guide to this advanced gi position with techniques from both perspectives."
 ---
 
 
@@ -93,32 +93,24 @@ At its core, Worm Guard is about creating a web of control using the gi that res
 - Grip Endurance Focus: Worm guard requires sustained grip strength on lapel and sleeve; develop grip endurance for extended exchanges
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Omoplata Sweep]]** → [[Mount]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 65%
+- **[[Omoplata Sweep]]** (13% of attempts)
 
-- **[[Triangle Setup]]** → [[Triangle Control]]
-  - Success Rate: Beginner 20%, Intermediate 40%, Advanced 60%
+- **[[Triangle Setup]]** (12% of attempts)
 
-- **[[Omoplata to Back]]** → [[Back Control]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 70%
+- **[[Omoplata to Back]]** (12% of attempts)
 
-- **[[Lasso Guard Sweeps]]** → [[Side Control]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 65%
+- **[[Lasso Guard Sweeps]]** (13% of attempts)
 
-- **[[X-Guard Sweep]]** → [[Mount]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 70%
+- **[[X-Guard Sweep]]** (14% of attempts)
 
-- **[[De La Riva Sweep]]** → [[Side Control]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 65%
+- **[[De La Riva Sweep]]** (13% of attempts)
 
-- **[[Bolo Sweep]]** → [[Back Control]]
-  - Success Rate: Beginner 15%, Intermediate 35%, Advanced 55%
+- **[[Bolo Sweep]]** (11% of attempts)
 
-- **[[Triangle from Guard]]** → [[Triangle Control]]
-  - Success Rate: Beginner 20%, Intermediate 40%, Advanced 60%
+- **[[Triangle from Guard]]** (12% of attempts)
 
 
 ### Common Mistakes
@@ -176,26 +168,20 @@ At its core, Worm Guard is about creating a web of control using the gi that res
 - Keep hips back and weight balanced to prevent the lapel from creating effective leverage
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Leg Drag Pass]]** → [[Leg Drag Control]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 60%
+- **[[Leg Drag Pass]]** (19% of attempts)
 
-- **[[Toreando Pass]]** → [[Headquarters Position]]
-  - Success Rate: Beginner 20%, Intermediate 40%, Advanced 55%
+- **[[Toreando Pass]]** (18% of attempts)
 
-- **[[Smash Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 15%, Intermediate 35%, Advanced 50%
+- **[[Smash Pass]]** (16% of attempts)
 
-- **[[Knee Slice Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 20%, Intermediate 38%, Advanced 52%
+- **[[Knee Slice Pass]]** (17% of attempts)
 
-- **[[Long Step Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 18%, Intermediate 35%, Advanced 48%
+- **[[Long Step Pass]]** (16% of attempts)
 
-- **[[Stack Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 12%, Intermediate 28%, Advanced 42%
+- **[[Stack Pass]]** (14% of attempts)
 
 
 ### Common Mistakes

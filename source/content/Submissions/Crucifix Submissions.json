@@ -229,33 +229,58 @@
       "safety_critical": false
     },
     {
-      "question": "Why must you maintain hip pressure into the opponent's back during crucifix submissions?",
-      "answer": "Hip pressure into the opponent's back prevents them from creating space, rolling forward, or turning into your guard. This connection is the structural foundation that keeps both arms isolated. Without constant hip pressure, the opponent can generate movement and begin escaping the position, even if you maintain some arm controls.",
-      "safety_critical": false
-    },
-    {
-      "question": "What is the correct application speed for crucifix chokes in training and why?",
-      "answer": "Crucifix chokes must be applied slowly and progressively over 5-7 seconds minimum in training. This slow application allows your partner time to recognize the submission and tap safely before losing consciousness. Rapid choke application can cause loss of consciousness before the partner realizes they're in danger, creating a critical safety risk.",
+      "question": "What anatomical structures are targeted by choke submissions from the crucifix position?",
+      "answer": "Crucifix chokes primarily target the carotid arteries on either side of the neck, restricting blood flow to the brain. This creates a blood choke that causes unconsciousness within seconds if not defended. Secondary pressure may affect the trachea (windpipe) which creates an air choke sensation but is less efficient for finishing. The ideal finish compresses the carotid arteries while minimizing tracheal pressure.",
       "safety_critical": true
     },
     {
-      "question": "What is the most common error when transitioning from crucifix position control to submission attempts?",
-      "answer": "The most common error is releasing leg control on the trapped arm while adjusting grips for the submission. This allows the opponent to immediately free their arm and begin defending or escaping. You must maintain constant leg pressure and arm isolation while adjusting your upper body position for submissions.",
-      "safety_critical": false
-    },
-    {
-      "question": "How should you respond if an opponent attempts to roll forward over their shoulder to escape the crucifix?",
-      "answer": "Immediately shift your weight forward and post your free leg on the ground to prevent the roll. Drive your chest into their upper back and shoulders to counter the rolling motion. If they commit fully to the roll, follow their movement while maintaining crucifix controls in the new position rather than fighting against the momentum.",
-      "safety_critical": false
-    },
-    {
-      "question": "What are the mandatory safety protocols when applying armlock submissions from the crucifix position?",
-      "answer": "Armlock submissions from crucifix must be applied with slow progressive pressure over 3-5 seconds minimum, never cranked or jerked. You must ensure proper leg configuration before extending the arm to prevent improper leverage that could cause injury. Always allow clear tap access and release all pressure immediately upon any tap signal. Never practice on partners with existing shoulder or arm injuries without explicit permission.",
+      "question": "What indicators tell you the armlock from crucifix is properly positioned for the finish?",
+      "answer": "The armlock is ready for finish when: the opponent's elbow joint is positioned against your hip or thigh creating a fulcrum, your legs control the arm's rotation preventing them from turning the thumb up, the arm is isolated at roughly 90 degrees to their body, and you feel their shoulder beginning to elevate as you apply initial extension pressure. The breaking point is reached when further extension would hyperextend the elbow joint beyond its natural range.",
       "safety_critical": true
     },
     {
-      "question": "Why is the crucifix position considered one of the most dominant submission positions in BJJ?",
-      "answer": "The crucifix eliminates the opponent's defensive capacity by simultaneously controlling both arms, leaving them unable to defend their neck or create frames. Combined with superior weight distribution and hip pressure, the position offers multiple high-percentage submission options (chokes and armlocks) while maintaining exceptional control. The opponent has severely limited mobility and almost no offensive options.",
+      "question": "Your opponent begins turning their chin toward your choking arm - what grip adjustment ensures the finish?",
+      "answer": "When opponent turns their chin toward your choking arm, adjust by deepening your forearm penetration under their chin before they complete the turn. If they've already turned, switch to attacking the exposed side of the neck by threading your other arm under their chin from the opposite direction. Alternatively, abandon the choke temporarily and attack the now-exposed trapped arm with an armlock, using their defensive commitment against them.",
+      "safety_critical": false
+    },
+    {
+      "question": "What is the point of no escape for a properly applied crucifix choke?",
+      "answer": "The point of no escape occurs when your choking arm has penetrated deeply under the chin with the blade of your forearm across the carotid arteries, your other hand has secured behind the head or grabbed your own bicep completing the lock, and your body weight is committed forward preventing them from creating any space. Once the grip is locked and pressure begins, the opponent has approximately 3-5 seconds before unconsciousness regardless of their defensive efforts.",
+      "safety_critical": true
+    },
+    {
+      "question": "What common finishing error causes crucifix armlocks to fail even when the position is secured?",
+      "answer": "The most common finishing error is attempting to extend the arm before controlling rotation. When you extend without rotation control, the opponent can turn their thumb toward the ceiling and stack their shoulder, converting the hyperextension pressure into a more tolerable shoulder rotation. Correct this by using your legs to pin the arm with the thumb pointing down or outward, then applying extension while maintaining that rotational control throughout the finish.",
+      "safety_critical": false
+    },
+    {
+      "question": "How do you safely apply progressive pressure during crucifix submissions in training?",
+      "answer": "Apply pressure in gradual increments over 5-7 seconds for chokes and 3-5 seconds for armlocks, pausing briefly between pressure increases to allow your partner time to recognize the submission and tap. Never jerk, crank, or spike pressure. Maintain constant communication and watch for distress signals. If partner stops moving or becomes limp during a choke, release immediately - they may have lost consciousness. Always err on the side of applying too slowly rather than too quickly.",
+      "safety_critical": true
+    },
+    {
+      "question": "What control adjustments maximize finishing percentage when opponent strongly defends the choke by tucking their chin?",
+      "answer": "When chin defense is strong, first attempt to wedge your forearm under the chin using small incremental movements rather than force. If this fails, transition your attack to the trapped arm with an immediate armlock threat. This forces the opponent to choose between defending their arm or their neck. As they shift focus to the arm defense, their chin often loosens, creating the choke opening. Alternatively, use collar grips in gi to work around the chin by attacking from the collar side rather than directly under.",
+      "safety_critical": false
+    },
+    {
+      "question": "What distinguishes a finishing-ready crucifix armlock from one that will likely fail?",
+      "answer": "A finishing-ready position shows: tight leg squeeze maintaining constant pressure on the trapped arm, elbow joint clearly positioned over your hip or thigh fulcrum, arm isolated at proper angle away from their body, thumb rotated away from the ceiling indicating proper rotational control, and your hips remaining tight to their back preventing escape space. A likely-to-fail position shows: loose leg control allowing arm movement, elbow floating without solid fulcrum, thumb pointing up allowing shoulder stack, or space between your hips and their back.",
+      "safety_critical": false
+    },
+    {
+      "question": "In competition, what strategies maximize crucifix submission success rate when time pressure exists?",
+      "answer": "Under time pressure, prioritize the highest-percentage attack for your opponent's body type and defensive tendencies. Against flexible opponents, favor chokes over armlocks. Chain attacks rapidly - threaten the neck to force arm defense, then immediately attack the opened arm. Use your weight aggressively by driving hips forward and staying heavy. If one submission is defended, switch instantly without resetting. Accept that failing to finish still maintains a dominant position with point advantage rather than abandoning control for a desperate finish attempt.",
+      "safety_critical": false
+    },
+    {
+      "question": "What is the correct release protocol if your training partner goes unconscious from a crucifix choke?",
+      "answer": "Immediately release all choking pressure and leg controls completely. Roll partner onto their back if not already supine. Elevate their legs slightly above heart level. Monitor breathing - unconscious partners should resume breathing within 10-20 seconds. If breathing doesn't resume, begin rescue breathing. Stay calm and never shake or slap the person. Call for instructor assistance immediately. Once conscious, have partner rest and do not allow them to immediately resume training. Document the incident and review what caused the delayed tap.",
+      "safety_critical": true
+    },
+    {
+      "question": "How does hip position affect the breaking mechanics of the crucifix armlock?",
+      "answer": "Hip position determines the lever arm and fulcrum placement for the armlock. Hips tight to opponent's back positions your thigh or hip bone directly under their elbow, creating an efficient fulcrum that requires minimal force for maximum extension pressure. Hips too far away reduces leverage and allows the opponent's arm to slip free. Hips too high changes the angle and may result in shoulder pressure rather than clean elbow hyperextension. The ideal position feels like your hip bone is directly under their elbow with your body weight driving forward into the extension.",
       "safety_critical": false
     }
   ],
@@ -342,8 +367,8 @@
       "relationship": "Arm control position that often transitions into crucifix"
     },
     {
-      "name": "Turtle to Back Control",
-      "relationship": "Progression chain - turtle to back to crucifix submissions"
+      "name": "Turtle",
+      "relationship": "Defensive position providing crucifix entry opportunities"
     },
     {
       "name": "Seat Belt Control Back",
@@ -358,8 +383,8 @@
       "relationship": "Top mount variation of crucifix control and submissions"
     },
     {
-      "name": "Back Attack System",
-      "relationship": "Overall strategic system incorporating crucifix submissions"
+      "name": "Back Control",
+      "relationship": "Primary entry position for establishing crucifix"
     }
   ]
 }

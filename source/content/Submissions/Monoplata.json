@@ -163,27 +163,32 @@
     {
       "error": "Failing to secure the figure-four tightly before applying pressure",
       "consequence": "Opponent escapes easily by pulling their arm free, and you lose the position entirely",
-      "correction": "Ensure your feet are locked securely in figure-four configuration with no gaps. The trapped arm should have no space to maneuver. Test the tightness before progressing to finishing pressure."
+      "correction": "Ensure your feet are locked securely in figure-four configuration with no gaps. The trapped arm should have no space to maneuver. Test the tightness before progressing to finishing pressure.",
+      "danger_level": "Medium"
     },
     {
       "error": "Not controlling opponent's posture with free leg or hands",
       "consequence": "Opponent easily postures up or rolls forward to escape, negating all your setup work",
-      "correction": "Always establish secondary control points. Your free leg should hook their head or back, and your hands should grip their belt or gi to control their torso. These controls must be active throughout the submission attempt."
+      "correction": "Always establish secondary control points. Your free leg should hook their head or back, and your hands should grip their belt or gi to control their torso. These controls must be active throughout the submission attempt.",
+      "danger_level": "Medium"
     },
     {
       "error": "Threading the bottom leg too shallow or at wrong angle",
       "consequence": "Figure-four position is compromised, reducing shoulder pressure and making the submission ineffective",
-      "correction": "Your bottom leg should thread deep underneath their arm with your shin positioned across their upper back or neck. Take time to adjust the angle before locking the figure-four."
+      "correction": "Your bottom leg should thread deep underneath their arm with your shin positioned across their upper back or neck. Take time to adjust the angle before locking the figure-four.",
+      "danger_level": "Low"
     },
     {
       "error": "Attempting monoplata without sufficient hip mobility or flexibility",
       "consequence": "Cannot achieve proper positioning, wasting energy and exposing yourself to guard passes",
-      "correction": "Develop hip mobility through dedicated stretching and drilling. Practice the leg threading motion repeatedly without a partner until the movement is smooth and natural. Consider alternative submissions if flexibility is limited."
+      "correction": "Develop hip mobility through dedicated stretching and drilling. Practice the leg threading motion repeatedly without a partner until the movement is smooth and natural. Consider alternative submissions if flexibility is limited.",
+      "danger_level": "Low"
     },
     {
       "error": "Releasing all controls when opponent begins to defend",
       "consequence": "Lose the position entirely and may end up in inferior position or getting passed",
-      "correction": "Maintain at least one control point at all times. If the monoplata is defended, immediately transition to sweep, omoplata, triangle, or back take rather than abandoning the attack completely."
+      "correction": "Maintain at least one control point at all times. If the monoplata is defended, immediately transition to sweep, omoplata, triangle, or back take rather than abandoning the attack completely.",
+      "danger_level": "Medium"
     },
     {
       "error": "Failing to recognize when training partner cannot tap due to arm entanglement",
@@ -249,6 +254,31 @@
       "question": "What transitional options should you maintain if the monoplata finish is defended or countered?",
       "answer": "The monoplata connects naturally to several high-percentage attacks: if opponent rolls forward, follow to back take or crucifix; if they attempt to posture and pull their arm free, transition to triangle by adjusting leg position; if they stack heavily, use the angle to sweep to mount or take the back; if the figure-four loosens, switch to traditional omoplata position. Maintaining awareness of these transitions prevents you from forcing a defended submission and allows you to maintain offensive pressure throughout.",
       "safety_critical": false
+    },
+    {
+      "question": "What anatomical structure does the monoplata primarily attack and what creates the breaking mechanism?",
+      "answer": "The monoplata primarily attacks the glenohumeral (shoulder) joint, specifically targeting the rotator cuff muscles and the labrum. The breaking mechanism is created through external rotation of the humerus while the shoulder is adducted and the arm is bent. The figure-four leg configuration isolates the arm in a vulnerable position while hip extension and rotation create the rotational torque that stresses the shoulder capsule, rotator cuff tendons, and labrum beyond their structural limits.",
+      "safety_critical": false
+    },
+    {
+      "question": "How do you recognize the point of no escape when finishing the monoplata in competition?",
+      "answer": "The point of no escape occurs when the figure-four is locked tight with no slack, your body angle is perpendicular to opponent's torso, their free leg control is established preventing the forward roll, and you begin hip extension. At this stage, the opponent's only remaining defense is arm extraction, which becomes impossible once hip extension begins creating rotational pressure. In competition, recognizing this point allows you to commit fully to the finish rather than abandoning for transitions.",
+      "safety_critical": false
+    },
+    {
+      "question": "What grip adjustments should you make during the finishing sequence to maximize control and pressure?",
+      "answer": "As you transition from setup to finish, your grips should progress from head and posture control to torso and hip control. Once the figure-four is locked, release head control and grip their belt line, far hip, or pants material to prevent the forward roll escape. Your other hand should control their wrist or forearm of the trapped arm to prevent straightening. These grips work in concert with your leg controls to create a fully enclosed trap where hip extension translates directly into shoulder rotation without energy leaking through defensive movement.",
+      "safety_critical": false
+    },
+    {
+      "question": "What is the most common finishing error that allows opponents to escape the monoplata and how do you correct it?",
+      "answer": "The most common finishing error is applying hip extension without first establishing the perpendicular body angle. When you extend hips while still parallel to opponent, the pressure disperses along their arm rather than rotating the shoulder, allowing them to straighten the arm and extract it from the figure-four. The correction is to complete your angle adjustment fully before beginning hip extension - your shoulder line must be at 90 degrees to theirs, and this angle must be maintained throughout the finish.",
+      "safety_critical": false
+    },
+    {
+      "question": "How should you approach the monoplata differently in competition versus training regarding speed and commitment?",
+      "answer": "In training, always apply pressure over 5-7 seconds minimum with constant awareness of partner's tap access and verbal communication. In competition, once you recognize the position is secured and your angle is correct, you can apply pressure more dynamically since the opponent is actively defending and the stakes warrant faster finishing. However, even in competition you must immediately release on any tap signal. The key difference is commitment level and speed of application, not abandonment of safety principles - a tap is always respected instantly regardless of context.",
+      "safety_critical": true
     }
   ],
   "training_progressions_and_safety_protocols": [
@@ -335,7 +365,7 @@
       "relationship": "Alternative finish when monoplata is defended; failed triangle can transition to monoplata"
     },
     {
-      "name": "Transition to Omoplata",
+      "name": "Closed Guard to Omoplata",
       "relationship": "Backup transition if figure-four configuration cannot be secured"
     },
     {

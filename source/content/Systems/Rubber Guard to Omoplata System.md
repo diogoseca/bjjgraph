@@ -355,7 +355,7 @@ Begin with static position holds to develop flexibility and position familiarity
 - [[Chill Dog]] (Position) - Rubber guard position variation for different opponent reactions
 - [[Triangle Control]] (Position) - Alternative submission threat from rubber guard positions
 - [[Back Control]] (Position) - Position achieved when opponent rolls to escape omoplata
-- [[Transition to Omoplata]] (Transition) - Core transition technique in system execution
+- [[Closed Guard to Omoplata]] (Transition) - Core transition technique in system execution
 - [[Omoplata Sweep]] (Transition) - Alternative pathway when submission is defended
 - [[Omoplata to Back]] (Transition) - Position advancement when opponent rolls forward
 - [[Triangle Setup]] (Transition) - Integrated threat from rubber guard positions

@@ -262,6 +262,31 @@
       "question": "What power source creates the finishing pressure in a straight footlock, and what is the role of the arms?",
       "answer": "Hip extension backward is the primary power source for finishing the straight footlock. The arms serve to compress and secure the foot in position, creating the fulcrum point, but they do not generate the main finishing force. Pulling with the arms is inefficient and wastes energy. The proper technique uses the large muscle groups of the glutes and hamstrings driving the hips backward while the arms maintain rigid compression, combining to create the dorsiflexion and pressure on the ankle joint.",
       "safety_critical": false
+    },
+    {
+      "question": "Your opponent begins externally rotating their hip to escape - what immediate grip and position adjustments do you make to maintain the finish?",
+      "answer": "Immediately pinch your knees together more aggressively to block the rotation. Use your outside leg to hook deeper behind their knee or drive into their hip to prevent continued rotation. Adjust your own hip angle to follow their rotation rather than fighting it directly, maintaining your forearm position on the Achilles throughout. If rotation continues, consider transitioning to belly-down ankle lock which eliminates their rotation ability entirely by pinning them face-down.",
+      "safety_critical": false
+    },
+    {
+      "question": "What anatomical structures does the straight footlock attack, and what are the immediate indicators that the breaking point is near?",
+      "answer": "The straight footlock attacks the ankle joint complex (talocrural joint) and the Achilles tendon through forced dorsiflexion and compression. The breaking point indicators include: opponent's foot approaching maximum dorsiflexion angle (toes being pulled toward their shin), visible strain in the Achilles tendon area, opponent's resistance suddenly decreasing as pain threshold approaches, and audible distress sounds or rapid breathing changes. At these indicators, maintain steady pressure and be ready for the tap - never increase speed or force.",
+      "safety_critical": true
+    },
+    {
+      "question": "Your opponent sits up aggressively and drives forward into you - how do you adjust to maintain submission control?",
+      "answer": "Post your outside leg firmly on the mat to create a frame against their forward pressure. Use the frame to prevent them from collapsing your position while maintaining your grip on their foot. If they continue driving, consider transitioning to Outside Ashi-Garami or 50-50 Guard which handle forward pressure better. Alternatively, the belly-down ankle lock finish is specifically designed for this scenario - rotate to your stomach while maintaining the grip, which eliminates their ability to pressure forward entirely.",
+      "safety_critical": false
+    },
+    {
+      "question": "In competition, your opponent is refusing to tap despite being in a fully locked straight footlock - what are the ethical and tactical considerations?",
+      "answer": "Maintain steady progressive pressure without explosive increases - the submission will finish if mechanically correct. Never spike or jerk regardless of competitive pressure. Watch for non-verbal tap indicators (going limp, extreme facial distress, screaming). Be prepared for the referee to stop the match. If you sense something is wrong anatomically (unusual popping, opponent's leg going limp), release immediately regardless of competitive situation. Your opponent's long-term health supersedes any match result - injuries from ignored submissions affect training careers permanently.",
+      "safety_critical": true
+    },
+    {
+      "question": "What grip adjustments should you make when your opponent begins pulling their heel out by pointing their toes?",
+      "answer": "Immediately deepen your grip by pulling their heel tighter into your armpit and squeezing it against your ribcage. Transition from gable grip to figure-four grip configuration if necessary, as the figure-four provides stronger heel retention. Angle their foot more perpendicular to your body (toes pointing toward the ceiling rather than away from you) which makes the toe-pointing escape geometrically more difficult. Increase the compression from your arms before they create space, and consider belly-down finish if they continue escaping.",
+      "safety_critical": false
     }
   ],
   "training_progressions_and_safety_protocols": [
@@ -312,7 +337,7 @@
     "Ashi Garami",
     "Outside Ashi-Garami",
     "Inside Ashi-Garami",
-    "Single Leg X-Guard",
+    "X-Guard",
     "50-50 Guard",
     "Seated Guard",
     "Half Guard",
@@ -321,19 +346,14 @@
     "Standing Position"
   ],
   "related_submissions": [
-    "Straight Ankle Lock",
     "Achilles Lock",
     "Kneebar",
     "Toe Hold",
     "Heel Hook",
     "Inside Heel Hook",
     "Outside Heel Hook",
-    "Kneebar from 50-50",
-    "Toe Hold from 50-50",
     "Calf Slicer",
-    "Estima Lock",
-    "Kneebar from Guard",
-    "Kneebar from Top"
+    "Estima Lock"
   ],
   "related_content": [
     {
@@ -353,7 +373,7 @@
       "relationship": "Alternative control position for finish, common transition point"
     },
     {
-      "name": "Single Leg X-Guard",
+      "name": "X-Guard",
       "relationship": "Common entry position combining sweep threats with submission"
     },
     {
@@ -365,16 +385,16 @@
       "relationship": "Alternative leg attack from same entanglement"
     },
     {
-      "name": "Craig Jones Leg Lock System",
-      "relationship": "Modern leg lock system using straight footlock as entry point"
-    },
-    {
-      "name": "X-Guard to Ashi Transition",
-      "relationship": "Common entry sequence from guard position"
+      "name": "Saddle",
+      "relationship": "Advanced leg entanglement position for transitioning when defenses are strong"
     },
     {
       "name": "Leg Entanglement",
       "relationship": "Fundamental principle underlying all leg lock positions"
+    },
+    {
+      "name": "Straight Ankle Lock Control",
+      "relationship": "Control position variant for the same submission mechanics"
     }
   ]
 }

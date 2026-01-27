@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Guillotine from Turtle | BJJ Technique | BJJ Graph"
 description: "Learn Guillotine from Turtle in BJJ. Step-by-step execution from Turtle Top to Guillotine Control. Success: Beginner 30%, Intermediate 50%, Advanced 70%."
@@ -16,7 +17,7 @@ description: "Learn Guillotine from Turtle in BJJ. Step-by-step execution from T
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Guillotine from Turtle in BJJ",
-  "description": "Step-by-step guide for Guillotine from Turtle from Turtle to Guillotine Control.",
+  "description": "Step-by-step guide for Guillotine from Turtle from Turtle/Top. Possible outcomes: Guillotine Control/Top (70%), Turtle/Top (20%), Turtle/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -154,11 +155,25 @@ description: "Learn Guillotine from Turtle in BJJ. Step-by-step execution from T
 
 The Guillotine from Turtle is a high-percentage submission attack that capitalizes on the opponent's defensive turtle position. When an opponent turtles to avoid back exposure, they inadvertently expose their neck to front headlock attacks. This transition exploits the fundamental weakness of turtle position: the head and neck are accessible while the opponent focuses on protecting their back. The technique requires precise timing, proper grip mechanics, and understanding of when to finish from standing versus when to pull guard. Elite competitors like Marcelo Garcia have built entire systems around this attack, demonstrating its effectiveness across all skill levels and rule sets. The guillotine from turtle represents a critical junction in modern grappling where the top player must decide between back attacks and front headlock submissions. Understanding this transition is essential for anyone developing a complete top game, as it creates a dilemma for the bottom player: defend the back or defend the neck. The technique's success rate increases dramatically with proper setup and grip configuration, making it one of the most reliable submissions from turtle position.
 
-**Starting Position**: [[Turtle]]
-**Ending Position**: [[Guillotine Control]]
+**From Position**: [[Turtle/Top]]
 **Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Guillotine Control/Top]] | 70% |
+| Failure | [[Turtle/Top]] | 20% |
+| Counter | [[Turtle/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

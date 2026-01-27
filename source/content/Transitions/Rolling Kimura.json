@@ -10,8 +10,6 @@
     "submission-threat",
     "dynamic-movement"
   ],
-  "starting_position": "Turtle",
-  "ending_position": "Back Control",
   "success_rates": {
     "beginner": 30,
     "intermediate": 50,
@@ -292,6 +290,24 @@
     {
       "name": "Turtle to Standing",
       "relationship": "Counter movement that can transition into standing rolling kimura variant"
+    }
+  ],
+  "from_position": "Turtle/Top",
+  "outcomes": [
+    {
+      "to": "Back Control/Top",
+      "probability": 70,
+      "result": "success"
+    },
+    {
+      "to": "Turtle/Top",
+      "probability": 20,
+      "result": "failure"
+    },
+    {
+      "to": "Turtle/Bottom",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

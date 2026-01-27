@@ -11,8 +11,6 @@
     "outside-ashi",
     "no-gi"
   ],
-  "starting_position": "Standing Position",
-  "ending_position": "Outside Ashi-Garami",
   "success_rates": {
     "beginner": 35,
     "intermediate": 50,
@@ -276,6 +274,24 @@
     {
       "name": "Single Leg Takedown",
       "relationship": "Traditional technique that can transition to outside ashi if defended"
+    }
+  ],
+  "from_position": "Standing Position/Top",
+  "outcomes": [
+    {
+      "to": "Outside Ashi-Garami/Top",
+      "probability": 65,
+      "result": "success"
+    },
+    {
+      "to": "Standing Position/Top",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Standing Position/Bottom",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

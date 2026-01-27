@@ -96,26 +96,20 @@ The position's effectiveness scales with skill level and understanding. Beginner
 - Create frames with your arms to prevent opponent from deepening their controls
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Address Leg Control]]** → [[Turtle]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Leg Extraction to Half Guard]]** (25% of attempts)
 
-- **[[Roll Through Escape]]** → [[Half Guard]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+- **[[Roll Through Escape]]** (15% of attempts)
 
-- **[[Frame and Turn]]** → [[Turtle]]
-  - Success Rate: Beginner 18%, Intermediate 32%, Advanced 48%
+- **[[Frame and Turn to Turtle]]** (25% of attempts)
 
-- **[[Leg Extraction]]** → [[Back Control]]
-  - Success Rate: Beginner 12%, Intermediate 25%, Advanced 40%
+- **[[Counter Roll to Scramble]]** (10% of attempts)
 
-- **[[Scramble to Guard]]** → [[Closed Guard]]
-  - Success Rate: Beginner 10%, Intermediate 22%, Advanced 35%
+- **[[Hip Escape to Guard Recovery]]** (10% of attempts)
 
-- **[[Defensive Roll]]** → [[Defensive Position]]
-  - Success Rate: Beginner 25%, Intermediate 38%, Advanced 52%
+- **[[Explosive Turn to Side Control Bottom]]** (15% of attempts)
 
 
 ### Common Mistakes
@@ -169,26 +163,20 @@ The position's effectiveness scales with skill level and understanding. Beginner
 - Use the discomfort of the position to accelerate opponent fatigue and create submission opportunities
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Twister Finish]]** → [[Won by Submission]]
-  - Success Rate: Beginner 25%, Intermediate 35%, Advanced 45%
+- **[[Twister Finish]]** (25% of attempts)
 
-- **[[Guillotine Choke]]** → [[Won by Submission]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Guillotine from Twister]]** (15% of attempts)
 
-- **[[Calf Slicer from Truck]]** → [[Won by Submission]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Calf Slicer from Truck]]** (10% of attempts)
 
-- **[[Back Take Generic]]** → [[Back Control]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Transition to Back Control]]** (25% of attempts)
 
-- **[[Neck Crank]]** → [[Won by Submission]]
-  - Success Rate: Beginner 22%, Intermediate 38%, Advanced 52%
+- **[[Neck Crank]]** (10% of attempts)
 
-- **[[Arm Triangle]]** → [[Won by Submission]]
-  - Success Rate: Beginner 18%, Intermediate 32%, Advanced 48%
+- **[[Banana Split]]** (15% of attempts)
 
 
 ### Common Mistakes

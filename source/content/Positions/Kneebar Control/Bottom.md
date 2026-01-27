@@ -21,37 +21,37 @@ description: "Master bottom kneebar control in BJJ. Complete technical guide cov
     {
       "@type": "HowToStep",
       "name": "Execute Kneebar Finish",
-      "text": "From this position, execute Kneebar Finish to transition to Won by Submission. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Kneebar Finish. This technique is attempted in 8% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Inside Ashi Entry",
-      "text": "From this position, execute Inside Ashi Entry to transition to Inside Ashi-Garami. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Inside Ashi Entry. This technique is attempted in 14% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Outside Ashi Entry",
-      "text": "From this position, execute Outside Ashi Entry to transition to Outside Ashi-Garami. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Outside Ashi Entry. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Saddle Entry from Top",
-      "text": "From this position, execute Saddle Entry from Top to transition to Saddle. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Saddle Entry from Top. This technique is attempted in 9% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute 50-50 Entry from Standing",
-      "text": "From this position, execute 50-50 Entry from Standing to transition to 50-50 Guard. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt 50-50 Entry from Standing. This technique is attempted in 11% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Heel Hook",
-      "text": "From this position, execute Heel Hook to transition to Won by Submission. Success rate for advanced practitioners: 45%.",
+      "text": "From this position, attempt Heel Hook. This technique is attempted in 8% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -215,108 +215,26 @@ Defensively, the bottom practitioner must be aware that committing to a kneebar 
 
 ## Available Escapes
 
-### [[Kneebar Finish]] → [[Won by Submission]]
+### [[Kneebar Finish]] (8% of attempts)
 
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 50%
+### [[Inside Ashi Entry]] (14% of attempts)
 
-### [[Inside Ashi Entry]] → [[Inside Ashi-Garami]]
+### [[Outside Ashi Entry]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 60%
-- Advanced: 75%
+### [[Saddle Entry from Top]] (9% of attempts)
 
-### [[Outside Ashi Entry]] → [[Outside Ashi-Garami]]
+### [[50-50 Entry from Standing]] (11% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Heel Hook]] (8% of attempts)
 
-### [[Saddle Entry from Top]] → [[Saddle]]
+### [[Straight Ankle Lock]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 55%
+### [[Toe Hold]] (8% of attempts)
 
-### [[50-50 Entry from Standing]] → [[50-50 Guard]]
+### [[Single Leg X Entry]] (11% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[X-Guard Sweep]] (9% of attempts)
 
-### [[Heel Hook]] → [[Won by Submission]]
-
-**Success Rates:**
-- Beginner: 10%
-- Intermediate: 25%
-- Advanced: 45%
-
-### [[Straight Ankle Lock]] → [[Straight Ankle Lock Control]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[Toe Hold]] → [[Toe Hold Control]]
-
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 50%
-
-### [[Single Leg X Entry]] → [[Single Leg X-Guard]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-### [[X-Guard Sweep]] → [[Mount]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Ashi Garami Escape]]** → [[Standing Position]] (Opponent Success: 45%)
-- **[[Leg Extraction]]** → [[Open Guard]] (Opponent Success: 40%)
-- **[[Hip Rotation Defense]]** → [[Defensive Position]] (Opponent Success: 50%)
-- **[[Counter Leg Attack]]** → [[Kneebar Control]] (Opponent Success: 25%)
-- **[[Saddle Defense]]** → [[Turtle]] (Opponent Success: 35%)
-- **[[Guard Pass]]** → [[Side Control]] (Opponent Success: 30%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Heel Hook]]** → [[Won by Submission]]
-  - Opponent exposes heel while attempting to clear knee line during escape
-- **[[Inside Ashi Entry]]** → [[Inside Ashi-Garami]]
-  - Opponent rotates hips away from kneebar pressure, exposing inside position
-- **[[Saddle Entry from Top]]** → [[Saddle]]
-  - Opponent attempts to step over entangled leg, creating path to backside control
-- **[[Single Leg X Entry]]** → [[Single Leg X-Guard]]
-  - Opponent posts weight on entangled leg while attempting to maintain base
-- **[[Straight Ankle Lock]]** → [[Straight Ankle Lock Control]]
-  - Opponent creates space with leg extraction attempt, exposing ankle
 
 
 </section>
@@ -331,8 +249,8 @@ Defensively, the bottom practitioner must be aware that committing to a kneebar 
 
 
 **If opponent's leg becomes straightened and defensive posture breaks under pulling pressure:**
-- Execute **[[Kneebar Finish]]** → [[Won by Submission]] (Probability: 50%)
-- Execute **[[Heel Hook]]** → [[Won by Submission]] (Probability: 45%)
+- Execute **[[Kneebar Finish]]** → [[game-over]] (Probability: 50%)
+- Execute **[[Heel Hook]]** → [[game-over]] (Probability: 45%)
 
 
 **If opponent rotates hips away from kneebar pressure to defend knee joint:**
@@ -433,33 +351,39 @@ Start with practitioner in bottom kneebar control against defending partner. Pra
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Direct Kneebar Finish
+## Test Your Knowledge
 
-`Kneebar Control Bottom → Pull leg to chest → Break defensive posture → Hip drive and back arch → Kneebar Finish`
+**Q1**: What is the primary mechanism for maintaining bottom kneebar control when opponent attempts to pull their leg free?
+**A**: The primary mechanism combines three elements: maintaining a tight leg entanglement with your inside or outside leg hooked behind their knee, keeping constant pulling pressure with your arms around their lower leg, and staying hip-connected to their knee joint. When they pull, follow with your hips rather than just your arms - use your entire body to stay connected. The leg hook prevents extraction while arms control the angle.
 
-### Kneebar to Heel Hook Chain
+**Q2**: How should you adjust when your opponent starts rotating their hips to defend the kneebar?
+**A**: When opponent rotates their hips, read the direction of rotation. If they rotate away from you, follow their hips and transition to saddle or inside ashi position which is exposed by their movement. If they rotate toward you, maintain the entanglement while adjusting your angle to follow. Never fight their rotation directly - instead, use it to flow to positions that become available. Their rotation often exposes heel hook opportunities.
 
-`Kneebar Control Bottom → Inside Ashi-Garami → Saddle → Heel Hook`
+**Q3**: What are the essential grips for maintaining bottom kneebar control?
+**A**: The essential grips involve wrapping both arms around the opponent's lower leg in a figure-four or gable grip configuration. Cup the heel and Achilles with your near hand while your far hand reinforces from the opposite side. Keep elbows tight together and pull the leg across your chest toward your armpit on the same side as your entangling leg. Hands should be positioned near the ankle for maximum control and finishing leverage.
 
-### Ankle Lock Transition
+**Q4**: Your opponent is attempting to step over your entangled leg - what immediate action should you take?
+**A**: When opponent attempts to step over, this creates a critical decision point. Either: 1) immediately transition to single leg X-guard by elevating their stepping leg and inserting your free leg as a hook, turning their escape attempt into a sweep opportunity; or 2) follow their stepping motion to enter saddle position by threading your legs to the backside. Never allow a free step-over without reaction - their movement should trigger your transition.
 
-`Kneebar Control Bottom → Opponent creates distance → Straight Ankle Lock Control → Straight Ankle Lock`
+**Q5**: How do you apply finishing pressure effectively from bottom kneebar control?
+**A**: Effective finishing pressure comes from hip drive and back arch rather than arm strength. Pull the leg tight to your chest with arms, then bridge your hips forward while arching your back to create hyperextension against their knee. Your hips should be positioned slightly below their knee joint to create optimal leverage. The finish is a full-body movement - arms hold, hips and back drive. Pinch your knees together during the finish for additional control.
 
-### Positional Advancement Path
+**Q6**: What movement patterns should you anticipate from an opponent defending bottom kneebar control?
+**A**: Anticipate four primary defensive patterns: leg extraction (pulling the leg out forcefully), hip rotation (turning toward or away from pressure), stepping over the entanglement, and driving forward to smash pass. Each defense opens specific transitions - extraction exposes ankle for straight ankle lock, rotation exposes saddle entry, step-over creates sweep opportunity, and forward pressure can be redirected into submissions. Read their weight shift and hip movement to predict which defense they'll attempt.
 
-`Kneebar Control Bottom → Single Leg X-Guard → X-Guard Sweep → Mount → Armbar from Mount`
+**Q7**: What is the most efficient energy management approach when attacking from bottom kneebar control?
+**A**: Efficient energy management means setting clear finish windows (10-15 seconds of committed attack) and immediately transitioning when defense is established. Use leg entanglement for control rather than gripping strength. Alternate between submission threat and positional consolidation to recover grip endurance. If opponent is completely defending the knee, flow to ankle or heel attacks rather than forcing. Accept that bottom leg attacks require more energy than top position - transition to sweeps if becoming fatigued.
 
-### Toe Hold Alternative
-
-`Kneebar Control Bottom → Outside Ashi-Garami → Toe Hold Control → Toe Hold`
+**Q8**: Your opponent has extracted their leg halfway and is creating significant distance - how do you recover the position?
+**A**: When opponent creates distance mid-extraction, you have a narrow window to act. Options: 1) chase with your hips while maintaining whatever grip remains, potentially transitioning to 50-50 as they disengage; 2) use their backward momentum to technical stand up and follow into standing leg attack position; 3) accept the escape and immediately re-guard to establish open guard before they can consolidate passing position. Do not continue pulling against a fully committed extraction - redirect energy to the next position.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -486,7 +410,7 @@ Start with practitioner in bottom kneebar control against defending partner. Pra
 - **[[Straight Ankle Lock Control]]** - Alternative leg submission when kneebar angle is compromised
 - **[[50-50 Guard]]** - Symmetrical leg entanglement offering mutual kneebar threats
 - **[[Single Leg X-Guard]]** - Sweeping position accessible from kneebar control structure
-- **[[systematic approach Leg Lock System]]** - Systematic approach integrating kneebar control into comprehensive leg attack framework
+- **[[Ashi Garami]]** - Parent category encompassing all leg entanglement control positions
 - **[[Ashi Garami Escape]]** - Primary defensive transition opponent uses to escape bottom kneebar control
 - **[[Leg Entanglement]]** - Core principle governing all bottom kneebar control mechanics
 

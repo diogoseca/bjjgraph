@@ -21,37 +21,37 @@ description: "Defensive guide to escaping Russian Cowboy position. Learn surviva
     {
       "@type": "HowToStep",
       "name": "Execute Granby Roll",
-      "text": "From this position, execute Granby Roll to transition to Open Guard. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Granby Roll. This technique is attempted in 17% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Technical Standup",
-      "text": "From this position, execute Technical Standup to transition to Standing Guard. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Technical Standup. This technique is attempted in 15% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape",
-      "text": "From this position, execute Hip Escape to transition to Half Guard. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Hip Escape. This technique is attempted in 18% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling Back Take",
-      "text": "From this position, execute Rolling Back Take to transition to Scramble Position. Success rate for advanced practitioners: 45%.",
+      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 14% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Turtle Transition",
-      "text": "From this position, execute Turtle Transition to transition to Turtle. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Turtle Transition. This technique is attempted in 21% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Guard Replacement",
-      "text": "From this position, execute Guard Replacement to transition to Closed Guard. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Guard Replacement. This technique is attempted in 15% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -213,74 +213,18 @@ The defensive hierarchy in Russian Cowboy emphasizes protecting the neck first, 
 
 ## Available Escapes
 
-### [[Granby Roll]] → [[Open Guard]]
+### [[Granby Roll]] (17% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 55%
+### [[Technical Standup]] (15% of attempts)
 
-### [[Technical Standup]] → [[Standing Guard]]
+### [[Hip Escape]] (18% of attempts)
 
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 50%
+### [[Rolling Back Take]] (14% of attempts)
 
-### [[Hip Escape]] → [[Half Guard]]
+### [[Turtle Transition]] (21% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 60%
+### [[Guard Replacement]] (15% of attempts)
 
-### [[Rolling Back Take]] → [[Scramble Position]]
-
-**Success Rates:**
-- Beginner: 10%
-- Intermediate: 25%
-- Advanced: 45%
-
-### [[Turtle Transition]] → [[Turtle]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 65%
-
-### [[Guard Replacement]] → [[Closed Guard]]
-
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 50%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Truck Entry]]** → [[Truck]] (Opponent Success: 70%)
-- **[[Back Control to Crucifix]]** → [[Crucifix]] (Opponent Success: 60%)
-- **[[Twister Finish]]** → [[Twister Control]] (Opponent Success: 55%)
-- **[[Rear Naked Choke]]** → [[Back Control]] (Opponent Success: 65%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Frame and Turn In]]** → [[Half Guard]]
-  - Create strong frame against opponent's chest when they attempt to flatten you
-- **[[Leg Extraction]]** → [[Turtle]]
-  - Control opponent's hooking ankle and extract leg when pressure is reduced
-- **[[Explosive Standup]]** → [[Standing Guard]]
-  - Capitalize on opponent's positional adjustment to burst to standing
 
 
 </section>
@@ -290,8 +234,8 @@ The defensive hierarchy in Russian Cowboy emphasizes protecting the neck first, 
 ## Decision Making from This Position
 
 **If opponent begins choking sequence or attacks neck:**
-- Execute **[[Hand Fighting]]** → [[Defensive Position]] (Probability: 80%)
-- Execute **[[Chin Protection]]** → [[Defensive Position]] (Probability: 85%)
+- Execute **[[Hand Fighting]]** → [[Russian Cowboy]] (Probability: 80%)
+- Execute **[[Chin Protection]]** → [[Russian Cowboy]] (Probability: 85%)
 
 
 **If opponent advances hooking leg toward truck position:**
@@ -375,25 +319,39 @@ Partner establishes Russian Cowboy then periodically loosens control. Practice r
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Guard Recovery Path
+## Test Your Knowledge
 
-`Russian Cowboy Bottom → Hip Escape → Half Guard → Closed Guard`
+**Q1**: Your opponent begins setting up the rear naked choke while maintaining Russian Cowboy - what is your immediate defensive priority sequence?
+**A**: Immediately address the choking arm using two-on-one grip fighting before any positional escape attempts. Pull the choking arm below your chin line while tucking your chin to your chest. Grip their wrist with both hands and pull it toward your sternum while turning your chin away from the choking arm. Only after you've neutralized the immediate choke threat should you begin working on the leg hook and creating escape angles. Attempting positional escape while the choke is being set will likely result in finishing the choke during your movement.
 
-### Turtle Escape Sequence
+**Q2**: What are the critical frames you need to establish when trapped in Russian Cowboy bottom and in what order?
+**A**: First frame is chin to chest and hands protecting the neck from choke setups - this is survival priority. Second frame is elbow to the mat on the side of the hook creating a base point that prevents being completely stretched out. Third frame is your near-side hand posted against their hip or thigh to create separation for hip movement. The sequence matters because without neck protection you can be finished, without the elbow base you can't generate escape movement, and without the hip frame you can't create the space needed to extract your hooked leg.
 
-`Russian Cowboy Bottom → Turtle Transition → Turtle → Standing up in Base`
+**Q3**: Why is rolling away from the hook a common mistake and what should you do instead?
+**A**: Rolling away from the hook feeds directly into the opponent's truck entry because your roll gives them the rotational momentum they need to thread their second leg into full truck position. Instead, turn into their free leg side - the side without the hook. This direction doesn't assist their truck transition and may allow you to achieve half guard if you can get your hips facing them. Create frames first, then rotate toward their free leg side while controlling their hooking ankle to prevent them from adjusting their position to match your movement.
 
-### Standing Escape
+**Q4**: When your opponent advances their hook deeper toward truck position, what is your best defensive response?
+**A**: Immediately post your far hand on the mat and hip escape toward the direction your opponent is pulling. This counteracts their rotation rather than fighting it directly. Simultaneously use your near hand to grip their hooking ankle and push it away from your body while extending your hooked leg. The combination of hip escape movement and active leg extraction is more effective than pure static resistance. If they've already achieved significant hook depth, consider transitioning to turtle as an intermediate position rather than trying to fully extract the leg.
 
-`Russian Cowboy Bottom → Technical Standup → Standing Guard`
+**Q5**: How do you recognize and capitalize on escape windows when your opponent adjusts their position?
+**A**: Watch for moments when their chest pressure lightens, their seatbelt loosens, or they shift their hips to adjust their hook - these are escape windows. When you feel decreased chest pressure, immediately shrimp your hips away and work to face them. When the seatbelt loosens, address the grip on your shoulder first then work on the hook. When their hips shift, that's your opportunity for explosive movement because they've temporarily reduced their base. The key is recognizing these micro-moments and exploding into your escape immediately rather than thinking about it.
+
+**Q6**: Your escape attempt partially succeeds but opponent still has upper body control - how do you complete the recovery?
+**A**: If you've freed the hook but they maintain seatbelt, immediately rotate to face them while keeping your chin protected and elbows tight. Work to establish inside position with your arms - underhooks or frames against their biceps. Your priority is getting your hips facing them before they can re-establish the hook. If you've broken the seatbelt but they still have the hook, control their hooking ankle with both hands if needed and use it as a pivot point to rotate your body out. Never stop moving during this critical transition phase or they'll reconsolidate control.
+
+**Q7**: What positional goals should you work toward when escaping Russian Cowboy and why?
+**A**: Primary goal is half guard because it allows you to address the hook through lockdown or knee shield while facing your opponent. Secondary goal is turtle which trades one bad position for a more defensible one with better escape options. Tertiary goal is standing if you can create enough separation and they lose upper body control. Closed guard is rarely achievable directly but may come after passing through half guard. The key is having clear positional targets rather than just escaping randomly, as this prevents you from escaping into worse positions.
+
+**Q8**: How do you manage energy expenditure when defending a prolonged Russian Cowboy attack?
+**A**: Use frames and structure rather than muscular effort for survival. Keep your breathing steady and controlled - panicked breathing depletes energy rapidly. Make calculated movements during escape windows rather than constant struggling which exhausts you while your opponent conserves energy. Recognize when you're defended against immediate submission threats and use these moments to recover mentally and physically rather than struggling continuously. Your escape attempts should be explosions of effort during windows, not sustained resistance. If you're breathing harder than your opponent, you're losing the energy battle.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 

@@ -10,8 +10,6 @@
     "de_la_riva",
     "advanced_guard"
   ],
-  "starting_position": "De La Riva Guard",
-  "ending_position": "Side Control",
   "success_rates": {
     "beginner": 30,
     "intermediate": 50,
@@ -269,6 +267,24 @@
     {
       "name": "Back Control",
       "relationship": "Resulting position - possible outcome when combined with Kiss of the Dragon"
+    }
+  ],
+  "from_position": "De La Riva Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Side Control/Top",
+      "probability": 70,
+      "result": "success"
+    },
+    {
+      "to": "De La Riva Guard/Bottom",
+      "probability": 20,
+      "result": "failure"
+    },
+    {
+      "to": "De La Riva Guard/Top",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

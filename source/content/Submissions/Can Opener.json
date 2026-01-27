@@ -231,6 +231,16 @@
       "safety_critical": true
     },
     {
+      "question": "What anatomical structures does the Can Opener primarily attack?",
+      "answer": "The Can Opener attacks the cervical spine, specifically the vertebrae (C1-C7), intervertebral discs, and surrounding ligaments. The compression force flexes the neck forward beyond its natural range while restricting lateral movement, creating dangerous shearing forces on the vertebral bodies and compression on the anterior portion of the intervertebral discs. Secondary targets include the neck muscles (sternocleidomastoid, trapezius, scalenes), which can tear under excessive load, and the spinal cord itself, which can sustain damage from vertebral compression or displacement.",
+      "safety_critical": true
+    },
+    {
+      "question": "What are the breaking point indicators that signal imminent cervical injury during a Can Opener?",
+      "answer": "Unlike joint locks where pain increases gradually before structural failure, cervical injuries from the Can Opener often lack clear warning signs before catastrophic damage occurs. Indicators include sharp, shooting pain radiating down the arms or spine, sudden numbness or tingling in extremities, inability to resist the pressure despite muscular effort, and audible popping or grinding sounds from the neck. The critical danger is that serious disc herniation or vertebral damage can occur without these warning signs, making the technique inherently unpredictable. Practitioners must tap immediately at the first sign of discomfort rather than waiting for clear breaking point indicators.",
+      "safety_critical": true
+    },
+    {
       "question": "What is the most effective defense against someone attempting a Can Opener from your closed guard?",
       "answer": "The most effective defense is preventing the setup through proper grip control - maintaining strong collar and sleeve grips that prevent the opponent from swimming hands behind your head. If they begin to establish hand position, immediately break your posture down to your chest by pulling them forward with collar grips, eliminating the space needed for them to generate compression leverage. Breaking their posture down completely neutralizes the mechanical advantage required for the technique. Additionally, maintaining active guard retention with hip movement and angle changes prevents them from establishing the stable base needed for sustained pressure.",
       "safety_critical": true
@@ -241,9 +251,9 @@
       "safety_critical": true
     },
     {
-      "question": "What makes the Can Opener particularly dangerous compared to other submissions?",
-      "answer": "The Can Opener attacks the cervical spine which contains the spinal cord and controls vital nervous system functions. Unlike limb attacks where joint damage has clear anatomical limits, cervical spine injuries can result in permanent neurological damage, paralysis, or death in extreme cases. The compression force is applied to multiple vertebrae and discs simultaneously rather than a single joint, distributing damage across critical structures. Additionally, neck injuries often have delayed symptom presentation - serious damage may occur before pain becomes severe enough to tap. The technique also lacks the clear progression that allows defenders to recognize danger levels in attacks like armbars or chokes.",
-      "safety_critical": true
+      "question": "What control requirements must be established before the Can Opener can generate finishing pressure?",
+      "answer": "The attacker requires secure bilateral hand position behind the opponent's head with interlaced fingers at the skull base, creating a unified pulling structure. The forearms must be positioned along the sides of the neck to create compression surfaces. The attacker's posture must be partially upright with enough space to generate leverage despite being inside closed guard. The bottom player's guard must remain closed to trap them in place, preventing the hip escape that would relieve pressure. Without all these elements simultaneously present, the technique cannot generate dangerous force levels.",
+      "safety_critical": false
     },
     {
       "question": "What legal and safe guard-breaking alternatives should you use instead of the Can Opener?",
@@ -256,9 +266,24 @@
       "safety_critical": true
     },
     {
+      "question": "What grip adjustments does the attacker make when the defender begins fighting the hand position?",
+      "answer": "When the defender begins grip fighting, the attacker typically attempts to secure one hand behind the head first, using their other arm to control the defender's wrist or pin their arm to create a window for the second hand. If the defender strips one hand, the attacker may attempt a single-arm variation with forearm pressure while posting with the free hand. However, effective grip fighting by the defender makes establishing and maintaining the required hand position nearly impossible. This is why proper grip discipline from closed guard is the primary defense - it prevents the technique from ever being established rather than requiring escape after the dangerous position is achieved.",
+      "safety_critical": false
+    },
+    {
+      "question": "What are the common finishing errors that reduce Can Opener effectiveness while increasing injury risk?",
+      "answer": "Common finishing errors include: positioning hands too high on the crown of the skull rather than the base, allowing the grip to slip and causing sudden pressure spikes; driving forearms into the windpipe rather than neck sides, creating dangerous airway obstruction; applying jerking or explosive pressure instead of gradual compression, dramatically increasing vertebral injury risk; failing to recognize when the defender's guard has loosened and continuing unnecessary pressure; and over-relying on arm strength rather than proper leverage mechanics, leading to rapid fatigue and inconsistent pressure application. All these errors increase danger while reducing effectiveness, reinforcing why legal alternatives are superior.",
+      "safety_critical": true
+    },
+    {
       "question": "What should you do if you witness someone applying a Can Opener in your gym?",
       "answer": "Immediately intervene verbally to stop the roll, then inform both practitioners about the safety concerns and gym policies regarding banned techniques. Explain to the person applying it why the technique is dangerous and prohibited, and help them understand legal alternatives for guard breaking. Check on the defender to ensure they have no neck pain or injury symptoms. Report the incident to the instructor or gym owner so they can address safety standards with all students. Creating a culture of safety requires active intervention when dangerous techniques are used, even if this feels uncomfortable. The goal is education rather than punishment, but protecting training partners from injury must be the priority.",
       "safety_critical": true
+    },
+    {
+      "question": "How does competition context affect the application and consequences of the Can Opener?",
+      "answer": "Under IBJJF rules and most major competition rulesets, the Can Opener results in immediate disqualification regardless of belt level. Even in submission-only or no-time-limit formats where neck cranks may be technically legal, elite competitors rarely use it due to its low finishing percentage against skilled opponents who simply open guard, the ethical concerns about intentionally injuring opponents, and the availability of higher-percentage techniques. In MMA contexts, the Can Opener sees occasional use as a guard opener rather than finish, but carries similar injury risks and ethical concerns. Understanding rule variations is important, but the fundamental safety and ethical issues make this technique inadvisable in any competitive context.",
+      "safety_critical": false
     }
   ],
   "training_progressions_and_safety_protocols": [
@@ -332,44 +357,36 @@
       "relationship": "Legal alternative submission attack from similar hand positioning that targets safely"
     },
     {
-      "name": "Guard Opening Sequence",
-      "relationship": "Proper legal guard-breaking progression that should replace Can Opener in training"
+      "name": "Half Guard",
+      "relationship": "Alternative position where Can Opener variation can be attempted with similar risks"
     },
     {
-      "name": "Posture Breaking",
-      "relationship": "Key defensive principle that prevents Can Opener setup by eliminating opponent's leverage"
-    },
-    {
-      "name": "Submission Defense",
-      "relationship": "Broader defensive framework including recognition and prevention of dangerous attacks"
-    },
-    {
-      "name": "Chin Protection",
-      "relationship": "Defensive principle relevant to protecting neck from cranking pressure"
-    },
-    {
-      "name": "Guard Retention",
-      "relationship": "Defensive system that prevents opponent from establishing dominant positions for neck attacks"
-    },
-    {
-      "name": "Defensive Posture",
-      "relationship": "Fundamental defensive principle for preventing opponent control that enables dangerous attacks"
-    },
-    {
-      "name": "Standing Guard",
-      "relationship": "Legal and effective guard-breaking alternative that uses proper technical mechanics"
+      "name": "Butterfly Guard",
+      "relationship": "Open guard position defender may transition to when opening guard to escape Can Opener"
     },
     {
       "name": "Turtle",
       "relationship": "Position defender may transition to when escaping Can Opener attempt"
     },
     {
-      "name": "Half Guard",
-      "relationship": "Alternative position where Can Opener variation can be attempted with similar risks"
-    },
-    {
       "name": "Combat Base",
       "relationship": "Proper posture position for guard passing that prevents dangerous neck attack setups"
+    },
+    {
+      "name": "Open Guard",
+      "relationship": "Alternative guard position defender transitions to when voluntarily opening guard"
+    },
+    {
+      "name": "De La Riva Guard",
+      "relationship": "Open guard option for defender after escaping Can Opener pressure"
+    },
+    {
+      "name": "Darce Choke",
+      "relationship": "Legal neck attack alternative that uses blood choke mechanics rather than spinal compression"
+    },
+    {
+      "name": "Anaconda Choke",
+      "relationship": "Legal neck attack alternative focusing on carotid compression rather than cervical pressure"
     }
   ]
 }

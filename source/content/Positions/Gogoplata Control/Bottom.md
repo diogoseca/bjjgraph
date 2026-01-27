@@ -21,37 +21,37 @@ description: "Master bottom gogoplata control mechanics including shin positioni
     {
       "@type": "HowToStep",
       "name": "Execute Gogoplata",
-      "text": "From this position, execute Gogoplata to transition to Won by Submission. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Gogoplata. This technique is attempted in 10% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Choke",
-      "text": "From this position, execute Triangle Choke to transition to Triangle Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Triangle Choke. This technique is attempted in 13% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Omoplata",
-      "text": "From this position, execute Transition to Omoplata to transition to Omoplata Control. Success rate for advanced practitioners: 60%.",
+      "name": "Execute Closed Guard to Omoplata",
+      "text": "From this position, attempt Closed Guard to Omoplata. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Take",
-      "text": "From this position, execute Back Take to transition to Back Control. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Back Take. This technique is attempted in 11% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Armbar from Guard",
-      "text": "From this position, execute Armbar from Guard to transition to Armbar Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Armbar from Guard. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute High Mount Transition",
-      "text": "From this position, execute High Mount Transition to transition to High Mount. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt High Mount Transition. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -219,91 +219,22 @@ Strategically, bottom gogoplata control functions as a high-risk, high-reward po
 
 ## Available Escapes
 
-### [[Gogoplata]] → [[Won by Submission]]
+### [[Gogoplata]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 50%
+### [[Triangle Choke]] (13% of attempts)
 
-### [[Triangle Choke]] → [[Triangle Control]]
+### [[Closed Guard to Omoplata]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Back Take]] (11% of attempts)
 
-### [[Transition to Omoplata]] → [[Omoplata Control]]
+### [[Armbar from Guard]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
+### [[High Mount Transition]] (10% of attempts)
 
-### [[Back Take]] → [[Back Control]]
+### [[Mission Control Recovery]] (14% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
+### [[Rubber Guard Maintenance]] (18% of attempts)
 
-### [[Armbar from Guard]] → [[Armbar Control]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[High Mount Transition]] → [[High Mount]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
-
-### [[Mission Control Recovery]] → [[Mission Control]]
-
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
-
-### [[Rubber Guard Maintenance]] → [[Rubber Guard]]
-
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 60%
-- Advanced: 75%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Head Extraction]]** → [[Closed Guard]]
-- **[[Posture Recovery]]** → [[Defensive Position]]
-- **[[Stack Defense]]** → [[Guard Opening Sequence]]
-- **[[Roll Through Escape]]** → [[Turtle]]
-- **[[Leg Removal]]** → [[Half Guard]]
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Triangle Adjustment]]** → [[Triangle Control]]
-  - Opponent attempts to remove shin by pushing leg away from throat
-- **[[Omoplata Roll]]** → [[Omoplata Control]]
-  - Opponent turns away from choking shin to escape pressure
-- **[[Back Take from Roll]]** → [[Back Control]]
-  - Opponent attempts forward roll to escape shin compression
-- **[[Foot Lock Deepening]]** → [[Gogoplata Control]]
-  - Opponent creates small space allowing deeper foot positioning behind head
 
 
 </section>
@@ -313,7 +244,7 @@ Strategically, bottom gogoplata control functions as a high-risk, high-reward po
 ## Decision Making from This Position
 
 **If opponent maintains static posture and attempts to hand-fight the foot behind their head:**
-- Execute **[[Gogoplata Finish]]** → [[Won by Submission]] (Probability: 50%)
+- Execute **[[Gogoplata Finish]]** → [[game-over]] (Probability: 50%)
 - Execute **[[Triangle Transition]]** → [[Triangle Control]] (Probability: 65%)
 
 
@@ -368,7 +299,7 @@ Strategically, bottom gogoplata control functions as a high-risk, high-reward po
 ### 6. Attempting gogoplata from positions without proper control prerequisites
 
 - ❌ **Consequence**: Opponent easily defends by posturing or passing before the shin can be established across throat
-- ✅ **Correction**: Build through proper progression: closed guard → rubber guard → mission control → gogoplata; ensure each control is solid before advancing
+- ✅ **Correction**: Build through proper progression: closed guard to rubber guard to mission control to gogoplata; ensure each control is solid before advancing
 
 
 
@@ -410,29 +341,39 @@ Establish gogoplata control position and focus exclusively on maintaining elevat
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Rubber Guard to Gogoplata Finish
+## Test Your Knowledge
 
-`Closed Guard → Rubber Guard → Mission Control → Gogoplata Control → Won by Submission`
+**Q1**: What is the optimal shin alignment relative to the opponent's throat for maximum submission effectiveness?
+**A**: The shin must be perpendicular to the trachea, not parallel or diagonal. The tibia should contact the front of the throat directly with the ankle hooking around the far side of the head. This perpendicular alignment maximizes compression on the airway and carotid arteries.
 
-### Triangle to Gogoplata Transition
+**Q2**: Your opponent creates a small gap - how do you use this to deepen your control?
+**A**: Use your hands to immediately pull your own foot deeper behind their head while maintaining shin pressure. The gap they created becomes an opportunity to tighten the configuration. Once deeper, re-establish hip elevation to lock the improved position.
 
-`Closed Guard → Triangle Setup → Triangle Control → Gogoplata Control → Won by Submission`
+**Q3**: Why is hip elevation critical for maintaining gogoplata control?
+**A**: Elevated hips create the necessary angle for the shin to compress the throat rather than sliding off. When hips drop to mat level, the shin angle becomes parallel to the throat eliminating compression. Core engagement must keep pelvis higher than shoulders throughout control.
 
-### High Guard to Gogoplata Attack
+**Q4**: What hand positioning maintains optimal control while setting up the finish?
+**A**: Use both hands initially to pull your own foot deep behind the opponent's head. Maintain at least one hand on your foot throughout to prevent removal. The hands control your foot position, not the opponent's head - the shin does the controlling work.
 
-`Closed Guard → High Mount → Gogoplata Control → Won by Submission`
+**Q5**: Your opponent starts turning their shoulder away from the choking shin - what transition becomes available?
+**A**: The omoplata transition opens when they turn away. As their shoulder rotates toward you to escape throat pressure, redirect to omoplata control by releasing the gogoplata configuration and securing their arm across your hip. Their escape movement provides the rotation needed.
 
-### Omoplata to Gogoplata Chain
+**Q6**: What prerequisite flexibility must be developed before attempting gogoplata in live training?
+**A**: Hip external rotation and hamstring flexibility sufficient for sustained leg-behind-head positioning. Test by achieving mission control in rubber guard first. If you cannot comfortably maintain your leg across your own shoulder, the gogoplata flexibility requirements are not met.
 
-`Closed Guard → Omoplata Control → Gogoplata Control → Won by Submission`
+**Q7**: How do you transition to triangle when the opponent successfully removes your shin from their throat?
+**A**: As the shin slides off, immediately switch to triangle configuration by bringing your opposite leg over their shoulder and locking your ankles. The foot that was behind their head now assists in securing the triangle. The removed shin becomes the locking leg.
+
+**Q8**: Your opponent attempts a forward roll to escape - what position should you transition to?
+**A**: Follow them to back control. As they roll forward, maintain contact and ride the roll to end up on their back. The forward momentum they generate to escape actually assists your back take transition. Release the gogoplata grip to secure back control hooks.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -457,10 +398,10 @@ Establish gogoplata control position and focus exclusively on maintaining elevat
 - **[[Mission Control]]** - Specific rubber guard variation optimized for gogoplata entries
 - **[[Triangle Control]]** - Related leg-based control sharing similar mechanics and transition pathways
 - **[[Omoplata Control]]** - Alternative shoulder attack available when opponent defends gogoplata
-- **[[10th Planet Rubber Guard System]]** - Comprehensive system incorporating gogoplata as key finishing position
-- **[[Flexibility Training]]** - Essential physical preparation for achieving and maintaining gogoplata positions
+- **[[Closed Guard]]** - Foundation position from which rubber guard chain develops
+- **[[Back Control]]** - Transition target when opponent rolls forward to escape
 - **[[Gogoplata]]** - Submission finish executed from this control position
-- **[[Triangle Choke]]** - Primary backup submission when gogoplata is defended
+- **[[High Mount]]** - Alternative transition target if opponent's escape creates mount opportunity
 
 
 </section>

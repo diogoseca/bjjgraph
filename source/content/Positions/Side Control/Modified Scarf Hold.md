@@ -101,26 +101,20 @@ Competition applicability is high, particularly in gi competitions where the pos
 - Turtle is often the safest immediate escape destination from this position
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Elbow Escape]]** → [[Half Guard]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+- **[[Elbow Escape]]** (18% of attempts)
 
-- **[[Bridge and Roll]]** → [[Closed Guard]]
-  - Success Rate: Beginner 10%, Intermediate 20%, Advanced 35%
+- **[[Bridge and Roll]]** (14% of attempts)
 
-- **[[Turtle Transition]]** → [[Turtle]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Turtle Transition]]** (21% of attempts)
 
-- **[[Frame and Shrimp]]** → [[Open Guard]]
-  - Success Rate: Beginner 12%, Intermediate 25%, Advanced 40%
+- **[[Frame and Shrimp]]** (16% of attempts)
 
-- **[[Arm Extraction]]** → [[Side Control]]
-  - Success Rate: Beginner 18%, Intermediate 32%, Advanced 48%
+- **[[Arm Extraction]]** (19% of attempts)
 
-- **[[Ghost Escape]]** → [[Standing Position]]
-  - Success Rate: Beginner 8%, Intermediate 18%, Advanced 30%
+- **[[Ghost Escape]]** (12% of attempts)
 
 
 ### Common Mistakes
@@ -174,32 +168,24 @@ Competition applicability is high, particularly in gi competitions where the pos
 - Transition readiness is essential - be prepared to move to mount or north-south when opponent turns
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Americana from Side Control]]** → [[Americana Control]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Americana from Side Control]]** (14% of attempts)
 
-- **[[Kimura from Side Control]]** → [[Kimura Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Kimura from Side Control]]** (13% of attempts)
 
-- **[[Armbar from Side Control]]** → [[Armbar Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Armbar from Side Control]]** (12% of attempts)
 
-- **[[Transition to Mount]]** → [[Mount]]
-  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+- **[[Side Control to Mount]]** (15% of attempts)
 
-- **[[Transition to North-South]]** → [[North-South]]
-  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 80%
+- **[[Side Control to North-South]]** (14% of attempts)
 
-- **[[North-South Choke]]** → [[North South Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[North-South Choke]]** (11% of attempts)
 
-- **[[Far Side Armbar]]** → [[Armbar Control]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Far Side Armbar]]** (10% of attempts)
 
-- **[[Arm Triangle]]** → [[Arm Triangle]]
-  - Success Rate: Beginner 28%, Intermediate 42%, Advanced 58%
+- **[[Arm Triangle]]** (11% of attempts)
 
 
 ### Common Mistakes

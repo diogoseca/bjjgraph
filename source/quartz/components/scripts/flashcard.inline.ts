@@ -1,25 +1,13 @@
 // Flashcard Knowledge Test - Anki-style recall test for transitions and submissions
+// Reads per-page graph data injected at build time (no runtime fetch)
 
-interface StateGraph {
-  positions: Record<string, unknown>
-  transitions: Record<
-    string,
-    {
-      name: string
-      startingPosition: string
-      endingPosition: string
-      knowledgeAssessment: Array<{ question: string; answer: string }>
-    }
-  >
-  submissions: Record<
-    string,
-    {
-      name: string
-      isTerminal: boolean
-      fromPositions: string[]
-      knowledgeAssessment: Array<{ question: string; answer: string }>
-    }
-  >
+interface PageGraphData {
+  type: "transition" | "submission"
+  name: string
+  endingPosition?: string
+  endingPositionPath?: string
+  isTerminal?: boolean
+  knowledgeAssessment: Array<{ question: string; answer: string }>
 }
 
 interface JourneyStep {
@@ -29,29 +17,16 @@ interface JourneyStep {
   success?: boolean
 }
 
-let stateGraph: StateGraph | null = null
-
-async function fetchStateGraph(): Promise<StateGraph | null> {
-  if (stateGraph) return stateGraph
-
+function getPageData(): PageGraphData | null {
+  const el = document.getElementById("page-graph-data")
+  if (!el?.textContent) return null
   try {
-    const baseUrl = document.documentElement.dataset.baseUrl ?? ""
-    const response = await fetch(`${baseUrl}/static/stateGraph.json`)
-    stateGraph = await response.json()
-    return stateGraph
-  } catch (e) {
-    console.warn("State graph not available for flashcard")
+    const data = JSON.parse(el.textContent)
+    if (data.type === "transition" || data.type === "submission") return data
+    return null
+  } catch {
     return null
   }
-}
-
-function slugFromPath(path: string): string {
-  // Convert path like /Transitions/Hip-Bump-Sweep to hip-bump-sweep
-  // or /Submissions/Armbar to armbar
-  return path
-    .replace(/^\/?(Transitions|Submissions)\//, "")
-    .toLowerCase()
-    .replace(/\s+/g, "-")
 }
 
 // Journey tracking in localStorage
@@ -78,38 +53,23 @@ function clearJourney() {
 ;(window as any).clearJourney = clearJourney
 ;(window as any).addToJourney = addToJourney
 
-document.addEventListener("nav", async () => {
+document.addEventListener("nav", () => {
   const container = document.getElementById("flashcard-container")
   if (!container) return
-
-  const graph = await fetchStateGraph()
-  if (!graph) return
 
   // Get page type from data attribute
   const pageType = container.dataset.pageType as "transition" | "submission" | undefined
   if (!pageType) return
 
-  // Get current page slug
-  const currentPath = window.location.pathname
-  const currentSlug = slugFromPath(currentPath)
-
-  // Get the appropriate data based on page type
-  let data:
-    | {
-        name: string
-        endingPosition?: string
-        isTerminal?: boolean
-        knowledgeAssessment: Array<{ question: string; answer: string }>
-      }
-    | undefined
-
-  if (pageType === "transition") {
-    data = graph.transitions[currentSlug]
-  } else if (pageType === "submission") {
-    data = graph.submissions[currentSlug]
+  const data = getPageData()
+  if (!data || data.type !== pageType) {
+    container.style.display = "none"
+    return
   }
 
-  if (!data || !data.knowledgeAssessment || data.knowledgeAssessment.length === 0) {
+  const currentPath = window.location.pathname
+
+  if (!data.knowledgeAssessment || data.knowledgeAssessment.length === 0) {
     // Hide the flashcard container if no questions available
     container.style.display = "none"
     return
@@ -201,7 +161,7 @@ document.addEventListener("nav", async () => {
     })
 
     if (pageType === "submission") {
-      // Navigate to Won by Submission terminal state
+      // Navigate to game-over terminal state
       navigateToVictory()
     } else {
       // Transition - navigate to ending position
@@ -240,7 +200,7 @@ document.addEventListener("nav", async () => {
     let targetUrl: string
 
     const endingSlug = data.endingPosition
-    const endingPath = (data as any).endingPositionPath || endingSlug.split("/")[0]
+    const endingPath = data.endingPositionPath || endingSlug.split("/")[0]
 
     // Convert path to URL format (Title-Case-With-Hyphens)
     const basePath = endingPath
@@ -300,8 +260,8 @@ document.addEventListener("nav", async () => {
       }),
     )
 
-    // Navigate to Won by Submission page
-    window.spaNavigate(new URL("/Positions/Won-By-Submission", window.location.toString()), false)
+    // Navigate to Game Over page
+    window.spaNavigate(new URL("/Game-Over", window.location.toString()), false)
   }
 
   // Set up event listeners

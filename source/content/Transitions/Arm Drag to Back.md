@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Arm Drag to Back | BJJ Technique | BJJ Graph"
 description: "Master the Arm Drag to Back technique in BJJ. Complete guide covering setup, execution, and back take from multiple positions. Beginner 35%, Intermediate 50%, Advanced 65%."
@@ -16,7 +17,7 @@ description: "Master the Arm Drag to Back technique in BJJ. Complete guide cover
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Arm Drag to Back in BJJ",
-  "description": "Step-by-step guide for Arm Drag to Back from Butterfly Guard to Back Control.",
+  "description": "Step-by-step guide for Arm Drag to Back from Butterfly Guard/Bottom. Possible outcomes: Back Control/Top (65%), Butterfly Guard/Bottom (25%), Butterfly Guard/Top (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -160,11 +161,25 @@ description: "Master the Arm Drag to Back technique in BJJ. Complete guide cover
 
 The Arm Drag to Back is a fundamental and highly effective technique for advancing position from various guard positions to the dominant back control. This technique involves controlling the opponent's arm and using it as a lever to move past their defensive frame while simultaneously rotating behind them. The arm drag is one of the most versatile techniques in Brazilian Jiu-Jitsu, applicable from standing, seated guard, butterfly guard, and many other positions. Its effectiveness lies in the ability to bypass the opponent's defensive structure without having to break through their guard or pass directly, instead using their own arm against them to create a pathway to the back. The arm drag represents a fundamental principle in grappling: using the opponent's limbs as handles to manipulate their body position. When executed properly, the arm drag creates a cascading sequence of positional advantages. First, it removes one of the opponent's posting hands, compromising their base. Second, it creates an angle that makes it difficult for them to defend against the back take. Third, it positions you perpendicular to their body, giving you leverage advantages. The technique requires precise timing, grip control, and hip movement to execute successfully. Against skilled opponents, the arm drag must be set up carefully, often requiring feints, grip fighting, or combination attacks to create the opening needed for successful execution.
 
-**Starting Position**: [[Butterfly Guard]]
-**Ending Position**: [[Back Control]]
+**From Position**: [[Butterfly Guard/Bottom]]
 **Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Back Control/Top]] | 65% |
+| Failure | [[Butterfly Guard/Bottom]] | 25% |
+| Counter | [[Butterfly Guard/Top]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

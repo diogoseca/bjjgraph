@@ -21,38 +21,32 @@ description: "Master defensive strategies from Reverse Mount Bottom. Learn syste
     {
       "@type": "HowToStep",
       "name": "Execute Elbow Escape",
-      "text": "From this position, execute Elbow Escape to transition to Turtle. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Elbow Escape. This technique is attempted in 25% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bridge and Roll",
-      "text": "From this position, execute Bridge and Roll to transition to Half Guard. Success rate for advanced practitioners: 35%.",
+      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 25% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape",
-      "text": "From this position, execute Hip Escape to transition to Open Guard. Success rate for advanced practitioners: 35%.",
+      "text": "From this position, attempt Hip Escape. This technique is attempted in 20% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Re-Guard",
-      "text": "From this position, execute Re-Guard to transition to Closed Guard. Success rate for advanced practitioners: 25%.",
+      "name": "Execute Guard Replacement",
+      "text": "From this position, attempt Guard Replacement. This technique is attempted in 15% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Technical Standup",
-      "text": "From this position, execute Technical Standup to transition to Standing Position. Success rate for advanced practitioners: 20%.",
+      "name": "Execute Frame and Shrimp",
+      "text": "From this position, attempt Frame and Shrimp. This technique is attempted in 15% of exchanges from this position.",
       "position": 5
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Rolling to Guard",
-      "text": "From this position, execute Rolling to Guard to transition to Butterfly Guard. Success rate for advanced practitioners: 35%.",
-      "position": 6
     }
   ],
   "totalTime": "PT2M"
@@ -211,82 +205,16 @@ Understanding the escape hierarchy and maintaining composure under pressure are 
 
 ## Available Escapes
 
-### [[Elbow Escape]] → [[Turtle]]
+### [[Elbow Escape]] (25% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
+### [[Bridge and Roll]] (25% of attempts)
 
-### [[Bridge and Roll]] → [[Half Guard]]
+### [[Hip Escape]] (20% of attempts)
 
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 25%
-- Advanced: 35%
+### [[Guard Replacement]] (15% of attempts)
 
-### [[Hip Escape]] → [[Open Guard]]
+### [[Frame and Shrimp]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 10%
-- Intermediate: 20%
-- Advanced: 35%
-
-### [[Re-Guard]] → [[Closed Guard]]
-
-**Success Rates:**
-- Beginner: 8%
-- Intermediate: 15%
-- Advanced: 25%
-
-### [[Technical Standup]] → [[Standing Position]]
-
-**Success Rates:**
-- Beginner: 5%
-- Intermediate: 12%
-- Advanced: 20%
-
-### [[Rolling to Guard]] → [[Butterfly Guard]]
-
-**Success Rates:**
-- Beginner: 12%
-- Intermediate: 22%
-- Advanced: 35%
-
-### [[Explosive Bridge]] → [[Deep Half Guard]]
-
-**Success Rates:**
-- Beginner: 8%
-- Intermediate: 18%
-- Advanced: 30%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Rear Naked Choke]]** → [[Lost by Submission]] (Opponent Success: 45%)
-- **[[Back Take Generic]]** → [[Back Control]] (Opponent Success: 50%)
-- **[[Armbar from Mount]]** → [[Lost by Submission]] (Opponent Success: 25%)
-- **[[Kimura from Mount]]** → [[Lost by Submission]] (Opponent Success: 30%)
-- **[[Transition to Mount]]** → [[Mount]] (Opponent Success: 35%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Frame and Shrimp]]** → [[Turtle]]
-  - Opponent attempts to flatten defender completely
-- **[[Explosive Bridge]]** → [[Deep Half Guard]]
-  - Opponent shifts weight forward to attack neck
-- **[[Guard Replacement]]** → [[Half Guard]]
-  - Opponent reaches for arm control and weight shifts to side
 
 
 </section>
@@ -301,8 +229,8 @@ Understanding the escape hierarchy and maintaining composure under pressure are 
 
 
 **If opponent has not yet established hooks or full control:**
-- Execute **[[Explosive Bridge and Turn]]** → [[Half Guard]] (Probability: 45%)
-- Execute **[[Hip Escape to Guard]]** → [[Open Guard]] (Probability: 35%)
+- Execute **[[Bridge and Roll]]** → [[Half Guard]] (Probability: 45%)
+- Execute **[[Hip Escape]]** → [[Open Guard]] (Probability: 35%)
 
 
 **If opponent is high on back with weight shifted forward:**
@@ -311,8 +239,8 @@ Understanding the escape hierarchy and maintaining composure under pressure are 
 
 
 **If opponent attempts to transition to traditional mount:**
-- Execute **[[Prevent Turn Counter]]** → [[Defensive Position]] (Probability: 35%)
-- Execute **[[Re-guard During Transition]]** → [[Closed Guard]] (Probability: 25%)
+- Execute **[[Guard Replacement]]** → [[Half Guard]] (Probability: 35%)
+- Execute **[[Frame and Shrimp]]** → [[Closed Guard]] (Probability: 25%)
 
 
 
@@ -393,25 +321,39 @@ Partner sits in reverse mount with progressively increasing weight and control. 
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Fastest escape path
+## Test Your Knowledge
 
-`Reverse Mount Bottom → Turtle (via Explosive Bridge) → Half Guard (via Hip Escape) → Closed Guard (via Guard Recovery)`
+**Q1**: What should be your immediate first action upon finding yourself in reverse mount bottom?
+**A**: Immediately protect your neck by tucking your chin and bringing your hands to defend the collar and throat area. This prevents the rear naked choke, which is the most dangerous immediate threat from this position. Neck defense takes absolute priority over any escape attempt.
 
-### High-percentage defensive sequence
+**Q2**: Why is staying flat on your stomach considered the worst possible response in reverse mount bottom?
+**A**: Staying flat allows the opponent to completely control your torso, establish hooks easily, and transition to full back control with minimal resistance. It eliminates all escape angles and gives them full access to your neck for chokes. Maintaining at least one shoulder off the mat preserves escape options and prevents complete flattening.
 
-`Reverse Mount Bottom → Defensive Position (Neck Protection) → Turtle (via Shrimp) → Deep Half Guard (via Granby Roll) → X-Guard (via Hook Insertion)`
+**Q3**: Your opponent is attempting to flatten you completely while in reverse mount - what counter movement should you use?
+**A**: Use continuous hip movement and shoulder rolls to prevent flattening. Keep one shoulder off the mat at all times, create angles with your hips, and work to turn into your opponent. Frame against their hips or knees when possible. Never stop moving - constant defensive motion prevents them from settling their weight and establishing complete control.
 
-### Technical escape progression
+**Q4**: What is the escape hierarchy from reverse mount bottom?
+**A**: Priority one is preventing back control by stopping hook insertion and seat belt establishment. Priority two is turning to face the opponent while establishing frames. Priority three is recovering guard through hip escapes and guard replacement movements. Throughout all priorities, neck defense remains constant - never sacrifice neck protection for an escape attempt.
 
-`Reverse Mount Bottom → Side Control (via Bridge and Turn) → Open Guard (via Frame and Shrimp) → Closed Guard (via Hip Movement)`
+**Q5**: How should you time your explosive bridge and turn from reverse mount bottom?
+**A**: Time your explosive movement when the opponent's weight shifts or becomes unbalanced - typically when they reach for arm control, attempt to secure grips, or adjust their position. Create angles with hip movement first to set up the escape, then execute the bridge when their weight distribution favors your escape direction. Bridging without creating angles first wastes energy.
+
+**Q6**: Your opponent shifts their weight forward to attack your neck with a rear naked choke - how do you use this against them?
+**A**: Their forward weight shift creates an opportunity for explosive bridge and turn. As they commit forward, bridge explosively toward their posted hands, using their own momentum against them. This can create space to turn into them or escape to deep half guard. Their commitment to the attack compromises their base.
+
+**Q7**: Why should you keep your elbows tight to your ribs rather than extending your arms when defending from reverse mount bottom?
+**A**: Extended arms are vulnerable to kimura attacks, arm triangles, and wrist control that leads to back control. Keeping elbows tight to ribs creates a compact defensive shell that protects your arms while keeping hands available for neck defense. The compact posture also makes it harder for the opponent to isolate and attack individual limbs.
+
+**Q8**: How do you manage energy expenditure while defending from reverse mount bottom?
+**A**: Use movement efficiency rather than explosive strength for continuous defense. Small, constant hip movements and shoulder adjustments require less energy than explosive bursts. Save explosive movements for actual escape attempts when timing windows open. Maintain calm composure to avoid panic-based energy waste. Focus on technical movement patterns rather than muscular effort.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -437,11 +379,9 @@ Partner sits in reverse mount with progressively increasing weight and control. 
 - **[[Back Control]]** - Common progression if escape fails and opponent establishes hooks
 - **[[Turtle]]** - Primary escape target from reverse mount
 - **[[Half Guard]]** - Secondary escape target providing better defensive structure
-- **[[Escape Hierarchy]]** - Conceptual framework for prioritizing escape sequences
-- **[[RNC Defense]]** - Critical defensive concept for primary submission threat
 - **[[Bridge and Roll]]** - Key escape transition technique
 - **[[Elbow Escape]]** - Alternative escape technique to create space
-- **[[Defensive Posture]]** - Foundational concept for survival under pressure
+- **[[Frame and Shrimp]]** - Foundational escape movement pattern
 
 
 </section>

@@ -21,37 +21,37 @@ description: "Navigate leg drag control from bottom position. Master defensive t
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag Escape to Closed Guard",
-      "text": "From this position, execute Leg Drag Escape to Closed Guard to transition to Closed Guard. Success rate for advanced practitioners: 45%.",
+      "text": "From this position, attempt Leg Drag Escape to Closed Guard. This technique is attempted in 12% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Technical Standup",
-      "text": "From this position, execute Technical Standup to transition to Standing Position. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Technical Standup. This technique is attempted in 13% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag Counter to Half Guard",
-      "text": "From this position, execute Leg Drag Counter to Half Guard to transition to Half Guard. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Leg Drag Counter to Half Guard. This technique is attempted in 18% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Roll to Turtle",
-      "text": "From this position, execute Roll to Turtle to transition to Turtle. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Roll to Turtle. This technique is attempted in 17% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Inside Position Recovery",
-      "text": "From this position, execute Inside Position Recovery to transition to Butterfly Guard. Success rate for advanced practitioners: 40%.",
+      "text": "From this position, attempt Inside Position Recovery. This technique is attempted in 11% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Granby Roll Escape",
-      "text": "From this position, execute Granby Roll Escape to transition to Open Guard. Success rate for advanced practitioners: 35%.",
+      "text": "From this position, attempt Granby Roll Escape. This technique is attempted in 9% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -212,90 +212,22 @@ Defensive success in this position requires recognizing the leg drag early in th
 
 ## Available Escapes
 
-### [[Leg Drag Escape to Closed Guard]] → [[Closed Guard]]
+### [[Leg Drag Escape to Closed Guard]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 45%
+### [[Technical Standup]] (13% of attempts)
 
-### [[Technical Standup]] → [[Standing Position]]
+### [[Leg Drag Counter to Half Guard]] (18% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
+### [[Roll to Turtle]] (17% of attempts)
 
-### [[Leg Drag Counter to Half Guard]] → [[Half Guard]]
+### [[Inside Position Recovery]] (11% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
+### [[Granby Roll Escape]] (9% of attempts)
 
-### [[Roll to Turtle]] → [[Turtle]]
+### [[Leg Recovery to De La Riva]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Frame and Shrimp to Guard]] (10% of attempts)
 
-### [[Inside Position Recovery]] → [[Butterfly Guard]]
-
-**Success Rates:**
-- Beginner: 10%
-- Intermediate: 25%
-- Advanced: 40%
-
-### [[Granby Roll Escape]] → [[Open Guard]]
-
-**Success Rates:**
-- Beginner: 5%
-- Intermediate: 20%
-- Advanced: 35%
-
-### [[Leg Recovery to De La Riva]] → [[De La Riva Guard]]
-
-**Success Rates:**
-- Beginner: 8%
-- Intermediate: 22%
-- Advanced: 38%
-
-### [[Frame and Shrimp to Guard]] → [[Open Guard]]
-
-**Success Rates:**
-- Beginner: 18%
-- Intermediate: 32%
-- Advanced: 48%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Leg Drag Pass to Side Control]]** → [[Side Control]] (Opponent Success: 65%)
-- **[[Leg Drag to Back Take]]** → [[Back Control]] (Opponent Success: 55%)
-- **[[Transition to Mount]]** → [[Mount]] (Opponent Success: 45%)
-- **[[Leg Drag to Knee on Belly]]** → [[Knee on Belly]] (Opponent Success: 50%)
-- **[[Leg Entanglement Entry]]** → [[Inside Ashi-Garami]] (Opponent Success: 40%)
-- **[[Crucifix Control Setup]]** → [[Crucifix]] (Opponent Success: 25%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Counter Back Take Attempt]]** → [[Half Guard]]
-  - When opponent attempts to take back and you prevent hook insertion by capturing their leg
-- **[[Counter to Leg Entanglement]]** → [[Single Leg X-Guard]]
-  - When opponent drops for leg attack and you establish SLX hook before they secure heel
-- **[[Re-Guard During Transition]]** → [[Butterfly Guard]]
-  - When opponent lifts pressure to transition and you insert butterfly hooks
 
 
 </section>
@@ -402,25 +334,39 @@ Partner has leg drag control and actively attempts back take. Bottom player focu
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Escape and Counter
+## Test Your Knowledge
 
-`Leg Drag Control Bottom → Technical Standup → Standing Position → Guard Pull → Closed Guard → Triangle Choke`
+**Q1**: Your opponent starts advancing toward your back while you're in leg drag bottom—what immediate adjustment do you make?
+**A**: Immediately fight for an underhook on the side they're advancing toward and drive your shoulder toward them, not away. This counters their back take angle. Simultaneously, use your free leg to create a frame against their hip or post on the mat to generate space. Never turn your back to them—stay chest-to-chest as much as possible while you work to free your leg.
 
-### Recovery to Attack
+**Q2**: What are the essential frames for preventing advancement when caught in leg drag bottom?
+**A**: Your primary frame is against their shoulder or bicep with your near-side arm, keeping them from settling their weight. Your secondary frame uses your far-side arm to control their head or crossface them back. Your free leg frames against their hip to create space or posts on the mat for leverage. All frames work together—losing one compromises the others.
 
-`Leg Drag Control Bottom → Leg Recovery to Half Guard → Deep Half Guard → Homer Simpson Sweep → Mount → Armbar from Mount`
+**Q3**: How do you shut down the opponent's primary attack of taking your back from leg drag bottom?
+**A**: Stay flat on your back as long as possible rather than turning away. When you feel them start to come around, fight aggressively for the underhook on that side and turn INTO them, not away. Your goal is to face them, not give them your back. If they're committed to the back take, immediately sit up and face them, accepting half guard rather than giving up back control.
 
-### Turtle Transition Path
+**Q4**: What are your grip priorities when trying to escape leg drag bottom?
+**A**: First priority is breaking or preventing their shoulder or head control—this is what keeps you pinned. Second priority is controlling their hip or pants on the side controlling your leg to prevent them from settling weight. Third is fighting to reclaim control of your trapped leg. Without breaking their upper body control, leg recovery is nearly impossible.
 
-`Leg Drag Control Bottom → Roll to Turtle → Turtle to Guard → Butterfly Guard → Butterfly Sweep → Mount → Cross Collar Choke`
+**Q5**: How should you create space in leg drag bottom without exposing your back?
+**A**: Use a shrimping motion away from them while keeping your shoulders flat—never turn onto your side. Push against their shoulder and hip simultaneously while hip escaping to create angle. Your free leg can push against their hip or hook behind their knee to generate space. The key is moving your hips away while keeping your chest facing them.
+
+**Q6**: Your opponent shifts their weight to consolidate to side control—how do you anticipate and exploit this moment?
+**A**: The transition from leg drag to side control is when they must release or adjust their leg control. This is your window. As they shift weight, immediately extract your trapped leg by pulling your knee to your chest. Time your hip escape to their weight shift. If you can get a knee inside before they settle, you can recover half guard or establish a knee shield.
+
+**Q7**: How do you manage energy when defending leg drag bottom against an aggressive passer?
+**A**: Don't waste energy trying to escape when they have full control—you'll exhaust yourself. Instead, maintain minimum frames to prevent advancement and wait for them to attack or transition. Escape windows open when they move. Stay relaxed between escape attempts, keeping frames tight but not rigid. One well-timed explosive escape attempt is better than constant ineffective movement.
+
+**Q8**: Your partial escape attempt fails and they re-secure leg drag control—how do you recover your defensive position?
+**A**: Immediately re-establish your primary frames at shoulder and hip before they can capitalize on your movement. Return to a flat position on your back rather than staying on your side. Assess where your failed escape left you—if they advanced, address the new threat first. Do not immediately attempt another escape; reset your breathing and frames, then look for the next opportunity when they adjust.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -443,12 +389,12 @@ Partner has leg drag control and actively attempts back take. Bottom player focu
 
 - **[[Half Guard]]** - Primary recovery target when recapturing opponent's leg
 - **[[Turtle]]** - Safer transition option when leg cannot be freed
-- **[[Technical Standup Concept]]** - Key principle for escaping when frames create sufficient space
-- **[[Guard Retention]]** - Foundational defensive principle for preventing leg drag entry
-- **[[Frame Creation]]** - Essential technique for creating space before escape attempts
-- **[[Shrimping]]** - Movement pattern used in conjunction with frames to escape
-- **[[Back Control]]** - Primary threat to defend against from this position
 - **[[Open Guard]]** - Target position for successful guard recovery
+- **[[Back Control]]** - Primary threat to defend against from this position
+- **[[Single Leg X-Guard]]** - Counter position if opponent drops for legs
+- **[[Butterfly Guard]]** - Alternative recovery when space is created
+- **[[Standing Position]]** - Escape option via technical standup
+- **[[De La Riva Guard]]** - Guard to recover if you can insert DLR hook
 
 
 </section>

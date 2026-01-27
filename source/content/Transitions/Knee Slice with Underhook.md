@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Knee Slice with Underhook | BJJ Technique | BJJ Graph"
 description: "Master the Knee Slice with Underhook pass in BJJ. High-percentage half guard pass combining cutting action with underhook control. Beginner 45%, Intermediate 60%, Advanced 75%."
@@ -16,7 +17,7 @@ description: "Master the Knee Slice with Underhook pass in BJJ. High-percentage 
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Knee Slice with Underhook in BJJ",
-  "description": "Step-by-step guide for Knee Slice with Underhook from Half Guard to Side Control.",
+  "description": "Step-by-step guide for Knee Slice with Underhook from Half Guard/Bottom. Possible outcomes: Side Control/Top (75%), Half Guard/Bottom (15%), Half Guard/Top (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -158,11 +159,25 @@ What makes this pass particularly effective is its ability to neutralize the bot
 
 The technique exemplifies core guard passing principles: control before movement, systematic progression through stages, and maintaining constant forward pressure. Unlike explosive or athletic passes, the knee slice with underhook relies on positional dominance and technical precision, making it accessible to practitioners of all body types and athletic abilities while remaining devastatingly effective at the highest levels of competition.
 
-**Starting Position**: [[Half Guard]]
-**Ending Position**: [[Side Control]]
+**From Position**: [[Half Guard/Bottom]]
 **Success Rates**: Beginner 45%, Intermediate 60%, Advanced 75%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Side Control/Top]] | 75% |
+| Failure | [[Half Guard/Bottom]] | 15% |
+| Counter | [[Half Guard/Top]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

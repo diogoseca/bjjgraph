@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Single Leg X Sweep | BJJ Technique | BJJ Graph"
 description: "Master the Single Leg X Sweep in BJJ. Step-by-step execution from Single Leg X-Guard to top position. Success rates: Beginner 50%, Intermediate 70%, Advanced 85%."
@@ -16,7 +17,7 @@ description: "Master the Single Leg X Sweep in BJJ. Step-by-step execution from 
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Single Leg X Sweep in BJJ",
-  "description": "Step-by-step guide for Single Leg X Sweep from Single Leg X-Guard to Standing Position.",
+  "description": "Step-by-step guide for Single Leg X Sweep from Single Leg X-Guard/Bottom. Possible outcomes: Standing Position/Top (75%), Single Leg X-Guard/Bottom (15%), Single Leg X-Guard/Top (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -164,11 +165,25 @@ Unlike traditional sweeps that rely primarily on hip movement or timing, the Sin
 
 The Single Leg X Sweep is a cornerstone technique in modern leg entanglement systems and connects seamlessly to various offensive sequences including back takes, other leg attacks, and transitional positions. Its high success rate across skill levels makes it an essential technique for any guard player, particularly those who favor open guard systems and leg-based guards. The sweep's effectiveness comes from its ability to work against standing or kneeling opponents and its natural progression into dominant positions or submission opportunities.
 
-**Starting Position**: [[Single Leg X-Guard]]
-**Ending Position**: [[Standing Position]]
+**From Position**: [[Single Leg X-Guard/Bottom]]
 **Success Rates**: Beginner 50%, Intermediate 70%, Advanced 85%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Standing Position/Top]] | 75% |
+| Failure | [[Single Leg X-Guard/Bottom]] | 15% |
+| Counter | [[Single Leg X-Guard/Top]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

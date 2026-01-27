@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "North-South Escape | BJJ Technique | BJJ Graph"
 description: "Learn North-South Escape in BJJ. Step-by-step execution from North-South to Guard Recovery. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%."
@@ -16,7 +17,7 @@ description: "Learn North-South Escape in BJJ. Step-by-step execution from North
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute North-South Escape in BJJ",
-  "description": "Step-by-step guide for North-South Escape from North-South to Guard Recovery.",
+  "description": "Step-by-step guide for North-South Escape from North-South/Top. Possible outcomes: Guard Recovery/Bottom (65%), North-South/Top (25%), North-South/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -154,11 +155,25 @@ description: "Learn North-South Escape in BJJ. Step-by-step execution from North
 
 The North-South Escape is a fundamental defensive technique designed to recover guard from one of the most dominant pinning positions in Brazilian Jiu-Jitsu. When trapped in north-south position, the top player maintains heavy chest pressure and controls your movement with their hips and arms, making escape extremely difficult without proper technique. This escape relies on precise hip movement, frame creation, and timing to create the space necessary to recover to a safer bottom position. The technique emphasizes the principle of creating distance through bridging and shrimping mechanics while preventing your opponent from transitioning to more dangerous positions like mount or side control. Success requires understanding weight distribution, maintaining defensive posture throughout the escape sequence, and capitalizing on small windows of opportunity when the top player adjusts their position. The north-south escape is essential for any practitioner's defensive arsenal, as it addresses a common scenario where opponents achieve dominant control through passing or transitioning from other top positions.
 
-**Starting Position**: [[North-South]]
-**Ending Position**: [[Guard Recovery]]
+**From Position**: [[North-South/Top]]
 **Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Guard Recovery/Bottom]] | 65% |
+| Failure | [[North-South/Top]] | 25% |
+| Counter | [[North-South/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

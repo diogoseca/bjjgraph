@@ -11,8 +11,6 @@
     "sweep",
     "recovery"
   ],
-  "starting_position": "Open Guard",
-  "ending_position": "Deep Half Guard",
   "success_rates": {
     "beginner": 30,
     "intermediate": 50,
@@ -264,6 +262,24 @@
     {
       "name": "Hook Sweep",
       "relationship": "Alternative from butterfly/open guard"
+    }
+  ],
+  "from_position": "Open Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Deep Half Guard/Bottom",
+      "probability": 70,
+      "result": "success"
+    },
+    {
+      "to": "Open Guard/Bottom",
+      "probability": 20,
+      "result": "failure"
+    },
+    {
+      "to": "Open Guard/Top",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

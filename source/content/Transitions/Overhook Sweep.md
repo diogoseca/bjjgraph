@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Overhook Sweep | BJJ Technique | BJJ Graph"
 description: "Master the Overhook Sweep from closed guard in BJJ. Step-by-step execution guide. Success rates: Beginner 45%, Intermediate 65%, Advanced 80%."
@@ -16,7 +17,7 @@ description: "Master the Overhook Sweep from closed guard in BJJ. Step-by-step e
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Overhook Sweep in BJJ",
-  "description": "Step-by-step guide for Overhook Sweep from Closed Guard to Mount.",
+  "description": "Step-by-step guide for Overhook Sweep from Closed Guard/Bottom. Possible outcomes: Mount/Top (75%), Closed Guard/Bottom (15%), Closed Guard/Top (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -154,11 +155,25 @@ description: "Master the Overhook Sweep from closed guard in BJJ. Step-by-step e
 
 The Overhook Sweep is a fundamental attacking technique from closed guard that capitalizes on controlling one of the opponent's arms with an overhook grip. This sweep is particularly effective when the opponent posts their hand on the mat or extends their arm, creating the opportunity to trap it and use their own base against them. The technique combines off-balancing principles with leverage mechanics to elevate and roll the opponent, transitioning from a bottom position to a dominant top position. The overhook sweep is highly reliable because it works with the opponent's natural defensive reactions - when they post to maintain base, they inadvertently create the exact weakness needed for the sweep. This makes it an excellent choice for practitioners at all levels, from beginners learning fundamental sweeping mechanics to advanced competitors using it as part of a sophisticated closed guard attacking system. The sweep can be executed both in gi and no-gi scenarios, though grip configurations differ slightly between the two contexts.
 
-**Starting Position**: [[Closed Guard]]
-**Ending Position**: [[Mount]]
+**From Position**: [[Closed Guard/Bottom]]
 **Success Rates**: Beginner 45%, Intermediate 65%, Advanced 80%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Mount/Top]] | 75% |
+| Failure | [[Closed Guard/Bottom]] | 15% |
+| Counter | [[Closed Guard/Top]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

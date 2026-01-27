@@ -21,37 +21,37 @@ description: "Escape the mounted crucifix position in BJJ. Comprehensive guide c
     {
       "@type": "HowToStep",
       "name": "Execute Arm Extraction",
-      "text": "From this position, execute Arm Extraction to transition to Mount. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Arm Extraction. This technique is attempted in 18% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bridge and Roll",
-      "text": "From this position, execute Bridge and Roll to transition to Closed Guard. Success rate for advanced practitioners: 40%.",
+      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Elbow Escape",
-      "text": "From this position, execute Elbow Escape to transition to Half Guard. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Elbow Escape. This technique is attempted in 16% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Upa Escape",
-      "text": "From this position, execute Upa Escape to transition to Closed Guard. Success rate for advanced practitioners: 35%.",
+      "text": "From this position, attempt Upa Escape. This technique is attempted in 11% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape",
-      "text": "From this position, execute Hip Escape to transition to Defensive Position. Success rate for advanced practitioners: 45%.",
+      "text": "From this position, attempt Hip Escape. This technique is attempted in 14% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Explosive Bridge to Turtle",
-      "text": "From this position, execute Explosive Bridge to Turtle to transition to Turtle. Success rate for advanced practitioners: 40%.",
+      "text": "From this position, attempt Explosive Bridge to Turtle. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -219,92 +219,22 @@ Ultimately, the best defense against mounted crucifix bottom is prevention. Unde
 
 ## Available Escapes
 
-### [[Arm Extraction]] → [[Mount]]
+### [[Arm Extraction]] (18% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
+### [[Bridge and Roll]] (12% of attempts)
 
-### [[Bridge and Roll]] → [[Closed Guard]]
+### [[Elbow Escape]] (16% of attempts)
 
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 25%
-- Advanced: 40%
+### [[Upa Escape]] (11% of attempts)
 
-### [[Elbow Escape]] → [[Half Guard]]
+### [[Hip Escape]] (14% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
+### [[Explosive Bridge to Turtle]] (12% of attempts)
 
-### [[Upa Escape]] → [[Closed Guard]]
+### [[Arm Drag Sweep]] (8% of attempts)
 
-**Success Rates:**
-- Beginner: 10%
-- Intermediate: 20%
-- Advanced: 35%
+### [[Rolling Escape]] (9% of attempts)
 
-### [[Hip Escape]] → [[Defensive Position]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 30%
-- Advanced: 45%
-
-### [[Explosive Bridge to Turtle]] → [[Turtle]]
-
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 25%
-- Advanced: 40%
-
-### [[Arm Drag Sweep]] → [[Half Guard]]
-
-**Success Rates:**
-- Beginner: 5%
-- Intermediate: 15%
-- Advanced: 25%
-
-### [[Rolling Escape]] → [[Standing Position]]
-
-**Success Rates:**
-- Beginner: 10%
-- Intermediate: 20%
-- Advanced: 30%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Armbar from Crucifix]]** → [[Lost by Submission]] (Opponent Success: 70%)
-- **[[Choke from Crucifix]]** → [[Lost by Submission]] (Opponent Success: 65%)
-- **[[Transition to Back Control]]** → [[Back Control]] (Opponent Success: 60%)
-- **[[Transition to Technical Mount]]** → [[Technical Mount]] (Opponent Success: 55%)
-- **[[Rear Naked Choke]]** → [[Lost by Submission]] (Opponent Success: 50%)
-- **[[Straight Armbar]]** → [[Lost by Submission]] (Opponent Success: 60%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Frame and Shrimp]]** → [[Half Guard]]
-  - Opponent shifts weight forward to attack neck
-- **[[Explosive Bridge]]** → [[Turtle]]
-  - Opponent loosens leg control to adjust position
-- **[[Hip Escape]]** → [[Defensive Position]]
-  - Opponent transitions toward back control
-- **[[Arm Extraction Sequence]]** → [[Mount]]
-  - Opponent focuses attention on attacking free arm
 
 
 </section>
@@ -314,14 +244,14 @@ Ultimately, the best defense against mounted crucifix bottom is prevention. Unde
 ## Decision Making from This Position
 
 **If opponent attacks neck with choke while arms are trapped:**
-- Execute **[[Chin Protection]]** → [[Defensive Position]] (Probability: 70%)
+- Execute **[[Chin Protection]]** → [[Mounted Crucifix]] (Probability: 70%)
 - Execute **[[Explosive Bridge]]** → [[Turtle]] (Probability: 25%)
-- Execute **[[Tap Out]]** → [[Lost by Submission]] (Probability: 5%)
+- Execute **[[Tap Out]]** → [[game-over]] (Probability: 5%)
 
 
 **If opponent isolates free arm for submission attempt:**
 - Execute **[[Arm Extraction]]** → [[Mount]] (Probability: 45%)
-- Execute **[[Hip Escape]]** → [[Defensive Position]] (Probability: 35%)
+- Execute **[[Hip Escape]]** → [[Open Guard]] (Probability: 35%)
 - Execute **[[Defensive Framing]]** → [[Mount]] (Probability: 20%)
 
 
@@ -415,25 +345,39 @@ Start with partner giving 50% resistance in mounted crucifix. Execute full escap
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Survival to Guard Recovery
+## Test Your Knowledge
 
-`Mounted Crucifix Bottom → Arm Extraction → Mount → Elbow Escape → Half Guard → Guard Recovery → Closed Guard`
+**Q1**: What is your first priority when you find yourself in mounted crucifix bottom position?
+**A**: Your first priority is immediate submission defense - protect your neck and any remaining free limbs before attempting any positional escape. Tuck your chin tightly to your chest, elevate your shoulders toward your ears to protect the sides of your neck, and use any free arm to create secondary defensive barriers. Positional escapes come second because attempting to escape while arms are trapped typically results in either back exposure or submission. Survival must precede improvement.
 
-### Emergency Turtle Transition
+**Q2**: Why must arm extraction precede traditional mount escape attempts from this position?
+**A**: Attempting mount escapes like bridge and roll or elbow escape while arms remain trapped creates catastrophic vulnerabilities. Without arms to post or frame, escape movements expose your back directly to opponent who already has dominant control. The opponent can easily transition to back control with your arms still compromised, which is significantly worse than mounted crucifix. Arm extraction first restores your primary defensive tools, making subsequent escapes possible and safe.
 
-`Mounted Crucifix Bottom → Explosive Bridge → Turtle → Sit Through → Single Leg X-Guard → Standing Guard`
+**Q3**: Your opponent shifts their weight forward to attack your neck with a choke - what escape opportunity does this create?
+**A**: When opponent shifts forward for neck attacks, their base becomes compromised as weight moves off their hips. This creates a brief window for explosive hip movement - either a powerful bridge toward their trapped-arm side to disrupt balance, or a hip escape toward the open side. The key is timing your explosion precisely when their weight commits forward. Their attack commitment often loosens their leg control momentarily, potentially creating arm extraction opportunities simultaneously.
 
-### Accept Back, Escape Back
+**Q4**: How should you manage energy when trapped in mounted crucifix bottom?
+**A**: Energy must be conserved for strategic moments rather than wasted on continuous explosive attempts. Maintain constant subtle hip movement to prevent opponent from settling perfectly, but save explosive escapes for windows when opponent's balance is compromised - typically during their positional adjustments, submission setups, or weight shifts. Continuous explosive bridging against stable control depletes energy rapidly with no escape benefit, leaving you exhausted and more vulnerable to submission.
 
-`Mounted Crucifix Bottom → Allow Back Take → Back Control → Arm Drag Sweep → Closed Guard`
+**Q5**: What technique should you use to extract trapped arms without strengthening opponent's control?
+**A**: Use subtle hip movements and angle changes rather than forcefully pulling arms against established leg control. Hip rotation creates small spaces in the arm entanglement that allow sliding extraction. Wait for moments when opponent shifts weight or adjusts position to time your extraction - their movement naturally loosens the leg trap momentarily. Pulling forcefully against tight control actually creates leverage that tightens the trap and may expose the arm to direct armbar attacks.
+
+**Q6**: When might accepting a worse-seeming position like turtle actually improve your situation from mounted crucifix bottom?
+**A**: Accepting turtle can be advantageous when your arms become freed during an explosive bridge even if you cannot complete a full reversal. Turtle without arm entanglement offers significantly more escape options than mounted crucifix - you can immediately work for guard recovery, standing base, or sit-out escapes. The key is ensuring arm extraction happens during or before the turtle transition. Turtle with free arms is a recoverable position; mounted crucifix is a position trending toward submission.
+
+**Q7**: How do you defend against chokes when both arms are trapped and cannot protect your neck?
+**A**: Without arms, neck defense relies entirely on positioning adjustments. Tuck chin extremely tight to chest, making it difficult for opponent to sink choking arm underneath. Elevate shoulders toward ears to close gaps on the sides of neck. Turn head toward whichever arm is attacking to reduce choking leverage. Keep constant subtle movement to prevent opponent from settling their choke grip. If one arm has any mobility, use it to fight the choking arm or create space at your neck.
+
+**Q8**: What mental approach helps maintain composure in the mounted crucifix bottom position?
+**A**: Accept that this is a bad position requiring patience rather than panic. Focus on small, achievable goals - first survive the immediate submission threat, then create small spaces, then extract one arm, then escape mount. Each step builds toward escape rather than trying to accomplish everything at once. Recognize that opponent must also expend energy to attack, and patient defense can create opportunities when they overcommit. Panic leads to energy depletion and technical breakdown; composure maintains efficient defense until escape windows appear.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -457,11 +401,11 @@ Start with partner giving 50% resistance in mounted crucifix. Execute full escap
 - **[[Mount]]** - Parent position - escaping to standard mount is first step in recovery sequence
 - **[[Crucifix]]** - Related control - shares arm-trapping mechanics that must be understood for escape
 - **[[Back Control]]** - Common transition - opponent often advances here from mounted crucifix
-- **[[Defensive Position]]** - Emergency position - may need to accept this temporarily during escape attempts
+- **[[Open Guard]]** - Recovery target - successful hip escapes may lead to open guard positions
 - **[[Half Guard]]** - Recovery target - successful hip escapes often lead to half guard
 - **[[Turtle]]** - Transitional escape - explosive bridge may lead to turtle position
-- **[[Escape Hierarchy]]** - Conceptual framework - guides prioritization of escape attempts
-- **[[Submission Defense]]** - Essential principle - immediate application required in this position
+- **[[Closed Guard]]** - Ultimate recovery goal - safe position to establish after escape
+- **[[Side Control]]** - Transitional position - may accept temporarily during escape sequence
 
 
 </section>

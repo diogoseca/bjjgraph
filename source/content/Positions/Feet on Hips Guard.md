@@ -95,35 +95,26 @@ The position excels against standing and combat base opponents, using leg extens
 - Combine pushing and pulling forces through coordinated leg extension and grip control to break opponent's balance and posture
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Scissor Sweep]]** → [[Mount]]
-  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+- **[[Scissor Sweep]]** (14% of attempts)
 
-- **[[Pendulum Sweep]]** → [[Mount]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Pendulum Sweep]]** (12% of attempts)
 
-- **[[Hip Bump Sweep]]** → [[Mount]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Hip Bump Sweep]]** (11% of attempts)
 
-- **[[Triangle Setup]]** → [[Triangle Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Triangle Setup]]** (10% of attempts)
 
-- **[[Omoplata Sweep]]** → [[Omoplata Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Omoplata Sweep]]** (9% of attempts)
 
-- **[[De La Riva Sweep]]** → [[De La Riva Guard]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[De La Riva Sweep]]** (11% of attempts)
 
-- **[[X-Guard Sweep]]** → [[X-Guard]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[X-Guard Sweep]]** (10% of attempts)
 
-- **[[Single Leg X Sweep]]** → [[Single Leg X-Guard]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Single Leg X Sweep]]** (11% of attempts)
 
-- **[[Elevator Sweep]]** → [[Mount]]
-  - Success Rate: Beginner 38%, Intermediate 53%, Advanced 68%
+- **[[Elevator Sweep]]** (12% of attempts)
 
 
 ### Common Mistakes
@@ -185,29 +176,22 @@ The position excels against standing and combat base opponents, using leg extens
 - Protect against De La Riva hooks and lasso guards during frame breaking process
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Toreando Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+- **[[Toreando Pass]]** (18% of attempts)
 
-- **[[Knee Cut Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Knee Cut Pass]]** (16% of attempts)
 
-- **[[Leg Drag Pass]]** → [[Leg Drag Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Leg Drag Pass]]** (14% of attempts)
 
-- **[[Double Under Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Double Under Pass]]** (13% of attempts)
 
-- **[[Long Step Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Long Step Pass]]** (14% of attempts)
 
-- **[[X Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[X Pass]]** (12% of attempts)
 
-- **[[Stack Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Stack Pass]]** (13% of attempts)
 
 
 ### Common Mistakes

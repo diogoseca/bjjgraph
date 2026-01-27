@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Single Leg to Back Take | BJJ Technique | BJJ Graph"
 description: "Learn Single Leg to Back Take in BJJ. Convert failed takedown to back control position. Success: Beginner 30%, Intermediate 50%, Advanced 70%."
@@ -16,7 +17,7 @@ description: "Learn Single Leg to Back Take in BJJ. Convert failed takedown to b
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Single Leg to Back Take in BJJ",
-  "description": "Step-by-step guide for Single Leg to Back Take from Standing Position to Back Control.",
+  "description": "Step-by-step guide for Single Leg to Back Take from Standing Position/Top. Possible outcomes: Back Control/Top (70%), Standing Position/Top (20%), Standing Position/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -158,11 +159,25 @@ This transition is particularly valuable in no-gi grappling and MMA contexts whe
 
 Successful execution requires strong positional awareness, quick hip movement, and the ability to maintain connection throughout the transition. The technique exemplifies the wrestling principle of "chain wrestling"—linking attacks together so that defending one creates vulnerability to another. For competitive grapplers, this represents a high-percentage path to back control, which scores maximum points in most rule sets and provides the best submission opportunities.
 
-**Starting Position**: [[Standing Position]]
-**Ending Position**: [[Back Control]]
+**From Position**: [[Standing Position/Top]]
 **Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Back Control/Top]] | 70% |
+| Failure | [[Standing Position/Top]] | 20% |
+| Counter | [[Standing Position/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

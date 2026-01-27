@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Inside Ashi Entry | BJJ Technique | BJJ Graph"
 description: "Master Inside Ashi Entry in BJJ. Systematic leg entanglement entry from standing or open guard. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%."
@@ -16,7 +17,7 @@ description: "Master Inside Ashi Entry in BJJ. Systematic leg entanglement entry
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Inside Ashi Entry in BJJ",
-  "description": "Step-by-step guide for Inside Ashi Entry from Open Guard to Inside Ashi-Garami.",
+  "description": "Step-by-step guide for Inside Ashi Entry from Open Guard/Bottom. Possible outcomes: Inside Ashi-Garami/Top (65%), Open Guard/Bottom (25%), Open Guard/Top (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -154,11 +155,25 @@ description: "Master Inside Ashi Entry in BJJ. Systematic leg entanglement entry
 
 Inside Ashi Entry is a fundamental transition in modern leg lock systems that establishes the inside position on your opponent's leg. This entry creates immediate offensive opportunities for inside heel hooks, straight ankle locks, and transitions to more dominant leg entanglements. The inside position refers to having your outside leg positioned between your opponent's legs, creating a wedge that controls their hip and prevents escape. This entry is particularly effective from seated guard, single leg X-guard, or when your opponent is standing in your open guard. The key to successful execution lies in proper angle creation, hip control, and timing the entry when your opponent's weight is committed forward. Inside Ashi is considered one of the safest leg entanglements to enter because it offers strong control while maintaining defensive integrity against counter leg attacks.
 
-**Starting Position**: [[Open Guard]]
-**Ending Position**: [[Inside Ashi-Garami]]
+**From Position**: [[Open Guard/Bottom]]
 **Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Inside Ashi-Garami/Top]] | 65% |
+| Failure | [[Open Guard/Bottom]] | 25% |
+| Counter | [[Open Guard/Top]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

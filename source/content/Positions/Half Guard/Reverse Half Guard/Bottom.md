@@ -21,37 +21,37 @@ description: "Master Reverse Half Guard Bottom in BJJ. Inverted half guard posit
     {
       "@type": "HowToStep",
       "name": "Execute Old School Sweep",
-      "text": "From this position, execute Old School Sweep to transition to Side Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Old School Sweep. This technique is attempted in 14% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Half Guard to Back Take",
-      "text": "From this position, execute Half Guard to Back Take to transition to Back Control. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Half Guard to Back Take. This technique is attempted in 15% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling Back Take",
-      "text": "From this position, execute Rolling Back Take to transition to Back Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 14% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Bump Sweep",
-      "text": "From this position, execute Hip Bump Sweep to transition to Mount. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Hip Bump Sweep. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Truck",
-      "text": "From this position, execute Transition to Truck to transition to Truck. Success rate for advanced practitioners: 65%.",
+      "name": "Execute Turtle to Truck",
+      "text": "From this position, attempt Turtle to Truck. This technique is attempted in 13% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Re-Guard",
-      "text": "From this position, execute Re-Guard to transition to Half Guard. Success rate for advanced practitioners: 75%.",
+      "name": "Execute Butterfly Hook Recovery",
+      "text": "From this position, attempt Butterfly Hook Recovery. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -212,94 +212,22 @@ This position is more common in advanced BJJ and no-gi grappling where mobility 
 
 ## Available Escapes
 
-### [[Old School Sweep]] → [[Side Control]]
+### [[Old School Sweep]] (14% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Half Guard to Back Take]] (15% of attempts)
 
-### [[Half Guard to Back Take]] → [[Back Control]]
+### [[Rolling Back Take]] (14% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Hip Bump Sweep]] (12% of attempts)
 
-### [[Rolling Back Take]] → [[Back Control]]
+### [[Turtle to Truck]] (13% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Butterfly Hook Recovery]] (10% of attempts)
 
-### [[Hip Bump Sweep]] → [[Mount]]
+### [[Underhook Sweep from Half]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
+### [[Deep Half Entry]] (12% of attempts)
 
-### [[Transition to Truck]] → [[Truck]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-### [[Re-Guard]] → [[Half Guard]]
-
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 60%
-- Advanced: 75%
-
-### [[Underhook Sweep from Half]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[Deep Half Entry]] → [[Deep Half Guard]]
-
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Knee Slice Pass]]** → [[Side Control]] (Opponent Success: 45%)
-- **[[Half Guard Pass]]** → [[Side Control]] (Opponent Success: 50%)
-- **[[Underhook Pass]]** → [[Side Control]] (Opponent Success: 40%)
-- **[[Transition to Mount]]** → [[Mount]] (Opponent Success: 35%)
-- **[[Back Take Generic]]** → [[Back Control]] (Opponent Success: 55%)
-- **[[Sprawl]]** → [[Turtle]] (Opponent Success: 30%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Rolling Back Take]]** → [[Back Control]]
-  - Opponent attempts to flatten you or secure crossface control
-- **[[Deep Half Entry]]** → [[Deep Half Guard]]
-  - Opponent drives forward with heavy pressure to pass
-- **[[Old School Sweep]]** → [[Side Control]]
-  - Opponent posts hand or shifts weight to control upper body
-- **[[Transition to Truck]]** → [[Truck]]
-  - Opponent attempts to take back but you intercept with rotation
-- **[[Re-Guard]]** → [[Half Guard]]
-  - Opponent backs away or reduces forward pressure
 
 
 </section>
@@ -319,12 +247,12 @@ This position is more common in advanced BJJ and no-gi grappling where mobility 
 
 
 **If opponent attempts to extract trapped leg or backs away to create distance:**
-- Execute **[[Re-Guard]]** → [[Half Guard]] (Probability: 65%)
+- Execute **[[Butterfly Hook Recovery]]** → [[Half Guard]] (Probability: 65%)
 - Execute **[[Hip Bump Sweep]]** → [[Mount]] (Probability: 40%)
 
 
 **If opponent reaches for back control with hooks or seat belt grip:**
-- Execute **[[Transition to Truck]]** → [[Truck]] (Probability: 50%)
+- Execute **[[Turtle to Truck]]** → [[Truck]] (Probability: 50%)
 - Execute **[[Rolling Back Take]]** → [[Back Control]] (Probability: 55%)
 
 
@@ -406,33 +334,39 @@ Start in reverse half with partner attempting to pass. Practice recovering to st
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Back Attack Path
+## Test Your Knowledge
 
-`Reverse Half Guard Bottom → Rolling Back Take → Back Control → Rear Naked Choke`
+**Q1**: What is the most critical element for maintaining the reverse half guard position?
+**A**: Secure leg control is the most critical element. You must maintain tight clamping on the opponent's trapped leg using both of your legs with constant active tension. Without strong leg control, the opponent extracts their leg and passes immediately. Use hip pressure and continuous squeezing to prevent any space for leg removal.
 
-### Top Control to Submission
+**Q2**: How do you protect your back while in the inverted reverse half guard configuration?
+**A**: Keep your chin tucked to your chest and maintain defensive hand positioning to protect your neck. Monitor the opponent's arm movements and immediately address any attempt to establish seat belt grips or hooks. One hand should always be ready to defend against neck attacks while the other controls the opponent's posture.
 
-`Reverse Half Guard Bottom → Old School Sweep → Side Control → Kimura from Side Control`
+**Q3**: Your opponent drives heavy forward pressure into you - what sweep opportunity does this create?
+**A**: Heavy forward pressure creates the ideal timing for the rolling back take or momentum-based sweeps. Use their committed weight against them by timing your rotation or sweep to coincide with their forward drive. The more they commit forward, the easier it is to redirect their momentum into a sweep or back exposure.
 
-### Leg Lock Entry
+**Q4**: When should you abandon your sweep attempt and recover to standard half guard?
+**A**: Recover to standard half guard when the opponent backs away, reduces forward pressure, or when you cannot find good timing for your sweep. If their weight is neutral or backward rather than forward, sweep attempts will fail. Also recover if they establish strong crossface control that prevents your rotation - address the control first.
 
-`Reverse Half Guard Bottom → Deep Half Entry → Deep Half Guard → Outside Ashi-Garami → Heel Hook`
+**Q5**: What happens if you remain static in reverse half guard bottom without attacking?
+**A**: The opponent settles their weight, establishes controlling grips, and methodically passes or takes your back. Reverse half guard bottom is a transitional position requiring immediate offensive action. You must attack within 2-3 seconds of establishing the position. Static defense allows the opponent time to stabilize and advance.
 
-### Truck System Path
+**Q6**: How do you time your sweep attempt for maximum effectiveness?
+**A**: Wait for the opponent to commit their weight forward before initiating. Feel for the moment when their base is compromised by forward pressure - this is when their weight is over their knees rather than their hips. Execute the sweep explosively when this timing window opens. If their weight is neutral, wait or reposition rather than forcing a low-percentage attempt.
 
-`Reverse Half Guard Bottom → Transition to Truck → Truck → Twister`
+**Q7**: Your opponent posts their hand to prevent your rotation - how do you capitalize on this?
+**A**: Their posting hand creates the perfect setup for the old school sweep. When they post to establish base, their weight shifts and they become vulnerable to being swept in the opposite direction. Use your underhook to lift and off-balance them over their posted hand while controlling their trapped leg.
 
-### Mount Dominance Path
-
-`Reverse Half Guard Bottom → Hip Bump Sweep → Mount → Armbar from Mount`
+**Q8**: What are the key differences between attacking from reverse half guard versus standard half guard?
+**A**: Reverse half guard emphasizes momentum-based attacks using opponent's forward pressure, while standard half guard allows more methodical underhook-based sweeps. The inverted orientation creates unique rolling back take opportunities but increases back exposure risk. Attacks must be more explosive and timed with opponent's weight commitment rather than built through sustained control.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 

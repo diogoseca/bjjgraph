@@ -410,7 +410,7 @@ The North-South Choke is a powerful compression-based blood choke applied from t
 
 - [[North-South]] - Primary position from which this choke is executed
 - [[North South Control]] - Dominant control position enabling the submission setup
-- [[Transition to North-South]] - Entry technique from side control or mount that leads to choke opportunity
+- [[Side Control to North-South]] - Entry technique from side control or mount that leads to choke opportunity
 - [[North-South Escape]] - Defensive technique opponent uses to counter the choke attempt
 - [[Kimura from North-South]] - Alternative submission chain when opponent defends the choke by exposing their arm
 - [[Side Control]] - Common transitional position before moving to North-South for the choke
@@ -421,6 +421,16 @@ The North-South Choke is a powerful compression-based blood choke applied from t
 - [[Mount Control]] - Top position that can transition to North-South when opponent turns to escape
 - [[Pressure Application]] - Core principle governing effective execution and control throughout the submission
 
+
+</section>
+
+<section id="terminal-state" class="content-section">
+
+## Match Outcome
+
+Successful execution of North-South Choke leads to → [[game-over|Game Over]]
+
+*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
 
 </section>
 

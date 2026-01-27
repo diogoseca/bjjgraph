@@ -21,37 +21,37 @@ description: "Master seat belt control escape strategies from bottom back positi
     {
       "@type": "HowToStep",
       "name": "Execute Elbow Escape",
-      "text": "From this position, execute Elbow Escape to transition to Turtle. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Elbow Escape. This technique is attempted in 17% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape",
-      "text": "From this position, execute Hip Escape to transition to Turtle. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Hip Escape. This technique is attempted in 19% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Rolling Back Take",
-      "text": "From this position, execute Rolling Back Take to transition to Turtle. Success rate for advanced practitioners: 50%.",
+      "name": "Execute Rolling Escape",
+      "text": "From this position, attempt Rolling Escape. This technique is attempted in 16% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Escape Series",
-      "text": "From this position, execute Back Escape Series to transition to Closed Guard. Success rate for advanced practitioners: 45%.",
+      "text": "From this position, attempt Back Escape Series. This technique is attempted in 14% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hand Fighting",
-      "text": "From this position, execute Hand Fighting to transition to Defensive Position. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Hand Fighting. This technique is attempted in 21% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Technical Standup",
-      "text": "From this position, execute Technical Standup to transition to Standing Position. Success rate for advanced practitioners: 40%.",
+      "text": "From this position, attempt Technical Standup. This technique is attempted in 13% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -213,77 +213,18 @@ The seat belt grip itself creates a powerful control mechanism that must be syst
 
 ## Available Escapes
 
-### [[Elbow Escape]] → [[Turtle]]
+### [[Elbow Escape]] (17% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
+### [[Hip Escape]] (19% of attempts)
 
-### [[Hip Escape]] → [[Turtle]]
+### [[Rolling Escape]] (16% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Back Escape Series]] (14% of attempts)
 
-### [[Rolling Back Take]] → [[Turtle]]
+### [[Hand Fighting]] (21% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
+### [[Technical Standup]] (13% of attempts)
 
-### [[Back Escape Series]] → [[Closed Guard]]
-
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 45%
-
-### [[Hand Fighting]] → [[Defensive Position]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-### [[Technical Standup]] → [[Standing Position]]
-
-**Success Rates:**
-- Beginner: 10%
-- Intermediate: 25%
-- Advanced: 40%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Rear Naked Choke]]** → [[Lost by Submission]] (Opponent Success: 65%)
-- **[[Bow and Arrow Choke]]** → [[Lost by Submission]] (Opponent Success: 45%)
-- **[[Armbar from Back]]** → [[Lost by Submission]] (Opponent Success: 35%)
-- **[[Hook Sweep]]** → [[Back Control]] (Opponent Success: 70%)
-- **[[Back Control to Crucifix]]** → [[Crucifix]] (Opponent Success: 40%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Grip Break]]** → [[Turtle]]
-  - Opponent attempts to consolidate seat belt grip
-- **[[Hip Escape]]** → [[Turtle]]
-  - Opponent overcommits weight forward during choke attempt
-- **[[Defensive Frame]]** → [[Defensive Position]]
-  - Opponent tries to slide arm under chin for choke
-- **[[Rolling Back Take]]** → [[Closed Guard]]
-  - Opponent extends body to apply submission
 
 
 </section>
@@ -298,13 +239,13 @@ The seat belt grip itself creates a powerful control mechanism that must be syst
 
 
 **If opponent has both hooks and seat belt with choking hand near neck:**
-- Execute **[[Hand Fighting from Back]]** → [[Defensive Position]] (Probability: 60%)
-- Execute **[[Chin Protection]]** → [[Defensive Position]] (Probability: 70%)
+- Execute **[[Hand Fighting]]** → [[Seat Belt Control Back]] (Probability: 60%)
+- Execute **[[Chin Tuck Defense]]** → [[Seat Belt Control Back]] (Probability: 70%)
 
 
 **If opponent's over-shoulder grip is loose or broken:**
 - Execute **[[Elbow Escape]]** → [[Turtle]] (Probability: 55%)
-- Execute **[[Rolling Back Take]]** → [[Closed Guard]] (Probability: 40%)
+- Execute **[[Rolling Escape]]** → [[Closed Guard]] (Probability: 40%)
 
 
 **If opponent is high on your back with weight forward:**
@@ -390,25 +331,39 @@ Start in seat belt control bottom position. Execute hip escapes repeatedly to cr
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Shortest defensive recovery path
+## Test Your Knowledge
 
-`Seat Belt Control Back Bottom → Hand Fighting from Back → Defensive Position → Hip Escape → Turtle → Turtle to Guard → Closed Guard`
+**Q1**: Opponent begins sliding their choking arm toward your neck - what is your immediate defensive response?
+**A**: Immediately tuck your chin tightly to your chest to close the space under your jaw. Simultaneously bring both hands to your collar line, grabbing opponent's choking wrist or forearm with your near-side hand while your far-side hand protects the collar area. Turn your head away from the choking arm direction. The chin tuck must be your first reflex - even a split-second delay in tucking allows the forearm to slide under.
 
-### Technical escape to standing
+**Q2**: What are the essential defensive frames for surviving seat belt back control?
+**A**: Primary frames include: hands controlling opponent's choking wrist to prevent RNC completion, elbows tucked tight to ribs to prevent arm isolation, shoulders rounded forward with chin tucked to protect neck space. Secondary frames include controlling opponent's hooks with your legs by keeping knees together and using your feet to block their hook insertion. Your entire body should create a defensive shell while you work systematic escape sequences.
 
-`Seat Belt Control Back Bottom → Grip Break → Defensive Position → Technical Standup → Standing Position`
+**Q3**: How do you systematically break the seat belt grip to begin your escape?
+**A**: Address one grip at a time rather than fighting the entire structure. Start with the over-shoulder arm as it provides opponent's primary choking leverage. Two-on-one grip the over-arm wrist, pulling it toward your hip while creating hip movement to generate angles that weaken their grip structure. Once the over-arm is weakened or controlled, the under-arm becomes less threatening. Never try to pull both arms simultaneously - this exhausts you while opponent easily maintains connection.
 
-### Emergency survival path
+**Q4**: Your opponent has established both hooks - what is your priority order for escape?
+**A**: Priority order: 1) Protect neck from immediate submission threat, 2) Control opponent's choking hand to prevent RNC setup, 3) Address the bottom hook first by bringing your knee up and using hip movement to slide your hip to the mat on that side, 4) Once hips are to mat with bottom hook cleared, work to face opponent and recover guard. The bottom hook must be addressed first because it prevents you from sliding your hips to the mat - without that foundation movement, no escape is possible.
 
-`Seat Belt Control Back Bottom → Chin Protection → Defensive Position → Hand Fighting from Back → Back Escape Series → Turtle`
+**Q5**: Opponent is applying heavy chest pressure - how do you create space to initiate escape?
+**A**: Use explosive bridge-and-shrimp combinations to create momentary space. Bridge your hips up forcefully while simultaneously turning your shoulders toward the direction you want to escape. As your hips come down, immediately shrimp away from opponent, creating 4-6 inches of separation. Time your escapes when opponent shifts weight for attacks - their commitment to submissions creates windows where their control is momentarily weaker.
+
+**Q6**: What defensive anticipation cues indicate opponent is about to attack the rear naked choke?
+**A**: Watch for: opponent's over-arm hand releasing grip to slide toward your neck, their chest pressure increasing as they commit weight forward, subtle repositioning of their head toward your choking-side shoulder, their choking-side hook driving deeper to stabilize their base. When you feel these cues, immediately reinforce neck defense before the attack materializes. The moment they release the seat belt grip to attack, you have a brief window where their control is compromised.
+
+**Q7**: Opponent has broken through your neck defense and their arm is partially under your chin - what is your recovery protocol?
+**A**: Immediately two-on-one grip their choking wrist and pull it across your body toward your far hip, creating distance between their forearm and your neck. Simultaneously tuck your chin harder and turn your head toward their bicep rather than away. Bridge explosively while pulling their arm to create enough space to re-tuck your chin behind their forearm. This is an emergency defense - once their arm is under the chin, you have seconds before the choke is locked.
+
+**Q8**: When is it appropriate to attempt the rolling escape from back control?
+**A**: Attempt rolling escapes when opponent extends their body to complete a submission, temporarily loosening their hook control. Also effective when opponent is high on your back with their weight forward, making them susceptible to being rolled. Do not attempt rolls when opponent has tight hooks and compact body positioning - this wastes energy and often results in worse position. The roll requires opponent's commitment elsewhere that compromises their hook security.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -431,11 +386,11 @@ Start in seat belt control bottom position. Execute hip escapes repeatedly to cr
 
 - **[[Back Control]]** - Related defensive position with hooks established
 - **[[Turtle]]** - Primary escape target position
-- **[[Defensive Position]]** - Transitional defensive state during escape attempts
+- **[[Half Guard]]** - Transitional defensive state during escape attempts
 - **[[Rear Naked Choke]]** - Primary submission threat from this position
-- **[[Hand Fighting from Back]]** - Essential defensive concept for this position
+- **[[Hand Fighting]]** - Essential defensive concept for this position
 - **[[Back Escape Series]]** - Systematic escape methodology
-- **[[Chin Protection]]** - Critical defensive concept for neck safety
+- **[[Elbow Escape]]** - Critical escape technique from back control
 - **[[Closed Guard]]** - Alternative escape target position
 
 

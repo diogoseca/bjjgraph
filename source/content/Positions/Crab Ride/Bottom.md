@@ -21,37 +21,37 @@ description: "Master Crab Ride Bottom defense in BJJ. Complete guide covering ho
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape",
-      "text": "From this position, execute Hip Escape to transition to Turtle. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Hip Escape. This technique is attempted in 22% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Granby Roll",
-      "text": "From this position, execute Granby Roll to transition to Closed Guard. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Granby Roll. This technique is attempted in 20% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Standing up in Base",
-      "text": "From this position, execute Standing up in Base to transition to Standing Position. Success rate for advanced practitioners: 55%.",
+      "name": "Execute Technical Standup",
+      "text": "From this position, attempt Technical Standup. This technique is attempted in 18% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Sit Through Escape",
-      "text": "From this position, execute Sit Through Escape to transition to Half Guard. Success rate for advanced practitioners: 45%.",
+      "name": "Execute Turtle to Guard",
+      "text": "From this position, attempt Turtle to Guard. This technique is attempted in 15% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling Back Take",
-      "text": "From this position, execute Rolling Back Take to transition to Back Control. Success rate for advanced practitioners: 35%.",
+      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Hook Strip to Re-Guard",
-      "text": "From this position, execute Hook Strip to Re-Guard to transition to Butterfly Guard. Success rate for advanced practitioners: 50%.",
+      "name": "Execute Guard Replacement",
+      "text": "From this position, attempt Guard Replacement. This technique is attempted in 15% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -210,75 +210,18 @@ Strategically, Crab Ride Bottom is often a transitional state rather than a sust
 
 ## Available Escapes
 
-### [[Hip Escape]] → [[Turtle]]
+### [[Hip Escape]] (22% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Granby Roll]] (20% of attempts)
 
-### [[Granby Roll]] → [[Closed Guard]]
+### [[Technical Standup]] (18% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
+### [[Turtle to Guard]] (15% of attempts)
 
-### [[Standing up in Base]] → [[Standing Position]]
+### [[Rolling Back Take]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
+### [[Guard Replacement]] (15% of attempts)
 
-### [[Sit Through Escape]] → [[Half Guard]]
-
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 45%
-
-### [[Rolling Back Take]] → [[Back Control]]
-
-**Success Rates:**
-- Beginner: 10%
-- Intermediate: 20%
-- Advanced: 35%
-
-### [[Hook Strip to Re-Guard]] → [[Butterfly Guard]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Crab Ride to Back]]** → [[Back Control]] (Opponent Success: 55%)
-- **[[Truck Entry]]** → [[Truck]] (Opponent Success: 35%)
-- **[[Crucifix from Turtle]]** → [[Crucifix]] (Opponent Success: 30%)
-- **[[Twister Lock Setup]]** → [[Twister Control]] (Opponent Success: 25%)
-- **[[Darce from Turtle]]** → [[D'arce Control]] (Opponent Success: 40%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Hook Strip Counter]]** → [[Turtle]]
-  - When opponent attempts to insert second hook, strip the first hook using hand or leg and return to neutral turtle
-- **[[Explosive Sit Through]]** → [[Half Guard]]
-  - When opponent lifts hips to complete back take, explosively sit through to face opponent and establish half guard
-- **[[Forward Roll Escape]]** → [[Closed Guard]]
-  - When opponent overcommits weight forward trying to flatten you, roll forward and invert to recover guard
 
 
 </section>
@@ -289,7 +232,7 @@ Strategically, Crab Ride Bottom is often a transitional state rather than a sust
 
 **If opponent has only one hook and is trying to insert second hook:**
 - Execute **[[Hip Escape]]** → [[Turtle]] (Probability: 45%)
-- Execute **[[Hook Strip to Re-Guard]]** → [[Butterfly Guard]] (Probability: 35%)
+- Execute **[[Guard Replacement]]** → [[Butterfly Guard]] (Probability: 35%)
 
 
 **If opponent has strong upper body control and is breaking you down:**
@@ -298,13 +241,13 @@ Strategically, Crab Ride Bottom is often a transitional state rather than a sust
 
 
 **If opponent is high on your back with loose hook control:**
-- Execute **[[Standing up in Base]]** → [[Standing Position]] (Probability: 50%)
+- Execute **[[Technical Standup]]** → [[Standing Position]] (Probability: 50%)
 - Execute **[[Rolling Back Take]]** → [[Back Control]] (Probability: 25%)
 
 
 **If opponent commits weight to one side for truck entry:**
-- Execute **[[Sit Through Escape]]** → [[Half Guard]] (Probability: 45%)
-- Execute **[[Explosive Hip Movement]]** → [[Turtle]] (Probability: 35%)
+- Execute **[[Turtle to Guard]]** → [[Half Guard]] (Probability: 45%)
+- Execute **[[Explosive Hip Escape]]** → [[Turtle]] (Probability: 35%)
 
 
 
@@ -385,29 +328,39 @@ Bottom player flows through all escape options (hip escape, granby, stand up, si
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Escape to Safety Path
+## Test Your Knowledge
 
-`Crab Ride Bottom → Hip Escape → Turtle → Technical Stand-up → Standing Position (Neutral)`
+**Q1**: What is the most critical defensive priority immediately upon recognizing you're in Crab Ride Bottom?
+**A**: The first priority is preventing the second hook from being inserted while protecting your neck. If opponent only has one hook, you still have significant escape potential. Once both hooks are established, escape difficulty increases dramatically. Keep the leg on your exposed side active and ready to block hook attempts, while tucking your chin to prevent rear naked choke setups. Do not sacrifice neck safety to strip the first hook.
 
-### Counter-Attack Path
+**Q2**: Your opponent has one hook and is reaching for the second - how do you defend?
+**A**: Use your far leg actively to kick and block their incoming leg from establishing the second hook. Simultaneously, begin explosive hip movement away from the hooked side to create separation. If you can prevent the second hook for 2-3 seconds while moving, you create an escape window. Your hands should be controlling their grip on your upper body rather than reaching for their legs - let your legs defend hooks while hands manage upper body control.
 
-`Crab Ride Bottom → Rolling Back Take → Back Control → Rear Naked Choke`
+**Q3**: How do you maintain base and prevent being flattened while in Crab Ride Bottom?
+**A**: Keep weight distributed through all four points with particular emphasis on the arm opposite the hooked side. That arm is your primary post preventing the flattening. Keep your knees wide enough for stability but not so wide that you lose mobility. If you feel chest pressure increasing, drive that posting arm into the mat harder while simultaneously shifting your hips slightly toward the hooked side to counterbalance their weight. Never let both your hands leave the mat simultaneously.
 
-### Guard Recovery Path
+**Q4**: When is the optimal time to attempt a Granby Roll escape from Crab Ride Bottom?
+**A**: The best timing is when opponent shifts their weight forward to establish grips or attempt the second hook. Their forward weight commitment creates the momentum you need to roll while reducing their ability to follow. Feel for when their chest lifts slightly off your back or when they reach with their hands. Attempting the Granby when they're heavy and settled is much harder. Also watch for when they reposition their base leg - this transitional moment creates escape opportunity.
 
-`Crab Ride Bottom → Granby Roll → Closed Guard → Triangle Setup → Triangle Choke`
+**Q5**: How do you properly strip an established hook while in Crab Ride Bottom?
+**A**: First, ensure your neck is protected and opponent's upper body control is being managed with frames. Then, use your same-side hand to cup their ankle or heel from the inside, pushing it toward the mat and away from your hip. Combine this with explosive hip movement away from the hook. The key is not to over-commit to the strip - if it doesn't come free immediately, return to protecting your neck and base, then attempt again when they adjust.
 
-### Wrestling Escape Path
+**Q6**: What counter-attack opportunities exist from Crab Ride Bottom?
+**A**: When opponent over-commits to the back take and their weight shifts forward, you can attempt a rolling back take reversal by collapsing your base in a controlled direction and inverting. If they lean too heavily to one side for the second hook, their far leg becomes vulnerable to single leg attacks when you explode out. From wrestlers' perspective, the sit-out when timed with their grip change can lead directly to a reversal. These counters require recognition of specific weight commits.
 
-`Crab Ride Bottom → Standing up in Base → Standing Rear Clinch → Hip Escape → Neutral Standing Position`
+**Q7**: Your opponent flattens you to your stomach - what's the recovery protocol?
+**A**: Once flattened, immediately turn to your side toward the hooked leg rather than trying to return to turtle. Frame strongly with both arms to create space between your upper body and the mat. Work to get your bottom knee underneath you while preventing them from establishing a body triangle. If you can get to your side with hip facing them, you've created defensive options. The worst response is trying to muscle back up to turtle while they have full weight on you - turn first, frame, then rebuild position incrementally.
+
+**Q8**: How do you manage energy expenditure while defending Crab Ride Bottom?
+**A**: Every explosive escape attempt costs significant energy, so you must be strategic. Don't attempt continuous movement - instead, defend actively while waiting for specific triggers (grip changes, weight shifts, hook attempts). When you commit to an escape, make it fully explosive rather than tentative. If the escape fails, return immediately to strong defensive posture rather than chaining multiple weak attempts. It's better to make three fully committed attempts with recovery between than ten half-efforts.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -428,7 +381,7 @@ Bottom player flows through all escape options (hip escape, granby, stand up, si
 
 ## Related Positions and Techniques
 
-- **[[Crab Ride]]** - Sibling variant - opposite perspective of same position
+- **[[Crab Ride]]** - Hub page for this position
 - **[[Turtle]]** - Common entry position - where crab ride is often established from
 - **[[Back Control]]** - Primary threat position - what opponent is working toward
 - **[[Truck]]** - Alternative control position - similar defensive challenges

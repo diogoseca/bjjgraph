@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Open Guard to Deep Half | BJJ Technique | BJJ Graph"
 description: "Learn Open Guard to Deep Half transition in BJJ. Step-by-step execution from Open Guard Bottom to Deep Half Guard. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%."
@@ -16,7 +17,7 @@ description: "Learn Open Guard to Deep Half transition in BJJ. Step-by-step exec
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Open Guard to Deep Half in BJJ",
-  "description": "Step-by-step guide for Open Guard to Deep Half from Open Guard to Deep Half Guard.",
+  "description": "Step-by-step guide for Open Guard to Deep Half from Open Guard/Bottom. Possible outcomes: Deep Half Guard/Bottom (70%), Open Guard/Bottom (20%), Open Guard/Top (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -154,11 +155,25 @@ description: "Learn Open Guard to Deep Half transition in BJJ. Step-by-step exec
 
 The transition from Open Guard to Deep Half represents a strategic guard recovery sequence that transforms defensive situations into powerful offensive opportunities. This technique is particularly valuable when facing aggressive standing or passing pressure from top position, allowing the bottom player to dive underneath their opponent's center of gravity and establish the deep half guard structure. The deep half position provides excellent sweeping mechanics while simultaneously nullifying many common passing strategies. This transition emphasizes proper hip movement, head positioning, and timing to safely navigate underneath the opponent's base. Modern practitioners have refined this entry to work against various passing styles, making it an essential component of comprehensive guard retention systems. The technique demonstrates the principle of using depth and angle changes to create defensive depth while maintaining offensive threats.
 
-**Starting Position**: [[Open Guard]]
-**Ending Position**: [[Deep Half Guard]]
+**From Position**: [[Open Guard/Bottom]]
 **Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Deep Half Guard/Bottom]] | 70% |
+| Failure | [[Open Guard/Bottom]] | 20% |
+| Counter | [[Open Guard/Top]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

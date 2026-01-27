@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Body Lock Pass | BJJ Technique | BJJ Graph"
 description: "Master the Body Lock Pass in BJJ. Step-by-step execution from Half Guard to Side Control with systematic pressure. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%."
@@ -16,7 +17,7 @@ description: "Master the Body Lock Pass in BJJ. Step-by-step execution from Half
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Body Lock Pass in BJJ",
-  "description": "Step-by-step guide for Body Lock Pass from Half Guard to Side Control.",
+  "description": "Step-by-step guide for Body Lock Pass from Half Guard/Bottom. Possible outcomes: Side Control/Top (75%), Half Guard/Bottom (15%), Half Guard/Top (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -158,11 +159,25 @@ The pass works by creating a connection that removes the bottom player's ability
 
 This pass is especially valuable against opponents with strong half guard retention, as the body lock neutralizes many common defensive reactions. It's a staple in modern no-gi competition and forms a cornerstone of systematic pressure passing approaches used by elite competitors.
 
-**Starting Position**: [[Half Guard]]
-**Ending Position**: [[Side Control]]
+**From Position**: [[Half Guard/Bottom]]
 **Success Rates**: Beginner 45%, Intermediate 60%, Advanced 75%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Side Control/Top]] | 75% |
+| Failure | [[Half Guard/Bottom]] | 15% |
+| Counter | [[Half Guard/Top]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

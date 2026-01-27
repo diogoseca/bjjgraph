@@ -262,6 +262,31 @@
       "question": "What should you do immediately after your partner taps to an arm triangle, and what should you watch for in the seconds after release?",
       "answer": "Immediately release head pressure and remove your choking arm upon the tap, then shift your weight off their torso to allow them to breathe and restore blood flow to the brain. Create space so they can turn their head freely. Watch for signs of alertness - they should be able to make eye contact and respond verbally within a few seconds. Some brief confusion or disorientation is normal if the choke was held slightly too long, but they should recover quickly. Ask clearly if they're okay and wait for a verbal confirmation before continuing training. If they seem confused for more than 30-60 seconds, or show any signs of distress, stop training and seek medical evaluation. Never rush back into training after a successful choke - give both partners time to reset mentally and physically.",
       "safety_critical": true
+    },
+    {
+      "question": "Your opponent starts bridging explosively during your mount finish attempt - what immediate adjustment prevents them from escaping?",
+      "answer": "When opponent bridges during the mount finish, immediately widen your base by posting your feet wide and lowering your hips to absorb their upward force. Keep your head tight to theirs and maintain the head-and-arm structure - the triangle should stay locked regardless of their body movement. Rather than fighting the bridge with opposing force, ride it like a wave and sink your weight back down as they fatigue. If the bridge is strong enough to threaten your balance, consider transitioning to the side control finish variation where your base is inherently more stable against bridging movements.",
+      "safety_critical": false
+    },
+    {
+      "question": "What anatomical structures does the arm triangle specifically target, and what happens physiologically when the choke is applied correctly?",
+      "answer": "The arm triangle targets both carotid arteries on either side of the neck - your bicep compresses one carotid while the opponent's own shoulder compresses the other. When applied correctly, this bilateral compression restricts blood flow to the brain, causing a rapid drop in oxygen delivery to cerebral tissue. The jugular veins are also compressed, preventing blood from draining from the head. This combination of reduced arterial inflow and blocked venous outflow causes unconsciousness within 5-10 seconds if unreleased. The mechanism is entirely vascular - a properly applied arm triangle does not restrict the airway or cause breathing difficulty.",
+      "safety_critical": false
+    },
+    {
+      "question": "At what precise moment during the finishing sequence has opponent reached the point of no escape, and how do you recognize this moment?",
+      "answer": "The point of no escape occurs when your hands are connected behind their head, your elbows are driven together creating a tight triangular structure, and your shoulder is positioned at the correct angle driving into their neck. You recognize this moment by feeling the structural lock - there's a distinct sensation when the triangle closes completely and their arm cannot be extracted regardless of their pulling force. At this point, even without squeezing, the structure itself creates significant compression. Once you feel this lock, the finish is inevitable with proper squeeze direction. Before this point, gaps in the structure allow arm extraction; after this point, only your release can free them.",
+      "safety_critical": false
+    },
+    {
+      "question": "Your grip keeps slipping when you connect your hands during the finishing sequence - what grip adjustments improve finishing reliability?",
+      "answer": "When standard grips slip, switch to a deeper grip where your choking hand grabs your own bicep on the free arm, and your free hand cups behind opponent's head. This 'rear naked choke' style grip provides maximum mechanical advantage and eliminates slippage. If this grip is difficult to achieve, use a palm-to-palm grip with fingers interlaced rather than a loose gable grip. In no-gi situations, consider the 'ball and socket' grip where one hand makes a fist and the other hand wraps around it. Ensure your forearms are perpendicular to opponent's neck rather than parallel - parallel alignment reduces leverage and promotes slippage.",
+      "safety_critical": false
+    },
+    {
+      "question": "In competition, your opponent is defending by keeping their chin tucked and refusing to tap despite clear structural lock - how do you complete the finish safely while respecting the rules?",
+      "answer": "A proper arm triangle compresses the carotid arteries regardless of chin position - the chin cannot block arterial compression on the sides of the neck. If opponent is holding out despite locked structure, verify your squeeze direction is inward toward their centerline, not upward. Increase pressure gradually while maintaining the 3-5 second application principle even in competition. The referee will intervene if opponent goes unconscious. Never attempt to pry the chin up or apply crushing windpipe pressure - these create injury risk and indicate incorrect technique. If the structure is truly locked with correct angle, patience and progressive squeeze will always produce either a tap or referee stoppage. Trust your technique rather than resorting to dangerous force.",
+      "safety_critical": true
     }
   ],
   "training_progressions_and_safety_protocols": [
@@ -331,7 +356,6 @@
     "North-South Choke",
     "Brabo Choke",
     "Arm in Guillotine",
-    "Von Flue Choke",
     "Darce Variations",
     "Anaconda Variations",
     "Guillotine Variations",
@@ -349,14 +373,6 @@
     {
       "name": "Side Control to Mount",
       "relationship": "Key transition during arm triangle progression"
-    },
-    {
-      "name": "Pressure Application",
-      "relationship": "Fundamental principle for maintaining control throughout technique"
-    },
-    {
-      "name": "Submission Chains",
-      "relationship": "Concept for linking arm triangle with kimura, back takes, and other attacks"
     },
     {
       "name": "Darce Choke",
@@ -383,8 +399,16 @@
       "relationship": "Backup submission when opponent defends arm triangle by pulling arm free"
     },
     {
-      "name": "Control Maintenance",
-      "relationship": "Essential principle for keeping pressure throughout transition phases"
+      "name": "Kimura from Side Control",
+      "relationship": "Chain submission when opponent defends arm triangle by extending arm"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Transition target when opponent turns during arm triangle defense"
+    },
+    {
+      "name": "High Mount",
+      "relationship": "Advanced finishing position offering superior control and angle"
     }
   ]
 }

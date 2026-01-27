@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Front Headlock to Anaconda | BJJ Technique | BJJ Graph"
 description: "Learn Front Headlock to Anaconda in BJJ. Step-by-step execution from Front Headlock to Anaconda Control. Success: Beginner 30%, Intermediate 50%, Advanced 68%."
@@ -16,7 +17,7 @@ description: "Learn Front Headlock to Anaconda in BJJ. Step-by-step execution fr
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Front Headlock to Anaconda in BJJ",
-  "description": "Step-by-step guide for Front Headlock to Anaconda from Front Headlock to Anaconda Control.",
+  "description": "Step-by-step guide for Front Headlock to Anaconda from Front Headlock/Top. Possible outcomes: Anaconda Control/Top (68%), Front Headlock/Top (22%), Front Headlock/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -164,11 +165,25 @@ The transition is particularly effective because it capitalizes on the opponent'
 
 This transition has become a staple in modern no-gi grappling and MMA, where the absence of gi grips makes the front headlock position even more dominant. The anaconda's versatility allows it to be applied from various front headlock configurations, including standing snapdowns, failed takedown attempts, and turtle attacks. Mastering this transition provides practitioners with a reliable path from control to submission that works across all levels of competition.
 
-**Starting Position**: [[Front Headlock]]
-**Ending Position**: [[Anaconda Control]]
+**From Position**: [[Front Headlock/Top]]
 **Success Rates**: Beginner 30%, Intermediate 50%, Advanced 68%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Anaconda Control/Top]] | 68% |
+| Failure | [[Front Headlock/Top]] | 22% |
+| Counter | [[Front Headlock/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

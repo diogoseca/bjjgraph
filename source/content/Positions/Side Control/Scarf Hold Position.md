@@ -93,26 +93,20 @@ Scarf Hold Position represents a transitional control platform rather than purel
 - Recognize windows of opportunity when opponent shifts weight to attack submissions or transition positions, then capitalize immediately with aggressive escape attempts
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Bridge and Roll]]** → [[Scramble Position]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Bridge and Roll]]** (16% of attempts)
 
-- **[[Elbow Escape]]** → [[Half Guard]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Elbow Escape]]** (18% of attempts)
 
-- **[[Hip Escape]]** → [[Closed Guard]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Hip Escape]]** (15% of attempts)
 
-- **[[Ghost Escape]]** → [[Turtle]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 60%
+- **[[Ghost Escape]]** (16% of attempts)
 
-- **[[Frame and Shrimp]]** → [[Open Guard]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Frame and Shrimp]]** (16% of attempts)
 
-- **[[Turtle Transition]]** → [[Turtle]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Turtle Transition]]** (19% of attempts)
 
 
 ### Common Mistakes
@@ -164,26 +158,20 @@ Scarf Hold Position represents a transitional control platform rather than purel
 - Adjust base dynamically with legs to counter opponent's escape attempts while maintaining connection through torso
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Americana from Side Control]]** → [[Americana Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Americana from Side Control]]** (17% of attempts)
 
-- **[[Kimura from Side Control]]** → [[Kimura Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Kimura from Side Control]]** (14% of attempts)
 
-- **[[Transition to Mount]]** → [[Mount]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Side Control to Mount]]** (18% of attempts)
 
-- **[[Transition to North-South]]** → [[North-South]]
-  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 80%
+- **[[Side Control to North-South]]** (22% of attempts)
 
-- **[[Armbar from Side Control]]** → [[Armbar Control]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Armbar from Side Control]]** (13% of attempts)
 
-- **[[Arm Triangle]]** → [[Americana Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Arm Triangle]]** (16% of attempts)
 
 
 ### Common Mistakes
@@ -231,10 +219,6 @@ Scarf Hold Position represents a transitional control platform rather than purel
 - **[[North-South]]** - Common transition target from scarf hold for both top and bottom players
 
 - **[[Mount]]** - Advancement position when bottom player creates space or turns away
-
-- **[[Americana Control]]** - Primary submission threat from top scarf hold position
-
-- **[[Kimura Control]]** - Secondary arm attack opportunity from scarf hold
 
 - **[[Turtle]]** - Common escape destination for bottom player through backdoor escape
 

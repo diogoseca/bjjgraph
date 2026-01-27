@@ -21,37 +21,37 @@ description: "Master escaping Knee on Belly Bottom in BJJ. Defensive position re
     {
       "@type": "HowToStep",
       "name": "Execute Elbow Escape",
-      "text": "From this position, execute Elbow Escape to transition to Half Guard. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Elbow Escape. This technique is attempted in 17% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape",
-      "text": "From this position, execute Hip Escape to transition to Closed Guard. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Hip Escape. This technique is attempted in 14% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Shrimp Escape",
-      "text": "From this position, execute Shrimp Escape to transition to Open Guard. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Shrimp Escape. This technique is attempted in 16% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Deep Half Entry",
-      "text": "From this position, execute Deep Half Entry to transition to Deep Half Guard. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 13% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Shield Retention",
-      "text": "From this position, execute Knee Shield Retention to transition to Knee Shield Half Guard. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Knee Shield Retention. This technique is attempted in 16% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Technical Standup",
-      "text": "From this position, execute Technical Standup to transition to Standing Position. Success rate for advanced practitioners: 40%.",
+      "text": "From this position, attempt Technical Standup. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -208,85 +208,20 @@ Knee on Belly Bottom is a highly disadvantageous defensive position where the pr
 
 ## Available Escapes
 
-### [[Elbow Escape]] → [[Half Guard]]
+### [[Elbow Escape]] (17% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Hip Escape]] (14% of attempts)
 
-### [[Hip Escape]] → [[Closed Guard]]
+### [[Shrimp Escape]] (16% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
+### [[Deep Half Entry]] (13% of attempts)
 
-### [[Shrimp Escape]] → [[Open Guard]]
+### [[Knee Shield Retention]] (16% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Technical Standup]] (10% of attempts)
 
-### [[Deep Half Entry]] → [[Deep Half Guard]]
+### [[Frame and Shrimp]] (14% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
-
-### [[Knee Shield Retention]] → [[Knee Shield Half Guard]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[Technical Standup]] → [[Standing Position]]
-
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 25%
-- Advanced: 40%
-
-### [[Frame and Shrimp]] → [[Butterfly Guard]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Transition to Mount]]** → [[Mount]] (Opponent Success: 45%)
-- **[[Transition to North-South]]** → [[North-South]] (Opponent Success: 35%)
-- **[[Armbar from Side Control]]** → [[Armbar Control]] (Opponent Success: 30%)
-- **[[Americana from Side Control]]** → [[Americana Control]] (Opponent Success: 25%)
-- **[[Side Control to Mount]]** → [[Side Control]] (Opponent Success: 40%)
-- **[[Kimura from Side Control]]** → [[Kimura Control]] (Opponent Success: 28%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Re-Guard]]** → [[Closed Guard]]
-  - Opponent shifts weight forward attempting to advance to mount
-- **[[Ghost Escape]]** → [[Turtle]]
-  - Opponent commits to submission attempt and loses base stability
-- **[[Deep Half Entry]]** → [[Deep Half Guard]]
-  - Opponent shifts knee position creating space under their hips
-- **[[Frame and Shrimp]]** → [[Half Guard]]
-  - Opponent adjusts their base or grip allowing frame insertion
 
 
 </section>
@@ -403,29 +338,39 @@ Top player establishes knee on belly and actively hunts for submissions (armbar,
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Re-guard to Triangle Path
+## Test Your Knowledge
 
-`Knee on Belly Bottom → Hip Escape → Closed Guard → Triangle Setup → Triangle Control → Triangle Choke`
+**Q1**: What is the first defensive priority when your opponent establishes Knee on Belly?
+**A**: The first priority is creating immediate defensive frames using forearms and elbows against the opponent's hips and knee. These frames prevent full weight settlement and create the structural foundation for all subsequent escapes. Without frames, the pressure becomes overwhelming and no escape is possible. Frame on their hip with your near elbow tight to your body, and use your far hand to control their knee or collar.
 
-### Deep Half to Back Attack
+**Q2**: Why is turning to your side essential for escaping Knee on Belly?
+**A**: Turning to your side reduces the surface area exposed to the opponent's pressure and creates the hip angles necessary for shrimping. When flat on your back, the opponent's full pressure drives into your diaphragm and your hips cannot generate escape movement. By turning to face away from the knee pressure, you enable the hip escape mechanics that create space for re-guard entry.
 
-`Knee on Belly Bottom → Deep Half Entry → Deep Half Guard → Homer Simpson Sweep → Back Control → Rear Naked Choke`
+**Q3**: Your opponent lifts their knee to transition to mount - what opportunity does this create?
+**A**: When the opponent lifts their knee to advance, they momentarily reduce the pinning pressure and create space. This is the optimal window to insert a knee shield or recover to open guard. React immediately by driving your knee between your bodies or shrimping your hips away to establish guard before they can complete the mount transition. The moment of transition is your best escape opportunity.
 
-### Butterfly Guard Sweep to Submission
+**Q4**: What makes extending your arms to push against the opponent's knee a critical error?
+**A**: Extended arms become immediately vulnerable to armbars and Americanas - the opponent can simply capture your extended arm and attack the submission. Additionally, pushing creates no effective escape angles because you're fighting their weight vertically rather than creating lateral space. The correct approach is keeping elbows tight and using structural frames that create angles for hip movement rather than vertical push.
 
-`Knee on Belly Bottom → Frame and Shrimp → Butterfly Guard → Butterfly Sweep → Mount → Armbar from Mount`
+**Q5**: How should you chain escape attempts when your first escape fails?
+**A**: Continue moving immediately without pausing. If the elbow escape to half guard is blocked, transition directly into a shrimp toward open guard. If that's blocked, look for deep half entry. Each escape attempt creates incremental space improvement even if the full escape doesn't succeed. Stopping allows the opponent to re-settle their weight and consolidate control, making subsequent escapes exponentially harder.
 
-### Half Guard to Kimura
+**Q6**: Your opponent reaches for your collar while maintaining Knee on Belly - how do you respond?
+**A**: When the opponent reaches for submissions, they must compromise their base and redistribute weight. Use this moment of instability to accelerate your escape. Their reaching hand means less control over your movement. Execute your hip escape while simultaneously defending the collar grip with your near hand. The submission attempt creates the opening for escape if you're ready to capitalize on their weight shift.
 
-`Knee on Belly Bottom → Elbow Escape → Half Guard → Underhook Sweep from Half → Side Control → Kimura from Side Control`
+**Q7**: What breathing strategy helps manage the intense pressure from Knee on Belly?
+**A**: Take short, controlled breaths using your diaphragm rather than chest breathing. Turning to your side shifts the pressure point and creates more breathing room. Don't panic or hold your breath - this depletes energy rapidly. Stay calm and breathe between escape attempts. The pressure is uncomfortable but manageable with proper technique and breathing. Mental composure is essential for executing technical escapes.
+
+**Q8**: When is Deep Half Guard entry a better option than standard guard recovery from Knee on Belly?
+**A**: Deep Half Guard entry becomes optimal when the opponent shifts their weight forward or moves their knee position toward your hips. This creates space under their base that you can penetrate with your underhook and head. If they're maintaining pressure high on your chest with good posture, standard hip escapes to half or closed guard are better. Deep half requires getting underneath them, which is only possible when space exists under their hips.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -446,17 +391,14 @@ Top player establishes knee on belly and actively hunts for submissions (armbar,
 
 ## Related Positions and Techniques
 
-- **[[Knee on Belly Top]]** - Opposite perspective - understanding top position strategy improves bottom defense
 - **[[Side Control]]** - Similar pressure-based bottom position with related escape mechanics
 - **[[Mount]]** - Common progression if knee on belly escape fails
 - **[[Half Guard]]** - Primary escape destination for elbow escape and hip escape techniques
-- **[[Knee on Belly Escape]]** - Core conceptual framework for defensive strategy from this position
-- **[[Hip Escape Mechanics]]** - Fundamental movement pattern essential for all escape sequences
-- **[[Frame Creation]]** - Defensive principle required for managing pressure and creating escape space
-- **[[Escape Hierarchy]]** - Strategic framework for prioritizing escape options based on situation
 - **[[Deep Half Guard]]** - Advanced escape destination when opponent shifts weight forward
 - **[[Closed Guard]]** - High-priority escape target for re-establishing offensive guard game
-- **[[Defensive Position]]** - General defensive positioning principles applicable to pressure management
+- **[[Elbow Escape]]** - Primary escape technique using hip movement and frames
+- **[[Hip Escape]]** - Foundational movement pattern for all escape sequences
+- **[[Butterfly Guard]]** - Alternative re-guard destination when hooks can be established
 
 
 </section>

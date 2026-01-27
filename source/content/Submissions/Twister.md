@@ -427,10 +427,20 @@ The Twister is an advanced spinal lock submission popularized by 10th Planet's a
 - [[Twister System]] - Comprehensive system built around this submission and related techniques
 - [[Crab Ride to Back]] - Alternative back attack entry that can transition to Truck
 - [[Back Attack System]] - Broader system of back attacks where Twister is advanced option
-- [[Transition to Truck]] - Generic transition category for entering Truck position
+- [[Turtle to Truck]] - Generic transition category for entering Truck position
 - [[Flexibility Training]] - Essential principle for safely practicing and defending spinal locks
 - [[Submission Chains]] - Principle of combining Twister with Calf Slicer, Banana Split, etc.
 
+
+</section>
+
+<section id="terminal-state" class="content-section">
+
+## Match Outcome
+
+Successful execution of Twister leads to → [[game-over|Game Over]]
+
+*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
 
 </section>
 

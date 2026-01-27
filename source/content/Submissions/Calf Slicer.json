@@ -263,6 +263,31 @@
       "question": "From which two positions is the Calf Slicer most commonly applied, and what makes these positions ideal for this submission?",
       "answer": "The Calf Slicer is most commonly applied from the Truck and 50-50 Guard positions. The Truck is ideal because you have excellent control of the opponent's upper body while their leg is already bent and entangled, making shin insertion straightforward. The 50-50 Guard is ideal because both legs are already entangled in a configuration where you can transition between heel hooks, kneebars, and calf slicers as part of a leg lock chain, making it difficult for opponents to defend all threats simultaneously.",
       "safety_critical": false
+    },
+    {
+      "question": "Your opponent begins straightening their trapped leg aggressively - what grip adjustment prevents escape and maintains the finish?",
+      "answer": "When the opponent begins straightening their leg, immediately deepen your bottom leg hook by pulling it tighter over their thigh, creating more resistance against extension. Simultaneously pull their foot harder toward your chest with a reinforced two-hand grip and extend your hips more aggressively to drive your shin deeper before they create space. The key is coordinating the hip extension with increased foot control to maintain the bent knee angle that makes the submission effective.",
+      "safety_critical": false
+    },
+    {
+      "question": "What is the anatomical breaking point indicator that tells you the Calf Slicer is properly positioned and effective?",
+      "answer": "The breaking point indicator is when your shin bone is positioned directly across the belly of the calf muscle (gastrocnemius), approximately 2-4 inches below the knee crease, with the opponent's knee bent at roughly 90 degrees. You will feel the soft muscle tissue compressed between your shin and their own shinbone on the opposite side. The opponent will typically experience a sudden, intense crushing sensation that differs from joint lock pain - it feels like the muscle is being split or crushed between two hard surfaces.",
+      "safety_critical": false
+    },
+    {
+      "question": "During a competition finishing scenario, how do you adjust your grip when your opponent attempts to rotate their leg internally?",
+      "answer": "When the opponent rotates internally, immediately switch your foot grip to a figure-four configuration around their ankle, locking your hands together for maximum control. This grip prevents further rotation and allows you to counter-rotate their foot externally while extending your hips. Simultaneously adjust your shin position to follow their calf as it rotates, maintaining constant pressure on the muscle belly. The figure-four grip is essential because it controls rotation in both directions simultaneously.",
+      "safety_critical": false
+    },
+    {
+      "question": "What signals indicate you have passed the point of no escape and the finish is imminent?",
+      "answer": "The point of no escape occurs when: (1) your shin is fully seated across the calf belly with no gap between your leg and theirs, (2) their knee is bent past 90 degrees with your bottom leg hook preventing any straightening, (3) you have secure foot control preventing rotation, and (4) your hip extension has begun creating compression. At this stage, the opponent's only realistic option is to tap, as any defensive movement typically increases the pressure rather than relieving it. The finish becomes imminent when you feel the muscle tissue fully compressed between the bony surfaces.",
+      "safety_critical": false
+    },
+    {
+      "question": "What is the correct release protocol if your partner taps but their leg is deeply entangled in the submission?",
+      "answer": "Upon tap, immediately stop all hip extension and release your foot grip first to allow their leg to rotate freely. Then slowly remove your shin pressure from their calf by separating your legs rather than pulling your shin across their calf (which could cause additional damage). Unwrap your bottom leg hook last, allowing their leg to naturally extend. Throughout the release, move slowly and communicate with your partner. After release, check their leg mobility and sensation before resuming training. Never rush the release process even if you feel the urgency to continue rolling.",
+      "safety_critical": true
     }
   ],
   "training_progressions_and_safety_protocols": [
@@ -359,14 +384,6 @@
       "relationship": "Primary submission from Truck when opponent defends Calf Slicer"
     },
     {
-      "name": "Truck Entry",
-      "relationship": "Essential transition to access Calf Slicer from back attacks"
-    },
-    {
-      "name": "Craig Jones Leg Lock System",
-      "relationship": "Modern approach to chaining Calf Slicers with heel hooks"
-    },
-    {
       "name": "Banana Split",
       "relationship": "Similar compression-based submission targeting different muscle groups"
     },
@@ -377,6 +394,14 @@
     {
       "name": "Inside Ashi-Garami",
       "relationship": "Leg entanglement position allowing transitions to Calf Slicer"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Position accessible from Truck when Calf Slicer is defended"
+    },
+    {
+      "name": "Deep Half Guard",
+      "relationship": "Guard position offering opportunistic Calf Slicer entries"
     }
   ]
 }

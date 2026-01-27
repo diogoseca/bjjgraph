@@ -10,8 +10,6 @@
     "beginner-friendly",
     "competition"
   ],
-  "starting_position": "Spider Guard",
-  "ending_position": "Standing Position",
   "success_rates": {
     "beginner": 35,
     "intermediate": 50,
@@ -258,6 +256,24 @@
     {
       "name": "Technical Stand Up to Single Leg",
       "relationship": "Standing variation using tripod structure to initiate takedown"
+    }
+  ],
+  "from_position": "Spider Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Standing Position/Top",
+      "probability": 65,
+      "result": "success"
+    },
+    {
+      "to": "Spider Guard/Bottom",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Spider Guard/Top",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

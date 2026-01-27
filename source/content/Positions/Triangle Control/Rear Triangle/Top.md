@@ -21,37 +21,37 @@ description: "Master Rear Triangle Top position in BJJ. Control opponent's back 
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Choke Back",
-      "text": "From this position, execute Triangle Choke Back to transition to Won by Submission. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Triangle Choke Back. This technique is attempted in 19% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Armbar from Back with Legs",
-      "text": "From this position, execute Armbar from Back with Legs to transition to Armbar Control. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Armbar from Back with Legs. This technique is attempted in 17% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rear Naked Choke",
-      "text": "From this position, execute Rear Naked Choke to transition to Won by Submission. Success rate for advanced practitioners: 80%.",
+      "text": "From this position, attempt Rear Naked Choke. This technique is attempted in 19% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Crucifix",
-      "text": "From this position, execute Transition to Crucifix to transition to Crucifix. Success rate for advanced practitioners: 65%.",
+      "name": "Execute Aoki Lock to Crucifix",
+      "text": "From this position, attempt Aoki Lock to Crucifix. This technique is attempted in 16% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bow and Arrow Choke",
-      "text": "From this position, execute Bow and Arrow Choke to transition to Won by Submission. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Bow and Arrow Choke. This technique is attempted in 15% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kimura from Back",
-      "text": "From this position, execute Kimura from Back to transition to Kimura Control. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Kimura from Back. This technique is attempted in 14% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -210,76 +210,18 @@ Rear Triangle Top is an advanced back control variation where the top practition
 
 ## Available Attacks
 
-### [[Triangle Choke Back]] → [[Won by Submission]]
+### [[Triangle Choke Back]] (19% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 55%
-- Advanced: 75%
+### [[Armbar from Back with Legs]] (17% of attempts)
 
-### [[Armbar from Back with Legs]] → [[Armbar Control]]
+### [[Rear Naked Choke]] (19% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 70%
+### [[Aoki Lock to Crucifix]] (16% of attempts)
 
-### [[Rear Naked Choke]] → [[Won by Submission]]
+### [[Bow and Arrow Choke]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 60%
-- Advanced: 80%
+### [[Kimura from Back]] (14% of attempts)
 
-### [[Transition to Crucifix]] → [[Crucifix]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 45%
-- Advanced: 65%
-
-### [[Bow and Arrow Choke]] → [[Won by Submission]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 40%
-- Advanced: 60%
-
-### [[Kimura from Back]] → [[Kimura Control]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Tuck Chin and Defend Trapped Arm]]** → [[Rear Triangle Bottom]] (Opponent Success: 15%)
-- **[[Turn Into Triangle to Create Space]]** → [[Scramble Position]] (Opponent Success: 20%)
-- **[[Bridge and Roll Escape Attempt]]** → [[Scramble Position]] (Opponent Success: 10%)
-- **[[Grab Own Leg to Prevent Lock]]** → [[Back Control]] (Opponent Success: 25%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Switch to Armbar on Trapped Arm]]** → [[Armbar Control]]
-  - Opponent focuses solely on defending the choke by tucking chin
-- **[[Rear Naked Choke Transition]]** → [[Won by Submission]]
-  - Opponent defends trapped arm by pulling it free, exposing neck
-- **[[Tighten Triangle and Extend Hips]]** → [[Rear Triangle Top]]
-  - Opponent attempts to turn into the triangle to escape
-- **[[Transition to Traditional Back Control]]** → [[Back Control]]
-  - Opponent successfully defends triangle lock by grabbing own leg
 
 
 </section>
@@ -290,21 +232,21 @@ Rear Triangle Top is an advanced back control variation where the top practition
 
 **If opponent tucks chin and defends choke primarily:**
 - Execute **[[Armbar from Back with Legs]]** → [[Armbar Control]] (Probability: 65%)
-- Execute **[[Kimura from Back]]** → [[Kimura Control]] (Probability: 45%)
+- Execute **[[Kimura from Back]]** → [[Kimura Trap]] (Probability: 45%)
 
 
 **Else if opponent attempts to pull trapped arm free:**
-- Execute **[[Tighten Triangle Lock]]** → [[Rear Triangle Top]] (Probability: 70%)
-- Execute **[[Triangle Choke Back]]** → [[Won by Submission]] (Probability: 60%)
+- Execute **[[Tighten Triangle Lock]]** → [[Rear Triangle]] (Probability: 70%)
+- Execute **[[Triangle Choke Back]]** → [[game-over]] (Probability: 60%)
 
 
 **Else if opponent turns into triangle attempting escape:**
-- Execute **[[Extend Hips and Finish Triangle]]** → [[Won by Submission]] (Probability: 55%)
-- Execute **[[Transition to Crucifix]]** → [[Crucifix]] (Probability: 50%)
+- Execute **[[Extend Hips and Finish Triangle]]** → [[game-over]] (Probability: 55%)
+- Execute **[[Aoki Lock to Crucifix]]** → [[Crucifix]] (Probability: 50%)
 
 
 **Else if opponent creates space by posting free arm:**
-- Execute **[[Rear Naked Choke]]** → [[Won by Submission]] (Probability: 65%)
+- Execute **[[Rear Naked Choke]]** → [[game-over]] (Probability: 65%)
 - Execute **[[Attack Free Arm for Control]]** → [[Gift Wrap]] (Probability: 50%)
 
 
@@ -386,33 +328,39 @@ Establish rear triangle position with compliant partner. Practice the following 
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Direct Triangle Choke Path
+## Test Your Knowledge
 
-`Back Control → Rear Triangle Top → Triangle Choke Back → Won by Submission`
+**Q1**: What is the optimal hip angle for maintaining rear triangle control and why does this matter?
+**A**: Angle your hips toward the trapped arm side at approximately 45 degrees to maximize carotid pressure. This hip orientation creates the cutting angle across the neck that compresses the carotid artery on the trapped arm side. Without this angle, the choke becomes a less effective air choke rather than a blood choke, giving opponent more time to escape.
 
-### Triangle to Armbar Path
+**Q2**: Your opponent starts to turn into you to relieve choking pressure - what adjustment do you make?
+**A**: Extend your hips away from opponent while simultaneously tightening the triangle lock by squeezing knees together. Use your chest pressure and free hand to prevent their rotation. If they continue turning, use the rotation to transition to crucifix position by controlling their far arm during the turn. Never let them face you completely.
 
-`Back Control → Rear Triangle Top → Armbar from Back with Legs → Won by Submission`
+**Q3**: What are the essential grip priorities when your hands are free in rear triangle position?
+**A**: Primary priority is controlling the opponent's free arm to prevent defensive gripping and frame establishment. Secondary priority is wrist control or collar grip on the trapped arm side to set up rear naked choke or bow and arrow attempts. Your hands should never be idle - they cycle between controlling the free arm and attacking submissions.
 
-### Rear Naked Choke Alternative Path
+**Q4**: How do you prevent opponent from extracting their trapped arm from the triangle structure?
+**A**: Squeeze your knees together tightly to compress the space around the trapped arm. Angle your hips toward the trapped arm side to create pressure that pins the arm against their own body. Use your hands to actively fight any grip breaks on the trapped arm. If they create space, immediately tighten the triangle lock before continuing attacks.
 
-`Rear Triangle Top → Rear Naked Choke → Won by Submission`
+**Q5**: What is the proper leg threading depth for the rear triangle and why is this critical?
+**A**: Thread the choking leg deep under the armpit until your calf crosses behind the opponent's neck, not in front. The leg should emerge on the opposite side of their neck from where it entered. This creates the proper posterior choking angle that attacks the carotid from behind, making chin tucking an ineffective defense compared to front triangle positioning.
 
-### Crucifix Transition Path
+**Q6**: Your opponent bridges hard and creates space between your chest and their back - how do you recover?
+**A**: Immediately follow them with your hips, closing the gap before they can rotate or stand. Use your free hand to push off the mat and drive your chest back into contact. Tighten the triangle lock to restrict their hip movement. If significant space is created, consider transitioning back to traditional back control with seat belt grip before re-establishing the triangle.
 
-`Rear Triangle Top → Transition to Crucifix → Crucifix → Choke from Crucifix → Won by Submission`
+**Q7**: How do you manage energy expenditure when controlling rear triangle for extended periods?
+**A**: Let your legs do the primary work through the triangle lock rather than squeezing constantly with your arms. Maintain steady compression through knee squeeze and hip angle rather than maximum force. Use attacks to make opponent defend rather than trying to muscle through finishes. Rest your hands on the opponent's body between grip changes to conserve arm endurance.
 
-### Bow and Arrow Setup Path
-
-`Rear Triangle Top → Bow and Arrow Choke → Won by Submission`
+**Q8**: After your opponent successfully defends the triangle choke attempt, how do you reset without losing position?
+**A**: Maintain the triangle lock structure even when the choke is defended. Immediately transition to attacking the trapped arm for armbar or the free arm for kimura control. If opponent creates too much space defending the choke, tighten the triangle and re-establish chest pressure before cycling to the next attack. Never abandon the position just because one submission fails.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -438,7 +386,7 @@ Establish rear triangle position with compliant partner. Practice the following 
 - **[[Body Triangle]]** - Alternative leg configuration for back control with different control mechanics
 - **[[Crucifix]]** - Common transition target when opponent defends triangle by turning in
 - **[[Seat Belt Control Back]]** - Traditional back control variation that precedes rear triangle entry
-- **[[Triangle Choke Back]]** - Primary submission finish from this position
+- **[[Triangle Choke]]** - Primary submission finish from this position
 - **[[Armbar from Back with Legs]]** - Alternative submission when opponent defends the choke
 - **[[Mounted Triangle]]** - Similar triangle control mechanics from mount position instead of back
 - **[[Gift Wrap]]** - Alternative arm trap control from back that can transition to rear triangle

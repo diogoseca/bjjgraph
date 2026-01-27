@@ -4,7 +4,7 @@ import BodyConstructor from "../../components/Body"
 import { pageResources, renderPage } from "../../components/renderPage"
 import { FullPageLayout } from "../../cfg"
 import { FilePath, FullSlug } from "../../util/path"
-import { sharedPageComponents } from "../../../quartz.layout"
+import { sharedPageComponents, defaultContentPageLayout } from "../../../quartz.layout"
 import { NotFound } from "../../components"
 import { defaultProcessedContent } from "../vfile"
 import { write } from "./helpers"
@@ -16,7 +16,8 @@ export const NotFoundPage: QuartzEmitterPlugin = () => {
     ...sharedPageComponents,
     pageBody: NotFound(),
     beforeBody: [],
-    left: [],
+    // Enable sidebar navigation (Search + Explorer) on 404 page
+    left: defaultContentPageLayout.left,
     right: [],
   }
 
@@ -31,7 +32,7 @@ export const NotFoundPage: QuartzEmitterPlugin = () => {
     async getDependencyGraph(_ctx, _content, _resources) {
       return new DepGraph<FilePath>()
     },
-    async emit(ctx, _content, resources): Promise<FilePath[]> {
+    async emit(ctx, content, resources): Promise<FilePath[]> {
       const cfg = ctx.cfg.configuration
       const slug = "404" as FullSlug
 
@@ -45,6 +46,10 @@ export const NotFoundPage: QuartzEmitterPlugin = () => {
         description: notFound,
         frontmatter: { title: notFound, tags: [] },
       })
+
+      // Pass allFiles so Explorer component works properly
+      const allFiles = content.map(([_tree, vfile]) => vfile.data)
+
       const componentData: QuartzComponentProps = {
         ctx,
         fileData: vfile.data,
@@ -52,7 +57,7 @@ export const NotFoundPage: QuartzEmitterPlugin = () => {
         cfg,
         children: [],
         tree,
-        allFiles: [],
+        allFiles,
       }
 
       return [

@@ -95,26 +95,20 @@ Triangle escape training serves broader pedagogical purposes beyond the specific
 - Escape systematically by addressing leg position first, then clearing head, maintaining defensive awareness throughout sequence
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Stack Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Stack Pass]]** (18% of attempts)
 
-- **[[Triangle Escape]]** → [[Closed Guard]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 70%
+- **[[Triangle Escape]]** (19% of attempts)
 
-- **[[Posture Recovery]]** → [[Combat Base]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 65%
+- **[[Posture Recovery]]** (18% of attempts)
 
-- **[[Guard Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 55%
+- **[[Guard Pass]]** (15% of attempts)
 
-- **[[Arm Extraction]]** → [[Open Guard]]
-  - Success Rate: Beginner 20%, Intermediate 40%, Advanced 60%
+- **[[Arm Extraction]]** (16% of attempts)
 
-- **[[Standing up in Base]]** → [[Standing Position]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 50%
+- **[[Standing up in Base]]** (14% of attempts)
 
 
 ### Common Mistakes
@@ -168,26 +162,20 @@ Triangle escape training serves broader pedagogical purposes beyond the specific
 - Transition immediately from successful defense to guard passing to capitalize on defensive success
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Stack Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Stack Pass]]** (18% of attempts)
 
-- **[[Posture Recovery]]** → [[Combat Base]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Posture Recovery]]** (19% of attempts)
 
-- **[[Triangle Escape]]** → [[Closed Guard]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Triangle Escape]]** (17% of attempts)
 
-- **[[Arm Extraction]]** → [[Open Guard]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Arm Extraction]]** (15% of attempts)
 
-- **[[Guard Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Guard Pass]]** (14% of attempts)
 
-- **[[Standing up in Base]]** → [[Standing Position]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Standing up in Base]]** (17% of attempts)
 
 
 ### Common Mistakes
@@ -238,7 +226,7 @@ Triangle escape training serves broader pedagogical purposes beyond the specific
 
 - **[[Standing Position]]** - Advanced escape platform using elevation and stack pressure
 
-- **[[Defensive Position]]** - Conceptual framework for understanding triangle escape within defensive hierarchy
+- **[[Half Guard]]** - Alternative recovery position when full guard escape is blocked
 
 
 </section>

@@ -47,6 +47,300 @@
       "relationship": "Alternative finishing position accessible from Modified Mount"
     }
   ],
+  "top": {
+    "name": "Modified Mount Top",
+    "description": "Master offensive strategies from Modified Mount. Learn stability mechanics, armbar setups, and when to use asymmetric positioning for submissions and control.",
+    "tags": [
+      "modified mount control",
+      "armbar setup mechanics",
+      "asymmetric mount positioning"
+    ],
+    "overview": "Modified Mount from the top perspective represents a strategic decision to trade some of the complete control of standard mount for enhanced base stability and direct submission access, particularly to armbars and triangles. The position involves posting one leg out to the side while maintaining the other knee across the opponent's torso, creating an asymmetric structure that functions as both a defensive anchor and an offensive launching point. This configuration emerged from high-level competition as a response to opponents with excellent mount escape mechanics - the posted leg provides a stability base that makes explosive bridge-and-roll escapes nearly impossible while maintaining dominant positioning. Modified Mount often appears as a transitional position when advancing from side control to mount, adjusting within mount variations, or deliberately establishing for specific submission attacks. The posted leg should be understood as a structural pillar that allows aggressive submission attempts without fear of position loss, functioning similarly to a kickstand that maintains balance during dynamic movements. The across-body knee maintains the primary control element, pinning the opponent's torso and limiting their movement options while the posted leg extends the base periphery for stability. From a strategic perspective, Modified Mount sacrifices the ability to apply even weight distribution across both sides in exchange for enhanced stability against specific escape attempts and improved angles for armbar entries. The position's effectiveness depends on understanding when to use it - against opponents with strong bridge-and-roll escapes, Modified Mount provides insurance, while against opponents with excellent hip escape mechanics, standard mount may offer better control. Modern competition increasingly shows Modified Mount as a deliberate attacking position rather than merely transitional, with high-level practitioners using it to set up armbar and triangle combinations that flow naturally from the asymmetric structure. Mastery requires recognizing the position not as inferior to standard mount but as a specialized tool optimized for specific tactical situations and submission setups.",
+    "state_properties": {
+      "point_value": 4,
+      "position_type": "Offensive/Controlling",
+      "risk_level": "Low to Medium",
+      "energy_cost": "Low",
+      "time_sustainability": "Medium to Long"
+    },
+    "state_invariants": [
+      "Top practitioner posts one leg out to side with foot flat on mat creating stability anchor point",
+      "Top practitioner's other knee crosses opponent's torso maintaining downward control pressure",
+      "Asymmetric weight distribution places more pressure through across-body knee than posted leg side",
+      "Top practitioner maintains ability to transition to armbar or other submissions from posted leg side",
+      "Bottom opponent's back remains on mat with limited mobility due to across-body knee control"
+    ],
+    "prerequisites": [
+      "Understanding of standard mount mechanics and control principles as foundation",
+      "Knowledge of armbar entry mechanics and how Modified Mount naturally funnels to armbar",
+      "Ability to distribute weight asymmetrically while maintaining balance and control",
+      "Familiarity with common mount escape attempts and how posted leg provides stability against them",
+      "Understanding of when to use Modified Mount versus other mount variations tactically"
+    ],
+    "key_principles": [
+      "Posted leg stability - Extended leg creates base anchor preventing bridge-and-roll reversals",
+      "Armbar access - Position naturally positions body for armbar swing-over mechanics",
+      "Transitional awareness - Often temporary position while advancing or setting up submissions",
+      "Weight through knee - Across-body knee maintains primary control, posted leg provides stability",
+      "Base expansion - Posted leg extends base width making position stable during dynamic movements",
+      "Submission commitment - Position allows aggressive submission attempts without position loss risk",
+      "Strategic deployment - Use when opponent demonstrates strong bridge-and-roll escape ability"
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent extends near-side arm to frame or defend",
+        "actions": [
+          {
+            "technique": "Armbar from Mount",
+            "target": "Armbar Control",
+            "probability": 75
+          },
+          {
+            "technique": "S-Mount Transition",
+            "target": "S Mount",
+            "probability": 65
+          }
+        ]
+      },
+      {
+        "condition": "If opponent attempts hip escape toward posted leg",
+        "actions": [
+          {
+            "technique": "Base Posting Against Hip Escape",
+            "target": "Modified Mount",
+            "probability": 70
+          },
+          {
+            "technique": "High Mount Transition",
+            "target": "High Mount",
+            "probability": 60
+          }
+        ]
+      },
+      {
+        "condition": "If opponent keeps arms tight and defends neck",
+        "actions": [
+          {
+            "technique": "Cross Collar Choke",
+            "target": "game-over",
+            "probability": 55
+          },
+          {
+            "technique": "Americana from Mount",
+            "target": "Americana Control",
+            "probability": 50
+          }
+        ]
+      },
+      {
+        "condition": "If opponent turns to side or turtles",
+        "actions": [
+          {
+            "technique": "Back Take from Top",
+            "target": "Back Control",
+            "probability": 70
+          },
+          {
+            "technique": "Gift Wrap Transition",
+            "target": "Technical Mount",
+            "probability": 65
+          }
+        ]
+      },
+      {
+        "condition": "If opponent creates strong defensive frames",
+        "actions": [
+          {
+            "technique": "Mounted Triangle",
+            "target": "Mounted Triangle",
+            "probability": 60
+          },
+          {
+            "technique": "Gift Wrap Transition",
+            "target": "Gift Wrap",
+            "probability": 50
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Posting leg too far from body creating excessive space for opponent's hip escape",
+        "consequence": "Opponent exploits overextended posted leg to capture half guard or escape entirely",
+        "correction": "Post leg at optimal distance - far enough for stability but close enough to prevent space exploitation"
+      },
+      {
+        "error": "Maintaining Modified Mount statically without threatening submissions or advancing position",
+        "consequence": "Allows opponent time to develop effective frames and systematic escape strategy",
+        "correction": "Use Modified Mount as transitional or attacking position, constantly threatening armbars or advancing to other mount variations"
+      },
+      {
+        "error": "Failing to maintain pressure through across-body knee while focusing on posted leg",
+        "consequence": "Reduces control effectiveness allowing opponent to create frames and escape space",
+        "correction": "Keep majority of control pressure through across-body knee, posted leg provides stability not primary control"
+      },
+      {
+        "error": "Attempting to maintain Modified Mount when opponent demonstrates excellent hip escape toward posted leg",
+        "consequence": "Playing into opponent's escape strength rather than adapting position to counter their tactics",
+        "correction": "Transition to standard mount or high mount when opponent effectively attacks posted leg side"
+      },
+      {
+        "error": "Committing to armbar prematurely without proper grips and control established",
+        "consequence": "Opponent escapes during armbar attempt, potentially recovering guard or reversing position",
+        "correction": "Establish dominant grips and control before transitioning to armbar, use Modified Mount to set up submission properly"
+      },
+      {
+        "error": "Neglecting base maintenance when opponent bridges explosively",
+        "consequence": "Despite posted leg stability, poor base management can still result in position reversal",
+        "correction": "Maintain active base awareness even with posted leg stability, keep weight centered and mobile"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Modified Mount Armbar Transition Drill",
+        "description": "Start in Modified Mount, partner gives different defensive frames and arm positions. Practice reading arm placement and executing smooth armbar transitions from Modified Mount structure. Focus on maintaining control throughout transition.",
+        "duration": "8 minutes alternating sides every 2 minutes"
+      },
+      {
+        "name": "Posted Leg Distance Control Drill",
+        "description": "Establish Modified Mount and practice adjusting posted leg distance based on partner's escape attempts. Find optimal posting distance that provides stability without creating exploitable space. Partner gives progressive resistance.",
+        "duration": "6 minutes continuous with partner varying escape intensity"
+      },
+      {
+        "name": "Mount Variation Flow from Modified Mount",
+        "description": "Flow between Modified Mount, standard mount, S-mount, high mount, and technical mount based on partner's defensive reactions. Emphasize smooth transitions maintaining control. Semi-cooperative initially, increase resistance progressively.",
+        "duration": "10 minutes continuous flow"
+      },
+      {
+        "name": "Submission Chains from Modified Mount",
+        "description": "Partner gives specific defensive responses (arm frames, hip escapes, turtling). Practice appropriate submission or positional responses creating attack chains. Focus on reading reactions and capitalizing immediately.",
+        "duration": "12 minutes with partner cycling through different defensive patterns"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Armbar from Mount",
+        "relationship": "Primary submission accessible from Modified Mount structure"
+      },
+      {
+        "name": "S Mount",
+        "relationship": "Natural progression from Modified Mount when advancing toward armbar"
+      },
+      {
+        "name": "Technical Mount",
+        "relationship": "Alternative advancement when opponent turns to escape"
+      },
+      {
+        "name": "High Mount",
+        "relationship": "Advancement target when opponent creates frames"
+      },
+      {
+        "name": "Mounted Triangle",
+        "relationship": "Alternative submission when arm isolation is difficult"
+      },
+      {
+        "name": "Gift Wrap",
+        "relationship": "Control position accessible when opponent defends armbars"
+      },
+      {
+        "name": "Mount",
+        "relationship": "Parent position and control principles underlying Modified Mount effectiveness"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "beginner": 55,
+        "intermediate": 70,
+        "advanced": 85,
+        "description": "Success rate maintaining Modified Mount until submission or advancement"
+      },
+      "advancement_probability": {
+        "beginner": 45,
+        "intermediate": 65,
+        "advanced": 80,
+        "description": "Likelihood of advancing to more dominant position or achieving submission"
+      },
+      "submission_probability": {
+        "beginner": 40,
+        "intermediate": 60,
+        "advanced": 75,
+        "description": "Success rate finishing submissions from Modified Mount position"
+      },
+      "average_time": "90 seconds to 2 minutes to submission at intermediate level with active attacks"
+    },
+    "transitions": [
+      {
+        "transition": "Armbar from Mount",
+        "attempt_probability": 15
+      },
+      {
+        "transition": "S-Mount Transition",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Mounted Triangle",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "High Mount Transition",
+        "attempt_probability": 13
+      },
+      {
+        "transition": "Americana from Mount",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Cross Collar Choke",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Kimura from Mount",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Gift Wrap Transition",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Back Take from Top",
+        "attempt_probability": 10
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the primary advantage of posting one leg in Modified Mount versus keeping both knees on the mat?",
+        "answer": "The posted leg creates a significantly wider base that prevents explosive bridge-and-roll reversals. When an opponent attempts to bridge and roll, the posted foot acts as a structural anchor that stops the momentum, whereas standard mount with both knees down is more vulnerable to being rolled. The trade-off is slightly less even weight distribution across the opponent's torso."
+      },
+      {
+        "question": "How should you adjust your weight distribution when your opponent starts attempting hip escapes toward the posted leg side?",
+        "answer": "When the opponent hip escapes toward the posted leg, you should increase downward pressure through the across-body knee while using the posted leg to follow their hip movement laterally. If they consistently attack that direction, consider transitioning to standard mount or high mount to remove the posted leg vulnerability. The key is maintaining heavy pressure through the across-body connection point while your posted leg provides mobile stability."
+      },
+      {
+        "question": "When is Modified Mount preferable to standard mount for submission attacks?",
+        "answer": "Modified Mount is preferable when attacking armbars specifically because the posted leg is already partially positioned for the swing-over motion. The asymmetric structure naturally funnels into armbar mechanics. It's also advantageous against opponents with excellent bridge-and-roll escapes, as the posted leg insurance allows more aggressive submission attempts without fear of reversal. However, for cross chokes or when even pressure is needed, standard mount may be better."
+      },
+      {
+        "question": "Your opponent is defending their arms tightly and tucking their chin - what should you threaten to open up submission opportunities?",
+        "answer": "Use the cross collar choke or collar threats to force them to defend their neck, which requires moving their hands upward and creates arm isolation opportunities for americanas or armbars. You can also transition toward high mount or S-mount to increase pressure and force reaction. The key principle is creating dilemmas where defending one attack opens another. Threatening the neck makes them expose their arms; threatening arms makes them expose their neck."
+      },
+      {
+        "question": "What is the optimal distance for the posted leg from your body, and how do you determine it?",
+        "answer": "The posted leg should be far enough to create genuine stability against bridge attempts (typically 12-18 inches from your hip depending on opponent size) but close enough that the opponent cannot easily shoot their hips into the space created to recover half guard. Test this by having your partner bridge - if you feel unstable, post wider. Then have them hip escape - if they can capture your leg, post closer. The optimal distance is the narrowest post that still provides stability."
+      },
+      {
+        "question": "How should you respond when your opponent turns to their side during your Modified Mount control?",
+        "answer": "When the opponent turns to their side, immediately transition toward technical mount by inserting your bottom leg hook behind their back, or pursue back control by sliding toward their turtle/side. Their turning motion often indicates an escape attempt but also exposes their back. You can also use a gift wrap control on their top arm to prevent them completing the turn while setting up back take options. Never allow them to fully turtle without attacking."
+      },
+      {
+        "question": "What are the primary grip priorities when maintaining Modified Mount control?",
+        "answer": "Primary grip priorities are: 1) Cross-face or head control to prevent them from turning away and to maintain upper body pressure, 2) Underhook on the far side to prevent their elbow-knee connection and stop guard recovery, 3) Collar grips for gi or head/arm control for no-gi to set up chokes and create defensive reactions. The across-body knee and posted leg handle structural control, while your arms manage upper body positioning and submission setups."
+      },
+      {
+        "question": "How do you recover Modified Mount if your opponent partially escapes to half guard on the posted leg side?",
+        "answer": "If they capture your posted leg in half guard, immediately switch your weight pressure to that leg while posting your other leg out for base reversal. Work to free the trapped leg by windshield-wipering your knee across their guard or backstep to quarter guard. Alternatively, accept the half guard transition and work your half guard passing game. The key is not panicking - this is a common situation and you maintain significant advantage in half guard top position."
+      }
+    ]
+  },
   "bottom": {
     "name": "Modified Mount Bottom",
     "description": "Defend Modified Mount position effectively. Learn escape sequences targeting asymmetric weight distribution and posted leg vulnerabilities to recover guard.",
@@ -86,134 +380,6 @@
       "Exploit transitions - Modified Mount often appears during transitions, attack timing windows",
       "Energy efficiency - Position's reduced control means escapes require less energy than standard mount"
     ],
-    "offensive_transitions": [
-      {
-        "technique": "Hip Escape",
-        "target_position": "Half Guard",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 55,
-          "advanced": 75
-        }
-      },
-      {
-        "technique": "Elbow Escape",
-        "target_position": "Closed Guard",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 50,
-          "advanced": 70
-        }
-      },
-      {
-        "technique": "Frame and Shrimp",
-        "target_position": "Open Guard",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 45,
-          "advanced": 65
-        }
-      },
-      {
-        "technique": "Bridge and Roll",
-        "target_position": "Mount",
-        "success_rates": {
-          "beginner": 20,
-          "intermediate": 35,
-          "advanced": 50
-        }
-      },
-      {
-        "technique": "Upa Escape",
-        "target_position": "Closed Guard",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 40,
-          "advanced": 55
-        }
-      },
-      {
-        "technique": "Deep Half Entry",
-        "target_position": "Deep Half Guard",
-        "success_rates": {
-          "beginner": 15,
-          "intermediate": 30,
-          "advanced": 50
-        }
-      },
-      {
-        "technique": "Lockdown Recovery",
-        "target_position": "Lockdown",
-        "success_rates": {
-          "beginner": 20,
-          "intermediate": 35,
-          "advanced": 55
-        }
-      },
-      {
-        "technique": "Turtle Transition",
-        "target_position": "Turtle",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 40,
-          "advanced": 60
-        }
-      }
-    ],
-    "defensive_responses": [
-      {
-        "technique": "Armbar from Mount",
-        "target_position": "Armbar Control",
-        "success_rate": 60
-      },
-      {
-        "technique": "S-Mount Transition",
-        "target_position": "S Mount",
-        "success_rate": 55
-      },
-      {
-        "technique": "Transition to High Mount",
-        "target_position": "High Mount",
-        "success_rate": 50
-      },
-      {
-        "technique": "Mounted Triangle",
-        "target_position": "Mounted Triangle",
-        "success_rate": 45
-      },
-      {
-        "technique": "Americana from Mount",
-        "target_position": "Americana Control",
-        "success_rate": 40
-      },
-      {
-        "technique": "Cross Collar Choke",
-        "target_position": "Won by Submission",
-        "success_rate": 35
-      },
-      {
-        "technique": "Gift Wrap Control",
-        "target_position": "Gift Wrap",
-        "success_rate": 40
-      }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Attack Posted Leg",
-        "target_position": "Half Guard",
-        "trigger": "When opponent posts leg too far from body creating space"
-      },
-      {
-        "technique": "Trap and Roll",
-        "target_position": "Mount",
-        "trigger": "When opponent reaches for armbar grip and posts hand high"
-      },
-      {
-        "technique": "Granby Roll",
-        "target_position": "Turtle",
-        "trigger": "When opponent transitions toward technical mount or S-mount"
-      }
-    ],
     "decision_tree": [
       {
         "condition": "If opponent posts right leg out while left knee crosses body",
@@ -240,7 +406,7 @@
           },
           {
             "technique": "Armbar Defense",
-            "target": "Modified Mount Bottom",
+            "target": "Modified Mount",
             "probability": 60
           }
         ]
@@ -330,48 +496,30 @@
         "duration": "8 minutes alternating between static Modified Mount and transitional entries"
       }
     ],
-    "optimal_submission_paths": [
-      {
-        "name": "Primary Hip Escape Sequence",
-        "path": "Modified Mount Bottom → Frame Creation → Hip Escape → Half Guard → Closed Guard"
-      },
-      {
-        "name": "Posted Leg Attack",
-        "path": "Modified Mount Bottom → Posted Leg Capture → Lockdown → Half Guard → Sweep"
-      },
-      {
-        "name": "Reversal from Armbar Attempt",
-        "path": "Modified Mount Bottom → Armbar Defense → Trap and Roll → Mount → Submission"
-      },
-      {
-        "name": "Turtle Recovery",
-        "path": "Modified Mount Bottom → Granby Roll → Turtle → Guard Recovery"
-      }
-    ],
     "related_content": [
       {
-        "name": "Mount Escape Hierarchy",
-        "relationship": "Overall framework for prioritizing escapes, Modified Mount fits within systematic approach"
+        "name": "Mount",
+        "relationship": "Parent position - understanding standard mount defense informs Modified Mount escape"
       },
       {
         "name": "Armbar Defense",
         "relationship": "Critical skill for defending primary submission threat from Modified Mount"
       },
       {
-        "name": "Hip Escape Mechanics",
+        "name": "Hip Escape",
         "relationship": "Fundamental movement pattern for exploiting posted leg vulnerability"
       },
       {
-        "name": "Frame Creation",
-        "relationship": "Essential defensive structure for creating escape space from Modified Mount"
+        "name": "Half Guard",
+        "relationship": "Primary escape target when capturing posted leg"
       },
       {
         "name": "Deep Half Guard",
         "relationship": "Alternative escape target when attacking posted leg"
       },
       {
-        "name": "Energy Conservation",
-        "relationship": "Principle for surviving Modified Mount with efficient technical movements"
+        "name": "Closed Guard",
+        "relationship": "Escape target when creating significant space"
       }
     ],
     "position_metrics": {
@@ -394,396 +542,74 @@
         "description": "Risk of being submitted from bottom Modified Mount position"
       },
       "average_time": "30-60 seconds before escape or submission at intermediate level"
-    }
-  },
-  "top": {
-    "name": "Modified Mount Top",
-    "description": "Master offensive strategies from Modified Mount. Learn stability mechanics, armbar setups, and when to use asymmetric positioning for submissions and control.",
-    "tags": [
-      "modified mount control",
-      "armbar setup mechanics",
-      "asymmetric mount positioning"
-    ],
-    "overview": "Modified Mount from the top perspective represents a strategic decision to trade some of the complete control of standard mount for enhanced base stability and direct submission access, particularly to armbars and triangles. The position involves posting one leg out to the side while maintaining the other knee across the opponent's torso, creating an asymmetric structure that functions as both a defensive anchor and an offensive launching point. This configuration emerged from high-level competition as a response to opponents with excellent mount escape mechanics - the posted leg provides a stability base that makes explosive bridge-and-roll escapes nearly impossible while maintaining dominant positioning. Modified Mount often appears as a transitional position when advancing from side control to mount, adjusting within mount variations, or deliberately establishing for specific submission attacks. The posted leg should be understood as a structural pillar that allows aggressive submission attempts without fear of position loss, functioning similarly to a kickstand that maintains balance during dynamic movements. The across-body knee maintains the primary control element, pinning the opponent's torso and limiting their movement options while the posted leg extends the base periphery for stability. From a strategic perspective, Modified Mount sacrifices the ability to apply even weight distribution across both sides in exchange for enhanced stability against specific escape attempts and improved angles for armbar entries. The position's effectiveness depends on understanding when to use it - against opponents with strong bridge-and-roll escapes, Modified Mount provides insurance, while against opponents with excellent hip escape mechanics, standard mount may offer better control. Modern competition increasingly shows Modified Mount as a deliberate attacking position rather than merely transitional, with high-level practitioners using it to set up armbar and triangle combinations that flow naturally from the asymmetric structure. Mastery requires recognizing the position not as inferior to standard mount but as a specialized tool optimized for specific tactical situations and submission setups.",
-    "state_properties": {
-      "point_value": 4,
-      "position_type": "Offensive/Controlling",
-      "risk_level": "Low to Medium",
-      "energy_cost": "Low",
-      "time_sustainability": "Medium to Long"
     },
-    "state_invariants": [
-      "Top practitioner posts one leg out to side with foot flat on mat creating stability anchor point",
-      "Top practitioner's other knee crosses opponent's torso maintaining downward control pressure",
-      "Asymmetric weight distribution places more pressure through across-body knee than posted leg side",
-      "Top practitioner maintains ability to transition to armbar or other submissions from posted leg side",
-      "Bottom opponent's back remains on mat with limited mobility due to across-body knee control"
-    ],
-    "prerequisites": [
-      "Understanding of standard mount mechanics and control principles as foundation",
-      "Knowledge of armbar entry mechanics and how Modified Mount naturally funnels to armbar",
-      "Ability to distribute weight asymmetrically while maintaining balance and control",
-      "Familiarity with common mount escape attempts and how posted leg provides stability against them",
-      "Understanding of when to use Modified Mount versus other mount variations tactically"
-    ],
-    "key_principles": [
-      "Posted leg stability - Extended leg creates base anchor preventing bridge-and-roll reversals",
-      "Armbar access - Position naturally positions body for armbar swing-over mechanics",
-      "Transitional awareness - Often temporary position while advancing or setting up submissions",
-      "Weight through knee - Across-body knee maintains primary control, posted leg provides stability",
-      "Base expansion - Posted leg extends base width making position stable during dynamic movements",
-      "Submission commitment - Position allows aggressive submission attempts without position loss risk",
-      "Strategic deployment - Use when opponent demonstrates strong bridge-and-roll escape ability"
-    ],
-    "offensive_transitions": [
+    "transitions": [
       {
-        "technique": "Armbar from Mount",
-        "target_position": "Armbar Control",
-        "success_rates": {
-          "beginner": 40,
-          "intermediate": 60,
-          "advanced": 80
-        }
+        "transition": "Hip Escape",
+        "attempt_probability": 18
       },
       {
-        "technique": "S-Mount Transition",
-        "target_position": "S Mount",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 55,
-          "advanced": 75
-        }
+        "transition": "Elbow Escape",
+        "attempt_probability": 16
       },
       {
-        "technique": "Mounted Triangle",
-        "target_position": "Mounted Triangle",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 45,
-          "advanced": 65
-        }
+        "transition": "Frame and Shrimp",
+        "attempt_probability": 14
       },
       {
-        "technique": "Transition to High Mount",
-        "target_position": "High Mount",
-        "success_rates": {
-          "beginner": 45,
-          "intermediate": 65,
-          "advanced": 85
-        }
+        "transition": "Bridge and Roll",
+        "attempt_probability": 10
       },
       {
-        "technique": "Americana from Mount",
-        "target_position": "Americana Control",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 50,
-          "advanced": 70
-        }
+        "transition": "Upa Escape",
+        "attempt_probability": 12
       },
       {
-        "technique": "Cross Collar Choke",
-        "target_position": "Won by Submission",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 45,
-          "advanced": 65
-        }
+        "transition": "Deep Half Entry",
+        "attempt_probability": 10
       },
       {
-        "technique": "Kimura from Mount",
-        "target_position": "Kimura Control",
-        "success_rates": {
-          "beginner": 20,
-          "intermediate": 40,
-          "advanced": 60
-        }
+        "transition": "Lockdown Recovery",
+        "attempt_probability": 10
       },
       {
-        "technique": "Transition to Technical Mount",
-        "target_position": "Technical Mount",
-        "success_rates": {
-          "beginner": 40,
-          "intermediate": 60,
-          "advanced": 80
-        }
-      },
-      {
-        "technique": "Gift Wrap Control",
-        "target_position": "Gift Wrap",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 45,
-          "advanced": 65
-        }
-      },
-      {
-        "technique": "Transition to Back Control",
-        "target_position": "Back Control",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 55,
-          "advanced": 75
-        }
+        "transition": "Turtle Transition",
+        "attempt_probability": 10
       }
     ],
-    "defensive_responses": [
+    "knowledge_assessment": [
       {
-        "technique": "Hip Escape",
-        "target_position": "Half Guard",
-        "success_rate": 55
+        "question": "Why should you escape toward the posted leg side rather than toward the across-body knee?",
+        "answer": "The posted leg side has inherently weaker control because the opponent's weight is primarily distributed through the across-body knee onto your torso. The posted leg is extended outward for stability, creating a gap between their hip and your body that can be exploited with hip escapes. Escaping toward the across-body knee means fighting directly into their strongest control point where maximum pressure is applied, wasting energy with minimal progress."
       },
       {
-        "technique": "Elbow Escape",
-        "target_position": "Closed Guard",
-        "success_rate": 50
+        "question": "How should you protect your near-side arm to prevent the armbar that Modified Mount naturally sets up?",
+        "answer": "Keep the near-side arm tight against your body with your elbow glued to your hip and your hand protecting your neck or gripping your own collar. Never extend this arm upward to frame on their chest or push, as this creates the exact arm isolation the opponent needs for the armbar. Frame on their hips with your far-side arm instead, maintaining the near-side arm in a defensive position throughout your escape attempts."
       },
       {
-        "technique": "Frame and Shrimp",
-        "target_position": "Open Guard",
-        "success_rate": 45
+        "question": "What frames should you establish before attempting a hip escape from Modified Mount?",
+        "answer": "Establish a frame with your far-side hand on their hip bone to create initial space and prevent them from following your hip movement. Your near-side elbow should connect to your own hip, protecting that arm. If possible, get your far-side knee up toward their hip as well to create a knee-elbow frame. These frames must be set before hip escaping - without them, the opponent simply rides your movement and maintains control."
       },
       {
-        "technique": "Bridge and Roll",
-        "target_position": "Mount",
-        "success_rate": 30
+        "question": "What is the optimal timing window to attack your escape from Modified Mount?",
+        "answer": "The best timing windows are: 1) When the opponent reaches for a submission, as their weight shifts and they momentarily reduce controlling pressure, 2) During transitions when they're adjusting from standard mount to Modified Mount or vice versa, 3) When they post their leg farther than optimal, creating extra space to exploit, 4) When they shift weight forward to establish high mount, creating an opening for hip escape behind them."
       },
       {
-        "technique": "Deep Half Entry",
-        "target_position": "Deep Half Guard",
-        "success_rate": 35
+        "question": "How do you recognize which leg your opponent has posted in Modified Mount?",
+        "answer": "Feel for where the primary pressure is coming from - the across-body knee will create downward crushing pressure on your torso, while the posted leg side will feel lighter with space between their hip and your body. You can also feel for their foot flat on the mat on one side versus knee down on the other. Visual recognition is difficult when mounted, so develop tactile sensitivity through drilling to instantly identify the configuration without looking."
       },
       {
-        "technique": "Turtle Transition",
-        "target_position": "Turtle",
-        "success_rate": 40
+        "question": "What should you do if the opponent begins transitioning to S-mount or technical mount during your escape attempt?",
+        "answer": "These transitions actually create escape opportunities if recognized quickly. For S-mount transition, immediately turn toward the posted leg side aggressively since they're lifting their across-body knee. For technical mount transition, as they insert their back hook, perform a Granby roll toward their posted leg or dive for deep half guard under their elevated leg. The key is recognizing the transition and attacking decisively rather than freezing or continuing your original escape into a worse position."
+      },
+      {
+        "question": "How should you manage your energy when trapped in Modified Mount against a patient opponent?",
+        "answer": "Avoid explosive movements that the posted leg is designed to absorb - bridges and explosive escapes waste enormous energy against this position's stability. Instead, use small, technical hip escapes combined with frames, accepting incremental progress. Keep your breathing controlled and avoid panicking. Wait for genuine openings rather than forcing escapes. The opponent is expending less energy than in standard mount, so patience and technical precision beat explosive attempts that exhaust you."
+      },
+      {
+        "question": "What is the recovery pathway if your escape partially succeeds and you capture their posted leg in half guard?",
+        "answer": "Capturing the posted leg in half guard is an excellent outcome. Immediately establish knee shield with your inside leg, get an underhook on the near side, and begin your half guard retention and sweep game. Prevent them from flattening you by keeping your hips mobile and maintaining the underhook. From half guard, you've successfully escaped the mount position and regained a guard position with multiple sweep and submission options available."
       }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Base Posting Against Hip Escape",
-        "target_position": "Modified Mount Top",
-        "trigger": "When opponent attempts to shrimp toward posted leg side"
-      },
-      {
-        "technique": "Immediate Armbar Transition",
-        "target_position": "Armbar Control",
-        "trigger": "When opponent extends near-side arm to frame or push"
-      },
-      {
-        "technique": "S-Mount Advancement",
-        "target_position": "S Mount",
-        "trigger": "When opponent creates frames and attempts to create space"
-      },
-      {
-        "technique": "Technical Mount Transition",
-        "target_position": "Technical Mount",
-        "trigger": "When opponent turns to side during escape attempt"
-      }
-    ],
-    "decision_tree": [
-      {
-        "condition": "If opponent extends near-side arm to frame or defend",
-        "actions": [
-          {
-            "technique": "Armbar from Mount",
-            "target": "Armbar Control",
-            "probability": 75
-          },
-          {
-            "technique": "S-Mount Transition",
-            "target": "S Mount",
-            "probability": 65
-          }
-        ]
-      },
-      {
-        "condition": "If opponent attempts hip escape toward posted leg",
-        "actions": [
-          {
-            "technique": "Base Posting Against Hip Escape",
-            "target": "Modified Mount Top",
-            "probability": 70
-          },
-          {
-            "technique": "Transition to High Mount",
-            "target": "High Mount",
-            "probability": 60
-          }
-        ]
-      },
-      {
-        "condition": "If opponent keeps arms tight and defends neck",
-        "actions": [
-          {
-            "technique": "Cross Collar Choke",
-            "target": "Won by Submission",
-            "probability": 55
-          },
-          {
-            "technique": "Americana from Mount",
-            "target": "Americana Control",
-            "probability": 50
-          }
-        ]
-      },
-      {
-        "condition": "If opponent turns to side or turtles",
-        "actions": [
-          {
-            "technique": "Transition to Back Control",
-            "target": "Back Control",
-            "probability": 70
-          },
-          {
-            "technique": "Transition to Technical Mount",
-            "target": "Technical Mount",
-            "probability": 65
-          }
-        ]
-      },
-      {
-        "condition": "If opponent creates strong defensive frames",
-        "actions": [
-          {
-            "technique": "Mounted Triangle",
-            "target": "Mounted Triangle",
-            "probability": 60
-          },
-          {
-            "technique": "Gift Wrap Control",
-            "target": "Gift Wrap",
-            "probability": 50
-          }
-        ]
-      }
-    ],
-    "common_errors": [
-      {
-        "error": "Posting leg too far from body creating excessive space for opponent's hip escape",
-        "consequence": "Opponent exploits overextended posted leg to capture half guard or escape entirely",
-        "correction": "Post leg at optimal distance - far enough for stability but close enough to prevent space exploitation"
-      },
-      {
-        "error": "Maintaining Modified Mount statically without threatening submissions or advancing position",
-        "consequence": "Allows opponent time to develop effective frames and systematic escape strategy",
-        "correction": "Use Modified Mount as transitional or attacking position, constantly threatening armbars or advancing to other mount variations"
-      },
-      {
-        "error": "Failing to maintain pressure through across-body knee while focusing on posted leg",
-        "consequence": "Reduces control effectiveness allowing opponent to create frames and escape space",
-        "correction": "Keep majority of control pressure through across-body knee, posted leg provides stability not primary control"
-      },
-      {
-        "error": "Attempting to maintain Modified Mount when opponent demonstrates excellent hip escape toward posted leg",
-        "consequence": "Playing into opponent's escape strength rather than adapting position to counter their tactics",
-        "correction": "Transition to standard mount or high mount when opponent effectively attacks posted leg side"
-      },
-      {
-        "error": "Committing to armbar prematurely without proper grips and control established",
-        "consequence": "Opponent escapes during armbar attempt, potentially recovering guard or reversing position",
-        "correction": "Establish dominant grips and control before transitioning to armbar, use Modified Mount to set up submission properly"
-      },
-      {
-        "error": "Neglecting base maintenance when opponent bridges explosively",
-        "consequence": "Despite posted leg stability, poor base management can still result in position reversal",
-        "correction": "Maintain active base awareness even with posted leg stability, keep weight centered and mobile"
-      }
-    ],
-    "training_drills": [
-      {
-        "name": "Modified Mount Armbar Transition Drill",
-        "description": "Start in Modified Mount, partner gives different defensive frames and arm positions. Practice reading arm placement and executing smooth armbar transitions from Modified Mount structure. Focus on maintaining control throughout transition.",
-        "duration": "8 minutes alternating sides every 2 minutes"
-      },
-      {
-        "name": "Posted Leg Distance Control Drill",
-        "description": "Establish Modified Mount and practice adjusting posted leg distance based on partner's escape attempts. Find optimal posting distance that provides stability without creating exploitable space. Partner gives progressive resistance.",
-        "duration": "6 minutes continuous with partner varying escape intensity"
-      },
-      {
-        "name": "Mount Variation Flow from Modified Mount",
-        "description": "Flow between Modified Mount, standard mount, S-mount, high mount, and technical mount based on partner's defensive reactions. Emphasize smooth transitions maintaining control. Semi-cooperative initially, increase resistance progressively.",
-        "duration": "10 minutes continuous flow"
-      },
-      {
-        "name": "Submission Chains from Modified Mount",
-        "description": "Partner gives specific defensive responses (arm frames, hip escapes, turtling). Practice appropriate submission or positional responses creating attack chains. Focus on reading reactions and capitalizing immediately.",
-        "duration": "12 minutes with partner cycling through different defensive patterns"
-      }
-    ],
-    "optimal_submission_paths": [
-      {
-        "name": "Primary Armbar Sequence",
-        "path": "Modified Mount Top → Armbar Setup → S Mount → Armbar Control → Won by Submission"
-      },
-      {
-        "name": "Triangle Chain",
-        "path": "Modified Mount Top → Mounted Triangle → Triangle Control → Won by Submission"
-      },
-      {
-        "name": "Technical Mount Progression",
-        "path": "Modified Mount Top → Technical Mount → Back Control → Rear Naked Choke"
-      },
-      {
-        "name": "Americana to Armbar",
-        "path": "Modified Mount Top → Americana from Mount → Armbar from Mount → Won by Submission"
-      },
-      {
-        "name": "Gift Wrap to Back",
-        "path": "Modified Mount Top → Gift Wrap → Back Control → Submission Position"
-      }
-    ],
-    "related_content": [
-      {
-        "name": "Armbar from Mount",
-        "relationship": "Primary submission accessible from Modified Mount structure"
-      },
-      {
-        "name": "S Mount",
-        "relationship": "Natural progression from Modified Mount when advancing toward armbar"
-      },
-      {
-        "name": "Technical Mount",
-        "relationship": "Alternative advancement when opponent turns to escape"
-      },
-      {
-        "name": "Base Maintenance",
-        "relationship": "Fundamental principle enhanced by posted leg configuration"
-      },
-      {
-        "name": "Submission Chains",
-        "relationship": "Framework for connecting Modified Mount attacks into inescapable sequences"
-      },
-      {
-        "name": "Weight Distribution",
-        "relationship": "Critical principle for managing asymmetric pressure effectively"
-      },
-      {
-        "name": "Mount Control",
-        "relationship": "Parent position and control principles underlying Modified Mount effectiveness"
-      }
-    ],
-    "position_metrics": {
-      "retention_rate": {
-        "beginner": 55,
-        "intermediate": 70,
-        "advanced": 85,
-        "description": "Success rate maintaining Modified Mount until submission or advancement"
-      },
-      "advancement_probability": {
-        "beginner": 45,
-        "intermediate": 65,
-        "advanced": 80,
-        "description": "Likelihood of advancing to more dominant position or achieving submission"
-      },
-      "submission_probability": {
-        "beginner": 40,
-        "intermediate": 60,
-        "advanced": 75,
-        "description": "Success rate finishing submissions from Modified Mount position"
-      },
-      "average_time": "90 seconds to 2 minutes to submission at intermediate level with active attacks"
-    }
+    ]
   }
 }

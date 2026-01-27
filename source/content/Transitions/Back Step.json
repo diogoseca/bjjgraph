@@ -9,8 +9,6 @@
     "pressure passing",
     "outside ashi counter"
   ],
-  "starting_position": "Outside Ashi-Garami",
-  "ending_position": "Side Control",
   "success_rates": {
     "beginner": 35,
     "intermediate": 50,
@@ -263,6 +261,24 @@
     {
       "name": "Headquarters Position",
       "relationship": "Alternative passing position entry"
+    }
+  ],
+  "from_position": "Outside Ashi-Garami/Top",
+  "outcomes": [
+    {
+      "to": "Side Control/Top",
+      "probability": 65,
+      "result": "success"
+    },
+    {
+      "to": "Outside Ashi-Garami/Top",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Outside Ashi-Garami/Bottom",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

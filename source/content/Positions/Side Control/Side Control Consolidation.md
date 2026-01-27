@@ -93,26 +93,20 @@ From the bottom perspective, Side Control Consolidation Bottom represents one of
 - Create small defensive victories progressively rather than attempting immediate full escapes
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Elbow Escape]]** → [[Half Guard]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+- **[[Elbow Escape]]** (19% of attempts)
 
-- **[[Frame and Shrimp]]** → [[Defensive Position]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Frame and Shrimp]]** (21% of attempts)
 
-- **[[Bridge and Roll]]** → [[Side Control]]
-  - Success Rate: Beginner 10%, Intermediate 20%, Advanced 30%
+- **[[Bridge and Roll]]** (13% of attempts)
 
-- **[[Granby Roll]]** → [[Turtle]]
-  - Success Rate: Beginner 12%, Intermediate 25%, Advanced 38%
+- **[[Granby Roll]]** (16% of attempts)
 
-- **[[Technical Standup]]** → [[Standing Guard]]
-  - Success Rate: Beginner 8%, Intermediate 18%, Advanced 28%
+- **[[Technical Standup]]** (12% of attempts)
 
-- **[[Hip Escape]]** → [[Guard Recovery]]
-  - Success Rate: Beginner 18%, Intermediate 32%, Advanced 46%
+- **[[Hip Escape]]** (19% of attempts)
 
 
 ### Common Mistakes
@@ -174,32 +168,24 @@ From the bottom perspective, Side Control Consolidation Bottom represents one of
 - Control the far-side hip or arm to prevent bridging and rotation, eliminating the primary mechanical pathway for side control escapes
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Side Control to Mount]]** → [[Mount]]
-  - Success Rate: Beginner 45%, Intermediate 65%, Advanced 80%
+- **[[Side Control to Mount]]** (14% of attempts)
 
-- **[[Transition to North-South]]** → [[North-South]]
-  - Success Rate: Beginner 55%, Intermediate 70%, Advanced 85%
+- **[[Side Control to North-South]]** (14% of attempts)
 
-- **[[Knee Cut Pass]]** → [[Knee on Belly]]
-  - Success Rate: Beginner 40%, Intermediate 60%, Advanced 75%
+- **[[Knee on Belly]]** (14% of attempts)
 
-- **[[Kimura from Side Control]]** → [[Kimura Control]]
-  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 70%
+- **[[Kimura from Side Control]]** (13% of attempts)
 
-- **[[Americana from Side Control]]** → [[Americana Control]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 65%
+- **[[Americana from Side Control]]** (12% of attempts)
 
-- **[[Arm Triangle]]** → [[Arm Triangle]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 65%
+- **[[Arm Triangle]]** (12% of attempts)
 
-- **[[Armbar from Side Control]]** → [[Armbar Control]]
-  - Success Rate: Beginner 20%, Intermediate 40%, Advanced 60%
+- **[[Armbar from Side Control]]** (11% of attempts)
 
-- **[[North-South Choke]]** → [[North-South]]
-  - Success Rate: Beginner 15%, Intermediate 35%, Advanced 55%
+- **[[North-South Choke]]** (10% of attempts)
 
 
 ### Common Mistakes
@@ -254,13 +240,13 @@ From the bottom perspective, Side Control Consolidation Bottom represents one of
 
 - **[[Scarf Hold Position]]** - Related control position with head control emphasis
 
-- **[[Pressure Application]]** - Core concept for effective consolidation
+- **[[Half Guard]]** - Common escape destination for bottom player
 
-- **[[Control Point Hierarchy]]** - Theoretical framework for establishing control
+- **[[Turtle]]** - Alternative escape route through granby roll
 
-- **[[Weight Distribution]]** - Essential concept for proper pressure mechanics
+- **[[Kimura Trap]]** - Submission control accessible from consolidation
 
-- **[[Position Transitions]]** - Framework for advancing from consolidated control
+- **[[North South Control]]** - High-control position accessible through transition
 
 
 </section>

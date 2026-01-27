@@ -10,8 +10,6 @@
     "closed guard",
     "attack chain"
   ],
-  "starting_position": "Closed Guard",
-  "ending_position": "Triangle Control",
   "success_rates": {
     "beginner": 35,
     "intermediate": 50,
@@ -288,6 +286,24 @@
     {
       "name": "Closed Guard",
       "relationship": "Primary starting position for this transition family"
+    }
+  ],
+  "from_position": "Closed Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Triangle Control/Top",
+      "probability": 65,
+      "result": "success"
+    },
+    {
+      "to": "Closed Guard/Bottom",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Closed Guard/Top",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

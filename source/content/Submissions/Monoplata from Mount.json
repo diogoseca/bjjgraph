@@ -252,6 +252,31 @@
       "question": "What are the valid tap signals during a monoplata, and why is it important to recognize all of them?",
       "answer": "Valid tap signals include: verbal taps (saying 'tap' or any distress vocalization), physical hand taps on opponent or mat, physical foot taps on the mat, and any screaming or shouting. It's critical to recognize all tap methods because the monoplata's configuration may restrict some tapping options—opponent may not be able to reach you with their free hand, or may be unable to move their legs. Recognizing any distress signal immediately prevents catastrophic shoulder injuries.",
       "safety_critical": true
+    },
+    {
+      "question": "What biomechanical principle creates the breaking pressure in a monoplata, and at what point does the submission become inescapable?",
+      "answer": "The monoplata creates breaking pressure through two simultaneous rotational forces: internal rotation from the leg squeeze compressing the arm against the body, and external leverage from hip extension pulling the shoulder joint beyond its natural range. The submission becomes functionally inescapable once the figure-four lock is fully secured with your ankle behind your knee and your hips are positioned tight against the opponent's shoulder, eliminating all slack from the system.",
+      "safety_critical": false
+    },
+    {
+      "question": "Your opponent begins pulling their trapped arm back toward their body during your figure-four setup - what adjustment maintains the submission threat?",
+      "answer": "When opponent pulls their arm back, immediately shift your grip from their wrist to their elbow or tricep area, maintaining connection as they retract. Squeeze your legs tighter to prevent space creation, and drive your hips forward into their shoulder rather than allowing separation. If they create significant retraction, consider transitioning to an americana by pressing their arm to the mat, or resetting to high mount to recreate the arm extension before reattempting.",
+      "safety_critical": false
+    },
+    {
+      "question": "How do you determine if your figure-four leg configuration is tight enough before applying finishing pressure?",
+      "answer": "Test the configuration by squeezing your legs together firmly before extending your hips. The lock is tight enough when: (1) you feel zero slack between your legs and opponent's arm, (2) their arm cannot bend at the elbow due to your leg positioning, (3) your ankle is securely hooked behind your knee with no slippage, and (4) opponent's shoulder movement is completely restricted. If any slack exists, adjust your leg positioning before attempting the finish.",
+      "safety_critical": false
+    },
+    {
+      "question": "What distinguishes a competition-ready monoplata finish from training application, and why is this distinction critical for safety?",
+      "answer": "In competition, once control is established, pressure application can be faster (2-3 seconds) because the opponent is expected to tap immediately. In training, you must apply pressure over 5-7 seconds minimum regardless of your skill level. This distinction is critical because training injuries end careers while competition submissions win matches. Training partners trust you with their joints—violating that trust by applying competition speed in training risks permanent shoulder damage and destroys the training environment.",
+      "safety_critical": true
+    },
+    {
+      "question": "Your opponent successfully defends the monoplata by straightening their arm and creating distance - what submission chain becomes available?",
+      "answer": "When opponent straightens their arm to defend, they expose themselves to a straight armbar. Immediately transition by maintaining wrist control, swinging your leg from behind their head to across their face, and sitting back into armbar position. Their defensive arm extension becomes your attacking leverage. Keep the submission chain flowing—if they bend the arm to defend the armbar, you can re-enter the monoplata. This creates a submission dilemma where defending one attack exposes another.",
+      "safety_critical": false
     }
   ],
   "training_progressions_and_safety_protocols": [
@@ -303,25 +328,22 @@
     "High Mount",
     "S Mount",
     "Technical Mount",
-    "Modified Mount",
-    "Mount Control"
+    "Modified Mount"
   ],
   "related_submissions": [
-    "Omoplata",
     "Omoplata from Guard",
-    "Monoplata",
-    "Monoplata from Guard",
     "Armbar from Mount",
     "Triangle from Mount",
     "Gogoplata",
     "Baratoplata",
-    "Tarikoplata",
     "Kimura from Mount",
     "Americana from Mount",
     "Ezekiel from Mount",
     "Triangle Choke",
     "Straight Armbar",
-    "Rolling Armbar"
+    "Rolling Armbar",
+    "Armbar from Back",
+    "Belly Down Armbar"
   ],
   "related_content": [
     {
@@ -357,20 +379,12 @@
       "relationship": "Chain submission when opponent grabs your threading leg"
     },
     {
-      "name": "Mount to Armbar",
+      "name": "Armbar from Mount",
       "relationship": "Common transition that can flow into monoplata if defended"
     },
     {
-      "name": "Transition to Omoplata",
-      "relationship": "Similar leg threading mechanics from different starting positions"
-    },
-    {
-      "name": "Submission Chains",
-      "relationship": "Principle of chaining mount attacks including monoplata"
-    },
-    {
-      "name": "Position-Over-Submission Approach",
-      "relationship": "Philosophy emphasizing mount maintenance during submission attempts"
+      "name": "Closed Guard",
+      "relationship": "Guard position where similar leg threading mechanics apply for omoplata"
     }
   ]
 }

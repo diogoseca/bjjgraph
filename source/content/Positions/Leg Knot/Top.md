@@ -21,37 +21,37 @@ description: "Master Leg Knot Top in BJJ. Advanced leg entanglement control with
     {
       "@type": "HowToStep",
       "name": "Execute Heel Hook",
-      "text": "From this position, execute Heel Hook to transition to Saddle. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Heel Hook. This technique is attempted in 13% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Inside Heel Hook",
-      "text": "From this position, execute Inside Heel Hook to transition to Inside Ashi-Garami. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Inside Heel Hook. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Toe Hold",
-      "text": "From this position, execute Toe Hold to transition to Toe Hold Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Toe Hold. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kneebar",
-      "text": "From this position, execute Kneebar to transition to Kneebar Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Kneebar. This technique is attempted in 11% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Saddle",
-      "text": "From this position, execute Transition to Saddle to transition to Saddle. Success rate for advanced practitioners: 80%.",
+      "name": "Execute Saddle Entry from Top",
+      "text": "From this position, attempt Saddle Entry from Top. This technique is attempted in 14% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Inside Ashi Entry",
-      "text": "From this position, execute Inside Ashi Entry to transition to Inside Ashi-Garami. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Inside Ashi Entry. This technique is attempted in 14% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -211,93 +211,22 @@ The strategic value of Leg Knot Top lies in its ability to create submission opp
 
 ## Available Attacks
 
-### [[Heel Hook]] → [[Saddle]]
+### [[Heel Hook]] (13% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Inside Heel Hook]] (12% of attempts)
 
-### [[Inside Heel Hook]] → [[Inside Ashi-Garami]]
+### [[Toe Hold]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 60%
-- Advanced: 75%
+### [[Kneebar]] (11% of attempts)
 
-### [[Toe Hold]] → [[Toe Hold Control]]
+### [[Saddle Entry from Top]] (14% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Inside Ashi Entry]] (14% of attempts)
 
-### [[Kneebar]] → [[Kneebar Control]]
+### [[Leg Weave Pass]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Straight Ankle Lock]] (12% of attempts)
 
-### [[Transition to Saddle]] → [[Saddle]]
-
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 65%
-- Advanced: 80%
-
-### [[Inside Ashi Entry]] → [[Inside Ashi-Garami]]
-
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 60%
-- Advanced: 75%
-
-### [[Leg Weave Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 65%
-
-### [[Straight Ankle Lock]] → [[Straight Ankle Lock Control]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Ashi Garami Escape]]** → [[Open Guard]] (Opponent Success: 25%)
-- **[[Hip Escape]]** → [[Open Guard]] (Opponent Success: 20%)
-- **[[Leg Extraction]]** → [[Half Guard]] (Opponent Success: 30%)
-- **[[Counter Entanglement]]** → [[50-50 Guard]] (Opponent Success: 15%)
-- **[[Saddle Defense]]** → [[Defensive Position]] (Opponent Success: 35%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Heel Hook]]** → [[Saddle]]
-  - Opponent attempts to straighten trapped leg or rotate hip outward
-- **[[Transition to Saddle]]** → [[Saddle]]
-  - Opponent creates space by pushing away or attempting to sit up
-- **[[Inside Ashi Entry]]** → [[Inside Ashi-Garami]]
-  - Opponent pulls trapped leg back toward their body
-- **[[Toe Hold]]** → [[Toe Hold Control]]
-  - Opponent extends foot while defending heel exposure
-- **[[Kneebar]]** → [[Kneebar Control]]
-  - Opponent flexes knee aggressively to defend heel hook
 
 
 </section>
@@ -308,7 +237,7 @@ The strategic value of Leg Knot Top lies in its ability to create submission opp
 
 **If opponent attempts to extract trapped leg by pulling knee toward chest:**
 - Execute **[[Heel Hook]]** → [[Saddle]] (Probability: 65%)
-- Execute **[[Transition to Saddle]]** → [[Saddle]] (Probability: 70%)
+- Execute **[[Estima Lock Setup]]** → [[Saddle]] (Probability: 70%)
 
 
 **If opponent pushes away with free leg or attempts to sit up and create distance:**
@@ -323,7 +252,7 @@ The strategic value of Leg Knot Top lies in its ability to create submission opp
 
 **If opponent maintains defensive posture with flexed knee and protected heel:**
 - Execute **[[Kneebar]]** → [[Kneebar Control]] (Probability: 55%)
-- Execute **[[Transition to Saddle]]** → [[Saddle]] (Probability: 65%)
+- Execute **[[Estima Lock Setup]]** → [[Saddle]] (Probability: 65%)
 
 
 
@@ -404,33 +333,39 @@ Partner alternates between pushing away and pulling close while in leg knot bott
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Highest percentage heel hook path
+## Test Your Knowledge
 
-`Leg Knot Top → Inside Heel Hook → Saddle → Inside Heel Hook finish → Won by Submission`
+**Q1**: Your opponent begins pumping their knee to create space for leg extraction - what adjustment maintains control?
+**A**: Apply increased knee pressure on opponent's trapped thigh while tightening leg crossing configuration. Simultaneously adjust hip angle to close any gaps created by the pumping motion, and consider transitioning to a tighter entanglement like Saddle if space is being created.
 
-### Systematic saddle transition
+**Q2**: What are the essential control points for maintaining Leg Knot Top position?
+**A**: The essential control points are: systematic leg crossing through opponent's legs creating multiple entanglement points, knee pressure on opponent's trapped thigh, upper body posture preventing opponent from sitting up, hip positioning at optimal distance for attacks, and awareness of opponent's free leg to prevent defensive frames.
 
-`Leg Knot Top → Saddle Entry from Top → Saddle → Inside Heel Hook → Won by Submission`
+**Q3**: How do you shut down the opponent's primary escape of sitting up and establishing frames?
+**A**: Maintain forward upper body posture with hands actively blocking or controlling opponent's torso. Keep hips at proper distance so opponent cannot generate leverage to sit up. If they begin sitting up, drive forward with chest pressure while maintaining leg entanglement, or immediately transition to a submission attempt that capitalizes on their compromised posture.
 
-### Toe hold to heel hook chain
+**Q4**: What grip priorities should you maintain from Leg Knot Top?
+**A**: Primary grip priority is controlling the trapped leg's foot and ankle to set up heel hook or toe hold finishes. Secondary priority is controlling opponent's far hip or belt to prevent hip rotation escapes. Tertiary priority is managing opponent's free leg to prevent defensive kicks. In no-gi, focus on controlling the heel, ankle, and using forearm pressure on the thigh.
 
-`Leg Knot Top → Toe Hold Control → Opponent defends → Inside Heel Hook → Won by Submission`
+**Q5**: How should you apply pressure from Leg Knot Top to break down opponent's defense?
+**A**: Apply pressure through multiple vectors: knee pressure on trapped thigh restricts hip mobility, forward weight distribution prevents sitting up, systematic tightening of leg crossing eliminates slack. Create dilemmas by threatening multiple submissions simultaneously - if they defend the heel hook by flexing knee, attack the kneebar; if they extend to escape kneebar, expose the heel.
 
-### Kneebar finish sequence
+**Q6**: Your opponent manages to establish a frame with their free leg against your hip - how do you recover control?
+**A**: Circle your hips away from the framing leg while maintaining leg entanglement, removing the leverage point. Use your own hands to clear the frame by pushing the leg down or swimming under it. If the frame is strong, consider transitioning to a different angle or advancing to Saddle position where their frame becomes less effective. Never simply drive into a solid frame as this wastes energy.
 
-`Leg Knot Top → Kneebar setup → Kneebar Control → Kneebar finish → Won by Submission`
+**Q7**: What is the proper energy management strategy when controlling Leg Knot Top?
+**A**: Energy management focuses on using positioning rather than strength. Maintain entanglement through proper leg crossing rather than squeezing. Let body weight do the work of controlling distance rather than arm strength. Work submissions methodically with proper mechanics rather than forcing. Rest in controlling position while opponent expends energy escaping. Attack when opponent creates openings through their own movement.
 
-### Position advancement to pass
-
-`Leg Knot Top → Leg Weave Pass → Side Control → Mount → Won by Submission`
+**Q8**: After a failed heel hook attempt, what is the proper recovery sequence to maintain position?
+**A**: Immediately reset leg crossing configuration before opponent can extract. Return hands to controlling opponent's hip and free leg. Re-establish proper distance and upper body posture. Assess what defensive adjustment opponent made and prepare alternative attack (toe hold if they're hiding heel, kneebar if they're flexing knee). The key is never completely abandoning position during attack attempts.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -459,7 +394,7 @@ Partner alternates between pushing away and pulling close while in leg knot bott
 - **[[Toe Hold]]** - Alternative submission attack when heel is defended
 - **[[Kneebar]]** - Secondary submission option from leg knot configuration
 - **[[Ashi Garami Escape]]** - Primary defensive response from bottom position
-- **[[Saddle Entry from Top]]** - Key transition technique for advancing position
+- **[[50-50 Guard]]** - Counter-entanglement option for bottom player
 - **[[Leg Weave Pass]]** - Position advancement technique to escape leg entanglement exchange
 
 

@@ -97,32 +97,24 @@ Strategically, the Kimura Trap excels at creating dilemmas where opponents must 
 - Work systematically through Kimura Trap System sequences (sweeps, back takes, submissions) rather than forcing single techniques, flowing between options based on opponent reactions
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Old School Sweep]]** → [[Mount]]
-  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 75%
+- **[[Old School Sweep]]** (15% of attempts)
 
-- **[[Kimura to Back Take]]** → [[Back Control]]
-  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+- **[[Kimura to Back Take]]** (14% of attempts)
 
-- **[[Kimura from Half Guard]]** → [[Kimura Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Kimura from Half Guard]]** (12% of attempts)
 
-- **[[Rolling Kimura]]** → [[Mount]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Rolling Kimura]]** (11% of attempts)
 
-- **[[Underhook Sweep from Half]]** → [[Side Control]]
-  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 70%
+- **[[Underhook Sweep from Half]]** (13% of attempts)
 
-- **[[Half Guard Sweeps]]** → [[Side Control]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 68%
+- **[[Half Guard Sweeps]]** (13% of attempts)
 
-- **[[Transition to Omoplata]]** → [[Omoplata Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Closed Guard to Omoplata]]** (10% of attempts)
 
-- **[[Lockdown Sweeps]]** → [[Half Guard]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Lockdown Sweeps]]** (12% of attempts)
 
 
 ### Common Mistakes
@@ -180,29 +172,22 @@ Strategically, the Kimura Trap excels at creating dilemmas where opponents must 
 - Flow between finishing the Kimura, advancing position, and transitioning to connected attacks based on opponent's defensive responses
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Kimura from Side Control]]** → [[Won by Submission]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Kimura from Side Control]]** (14% of attempts)
 
-- **[[Kimura from North-South]]** → [[Won by Submission]]
-  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+- **[[Kimura from North-South]]** (15% of attempts)
 
-- **[[Transition to Mount]]** → [[Mount]]
-  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 78%
+- **[[Side Control to Mount]]** (15% of attempts)
 
-- **[[Kimura to Back Take]]** → [[Back Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Kimura to Back Take]]** (13% of attempts)
 
-- **[[North-South to Kimura]]** → [[North-South]]
-  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 72%
+- **[[North-South to Kimura]]** (14% of attempts)
 
-- **[[Kimura from Turtle]]** → [[Won by Submission]]
-  - Success Rate: Beginner 38%, Intermediate 53%, Advanced 68%
+- **[[Kimura from Turtle]]** (14% of attempts)
 
-- **[[Side Control to Mount]]** → [[Mount]]
-  - Success Rate: Beginner 48%, Intermediate 63%, Advanced 75%
+- **[[Side Control to Mount]]** (15% of attempts)
 
 
 ### Common Mistakes
@@ -243,8 +228,6 @@ Strategically, the Kimura Trap excels at creating dilemmas where opponents must 
 
 - **[[Half Guard]]** - Primary entry position for Kimura Trap from both top and bottom perspectives
 
-- **[[Kimura Control]]** - Related control position focusing on Kimura grip dominance
-
 - **[[Side Control]]** - Common transition point and alternative entry for Kimura Trap system
 
 - **[[Turtle]]** - Key entry position where opponent's arm exposure creates Kimura opportunities
@@ -260,6 +243,8 @@ Strategically, the Kimura Trap excels at creating dilemmas where opponents must 
 - **[[Omoplata Control]]** - Related shoulder lock position accessible via Kimura grip transitions
 
 - **[[Gift Wrap]]** - Alternative arm control system with similar control principles
+
+- **[[Deep Half Guard]]** - Alternative bottom position when opponent defends Kimura by sprawling back
 
 
 </section>

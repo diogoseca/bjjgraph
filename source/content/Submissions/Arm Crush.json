@@ -233,6 +233,36 @@
       "question": "How does the opponent's defensive posture enable the Arm Crush submission?",
       "answer": "When opponents defend side control by keeping their elbows tight to their ribs (a generally sound defensive principle), they create the exact arm configuration needed for the Arm Crush. The tight elbow position traps their arm between your body and theirs, allowing you to wedge your arm underneath and establish the crushing grip. Paradoxically, the tighter they defend with their elbow, the deeper you can set the submission and the more effective the crushing pressure becomes.",
       "safety_critical": false
+    },
+    {
+      "question": "What anatomical structures does the Arm Crush attack and why is this combination particularly effective?",
+      "answer": "The Arm Crush primarily attacks the shoulder joint complex including the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis), the glenohumeral joint capsule, and the labrum. The effectiveness comes from attacking these structures through two vectors simultaneously - vertical compression crushing the joint surfaces together and rotational torque stressing the rotator cuff tendons. This multi-directional stress overwhelms the joint's structural integrity faster than single-vector attacks like a standard Americana.",
+      "safety_critical": false
+    },
+    {
+      "question": "When your opponent begins to bridge during the Arm Crush, how should you adjust to maintain the submission?",
+      "answer": "Anticipate the bridge by widening your base and keeping your hips low. As they bridge, maintain your figure-four grip and ride the movement rather than fighting it - let their bridge carry you slightly. As they return to the mat, immediately increase pressure. The bridge actually often improves your position because it slightly straightens their arm and creates more space for your wedge. Never release your grip or lift your chest during their bridge attempt.",
+      "safety_critical": false
+    },
+    {
+      "question": "What is the point of no escape in the Arm Crush and how do you recognize when you've reached it?",
+      "answer": "The point of no escape occurs when your figure-four grip is locked, your chest is driving into their shoulder with full weight commitment, and their elbow is trapped tight against their ribcage. You'll feel their arm become completely immobile - unable to extract toward their body or push away. At this stage, even small rotational adjustments generate enormous finishing pressure. The opponent typically recognizes this moment simultaneously and will tap immediately or risk injury.",
+      "safety_critical": false
+    },
+    {
+      "question": "How do you adjust your grip if the opponent begins to straighten their trapped arm during the Arm Crush?",
+      "answer": "If they straighten their arm, transition your figure-four grip from controlling their elbow to controlling their wrist - this converts the Arm Crush into an Americana. Slide your far hand from under their elbow to their wrist while your near hand maintains the figure-four connection. Once controlling the wrist, rotate their forearm toward their head while keeping chest pressure. Their straightening actually makes the Americana higher percentage than if they'd kept the elbow bent.",
+      "safety_critical": false
+    },
+    {
+      "question": "What specific training protocol should be followed when first learning the Arm Crush with a partner?",
+      "answer": "Begin with zero resistance drilling where the partner remains completely compliant. Apply pressure at only 20-30% intensity and build over 5-6 seconds minimum. Partner should tap at the first sensation of shoulder discomfort, not pain - this establishes early communication habits. Practice the release protocol multiple times before ever adding resistance. Both partners must understand that this submission should never be applied quickly regardless of experience level. Verbal communication throughout every repetition is mandatory.",
+      "safety_critical": true
+    },
+    {
+      "question": "In competition, when should you abandon the Arm Crush attempt and transition to another attack?",
+      "answer": "Abandon the Arm Crush when: the opponent successfully turns toward you and begins escaping side control, their arm extracts from the trapped position against your body, you cannot maintain chest pressure due to their frames or movement, or you feel the grip becoming ineffective despite proper positioning. Transition options include taking the back if they turn, moving to north-south for different attacks, or switching to Americana/Kimura if their arm positioning changes. Never force a poorly positioned Arm Crush - the injury risk is too high and the finish percentage drops dramatically.",
+      "safety_critical": false
     }
   ],
   "training_progressions_and_safety_protocols": [
@@ -285,8 +315,7 @@
     "Knee on Belly",
     "Kuzure Kesa-Gatame",
     "Modified Scarf Hold",
-    "Side Control Consolidation",
-    "100 Kilos",
+    "Kesa Gatame",
     "Shoulder of Justice"
   ],
   "related_submissions": [
@@ -294,10 +323,6 @@
     "Kimura",
     "Kimura from Side Control",
     "Americana from Side Control",
-    "Straight Armbar",
-    "North-South to Kimura",
-    "Kimura from North-South",
-    "Reverse Kimura",
     "Armbar from Side Control",
     "Bicep Slicer",
     "Kimura Variations",
@@ -307,10 +332,6 @@
     {
       "name": "Side Control",
       "relationship": "Primary attacking position - establishes the control needed for submission setup"
-    },
-    {
-      "name": "Shoulder Pressure",
-      "relationship": "Essential principle - creates the crushing component of this submission"
     },
     {
       "name": "Americana",
@@ -329,20 +350,16 @@
       "relationship": "Alternative position - allows Arm Crush variation from opposite angle"
     },
     {
-      "name": "Control Maintenance",
-      "relationship": "Critical principle - must maintain side control consolidation throughout"
-    },
-    {
-      "name": "Transition to North-South",
+      "name": "Side Control to North-South",
       "relationship": "Position change - if opponent begins escaping side control"
     },
     {
-      "name": "Pressure Application",
-      "relationship": "Core principle - progressive pressure is essential for safety and effectiveness"
+      "name": "Kimura Trap",
+      "relationship": "Related system - Arm Crush can be integrated into Kimura-based attack sequences"
     },
     {
-      "name": "Kimura Trap System",
-      "relationship": "Related system - Arm Crush can be integrated into Kimura-based attack sequences"
+      "name": "Kesa Gatame",
+      "relationship": "Related control position with similar arm trapping opportunities"
     }
   ]
 }

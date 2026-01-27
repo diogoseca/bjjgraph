@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Russian Tie to Back Take | BJJ Technique | BJJ Graph"
 description: "Master the Russian Tie to Back Take in BJJ. Step-by-step execution from standing to back control. Success rates: Beginner 35%, Intermediate 50%, Advanced 70%."
@@ -16,7 +17,7 @@ description: "Master the Russian Tie to Back Take in BJJ. Step-by-step execution
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Russian Tie to Back Take in BJJ",
-  "description": "Step-by-step guide for Russian Tie to Back Take from Standing Position to Back Control.",
+  "description": "Step-by-step guide for Russian Tie to Back Take from Standing Position/Top. Possible outcomes: Back Control/Top (70%), Standing Position/Top (20%), Standing Position/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -158,11 +159,25 @@ What makes this technique particularly effective is its versatility - it can be 
 
 This technique is favored by modern grapplers like elite competitors' and Garry Tonon because it seamlessly integrates wrestling and jiu-jitsu principles. The Russian Tie creates a dilemma: if the opponent pulls their arm back, you can shoot for their legs; if they maintain position, you can circle to their back. This makes it an excellent high-percentage technique for competitors at all levels, with success rates ranging from 35% for beginners to 70% for advanced practitioners.
 
-**Starting Position**: [[Standing Position]]
-**Ending Position**: [[Back Control]]
+**From Position**: [[Standing Position/Top]]
 **Success Rates**: Beginner 35%, Intermediate 50%, Advanced 70%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Back Control/Top]] | 70% |
+| Failure | [[Standing Position/Top]] | 20% |
+| Counter | [[Standing Position/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

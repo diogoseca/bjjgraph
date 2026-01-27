@@ -10,8 +10,6 @@
     "x-guard",
     "guard entry"
   ],
-  "starting_position": "Standing Position",
-  "ending_position": "Single Leg X-Guard",
   "success_rates": {
     "beginner": 35,
     "intermediate": 50,
@@ -276,6 +274,24 @@
     {
       "name": "Guard Retention",
       "relationship": "Principle - maintaining guard after entry"
+    }
+  ],
+  "from_position": "Standing Position/Top",
+  "outcomes": [
+    {
+      "to": "Single Leg X-Guard/Bottom",
+      "probability": 65,
+      "result": "success"
+    },
+    {
+      "to": "Standing Position/Top",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Standing Position/Bottom",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Half Guard Sweeps | BJJ Technique | BJJ Graph"
 description: "Master Half Guard Sweeps in BJJ. Complete systematic approach from Half Guard Bottom to dominant top positions. Success rates: Beginner 40%, Intermediate 60%, Advanced 75%."
@@ -16,7 +17,7 @@ description: "Master Half Guard Sweeps in BJJ. Complete systematic approach from
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Half Guard Sweeps in BJJ",
-  "description": "Step-by-step guide for Half Guard Sweeps from Half Guard to Side Control.",
+  "description": "Step-by-step guide for Half Guard Sweeps from Half Guard/Bottom. Possible outcomes: Side Control/Top (75%), Half Guard/Bottom (15%), Half Guard/Top (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -160,11 +161,25 @@ description: "Master Half Guard Sweeps in BJJ. Complete systematic approach from
 
 Half Guard Sweeps represent a comprehensive offensive system from the half guard bottom position, offering multiple pathways to reverse an opponent and achieve dominant top position. The half guard has evolved from a defensive position into one of the most dynamic attacking platforms in modern Brazilian Jiu-Jitsu. These sweeps exploit the inherent structural weaknesses created when an opponent attempts to pass or maintain control in half guard. The success of half guard sweeps relies on understanding weight distribution, creating angles, and manipulating the opponent's base through systematic off-balancing. Whether using the underhook series, lockdown mechanics, or deep half guard entries, practitioners must develop a layered approach that chains multiple sweep attempts together. The half guard sweep system is particularly effective because it allows the bottom player to control distance, manage frames, and create offensive opportunities even against larger, stronger opponents. Modern competition has demonstrated that a well-developed half guard sweep game can neutralize even the most aggressive passers and create consistent paths to dominant positions or back takes.
 
-**Starting Position**: [[Half Guard]]
-**Ending Position**: [[Side Control]]
+**From Position**: [[Half Guard/Bottom]]
 **Success Rates**: Beginner 40%, Intermediate 60%, Advanced 75%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Side Control/Top]] | 75% |
+| Failure | [[Half Guard/Bottom]] | 15% |
+| Counter | [[Half Guard/Top]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

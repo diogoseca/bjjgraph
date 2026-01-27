@@ -425,4 +425,14 @@ The Outside Heel Hook is one of the most dangerous and effective leg lock submis
 
 </section>
 
+<section id="terminal-state" class="content-section">
+
+## Match Outcome
+
+Successful execution of Outside Heel Hook leads to → [[game-over|Game Over]]
+
+*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+
+</section>
+
 </main>

@@ -35,18 +35,309 @@
       "relationship": "Natural progression when opponent turns into the pressure"
     },
     {
-      "name": "Americana Control",
-      "relationship": "Frequently achieved submission control from arm isolation"
-    },
-    {
-      "name": "Kimura Control",
+      "name": "Kimura Trap",
       "relationship": "Alternative submission control available from trapped arm"
     },
     {
-      "name": "100 Kilos",
-      "relationship": "Related position emphasizing shoulder pressure over arm isolation"
+      "name": "Armbar Control",
+      "relationship": "Submission control achieved when arm is extended"
     }
   ],
+  "top": {
+    "name": "Kuzure Kesa-Gatame Top",
+    "description": "Offensive guide for controlling and attacking from modified scarf hold. Master pressure mechanics, submission chains, and escape prevention strategies.",
+    "tags": [
+      "side-control",
+      "offensive",
+      "submissions",
+      "intermediate",
+      "kesa-gatame"
+    ],
+    "overview": "Attacking from Kuzure Kesa-Gatame top position represents one of the most powerful control and submission combinations in Brazilian Jiu-Jitsu. This variation of scarf hold transforms the traditional side control into a submission platform by isolating one of the opponent's arms, creating immediate threats while maintaining dominant pressure. The position's effectiveness stems from its dual nature: it functions simultaneously as a tight pin that restricts the opponent's mobility and as a submission starting point with multiple high-percentage finishing options.\n\nThe fundamental structure of top Kuzure Kesa-Gatame involves sitting beside the opponent with your hip pressed into their ribs while trapping one of their arms across your torso. This creates a control system where your body weight, properly distributed through your hip and chest, generates constant pressure that restricts breathing and prevents effective defensive framing. The isolated arm provides multiple submission entries—americana, kimura, armbar, and various shoulder locks—while the hip pressure prevents the opponent from creating the space necessary for escape. Understanding how to maintain this pressure while transitioning between submission threats forms the core of advanced Kuzure Kesa-Gatame technique.\n\nWhat distinguishes Kuzure Kesa-Gatame from other side control variations is the submission proximity it offers. While standard side control requires multiple transitions to create submission opportunities, Kuzure Kesa-Gatame places you immediately in position to attack the isolated arm. This creates a tactical dilemma for the opponent: defending the submission threats requires specific arm positioning and tension that limits their ability to work escapes, while focusing on escapes creates openings for submissions. Skilled practitioners exploit this dilemma by flowing between submission attempts and position consolidation, never allowing the opponent to settle into effective defense.\n\nThe position also serves a critical strategic role in competition and training scenarios. When opponents develop sophisticated defenses against standard side control, transitioning to Kuzure Kesa-Gatame resets the control dynamic and presents them with a different set of problems to solve. The position is particularly effective against larger opponents, as the mechanical advantage of the arm isolation and the efficiency of the hip pressure allow smaller practitioners to control and submit bigger adversaries. Mastering this position—both its control mechanics and submission sequences—represents a significant milestone in developing a complete top game.",
+    "state_properties": {
+      "point_value": 3,
+      "position_type": "Offensive/Controlling",
+      "risk_level": "Low to Medium",
+      "energy_cost": "Medium",
+      "time_sustainability": "Medium to Long"
+    },
+    "state_invariants": [
+      "Top practitioner sits beside opponent with hip pressed into opponent's lower ribs, their weight channeled through this contact point while chest stays low over opponent's upper body, one of opponent's arms trapped between top practitioner's armpit and chest extending across their torso",
+      "Top practitioner's base leg (far from opponent) posts wide to prevent being rolled, knee bent and foot flat on mat creating stable tripod with hip and sitting bone, while near leg can hook over opponent's hip or extend for additional base depending on control requirements",
+      "Opponent's trapped arm is controlled at both shoulder (by top practitioner's armpit pressure) and wrist (by top practitioner's grip or arm position), preventing arm recovery while creating immediate submission access, opponent's free arm limited in effectiveness by top practitioner's low chest position and hip pressure"
+    ],
+    "prerequisites": [
+      "Side control has been achieved with opponent flattened to their side",
+      "One of opponent's arms has been isolated and can be trapped across top practitioner's torso",
+      "Top practitioner can establish hip pressure into opponent's ribs while maintaining low chest position"
+    ],
+    "key_principles": [
+      "Hip pressure is the foundation—all control and submissions flow from maintaining this pressure vector",
+      "Chest stays low and heavy, using body weight efficiently rather than muscular tension",
+      "Base leg posts wide and strong to prevent rolls while maintaining ability to pressure opponent",
+      "Trapped arm must be controlled at shoulder and wrist simultaneously to prevent recovery",
+      "Submission transitions should maintain pressure—never sacrifice positional control for submission attempts",
+      "Head position on far side of opponent prevents bridge and roll attempts by redirecting force",
+      "Constant small adjustments in pressure and position prevent opponent from timing escapes"
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "Your opponent begins bridging explosively toward your posting leg - what adjustment do you make to maintain position?",
+        "answer": "Immediately widen your base leg further from their body while simultaneously dropping your head past their far shoulder. This redirects the bridge force harmlessly across your body rather than over your base. Keep your hip pressure constant and let their bridge exhaust their energy while you remain structurally sound."
+      },
+      {
+        "question": "What are the two critical control points for the trapped arm and why are both necessary?",
+        "answer": "You must control both the shoulder (through armpit pressure clamping down on their upper arm) and the wrist (through grip or arm positioning). Controlling only the wrist allows them to rotate their shoulder and thread the arm free during hip escapes. Controlling only the shoulder permits them to extend the arm and create pushing frames. Both points together create a closed kinetic chain that prevents arm recovery."
+      },
+      {
+        "question": "Your opponent uses their free arm to push against your chest and create space - how do you shut this down?",
+        "answer": "Stay low with your chest parallel to the mat rather than sitting upright. Their push has no leverage point when your weight is already distributed low across their torso. If needed, use your head position on their far side to redirect any pushing force. The key is preventing them from getting their elbow underneath their push - keep your chest heavy and deny the space needed for effective framing."
+      },
+      {
+        "question": "What is the proper weight distribution through your body to maintain maximum control with minimum energy expenditure?",
+        "answer": "Channel approximately 70% of your weight through your hip into their ribs and 30% through your chest onto their upper body. Your posting leg should be weight-bearing only for balance, not for pressure generation. Relax your upper body muscles and let skeletal alignment maintain the chest position - tension in your arms and shoulders wastes energy and actually reduces control effectiveness."
+      },
+      {
+        "question": "How do you use hip pressure directionally rather than just applying downward weight?",
+        "answer": "Direct your hip pressure at a 45-degree angle toward their far hip, not straight down into the mat. This angular pressure prevents them from turning into you or away from you - it pins their torso in place. Think of driving your hip through their body toward their far hip bone. This directional pressure is far more controlling than simply being heavy."
+      },
+      {
+        "question": "Your opponent starts attempting to recover guard by turning into you - what immediate action prevents this while creating offensive opportunity?",
+        "answer": "Their turn into you opens the mount transition. As they turn, slide your near knee across their belly while maintaining arm control. Their own turning motion helps you advance. If they stop turning to prevent mount, they return to the original position under your control. This creates a lose-lose dilemma where their escape attempt enables your advancement."
+      },
+      {
+        "question": "What mistake causes rapid fatigue in this position and how do you correct it?",
+        "answer": "Using muscular tension in your arms and chest to maintain control causes rapid fatigue. The correction is to completely relax your upper body musculature while maintaining structural positioning. Your body weight does the work, not your muscles. Focus on skeletal alignment and letting gravity create pressure. If you feel your arms or chest burning, you're working too hard and need to adjust your structure."
+      },
+      {
+        "question": "How do you recognize when your opponent is about to attempt a hip escape and preemptively shut it down?",
+        "answer": "Watch for them positioning their far foot flat on the mat (generating pushing power), slight tension in their hip flexors, or their free arm beginning to frame against your shoulder. When you sense these preparatory movements, immediately increase hip pressure and make a small adjustment - shift your hip angle slightly or pulse your pressure. This disrupts their timing and forces them to reset their escape attempt."
+      }
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent keeps trapped arm bent and defensive while attempting hip escapes",
+        "actions": [
+          {
+            "technique": "Side Control to Mount",
+            "target": "Mount",
+            "probability": 70
+          },
+          {
+            "technique": "Side Control to North-South",
+            "target": "North-South",
+            "probability": 60
+          }
+        ]
+      },
+      {
+        "condition": "Else if opponent extends trapped arm attempting to create frame or push",
+        "actions": [
+          {
+            "technique": "Armbar from Side Control",
+            "target": "Armbar Control",
+            "probability": 75
+          },
+          {
+            "technique": "Americana from Side Control",
+            "target": "Kimura Trap",
+            "probability": 68
+          }
+        ]
+      },
+      {
+        "condition": "Else if opponent bridges and attempts to roll you over posting leg",
+        "actions": [
+          {
+            "technique": "Kimura from Side Control",
+            "target": "Kimura Trap",
+            "probability": 65
+          },
+          {
+            "technique": "Gift Wrap Control",
+            "target": "Gift Wrap",
+            "probability": 58
+          }
+        ]
+      },
+      {
+        "condition": "Else if opponent turns away exposing their back to escape pressure",
+        "actions": [
+          {
+            "technique": "Side Control to Mount",
+            "target": "Mount",
+            "probability": 80
+          },
+          {
+            "technique": "Back Take Generic",
+            "target": "Back Control",
+            "probability": 72
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Sitting too upright with torso vertical rather than maintaining low chest position",
+        "consequence": "Reduces pressure effectiveness and allows opponent to create frames with free arm, leading to easy escapes",
+        "correction": "Keep chest low and parallel to opponent's torso, channeling weight through hip into their ribs while maintaining heavy upper body pressure"
+      },
+      {
+        "error": "Posting base leg too close to opponent's body instead of wide base",
+        "consequence": "Creates vulnerability to bridge and roll reversal, allowing opponent to sweep to top position",
+        "correction": "Post base leg wide with knee bent and foot flat, creating stable tripod that opponent cannot roll over"
+      },
+      {
+        "error": "Gripping trapped arm only at wrist without controlling shoulder",
+        "consequence": "Allows opponent to recover arm through shoulder rotation and hip escape despite wrist control",
+        "correction": "Maintain armpit pressure on opponent's shoulder while also controlling wrist, creating two-point control system"
+      },
+      {
+        "error": "Abandoning hip pressure to pursue submission with both hands",
+        "consequence": "Opponent immediately escapes when pressure is released, nullifying submission attempt",
+        "correction": "Maintain hip pressure throughout submission attempts, using body positioning rather than hand fighting to create submissions"
+      },
+      {
+        "error": "Remaining static in same position without pressure adjustments or transitions",
+        "consequence": "Opponent times their escape to your static pressure pattern, successfully creating space",
+        "correction": "Make constant micro-adjustments in hip pressure angle and chest position, preventing opponent from settling into defensive rhythm"
+      },
+      {
+        "error": "Placing head directly above opponent's chest rather than on far side",
+        "consequence": "Creates leverage point for opponent's bridge and roll, making reversal highly probable",
+        "correction": "Position head on far side of opponent's body, past their shoulder line, redirecting bridge force harmlessly"
+      },
+      {
+        "error": "Using muscular tension in arms and chest instead of efficient weight distribution",
+        "consequence": "Rapid fatigue reduces ability to maintain control, forcing position abandonment",
+        "correction": "Relax upper body musculature while maintaining structural position, using body weight not muscle strength"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Pressure Maintenance Under Movement",
+        "description": "Establish position, partner attempts only hip escapes (no submissions). Focus solely on maintaining hip pressure and chest position through their movement. Partner increases resistance progressively. Develops pressure sensitivity and adjustment timing.",
+        "duration": "5 minutes"
+      },
+      {
+        "name": "Submission Chain Flow",
+        "description": "From established position, flow between americana, kimura, and armbar without releasing control. Partner defends passively. Focus on maintaining pressure during transitions. Builds submission chain fluidity and pressure consistency.",
+        "duration": "4 minutes"
+      },
+      {
+        "name": "Base Stability Against Bridges",
+        "description": "Partner performs maximum effort bridges attempting to roll you. Focus on base leg posting, weight distribution, and head position. Builds structural resistance to explosive reversal attempts. Reset after each bridge attempt.",
+        "duration": "3 minutes"
+      },
+      {
+        "name": "Progressive Resistance Control",
+        "description": "Start with compliant partner, increase their resistance by 20% every minute until 100%. Maintain position throughout progression. Identifies control breakdown points and builds pressure under increasing resistance. Reset to 0% after loss of control.",
+        "duration": "6 minutes"
+      },
+      {
+        "name": "Submission Completion Under Time",
+        "description": "30-second rounds: establish position and finish submission before time expires. Partner defends at 70% resistance. Builds urgency in submission mechanics and decision-making. Track success rate across multiple rounds.",
+        "duration": "5 minutes"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Kesa Gatame",
+        "relationship": "Parent position—traditional scarf hold without arm isolation"
+      },
+      {
+        "name": "Side Control",
+        "relationship": "Position family sharing control principles"
+      },
+      {
+        "name": "Americana from Side Control",
+        "relationship": "Primary submission attack from trapped arm"
+      },
+      {
+        "name": "Armbar from Side Control",
+        "relationship": "High-percentage submission when arm extends"
+      },
+      {
+        "name": "Kimura from Side Control",
+        "relationship": "Alternative shoulder lock from same arm control"
+      },
+      {
+        "name": "Mount",
+        "relationship": "Common advancement when opponent turns in"
+      },
+      {
+        "name": "North-South",
+        "relationship": "Transitional position for maintaining control"
+      },
+      {
+        "name": "Gift Wrap",
+        "relationship": "Alternative control when arm trapping opportunities arise"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "beginner": 70,
+        "intermediate": 82,
+        "advanced": 92,
+        "description": "Ability to maintain position against escape attempts"
+      },
+      "advancement_probability": {
+        "beginner": 55,
+        "intermediate": 72,
+        "advanced": 85,
+        "description": "Likelihood of advancing to mount or back control"
+      },
+      "submission_probability": {
+        "beginner": 35,
+        "intermediate": 58,
+        "advanced": 75,
+        "description": "Likelihood of finishing from this position"
+      },
+      "average_time": "60-120 seconds to submission or position advancement"
+    },
+    "transitions": [
+      {
+        "transition": "Americana from Side Control",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Armbar from Side Control",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Kimura from Side Control",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Side Control to Mount",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Side Control to North-South",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Paper Cutter Choke",
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Arm Triangle",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Breadcutter Choke",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Far Side Armbar",
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Gift Wrap Control",
+        "attempt_probability": 10
+      }
+    ]
+  },
   "bottom": {
     "name": "Kuzure Kesa-Gatame Bottom",
     "description": "Defensive guide for escaping modified scarf hold. Learn arm recovery, pressure management, and systematic escape sequences from this challenging position.",
@@ -84,104 +375,38 @@
       "Breathing management under pressure determines sustainability and decision-making quality",
       "Acceptance of position allows for strategic patience rather than panicked explosive efforts"
     ],
-    "offensive_transitions": [
+    "knowledge_assessment": [
       {
-        "technique": "Elbow Escape",
-        "target_position": "Half Guard",
-        "success_rates": {
-          "beginner": 15,
-          "intermediate": 30,
-          "advanced": 50
-        }
+        "question": "Your opponent shifts their weight forward to attack your trapped arm with an americana - what escape opportunity does this create?",
+        "answer": "Their forward weight shift removes pressure from your hips and creates space behind them. This is the ideal moment for a bridge and roll toward their posting leg, or to begin hip escaping away while their attention is on the submission. Their commitment to the attack opens defensive opportunities - time your explosive movement to coincide with their deepest commitment to the submission grip."
       },
       {
-        "technique": "Arm Recovery to Guard",
-        "target_position": "Closed Guard",
-        "success_rates": {
-          "beginner": 10,
-          "intermediate": 25,
-          "advanced": 45
-        }
+        "question": "What is the correct position for your trapped arm to prevent immediate submission while maintaining recovery potential?",
+        "answer": "Keep the trapped arm bent at approximately 90 degrees with your elbow tight to your ribs. Never let the arm fully extend (armbar threat) or collapse completely against your body (americana threat). Maintain slight internal rotation at the shoulder to prevent the americana finish angle. This defensive arm position buys time and keeps recovery options open."
       },
       {
-        "technique": "Bridge and Roll",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 8,
-          "intermediate": 20,
-          "advanced": 35
-        }
+        "question": "How should you use your free arm during escape attempts rather than simply pushing against your opponent?",
+        "answer": "Your free arm creates structural frames that maintain minimal space during hip movement - it's not for generating pushing force. Frame against their hip or shoulder to create a wedge that prevents them from closing distance as you shrimp. Pushing wastes energy because they can simply wait for your arm to fatigue. Framing maintains space efficiently using skeletal structure."
       },
       {
-        "technique": "Granby Roll",
-        "target_position": "Turtle",
-        "success_rates": {
-          "beginner": 12,
-          "intermediate": 28,
-          "advanced": 48
-        }
+        "question": "Why is bridging directly upward ineffective from this position and what direction should you bridge instead?",
+        "answer": "Bridging straight up allows your opponent to simply wait and settle their weight back down when you land - you've wasted explosive energy without creating meaningful change. Instead, bridge at a perpendicular angle targeting their posting leg. This attacks their base structure and can actually create a weight shift or roll opportunity. The angular bridge disrupts their balance rather than just lifting them temporarily."
       },
       {
-        "technique": "Technical Standup",
-        "target_position": "Standing Position",
-        "success_rates": {
-          "beginner": 5,
-          "intermediate": 15,
-          "advanced": 30
-        }
+        "question": "What are the signs that your opponent is about to transition to mount, and how do you prevent it?",
+        "answer": "Watch for them lifting their near hip or beginning to slide their knee across your belly. Their head may also begin moving toward your far side. To prevent the mount, immediately turn toward them (paradoxically), getting your back more toward the mat. This denies the space they need to slide their knee across. You may also insert your knee as a shield between your bodies during their transition attempt."
       },
       {
-        "technique": "Re-Guard from Headquarters",
-        "target_position": "Open Guard",
-        "success_rates": {
-          "beginner": 10,
-          "intermediate": 22,
-          "advanced": 40
-        }
-      }
-    ],
-    "defensive_responses": [
-      {
-        "technique": "Hip Pressure Consolidation",
-        "target_position": "Kuzure Kesa-Gatame",
-        "success_rate": 75
+        "question": "How do you manage breathing under the constant rib pressure of this position?",
+        "answer": "Force controlled diaphragmatic breathing despite the pressure - your belly should expand, not your chest. Breathe in during moments of slightly reduced pressure (when opponent adjusts or attacks) and exhale slowly during peak pressure. Panic breathing with rapid shallow breaths accelerates fatigue and clouds tactical thinking. Accept the discomfort and maintain slow, controlled breathing patterns."
       },
       {
-        "technique": "Transition to Mount",
-        "target_position": "Mount",
-        "success_rate": 65
+        "question": "When should you attempt to recover your trapped arm versus accepting its position and working other escapes?",
+        "answer": "Prioritize arm recovery when your opponent shifts weight forward for submissions or makes adjustments - these moments reduce armpit pressure on your shoulder. If they maintain constant heavy pressure on your arm, attempting recovery wastes energy and may create submission openings. In high-pressure scenarios, work escapes like the Granby roll that don't require arm recovery first, then recover the arm once you've changed the positional dynamic."
       },
       {
-        "technique": "Transition to North-South",
-        "target_position": "North-South",
-        "success_rate": 60
-      },
-      {
-        "technique": "Americana from Side Control",
-        "target_position": "Americana Control",
-        "success_rate": 55
-      },
-      {
-        "technique": "Armbar from Side Control",
-        "target_position": "Armbar Control",
-        "success_rate": 50
-      }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Hip Escape Denial",
-        "target_position": "Kuzure Kesa-Gatame",
-        "trigger": "Bottom practitioner attempts to create space with hips"
-      },
-      {
-        "technique": "Armbar Attack",
-        "target_position": "Armbar Control",
-        "trigger": "Bottom practitioner extends trapped arm while attempting escape"
-      },
-      {
-        "technique": "Mount Transition",
-        "target_position": "Mount",
-        "trigger": "Bottom practitioner turns into top practitioner to recover guard"
+        "question": "Your escape attempt fails and your opponent recaptures heavy control - what should your immediate response be?",
+        "answer": "Return immediately to defensive breathing and structural arm positioning. Do not chain another explosive attempt right away - this burns energy against peak pressure. Reset your frames, recover mentally, and wait for the next timing window (their adjustment, submission attempt, or fatigue-induced pressure reduction). Failed escapes are expected; the key is not compounding the energy loss with additional poorly-timed attempts."
       }
     ],
     "decision_tree": [
@@ -285,20 +510,6 @@
         "duration": "7 minutes"
       }
     ],
-    "optimal_submission_paths": [
-      {
-        "name": "Escape to Guard Recovery",
-        "path": "Kuzure Kesa-Gatame Bottom → Arm Recovery to Guard → Closed Guard → Triangle Setup → Triangle Control"
-      },
-      {
-        "name": "Turtle to Back Attack",
-        "path": "Kuzure Kesa-Gatame Bottom → Granby Roll → Turtle → Turtle to Back Take → Back Control"
-      },
-      {
-        "name": "Reversal to Top Control",
-        "path": "Kuzure Kesa-Gatame Bottom → Bridge and Roll → Side Control → Transition to Mount → Mount"
-      }
-    ],
     "related_content": [
       {
         "name": "Side Control",
@@ -313,20 +524,16 @@
         "relationship": "Advanced escape option when standard escapes are denied"
       },
       {
-        "name": "Defensive Framing",
-        "relationship": "Essential principle for maintaining space during escapes"
-      },
-      {
         "name": "Bridge and Roll",
         "relationship": "Reversal technique targeting opponent's base vulnerabilities"
       },
       {
-        "name": "Side Control Escapes",
-        "relationship": "General escape concepts applicable to this variation"
-      },
-      {
         "name": "Half Guard",
         "relationship": "Common transitional position during escape sequences"
+      },
+      {
+        "name": "Turtle",
+        "relationship": "Alternative escape destination when guard recovery is blocked"
       }
     ],
     "position_metrics": {
@@ -349,396 +556,32 @@
         "description": "Likelihood of finishing opponent from bottom position (through reversals)"
       },
       "average_time": "45-90 seconds before escape or submission from bottom position"
-    }
-  },
-  "top": {
-    "name": "Kuzure Kesa-Gatame Top",
-    "description": "Offensive guide for controlling and attacking from modified scarf hold. Master pressure mechanics, submission chains, and escape prevention strategies.",
-    "tags": [
-      "side-control",
-      "offensive",
-      "submissions",
-      "intermediate",
-      "kesa-gatame"
-    ],
-    "overview": "Attacking from Kuzure Kesa-Gatame top position represents one of the most powerful control and submission combinations in Brazilian Jiu-Jitsu. This variation of scarf hold transforms the traditional side control into a submission platform by isolating one of the opponent's arms, creating immediate threats while maintaining dominant pressure. The position's effectiveness stems from its dual nature: it functions simultaneously as a tight pin that restricts the opponent's mobility and as a submission starting point with multiple high-percentage finishing options.\n\nThe fundamental structure of top Kuzure Kesa-Gatame involves sitting beside the opponent with your hip pressed into their ribs while trapping one of their arms across your torso. This creates a control system where your body weight, properly distributed through your hip and chest, generates constant pressure that restricts breathing and prevents effective defensive framing. The isolated arm provides multiple submission entries—americana, kimura, armbar, and various shoulder locks—while the hip pressure prevents the opponent from creating the space necessary for escape. Understanding how to maintain this pressure while transitioning between submission threats forms the core of advanced Kuzure Kesa-Gatame technique.\n\nWhat distinguishes Kuzure Kesa-Gatame from other side control variations is the submission proximity it offers. While standard side control requires multiple transitions to create submission opportunities, Kuzure Kesa-Gatame places you immediately in position to attack the isolated arm. This creates a tactical dilemma for the opponent: defending the submission threats requires specific arm positioning and tension that limits their ability to work escapes, while focusing on escapes creates openings for submissions. Skilled practitioners exploit this dilemma by flowing between submission attempts and position consolidation, never allowing the opponent to settle into effective defense.\n\nThe position also serves a critical strategic role in competition and training scenarios. When opponents develop sophisticated defenses against standard side control, transitioning to Kuzure Kesa-Gatame resets the control dynamic and presents them with a different set of problems to solve. The position is particularly effective against larger opponents, as the mechanical advantage of the arm isolation and the efficiency of the hip pressure allow smaller practitioners to control and submit bigger adversaries. Mastering this position—both its control mechanics and submission sequences—represents a significant milestone in developing a complete top game.",
-    "state_properties": {
-      "point_value": 3,
-      "position_type": "Offensive/Controlling",
-      "risk_level": "Low to Medium",
-      "energy_cost": "Medium",
-      "time_sustainability": "Medium to Long"
     },
-    "state_invariants": [
-      "Top practitioner sits beside opponent with hip pressed into opponent's lower ribs, their weight channeled through this contact point while chest stays low over opponent's upper body, one of opponent's arms trapped between top practitioner's armpit and chest extending across their torso",
-      "Top practitioner's base leg (far from opponent) posts wide to prevent being rolled, knee bent and foot flat on mat creating stable tripod with hip and sitting bone, while near leg can hook over opponent's hip or extend for additional base depending on control requirements",
-      "Opponent's trapped arm is controlled at both shoulder (by top practitioner's armpit pressure) and wrist (by top practitioner's grip or arm position), preventing arm recovery while creating immediate submission access, opponent's free arm limited in effectiveness by top practitioner's low chest position and hip pressure"
-    ],
-    "prerequisites": [
-      "Side control has been achieved with opponent flattened to their side",
-      "One of opponent's arms has been isolated and can be trapped across top practitioner's torso",
-      "Top practitioner can establish hip pressure into opponent's ribs while maintaining low chest position"
-    ],
-    "key_principles": [
-      "Hip pressure is the foundation—all control and submissions flow from maintaining this pressure vector",
-      "Chest stays low and heavy, using body weight efficiently rather than muscular tension",
-      "Base leg posts wide and strong to prevent rolls while maintaining ability to pressure opponent",
-      "Trapped arm must be controlled at shoulder and wrist simultaneously to prevent recovery",
-      "Submission transitions should maintain pressure—never sacrifice positional control for submission attempts",
-      "Head position on far side of opponent prevents bridge and roll attempts by redirecting force",
-      "Constant small adjustments in pressure and position prevent opponent from timing escapes"
-    ],
-    "offensive_transitions": [
+    "transitions": [
       {
-        "technique": "Americana from Side Control",
-        "target_position": "Americana Control",
-        "success_rates": {
-          "beginner": 40,
-          "intermediate": 60,
-          "advanced": 75
-        }
+        "transition": "Elbow Escape",
+        "attempt_probability": 21
       },
       {
-        "technique": "Armbar from Side Control",
-        "target_position": "Armbar Control",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 55,
-          "advanced": 70
-        }
+        "transition": "Arm Recovery to Guard",
+        "attempt_probability": 18
       },
       {
-        "technique": "Kimura from Side Control",
-        "target_position": "Kimura Control",
-        "success_rates": {
-          "beginner": 38,
-          "intermediate": 58,
-          "advanced": 72
-        }
+        "transition": "Bridge and Roll",
+        "attempt_probability": 14
       },
       {
-        "technique": "Transition to Mount",
-        "target_position": "Mount",
-        "success_rates": {
-          "beginner": 45,
-          "intermediate": 65,
-          "advanced": 80
-        }
+        "transition": "Granby Roll",
+        "attempt_probability": 19
       },
       {
-        "technique": "Transition to North-South",
-        "target_position": "North-South",
-        "success_rates": {
-          "beginner": 50,
-          "intermediate": 68,
-          "advanced": 82
-        }
+        "transition": "Technical Standup",
+        "attempt_probability": 12
       },
       {
-        "technique": "Paper Cutter Choke",
-        "target_position": "Won by Submission",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 45,
-          "advanced": 62
-        }
-      },
-      {
-        "technique": "Arm Triangle",
-        "target_position": "Won by Submission",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 50,
-          "advanced": 68
-        }
-      },
-      {
-        "technique": "Breadcutter Choke",
-        "target_position": "Won by Submission",
-        "success_rates": {
-          "beginner": 20,
-          "intermediate": 40,
-          "advanced": 58
-        }
-      },
-      {
-        "technique": "Far Side Armbar",
-        "target_position": "Armbar Control",
-        "success_rates": {
-          "beginner": 28,
-          "intermediate": 48,
-          "advanced": 65
-        }
-      },
-      {
-        "technique": "Gift Wrap Control",
-        "target_position": "Gift Wrap",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 52,
-          "advanced": 68
-        }
+        "transition": "Re-Guard from Headquarters",
+        "attempt_probability": 16
       }
-    ],
-    "defensive_responses": [
-      {
-        "technique": "Elbow Escape",
-        "target_position": "Half Guard",
-        "success_rate": 30
-      },
-      {
-        "technique": "Bridge and Roll",
-        "target_position": "Side Control",
-        "success_rate": 20
-      },
-      {
-        "technique": "Granby Roll",
-        "target_position": "Turtle",
-        "success_rate": 28
-      },
-      {
-        "technique": "Arm Recovery to Guard",
-        "target_position": "Closed Guard",
-        "success_rate": 25
-      },
-      {
-        "technique": "Technical Standup",
-        "target_position": "Standing Position",
-        "success_rate": 15
-      }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Mount Transition",
-        "target_position": "Mount",
-        "trigger": "Opponent turns into you attempting to recover guard"
-      },
-      {
-        "technique": "Armbar Attack",
-        "target_position": "Armbar Control",
-        "trigger": "Opponent extends trapped arm during escape attempt"
-      },
-      {
-        "technique": "North-South Transition",
-        "target_position": "North-South",
-        "trigger": "Opponent creates space with hip escape on near side"
-      },
-      {
-        "technique": "Americana Lock",
-        "target_position": "Americana Control",
-        "trigger": "Opponent uses trapped arm to push against your chest"
-      }
-    ],
-    "decision_tree": [
-      {
-        "condition": "If opponent keeps trapped arm bent and defensive while attempting hip escapes",
-        "actions": [
-          {
-            "technique": "Transition to Mount",
-            "target": "Mount",
-            "probability": 70
-          },
-          {
-            "technique": "Transition to North-South",
-            "target": "North-South",
-            "probability": 60
-          }
-        ]
-      },
-      {
-        "condition": "Else if opponent extends trapped arm attempting to create frame or push",
-        "actions": [
-          {
-            "technique": "Armbar from Side Control",
-            "target": "Armbar Control",
-            "probability": 75
-          },
-          {
-            "technique": "Americana from Side Control",
-            "target": "Americana Control",
-            "probability": 68
-          }
-        ]
-      },
-      {
-        "condition": "Else if opponent bridges and attempts to roll you over posting leg",
-        "actions": [
-          {
-            "technique": "Kimura from Side Control",
-            "target": "Kimura Control",
-            "probability": 65
-          },
-          {
-            "technique": "Gift Wrap Control",
-            "target": "Gift Wrap",
-            "probability": 58
-          }
-        ]
-      },
-      {
-        "condition": "Else if opponent turns away exposing their back to escape pressure",
-        "actions": [
-          {
-            "technique": "Transition to Mount",
-            "target": "Mount",
-            "probability": 80
-          },
-          {
-            "technique": "Back Take Generic",
-            "target": "Back Control",
-            "probability": 72
-          }
-        ]
-      }
-    ],
-    "common_errors": [
-      {
-        "error": "Sitting too upright with torso vertical rather than maintaining low chest position",
-        "consequence": "Reduces pressure effectiveness and allows opponent to create frames with free arm, leading to easy escapes",
-        "correction": "Keep chest low and parallel to opponent's torso, channeling weight through hip into their ribs while maintaining heavy upper body pressure"
-      },
-      {
-        "error": "Posting base leg too close to opponent's body instead of wide base",
-        "consequence": "Creates vulnerability to bridge and roll reversal, allowing opponent to sweep to top position",
-        "correction": "Post base leg wide with knee bent and foot flat, creating stable tripod that opponent cannot roll over"
-      },
-      {
-        "error": "Gripping trapped arm only at wrist without controlling shoulder",
-        "consequence": "Allows opponent to recover arm through shoulder rotation and hip escape despite wrist control",
-        "correction": "Maintain armpit pressure on opponent's shoulder while also controlling wrist, creating two-point control system"
-      },
-      {
-        "error": "Abandoning hip pressure to pursue submission with both hands",
-        "consequence": "Opponent immediately escapes when pressure is released, nullifying submission attempt",
-        "correction": "Maintain hip pressure throughout submission attempts, using body positioning rather than hand fighting to create submissions"
-      },
-      {
-        "error": "Remaining static in same position without pressure adjustments or transitions",
-        "consequence": "Opponent times their escape to your static pressure pattern, successfully creating space",
-        "correction": "Make constant micro-adjustments in hip pressure angle and chest position, preventing opponent from settling into defensive rhythm"
-      },
-      {
-        "error": "Placing head directly above opponent's chest rather than on far side",
-        "consequence": "Creates leverage point for opponent's bridge and roll, making reversal highly probable",
-        "correction": "Position head on far side of opponent's body, past their shoulder line, redirecting bridge force harmlessly"
-      },
-      {
-        "error": "Using muscular tension in arms and chest instead of efficient weight distribution",
-        "consequence": "Rapid fatigue reduces ability to maintain control, forcing position abandonment",
-        "correction": "Relax upper body musculature while maintaining structural position, using body weight not muscle strength"
-      }
-    ],
-    "training_drills": [
-      {
-        "name": "Pressure Maintenance Under Movement",
-        "description": "Establish position, partner attempts only hip escapes (no submissions). Focus solely on maintaining hip pressure and chest position through their movement. Partner increases resistance progressively. Develops pressure sensitivity and adjustment timing.",
-        "duration": "5 minutes"
-      },
-      {
-        "name": "Submission Chain Flow",
-        "description": "From established position, flow between americana, kimura, and armbar without releasing control. Partner defends passively. Focus on maintaining pressure during transitions. Builds submission chain fluidity and pressure consistency.",
-        "duration": "4 minutes"
-      },
-      {
-        "name": "Base Stability Against Bridges",
-        "description": "Partner performs maximum effort bridges attempting to roll you. Focus on base leg posting, weight distribution, and head position. Builds structural resistance to explosive reversal attempts. Reset after each bridge attempt.",
-        "duration": "3 minutes"
-      },
-      {
-        "name": "Progressive Resistance Control",
-        "description": "Start with compliant partner, increase their resistance by 20% every minute until 100%. Maintain position throughout progression. Identifies control breakdown points and builds pressure under increasing resistance. Reset to 0% after loss of control.",
-        "duration": "6 minutes"
-      },
-      {
-        "name": "Submission Completion Under Time",
-        "description": "30-second rounds: establish position and finish submission before time expires. Partner defends at 70% resistance. Builds urgency in submission mechanics and decision-making. Track success rate across multiple rounds.",
-        "duration": "5 minutes"
-      }
-    ],
-    "optimal_submission_paths": [
-      {
-        "name": "Americana Finish Chain",
-        "path": "Kuzure Kesa-Gatame Top → Americana from Side Control → Americana Control → Won by Submission"
-      },
-      {
-        "name": "Armbar Progression",
-        "path": "Kuzure Kesa-Gatame Top → Armbar from Side Control → Armbar Control → Won by Submission"
-      },
-      {
-        "name": "Mount to Submission",
-        "path": "Kuzure Kesa-Gatame Top → Transition to Mount → Mount → Armbar from Mount → Won by Submission"
-      },
-      {
-        "name": "Kimura Control Path",
-        "path": "Kuzure Kesa-Gatame Top → Kimura from Side Control → Kimura Control → Won by Submission"
-      },
-      {
-        "name": "Choke Attack Sequence",
-        "path": "Kuzure Kesa-Gatame Top → Paper Cutter Choke → Won by Submission"
-      }
-    ],
-    "related_content": [
-      {
-        "name": "Kesa Gatame",
-        "relationship": "Parent position—traditional scarf hold without arm isolation"
-      },
-      {
-        "name": "Side Control",
-        "relationship": "Position family sharing control principles"
-      },
-      {
-        "name": "Americana from Side Control",
-        "relationship": "Primary submission attack from trapped arm"
-      },
-      {
-        "name": "Armbar from Side Control",
-        "relationship": "High-percentage submission when arm extends"
-      },
-      {
-        "name": "Kimura from Side Control",
-        "relationship": "Alternative shoulder lock from same arm control"
-      },
-      {
-        "name": "Mount",
-        "relationship": "Common advancement when opponent turns in"
-      },
-      {
-        "name": "North-South",
-        "relationship": "Transitional position for maintaining control"
-      },
-      {
-        "name": "Pressure Application",
-        "relationship": "Fundamental principle for position effectiveness"
-      },
-      {
-        "name": "Gift Wrap",
-        "relationship": "Alternative control when arm trapping opportunities arise"
-      },
-      {
-        "name": "100 Kilos",
-        "relationship": "Related position emphasizing shoulder pressure mechanics"
-      }
-    ],
-    "position_metrics": {
-      "retention_rate": {
-        "beginner": 70,
-        "intermediate": 82,
-        "advanced": 92,
-        "description": "Ability to maintain position against escape attempts"
-      },
-      "advancement_probability": {
-        "beginner": 55,
-        "intermediate": 72,
-        "advanced": 85,
-        "description": "Likelihood of advancing to mount or back control"
-      },
-      "submission_probability": {
-        "beginner": 35,
-        "intermediate": 58,
-        "advanced": 75,
-        "description": "Likelihood of finishing from this position"
-      },
-      "average_time": "60-120 seconds to submission or position advancement"
-    }
+    ]
   }
 }

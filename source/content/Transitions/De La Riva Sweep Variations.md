@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "De La Riva Sweep Variations | BJJ Technique | BJJ Graph"
 description: "Master De La Riva Sweep Variations in BJJ. Complete guide covering classic sweep, waiter sweep, balloon sweep, berimbolo. Beginner 35%, Intermediate 55%, Advanced 75%."
@@ -16,7 +17,7 @@ description: "Master De La Riva Sweep Variations in BJJ. Complete guide covering
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute De La Riva Sweep Variations in BJJ",
-  "description": "Step-by-step guide for De La Riva Sweep Variations from De La Riva Guard to Side Control.",
+  "description": "Step-by-step guide for De La Riva Sweep Variations from De La Riva Guard/Bottom. Possible outcomes: Side Control/Top (75%), De La Riva Guard/Bottom (15%), De La Riva Guard/Top (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -160,11 +161,25 @@ description: "Master De La Riva Sweep Variations in BJJ. Complete guide covering
 
 The De La Riva Sweep Variations represent a comprehensive system of sweeps from one of BJJ's most dynamic guard positions. Named after Ricardo De La Riva, this guard position uses a deep hook on the opponent's leg combined with strategic grips to create powerful off-balancing opportunities. The variations include the classic De La Riva sweep to the back, the waiter sweep, the balloon sweep, and numerous transitional sweeps that flow into X-Guard, Single Leg X, and other advanced positions. Each variation exploits different defensive reactions and postures, making this system highly adaptable to various opponent responses. The technical foundation of all De La Riva sweeps relies on maintaining the characteristic DLR hook (wrapping your inside leg around the opponent's near leg), controlling distance with your outside leg on the hip or bicep, and using grips to break the opponent's base while creating angles. Success with these sweeps requires understanding timing, grip fighting, and the ability to chain multiple attacks together when the first attempt is defended. The De La Riva system is particularly effective in gi competition due to the control offered by pant and sleeve grips, though no-gi variations exist using underhooks and overhooks instead.
 
-**Starting Position**: [[De La Riva Guard]]
-**Ending Position**: [[Side Control]]
+**From Position**: [[De La Riva Guard/Bottom]]
 **Success Rates**: Beginner 35%, Intermediate 55%, Advanced 75%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Side Control/Top]] | 75% |
+| Failure | [[De La Riva Guard/Bottom]] | 15% |
+| Counter | [[De La Riva Guard/Top]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

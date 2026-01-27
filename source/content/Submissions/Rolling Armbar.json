@@ -149,7 +149,7 @@
     {
       "defense": "Opponent hitchhikes (rotates thumb away) to relieve elbow pressure",
       "effectiveness": "Medium",
-      "your_adjustment": "Immediately after completing the roll, forcefully rotate their arm back to thumb-up position using both hands. Pinch your knees tighter together and pull their wrist down past your chest to prevent the rotation. If they persist, can transition to wrist lock or reverse armbar."
+      "your_adjustment": "Immediately after completing the roll, forcefully rotate their arm back to thumb-up position using both hands. Pinch your knees tighter together and pull their wrist down past your chest to prevent the rotation. If they persist, can transition to wrist lock or belly-down armbar."
     },
     {
       "defense": "Opponent sprawls their legs back during setup to create distance",
@@ -240,6 +240,11 @@
       "safety_critical": true
     },
     {
+      "question": "What anatomical structure does the rolling armbar attack, and what are the warning signs that indicate the breaking point is approaching?",
+      "answer": "The rolling armbar attacks the elbow joint, specifically hyperextending it by applying force against the natural bending direction. The primary structures at risk are the ulnar collateral ligament (UCL), lateral collateral ligament (LCL), and the joint capsule itself. Warning signs approaching the breaking point include visible straightening of the arm past neutral, the opponent's increasing resistance followed by sudden relaxation, verbal or physical tap attempts, and any popping or cracking sensations. The submission should be released immediately at the first sign of any of these indicators.",
+      "safety_critical": true
+    },
+    {
       "question": "What are the key differences in arm control between a rolling armbar and a traditional armbar from mount?",
       "answer": "The rolling armbar requires more dynamic and continuous arm control throughout a rotational sequence, whereas the mount armbar is applied from a stable, established position. In the rolling variation, you must maintain two-handed grip throughout the entire roll while your body rotates through space, requiring the arm to be pulled tight across your chest and centerline. The mount armbar allows you to establish position first, then apply control. The rolling armbar also requires anticipating the opponent's defensive reactions during the roll itself, making grip strength and arm connection absolutely critical from the initial setup through the finish.",
       "safety_critical": false
@@ -251,7 +256,7 @@
     },
     {
       "question": "Why is creating a 45-degree angle essential before initiating the roll, and what happens if you attempt the technique straight on?",
-      "answer": "The 45-degree angle off center is critical because it creates the proper rotational axis for the rolling mechanics and prevents you from rolling directly backwards over your neck. This angle allows your shoulder to contact the mat first and provides the geometric pathway for your body to rotate smoothly while maintaining arm control. Attempting the roll straight on without this angle results in rolling over your neck (dangerous), getting stuck mid-roll without completing the rotation, or losing arm control as the improper angle creates slack in your grip. The angle also helps break the opponent's base and prevents them from simply postinng out and stopping the roll.",
+      "answer": "The 45-degree angle off center is critical because it creates the proper rotational axis for the rolling mechanics and prevents you from rolling directly backwards over your neck. This angle allows your shoulder to contact the mat first and provides the geometric pathway for your body to rotate smoothly while maintaining arm control. Attempting the roll straight on without this angle results in rolling over your neck (dangerous), getting stuck mid-roll without completing the rotation, or losing arm control as the improper angle creates slack in your grip. The angle also helps break the opponent's base and prevents them from simply posting out and stopping the roll.",
       "safety_critical": false
     },
     {
@@ -263,6 +268,26 @@
       "question": "How does timing the roll with the opponent's forward pressure or posture increase success rate, and what happens if you force the roll against their resistance?",
       "answer": "Timing the roll with the opponent's forward momentum or posture attempt dramatically increases success because you're using their energy to facilitate your technique rather than fighting against it. When they push forward or posture up, their weight is already moving in the direction of your roll, making the rotation easier and faster. Forcing the roll against their resistance typically results in getting stuck mid-technique, losing arm control, or having them stack you effectively. Advanced practitioners wait for these moments of forward pressure, sometimes even baiting the opponent to posture by creating space, then explosively capitalizing on that split-second of commitment to complete the roll before they can react defensively.",
       "safety_critical": false
+    },
+    {
+      "question": "Your opponent begins rotating their thumb away (hitchhiking) as you complete the roll - what grip adjustment prevents them from escaping the finish?",
+      "answer": "When the opponent hitchhikes, immediately clamp your knees together tightly to prevent further rotation of their forearm. Simultaneously, use both hands to grip their wrist and forcefully rotate their arm back to the thumb-up position. Pull their wrist down toward your hip rather than straight to your chest - this creates a mechanical disadvantage for their hitchhike attempt. If their rotation continues despite these adjustments, transition to a belly-down armbar by rolling onto your stomach while maintaining the arm, which reverses the hitchhike direction and reapplies pressure to the elbow joint.",
+      "safety_critical": false
+    },
+    {
+      "question": "What indicators tell you that you have secured the point of no escape in the rolling armbar finishing position?",
+      "answer": "The point of no escape is achieved when: your hips are tight against their shoulder with zero gap, their arm is fully extended with elbow positioned above your hip line, your ankles are crossed over their torso creating a locked frame, your knees are pinched together preventing arm rotation, and their wrist is controlled with both hands below your chest level. At this point, even minimal hip elevation creates immediate elbow pressure. If any of these elements are missing - particularly the hip contact or knee pinch - the opponent still has escape routes available and you should adjust before applying finishing pressure.",
+      "safety_critical": false
+    },
+    {
+      "question": "In competition, your opponent is defending aggressively and you sense the roll might fail mid-technique - what is the safest recovery strategy?",
+      "answer": "If the roll is failing mid-technique, immediately prioritize maintaining your grip on their arm while abandoning the rolling motion. Use your free leg to post on the mat and stabilize your position. From here, you have several options: transition to triangle choke if their head and arm alignment is favorable, move to omoplata by pivoting your hips, or simply recover to closed guard while maintaining the arm control. The worst option is to continue forcing a failed roll, which typically results in losing position entirely and potentially ending up in bottom side control. Recognizing early failure and transitioning is superior to stubbornly committing to a doomed technique.",
+      "safety_critical": false
+    },
+    {
+      "question": "What finishing error commonly causes training partners to get injured during the rolling armbar, and how do you prevent it?",
+      "answer": "The most common finishing error causing injuries is applying the extension too rapidly after completing the roll. The momentum and surprise of the rolling entry often means the opponent hasn't fully realized they're in danger until the submission is locked. If you immediately hyperextend with full force, they have no time to tap. Prevention requires deliberately slowing down the finishing phase regardless of how explosive the rolling entry was. Apply extension progressively over 3-5 seconds, watching for tap signals throughout. The position and leverage create the tap, not speed - a properly locked rolling armbar requires minimal force to finish safely.",
+      "safety_critical": true
     }
   ],
   "training_progressions_and_safety_protocols": [
@@ -330,7 +355,6 @@
     "Flying Armbar",
     "Armbar Finish",
     "Straight Armbar",
-    "Reverse Armbar",
     "Triangle from Guard",
     "Kimura from Guard",
     "Belly Down Armbar",
@@ -340,52 +364,52 @@
   ],
   "related_content": [
     {
-      "name": "Triangle to Armbar",
-      "relationship": "Common combination - if triangle is defended, rolling armbar becomes available from the same position"
-    },
-    {
-      "name": "Omoplata to Back",
-      "relationship": "Related rolling attack - uses similar rotational mechanics and creates armbar opportunities if opponent defends"
-    },
-    {
-      "name": "Mount to Armbar",
-      "relationship": "Alternative static armbar - provides comparison between established position armbar vs dynamic rolling entry"
-    },
-    {
-      "name": "Hip Movement",
-      "relationship": "Core principle - essential for creating the angle and executing the rolling motion"
-    },
-    {
-      "name": "Submission Chains",
-      "relationship": "Strategic framework - rolling armbar fits into guard attack sequences with triangle and omoplata"
-    },
-    {
-      "name": "Leverage Principles",
-      "relationship": "Fundamental concept - explains why the rolling motion creates superior leverage on the elbow joint"
-    },
-    {
       "name": "Armbar Control",
       "relationship": "Finishing position - where the rolling armbar ends and standard armbar mechanics apply"
     },
     {
-      "name": "Guard Recovery",
-      "relationship": "Common transition if technique fails - rolling motion can return you to guard if submission doesn't materialize"
+      "name": "Triangle Control",
+      "relationship": "Common combination - if triangle is defended, rolling armbar becomes available from the same position"
     },
     {
-      "name": "Submission Control Position",
-      "relationship": "Positional principle - understanding how to maintain control during dynamic movements"
+      "name": "Omoplata Control",
+      "relationship": "Related rolling attack - uses similar rotational mechanics and creates armbar opportunities if opponent defends"
     },
     {
-      "name": "Positional Hierarchy",
-      "relationship": "Strategic concept - knowing when to abandon the attempt and return to position rather than forcing the roll"
+      "name": "Closed Guard",
+      "relationship": "Primary starting position for rolling armbar setups with optimal arm isolation"
+    },
+    {
+      "name": "Spider Guard",
+      "relationship": "Alternative setup position using sleeve control to facilitate arm isolation for the roll"
+    },
+    {
+      "name": "Turtle",
+      "relationship": "Transition target - rolling armbar can be executed when opponent turtles defensively"
     },
     {
       "name": "Crucifix",
       "relationship": "Alternative arm control position - can transition to rolling armbar when opponent attempts to escape crucifix"
     },
     {
-      "name": "Kimura",
+      "name": "Kimura Trap",
       "relationship": "Related arm attack - creates rolling armbar opportunities when opponent defends by straightening their arm"
+    },
+    {
+      "name": "Open Guard",
+      "relationship": "Recovery position if technique fails - rolling motion can return you to guard if submission doesn't materialize"
+    },
+    {
+      "name": "De La Riva Guard",
+      "relationship": "Setup position for standing opponents where arm isolation can initiate rolling entry"
+    },
+    {
+      "name": "Butterfly Guard",
+      "relationship": "Alternative guard setup that provides underhook control useful for arm isolation before roll"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Positional option for setting up rolling armbar when opponent attempts to pass"
     }
   ]
 }

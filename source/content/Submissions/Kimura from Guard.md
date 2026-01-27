@@ -431,4 +431,14 @@ The Kimura from Guard is a fundamental shoulder lock that can be applied from mu
 
 </section>
 
+<section id="terminal-state" class="content-section">
+
+## Match Outcome
+
+Successful execution of Kimura from Guard leads to → [[game-over|Game Over]]
+
+*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+
+</section>
+
 </main>

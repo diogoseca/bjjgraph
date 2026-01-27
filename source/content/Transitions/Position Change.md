@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Position Change | BJJ Technique | BJJ Graph"
 description: "Master Position Change transitions in BJJ. Learn systematic advancement from guard to dominant positions. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%."
@@ -16,7 +17,7 @@ description: "Master Position Change transitions in BJJ. Learn systematic advanc
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Position Change in BJJ",
-  "description": "Step-by-step guide for Position Change from Open Guard to Side Control.",
+  "description": "Step-by-step guide for Position Change from Open Guard/Bottom. Possible outcomes: Side Control/Top (70%), Open Guard/Bottom (20%), Open Guard/Top (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -164,11 +165,25 @@ The ability to change positions effectively requires a deep understanding of the
 
 Position changes serve multiple strategic purposes: they increase point scoring opportunities in competition, create better submission angles, tire opponents through constant defensive demands, and demonstrate technical superiority. The most effective position changes combine offensive pressure with defensive awareness, ensuring that the transition itself doesn't create vulnerabilities. Mastering this fundamental concept allows practitioners to implement their game plan methodically while neutralizing opponent attacks.
 
-**Starting Position**: [[Open Guard]]
-**Ending Position**: [[Side Control]]
+**From Position**: [[Open Guard/Bottom]]
 **Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Side Control/Top]] | 70% |
+| Failure | [[Open Guard/Bottom]] | 20% |
+| Counter | [[Open Guard/Top]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 
@@ -348,7 +363,7 @@ Position changes also integrate deeply with other core BJJ concepts including gr
 - [[Back Take Generic]] - Advanced position change to most dominant control position
 - [[Side Control to Mount]] - Classic incremental position improvement transition
 - [[Re-Guard]] - Defensive position change to recover guard from inferior positions
-- [[Transition to North-South]] - Alternative position change when mount or back control is defended
+- [[Side Control to North-South]] - Alternative position change when mount or back control is defended
 - [[Half Guard to Back Take]] - Example of multi-step position change sequence
 - [[Technical Stand Up to Single Leg]] - Position change to return to standing from bottom positions
 - [[Position Transitions]] - Conceptual framework underlying all position changes

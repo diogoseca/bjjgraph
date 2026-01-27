@@ -95,26 +95,20 @@ Both perspectives require specialized drilling and positional understanding, as 
 - Exploit top player's base vulnerabilities when they reach for submissions or attempt to transition positions
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Elbow Escape]]** → [[Half Guard]]
-  - Success Rate: Beginner 25%, Intermediate 35%, Advanced 45%
+- **[[Elbow Escape]]** (20% of attempts)
 
-- **[[Bridge and Roll]]** → [[Reverse Scarf Hold Top]]
-  - Success Rate: Beginner 15%, Intermediate 25%, Advanced 35%
+- **[[Bridge and Roll]]** (15% of attempts)
 
-- **[[Hip Escape]]** → [[Open Guard]]
-  - Success Rate: Beginner 20%, Intermediate 30%, Advanced 40%
+- **[[Hip Escape]]** (17% of attempts)
 
-- **[[Frame and Shrimp]]** → [[Closed Guard]]
-  - Success Rate: Beginner 18%, Intermediate 28%, Advanced 38%
+- **[[Frame and Shrimp]]** (17% of attempts)
 
-- **[[Technical Standup]]** → [[Standing Position]]
-  - Success Rate: Beginner 12%, Intermediate 20%, Advanced 30%
+- **[[Technical Standup]]** (13% of attempts)
 
-- **[[Shrimp Escape]]** → [[Open Guard]]
-  - Success Rate: Beginner 22%, Intermediate 32%, Advanced 42%
+- **[[Shrimp Escape]]** (18% of attempts)
 
 
 ### Common Mistakes
@@ -170,29 +164,22 @@ Both perspectives require specialized drilling and positional understanding, as 
 - Weight Distribution Management: Proper pressure application through chest and hips maximizes control while maintaining your own base stability
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Transition to North-South]]** → [[North-South]]
-  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+- **[[Side Control to North-South]]** (18% of attempts)
 
-- **[[Transition to Mount]]** → [[Mount]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Side Control to Mount]]** (15% of attempts)
 
-- **[[Americana from Side Control]]** → [[Americana Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Americana from Side Control]]** (13% of attempts)
 
-- **[[Kimura from Side Control]]** → [[Kimura Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Kimura from Side Control]]** (14% of attempts)
 
-- **[[Back Step]]** → [[Back Control]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Back Step]]** (12% of attempts)
 
-- **[[Knee Slice Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Knee Slice Pass]]** (17% of attempts)
 
-- **[[Arm Triangle]]** → [[Armbar Control]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+- **[[Arm Triangle]]** (11% of attempts)
 
 
 ### Common Mistakes
@@ -247,9 +234,7 @@ Both perspectives require specialized drilling and positional understanding, as 
 
 - **[[Back Control]]** - Available when opponent turns away during escape attempts
 
-- **[[Americana Control]]** - Primary submission control position from reverse scarf hold
-
-- **[[Kimura Control]]** - Alternative submission when arm is extended
+- **[[Kimura Trap]]** - Primary submission control position from reverse scarf hold
 
 - **[[Half Guard]]** - Common escape destination for bottom player
 

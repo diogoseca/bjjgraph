@@ -9,8 +9,6 @@
     "standing",
     "control"
   ],
-  "starting_position": "Standing Position",
-  "ending_position": "Back Control",
   "success_rates": {
     "beginner": 35,
     "intermediate": 50,
@@ -238,6 +236,24 @@
     {
       "name": "Kimura from Standing",
       "relationship": "Alternative standing submission when opponent defends back exposure"
+    }
+  ],
+  "from_position": "Standing Position/Top",
+  "outcomes": [
+    {
+      "to": "Back Control/Top",
+      "probability": 70,
+      "result": "success"
+    },
+    {
+      "to": "Standing Position/Top",
+      "probability": 20,
+      "result": "failure"
+    },
+    {
+      "to": "Standing Position/Bottom",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

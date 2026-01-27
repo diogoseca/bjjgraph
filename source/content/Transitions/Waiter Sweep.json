@@ -10,8 +10,6 @@
     "guard-bottom",
     "off-balancing"
   ],
-  "starting_position": "Butterfly Guard",
-  "ending_position": "Side Control",
   "success_rates": {
     "beginner": 45,
     "intermediate": 60,
@@ -281,6 +279,24 @@
     {
       "name": "Half Butterfly",
       "relationship": "Related position - hybrid guard using similar hook mechanics"
+    }
+  ],
+  "from_position": "Butterfly Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Side Control/Top",
+      "probability": 75,
+      "result": "success"
+    },
+    {
+      "to": "Butterfly Guard/Bottom",
+      "probability": 15,
+      "result": "failure"
+    },
+    {
+      "to": "Butterfly Guard/Top",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

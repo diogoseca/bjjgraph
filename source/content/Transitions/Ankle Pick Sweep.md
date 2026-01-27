@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Ankle Pick Sweep | BJJ Technique | BJJ Graph"
 description: "Master the Ankle Pick Sweep from seated guard. Step-by-step execution with grip control and off-balancing. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%."
@@ -16,7 +17,7 @@ description: "Master the Ankle Pick Sweep from seated guard. Step-by-step execut
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Ankle Pick Sweep in BJJ",
-  "description": "Step-by-step guide for Ankle Pick Sweep from Seated Guard to Standing Position.",
+  "description": "Step-by-step guide for Ankle Pick Sweep from Seated Guard. Possible outcomes: Headquarters Position (65%), Seated Guard (25%), Half Guard (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -164,11 +165,25 @@ The technique is particularly effective against opponents who maintain an uprigh
 
 This sweep serves as a cornerstone technique in modern no-gi grappling and has been refined by competitive grapplers who utilize seated guard as a primary defensive and offensive position. The Ankle Pick Sweep can be executed with minimal energy expenditure when timed correctly, making it an excellent option for practitioners of all sizes and strength levels. Its effectiveness lies in the mechanical advantage created rather than relying on superior strength or athleticism.
 
-**Starting Position**: [[Seated Guard]]
-**Ending Position**: [[Standing Position]]
+**From Position**: [[Seated Guard]]
 **Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Headquarters Position]] | 65% |
+| Failure | [[Seated Guard]] | 25% |
+| Counter | [[Half Guard]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 
@@ -319,6 +334,21 @@ Incorporate ankle pick sweep into your overall seated guard system. Practice swi
 **Q7**: What body mechanics generate the most power in the ankle pick sweep?
 **A**: Maximum power comes from full-body rotation using your core, lats, and back muscles rather than relying on arm strength alone. The pulling motion should originate from your torso rotation, with your arms serving as connectors rather than primary movers. Engage your obliques to create rotational force, and use your lats to generate pulling power on the upper body grip. The ankle sweep should be driven by your torso rotation and hip movement, creating a whipping motion that multiplies the force applied to the opponent's base.
 
+**Q8**: Your opponent begins sprawling backward as you reach for the ankle - what is your immediate tactical response?
+**A**: When the opponent sprawls backward, follow their momentum rather than fighting it. Use their backward motion to transition into Single Leg X-Guard by sliding your near leg under and hooking their retreating leg, or come up to your knees immediately and pursue with a wrestling-style single leg attack. Alternatively, if you maintain the ankle grip, continue pulling while coming up to standing to convert to a single leg takedown finish. The worst response is to stay seated and try to pull them back toward you.
+
+**Q9**: What specific grip adjustments are required when executing the ankle pick in no-gi compared to gi?
+**A**: In no-gi, replace the collar grip with wrist control, tricep control, or a collar tie behind the head. The wrist grip must be secured with more active hand positioning since there's no fabric to grip. For the ankle, use the same cupping grip on the Achilles but expect more slippage from sweat, so position your grip lower near the heel where the ankle narrows. The sweep timing becomes more critical in no-gi because grips can slip, so execute with more explosive commitment rather than controlled pulling.
+
+**Q10**: What visual cues indicate an opponent is vulnerable to the ankle pick sweep?
+**A**: Key visual cues include: the opponent's weight visibly loaded onto one leg (hip drops toward that side), stepping forward with a narrow base, looking away or distracted by grip fighting, attempting to establish their own grips which compromises their base, rising up onto the balls of their feet suggesting forward weight commitment, or any lateral weight shift while adjusting stance. The ideal moment is when they commit weight to step and haven't yet completed the weight transfer to their other leg.
+
+**Q11**: How does the direction of your pulling force affect sweep success rate?
+**A**: The pulling direction must be diagonal - across your body and slightly downward - rather than straight back. Pulling straight back allows the opponent to simply step backward with minimal resistance. The diagonal pull creates a rotational vector that spins their upper body toward the mat on the opposite side from the trapped ankle, loading all their weight onto that single point of contact. This diagonal force also makes it difficult for them to post effectively because their hands are being pulled away from the posting line.
+
+**Q12**: After successfully completing the ankle pick sweep, what immediate positional priorities should you focus on?
+**A**: Immediately after the sweep, your priorities are: first, maintain upper body control throughout the transition to prevent guard recovery; second, come up on your knees explosively rather than staying seated; third, establish headquarters position or side control by getting your hips perpendicular to your opponent; fourth, secure head control with a crossface or underhook to prevent them from turning toward you; and fifth, begin advancing toward mount or working to pass any remaining leg frames. The first three seconds after a sweep are critical for consolidating position.
+
 
 
 </section>
@@ -350,13 +380,13 @@ In the broader context of guard systems, the ankle pick sweep represents the bri
 - [[Arm Drag to Back]] - Combination - use ankle pick threat to set up arm drag
 - [[Single Leg Entry]] - Conversion - transition when ankle pick partially succeeds
 - [[Elevator Sweep]] - Alternative - similar off-balancing principle from seated position
-- [[Foot Grab Sweep]] - Related - targets foot instead of ankle with similar mechanics
-- [[Heel Grab Sweep]] - Variation - grips heel instead of ankle for similar sweep
-- [[100% Sweep]] - Related - another seated guard sweep with upper body control
 - [[Tripod Sweep]] - Alternative - uses foot instead of hand for ankle control
 - [[Sickle Sweep]] - Related - hooks ankle with leg instead of hand
 - [[Kimura from Guard]] - Counter - when opponent posts hand defending the sweep
 - [[X-Guard Sweep]] - Follow-up - when opponent partially defends ankle pick
+- [[Single Leg X-Guard]] - Transition - when opponent sprawls during ankle pick attempt
+- [[Technical Stand-up]] - Alternative - standing option from same seated position
+- [[Seated Guard]] - Starting position - where this technique is executed from
 
 
 </section>

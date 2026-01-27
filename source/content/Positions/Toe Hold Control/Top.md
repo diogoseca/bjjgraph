@@ -21,37 +21,37 @@ description: "Master Toe Hold Control Top position in BJJ. Complete guide coveri
     {
       "@type": "HowToStep",
       "name": "Execute Toe Hold",
-      "text": "From this position, execute Toe Hold to transition to Won by Submission. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Toe Hold. This technique is attempted in 17% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Outside Ashi Entry",
-      "text": "From this position, execute Outside Ashi Entry to transition to Outside Ashi-Garami. Success rate for advanced practitioners: 80%.",
+      "text": "From this position, attempt Outside Ashi Entry. This technique is attempted in 18% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Inside Ashi Entry",
-      "text": "From this position, execute Inside Ashi Entry to transition to Inside Ashi-Garami. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Inside Ashi Entry. This technique is attempted in 17% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Saddle Entry from Top",
-      "text": "From this position, execute Saddle Entry from Top to transition to Saddle. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Saddle Entry from Top. This technique is attempted in 16% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Straight Ankle Lock",
-      "text": "From this position, execute Straight Ankle Lock to transition to Straight Ankle Lock Control. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Straight Ankle Lock. This technique is attempted in 17% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kneebar from Top",
-      "text": "From this position, execute Kneebar from Top to transition to Kneebar Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Kneebar from Top. This technique is attempted in 15% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -209,77 +209,18 @@ Toe Hold Control Top is an advanced leg entanglement position where the top prac
 
 ## Available Attacks
 
-### [[Toe Hold]] → [[Won by Submission]]
+### [[Toe Hold]] (17% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 55%
-- Advanced: 75%
+### [[Outside Ashi Entry]] (18% of attempts)
 
-### [[Outside Ashi Entry]] → [[Outside Ashi-Garami]]
+### [[Inside Ashi Entry]] (17% of attempts)
 
-**Success Rates:**
-- Beginner: 50%
-- Intermediate: 65%
-- Advanced: 80%
+### [[Saddle Entry from Top]] (16% of attempts)
 
-### [[Inside Ashi Entry]] → [[Inside Ashi-Garami]]
+### [[Straight Ankle Lock]] (17% of attempts)
 
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 60%
-- Advanced: 75%
+### [[Kneebar from Top]] (15% of attempts)
 
-### [[Saddle Entry from Top]] → [[Saddle]]
-
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
-
-### [[Straight Ankle Lock]] → [[Straight Ankle Lock Control]]
-
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 60%
-- Advanced: 75%
-
-### [[Kneebar from Top]] → [[Kneebar Control]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 65%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Ashi Garami Escape]]** → [[Open Guard]] (Opponent Success: 35%)
-- **[[Hip Escape]]** → [[Open Guard]] (Opponent Success: 40%)
-- **[[Saddle Defense]]** → [[Half Guard]] (Opponent Success: 30%)
-- **[[Technical Standup]]** → [[Standing Position]] (Opponent Success: 25%)
-- **[[Rolling Back Take]]** → [[Back Control]] (Opponent Success: 20%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Saddle Entry from Top]]** → [[Saddle]]
-  - Opponent attempts to pull their leg back and sit up to escape
-- **[[Outside Ashi Entry]]** → [[Outside Ashi-Garami]]
-  - Opponent rotates their knee outward attempting to clear the entanglement
-- **[[Kneebar from Top]]** → [[Kneebar Control]]
-  - Opponent extends their leg straight while attempting to kick free
-- **[[Inside Ashi Entry]]** → [[Inside Ashi-Garami]]
-  - Opponent rotates their knee inward and attempts to turn away
 
 
 </section>
@@ -289,7 +230,7 @@ Toe Hold Control Top is an advanced leg entanglement position where the top prac
 ## Decision Making from This Position
 
 **If opponent maintains flat posture and cannot sit up:**
-- Execute **[[Toe Hold]]** → [[Won by Submission]] (Probability: 75%)
+- Execute **[[Toe Hold]]** → [[game-over]] (Probability: 75%)
 - Execute **[[Outside Ashi Entry]]** → [[Outside Ashi-Garami]] (Probability: 65%)
 
 
@@ -305,7 +246,7 @@ Toe Hold Control Top is an advanced leg entanglement position where the top prac
 
 **If opponent rotates knee outward and attempts to clear entanglement:**
 - Execute **[[Outside Ashi Entry]]** → [[Outside Ashi-Garami]] (Probability: 70%)
-- Execute **[[Toe Hold]]** → [[Won by Submission]] (Probability: 55%)
+- Execute **[[Toe Hold]]** → [[game-over]] (Probability: 55%)
 
 
 
@@ -386,33 +327,39 @@ Partner in bottom position performs specific escape attempts including hip escap
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Direct finish path from established control
+## Test Your Knowledge
 
-`Toe Hold Control Top → Toe Hold → Won by Submission`
+**Q1**: What are the essential grips for maintaining toe hold control from the top position?
+**A**: The essential grips involve a figure-four or gable grip configuration with both hands clasped around the opponent's foot and lower ankle. The opponent's foot should be secured deeply in the armpit with the blade of the foot pressed against the lateral ribs. Elbows must stay tight to the body to create a closed system that isolates the ankle joint and prevents foot extraction.
 
-### Ashi variation adjustment path
+**Q2**: Your opponent starts to sit up and post on their elbows - what adjustment do you make?
+**A**: Immediately apply forward pressure with your chest over their lower leg to drive them back down. Simultaneously adjust your hip positioning to maintain knee line control. If they continue to posture, transition to saddle entry by crossing your legs over their trapped leg, which converts their sit-up momentum into a deeper entanglement rather than allowing escape.
 
-`Toe Hold Control Top → Outside Ashi-Garami → Toe Hold → Won by Submission`
+**Q3**: How should you distribute your weight to maintain positional dominance in toe hold control?
+**A**: Weight should be distributed across your knees and hips with forward pressure applied through your chest onto the opponent's lower leg. This prevents them from sitting up while maintaining mobility for angle adjustments. Avoid settling your full weight static in one place - maintain dynamic balance that allows quick repositioning in response to escape attempts.
 
-### Saddle transition path for resistant opponents
+**Q4**: What is the primary escape your opponent will attempt and how do you shut it down?
+**A**: The primary escape is the sit-up combined with leg extraction through hip extension. Shut this down by maintaining constant forward pressure on the knee line with your chest, keeping their leg isolated from their hip. Control their free leg positioning with your hips or knees to prevent them from generating pushing power that creates the space needed for extraction.
 
-`Toe Hold Control Top → Saddle Entry from Top → Saddle → Toe Hold → Won by Submission`
+**Q5**: Your opponent rotates their knee outward attempting to clear the entanglement - what do you do?
+**A**: Follow their rotation by transitioning to outside ashi-garami position. Their outward knee rotation actually improves your angle for outside heel hook entries. Maintain your grip on their foot while repositioning your legs to control the new angle. This converts their defensive movement into an offensive opportunity rather than allowing escape.
 
-### Straight ankle backup path
+**Q6**: What grip priorities should you establish before attempting any rotational pressure?
+**A**: First secure deep foot positioning with the blade pressed firmly against your ribs. Then establish the figure-four grip with hands clasped below the ankle joint. Control the knee line through hip positioning before any rotation. Only apply rotational pressure once these three control points are absolute - rushing the finish before complete control typically results in position loss.
 
-`Toe Hold Control Top → Straight Ankle Lock Control → Straight Ankle Lock → Won by Submission`
+**Q7**: How do you apply pressure progressively rather than explosively from toe hold control?
+**A**: Begin with positional control and grip establishment without any rotational force. Then slowly increase rotational tension through controlled wrist rotation while monitoring your partner's response. This progressive application gives them clear tap opportunity and prevents injury. The distinction between controlled technique and dangerous force is the speed and warning - technical application is slow enough for recognition and tap.
 
-### Extended leg exploitation path
-
-`Toe Hold Control Top → Kneebar Control → Kneebar from Top → Won by Submission`
+**Q8**: After your opponent partially escapes but you maintain some grip control, how do you recover full position?
+**A**: Do not attempt to re-establish the exact same position from weakened control. Instead, transition systematically through the leg lock hierarchy - if they've created distance, pursue outside ashi entry. If they've straightened their leg, transition to kneebar. Use their partial escape to enter a fresh attacking position rather than fighting to rebuild the degraded toe hold control.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -439,10 +386,8 @@ Partner in bottom position performs specific escape attempts including hip escap
 - **[[Inside Ashi-Garami]]** - Alternative ashi position accessed through knee line rotation
 - **[[Saddle]]** - Advanced transition when opponent sits up or attempts leg extraction
 - **[[Straight Ankle Lock Control]]** - Alternative submission control position with similar leg entanglement
-- **[[systematic approach Leg Lock System]]** - Systematic framework governing position hierarchy and transition logic
-- **[[Craig Jones Leg Lock System]]** - Modern application methodology emphasizing control before submission
+- **[[Kneebar Control]]** - Transition target when opponent straightens leg during defense
 - **[[Leg Entanglement]]** - Fundamental concept governing all ashi-based positions and controls
-- **[[Submission Control Position]]** - Conceptual framework for maintaining dominant position during submission attempts
 
 
 </section>

@@ -81,32 +81,24 @@ The De La Riva system offers exceptional versatility for practitioners of all le
 - Constantly off-balance your opponent by pulling with your grips while extending and retracting the De La Riva hook to disrupt their base
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[De La Riva Sweep]]** → [[Mount Top]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[De La Riva Sweep]]** (18% of attempts)
 
-- **[[De La Riva to X-Guard Transition]]** → [[X-Guard]]
-  - Success Rate: Beginner 40%, Intermediate 60%, Advanced 75%
+- **[[De La Riva to X-Guard Transition]]** (17% of attempts)
 
-- **[[Berimbolo Entry]]** → [[Back Control]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 65%
+- **[[Berimbolo Entry]]** (15% of attempts)
 
-- **[[Kiss of the Dragon]]** → [[Back Control]]
-  - Success Rate: Beginner 20%, Intermediate 40%, Advanced 60%
+- **[[Kiss of the Dragon]]** (10% of attempts)
 
-- **[[Single Leg X Entry]]** → [[Single Leg X-Guard]]
-  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+- **[[Single Leg X Entry]]** (15% of attempts)
 
-- **[[Waiter Sweep]]** → [[Side Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Waiter Sweep]]** (10% of attempts)
 
-- **[[Balloon Sweep]]** → [[Mount Top]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Balloon Sweep]]** (8% of attempts)
 
-- **[[Outside Ashi Entry]]** → [[Outside Ashi-Garami]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 65%
+- **[[Outside Ashi Entry]]** (7% of attempts)
 
 
 ### Common Mistakes
@@ -156,32 +148,20 @@ The De La Riva system offers exceptional versatility for practitioners of all le
 - Pressure Application: Once hooks are neutralized, apply passing pressure immediately to prevent guard recovery
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Toreando Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Toreando Pass]]** (20% of attempts)
 
-- **[[Knee Slice Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Knee Slice Pass]]** (25% of attempts)
 
-- **[[X Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[X Pass]]** (15% of attempts)
 
-- **[[Leg Drag Pass]]** → [[Leg Drag Position]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Leg Drag Pass]]** (18% of attempts)
 
-- **[[Long Step Pass]]** → [[Headquarters Position]]
-  - Success Rate: Beginner 28%, Intermediate 42%, Advanced 58%
+- **[[Long Step Pass]]** (12% of attempts)
 
-- **[[Stack Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
-
-- **[[RDLR Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 22%, Intermediate 38%, Advanced 52%
-
-- **[[Smash Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Smash Pass]]** (10% of attempts)
 
 
 ### Common Mistakes

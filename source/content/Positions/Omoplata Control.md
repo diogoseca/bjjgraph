@@ -89,26 +89,20 @@ Omoplata Control represents a sophisticated transitional position in Brazilian J
 - Transition fluidly between submission finish, sweep, and alternative attacks based on opponent's defensive reactions
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Omoplata]]** → [[Won by Submission]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Omoplata]]** (17% of attempts)
 
-- **[[Omoplata Sweep]]** → [[Side Control]]
-  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+- **[[Omoplata Sweep]]** (19% of attempts)
 
-- **[[Omoplata to Back]]** → [[Back Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Omoplata to Back]]** (15% of attempts)
 
-- **[[Triangle Setup]]** → [[Triangle Control]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Triangle Setup]]** (18% of attempts)
 
-- **[[Transition to Omoplata]]** → [[Armbar Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Closed Guard to Omoplata]]** (17% of attempts)
 
-- **[[Rolling Omoplata]]** → [[Mount]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Rolling Omoplata]]** (14% of attempts)
 
 
 ### Common Mistakes
@@ -162,26 +156,20 @@ Omoplata Control represents a sophisticated transitional position in Brazilian J
 - Be prepared to transition to back control or alternative submissions if the opponent defends the initial omoplata finish
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Omoplata]]** → [[Won by Submission]]
-  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 70%
+- **[[Omoplata]]** (18% of attempts)
 
-- **[[Omoplata to Back]]** → [[Back Control]]
-  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+- **[[Omoplata to Back]]** (19% of attempts)
 
-- **[[Omoplata Sweep]]** → [[Mount]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 68%
+- **[[Omoplata Sweep]]** (17% of attempts)
 
-- **[[Triangle Setup]]** → [[Triangle Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Triangle Setup]]** (15% of attempts)
 
-- **[[Armbar from Guard]]** → [[Armbar Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Armbar from Guard]]** (17% of attempts)
 
-- **[[Rolling Back Take]]** → [[Back Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Rolling Back Take]]** (14% of attempts)
 
 
 ### Common Mistakes

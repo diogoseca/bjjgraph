@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Back Take Generic | BJJ Technique | BJJ Graph"
 description: "Master back take transitions in BJJ. Learn multiple paths to back control from various positions. Success rates: Beginner 35%, Intermediate 50%, Advanced 70%."
@@ -16,7 +17,7 @@ description: "Master back take transitions in BJJ. Learn multiple paths to back 
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Back Take Generic in BJJ",
-  "description": "Step-by-step guide for Back Take Generic from Turtle to Back Control.",
+  "description": "Step-by-step guide for Back Take Generic from Turtle/Top. Possible outcomes: Back Control/Top (70%), Turtle/Top (20%), Turtle/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -160,11 +161,25 @@ description: "Master back take transitions in BJJ. Learn multiple paths to back 
 
 Back take transitions represent some of the most valuable positional advancements in Brazilian Jiu-Jitsu, as back control offers the highest point value in competition and provides access to the most dominant submission opportunities. A successful back take requires understanding multiple pathways from various positions including turtle, side control, guard, and standing positions. The fundamental principle underlying all back takes is creating and exploiting angles while controlling your opponent's defensive frames. Whether you're attacking from top position, transitioning from guard, or capitalizing on scrambles, the ability to recognize and execute back take opportunities separates advanced practitioners from beginners. This transition encompasses a family of techniques unified by the common goal of achieving rear control with both hooks established and control of the upper body through seat belt grip or similar control mechanisms.
 
-**Starting Position**: [[Turtle]]
-**Ending Position**: [[Back Control]]
+**From Position**: [[Turtle/Top]]
 **Success Rates**: Beginner 35%, Intermediate 50%, Advanced 70%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Back Control/Top]] | 70% |
+| Failure | [[Turtle/Top]] | 20% |
+| Counter | [[Turtle/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

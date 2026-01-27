@@ -10,8 +10,6 @@
     "side-control",
     "guard-recovery"
   ],
-  "starting_position": "Side Control",
-  "ending_position": "Closed Guard",
   "success_rates": {
     "beginner": 30,
     "intermediate": 50,
@@ -263,6 +261,24 @@
     {
       "name": "Side Control Consolidation",
       "relationship": "What opponent is attempting to prevent"
+    }
+  ],
+  "from_position": "Side Control/Top",
+  "outcomes": [
+    {
+      "to": "Closed Guard/Bottom",
+      "probability": 70,
+      "result": "success"
+    },
+    {
+      "to": "Side Control/Top",
+      "probability": 20,
+      "result": "failure"
+    },
+    {
+      "to": "Side Control/Bottom",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

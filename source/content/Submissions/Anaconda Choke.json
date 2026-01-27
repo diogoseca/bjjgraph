@@ -22,7 +22,7 @@
     "intermediate": 55,
     "advanced": 75
   },
-  "overview": "The Anaconda Choke is a front headlock blood choke that targets the carotid arteries through a figure-four configuration of the arms. Named for the constricting serpent, this submission wraps around the opponent's neck and arm, creating a powerful strangling mechanism. The technique is most commonly applied from turtle position or front headlock control when the opponent is defending with their head down. Unlike the rear naked choke which attacks from behind, the Anaconda approaches from the side, threading one arm under the opponent's neck and opposite armpit while the other arm completes the figure-four grip. The submission's effectiveness comes from the combined pressure of the choking arm against the carotid artery while the opponent's own shoulder is driven into their opposite carotid. This dual-sided pressure creates a rapid loss of consciousness if not defended immediately. The Anaconda is particularly effective in no-gi grappling where the absence of collar grips forces opponents to defend with posture, creating the head-down position ideal for this attack. The technique has become a staple in modern BJJ, with practitioners like Braulio Estima and Milton Vieira demonstrating its effectiveness at the highest levels of competition.",
+  "overview": "The Anaconda Choke is a front headlock blood choke that targets the carotid arteries through a figure-four configuration of the arms. Named for the constricting serpent, this submission wraps around the opponent's neck and arm, creating a powerful strangling mechanism. The technique is most commonly applied from turtle position or front headlock control when the opponent is defending with their head down. Unlike the rear naked choke which attacks from behind, the Anaconda approaches from the side, threading one arm under the opponent's neck and opposite armpit while the other arm completes the figure-four grip. The submission's effectiveness comes from the combined pressure of the choking arm against the carotid artery while the opponent's own shoulder is driven into their opposite carotid. This dual-sided pressure creates a rapid loss of consciousness if not defended immediately. The Anaconda is particularly effective in no-gi grappling where the absence of collar grips forces opponents to defend with posture, creating the head-down position ideal for this attack. The technique has become a staple in modern BJJ, with practitioners demonstrating its effectiveness at the highest levels of competition.",
   "safety_considerations": {
     "injury_risks": [
       {
@@ -234,7 +234,7 @@
     },
     {
       "variation_name": "Marce Choke (Modified Anaconda)",
-      "description": "Similar setup to Anaconda but instead of rolling to side with figure-four, you transition to North-South position and apply pressure from top. Named after Marcelo Garcia, this variation works when opponent's base is too strong to roll them.",
+      "description": "Similar setup to Anaconda but instead of rolling to side with figure-four, you transition to North-South position and apply pressure from top. This variation works when opponent's base is too strong to roll them.",
       "when_to_use": "When opponent has strong base and prevents your roll, or in gi when you can use lapel control"
     },
     {
@@ -277,6 +277,31 @@
     {
       "question": "Why is depth of arm threading critical to Anaconda choke effectiveness?",
       "answer": "Deep threading ensures your forearm crosses completely across the opponent's far-side carotid artery, with your hand emerging well past their opposite shoulder. Shallow threading fails to reach the far carotid and only creates neck pressure rather than true blood choke pressure. Deep positioning also makes it much harder for opponent to defend or create space, and improves the leverage of your finishing mechanics.",
+      "safety_critical": false
+    },
+    {
+      "question": "What is the point of no return indicator that tells you the Anaconda finish is imminent?",
+      "answer": "The point of no return occurs when you have successfully rolled to your side with knees pulled to chest, the figure-four grip is locked tight with no gaps, and you feel your opponent's trapped shoulder firmly compressed against their own neck. At this stage, even small adjustments in hip pressure and elbow squeeze will complete the choke. The opponent's breathing often becomes labored or they begin making urgent escape attempts - these are breaking point indicators signaling the finish is seconds away.",
+      "safety_critical": false
+    },
+    {
+      "question": "Your opponent begins straightening their trapped arm during your Anaconda attempt - what adjustment prevents escape?",
+      "answer": "When opponent straightens their trapped arm, you have two options: if you can react quickly, use your legs to hook their straightening arm and pull it back into the trapped position against their neck. If their arm has already straightened significantly, immediately transition to the Darce choke by adjusting your choking arm to thread on the opposite side of their neck. The arm straightening defense opens the Darce angle perfectly, making this a seamless chain.",
+      "safety_critical": false
+    },
+    {
+      "question": "What anatomical structures does the Anaconda choke primarily attack to cause submission?",
+      "answer": "The Anaconda primarily attacks both carotid arteries simultaneously to create a blood choke. Your choking forearm compresses one carotid artery on the side of your arm, while the opponent's own trapped shoulder is driven into their opposite carotid artery. This dual-sided compression restricts blood flow to the brain, causing rapid loss of consciousness in 3-5 seconds if not released. Secondary pressure may affect the trachea and airway, but the primary mechanism is bilateral carotid compression.",
+      "safety_critical": false
+    },
+    {
+      "question": "What grip adjustment should you make if you feel your Anaconda grip slipping during the finish?",
+      "answer": "If your grip begins slipping, immediately transition from whatever grip you have to a tighter Gable grip (palms pressed together with fingers interlocked) or RNC-style grip (hand to bicep). As you adjust, simultaneously pull your elbows tighter together and arch your chest to take up any slack. Do not try to regrip while maintaining the same loose configuration. If grip integrity is truly compromised, you may need to release, reset to front headlock position, and re-establish the Anaconda with proper depth and grip from the beginning.",
+      "safety_critical": false
+    },
+    {
+      "question": "In competition, what finishing strategy maximizes Anaconda success rate against a skilled opponent?",
+      "answer": "Against skilled opponents, the key is controlling the setup phase meticulously before committing to the finish. Ensure maximum arm threading depth before locking the figure-four - a deep arm position is much harder to defend. Trap their arm tightly against their neck before rolling. When you roll, commit fully and explosively so they cannot base out. Once in the finishing position, apply pressure immediately without pause - skilled opponents will escape any hesitation. Chain to Darce if they defend by straightening arm, or transition to back take if they roll away from pressure.",
       "safety_critical": false
     }
   ],
@@ -342,12 +367,9 @@
     "Anaconda Variations",
     "D'arce-Anaconda Connection",
     "Brabo Choke",
-    "Peruvian Necktie",
-    "Japanese Necktie",
-    "North-South Choke",
     "Arm in Guillotine",
-    "High Elbow Guillotine",
-    "Marce Choke"
+    "Guillotine Variations",
+    "Chin Strap Guillotine"
   ],
   "related_content": [
     {
@@ -371,16 +393,12 @@
       "relationship": "Complementary technique with shared setup principles"
     },
     {
-      "name": "Submission Chains",
-      "relationship": "Principle of linking Anaconda with Darce and Guillotine"
+      "name": "Front Headlock",
+      "relationship": "Control position from which Anaconda is commonly initiated"
     },
     {
-      "name": "Head Control",
-      "relationship": "Fundamental principle required for Anaconda setup"
-    },
-    {
-      "name": "Shoulder Pressure",
-      "relationship": "Key principle for maintaining turtle control before submission"
+      "name": "Turtle",
+      "relationship": "Primary attacking position for Anaconda setups"
     },
     {
       "name": "Side Control",
@@ -393,6 +411,10 @@
     {
       "name": "D'arce Control",
       "relationship": "Control position closely related to Anaconda mechanics"
+    },
+    {
+      "name": "Anaconda Control",
+      "relationship": "Specific control position for setting up the Anaconda finish"
     }
   ]
 }

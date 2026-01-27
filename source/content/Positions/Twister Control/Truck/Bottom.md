@@ -21,37 +21,37 @@ description: "Defensive survival position requiring systematic escape mechanics 
     {
       "@type": "HowToStep",
       "name": "Execute Granby Roll",
-      "text": "From this position, execute Granby Roll to transition to Turtle. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Granby Roll. This technique is attempted in 18% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape",
-      "text": "From this position, execute Hip Escape to transition to Half Guard. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Hip Escape. This technique is attempted in 20% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Extraction",
-      "text": "From this position, execute Leg Extraction to transition to Turtle. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Leg Extraction. This technique is attempted in 18% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling Back Take",
-      "text": "From this position, execute Rolling Back Take to transition to Open Guard. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 17% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Forward Roll",
-      "text": "From this position, execute Forward Roll to transition to Deep Half Guard. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Forward Roll. This technique is attempted in 15% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Technical Standup",
-      "text": "From this position, execute Technical Standup to transition to Standing Position. Success rate for advanced practitioners: 40%.",
+      "text": "From this position, attempt Technical Standup. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -213,77 +213,18 @@ The position emerged from wrestling's turk ride and was popularized in BJJ throu
 
 ## Available Escapes
 
-### [[Granby Roll]] → [[Turtle]]
+### [[Granby Roll]] (18% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 60%
+### [[Hip Escape]] (20% of attempts)
 
-### [[Hip Escape]] → [[Half Guard]]
+### [[Leg Extraction]] (18% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 65%
+### [[Rolling Back Take]] (17% of attempts)
 
-### [[Leg Extraction]] → [[Turtle]]
+### [[Forward Roll]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Technical Standup]] (12% of attempts)
 
-### [[Rolling Back Take]] → [[Open Guard]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 55%
-
-### [[Forward Roll]] → [[Deep Half Guard]]
-
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 50%
-
-### [[Technical Standup]] → [[Standing Position]]
-
-**Success Rates:**
-- Beginner: 10%
-- Intermediate: 25%
-- Advanced: 40%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Twister]]** → [[Won by Submission]] (Opponent Success: 55%)
-- **[[Calf Slicer from Truck]]** → [[Won by Submission]] (Opponent Success: 48%)
-- **[[Banana Split]]** → [[Won by Submission]] (Opponent Success: 40%)
-- **[[Rear Naked Choke]]** → [[Won by Submission]] (Opponent Success: 45%)
-- **[[Crab Ride to Back]]** → [[Back Control]] (Opponent Success: 60%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Granby Roll Counter]]** → [[Turtle]]
-  - Opponent overcommits to twister attack giving rotation space
-- **[[Leg Extraction]]** → [[Half Guard]]
-  - Opponent extends trapped leg for calf slicer or knee attack
-- **[[Frame Creation]]** → [[Dogfight Position]]
-  - Opponent consolidates upper body control for twister setup
-- **[[Hip Escape]]** → [[Open Guard]]
-  - Opponent shifts weight to one side for submission finish
 
 
 </section>
@@ -293,23 +234,23 @@ The position emerged from wrestling's turk ride and was popularized in BJJ throu
 ## Decision Making from This Position
 
 **If opponent is setting up Twister (controlling far arm and twisting spine):**
-- Execute **[[Chin Protection and Grip Defense]]** → [[Defensive Position]] (Probability: 65%)
-- Execute **[[Granby Roll]]** → [[Turtle]] (Probability: 50%)
+- Execute **[[Chin Protection and Grip Defense]]** → [[Truck]] (Probability: 65%)
+- Execute **[[Granby Roll]]** → [[Turtle]] (Probability: 35%)
 
 
 **Else if opponent is attacking trapped leg with calf slicer:**
-- Execute **[[Leg Extraction]]** → [[Half Guard]] (Probability: 55%)
-- Execute **[[Forward Roll]]** → [[Deep Half Guard]] (Probability: 30%)
-- Execute **[[Tap Early Before Injury]]** → [[Won by Submission]] (Probability: 35%)
+- Execute **[[Leg Extraction]]** → [[Half Guard]] (Probability: 50%)
+- Execute **[[Forward Roll]]** → [[Deep Half Guard]] (Probability: 25%)
+- Execute **[[Tap Early Before Injury]]** → [[game-over]] (Probability: 25%)
 
 
 **Else if opponent has boot control but loose upper body control:**
 - Execute **[[Hip Escape]]** → [[Half Guard]] (Probability: 55%)
-- Execute **[[Granby Roll]]** → [[Turtle]] (Probability: 40%)
+- Execute **[[Granby Roll]]** → [[Turtle]] (Probability: 45%)
 
 
 **Else if opponent is transitioning to back control (inserting hooks):**
-- Execute **[[Back Escape Series]]** → [[Turtle]] (Probability: 60%)
+- Execute **[[Back Escape Series]]** → [[Turtle]] (Probability: 55%)
 - Execute **[[Rolling Back Take]]** → [[Open Guard]] (Probability: 45%)
 
 
@@ -391,29 +332,39 @@ Start in truck bottom with partner providing light control (25% resistance). Pra
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Safest escape path
+## Test Your Knowledge
 
-`Truck → Leg Extraction → Turtle → Open Guard`
+**Q1**: What is your immediate priority upon finding yourself in truck bottom position?
+**A**: Your immediate priority is protecting your neck by tucking your chin and positioning your hands near your neck to defend against twister grips and choking attempts. The twister can cause serious spinal injury if the opponent achieves full rotation, so defending the cervical spine takes precedence over all other concerns including leg extraction.
 
-### Granby roll escape (technical defensive path)
+**Q2**: Your opponent increases boot pressure on your hip - how do you address this?
+**A**: Address boot pressure by using your free hand to fight the boot while maintaining neck protection with the other hand. Simultaneously work your hips in a circular motion to reduce the leverage their boot creates. If you can break or reduce the boot pressure, their ability to generate torque for twister or maintain leg entanglement significantly decreases.
 
-`Truck → Granby Roll timing → Turtle → Open Guard`
+**Q3**: What determines whether to attempt a granby roll versus a hip escape from truck bottom?
+**A**: Choose granby roll when opponent's weight is committed forward or they're focused on upper body attacks, as the roll uses their forward pressure momentum. Choose hip escape when opponent has loose upper body control but strong boot/leg control, as shrimping can create angles to extract the trapped leg. Granby requires space to roll into; hip escape works in tighter spaces.
 
-### Forward momentum escape (advanced defensive path)
+**Q4**: How do you prevent the opponent from completing the twister finish?
+**A**: Prevent twister finish by: keeping chin tucked to limit cervical rotation, fighting their grip on your far arm with your near hand, maintaining hip elevation to avoid being completely flattened, and preventing full torso rotation by posting your base hand. If they achieve the grip, immediately attempt granby roll before they can lock the rotation.
 
-`Truck → Forward Roll → Deep Half Guard → Half Guard → Open Guard`
+**Q5**: Your trapped leg is being extended for a calf slicer - what is your response?
+**A**: When leg is being extended for calf slicer, attempt to bend your knee sharply to reduce pressure on the joint while simultaneously working to extract the leg. If extraction isn't possible, forward roll toward your head using the extended leg as a pivot point to end up in deep half guard. If submission pressure becomes significant, tap early to prevent knee injury.
 
-### Emergency standing escape (desperation path)
+**Q6**: How should you manage your breathing and energy when caught in truck bottom?
+**A**: Maintain controlled breathing with slow, deep breaths through your nose to prevent panic response. Focus energy on systematic defensive actions rather than explosive random movements. Work in sequences: protect neck, then address one problem at a time. Accept that escape may require multiple attempts and save explosive efforts for moments when escape opportunity presents itself.
 
-`Truck → Technical Standup → Standing Position → Closed Guard`
+**Q7**: When is the correct time to initiate your primary escape attempt?
+**A**: Initiate escape when opponent shifts their weight for submission setup, transitions between attacks, or when you've successfully addressed one of their control points (boot pressure reduced, grip broken). Attempting escape while opponent has full control usually fails and expends energy. Create your opportunity through defensive fighting, then exploit the opening.
+
+**Q8**: What body positioning minimizes your vulnerability while in truck bottom?
+**A**: Optimal positioning includes: hips elevated off the mat rather than flattened, chin tucked with hands near neck for defense, free leg posted for base and potential bridging, torso not fully twisted (resist rotation), and weight distributed between your base hand and free leg. Avoid complete flattening as this gives opponent the stable platform needed for finishing.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -442,9 +393,8 @@ Start in truck bottom with partner providing light control (25% resistance). Pra
 - **[[Twister]]** - Primary submission to defend against from truck bottom
 - **[[Calf Slicer from Truck]]** - Secondary submission threat targeting trapped leg
 - **[[Banana Split]]** - Alternative submission attack from truck position
-- **[[Back Escape Series]]** - Relevant principle - defensive concepts apply to truck escapes
-- **[[10th Planet No-Gi Guard System]]** - System context - truck position within 10th Planet methodology
-- **[[Twister System]]** - System context - truck as key position in twister game
+- **[[Granby Roll]]** - Primary escape technique from truck bottom
+- **[[Hip Escape]]** - Fundamental movement for creating escape angles
 
 
 </section>

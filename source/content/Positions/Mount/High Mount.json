@@ -47,7 +47,7 @@
       "relationship": "Transition option when opponent creates significant bridge and attempts rotation"
     },
     {
-      "name": "Kimura Control",
+      "name": "Kimura Trap",
       "relationship": "Shoulder lock control position accessible when opponent defends with bent arms"
     },
     {
@@ -55,373 +55,6 @@
       "relationship": "Advanced control variation isolating both arms for submission attacks"
     }
   ],
-  "bottom": {
-    "name": "High Mount Bottom",
-    "description": "Survive and escape High Mount Bottom in BJJ. Emergency defensive strategies covering frame creation, bridge mechanics, and escape sequences with complete bottom perspective analysis. Success rates: Beginner 15%, Intermediate 25%, Advanced 40%.",
-    "tags": [
-      "bjj",
-      "position",
-      "mount",
-      "bottom",
-      "defensive",
-      "escape",
-      "survival"
-    ],
-    "overview": "High Mount Bottom represents one of the most challenging defensive situations in Brazilian Jiu-Jitsu, where the bottom player faces an opponent who has walked their knees high toward the armpits or shoulders, creating maximum submission proximity while eliminating traditional escape mechanisms. This position requires immediate defensive action, as the elevated knee placement severely restricts the bottom player's ability to generate bridging power or create effective frames.\n\nThe strategic challenge of High Mount Bottom lies in the geometric disadvantage created by the top player's elevated position. With weight concentrated on the upper chest and sternum, the bottom player loses the ability to generate upward force through hip extension, making traditional bridge escapes nearly impossible. This biomechanical reality forces the bottom player to rely on timing, explosive movement, and capitalizing on the top player's transitional moments rather than sustained defensive pressure.\n\nDefensive strategy from High Mount Bottom centers on survival first, escape second. The bottom player must protect the neck and arms while seeking opportunities to create frames during submission attempts. Since the position strongly favors the top player, the bottom player's success depends on recognizing submission setups early and using the top player's weight shifts during attacks as windows for escape. Understanding that every submission attempt requires the top player to redistribute weight creates the foundation for defensive timing.\n\nFrom a training perspective, High Mount Bottom teaches practitioners to remain calm under extreme pressure and to recognize the subtle opportunities that arise during positional transitions. The position exemplifies the importance of preventive defense—never allowing opponents to establish high mount in the first place. When trapped in high mount, the focus shifts to minimizing damage, protecting vital targets, and waiting for the precise moment when offensive action creates defensive opportunity.",
-    "state_properties": {
-      "point_value": 0,
-      "position_type": "Defensive",
-      "risk_level": "High",
-      "energy_cost": "High",
-      "time_sustainability": "Short"
-    },
-    "state_invariants": [
-      "Bottom player flat on back with opponent's knees positioned high near armpits or shoulders, creating extreme compression on upper torso. The elevated knee placement eliminates space between players and prevents the bottom player from generating meaningful hip elevation or rotational force through traditional bridging mechanics.",
-      "Opponent's weight centered on upper chest and sternum area with forward pressure through hips and torso, restricting breathing and preventing upward movement. The bottom player experiences constant downward pressure that eliminates the angle required for explosive bridge escapes while maintaining vulnerability to multiple submission attacks.",
-      "Arms tucked defensively to protect neck and prevent isolation, with elbows maintaining connection to torso when possible. The bottom player must balance arm protection with the need to create frames during escape attempts, knowing that extended arms become immediate armbar targets while tucked arms limit defensive mobility.",
-      "Hips pinned to mat with severely restricted mobility due to opponent's elevated position and forward weight distribution. The bottom player's ability to shrimp, bridge, or rotate is minimized by the geometric advantage the top player maintains through high knee positioning and upper body pressure.",
-      "Head positioned to protect neck from choke attempts while maintaining awareness of opponent's hand positioning and weight shifts. The bottom player must track multiple simultaneous threats including collar chokes, arm attacks, and positional advancements while maintaining defensive structure under sustained pressure."
-    ],
-    "prerequisites": [
-      "Understanding of mount escape fundamentals including bridge and elbow escape mechanics",
-      "Experience with defensive framing principles and creating space under pressure",
-      "Ability to remain calm and strategic under intense positional pressure",
-      "Knowledge of submission defense principles for armbar and choke protection",
-      "Hip mobility for explosive bridge attempts and shrimp-based escape movements",
-      "Awareness of timing principles for capitalizing on opponent's weight shifts during attacks"
-    ],
-    "key_principles": [
-      "Protect neck and arms as absolute priority, never allowing full extension or isolation of limbs",
-      "Create frames during opponent's submission attempts when weight shifts provide momentary opportunity",
-      "Use explosive bridge timing when opponent posts hands or shifts weight for submission attacks",
-      "Attempt elbow escape to recover half guard when opponent's base becomes momentarily compromised",
-      "Remain calm under pressure, conserving energy for precise escape timing rather than panicked movement",
-      "Recognize submission setups early to defend before opponent establishes control points",
-      "Accept that escapes require perfect timing during opponent's transitions rather than sustained pressure"
-    ],
-    "offensive_transitions": [
-      {
-        "technique": "Upa Escape",
-        "target_position": "Guard Recovery",
-        "success_rates": {
-          "beginner": 10,
-          "intermediate": 20,
-          "advanced": 35
-        }
-      },
-      {
-        "technique": "Elbow Escape",
-        "target_position": "Half Guard",
-        "success_rates": {
-          "beginner": 15,
-          "intermediate": 25,
-          "advanced": 40
-        }
-      },
-      {
-        "technique": "Bridge and Roll",
-        "target_position": "Guard Recovery",
-        "success_rates": {
-          "beginner": 8,
-          "intermediate": 15,
-          "advanced": 25
-        }
-      },
-      {
-        "technique": "Shrimp Escape",
-        "target_position": "Guard Recovery",
-        "success_rates": {
-          "beginner": 10,
-          "intermediate": 18,
-          "advanced": 30
-        }
-      },
-      {
-        "technique": "Frame Creation",
-        "target_position": "Defensive Position",
-        "success_rates": {
-          "beginner": 20,
-          "intermediate": 35,
-          "advanced": 50
-        }
-      },
-      {
-        "technique": "Hip Escape",
-        "target_position": "Half Guard",
-        "success_rates": {
-          "beginner": 12,
-          "intermediate": 22,
-          "advanced": 35
-        }
-      }
-    ],
-    "defensive_responses": [
-      {
-        "technique": "Armbar from Mount",
-        "target_position": "Armbar Control",
-        "success_rate": 75
-      },
-      {
-        "technique": "Ezekiel from Mount",
-        "target_position": "Won by Submission",
-        "success_rate": 65
-      },
-      {
-        "technique": "Cross Collar Choke",
-        "target_position": "Won by Submission",
-        "success_rate": 70
-      },
-      {
-        "technique": "Triangle from Mount",
-        "target_position": "Triangle Control",
-        "success_rate": 55
-      },
-      {
-        "technique": "Transition to Mount",
-        "target_position": "S Mount",
-        "success_rate": 80
-      },
-      {
-        "technique": "Kimura from Mount",
-        "target_position": "Kimura Control",
-        "success_rate": 60
-      }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Upa Escape",
-        "target_position": "Guard Recovery",
-        "trigger": "Opponent posts hand high near head to establish submission grip or transitions weight forward"
-      },
-      {
-        "technique": "Elbow Escape",
-        "target_position": "Half Guard",
-        "trigger": "Opponent's knee slides away from armpit during position adjustment or submission setup"
-      },
-      {
-        "technique": "Frame Creation",
-        "target_position": "Defensive Position",
-        "trigger": "Opponent reaches for collar grip or attempts to isolate arm for submission attack"
-      },
-      {
-        "technique": "Bridge and Roll",
-        "target_position": "Guard Recovery",
-        "trigger": "Opponent sits upright reducing forward pressure or narrows base to attack submission"
-      },
-      {
-        "technique": "Hip Escape",
-        "target_position": "Half Guard",
-        "trigger": "Opponent transitions to technical mount creating momentary gap in hip control"
-      }
-    ],
-    "decision_tree": [
-      {
-        "condition": "If opponent posts hand high near head to establish grip for submission attempt",
-        "actions": [
-          {
-            "technique": "Upa Escape",
-            "target": "Guard Recovery",
-            "probability": 30
-          },
-          {
-            "technique": "Bridge and Roll",
-            "target": "Guard Recovery",
-            "probability": 25
-          }
-        ]
-      },
-      {
-        "condition": "If opponent's knee slides away from armpit during transition or submission setup",
-        "actions": [
-          {
-            "technique": "Elbow Escape",
-            "target": "Half Guard",
-            "probability": 35
-          },
-          {
-            "technique": "Hip Escape",
-            "target": "Half Guard",
-            "probability": 30
-          }
-        ]
-      },
-      {
-        "condition": "If opponent reaches for collar or attempts to isolate extended arm for attack",
-        "actions": [
-          {
-            "technique": "Frame Creation",
-            "target": "Defensive Position",
-            "probability": 45
-          },
-          {
-            "technique": "Armbar Defense",
-            "target": "Defensive Position",
-            "probability": 40
-          }
-        ]
-      },
-      {
-        "condition": "If opponent maintains static control without immediate submission threat",
-        "actions": [
-          {
-            "technique": "Shrimp Escape",
-            "target": "Guard Recovery",
-            "probability": 25
-          },
-          {
-            "technique": "Frame Creation",
-            "target": "Defensive Position",
-            "probability": 30
-          }
-        ]
-      }
-    ],
-    "common_errors": [
-      {
-        "error": "Extending arms straight to push on opponent's chest or face",
-        "consequence": "Creates immediate armbar opportunity as extended arm becomes isolated and vulnerable to joint lock attack",
-        "correction": "Keep elbows connected to torso, using short frames with bent arms to create minimal space without arm extension"
-      },
-      {
-        "error": "Attempting bridge escape when opponent maintains high knee position and forward pressure",
-        "consequence": "Wastes energy on mechanically impossible movement and potentially opens neck for choke attacks",
-        "correction": "Wait for opponent's weight shift during submission attempt before attempting explosive bridge timing"
-      },
-      {
-        "error": "Turning to side prematurely attempting elbow escape",
-        "consequence": "Exposes back and allows opponent to advance to technical mount or take back control",
-        "correction": "Create frames first to establish distance before attempting rotation, timing turn with opponent's weight shifts"
-      },
-      {
-        "error": "Panicking and using explosive random movement without strategic timing",
-        "consequence": "Exhausts energy rapidly while providing no realistic escape opportunity, hastening submission",
-        "correction": "Remain calm, breathe steadily, and conserve energy for precise explosive movements during opponent transitions"
-      },
-      {
-        "error": "Focusing solely on one escape attempt repeatedly despite failure",
-        "consequence": "Allows opponent to predict and counter defensive movements while maintaining dominant control",
-        "correction": "Vary escape attempts based on opponent's reactions, chaining different techniques to create unpredictability"
-      },
-      {
-        "error": "Leaving neck exposed while defending arm attacks",
-        "consequence": "Creates opportunity for opponent to switch from armbar to choke attacks, multiplying threats",
-        "correction": "Maintain chin tucked and hands protecting neck area even while defending arm isolation attempts"
-      },
-      {
-        "error": "Giving up mentally and accepting submission without continuing defensive effort",
-        "consequence": "Guarantees loss when continued intelligent defense might reveal escape opportunities",
-        "correction": "Maintain mental composure and continue seeking defensive opportunities until tap or positional escape occurs"
-      }
-    ],
-    "training_drills": [
-      {
-        "name": "High Mount Survival Drill",
-        "description": "Partner maintains high mount while you practice defensive posture, neck protection, and arm positioning for extended periods (starting 1 minute, building to 3 minutes). Partner provides increasing submission threats without finishing, developing defensive awareness and mental toughness under pressure.",
-        "duration": "3 rounds of 3 minutes each"
-      },
-      {
-        "name": "Timed Escape Drill",
-        "description": "Start in high mount bottom position and attempt escapes for 2-minute rounds. Partner maintains control at 50-75% resistance, allowing realistic escape opportunities during transitions. Track successful escapes to measure progress over time.",
-        "duration": "5 rounds of 2 minutes each"
-      },
-      {
-        "name": "Submission Defense Reaction Drill",
-        "description": "Partner alternates between armbar, collar choke, and Ezekiel attempts from high mount while you practice appropriate defensive responses. Focus on recognizing setup grips early and defending before full control is established.",
-        "duration": "4 rounds of 3 minutes each"
-      },
-      {
-        "name": "Bridge Timing Drill",
-        "description": "Partner in high mount posts hands periodically to simulate submission setups. Practice explosive bridge timing when opponent's base becomes momentarily compromised, developing sensitivity to weight shift opportunities.",
-        "duration": "3 rounds of 4 minutes each"
-      },
-      {
-        "name": "Progressive Resistance Escapes",
-        "description": "Drill all escape options (upa, elbow escape, frame and shrimp) against progressively increasing resistance (25%, 50%, 75%, 100%). Partner provides realistic but gradually increasing defense, building technique refinement under pressure.",
-        "duration": "6 minutes continuous with increasing intensity"
-      }
-    ],
-    "optimal_submission_paths": [
-      {
-        "name": "Emergency Elbow Escape Path",
-        "path": "High Mount Bottom → Create Frame During Submission Setup → Elbow Escape → Half Guard (most realistic escape)"
-      },
-      {
-        "name": "Explosive Bridge Path",
-        "path": "High Mount Bottom → Wait for Weight Shift → Explosive Bridge and Roll → Guard Recovery (timing-dependent)"
-      },
-      {
-        "name": "Frame and Shrimp Path",
-        "path": "High Mount Bottom → Create Strong Frame → Shrimp Hip Away → Half Guard Recovery (requires opponent error)"
-      },
-      {
-        "name": "Survival to Re-Guard Path",
-        "path": "High Mount Bottom → Survive Submission Attempts → Capitalize on Failed Attack → Guard Recovery (patience-based)"
-      }
-    ],
-    "related_content": [
-      {
-        "name": "Mount",
-        "relationship": "Related position - standard mount that precedes high mount establishment"
-      },
-      {
-        "name": "S Mount",
-        "relationship": "Worse position - common progression when high mount escapes fail and opponent advances"
-      },
-      {
-        "name": "Technical Mount",
-        "relationship": "Alternative bad position - result of turning to side attempting elbow escape"
-      },
-      {
-        "name": "Half Guard",
-        "relationship": "Escape target - realistic goal position when elbow escape succeeds"
-      },
-      {
-        "name": "Defensive Position",
-        "relationship": "Intermediate state - temporary defensive structure while seeking escape opportunities"
-      },
-      {
-        "name": "Armbar Defense",
-        "relationship": "Required skill - essential defensive technique for primary submission threat from high mount"
-      },
-      {
-        "name": "Upa Escape",
-        "relationship": "Primary technique - bridge-based escape requiring perfect timing during opponent's transitions"
-      },
-      {
-        "name": "Elbow Escape",
-        "relationship": "Most realistic technique - frame and shrimp escape to recover half guard"
-      },
-      {
-        "name": "Frame Creation",
-        "relationship": "Defensive principle - fundamental skill for creating space under extreme pressure"
-      },
-      {
-        "name": "Guard Recovery",
-        "relationship": "Ultimate goal - successful escape outcome restoring neutral or guard position"
-      }
-    ],
-    "position_metrics": {
-      "retention_rate": {
-        "beginner": 85,
-        "intermediate": 75,
-        "advanced": 60,
-        "description": "Opponent's ability to maintain high mount position"
-      },
-      "advancement_probability": {
-        "beginner": 10,
-        "intermediate": 20,
-        "advanced": 35,
-        "description": "Bottom player's chance of improving position"
-      },
-      "submission_probability": {
-        "beginner": 60,
-        "intermediate": 45,
-        "advanced": 30,
-        "description": "Risk of being submitted from this position"
-      },
-      "average_time": "30-60 seconds before submission or escape attempt"
-    }
-  },
   "top": {
     "name": "High Mount Top",
     "description": "Master High Mount Top position in BJJ. Advanced mount control with elevated knee positioning for maximum submission opportunities. Success rates: Beginner 55%, Intermediate 70%, Advanced 85%.",
@@ -467,178 +100,46 @@
       "Use high position to create psychological pressure and break opponent's will through sustained dominance",
       "Prioritize position retention over rushing submissions, allowing control to create submission opportunities naturally"
     ],
-    "offensive_transitions": [
+    "knowledge_assessment": [
       {
-        "technique": "Armbar from Mount",
-        "target_position": "Armbar Control",
-        "success_rates": {
-          "beginner": 45,
-          "intermediate": 65,
-          "advanced": 80
-        }
+        "question": "What is the optimal weight distribution for maintaining High Mount Top?",
+        "answer": "Weight should be distributed forward with your chest positioned over the opponent's chest, driving pressure through your hips onto their upper sternum and chest area. Avoid sitting upright as this shifts your center of gravity backward, allowing bridge escapes. The forward lean should feel like you're trying to pin their shoulders to the mat with your torso weight while your knees act as wedges near the armpits."
       },
       {
-        "technique": "Ezekiel from Mount",
-        "target_position": "Won by Submission",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 55,
-          "advanced": 70
-        }
+        "question": "Your opponent starts to bridge explosively - what adjustment do you make?",
+        "answer": "When they bridge, immediately post your hands wide toward their head to create a tripod base, spread your knees slightly for stability, and drive your hips down into their chest. If the bridge is strong enough to create space, flow with their movement by transitioning to S-Mount (if they push on your hips) or Technical Mount (if they turn to the side). Never fight the bridge rigidly - use their movement to advance position."
       },
       {
-        "technique": "Cross Collar Choke",
-        "target_position": "Won by Submission",
-        "success_rates": {
-          "beginner": 40,
-          "intermediate": 60,
-          "advanced": 75
-        }
+        "question": "What are the essential grips for maintaining High Mount position?",
+        "answer": "Primary grip options include cross-face control (hand behind their head pulling them into your chest), collar grips (if in gi, deep grip on the same-side collar), wrist control (pinning one arm to the mat or their body), or head-and-arm control (controlling the head while isolating an arm). The specific grip depends on your submission setup, but maintaining at least one form of upper body control is critical for preventing frame creation."
       },
       {
-        "technique": "Americana from Mount",
-        "target_position": "Won by Submission",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 50,
-          "advanced": 65
-        }
+        "question": "How do you shut down the primary elbow escape from High Mount?",
+        "answer": "The elbow escape requires the bottom player to create space at their hip to insert their knee. Prevent this by keeping your knees tight to their armpits (eliminating hip space), maintaining forward pressure (making it difficult for them to turn), and controlling their near-side arm (preventing the frame needed to create turning leverage). When you feel them begin to hip escape, immediately drive your hip into the space they're creating and consider transitioning to Technical Mount on that side."
       },
       {
-        "technique": "Triangle from Mount",
-        "target_position": "Triangle Control",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 45,
-          "advanced": 60
-        }
+        "question": "What grip priorities should you establish before attempting submissions from High Mount?",
+        "answer": "Before attacking, establish control of at least one arm to prevent defensive frames. Ideal grip progression: first, control their ability to frame on your chest or hips (wrist pin or underhook their arm); second, isolate the target arm for your submission; third, secure your finishing grip only after the arm is properly isolated. Rushing to submission grips before controlling the defensive arm is the most common cause of failed mount submissions."
       },
       {
-        "technique": "Transition to Mount",
-        "target_position": "S Mount",
-        "success_rates": {
-          "beginner": 50,
-          "intermediate": 70,
-          "advanced": 85
-        }
+        "question": "How do you apply pressure effectively in High Mount without exhausting yourself?",
+        "answer": "Effective pressure comes from structure, not muscular effort. Position your weight forward so gravity does the work - your torso should compress their upper chest while your knees wedge against their armpits. Stay relaxed in your core and legs, only tensing when countering specific escape attempts. The pressure should feel heavy and constant to them but sustainable for you. If you're getting tired maintaining mount, you're likely sitting too upright and using muscle instead of body positioning."
       },
       {
-        "technique": "Transition to Mount",
-        "target_position": "Technical Mount",
-        "success_rates": {
-          "beginner": 45,
-          "intermediate": 65,
-          "advanced": 80
-        }
+        "question": "Your opponent creates frames on your hips and starts pushing - how do you capitalize on this?",
+        "answer": "Frames on your hips are submission opportunities. Their arms are now extended and exposed. Options include: swim your hand under their elbow to break the frame and immediately attack armbar, step over to S-Mount making their frames useless while threatening the armbar, or secure a two-on-one grip on one of their framing arms and isolate it for americana or armbar. The key is recognizing that their frames, while creating momentary space, also commit their arms in predictable positions."
       },
       {
-        "technique": "Kimura from Mount",
-        "target_position": "Kimura Control",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 55,
-          "advanced": 70
-        }
+        "question": "How do you manage energy when holding High Mount for extended periods?",
+        "answer": "Use positional efficiency rather than strength. Keep your core relaxed and let your skeletal structure carry the weight. Cycle through light submission threats to keep them defensive without committing fully to any one attack. Breathe steadily and avoid death-gripping any controls. When they rest, rest with them but maintain positional integrity. When they explode, use their movement to advance or attack rather than simply absorbing it. The goal is to tire them faster than you tire yourself."
       },
       {
-        "technique": "Arm Triangle",
-        "target_position": "Won by Submission",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 50,
-          "advanced": 65
-        }
+        "question": "Your opponent successfully creates a frame and begins recovering space - how do you recover control?",
+        "answer": "First, address the frame by swimming under it, pinning their wrist, or redirecting their arm across their body. If significant space is created, immediately re-establish knee pressure by walking your knees back up toward their armpits. If they're threatening to recover guard, transition to Technical Mount or S-Mount rather than fighting to maintain pure High Mount. Recognize that small positional adjustments (moving to mount variations) maintain your dominance better than desperately clinging to one specific position."
       },
       {
-        "technique": "Gift Wrap Transition",
-        "target_position": "Gift Wrap",
-        "success_rates": {
-          "beginner": 40,
-          "intermediate": 60,
-          "advanced": 75
-        }
-      },
-      {
-        "technique": "Loop Choke from Mount",
-        "target_position": "Won by Submission",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 40,
-          "advanced": 55
-        }
-      },
-      {
-        "technique": "Monoplata from Mount",
-        "target_position": "Won by Submission",
-        "success_rates": {
-          "beginner": 20,
-          "intermediate": 35,
-          "advanced": 50
-        }
-      }
-    ],
-    "defensive_responses": [
-      {
-        "technique": "Upa Escape",
-        "target_position": "Guard Recovery",
-        "success_rate": 15
-      },
-      {
-        "technique": "Elbow Escape",
-        "target_position": "Half Guard",
-        "success_rate": 20
-      },
-      {
-        "technique": "Bridge and Roll",
-        "target_position": "Guard Recovery",
-        "success_rate": 10
-      },
-      {
-        "technique": "Shrimp Escape",
-        "target_position": "Guard Recovery",
-        "success_rate": 12
-      },
-      {
-        "technique": "Frame Creation",
-        "target_position": "Defensive Position",
-        "success_rate": 25
-      },
-      {
-        "technique": "Hip Escape",
-        "target_position": "Half Guard",
-        "success_rate": 18
-      }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Transition to Mount",
-        "target_position": "S Mount",
-        "trigger": "Opponent attempts to push on hips or create distance with frames on chest or shoulders"
-      },
-      {
-        "technique": "Transition to Mount",
-        "target_position": "Technical Mount",
-        "trigger": "Opponent turns to side attempting elbow escape or hip escape sequence"
-      },
-      {
-        "technique": "Armbar from Mount",
-        "target_position": "Armbar Control",
-        "trigger": "Opponent extends arm to frame on chest, neck, or hips creating armbar opportunity"
-      },
-      {
-        "technique": "Gift Wrap Transition",
-        "target_position": "Gift Wrap",
-        "trigger": "Opponent attempts to turn away or protect neck by bringing arm across body"
-      },
-      {
-        "technique": "Transition to North-South",
-        "target_position": "North-South",
-        "trigger": "Opponent creates significant bridge and attempts to turn perpendicular to escape"
-      },
-      {
-        "technique": "Triangle from Mount",
-        "target_position": "Triangle Control",
-        "trigger": "Opponent pushes with both hands on hips creating triangle entry opportunity"
+        "question": "What distinguishes High Mount from standard Mount in terms of control mechanics?",
+        "answer": "High Mount positions your knees near the armpits rather than at the hips, and your weight sits on the upper chest/sternum rather than the abdomen. This geometric difference eliminates bridge effectiveness (they can't generate upward force from their hips when your weight is on their chest), restricts arm movement (knees wedging against arms), and creates immediate submission proximity (you're already positioned for collar chokes, armbars, and americanas). The tradeoff is slightly reduced base stability, making High Mount better for finishing than for extended control."
       }
     ],
     "decision_tree": [
@@ -652,7 +153,7 @@
           },
           {
             "technique": "Kimura from Mount",
-            "target": "Kimura Control",
+            "target": "Kimura Trap",
             "probability": 60
           }
         ]
@@ -662,12 +163,12 @@
         "actions": [
           {
             "technique": "Ezekiel from Mount",
-            "target": "Won by Submission",
+            "target": "game-over",
             "probability": 65
           },
           {
             "technique": "Americana from Mount",
-            "target": "Won by Submission",
+            "target": "game-over",
             "probability": 55
           }
         ]
@@ -676,12 +177,12 @@
         "condition": "If opponent attempts to bridge or turn to side for escape with explosive movement",
         "actions": [
           {
-            "technique": "Transition to Mount",
+            "technique": "Transition to S Mount",
             "target": "S Mount",
             "probability": 80
           },
           {
-            "technique": "Transition to Mount",
+            "technique": "Transition to Technical Mount",
             "target": "Technical Mount",
             "probability": 75
           }
@@ -707,12 +208,12 @@
         "actions": [
           {
             "technique": "Cross Collar Choke",
-            "target": "Won by Submission",
+            "target": "game-over",
             "probability": 70
           },
           {
             "technique": "Ezekiel from Mount",
-            "target": "Won by Submission",
+            "target": "game-over",
             "probability": 65
           }
         ]
@@ -782,28 +283,6 @@
         "duration": "3 minutes per round, 4 rounds"
       }
     ],
-    "optimal_submission_paths": [
-      {
-        "name": "Shortest Path - Direct Armbar",
-        "path": "High Mount Top → Isolate Extended Arm → Armbar Control → Won by Submission (3 steps, highest percentage finish)"
-      },
-      {
-        "name": "High Percentage Path - S-Mount to Armbar",
-        "path": "High Mount Top → S Mount → Armbar Control → Won by Submission (systematic progression with superior control)"
-      },
-      {
-        "name": "Choke Path - Collar Attack",
-        "path": "High Mount Top → Establish Collar Grips → Cross Collar Choke → Won by Submission (effective when opponent defends arms)"
-      },
-      {
-        "name": "Alternative Path - Technical Mount",
-        "path": "High Mount Top → Technical Mount → Back Control → Rear Naked Choke → Won by Submission (when opponent turns to escape)"
-      },
-      {
-        "name": "Arm Triangle Path",
-        "path": "High Mount Top → Isolate Arm Across Body → Arm Triangle → Side Control → Won by Submission (powerful finishing sequence)"
-      }
-    ],
     "related_content": [
       {
         "name": "Mount",
@@ -842,11 +321,7 @@
         "relationship": "Primary technique - transition connecting high mount to armbar finish sequence"
       },
       {
-        "name": "Submission Chains",
-        "relationship": "Strategic concept - framework for connecting multiple submission attempts from high mount"
-      },
-      {
-        "name": "Kimura Control",
+        "name": "Kimura Trap",
         "relationship": "Submission control - shoulder lock option when opponent defends with bent arms tucked tight"
       },
       {
@@ -871,6 +346,310 @@
         "advanced": 55
       },
       "average_time": "45-90 seconds before submission or advancement"
-    }
+    },
+    "transitions": [
+      {
+        "transition": "Armbar from Mount",
+        "attempt_probability": 18
+      },
+      {
+        "transition": "Ezekiel from Mount",
+        "attempt_probability": 14
+      },
+      {
+        "transition": "Cross Collar Choke",
+        "attempt_probability": 14
+      },
+      {
+        "transition": "Americana from Mount",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Triangle from Mount",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Kimura from Mount",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Arm Triangle",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Gift Wrap Transition",
+        "attempt_probability": 10
+      }
+    ]
+  },
+  "bottom": {
+    "name": "High Mount Bottom",
+    "description": "Survive and escape High Mount Bottom in BJJ. Emergency defensive strategies covering frame creation, bridge mechanics, and escape sequences with complete bottom perspective analysis. Success rates: Beginner 15%, Intermediate 25%, Advanced 40%.",
+    "tags": [
+      "bjj",
+      "position",
+      "mount",
+      "bottom",
+      "defensive",
+      "escape",
+      "survival"
+    ],
+    "overview": "High Mount Bottom represents one of the most challenging defensive situations in Brazilian Jiu-Jitsu, where the bottom player faces an opponent who has walked their knees high toward the armpits or shoulders, creating maximum submission proximity while eliminating traditional escape mechanisms. This position requires immediate defensive action, as the elevated knee placement severely restricts the bottom player's ability to generate bridging power or create effective frames.\n\nThe strategic challenge of High Mount Bottom lies in the geometric disadvantage created by the top player's elevated position. With weight concentrated on the upper chest and sternum, the bottom player loses the ability to generate upward force through hip extension, making traditional bridge escapes nearly impossible. This biomechanical reality forces the bottom player to rely on timing, explosive movement, and capitalizing on the top player's transitional moments rather than sustained defensive pressure.\n\nDefensive strategy from High Mount Bottom centers on survival first, escape second. The bottom player must protect the neck and arms while seeking opportunities to create frames during submission attempts. Since the position strongly favors the top player, the bottom player's success depends on recognizing submission setups early and using the top player's weight shifts during attacks as windows for escape. Understanding that every submission attempt requires the top player to redistribute weight creates the foundation for defensive timing.\n\nFrom a training perspective, High Mount Bottom teaches practitioners to remain calm under extreme pressure and to recognize the subtle opportunities that arise during positional transitions. The position exemplifies the importance of preventive defense—never allowing opponents to establish high mount in the first place. When trapped in high mount, the focus shifts to minimizing damage, protecting vital targets, and waiting for the precise moment when offensive action creates defensive opportunity.",
+    "state_properties": {
+      "point_value": 0,
+      "position_type": "Defensive",
+      "risk_level": "High",
+      "energy_cost": "High",
+      "time_sustainability": "Short"
+    },
+    "state_invariants": [
+      "Bottom player flat on back with opponent's knees positioned high near armpits or shoulders, creating extreme compression on upper torso. The elevated knee placement eliminates space between players and prevents the bottom player from generating meaningful hip elevation or rotational force through traditional bridging mechanics.",
+      "Opponent's weight centered on upper chest and sternum area with forward pressure through hips and torso, restricting breathing and preventing upward movement. The bottom player experiences constant downward pressure that eliminates the angle required for explosive bridge escapes while maintaining vulnerability to multiple submission attacks.",
+      "Arms tucked defensively to protect neck and prevent isolation, with elbows maintaining connection to torso when possible. The bottom player must balance arm protection with the need to create frames during escape attempts, knowing that extended arms become immediate armbar targets while tucked arms limit defensive mobility.",
+      "Hips pinned to mat with severely restricted mobility due to opponent's elevated position and forward weight distribution. The bottom player's ability to shrimp, bridge, or rotate is minimized by the geometric advantage the top player maintains through high knee positioning and upper body pressure.",
+      "Head positioned to protect neck from choke attempts while maintaining awareness of opponent's hand positioning and weight shifts. The bottom player must track multiple simultaneous threats including collar chokes, arm attacks, and positional advancements while maintaining defensive structure under sustained pressure."
+    ],
+    "prerequisites": [
+      "Understanding of mount escape fundamentals including bridge and elbow escape mechanics",
+      "Experience with defensive framing principles and creating space under pressure",
+      "Ability to remain calm and strategic under intense positional pressure",
+      "Knowledge of submission defense principles for armbar and choke protection",
+      "Hip mobility for explosive bridge attempts and shrimp-based escape movements",
+      "Awareness of timing principles for capitalizing on opponent's weight shifts during attacks"
+    ],
+    "key_principles": [
+      "Protect neck and arms as absolute priority, never allowing full extension or isolation of limbs",
+      "Create frames during opponent's submission attempts when weight shifts provide momentary opportunity",
+      "Use explosive bridge timing when opponent posts hands or shifts weight for submission attacks",
+      "Attempt elbow escape to recover half guard when opponent's base becomes momentarily compromised",
+      "Remain calm under pressure, conserving energy for precise escape timing rather than panicked movement",
+      "Recognize submission setups early to defend before opponent establishes control points",
+      "Accept that escapes require perfect timing during opponent's transitions rather than sustained pressure"
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the optimal defensive arm position when trapped in High Mount Bottom?",
+        "answer": "Keep elbows tight to your ribs with hands positioned near your chin and neck, creating a protective shell. Arms should never be fully extended as this creates immediate armbar opportunities. Maintain bent arms with elbows connected to your torso - this protects against arm isolation while keeping hands available to defend chokes. When forced to frame, use short, bent-arm frames rather than extended pushing."
+      },
+      {
+        "question": "Your opponent reaches for a collar grip to set up a choke - what adjustment do you make?",
+        "answer": "The moment they reach for the collar, their weight shifts forward onto their posting hand. This is your escape window. Trap their posting arm by pulling it across your chest, trap their foot on the same side with your heel, and execute an explosive bridge toward that side. If the bridge isn't available, use their forward weight shift to create frames and begin shrimping to recover guard. Their offensive action creates the opening for your defensive action."
+      },
+      {
+        "question": "What is the timing window for attempting an elbow escape from High Mount Bottom?",
+        "answer": "The elbow escape window opens when the opponent's knee slides away from your armpit - typically when they transition, reach for grips, or adjust their position. You cannot elbow escape when their knee is wedged tight against your armpit. Wait for them to create the gap, then immediately turn to your side and insert your knee before they can reestablish the wedge. The window is brief (1-2 seconds), so you must be prepared to move instantly."
+      },
+      {
+        "question": "How do you defend the armbar setup from High Mount Bottom?",
+        "answer": "When you feel them isolating your arm, immediately grip your own clothing (gi) or clasp your hands together to create a connection point. Turn your body toward the trapped arm to prevent them from rotating to finish. Pull your elbow tight to your hip, making it difficult to extend. If they commit to the armbar rotation, follow them with your body and use their transition as an opportunity to escape mount, even if you end up defending armbar from a better position."
+      },
+      {
+        "question": "What should you prioritize defending: your neck or your arms?",
+        "answer": "Neck defense takes priority because chokes can finish faster and with less setup than armbars. However, completely abandoning arm defense creates easy armbar opportunities. The balance is maintaining elbows tight to your ribs (protecting arms) while keeping hands near your chin and neck (protecting chokes). When forced to choose, defend the immediate threat - if they have collar grips, focus on the neck; if they're isolating an arm, defend the arm. Recognize that defending one often exposes the other, which is why High Mount is so dangerous."
+      }
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent posts hand high near head to establish grip for submission attempt",
+        "actions": [
+          {
+            "technique": "Upa Escape",
+            "target": "Closed Guard",
+            "probability": 30
+          },
+          {
+            "technique": "Bridge and Roll",
+            "target": "Closed Guard",
+            "probability": 25
+          }
+        ]
+      },
+      {
+        "condition": "If opponent's knee slides away from armpit during transition or submission setup",
+        "actions": [
+          {
+            "technique": "Elbow Escape",
+            "target": "Half Guard",
+            "probability": 35
+          },
+          {
+            "technique": "Hip Escape",
+            "target": "Half Guard",
+            "probability": 30
+          }
+        ]
+      },
+      {
+        "condition": "If opponent reaches for collar or attempts to isolate extended arm for attack",
+        "actions": [
+          {
+            "technique": "Frame and Shrimp",
+            "target": "Open Guard",
+            "probability": 45
+          },
+          {
+            "technique": "Armbar Defense",
+            "target": "High Mount",
+            "probability": 40
+          }
+        ]
+      },
+      {
+        "condition": "If opponent maintains static control without immediate submission threat",
+        "actions": [
+          {
+            "technique": "Shrimp Escape",
+            "target": "Open Guard",
+            "probability": 25
+          },
+          {
+            "technique": "Frame and Shrimp",
+            "target": "Open Guard",
+            "probability": 30
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Extending arms straight to push on opponent's chest or face",
+        "consequence": "Creates immediate armbar opportunity as extended arm becomes isolated and vulnerable to joint lock attack",
+        "correction": "Keep elbows connected to torso, using short frames with bent arms to create minimal space without arm extension"
+      },
+      {
+        "error": "Attempting bridge escape when opponent maintains high knee position and forward pressure",
+        "consequence": "Wastes energy on mechanically impossible movement and potentially opens neck for choke attacks",
+        "correction": "Wait for opponent's weight shift during submission attempt before attempting explosive bridge timing"
+      },
+      {
+        "error": "Turning to side prematurely attempting elbow escape",
+        "consequence": "Exposes back and allows opponent to advance to technical mount or take back control",
+        "correction": "Create frames first to establish distance before attempting rotation, timing turn with opponent's weight shifts"
+      },
+      {
+        "error": "Panicking and using explosive random movement without strategic timing",
+        "consequence": "Exhausts energy rapidly while providing no realistic escape opportunity, hastening submission",
+        "correction": "Remain calm, breathe steadily, and conserve energy for precise explosive movements during opponent transitions"
+      },
+      {
+        "error": "Focusing solely on one escape attempt repeatedly despite failure",
+        "consequence": "Allows opponent to predict and counter defensive movements while maintaining dominant control",
+        "correction": "Vary escape attempts based on opponent's reactions, chaining different techniques to create unpredictability"
+      },
+      {
+        "error": "Leaving neck exposed while defending arm attacks",
+        "consequence": "Creates opportunity for opponent to switch from armbar to choke attacks, multiplying threats",
+        "correction": "Maintain chin tucked and hands protecting neck area even while defending arm isolation attempts"
+      },
+      {
+        "error": "Giving up mentally and accepting submission without continuing defensive effort",
+        "consequence": "Guarantees loss when continued intelligent defense might reveal escape opportunities",
+        "correction": "Maintain mental composure and continue seeking defensive opportunities until tap or positional escape occurs"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "High Mount Survival Drill",
+        "description": "Partner maintains high mount while you practice defensive posture, neck protection, and arm positioning for extended periods (starting 1 minute, building to 3 minutes). Partner provides increasing submission threats without finishing, developing defensive awareness and mental toughness under pressure.",
+        "duration": "3 rounds of 3 minutes each"
+      },
+      {
+        "name": "Timed Escape Drill",
+        "description": "Start in high mount bottom position and attempt escapes for 2-minute rounds. Partner maintains control at 50-75% resistance, allowing realistic escape opportunities during transitions. Track successful escapes to measure progress over time.",
+        "duration": "5 rounds of 2 minutes each"
+      },
+      {
+        "name": "Submission Defense Reaction Drill",
+        "description": "Partner alternates between armbar, collar choke, and Ezekiel attempts from high mount while you practice appropriate defensive responses. Focus on recognizing setup grips early and defending before full control is established.",
+        "duration": "4 rounds of 3 minutes each"
+      },
+      {
+        "name": "Bridge Timing Drill",
+        "description": "Partner in high mount posts hands periodically to simulate submission setups. Practice explosive bridge timing when opponent's base becomes momentarily compromised, developing sensitivity to weight shift opportunities.",
+        "duration": "3 rounds of 4 minutes each"
+      },
+      {
+        "name": "Progressive Resistance Escapes",
+        "description": "Drill all escape options (upa, elbow escape, frame and shrimp) against progressively increasing resistance (25%, 50%, 75%, 100%). Partner provides realistic but gradually increasing defense, building technique refinement under pressure.",
+        "duration": "6 minutes continuous with increasing intensity"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Mount",
+        "relationship": "Related position - standard mount that precedes high mount establishment"
+      },
+      {
+        "name": "S Mount",
+        "relationship": "Worse position - common progression when high mount escapes fail and opponent advances"
+      },
+      {
+        "name": "Technical Mount",
+        "relationship": "Alternative bad position - result of turning to side attempting elbow escape"
+      },
+      {
+        "name": "Half Guard",
+        "relationship": "Escape target - realistic goal position when elbow escape succeeds"
+      },
+      {
+        "name": "Closed Guard",
+        "relationship": "Escape target - optimal goal position when upa or bridge escapes succeed"
+      },
+      {
+        "name": "Upa Escape",
+        "relationship": "Primary technique - bridge-based escape requiring perfect timing during opponent's transitions"
+      },
+      {
+        "name": "Elbow Escape",
+        "relationship": "Most realistic technique - frame and shrimp escape to recover half guard"
+      },
+      {
+        "name": "Open Guard",
+        "relationship": "Escape target - possible outcome when frames and shrimps create sufficient space"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "beginner": 85,
+        "intermediate": 75,
+        "advanced": 60,
+        "description": "Opponent's ability to maintain high mount position"
+      },
+      "advancement_probability": {
+        "beginner": 10,
+        "intermediate": 20,
+        "advanced": 35,
+        "description": "Bottom player's chance of improving position"
+      },
+      "submission_probability": {
+        "beginner": 60,
+        "intermediate": 45,
+        "advanced": 30,
+        "description": "Risk of being submitted from this position"
+      },
+      "average_time": "30-60 seconds before submission or escape attempt"
+    },
+    "transitions": [
+      {
+        "transition": "Upa Escape",
+        "attempt_probability": 18
+      },
+      {
+        "transition": "Elbow Escape",
+        "attempt_probability": 25
+      },
+      {
+        "transition": "Bridge and Roll",
+        "attempt_probability": 15
+      },
+      {
+        "transition": "Shrimp Escape",
+        "attempt_probability": 18
+      },
+      {
+        "transition": "Hip Escape",
+        "attempt_probability": 24
+      }
+    ]
   }
 }

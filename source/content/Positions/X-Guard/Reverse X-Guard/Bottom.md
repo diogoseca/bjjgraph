@@ -21,37 +21,37 @@ description: "Master Reverse X-Guard Bottom in BJJ. Advanced guard position with
     {
       "@type": "HowToStep",
       "name": "Execute Reverse X-Guard Sweep",
-      "text": "From this position, execute Reverse X-Guard Sweep to transition to Mount. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Reverse X-Guard Sweep. This technique is attempted in 14% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Elevation Sweep to Mount",
-      "text": "From this position, execute Elevation Sweep to Mount to transition to Mount. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Elevation Sweep to Mount. This technique is attempted in 13% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Reverse X to Back Take",
-      "text": "From this position, execute Reverse X to Back Take to transition to Back Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Reverse X to Back Take. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Standard X-Guard",
-      "text": "From this position, execute Transition to Standard X-Guard to transition to X-Guard. Success rate for advanced practitioners: 80%.",
+      "name": "Execute Reverse X-Guard to Standard X-Guard",
+      "text": "From this position, attempt Reverse X-Guard to Standard X-Guard. This technique is attempted in 19% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Reverse X to Single Leg X Entry",
-      "text": "From this position, execute Reverse X to Single Leg X Entry to transition to Single Leg X-Guard. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Reverse X to Single Leg X Entry. This technique is attempted in 15% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Reverse X to Ashi Garami Entry",
-      "text": "From this position, execute Reverse X to Ashi Garami Entry to transition to Ashi Garami. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Reverse X to Ashi Garami Entry. This technique is attempted in 13% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -213,84 +213,20 @@ The position requires high technical proficiency, hip mobility, and timing to ex
 
 ## Available Escapes
 
-### [[Reverse X-Guard Sweep]] → [[Mount]]
+### [[Reverse X-Guard Sweep]] (14% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Elevation Sweep to Mount]] (13% of attempts)
 
-### [[Elevation Sweep to Mount]] → [[Mount]]
+### [[Reverse X to Back Take]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Reverse X-Guard to Standard X-Guard]] (19% of attempts)
 
-### [[Reverse X to Back Take]] → [[Back Control]]
+### [[Reverse X to Single Leg X Entry]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Reverse X to Ashi Garami Entry]] (13% of attempts)
 
-### [[Transition to Standard X-Guard]] → [[X-Guard]]
+### [[Technical Stand Up]] (14% of attempts)
 
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 65%
-- Advanced: 80%
-
-### [[Reverse X to Single Leg X Entry]] → [[Single Leg X-Guard]]
-
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 60%
-- Advanced: 75%
-
-### [[Reverse X to Ashi Garami Entry]] → [[Ashi Garami]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 65%
-
-### [[Technical Stand Up]] → [[Standing Position]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 55%
-- Advanced: 70%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Base Widening and Posture Recovery]]** → [[Open Guard]] (Opponent Success: 40%)
-- **[[Knee Slide Pass]]** → [[Side Control]] (Opponent Success: 35%)
-- **[[Backstep to Leg Drag]]** → [[Leg Drag Control]] (Opponent Success: 45%)
-- **[[Pressure Pass with Hip Control]]** → [[Half Guard]] (Opponent Success: 40%)
-- **[[Standing Leg Extraction]]** → [[Standing Position]] (Opponent Success: 50%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Hook Reinforcement to Sweep]]** → [[Mount]]
-  - Opponent attempts to widen base or pull leg free
-- **[[Transition to Deep Half Guard]]** → [[Deep Half Guard]]
-  - Opponent drops weight and moves to side pressure
-- **[[Inversion to Back Take]]** → [[Back Control]]
-  - Opponent steps over or attempts to backstep
-- **[[Shift to Outside Ashi Garami]]** → [[Outside Ashi-Garami]]
-  - Opponent pulls leg back aggressively
 
 
 </section>
@@ -301,7 +237,7 @@ The position requires high technical proficiency, hip mobility, and timing to ex
 
 **If opponent maintains standing posture with weight evenly distributed:**
 - Execute **[[Elevation Sweep]]** → [[Mount]] (Probability: 65%)
-- Execute **[[Reverse X-Guard Sweep to Top]]** → [[Mount]] (Probability: 70%)
+- Execute **[[Reverse X-Guard Sweep]]** → [[Mount]] (Probability: 70%)
 
 
 **If opponent drops weight and attempts to smash through hooks:**
@@ -311,7 +247,7 @@ The position requires high technical proficiency, hip mobility, and timing to ex
 
 **If opponent steps back or attempts to disengage controlled leg:**
 - Execute **[[Follow to Single Leg X]]** → [[Single Leg X-Guard]] (Probability: 70%)
-- Execute **[[Transition to Ashi Garami]]** → [[Ashi Garami]] (Probability: 65%)
+- Execute **[[Entry to Ashi Garami]]** → [[Ashi Garami]] (Probability: 65%)
 
 
 **If opponent backsteps or attempts to pass around controlled leg:**
@@ -397,29 +333,39 @@ Practice flowing from Reverse X-Guard Bottom to related positions: Standard X-Gu
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Leg Lock Path via Ashi Garami
+## Test Your Knowledge
 
-`Reverse X-Guard Bottom → Ashi Garami → Heel Hook`
+**Q1**: Your opponent starts to widen their base to resist sweeps - what adjustment do you make?
+**A**: When the opponent widens their base, immediately increase your hip elevation while pulling strongly on their controlled sleeve or collar. The wider base actually makes them more vulnerable to directional sweeps because they lose the ability to step. Rotate your hips toward their widened leg and execute a sweep in that direction. Alternatively, use their commitment to base width as an opportunity to transition to Single Leg X or back take.
 
-### Back Attack Path
+**Q2**: What are the essential grips for maintaining Reverse X-Guard control?
+**A**: The primary grip should control the sleeve or wrist on the same side as your hooks - this prevents them from posting when swept and controls their posture. Secondary grip options include far collar for additional posture control, belt grip for rotational manipulation, or far sleeve to prevent counter-attacks. In no-gi, wrist control on the near side and head or collar tie on the far side replicate these functions.
 
-`Reverse X-Guard Bottom → Back Take Inversion → Back Control → Rear Naked Choke`
+**Q3**: How do you prevent the opponent from smashing down through your hooks?
+**A**: When the opponent drops weight to smash, you have two primary options. First, you can maintain your hooks and immediately transition to Deep Half Guard by threading under their near leg - their downward pressure actually assists this transition. Second, invert away from the pressure and look for back takes as they over-commit forward. Never try to fight straight back against their downward pressure as this is inefficient and exposes you to passes.
 
-### Top Position to Submission Path
+**Q4**: What should your hip position and angle be for maximum sweep power?
+**A**: Your hips should be elevated and rotated away from your opponent's trapped leg, creating an inverted angle relative to their body. This positioning loads your hip flexors and core muscles for powerful elevation while your hooks create the fulcrum point. Think of creating a diagonal line from your shoulders through your hips - this angle generates the rotational force needed for sweeps while maximizing the lifting leverage from your primary hook.
 
-`Reverse X-Guard Bottom → Elevation Sweep → Mount → Armbar from Mount`
+**Q5**: When the opponent attempts to backstep out of your control, how do you follow?
+**A**: As the opponent backsteps, immediately invert with them while maintaining your hook connection. Their backstep actually exposes their back, making this an excellent opportunity for a back take. Follow their movement by spinning underneath while your hooks transition from sweeping position to back-taking position. If they complete the backstep before you can take the back, transition to Single Leg X or Ashi Garami to maintain leg entanglement control.
 
-### Single Leg X to Submission Path
+**Q6**: How do you manage energy while maintaining active Reverse X-Guard control?
+**A**: Use your skeletal structure rather than constant muscular tension. Your legs should create frame against the opponent's leg through proper hook positioning, not through squeezing. Conserve grip strength by using relaxed but connected grips rather than death-gripping. Generate sweeping power through coordinated hip movement and hook extension rather than trying to muscle opponents over. Rest between sweep attempts by maintaining position without constant attacking.
 
-`Reverse X-Guard Bottom → Single Leg X-Guard → Single Leg X Sweep → Kneebar from Top`
+**Q7**: Your primary hook starts slipping - how do you recover or transition?
+**A**: If your primary hook behind the knee begins slipping, immediately reinforce it by adjusting your hip angle to increase hook pressure, or transition before losing control entirely. Single Leg X-Guard requires less hook depth so is an excellent bail-out position. Alternatively, if your grip control is strong, you can use the sleeve grip to off-balance them while re-establishing your hook. Never let the hook slip completely before taking action.
+
+**Q8**: How do you set up sweeps against an opponent who refuses to commit weight in any direction?
+**A**: Against a perfectly balanced opponent, create off-balancing reactions through grip manipulation and false attacks. Pull sharply on their sleeve or collar to force them to resist in one direction, then sweep in the opposite direction as they recover. Use transitions to other positions (X-Guard, Single Leg X) to create new angles and force reactions. The key is never letting them stay comfortable - constant movement and threat generation eventually creates the opening you need.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 

@@ -21,37 +21,37 @@ description: "Master Double Sleeve Guard Top in BJJ. Complete guide covering pas
     {
       "@type": "HowToStep",
       "name": "Execute Toreando Pass",
-      "text": "From this position, execute Toreando Pass to transition to Side Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Toreando Pass. This technique is attempted in 16% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, execute Knee Slice Pass to transition to Side Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 15% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag Pass",
-      "text": "From this position, execute Leg Drag Pass to transition to Leg Drag Control. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 14% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Stack Pass",
-      "text": "From this position, execute Stack Pass to transition to Side Control. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Stack Pass. This technique is attempted in 13% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Long Step Pass",
-      "text": "From this position, execute Long Step Pass to transition to Side Control. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Long Step Pass. This technique is attempted in 14% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute X Pass",
-      "text": "From this position, execute X Pass to transition to Side Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt X Pass. This technique is attempted in 15% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -207,84 +207,20 @@ Double Sleeve Guard Top represents the passing position when facing an opponent 
 
 ## Available Attacks
 
-### [[Toreando Pass]] → [[Side Control]]
+### [[Toreando Pass]] (16% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Knee Slice Pass]] (15% of attempts)
 
-### [[Knee Slice Pass]] → [[Side Control]]
+### [[Leg Drag Pass]] (14% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Stack Pass]] (13% of attempts)
 
-### [[Leg Drag Pass]] → [[Leg Drag Control]]
+### [[Long Step Pass]] (14% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
+### [[X Pass]] (15% of attempts)
 
-### [[Stack Pass]] → [[Side Control]]
+### [[Double Under Pass]] (13% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
-
-### [[Long Step Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-### [[X Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[Double Under Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Hip Escape]]** → [[Open Guard]] (Opponent Success: 45%)
-- **[[Butterfly Sweep]]** → [[Butterfly Guard]] (Opponent Success: 35%)
-- **[[Scissor Sweep]]** → [[Mount]] (Opponent Success: 30%)
-- **[[Triangle Setup]]** → [[Triangle Control]] (Opponent Success: 25%)
-- **[[Omoplata Sweep]]** → [[Omoplata Control]] (Opponent Success: 20%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Smash Pass]]** → [[Side Control]]
-  - Opponent attempts to invert or enter deep half guard
-- **[[Knee Cut Pass]]** → [[Side Control]]
-  - Opponent opens guard or loses one sleeve grip
-- **[[Headquarters Pass]]** → [[Headquarters Position]]
-  - Opponent attempts single leg X-guard entry
-- **[[Pressure Pass]]** → [[Side Control]]
-  - Opponent's grips weaken or they attempt to re-guard
 
 
 </section>
@@ -392,29 +328,39 @@ Start with opponent holding double sleeve grips. Practice breaking one grip, est
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Shortest Passing Path to Submission
+## Test Your Knowledge
 
-`Double Sleeve Guard Top → Toreando Pass → Side Control → Mount → Americana`
+**Q1**: Your opponent has strong double sleeve grips and you feel yourself being pulled forward - what immediate adjustment should you make?
+**A**: Immediately widen your base by stepping your feet wider apart, sit your hips back while keeping your chest up, and engage your core to resist the forward pull. Rather than fighting the grips with your arms, use your entire body structure to maintain posture. Think about driving your hips away from your opponent while keeping your shoulders over your knees to maintain balance.
 
-### High-Percentage Control Path
+**Q2**: What are the essential grip breaking mechanics for defeating double sleeve control?
+**A**: Effective grip breaking uses leverage and hip rotation rather than arm strength. The primary techniques include: rotating your wrist toward opponent's thumb (weakest part of grip), posting your elbow on their hip to create a fulcrum for breaking, stepping laterally while rotating your arm to create angular force, and two-on-one breaks where you grip your own sleeve and pull while stepping. Hip movement multiplies breaking power significantly.
 
-`Double Sleeve Guard Top → Knee Slice Pass → Side Control → North-South → Kimura`
+**Q3**: How should you distribute your weight when attempting to pass against double sleeve guard?
+**A**: Keep your weight centered between both feet with hips back and chest slightly forward. Avoid leaning too far forward as this makes you vulnerable to forward-pulling sweeps. Your weight should be dynamic, ready to shift based on their reactions. When initiating a pass, commit your weight decisively in one direction rather than staying neutral, but only after breaking at least one grip or creating a favorable angle.
 
-### Back Attack Path
+**Q4**: Your opponent begins to insert their feet on your biceps as you attempt to break grips - how do you respond?
+**A**: Address the feet immediately before they establish bicep control, as this strengthens their position significantly. Options include: swimming your elbows inside their feet to knock them down, stepping back quickly to remove the contact point and reset, or committing to a quick toreando pass before they can settle the bicep hooks. Never allow them to establish both bicep hooks with sleeve grips simultaneously.
 
-`Double Sleeve Guard Top → Leg Drag Pass → Leg Drag Control → Back Control → Rear Naked Choke`
+**Q5**: What common posture error leads to triangles and omoplatas from double sleeve guard?
+**A**: Allowing your shoulders to dip below hip level while your head is pulled forward creates the primary submission window. When you lean forward with bent posture, your head enters the triangle zone and your shoulders become vulnerable to omoplata rotations. Additionally, reaching forward with one arm while the other stays back creates the arm isolation needed for these submissions. Maintain symmetrical posture with both shoulders at the same height.
 
-### Pressure Passing Path
+**Q6**: How do you maintain forward passing pressure after successfully breaking one sleeve grip?
+**A**: Immediately establish your own grip on their leg, belt, or collar with your freed hand - don't leave it empty. Step toward the freed side to create an angle that diminishes their remaining grip's effectiveness. Your new grip should be controlling their leg on the passing side, preventing them from re-establishing their guard structure. Continue moving forward without pausing, as any hesitation allows them to re-grip.
 
-`Double Sleeve Guard Top → Stack Pass → Side Control → Mount → Armbar from Mount`
+**Q7**: Your opponent is cycling their legs dynamically between your arms - what passing strategy should you employ?
+**A**: Dynamic leg movement indicates they're defending reactively rather than attacking. Time your grip break and pass initiation to coincide with their leg movement, attacking when legs are in transition between positions. The knee slice pass is particularly effective here because you can enter during the movement window. Alternatively, control both legs simultaneously with a toreando grip to freeze their movement before passing.
+
+**Q8**: What energy management strategy allows sustained pressure against a skilled double sleeve guard player?
+**A**: Avoid extended grip fighting battles where both players are pulling constantly. Instead, use cycles of pressure and release: apply grip breaking pressure for 3-5 seconds, then maintain position without fighting if unsuccessful, then try a different angle. Stay mobile with your feet while keeping your arms relaxed between attempts. Chain grip breaks with passing attempts so energy expenditure directly contributes to position advancement rather than isolated grip battles.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -439,12 +385,12 @@ Start with opponent holding double sleeve grips. Practice breaking one grip, est
 - **[[Combat Base]]** - Alternative posture for addressing double sleeve grips
 - **[[Toreando Pass]]** - Primary passing technique from this position
 - **[[Knee Slice Pass]]** - High-percentage passing option after grip break
-- **[[Guard Passing Principles]]** - Conceptual framework for all passing strategies
-- **[[Grip Breaking]]** - Essential skill for defeating sleeve controls
-- **[[Pressure Passing]]** - Alternative approach to speed passing from this position
+- **[[Leg Drag Pass]]** - Effective passing option creating angle and control
 - **[[Spider Guard]]** - Similar position with different grip configuration
 - **[[Closed Guard]]** - Related guard passing scenario
 - **[[Open Guard]]** - Parent category of guard passing positions
+- **[[Headquarters Position]]** - Intermediate control position during passing sequences
+- **[[Side Control]]** - Primary destination after successful pass
 
 
 </section>

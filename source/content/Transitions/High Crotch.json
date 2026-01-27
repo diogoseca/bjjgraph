@@ -10,8 +10,6 @@
     "single-leg",
     "no-gi"
   ],
-  "starting_position": "Standing Position",
-  "ending_position": "Side Control",
   "success_rates": {
     "beginner": 30,
     "intermediate": 50,
@@ -247,6 +245,24 @@
     {
       "name": "Standing Back Control",
       "relationship": "Follow-up - achieved by running around to back instead of finishing forward takedown"
+    }
+  ],
+  "from_position": "Standing Position/Top",
+  "outcomes": [
+    {
+      "to": "Side Control/Top",
+      "probability": 70,
+      "result": "success"
+    },
+    {
+      "to": "Standing Position/Top",
+      "probability": 20,
+      "result": "failure"
+    },
+    {
+      "to": "Standing Position/Bottom",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

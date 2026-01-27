@@ -21,37 +21,37 @@ description: "Master closed guard top position with defensive strategies, guard 
     {
       "@type": "HowToStep",
       "name": "Execute Guard Opening Sequence",
-      "text": "From this position, execute Guard Opening Sequence to transition to Open Guard. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Guard Opening Sequence. This technique is attempted in 13% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Toreando Pass",
-      "text": "From this position, execute Toreando Pass to transition to Side Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Toreando Pass. This technique is attempted in 11% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, execute Knee Slice Pass to transition to Side Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Stack Pass",
-      "text": "From this position, execute Stack Pass to transition to Side Control. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Stack Pass. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Over-Under Pass",
-      "text": "From this position, execute Over-Under Pass to transition to Side Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Over-Under Pass. This technique is attempted in 11% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Long Step Pass",
-      "text": "From this position, execute Long Step Pass to transition to Side Control. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Long Step Pass. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -213,103 +213,24 @@ The closed guard top position exemplifies the strategic complexity of Brazilian 
 
 ## Available Attacks
 
-### [[Guard Opening Sequence]] → [[Open Guard]]
+### [[Guard Opening Sequence]] (13% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Toreando Pass]] (11% of attempts)
 
-### [[Toreando Pass]] → [[Side Control]]
+### [[Knee Slice Pass]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Stack Pass]] (10% of attempts)
 
-### [[Knee Slice Pass]] → [[Side Control]]
+### [[Over-Under Pass]] (11% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Long Step Pass]] (10% of attempts)
 
-### [[Stack Pass]] → [[Side Control]]
+### [[Pressure Pass]] (9% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
+### [[Double Under Pass]] (10% of attempts)
 
-### [[Over-Under Pass]] → [[Side Control]]
+### [[Standing up in Base]] (14% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[Long Step Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-### [[Pressure Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
-
-### [[Double Under Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-### [[Standing up in Base]] → [[Standing Position]]
-
-**Success Rates:**
-- Beginner: 50%
-- Intermediate: 65%
-- Advanced: 80%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Hip Bump Sweep]]** → [[Mount]] (Opponent Success: 45%)
-- **[[Scissor Sweep]]** → [[Mount]] (Opponent Success: 50%)
-- **[[Pendulum Sweep]]** → [[Mount]] (Opponent Success: 40%)
-- **[[Triangle Setup]]** → [[Triangle Control]] (Opponent Success: 35%)
-- **[[Armbar from Guard]]** → [[Armbar Control]] (Opponent Success: 30%)
-- **[[Omoplata from Guard]]** → [[Omoplata Control]] (Opponent Success: 25%)
-- **[[Kimura from Guard]]** → [[Kimura Control]] (Opponent Success: 30%)
-- **[[Guillotine Setup]]** → [[Guillotine Control]] (Opponent Success: 35%)
-- **[[Flower Sweep]]** → [[Mount]] (Opponent Success: 40%)
-- **[[Elevator Sweep]]** → [[Mount]] (Opponent Success: 35%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Posture Recovery]]** → [[Closed Guard]]
-  - Opponent attempts to break your posture by pulling your head or shoulders down toward their chest using collar grips or hand behind head
-- **[[Stack Defense]]** → [[Stack Pass]]
-  - Opponent begins hip bump sweep or attempts to elevate your base with underhooks creating forward momentum
-- **[[Grip Break]]** → [[Closed Guard]]
-  - Opponent secures collar or sleeve grips to set up attacks or break your posture for submission attempts
-- **[[Base Widening]]** → [[Closed Guard]]
-  - Opponent attempts lateral sweep such as scissor or pendulum sweep threatening to off-balance you sideways
 
 
 </section>
@@ -446,33 +367,39 @@ Practice standing up from closed guard, breaking the guard with proper mechanics
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### High-percentage passing path to submission
+## Test Your Knowledge
 
-`Closed Guard Top → Guard Opening Sequence → Open Guard → Toreando Pass → Side Control → Transition to Mount → Mount → Americana from Mount`
+**Q1**: Your opponent begins pulling your head down with a strong collar grip - what is your immediate response to maintain position?
+**A**: Immediately drive your hips backward while simultaneously pushing your chest forward and up, creating a counter-lever against their pulling force. Place both hands on their biceps or hips to create frames that prevent them from closing distance. Do not fight the pull with neck strength alone - use your entire posterior chain by sitting your weight back while keeping your spine straight. If the grip is too deep, circle your head to the outside while posting on their chest to break the angle of their pull.
 
-### Pressure-based submission path
+**Q2**: What are the essential weight distribution points for maintaining closed guard top position without being swept?
+**A**: Weight should be distributed primarily through your knees into the mat with approximately 60-70% of your mass, while the remaining weight stays through your hips and core, never through your hands. Your knees should be spread wider than shoulder-width to create a stable triangular base. Keep your center of gravity low by sitting your hips back slightly while maintaining upright spine. This distribution allows you to absorb lateral sweep attempts by shifting weight toward the threat while keeping hands free for grip fighting rather than posting.
 
-`Closed Guard Top → Guard Opening Sequence → Knee Slice Pass → Side Control → Transition to North-South → North-South → North-South Choke`
+**Q3**: Your opponent threatens a hip bump sweep by sitting up explosively - what base adjustment prevents being swept?
+**A**: When feeling the hip bump initiation, immediately post your same-side hand on the mat behind you at a 45-degree angle while driving your opposite hip down and toward them. Simultaneously widen your base by stepping your far knee out. The posted hand creates a tripod that absorbs their forward momentum. Do not lean forward into them as this adds to their leverage. Instead, sit back into your heels while maintaining the post until their momentum dissipates, then immediately return to standard posture and grip fighting.
 
-### Back attack path from guard passing
+**Q4**: What grip sequence should you prioritize when beginning your guard opening approach?
+**A**: First, establish bilateral control on the opponent's lapels or biceps to prevent them from initiating attacks while you prepare. Second, break any collar grips they have by using two-on-one grip breaks or by circling your head. Third, establish your own opening grips - typically both hands controlling the pants at the knees or one hand on the belt and one on the knee. Only after securing these grips should you begin creating distance for the guard break. Attempting to open without these preparatory grips exposes you to sweeps and submissions during the transition.
 
-`Closed Guard Top → Guard Opening Sequence → Open Guard → Stack Pass → Side Control → Back Take Generic → Back Control → Rear Naked Choke`
+**Q5**: How do you apply pressure in closed guard top without compromising your posture or exposing your arms?
+**A**: Effective pressure comes from driving your hips forward into their guard while keeping your spine vertical and head up - never lean your upper body forward as this breaks posture and exposes arms to attacks. Pin your elbows tight to your ribs and place forearms on their hips or lower abdomen to create a frame that transfers your hip drive into pressure. Your weight should feel heavy on their lower body while your upper body remains defensively sound. This pressure limits their hip mobility for sweeps while keeping you safe from arm attacks.
 
-### Standing pass to dominant control
+**Q6**: Your opponent has established deep collar and sleeve grips - what is the systematic approach to neutralizing these grips before they can attack?
+**A**: Address the collar grip first as it controls your posture most directly. Use a two-on-one grip break by grabbing their gripping wrist with both hands and pushing toward their thumb while rotating your shoulders away. Once freed, immediately control their sleeve to prevent re-gripping. For the sleeve grip, strip it by pulling your elbow sharply back while rotating your forearm. After breaking both grips, immediately establish your own grips on their biceps or lapels to control their arms before they can re-grip. Never allow them to re-establish both grips simultaneously.
 
-`Closed Guard Top → Standing up in Base → Standing Position → Long Step Pass → Side Control → Transition to Mount → Mount → Armbar from Mount`
+**Q7**: What indicators tell you the optimal moment to initiate your guard opening sequence?
+**A**: The optimal moment occurs when you have achieved: strong upright posture with head over hips, broken or controlled opponent's primary attacking grips, established your own controlling grips on their legs or hips, and the opponent has momentarily relaxed their leg squeeze or shifted their hips. Additionally, look for when they reach for new grips as this temporarily weakens their guard closure. Avoid initiating when they have strong collar control, when your posture is compromised, or when you feel them loading for a sweep attempt.
 
-### Knee slice to knee on belly control
-
-`Closed Guard Top → Guard Opening Sequence → Knee Slice Pass → Side Control → Transition to Mount → Knee on Belly → Americana`
+**Q8**: How do you recover when your posture has been partially broken but you haven't been swept yet?
+**A**: First, tuck your chin to prevent a guillotine and frame one forearm across their chest or collar bone to create space. Walk your hands up their body toward their shoulders while pushing your chest forward and driving your hips back - this creates opposing forces that restore your spine to vertical. Simultaneously widen your knees for base stability during the recovery. Once posture is restored to approximately 70%, immediately strip their grips before they can re-break you. Do not attempt to explosively posture up as this often fails against strong grips and wastes energy.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -496,14 +423,14 @@ Practice standing up from closed guard, breaking the guard with proper mechanics
 - **[[Closed Guard]]** - Inverse position - opponent's perspective from bottom
 - **[[Open Guard]]** - Target position after successfully opening closed guard
 - **[[Side Control]]** - Primary target position after successful guard pass
-- **[[Guard Passing Principles]]** - Conceptual framework for all guard passing including closed guard
-- **[[Posture Up]]** - Critical defensive concept for maintaining structure in closed guard
+- **[[Guard Opening Sequence]]** - Critical transition technique for escaping closed guard top
+- **[[Combat Base]]** - Defensive posture used during guard opening attempts
 - **[[Grip Fighting]]** - Essential skill for controlling opponent's attacking options
 - **[[Stack Pass]]** - Common passing option after opening guard
 - **[[Toreando Pass]]** - High-percentage pass after guard opening
 - **[[Triangle Choke]]** - Primary submission threat from opponent in this position
 - **[[Hip Bump Sweep]]** - Common sweep threat from opponent in this position
-- **[[Base Maintenance]]** - Fundamental concept for defending sweeps from closed guard
+- **[[Knee Slice Pass]]** - Fundamental pass used after guard is opened
 - **[[Pressure Passing]]** - Strategic approach applicable after guard opening
 
 

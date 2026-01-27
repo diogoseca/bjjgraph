@@ -10,8 +10,6 @@
     "control",
     "intermediate"
   ],
-  "starting_position": "Open Guard",
-  "ending_position": "Side Control",
   "success_rates": {
     "beginner": 45,
     "intermediate": 60,
@@ -268,6 +266,24 @@
     {
       "name": "Half Guard Pass",
       "relationship": "Related passing situation if opponent recovers partial guard during drag"
+    }
+  ],
+  "from_position": "Open Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Side Control/Top",
+      "probability": 75,
+      "result": "success"
+    },
+    {
+      "to": "Open Guard/Bottom",
+      "probability": 15,
+      "result": "failure"
+    },
+    {
+      "to": "Open Guard/Top",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

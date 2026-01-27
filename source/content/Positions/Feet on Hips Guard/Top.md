@@ -21,37 +21,37 @@ description: "Master feet on hips guard top position in BJJ. Complete passing st
     {
       "@type": "HowToStep",
       "name": "Execute Toreando Pass",
-      "text": "From this position, execute Toreando Pass to transition to Side Control. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Toreando Pass. This technique is attempted in 18% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Cut Pass",
-      "text": "From this position, execute Knee Cut Pass to transition to Side Control. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Knee Cut Pass. This technique is attempted in 16% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag Pass",
-      "text": "From this position, execute Leg Drag Pass to transition to Leg Drag Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 14% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Double Under Pass",
-      "text": "From this position, execute Double Under Pass to transition to Side Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Double Under Pass. This technique is attempted in 13% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Long Step Pass",
-      "text": "From this position, execute Long Step Pass to transition to Side Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Long Step Pass. This technique is attempted in 14% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute X Pass",
-      "text": "From this position, execute X Pass to transition to Side Control. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt X Pass. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -207,84 +207,20 @@ Feet on Hips Guard Top is the passing perspective when facing an opponent who ha
 
 ## Available Attacks
 
-### [[Toreando Pass]] → [[Side Control]]
+### [[Toreando Pass]] (18% of attempts)
 
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 60%
-- Advanced: 75%
+### [[Knee Cut Pass]] (16% of attempts)
 
-### [[Knee Cut Pass]] → [[Side Control]]
+### [[Leg Drag Pass]] (14% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Double Under Pass]] (13% of attempts)
 
-### [[Leg Drag Pass]] → [[Leg Drag Control]]
+### [[Long Step Pass]] (14% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[X Pass]] (12% of attempts)
 
-### [[Double Under Pass]] → [[Side Control]]
+### [[Stack Pass]] (13% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[Long Step Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-### [[X Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-### [[Stack Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Spider Guard Sweeps]]** → [[Spider Guard]] (Opponent Success: 35%)
-- **[[Lasso Guard Sweeps]]** → [[Lasso Guard]] (Opponent Success: 30%)
-- **[[Triangle Setup]]** → [[Triangle Control]] (Opponent Success: 25%)
-- **[[Omoplata Sweep]]** → [[Omoplata Control]] (Opponent Success: 20%)
-- **[[De La Riva Sweep]]** → [[De La Riva Guard]] (Opponent Success: 30%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Stack Pass]]** → [[Side Control]]
-  - Bottom player attempts to invert or shoot triangle with hips elevated
-- **[[Smash Pass]]** → [[Side Control]]
-  - Bottom player tries to establish De La Riva or reverse De La Riva hooks
-- **[[Headquarters Pass]]** → [[Headquarters Position]]
-  - Bottom player creates too much space with frames and retracts legs
-- **[[Knee Slice]]** → [[Side Control]]
-  - Bottom player attempts to establish shin shield or half guard recovery
 
 
 </section>
@@ -408,29 +344,39 @@ Start with bottom player in feet on hips position with grips already established
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Shortest path to submission via side control
+## Test Your Knowledge
 
-`Feet on Hips Guard Top → Knee Cut Pass → Side Control → Americana`
+**Q1**: What is the first step you should take before attempting any pass against feet on hips guard?
+**A**: Establish strong bilateral pants grips at or just below the knees before initiating any passing movement. This grip control neutralizes the pushing power of the opponent's leg frames and prevents them from extending fully to create distance. Without knee control, the bottom player retains full leg extension capability which makes any pass extremely difficult to complete.
 
-### High-percentage pressure path to mount submissions
+**Q2**: Your opponent starts extending their legs forcefully to push you away - what adjustment do you make?
+**A**: Lower your center of gravity by bending your knees and driving your hips forward while maintaining your knee grips. Keep your weight driving into the opponent rather than leaning back against the pressure. Use their extension as an opportunity to step laterally and create a passing angle, since fully extended legs are more vulnerable to lateral passing attacks like the toreando or leg drag.
 
-`Feet on Hips Guard Top → Toreando Pass → Side Control → Mount → Armbar from Mount`
+**Q3**: Why should you break one frame at a time rather than attempting to clear both feet simultaneously?
+**A**: Clearing both frames simultaneously requires releasing your grips and creates a moment where the opponent can freely adjust their position, re-establish frames, or attack with sweeps. Breaking one frame at a time maintains constant control and forward pressure. Once one foot is cleared past your hip, you can pin that leg while addressing the second frame, creating a systematic progression toward the pass rather than a chaotic exchange.
 
-### Back attack path via leg drag
+**Q4**: What are the essential grips for maintaining pressure and control against feet on hips guard?
+**A**: The priority grips are bilateral pants control at the knees, which neutralizes the pushing frames. Secondary grips include collar control to prevent the opponent from sitting up and establishing offensive grips, and ankle grips when transitioning to specific passes. Avoid reaching for sleeve grips initially as this exposes your posture and allows the bottom player to threaten spider guard or lasso transitions.
 
-`Feet on Hips Guard Top → Leg Drag Pass → Leg Drag Control → Back Control → Rear Naked Choke`
+**Q5**: How do you shut down the opponent's primary escape attempt of transitioning to De La Riva guard?
+**A**: Maintain awareness of your knee line and keep your lead knee tight and low, preventing the opponent from threading their leg underneath to establish the DLR hook. When you see them attempt to rotate their hips or reach for your ankle, immediately backstep or circle your lead leg away from their hooking leg. Drive forward pressure through your grips to keep their hips flat, reducing their ability to create the angle needed for DLR entry.
 
-### Submission path via north-south transition
+**Q6**: The bottom player begins hip-escaping laterally to face you during your pass - how do you respond?
+**A**: Follow their hip movement with your own lateral movement, keeping your chest aimed at their centerline. Use your knee grips to pull their legs back toward your centerline as they try to rotate. If they successfully create an angle, immediately transition to the passing direction they've exposed rather than fighting back to your original line. Their hip escape often creates an opportunity for knee cut or leg drag on the side they've opened.
 
-`Feet on Hips Guard Top → Stack Pass → North-South → North-South Choke`
+**Q7**: What is the optimal weight distribution when maintaining top position against feet on hips guard?
+**A**: Weight should be distributed forward and low, with your hips driving toward the opponent rather than staying elevated or sitting back. Keep approximately 60% of your weight driving forward through your grips while maintaining a stable base with wide feet. Your shoulders should be slightly ahead of your hips. This forward pressure makes it difficult for the bottom player to create distance while your low center of gravity prevents them from off-balancing you with push sweeps.
+
+**Q8**: How do you manage energy while systematically breaking down feet on hips frames?
+**A**: Avoid using upper body muscular effort to force through frames, which causes rapid fatigue. Instead, use your body weight and positioning to apply pressure. Grip the pants firmly but let your skeleton and bodyweight create pressure rather than constant grip squeezing. Move in small, controlled increments rather than explosive burst movements. Accept that breaking well-maintained frames takes time, and maintain consistent pressure rather than alternating between aggressive attacks and recovery periods.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -457,10 +403,7 @@ Start with bottom player in feet on hips position with grips already established
 - **[[Toreando Pass]]** - Primary passing technique from this position
 - **[[Knee Cut Pass]]** - High-percentage passing option when frames are broken
 - **[[Leg Drag Pass]]** - Alternative passing strategy using lateral movement
-- **[[Guard Passing Principles]]** - Conceptual framework for all passing applications
-- **[[Pressure Passing]]** - Strategic approach applicable to this position
 - **[[Standing Position]]** - Alternative posture for addressing feet-on-hips frames
-- **[[Grip Fighting]]** - Essential skill for establishing dominant grips and breaking frames
 
 
 </section>

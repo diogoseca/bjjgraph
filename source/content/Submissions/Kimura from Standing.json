@@ -287,6 +287,31 @@
       "question": "What are the three most dangerous errors in standing Kimura application, and what catastrophic injuries can result from each?",
       "answer": "The three most dangerous errors are: (1) Explosive or jerking rotation causing immediate rotator cuff tears, posterior shoulder dislocations, or complete shoulder capsule ruptures requiring surgical repair and 6-12 month recovery, (2) Failing to control opponent's descent causing uncontrolled falls from standing height resulting in head trauma, cervical spine injuries, or impact fractures, and (3) Ignoring or delaying tap signal recognition causing progressive shoulder destruction beyond repairable damage and permanent joint instability. All three errors share common root cause: prioritizing submission completion or competitive success over mandatory training safety protocols. These are career-ending injury risks that violate fundamental training ethics.",
       "safety_critical": true
+    },
+    {
+      "question": "Your opponent starts to posture up and pull their arm away while you have the figure-four grip established - what adjustment prevents escape?",
+      "answer": "When opponent postures up and pulls away, immediately step your hips closer while driving the elbow even higher above shoulder height. Your body weight should follow their retreat rather than allowing space to open. Simultaneously increase the compression of your figure-four by squeezing elbows together and pulling their wrist toward your centerline. If they create significant distance, transition to an arm drag using your maintained wrist control, pursuing back control rather than fighting to maintain a compromised Kimura position. The key is recognizing that posturing creates arm drag opportunity - their defensive reaction opens alternative attacking pathways.",
+      "safety_critical": false
+    },
+    {
+      "question": "What anatomical structure does the standing Kimura primarily attack, and what makes this joint particularly vulnerable in the standing position?",
+      "answer": "The standing Kimura primarily attacks the glenohumeral joint (shoulder) through extreme external rotation and abduction stress, targeting the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis) and the posterior shoulder capsule. The standing position makes this joint particularly vulnerable because: the opponent cannot brace against the ground to resist rotation, their attempt to maintain balance compromises their ability to defend the shoulder, gravity assists the rotational pressure when the elbow is elevated, and the fall reflex often causes them to abandon arm defense to break their fall. These factors combine to make standing Kimura finish faster than ground versions, requiring proportionally more caution.",
+      "safety_critical": false
+    },
+    {
+      "question": "What are the critical indicators that your Kimura grip is secure enough to begin applying rotational pressure in the standing position?",
+      "answer": "Critical grip security indicators before applying rotation: (1) Your wrist grip hand has four fingers wrapped completely around their wrist with thumb on opposite side, not just finger hooking, (2) Your threading arm has penetrated completely under their arm with your hand gripping your own wrist firmly, not loosely touching, (3) Both your elbows are squeezed together creating compression that eliminates any slack in the figure-four structure, (4) Their elbow is elevated above shoulder height with your forearm pressure against the back of their arm, (5) You feel their arm is isolated and they cannot easily retract without significant struggle. If any indicator is missing, secure the grip before rotation - a loose grip during rotation causes you to lose control at the critical moment.",
+      "safety_critical": false
+    },
+    {
+      "question": "In competition, what percentage of standing Kimura attempts result in direct tap versus positional advancement, and how should this inform your strategy?",
+      "answer": "In competition, approximately 70-80% of standing Kimura attempts result in positional advancement (takedown, back take, or ground transition) rather than direct standing tap. This statistic should inform strategy significantly: prioritize the Kimura as a control mechanism that creates dilemmas rather than expecting immediate submission finish. When opponent begins escaping standing pressure, immediately transition to takedown or back take rather than fighting to maintain failing submission. The standing Kimura's true value is forcing opponents to choose between defending the arm (allowing takedown) or defending takedown (allowing submission progress). Success means capitalizing on whichever option opponent abandons.",
+      "safety_critical": false
+    },
+    {
+      "question": "What specific grip adjustments optimize the finishing mechanics when transitioning from standing Kimura to ground finish after takedown?",
+      "answer": "When transitioning to ground finish: (1) Maintain figure-four grip throughout the descent - never release to post or catch yourself, (2) As you land, immediately adjust hip angle to position perpendicular to opponent's body rather than parallel, creating 90-degree torque angle, (3) Shift your grip hand from behind their back to grip your own bicep for the classic 'figure-four' finishing configuration, (4) Drop your chest weight onto their shoulder/upper arm to pin their shoulder blade to mat, (5) Extend your body away while maintaining chest pressure, creating lever arm that multiplies rotational force. The ground position allows heavier pressure and longer application time compared to standing, making controlled transition the highest percentage finishing strategy.",
+      "safety_critical": false
     }
   ],
   "training_progressions_and_safety_protocols": [
@@ -337,13 +362,12 @@
     "Standing Position",
     "Clinch",
     "Overhook Control",
-    "Collar Ties",
     "Front Headlock",
     "Turtle",
     "Scramble Position",
     "Combat Base",
-    "Overhook Control Clinch",
-    "Standing Rear Clinch"
+    "Standing Rear Clinch",
+    "Body Lock"
   ],
   "related_submissions": [
     "Kimura",
@@ -358,21 +382,16 @@
     "Americana",
     "Omoplata",
     "Guillotine Choke",
-    "Armbar Finish",
-    "Straight Armbar"
+    "Armbar Finish"
   ],
   "related_content": [
     {
-      "name": "Kimura to Back Take",
-      "relationship": "Primary transition when opponent counter-rotates to defend standing Kimura"
+      "name": "Kimura Trap",
+      "relationship": "Primary control position when opponent counter-rotates to defend standing Kimura"
     },
     {
       "name": "Rolling Kimura",
       "relationship": "Ground-based variation using similar shoulder lock mechanics with rotational entry"
-    },
-    {
-      "name": "Kimura Control",
-      "relationship": "Understanding control position improves offensive application and setup timing"
     },
     {
       "name": "Single Leg Entry",
@@ -403,12 +422,8 @@
       "relationship": "Control position that can transition from standing Kimura grip on the ground"
     },
     {
-      "name": "Kimura Trap System",
-      "relationship": "System-based approach to using Kimura as positional control rather than pure submission"
-    },
-    {
-      "name": "Underhook Control",
-      "relationship": "Opposite grip in clinch battle - overhook provides entry for Kimura setup"
+      "name": "Overhook Control",
+      "relationship": "Overhook provides entry for Kimura setup in clinch battles"
     }
   ]
 }

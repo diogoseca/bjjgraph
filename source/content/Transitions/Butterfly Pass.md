@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Butterfly Pass | BJJ Technique | BJJ Graph"
 description: "Master the Butterfly Pass in BJJ. Complete guide to neutralizing butterfly guard with pressure, base control, and positioning. Beginner 35%, Intermediate 50%, Advanced 65%."
@@ -16,7 +17,7 @@ description: "Master the Butterfly Pass in BJJ. Complete guide to neutralizing b
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Butterfly Pass in BJJ",
-  "description": "Step-by-step guide for Butterfly Pass from Butterfly Guard to Side Control.",
+  "description": "Step-by-step guide for Butterfly Pass from Butterfly Guard/Bottom. Possible outcomes: Side Control/Top (65%), Butterfly Guard/Bottom (25%), Butterfly Guard/Top (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -160,11 +161,25 @@ description: "Master the Butterfly Pass in BJJ. Complete guide to neutralizing b
 
 The Butterfly Pass is a fundamental guard passing technique designed to neutralize and overcome the butterfly guard's sweeping threats. This pass relies on superior base, weight distribution, and methodical pressure application to eliminate your opponent's hooks while advancing to a dominant position. The technique represents the essential answer to butterfly guard retention, combining defensive posture with offensive advancement. Understanding this pass is critical because butterfly guard is one of the most dynamic and threatening guard positions in modern BJJ. The passer must simultaneously defend against powerful sweeps while creating angles to pass. Success depends on recognizing when butterfly hooks are vulnerable, maintaining proper base through strategic weight shifting, and exploiting the opponent's reactions to secure dominant control. This pass serves as the foundation for all butterfly guard passing strategies.
 
-**Starting Position**: [[Butterfly Guard]]
-**Ending Position**: [[Side Control]]
+**From Position**: [[Butterfly Guard/Bottom]]
 **Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Side Control/Top]] | 65% |
+| Failure | [[Butterfly Guard/Bottom]] | 25% |
+| Counter | [[Butterfly Guard/Top]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

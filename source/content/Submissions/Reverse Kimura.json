@@ -169,17 +169,20 @@
     {
       "error": "Shallow or incomplete reverse grip allowing slippage",
       "consequence": "Loss of control, submission escapes, and wasted energy re-establishing grip",
-      "correction": "Ensure your hand reaches fully through the space and grabs your wrist with a deep, secure grip. Your forearm should be tight against their arm creating the figure-four lock. Test the grip before applying rotational pressure."
+      "correction": "Ensure your hand reaches fully through the space and grabs your wrist with a deep, secure grip. Your forearm should be tight against their arm creating the figure-four lock. Test the grip before applying rotational pressure.",
+      "danger_level": "Medium"
     },
     {
       "error": "Poor body positioning creating awkward angles",
       "consequence": "Ineffective submission pressure, wasted strength, and vulnerability to counter attacks",
-      "correction": "Adjust your body angle before applying pressure. Your hips and shoulders should be positioned to allow natural rotation. If the movement feels forced or awkward, reposition before continuing."
+      "correction": "Adjust your body angle before applying pressure. Your hips and shoulders should be positioned to allow natural rotation. If the movement feels forced or awkward, reposition before continuing.",
+      "danger_level": "Low"
     },
     {
       "error": "Neglecting control of opponent's head or body with free hand",
       "consequence": "Opponent escapes by turning into lock, scrambling away, or countering position",
-      "correction": "Your free hand must always maintain control. From standing, control the head with your free arm. From ground positions, use body weight and positioning to prevent movement. Never focus solely on the arm lock."
+      "correction": "Your free hand must always maintain control. From standing, control the head with your free arm. From ground positions, use body weight and positioning to prevent movement. Never focus solely on the arm lock.",
+      "danger_level": "Medium"
     },
     {
       "error": "Continuing rotation past 90 degrees in training",
@@ -190,12 +193,14 @@
     {
       "error": "Failing to maintain base when applying from standing",
       "consequence": "Both practitioners fall uncontrollably creating injury risk beyond the submission itself",
-      "correction": "Keep feet in strong athletic stance, maintain balance throughout application, and control the descent if bringing opponent to ground. Never sacrifice your base for additional submission pressure from standing."
+      "correction": "Keep feet in strong athletic stance, maintain balance throughout application, and control the descent if bringing opponent to ground. Never sacrifice your base for additional submission pressure from standing.",
+      "danger_level": "High"
     },
     {
       "error": "Forcing the technique against stronger defensive grips",
       "consequence": "Muscle strain, ineffective technique, and missed opportunity for transitions",
-      "correction": "If opponent establishes strong defensive grip, use the control to transition rather than forcing through. The reverse Kimura provides excellent positional control even if the finish isn't immediately available."
+      "correction": "If opponent establishes strong defensive grip, use the control to transition rather than forcing through. The reverse Kimura provides excellent positional control even if the finish isn't immediately available.",
+      "danger_level": "Low"
     }
   ],
   "variations_and_setups": [
@@ -254,6 +259,31 @@
     {
       "question": "Why must you maintain control of the opponent's head or body with your free hand during Reverse Kimura application?",
       "answer": "Controlling the head or body with your free hand prevents the opponent from turning into the lock (the most effective defense), scrambling away, or countering your position. From standing, head control prevents forward movement and maintains your leverage. From ground positions, body pressure prevents rotation and escape attempts. Without this control, opponents can easily defend by turning toward you or creating space to pull their arm free. The reverse Kimura requires two-point control—the grip itself and body/head control—to be effective and safe.",
+      "safety_critical": false
+    },
+    {
+      "question": "What anatomical structures are targeted by the Reverse Kimura and what are the primary injury risks?",
+      "answer": "The Reverse Kimura targets the shoulder joint and rotator cuff complex. The primary injury risks include rotator cuff tears (requiring 3-6 months recovery with potential surgery), shoulder dislocation (6-12 weeks recovery), AC joint separation (4-8 weeks), and labrum tears (6-12 months with surgery likely). The submission creates internal rotation stress on the shoulder joint, and the reversed grip angle can accelerate the breaking mechanism compared to standard Kimura. This makes controlled, progressive application absolutely critical to prevent catastrophic injury.",
+      "safety_critical": true
+    },
+    {
+      "question": "How do you recognize when the shoulder joint is approaching its rotational limit during Reverse Kimura application?",
+      "answer": "You will feel progressively increasing resistance as the shoulder approaches its limit—the movement becomes less fluid and requires more force to continue. The opponent's body will often tense, their breathing may become strained, and they may begin making sounds of discomfort. The arm will feel like it's hitting a 'wall' where further rotation requires significantly more pressure. In training, stop at the first sign of this increased resistance and wait for the tap. Never push through this barrier, as the transition from limit to injury can be instantaneous.",
+      "safety_critical": true
+    },
+    {
+      "question": "What is the proper body positioning for finishing the Reverse Kimura from standing versus from front headlock control?",
+      "answer": "From standing, maintain a strong athletic base with feet shoulder-width apart, keep your hips low for stability, and use your body weight by changing levels rather than pure arm strength to generate rotation. Control the descent if the opponent drops. From front headlock, drive chest pressure into their upper back to prevent forward movement, sprawl your hips back for base, and use the angle created by their bent-over posture to generate rotational force. In both positions, your body should be positioned to allow natural rotation without awkward angles that compromise your balance or control.",
+      "safety_critical": false
+    },
+    {
+      "question": "When should you abandon the Reverse Kimura finish and transition to positional advancement instead?",
+      "answer": "Abandon the finish when the opponent establishes a strong defensive grip you cannot break without excessive force, when they successfully straighten their arm and you cannot re-bend it, when continuing would require explosive or jerking movements, or when the angle has shifted making the submission mechanically inefficient. In all these cases, the reverse Kimura still provides excellent control for transitions—follow their defensive movements to take the back, transition to standard Kimura if they create space, or use the control to establish side control or mount. A controlled transition beats a forced submission.",
+      "safety_critical": false
+    },
+    {
+      "question": "How does the Reverse Kimura integrate into a complete shoulder lock system with other techniques?",
+      "answer": "The Reverse Kimura complements the standard Kimura by covering grip scenarios where the traditional figure-four cannot be established. When opponents defend the reverse grip by straightening their arm, you can transition to standard Kimura as they bend it defensively. If they turn into the lock, the back take becomes available. If they turtle tight, the position sets up Americana-style attacks or arm triangles. The reverse Kimura also chains with guillotines from front headlock—if they defend the choke by posting, the arm becomes available for the Kimura grip. This creates a comprehensive attack system where each technique opens others.",
       "safety_critical": false
     }
   ],
@@ -316,7 +346,6 @@
     "Americana",
     "Omoplata",
     "Kimura from Turtle",
-    "Straight Armbar",
     "Armbar from Side Control",
     "Rolling Kimura",
     "Baratoplata",
@@ -326,16 +355,12 @@
   ],
   "related_content": [
     {
-      "name": "Kimura Trap System",
-      "relationship": "Complete system incorporating reverse grip variations"
+      "name": "Kimura Trap",
+      "relationship": "Control position incorporating reverse grip variations and systematic shoulder attacks"
     },
     {
       "name": "Kimura to Back Take",
       "relationship": "Primary transition when reverse Kimura is defended by rotation"
-    },
-    {
-      "name": "Kimura Control",
-      "relationship": "Positional control concept applying to both standard and reverse grips"
     },
     {
       "name": "Overhook Control",
@@ -350,7 +375,7 @@
       "relationship": "Dynamic variation using similar grip and rotation mechanics"
     },
     {
-      "name": "Front Headlock Series",
+      "name": "Front Headlock",
       "relationship": "Position system where reverse Kimura is commonly applied"
     },
     {
@@ -360,6 +385,10 @@
     {
       "name": "Submission Chains",
       "relationship": "Principle of connecting reverse Kimura to other attacks based on defense"
+    },
+    {
+      "name": "Kimura Variations",
+      "relationship": "Complete system of Kimura-family shoulder lock techniques"
     }
   ]
 }

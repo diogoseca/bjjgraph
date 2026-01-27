@@ -97,32 +97,24 @@ The position demands different strategic approaches based on whether you're esta
 - Maintain mental composure under pressure rather than explosive panic movements
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Elbow Escape]]** → [[Closed Guard]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 60%
+- **[[Elbow Escape]]** (14% of attempts)
 
-- **[[Bridge and Roll]]** → [[Side Control]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Bridge and Roll]]** (12% of attempts)
 
-- **[[Turtle Transition]]** → [[Turtle]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Turtle Transition]]** (17% of attempts)
 
-- **[[Hip Escape]]** → [[Half Guard]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Hip Escape]]** (14% of attempts)
 
-- **[[North-South Escape]]** → [[Open Guard]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 55%
+- **[[North-South Escape]]** (13% of attempts)
 
-- **[[Frame and Shrimp]]** → [[Butterfly Guard]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 50%
+- **[[Frame and Shrimp]]** (12% of attempts)
 
-- **[[Granby Roll]]** → [[Turtle]]
-  - Success Rate: Beginner 10%, Intermediate 25%, Advanced 45%
+- **[[Granby Roll]]** (11% of attempts)
 
-- **[[Technical Stand-up]]** → [[Standing Position]]
-  - Success Rate: Beginner 5%, Intermediate 15%, Advanced 30%
+- **[[Technical Stand-up]]** (7% of attempts)
 
 
 ### Common Mistakes
@@ -184,38 +176,28 @@ The position demands different strategic approaches based on whether you're esta
 - Balance between control maintenance and submission hunting based on opponent's reactions
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[North-South Choke]]** → [[Won by Submission]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 70%
+- **[[North-South Choke]]** (10% of attempts)
 
-- **[[Transition to Mount]]** → [[Mount]]
-  - Success Rate: Beginner 45%, Intermediate 65%, Advanced 80%
+- **[[Side Control to Mount]]** (13% of attempts)
 
-- **[[North-South to Kimura]]** → [[Kimura Control]]
-  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 75%
+- **[[North-South to Kimura]]** (11% of attempts)
 
-- **[[Armbar from Side Control]]** → [[Won by Submission]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 65%
+- **[[Armbar from Side Control]]** (9% of attempts)
 
-- **[[Transition to North-South]]** → [[Side Control]]
-  - Success Rate: Beginner 50%, Intermediate 70%, Advanced 85%
+- **[[Side Control to North-South]]** (12% of attempts)
 
-- **[[Americana from Side Control]]** → [[Won by Submission]]
-  - Success Rate: Beginner 20%, Intermediate 40%, Advanced 60%
+- **[[Americana from Side Control]]** (9% of attempts)
 
-- **[[Side Control to Mount]]** → [[Mount]]
-  - Success Rate: Beginner 40%, Intermediate 60%, Advanced 75%
+- **[[Side Control to Mount]]** (11% of attempts)
 
-- **[[Knee on Belly]]** → [[Knee on Belly]]
-  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 70%
+- **[[Knee on Belly]]** (10% of attempts)
 
-- **[[Spinning Armbar]]** → [[Won by Submission]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 50%
+- **[[Spinning Armbar]]** (7% of attempts)
 
-- **[[Reverse Armbar]]** → [[Won by Submission]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 55%
+- **[[Reverse Armbar]]** (8% of attempts)
 
 
 ### Common Mistakes
@@ -264,7 +246,7 @@ The position demands different strategic approaches based on whether you're esta
 
 - **[[Knee on Belly]]** - Alternative control position with different pressure dynamics
 
-- **[[Kimura Control]]** - Submission control position accessible from North-South
+- **[[Kimura Trap]]** - Submission control position accessible from North-South
 
 - **[[Turtle]]** - Common escape result when bottom player turns to knees
 

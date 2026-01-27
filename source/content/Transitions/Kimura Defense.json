@@ -10,8 +10,6 @@
     "arm-control",
     "shoulder-lock-defense"
   ],
-  "starting_position": "Kimura Control",
-  "ending_position": "Guard Recovery",
   "success_rates": {
     "beginner": 35,
     "intermediate": 50,
@@ -269,6 +267,24 @@
     {
       "name": "Omoplata",
       "relationship": "Counter-attack option from certain defensive positions"
+    }
+  ],
+  "from_position": "Kimura Control/Top",
+  "outcomes": [
+    {
+      "to": "Guard Recovery/Bottom",
+      "probability": 70,
+      "result": "success"
+    },
+    {
+      "to": "Kimura Control/Top",
+      "probability": 20,
+      "result": "failure"
+    },
+    {
+      "to": "Kimura Control/Bottom",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

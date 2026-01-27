@@ -91,26 +91,20 @@ The effectiveness of the Vaporizer lies in its ability to force reactions from o
 - Use active hip movement rather than static holding, constantly adjusting pressure to respond to opponent's defensive attempts
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Old School Sweep]]** → [[Mount]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Old School Sweep]]** (20% of attempts)
 
-- **[[Transition to Truck]]** → [[Truck]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Turtle to Truck]]** (18% of attempts)
 
-- **[[Electric Chair Submission]]** → [[Electric Chair]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Electric Chair Submission]]** (18% of attempts)
 
-- **[[Transition to Omoplata]]** → [[Omoplata Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Closed Guard to Omoplata]]** (14% of attempts)
 
-- **[[Rolling Back Take]]** → [[Back Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Half Guard to Back Take]]** (15% of attempts)
 
-- **[[Lockdown Sweeps]]** → [[Side Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Lockdown Sweeps]]** (15% of attempts)
 
 
 ### Common Mistakes
@@ -168,26 +162,20 @@ The effectiveness of the Vaporizer lies in its ability to force reactions from o
 - Recognize attack patterns and preemptively defend based on bottom opponent's grip adjustments and hip movements
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Half Guard Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Half Guard Pass]]** (17% of attempts)
 
-- **[[Knee Slice Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Knee Slice Pass]]** (17% of attempts)
 
-- **[[Smash Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Smash Pass]]** (17% of attempts)
 
-- **[[Pressure Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Pressure Pass]]** (17% of attempts)
 
-- **[[Base Widening]]** → [[Combat Base]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Lockdown Escape to Half Guard Pass]]** (16% of attempts)
 
-- **[[Whizzer]]** → [[Half Guard]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Whizzer]]** (16% of attempts)
 
 
 ### Common Mistakes
@@ -234,7 +222,7 @@ The effectiveness of the Vaporizer lies in its ability to force reactions from o
 
 - **[[Electric Chair]]** - Primary submission target from Vaporizer control
 
-- **[[Truck]]** - Advanced positional transition for back attack sequences
+- **[[Twister Control]]** - Advanced positional transition for back attack sequences
 
 - **[[Half Guard]]** - Base position from which Vaporizer is established
 

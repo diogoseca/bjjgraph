@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Hitchhiker Escape | BJJ Technique | BJJ Graph"
 description: "Learn Hitchhiker Escape in BJJ. Step-by-step execution from Armbar Control to Guard Recovery. Success: Beginner 35%, Intermediate 55%, Advanced 70%."
@@ -16,7 +17,7 @@ description: "Learn Hitchhiker Escape in BJJ. Step-by-step execution from Armbar
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Hitchhiker Escape in BJJ",
-  "description": "Step-by-step guide for Hitchhiker Escape from Armbar Control to Defensive Position.",
+  "description": "Step-by-step guide for Hitchhiker Escape from Armbar Control/Top. Possible outcomes: Defensive Position/Top (70%), Armbar Control/Top (20%), Armbar Control/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -160,11 +161,25 @@ description: "Learn Hitchhiker Escape in BJJ. Step-by-step execution from Armbar
 
 The Hitchhiker Escape is an advanced defensive technique used to escape from a fully extended armbar attack by exploiting rotational mechanics and timing. This escape requires exceptional flexibility, precise timing, and deep understanding of leverage principles. The technique involves rotating the thumb outward (the 'hitchhiker' motion) while simultaneously turning into the opponent and creating space to recover guard. While primarily associated with high-level competition and no-gi grappling, the Hitchhiker Escape represents a last-resort defensive option when positional escapes have failed and the armbar is nearly locked. The escape is particularly effective against opponents who rely purely on extension without proper shoulder control, as it exploits the natural weakness in the grip when the thumb is pointed away from the body. Success requires reading the opponent's finishing mechanics and executing the rotation at the precise moment before full extension is achieved.
 
-**Starting Position**: [[Armbar Control]]
-**Ending Position**: [[Defensive Position]]
+**From Position**: [[Armbar Control/Top]]
 **Success Rates**: Beginner 35%, Intermediate 55%, Advanced 70%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Defensive Position/Top]] | 70% |
+| Failure | [[Armbar Control/Top]] | 20% |
+| Counter | [[Armbar Control/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

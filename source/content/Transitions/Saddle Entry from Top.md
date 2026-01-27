@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Saddle Entry from Top | BJJ Technique | BJJ Graph"
 description: "Master the Saddle Entry from Top in BJJ. Step-by-step leg entanglement technique for entering Ashi Garami positions. Success rates: Beginner 35%, Intermediate 55%, Advanced 75%."
@@ -16,7 +17,7 @@ description: "Master the Saddle Entry from Top in BJJ. Step-by-step leg entangle
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Saddle Entry from Top in BJJ",
-  "description": "Step-by-step guide for Saddle Entry from Top from Headquarters Position to Saddle.",
+  "description": "Step-by-step guide for Saddle Entry from Top from Headquarters Position/Top. Possible outcomes: Saddle/Top (75%), Headquarters Position/Top (15%), Headquarters Position/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -164,11 +165,25 @@ This entry serves as a cornerstone of modern leg lock methodology and has revolu
 
 The technique requires precise timing, spatial awareness, and the ability to recognize leg entanglement opportunities during passing sequences. Success depends on controlling the opponent's near leg while stepping over to secure the saddle configuration. When executed correctly, this entry creates a dominant position with minimal escape options for the opponent.
 
-**Starting Position**: [[Headquarters Position]]
-**Ending Position**: [[Saddle]]
+**From Position**: [[Headquarters Position/Top]]
 **Success Rates**: Beginner 35%, Intermediate 55%, Advanced 75%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Saddle/Top]] | 75% |
+| Failure | [[Headquarters Position/Top]] | 15% |
+| Counter | [[Headquarters Position/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

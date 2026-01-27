@@ -21,37 +21,37 @@ description: "Master Half Guard Top with systematic passing strategies. Advanced
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, execute Knee Slice Pass to transition to Side Control. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 25% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Smash Pass",
-      "text": "From this position, execute Smash Pass to transition to Side Control. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Smash Pass. This technique is attempted in 15% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Pass",
-      "text": "From this position, execute Underhook Pass to transition to Side Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Underhook Pass. This technique is attempted in 15% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Crossface Pass",
-      "text": "From this position, execute Crossface Pass to transition to Side Control. Success rate for advanced practitioners: 70%.",
+      "name": "Execute Long Step Pass",
+      "text": "From this position, attempt Long Step Pass. This technique is attempted in 8% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Long Step Pass",
-      "text": "From this position, execute Long Step Pass to transition to Side Control. Success rate for advanced practitioners: 60%.",
+      "name": "Execute Crossface Pass",
+      "text": "From this position, attempt Crossface Pass. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kimura from Half Guard",
-      "text": "From this position, execute Kimura from Half Guard to transition to Kimura Control. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Kimura from Half Guard. This technique is attempted in 8% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -213,93 +213,22 @@ The fundamental challenge in Half Guard Top lies in freeing the trapped leg whil
 
 ## Available Attacks
 
-### [[Knee Slice Pass]] → [[Side Control]]
+### [[Knee Slice Pass]] (25% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 70%
+### [[Smash Pass]] (15% of attempts)
 
-### [[Smash Pass]] → [[Side Control]]
+### [[Underhook Pass]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 55%
-- Advanced: 75%
+### [[Long Step Pass]] (8% of attempts)
 
-### [[Underhook Pass]] → [[Side Control]]
+### [[Crossface Pass]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 45%
-- Advanced: 65%
+### [[Kimura from Half Guard]] (8% of attempts)
 
-### [[Crossface Pass]] → [[Side Control]]
+### [[Darce Choke]] (7% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 70%
+### [[Back Step Pass]] (10% of attempts)
 
-### [[Long Step Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 40%
-- Advanced: 60%
-
-### [[Kimura from Half Guard]] → [[Kimura Control]]
-
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 50%
-
-### [[Darce Setup]] → [[D'arce Control]]
-
-**Success Rates:**
-- Beginner: 10%
-- Intermediate: 25%
-- Advanced: 45%
-
-### [[Transition to Mount]] → [[Mount]]
-
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 50%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Old School Sweep]]** → [[Mount]] (Opponent Success: 40%)
-- **[[Underhook Sweep from Half]]** → [[Side Control]] (Opponent Success: 45%)
-- **[[Deep Half Entry]]** → [[Deep Half Guard]] (Opponent Success: 35%)
-- **[[Lockdown Sweeps]]** → [[Side Control]] (Opponent Success: 30%)
-- **[[Half Guard to Back Take]]** → [[Back Control]] (Opponent Success: 25%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Crossface Pass]]** → [[Side Control]]
-  - Opponent attempts to create underhook or frame against shoulder
-- **[[Smash Pass]]** → [[Side Control]]
-  - Opponent establishes knee shield or attempts to create distance
-- **[[Underhook Pass]]** → [[Side Control]]
-  - Opponent focuses defensive efforts on preventing crossface
-- **[[Kimura from Half Guard]]** → [[Kimura Control]]
-  - Opponent overly commits to underhook battle, extending arm
-- **[[Transition to North-South]]** → [[North-South]]
-  - Opponent turns into you to defend pass, exposing back
 
 
 </section>
@@ -324,8 +253,8 @@ The fundamental challenge in Half Guard Top lies in freeing the trapped leg whil
 
 
 **If opponent turns to side and battles for underhook, creating scramble potential:**
-- Execute **[[Kimura from Half Guard]]** → [[Kimura Control]] (Probability: 45%)
-- Execute **[[Darce Setup]]** → [[D'arce Control]] (Probability: 40%)
+- Execute **[[Kimura from Half Guard]]** → [[Kimura Trap]] (Probability: 45%)
+- Execute **[[Darce Choke]]** → [[D'arce Control]] (Probability: 40%)
 
 
 **If opponent attempts to go deep half or recover full guard:**
@@ -399,29 +328,7 @@ Start in half guard top and flow through multiple passing attempts based on part
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
-
-### Kimura Entry Path
-
-`Half Guard Top → Kimura from Half Guard (when opponent battles for underhook)`
-
-### Pass to Side Control Submission
-
-`Half Guard Top → Knee Slice Pass → Side Control → Kimura from Side Control`
-
-### Darce Entry Path
-
-`Half Guard Top → Darce Setup (when opponent turns into crossface)`
-
-### Mount Submission Path
-
-`Half Guard Top → Smash Pass → Side Control → Transition to Mount → Armbar from Mount`
-
-
-
-</section>
 
 <section id="position-metrics" class="content-section">
 
@@ -449,7 +356,7 @@ Start in half guard top and flow through multiple passing attempts based on part
 - **[[Z-Lock Half Guard]]** - Knee shield variation with specific defensive and offensive characteristics
 - **[[Headquarters Position]]** - Transitional position during passing sequences
 - **[[Dogfight Position]]** - Scramble position arising from half guard battles
-- **[[Kimura Control]]** - Submission opportunity when opponent overcommits to underhook battle
+- **[[Kimura Trap]]** - Submission opportunity when opponent overcommits to underhook battle
 - **[[D'arce Control]]** - Submission entry when opponent turns into crossface
 - **[[Knee Slice Pass]]** - High-percentage passing technique from half guard top
 

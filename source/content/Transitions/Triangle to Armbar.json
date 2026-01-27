@@ -13,8 +13,6 @@
     "closed-guard",
     "intermediate"
   ],
-  "starting_position": "Triangle Control",
-  "ending_position": "Armbar Control",
   "success_rates": {
     "beginner": 35,
     "intermediate": 50,
@@ -228,7 +226,7 @@
       "relationship": "Initial attack sequence"
     },
     {
-      "name": "Transition to Omoplata",
+      "name": "Closed Guard to Omoplata",
       "relationship": "Alternative transition option"
     },
     {
@@ -254,6 +252,24 @@
     {
       "name": "Mount to Armbar",
       "relationship": "Similar armbar mechanics from different position"
+    }
+  ],
+  "from_position": "Triangle Control/Top",
+  "outcomes": [
+    {
+      "to": "Armbar Control/Top",
+      "probability": 65,
+      "result": "success"
+    },
+    {
+      "to": "Triangle Control/Top",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Triangle Control/Bottom",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

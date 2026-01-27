@@ -10,8 +10,6 @@
     "sweep",
     "back-control"
   ],
-  "starting_position": "Half Guard",
-  "ending_position": "Back Control",
   "success_rates": {
     "beginner": 45,
     "intermediate": 70,
@@ -279,6 +277,24 @@
     {
       "name": "Rear Naked Choke",
       "relationship": "Primary submission - most common finishing technique after successful back take"
+    }
+  ],
+  "from_position": "Half Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Back Control/Top",
+      "probability": 75,
+      "result": "success"
+    },
+    {
+      "to": "Half Guard/Bottom",
+      "probability": 15,
+      "result": "failure"
+    },
+    {
+      "to": "Half Guard/Top",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Guard Pull | BJJ Technique | BJJ Graph"
 description: "Master the Guard Pull transition in BJJ. Complete guide from standing to seated guard with grip control and timing. Success rates: Beginner 65%, Intermediate 75%, Advanced 85%."
@@ -16,7 +17,7 @@ description: "Master the Guard Pull transition in BJJ. Complete guide from stand
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Guard Pull in BJJ",
-  "description": "Step-by-step guide for Guard Pull from Standing Position to Closed Guard.",
+  "description": "Step-by-step guide for Guard Pull from Standing Position/Top. Possible outcomes: Closed Guard/Bottom (75%), Standing Position/Top (15%), Standing Position/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -154,11 +155,25 @@ description: "Master the Guard Pull transition in BJJ. Complete guide from stand
 
 The Guard Pull is a fundamental BJJ transition that allows practitioners to move from standing position directly into their guard game, bypassing the takedown exchange entirely. This technique is particularly valuable in sport BJJ contexts where bottom guard position offers numerous attacking opportunities and where takedown exchanges may not align with a practitioner's strengths. The guard pull requires precise grip establishment, proper body positioning, and excellent timing to execute safely and effectively. When performed correctly, it allows the practitioner to immediately begin implementing their guard strategy while controlling distance and grips. The technique has become increasingly sophisticated in modern competition, with various entries designed to land directly into specific guard positions rather than a generic seated guard. Understanding when and how to pull guard effectively is essential for building a complete competition game.
 
-**Starting Position**: [[Standing Position]]
-**Ending Position**: [[Closed Guard]]
+**From Position**: [[Standing Position/Top]]
 **Success Rates**: Beginner 65%, Intermediate 75%, Advanced 85%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Closed Guard/Bottom]] | 75% |
+| Failure | [[Standing Position/Top]] | 15% |
+| Counter | [[Standing Position/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

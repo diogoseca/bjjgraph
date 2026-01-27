@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "X-Guard Sweep | BJJ Technique | BJJ Graph"
 description: "Master X-Guard Sweep in BJJ. Complete technical guide with step-by-step execution from X-Guard to Mount/Side Control. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%."
@@ -16,7 +17,7 @@ description: "Master X-Guard Sweep in BJJ. Complete technical guide with step-by
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute X-Guard Sweep in BJJ",
-  "description": "Step-by-step guide for X-Guard Sweep from X-Guard to Mount.",
+  "description": "Step-by-step guide for X-Guard Sweep from X-Guard/Bottom. Possible outcomes: Mount/Top (65%), X-Guard/Bottom (25%), X-Guard/Top (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -154,11 +155,25 @@ description: "Master X-Guard Sweep in BJJ. Complete technical guide with step-by
 
 The X-Guard Sweep is a fundamental attacking technique from X-Guard that uses superior leverage and off-balancing mechanics to elevate and sweep the opponent. By controlling both legs while maintaining upper body connection, the bottom player creates a powerful mechanical advantage that makes the sweep extremely difficult to defend. The technique exploits the opponent's unstable base by removing their ability to post or widen their stance, forcing them into a position where they cannot recover balance. This sweep is particularly effective against standing opponents and those attempting to pass the guard, as it capitalizes on their forward pressure and commitment to forward movement. The X-Guard Sweep serves as a cornerstone technique within the broader X-Guard attacking system, leading to dominant positions like mount, side control, or back control depending on the opponent's defensive reactions.
 
-**Starting Position**: [[X-Guard]]
-**Ending Position**: [[Mount]]
+**From Position**: [[X-Guard/Bottom]]
 **Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Mount/Top]] | 65% |
+| Failure | [[X-Guard/Bottom]] | 25% |
+| Counter | [[X-Guard/Top]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

@@ -101,38 +101,28 @@ Defensively, grasshopper guard can serve as an emergency response when tradition
 - The position works best when integrated into broader leg entanglement system
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Kneebar from Grasshopper]]** → [[Kneebar Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 60%
+- **[[Kneebar from Grasshopper]]** (9% of attempts)
 
-- **[[Straight Ankle Lock Entry]]** → [[Straight Ankle Lock Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 65%
+- **[[Straight Ankle Lock Entry]]** (10% of attempts)
 
-- **[[Single Leg X Transition]]** → [[Single Leg X-Guard]]
-  - Success Rate: Beginner 40%, Intermediate 60%, Advanced 75%
+- **[[Single Leg X Transition]]** (11% of attempts)
 
-- **[[X-Guard Elevation Sweep]]** → [[Mount]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 70%
+- **[[X-Guard Sweep]]** (10% of attempts)
 
-- **[[Inside Ashi Entry]]** → [[Inside Ashi-Garami]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 70%
+- **[[Inside Ashi Entry]]** (10% of attempts)
 
-- **[[Rolling Kneebar]]** → [[Kneebar Control]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 55%
+- **[[Rolling Kneebar]]** (8% of attempts)
 
-- **[[Grasshopper Sweep]]** → [[Half Guard]]
-  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 70%
+- **[[Grasshopper Sweep]]** (10% of attempts)
 
-- **[[Technical Standup from Inversion]]** → [[Standing Guard]]
-  - Success Rate: Beginner 45%, Intermediate 65%, Advanced 80%
+- **[[Technical Standup]]** (13% of attempts)
 
-- **[[50-50 Entry]]** → [[50-50 Guard]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 60%
+- **[[50-50 Entry]]** (9% of attempts)
 
-- **[[Reverse De La Riva Recovery]]** → [[Reverse De La Riva Guard]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 65%
+- **[[Reverse De La Riva Recovery]]** (10% of attempts)
 
 
 ### Common Mistakes
@@ -190,35 +180,26 @@ Defensively, grasshopper guard can serve as an emergency response when tradition
 - Strategic disengagement is valid passing strategy when executed with positional awareness
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Back Step Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 70%
+- **[[Back Step Pass]]** (11% of attempts)
 
-- **[[Leg Drag Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 40%, Intermediate 60%, Advanced 75%
+- **[[Leg Drag Pass]]** (12% of attempts)
 
-- **[[Stack Pass from Inversion]]** → [[Side Control]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 65%
+- **[[Stack Pass from Inversion]]** (10% of attempts)
 
-- **[[Step Over to Mount]]** → [[Mount]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 60%
+- **[[Step Over to Mount]]** (10% of attempts)
 
-- **[[Knee Cut Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 40%, Intermediate 60%, Advanced 75%
+- **[[Knee Slice Pass]]** (12% of attempts)
 
-- **[[Sprawl and Disengage]]** → [[Standing Position]]
-  - Success Rate: Beginner 50%, Intermediate 70%, Advanced 85%
+- **[[Sprawl and Disengage]]** (14% of attempts)
 
-- **[[Toreando Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 70%
+- **[[Toreando Pass]]** (11% of attempts)
 
-- **[[Cartwheel Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 20%, Intermediate 40%, Advanced 60%
+- **[[Cartwheel Pass]]** (10% of attempts)
 
-- **[[Pressure Pass through Center]]** → [[Side Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Pressure Pass through Center]]** (10% of attempts)
 
 
 ### Common Mistakes

@@ -93,38 +93,28 @@ The position serves as a crucial gateway in modern BJJ, connecting standing posi
 - Combine upper body control with lower body control to create complete off-balancing mechanics
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Butterfly Sweep]]** → [[Mount]]
-  - Success Rate: Beginner 40%, Intermediate 60%, Advanced 75%
+- **[[Butterfly Sweep]]** (13% of attempts)
 
-- **[[Butterfly Sweep Variations]]** → [[Side Control]]
-  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 70%
+- **[[Butterfly Sweep Variations]]** (10% of attempts)
 
-- **[[Arm Drag to Back]]** → [[Back Control]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 70%
+- **[[Arm Drag to Back]]** (10% of attempts)
 
-- **[[Butterfly Guard to X-Guard]]** → [[X-Guard]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 65%
+- **[[Butterfly Guard to X-Guard]]** (10% of attempts)
 
-- **[[Hook Sweep]]** → [[Side Control]]
-  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 70%
+- **[[Hook Sweep]]** (10% of attempts)
 
-- **[[Elevator Sweep]]** → [[Mount]]
-  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 70%
+- **[[Elevator Sweep]]** (10% of attempts)
 
-- **[[Guillotine Setup]]** → [[Guillotine Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 60%
+- **[[Guillotine Setup]]** (9% of attempts)
 
-- **[[Deep Half Entry]]** → [[Deep Half Guard]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 70%
+- **[[Deep Half Entry]]** (10% of attempts)
 
-- **[[Single Leg X Entry]]** → [[Single Leg X-Guard]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 65%
+- **[[Single Leg X Entry]]** (10% of attempts)
 
-- **[[Omoplata Sweep]]** → [[Mount]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 55%
+- **[[Omoplata Sweep]]** (8% of attempts)
 
 
 ### Common Mistakes
@@ -180,32 +170,24 @@ The position serves as a crucial gateway in modern BJJ, connecting standing posi
 - Protect back exposure by keeping elbows tight and preventing arm drag opportunities when posting
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Butterfly Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 70%
+- **[[Butterfly Pass]]** (13% of attempts)
 
-- **[[Butterfly Smash]]** → [[Half Guard]]
-  - Success Rate: Beginner 40%, Intermediate 60%, Advanced 75%
+- **[[Butterfly Smash]]** (17% of attempts)
 
-- **[[Knee Slice Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 65%
+- **[[Knee Slice Pass]]** (12% of attempts)
 
-- **[[Standing up in Base]]** → [[Standing Guard]]
-  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+- **[[Standing up in Base]]** (14% of attempts)
 
-- **[[Pressure Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 60%
+- **[[Pressure Pass]]** (11% of attempts)
 
-- **[[Double Under Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 65%
+- **[[Double Under Pass]]** (12% of attempts)
 
-- **[[Leg Weave Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 60%
+- **[[Leg Weave Pass]]** (11% of attempts)
 
-- **[[Toreando Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 55%
+- **[[Toreando Pass]]** (10% of attempts)
 
 
 ### Common Mistakes

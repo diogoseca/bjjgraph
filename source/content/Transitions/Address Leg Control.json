@@ -1,0 +1,275 @@
+{
+  "name": "Address Leg Control",
+  "description": "Address Leg Control escape from Twister Control. Systematic leg extraction technique to reduce spinal rotation. Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "tags": [
+    "bjj",
+    "transition",
+    "escape",
+    "twister defense",
+    "leg extraction",
+    "10th planet",
+    "no-gi"
+  ],
+  "from_position": "Twister Control",
+  "outcomes": [
+    {
+      "to": "Half Guard",
+      "probability": 50,
+      "result": "success"
+    },
+    {
+      "to": "Turtle",
+      "probability": 15,
+      "result": "success"
+    },
+    {
+      "to": "Twister Control",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Back Control",
+      "probability": 10,
+      "result": "counter"
+    }
+  ],
+  "success_rates": {
+    "beginner": 30,
+    "intermediate": 50,
+    "advanced": 65
+  },
+  "overview": "Address Leg Control is a critical defensive technique employed when trapped in Twister Control Bottom. The technique focuses on systematically extracting your trapped leg from the opponent's control, which is the foundation of the entire Twister system. The rotational control that makes Twister so dangerous relies entirely on maintaining leg entanglement - once the leg is freed, the spinal rotation collapses and escape becomes viable.\n\nThe technique requires methodical execution rather than explosive movement. Panicked attempts to yank the leg free typically result in deeper entanglement or accelerated submission. Instead, practitioners must address the specific control points - typically the opponent's hooking leg and their grip on your far hip - while simultaneously creating angles that reduce their mechanical advantage.\n\nStrategically, Address Leg Control represents the first link in any escape chain from Twister Control. Without freeing the trapped leg, attempts at upper body escapes or rolling through become impossible or counterproductive. Understanding this technique is essential for anyone training in no-gi environments where Twister Control entries are common, particularly against 10th Planet practitioners. The technique scales with technical understanding - beginners often telegraph their extraction attempts, while advanced practitioners use subtle weight shifts and incremental movements to slip free before the opponent can readjust.",
+  "key_principles": [
+    "Work incrementally rather than explosively - small technical movements are more effective than power",
+    "Address the hooking control first before attempting to extract the trapped leg",
+    "Create angles that reduce the opponent's rotational leverage on your spine",
+    "Maintain frames to prevent deepening of the position during extraction attempts",
+    "Time your extraction with opponent's transitions or adjustment movements",
+    "Keep your free leg active and defensive to prevent secondary control",
+    "Reduce spinal rotation incrementally as you work the leg free"
+  ],
+  "setup_requirements": [
+    "Recognition that you are caught in Twister Control with one leg trapped",
+    "Stabilized breathing and mental composure despite positional discomfort",
+    "Assessment of which specific control the opponent is using on your leg",
+    "Identification of any momentary looseness in opponent's leg hook or hip control",
+    "Your free arm positioned to create frames and prevent position deepening",
+    "Awareness of opponent's submission hunting patterns to time your escape"
+  ],
+  "execution_steps": [
+    {
+      "step_number": 1,
+      "action": "Assess the entanglement",
+      "description": "Identify exactly how your leg is trapped - is the opponent using a butterfly hook under your hip, a lockdown-style entanglement, or a simple leg lace? Understanding the specific control mechanism determines your extraction method and prevents wasted energy on ineffective escape attempts.",
+      "timing": "Immediate upon recognizing position"
+    },
+    {
+      "step_number": 2,
+      "action": "Establish protective frames",
+      "description": "Before attempting leg extraction, create frames with your arms against opponent's upper body to prevent them from deepening the position or transitioning to submissions. Your near-side arm should create space against their chest while your far-side arm protects your neck from guillotine or crank attempts.",
+      "timing": "Before any extraction attempt"
+    },
+    {
+      "step_number": 3,
+      "action": "Hip the floor to reduce rotation",
+      "description": "Drop your hips toward the mat to reduce the spinal rotation the opponent has created. This decreases the torque on your spine and begins to align your upper and lower body. The movement should be controlled - not a dramatic bridge that exposes you to deeper control.",
+      "timing": "Once frames are established"
+    },
+    {
+      "step_number": 4,
+      "action": "Attack the hooking leg",
+      "description": "Use your free leg to hook behind or push against the opponent's hooking leg. The goal is to straighten their hook or create separation between their leg and your trapped hip. Push their knee away from your body while simultaneously pulling your trapped leg toward yourself in small increments.",
+      "timing": "While maintaining hip pressure on mat"
+    },
+    {
+      "step_number": 5,
+      "action": "Extract the trapped leg incrementally",
+      "description": "As the opponent's hook loosens, begin pulling your trapped leg free using small hip escapes and leg pumping motions. Do not yank explosively - instead, work the leg out in small increments while maintaining your frames. Each small extraction should be consolidated before attempting the next.",
+      "timing": "When hook control weakens"
+    },
+    {
+      "step_number": 6,
+      "action": "Recover guard position",
+      "description": "Once your leg is free, immediately work to establish a guard position. Half guard is the most common recovery point - insert your free leg as a knee shield or establish lockdown on one of their legs. Alternatively, turtle and begin working to a more neutral position. Do not stay flat on your back with no guard structure.",
+      "timing": "Immediately upon leg extraction"
+    }
+  ],
+  "common_counters": [
+    {
+      "counter": "Opponent deepens their hook as you attempt extraction by driving their knee toward your centerline",
+      "effectiveness": "High",
+      "your_response": "Pause extraction attempt and reset frames. Use your free leg to hook their extending leg and prevent the deepening. Wait for them to relax before resuming extraction."
+    },
+    {
+      "counter": "Opponent transitions to submission attack (Twister, guillotine) when they feel your escape attempt",
+      "effectiveness": "High",
+      "your_response": "Prioritize neck and spine defense over leg extraction. Protect your neck with hands, reduce rotation, and wait for submission attempt to fail before resuming escape work."
+    },
+    {
+      "counter": "Opponent releases leg control momentarily to transition to back control or different control",
+      "effectiveness": "Medium",
+      "your_response": "Exploit the transition moment aggressively. When they release leg control, immediately work to turtle or guard recovery before they establish new control."
+    },
+    {
+      "counter": "Opponent increases chest pressure and weight to prevent your hip movement",
+      "effectiveness": "Medium",
+      "your_response": "Use frames to create space for breathing and continue working incrementally. Their heavy pressure prevents their mobility - use timing when they adjust to continue extraction."
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "Attempting explosive leg extraction while opponent has full control established",
+      "consequence": "Opponent deepens their hook and increases spinal rotation, accelerating submission or causing injury",
+      "correction": "Work incrementally with small technical movements. Only increase intensity when you feel their control weakening."
+    },
+    {
+      "error": "Neglecting upper body frames while focusing entirely on leg extraction",
+      "consequence": "Opponent transitions to submission or deepens control while you're focused on leg escape",
+      "correction": "Maintain protective frames throughout the escape sequence. The frames buy you time to work the leg extraction systematically."
+    },
+    {
+      "error": "Bridging explosively which increases spinal rotation rather than reducing it",
+      "consequence": "The bridge motion actually helps the opponent rotate your spine further, worsening your position",
+      "correction": "Hip the mat to reduce rotation rather than bridging. Keep your hips low and work to align your spine before attempting to create space."
+    },
+    {
+      "error": "Failing to establish guard immediately after leg extraction",
+      "consequence": "Opponent quickly re-establishes control or transitions to back take or side control",
+      "correction": "Have a clear recovery target (half guard, turtle, open guard) and immediately work toward it the moment your leg is free."
+    },
+    {
+      "error": "Attempting the same extraction method repeatedly after it fails",
+      "consequence": "Opponent adapts to your escape pattern and strengthens their control against that specific method",
+      "correction": "Vary your approach - if pushing their hook doesn't work, try rotating your hip, or wait for a transition moment to time your escape differently."
+    }
+  ],
+  "training_progressions": [
+    {
+      "phase": "Week 1-2",
+      "focus": "Position recognition and frame establishment",
+      "description": "Partner places you in Twister Control. Practice recognizing the leg entanglement type, establishing protective frames, and breathing calmly under pressure. No escape attempts - focus purely on defensive structure and mental composure.",
+      "resistance_level": "None"
+    },
+    {
+      "phase": "Week 3-4",
+      "focus": "Incremental extraction mechanics",
+      "description": "From static Twister Control, practice the leg extraction sequence with cooperative partner. Focus on small, technical movements rather than power. Partner provides minimal resistance to allow you to feel correct mechanics.",
+      "resistance_level": "Light"
+    },
+    {
+      "phase": "Week 5-6",
+      "focus": "Timing and adaptation",
+      "description": "Partner provides moderate resistance and hunts basic submissions. Practice timing extraction attempts around their movements and transitions. Work on adapting your method when initial approach is blocked.",
+      "resistance_level": "Medium"
+    },
+    {
+      "phase": "Week 7+",
+      "focus": "Live application and recovery chains",
+      "description": "Apply Address Leg Control in live rolling and positional sparring. Practice the full sequence from being caught in Twister Control through guard recovery. Partner provides full resistance including submission hunting.",
+      "resistance_level": "Full"
+    }
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Hip Switch Extraction",
+      "description": "Instead of direct leg extraction, switch your hip position by turning toward the opponent. This changes the angle of entanglement and can allow your leg to slip free as the hook loses its purchase angle.",
+      "when_to_use": "When direct extraction is blocked but opponent's weight is committed forward, allowing you space to rotate your hips."
+    },
+    {
+      "variant_name": "Roll-Through Extraction",
+      "description": "Use the opponent's rotational pressure against them by rolling in the same direction they're twisting. This can cause their hook to release as you complete a roll, ending in turtle position.",
+      "when_to_use": "When opponent is aggressively hunting the Twister and overcommitting to the rotation, creating momentum you can use."
+    },
+    {
+      "variant_name": "Foot Push Extraction",
+      "description": "Use your free foot to push against the opponent's hooking leg at the knee or ankle, straightening their leg and breaking the hook before pulling your trapped leg free.",
+      "when_to_use": "When your free leg has good positioning and the opponent's hook is relatively loose or their leg is extended."
+    }
+  ],
+  "knowledge_assessment": [
+    {
+      "question": "What is the primary goal of Address Leg Control?",
+      "answer": "The primary goal is to systematically extract your trapped leg from the opponent's control, which is the foundation of their Twister Control position. Once the leg is free, the spinal rotation collapses and you can escape to guard or turtle.",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "Why is explosive movement counterproductive when attempting leg extraction from Twister Control?",
+      "answer": "Explosive attempts to yank the leg free typically result in the opponent deepening their hook and increasing spinal rotation. The jolt also allows them to feel your escape direction and counter it. Incremental, technical movements are less telegraphed and prevent the opponent from strengthening their position.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "Your opponent has deep Twister Control and begins hunting for the Twister submission grip. What should you prioritize?",
+      "answer": "Prioritize neck and spine defense over leg extraction. Protect your neck with your hands and work to reduce spinal rotation. The Twister submission is dangerous and can cause injury - defending it takes precedence. Only resume leg extraction work once the immediate submission threat is neutralized.",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "What role do upper body frames play during the Address Leg Control escape?",
+      "answer": "Frames create space to breathe and prevent the opponent from deepening their position or transitioning to submissions while you work the leg extraction. They also prevent the opponent from increasing chest pressure that would restrict your hip movement needed for extraction.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "What is the most common position recovery after successfully extracting your leg from Twister Control?",
+      "answer": "Half guard is the most common recovery point because your newly freed leg can immediately establish a knee shield or lockdown on one of the opponent's legs. Turtle is another common recovery when you need to disengage quickly. Both are preferable to remaining flat on your back.",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "How does the hip-to-mat motion help reduce the danger of Twister Control?",
+      "answer": "Dropping your hips toward the mat reduces the spinal rotation the opponent has created. This decreases the torque on your spine that makes the position dangerous, begins to align your upper and lower body, and creates a more stable base from which to work your leg extraction. It's counterintuitive compared to bridging, but far more effective.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "Your first extraction attempt is blocked when opponent drives their knee toward your centerline. What adjustment should you make?",
+      "answer": "Pause the extraction attempt and reset your frames. Use your free leg to hook their extending leg and prevent the deepening. Wait for them to relax or readjust their control before resuming extraction. Continuing to fight the same direction will only exhaust you while they strengthen their position.",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "What is the critical difference between bridging and hipping the mat when escaping Twister Control?",
+      "answer": "Bridging creates upward hip movement that can actually assist the opponent's spinal rotation of your body, making your position worse. Hipping the mat drops your hips down and reduces rotation, aligning your spine and creating a stable platform. The mechanics of Twister Control mean that standard escape movements like bridging are often counterproductive.",
+      "difficulty": "Advanced"
+    }
+  ],
+  "safety_considerations": "Address Leg Control involves escaping from a position that places significant stress on the cervical and thoracic spine. When practicing, communicate clearly with training partners about intensity levels and tap immediately if you feel any concerning spinal pressure. The Twister submission that threatens from this position can cause serious neck and spine injuries if not respected. Never train this escape at full resistance with partners who are not experienced with the position. During drilling, the partner in top position should maintain control without hunting submissions aggressively until the escaping partner has developed proficiency. If you have any pre-existing neck or spine conditions, consult with medical professionals before training Twister escapes and consider avoiding the position entirely in live sparring.",
+  "position_integration": "Address Leg Control is the foundational escape technique for the entire Twister Control defensive system. It serves as the first link in any escape chain - without freeing the trapped leg, all other escape methods become impossible or counterproductive. The technique connects directly to the 10th Planet defensive curriculum and is essential for anyone training in modern no-gi grappling where Twister entries from truck, lockdown, and back control are increasingly common. Successful leg extraction typically leads to half guard recovery (most common), turtle position, or in some cases scramble situations. Understanding this technique also improves your defensive awareness when playing bottom half guard or lockdown, as these positions can transition to Twister Control if you're not careful. The skills developed - incremental movement, frame maintenance, timing escapes to opponent transitions - transfer broadly to defensive grappling situations.",
+  "related_content": [
+    {
+      "name": "Twister Control",
+      "relationship": "Starting position - this is where the escape begins"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Primary recovery position after successful escape"
+    },
+    {
+      "name": "Turtle",
+      "relationship": "Alternative recovery position"
+    },
+    {
+      "name": "Truck",
+      "relationship": "Related position that can transition to Twister Control"
+    },
+    {
+      "name": "Roll Through Escape",
+      "relationship": "Alternative escape technique from same position"
+    },
+    {
+      "name": "Frame and Turn",
+      "relationship": "Alternative escape technique from same position"
+    },
+    {
+      "name": "Twister Finish",
+      "relationship": "Submission threat that must be defended during escape"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Position opponent may transition to if escape is countered"
+    },
+    {
+      "name": "Lockdown",
+      "relationship": "Related leg entanglement position in 10th Planet system"
+    },
+    {
+      "name": "Crab Ride",
+      "relationship": "Related back exposure position with similar control concepts"
+    }
+  ]
+}

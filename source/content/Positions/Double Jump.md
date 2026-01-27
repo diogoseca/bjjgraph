@@ -95,32 +95,24 @@ Both perspectives share the common principle of using leg-based controls to crea
 - Control opponent's near arm during entry to prevent posting and base recovery
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Deep Half Entry]]** → [[Deep Half Guard]]
-  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 75%
+- **[[Deep Half Entry]]** (15% of attempts)
 
-- **[[Old School Sweep]]** → [[Side Control]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 65%
+- **[[Old School Sweep]]** (14% of attempts)
 
-- **[[Waiter Sweep]]** → [[Side Control]]
-  - Success Rate: Beginner 20%, Intermediate 40%, Advanced 60%
+- **[[Waiter Sweep]]** (13% of attempts)
 
-- **[[100% Sweep]]** → [[Mount]]
-  - Success Rate: Beginner 15%, Intermediate 35%, Advanced 55%
+- **[[100% Sweep]]** (12% of attempts)
 
-- **[[Half Guard to Back Take]]** → [[Back Control]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 55%
+- **[[Half Guard to Back Take]]** (12% of attempts)
 
-- **[[Electric Chair Submission]]** → [[Electric Chair]]
-  - Success Rate: Beginner 10%, Intermediate 25%, Advanced 45%
+- **[[Electric Chair Submission]]** (10% of attempts)
 
-- **[[Lockdown Sweeps]]** → [[Lockdown]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 60%
+- **[[Lockdown Sweeps]]** (13% of attempts)
 
-- **[[X-Guard Sweep]]** → [[X-Guard]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 50%
+- **[[X-Guard Sweep]]** (11% of attempts)
 
 
 ### Common Mistakes
@@ -182,26 +174,20 @@ Both perspectives share the common principle of using leg-based controls to crea
 - Maintain offensive initiative by chaining attacks between back-takes, crab rides, and truck positions
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Turtle to Back Control]]** → [[Back Control]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 70%
+- **[[Turtle to Back Control]]** (19% of attempts)
 
-- **[[Crab Ride to Back]]** → [[Crab Ride]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 65%
+- **[[Crab Ride to Back]]** (17% of attempts)
 
-- **[[Transition to Truck]]** → [[Truck]]
-  - Success Rate: Beginner 20%, Intermediate 40%, Advanced 60%
+- **[[Turtle to Truck]]** (16% of attempts)
 
-- **[[Rolling Back Take]]** → [[Back Control]]
-  - Success Rate: Beginner 15%, Intermediate 35%, Advanced 55%
+- **[[Rolling Back Take]]** (15% of attempts)
 
-- **[[Truck Entry]]** → [[Truck]]
-  - Success Rate: Beginner 20%, Intermediate 38%, Advanced 58%
+- **[[Truck Entry]]** (16% of attempts)
 
-- **[[Back Take Generic]]** → [[Back Control]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 65%
+- **[[Back Take Generic]]** (17% of attempts)
 
 
 ### Common Mistakes
@@ -258,9 +244,7 @@ Both perspectives share the common principle of using leg-based controls to crea
 
 - **[[X-Guard]]** - Alternative guard when opponent stands from Double Jump bottom
 
-- **[[10th Planet Half Guard Bottom System]]** - System context - Double Jump bottom is foundational entry technique
-
-- **[[Twister System]]** - System progression - top Double Jump serves as truck entry point
+- **[[Twister Control]]** - System progression - top Double Jump serves as truck entry point
 
 
 </section>

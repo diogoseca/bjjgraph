@@ -419,9 +419,19 @@ The Short Choke is a highly effective gi-based blood choke executed from top pos
 - [[Mount]] - Alternative position for mounted Short Choke variation
 - [[Ezekiel Choke]] - Similar lapel-based choke with different mechanics
 - [[Paper Cutter Choke]] - Closely related technique using opponent's collar instead of own lapel
-- [[Transition to Mount]] - Common follow-up when opponent defends Short Choke by creating space
+- [[Side Control to Mount]] - Common follow-up when opponent defends Short Choke by creating space
 - [[Back Control]] - Position to transition to when opponent turns away from Short Choke pressure
 
+
+</section>
+
+<section id="terminal-state" class="content-section">
+
+## Match Outcome
+
+Successful execution of Short Choke leads to → [[game-over|Game Over]]
+
+*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
 
 </section>
 

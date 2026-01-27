@@ -11,8 +11,6 @@
     "re-guard",
     "guard-retention"
   ],
-  "starting_position": "Headquarters Position",
-  "ending_position": "Guard Recovery",
   "success_rates": {
     "beginner": 35,
     "intermediate": 50,
@@ -297,6 +295,24 @@
     {
       "name": "Shrimp Escape",
       "relationship": "Core movement - fundamental hip escape mechanic"
+    }
+  ],
+  "from_position": "Headquarters Position/Top",
+  "outcomes": [
+    {
+      "to": "Guard Recovery/Bottom",
+      "probability": 65,
+      "result": "success"
+    },
+    {
+      "to": "Headquarters Position/Top",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Headquarters Position/Bottom",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

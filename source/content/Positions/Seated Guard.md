@@ -89,32 +89,24 @@ Seated Guard works best when opponent is standing or on knees with distance, but
 - Attack Timing: Seated Guard attacks rely on opponent's movement and balance - watch for weight shifts and postural changes
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Technical Stand-up]]** → [[Standing Position]]
-  - Success Rate: Beginner 60%, Intermediate 75%, Advanced 85%
+- **[[Technical Stand-up]]** (16% of attempts)
 
-- **[[Butterfly Sweep]]** → [[Mount]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Butterfly Sweep]]** (12% of attempts)
 
-- **[[Scissor Sweep]]** → [[Mount]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Scissor Sweep]]** (13% of attempts)
 
-- **[[Single Leg X Entry]]** → [[Single Leg X-Guard]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Single Leg X Entry]]** (12% of attempts)
 
-- **[[Ankle Pick]]** → [[Side Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Ankle Pick]]** (11% of attempts)
 
-- **[[Tripod Sweep]]** → [[Side Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Tripod Sweep]]** (12% of attempts)
 
-- **[[X-Guard Sweep]]** → [[Mount]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[X-Guard Sweep]]** (12% of attempts)
 
-- **[[Lumberjack Sweep]]** → [[Side Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Lumberjack Sweep]]** (12% of attempts)
 
 
 ### Common Mistakes
@@ -174,26 +166,20 @@ Seated Guard works best when opponent is standing or on knees with distance, but
 - Leg Control Priority: Control at least one of opponent's legs before attempting to pass to prevent their mobility
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Toreando Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Toreando Pass]]** (19% of attempts)
 
-- **[[Knee Slice Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Knee Slice Pass]]** (17% of attempts)
 
-- **[[Long Step Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Long Step Pass]]** (16% of attempts)
 
-- **[[Leg Drag Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Leg Drag Pass]]** (17% of attempts)
 
-- **[[Stack Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Stack Pass]]** (16% of attempts)
 
-- **[[Smash Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Smash Pass]]** (15% of attempts)
 
 
 ### Common Mistakes

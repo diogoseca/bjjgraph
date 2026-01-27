@@ -21,37 +21,37 @@ description: "Master Deep Half Guard Bottom with powerful sweeps, back takes, an
     {
       "@type": "HowToStep",
       "name": "Execute Waiter Sweep",
-      "text": "From this position, execute Waiter Sweep to transition to Mount. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Waiter Sweep. This technique is attempted in 15% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Deep Half Entry",
-      "text": "From this position, execute Deep Half Entry to transition to Back Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 14% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Old School Sweep",
-      "text": "From this position, execute Old School Sweep to transition to Side Control. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Old School Sweep. This technique is attempted in 17% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling Back Take",
-      "text": "From this position, execute Rolling Back Take to transition to Back Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 14% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Electric Chair Submission",
-      "text": "From this position, execute Electric Chair Submission to transition to Electric Chair. Success rate for advanced practitioners: 45%.",
+      "text": "From this position, attempt Electric Chair Submission. This technique is attempted in 11% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Sweep from Half",
-      "text": "From this position, execute Underhook Sweep from Half to transition to Side Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 15% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -164,7 +164,7 @@ Deep Half Guard Bottom is an advanced guard position where the bottom player wed
 
 This position is particularly effective against pressure passers who commit their weight forward, as it uses their momentum against them. The deep underhook of the far leg combined with the wedge created by the bottom player's shoulder and head disrupts the top player's base completely. From here, the bottom player can execute powerful hip-lift sweeps, waiter sweeps, and transitions to the back.
 
-Deep Half Guard Bottom requires excellent hip mobility, core strength, and timing to enter and maintain. While it appears defensive, it is actually a highly offensive position with multiple pathways to dominant positions. The position is a cornerstone of modern no-gi grappling and has been refined by practitioners like Jeff Glover, Lucas Leite, and Bernardo Faria into a comprehensive attacking system.
+Deep Half Guard Bottom requires excellent hip mobility, core strength, and timing to enter and maintain. While it appears defensive, it is actually a highly offensive position with multiple pathways to dominant positions. The position is a cornerstone of modern no-gi grappling and has been refined into a comprehensive attacking system by elite competitors worldwide.
 
 </section>
 
@@ -213,81 +213,20 @@ Deep Half Guard Bottom requires excellent hip mobility, core strength, and timin
 
 ## Available Escapes
 
-### [[Waiter Sweep]] → [[Mount]]
+### [[Waiter Sweep]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Deep Half Entry]] (14% of attempts)
 
-### [[Deep Half Entry]] → [[Back Control]]
+### [[Old School Sweep]] (17% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Rolling Back Take]] (14% of attempts)
 
-### [[Old School Sweep]] → [[Side Control]]
+### [[Electric Chair Submission]] (11% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Underhook Sweep from Half]] (15% of attempts)
 
-### [[Rolling Back Take]] → [[Back Control]]
+### [[X-Guard Sweep]] (14% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 40%
-- Advanced: 60%
-
-### [[Electric Chair Submission]] → [[Electric Chair]]
-
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 45%
-
-### [[Underhook Sweep from Half]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 65%
-
-### [[X-Guard Sweep]] → [[Standing Position]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 45%
-- Advanced: 60%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Crossface Pass]]** → [[Side Control]] (Opponent Success: 45%)
-- **[[Knee Slice from Half]]** → [[Side Control]] (Opponent Success: 35%)
-- **[[Half Guard Pass]]** → [[Side Control]] (Opponent Success: 40%)
-- **[[Smash Pass]]** → [[Side Control]] (Opponent Success: 30%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Rolling Back Take]]** → [[Back Control]]
-  - Opponent tries to step over near leg
-- **[[Electric Chair Submission]]** → [[Electric Chair]]
-  - Opponent whizzers and defends sweep attempts
-- **[[X-Guard Sweep]]** → [[Standing Position]]
-  - Opponent pulls their far leg back to escape underhook
 
 
 </section>
@@ -313,7 +252,7 @@ Deep Half Guard Bottom requires excellent hip mobility, core strength, and timin
 
 **If opponent pulls far leg back to escape underhook:**
 - Execute **[[X-Guard Sweep]]** → [[Standing Position]] (Probability: 65%)
-- Execute **[[Half Guard Sweeps]]** → [[Half Guard]] (Probability: 55%)
+- Execute **[[Underhook Sweep from Half]]** → [[Half Guard]] (Probability: 55%)
 
 
 
@@ -366,7 +305,7 @@ Partner starts in top half guard with forward pressure. Practice sliding underne
 
 ### Sweep Chain Drill
 
-From established deep half guard bottom, partner defends one sweep attempt forcing transition to another sweep option. Practice linking Waiter Sweep → Old School Sweep → Rolling Back Take in response to opponent's defensive reactions.
+From established deep half guard bottom, partner defends one sweep attempt forcing transition to another sweep option. Practice linking Waiter Sweep to Old School Sweep to Rolling Back Take in response to opponent's defensive reactions.
 
 **Duration**: 6 minutes continuous flow
 
@@ -382,25 +321,39 @@ Start in deep half guard bottom position. Bottom player works to sweep or take b
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Direct submission path
+## Test Your Knowledge
 
-`Deep Half Guard Bottom → Electric Chair Submission`
+**Q1**: Your opponent establishes strong crossface pressure and begins flattening you - what adjustment do you make?
+**A**: When getting flattened by crossface, immediately focus on maintaining your deep underhook grip as the priority. Use your free hand to frame against their hip or bicep to create space. Shrimp your hips away to create angle and relieve the pressure. If severely flattened, consider transitioning to lockdown to reestablish control, then work back toward proper deep half positioning once you've regained some space.
 
-### High-percentage back attack path
+**Q2**: What are the essential grips for maintaining deep half guard bottom position?
+**A**: The essential grips are: deep underhook around opponent's far thigh with your arm wrapped tightly and pulling the leg toward your chest, and your free hand controlling their near hip or pants to monitor their movement. Your head and shoulder wedged against their inner thigh serves as a critical contact point. The underhook is non-negotiable - if you lose it, you lose the position.
 
-`Deep Half Guard Bottom → Rolling Back Take → Back Control → Rear Naked Choke`
+**Q3**: How do you shut down your opponent's attempt to extract their trapped leg?
+**A**: To prevent leg extraction, constantly pull their far leg toward your chest with your underhook, keeping it tight to your body. Use your bottom leg hook around their far leg as secondary control. When they begin extraction attempts, elevate your hips to keep their weight loaded on you and maintain the mechanical advantage. Follow their leg movement with your body rather than letting them create separation.
 
-### Sweep to submission path
+**Q4**: What grip priority should you focus on when first entering deep half guard?
+**A**: The deep underhook on opponent's far leg is the absolute priority grip when entering. Your shoulder should be against the inside of their thigh with your arm wrapped around and reaching toward their far hip or behind their knee. Without this underhook secured first, the position has no foundation. Secondary priority is positioning your head below their hip line to prevent shoulder pressure.
 
-`Deep Half Guard Bottom → Waiter Sweep → Mount → Armbar from Mount`
+**Q5**: How do you apply constant pressure on your opponent's base from deep half bottom?
+**A**: Apply pressure through continuous hip elevation and movement. Your hips should never be static - constantly make small elevation adjustments to test their balance. Pull their far leg toward you while pushing against their near hip with your free hand, creating opposing forces that destabilize them. Even small movements make it impossible for them to establish solid base for passing.
+
+**Q6**: Your opponent begins stepping over your bottom leg with their near leg - what is your immediate response?
+**A**: This step-over attempt actually opens up the rolling back take. As they step over, maintain your underhook and begin rolling underneath them in the same direction they're stepping. Use their step-over momentum to roll through and establish back control. Alternatively, if the back take angle isn't there, use your bottom leg to hook their stepping leg and prevent the step-over while resetting to standard deep half.
+
+**Q7**: How do you manage energy when playing deep half guard bottom for extended periods?
+**A**: Deep half bottom is relatively energy efficient because you're using leverage rather than strength. Keep your grips tight but don't over-squeeze - let your body position do the work. Make small frequent adjustments rather than explosive movements. Time your sweep attempts for when opponent shifts their weight, using their movement against them. If fatigued, focus on grip retention and position maintenance until an optimal sweep opportunity presents itself.
+
+**Q8**: Your opponent pulls their far leg back, breaking your underhook - how do you recover?
+**A**: If they break your underhook, immediately transition rather than trying to re-enter deep half. Follow their retreating leg into X-Guard or Single Leg X-Guard by hooking their leg with your feet. You can also immediately sit up and pursue a single leg takedown as they back away. The key is not to remain flat without control - either chase the leg into another guard or come up to attack.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -421,14 +374,14 @@ Start in deep half guard bottom position. Bottom player works to sweep or take b
 
 ## Related Positions and Techniques
 
-- **[[Deep Half Guard Top]]** - Sibling variant - opponent's perspective of same position
+- **[[Deep Half Guard]]** - Sibling variant - opponent's perspective of same position
 - **[[Half Guard]]** - Parent position - traditional half guard before deep underhook
 - **[[X-Guard]]** - Common transition target when opponent defends deep half
 - **[[Back Control]]** - Primary advancement target via rolling back take
 - **[[Electric Chair]]** - Direct submission option from deep half guard
 - **[[Lockdown]]** - Alternative half guard bottom variation with different control
-- **[[10th Planet Half Guard Bottom System]]** - System incorporating deep half as part of comprehensive half guard game
-- **[[Bernardo Faria Pressure System]]** - Expert system featuring deep half guard as cornerstone position
+- **[[Single Leg X-Guard]]** - Transition option when opponent pulls leg back
+- **[[Waiter Sweep]]** - Primary sweep option from deep half
 
 
 </section>

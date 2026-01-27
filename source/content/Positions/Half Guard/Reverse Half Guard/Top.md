@@ -20,38 +20,38 @@ description: "Master Reverse Half Guard Top in BJJ. Complete guide covering cont
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Back Control",
-      "text": "From this position, execute Transition to Back Control to transition to Back Control. Success rate for advanced practitioners: 75%.",
+      "name": "Execute Aoki Lock to Back Control",
+      "text": "From this position, attempt Aoki Lock to Back Control. This technique is attempted in 15% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag Pass",
-      "text": "From this position, execute Leg Drag Pass to transition to Side Control. Success rate for advanced practitioners: 80%.",
+      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 19% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice from Half",
-      "text": "From this position, execute Knee Slice from Half to transition to Side Control. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Knee Slice from Half. This technique is attempted in 14% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Mount",
-      "text": "From this position, execute Transition to Mount to transition to Mount. Success rate for advanced practitioners: 65%.",
+      "name": "Execute Side Control to Mount",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 13% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Crossface Pass",
-      "text": "From this position, execute Crossface Pass to transition to North-South. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Crossface Pass. This technique is attempted in 14% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Truck",
-      "text": "From this position, execute Transition to Truck to transition to Truck. Success rate for advanced practitioners: 60%.",
+      "name": "Execute Turtle to Truck",
+      "text": "From this position, attempt Turtle to Truck. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -209,84 +209,20 @@ The reverse half guard top position represents a critical moment in passing sequ
 
 ## Available Attacks
 
-### [[Transition to Back Control]] → [[Back Control]]
+### [[Aoki Lock to Back Control]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 60%
-- Advanced: 75%
+### [[Leg Drag Pass]] (19% of attempts)
 
-### [[Leg Drag Pass]] → [[Side Control]]
+### [[Knee Slice from Half]] (14% of attempts)
 
-**Success Rates:**
-- Beginner: 50%
-- Intermediate: 65%
-- Advanced: 80%
+### [[Side Control to Mount]] (13% of attempts)
 
-### [[Knee Slice from Half]] → [[Side Control]]
+### [[Crossface Pass]] (14% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Turtle to Truck]] (12% of attempts)
 
-### [[Transition to Mount]] → [[Mount]]
+### [[Smash Pass]] (13% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-### [[Crossface Pass]] → [[North-South]]
-
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
-
-### [[Transition to Truck]] → [[Truck]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[Smash Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Hip Escape]]** → [[Half Guard]] (Opponent Success: 35%)
-- **[[Granby Roll]]** → [[Closed Guard]] (Opponent Success: 25%)
-- **[[Technical Standup]]** → [[Standing Position]] (Opponent Success: 20%)
-- **[[Re-Guard]]** → [[Open Guard]] (Opponent Success: 30%)
-- **[[Turtle Transition]]** → [[Turtle]] (Opponent Success: 40%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Back Step]]** → [[Back Control]]
-  - Opponent attempts to turn and face you
-- **[[Pressure Pass]]** → [[Side Control]]
-  - Opponent flattens out defensively
-- **[[Kimura from Half Guard]]** → [[Kimura Control]]
-  - Opponent reaches to establish underhook
-- **[[Crab Ride to Back]]** → [[Crab Ride]]
-  - Opponent tries to turn into turtle position
 
 
 </section>
@@ -296,7 +232,7 @@ The reverse half guard top position represents a critical moment in passing sequ
 ## Decision Making from This Position
 
 **If opponent attempts to turn and face you by rotating their chest toward you:**
-- Execute **[[Transition to Back Control]]** → [[Back Control]] (Probability: 70%)
+- Execute **[[Aoki Lock to Back Control]]** → [[Back Control]] (Probability: 70%)
 - Execute **[[Crab Ride to Back]]** → [[Crab Ride]] (Probability: 60%)
 
 
@@ -311,7 +247,7 @@ The reverse half guard top position represents a critical moment in passing sequ
 
 
 **If opponent reaches for underhook to recover half guard structure:**
-- Execute **[[Kimura from Half Guard]]** → [[Kimura Control]] (Probability: 55%)
+- Execute **[[Kimura from Half Guard]]** → [[Kimura Trap]] (Probability: 55%)
 - Execute **[[Crossface Pass]]** → [[North-South]] (Probability: 60%)
 
 
@@ -381,29 +317,39 @@ Start with cooperative partner in reverse half guard. Progress through: no resis
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Back Attack Path
+## Test Your Knowledge
 
-`Reverse Half Guard Top → Back Control → Rear Naked Choke`
+**Q1**: What is the primary strategic decision you must make immediately upon achieving reverse half guard top?
+**A**: You must immediately choose between pursuing the back take or completing the guard pass. This position is a decision point, not a control position. Hesitation allows the bottom player to recover their defensive structure. If they turn toward you, take the back; if they flatten away, complete the pass to side control.
 
-### Passing to Submission Path
+**Q2**: How do you prevent the bottom player from rotating to face you and recovering standard half guard?
+**A**: Maintain constant chest pressure directed toward their hips from behind, keeping your weight low and heavy. Establish crossface control from the reverse angle by driving your shoulder or arm into their head. This pressure freezes their upper body rotation and prevents them from re-establishing frames or the underhook battle.
 
-`Reverse Half Guard Top → Side Control → Kimura from Side Control`
+**Q3**: Your opponent starts turning their shoulders toward you to face you - what immediate action should you take?
+**A**: This is your cue to take the back. Their rotation exposes their back, so immediately transition to back control by inserting hooks and establishing seat belt grip. Do not fight to prevent their turn - instead, use their movement to secure the superior back control position.
 
-### Kimura Trap Path
+**Q4**: What happens if you stay static in reverse half guard top without advancing?
+**A**: The position favors movement, not static control. Staying static gives the bottom player time to identify escape routes, recover their guard structure, and potentially sweep you. The reverse half guard top is inherently unstable as a holding position - you must immediately advance to back take or pass completion.
 
-`Reverse Half Guard Top → Kimura Control → Kimura from Half Guard`
+**Q5**: How should you adjust your weight distribution when the bottom player tries to create space by shrimping?
+**A**: Keep your hips low and heavy, driving your weight into their hips rather than staying high. When they shrimp, follow their hip movement while maintaining chest pressure. Use the smash pass or pressure pass to cut off their space creation and complete the guard pass to side control.
 
-### Mount Attack Path
+**Q6**: What grip and pressure should you maintain to control the trapped leg while setting up your pass?
+**A**: Control the trapped leg by maintaining hip pressure that pins it between your body and theirs. Your chest should drive toward their hips, creating a wedge effect. This allows you to work methodically on leg extraction while maintaining positional dominance. Don't rush the extraction - controlled pressure prevents their recovery.
 
-`Reverse Half Guard Top → Mount → Americana from Mount`
+**Q7**: Your opponent reaches for an underhook while you're in reverse half guard top - how do you capitalize on this?
+**A**: Their reaching arm exposes them to kimura attacks. Secure a kimura grip on their reaching arm and use it to either submit them or transition to kimura control position. Alternatively, use their extended arm as leverage to complete your pass by driving a crossface and sliding through to north-south or side control.
+
+**Q8**: What distinguishes a successful back take attempt versus a failed one from reverse half guard top?
+**A**: Success depends on timing with the opponent's defensive movement. Successful back takes occur when the opponent turns toward you, exposing their back - you follow their rotation and insert hooks. Failed attempts happen when you force the back take against a flattened opponent who hasn't committed to turning. Read their defensive reaction first.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -427,12 +373,10 @@ Start with cooperative partner in reverse half guard. Progress through: no resis
 - **[[Half Guard]]** - Parent position from which reverse half guard is entered
 - **[[Back Control]]** - Primary advancement target when opponent turns to face you
 - **[[Side Control]]** - Primary passing completion target when opponent flattens defensively
-- **[[Reverse Half Guard Bottom]]** - Opponent's perspective of this position
 - **[[Leg Drag Position]]** - Common passing variation from reverse half guard
 - **[[Crab Ride]]** - Transitional position when pursuing back control
 - **[[Truck]]** - Alternative back attack entry from reverse half guard
 - **[[Knee Shield Half Guard]]** - Position opponent attempts to recover from reverse half
-- **[[Back Step]]** - Entry technique used to achieve reverse half guard
 
 
 </section>

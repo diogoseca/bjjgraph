@@ -21,37 +21,37 @@ description: "Master Worm Guard Top position in BJJ. Complete passing guide cove
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag Pass",
-      "text": "From this position, execute Leg Drag Pass to transition to Leg Drag Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 19% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Toreando Pass",
-      "text": "From this position, execute Toreando Pass to transition to Headquarters Position. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Toreando Pass. This technique is attempted in 18% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Smash Pass",
-      "text": "From this position, execute Smash Pass to transition to Side Control. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Smash Pass. This technique is attempted in 16% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, execute Knee Slice Pass to transition to Side Control. Success rate for advanced practitioners: 52%.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 17% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Long Step Pass",
-      "text": "From this position, execute Long Step Pass to transition to Side Control. Success rate for advanced practitioners: 48%.",
+      "text": "From this position, attempt Long Step Pass. This technique is attempted in 16% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Stack Pass",
-      "text": "From this position, execute Stack Pass to transition to Side Control. Success rate for advanced practitioners: 42%.",
+      "text": "From this position, attempt Stack Pass. This technique is attempted in 14% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -208,74 +208,18 @@ Worm Guard Top represents the passing position against one of modern BJJ's most 
 
 ## Available Attacks
 
-### [[Leg Drag Pass]] → [[Leg Drag Control]]
+### [[Leg Drag Pass]] (19% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Toreando Pass]] (18% of attempts)
 
-### [[Toreando Pass]] → [[Headquarters Position]]
+### [[Smash Pass]] (16% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 40%
-- Advanced: 55%
+### [[Knee Slice Pass]] (17% of attempts)
 
-### [[Smash Pass]] → [[Side Control]]
+### [[Long Step Pass]] (16% of attempts)
 
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 35%
-- Advanced: 50%
+### [[Stack Pass]] (14% of attempts)
 
-### [[Knee Slice Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 38%
-- Advanced: 52%
-
-### [[Long Step Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 18%
-- Intermediate: 35%
-- Advanced: 48%
-
-### [[Stack Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 12%
-- Intermediate: 28%
-- Advanced: 42%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[X-Guard Sweep]]** → [[Mount]] (Opponent Success: 45%)
-- **[[Omoplata to Back]]** → [[Back Control]] (Opponent Success: 35%)
-- **[[Triangle Setup]]** → [[Triangle Control]] (Opponent Success: 25%)
-- **[[Omoplata Sweep]]** → [[Mount]] (Opponent Success: 30%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Leg Drag Pass]]** → [[Leg Drag Control]]
-  - Bottom player commits to sweep attempt with extended legs
-- **[[Leg Weave Pass]]** → [[Side Control]]
-  - Bottom player inverts for back take attempt
-- **[[Smash Pass]]** → [[Side Control]]
-  - Bottom player attempts to recover guard or triangle
 
 
 </section>
@@ -382,29 +326,39 @@ Bottom player in worm guard attempts to off-balance top player using lapel mecha
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Pass to Side Control Submission Path
+## Test Your Knowledge
 
-`Worm Guard Top → Leg Drag Pass → Leg Drag Control → Side Control → Kimura from Side Control`
+**Q1**: What is the fundamental strategic error when attempting to pass worm guard with forward pressure while the lapel is still wrapped?
+**A**: Forward pressure into an active lapel wrap creates perfect mechanical leverage for the bottom player to execute sweeps. The lapel acts as a lever that amplifies any forward weight commitment, converting your passing energy directly into sweep momentum. The correct approach is to first address and neutralize the lapel entanglement through systematic grip stripping or leg extraction before applying any forward pressure.
 
-### Smash to Mount Submission Path
+**Q2**: How should you position your base and weight distribution when facing an established worm guard?
+**A**: Maintain a wide athletic base with hips back and weight distributed evenly between both legs. Keep your center of gravity low enough to resist off-balancing attempts but high enough to maintain mobility for grip fighting. Avoid narrow stances or excessive forward lean, as these create easy sweep targets. Your weight should never commit forward until the lapel control is completely neutralized.
 
-`Worm Guard Top → Smash Pass → Side Control → Mount → Armbar from Mount`
+**Q3**: Your opponent has tight lapel control and you feel them starting to generate rotational momentum for a sweep - what adjustment do you make?
+**A**: Immediately establish control of their far side collar or far shoulder to counter-act the rotation. Drop your base lower and widen your stance to increase stability. If rotation continues, step in the direction of the rotation to neutralize their momentum rather than fighting against it. Consider temporarily disengaging to reset your position rather than fighting through an active sweep attempt.
 
-### Stack to North-South Submission Path
+**Q4**: Why is patience more important than speed when passing worm guard?
+**A**: Explosive speed-based passing attempts against worm guard typically fail because the lapel mechanics redirect explosive energy into sweep momentum. The bottom player's control system is specifically designed to capitalize on hasty movements. Methodical, patient dismantling allows you to systematically address each layer of control without creating opportunities for counter-attacks. Speed-based passes should only be attempted after lapel tension is broken.
 
-`Worm Guard Top → Stack Pass → Side Control → North-South → North-South Choke`
+**Q5**: What is the correct sequence for addressing multiple layers of worm guard control (lapel wrap plus collar/sleeve grips)?
+**A**: Prioritize breaking one control system completely before addressing the other. Typically, start by either removing the lapel wrap or stripping the most threatening grip that's enabling their attacks. Attempting to address everything simultaneously divides your attention and allows them to maintain at least one strong control point. Once one system is cleared, the remaining grips become much easier to manage.
 
-### Toreando to Back Attack Path
+**Q6**: When is it appropriate to disengage and reset versus continuing to engage against a well-established worm guard?
+**A**: Disengage and reset when you're caught in a sweep attempt you cannot counter, when the lapel control has been reinforced after a failed passing attempt, or when you find yourself in a stalemate burning excessive energy. However, complete disengagement allows them to reset and strengthen their guard structure. The ideal approach is maintaining engagement with strategic grips while systematically working through positional problems.
 
-`Worm Guard Top → Toreando Pass → Turtle → Back Control → Rear Naked Choke`
+**Q7**: How do you recognize when the lapel tension is broken enough to initiate traditional passing mechanics?
+**A**: The lapel tension is sufficiently broken when you can move your trapped leg freely without feeling the pulling resistance that creates off-balancing leverage. Visual indicators include the lapel hanging slack rather than taut, and your leg moving independently of their hip movements. At this point, traditional passes like leg drag or toreando become viable because the mechanical connection between their lapel control and your movement is severed.
+
+**Q8**: What passing techniques are most effective once you've neutralized the lapel wrap?
+**A**: Once lapel tension is broken, leg drag pass becomes highly effective as their compromised leg control creates easy access to drag the leg across their body. Toreando pass works well since they can no longer use the lapel to prevent lateral movement. Knee slice pass is viable if you can establish inside position before they re-establish control. The key is executing your chosen pass immediately before they can re-feed the lapel.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -425,15 +379,15 @@ Bottom player in worm guard attempts to off-balance top player using lapel mecha
 
 ## Related Positions and Techniques
 
-- **[[Worm Guard Bottom]]** - Opposite perspective of same position
+- **[[Worm Guard]]** - Hub position for both perspectives
 - **[[Lapel Guard]]** - Parent category guard position
 - **[[Squid Guard]]** - Similar lapel-based guard passing scenario
 - **[[Lasso Guard]]** - Related complex guard with similar passing principles
 - **[[De La Riva Guard]]** - Foundation guard that worm guard builds upon
 - **[[Leg Drag Pass]]** - Primary passing technique from this position
 - **[[Toreando Pass]]** - Key passing option when lapel control is neutralized
-- **[[Guard Passing Principles]]** - Conceptual foundation for position
-- **[[Grip Fighting Strategies]]** - Core concept for managing lapel entanglements
+- **[[Knee Slice Pass]]** - Effective pass once inside position is established
+- **[[Side Control]]** - Primary destination after successful pass
 
 
 </section>

@@ -21,37 +21,37 @@ description: "Master Quarter Guard Bottom in BJJ. Learn sweeps, back takes, and 
     {
       "@type": "HowToStep",
       "name": "Execute Old School Sweep",
-      "text": "From this position, execute Old School Sweep to transition to Side Control. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Old School Sweep. This technique is attempted in 13% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Half Guard to Back Take",
-      "text": "From this position, execute Half Guard to Back Take to transition to Back Control. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Half Guard to Back Take. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Sweep from Half",
-      "text": "From this position, execute Underhook Sweep from Half to transition to Side Control. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Deep Half Entry",
-      "text": "From this position, execute Deep Half Entry to transition to Deep Half Guard. Success rate for advanced practitioners: 80%.",
+      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 14% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling Back Take",
-      "text": "From this position, execute Rolling Back Take to transition to Back Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 11% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Electric Chair Submission",
-      "text": "From this position, execute Electric Chair Submission to transition to Electric Chair. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Electric Chair Submission. This technique is attempted in 9% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -210,93 +210,22 @@ Success in quarter guard bottom depends on maintaining the underhook, creating a
 
 ## Available Escapes
 
-### [[Old School Sweep]] → [[Side Control]]
+### [[Old School Sweep]] (13% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 60%
-- Advanced: 75%
+### [[Half Guard to Back Take]] (12% of attempts)
 
-### [[Half Guard to Back Take]] → [[Back Control]]
+### [[Underhook Sweep from Half]] (13% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Deep Half Entry]] (14% of attempts)
 
-### [[Underhook Sweep from Half]] → [[Side Control]]
+### [[Rolling Back Take]] (11% of attempts)
 
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 60%
-- Advanced: 75%
+### [[Electric Chair Submission]] (9% of attempts)
 
-### [[Deep Half Entry]] → [[Deep Half Guard]]
+### [[Knee Shield Retention]] (16% of attempts)
 
-**Success Rates:**
-- Beginner: 50%
-- Intermediate: 65%
-- Advanced: 80%
+### [[Lockdown Sweeps]] (12% of attempts)
 
-### [[Rolling Back Take]] → [[Back Control]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[Electric Chair Submission]] → [[Electric Chair]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
-
-### [[Knee Shield Retention]] → [[Knee Shield Half Guard]]
-
-**Success Rates:**
-- Beginner: 55%
-- Intermediate: 70%
-- Advanced: 85%
-
-### [[Lockdown Sweeps]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 65%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Half Guard Pass]]** → [[Side Control]] (Opponent Success: 60%)
-- **[[Knee Slice from Half]]** → [[Side Control]] (Opponent Success: 65%)
-- **[[Underhook Pass]]** → [[Side Control]] (Opponent Success: 55%)
-- **[[Crossface Pass]]** → [[Side Control]] (Opponent Success: 70%)
-- **[[Smash Pass]]** → [[Side Control]] (Opponent Success: 50%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Deep Half Entry]]** → [[Deep Half Guard]]
-  - Opponent drives weight forward aggressively to consolidate pass, creating space underneath for deep half insertion
-- **[[Half Guard to Back Take]]** → [[Back Control]]
-  - Opponent posts near-side hand on mat to prevent sweep, exposing back and creating pathway for back take
-- **[[Knee Shield Retention]]** → [[Knee Shield Half Guard]]
-  - Opponent attempts to establish crossface, allowing you to frame with free leg and recover knee shield structure
-- **[[Old School Sweep]]** → [[Side Control]]
-  - Opponent lifts trapped leg attempting to extract knee, creating leverage opportunity for sweep completion
-- **[[Electric Chair Submission]]** → [[Electric Chair]]
-  - Opponent extends trapped leg forward while driving pressure, exposing leg for lockdown and submission attack
 
 
 </section>
@@ -403,29 +332,39 @@ Begin in severely compromised quarter guard with partner seventy-five percent th
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Leg Attack Pathway
+## Test Your Knowledge
 
-`Quarter Guard Bottom → Electric Chair → Banana Split`
+**Q1**: Your opponent starts applying heavy crossface pressure to flatten you—what adjustment do you make to maintain position?
+**A**: Immediately turn your head away from the crossface while driving your underhook elbow toward the ceiling to create space. Use your free leg to frame against their hip or post on the mat to prevent being flattened. Hip escape away from the pressure to create an angle that reduces the effectiveness of their crossface. If crossface becomes too dominant, transition immediately to deep half guard by getting underneath their weight rather than fighting the pressure directly.
 
-### Back Control to Submission
+**Q2**: What are the essential grips and control points for surviving quarter guard bottom?
+**A**: The underhook is absolutely essential—your forearm must be deeply connected to opponent's lat or armpit with elbow pointing toward ceiling. Secondary controls include free leg positioning as a frame or hook against their hip, your non-underhook hand blocking crossface attempts or controlling their posting arm, and hip angle maintenance at thirty to forty-five degrees off the mat. Without the underhook, you have no offensive options and will be passed within seconds.
 
-`Quarter Guard Bottom → Half Guard to Back Take → Back Control → Rear Naked Choke`
+**Q3**: How do you shut down the top player's primary attack of completing the pass to side control?
+**A**: Prevent pass completion by maintaining hip mobility through constant angle adjustments away from the passing direction. Use your free leg to create frames against their chest or hip that prevent their weight from settling. Keep your underhook active by pulling their weight toward you rather than letting them drive through. If they flatten you completely, the pass is inevitable—staying on your side with active underhook is the key defensive principle.
 
-### Sweep to Submission Chain
+**Q4**: What is the priority order for grips when your underhook is being stripped by crossface pressure?
+**A**: Priority order: First, fight to maintain underhook depth by turning into opponent and driving elbow toward ceiling. Second, if underhook is being stripped, immediately use that arm to frame against their neck to prevent crossface while hip escaping to recover angle. Third, use free leg to establish butterfly hook or knee shield as you fight for underhook recovery. Never go flat without either the underhook or a strong frame—being flat without controls means immediate pass completion.
 
-`Quarter Guard Bottom → Old School Sweep → Side Control → Kimura from Side Control`
+**Q5**: How do you apply offensive pressure from quarter guard bottom rather than just defending?
+**A**: Offensive pressure comes from the underhook combined with hip movement. Pull opponent's weight onto you using the underhook while simultaneously hip escaping to create angles for sweeps. Attack immediately when they post their hand to base—this is the moment for old school sweep or back take. Use your free leg to off-balance by pushing against their hip in the opposite direction of your underhook pull. The threat of sweeps is what prevents them from committing fully to the pass.
 
-### Deep Half Submission Sequence
+**Q6**: Your opponent posts their near hand on the mat during passing pressure—what immediate opportunity does this create?
+**A**: A posted hand creates a back take opportunity because their weight is distributed away from you and their back is exposed. Immediately use your underhook to start climbing toward their back while your free leg kicks through for the first hook. Alternatively, the posted hand removes their ability to prevent the old school sweep—drive into them with your underhook while using your free leg to elevate, and they cannot base without removing the post. Recognize posted hand as green light for immediate offensive action.
 
-`Quarter Guard Bottom → Deep Half Entry → Deep Half Guard → Waiter Sweep → Side Control → Kimura from Side Control`
+**Q7**: How do you manage energy while defending quarter guard bottom under sustained pressure?
+**A**: Energy management requires using frames and positioning rather than muscling against pressure. Let your skeletal structure absorb pressure through proper angles rather than fighting with strength. Time your explosive movements for when opponent commits weight or posts—don't fight continuously but rather create brief windows for sweeps. If you're getting exhausted, recognize that quarter guard is not sustainable and commit to either sweep, back take, or guard recovery within five seconds rather than extending the fight.
+
+**Q8**: Your opponent begins extracting their trapped leg—how do you determine whether to fight for retention or transition to a different position?
+**A**: If your underhook is deep and you still have hip angle, fight for retention by tightening your leg engagement and using underhook to prevent them from posturing away. If your underhook is compromised or you're flattened, don't waste energy on retention—immediately transition. Options include: deep half guard entry if their weight is forward, butterfly guard recovery using the free leg, or back take if they're turning away during extraction. The decision point is underhook quality—good underhook means fight, compromised underhook means transition immediately.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -450,14 +389,11 @@ Begin in severely compromised quarter guard with partner seventy-five percent th
 - **[[Deep Half Guard]]** - Common transition target when opponent drives forward with pressure
 - **[[Knee Shield Half Guard]]** - Recovery position when creating space with free leg and frames
 - **[[Lockdown]]** - Alternative leg configuration for quarter guard control offering submission threats
-- **[[Underhook Control]]** - Core control concept—underhook is critical survival and offensive tool in quarter guard
 - **[[Dogfight Position]]** - Similar underhook-based position with different leg configuration and tactical options
 - **[[Electric Chair]]** - Primary submission threat from lockdown quarter guard variation
 - **[[Old School Sweep]]** - High-percentage sweep when opponent extends trapped leg during pass
 - **[[Side Control]]** - Position opponent is attempting to reach through pass completion
 - **[[Back Control]]** - High-value offensive target via back take sequences when opponent posts
-- **[[Underhook Defense]]** - Defensive concept for maintaining underhook against stripping attempts
-- **[[Hip Escape Mechanics]]** - Movement concept for creating angles and preventing flattening
 
 
 </section>

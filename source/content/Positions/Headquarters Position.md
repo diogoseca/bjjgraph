@@ -21,50 +21,44 @@ description: "Master Headquarters Position in BJJ. Strategic passing control pos
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, execute Knee Slice Pass to transition to Side Control. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 25% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Long Step Pass",
-      "text": "From this position, execute Long Step Pass to transition to Side Control. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Long Step Pass. This technique is attempted in 15% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Smash Pass",
-      "text": "From this position, execute Smash Pass to transition to Side Control. Success rate for advanced practitioners: 80%.",
+      "text": "From this position, attempt Smash Pass. This technique is attempted in 20% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Weave Pass",
-      "text": "From this position, execute Leg Weave Pass to transition to Mount. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Leg Weave Pass. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Over-Under Pass",
-      "text": "From this position, execute Over-Under Pass to transition to Side Control. Success rate for advanced practitioners: 70%.",
+      "name": "Execute Over Under Pass",
+      "text": "From this position, attempt Over Under Pass. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Underhook Pass",
-      "text": "From this position, execute Underhook Pass to transition to Side Control. Success rate for advanced practitioners: 75%.",
+      "name": "Execute Back Step Pass",
+      "text": "From this position, attempt Back Step Pass. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     },
     {
       "@type": "HowToStep",
       "name": "Execute Crossface Pass",
-      "text": "From this position, execute Crossface Pass to transition to Side Control. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Crossface Pass. This technique is attempted in 10% of exchanges from this position.",
       "position": 7
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Transition to Mount",
-      "text": "From this position, execute Transition to Mount to transition to Mount. Success rate for advanced practitioners: 60%.",
-      "position": 8
     }
   ],
   "totalTime": "PT2M"
@@ -233,91 +227,20 @@ This position represents a fundamental evolution in guard passing theory, moving
 
 ## Available Techniques and Transitions
 
-### [[Knee Slice Pass]] → [[Side Control]]
+### [[Knee Slice Pass]] (25% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 60%
-- Advanced: 75%
+### [[Long Step Pass]] (15% of attempts)
 
-### [[Long Step Pass]] → [[Side Control]]
+### [[Smash Pass]] (20% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Leg Weave Pass]] (10% of attempts)
 
-### [[Smash Pass]] → [[Side Control]]
+### [[Over Under Pass]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 65%
-- Advanced: 80%
+### [[Back Step Pass]] (10% of attempts)
 
-### [[Leg Weave Pass]] → [[Mount]]
+### [[Crossface Pass]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 65%
-
-### [[Over-Under Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 55%
-- Advanced: 70%
-
-### [[Underhook Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 60%
-- Advanced: 75%
-
-### [[Crossface Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 55%
-- Advanced: 70%
-
-### [[Transition to Mount]] → [[Mount]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 45%
-- Advanced: 60%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Defensive Counters
-
-- **[[Frame and Shrimp]]** → [[Half Guard]] (Success: 45%)
-- **[[Underhook Sweep from Half]]** → [[Scramble Position]] (Success: 35%)
-- **[[Re-Guard from Headquarters]]** → [[Half Guard]] (Success: 40%)
-- **[[Technical Standup]]** → [[Standing Position]] (Success: 30%)
-- **[[Deep Half Entry]]** → [[Deep Half Guard]] (Success: 35%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter Techniques
-
-- **[[Pressure Pass]]** → [[Side Control]]
-  - Opponent attempts to create frames and space with hands or feet to prevent passing pressure
-- **[[Knee Slice Pass]]** → [[Side Control]]
-  - Opponent turns toward trapped leg attempting to recover half guard structure or full guard
-- **[[Long Step Pass]]** → [[Side Control]]
-  - Opponent extends leg to create distance or pushes knee line with foot on hip
-- **[[Back Step]]** → [[Back Control]]
-  - Opponent commits to deep half guard entry or underhook attack creating back exposure
 
 
 </section>
@@ -342,8 +265,8 @@ This position represents a fundamental evolution in guard passing theory, moving
 
 
 **If opponent attempts deep half guard entry or commits to underhook sweep mechanics:**
-- Execute **[[Back Step]]** → [[Back Control]] (Probability: 65%)
-- Execute **[[Underhook Pass]]** → [[Side Control]] (Probability: 60%)
+- Execute **[[Back Step Pass]]** → [[Back Control]] (Probability: 65%)
+- Execute **[[Knee Cut Pass]]** → [[Side Control]] (Probability: 60%)
 
 
 
@@ -417,26 +340,6 @@ Start from compromised positions where opponent has frames, partial guard recove
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
-
-## Optimal Paths from This Position
-
-### High-percentage kimura path from side control
-
-`Headquarters Position → Smash Pass → Side Control → Kimura from Side Control`
-
-### Back attack path via counter to deep half
-
-`Headquarters Position → Back Step → Back Control → Rear Naked Choke`
-
-### Mount submission sequence via knee slice
-
-`Headquarters Position → Knee Slice Pass → Side Control → Transition to Mount → Mount → Americana from Mount`
-
-
-
-</section>
-
 <section id="position-metrics" class="content-section">
 
 ## Success Rates and Statistics
@@ -460,12 +363,12 @@ Start from compromised positions where opponent has frames, partial guard recove
 - **[[Half Guard]]** - Common starting position from which headquarters is established during passing sequences
 - **[[Side Control]]** - Primary target position for most passing sequences initiated from headquarters
 - **[[Deep Half Guard]]** - Common defensive entry opponent attempts from headquarters pressure
-- **[[Pressure Passing]]** - Technical concept applied when maintaining headquarters control and advancing passes
+- **[[Knee Shield Half Guard]]** - Defensive guard structure opponent may attempt to establish against headquarters
 - **[[Knee Slice Pass]]** - Primary offensive transition when opponent turns toward trapped leg
 - **[[Long Step Pass]]** - Primary offensive transition when opponent extends leg to create distance
-- **[[Headquarters Pass]]** - Specific passing transition utilizing headquarters control principles
-- **[[Re-Guard from Headquarters]]** - Common defensive transition opponent attempts from this position
 - **[[Smash Pass]]** - Primary offensive transition when opponent creates strong frames
+- **[[Back Step Pass]]** - Counter transition when opponent attempts deep half or underhook attacks
+- **[[Mount]]** - Advanced target position achievable through leg weave or progressive passing
 
 
 </section>

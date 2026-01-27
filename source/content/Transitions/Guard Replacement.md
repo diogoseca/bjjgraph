@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Guard Replacement | BJJ Technique | BJJ Graph"
 description: "Learn Guard Replacement in BJJ. Step-by-step execution from compromised guard to guard recovery. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%."
@@ -16,7 +17,7 @@ description: "Learn Guard Replacement in BJJ. Step-by-step execution from compro
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Guard Replacement in BJJ",
-  "description": "Step-by-step guide for Guard Replacement from Defensive Position to Closed Guard.",
+  "description": "Step-by-step guide for Guard Replacement from Defensive Position/Top. Possible outcomes: Closed Guard/Bottom (70%), Defensive Position/Top (20%), Defensive Position/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -164,11 +165,25 @@ The technique is particularly critical in modern BJJ where guard retention is vi
 
 Guard replacement serves as a bridge between losing guard control and being fully passed. It represents the last line of defense before the opponent secures a passing position, making it one of the highest-priority skills for any bottom player to master. The technique can be applied from various compromised positions including when the opponent has achieved an underhook, established crossface control, or begun to step over the legs.
 
-**Starting Position**: [[Defensive Position]]
-**Ending Position**: [[Closed Guard]]
+**From Position**: [[Defensive Position/Top]]
 **Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Closed Guard/Bottom]] | 70% |
+| Failure | [[Defensive Position/Top]] | 20% |
+| Counter | [[Defensive Position/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

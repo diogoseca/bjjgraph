@@ -21,37 +21,37 @@ description: "Master passing Lasso Guard from top position. Learn systematic cle
     {
       "@type": "HowToStep",
       "name": "Execute Lasso Guard Pass",
-      "text": "From this position, execute Lasso Guard Pass to transition to Side Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Lasso Guard Pass. This technique is attempted in 20% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Stack Pass",
-      "text": "From this position, execute Stack Pass to transition to Side Control. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Stack Pass. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Cut Pass",
-      "text": "From this position, execute Knee Cut Pass to transition to Side Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Knee Cut Pass. This technique is attempted in 18% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Smash Pass",
-      "text": "From this position, execute Smash Pass to transition to Side Control. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Smash Pass. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Toreando Pass",
-      "text": "From this position, execute Toreando Pass to transition to Side Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Toreando Pass. This technique is attempted in 15% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Pressure Pass",
-      "text": "From this position, execute Pressure Pass to transition to Side Control. Success rate for advanced practitioners: 60%.",
+      "name": "Execute Long Step Pass",
+      "text": "From this position, attempt Long Step Pass. This technique is attempted in 8% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -219,89 +219,22 @@ Developing competency on top in lasso guard situations builds fundamental skills
 
 ## Available Attacks
 
-### [[Lasso Guard Pass]] → [[Side Control]]
+### [[Lasso Guard Pass]] (20% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Stack Pass]] (12% of attempts)
 
-### [[Stack Pass]] → [[Side Control]]
+### [[Knee Cut Pass]] (18% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
+### [[Smash Pass]] (12% of attempts)
 
-### [[Knee Cut Pass]] → [[Side Control]]
+### [[Toreando Pass]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Long Step Pass]] (8% of attempts)
 
-### [[Smash Pass]] → [[Side Control]]
+### [[Leg Weave Pass]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
+### [[Kimura from Standing]] (5% of attempts)
 
-### [[Toreando Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-### [[Pressure Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[Long Step Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
-
-### [[Kimura from Standing]] → [[Kimura Control]]
-
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 25%
-- Advanced: 40%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Lasso Guard Sweeps]]** → [[Mount]] (Opponent Success: 50%)
-- **[[Triangle Setup]]** → [[Triangle Control]] (Opponent Success: 45%)
-- **[[Omoplata Sweep]]** → [[Mount]] (Opponent Success: 40%)
-- **[[De La Riva Sweep]]** → [[Turtle]] (Opponent Success: 45%)
-- **[[X-Guard Sweep]]** → [[Mount]] (Opponent Success: 40%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Stack Defense]]** → [[Headquarters Position]]
-  - When opponent establishes lasso but commits too much to extension, use aggressive stacking pressure to fold them backwards
-- **[[Leg Weave Pass]]** → [[Side Control]]
-  - If opponent's non-lasso leg becomes available and uncontrolled, immediately weave your leg through to begin passing sequence
-- **[[Kimura from Standing]]** → [[Kimura Control]]
-  - When opponent over-commits to lasso control and exposes their non-lasso arm, attack with kimura grip to force defensive response
 
 
 </section>
@@ -331,7 +264,7 @@ Developing competency on top in lasso guard situations builds fundamental skills
 
 
 **If opponent over-commits to lasso and exposes their non-lasso arm or neck:**
-- Execute **[[Kimura from Standing]]** → [[Kimura Control]] (Probability: 45%)
+- Execute **[[Kimura from Standing]]** → [[Kimura Trap]] (Probability: 45%)
 - Execute **[[Smash Pass]]** → [[Side Control]] (Probability: 50%)
 
 
@@ -413,29 +346,7 @@ Start every round with partner in established lasso control. Full intensity spar
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
-
-### Counter Kimura from Lasso Top
-
-`Lasso Guard Top → Kimura from Standing → Kimura Control → Kimura`
-
-### Pass to Submission Chain
-
-`Lasso Guard Top → Knee Cut Pass → Side Control → Americana from Side Control`
-
-### Stack Pass to Mount Attacks
-
-`Lasso Guard Top → Stack Pass → Mount → Armbar from Mount`
-
-### Pressure Pass to North-South
-
-`Lasso Guard Top → Pressure Pass → North-South → North-South Choke`
-
-
-
-</section>
 
 <section id="position-metrics" class="content-section">
 
@@ -462,7 +373,7 @@ Start every round with partner in established lasso control. Full intensity spar
 - **[[Headquarters Position]]** - Transitional position often achieved when standing to disengage from lasso before completing pass
 - **[[Side Control]]** - Primary passing objective when successfully clearing lasso and completing guard pass
 - **[[Combat Base]]** - Essential posture for maintaining base and stability while dealing with lasso control and sweep threats
-- **[[Kimura Control]]** - Counter-attacking opportunity when opponent over-commits to lasso and exposes non-lasso arm
+- **[[Kimura Trap]]** - Counter-attacking opportunity when opponent over-commits to lasso and exposes non-lasso arm
 
 
 </section>

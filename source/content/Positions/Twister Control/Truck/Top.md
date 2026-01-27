@@ -21,37 +21,37 @@ description: "Dominant back-attack position combining leg entanglement with perp
     {
       "@type": "HowToStep",
       "name": "Execute Twister",
-      "text": "From this position, execute Twister to transition to Won by Submission. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Twister. This technique is attempted in 11% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Calf Slicer from Truck",
-      "text": "From this position, execute Calf Slicer from Truck to transition to Won by Submission. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Calf Slicer from Truck. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Banana Split",
-      "text": "From this position, execute Banana Split to transition to Won by Submission. Success rate for advanced practitioners: 45%.",
+      "text": "From this position, attempt Banana Split. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling Back Take",
-      "text": "From this position, execute Rolling Back Take to transition to Back Control. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 16% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bow and Arrow Choke",
-      "text": "From this position, execute Bow and Arrow Choke to transition to Won by Submission. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Bow and Arrow Choke. This technique is attempted in 11% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Crab Ride to Back",
-      "text": "From this position, execute Crab Ride to Back to transition to Crab Ride. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Crab Ride to Back. This technique is attempted in 14% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -160,7 +160,7 @@ description: "Dominant back-attack position combining leg entanglement with perp
 
 <section id="overview" class="content-section">
 
-Truck Top Position is a dominant back-attack variation where you control your opponent from behind with their legs entangled, using your boot (foot) pressed against their hip to create torque and control while hunting for twister, calf slicer, banana split, or back control finishes. Popularized by 10th Planet's and the 10th Planet Jiu-Jitsu system, this position represents an evolution of traditional back control that emphasizes leg entanglement and spinal attacks.
+Truck Top Position is a dominant back-attack variation where you control your opponent from behind with their legs entangled, using your boot (foot) pressed against their hip to create torque and control while hunting for twister, calf slicer, banana split, or back control finishes. Popularized within the 10th Planet Jiu-Jitsu system, this position represents an evolution of traditional back control that emphasizes leg entanglement and spinal attacks.
 
 The position's power comes from the dilemma it creates: defending the upper body (twister) exposes the lower body (calf slicer/banana split), while defending the lower body allows upper body attacks. This multiple-threat system makes the truck one of the highest finishing-rate positions in modern BJJ. The boot control is the engine of the position, creating the torque that enables all subsequent attacks. The position serves as both a submission hunting platform and a back control entry system.
 
@@ -213,93 +213,22 @@ Advanced practitioners use the truck as a transitional position, flowing between
 
 ## Available Attacks
 
-### [[Twister]] → [[Won by Submission]]
+### [[Twister]] (11% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
+### [[Calf Slicer from Truck]] (12% of attempts)
 
-### [[Calf Slicer from Truck]] → [[Won by Submission]]
+### [[Banana Split]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
+### [[Rolling Back Take]] (16% of attempts)
 
-### [[Banana Split]] → [[Won by Submission]]
+### [[Bow and Arrow Choke]] (11% of attempts)
 
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 45%
+### [[Crab Ride to Back]] (14% of attempts)
 
-### [[Rolling Back Take]] → [[Back Control]]
+### [[Crucifix from Turtle]] (13% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Side Control to Mount]] (13% of attempts)
 
-### [[Bow and Arrow Choke]] → [[Won by Submission]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
-
-### [[Crab Ride to Back]] → [[Crab Ride]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 65%
-
-### [[Crucifix from Turtle]] → [[Crucifix]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[Transition to Mount]] → [[Mount]]
-
-**Success Rates:**
-- Beginner: 28%
-- Intermediate: 45%
-- Advanced: 58%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Hip Escape]]** → [[Turtle]] (Opponent Success: 25%)
-- **[[Rolling Through Escape]]** → [[Scramble Position]] (Opponent Success: 30%)
-- **[[Boot Clear and Re-guard]]** → [[Open Guard]] (Opponent Success: 20%)
-- **[[Leg Straightening Defense]]** → [[Turtle]] (Opponent Success: 35%)
-- **[[Forward Roll Escape]]** → [[Dogfight Position]] (Opponent Success: 15%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Boot Re-establishment]]** → [[Truck]]
-  - Opponent attempts to clear boot pressure
-- **[[Switch to Back Control]]** → [[Back Control]]
-  - Opponent begins rolling through to escape
-- **[[Calf Slicer Attack]]** → [[Won by Submission]]
-  - Opponent defends upper body twister threat
-- **[[Twister Attack]]** → [[Won by Submission]]
-  - Opponent focuses defense on lower body
-- **[[Transition to Mount]]** → [[Mount]]
-  - Opponent turtles up to defend submissions
 
 
 </section>
@@ -309,28 +238,28 @@ Advanced practitioners use the truck as a transitional position, flowing between
 ## Decision Making from This Position
 
 **If opponent defends upper body by hiding arms and protecting neck:**
-- Execute **[[Calf Slicer from Truck]]** → [[Won by Submission]] (Probability: 55%)
-- Execute **[[Banana Split]]** → [[Won by Submission]] (Probability: 45%)
+- Execute **[[Calf Slicer from Truck]]** → [[game-over]] (Probability: 55%)
+- Execute **[[Banana Split]]** → [[game-over]] (Probability: 45%)
 
 
 **Else if opponent defends lower body by straightening legs or clearing hooks:**
-- Execute **[[Twister]]** → [[Won by Submission]] (Probability: 50%)
-- Execute **[[Bow and Arrow Choke]]** → [[Won by Submission]] (Probability: 40%)
+- Execute **[[Twister]]** → [[game-over]] (Probability: 50%)
+- Execute **[[Bow and Arrow Choke]]** → [[game-over]] (Probability: 50%)
 
 
 **Else if opponent attempts to roll through or forward roll escape:**
-- Execute **[[Rolling Back Take]]** → [[Back Control]] (Probability: 65%)
-- Execute **[[Crucifix from Turtle]]** → [[Crucifix]] (Probability: 50%)
+- Execute **[[Rolling Back Take]]** → [[Back Control]] (Probability: 55%)
+- Execute **[[Crucifix from Turtle]]** → [[Crucifix]] (Probability: 45%)
 
 
 **Else if opponent clears boot pressure and begins to escape leg entanglement:**
-- Execute **[[Truck Entry]]** → [[Back Control]] (Probability: 60%)
-- Execute **[[Transition to Mount]]** → [[Mount]] (Probability: 45%)
+- Execute **[[Truck Entry]]** → [[Back Control]] (Probability: 55%)
+- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 45%)
 
 
 **Else if opponent turtles up or attempts to stand:**
-- Execute **[[Turtle to Back Take]]** → [[Back Control]] (Probability: 70%)
-- Execute **[[Kimura from Turtle]]** → [[Kimura Control]] (Probability: 50%)
+- Execute **[[Turtle to Back Take]]** → [[Back Control]] (Probability: 60%)
+- Execute **[[Kimura from Turtle]]** → [[Kimura Trap]] (Probability: 40%)
 
 
 
@@ -411,33 +340,39 @@ Start in established truck position. Top player works for submissions and positi
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Highest Percentage Path (Calf Slicer Focus)
+## Test Your Knowledge
 
-`Turtle → Truck Entry → Truck → Calf Slicer from Truck → Won by Submission`
+**Q1**: What is the primary control mechanism that makes the truck position effective?
+**A**: The boot pressure (foot pressed against opponent's hip or thigh) is the primary control mechanism. It creates constant lateral torque that prevents the opponent from squaring up, rolling through, or achieving neutral posture. The boot acts as a fulcrum point that generates rotational force through the opponent's spine and lower body, enabling all subsequent submission attacks.
 
-### Advanced Spinal Attack Path
+**Q2**: Your opponent starts defending their neck and hiding their arms - what adjustment do you make?
+**A**: When the opponent prioritizes upper body defense by hiding arms and protecting their neck from the twister, immediately redirect your attack to the lower body. Target the calf slicer by extending their trapped leg and applying compression pressure, or set up the banana split by controlling both legs and creating separation. This creates the core dilemma of the truck position.
 
-`Crab Ride → Transition to Truck → Truck → Twister → Won by Submission`
+**Q3**: How should you distribute your weight to maintain truck position against an escaping opponent?
+**A**: Weight should be distributed through your chest or shoulder against the opponent's upper back while maintaining constant boot pressure on their hip. Avoid putting weight too far forward (allows roll-through) or too far back (reduces control). The key is staying perpendicular with connected pressure points at both the upper body (chest/shoulder) and lower body (boot) simultaneously.
 
-### Groin Attack Path
+**Q4**: What are the essential grips for maintaining truck position?
+**A**: Essential grips include: your boot foot controlling their hip creating the foundational torque, your legs entangled with their trapped leg preventing straightening, and your arm controlling across their chest, shoulder, or around their neck for upper body connection. In no-gi, an underhook or overhook on their near arm supplements control.
 
-`Back Control → Rolling to Truck → Truck → Banana Split → Won by Submission`
+**Q5**: When opponent begins a granby roll escape, what is your counter?
+**A**: When the opponent initiates a granby roll, you have two primary options: follow their roll and transition to traditional back control by inserting your hooks during their rotation, or if you feel them generating significant momentum, switch to the crucifix by catching their far arm as they roll. The key is recognizing the roll early and choosing to flow with it rather than fighting against it.
 
-### Back Control Transition Path
+**Q6**: How do you prevent your opponent from straightening their trapped leg to escape?
+**A**: Maintain constant inward pressure with your entangling leg, keeping their knee bent by hooking behind their knee joint or locking your feet together. If they begin straightening, immediately attack the calf slicer or transition to the banana split, which uses their straightening motion against them. You can also increase boot pressure to restrict their hip movement needed for leg extension.
 
-`Truck → Rolling Back Take → Back Control → Rear Naked Choke → Won by Submission`
+**Q7**: What determines when to transition from truck to traditional back control?
+**A**: Transition to back control when: submissions aren't presenting due to effective defense, the opponent's escape attempts are creating scramble situations, you're losing boot pressure and need to consolidate control, or when you've created enough rotation to easily insert hooks. The truck should flow into back control rather than being an isolated position.
 
-### Crucifix Development Path
-
-`Truck → Crucifix from Turtle → Crucifix → Armbar from Crucifix → Won by Submission`
+**Q8**: How do you manage energy expenditure while maintaining truck position?
+**A**: Use skeletal structure rather than muscular effort by positioning your body weight to create pressure without constant tension. Maintain boot pressure through leg positioning rather than pushing. Work submissions methodically rather than frantically. Let the opponent's defensive reactions guide your attacks rather than forcing entries. Rest in control moments between attack sequences.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -464,10 +399,10 @@ Start in established truck position. Top player works for submissions and positi
 - **[[Turtle]]** - Entry position - turtle attacks lead to truck
 - **[[Twister Control]]** - Submission position - primary attack from truck
 - **[[Crucifix]]** - Transition target - alternative control position
-- **[[Twister System]]** - Expert system - 10th Planet's comprehensive truck system
-- **[[10th Planet No-Gi Guard System]]** - Expert system - broader context for truck position
-- **[[Control Maintenance]]** - Core principle - essential for position retention
-- **[[Off-Balancing]]** - Core principle - boot pressure creates off-balancing
+- **[[Twister]]** - Primary submission technique from this position
+- **[[Calf Slicer from Truck]]** - Secondary submission attacking trapped leg
+- **[[Banana Split]]** - Alternative submission from truck position
+- **[[Rolling Back Take]]** - Transition technique when opponent rolls
 
 
 </section>

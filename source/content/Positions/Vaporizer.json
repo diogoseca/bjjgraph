@@ -22,7 +22,7 @@
       "relationship": "Primary submission target from Vaporizer control"
     },
     {
-      "name": "Truck",
+      "name": "Twister Control",
       "relationship": "Advanced positional transition for back attack sequences"
     },
     {
@@ -46,333 +46,6 @@
       "relationship": "Related half guard variant with leg control emphasis"
     }
   ],
-  "bottom": {
-    "name": "Vaporizer Bottom",
-    "description": "Master Vaporizer bottom position in BJJ. 10th Planet innovation for lockdown control with transitions to sweeps and submissions. Beginner 45%, Intermediate 60%, Advanced 75% success.",
-    "tags": [
-      "bjj",
-      "position",
-      "vaporizer",
-      "10th-planet",
-      "lockdown",
-      "half-guard-bottom",
-      "eddie-10th Planet",
-      "innovative",
-      "controlling"
-    ],
-    "overview": "The Vaporizer bottom position is an advanced controlling position within the 10th Planet system, representing a strategic extension of the lockdown half guard. This position is characterized by establishing a deep lockdown while simultaneously creating a powerful whip-up motion that forces the opponent onto their side or back. The practitioner uses the lockdown to control the opponent's leg while employing an underhook or overhook to manipulate their upper body, creating a mechanical advantage that makes escape extremely difficult.\n\nThe Vaporizer serves as a gateway position within the 10th Planet methodology, offering multiple pathways to sweeps, back takes, and submission opportunities. Unlike traditional half guard approaches that focus primarily on distance management, the Vaporizer emphasizes extreme proximity and pressure, using the lockdown to break down the opponent's base while the upper body control creates attacking opportunities. This position is particularly effective in no-gi grappling where traditional gi grips are unavailable, forcing practitioners to rely on body positioning and structural control.\n\nThe effectiveness of the Vaporizer lies in its ability to force reactions from opponents. By creating an uncomfortable position with the whip-up motion and lockdown pressure, defenders are compelled to make defensive choices that often expose them to further attacks. Whether transitioning to the Electric Chair, advancing to the Truck position, or sweeping to dominant positions, the Vaporizer exemplifies the systematic approach to position advancement that defines modern no-gi BJJ strategy.",
-    "state_properties": {
-      "point_value": 0,
-      "position_type": "Offensive/Controlling",
-      "risk_level": "Medium",
-      "energy_cost": "Medium",
-      "time_sustainability": "Medium"
-    },
-    "state_invariants": [
-      "Lockdown established on one leg with bottom practitioner's legs intertwined around opponent's trapped leg, creating structural control through the figure-four configuration that prevents leg extraction",
-      "Underhook or overhook secured on opponent's upper body, typically with the arm threading under the opponent's arm or wrapping over their shoulder to create leverage for the whip-up motion",
-      "Opponent's posture broken and weight shifted to one side, with their trapped leg extended and their upper body compromised, preventing them from establishing a stable base",
-      "Bottom practitioner's hips actively driving forward and upward, creating constant pressure that forces opponent's weight onto their hands or side rather than allowing stable posting",
-      "Opponent positioned between full combat base and being rolled to their side, maintaining enough instability to prevent effective defense while setting up transition opportunities"
-    ],
-    "prerequisites": [
-      "Lockdown secured on one of opponent's legs with figure-four leg configuration",
-      "Opponent in or transitioning from half guard top position",
-      "Underhook or overhook control established on opponent's upper body",
-      "Ability to generate hip pressure and whip-up motion",
-      "Opponent's base compromised enough to prevent immediate posture recovery"
-    ],
-    "key_principles": [
-      "Maintain constant lockdown pressure by extending the trapped leg away from opponent's body while keeping the lock tight",
-      "Use whip-up motion by driving hips forward and upward to break opponent's posture and force weight distribution onto their hands",
-      "Coordinate upper body control with lockdown pressure, using underhook or overhook to prevent opponent from creating distance",
-      "Keep opponent's weight shifting between their hands and their side, never allowing them to establish stable combat base",
-      "Create dilemmas by threatening multiple attacks simultaneously - sweep if they post, submit if they stay heavy, advance to truck if they try to escape",
-      "Maintain close distance to prevent opponent from creating space to clear the lockdown or regain posture",
-      "Use active hip movement rather than static holding, constantly adjusting pressure to respond to opponent's defensive attempts"
-    ],
-    "offensive_transitions": [
-      {
-        "technique": "Old School Sweep",
-        "target_position": "Mount",
-        "success_rates": {
-          "beginner": 40,
-          "intermediate": 55,
-          "advanced": 70
-        }
-      },
-      {
-        "technique": "Transition to Truck",
-        "target_position": "Truck",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 50,
-          "advanced": 65
-        }
-      },
-      {
-        "technique": "Electric Chair Submission",
-        "target_position": "Electric Chair",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 45,
-          "advanced": 60
-        }
-      },
-      {
-        "technique": "Transition to Omoplata",
-        "target_position": "Omoplata Control",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 40,
-          "advanced": 55
-        }
-      },
-      {
-        "technique": "Rolling Back Take",
-        "target_position": "Back Control",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 45,
-          "advanced": 60
-        }
-      },
-      {
-        "technique": "Lockdown Sweeps",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 50,
-          "advanced": 65
-        }
-      }
-    ],
-    "defensive_responses": [
-      {
-        "technique": "Lockdown Defense",
-        "target_position": "Half Guard",
-        "success_rate": 35
-      },
-      {
-        "technique": "Whizzer",
-        "target_position": "Half Guard",
-        "success_rate": 40
-      },
-      {
-        "technique": "Base Widening",
-        "target_position": "Combat Base",
-        "success_rate": 30
-      },
-      {
-        "technique": "Pressure Pass",
-        "target_position": "Side Control",
-        "success_rate": 25
-      }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Electric Chair Submission",
-        "target_position": "Electric Chair",
-        "trigger": "Opponent tries to whizzer or pull leg free"
-      },
-      {
-        "technique": "Transition to Truck",
-        "target_position": "Truck",
-        "trigger": "Opponent posts hand to defend whip-up"
-      },
-      {
-        "technique": "Rolling Back Take",
-        "target_position": "Back Control",
-        "trigger": "Opponent commits weight forward to counter lockdown"
-      }
-    ],
-    "decision_tree": [
-      {
-        "condition": "If opponent maintains heavy pressure and resists whip-up motion with wide base",
-        "actions": [
-          {
-            "technique": "Electric Chair Submission",
-            "target": "Electric Chair",
-            "probability": 55
-          },
-          {
-            "technique": "Transition to Truck",
-            "target": "Truck",
-            "probability": 45
-          }
-        ]
-      },
-      {
-        "condition": "If opponent posts hand or attempts to create distance",
-        "actions": [
-          {
-            "technique": "Old School Sweep",
-            "target": "Mount",
-            "probability": 65
-          },
-          {
-            "technique": "Lockdown Sweeps",
-            "target": "Side Control",
-            "probability": 50
-          }
-        ]
-      },
-      {
-        "condition": "If opponent commits weight forward to counter lockdown pressure",
-        "actions": [
-          {
-            "technique": "Rolling Back Take",
-            "target": "Back Control",
-            "probability": 60
-          },
-          {
-            "technique": "Transition to Omoplata",
-            "target": "Omoplata Control",
-            "probability": 45
-          }
-        ]
-      },
-      {
-        "condition": "If opponent successfully widens base and prevents whip-up",
-        "actions": [
-          {
-            "technique": "Transition to Truck",
-            "target": "Truck",
-            "probability": 50
-          },
-          {
-            "technique": "Electric Chair Submission",
-            "target": "Electric Chair",
-            "probability": 40
-          }
-        ]
-      }
-    ],
-    "common_errors": [
-      {
-        "error": "Failing to maintain constant lockdown pressure and allowing opponent's leg to relax",
-        "consequence": "Opponent can extract their leg, regain posture, and escape back to standard half guard top or pass completely",
-        "correction": "Continuously extend the trapped leg away while keeping the lockdown tight, never allowing slack in the configuration"
-      },
-      {
-        "error": "Attempting whip-up motion without proper upper body control secured first",
-        "consequence": "Opponent can base out with their arms, maintain posture, and counter the sweep attempt while retaining top position",
-        "correction": "Establish firm underhook or overhook before initiating whip-up, ensuring upper body control prevents opponent from posting effectively"
-      },
-      {
-        "error": "Using only arm strength for the whip-up instead of coordinating hips and core",
-        "consequence": "Technique becomes ineffective and exhausting, allowing opponent to weather the pressure and eventually escape or pass",
-        "correction": "Drive the whip-up motion from the hips and core, using the underhook as a guide rather than the primary source of power"
-      },
-      {
-        "error": "Maintaining static position without creating movement or threatening transitions",
-        "consequence": "Opponent can settle into defensive posture, wait for fatigue, and methodically work to clear the lockdown",
-        "correction": "Constantly threaten multiple attacks - sweeps, submissions, and transitions - to keep opponent reactive and prevent them from mounting organized defense"
-      },
-      {
-        "error": "Allowing too much distance between bodies during the control phase",
-        "consequence": "Opponent creates space to clear the lockdown, regain posture, or begin passing sequence",
-        "correction": "Maintain tight connection with chest-to-chest or chest-to-side contact, using lockdown and underhook to eliminate space"
-      },
-      {
-        "error": "Committing fully to one attack without reading opponent's defensive reactions",
-        "consequence": "Opponent can focus all defensive energy on stopping single threat, potentially reversing position or escaping",
-        "correction": "Use feints and multi-attack sequences, transitioning between threats based on how opponent defends each attempt"
-      }
-    ],
-    "training_drills": [
-      {
-        "name": "Lockdown Maintenance Drill",
-        "description": "Partner starts in half guard top with good posture. Bottom practitioner establishes lockdown and practices maintaining it while partner attempts various escape methods. Focus on keeping constant pressure and preventing leg extraction. Perform 5-minute rounds switching roles.",
-        "duration": "5 minutes per round"
-      },
-      {
-        "name": "Whip-Up Repetition Drill",
-        "description": "From lockdown with underhook secured, practice the whip-up motion repeatedly without completing the sweep. Partner provides 50% resistance. Focus on hip drive, timing, and coordination between lockdown pressure and upper body control. Perform 20 repetitions per side.",
-        "duration": "10 minutes"
-      },
-      {
-        "name": "Vaporizer Transition Flow",
-        "description": "Start in Vaporizer position and flow through all primary transitions: Electric Chair threat, Truck entry, Old School sweep, back take. Partner provides progressive resistance (25%, 50%, 75%). Complete 3 full cycles at each resistance level before increasing.",
-        "duration": "15 minutes"
-      },
-      {
-        "name": "Attack Chain Drill",
-        "description": "From Vaporizer, attempt Old School sweep. When partner defends, immediately transition to Electric Chair. If they counter that, move to Truck position. Practice reading reactions and flowing between attacks. Perform 10 complete chains per side.",
-        "duration": "15 minutes"
-      }
-    ],
-    "optimal_submission_paths": [
-      {
-        "name": "Electric Chair Path",
-        "path": "Vaporizer Bottom → Electric Chair → Electric Chair Submission"
-      },
-      {
-        "name": "Truck to Twister Path",
-        "path": "Vaporizer Bottom → Truck → Twister Control → Twister"
-      },
-      {
-        "name": "Back Attack Path",
-        "path": "Vaporizer Bottom → Rolling Back Take → Back Control → Rear Naked Choke"
-      },
-      {
-        "name": "Omoplata Finish Path",
-        "path": "Vaporizer Bottom → Transition to Omoplata → Omoplata Control → Omoplata"
-      }
-    ],
-    "related_content": [
-      {
-        "name": "Lockdown",
-        "relationship": "Parent position providing foundational control"
-      },
-      {
-        "name": "Electric Chair",
-        "relationship": "Primary submission transition"
-      },
-      {
-        "name": "Truck",
-        "relationship": "Advanced transition target"
-      },
-      {
-        "name": "Half Guard",
-        "relationship": "Foundational position"
-      },
-      {
-        "name": "Old School",
-        "relationship": "Primary sweep position"
-      },
-      {
-        "name": "10th Planet Half Guard Bottom System",
-        "relationship": "Parent system methodology"
-      },
-      {
-        "name": "Rubber Guard",
-        "relationship": "Related 10th Planet position"
-      },
-      {
-        "name": "Deep Half Guard",
-        "relationship": "Alternative half guard approach"
-      }
-    ],
-    "position_metrics": {
-      "retention_rate": {
-        "beginner": 50,
-        "intermediate": 65,
-        "advanced": 80
-      },
-      "advancement_probability": {
-        "beginner": 45,
-        "intermediate": 60,
-        "advanced": 75
-      },
-      "submission_probability": {
-        "beginner": 30,
-        "intermediate": 45,
-        "advanced": 60
-      },
-      "average_time": "45-90 seconds before transition"
-    }
-  },
   "top": {
     "name": "Vaporizer Top",
     "description": "Master Vaporizer top defense in BJJ. Complete guide to escaping lockdown whip-up control with counters and passes. Beginner 30%, Intermediate 45%, Advanced 60% escape success.",
@@ -417,109 +90,38 @@
       "Systematically break upper body control while maintaining defensive leg positioning to prevent Electric Chair or Truck transitions",
       "Recognize attack patterns and preemptively defend based on bottom opponent's grip adjustments and hip movements"
     ],
-    "offensive_transitions": [
+    "knowledge_assessment": [
       {
-        "technique": "Half Guard Pass",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 40,
-          "advanced": 55
-        }
+        "question": "Your opponent initiates a strong whip-up motion and you feel your weight shifting laterally - what is your immediate defensive response?",
+        "answer": "Immediately widen your base by sprawling your free leg out to the side and lowering your hips toward the mat. Drive heavy shoulder pressure into opponent's chest while keeping your trapped leg as heavy as possible. Avoid the instinct to post your hand close to their hip, as this creates a leverage point for the Old School sweep. Your goal is to become too heavy and wide to roll."
       },
       {
-        "technique": "Knee Slice Pass",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 20,
-          "intermediate": 35,
-          "advanced": 50
-        }
+        "question": "What are the essential control points you must break to escape the Vaporizer position from top?",
+        "answer": "You must systematically break two primary control points: the lockdown leg entanglement and the upper body control (underhook or overhook). The lockdown controls your leg mobility and creates the mechanical foundation for all their attacks. The underhook provides the leverage for the whip-up motion and sweep attempts. Address both simultaneously - clearing only the lockdown while they maintain the underhook still leaves you vulnerable."
       },
       {
-        "technique": "Smash Pass",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 20,
-          "intermediate": 35,
-          "advanced": 50
-        }
+        "question": "How should you distribute your weight when defending against the Electric Chair submission threat?",
+        "answer": "Keep your weight back and toward your hips rather than committing forward. If you drive your weight forward aggressively, you play directly into the Electric Chair setup because your hips become elevated and easier to manipulate. Instead, maintain heavy shoulder pressure while keeping your hips mobile and ready to adjust. The Electric Chair requires them to elevate and split your legs - staying heavy with distributed weight prevents this."
       },
       {
-        "technique": "Pressure Pass",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 40,
-          "advanced": 55
-        }
+        "question": "Your opponent's lockdown feels tight and you cannot extract your leg - what systematic approach should you use?",
+        "answer": "Use controlled leg circulation movements rather than explosive yanking. Point your trapped knee toward the mat to make your leg narrow and harder to control. Shift your weight side to side while maintaining pressure on their upper body. Create small amounts of space through hip adjustments and gradually work your heel toward your buttocks. Patience is essential - explosive extraction attempts tighten their lockdown reflexively and waste your energy."
       },
       {
-        "technique": "Base Widening",
-        "target_position": "Combat Base",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 50,
-          "advanced": 65
-        }
+        "question": "When is the optimal time to transition to a passing sequence after partially clearing the lockdown?",
+        "answer": "Transition when you have addressed BOTH the lockdown loosening AND neutralized their underhook control. If you attempt to pass with only the lockdown cleared but their underhook intact, they can immediately re-establish the lockdown or transition to other attacks like back takes. Wait until you have established a whizzer or crossface control that prevents their upper body manipulation, then flow into your knee slice or pressure passing sequence."
       },
       {
-        "technique": "Whizzer",
-        "target_position": "Half Guard",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 45,
-          "advanced": 60
-        }
-      }
-    ],
-    "defensive_responses": [
-      {
-        "technique": "Old School Sweep",
-        "target_position": "Mount",
-        "success_rate": 55
+        "question": "Your opponent posts their hand to attempt the Old School sweep - how do you recognize and counter this?",
+        "answer": "The Old School sweep requires them to post their outside foot and drive off it while using their underhook. When you feel them shift to post their foot and their underhook pressure increases, immediately widen your base in the opposite direction of their intended sweep. Drive your crossface pressure harder to limit their bridging power. Consider transitioning to a passing angle that takes away their leverage - moving toward their head rather than fighting against the sweep direction."
       },
       {
-        "technique": "Electric Chair Submission",
-        "target_position": "Electric Chair",
-        "success_rate": 45
+        "question": "How do you manage energy expenditure when trapped in the Vaporizer position for extended periods?",
+        "answer": "Avoid explosive movements that create space and waste energy while accomplishing nothing. Use steady, constant pressure rather than burst-and-rest patterns. Maintain your defensive positioning through small adjustments rather than dramatic repositioning. Keep controlled breathing to prevent cardiovascular fatigue. The bottom player wants you to explosively resist - this creates the space they need. Patient, grinding defense is more sustainable and eventually creates opportunities as they fatigue from maintaining the whip-up pressure."
       },
       {
-        "technique": "Transition to Truck",
-        "target_position": "Truck",
-        "success_rate": 50
-      },
-      {
-        "technique": "Rolling Back Take",
-        "target_position": "Back Control",
-        "success_rate": 40
-      },
-      {
-        "technique": "Lockdown Sweeps",
-        "target_position": "Side Control",
-        "success_rate": 50
-      }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Whizzer",
-        "target_position": "Half Guard",
-        "trigger": "Opponent attempts underhook-based whip-up motion"
-      },
-      {
-        "technique": "Smash Pass",
-        "target_position": "Side Control",
-        "trigger": "Opponent's lockdown temporarily loosens"
-      },
-      {
-        "technique": "Base Widening",
-        "target_position": "Combat Base",
-        "trigger": "Opponent initiates sweep attempt"
-      },
-      {
-        "technique": "Pressure Pass",
-        "target_position": "Side Control",
-        "trigger": "Lockdown is successfully cleared"
+        "question": "Your partial escape attempt opened space and now your opponent is transitioning toward the Truck position - what is your recovery protocol?",
+        "answer": "Immediately abandon the escape attempt and address the Truck entry. Turn your hips toward them rather than away to prevent them from securing the far leg hook needed for Truck control. Establish a whizzer on their underhook arm and drive your shoulder pressure into their head. If they begin to secure the leg triangle, you must either complete the escape immediately or accept the positional setback and defend from Truck rather than getting stuck in transition."
       }
     ],
     "decision_tree": [
@@ -549,7 +151,7 @@
           {
             "technique": "Smash Pass",
             "target": "Side Control",
-            "probability": 45
+            "probability": 50
           }
         ]
       },
@@ -579,7 +181,7 @@
           {
             "technique": "Half Guard Pass",
             "target": "Side Control",
-            "probability": 50
+            "probability": 45
           }
         ]
       }
@@ -643,20 +245,6 @@
         "duration": "10 minutes"
       }
     ],
-    "optimal_submission_paths": [
-      {
-        "name": "Defense to Pass Path",
-        "path": "Vaporizer Top → Base Widening → Combat Base → Half Guard Pass → Side Control"
-      },
-      {
-        "name": "Whizzer Counter Path",
-        "path": "Vaporizer Top → Whizzer → Half Guard → Knee Slice Pass → Side Control"
-      },
-      {
-        "name": "Pressure Escape Path",
-        "path": "Vaporizer Top → Smash Pass → Pressure Pass → Side Control → Mount"
-      }
-    ],
     "related_content": [
       {
         "name": "Vaporizer",
@@ -687,12 +275,12 @@
         "relationship": "Primary escape technique"
       },
       {
-        "name": "Whizzer",
-        "relationship": "Primary defensive control"
+        "name": "Smash Pass",
+        "relationship": "Pressure passing escape option"
       },
       {
-        "name": "10th Planet Half Guard Bottom System",
-        "relationship": "Opponent's attacking system"
+        "name": "Knee Slice Pass",
+        "relationship": "Technical escape technique"
       }
     ],
     "position_metrics": {
@@ -712,6 +300,305 @@
         "advanced": 15
       },
       "average_time": "60-120 seconds to escape or be swept/submitted"
-    }
+    },
+    "transitions": [
+      {
+        "transition": "Half Guard Pass",
+        "attempt_probability": 17
+      },
+      {
+        "transition": "Knee Slice Pass",
+        "attempt_probability": 17
+      },
+      {
+        "transition": "Smash Pass",
+        "attempt_probability": 17
+      },
+      {
+        "transition": "Pressure Pass",
+        "attempt_probability": 17
+      },
+      {
+        "transition": "Lockdown Escape to Half Guard Pass",
+        "attempt_probability": 16
+      },
+      {
+        "transition": "Whizzer",
+        "attempt_probability": 16
+      }
+    ]
+  },
+  "bottom": {
+    "name": "Vaporizer Bottom",
+    "description": "Master Vaporizer bottom position in BJJ. 10th Planet innovation for lockdown control with transitions to sweeps and submissions. Beginner 45%, Intermediate 60%, Advanced 75% success.",
+    "tags": [
+      "bjj",
+      "position",
+      "vaporizer",
+      "10th-planet",
+      "lockdown",
+      "half-guard-bottom",
+      "innovative",
+      "controlling"
+    ],
+    "overview": "The Vaporizer bottom position is an advanced controlling position within the 10th Planet system, representing a strategic extension of the lockdown half guard. This position is characterized by establishing a deep lockdown while simultaneously creating a powerful whip-up motion that forces the opponent onto their side or back. The practitioner uses the lockdown to control the opponent's leg while employing an underhook or overhook to manipulate their upper body, creating a mechanical advantage that makes escape extremely difficult.\n\nThe Vaporizer serves as a gateway position within the 10th Planet methodology, offering multiple pathways to sweeps, back takes, and submission opportunities. Unlike traditional half guard approaches that focus primarily on distance management, the Vaporizer emphasizes extreme proximity and pressure, using the lockdown to break down the opponent's base while the upper body control creates attacking opportunities. This position is particularly effective in no-gi grappling where traditional gi grips are unavailable, forcing practitioners to rely on body positioning and structural control.\n\nThe effectiveness of the Vaporizer lies in its ability to force reactions from opponents. By creating an uncomfortable position with the whip-up motion and lockdown pressure, defenders are compelled to make defensive choices that often expose them to further attacks. Whether transitioning to the Electric Chair, advancing to the Truck position, or sweeping to dominant positions, the Vaporizer exemplifies the systematic approach to position advancement that defines modern no-gi BJJ strategy.",
+    "state_properties": {
+      "point_value": 0,
+      "position_type": "Offensive/Controlling",
+      "risk_level": "Medium",
+      "energy_cost": "Medium",
+      "time_sustainability": "Medium"
+    },
+    "state_invariants": [
+      "Lockdown established on one leg with bottom practitioner's legs intertwined around opponent's trapped leg, creating structural control through the figure-four configuration that prevents leg extraction",
+      "Underhook or overhook secured on opponent's upper body, typically with the arm threading under the opponent's arm or wrapping over their shoulder to create leverage for the whip-up motion",
+      "Opponent's posture broken and weight shifted to one side, with their trapped leg extended and their upper body compromised, preventing them from establishing a stable base",
+      "Bottom practitioner's hips actively driving forward and upward, creating constant pressure that forces opponent's weight onto their hands or side rather than allowing stable posting",
+      "Opponent positioned between full combat base and being rolled to their side, maintaining enough instability to prevent effective defense while setting up transition opportunities"
+    ],
+    "prerequisites": [
+      "Lockdown secured on one of opponent's legs with figure-four leg configuration",
+      "Opponent in or transitioning from half guard top position",
+      "Underhook or overhook control established on opponent's upper body",
+      "Ability to generate hip pressure and whip-up motion",
+      "Opponent's base compromised enough to prevent immediate posture recovery"
+    ],
+    "key_principles": [
+      "Maintain constant lockdown pressure by extending the trapped leg away from opponent's body while keeping the lock tight",
+      "Use whip-up motion by driving hips forward and upward to break opponent's posture and force weight distribution onto their hands",
+      "Coordinate upper body control with lockdown pressure, using underhook or overhook to prevent opponent from creating distance",
+      "Keep opponent's weight shifting between their hands and their side, never allowing them to establish stable combat base",
+      "Create dilemmas by threatening multiple attacks simultaneously - sweep if they post, submit if they stay heavy, advance to truck if they try to escape",
+      "Maintain close distance to prevent opponent from creating space to clear the lockdown or regain posture",
+      "Use active hip movement rather than static holding, constantly adjusting pressure to respond to opponent's defensive attempts"
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "Your opponent begins to widen their base to resist your whip-up motion - how do you adjust your lockdown pressure to maintain control?",
+        "answer": "When opponent widens their base, increase the extension of their trapped leg by driving your lockdown legs away from your body while pulling them closer with your underhook. This creates opposing forces that compromise their widened base. Additionally, angle your hips slightly toward their trapped leg side to maximize the lateral pressure. A widened base actually exposes them to the Electric Chair - use their defensive posture against them."
+      },
+      {
+        "question": "What are the essential grips required for maintaining the Vaporizer position and creating effective attacks?",
+        "answer": "The two essential grips are the lockdown leg configuration and the underhook. The lockdown must be tight with your top leg's foot hooked behind your bottom leg, creating a figure-four that traps their leg. The underhook should be deep, reaching their far shoulder blade or lat, providing leverage for the whip-up motion. Without both grips working together, the position loses its effectiveness - the lockdown alone can be weathered, and the underhook alone allows them to extract their leg."
+      },
+      {
+        "question": "How do you shut down your opponent's primary escape attempt when they try to establish a whizzer?",
+        "answer": "When they establish a whizzer, immediately drive your underhook deeper and pull yourself tighter to their body, eliminating the space the whizzer needs to be effective. Simultaneously increase your lockdown pressure to prevent them from using the whizzer to create distance. If their whizzer is strong, this actually sets up the Electric Chair perfectly - their whizzer commitment prevents them from defending the leg split. Transition to Electric Chair by releasing the lockdown and controlling their far leg."
+      },
+      {
+        "question": "What is the proper hip movement sequence for executing an effective whip-up motion?",
+        "answer": "The whip-up motion starts from your core and hips, not your arms. Drive your hips forward and upward toward opponent's chest while simultaneously extending their trapped leg away with your lockdown. Your underhook pulls them toward you as your hips rise. Think of trying to touch your hips to their armpit while extending their leg behind you. The motion should be rhythmic and continuous - multiple smaller whip-ups are more effective than one explosive attempt."
+      },
+      {
+        "question": "Your opponent posts their hand on the mat to prevent being swept - how do you capitalize on this defensive reaction?",
+        "answer": "When they post their hand, they've created the setup for the Old School sweep. Their posted hand becomes a fixed point you can sweep around. Drive your outside foot to the mat behind you and bridge toward their posted hand while pulling with your underhook. Their post prevents them from basing in that direction, making the sweep high percentage. If they remove the post to defend, immediately return to the whip-up motion - they cannot defend both simultaneously."
+      },
+      {
+        "question": "How do you apply pressure effectively without exhausting yourself when your opponent is defending well?",
+        "answer": "Use structural pressure rather than muscular effort. Let your body weight do the work through proper positioning - chest tight to their side, hips driving forward, lockdown extending their leg using your leg weight. Maintain rhythmic breathing and avoid holding your breath during whip-up attempts. Create pressure through angles and leverage rather than squeezing or pulling harder. Rest between attack attempts by simply maintaining the position with good structure rather than constantly exploding."
+      },
+      {
+        "question": "Your opponent manages to partially extract their leg from the lockdown - what is your recovery protocol?",
+        "answer": "Immediately re-establish the lockdown before they fully clear by hooking your top foot back behind your bottom leg. If they've created significant space, temporarily transition to a traditional half guard hook and work to re-establish the lockdown from there. Maintain your underhook throughout - losing the underhook while they're clearing the lockdown gives up the position entirely. Use your underhook to pull yourself back into tight proximity where you can re-lock your legs."
+      },
+      {
+        "question": "When should you transition from the Vaporizer to the Electric Chair versus continuing with sweep attempts?",
+        "answer": "Transition to Electric Chair when opponent commits their weight backward to resist the whip-up or establishes a strong whizzer. Their backward weight commitment makes leg separation easier. Also transition when they flatten out and become difficult to sweep laterally - the Electric Chair works by splitting their legs rather than rolling them. Continue with sweep attempts when they stay light, post their hands, or maintain high posture - these reactions favor the Old School sweep and other lateral attacks."
+      }
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent maintains heavy pressure and resists whip-up motion with wide base",
+        "actions": [
+          {
+            "technique": "Electric Chair Submission",
+            "target": "Electric Chair",
+            "probability": 55
+          },
+          {
+            "technique": "Turtle to Truck",
+            "target": "Twister Control",
+            "probability": 45
+          }
+        ]
+      },
+      {
+        "condition": "If opponent posts hand or attempts to create distance",
+        "actions": [
+          {
+            "technique": "Old School Sweep",
+            "target": "Mount",
+            "probability": 60
+          },
+          {
+            "technique": "Lockdown Sweeps",
+            "target": "Side Control",
+            "probability": 40
+          }
+        ]
+      },
+      {
+        "condition": "If opponent commits weight forward to counter lockdown pressure",
+        "actions": [
+          {
+            "technique": "Half Guard to Back Take",
+            "target": "Back Control",
+            "probability": 55
+          },
+          {
+            "technique": "Closed Guard to Omoplata",
+            "target": "Omoplata Control",
+            "probability": 45
+          }
+        ]
+      },
+      {
+        "condition": "If opponent successfully widens base and prevents whip-up",
+        "actions": [
+          {
+            "technique": "Turtle to Truck",
+            "target": "Twister Control",
+            "probability": 50
+          },
+          {
+            "technique": "Electric Chair Submission",
+            "target": "Electric Chair",
+            "probability": 50
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Failing to maintain constant lockdown pressure and allowing opponent's leg to relax",
+        "consequence": "Opponent can extract their leg, regain posture, and escape back to standard half guard top or pass completely",
+        "correction": "Continuously extend the trapped leg away while keeping the lockdown tight, never allowing slack in the configuration"
+      },
+      {
+        "error": "Attempting whip-up motion without proper upper body control secured first",
+        "consequence": "Opponent can base out with their arms, maintain posture, and counter the sweep attempt while retaining top position",
+        "correction": "Establish firm underhook or overhook before initiating whip-up, ensuring upper body control prevents opponent from posting effectively"
+      },
+      {
+        "error": "Using only arm strength for the whip-up instead of coordinating hips and core",
+        "consequence": "Technique becomes ineffective and exhausting, allowing opponent to weather the pressure and eventually escape or pass",
+        "correction": "Drive the whip-up motion from the hips and core, using the underhook as a guide rather than the primary source of power"
+      },
+      {
+        "error": "Maintaining static position without creating movement or threatening transitions",
+        "consequence": "Opponent can settle into defensive posture, wait for fatigue, and methodically work to clear the lockdown",
+        "correction": "Constantly threaten multiple attacks - sweeps, submissions, and transitions - to keep opponent reactive and prevent them from mounting organized defense"
+      },
+      {
+        "error": "Allowing too much distance between bodies during the control phase",
+        "consequence": "Opponent creates space to clear the lockdown, regain posture, or begin passing sequence",
+        "correction": "Maintain tight connection with chest-to-chest or chest-to-side contact, using lockdown and underhook to eliminate space"
+      },
+      {
+        "error": "Committing fully to one attack without reading opponent's defensive reactions",
+        "consequence": "Opponent can focus all defensive energy on stopping single threat, potentially reversing position or escaping",
+        "correction": "Use feints and multi-attack sequences, transitioning between threats based on how opponent defends each attempt"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Lockdown Maintenance Drill",
+        "description": "Partner starts in half guard top with good posture. Bottom practitioner establishes lockdown and practices maintaining it while partner attempts various escape methods. Focus on keeping constant pressure and preventing leg extraction. Perform 5-minute rounds switching roles.",
+        "duration": "5 minutes per round"
+      },
+      {
+        "name": "Whip-Up Repetition Drill",
+        "description": "From lockdown with underhook secured, practice the whip-up motion repeatedly without completing the sweep. Partner provides 50% resistance. Focus on hip drive, timing, and coordination between lockdown pressure and upper body control. Perform 20 repetitions per side.",
+        "duration": "10 minutes"
+      },
+      {
+        "name": "Vaporizer Transition Flow",
+        "description": "Start in Vaporizer position and flow through all primary transitions: Electric Chair threat, Truck entry, Old School sweep, back take. Partner provides progressive resistance (25%, 50%, 75%). Complete 3 full cycles at each resistance level before increasing.",
+        "duration": "15 minutes"
+      },
+      {
+        "name": "Attack Chain Drill",
+        "description": "From Vaporizer, attempt Old School sweep. When partner defends, immediately transition to Electric Chair. If they counter that, move to Truck position. Practice reading reactions and flowing between attacks. Perform 10 complete chains per side.",
+        "duration": "15 minutes"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Lockdown",
+        "relationship": "Parent position providing foundational control"
+      },
+      {
+        "name": "Electric Chair",
+        "relationship": "Primary submission transition"
+      },
+      {
+        "name": "Twister Control",
+        "relationship": "Advanced transition target"
+      },
+      {
+        "name": "Half Guard",
+        "relationship": "Foundational position"
+      },
+      {
+        "name": "Old School",
+        "relationship": "Primary sweep position"
+      },
+      {
+        "name": "Rubber Guard",
+        "relationship": "Related 10th Planet position"
+      },
+      {
+        "name": "Deep Half Guard",
+        "relationship": "Alternative half guard approach"
+      },
+      {
+        "name": "Back Control",
+        "relationship": "Target position from rolling back take"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "beginner": 50,
+        "intermediate": 65,
+        "advanced": 80
+      },
+      "advancement_probability": {
+        "beginner": 45,
+        "intermediate": 60,
+        "advanced": 75
+      },
+      "submission_probability": {
+        "beginner": 30,
+        "intermediate": 45,
+        "advanced": 60
+      },
+      "average_time": "45-90 seconds before transition"
+    },
+    "transitions": [
+      {
+        "transition": "Old School Sweep",
+        "attempt_probability": 20
+      },
+      {
+        "transition": "Turtle to Truck",
+        "attempt_probability": 18
+      },
+      {
+        "transition": "Electric Chair Submission",
+        "attempt_probability": 18
+      },
+      {
+        "transition": "Closed Guard to Omoplata",
+        "attempt_probability": 14
+      },
+      {
+        "transition": "Half Guard to Back Take",
+        "attempt_probability": 15
+      },
+      {
+        "transition": "Lockdown Sweeps",
+        "attempt_probability": 15
+      }
+    ]
   }
 }

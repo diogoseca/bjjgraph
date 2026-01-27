@@ -93,41 +93,30 @@ The closed guard's versatility across gi and no-gi competition, its effectivenes
 - Use active legs to pull opponent forward with heels while squeezing knees together to restrict hip movement and breathing, creating cumulative fatigue
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Hip Bump Sweep]]** → [[Mount]]
-  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+- **[[Hip Bump Sweep]]** (10% of attempts)
 
-- **[[Scissor Sweep]]** → [[Mount]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Scissor Sweep]]** (10% of attempts)
 
-- **[[Pendulum Sweep]]** → [[Mount]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Pendulum Sweep]]** (10% of attempts)
 
-- **[[Flower Sweep]]** → [[Mount]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Flower Sweep]]** (9% of attempts)
 
-- **[[Kimura to Back Take]]** → [[Back Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Kimura to Back Take]]** (10% of attempts)
 
-- **[[Omoplata Sweep]]** → [[Side Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Omoplata Sweep]]** (8% of attempts)
 
-- **[[Triangle Setup]]** → [[Triangle Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Triangle Setup]]** (9% of attempts)
 
-- **[[Closed Guard to Triangle]]** → [[Triangle Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Closed Guard to Triangle]]** (8% of attempts)
 
-- **[[Omoplata to Back]]** → [[Back Control]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Omoplata to Back]]** (7% of attempts)
 
-- **[[Elevator Sweep]]** → [[Mount]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Elevator Sweep]]** (10% of attempts)
 
-- **[[Overhook Sweep]]** → [[Side Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Overhook Sweep]]** (9% of attempts)
 
 
 ### Common Mistakes
@@ -183,35 +172,26 @@ The closed guard's versatility across gi and no-gi competition, its effectivenes
 - Defensive Awareness: Constantly monitor threats including triangle, armbar, omoplata, and sweep attempts while working toward pass, recognizing setup patterns before they develop into full attacks
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Guard Opening Sequence]]** → [[Open Guard]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Guard Opening Sequence]]** (13% of attempts)
 
-- **[[Toreando Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Toreando Pass]]** (11% of attempts)
 
-- **[[Knee Slice Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Knee Slice Pass]]** (12% of attempts)
 
-- **[[Stack Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Stack Pass]]** (10% of attempts)
 
-- **[[Over-Under Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Over-Under Pass]]** (11% of attempts)
 
-- **[[Long Step Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Long Step Pass]]** (10% of attempts)
 
-- **[[Pressure Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Pressure Pass]]** (9% of attempts)
 
-- **[[Double Under Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Double Under Pass]]** (10% of attempts)
 
-- **[[Standing up in Base]]** → [[Standing Position]]
-  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 80%
+- **[[Standing up in Base]]** (14% of attempts)
 
 
 ### Common Mistakes

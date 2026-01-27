@@ -21,37 +21,37 @@ description: "Master defensive strategies from leg weave bottom. High-pressure h
     {
       "@type": "HowToStep",
       "name": "Execute Frame and Shrimp",
-      "text": "From this position, execute Frame and Shrimp to transition to Knee Shield Half Guard. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Frame and Shrimp. This technique is attempted in 16% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Sweep from Half",
-      "text": "From this position, execute Underhook Sweep from Half to transition to Side Control. Success rate for advanced practitioners: 45%.",
+      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 13% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Deep Half Entry",
-      "text": "From this position, execute Deep Half Entry to transition to Deep Half Guard. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 14% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Old School Sweep",
-      "text": "From this position, execute Old School Sweep to transition to Side Control. Success rate for advanced practitioners: 40%.",
+      "text": "From this position, attempt Old School Sweep. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Dogfight Position",
-      "text": "From this position, execute Dogfight Position to transition to Dogfight Position. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Dogfight Position. This technique is attempted in 18% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling to Guard",
-      "text": "From this position, execute Rolling to Guard to transition to Closed Guard. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Rolling to Guard. This technique is attempted in 14% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -209,86 +209,20 @@ Leg Weave Bottom Position represents a challenging defensive scenario in half gu
 
 ## Available Escapes
 
-### [[Frame and Shrimp]] → [[Knee Shield Half Guard]]
+### [[Frame and Shrimp]] (16% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
+### [[Underhook Sweep from Half]] (13% of attempts)
 
-### [[Underhook Sweep from Half]] → [[Side Control]]
+### [[Deep Half Entry]] (14% of attempts)
 
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 45%
+### [[Old School Sweep]] (12% of attempts)
 
-### [[Deep Half Entry]] → [[Deep Half Guard]]
+### [[Dogfight Position]] (18% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
+### [[Rolling to Guard]] (14% of attempts)
 
-### [[Old School Sweep]] → [[Side Control]]
+### [[Lockdown Sweeps]] (13% of attempts)
 
-**Success Rates:**
-- Beginner: 10%
-- Intermediate: 25%
-- Advanced: 40%
-
-### [[Dogfight Position]] → [[Dogfight Position]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[Rolling to Guard]] → [[Closed Guard]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
-
-### [[Lockdown Sweeps]] → [[Lockdown]]
-
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 45%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Leg Weave Pass]]** → [[Side Control]] (Opponent Success: 60%)
-- **[[Smash Pass]]** → [[Side Control]] (Opponent Success: 55%)
-- **[[Knee Slice Pass]]** → [[Side Control]] (Opponent Success: 50%)
-- **[[Long Step Pass]]** → [[Side Control]] (Opponent Success: 45%)
-- **[[Transition to Mount]]** → [[Mount]] (Opponent Success: 40%)
-- **[[Back Take Generic]]** → [[Back Control]] (Opponent Success: 35%)
-- **[[Transition to North-South]]** → [[North-South]] (Opponent Success: 30%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Frame and Shrimp]]** → [[Knee Shield Half Guard]]
-  - Top player attempts to flatten with crossface - create frame on neck and shrimp hip away
-- **[[Deep Half Entry]]** → [[Deep Half Guard]]
-  - Top player drives forward pressure - dive under their center of gravity to deep half
-- **[[Underhook Sweep from Half]]** → [[Side Control]]
-  - Top player posts hands forward - capture underhook and roll to top
-- **[[Dogfight Position]]** → [[Dogfight Position]]
-  - Top player elevates to complete pass - come up on elbow to seated position
 
 
 </section>
@@ -394,25 +328,39 @@ Top player alternates between forward pressure and backward weight shifts. Botto
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Defensive escape to sweep to submission
+## Test Your Knowledge
 
-`Leg Weave Bottom → Knee Shield Half Guard → Side Control → Kimura from Side Control`
+**Q1**: The top player drives heavy crossface and you feel yourself getting flattened - what immediate frame adjustment do you make?
+**A**: Drive your near-side forearm into the crossface bicep or shoulder to create a wedge that prevents your head from being driven further. Simultaneously turn your head away from the crossface and tuck your chin. Use your far-side hand to frame on their hip. The frame isn't meant to push them away but to stop the flattening progression so you can create hip movement.
 
-### Deep half counter to leg lock
+**Q2**: What are the essential frames for surviving leg weave bottom before attempting escapes?
+**A**: Primary frame is forearm on opponent's neck or shoulder - this prevents complete chest compression. Secondary frame is your far hand on their hip to control their rotation and pressure angles. Your bottom leg knee should angle toward their body as a tertiary frame. These three points create a defensive structure that buys time for hip movement and escape attempts.
 
-`Leg Weave Bottom → Deep Half Guard → Ashi Garami → Inside Heel Hook`
+**Q3**: How do you shut down the passing attempt when you feel them beginning the knee slice sequence?
+**A**: The moment you feel their weight shift toward the knee slice, pump your hips hard away from them while simultaneously driving your near-side knee between your bodies. Even a partial knee shield insertion disrupts their passing angle. If too late for knee shield, pumping away creates enough space to transition to deep half by diving under their base rather than fighting the pass directly.
 
-### Dogfight scramble to back attack
+**Q4**: What grip priorities should you fight for when your frames are being stripped?
+**A**: First priority is re-establishing the frame on their neck or shoulder - this is survival. Second is maintaining your far-side hook at all costs, as losing this accelerates the pass. Third is fighting for the underhook on your near side, which gives you offensive options. If forced to choose, keep the hook and neck frame - you can't sweep without the hook, and you can't escape without the frame.
 
-`Leg Weave Bottom → Dogfight Position → Back Control → Rear Naked Choke`
+**Q5**: How should you manage your energy when being pressured in leg weave bottom?
+**A**: Don't spend energy pushing against their weight - use frames to deflect pressure rather than resist it. Make small hip adjustments constantly rather than waiting and making explosive efforts. Breathe deliberately and don't hold your breath under pressure. Accept that you're in a bad position and work systematically rather than panicking. Save explosive energy for commitment to one specific escape when the timing is right.
+
+**Q6**: Your opponent partially clears your hook but hasn't completed the pass yet - what movement creates an opportunity to recover?
+**A**: This is actually an opportunity window. As they clear your hook, their base often becomes momentarily less stable. Use this moment to explosively hip escape and turn toward them for a dogfight position, or dive deep under them for deep half if they're moving forward. The key is recognizing this transition moment and committing fully to one escape direction rather than trying to recover the lost hook position.
+
+**Q7**: How do you prevent back exposure when coming up to dogfight from leg weave bottom?
+**A**: Keep your inside elbow tight to your body and your shoulder connected to their chest as you come up. Never lead with your shoulder turning away from them. Come up on your elbow first, then hand, maintaining chest-to-chest connection throughout. If you feel their arm starting to snake around your back, flatten back down and reset rather than continuing up and giving away back control.
+
+**Q8**: The top player has settled their weight and you've been stuck in leg weave for extended time - how do you restart your defensive activity?
+**A**: First, reset your breathing and mental composure. Then begin micro-adjustments: small hip bumps, tiny angle changes, and testing their reactions without committing to escapes. Look for which direction they counter least strongly. Once you identify a weakness in their positioning, commit to a coordinated escape using frames, hips, and legs together. The worst mistake is staying passive - even small movement prevents complete position consolidation.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -438,9 +386,9 @@ Top player alternates between forward pressure and backward weight shifts. Botto
 - **[[Deep Half Guard]]** - Counter-attack option - diving under pressure to invert guard hierarchy
 - **[[Dogfight Position]]** - Scramble position - transitional state when coming up on elbow
 - **[[Lockdown]]** - Alternative defensive strategy - trapping weaving leg to counter pressure
-- **[[Frame Management]]** - Defensive concept - fundamental skill for survival in leg weave bottom
-- **[[Guard Retention]]** - Core principle - preventing guard pass from compromised position
-- **[[Underhook Defense]]** - Defensive concept - critical for preventing crossface and maintaining frames
+- **[[Frame and Shrimp]]** - Primary escape technique - fundamental movement for creating space
+- **[[Underhook Sweep from Half]]** - Counter-attack option - reversing position when opportunity presents
+- **[[Flattened Half Guard]]** - Position to avoid - result of failed defensive framing
 
 
 </section>

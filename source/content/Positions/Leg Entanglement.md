@@ -21,49 +21,49 @@ description: "Master Leg Entanglement positions in BJJ. Complete guide to ashi g
     {
       "@type": "HowToStep",
       "name": "Execute Inside Heel Hook",
-      "text": "From this position, execute Inside Heel Hook to transition to Won by Submission. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Inside Heel Hook. This technique is attempted in 15% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Outside Heel Hook",
-      "text": "From this position, execute Outside Heel Hook to transition to Won by Submission. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Outside Heel Hook. This technique is attempted in 10% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kneebar from Top",
-      "text": "From this position, execute Kneebar from Top to transition to Won by Submission. Success rate for advanced practitioners: 70%.",
+      "name": "Execute Kneebar",
+      "text": "From this position, attempt Kneebar. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Straight Ankle Lock",
-      "text": "From this position, execute Straight Ankle Lock to transition to Won by Submission. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Straight Ankle Lock. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Toe Hold from Top",
-      "text": "From this position, execute Toe Hold from Top to transition to Won by Submission. Success rate for advanced practitioners: 60%.",
+      "name": "Execute Toe Hold",
+      "text": "From this position, attempt Toe Hold. This technique is attempted in 8% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Inside Ashi Entry",
-      "text": "From this position, execute Inside Ashi Entry to transition to Inside Ashi-Garami. Success rate for advanced practitioners: 80%.",
+      "text": "From this position, attempt Inside Ashi Entry. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     },
     {
       "@type": "HowToStep",
       "name": "Execute Outside Ashi Entry",
-      "text": "From this position, execute Outside Ashi Entry to transition to Outside Ashi-Garami. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Outside Ashi Entry. This technique is attempted in 10% of exchanges from this position.",
       "position": 7
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Saddle Entry from Top",
-      "text": "From this position, execute Saddle Entry from Top to transition to Saddle. Success rate for advanced practitioners: 70%.",
+      "name": "Execute Saddle Entry",
+      "text": "From this position, attempt Saddle Entry. This technique is attempted in 8% of exchanges from this position.",
       "position": 8
     }
   ],
@@ -180,7 +180,7 @@ description: "Master Leg Entanglement positions in BJJ. Complete guide to ashi g
 
 <section id="overview" class="content-section">
 
-Leg Entanglement represents a comprehensive positional system in modern Brazilian Jiu-Jitsu where practitioners control and attack their opponent's lower body through various configurations of leg positioning and entanglement. These positions form the foundation of systematic leg lock attacking, characterized by superior control mechanics that isolate specific joints (ankle, knee, hip) while maintaining positional dominance or creating submission opportunities. The entanglement configurations involve legs wrapping, hooking, or triangling around the opponent's leg or legs, creating control structures that range from neutral exchanges (50-50) to dominant attacking positions (saddle, inside ashi). This positional family has revolutionized modern no-gi grappling, with systematic approaches developed by systematic, Craig Jones, and others transforming leg attacks from opportunistic submissions into a comprehensive positional hierarchy comparable to traditional upper body control positions. Success in leg entanglements requires understanding the biomechanical principles of joint isolation, recognizing the specific finishing mechanics for different leg locks, and maintaining proper positioning to prevent escapes or counters. The positions offer multiple pathways to finishing submissions (heel hooks, kneebar variations, ankle locks) while also providing transition opportunities to other dominant positions if the opponent defends successfully. The neutral nature of many entanglement positions means both practitioners can simultaneously threaten attacks, creating dynamic exchanges that reward systematic understanding and technical precision.
+Leg Entanglement represents a comprehensive positional system in modern Brazilian Jiu-Jitsu where practitioners control and attack their opponent's lower body through various configurations of leg positioning and entanglement. These positions form the foundation of systematic leg lock attacking, characterized by superior control mechanics that isolate specific joints (ankle, knee, hip) while maintaining positional dominance or creating submission opportunities. The entanglement configurations involve legs wrapping, hooking, or triangling around the opponent's leg or legs, creating control structures that range from neutral exchanges (50-50) to dominant attacking positions (saddle, inside ashi). This positional family has revolutionized modern no-gi grappling, with systematic approaches transforming leg attacks from opportunistic submissions into a comprehensive positional hierarchy comparable to traditional upper body control positions. Success in leg entanglements requires understanding the biomechanical principles of joint isolation, recognizing the specific finishing mechanics for different leg locks, and maintaining proper positioning to prevent escapes or counters. The positions offer multiple pathways to finishing submissions (heel hooks, kneebar variations, ankle locks) while also providing transition opportunities to other dominant positions if the opponent defends successfully. The neutral nature of many entanglement positions means both practitioners can simultaneously threaten attacks, creating dynamic exchanges that reward systematic understanding and technical precision.
 
 </section>
 
@@ -229,117 +229,26 @@ Leg Entanglement represents a comprehensive positional system in modern Brazilia
 
 ## Available Techniques and Transitions
 
-### [[Inside Heel Hook]] → [[Won by Submission]]
+### [[Inside Heel Hook]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 70%
+### [[Outside Heel Hook]] (10% of attempts)
 
-### [[Outside Heel Hook]] → [[Won by Submission]]
+### [[Kneebar]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 40%
-- Advanced: 60%
+### [[Straight Ankle Lock]] (10% of attempts)
 
-### [[Kneebar from Top]] → [[Won by Submission]]
+### [[Toe Hold]] (8% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Inside Ashi Entry]] (12% of attempts)
 
-### [[Straight Ankle Lock]] → [[Won by Submission]]
+### [[Outside Ashi Entry]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 65%
+### [[Saddle Entry]] (8% of attempts)
 
-### [[Toe Hold from Top]] → [[Won by Submission]]
+### [[50-50 Entry]] (7% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Back Take from Ashi]] (8% of attempts)
 
-### [[Inside Ashi Entry]] → [[Inside Ashi-Garami]]
-
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 65%
-- Advanced: 80%
-
-### [[Outside Ashi Entry]] → [[Outside Ashi-Garami]]
-
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 60%
-- Advanced: 75%
-
-### [[Saddle Entry from Top]] → [[Saddle]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 70%
-
-### [[50-50 Entry from Standing]] → [[50-50 Guard]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 55%
-- Advanced: 70%
-
-### [[X-Guard to Ashi Transition]] → [[Ashi Garami]]
-
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 60%
-- Advanced: 75%
-
-### [[Rolling Back Take]] → [[Back Control]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Defensive Counters
-
-- **[[Ashi Garami Escape]]** → [[Open Guard]] (Success: 35%)
-- **[[Saddle Defense]]** → [[Headquarters Position]] (Success: 30%)
-- **[[Hip Escape]]** → [[Half Guard]] (Success: 25%)
-- **[[Technical Standup]]** → [[Standing Position]] (Success: 20%)
-- **[[Rolling to Guard]]** → [[Closed Guard]] (Success: 30%)
-- **[[50-50 Entry from Standing]]** → [[50-50 Guard]] (Success: 35%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter Techniques
-
-- **[[Saddle Entry from Top]]** → [[Saddle]]
-  - Opponent attempts to turn away and clear the knee line by rotating away from attack
-- **[[Inside Ashi Entry]]** → [[Inside Ashi-Garami]]
-  - Opponent tries to pull their leg straight and extract from the entanglement creating heel exposure
-- **[[Outside Ashi Entry]]** → [[Outside Ashi-Garami]]
-  - Opponent rolls toward their trapped leg attempting to relieve pressure on the knee
-- **[[Kneebar from Top]]** → [[Kneebar Control]]
-  - Opponent extends their leg attempting to push you away and create distance
-- **[[Rolling Back Take]]** → [[Back Control]]
-  - Opponent turns into you giving up their back to escape leg attack
-- **[[Inside Heel Hook]]** → [[Won by Submission]]
-  - Opponent's foot becomes exposed during escape attempt with proper inside positioning secured
 
 
 </section>
@@ -349,32 +258,32 @@ Leg Entanglement represents a comprehensive positional system in modern Brazilia
 ## Decision Making from This Position
 
 **If opponent has their knee bent and is defending by keeping their heel hidden from attack:**
-- Execute **[[Saddle Entry from Top]]** → [[Saddle]] (Probability: 65%)
+- Execute **[[Saddle Entry]]** → [[Saddle]] (Probability: 65%)
 - Execute **[[Outside Ashi Entry]]** → [[Outside Ashi-Garami]] (Probability: 55%)
 
 
 **If opponent extends their leg trying to create distance and push away from the entanglement:**
-- Execute **[[Kneebar from Top]]** → [[Kneebar Control]] (Probability: 70%)
+- Execute **[[Kneebar]]** → [[Kneebar Control]] (Probability: 70%)
 - Execute **[[Straight Ankle Lock]]** → [[Straight Ankle Lock Control]] (Probability: 65%)
 
 
 **If opponent's heel becomes exposed with proper inside or outside positioning established:**
-- Execute **[[Inside Heel Hook]]** → [[Won by Submission]] (Probability: 70%)
-- Execute **[[Outside Heel Hook]]** → [[Won by Submission]] (Probability: 65%)
+- Execute **[[Inside Heel Hook]]** → [[Inside Ashi-Garami]] (Probability: 70%)
+- Execute **[[Outside Heel Hook]]** → [[Outside Ashi-Garami]] (Probability: 65%)
 
 
 **If opponent turns away from you exposing their back to escape the leg entanglement:**
-- Execute **[[Rolling Back Take]]** → [[Back Control]] (Probability: 75%)
-- Execute **[[Saddle Entry from Top]]** → [[Saddle]] (Probability: 60%)
+- Execute **[[Back Take from Ashi]]** → [[Back Control]] (Probability: 75%)
+- Execute **[[Saddle Entry]]** → [[Saddle]] (Probability: 60%)
 
 
 **If opponent successfully clears the knee line and begins to escape the entanglement:**
 - Execute **[[Outside Ashi Entry]]** → [[Outside Ashi-Garami]] (Probability: 55%)
-- Execute **[[X-Guard to Ashi Transition]]** → [[X-Guard]] (Probability: 45%)
+- Execute **[[X-Guard Recovery]]** → [[X-Guard]] (Probability: 45%)
 
 
 **If both practitioners have equal entanglement creating neutral bilateral control:**
-- Execute **[[50-50 Entry from Standing]]** → [[50-50 Guard]] (Probability: 60%)
+- Execute **[[50-50 Entry]]** → [[50-50 Guard]] (Probability: 60%)
 - Execute **[[Inside Ashi Entry]]** → [[Inside Ashi-Garami]] (Probability: 50%)
 
 
@@ -473,42 +382,6 @@ Partner attempts specific escapes from leg entanglement (hip escape, knee cleari
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
-
-## Optimal Paths from This Position
-
-### Fastest heel hook path from inside position
-
-`Leg Entanglement → Inside Ashi-Garami → Inside Heel Hook → Won by Submission`
-
-### High-percentage kneebar sequence from outside control
-
-`Leg Entanglement → Outside Ashi-Garami → Kneebar from Top → Won by Submission`
-
-### Systematic saddle progression from neutral
-
-`Leg Entanglement → Ashi Garami → Saddle → Inside Heel Hook → Won by Submission`
-
-### Straight ankle lock foundation for beginners
-
-`Leg Entanglement → Ashi Garami → Straight Ankle Lock Control → Straight Ankle Lock → Won by Submission`
-
-### Advanced 50-50 to saddle advancement
-
-`Leg Entanglement → 50-50 Guard → Saddle → Heel Hook → Won by Submission`
-
-### Positional advancement to back control
-
-`Leg Entanglement → Saddle → Rolling Back Take → Back Control → Rear Naked Choke → Won by Submission`
-
-### Cross ashi to outside ashi flow
-
-`Leg Entanglement → Cross Ashi-Garami → Outside Ashi-Garami → Outside Heel Hook → Won by Submission`
-
-
-
-</section>
-
 <section id="position-metrics" class="content-section">
 
 ## Success Rates and Statistics
@@ -534,11 +407,11 @@ Partner attempts specific escapes from leg entanglement (hip escape, knee cleari
 - **[[Saddle]]** - Child variant - most dominant leg entanglement position with multiple submission pathways
 - **[[50-50 Guard]]** - Child variant - bilateral leg entanglement creating neutral exchange with both sides attacking
 - **[[Honey Hole]]** - Alternative name for saddle position used in some systematic approaches
-- **[[Craig Jones Leg Lock System]]** - Modern competitive application of leg entanglement principles with practical competition focus
 - **[[Inside Heel Hook]]** - Primary submission from inside entanglement positions with highest finishing rate
 - **[[Kneebar]]** - Alternative submission when heel is defended or from extended leg positions
 - **[[Headquarters Position]]** - Common entry position before establishing leg entanglement from top passing
-- **[[X-Guard to Ashi Transition]]** - Guard-to-leg-entanglement transition sequence from bottom position
+- **[[X-Guard]]** - Guard position that frequently transitions into leg entanglement systems
+- **[[Back Control]]** - Alternative dominant position when opponent gives up back to escape leg attacks
 
 
 </section>

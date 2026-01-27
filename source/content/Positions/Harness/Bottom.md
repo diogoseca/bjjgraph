@@ -21,37 +21,37 @@ description: "Master defensive strategies from Harness Bottom Position in BJJ. L
     {
       "@type": "HowToStep",
       "name": "Execute Elbow Escape",
-      "text": "From this position, execute Elbow Escape to transition to Turtle. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Elbow Escape. This technique is attempted in 21% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape",
-      "text": "From this position, execute Hip Escape to transition to Defensive Position. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Hip Escape. This technique is attempted in 18% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Technical Stand Up to Single Leg",
-      "text": "From this position, execute Technical Stand Up to Single Leg to transition to Standing Position. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Technical Stand Up to Single Leg. This technique is attempted in 17% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Roll to Guard",
-      "text": "From this position, execute Roll to Guard to transition to Closed Guard. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Roll to Guard. This technique is attempted in 15% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Granby Roll",
-      "text": "From this position, execute Granby Roll to transition to Open Guard. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Granby Roll. This technique is attempted in 14% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Standing up in Base",
-      "text": "From this position, execute Standing up in Base to transition to Standing Position. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Standing up in Base. This technique is attempted in 15% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -212,77 +212,18 @@ The strategic priority from Harness Bottom Position is threefold: first, prevent
 
 ## Available Escapes
 
-### [[Elbow Escape]] → [[Turtle]]
+### [[Elbow Escape]] (21% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Hip Escape]] (18% of attempts)
 
-### [[Hip Escape]] → [[Defensive Position]]
+### [[Technical Stand Up to Single Leg]] (17% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Roll to Guard]] (15% of attempts)
 
-### [[Technical Stand Up to Single Leg]] → [[Standing Position]]
+### [[Granby Roll]] (14% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Standing up in Base]] (15% of attempts)
 
-### [[Roll to Guard]] → [[Closed Guard]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-### [[Granby Roll]] → [[Open Guard]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
-
-### [[Standing up in Base]] → [[Standing Position]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Rear Naked Choke]]** → [[Won by Submission]] (Opponent Success: 60%)
-- **[[Hook insertion and consolidation]]** → [[Back Control]]
-- **[[Transition to Mount]]** → [[Mount]]
-- **[[Body Triangle establishment]]** → [[Body Triangle]]
-- **[[Armbar from Back with Legs]]** → [[Armbar Control]]
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Hand fighting to break grips]]** → [[Turtle]]
-  - Opponent adjusts harness grip or attempts to tighten control
-- **[[Hip escape with angle creation]]** → [[Defensive Position]]
-  - Opponent attempts to insert second hook or establish body triangle
-- **[[Forward roll escape]]** → [[Open Guard]]
-  - Opponent posts hand forward or reduces chest pressure temporarily
-- **[[Scoot and turn to face opponent]]** → [[Closed Guard]]
-  - Opponent's weight shifts to one side or hooks are not yet established
 
 
 </section>
@@ -292,21 +233,21 @@ The strategic priority from Harness Bottom Position is threefold: first, prevent
 ## Decision Making from This Position
 
 **If opponent has tight harness grip but no hooks established yet:**
-- Execute **[[Control choking arm with both hands]]** → [[Harness Bottom]] (Probability: 90%)
+- Execute **[[Control choking arm with both hands]]** → [[Harness]] (Probability: 90%)
 - Execute **[[Hip Escape to create space]]** → [[Turtle]] (Probability: 50%)
 - Execute **[[Standing up in Base]]** → [[Standing Position]] (Probability: 45%)
 
 
 **If opponent attempts rear naked choke by bringing arm across neck:**
-- Execute **[[Two-on-one grip fight on choking arm]]** → [[Harness Bottom]] (Probability: 85%)
-- Execute **[[Chin down and turn into choking arm]]** → [[Defensive Position]] (Probability: 60%)
+- Execute **[[Two-on-one grip fight on choking arm]]** → [[Harness]] (Probability: 85%)
+- Execute **[[Chin down and turn into choking arm]]** → [[Half Guard]] (Probability: 60%)
 - Execute **[[Emergency elbow escape]]** → [[Turtle]] (Probability: 40%)
 
 
 **If opponent establishes one or both hooks while maintaining harness:**
-- Execute **[[Clear hooks while controlling hands]]** → [[Harness Bottom]] (Probability: 55%)
+- Execute **[[Clear hooks while controlling hands]]** → [[Harness]] (Probability: 55%)
 - Execute **[[Granby Roll escape]]** → [[Open Guard]] (Probability: 35%)
-- Execute **[[Hip escape and scoot]]** → [[Defensive Position]] (Probability: 45%)
+- Execute **[[Hip escape and scoot]]** → [[Half Guard]] (Probability: 45%)
 
 
 **If opponent's chest pressure reduces or weight shifts to one side:**
@@ -384,7 +325,7 @@ Partner establishes harness and attempts to insert hooks while bottom player def
 
 ### Progressive Back Escape Sequence
 
-Start from harness bottom with no hooks. Work through complete escape sequence: control choking arm → fight bottom hand → create space with elbow → hip escape to create angle → transition to turtle or guard. Partner provides graduated resistance (30%, 50%, 70%, 90%). Reset and repeat, focusing on smooth transitions between defensive steps.
+Start from harness bottom with no hooks. Work through complete escape sequence: control choking arm, fight bottom hand, create space with elbow, hip escape to create angle, transition to turtle or guard. Partner provides graduated resistance (30%, 50%, 70%, 90%). Reset and repeat, focusing on smooth transitions between defensive steps.
 
 **Duration**: 6 minutes per partner
 
@@ -393,29 +334,39 @@ Start from harness bottom with no hooks. Work through complete escape sequence: 
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Defensive Survival Path
+## Test Your Knowledge
 
-`Harness Bottom → Control choking arm → Fight grips → Maintain position until opportunity → Elbow Escape → Turtle`
+**Q1**: Your opponent starts to bring their choking arm across your neck - what immediate adjustment do you make?
+**A**: Immediately grab the attacking wrist or forearm with both hands using a two-on-one grip before it crosses your centerline. Simultaneously tuck your chin tight to your chest to create a barrier. Pull the arm down toward your chest while turning your shoulder into the arm to prevent it from sliding across your throat. If the arm is already partially across, grab the wrist and pull it down while turning your chin toward the inside of their elbow to create space and prevent the choke from being locked.
 
-### Counter to Guard Path
+**Q2**: What are the essential grips for surviving this position?
+**A**: The primary defensive grip is two-on-one control on the opponent's choking arm, grabbing their wrist with one hand and controlling near their elbow or tricep with the other. This prevents the rear naked choke from being secured. Secondary grips include controlling their underhook arm to prevent full grip completion, and using a collar tie or grip on their head if they're positioned to the side. Never release control of the choking arm to grab anything else unless the choke threat is neutralized.
 
-`Harness Bottom → Two-on-one control → Hip escape to create angle → Scoot and turn → Closed Guard`
+**Q3**: How do you shut down your opponent's primary attack of the rear naked choke?
+**A**: Defense starts before the choke is locked. Control the choking arm with both hands while keeping chin tucked and shoulder raised toward the choking side. If they attempt to pry your hands apart to insert the choke, maintain wrist control and use your elbow to create a frame against their bicep. If the arm does get across your neck, grab the choking hand and pull it below your chin while turning your body toward the trapped arm side. The key is addressing the threat early and maintaining two-on-one control throughout.
 
-### Standing Escape Path
+**Q4**: What is the grip priority hierarchy when fighting your opponent's hands?
+**A**: First priority is always controlling the choking arm with two-on-one grip to prevent rear naked choke. Second priority is preventing the opponent from locking their hands together by fighting their underhook arm before it connects to the over-arm. Third priority is clearing hooks once hand control is established. Never abandon choking arm control to fight hooks - hooks without a tight grip are far less dangerous than a partially defended choke. Work hands first, then hooks, then escape.
 
-`Harness Bottom → Control hands → Weight forward on hands → Technical Stand Up → Standing Position`
+**Q5**: How should you manage your breathing and energy when defending this position?
+**A**: Stay calm and breathe steadily through your nose to prevent panic. Focus your energy on the immediate threat (choking arm) rather than explosive escape attempts that burn energy. Use isometric tension in your hands and arms to maintain grip control, but keep your body relaxed between defensive actions. Time your explosive escape attempts for moments when opponent shifts weight or adjusts grips. Frantic movement wastes energy and creates openings - methodical defense that addresses one problem at a time is more effective and sustainable.
 
-### Granby Roll Escape Path
+**Q6**: Your opponent successfully clears one hook and is working to insert the second - how do you prevent this?
+**A**: Keep your knees squeezed together and legs heavy on the mat to deny space for hook insertion. Use your feet to push against their feet or shins when they attempt to thread the hook. Maintain hip pressure by keeping your hips low and heavy. If they're close to inserting, hip escape in the opposite direction to create angle and deny the entry point. The key is staying connected to the mat and not allowing space between your thighs for the hook to enter.
 
-`Harness Bottom → Clear hooks → Forward roll over shoulder → Open Guard → Re-Guard`
+**Q7**: You've successfully stripped the choking arm and created some space - how do you complete the escape?
+**A**: Once the choking arm is controlled and you've created angle, turn toward the underhook side while hip escaping to create more space. Keep the choking arm controlled throughout the turn. Options include: escaping to turtle by getting to all fours and immediately working to stand or recover guard; sliding down and turning to face opponent for closed guard; or using a technical standup if you've created significant space. Maintain defensive awareness throughout as opponent may counter your escape attempt with submission attempts or positional recovery.
+
+**Q8**: Your opponent has both hooks in and a tight harness - what is your escape sequence?
+**A**: Start by securing two-on-one on the choking arm while tucking chin. Once the choke is defended, work to clear one hook by using your same-side foot to push their hook off while hip escaping slightly. With one hook cleared, increase your hip escape toward the cleared side while maintaining hand control. Turn toward the underhook side to disrupt their position. As you create angle, look to clear the second hook and continue turning to face them or escape to turtle. The sequence is: defend choke, clear hook, create angle, escape. Don't skip steps.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -439,13 +390,13 @@ Start from harness bottom with no hooks. Work through complete escape sequence: 
 - **[[Back Control]]** - Advanced control position with hooks - worse position if harness bottom defense fails
 - **[[Seat Belt Control Back]]** - Alternative name for same position configuration
 - **[[Turtle]]** - Common escape target position - defensive position with better escape options
-- **[[Defensive Position]]** - Generic defensive position category - harness bottom is high-risk defensive position
+- **[[Half Guard]]** - Escape target position after successful defense and angle creation
 - **[[Body Triangle]]** - Worse position if opponent establishes body triangle from harness
 - **[[Rear Naked Choke]]** - Primary submission threat from this position
-- **[[Back Defense Protocol]]** - Systematic defensive framework for all back control situations
-- **[[Back Escape Series]]** - Comprehensive escape system for back control positions
-- **[[Hand Fighting from Back]]** - Core defensive skill for preventing submissions
-- **[[Chin Protection]]** - Essential defensive principle against choke attacks
+- **[[Open Guard]]** - Possible escape destination after granby roll or forward roll
+- **[[Closed Guard]]** - Escape destination if successful turn to face opponent
+- **[[Standing Position]]** - Escape destination via technical standup
+- **[[Armbar Control]]** - Secondary submission threat if defending choke exposes arm
 
 
 </section>

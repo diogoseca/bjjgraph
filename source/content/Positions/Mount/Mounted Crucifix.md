@@ -101,32 +101,24 @@ The mounted crucifix also serves as an excellent teaching position for understan
 - Accept transitional positions like side control or turtle if they facilitate arm extraction from crucifix
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Arm Extraction]]** → [[Mount]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Arm Extraction]]** (18% of attempts)
 
-- **[[Bridge and Roll]]** → [[Closed Guard]]
-  - Success Rate: Beginner 15%, Intermediate 25%, Advanced 40%
+- **[[Bridge and Roll]]** (12% of attempts)
 
-- **[[Elbow Escape]]** → [[Half Guard]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Elbow Escape]]** (16% of attempts)
 
-- **[[Upa Escape]]** → [[Closed Guard]]
-  - Success Rate: Beginner 10%, Intermediate 20%, Advanced 35%
+- **[[Upa Escape]]** (11% of attempts)
 
-- **[[Hip Escape]]** → [[Defensive Position]]
-  - Success Rate: Beginner 20%, Intermediate 30%, Advanced 45%
+- **[[Hip Escape]]** (14% of attempts)
 
-- **[[Explosive Bridge to Turtle]]** → [[Turtle]]
-  - Success Rate: Beginner 15%, Intermediate 25%, Advanced 40%
+- **[[Explosive Bridge to Turtle]]** (12% of attempts)
 
-- **[[Arm Drag Sweep]]** → [[Half Guard]]
-  - Success Rate: Beginner 5%, Intermediate 15%, Advanced 25%
+- **[[Arm Drag Sweep]]** (8% of attempts)
 
-- **[[Rolling Escape]]** → [[Standing Position]]
-  - Success Rate: Beginner 10%, Intermediate 20%, Advanced 30%
+- **[[Rolling Escape]]** (9% of attempts)
 
 
 ### Common Mistakes
@@ -184,38 +176,28 @@ The mounted crucifix also serves as an excellent teaching position for understan
 - Progress systematically through control hierarchy: position, arm isolation, then submissions or advancement
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Armbar from Crucifix]]** → [[Won by Submission]]
-  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 80%
+- **[[Armbar from Crucifix]]** (10% of attempts)
 
-- **[[Choke from Crucifix]]** → [[Won by Submission]]
-  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+- **[[Choke from Crucifix]]** (10% of attempts)
 
-- **[[Back Control to Crucifix]]** → [[Back Control]]
-  - Success Rate: Beginner 55%, Intermediate 70%, Advanced 85%
+- **[[Back Control to Crucifix]]** (10% of attempts)
 
-- **[[Rear Naked Choke]]** → [[Won by Submission]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Rear Naked Choke]]** (9% of attempts)
 
-- **[[Transition to Technical Mount]]** → [[Technical Mount]]
-  - Success Rate: Beginner 60%, Intermediate 75%, Advanced 85%
+- **[[Gift Wrap to Technical Mount]]** (11% of attempts)
 
-- **[[Straight Armbar]]** → [[Won by Submission]]
-  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 80%
+- **[[Straight Armbar]]** (10% of attempts)
 
-- **[[Mount to Armbar]]** → [[Armbar Control]]
-  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+- **[[Mount to Armbar]]** (10% of attempts)
 
-- **[[Transition to S Mount]]** → [[S Mount]]
-  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 80%
+- **[[Mounted Crucifix to S Mount]]** (10% of attempts)
 
-- **[[Gift Wrap Transition]]** → [[Gift Wrap]]
-  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 70%
+- **[[Gift Wrap Transition]]** (9% of attempts)
 
-- **[[Seat Belt Control Back]]** → [[Seat Belt Control Back]]
-  - Success Rate: Beginner 55%, Intermediate 70%, Advanced 85%
+- **[[Seat Belt Control Back]]** (11% of attempts)
 
 
 ### Common Mistakes

@@ -270,6 +270,31 @@
       "question": "What training restrictions must be observed when practicing the Mir Lock?",
       "answer": "The Mir Lock has several critical training restrictions: it must never be applied at competition speed during training, never jerked or spiked in application, requires constant verbal communication during drilling, must stop immediately if the partner shows any hesitation to tap, is prohibited for white belts without direct instructor supervision, and must never be practiced on training partners with existing shoulder injuries or known shoulder problems. These restrictions exist because the Mir Lock has significant injury potential, and creating a safe training culture requires strict adherence to these safety protocols.",
       "safety_critical": true
+    },
+    {
+      "question": "What anatomical structure does the Mir Lock primarily attack, and why is it particularly vulnerable?",
+      "answer": "The Mir Lock primarily attacks the glenohumeral joint (the ball-and-socket shoulder joint) through a combination of hyperextension and external rotation. This joint is particularly vulnerable because unlike hinge joints such as the elbow, the shoulder sacrifices structural stability for mobility. The rotator cuff muscles and shoulder capsule provide the primary structural support, but these soft tissues can be easily overwhelmed by the leverage created when the elbow is elevated and the wrist is driven downward while chest weight compresses the shoulder. The straight-arm position removes the protective flexion that makes the traditional Americana somewhat slower to cause injury.",
+      "safety_critical": false
+    },
+    {
+      "question": "What are the key indicators that the Mir Lock is approaching the breaking point and you should expect a tap?",
+      "answer": "Key indicators include: the opponent's face showing visible strain or pain, their body tensing significantly, audible grunting or sharp breathing, cessation of defensive movement as they focus on the joint pressure, and subtle attempts to relieve pressure by turning the shoulder or adjusting their body. The arm may also begin to rotate more freely as the muscles fail to protect the joint. Crucially, in training you should never reach the actual breaking point - these early indicators should prompt you to slow your pressure application and give your partner time to recognize the submission and tap safely.",
+      "safety_critical": true
+    },
+    {
+      "question": "How do grip adjustments during the finish affect the Mir Lock's effectiveness?",
+      "answer": "The figure-four grip must be maintained with the controlling forearm perpendicular to the opponent's arm and your elbow pointing toward their head. As you apply finishing pressure, avoid the temptation to slide your grip toward the opponent's wrist for more leverage - this reduces control and allows escape. Instead, maintain the grip position and generate pressure through body weight placement. If the opponent begins escaping, readjust by tightening the figure-four before continuing rather than trying to rush the finish with compromised grips. Proper grip maintenance throughout the finish is what distinguishes a controlled submission from a scramble.",
+      "safety_critical": false
+    },
+    {
+      "question": "What distinguishes competition finishing strategies from training application of the Mir Lock?",
+      "answer": "In competition, the Mir Lock can be applied with faster pressure progression (still controlled, but 2-3 seconds rather than 5-7) because the opponent understands the risks and referees are present to stop the match. However, this faster application should NEVER be practiced in the training room where the goal is skill development and partner preservation. Competition finishing also involves more commitment to the position without concern for injuring a training partner. The fundamental technique remains identical, but training emphasizes controlled pressure that allows tapping, while competition emphasizes efficient finishing once control is established. A practitioner who cannot finish slowly in training lacks the control necessary for safe competition application.",
+      "safety_critical": true
+    },
+    {
+      "question": "When should you abandon the Mir Lock attempt and transition to another technique?",
+      "answer": "Abandon the Mir Lock when: the opponent successfully establishes a grip defense you cannot break within 5-10 seconds, they create sufficient angle through rolling or bridging that your chest loses connection to their shoulder, they straighten their arm and begin escaping before you can elevate the elbow, or your base becomes compromised by their movement. Rather than fighting a losing battle, transition to Kimura by adjusting your grip angle, take the back if they roll toward you, or reset to side control and look for other attacks. The Mir Lock requires specific positional control - forcing it from compromised positions leads to failed submissions and wasted energy.",
+      "safety_critical": false
     }
   ],
   "training_progressions_and_safety_protocols": [
@@ -335,7 +360,6 @@
     "Americana from Mount",
     "Reverse Kimura",
     "Omoplata",
-    "Straight Armbar",
     "Armbar from Side Control",
     "Armbar from Mount",
     "Kimura Variations",
@@ -343,12 +367,12 @@
   ],
   "related_content": [
     {
-      "name": "Kimura Control",
-      "relationship": "Similar shoulder lock position with different rotation angle and grip structure"
+      "name": "Kimura Trap",
+      "relationship": "Control position for isolating the arm with similar shoulder lock mechanics and grip configurations"
     },
     {
-      "name": "Americana Control",
-      "relationship": "Nearly identical position with traditional figure-four mechanics rather than straight-arm hyperextension"
+      "name": "Americana",
+      "relationship": "Traditional shoulder lock using figure-four mechanics with bent-arm positioning rather than straight-arm hyperextension"
     },
     {
       "name": "Side Control",
@@ -367,16 +391,16 @@
       "relationship": "Alternative transition if opponent defends the shoulder lock by rolling"
     },
     {
-      "name": "Kimura Trap System",
-      "relationship": "Systematic approach to shoulder locks that includes the Mir Lock as a key variation"
+      "name": "Kimura",
+      "relationship": "Related shoulder lock with internal rotation mechanics that chains well with Mir Lock attacks"
     },
     {
-      "name": "Armbar Defense",
-      "relationship": "Understanding armbar escapes helps recognize when opponents might expose their shoulder to Mir Lock attacks"
+      "name": "Kimura from Side Control",
+      "relationship": "Sister submission from the same position targeting the shoulder with different rotation"
     },
     {
-      "name": "Kimura Defense",
-      "relationship": "Defensive principles that apply to defending the Mir Lock due to similar joint mechanics"
+      "name": "Americana from Side Control",
+      "relationship": "Traditional shoulder lock from same position using bent-arm configuration"
     }
   ]
 }

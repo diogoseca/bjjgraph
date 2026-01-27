@@ -21,37 +21,37 @@ description: "Master offensive strategies for standing back control top position
     {
       "@type": "HowToStep",
       "name": "Execute Rear Naked Choke",
-      "text": "From this position, execute Rear Naked Choke to transition to Won by Submission. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Rear Naked Choke. This technique is attempted in 14% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Takedown to Grounded Back Control",
-      "text": "From this position, execute Takedown to Grounded Back Control to transition to Back Control. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Takedown to Grounded Back Control. This technique is attempted in 15% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bow and Arrow Choke",
-      "text": "From this position, execute Bow and Arrow Choke to transition to Won by Submission. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Bow and Arrow Choke. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Body Triangle Lock",
-      "text": "From this position, execute Body Triangle Lock to transition to Body Triangle. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Body Triangle Lock. This technique is attempted in 13% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Armbar from Back Transition",
-      "text": "From this position, execute Armbar from Back Transition to transition to Armbar Control. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Armbar from Back Transition. This technique is attempted in 11% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Mat Return to Back Mount",
-      "text": "From this position, execute Mat Return to Back Mount to transition to Mount. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Mat Return to Back Mount. This technique is attempted in 14% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -212,92 +212,22 @@ Success from Standing Back Control Top requires understanding several key mechan
 
 ## Available Attacks
 
-### [[Rear Naked Choke]] → [[Won by Submission]]
+### [[Rear Naked Choke]] (14% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Takedown to Grounded Back Control]] (15% of attempts)
 
-### [[Takedown to Grounded Back Control]] → [[Back Control]]
+### [[Bow and Arrow Choke]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 60%
-- Advanced: 75%
+### [[Body Triangle Lock]] (13% of attempts)
 
-### [[Bow and Arrow Choke]] → [[Won by Submission]]
+### [[Armbar from Back Transition]] (11% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
+### [[Mat Return to Back Mount]] (14% of attempts)
 
-### [[Body Triangle Lock]] → [[Body Triangle]]
+### [[Crucifix Transition]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Truck Position Entry]] (11% of attempts)
 
-### [[Armbar from Back Transition]] → [[Armbar Control]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
-
-### [[Mat Return to Back Mount]] → [[Mount]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-### [[Crucifix Transition]] → [[Crucifix]]
-
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 45%
-
-### [[Truck Position Entry]] → [[Truck]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Hip Escape to Turtle]]** → [[Turtle]] (Opponent Success: 40%)
-- **[[Technical Standup]]** → [[Standing Position]] (Opponent Success: 30%)
-- **[[Grip Strip and Face]]** → [[Clinch]] (Opponent Success: 35%)
-- **[[Rolling to Guard]]** → [[Closed Guard]] (Opponent Success: 25%)
-- **[[Granby Roll Escape]]** → [[Open Guard]] (Opponent Success: 20%)
-- **[[Drop to Defensive Position]]** → [[Defensive Position]] (Opponent Success: 45%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Hook Reinforcement]]** → [[Body Triangle]]
-  - Opponent attempts to widen their base to remove your hooks
-- **[[Mat Return with Control]]** → [[Back Control]]
-  - Opponent drops weight attempting to go to turtle defensively
-- **[[Armbar Transition]]** → [[Armbar Control]]
-  - Opponent brings hands high to defend neck, exposing arms
-- **[[Crucifix Capture]]** → [[Crucifix]]
-  - Opponent reaches back with one arm attempting to strip grips
 
 
 </section>
@@ -307,7 +237,7 @@ Success from Standing Back Control Top requires understanding several key mechan
 ## Decision Making from This Position
 
 **If opponent's posture is broken forward and neck is exposed:**
-- Execute **[[Rear Naked Choke attack]]** → [[Won by Submission]] (Probability: 55%)
+- Execute **[[Rear Naked Choke attack]]** → [[game-over]] (Probability: 55%)
 - Execute **[[Maintain control and break down to ground]]** → [[Back Control]] (Probability: 60%)
 
 
@@ -331,7 +261,7 @@ Success from Standing Back Control Top requires understanding several key mechan
 **If opponent drops to their knees defensively:**
 - Execute **[[Follow to grounded back control]]** → [[Back Control]] (Probability: 70%)
 - Execute **[[Transition to truck position]]** → [[Truck]] (Probability: 45%)
-- Execute **[[Attack choke during transition]]** → [[Won by Submission]] (Probability: 50%)
+- Execute **[[Attack choke during transition]]** → [[game-over]] (Probability: 50%)
 
 
 
@@ -412,33 +342,39 @@ Start with compliant partner, establish standing back control. Every 30 seconds 
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Direct rear naked choke path
+## Test Your Knowledge
 
-`Standing Back Control Top → Harness Control → Rear Naked Choke Setup → Won by Submission`
+**Q1**: What is the essential first action when you achieve standing back control?
+**A**: Immediately establish secure harness or seat belt control with one arm over the opponent's shoulder and one under their armpit. Without this upper body connection, the position collapses rapidly as the opponent can simply turn to face you. The harness must be locked before pursuing any submissions or takedowns.
 
-### Grounded back control path
+**Q2**: Your opponent starts widening their base and prying at your hooks - what adjustment should you make?
+**A**: Transition to a body triangle by crossing your ankles around their waist, or if that's not available, reinforce your hooks by driving your heels deeper into their inner thighs while increasing chest pressure. You can also use this as a cue to immediately take them down before they can fully address your leg control, as their focus on hooks creates opportunity for the mat return.
 
-`Standing Back Control Top → Takedown with Control → Back Control → Seat Belt Control Back → Rear Naked Choke → Won by Submission`
+**Q3**: How should you distribute your weight when maintaining standing back control?
+**A**: Stay heavy on the opponent's back with consistent chest-to-back pressure, making them carry your weight while you maintain your own balance through a slightly wider stance. Your weight should drive forward and downward through your chest connection, not through your arms alone. This creates exhausting pressure while keeping you stable for attacks.
 
-### Body triangle to submission path
+**Q4**: When should you choose to take your opponent down versus attempting a standing submission?
+**A**: Take them down when they maintain strong defensive posture with chin tucked and hands protecting the neck, or when they're actively fighting your grips making choke attempts difficult. Pursue standing submissions when their posture is broken forward, their chin is exposed, or they've stopped defending their neck to focus on grip fighting or escaping your hooks.
 
-`Standing Back Control Top → Body Triangle Lock → Back Control → Rear Naked Choke → Won by Submission`
+**Q5**: Your opponent explosively turns their shoulders trying to face you - how do you respond?
+**A**: Follow their rotation by circling with them while maintaining chest connection and harness grip. If they complete a partial turn, transition to front headlock control rather than fighting to maintain back position against their momentum. Alternatively, use their turning motion to take them down to side control by driving through the turn and forcing them to the mat.
 
-### Crucifix transition path
+**Q6**: What are the grip priorities for the choking arm versus the control arm in the harness?
+**A**: The arm over the shoulder (choking arm) should be positioned to threaten the neck and eventually slide under the chin. The arm under the armpit (control arm) grips your own bicep or wrist to lock the harness tight. The control arm prevents separation and rotation while the choking arm positions for the finish. Never abandon the control arm grip to chase the choke prematurely.
 
-`Standing Back Control Top → Grip Fight Counter → Crucifix → Choke from Crucifix → Won by Submission`
+**Q7**: How do you prevent losing the position when your opponent drops their weight suddenly?
+**A**: Maintain harness grip and follow them down to the ground, transitioning to grounded back control. Use the descent to establish hooks if you didn't have them, or convert to body triangle during the transition. The key is anticipating this defensive movement and treating it as an opportunity to consolidate rather than fighting to keep them standing.
 
-### Mounted back control path
-
-`Standing Back Control Top → Mat Return → Mount → High Mount → Armbar from Mount → Won by Submission`
+**Q8**: What common mistake leads to arm fatigue and eventual position loss from standing back control?
+**A**: Using only arm strength to control the opponent without committing body weight through chest connection. This creates an arm wrestling match that exhausts your grip strength quickly. The correction is to use your entire body weight pressing into their back, with arms serving to control direction and prevent rotation rather than providing all the holding force.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 

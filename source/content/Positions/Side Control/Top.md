@@ -20,38 +20,38 @@ description: "Master Side Control Top in BJJ. Complete guide covering submission
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Side Control to Mount",
-      "text": "From this position, execute Side Control to Mount to transition to Mount. Success rate for advanced practitioners: 75%.",
+      "name": "Execute Maintain Side Control",
+      "text": "From this position, attempt Maintain Side Control. This technique is attempted in 20% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to North-South",
-      "text": "From this position, execute Transition to North-South to transition to North-South. Success rate for advanced practitioners: 85%.",
+      "name": "Execute Side Control to Mount",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 18% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Americana from Side Control",
-      "text": "From this position, execute Americana from Side Control to transition to Won by Submission. Success rate for advanced practitioners: 60%.",
+      "name": "Execute Side Control to North-South",
+      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kimura from Side Control",
-      "text": "From this position, execute Kimura from Side Control to transition to Won by Submission. Success rate for advanced practitioners: 55%.",
+      "name": "Execute Americana from Side Control",
+      "text": "From this position, attempt Americana from Side Control. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Arm Triangle",
-      "text": "From this position, execute Arm Triangle to transition to Won by Submission. Success rate for advanced practitioners: 50%.",
+      "name": "Execute Kimura from Side Control",
+      "text": "From this position, attempt Kimura from Side Control. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Armbar from Side Control",
-      "text": "From this position, execute Armbar from Side Control to transition to Won by Submission. Success rate for advanced practitioners: 45%.",
+      "name": "Execute Arm Triangle",
+      "text": "From this position, attempt Arm Triangle. This technique is attempted in 8% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -208,110 +208,24 @@ Side Control Top is one of the most fundamental and dominant positions in Brazil
 
 ## Available Attacks
 
-### [[Side Control to Mount]] → [[Mount]]
+### [[Maintain Side Control]] (20% of attempts)
 
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 60%
-- Advanced: 75%
+### [[Side Control to Mount]] (18% of attempts)
 
-### [[Transition to North-South]] → [[North-South]]
+### [[Side Control to North-South]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 55%
-- Intermediate: 70%
-- Advanced: 85%
+### [[Americana from Side Control]] (12% of attempts)
 
-### [[Americana from Side Control]] → [[Won by Submission]]
+### [[Kimura from Side Control]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Arm Triangle]] (8% of attempts)
 
-### [[Kimura from Side Control]] → [[Won by Submission]]
+### [[Armbar from Side Control]] (7% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
+### [[Knee on Belly]] (10% of attempts)
 
-### [[Arm Triangle]] → [[Won by Submission]]
+### [[North-South Choke]] (5% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
-
-### [[Armbar from Side Control]] → [[Won by Submission]]
-
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 45%
-
-### [[Transition to Mount]] → [[Knee on Belly]]
-
-**Success Rates:**
-- Beginner: 50%
-- Intermediate: 65%
-- Advanced: 80%
-
-### [[North-South Choke]] → [[Won by Submission]]
-
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 25%
-- Advanced: 40%
-
-### [[Paper Cutter Choke]] → [[Won by Submission]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 30%
-- Advanced: 45%
-
-### [[Kimura to Back Take]] → [[Back Control]]
-
-**Success Rates:**
-- Beginner: 18%
-- Intermediate: 30%
-- Advanced: 45%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Elbow Escape]]** → [[Half Guard]] (Opponent Success: 35%)
-- **[[Frame and Shrimp]]** → [[Closed Guard]] (Opponent Success: 30%)
-- **[[Bridge and Roll]]** → [[Standing Position]] (Opponent Success: 15%)
-- **[[Side Control Escape]]** → [[Knee Shield Half Guard]] (Opponent Success: 28%)
-- **[[Hip Escape]]** → [[Butterfly Guard]] (Opponent Success: 25%)
-- **[[Side Control Escape]]** → [[Turtle]] (Opponent Success: 35%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Transition to Mount]]** → [[Mount]]
-  - Opponent attempts to frame and create space under your chest
-- **[[Kimura from Side Control]]** → [[Won by Submission]]
-  - Opponent extends arm to push or frame against your neck
-- **[[Transition to North-South]]** → [[North-South]]
-  - Opponent turns into you attempting to escape toward your legs
-- **[[Transition to Mount]]** → [[Knee on Belly]]
-  - Opponent creates space by bridging or shrimping away
-- **[[Kimura to Back Take]]** → [[Back Control]]
-  - Opponent turns to their side giving up their back
-- **[[Arm Triangle]]** → [[Won by Submission]]
-  - Opponent brings their far arm across their own neck while defending
 
 
 </section>
@@ -321,27 +235,27 @@ Side Control Top is one of the most fundamental and dominant positions in Brazil
 ## Decision Making from This Position
 
 **If opponent's near arm is extended or pushing against your neck or head:**
-- Execute **[[Americana from Side Control]]** → [[Won by Submission]] (Probability: 50%)
-- Execute **[[Kimura from Side Control]]** → [[Won by Submission]] (Probability: 45%)
+- Execute **[[Americana from Side Control]]** → [[game-over]] (Probability: 50%)
+- Execute **[[Kimura from Side Control]]** → [[game-over]] (Probability: 45%)
 
 
 **If opponent creates space by bridging or frames with both arms:**
 - Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 60%)
-- Execute **[[Transition to Mount]]** → [[Knee on Belly]] (Probability: 55%)
+- Execute **[[Knee on Belly]]** → [[Knee on Belly]] (Probability: 55%)
 
 
 **If opponent turns into you attempting to recover guard:**
-- Execute **[[Transition to North-South]]** → [[North-South]] (Probability: 70%)
-- Execute **[[Darce Choke]]** → [[Won by Submission]] (Probability: 35%)
+- Execute **[[Side Control to North-South]]** → [[North-South]] (Probability: 70%)
+- Execute **[[Darce Choke]]** → [[game-over]] (Probability: 35%)
 
 
 **If opponent's far arm crosses their own neck while defending:**
-- Execute **[[Arm Triangle]]** → [[Won by Submission]] (Probability: 55%)
-- Execute **[[Paper Cutter Choke]]** → [[Won by Submission]] (Probability: 40%)
+- Execute **[[Arm Triangle]]** → [[game-over]] (Probability: 55%)
+- Execute **[[Paper Cutter Choke]]** → [[game-over]] (Probability: 40%)
 
 
 **If opponent attempts to insert knee for half guard recovery:**
-- Execute **[[Underhook Pass]]** → [[Half Guard Pass]] (Probability: 65%)
+- Execute **[[Hip Switch Pass]]** → [[Side Control]] (Probability: 65%)
 - Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 50%)
 
 
@@ -423,33 +337,7 @@ Partner attempts specific escape such as elbow escape, bridge and roll, or turni
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
-
-### Highest Percentage Path
-
-`Side Control Top → Americana from Side Control → Won by Submission`
-
-### Advancement to Dominance Path
-
-`Side Control Top → Side Control to Mount → Mount → Armbar from Mount → Won by Submission`
-
-### Reaction-Based Path
-
-`Side Control Top → Transition to North-South → North-South Choke → Won by Submission`
-
-### Arm Isolation Path
-
-`Side Control Top → Kimura from Side Control → Kimura to Back Take → Back Control → Rear Naked Choke → Won by Submission`
-
-### Opportunistic Choke Path
-
-`Side Control Top → Arm Triangle → Won by Submission`
-
-
-
-</section>
 
 <section id="position-metrics" class="content-section">
 
@@ -477,11 +365,11 @@ Partner attempts specific escape such as elbow escape, bridge and roll, or turni
 - **[[Scarf Hold Position]]** - Related holding position with head control emphasis
 - **[[Half Guard]]** - Common escape target for bottom player attempting guard recovery
 - **[[Back Control]]** - Advanced position when opponent turns incorrectly during escape
-- **[[Pressure Application]]** - Core concept for maintaining this position effectively
-- **[[Cross Face Control]]** - Essential control concept for side control dominance
-- **[[Side Control Escapes]]** - Understanding opponent's escape options improves your control and counters
-- **[[Bernardo Faria Pressure System]]** - Systematic approach to pressure-based side control maintenance
-- **[[Positional Hierarchy]]** - Side control as key stage in position advancement progression
+- **[[Americana from Side Control]]** - Primary shoulder lock submission from this position
+- **[[Kimura from Side Control]]** - High-percentage shoulder lock with back take potential
+- **[[Arm Triangle]]** - Head and arm choke available when opponent defends arms incorrectly
+- **[[Darce Choke]]** - Effective choke when opponent turns into you
+- **[[North-South Choke]]** - Powerful submission from north-south transition
 
 
 </section>

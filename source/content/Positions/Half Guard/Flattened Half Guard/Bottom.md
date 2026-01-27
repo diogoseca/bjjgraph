@@ -21,37 +21,37 @@ description: "Learn defensive tactics for surviving and escaping flattened half 
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape",
-      "text": "From this position, execute Hip Escape to transition to Knee Shield Half Guard. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Hip Escape. This technique is attempted in 25% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Deep Half Entry",
-      "text": "From this position, execute Deep Half Entry to transition to Deep Half Guard. Success rate for advanced practitioners: 40%.",
+      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 20% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Frame and Shrimp",
-      "text": "From this position, execute Frame and Shrimp to transition to Half Guard Bottom. Success rate for advanced practitioners: 55%.",
+      "name": "Execute Elbow Escape",
+      "text": "From this position, attempt Elbow Escape. This technique is attempted in 22% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Turtle Transition",
-      "text": "From this position, execute Turtle Transition to transition to Turtle. Success rate for advanced practitioners: 30%.",
+      "name": "Execute Granby Roll",
+      "text": "From this position, attempt Granby Roll. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Lockdown Sweeps",
-      "text": "From this position, execute Lockdown Sweeps to transition to Lockdown. Success rate for advanced practitioners: 25%.",
+      "text": "From this position, attempt Lockdown Sweeps. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Old School Sweep",
-      "text": "From this position, execute Old School Sweep to transition to Mount. Success rate for advanced practitioners: 20%.",
+      "text": "From this position, attempt Old School Sweep. This technique is attempted in 9% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -211,82 +211,18 @@ Understanding the position's risks is equally important. The primary danger is n
 
 ## Available Escapes
 
-### [[Hip Escape]] → [[Knee Shield Half Guard]]
+### [[Hip Escape]] (25% of attempts)
 
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 35%
-- Advanced: 50%
+### [[Deep Half Entry]] (20% of attempts)
 
-### [[Deep Half Entry]] → [[Deep Half Guard]]
+### [[Elbow Escape]] (22% of attempts)
 
-**Success Rates:**
-- Beginner: 10%
-- Intermediate: 25%
-- Advanced: 40%
+### [[Granby Roll]] (12% of attempts)
 
-### [[Frame and Shrimp]] → [[Half Guard Bottom]]
+### [[Lockdown Sweeps]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 40%
-- Advanced: 55%
+### [[Old School Sweep]] (9% of attempts)
 
-### [[Turtle Transition]] → [[Turtle]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 35%
-- Advanced: 30%
-
-### [[Lockdown Sweeps]] → [[Lockdown]]
-
-**Success Rates:**
-- Beginner: 5%
-- Intermediate: 15%
-- Advanced: 25%
-
-### [[Old School Sweep]] → [[Mount]]
-
-**Success Rates:**
-- Beginner: 5%
-- Intermediate: 12%
-- Advanced: 20%
-
-### [[Underhook Sweep from Half]] → [[Half Guard]]
-
-**Success Rates:**
-- Beginner: 3%
-- Intermediate: 8%
-- Advanced: 15%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Crossface Pass]]** → [[Side Control]] (Opponent Success: 60%)
-- **[[Knee Slice from Half]]** → [[Side Control]] (Opponent Success: 55%)
-- **[[Underhook Pass]]** → [[Side Control]] (Opponent Success: 50%)
-- **[[Back Take Generic]]** → [[Back Control]] (Opponent Success: 35%)
-- **[[Kimura from Half Guard]]** → [[Kimura Control]] (Opponent Success: 25%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Frame and Shrimp]]** → [[Knee Shield Half Guard]]
-  - When opponent posts hand to advance position, use that moment to shrimp and create frame space
-- **[[Deep Half Entry]]** → [[Deep Half Guard]]
-  - As opponent shifts weight forward for knee slice, dive under their hips to deep half position
-- **[[Turtle Transition]]** → [[Turtle]]
-  - When opponent begins freeing trapped leg, turn into turtle to prevent side control
 
 
 </section>
@@ -297,17 +233,17 @@ Understanding the position's risks is equally important. The primary danger is n
 
 **If opponent has crossface but you maintain underhook on far side:**
 - Execute **[[Hip Escape]]** → [[Knee Shield Half Guard]] (Probability: 45%)
-- Execute **[[Frame and Shrimp]]** → [[Half Guard Bottom]] (Probability: 40%)
+- Execute **[[Elbow Escape]]** → [[Half Guard]] (Probability: 40%)
 
 
 **If opponent controls both crossface and underhook with heavy chest pressure:**
 - Execute **[[Deep Half Entry]]** → [[Deep Half Guard]] (Probability: 30%)
-- Execute **[[Turtle Transition]]** → [[Turtle]] (Probability: 35%)
+- Execute **[[Granby Roll]]** → [[Turtle]] (Probability: 35%)
 
 
 **If opponent posts hand or shifts weight to advance passing sequence:**
-- Execute **[[Frame and Shrimp]]** → [[Knee Shield Half Guard]] (Probability: 50%)
-- Execute **[[Hip Escape]]** → [[Half Guard Bottom]] (Probability: 40%)
+- Execute **[[Elbow Escape]]** → [[Knee Shield Half Guard]] (Probability: 50%)
+- Execute **[[Hip Escape]]** → [[Half Guard]] (Probability: 40%)
 
 
 
@@ -376,25 +312,39 @@ Begin flattened with partner controlling crossface. Fight to establish underhook
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Recovery to Deep Half Sweep to Kimura
+## Test Your Knowledge
 
-`Flattened Half Guard Bottom → Deep Half Guard → Old School Sweep → Mount → Kimura from Mount`
+**Q1**: What is the correct breathing technique when pinned flat under heavy chest pressure?
+**A**: Practice tactical breathing by taking small, controlled breaths timed with your movements rather than attempting full deep breaths. The opponent's weight prevents full diaphragm expansion, so trying to breathe deeply creates oxygen debt and triggers panic. Small breaths coordinated with hip escapes allow you to maintain oxygenation while conserving energy.
 
-### Frame Recovery to Standard Half Guard Attack
+**Q2**: Your opponent has crossface control - should you fight to remove it or focus elsewhere?
+**A**: Accept the crossface while fighting to maintain your own underhook on their far side. Attempting to remove crossface directly wastes energy and often fails. The underhook is the higher priority because it prevents them from settling full weight and provides the structural foundation for hip escapes. Fight for the underhook, accept the crossface.
 
-`Flattened Half Guard Bottom → Knee Shield Half Guard → Underhook Sweep from Half → Half Guard → Kimura from Half Guard`
+**Q3**: Why are explosive bridge and roll escapes ineffective from flattened half guard?
+**A**: Without frames established, explosive movements have no leverage to generate power against the opponent's weight. These movements burn massive energy while telegraphing your intentions, allowing skilled top players to simply ride your motion and resettle. Incremental micro-adjustments are more effective because each small gain stacks and cannot be countered as easily.
 
-### Lockdown Control to Electric Chair
+**Q4**: Your opponent shifts weight to initiate a knee slice pass - what is the optimal escape timing?
+**A**: The moment they shift weight to pass creates a brief reduction in chest pressure. Use this instant to execute your hip escape, diving under their hips toward deep half guard position. Their commitment to the passing motion means they cannot immediately recover pressure, and your counter-movement takes advantage of their weight transfer.
 
-`Flattened Half Guard Bottom → Lockdown → Electric Chair → Electric Chair Submission`
+**Q5**: What direction should you shrimp to avoid exposing your back during escape attempts?
+**A**: Shrimp toward your trapped leg side, creating space away from your opponent while keeping your chest facing them. Shrimping toward the free leg side or turning away exposes your back, which skilled opponents anticipate and exploit with back takes. The trapped leg side direction maintains defensive orientation while still creating recovery space.
+
+**Q6**: How do you fill the space created by a hip escape to prevent the opponent from following?
+**A**: Immediately insert your elbow, knee, or a frame into the space created by each hip escape. The elbow slides into the gap between you and your opponent, the knee comes up to create knee shield, or your forearm posts on their hip. Never leave created space empty - fill it with structure before the opponent can collapse it again.
+
+**Q7**: Why is the trapped leg hook critical even when flattened with no frames?
+**A**: The leg hook is your final barrier preventing the complete guard pass to side control. Even with compromised frames and limited mobility, the hook forces the top player to solve the leg extraction problem before advancing. Releasing it prematurely surrenders this last defensive barrier and allows immediate pass completion.
+
+**Q8**: What mental approach prevents panic when breathing is restricted under pressure?
+**A**: Develop the ability to remain calm and methodical by accepting temporary discomfort as part of the position. Panic triggers frantic movements that waste energy and tighten opponent's control. Focus on technical execution - systematic micro-adjustments rather than desperate escapes. Mental discipline to maintain the process even when uncomfortable separates successful defenders from those who get passed.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -415,13 +365,13 @@ Begin flattened with partner controlling crossface. Fight to establish underhook
 
 ## Related Positions and Techniques
 
-- **[[Half Guard Bottom]]** - Parent position with active frames that flattened half guard attempts to recover to
+- **[[Half Guard]]** - Parent position with active frames that flattened half guard attempts to recover to
 - **[[Knee Shield Half Guard]]** - Primary target position for frame recovery from flattened half guard
 - **[[Deep Half Guard]]** - Alternative recovery position accessible by diving under opponent's hips when flattened
-- **[[Hip Escape Mechanics]]** - Fundamental movement principle enabling space creation while under pressure
-- **[[Frame Creation]]** - Core defensive principle for re-establishing structure from collapsed positions
-- **[[Dealing with Pressure]]** - Essential concept for maintaining composure and technique while under sustained compression
-- **[[Guard Retention]]** - Broader framework that flattened half guard defense operates within
+- **[[Hip Escape]]** - Fundamental movement technique enabling space creation while under pressure
+- **[[Elbow Escape]]** - Core defensive movement for re-establishing structure from collapsed positions
+- **[[Lockdown]]** - Leg control system that can stabilize flattened position and create sweep opportunities
+- **[[Old School Sweep]]** - Sweep option accessible when recovering underhook from flattened position
 
 
 </section>

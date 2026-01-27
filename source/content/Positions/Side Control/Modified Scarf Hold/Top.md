@@ -21,37 +21,37 @@ description: "Offensive guide for Modified Scarf Hold top position. Master press
     {
       "@type": "HowToStep",
       "name": "Execute Americana from Side Control",
-      "text": "From this position, execute Americana from Side Control to transition to Americana Control. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Americana from Side Control. This technique is attempted in 14% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kimura from Side Control",
-      "text": "From this position, execute Kimura from Side Control to transition to Kimura Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Kimura from Side Control. This technique is attempted in 13% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Armbar from Side Control",
-      "text": "From this position, execute Armbar from Side Control to transition to Armbar Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Armbar from Side Control. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Mount",
-      "text": "From this position, execute Transition to Mount to transition to Mount. Success rate for advanced practitioners: 75%.",
+      "name": "Execute Side Control to Mount",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 15% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to North-South",
-      "text": "From this position, execute Transition to North-South to transition to North-South. Success rate for advanced practitioners: 80%.",
+      "name": "Execute Side Control to North-South",
+      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 14% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute North-South Choke",
-      "text": "From this position, execute North-South Choke to transition to North South Control. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt North-South Choke. This technique is attempted in 11% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -216,89 +216,22 @@ The learning progression for Modified Scarf Hold top follows predictable stages.
 
 ## Available Attacks
 
-### [[Americana from Side Control]] → [[Americana Control]]
+### [[Americana from Side Control]] (14% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Kimura from Side Control]] (13% of attempts)
 
-### [[Kimura from Side Control]] → [[Kimura Control]]
+### [[Armbar from Side Control]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Side Control to Mount]] (15% of attempts)
 
-### [[Armbar from Side Control]] → [[Armbar Control]]
+### [[Side Control to North-South]] (14% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
+### [[North-South Choke]] (11% of attempts)
 
-### [[Transition to Mount]] → [[Mount]]
+### [[Far Side Armbar]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 60%
-- Advanced: 75%
+### [[Arm Triangle]] (11% of attempts)
 
-### [[Transition to North-South]] → [[North-South]]
-
-**Success Rates:**
-- Beginner: 50%
-- Intermediate: 65%
-- Advanced: 80%
-
-### [[North-South Choke]] → [[North South Control]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-### [[Far Side Armbar]] → [[Armbar Control]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
-
-### [[Arm Triangle]] → [[Arm Triangle]]
-
-**Success Rates:**
-- Beginner: 28%
-- Intermediate: 42%
-- Advanced: 58%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Elbow Escape]]** → [[Half Guard]] (Opponent Success: 30%)
-- **[[Bridge and Roll]]** → [[Closed Guard]] (Opponent Success: 20%)
-- **[[Turtle Transition]]** → [[Turtle]] (Opponent Success: 40%)
-- **[[Frame and Shrimp]]** → [[Open Guard]] (Opponent Success: 25%)
-- **[[Ghost Escape]]** → [[Standing Position]] (Opponent Success: 15%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Transition to Mount]]** → [[Mount]]
-  - When opponent bridges or exposes their back during escape attempt
-- **[[Transition to North-South]]** → [[North-South]]
-  - When opponent turns into you to escape chest pressure
-- **[[Back Take Generic]]** → [[Back Control]]
-  - When opponent successfully turns to turtle but exposes back in process
 
 
 </section>
@@ -309,17 +242,17 @@ The learning progression for Modified Scarf Hold top follows predictable stages.
 
 **If opponent's near arm is isolated and extended:**
 - Execute **[[Americana from Side Control]]** → [[Americana Control]] (Probability: 65%)
-- Execute **[[Kimura from Side Control]]** → [[Kimura Control]] (Probability: 55%)
+- Execute **[[Kimura from Side Control]]** → [[Kimura Trap]] (Probability: 55%)
 - Execute **[[Armbar from Side Control]]** → [[Armbar Control]] (Probability: 50%)
 
 
 **If opponent attempts to bridge or turn away from pressure:**
-- Execute **[[Transition to Mount]]** → [[Mount]] (Probability: 70%)
+- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 70%)
 - Execute **[[Back Take Generic]]** → [[Back Control]] (Probability: 55%)
 
 
 **If opponent turns into you to escape chest pressure:**
-- Execute **[[Transition to North-South]]** → [[North-South]] (Probability: 75%)
+- Execute **[[Side Control to North-South]]** → [[North-South]] (Probability: 75%)
 - Execute **[[North-South Choke]]** → [[North South Control]] (Probability: 50%)
 
 
@@ -389,29 +322,39 @@ Partner attempts specific escape (bridge, turtle, turn-in) and you counter with 
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Americana Chain
+## Test Your Knowledge
 
-`Modified Scarf Hold Top → Americana from Side Control → Americana Control → Americana`
+**Q1**: Your opponent starts to bridge explosively - what adjustment do you make to maintain position?
+**A**: Stay on your toes and lower your hips while driving your chest pressure diagonally toward their far shoulder. Anticipate the bridge direction and be ready to transition to mount if they turn away, or to north-south if they turn into you. Never resist the bridge with static weight - flow with their movement while maintaining chest contact.
 
-### Kimura to Armbar
+**Q2**: What are the essential grips and contact points for maintaining Modified Scarf Hold?
+**A**: The primary contact point is sternum-to-sternum chest pressure with your weight driving downward. Control the near arm by threading it under your armpit or wrapping your arm around their head. Your head should be heavy on their face or chest. In gi, secure cross-face grip or lapel control; in no-gi, establish an underhook or head control. Keep your far hand posted for base adjustment.
 
-`Modified Scarf Hold Top → Kimura from Side Control → Kimura Control → Armbar from Side Control → Armbar Control → Armbar Finish`
+**Q3**: How do you shut down your opponent's primary elbow escape attempt from Modified Scarf Hold?
+**A**: Prevent the elbow escape by maintaining heavy hip-to-hip connection on the near side, blocking their ability to create hip space. When you feel them begin to shrimp, drive your hips forward and down while shifting your chest pressure toward their far shoulder. Keep their near arm controlled to prevent frame creation. If they manage to insert a knee, immediately transition to knee-on-belly or float to north-south.
 
-### North-South Transition
+**Q4**: What is the grip priority hierarchy when your opponent begins fighting grips in Modified Scarf Hold?
+**A**: Priority one is maintaining near-arm control - this prevents both frames and submissions. Priority two is chest-to-chest contact through your sternum. Priority three is head position for directional pressure. If forced to release something, release the head position last because it enables both pressure application and submission setups. Never chase grips at the expense of chest pressure.
 
-`Modified Scarf Hold Top → Transition to North-South → North-South → North-South Choke`
+**Q5**: How should you apply pressure to maximize control without exhausting yourself?
+**A**: Use skeletal alignment rather than muscular effort by positioning your sternum directly over their ribcage and letting gravity do the work. Stay on your toes for mobility but let your chest settle heavy. Drive pressure through your core at a 45-degree angle toward their far shoulder rather than straight down. Relax your arms and shoulders - tension should be in your core connection, not your limbs.
 
-### Mount Advancement
+**Q6**: Your opponent creates slight hip space and begins turning their hips toward you - how do you respond?
+**A**: Immediately recognize this as a north-south transition opportunity. Circle your hips toward their head while maintaining chest contact, sliding into north-south position before they can complete the turn. Alternatively, if they expose their back while turning, take the gift and transition to back control. Never fight their turning motion directly - use it to improve your position.
 
-`Modified Scarf Hold Top → Transition to Mount → Mount → Armbar from Mount → Armbar Control → Armbar Finish`
+**Q7**: How do you manage your energy during an extended period in Modified Scarf Hold?
+**A**: Settle your weight through proper skeletal alignment so gravity maintains pressure, not muscular effort. Breathe steadily and avoid holding your breath when applying pressure. Stay mentally calm and patient rather than rushing submissions. Use micro-adjustments rather than major repositioning. Let the position do the work - their energy expenditure escaping should far exceed your energy maintaining.
+
+**Q8**: Your opponent partially escapes and inserts their far knee between your bodies - how do you recover position?
+**A**: Immediately address the knee before it becomes a full knee shield. Drive your hips forward and use your near-side arm to push their knee down and toward their chest, flattening them. If the knee is too established, transition to knee-on-belly on the far side or float to north-south. Never settle into half guard from Modified Scarf Hold - either recover full control or advance position.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -438,8 +381,8 @@ Partner attempts specific escape (bridge, turtle, turn-in) and you counter with 
 - **[[Mount]]** - Advancement position
 - **[[Americana from Side Control]]** - Primary submission attack
 - **[[Kimura from Side Control]]** - High-percentage submission
-- **[[Pressure Application]]** - Core control principle
-- **[[Shoulder Pressure]]** - Specific pressure technique
+- **[[Arm Triangle]]** - Core choke submission
+- **[[Shoulder of Justice]]** - Specific pressure technique
 
 
 </section>

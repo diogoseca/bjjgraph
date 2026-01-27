@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Shin to Shin Pull | BJJ Technique | BJJ Graph"
 description: "Master the Shin to Shin Pull in BJJ. Step-by-step execution from Standing to Shin-to-Shin Guard. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%."
@@ -16,7 +17,7 @@ description: "Master the Shin to Shin Pull in BJJ. Step-by-step execution from S
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Shin to Shin Pull in BJJ",
-  "description": "Step-by-step guide for Shin to Shin Pull from Standing Position to Shin-to-Shin Guard.",
+  "description": "Step-by-step guide for Shin to Shin Pull from Standing Position/Top. Possible outcomes: Shin-to-Shin Guard/Bottom (65%), Standing Position/Top (25%), Standing Position/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -158,11 +159,25 @@ Unlike traditional guard pulls that rely solely on grips, the shin-to-shin pull 
 
 The shin-to-shin pull has become increasingly popular in modern competition BJJ due to its versatility and the difficulty opponents face when trying to disengage. It forms the foundation of systematic guard-based games built around leg entanglement positions and provides a safe entry into offensive guard positions without giving up top position unnecessarily. When executed properly, it immediately places the opponent in a defensive posture while you maintain offensive initiative.
 
-**Starting Position**: [[Standing Position]]
-**Ending Position**: [[Shin-to-Shin Guard]]
+**From Position**: [[Standing Position/Top]]
 **Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Shin-to-Shin Guard/Bottom]] | 65% |
+| Failure | [[Standing Position/Top]] | 25% |
+| Counter | [[Standing Position/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

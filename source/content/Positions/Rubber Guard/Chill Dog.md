@@ -95,32 +95,20 @@ In the 10th Planet system, Chill Dog serves as a critical defensive position tha
 - Explosive execution of chosen escape is critical - hesitation allows opponent to shut down movement
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Granby Roll]]** → [[Closed Guard]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Granby Roll]]** (18% of attempts)
 
-- **[[Granby to Closed Guard]]** → [[Closed Guard]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Granby to Closed Guard]]** (15% of attempts)
 
-- **[[Technical Standup]]** → [[Standing Position]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Technical Standup]]** (20% of attempts)
 
-- **[[Rolling to Guard]]** → [[Half Guard]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Rolling to Guard]]** (15% of attempts)
 
-- **[[Turtle to Guard]]** → [[Open Guard]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Turtle to Guard]]** (17% of attempts)
 
-- **[[Hip Escape]]** → [[Butterfly Guard]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
-
-- **[[Hip Escape]]** → [[Half Guard]]
-  - Success Rate: Beginner 28%, Intermediate 42%, Advanced 58%
-
-- **[[Granby Roll]]** → [[Closed Guard]]
-  - Success Rate: Beginner 22%, Intermediate 38%, Advanced 52%
+- **[[Hip Escape]]** (15% of attempts)
 
 
 ### Common Mistakes
@@ -182,32 +170,22 @@ In the 10th Planet system, Chill Dog serves as a critical defensive position tha
 - Prevent bottom player's escape attempts by controlling their preferred exit routes
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Turtle to Back Control]]** → [[Back Control]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Turtle to Back Control]]** (20% of attempts)
 
-- **[[Crucifix from Turtle]]** → [[Crucifix]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Crucifix from Turtle]]** (15% of attempts)
 
-- **[[Darce Setup]]** → [[D'arce Control]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Darce Setup]]** (13% of attempts)
 
-- **[[Anaconda Setup]]** → [[Anaconda Control]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Anaconda Setup]]** (12% of attempts)
 
-- **[[Front Headlock to Back]]** → [[Back Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Front Headlock to Back]]** (15% of attempts)
 
-- **[[Truck Entry]]** → [[Truck]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Truck Entry]]** (13% of attempts)
 
-- **[[Guillotine Setup]]** → [[Guillotine Control]]
-  - Success Rate: Beginner 18%, Intermediate 32%, Advanced 48%
-
-- **[[Arm Triangle from Turtle]]** → [[Arm Triangle]]
-  - Success Rate: Beginner 15%, Intermediate 28%, Advanced 42%
+- **[[Guillotine Setup]]** (12% of attempts)
 
 
 ### Common Mistakes
@@ -252,8 +230,6 @@ In the 10th Planet system, Chill Dog serves as a critical defensive position tha
 
 - **[[Turtle]]** - Parent position - Chill Dog is a specific defensive variant
 
-- **[[Defensive Position]]** - Category - represents defensive hierarchy in position system
-
 - **[[Closed Guard]]** - Primary target position after Granby roll escape
 
 - **[[Half Guard]]** - Common intermediate position during escape sequences
@@ -264,11 +240,13 @@ In the 10th Planet system, Chill Dog serves as a critical defensive position tha
 
 - **[[Front Headlock]]** - Common opponent attack requiring technical stand-up escape
 
-- **[[Truck]]** - 10th Planet-specific opponent attack if hooks are inserted
-
-- **[[Standing Position]]** - Alternative escape target via technical stand-up
+- **[[Twister Control]]** - 10th Planet-specific opponent attack if hooks are inserted
 
 - **[[Butterfly Guard]]** - Escape option when sitting back from compact posture
+
+- **[[Rubber Guard]]** - 10th Planet guard system to recover after escape
+
+- **[[Lockdown]]** - 10th Planet half guard option after escape sequence
 
 
 </section>

@@ -21,37 +21,37 @@ description: "Master Half Guard Bottom with comprehensive sweeps, submissions, a
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Sweep from Half",
-      "text": "From this position, execute Underhook Sweep from Half to transition to Side Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 20% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Old School Sweep",
-      "text": "From this position, execute Old School Sweep to transition to Mount. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Old School Sweep. This technique is attempted in 15% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Deep Half Entry",
-      "text": "From this position, execute Deep Half Entry to transition to Deep Half Guard. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 15% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Lockdown Sweeps",
-      "text": "From this position, execute Lockdown Sweeps to transition to Side Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Lockdown Sweeps. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Electric Chair Submission",
-      "text": "From this position, execute Electric Chair Submission to transition to Electric Chair. Success rate for advanced practitioners: 45%.",
+      "text": "From this position, attempt Electric Chair Submission. This technique is attempted in 5% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Back Take Generic",
-      "text": "From this position, execute Back Take Generic to transition to Back Control. Success rate for advanced practitioners: 60%.",
+      "name": "Execute Half Guard to Back Take",
+      "text": "From this position, attempt Half Guard to Back Take. This technique is attempted in 15% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -213,93 +213,22 @@ Success in Half Guard Bottom requires mastering the fundamental battle for upper
 
 ## Available Escapes
 
-### [[Underhook Sweep from Half]] → [[Side Control]]
+### [[Underhook Sweep from Half]] (20% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Old School Sweep]] (15% of attempts)
 
-### [[Old School Sweep]] → [[Mount]]
+### [[Deep Half Entry]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Lockdown Sweeps]] (10% of attempts)
 
-### [[Deep Half Entry]] → [[Deep Half Guard]]
+### [[Electric Chair Submission]] (5% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 60%
-- Advanced: 75%
+### [[Half Guard to Back Take]] (15% of attempts)
 
-### [[Lockdown Sweeps]] → [[Side Control]]
+### [[Waiter Sweep]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Kimura from Half Guard]] (10% of attempts)
 
-### [[Electric Chair Submission]] → [[Electric Chair]]
-
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 45%
-
-### [[Back Take Generic]] → [[Back Control]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[Knee Shield Retention]] → [[Knee Shield Half Guard]]
-
-**Success Rates:**
-- Beginner: 50%
-- Intermediate: 65%
-- Advanced: 80%
-
-### [[Waiter Sweep]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Half Guard Pass]]** → [[Side Control]] (Opponent Success: 45%)
-- **[[Knee Slice from Half]]** → [[Side Control]] (Opponent Success: 50%)
-- **[[Underhook Pass]]** → [[Side Control]] (Opponent Success: 40%)
-- **[[Crossface Pass]]** → [[Side Control]] (Opponent Success: 55%)
-- **[[Back Step]]** → [[Mount]] (Opponent Success: 35%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Re-Guard]]** → [[Closed Guard]]
-  - Opponent attempts knee slice pass - recover full guard by inserting knee shield and framing
-- **[[Deep Half Entry]]** → [[Deep Half Guard]]
-  - Opponent drives forward with underhook - dive underneath for deep half position
-- **[[Rolling Back Take]]** → [[Back Control]]
-  - Opponent commits weight forward on trapped leg - use momentum to roll through to back
-- **[[Electric Chair Submission]]** → [[Electric Chair]]
-  - Opponent stands in lockdown attempting to clear leg - extend and finish electric chair
-- **[[Knee Shield Retention]]** → [[Knee Shield Half Guard]]
-  - Opponent attempts to flatten you - create space with shrimp and insert knee shield
 
 
 </section>
@@ -316,7 +245,7 @@ Success in Half Guard Bottom requires mastering the fundamental battle for upper
 **If you have underhook on trapped leg side:**
 - Execute **[[Underhook Sweep from Half]]** → [[Side Control]] (Probability: 65%)
 - Execute **[[Old School Sweep]]** → [[Mount]] (Probability: 60%)
-- Execute **[[Back Take Generic]]** → [[Back Control]] (Probability: 60%)
+- Execute **[[Half Guard to Back Take]]** → [[Back Control]] (Probability: 55%)
 
 
 **If opponent attempts to stand or posture up:**
@@ -331,7 +260,7 @@ Success in Half Guard Bottom requires mastering the fundamental battle for upper
 
 **If opponent attempts knee slice pass:**
 - Execute **[[Knee Shield Retention]]** → [[Knee Shield Half Guard]] (Probability: 70%)
-- Execute **[[Re-Guard]]** → [[Closed Guard]] (Probability: 55%)
+- Execute **[[Guard Recovery]]** → [[Closed Guard]] (Probability: 55%)
 
 
 
@@ -400,29 +329,7 @@ Start in half guard bottom. Top player's goal is to pass within 2 minutes. Botto
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
-
-### Lockdown to Electric Chair Path
-
-`Half Guard Bottom → Lockdown → Electric Chair → Electric Chair Submission`
-
-### Underhook to Back Attack Path
-
-`Half Guard Bottom → Back Take Generic → Back Control → Rear Naked Choke`
-
-### Deep Half to Leg Lock Path
-
-`Half Guard Bottom → Deep Half Guard → Ashi Garami → Heel Hook`
-
-### Sweep to Mount Submission Path
-
-`Half Guard Bottom → Old School Sweep → Mount → Armbar from Mount`
-
-
-
-</section>
 
 <section id="position-metrics" class="content-section">
 
@@ -449,10 +356,9 @@ Start in half guard bottom. Top player's goal is to pass within 2 minutes. Botto
 - **[[Z-Lock Half Guard]]** - Variation using knee shield with shin across opponent's hip
 - **[[Side Control]]** - Common pass destination if half guard is lost
 - **[[Closed Guard]]** - Guard recovery target from half guard
-- **[[10th Planet Half Guard Bottom System]]** - Systematic approach to half guard bottom game
 - **[[Underhook Sweep from Half]]** - Primary offensive technique from this position
 - **[[Old School Sweep]]** - High-percentage sweep to mount from half guard
-- **[[Guard Retention Concepts]]** - Fundamental principles for maintaining guard positions
+- **[[Back Control]]** - Advanced position accessible through back take sequences
 
 
 </section>

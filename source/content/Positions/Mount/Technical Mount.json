@@ -59,315 +59,6 @@
       "relationship": "Alternative top control position if technical mount cannot be maintained"
     }
   ],
-  "bottom": {
-    "name": "Technical Mount Bottom",
-    "description": "Technical Mount Bottom defensive position in BJJ. Complete guide covering armbar defense, escape mechanics, and guard recovery. High-risk position requiring immediate escape response with success rates varying by skill level.",
-    "tags": [
-      "bjj",
-      "position",
-      "technical-mount",
-      "bottom",
-      "defensive",
-      "mount-escape",
-      "high-risk",
-      "armbar-defense"
-    ],
-    "overview": "Technical Mount Bottom is a highly disadvantageous defensive position where the opponent has achieved a hybrid control position between standard mount and side control. The top player has one leg stepped over your body (typically near your head or shoulder) while maintaining chest-to-chest pressure, creating an asymmetrical pin that severely limits your defensive options. This position represents a critical escape scenario as the top player has multiple high-percentage submission threats (primarily armbars and triangles) while maintaining the ability to transition to full mount or take the back.\n\nFrom the bottom perspective, Technical Mount represents one of the most precarious positions in BJJ, as the stepped leg creates an immediate armbar threat while the chest pressure prevents effective hip escape. The position requires immediate defensive framing to protect the arms and create enough space to begin escape sequences. Understanding the specific vulnerabilities of this position - particularly arm exposure and limited hip mobility - is essential for survival and recovery to more favorable defensive positions like half guard or closed guard. The defensive strategy must balance protecting the threatened arm while generating explosive movement to create escape windows during the brief moments when the top player commits weight to submission attempts.",
-    "state_properties": {
-      "point_value": 4,
-      "position_type": "Defensive",
-      "risk_level": "High",
-      "energy_cost": "High",
-      "time_sustainability": "Short"
-    },
-    "state_invariants": [
-      "Opponent has one leg stepped over your body (typically near head/shoulder area) with knee posted on mat, creating asymmetrical mount position with immediate armbar threat and preventing effective bridging",
-      "Your back is flat on the mat with opponent's chest maintaining heavy pressure on your torso, restricting breathing and limiting hip movement while controlling upper body positioning",
-      "Opponent's other leg remains on the opposite side of your body in traditional mount configuration, controlling your hip and preventing bridging movements that would normally disrupt mount control",
-      "Your arms are at high risk of exposure with the stepped-over leg creating an immediate pathway to armbar control if defensive frames collapse or arms extend beyond bent elbow position"
-    ],
-    "prerequisites": [
-      "Opponent successfully transitioned from standard mount by stepping one leg over your body",
-      "Failed to prevent the technical mount transition during opponent's movement from regular mount",
-      "Bottom player is on their back with opponent maintaining chest pressure and weight control",
-      "One or both arms are threatened or controlled by the stepped leg position creating submission exposure"
-    ],
-    "key_principles": [
-      "Immediately establish defensive frames to protect exposed arm from armbar threat - elbows must stay tight to body at all times",
-      "Create space between your shoulder and the mat using bridging pressure to prevent full chest compression and maintain breathing room",
-      "Keep the threatened arm bent and close to chest, never allowing it to extend or straighten under the stepped leg which invites immediate armbar",
-      "Use your free leg (opposite side from stepped leg) to create pushing frames against opponent's hip to generate escape space and hip movement",
-      "Prioritize arm safety over all other considerations - losing the arm to armbar is the most immediate and dangerous threat in this position",
-      "Maintain head position turned away from the stepped leg to prevent triangle setup and protect neck from choke attacks",
-      "Generate explosive bridging movements coordinated with arm protection to create brief windows for hip escape during opponent's weight shifts"
-    ],
-    "offensive_transitions": [
-      {
-        "technique": "Elbow Escape",
-        "target_position": "Half Guard",
-        "success_rates": {
-          "beginner": 15,
-          "intermediate": 30,
-          "advanced": 45
-        }
-      },
-      {
-        "technique": "Upa Escape",
-        "target_position": "Closed Guard",
-        "success_rates": {
-          "beginner": 10,
-          "intermediate": 20,
-          "advanced": 35
-        }
-      },
-      {
-        "technique": "Shrimp Escape",
-        "target_position": "Open Guard",
-        "success_rates": {
-          "beginner": 12,
-          "intermediate": 25,
-          "advanced": 40
-        }
-      },
-      {
-        "technique": "Technical Stand-up",
-        "target_position": "Standing Position",
-        "success_rates": {
-          "beginner": 8,
-          "intermediate": 15,
-          "advanced": 25
-        }
-      },
-      {
-        "technique": "Frame and Shrimp",
-        "target_position": "Turtle",
-        "success_rates": {
-          "beginner": 20,
-          "intermediate": 35,
-          "advanced": 50
-        }
-      },
-      {
-        "technique": "Bridge and Roll",
-        "target_position": "Mount",
-        "success_rates": {
-          "beginner": 5,
-          "intermediate": 12,
-          "advanced": 22
-        }
-      }
-    ],
-    "defensive_responses": [
-      {
-        "technique": "Armbar from Mount",
-        "target_position": "Armbar Control",
-        "success_rate": 70
-      },
-      {
-        "technique": "Triangle from Mount",
-        "target_position": "Triangle Control",
-        "success_rate": 55
-      },
-      {
-        "technique": "Transition to Mount",
-        "target_position": "Mount",
-        "success_rate": 60
-      },
-      {
-        "technique": "Americana from Mount",
-        "target_position": "Americana Control",
-        "success_rate": 45
-      }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Hip Escape",
-        "target_position": "Half Guard",
-        "trigger": "Opponent shifts weight to isolate arm for armbar creating temporary reduction in chest pressure"
-      },
-      {
-        "technique": "Re-Guard",
-        "target_position": "Closed Guard",
-        "trigger": "Opponent postures up to adjust position or switch submission attempts"
-      },
-      {
-        "technique": "Granby Roll",
-        "target_position": "Turtle",
-        "trigger": "Opponent commits full weight forward for submission leaving back temporarily exposed"
-      }
-    ],
-    "decision_tree": [
-      {
-        "condition": "If opponent is stepping leg over to isolate arm for armbar and arm control is being established",
-        "actions": [
-          {
-            "technique": "Elbow Escape",
-            "target": "Half Guard",
-            "probability": 40
-          },
-          {
-            "technique": "Frame and Shrimp",
-            "target": "Turtle",
-            "probability": 35
-          }
-        ]
-      },
-      {
-        "condition": "If opponent maintains heavy chest pressure but hasn't secured armbar grip yet",
-        "actions": [
-          {
-            "technique": "Upa Escape",
-            "target": "Closed Guard",
-            "probability": 30
-          },
-          {
-            "technique": "Bridge and Roll",
-            "target": "Mount",
-            "probability": 25
-          }
-        ]
-      },
-      {
-        "condition": "If opponent is transitioning weight to set up triangle or switch to full mount",
-        "actions": [
-          {
-            "technique": "Shrimp Escape",
-            "target": "Open Guard",
-            "probability": 45
-          },
-          {
-            "technique": "Re-Guard",
-            "target": "Half Guard",
-            "probability": 35
-          }
-        ]
-      },
-      {
-        "condition": "If opponent's base is compromised during transition with weight shifting off posted leg",
-        "actions": [
-          {
-            "technique": "Bridge and Roll",
-            "target": "Mount",
-            "probability": 40
-          },
-          {
-            "technique": "Technical Stand-up",
-            "target": "Standing Position",
-            "probability": 25
-          }
-        ]
-      }
-    ],
-    "common_errors": [
-      {
-        "error": "Extending the threatened arm to push or post, making it vulnerable to armbar",
-        "consequence": "Arm becomes straightened and isolated, allowing opponent to easily transition to armbar finish with high success rate, often resulting in immediate tap",
-        "correction": "Keep threatened arm bent with elbow tight to ribs, using only the free arm for defensive frames against opponent's chest or hip"
-      },
-      {
-        "error": "Turning head toward the stepped leg, exposing neck to triangle setup",
-        "consequence": "Creates opening for opponent to thread arm around neck and lock triangle while maintaining armbar threat, creating dual submission threats",
-        "correction": "Keep head turned away from stepped leg, chin tucked to far shoulder to close triangle angle and protect airway"
-      },
-      {
-        "error": "Remaining flat without creating bridging pressure or frames",
-        "consequence": "Allows opponent to settle full chest weight, making breathing difficult and eliminating all escape pathways while conserving their energy",
-        "correction": "Immediately establish bridging pressure through hips while creating frames with free arm to maintain survival space and breathing room"
-      },
-      {
-        "error": "Attempting to push opponent's stepped leg off without protecting arms first",
-        "consequence": "Exposes both arms to control as you reach for the leg, giving opponent choice of which arm to attack for armbar",
-        "correction": "Secure arm safety with proper frames before attempting any leg manipulation, prioritizing defense over offense in all movements"
-      },
-      {
-        "error": "Panicking and making large, uncontrolled movements that expose limbs",
-        "consequence": "Wild movements create multiple submission opportunities and waste energy without creating effective escape openings",
-        "correction": "Use controlled, deliberate movements focused on creating specific frames and angles rather than explosive thrashing"
-      }
-    ],
-    "training_drills": [
-      {
-        "name": "Technical Mount Survival Drill",
-        "description": "Partner establishes technical mount while you practice maintaining defensive frames and protecting arms. Focus on creating space through bridging and preventing arm extension. Work 2-minute rounds with partner applying gradual pressure increase. Reset whenever arm becomes vulnerable to practice recognition and correction.",
-        "duration": "3 x 2-minute rounds"
-      },
-      {
-        "name": "Armbar Defense Repetitions",
-        "description": "Partner repeatedly attempts armbar from technical mount while you practice keeping elbow tight and creating escape frames. Emphasize the connection between arm protection and hip escape timing. Complete 10 repetitions per side, focusing on the moment of transition when escape windows open as opponent commits to the submission."
-      },
-      {
-        "name": "Progressive Resistance Escapes",
-        "description": "Start with partner giving 50% resistance in technical mount, allowing you to work escape sequences. Gradually increase resistance to 75% and then 90% as technique improves. Focus on one escape path per round (elbow escape, upa, or shrimp to guard). Document which escapes work best for your body type and timing.",
-        "duration": "5 x 3-minute rounds"
-      }
-    ],
-    "optimal_submission_paths": [
-      {
-        "name": "No direct submission paths from bottom",
-        "path": "Technical Mount Bottom → Escape priority → Half Guard → Guard Recovery → Closed Guard → Offensive opportunities"
-      },
-      {
-        "name": "Reversal to submission",
-        "path": "Technical Mount Bottom → Bridge and Roll → Mount → Armbar from Mount → Won by Submission"
-      },
-      {
-        "name": "Emergency escape to safety",
-        "path": "Technical Mount Bottom → Frame and Shrimp → Turtle → Turtle to Guard → Closed Guard → Triangle from Guard → Won by Submission"
-      }
-    ],
-    "related_content": [
-      {
-        "name": "Mount",
-        "relationship": "Parent position - Technical Mount is a specialized variation of standard mount bottom"
-      },
-      {
-        "name": "Technical Mount",
-        "relationship": "Opposing perspective - Understanding top perspective helps inform bottom defense"
-      },
-      {
-        "name": "Armbar Control",
-        "relationship": "Primary threat position - Most common transition if defense fails"
-      },
-      {
-        "name": "Half Guard",
-        "relationship": "Primary escape target - Most achievable defensive recovery position"
-      },
-      {
-        "name": "S Mount",
-        "relationship": "Similar position - Another mount variation with stepped leg creating submission threats"
-      },
-      {
-        "name": "Elbow Escape",
-        "relationship": "Primary escape technique - Core movement pattern for recovering guard"
-      },
-      {
-        "name": "Frame and Shrimp",
-        "relationship": "Essential escape concept - Fundamental defensive movement from pins"
-      },
-      {
-        "name": "Mount Escape Series",
-        "relationship": "Systematic approach - Conceptual framework for all mount escapes including technical mount"
-      }
-    ],
-    "position_metrics": {
-      "retention_rate": {
-        "beginner": 10,
-        "intermediate": 25,
-        "advanced": 40
-      },
-      "advancement_probability": {
-        "beginner": 15,
-        "intermediate": 30,
-        "advanced": 50
-      },
-      "submission_probability": {
-        "beginner": 0,
-        "intermediate": 0,
-        "advanced": 0
-      },
-      "average_time": "15-45 seconds before escape or submission"
-    }
-  },
   "top": {
     "name": "Technical Mount Top",
     "description": "Master Technical Mount Top in BJJ. Complete offensive guide covering armbar setups, submission chains, and back takes. Success rates: Beginner 55%, Intermediate 70%, Advanced 85%.",
@@ -413,113 +104,38 @@
       "Angular Control: Body positioned at angle optimal for armbar swing-over with head on opposite side of attacked arm",
       "Quick Execution: Minimize time in position to prevent defensive recovery—commit to finish immediately upon entry"
     ],
-    "offensive_transitions": [
+    "knowledge_assessment": [
       {
-        "technique": "Mount to Armbar",
-        "target_position": "Armbar Control",
-        "success_rates": {
-          "beginner": 45,
-          "intermediate": 60,
-          "advanced": 75
-        }
+        "question": "What is the primary weight distribution strategy for maintaining Technical Mount while setting up the armbar?",
+        "answer": "Weight should be distributed strategically between the posted leg and the inside knee, with hips elevated but remaining close to the opponent's body. The posted leg provides base against rolling while the inside leg maintains connection. Upper body weight stays over the opponent's chest with the head positioned on the opposite side of the attacked arm to prevent sit-up attempts and maintain control during the transition to armbar."
       },
       {
-        "technique": "Back Take Generic",
-        "target_position": "Back Control",
-        "success_rates": {
-          "beginner": 50,
-          "intermediate": 65,
-          "advanced": 80
-        }
+        "question": "Your opponent starts to bridge explosively while you have their arm controlled in Technical Mount—what adjustment do you make?",
+        "answer": "Ride the bridge by staying heavy on your inside leg and posted leg, keeping your hips tight to their shoulder. As they bridge, their arm often extends further due to the momentum, creating an even better armbar angle. Use their upward momentum to begin your leg swing-over, converting their escape attempt into your finishing opportunity. Never fight the bridge directly—flow with it and capitalize on the space it creates."
       },
       {
-        "technique": "Transition to Mount",
-        "target_position": "Mount",
-        "success_rates": {
-          "beginner": 60,
-          "intermediate": 75,
-          "advanced": 85
-        }
+        "question": "What are the essential grips for maintaining Technical Mount before committing to the armbar finish?",
+        "answer": "Two-handed control of the opponent's arm is critical: one hand grips the wrist firmly while the other controls above the elbow or at the shoulder. This dual grip prevents arm retraction and maintains extension. The wrist grip controls rotation while the elbow grip prevents them from bending the arm. Never post the leg before securing both grips, as losing arm control while in the asymmetric position leaves you vulnerable."
       },
       {
-        "technique": "Arm Triangle from Turtle",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 40,
-          "intermediate": 55,
-          "advanced": 70
-        }
+        "question": "How do you shut down the primary escape from Technical Mount where the opponent turns away to defend the armbar?",
+        "answer": "Anticipate the turn and immediately transition to back control rather than forcing the armbar. Maintain wrist control as they turn, release the armbar grip, and establish seat belt control by threading your arm under their armpit. Your posted leg becomes your first hook as you follow their rotation. The key is reading their shoulder movement early—the moment they begin turning, abandon the armbar and take the back."
       },
       {
-        "technique": "Triangle Setup",
-        "target_position": "Mounted Triangle",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 50,
-          "advanced": 65
-        }
+        "question": "What grip priorities should you maintain when the opponent begins hand-fighting to retract their arm?",
+        "answer": "Prioritize the wrist grip above all else—if you lose the wrist, you lose the armbar. When they hand-fight, keep your wrist grip tight while using your elbow-controlling hand to fight their free hand away or pin it to their body. If they successfully begin retracting, immediately decide: either commit harder by sitting back to the armbar before they escape, or release and return to regular mount to reset. Never stay in half-committed Technical Mount with compromised grips."
       },
       {
-        "technique": "Gift Wrap Control",
-        "target_position": "Gift Wrap",
-        "success_rates": {
-          "beginner": 40,
-          "intermediate": 55,
-          "advanced": 70
-        }
+        "question": "How do you manage energy in Technical Mount given its transitional nature?",
+        "answer": "Technical Mount is a high-intensity, short-duration position—treat it as a 3-8 second window, not a resting position. Enter with immediate attacking intent and commit to finishing quickly. If the armbar isn't there within a few seconds, either transition to back take or return to regular mount to conserve energy. Staying in Technical Mount trying to force submissions burns energy rapidly due to the asymmetric base requiring constant adjustment. Make a decision and execute—hesitation costs energy."
       },
       {
-        "technique": "S-Mount Transition",
-        "target_position": "S Mount",
-        "success_rates": {
-          "beginner": 45,
-          "intermediate": 60,
-          "advanced": 75
-        }
-      }
-    ],
-    "defensive_responses": [
-      {
-        "technique": "Upa Escape",
-        "target_position": "Open Guard",
-        "success_rate": 25
+        "question": "Your opponent creates frames with their free arm against your hip to prevent you from completing the armbar swing-over—how do you recover?",
+        "answer": "Use the frame to your advantage by attacking the free arm instead. Their frame exposes that arm for gift wrap control—swim your hand under their framing arm and grab their far shoulder or collar. Once the gift wrap is secured, you can either return to the original armbar with superior control, attack the newly trapped arm, or use the gift wrap to take the back. Their defensive frame becomes your offensive opportunity."
       },
       {
-        "technique": "Elbow Escape",
-        "target_position": "Half Guard",
-        "success_rate": 30
-      },
-      {
-        "technique": "Bridge and Roll",
-        "target_position": "Mount",
-        "success_rate": 20
-      },
-      {
-        "technique": "Arm Extraction",
-        "target_position": "Mount",
-        "success_rate": 35
-      }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Back Take Generic",
-        "target_position": "Back Control",
-        "trigger": "Opponent turns away to defend armbar by pulling arm back"
-      },
-      {
-        "technique": "Armbar Defense Counter",
-        "target_position": "Armbar Control",
-        "trigger": "Opponent attempts to stack by driving forward, creating angle for leg swing-over"
-      },
-      {
-        "technique": "Transition to Mount",
-        "target_position": "Mount",
-        "trigger": "Opponent successfully retracts arm before submission completion"
-      },
-      {
-        "technique": "Gift Wrap Control",
-        "target_position": "Gift Wrap",
-        "trigger": "Opponent uses free arm to defend armbar, creating gift wrap opportunity"
+        "question": "What are the key indicators that tell you to abandon the armbar attempt and transition to back control instead?",
+        "answer": "Transition to back control when: the opponent successfully bends their elbow and begins retracting the arm, they turn their shoulders away from you more than 45 degrees, they begin sitting up despite your head pressure, or their free arm establishes strong frames preventing your swing-over. The back take is the safety valve—whenever the armbar feels forced or the opponent is winning the arm battle, immediately shift to back control. A guaranteed back take beats a low-percentage armbar attempt."
       }
     ],
     "decision_tree": [
@@ -532,7 +148,7 @@
             "probability": 70
           },
           {
-            "technique": "S-Mount Transition",
+            "technique": "High Mount Transition",
             "target": "S Mount",
             "probability": 60
           }
@@ -557,7 +173,7 @@
         "condition": "If opponent successfully retracts arm before armbar completion",
         "actions": [
           {
-            "technique": "Transition to Mount",
+            "technique": "Side Control to Mount",
             "target": "Mount",
             "probability": 80
           },
@@ -628,28 +244,6 @@
         "duration": "5 minutes"
       }
     ],
-    "optimal_submission_paths": [
-      {
-        "name": "Direct Armbar Path",
-        "path": "Mount → Technical Mount → Armbar Control → Armbar from Mount → Won by Submission"
-      },
-      {
-        "name": "Back Take to Rear Naked Choke",
-        "path": "Mount → Technical Mount → Back Control → Rear Naked Choke → Won by Submission"
-      },
-      {
-        "name": "Gift Wrap to Crucifix",
-        "path": "Mount → Technical Mount → Gift Wrap → Crucifix → Armbar from Crucifix → Won by Submission"
-      },
-      {
-        "name": "S-Mount to Armbar Chain",
-        "path": "Mount → Technical Mount → S Mount → Armbar Control → Armbar from Mount → Won by Submission"
-      },
-      {
-        "name": "Triangle from Failed Armbar",
-        "path": "Mount → Technical Mount → Mounted Triangle → Triangle from Mount → Won by Submission"
-      }
-    ],
     "related_content": [
       {
         "name": "Mount",
@@ -686,10 +280,6 @@
       {
         "name": "Armbar from Mount",
         "relationship": "Primary submission - finish technique from this position"
-      },
-      {
-        "name": "Submission Chains",
-        "relationship": "Conceptual framework - Technical Mount exemplifies creating submission dilemmas"
       }
     ],
     "position_metrics": {
@@ -709,6 +299,285 @@
         "advanced": 75
       },
       "average_time": "3-8 seconds (highly transitional)"
-    }
+    },
+    "transitions": [
+      {
+        "transition": "Mount to Armbar",
+        "attempt_probability": 25
+      },
+      {
+        "transition": "Back Take Generic",
+        "attempt_probability": 22
+      },
+      {
+        "transition": "Side Control to Mount",
+        "attempt_probability": 15
+      },
+      {
+        "transition": "Triangle Setup",
+        "attempt_probability": 15
+      },
+      {
+        "transition": "Gift Wrap Control",
+        "attempt_probability": 13
+      },
+      {
+        "transition": "High Mount Transition",
+        "attempt_probability": 10
+      }
+    ]
+  },
+  "bottom": {
+    "name": "Technical Mount Bottom",
+    "description": "Technical Mount Bottom defensive position in BJJ. Complete guide covering armbar defense, escape mechanics, and guard recovery. High-risk position requiring immediate escape response with success rates varying by skill level.",
+    "tags": [
+      "bjj",
+      "position",
+      "technical-mount",
+      "bottom",
+      "defensive",
+      "mount-escape",
+      "high-risk",
+      "armbar-defense"
+    ],
+    "overview": "Technical Mount Bottom is a highly disadvantageous defensive position where the opponent has achieved a hybrid control position between standard mount and side control. The top player has one leg stepped over your body (typically near your head or shoulder) while maintaining chest-to-chest pressure, creating an asymmetrical pin that severely limits your defensive options. This position represents a critical escape scenario as the top player has multiple high-percentage submission threats (primarily armbars and triangles) while maintaining the ability to transition to full mount or take the back.\n\nFrom the bottom perspective, Technical Mount represents one of the most precarious positions in BJJ, as the stepped leg creates an immediate armbar threat while the chest pressure prevents effective hip escape. The position requires immediate defensive framing to protect the arms and create enough space to begin escape sequences. Understanding the specific vulnerabilities of this position - particularly arm exposure and limited hip mobility - is essential for survival and recovery to more favorable defensive positions like half guard or closed guard. The defensive strategy must balance protecting the threatened arm while generating explosive movement to create escape windows during the brief moments when the top player commits weight to submission attempts.",
+    "state_properties": {
+      "point_value": 4,
+      "position_type": "Defensive",
+      "risk_level": "High",
+      "energy_cost": "High",
+      "time_sustainability": "Short"
+    },
+    "state_invariants": [
+      "Opponent has one leg stepped over your body (typically near head/shoulder area) with knee posted on mat, creating asymmetrical mount position with immediate armbar threat and preventing effective bridging",
+      "Your back is flat on the mat with opponent's chest maintaining heavy pressure on your torso, restricting breathing and limiting hip movement while controlling upper body positioning",
+      "Opponent's other leg remains on the opposite side of your body in traditional mount configuration, controlling your hip and preventing bridging movements that would normally disrupt mount control",
+      "Your arms are at high risk of exposure with the stepped-over leg creating an immediate pathway to armbar control if defensive frames collapse or arms extend beyond bent elbow position"
+    ],
+    "prerequisites": [
+      "Opponent successfully transitioned from standard mount by stepping one leg over your body",
+      "Failed to prevent the technical mount transition during opponent's movement from regular mount",
+      "Bottom player is on their back with opponent maintaining chest pressure and weight control",
+      "One or both arms are threatened or controlled by the stepped leg position creating submission exposure"
+    ],
+    "key_principles": [
+      "Immediately establish defensive frames to protect exposed arm from armbar threat - elbows must stay tight to body at all times",
+      "Create space between your shoulder and the mat using bridging pressure to prevent full chest compression and maintain breathing room",
+      "Keep the threatened arm bent and close to chest, never allowing it to extend or straighten under the stepped leg which invites immediate armbar",
+      "Use your free leg (opposite side from stepped leg) to create pushing frames against opponent's hip to generate escape space and hip movement",
+      "Prioritize arm safety over all other considerations - losing the arm to armbar is the most immediate and dangerous threat in this position",
+      "Maintain head position turned away from the stepped leg to prevent triangle setup and protect neck from choke attacks",
+      "Generate explosive bridging movements coordinated with arm protection to create brief windows for hip escape during opponent's weight shifts"
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the most critical defensive priority when you find yourself in Technical Mount Bottom?",
+        "answer": "Protecting your arms from extension is the absolute priority. Keep both elbows tight to your ribs with arms bent—never extend to push or frame until you've established proper defensive structure. The stepped leg creates an immediate pathway to armbar if either arm straightens. Everything else—breathing, hip movement, escape attempts—is secondary to keeping your arms safe from isolation and extension."
+      },
+      {
+        "question": "Your opponent shifts their weight forward to set up the armbar—what escape window does this create and how do you exploit it?",
+        "answer": "When they shift forward for the armbar, their weight comes off your hips, creating a brief window for hip escape. Immediately shrimp your hips away from them while keeping your threatened arm bent and tight. Use your free leg to push against their hip to generate additional space. Time the hip escape to coincide with their forward weight shift—this is your best chance to recover half guard or insert a knee shield before they complete the submission."
+      },
+      {
+        "question": "What is the correct head position in Technical Mount Bottom and why is it critical?",
+        "answer": "Keep your head turned away from the stepped leg (toward the side where their normal mount leg is). Turning toward the stepped leg exposes your neck to triangle attacks—they can thread their arm around your neck while maintaining the armbar threat on your arm, creating dual submission threats. The turned-away head position also helps you see and defend against back takes if you manage to turn to your side during escape attempts."
+      },
+      {
+        "question": "How do you establish effective defensive frames without extending your arms and exposing them to armbar?",
+        "answer": "Use your free arm (the one not threatened by the stepped leg) to create a frame against their hip or chest with your elbow bent at 90 degrees—forearm perpendicular to their body, elbow tight to your ribs. Never push with a straightened arm. For the threatened arm, keep it bent and glued to your chest, using your hand to grip your own collar or grab your opposite shoulder. Frames should be structural, not muscular pushing."
+      },
+      {
+        "question": "When should you attempt to escape Technical Mount versus simply surviving and defending?",
+        "answer": "Attempt escapes only when the opponent commits to a submission attack or position transition—these moments shift their weight and create openings. When they commit forward for the armbar, their hip pressure decreases allowing hip escapes. When they adjust grips, brief windows open. Pure survival mode is appropriate when they're settled with heavy pressure and you're recovering breath or waiting for them to move. Never force escapes when they're stable—you'll burn energy and likely expose your arms."
+      },
+      {
+        "question": "What is the bridge and roll timing from Technical Mount Bottom and what makes it different from standard mount escapes?",
+        "answer": "The bridge and roll from Technical Mount is lower percentage than from regular mount because the asymmetric position compromises your bridging power on the stepped-leg side. Time the bridge when opponent's weight shifts toward the armbar setup—bridge toward the side of their normal mount leg (away from the stepped leg) where their base is weaker. The bridge must be more explosive than normal because you have less leverage. Often the bridge serves more to create hip escape opportunities than to complete a full reversal."
+      },
+      {
+        "question": "If your arm becomes trapped and the opponent begins the armbar swing-over, what is your final defensive option?",
+        "answer": "Once the swing-over begins, your best option is to follow their rotation and turn with them, attempting to come up to your knees as they fall back. Grab your own hands together (gable grip) with the trapped arm to prevent extension. If you can get to your knees as they sit back, you can stack them and potentially free your arm. This requires committed explosive movement—half-measures at this stage result in finished armbars. The key is recognizing the swing-over early and immediately committing to the stack defense."
+      },
+      {
+        "question": "How do you recover guard from Technical Mount Bottom once you've created space through hip escapes?",
+        "answer": "After creating space through hip escapes, immediately insert your knee between your bodies as a knee shield—aim to get your shin across their torso with your foot hooking their far hip. This is your half guard recovery. For full guard recovery, you need more space—continue shrimping until you can bring your far leg around their body and close your guard. Prioritize any guard recovery over staying flat—even quarter guard or butterfly hook gives you offensive options and removes immediate submission threats."
+      }
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent is stepping leg over to isolate arm for armbar and arm control is being established",
+        "actions": [
+          {
+            "technique": "Elbow Escape",
+            "target": "Half Guard",
+            "probability": 40
+          },
+          {
+            "technique": "Frame and Shrimp",
+            "target": "Turtle",
+            "probability": 35
+          }
+        ]
+      },
+      {
+        "condition": "If opponent maintains heavy chest pressure but hasn't secured armbar grip yet",
+        "actions": [
+          {
+            "technique": "Upa Escape",
+            "target": "Closed Guard",
+            "probability": 30
+          },
+          {
+            "technique": "Bridge and Roll",
+            "target": "Mount",
+            "probability": 25
+          }
+        ]
+      },
+      {
+        "condition": "If opponent is transitioning weight to set up triangle or switch to full mount",
+        "actions": [
+          {
+            "technique": "Hip Escape",
+            "target": "Open Guard",
+            "probability": 45
+          },
+          {
+            "technique": "Guard Replacement",
+            "target": "Half Guard",
+            "probability": 35
+          }
+        ]
+      },
+      {
+        "condition": "If opponent's base is compromised during transition with weight shifting off posted leg",
+        "actions": [
+          {
+            "technique": "Bridge and Roll",
+            "target": "Mount",
+            "probability": 40
+          },
+          {
+            "technique": "Stand Up in Base",
+            "target": "Standing Position",
+            "probability": 25
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Extending the threatened arm to push or post, making it vulnerable to armbar",
+        "consequence": "Arm becomes straightened and isolated, allowing opponent to easily transition to armbar finish with high success rate, often resulting in immediate tap",
+        "correction": "Keep threatened arm bent with elbow tight to ribs, using only the free arm for defensive frames against opponent's chest or hip"
+      },
+      {
+        "error": "Turning head toward the stepped leg, exposing neck to triangle setup",
+        "consequence": "Creates opening for opponent to thread arm around neck and lock triangle while maintaining armbar threat, creating dual submission threats",
+        "correction": "Keep head turned away from stepped leg, chin tucked to far shoulder to close triangle angle and protect airway"
+      },
+      {
+        "error": "Remaining flat without creating bridging pressure or frames",
+        "consequence": "Allows opponent to settle full chest weight, making breathing difficult and eliminating all escape pathways while conserving their energy",
+        "correction": "Immediately establish bridging pressure through hips while creating frames with free arm to maintain survival space and breathing room"
+      },
+      {
+        "error": "Attempting to push opponent's stepped leg off without protecting arms first",
+        "consequence": "Exposes both arms to control as you reach for the leg, giving opponent choice of which arm to attack for armbar",
+        "correction": "Secure arm safety with proper frames before attempting any leg manipulation, prioritizing defense over offense in all movements"
+      },
+      {
+        "error": "Panicking and making large, uncontrolled movements that expose limbs",
+        "consequence": "Wild movements create multiple submission opportunities and waste energy without creating effective escape openings",
+        "correction": "Use controlled, deliberate movements focused on creating specific frames and angles rather than explosive thrashing"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Technical Mount Survival Drill",
+        "description": "Partner establishes technical mount while you practice maintaining defensive frames and protecting arms. Focus on creating space through bridging and preventing arm extension. Work 2-minute rounds with partner applying gradual pressure increase. Reset whenever arm becomes vulnerable to practice recognition and correction.",
+        "duration": "3 x 2-minute rounds"
+      },
+      {
+        "name": "Armbar Defense Repetitions",
+        "description": "Partner repeatedly attempts armbar from technical mount while you practice keeping elbow tight and creating escape frames. Emphasize the connection between arm protection and hip escape timing. Complete 10 repetitions per side, focusing on the moment of transition when escape windows open as opponent commits to the submission.",
+        "duration": "5 minutes"
+      },
+      {
+        "name": "Progressive Resistance Escapes",
+        "description": "Start with partner giving 50% resistance in technical mount, allowing you to work escape sequences. Gradually increase resistance to 75% and then 90% as technique improves. Focus on one escape path per round (elbow escape, upa, or shrimp to guard). Document which escapes work best for your body type and timing.",
+        "duration": "5 x 3-minute rounds"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Mount",
+        "relationship": "Parent position - Technical Mount is a specialized variation of standard mount bottom"
+      },
+      {
+        "name": "Technical Mount",
+        "relationship": "Opposing perspective - Understanding top perspective helps inform bottom defense"
+      },
+      {
+        "name": "Armbar Control",
+        "relationship": "Primary threat position - Most common transition if defense fails"
+      },
+      {
+        "name": "Half Guard",
+        "relationship": "Primary escape target - Most achievable defensive recovery position"
+      },
+      {
+        "name": "S Mount",
+        "relationship": "Similar position - Another mount variation with stepped leg creating submission threats"
+      },
+      {
+        "name": "Elbow Escape",
+        "relationship": "Primary escape technique - Core movement pattern for recovering guard"
+      },
+      {
+        "name": "Frame and Shrimp",
+        "relationship": "Essential escape concept - Fundamental defensive movement from pins"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "beginner": 10,
+        "intermediate": 25,
+        "advanced": 40
+      },
+      "advancement_probability": {
+        "beginner": 15,
+        "intermediate": 30,
+        "advanced": 50
+      },
+      "submission_probability": {
+        "beginner": 0,
+        "intermediate": 0,
+        "advanced": 0
+      },
+      "average_time": "15-45 seconds before escape or submission"
+    },
+    "transitions": [
+      {
+        "transition": "Elbow Escape",
+        "attempt_probability": 28
+      },
+      {
+        "transition": "Upa Escape",
+        "attempt_probability": 20
+      },
+      {
+        "transition": "Hip Escape",
+        "attempt_probability": 22
+      },
+      {
+        "transition": "Frame and Shrimp",
+        "attempt_probability": 20
+      },
+      {
+        "transition": "Bridge and Roll",
+        "attempt_probability": 10
+      }
+    ]
   }
 }

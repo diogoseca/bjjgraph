@@ -21,37 +21,37 @@ description: "Master Spider Guard Top in BJJ. Learn grip breaking, passing strat
     {
       "@type": "HowToStep",
       "name": "Execute Toreando Pass",
-      "text": "From this position, execute Toreando Pass to transition to Side Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Toreando Pass. This technique is attempted in 15% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag Pass",
-      "text": "From this position, execute Leg Drag Pass to transition to Side Control. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 15% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, execute Knee Slice Pass to transition to Side Control. Success rate for advanced practitioners: 58%.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 15% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute X Pass",
-      "text": "From this position, execute X Pass to transition to Side Control. Success rate for advanced practitioners: 52%.",
+      "text": "From this position, attempt X Pass. This technique is attempted in 14% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Stack Pass",
-      "text": "From this position, execute Stack Pass to transition to Side Control. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Stack Pass. This technique is attempted in 13% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Long Step Pass",
-      "text": "From this position, execute Long Step Pass to transition to Headquarters Position. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Long Step Pass. This technique is attempted in 15% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -208,84 +208,20 @@ Spider Guard Top is the position where the top player is standing or on their kn
 
 ## Available Attacks
 
-### [[Toreando Pass]] → [[Side Control]]
+### [[Toreando Pass]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Leg Drag Pass]] (15% of attempts)
 
-### [[Leg Drag Pass]] → [[Side Control]]
+### [[Knee Slice Pass]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
+### [[X Pass]] (14% of attempts)
 
-### [[Knee Slice Pass]] → [[Side Control]]
+### [[Stack Pass]] (13% of attempts)
 
-**Success Rates:**
-- Beginner: 28%
-- Intermediate: 42%
-- Advanced: 58%
+### [[Long Step Pass]] (15% of attempts)
 
-### [[X Pass]] → [[Side Control]]
+### [[Double Under Pass]] (13% of attempts)
 
-**Success Rates:**
-- Beginner: 22%
-- Intermediate: 38%
-- Advanced: 52%
-
-### [[Stack Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
-
-### [[Long Step Pass]] → [[Headquarters Position]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-### [[Double Under Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 18%
-- Intermediate: 32%
-- Advanced: 48%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Scissor Sweep]]** → [[Mount]] (Opponent Success: 35%)
-- **[[Lasso Guard Sweeps]]** → [[Mount]] (Opponent Success: 40%)
-- **[[Triangle Setup]]** → [[Triangle Control]] (Opponent Success: 25%)
-- **[[Omoplata Sweep]]** → [[Omoplata Control]] (Opponent Success: 20%)
-- **[[Armbar from Guard]]** → [[Armbar Control]] (Opponent Success: 18%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Grip Break]]** → [[Combat Base]]
-  - Bottom player attempts to establish second sleeve grip or transition to Lasso
-- **[[Leg Weave Pass]]** → [[Side Control]]
-  - Bottom player switches to single-side Spider Guard with one hook
-- **[[Knee Cut Pass]]** → [[Side Control]]
-  - Bottom player releases foot pressure to attempt triangle or omoplata entry
-- **[[Back Step]]** → [[Leg Drag Control]]
-  - Bottom player commits to lasso sweep attempt on one side
 
 
 </section>
@@ -302,7 +238,7 @@ Spider Guard Top is the position where the top player is standing or on their kn
 **Else if bottom player transitions to Lasso Guard on one side while maintaining Spider Guard on other:**
 - Execute **[[Toreando Pass]]** → [[Side Control]] (Probability: 50%)
 - Execute **[[Back Step]]** → [[Leg Drag Control]] (Probability: 35%)
-- Execute **[[X Pass]]** → [[Side Control]] (Probability: 30%)
+- Execute **[[X Pass]]** → [[Side Control]] (Probability: 15%)
 
 
 **Else if bottom player has single-side Spider Guard with free hand controlling collar or lapel:**
@@ -311,13 +247,13 @@ Spider Guard Top is the position where the top player is standing or on their kn
 
 
 **Else if bottom player commits to triangle or omoplata entry, releasing foot pressure:**
-- Execute **[[Stack Pass]]** → [[Side Control]] (Probability: 60%)
-- Execute **[[Leg Drag Pass]]** → [[Side Control]] (Probability: 50%)
+- Execute **[[Stack Pass]]** → [[Side Control]] (Probability: 55%)
+- Execute **[[Leg Drag Pass]]** → [[Side Control]] (Probability: 45%)
 
 
 **Else if grips are broken and bottom player has not yet re-established guard structure:**
-- Execute **[[Double Under Pass]]** → [[Side Control]] (Probability: 65%)
-- Execute **[[Toreando Pass]]** → [[Side Control]] (Probability: 60%)
+- Execute **[[Double Under Pass]]** → [[Side Control]] (Probability: 55%)
+- Execute **[[Toreando Pass]]** → [[Side Control]] (Probability: 45%)
 
 
 
@@ -403,29 +339,39 @@ Bottom player starts in Spider Guard and attempts to transition one hook to lass
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Shortest path to dominant position
+## Test Your Knowledge
 
-`Spider Guard Top → Toreando Pass → Side Control → Mount → Armbar from Mount`
+**Q1**: Your opponent establishes Spider Guard with both feet on your biceps and strong sleeve grips - what is your first priority before attempting to pass?
+**A**: Your first priority must be systematically breaking the sleeve grips before attempting any passing sequence. With grips intact, any forward movement plays into the Spider Guard player's strength by loading their sweeping mechanisms. Use the thumb strip or two-hands-on-one break while maintaining upright posture. Only after breaking at least one grip should you initiate passing sequences.
 
-### High-percentage grip break to back attack
+**Q2**: What base and stance fundamentals should you maintain when facing Spider Guard?
+**A**: Maintain a wide stance with feet outside the opponent's hips and weight distributed evenly between both legs. Keep knees slightly bent for mobility and your back straight with shoulders over hips to maintain strong posture. This base prevents the most common sweeps which rely on compromising your balance by catching you with weight committed to one side or with a narrow base.
 
-`Spider Guard Top → Grip Break → Leg Drag Pass → Back Control → Rear Naked Choke`
+**Q3**: How do you recognize when the bottom player is transitioning from Spider Guard to Lasso Guard, and what should you do immediately?
+**A**: The transition signal is when one foot begins threading under your arm toward your shoulder rather than pushing against your bicep. You must act immediately during this transition window before the lasso is secured deeply. Either strip the sleeve grip on that side and step back, or circle toward the lasso side and begin a backstep passing sequence before the lasso is fully established.
 
-### Technical passing to submission control
+**Q4**: Why should you avoid using your arms to push against the foot pressure on your biceps?
+**A**: Using your arms to fight foot pressure creates rapid arm fatigue while the bottom player maintains control with minimal energy expenditure using their stronger leg muscles. This is an energy battle you cannot win. Instead, use posture, distance management, and systematic grip breaks to neutralize the Spider Guard. Step back to reduce foot pressure effectiveness rather than muscling through it.
 
-`Spider Guard Top → Knee Slice Pass → Side Control → North-South → Kimura from North-South`
+**Q5**: After successfully breaking your opponent's grips, what must you do immediately to prevent guard re-establishment?
+**A**: Immediately control the opponent's pants at the knees or ankles and drive forward pressure to flatten their guard structure before they can re-establish grips. Simply breaking grips and pausing allows immediate Spider Guard recovery. The moment grips break, you must establish your own dominant grips and begin your passing sequence to capitalize on the positional advantage you've created.
 
-### Counter-sweep to dominant finish
+**Q6**: Your opponent has single-side Spider Guard with their other hand on your collar - what passing opportunity does this create?
+**A**: Single-side Spider Guard with collar grip creates an opening for knee slice or long step passing sequences on the uncontrolled side. The collar grip controls posture but doesn't control the passing lane on the side without the bicep hook. Address the collar grip with posture or strip it, then immediately attack with knee slice, cutting toward the side that has no Spider Guard hook defending it.
 
-`Spider Guard Top → Stack Pass → Side Control → Mount → Ezekiel Choke`
+**Q7**: When the bottom player releases foot pressure to attack with a triangle or omoplata entry, how should you respond?
+**A**: The moment they release foot pressure for a submission entry, you have a window to either stack pass by driving your weight forward and stacking them on their shoulders, or execute a leg drag pass by controlling the attacking leg and dragging it across their body. Their commitment to the submission attempt temporarily removes their distance control, creating a passing opportunity if you recognize it immediately.
+
+**Q8**: How do you manage energy expenditure when facing a skilled Spider Guard player in a long match?
+**A**: Prioritize posture and distance over constant forward pressure. Step back when necessary to reset rather than fighting through strong grips. Use efficient grip-breaking mechanics rather than strength-based breaks. Wait for transition moments when they're moving between positions or switching grips to launch your passing attacks. Avoid prolonged static grip battles which favor the guard player's energy conservation.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -450,12 +396,12 @@ Bottom player starts in Spider Guard and attempts to transition one hook to lass
 - **[[Combat Base]]** - Transitional position for grip fighting and passing setup
 - **[[Toreando Pass]]** - Primary passing technique from Spider Guard Top
 - **[[Lasso Guard]]** - Common variation when bottom player transitions from Spider Guard
-- **[[Grip Fighting]]** - Essential concept for success in Spider Guard Top
-- **[[Guard Passing Principles]]** - Fundamental concepts applicable to Spider Guard passing
 - **[[Leg Drag Pass]]** - High-percentage passing option from Spider Guard Top
 - **[[X Pass]]** - Effective passing technique against lasso transitions
-- **[[Posture Breaking]]** - Key defensive concept - what bottom player attempts, top player must defend
 - **[[Open Guard]]** - Parent category of guard passing positions
+- **[[Knee Slice Pass]]** - Complementary passing technique for single-side Spider Guard
+- **[[Side Control]]** - Primary target position after successful pass
+- **[[Headquarters Position]]** - Intermediate passing position when pass is partially successful
 
 
 </section>

@@ -16,19 +16,15 @@
   "related_positions": [
     {
       "name": "Turtle",
-      "relationship": "Parent position for bottom defensive perspective"
-    },
-    {
-      "name": "Turtle",
-      "relationship": "Traditional turtle position that crackhead control evolved from"
+      "relationship": "Parent position that crackhead control evolved from with enhanced mechanics"
     },
     {
       "name": "Back Control",
       "relationship": "Primary advancement target from top perspective"
     },
     {
-      "name": "Truck",
-      "relationship": "Alternative advancement path for leg attack and twister systems"
+      "name": "Twister Control",
+      "relationship": "Alternative advancement path for leg attack and twister systems via truck"
     },
     {
       "name": "Crab Ride",
@@ -55,6 +51,286 @@
       "relationship": "Alternative front headlock finish from top perspective"
     }
   ],
+  "top": {
+    "name": "Crackhead Control Top",
+    "description": "Master Crackhead Control Top in BJJ. Dominant turtle attack with chair-sit mechanics isolating opponent's hips. Advanced practitioners achieve 85% retention and 75% advancement rates.",
+    "tags": [
+      "bjj",
+      "position",
+      "top-control",
+      "turtle-attack",
+      "back-control-entry",
+      "submission-control",
+      "advanced",
+      "10th-planet",
+      "chair-sit"
+    ],
+    "overview": "Crackhead Control Top is an advanced turtle control position characterized by the top practitioner sitting on the opponent's hips in a chair-like position while controlling the upper body. Named for its unusual appearance and the awkward positioning it creates for the bottom player, this position combines elements of traditional turtle control with modern leg riding mechanics. The controlling practitioner sits with their hips loaded on the opponent's lower back/hip area, one leg typically hooked inside while maintaining upper body control through various grips - commonly an overhook or seatbelt configuration.\n\nThis position serves as an excellent platform for back takes, truck entries, and various submission attacks including the twister, darce, and anaconda chokes. The asymmetric weight distribution and hip isolation make it extremely difficult for the bottom player to escape or recover guard, creating a high-pressure control situation that forces defensive reactions. Crackhead Control is particularly effective in no-gi contexts where traditional turtle grips are less available, and it has become increasingly popular in modern competition BJJ as a bridge position between turtle control and back control.\n\nThe key mechanical insight is the chair sit position which allows the controlling practitioner to distribute weight through their gluteal muscles directly onto the opponent's lumbar spine and sacrum, creating a fulcrum effect that severely limits the bottom player's mobility. The inside leg hook serves as a critical mechanical checkpoint - it prevents the opponent from sitting through to guard while simultaneously creating the asymmetric positioning necessary for back takes and truck entries. This position demonstrates a fundamental principle: control the hips, control the position. The upper body grips are secondary to the hip isolation, used primarily to redirect defensive movements rather than as primary control mechanisms.\n\nAdvanced practitioners understand that crackhead control is not a static position but rather a dynamic platform - the threat of progression to back control, truck, or submissions creates a defensive reaction cycle that makes the position increasingly difficult to escape from. The biomechanical efficiency of this position lies in its minimal energy requirement for the top player while maximizing energy expenditure for the bottom player attempting to escape.",
+    "state_properties": {
+      "point_value": 0,
+      "position_type": "Offensive/Controlling",
+      "risk_level": "Low to Medium",
+      "energy_cost": "Medium",
+      "time_sustainability": "Medium to Long"
+    },
+    "state_invariants": [
+      "Top practitioner's hips positioned on opponent's lower back/hip area in a seated chair-like position, with bodyweight distributed through the gluteal muscles directly onto opponent's lumbar spine and sacrum creating fulcrum effect",
+      "At least one leg (typically inside leg) hooked around opponent's near hip or thigh, with the foot controlling inside position while the other leg may be posted wide for base or also hooked for additional control",
+      "Opponent in defensive turtle position with hands and knees on mat, head tucked, upper back rounded to protect neck from rear attacks while struggling against hip isolation",
+      "Upper body control maintained through overhook, underhook, or seatbelt grip configuration, with controlling practitioner's chest pressure applied to opponent's upper back while maintaining forward weight distribution to break defensive structure"
+    ],
+    "prerequisites": [
+      "Opponent in turtle position with defensive posture",
+      "Successful establishment of initial turtle control from pass, scramble, or transition",
+      "At least one hip hook established to prevent opponent from sitting through",
+      "Upper body control initiated through overhook, underhook, or collar tie"
+    ],
+    "key_principles": [
+      "Maintain heavy hip pressure on opponent's lower back to prevent forward movement and base recovery",
+      "Use chair sit mechanics to isolate opponent's hips while keeping your own center of gravity mobile",
+      "Control the inside space with leg hooks to prevent opponent from sitting to guard or rolling through",
+      "Apply constant forward pressure with upper body to break opponent's defensive structure",
+      "Transition weight distribution dynamically to counter opponent's escape attempts without losing position",
+      "Use the position as a control platform rather than static hold - constantly threaten progression to back control or submissions",
+      "Maintain connection between your hips and opponent's hips while keeping upper body mobile for attacks"
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent remains static in defensive turtle with strong base",
+        "actions": [
+          {
+            "technique": "Turtle to Back Take",
+            "target": "Back Control",
+            "probability": 60
+          },
+          {
+            "technique": "Crab Ride to Back",
+            "target": "Crab Ride",
+            "probability": 55
+          }
+        ]
+      },
+      {
+        "condition": "If opponent attempts to sit through to guard or turn into you",
+        "actions": [
+          {
+            "technique": "Turtle to Back Take",
+            "target": "Back Control",
+            "probability": 65
+          },
+          {
+            "technique": "Darce from Turtle",
+            "target": "D'arce Control",
+            "probability": 50
+          }
+        ]
+      },
+      {
+        "condition": "If opponent rolls forward or attempts granby escape",
+        "actions": [
+          {
+            "technique": "Turtle to Truck",
+            "target": "Twister Control",
+            "probability": 70
+          },
+          {
+            "technique": "Rolling Back Take",
+            "target": "Back Control",
+            "probability": 55
+          }
+        ]
+      },
+      {
+        "condition": "If opponent extends arm to post or push away",
+        "actions": [
+          {
+            "technique": "Crucifix from Turtle",
+            "target": "Crucifix",
+            "probability": 60
+          },
+          {
+            "technique": "Anaconda from Turtle",
+            "target": "Anaconda Control",
+            "probability": 45
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Sitting too high on opponent's upper back instead of hips",
+        "consequence": "Opponent can easily forward roll or granby escape, and controlling practitioner loses hip isolation",
+        "correction": "Keep hips loaded on opponent's lower back/sacrum area, maintaining chair sit position with weight through the glutes"
+      },
+      {
+        "error": "Failing to maintain inside leg hook",
+        "consequence": "Opponent can sit through to guard or escape to the side uncontested",
+        "correction": "Always keep at least one leg hooked on the inside hip, controlling the space between opponent's legs"
+      },
+      {
+        "error": "Being too static and not threatening progression",
+        "consequence": "Opponent can build defensive structure and stall, or referee may stand the position up",
+        "correction": "Constantly threaten back takes, submissions, and position changes to keep opponent defensive and reactive"
+      },
+      {
+        "error": "Over-committing weight forward onto opponent's upper back",
+        "consequence": "Loss of mobility and inability to follow opponent's movements during escape attempts",
+        "correction": "Keep hips heavy but upper body mobile, able to shift weight and follow opponent's direction changes"
+      },
+      {
+        "error": "Gripping too tight with upper body instead of using weight",
+        "consequence": "Arms fatigue quickly and opponent can create space by breaking grips",
+        "correction": "Use body weight and positioning for control, grips should be supplementary to redirect and guide rather than primary control mechanism"
+      },
+      {
+        "error": "Allowing opponent to square their hips to you",
+        "consequence": "Opponent regains base and can push into you to escape or stand up",
+        "correction": "Maintain perpendicular hip angle, keeping opponent's hips turned away while your hips stay loaded on their lower back"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Chair Sit Entry Drill",
+        "description": "Partner starts in defensive turtle. Practice entering crackhead control from various angles (side, behind, three-quarter position), focusing on establishing hip pressure and inside leg hook before committing full weight. Work on smooth entry mechanics and proper weight distribution.",
+        "duration": "5 minutes per partner"
+      },
+      {
+        "name": "Positional Sparring from Crackhead",
+        "description": "Start with crackhead control established. Top player works to maintain position and advance to back control or submissions. Bottom player works escapes with full resistance. Reset when position is lost or back control/submission achieved. Track success rates.",
+        "duration": "5 minute rounds"
+      },
+      {
+        "name": "Transition Flow Drill",
+        "description": "From established crackhead control, flow through progression sequences: chair sit to back take to truck to crucifix and return to crackhead. Partner provides movement and reactions but not full resistance. Focus on smooth transitions and weight distribution changes.",
+        "duration": "3-4 minute rounds"
+      },
+      {
+        "name": "Escape Response Drill",
+        "description": "Partner in bottom turtle attempts specific escapes in sequence (sit through, granby, forward roll, stand up) while top player counters with appropriate transitions (back take, truck entry, follow and maintain, etc.). Builds pattern recognition for defensive reactions.",
+        "duration": "6 minutes per partner"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Turtle",
+        "relationship": "Parent position - crackhead control is a specific variant of turtle top control"
+      },
+      {
+        "name": "Back Control",
+        "relationship": "Primary advancement target - most common progression from crackhead"
+      },
+      {
+        "name": "Twister Control",
+        "relationship": "Alternative advancement - accessible when opponent rolls forward via truck entry"
+      },
+      {
+        "name": "Crab Ride",
+        "relationship": "Similar control mechanics - alternative chair sit control position"
+      },
+      {
+        "name": "Crucifix",
+        "relationship": "Submission position - accessible when opponent extends arms"
+      },
+      {
+        "name": "Turtle to Back Take",
+        "relationship": "Primary technique - most direct path from position"
+      },
+      {
+        "name": "D'arce Control",
+        "relationship": "Submission control - available when opponent turns in"
+      },
+      {
+        "name": "Anaconda Control",
+        "relationship": "Submission control - available from front headlock transitions"
+      },
+      {
+        "name": "Turtle to Truck",
+        "relationship": "Key transition for leg attack and twister system entries"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "beginner": 50,
+        "intermediate": 65,
+        "advanced": 85
+      },
+      "advancement_probability": {
+        "beginner": 45,
+        "intermediate": 60,
+        "advanced": 75
+      },
+      "submission_probability": {
+        "beginner": 25,
+        "intermediate": 40,
+        "advanced": 55
+      },
+      "average_time": "30-90 seconds before advancement or escape"
+    },
+    "transitions": [
+      {
+        "transition": "Turtle to Back Take",
+        "attempt_probability": 17
+      },
+      {
+        "transition": "Turtle to Truck",
+        "attempt_probability": 15
+      },
+      {
+        "transition": "Crucifix from Turtle",
+        "attempt_probability": 13
+      },
+      {
+        "transition": "Crab Ride to Back",
+        "attempt_probability": 16
+      },
+      {
+        "transition": "Anaconda from Turtle",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Darce from Turtle",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Rolling Back Take",
+        "attempt_probability": 15
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the optimal hip placement for maintaining crackhead control top, and why does this positioning matter?",
+        "answer": "The hips should be loaded directly onto the opponent's lower back and sacrum area, not on the upper back or shoulder blades. This placement creates a fulcrum effect that severely limits the opponent's ability to generate forward movement or recover their base. Sitting too high allows granby rolls and forward escapes, while the lower hip position isolates their movement by placing your weight at their center of rotation."
+      },
+      {
+        "question": "Your opponent starts circling their hips trying to create space - how do you adjust your weight distribution to maintain control?",
+        "answer": "Follow their hip movement by keeping your hips connected to theirs while shifting your upper body weight in the opposite direction to counterbalance. Your inside leg hook should tighten to prevent them from completing the rotation, and you should drive your hips forward momentarily to break their momentum before resettling your weight. The key is maintaining the hip-to-hip connection rather than trying to anchor your upper body."
+      },
+      {
+        "question": "What are the essential grips for maintaining crackhead control, and in what order of priority should you establish them?",
+        "answer": "The inside leg hook is the primary control point, not the upper body grips. First establish the leg hook controlling the space between opponent's legs. Second, secure an overhook or underhook on the near arm to prevent posting. Third, establish a collar tie or cross-face to control head position. The upper body grips are supplementary - they redirect movement rather than providing primary control. If forced to choose, maintain the leg hook over any hand grip."
+      },
+      {
+        "question": "How do you shut down the opponent's primary escape - sitting through to guard - from crackhead control?",
+        "answer": "The inside leg hook is the primary prevention mechanism. Keep your foot controlling the space between their legs, which physically blocks them from sitting their hips back toward you. Additionally, maintain forward weight pressure through your hips onto their lower back to prevent them from generating backward momentum. If they begin sitting through, immediately transition to back take by following their rotation while maintaining upper body control."
+      },
+      {
+        "question": "What is the correct pressure application for crackhead control - where should your weight be distributed?",
+        "answer": "Approximately 70% of your weight should be on your hips pressing into their lower back/sacrum, with 30% distributed between your posted leg and upper body. Your upper body should remain mobile while your hips stay heavy. Avoid putting excessive weight forward onto their upper back as this compromises your ability to follow their movement and makes you vulnerable to forward rolls. The glutes should be the primary weight-bearing surface, creating the characteristic 'chair sit' position."
+      },
+      {
+        "question": "Your opponent creates a brief moment of space by explosively bridging - how do you recover control without losing position?",
+        "answer": "Follow their bridge by staying connected through your hip pressure rather than trying to anchor down. As they bridge, your hips should ride with the movement while your inside leg hook tightens. When they return from the bridge, immediately resettle your weight and look to advance - their energy expenditure from bridging creates an opportunity for back take or truck entry. Never disconnect your hips from their body during the recovery."
+      },
+      {
+        "question": "How do you manage energy expenditure from crackhead control top to avoid fatigue while maintaining offensive pressure?",
+        "answer": "Use positional weight rather than muscular tension for control. Your skeletal structure and gravity should do the work, not your grip strength. Keep hands relaxed unless actively redirecting movement, and use your hips as the primary anchor. Threaten transitions constantly to keep opponent reactive - their defensive efforts burn far more energy than your offensive positioning. Maintain the position for 30-90 seconds before committing to advancement rather than fighting for immediate submissions."
+      },
+      {
+        "question": "Your opponent successfully strips your overhook grip - what is your immediate recovery priority and why?",
+        "answer": "First verify your inside leg hook is still secure, as this is your primary control mechanism. If the leg hook is intact, immediately re-establish upper body control by swimming for an underhook on the same side or transitioning to a cross-face. Do not chase the grip if they're pulling the arm away - instead, use their arm extension as an opportunity to threaten crucifix entry or transition to crab ride position. The leg hook matters more than any single arm grip."
+      }
+    ]
+  },
   "bottom": {
     "name": "Crackhead Control Bottom",
     "description": "Master Crackhead Control Bottom in BJJ. 10th Planet's innovative turtle defense system with dynamic movement, aggressive grip fighting, and 65% advanced escape rate.",
@@ -65,12 +341,11 @@
       "bottom",
       "defensive",
       "10th-planet",
-      "eddie-10th Planet",
       "crackhead-control",
       "guard-recovery",
       "scramble"
     ],
-    "overview": "Crackhead Control Bottom is an innovative defensive turtle position developed by 10th Planet's as part of the 10th Planet Jiu-Jitsu system. This position represents a modern evolution of traditional turtle defense, characterized by extreme hip mobility, aggressive hand fighting, and constant motion to prevent back takes and maintain defensive integrity. Unlike static turtle positions, Crackhead Control emphasizes dynamic movement, making it exceptionally difficult for opponents to establish dominant grips or secure controlling positions.\n\nThe position derives its name from the frenetic, unpredictable energy required to maintain it effectively - constantly shifting weight, rotating hips, and fighting grips with relentless intensity. This approach transforms turtle from a passive defensive shell into an active, offensive-minded position that creates scramble opportunities and potential for guard recovery or even reversals. The system is particularly effective in no-gi grappling where traditional gi grips are unavailable, forcing opponents to rely on body control that can be disrupted through constant movement and intelligent positioning.\n\nThe biomechanical efficiency of Crackhead Control Bottom lies in its disruption of the opponent's ability to establish the fundamental prerequisites for back control - namely stable grip configuration and weight distribution. By maintaining perpetual hip movement and aggressive hand fighting, the bottom player forces the top opponent to continuously re-establish control rather than consolidating existing grips. This creates a fundamentally different strategic dynamic where you prevent control from ever being established rather than defending against established control.\n\nSuccessful execution requires exceptional cardiovascular conditioning and technical precision. Practitioners must develop sensitivity to recognize when opponent movement creates genuine guard recovery opportunities versus when they're simply maintaining position. The energy expenditure is significant, making this a high-intensity position typically maintained for 30-90 seconds before either escaping or being forced to transition to another defensive position. The psychological impact on opponents is substantial - instead of having time to methodically break down defense, they're immediately thrust into scramble situations where technical advantages may be neutralized by superior movement and activity level.",
+    "overview": "Crackhead Control Bottom is an innovative defensive turtle position developed as part of the 10th Planet Jiu-Jitsu system. This position represents a modern evolution of traditional turtle defense, characterized by extreme hip mobility, aggressive hand fighting, and constant motion to prevent back takes and maintain defensive integrity. Unlike static turtle positions, Crackhead Control emphasizes dynamic movement, making it exceptionally difficult for opponents to establish dominant grips or secure controlling positions.\n\nThe position derives its name from the frenetic, unpredictable energy required to maintain it effectively - constantly shifting weight, rotating hips, and fighting grips with relentless intensity. This approach transforms turtle from a passive defensive shell into an active, offensive-minded position that creates scramble opportunities and potential for guard recovery or even reversals. The system is particularly effective in no-gi grappling where traditional gi grips are unavailable, forcing opponents to rely on body control that can be disrupted through constant movement and intelligent positioning.\n\nThe biomechanical efficiency of Crackhead Control Bottom lies in its disruption of the opponent's ability to establish the fundamental prerequisites for back control - namely stable grip configuration and weight distribution. By maintaining perpetual hip movement and aggressive hand fighting, the bottom player forces the top opponent to continuously re-establish control rather than consolidating existing grips. This creates a fundamentally different strategic dynamic where you prevent control from ever being established rather than defending against established control.\n\nSuccessful execution requires exceptional cardiovascular conditioning and technical precision. Practitioners must develop sensitivity to recognize when opponent movement creates genuine guard recovery opportunities versus when they're simply maintaining position. The energy expenditure is significant, making this a high-intensity position typically maintained for 30-90 seconds before either escaping or being forced to transition to another defensive position. The psychological impact on opponents is substantial - instead of having time to methodically break down defense, they're immediately thrust into scramble situations where technical advantages may be neutralized by superior movement and activity level.",
     "state_properties": {
       "point_value": 0,
       "position_type": "Defensive with offensive options",
@@ -101,111 +376,6 @@
       "Circle away from opponent's control attempts rather than moving in straight lines, using rotational movement to shed grips",
       "Time guard recovery attempts for moments when opponent is off-balance or overcommitted to control attempts"
     ],
-    "offensive_transitions": [
-      {
-        "technique": "Turtle to Guard",
-        "target_position": "Closed Guard",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 50,
-          "advanced": 65
-        }
-      },
-      {
-        "technique": "Granby Roll",
-        "target_position": "Closed Guard",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 40,
-          "advanced": 55
-        }
-      },
-      {
-        "technique": "Technical Standup",
-        "target_position": "Standing Position",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 45,
-          "advanced": 60
-        }
-      },
-      {
-        "technique": "Dogfight Position Bottom",
-        "target_position": "Dogfight Position",
-        "success_rates": {
-          "beginner": 40,
-          "intermediate": 55,
-          "advanced": 70
-        }
-      },
-      {
-        "technique": "Deep Half Entry",
-        "target_position": "Deep Half Guard",
-        "success_rates": {
-          "beginner": 20,
-          "intermediate": 35,
-          "advanced": 50
-        }
-      },
-      {
-        "technique": "Hip Escape",
-        "target_position": "Half Guard",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 45,
-          "advanced": 60
-        }
-      }
-    ],
-    "defensive_responses": [
-      {
-        "technique": "Turtle to Back Take",
-        "target_position": "Back Control",
-        "success_rate": 55
-      },
-      {
-        "technique": "Crucifix from Turtle",
-        "target_position": "Crucifix",
-        "success_rate": 35
-      },
-      {
-        "technique": "Turtle to Standing",
-        "target_position": "Front Headlock",
-        "success_rate": 40
-      },
-      {
-        "technique": "Darce Setup",
-        "target_position": "D'arce Control",
-        "success_rate": 30
-      },
-      {
-        "technique": "Anaconda Setup",
-        "target_position": "Anaconda Control",
-        "success_rate": 30
-      }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Hip Escape",
-        "target_position": "Closed Guard",
-        "trigger": "Opponent attempts to flatten turtle with chest pressure"
-      },
-      {
-        "technique": "Granby to Closed Guard",
-        "target_position": "Closed Guard",
-        "trigger": "Opponent commits weight forward attempting back take"
-      },
-      {
-        "technique": "Dogfight Position Bottom",
-        "target_position": "Dogfight Position",
-        "trigger": "Opponent secures single underhook but fails to establish back control"
-      },
-      {
-        "technique": "Technical Stand Up to Single Leg",
-        "target_position": "Standing Position",
-        "trigger": "Opponent loses base while attempting to secure grips from top turtle"
-      }
-    ],
     "decision_tree": [
       {
         "condition": "If opponent attempts to secure seat belt control with both underhooks or cross-face",
@@ -216,7 +386,7 @@
             "probability": 50
           },
           {
-            "technique": "Dogfight Position Bottom",
+            "technique": "Sit Through Escape",
             "target": "Dogfight Position",
             "probability": 45
           }
@@ -322,24 +492,6 @@
         "duration": "3 rounds x 3 minutes"
       }
     ],
-    "optimal_submission_paths": [
-      {
-        "name": "Shortest defensive path to safety",
-        "path": "Crackhead Control Bottom → Granby Roll → Closed Guard → Sweep to Top Position"
-      },
-      {
-        "name": "High-percentage escape to dominant position",
-        "path": "Crackhead Control Bottom → Hip Escape → Half Guard → Old School Sweep → Side Control"
-      },
-      {
-        "name": "Standing escape to reset",
-        "path": "Crackhead Control Bottom → Technical Standup → Standing Position → Single Leg Takedown → Side Control"
-      },
-      {
-        "name": "Dogfight entry to sweep",
-        "path": "Crackhead Control Bottom → Dogfight Position → Dogfight Sweep → Back Control"
-      }
-    ],
     "related_content": [
       {
         "name": "Crackhead Control Top",
@@ -374,8 +526,8 @@
         "relationship": "Primary guard recovery target"
       },
       {
-        "name": "10th Planet No-Gi Guard System",
-        "relationship": "Originating system for crackhead control methodology"
+        "name": "Half Guard",
+        "relationship": "Alternative guard recovery target"
       }
     ],
     "position_metrics": {
@@ -395,353 +547,66 @@
         "advanced": 15
       },
       "average_time": "30-90 seconds before transition or advancement"
-    }
-  },
-  "top": {
-    "name": "Crackhead Control Top",
-    "description": "Master Crackhead Control Top in BJJ. Dominant turtle attack with chair-sit mechanics isolating opponent's hips. Advanced practitioners achieve 85% retention and 75% advancement rates.",
-    "tags": [
-      "bjj",
-      "position",
-      "top-control",
-      "turtle-attack",
-      "back-control-entry",
-      "submission-control",
-      "advanced",
-      "10th-planet",
-      "chair-sit"
-    ],
-    "overview": "Crackhead Control Top is an advanced turtle control position characterized by the top practitioner sitting on the opponent's hips in a chair-like position while controlling the upper body. Named for its unusual appearance and the awkward positioning it creates for the bottom player, this position combines elements of traditional turtle control with modern leg riding mechanics. The controlling practitioner sits with their hips loaded on the opponent's lower back/hip area, one leg typically hooked inside while maintaining upper body control through various grips - commonly an overhook or seatbelt configuration.\n\nThis position serves as an excellent platform for back takes, truck entries, and various submission attacks including the twister, darce, and anaconda chokes. The asymmetric weight distribution and hip isolation make it extremely difficult for the bottom player to escape or recover guard, creating a high-pressure control situation that forces defensive reactions. Crackhead Control is particularly effective in no-gi contexts where traditional turtle grips are less available, and it has become increasingly popular in modern competition BJJ as a bridge position between turtle control and back control.\n\nThe key mechanical insight is the chair sit position which allows the controlling practitioner to distribute weight through their gluteal muscles directly onto the opponent's lumbar spine and sacrum, creating a fulcrum effect that severely limits the bottom player's mobility. The inside leg hook serves as a critical mechanical checkpoint - it prevents the opponent from sitting through to guard while simultaneously creating the asymmetric positioning necessary for back takes and truck entries. This position demonstrates a fundamental principle: control the hips, control the position. The upper body grips are secondary to the hip isolation, used primarily to redirect defensive movements rather than as primary control mechanisms.\n\nAdvanced practitioners understand that crackhead control is not a static position but rather a dynamic platform - the threat of progression to back control, truck, or submissions creates a defensive reaction cycle that makes the position increasingly difficult to escape from. The biomechanical efficiency of this position lies in its minimal energy requirement for the top player while maximizing energy expenditure for the bottom player attempting to escape.",
-    "state_properties": {
-      "point_value": 0,
-      "position_type": "Offensive/Controlling",
-      "risk_level": "Low to Medium",
-      "energy_cost": "Medium",
-      "time_sustainability": "Medium to Long"
     },
-    "state_invariants": [
-      "Top practitioner's hips positioned on opponent's lower back/hip area in a seated chair-like position, with bodyweight distributed through the gluteal muscles directly onto opponent's lumbar spine and sacrum creating fulcrum effect",
-      "At least one leg (typically inside leg) hooked around opponent's near hip or thigh, with the foot controlling inside position while the other leg may be posted wide for base or also hooked for additional control",
-      "Opponent in defensive turtle position with hands and knees on mat, head tucked, upper back rounded to protect neck from rear attacks while struggling against hip isolation",
-      "Upper body control maintained through overhook, underhook, or seatbelt grip configuration, with controlling practitioner's chest pressure applied to opponent's upper back while maintaining forward weight distribution to break defensive structure"
-    ],
-    "prerequisites": [
-      "Opponent in turtle position with defensive posture",
-      "Successful establishment of initial turtle control from pass, scramble, or transition",
-      "At least one hip hook established to prevent opponent from sitting through",
-      "Upper body control initiated through overhook, underhook, or collar tie"
-    ],
-    "key_principles": [
-      "Maintain heavy hip pressure on opponent's lower back to prevent forward movement and base recovery",
-      "Use chair sit mechanics to isolate opponent's hips while keeping your own center of gravity mobile",
-      "Control the inside space with leg hooks to prevent opponent from sitting to guard or rolling through",
-      "Apply constant forward pressure with upper body to break opponent's defensive structure",
-      "Transition weight distribution dynamically to counter opponent's escape attempts without losing position",
-      "Use the position as a control platform rather than static hold - constantly threaten progression to back control or submissions",
-      "Maintain connection between your hips and opponent's hips while keeping upper body mobile for attacks"
-    ],
-    "offensive_transitions": [
+    "transitions": [
       {
-        "technique": "Turtle to Back Take",
-        "target_position": "Back Control",
-        "success_rates": {
-          "beginner": 45,
-          "intermediate": 60,
-          "advanced": 75
-        }
+        "transition": "Turtle to Guard",
+        "attempt_probability": 18
       },
       {
-        "technique": "Transition to Truck",
-        "target_position": "Truck",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 50,
-          "advanced": 65
-        }
+        "transition": "Granby Roll",
+        "attempt_probability": 15
       },
       {
-        "technique": "Crucifix from Turtle",
-        "target_position": "Crucifix",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 45,
-          "advanced": 60
-        }
+        "transition": "Technical Standup",
+        "attempt_probability": 17
       },
       {
-        "technique": "Crab Ride to Back",
-        "target_position": "Crab Ride",
-        "success_rates": {
-          "beginner": 40,
-          "intermediate": 55,
-          "advanced": 70
-        }
+        "transition": "Sit Through Escape",
+        "attempt_probability": 19
       },
       {
-        "technique": "Anaconda from Turtle",
-        "target_position": "Anaconda Control",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 40,
-          "advanced": 55
-        }
+        "transition": "Deep Half Entry",
+        "attempt_probability": 14
       },
       {
-        "technique": "Darce from Turtle",
-        "target_position": "D'arce Control",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 40,
-          "advanced": 55
-        }
-      },
-      {
-        "technique": "Rolling Back Take",
-        "target_position": "Back Control",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 50,
-          "advanced": 65
-        }
+        "transition": "Hip Escape",
+        "attempt_probability": 17
       }
     ],
-    "defensive_responses": [
+    "knowledge_assessment": [
       {
-        "technique": "Hip Escape",
-        "target_position": "Half Guard",
-        "success_rate": 25
+        "question": "What is the fundamental defensive posture for crackhead control bottom, and why is each element important?",
+        "answer": "The fundamental posture includes: head tucked with chin to chest creating a protective wedge between shoulders to deny chokes, elbows tight to ribs to prevent hook insertion, weight distributed evenly across hands and knees for explosive movement capability, and hips positioned to enable constant circular motion. Each element serves to deny the opponent the stable contact points they need for systematic back attacks."
       },
       {
-        "technique": "Technical Standup",
-        "target_position": "Standing Position",
-        "success_rate": 20
+        "question": "Your opponent successfully establishes an overhook on your near arm - what is your immediate defensive priority?",
+        "answer": "Immediately intensify hip movement while stripping the grip with your free hand. Do not let them consolidate with a second grip. Circle your hips away from their pressure while keeping elbows tight to prevent hook insertion. If they maintain the overhook, use it as a pivot point for granby roll escape rather than fighting the grip statically. Movement is more important than grip fighting when they have initial control."
       },
       {
-        "technique": "Granby Roll",
-        "target_position": "Closed Guard",
-        "success_rate": 30
+        "question": "How do you maintain defensive base while executing the constant hip movement that defines crackhead control?",
+        "answer": "Distribute weight primarily through your knees with hands providing balance and direction changes rather than full weight support. The circular hip motion should feel like stirring a pot - continuous but controlled, with weight shifting smoothly between knees. Keep your center of gravity low and avoid posting too far forward on your hands, which compromises base. The movement disrupts opponent's control without sacrificing your own stability."
       },
       {
-        "technique": "Rolling to Guard",
-        "target_position": "Half Guard",
-        "success_rate": 35
+        "question": "What are the primary grip attacks you must defend against, and in what order of priority?",
+        "answer": "In order of priority: first defend the seat belt configuration (far arm over shoulder, near arm under armpit) as this directly enables back control; second prevent the cross-face which controls your head and limits movement; third strip collar ties which set up chokes; fourth prevent underhooks which facilitate lifting and turning attacks. The seat belt is most dangerous because it provides both control and immediate choke threats."
       },
       {
-        "technique": "Forward Roll",
-        "target_position": "Closed Guard",
-        "success_rate": 15
+        "question": "Your opponent has achieved heavy chest pressure and you feel your turtle flattening - what is your recovery sequence?",
+        "answer": "First, create space through explosive hip movement - bump your hips upward while simultaneously circling away from their pressure side. Use your posted hands to push off and create an angle rather than trying to elevate directly against their weight. As you create any space, immediately insert your knee between you and them to begin guard recovery or execute a granby roll away from their pressure. Never fight weight with weight - use angles and timing."
+      },
+      {
+        "question": "How do you recognize when opponent movement has created a genuine guard recovery opportunity versus simply maintaining turtle?",
+        "answer": "Genuine opportunities occur when opponent's weight shifts forward past your centerline (granby roll timing), when they lift to transition positions (technical standup timing), when they release a grip to reach for another (sit-out timing), or when their base narrows attempting to chase your hip movement (half guard insertion timing). You should feel their weight lighten or shift off-center. Static pressure with no weight transfer means maintain turtle and continue movement."
+      },
+      {
+        "question": "What energy management strategy allows you to maintain crackhead control bottom for the 30-90 second duration typically required?",
+        "answer": "Use small, efficient hip circles rather than large explosive movements constantly. Save explosive bursts for genuine escape opportunities. Focus defensive energy on grip prevention rather than grip breaking - it takes less effort to stop a grip from being established than to strip one that's locked in. Breathing should be controlled and rhythmic despite the intensity. Recognize that opponent's attacking efforts cost them energy too; the position favors the bottom player's conditioning if executed correctly."
+      },
+      {
+        "question": "Your opponent begins inserting a hook while you're in crackhead control bottom - what is the emergency defense protocol?",
+        "answer": "Immediately trap their foot with your same-side hand while circling your hips aggressively away from the hook. If the hook is already deep, drop your hip to the mat on that side while simultaneously granby rolling toward the hook to face them and establish guard. Never let a hook consolidate - either prevent it with hip movement and hand defense, or immediately transition to guard recovery. A single hook is manageable; two hooks means back control is imminent."
       }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Back Take Generic",
-        "target_position": "Back Control",
-        "trigger": "Opponent attempts to sit through to guard"
-      },
-      {
-        "technique": "Transition to Truck",
-        "target_position": "Truck",
-        "trigger": "Opponent rolls forward or attempts granby escape"
-      },
-      {
-        "technique": "Crucifix from Turtle",
-        "target_position": "Crucifix",
-        "trigger": "Opponent extends arm to post or push away"
-      }
-    ],
-    "decision_tree": [
-      {
-        "condition": "If opponent remains static in defensive turtle with strong base",
-        "actions": [
-          {
-            "technique": "Turtle to Back Take",
-            "target": "Back Control",
-            "probability": 60
-          },
-          {
-            "technique": "Crab Ride to Back",
-            "target": "Crab Ride",
-            "probability": 55
-          }
-        ]
-      },
-      {
-        "condition": "If opponent attempts to sit through to guard or turn into you",
-        "actions": [
-          {
-            "technique": "Back Take Generic",
-            "target": "Back Control",
-            "probability": 65
-          },
-          {
-            "technique": "Darce from Turtle",
-            "target": "D'arce Control",
-            "probability": 50
-          }
-        ]
-      },
-      {
-        "condition": "If opponent rolls forward or attempts granby escape",
-        "actions": [
-          {
-            "technique": "Transition to Truck",
-            "target": "Truck",
-            "probability": 70
-          },
-          {
-            "technique": "Rolling Back Take",
-            "target": "Back Control",
-            "probability": 55
-          }
-        ]
-      },
-      {
-        "condition": "If opponent extends arm to post or push away",
-        "actions": [
-          {
-            "technique": "Crucifix from Turtle",
-            "target": "Crucifix",
-            "probability": 60
-          },
-          {
-            "technique": "Anaconda from Turtle",
-            "target": "Anaconda Control",
-            "probability": 45
-          }
-        ]
-      }
-    ],
-    "common_errors": [
-      {
-        "error": "Sitting too high on opponent's upper back instead of hips",
-        "consequence": "Opponent can easily forward roll or granby escape, and controlling practitioner loses hip isolation",
-        "correction": "Keep hips loaded on opponent's lower back/sacrum area, maintaining chair sit position with weight through the glutes"
-      },
-      {
-        "error": "Failing to maintain inside leg hook",
-        "consequence": "Opponent can sit through to guard or escape to the side uncontested",
-        "correction": "Always keep at least one leg hooked on the inside hip, controlling the space between opponent's legs"
-      },
-      {
-        "error": "Being too static and not threatening progression",
-        "consequence": "Opponent can build defensive structure and stall, or referee may stand the position up",
-        "correction": "Constantly threaten back takes, submissions, and position changes to keep opponent defensive and reactive"
-      },
-      {
-        "error": "Over-committing weight forward onto opponent's upper back",
-        "consequence": "Loss of mobility and inability to follow opponent's movements during escape attempts",
-        "correction": "Keep hips heavy but upper body mobile, able to shift weight and follow opponent's direction changes"
-      },
-      {
-        "error": "Gripping too tight with upper body instead of using weight",
-        "consequence": "Arms fatigue quickly and opponent can create space by breaking grips",
-        "correction": "Use body weight and positioning for control, grips should be supplementary to redirect and guide rather than primary control mechanism"
-      },
-      {
-        "error": "Allowing opponent to square their hips to you",
-        "consequence": "Opponent regains base and can push into you to escape or stand up",
-        "correction": "Maintain perpendicular hip angle, keeping opponent's hips turned away while your hips stay loaded on their lower back"
-      }
-    ],
-    "training_drills": [
-      {
-        "name": "Chair Sit Entry Drill",
-        "description": "Partner starts in defensive turtle. Practice entering crackhead control from various angles (side, behind, three-quarter position), focusing on establishing hip pressure and inside leg hook before committing full weight. Work on smooth entry mechanics and proper weight distribution.",
-        "duration": "5 minutes per partner"
-      },
-      {
-        "name": "Positional Sparring from Crackhead",
-        "description": "Start with crackhead control established. Top player works to maintain position and advance to back control or submissions. Bottom player works escapes with full resistance. Reset when position is lost or back control/submission achieved. Track success rates.",
-        "duration": "5 minute rounds"
-      },
-      {
-        "name": "Transition Flow Drill",
-        "description": "From established crackhead control, flow through progression sequences: chair sit to back take to truck to crucifix and return to crackhead. Partner provides movement and reactions but not full resistance. Focus on smooth transitions and weight distribution changes.",
-        "duration": "3-4 minute rounds"
-      },
-      {
-        "name": "Escape Response Drill",
-        "description": "Partner in bottom turtle attempts specific escapes in sequence (sit through, granby, forward roll, stand up) while top player counters with appropriate transitions (back take, truck entry, follow and maintain, etc.). Builds pattern recognition for defensive reactions.",
-        "duration": "6 minutes per partner"
-      }
-    ],
-    "optimal_submission_paths": [
-      {
-        "name": "Shortest path to submission",
-        "path": "Crackhead Control Top → Darce from Turtle → D'arce Control → Darce Choke"
-      },
-      {
-        "name": "High-percentage back attack sequence",
-        "path": "Crackhead Control Top → Turtle to Back Take → Back Control → Rear Naked Choke"
-      },
-      {
-        "name": "Truck to twister path",
-        "path": "Crackhead Control Top → Transition to Truck → Truck → Twister Control → Twister"
-      },
-      {
-        "name": "Crucifix submission chain",
-        "path": "Crackhead Control Top → Crucifix from Turtle → Crucifix → Choke from Crucifix"
-      },
-      {
-        "name": "Anaconda finish sequence",
-        "path": "Crackhead Control Top → Anaconda from Turtle → Anaconda Control → Anaconda Choke"
-      }
-    ],
-    "related_content": [
-      {
-        "name": "Turtle",
-        "relationship": "Parent position - crackhead control is a specific variant of turtle top control"
-      },
-      {
-        "name": "Back Control",
-        "relationship": "Primary advancement target - most common progression from crackhead"
-      },
-      {
-        "name": "Truck",
-        "relationship": "Alternative advancement - accessible when opponent rolls forward"
-      },
-      {
-        "name": "Crab Ride",
-        "relationship": "Similar control mechanics - alternative chair sit control position"
-      },
-      {
-        "name": "Crucifix",
-        "relationship": "Submission position - accessible when opponent extends arms"
-      },
-      {
-        "name": "Turtle to Back Take",
-        "relationship": "Primary technique - most direct path from position"
-      },
-      {
-        "name": "Twister Control",
-        "relationship": "Advanced submission position accessible through truck entry"
-      },
-      {
-        "name": "D'arce Control",
-        "relationship": "Submission control - available when opponent turns in"
-      },
-      {
-        "name": "10th Planet No-Gi Guard System",
-        "relationship": "Originating system for crackhead control methodology"
-      }
-    ],
-    "position_metrics": {
-      "retention_rate": {
-        "beginner": 50,
-        "intermediate": 65,
-        "advanced": 85
-      },
-      "advancement_probability": {
-        "beginner": 45,
-        "intermediate": 60,
-        "advanced": 75
-      },
-      "submission_probability": {
-        "beginner": 25,
-        "intermediate": 40,
-        "advanced": 55
-      },
-      "average_time": "30-90 seconds before advancement or escape"
-    }
+    ]
   }
 }

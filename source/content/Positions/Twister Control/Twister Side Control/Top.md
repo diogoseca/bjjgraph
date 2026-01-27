@@ -21,37 +21,37 @@ description: "Control twister side control from top position with systematic sub
     {
       "@type": "HowToStep",
       "name": "Execute Twister Finish",
-      "text": "From this position, execute Twister Finish to transition to Won by Submission. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Twister Finish. This technique is attempted in 9% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Darce Choke",
-      "text": "From this position, execute Darce Choke to transition to Won by Submission. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Darce Choke. This technique is attempted in 10% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Anaconda Choke",
-      "text": "From this position, execute Anaconda Choke to transition to Won by Submission. Success rate for advanced practitioners: 58%.",
+      "text": "From this position, attempt Anaconda Choke. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kimura",
-      "text": "From this position, execute Kimura to transition to Won by Submission. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Kimura. This technique is attempted in 11% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Truck",
-      "text": "From this position, execute Transition to Truck to transition to Truck. Success rate for advanced practitioners: 70%.",
+      "name": "Execute Turtle to Truck",
+      "text": "From this position, attempt Turtle to Truck. This technique is attempted in 11% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Take Generic",
-      "text": "From this position, execute Back Take Generic to transition to Back Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Back Take Generic. This technique is attempted in 11% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -215,106 +215,26 @@ The learning progression for Twister Side Control top is significant, with begin
 
 ## Available Attacks
 
-### [[Twister Finish]] → [[Won by Submission]]
+### [[Twister Finish]] (9% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 55%
+### [[Darce Choke]] (10% of attempts)
 
-### [[Darce Choke]] → [[Won by Submission]]
+### [[Anaconda Choke]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 60%
+### [[Kimura]] (11% of attempts)
 
-### [[Anaconda Choke]] → [[Won by Submission]]
+### [[Turtle to Truck]] (11% of attempts)
 
-**Success Rates:**
-- Beginner: 22%
-- Intermediate: 38%
-- Advanced: 58%
+### [[Back Take Generic]] (11% of attempts)
 
-### [[Kimura]] → [[Won by Submission]]
+### [[Side Control to North-South]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 65%
+### [[Side Control to Mount]] (10% of attempts)
 
-### [[Transition to Truck]] → [[Truck]]
+### [[Arm Triangle]] (8% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Calf Slicer]] (8% of attempts)
 
-### [[Back Take Generic]] → [[Back Control]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-### [[Transition to North-South]] → [[North-South]]
-
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 60%
-- Advanced: 75%
-
-### [[Side Control to Mount]] → [[Mount]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[Arm Triangle]] → [[Won by Submission]]
-
-**Success Rates:**
-- Beginner: 18%
-- Intermediate: 33%
-- Advanced: 50%
-
-### [[Calf Slicer]] → [[Won by Submission]]
-
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 48%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Hip Escape]]** → [[Half Guard]] (Opponent Success: 25%)
-- **[[Granby Roll]]** → [[Closed Guard]] (Opponent Success: 20%)
-- **[[Technical Stand-up]]** → [[Standing Position]] (Opponent Success: 15%)
-- **[[Frame and Shrimp]]** → [[Open Guard]] (Opponent Success: 22%)
-- **[[Turtle Transition]]** → [[Turtle]] (Opponent Success: 30%)
-- **[[Bridge and Roll]]** → [[Mount]] (Opponent Success: 12%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Darce Choke]]** → [[Won by Submission]]
-  - When bottom player attempts to turn into top player or create frames, exposing neck
-- **[[Back Take Generic]]** → [[Back Control]]
-  - When bottom player turns away to escape shoulder pressure, gifting back exposure
-- **[[Kimura]]** → [[Won by Submission]]
-  - When bottom player extends near arm attempting to frame or post, creating arm isolation opportunity
-- **[[Transition to Truck]]** → [[Truck]]
-  - When bottom player begins successful leg extraction, top player can follow and re-establish truck position
 
 
 </section>
@@ -324,28 +244,28 @@ The learning progression for Twister Side Control top is significant, with begin
 ## Decision Making from This Position
 
 **If bottom player's spine is fully rotated and shoulder is driven to mat with secure leg entanglement:**
-- Execute **[[Twister Finish]]** → [[Won by Submission]] (Probability: 65%)
-- Execute **[[Calf Slicer]]** → [[Won by Submission]] (Probability: 45%)
+- Execute **[[Twister Finish]]** → [[game-over]] (Probability: 65%)
+- Execute **[[Calf Slicer]]** → [[game-over]] (Probability: 45%)
 
 
 **If bottom player attempts to turn into top player to create frames or relieve pressure:**
-- Execute **[[Darce Choke]]** → [[Won by Submission]] (Probability: 70%)
-- Execute **[[Anaconda Choke]]** → [[Won by Submission]] (Probability: 65%)
+- Execute **[[Darce Choke]]** → [[game-over]] (Probability: 70%)
+- Execute **[[Anaconda Choke]]** → [[game-over]] (Probability: 65%)
 
 
 **If bottom player turns away exposing their back to escape shoulder pressure:**
 - Execute **[[Back Take Generic]]** → [[Back Control]] (Probability: 75%)
-- Execute **[[Transition to Truck]]** → [[Truck]] (Probability: 70%)
+- Execute **[[Turtle to Truck]]** → [[Truck]] (Probability: 70%)
 
 
 **If bottom player successfully creates frames and begins extracting legs:**
-- Execute **[[Transition to North-South]]** → [[North-South]] (Probability: 60%)
+- Execute **[[Side Control to North-South]]** → [[North-South]] (Probability: 60%)
 - Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 55%)
 
 
 **If bottom player extends near arm to frame or post during escape attempt:**
-- Execute **[[Kimura]]** → [[Won by Submission]] (Probability: 68%)
-- Execute **[[Arm Triangle]]** → [[Won by Submission]] (Probability: 55%)
+- Execute **[[Kimura]]** → [[game-over]] (Probability: 68%)
+- Execute **[[Arm Triangle]]** → [[game-over]] (Probability: 55%)
 
 
 
@@ -426,33 +346,39 @@ Start from various positions (truck, side control, failed back take). Partner pr
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Direct Twister Path
+## Test Your Knowledge
 
-`Twister Side Control Top → Spinal Rotation → Shoulder Control → Leg Entanglement → Twister Finish → Won by Submission`
+**Q1**: What are the two primary control elements that must be maintained simultaneously in twister side control top?
+**A**: The leg entanglement around the bottom player's near leg and shoulder pressure driving their near shoulder toward the mat must be maintained simultaneously. The leg hook restricts hip mobility and creates the foundation for spinal submissions, while shoulder pressure prevents defensive turning and frame creation. Losing either element significantly reduces control quality and submission accessibility.
 
-### Darce Counter Attack
+**Q2**: Your opponent begins to bridge explosively while you're pursuing the twister finish - what adjustment do you make?
+**A**: Immediately post your outside leg wide to expand your base and absorb the bridging force. Shift weight distribution away from the forward-leaning submission posture toward a more balanced control position. Maintain the leg hook but temporarily pause submission pursuit until you've neutralized the bridge attempt and re-established stable control. Only resume offensive action when your base is secure.
 
-`Twister Side Control Top → Bottom Player Turns In → Darce Setup → Darce Choke → Won by Submission`
+**Q3**: How should weight distribution differ between maintaining control versus actively pursuing submissions from twister side control?
+**A**: During control maintenance, weight should be evenly distributed between shoulder pressure and leg positioning to create a stable, self-sustaining control structure. When pursuing submissions, weight shifts more dynamically - forward for the twister finish, laterally for darce or anaconda attempts. The key is maintaining enough base to prevent reversals while creating the specific mechanical leverage each submission requires.
 
-### Back Take Sequence
+**Q4**: What submission chain should you pursue when the bottom player turns into you trying to create frames?
+**A**: When the bottom player turns toward you exposing their neck, immediately transition to front choke attacks. The darce choke becomes high-percentage as their turning motion feeds their arm across their body, and the anaconda choke is available if you can circle to the opposite side. Recognize this defensive pattern as an offensive opportunity rather than a positional threat.
 
-`Twister Side Control Top → Bottom Player Turns Away → Back Take Generic → Back Control → Rear Naked Choke → Won by Submission`
+**Q5**: Your leg entanglement is starting to loosen as your opponent creates hip movement - how do you recover control?
+**A**: Immediately re-establish the leg hook by driving your knee deeper behind their knee and squeezing actively with your legs. Simultaneously increase shoulder pressure to limit their ability to continue creating hip movement. If the entanglement becomes too shallow, consider transitioning to truck position to reset the leg control before returning to twister side control, rather than fighting a losing battle with compromised mechanics.
 
-### Kimura Chain
+**Q6**: What distinguishes successful submission pursuit from positions lost due to over-aggression?
+**A**: Successful submission pursuit maintains base integrity throughout - the outside leg stays posted, shoulder pressure continues, and the leg hook remains active even while attacking. Over-aggression abandons these control elements in pursuit of the finish, creating openings for escape. Elite practitioners threaten submissions while maintaining 70-80% of their positional control, only fully committing when all prerequisites for finishing are met.
 
-`Twister Side Control Top → Arm Isolation → Kimura Control → Kimura Finish → Won by Submission`
+**Q7**: How do you create submission dilemmas that force the bottom player into worse positions regardless of their defensive choice?
+**A**: Structure your attacks so each defensive response opens another submission pathway. When they protect against the twister by preventing spinal rotation, their frames often expose the arm for kimura. When they turn in to relieve shoulder pressure, the neck becomes vulnerable for darce or anaconda. When they turn away, they gift back exposure. Constantly threaten multiple chains so no single defensive focus can neutralize your offense.
 
-### Truck Return Path
-
-`Twister Side Control Top → Leg Extraction Attempt → Transition to Truck → Calf Slicer → Won by Submission`
+**Q8**: What are the key grip priorities when controlling from twister side control top?
+**A**: The primary grip is the leg hook entanglement - this cannot be compromised. Secondary grips include controlling the near shoulder (either directly or through chest pressure), controlling the near wrist to prevent frames, and potentially securing the chin strap for twister finish attempts. In no-gi, hip positioning often replaces traditional grips, using body placement rather than handles to maintain control.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -479,7 +405,7 @@ Start from various positions (truck, side control, failed back take). Partner pr
 - **[[Anaconda Choke]]** - Alternative front choke option from similar positional structure
 - **[[Back Control]]** - Common transition when bottom player exposes back during escape attempts
 - **[[Kimura]]** - Submission option when bottom player extends arm to frame
-- **[[Twister System]]** - Broader systematic framework encompassing this position and related techniques
+- **[[Calf Slicer]]** - Leg attack available from established leg entanglement
 - **[[Side Control]]** - Traditional variant that shares lateral control but differs in submission emphasis
 
 

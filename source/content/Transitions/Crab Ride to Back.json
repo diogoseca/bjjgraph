@@ -10,8 +10,6 @@
     "control",
     "advanced"
   ],
-  "starting_position": "Crab Ride",
-  "ending_position": "Back Control",
   "success_rates": {
     "beginner": 45,
     "intermediate": 65,
@@ -252,6 +250,24 @@
     {
       "name": "Back Defense Protocol",
       "relationship": "Counter system - defensive framework opponents use to defend this transition"
+    }
+  ],
+  "from_position": "Crab Ride/Top",
+  "outcomes": [
+    {
+      "to": "Back Control/Top",
+      "probability": 75,
+      "result": "success"
+    },
+    {
+      "to": "Crab Ride/Top",
+      "probability": 15,
+      "result": "failure"
+    },
+    {
+      "to": "Crab Ride/Bottom",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

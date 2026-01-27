@@ -9,8 +9,6 @@
     "fundamental",
     "positional defense"
   ],
-  "starting_position": "Defensive Position",
-  "ending_position": "Combat Base",
   "success_rates": {
     "beginner": 65,
     "intermediate": 80,
@@ -274,6 +272,24 @@
     {
       "name": "Defensive Posture",
       "relationship": "Overall framework that includes base widening"
+    }
+  ],
+  "from_position": "Half Guard/Top",
+  "outcomes": [
+    {
+      "to": "Combat Base/Top",
+      "probability": 75,
+      "result": "success"
+    },
+    {
+      "to": "Half Guard/Top",
+      "probability": 15,
+      "result": "failure"
+    },
+    {
+      "to": "Half Guard/Bottom",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

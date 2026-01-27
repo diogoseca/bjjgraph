@@ -258,6 +258,31 @@
       "question": "Why is the Buggy Choke particularly effective from bottom half guard compared to other submission options?",
       "answer": "The Buggy Choke is effective from bottom half guard because it uses the opponent's forward pressure against them—when they try to flatten you or consolidate position, they unknowingly move into the optimal angle for the choke. It allows a smaller, defensive player to finish a larger opponent using mechanics rather than strength. Additionally, the setup is deceptive; opponents often don't recognize the threat until it's deeply locked, unlike more obvious submissions like armbars where the threat is apparent earlier.",
       "safety_critical": false
+    },
+    {
+      "question": "Your opponent starts to posture up during your Buggy Choke attempt - what adjustment prevents escape?",
+      "answer": "When opponent begins posturing, immediately extend your legs to break their posture down while turning harder into them to maintain your angle. Use your half guard hook to prevent them from standing or backing away. If they create significant space, you may need to follow them up, transitioning the choke attempt into a sweep or back take rather than abandoning the position entirely. The key is using your legs as anchors while your upper body maintains the choking configuration.",
+      "safety_critical": false
+    },
+    {
+      "question": "What grip adjustments should you make during the finish if opponent begins defending with their free hand?",
+      "answer": "If opponent's free hand begins fighting your grip, tighten your choking arm's connection to your body or leg anchor, making it harder to pry loose. You can also use your own free hand to control their defending wrist, pinning it to your body or trapping it between you. The critical adjustment is ensuring your primary choking mechanism—the shoulder and arm pressure—remains intact even if you need to sacrifice some grip configuration. Never release your core choking structure to hand fight.",
+      "safety_critical": false
+    },
+    {
+      "question": "What indicators tell you the choke is properly positioned on the carotid arteries versus the windpipe?",
+      "answer": "Proper carotid compression causes the opponent's face to flush red, their eyes may bulge slightly, and they typically tap quickly (within seconds) as blood flow is restricted. Windpipe compression causes choking, coughing, and panic but opponents can often endure it longer while suffering. You should feel your shoulder bone pressing into the soft tissue on the side of their neck, not the front cartilage of the throat. The angle of your body should be perpendicular enough that pressure naturally goes to the side.",
+      "safety_critical": true
+    },
+    {
+      "question": "In competition, what finishing strategies maximize success rate while maintaining safety awareness?",
+      "answer": "In competition, commit fully to the position before attempting the finish—ensure the arm trap is secure and your angle is correct before applying significant pressure. Once committed, apply steady progressive pressure rather than explosive cranking. Watch for opponent's defense patterns and be prepared to transition if they successfully address one element of your control. Even in competition, maintain awareness that opponents may pass out rather than tap, so be prepared to release immediately if they go limp. Winning by submission is not worth causing serious injury.",
+      "safety_critical": true
+    },
+    {
+      "question": "What physical sensations indicate you have reached the point of no escape for your opponent?",
+      "answer": "The point of no escape occurs when your shoulder is fully wedged into the side of their neck, their trapped arm cannot be extracted, and your legs prevent any posture change or roll. You will feel their body become increasingly tense as they recognize the threat, followed by either immediate tap or brief defensive struggle. Their head will be trapped in a fixed position unable to turn away from pressure. At this point, even small increases in pressure will cause the tap—there is no need for explosive finishing force.",
+      "safety_critical": false
     }
   ],
   "training_progressions_and_safety_protocols": [
@@ -320,11 +345,7 @@
     "Darce Choke",
     "Guillotine Choke",
     "Arm Triangle",
-    "Japanese Necktie",
-    "Peruvian Necktie",
     "Kimura",
-    "Twister",
-    "Calf Slicer",
     "Rear Naked Choke",
     "Arm in Guillotine"
   ],
@@ -352,10 +373,6 @@
     {
       "name": "Half Guard Pass",
       "relationship": "What opponent is attempting when Buggy Choke becomes available"
-    },
-    {
-      "name": "Turtle to Back Control",
-      "relationship": "Similar pressure and angle concepts when applying from turtle position"
     },
     {
       "name": "Underhook Sweep from Half",

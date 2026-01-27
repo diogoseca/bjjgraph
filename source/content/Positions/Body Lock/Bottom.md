@@ -21,37 +21,37 @@ description: "Defensive strategies and escape techniques when opponent has estab
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape",
-      "text": "From this position, execute Hip Escape to transition to Standing Position. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Hip Escape. This technique is attempted in 17% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Grip Break",
-      "text": "From this position, execute Grip Break to transition to Clinch. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Grip Break. This technique is attempted in 15% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Sitting Guard Pull",
-      "text": "From this position, execute Sitting Guard Pull to transition to Closed Guard. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Sitting Guard Pull. This technique is attempted in 21% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Technical Standup",
-      "text": "From this position, execute Technical Standup to transition to Standing Position. Success rate for advanced practitioners: 45%.",
+      "text": "From this position, attempt Technical Standup. This technique is attempted in 14% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Sprawl Defense",
-      "text": "From this position, execute Sprawl Defense to transition to Front Headlock. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Sprawl Defense. This technique is attempted in 15% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling to Guard",
-      "text": "From this position, execute Rolling to Guard to transition to Closed Guard. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Rolling to Guard. This technique is attempted in 18% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -213,72 +213,18 @@ The body lock bottom position appears frequently in no-gi competition when oppon
 
 ## Available Escapes
 
-### [[Hip Escape]] → [[Standing Position]]
+### [[Hip Escape]] (17% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
+### [[Grip Break]] (15% of attempts)
 
-### [[Grip Break]] → [[Clinch]]
+### [[Sitting Guard Pull]] (21% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
+### [[Technical Standup]] (14% of attempts)
 
-### [[Sitting Guard Pull]] → [[Closed Guard]]
+### [[Sprawl Defense]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Rolling to Guard]] (18% of attempts)
 
-### [[Technical Standup]] → [[Standing Position]]
-
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 45%
-
-### [[Sprawl Defense]] → [[Front Headlock]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
-
-### [[Rolling to Guard]] → [[Closed Guard]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Mat Return to Back]]** → [[Back Control]] (Opponent Success: 70%)
-- **[[Throw to Side Control]]** → [[Side Control]] (Opponent Success: 55%)
-- **[[Drive to Turtle]]** → [[Turtle]] (Opponent Success: 60%)
-- **[[Follow to Closed Guard Top]]** → [[Closed Guard]] (Opponent Success: 50%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Re-guard with Frames]]** → [[Standing Guard]]
-  - Successfully break opponent's grip and create space with frames
-- **[[Whizzer]]** → [[Overhook Control]]
-  - Opponent attempts to adjust grip or transition to different control
 
 
 </section>
@@ -368,25 +314,39 @@ Partner establishes body lock and begins driving or lifting. Practice recognizin
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Escape to counter attack path
+## Test Your Knowledge
 
-`Body Lock Bottom → Hip Escape → Standing Position → Clinch → Takedown to dominant position`
+**Q1**: What is the most effective timing for preventing the body lock from being established?
+**A**: The most effective defense occurs before the grip is locked - hand fight aggressively the moment you feel your opponent attempting to connect their hands around your torso. Prevention requires significantly less energy than escape. Position one or both hands inside their arms to create a wedge that blocks their hands from meeting. Once the grip is fully locked, breaking it becomes exponentially more difficult because you must overcome the combined strength of both their arms working as a unified structure.
 
-### Guard pull to submission path
+**Q2**: Your opponent has locked their grip and is driving forward hip pressure - how do you respond?
+**A**: With forward pressure already established, prioritize base maintenance first: bend your knees deeply, widen your stance, and lower your center of gravity to resist being driven backward. If you can maintain base for 2-3 seconds while hand fighting, continue working for grip separation. If their pressure is overwhelming and you cannot maintain upright posture, sit to guard proactively with a controlled guard pull. Control your descent and immediately close your guard around their torso rather than waiting to be thrown into a worse position.
 
-`Body Lock Bottom → Sitting Guard Pull → Closed Guard → Triangle Setup → Triangle Choke`
+**Q3**: Why is turning to face your opponent a critical error when they have a locked body lock?
+**A**: Turning into the lock exposes your back immediately and actually assists your opponent's back take. When you turn, you rotate your hips toward them while they maintain their grip, which means their hands end up perfectly positioned across your centerline for optimal back control. Instead, create distance first by posting hands on their hips and driving them away, or create angles by explosive lateral movement. Only attempt to turn and face after you have successfully broken or significantly loosened their grip connection.
 
-### Defensive to offensive transition path
+**Q4**: What base fundamentals help you resist throws and lifts from body lock bottom?
+**A**: Maintain a wide stance with feet approximately shoulder-width apart or wider, with knees bent at least 30-45 degrees to lower your center of gravity. Keep your weight distributed through the balls of your feet to enable quick adjustments. Drive your hips toward the ground rather than allowing them to be lifted. If you feel a lift attempt, immediately hook one of their legs with your foot to prevent them from completing the throw. An upright stance with locked knees makes you easy to unbalance and lift.
 
-`Body Lock Bottom → Grip Break → Clinch → Arm Drag to Back → Back Control → Rear Naked Choke`
+**Q5**: How do you break a gable grip body lock using proper mechanics rather than arm strength alone?
+**A**: Target the thumb-side of their grip which is biomechanically the weakest point. Use both hands together against their single gripping arm, creating a two-on-one advantage. Combine this with explosive hip movement - drive your hips away while simultaneously attacking the grip. The hip movement adds momentum and whole-body power to the break. Rotate your torso while peeling their grip to add rotational force. Never try to simply pull their locked hands apart with arm strength alone, as their grip structure will always be stronger than your pulling strength.
+
+**Q6**: When is sitting to guard the correct defensive choice versus continuing to fight for standing position?
+**A**: Sit to guard when: your standing escapes have failed for 2-3 seconds, your posture is breaking backward under their pressure, you feel them beginning to lift for a throw, or when their grip is too strong to break before they execute an attack. The key is recognizing the point of no return and making a proactive choice. A controlled guard pull where you close your guard around their torso is far better than being thrown or mat-returned into a dominant position. However, if you can maintain strong base and their grip shows signs of weakening, continue fighting standing as guard recovery from body lock often leads to immediate passing pressure.
+
+**Q7**: What hand fighting strategy should you use once opponent's grip is established?
+**A**: Work to get at least one hand inside their lock to wedge between their arms and your body. This hand serves as a frame to create separation and prevents them from tightening their grip further. Use your other hand to attack the weakest point of their grip - typically where their fingers or thumb connect. Fight their grip continuously rather than making one attempt and stopping. Chain multiple grip break attempts together, attacking from different angles. Combine hand fighting with hip movement to add force to each breaking attempt rather than relying on arm strength in isolation.
+
+**Q8**: What is the correct response if you feel yourself being lifted for a suplex or throw?
+**A**: Immediately hook one of their legs with your foot to prevent them from completing the lift - this removes their ability to generate lifting power from the ground. Simultaneously drive your hips toward the mat and make your body as heavy as possible. If the lift continues, tuck your chin to protect your neck and roll with the throw rather than fighting it, using the momentum to transition into guard as you land. The worst outcome is being lifted and thrown while rigid, potentially landing in a dominated position. The controlled fall into guard preserves your ability to continue defending.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 

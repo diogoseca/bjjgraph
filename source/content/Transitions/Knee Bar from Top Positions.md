@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Knee Bar from Top Positions | BJJ Technique | BJJ Graph"
 description: "Master kneebar control from top positions in BJJ. Learn entries from passing scenarios, control mechanics, and finishing details. Beginner 30%, Intermediate 45%, Advanced 60%."
@@ -16,7 +17,7 @@ description: "Master kneebar control from top positions in BJJ. Learn entries fr
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Knee Bar from Top Positions in BJJ",
-  "description": "Step-by-step guide for Knee Bar from Top Positions from Headquarters Position to Kneebar Control.",
+  "description": "Step-by-step guide for Knee Bar from Top Positions from Headquarters Position/Top. Possible outcomes: Kneebar Control/Top (60%), Headquarters Position/Top (30%), Headquarters Position/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -160,11 +161,25 @@ description: "Master kneebar control from top positions in BJJ. Learn entries fr
 
 The Knee Bar from Top Positions represents a modern submission-oriented approach to passing where the practitioner transitions directly from passing scenarios to leg entanglement attacks while maintaining superior position. This technique bridges traditional positional advancement with contemporary leg lock systems, creating immediate submission threats during the passing process itself. The fundamental concept involves recognizing opportunities during leg drag sequences, headquarters positions, or knee slice attempts where the opponent's leg becomes isolated and vulnerable to kneebar attack. By maintaining top position throughout the attack, the practitioner combines the safety of positional dominance with the finishing power of leg entanglements, creating a low-risk, high-reward attacking scenario. The technique has become increasingly prevalent in modern no-gi competition where leg locks are legal at all skill levels, though it requires careful application in gi competition due to varying ruleset restrictions. Understanding the biomechanics of knee hyperextension, proper control mechanics to prevent escapes, and systematic finishing details transforms this from an opportunistic attack into a reliable component of a comprehensive passing and submission system.
 
-**Starting Position**: [[Headquarters Position]]
-**Ending Position**: [[Kneebar Control]]
+**From Position**: [[Headquarters Position/Top]]
 **Success Rates**: Beginner 30%, Intermediate 45%, Advanced 60%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Kneebar Control/Top]] | 60% |
+| Failure | [[Headquarters Position/Top]] | 30% |
+| Counter | [[Headquarters Position/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Omoplata Sweep | BJJ Technique | BJJ Graph"
 description: "Master the Omoplata Sweep from closed guard. Step-by-step execution combining shoulder lock threat with sweeping mechanics. Beginner 30%, Intermediate 50%, Advanced 70%."
@@ -16,7 +17,7 @@ description: "Master the Omoplata Sweep from closed guard. Step-by-step executio
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Omoplata Sweep in BJJ",
-  "description": "Step-by-step guide for Omoplata Sweep from Closed Guard to Mount.",
+  "description": "Step-by-step guide for Omoplata Sweep from Closed Guard/Bottom. Possible outcomes: Mount/Top (70%), Closed Guard/Bottom (20%), Closed Guard/Top (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -160,11 +161,25 @@ description: "Master the Omoplata Sweep from closed guard. Step-by-step executio
 
 The Omoplata Sweep is a sophisticated sweeping technique that combines the threat of the omoplata shoulder lock with dynamic hip movement to reverse position from closed guard. This technique exploits the opponent's defensive reaction to the omoplata attack, using their resistance and weight distribution to execute a powerful sweep. The beauty of the omoplata sweep lies in its dual-threat nature—if the opponent defends the submission, you sweep them; if they defend the sweep, you can finish the submission. This creates a classic dilemma scenario that makes the technique highly effective at all skill levels. The omoplata sweep is particularly valuable because it transitions seamlessly into dominant top positions, often landing you directly in mount or side control. While the technique requires significant hip flexibility and timing, it becomes one of the most reliable sweeps in your closed guard arsenal once mastered. The sweep works effectively in both gi and no-gi, though the gi provides additional control points that can make execution easier for beginners.
 
-**Starting Position**: [[Closed Guard]]
-**Ending Position**: [[Mount]]
+**From Position**: [[Closed Guard/Bottom]]
 **Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Mount/Top]] | 70% |
+| Failure | [[Closed Guard/Bottom]] | 20% |
+| Counter | [[Closed Guard/Top]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

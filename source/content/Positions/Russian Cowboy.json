@@ -47,6 +47,306 @@
       "relationship": "Alternative upper body control system for back attacks"
     }
   ],
+  "top": {
+    "name": "Russian Cowboy Top",
+    "description": "Offensive guide to mastering Russian Cowboy position. Learn control maintenance, truck entries, and submission setups. Success rates: Beginner 40%, Intermediate 60%, Advanced 80%.",
+    "tags": [
+      "bjj",
+      "back_attack",
+      "offensive",
+      "russian_cowboy",
+      "leg_entanglement"
+    ],
+    "overview": "The Russian Cowboy is a highly effective back control variant commonly used in no-gi grappling and submission wrestling. This position features the top practitioner establishing control over the opponent's back while maintaining a hook under one leg, creating powerful leverage for attacks and making escape extremely difficult. The position derives its name from the riding motion resembling a cowboy on a bucking horse, combined with its popularity among Russian and Eastern European grapplers.\n\nFrom a tactical perspective, the Russian Cowboy represents a transitional state between traditional back control and the truck position, offering unique submission opportunities including the twister, calf slicers, and various choke attacks. The position excels at controlling an opponent who is attempting to turtle or escape from bottom positions, as the single leg hook combined with upper body control creates a powerful pinning mechanism. Advanced practitioners use this position to systematically break down defensive postures and expose submission opportunities.\n\nThe Russian Cowboy is particularly effective because it combines elements of back attack systems with leg entanglement control, forcing the opponent to defend multiple threats simultaneously. Unlike pure back control where both hooks are in, or pure truck where both legs are controlled, the Russian Cowboy's asymmetric structure creates unique mechanical advantages that make it difficult for the opponent to distribute their defensive resources effectively. This position requires strong positional awareness and the ability to transition fluidly between related control positions.",
+    "state_properties": {
+      "point_value": 4,
+      "position_type": "Offensive/Controlling",
+      "risk_level": "Low to Medium",
+      "energy_cost": "Medium",
+      "time_sustainability": "Medium to Long"
+    },
+    "state_invariants": [
+      "Top practitioner maintains control of opponent's back with chest-to-back contact, keeping their torso aligned along the opponent's spine with weight distributed through the core",
+      "One leg hook is inserted under the opponent's near-side leg, with the foot positioned across the opponent's inner thigh or groin area to create rotational control",
+      "Upper body control is maintained through various grip configurations including seat belt control, over-under grips, or collar ties, preventing the opponent from turning into the top player",
+      "Opponent is typically on their side or partially turtled with shoulders off the mat, unable to establish a fully defensive posture or return to a neutral position",
+      "The top practitioner's free leg (without the hook) is positioned strategically to prevent opponent rotation and provide base, often posted on the mat or over the opponent's body"
+    ],
+    "prerequisites": [
+      "Opponent in turtle position, quarter guard, or transitional scramble situation",
+      "Ability to secure back exposure and prevent opponent from returning to guard",
+      "Control of at least one leg or hip to prevent opponent escape",
+      "Upper body connection established through grips or positional pressure",
+      "Understanding of back control fundamentals and transition mechanics"
+    ],
+    "key_principles": [
+      "Maintain chest-to-back connection to control opponent's upper body and prevent forward movement",
+      "Use the leg hook to create rotational control and prevent opponent from escaping to their back or guard",
+      "Keep opponent's weight distributed unevenly to break their base and create submission opportunities",
+      "Control opponent's near arm to prevent posting and defensive framing",
+      "Constantly adjust position to follow opponent's defensive movements while maintaining control hierarchy",
+      "Create angles with your body position to expose submission attacks without compromising positional control",
+      "Use pressure through the hook to stretch opponent's body and expose vulnerability in their defense"
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "Your opponent begins to bridge and turn their shoulders toward you - what immediate adjustment should you make to maintain control?",
+        "answer": "When opponent bridges toward you, immediately drive your chest weight forward and down into their upper back while simultaneously deepening your leg hook by pulling your heel toward your buttock. Use your seatbelt grip to pull their shoulder back toward the mat and angle your hips away from their turning direction. This combination of increased chest pressure and hook engagement creates a counter-rotation force that prevents them from completing the turn and reestablishes your dominant angle."
+      },
+      {
+        "question": "What are the essential grip configurations for maintaining Russian Cowboy control and which takes priority?",
+        "answer": "The primary grip is the seatbelt with the choking arm over the shoulder and underhook arm beneath the armpit, hands clasped together on the sternum. Secondary options include over-under control with wrist grip on the far arm, or collar tie combined with underhook. The seatbelt takes priority because it simultaneously threatens the choke, controls upper body rotation, and creates the asymmetric tension needed to prevent escape. Without proper seatbelt alignment, the position degrades quickly regardless of how well the hook is positioned."
+      },
+      {
+        "question": "How should weight be distributed between your chest, hooking leg, and posting leg to maximize control retention?",
+        "answer": "Approximately 50-60% of weight should drive through your chest into opponent's upper back, 25-30% through the hooking leg creating downward and rotational pressure, and 15-20% through the posting leg for balance and adjustment capability. The chest weight prevents forward escape, the hook creates the rotational control that defines the position, and the light posting leg allows rapid repositioning. Common error is too much weight on posting leg which makes the position static and easier to escape."
+      },
+      {
+        "question": "What is the primary escape attempt you must shut down from Russian Cowboy and how do you counter it?",
+        "answer": "The primary escape is the opponent rolling away from the hook toward turtle position. Counter this by anticipating the roll direction and following with your chest while maintaining hook engagement - their roll actually feeds into your truck entry if you stay connected. Use your seatbelt grip to control their rotation speed and either ride the roll into truck position or prevent it entirely by driving your chest weight down and pulling their near shoulder back. Never let them create separation during the roll."
+      },
+      {
+        "question": "When your opponent creates a strong frame against your chest, what pressure application technique restores control?",
+        "answer": "Against a chest frame, angle your body to create diagonal pressure rather than fighting directly into their frame. Shift your hips toward their head while maintaining hook depth, which changes the force vector and makes their frame less effective. Simultaneously use your underhook to drive their elbow toward their hip, collapsing the frame structure. If they persist, use your hook to pull their hips toward you while angling your chest the opposite direction, creating a stretching force that breaks down their defensive posture."
+      },
+      {
+        "question": "Your opponent suddenly shrimps their hips explosively - how do you anticipate and manage this movement?",
+        "answer": "Anticipate hip movement by maintaining constant tension through your hook and monitoring their hip alignment. When you feel their hips load for the shrimp, immediately extend your hook leg to match their movement while driving your chest forward to prevent space creation. The key is following their hips with your hook rather than trying to anchor statically. Advanced practitioners actually use opponent's shrimp as an entry to truck by riding the movement and threading the second leg hook as they create space."
+      },
+      {
+        "question": "How do you manage energy expenditure when opponent is actively fighting from Russian Cowboy bottom?",
+        "answer": "Energy management requires using positional pressure rather than muscular effort. Let your body weight do the work through proper chest alignment and hook positioning rather than squeezing with arms. When opponent moves, follow with small adjustments rather than large repositioning efforts. The position should feel like riding a wave - constant micro-adjustments matching their movement while maintaining the fundamental control points. If you're breathing heavily while maintaining position, you're using too much grip strength and not enough structural control."
+      },
+      {
+        "question": "Opponent manages to partially extract their hooked leg - what recovery sequence restores full control?",
+        "answer": "Immediately prioritize re-establishing the hook before addressing anything else. Drive your knee back under their thigh while simultaneously pulling with your seatbelt to bring their upper body back toward you - this creates the space needed for hook re-insertion. If they've extracted significantly, transition your free leg over their body while maintaining chest contact to establish a temporary crucifix-style pin, then work to reinsert the original hook. Never release upper body control to chase the hook or you'll lose the position entirely."
+      }
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent turtles defensively with arms tight and head down",
+        "actions": [
+          {
+            "technique": "Truck Entry",
+            "target": "Truck",
+            "probability": 65
+          },
+          {
+            "technique": "Crucifix from Turtle",
+            "target": "Crucifix",
+            "probability": 55
+          }
+        ]
+      },
+      {
+        "condition": "If opponent attempts to roll forward or granby away from the hook",
+        "actions": [
+          {
+            "technique": "Turtle to Truck",
+            "target": "Truck",
+            "probability": 70
+          },
+          {
+            "technique": "Twister Finish",
+            "target": "Twister Control",
+            "probability": 50
+          }
+        ]
+      },
+      {
+        "condition": "If opponent turns into you to escape the bottom position",
+        "actions": [
+          {
+            "technique": "Turtle to Back Take",
+            "target": "Back Control",
+            "probability": 75
+          },
+          {
+            "technique": "Rear Naked Choke",
+            "target": "game-over",
+            "probability": 60
+          }
+        ]
+      },
+      {
+        "condition": "If opponent extends their far arm to post or create distance",
+        "actions": [
+          {
+            "technique": "Armbar from Back",
+            "target": "Armbar Control",
+            "probability": 65
+          },
+          {
+            "technique": "Back Control to Crucifix",
+            "target": "Crucifix",
+            "probability": 70
+          }
+        ]
+      },
+      {
+        "condition": "If opponent flattens out attempting to relieve hook pressure",
+        "actions": [
+          {
+            "technique": "Bow and Arrow Choke",
+            "target": "game-over",
+            "probability": 60
+          },
+          {
+            "technique": "Calf Slicer from Truck",
+            "target": "Truck",
+            "probability": 55
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Losing chest-to-back connection while attempting to advance position",
+        "consequence": "Opponent creates space and escapes to guard or standing position",
+        "correction": "Maintain constant pressure through your chest into opponent's back, adjusting your body angle rather than creating separation when transitioning"
+      },
+      {
+        "error": "Hooking too shallow with the leg, only controlling the ankle or lower shin",
+        "consequence": "Insufficient control allows opponent to kick free and escape the position",
+        "correction": "Drive your hook deep across opponent's inner thigh toward their groin area, using your entire leg as a lever rather than just the foot"
+      },
+      {
+        "error": "Focusing exclusively on submission attempts without maintaining positional control",
+        "consequence": "Opponent escapes during submission attempts, losing the dominant position entirely",
+        "correction": "Prioritize securing the position first with proper hooks and grips before committing to submissions, transitioning systematically through control levels"
+      },
+      {
+        "error": "Allowing opponent to turn into you without controlling their near arm",
+        "consequence": "Opponent achieves facing position and can escape or counter-attack",
+        "correction": "Constantly monitor and control the opponent's near-side arm using over-hooks, under-hooks, or wrist control to prevent turning"
+      },
+      {
+        "error": "Posting the free leg too far from the opponent's body",
+        "consequence": "Poor base allows opponent to roll or bridge, creating escape opportunities",
+        "correction": "Keep your free leg close to opponent's body or posted strategically to maintain connection and follow their movements"
+      },
+      {
+        "error": "Using only upper body strength without leveraging the leg hook effectively",
+        "consequence": "Excessive energy expenditure and inability to maintain position against resistance",
+        "correction": "Use the leg hook to create rotational torque and stretch opponent's body, combining upper and lower body control for mechanical advantage"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Russian Cowboy Positional Maintenance",
+        "description": "Partner starts in bottom turtle position, you establish Russian Cowboy control. Partner attempts to escape using any method while you maintain position for 2 minute rounds. Focus on following their movement and maintaining the core control points without attempting submissions.",
+        "duration": "5 rounds of 2 minutes"
+      },
+      {
+        "name": "Transition Flow Drill",
+        "description": "From Russian Cowboy, practice flowing between related positions: Russian Cowboy → Truck → Back Control → Crucifix → Russian Cowboy. Partner provides moderate resistance. Emphasis on smooth transitions while maintaining control throughout the sequence.",
+        "duration": "3 rounds of 3 minutes"
+      },
+      {
+        "name": "Submission Sequence Training",
+        "description": "Establish Russian Cowboy and drill the primary submission sequence: attempt twister setup, if defended transition to calf slicer, if defended transition to bow and arrow choke. Partner provides progressive resistance, allowing position but defending submissions realistically.",
+        "duration": "10 repetitions per side, 3 sets"
+      },
+      {
+        "name": "Entry Repetitions",
+        "description": "Partner in turtle position with moderate defensive posture. Practice entering Russian Cowboy from various angles: from side control, from failed back take attempts, from quarter guard. Focus on smooth, efficient entries with immediate control establishment.",
+        "duration": "20 entries per session"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Truck",
+        "relationship": "Primary transition target and related control position"
+      },
+      {
+        "name": "Back Control",
+        "relationship": "Alternative control position with similar dominance level"
+      },
+      {
+        "name": "Twister Control",
+        "relationship": "Primary submission position accessible from Russian Cowboy"
+      },
+      {
+        "name": "Crucifix",
+        "relationship": "Alternative controlling position when opponent defends truck entry"
+      },
+      {
+        "name": "Turtle",
+        "relationship": "Common starting position for Russian Cowboy entry"
+      },
+      {
+        "name": "Crab Ride",
+        "relationship": "Similar back control variant with different hook configuration"
+      },
+      {
+        "name": "Twister",
+        "relationship": "Signature submission from this position"
+      },
+      {
+        "name": "Truck Entry",
+        "relationship": "Primary offensive transition"
+      },
+      {
+        "name": "Calf Slicer from Truck",
+        "relationship": "High-percentage submission available from transition"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "beginner": 50,
+        "intermediate": 70,
+        "advanced": 85,
+        "description": "Ability to maintain position against escape attempts"
+      },
+      "advancement_probability": {
+        "beginner": 40,
+        "intermediate": 60,
+        "advanced": 80,
+        "description": "Probability of advancing to truck or full back control"
+      },
+      "submission_probability": {
+        "beginner": 25,
+        "intermediate": 45,
+        "advanced": 65,
+        "description": "Probability of finishing from this position"
+      },
+      "average_time": "45-90 seconds before transition or submission attempt"
+    },
+    "transitions": [
+      {
+        "transition": "Truck Entry",
+        "attempt_probability": 14
+      },
+      {
+        "transition": "Twister Finish",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Back Control to Crucifix",
+        "attempt_probability": 13
+      },
+      {
+        "transition": "Rear Naked Choke",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Calf Slicer from Truck",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Bow and Arrow Choke",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Turtle to Back Take",
+        "attempt_probability": 16
+      },
+      {
+        "transition": "Armbar from Back",
+        "attempt_probability": 12
+      }
+    ]
+  },
   "bottom": {
     "name": "Russian Cowboy Bottom",
     "description": "Defensive guide to escaping Russian Cowboy position. Learn survival tactics, escape sequences, and recovery strategies. Success rates: Beginner 25%, Intermediate 40%, Advanced 60%.",
@@ -88,99 +388,38 @@
       "Use hip movement to relieve pressure on the hooked leg and create mobility",
       "Never allow opponent to consolidate position - constant defensive movement required"
     ],
-    "offensive_transitions": [
+    "knowledge_assessment": [
       {
-        "technique": "Granby Roll",
-        "target_position": "Open Guard",
-        "success_rates": {
-          "beginner": 20,
-          "intermediate": 35,
-          "advanced": 55
-        }
+        "question": "Your opponent begins setting up the rear naked choke while maintaining Russian Cowboy - what is your immediate defensive priority sequence?",
+        "answer": "Immediately address the choking arm using two-on-one grip fighting before any positional escape attempts. Pull the choking arm below your chin line while tucking your chin to your chest. Grip their wrist with both hands and pull it toward your sternum while turning your chin away from the choking arm. Only after you've neutralized the immediate choke threat should you begin working on the leg hook and creating escape angles. Attempting positional escape while the choke is being set will likely result in finishing the choke during your movement."
       },
       {
-        "technique": "Technical Standup",
-        "target_position": "Standing Guard",
-        "success_rates": {
-          "beginner": 15,
-          "intermediate": 30,
-          "advanced": 50
-        }
+        "question": "What are the critical frames you need to establish when trapped in Russian Cowboy bottom and in what order?",
+        "answer": "First frame is chin to chest and hands protecting the neck from choke setups - this is survival priority. Second frame is elbow to the mat on the side of the hook creating a base point that prevents being completely stretched out. Third frame is your near-side hand posted against their hip or thigh to create separation for hip movement. The sequence matters because without neck protection you can be finished, without the elbow base you can't generate escape movement, and without the hip frame you can't create the space needed to extract your hooked leg."
       },
       {
-        "technique": "Hip Escape",
-        "target_position": "Half Guard",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 40,
-          "advanced": 60
-        }
+        "question": "Why is rolling away from the hook a common mistake and what should you do instead?",
+        "answer": "Rolling away from the hook feeds directly into the opponent's truck entry because your roll gives them the rotational momentum they need to thread their second leg into full truck position. Instead, turn into their free leg side - the side without the hook. This direction doesn't assist their truck transition and may allow you to achieve half guard if you can get your hips facing them. Create frames first, then rotate toward their free leg side while controlling their hooking ankle to prevent them from adjusting their position to match your movement."
       },
       {
-        "technique": "Rolling Back Take",
-        "target_position": "Scramble Position",
-        "success_rates": {
-          "beginner": 10,
-          "intermediate": 25,
-          "advanced": 45
-        }
+        "question": "When your opponent advances their hook deeper toward truck position, what is your best defensive response?",
+        "answer": "Immediately post your far hand on the mat and hip escape toward the direction your opponent is pulling. This counteracts their rotation rather than fighting it directly. Simultaneously use your near hand to grip their hooking ankle and push it away from your body while extending your hooked leg. The combination of hip escape movement and active leg extraction is more effective than pure static resistance. If they've already achieved significant hook depth, consider transitioning to turtle as an intermediate position rather than trying to fully extract the leg."
       },
       {
-        "technique": "Turtle Transition",
-        "target_position": "Turtle",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 45,
-          "advanced": 65
-        }
+        "question": "How do you recognize and capitalize on escape windows when your opponent adjusts their position?",
+        "answer": "Watch for moments when their chest pressure lightens, their seatbelt loosens, or they shift their hips to adjust their hook - these are escape windows. When you feel decreased chest pressure, immediately shrimp your hips away and work to face them. When the seatbelt loosens, address the grip on your shoulder first then work on the hook. When their hips shift, that's your opportunity for explosive movement because they've temporarily reduced their base. The key is recognizing these micro-moments and exploding into your escape immediately rather than thinking about it."
       },
       {
-        "technique": "Guard Replacement",
-        "target_position": "Closed Guard",
-        "success_rates": {
-          "beginner": 15,
-          "intermediate": 30,
-          "advanced": 50
-        }
-      }
-    ],
-    "defensive_responses": [
-      {
-        "technique": "Truck Entry",
-        "target_position": "Truck",
-        "success_rate": 70
+        "question": "Your escape attempt partially succeeds but opponent still has upper body control - how do you complete the recovery?",
+        "answer": "If you've freed the hook but they maintain seatbelt, immediately rotate to face them while keeping your chin protected and elbows tight. Work to establish inside position with your arms - underhooks or frames against their biceps. Your priority is getting your hips facing them before they can re-establish the hook. If you've broken the seatbelt but they still have the hook, control their hooking ankle with both hands if needed and use it as a pivot point to rotate your body out. Never stop moving during this critical transition phase or they'll reconsolidate control."
       },
       {
-        "technique": "Back Control to Crucifix",
-        "target_position": "Crucifix",
-        "success_rate": 60
+        "question": "What positional goals should you work toward when escaping Russian Cowboy and why?",
+        "answer": "Primary goal is half guard because it allows you to address the hook through lockdown or knee shield while facing your opponent. Secondary goal is turtle which trades one bad position for a more defensible one with better escape options. Tertiary goal is standing if you can create enough separation and they lose upper body control. Closed guard is rarely achievable directly but may come after passing through half guard. The key is having clear positional targets rather than just escaping randomly, as this prevents you from escaping into worse positions."
       },
       {
-        "technique": "Twister Finish",
-        "target_position": "Twister Control",
-        "success_rate": 55
-      },
-      {
-        "technique": "Rear Naked Choke",
-        "target_position": "Back Control",
-        "success_rate": 65
-      }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Frame and Turn In",
-        "target_position": "Half Guard",
-        "trigger": "Create strong frame against opponent's chest when they attempt to flatten you"
-      },
-      {
-        "technique": "Leg Extraction",
-        "target_position": "Turtle",
-        "trigger": "Control opponent's hooking ankle and extract leg when pressure is reduced"
-      },
-      {
-        "technique": "Explosive Standup",
-        "target_position": "Standing Guard",
-        "trigger": "Capitalize on opponent's positional adjustment to burst to standing"
+        "question": "How do you manage energy expenditure when defending a prolonged Russian Cowboy attack?",
+        "answer": "Use frames and structure rather than muscular effort for survival. Keep your breathing steady and controlled - panicked breathing depletes energy rapidly. Make calculated movements during escape windows rather than constant struggling which exhausts you while your opponent conserves energy. Recognize when you're defended against immediate submission threats and use these moments to recover mentally and physically rather than struggling continuously. Your escape attempts should be explosions of effort during windows, not sustained resistance. If you're breathing harder than your opponent, you're losing the energy battle."
       }
     ],
     "decision_tree": [
@@ -189,12 +428,12 @@
         "actions": [
           {
             "technique": "Hand Fighting",
-            "target": "Defensive Position",
+            "target": "Russian Cowboy",
             "probability": 80
           },
           {
             "technique": "Chin Protection",
-            "target": "Defensive Position",
+            "target": "Russian Cowboy",
             "probability": 85
           }
         ]
@@ -289,20 +528,6 @@
         "duration": "10 repetitions per scenario"
       }
     ],
-    "optimal_submission_paths": [
-      {
-        "name": "Guard Recovery Path",
-        "path": "Russian Cowboy Bottom → Hip Escape → Half Guard → Closed Guard"
-      },
-      {
-        "name": "Turtle Escape Sequence",
-        "path": "Russian Cowboy Bottom → Turtle Transition → Turtle → Standing up in Base"
-      },
-      {
-        "name": "Standing Escape",
-        "path": "Russian Cowboy Bottom → Technical Standup → Standing Guard"
-      }
-    ],
     "related_content": [
       {
         "name": "Back Control",
@@ -345,387 +570,32 @@
         "description": "Risk of being submitted from this position"
       },
       "average_time": "20-45 seconds before escape or submission"
-    }
-  },
-  "top": {
-    "name": "Russian Cowboy Top",
-    "description": "Offensive guide to mastering Russian Cowboy position. Learn control maintenance, truck entries, and submission setups. Success rates: Beginner 40%, Intermediate 60%, Advanced 80%.",
-    "tags": [
-      "bjj",
-      "back_attack",
-      "offensive",
-      "russian_cowboy",
-      "leg_entanglement"
-    ],
-    "overview": "The Russian Cowboy is a highly effective back control variant commonly used in no-gi grappling and submission wrestling. This position features the top practitioner establishing control over the opponent's back while maintaining a hook under one leg, creating powerful leverage for attacks and making escape extremely difficult. The position derives its name from the riding motion resembling a cowboy on a bucking horse, combined with its popularity among Russian and Eastern European grapplers.\n\nFrom a tactical perspective, the Russian Cowboy represents a transitional state between traditional back control and the truck position, offering unique submission opportunities including the twister, calf slicers, and various choke attacks. The position excels at controlling an opponent who is attempting to turtle or escape from bottom positions, as the single leg hook combined with upper body control creates a powerful pinning mechanism. Advanced practitioners use this position to systematically break down defensive postures and expose submission opportunities.\n\nThe Russian Cowboy is particularly effective because it combines elements of back attack systems with leg entanglement control, forcing the opponent to defend multiple threats simultaneously. Unlike pure back control where both hooks are in, or pure truck where both legs are controlled, the Russian Cowboy's asymmetric structure creates unique mechanical advantages that make it difficult for the opponent to distribute their defensive resources effectively. This position requires strong positional awareness and the ability to transition fluidly between related control positions.",
-    "state_properties": {
-      "point_value": 4,
-      "position_type": "Offensive/Controlling",
-      "risk_level": "Low to Medium",
-      "energy_cost": "Medium",
-      "time_sustainability": "Medium to Long"
     },
-    "state_invariants": [
-      "Top practitioner maintains control of opponent's back with chest-to-back contact, keeping their torso aligned along the opponent's spine with weight distributed through the core",
-      "One leg hook is inserted under the opponent's near-side leg, with the foot positioned across the opponent's inner thigh or groin area to create rotational control",
-      "Upper body control is maintained through various grip configurations including seat belt control, over-under grips, or collar ties, preventing the opponent from turning into the top player",
-      "Opponent is typically on their side or partially turtled with shoulders off the mat, unable to establish a fully defensive posture or return to a neutral position",
-      "The top practitioner's free leg (without the hook) is positioned strategically to prevent opponent rotation and provide base, often posted on the mat or over the opponent's body"
-    ],
-    "prerequisites": [
-      "Opponent in turtle position, quarter guard, or transitional scramble situation",
-      "Ability to secure back exposure and prevent opponent from returning to guard",
-      "Control of at least one leg or hip to prevent opponent escape",
-      "Upper body connection established through grips or positional pressure",
-      "Understanding of back control fundamentals and transition mechanics"
-    ],
-    "key_principles": [
-      "Maintain chest-to-back connection to control opponent's upper body and prevent forward movement",
-      "Use the leg hook to create rotational control and prevent opponent from escaping to their back or guard",
-      "Keep opponent's weight distributed unevenly to break their base and create submission opportunities",
-      "Control opponent's near arm to prevent posting and defensive framing",
-      "Constantly adjust position to follow opponent's defensive movements while maintaining control hierarchy",
-      "Create angles with your body position to expose submission attacks without compromising positional control",
-      "Use pressure through the hook to stretch opponent's body and expose vulnerability in their defense"
-    ],
-    "offensive_transitions": [
+    "transitions": [
       {
-        "technique": "Truck Entry",
-        "target_position": "Truck",
-        "success_rates": {
-          "beginner": 40,
-          "intermediate": 60,
-          "advanced": 80
-        }
+        "transition": "Granby Roll",
+        "attempt_probability": 17
       },
       {
-        "technique": "Twister Finish",
-        "target_position": "Twister Control",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 45,
-          "advanced": 65
-        }
+        "transition": "Technical Standup",
+        "attempt_probability": 15
       },
       {
-        "technique": "Back Control to Crucifix",
-        "target_position": "Crucifix",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 55,
-          "advanced": 75
-        }
+        "transition": "Hip Escape",
+        "attempt_probability": 18
       },
       {
-        "technique": "Rear Naked Choke",
-        "target_position": "Back Control",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 50,
-          "advanced": 70
-        }
+        "transition": "Rolling Back Take",
+        "attempt_probability": 14
       },
       {
-        "technique": "Calf Slicer from Truck",
-        "target_position": "Truck",
-        "success_rates": {
-          "beginner": 20,
-          "intermediate": 40,
-          "advanced": 60
-        }
+        "transition": "Turtle Transition",
+        "attempt_probability": 21
       },
       {
-        "technique": "Bow and Arrow Choke",
-        "target_position": "Won by Submission",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 45,
-          "advanced": 65
-        }
-      },
-      {
-        "technique": "Turtle to Back Take",
-        "target_position": "Back Control",
-        "success_rates": {
-          "beginner": 45,
-          "intermediate": 65,
-          "advanced": 85
-        }
-      },
-      {
-        "technique": "Armbar from Back",
-        "target_position": "Armbar Control",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 50,
-          "advanced": 70
-        }
+        "transition": "Guard Replacement",
+        "attempt_probability": 15
       }
-    ],
-    "defensive_responses": [
-      {
-        "technique": "Granby Roll",
-        "target_position": "Open Guard",
-        "success_rate": 25
-      },
-      {
-        "technique": "Technical Standup",
-        "target_position": "Standing Guard",
-        "success_rate": 20
-      },
-      {
-        "technique": "Rolling Back Take",
-        "target_position": "Scramble Position",
-        "success_rate": 30
-      },
-      {
-        "technique": "Hip Escape",
-        "target_position": "Half Guard",
-        "success_rate": 35
-      },
-      {
-        "technique": "Turtle Transition",
-        "target_position": "Turtle",
-        "success_rate": 40
-      }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Transition to Truck",
-        "target_position": "Truck",
-        "trigger": "Opponent attempts to roll forward or away from the hook"
-      },
-      {
-        "technique": "Crucifix from Turtle",
-        "target_position": "Crucifix",
-        "trigger": "Opponent turtles and extends far arm for posting"
-      },
-      {
-        "technique": "Back Control to Crucifix",
-        "target_position": "Back Control",
-        "trigger": "Opponent turns into you to escape the hook"
-      },
-      {
-        "technique": "Twister Finish",
-        "target_position": "Twister Control",
-        "trigger": "Opponent's spine becomes exposed during escape attempts"
-      }
-    ],
-    "decision_tree": [
-      {
-        "condition": "If opponent turtles defensively with arms tight and head down",
-        "actions": [
-          {
-            "technique": "Truck Entry",
-            "target": "Truck",
-            "probability": 65
-          },
-          {
-            "technique": "Crucifix from Turtle",
-            "target": "Crucifix",
-            "probability": 55
-          }
-        ]
-      },
-      {
-        "condition": "If opponent attempts to roll forward or granby away from the hook",
-        "actions": [
-          {
-            "technique": "Transition to Truck",
-            "target": "Truck",
-            "probability": 70
-          },
-          {
-            "technique": "Twister Finish",
-            "target": "Twister Control",
-            "probability": 50
-          }
-        ]
-      },
-      {
-        "condition": "If opponent turns into you to escape the bottom position",
-        "actions": [
-          {
-            "technique": "Turtle to Back Take",
-            "target": "Back Control",
-            "probability": 75
-          },
-          {
-            "technique": "Rear Naked Choke",
-            "target": "Won by Submission",
-            "probability": 60
-          }
-        ]
-      },
-      {
-        "condition": "If opponent extends their far arm to post or create distance",
-        "actions": [
-          {
-            "technique": "Armbar from Back",
-            "target": "Armbar Control",
-            "probability": 65
-          },
-          {
-            "technique": "Back Control to Crucifix",
-            "target": "Crucifix",
-            "probability": 70
-          }
-        ]
-      },
-      {
-        "condition": "If opponent flattens out attempting to relieve hook pressure",
-        "actions": [
-          {
-            "technique": "Bow and Arrow Choke",
-            "target": "Won by Submission",
-            "probability": 60
-          },
-          {
-            "technique": "Calf Slicer from Truck",
-            "target": "Truck",
-            "probability": 55
-          }
-        ]
-      }
-    ],
-    "common_errors": [
-      {
-        "error": "Losing chest-to-back connection while attempting to advance position",
-        "consequence": "Opponent creates space and escapes to guard or standing position",
-        "correction": "Maintain constant pressure through your chest into opponent's back, adjusting your body angle rather than creating separation when transitioning"
-      },
-      {
-        "error": "Hooking too shallow with the leg, only controlling the ankle or lower shin",
-        "consequence": "Insufficient control allows opponent to kick free and escape the position",
-        "correction": "Drive your hook deep across opponent's inner thigh toward their groin area, using your entire leg as a lever rather than just the foot"
-      },
-      {
-        "error": "Focusing exclusively on submission attempts without maintaining positional control",
-        "consequence": "Opponent escapes during submission attempts, losing the dominant position entirely",
-        "correction": "Prioritize securing the position first with proper hooks and grips before committing to submissions, transitioning systematically through control levels"
-      },
-      {
-        "error": "Allowing opponent to turn into you without controlling their near arm",
-        "consequence": "Opponent achieves facing position and can escape or counter-attack",
-        "correction": "Constantly monitor and control the opponent's near-side arm using over-hooks, under-hooks, or wrist control to prevent turning"
-      },
-      {
-        "error": "Posting the free leg too far from the opponent's body",
-        "consequence": "Poor base allows opponent to roll or bridge, creating escape opportunities",
-        "correction": "Keep your free leg close to opponent's body or posted strategically to maintain connection and follow their movements"
-      },
-      {
-        "error": "Using only upper body strength without leveraging the leg hook effectively",
-        "consequence": "Excessive energy expenditure and inability to maintain position against resistance",
-        "correction": "Use the leg hook to create rotational torque and stretch opponent's body, combining upper and lower body control for mechanical advantage"
-      }
-    ],
-    "training_drills": [
-      {
-        "name": "Russian Cowboy Positional Maintenance",
-        "description": "Partner starts in bottom turtle position, you establish Russian Cowboy control. Partner attempts to escape using any method while you maintain position for 2 minute rounds. Focus on following their movement and maintaining the core control points without attempting submissions.",
-        "duration": "5 rounds of 2 minutes"
-      },
-      {
-        "name": "Transition Flow Drill",
-        "description": "From Russian Cowboy, practice flowing between related positions: Russian Cowboy → Truck → Back Control → Crucifix → Russian Cowboy. Partner provides moderate resistance. Emphasis on smooth transitions while maintaining control throughout the sequence.",
-        "duration": "3 rounds of 3 minutes"
-      },
-      {
-        "name": "Submission Sequence Training",
-        "description": "Establish Russian Cowboy and drill the primary submission sequence: attempt twister setup, if defended transition to calf slicer, if defended transition to bow and arrow choke. Partner provides progressive resistance, allowing position but defending submissions realistically.",
-        "duration": "10 repetitions per side, 3 sets"
-      },
-      {
-        "name": "Entry Repetitions",
-        "description": "Partner in turtle position with moderate defensive posture. Practice entering Russian Cowboy from various angles: from side control, from failed back take attempts, from quarter guard. Focus on smooth, efficient entries with immediate control establishment.",
-        "duration": "20 entries per session"
-      }
-    ],
-    "optimal_submission_paths": [
-      {
-        "name": "Twister Specialist Path",
-        "path": "Russian Cowboy Top → Truck Entry → Twister Control → Twister"
-      },
-      {
-        "name": "Leg Attack Sequence",
-        "path": "Russian Cowboy Top → Truck Entry → Calf Slicer from Truck → Won by Submission"
-      },
-      {
-        "name": "Traditional Back Attack",
-        "path": "Russian Cowboy Top → Turtle to Back Take → Rear Naked Choke → Won by Submission"
-      },
-      {
-        "name": "Crucifix Development",
-        "path": "Russian Cowboy Top → Back Control to Crucifix → Armbar from Back → Won by Submission"
-      },
-      {
-        "name": "Bow and Arrow Finish",
-        "path": "Russian Cowboy Top → Truck Entry → Bow and Arrow Choke → Won by Submission"
-      }
-    ],
-    "related_content": [
-      {
-        "name": "Truck",
-        "relationship": "Primary transition target and related control position"
-      },
-      {
-        "name": "Back Control",
-        "relationship": "Alternative control position with similar dominance level"
-      },
-      {
-        "name": "Twister Control",
-        "relationship": "Primary submission position accessible from Russian Cowboy"
-      },
-      {
-        "name": "Crucifix",
-        "relationship": "Alternative controlling position when opponent defends truck entry"
-      },
-      {
-        "name": "Turtle",
-        "relationship": "Common starting position for Russian Cowboy entry"
-      },
-      {
-        "name": "Crab Ride",
-        "relationship": "Similar back control variant with different hook configuration"
-      },
-      {
-        "name": "Twister",
-        "relationship": "Signature submission from this position"
-      },
-      {
-        "name": "Truck Entry",
-        "relationship": "Primary offensive transition"
-      },
-      {
-        "name": "Back Attack System",
-        "relationship": "Overall strategic framework that includes Russian Cowboy"
-      },
-      {
-        "name": "Calf Slicer from Truck",
-        "relationship": "High-percentage submission available from transition"
-      }
-    ],
-    "position_metrics": {
-      "retention_rate": {
-        "beginner": 50,
-        "intermediate": 70,
-        "advanced": 85,
-        "description": "Ability to maintain position against escape attempts"
-      },
-      "advancement_probability": {
-        "beginner": 40,
-        "intermediate": 60,
-        "advanced": 80,
-        "description": "Probability of advancing to truck or full back control"
-      },
-      "submission_probability": {
-        "beginner": 25,
-        "intermediate": 45,
-        "advanced": 65,
-        "description": "Probability of finishing from this position"
-      },
-      "average_time": "45-90 seconds before transition or submission attempt"
-    }
+    ]
   }
 }

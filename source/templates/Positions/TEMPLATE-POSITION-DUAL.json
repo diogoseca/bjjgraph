@@ -110,13 +110,10 @@
         "state_invariants",
         "prerequisites",
         "key_principles",
-        "offensive_transitions",
-        "defensive_responses",
-        "counter_transitions",
+        "transitions",
         "decision_tree",
         "common_errors",
         "training_drills",
-        "optimal_submission_paths",
         "related_content",
         "position_metrics",
         "name",
@@ -128,6 +125,9 @@
           "type": "string",
           "description": "Bottom perspective overview (400+ words minimum)",
           "minLength": 400
+        },
+        "knowledge_assessment": {
+          "$ref": "#/$defs/knowledge_assessment"
         },
         "state_properties": {
           "$ref": "#/$defs/state_properties"
@@ -141,14 +141,8 @@
         "key_principles": {
           "$ref": "#/$defs/key_principles"
         },
-        "offensive_transitions": {
-          "$ref": "#/$defs/offensive_transitions"
-        },
-        "defensive_responses": {
-          "$ref": "#/$defs/defensive_responses"
-        },
-        "counter_transitions": {
-          "$ref": "#/$defs/counter_transitions"
+        "transitions": {
+          "$ref": "#/$defs/transitions"
         },
         "decision_tree": {
           "$ref": "#/$defs/decision_tree"
@@ -158,9 +152,6 @@
         },
         "training_drills": {
           "$ref": "#/$defs/training_drills"
-        },
-        "optimal_submission_paths": {
-          "$ref": "#/$defs/optimal_submission_paths"
         },
         "related_content": {
           "$ref": "#/$defs/related_content"
@@ -198,13 +189,10 @@
         "state_invariants",
         "prerequisites",
         "key_principles",
-        "offensive_transitions",
-        "defensive_responses",
-        "counter_transitions",
+        "transitions",
         "decision_tree",
         "common_errors",
         "training_drills",
-        "optimal_submission_paths",
         "related_content",
         "position_metrics",
         "name",
@@ -216,6 +204,9 @@
           "type": "string",
           "description": "Top perspective overview (400+ words minimum)",
           "minLength": 400
+        },
+        "knowledge_assessment": {
+          "$ref": "#/$defs/knowledge_assessment"
         },
         "state_properties": {
           "$ref": "#/$defs/state_properties"
@@ -229,14 +220,8 @@
         "key_principles": {
           "$ref": "#/$defs/key_principles"
         },
-        "offensive_transitions": {
-          "$ref": "#/$defs/offensive_transitions"
-        },
-        "defensive_responses": {
-          "$ref": "#/$defs/defensive_responses"
-        },
-        "counter_transitions": {
-          "$ref": "#/$defs/counter_transitions"
+        "transitions": {
+          "$ref": "#/$defs/transitions"
         },
         "decision_tree": {
           "$ref": "#/$defs/decision_tree"
@@ -246,9 +231,6 @@
         },
         "training_drills": {
           "$ref": "#/$defs/training_drills"
-        },
-        "optimal_submission_paths": {
-          "$ref": "#/$defs/optimal_submission_paths"
         },
         "related_content": {
           "$ref": "#/$defs/related_content"
@@ -364,91 +346,26 @@
         "type": "string"
       }
     },
-    "offensive_transitions": {
+    "transitions": {
       "type": "array",
-      "description": "Available attacks/advancements from this position (6-20 items)",
-      "minItems": 6,
-      "maxItems": 20,
+      "description": "Available transitions from this position. attempt_probability MUST sum to 100%",
       "items": {
         "type": "object",
         "additionalProperties": false,
         "required": [
-          "technique",
-          "target_position",
-          "success_rates"
+          "transition",
+          "attempt_probability"
         ],
         "properties": {
-          "technique": {
+          "transition": {
             "type": "string",
-            "description": "Technique name",
-            "minLength": 1
+            "description": "Name of the transition technique (must exist as Transition JSON)"
           },
-          "target_position": {
-            "type": "string",
-            "description": "Resulting position",
-            "minLength": 1
-          },
-          "success_rates": {
-            "$ref": "#/$defs/skill_level_success_rates"
-          }
-        }
-      }
-    },
-    "defensive_responses": {
-      "type": "array",
-      "description": "How opponent defends when you have this position (3-10 items)",
-      "minItems": 3,
-      "maxItems": 10,
-      "items": {
-        "type": "object",
-        "additionalProperties": false,
-        "required": [
-          "technique",
-          "target_position"
-        ],
-        "properties": {
-          "technique": {
-            "type": "string",
-            "minLength": 3
-          },
-          "target_position": {
-            "type": "string",
-            "minLength": 3
-          },
-          "success_rate": {
+          "attempt_probability": {
             "type": "integer",
             "minimum": 0,
             "maximum": 100,
-            "description": "Optional: opponent's success rate for this escape"
-          }
-        }
-      }
-    },
-    "counter_transitions": {
-      "type": "array",
-      "description": "Transitions to counter opponent's escape attempts",
-      "minItems": 2,
-      "items": {
-        "type": "object",
-        "additionalProperties": false,
-        "required": [
-          "technique",
-          "target_position",
-          "trigger"
-        ],
-        "properties": {
-          "technique": {
-            "type": "string",
-            "minLength": 3
-          },
-          "target_position": {
-            "type": "string",
-            "minLength": 3
-          },
-          "trigger": {
-            "type": "string",
-            "description": "What opponent action triggers this counter",
-            "minLength": 10
+            "description": "Probability this transition is attempted (all must sum to 100%)"
           }
         }
       }
@@ -561,31 +478,6 @@
         }
       }
     },
-    "optimal_submission_paths": {
-      "type": "array",
-      "description": "3+ paths from this position to submission",
-      "minItems": 3,
-      "items": {
-        "type": "object",
-        "additionalProperties": false,
-        "required": [
-          "name",
-          "path"
-        ],
-        "properties": {
-          "name": {
-            "type": "string",
-            "description": "Path description",
-            "minLength": 5
-          },
-          "path": {
-            "type": "string",
-            "description": "Sequence of positions/techniques with → arrows",
-            "minLength": 10
-          }
-        }
-      }
-    },
     "related_content": {
       "type": "array",
       "description": "Related positions/states/techniques (3-15 items)",
@@ -655,6 +547,29 @@
         "average_time": {
           "type": "string",
           "description": "Average time spent in position (optional)"
+        }
+      }
+    },
+    "knowledge_assessment": {
+      "type": "array",
+      "description": "6 Q&A pairs about this position (how to maintain, common mistakes, etc.)",
+      "minItems": 6,
+      "maxItems": 8,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["question", "answer"],
+        "properties": {
+          "question": {
+            "type": "string",
+            "pattern": ".*\\?$",
+            "description": "Question about position mechanics, strategy, or technique"
+          },
+          "answer": {
+            "type": "string",
+            "minLength": 50,
+            "description": "Detailed answer (50+ characters)"
+          }
         }
       }
     },

@@ -93,32 +93,24 @@ While technically demanding and primarily applicable in gi competition, Piranha 
 - Use the lapel as both defensive barrier against passing pressure and offensive weapon for attacks, creating constant dilemmas for the top player
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Pendulum Sweep]]** → [[Mount]]
-  - Success Rate: Beginner 40%, Intermediate 60%, Advanced 75%
+- **[[Pendulum Sweep]]** (15% of attempts)
 
-- **[[Collar Drag]]** → [[Back Control]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 65%
+- **[[Collar Drag]]** (12% of attempts)
 
-- **[[Triangle Setup]]** → [[Triangle Control]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 65%
+- **[[Triangle Setup]]** (12% of attempts)
 
-- **[[Omoplata Sweep]]** → [[Omoplata Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Omoplata Sweep]]** (12% of attempts)
 
-- **[[De La Riva Sweep]]** → [[Side Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[De La Riva Sweep]]** (12% of attempts)
 
-- **[[Berimbolo Entry]]** → [[Back Control]]
-  - Success Rate: Beginner 20%, Intermediate 40%, Advanced 60%
+- **[[Berimbolo Entry]]** (12% of attempts)
 
-- **[[Flower Sweep]]** → [[Mount]]
-  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 70%
+- **[[Flower Sweep]]** (13% of attempts)
 
-- **[[Armbar from Guard]]** → [[Armbar Control]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 60%
+- **[[Armbar from Guard]]** (12% of attempts)
 
 
 ### Common Mistakes
@@ -180,29 +172,22 @@ While technically demanding and primarily applicable in gi competition, Piranha 
 - Use strategic grips on pants and belt to anchor position and limit bottom player's mobility and attacking options
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Toreando Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Toreando Pass]]** (16% of attempts)
 
-- **[[Knee Slice Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Knee Slice Pass]]** (15% of attempts)
 
-- **[[Long Step Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Long Step Pass]]** (13% of attempts)
 
-- **[[Stack Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Stack Pass]]** (12% of attempts)
 
-- **[[Leg Drag Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Leg Drag Pass]]** (15% of attempts)
 
-- **[[Pressure Pass]]** → [[Half Guard]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Pressure Pass]]** (16% of attempts)
 
-- **[[X Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[X Pass]]** (13% of attempts)
 
 
 ### Common Mistakes

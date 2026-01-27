@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Knee Cut | BJJ Technique | BJJ Graph"
 description: "Master the Knee Cut Pass in BJJ. Step-by-step execution from Half Guard to Side Control. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%."
@@ -16,7 +17,7 @@ description: "Master the Knee Cut Pass in BJJ. Step-by-step execution from Half 
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Knee Cut in BJJ",
-  "description": "Step-by-step guide for Knee Cut from Half Guard to Side Control.",
+  "description": "Step-by-step guide for Knee Cut from Half Guard/Bottom. Possible outcomes: Side Control/Top (75%), Half Guard/Bottom (15%), Half Guard/Top (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -154,11 +155,25 @@ description: "Master the Knee Cut Pass in BJJ. Step-by-step execution from Half 
 
 The Knee Cut Pass (also known as Knee Slice Pass) is one of the most fundamental and highest-percentage guard passing techniques in Brazilian Jiu-Jitsu. This pass works by cutting the knee across the opponent's bottom leg while maintaining heavy shoulder pressure to prevent guard recovery. The technique creates a powerful diagonal line of force that pins the opponent's lower body while your upper body controls their upper body, making it extremely difficult to retain guard. The Knee Cut is effective against virtually all open guard variations and is particularly powerful against Half Guard, De La Riva Guard, and Butterfly Guard. What makes this pass so reliable is its combination of pressure, angle, and the difficulty opponents face in creating frames once the knee begins its cutting motion. The pass transitions seamlessly into Side Control and can be chained with other passing sequences when met with resistance.
 
-**Starting Position**: [[Half Guard]]
-**Ending Position**: [[Side Control]]
+**From Position**: [[Half Guard/Bottom]]
 **Success Rates**: Beginner 45%, Intermediate 60%, Advanced 75%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Side Control/Top]] | 75% |
+| Failure | [[Half Guard/Bottom]] | 15% |
+| Counter | [[Half Guard/Top]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

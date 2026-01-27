@@ -251,6 +251,36 @@
       "question": "What are the warning signs that indicate you may have applied the ten finger guillotine too aggressively, and what immediate actions should you take if you observe these signs in your training partner?",
       "answer": "Warning signs of overly aggressive application include: opponent going suddenly limp (loss of consciousness), unusual stiffening or convulsing movements, gurgling or choking sounds indicating airway obstruction, inability to tap or signal distress, eyes rolling back, or discoloration of the face. If you observe any of these signs, immediately release all pressure, gently lower the opponent to the mat on their back, and check their responsiveness by calling their name and checking for breathing. If they're unconscious, elevate their legs above their heart to restore blood flow to the brain. They should regain consciousness within 5-10 seconds. If breathing is labored or they don't regain consciousness quickly, call for medical assistance immediately. Once they're conscious, allow several minutes of recovery and check for neck pain, difficulty swallowing, or vision problems. Do not continue training that session and encourage medical evaluation if symptoms persist. These situations are medical emergencies and should be treated seriously regardless of how quickly the person recovers.",
       "safety_critical": true
+    },
+    {
+      "question": "What anatomical structures does the ten finger guillotine primarily attack, and how does understanding this affect your finishing mechanics?",
+      "answer": "The ten finger guillotine primarily attacks the carotid arteries on both sides of the neck, restricting blood flow to the brain (blood choke). Secondarily, it can compress the trachea (airway choke). Understanding this anatomy is critical: blood chokes are more efficient and safer, causing unconsciousness in 6-10 seconds when properly applied, while airway chokes require more pressure and take longer to achieve effect. The ten finger grip's interlaced configuration creates bilateral compression when you elevate your shoulders and retract your elbows, squeezing both carotid arteries simultaneously. Your forearm blade should be positioned across the front of the throat, not pressing directly into the trachea. This anatomical understanding guides your finishing mechanics: focus on the squeezing action that closes the carotid arteries rather than crushing pressure that primarily attacks the airway.",
+      "safety_critical": false
+    },
+    {
+      "question": "At what point during the ten finger guillotine execution does the opponent reach the 'point of no escape,' and what technical elements must be in place?",
+      "answer": "The point of no escape occurs when all of the following elements are simultaneously in place: (1) your interlaced grip is fully locked with elbows tight to your ribs, (2) your shoulders are elevated and lats fully engaged creating the compression loop, (3) opponent's posture is completely broken with their head below hip level, (4) their far arm is neutralized preventing grip stripping, and (5) you have established stable positioning (either sprawled hips from standing or closed guard from bottom). Once these conditions are met, escape becomes nearly impossible because any movement the opponent makes—driving forward, pulling back, or turning—maintains or increases the choking pressure. The key indicator is when you feel the opponent's defensive movements become weaker and more frantic rather than technical, signaling the choke is taking effect. At this stage, maintain steady pressure and monitor for the tap.",
+      "safety_critical": false
+    },
+    {
+      "question": "What grip adjustments should you make during the finish phase if your opponent is larger and stronger than you?",
+      "answer": "Against larger, stronger opponents, grip efficiency becomes paramount. First, ensure your choking arm is as deep as possible before interlacing fingers—depth matters more than squeeze strength. Second, maximize your shoulder elevation and lat engagement to leverage these larger muscle groups rather than fighting with forearms. Third, position your hips further back to create a longer lever arm, multiplying your mechanical advantage. Fourth, if standing, immediately transition to guard to use your legs as additional compression tools rather than fighting their strength from standing. Fifth, consider the high elbow variation which attacks at an angle where their strength advantage is diminished. The ten finger grip's strength is in its distributed pressure—against larger opponents, focus on maintaining perfect technical position and let time and steady pressure work rather than trying to out-muscle them.",
+      "safety_critical": false
+    },
+    {
+      "question": "How do you recognize when to abandon the ten finger guillotine attempt and transition to alternative attacks, and what are the highest-percentage transitions?",
+      "answer": "Abandon the guillotine when: (1) opponent successfully extracts their head past the halfway point, (2) they establish strong posture with hands on your hips creating significant space, (3) they turn completely into you reaching the same side, or (4) you feel your grip fatiguing without progress toward the finish. The highest-percentage transitions depend on their defensive response: if they turn into you, immediately transition to anaconda or darce choke by threading your arm deeper; if they posture up while in your guard, switch to triangle setup as their arms become exposed; if they drive forward and flatten you, use the weight to execute a sweep to mount while threatening the choke; if they back out, maintain front headlock control and reset for another attempt or take the back. Never continue forcing a defended guillotine—the energy expenditure compounds while finish probability decreases.",
+      "safety_critical": false
+    },
+    {
+      "question": "What specific competition finishing strategies maximize your success rate with the ten finger guillotine against elite-level opponents?",
+      "answer": "Against elite opponents, success depends on disguised entries and timing rather than technical surprise. First, attack immediately during transitions when their defensive awareness is lowest—guard pulls, scrambles after failed takedowns, and snap-down sequences. Second, chain the guillotine with other threats: set up the ten finger guillotine by threatening arm drags or single legs, then catch them as they defend. Third, commit fully when you lock the grip—half-committed guillotine attempts against elite opponents rarely succeed and waste energy. Fourth, use the guillotine threat to control pace and force reactions even when you're not finishing, creating openings for back takes or positional advancement. Fifth, develop reliable finishing sequences for when they pass to side control while you maintain the grip—the Von Flue counter is less effective against proper ten finger positioning. Finally, compete with the understanding that elite opponents may survive 3-4 seconds of tight choke—maintain composure and steady pressure rather than spiking the finish.",
+      "safety_critical": false
+    },
+    {
+      "question": "What control requirements must be established before you can safely and effectively attempt to finish the ten finger guillotine?",
+      "answer": "Before attempting the finish, you must establish: (1) deep choking arm position with forearm blade across the throat and your armpit tight over their head crown, (2) opponent's posture broken below hip level so they cannot generate counter-pressure, (3) interlaced grip secured with all fingers engaged and palms connected, (4) far arm controlled or neutralized through chest/armpit pressure to prevent grip stripping, (5) stable base—either sprawled hips from standing or guard connection from bottom, and (6) head control that prevents them from turning out. Attempting the finish without these control elements wastes energy and often results in escape. The submission philosophy here is 'position before submission'—establish all control requirements first, then progressively apply finishing pressure. This patient approach also builds safety habits, as rushed attempts are more likely to result in injury from explosive movements.",
+      "safety_critical": true
     }
   ],
   "training_progressions_and_safety_protocols": [
@@ -315,63 +345,60 @@
     "Arm in Guillotine",
     "Anaconda Choke",
     "Darce Choke",
-    "Japanese Necktie",
-    "Peruvian Necktie",
     "Rear Naked Choke",
     "Chin Strap Guillotine",
     "Guillotine Variations",
-    "D'arce-Anaconda Connection",
     "Arm Triangle",
     "Brabo Choke"
   ],
   "related_content": [
     {
-      "name": "Front Headlock to Guillotine",
-      "relationship": "Primary entry transition"
+      "name": "Front Headlock",
+      "relationship": "Primary control position for entry"
     },
     {
-      "name": "Guillotine Setup",
-      "relationship": "Setup sequence transition"
+      "name": "Guillotine Control",
+      "relationship": "Related submission control position"
     },
     {
-      "name": "Guillotine Defense",
-      "relationship": "Defensive counters to learn"
+      "name": "Guillotine Choke",
+      "relationship": "Primary guillotine variation"
     },
     {
-      "name": "Guard Pull",
-      "relationship": "Common finishing position entry"
+      "name": "Anaconda Choke",
+      "relationship": "Transition option when opponent turns in"
     },
     {
-      "name": "Snap Down to Front Headlock",
-      "relationship": "Standing setup entry"
+      "name": "Darce Choke",
+      "relationship": "Transition option when opponent turns away"
     },
     {
-      "name": "Marcelo Garcia Guillotine System",
-      "relationship": "Expert systematic approach"
+      "name": "Closed Guard",
+      "relationship": "Common finishing position after guard pull"
     },
     {
-      "name": "Front Headlock Series",
-      "relationship": "Related positional system"
+      "name": "Standing Position",
+      "relationship": "Primary entry context from sprawls"
     },
     {
-      "name": "Grip Fighting",
-      "relationship": "Essential principle for establishing control"
-    },
-    {
-      "name": "Defensive Posture",
-      "relationship": "Key principle for prevention"
-    },
-    {
-      "name": "Submission Defense",
-      "relationship": "General defensive framework"
+      "name": "Turtle",
+      "relationship": "Common opponent position for setup"
     },
     {
       "name": "Clinch",
-      "relationship": "Standing control position for setup"
+      "relationship": "Standing control position for entry"
     },
     {
       "name": "Butterfly Guard",
-      "relationship": "Alternative finishing position"
+      "relationship": "Alternative finishing position with hip control"
+    },
+    {
+      "name": "Arm in Guillotine",
+      "relationship": "Arm-trapped variation of the technique"
+    },
+    {
+      "name": "High Elbow Guillotine",
+      "relationship": "High angle variation for chin defense"
     }
   ]
 }

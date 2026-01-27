@@ -21,37 +21,37 @@ description: "Master Butterfly Guard Bottom in BJJ. Dynamic open guard with expl
     {
       "@type": "HowToStep",
       "name": "Execute Butterfly Sweep",
-      "text": "From this position, execute Butterfly Sweep to transition to Mount. Success rate for advanced practitioners: 80%.",
+      "text": "From this position, attempt Butterfly Sweep. This technique is attempted in 30% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Butterfly Sweep",
-      "text": "From this position, execute Butterfly Sweep to transition to Side Control. Success rate for advanced practitioners: 82%.",
+      "name": "Execute Elevator Sweep",
+      "text": "From this position, attempt Elevator Sweep. This technique is attempted in 20% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Arm Drag to Back",
-      "text": "From this position, execute Arm Drag to Back to transition to Back Control. Success rate for advanced practitioners: 75%.",
+      "name": "Execute Hook Sweep",
+      "text": "From this position, attempt Hook Sweep. This technique is attempted in 18% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Butterfly Guard to X-Guard",
-      "text": "From this position, execute Butterfly Guard to X-Guard to transition to X-Guard. Success rate for advanced practitioners: 70%.",
+      "name": "Execute Arm Drag to Back",
+      "text": "From this position, attempt Arm Drag to Back. This technique is attempted in 15% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Elevator Sweep",
-      "text": "From this position, execute Elevator Sweep to transition to Mount. Success rate for advanced practitioners: 78%.",
+      "name": "Execute Butterfly Guard to X-Guard",
+      "text": "From this position, attempt Butterfly Guard to X-Guard. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Hook Sweep",
-      "text": "From this position, execute Hook Sweep to transition to Side Control. Success rate for advanced practitioners: 80%.",
+      "name": "Execute Guillotine Choke",
+      "text": "From this position, attempt Guillotine Choke. This technique is attempted in 5% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -214,108 +214,18 @@ The learning curve for butterfly guard involves developing several interconnecte
 
 ## Available Escapes
 
-### [[Butterfly Sweep]] → [[Mount]]
+### [[Butterfly Sweep]] (30% of attempts)
 
-**Success Rates:**
-- Beginner: 50%
-- Intermediate: 65%
-- Advanced: 80%
+### [[Elevator Sweep]] (20% of attempts)
 
-### [[Butterfly Sweep]] → [[Side Control]]
+### [[Hook Sweep]] (18% of attempts)
 
-**Success Rates:**
-- Beginner: 55%
-- Intermediate: 70%
-- Advanced: 82%
+### [[Arm Drag to Back]] (15% of attempts)
 
-### [[Arm Drag to Back]] → [[Back Control]]
+### [[Butterfly Guard to X-Guard]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 60%
-- Advanced: 75%
+### [[Guillotine Choke]] (5% of attempts)
 
-### [[Butterfly Guard to X-Guard]] → [[X-Guard]]
-
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
-
-### [[Elevator Sweep]] → [[Mount]]
-
-**Success Rates:**
-- Beginner: 48%
-- Intermediate: 63%
-- Advanced: 78%
-
-### [[Hook Sweep]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 52%
-- Intermediate: 67%
-- Advanced: 80%
-
-### [[Overhook Sweep]] → [[Mount]]
-
-**Success Rates:**
-- Beginner: 46%
-- Intermediate: 61%
-- Advanced: 76%
-
-### [[Butterfly Guard to X-Guard]] → [[Single Leg X-Guard]]
-
-**Success Rates:**
-- Beginner: 38%
-- Intermediate: 53%
-- Advanced: 68%
-
-### [[Open Guard to Deep Half]] → [[Deep Half Guard]]
-
-**Success Rates:**
-- Beginner: 42%
-- Intermediate: 57%
-- Advanced: 72%
-
-### [[Arm Drag]] → [[Turtle]]
-
-**Success Rates:**
-- Beginner: 44%
-- Intermediate: 59%
-- Advanced: 74%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Butterfly Pass]]** → [[Side Control]] (Opponent Success: 45%)
-- **[[Guard Pass]]** → [[Half Guard]] (Opponent Success: 40%)
-- **[[Double Under Pass]]** → [[Side Control]] (Opponent Success: 50%)
-- **[[Knee Cut Pass]]** → [[Side Control]] (Opponent Success: 42%)
-- **[[Stack Pass]]** → [[Side Control]] (Opponent Success: 38%)
-- **[[Long Step Pass]]** → [[Side Control]] (Opponent Success: 44%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Butterfly Sweep Variations]]** → [[Mount]]
-  - Opponent posts hand or shifts weight to defend initial sweep direction
-- **[[Arm Drag to Back]]** → [[Back Control]]
-  - Opponent extends arms to create distance or defend sweep, exposing back
-- **[[Butterfly Guard to X-Guard]]** → [[X-Guard]]
-  - Opponent stands or begins to withdraw legs from hooks to create distance
-- **[[Hook Sweep]]** → [[Side Control]]
-  - Opponent shifts weight laterally to defend primary sweep direction
-- **[[Open Guard to Deep Half]]** → [[Deep Half Guard]]
-  - Opponent applies heavy forward pressure attempting to flatten butterfly position
 
 
 </section>
@@ -340,12 +250,12 @@ The learning curve for butterfly guard involves developing several interconnecte
 
 
 **If opponent drives heavy pressure forward attempting to flatten you to mat:**
-- Execute **[[Granby to Closed Guard]]** → [[Closed Guard]] (Probability: 48%)
+- Execute **[[Granby Roll]]** → [[Closed Guard]] (Probability: 48%)
 - Execute **[[Open Guard to Deep Half]]** → [[Deep Half Guard]] (Probability: 45%)
 
 
 **If opponent clears one hook or establishes half guard configuration:**
-- Execute **[[Half Guard Sweeps]]** → [[Half Guard]] (Probability: 50%)
+- Execute **[[Half Guard Sweep]]** → [[Half Guard]] (Probability: 50%)
 - Execute **[[Open Guard to Deep Half]]** → [[Deep Half Guard]] (Probability: 46%)
 
 
@@ -439,33 +349,7 @@ Practice smooth transitions from butterfly guard to various X-Guard positions as
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
-
-### High-percentage submission path via sweep to mount
-
-`Butterfly Guard → Butterfly Sweep → Mount → Armbar from Mount`
-
-### Back attack path via arm drag
-
-`Butterfly Guard → Arm Drag to Back → Back Control → Rear Naked Choke`
-
-### Guillotine path from sweep or scramble
-
-`Butterfly Guard → Guillotine Choke → Won by Submission`
-
-### Leg entanglement path via X-Guard transition
-
-`Butterfly Guard → Butterfly Guard to X-Guard → Single Leg X-Guard → Straight Ankle Lock`
-
-### Triangle path from mount after sweep
-
-`Butterfly Guard → Butterfly Sweep → Mount → Triangle from Mount`
-
-
-
-</section>
 
 <section id="position-metrics" class="content-section">
 
@@ -486,17 +370,11 @@ Practice smooth transitions from butterfly guard to various X-Guard positions as
 
 ## Related Positions and Techniques
 
-- **[[X-Guard Bottom Position]]** - Common transition target from butterfly when opponent stands or defends sweeps effectively
+- **[[X-Guard]]** - Common transition target from butterfly when opponent stands or defends sweeps effectively
 - **[[Single Leg X-Guard]]** - Alternative transition when opponent withdraws one leg or stands asymmetrically during passing
 - **[[Deep Half Guard]]** - Defensive transition when opponent applies heavy pressure to flatten butterfly configuration
-- **[[Half Guard Bottom Position]]** - Common position to transition from when one hook is cleared during passing sequences
-- **[[Closed Guard Bottom]]** - Alternative guard to establish when butterfly is pressured and hooks cleared completely
-- **[[Marcelo Garcia Butterfly Guard System]]** - Comprehensive systematic approach to butterfly guard developed by Marcelo Garcia emphasizing sweeps and guillotines
-- **[[Marcelo Garcia Guillotine System]]** - Submission system that integrates seamlessly with butterfly guard attacks and sweep attempts
-- **[[Marcelo Garcia X-Guard System]]** - System for transitioning from butterfly to X-Guard variations when opponent stands or creates distance
-- **[[Butterfly Hook Retention]]** - Fundamental concept for maintaining butterfly position under pressure and recovering cleared hooks
-- **[[Sweep Mechanics]]** - Core mechanical principles underlying butterfly sweep execution and leverage generation
-- **[[Grip Fighting Strategies]]** - Essential skill set for establishing and maintaining dominant upper body control from butterfly
+- **[[Half Guard]]** - Common position to transition from when one hook is cleared during passing sequences
+- **[[Closed Guard]]** - Alternative guard to establish when butterfly is pressured and hooks cleared completely
 
 
 </section>

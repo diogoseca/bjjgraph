@@ -10,8 +10,6 @@
     "omoplata",
     "combination"
   ],
-  "starting_position": "Triangle Control",
-  "ending_position": "Omoplata Control",
   "success_rates": {
     "beginner": 30,
     "intermediate": 50,
@@ -249,6 +247,24 @@
     {
       "name": "Triangle from Closed Guard",
       "relationship": "Primary submission setup leading to this transition"
+    }
+  ],
+  "from_position": "Triangle Control/Top",
+  "outcomes": [
+    {
+      "to": "Omoplata Control/Top",
+      "probability": 70,
+      "result": "success"
+    },
+    {
+      "to": "Triangle Control/Top",
+      "probability": 20,
+      "result": "failure"
+    },
+    {
+      "to": "Triangle Control/Bottom",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

@@ -55,6 +55,288 @@
       "relationship": "Common escape target position for defender attempting to recover"
     }
   ],
+  "top": {
+    "name": "Rear Triangle Top",
+    "description": "Master Rear Triangle Top position in BJJ. Control opponent's back with triangle legs configuration. Advanced 4-point position with 70% submission rate from back attacks.",
+    "tags": [
+      "bjj",
+      "position",
+      "rear-triangle",
+      "back-control",
+      "top",
+      "offensive",
+      "submission-position",
+      "advanced"
+    ],
+    "overview": "Rear Triangle Top is an advanced back control variation where the top practitioner secures the opponent's back while establishing a triangle configuration with their legs around the opponent's body and one arm. This position combines the control elements of traditional back control with the limb-trapping mechanics of a triangle, creating a highly effective submission platform. The rear triangle creates a dilemma for the opponent - defending the choke exposes the trapped arm to attacks, while defending the arm allows progression to the rear naked choke or other back attacks. This position is particularly effective in no-gi grappling but can be equally devastating in the gi when properly executed. The rear triangle top position represents a sophisticated evolution of back control, offering superior control compared to standard seat belt positioning. By threading one leg under the opponent's armpit and locking a triangle around their neck and trapped arm, the top practitioner creates multiple layers of control that significantly reduce the opponent's defensive options. This position is often entered from standard back control when the opponent attempts to defend the rear naked choke by gripping their own hands together or when transitioning from turtle position. The configuration allows for seamless transitions to various submissions including the rear triangle choke itself, armbar variations, and traditional rear naked choke finishes. From a strategic perspective, the rear triangle top position exemplifies the principle of creating submission dilemmas - forcing the opponent to choose between equally bad defensive options.",
+    "state_properties": {
+      "point_value": 4,
+      "position_type": "Offensive/Controlling",
+      "risk_level": "Low",
+      "energy_cost": "Medium",
+      "time_sustainability": "Medium to Long"
+    },
+    "state_invariants": [
+      "Top practitioner's legs form a triangle configuration around opponent's neck and one trapped arm, with one leg threaded under the armpit and across the back of the neck while the other leg locks over the ankle to complete the triangle, creating a secure figure-four lock that controls both head and arm simultaneously",
+      "Top practitioner maintains chest-to-back connection with their torso pressed against opponent's back, hips oriented toward the trapped arm side to maximize control and create the optimal angle for submissions while preventing opponent rotation away from the triangle",
+      "Opponent is typically seated or on their side with one arm trapped inside the triangle while their body is compressed forward by the leg pressure across their neck and shoulder, limiting their ability to establish defensive frames or recover posture",
+      "Top practitioner's hands are free to attack the opponent's free arm, establish grips for chokes, or post for base while the legs maintain primary control of the position, allowing simultaneous control and attack capabilities",
+      "The triangle configuration creates constant pressure on the opponent's carotid artery on the trapped arm side while controlling their posture and preventing them from turning into the top practitioner or creating escape angles"
+    ],
+    "prerequisites": [
+      "Established back control position with hooks or body triangle",
+      "Opponent's defensive hand fighting creates opportunity to trap one arm",
+      "Sufficient hip mobility and leg dexterity to thread leg under opponent's armpit",
+      "Understanding of triangle mechanics and proper leg positioning",
+      "Ability to maintain back control during the transition to triangle configuration",
+      "Opponent positioned in seated or side-lying orientation allowing leg threading"
+    ],
+    "key_principles": [
+      "Thread the choking leg deep under the opponent's armpit to create proper angle across the back of their neck rather than the front",
+      "Lock the triangle tight by pulling the locking ankle into the crook of the knee while squeezing knees together to compress the opponent's neck and trapped arm",
+      "Maintain chest pressure against opponent's back throughout the position to prevent them from turning into you or creating space",
+      "Control opponent's free arm with your hands to prevent defensive gripping and create additional submission opportunities",
+      "Angle your hips toward the trapped arm side to increase pressure on the carotid artery and create better finishing mechanics for the choke",
+      "Use your legs to break opponent's posture forward, bringing their chin to their chest to tighten the choke and reduce defensive options",
+      "Transition fluidly between submission threats - rear triangle choke, armbar on trapped arm, and rear naked choke - to overwhelm opponent's defenses"
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent tucks chin and defends choke primarily",
+        "actions": [
+          {
+            "technique": "Armbar from Back with Legs",
+            "target": "Armbar Control",
+            "probability": 65
+          },
+          {
+            "technique": "Kimura from Back",
+            "target": "Kimura Trap",
+            "probability": 45
+          }
+        ]
+      },
+      {
+        "condition": "Else if opponent attempts to pull trapped arm free",
+        "actions": [
+          {
+            "technique": "Tighten Triangle Lock",
+            "target": "Rear Triangle",
+            "probability": 70
+          },
+          {
+            "technique": "Triangle Choke Back",
+            "target": "game-over",
+            "probability": 60
+          }
+        ]
+      },
+      {
+        "condition": "Else if opponent turns into triangle attempting escape",
+        "actions": [
+          {
+            "technique": "Extend Hips and Finish Triangle",
+            "target": "game-over",
+            "probability": 55
+          },
+          {
+            "technique": "Aoki Lock to Crucifix",
+            "target": "Crucifix",
+            "probability": 50
+          }
+        ]
+      },
+      {
+        "condition": "Else if opponent creates space by posting free arm",
+        "actions": [
+          {
+            "technique": "Rear Naked Choke",
+            "target": "game-over",
+            "probability": 65
+          },
+          {
+            "technique": "Attack Free Arm for Control",
+            "target": "Gift Wrap",
+            "probability": 50
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Threading leg in front of opponent's neck instead of behind, creating a front triangle configuration",
+        "consequence": "Opponent can easily defend by tucking chin and the choke pressure is significantly reduced",
+        "correction": "Thread the leg deep under the armpit so it emerges behind the opponent's neck, creating proper back triangle mechanics"
+      },
+      {
+        "error": "Locking the triangle too loosely without proper compression of knees together",
+        "consequence": "Opponent can create space, potentially pull trapped arm free, or escape the position entirely",
+        "correction": "Pull the locking ankle tightly into the crook of the knee and actively squeeze knees together to eliminate all space"
+      },
+      {
+        "error": "Losing chest-to-back connection by sitting up too far or leaning away from opponent",
+        "consequence": "Opponent can turn into you, potentially escaping to guard or reversing the position",
+        "correction": "Maintain constant chest pressure against opponent's back with your weight committed forward onto them"
+      },
+      {
+        "error": "Failing to control opponent's free arm, allowing them to establish defensive grips",
+        "consequence": "Opponent can grab their own leg to prevent triangle lock or defend against choke finishing attempts",
+        "correction": "Use your hands to control the free arm by wrist control, overhook, or isolating it away from defensive positions"
+      },
+      {
+        "error": "Not angling hips sufficiently toward trapped arm side",
+        "consequence": "Reduced pressure on the carotid artery and less effective choke mechanics",
+        "correction": "Actively angle your hips and shoulders toward the trapped arm to create optimal cutting angle across the neck"
+      },
+      {
+        "error": "Abandoning position too quickly when opponent defends initial choke attempt",
+        "consequence": "Missing opportunities to attack multiple submissions and cycle through finishing options",
+        "correction": "Systematically cycle between rear triangle choke, armbar on trapped arm, and rear naked choke to break down defenses"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Triangle Entry from Back Control Drill",
+        "description": "Start in standard back control with seat belt grip. Partner defends by gripping hands together. Practice threading your leg under their armpit and locking the triangle configuration while maintaining back control. Repeat 10 times each side, focusing on smooth entry without losing position. Partner should provide realistic defensive resistance but allow successful entries.",
+        "duration": "5 minutes per side"
+      },
+      {
+        "name": "Submission Cycling Drill",
+        "description": "Establish rear triangle top position. Flow continuously between rear triangle choke attempt, armbar on trapped arm, and rear naked choke for 3-minute rounds. Partner defends each attempt realistically, forcing you to transition between submissions. Focus on maintaining position control throughout all transitions. Reset if position is lost.",
+        "duration": "3-minute rounds"
+      },
+      {
+        "name": "Position Maintenance Under Pressure",
+        "description": "Partner starts in rear triangle bottom position and uses full effort to escape for 2 minutes while you focus solely on maintaining the position without finishing submissions. Partner should attempt various escapes: turning in, bridging, pulling trapped arm free, creating space. Your goal is to keep the triangle locked and maintain back connection throughout.",
+        "duration": "2-minute rounds"
+      },
+      {
+        "name": "Triangle Lock Tightness Progression",
+        "description": "Establish rear triangle position with compliant partner. Practice the following progression: lock triangle loosely (30 seconds), medium tightness (30 seconds), maximum compression (30 seconds). Partner provides feedback on pressure levels. Focus on understanding the difference in control at each compression level. Repeat for 5 cycles per side.",
+        "duration": "8 minutes total"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Back Control",
+        "relationship": "Parent position - standard back control from which rear triangle is often entered"
+      },
+      {
+        "name": "Triangle Control",
+        "relationship": "Similar triangle mechanics applied from different angle and entry"
+      },
+      {
+        "name": "Body Triangle",
+        "relationship": "Alternative leg configuration for back control with different control mechanics"
+      },
+      {
+        "name": "Crucifix",
+        "relationship": "Common transition target when opponent defends triangle by turning in"
+      },
+      {
+        "name": "Seat Belt Control Back",
+        "relationship": "Traditional back control variation that precedes rear triangle entry"
+      },
+      {
+        "name": "Triangle Choke",
+        "relationship": "Primary submission finish from this position"
+      },
+      {
+        "name": "Armbar from Back with Legs",
+        "relationship": "Alternative submission when opponent defends the choke"
+      },
+      {
+        "name": "Mounted Triangle",
+        "relationship": "Similar triangle control mechanics from mount position instead of back"
+      },
+      {
+        "name": "Gift Wrap",
+        "relationship": "Alternative arm trap control from back that can transition to rear triangle"
+      },
+      {
+        "name": "Truck",
+        "relationship": "Leg entanglement position that shares some control principles with rear triangle"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "beginner": 45,
+        "intermediate": 65,
+        "advanced": 85
+      },
+      "advancement_probability": {
+        "beginner": 35,
+        "intermediate": 55,
+        "advanced": 75
+      },
+      "submission_probability": {
+        "beginner": 40,
+        "intermediate": 60,
+        "advanced": 80
+      },
+      "average_time": "45-90 seconds before submission or escape attempt"
+    },
+    "transitions": [
+      {
+        "transition": "Triangle Choke Back",
+        "attempt_probability": 19
+      },
+      {
+        "transition": "Armbar from Back with Legs",
+        "attempt_probability": 17
+      },
+      {
+        "transition": "Rear Naked Choke",
+        "attempt_probability": 19
+      },
+      {
+        "transition": "Aoki Lock to Crucifix",
+        "attempt_probability": 16
+      },
+      {
+        "transition": "Bow and Arrow Choke",
+        "attempt_probability": 15
+      },
+      {
+        "transition": "Kimura from Back",
+        "attempt_probability": 14
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the optimal hip angle for maintaining rear triangle control and why does this matter?",
+        "answer": "Angle your hips toward the trapped arm side at approximately 45 degrees to maximize carotid pressure. This hip orientation creates the cutting angle across the neck that compresses the carotid artery on the trapped arm side. Without this angle, the choke becomes a less effective air choke rather than a blood choke, giving opponent more time to escape."
+      },
+      {
+        "question": "Your opponent starts to turn into you to relieve choking pressure - what adjustment do you make?",
+        "answer": "Extend your hips away from opponent while simultaneously tightening the triangle lock by squeezing knees together. Use your chest pressure and free hand to prevent their rotation. If they continue turning, use the rotation to transition to crucifix position by controlling their far arm during the turn. Never let them face you completely."
+      },
+      {
+        "question": "What are the essential grip priorities when your hands are free in rear triangle position?",
+        "answer": "Primary priority is controlling the opponent's free arm to prevent defensive gripping and frame establishment. Secondary priority is wrist control or collar grip on the trapped arm side to set up rear naked choke or bow and arrow attempts. Your hands should never be idle - they cycle between controlling the free arm and attacking submissions."
+      },
+      {
+        "question": "How do you prevent opponent from extracting their trapped arm from the triangle structure?",
+        "answer": "Squeeze your knees together tightly to compress the space around the trapped arm. Angle your hips toward the trapped arm side to create pressure that pins the arm against their own body. Use your hands to actively fight any grip breaks on the trapped arm. If they create space, immediately tighten the triangle lock before continuing attacks."
+      },
+      {
+        "question": "What is the proper leg threading depth for the rear triangle and why is this critical?",
+        "answer": "Thread the choking leg deep under the armpit until your calf crosses behind the opponent's neck, not in front. The leg should emerge on the opposite side of their neck from where it entered. This creates the proper posterior choking angle that attacks the carotid from behind, making chin tucking an ineffective defense compared to front triangle positioning."
+      },
+      {
+        "question": "Your opponent bridges hard and creates space between your chest and their back - how do you recover?",
+        "answer": "Immediately follow them with your hips, closing the gap before they can rotate or stand. Use your free hand to push off the mat and drive your chest back into contact. Tighten the triangle lock to restrict their hip movement. If significant space is created, consider transitioning back to traditional back control with seat belt grip before re-establishing the triangle."
+      },
+      {
+        "question": "How do you manage energy expenditure when controlling rear triangle for extended periods?",
+        "answer": "Let your legs do the primary work through the triangle lock rather than squeezing constantly with your arms. Maintain steady compression through knee squeeze and hip angle rather than maximum force. Use attacks to make opponent defend rather than trying to muscle through finishes. Rest your hands on the opponent's body between grip changes to conserve arm endurance."
+      },
+      {
+        "question": "After your opponent successfully defends the triangle choke attempt, how do you reset without losing position?",
+        "answer": "Maintain the triangle lock structure even when the choke is defended. Immediately transition to attacking the trapped arm for armbar or the free arm for kimura control. If opponent creates too much space defending the choke, tighten the triangle and re-establish chest pressure before cycling to the next attack. Never abandon the position just because one submission fails."
+      }
+    ]
+  },
   "bottom": {
     "name": "Rear Triangle Bottom",
     "description": "Master defensive survival from Rear Triangle Bottom. Learn arm extraction mechanics, chin protection, and systematic escape sequences. Advanced escape rate 40%.",
@@ -98,111 +380,6 @@
       "Recognize submission sequences (triangle to armbar, triangle to back take) and defend transitions preemptively rather than reactively",
       "Generate rotation and angle changes to disrupt the triangle's structure rather than attempting pure strength-based escapes"
     ],
-    "offensive_transitions": [
-      {
-        "technique": "Arm Extraction",
-        "target_position": "Back Control",
-        "success_rates": {
-          "beginner": 15,
-          "intermediate": 30,
-          "advanced": 45
-        }
-      },
-      {
-        "technique": "Triangle Escape",
-        "target_position": "Turtle",
-        "success_rates": {
-          "beginner": 10,
-          "intermediate": 25,
-          "advanced": 40
-        }
-      },
-      {
-        "technique": "Rolling Escape",
-        "target_position": "Closed Guard",
-        "success_rates": {
-          "beginner": 8,
-          "intermediate": 20,
-          "advanced": 35
-        }
-      },
-      {
-        "technique": "Stack Defense",
-        "target_position": "Defensive Position",
-        "success_rates": {
-          "beginner": 12,
-          "intermediate": 22,
-          "advanced": 38
-        }
-      },
-      {
-        "technique": "Posture Recovery",
-        "target_position": "Back Control",
-        "success_rates": {
-          "beginner": 10,
-          "intermediate": 20,
-          "advanced": 35
-        }
-      },
-      {
-        "technique": "Hand Fighting from Back",
-        "target_position": "Seat Belt Control Back",
-        "success_rates": {
-          "beginner": 18,
-          "intermediate": 28,
-          "advanced": 42
-        }
-      }
-    ],
-    "defensive_responses": [
-      {
-        "technique": "Triangle Choke Back",
-        "target_position": "Won by Submission",
-        "success_rate": 65
-      },
-      {
-        "technique": "Triangle to Armbar",
-        "target_position": "Armbar Control",
-        "success_rate": 55
-      },
-      {
-        "technique": "Rear Naked Choke",
-        "target_position": "Won by Submission",
-        "success_rate": 45
-      },
-      {
-        "technique": "Triangle Setup",
-        "target_position": "Triangle Control",
-        "success_rate": 70
-      },
-      {
-        "technique": "Back Take Generic",
-        "target_position": "Back Control",
-        "success_rate": 50
-      }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Arm Extraction Counter",
-        "target_position": "Back Control",
-        "trigger": "Opponent attempts to tighten triangle while defender extracts trapped arm"
-      },
-      {
-        "technique": "Posture Break Defense",
-        "target_position": "Turtle",
-        "trigger": "Opponent breaks defender's posture to finish triangle or transition to armbar"
-      },
-      {
-        "technique": "Rolling Counter",
-        "target_position": "Closed Guard",
-        "trigger": "Opponent extends legs or loosens triangle grip during finishing attempt"
-      },
-      {
-        "technique": "Chin Protection",
-        "target_position": "Defensive Position",
-        "trigger": "Opponent applies increasing pressure to complete the triangle choke"
-      }
-    ],
     "decision_tree": [
       {
         "condition": "If opponent's triangle is fully locked with ankle behind knee and tight pressure on carotid arteries",
@@ -214,12 +391,12 @@
           },
           {
             "technique": "Arm Extraction",
-            "target": "Defensive Position",
+            "target": "Turtle",
             "probability": 30
           },
           {
             "technique": "Tap Out",
-            "target": "Won by Submission",
+            "target": "game-over",
             "probability": 45
           }
         ]
@@ -259,7 +436,7 @@
           },
           {
             "technique": "Hand Fighting from Back",
-            "target": "Defensive Position",
+            "target": "Turtle",
             "probability": 25
           }
         ]
@@ -349,24 +526,6 @@
         "duration": "3-minute rounds"
       }
     ],
-    "optimal_submission_paths": [
-      {
-        "name": "Shortest escape path to neutral",
-        "path": "Rear Triangle Bottom → Arm Extraction → Triangle Escape → Turtle → Turtle to Guard → Closed Guard"
-      },
-      {
-        "name": "High-percentage survival path",
-        "path": "Rear Triangle Bottom → Chin Protection → Hand Fighting from Back → Arm Extraction → Back Control → Elbow Escape → Side Control → Side Control Escape → Closed Guard"
-      },
-      {
-        "name": "Counter-attack path",
-        "path": "Rear Triangle Bottom → Posture Recovery → Rolling Escape → Closed Guard → Triangle from Closed Guard → Triangle Control → Triangle Choke Front"
-      },
-      {
-        "name": "Conservative defensive path",
-        "path": "Rear Triangle Bottom → Defensive Position → Stack Defense → Arm Extraction → Back Control → Technical Standup → Standing Position"
-      }
-    ],
     "related_content": [
       {
         "name": "Triangle Control",
@@ -377,7 +536,7 @@
         "relationship": "Common transition target after successful arm extraction"
       },
       {
-        "name": "Triangle Choke Back",
+        "name": "Triangle Choke",
         "relationship": "Primary submission threat from this position"
       },
       {
@@ -393,28 +552,20 @@
         "relationship": "Primary escape technique from this position"
       },
       {
-        "name": "Submission Defense",
-        "relationship": "Core defensive concept applicable to this position"
+        "name": "Arm Extraction",
+        "relationship": "Essential defensive technique for escaping this position"
       },
       {
-        "name": "Escape Hierarchy",
-        "relationship": "Conceptual framework for prioritizing escape attempts"
-      },
-      {
-        "name": "Triangle from Back",
-        "relationship": "Submission variation applicable from this configuration"
+        "name": "Rear Naked Choke",
+        "relationship": "Secondary submission threat opponent may transition to"
       },
       {
         "name": "Closed Guard",
         "relationship": "Alternative escape target for positional reset"
       },
       {
-        "name": "Defensive Position",
-        "relationship": "Interim protective position during escape sequences"
-      },
-      {
-        "name": "Submission Chains",
-        "relationship": "Submission sequence concept that opponent may employ"
+        "name": "Seat Belt Control Back",
+        "relationship": "Recovery position if triangle is broken but back control maintained"
       }
     ],
     "position_metrics": {
@@ -434,350 +585,66 @@
         "advanced": 15
       },
       "average_time": "15-45 seconds before tap or escape"
-    }
-  },
-  "top": {
-    "name": "Rear Triangle Top",
-    "description": "Master Rear Triangle Top position in BJJ. Control opponent's back with triangle legs configuration. Advanced 4-point position with 70% submission rate from back attacks.",
-    "tags": [
-      "bjj",
-      "position",
-      "rear-triangle",
-      "back-control",
-      "top",
-      "offensive",
-      "submission-position",
-      "advanced"
-    ],
-    "overview": "Rear Triangle Top is an advanced back control variation where the top practitioner secures the opponent's back while establishing a triangle configuration with their legs around the opponent's body and one arm. This position combines the control elements of traditional back control with the limb-trapping mechanics of a triangle, creating a highly effective submission platform. The rear triangle creates a dilemma for the opponent - defending the choke exposes the trapped arm to attacks, while defending the arm allows progression to the rear naked choke or other back attacks. This position is particularly effective in no-gi grappling but can be equally devastating in the gi when properly executed. The rear triangle top position represents a sophisticated evolution of back control, offering superior control compared to standard seat belt positioning. By threading one leg under the opponent's armpit and locking a triangle around their neck and trapped arm, the top practitioner creates multiple layers of control that significantly reduce the opponent's defensive options. This position is often entered from standard back control when the opponent attempts to defend the rear naked choke by gripping their own hands together or when transitioning from turtle position. The configuration allows for seamless transitions to various submissions including the rear triangle choke itself, armbar variations, and traditional rear naked choke finishes. From a strategic perspective, the rear triangle top position exemplifies the principle of creating submission dilemmas - forcing the opponent to choose between equally bad defensive options.",
-    "state_properties": {
-      "point_value": 4,
-      "position_type": "Offensive/Controlling",
-      "risk_level": "Low",
-      "energy_cost": "Medium",
-      "time_sustainability": "Medium to Long"
     },
-    "state_invariants": [
-      "Top practitioner's legs form a triangle configuration around opponent's neck and one trapped arm, with one leg threaded under the armpit and across the back of the neck while the other leg locks over the ankle to complete the triangle, creating a secure figure-four lock that controls both head and arm simultaneously",
-      "Top practitioner maintains chest-to-back connection with their torso pressed against opponent's back, hips oriented toward the trapped arm side to maximize control and create the optimal angle for submissions while preventing opponent rotation away from the triangle",
-      "Opponent is typically seated or on their side with one arm trapped inside the triangle while their body is compressed forward by the leg pressure across their neck and shoulder, limiting their ability to establish defensive frames or recover posture",
-      "Top practitioner's hands are free to attack the opponent's free arm, establish grips for chokes, or post for base while the legs maintain primary control of the position, allowing simultaneous control and attack capabilities",
-      "The triangle configuration creates constant pressure on the opponent's carotid artery on the trapped arm side while controlling their posture and preventing them from turning into the top practitioner or creating escape angles"
-    ],
-    "prerequisites": [
-      "Established back control position with hooks or body triangle",
-      "Opponent's defensive hand fighting creates opportunity to trap one arm",
-      "Sufficient hip mobility and leg dexterity to thread leg under opponent's armpit",
-      "Understanding of triangle mechanics and proper leg positioning",
-      "Ability to maintain back control during the transition to triangle configuration",
-      "Opponent positioned in seated or side-lying orientation allowing leg threading"
-    ],
-    "key_principles": [
-      "Thread the choking leg deep under the opponent's armpit to create proper angle across the back of their neck rather than the front",
-      "Lock the triangle tight by pulling the locking ankle into the crook of the knee while squeezing knees together to compress the opponent's neck and trapped arm",
-      "Maintain chest pressure against opponent's back throughout the position to prevent them from turning into you or creating space",
-      "Control opponent's free arm with your hands to prevent defensive gripping and create additional submission opportunities",
-      "Angle your hips toward the trapped arm side to increase pressure on the carotid artery and create better finishing mechanics for the choke",
-      "Use your legs to break opponent's posture forward, bringing their chin to their chest to tighten the choke and reduce defensive options",
-      "Transition fluidly between submission threats - rear triangle choke, armbar on trapped arm, and rear naked choke - to overwhelm opponent's defenses"
-    ],
-    "offensive_transitions": [
+    "transitions": [
       {
-        "technique": "Triangle Choke Back",
-        "target_position": "Won by Submission",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 55,
-          "advanced": 75
-        }
+        "transition": "Arm Extraction",
+        "attempt_probability": 19
       },
       {
-        "technique": "Armbar from Back with Legs",
-        "target_position": "Armbar Control",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 50,
-          "advanced": 70
-        }
+        "transition": "Triangle Escape",
+        "attempt_probability": 17
       },
       {
-        "technique": "Rear Naked Choke",
-        "target_position": "Won by Submission",
-        "success_rates": {
-          "beginner": 40,
-          "intermediate": 60,
-          "advanced": 80
-        }
+        "transition": "Rolling Escape",
+        "attempt_probability": 15
       },
       {
-        "technique": "Transition to Crucifix",
-        "target_position": "Crucifix",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 45,
-          "advanced": 65
-        }
+        "transition": "Stack Defense",
+        "attempt_probability": 16
       },
       {
-        "technique": "Bow and Arrow Choke",
-        "target_position": "Won by Submission",
-        "success_rates": {
-          "beginner": 20,
-          "intermediate": 40,
-          "advanced": 60
-        }
+        "transition": "Posture Recovery",
+        "attempt_probability": 15
       },
       {
-        "technique": "Kimura from Back",
-        "target_position": "Kimura Control",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 40,
-          "advanced": 55
-        }
+        "transition": "Hand Fighting from Back",
+        "attempt_probability": 18
       }
     ],
-    "defensive_responses": [
+    "knowledge_assessment": [
       {
-        "technique": "Tuck Chin and Defend Trapped Arm",
-        "target_position": "Rear Triangle Bottom",
-        "success_rate": 15
+        "question": "What is the first priority when caught in a fully locked rear triangle and why?",
+        "answer": "The first priority is to protect your chin by tucking it tightly to your chest and turning your face toward the non-choking leg side. This creates a defensive structure that reduces the effectiveness of the blood choke by protecting the carotid arteries from full compression. Chin protection buys you critical time to work your escape sequence before loss of consciousness."
       },
       {
-        "technique": "Turn Into Triangle to Create Space",
-        "target_position": "Scramble Position",
-        "success_rate": 20
+        "question": "Your opponent starts to angle their hips more aggressively to finish the choke - what adjustment do you make?",
+        "answer": "Grip the opponent's choking leg at the ankle or behind the knee with your free hand to prevent further hip adjustment. Simultaneously attempt to create rotation by turning your body toward the non-choking leg side. Use your trapped arm to push against the opponent's leg rather than trying to pull it out. These combined actions disrupt their finishing angle."
       },
       {
-        "technique": "Bridge and Roll Escape Attempt",
-        "target_position": "Scramble Position",
-        "success_rate": 10
+        "question": "Why should you extract the trapped arm before attempting to remove your head from the triangle?",
+        "answer": "The trapped arm is what makes the triangle effective as a choke - it fills the space that would otherwise exist between your neck and the opponent's legs. Attempting to remove your head first actually tightens the choke because it drives your shoulder more deeply into your neck. By extracting the arm first, you eliminate the mechanical wedge and create space for your head to escape."
       },
       {
-        "technique": "Grab Own Leg to Prevent Lock",
-        "target_position": "Back Control",
-        "success_rate": 25
+        "question": "What grip priorities should you establish with your free hand when escaping rear triangle?",
+        "answer": "Primary grip is on the opponent's choking leg ankle or behind the knee to prevent tightening and create escape leverage. Secondary grip is on your trapped arm's wrist to assist with arm extraction. Never waste the free hand reaching for your opponent's hands behind your head - this is ineffective and exposes you to wrist control."
+      },
+      {
+        "question": "How do you recognize when the triangle is transitioning to an armbar and what is your immediate response?",
+        "answer": "The armbar transition shows when opponent begins extending their hips away while pulling down on your trapped arm and shifting their body perpendicular to yours. Immediate response is to keep your trapped arm bent and tight to your body, clasp your hands together if possible, and turn your body toward the trapped arm side to prevent elbow extension."
+      },
+      {
+        "question": "Your opponent loosens the triangle to adjust position - how do you capitalize on this window?",
+        "answer": "This is your escape opportunity. Immediately work arm extraction by pulling elbow tight to ribs and threading forearm across your centerline. Simultaneously shrimp your hips away and work to insert your knee between bodies. If the triangle is loose enough, you can roll toward the non-choking leg side to escape to guard. Speed is critical during this adjustment window."
+      },
+      {
+        "question": "How do you manage breathing and energy when trapped in rear triangle under sustained pressure?",
+        "answer": "Breathe through your nose in controlled patterns rather than gasping through your mouth. Focus on diaphragmatic breathing rather than chest breathing. Conserve energy by using technical movements rather than explosive escape attempts. Accept that escape will take multiple small movements rather than one big effort. Mental composure directly affects your breathing efficiency and escape timing."
+      },
+      {
+        "question": "After successfully extracting your trapped arm, what is the immediate follow-up to complete the escape?",
+        "answer": "Once the arm is extracted, immediately use it to frame against opponent's hip or leg while shrimping your hips away. Work to insert your bottom knee between your bodies to create a barrier. Continue turning toward the non-choking leg side while maintaining the frame. Target turtle position first as an interim goal, then work to recover guard or stand. Never stop moving once the arm is free."
       }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Switch to Armbar on Trapped Arm",
-        "target_position": "Armbar Control",
-        "trigger": "Opponent focuses solely on defending the choke by tucking chin"
-      },
-      {
-        "technique": "Rear Naked Choke Transition",
-        "target_position": "Won by Submission",
-        "trigger": "Opponent defends trapped arm by pulling it free, exposing neck"
-      },
-      {
-        "technique": "Tighten Triangle and Extend Hips",
-        "target_position": "Rear Triangle Top",
-        "trigger": "Opponent attempts to turn into the triangle to escape"
-      },
-      {
-        "technique": "Transition to Traditional Back Control",
-        "target_position": "Back Control",
-        "trigger": "Opponent successfully defends triangle lock by grabbing own leg"
-      }
-    ],
-    "decision_tree": [
-      {
-        "condition": "If opponent tucks chin and defends choke primarily",
-        "actions": [
-          {
-            "technique": "Armbar from Back with Legs",
-            "target": "Armbar Control",
-            "probability": 65
-          },
-          {
-            "technique": "Kimura from Back",
-            "target": "Kimura Control",
-            "probability": 45
-          }
-        ]
-      },
-      {
-        "condition": "Else if opponent attempts to pull trapped arm free",
-        "actions": [
-          {
-            "technique": "Tighten Triangle Lock",
-            "target": "Rear Triangle Top",
-            "probability": 70
-          },
-          {
-            "technique": "Triangle Choke Back",
-            "target": "Won by Submission",
-            "probability": 60
-          }
-        ]
-      },
-      {
-        "condition": "Else if opponent turns into triangle attempting escape",
-        "actions": [
-          {
-            "technique": "Extend Hips and Finish Triangle",
-            "target": "Won by Submission",
-            "probability": 55
-          },
-          {
-            "technique": "Transition to Crucifix",
-            "target": "Crucifix",
-            "probability": 50
-          }
-        ]
-      },
-      {
-        "condition": "Else if opponent creates space by posting free arm",
-        "actions": [
-          {
-            "technique": "Rear Naked Choke",
-            "target": "Won by Submission",
-            "probability": 65
-          },
-          {
-            "technique": "Attack Free Arm for Control",
-            "target": "Gift Wrap",
-            "probability": 50
-          }
-        ]
-      }
-    ],
-    "common_errors": [
-      {
-        "error": "Threading leg in front of opponent's neck instead of behind, creating a front triangle configuration",
-        "consequence": "Opponent can easily defend by tucking chin and the choke pressure is significantly reduced",
-        "correction": "Thread the leg deep under the armpit so it emerges behind the opponent's neck, creating proper back triangle mechanics"
-      },
-      {
-        "error": "Locking the triangle too loosely without proper compression of knees together",
-        "consequence": "Opponent can create space, potentially pull trapped arm free, or escape the position entirely",
-        "correction": "Pull the locking ankle tightly into the crook of the knee and actively squeeze knees together to eliminate all space"
-      },
-      {
-        "error": "Losing chest-to-back connection by sitting up too far or leaning away from opponent",
-        "consequence": "Opponent can turn into you, potentially escaping to guard or reversing the position",
-        "correction": "Maintain constant chest pressure against opponent's back with your weight committed forward onto them"
-      },
-      {
-        "error": "Failing to control opponent's free arm, allowing them to establish defensive grips",
-        "consequence": "Opponent can grab their own leg to prevent triangle lock or defend against choke finishing attempts",
-        "correction": "Use your hands to control the free arm by wrist control, overhook, or isolating it away from defensive positions"
-      },
-      {
-        "error": "Not angling hips sufficiently toward trapped arm side",
-        "consequence": "Reduced pressure on the carotid artery and less effective choke mechanics",
-        "correction": "Actively angle your hips and shoulders toward the trapped arm to create optimal cutting angle across the neck"
-      },
-      {
-        "error": "Abandoning position too quickly when opponent defends initial choke attempt",
-        "consequence": "Missing opportunities to attack multiple submissions and cycle through finishing options",
-        "correction": "Systematically cycle between rear triangle choke, armbar on trapped arm, and rear naked choke to break down defenses"
-      }
-    ],
-    "training_drills": [
-      {
-        "name": "Triangle Entry from Back Control Drill",
-        "description": "Start in standard back control with seat belt grip. Partner defends by gripping hands together. Practice threading your leg under their armpit and locking the triangle configuration while maintaining back control. Repeat 10 times each side, focusing on smooth entry without losing position. Partner should provide realistic defensive resistance but allow successful entries.",
-        "duration": "5 minutes per side"
-      },
-      {
-        "name": "Submission Cycling Drill",
-        "description": "Establish rear triangle top position. Flow continuously between rear triangle choke attempt, armbar on trapped arm, and rear naked choke for 3-minute rounds. Partner defends each attempt realistically, forcing you to transition between submissions. Focus on maintaining position control throughout all transitions. Reset if position is lost.",
-        "duration": "3-minute rounds"
-      },
-      {
-        "name": "Position Maintenance Under Pressure",
-        "description": "Partner starts in rear triangle bottom position and uses full effort to escape for 2 minutes while you focus solely on maintaining the position without finishing submissions. Partner should attempt various escapes: turning in, bridging, pulling trapped arm free, creating space. Your goal is to keep the triangle locked and maintain back connection throughout.",
-        "duration": "2-minute rounds"
-      },
-      {
-        "name": "Triangle Lock Tightness Progression",
-        "description": "Establish rear triangle position with compliant partner. Practice the following progression: lock triangle loosely (30 seconds), medium tightness (30 seconds), maximum compression (30 seconds). Partner provides feedback on pressure levels. Focus on understanding the difference in control at each compression level. Repeat for 5 cycles per side.",
-        "duration": "8 minutes total"
-      }
-    ],
-    "optimal_submission_paths": [
-      {
-        "name": "Direct Triangle Choke Path",
-        "path": "Back Control → Rear Triangle Top → Triangle Choke Back → Won by Submission"
-      },
-      {
-        "name": "Triangle to Armbar Path",
-        "path": "Back Control → Rear Triangle Top → Armbar from Back with Legs → Won by Submission"
-      },
-      {
-        "name": "Rear Naked Choke Alternative Path",
-        "path": "Rear Triangle Top → Rear Naked Choke → Won by Submission"
-      },
-      {
-        "name": "Crucifix Transition Path",
-        "path": "Rear Triangle Top → Transition to Crucifix → Crucifix → Choke from Crucifix → Won by Submission"
-      },
-      {
-        "name": "Bow and Arrow Setup Path",
-        "path": "Rear Triangle Top → Bow and Arrow Choke → Won by Submission"
-      }
-    ],
-    "related_content": [
-      {
-        "name": "Back Control",
-        "relationship": "Parent position - standard back control from which rear triangle is often entered"
-      },
-      {
-        "name": "Triangle Control",
-        "relationship": "Similar triangle mechanics applied from different angle and entry"
-      },
-      {
-        "name": "Body Triangle",
-        "relationship": "Alternative leg configuration for back control with different control mechanics"
-      },
-      {
-        "name": "Crucifix",
-        "relationship": "Common transition target when opponent defends triangle by turning in"
-      },
-      {
-        "name": "Seat Belt Control Back",
-        "relationship": "Traditional back control variation that precedes rear triangle entry"
-      },
-      {
-        "name": "Triangle Choke Back",
-        "relationship": "Primary submission finish from this position"
-      },
-      {
-        "name": "Armbar from Back with Legs",
-        "relationship": "Alternative submission when opponent defends the choke"
-      },
-      {
-        "name": "Mounted Triangle",
-        "relationship": "Similar triangle control mechanics from mount position instead of back"
-      },
-      {
-        "name": "Gift Wrap",
-        "relationship": "Alternative arm trap control from back that can transition to rear triangle"
-      },
-      {
-        "name": "Truck",
-        "relationship": "Leg entanglement position that shares some control principles with rear triangle"
-      }
-    ],
-    "position_metrics": {
-      "retention_rate": {
-        "beginner": 45,
-        "intermediate": 65,
-        "advanced": 85
-      },
-      "advancement_probability": {
-        "beginner": 35,
-        "intermediate": 55,
-        "advanced": 75
-      },
-      "submission_probability": {
-        "beginner": 40,
-        "intermediate": 60,
-        "advanced": 80
-      },
-      "average_time": "45-90 seconds before submission or escape attempt"
-    }
+    ]
   }
 }

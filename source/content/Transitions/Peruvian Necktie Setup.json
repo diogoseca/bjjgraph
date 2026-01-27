@@ -13,8 +13,6 @@
     "scramble",
     "inversion"
   ],
-  "starting_position": "Front Headlock",
-  "ending_position": "Peruvian Necktie",
   "success_rates": {
     "beginner": 20,
     "intermediate": 35,
@@ -283,6 +281,24 @@
     {
       "name": "Turtle",
       "relationship": "Opponent position - defensive posture being exploited for entry"
+    }
+  ],
+  "from_position": "Front Headlock/Top",
+  "outcomes": [
+    {
+      "to": "Peruvian Necktie/Top",
+      "probability": 50,
+      "result": "success"
+    },
+    {
+      "to": "Front Headlock/Top",
+      "probability": 40,
+      "result": "failure"
+    },
+    {
+      "to": "Front Headlock/Bottom",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

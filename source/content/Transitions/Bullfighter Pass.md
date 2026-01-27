@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Bullfighter Pass | BJJ Technique | BJJ Graph"
 description: "Master the Bullfighter Pass (Toreando Pass) in BJJ. Dynamic standing guard pass using lateral movement and grip control. Success: Beginner 45%, Intermediate 60%, Advanced 75%."
@@ -16,7 +17,7 @@ description: "Master the Bullfighter Pass (Toreando Pass) in BJJ. Dynamic standi
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Bullfighter Pass in BJJ",
-  "description": "Step-by-step guide for Bullfighter Pass from Open Guard to Side Control.",
+  "description": "Step-by-step guide for Bullfighter Pass from Open Guard/Bottom. Possible outcomes: Side Control/Top (75%), Open Guard/Bottom (15%), Open Guard/Top (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -154,11 +155,25 @@ description: "Master the Bullfighter Pass (Toreando Pass) in BJJ. Dynamic standi
 
 The Bullfighter Pass, also known as the Toreando Pass, is a dynamic standing guard pass that uses lateral movement and precise grip control to bypass the opponent's guard. The name comes from the bullfighting motion of moving to the side while controlling the opponent's legs, similar to a matador avoiding a charging bull. This pass is effective against various open guard configurations including Spider Guard, De La Riva Guard, and Collar Sleeve Guard. The technique relies on explosive footwork, proper weight distribution, and the ability to control the opponent's legs while maintaining balance. The Bullfighter Pass is particularly effective in no-gi grappling where leg grips are harder to maintain, but it remains highly useful in the gi when executed with proper timing. The pass creates significant pressure and forward momentum, making it difficult for the opponent to recover guard or establish defensive frames.
 
-**Starting Position**: [[Open Guard]]
-**Ending Position**: [[Side Control]]
+**From Position**: [[Open Guard/Bottom]]
 **Success Rates**: Beginner 45%, Intermediate 60%, Advanced 75%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Side Control/Top]] | 75% |
+| Failure | [[Open Guard/Bottom]] | 15% |
+| Counter | [[Open Guard/Top]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

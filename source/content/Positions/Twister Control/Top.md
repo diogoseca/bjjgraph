@@ -21,37 +21,37 @@ description: "Master offensive strategies from Twister Control Top. Complete gui
     {
       "@type": "HowToStep",
       "name": "Execute Twister Finish",
-      "text": "From this position, execute Twister Finish to transition to Won by Submission. Success rate for advanced practitioners: 45%.",
+      "text": "From this position, attempt Twister Finish. This technique is attempted in 25% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Guillotine Choke",
-      "text": "From this position, execute Guillotine Choke to transition to Won by Submission. Success rate for advanced practitioners: 60%.",
+      "name": "Execute Guillotine from Twister",
+      "text": "From this position, attempt Guillotine from Twister. This technique is attempted in 15% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Calf Slicer from Truck",
-      "text": "From this position, execute Calf Slicer from Truck to transition to Won by Submission. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Calf Slicer from Truck. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Back Take Generic",
-      "text": "From this position, execute Back Take Generic to transition to Back Control. Success rate for advanced practitioners: 70%.",
+      "name": "Execute Transition to Back Control",
+      "text": "From this position, attempt Transition to Back Control. This technique is attempted in 25% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Neck Crank",
-      "text": "From this position, execute Neck Crank to transition to Won by Submission. Success rate for advanced practitioners: 52%.",
+      "text": "From this position, attempt Neck Crank. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Arm Triangle",
-      "text": "From this position, execute Arm Triangle to transition to Won by Submission. Success rate for advanced practitioners: 48%.",
+      "name": "Execute Banana Split",
+      "text": "From this position, attempt Banana Split. This technique is attempted in 15% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -215,74 +215,18 @@ One critical aspect that differentiates elite-level Twister Control from interme
 
 ## Available Attacks
 
-### [[Twister Finish]] → [[Won by Submission]]
+### [[Twister Finish]] (25% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 35%
-- Advanced: 45%
+### [[Guillotine from Twister]] (15% of attempts)
 
-### [[Guillotine Choke]] → [[Won by Submission]]
+### [[Calf Slicer from Truck]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Transition to Back Control]] (25% of attempts)
 
-### [[Calf Slicer from Truck]] → [[Won by Submission]]
+### [[Neck Crank]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
+### [[Banana Split]] (15% of attempts)
 
-### [[Back Take Generic]] → [[Back Control]]
-
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
-
-### [[Neck Crank]] → [[Won by Submission]]
-
-**Success Rates:**
-- Beginner: 22%
-- Intermediate: 38%
-- Advanced: 52%
-
-### [[Arm Triangle]] → [[Won by Submission]]
-
-**Success Rates:**
-- Beginner: 18%
-- Intermediate: 32%
-- Advanced: 48%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Leg Extraction Defense]]** → [[Turtle]] (Opponent Success: 35%)
-- **[[Roll Through Escape]]** → [[Half Guard]] (Opponent Success: 28%)
-- **[[Frame and Turn Escape]]** → [[Turtle]] (Opponent Success: 32%)
-- **[[Hand Fighting]]** → [[Twister Control]] (Opponent Success: 40%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Recapture Escaping Leg]]** → [[Twister Control]]
-  - Opponent begins to extract trapped leg from your control
-- **[[Transition to Traditional Back Control]]** → [[Back Control]]
-  - Twister Control begins to break down but back exposure remains
-- **[[Switch to Guillotine]]** → [[Won by Submission]]
-  - Opponent turns into you to escape Twister creating neck exposure
 
 
 </section>
@@ -292,22 +236,22 @@ One critical aspect that differentiates elite-level Twister Control from interme
 ## Decision Making from This Position
 
 **Opponent is stationary and defending with minimal movement:**
-- Execute **[[Hunt Twister Finish]]** → [[Won by Submission]] (Probability: 45%)
-- Execute **[[Transition to Guillotine]]** → [[Won by Submission]] (Probability: 55%)
+- Execute **[[Hunt Twister Finish]]** → [[game-over]] (Probability: 45%)
+- Execute **[[Transition to Guillotine]]** → [[game-over]] (Probability: 55%)
 
 
 **Opponent is actively hand fighting and creating frames:**
-- Execute **[[Attack Extended Arm]]** → [[Won by Submission]] (Probability: 50%)
+- Execute **[[Attack Extended Arm]]** → [[game-over]] (Probability: 50%)
 - Execute **[[Increase Rotation Pressure]]** → [[Break opponent's defensive structure]] (Probability: 60%)
 
 
 **Opponent is working to free trapped leg:**
 - Execute **[[Recapture Leg Immediately]]** → [[Twister Control]] (Probability: 70%)
-- Execute **[[Transition to Back Control]]** → [[Back Control]] (Probability: 65%)
+- Execute **[[Aoki Lock to Back Control]]** → [[Back Control]] (Probability: 65%)
 
 
 **Opponent turns into you sacrificing back to escape twist:**
-- Execute **[[Guillotine Choke]]** → [[Won by Submission]] (Probability: 70%)
+- Execute **[[Guillotine Choke]]** → [[game-over]] (Probability: 70%)
 - Execute **[[Front Headlock Series]]** → [[Front Headlock]] (Probability: 65%)
 
 
@@ -377,29 +321,7 @@ Isolate leg control aspect of Twister Control. Practice maintaining leg control 
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
-
-### Direct Twister Path
-
-`Truck → Twister Control → Establish deep rotation → Twister Finish → Won by Submission`
-
-### Guillotine Transition
-
-`Twister Control → Opponent turns to escape → Guillotine Choke → Won by Submission`
-
-### Calf Slicer Alternative
-
-`Twister Control → Opponent defends neck → Calf Slicer from Truck → Won by Submission`
-
-### Back Control Consolidation
-
-`Twister Control → Position unstable → Back Control → Rear Naked Choke → Won by Submission`
-
-
-
-</section>
 
 <section id="position-metrics" class="content-section">
 

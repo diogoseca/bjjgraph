@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Toreando Pass | BJJ Technique | BJJ Graph"
 description: "Master the Toreando Pass in BJJ. Control opponent's legs, create angles, pass to dominant position. Success: Beginner 35%, Intermediate 50%, Advanced 65%."
@@ -16,7 +17,7 @@ description: "Master the Toreando Pass in BJJ. Control opponent's legs, create a
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Toreando Pass in BJJ",
-  "description": "Step-by-step guide for Toreando Pass from Open Guard to Side Control.",
+  "description": "Step-by-step guide for Toreando Pass from Open Guard/Bottom. Possible outcomes: Side Control/Top (65%), Open Guard/Bottom (25%), Open Guard/Top (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -160,11 +161,25 @@ description: "Master the Toreando Pass in BJJ. Control opponent's legs, create a
 
 The Toreando Pass, also known as the Bullfighter Pass, is a fundamental guard passing technique that exploits superior grips and angular movement to control and redirect the opponent's legs. Named after the bullfighter's movements when evading a charging bull, this pass emphasizes controlling the opponent's knees or pant legs while stepping laterally to create passing angles. The technique is particularly effective against players who rely on open guard systems like De La Riva, Spider Guard, or Collar Sleeve Guard. By dominating the leg grips and using explosive lateral movement, the passer forces the guard player's legs to one side while their upper body remains stationary, creating a clear path to side control or knee on belly. The Toreando Pass is a cornerstone of modern guard passing systems, valued for its versatility across gi and no-gi contexts, its effectiveness against multiple guard styles, and its ability to chain seamlessly with other passing sequences. When executed correctly, it creates immense pressure on the opponent's defensive structure while maintaining the passer's balance and base throughout the movement.
 
-**Starting Position**: [[Open Guard]]
-**Ending Position**: [[Side Control]]
+**From Position**: [[Open Guard/Bottom]]
 **Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Side Control/Top]] | 65% |
+| Failure | [[Open Guard/Bottom]] | 25% |
+| Counter | [[Open Guard/Top]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

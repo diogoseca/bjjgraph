@@ -99,38 +99,28 @@ Inverted lasso guard fits into broader guard systems as a transitional position 
 - Recognize when inversion has accomplished its purpose and return to stable position - extended inversion drains energy without added benefit
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Berimbolo Entry]]** → [[Back Control]]
-  - Success Rate: Beginner 20%, Intermediate 45%, Advanced 70%
+- **[[Berimbolo Entry]]** (12% of attempts)
 
-- **[[Hip Bump Sweep V2]]** → [[Mount]]
-  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 75%
+- **[[Hip Bump Sweep V2]]** (11% of attempts)
 
-- **[[Kiss of the Dragon]]** → [[Back Control]]
-  - Success Rate: Beginner 15%, Intermediate 40%, Advanced 65%
+- **[[Kiss of the Dragon]]** (10% of attempts)
 
-- **[[Triangle Setup]]** → [[Triangle Control]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 60%
+- **[[Triangle Setup]]** (9% of attempts)
 
-- **[[Omoplata Sweep]]** → [[Omoplata Control]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 65%
+- **[[Omoplata Sweep]]** (10% of attempts)
 
-- **[[Lasso Guard Sweeps]]** → [[Side Control]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 60%
+- **[[Lasso Guard Sweeps]]** (9% of attempts)
 
-- **[[Single Leg X Entry]]** → [[Single Leg X-Guard]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 70%
+- **[[Single Leg X Entry]]** (11% of attempts)
 
-- **[[De La Riva Sweep]]** → [[Mount]]
-  - Success Rate: Beginner 20%, Intermediate 40%, Advanced 60%
+- **[[De La Riva Sweep]]** (9% of attempts)
 
-- **[[Armbar from Guard]]** → [[Armbar Control]]
-  - Success Rate: Beginner 15%, Intermediate 35%, Advanced 55%
+- **[[Armbar from Guard]]** (8% of attempts)
 
-- **[[Lasso Guard Variations]]** → [[Lasso Guard]]
-  - Success Rate: Beginner 40%, Intermediate 60%, Advanced 75%
+- **[[Lasso Guard Variations]]** (11% of attempts)
 
 
 ### Common Mistakes
@@ -192,32 +182,24 @@ Inverted lasso guard fits into broader guard systems as a transitional position 
 - Stay connected rather than creating distance - space allows bottom player to reset and reinvert with better angles
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Lasso Guard Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 70%
+- **[[Lasso Guard Pass]]** (13% of attempts)
 
-- **[[Stack Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 65%
+- **[[Stack Pass]]** (12% of attempts)
 
-- **[[Arm Extraction]]** → [[Open Guard]]
-  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 75%
+- **[[Arm Extraction]]** (14% of attempts)
 
-- **[[Cartwheel Pass]]** → [[Back Control]]
-  - Success Rate: Beginner 20%, Intermediate 40%, Advanced 60%
+- **[[Cartwheel Pass]]** (11% of attempts)
 
-- **[[Pressure Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 65%
+- **[[Pressure Pass]]** (12% of attempts)
 
-- **[[Knee Cut Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 70%
+- **[[Knee Cut Pass]]** (13% of attempts)
 
-- **[[Smash Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 20%, Intermediate 40%, Advanced 60%
+- **[[Smash Pass]]** (11% of attempts)
 
-- **[[Standing up in Base]]** → [[Standing Position]]
-  - Success Rate: Beginner 40%, Intermediate 60%, Advanced 75%
+- **[[Toreando Pass]]** (14% of attempts)
 
 
 ### Common Mistakes

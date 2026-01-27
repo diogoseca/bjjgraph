@@ -45,6 +45,8 @@ The dual nature of overhook control makes it equally valuable as both an offensi
 
 - Bilateral vs Unilateral Advantage: Exploit the mechanical advantage where you maintain full bilateral control while opponent is reduced to single-arm defensive capability
 
+- Free Arm Engagement: The non-overhooking arm must actively control head, establish secondary grips, or threaten attacks rather than remaining passive
+
 
 </section>
 
@@ -93,32 +95,24 @@ The dual nature of overhook control makes it equally valuable as both an offensi
 - Angle Creation: Combine overhook with hip movement and angle changes to create multiple attacking vectors from bottom position
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Arm Drag to Back]]** → [[Back Control]]
-  - Success Rate: Beginner 32%, Intermediate 48%, Advanced 66%
+- **[[Arm Drag to Back]]** (13% of attempts)
 
-- **[[Overhook Sweep]]** → [[Mount]]
-  - Success Rate: Beginner 38%, Intermediate 54%, Advanced 70%
+- **[[Overhook Sweep]]** (14% of attempts)
 
-- **[[Butterfly Sweep]]** → [[Mount]]
-  - Success Rate: Beginner 35%, Intermediate 52%, Advanced 68%
+- **[[Butterfly Sweep]]** (13% of attempts)
 
-- **[[Triangle Setup]]** → [[Triangle Control]]
-  - Success Rate: Beginner 28%, Intermediate 44%, Advanced 62%
+- **[[Triangle Setup]]** (12% of attempts)
 
-- **[[Transition to Omoplata]]** → [[Omoplata Control]]
-  - Success Rate: Beginner 22%, Intermediate 38%, Advanced 58%
+- **[[Closed Guard to Omoplata]]** (11% of attempts)
 
-- **[[Guillotine Setup]]** → [[Guillotine Control]]
-  - Success Rate: Beginner 30%, Intermediate 46%, Advanced 64%
+- **[[Guillotine Setup]]** (12% of attempts)
 
-- **[[Elevator Sweep]]** → [[Mount]]
-  - Success Rate: Beginner 33%, Intermediate 49%, Advanced 67%
+- **[[Elevator Sweep]]** (13% of attempts)
 
-- **[[Old School Sweep]]** → [[Side Control]]
-  - Success Rate: Beginner 26%, Intermediate 42%, Advanced 60%
+- **[[Old School Sweep]]** (12% of attempts)
 
 
 ### Common Mistakes
@@ -172,35 +166,26 @@ The dual nature of overhook control makes it equally valuable as both an offensi
 - Systematic Decision Tree: Follow clear if/else logic - pull back triggers Kimura, drive forward triggers front headlock chokes, turn away triggers back takes
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Kimura]]** → [[Kimura Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Kimura]]** (12% of attempts)
 
-- **[[Darce Choke]]** → [[D'arce Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 60%
+- **[[Darce Choke]]** (11% of attempts)
 
-- **[[Anaconda Choke]]** → [[Anaconda Control]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 55%
+- **[[Anaconda Choke]]** (10% of attempts)
 
-- **[[Arm Drag to Back]]** → [[Back Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 65%
+- **[[Arm Drag to Back]]** (12% of attempts)
 
-- **[[Two-on-One to Back Take]]** → [[Back Control]]
-  - Success Rate: Beginner 28%, Intermediate 42%, Advanced 60%
+- **[[Two-on-One to Back Take]]** (11% of attempts)
 
-- **[[Snap Down to Front Headlock]]** → [[Front Headlock]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Snap Down to Front Headlock]]** (12% of attempts)
 
-- **[[Crab Ride to Back]]** → [[Crab Ride]]
-  - Success Rate: Beginner 22%, Intermediate 38%, Advanced 58%
+- **[[Crab Ride to Back]]** (11% of attempts)
 
-- **[[Crucifix from Turtle]]** → [[Crucifix]]
-  - Success Rate: Beginner 18%, Intermediate 32%, Advanced 50%
+- **[[Crucifix from Turtle]]** (9% of attempts)
 
-- **[[Transition to Mount]]** → [[Mount]]
-  - Success Rate: Beginner 32%, Intermediate 48%, Advanced 64%
+- **[[Side Control to Mount]]** (12% of attempts)
 
 
 ### Common Mistakes
@@ -243,11 +228,9 @@ The dual nature of overhook control makes it equally valuable as both an offensi
 
 - **[[Back Control]]** - Primary positional advancement target accessed via arm drags, two-on-one grips, and crab ride entries from overhook
 
-- **[[Kimura Control]]** - Direct submission control position accessed when opponent pulls their arm back against overhook pressure
+- **[[Kimura Trap]]** - Direct submission control position accessed when opponent pulls their arm back against overhook pressure
 
 - **[[D'arce Control]]** - Front headlock submission position entered when opponent drives forward into overhook control
-
-- **[[Underhook Control]]** - Opposite control mechanism that overhook is specifically designed to counter and neutralize
 
 - **[[Clinch]]** - Standing position where overhook control is frequently established during initial grip fighting exchanges
 
@@ -258,6 +241,8 @@ The dual nature of overhook control makes it equally valuable as both an offensi
 - **[[Crab Ride]]** - Transitional attacking position accessed from overhook when opponent turns away to defend
 
 - **[[Crucifix]]** - Advanced control position accessible from overhook on turtle through proper rolling mechanics
+
+- **[[Overhook Guard]]** - Guard variation built around the overhook grip as the primary control mechanism
 
 
 </section>

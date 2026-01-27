@@ -240,6 +240,36 @@
       "question": "What are the acceptable tap signals in BJJ, and why must you recognize all of them during a triangle choke?",
       "answer": "Acceptable tap signals include: verbal tap (saying 'tap' or making distress sounds), physical hand taps (multiple taps on opponent's body or mat), physical foot taps (if hands are trapped), and any loss of resistance or going limp. During a triangle choke, you must recognize all these signals because the opponent may have limited mobility—their trapped arm can't tap, so they may use their free hand, feet, or verbal signals. Going limp indicates unconsciousness and requires immediate release.",
       "safety_critical": true
+    },
+    {
+      "question": "Your opponent is defending by tucking their chin and hiding their neck - what grip adjustment creates the finishing pressure?",
+      "answer": "When the opponent tucks their chin, grab the back of their head with your free hand and pull it down forcefully while simultaneously lifting your hips toward the ceiling. This creates opposing forces that compress the neck regardless of chin position. Additionally, ensure your cutting leg's shin is positioned on the side of their neck rather than the back, as the lateral carotid artery compression is what creates the blood choke, not windpipe pressure from the front.",
+      "safety_critical": false
+    },
+    {
+      "question": "What indicates you have reached the 'point of no escape' in a triangle choke, and what control must be maintained?",
+      "answer": "The point of no escape is reached when: (1) your ankle is locked behind your knee in the proper triangle configuration, (2) your hips are cut at least 30-45 degrees perpendicular to opponent's body, (3) their trapped arm is secured across their centerline with their shoulder pressing into their own neck, and (4) you have head control preventing posture. At this point, maintain tight knee squeeze, constant downward head pressure, and elevated hips—any loosening of these controls allows escape.",
+      "safety_critical": false
+    },
+    {
+      "question": "How do you adjust your finishing mechanics when your opponent has a thick neck or strong defensive posture?",
+      "answer": "Against opponents with thick necks or strong defenses: (1) cut a more aggressive angle—closer to 60-70 degrees rather than 45, (2) pull their head down harder using an overhook behind their head or grabbing your own shin for leverage, (3) focus on proper shoulder positioning rather than relying on leg squeeze alone, (4) consider transitioning to the mounted triangle by rolling them to their back to use gravity assistance. The key is creating proper structural alignment rather than applying more squeezing force.",
+      "safety_critical": false
+    },
+    {
+      "question": "What are the specific breaking point indicators that tell you the triangle is about to cause a tap?",
+      "answer": "Breaking point indicators include: opponent's face turning red or purple indicating blood flow restriction, decreasing resistance in their defensive movements, slowing or cessation of escape attempts, involuntary sounds of distress, and their free hand beginning to tap or move toward tapping position. Monitor these carefully—when you see color changes and decreasing resistance, the choke is working and a tap should come within seconds. NEVER wait for unconsciousness; release at any tap signal.",
+      "safety_critical": true
+    },
+    {
+      "question": "In competition, what finishing strategy maximizes your triangle completion rate while maintaining control?",
+      "answer": "For competition finishing: (1) secure the lock and angle before applying maximum pressure—rushing creates escape opportunities, (2) establish an underhook on their far leg with your free arm to prevent stacking and standing escapes, (3) continuously adjust angle based on their defensive movements rather than holding static position, (4) pull their head down in pulses rather than constant pressure to prevent them from timing an explosive posture, and (5) be prepared to transition to armbar if they begin extracting the trapped arm, as this movement often exposes the elbow joint.",
+      "safety_critical": false
+    },
+    {
+      "question": "Your triangle is locked but the opponent is defending by grabbing their own collar or lapel to create space - how do you break this grip defense?",
+      "answer": "To break collar/lapel grip defense: (1) use your free hand to two-on-one strip their grip by controlling their wrist and peeling fingers, (2) once grip is broken, immediately pull that arm across your body to prevent re-gripping, (3) alternatively, attack the freed arm with an armbar if they overcommit to grip fighting, (4) increase downward head pressure while you strip grips to maintain choke threat throughout the exchange. The grip fight should be aggressive—their defensive grip buys them time, so remove it quickly.",
+      "safety_critical": false
     }
   ],
   "training_progressions_and_safety_protocols": [
@@ -297,13 +327,11 @@
   "related_submissions": [
     "Armbar from Guard",
     "Omoplata",
-    "Omoplata from Guard",
     "Guillotine Choke",
-    "Triangle from Back",
-    "Triangle from Mount",
-    "Inverted Triangle",
     "Armbar from Back",
-    "Kimura from Guard"
+    "Kimura from Guard",
+    "Gogoplata",
+    "Arm Triangle"
   ],
   "related_content": [
     {
@@ -325,6 +353,14 @@
     {
       "name": "Guillotine Choke",
       "relationship": "Complementary guard submission—similar head control principles"
+    },
+    {
+      "name": "Triangle Control",
+      "relationship": "Control position that precedes the triangle choke finish"
+    },
+    {
+      "name": "Spider Guard",
+      "relationship": "Open guard variation offering triangle entry opportunities"
     }
   ]
 }

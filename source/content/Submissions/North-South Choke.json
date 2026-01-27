@@ -253,6 +253,31 @@
       "question": "Why is the North-South Choke effective in both gi and no-gi contexts compared to many other submissions?",
       "answer": "The North-South Choke doesn't rely on gi grips for its primary choking mechanism—it works through body positioning and pressure using the bicep and shoulder as compression surfaces. While gi variations offer additional grip options (like grabbing your own lapel or opponent's lapel), the fundamental choke structure remains effective in no-gi through gable grips, tricep grips, or grabbing your own shoulder. This makes it more versatile than submissions that depend entirely on gi fabric for control. Additionally, the choke's effectiveness comes from positional weight and structure rather than complex limb entanglements, so it translates well across rule sets and training environments.",
       "safety_critical": false
+    },
+    {
+      "question": "Your opponent starts to turn toward you during the choke attempt - how do you adjust to maintain the submission?",
+      "answer": "When opponent begins turning toward you, this is actually a common reaction that can work in your favor. Sprawl your legs back to maintain base and walk your body in the direction they're turning while keeping chest-to-chest contact. Use your underhook on their near arm to prevent full rotation. Critically, their turning motion often tightens the choke inadvertently by pressing their neck deeper into your shoulder compression. If you have the choke structure established, continue applying progressive pressure—the turn frequently accelerates the finish rather than creating escape. Only abandon the attempt if they complete the turn before your choking structure is set.",
+      "safety_critical": false
+    },
+    {
+      "question": "What anatomical structures does the North-South Choke target, and how does this differ from an air choke?",
+      "answer": "The North-South Choke targets the carotid arteries on both sides of the neck, compressing them to restrict blood flow to the brain. This is a blood choke (also called a strangle), which causes unconsciousness by depriving the brain of oxygenated blood. An air choke targets the trachea (windpipe) to restrict breathing. Blood chokes are generally considered safer and more efficient because they cause unconsciousness in 5-10 seconds once fully applied, whereas air chokes take longer and cause more discomfort. The North-South Choke's lateral compression bypasses the trachea entirely when properly applied, making it a pure blood choke.",
+      "safety_critical": false
+    },
+    {
+      "question": "What is the point of no escape for the North-South Choke, and how do you recognize when you've passed it?",
+      "answer": "The point of no escape occurs when both compression surfaces (bicep and shoulder) are properly positioned against the carotid arteries and your grip is locked tight while maintaining forward pressure. Signs you've passed this point include: opponent's defensive frames become weak or stop entirely, their bridging attempts lose power, their face begins to redden or show vascular congestion, and any turning attempts actually tighten rather than loosen the choke. Once you feel the structural integrity of the vise lock into place with no space between your bicep, their neck, and your shoulder, the finish is mechanically inevitable. At this point, maintain steady pressure—do not increase explosively—and watch carefully for the tap.",
+      "safety_critical": false
+    },
+    {
+      "question": "If your partner loses consciousness during a North-South Choke, what is the immediate protocol?",
+      "answer": "Immediately and completely release all pressure from the neck. Roll off their head and neck area entirely—do not remain in contact. Place them in a recovery position on their side with airway clear and head supported. Do not move or manipulate their neck. Monitor breathing and responsiveness. Most people regain consciousness within 10-20 seconds of release. If they do not regain consciousness within 30 seconds, or show signs of respiratory distress, call for medical assistance immediately. Stay with them and monitor vital signs. After they regain consciousness, have them remain lying down for several minutes before attempting to stand. Report the incident to your instructor.",
+      "safety_critical": true
+    },
+    {
+      "question": "What grip adjustments should you make if the standard configuration isn't generating sufficient pressure?",
+      "answer": "If standard grips aren't generating sufficient pressure, first verify your bicep and shoulder positioning—grip changes won't help if the compression surfaces are misaligned. For gi: try grabbing deeper on your own lapel or switching to grab the opponent's far lapel for a tighter loop. For no-gi: switch from gable grip to grabbing your own bicep with the free hand, which creates a tighter configuration. You can also try pulling your elbow tighter to your body to increase the bicep's compression angle. Additionally, walk your body further toward their head to increase the shoulder pressure angle. Never compensate for poor positioning with explosive force—adjust the structural mechanics instead.",
+      "safety_critical": false
     }
   ],
   "training_progressions_and_safety_protocols": [
@@ -307,24 +332,21 @@
     "Scarf Hold Position",
     "Modified Scarf Hold",
     "Crucifix",
-    "Mount Control",
+    "Mount",
     "Knee on Belly"
   ],
   "related_submissions": [
     "Kimura",
-    "Kimura from North-South",
-    "North-South to Kimura",
     "Arm Triangle",
     "Kimura from Side Control",
     "Armbar from Side Control",
     "Armbar Finish",
-    "Paper Cutter Choke",
-    "Reverse Armbar",
-    "Kimura from Mount",
     "Ezekiel Choke",
     "Darce Choke",
     "Anaconda Choke",
-    "Baseball Bat Choke"
+    "Baseball Bat Choke",
+    "Americana from Side Control",
+    "Guillotine Choke"
   ],
   "related_content": [
     {
@@ -334,18 +356,6 @@
     {
       "name": "North South Control",
       "relationship": "Dominant control position enabling the submission setup"
-    },
-    {
-      "name": "Transition to North-South",
-      "relationship": "Entry technique from side control or mount that leads to choke opportunity"
-    },
-    {
-      "name": "North-South Escape",
-      "relationship": "Defensive technique opponent uses to counter the choke attempt"
-    },
-    {
-      "name": "Kimura from North-South",
-      "relationship": "Alternative submission chain when opponent defends the choke by exposing their arm"
     },
     {
       "name": "Side Control",
@@ -368,12 +378,16 @@
       "relationship": "Mechanically similar blood choke using body pressure and arm positioning for compression"
     },
     {
-      "name": "Mount Control",
+      "name": "Mount",
       "relationship": "Top position that can transition to North-South when opponent turns to escape"
     },
     {
-      "name": "Pressure Application",
-      "relationship": "Core principle governing effective execution and control throughout the submission"
+      "name": "Kimura",
+      "relationship": "Alternative submission chain when opponent defends the choke by exposing their arm"
+    },
+    {
+      "name": "Darce Choke",
+      "relationship": "Related head and arm choke with similar pressure principles"
     }
   ]
 }

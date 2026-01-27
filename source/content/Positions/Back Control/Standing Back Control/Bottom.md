@@ -21,37 +21,37 @@ description: "Master defensive strategies for standing back control bottom posit
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Turtle",
-      "text": "From this position, execute Hip Escape to Turtle to transition to Turtle. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Hip Escape to Turtle. This technique is attempted in 14% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Technical Standup",
-      "text": "From this position, execute Technical Standup to transition to Standing Position. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Technical Standup. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling to Guard",
-      "text": "From this position, execute Rolling to Guard to transition to Closed Guard. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Rolling to Guard. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Granby Roll",
-      "text": "From this position, execute Granby Roll to transition to Open Guard. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Granby Roll. This technique is attempted in 11% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Standing up in Base",
-      "text": "From this position, execute Standing up in Base to transition to Standing Position. Success rate for advanced practitioners: 45%.",
+      "text": "From this position, attempt Standing up in Base. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Grip Break and Face",
-      "text": "From this position, execute Grip Break and Face to transition to Scramble Position. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Grip Break and Face. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -212,92 +212,22 @@ Success in this position relies on understanding the mechanical principles of ba
 
 ## Available Escapes
 
-### [[Hip Escape to Turtle]] → [[Turtle]]
+### [[Hip Escape to Turtle]] (14% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Technical Standup]] (12% of attempts)
 
-### [[Technical Standup]] → [[Standing Position]]
+### [[Rolling to Guard]] (13% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
+### [[Granby Roll]] (11% of attempts)
 
-### [[Rolling to Guard]] → [[Closed Guard]]
+### [[Standing up in Base]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Grip Break and Face]] (12% of attempts)
 
-### [[Granby Roll]] → [[Open Guard]]
+### [[Controlled Descent]] (17% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
+### [[Explosive Forward Roll]] (11% of attempts)
 
-### [[Standing up in Base]] → [[Standing Position]]
-
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 45%
-
-### [[Grip Break and Face]] → [[Scramble Position]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-### [[Controlled Descent]] → [[Back Control]]
-
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
-
-### [[Explosive Forward Roll]] → [[Half Guard]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Rear Naked Choke]]** → [[Won by Submission]] (Opponent Success: 45%)
-- **[[Bow and Arrow Choke]]** → [[Won by Submission]] (Opponent Success: 35%)
-- **[[Takedown to Grounded Back Control]]** → [[Back Control]] (Opponent Success: 60%)
-- **[[Armbar from Back]]** → [[Armbar Control]] (Opponent Success: 25%)
-- **[[Triangle from Back]]** → [[Triangle Control]] (Opponent Success: 20%)
-- **[[Choke from Crucifix Transition]]** → [[Crucifix]] (Opponent Success: 30%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Shrimp Escape to Turtle]]** → [[Turtle]]
-  - Opponent attempts to take you to ground without controlling your hips, creating space for hip escape
-- **[[Re-Guard to Half]]** → [[Half Guard]]
-  - Opponent loses hook control and you create hip distance, allowing knee insertion
-- **[[Guard Recovery Sequence]]** → [[Open Guard]]
-  - Opponent's weight shifts forward and you can insert knee shield or frames while rolling
-- **[[Direction Change to Face]]** → [[Clinch]]
-  - Opponent attempts to adjust grips or reposition, creating window for explosive turn
 
 
 </section>
@@ -307,7 +237,7 @@ Success in this position relies on understanding the mechanical principles of ba
 ## Decision Making from This Position
 
 **If opponent has locked rear naked choke grip (hand on bicep, choking arm under chin):**
-- Execute **[[Chin tuck and two-on-one grip break]]** → [[Defensive Position]] (Probability: 55%)
+- Execute **[[Chin tuck and two-on-one grip break]]** → [[Standing Back Control]] (Probability: 55%)
 - Execute **[[Drop to Turtle immediately]]** → [[Turtle]] (Probability: 40%)
 
 
@@ -410,29 +340,39 @@ Partner has standing back control. Practice all major escape paths: hip escape t
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Escape to neutral path
+## Test Your Knowledge
 
-`Standing Back Control Bottom → Grip Break → Scramble Position → Technical Standup → Standing Position`
+**Q1**: What is the absolute first priority when you find yourself in standing back control bottom?
+**A**: Protect your neck immediately by tucking your chin tightly to your chest and bringing your hands up to create a defensive shell around the choking area. Your leading hand should control the opponent's choking arm wrist, and your chin should be buried into your chest. Nothing else matters until the neck is protected - escapes and position changes come after survival is secured.
 
-### Defensive recovery to guard path
+**Q2**: Your opponent begins sliding their choking arm under your chin - what immediate response is required?
+**A**: Use two-on-one grip control to strip the choking arm, grabbing their wrist with both hands and pulling it across your body while tucking your chin even tighter. If the arm is already partially under, turn your head toward the crook of their elbow to create space and buy time while fighting the grip. Simultaneously consider dropping to turtle to change the angle and make the choke harder to finish.
 
-`Standing Back Control Bottom → Hip Escape → Turtle → Guard Recovery → Closed Guard`
+**Q3**: How should you use your base and stance to create escape opportunities?
+**A**: Maintain a wide stance to prevent being easily broken down or taken off balance. Use sudden weight shifts and direction changes to exploit the inherent instability of standing back control. Your opponent must manage both their balance and yours, so unpredictable movement creates openings. When you feel their weight shift, move in the opposite direction to create separation or transition opportunities.
 
-### Granby recovery path
+**Q4**: When is it better to drop to turtle versus fighting to stay standing?
+**A**: Drop to turtle when the opponent has consolidated strong harness control and you cannot break their grips, when they have both hooks in deep making standing escapes difficult, or when they are attempting to take you down forcefully and you want to control the descent. Turtle offers better defensive frames against chokes and is a more stable defensive position than standing back exposure.
 
-`Standing Back Control Bottom → Granby Roll → Open Guard → Guard Retention → Half Guard`
+**Q5**: Your opponent has the harness locked but no hooks secured yet - what escape opportunity does this present?
+**A**: Without hooks, the opponent cannot control your hip movement or prevent you from turning. Execute an immediate explosive hip turn to face them while simultaneously fighting their harness grip. This is your best window before they consolidate control. Use the turn to create a scramble situation or recover to a clinch position. Speed and commitment are critical here.
 
-### Controlled descent path
+**Q6**: What common mistake causes practitioners to exhaust themselves quickly in this position?
+**A**: Panicking and using wild, uncontrolled movements to escape burns energy rapidly without accomplishing anything. This frantic response also makes you easier to control because your movements become predictable and you lose your base. The correction is to stay calm, work systematic escapes by addressing grips first, and use controlled technical movements rather than explosive scrambling.
 
-`Standing Back Control Bottom → Controlled descent → Back Control → Shrimp Escape → Turtle → Re-Guard → Half Guard`
+**Q7**: How should you sequence your defensive priorities: grip fighting, hook clearance, or positional escape?
+**A**: First protect the neck and prevent immediate submission. Then fight the harness grips to reduce opponent's control. Next address hooks if present, as they control your hips. Only after reducing opponent's control points should you attempt major positional escapes like turning to face them or transitioning to turtle. Skipping steps in this sequence often results in failed escapes or worse positions.
+
+**Q8**: Your opponent is dragging you backward trying to take you down - how should you respond?
+**A**: Rather than fighting against their pull, use their energy by dropping your weight and transitioning to turtle on your terms. This controlled descent gives you positional advantages over being thrown or slammed. As you descend, keep your chin protected and begin positioning for ground escapes. Alternatively, explosive forward roll to guard recovery can work if you commit fully before they complete the takedown.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 

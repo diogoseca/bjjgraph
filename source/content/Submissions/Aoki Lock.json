@@ -178,22 +178,26 @@
     {
       "error": "Failing to maintain ashi garami control with outside leg",
       "consequence": "Opponent extracts their leg and escapes before submission is secured",
-      "correction": "Keep your outside leg hook tight throughout the entire setup and finishing sequence. This is your primary position control mechanism."
+      "correction": "Keep your outside leg hook tight throughout the entire setup and finishing sequence. This is your primary position control mechanism.",
+      "danger_level": "Medium"
     },
     {
       "error": "Incorrect figure-four placement creating ineffective lock",
       "consequence": "No compression force is generated and opponent easily defends or escapes",
-      "correction": "Experiment with exact foot placement in training to find optimal position based on your and opponent's leg lengths. The lock should feel secure before squeezing."
+      "correction": "Experiment with exact foot placement in training to find optimal position based on your and opponent's leg lengths. The lock should feel secure before squeezing.",
+      "danger_level": "Low"
     },
     {
       "error": "Neglecting hip positioning and relying only on leg squeeze",
       "consequence": "Minimal submission pressure generated, easy defense for opponent",
-      "correction": "Hip extension and angle create the opposing force that makes compression effective. Focus on hip positioning as much as leg configuration."
+      "correction": "Hip extension and angle create the opposing force that makes compression effective. Focus on hip positioning as much as leg configuration.",
+      "danger_level": "Low"
     },
     {
       "error": "Releasing ashi garami control to focus on finishing",
       "consequence": "Opponent escapes to top position or passes your guard",
-      "correction": "Maintain all positional controls while finishing. If you cannot secure the submission while maintaining position, return to control and reset."
+      "correction": "Maintain all positional controls while finishing. If you cannot secure the submission while maintaining position, return to control and reset.",
+      "danger_level": "Medium"
     },
     {
       "error": "Continuing to apply pressure after tap is given",
@@ -257,14 +261,39 @@
       "safety_critical": false
     },
     {
-      "question": "How should hip positioning and extension be coordinated with leg squeezing to maximize Aoki Lock effectiveness?",
-      "answer": "Your hips should be positioned at an angle that allows extension away from opponent while your legs squeeze together, creating opposing forces. As you extend your hips and create distance, the figure-four pulls their foot into extreme plantar flexion while the squeezing compresses their shin and calf. This hip extension is not just pulling away - it's creating a specific angle that maximizes the mechanical leverage of the figure-four trap. Without proper hip positioning, the leg squeeze alone generates minimal submission pressure. The coordination of hip extension and leg compression is what makes the technique effective.",
+      "question": "Your opponent begins pulling their foot into dorsiflexion to resist the plantar flexion - what adjustment maintains breaking pressure?",
+      "answer": "Rather than fighting their dorsiflexion resistance directly, focus on increasing the compression component across the shin and calf by squeezing your legs tighter and adjusting your hip angle to drive pressure into the anterior tibialis and calf muscles. The compression across these muscular structures will create intense discomfort regardless of their foot position. Additionally, increase hip extension to stretch the posterior chain structures. The multi-vector attack means even partial plantar flexion combined with calf compression creates sufficient breaking force for the tap.",
       "safety_critical": false
     },
     {
       "question": "What are three critical safety errors that can cause injury during Aoki Lock application?",
       "answer": "First, applying compression too quickly without gradual pressure buildup (5-7 seconds minimum required) can cause ligament tears or tendon ruptures before opponent can tap. Second, continuing to apply pressure after tap is given can cause serious injury including achilles rupture, ankle ligament damage, or fractures. Third, using jerking or spiking motions instead of smooth progressive pressure can cause sudden injury before pain signals register. All three of these errors violate the fundamental safety principle that submission pressure must be controlled, progressive, and immediately reversible.",
       "safety_critical": true
+    },
+    {
+      "question": "Your opponent starts sitting up aggressively to create pressure and break your figure-four configuration - what is the point of no escape for finishing the Aoki Lock?",
+      "answer": "The point of no escape occurs when the figure-four is fully locked with your inside foot hooked behind your outside leg's ankle or shin, their foot is trapped between your legs with their ankle positioned correctly for plantar flexion, and you have begun hip extension with leg squeeze engaged. Once all three elements are in place and initial compression is applied, even aggressive sit-up attempts cannot break the mechanical structure without risking self-injury. Before this point, you may need to transition to 50-50 or accept the defensive reset. After this point, maintain position and await the tap.",
+      "safety_critical": false
+    },
+    {
+      "question": "How do you recognize when the Aoki Lock breaking point is reached and imminent tap is expected?",
+      "answer": "Breaking point indicators include visible foot color change toward pale or red as circulation is affected, opponent's body stiffening and involuntary reactions, audible distress sounds before verbal tap, opponent reaching toward their leg or your legs instinctively, and cessation of defensive movement as pain becomes overwhelming. Once you observe these indicators, maintain steady pressure without increasing - the tap is imminent. Never increase pressure at this stage as the structures are already under maximum stress and additional force risks injury before they can verbalize or signal the tap.",
+      "safety_critical": true
+    },
+    {
+      "question": "What grip adjustments should you make during the finish to maximize breaking force without increasing injury risk?",
+      "answer": "During the finish, your hands should transition from foot manipulation grips to bracing grips on opponent's knee or thigh to stabilize their leg position and prevent last-second rotational escapes. Keep your chest connected to their leg to maintain the compression structure. Avoid death-gripping the foot as this creates localized pressure points rather than distributed compression. The finishing force comes from leg squeeze and hip extension, not from pulling with your arms. Your arms stabilize while your legs and hips do the breaking work, which allows controlled pressure application.",
+      "safety_critical": false
+    },
+    {
+      "question": "In competition, your opponent defends by standing with the trapped leg and begins hopping - how do you maintain control and finish?",
+      "answer": "Standing creates opportunity rather than escape if your leg configuration remains tight. Angle your body to face their standing leg while maintaining the figure-four lock, using their standing balance instability against them. Apply hip extension to increase plantar flexion pressure while they cannot base properly. If they attempt to step over you, follow the rotation while keeping the lock engaged. Their standing actually increases stretch on their posterior chain. Sweep them by driving into their posting leg with your free hand or by off-balancing them toward their trapped side. Most opponents will tap mid-fall as the compression increases.",
+      "safety_critical": false
+    },
+    {
+      "question": "What common finishing error reduces Aoki Lock effectiveness and how do you correct it?",
+      "answer": "The most common finishing error is prioritizing plantar flexion over compression by trying to hyperextend the foot without sufficient leg squeeze. This allows opponents with flexible ankles to resist the lock. The correction is to focus on simultaneous leg squeeze compression across the entire lower leg structure while using hip extension for plantar flexion. Think of it as crushing the shin and calf between your legs while pointing their toes - both components must work together. Practitioners who solely attack the ankle joint miss the compression element that makes this submission unique and effective against flexible opponents.",
+      "safety_critical": false
     }
   ],
   "training_progressions_and_safety_protocols": [
@@ -351,10 +380,6 @@
       "relationship": "Creates dilemma with Aoki Lock from same position"
     },
     {
-      "name": "Craig Jones Leg Lock System",
-      "relationship": "Modern leg lock system utilizing compression attacks"
-    },
-    {
       "name": "50-50 Guard",
       "relationship": "Alternative position for Aoki Lock application"
     },
@@ -367,8 +392,12 @@
       "relationship": "Similar compression mechanics on different joint"
     },
     {
-      "name": "Submission Chains",
-      "relationship": "Principle for combining Aoki Lock with other attacks"
+      "name": "Saddle",
+      "relationship": "Advanced leg entanglement for Aoki Lock setup"
+    },
+    {
+      "name": "Inside Ashi-Garami",
+      "relationship": "Primary entry position with direct access to Aoki Lock"
     }
   ]
 }

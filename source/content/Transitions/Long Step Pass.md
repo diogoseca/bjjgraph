@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Long Step Pass | BJJ Technique | BJJ Graph"
 description: "Master the Long Step Pass to dominate open guard. Step-by-step execution from standing to side control. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%."
@@ -16,7 +17,7 @@ description: "Master the Long Step Pass to dominate open guard. Step-by-step exe
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Long Step Pass in BJJ",
-  "description": "Step-by-step guide for Long Step Pass from Open Guard to Side Control.",
+  "description": "Step-by-step guide for Long Step Pass from Open Guard/Bottom. Possible outcomes: Side Control/Top (75%), Open Guard/Bottom (15%), Open Guard/Top (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -164,11 +165,25 @@ The Long Step Pass exemplifies the principle of pressure over speed, using super
 
 What makes the Long Step Pass particularly effective is its ability to shut down the opponent's ability to create space or re-guard. The combination of grip control, strategic stepping, and pressure application forces the bottom player into increasingly defensive positions until the pass is complete. This makes it one of the highest-percentage passes in both gi and no-gi grappling.
 
-**Starting Position**: [[Open Guard]]
-**Ending Position**: [[Side Control]]
+**From Position**: [[Open Guard/Bottom]]
 **Success Rates**: Beginner 45%, Intermediate 60%, Advanced 75%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Side Control/Top]] | 75% |
+| Failure | [[Open Guard/Bottom]] | 15% |
+| Counter | [[Open Guard/Top]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

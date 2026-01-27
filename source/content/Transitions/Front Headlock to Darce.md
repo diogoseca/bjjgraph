@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Front Headlock to Darce | BJJ Technique | BJJ Graph"
 description: "Learn Front Headlock to Darce in BJJ. Step-by-step execution from Front Headlock to Darce Control. Success rates: Beginner 35%, Intermediate 55%, Advanced 70%."
@@ -16,7 +17,7 @@ description: "Learn Front Headlock to Darce in BJJ. Step-by-step execution from 
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Front Headlock to Darce in BJJ",
-  "description": "Step-by-step guide for Front Headlock to Darce from Front Headlock to D'arce Control.",
+  "description": "Step-by-step guide for Front Headlock to Darce from Front Headlock/Top. Possible outcomes: D'arce Control/Top (70%), Front Headlock/Top (20%), Front Headlock/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -164,11 +165,25 @@ The effectiveness of this transition lies in its seamless flow from control to s
 
 This transition is fundamental to modern no-gi grappling and represents a cornerstone of systematic front headlock attack systems. It combines well with other front headlock finishes, creating a web of attacks that force opponents into submission dilemmas. Mastery of this technique provides both a high-percentage finishing option and a powerful position from which to chain multiple submission attempts.
 
-**Starting Position**: [[Front Headlock]]
-**Ending Position**: [[D'arce Control]]
+**From Position**: [[Front Headlock/Top]]
 **Success Rates**: Beginner 35%, Intermediate 55%, Advanced 70%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[D'arce Control/Top]] | 70% |
+| Failure | [[Front Headlock/Top]] | 20% |
+| Counter | [[Front Headlock/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

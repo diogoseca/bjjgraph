@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Upa Escape | BJJ Technique | BJJ Graph"
 description: "Master the Upa Escape (bridge and roll) from Mount in BJJ. Fundamental escape using hip bridge and weight shift. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%."
@@ -16,7 +17,7 @@ description: "Master the Upa Escape (bridge and roll) from Mount in BJJ. Fundame
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Upa Escape in BJJ",
-  "description": "Step-by-step guide for Upa Escape from Mount to Closed Guard.",
+  "description": "Step-by-step guide for Upa Escape from Mount/Top. Possible outcomes: Closed Guard/Bottom (65%), Mount/Top (25%), Mount/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -154,11 +155,25 @@ description: "Master the Upa Escape (bridge and roll) from Mount in BJJ. Fundame
 
 The Upa Escape, also known as the bridge and roll or trap and roll escape, is the most fundamental and highest-percentage escape from bottom mount position. This technique leverages explosive hip power and proper weight distribution to reverse an opponent who has achieved the dominant mount position. The escape works by creating a powerful bridge while simultaneously trapping one of the opponent's arms and the corresponding leg, forcing them to post with their free hand while you drive them over your shoulder. The beauty of the Upa lies in its mechanical efficiency - it doesn't require superior strength or flexibility, making it accessible to practitioners of all sizes and athletic abilities. When executed with proper timing and technique, the Upa can completely reverse a seemingly hopeless position, transitioning you from bottom mount into your opponent's closed guard or even to a top position. This escape forms the cornerstone of mount defense and is typically the first escape taught to beginners due to its reliability and fundamental movement patterns that translate to many other techniques.
 
-**Starting Position**: [[Mount]]
-**Ending Position**: [[Closed Guard]]
+**From Position**: [[Mount/Top]]
 **Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Closed Guard/Bottom]] | 65% |
+| Failure | [[Mount/Top]] | 25% |
+| Counter | [[Mount/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

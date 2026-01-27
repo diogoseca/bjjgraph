@@ -21,37 +21,37 @@ description: "Master defensive Chill Dog position from bottom. Learn compact tur
     {
       "@type": "HowToStep",
       "name": "Execute Granby Roll",
-      "text": "From this position, execute Granby Roll to transition to Closed Guard. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Granby Roll. This technique is attempted in 18% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Granby to Closed Guard",
-      "text": "From this position, execute Granby to Closed Guard to transition to Closed Guard. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Granby to Closed Guard. This technique is attempted in 15% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Technical Standup",
-      "text": "From this position, execute Technical Standup to transition to Standing Position. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Technical Standup. This technique is attempted in 20% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling to Guard",
-      "text": "From this position, execute Rolling to Guard to transition to Half Guard. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Rolling to Guard. This technique is attempted in 15% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Turtle to Guard",
-      "text": "From this position, execute Turtle to Guard to transition to Open Guard. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Turtle to Guard. This technique is attempted in 17% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape",
-      "text": "From this position, execute Hip Escape to transition to Butterfly Guard. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Hip Escape. This technique is attempted in 15% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -218,95 +218,18 @@ In the 10th Planet system, Chill Dog Bottom serves as a gateway back to offensiv
 
 ## Available Escapes
 
-### [[Granby Roll]] → [[Closed Guard]]
+### [[Granby Roll]] (18% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Granby to Closed Guard]] (15% of attempts)
 
-### [[Granby to Closed Guard]] → [[Closed Guard]]
+### [[Technical Standup]] (20% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
+### [[Rolling to Guard]] (15% of attempts)
 
-### [[Technical Standup]] → [[Standing Position]]
+### [[Turtle to Guard]] (17% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Hip Escape]] (15% of attempts)
 
-### [[Rolling to Guard]] → [[Half Guard]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[Turtle to Guard]] → [[Open Guard]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-### [[Hip Escape]] → [[Butterfly Guard]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
-
-### [[Hip Escape]] → [[Half Guard]]
-
-**Success Rates:**
-- Beginner: 28%
-- Intermediate: 42%
-- Advanced: 58%
-
-### [[Granby Roll]] → [[Closed Guard]]
-
-**Success Rates:**
-- Beginner: 22%
-- Intermediate: 38%
-- Advanced: 52%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Turtle to Back Control]]** → [[Back Control]] (Opponent Success: 50%)
-- **[[Crucifix from Turtle]]** → [[Crucifix]] (Opponent Success: 35%)
-- **[[Darce Setup]]** → [[D'arce Control]] (Opponent Success: 30%)
-- **[[Anaconda Setup]]** → [[Anaconda Control]] (Opponent Success: 30%)
-- **[[Guillotine Setup]]** → [[Guillotine Control]] (Opponent Success: 25%)
-- **[[Front Headlock to Back]]** → [[Back Control]] (Opponent Success: 40%)
-- **[[Truck Entry]]** → [[Truck]] (Opponent Success: 35%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Hip Escape]]** → [[Half Guard]]
-  - Opponent overcommits to one side attempting to establish hooks
-- **[[Granby Roll]]** → [[Closed Guard]]
-  - Opponent drives forward with chest pressure attempting to flatten
-- **[[Hip Escape]]** → [[Butterfly Guard]]
-  - Opponent attempts to circle around to far side for back take
-- **[[Technical Standup]]** → [[Standing Position]]
-  - Opponent's weight shifts backwards or they attempt front headlock control
-- **[[Rolling to Guard]]** → [[Open Guard]]
-  - Opponent commits to crucifix or truck position setup
 
 
 </section>
@@ -323,17 +246,17 @@ In the 10th Planet system, Chill Dog Bottom serves as a gateway back to offensiv
 **If opponent circles to attack back or attempts to establish hooks:**
 - Execute **[[Turn into opponent]]** → [[Butterfly Guard]] (Probability: 40%)
 - Execute **[[Granby Roll]]** → [[Closed Guard]] (Probability: 35%)
-- Execute **[[Technical Standup]]** → [[Standing Position]] (Probability: 50%)
+- Execute **[[Technical Standup]]** → [[Clinch]] (Probability: 50%)
 
 
 **If opponent attempts front headlock control or guillotine setup:**
-- Execute **[[Technical Standup]]** → [[Standing Position]] (Probability: 55%)
+- Execute **[[Technical Standup]]** → [[Clinch]] (Probability: 55%)
 - Execute **[[Pull head free and sit to guard]]** → [[Open Guard]] (Probability: 40%)
 
 
 **If opponent attempts to isolate arm for crucifix or kimura:**
 - Execute **[[Pull arm back and roll]]** → [[Half Guard]] (Probability: 45%)
-- Execute **[[Post on isolated arm and stand]]** → [[Standing Position]] (Probability: 40%)
+- Execute **[[Post on isolated arm and stand]]** → [[Clinch]] (Probability: 40%)
 
 
 **If opponent attempts to establish truck or twister control:**
@@ -431,29 +354,39 @@ Start every round in Chill Dog with partner behind attempting any legal attack. 
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Opponent submission path from top
+## Test Your Knowledge
 
-`Chill Dog Bottom → Back Control → Rear Naked Choke`
+**Q1**: What are the three critical elements that must be maintained simultaneously in Chill Dog Bottom?
+**A**: The three critical elements are: tight elbow-to-knee connection (creates closed defensive frame preventing hooks and harness), rounded back with tucked head (removes leverage points and protects neck), and forward weight distribution on hands (prevents rolling or flipping). When any of these elements breaks down, you become vulnerable to back takes, arm isolation, or front headlock controls. All three must be maintained continuously until you execute your escape.
 
-### Opponent crucifix path
+**Q2**: How do you use breathing and feel to identify escape windows?
+**A**: Maintain controlled, rhythmic breathing to stay calm and avoid fatigue. Use your sense of feel through your back and hips to track opponent's weight distribution and grip positions without looking. When you feel their weight shift forward (preparing to flatten you), it's time for a Granby roll. When weight shifts backward or they release grips to change position, it's time for technical stand-up. When they overcommit to one side, escape to the opposite side. The key is staying patient and alert rather than reacting to pressure with panic.
 
-`Chill Dog Bottom → Crucifix → Armbar from Crucifix`
+**Q3**: Why is the elbow-to-knee connection considered non-negotiable in Chill Dog?
+**A**: The elbow-to-knee connection creates a closed defensive frame that prevents all primary turtle attacks. With elbows tight to knees, opponents cannot insert hooks for back control, cannot establish the harness grip needed for seatbelt control, cannot isolate your arms for crucifix, and cannot drive wedges to flatten you. The moment your elbow separates from your knee, you create a gap that skilled opponents will immediately exploit. This connection is the foundation of the entire defensive structure.
 
-### Opponent choke path from front headlock
+**Q4**: What determines which escape you should attempt from Chill Dog Bottom?
+**A**: The escape choice depends on opponent's weight distribution and attack direction. Execute Granby roll when opponent drives forward with chest pressure (use their forward momentum). Use technical stand-up when opponent's weight is back or they attempt front headlock (space to stand). Sit-through to butterfly when opponent circles to your far side (turn into them). Roll to open guard when committed to crucifix or truck setup (escape before controls solidify). The key is reading their attack and choosing the escape that uses their commitment against them.
 
-`Chill Dog Bottom → Front Headlock → Darce Choke`
+**Q5**: How do you recover if the opponent begins to establish back control hooks?
+**A**: If one hook is inserted, immediately turn your hips toward that hook to prevent the second hook and begin escaping to half guard by framing against their choking arm and shrimping. If they're establishing the harness grip, grab the choking arm with both hands before the grip is locked and work to strip it while creating space. If both hooks are in, the Chill Dog position is lost - transition to back escape protocols by protecting your neck, creating frames, and working to remove hooks one at a time while turning into them.
 
-### Defensive escape path to counter-attack
+**Q6**: What is the proper timing for executing an escape attempt?
+**A**: The escape must be explosive and committed once initiated - hesitation allows the opponent to readjust and shut down your movement. Time the escape when the opponent overcommits their weight or loosens their grips for repositioning. Signs of the right moment include: weight shifting to one side (escape opposite), forward pressure increasing (Granby roll), grip release or adjustment (stand-up), or commitment to a specific attack (escape before it's established). Never attempt escapes when the opponent is balanced and fully gripped.
 
-`Chill Dog Bottom → Technical Standup → Standing Position → Double Leg Entry`
+**Q7**: Why is Chill Dog considered a transitional rather than sustainable position?
+**A**: Chill Dog is designed for survival and escape, not extended defense. The position allows you to weather immediate attacks but does not give you offensive options and slowly drains your energy as you maintain the defensive frame. Staying in Chill Dog for extended periods (beyond 20-45 seconds) allows the opponent to systematically break down your defenses. The goal is always to escape to guard (where you have offensive options) or standing (where you can reset the engagement). Treat it as a temporary shelter, not a destination.
+
+**Q8**: How should you respond if the opponent attempts to flatten you with heavy chest pressure?
+**A**: When you feel heavy chest pressure attempting to flatten you, this is actually the ideal trigger for a Granby roll. The opponent's forward commitment of weight means their base is compromised backward. Explosively initiate the Granby roll by tucking your shoulder and rolling diagonally away from the pressure. Their forward momentum helps you complete the roll. If the Granby isn't available, hip escape laterally while keeping your defensive frame to prevent being fully flattened, then immediately work to recover guard or stand.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -475,7 +408,6 @@ Start every round in Chill Dog with partner behind attempting any legal attack. 
 ## Related Positions and Techniques
 
 - **[[Turtle]]** - Parent position - Chill Dog is a specific variant of turtle
-- **[[Defensive Position]]** - Category - Chill Dog is a defensive position in hierarchy
 - **[[Granby Roll]]** - Primary escape technique from Chill Dog to guard
 - **[[Technical Standup]]** - Alternative escape method when space is available
 - **[[Back Control]]** - Primary opponent objective from this position
@@ -483,7 +415,8 @@ Start every round in Chill Dog with partner behind attempting any legal attack. 
 - **[[Closed Guard]]** - Target position after successful Granby escape
 - **[[Half Guard]]** - Common intermediate position during escape sequences
 - **[[Twister Control]]** - 10th Planet-specific attack opponent may attempt from this position
-- **[[10th Planet No-Gi Guard System]]** - System context - Chill Dog is part of 10th Planet defensive framework
+- **[[Rubber Guard]]** - 10th Planet guard system to recover after escape
+- **[[Lockdown]]** - 10th Planet half guard option after escape
 
 
 </section>

@@ -21,37 +21,37 @@ description: "Master Cross Body Ride Top position in BJJ. Dominant turtle top co
     {
       "@type": "HowToStep",
       "name": "Execute Turtle to Back Control",
-      "text": "From this position, execute Turtle to Back Control to transition to Back Control. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Turtle to Back Control. This technique is attempted in 18% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Crucifix from Turtle",
-      "text": "From this position, execute Crucifix from Turtle to transition to Crucifix. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Crucifix from Turtle. This technique is attempted in 13% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Crab Ride to Back",
-      "text": "From this position, execute Crab Ride to Back to transition to Crab Ride. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Crab Ride to Back. This technique is attempted in 14% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Mount",
-      "text": "From this position, execute Transition to Mount to transition to Mount. Success rate for advanced practitioners: 65%.",
+      "name": "Execute Side Control to Mount",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 13% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bow and Arrow Choke",
-      "text": "From this position, execute Bow and Arrow Choke to transition to Back Control. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Bow and Arrow Choke. This technique is attempted in 11% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rear Naked Choke",
-      "text": "From this position, execute Rear Naked Choke to transition to Back Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Rear Naked Choke. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -213,91 +213,22 @@ Modern approaches to the Cross Body Ride emphasize dynamic control rather than s
 
 ## Available Attacks
 
-### [[Turtle to Back Control]] → [[Back Control]]
+### [[Turtle to Back Control]] (18% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 60%
-- Advanced: 75%
+### [[Crucifix from Turtle]] (13% of attempts)
 
-### [[Crucifix from Turtle]] → [[Crucifix]]
+### [[Crab Ride to Back]] (14% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 45%
-- Advanced: 65%
+### [[Side Control to Mount]] (13% of attempts)
 
-### [[Crab Ride to Back]] → [[Crab Ride]]
+### [[Bow and Arrow Choke]] (11% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 70%
+### [[Rear Naked Choke]] (12% of attempts)
 
-### [[Transition to Mount]] → [[Mount]]
+### [[Armbar from Back]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Twister]] (9% of attempts)
 
-### [[Bow and Arrow Choke]] → [[Back Control]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 55%
-
-### [[Rear Naked Choke]] → [[Back Control]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 60%
-
-### [[Armbar from Back]] → [[Back Control]]
-
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 50%
-
-### [[Twister]] → [[Twister Control]]
-
-**Success Rates:**
-- Beginner: 10%
-- Intermediate: 25%
-- Advanced: 45%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Granby Roll]]** → [[Closed Guard]] (Opponent Success: 30%)
-- **[[Technical Standup]]** → [[Standing Position]] (Opponent Success: 25%)
-- **[[Turtle Transition]]** → [[Turtle]] (Opponent Success: 40%)
-- **[[Rolling to Guard]]** → [[Open Guard]] (Opponent Success: 35%)
-- **[[Sit Through Escape]]** → [[Half Guard]] (Opponent Success: 30%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Back Take Generic]]** → [[Back Control]]
-  - Opponent attempts to roll forward or granby
-- **[[Crucifix from Turtle]]** → [[Crucifix]]
-  - Opponent extends near arm to post or defend
-- **[[Crab Ride to Back]]** → [[Crab Ride]]
-  - Opponent turns into you or attempts to stand
-- **[[Transition to Mount]]** → [[Mount]]
-  - Opponent flattens to belly trying to escape hooks
 
 
 </section>
@@ -312,13 +243,13 @@ Modern approaches to the Cross Body Ride emphasize dynamic control rather than s
 
 
 **If opponent attempts forward roll, granby, or explosive rotation:**
-- Execute **[[Back Take Generic]]** → [[Back Control]] (Probability: 65%)
+- Execute **[[Back Take]]** → [[Back Control]] (Probability: 65%)
 - Execute **[[Crab Ride to Back]]** → [[Crab Ride]] (Probability: 55%)
 
 
 **If opponent extends near arm to post or defend neck:**
 - Execute **[[Crucifix from Turtle]]** → [[Crucifix]] (Probability: 70%)
-- Execute **[[Armbar from Back]]** → [[Back Control]] (Probability: 50%)
+- Execute **[[Armbar from Back]]** → [[Armbar Control]] (Probability: 50%)
 
 
 **If opponent attempts to stand or elevate hips significantly:**
@@ -409,33 +340,39 @@ Start from cross body ride, bottom player given full freedom to escape using any
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Shortest path to submission
+## Test Your Knowledge
 
-`Cross Body Ride Top → Turtle to Back Control → Back Control → Rear Naked Choke`
+**Q1**: What is the optimal chest placement for maintaining maximum control in Cross Body Ride?
+**A**: Position your chest perpendicular across the opponent's upper back, with your sternum contacting the area between their shoulder blades and spine. This creates downward pressure that collapses their turtle structure while your shoulder drives into their near-side shoulder blade. The perpendicular angle prevents them from rolling in either direction and maximizes your weight transfer efficiency.
 
-### High-percentage crucifix path
+**Q2**: Your opponent suddenly shifts their weight forward and attempts to stand - what immediate adjustment do you make?
+**A**: Immediately transition your weight forward onto their shoulders to drive them back down while simultaneously threading your near-side arm deeper under their armpit for seatbelt control. Use your far leg to post wide for base, then consider transitioning to crab ride if they continue standing attempts. Never chase their hips backward - stay connected to their upper body and let your weight work.
 
-`Cross Body Ride Top → Crucifix from Turtle → Crucifix → Armbar from Crucifix`
+**Q3**: What are the three primary control points you must establish before attempting transitions?
+**A**: First, establish chest-to-back connection with perpendicular pressure across their spine. Second, secure near-side control through an underhook, overhook, or seatbelt grip that prevents them from turning into you. Third, control their far hip with your near-side knee or hook to prevent guard recovery. These three points create a stable platform for any back attack transition.
 
-### Bow and arrow sequence
+**Q4**: How do you prevent the opponent from executing a successful granby roll escape?
+**A**: Maintain heavy forward pressure through your chest into their shoulders rather than sitting back on their hips. When you sense them loading for the roll by shifting weight to one shoulder, immediately adjust your angle to follow their intended direction while increasing pressure. Your near-side hook should block their hip from initiating the rotation. If they commit to rolling, follow them and use their momentum to accelerate your back take.
 
-`Cross Body Ride Top → Crab Ride to Back → Crab Ride → Bow and Arrow Choke`
+**Q5**: When transitioning from cross body ride to back control, what is the critical error that causes position loss?
+**A**: The critical error is releasing chest pressure prematurely before securing the seatbelt grip and at least one hook. Many practitioners lift their chest to insert hooks, which creates space for the opponent to turn, granby, or sit to guard. Instead, maintain crushing chest pressure throughout the entire transition, threading your arms for seatbelt while your chest pins them, only inserting hooks once upper body control is fully secured.
 
-### Twister system path
+**Q6**: Your opponent keeps their arms tight and refuses to expose them for crucifix entries - what strategy breaks this defense?
+**A**: When the opponent hides their arms, they sacrifice base and mobility. Use this to your advantage by threatening the back take more aggressively, forcing them to post a hand to prevent flattening. Alternatively, apply heavy shoulder pressure while walking your hips toward their head, which eventually forces them to extend an arm for balance. The key is creating dilemmas rather than waiting for mistakes.
 
-`Cross Body Ride Top → Transition to Truck → Truck → Twister`
+**Q7**: How do you manage energy expenditure while maintaining dominant cross body control?
+**A**: Efficient control relies on skeletal structure rather than muscular effort. Position your weight through your shoulder and chest bones into their back, keeping your core engaged but relaxed. Avoid gripping excessively - use hooks and wedges instead of death grips. Move only when necessary, letting gravity and bone-on-bone pressure do the work. The opponent should feel crushed while you feel relatively relaxed.
 
-### Mount to submission path
-
-`Cross Body Ride Top → Transition to Mount → Mount → Armbar from Mount`
+**Q8**: What signals indicate the optimal moment to commit to a back take transition?
+**A**: Watch for these triggers: opponent's weight shifts forward as they try to build base, their near arm extends to post or push, they attempt to sit through toward your hooks, or they begin rotating their hips toward you. Any defensive reaction that moves their weight away from the center creates the window. The moment their structure breaks, immediately secure seatbelt and begin hook insertion while they're compromised.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -466,7 +403,7 @@ Start from cross body ride, bottom player given full freedom to escape using any
 - **[[Crucifix from Turtle]]** - Key offensive technique when opponent extends arm
 - **[[Rear Naked Choke]]** - Primary submission after successful back take
 - **[[Bow and Arrow Choke]]** - High-percentage submission from back control transition
-- **[[Back Attack System]]** - Strategic framework incorporating cross body ride as entry point
+- **[[Seat Belt Control Back]]** - Control configuration after securing back position
 
 
 </section>

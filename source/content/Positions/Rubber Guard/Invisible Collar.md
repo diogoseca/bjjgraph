@@ -93,26 +93,20 @@ The invisible collar serves multiple strategic functions within back attack syst
 - Escape to guard or neutral position rather than attempting to reverse to top
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Hand Fighting to Remove Collar Grip]]** → [[Back Control]]
-  - Success Rate: Beginner 25%, Intermediate 35%, Advanced 45%
+- **[[Hand Fighting to Remove Collar Grip]]** (20% of attempts)
 
-- **[[Hip Escape to Guard Recovery]]** → [[Half Guard]]
-  - Success Rate: Beginner 20%, Intermediate 30%, Advanced 40%
+- **[[Hip Escape to Guard Recovery]]** (17% of attempts)
 
-- **[[Elbow Escape to Remove Hooks]]** → [[Turtle]]
-  - Success Rate: Beginner 22%, Intermediate 32%, Advanced 42%
+- **[[Elbow Escape to Remove Hooks]]** (18% of attempts)
 
-- **[[Rolling Escape]]** → [[Open Guard]]
-  - Success Rate: Beginner 15%, Intermediate 25%, Advanced 35%
+- **[[Rolling Escape]]** (15% of attempts)
 
-- **[[Standing Escape]]** → [[Standing Position]]
-  - Success Rate: Beginner 12%, Intermediate 20%, Advanced 30%
+- **[[Standing Escape]]** (13% of attempts)
 
-- **[[Granby Roll Escape]]** → [[Closed Guard]]
-  - Success Rate: Beginner 18%, Intermediate 28%, Advanced 38%
+- **[[Granby Roll Escape]]** (17% of attempts)
 
 
 ### Common Mistakes
@@ -166,32 +160,24 @@ The invisible collar serves multiple strategic functions within back attack syst
 - Transition smoothly between invisible collar and other back attack options to create dilemmas
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Cross Collar Choke Finish]]** → [[Won by Submission]]
-  - Success Rate: Beginner 60%, Intermediate 75%, Advanced 88%
+- **[[Cross Collar Choke Finish]]** (14% of attempts)
 
-- **[[Rear Naked Choke]]** → [[Won by Submission]]
-  - Success Rate: Beginner 55%, Intermediate 70%, Advanced 85%
+- **[[Rear Naked Choke]]** (14% of attempts)
 
-- **[[Armbar from Back with Legs]]** → [[Armbar Control]]
-  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+- **[[Armbar from Back with Legs]]** (12% of attempts)
 
-- **[[Transition to Crucifix]]** → [[Crucifix]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Aoki Lock to Crucifix]]** (11% of attempts)
 
-- **[[Bow and Arrow Choke]]** → [[Won by Submission]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Bow and Arrow Choke]]** (11% of attempts)
 
-- **[[Clock Choke]]** → [[Won by Submission]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Clock Choke]]** (10% of attempts)
 
-- **[[Back Control Maintenance]]** → [[Back Control]]
-  - Success Rate: Beginner 70%, Intermediate 80%, Advanced 90%
+- **[[Back Control Maintenance]]** (15% of attempts)
 
-- **[[Body Triangle Lock]]** → [[Body Triangle]]
-  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 78%
+- **[[Body Triangle Lock]]** (13% of attempts)
 
 
 ### Common Mistakes

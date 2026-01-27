@@ -9,8 +9,6 @@
     "bottom-position",
     "offensive"
   ],
-  "starting_position": "Half Guard",
-  "ending_position": "Side Control",
   "success_rates": {
     "beginner": 40,
     "intermediate": 60,
@@ -291,6 +289,24 @@
     {
       "name": "Dogfight Position",
       "relationship": "Position transition - common intermediate position during half guard sweeps"
+    }
+  ],
+  "from_position": "Half Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Side Control/Top",
+      "probability": 75,
+      "result": "success"
+    },
+    {
+      "to": "Half Guard/Bottom",
+      "probability": 15,
+      "result": "failure"
+    },
+    {
+      "to": "Half Guard/Top",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

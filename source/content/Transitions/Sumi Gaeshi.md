@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Sumi Gaeshi | BJJ Technique | BJJ Graph"
 description: "Master Sumi Gaeshi sacrifice throw in BJJ. Learn proper entry, execution, and sweep mechanics from standing or seated guard. Success: Beginner 30%, Intermediate 50%, Advanced 70%."
@@ -16,7 +17,7 @@ description: "Master Sumi Gaeshi sacrifice throw in BJJ. Learn proper entry, exe
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Sumi Gaeshi in BJJ",
-  "description": "Step-by-step guide for Sumi Gaeshi from Standing Position to Mount.",
+  "description": "Step-by-step guide for Sumi Gaeshi from Standing Position/Top. Possible outcomes: Mount/Top (70%), Standing Position/Top (20%), Standing Position/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -158,11 +159,25 @@ In modern BJJ, Sumi Gaeshi serves multiple strategic purposes: as a direct taked
 
 The beauty of Sumi Gaeshi lies in its versatility across different grip configurations and situations. Whether you're working with collar and sleeve grips in the gi, double underhooks in no-gi, or countering a standing opponent from guard, the core mechanics remain consistent: create an angle, drop your weight, position your lifting leg at their hip or thigh, and execute the circular throwing motion that brings them overhead into a dominant position.
 
-**Starting Position**: [[Standing Position]]
-**Ending Position**: [[Mount]]
+**From Position**: [[Standing Position/Top]]
 **Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Mount/Top]] | 70% |
+| Failure | [[Standing Position/Top]] | 20% |
+| Counter | [[Standing Position/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

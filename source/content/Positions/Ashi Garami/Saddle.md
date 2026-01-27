@@ -97,26 +97,18 @@ Understanding the Saddle requires knowledge of both the offensive and defensive 
 - Address grips systematically before making larger positional adjustments
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Ashi Garami Escape]]** → [[Inside Ashi-Garami]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 50%
+- **[[Ashi Garami Escape]]** (22% of attempts)
 
-- **[[Hip Escape]]** → [[Half Guard]]
-  - Success Rate: Beginner 10%, Intermediate 25%, Advanced 45%
+- **[[Hip Escape]]** (18% of attempts)
 
-- **[[Technical Standup]]** → [[Standing Position]]
-  - Success Rate: Beginner 5%, Intermediate 15%, Advanced 35%
+- **[[Technical Standup]]** (15% of attempts)
 
-- **[[Guard Recovery]]** → [[Open Guard]]
-  - Success Rate: Beginner 12%, Intermediate 28%, Advanced 48%
+- **[[Guard Recovery]]** (20% of attempts)
 
-- **[[Rolling Escape]]** → [[Turtle]]
-  - Success Rate: Beginner 8%, Intermediate 20%, Advanced 40%
-
-- **[[Frame and Shrimp]]** → [[Outside Ashi-Garami]]
-  - Success Rate: Beginner 18%, Intermediate 35%, Advanced 55%
+- **[[Frame and Shrimp]]** (25% of attempts)
 
 
 ### Common Mistakes
@@ -170,32 +162,24 @@ Understanding the Saddle requires knowledge of both the offensive and defensive 
 - Grip sequencing matters—establish structural grips before finishing grips
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Inside Heel Hook]]** → [[Won by Submission]]
-  - Success Rate: Beginner 40%, Intermediate 60%, Advanced 80%
+- **[[Inside Heel Hook]]** (18% of attempts)
 
-- **[[Outside Heel Hook]]** → [[Won by Submission]]
-  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 75%
+- **[[Outside Heel Hook]]** (15% of attempts)
 
-- **[[Straight Ankle Lock]]** → [[Won by Submission]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 70%
+- **[[Straight Ankle Lock]]** (14% of attempts)
 
-- **[[Toe Hold]]** → [[Won by Submission]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 65%
+- **[[Toe Hold]]** (12% of attempts)
 
-- **[[Kneebar]]** → [[Won by Submission]]
-  - Success Rate: Beginner 28%, Intermediate 48%, Advanced 68%
+- **[[Kneebar]]** (11% of attempts)
 
-- **[[Back Take Generic]]** → [[Back Control]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 55%
+- **[[Back Take from Ashi]]** (10% of attempts)
 
-- **[[Position Change]]** → [[Inside Ashi-Garami]]
-  - Success Rate: Beginner 45%, Intermediate 65%, Advanced 85%
+- **[[Position Change]]** (12% of attempts)
 
-- **[[Back Step]]** → [[Outside Ashi-Garami]]
-  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 75%
+- **[[Back Step]]** (8% of attempts)
 
 
 ### Common Mistakes

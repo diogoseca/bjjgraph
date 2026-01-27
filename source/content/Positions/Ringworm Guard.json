@@ -33,325 +33,6 @@
       "relationship": "Shares angular attack concepts and leg hooking mechanics"
     }
   ],
-  "bottom": {
-    "name": "Ringworm Guard Bottom",
-    "description": "Master Ringworm Guard Bottom in BJJ. Advanced lapel guard with powerful sweeps and back takes. Beginner 35%, Intermediate 50%, Advanced 65% sweep success rates.",
-    "tags": [
-      "bjj",
-      "position",
-      "guard",
-      "lapel-guard",
-      "ringworm-guard",
-      "bottom",
-      "advanced",
-      "keenan-cornelius"
-    ],
-    "overview": "Ringworm Guard Bottom is an advanced lapel guard variation that originated from the Worm Guard system popularized by Keenan Cornelius. The position involves threading the opponent's lapel around their leg while maintaining control from bottom guard, creating a powerful control system that limits the top player's mobility and creates numerous sweeping and back-taking opportunities. The name derives from the lapel configuration that wraps around the opponent's leg like a parasite, hence the creative nomenclature consistent with the Worm Guard family.\n\nThis position represents a highly technical approach to lapel-based guard systems, requiring significant coordination and spatial awareness to establish and maintain. The bottom player uses the lapel as an extension of their grips, effectively tying the opponent's leg to their own body while using their free limbs to create off-balancing opportunities. The Ringworm Guard excels at neutralizing standing passes and creating angular attacks, making it particularly effective against aggressive passers who rely on pressure and forward movement.\n\nStrategically, Ringworm Guard Bottom sits within the broader lapel guard ecosystem alongside positions like Worm Guard and Squid Guard, sharing similar principles of lapel manipulation and leg entanglement. It provides a pathway to various high-percentage sweeps, back takes, and triangle attacks while offering strong defensive properties against common guard passing sequences. The position requires gi-specific training and is most effective in IBJJF and gi-based competition formats.",
-    "state_properties": {
-      "point_value": 0,
-      "position_type": "Defensive with offensive options",
-      "risk_level": "Medium",
-      "energy_cost": "Medium",
-      "time_sustainability": "Medium to Long"
-    },
-    "state_invariants": [
-      "Practitioner on their back with opponent's lapel threaded around opponent's leg, creating a lapel wrap that connects the opponent's lower body to the bottom player's control points with the lapel tail secured in the bottom player's grip near their hip or chest",
-      "One or both of practitioner's legs engaging opponent's upper body or hips, typically with hooks, frames, or shin shields, preventing forward pressure while maintaining distance management and creating angles for off-balancing",
-      "Opponent in standing or combat base position with one leg compromised by the lapel wrap, limiting their mobility and base while forcing them to compensate with altered weight distribution and restricted passing options"
-    ],
-    "prerequisites": [
-      "Opponent wearing a gi with accessible lapel",
-      "Ability to establish initial lapel grip and create space to thread the lapel",
-      "Control of at least one of opponent's legs or hips to initiate the wrap",
-      "Understanding of lapel guard principles and grip fighting",
-      "Sufficient space to complete the lapel threading sequence"
-    ],
-    "key_principles": [
-      "Maintain constant tension on the lapel wrap to restrict opponent's leg mobility and prevent them from escaping the configuration",
-      "Use leg frames and hooks to control distance and prevent opponent from establishing dominant grips or crushing forward",
-      "Create angles by moving your hips laterally while keeping the lapel wrap tight, forcing opponent to turn and exposing their back",
-      "Combine lapel control with secondary grips on sleeves, pants, or collar to create multi-directional control systems",
-      "Keep your shoulders off the mat when possible to maintain mobility and prevent being flattened, allowing quick transitions to sweeps or submissions",
-      "Monitor opponent's weight distribution and exploit moments when they commit weight forward or to one side by executing off-balancing attacks",
-      "Be prepared to transition to related lapel guard positions if opponent begins to escape the wrap configuration"
-    ],
-    "offensive_transitions": [
-      {
-        "technique": "Ringworm Sweep to Back Control",
-        "target_position": "Back Control",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 45,
-          "advanced": 60
-        }
-      },
-      {
-        "technique": "Triangle Setup",
-        "target_position": "Triangle Control",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 40,
-          "advanced": 55
-        }
-      },
-      {
-        "technique": "Omoplata to Sweep",
-        "target_position": "Omoplata Control",
-        "success_rates": {
-          "beginner": 20,
-          "intermediate": 35,
-          "advanced": 50
-        }
-      },
-      {
-        "technique": "Lapel Guard Sweeps",
-        "target_position": "Mount",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 50,
-          "advanced": 65
-        }
-      },
-      {
-        "technique": "Berimbolo Entry",
-        "target_position": "Back Control",
-        "success_rates": {
-          "beginner": 15,
-          "intermediate": 30,
-          "advanced": 50
-        }
-      },
-      {
-        "technique": "Transition to Worm Guard",
-        "target_position": "Worm Guard",
-        "success_rates": {
-          "beginner": 45,
-          "intermediate": 60,
-          "advanced": 75
-        }
-      }
-    ],
-    "defensive_responses": [
-      {
-        "technique": "Lapel Grip Break and Posture Recovery",
-        "target_position": "Open Guard",
-        "success_rate": 40
-      },
-      {
-        "technique": "Leg Extraction from Lapel Wrap",
-        "target_position": "Combat Base",
-        "success_rate": 35
-      },
-      {
-        "technique": "Stack Pass with Lapel Control Negation",
-        "target_position": "Side Control",
-        "success_rate": 30
-      },
-      {
-        "technique": "Standing Guard Pass with Distance Creation",
-        "target_position": "Headquarters Position",
-        "success_rate": 25
-      }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Lapel Retention and Re-wrap",
-        "target_position": "Ringworm Guard",
-        "trigger": "Opponent attempts to extract their leg from the lapel wrap"
-      },
-      {
-        "technique": "Switch to Squid Guard Configuration",
-        "target_position": "Squid Guard",
-        "trigger": "Opponent establishes strong crossface or begins successful lapel grip break"
-      },
-      {
-        "technique": "Immediate Back Take from Failed Pass",
-        "target_position": "Back Control",
-        "trigger": "Opponent commits weight forward while attempting to pass around the lapel side"
-      }
-    ],
-    "decision_tree": [
-      {
-        "condition": "If opponent stands upright and attempts to back away from the guard",
-        "actions": [
-          {
-            "technique": "Lapel Guard Sweeps",
-            "target": "Mount",
-            "probability": 55
-          },
-          {
-            "technique": "Ringworm Sweep to Back Control",
-            "target": "Back Control",
-            "probability": 50
-          }
-        ]
-      },
-      {
-        "condition": "If opponent drops into combat base and attempts to control your hips",
-        "actions": [
-          {
-            "technique": "Triangle Setup",
-            "target": "Triangle Control",
-            "probability": 45
-          },
-          {
-            "technique": "Transition to Worm Guard",
-            "target": "Worm Guard",
-            "probability": 60
-          }
-        ]
-      },
-      {
-        "condition": "If opponent establishes strong crossface and begins passing to the side",
-        "actions": [
-          {
-            "technique": "Berimbolo Entry",
-            "target": "Back Control",
-            "probability": 40
-          },
-          {
-            "technique": "Omoplata to Sweep",
-            "target": "Omoplata Control",
-            "probability": 35
-          }
-        ]
-      },
-      {
-        "condition": "If opponent successfully begins to extract their leg from the lapel wrap",
-        "actions": [
-          {
-            "technique": "Lapel Retention and Re-wrap",
-            "target": "Ringworm Guard",
-            "probability": 50
-          },
-          {
-            "technique": "Switch to Squid Guard Configuration",
-            "target": "Squid Guard",
-            "probability": 45
-          }
-        ]
-      }
-    ],
-    "common_errors": [
-      {
-        "error": "Allowing the lapel wrap to become loose or slack during transitions",
-        "consequence": "Opponent can easily extract their leg and escape the position, nullifying all control advantages and leaving practitioner in inferior open guard",
-        "correction": "Maintain constant tension on the lapel tail throughout all movements, actively pulling it tight whenever shifting angles or attempting sweeps, treating the lapel as a primary control point rather than secondary grip"
-      },
-      {
-        "error": "Remaining too flat on the back without creating angles",
-        "consequence": "Opponent can establish strong top pressure and begin smash passing sequences, negating the mobility advantages that make Ringworm Guard effective",
-        "correction": "Continuously move hips laterally and create angles by shifting your body position while maintaining the lapel wrap, staying on your side or shoulder whenever possible to enhance mobility and sweeping mechanics"
-      },
-      {
-        "error": "Failing to control opponent's upper body with leg frames or hooks",
-        "consequence": "Opponent can easily posture up, establish dominant grips, or drive forward into passing positions despite the lapel wrap on their leg",
-        "correction": "Always maintain at least one leg engagement on opponent's upper body or hips, using butterfly hooks, shin shields, or foot frames to manage distance and prevent them from consolidating top pressure"
-      },
-      {
-        "error": "Threading the lapel incorrectly or incompletely around opponent's leg",
-        "consequence": "The lapel configuration provides minimal control and opponent can simply step out of the wrap without resistance",
-        "correction": "Ensure the lapel passes completely around the back of opponent's knee or thigh with sufficient wraps to create friction and control, checking that the configuration is secure before releasing your threading hand"
-      },
-      {
-        "error": "Neglecting grip fighting on opponent's free hand",
-        "consequence": "Opponent establishes strong collar or sleeve grips that facilitate passing sequences and neutralize your sweeping attempts",
-        "correction": "Actively fight for sleeve or wrist control on opponent's free arm using your non-lapel hand, preventing them from establishing the grips they need for effective passing while setting up your offensive attacks"
-      },
-      {
-        "error": "Attempting sweeps without first breaking opponent's base and posture",
-        "consequence": "Sweeping attempts fail because opponent maintains strong defensive structure, wasting energy and potentially allowing them to counter-pass",
-        "correction": "Use the lapel wrap in combination with leg frames to first compromise opponent's balance and posture, waiting for them to react or adjust their base before committing to sweeping motions"
-      }
-    ],
-    "training_drills": [
-      {
-        "name": "Lapel Threading Repetition Drill",
-        "description": "Partner in combat base while you repeatedly practice threading their lapel around their leg from various open guard positions, focusing on speed and efficiency of the threading motion. Work both sides and experiment with different entry angles. Emphasis on muscle memory for the lapel manipulation sequence.",
-        "duration": "5 minutes per side"
-      },
-      {
-        "name": "Ringworm Retention Against Standing Passes",
-        "description": "Partner starts standing and attempts to pass your guard using various methods while you maintain Ringworm configuration and work to recover position whenever the lapel wrap loosens. Focus on constant tension maintenance and using angles to neutralize passing attempts. Partner gradually increases resistance from 50% to 80%.",
-        "duration": "3-minute rounds, 3-5 rounds"
-      },
-      {
-        "name": "Sweep Chain Flow from Ringworm",
-        "description": "With cooperative partner in Ringworm Guard configuration, flow through all available sweeps and transitions without resetting, focusing on smooth transitions between different attacks. Partner provides light resistance and allows successful execution to build movement patterns. Include back takes, triangles, and mount sweeps in the chain.",
-        "duration": "10 minutes continuous flow"
-      }
-    ],
-    "optimal_submission_paths": [
-      {
-        "name": "Shortest path to triangle finish",
-        "path": "Ringworm Guard → Triangle Setup → Triangle Control → Triangle Choke"
-      },
-      {
-        "name": "High-percentage sweep to submission",
-        "path": "Ringworm Guard → Lapel Guard Sweeps → Mount → Armbar from Mount"
-      },
-      {
-        "name": "Back attack sequence",
-        "path": "Ringworm Guard → Ringworm Sweep to Back Control → Back Control → Rear Naked Choke"
-      },
-      {
-        "name": "Alternative triangle path via berimbolo",
-        "path": "Ringworm Guard → Berimbolo Entry → Back Control → Rear Triangle"
-      }
-    ],
-    "related_content": [
-      {
-        "name": "Worm Guard",
-        "relationship": "Parent position in the lapel guard family - shares similar lapel manipulation principles with different leg configuration"
-      },
-      {
-        "name": "Squid Guard",
-        "relationship": "Sister position variation - another Keenan Cornelius lapel guard with related concepts but different wrapping methodology"
-      },
-      {
-        "name": "Lapel Guard",
-        "relationship": "General category - Ringworm is a specific variation of lapel-based guard systems"
-      },
-      {
-        "name": "Spider Guard",
-        "relationship": "Alternative open guard option - shares some distance management principles without lapel dependency"
-      },
-      {
-        "name": "Triangle Control",
-        "relationship": "Common submission transition target - frequently entered from Ringworm configurations"
-      },
-      {
-        "name": "Back Control",
-        "relationship": "Primary sweeping target - most high-percentage finish from Ringworm sweeps leads to back exposure"
-      },
-      {
-        "name": "De La Riva Guard",
-        "relationship": "Position with shared concepts - both use leg hooks and create similar angular attacks, though without lapel dependency"
-      },
-      {
-        "name": "Lasso Guard",
-        "relationship": "Alternative gi-based guard - shares concept of leg control restricting opponent mobility"
-      }
-    ],
-    "position_metrics": {
-      "retention_rate": {
-        "beginner": 40,
-        "intermediate": 60,
-        "advanced": 75
-      },
-      "advancement_probability": {
-        "beginner": 35,
-        "intermediate": 50,
-        "advanced": 65
-      },
-      "submission_probability": {
-        "beginner": 15,
-        "intermediate": 30,
-        "advanced": 45
-      },
-      "average_time": "45-90 seconds before transition or pass"
-    }
-  },
   "top": {
     "name": "Ringworm Guard Top",
     "description": "Master defending against Ringworm Guard in BJJ. Systematic approach to grip breaking, posture recovery, and safe passing. Complete guide for neutralizing lapel-based attacks.",
@@ -392,99 +73,38 @@
       "Stay patient and methodical in your escape sequence, as rushed movements typically lead to sweeps or submissions",
       "Monitor your base constantly and adjust weight distribution to compensate for the restricted leg mobility"
     ],
-    "offensive_transitions": [
+    "knowledge_assessment": [
       {
-        "technique": "Lapel Grip Break and Posture Recovery",
-        "target_position": "Open Guard",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 40,
-          "advanced": 55
-        }
+        "question": "What is the first priority when you find yourself caught in Ringworm Guard?",
+        "answer": "The first priority is breaking the lapel grip before attempting any aggressive passing. The wrap severely limits safe movement options, and attempting to pass while the lapel is still secured typically results in sweeps or back exposure. You must address the grip systematically before progressing to extraction or passing sequences."
       },
       {
-        "technique": "Leg Extraction from Lapel Wrap",
-        "target_position": "Combat Base",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 45,
-          "advanced": 60
-        }
+        "question": "Your opponent starts pulling the lapel tighter and creating an angle - what adjustment should you make?",
+        "answer": "When the opponent tightens the lapel and creates angles, you should immediately address the secondary grips they're establishing with their free hands. Control their grip-fighting hand to prevent them from securing collar or sleeve grips that facilitate sweeps. Simultaneously, work to square your hips and maintain heavy pressure through your free leg to resist the angular off-balancing."
       },
       {
-        "technique": "Stack Pass with Lapel Control Negation",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 20,
-          "intermediate": 35,
-          "advanced": 50
-        }
+        "question": "Why is explosive movement particularly dangerous when trapped in Ringworm Guard?",
+        "answer": "The lapel wrap acts as a lever that converts explosive energy into sweeping momentum. When you make sudden direction changes or explosive movements, the bottom player can redirect that energy using the lapel connection, often resulting in dramatic position reversals. Controlled, methodical movements allow you to maintain base and prevent your own energy from being used against you."
       },
       {
-        "technique": "Standing Guard Pass with Distance Creation",
-        "target_position": "Headquarters Position",
-        "success_rates": {
-          "beginner": 15,
-          "intermediate": 30,
-          "advanced": 45
-        }
+        "question": "What are the essential grips you need to establish for successful extraction?",
+        "answer": "You need both hands committed to the grip-breaking sequence - one hand controlling the lapel tail near the bottom player's grip to prevent re-securing, and the other hand working to peel the lapel away from your leg. Additionally, you should establish a grip on their sleeve or wrist to control their grip-fighting ability while preventing secondary controls."
       },
       {
-        "technique": "Smash Pass Counter",
-        "target_position": "Half Guard",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 40,
-          "advanced": 55
-        }
+        "question": "How should you distribute your weight when the opponent has secure lapel control?",
+        "answer": "Keep your weight distributed primarily through your free leg and maintain a low base with your hips heavy. Avoid committing weight forward over the trapped leg, as this creates ideal sweeping angles. Your center of gravity should stay slightly back to prevent the opponent from loading you for back takes or sweeps while you work the extraction."
       },
       {
-        "technique": "Standing Reset to Open Guard",
-        "target_position": "Standing Guard",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 50,
-          "advanced": 65
-        }
-      }
-    ],
-    "defensive_responses": [
-      {
-        "technique": "Ringworm Sweep to Back Control",
-        "target_position": "Back Control",
-        "success_rate": 50
+        "question": "Your opponent begins a sweeping motion - how do you recover base without getting swept?",
+        "answer": "When the sweep begins, immediately widen your base with your free leg and drop your hips lower rather than trying to step out with the trapped leg. Post with your free hand if necessary, and circle away from the direction of the sweep while simultaneously working to strip the lapel grip. Do not try to pressure forward through the sweep - this accelerates the position loss."
       },
       {
-        "technique": "Triangle Setup from Lapel Control",
-        "target_position": "Triangle Control",
-        "success_rate": 40
+        "question": "What is the strategic trade-off between standing extraction versus ground-based grip breaking?",
+        "answer": "Standing extraction creates distance that makes ground-based attacks harder for the opponent but requires good balance and exposes you to being pulled back down. Ground-based grip breaking keeps you more stable but allows the opponent to continuously work for secondary controls and sweeps. Choose standing when the opponent has multiple control points established; choose ground-based when you have isolated the lapel grip as the only problem."
       },
       {
-        "technique": "Lapel Guard Sweep to Mount",
-        "target_position": "Mount",
-        "success_rate": 45
-      },
-      {
-        "technique": "Berimbolo Entry to Back",
-        "target_position": "Back Control",
-        "success_rate": 35
-      }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Immediate Posture and Grip Strip",
-        "target_position": "Open Guard",
-        "trigger": "Bottom player attempts to tighten lapel wrap or establish secondary grips"
-      },
-      {
-        "technique": "Pressure Pass to Half Guard",
-        "target_position": "Half Guard",
-        "trigger": "Bottom player overcommits to sweeping motion exposing guard structure"
-      },
-      {
-        "technique": "Standing Extraction with Distance",
-        "target_position": "Standing Guard",
-        "trigger": "Bottom player establishes strong lapel control making ground-based extraction difficult"
+        "question": "How do you prevent the opponent from transitioning to your back during the extraction process?",
+        "answer": "Keep your shoulders square and facing the opponent throughout the extraction - never turn your back toward them. Maintain elbow connection to your body to prevent underhooks, and keep your head position neutral or slightly forward. If you feel them loading for a back take, immediately abort the extraction attempt and reset to a squared position before trying again."
       }
     ],
     "decision_tree": [
@@ -598,20 +218,6 @@
         "duration": "10 minutes continuous flow"
       }
     ],
-    "optimal_submission_paths": [
-      {
-        "name": "Safest extraction to side control",
-        "path": "Ringworm Guard Top → Lapel Grip Break → Combat Base → Stack Pass → Side Control"
-      },
-      {
-        "name": "Standing reset to safe passing",
-        "path": "Ringworm Guard Top → Standing Extraction → Standing Guard → Headquarters Position → Guard Pass"
-      },
-      {
-        "name": "Pressure counter to half guard",
-        "path": "Ringworm Guard Top → Stack Pass Counter → Half Guard → Half Guard Pass → Side Control"
-      }
-    ],
     "related_content": [
       {
         "name": "Worm Guard",
@@ -632,14 +238,6 @@
       {
         "name": "Combat Base",
         "relationship": "Intermediate defensive position - common stage in extraction sequence"
-      },
-      {
-        "name": "Stack Pass",
-        "relationship": "Counter-attacking passing option - can neutralize lapel control when executed correctly"
-      },
-      {
-        "name": "Standing Guard",
-        "relationship": "Alternative defensive reset - standing extraction bypasses ground-based grip fighting"
       },
       {
         "name": "Headquarters Position",
@@ -666,6 +264,298 @@
         "description": "Probability of securing submission while escaping position"
       },
       "average_time": "60-120 seconds to extract or get swept"
-    }
+    },
+    "transitions": [
+      {
+        "transition": "Lapel Grip Break and Posture Recovery",
+        "attempt_probability": 17
+      },
+      {
+        "transition": "Leg Extraction from Lapel Wrap",
+        "attempt_probability": 18
+      },
+      {
+        "transition": "Stack Pass with Lapel Control Negation",
+        "attempt_probability": 15
+      },
+      {
+        "transition": "Standing Guard Pass with Distance Creation",
+        "attempt_probability": 14
+      },
+      {
+        "transition": "Smash Pass Counter",
+        "attempt_probability": 17
+      },
+      {
+        "transition": "Standing Reset to Open Guard",
+        "attempt_probability": 19
+      }
+    ]
+  },
+  "bottom": {
+    "name": "Ringworm Guard Bottom",
+    "description": "Master Ringworm Guard Bottom in BJJ. Advanced lapel guard with powerful sweeps and back takes. Beginner 35%, Intermediate 50%, Advanced 65% sweep success rates.",
+    "tags": [
+      "bjj",
+      "position",
+      "guard",
+      "lapel-guard",
+      "ringworm-guard",
+      "bottom",
+      "advanced",
+      "keenan-cornelius"
+    ],
+    "overview": "Ringworm Guard Bottom is an advanced lapel guard variation that originated from the Worm Guard system popularized by Keenan Cornelius. The position involves threading the opponent's lapel around their leg while maintaining control from bottom guard, creating a powerful control system that limits the top player's mobility and creates numerous sweeping and back-taking opportunities. The name derives from the lapel configuration that wraps around the opponent's leg like a parasite, hence the creative nomenclature consistent with the Worm Guard family.\n\nThis position represents a highly technical approach to lapel-based guard systems, requiring significant coordination and spatial awareness to establish and maintain. The bottom player uses the lapel as an extension of their grips, effectively tying the opponent's leg to their own body while using their free limbs to create off-balancing opportunities. The Ringworm Guard excels at neutralizing standing passes and creating angular attacks, making it particularly effective against aggressive passers who rely on pressure and forward movement.\n\nStrategically, Ringworm Guard Bottom sits within the broader lapel guard ecosystem alongside positions like Worm Guard and Squid Guard, sharing similar principles of lapel manipulation and leg entanglement. It provides a pathway to various high-percentage sweeps, back takes, and triangle attacks while offering strong defensive properties against common guard passing sequences. The position requires gi-specific training and is most effective in IBJJF and gi-based competition formats.",
+    "state_properties": {
+      "point_value": 0,
+      "position_type": "Defensive with offensive options",
+      "risk_level": "Medium",
+      "energy_cost": "Medium",
+      "time_sustainability": "Medium to Long"
+    },
+    "state_invariants": [
+      "Practitioner on their back with opponent's lapel threaded around opponent's leg, creating a lapel wrap that connects the opponent's lower body to the bottom player's control points with the lapel tail secured in the bottom player's grip near their hip or chest",
+      "One or both of practitioner's legs engaging opponent's upper body or hips, typically with hooks, frames, or shin shields, preventing forward pressure while maintaining distance management and creating angles for off-balancing",
+      "Opponent in standing or combat base position with one leg compromised by the lapel wrap, limiting their mobility and base while forcing them to compensate with altered weight distribution and restricted passing options"
+    ],
+    "prerequisites": [
+      "Opponent wearing a gi with accessible lapel",
+      "Ability to establish initial lapel grip and create space to thread the lapel",
+      "Control of at least one of opponent's legs or hips to initiate the wrap",
+      "Understanding of lapel guard principles and grip fighting",
+      "Sufficient space to complete the lapel threading sequence"
+    ],
+    "key_principles": [
+      "Maintain constant tension on the lapel wrap to restrict opponent's leg mobility and prevent them from escaping the configuration",
+      "Use leg frames and hooks to control distance and prevent opponent from establishing dominant grips or crushing forward",
+      "Create angles by moving your hips laterally while keeping the lapel wrap tight, forcing opponent to turn and exposing their back",
+      "Combine lapel control with secondary grips on sleeves, pants, or collar to create multi-directional control systems",
+      "Keep your shoulders off the mat when possible to maintain mobility and prevent being flattened, allowing quick transitions to sweeps or submissions",
+      "Monitor opponent's weight distribution and exploit moments when they commit weight forward or to one side by executing off-balancing attacks",
+      "Be prepared to transition to related lapel guard positions if opponent begins to escape the wrap configuration"
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the most critical element for maintaining Ringworm Guard control?",
+        "answer": "Constant tension on the lapel wrap is the most critical element. The lapel must remain tight against the opponent's leg throughout all movements and transitions. Any slack allows the opponent to extract their leg and escape the position. The tension should be maintained by pulling the lapel tail toward your hip or chest while using your legs to control the opponent's upper body."
+      },
+      {
+        "question": "Your opponent starts aggressively trying to strip the lapel grip - how do you respond?",
+        "answer": "When the opponent attacks the lapel grip, immediately create an angle by hip escaping away from them while maintaining tension on the wrap. This makes their grip-breaking leverage less effective. Simultaneously, use your free hand to control their grip-fighting wrist or sleeve, preventing them from getting both hands on the lapel. If they persist, transition to a sweep or back take while they're focused on the grip."
+      },
+      {
+        "question": "What are the essential secondary grips that complement the lapel wrap?",
+        "answer": "The primary secondary grips are sleeve control on the opponent's far arm to prevent posting during sweeps, and collar grip to assist with posture breaking and angle creation. Pants grip at the knee on the non-wrapped leg can also control their base. These secondary grips create a multi-point control system that prevents escape and sets up offensive attacks."
+      },
+      {
+        "question": "How should you position your hips to maintain the guard effectively?",
+        "answer": "Your hips should be angled approximately 30-45 degrees off-center, not flat on the mat. This angle creates sweeping leverage and makes it harder for the opponent to drive forward into a smash pass. Keep your hips mobile and ready to shift further to either side based on the opponent's movements. Staying on your side or shoulder maintains mobility and offensive capability."
+      },
+      {
+        "question": "Your opponent begins standing up to create distance - what adjustment do you make?",
+        "answer": "When the opponent stands, immediately extend your hips upward and outward while maintaining the lapel tension. Use your leg frames to follow their elevation by placing feet on hips or a butterfly hook to control distance. The standing position actually creates sweeping opportunities - their base is narrower and the lapel wrap becomes even more restrictive. Prepare to attack with sweeps that capitalize on their elevated center of gravity."
+      },
+      {
+        "question": "How do you prevent being flattened when the opponent drives pressure forward?",
+        "answer": "Use leg frames aggressively - shin shields against their hips and butterfly hooks under their thighs create space and prevent forward pressure. Your free leg should always be working to frame, never passive. Additionally, maintain shoulder elevation by staying on your side rather than flat on your back. If they begin flattening you, immediately hip escape to recreate the angle before they consolidate."
+      },
+      {
+        "question": "What energy management strategy keeps you effective during extended guard retention?",
+        "answer": "Let the lapel wrap do the work rather than constantly muscling for control. The mechanical advantage of the wrap means minimal grip strength is needed once properly threaded. Use efficient hip movement and leg frames rather than constant pulling. When the opponent rests, you rest - match their energy output rather than burning yourself out with constant movement. Save explosive effort for the actual sweep or submission attempts."
+      },
+      {
+        "question": "If you feel the opponent beginning to extract their leg from the wrap, how do you recover?",
+        "answer": "Immediately retighten the wrap by pulling the lapel tail while using your legs to re-engage their body and disrupt their extraction motion. If the wrap is coming loose, consider transitioning to Squid Guard or Worm Guard before losing control completely - better to have a related lapel position than no control at all. You can also attempt an immediate sweep or back take while they're focused on extraction rather than defense."
+      }
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent stands upright and attempts to back away from the guard",
+        "actions": [
+          {
+            "technique": "Lapel Guard Sweeps",
+            "target": "Mount",
+            "probability": 55
+          },
+          {
+            "technique": "Ringworm Sweep to Back Control",
+            "target": "Back Control",
+            "probability": 50
+          }
+        ]
+      },
+      {
+        "condition": "If opponent drops into combat base and attempts to control your hips",
+        "actions": [
+          {
+            "technique": "Triangle Setup",
+            "target": "Triangle Control",
+            "probability": 45
+          },
+          {
+            "technique": "Ringworm Guard to Worm Guard",
+            "target": "Worm Guard",
+            "probability": 60
+          }
+        ]
+      },
+      {
+        "condition": "If opponent establishes strong crossface and begins passing to the side",
+        "actions": [
+          {
+            "technique": "Berimbolo Entry",
+            "target": "Back Control",
+            "probability": 40
+          },
+          {
+            "technique": "Omoplata to Sweep",
+            "target": "Omoplata Control",
+            "probability": 35
+          }
+        ]
+      },
+      {
+        "condition": "If opponent successfully begins to extract their leg from the lapel wrap",
+        "actions": [
+          {
+            "technique": "Lapel Retention and Re-wrap",
+            "target": "Ringworm Guard",
+            "probability": 50
+          },
+          {
+            "technique": "Switch to Squid Guard Configuration",
+            "target": "Squid Guard",
+            "probability": 45
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Allowing the lapel wrap to become loose or slack during transitions",
+        "consequence": "Opponent can easily extract their leg and escape the position, nullifying all control advantages and leaving practitioner in inferior open guard",
+        "correction": "Maintain constant tension on the lapel tail throughout all movements, actively pulling it tight whenever shifting angles or attempting sweeps, treating the lapel as a primary control point rather than secondary grip"
+      },
+      {
+        "error": "Remaining too flat on the back without creating angles",
+        "consequence": "Opponent can establish strong top pressure and begin smash passing sequences, negating the mobility advantages that make Ringworm Guard effective",
+        "correction": "Continuously move hips laterally and create angles by shifting your body position while maintaining the lapel wrap, staying on your side or shoulder whenever possible to enhance mobility and sweeping mechanics"
+      },
+      {
+        "error": "Failing to control opponent's upper body with leg frames or hooks",
+        "consequence": "Opponent can easily posture up, establish dominant grips, or drive forward into passing positions despite the lapel wrap on their leg",
+        "correction": "Always maintain at least one leg engagement on opponent's upper body or hips, using butterfly hooks, shin shields, or foot frames to manage distance and prevent them from consolidating top pressure"
+      },
+      {
+        "error": "Threading the lapel incorrectly or incompletely around opponent's leg",
+        "consequence": "The lapel configuration provides minimal control and opponent can simply step out of the wrap without resistance",
+        "correction": "Ensure the lapel passes completely around the back of opponent's knee or thigh with sufficient wraps to create friction and control, checking that the configuration is secure before releasing your threading hand"
+      },
+      {
+        "error": "Neglecting grip fighting on opponent's free hand",
+        "consequence": "Opponent establishes strong collar or sleeve grips that facilitate passing sequences and neutralize your sweeping attempts",
+        "correction": "Actively fight for sleeve or wrist control on opponent's free arm using your non-lapel hand, preventing them from establishing the grips they need for effective passing while setting up your offensive attacks"
+      },
+      {
+        "error": "Attempting sweeps without first breaking opponent's base and posture",
+        "consequence": "Sweeping attempts fail because opponent maintains strong defensive structure, wasting energy and potentially allowing them to counter-pass",
+        "correction": "Use the lapel wrap in combination with leg frames to first compromise opponent's balance and posture, waiting for them to react or adjust their base before committing to sweeping motions"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Lapel Threading Repetition Drill",
+        "description": "Partner in combat base while you repeatedly practice threading their lapel around their leg from various open guard positions, focusing on speed and efficiency of the threading motion. Work both sides and experiment with different entry angles. Emphasis on muscle memory for the lapel manipulation sequence.",
+        "duration": "5 minutes per side"
+      },
+      {
+        "name": "Ringworm Retention Against Standing Passes",
+        "description": "Partner starts standing and attempts to pass your guard using various methods while you maintain Ringworm configuration and work to recover position whenever the lapel wrap loosens. Focus on constant tension maintenance and using angles to neutralize passing attempts. Partner gradually increases resistance from 50% to 80%.",
+        "duration": "3-minute rounds, 3-5 rounds"
+      },
+      {
+        "name": "Sweep Chain Flow from Ringworm",
+        "description": "With cooperative partner in Ringworm Guard configuration, flow through all available sweeps and transitions without resetting, focusing on smooth transitions between different attacks. Partner provides light resistance and allows successful execution to build movement patterns. Include back takes, triangles, and mount sweeps in the chain.",
+        "duration": "10 minutes continuous flow"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Worm Guard",
+        "relationship": "Parent position in the lapel guard family - shares similar lapel manipulation principles with different leg configuration"
+      },
+      {
+        "name": "Squid Guard",
+        "relationship": "Sister position variation - another Keenan Cornelius lapel guard with related concepts but different wrapping methodology"
+      },
+      {
+        "name": "Lapel Guard",
+        "relationship": "General category - Ringworm is a specific variation of lapel-based guard systems"
+      },
+      {
+        "name": "Spider Guard",
+        "relationship": "Alternative open guard option - shares some distance management principles without lapel dependency"
+      },
+      {
+        "name": "Triangle Control",
+        "relationship": "Common submission transition target - frequently entered from Ringworm configurations"
+      },
+      {
+        "name": "Back Control",
+        "relationship": "Primary sweeping target - most high-percentage finish from Ringworm sweeps leads to back exposure"
+      },
+      {
+        "name": "De La Riva Guard",
+        "relationship": "Position with shared concepts - both use leg hooks and create similar angular attacks, though without lapel dependency"
+      },
+      {
+        "name": "Lasso Guard",
+        "relationship": "Alternative gi-based guard - shares concept of leg control restricting opponent mobility"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "beginner": 40,
+        "intermediate": 60,
+        "advanced": 75
+      },
+      "advancement_probability": {
+        "beginner": 35,
+        "intermediate": 50,
+        "advanced": 65
+      },
+      "submission_probability": {
+        "beginner": 15,
+        "intermediate": 30,
+        "advanced": 45
+      },
+      "average_time": "45-90 seconds before transition or pass"
+    },
+    "transitions": [
+      {
+        "transition": "Ringworm Sweep to Back Control",
+        "attempt_probability": 17
+      },
+      {
+        "transition": "Triangle Setup",
+        "attempt_probability": 15
+      },
+      {
+        "transition": "Omoplata to Sweep",
+        "attempt_probability": 14
+      },
+      {
+        "transition": "Lapel Guard Sweeps",
+        "attempt_probability": 18
+      },
+      {
+        "transition": "Berimbolo Entry",
+        "attempt_probability": 14
+      },
+      {
+        "transition": "Ringworm Guard to Worm Guard",
+        "attempt_probability": 22
+      }
+    ]
   }
 }

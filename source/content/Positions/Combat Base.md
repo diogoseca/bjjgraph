@@ -21,49 +21,49 @@ description: "Master Combat Base in BJJ. Essential neutral position for guard pa
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, execute Knee Slice Pass to transition to Side Control. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 20% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Toreando Pass",
-      "text": "From this position, execute Toreando Pass to transition to Side Control. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Toreando Pass. This technique is attempted in 18% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Long Step Pass",
-      "text": "From this position, execute Long Step Pass to transition to Side Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Long Step Pass. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Double Under Pass",
-      "text": "From this position, execute Double Under Pass to transition to Side Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Double Under Pass. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Knee Cut Pass",
-      "text": "From this position, execute Knee Cut Pass to transition to Side Control. Success rate for advanced practitioners: 70%.",
+      "name": "Execute Leg Drag Pass",
+      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 15% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Leg Drag Pass",
-      "text": "From this position, execute Leg Drag Pass to transition to Leg Drag Position. Success rate for advanced practitioners: 65%.",
+      "name": "Execute Headquarters Pass",
+      "text": "From this position, attempt Headquarters Pass. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Headquarters Pass",
-      "text": "From this position, execute Headquarters Pass to transition to Headquarters Position. Success rate for advanced practitioners: 60%.",
+      "name": "Execute Smash Pass",
+      "text": "From this position, attempt Smash Pass. This technique is attempted in 10% of exchanges from this position.",
       "position": 7
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Smash Pass",
-      "text": "From this position, execute Smash Pass to transition to Side Control. Success rate for advanced practitioners: 65%.",
+      "name": "Execute Stack Pass",
+      "text": "From this position, attempt Stack Pass. This technique is attempted in 5% of exchanges from this position.",
       "position": 8
     }
   ],
@@ -234,95 +234,22 @@ Mastery of Combat Base is essential for all guard passing systems, as it forms t
 
 ## Available Techniques and Transitions
 
-### [[Knee Slice Pass]] → [[Side Control]]
+### [[Knee Slice Pass]] (20% of attempts)
 
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 60%
-- Advanced: 75%
+### [[Toreando Pass]] (18% of attempts)
 
-### [[Toreando Pass]] → [[Side Control]]
+### [[Long Step Pass]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Double Under Pass]] (10% of attempts)
 
-### [[Long Step Pass]] → [[Side Control]]
+### [[Leg Drag Pass]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Headquarters Pass]] (10% of attempts)
 
-### [[Double Under Pass]] → [[Side Control]]
+### [[Smash Pass]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Stack Pass]] (5% of attempts)
 
-### [[Knee Cut Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
-
-### [[Leg Drag Pass]] → [[Leg Drag Position]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-### [[Headquarters Pass]] → [[Headquarters Position]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[Smash Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Defensive Counters
-
-- **[[De La Riva Guard Entry]]** → [[De La Riva Guard]] (Success: 40%)
-- **[[X-Guard Entry]]** → [[X-Guard]] (Success: 35%)
-- **[[Single Leg X Entry]]** → [[Single Leg X-Guard]] (Success: 35%)
-- **[[Butterfly Hook Retention]]** → [[Butterfly Guard]] (Success: 40%)
-- **[[Reverse De La Riva Recovery]]** → [[Reverse De La Riva Guard]] (Success: 30%)
-- **[[Spider Guard Retention]]** → [[Spider Guard]] (Success: 35%)
-- **[[Lasso Guard Variations]]** → [[Lasso Guard]] (Success: 30%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter Techniques
-
-- **[[Knee Slice Pass]]** → [[Side Control]]
-  - Opponent attempts to re-establish closed guard or frames against chest with feet on hips
-- **[[Leg Drag Pass]]** → [[Leg Drag Position]]
-  - Opponent extends legs for distance creation or attempts to establish De La Riva hook on posted leg
-- **[[Toreando Pass]]** → [[Side Control]]
-  - Opponent elevates hips for sweep attempt or creates excessive space between bodies
-- **[[Stack Pass]]** → [[Side Control]]
-  - Opponent pulls knees to chest in defensive turtle position or inverts
-- **[[Over-Under Pass]]** → [[Side Control]]
-  - Opponent attempts to create frames with legs extended and feet on hips
 
 
 </section>
@@ -333,26 +260,26 @@ Mastery of Combat Base is essential for all guard passing systems, as it forms t
 
 **If opponent maintains open guard with feet on hips and active frames preventing forward movement:**
 - Execute **[[Toreando Pass]]** → [[Side Control]] (Probability: 55%)
-- Execute **[[Leg Drag Pass]]** → [[Leg Drag Position]] (Probability: 50%)
+- Execute **[[Leg Drag Pass]]** → [[Leg Drag Position]] (Probability: 45%)
 
 
 **If opponent attempts to close guard or establish butterfly hooks on posted knee:**
-- Execute **[[Knee Slice Pass]]** → [[Side Control]] (Probability: 60%)
-- Execute **[[Smash Pass]]** → [[Side Control]] (Probability: 50%)
+- Execute **[[Knee Slice Pass]]** → [[Side Control]] (Probability: 55%)
+- Execute **[[Smash Pass]]** → [[Side Control]] (Probability: 45%)
 
 
 **If opponent establishes De La Riva or X-Guard hooks on posted leg:**
-- Execute **[[Leg Drag Pass]]** → [[Leg Drag Position]] (Probability: 50%)
+- Execute **[[Leg Drag Pass]]** → [[Leg Drag Position]] (Probability: 55%)
 - Execute **[[Headquarters Pass]]** → [[Headquarters Position]] (Probability: 45%)
 
 
 **If opponent creates distance and extends legs defensively with feet pushing hips:**
-- Execute **[[Long Step Pass]]** → [[Side Control]] (Probability: 50%)
+- Execute **[[Long Step Pass]]** → [[Side Control]] (Probability: 45%)
 - Execute **[[Toreando Pass]]** → [[Side Control]] (Probability: 55%)
 
 
 **If opponent pulls knees to chest in defensive posture or inverts:**
-- Execute **[[Double Under Pass]]** → [[Side Control]] (Probability: 45%)
+- Execute **[[Double Under Pass]]** → [[Side Control]] (Probability: 50%)
 - Execute **[[Stack Pass]]** → [[Side Control]] (Probability: 50%)
 
 
@@ -446,34 +373,6 @@ From combat base, use planted foot to circle around opponent's guard, creating n
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
-
-## Optimal Paths from This Position
-
-### Shortest path to submission
-
-`Combat Base → Toreando Pass → Side Control → Kimura`
-
-### High-percentage control path
-
-`Combat Base → Knee Slice Pass → Side Control → Mount → Armbar from Mount`
-
-### Pressure-based submission path
-
-`Combat Base → Smash Pass → Side Control → North-South → North-South Choke`
-
-### Back attack path
-
-`Combat Base → Long Step Pass → Side Control → Back Control → Rear Naked Choke`
-
-### Leg entanglement path
-
-`Combat Base → Headquarters Pass → Headquarters Position → Saddle → Heel Hook`
-
-
-
-</section>
-
 <section id="position-metrics" class="content-section">
 
 ## Success Rates and Statistics
@@ -499,12 +398,12 @@ From combat base, use planted foot to circle around opponent's guard, creating n
 - **[[Headquarters Position]]** - Advanced variation - Deeper knee position with similar passing principles
 - **[[Toreando Pass]]** - Primary transition technique - Most common dynamic pass from combat base
 - **[[Knee Slice Pass]]** - Primary transition technique - High-percentage pressure pass from combat base
-- **[[Guard Passing]]** - Foundational concept - Core principles applied in combat base positioning
-- **[[Base Maintenance]]** - Core principle - Essential for maintaining combat base integrity against sweeps
-- **[[Posture Up]]** - Core principle - Critical for effective combat base structure and submission defense
-- **[[Pressure Passing]]** - System concept - Combat base serves as platform for pressure passing sequences
 - **[[De La Riva Guard]]** - Counter position - Common guard retention response to combat base
 - **[[Leg Drag Position]]** - Transition target - Alternative passing position from combat base against hooks
+- **[[X-Guard]]** - Counter position - Opponent's elevation-based guard option against combat base
+- **[[Butterfly Guard]]** - Counter position - Opponent's hook-based guard for off-balancing combat base
+- **[[Half Guard]]** - Common destination - Position often reached when passes are partially defended
+- **[[Knee on Belly]]** - Alternative target - High-control position accessible from combat base passing
 
 
 </section>

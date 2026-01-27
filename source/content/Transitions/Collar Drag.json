@@ -12,8 +12,6 @@
     "no-gi",
     "wrestling"
   ],
-  "starting_position": "Standing Position",
-  "ending_position": "Back Control",
   "success_rates": {
     "beginner": 35,
     "intermediate": 50,
@@ -268,13 +266,23 @@
       "name": "Back Control",
       "relationship": "Primary finish - target position after successful execution"
     },
+  ],
+  "from_position": "Standing Position/Top",
+  "outcomes": [
     {
-      "name": "Collar Ties",
-      "relationship": "Setup position - grip fighting context where collar drag opportunities arise"
+      "to": "Back Control/Top",
+      "probability": 65,
+      "result": "success"
     },
     {
-      "name": "Underhook Control",
-      "relationship": "Related control - alternative clinch control that can transition to collar drag"
+      "to": "Standing Position/Top",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Standing Position/Bottom",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

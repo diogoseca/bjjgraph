@@ -89,32 +89,24 @@ Lockdown is 10th Planet's revolutionary half guard variation that transforms tra
 - Coordinate lockdown extensions with upper body movements to multiply off-balancing effects
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Whip-up Sweep]]** → [[Dogfight Position]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Whip-up Sweep]]** (13% of attempts)
 
-- **[[Old School Sweep]]** → [[Mount]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Old School Sweep]]** (15% of attempts)
 
-- **[[Electric Chair Submission]]** → [[Electric Chair]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 60%
+- **[[Electric Chair Submission]]** (12% of attempts)
 
-- **[[Lockdown Sweeps]]** → [[Side Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Lockdown Sweeps]]** (12% of attempts)
 
-- **[[Rolling Back Take]]** → [[Back Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Rolling Back Take]]** (11% of attempts)
 
-- **[[Transition to Truck]]** → [[Truck]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Turtle to Truck]]** (12% of attempts)
 
-- **[[Deep Half Entry]]** → [[Deep Half Guard]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Deep Half Entry]]** (13% of attempts)
 
-- **[[Kimura from Half Guard]]** → [[Kimura Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Kimura from Half Guard]]** (12% of attempts)
 
 
 ### Common Mistakes
@@ -172,26 +164,20 @@ Lockdown is 10th Planet's revolutionary half guard variation that transforms tra
 - Transition immediately to passing sequences once leg is freed from lockdown
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Half Guard Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Half Guard Pass]]** (16% of attempts)
 
-- **[[Knee Slice from Half]]** → [[Side Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Knee Slice from Half]]** (17% of attempts)
 
-- **[[Smash Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Smash Pass]]** (14% of attempts)
 
-- **[[Underhook Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Underhook Pass]]** (16% of attempts)
 
-- **[[Crossface Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Crossface Pass]]** (17% of attempts)
 
-- **[[Leg Extraction to Combat Base]]** → [[Combat Base]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Leg Extraction to Combat Base]]** (20% of attempts)
 
 
 ### Common Mistakes

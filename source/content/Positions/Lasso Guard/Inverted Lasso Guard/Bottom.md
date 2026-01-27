@@ -21,37 +21,37 @@ description: "Master bottom inverted lasso guard mechanics. Complete guide to in
     {
       "@type": "HowToStep",
       "name": "Execute Berimbolo Entry",
-      "text": "From this position, execute Berimbolo Entry to transition to Back Control. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Berimbolo Entry. This technique is attempted in 12% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Bump Sweep V2",
-      "text": "From this position, execute Hip Bump Sweep V2 to transition to Mount. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Hip Bump Sweep V2. This technique is attempted in 11% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kiss of the Dragon",
-      "text": "From this position, execute Kiss of the Dragon to transition to Back Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Kiss of the Dragon. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Setup",
-      "text": "From this position, execute Triangle Setup to transition to Triangle Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Triangle Setup. This technique is attempted in 9% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Omoplata Sweep",
-      "text": "From this position, execute Omoplata Sweep to transition to Omoplata Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Lasso Guard Sweeps",
-      "text": "From this position, execute Lasso Guard Sweeps to transition to Side Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Lasso Guard Sweeps. This technique is attempted in 9% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -215,105 +215,26 @@ Successful inverted lasso guard bottom requires understanding that inversion is 
 
 ## Available Escapes
 
-### [[Berimbolo Entry]] → [[Back Control]]
+### [[Berimbolo Entry]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 45%
-- Advanced: 70%
+### [[Hip Bump Sweep V2]] (11% of attempts)
 
-### [[Hip Bump Sweep V2]] → [[Mount]]
+### [[Kiss of the Dragon]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 55%
-- Advanced: 75%
+### [[Triangle Setup]] (9% of attempts)
 
-### [[Kiss of the Dragon]] → [[Back Control]]
+### [[Omoplata Sweep]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 40%
-- Advanced: 65%
+### [[Lasso Guard Sweeps]] (9% of attempts)
 
-### [[Triangle Setup]] → [[Triangle Control]]
+### [[Single Leg X Entry]] (11% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 45%
-- Advanced: 60%
+### [[De La Riva Sweep]] (9% of attempts)
 
-### [[Omoplata Sweep]] → [[Omoplata Control]]
+### [[Armbar from Guard]] (8% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Lasso Guard Variations]] (11% of attempts)
 
-### [[Lasso Guard Sweeps]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[Single Leg X Entry]] → [[Single Leg X-Guard]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 70%
-
-### [[De La Riva Sweep]] → [[Mount]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 40%
-- Advanced: 60%
-
-### [[Armbar from Guard]] → [[Armbar Control]]
-
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 35%
-- Advanced: 55%
-
-### [[Lasso Guard Variations]] → [[Lasso Guard]]
-
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 60%
-- Advanced: 75%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Lasso Guard Pass]]** → [[Side Control]] (Opponent Success: 45%)
-- **[[Arm Extraction]]** → [[Open Guard]] (Opponent Success: 40%)
-- **[[Stack Pass]]** → [[Side Control]] (Opponent Success: 35%)
-- **[[Sprawl Defense]]** → [[Standing Position]] (Opponent Success: 30%)
-- **[[Cartwheel Pass]]** → [[Side Control]] (Opponent Success: 25%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Berimbolo Entry]]** → [[Back Control]]
-  - Opponent posts hand to prevent sweep, exposing back
-- **[[Kiss of the Dragon]]** → [[Back Control]]
-  - Opponent drives forward aggressively to smash guard
-- **[[Omoplata Sweep]]** → [[Omoplata Control]]
-  - Opponent pulls arm back to extract from lasso
-- **[[Single Leg X Entry]]** → [[Single Leg X-Guard]]
-  - Opponent stands to create distance and break grips
 
 
 </section>
@@ -425,29 +346,39 @@ Bottom player alternates between upright lasso guard and inverted lasso continuo
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Inverted Lasso to Back Triangle
+## Test Your Knowledge
 
-`Inverted Lasso Guard Bottom → Berimbolo Entry → Back Control → Triangle from Back → Won by Submission`
+**Q1**: What is the fundamental mechanical advantage that inversion creates compared to standard lasso guard?
+**A**: Inversion creates a fulcrum effect where the lasso hook becomes dramatically more powerful because the entire body weight now pulls downward on the opponent's arm rather than relying solely on leg strength. The inverted position changes the vector of force completely - where standard lasso generates horizontal pulling, inverted lasso generates rotational momentum that compounds with the hook's leverage. This geometric advantage makes sweeps highly probable even against larger opponents because you're using body mass and angular momentum rather than isolated limb strength.
 
-### Overhead Triangle Chain
+**Q2**: Why must weight be distributed across the shoulders and upper back rather than the neck during inversion?
+**A**: Placing weight on the neck creates dangerous cervical spine pressure that risks serious injury and completely eliminates the hip mobility necessary for sweep mechanics and berimbolo entries. The shoulders and upper back provide a broad, stable base that can support inverted positioning safely while allowing rapid hip rotation and movement. Rolling weight onto the shoulder blades with chin tucked to chest distributes force across a wider surface area and maintains the structural integrity needed for offensive techniques.
 
-`Inverted Lasso Guard Bottom → Triangle Setup → Triangle Control → Triangle Choke → Won by Submission`
+**Q3**: Your opponent begins extracting their lassoed arm by pulling backward. What immediate counter should you execute?
+**A**: When the opponent pulls their arm back to extract from the lasso, immediately transition to an omoplata sweep by rotating your hips and bringing the lassoed leg over their shoulder while maintaining sleeve control. Their arm retraction motion actually assists your shoulder lock entry - they're pulling their arm deeper into the omoplata position. Alternatively, if the arm extraction creates enough slack, use that moment to transition to a triangle setup by bringing your free leg over their neck before they complete the extraction.
 
-### Omoplata Shoulder Lock Sequence
+**Q4**: What determines the optimal timing for initiating the inversion from upright lasso guard?
+**A**: The optimal timing occurs when the opponent's weight is not heavily committed forward onto your chest and they are in upright posture with at least one arm extended toward you. The inversion requires space and momentum to roll backwards onto the shoulders - if the opponent is already driving forward with heavy chest pressure, the roll becomes blocked and you end up pinned. Watch for moments when they attempt to establish base, adjust their grips, or create distance - these are windows where their pressure is reduced and the inversion can be initiated smoothly.
 
-`Inverted Lasso Guard Bottom → Omoplata Sweep → Omoplata Control → Omoplata → Won by Submission`
+**Q5**: Why is the inverted lasso described as a transitional position rather than a holding position?
+**A**: The inverted position drains energy rapidly because you're supporting weight on your shoulders while maintaining elevated hips and constant lasso tension. Extended time inverted allows opponents to establish counter-grips, apply pressure to your inverted structure, and adapt to your limited positional options. The position's power comes from the angles it creates for immediate technique execution - berimbolo, sweep, or back take. Maximum inverted time should be 2-3 seconds before completing a technique or returning to upright guard where energy expenditure is lower and offensive options are broader.
 
-### Sweep to Mount Armbar
+**Q6**: What role does the free leg (non-lasso leg) play in the inverted lasso guard system?
+**A**: The free leg is your primary offensive tool and distance control mechanism. It posts on the opponent's hip to control their base and prevent them from stepping around to pass. For berimbolo entries, the free leg threads behind the opponent's back to initiate the rotation that leads to back control. For overhead sweeps, the free leg assists in elevating and directing the opponent's momentum. Failing to keep the free leg active eliminates berimbolo entries, reduces sweep angles and effectiveness, and allows the opponent to step around your guard unopposed.
 
-`Inverted Lasso Guard Bottom → Hip Bump Sweep V2 → Mount → Armbar from Mount → Won by Submission`
+**Q7**: How should you connect your sleeve grip to your body movement rather than using isolated arm strength?
+**A**: The sleeve grip should function as a fixed connection point that transmits force from your entire body rotation rather than generating force through isolated arm pulling. When you rotate your hips for a berimbolo or sweep, the sleeve grip maintains the connection while your body's angular momentum generates the off-balancing force. Think of the grip as a steering wheel that directs energy rather than a pulling mechanism. This integration means your grips don't fail under pressure because they're not bearing the load directly - your hip movement and body weight create the force while grips maintain the connection.
+
+**Q8**: What should you do if the opponent successfully pins your inverted hips to the mat with their weight?
+**A**: When your hips become pinned and immobile, you must immediately recognize that the inverted position has failed and return to upright guard before the opponent consolidates for a pass. Do not continue fighting from a pinned inversion - this drains energy and creates easy passing opportunities. Adjust your angle to create space or use your grips to pull yourself back to seated guard while maintaining the lasso hook if possible. If the lasso is compromised, transition to another guard system rather than accepting a pinned position. The key is recognizing when the inversion's offensive potential is neutralized and adapting before position deteriorates further.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 

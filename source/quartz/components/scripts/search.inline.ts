@@ -496,29 +496,12 @@ async function fillDocument(data: { [key: FullSlug]: ContentDetails }) {
 }
 
 // Roll functionality - navigate to random position
-async function handleRoll() {
-  const baseUrl = document.documentElement.dataset.baseUrl ?? ""
+// Uses build-time injected window.__rollPositions (no runtime fetch needed)
+function handleRoll() {
+  const positions = (window as any).__rollPositions as Array<{ s: string; n: string }> | undefined
+  if (!positions || positions.length === 0) return
 
-  // Fetch state graph
-  let stateGraph: any
-  try {
-    const response = await fetch(`${baseUrl}/static/stateGraph.json`)
-    stateGraph = await response.json()
-  } catch (e) {
-    console.warn("Could not load state graph for roll")
-    return
-  }
-
-  // Get all position pages (those with /top or /bottom in the slug)
-  const rolePages = Object.keys(stateGraph.positions).filter(
-    (slug) => slug.includes("/top") || slug.includes("/bottom"),
-  )
-
-  if (rolePages.length === 0) return
-
-  const randomSlug = rolePages[Math.floor(Math.random() * rolePages.length)]
-  const positionData = stateGraph.positions[randomSlug]
-  const positionName = positionData?.name || "Unknown Position"
+  const position = positions[Math.floor(Math.random() * positions.length)]
 
   // Clear any existing journey to start fresh
   localStorage.setItem("bjj-journey", "[]")
@@ -528,30 +511,12 @@ async function handleRoll() {
     "snackbar",
     JSON.stringify({
       type: "info",
-      message: `Roll started in ${positionName}`,
+      message: `Roll started in ${position.n}`,
     }),
   )
 
-  // Build URL using path from stateGraph (handles nested positions correctly)
-  // Path format: "Twister Control/Truck/Top" → "/Positions/Twister-Control/Truck/Top"
-  let targetUrl: string
-  if (positionData?.path) {
-    // Convert path to URL format: spaces to hyphens, keep slashes
-    const urlPath = positionData.path.replace(/\s+/g, "-")
-    targetUrl = `/Positions/${urlPath}`
-  } else {
-    // Fallback: convert slug like "mount/top" to "/Positions/Mount/Top"
-    const pathParts = randomSlug.split("/")
-    const formattedParts = pathParts.map((part: string) =>
-      part
-        .split("-")
-        .map((w: string) => w.charAt(0).toUpperCase() + w.slice(1))
-        .join("-"),
-    )
-    targetUrl = `/Positions/${formattedParts.join("/")}`
-  }
-
-  window.spaNavigate(new URL(targetUrl, window.location.toString()), false)
+  // Slug is the URL path (e.g. "Positions/Mount/Top" → "/Positions/Mount/Top")
+  window.spaNavigate(new URL(`/${position.s}`, window.location.toString()), false)
 }
 
 // Attach to roll triggers
@@ -568,6 +533,24 @@ function attachRollTriggers() {
   })
 }
 
+// Wire landing page search trigger to open Quartz search overlay
+function attachSearchTriggers() {
+  document.querySelectorAll(".search-trigger").forEach((trigger) => {
+    if (trigger.hasAttribute("data-search-attached")) return
+    trigger.setAttribute("data-search-attached", "true")
+    trigger.addEventListener("click", () => {
+      const searchButton = document.getElementById("search-button")
+      if (searchButton) searchButton.click()
+    })
+  })
+}
+
 // Run on initial load and on SPA navigation
-document.addEventListener("nav", attachRollTriggers)
-window.addEventListener("DOMContentLoaded", attachRollTriggers)
+document.addEventListener("nav", () => {
+  attachRollTriggers()
+  attachSearchTriggers()
+})
+window.addEventListener("DOMContentLoaded", () => {
+  attachRollTriggers()
+  attachSearchTriggers()
+})

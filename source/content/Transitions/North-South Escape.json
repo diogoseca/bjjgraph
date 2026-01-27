@@ -10,8 +10,6 @@
     "guard-recovery",
     "bottom-position"
   ],
-  "starting_position": "North-South",
-  "ending_position": "Guard Recovery",
   "success_rates": {
     "beginner": 30,
     "intermediate": 50,
@@ -286,6 +284,24 @@
     {
       "name": "Defensive Strategy",
       "relationship": "Strategic framework - overall defensive approach this escape supports"
+    }
+  ],
+  "from_position": "North-South/Top",
+  "outcomes": [
+    {
+      "to": "Guard Recovery/Bottom",
+      "probability": 65,
+      "result": "success"
+    },
+    {
+      "to": "North-South/Top",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "North-South/Bottom",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

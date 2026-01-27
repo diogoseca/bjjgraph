@@ -21,37 +21,37 @@ description: "Master Guillotine Control Top position in BJJ. Dominant control wi
     {
       "@type": "HowToStep",
       "name": "Execute Guillotine Choke",
-      "text": "From this position, execute Guillotine Choke to transition to Won by Submission. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Guillotine Choke. This technique is attempted in 13% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute High Elbow Guillotine",
-      "text": "From this position, execute High Elbow Guillotine to transition to Won by Submission. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt High Elbow Guillotine. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm in Guillotine",
-      "text": "From this position, execute Arm in Guillotine to transition to Won by Submission. Success rate for advanced practitioners: 72%.",
+      "text": "From this position, attempt Arm in Guillotine. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Front Headlock to Anaconda",
-      "text": "From this position, execute Front Headlock to Anaconda to transition to Anaconda Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Front Headlock to Anaconda. This technique is attempted in 11% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Front Headlock to Darce",
-      "text": "From this position, execute Front Headlock to Darce to transition to D'arce Control. Success rate for advanced practitioners: 63%.",
+      "text": "From this position, attempt Front Headlock to Darce. This technique is attempted in 11% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Mount",
-      "text": "From this position, execute Transition to Mount to transition to Mount. Success rate for advanced practitioners: 78%.",
+      "name": "Execute Side Control to Mount",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 13% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -211,93 +211,22 @@ The strategic value of Guillotine Control Top lies in its versatility—the top 
 
 ## Available Attacks
 
-### [[Guillotine Choke]] → [[Won by Submission]]
+### [[Guillotine Choke]] (13% of attempts)
 
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 60%
-- Advanced: 75%
+### [[High Elbow Guillotine]] (12% of attempts)
 
-### [[High Elbow Guillotine]] → [[Won by Submission]]
+### [[Arm in Guillotine]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Front Headlock to Anaconda]] (11% of attempts)
 
-### [[Arm in Guillotine]] → [[Won by Submission]]
+### [[Front Headlock to Darce]] (11% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 58%
-- Advanced: 72%
+### [[Side Control to Mount]] (13% of attempts)
 
-### [[Front Headlock to Anaconda]] → [[Anaconda Control]]
+### [[Side Control to North-South]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Guard Pass]] (13% of attempts)
 
-### [[Front Headlock to Darce]] → [[D'arce Control]]
-
-**Success Rates:**
-- Beginner: 28%
-- Intermediate: 48%
-- Advanced: 63%
-
-### [[Transition to Mount]] → [[Mount]]
-
-**Success Rates:**
-- Beginner: 50%
-- Intermediate: 65%
-- Advanced: 78%
-
-### [[Transition to North-South]] → [[North-South]]
-
-**Success Rates:**
-- Beginner: 55%
-- Intermediate: 68%
-- Advanced: 80%
-
-### [[Guard Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 62%
-- Advanced: 75%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Guillotine Defense]]** → [[Closed Guard]] (Opponent Success: 40%)
-- **[[Guillotine Defense]]** → [[Half Guard]] (Opponent Success: 35%)
-- **[[Hand Fighting from Back]]** → [[Open Guard]] (Opponent Success: 30%)
-- **[[Guillotine Counter]]** → [[Side Control]] (Opponent Success: 25%)
-- **[[Technical Standup]]** → [[Standing Position]] (Opponent Success: 20%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Transition to Mount]]** → [[Mount]]
-  - Opponent attempts to create space by pushing with hands on hips
-- **[[High Elbow Guillotine]]** → [[Won by Submission]]
-  - Opponent tucks chin and pulls head back, opening high elbow finish angle
-- **[[Front Headlock to Anaconda]]** → [[Anaconda Control]]
-  - Opponent turns into you to defend guillotine, exposing anaconda entry
-- **[[Transition to North-South]]** → [[North-South]]
-  - Opponent attempts to roll to their back to relieve pressure
-- **[[Guard Pass]]** → [[Side Control]]
-  - Opponent focuses entirely on hand fighting and neglects leg positioning
 
 
 </section>
@@ -307,13 +236,13 @@ The strategic value of Guillotine Control Top lies in its versatility—the top 
 ## Decision Making from This Position
 
 **If opponent's posture is broken forward and chin is exposed:**
-- Execute **[[Guillotine Choke]]** → [[Won by Submission]] (Probability: 75%)
-- Execute **[[High Elbow Guillotine]]** → [[Won by Submission]] (Probability: 70%)
+- Execute **[[Guillotine Choke]]** → [[game-over]] (Probability: 75%)
+- Execute **[[High Elbow Guillotine]]** → [[game-over]] (Probability: 70%)
 
 
 **If opponent tucks chin and defends neck but neglects position:**
-- Execute **[[Transition to Mount]]** → [[Mount]] (Probability: 78%)
-- Execute **[[Transition to North-South]]** → [[North-South]] (Probability: 72%)
+- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 78%)
+- Execute **[[Side Control to North-South]]** → [[North-South]] (Probability: 72%)
 
 
 **If opponent turns into you to defend:**
@@ -322,13 +251,13 @@ The strategic value of Guillotine Control Top lies in its versatility—the top 
 
 
 **If opponent has arm trapped inside the guillotine:**
-- Execute **[[Arm in Guillotine]]** → [[Won by Submission]] (Probability: 72%)
-- Execute **[[Transition to Mount]]** → [[Mount]] (Probability: 68%)
+- Execute **[[Arm in Guillotine]]** → [[game-over]] (Probability: 72%)
+- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 68%)
 
 
 **If opponent creates distance with legs but not hand fighting:**
 - Execute **[[Guard Pass]]** → [[Side Control]] (Probability: 75%)
-- Execute **[[High Elbow Guillotine]]** → [[Won by Submission]] (Probability: 65%)
+- Execute **[[High Elbow Guillotine]]** → [[game-over]] (Probability: 65%)
 
 
 
@@ -421,33 +350,39 @@ Start in guillotine control with partner attempting to close guard, you must mai
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Direct finish from standing entry
+## Test Your Knowledge
 
-`Sprawl → Guillotine Setup → Guillotine Control Top → Guillotine Choke → Won by Submission`
+**Q1**: What are the essential grips for maintaining Guillotine Control Top?
+**A**: The primary grips include palm-to-palm (Marcelo grip), gable grip, and S-grip configurations. The choking arm wraps around the neck with the blade of the forearm or bicep crossing the front of the throat, while the supporting hand clasps to create a closed loop. Grip selection depends on arm-in versus no-arm variations and opponent's defensive reactions.
 
-### High-percentage arm-in variation
+**Q2**: How should you distribute your weight to maintain Guillotine Control Top effectively?
+**A**: Weight should be distributed forward through the hips and chest, keeping heavy pressure on the opponent to prevent them from creating space or closing guard. The head should control direction by pressing into the opponent's shoulder or back, while legs sprawl back to prevent guard closure. Avoid sitting back or pulling straight up, which allows opponent to establish defensive frames.
 
-`Guard Pull → Guillotine Setup → Guillotine Control Top → Arm in Guillotine → Won by Submission`
+**Q3**: Your opponent begins turning into you to relieve choke pressure—what adjustment do you make?
+**A**: When the opponent turns in, immediately transition to anaconda or darce choke setups by threading your arm deeper and switching the angle of attack. Use shoulder pressure and hip sprawl to prevent them from completing the turn while maintaining head control. The turn actually exposes them to more dangerous head-and-arm choke variations.
 
-### Anaconda transition path
+**Q4**: What is the primary escape your opponent will attempt and how do you shut it down?
+**A**: The most common escape involves posturing up and hand fighting to create space for head extraction. Counter by keeping your elbows tight, maintaining constant downward pressure on the head, and using your hips to follow their movement. If they begin to posture, immediately adjust angle and increase choking pressure or transition to positional advancement before they can fully escape.
 
-`Guillotine Control Top → Front Headlock to Anaconda → Anaconda Control → Anaconda Choke → Won by Submission`
+**Q5**: How do you apply pressure without burning excessive energy from Guillotine Control Top?
+**A**: Use skeletal structure rather than muscular strength by keeping elbows pinned to ribs and using body weight through proper positioning. Let gravity work by maintaining forward hip pressure and sprawling legs back. Make micro-adjustments rather than constantly squeezing—the threat of the choke often does more work than continuous maximum effort application.
 
-### Position advancement to mount finish
+**Q6**: Your opponent successfully tucks their chin and defends the finish—what is your response?
+**A**: When chin tuck defense succeeds, immediately pivot to positional advancement. Use their focus on neck defense to pass to mount, advance to north-south, or transition to side control. The opponent cannot defend both the choke and position simultaneously—exploit this dilemma by threatening finish to open positional opportunities.
 
-`Guillotine Control Top → Transition to Mount → Mount → Armbar from Mount → Won by Submission`
+**Q7**: What grip adjustments should you prioritize when opponent traps their arm inside the guillotine?
+**A**: Transition to arm-in guillotine mechanics by adjusting hand position and angle. The arm-in variation uses the opponent's own trapped arm to assist the choke by pressing it against their carotid. Rotate your body slightly to the trapped arm side and apply finishing pressure at a diagonal angle rather than straight back.
 
-### Darce conversion from defense
-
-`Guillotine Control Top → Front Headlock to Darce → D'arce Control → Darce Choke → Won by Submission`
+**Q8**: How do you recover control if opponent begins extracting their head from the guillotine?
+**A**: Immediately re-break their posture by pulling the head down while sprawling your hips forward. If they've created significant space, consider transitioning to front headlock control and re-establishing the guillotine with better depth, or use the remaining head control to advance position to side control or north-south rather than fighting for a compromised choke.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -474,9 +409,9 @@ Start in guillotine control with partner attempting to close guard, you must mai
 - **[[Mount]]** - Transition target - position advancement using guillotine threat
 - **[[North-South]]** - Transition target - alternative advancement path
 - **[[Guillotine Choke]]** - Primary submission - main finishing technique from this position
-- **[[High Elbow Guillotine]]** - Submission variation - alternative finishing mechanics
+- **[[Chin Strap Guillotine]]** - Submission variation - alternative finishing mechanics with chin control
 - **[[Arm in Guillotine]]** - Submission variation - opportunistic variation when arm is trapped
-- **[[Marcelo Garcia Guillotine System]]** - Expert system - comprehensive approach to guillotine game
+- **[[Side Control]]** - Positional advancement - common transition when choke is defended
 
 
 </section>

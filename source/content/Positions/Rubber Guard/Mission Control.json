@@ -59,456 +59,6 @@
       "relationship": "Advanced variation - transition when opponent attempts to stack"
     }
   ],
-  "bottom": {
-    "name": "Mission Control Bottom",
-    "description": "Master the bottom of Mission Control with complete control mechanics, submission entries, and defensive responses against common escapes for this dominant rubber guard position.",
-    "tags": [
-      "rubber guard",
-      "closed guard bottom",
-      "mission control",
-      "10th planet",
-      "high guard",
-      "shoulder isolation",
-      "submission platform"
-    ],
-    "overview": "From the bottom perspective, Mission Control represents the apex of 10th Planet's rubber guard system - a position where flexibility, control, and submission potential converge to create one of the most dominant control positions in modern no-gi grappling. Establishing Mission Control requires the bottom practitioner to achieve an extreme high guard position, threading the inside leg across the opponent's back while using the outside leg to control and isolate the far shoulder. This configuration creates a structural trap that progressively tightens as the opponent struggles, leading to multiple high-percentage submission opportunities.\n\nThe mechanical advantage of Mission Control from the bottom is rooted in hip elevation and shoulder isolation. By driving the hips high and pulling the opponent's head down aggressively, the bottom practitioner forces the opponent's weight onto their trapped shoulder, creating severe postural compromise. This positioning not only prevents the opponent from generating effective defensive movements but also exposes the neck for triangle attacks and rotates the shoulder into omoplata range. The high guard leg acts as a lever that amplifies control - any attempt by the opponent to posture up or pull their arm free simply tightens the trap and opens additional submission paths.\n\nEnergy management in Mission Control favors the bottom practitioner significantly once the position is established. While the initial entry requires active hip elevation and aggressive pulling, maintaining the position becomes progressively easier as the opponent's defensive efforts work against them. The structural mechanics force the top person to support their own weight awkwardly, creating rapid fatigue in the shoulder and neck. Advanced practitioners learn to relax into Mission Control while maintaining control tension, allowing the opponent to 'cook' under the pressure of their own weight distribution.\n\nThe offensive potential from Mission Control bottom is extensive and systematic. The primary attacks include the Mission Control triangle, which uses the shoulder isolation to create perfect triangle angle; the omoplata entry, which becomes available as the opponent attempts to pull their trapped arm free; and the gogoplata when the opponent's posture is completely broken. Beyond these direct submissions, Mission Control serves as a platform for transitioning to more advanced rubber guard controls like New York (when the opponent defends their arm), Carni (for alternative shoulder isolation), or Invisible Collar (when the opponent attempts to strip grips). This creates a submission chain system where defensive attempts against one attack open opportunities for others, embodying 10th Planet's dilemma-based approach to bottom position.\n\nSuccess in Mission Control bottom requires specific physical attributes and technical understanding. Hip flexibility is paramount - practitioners must be able to maintain the high guard position without straining, allowing for sustained control and fluid transitions. Grip strength and endurance are critical for maintaining head and arm control against defensive attempts. Technical precision in shoulder isolation mechanics determines whether the position creates genuine submission threats or merely uncomfortable pressure. Most importantly, bottom practitioners must develop the systematic understanding of submission chains that makes Mission Control a true position of dominance rather than just a transitional control.",
-    "state_properties": {
-      "point_value": 0,
-      "position_type": "Offensive/Controlling",
-      "risk_level": "Medium",
-      "energy_cost": "Medium",
-      "time_sustainability": "Medium to Long"
-    },
-    "state_invariants": [
-      "The bottom practitioner's inside leg must be threaded high across the opponent's back, with the shin or calf creating downward pressure on the shoulder blade while the foot hooks around the opposite side of the opponent's torso, establishing the foundational high guard position that defines Mission Control",
-      "The bottom practitioner's outside leg must be positioned over and controlling the opponent's far shoulder, with the knee or shin applying continuous downward pressure that isolates the shoulder and prevents the opponent from generating upward posture, creating the characteristic shoulder trap of the position",
-      "The bottom practitioner must maintain aggressive downward pulling pressure on the opponent's head using either one or both hands, breaking the opponent's posture completely and loading their weight onto the trapped shoulder while exposing the neck for submission attacks",
-      "The opponent's trapped arm must remain isolated on the inside of the bottom practitioner's high guard leg, preventing the opponent from establishing defensive frames or creating the space necessary to escape the shoulder isolation trap",
-      "The bottom practitioner's hips must remain elevated off the mat, creating active upward pressure that maintains the high guard position and prevents the opponent from driving weight down through their hips to collapse the control"
-    ],
-    "prerequisites": [
-      "Active closed guard or high guard position with opponent's posture already partially broken",
-      "Sufficient hip flexibility to maintain high guard without straining or losing structural integrity",
-      "Strong grip control on opponent's head or neck to prevent posture recovery during setup",
-      "Opponent's weight must be managed forward onto their arms rather than back onto their hips",
-      "Inside leg must be mobile enough to thread across opponent's back without opponent blocking or preventing the movement"
-    ],
-    "key_principles": [
-      "Mission Control is fundamentally about shoulder isolation - if you cannot trap the shoulder, you do not have the position",
-      "Hip elevation is active, not passive - constantly drive hips up and forward to maintain control tension",
-      "The high guard leg is a lever, not just a hook - use it to amplify pulling pressure and shoulder isolation",
-      "Grip control on the head must be aggressive and unrelenting - any relaxation allows posture recovery",
-      "The position is designed for submissions, not stalling - constantly threaten attacks to prevent opponent from developing escape timing",
-      "Energy efficiency comes from structural position, not muscular effort - let the opponent's weight work against them",
-      "Mission Control is a transitional hub - be ready to flow to New York, Carni, or submission controls based on opponent's defensive responses"
-    ],
-    "offensive_transitions": [
-      {
-        "technique": "Triangle Setup",
-        "target_position": "Triangle Control",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 55,
-          "advanced": 75,
-          "description": "Primary submission from Mission Control using shoulder isolation to create perfect triangle angle"
-        }
-      },
-      {
-        "technique": "Omoplata to Sweep",
-        "target_position": "Omoplata Control",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 50,
-          "advanced": 70,
-          "description": "Secondary submission when opponent attempts to pull trapped arm free"
-        }
-      },
-      {
-        "technique": "Transition to Omoplata",
-        "target_position": "Omoplata Control",
-        "success_rates": {
-          "beginner": 28,
-          "intermediate": 48,
-          "advanced": 68,
-          "description": "Direct omoplata entry from Mission Control shoulder isolation"
-        }
-      },
-      {
-        "technique": "Triangle from Guard",
-        "target_position": "Triangle Control",
-        "success_rates": {
-          "beginner": 32,
-          "intermediate": 52,
-          "advanced": 72,
-          "description": "Traditional triangle entry enhanced by Mission Control positioning"
-        }
-      },
-      {
-        "technique": "Armbar from Guard",
-        "target_position": "Armbar Control",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 42,
-          "advanced": 62,
-          "description": "Armbar attack when opponent defends neck and shoulder remains isolated"
-        }
-      },
-      {
-        "technique": "Transition to Truck",
-        "target_position": "New York",
-        "success_rates": {
-          "beginner": 20,
-          "intermediate": 38,
-          "advanced": 58,
-          "description": "Advanced rubber guard control when opponent defends triangle and omoplata"
-        }
-      },
-      {
-        "technique": "Hip Bump Sweep",
-        "target_position": "Mount",
-        "success_rates": {
-          "beginner": 18,
-          "intermediate": 32,
-          "advanced": 50,
-          "description": "Sweep option when opponent posts to prevent submissions"
-        }
-      },
-      {
-        "technique": "Omoplata Sweep",
-        "target_position": "Back Control",
-        "success_rates": {
-          "beginner": 22,
-          "intermediate": 40,
-          "advanced": 60,
-          "description": "Back take when opponent rolls to defend omoplata"
-        }
-      },
-      {
-        "technique": "Transition to Omoplata",
-        "target_position": "Carni",
-        "success_rates": {
-          "beginner": 15,
-          "intermediate": 30,
-          "advanced": 50,
-          "description": "Alternative rubber guard control with different shoulder isolation angle"
-        }
-      },
-      {
-        "technique": "Closed Guard to Triangle",
-        "target_position": "Gogoplata Control",
-        "success_rates": {
-          "beginner": 10,
-          "intermediate": 22,
-          "advanced": 40,
-          "description": "Advanced submission when opponent's posture is completely broken"
-        }
-      },
-      {
-        "technique": "Triangle to Omoplata",
-        "target_position": "Invisible Collar",
-        "success_rates": {
-          "beginner": 12,
-          "intermediate": 25,
-          "advanced": 45,
-          "description": "Control transition when opponent attempts to strip grips"
-        }
-      },
-      {
-        "technique": "Omoplata to Back",
-        "target_position": "Zombie",
-        "success_rates": {
-          "beginner": 8,
-          "intermediate": 18,
-          "advanced": 35,
-          "description": "Counter control when opponent attempts to stack or pressure forward"
-        }
-      }
-    ],
-    "defensive_responses": [
-      {
-        "technique": "Posture Up",
-        "target_position": "Closed Guard",
-        "success_rate": 25
-      },
-      {
-        "technique": "Guard Pass",
-        "target_position": "Side Control",
-        "success_rate": 20
-      },
-      {
-        "technique": "Stack Defense",
-        "target_position": "Turtle",
-        "success_rate": 18
-      },
-      {
-        "technique": "Arm Extraction",
-        "target_position": "Open Guard",
-        "success_rate": 22
-      },
-      {
-        "technique": "Standing up in Base",
-        "target_position": "Standing Guard",
-        "success_rate": 15
-      }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Triangle Setup",
-        "target_position": "Triangle Control",
-        "trigger": "When opponent postures up, immediately transition to triangle using their upward movement to assist the attack"
-      },
-      {
-        "technique": "Omoplata to Sweep",
-        "target_position": "Omoplata Control",
-        "trigger": "When opponent pulls trapped arm back, follow the arm into omoplata and sweep as they defend"
-      },
-      {
-        "technique": "Transition to Truck",
-        "target_position": "New York",
-        "trigger": "When opponent successfully extracts their arm, transition to New York control to reestablish shoulder isolation"
-      },
-      {
-        "technique": "Omoplata Sweep",
-        "target_position": "Back Control",
-        "trigger": "When opponent drives forward with stacking pressure, use their momentum to transition to back control"
-      },
-      {
-        "technique": "Hip Bump Sweep",
-        "target_position": "Mount",
-        "trigger": "When opponent posts hand to defend submissions, immediately sweep using their posted hand as lever"
-      }
-    ],
-    "decision_tree": [
-      {
-        "condition": "Opponent maintains broken posture with head down and weight on trapped shoulder",
-        "actions": [
-          {
-            "technique": "Triangle Setup",
-            "target": "Triangle Control",
-            "probability": 75
-          },
-          {
-            "technique": "Transition to Omoplata",
-            "target": "Omoplata Control",
-            "probability": 70
-          }
-        ]
-      },
-      {
-        "condition": "Opponent attempts to posture up by driving weight back and lifting head",
-        "actions": [
-          {
-            "technique": "Triangle from Guard",
-            "target": "Triangle Control",
-            "probability": 70
-          },
-          {
-            "technique": "Transition to Truck",
-            "target": "New York",
-            "probability": 55
-          }
-        ]
-      },
-      {
-        "condition": "Opponent drives forward with stacking pressure attempting to collapse high guard",
-        "actions": [
-          {
-            "technique": "Transition to Truck",
-            "target": "Zombie",
-            "probability": 60
-          },
-          {
-            "technique": "Omoplata Sweep",
-            "target": "Back Control",
-            "probability": 58
-          }
-        ]
-      },
-      {
-        "condition": "Opponent pulls trapped arm back attempting to free shoulder from isolation",
-        "actions": [
-          {
-            "technique": "Omoplata to Sweep",
-            "target": "Omoplata Control",
-            "probability": 68
-          },
-          {
-            "technique": "Transition to Omoplata",
-            "target": "Invisible Collar",
-            "probability": 45
-          }
-        ]
-      },
-      {
-        "condition": "Opponent successfully extracts arm and begins to open guard",
-        "actions": [
-          {
-            "technique": "Hip Bump Sweep",
-            "target": "Mount",
-            "probability": 50
-          },
-          {
-            "technique": "Guard Replacement",
-            "target": "Closed Guard",
-            "probability": 45
-          }
-        ]
-      }
-    ],
-    "common_errors": [
-      {
-        "error": "Failing to maintain continuous hip elevation, allowing hips to settle to mat",
-        "consequence": "Opponent can drive weight down and collapse the high guard position, escaping shoulder isolation",
-        "correction": "Keep hips actively elevated throughout - use core engagement and leg drive to maintain upward pressure against opponent's shoulder"
-      },
-      {
-        "error": "Relaxing grip pressure on opponent's head during transitions or submission attempts",
-        "consequence": "Opponent recovers posture immediately, eliminating shoulder isolation and submission opportunities",
-        "correction": "Maintain aggressive downward pulling on head throughout all transitions - posture control is non-negotiable in Mission Control"
-      },
-      {
-        "error": "Positioning high guard leg too low on opponent's back, reducing shoulder isolation effectiveness",
-        "consequence": "Opponent maintains shoulder mobility and can generate defensive frames, preventing effective submission entries",
-        "correction": "Thread leg as high as possible across opponent's back - the higher the leg, the greater the shoulder isolation and control"
-      },
-      {
-        "error": "Allowing opponent's trapped arm to slip outside of high guard leg during scrambles",
-        "consequence": "Opponent can establish defensive frames and escape shoulder isolation, returning to neutral guard position",
-        "correction": "Constantly monitor arm position - if arm begins to slip out, immediately transition to Invisible Collar or New York control"
-      },
-      {
-        "error": "Stalling in Mission Control without threatening submissions or transitions",
-        "consequence": "Opponent develops timing for escape attempts and can methodically work to extract arm and break position",
-        "correction": "Mission Control is an attack platform, not a resting position - constantly threaten triangle, omoplata, or transitions to keep opponent defensive"
-      },
-      {
-        "error": "Attempting to force submission entries before establishing proper shoulder isolation and posture control",
-        "consequence": "Submissions fail due to lack of control foundation, opponent escapes during transition attempts",
-        "correction": "Establish and confirm Mission Control structure first - shoulder isolated, posture broken, hips elevated - then attack with confidence"
-      },
-      {
-        "error": "Using only muscular strength to maintain position rather than leveraging structural mechanics",
-        "consequence": "Rapid fatigue prevents sustained control, position collapses as practitioner tires before opponent does",
-        "correction": "Rely on hip elevation and leg positioning for control - let structural mechanics do the work while minimizing muscular effort"
-      }
-    ],
-    "training_drills": [
-      {
-        "name": "High Guard Maintenance Drill",
-        "description": "Partner starts in closed guard. Establish high guard with inside leg threaded across back. Partner attempts to drive weight back and break position using only posture, no hands. Maintain high guard for 2 minutes using hip elevation and leg positioning. Focus on structural control rather than muscular effort.",
-        "duration": "2 minutes per round, 3 rounds"
-      },
-      {
-        "name": "Mission Control Entry Flow",
-        "description": "Starting from closed guard with broken posture, practice entering Mission Control in one smooth motion - thread leg across back, establish shoulder control with outside leg, pull head down, isolate shoulder. Partner provides 50% resistance. Repeat 10 times each side, focusing on fluid entry mechanics and immediate control establishment.",
-        "duration": "5 minutes"
-      },
-      {
-        "name": "Triangle-Omoplata Decision Drill",
-        "description": "Establish Mission Control. Partner randomly chooses to either maintain broken posture (triangle) or attempt to pull arm back (omoplata). Practitioner must identify which defense opponent is using and execute appropriate submission within 10 seconds. Develops decision-making and submission recognition from Mission Control platform.",
-        "duration": "3 minutes per round, 4 rounds"
-      },
-      {
-        "name": "Mission Control Escape Resistance",
-        "description": "Establish Mission Control with proper shoulder isolation and posture control. Partner uses full resistance to attempt escape using any method - posture recovery, arm extraction, stacking, standing. Practitioner must maintain Mission Control for 3 minutes or successfully counter into submission. Develops control maintenance under maximum pressure.",
-        "duration": "3 minutes per round, 3 rounds"
-      },
-      {
-        "name": "Rubber Guard Transition Chain",
-        "description": "Flow drill starting in Mission Control. Partner defends triangle, transition to New York. Partner defends New York, transition to Carni. Partner defends Carni, return to Mission Control. Continue flowing for entire round with controlled resistance. Builds understanding of rubber guard system connections.",
-        "duration": "5 minutes"
-      }
-    ],
-    "optimal_submission_paths": [
-      {
-        "name": "Direct Triangle from Mission Control",
-        "path": "Mission Control → Triangle Setup → Triangle Control → Triangle Choke"
-      },
-      {
-        "name": "Omoplata Sweep to Back Take",
-        "path": "Mission Control → Omoplata to Sweep → Omoplata Control → Omoplata Sweep → Back Control → Rear Naked Choke"
-      },
-      {
-        "name": "Triangle to Armbar Chain",
-        "path": "Mission Control → Triangle Setup → Triangle Control → Triangle to Armbar → Armbar from Guard"
-      },
-      {
-        "name": "New York to Triangle Transition",
-        "path": "Mission Control → Transition to Truck → New York → Triangle Setup → Triangle Control → Triangle Choke"
-      },
-      {
-        "name": "Gogoplata from Broken Posture",
-        "path": "Mission Control → Closed Guard to Triangle → Gogoplata Control → Gogoplata"
-      },
-      {
-        "name": "Omoplata to Triangle Switch",
-        "path": "Mission Control → Omoplata to Sweep → Omoplata Control → Triangle to Omoplata → Triangle Control → Triangle Choke"
-      }
-    ],
-    "related_content": [
-      {
-        "name": "Rubber Guard",
-        "relationship": "Parent system - Mission Control is the foundational control position"
-      },
-      {
-        "name": "10th Planet Rubber Guard System",
-        "relationship": "Strategic framework - systematic approach to rubber guard positions and submissions"
-      },
-      {
-        "name": "New York",
-        "relationship": "Advanced control - primary transition when opponent defends Mission Control"
-      },
-      {
-        "name": "Triangle Control",
-        "relationship": "Primary submission destination from Mission Control"
-      },
-      {
-        "name": "Omoplata Control",
-        "relationship": "Secondary submission destination from Mission Control"
-      },
-      {
-        "name": "Closed Guard",
-        "relationship": "Starting position - Mission Control is established from high guard"
-      },
-      {
-        "name": "Gogoplata Control",
-        "relationship": "Advanced submission option when posture is completely broken"
-      },
-      {
-        "name": "Carni",
-        "relationship": "Alternative shoulder isolation control within rubber guard system"
-      },
-      {
-        "name": "Invisible Collar",
-        "relationship": "Transition control when opponent strips grips or extracts arm"
-      },
-      {
-        "name": "Zombie",
-        "relationship": "Counter control when opponent stacks or drives forward pressure"
-      }
-    ],
-    "position_metrics": {
-      "retention_rate": {
-        "beginner": 40,
-        "intermediate": 65,
-        "advanced": 85,
-        "description": "Ability to maintain Mission Control against escape attempts"
-      },
-      "advancement_probability": {
-        "beginner": 35,
-        "intermediate": 58,
-        "advanced": 78,
-        "description": "Probability of advancing to submission or improved position"
-      },
-      "submission_probability": {
-        "beginner": 30,
-        "intermediate": 52,
-        "advanced": 72,
-        "description": "Probability of finishing submission directly from Mission Control"
-      },
-      "average_time": "45-90 seconds before submission attempt or position change"
-    }
-  },
   "top": {
     "name": "Mission Control Top",
     "description": "Learn defensive strategies and escape mechanics from the top of Mission Control: posture recovery, arm extraction, and counter-attacks against rubber guard controls.",
@@ -551,115 +101,38 @@
       "Grip fighting on the head is non-negotiable - if they achieve deep head control, submission entries become extremely difficult to defend",
       "Mission Control defense is a war of attrition - extend the positional battle beyond the bottom practitioner's sustainable timeframe"
     ],
-    "offensive_transitions": [
+    "knowledge_assessment": [
       {
-        "technique": "Posture Recovery",
-        "target_position": "Closed Guard",
-        "success_rates": {
-          "beginner": 20,
-          "intermediate": 35,
-          "advanced": 55,
-          "description": "Systematic posture recovery leading to neutral closed guard position"
-        }
+        "question": "What is the proper weight distribution to maintain when trapped in Mission Control to avoid strengthening the bottom player's control?",
+        "answer": "Distribute weight evenly between both arms rather than loading onto the trapped shoulder. Maintain some backward weight distribution to reduce the mechanical advantage the bottom practitioner gains from shoulder loading, but don't pull so far back that you lose all forward pressure needed for eventual escape. The goal is to minimize the 'cooking' effect while maintaining enough connection to work systematic escapes."
       },
       {
-        "technique": "Guard Pass",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 15,
-          "intermediate": 28,
-          "advanced": 45,
-          "description": "Direct passing when bottom practitioner's control deteriorates"
-        }
+        "question": "Your opponent begins bringing their leg across your face to complete a triangle - what is your immediate defensive response?",
+        "answer": "Immediately drive weight forward with stacking pressure to prevent the leg from crossing your face completely. Simultaneously turn your head toward the trapped arm side to create space and make it harder for them to lock the triangle. If the leg is already partially across, tuck your chin and begin working to create an angle by circling toward the trapped arm side while maintaining your base."
       },
       {
-        "technique": "Stack Defense",
-        "target_position": "Headquarters Position",
-        "success_rates": {
-          "beginner": 18,
-          "intermediate": 32,
-          "advanced": 50,
-          "description": "Using stacking pressure to collapse high guard and create passing opportunity"
-        }
+        "question": "What are the essential grips you must fight to prevent the bottom player from maintaining Mission Control?",
+        "answer": "The primary grip to fight is head control - use your free hand constantly to strip grips, create distance, and prevent deep collar ties or head locks on your neck. Secondary is the grip controlling your trapped arm's wrist or sleeve. If they achieve deep two-handed head control, submission entries become nearly indefensible and escape becomes almost impossible."
       },
       {
-        "technique": "Standing up in Base",
-        "target_position": "Standing Guard",
-        "success_rates": {
-          "beginner": 22,
-          "intermediate": 38,
-          "advanced": 58,
-          "description": "Standing to break high guard control and create distance for passing"
-        }
+        "question": "Why is explosive posturing up a critical error when defending Mission Control?",
+        "answer": "Sudden explosive posturing creates the exact movement pattern that allows the bottom practitioner to complete the triangle lock - your upward movement actually helps them get their leg across your face. The explosive motion also telegraphs your intention, allowing them to time their attack. Additionally, failed explosive attempts waste energy and often create worse angles for the bottom player's submissions."
       },
       {
-        "technique": "Arm Extraction",
-        "target_position": "Open Guard",
-        "success_rates": {
-          "beginner": 12,
-          "intermediate": 25,
-          "advanced": 42,
-          "description": "Pulling trapped arm free to eliminate shoulder isolation"
-        }
+        "question": "How should you approach energy management when trapped in Mission Control for an extended period?",
+        "answer": "Accept the temporary discomfort and work systematically through escape phases using technical precision rather than athleticism. Panicking and explosive escape attempts accelerate energy expenditure without improving the situation. The position naturally deteriorates as the bottom player's hip flexibility and grip endurance fade - extend the battle past their sustainable timeframe while conserving your energy for the decisive escape moment."
       },
       {
-        "technique": "Guard Opening Sequence",
-        "target_position": "Combat Base",
-        "success_rates": {
-          "beginner": 10,
-          "intermediate": 20,
-          "advanced": 38,
-          "description": "Systematic guard opening when posture and arm position are recovered"
-        }
-      }
-    ],
-    "defensive_responses": [
-      {
-        "technique": "Triangle Setup",
-        "target_position": "Triangle Control",
-        "success_rate": 70
+        "question": "Your opponent's hip elevation momentarily drops - what opportunity does this create and how do you capitalize?",
+        "answer": "Dropping hip elevation weakens the entire Mission Control structure. Immediately drive weight slightly back while lifting your head to begin posture recovery. Use this window to fight their head control grips and create small progressive improvements in your posture angle. Alternatively, if their grip control also relaxes, this is the optimal moment to stand up explosively and break the high guard leg position entirely."
       },
       {
-        "technique": "Omoplata to Sweep",
-        "target_position": "Omoplata Control",
-        "success_rate": 65
+        "question": "What base adjustments should you maintain throughout the entire defensive sequence to prevent sweeps?",
+        "answer": "Widen your knees and distribute weight evenly to create a stable triangular base. The bottom practitioner will attempt hip bump sweeps and other reversals when their submission attacks are defended, so you must defend both threats simultaneously. Avoid bringing your knees together or shifting weight too far in any single direction, as this creates the instability they need to execute sweeps."
       },
       {
-        "technique": "Hip Bump Sweep",
-        "target_position": "Mount",
-        "success_rate": 50
-      },
-      {
-        "technique": "Transition to Truck",
-        "target_position": "New York",
-        "success_rate": 55
-      },
-      {
-        "technique": "Closed Guard to Triangle",
-        "target_position": "Gogoplata Control",
-        "success_rate": 35
-      }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Stack Defense",
-        "target_position": "Headquarters Position",
-        "trigger": "When bottom practitioner threatens triangle, immediately drive weight forward with stacking pressure to prevent leg from coming across face"
-      },
-      {
-        "technique": "Standing up in Base",
-        "target_position": "Standing Guard",
-        "trigger": "When bottom practitioner's high guard control is momentarily loosened, immediately stand to break the high guard leg position"
-      },
-      {
-        "technique": "Posture Recovery",
-        "target_position": "Closed Guard",
-        "trigger": "When bottom practitioner relaxes pulling pressure on head even slightly, drive weight back and pull head up to begin posture recovery"
-      },
-      {
-        "technique": "Guard Pass",
-        "target_position": "Side Control",
-        "trigger": "When arm is successfully extracted and high guard is broken, immediately drive passing pressure before bottom practitioner can reestablish guard"
+        "question": "After successfully extracting your trapped arm, what should be your immediate next action?",
+        "answer": "Immediately drive passing pressure before the bottom practitioner can reestablish guard or transition to another rubber guard control. The moment of arm extraction is when they are most vulnerable - their control structure is broken and they need time to reset. Drive toward side control or immediately stand to combat base, maintaining forward pressure to prevent guard recovery."
       }
     ],
     "decision_tree": [
@@ -788,20 +261,6 @@
         "duration": "2 minutes per round, 5 rounds"
       }
     ],
-    "optimal_submission_paths": [
-      {
-        "name": "Systematic Escape to Guard Pass",
-        "path": "Mission Control Top → Posture Recovery → Closed Guard → Guard Opening Sequence → Combat Base → Guard Pass → Side Control"
-      },
-      {
-        "name": "Standing Escape to Passing",
-        "path": "Mission Control Top → Standing up in Base → Standing Guard → Guard Pass → Side Control"
-      },
-      {
-        "name": "Stack Defense to Headquarters",
-        "path": "Mission Control Top → Stack Defense → Headquarters Position → Guard Pass → Side Control"
-      }
-    ],
     "related_content": [
       {
         "name": "Rubber Guard",
@@ -836,8 +295,8 @@
         "relationship": "Advanced threat - bottom practitioner may transition to this when initial Mission Control is defended"
       },
       {
-        "name": "Guard Passing Principles",
-        "relationship": "Conceptual framework - systematic passing approach applies after escaping Mission Control"
+        "name": "Combat Base",
+        "relationship": "Escape destination - stable position for initiating guard passing after escape"
       }
     ],
     "position_metrics": {
@@ -860,6 +319,352 @@
         "description": "Probability of being submitted while trapped in Mission Control"
       },
       "average_time": "90-180 seconds to escape or be submitted at intermediate level"
-    }
+    },
+    "transitions": [
+      {
+        "transition": "Posture Recovery",
+        "attempt_probability": 19
+      },
+      {
+        "transition": "Guard Pass",
+        "attempt_probability": 16
+      },
+      {
+        "transition": "Stack Defense",
+        "attempt_probability": 17
+      },
+      {
+        "transition": "Standing up in Base",
+        "attempt_probability": 20
+      },
+      {
+        "transition": "Arm Extraction",
+        "attempt_probability": 15
+      },
+      {
+        "transition": "Guard Opening Sequence",
+        "attempt_probability": 13
+      }
+    ]
+  },
+  "bottom": {
+    "name": "Mission Control Bottom",
+    "description": "Master the bottom of Mission Control with complete control mechanics, submission entries, and defensive responses against common escapes for this dominant rubber guard position.",
+    "tags": [
+      "rubber guard",
+      "closed guard bottom",
+      "mission control",
+      "10th planet",
+      "high guard",
+      "shoulder isolation",
+      "submission platform"
+    ],
+    "overview": "From the bottom perspective, Mission Control represents the apex of 10th Planet's rubber guard system - a position where flexibility, control, and submission potential converge to create one of the most dominant control positions in modern no-gi grappling. Establishing Mission Control requires the bottom practitioner to achieve an extreme high guard position, threading the inside leg across the opponent's back while using the outside leg to control and isolate the far shoulder. This configuration creates a structural trap that progressively tightens as the opponent struggles, leading to multiple high-percentage submission opportunities.\n\nThe mechanical advantage of Mission Control from the bottom is rooted in hip elevation and shoulder isolation. By driving the hips high and pulling the opponent's head down aggressively, the bottom practitioner forces the opponent's weight onto their trapped shoulder, creating severe postural compromise. This positioning not only prevents the opponent from generating effective defensive movements but also exposes the neck for triangle attacks and rotates the shoulder into omoplata range. The high guard leg acts as a lever that amplifies control - any attempt by the opponent to posture up or pull their arm free simply tightens the trap and opens additional submission paths.\n\nEnergy management in Mission Control favors the bottom practitioner significantly once the position is established. While the initial entry requires active hip elevation and aggressive pulling, maintaining the position becomes progressively easier as the opponent's defensive efforts work against them. The structural mechanics force the top person to support their own weight awkwardly, creating rapid fatigue in the shoulder and neck. Advanced practitioners learn to relax into Mission Control while maintaining control tension, allowing the opponent to 'cook' under the pressure of their own weight distribution.\n\nThe offensive potential from Mission Control bottom is extensive and systematic. The primary attacks include the Mission Control triangle, which uses the shoulder isolation to create perfect triangle angle; the omoplata entry, which becomes available as the opponent attempts to pull their trapped arm free; and the gogoplata when the opponent's posture is completely broken. Beyond these direct submissions, Mission Control serves as a platform for transitioning to more advanced rubber guard controls like New York (when the opponent defends their arm), Carni (for alternative shoulder isolation), or Invisible Collar (when the opponent attempts to strip grips). This creates a submission chain system where defensive attempts against one attack open opportunities for others, embodying 10th Planet's dilemma-based approach to bottom position.\n\nSuccess in Mission Control bottom requires specific physical attributes and technical understanding. Hip flexibility is paramount - practitioners must be able to maintain the high guard position without straining, allowing for sustained control and fluid transitions. Grip strength and endurance are critical for maintaining head and arm control against defensive attempts. Technical precision in shoulder isolation mechanics determines whether the position creates genuine submission threats or merely uncomfortable pressure. Most importantly, bottom practitioners must develop the systematic understanding of submission chains that makes Mission Control a true position of dominance rather than just a transitional control.",
+    "state_properties": {
+      "point_value": 0,
+      "position_type": "Offensive/Controlling",
+      "risk_level": "Medium",
+      "energy_cost": "Medium",
+      "time_sustainability": "Medium to Long"
+    },
+    "state_invariants": [
+      "The bottom practitioner's inside leg must be threaded high across the opponent's back, with the shin or calf creating downward pressure on the shoulder blade while the foot hooks around the opposite side of the opponent's torso, establishing the foundational high guard position that defines Mission Control",
+      "The bottom practitioner's outside leg must be positioned over and controlling the opponent's far shoulder, with the knee or shin applying continuous downward pressure that isolates the shoulder and prevents the opponent from generating upward posture, creating the characteristic shoulder trap of the position",
+      "The bottom practitioner must maintain aggressive downward pulling pressure on the opponent's head using either one or both hands, breaking the opponent's posture completely and loading their weight onto the trapped shoulder while exposing the neck for submission attacks",
+      "The opponent's trapped arm must remain isolated on the inside of the bottom practitioner's high guard leg, preventing the opponent from establishing defensive frames or creating the space necessary to escape the shoulder isolation trap",
+      "The bottom practitioner's hips must remain elevated off the mat, creating active upward pressure that maintains the high guard position and prevents the opponent from driving weight down through their hips to collapse the control"
+    ],
+    "prerequisites": [
+      "Active closed guard or high guard position with opponent's posture already partially broken",
+      "Sufficient hip flexibility to maintain high guard without straining or losing structural integrity",
+      "Strong grip control on opponent's head or neck to prevent posture recovery during setup",
+      "Opponent's weight must be managed forward onto their arms rather than back onto their hips",
+      "Inside leg must be mobile enough to thread across opponent's back without opponent blocking or preventing the movement"
+    ],
+    "key_principles": [
+      "Mission Control is fundamentally about shoulder isolation - if you cannot trap the shoulder, you do not have the position",
+      "Hip elevation is active, not passive - constantly drive hips up and forward to maintain control tension",
+      "The high guard leg is a lever, not just a hook - use it to amplify pulling pressure and shoulder isolation",
+      "Grip control on the head must be aggressive and unrelenting - any relaxation allows posture recovery",
+      "The position is designed for submissions, not stalling - constantly threaten attacks to prevent opponent from developing escape timing",
+      "Energy efficiency comes from structural position, not muscular effort - let the opponent's weight work against them",
+      "Mission Control is a transitional hub - be ready to flow to New York, Carni, or submission controls based on opponent's defensive responses"
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the essential weight distribution for maintaining Mission Control and how does it create the 'cooking' effect on your opponent?",
+        "answer": "Your hips must remain elevated off the mat, creating active upward pressure that forces your opponent's weight onto their trapped shoulder. This asymmetric loading creates rapid fatigue in their shoulder and neck while you can maintain control with relatively less effort. The structural mechanics mean their own defensive efforts work against them - the more they resist, the more their weight loads onto the compromised shoulder."
+      },
+      {
+        "question": "Your opponent begins recovering posture by driving weight backward - what adjustment do you make to maintain control?",
+        "answer": "Increase hip elevation and pull more aggressively on their head with both hands to counteract their backward movement. If they continue driving back, immediately transition to triangle by bringing your leg across their face - their upward posture movement actually assists the triangle entry. Use their defensive momentum against them rather than fighting it directly with strength."
+      },
+      {
+        "question": "What are the primary grips required to maintain Mission Control and why is each essential?",
+        "answer": "The primary grip is head control - either double overhooks behind the head or one hand on the back of the head with the other controlling the trapped arm. Head control is non-negotiable because any relaxation allows posture recovery which eliminates both control and submission opportunities. Secondary is the wrist or tricep control on the trapped arm to prevent extraction. Without aggressive head control, the entire position structure fails."
+      },
+      {
+        "question": "How do you shut down the opponent's primary escape attempt of extracting their trapped arm?",
+        "answer": "Keep the trapped arm isolated on the inside of your high guard leg by constantly monitoring its position and maintaining downward pressure with your outside leg over their shoulder. If they begin pulling the arm back, immediately follow it into omoplata - their extraction attempt is actually the setup for your next attack. If the arm slips toward the outside, transition to Invisible Collar or New York to reestablish shoulder isolation."
+      },
+      {
+        "question": "Where should the high guard leg be positioned on the opponent's back and why does height matter?",
+        "answer": "Thread your inside leg as high as possible across the opponent's back, with the shin or calf creating downward pressure on the shoulder blade. The higher the leg position, the greater the shoulder isolation and mechanical leverage. A leg positioned too low allows the opponent to maintain shoulder mobility and generate defensive frames, reducing submission threat and control effectiveness."
+      },
+      {
+        "question": "Your opponent successfully stands up while you maintain Mission Control - how do you recover or capitalize?",
+        "answer": "If they stand with you attached, you have two options based on their balance. If they're off-balance forward, continue pulling their head and elevate into a flying triangle or omoplata. If they achieve stable standing posture, release the high guard and transition to standing guard position, looking for immediate takedowns or guard pulls. Don't cling to a compromised Mission Control against a standing opponent."
+      },
+      {
+        "question": "How do you manage energy expenditure to maintain Mission Control for extended periods?",
+        "answer": "Rely on structural positioning rather than muscular effort - use hip elevation and leg positioning for control, letting structural mechanics do the work. Once the position is locked, relax into it while maintaining control tension through your frame, not through constant gripping and pulling. Let the opponent's own weight distribution create the fatigue while you conserve energy for attacks and adjustments."
+      },
+      {
+        "question": "Your opponent drives forward with stacking pressure to collapse your high guard - what is your counter?",
+        "answer": "Accept their forward pressure and use their momentum to transition. Options include transitioning to Zombie control which is specifically designed for stacking opponents, rolling into omoplata using their forward pressure as momentum, or using an overhead sweep to reverse position entirely. Forward stacking should be welcomed as it creates predictable momentum you can redirect into attacks."
+      }
+    ],
+    "decision_tree": [
+      {
+        "condition": "Opponent maintains broken posture with head down and weight on trapped shoulder",
+        "actions": [
+          {
+            "technique": "Triangle Setup",
+            "target": "Triangle Control",
+            "probability": 75
+          },
+          {
+            "technique": "Closed Guard to Omoplata",
+            "target": "Omoplata Control",
+            "probability": 70
+          }
+        ]
+      },
+      {
+        "condition": "Opponent attempts to posture up by driving weight back and lifting head",
+        "actions": [
+          {
+            "technique": "Triangle from Guard",
+            "target": "Triangle Control",
+            "probability": 70
+          },
+          {
+            "technique": "New York Transition",
+            "target": "New York",
+            "probability": 55
+          }
+        ]
+      },
+      {
+        "condition": "Opponent drives forward with stacking pressure attempting to collapse high guard",
+        "actions": [
+          {
+            "technique": "Zombie Transition",
+            "target": "Zombie",
+            "probability": 60
+          },
+          {
+            "technique": "Omoplata Sweep",
+            "target": "Back Control",
+            "probability": 58
+          }
+        ]
+      },
+      {
+        "condition": "Opponent pulls trapped arm back attempting to free shoulder from isolation",
+        "actions": [
+          {
+            "technique": "Omoplata to Sweep",
+            "target": "Omoplata Control",
+            "probability": 68
+          },
+          {
+            "technique": "Invisible Collar Transition",
+            "target": "Invisible Collar",
+            "probability": 45
+          }
+        ]
+      },
+      {
+        "condition": "Opponent successfully extracts arm and begins to open guard",
+        "actions": [
+          {
+            "technique": "Hip Bump Sweep",
+            "target": "Mount",
+            "probability": 50
+          },
+          {
+            "technique": "Guard Replacement",
+            "target": "Closed Guard",
+            "probability": 45
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Failing to maintain continuous hip elevation, allowing hips to settle to mat",
+        "consequence": "Opponent can drive weight down and collapse the high guard position, escaping shoulder isolation",
+        "correction": "Keep hips actively elevated throughout - use core engagement and leg drive to maintain upward pressure against opponent's shoulder"
+      },
+      {
+        "error": "Relaxing grip pressure on opponent's head during transitions or submission attempts",
+        "consequence": "Opponent recovers posture immediately, eliminating shoulder isolation and submission opportunities",
+        "correction": "Maintain aggressive downward pulling on head throughout all transitions - posture control is non-negotiable in Mission Control"
+      },
+      {
+        "error": "Positioning high guard leg too low on opponent's back, reducing shoulder isolation effectiveness",
+        "consequence": "Opponent maintains shoulder mobility and can generate defensive frames, preventing effective submission entries",
+        "correction": "Thread leg as high as possible across opponent's back - the higher the leg, the greater the shoulder isolation and control"
+      },
+      {
+        "error": "Allowing opponent's trapped arm to slip outside of high guard leg during scrambles",
+        "consequence": "Opponent can establish defensive frames and escape shoulder isolation, returning to neutral guard position",
+        "correction": "Constantly monitor arm position - if arm begins to slip out, immediately transition to Invisible Collar or New York control"
+      },
+      {
+        "error": "Stalling in Mission Control without threatening submissions or transitions",
+        "consequence": "Opponent develops timing for escape attempts and can methodically work to extract arm and break position",
+        "correction": "Mission Control is an attack platform, not a resting position - constantly threaten triangle, omoplata, or transitions to keep opponent defensive"
+      },
+      {
+        "error": "Attempting to force submission entries before establishing proper shoulder isolation and posture control",
+        "consequence": "Submissions fail due to lack of control foundation, opponent escapes during transition attempts",
+        "correction": "Establish and confirm Mission Control structure first - shoulder isolated, posture broken, hips elevated - then attack with confidence"
+      },
+      {
+        "error": "Using only muscular strength to maintain position rather than leveraging structural mechanics",
+        "consequence": "Rapid fatigue prevents sustained control, position collapses as practitioner tires before opponent does",
+        "correction": "Rely on hip elevation and leg positioning for control - let structural mechanics do the work while minimizing muscular effort"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "High Guard Maintenance Drill",
+        "description": "Partner starts in closed guard. Establish high guard with inside leg threaded across back. Partner attempts to drive weight back and break position using only posture, no hands. Maintain high guard for 2 minutes using hip elevation and leg positioning. Focus on structural control rather than muscular effort.",
+        "duration": "2 minutes per round, 3 rounds"
+      },
+      {
+        "name": "Mission Control Entry Flow",
+        "description": "Starting from closed guard with broken posture, practice entering Mission Control in one smooth motion - thread leg across back, establish shoulder control with outside leg, pull head down, isolate shoulder. Partner provides 50% resistance. Repeat 10 times each side, focusing on fluid entry mechanics and immediate control establishment.",
+        "duration": "5 minutes"
+      },
+      {
+        "name": "Triangle-Omoplata Decision Drill",
+        "description": "Establish Mission Control. Partner randomly chooses to either maintain broken posture (triangle) or attempt to pull arm back (omoplata). Practitioner must identify which defense opponent is using and execute appropriate submission within 10 seconds. Develops decision-making and submission recognition from Mission Control platform.",
+        "duration": "3 minutes per round, 4 rounds"
+      },
+      {
+        "name": "Mission Control Escape Resistance",
+        "description": "Establish Mission Control with proper shoulder isolation and posture control. Partner uses full resistance to attempt escape using any method - posture recovery, arm extraction, stacking, standing. Practitioner must maintain Mission Control for 3 minutes or successfully counter into submission. Develops control maintenance under maximum pressure.",
+        "duration": "3 minutes per round, 3 rounds"
+      },
+      {
+        "name": "Rubber Guard Transition Chain",
+        "description": "Flow drill starting in Mission Control. Partner defends triangle, transition to New York. Partner defends New York, transition to Carni. Partner defends Carni, return to Mission Control. Continue flowing for entire round with controlled resistance. Builds understanding of rubber guard system connections.",
+        "duration": "5 minutes"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Rubber Guard",
+        "relationship": "Parent system - Mission Control is the foundational control position"
+      },
+      {
+        "name": "New York",
+        "relationship": "Advanced control - primary transition when opponent defends Mission Control"
+      },
+      {
+        "name": "Triangle Control",
+        "relationship": "Primary submission destination from Mission Control"
+      },
+      {
+        "name": "Omoplata Control",
+        "relationship": "Secondary submission destination from Mission Control"
+      },
+      {
+        "name": "Closed Guard",
+        "relationship": "Starting position - Mission Control is established from high guard"
+      },
+      {
+        "name": "Gogoplata Control",
+        "relationship": "Advanced submission option when posture is completely broken"
+      },
+      {
+        "name": "Carni",
+        "relationship": "Alternative shoulder isolation control within rubber guard system"
+      },
+      {
+        "name": "Invisible Collar",
+        "relationship": "Transition control when opponent strips grips or extracts arm"
+      },
+      {
+        "name": "Zombie",
+        "relationship": "Counter control when opponent stacks or drives forward pressure"
+      },
+      {
+        "name": "Back Control",
+        "relationship": "Alternative destination from omoplata sweeps when opponent over-defends"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "beginner": 40,
+        "intermediate": 65,
+        "advanced": 85,
+        "description": "Ability to maintain Mission Control against escape attempts"
+      },
+      "advancement_probability": {
+        "beginner": 35,
+        "intermediate": 58,
+        "advanced": 78,
+        "description": "Probability of advancing to submission or improved position"
+      },
+      "submission_probability": {
+        "beginner": 30,
+        "intermediate": 52,
+        "advanced": 72,
+        "description": "Probability of finishing submission directly from Mission Control"
+      },
+      "average_time": "45-90 seconds before submission attempt or position change"
+    },
+    "transitions": [
+      {
+        "transition": "Triangle Setup",
+        "attempt_probability": 15
+      },
+      {
+        "transition": "Omoplata to Sweep",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Closed Guard to Omoplata",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Triangle from Guard",
+        "attempt_probability": 14
+      },
+      {
+        "transition": "Armbar from Guard",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Hip Bump Sweep",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Omoplata Sweep",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Closed Guard to Triangle",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Triangle to Omoplata",
+        "attempt_probability": 9
+      }
+    ]
   }
 }

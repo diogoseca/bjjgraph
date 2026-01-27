@@ -10,8 +10,6 @@
     "passing",
     "strategy"
   ],
-  "starting_position": "Open Guard",
-  "ending_position": "Side Control",
   "success_rates": {
     "beginner": 35,
     "intermediate": 50,
@@ -264,6 +262,24 @@
     {
       "name": "Base Maintenance",
       "relationship": "Critical principle for preventing sweeps during lateral movement"
+    }
+  ],
+  "from_position": "Open Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Side Control/Top",
+      "probability": 65,
+      "result": "success"
+    },
+    {
+      "to": "Open Guard/Bottom",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Open Guard/Top",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

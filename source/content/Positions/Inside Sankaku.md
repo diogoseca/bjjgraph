@@ -58,7 +58,7 @@ Inside Sankaku, also known as the 'Honey Hole' or '411', is an advanced leg enta
 | **Energy Cost** | High | Medium |
 | **Time** | Short | Medium |
 
-**Key Difference:** Hip entanglement with superior control
+**Key Difference:** Hip entanglement optimizes inside heel hook angle
 
 
 
@@ -89,26 +89,20 @@ Inside Sankaku, also known as the 'Honey Hole' or '411', is an advanced leg enta
 - Recognize when the position is lost and tap early rather than risking serious knee or ankle injury
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Hip Escape to Guard Recovery]]** → [[Open Guard]]
-  - Success Rate: Beginner 15%, Intermediate 25%, Advanced 40%
+- **[[Hip Escape to Guard Recovery]]** (19% of attempts)
 
-- **[[Granby Roll Escape]]** → [[Turtle]]
-  - Success Rate: Beginner 10%, Intermediate 20%, Advanced 35%
+- **[[Granby Roll Escape]]** (17% of attempts)
 
-- **[[Technical Standup]]** → [[Standing Position]]
-  - Success Rate: Beginner 8%, Intermediate 15%, Advanced 25%
+- **[[Technical Standup]]** (12% of attempts)
 
-- **[[Counter Leg Attack]]** → [[50-50 Guard]]
-  - Success Rate: Beginner 12%, Intermediate 22%, Advanced 35%
+- **[[Counter Leg Attack]]** (17% of attempts)
 
-- **[[Frame and Extract to Half Guard]]** → [[Half Guard]]
-  - Success Rate: Beginner 18%, Intermediate 30%, Advanced 45%
+- **[[Frame and Extract to Half Guard]]** (21% of attempts)
 
-- **[[Rolling Escape]]** → [[Defensive Position]]
-  - Success Rate: Beginner 10%, Intermediate 18%, Advanced 30%
+- **[[Rolling Escape]]** (14% of attempts)
 
 
 ### Common Mistakes
@@ -166,38 +160,28 @@ Inside Sankaku, also known as the 'Honey Hole' or '411', is an advanced leg enta
 - Distribute weight strategically to maintain control while preparing for submission attempts without sacrificing positional security
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Inside Heel Hook]]** → [[Won by Submission]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 65%
+- **[[Inside Heel Hook]]** (12% of attempts)
 
-- **[[Toe Hold]]** → [[Won by Submission]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Toe Hold]]** (9% of attempts)
 
-- **[[Outside Ashi Entry]]** → [[Outside Ashi-Garami]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Outside Ashi Entry]]** (12% of attempts)
 
-- **[[Saddle Entry from Top]]** → [[Saddle]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Saddle Entry from Top]]** (11% of attempts)
 
-- **[[50-50 Entry]]** → [[50-50 Guard]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[50-50 Entry]]** (11% of attempts)
 
-- **[[Kneebar from Top]]** → [[Won by Submission]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Kneebar from Top]]** (9% of attempts)
 
-- **[[Calf Slicer]]** → [[Won by Submission]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+- **[[Calf Slicer]]** (8% of attempts)
 
-- **[[Rolling Back Take]]** → [[Back Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Rolling Back Take]]** (10% of attempts)
 
-- **[[Outside Heel Hook]]** → [[Won by Submission]]
-  - Success Rate: Beginner 18%, Intermediate 32%, Advanced 48%
+- **[[Outside Heel Hook]]** (9% of attempts)
 
-- **[[Transition to Mount]]** → [[Mount]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Side Control to Mount]]** (9% of attempts)
 
 
 ### Common Mistakes

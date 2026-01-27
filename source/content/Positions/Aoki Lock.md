@@ -93,26 +93,20 @@ This position appears most commonly in no-gi competition, submission-only format
 - Prioritize position escape over submission defense if pressure becomes dangerous
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Rolling Escape to Guard]]** → [[Closed Guard]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Rolling Escape to Guard]]** (19% of attempts)
 
-- **[[Arm Extraction to Turtle]]** → [[Turtle]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Arm Extraction to Turtle]]** (21% of attempts)
 
-- **[[Hip Escape to Guard Recovery]]** → [[Open Guard]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Hip Escape to Guard Recovery]]** (17% of attempts)
 
-- **[[Rolling Counter to Top]]** → [[Scramble Position]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+- **[[Rolling Counter to Top]]** (14% of attempts)
 
-- **[[Base Attack to Sweep]]** → [[Standing Position]]
-  - Success Rate: Beginner 10%, Intermediate 25%, Advanced 40%
+- **[[Base Attack to Sweep]]** (13% of attempts)
 
-- **[[Granby Roll Escape]]** → [[Turtle]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Granby Roll Escape]]** (16% of attempts)
 
 
 ### Common Mistakes
@@ -166,26 +160,20 @@ This position appears most commonly in no-gi competition, submission-only format
 - Maintain leg entanglement tightness to prevent arm extraction and position escape
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Aoki Lock Finish]]** → [[Won by Submission]]
-  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+- **[[Aoki Lock Finish]]** (16% of attempts)
 
-- **[[Transition to Back Control]]** → [[Back Control]]
-  - Success Rate: Beginner 55%, Intermediate 70%, Advanced 85%
+- **[[Aoki Lock to Back Control]]** (20% of attempts)
 
-- **[[Transition to Truck]]** → [[Truck]]
-  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 80%
+- **[[Turtle to Truck]]** (17% of attempts)
 
-- **[[Transition to Crucifix]]** → [[Crucifix]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Aoki Lock to Crucifix]]** (15% of attempts)
 
-- **[[Kimura Switch]]** → [[Kimura Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Kimura Switch]]** (14% of attempts)
 
-- **[[Transition to North-South]]** → [[North-South]]
-  - Success Rate: Beginner 60%, Intermediate 75%, Advanced 85%
+- **[[Side Control to North-South]]** (18% of attempts)
 
 
 ### Common Mistakes

@@ -4,7 +4,7 @@
 
 ---
 title: "Knee Shield Half Guard Bottom | BJJ Position Guide | BJJ Graph"
-description: "Master Knee Shield Half Guard Bottom in BJJ. Essential defensive half guard with knee shield barrier. Learn frames, sweeps, and retention with 65% defensive success rate."
+description: "Master Knee Shield Half Guard Bottom in BJJ. Essential defensive half guard with knee shield barrier. Learn frames, sweeps, and retention with 80% defensive success rate for advanced practitioners."
 ---
 
 
@@ -21,37 +21,37 @@ description: "Master Knee Shield Half Guard Bottom in BJJ. Essential defensive h
     {
       "@type": "HowToStep",
       "name": "Execute Old School Sweep",
-      "text": "From this position, execute Old School Sweep to transition to Mount. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Old School Sweep. This technique is attempted in 16% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Sweep from Half",
-      "text": "From this position, execute Underhook Sweep from Half to transition to Mount. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 14% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Deep Half Entry",
-      "text": "From this position, execute Deep Half Entry to transition to Deep Half Guard. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 17% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Take Generic",
-      "text": "From this position, execute Back Take Generic to transition to Back Control. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Back Take Generic. This technique is attempted in 13% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute X-Guard Sweep",
-      "text": "From this position, execute X-Guard Sweep to transition to X-Guard. Success rate for advanced practitioners: 60%.",
+      "name": "Execute Single Leg X Entry",
+      "text": "From this position, attempt Single Leg X Entry. This technique is attempted in 14% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Lumberjack Sweep",
-      "text": "From this position, execute Lumberjack Sweep to transition to Mount. Success rate for advanced practitioners: 58%.",
+      "text": "From this position, attempt Lumberjack Sweep. This technique is attempted in 14% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -115,7 +115,7 @@ description: "Master Knee Shield Half Guard Bottom in BJJ. Essential defensive h
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Knee Shield Half Guard Bottom",
-  "description": "Master Knee Shield Half Guard Bottom in BJJ. Essential defensive half guard with knee shield barrier. Learn frames, sweeps, and retention with 65% defensive success rate.",
+  "description": "Master Knee Shield Half Guard Bottom in BJJ. Essential defensive half guard with knee shield barrier. Learn frames, sweeps, and retention with 80% defensive success rate for advanced practitioners.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -164,7 +164,7 @@ Knee Shield Half Guard Bottom is one of the most fundamental and effective defen
 
 Unlike traditional half guard where the top player can establish heavy crossface and underhook control, the knee shield creates a fundamental structural problem for the passer. The bottom player's shin becomes a rigid barrier that prevents the top player from settling their weight and advancing their position. This distance allows the bottom player to work their grips, create angles, and maintain the mobility necessary for effective guard retention. The position is particularly effective in both gi and no-gi contexts, though grip fighting strategies differ significantly between the two.
 
-The knee shield half guard has become a cornerstone position in modern competitive BJJ, with world-class competitors like Lucas Leite, Bernardo Faria, and Craig Jones demonstrating its effectiveness at the highest levels. The position offers multiple pathways to success: maintaining retention against pressure passers, sweeping aggressive opponents, or transitioning to more offensive guard systems when opportunities arise. Understanding the knee shield is essential for developing a complete defensive guard game.
+The knee shield half guard has become a cornerstone position in modern competitive BJJ, with world-class competitors demonstrating its effectiveness at the highest levels. The position offers multiple pathways to success: maintaining retention against pressure passers, sweeping aggressive opponents, or transitioning to more offensive guard systems when opportunities arise. Understanding the knee shield is essential for developing a complete defensive guard game.
 
 </section>
 
@@ -212,84 +212,20 @@ The knee shield half guard has become a cornerstone position in modern competiti
 
 ## Available Escapes
 
-### [[Old School Sweep]] → [[Mount]]
+### [[Old School Sweep]] (16% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Underhook Sweep from Half]] (14% of attempts)
 
-### [[Underhook Sweep from Half]] → [[Mount]]
+### [[Deep Half Entry]] (17% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Back Take Generic]] (13% of attempts)
 
-### [[Deep Half Entry]] → [[Deep Half Guard]]
+### [[Single Leg X Entry]] (14% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Lumberjack Sweep]] (14% of attempts)
 
-### [[Back Take Generic]] → [[Back Control]]
+### [[Kimura from Half Guard]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-### [[X-Guard Sweep]] → [[X-Guard]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[Lumberjack Sweep]] → [[Mount]]
-
-**Success Rates:**
-- Beginner: 28%
-- Intermediate: 42%
-- Advanced: 58%
-
-### [[Kimura from Half Guard]] → [[Kimura Control]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Knee Slice from Half]]** → [[Side Control]] (Opponent Success: 45%)
-- **[[Smash Pass]]** → [[Side Control]] (Opponent Success: 40%)
-- **[[Half Guard Pass]]** → [[Side Control]] (Opponent Success: 38%)
-- **[[Underhook Pass]]** → [[Side Control]] (Opponent Success: 35%)
-- **[[Leg Weave Pass]]** → [[Headquarters Position]] (Opponent Success: 30%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Frame and Shrimp]]** → [[Knee Shield Half Guard]]
-  - Opponent attempts to flatten knee shield or drive forward with pressure
-- **[[Deep Half Entry]]** → [[Deep Half Guard]]
-  - Opponent commits weight forward trying to smash through knee shield
-- **[[X-Guard Sweep]]** → [[X-Guard]]
-  - Opponent stands up to attempt standing passes
-- **[[Back Take Generic]]** → [[Back Control]]
-  - Opponent overcommits to one side during passing attempt
 
 
 </section>
@@ -299,12 +235,12 @@ The knee shield half guard has become a cornerstone position in modern competiti
 ## Decision Making from This Position
 
 **If opponent attempts to smash knee shield down and flatten position with heavy pressure:**
-- Execute **[[Frame and Shrimp]]** → [[Knee Shield Half Guard]] (Probability: 60%)
+- Execute **[[Frame and Hip Escape]]** → [[Knee Shield Half Guard]] (Probability: 60%)
 - Execute **[[Deep Half Entry]]** → [[Deep Half Guard]] (Probability: 55%)
 
 
 **If opponent stands up to create passing angles or attempt standing passes:**
-- Execute **[[X-Guard Sweep]]** → [[X-Guard]] (Probability: 65%)
+- Execute **[[Single Leg X Entry]]** → [[Single Leg X-Guard]] (Probability: 65%)
 - Execute **[[Single Leg X Entry]]** → [[Single Leg X-Guard]] (Probability: 58%)
 
 
@@ -314,7 +250,7 @@ The knee shield half guard has become a cornerstone position in modern competiti
 
 
 **If opponent establishes underhook and attempts to consolidate position:**
-- Execute **[[Kimura from Half Guard]]** → [[Kimura Control]] (Probability: 45%)
+- Execute **[[Kimura from Half Guard]]** → [[Kimura Trap]] (Probability: 45%)
 - Execute **[[Back Take Generic]]** → [[Back Control]] (Probability: 42%)
 
 
@@ -396,29 +332,39 @@ From knee shield, practice flowing between deep half, x-guard, and standard half
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Kimura submission path from underhook battle
+## Test Your Knowledge
 
-`Knee Shield Half Guard Bottom → Kimura from Half Guard → Kimura Control → Kimura`
+**Q1**: Your opponent starts driving heavy pressure into your knee shield. What adjustment maintains your frame?
+**A**: Brace your knee shield by keeping your shin at approximately 45 degrees across their chest while engaging your hip flexors to push outward. Support the frame with your elbow behind your knee for additional structural integrity. If they continue driving, hip escape away to create angle rather than absorbing pressure directly. Your free hand should frame on their shoulder or bicep to create secondary support.
 
-### Back attack path via old school sweep
+**Q2**: What are the essential grips for maintaining knee shield half guard bottom?
+**A**: Primary grip should control opponent's near arm—sleeve grip in gi, wrist control in no-gi—preventing them from establishing crossface. Secondary grip controls far collar or behind their head to manage distance and prevent posture. In no-gi, an overhook on their near arm combined with head control provides excellent retention. Never allow both your arms to be controlled simultaneously.
 
-`Knee Shield Half Guard Bottom → Old School Sweep → Back Control → Rear Naked Choke`
+**Q3**: How do you shut down the opponent's knee slice attempt through your knee shield?
+**A**: As they begin the knee slice, lower your knee shield and drive your shin into their hip or thigh rather than their chest—this blocks the slice angle. Simultaneously frame on their shoulder with your hand to prevent forward pressure. Hip escape away from the direction of their slice while maintaining your bottom leg hook. If they persist, transition to deep half by diving under their weight as they commit forward.
 
-### Deep half to leg lock progression
+**Q4**: What grip priorities should you establish when entering knee shield from flat half guard?
+**A**: First establish frame with near arm on their bicep or shoulder to create space for shield insertion. Second, hip escape and insert knee shield as high as possible across their chest. Third, establish collar or sleeve grip to prevent them from collapsing the newly established shield. Finally, secure your bottom leg hook behind their far leg. The sequence must be quick—any delay allows them to smash the shield before it's established.
 
-`Knee Shield Half Guard Bottom → Deep Half Entry → Deep Half Guard → Inside Ashi-Garami → Heel Hook`
+**Q5**: How do you effectively threaten sweeps while maintaining defensive integrity?
+**A**: Use your grips and hip movement to create sweep angles without fully committing your weight. Threaten the underhook sweep by attempting to swim for underhook, which forces opponent to defend and creates passing hesitation. Keep one hand ready to frame if the sweep fails. The threat of sweeps is often more valuable than the sweep itself—it prevents opponent from committing fully to passing, buying time for better opportunities.
 
-### X-guard to mounted attack sequence
+**Q6**: Your opponent successfully flattens your knee shield slightly. What immediate recovery do you make?
+**A**: Immediately frame on their shoulder with both hands and explosive hip escape away from them to recreate space. As space opens, re-insert your knee shield at the highest position possible. If they maintain pressure preventing re-insertion, transition to alternative guards—deep half if they're committed forward, butterfly or closed guard if they create distance. Never fight to maintain a compromised knee shield position.
 
-`Knee Shield Half Guard Bottom → X-Guard Sweep → X-Guard → Mount → Armbar from Mount`
+**Q7**: How do you manage energy when defending persistent passing pressure from knee shield?
+**A**: Rely on skeletal structure rather than muscle tension—your shin bone does the work, not your leg muscles. Use efficient hip escapes rather than pushing against their weight. Time your defensive movements to their pressure waves rather than maintaining constant tension. Create micro-rests by establishing strong frames then relaxing muscles while maintaining frame position. Attack periodically to make them defensive, creating recovery opportunities.
+
+**Q8**: Your opponent stands up from knee shield top position. How do you immediately transition?
+**A**: This is an opportunity, not a defensive crisis. Immediately hook their standing leg with your bottom leg and swim to X-guard or single leg X-guard by inverting your hips and establishing double hooks on their standing leg. Alternatively, elevate their standing leg with your knee shield while grabbing their ankle to enter technical stand-up or single leg attack. Standing creates space you can exploit—follow their hips with your hooks as they rise.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -439,13 +385,13 @@ From knee shield, practice flowing between deep half, x-guard, and standard half
 
 ## Related Positions and Techniques
 
+- **[[Knee Shield Half Guard]]** - Hub position—this is the bottom perspective
 - **[[Half Guard]]** - Parent position—knee shield is specialized variant
 - **[[Deep Half Guard]]** - Common transition target from knee shield
 - **[[Z-Guard]]** - Alternative half guard frame system
 - **[[Lockdown]]** - Alternative half guard control method
 - **[[X-Guard]]** - Transition target when opponent stands
-- **[[Underhook Battle]]** - Key grip fighting scenario in position
-- **[[Knee Shield Retention]]** - Core defensive concept for this position
+- **[[Overhook Guard]]** - Related grip fighting concept for retention
 - **[[Old School Sweep]]** - Primary offensive technique from position
 - **[[Knee Slice from Half]]** - Most common passing threat to defend
 

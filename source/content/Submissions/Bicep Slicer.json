@@ -257,7 +257,32 @@
     },
     {
       "question": "What should you do if your opponent begins to straighten their arm to escape the bicep slicer?",
-      "answer": "If the opponent successfully begins to straighten their arm despite your wrist control, you should immediately transition to an alternative submission rather than forcing the bicep slicer. The straightening motion opens opportunities for armbars, kimuros, or other attacks. Use their momentum and the fact that their arm is now extended against them. Attempting to force a bicep slicer against a straightening arm is both ineffective and potentially dangerous, as it may cause you to apply excessive force trying to bend an arm that is actively resisting.",
+      "answer": "If the opponent successfully begins to straighten their arm despite your wrist control, you should immediately transition to an alternative submission rather than forcing the bicep slicer. The straightening motion opens opportunities for armbars, kimuras, or other attacks. Use their momentum and the fact that their arm is now extended against them. Attempting to force a bicep slicer against a straightening arm is both ineffective and potentially dangerous, as it may cause you to apply excessive force trying to bend an arm that is actively resisting.",
+      "safety_critical": true
+    },
+    {
+      "question": "Your opponent starts to roll toward the trapped arm while you have the bicep slicer partially applied—what adjustment maintains the submission?",
+      "answer": "When the opponent rolls toward the trapped arm, maintain your body position and follow their roll while keeping your shin locked behind their elbow. Use your free leg as a hook to control their hip and prevent the full roll completion. Your weight should stay connected to their body throughout the movement. You may end up in a different position (such as transitioning from crucifix to a mounted variation), but can often maintain the submission throughout the movement by keeping the shin-elbow-wrist connection intact.",
+      "safety_critical": false
+    },
+    {
+      "question": "What anatomical structures are at risk during a bicep slicer, and what are the warning signs of injury?",
+      "answer": "The bicep slicer attacks three anatomical structures: the bicep muscle belly (compression trauma), the elbow joint ligaments (hyperextension stress), and the radial nerve (compression). Warning signs of potential injury include sudden sharp pain in the bicep belly, popping or tearing sensations near the elbow, numbness or tingling in the forearm or hand (nerve involvement), and the opponent going silent or stiff instead of tapping. Any of these signs require immediate release and medical evaluation.",
+      "safety_critical": true
+    },
+    {
+      "question": "What is the point of no escape in the bicep slicer, and how do you recognize when you've reached it?",
+      "answer": "The point of no escape occurs when your shin is fully seated behind the elbow joint, wrist control is secured with the arm bent past 90 degrees, and your chest or hip pressure closes the distance. At this point, the opponent cannot straighten their arm due to the fulcrum position, and any resistance only increases compression on the bicep. You recognize this point when you feel their arm locked into position with no remaining slack in the system—the scissoring mechanism is fully engaged and finishing pressure requires only bodyweight commitment.",
+      "safety_critical": false
+    },
+    {
+      "question": "How do you adjust your grip when your opponent hand-fights aggressively to prevent wrist control during the bicep slicer setup?",
+      "answer": "When facing aggressive hand-fighting, switch from a standard wrist grip to a figure-four or kimura-style grip configuration that captures their wrist using both your arms. This grip is significantly harder to break and allows you to continue pulling the wrist toward your chest despite their resistance. Alternatively, if they're defending with their free hand, consider briefly releasing to attack the defending arm instead, setting up a crucifix or transitioning to control both arms before returning to the bicep slicer.",
+      "safety_critical": false
+    },
+    {
+      "question": "In competition, how do you adjust your finishing speed and pressure while still respecting your opponent's safety?",
+      "answer": "In competition, you can apply the bicep slicer faster than in training, but you should still avoid explosive jerking motions that bypass the opponent's ability to tap. Apply steady, progressive pressure and give the opponent a reasonable opportunity to tap before reaching maximum compression. Even in competition, maintain awareness—if your opponent goes limp or shows signs of losing consciousness (which can happen with intense pain), release and alert the referee. A victory obtained by permanently injuring an opponent is not worth the cost to the sport and your training community.",
       "safety_critical": true
     }
   ],
@@ -307,11 +332,10 @@
   ],
   "from_positions": [
     "Crucifix",
-    "Truck",
+    "Twister Control",
     "Technical Mount",
     "North-South",
     "S Mount",
-    "Twister Control",
     "Gift Wrap",
     "Modified Scarf Hold"
   ],
@@ -320,16 +344,12 @@
     "Americana",
     "Armbar from Mount",
     "Armbar from Side Control",
-    "Straight Armbar",
     "Calf Slicer",
     "Calf Slicer from Truck",
     "Banana Split",
     "Twister",
     "Rear Naked Choke",
-    "Kimura from Mount",
-    "Kimura from Side Control",
-    "Arm Crush",
-    "Spine Lock"
+    "Arm Crush"
   ],
   "related_content": [
     {
@@ -337,7 +357,7 @@
       "relationship": "Primary attacking position for bicep slicer"
     },
     {
-      "name": "Truck",
+      "name": "Twister Control",
       "relationship": "Common setup position for bicep slicer and calf slicer combination"
     },
     {
@@ -353,10 +373,6 @@
       "relationship": "Modified mount position allowing bicep slicer setup"
     },
     {
-      "name": "Twister Control",
-      "relationship": "Advanced control position offering bicep slicer as alternative finish"
-    },
-    {
       "name": "Americana",
       "relationship": "Similar arm isolation and control concepts"
     },
@@ -365,20 +381,24 @@
       "relationship": "Position that can transition to crucifix and bicep slicer opportunities"
     },
     {
-      "name": "Submission Chains",
-      "relationship": "Principle of linking bicep slicer with other upper body attacks"
-    },
-    {
-      "name": "Leverage Principles",
-      "relationship": "Fundamental concept explaining the mechanical advantage in compression locks"
-    },
-    {
       "name": "Banana Split",
       "relationship": "Another compression-based submission using similar mechanical principles"
     },
     {
       "name": "Gift Wrap",
       "relationship": "Arm control position that can transition to bicep slicer setup"
+    },
+    {
+      "name": "Arm Crush",
+      "relationship": "Related compression submission targeting the arm"
+    },
+    {
+      "name": "Armbar from Mount",
+      "relationship": "Alternative arm attack when bicep slicer defense creates extension"
+    },
+    {
+      "name": "S Mount",
+      "relationship": "Mount variation providing bicep slicer setup opportunity"
     }
   ]
 }

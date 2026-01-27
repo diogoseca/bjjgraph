@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Front Headlock to Back | BJJ Technique | BJJ Graph"
 description: "Master Front Headlock to Back Take in BJJ. Complete guide from front headlock control to back control with hooks and seat belt. Beginner 40%, Intermediate 60%, Advanced 75%."
@@ -16,7 +17,7 @@ description: "Master Front Headlock to Back Take in BJJ. Complete guide from fro
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Front Headlock to Back in BJJ",
-  "description": "Step-by-step guide for Front Headlock to Back from Front Headlock to Back Control.",
+  "description": "Step-by-step guide for Front Headlock to Back from Front Headlock/Top. Possible outcomes: Back Control/Top (75%), Front Headlock/Top (15%), Front Headlock/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -158,11 +159,25 @@ The effectiveness of this transition lies in its ability to capitalize on the op
 
 This technique serves as a cornerstone of modern no-gi grappling and has proven equally effective in gi competition. Its prevalence in high-level competition stems from its reliability and the difficulty opponents face in defending it once proper front headlock control is established. The transition connects seamlessly with submission attacks including the rear naked choke, making it both a positional advancement and a direct path to fight-ending submissions.
 
-**Starting Position**: [[Front Headlock]]
-**Ending Position**: [[Back Control]]
+**From Position**: [[Front Headlock/Top]]
 **Success Rates**: Beginner 40%, Intermediate 60%, Advanced 75%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Back Control/Top]] | 75% |
+| Failure | [[Front Headlock/Top]] | 15% |
+| Counter | [[Front Headlock/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

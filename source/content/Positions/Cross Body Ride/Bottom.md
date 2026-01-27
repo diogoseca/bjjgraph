@@ -4,7 +4,7 @@
 
 ---
 title: "Cross Body Ride Bottom | BJJ Position Guide | BJJ Graph"
-description: "Master defensive strategies from Cross Body Ride Bottom in BJJ. Complete guide covering escapes, transitions, and survival tactics."
+description: "Master defensive strategies from Cross Body Ride Bottom in BJJ. Complete guide covering escapes, transitions, and survival tactics against perpendicular turtle pressure."
 ---
 
 
@@ -21,37 +21,37 @@ description: "Master defensive strategies from Cross Body Ride Bottom in BJJ. Co
     {
       "@type": "HowToStep",
       "name": "Execute Granby Roll",
-      "text": "From this position, execute Granby Roll to transition to Closed Guard. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Granby Roll. This technique is attempted in 18% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape",
-      "text": "From this position, execute Hip Escape to transition to Half Guard. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Hip Escape. This technique is attempted in 17% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Technical Standup",
-      "text": "From this position, execute Technical Standup to transition to Standing Position. Success rate for advanced practitioners: 45%.",
+      "text": "From this position, attempt Technical Standup. This technique is attempted in 15% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Shrimp Escape",
-      "text": "From this position, execute Shrimp Escape to transition to Closed Guard. Success rate for advanced practitioners: 48%.",
+      "text": "From this position, attempt Shrimp Escape. This technique is attempted in 16% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling to Guard",
-      "text": "From this position, execute Rolling to Guard to transition to Open Guard. Success rate for advanced practitioners: 52%.",
+      "text": "From this position, attempt Rolling to Guard. This technique is attempted in 17% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Turtle to Guard",
-      "text": "From this position, execute Turtle to Guard to transition to Butterfly Guard. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Turtle to Guard. This technique is attempted in 17% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -115,7 +115,7 @@ description: "Master defensive strategies from Cross Body Ride Bottom in BJJ. Co
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Cross Body Ride Bottom",
-  "description": "Master defensive strategies from Cross Body Ride Bottom in BJJ. Complete guide covering escapes, transitions, and survival tactics.",
+  "description": "Master defensive strategies from Cross Body Ride Bottom in BJJ. Complete guide covering escapes, transitions, and survival tactics against perpendicular turtle pressure.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -209,74 +209,18 @@ From the bottom perspective, Cross Body Ride represents a critical juncture wher
 
 ## Available Escapes
 
-### [[Granby Roll]] → [[Closed Guard]]
+### [[Granby Roll]] (18% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
+### [[Hip Escape]] (17% of attempts)
 
-### [[Hip Escape]] → [[Half Guard]]
+### [[Technical Standup]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
+### [[Shrimp Escape]] (16% of attempts)
 
-### [[Technical Standup]] → [[Standing Position]]
+### [[Rolling to Guard]] (17% of attempts)
 
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 45%
+### [[Turtle to Guard]] (17% of attempts)
 
-### [[Shrimp Escape]] → [[Closed Guard]]
-
-**Success Rates:**
-- Beginner: 18%
-- Intermediate: 32%
-- Advanced: 48%
-
-### [[Rolling to Guard]] → [[Open Guard]]
-
-**Success Rates:**
-- Beginner: 22%
-- Intermediate: 38%
-- Advanced: 52%
-
-### [[Turtle to Guard]] → [[Butterfly Guard]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Turtle to Back Control]]** → [[Back Control]] (Opponent Success: 65%)
-- **[[Crucifix from Turtle]]** → [[Crucifix]] (Opponent Success: 55%)
-- **[[Truck Entry]]** → [[Truck]] (Opponent Success: 50%)
-- **[[Crab Ride to Back]]** → [[Crab Ride]] (Opponent Success: 60%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Frame and Shrimp]]** → [[Half Guard]]
-  - Opponent attempts to flatten or advance to back control
-- **[[Granby to Closed Guard]]** → [[Closed Guard]]
-  - Opponent commits weight forward during back take attempt
-- **[[Rolling Back Take]]** → [[Closed Guard]]
-  - Opponent overcommits to one side creating rolling opportunity
 
 
 </section>
@@ -301,7 +245,7 @@ From the bottom perspective, Cross Body Ride represents a critical juncture wher
 
 
 **If opponent is attempting to flatten you completely to mat:**
-- Execute **[[Granby to Closed Guard]]** → [[Closed Guard]] (Probability: 40%)
+- Execute **[[Granby Roll]]** → [[Closed Guard]] (Probability: 40%)
 - Execute **[[Turtle to Guard]]** → [[Butterfly Guard]] (Probability: 35%)
 
 
@@ -383,25 +327,39 @@ Start in cross body ride bottom position. Bottom player scores points for succes
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Shortest escape to safety path
+## Test Your Knowledge
 
-`Cross Body Ride Bottom → Granby Roll → Closed Guard (defensive security established)`
+**Q1**: What is your first defensive priority when caught in cross body ride bottom?
+**A**: Immediately protect your neck by tucking your chin tightly to your chest and bringing your hands to your collar/neck area. Simultaneously keep your elbows pinned to your ribs to prevent arm isolation for crucifix or kimura attacks. This defensive shell buys time to assess the situation and plan your escape, preventing immediate submission threats while you work on position improvement.
 
-### High-percentage re-guard path
+**Q2**: Your opponent begins driving heavy shoulder pressure to flatten you - how do you maintain your structure?
+**A**: Widen your base by spreading your knees slightly and driving your hips away from the pressure angle. Post on your forearm on the side receiving pressure rather than a flat hand, as this creates a stronger frame. Keep your core engaged and resist the urge to flatten - even maintaining a few inches of elevation preserves your escape options. If you feel yourself collapsing, immediately hip escape in the direction opposite the pressure.
 
-`Cross Body Ride Bottom → Hip Escape → Half Guard → Butterfly Guard (active guard restoration)`
+**Q3**: When is the optimal moment to attempt a granby roll escape?
+**A**: Execute the granby roll when your opponent commits their weight forward during a back take attempt or when they shift to adjust their grip. The key indicator is feeling their chest pressure lighten momentarily or shift to one side. Roll toward the side where their weight is committed - they'll struggle to follow if they're already moving that direction. Never attempt a granby when they have heavy settled pressure, as this wastes energy and often worsens position.
 
-### Standing escape path
+**Q4**: How do you prevent arm isolation when the opponent is hunting for crucifix?
+**A**: Keep both elbows glued to your ribs at all times, with forearms creating frames close to your body. If they control one wrist, immediately pull that arm back toward your centerline while shifting your hips away. The key is never extending your arms to post or push - any extended arm becomes a lever for crucifix entry. Use your entire torso to rotate and retract any compromised arm rather than fighting their grip strength directly.
 
-`Cross Body Ride Bottom → Technical Standup → Standing Position → Open Guard (complete position reset)`
+**Q5**: What role does hip movement play in surviving and escaping cross body ride?
+**A**: Hip movement is your primary escape engine from this position. Mobile hips prevent flattening, create angles for escape, and disrupt opponent's weight distribution. Small constant hip adjustments keep your opponent reactive rather than offensive. For escapes, explosive hip movement in one direction while creating a frame in the opposite direction generates the space needed to insert guards or stand. Static hips equal certain position loss.
+
+**Q6**: Your opponent has nearly flattened you and is securing hooks - what is your emergency response?
+**A**: The moment you feel hooks entering, this becomes your highest priority to address before they're fully secured. Immediately bridge explosively to one side while reaching back to fight the near-side hook. Even if you can't prevent both hooks, preventing the second hook preserves escape options. If hooks are secured, immediately protect your neck and work to clear one hook at a time using your legs to trap and peel their feet. Time is critical - every second they consolidate makes escape exponentially harder.
+
+**Q7**: How do you chain escape attempts when individual techniques are being shut down?
+**A**: Never commit to a single escape attempt - always chain techniques based on opponent's reaction. If your granby roll is blocked, use that momentum to attempt a sit-out in the opposite direction. If they follow your hip escape, immediately stand to technical base. The goal is continuous movement that prevents the opponent from settling their weight. Create a decision tree: first attempt creates reaction, second attempt exploits that reaction, third attempt capitalizes if they over-correct.
+
+**Q8**: What grip fighting priorities should you maintain while defending?
+**A**: Focus on preventing the opponent from completing their seatbelt control first - this is their primary control configuration for back takes. Fight any hand reaching across your body by tucking your chin and using your hands near your neck defensively. Strip grips by adjusting your posture rather than hand fighting directly - your movement makes grips less effective. Don't sacrifice neck protection to fight grips, but do address any belt, collar, or wrist grips during your escape attempts.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -422,15 +380,15 @@ Start in cross body ride bottom position. Bottom player scores points for succes
 
 ## Related Positions and Techniques
 
-- **[[Cross Body Ride]]** - Sibling variant - opponent's perspective from same position
+- **[[Cross Body Ride]]** - Hub position - top and bottom perspectives share this parent
 - **[[Turtle]]** - Parent position - more general defensive turtle position
 - **[[Back Control]]** - Common transition target when escape fails
 - **[[Crucifix]]** - Common transition target from arm isolation
 - **[[Crab Ride]]** - Similar defensive position with different top control angle
-- **[[Truck]]** - Related leg entanglement position from turtle variations
+- **[[Twister Control]]** - Related control position from turtle variations
 - **[[Granby Roll]]** - Primary escape technique from this position
 - **[[Hip Escape]]** - Essential escape technique for re-guarding
-- **[[Defensive Position]]** - General category of survival-focused positions
+- **[[Half Guard]]** - Common escape destination from turtle
 
 
 </section>

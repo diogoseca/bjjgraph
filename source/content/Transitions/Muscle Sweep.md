@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Muscle Sweep | BJJ Technique | BJJ Graph"
 description: "Master the Muscle Sweep from Closed Guard to Mount. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%. Learn setup, timing, and variations."
@@ -16,7 +17,7 @@ description: "Master the Muscle Sweep from Closed Guard to Mount. Success rates:
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Muscle Sweep in BJJ",
-  "description": "Step-by-step guide for Muscle Sweep from Closed Guard to Mount.",
+  "description": "Step-by-step guide for Muscle Sweep from Closed Guard/Bottom. Possible outcomes: Mount/Top (70%), Closed Guard/Bottom (20%), Closed Guard/Top (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -154,11 +155,25 @@ description: "Master the Muscle Sweep from Closed Guard to Mount. Success rates:
 
 The Muscle Sweep is a fundamental attacking technique from Closed Guard that exploits the opponent's forward pressure and broken posture. Unlike more technical sweeps that rely on precise leverage points, the Muscle Sweep uses a combination of hip movement, upper body control, and explosive power to drive the opponent backward and sweep them to Mount position. This sweep is particularly effective when the opponent is defending other attacks and their weight is distributed forward, or when they attempt to posture up from a broken-down position. The technique requires good timing and the ability to coordinate upper body pulling with lower body hip elevation. While often considered a 'strength-based' technique by its name, proper execution relies more on timing the opponent's weight distribution and creating the correct angle of attack. The Muscle Sweep serves as an excellent foundational sweep for beginners while remaining effective at advanced levels when combined with other guard attacks.
 
-**Starting Position**: [[Closed Guard]]
-**Ending Position**: [[Mount]]
+**From Position**: [[Closed Guard/Bottom]]
 **Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Mount/Top]] | 70% |
+| Failure | [[Closed Guard/Bottom]] | 20% |
+| Counter | [[Closed Guard/Top]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

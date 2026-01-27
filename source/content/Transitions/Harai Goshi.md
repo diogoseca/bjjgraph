@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Harai Goshi | BJJ Technique | BJJ Graph"
 description: "Learn Harai Goshi in BJJ. Step-by-step judo throw execution from standing position to dominant ground control. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%."
@@ -16,7 +17,7 @@ description: "Learn Harai Goshi in BJJ. Step-by-step judo throw execution from s
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Harai Goshi in BJJ",
-  "description": "Step-by-step guide for Harai Goshi from Standing Position to Side Control.",
+  "description": "Step-by-step guide for Harai Goshi from Standing Position/Top. Possible outcomes: Side Control/Top (70%), Standing Position/Top (20%), Standing Position/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -154,11 +155,25 @@ description: "Learn Harai Goshi in BJJ. Step-by-step judo throw execution from s
 
 Harai Goshi, the sweeping hip throw, is one of judo's most elegant and effective techniques that has found significant application in Brazilian Jiu-Jitsu's standing game. This throw combines precise footwork, hip placement, and leg sweeping action to generate tremendous off-balancing force while maintaining control throughout the opponent's descent. Unlike pure forward throws, Harai Goshi creates a unique rotational motion that allows the thrower to follow smoothly into dominant ground positions. The technique's effectiveness in BJJ competition stems from its versatility in both gi and no-gi contexts, its ability to score significant points, and its natural transition into side control or mount. When executed properly, Harai Goshi demonstrates the fundamental principle that technical precision and timing can overcome significant strength advantages, making it particularly valuable for smaller practitioners against larger opponents.
 
-**Starting Position**: [[Standing Position]]
-**Ending Position**: [[Side Control]]
+**From Position**: [[Standing Position/Top]]
 **Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Side Control/Top]] | 70% |
+| Failure | [[Standing Position/Top]] | 20% |
+| Counter | [[Standing Position/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

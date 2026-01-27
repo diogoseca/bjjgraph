@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "De La Riva Sweep | BJJ Technique | BJJ Graph"
 description: "Learn De La Riva Sweep in BJJ. Step-by-step execution from De La Riva Guard to top position. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%."
@@ -16,7 +17,7 @@ description: "Learn De La Riva Sweep in BJJ. Step-by-step execution from De La R
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute De La Riva Sweep in BJJ",
-  "description": "Step-by-step guide for De La Riva Sweep from De La Riva Guard to Side Control.",
+  "description": "Step-by-step guide for De La Riva Sweep from De La Riva Guard/Bottom. Possible outcomes: Side Control/Top (70%), De La Riva Guard/Bottom (20%), De La Riva Guard/Top (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -158,11 +159,25 @@ The De La Riva Sweep works by creating a powerful lever system using the De La R
 
 This technique represents a cornerstone of modern sport jiu-jitsu, particularly in IBJJF competition formats where the De La Riva guard is extensively used. Mastering the De La Riva Sweep requires understanding timing, grip fighting, hip movement, and the ability to chain multiple attacks together. The sweep becomes increasingly effective as practitioners develop sensitivity to weight distribution and learn to capitalize on their opponent's forward pressure or attempts to pass the guard.
 
-**Starting Position**: [[De La Riva Guard]]
-**Ending Position**: [[Side Control]]
+**From Position**: [[De La Riva Guard/Bottom]]
 **Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Side Control/Top]] | 70% |
+| Failure | [[De La Riva Guard/Bottom]] | 20% |
+| Counter | [[De La Riva Guard/Top]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

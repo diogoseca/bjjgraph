@@ -8,8 +8,6 @@
     "standing",
     "wrestling"
   ],
-  "starting_position": "Standing Position",
-  "ending_position": "Side Control",
   "success_rates": {
     "beginner": 45,
     "intermediate": 65,
@@ -277,6 +275,24 @@
     {
       "name": "Fireman's Carry",
       "relationship": "Chain technique—alternative when opponent defends by lowering hips"
+    }
+  ],
+  "from_position": "Standing Position/Top",
+  "outcomes": [
+    {
+      "to": "Side Control/Top",
+      "probability": 75,
+      "result": "success"
+    },
+    {
+      "to": "Standing Position/Top",
+      "probability": 15,
+      "result": "failure"
+    },
+    {
+      "to": "Standing Position/Bottom",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

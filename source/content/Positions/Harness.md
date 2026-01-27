@@ -93,26 +93,20 @@ Strategically, the harness position serves as a transitional control point and a
 - Stay calm and systematic in defense rather than panicking, as frantic movements often expose the neck or allow deeper control
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Elbow Escape]]** → [[Turtle]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Elbow Escape]]** (21% of attempts)
 
-- **[[Hip Escape]]** → [[Defensive Position]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Hip Escape]]** (18% of attempts)
 
-- **[[Technical Stand Up to Single Leg]]** → [[Standing Position]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Technical Stand Up to Single Leg]]** (17% of attempts)
 
-- **[[Roll to Guard]]** → [[Closed Guard]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Roll to Guard]]** (15% of attempts)
 
-- **[[Granby Roll]]** → [[Open Guard]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Granby Roll]]** (14% of attempts)
 
-- **[[Standing up in Base]]** → [[Standing Position]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Standing up in Base]]** (15% of attempts)
 
 
 ### Common Mistakes
@@ -170,32 +164,24 @@ Strategically, the harness position serves as a transitional control point and a
 - Maintain hip proximity to opponent's hips to prevent them from sitting up or creating angles for escape
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Rear Naked Choke]]** → [[Won by Submission]]
-  - Success Rate: Beginner 45%, Intermediate 65%, Advanced 85%
+- **[[Rear Naked Choke]]** (15% of attempts)
 
-- **[[Armbar from Back with Legs]]** → [[Armbar Control]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 70%
+- **[[Armbar from Back with Legs]]** (12% of attempts)
 
-- **[[Back Control to Crucifix]]** → [[Crucifix]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 65%
+- **[[Back Control to Crucifix]]** (12% of attempts)
 
-- **[[Triangle from Back]]** → [[Rear Triangle]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 55%
+- **[[Triangle from Back]]** (10% of attempts)
 
-- **[[Bow and Arrow Choke]]** → [[Won by Submission]]
-  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 75%
+- **[[Bow and Arrow Choke]]** (13% of attempts)
 
-- **[[Armbar from Back]]** → [[Armbar Control]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 65%
+- **[[Armbar from Back]]** (12% of attempts)
 
-- **[[Choke from Crucifix]]** → [[Won by Submission]]
-  - Success Rate: Beginner 40%, Intermediate 60%, Advanced 80%
+- **[[Choke from Crucifix]]** (14% of attempts)
 
-- **[[Rolling Back Take]]** → [[Body Triangle]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 70%
+- **[[Rolling Back Take]]** (12% of attempts)
 
 
 ### Common Mistakes
@@ -252,13 +238,13 @@ Strategically, the harness position serves as a transitional control point and a
 
 - **[[Seat Belt Control Back]]** - Alternative classification name for same position
 
-- **[[Back Attack System]]** - Comprehensive offensive system built around this position
-
-- **[[Back Defense Protocol]]** - Systematic defensive framework for bottom perspective
-
-- **[[Hand Fighting from Back]]** - Key defensive principle for bottom player
-
 - **[[Rear Naked Choke]]** - Primary submission threat from top harness control
+
+- **[[Armbar Control]]** - Submission control accessible when opponent defends choke
+
+- **[[Rear Triangle]]** - Alternative submission path from harness control
+
+- **[[Mounted Crucifix]]** - Advanced control variation from back position
 
 
 </section>

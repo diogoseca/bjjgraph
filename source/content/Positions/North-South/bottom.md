@@ -21,37 +21,37 @@ description: "Escape North-South bottom position in BJJ. Comprehensive guide to 
     {
       "@type": "HowToStep",
       "name": "Execute Elbow Escape",
-      "text": "From this position, execute Elbow Escape to transition to Closed Guard. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Elbow Escape. This technique is attempted in 14% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bridge and Roll",
-      "text": "From this position, execute Bridge and Roll to transition to Side Control. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Turtle Transition",
-      "text": "From this position, execute Turtle Transition to transition to Turtle. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Turtle Transition. This technique is attempted in 17% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape",
-      "text": "From this position, execute Hip Escape to transition to Half Guard. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Hip Escape. This technique is attempted in 14% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute North-South Escape",
-      "text": "From this position, execute North-South Escape to transition to Open Guard. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt North-South Escape. This technique is attempted in 13% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Frame and Shrimp",
-      "text": "From this position, execute Frame and Shrimp to transition to Butterfly Guard. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Frame and Shrimp. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -212,89 +212,22 @@ The position demands mental toughness and technical precision. Panic and explosi
 
 ## Available Escapes
 
-### [[Elbow Escape]] → [[Closed Guard]]
+### [[Elbow Escape]] (14% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 60%
+### [[Bridge and Roll]] (12% of attempts)
 
-### [[Bridge and Roll]] → [[Side Control]]
+### [[Turtle Transition]] (17% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
+### [[Hip Escape]] (14% of attempts)
 
-### [[Turtle Transition]] → [[Turtle]]
+### [[North-South Escape]] (13% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Frame and Shrimp]] (12% of attempts)
 
-### [[Hip Escape]] → [[Half Guard]]
+### [[Granby Roll]] (11% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Technical Stand-up]] (7% of attempts)
 
-### [[North-South Escape]] → [[Open Guard]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 55%
-
-### [[Frame and Shrimp]] → [[Butterfly Guard]]
-
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 50%
-
-### [[Granby Roll]] → [[Turtle]]
-
-**Success Rates:**
-- Beginner: 10%
-- Intermediate: 25%
-- Advanced: 45%
-
-### [[Technical Stand-up]] → [[Standing Position]]
-
-**Success Rates:**
-- Beginner: 5%
-- Intermediate: 15%
-- Advanced: 30%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[North-South Choke]]** → [[Lost by Submission]]
-- **[[Kimura from North-South]]** → [[Lost by Submission]]
-- **[[Transition to Mount]]** → [[Mount]]
-- **[[Armbar from Side Control]]** → [[Lost by Submission]]
-- **[[Transition to North-South]]** → [[North-South]]
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Frame and Shrimp]]** → [[Half Guard]]
-  - Opponent shifts weight forward during North-South choke attempt
-- **[[Bridge and Roll]]** → [[Side Control]]
-  - Opponent reaches too far for kimura grip exposing their balance
-- **[[Turtle Transition]]** → [[Turtle]]
-  - Opponent transitions toward mount creating space at hips
 
 
 </section>
@@ -406,25 +339,39 @@ Partner alternates between maintaining North-South control and setting up submis
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Immediate escape to guard recovery
+## Test Your Knowledge
 
-`North-South Bottom → Frame Creation → Hip Escape → Half Guard → Closed Guard`
+**Q1**: What is the first priority when you find yourself in North-South bottom?
+**A**: The immediate priority is establishing controlled breathing and creating basic frames with your forearms against your opponent's chest. Panic breathing leads to rapid fatigue and poor decision-making. Place your forearms perpendicular to their chest to create structural frames, not pushing with muscle strength. This creates the minimum space needed for breathing while you assess your escape options.
 
-### Turtle transition to guard
+**Q2**: Your opponent's weight is crushing your chest and you're struggling to breathe - what adjustment do you make?
+**A**: Turn your body slightly to one side rather than remaining flat on your back - this angles your rib cage and creates space for lung expansion. Combine this with forearm frames against their chest to maintain the space. Time your inhales during their micro-adjustments or weight shifts, and exhale during their heavy pressure phases. Small incremental hip escapes also progressively reduce the chest-to-chest contact area.
 
-`North-South Bottom → Turn to Turtle → Sit to Guard → Butterfly Guard`
+**Q3**: What are the essential frames needed to begin your escape sequence?
+**A**: The primary frame is your forearm positioned perpendicular to your opponent's chest, creating a skeletal brace rather than a muscular push. Your elbow should be tight to your ribs for structural integrity. The secondary frame uses your other forearm against their far shoulder to prevent them from driving chest pressure. These frames work together to create and maintain the minimum space necessary for hip mobility and eventual guard recovery.
 
-### Reversal to top position
+**Q4**: How do you prevent your opponent from isolating your arm for a kimura attack?
+**A**: Keep your elbows tight to your body at all times - never let your arm extend away from your torso or cross your centerline. When creating frames, your elbows should remain within the width of your shoulders. If they begin isolating an arm, immediately pull that elbow back tight to your ribs and fight for inside wrist control. Use your hip escape to angle away from the threatened arm, making the kimura grip more difficult to secure.
 
-`North-South Bottom → Bridge and Roll → Side Control → Mount → Submission`
+**Q5**: Your opponent begins transitioning toward mount - what is your immediate response?
+**A**: This is actually your best escape opportunity. As they shift weight to step over, their chest pressure momentarily decreases. Immediately insert your knee between your bodies, creating a knee shield. Your knee should reach their hip or chest line, with your shin perpendicular to their body. If you're too slow for the knee shield, turn to turtle position rather than accepting mount - turtle is more escapable than mount.
+
+**Q6**: When is the optimal timing to attempt a bridge and roll escape from North-South?
+**A**: The optimal timing is when your opponent reaches for a submission, particularly the kimura. As they isolate your arm and shift their weight to one side for the grip, their base becomes compromised. Bridge explosively toward the side they're reaching, trapping their posted arm if possible. This timing is critical - bridging against a settled opponent with proper base wastes energy and fails. Wait for their weight commitment to create the vulnerability.
+
+**Q7**: How do you manage energy to avoid exhaustion while escaping North-South?
+**A**: Focus on small, technical movements rather than explosive scrambles. Chain multiple small hip escapes together, moving inches at a time. Rest between escape attempts by establishing frames and controlling your breathing. Never fight directly against their weight - use timing and technique to escape during their movements or transitions. Recognize that one hip escape rarely succeeds; plan for 3-5 connected shrimps. Patience and systematic effort beats panic and exhaustion.
+
+**Q8**: Your escape attempt is partially successful and you've created some space - how do you prevent them from re-consolidating control?
+**A**: Immediately insert your knee or both knees between your bodies before they can close the distance. Maintain your frames throughout - the space you created is worthless without frames to keep it. Continue your hip escape to increase the distance. If they drive forward to re-consolidate, use the momentum to complete your turn toward guard recovery. Never pause or rest in a partial escape position - maintain constant motion toward a stable guard.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -450,9 +397,9 @@ Partner alternates between maintaining North-South control and setting up submis
 - **[[Turtle]]** - Common escape result when turning to knees
 - **[[Elbow Escape]]** - Primary escape technique to recover guard
 - **[[Hip Escape]]** - Fundamental movement for creating space
-- **[[Pin Escape Methodology]]** - Systematic framework for escaping all pin positions
-- **[[Frame Creation]]** - Essential defensive concept for creating breathing space
-- **[[Shrimping]]** - Core movement pattern for generating hip mobility
+- **[[Half Guard]]** - Common guard recovery position from escape
+- **[[Bridge and Roll]]** - Alternative escape technique using hip power
+- **[[Frame and Shrimp]]** - Combined technique for systematic escape
 
 
 </section>

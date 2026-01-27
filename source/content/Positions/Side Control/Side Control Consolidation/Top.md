@@ -21,37 +21,37 @@ description: "Master Side Control Consolidation Top position with 85% retention 
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to Mount",
-      "text": "From this position, execute Side Control to Mount to transition to Mount. Success rate for advanced practitioners: 80%.",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 14% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to North-South",
-      "text": "From this position, execute Transition to North-South to transition to North-South. Success rate for advanced practitioners: 85%.",
+      "name": "Execute Side Control to North-South",
+      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 14% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Knee Cut Pass",
-      "text": "From this position, execute Knee Cut Pass to transition to Knee on Belly. Success rate for advanced practitioners: 75%.",
+      "name": "Execute Knee on Belly",
+      "text": "From this position, attempt Knee on Belly. This technique is attempted in 14% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kimura from Side Control",
-      "text": "From this position, execute Kimura from Side Control to transition to Kimura Control. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Kimura from Side Control. This technique is attempted in 13% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Americana from Side Control",
-      "text": "From this position, execute Americana from Side Control to transition to Americana Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Americana from Side Control. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm Triangle",
-      "text": "From this position, execute Arm Triangle to transition to Arm Triangle. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Arm Triangle. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -213,91 +213,22 @@ Mastery of Side Control Consolidation Top separates intermediate from advanced p
 
 ## Available Attacks
 
-### [[Side Control to Mount]] → [[Mount]]
+### [[Side Control to Mount]] (14% of attempts)
 
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 65%
-- Advanced: 80%
+### [[Side Control to North-South]] (14% of attempts)
 
-### [[Transition to North-South]] → [[North-South]]
+### [[Knee on Belly]] (14% of attempts)
 
-**Success Rates:**
-- Beginner: 55%
-- Intermediate: 70%
-- Advanced: 85%
+### [[Kimura from Side Control]] (13% of attempts)
 
-### [[Knee Cut Pass]] → [[Knee on Belly]]
+### [[Americana from Side Control]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 60%
-- Advanced: 75%
+### [[Arm Triangle]] (12% of attempts)
 
-### [[Kimura from Side Control]] → [[Kimura Control]]
+### [[Armbar from Side Control]] (11% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 55%
-- Advanced: 70%
+### [[North-South Choke]] (10% of attempts)
 
-### [[Americana from Side Control]] → [[Americana Control]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 65%
-
-### [[Arm Triangle]] → [[Arm Triangle]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 45%
-- Advanced: 65%
-
-### [[Armbar from Side Control]] → [[Armbar Control]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 40%
-- Advanced: 60%
-
-### [[North-South Choke]] → [[North-South]]
-
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 35%
-- Advanced: 55%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Elbow Escape]]** → [[Half Guard]] (Opponent Success: 20%)
-- **[[Frame and Shrimp]]** → [[Defensive Position]] (Opponent Success: 15%)
-- **[[Bridge and Roll]]** → [[Side Control]] (Opponent Success: 10%)
-- **[[Granby Roll]]** → [[Turtle]] (Opponent Success: 12%)
-- **[[Technical Standup]]** → [[Standing Guard]] (Opponent Success: 8%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Side Control to Mount]]** → [[Mount]]
-  - Opponent creates space with elbow frame attempting to insert knee shield
-- **[[Knee on Belly]]** → [[Knee on Belly]]
-  - Opponent turns into you attempting to recover guard, exposing far hip
-- **[[Kimura from Side Control]]** → [[Kimura Control]]
-  - Opponent reaches across to defend crossface, exposing near arm for isolation
-- **[[Transition to North-South]]** → [[North-South]]
-  - Opponent bridges explosively attempting to create space under hips
 
 
 </section>
@@ -307,14 +238,14 @@ Mastery of Side Control Consolidation Top separates intermediate from advanced p
 ## Decision Making from This Position
 
 **If opponent maintains tight defensive posture with strong frames and active hip movement:**
-- Execute **[[Pressure Application]]** → [[Side Control Consolidation Top]] (Probability: 70%)
-- Execute **[[Transition to North-South]]** → [[North-South]] (Probability: 60%)
-- Execute **[[Americana from Side Control]]** → [[Americana Control]] (Probability: 45%)
+- Execute **[[Pressure Maintenance]]** → [[Side Control Consolidation]] (Probability: 70%)
+- Execute **[[Side Control to North-South]]** → [[North-South]] (Probability: 60%)
+- Execute **[[Americana from Side Control]]** → [[Americana]] (Probability: 45%)
 
 
 **If opponent begins to flatten and frames start collapsing from sustained pressure:**
 - Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 75%)
-- Execute **[[Kimura from Side Control]]** → [[Kimura Control]] (Probability: 65%)
+- Execute **[[Kimura from Side Control]]** → [[Kimura Trap]] (Probability: 65%)
 - Execute **[[Arm Triangle]]** → [[Arm Triangle]] (Probability: 60%)
 
 
@@ -324,7 +255,7 @@ Mastery of Side Control Consolidation Top separates intermediate from advanced p
 
 
 **If opponent attempts explosive bridge or hip escape creating temporary space:**
-- Execute **[[Transition to North-South]]** → [[North-South]] (Probability: 85%)
+- Execute **[[Side Control to North-South]]** → [[North-South]] (Probability: 85%)
 - Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 65%)
 - Execute **[[Armbar from Side Control]]** → [[Armbar Control]] (Probability: 50%)
 
@@ -412,33 +343,39 @@ Start in early side control with opponent maintaining defensive posture. Top par
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### High-percentage control-based path
+## Test Your Knowledge
 
-`Side Control Consolidation Top → Mount → Americana from Mount → Won by Submission`
+**Q1**: Your opponent begins creating a frame with their far-side elbow against your hip - what immediate adjustment do you make to maintain consolidation?
+**A**: Immediately drive your underhook deeper and collapse onto the framing arm using your chest weight, not your hands. Simultaneously shift your hips slightly toward their head to increase the pressure angle on their frame. If the frame persists, swim your underhook arm over their framing arm and pin it to the mat while maintaining chest-to-chest pressure. The key is addressing the frame before it becomes structural - a bent elbow frame is much easier to collapse than an extended one.
 
-### Pressure-based submission path
+**Q2**: What are the essential grip configurations for maintaining side control consolidation in the gi?
+**A**: The primary configuration uses crossface control with your near-side arm threading under their head, gripping the far lapel or shoulder to create head rotation. Your far-side arm establishes an underhook controlling their far hip, gripping the belt or back of pants. Alternative configurations include: collar-and-pants grip where you control their collar for head positioning and far pants at knee to prevent hip mobility, or double underhook where both arms establish underhooks creating maximum chest-to-chest connection. The critical principle is maintaining at least two connection points that prevent both head positioning and hip escape simultaneously.
 
-`Side Control Consolidation Top → Arm Triangle → Won by Submission`
+**Q3**: How should your weight be distributed during proper side control consolidation, and why does posting on your hands compromise this?
+**A**: Weight should flow through your chest and ribs into the opponent's torso, with your hips low and heavy against their near-side ribs. Approximately 70% of pressure should come through chest contact, with remaining weight distributed through hip connection and knee base. Posting on hands elevates your chest off the opponent, immediately reducing effective pressure by 40-50%. It also makes your base predictable and allows the opponent to time escape attempts around your arm posts. Your hands should only contact the mat lightly for balance adjustment, never bearing significant weight.
 
-### Kimura control path
+**Q4**: Your opponent starts bridging explosively - describe the base adjustment sequence to maintain position?
+**A**: As the bridge initiates, immediately widen your knees to lower your center of gravity and increase base stability. Simultaneously drive your crossface deeper to prevent their head from turning into the bridge direction. Let your hips heavy down rather than fighting against the bridge direction - your weight should ride the bridge like a wave. As they descend from the bridge apex, immediately tighten all connections before they can chain into a hip escape. If the bridge is toward your head, step your far leg back to sprawl your hips. If toward your legs, drive your hips forward to maintain connection.
 
-`Side Control Consolidation Top → Kimura Control → Kimura → Won by Submission`
+**Q5**: What is the primary escape your opponent will attempt during consolidation, and how do you shut it down before it develops?
+**A**: The elbow escape (shrimp to half guard) is the highest-percentage escape attempt during consolidation. Shut it down by maintaining hip-to-hip connection that prevents their near hip from creating space for the shrimp movement. Keep your crossface heavy enough to prevent them from turning onto their side - they cannot effectively shrimp while flat on their back. Control their far arm to prevent the frame that creates shrimping power. When you feel them begin to turn, immediately increase crossface pressure and consider transitioning to mount since their turning motion actually helps your leg step over.
 
-### North-South choke path
+**Q6**: How do you use your opponent's breathing rhythm to deepen your consolidation?
+**A**: Monitor the rise and fall of their chest beneath you. During their inhalation, their ribcage expands and creates small spaces - maintain your current pressure without advancing. During their exhalation, their ribcage contracts and defensive strength temporarily decreases - this is when you tighten connections and increase pressure. Time your major position improvements (tightening crossface, deepening underhook, walking hips forward) with their exhalation. After 3-4 breath cycles of increasing pressure on each exhale, their defensive structure progressively weakens as they cannot fully recover between breaths.
 
-`Side Control Consolidation Top → North-South → North-South Choke → Won by Submission`
+**Q7**: Your opponent manages to get their near-side elbow between your bodies - how do you recover full consolidation?
+**A**: First, do not attempt to simply crush through the elbow frame with pressure - this expends energy and often fails against a properly placed frame. Instead, use your crossface to turn their head away, which weakens the structural alignment of their frame. Walk your hips slightly toward their head, changing the pressure angle. Use your far-side underhook hand to control their framing wrist, then drive their arm across their body while simultaneously dropping your chest weight. Alternatively, if the frame is strong, accept it temporarily and transition to knee-on-belly or north-south where their frame becomes ineffective.
 
-### Armbar transition path
-
-`Side Control Consolidation Top → Armbar Control → Armbar Finish → Won by Submission`
+**Q8**: What determines when you should advance from consolidation to mount versus staying in side control for submissions?
+**A**: Advance to mount when: opponent's frames are fully collapsed, they are breathing heavily indicating diminished defensive capacity, their far arm is pinned or controlled eliminating frame potential during transition, and they show signs of defensive exhaustion (reduced movement, heavy breathing, lack of hip activity). Stay for submissions when: opponent is actively defending but creating arm isolation opportunities (extended arm for americana, framing arm for kimura), you have dominant crossface that sets up arm triangle or other choke attacks, or opponent's technical defense is strong but their arms are vulnerable. The general rule: advance position when frames are eliminated, attack submissions when arms are exposed.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -463,14 +400,12 @@ Start in early side control with opponent maintaining defensive posture. Top par
 - **[[Mount]]** - Primary advancement target from consolidated side control
 - **[[North-South]]** - Alternative advancement maintaining pressure-based control
 - **[[Knee on Belly]]** - Dynamic transition option when opponent turns into you
-- **[[Pressure Application]]** - Core concept governing consolidation methodology
-- **[[Control Maintenance]]** - Fundamental principle for sustaining positional dominance
-- **[[Weight Distribution]]** - Technical concept for effective pressure management
-- **[[Bernardo Faria Pressure System]]** - Expert system emphasizing consolidation-based control
+- **[[Kesa Gatame]]** - Alternative side control variation with head control
 - **[[Side Control Consolidation Bottom]]** - Opposite perspective - defensive counterpart position
 - **[[Kimura from Side Control]]** - Primary submission option from consolidated control
 - **[[Americana from Side Control]]** - High-percentage submission when near arm isolated
-- **[[Cross Face Control]]** - Essential control concept for head positioning
+- **[[Arm Triangle]]** - Choke attack when opponent brings arm across
+- **[[North South Control]]** - Control position accessible through pressure transition
 
 
 </section>

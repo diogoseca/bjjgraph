@@ -21,38 +21,32 @@ description: "Master Reverse Kesa-Gatame Bottom escape techniques. Complete defe
     {
       "@type": "HowToStep",
       "name": "Execute Elbow Escape",
-      "text": "From this position, execute Elbow Escape to transition to Half Guard. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Elbow Escape. This technique is attempted in 25% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape",
-      "text": "From this position, execute Hip Escape to transition to Open Guard. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Hip Escape. This technique is attempted in 22% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bridge and Roll",
-      "text": "From this position, execute Bridge and Roll to transition to Kesa Gatame. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 18% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Frame and Shrimp",
-      "text": "From this position, execute Frame and Shrimp to transition to Closed Guard. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Frame and Shrimp. This technique is attempted in 20% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Technical Standup",
-      "text": "From this position, execute Technical Standup to transition to Standing Position. Success rate for advanced practitioners: 40%.",
+      "text": "From this position, attempt Technical Standup. This technique is attempted in 15% of exchanges from this position.",
       "position": 5
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Shrimp Escape",
-      "text": "From this position, execute Shrimp Escape to transition to Turtle. Success rate for advanced practitioners: 60%.",
-      "position": 6
     }
   ],
   "totalTime": "PT2M"
@@ -211,77 +205,16 @@ From a strategic perspective, Reverse Kesa-Gatame Bottom requires immediate defe
 
 ## Available Escapes
 
-### [[Elbow Escape]] → [[Half Guard]]
+### [[Elbow Escape]] (25% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Hip Escape]] (22% of attempts)
 
-### [[Hip Escape]] → [[Open Guard]]
+### [[Bridge and Roll]] (18% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Frame and Shrimp]] (20% of attempts)
 
-### [[Bridge and Roll]] → [[Kesa Gatame]]
+### [[Technical Standup]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
-
-### [[Frame and Shrimp]] → [[Closed Guard]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-### [[Technical Standup]] → [[Standing Position]]
-
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 25%
-- Advanced: 40%
-
-### [[Shrimp Escape]] → [[Turtle]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Transition to North-South]]** → [[North-South]] (Opponent Success: 55%)
-- **[[Transition to Mount]]** → [[Mount]] (Opponent Success: 45%)
-- **[[Americana from Side Control]]** → [[Americana Control]] (Opponent Success: 40%)
-- **[[Arm Triangle]]** → [[Side Control]] (Opponent Success: 35%)
-- **[[Kimura from Side Control]]** → [[Kimura Control]] (Opponent Success: 30%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Guard Replacement]]** → [[Closed Guard]]
-  - Opponent posts hand to prevent roll
-- **[[Elbow Escape]]** → [[Half Guard]]
-  - Opponent shifts weight forward toward head
-- **[[Bridge and Roll]]** → [[Scarf Hold Position]]
-  - Opponent sits too high on chest exposing base
-- **[[Turtle Transition]]** → [[Turtle]]
-  - Opponent attempts to transition to North-South
 
 
 </section>
@@ -360,53 +293,67 @@ From a strategic perspective, Reverse Kesa-Gatame Bottom requires immediate defe
 
 Partner applies Reverse Kesa-Gatame with increasing levels of resistance (30%, 50%, 70%, 100%) while bottom player works through systematic escape sequence: frame establishment, hip escape, arm extraction, guard recovery. Each resistance level practiced for 2-minute rounds.
 
+**Duration**: 4 rounds of 2 minutes
 
 
 ### Submission Defense Under Pressure
 
 Partner holds Reverse Kesa-Gatame and actively attacks with Americana, Kimura, and Arm Triangle while bottom player maintains defensive posture and works escapes. Focus on protecting vulnerable positions while creating escape opportunities. 3-minute rounds with role reversal.
 
+**Duration**: 3 minutes per round
 
 
 ### Timed Escape Challenge
 
 Bottom player must escape Reverse Kesa-Gatame within 60 seconds (beginners), 45 seconds (intermediates), or 30 seconds (advanced) while partner provides realistic resistance. Tracks success rate and identifies most reliable escape paths under time pressure.
 
+**Duration**: Multiple 30-60 second rounds
 
 
 ### Bridge and Roll Timing Drill
 
 Partner sits in varying heights and weight distributions in Reverse Kesa-Gatame while bottom player practices recognizing optimal bridge timing. Focus on explosive hip extension only when opponent's weight is committed too far forward. 10 repetitions per round.
 
+**Duration**: 10 repetitions
 
 
 
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Defensive to neutral path
+## Test Your Knowledge
 
-`Reverse Kesa-Gatame Bottom → Half Guard → Side Control`
+**Q1**: What is the first defensive priority when your opponent establishes Reverse Kesa-Gatame?
+**A**: Immediately establish a frame with your free arm against your opponent's hip or shoulder to prevent them from fully settling their weight. Simultaneously, turn slightly onto your side away from the opponent to create an angle for hip escape. This prevents position consolidation and protects your neck from choke attempts. Never remain flat on your back.
 
-### Guard recovery path
+**Q2**: How do you protect your trapped arm from Americana and Kimura attacks in this position?
+**A**: Keep your trapped arm bent at approximately 90 degrees with your elbow tight to your body. Avoid extending the arm or allowing it to be pulled away from your torso. If the opponent begins isolating your arm, use your free hand to grab your own wrist or gi and defend the grip. Simultaneously work hip escapes to create space that relieves pressure on the trapped arm.
 
-`Reverse Kesa-Gatame Bottom → Open Guard → Closed Guard → Mount`
+**Q3**: Your opponent's weight is high on your chest - what escape opportunity does this create?
+**A**: When the opponent sits too high, their base is compromised and their weight is not properly distributed over your hips. This creates an excellent bridging opportunity. Execute an explosive bridge toward your trapped side while simultaneously turning - this can roll them over or create enough space for immediate guard recovery. The key is recognizing this window quickly before they adjust.
 
-### Reversal path
+**Q4**: How should you sequence your escape attempts against a skilled opponent who maintains proper pressure?
+**A**: Use a systematic approach: first establish frames to create breathing room and prevent position advancement. Then execute small hip escapes to incrementally create space - don't rely on one explosive movement. As space accumulates, work to extract your trapped arm by shrimping your shoulder free. Finally, insert your knee between your bodies to establish half guard or continue shrimping to recover full guard.
 
-`Reverse Kesa-Gatame Bottom → Kesa Gatame → Side Control → Mount`
+**Q5**: What indicates your opponent is about to transition to Mount, and how do you prevent it?
+**A**: Signs include the opponent shifting their weight toward your far hip, lifting their near knee, or releasing arm control to post for the transition. Counter by immediately framing against their far hip with your free arm, keeping your near knee high to block their leg, and shrimping your hips away. If they begin stepping over, pursue them with your hips to insert a knee shield before they can settle.
 
-### Turtle to standing path
+**Q6**: When is transitioning to Turtle a better option than fighting for guard recovery?
+**A**: Turtle becomes preferable when: the opponent is transitioning to North-South and you can't stop them with frames; when your trapped arm is deeply controlled and you need to change the dynamic; or when repeated shrimping has created distance but not enough for guard recovery. Turning to turtle can relieve chest pressure and reset the positional battle, though you must immediately work to stand or recover guard from turtle.
 
-`Reverse Kesa-Gatame Bottom → Turtle → Open Guard → Standing Position`
+**Q7**: How do you manage breathing and energy conservation when trapped in this position?
+**A**: Take short, controlled breaths using your diaphragm rather than chest breathing, which is restricted by the pressure. Don't waste energy on wild escape attempts - work methodically. Use frames to create micro-spaces for breathing rather than constantly pushing. Time your explosive escape attempts for when the opponent shifts weight or attacks submissions, conserving energy between windows.
+
+**Q8**: What role does your far leg play in successful escapes from Reverse Kesa-Gatame?
+**A**: Your far leg provides the base and driving power for hip escapes. Keep it bent with the foot flat on the mat, ready to push. This leg drives your shrimping motion and prevents you from being flattened. Critically, do not bring this knee toward your opponent - this feeds them a path to mount. Instead, use it to push your hips away while keeping your near leg mobile for knee shield insertion.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -434,9 +381,9 @@ Partner sits in varying heights and weight distributions in Reverse Kesa-Gatame 
 - **[[Half Guard]]** - Primary escape destination
 - **[[Elbow Escape]]** - Primary escape technique
 - **[[Bridge and Roll]]** - Reversal technique option
-- **[[Escape Hierarchy]]** - Conceptual framework for prioritizing escapes
-- **[[Hip Escape Mechanics]]** - Fundamental movement principle
-- **[[Side Control Escapes]]** - Parent escape methodology
+- **[[Hip Escape]]** - Fundamental movement principle
+- **[[Closed Guard]]** - Guard recovery destination
+- **[[Turtle]]** - Alternative escape destination
 
 
 </section>

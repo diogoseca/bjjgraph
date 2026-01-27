@@ -21,37 +21,37 @@ description: "Master Jailbreak Top Position in BJJ. Advanced half guard passing 
     {
       "@type": "HowToStep",
       "name": "Execute Leg Weave Pass",
-      "text": "From this position, execute Leg Weave Pass to transition to Side Control. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Leg Weave Pass. This technique is attempted in 13% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Smash Pass",
-      "text": "From this position, execute Smash Pass to transition to Side Control. Success rate for advanced practitioners: 80%.",
+      "text": "From this position, attempt Smash Pass. This technique is attempted in 15% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice from Half",
-      "text": "From this position, execute Knee Slice from Half to transition to Side Control. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Knee Slice from Half. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Step",
-      "text": "From this position, execute Back Step to transition to Outside Ashi-Garami. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Back Step. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Pass",
-      "text": "From this position, execute Underhook Pass to transition to Side Control. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Underhook Pass. This technique is attempted in 13% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Headquarters Pass",
-      "text": "From this position, execute Headquarters Pass to transition to Headquarters Position. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Headquarters Pass. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -213,93 +213,22 @@ The position is particularly relevant in modern no-gi competition where dynamic 
 
 ## Available Attacks
 
-### [[Leg Weave Pass]] → [[Side Control]]
+### [[Leg Weave Pass]] (13% of attempts)
 
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 60%
-- Advanced: 75%
+### [[Smash Pass]] (15% of attempts)
 
-### [[Smash Pass]] → [[Side Control]]
+### [[Knee Slice from Half]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 50%
-- Intermediate: 65%
-- Advanced: 80%
+### [[Back Step]] (12% of attempts)
 
-### [[Knee Slice from Half]] → [[Side Control]]
+### [[Underhook Pass]] (13% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Headquarters Pass]] (12% of attempts)
 
-### [[Back Step]] → [[Outside Ashi-Garami]]
+### [[Toreando Pass]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[X Pass]] (11% of attempts)
 
-### [[Underhook Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 60%
-- Advanced: 75%
-
-### [[Headquarters Pass]] → [[Headquarters Position]]
-
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
-
-### [[Toreando Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-### [[X Pass]] → [[Mount]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Lockdown Sweeps]]** → [[Lockdown]] (Opponent Success: 40%)
-- **[[Deep Half Entry]]** → [[Deep Half Guard]] (Opponent Success: 45%)
-- **[[Technical Standup]]** → [[Standing Position]] (Opponent Success: 35%)
-- **[[Dogfight Position]]** → [[Dogfight Position]] (Opponent Success: 50%)
-- **[[Underhook Sweep from Half]]** → [[Side Control]] (Opponent Success: 35%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Pressure Pass]]** → [[Side Control]]
-  - Bottom player attempts to create space by extending legs further
-- **[[Leg Weave Pass]]** → [[Side Control]]
-  - Bottom player keeps legs extended in static position
-- **[[Smash Pass]]** → [[Side Control]]
-  - Bottom player retracts legs toward body to re-guard
-- **[[Back Step]]** → [[Outside Ashi-Garami]]
-  - Bottom player commits to half guard recovery with deep underhook
-- **[[Knee Slice Pass]]** → [[Side Control]]
-  - Bottom player attempts to turn to turtle position
 
 
 </section>
@@ -416,29 +345,39 @@ Start from jailbreak top position. Top player wins by achieving side control or 
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Direct Pass to Mount Submission
+## Test Your Knowledge
 
-`Jailbreak Top → Smash Pass → Side Control → Mount → Armbar from Mount`
+**Q1**: What is the primary weight distribution principle for maintaining control in Jailbreak Top?
+**A**: Weight should be distributed forward through the chest and shoulders with hips driving toward the bottom player's center line. The pressure must be applied to the upper body rather than sitting back on the hips, as this prevents the bottom player from creating frames, sitting up, or recovering guard. Maintaining low forward pressure makes your weight feel heavier while keeping you mobile enough to react to leg movements.
 
-### Leg Entanglement Path
+**Q2**: Your opponent starts extending their legs to push you away - what adjustment do you make?
+**A**: When the opponent extends legs to create distance, immediately drive your chest pressure forward and down rather than fighting the leg extension directly. Establish or reinforce your crossface or head control to pin their upper body, then choose between a leg weave pass if legs are static, or continue forward pressure to collapse the space. Never stand upright or back away, as this gives them the distance they want.
 
-`Jailbreak Top → Back Step → Outside Ashi-Garami → Straight Ankle Lock`
+**Q3**: What are the essential grips and control points for maintaining Jailbreak Top position?
+**A**: The essential controls are crossface or collar tie on the head and neck to control spine alignment, an underhook or overhook on the far side to prevent turning, and chest-to-chest connection to apply constant pressure. These upper body controls must be established before attempting to navigate past the extended legs, as they prevent the bottom player from using frames or hip movement to escape.
 
-### Back Attack Path
+**Q4**: How do you shut down the opponent's primary escape (guard recovery) from Jailbreak Top?
+**A**: Guard recovery is prevented by maintaining constant forward pressure that pins the bottom player's shoulders to the mat while controlling their ability to create angles. Specifically, the crossface turns their head away and prevents them from turning toward you, the underhook blocks their far shoulder from rising, and your hip positioning blocks their hip movement. If they attempt to retract legs to close guard, immediately drive forward and begin a knee slice or smash pass before they can establish frames.
 
-`Jailbreak Top → Front Headlock to Back → Back Control → Rear Naked Choke`
+**Q5**: Your opponent manages to establish an underhook and starts coming up to dogfight - how do you counter?
+**A**: When the opponent secures an underhook and begins rising, you have two primary options. First, immediately establish a whizzer (overhook) to control their underhooking arm and drive your weight back down to reflatten them. Second, if they're already significantly elevated, switch to circling toward their back by following their momentum and looking for back exposure. Never try to force them flat with pure strength once they have underhook leverage established.
 
-### North-South Transition Path
+**Q6**: What determines whether you should use a leg weave versus a smash pass from Jailbreak Top?
+**A**: The decision depends on the bottom player's leg configuration and hip activity. Use leg weave when their legs are extended and relatively static, as you can thread through and create the weaving control. Use smash pass when they're retracting legs or actively moving hips, as the smash pressure collapses their defensive structure before they can recover guard. If they're creating significant angles with hip movement, consider switching to headquarters passing or toreando instead.
 
-`Jailbreak Top → Leg Weave Pass → Side Control → North-South → Kimura from North-South`
+**Q7**: How do you manage energy expenditure when the bottom player is actively defending with leg frames?
+**A**: Energy management requires applying pressure efficiently rather than muscling through defenses. Maintain chest-to-chest connection and let your body weight do the work rather than using arm strength. When facing active leg defense, focus on controlling their upper body first while using patient hip positioning rather than explosive movements. Chain passing attempts together so their defense of one option opens another, rather than repeatedly attacking the same angle and burning energy.
+
+**Q8**: Your pass attempt fails and the opponent recovers half guard - how do you recover back to Jailbreak Top?
+**A**: When the opponent recovers half guard after a failed pass, immediately reestablish crossface control and begin driving shoulder pressure back into their face to flatten their posture. Secure an underhook on the far side before they can establish theirs. From here, work to force their legs back into extension by driving forward pressure while controlling their upper body. The key is not allowing them to establish knee shield or lockdown before you can reinitiate the passing sequence.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -466,10 +405,9 @@ Start from jailbreak top position. Top player wins by achieving side control or 
 - **[[Headquarters Position]]** - Related passing position - similar control structure with different leg configuration
 - **[[Smash Pass]]** - Primary passing technique - common completion from jailbreak top
 - **[[Leg Weave Pass]]** - Primary passing technique - high-percentage finish from jailbreak top
-- **[[10th Planet Half Guard Bottom System]]** - Systematic context - jailbreak is part of 10th Planet defensive methodology
-- **[[Pressure Passing]]** - Core concept - fundamental passing principle for jailbreak top position
-- **[[Guard Passing Principles]]** - Conceptual foundation - underlying principles for all passing from jailbreak
 - **[[Outside Ashi-Garami]]** - Leg entanglement option - backstep target from jailbreak top
+- **[[Side Control]]** - Primary pass completion target - standard destination after successful passing
+- **[[Knee Slice from Half]]** - Alternative passing option - effective when opponent retracts legs
 
 
 </section>

@@ -21,38 +21,32 @@ description: "Master defensive armbar control from bottom position in BJJ. Learn
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape",
-      "text": "From this position, execute Hip Escape to transition to Closed Guard. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Hip Escape. This technique is attempted in 25% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Stack Defense",
-      "text": "From this position, execute Stack Defense to transition to Standing Position. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Stack Defense. This technique is attempted in 20% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm Extraction",
-      "text": "From this position, execute Arm Extraction to transition to Closed Guard. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Arm Extraction. This technique is attempted in 18% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Rolling Escape",
-      "text": "From this position, execute Rolling Escape to transition to Turtle. Success rate for advanced practitioners: 65%.",
+      "name": "Execute Hitchhiker Escape",
+      "text": "From this position, attempt Hitchhiker Escape. This technique is attempted in 20% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Hitchhiker Escape",
-      "text": "From this position, execute Hitchhiker Escape to transition to Half Guard. Success rate for advanced practitioners: 60%.",
-      "position": 5
-    },
-    {
-      "@type": "HowToStep",
       "name": "Execute Bridge and Roll",
-      "text": "From this position, execute Bridge and Roll to transition to Mount. Success rate for advanced practitioners: 50%.",
-      "position": 6
+      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 17% of exchanges from this position.",
+      "position": 5
     }
   ],
   "totalTime": "PT2M"
@@ -213,74 +207,16 @@ Mastery of armbar defense is essential for all practitioners, as the armbar is o
 
 ## Available Escapes
 
-### [[Hip Escape]] → [[Closed Guard]]
+### [[Hip Escape]] (25% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Stack Defense]] (20% of attempts)
 
-### [[Stack Defense]] → [[Standing Position]]
+### [[Arm Extraction]] (18% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
+### [[Hitchhiker Escape]] (20% of attempts)
 
-### [[Arm Extraction]] → [[Closed Guard]]
+### [[Bridge and Roll]] (17% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[Rolling Escape]] → [[Turtle]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-### [[Hitchhiker Escape]] → [[Half Guard]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[Bridge and Roll]] → [[Mount]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Armbar Finish]]** → [[Won by Submission]] (Opponent Success: 60%)
-- **[[Transition to Triangle]]** → [[Triangle Control]] (Opponent Success: 25%)
-- **[[Transition to Omoplata]]** → [[Omoplata Control]] (Opponent Success: 20%)
-- **[[Mount to Armbar]]** → [[Mount]] (Opponent Success: 30%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Stack Pass Counter]]** → [[Closed Guard]]
-  - Opponent releases legs to defend stack pressure
-- **[[Leg Control Counter]]** → [[Half Guard]]
-  - Opponent adjusts leg position for better finishing angle
-- **[[Hip Pressure Reversal]]** → [[Standing Position]]
-  - Opponent's hips rise too high during finishing attempt
 
 
 </section>
@@ -301,12 +237,12 @@ Mastery of armbar defense is essential for all practitioners, as the armbar is o
 
 **If opponent has tight control but arm is still bent:**
 - Execute **[[Hip Escape]]** → [[Closed Guard]] (Probability: 70%)
-- Execute **[[Bridge and Turn]]** → [[Half Guard]] (Probability: 60%)
+- Execute **[[Bridge and Roll]]** → [[Half Guard]] (Probability: 60%)
 
 
 **If opponent transitions to triangle or omoplata:**
-- Execute **[[Posture Recovery]]** → [[Closed Guard]] (Probability: 45%)
-- Execute **[[Stack and Pass]]** → [[Standing Position]] (Probability: 40%)
+- Execute **[[Posture Defense]]** → [[Closed Guard]] (Probability: 45%)
+- Execute **[[Stack Defense]]** → [[Standing Position]] (Probability: 40%)
 
 
 
@@ -387,25 +323,39 @@ Partner attempts armbar from guard. As they extend for finish, defender stacks t
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Direct Escape to Guard Recovery
+## Test Your Knowledge
 
-`Armbar Control Bottom → Hip Escape → Closed Guard → Triangle Control (if opponent postures poorly)`
+**Q1**: What is the first defensive action you must take when caught in an armbar?
+**A**: Immediately bend your trapped elbow and rotate your forearm so your thumb points toward the ceiling. This creates the strongest anatomical position for your elbow joint and prevents the opponent from achieving the extension angle needed to finish. Simultaneously, use your free hand to grip your trapped wrist and pull it toward your chest to reinforce the bent position.
 
-### Stack Defense to Top Control
+**Q2**: Your opponent begins elevating their hips to finish - what immediate response should you execute?
+**A**: As their hips rise, explosively bridge your own hips upward and forward toward their body, creating a stacking effect that compromises their finishing angle. Simultaneously turn your body toward the trapped arm side while maintaining your defensive arm position. This combination disrupts their leverage and creates space to potentially extract your arm or transition to a more defensible position.
 
-`Armbar Control Bottom → Stack Defense → Standing Position → Side Control → Mount → Armbar Control Top (reversal)`
+**Q3**: Why is controlling the opponent's leg across your face essential for armbar defense?
+**A**: The leg across your face is the primary mechanism preventing you from sitting up or turning into the position. By gripping this leg with your free hand and pushing it toward their body, you remove their ability to drop back flat for maximum finishing leverage. This control also creates the space needed to turn your body and begin escape sequences.
 
-### Hitchhiker to Half Guard Sweep
+**Q4**: What is the hitchhiker escape and when should you attempt it?
+**A**: The hitchhiker escape involves rotating your trapped arm so the thumb points toward your head (like hitchhiking), then sliding your elbow across your body while simultaneously turning to turtle position. Attempt this escape when you have maintained a bent arm and the opponent's legs are not completely locked tight. The rotation makes it mechanically difficult for them to maintain wrist control.
 
-`Armbar Control Bottom → Hitchhiker Escape → Half Guard → Old School → Side Control → Kimura Control`
+**Q5**: How do you prevent energy depletion while defending an armbar?
+**A**: Focus on skeletal alignment rather than muscular effort. Keep your arm bent using bone structure rather than bicep strength by positioning your hand against your chest or shoulder. Use your free hand to assist rather than relying solely on the trapped arm. Make deliberate, technical movements rather than explosive attempts to rip free. Controlled breathing prevents panic-induced energy waste.
+
+**Q6**: What escape should you prioritize when the opponent has very tight leg control?
+**A**: When leg control is tight, the stack defense becomes your best option. Drive your hips forward and upward while walking your feet toward their head. This creates immense pressure on their lower back, forcing them to either release leg control or accept a compromised finishing position. As their legs loosen, immediately transition to hip escape or standing pass.
+
+**Q7**: How do you recognize when it is too late to continue defending and you should tap?
+**A**: Tap when your arm reaches full extension against your resistance and you feel pressure on the elbow joint itself. If your arm is straightening despite your defensive efforts and their hips are tight to your shoulder, the mechanical advantage has shifted irreversibly. Tap before you feel a pop or sharp pain - the goal is to train another day. There is no shame in tapping to a well-executed submission.
+
+**Q8**: What body position should you avoid when defending the armbar?
+**A**: Avoid staying flat on your back with your spine parallel to the mat. This position gives the opponent a stable platform and maximum leverage for the finish. Instead, bridge onto one shoulder and turn toward the trapped arm side. This angled position disrupts their base, creates defensive space, and facilitates escape movements like the hitchhiker or stack defense.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -426,15 +376,15 @@ Partner attempts armbar from guard. As they extend for finish, defender stacks t
 
 ## Related Positions and Techniques
 
-- **[[Armbar Control]]** - Sibling variant - opponent's perspective from same position
+- **[[Armbar Control]]** - Parent hub page for this defensive position
 - **[[Armbar Finish]]** - Primary threat - submission being defended against
 - **[[Triangle Control]]** - Common transition - opponent switches to triangle when armbar is defended
-- **[[Submission Defense]]** - Parent concept - overarching defensive principles
 - **[[Hip Escape]]** - Primary escape technique - most reliable armbar defense method
 - **[[Closed Guard]]** - Common escape target - safe position after successful defense
 - **[[Mount]]** - Common origin - position often attacked from mount
-- **[[Hip Escape Mechanics]]** - Core concept - fundamental movement pattern for escapes
-- **[[systematic approach Straight Jacket System]]** - Related system - systematic approach to armbar attacks and defenses
+- **[[Hitchhiker Escape]]** - Key escape technique used from this position
+- **[[Stack Defense]]** - Primary defensive response to compromise opponent's finishing angle
+- **[[Half Guard]]** - Common recovery position after successful escape
 
 
 </section>

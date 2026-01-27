@@ -21,37 +21,37 @@ description: "Master Side Control Consolidation Bottom defensive strategies. Com
     {
       "@type": "HowToStep",
       "name": "Execute Elbow Escape",
-      "text": "From this position, execute Elbow Escape to transition to Half Guard. Success rate for advanced practitioners: 45%.",
+      "text": "From this position, attempt Elbow Escape. This technique is attempted in 19% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Frame and Shrimp",
-      "text": "From this position, execute Frame and Shrimp to transition to Defensive Position. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Frame and Shrimp. This technique is attempted in 21% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bridge and Roll",
-      "text": "From this position, execute Bridge and Roll to transition to Side Control. Success rate for advanced practitioners: 30%.",
+      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Granby Roll",
-      "text": "From this position, execute Granby Roll to transition to Turtle. Success rate for advanced practitioners: 38%.",
+      "text": "From this position, attempt Granby Roll. This technique is attempted in 16% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Technical Standup",
-      "text": "From this position, execute Technical Standup to transition to Standing Guard. Success rate for advanced practitioners: 28%.",
+      "text": "From this position, attempt Technical Standup. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape",
-      "text": "From this position, execute Hip Escape to transition to Guard Recovery. Success rate for advanced practitioners: 46%.",
+      "text": "From this position, attempt Hip Escape. This technique is attempted in 19% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -214,77 +214,18 @@ The psychological dimension of Side Control Consolidation Bottom cannot be under
 
 ## Available Escapes
 
-### [[Elbow Escape]] → [[Half Guard]]
+### [[Elbow Escape]] (19% of attempts)
 
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 45%
+### [[Frame and Shrimp]] (21% of attempts)
 
-### [[Frame and Shrimp]] → [[Defensive Position]]
+### [[Bridge and Roll]] (13% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
+### [[Granby Roll]] (16% of attempts)
 
-### [[Bridge and Roll]] → [[Side Control]]
+### [[Technical Standup]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 10%
-- Intermediate: 20%
-- Advanced: 30%
+### [[Hip Escape]] (19% of attempts)
 
-### [[Granby Roll]] → [[Turtle]]
-
-**Success Rates:**
-- Beginner: 12%
-- Intermediate: 25%
-- Advanced: 38%
-
-### [[Technical Standup]] → [[Standing Guard]]
-
-**Success Rates:**
-- Beginner: 8%
-- Intermediate: 18%
-- Advanced: 28%
-
-### [[Hip Escape]] → [[Guard Recovery]]
-
-**Success Rates:**
-- Beginner: 18%
-- Intermediate: 32%
-- Advanced: 46%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Side Control to Mount]]** → [[Mount]] (Opponent Success: 70%)
-- **[[Transition to North-South]]** → [[North-South]] (Opponent Success: 75%)
-- **[[Kimura from Side Control]]** → [[Kimura Control]] (Opponent Success: 60%)
-- **[[Americana from Side Control]]** → [[Americana Control]] (Opponent Success: 55%)
-- **[[Arm Triangle]]** → [[Arm Triangle]] (Opponent Success: 50%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Elbow Escape]]** → [[Half Guard]]
-  - Opponent raises hips or shifts weight preparing for mount transition
-- **[[Frame and Shrimp]]** → [[Defensive Position]]
-  - Opponent adjusts pressure angle or repositions crossface
-- **[[Bridge and Roll]]** → [[Side Control]]
-  - Opponent posts hand or extends base creating leverage opportunity
-- **[[Granby Roll]]** → [[Turtle]]
-  - Opponent advances toward north-south creating rolling angle
 
 
 </section>
@@ -294,13 +235,13 @@ The psychological dimension of Side Control Consolidation Bottom cannot be under
 ## Decision Making from This Position
 
 **If opponent is actively consolidating with heavy chest pressure and establishing crossface:**
-- Execute **[[Frame and Shrimp]]** → [[Defensive Position]] (Probability: 45%)
+- Execute **[[Frame and Shrimp]]** → [[Open Guard]] (Probability: 45%)
 - Execute **[[Elbow Escape]]** → [[Half Guard]] (Probability: 40%)
 
 
 **If opponent raises hips or adjusts position preparing for advancement:**
 - Execute **[[Elbow Escape]]** → [[Half Guard]] (Probability: 55%)
-- Execute **[[Hip Escape]]** → [[Guard Recovery]] (Probability: 50%)
+- Execute **[[Hip Escape]]** → [[Open Guard]] (Probability: 50%)
 
 
 **If opponent extends base or posts hand creating structural vulnerability:**
@@ -396,29 +337,39 @@ Start in fully consolidated side control with heavy pressure. Bottom player must
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Half Guard Recovery Path
+## Test Your Knowledge
 
-`Side Control Consolidation Bottom → Elbow Escape → Half Guard → Deep Half Guard → Deep Half Entry`
+**Q1**: Your opponent has established heavy crossface pressure and you're having difficulty breathing - what is your immediate priority and how do you address it?
+**A**: Immediate priority is creating breathing space through your far-side frame. Place your far-side forearm against their hip or chest with a bent elbow (not extended), creating a structural frame that prevents them from fully settling their chest weight. Simultaneously turn your head slightly toward them (counterintuitively) which can relieve some crossface pressure on your jaw. Focus on exhaling fully - this creates more space for inhalation than trying to inhale against pressure. Use the brief moment of their exhalation to create your frame, as their pressure naturally lightens during their breath cycle.
 
-### Guard Recovery Path
+**Q2**: What are the essential frames you must maintain and what is the priority order if you can only keep one?
+**A**: The essential frames are: far-side forearm frame against opponent's hip (primary), far-side hand frame against their shoulder/chest (secondary), and near-side elbow blocking body-to-body contact (tertiary). If you can only maintain one frame, the hip frame is most critical because it prevents full consolidation, maintains breathing space, and creates the foundation for hip escape mechanics. Without the hip frame, the opponent can fully settle their weight and your escape options diminish dramatically. A shoulder frame without hip frame still leaves you trapped, but a hip frame without shoulder frame preserves escape potential.
 
-`Side Control Consolidation Bottom → Hip Escape → Guard Recovery → Closed Guard`
+**Q3**: Your opponent starts walking toward your head preparing to transition to mount - describe your defensive response?
+**A**: As opponent walks toward your head, this is your primary escape window. Immediately bridge your hips toward them while simultaneously shrimping away from the direction they're moving. Your goal is to insert your near-side knee between their leg and your hip before they complete the step-over. Turn onto your side facing them, using the bridge to create the angle. If you get your knee in, you've recovered to knee shield half guard. If they complete the mount transition, you've missed your best opportunity and must now defend mount. The key recognition: their hip elevation during walking is when their weight is lightest and escape probability is highest.
 
-### Turtle Transition Path
+**Q4**: How should you breathe when trapped under consolidated side control and why does breathing technique matter?
+**A**: Exhale fully and completely, then take controlled inhales through your nose when opportunity allows. Full exhalation is critical because: it's easier to exhale against pressure than inhale, complete exhalation creates a vacuum effect that helps the next inhale, and it prevents panic-induced hyperventilation. Time your inhales to your opponent's exhalation or movement adjustments when their pressure momentarily lightens. Avoid shallow chest breathing which causes rapid fatigue. Instead, use diaphragmatic breathing even under pressure. Controlled breathing maintains composure, prevents panic, and preserves energy for actual escape attempts.
 
-`Side Control Consolidation Bottom → Granby Roll → Turtle → Turtle to Standing`
+**Q5**: Your opponent is attempting to isolate your far arm for a kimura - how do you defend while maintaining escape potential?
+**A**: Immediately grab your own belt, pants, or gi with the threatened hand, keeping your elbow tight to your body. This grip defense buys time but doesn't solve the problem. While maintaining grip defense, begin hip escape movements to change the angle and reduce their leverage on the arm. The kimura attack often loosens their overall consolidation because they must commit grip strength to the submission - use their submission focus to create hip escape opportunities. If they persist, straighten your arm and point your thumb toward the floor while continuing to hip escape. Never let them get the figure-four grip with your arm separated from your body.
 
-### Technical Standup Path
+**Q6**: What is the timing window for the elbow escape and how do you recognize when it opens?
+**A**: The elbow escape window opens when: opponent raises their hips to transition (mount, knee on belly), when they reach for a grip or submission creating space between their chest and yours, when they adjust their base or crossface position, or when they shift weight toward your head. Recognize these moments by feeling their weight distribution change - a lighter chest or mobile hip indicates they're moving. The moment you feel weight lift, immediately bridge toward them and shrimp away, driving your near knee toward your chest to create the knee shield. Don't wait to visually confirm - feel the pressure change and immediately initiate the escape.
 
-`Side Control Consolidation Bottom → Frame and Shrimp → Defensive Position → Technical Standup → Standing Guard`
+**Q7**: Your escape attempt failed and you're now in a worse position with your opponent applying even heavier pressure - how do you recover?
+**A**: First, immediately re-establish your far-side frame before they fully capitalize on your failed escape. Accept that you've expended energy without result and now must recover defensively before the next attempt. Return to defensive fundamentals: frame, breathing, hip mobility. Do not chain another immediate escape attempt while fatigued - opponent is expecting this and you'll fail again. Instead, use the next 15-20 seconds to restore your defensive structure, catch your breath, and wait for the next genuine opportunity. Failed escapes often open submission opportunities for your opponent, so ensure your arms are protected while you recover.
+
+**Q8**: How do you manage energy expenditure when defending prolonged side control consolidation?
+**A**: Energy management requires distinguishing between essential and wasteful movements. Essential: maintaining frames, controlled breathing, small hip adjustments that test their base. Wasteful: explosive bridges without setup, pushing with arms against their weight, constant movement without purpose. Use the 80/20 principle - 80% of time spend conserving energy with minimal defensive adjustments, 20% commit full effort to genuine escape windows. Never chase low-percentage escapes. Accept that side control is temporary and opponent must eventually advance or attack - patience creates opportunities. A calm defender who escapes after 60 seconds beats an exhausted defender who burns out in 20 seconds.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -445,10 +396,10 @@ Start in fully consolidated side control with heavy pressure. Bottom player must
 - **[[Mount]]** - Position opponent advances to if consolidation successful
 - **[[Elbow Escape]]** - Primary escape technique from consolidated position
 - **[[Frame and Shrimp]]** - Fundamental defensive movement for space creation
-- **[[Side Control Defensive Framework]]** - Systematic approach to defending consolidated positions
-- **[[Side Control Escapes]]** - Collection of escape techniques from side control variants
-- **[[Defensive Frame]]** - Core concept for managing opponent's pressure
-- **[[Escape Hierarchy]]** - Prioritization framework for escape selection
+- **[[Knee Shield Half Guard]]** - Common recovery position after successful escape
+- **[[Open Guard]]** - Guard recovery target after creating distance
+- **[[Side Control Consolidation Top]]** - Opposite perspective - offensive counterpart position
+- **[[North-South]]** - Alternative pin opponent may transition to
 
 
 </section>

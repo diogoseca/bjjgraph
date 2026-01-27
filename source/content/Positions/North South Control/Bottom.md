@@ -21,38 +21,32 @@ description: "Defensive position requiring explosive bridging and precise timing
     {
       "@type": "HowToStep",
       "name": "Execute Bridge and Turn to Turtle",
-      "text": "From this position, execute Bridge and Turn to Turtle to transition to Turtle. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Bridge and Turn to Turtle. This technique is attempted in 25% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Explosive Bridge to Guard Recovery",
-      "text": "From this position, execute Explosive Bridge to Guard Recovery to transition to Open Guard. Success rate for advanced practitioners: 45%.",
+      "text": "From this position, attempt Explosive Bridge to Guard Recovery. This technique is attempted in 20% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Elbow Escape to Side Control Escape",
-      "text": "From this position, execute Elbow Escape to Side Control Escape to transition to Half Guard. Success rate for advanced practitioners: 50%.",
+      "name": "Execute Hip Escape",
+      "text": "From this position, attempt Hip Escape. This technique is attempted in 20% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Technical Stand Up",
-      "text": "From this position, execute Technical Stand Up to transition to Standing Position. Success rate for advanced practitioners: 40%.",
+      "text": "From this position, attempt Technical Stand Up. This technique is attempted in 15% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Granby Roll",
-      "text": "From this position, execute Granby Roll to transition to Turtle. Success rate for advanced practitioners: 45%.",
+      "text": "From this position, attempt Granby Roll. This technique is attempted in 20% of exchanges from this position.",
       "position": 5
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Frame and Turn to Defensive Position",
-      "text": "From this position, execute Frame and Turn to Defensive Position to transition to Defensive Position. Success rate for advanced practitioners: 60%.",
-      "position": 6
     }
   ],
   "totalTime": "PT2M"
@@ -211,72 +205,16 @@ The most effective escapes involve explosive bridge-and-turn sequences that conv
 
 ## Available Escapes
 
-### [[Bridge and Turn to Turtle]] → [[Turtle]]
+### [[Bridge and Turn to Turtle]] (25% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
+### [[Explosive Bridge to Guard Recovery]] (20% of attempts)
 
-### [[Explosive Bridge to Guard Recovery]] → [[Open Guard]]
+### [[Hip Escape]] (20% of attempts)
 
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 45%
+### [[Technical Stand Up]] (15% of attempts)
 
-### [[Elbow Escape to Side Control Escape]] → [[Half Guard]]
+### [[Granby Roll]] (20% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
-
-### [[Technical Stand Up]] → [[Standing Position]]
-
-**Success Rates:**
-- Beginner: 10%
-- Intermediate: 25%
-- Advanced: 40%
-
-### [[Granby Roll]] → [[Turtle]]
-
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 45%
-
-### [[Frame and Turn to Defensive Position]] → [[Defensive Position]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Maintain Chest Pressure and Base]]** → [[North South Control]]
-- **[[Transition to Mount]]** → [[Mount]]
-- **[[Kimura Grip Establishment]]** → [[Kimura Control]]
-- **[[North-South Choke Setup]]** → [[North South Control]]
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Re-establish Guard]]** → [[Closed Guard]]
-  - When opponent attempts to transition to mount and creates space
-- **[[Arm Drag to Back]]** → [[Back Control]]
-  - When opponent posts arm during transition attempt
 
 
 </section>
@@ -291,13 +229,13 @@ The most effective escapes involve explosive bridge-and-turn sequences that conv
 
 
 **If opponent is setting up kimura on near-side arm:**
-- Execute **[[Immediate Bridge Away from Grip]]** → [[Defensive Position]] (Probability: 50%)
+- Execute **[[Immediate Bridge Away from Grip]]** → [[Open Guard]] (Probability: 50%)
 - Execute **[[Roll Through to Turtle]]** → [[Turtle]] (Probability: 35%)
 
 
 **If opponent is establishing North-South choke:**
 - Execute **[[Bridge Perpendicular to Break Arm Configuration]]** → [[Turtle]] (Probability: 40%)
-- Execute **[[Turn Into Opponent]]** → [[Defensive Position]] (Probability: 45%)
+- Execute **[[Turn Into Opponent]]** → [[Open Guard]] (Probability: 45%)
 
 
 
@@ -366,25 +304,39 @@ Bottom player practices explosive bridge and turn combination to convert North-S
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Emergency Escape to Guard Recovery
+## Test Your Knowledge
 
-`North South Control Bottom → Explosive Bridge → Turtle → Guard Recovery → Half Guard`
+**Q1**: What is the immediate defensive priority when an opponent begins establishing North-South control?
+**A**: The immediate priority is preventing full weight consolidation by creating frames with your arms before their chest settles completely on yours. Position your elbows tight to your body with forearms creating space, and begin bridging attempts while they're still transitioning. Once they fully settle their weight, escape becomes exponentially more difficult.
 
-### Counter to Opponent's Mount Transition
+**Q2**: Your opponent is applying heavy chest pressure and you're struggling to breathe - what do you do?
+**A**: Turn your head to the side to create an airway rather than trying to push them off with straight arms. Control your breathing rhythm with short, efficient breaths. Use the psychological pressure as motivation to time your escape attempts rather than panic. Wait for their weight shift during a transition or submission attempt, then execute an explosive bridge at a 45-degree angle.
 
-`North South Control Bottom → Bridge During Mount Transition → Hip Escape → Closed Guard`
+**Q3**: What are the key indicators that signal the right moment to bridge?
+**A**: Key indicators include: when the opponent shifts weight to isolate your arm for a submission, when they begin transitioning toward mount or side control, when they lift slightly to adjust their position, or when they reach for a grip change. Any weight redistribution creates a brief window where the pressure is reduced and your bridge can generate maximum effect.
 
-### Defensive Reset to Standing
+**Q4**: Your opponent is isolating your near-side arm for a kimura - how do you defend?
+**A**: Immediately grip your own thigh or shorts with the threatened hand to create a defensive anchor. Bridge toward the opposite side to disrupt their leverage angle. Keep your elbow tight to your body to prevent them from lifting it. If they persist, use the bridge momentum to turn toward them into turtle rather than allowing the arm isolation to complete.
 
-`North South Control Bottom → Frame Creation → Technical Stand Up → Standing Position`
+**Q5**: What is the correct direction to turn when bridging to escape to turtle?
+**A**: Always turn toward the opponent, not away from them. Turning toward them allows you to achieve a defensive turtle where your back is protected and you can establish base. Turning away exposes your back and allows them to easily insert hooks and take back control, which is a worse position than North-South.
+
+**Q6**: How do you recognize when the opponent is setting up a North-South choke?
+**A**: Warning signs include: they begin threading one arm under your neck while the other goes over, they shift their weight toward your head, their chest pressure changes angle to emphasize the shoulder on your neck, and they tighten their grip configuration around your neck and shoulder. React immediately by turning your chin toward them and bridging perpendicular to break their arm configuration.
+
+**Q7**: How should you manage energy when trapped on bottom in North-South?
+**A**: Avoid sustained pushing or fighting against consolidated pressure - this drains energy rapidly without creating escape opportunities. Instead, maintain defensive frames with minimal effort, focus on controlled breathing, and conserve energy for short, explosive bridge attempts timed with opponent's weight shifts. Quality over quantity - one well-timed explosive bridge is more effective than five half-hearted attempts.
+
+**Q8**: You bridge and create space but your opponent follows you - how do you continue the escape?
+**A**: Continue the turning motion into turtle rather than trying to settle back flat. Use the momentum from your bridge to complete the turn while keeping your elbows and knees tight. Immediately establish turtle defensive base with hands protecting your neck and hips low. If they achieve chest contact on your back, begin working your turtle escapes before they can establish hooks or submission grips.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -409,9 +361,9 @@ Bottom player practices explosive bridge and turn combination to convert North-S
 - **[[Turtle]]** - Primary escape destination through bridge and turn
 - **[[Mount]]** - Common progression if escape attempts fail
 - **[[Kimura]]** - Primary submission threat from this position
-- **[[Bridge and Shrimp]]** - Essential escape mechanics principle
-- **[[Escape Hierarchy]]** - Defines positional escape priorities
-- **[[Hip Escape Mechanics]]** - Movement pattern for creating escape angles
+- **[[North-South Choke]]** - Signature choke threat requiring specific defense
+- **[[Open Guard]]** - Escape destination through guard recovery
+- **[[Half Guard]]** - Partial guard recovery option during escapes
 
 
 </section>

@@ -9,8 +9,6 @@
     "grip fighting",
     "open guard pass"
   ],
-  "starting_position": "Spider Guard",
-  "ending_position": "Side Control",
   "success_rates": {
     "beginner": 35,
     "intermediate": 50,
@@ -252,6 +250,24 @@
     {
       "name": "Collar Sleeve Guard",
       "relationship": "Related guard system with similar grip patterns"
+    }
+  ],
+  "from_position": "Spider Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Side Control/Top",
+      "probability": 65,
+      "result": "success"
+    },
+    {
+      "to": "Spider Guard/Bottom",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Spider Guard/Top",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

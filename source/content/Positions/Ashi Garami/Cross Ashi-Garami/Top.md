@@ -21,37 +21,37 @@ description: "Master Cross Ashi-Garami from top position. Outside leg entangleme
     {
       "@type": "HowToStep",
       "name": "Execute Heel Hook",
-      "text": "From this position, execute Heel Hook to transition to Won by Submission. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Heel Hook. This technique is attempted in 14% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Outside Heel Hook",
-      "text": "From this position, execute Outside Heel Hook to transition to Won by Submission. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Outside Heel Hook. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Straight Ankle Lock",
-      "text": "From this position, execute Straight Ankle Lock to transition to Straight Ankle Lock Control. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Straight Ankle Lock. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Toe Hold",
-      "text": "From this position, execute Toe Hold to transition to Toe Hold Control. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Toe Hold. This technique is attempted in 11% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Saddle Entry from Top",
-      "text": "From this position, execute Saddle Entry from Top to transition to Saddle. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Saddle Entry from Top. This technique is attempted in 13% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Inside Ashi Entry",
-      "text": "From this position, execute Inside Ashi Entry to transition to Inside Ashi-Garami. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Inside Ashi Entry. This technique is attempted in 13% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -164,7 +164,7 @@ Cross Ashi-Garami Top (also known as Cross Ashi or Outside Ashi-Garami in some s
 
 The mechanical advantage of Cross Ashi-Garami Top comes from the ability to control the opponent's hip rotation while simultaneously isolating the ankle and heel. The crossed leg configuration prevents the opponent from sitting up or turning into the entanglement, forcing them to defend from a compromised position. Unlike standard Ashi-Garami where the legs run parallel, the crossed configuration creates additional torque on the knee joint and limits the opponent's defensive options significantly.
 
-This position is fundamental to modern leg lock systems, particularly those developed by systematic and his students. It serves as both a powerful finishing position and a transitional hub to other leg entanglements like Saddle (Honey Hole) and Inside Ashi-Garami. The position's effectiveness has made it a staple in high-level no-gi competition, where practitioners must understand both its offensive potential and defensive counters to compete successfully in the contemporary meta-game.
+This position is fundamental to modern leg lock systems and serves as both a powerful finishing position and a transitional hub to other leg entanglements like Saddle (Honey Hole) and Inside Ashi-Garami. The position's effectiveness has made it a staple in high-level no-gi competition, where practitioners must understand both its offensive potential and defensive counters to compete successfully in the contemporary meta-game.
 
 </section>
 
@@ -213,91 +213,22 @@ This position is fundamental to modern leg lock systems, particularly those deve
 
 ## Available Attacks
 
-### [[Heel Hook]] → [[Won by Submission]]
+### [[Heel Hook]] (14% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 70%
+### [[Outside Heel Hook]] (12% of attempts)
 
-### [[Outside Heel Hook]] → [[Won by Submission]]
+### [[Straight Ankle Lock]] (13% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 45%
-- Advanced: 65%
+### [[Toe Hold]] (11% of attempts)
 
-### [[Straight Ankle Lock]] → [[Straight Ankle Lock Control]]
+### [[Saddle Entry from Top]] (13% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Inside Ashi Entry]] (13% of attempts)
 
-### [[Toe Hold]] → [[Toe Hold Control]]
+### [[Kneebar from Top]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 55%
+### [[X-Guard to Ashi Transition]] (12% of attempts)
 
-### [[Saddle Entry from Top]] → [[Saddle]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 70%
-
-### [[Inside Ashi Entry]] → [[Inside Ashi-Garami]]
-
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
-
-### [[Kneebar from Top]] → [[Kneebar Control]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 60%
-
-### [[X-Guard to Ashi Transition]] → [[Ashi Garami]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Ashi Garami Escape]]** → [[Standing Position]] (Opponent Success: 40%)
-- **[[Saddle Defense]]** → [[Open Guard]] (Opponent Success: 35%)
-- **[[Rolling Back Take]]** → [[Turtle]] (Opponent Success: 30%)
-- **[[Technical Standup]]** → [[Standing Position]] (Opponent Success: 25%)
-- **[[Frame and Shrimp]]** → [[Headquarters Position]] (Opponent Success: 35%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Saddle Entry from Top]]** → [[Saddle]]
-  - Opponent attempts to clear outside leg cross by kicking or straightening
-- **[[Inside Ashi Entry]]** → [[Inside Ashi-Garami]]
-  - Opponent turns toward the entanglement to defend heel exposure
-- **[[Heel Hook]]** → [[Won by Submission]]
-  - Opponent creates space or attempts to sit up, exposing heel
-- **[[Kneebar from Top]]** → [[Kneebar Control]]
-  - Opponent flexes knee to defend heel, creating kneebar opportunity
 
 
 </section>
@@ -313,7 +244,7 @@ This position is fundamental to modern leg lock systems, particularly those deve
 
 **If opponent attempts to clear outside leg cross by kicking or pushing:**
 - Execute **[[Saddle Entry from Top]]** → [[Saddle]] (Probability: 70%)
-- Execute **[[Heel Hook]]** → [[Won by Submission]] (Probability: 60%)
+- Execute **[[Heel Hook]]** → [[game-over]] (Probability: 60%)
 
 
 **If opponent establishes strong inside position with free leg:**
@@ -322,7 +253,7 @@ This position is fundamental to modern leg lock systems, particularly those deve
 
 
 **If opponent attempts to sit up or establish upper body frames:**
-- Execute **[[Heel Hook]]** → [[Won by Submission]] (Probability: 65%)
+- Execute **[[Heel Hook]]** → [[game-over]] (Probability: 65%)
 - Execute **[[Straight Ankle Lock]]** → [[Straight Ankle Lock Control]] (Probability: 55%)
 
 
@@ -409,33 +340,39 @@ Practice transitioning from Cross Ashi-Garami Top to other leg entanglement posi
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Shortest Path to Submission
+## Test Your Knowledge
 
-`Cross Ashi-Garami Top → Heel Hook → Won by Submission`
+**Q1**: What is the primary purpose of crossing your outside leg over the opponent's trapped leg in Cross Ashi-Garami?
+**A**: The crossed leg creates a wedge effect that prevents the opponent from sitting up or rotating their hips effectively. This configuration generates superior mechanical advantage for heel hook applications by controlling both hip rotation and lower leg movement simultaneously, while also limiting the opponent's escape options by trapping the leg between two points of control.
 
-### High-Percentage Finishing Sequence
+**Q2**: Your opponent begins sitting up aggressively to create frames - what adjustment should you make to maintain the position?
+**A**: Drive your inside hook deeper behind their hip while pulling their heel tighter to your chest, creating increased tension that pulls them back down. Simultaneously, consider attacking with the heel hook to punish their attempt to sit up, as their upward movement often exposes the heel more clearly. The threat of immediate submission forces them to abandon the sit-up attempt.
 
-`Cross Ashi-Garami Top → Saddle Entry from Top → Saddle → Inside Heel Hook → Won by Submission`
+**Q3**: What are the essential grip configurations for maintaining Cross Ashi-Garami control?
+**A**: The primary grip is a cup grip on the heel with both hands, palm across the Achilles tendon and fingers pointing toward the toes. This controls heel rotation completely. The elbows should stay tight to the body for maximum leverage. Secondary control comes from your legs - inside hook behind their hip and outside leg crossing at shin level create a pinching effect that traps the leg.
 
-### Ankle Lock Pathway
+**Q4**: How should you position your hips relative to your opponent's body for optimal control?
+**A**: Your hips should be perpendicular (90 degrees) to your opponent's hip line, creating an L-shape between your bodies. This angle maximizes your control over their hip rotation and provides optimal leverage for both maintaining the position and finishing submissions. Being square to them allows forward pressure and easier escape.
 
-`Cross Ashi-Garami Top → Straight Ankle Lock Control → Straight Ankle Lock → Won by Submission`
+**Q5**: Your opponent attempts to kick their outside leg free by straightening it forcefully - how do you counter this?
+**A**: Use their straightening motion as an opportunity to transition to Saddle by crossing your feet and securing deeper control. Their extension actually helps you enter a more dominant position. Alternatively, if your heel grip is strong, their straightening creates optimal finishing mechanics for the heel hook since full leg extension increases rotational force on the knee.
 
-### Kneebar Conversion
+**Q6**: What is the correct weight distribution and body positioning for maintaining Cross Ashi-Garami?
+**A**: Maintain an elevated upper body position by sitting up rather than lying flat - this provides better control and offensive options. Your weight should be centered over your hips with slight forward pressure toward the opponent. Keep your core engaged to prevent being pulled off-balance when the opponent attempts to create space or frame.
 
-`Cross Ashi-Garami Top → Kneebar Control → Kneebar → Won by Submission`
+**Q7**: Your opponent turns their knee toward you to hide their heel - what is your response?
+**A**: Their inward rotation exposes the opportunity to transition to Inside Ashi-Garami by adjusting your leg position to the inside. Follow their rotation by scooting your hips and maintaining constant pressure. You can also use the rotation to enter the Saddle position, which provides even greater control and submission options from their turned position.
 
-### Advanced Entanglement Chain
-
-`Cross Ashi-Garami Top → Inside Ashi Entry → Inside Ashi-Garami → Saddle Entry from Top → Saddle → Heel Hook → Won by Submission`
+**Q8**: How do you manage energy expenditure while maintaining Cross Ashi-Garami over extended periods?
+**A**: Focus on structural control rather than muscular tension. Let your leg positioning and body angle do the work rather than gripping excessively hard. Maintain just enough tension to prevent escape while staying relaxed enough to flow between submission attempts. Attack in waves rather than constant pressure, using submission threats to keep opponent defensive without burning energy.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -462,10 +399,10 @@ Practice transitioning from Cross Ashi-Garami Top to other leg entanglement posi
 - **[[Outside Ashi-Garami]]** - Variation - alternative nomenclature for same position in some systems
 - **[[Single Leg X-Guard]]** - Common entry position - frequently used to establish cross ashi
 - **[[Heel Hook]]** - Primary submission - most common finish from this position
-- **[[systematic approach Leg Lock System]]** - System integration - core position in systematic approach's leg lock framework
 - **[[Leg Entanglement]]** - Concept - fundamental principle underlying position mechanics
 - **[[50-50 Guard]]** - Related leg entanglement with symmetric control structure
 - **[[Honey Hole]]** - Alternative name for saddle - common transition target
+- **[[Straight Ankle Lock]]** - Alternative submission available from this position
 
 
 </section>

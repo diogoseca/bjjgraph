@@ -11,8 +11,6 @@
     "x_guard",
     "off_balancing"
   ],
-  "starting_position": "Single Leg X-Guard",
-  "ending_position": "Side Control",
   "success_rates": {
     "beginner": 35,
     "intermediate": 60,
@@ -190,7 +188,7 @@
       "when_to_use": "In no-gi training or MMA contexts where gi grips are unavailable"
     },
     {
-      "variant_name": "Transition to Outside Ashi",
+      "variant_name": "50-50 Guard to Outside Ashi",
       "description": "If opponent begins to sit or defend the sweep effectively, maintain heel control and transition your legs to Outside Ashi-Garami position. This allows you to attack with heel hooks or continue sweeping from a different angle while keeping the opponent's leg controlled throughout.",
       "when_to_use": "When opponent sits to defend or when leg lock opportunities present themselves"
     },
@@ -289,6 +287,24 @@
     {
       "name": "Straight Ankle Lock",
       "relationship": "Submission threat from Single Leg X"
+    }
+  ],
+  "from_position": "Single Leg X-Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Side Control/Top",
+      "probability": 75,
+      "result": "success"
+    },
+    {
+      "to": "Single Leg X-Guard/Bottom",
+      "probability": 15,
+      "result": "failure"
+    },
+    {
+      "to": "Single Leg X-Guard/Top",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

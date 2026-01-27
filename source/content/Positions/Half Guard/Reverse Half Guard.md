@@ -89,32 +89,24 @@ This position appears more frequently in advanced BJJ and no-gi grappling where 
 - Transition Readiness: Recognize this as transitional position requiring quick offensive action rather than sustained defensive holding
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Old School Sweep]]** → [[Side Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Old School Sweep]]** (14% of attempts)
 
-- **[[Half Guard to Back Take]]** → [[Back Control]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Half Guard to Back Take]]** (15% of attempts)
 
-- **[[Rolling Back Take]]** → [[Back Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Rolling Back Take]]** (14% of attempts)
 
-- **[[Hip Bump Sweep]]** → [[Mount]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Hip Bump Sweep]]** (12% of attempts)
 
-- **[[Transition to Truck]]** → [[Truck]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Turtle to Truck]]** (13% of attempts)
 
-- **[[Re-Guard]]** → [[Half Guard]]
-  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+- **[[Butterfly Hook Recovery]]** (10% of attempts)
 
-- **[[Underhook Sweep from Half]]** → [[Side Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Underhook Sweep from Half]]** (10% of attempts)
 
-- **[[Deep Half Entry]]** → [[Deep Half Guard]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Deep Half Entry]]** (12% of attempts)
 
 
 ### Common Mistakes
@@ -172,29 +164,22 @@ This position appears more frequently in advanced BJJ and no-gi grappling where 
 - Work methodically to extract trapped leg while maintaining positional dominance
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Transition to Back Control]]** → [[Back Control]]
-  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+- **[[Aoki Lock to Back Control]]** (15% of attempts)
 
-- **[[Leg Drag Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 80%
+- **[[Leg Drag Pass]]** (19% of attempts)
 
-- **[[Knee Slice from Half]]** → [[Side Control]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Knee Slice from Half]]** (14% of attempts)
 
-- **[[Transition to Mount]]** → [[Mount]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Side Control to Mount]]** (13% of attempts)
 
-- **[[Crossface Pass]]** → [[North-South]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Crossface Pass]]** (14% of attempts)
 
-- **[[Transition to Truck]]** → [[Truck]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Turtle to Truck]]** (12% of attempts)
 
-- **[[Smash Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Smash Pass]]** (13% of attempts)
 
 
 ### Common Mistakes

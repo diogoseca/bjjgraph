@@ -9,8 +9,6 @@
     "advanced",
     "heel-hook-defense"
   ],
-  "starting_position": "Saddle",
-  "ending_position": "Standing Position",
   "success_rates": {
     "beginner": 25,
     "intermediate": 45,
@@ -280,6 +278,24 @@
     {
       "name": "Straight Ankle Lock",
       "relationship": "Lower-risk leg attack that may occur during transitions"
+    }
+  ],
+  "from_position": "Saddle/Top",
+  "outcomes": [
+    {
+      "to": "Standing Position/Top",
+      "probability": 65,
+      "result": "success"
+    },
+    {
+      "to": "Saddle/Top",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Saddle/Bottom",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

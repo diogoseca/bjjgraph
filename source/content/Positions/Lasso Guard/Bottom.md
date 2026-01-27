@@ -21,37 +21,37 @@ description: "Master Lasso Guard from bottom position. Learn sweep mechanics, su
     {
       "@type": "HowToStep",
       "name": "Execute Lasso Guard Sweeps",
-      "text": "From this position, execute Lasso Guard Sweeps to transition to Mount. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Lasso Guard Sweeps. This technique is attempted in 25% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Setup",
-      "text": "From this position, execute Triangle Setup to transition to Triangle Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Triangle Setup. This technique is attempted in 18% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Omoplata Sweep",
-      "text": "From this position, execute Omoplata Sweep to transition to Omoplata Control. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 15% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute De La Riva Sweep",
-      "text": "From this position, execute De La Riva Sweep to transition to Back Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt De La Riva Sweep. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Spider Guard Sweeps",
-      "text": "From this position, execute Spider Guard Sweeps to transition to Side Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Spider Guard Sweeps. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute X-Guard Sweep",
-      "text": "From this position, execute X-Guard Sweep to transition to Mount. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt X-Guard Sweep. This technique is attempted in 8% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -219,89 +219,22 @@ Training Lasso Guard Bottom develops several fundamental skills that transfer ac
 
 ## Available Escapes
 
-### [[Lasso Guard Sweeps]] → [[Mount]]
+### [[Lasso Guard Sweeps]] (25% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Triangle Setup]] (18% of attempts)
 
-### [[Triangle Setup]] → [[Triangle Control]]
+### [[Omoplata Sweep]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
+### [[De La Riva Sweep]] (12% of attempts)
 
-### [[Omoplata Sweep]] → [[Omoplata Control]]
+### [[Spider Guard Sweeps]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
+### [[X-Guard Sweep]] (8% of attempts)
 
-### [[De La Riva Sweep]] → [[Back Control]]
+### [[Armbar from Guard]] (7% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Kimura from Guard]] (5% of attempts)
 
-### [[Spider Guard Sweeps]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-### [[X-Guard Sweep]] → [[Mount]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
-
-### [[Armbar from Guard]] → [[Armbar Control]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-### [[Kimura from Guard]] → [[Kimura Control]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Lasso Guard Pass]]** → [[Side Control]] (Opponent Success: 45%)
-- **[[Stack Pass]]** → [[Side Control]] (Opponent Success: 40%)
-- **[[Knee Cut Pass]]** → [[Side Control]] (Opponent Success: 35%)
-- **[[Smash Pass]]** → [[Side Control]] (Opponent Success: 40%)
-- **[[Standing up]]** → [[Headquarters Position]] (Opponent Success: 50%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Lasso Guard Variations]]** → [[Inverted Lasso Guard]]
-  - When opponent begins to step over the lasso leg, invert underneath to recover the position or transition to berimbolo
-- **[[De La Riva Sweep]]** → [[Single Leg X-Guard]]
-  - If opponent successfully clears the lasso, immediately establish DLR hook on the same leg to maintain control
-- **[[Butterfly Sweep]]** → [[Mount]]
-  - When opponent drops their weight forward to smash the lasso, convert to butterfly hooks and sweep the opposite direction
 
 
 </section>
@@ -332,7 +265,7 @@ Training Lasso Guard Bottom develops several fundamental skills that transfer ac
 
 **If opponent circles around the lasso leg toward your non-lasso side:**
 - Execute **[[Lasso Guard Variations]]** → [[De La Riva Guard]] (Probability: 60%)
-- Execute **[[Kimura from Guard]]** → [[Kimura Control]] (Probability: 40%)
+- Execute **[[Kimura from Guard]]** → [[Kimura Trap]] (Probability: 40%)
 
 
 
@@ -413,33 +346,7 @@ Partner actively works to counter the lasso using various methods: stepping over
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
-
-### Lasso to Triangle Chain
-
-`Lasso Guard → Triangle Setup → Triangle Control → Triangle Choke`
-
-### Lasso to Omoplata Progression
-
-`Lasso Guard → Omoplata Sweep → Omoplata Control → Omoplata`
-
-### Lasso to Back Attack
-
-`Lasso Guard → De La Riva Sweep → Back Control → Rear Naked Choke`
-
-### Lasso to Armbar System
-
-`Lasso Guard → Spider Guard Sweeps → Mount → Armbar from Mount`
-
-### Lasso to Kimura Trap
-
-`Lasso Guard → Kimura from Guard → Kimura Control → Kimura`
-
-
-
-</section>
 
 <section id="position-metrics" class="content-section">
 

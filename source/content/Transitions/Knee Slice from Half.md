@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Knee Slice from Half | BJJ Technique | BJJ Graph"
 description: "Master the Knee Slice from Half Guard pass in BJJ. High-percentage guard pass using knee pressure and angle control. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%."
@@ -16,7 +17,7 @@ description: "Master the Knee Slice from Half Guard pass in BJJ. High-percentage
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Knee Slice from Half in BJJ",
-  "description": "Step-by-step guide for Knee Slice from Half from Half Guard to Side Control.",
+  "description": "Step-by-step guide for Knee Slice from Half from Half Guard/Bottom. Possible outcomes: Side Control/Top (75%), Half Guard/Bottom (15%), Half Guard/Top (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -158,11 +159,25 @@ What makes this pass particularly effective is its ability to shut down the bott
 
 This pass represents a cornerstone of modern guard passing systems because it works equally well in gi and no-gi, against all body types, and connects seamlessly to other passing options. When executed with proper timing and pressure, the knee slice becomes nearly unstoppable, forcing the opponent into increasingly desperate defensive reactions that open them up to back takes, mount transitions, or submission attacks.
 
-**Starting Position**: [[Half Guard]]
-**Ending Position**: [[Side Control]]
+**From Position**: [[Half Guard/Bottom]]
 **Success Rates**: Beginner 45%, Intermediate 60%, Advanced 75%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Side Control/Top]] | 75% |
+| Failure | [[Half Guard/Bottom]] | 15% |
+| Counter | [[Half Guard/Top]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

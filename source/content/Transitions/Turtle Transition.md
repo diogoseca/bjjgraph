@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Turtle Transition | BJJ Technique | BJJ Graph"
 description: "Master Turtle transitions in BJJ. Complete guide to attacking and defending from Turtle position. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%."
@@ -16,7 +17,7 @@ description: "Master Turtle transitions in BJJ. Complete guide to attacking and 
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Turtle Transition in BJJ",
-  "description": "Step-by-step guide for Turtle Transition from Turtle to Back Control.",
+  "description": "Step-by-step guide for Turtle Transition from Turtle/Top. Possible outcomes: Back Control/Top (65%), Turtle/Top (25%), Turtle/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -160,11 +161,25 @@ description: "Master Turtle transitions in BJJ. Complete guide to attacking and 
 
 The Turtle position represents a critical transitional state in BJJ where the bottom player assumes a quadruped defensive posture to protect against back exposure and submission attacks. While traditionally viewed as a defensive position, modern grapplers have transformed Turtle into an active launching point for sweeps, guard recoveries, and scrambles. The position creates a unique tactical battleground where the top player seeks back control, front headlock positions, or submission entries, while the bottom player works to return to guard, execute reversals, or escape to standing. Understanding Turtle transitions is essential for both attacking opportunities from top position and defensive survival from bottom. The position's dynamic nature creates constant momentum shifts, requiring practitioners to develop sharp awareness of weight distribution, grip fighting, and timing. Mastery of Turtle transitions distinguishes intermediate from advanced competitors, as it demonstrates the ability to maintain composure during scrambles and capitalize on fleeting opportunities during position changes.
 
-**Starting Position**: [[Turtle]]
-**Ending Position**: [[Back Control]]
+**From Position**: [[Turtle/Top]]
 **Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Back Control/Top]] | 65% |
+| Failure | [[Turtle/Top]] | 25% |
+| Counter | [[Turtle/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

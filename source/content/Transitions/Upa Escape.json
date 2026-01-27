@@ -9,8 +9,6 @@
     "defensive-technique",
     "beginner-friendly"
   ],
-  "starting_position": "Mount",
-  "ending_position": "Closed Guard",
   "success_rates": {
     "beginner": 35,
     "intermediate": 50,
@@ -274,6 +272,24 @@
     {
       "name": "Bridge and Roll",
       "relationship": "Alternative name for same technique"
+    }
+  ],
+  "from_position": "Mount/Top",
+  "outcomes": [
+    {
+      "to": "Closed Guard/Bottom",
+      "probability": 65,
+      "result": "success"
+    },
+    {
+      "to": "Mount/Top",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Mount/Bottom",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

@@ -21,37 +21,37 @@ description: "Navigate and pass lapel guard configurations with technical precis
     {
       "@type": "HowToStep",
       "name": "Execute Lapel Clear to Toreando Pass",
-      "text": "From this position, execute Lapel Clear to Toreando Pass to transition to Side Control. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Lapel Clear to Toreando Pass. This technique is attempted in 13% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Backstep Around Worm Guard",
-      "text": "From this position, execute Backstep Around Worm Guard to transition to Turtle. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Backstep Around Worm Guard. This technique is attempted in 14% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Pressure Pass Through Squid",
-      "text": "From this position, execute Pressure Pass Through Squid to transition to Half Guard Pass. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Pressure Pass Through Squid. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Despite Lapel",
-      "text": "From this position, execute Knee Slice Despite Lapel to transition to Knee on Belly. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Knee Slice Despite Lapel. This technique is attempted in 13% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Long Step Around Ringworm",
-      "text": "From this position, execute Long Step Around Ringworm to transition to Side Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Long Step Around Ringworm. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Stack Pass Over Lapel Barrier",
-      "text": "From this position, execute Stack Pass Over Lapel Barrier to transition to Mount. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Stack Pass Over Lapel Barrier. This technique is attempted in 11% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -217,91 +217,22 @@ Developing lapel guard top competency requires specific drilling and study. Gene
 
 ## Available Attacks
 
-### [[Lapel Clear to Toreando Pass]] → [[Side Control]]
+### [[Lapel Clear to Toreando Pass]] (13% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 70%
+### [[Backstep Around Worm Guard]] (14% of attempts)
 
-### [[Backstep Around Worm Guard]] → [[Turtle]]
+### [[Pressure Pass Through Squid]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 55%
-- Advanced: 75%
+### [[Knee Slice Despite Lapel]] (13% of attempts)
 
-### [[Pressure Pass Through Squid]] → [[Half Guard Pass]]
+### [[Long Step Around Ringworm]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 45%
-- Advanced: 65%
+### [[Stack Pass Over Lapel Barrier]] (11% of attempts)
 
-### [[Knee Slice Despite Lapel]] → [[Knee on Belly]]
+### [[Distance Creation to Reset]] (13% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 70%
+### [[Leg Drag While Clearing Lapel]] (12% of attempts)
 
-### [[Long Step Around Ringworm]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 45%
-- Advanced: 65%
-
-### [[Stack Pass Over Lapel Barrier]] → [[Mount]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 40%
-- Advanced: 60%
-
-### [[Distance Creation to Reset]] → [[Standing Guard]]
-
-**Success Rates:**
-- Beginner: 50%
-- Intermediate: 70%
-- Advanced: 85%
-
-### [[Leg Drag While Clearing Lapel]] → [[Leg Drag Control]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 45%
-- Advanced: 65%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Worm Guard Retention]]** → [[Worm Guard]] (Opponent Success: 60%)
-- **[[Squid Guard Maintenance]]** → [[Squid Guard]] (Opponent Success: 55%)
-- **[[Back Take Counter]]** → [[Back Control]] (Opponent Success: 40%)
-- **[[Triangle Lock on Clearing Attempt]]** → [[Triangle Control]] (Opponent Success: 35%)
-- **[[De La Riva Recovery]]** → [[De La Riva Guard]] (Opponent Success: 50%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Immediate Pressure When Lapel Cleared]]** → [[Half Guard Pass]]
-  - Successfully clearing lapel configuration from leg or arm
-- **[[Backstep When Bottom Player Sits Up]]** → [[Turtle]]
-  - Bottom player elevates torso attempting to pursue back take
-- **[[Toreando When Distance Created]]** → [[Side Control]]
-  - Creating separation that reduces lapel control leverage
-- **[[Stack Pass When Bottom Extends Legs]]** → [[Mount]]
-  - Bottom player extends legs to maintain lapel barrier creating stacking opportunity
 
 
 </section>
@@ -316,7 +247,7 @@ Developing lapel guard top competency requires specific drilling and study. Gene
 
 
 **If opponent has squid guard with lapel controlling your arm:**
-- Execute **[[Pressure Pass Through Squid]]** → [[Half Guard Pass]] (Probability: 50%)
+- Execute **[[Pressure Pass Through Squid]]** → [[Half Guard]] (Probability: 50%)
 - Execute **[[Lapel Clear to Toreando Pass]]** → [[Side Control]] (Probability: 55%)
 
 
@@ -326,7 +257,7 @@ Developing lapel guard top competency requires specific drilling and study. Gene
 
 
 **If you've successfully cleared lapel configuration:**
-- Execute **[[Immediate Pressure When Lapel Cleared]]** → [[Half Guard Pass]] (Probability: 70%)
+- Execute **[[Immediate Pressure When Lapel Cleared]]** → [[Half Guard]] (Probability: 70%)
 - Execute **[[Knee Slice Despite Lapel]]** → [[Knee on Belly]] (Probability: 65%)
 
 
@@ -408,25 +339,39 @@ Partner establishes lapel configuration of choice. Clear it using appropriate te
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Clear to Knee Slice to Mount Submission
+## Test Your Knowledge
 
-`Lapel Guard Top → Toreando Pass → Side Control → Transition to Mount → Mount → Armbar from Mount`
+**Q1**: What is the first priority when you recognize your opponent has established a lapel configuration around your leg?
+**A**: Address the lapel configuration immediately before attempting any passing sequence. The fabric creates a mechanical barrier that persists even after breaking hand grips, so you must either clear the configuration entirely or use specific backstep mechanics to navigate around it rather than fighting through.
 
-### Backstep to Turtle Attack
+**Q2**: Your opponent starts feeding your lapel around your lead leg while you're in combat base—what adjustment prevents the worm guard establishment?
+**A**: Immediately establish dominant grips on their collar and sleeve while applying forward pressure. Step your lead leg back to prevent the lapel from completing its wrap around your knee. The key is engaging with grip fighting and pressure before they complete the configuration, as prevention is far easier than clearing an established wrap.
 
-`Lapel Guard Top → Backstep Around Worm Guard → Turtle → Turtle to Back Control → Back Control → Rear Naked Choke`
+**Q3**: How does energy management differ when passing lapel guard compared to traditional open guards?
+**A**: Lapel guard inverts typical energy dynamics—the bottom player maintains control with low effort while you must actively problem-solve. This creates pressure to act quickly before fatigue sets in, but rushing causes defensive errors. The solution is systematic clearing combined with immediate passing pressure, solving the problem and advancing position in one continuous action.
 
-### Pressure to Half Guard Submission
+**Q4**: What are the essential grips for clearing a worm guard lapel configuration?
+**A**: Control the opponent's gripping hand first to prevent them from adjusting the wrap, then use your free hand to work the fabric off your leg systematically. A collar grip with your clearing hand helps maintain pressure while you address the configuration. Avoid pulling the lapel with muscular force—instead use technical unwinding motions.
 
-`Lapel Guard Top → Pressure Pass Through Squid → Half Guard Pass → Side Control → North-South to Kimura → Kimura`
+**Q5**: Your opponent has squid guard with the lapel wrapped around your posting arm—what is the primary passing approach?
+**A**: Create distance to reduce the leverage they gain from the arm configuration, or apply heavy pressure passing that compresses them despite the lapel barrier. The squid guard's arm wrap is less restrictive to leg movement than worm guard, so leg-based passing like toreando becomes viable once you manage the arm entanglement or commit to pressure through it.
+
+**Q6**: How do you identify whether your opponent is playing worm guard versus squid guard versus ringworm?
+**A**: Worm guard has the lapel wrapped around your leg, typically threaded behind the knee. Squid guard wraps the lapel around your arm, usually the posting arm. Ringworm combines elements with multiple wraps creating complex configurations. Recognition is critical because each requires different technical solutions—backstep for worm, pressure or distance for squid, full reset for ringworm.
+
+**Q7**: Your opponent begins sitting up aggressively from lapel guard trying to take your back—what counter maintains your position?
+**A**: Backstep immediately when they elevate their torso, using their forward momentum to disengage from the lapel configuration and circle to turtle position. Their commitment to the sit-up opens the path around the lapel barrier. Maintain heavy shoulder pressure during the backstep to prevent them from completing the back take.
+
+**Q8**: What is the most common mistake when attempting to clear lapel configurations, and how does it compromise your position?
+**A**: Using excessive force to rip the lapel free causes rapid grip fatigue and is often unsuccessful because the fabric is wrapped around body parts rather than just gripped. This compromises your position by draining energy, potentially damaging the gi, and leaving you in the same trapped position but now fatigued. Technical unwinding or navigating around is always superior to forcing.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -454,9 +399,9 @@ Partner establishes lapel configuration of choice. Clear it using appropriate te
 - **[[Long Step Pass]]** - Navigates around lapel barriers by changing passing angle
 - **[[Back Step]]** - Primary solution for worm guard configurations
 - **[[Standing Guard]]** - Reset position for creating distance from complex lapel configurations
-- **[[Pressure Passing Framework]]** - System principles that can be adapted for passing through cleared lapel guards
-- **[[Grip Fighting]]** - Preventative strategy for stopping lapel extractions early
-- **[[Keenan Cornelius Lapel Guard System]]** - Study this system from bottom perspective to understand vulnerabilities from top
+- **[[Side Control]]** - Common passing destination after successfully clearing lapel configurations
+- **[[Half Guard]]** - Intermediate position often reached during lapel guard passing attempts
+- **[[Knee on Belly]]** - Dominant position achievable after clearing lapel and completing knee slice
 
 
 </section>

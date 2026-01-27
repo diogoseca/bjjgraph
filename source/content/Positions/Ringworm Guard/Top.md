@@ -21,37 +21,37 @@ description: "Master defending against Ringworm Guard in BJJ. Systematic approac
     {
       "@type": "HowToStep",
       "name": "Execute Lapel Grip Break and Posture Recovery",
-      "text": "From this position, execute Lapel Grip Break and Posture Recovery to transition to Open Guard. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Lapel Grip Break and Posture Recovery. This technique is attempted in 17% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Extraction from Lapel Wrap",
-      "text": "From this position, execute Leg Extraction from Lapel Wrap to transition to Combat Base. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Leg Extraction from Lapel Wrap. This technique is attempted in 18% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Stack Pass with Lapel Control Negation",
-      "text": "From this position, execute Stack Pass with Lapel Control Negation to transition to Side Control. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Stack Pass with Lapel Control Negation. This technique is attempted in 15% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Standing Guard Pass with Distance Creation",
-      "text": "From this position, execute Standing Guard Pass with Distance Creation to transition to Headquarters Position. Success rate for advanced practitioners: 45%.",
+      "text": "From this position, attempt Standing Guard Pass with Distance Creation. This technique is attempted in 14% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Smash Pass Counter",
-      "text": "From this position, execute Smash Pass Counter to transition to Half Guard. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Smash Pass Counter. This technique is attempted in 17% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Standing Reset to Open Guard",
-      "text": "From this position, execute Standing Reset to Open Guard to transition to Standing Guard. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Standing Reset to Open Guard. This technique is attempted in 19% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -212,74 +212,18 @@ This position is primarily encountered in gi-based competition and training envi
 
 ## Available Attacks
 
-### [[Lapel Grip Break and Posture Recovery]] → [[Open Guard]]
+### [[Lapel Grip Break and Posture Recovery]] (17% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
+### [[Leg Extraction from Lapel Wrap]] (18% of attempts)
 
-### [[Leg Extraction from Lapel Wrap]] → [[Combat Base]]
+### [[Stack Pass with Lapel Control Negation]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Standing Guard Pass with Distance Creation]] (14% of attempts)
 
-### [[Stack Pass with Lapel Control Negation]] → [[Side Control]]
+### [[Smash Pass Counter]] (17% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
+### [[Standing Reset to Open Guard]] (19% of attempts)
 
-### [[Standing Guard Pass with Distance Creation]] → [[Headquarters Position]]
-
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 45%
-
-### [[Smash Pass Counter]] → [[Half Guard]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-### [[Standing Reset to Open Guard]] → [[Standing Guard]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Ringworm Sweep to Back Control]]** → [[Back Control]] (Opponent Success: 50%)
-- **[[Triangle Setup from Lapel Control]]** → [[Triangle Control]] (Opponent Success: 40%)
-- **[[Lapel Guard Sweep to Mount]]** → [[Mount]] (Opponent Success: 45%)
-- **[[Berimbolo Entry to Back]]** → [[Back Control]] (Opponent Success: 35%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Immediate Posture and Grip Strip]]** → [[Open Guard]]
-  - Bottom player attempts to tighten lapel wrap or establish secondary grips
-- **[[Pressure Pass to Half Guard]]** → [[Half Guard]]
-  - Bottom player overcommits to sweeping motion exposing guard structure
-- **[[Standing Extraction with Distance]]** → [[Standing Guard]]
-  - Bottom player establishes strong lapel control making ground-based extraction difficult
 
 
 </section>
@@ -379,25 +323,39 @@ Partner in Ringworm Guard attempts various sweeps and back-taking attacks while 
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Safest extraction to side control
+## Test Your Knowledge
 
-`Ringworm Guard Top → Lapel Grip Break → Combat Base → Stack Pass → Side Control`
+**Q1**: What is the first priority when you find yourself caught in Ringworm Guard?
+**A**: The first priority is breaking the lapel grip before attempting any aggressive passing. The wrap severely limits safe movement options, and attempting to pass while the lapel is still secured typically results in sweeps or back exposure. You must address the grip systematically before progressing to extraction or passing sequences.
 
-### Standing reset to safe passing
+**Q2**: Your opponent starts pulling the lapel tighter and creating an angle - what adjustment should you make?
+**A**: When the opponent tightens the lapel and creates angles, you should immediately address the secondary grips they're establishing with their free hands. Control their grip-fighting hand to prevent them from securing collar or sleeve grips that facilitate sweeps. Simultaneously, work to square your hips and maintain heavy pressure through your free leg to resist the angular off-balancing.
 
-`Ringworm Guard Top → Standing Extraction → Standing Guard → Headquarters Position → Guard Pass`
+**Q3**: Why is explosive movement particularly dangerous when trapped in Ringworm Guard?
+**A**: The lapel wrap acts as a lever that converts explosive energy into sweeping momentum. When you make sudden direction changes or explosive movements, the bottom player can redirect that energy using the lapel connection, often resulting in dramatic position reversals. Controlled, methodical movements allow you to maintain base and prevent your own energy from being used against you.
 
-### Pressure counter to half guard
+**Q4**: What are the essential grips you need to establish for successful extraction?
+**A**: You need both hands committed to the grip-breaking sequence - one hand controlling the lapel tail near the bottom player's grip to prevent re-securing, and the other hand working to peel the lapel away from your leg. Additionally, you should establish a grip on their sleeve or wrist to control their grip-fighting ability while preventing secondary controls.
 
-`Ringworm Guard Top → Stack Pass Counter → Half Guard → Half Guard Pass → Side Control`
+**Q5**: How should you distribute your weight when the opponent has secure lapel control?
+**A**: Keep your weight distributed primarily through your free leg and maintain a low base with your hips heavy. Avoid committing weight forward over the trapped leg, as this creates ideal sweeping angles. Your center of gravity should stay slightly back to prevent the opponent from loading you for back takes or sweeps while you work the extraction.
+
+**Q6**: Your opponent begins a sweeping motion - how do you recover base without getting swept?
+**A**: When the sweep begins, immediately widen your base with your free leg and drop your hips lower rather than trying to step out with the trapped leg. Post with your free hand if necessary, and circle away from the direction of the sweep while simultaneously working to strip the lapel grip. Do not try to pressure forward through the sweep - this accelerates the position loss.
+
+**Q7**: What is the strategic trade-off between standing extraction versus ground-based grip breaking?
+**A**: Standing extraction creates distance that makes ground-based attacks harder for the opponent but requires good balance and exposes you to being pulled back down. Ground-based grip breaking keeps you more stable but allows the opponent to continuously work for secondary controls and sweeps. Choose standing when the opponent has multiple control points established; choose ground-based when you have isolated the lapel grip as the only problem.
+
+**Q8**: How do you prevent the opponent from transitioning to your back during the extraction process?
+**A**: Keep your shoulders square and facing the opponent throughout the extraction - never turn your back toward them. Maintain elbow connection to your body to prevent underhooks, and keep your head position neutral or slightly forward. If you feel them loading for a back take, immediately abort the extraction attempt and reset to a squared position before trying again.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -423,8 +381,6 @@ Partner in Ringworm Guard attempts various sweeps and back-taking attacks while 
 - **[[Lapel Guard]]** - General defensive category - Ringworm is a specific variation requiring specialized counters
 - **[[Open Guard]]** - Target position after successful extraction - neutral position to restart passing game
 - **[[Combat Base]]** - Intermediate defensive position - common stage in extraction sequence
-- **[[Stack Pass]]** - Counter-attacking passing option - can neutralize lapel control when executed correctly
-- **[[Standing Guard]]** - Alternative defensive reset - standing extraction bypasses ground-based grip fighting
 - **[[Headquarters Position]]** - Passing position after standing reset - allows safe distance management and passing entries
 
 

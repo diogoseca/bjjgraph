@@ -10,8 +10,6 @@
     "top-game",
     "position-advancement"
   ],
-  "starting_position": "Open Guard",
-  "ending_position": "Side Control",
   "success_rates": {
     "beginner": 30,
     "intermediate": 50,
@@ -301,6 +299,24 @@
     {
       "name": "Closed Guard",
       "relationship": "Guard type requiring passing"
+    }
+  ],
+  "from_position": "Open Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Side Control/Top",
+      "probability": 70,
+      "result": "success"
+    },
+    {
+      "to": "Open Guard/Bottom",
+      "probability": 20,
+      "result": "failure"
+    },
+    {
+      "to": "Open Guard/Top",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

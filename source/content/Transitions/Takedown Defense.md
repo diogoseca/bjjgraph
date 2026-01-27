@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Takedown Defense | BJJ Technique | BJJ Graph"
 description: "Master takedown defense in BJJ and MMA. Learn sprawl mechanics, grip fighting strategies, and counter-attacks. Success rates: Beginner 45%, Intermediate 65%, Advanced 85%."
@@ -16,7 +17,7 @@ description: "Master takedown defense in BJJ and MMA. Learn sprawl mechanics, gr
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Takedown Defense in BJJ",
-  "description": "Step-by-step guide for Takedown Defense from Standing Position to Front Headlock.",
+  "description": "Step-by-step guide for Takedown Defense from Standing Position/Top. Possible outcomes: Front Headlock/Top (75%), Standing Position/Top (15%), Standing Position/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -154,11 +155,25 @@ description: "Master takedown defense in BJJ and MMA. Learn sprawl mechanics, gr
 
 Takedown defense is a critical skill in Brazilian Jiu-Jitsu that determines whether you fight from top or bottom position. The ability to defend takedowns effectively not only prevents your opponent from scoring points but also creates opportunities for counter-attacks and advantageous positions. Modern BJJ competition increasingly emphasizes standing exchanges, making takedown defense essential for both gi and no-gi practitioners. Effective takedown defense combines defensive posture, grip fighting, hip positioning, and timing to neutralize shooting attacks, body locks, and upper body throws. The fundamental principle is to maintain proper base and distance while reading your opponent's setup and reacting before they can fully commit to their attack. Advanced practitioners use takedown defense not merely to avoid being taken down, but as an offensive weapon to create front headlock situations, guillotine opportunities, and transitions to dominant top positions.
 
-**Starting Position**: [[Standing Position]]
-**Ending Position**: [[Front Headlock]]
+**From Position**: [[Standing Position/Top]]
 **Success Rates**: Beginner 45%, Intermediate 65%, Advanced 85%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Front Headlock/Top]] | 75% |
+| Failure | [[Standing Position/Top]] | 15% |
+| Counter | [[Standing Position/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

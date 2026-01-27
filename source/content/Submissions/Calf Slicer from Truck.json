@@ -8,7 +8,6 @@
     "compression-lock",
     "truck-position",
     "10th-planet",
-    "eddie-10th Planet",
     "leg-lock",
     "twister-system",
     "advanced"
@@ -264,6 +263,36 @@
       "question": "How do you transition from a defended calf slicer to the Twister, and why is this combination particularly effective?",
       "answer": "When the opponent defends the calf slicer by forcefully straightening their trapped leg, you capitalize on this movement by immediately rotating your hips higher on their back while releasing the calf compression. As their leg straightens, slide your bottom hook higher toward their hip and rotate your chest toward their head. Reach over and control their far side head/neck with a deep grip, pulling it toward you while using your top leg to maintain hip control. This is classic Twister control position. The combination is particularly effective because: (1) their leg-straightening defense actually helps you advance position by removing the leg obstacle between you and their head, (2) they expend energy and focus defending the lower body, leaving their upper body vulnerable, (3) the transition happens in their defensive moment when they feel they're escaping, eliminating their mental preparation for the new attack, and (4) both submissions emerge from truck position, creating a legitimate dilemma where defending one opens the other. This exemplifies 10th Planet's systematic approach where positions connect through natural defensive reactions.",
       "safety_critical": false
+    },
+    {
+      "question": "Your opponent begins straightening their leg during the calf slicer attempt - what specific indicators tell you when to abandon the finish versus when to maintain pressure?",
+      "answer": "Abandon the finish when: their leg is gaining extension rapidly despite your hip pressure, you feel your shin sliding off the calf muscle belly toward the achilles, or maintaining the position requires you to sacrifice upper body control. Continue with pressure when: their leg extension is slow and labored (indicating fatigue), your shin remains positioned across the calf muscle belly, and you can increase hip drive to counter their extension. The critical indicator is your shin position - if it's sliding off target, the submission is lost regardless of how much force you apply. The moment you recognize the shin is moving off the muscle belly, immediately transition to Twister or Banana Split rather than chasing a mechanically compromised finish.",
+      "safety_critical": false
+    },
+    {
+      "question": "What are the key differences between finishing the calf slicer in training versus competition, and why must training application always remain slower?",
+      "answer": "In competition, the calf slicer can be applied at full speed once the position is secured, with the understanding that the opponent accepts competition-level risk. In training, application must always maintain the 5-7 second progressive window regardless of resistance level. The difference exists because: (1) training partners didn't sign up for competition-level injury risk during regular practice, (2) repeated high-speed applications create cumulative muscle damage even without acute injury, (3) building a reputation as a safe training partner is essential for long-term development, and (4) learning precise mechanics requires slow application anyway. Even in competition-simulation rounds, maintain training speed. The only time to apply at competition speed is actual competition - training should always prioritize partner safety over submission completion rates.",
+      "safety_critical": true
+    },
+    {
+      "question": "How do you recognize compartment syndrome symptoms during or after applying a calf slicer, and what is the correct response?",
+      "answer": "Compartment syndrome symptoms include: severe pain disproportionate to visible injury, numbness or tingling in the foot or lower leg, extreme tightness in the calf that doesn't resolve, pale or bluish skin coloration, and pain that worsens with passive toe extension. If any of these symptoms appear during training, immediately stop all activity, do not massage or compress the area, keep the leg elevated at heart level, and seek emergency medical attention. Compartment syndrome is a medical emergency that can result in permanent muscle damage or limb loss if not treated within hours. This is why the release protocol emphasizes monitoring for these symptoms and allowing 30+ seconds for assessment before continuing. If a training partner reports unusual symptoms after a calf slicer attempt, treat it seriously regardless of how light you thought the application was.",
+      "safety_critical": true
+    },
+    {
+      "question": "What specific body positioning allows you to maintain truck control while applying the calf slicer without losing upper body pressure?",
+      "answer": "The key is keeping your chest connected to their upper back while rotating your hips toward their legs for the submission. Your inside arm (the one closest to their head) maintains the harness grip or posts near their shoulder to prevent them rolling toward you. Your outside arm controls the heel for compression. Your top leg drives over their hip continuously, acting as an anchor that connects upper and lower body control. The common mistake is fully rotating toward their legs, which removes chest pressure and allows escape. Instead, think of your body as a diagonal across theirs - chest on upper back, hips rotated toward legs, with your top leg as the bridge maintaining connection between the two control points.",
+      "safety_critical": false
+    },
+    {
+      "question": "When your opponent posts their hand to create space under their hips, what is the immediate priority and why?",
+      "answer": "The immediate priority is increasing chest pressure on their upper back to flatten them, not fighting the posted hand directly. When they post, they're creating space to potentially straighten their leg or roll - addressing the cause (space) is more effective than fighting the symptom (the post). Drop your weight lower on their back, potentially switching from harness to crossface control if needed. Once they're flattened again, their post becomes ineffective. Fighting the posted hand directly often leads to a grip battle that takes your attention away from the submission and allows them to continue creating space. By addressing the upper body control problem first, you remove the structural support their post relies on.",
+      "safety_critical": false
+    },
+    {
+      "question": "What anatomical structures does the calf slicer actually compress, and how does this create the submission?",
+      "answer": "The calf slicer compresses the gastrocnemius and soleus muscles (the calf) against two surfaces: your shin bone anteriorly and their own hamstring/femur posteriorly. As you pull their heel toward their hamstring while wedging your shin across the calf belly, the muscle is squeezed between these hard surfaces. Additionally, the knee joint experiences hyperflexion stress on the posterior cruciate ligament and posterior joint capsule. The submission works through dual mechanisms: intense muscle compression pain that creates immediate tap urgency, and joint stress that adds urgency as the knee approaches its flexion limit. The gastrocnemius is particularly vulnerable because it crosses both the knee and ankle joints, meaning compression at the calf affects the entire muscle's tension system.",
+      "safety_critical": false
     }
   ],
   "training_progressions_and_safety_protocols": [
@@ -325,11 +354,9 @@
     "Calf Slicer Variations",
     "Calf Slicer from 50-50",
     "Twister",
-    "Twister Finish",
     "Banana Split",
     "Kneebar",
     "Bicep Slicer",
-    "Spine Lock",
     "Electric Chair Submission",
     "Achilles Lock",
     "Toe Hold",
@@ -344,14 +371,6 @@
     {
       "name": "Twister Control",
       "relationship": "Primary transition when opponent defends by straightening leg - rotate to upper body attack"
-    },
-    {
-      "name": "Transition to Truck",
-      "relationship": "Entry mechanics - learn how to achieve truck position from various starting points"
-    },
-    {
-      "name": "Truck Entry",
-      "relationship": "Setup sequences - multiple pathways to establish truck position for this submission"
     },
     {
       "name": "Lockdown",
@@ -374,8 +393,16 @@
       "relationship": "Conceptual principle - understanding leg control mechanics applicable to truck position"
     },
     {
-      "name": "Craig Jones Leg Lock System",
-      "relationship": "Modern leg lock context - competitive applications of compression submissions"
+      "name": "Back Control",
+      "relationship": "Alternative position - can transition to back control when calf slicer fails"
+    },
+    {
+      "name": "Twister Side Control",
+      "relationship": "Related position in the 10th Planet twister system with similar mechanics"
+    },
+    {
+      "name": "Electric Chair",
+      "relationship": "Entry pathway - electric chair position can transition to truck for calf slicer"
     }
   ]
 }

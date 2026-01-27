@@ -10,8 +10,6 @@
     "top-position",
     "fundamental"
   ],
-  "starting_position": "Clinch",
-  "ending_position": "Side Control",
   "success_rates": {
     "beginner": 55,
     "intermediate": 75,
@@ -264,7 +262,7 @@
       "relationship": "Similar driving mechanics - uses comparable hip extension and forward pressure principles in different context"
     },
     {
-      "name": "Transition to Mount",
+      "name": "Side Control to Mount",
       "relationship": "Follow-up transition - alternative positional outcome after successful double leg finish"
     },
     {
@@ -290,6 +288,24 @@
     {
       "name": "Side Control",
       "relationship": "Primary ending position - most common positional outcome of successful double leg finish"
+    }
+  ],
+  "from_position": "Clinch/Top",
+  "outcomes": [
+    {
+      "to": "Side Control/Top",
+      "probability": 75,
+      "result": "success"
+    },
+    {
+      "to": "Clinch/Top",
+      "probability": 15,
+      "result": "failure"
+    },
+    {
+      "to": "Clinch/Bottom",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

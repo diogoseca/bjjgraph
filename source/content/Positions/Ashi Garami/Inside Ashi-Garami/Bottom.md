@@ -21,37 +21,37 @@ description: "Foundational leg entanglement attacking position with heel control
     {
       "@type": "HowToStep",
       "name": "Execute Inside Heel Hook",
-      "text": "From this position, execute Inside Heel Hook to transition to Saddle. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Inside Heel Hook. This technique is attempted in 10% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Straight Ankle Lock",
-      "text": "From this position, execute Straight Ankle Lock to transition to Straight Ankle Lock Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Straight Ankle Lock. This technique is attempted in 13% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Saddle Entry from Top",
-      "text": "From this position, execute Saddle Entry from Top to transition to Saddle. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Saddle Entry from Top. This technique is attempted in 16% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Outside Ashi Entry",
-      "text": "From this position, execute Outside Ashi Entry to transition to Outside Ashi-Garami. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Outside Ashi Entry. This technique is attempted in 14% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute 50-50 Entry from Standing",
-      "text": "From this position, execute 50-50 Entry from Standing to transition to 50-50 Guard. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt 50-50 Entry from Standing. This technique is attempted in 13% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kneebar Finish",
-      "text": "From this position, execute Kneebar Finish to transition to Kneebar Control. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Kneebar Finish. This technique is attempted in 11% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -214,94 +214,22 @@ This position has become increasingly prominent in modern no-gi competition, ser
 
 ## Available Escapes
 
-### [[Inside Heel Hook]] → [[Saddle]]
+### [[Inside Heel Hook]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
+### [[Straight Ankle Lock]] (13% of attempts)
 
-### [[Straight Ankle Lock]] → [[Straight Ankle Lock Control]]
+### [[Saddle Entry from Top]] (16% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Outside Ashi Entry]] (14% of attempts)
 
-### [[Saddle Entry from Top]] → [[Saddle]]
+### [[50-50 Entry from Standing]] (13% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 70%
+### [[Kneebar Finish]] (11% of attempts)
 
-### [[Outside Ashi Entry]] → [[Outside Ashi-Garami]]
+### [[Toe Hold]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
+### [[X-Guard to Ashi Transition]] (13% of attempts)
 
-### [[50-50 Entry from Standing]] → [[50-50 Guard]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-### [[Kneebar Finish]] → [[Kneebar Control]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-### [[Toe Hold]] → [[Toe Hold Control]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
-
-### [[X-Guard to Ashi Transition]] → [[Cross Ashi-Garami]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 45%
-- Advanced: 65%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Ashi Garami Escape]]** → [[Standing Position]] (Opponent Success: 45%)
-- **[[Re-Guard]]** → [[Open Guard]] (Opponent Success: 40%)
-- **[[Hip Escape]]** → [[Combat Base]] (Opponent Success: 35%)
-- **[[Technical Stand-up]]** → [[Headquarters Position]] (Opponent Success: 30%)
-- **[[Back Step]]** → [[Standing Position]] (Opponent Success: 25%)
-- **[[Saddle Defense]]** → [[Turtle]] (Opponent Success: 35%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Saddle Entry from Top]]** → [[Saddle]]
-  - Opponent attempts to turn knee away or backstep
-- **[[Outside Ashi Entry]]** → [[Outside Ashi-Garami]]
-  - Opponent tries to free heel by pulling leg back
-- **[[Kneebar]]** → [[Kneebar Control]]
-  - Opponent extends leg to push away from entanglement
-- **[[50-50 Entry from Standing]]** → [[50-50 Guard]]
-  - Opponent establishes mirror entanglement position
-- **[[X-Guard to Ashi Transition]]** → [[Cross Ashi-Garami]]
-  - Opponent rotates knee inward toward you
 
 
 </section>
@@ -413,33 +341,39 @@ Partner attempts common escapes (heel extraction, knee rotation, hip escape, bac
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Direct heel hook path
+## Test Your Knowledge
 
-`Inside Ashi-Garami → Inside Heel Hook → Won by Submission (fastest but requires advanced skill and proper safety training)`
+**Q1**: Your opponent begins stepping over your inside leg to pass - what immediate adjustment prevents this escape?
+**A**: Drive your inside leg deeper across their hip while simultaneously elevating your hips to create a stronger frame. If they're already partway over, turn your body toward them and use your outside leg to hook their stepping leg, potentially converting to X-Guard or sweeping them off-balance. The key is early recognition - as soon as you feel them shifting weight to step over, extend your inside leg forcefully to push their hip away and reset the distance.
 
-### Progressive ankle lock path
+**Q2**: What are the essential grips for maintaining Inside Ashi-Garami from bottom?
+**A**: The primary grip is the C-grip on opponent's heel - four fingers wrapped around the heel bone with thumb positioned on the Achilles tendon. For finishing, this transitions to figure-four grip with your wrist behind their Achilles. Your outside leg hooks around their trapped leg with your foot near their heel. Inside leg creates a frame across their hip. Chest stays connected to their leg to prevent space. These combined controls form a triangle structure around their trapped leg.
 
-`Inside Ashi-Garami → Straight Ankle Lock Control → Straight Ankle Lock → Won by Submission (safest path for beginners, builds fundamental control)`
+**Q3**: How do you prevent the most common escape where opponent tries to pull their heel free by retracting their leg?
+**A**: Maintain constant chest-to-leg connection and follow their leg movement by scooting your hips toward them as they pull back. Increase grip pressure on the heel while driving your inside leg into their hip to maintain distance. If they successfully create space, immediately pursue by crawling toward them rather than reaching with arms only. Often their retraction attempt opens Outside Ashi-Garami - follow the leg and transition rather than fighting to maintain the original position.
 
-### Saddle transition path
+**Q4**: What grip priorities should you establish when first entering Inside Ashi-Garami from bottom?
+**A**: First priority is heel control with C-grip before opponent can rotate their knee away. Second priority is establishing your inside leg across their hip to control distance. Third priority is securing your outside leg hook behind their knee. Only after these three elements are established should you worry about refining position or threatening submissions. Rushing to attack before establishing these controls results in easy escapes and wasted effort.
 
-`Inside Ashi-Garami → Saddle → Inside Heel Hook → Won by Submission (highest percentage for advanced practitioners)`
+**Q5**: How do you apply breaking pressure to the ankle without burning excessive energy?
+**A**: Use body mechanics rather than arm strength alone. Pull the heel to your chest and pin it there using your entire upper body weight. To finish the ankle lock, extend your hips away from opponent rather than squeezing with arms. The breaking pressure comes from hip extension driving your body away while the heel remains pinned to your chest. This structural approach can be sustained much longer than trying to muscle the submission with arm strength.
 
-### Kneebar combination path
+**Q6**: Your opponent rotates their knee outward away from you to defend heel exposure - how do you respond to this movement?
+**A**: Immediately switch your angle by turning your entire body to follow their knee rotation. As they rotate out, this often exposes opportunities to transition to Outside Ashi-Garami where your positioning is now advantageous. Alternatively, their outward rotation creates a direct path to straight ankle lock since their foot is now pointed away from you. Don't fight the rotation - use it as a trigger to flow to the next attacking position in the system.
 
-`Inside Ashi-Garami → Kneebar Control → Kneebar → Won by Submission (effective when opponent extends leg defensively)`
+**Q7**: How do you manage energy when defending against an opponent who is aggressively trying to pass over your inside leg?
+**A**: Use frames and angles rather than muscular resistance. Your inside leg should be extended with structural strength rather than constant tension. Between their passing attempts, reset your position with minimal effort. When they commit weight to pass, use their momentum against them by angling off or threatening sweeps that force them to address your offense. If they're burning energy on passing attempts, maintain position efficiently and let them tire while you conserve energy for submissions or transitions when they slow down.
 
-### Outside Ashi switching path
-
-`Inside Ashi-Garami → Outside Ashi-Garami → Outside Heel Hook → Won by Submission (useful when inside heel is defended)`
+**Q8**: Your opponent manages to stand up while you maintain heel control - how do you recover your leg entanglement or adjust your strategy?
+**A**: Immediately transition your inside leg from hip frame to hooking behind their standing leg at the knee or ankle. This converts your position toward Single Leg X-Guard or creates sweep opportunities. Maintain heel control throughout - their standing creates vulnerability to ankle lock finishes if you can control their base. Use your outside leg to attack their standing leg's balance while threatening the submission. If they establish strong base, consider releasing to pursue guard recovery rather than holding a compromised position.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -469,7 +403,7 @@ Partner attempts common escapes (heel extraction, knee rotation, hip escape, bac
 - **[[Straight Ankle Lock]]** - Foundational submission from this position
 - **[[Inside Heel Hook]]** - Advanced submission requiring proper training progression
 - **[[Leg Entanglement]]** - Core conceptual framework for understanding position
-- **[[systematic approach Leg Lock System]]** - Systematic approach to leg attacks from this position
+- **[[Ashi Garami]]** - Parent position family for all ashi variations
 
 
 </section>

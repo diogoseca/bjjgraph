@@ -97,29 +97,22 @@ Understanding the Gift Wrap requires recognizing it as part of a larger back att
 - Patience with timing is critical - forcing escapes at wrong moments leads to submission
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Gift Wrap Arm Recovery]]** → [[Back Control]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Gift Wrap Arm Recovery]]** (17% of attempts)
 
-- **[[Hip Escape to Guard]]** → [[Half Guard]]
-  - Success Rate: Beginner 15%, Intermediate 25%, Advanced 40%
+- **[[Hip Escape to Guard]]** (14% of attempts)
 
-- **[[Roll to Turtle]]** → [[Turtle]]
-  - Success Rate: Beginner 25%, Intermediate 35%, Advanced 45%
+- **[[Roll to Turtle]]** (16% of attempts)
 
-- **[[Technical Stand Up]]** → [[Standing Position]]
-  - Success Rate: Beginner 10%, Intermediate 20%, Advanced 35%
+- **[[Technical Stand Up]]** (12% of attempts)
 
-- **[[Counter Roll to Top]]** → [[Side Control]]
-  - Success Rate: Beginner 5%, Intermediate 15%, Advanced 25%
+- **[[Counter Roll to Top]]** (9% of attempts)
 
-- **[[Granby Roll Escape]]** → [[Open Guard]]
-  - Success Rate: Beginner 10%, Intermediate 20%, Advanced 35%
+- **[[Granby Roll Escape]]** (12% of attempts)
 
-- **[[Submission Escape Protocol]]** → [[Defensive Position]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Submission Escape Protocol]]** (20% of attempts)
 
 
 ### Common Mistakes
@@ -177,35 +170,26 @@ Understanding the Gift Wrap requires recognizing it as part of a larger back att
 - Gift Wrap connects to broader back attack system including crucifix, technical mount, and mounted submissions
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Rear Naked Choke]]** → [[Won by Submission]]
-  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+- **[[Rear Naked Choke]]** (12% of attempts)
 
-- **[[Armbar on Free Arm]]** → [[Armbar Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Armbar on Free Arm]]** (11% of attempts)
 
-- **[[Transition to Crucifix]]** → [[Crucifix]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Aoki Lock to Crucifix]]** (12% of attempts)
 
-- **[[Transition to Technical Mount]]** → [[Technical Mount]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Gift Wrap to Technical Mount]]** (11% of attempts)
 
-- **[[Short Choke Attack]]** → [[Won by Submission]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Short Choke Attack]]** (10% of attempts)
 
-- **[[Bow and Arrow Choke Setup]]** → [[Won by Submission]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Bow and Arrow Choke Setup]]** (9% of attempts)
 
-- **[[Body Triangle Lock]]** → [[Body Triangle]]
-  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 80%
+- **[[Body Triangle Lock]]** (13% of attempts)
 
-- **[[Transition to Mount]]** → [[Mount]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Side Control to Mount]]** (12% of attempts)
 
-- **[[Kimura on Trapped Arm]]** → [[Kimura Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Kimura on Trapped Arm]]** (10% of attempts)
 
 
 ### Common Mistakes
@@ -256,7 +240,7 @@ Understanding the Gift Wrap requires recognizing it as part of a larger back att
 
 - **[[Technical Mount]]** - Positional advancement - Gift Wrap facilitates mount transitions
 
-- **[[Truck]]** - Alternative back control - shares arm trapping concepts
+- **[[Twister Control]]** - Alternative back control - shares arm trapping concepts
 
 - **[[Armbar Control]]** - Submission position - free arm becomes armbar target
 

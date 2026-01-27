@@ -21,37 +21,37 @@ description: "Master top kneebar control in BJJ. Complete technical guide coveri
     {
       "@type": "HowToStep",
       "name": "Execute Kneebar Finish",
-      "text": "From this position, execute Kneebar Finish to transition to Won by Submission. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Kneebar Finish. This technique is attempted in 9% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Cut Pass",
-      "text": "From this position, execute Knee Cut Pass to transition to Side Control. Success rate for advanced practitioners: 80%.",
+      "text": "From this position, attempt Knee Cut Pass. This technique is attempted in 13% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Mount",
-      "text": "From this position, execute Transition to Mount to transition to Mount. Success rate for advanced practitioners: 70%.",
+      "name": "Execute Side Control to Mount",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 11% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to North-South",
-      "text": "From this position, execute Transition to North-South to transition to North-South. Success rate for advanced practitioners: 75%.",
+      "name": "Execute Side Control to North-South",
+      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Straight Ankle Lock",
-      "text": "From this position, execute Straight Ankle Lock to transition to Straight Ankle Lock Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Straight Ankle Lock. This technique is attempted in 11% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Toe Hold",
-      "text": "From this position, execute Toe Hold to transition to Toe Hold Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Toe Hold. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -215,101 +215,24 @@ Defensively, the top practitioner must be aware that committing fully to a kneeb
 
 ## Available Attacks
 
-### [[Kneebar Finish]] → [[Won by Submission]]
+### [[Kneebar Finish]] (9% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 55%
+### [[Knee Cut Pass]] (13% of attempts)
 
-### [[Knee Cut Pass]] → [[Side Control]]
+### [[Side Control to Mount]] (11% of attempts)
 
-**Success Rates:**
-- Beginner: 50%
-- Intermediate: 65%
-- Advanced: 80%
+### [[Side Control to North-South]] (12% of attempts)
 
-### [[Transition to Mount]] → [[Mount]]
+### [[Straight Ankle Lock]] (11% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Toe Hold]] (10% of attempts)
 
-### [[Transition to North-South]] → [[North-South]]
+### [[Half Guard Pass]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 60%
-- Advanced: 75%
+### [[Knee on Belly]] (11% of attempts)
 
-### [[Straight Ankle Lock]] → [[Straight Ankle Lock Control]]
+### [[Armbar from Mount]] (11% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-### [[Toe Hold]] → [[Toe Hold Control]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 60%
-
-### [[Half Guard Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 60%
-- Advanced: 75%
-
-### [[Knee on Belly]] → [[Knee on Belly]]
-
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
-
-### [[Armbar from Mount]] → [[Armbar Control]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 65%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Hip Escape]]** → [[Half Guard]] (Opponent Success: 35%)
-- **[[Leg Extraction]]** → [[Closed Guard]] (Opponent Success: 40%)
-- **[[Frame Creation]]** → [[Open Guard]] (Opponent Success: 45%)
-- **[[Granby Roll]]** → [[Turtle]] (Opponent Success: 30%)
-- **[[Counter Leg Attack]]** → [[Kneebar Control]] (Opponent Success: 20%)
-- **[[Technical Stand-up]]** → [[Standing Position]] (Opponent Success: 25%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Knee Cut Pass]]** → [[Side Control]]
-  - Opponent attempts to recover half guard or closed guard during kneebar defense
-- **[[Straight Ankle Lock]]** → [[Straight Ankle Lock Control]]
-  - Opponent extends leg to create distance, exposing ankle for alternative attack
-- **[[Transition to Mount]]** → [[Mount]]
-  - Opponent turns away from kneebar pressure, creating path to mount advancement
-- **[[Toe Hold]]** → [[Toe Hold Control]]
-  - Opponent rotates foot defensively during kneebar attempt, exposing toe hold angle
-- **[[Transition to North-South]]** → [[North-South]]
-  - Opponent creates upper body frames, allowing transition while maintaining leg control
 
 
 </section>
@@ -319,7 +242,7 @@ Defensively, the top practitioner must be aware that committing fully to a kneeb
 ## Decision Making from This Position
 
 **If opponent's leg straightens and defensive posture collapses under top pressure:**
-- Execute **[[Kneebar Finish]]** → [[Won by Submission]] (Probability: 55%)
+- Execute **[[Kneebar Finish]]** → [[game-over]] (Probability: 55%)
 - Execute **[[Straight Ankle Lock]]** → [[Straight Ankle Lock Control]] (Probability: 50%)
 
 
@@ -329,7 +252,7 @@ Defensively, the top practitioner must be aware that committing fully to a kneeb
 
 
 **If opponent attempts to recover guard by inserting frames or creating distance:**
-- Execute **[[Transition to Mount]]** → [[Mount]] (Probability: 60%)
+- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 60%)
 - Execute **[[Knee on Belly]]** → [[Knee on Belly]] (Probability: 55%)
 
 
@@ -339,7 +262,7 @@ Defensively, the top practitioner must be aware that committing fully to a kneeb
 
 
 **If opponent attempts explosive bridge or reversal during finish commitment:**
-- Execute **[[Transition to North-South]]** → [[North-South]] (Probability: 65%)
+- Execute **[[Side Control to North-South]]** → [[North-South]] (Probability: 65%)
 - Execute **[[Knee Cut Pass]]** → [[Side Control]] (Probability: 70%)
 
 
@@ -426,33 +349,39 @@ Start with practitioner in top kneebar control against defending opponent. Attac
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Direct Top Kneebar Finish
+## Test Your Knowledge
 
-`Kneebar Control Top → Isolate leg completely → Break defensive posture → Hip pressure and extension → Kneebar Finish`
+**Q1**: What is the primary mechanism for maintaining top kneebar control against an opponent who tries to create distance?
+**A**: The primary mechanism is maintaining constant hip connection to the opponent's knee joint while using your body weight to drive pressure downward. Keep your hips tight against their knee, use your arms to pull the leg close to your torso, and distribute weight to prevent them from creating space. If they push, follow their movement while maintaining the grip connection.
 
-### Kneebar to Positional Advancement
+**Q2**: How should you adjust your base when an opponent starts bridging explosively during a top kneebar attempt?
+**A**: When opponent bridges, immediately widen your base by posting with your free hand and spreading your knees apart for stability. Do not fight the bridge directly - instead, ride it out while maintaining grip on the leg. Absorb the movement by lowering your center of gravity and keeping weight distributed forward. Once the bridge subsides, immediately re-consolidate position before continuing the finish.
 
-`Kneebar Control Top → Opponent defends → Knee Cut Pass → Side Control → Mount`
+**Q3**: What are the essential grips for maintaining top kneebar control position?
+**A**: The essential grips involve a figure-four or gable grip configuration around the opponent's lower leg, with arms wrapped near the ankle and lower calf. One arm typically cups under the Achilles area while the other reinforces from above. The grip should be tight enough to prevent leg extraction but positioned to allow quick adjustment for finishing. Hands should be interlocked with elbows squeezed together.
 
-### Alternative Leg Attack Chain
+**Q4**: Your opponent is defending by keeping their knee bent and using frames - what adjustment should you make?
+**A**: When opponent defends with bent knee and frames, first address the frames by using shoulder pressure or switching to a crossface to eliminate them. Then work to break their posture by pulling the leg tight while driving your hips forward. If the finish remains defended after 5-10 seconds, abandon the kneebar and transition to positional advancement such as knee cut pass or mount rather than wasting energy on a defended submission.
 
-`Kneebar Control Top → Straight Ankle Lock Control → Toe Hold Control → Toe Hold`
+**Q5**: How do you apply pressure effectively from top kneebar control without losing positional hierarchy?
+**A**: Apply pressure through a combination of hip drive against the knee, chest weight on the opponent's body, and continuous pulling with the arms. Keep your center of gravity low and forward rather than sitting upright. The key is distributing weight across multiple contact points so no single point bears all the pressure. Never fully commit to the finish at the expense of base - maintain ability to recover dominant top position if the submission fails.
 
-### Half Guard Kneebar to Mount
+**Q6**: When transitioning from guard passing to top kneebar, what movement should you anticipate from your opponent?
+**A**: Anticipate three primary reactions: first, hip escape attempts to recover guard; second, turning away to turtle position; third, explosive bridges to create space. Read their hip movement early - if hips turn toward you, prepare for guard recovery; if away, follow to turtle attacks. During transition, maintain continuous pressure and secure the leg before committing fully. Keep weight forward to minimize their ability to generate explosive movement.
 
-`Half Guard → Kneebar Control Top → Transition to Mount → Armbar from Mount`
+**Q7**: What is the most efficient energy management strategy when hunting for kneebars from top position?
+**A**: Efficient energy management means using positional pressure rather than muscular effort to maintain control. Rely on body weight and skeletal alignment rather than gripping strength. Set time limits for finish attempts - if no significant progress in 15-20 seconds, transition to positional advancement. Rest by consolidating dominant position before attacking again. Never continuously chase a defended submission as this depletes energy while opponent conserves theirs.
 
-### Turtle Attack to Back Control
-
-`Turtle → Kneebar Control Top → Opponent rolls to defend → Back Control → Rear Naked Choke`
+**Q8**: Your opponent partially escapes and starts inserting a knee shield - how do you recover the kneebar control?
+**A**: When opponent inserts knee shield, immediately shift priority from kneebar finish to preventing full guard recovery. Use your free arm to pin their shield leg while maintaining grip on the original target leg. Either: 1) switch to passing the knee shield using knee cut mechanics while maintaining leg grip for potential re-entry, or 2) abandon the kneebar entirely and prioritize securing side control. Do not force the kneebar against an established shield as this creates a stalemate favoring the defender.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -481,7 +410,7 @@ Start with practitioner in top kneebar control against defending opponent. Attac
 - **[[North-South]]** - Alternative top position accessible when transitioning from kneebar control
 - **[[Knee Cut Pass]]** - Passing technique used to advance when kneebar is defended
 - **[[Straight Ankle Lock Control]]** - Alternative leg attack when kneebar angle is unavailable
-- **[[Submission Position]]** - Core principle of maintaining positional hierarchy during submission attempts
+- **[[Mount]]** - Dominant position accessible through positional advancement from kneebar control
 
 
 </section>

@@ -256,6 +256,36 @@
       "question": "How does the leg position over opponent's head contribute to armbar control and what happens if this detail is neglected?",
       "answer": "The leg over the head serves multiple critical functions: it prevents opponent from posturing back up, creates a base point for your rotation, helps maintain the perpendicular angle, and prevents opponent from turning into you to escape. If this leg position is not established or is lost, opponent can sit up, regain posture, turn toward you, and either escape the armbar entirely or pass to side control. This leg acts as both control and base, making it essential for successful finish.",
       "safety_critical": false
+    },
+    {
+      "question": "Your opponent begins rotating their elbow outward during the finish attempt—what anatomical structure are they trying to protect and how do you counter?",
+      "answer": "They are attempting to rotate the elbow joint out of the hyperextension plane to protect the ulnar collateral ligament (UCL) and lateral collateral ligament (LCL). This hitchhiker escape removes the elbow from direct pressure. Counter by squeezing your knees together tightly to prevent rotation, keeping their wrist pulled toward your chest with both hands, and ensuring your hips remain elevated and tight to their shoulder. If rotation begins, you can follow it by transitioning to a belly-down armbar position, or switch to a wristlock or triangle attack.",
+      "safety_critical": false
+    },
+    {
+      "question": "What specific grip adjustment should you make when opponent begins to extract their arm during the finishing sequence?",
+      "answer": "Immediately transition from wrist control to a two-on-one grip on their forearm just above the wrist, pulling their arm tight to your chest while simultaneously clamping your knees together harder. If they're pulling the arm toward their body, angle your hips slightly toward their legs to create opposition force. You can also hook their tricep with one hand while the other controls the wrist, creating a figure-four grip configuration that makes extraction extremely difficult. The key is maintaining the arm across your centerline throughout any defensive movement.",
+      "safety_critical": false
+    },
+    {
+      "question": "At what point during the armbar finish is the opponent past the point of no escape, and what indicators confirm this?",
+      "answer": "The point of no escape occurs when three conditions are met simultaneously: your hips are tight to their shoulder with your tailbone nearly touching their deltoid, both legs are locked down with the hamstring of one leg pressing firmly across their face while the other leg controls their chest, and their arm is fully extended across your hips with thumb pointing up. At this point, even minimal hip extension creates immediate submission pressure. Indicators include their free hand reaching toward their trapped arm (rather than toward your legs) and cessation of bridging or postural recovery attempts.",
+      "safety_critical": false
+    },
+    {
+      "question": "How do you adjust your finishing mechanics when opponent stacks you during the armbar attempt?",
+      "answer": "When stacked, immediately angle your hips further toward opponent's back (away from their centerline) to reduce their stacking leverage. Keep the leg over their head heavy and push their face away to prevent further forward driving. If stacking continues, you have two options: transition to omoplata by pivoting your hips under their arm, or release the armbar and recover closed guard before they complete the stack. Never fight a fully established stack with the armbar—the leverage is entirely in their favor and you risk a guard pass.",
+      "safety_critical": false
+    },
+    {
+      "question": "What is the optimal wrist position for applying maximum finishing pressure while minimizing your own energy expenditure?",
+      "answer": "Pull opponent's wrist toward your lower chest or upper abdomen, not toward your face or overhead. Both hands should grip the wrist with your thumbs on the back of their hand, creating a unified pulling structure. Keep your elbows close to your body rather than flaring out, which wastes energy and weakens the pull. The finishing pressure comes primarily from hip extension against their elbow, not from pulling the wrist—the wrist grip merely prevents arm extraction. This configuration allows you to apply maximum pressure with minimal arm fatigue.",
+      "safety_critical": false
+    },
+    {
+      "question": "In competition, what finishing speed adjustments are appropriate versus training, and why?",
+      "answer": "In competition, entry speed can be maximized—the pivot, leg swing, and position establishment should be explosive. However, even in competition, finishing pressure should still be controlled and progressive over 1-2 seconds rather than explosive. This is because sudden explosive pressure can cause serious injury before the opponent or referee can stop the match, potentially resulting in disqualification and long-term consequences for your opponent. Elite competitors finish with controlled pressure, using their positional dominance rather than explosive force to secure the tap.",
+      "safety_critical": true
     }
   ],
   "training_progressions_and_safety_protocols": [
@@ -316,20 +346,15 @@
   ],
   "related_submissions": [
     "Triangle Choke",
-    "Triangle from Guard",
-    "Triangle from Closed Guard",
     "Omoplata",
-    "Omoplata from Guard",
     "Kimura",
-    "Kimura from Guard",
-    "Straight Armbar",
     "Flying Armbar",
-    "Rolling Armbar",
     "Armbar Finish",
-    "Switch to Triangle",
     "Armbar from Mount",
     "Armbar from Back",
-    "Belly Down Armbar"
+    "Belly Down Armbar",
+    "Gogoplata",
+    "Guillotine Choke"
   ],
   "related_content": [
     {
@@ -337,48 +362,40 @@
       "relationship": "Primary starting position for this armbar variation"
     },
     {
-      "name": "Triangle Setup",
+      "name": "Triangle Choke",
       "relationship": "Common combination—triangle threats set up armbar opportunities"
     },
     {
-      "name": "Posture Breaking",
-      "relationship": "Essential prerequisite principle for successful armbar entry"
+      "name": "Omoplata",
+      "relationship": "Part of the same submission chain system from guard"
     },
     {
-      "name": "Hip Movement",
-      "relationship": "Critical principle for creating angle and generating finishing pressure"
+      "name": "Armbar Control",
+      "relationship": "Control position where finishing mechanics are applied"
     },
     {
-      "name": "Submission Chains",
-      "relationship": "Armbar from guard is cornerstone of guard submission chain systems"
+      "name": "Hip Bump Sweep",
+      "relationship": "Complementary attack that creates armbar opportunities when defended"
     },
     {
-      "name": "Triangle to Armbar",
-      "relationship": "Natural transition when opponent defends triangle"
+      "name": "Armbar from Mount",
+      "relationship": "Related armbar variation from different starting position"
     },
     {
-      "name": "Closed Guard to Triangle",
-      "relationship": "Complementary attack that creates armbar opportunities"
+      "name": "Open Guard",
+      "relationship": "Alternative starting position for armbar entries"
     },
     {
-      "name": "Triangle to Omoplata",
-      "relationship": "Part of the same submission chain system"
+      "name": "Spider Guard",
+      "relationship": "Guard variation offering armbar opportunities through sleeve control"
     },
     {
-      "name": "Grip Fighting",
-      "relationship": "Essential for establishing arm control before armbar attempt"
+      "name": "Kimura",
+      "relationship": "Complementary shoulder attack from similar guard positions"
     },
     {
-      "name": "Guard Retention",
-      "relationship": "Maintains guard position during armbar attempts if opponent defends"
-    },
-    {
-      "name": "Omoplata to Sweep",
-      "relationship": "Connected technique in guard attack sequences"
-    },
-    {
-      "name": "Ryan Hall Triangle System",
-      "relationship": "Strategic framework incorporating armbar as key component"
+      "name": "Armbar from Back",
+      "relationship": "Related technique showing armbar versatility from different positions"
     }
   ]
 }

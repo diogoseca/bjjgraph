@@ -93,29 +93,22 @@ Outside Ashi-Garami exists as both an offensive attacking position (bottom persp
 - Transition mindset - view outside ashi as entry position to more dominant entanglements rather than primary finishing position
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Outside Heel Hook]]** → [[Won by Submission]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Outside Heel Hook]]** (12% of attempts)
 
-- **[[Straight Ankle Lock]]** → [[Straight Ankle Lock Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Straight Ankle Lock]]** (13% of attempts)
 
-- **[[Saddle Entry from Top]]** → [[Saddle]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 70%
+- **[[Saddle Entry from Top]]** (17% of attempts)
 
-- **[[Inside Ashi Entry]]** → [[Inside Ashi-Garami]]
-  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 75%
+- **[[Inside Ashi Entry]]** (19% of attempts)
 
-- **[[Transition to Cross Ashi]]** → [[Cross Ashi-Garami]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 65%
+- **[[Inside Ashi-Garami to Cross Ashi]]** (16% of attempts)
 
-- **[[50-50 Entry from Standing]]** → [[50-50 Guard]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[50-50 Entry from Standing]]** (12% of attempts)
 
-- **[[Kneebar Setup]]** → [[Kneebar Control]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+- **[[Kneebar Setup]]** (11% of attempts)
 
 
 ### Common Mistakes
@@ -173,29 +166,22 @@ Outside Ashi-Garami exists as both an offensive attacking position (bottom persp
 - Counter-entangle when appropriate by establishing your own leg lock position as alternative escape route that creates mutual threats
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Ashi Garami Escape]]** → [[Standing Position]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Ashi Garami Escape]]** (15% of attempts)
 
-- **[[Outside Ashi Entry]]** → [[Outside Ashi-Garami]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Outside Ashi Entry]]** (14% of attempts)
 
-- **[[Inside Ashi Entry]]** → [[Inside Ashi-Garami]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Inside Ashi Entry]]** (13% of attempts)
 
-- **[[Saddle Entry from Top]]** → [[Saddle]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Saddle Entry from Top]]** (12% of attempts)
 
-- **[[Standing to Single Leg X]]** → [[Single Leg X-Guard]]
-  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+- **[[Standing to Single Leg X]]** (16% of attempts)
 
-- **[[Leg Weave Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Leg Weave Pass]]** (14% of attempts)
 
-- **[[Technical Stand-up]]** → [[Standing Position]]
-  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 80%
+- **[[Technical Stand-up]]** (16% of attempts)
 
 
 ### Common Mistakes

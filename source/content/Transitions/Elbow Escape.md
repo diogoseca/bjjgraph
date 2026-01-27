@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Elbow Escape | BJJ Technique | BJJ Graph"
 description: "Master the Elbow Escape from side control in BJJ. Step-by-step execution from Side Control to Half Guard. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%."
@@ -16,7 +17,7 @@ description: "Master the Elbow Escape from side control in BJJ. Step-by-step exe
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Elbow Escape in BJJ",
-  "description": "Step-by-step guide for Elbow Escape from Side Control to Knee Shield Half Guard.",
+  "description": "Step-by-step guide for Elbow Escape from Side Control/Top. Possible outcomes: Knee Shield Half Guard/Bottom (70%), Side Control/Top (20%), Side Control/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -154,11 +155,25 @@ description: "Master the Elbow Escape from side control in BJJ. Step-by-step exe
 
 The Elbow Escape, also known as the shrimp escape or hip escape, is the most fundamental and essential defensive technique in Brazilian Jiu-Jitsu for escaping from side control. This technique involves creating space through hip movement and frame construction, allowing the bottom practitioner to insert their knee shield and recover guard position. The elbow escape is built on the principle of using your skeletal structure to create frames that prevent your opponent from closing distance while simultaneously using hip movement to generate space. This is the first escape taught to beginners and remains relevant at the highest levels of competition, as it forms the foundation for all pin escapes. The technique's effectiveness lies in its systematic approach to creating and maintaining space, using the combination of proper framing, hip escape mechanics, and timing to neutralize the top player's control. Understanding this escape is critical because side control is one of the most common pins in BJJ, and the ability to escape efficiently conserves energy and prevents further positional deterioration.
 
-**Starting Position**: [[Side Control]]
-**Ending Position**: [[Knee Shield Half Guard]]
+**From Position**: [[Side Control/Top]]
 **Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Knee Shield Half Guard/Bottom]] | 70% |
+| Failure | [[Side Control/Top]] | 20% |
+| Counter | [[Side Control/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

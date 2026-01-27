@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "De La Riva to X-Guard Transition | BJJ Technique | BJJ Graph"
 description: "Master the De La Riva to X-Guard transition in BJJ. Convert DLR control into powerful X-Guard sweeping position. Success rates: Beginner 35%, Intermediate 55%, Advanced 75%."
@@ -16,7 +17,7 @@ description: "Master the De La Riva to X-Guard transition in BJJ. Convert DLR co
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute De La Riva to X-Guard Transition in BJJ",
-  "description": "Step-by-step guide for De La Riva to X-Guard Transition from De La Riva Guard to X-Guard.",
+  "description": "Step-by-step guide for De La Riva to X-Guard Transition from De La Riva Guard/Bottom. Possible outcomes: X-Guard/Bottom (75%), De La Riva Guard/Bottom (15%), De La Riva Guard/Top (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -160,11 +161,25 @@ description: "Master the De La Riva to X-Guard transition in BJJ. Convert DLR co
 
 The De La Riva to X-Guard Transition represents the systematic framework for converting the controlling mechanics of De La Riva Guard into the elevating and sweeping power of X-Guard position. Unlike isolated techniques, this concept encompasses the biomechanical principles, timing considerations, and strategic decision-making that enable seamless positional flow between these two fundamental guard systems. This transition serves as both an offensive adaptation when initial De La Riva attacks are defended and a proactive entry strategy that leverages opponent's posture and base positioning to create superior sweeping opportunities. The ability to flow between these positions transforms static guard retention into dynamic offensive pressure, making it one of the most powerful conceptual frameworks in modern guard play. Understanding this transition requires mastery of hook mechanics, grip control transitions, and the ability to read opponent weight distribution in real-time.
 
-**Starting Position**: [[De La Riva Guard]]
-**Ending Position**: [[X-Guard]]
+**From Position**: [[De La Riva Guard/Bottom]]
 **Success Rates**: Beginner 35%, Intermediate 55%, Advanced 75%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[X-Guard/Bottom]] | 75% |
+| Failure | [[De La Riva Guard/Bottom]] | 15% |
+| Counter | [[De La Riva Guard/Top]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

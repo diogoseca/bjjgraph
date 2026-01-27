@@ -93,32 +93,24 @@ The effectiveness of Spider Guard relies heavily on grip strength, hip mobility,
 - Combine foot pressure with grip control to break opponent's balance and create sweep opportunities
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Triangle Setup]]** → [[Triangle Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Triangle Setup]]** (12% of attempts)
 
-- **[[Omoplata Sweep]]** → [[Omoplata Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Omoplata Sweep]]** (13% of attempts)
 
-- **[[Spider Guard Sweeps]]** → [[Mount]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Spider Guard Sweeps]]** (12% of attempts)
 
-- **[[Lasso Guard Sweeps]]** → [[Side Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Lasso Guard Sweeps]]** (13% of attempts)
 
-- **[[De La Riva Sweep]]** → [[Back Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[De La Riva Sweep]]** (12% of attempts)
 
-- **[[Scissor Sweep]]** → [[Mount]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Scissor Sweep]]** (14% of attempts)
 
-- **[[Armbar from Guard]]** → [[Armbar Control]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Armbar from Guard]]** (11% of attempts)
 
-- **[[Spider Guard to Omoplata]]** → [[Omoplata Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Spider Guard to Omoplata]]** (13% of attempts)
 
 
 ### Common Mistakes
@@ -176,29 +168,22 @@ The effectiveness of Spider Guard relies heavily on grip strength, hip mobility,
 - Pressure the legs down and forward once grips are broken to flatten the guard and enable passing sequences
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Toreando Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Toreando Pass]]** (15% of attempts)
 
-- **[[Leg Drag Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Leg Drag Pass]]** (15% of attempts)
 
-- **[[Knee Slice Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 28%, Intermediate 42%, Advanced 58%
+- **[[Knee Slice Pass]]** (15% of attempts)
 
-- **[[X Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 22%, Intermediate 38%, Advanced 52%
+- **[[X Pass]]** (14% of attempts)
 
-- **[[Stack Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Stack Pass]]** (13% of attempts)
 
-- **[[Long Step Pass]]** → [[Headquarters Position]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Long Step Pass]]** (15% of attempts)
 
-- **[[Double Under Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 18%, Intermediate 32%, Advanced 48%
+- **[[Double Under Pass]]** (13% of attempts)
 
 
 ### Common Mistakes

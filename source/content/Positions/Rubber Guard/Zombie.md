@@ -93,32 +93,24 @@ Understanding both perspectives of the Zombie position is essential for modern n
 - Time your escape attempts with opponent's weight shifts and base adjustments for maximum effectiveness
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Old School Sweep]]** → [[Half Guard]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Old School Sweep]]** (15% of attempts)
 
-- **[[Electric Chair Submission]]** → [[Electric Chair]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Electric Chair Submission]]** (12% of attempts)
 
-- **[[Lockdown Sweeps]]** → [[Half Guard]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Lockdown Sweeps]]** (15% of attempts)
 
-- **[[Re-Guard]]** → [[Half Guard]]
-  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+- **[[Guard Recovery]]** (16% of attempts)
 
-- **[[Granby Roll]]** → [[Closed Guard]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Granby Roll]]** (12% of attempts)
 
-- **[[Rolling Back Take]]** → [[Back Control]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Rolling Back Take]]** (10% of attempts)
 
-- **[[Transition to Truck]]** → [[Truck]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Turtle to Truck]]** (10% of attempts)
 
-- **[[Deep Half Entry]]** → [[Deep Half Guard]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Deep Half Entry]]** (10% of attempts)
 
 
 ### Common Mistakes
@@ -180,35 +172,26 @@ Understanding both perspectives of the Zombie position is essential for modern n
 - Maintain patient pressure while advancing passing sequences without overcommitting to single approach
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Crossface Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Crossface Pass]]** (12% of attempts)
 
-- **[[Leg Weave Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Leg Weave Pass]]** (11% of attempts)
 
-- **[[Knee Slice Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 32%, Intermediate 47%, Advanced 62%
+- **[[Knee Slice Pass]]** (12% of attempts)
 
-- **[[Smash Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 28%, Intermediate 43%, Advanced 58%
+- **[[Smash Pass]]** (11% of attempts)
 
-- **[[Turtle to Back Take]]** → [[Back Control]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Turtle to Back Take]]** (14% of attempts)
 
-- **[[Crab Ride to Back]]** → [[Crab Ride]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Crab Ride to Back]]** (12% of attempts)
 
-- **[[Anaconda from Turtle]]** → [[Anaconda Control]]
-  - Success Rate: Beginner 25%, Intermediate 38%, Advanced 52%
+- **[[Anaconda from Turtle]]** (10% of attempts)
 
-- **[[Darce from Turtle]]** → [[D'arce Control]]
-  - Success Rate: Beginner 22%, Intermediate 35%, Advanced 48%
+- **[[Darce from Turtle]]** (9% of attempts)
 
-- **[[Back Take Generic]]** → [[Crucifix]]
-  - Success Rate: Beginner 20%, Intermediate 33%, Advanced 46%
+- **[[Back Take Generic]]** (9% of attempts)
 
 
 ### Common Mistakes

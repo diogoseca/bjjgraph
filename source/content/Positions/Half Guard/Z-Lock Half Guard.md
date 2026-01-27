@@ -60,7 +60,7 @@ Developed primarily within the 10th Planet system and refined by lockdown specia
 | **Energy Cost** | Medium | Medium |
 | **Time** | Medium | Medium to Long |
 
-**Key Difference:** Z-configuration for dynamic mobility attacks
+**Key Difference:** Z-config adds dual-threat mobility to lockdown
 
 
 
@@ -91,26 +91,20 @@ Developed primarily within the 10th Planet system and refined by lockdown specia
 - Use the butterfly hook to prevent opponent from stepping over into mount or taking the back when they attempt to clear the lockdown
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Old School Sweep]]** → [[Mount]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Old School Sweep]]** (17% of attempts)
 
-- **[[Electric Chair Submission]]** → [[Electric Chair]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Electric Chair Submission]]** (14% of attempts)
 
-- **[[Butterfly Sweep]]** → [[Mount]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Butterfly Sweep]]** (18% of attempts)
 
-- **[[Deep Half Entry]]** → [[Deep Half Guard]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Deep Half Entry]]** (19% of attempts)
 
-- **[[Lockdown Sweeps]]** → [[Side Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Lockdown Sweeps]]** (15% of attempts)
 
-- **[[Underhook Sweep from Half]]** → [[Mount]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Underhook Sweep from Half]]** (17% of attempts)
 
 
 ### Common Mistakes
@@ -168,26 +162,20 @@ Developed primarily within the 10th Planet system and refined by lockdown specia
 - Maintain active base with free leg posted to prevent rolls and maintain balance during opponent's escape attempts
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Knee Slice from Half]]** → [[Side Control]]
-  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+- **[[Knee Slice from Half]]** (19% of attempts)
 
-- **[[Underhook Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Underhook Pass]]** (17% of attempts)
 
-- **[[Back Take Generic]]** → [[Back Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Back Take Generic]]** (15% of attempts)
 
-- **[[Smash Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 80%
+- **[[Smash Pass]]** (19% of attempts)
 
-- **[[Transition to Mount]]** → [[Mount]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Side Control to Mount]]** (14% of attempts)
 
-- **[[Crossface Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Crossface Pass]]** (16% of attempts)
 
 
 ### Common Mistakes

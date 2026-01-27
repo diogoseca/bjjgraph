@@ -101,32 +101,24 @@ The position also demonstrates important principles about submission-based contr
 - Transitions to triangle, omoplata, or back are available if primary finish is defended
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Gogoplata]]** → [[Won by Submission]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 50%
+- **[[Gogoplata]]** (10% of attempts)
 
-- **[[Triangle Choke]]** → [[Triangle Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Triangle Choke]]** (13% of attempts)
 
-- **[[Transition to Omoplata]]** → [[Omoplata Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Closed Guard to Omoplata]]** (12% of attempts)
 
-- **[[Back Take]]** → [[Back Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Back Take]]** (11% of attempts)
 
-- **[[Armbar from Guard]]** → [[Armbar Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Armbar from Guard]]** (12% of attempts)
 
-- **[[High Mount Transition]]** → [[High Mount]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[High Mount Transition]]** (10% of attempts)
 
-- **[[Mission Control Recovery]]** → [[Mission Control]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Mission Control Recovery]]** (14% of attempts)
 
-- **[[Rubber Guard Maintenance]]** → [[Rubber Guard]]
-  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+- **[[Rubber Guard Maintenance]]** (18% of attempts)
 
 
 ### Common Mistakes
@@ -154,7 +146,7 @@ The position also demonstrates important principles about submission-based contr
 
 - ❌ **Attempting gogoplata from positions without proper control prerequisites**
   - Consequence: Opponent easily defends by posturing or passing before the shin can be established across throat
-  - ✅ Correction: Build through proper progression: closed guard → rubber guard → mission control → gogoplata; ensure each control is solid before advancing
+  - ✅ Correction: Build through proper progression: closed guard to rubber guard to mission control to gogoplata; ensure each control is solid before advancing
 
 
 </section>
@@ -184,26 +176,20 @@ The position also demonstrates important principles about submission-based contr
 - Build escape through incremental improvements rather than single explosive movement
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Head Extraction to Posture]]** → [[Closed Guard]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 55%
+- **[[Head Extraction to Posture]]** (17% of attempts)
 
-- **[[Shin Removal to Pass]]** → [[Half Guard]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 50%
+- **[[Shin Removal to Pass]]** (15% of attempts)
 
-- **[[Leg Extraction Escape]]** → [[Side Control]]
-  - Success Rate: Beginner 10%, Intermediate 25%, Advanced 45%
+- **[[Leg Extraction Escape]]** (14% of attempts)
 
-- **[[Stack Defense]]** → [[Guard Opening Sequence]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 60%
+- **[[Stack Defense]]** (19% of attempts)
 
-- **[[Angle Change Escape]]** → [[Turtle]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Angle Change Escape]]** (18% of attempts)
 
-- **[[Hand Control to Extract]]** → [[Defensive Position]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 55%
+- **[[Hand Control to Extract]]** (17% of attempts)
 
 
 ### Common Mistakes
@@ -260,7 +246,7 @@ The position also demonstrates important principles about submission-based contr
 
 - **[[Back Control]]** - Transition target if opponent rolls to escape shin pressure
 
-- **[[Won by Submission]]** - Terminal state when gogoplata submission is completed successfully
+- **[[game-over]]** - Terminal state when gogoplata submission is completed successfully
 
 
 </section>

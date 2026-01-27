@@ -21,50 +21,44 @@ description: "Master Standing Rear Clinch in BJJ. Dominant back control from sta
     {
       "@type": "HowToStep",
       "name": "Execute Back Take Generic",
-      "text": "From this position, execute Back Take Generic to transition to Back Control. Success rate for advanced practitioners: 80%.",
+      "text": "From this position, attempt Back Take Generic. This technique is attempted in 25% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Body Lock Pass",
-      "text": "From this position, execute Body Lock Pass to transition to Side Control. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Body Lock Pass. This technique is attempted in 20% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Rear Naked Choke",
-      "text": "From this position, execute Rear Naked Choke to transition to Won by Submission. Success rate for advanced practitioners: 55%.",
+      "name": "Execute Rolling Back Take",
+      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 15% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Rolling Back Take",
-      "text": "From this position, execute Rolling Back Take to transition to Back Control. Success rate for advanced practitioners: 65%.",
+      "name": "Execute Snap Down",
+      "text": "From this position, attempt Snap Down. This technique is attempted in 15% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Snap Down",
-      "text": "From this position, execute Snap Down to transition to Front Headlock. Success rate for advanced practitioners: 70%.",
+      "name": "Execute Double Leg Finish",
+      "text": "From this position, attempt Double Leg Finish. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Double Leg Finish",
-      "text": "From this position, execute Double Leg Finish to transition to Side Control. Success rate for advanced practitioners: 68%.",
+      "name": "Execute Single Leg Takedown",
+      "text": "From this position, attempt Single Leg Takedown. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Single Leg Takedown",
-      "text": "From this position, execute Single Leg Takedown to transition to Turtle. Success rate for advanced practitioners: 65%.",
+      "name": "Execute Rear Naked Choke Setup",
+      "text": "From this position, attempt Rear Naked Choke Setup. This technique is attempted in 5% of exchanges from this position.",
       "position": 7
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Transition to Truck",
-      "text": "From this position, execute Transition to Truck to transition to Truck. Success rate for advanced practitioners: 58%.",
-      "position": 8
     }
   ],
   "totalTime": "PT2M"
@@ -231,91 +225,20 @@ The Standing Rear Clinch holds particular importance in no-gi grappling and MMA 
 
 ## Available Techniques and Transitions
 
-### [[Back Take Generic]] → [[Back Control]]
+### [[Back Take Generic]] (25% of attempts)
 
-**Success Rates:**
-- Beginner: 50%
-- Intermediate: 65%
-- Advanced: 80%
+### [[Body Lock Pass]] (20% of attempts)
 
-### [[Body Lock Pass]] → [[Side Control]]
+### [[Rolling Back Take]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 60%
-- Advanced: 75%
+### [[Snap Down]] (15% of attempts)
 
-### [[Rear Naked Choke]] → [[Won by Submission]]
+### [[Double Leg Finish]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
+### [[Single Leg Takedown]] (10% of attempts)
 
-### [[Rolling Back Take]] → [[Back Control]]
+### [[Rear Naked Choke Setup]] (5% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-### [[Snap Down]] → [[Front Headlock]]
-
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
-
-### [[Double Leg Finish]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 38%
-- Intermediate: 53%
-- Advanced: 68%
-
-### [[Single Leg Takedown]] → [[Turtle]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-### [[Transition to Truck]] → [[Truck]]
-
-**Success Rates:**
-- Beginner: 28%
-- Intermediate: 43%
-- Advanced: 58%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Defensive Counters
-
-- **[[Hip Escape]]** → [[Standing Position]] (Success: 35%)
-- **[[Hand Fighting]]** → [[Clinch]] (Success: 40%)
-- **[[Sit to Guard]]** → [[Closed Guard]] (Success: 45%)
-- **[[Granby Roll]]** → [[Standing Position]] (Success: 25%)
-- **[[Technical Stand Up to Single Leg]]** → [[Standing Position]] (Success: 38%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter Techniques
-
-- **[[Back Take Generic]]** → [[Back Control]]
-  - Opponent attempts to sit to guard or execute hip escape with back exposed
-- **[[Body Lock Pass]]** → [[Side Control]]
-  - Opponent sits to guard but maintains poor posture allowing pass progression
-- **[[Rolling Back Take]]** → [[Turtle]]
-  - Opponent drops weight attempting to get to all fours defensive position
-- **[[Rear Naked Choke]]** → [[Won by Submission]]
-  - Opponent turns head away from choking arm creating neck exposure while standing
 
 
 </section>
@@ -340,7 +263,7 @@ The Standing Rear Clinch holds particular importance in no-gi grappling and MMA 
 
 
 **If opponent turns head away creating immediate choke opportunity:**
-- Execute **[[Rear Naked Choke]]** → [[Won by Submission]] (Probability: 50%)
+- Execute **[[Rear Naked Choke Setup]]** → [[Back Control]] (Probability: 50%)
 - Execute **[[Rolling Back Take]]** → [[Back Control]] (Probability: 60%)
 
 
@@ -422,34 +345,6 @@ Bottom person moves aggressively in all directions (forward, backward, spinning,
 
 **Duration**: 5 rounds of 90 seconds
 
-
-
-
-</section>
-
-<section id="optimal-submission-paths" class="content-section">
-
-## Optimal Paths from This Position
-
-### Direct standing submission path
-
-`Standing Rear Clinch → Rear Naked Choke`
-
-### Highest percentage controlled path
-
-`Standing Rear Clinch → Back Take Generic → Back Control → Rear Naked Choke`
-
-### Control-focused advancement path
-
-`Standing Rear Clinch → Rolling Back Take → Back Control → Body Triangle → Rear Naked Choke`
-
-### Ground transition passing path
-
-`Standing Rear Clinch → Body Lock Pass → Side Control → Mount → Armbar from Mount`
-
-### Alternative control path through turtle
-
-`Standing Rear Clinch → Snap Down → Front Headlock → Back Control → Rear Naked Choke`
 
 
 

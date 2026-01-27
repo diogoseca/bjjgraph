@@ -95,26 +95,20 @@ The name itself reflects the frenetic, unpredictable energy characteristic of th
 - Time guard recovery attempts for moments when opponent is off-balance or overcommitted to control attempts
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Turtle to Guard]]** → [[Closed Guard]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Turtle to Guard]]** (18% of attempts)
 
-- **[[Granby Roll]]** → [[Closed Guard]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Granby Roll]]** (15% of attempts)
 
-- **[[Technical Standup]]** → [[Standing Position]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Technical Standup]]** (17% of attempts)
 
-- **[[Dogfight Position Bottom]]** → [[Dogfight Position]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Sit Through Escape]]** (19% of attempts)
 
-- **[[Deep Half Entry]]** → [[Deep Half Guard]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Deep Half Entry]]** (14% of attempts)
 
-- **[[Hip Escape]]** → [[Half Guard]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Hip Escape]]** (17% of attempts)
 
 
 ### Common Mistakes
@@ -172,29 +166,22 @@ The name itself reflects the frenetic, unpredictable energy characteristic of th
 - Maintain connection between your hips and opponent's hips while keeping upper body mobile for attacks
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Turtle to Back Take]]** → [[Back Control]]
-  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+- **[[Turtle to Back Take]]** (17% of attempts)
 
-- **[[Transition to Truck]]** → [[Truck]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Turtle to Truck]]** (15% of attempts)
 
-- **[[Crucifix from Turtle]]** → [[Crucifix]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Crucifix from Turtle]]** (13% of attempts)
 
-- **[[Crab Ride to Back]]** → [[Crab Ride]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Crab Ride to Back]]** (16% of attempts)
 
-- **[[Anaconda from Turtle]]** → [[Anaconda Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Anaconda from Turtle]]** (12% of attempts)
 
-- **[[Darce from Turtle]]** → [[D'arce Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Darce from Turtle]]** (12% of attempts)
 
-- **[[Rolling Back Take]]** → [[Back Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Rolling Back Take]]** (15% of attempts)
 
 
 ### Common Mistakes
@@ -233,13 +220,11 @@ The name itself reflects the frenetic, unpredictable energy characteristic of th
 ## Related Positions
 
 
-- **[[Turtle]]** - Parent position for bottom defensive perspective
-
-- **[[Turtle]]** - Traditional turtle position that crackhead control evolved from
+- **[[Turtle]]** - Parent position that crackhead control evolved from with enhanced mechanics
 
 - **[[Back Control]]** - Primary advancement target from top perspective
 
-- **[[Truck]]** - Alternative advancement path for leg attack and twister systems
+- **[[Twister Control]]** - Alternative advancement path for leg attack and twister systems via truck
 
 - **[[Crab Ride]]** - Similar chair-sit control mechanics with different grip configurations
 

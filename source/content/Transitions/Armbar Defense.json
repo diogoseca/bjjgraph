@@ -9,8 +9,6 @@
     "guard bottom",
     "mount escape"
   ],
-  "starting_position": "Armbar Control",
-  "ending_position": "Guard Opening Sequence",
   "success_rates": {
     "beginner": 30,
     "intermediate": 45,
@@ -263,6 +261,24 @@
     {
       "name": "Omoplata",
       "relationship": "Common transition when armbar defense creates shoulder exposure"
+    }
+  ],
+  "from_position": "Armbar Control/Top",
+  "outcomes": [
+    {
+      "to": "Guard Opening Sequence/Bottom",
+      "probability": 60,
+      "result": "success"
+    },
+    {
+      "to": "Armbar Control/Top",
+      "probability": 30,
+      "result": "failure"
+    },
+    {
+      "to": "Armbar Control/Bottom",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

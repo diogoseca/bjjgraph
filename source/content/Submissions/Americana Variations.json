@@ -268,6 +268,36 @@
       "question": "What positional adjustments should you make if opponent bridges and attempts to roll while you're applying an Americana?",
       "answer": "First option is to post with your free hand and widen your base to prevent the roll, adjusting your weight distribution to counter their momentum. Advanced option is to execute the rolling Americana variation, maintaining your grips and control while following their roll, then finishing the submission in the new position. Third option is to abandon the Americana temporarily, use their roll momentum to step over into mount or technical mount, then re-attack the arm from improved position. Never maintain a narrow base and get swept.",
       "safety_critical": false
+    },
+    {
+      "question": "What anatomical structures does the Americana attack, and what indicates the breaking point is approaching?",
+      "answer": "The Americana primarily attacks the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis) and the shoulder joint capsule through forced external rotation. Breaking point indicators include: opponent's verbal expression of pain, visible tensing of the neck and facial muscles, involuntary lifting of hips or shoulders trying to relieve pressure, and the sensation of reaching maximum external rotation range. In training, always stop well before the breaking point when any discomfort is expressed.",
+      "safety_critical": true
+    },
+    {
+      "question": "Your opponent begins to straighten their arm during your Americana attempt - what adjustment maintains your finishing opportunity?",
+      "answer": "When opponent straightens their arm, immediately recognize this opens an armbar opportunity or reverse Americana variation. For the armbar transition: maintain wrist control, pivot your hips toward their head, and swing your leg over their face to secure the armbar position. For the reverse Americana: keep wrist control, adjust your grip to attack the extended arm with external rotation away from their head. The key is viewing their defensive movement as a transition opportunity rather than an escape.",
+      "safety_critical": false
+    },
+    {
+      "question": "What grip adjustments should you make during the finish phase if opponent's arm becomes sweaty or slippery?",
+      "answer": "When grips become compromised by sweat: (1) Switch to palm-to-palm grip which provides more surface area contact, (2) Grip the wrist bones rather than the forearm for more secure control, (3) Use your elbow-controlling arm to clamp tighter against your body creating friction-based control, (4) Consider wiping your hands briefly on your own gi if available, (5) Increase chest pressure to reduce how much the arm can move even with loose grips. Never compensate for poor grips by applying faster or more violent pressure.",
+      "safety_critical": false
+    },
+    {
+      "question": "In competition, what finishing strategies maximize your Americana success rate when the opponent knows the submission is coming?",
+      "answer": "Competition finishing strategies include: (1) Establish shoulder pin before any wrist control to prevent framing, (2) Use feints toward other submissions (armbar, cross-collar) to draw defensive reactions that expose the arm, (3) Attack the Americana as part of a chain starting from mount advancement rather than statically, (4) Apply progressive pressure that forces opponent to choose between defending the submission or preventing positional advancement, (5) Time the final rotation during opponent's exhalation when they're weakest. The key is making the Americana feel like an inevitable conclusion to positional pressure rather than an isolated attack.",
+      "safety_critical": false
+    },
+    {
+      "question": "What are the key indicators that your shoulder pin is insufficient and needs adjustment before continuing the submission?",
+      "answer": "Indicators of insufficient shoulder pin include: opponent's shoulder lifting off the mat during rotation attempts, opponent successfully creating an angle by turning their torso, ability to slide the arm away from the pinned position, opponent successfully bringing their elbow closer to their ribs, and the submission feeling like it requires excessive arm strength to apply pressure. Correction requires re-establishing heavy chest-to-shoulder contact, adjusting your body angle to drive weight downward, and testing the pin with slight rotation before committing to the finish.",
+      "safety_critical": false
+    },
+    {
+      "question": "What specific release protocol must you follow immediately when your partner taps during an Americana?",
+      "answer": "The release protocol is: (1) Immediately release grip on wrist/hand - this is the most critical step as it removes the rotational force, (2) Release pressure on the elbow/upper arm, (3) Allow the arm to return to neutral position naturally without forcing it, (4) Maintain position briefly but without any submission pressure, (5) Verbally check with partner before resuming any activity, (6) Never add any extra rotation during the release phase. This protocol should become automatic muscle memory through drilling.",
+      "safety_critical": true
     }
   ],
   "training_progressions_and_safety_protocols": [
@@ -336,7 +366,6 @@
     "Kimura from Side Control",
     "Kimura from North-South",
     "Reverse Kimura",
-    "Straight Armbar",
     "Armbar from Mount",
     "Armbar from Side Control",
     "Far Side Armbar",
@@ -350,39 +379,31 @@
     },
     {
       "name": "Arm Triangle",
-      "relationship": "Alternative submission when cross-collar opportunity arises from mount"
+      "relationship": "Alternative submission when opponent brings arm across face defending Americana"
     },
     {
       "name": "Kimura from Side Control",
-      "relationship": "Alternative shoulder attack from same position with internal rotation"
+      "relationship": "Alternative shoulder attack from same position with internal rotation mechanics"
     },
     {
       "name": "Kimura from Mount",
-      "relationship": "Alternative shoulder attack from mount position with opposite mechanics"
+      "relationship": "Alternative shoulder attack from mount position with opposite rotation direction"
     },
     {
       "name": "North-South Choke",
-      "relationship": "Alternative attack from north-south position"
+      "relationship": "Alternative attack from north-south when arm is not available"
     },
     {
-      "name": "Side Control Escape",
-      "relationship": "Understanding escapes helps perfect submission control from side control"
+      "name": "Mount",
+      "relationship": "Primary position for applying standard Americana variations"
     },
     {
-      "name": "Mount Escape Series",
-      "relationship": "Understanding mount escapes helps perfect submission control from mount"
+      "name": "Side Control",
+      "relationship": "Secondary position offering strong Americana opportunities"
     },
     {
-      "name": "Submission Chains",
-      "relationship": "Conceptual framework for linking variations and transitioning between submissions"
-    },
-    {
-      "name": "Leverage Principles",
-      "relationship": "Fundamental concept underlying all Americana variation mechanics"
-    },
-    {
-      "name": "North-South to Kimura",
-      "relationship": "Complementary shoulder attack transition from north-south position"
+      "name": "Kimura Trap",
+      "relationship": "Related control position that can transition to Americana mechanics"
     },
     {
       "name": "Turtle",
@@ -390,7 +411,15 @@
     },
     {
       "name": "Gift Wrap",
-      "relationship": "Control position that can transition to Americana mechanics"
+      "relationship": "Control position that can transition to Americana arm isolation"
+    },
+    {
+      "name": "North South Control",
+      "relationship": "Position offering reverse Americana variation opportunities"
+    },
+    {
+      "name": "Technical Mount",
+      "relationship": "3-4 mount variation provides unique Americana angle"
     }
   ]
 }

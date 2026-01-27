@@ -275,6 +275,31 @@
       "question": "What mechanical principle explains why leg extension is necessary for bow and arrow effectiveness, and what happens if you try to finish without proper extension?",
       "answer": "Leg extension creates tension along the length of the opponent's body that transforms them into a bow shape - their body becomes the bow, your legs become the string pulling to create tension, and their rigid spine resists this tension by forcing the collar to tighten around their neck. Without leg extension, there is insufficient force to overcome the natural slack in the gi collar and the space between collar and neck. The lapel grip alone cannot generate enough mechanical advantage - the legs provide the force multiplier by using your hip and leg strength against their entire body structure. Attempting to finish without extension results in a loose choke that creates discomfort but no legitimate finish.",
       "safety_critical": false
+    },
+    {
+      "question": "Your opponent successfully strips your lapel grip during the bow and arrow setup - what is your immediate tactical response?",
+      "answer": "Immediately re-establish back control fundamentals rather than chasing the grip. Return to seat belt control and re-insert any hooks that may have loosened during the exchange. From stabilized back control, reassess their defensive posture and choose a new attack angle - either re-attempt the bow and arrow with better grip establishment, or transition to an alternative submission such as rear naked choke or armbar from back. The worst response is to continue pursuing the bow and arrow without positional control, as this typically results in complete position loss. Position before submission - if the grip is stripped, secure position first.",
+      "safety_critical": false
+    },
+    {
+      "question": "What anatomical structures does the bow and arrow choke target, and how do you ensure you're attacking the correct target?",
+      "answer": "The bow and arrow choke primarily targets the carotid arteries on both sides of the neck, which supply blood to the brain. Proper targeting requires the lapel to cross diagonally across the neck, with your grip deep enough that your fingers reach past the far-side carotid artery. You confirm correct targeting through several indicators: the choke should cause a feeling of pressure in the head rather than sharp throat pain, unconsciousness occurs within 5-10 seconds of full application if unreleased, and there should be minimal coughing or gagging. If the opponent experiences severe throat discomfort, coughing, or the choke takes excessive time, you are likely on the trachea instead and should adjust your lapel position.",
+      "safety_critical": true
+    },
+    {
+      "question": "Your opponent begins bridging explosively to create space during your bow and arrow setup - how do you maintain control and complete the submission?",
+      "answer": "Follow their bridge movement with your body weight rather than fighting against it statically. As they bridge, increase your hip angle and leg extension to maintain the bow tension throughout their movement. Use your choking elbow to pull more tightly toward your ribs during the bridge, preventing slack from developing in the collar. If they create significant space, temporarily prioritize maintaining your grip depth over perfect leg positioning - you can readjust legs once they settle, but losing the deep collar grip typically means starting over. Their explosive energy expenditure works against them as bridging is unsustainable, while your mechanical advantage through the bow position remains constant.",
+      "safety_critical": false
+    },
+    {
+      "question": "At what point during the bow and arrow choke does the submission become inescapable, and what indicators tell you the finish is secured?",
+      "answer": "The point of no escape occurs when three conditions converge: deep lapel grip established past the far-side carotid, proper perpendicular hip angle achieved, and leg extension initiated with opponent's body in the bow shape. Indicators of a secured finish include: opponent's defensive hand fighting becomes frantic or ineffective, their body begins arching involuntarily into the bow shape, and you feel the collar tightening around their neck without additional effort from your grip hand. At this stage, the mechanical advantage is overwhelming - their strength cannot overcome the leverage of your entire body extension through the collar. In competition, this is typically when experienced opponents tap, recognizing the finish is inevitable.",
+      "safety_critical": false
+    },
+    {
+      "question": "How do you adapt the bow and arrow choke when your opponent has significantly different body proportions than you, such as being much taller or having a thick neck?",
+      "answer": "For taller opponents, use the low hip variation with a more acute angle to compensate for their longer torso, and consider the two-handed lapel feed to achieve adequate depth despite the distance. For opponents with thick necks, prioritize achieving maximum grip depth before any transition - their neck mass requires deeper penetration to reach the carotid arteries. You may also benefit from the high shoulder variation, as downward pressure from your leg combined with extension creates more compression than extension alone. For stocky opponents, the standard variation often works well, but ensure your angle is truly perpendicular. The fundamental principle is that body type differences require adjustment in grip depth and angle, not in the core mechanics of the choke itself.",
+      "safety_critical": false
     }
   ],
   "training_progressions_and_safety_protocols": [
@@ -327,10 +352,9 @@
     "Turtle",
     "Crucifix",
     "Gift Wrap",
-    "Truck",
+    "Twister Control",
     "Harness",
-    "Body Triangle",
-    "Twister Control"
+    "Body Triangle"
   ],
   "related_submissions": [
     "Bow and Arrow Choke",
@@ -342,8 +366,6 @@
     "Cross Collar Choke",
     "Loop Choke",
     "Baseball Bat Choke",
-    "Paper Cutter Choke",
-    "Triangle Choke Back",
     "Crucifix Submissions",
     "Twister"
   ],
@@ -353,7 +375,7 @@
       "relationship": "Primary starting position providing the positional control needed to establish lapel grips safely"
     },
     {
-      "name": "Truck",
+      "name": "Twister Control",
       "relationship": "Alternative starting position and transition destination when opponent defends by turning into you"
     },
     {
@@ -365,11 +387,11 @@
       "relationship": "Enhanced control position that allows arm-trapped variation with both defensive arms eliminated"
     },
     {
-      "name": "Back Take Generic",
+      "name": "Back Take",
       "relationship": "Transition that establishes back control from which bow and arrow variations become available"
     },
     {
-      "name": "Turtle to Back Take",
+      "name": "Turtle to Back Control",
       "relationship": "Common entry sequence that leads to back control positioning for bow and arrow setup"
     },
     {
@@ -377,23 +399,11 @@
       "relationship": "Arm control configuration that enables arm-trapped variation with enhanced control"
     },
     {
-      "name": "Control Maintenance",
-      "relationship": "Fundamental principle for maintaining back control during the transition to bow and arrow position"
-    },
-    {
-      "name": "Grip Fighting",
-      "relationship": "Essential skill for establishing and maintaining lapel grips against defensive hand fighting"
-    },
-    {
-      "name": "Submission Chains",
-      "relationship": "Strategic concept for connecting bow and arrow variations with other back attack submissions"
-    },
-    {
-      "name": "Cross Collar Variations",
+      "name": "Cross Collar Choke",
       "relationship": "Related collar choke system that shares grip mechanics and finishing principles"
     },
     {
-      "name": "Loop Choke Variations",
+      "name": "Loop Choke",
       "relationship": "Alternative lapel-based choke system with similar grip and angle requirements"
     }
   ]

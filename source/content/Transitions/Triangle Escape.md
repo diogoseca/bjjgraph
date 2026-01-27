@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Triangle Escape | BJJ Technique | BJJ Graph"
 description: "Master Triangle Escape in BJJ. Defensive strategies to escape triangle chokes from various positions. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%."
@@ -16,7 +17,7 @@ description: "Master Triangle Escape in BJJ. Defensive strategies to escape tria
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Triangle Escape in BJJ",
-  "description": "Step-by-step guide for Triangle Escape from Triangle Control to Guard Recovery.",
+  "description": "Step-by-step guide for Triangle Escape from Triangle Control/Top. Possible outcomes: Guard Recovery/Bottom (70%), Triangle Control/Top (20%), Triangle Control/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -154,11 +155,25 @@ description: "Master Triangle Escape in BJJ. Defensive strategies to escape tria
 
 The Triangle Escape is a critical defensive technique for escaping one of Brazilian Jiu-Jitsu's most dominant submission positions. When caught in a triangle choke, the defender faces a race against time as blood flow to the brain becomes restricted. Understanding the mechanics of the triangle allows practitioners to identify escape windows and execute proper defensive sequences. The escape requires a combination of posture management, pressure redirection, and strategic positioning to break the configuration before the choke becomes fully locked. Early recognition and immediate defensive action dramatically increase escape success rates, making this skill essential for all practitioners. The triangle escape encompasses multiple strategies depending on the stage of the attack, from preventing the initial lock to escaping fully secured positions. Advanced practitioners develop sensitivity to triangle entries and can abort attacks before they materialize, while beginners must focus on fundamental escape mechanics and preventing the worst-case scenario of a fully locked submission.
 
-**Starting Position**: [[Triangle Control]]
-**Ending Position**: [[Guard Recovery]]
+**From Position**: [[Triangle Control/Top]]
 **Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Guard Recovery/Bottom]] | 70% |
+| Failure | [[Triangle Control/Top]] | 20% |
+| Counter | [[Triangle Control/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

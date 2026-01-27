@@ -9,8 +9,6 @@
     "hip-escape",
     "stack-pass-counter"
   ],
-  "starting_position": "Closed Guard",
-  "ending_position": "Closed Guard",
   "success_rates": {
     "beginner": 35,
     "intermediate": 50,
@@ -265,6 +263,24 @@
     {
       "name": "Bridge and Shrimp",
       "relationship": "Combined movement pattern for creating explosive space"
+    }
+  ],
+  "from_position": "Closed Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Closed Guard/Bottom",
+      "probability": 65,
+      "result": "success"
+    },
+    {
+      "to": "Closed Guard/Bottom",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Closed Guard/Top",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

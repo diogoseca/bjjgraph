@@ -21,37 +21,37 @@ description: "Master the bottom perspective of 10th Planet's Crackhead Control -
     {
       "@type": "HowToStep",
       "name": "Execute Gogoplata",
-      "text": "From this position, execute Gogoplata to transition to Gogoplata Control. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Gogoplata. This technique is attempted in 11% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Omoplata",
-      "text": "From this position, execute Omoplata to transition to Omoplata Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Omoplata. This technique is attempted in 13% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Choke",
-      "text": "From this position, execute Triangle Choke to transition to Triangle Control. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Triangle Choke. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Carni",
-      "text": "From this position, execute Transition to Carni to transition to Carni. Success rate for advanced practitioners: 70%.",
+      "name": "Execute Crackhead Control to Carni",
+      "text": "From this position, attempt Crackhead Control to Carni. This technique is attempted in 15% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Armbar from Guard",
-      "text": "From this position, execute Armbar from Guard to transition to Armbar Control. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Armbar from Guard. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Baratoplata",
-      "text": "From this position, execute Baratoplata to transition to Won by Submission. Success rate for advanced practitioners: 35%.",
+      "text": "From this position, attempt Baratoplata. This technique is attempted in 7% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -192,7 +192,7 @@ From the bottom perspective, Crackhead Control represents a calculated gamble wh
 
 ## Key Defensive Principles
 
-- Overhook depth determines position sustainability - shallow overhoooks collapse under pressure
+- Overhook depth determines position sustainability - shallow overhooks collapse under pressure
 - Leg across back must maintain constant downward pressure to prevent opponent posturing
 - Monitor opponent's free arm position constantly - double underhooks signal immediate danger
 - Hip angle adjustments create different submission entry opportunities without releasing control
@@ -207,91 +207,22 @@ From the bottom perspective, Crackhead Control represents a calculated gamble wh
 
 ## Available Escapes
 
-### [[Gogoplata]] → [[Gogoplata Control]]
+### [[Gogoplata]] (11% of attempts)
 
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 50%
+### [[Omoplata]] (13% of attempts)
 
-### [[Omoplata]] → [[Omoplata Control]]
+### [[Triangle Choke]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 60%
+### [[Crackhead Control to Carni]] (15% of attempts)
 
-### [[Triangle Choke]] → [[Triangle Control]]
+### [[Armbar from Guard]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 55%
+### [[Baratoplata]] (7% of attempts)
 
-### [[Transition to Carni]] → [[Carni]]
+### [[Crackhead Control to Mission Control]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 70%
+### [[Crackhead Control to New York]] (15% of attempts)
 
-### [[Armbar from Guard]] → [[Armbar Control]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 55%
-
-### [[Baratoplata]] → [[Won by Submission]]
-
-**Success Rates:**
-- Beginner: 10%
-- Intermediate: 20%
-- Advanced: 35%
-
-### [[Transition to Mission Control]] → [[Mission Control]]
-
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 60%
-- Advanced: 75%
-
-### [[Transition to New York]] → [[New York]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 55%
-- Advanced: 70%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Back Take]]** → [[Back Control]] (Opponent Success: 45%)
-- **[[Arm Extraction and Posture Recovery]]** → [[Closed Guard]] (Opponent Success: 35%)
-- **[[Stack Pass]]** → [[Side Control]] (Opponent Success: 25%)
-- **[[Double Underhook Pass]]** → [[Side Control]] (Opponent Success: 40%)
-- **[[Rolling Back Take]]** → [[Back Control]] (Opponent Success: 30%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Hook Sweep]]** → [[Mount]]
-  - Opponent commits weight forward attempting to stack or pressure through position
-- **[[Omoplata Sweep]]** → [[Side Control]]
-  - Opponent pulls trapped arm back attempting extraction
-- **[[Triangle Setup]]** → [[Triangle Control]]
-  - Opponent postures up attempting to create distance from submissions
-- **[[Technical Stand Up to Single Leg]]** → [[Standing Position]]
-  - Opponent begins circling toward back exposure side
 
 
 </section>
@@ -301,7 +232,7 @@ From the bottom perspective, Crackhead Control represents a calculated gamble wh
 ## Decision Making from This Position
 
 **If opponent drives weight forward attempting to smash through position or establish double underhooks:**
-- Execute **[[Transition to Carni]]** → [[Carni]] (Probability: 65%)
+- Execute **[[Crackhead Control to Carni]]** → [[Carni]] (Probability: 65%)
 - Execute **[[Gogoplata]]** → [[Gogoplata Control]] (Probability: 45%)
 - Execute **[[Hook Sweep]]** → [[Mount]] (Probability: 50%)
 
@@ -315,7 +246,7 @@ From the bottom perspective, Crackhead Control represents a calculated gamble wh
 **If opponent postures up attempting to create distance and reduce submission threat:**
 - Execute **[[Triangle Setup]]** → [[Triangle Control]] (Probability: 55%)
 - Execute **[[Armbar from Guard]]** → [[Armbar Control]] (Probability: 50%)
-- Execute **[[Transition to Mission Control]]** → [[Mission Control]] (Probability: 65%)
+- Execute **[[Crackhead Control to Mission Control]]** → [[Mission Control]] (Probability: 65%)
 
 
 **If opponent begins circling toward back exposure side or establishes strong hip pressure:**
@@ -402,33 +333,39 @@ Begin in standard closed guard with broken posture. Partner provides specific re
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Forward Pressure Gogoplata Chain
+## Test Your Knowledge
 
-`Crackhead Control Bottom → Carni → Gogoplata Control → Won by Submission`
+**Q1**: What is the minimum overhook depth required for sustainable Crackhead Control?
+**A**: The overhooking hand must reach behind the opponent's shoulder blade or lat muscle, with the elbow pointing toward the ceiling and forearm crossing diagonally across their back. Anything shallower - such as gripping at the elbow - allows the opponent to extract the arm through straightening and posturing, collapsing the position entirely.
 
-### Arm Extraction Omoplata Sequence
+**Q2**: How do you maintain constant downward pressure with the leg across the opponent's back?
+**A**: Actively pull the knee toward your chest while keeping the shin pressed across the opponent's upper back or neck. The leg should feel like it's constantly dragging their posture down rather than passively resting on them. This creates a lever system where their posturing attempts actually increase pressure on the trapped arm.
 
-`Crackhead Control Bottom → Omoplata Control → Won by Submission`
+**Q3**: Your opponent starts circling toward your exposed back side - what immediate adjustment do you make?
+**A**: Immediately engage your free leg more actively - either by establishing a strong butterfly hook on their hip, posting on the mat, or hooking behind their leg to arrest the hip rotation. If they continue the movement, abandon the submission hunting and transition to closed guard or technical standup before the back exposure becomes critical.
 
-### Posture Recovery Triangle Attack
+**Q4**: What are the grip priorities for maintaining Crackhead Control?
+**A**: The deep overhook is the primary anchor and must never be compromised. Hand placement behind the shoulder blade with elbow pointing up is critical. Secondary priority is the leg position across their back maintaining downward pressure. The free leg connection for hip control comes third but becomes first priority if back exposure danger emerges.
 
-`Crackhead Control Bottom → Triangle Control → Triangle Choke → Won by Submission`
+**Q5**: How do you recognize when to transition from gogoplata attempt to omoplata?
+**A**: When the opponent defends the gogoplata by keeping their head posture strong and pulling back rather than driving forward, the omoplata becomes available. Their arm pulling back motion actually sets up the omoplata rotation. Recognize this through the direction of their weight shift - backward momentum favors omoplata, forward momentum favors gogoplata continuation.
 
-### Baratoplata Connection
+**Q6**: Your opponent achieves double underhooks while you're hunting a submission - what's your immediate response?
+**A**: Double underhooks signal critical danger requiring immediate position change regardless of how close your submission attempt is. Abandon the attack and either transition to closed guard by releasing the overhook and closing your legs, or initiate technical standup. This is a red-line trigger that overrides all offensive intentions because stack passes and back takes become extremely high percentage from double underhooks.
 
-`Crackhead Control Bottom → Armbar Control → Baratoplata → Won by Submission`
+**Q7**: How do you manage energy expenditure to make Crackhead Control sustainable?
+**A**: The deep overhook maintains control without constant grip fighting, so let it do the work rather than squeezing hard. Cycle through submission attempts smoothly rather than forcing individual techniques. Keep the leg across the back engaged but not cramping by pulling with hip flexors rather than just the leg muscles. The position should feel sustainable - if it requires maximum effort to maintain, the mechanics are wrong.
 
-### Sweep to Dominant Position
-
-`Crackhead Control Bottom → Hook Sweep → Mount → Mounted submissions`
+**Q8**: What flexibility requirements must be developed to safely use Crackhead Control?
+**A**: Hip flexor and external rotation flexibility are essential for maintaining the leg across the opponent's back without excessive strain. If you experience cramping or discomfort in the hip area, your flexibility is insufficient and you should use Mission Control or New York instead while developing mobility. Forcing the position with inadequate flexibility leads to unsustainable positions and potential injury.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -454,10 +391,9 @@ Begin in standard closed guard with broken posture. Partner provides specific re
 - **[[Carni]]** - Key transition for gogoplata setups when opponent drives forward
 - **[[Omoplata Control]]** - Primary submission target when opponent attempts arm extraction
 - **[[Triangle Control]]** - Alternative submission when opponent postures up defending omoplata
-- **[[10th Planet Rubber Guard System]]** - Complete system context providing position sequences and tactical frameworks
-- **[[Gogoplata]]** - High-percentage submission from Carni transition
-- **[[Flexibility Training]]** - Essential physical preparation for sustainable position maintenance
-- **[[Guard Retention]]** - Critical skill for managing back exposure risk inherent in position
+- **[[Gogoplata Control]]** - High-percentage submission from Carni transition
+- **[[Closed Guard]]** - Safe fallback position when back exposure becomes dangerous
+- **[[New York]]** - Alternative rubber guard position with different overhook angle
 
 
 </section>

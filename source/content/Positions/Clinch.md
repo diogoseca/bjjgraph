@@ -20,50 +20,50 @@ description: "Master the clinch position in BJJ with comprehensive grip fighting
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Double Leg Entry",
-      "text": "From this position, execute Double Leg Entry to transition to Side Control. Success rate for advanced practitioners: 65%.",
+      "name": "Execute Double Leg Takedown",
+      "text": "From this position, attempt Double Leg Takedown. This technique is attempted in 15% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Single Leg Entry",
-      "text": "From this position, execute Single Leg Entry to transition to Side Control. Success rate for advanced practitioners: 70%.",
+      "name": "Execute Single Leg Takedown",
+      "text": "From this position, attempt Single Leg Takedown. This technique is attempted in 15% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Body Lock Pass",
-      "text": "From this position, execute Body Lock Pass to transition to Side Control. Success rate for advanced practitioners: 60%.",
+      "name": "Execute Body Lock Takedown",
+      "text": "From this position, attempt Body Lock Takedown. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Snap Down",
-      "text": "From this position, execute Snap Down to transition to Front Headlock. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Snap Down. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Front Headlock Series",
-      "text": "From this position, execute Front Headlock Series to transition to Front Headlock. Success rate for advanced practitioners: 70%.",
+      "name": "Execute Guard Pull",
+      "text": "From this position, attempt Guard Pull. This technique is attempted in 15% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Guard Pull",
-      "text": "From this position, execute Guard Pull to transition to Closed Guard. Success rate for advanced practitioners: 80%.",
+      "name": "Execute Arm Drag to Back",
+      "text": "From this position, attempt Arm Drag to Back. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Pull guard",
-      "text": "From this position, execute Pull guard to transition to Open Guard. Success rate for advanced practitioners: 75%.",
+      "name": "Execute Ankle Pick",
+      "text": "From this position, attempt Ankle Pick. This technique is attempted in 8% of exchanges from this position.",
       "position": 7
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Ippon Seoi Nage",
-      "text": "From this position, execute Ippon Seoi Nage to transition to Side Control. Success rate for advanced practitioners: 55%.",
+      "name": "Execute High Crotch",
+      "text": "From this position, attempt High Crotch. This technique is attempted in 8% of exchanges from this position.",
       "position": 8
     }
   ],
@@ -233,124 +233,24 @@ In modern Brazilian Jiu-Jitsu, the clinch has evolved beyond simple takedown set
 
 ## Available Techniques and Transitions
 
-### [[Double Leg Entry]] → [[Side Control]]
+### [[Double Leg Takedown]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Single Leg Takedown]] (15% of attempts)
 
-### [[Single Leg Entry]] → [[Side Control]]
+### [[Body Lock Takedown]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Snap Down]] (12% of attempts)
 
-### [[Body Lock Pass]] → [[Side Control]]
+### [[Guard Pull]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Arm Drag to Back]] (10% of attempts)
 
-### [[Snap Down]] → [[Front Headlock]]
+### [[Ankle Pick]] (8% of attempts)
 
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 60%
-- Advanced: 75%
+### [[High Crotch]] (8% of attempts)
 
-### [[Front Headlock Series]] → [[Front Headlock]]
+### [[Collar Drag]] (7% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
-
-### [[Guard Pull]] → [[Closed Guard]]
-
-**Success Rates:**
-- Beginner: 50%
-- Intermediate: 65%
-- Advanced: 80%
-
-### [[Pull guard]] → [[Open Guard]]
-
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 60%
-- Advanced: 75%
-
-### [[Ippon Seoi Nage]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-### [[Osoto Gari]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[High Crotch]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-### [[Arm Drag to Back]] → [[Back Control]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[Ankle Pick]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Defensive Counters
-
-- **[[Sprawl Defense]]** → [[Front Headlock]] (Success: 60%)
-- **[[Takedown Defense]]** → [[Standing Position]] (Success: 55%)
-- **[[Guard Pull]]** → [[Closed Guard]] (Success: 70%)
-- **[[Frame Creation]]** → [[Standing Position]] (Success: 50%)
-- **[[Whizzer]]** → [[Standing Position]] (Success: 45%)
-- **[[Sprawl]]** → [[Front Headlock]] (Success: 65%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter Techniques
-
-- **[[Snap Down]]** → [[Front Headlock]]
-  - Opponent overextends attempting takedown with poor posture or reaches too far for grips
-- **[[Sprawl]]** → [[Front Headlock]]
-  - Opponent shoots for legs without proper setup or commits to penetration step prematurely
-- **[[Body Lock Pass]]** → [[Back Control]]
-  - Opponent turns away or exposes back while defending takedown or attempting to circle out
-- **[[Single Leg Entry]]** → [[Side Control]]
-  - Opponent posts hand on ground, squares up stance, or creates space with poor weight distribution
-- **[[High Crotch]]** → [[Side Control]]
-  - Opponent maintains upright posture with hips back, creating opening for level change and penetration
-- **[[Arm Drag to Back]]** → [[Back Control]]
-  - Opponent extends arm to establish grip or pushes into your control without protecting arm position
 
 
 </section>
@@ -479,38 +379,6 @@ Focused drill exclusively on establishing and maintaining dominant head position
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
-
-## Optimal Paths from This Position
-
-### Front Headlock to Guillotine Path
-
-`Clinch → Snap Down → Front Headlock → Guillotine Choke`
-
-### Takedown to Mount Submission Path
-
-`Clinch → Double Leg Entry → Side Control → Mount → Armbar from Mount`
-
-### Guard Pull to Triangle Path
-
-`Clinch → Guard Pull → Closed Guard → Triangle from Closed Guard`
-
-### Body Lock to Back Attack Path
-
-`Clinch → Body Lock Pass → Back Control → Rear Naked Choke`
-
-### Single Leg to Top Control Submission Path
-
-`Clinch → Single Leg Entry → Side Control → Kimura from Side Control`
-
-### Judo Throw to Submission Path
-
-`Clinch → Ippon Seoi Nage → Mount → Armbar from Mount`
-
-
-
-</section>
-
 <section id="position-metrics" class="content-section">
 
 ## Success Rates and Statistics
@@ -530,17 +398,17 @@ Focused drill exclusively on establishing and maintaining dominant head position
 
 ## Related Positions and Techniques
 
-- **[[Collar Ties]]** - Specific clinch variation focusing on collar and head control
-- **[[Overhook Control Clinch]]** - Variation emphasizing overhook grip configurations
-- **[[Underhook Battle]]** - Specific scenario focused on underhook fighting
 - **[[Body Lock]]** - Advanced clinch control with torso engagement
 - **[[Front Headlock]]** - Common transition target from clinch control
 - **[[Standing Position]]** - General category containing clinch variations
-- **[[Underhook Control]]** - Dominant grip position within clinch exchanges
 - **[[Double Leg Entry]]** - Primary offensive transition from clinch
 - **[[Guard Pull]]** - Alternative transition pathway to ground engagement
 - **[[Overhook Control]]** - Defensive grip configuration within clinch
 - **[[Standing Rear Clinch]]** - Advanced clinch variation with back exposure
+- **[[Arm Drag to Back]]** - High-percentage back take from clinch grip fighting
+- **[[Single Leg Takedown]]** - Essential wrestling takedown from clinch engagement
+- **[[Back Control]]** - Primary destination when arm drag succeeds
+- **[[Closed Guard]]** - Common landing position after guard pull
 
 
 </section>

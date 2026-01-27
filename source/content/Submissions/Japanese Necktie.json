@@ -267,6 +267,31 @@
       "question": "From a defensive perspective, what is the highest percentage escape from the Japanese Necktie once it's locked, and why does this defense work?",
       "answer": "The highest percentage escape is extracting the trapped arm before your opponent locks their grip configuration. Once the arm is free, their shoulder can no longer function as part of the choking mechanism and the entire technique falls apart. This defense works because it removes one of the two compression points (your own shoulder) from the equation. To execute this escape, you must aggressively pull your trapped arm free before your opponent completes their rotation to perpendicular position and locks their hands. Use your free hand to push on their elbow or shoulder to create space, then extract the arm by pulling it toward your head. Once the arm is free, immediately work to improve your position by sitting back to guard or standing up. Attempting this escape after they've locked their grips becomes much more difficult, making early recognition and reaction critical.",
       "safety_critical": false
+    },
+    {
+      "question": "Your opponent begins posturing up and lifting their head during the setup - what adjustment prevents escape and capitalizes on this movement?",
+      "answer": "When an opponent lifts their head during Japanese Necktie setup, immediately tighten your grip around their neck and use the opportunity to sink your choking arm deeper under their chin. Their postured position actually makes the neck more accessible. Drop your weight sharply while pulling their head down with your arm, then immediately begin your rotation to perpendicular angle. If they continue lifting despite pressure, transition to a standing guillotine by releasing the arm trap momentarily but maintaining deep neck control. Their upward momentum can be redirected into a pulling motion that accelerates your submission setup rather than allowing their escape.",
+      "safety_critical": false
+    },
+    {
+      "question": "What anatomical structures does the Japanese Necktie attack, and what physical sensations indicate the choke is properly applied?",
+      "answer": "The Japanese Necktie targets the carotid arteries on both sides of the neck, creating bilateral blood choke compression that restricts blood flow to the brain. When properly applied, the opponent will feel immediate pressure on both sides of their neck without significant windpipe compression. The sensation is of tightness around the neck with rapid lightheadedness and tunnel vision rather than choking or breathing difficulty. If the opponent reports pressure on the throat or difficulty breathing, the choke is misaligned and applying airway compression rather than blood choke - adjust your shoulder angle to compress the sides of the neck rather than the front. A properly applied Japanese Necktie should produce unconsciousness in 3-8 seconds.",
+      "safety_critical": true
+    },
+    {
+      "question": "What is the 'point of no escape' in the Japanese Necktie, and how do you ensure you reach it before the opponent can defend?",
+      "answer": "The point of no escape occurs when three conditions are met simultaneously: the arm trap is secure with the opponent's shoulder locked against their neck, the grip configuration is locked (whether gable grip, shin grip, or lapel grip), and your body is positioned at the perpendicular angle with shoulder contact on the far side of their neck. Once all three elements are in place and you begin hip extension, defensive options become severely limited. To reach this point before the opponent defends, prioritize the arm trap first since this is the most commonly defended element. Execute the rotation quickly after securing the arm trap, and lock your grip immediately upon achieving the perpendicular angle. Speed through the transition phase while being deliberate in the finishing phase.",
+      "safety_critical": false
+    },
+    {
+      "question": "During competition, your opponent begins turtling defensively - how do you recognize the ideal moment to transition from control to Japanese Necktie finish?",
+      "answer": "The ideal finishing moment presents when the opponent commits their weight forward onto their hands in an attempt to create base for escape. This forward weight shift accomplishes two things: it makes the arm trap easier because their arm is loaded against your overhook, and it positions their head lower which allows deeper penetration of your choking arm. Watch for the moment when they drive forward against your chest pressure or attempt to post a hand - this is your trigger to explode through the rotation and lock your grips. Conversely, if they sit back on their heels in a defensive shell, you may need to use chest pressure and forward drive to force them onto their hands before attacking the finish.",
+      "safety_critical": false
+    },
+    {
+      "question": "What grip adjustments should you make if your initial grip configuration is failing to produce choking pressure?",
+      "answer": "If the gable grip behind their head isn't generating pressure, first check your shoulder positioning - the grip may be adequate but shoulder alignment off. If shoulder position is correct, try switching to a shin or ankle grip which changes the angle of pull and often produces tighter compression. In gi, grab your own lapel which provides a more rigid anchor point. If no grip variation works from the standard position, execute the rolling variation which dramatically changes the pressure angle by inverting your body position. Sometimes the issue is insufficient hip extension rather than grip selection - ensure your hips are fully extended with back arched before adjusting grips. Finally, if the opponent is simply too large or flexible for the standard finish, maintain control and transition to anaconda or darce which use different mechanical advantages.",
+      "safety_critical": false
     }
   ],
   "training_progressions_and_safety_protocols": [
@@ -318,7 +343,6 @@
     "Turtle",
     "Combat Base",
     "Scramble Position",
-    "Defensive Position",
     "Standing Position",
     "Kesa Gatame",
     "Side Control",
@@ -340,12 +364,8 @@
   ],
   "related_content": [
     {
-      "name": "Front Headlock Series",
+      "name": "Front Headlock",
       "relationship": "Primary position for Japanese Necktie setups and entries"
-    },
-    {
-      "name": "Japanese Necktie Setup",
-      "relationship": "Dedicated transition sequence for establishing proper grips and angle"
     },
     {
       "name": "Guillotine Setup",
@@ -368,12 +388,8 @@
       "relationship": "Alternative attack from same starting position"
     },
     {
-      "name": "Turtle to Back Take",
+      "name": "Turtle to Back Control",
       "relationship": "Alternative offensive option from turtle top position"
-    },
-    {
-      "name": "Peruvian Necktie Setup",
-      "relationship": "Related neck crank/choke combination from similar positions"
     },
     {
       "name": "Closed Guard",

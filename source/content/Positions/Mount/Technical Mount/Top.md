@@ -21,37 +21,37 @@ description: "Master Technical Mount Top in BJJ. Complete offensive guide coveri
     {
       "@type": "HowToStep",
       "name": "Execute Mount to Armbar",
-      "text": "From this position, execute Mount to Armbar to transition to Armbar Control. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Mount to Armbar. This technique is attempted in 25% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Take Generic",
-      "text": "From this position, execute Back Take Generic to transition to Back Control. Success rate for advanced practitioners: 80%.",
+      "text": "From this position, attempt Back Take Generic. This technique is attempted in 22% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Mount",
-      "text": "From this position, execute Transition to Mount to transition to Mount. Success rate for advanced practitioners: 85%.",
+      "name": "Execute Side Control to Mount",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 15% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Arm Triangle from Turtle",
-      "text": "From this position, execute Arm Triangle from Turtle to transition to Side Control. Success rate for advanced practitioners: 70%.",
+      "name": "Execute Triangle Setup",
+      "text": "From this position, attempt Triangle Setup. This technique is attempted in 15% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Triangle Setup",
-      "text": "From this position, execute Triangle Setup to transition to Mounted Triangle. Success rate for advanced practitioners: 65%.",
+      "name": "Execute Gift Wrap Control",
+      "text": "From this position, attempt Gift Wrap Control. This technique is attempted in 13% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Gift Wrap Control",
-      "text": "From this position, execute Gift Wrap Control to transition to Gift Wrap. Success rate for advanced practitioners: 70%.",
+      "name": "Execute High Mount Transition",
+      "text": "From this position, attempt High Mount Transition. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -214,83 +214,18 @@ This position represents a critical junction in mount offense where the practiti
 
 ## Available Attacks
 
-### [[Mount to Armbar]] → [[Armbar Control]]
+### [[Mount to Armbar]] (25% of attempts)
 
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 60%
-- Advanced: 75%
+### [[Back Take Generic]] (22% of attempts)
 
-### [[Back Take Generic]] → [[Back Control]]
+### [[Side Control to Mount]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 50%
-- Intermediate: 65%
-- Advanced: 80%
+### [[Triangle Setup]] (15% of attempts)
 
-### [[Transition to Mount]] → [[Mount]]
+### [[Gift Wrap Control]] (13% of attempts)
 
-**Success Rates:**
-- Beginner: 60%
-- Intermediate: 75%
-- Advanced: 85%
+### [[High Mount Transition]] (10% of attempts)
 
-### [[Arm Triangle from Turtle]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
-
-### [[Triangle Setup]] → [[Mounted Triangle]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-### [[Gift Wrap Control]] → [[Gift Wrap]]
-
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
-
-### [[S-Mount Transition]] → [[S Mount]]
-
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 60%
-- Advanced: 75%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Upa Escape]]** → [[Open Guard]] (Opponent Success: 25%)
-- **[[Elbow Escape]]** → [[Half Guard]] (Opponent Success: 30%)
-- **[[Bridge and Roll]]** → [[Mount]] (Opponent Success: 20%)
-- **[[Arm Extraction]]** → [[Mount]] (Opponent Success: 35%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Back Take Generic]]** → [[Back Control]]
-  - Opponent turns away to defend armbar by pulling arm back
-- **[[Armbar Defense Counter]]** → [[Armbar Control]]
-  - Opponent attempts to stack by driving forward, creating angle for leg swing-over
-- **[[Transition to Mount]]** → [[Mount]]
-  - Opponent successfully retracts arm before submission completion
-- **[[Gift Wrap Control]]** → [[Gift Wrap]]
-  - Opponent uses free arm to defend armbar, creating gift wrap opportunity
 
 
 </section>
@@ -301,7 +236,7 @@ This position represents a critical junction in mount offense where the practiti
 
 **If opponent extends arm defensively while in mount and fails to immediately retract:**
 - Execute **[[Mount to Armbar]]** → [[Armbar Control]] (Probability: 70%)
-- Execute **[[S-Mount Transition]]** → [[S Mount]] (Probability: 60%)
+- Execute **[[High Mount Transition]]** → [[S Mount]] (Probability: 60%)
 
 
 **If opponent defends armbar by turning away and exposing back:**
@@ -310,7 +245,7 @@ This position represents a critical junction in mount offense where the practiti
 
 
 **If opponent successfully retracts arm before armbar completion:**
-- Execute **[[Transition to Mount]]** → [[Mount]] (Probability: 80%)
+- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 80%)
 - Execute **[[Triangle Setup]]** → [[Mounted Triangle]] (Probability: 50%)
 
 
@@ -385,33 +320,39 @@ Partner defends armbar by turning away (specific instruction to expose back). Pr
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Direct Armbar Path
+## Test Your Knowledge
 
-`Mount → Technical Mount → Armbar Control → Armbar from Mount → Won by Submission`
+**Q1**: What is the primary weight distribution strategy for maintaining Technical Mount while setting up the armbar?
+**A**: Weight should be distributed strategically between the posted leg and the inside knee, with hips elevated but remaining close to the opponent's body. The posted leg provides base against rolling while the inside leg maintains connection. Upper body weight stays over the opponent's chest with the head positioned on the opposite side of the attacked arm to prevent sit-up attempts and maintain control during the transition to armbar.
 
-### Back Take to Rear Naked Choke
+**Q2**: Your opponent starts to bridge explosively while you have their arm controlled in Technical Mount—what adjustment do you make?
+**A**: Ride the bridge by staying heavy on your inside leg and posted leg, keeping your hips tight to their shoulder. As they bridge, their arm often extends further due to the momentum, creating an even better armbar angle. Use their upward momentum to begin your leg swing-over, converting their escape attempt into your finishing opportunity. Never fight the bridge directly—flow with it and capitalize on the space it creates.
 
-`Mount → Technical Mount → Back Control → Rear Naked Choke → Won by Submission`
+**Q3**: What are the essential grips for maintaining Technical Mount before committing to the armbar finish?
+**A**: Two-handed control of the opponent's arm is critical: one hand grips the wrist firmly while the other controls above the elbow or at the shoulder. This dual grip prevents arm retraction and maintains extension. The wrist grip controls rotation while the elbow grip prevents them from bending the arm. Never post the leg before securing both grips, as losing arm control while in the asymmetric position leaves you vulnerable.
 
-### Gift Wrap to Crucifix
+**Q4**: How do you shut down the primary escape from Technical Mount where the opponent turns away to defend the armbar?
+**A**: Anticipate the turn and immediately transition to back control rather than forcing the armbar. Maintain wrist control as they turn, release the armbar grip, and establish seat belt control by threading your arm under their armpit. Your posted leg becomes your first hook as you follow their rotation. The key is reading their shoulder movement early—the moment they begin turning, abandon the armbar and take the back.
 
-`Mount → Technical Mount → Gift Wrap → Crucifix → Armbar from Crucifix → Won by Submission`
+**Q5**: What grip priorities should you maintain when the opponent begins hand-fighting to retract their arm?
+**A**: Prioritize the wrist grip above all else—if you lose the wrist, you lose the armbar. When they hand-fight, keep your wrist grip tight while using your elbow-controlling hand to fight their free hand away or pin it to their body. If they successfully begin retracting, immediately decide: either commit harder by sitting back to the armbar before they escape, or release and return to regular mount to reset. Never stay in half-committed Technical Mount with compromised grips.
 
-### S-Mount to Armbar Chain
+**Q6**: How do you manage energy in Technical Mount given its transitional nature?
+**A**: Technical Mount is a high-intensity, short-duration position—treat it as a 3-8 second window, not a resting position. Enter with immediate attacking intent and commit to finishing quickly. If the armbar isn't there within a few seconds, either transition to back take or return to regular mount to conserve energy. Staying in Technical Mount trying to force submissions burns energy rapidly due to the asymmetric base requiring constant adjustment. Make a decision and execute—hesitation costs energy.
 
-`Mount → Technical Mount → S Mount → Armbar Control → Armbar from Mount → Won by Submission`
+**Q7**: Your opponent creates frames with their free arm against your hip to prevent you from completing the armbar swing-over—how do you recover?
+**A**: Use the frame to your advantage by attacking the free arm instead. Their frame exposes that arm for gift wrap control—swim your hand under their framing arm and grab their far shoulder or collar. Once the gift wrap is secured, you can either return to the original armbar with superior control, attack the newly trapped arm, or use the gift wrap to take the back. Their defensive frame becomes your offensive opportunity.
 
-### Triangle from Failed Armbar
-
-`Mount → Technical Mount → Mounted Triangle → Triangle from Mount → Won by Submission`
+**Q8**: What are the key indicators that tell you to abandon the armbar attempt and transition to back control instead?
+**A**: Transition to back control when: the opponent successfully bends their elbow and begins retracting the arm, they turn their shoulders away from you more than 45 degrees, they begin sitting up despite your head pressure, or their free arm establishes strong frames preventing your swing-over. The back take is the safety valve—whenever the armbar feels forced or the opponent is winning the arm battle, immediately shift to back control. A guaranteed back take beats a low-percentage armbar attempt.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -441,7 +382,6 @@ Partner defends armbar by turning away (specific instruction to expose back). Pr
 - **[[Mounted Triangle]]** - Alternative submission - available when opponent creates space defending armbar
 - **[[Mount to Armbar]]** - Primary technique - main transition used from this position
 - **[[Armbar from Mount]]** - Primary submission - finish technique from this position
-- **[[Submission Chains]]** - Conceptual framework - Technical Mount exemplifies creating submission dilemmas
 
 
 </section>

@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Guillotine Defense | BJJ Technique | BJJ Graph"
 description: "Learn Guillotine Defense in BJJ. Step-by-step escape from Guillotine Choke attacks. Success: Beginner 30%, Intermediate 50%, Advanced 70%. Essential defensive technique."
@@ -16,7 +17,7 @@ description: "Learn Guillotine Defense in BJJ. Step-by-step escape from Guilloti
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Guillotine Defense in BJJ",
-  "description": "Step-by-step guide for Guillotine Defense from Front Headlock to Side Control.",
+  "description": "Step-by-step guide for Guillotine Defense from Front Headlock/Top. Possible outcomes: Side Control/Top (70%), Front Headlock/Top (20%), Front Headlock/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -160,11 +161,25 @@ description: "Learn Guillotine Defense in BJJ. Step-by-step escape from Guilloti
 
 The Guillotine Defense represents a critical survival skill in Brazilian Jiu-Jitsu, addressing one of the most common and dangerous submission threats across all levels of competition. When caught in a guillotine choke, whether standing or on the ground, understanding the proper defensive mechanics can mean the difference between tapping and escaping to a superior position. This defensive sequence focuses on alleviating pressure from the carotid arteries while simultaneously creating escape pathways that neutralize the submission threat. The defense must be executed with precise timing and technical understanding, as improper attempts can actually tighten the choke and accelerate the need to tap. Modern guillotine defense emphasizes posture management, hand fighting, and strategic movement patterns that exploit the mechanical weaknesses inherent in the attacking position. Success requires both preventative awareness to avoid deep guillotine positions and reactive technical skills to escape when caught. The technique serves as a fundamental component of any complete defensive system, particularly relevant in no-gi grappling where guillotine attacks are statistically among the most successful submissions.
 
-**Starting Position**: [[Front Headlock]]
-**Ending Position**: [[Side Control]]
+**From Position**: [[Front Headlock/Top]]
 **Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Side Control/Top]] | 70% |
+| Failure | [[Front Headlock/Top]] | 20% |
+| Counter | [[Front Headlock/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

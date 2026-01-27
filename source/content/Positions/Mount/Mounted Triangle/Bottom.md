@@ -21,37 +21,37 @@ description: "Defensive strategies and escape fundamentals from mounted triangle
     {
       "@type": "HowToStep",
       "name": "Execute Bridge and Roll",
-      "text": "From this position, execute Bridge and Roll to transition to Mount. Success rate for advanced practitioners: 35%.",
+      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 12% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Elbow Escape",
-      "text": "From this position, execute Elbow Escape to transition to Half Guard. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Elbow Escape. This technique is attempted in 18% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Granby Roll",
-      "text": "From this position, execute Granby Roll to transition to Defensive Position. Success rate for advanced practitioners: 30%.",
+      "text": "From this position, attempt Granby Roll. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape",
-      "text": "From this position, execute Hip Escape to transition to Open Guard. Success rate for advanced practitioners: 45%.",
+      "text": "From this position, attempt Hip Escape. This technique is attempted in 15% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Upa Escape",
-      "text": "From this position, execute Upa Escape to transition to Closed Guard. Success rate for advanced practitioners: 35%.",
+      "text": "From this position, attempt Upa Escape. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Frame and Shrimp",
-      "text": "From this position, execute Frame and Shrimp to transition to Guard Opening Sequence. Success rate for advanced practitioners: 48%.",
+      "text": "From this position, attempt Frame and Shrimp. This technique is attempted in 16% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -211,89 +211,22 @@ Escape pathways generally involve either explosive bridging to disrupt the trian
 
 ## Available Escapes
 
-### [[Bridge and Roll]] → [[Mount]]
+### [[Bridge and Roll]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 25%
-- Advanced: 35%
+### [[Elbow Escape]] (18% of attempts)
 
-### [[Elbow Escape]] → [[Half Guard]]
+### [[Granby Roll]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
+### [[Hip Escape]] (15% of attempts)
 
-### [[Granby Roll]] → [[Defensive Position]]
+### [[Upa Escape]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 10%
-- Intermediate: 20%
-- Advanced: 30%
+### [[Frame and Shrimp]] (16% of attempts)
 
-### [[Hip Escape]] → [[Open Guard]]
+### [[Technical Stand Up]] (8% of attempts)
 
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 45%
+### [[Arm Extraction]] (9% of attempts)
 
-### [[Upa Escape]] → [[Closed Guard]]
-
-**Success Rates:**
-- Beginner: 12%
-- Intermediate: 22%
-- Advanced: 35%
-
-### [[Frame and Shrimp]] → [[Guard Opening Sequence]]
-
-**Success Rates:**
-- Beginner: 18%
-- Intermediate: 32%
-- Advanced: 48%
-
-### [[Technical Stand Up]] → [[Standing Position]]
-
-**Success Rates:**
-- Beginner: 8%
-- Intermediate: 15%
-- Advanced: 25%
-
-### [[Arm Extraction]] → [[Mount]]
-
-**Success Rates:**
-- Beginner: 10%
-- Intermediate: 18%
-- Advanced: 28%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Triangle Finish]]** → [[Lost by Submission]] (Opponent Success: 45%)
-- **[[Armbar Finish]]** → [[Lost by Submission]] (Opponent Success: 35%)
-- **[[Back Take]]** → [[Back Control]] (Opponent Success: 25%)
-- **[[Remount]]** → [[High Mount]] (Opponent Success: 30%)
-- **[[S Mount Transition]]** → [[S Mount]] (Opponent Success: 20%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Frame Push]]** → [[Half Guard]]
-  - Opponent loosens triangle pressure to adjust angle
-- **[[Explosive Bridge]]** → [[Guard Opening Sequence]]
-  - Opponent commits full weight forward to triangle finish
-- **[[Arm Circulation]]** → [[Mount]]
-  - Opponent transitions to armbar and creates arm mobility
 
 
 </section>
@@ -308,8 +241,8 @@ Escape pathways generally involve either explosive bridging to disrupt the trian
 
 
 **If opponent commits heavily to triangle finish with hips high:**
-- Execute **[[Bridge and Roll]]** → [[Mount]] (Probability: 30%)
-- Execute **[[Granby Roll]]** → [[Defensive Position]] (Probability: 25%)
+- Execute **[[Bridge and Roll]]** → [[Closed Guard]] (Probability: 30%)
+- Execute **[[Granby Roll]]** → [[Turtle]] (Probability: 25%)
 
 
 **If opponent transitions to armbar attempt from mounted triangle:**
@@ -318,7 +251,7 @@ Escape pathways generally involve either explosive bridging to disrupt the trian
 
 
 **If opponent maintains stable mounted triangle with moderate pressure:**
-- Execute **[[Frame and Shrimp]]** → [[Guard Opening Sequence]] (Probability: 35%)
+- Execute **[[Frame and Shrimp]]** → [[Open Guard]] (Probability: 35%)
 - Execute **[[Hip Escape]]** → [[Open Guard]] (Probability: 30%)
 
 
@@ -400,25 +333,39 @@ Partner establishes mounted triangle and signals commitment to finishing angle. 
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Triangle Defense to Guard Recovery
+## Test Your Knowledge
 
-`Mounted Triangle Bottom → Frame Creation → Hip Escape → Guard Opening Sequence → Closed Guard`
+**Q1**: Your opponent begins tightening the triangle lock - what is your immediate defensive priority?
+**A**: Immediately establish chin tuck by driving your chin down toward your chest and turning your head toward your trapped arm side. This reduces the angle available for the choke and buys time. Simultaneously, begin circulating your trapped arm by bending it tight to your body and gripping your own collar or their leg to prevent arm extension. These two actions address both submission threats (triangle and armbar) simultaneously.
 
-### Bridge Reversal to Top Position
+**Q2**: What are the essential defensive frames you need to create space for escape?
+**A**: Your free arm creates the primary frame by placing your forearm or hand against their hip on the side opposite your trapped arm. This prevents them from fully settling their weight and creates a structural barrier for space generation. Secondary framing involves using your trapped arm's elbow to create a wedge against their thigh, preventing full compression of the triangle. Both frames use skeletal structure rather than pushing with muscular effort.
 
-`Mounted Triangle Bottom → Explosive Bridge → Rolling Reversal → Mount → Submission Attack`
+**Q3**: How do you recognize when the opponent's base is vulnerable enough for an explosive escape attempt?
+**A**: The opponent's base becomes vulnerable when they commit weight forward to finish the triangle (hips elevate, weight shifts toward your head), when they reach for finishing grips like grabbing their shin, or when they adjust angle and momentarily shift their posted leg. Feel for weight distribution changes through the pressure on your chest. When their hips lift significantly or they lean forward aggressively, that's your window for an explosive bridge toward their committed direction.
 
-### Systematic Escape to Standing
+**Q4**: What grip priorities protect you from both triangle and armbar simultaneously?
+**A**: Keep your trapped arm bent at approximately 90 degrees and grip either your own collar (gi), your own opposite bicep (no-gi), or their hip/leg to prevent arm extension. This protects against armbar. For triangle defense, your free hand should frame on their hip while your chin stays tucked. Never straighten your trapped arm or let it drift away from your body - this invites the armbar transition.
 
-`Mounted Triangle Bottom → Arm Protection → Frame and Shrimp → Technical Stand Up → Standing Position`
+**Q5**: How do you apply effective bridging pressure to disrupt the mounted triangle without giving up worse position?
+**A**: Bridge at a 45-degree angle toward the side where their bottom leg is posted, not straight up. This attacks their base at its weakest point. Time the bridge when they commit weight forward to finish. Drive through your feet explosively while turning into the bridge direction. If the bridge successfully disrupts their balance, follow through into guard recovery. If they base out, immediately reset frames rather than continuing to bridge ineffectively.
+
+**Q6**: Your opponent transitions from triangle attempt to armbar - how do you adjust your defense mid-transition?
+**A**: The transition to armbar requires them to release some triangle pressure and pivot their hips. Use this moment to bend your trapped arm aggressively and turn toward them, getting your elbow toward your hip. If possible, grip your own wrist with your free hand to create a two-on-one defense on your arm. Their hip pivot during the armbar transition often creates space for you to hip escape or turn into them, potentially recovering to mount bottom rather than armbar.
+
+**Q7**: How do you manage energy expenditure when trapped in mounted triangle for extended periods?
+**A**: Breathe deliberately through your nose, staying calm despite the pressure. Use frames to hold position rather than constantly pushing or bridging. Save explosive efforts for genuine escape opportunities rather than desperate thrashing. Accept that survival may require enduring discomfort while waiting for the right moment. Between escape attempts, relax your muscles while maintaining essential defensive structure. Mental composure is your primary energy management tool.
+
+**Q8**: You've partially escaped and created some space but haven't fully recovered guard - how do you consolidate your defensive gains?
+**A**: Immediately insert your knee as a shield between your bodies before they can recollapse the distance. Use your free arm to control their hip and prevent them from re-establishing mount pressure. Continue shrimping to create more space rather than pausing. If you can get to half guard, lock it immediately and establish proper half guard defense before they can remount. Never stop moving until you've achieved a stable defensive position with proper connection points.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -439,13 +386,13 @@ Partner establishes mounted triangle and signals commitment to finishing angle. 
 
 ## Related Positions and Techniques
 
-- **[[Escape Hierarchy]]** - Fundamental defensive framework for all mount escape scenarios including mounted triangle
-- **[[Triangle Escape]]** - Core defensive mechanics applicable to mounted triangle defense
-- **[[Armbar Defense]]** - Essential skill for defending mounted armbar transitions from mounted triangle
-- **[[Defensive Position]]** - Recovery position during escape attempts from mounted triangle
+- **[[Mount]]** - Parent position that mounted triangle develops from
+- **[[Triangle Control]]** - Related triangle position with similar defensive mechanics
+- **[[Armbar Control]]** - Common transition threat requiring parallel defensive awareness
+- **[[Turtle]]** - Recovery position during escape attempts from mounted triangle
 - **[[Bridge and Roll]]** - Primary explosive escape technique for disrupting mounted triangle structure
 - **[[Hip Escape]]** - Fundamental movement pattern for creating space and escaping mounted triangle
-- **[[Submission Defense]]** - Overarching defensive principles applied to mounted triangle survival
+- **[[Half Guard]]** - Common escape destination when creating space from mounted triangle
 
 
 </section>

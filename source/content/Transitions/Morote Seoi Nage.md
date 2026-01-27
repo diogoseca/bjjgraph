@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Morote Seoi Nage | BJJ Technique | BJJ Graph"
 description: "Master Morote Seoi Nage in BJJ. Complete two-handed shoulder throw from standing to side control. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%."
@@ -16,7 +17,7 @@ description: "Master Morote Seoi Nage in BJJ. Complete two-handed shoulder throw
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Morote Seoi Nage in BJJ",
-  "description": "Step-by-step guide for Morote Seoi Nage from Standing Position to Side Control.",
+  "description": "Step-by-step guide for Morote Seoi Nage from Standing Position/Top. Possible outcomes: Side Control/Top (70%), Standing Position/Top (20%), Standing Position/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -160,11 +161,25 @@ description: "Master Morote Seoi Nage in BJJ. Complete two-handed shoulder throw
 
 Morote Seoi Nage, or the two-handed shoulder throw, is a fundamental judo technique that has proven highly effective in Brazilian Jiu-Jitsu competition and self-defense scenarios. Unlike the single-handed Ippon Seoi Nage, this variation maintains grips on both sleeves or wrists throughout the throw, providing superior control and reducing the opponent's ability to counter. The technique exploits forward momentum or pressure, using a rotating entry to load the opponent onto your back before executing an explosive forward projection. This throw is particularly effective in gi competition where sleeve control is paramount, and it transitions seamlessly into dominant top positions like side control or mount. The Morote Seoi Nage requires precise timing, strong hip positioning, and excellent kuzushi (off-balancing) to execute successfully against resisting opponents. When mastered, it becomes a high-percentage technique that can score immediate points in competition while establishing superior position for submission attacks or control.
 
-**Starting Position**: [[Standing Position]]
-**Ending Position**: [[Side Control]]
+**From Position**: [[Standing Position/Top]]
 **Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Side Control/Top]] | 70% |
+| Failure | [[Standing Position/Top]] | 20% |
+| Counter | [[Standing Position/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

@@ -226,7 +226,7 @@
     {
       "variation_name": "Flower Sweep to Triangle",
       "description": "When attempting flower sweep from closed guard with overhook, if opponent bases hard to prevent the sweep, abandon the sweep and immediately swing your outside leg over their back into triangle. The overhook you already have perfectly isolates their arm.",
-      "when_to_use": "Creates sweep-submission combination where opponent's defensive commitment to preventing sweep opens triangle; 10th Planet's frequently teaches this connection"
+      "when_to_use": "Creates sweep-submission combination where opponent's defensive commitment to preventing sweep opens triangle"
     }
   ],
   "knowledge_assessment": [
@@ -259,6 +259,36 @@
       "question": "What should you do immediately if your partner's breathing sounds unusual, they show distress signals, or they appear to be losing consciousness during triangle application?",
       "answer": "Immediately open your legs and release the triangle completely without waiting for a tap. Push their head away gently, allow them to recover their posture, and check their awareness by speaking to them. If they appear unconscious or unresponsive, ensure they're breathing, position them safely (recovery position if needed), and monitor them until they're fully aware. Never continue training until they've confirmed they're okay. This is critical because loss of consciousness can occur rapidly (within seconds) and continuing pressure after unconsciousness can cause serious brain injury. Unusual breathing, gurgling sounds, or sudden loss of resistance are emergency signals requiring immediate release.",
       "safety_critical": true
+    },
+    {
+      "question": "What is the 'point of no escape' in the triangle choke, and what control elements must be established before the opponent loses their ability to defend?",
+      "answer": "The point of no escape occurs when three conditions are simultaneously met: your angle is perpendicular to opponent's centerline (approximately 90 degrees), your ankle is locked behind the opposite knee with the choking knee tight against the neck, and the opponent's posture is fully broken with their head pulled below the level of your hips. Once all three are established with the opponent's arm trapped across their centerline, the structural mechanics make escape nearly impossible regardless of the opponent's strength or technical ability. Before this point, they can still posture up, turn out, or extract their arm. After this point, even stalling or chin tucking merely delays the finish.",
+      "safety_critical": false
+    },
+    {
+      "question": "How do you adjust your finishing mechanics when the opponent tucks their chin aggressively to defend against the choke?",
+      "answer": "Chin tucking is a stalling tactic that does not address the underlying structural problem of the triangle. To overcome it: first ensure your angle is correct at 90 degrees to their centerline. Second, pull their head even lower using grips behind the head or their collar - their chin cannot protect them if their face is pointing at your belly button. Third, increase hip elevation and extension rather than squeezing harder. Fourth, grab your own shin with both hands and pull to close any remaining space. The bilateral compression from your leg and their shoulder will eventually overcome the chin defense as long as your structure is correct.",
+      "safety_critical": false
+    },
+    {
+      "question": "What grip adjustments should you make during the triangle finish to maximize pressure while maintaining control of a defending opponent?",
+      "answer": "For maximum finishing pressure, transition from head control grips to grabbing your own shin with both hands, pulling your choking leg toward your body while extending your hips. If opponent is still defending, use one hand to pull their head down while the other controls their trapped arm at the wrist, pulling it across their centerline to deepen the shoulder wedge effect. In gi, grip their opposite collar behind their neck and pull. In no-gi, use a palm-to-palm grip behind their head or gable grip your hands behind their neck. Never release head control completely - if they posture even slightly, the finish becomes significantly harder.",
+      "safety_critical": false
+    },
+    {
+      "question": "What are the key indicators that tell you the triangle is properly locked and the opponent is at immediate risk of losing consciousness?",
+      "answer": "Key indicators include: opponent's face turns red or purple from blood pooling, their breathing becomes labored or irregular, their defensive movements become weak or uncoordinated, they stop actively defending and become still, their trapped arm goes limp rather than fighting your grip, and their free arm's movements become frantic or desperate rather than technical. In training, you should begin releasing at the first signs of these indicators rather than waiting for a tap, as some practitioners may be too stubborn to tap or may lose consciousness before they can signal. These signs indicate the choke is effective and requires immediate attention to safety.",
+      "safety_critical": true
+    },
+    {
+      "question": "How does the triangle from closed guard connect to other submissions in a systematic attack chain, and what reactions from your opponent lead to each alternative attack?",
+      "answer": "The triangle creates a three-way dilemma connecting to armbar and omoplata. When opponent turns toward your choking leg, their trapped arm straightens and extends - transition to armbar by swinging your leg over their face and falling back. When opponent turns away from your choking leg, their shoulder rotates into omoplata position - release the triangle and rotate your hips to lock the shoulder. When opponent postures aggressively, both arms become exposed - release to armbar on whichever arm is more extended. When opponent stacks forward, use their momentum for omoplata sweep or transition to gogoplata if their posture is completely broken. This systematic approach means every defense creates a new opportunity.",
+      "safety_critical": false
+    },
+    {
+      "question": "What specific competition finishing strategies increase your success rate when attempting triangle chokes against high-level opponents?",
+      "answer": "High-level competition triangle strategies include: establish control of the far arm early to prevent posting and stacking defenses, create your angle before locking the triangle rather than trying to adjust after, use misdirection by threatening armbar or omoplata first to open the triangle opportunity, control the opponent's hips by underhooking their far leg to prevent standing escapes, grip behind your own knee rather than just crossing ankles for a tighter initial lock, and commit fully to the finish once locked rather than relaxing and allowing recovery. Additionally, practice your triangle from positions your opponents don't expect - off failed sweeps, from overhook, or after deliberately inviting guard passes that expose their arms.",
+      "safety_critical": false
     }
   ],
   "training_progressions_and_safety_protocols": [
@@ -318,19 +348,10 @@
   "related_submissions": [
     "Triangle Choke",
     "Armbar from Guard",
-    "Omoplata from Guard",
-    "Triangle from Mount",
-    "Triangle from Back",
-    "Triangle from Spider Guard",
-    "Triangle from De La Riva",
-    "Inverted Triangle",
     "Gogoplata",
-    "Kimura from Guard",
     "Cross Collar Choke",
-    "Loop Choke",
     "Guillotine Choke",
-    "Baratoplata",
-    "Tarikoplata"
+    "Baratoplata"
   ],
   "related_content": [
     {
@@ -346,36 +367,40 @@
       "relationship": "Primary follow-up submission when opponent defends triangle by turning or extracting arm; creates submission chain with triangle"
     },
     {
-      "name": "Omoplata from Guard",
-      "relationship": "Alternative finish when opponent defends triangle by turning opposite direction; completes triangle-armbar-omoplata system"
-    },
-    {
       "name": "Triangle Choke",
       "relationship": "Generic triangle choke technique applicable from multiple positions; this is specific closed guard variation"
     },
     {
-      "name": "Triangle Setup",
-      "relationship": "Transition technique covering various entries into triangle position from closed guard and other guards"
+      "name": "Rubber Guard",
+      "relationship": "Advanced guard system that provides excellent triangle setups through high guard and Mission Control positions"
     },
     {
-      "name": "Triangle to Armbar",
-      "relationship": "Specific transition technique when opponent defends triangle; essential follow-up creating submission dilemma"
+      "name": "Mission Control",
+      "relationship": "10th Planet rubber guard position that creates ideal conditions for triangle entry with extreme posture control"
     },
     {
-      "name": "Triangle to Omoplata",
-      "relationship": "Alternative transition when opponent turns away from armbar; completes the three-way submission system"
+      "name": "Spider Guard",
+      "relationship": "Alternative guard providing triangle opportunities when opponent's posture is managed with foot placement on biceps"
     },
     {
-      "name": "Posture Breaking",
-      "relationship": "Essential principle and prerequisite for triangle success; opponent's broken posture is required for triangle effectiveness"
+      "name": "Omoplata Control",
+      "relationship": "Alternative finish when opponent turns away from triangle; completes the triangle-armbar-omoplata attack system"
     },
     {
-      "name": "Hip Movement",
-      "relationship": "Fundamental principle for creating the angle necessary for triangle; hip mobility directly impacts triangle success rate"
+      "name": "Guillotine Choke",
+      "relationship": "Related blood choke that can be combined with triangle attempts or used as alternative when triangle is defended"
     },
     {
-      "name": "Submission Chains",
-      "relationship": "Strategic principle where triangle serves as centerpiece of closed guard attack system connecting to multiple submissions"
+      "name": "Lasso Guard",
+      "relationship": "Guard variation that can transition to triangle when opponent attempts to clear the lasso control"
+    },
+    {
+      "name": "Gogoplata",
+      "relationship": "Advanced submission available from triangle position when posture is completely broken and shin can access throat"
+    },
+    {
+      "name": "Collar Sleeve Guard",
+      "relationship": "Guard variation providing excellent triangle setups through sleeve control and collar grip posture breaking"
     }
   ]
 }

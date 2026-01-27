@@ -10,8 +10,6 @@
     "wrestling",
     "positional-escape"
   ],
-  "starting_position": "Turtle",
-  "ending_position": "Back Control",
   "success_rates": {
     "beginner": 35,
     "intermediate": 50,
@@ -303,6 +301,24 @@
     {
       "name": "Seat Belt Control Back",
       "relationship": "Primary control establishment for back take"
+    }
+  ],
+  "from_position": "Turtle/Top",
+  "outcomes": [
+    {
+      "to": "Back Control/Top",
+      "probability": 65,
+      "result": "success"
+    },
+    {
+      "to": "Turtle/Top",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Turtle/Bottom",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

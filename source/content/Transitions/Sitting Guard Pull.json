@@ -10,8 +10,6 @@
     "guard-establishment",
     "open-guard"
   ],
-  "starting_position": "Standing Position",
-  "ending_position": "Seated Guard",
   "success_rates": {
     "beginner": 70,
     "intermediate": 85,
@@ -269,6 +267,24 @@
     {
       "name": "Guard Retention",
       "relationship": "Related principle - maintaining guard after the pull uses same concepts"
+    }
+  ],
+  "from_position": "Standing Position/Top",
+  "outcomes": [
+    {
+      "to": "Seated Guard/Bottom",
+      "probability": 75,
+      "result": "success"
+    },
+    {
+      "to": "Standing Position/Top",
+      "probability": 15,
+      "result": "failure"
+    },
+    {
+      "to": "Standing Position/Bottom",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

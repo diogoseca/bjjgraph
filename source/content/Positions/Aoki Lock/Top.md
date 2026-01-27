@@ -21,37 +21,37 @@ description: "Master Aoki Lock top position in BJJ. Advanced submission control 
     {
       "@type": "HowToStep",
       "name": "Execute Aoki Lock Finish",
-      "text": "From this position, execute Aoki Lock Finish to transition to Won by Submission. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Aoki Lock Finish. This technique is attempted in 16% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Back Control",
-      "text": "From this position, execute Transition to Back Control to transition to Back Control. Success rate for advanced practitioners: 85%.",
+      "name": "Execute Aoki Lock to Back Control",
+      "text": "From this position, attempt Aoki Lock to Back Control. This technique is attempted in 20% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Truck",
-      "text": "From this position, execute Transition to Truck to transition to Truck. Success rate for advanced practitioners: 80%.",
+      "name": "Execute Turtle to Truck",
+      "text": "From this position, attempt Turtle to Truck. This technique is attempted in 17% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Crucifix",
-      "text": "From this position, execute Transition to Crucifix to transition to Crucifix. Success rate for advanced practitioners: 70%.",
+      "name": "Execute Aoki Lock to Crucifix",
+      "text": "From this position, attempt Aoki Lock to Crucifix. This technique is attempted in 15% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kimura Switch",
-      "text": "From this position, execute Kimura Switch to transition to Kimura Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Kimura Switch. This technique is attempted in 14% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to North-South",
-      "text": "From this position, execute Transition to North-South to transition to North-South. Success rate for advanced practitioners: 85%.",
+      "name": "Execute Side Control to North-South",
+      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 18% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -214,76 +214,18 @@ The Aoki Lock top position is particularly effective in no-gi competition where 
 
 ## Available Attacks
 
-### [[Aoki Lock Finish]] → [[Won by Submission]]
+### [[Aoki Lock Finish]] (16% of attempts)
 
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 60%
-- Advanced: 75%
+### [[Aoki Lock to Back Control]] (20% of attempts)
 
-### [[Transition to Back Control]] → [[Back Control]]
+### [[Turtle to Truck]] (17% of attempts)
 
-**Success Rates:**
-- Beginner: 55%
-- Intermediate: 70%
-- Advanced: 85%
+### [[Aoki Lock to Crucifix]] (15% of attempts)
 
-### [[Transition to Truck]] → [[Truck]]
+### [[Kimura Switch]] (14% of attempts)
 
-**Success Rates:**
-- Beginner: 50%
-- Intermediate: 65%
-- Advanced: 80%
+### [[Side Control to North-South]] (18% of attempts)
 
-### [[Transition to Crucifix]] → [[Crucifix]]
-
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
-
-### [[Kimura Switch]] → [[Kimura Control]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-### [[Transition to North-South]] → [[North-South]]
-
-**Success Rates:**
-- Beginner: 60%
-- Intermediate: 75%
-- Advanced: 85%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Roll Through Escape]]** → [[Turtle]] (Opponent Success: 25%)
-- **[[Arm Extraction]]** → [[Open Guard]] (Opponent Success: 20%)
-- **[[Hip Escape to Guard]]** → [[Open Guard]] (Opponent Success: 15%)
-- **[[Scramble to Turtle]]** → [[Turtle]] (Opponent Success: 30%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Back Take from Roll Attempt]]** → [[Back Control]]
-  - Opponent attempts to roll forward through the position creating momentum you follow
-- **[[Truck Entry from Hip Movement]]** → [[Truck]]
-  - Opponent tries to turn away or create distance with hips opening truck entry
-- **[[Crucifix Capture]]** → [[Crucifix]]
-  - Opponent exposes far arm while defending shoulder lock
-- **[[Increased Shoulder Pressure]]** → [[Won by Submission]]
-  - Opponent stops moving and tightens defensive posture without escape attempt
 
 
 </section>
@@ -294,22 +236,22 @@ The Aoki Lock top position is particularly effective in no-gi competition where 
 
 **If opponent attempts to roll forward through the position:**
 - Execute **[[Follow to Back Control]]** → [[Back Control]] (Probability: 70%)
-- Execute **[[Maintain Aoki Lock]]** → [[Aoki Lock]] (Probability: 25%)
+- Execute **[[Maintain Aoki Lock]]** → [[Aoki Lock]] (Probability: 30%)
 
 
 **If opponent turns away or creates hip distance:**
 - Execute **[[Truck Entry]]** → [[Truck]] (Probability: 65%)
-- Execute **[[Follow to Back]]** → [[Back Control]] (Probability: 30%)
+- Execute **[[Follow to Back]]** → [[Back Control]] (Probability: 35%)
 
 
 **If opponent exposes far arm while defending:**
 - Execute **[[Crucifix Transition]]** → [[Crucifix]] (Probability: 60%)
-- Execute **[[Kimura Switch]]** → [[Kimura Control]] (Probability: 35%)
+- Execute **[[Kimura Switch]]** → [[Kimura Control]] (Probability: 40%)
 
 
 **If opponent's shoulder is fully controlled with no escape attempts:**
-- Execute **[[Finish Aoki Lock]]** → [[Won by Submission]] (Probability: 75%)
-- Execute **[[Transition to Back]]** → [[Back Control]] (Probability: 20%)
+- Execute **[[Finish Aoki Lock]]** → [[game-over]] (Probability: 75%)
+- Execute **[[Transition to Back]]** → [[Back Control]] (Probability: 25%)
 
 
 
@@ -395,33 +337,39 @@ With compliant partner practice applying Aoki Lock pressure using 3-5 second gra
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Direct finish from control
+## Test Your Knowledge
 
-`Aoki Lock Top → Aoki Lock Finish`
+**Q1**: Your opponent starts bridging explosively while you have Aoki Lock control - what adjustment prevents escape?
+**A**: Drive your hips forward and down into their shoulder while simultaneously tightening your leg triangle around their arm. Keep your posted leg close to their body to maintain base against the bridge. If they generate significant momentum, follow their movement and transition to back control rather than fighting the bridge directly.
 
-### Back control to finish path
+**Q2**: What are the essential control points for maintaining Aoki Lock top position?
+**A**: Three primary control points must be maintained simultaneously: leg entanglement around the opponent's arm and shoulder complex, hip pressure directed into the shoulder joint creating rotational stress, and hand control on opponent's hips or far-side limbs preventing rotation. The posted leg provides base stability. Losing any single control point significantly compromises position effectiveness.
 
-`Aoki Lock Top → Back Control → Rear Naked Choke`
+**Q3**: How do you shut down the opponent's primary escape when they try to roll forward through the position?
+**A**: Anticipate the roll by keeping your weight distribution forward through your hips rather than sitting back. As they initiate the roll, follow their momentum while maintaining leg entanglement - this often converts directly to back control. Do not fight the roll by pulling backward, as this creates space for arm extraction.
 
-### Truck system path
+**Q4**: What grip priorities should you establish when entering Aoki Lock top position?
+**A**: Primary grip is controlling opponent's far hip with your hands to prevent rotation and escape angles. Secondary priority is managing their free arm to prevent posting or defensive frames. Your legs provide the primary shoulder control through entanglement, so hand grips focus on hip and position management rather than the trapped arm itself.
 
-`Aoki Lock Top → Truck → Twister Finish`
+**Q5**: How do you apply progressive pressure for the submission without risking injury to your training partner?
+**A**: Apply shoulder pressure gradually over 3-5 seconds minimum using controlled hip drive rather than explosive movement. Maintain constant visual awareness of your partner's tap signals including verbal taps, hand taps on any surface, and body language indicating distress. Release immediately upon any tap signal. The goal is progressive, controlled pressure that allows time for tap recognition.
 
-### Crucifix control path
+**Q6**: Your opponent is defending well with their shoulder positioned to resist pressure - when should you transition rather than force the finish?
+**A**: Transition when you've applied two attempts at increasing pressure without submission progress, when opponent's defensive posture is strong and static, or when they create any opening for back control, truck, or crucifix. Forcing a defended shoulder lock wastes energy and creates stalemate. Recognizing transition opportunities converts positional control into advancement.
 
-`Aoki Lock Top → Crucifix → Choke from Crucifix`
+**Q7**: How do you manage energy expenditure when holding Aoki Lock top position?
+**A**: Use body weight through hips rather than muscular effort for shoulder pressure. Keep legs actively squeezing but avoid death-gripping with constant maximum tension. Post your free leg strongly but efficiently without over-extension. Let gravity and positioning do the work rather than fighting against opponent's defensive tension. The position should feel sustainable for 60-90 seconds.
 
-### North-South pressure path
-
-`Aoki Lock Top → North-South → North-South Choke`
+**Q8**: Your opponent partially extracts their arm but you still have leg contact - how do you recover full control?
+**A**: Immediately re-tighten your leg triangle before they complete extraction by driving your top leg down while pulling your bottom leg up. Simultaneously drive hip pressure forward to prevent further extraction. If extraction continues, abandon the shoulder lock and transition to back control or turtle attacks using your existing leg positioning as a starting point.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -447,9 +395,9 @@ With compliant partner practice applying Aoki Lock pressure using 3-5 second gra
 - **[[Back Control]]** - Transition target - superior control position
 - **[[Crucifix]]** - Transition target - alternative submission control
 - **[[Kimura Control]]** - Transition target - related shoulder lock control
-- **[[Omoplata]]** - Related submission - similar shoulder lock mechanics
-- **[[Kimura Trap System]]** - Related system - shoulder lock control methodology
-- **[[Submission Control Position]]** - Concept - submission position fundamentals
+- **[[Omoplata Control]]** - Related position - similar shoulder lock mechanics
+- **[[Kimura Trap]]** - Related system - shoulder lock control methodology
+- **[[Front Headlock]]** - Common entry position for Aoki Lock attacks
 
 
 </section>

@@ -21,37 +21,37 @@ description: "Master defensive strategies from Crucifix Bottom in BJJ. Complete 
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Guard Recovery",
-      "text": "From this position, execute Hip Escape to Guard Recovery to transition to Closed Guard. Success rate for advanced practitioners: 40%.",
+      "text": "From this position, attempt Hip Escape to Guard Recovery. This technique is attempted in 17% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm Extraction",
-      "text": "From this position, execute Arm Extraction to transition to Turtle. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Arm Extraction. This technique is attempted in 21% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Rolling Back Take",
-      "text": "From this position, execute Rolling Back Take to transition to Back Control. Success rate for advanced practitioners: 35%.",
+      "name": "Execute Back Take from Bottom",
+      "text": "From this position, attempt Back Take from Bottom. This technique is attempted in 15% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Elbow Escape",
-      "text": "From this position, execute Elbow Escape to transition to Side Control. Success rate for advanced practitioners: 38%.",
+      "text": "From this position, attempt Elbow Escape. This technique is attempted in 16% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape",
-      "text": "From this position, execute Hip Escape to transition to Half Guard. Success rate for advanced practitioners: 45%.",
+      "text": "From this position, attempt Hip Escape. This technique is attempted in 19% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Technical Standup",
-      "text": "From this position, execute Technical Standup to transition to Standing Position. Success rate for advanced practitioners: 28%.",
+      "text": "From this position, attempt Technical Standup. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -162,7 +162,7 @@ description: "Master defensive strategies from Crucifix Bottom in BJJ. Complete 
 
 Crucifix Bottom Position represents one of the most disadvantaged and vulnerable defensive positions in Brazilian Jiu-Jitsu, where the practitioner finds themselves trapped with both arms controlled—one arm typically trapped behind the opponent's leg while the other is controlled by the opponent's grip or trapped under their own body. This asymmetric arm control severely limits defensive options and exposes the neck to multiple choke attacks, particularly the rear naked choke and various arm-in chokes.
 
-From a positional hierarchy standpoint, Crucifix Bottom sits near the absolute bottom of defensive positions, comparable only to fully mounted back control with both hooks. The fundamental challenge lies in the complete elimination of frames and the inability to create defensive barriers with the arms. Unlike standard back control where both arms remain somewhat mobile, the crucifix's defining characteristic is the systematic removal of arm functionality, creating what systematic describes as a structural collapse of defensive architecture.
+From a positional hierarchy standpoint, Crucifix Bottom sits near the absolute bottom of defensive positions, comparable only to fully mounted back control with both hooks. The fundamental challenge lies in the complete elimination of frames and the inability to create defensive barriers with the arms. Unlike standard back control where both arms remain somewhat mobile, the crucifix's defining characteristic is the systematic removal of arm functionality, creating what can be described as a structural collapse of defensive architecture.
 
 Survival from this position requires immediate recognition, calm systematic defense, and precise technical execution under extreme pressure. The window for escape narrows rapidly as the top player consolidates control and advances toward submissions. Understanding the hierarchy of threats, maintaining defensive posture of the neck and remaining free arm, and executing precise escape sequences represent the core competencies required for position recovery. Competition statistics show that practitioners who recognize crucifix entry early and act decisively have significantly higher escape rates than those who allow full consolidation of the position.
 
@@ -213,77 +213,18 @@ Survival from this position requires immediate recognition, calm systematic defe
 
 ## Available Escapes
 
-### [[Hip Escape to Guard Recovery]] → [[Closed Guard]]
+### [[Hip Escape to Guard Recovery]] (17% of attempts)
 
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 25%
-- Advanced: 40%
+### [[Arm Extraction]] (21% of attempts)
 
-### [[Arm Extraction]] → [[Turtle]]
+### [[Back Take from Bottom]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
+### [[Elbow Escape]] (16% of attempts)
 
-### [[Rolling Back Take]] → [[Back Control]]
+### [[Hip Escape]] (19% of attempts)
 
-**Success Rates:**
-- Beginner: 10%
-- Intermediate: 20%
-- Advanced: 35%
+### [[Technical Standup]] (12% of attempts)
 
-### [[Elbow Escape]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 12%
-- Intermediate: 22%
-- Advanced: 38%
-
-### [[Hip Escape]] → [[Half Guard]]
-
-**Success Rates:**
-- Beginner: 18%
-- Intermediate: 30%
-- Advanced: 45%
-
-### [[Technical Standup]] → [[Standing Position]]
-
-**Success Rates:**
-- Beginner: 8%
-- Intermediate: 15%
-- Advanced: 28%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Back Control to Crucifix]]** → [[Back Control]] (Opponent Success: 85%)
-- **[[Mounted Crucifix Consolidation]]** → [[Mounted Crucifix]] (Opponent Success: 70%)
-- **[[Rear Naked Choke]]** → [[Won by Submission]] (Opponent Success: 75%)
-- **[[Armbar from Crucifix]]** → [[Won by Submission]] (Opponent Success: 60%)
-- **[[Choke from Crucifix]]** → [[Won by Submission]] (Opponent Success: 70%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Frame Creation Against Choke]]** → [[Back Control]]
-  - Opponent attempts rear naked choke with choking arm
-- **[[Hip Shift to Create Space]]** → [[Turtle]]
-  - Opponent adjusts position for better control
-- **[[Arm Retrieval via Hip Movement]]** → [[Back Control]]
-  - Opponent focuses on securing second arm or submission
-- **[[Roll Under to Reverse Position]]** → [[Scramble Position]]
-  - Opponent overcommits weight forward for submission attempt
 
 
 </section>
@@ -295,7 +236,7 @@ Survival from this position requires immediate recognition, calm systematic defe
 **If opponent secures deep rear naked choke grip with choking arm under chin:**
 - Execute **[[Two-on-one hand defense]]** → [[Back Control]] (Probability: 40%)
 - Execute **[[Chin tuck and shoulder raise]]** → [[Back Control]] (Probability: 50%)
-- Execute **[[Tap Out]]** → [[Lost by Submission]] (Probability: 10%)
+- Execute **[[Tap Out]]** → [[game-over]] (Probability: 10%)
 
 
 **If trapped arm begins to free from leg trap with space creation:**
@@ -306,14 +247,14 @@ Survival from this position requires immediate recognition, calm systematic defe
 
 **If opponent transitions to mounted crucifix or adjusts position:**
 - Execute **[[Bridge and hip escape immediately]]** → [[Turtle]] (Probability: 45%)
-- Execute **[[Scramble to Defensive Position]]** → [[Defensive Position]] (Probability: 35%)
+- Execute **[[Elbow Escape]]** → [[Half Guard]] (Probability: 35%)
 - Execute **[[Accept consolidated position]]** → [[Mounted Crucifix]] (Probability: 20%)
 
 
 **If free arm remains mobile and opponent has not secured submission:**
 - Execute **[[Use free arm to push opponent's leg and create space]]** → [[Back Control]] (Probability: 50%)
 - Execute **[[Hip shift and elbow escape]]** → [[Side Control]] (Probability: 35%)
-- Execute **[[Technical Standup attempt]]** → [[Standing Position]] (Probability: 15%)
+- Execute **[[Technical Standup]]** → [[Clinch]] (Probability: 15%)
 
 
 
@@ -394,29 +335,39 @@ From established crucifix, bottom player works specific pathway to turtle positi
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Shortest defensive path to neutral
+## Test Your Knowledge
 
-`Crucifix Bottom → Arm Extraction → Turtle → Guard Recovery`
+**Q1**: What is the single most important priority when you recognize you're being put into crucifix?
+**A**: Protecting the neck is the absolute priority. Before any escape attempt, establish chin tuck, shoulder raise, and use any available hand to create barriers against choke attacks. The hierarchy of threats in crucifix puts neck attacks at the top—you can survive position and attempt escapes, but a locked choke ends the match. Only after securing neck defense should you begin working on arm extraction and position recovery.
 
-### High-percentage escape to standing
+**Q2**: Your opponent has your near arm trapped in their leg triangle—what is the correct method to free it?
+**A**: Do not pull explosively against the leg trap, as this wastes energy and typically tightens the position. Instead, use subtle hip movement and angle changes to create space around the trapped arm. Shrimp your hips to change the angle of the leg trap, making extraction easier. Work incrementally—small movements that don't telegraph your intention are more effective than large explosive attempts that alert the opponent to counter.
 
-`Crucifix Bottom → Hip Escape → Half Guard → Technical Standup → Standing Position`
+**Q3**: How do you maintain effective defensive positioning of your free arm in crucifix?
+**A**: The free arm must remain active and defensive at all times. Primary uses: defend the neck by keeping the hand at the collar or chin level, create frames against opponent's head or shoulder to prevent them from advancing, and work to push against opponent's leg triangle to create space for the trapped arm. Never allow the free arm to be captured—if both arms are controlled, the position becomes virtually inescapable and submission is inevitable.
 
-### Conservative safety-first recovery
+**Q4**: Why is energy management critical from crucifix bottom, and how do you conserve energy?
+**A**: Crucifix bottom has a short time sustainability—you cannot outlast the opponent by simply defending. However, explosive movements often tighten the position and exhaust you faster. Conserve energy by breathing calmly (avoiding panic hyperventilation), using micro-adjustments rather than large movements, and working incrementally. Accept that escape takes time and systematic effort. Explosive energy expenditure should be reserved for the final moment of escape execution, not wasted on preliminary movements.
 
-`Crucifix Bottom → Neck Defense → Back Control → Turtle → Closed Guard`
+**Q5**: What escape pathway should you prioritize: freeing the trapped arm or recovering guard position?
+**A**: Address the hierarchy of threats in order: (1) defend immediate submission threats, especially chokes, (2) free the trapped arm, (3) recover position. Freeing the trapped arm is prerequisite to meaningful guard recovery because you cannot create effective frames or escape structures with only one arm. However, if a choke is being applied, defending the choke takes priority over arm extraction. The free arm's primary job shifts between neck defense and working to free the trapped arm based on opponent's attacks.
 
-### Aggressive scramble recovery
+**Q6**: Your opponent begins applying a rear naked choke while you're in crucifix—what is your immediate response?
+**A**: Immediately use your free hand to establish two-on-one defense against the choking arm, pulling it away from your neck. Simultaneously tuck your chin hard and raise your shoulder on the choking side to create barriers. If the choke is shallow, you may be able to strip the grip. If deep, fight the hands while beginning to turn toward the choking arm—this takes pressure off the neck and may create escape angles. Do not abandon choke defense to work escapes—survive first.
 
-`Crucifix Bottom → Bridge and Roll → Scramble Position → Guard Recovery`
+**Q7**: When is the optimal window to attempt escape from crucifix bottom?
+**A**: The optimal escape windows occur when the opponent is in transition—either entering the crucifix (before full consolidation), adjusting their position for better control, or committing to a submission attempt. During adjustments and submissions, the opponent's weight and attention shift, creating momentary gaps in their control. Recognize these windows and execute escape movements with proper timing. The worst time to escape is when the opponent has settled into stable control with no movement.
+
+**Q8**: If you partially free your trapped arm but the opponent recaptures it, what adjustment should you make?
+**A**: If the arm was partially freed but recaptured, the opponent likely closed the gap you created. On the next attempt, combine arm extraction with immediate position recovery—don't just free the arm and wait. As the arm begins to clear, immediately shrimp your hips and work to insert your knee or turn to turtle. The arm extraction and position change must happen together, or the opponent will simply re-establish the trap. Also consider that their leg position may have weakened—look for better extraction angles.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -444,8 +395,8 @@ From established crucifix, bottom player works specific pathway to turtle positi
 - **[[Mounted Crucifix]]** - Worse variation if opponent transitions to mount
 - **[[Closed Guard]]** - Ideal escape destination—return to guard game
 - **[[Hip Escape]]** - Primary escape mechanism from crucifix
-- **[[Submission Defense]]** - Essential concept for surviving this position
-- **[[Back Escape Series]]** - Broader defensive system containing crucifix escapes
+- **[[Elbow Escape]]** - Alternative escape when hip escape is blocked
+- **[[Back Escape]]** - Broader defensive system containing crucifix escapes
 
 
 </section>

@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Rolling Guard Pull | BJJ Technique | BJJ Graph"
 description: "Master the Rolling Guard Pull in BJJ. Dynamic entry to multiple guard positions with momentum-based execution. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%."
@@ -16,7 +17,7 @@ description: "Master the Rolling Guard Pull in BJJ. Dynamic entry to multiple gu
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Rolling Guard Pull in BJJ",
-  "description": "Step-by-step guide for Rolling Guard Pull from Standing Position to Closed Guard.",
+  "description": "Step-by-step guide for Rolling Guard Pull from Standing Position/Top. Possible outcomes: Closed Guard/Bottom (65%), Standing Position/Top (25%), Standing Position/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -164,11 +165,25 @@ The rolling guard pull works by combining forward momentum with a controlled bac
 
 Mastery of the rolling guard pull requires excellent body awareness, timing, and the ability to read opponent reactions. When executed properly, it creates immediate offensive opportunities and bypasses traditional guard passing attempts. The technique is commonly seen in sport jiu-jitsu and has become a staple among modern guard players who emphasize dynamic entries and constant movement.
 
-**Starting Position**: [[Standing Position]]
-**Ending Position**: [[Closed Guard]]
+**From Position**: [[Standing Position/Top]]
 **Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Closed Guard/Bottom]] | 65% |
+| Failure | [[Standing Position/Top]] | 25% |
+| Counter | [[Standing Position/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

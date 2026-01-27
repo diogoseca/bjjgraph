@@ -93,32 +93,24 @@ Overhook Guard represents a fundamental control concept that appears throughout 
 - Transition fluidly between sweep attempts and submission threats to create dilemmas for opponent
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Overhook Sweep]]** → [[Mount Top]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 65%
+- **[[Overhook Sweep]]** (13% of attempts)
 
-- **[[Hip Bump Sweep]]** → [[Mount Top]]
-  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 70%
+- **[[Hip Bump Sweep]]** (15% of attempts)
 
-- **[[Omoplata to Sweep]]** → [[Mount Top]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Omoplata from Guard]]** (12% of attempts)
 
-- **[[Rolling Back Take]]** → [[Back Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Arm Drag to Back]]** (11% of attempts)
 
-- **[[Triangle Setup]]** → [[Triangle Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Triangle Setup]]** (13% of attempts)
 
-- **[[Kimura from Guard]]** → [[Kimura Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Kimura from Guard]]** (12% of attempts)
 
-- **[[Omoplata from Guard]]** → [[Omoplata Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Omoplata from Guard]]** (11% of attempts)
 
-- **[[Armbar from Guard]]** → [[Armbar Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Armbar from Guard]]** (13% of attempts)
 
 
 ### Common Mistakes
@@ -176,26 +168,20 @@ Overhook Guard represents a fundamental control concept that appears throughout 
 - Maintain base with legs wide enough to prevent sweeps but mobile enough to advance passing sequences
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Smash Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 75%
+- **[[Smash Pass]]** (19% of attempts)
 
-- **[[Knee Slice Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 70%
+- **[[Knee Slice Pass]]** (18% of attempts)
 
-- **[[Over-Under Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 68%
+- **[[Over-Under Pass]]** (17% of attempts)
 
-- **[[Kimura from Guard]]** → [[Kimura Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Kimura from Guard]]** (17% of attempts)
 
-- **[[Arm Drag to Back]]** → [[Back Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Arm Drag to Back]]** (15% of attempts)
 
-- **[[Transition to Mount]]** → [[Mount Top]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Side Control to Mount]]** (14% of attempts)
 
 
 ### Common Mistakes
@@ -244,7 +230,7 @@ Overhook Guard represents a fundamental control concept that appears throughout 
 
 - **[[Butterfly Guard]]** - Position where overhook amplifies hook sweep effectiveness
 
-- **[[Kimura Control]]** - Natural progression from overhook when opponent turns away
+- **[[Kimura Trap]]** - Natural progression from overhook when opponent turns away
 
 - **[[Triangle Control]]** - Common submission setup when opponent attempts to escape overhook
 
@@ -256,7 +242,7 @@ Overhook Guard represents a fundamental control concept that appears throughout 
 
 - **[[Rubber Guard]]** - Advanced guard system that utilizes overhook principles with leg control
 
-- **[[Underhook Control]]** - Complementary control concept with opposite arm positioning mechanics
+- **[[Overhook Control]]** - Complementary control concept with similar arm positioning mechanics
 
 
 </section>

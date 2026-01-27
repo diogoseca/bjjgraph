@@ -93,26 +93,18 @@ Technical Mount is most commonly entered from regular mount during armbar attemp
 - Generate explosive bridging movements coordinated with arm protection to create brief windows for hip escape during opponent's weight shifts
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Elbow Escape]]** → [[Half Guard]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+- **[[Elbow Escape]]** (28% of attempts)
 
-- **[[Upa Escape]]** → [[Closed Guard]]
-  - Success Rate: Beginner 10%, Intermediate 20%, Advanced 35%
+- **[[Upa Escape]]** (20% of attempts)
 
-- **[[Shrimp Escape]]** → [[Open Guard]]
-  - Success Rate: Beginner 12%, Intermediate 25%, Advanced 40%
+- **[[Hip Escape]]** (22% of attempts)
 
-- **[[Technical Stand-up]]** → [[Standing Position]]
-  - Success Rate: Beginner 8%, Intermediate 15%, Advanced 25%
+- **[[Frame and Shrimp]]** (20% of attempts)
 
-- **[[Frame and Shrimp]]** → [[Turtle]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
-
-- **[[Bridge and Roll]]** → [[Mount]]
-  - Success Rate: Beginner 5%, Intermediate 12%, Advanced 22%
+- **[[Bridge and Roll]]** (10% of attempts)
 
 
 ### Common Mistakes
@@ -166,29 +158,20 @@ Technical Mount is most commonly entered from regular mount during armbar attemp
 - Quick Execution: Minimize time in position to prevent defensive recovery—commit to finish immediately upon entry
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Mount to Armbar]]** → [[Armbar Control]]
-  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+- **[[Mount to Armbar]]** (25% of attempts)
 
-- **[[Back Take Generic]]** → [[Back Control]]
-  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 80%
+- **[[Back Take Generic]]** (22% of attempts)
 
-- **[[Transition to Mount]]** → [[Mount]]
-  - Success Rate: Beginner 60%, Intermediate 75%, Advanced 85%
+- **[[Side Control to Mount]]** (15% of attempts)
 
-- **[[Arm Triangle from Turtle]]** → [[Side Control]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Triangle Setup]]** (15% of attempts)
 
-- **[[Triangle Setup]]** → [[Mounted Triangle]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Gift Wrap Control]]** (13% of attempts)
 
-- **[[Gift Wrap Control]]** → [[Gift Wrap]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
-
-- **[[S-Mount Transition]]** → [[S Mount]]
-  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+- **[[High Mount Transition]]** (10% of attempts)
 
 
 ### Common Mistakes

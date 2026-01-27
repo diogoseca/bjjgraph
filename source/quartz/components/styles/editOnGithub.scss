@@ -1,27 +1,31 @@
-.edit-on-github {
+.github-actions {
   position: fixed;
   bottom: 20px;
   right: 20px;
   display: flex;
+  gap: 8px;
+  z-index: 100;
+
+  @media (max-width: 600px) {
+    bottom: 16px;
+    right: 16px;
+  }
+}
+
+a.github-action {
+  display: flex;
   align-items: center;
   gap: 6px;
   padding: 8px 12px;
-  background-color: var(--lightgray);
-  color: var(--darkgray);
+  background-color: var(--light);
+  color: var(--dark) !important;
   text-decoration: none;
   border-radius: 6px;
   font-size: 0.85rem;
   font-weight: 500;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  transition: all 0.2s ease;
-  z-index: 100;
-
-  &:hover {
-    background-color: var(--secondary);
-    color: var(--light);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-    transform: translateY(-2px);
-  }
+  border: 1px solid var(--lightgray);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+  transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease;
 
   svg {
     flex-shrink: 0;
@@ -42,9 +46,15 @@
       display: inline;
     }
   }
+}
 
-  @media (max-width: 600px) {
-    bottom: 16px;
-    right: 16px;
-  }
+a.github-action.edit-page:hover {
+  border-color: var(--secondary);
+  color: var(--secondary) !important;
+}
+
+a.github-action.bug-report:hover {
+  background-color: #ea580c;
+  border-color: #ea580c;
+  color: #fff !important;
 }

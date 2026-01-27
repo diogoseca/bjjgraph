@@ -97,26 +97,18 @@ Historically, S Mount has been a fundamental component of Japanese judo groundwo
 - If arm is fully extended and opponent has proper control, tap immediately - injury prevention is paramount
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Elbow Escape]]** → [[Half Guard]]
-  - Success Rate: Beginner 15%, Intermediate 25%, Advanced 35%
+- **[[Elbow Escape]]** (30% of attempts)
 
-- **[[Hip Escape]]** → [[Closed Guard]]
-  - Success Rate: Beginner 10%, Intermediate 20%, Advanced 30%
+- **[[Hip Escape]]** (30% of attempts)
 
-- **[[Bridge and Roll]]** → [[Mount]]
-  - Success Rate: Beginner 5%, Intermediate 10%, Advanced 15%
+- **[[Bridge and Roll]]** (15% of attempts)
 
-- **[[Technical Standup]]** → [[Standing Position]]
-  - Success Rate: Beginner 5%, Intermediate 10%, Advanced 20%
+- **[[Technical Standup]]** (10% of attempts)
 
-- **[[Leg Control to Sweep]]** → [[Mount]]
-  - Success Rate: Beginner 8%, Intermediate 15%, Advanced 25%
-
-- **[[Frame and Shrimp]]** → [[Open Guard]]
-  - Success Rate: Beginner 12%, Intermediate 22%, Advanced 32%
+- **[[Frame and Shrimp]]** (15% of attempts)
 
 
 ### Common Mistakes
@@ -174,32 +166,20 @@ Historically, S Mount has been a fundamental component of Japanese judo groundwo
 - If opponent successfully defends armbar, transition back to mount rather than forcing low-percentage finish
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Armbar from Mount]]** → [[Armbar Control]]
-  - Success Rate: Beginner 60%, Intermediate 75%, Advanced 85%
+- **[[Armbar from Mount]]** (35% of attempts)
 
-- **[[Triangle from Mount]]** → [[Mounted Triangle]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Triangle from Mount]]** (20% of attempts)
 
-- **[[Americana from Mount]]** → [[Americana Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 55%
+- **[[Americana from Mount]]** (10% of attempts)
 
-- **[[Kimura from Mount]]** → [[Kimura Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 50%
+- **[[Kimura from Mount]]** (10% of attempts)
 
-- **[[Transition to Back Control]]** → [[Back Control]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Back Take]]** (15% of attempts)
 
-- **[[Transition to Mount]]** → [[Mount]]
-  - Success Rate: Beginner 70%, Intermediate 80%, Advanced 90%
-
-- **[[Mounted Crucifix Entry]]** → [[Mounted Crucifix]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
-
-- **[[Gift Wrap to Back]]** → [[Gift Wrap]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Mounted Crucifix Entry]]** (10% of attempts)
 
 
 ### Common Mistakes

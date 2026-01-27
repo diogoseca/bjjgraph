@@ -266,6 +266,31 @@
       "question": "Why must pressure be applied progressively over 3-5 seconds in training rather than explosively?",
       "answer": "Progressive pressure application gives your training partner time to recognize the danger, assess escape options, and tap safely before losing consciousness. Explosive application can cause unconsciousness before partner realizes they need to tap, creating serious injury risk. Blood chokes work quickly - even slow pressure can render someone unconscious in 5-8 seconds once properly applied. Training safety requires giving partners adequate warning and tap time, while competition allows faster application for tactical advantage.",
       "safety_critical": true
+    },
+    {
+      "question": "What anatomical structures are being compressed to achieve the tap in this submission chain?",
+      "answer": "The primary targets are the carotid arteries on both sides of the neck. Your bicep compresses one carotid while the opponent's own shoulder (trapped by your arm configuration) compresses the opposite carotid. This bilateral arterial compression rapidly reduces blood flow to the brain, causing unconsciousness within 5-10 seconds of proper application. The jugular veins may also be compressed, contributing to the blood choke effect. Improper technique may instead compress the trachea (windpipe), which is less effective and more dangerous.",
+      "safety_critical": true
+    },
+    {
+      "question": "Your opponent begins posturing up strongly during your D'arce attempt - what finishing adjustment maximizes pressure?",
+      "answer": "When opponent postures up, use your chest weight to drive them back down while simultaneously tightening your grip. The rolling finish becomes essential here - sprawl your hips back and initiate the roll to their far side. As you roll, their own posturing creates additional neck extension that increases the choke's effectiveness. Keep your shoulder driving into the side of their neck throughout. If they continue resisting, consider transitioning to Anaconda if their arm position changes during the posturing attempt.",
+      "safety_critical": false
+    },
+    {
+      "question": "What grip configuration provides the strongest finishing mechanics for this submission chain?",
+      "answer": "The gable grip (palm-to-palm) provides the strongest connection for finishing these chokes because it allows maximum elbow compression without slipping. Your choking arm forearm blade should bisect the opponent's neck diagonally while your other hand grabs your own wrist or palm. Pull your elbows tightly together while expanding your chest outward. The figure-four grip (grabbing your bicep) works but may slip under sweat conditions. Avoid interlocking fingers as this reduces compression power and risks finger injuries.",
+      "safety_critical": false
+    },
+    {
+      "question": "How do you identify the point of no escape when finishing these chokes?",
+      "answer": "The point of no escape occurs when your grip is locked, shoulder-to-neck connection is established, far arm is controlled, and you have initiated the roll to the finishing position. At this point, even explosive defensive reactions cannot create enough space to escape. Signs include: opponent's breathing becomes labored or stops, their defensive movements become weaker or more frantic, their body begins to relax involuntarily, or their face shows signs of blood pooling (redness). In training, you should release BEFORE this point to allow safe tapping.",
+      "safety_critical": true
+    },
+    {
+      "question": "What common finishing error allows opponents to survive longer and potentially escape?",
+      "answer": "The most common finishing error is using the flat of the forearm against the neck rather than the blade edge. This creates diffuse pressure across a wider area, including the trachea, resulting in an air choke rather than blood choke. Air chokes take much longer to finish (30+ seconds versus 5-10 seconds for blood chokes) and give opponents significantly more time to escape or defend. The correction is rotating your wrist to ensure the radius bone edge contacts the neck at a sharp diagonal angle, concentrating pressure on the carotid arteries.",
+      "safety_critical": false
     }
   ],
   "training_progressions_and_safety_protocols": [
@@ -319,7 +344,6 @@
     "North-South",
     "Half Guard",
     "Scramble Position",
-    "Standing Rear Clinch",
     "Body Lock",
     "Guillotine Control",
     "Overhook Control"
@@ -329,13 +353,7 @@
     "Darce Choke",
     "Guillotine Choke",
     "Arm Triangle",
-    "Japanese Necktie",
-    "Peruvian Necktie",
-    "Marce Choke",
-    "North-South Choke",
-    "Rear Naked Choke",
     "Brabo Choke",
-    "High Elbow Guillotine",
     "Arm in Guillotine",
     "Anaconda Variations",
     "Darce Variations",
@@ -359,10 +377,6 @@
       "relationship": "Common positional entry for the connection"
     },
     {
-      "name": "Darce from Turtle",
-      "relationship": "Common positional entry for the connection"
-    },
-    {
       "name": "Snap Down to Front Headlock",
       "relationship": "Standing entry to achieve position for connection"
     },
@@ -371,16 +385,20 @@
       "relationship": "Alternative submission from same control position"
     },
     {
-      "name": "Connection Principles",
-      "relationship": "Fundamental principle underlying smooth transitions"
-    },
-    {
-      "name": "Submission Chains",
-      "relationship": "Conceptual framework for linking related attacks"
-    },
-    {
       "name": "Anaconda Control",
       "relationship": "Control position leading to submission finish"
+    },
+    {
+      "name": "D'arce Control",
+      "relationship": "Control position for D'arce portion of chain"
+    },
+    {
+      "name": "Front Headlock",
+      "relationship": "Primary starting position for this submission chain"
+    },
+    {
+      "name": "Turtle",
+      "relationship": "Common attacking position for the connection"
     }
   ]
 }

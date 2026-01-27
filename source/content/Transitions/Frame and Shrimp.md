@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Frame and Shrimp | BJJ Technique | BJJ Graph"
 description: "Learn Frame and Shrimp escape in BJJ. Step-by-step execution from bottom pins to guard recovery. Success rates: Beginner 45%, Intermediate 65%, Advanced 80%."
@@ -16,7 +17,7 @@ description: "Learn Frame and Shrimp escape in BJJ. Step-by-step execution from 
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Frame and Shrimp in BJJ",
-  "description": "Step-by-step guide for Frame and Shrimp from Side Control to Open Guard.",
+  "description": "Step-by-step guide for Frame and Shrimp from Side Control/Top. Possible outcomes: Open Guard/Bottom (75%), Side Control/Top (15%), Side Control/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -158,11 +159,25 @@ This technique is essential for all practitioners as it forms the foundation of 
 
 Mastery of the frame and shrimp fundamentally changes a practitioner's ability to survive and escape from bad positions. It teaches critical lessons about creating and managing space, understanding control points, and using angles rather than strength. This technique serves as the gateway to more advanced escapes and represents a key distinction between beginners who panic under pressure and experienced practitioners who remain calm and systematically work their way back to guard.
 
-**Starting Position**: [[Side Control]]
-**Ending Position**: [[Open Guard]]
+**From Position**: [[Side Control/Top]]
 **Success Rates**: Beginner 45%, Intermediate 65%, Advanced 80%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Open Guard/Bottom]] | 75% |
+| Failure | [[Side Control/Top]] | 15% |
+| Counter | [[Side Control/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

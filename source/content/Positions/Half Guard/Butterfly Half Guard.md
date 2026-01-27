@@ -95,38 +95,28 @@ Both bottom and top perspectives of butterfly half guard require distinct strate
 - Generate elevation through coordinated leg drive and upper body pull, using hip movement to create angles for sweeps rather than relying on pure strength
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[100% Sweep]]** → [[Mount]]
-  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+- **[[100% Sweep]]** (11% of attempts)
 
-- **[[Old School Sweep]]** → [[Side Control]]
-  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 80%
+- **[[Old School Sweep]]** (13% of attempts)
 
-- **[[Butterfly Sweep]]** → [[Mount]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Butterfly Sweep]]** (10% of attempts)
 
-- **[[Deep Half Entry]]** → [[Deep Half Guard]]
-  - Success Rate: Beginner 55%, Intermediate 70%, Advanced 85%
+- **[[Deep Half Entry]]** (12% of attempts)
 
-- **[[Waiter Sweep]]** → [[Side Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Waiter Sweep]]** (9% of attempts)
 
-- **[[Underhook Sweep from Half]]** → [[Dogfight Position]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Underhook Sweep from Half]]** (10% of attempts)
 
-- **[[Knee Tap]]** → [[Standing Position]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Knee Tap]]** (9% of attempts)
 
-- **[[Half Guard to Back Take]]** → [[Back Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Half Guard to Back Take]]** (9% of attempts)
 
-- **[[Butterfly Guard to X-Guard]]** → [[X-Guard]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Butterfly Guard to X-Guard]]** (8% of attempts)
 
-- **[[Lockdown Sweeps]]** → [[Lockdown]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Lockdown Sweeps]]** (9% of attempts)
 
 
 ### Common Mistakes
@@ -188,26 +178,20 @@ Both bottom and top perspectives of butterfly half guard require distinct strate
 - Never allow opponent to achieve full seated posture with established grips and active butterfly hook simultaneously
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Half Guard Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Half Guard Pass]]** (17% of attempts)
 
-- **[[Knee Slice Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Knee Slice Pass]]** (16% of attempts)
 
-- **[[Smash Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Smash Pass]]** (19% of attempts)
 
-- **[[Underhook Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Underhook Pass]]** (17% of attempts)
 
-- **[[Long Step Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Long Step Pass]]** (16% of attempts)
 
-- **[[Pressure Pass]]** → [[Headquarters Position]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Pressure Pass]]** (15% of attempts)
 
 
 ### Common Mistakes
@@ -260,7 +244,7 @@ Both bottom and top perspectives of butterfly half guard require distinct strate
 
 - **[[Dogfight Position]]** - Transitional scramble position during sweep execution
 
-- **[[Underhook Control]]** - Essential upper body control mechanism for maintaining offensive advantage
+- **[[Overhook Control]]** - Essential upper body control mechanism for maintaining offensive advantage
 
 
 </section>

@@ -243,8 +243,13 @@
       "safety_critical": false
     },
     {
-      "question": "What are the three most critical ligaments at risk when a kneebar is applied, and what are the typical recovery times if they are torn?",
-      "answer": "The three most critical ligaments at risk are: (1) MCL (Medial Collateral Ligament) and LCL (Lateral Collateral Ligament) which provide side-to-side stability, recovery 6-12 months with surgery; (2) ACL (Anterior Cruciate Ligament) and PCL (Posterior Cruciate Ligament) which prevent front-to-back movement, recovery 9-12 months with reconstructive surgery; (3) The meniscus (while not a ligament, it's commonly damaged), recovery 3-6 months. These injuries are severe and career-impacting, which is why controlled application and immediate release upon tap are non-negotiable.",
+      "question": "What anatomical structures are targeted by the kneebar and what type of damage occurs when the submission is completed?",
+      "answer": "The kneebar targets the knee joint through hyperextension, primarily stressing the posterior structures. The ACL (anterior cruciate ligament) and PCL (posterior cruciate ligament) resist this hyperextension and are at greatest risk of rupture. The MCL and LCL (medial and lateral collateral ligaments) provide secondary stability and can tear under rotational stress. The meniscus can also be damaged. When the submission is fully applied, the knee is forced to bend backward beyond its natural range, causing ligament tearing, cartilage damage, or complete joint destruction.",
+      "safety_critical": true
+    },
+    {
+      "question": "What physical sensation indicates you have reached the point of no escape for your opponent?",
+      "answer": "The point of no escape occurs when you feel your opponent's leg become completely rigid against your hip as your extension begins. At this moment, their thigh is pinned by your leg entanglement, their foot is locked in your armpit preventing rotation, and your hip is positioned across their knee joint. Any additional hip extension will immediately hyperextend the joint. Experienced practitioners recognize this feeling—once you achieve this locked configuration, the opponent must tap or suffer injury. In training, this is when you pause and check for the tap rather than completing the extension.",
       "safety_critical": true
     },
     {
@@ -253,9 +258,19 @@
       "safety_critical": false
     },
     {
+      "question": "Your opponent starts to posture up and sit toward you during your kneebar attempt - what adjustment prevents this escape?",
+      "answer": "Immediately use your grip hand (not controlling the foot) to push down on their hip, belt, or far leg to drive them back flat. If they are already partially upright, you can also drive your top leg (the one over their thigh) downward forcefully while simultaneously pulling their foot deeper into your armpit. This creates a leverage point that forces them back down. If they fully establish seated posture facing you, the kneebar is likely lost—transition immediately to a heel hook (if legal) by rotating their exposed heel toward you, or reset the position entirely.",
+      "safety_critical": false
+    },
+    {
       "question": "What is the primary defensive danger you face when attempting a kneebar from 50-50, and how should you address it?",
       "answer": "The primary danger is opponent counter-attacking your exposed leg with their own kneebar or heel hook (in rule sets where heel hooks are legal). The 50-50 position is symmetrical—both legs are entangled and potentially vulnerable. To address this: (1) Keep your heel hidden by turning it away from opponent; (2) Monitor their hand position on your foot constantly; (3) Establish your controls faster than they establish theirs; (4) If they gain control on your foot, immediately decide whether to finish quickly (competition) or release and defend (training). Never become so focused on your attack that you ignore counter-attacks to your own leg.",
       "safety_critical": true
+    },
+    {
+      "question": "How do you adjust your grip on the opponent's foot when they begin rotating their knee inward to relieve pressure?",
+      "answer": "When opponent rotates their knee inward, immediately clamp your elbow tighter against your ribs and pull their foot deeper into your armpit. Simultaneously, rotate your entire body slightly to follow their knee rotation—your hip must stay across their knee joint line regardless of which direction they turn. If their inward rotation continues, this actually exposes their heel for a heel hook transition. Convert your armpit grip to a heel hook grip by releasing the foot, shooting your hand behind their Achilles, and establishing figure-four control. Their defensive movement becomes your offensive opportunity.",
+      "safety_critical": false
     },
     {
       "question": "What should you do in training if you have applied proper kneebar technique with correct hip position and foot control for 5 seconds and opponent has not tapped?",
@@ -266,6 +281,16 @@
       "question": "How do you prevent opponent from sitting up and establishing upper body control while you attack the kneebar?",
       "answer": "Establish grip control on opponent's belt, pants at the hip, or their far leg immediately after securing foot control. This grip prevents them from sitting up and facing you. Keep constant forward pressure to maintain them flat on their back with compromised posture. If they do manage to sit up and face you, they can establish cross-face control, grip fight effectively, or escape the leg entanglement entirely. Your free hand (not controlling the foot) should always be controlling their upper body or hips—never just posting on the mat. Positional control comes before submission attempts.",
       "safety_critical": false
+    },
+    {
+      "question": "In competition, what indicators tell you to commit fully to the finish versus transition to another attack?",
+      "answer": "Commit fully to the finish when: (1) your hip is perfectly positioned across their knee joint with zero space; (2) their foot is locked deep in your armpit with no rotation; (3) your leg entanglement is tight with their thigh completely immobilized; (4) their upper body is flat and they cannot sit up to face you; (5) your own leg is safe from counter-attack. Transition to another attack when: they successfully rotate their knee away from danger, they sit up and establish upper body control, you feel your foot control slipping, or they begin establishing control on your leg. The kneebar-to-heel-hook chain is particularly effective—their kneebar defense often exposes their heel.",
+      "safety_critical": false
+    },
+    {
+      "question": "What are the three most critical ligaments at risk when a kneebar is applied, and what are the typical recovery times if they are torn?",
+      "answer": "The three most critical ligaments at risk are: (1) MCL (Medial Collateral Ligament) and LCL (Lateral Collateral Ligament) which provide side-to-side stability, recovery 6-12 months with surgery; (2) ACL (Anterior Cruciate Ligament) and PCL (Posterior Cruciate Ligament) which prevent front-to-back movement, recovery 9-12 months with reconstructive surgery; (3) The meniscus (while not a ligament, it's commonly damaged), recovery 3-6 months. These injuries are severe and career-impacting, which is why controlled application and immediate release upon tap are non-negotiable.",
+      "safety_critical": true
     }
   ],
   "training_progressions_and_safety_protocols": [
@@ -326,7 +351,6 @@
     "Kneebar",
     "Kneebar Finish",
     "Kneebar Variations",
-    "Heel Hook",
     "Inside Heel Hook",
     "Outside Heel Hook",
     "Straight Ankle Lock",
@@ -350,32 +374,28 @@
       "relationship": "Alternative leg entanglement position with similar control concepts but different submission angles"
     },
     {
-      "name": "Craig Jones Leg Lock System",
-      "relationship": "Modern leg lock system emphasizing 50-50 entries and kneebar finishes"
+      "name": "Kneebar Control",
+      "relationship": "Positional control principles that apply to finishing this submission from any position"
     },
     {
       "name": "Heel Hook Dilemma",
       "relationship": "Strategic concept where kneebar defense opens heel hook attack and vice versa"
     },
     {
-      "name": "50-50 Entry from Standing",
-      "relationship": "Primary entry method to establish the position for this submission"
-    },
-    {
-      "name": "Straight Footlock to Kneebar Chain",
-      "relationship": "Submission system that chains multiple leg attacks including this technique"
-    },
-    {
-      "name": "Lachlan Giles Leg Lock Defense Framework",
-      "relationship": "Defensive system teaching how to prevent and escape this submission"
-    },
-    {
       "name": "Leg Entanglement",
       "relationship": "Fundamental position category that encompasses 50-50 and enables this submission"
     },
     {
-      "name": "Kneebar Control",
-      "relationship": "Positional control principles that apply to finishing this submission from any position"
+      "name": "Outside Ashi-Garami",
+      "relationship": "Related leg entanglement that can transition to 50-50 kneebar attacks"
+    },
+    {
+      "name": "Straight Ankle Lock",
+      "relationship": "Alternative finish when kneebar is defended by leg straightening"
+    },
+    {
+      "name": "Inside Heel Hook",
+      "relationship": "Chain submission when opponent defends kneebar by rotating knee inward"
     }
   ]
 }

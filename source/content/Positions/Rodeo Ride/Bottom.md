@@ -21,37 +21,37 @@ description: "Defend Rodeo Ride position in BJJ. Learn escape fundamentals, guar
     {
       "@type": "HowToStep",
       "name": "Execute Turtle to Guard",
-      "text": "From this position, execute Turtle to Guard to transition to Closed Guard. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Turtle to Guard. This technique is attempted in 20% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Technical Stand-up",
-      "text": "From this position, execute Technical Stand-up to transition to Standing Position. Success rate for advanced practitioners: 40%.",
+      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 18% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Granby Roll",
-      "text": "From this position, execute Granby Roll to transition to Open Guard. Success rate for advanced practitioners: 35%.",
+      "text": "From this position, attempt Granby Roll. This technique is attempted in 15% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling to Guard",
-      "text": "From this position, execute Rolling to Guard to transition to Half Guard. Success rate for advanced practitioners: 45%.",
+      "text": "From this position, attempt Rolling to Guard. This technique is attempted in 17% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Elbow Escape",
-      "text": "From this position, execute Elbow Escape to transition to Half Guard. Success rate for advanced practitioners: 40%.",
+      "text": "From this position, attempt Elbow Escape. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Sit Through Escape",
-      "text": "From this position, execute Sit Through Escape to transition to Butterfly Guard. Success rate for advanced practitioners: 35%.",
+      "text": "From this position, attempt Sit Through Escape. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -212,83 +212,20 @@ Successful escape from Rodeo Ride requires a systematic approach that prioritize
 
 ## Available Escapes
 
-### [[Turtle to Guard]] → [[Closed Guard]]
+### [[Turtle to Guard]] (20% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
+### [[Technical Stand-up]] (18% of attempts)
 
-### [[Technical Stand-up]] → [[Standing Position]]
+### [[Granby Roll]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 25%
-- Advanced: 40%
+### [[Rolling to Guard]] (17% of attempts)
 
-### [[Granby Roll]] → [[Open Guard]]
+### [[Elbow Escape]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 10%
-- Intermediate: 20%
-- Advanced: 35%
+### [[Sit Through Escape]] (10% of attempts)
 
-### [[Rolling to Guard]] → [[Half Guard]]
+### [[Standing up in Base]] (8% of attempts)
 
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 45%
-
-### [[Elbow Escape]] → [[Half Guard]]
-
-**Success Rates:**
-- Beginner: 12%
-- Intermediate: 25%
-- Advanced: 40%
-
-### [[Sit Through Escape]] → [[Butterfly Guard]]
-
-**Success Rates:**
-- Beginner: 10%
-- Intermediate: 20%
-- Advanced: 35%
-
-### [[Standing up in Base]] → [[Combat Base]]
-
-**Success Rates:**
-- Beginner: 8%
-- Intermediate: 18%
-- Advanced: 30%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Turtle to Back Take]]** → [[Back Control]] (Opponent Success: 65%)
-- **[[Clock Choke]]** → [[Won by Submission]] (Opponent Success: 35%)
-- **[[Bow and Arrow Choke]]** → [[Won by Submission]] (Opponent Success: 30%)
-- **[[Transition to Mount]]** → [[Mount]] (Opponent Success: 45%)
-- **[[Crucifix from Turtle]]** → [[Crucifix]] (Opponent Success: 40%)
-- **[[Darce from Turtle]]** → [[Won by Submission]] (Opponent Success: 25%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Guard Recovery]]** → [[Half Guard]]
-  - Top practitioner shifts weight forward attempting back control
-- **[[Technical Standup]]** → [[Standing Position]]
-  - Top practitioner overcommits to one side creating space on opposite side
-- **[[Roll Through]]** → [[Open Guard]]
-  - Top practitioner establishes high control near shoulders
 
 
 </section>
@@ -298,12 +235,12 @@ Successful escape from Rodeo Ride requires a systematic approach that prioritize
 ## Decision Making from This Position
 
 **If top practitioner establishes seat belt grip or hooks threatening back control:**
-- Execute **[[Fight Hands]]** → [[Maintain Turtle Structure]] (Probability: 60%)
+- Execute **[[Fight Hands]]** → [[Turtle]] (Probability: 60%)
 - Execute **[[Roll to Guard]]** → [[Half Guard]] (Probability: 40%)
 
 
 **If top practitioner attacks with clock choke or collar choke:**
-- Execute **[[Chin Protection]]** → [[Defensive Position]] (Probability: 70%)
+- Execute **[[Chin Protection]]** → [[Turtle]] (Probability: 70%)
 - Execute **[[Explosive Stand]]** → [[Standing Position]] (Probability: 30%)
 
 
@@ -400,25 +337,39 @@ Starting from bottom of Rodeo Ride, work specifically on rolling to guard variat
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Primary escape to safety
+## Test Your Knowledge
 
-`Rodeo Ride Bottom → Rolling to Guard → Half Guard → Guard Recovery`
+**Q1**: What is the most critical defensive priority when caught in Rodeo Ride bottom?
+**A**: The most critical priority is preventing back exposure and the establishment of hooks and seat belt control. While neck protection and arm control are important, giving up back control with hooks leads to the highest-percentage finishing position in BJJ. All defensive decisions should be filtered through this priority—if you must choose between defending a choke attempt and preventing hook insertion, prevent the hooks first, as back control without the choke is more dangerous long-term than a defended choke attempt without full back control.
 
-### Standing escape path
+**Q2**: Why is maintaining at least one free arm essential for defensive success?
+**A**: Having at least one free arm allows you to post, frame, and create the mechanical leverage needed for escape attempts. Without a free arm, you cannot generate the base needed to stand, cannot create frames to prevent flattening, and cannot address the grip fighting needed to prevent back control. When both arms are controlled, your defensive options collapse to essentially zero, making submission or back control nearly inevitable. Sacrifice position elsewhere if necessary to keep one arm free.
 
-`Rodeo Ride Bottom → Technical Stand-up → Standing Position → Guard Pull`
+**Q3**: Your opponent shifts their weight forward to insert hooks—what escape opportunity does this create?
+**A**: When the opponent shifts weight forward for hook insertion, they momentarily reduce hip pressure and create space between your hips and the mat. This is your window for guard recovery: quickly sit back into them while threading your legs between you and them to establish guard. Their forward commitment means they cannot easily retract to prevent your hip movement. Time the sit-back as they commit forward, using their momentum against them to create the space needed for guard establishment.
 
-### Defensive guard recovery
+**Q4**: How should you respond when you feel a clock choke or collar grip being established?
+**A**: Immediately tuck your chin aggressively and turn your head toward the choking side to close the space needed for the choke to finish. Simultaneously, use your near-side hand to fight the grip—either stripping it or preventing it from sinking deeper. If the grip is already deep, your best option may be explosive movement: either stand up forcefully or granby roll away from the choke direction. Passive defense against collar attacks allows them to progressively tighten; you must actively fight the grip or create major positional change.
 
-`Rodeo Ride Bottom → Turtle to Guard → Closed Guard → Posture Recovery`
+**Q5**: What timing indicators should you look for to maximize escape success?
+**A**: Key timing indicators include: weight shifts as opponent adjusts position or reaches for grips, momentary grip releases during transitions between attacks, commitment of pressure to one side creating space on the opposite side, and the moment between attacks when opponent resets. Feel for changes in hip pressure—lighter pressure indicates opportunity. Watch for when opponent's posted leg moves or adjusts, as this temporarily compromises their base. The best escapes happen during opponent's transitions, not during their stable control phases.
+
+**Q6**: Why is the granby roll particularly effective when opponent's weight is high on your shoulders?
+**A**: When the opponent's weight is high on your shoulders, they have minimal hip control and their base is compromised forward. The granby roll exploits this by using the shoulder roll to invert and face them while they cannot follow your hip movement. Their high positioning means they cannot easily block your hip rotation, and their forward weight distribution makes them vulnerable to being rolled over if they commit too heavily. Execute the granby toward your free side, protecting your neck throughout the rotation.
+
+**Q7**: What is the difference between escaping to guard versus standing, and when should you choose each?
+**A**: Guard recovery (rolling to half guard, butterfly, or closed guard) is generally preferred when opponent has strong upper body control but weak hip control, or when you're fatigued and need a recovery position. Standing escape is preferred when opponent's grips are compromised or when you've created sufficient separation. Standing requires addressing grips first and risks giving up standing back control if executed poorly. Guard recovery is lower risk but keeps you on bottom. Choose based on grip status: compromised grips favor standing, strong upper body control with weak hips favors guard recovery.
+
+**Q8**: How do you prevent yourself from panicking and making mistakes when under heavy pressure?
+**A**: Establish a systematic defensive checklist: first assess which arm is controlled, then evaluate neck threat level, then feel hip pressure and hook threats. Having a mental framework prevents panic-driven reactions. Focus on breathing—holding your breath increases panic and drains energy. Accept that escaping from Rodeo Ride is a process, not a single explosive movement. Make small positional improvements rather than gambling on low-percentage explosive escapes. Each defensive success (preventing a grip, maintaining arm freedom, protecting neck) is progress toward eventual escape.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -442,10 +393,10 @@ Starting from bottom of Rodeo Ride, work specifically on rolling to guard variat
 - **[[Turtle]]** - Parent defensive position where Rodeo Ride control develops
 - **[[Back Control]]** - Primary threat position to defend against
 - **[[Half Guard]]** - Common escape target position
-- **[[Defensive Position]]** - General defensive framework applicable to this scenario
-- **[[Guard Recovery]]** - Key escape principle from this position
+- **[[Closed Guard]]** - Alternative escape target position
+- **[[Turtle to Guard]]** - Key escape transition from this position
 - **[[Standing Position]]** - Alternative escape target through technical stand-up
-- **[[Escape Hierarchy]]** - Prioritization framework for defensive decision-making
+- **[[Butterfly Guard]]** - Escape target position via sit-through
 
 
 </section>

@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Single Leg Entry | BJJ Technique | BJJ Graph"
 description: "Learn Single Leg Entry in BJJ. Step-by-step execution from Standing to Single Leg Control. Success: Beginner 30%, Intermediate 50%, Advanced 70%. Master takedown fundamentals."
@@ -16,7 +17,7 @@ description: "Learn Single Leg Entry in BJJ. Step-by-step execution from Standin
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Single Leg Entry in BJJ",
-  "description": "Step-by-step guide for Single Leg Entry from Standing Position to Single Leg X-Guard.",
+  "description": "Step-by-step guide for Single Leg Entry from Standing Position/Top. Possible outcomes: Single Leg X-Guard/Bottom (70%), Standing Position/Top (20%), Standing Position/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -164,11 +165,25 @@ The beauty of the single leg entry lies in its versatility and the multiple fini
 
 From a strategic perspective, the single leg entry represents a crucial bridge between standing grappling and ground work. It allows BJJ practitioners to dictate where the fight takes place, avoiding guard pulls that might give up advantageous positions. The entry phase requires precise timing, proper level change mechanics, and understanding of grip fighting principles. When executed correctly, the single leg entry not only secures a takedown but often provides immediate access to dominant positions or submission opportunities, making it one of the most valuable techniques in modern BJJ.
 
-**Starting Position**: [[Standing Position]]
-**Ending Position**: [[Single Leg X-Guard]]
+**From Position**: [[Standing Position/Top]]
 **Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Single Leg X-Guard/Bottom]] | 70% |
+| Failure | [[Standing Position/Top]] | 20% |
+| Counter | [[Standing Position/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

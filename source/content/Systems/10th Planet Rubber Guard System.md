@@ -347,7 +347,7 @@ Begin with positional isolation drilling, spending dedicated time on each contro
 - [[Back Control]] (Position) - Terminal position from failed submission defenses
 - [[Half Guard]] (Position) - Alternative entry point with modified Rubber Guard concepts
 - [[Triangle Setup]] (Transition) - Primary attack from Chill Dog position
-- [[Transition to Omoplata]] (Transition) - Key transition from Meathook and failed Triangle attempts
+- [[Closed Guard to Omoplata]] (Transition) - Key transition from Meathook and failed Triangle attempts
 - [[Omoplata to Back]] (Transition) - Chain progression when Omoplata is defended
 - [[Triangle to Armbar]] (Transition) - Submission chain connection from Chill Dog pathway
 - [[Guard Pull]] (Transition) - Entry method to establish closed guard for system

@@ -20,38 +20,38 @@ description: "Master Reverse Scarf Hold Top (Ushiro Kesa Gatame). Complete guide
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to North-South",
-      "text": "From this position, execute Transition to North-South to transition to North-South. Success rate for advanced practitioners: 75%.",
+      "name": "Execute Side Control to North-South",
+      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 18% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Mount",
-      "text": "From this position, execute Transition to Mount to transition to Mount. Success rate for advanced practitioners: 65%.",
+      "name": "Execute Side Control to Mount",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 15% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Americana from Side Control",
-      "text": "From this position, execute Americana from Side Control to transition to Americana Control. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Americana from Side Control. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kimura from Side Control",
-      "text": "From this position, execute Kimura from Side Control to transition to Kimura Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Kimura from Side Control. This technique is attempted in 14% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Step",
-      "text": "From this position, execute Back Step to transition to Back Control. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Back Step. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, execute Knee Slice Pass to transition to Side Control. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 17% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -212,84 +212,20 @@ This position is particularly effective against opponents unfamiliar with the co
 
 ## Available Attacks
 
-### [[Transition to North-South]] → [[North-South]]
+### [[Side Control to North-South]] (18% of attempts)
 
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 60%
-- Advanced: 75%
+### [[Side Control to Mount]] (15% of attempts)
 
-### [[Transition to Mount]] → [[Mount]]
+### [[Americana from Side Control]] (13% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Kimura from Side Control]] (14% of attempts)
 
-### [[Americana from Side Control]] → [[Americana Control]]
+### [[Back Step]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
+### [[Knee Slice Pass]] (17% of attempts)
 
-### [[Kimura from Side Control]] → [[Kimura Control]]
+### [[Arm Triangle]] (11% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[Back Step]] → [[Back Control]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
-
-### [[Knee Slice Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
-
-### [[Arm Triangle]] → [[Armbar Control]]
-
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 45%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Bridge and Roll]]** → [[Open Guard]] (Opponent Success: 35%)
-- **[[Hip Escape]]** → [[Half Guard]] (Opponent Success: 40%)
-- **[[Elbow Escape]]** → [[Closed Guard]] (Opponent Success: 30%)
-- **[[Frame and Shrimp]]** → [[Open Guard]] (Opponent Success: 25%)
-- **[[Granby Roll]]** → [[Turtle]] (Opponent Success: 20%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Transition to Mount]]** → [[Mount]]
-  - Opponent bridges explosively attempting to roll you forward
-- **[[Transition to North-South]]** → [[North-South]]
-  - Opponent creates space by pushing against your hip with free arm
-- **[[Back Step]]** → [[Back Control]]
-  - Opponent turns away from you to escape toward turtle position
-- **[[Kimura from Side Control]]** → [[Kimura Control]]
-  - Opponent extends trapped arm attempting to extract it from control
 
 
 </section>
@@ -299,23 +235,23 @@ This position is particularly effective against opponents unfamiliar with the co
 ## Decision Making from This Position
 
 **If opponent remains flat and passive without bridging attempts:**
-- Execute **[[Americana from Side Control]]** → [[Americana Control]] (Probability: 55%)
-- Execute **[[Kimura from Side Control]]** → [[Kimura Control]] (Probability: 50%)
+- Execute **[[Americana from Side Control]]** → [[Armbar Control]] (Probability: 55%)
+- Execute **[[Kimura from Side Control]]** → [[Kimura Trap]] (Probability: 50%)
 
 
 **If opponent bridges explosively toward their head attempting to roll you:**
-- Execute **[[Transition to Mount]]** → [[Mount]] (Probability: 65%)
-- Execute **[[Transition to North-South]]** → [[North-South]] (Probability: 60%)
+- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 65%)
+- Execute **[[Side Control to North-South]]** → [[North-South]] (Probability: 60%)
 
 
 **If opponent turns away from you toward turtle position:**
 - Execute **[[Back Step]]** → [[Back Control]] (Probability: 50%)
-- Execute **[[Transition to North-South]]** → [[North-South]] (Probability: 55%)
+- Execute **[[Side Control to North-South]]** → [[North-South]] (Probability: 55%)
 
 
 **If opponent creates frames with free arm and begins hip escape:**
 - Execute **[[Knee Slice Pass]]** → [[Side Control]] (Probability: 60%)
-- Execute **[[Transition to Mount]]** → [[Mount]] (Probability: 45%)
+- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 45%)
 
 
 
@@ -396,33 +332,39 @@ Partner A establishes reverse scarf hold and flows through americana, kimura, an
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Direct Americana Path
+## Test Your Knowledge
 
-`Reverse Scarf Hold Top → Arm isolation → Americana Control → Americana`
+**Q1**: What is the essential hip positioning for maintaining control in Reverse Scarf Hold Top?
+**A**: Your hip bone must make direct contact with the opponent's sternum area, driving heavy downward pressure through your body weight rather than muscular effort. The hip should be positioned low on their chest with your weight distributed through your hip and chest simultaneously. This creates crushing chest compression that restricts their breathing and severely limits their ability to generate bridging power for escapes.
 
-### Kimura Transition Path
+**Q2**: Your opponent starts turning their hips away from you while trapped in Reverse Scarf Hold - what adjustment do you make?
+**A**: When the opponent begins turning away, immediately recognize this as a back take opportunity rather than fighting to maintain the reverse scarf hold. Follow their rotation by walking your feet toward their back, transitioning to back control as they expose their back. Maintain the arm trap during the transition to prevent them from posting or recovering. Their escape attempt becomes your advancement opportunity.
 
-`Reverse Scarf Hold Top → Arm extraction attempt counter → Kimura Control → Kimura`
+**Q3**: What are the essential grips for maintaining Reverse Scarf Hold Top?
+**A**: The primary grip is your near arm hugging their trapped arm tightly across their torso, pulling their near arm across their body toward their far side. Your far hand should control their far side (gripping their far hip, belt, or gi material) to prevent them from rotating or extracting their arm. The combination of these two grips creates a closed system that eliminates their primary defensive framing options while setting up submission attacks.
 
-### Position Advancement to Submission Path
+**Q4**: How do you shut down the opponent's primary bridge escape attempt?
+**A**: The primary defense against bridging is maintaining low hip position with wide leg base. When you feel a bridge initiating, immediately widen your base by extending your far leg further while keeping your near leg posted. Drop your hip weight even lower onto their chest and turn your hips slightly toward the direction of their bridge. This distributes your weight across a wider base and makes their bridge ineffective. If the bridge is powerful, use their upward energy to transition to mount.
 
-`Reverse Scarf Hold Top → Transition to Mount → Mount → Armbar from Mount`
+**Q5**: What grip priority should you maintain when the opponent begins extracting their trapped arm?
+**A**: When the opponent attempts to extract their arm, your first priority is pulling their arm back across their body with your near arm while simultaneously attacking with a submission grip. If they extend the arm during extraction, immediately transition to kimura grip by releasing your far-side control and securing figure-four on the escaping arm. The arm extraction attempt should trigger an immediate submission attack rather than a pure control battle.
 
-### Arm Triangle Path
+**Q6**: Your opponent bridges explosively and nearly rolls you - what is the correct recovery?
+**A**: If the bridge nearly succeeds, ride their momentum by transitioning to mount rather than fighting back to reverse scarf hold. As they bridge upward, step your near leg over their body toward mount position and allow their energy to carry you into the mount transition. This converts their escape attempt into your positional advancement. Never fight directly against a powerful bridge when a transition opportunity exists.
 
-`Reverse Scarf Hold Top → Opponent turns into pressure → Arm Triangle setup → Arm Triangle`
+**Q7**: How do you manage energy expenditure while maintaining Reverse Scarf Hold?
+**A**: Energy management requires using skeletal structure and body weight rather than muscular effort. Your hip bone creates pressure through gravity, not pushing. Your arm trap maintains tension through grip positioning, not squeezing. Your base uses wide leg position for stability, not muscular engagement. When you feel yourself tensing muscles to maintain control, immediately adjust your positioning to restore structural pressure. The position should feel effortless when properly established.
 
-### Back Control Submission Path
-
-`Reverse Scarf Hold Top → Opponent turns away → Back Step → Back Control → Rear Naked Choke`
+**Q8**: What is the recovery sequence after an opponent creates a frame and begins escaping?
+**A**: When frames become effective and space opens, immediately transition rather than fighting to recapture reverse scarf hold. First option is stepping to mount if their bridge created forward space. Second option is transitioning to north-south if they created lateral space. Third option is following to back control if they turn away. The key is recognizing that reverse scarf hold is transitional - when control deteriorates, advance rather than recover the same position.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 

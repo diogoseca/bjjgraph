@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Float Passing | BJJ Technique | BJJ Graph"
 description: "Master Float Passing in BJJ. Strategic guard passing using minimal pressure and quick transitions. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%."
@@ -16,7 +17,7 @@ description: "Master Float Passing in BJJ. Strategic guard passing using minimal
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Float Passing in BJJ",
-  "description": "Step-by-step guide for Float Passing from Open Guard to Side Control.",
+  "description": "Step-by-step guide for Float Passing from Open Guard/Bottom. Possible outcomes: Side Control/Top (65%), Open Guard/Bottom (25%), Open Guard/Top (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -154,11 +155,25 @@ description: "Master Float Passing in BJJ. Strategic guard passing using minimal
 
 Float Passing is a dynamic guard passing approach that emphasizes movement, timing, and minimal pressure to navigate around the opponent's guard. Unlike traditional pressure passing, float passing relies on quick transitions, constant movement, and strategic positioning to bypass defensive frames and leg configurations. The technique is particularly effective against flexible opponents or those with strong retention games who excel at recovering guard under pressure. Float passing creates passing opportunities by forcing opponents to constantly adjust their defensive structures, eventually exposing gaps in their guard retention. This approach requires excellent balance, timing, and the ability to read opponent reactions in real-time, making it a favorite among competitors who prefer speed and athleticism over grinding pressure.
 
-**Starting Position**: [[Open Guard]]
-**Ending Position**: [[Side Control]]
+**From Position**: [[Open Guard/Bottom]]
 **Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Side Control/Top]] | 65% |
+| Failure | [[Open Guard/Bottom]] | 25% |
+| Counter | [[Open Guard/Top]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

@@ -21,37 +21,37 @@ description: "Master Outside Ashi-Garami Top defense in BJJ. Complete guide cove
     {
       "@type": "HowToStep",
       "name": "Execute Ashi Garami Escape",
-      "text": "From this position, execute Ashi Garami Escape to transition to Standing Position. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Ashi Garami Escape. This technique is attempted in 15% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Outside Ashi Entry",
-      "text": "From this position, execute Outside Ashi Entry to transition to Outside Ashi-Garami. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Outside Ashi Entry. This technique is attempted in 14% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Inside Ashi Entry",
-      "text": "From this position, execute Inside Ashi Entry to transition to Inside Ashi-Garami. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Inside Ashi Entry. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Saddle Entry from Top",
-      "text": "From this position, execute Saddle Entry from Top to transition to Saddle. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Saddle Entry from Top. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Standing to Single Leg X",
-      "text": "From this position, execute Standing to Single Leg X to transition to Single Leg X-Guard. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Standing to Single Leg X. This technique is attempted in 16% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Weave Pass",
-      "text": "From this position, execute Leg Weave Pass to transition to Side Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Leg Weave Pass. This technique is attempted in 14% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -213,84 +213,20 @@ This position represents a defensive challenge where understanding leg lock mech
 
 ## Available Attacks
 
-### [[Ashi Garami Escape]] → [[Standing Position]]
+### [[Ashi Garami Escape]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Outside Ashi Entry]] (14% of attempts)
 
-### [[Outside Ashi Entry]] → [[Outside Ashi-Garami]]
+### [[Inside Ashi Entry]] (13% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Saddle Entry from Top]] (12% of attempts)
 
-### [[Inside Ashi Entry]] → [[Inside Ashi-Garami]]
+### [[Standing to Single Leg X]] (16% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Leg Weave Pass]] (14% of attempts)
 
-### [[Saddle Entry from Top]] → [[Saddle]]
+### [[Technical Stand-up]] (16% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-### [[Standing to Single Leg X]] → [[Single Leg X-Guard]]
-
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 60%
-- Advanced: 75%
-
-### [[Leg Weave Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-### [[Technical Stand-up]] → [[Standing Position]]
-
-**Success Rates:**
-- Beginner: 50%
-- Intermediate: 65%
-- Advanced: 80%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Heel Hook]]** → [[Lost by Submission]] (Opponent Success: 60%)
-- **[[Straight Ankle Lock]]** → [[Straight Ankle Lock Control]] (Opponent Success: 45%)
-- **[[Toe Hold]]** → [[Toe Hold Control]] (Opponent Success: 40%)
-- **[[Kneebar]]** → [[Kneebar Control]] (Opponent Success: 35%)
-- **[[Saddle Entry from Top]]** → [[Saddle]] (Opponent Success: 50%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Outside Ashi Entry]]** → [[Outside Ashi-Garami]]
-  - Opponent releases leg triangle to readjust position
-- **[[Inside Ashi Entry]]** → [[Inside Ashi-Garami]]
-  - Opponent's inside leg becomes exposed during transition attempt
-- **[[Saddle Entry from Top]]** → [[Saddle]]
-  - Opponent commits to heel hook attempt, creating counter-entanglement opportunity
-- **[[Standing to Single Leg X]]** → [[Single Leg X-Guard]]
-  - Opponent loses control of trapped leg as you elevate to standing
 
 
 </section>
@@ -404,29 +340,39 @@ Partner establishes outside ashi and slowly attempts to access your heel, practi
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Escape to Pass Path
+## Test Your Knowledge
 
-`Outside Ashi-Garami Top → Ashi Garami Escape → Standing Position → Leg Weave Pass → Side Control`
+**Q1**: What is the first priority when you find yourself trapped in Outside Ashi-Garami Top?
+**A**: Your first priority is protecting your heel by keeping it hidden from your opponent's grip. The heel must remain tucked inward with toes pointing toward your body. Heel exposure is the most immediate danger as it enables the opponent to secure a heel hook grip and finish the submission rapidly. All other defensive actions are secondary to heel protection.
 
-### Standing Escape Path
+**Q2**: Why does maintaining an elevated or standing posture significantly improve your escape success rate?
+**A**: Standing or elevated posture creates a height differential that limits your opponent's leverage for submissions and control. When standing, you can use gravity and your bodyweight to assist leg extraction, your opponent cannot generate the hip extension needed for heel hook finishing mechanics, and you maintain options to step over or around their guard. Dropping to their level eliminates these advantages and gives them superior angles.
 
-`Outside Ashi-Garami Top → Technical Stand-up → Standing Position → Guard Pass → Side Control`
+**Q3**: Your opponent begins aggressively hunting for your heel - what immediate adjustment should you make?
+**A**: Immediately rotate your hip internally, turning your knee inward rather than allowing it to point outward. Simultaneously create frames on their hips or chest with your hands to establish distance. If they already have heel access, you must break their grip before continuing any escape attempt. Consider switching to a counter-entanglement strategy if their grip is too strong to break directly.
 
-### Counter-Entanglement Path
+**Q4**: Why is pulling your leg straight out against the figure-4 triangle counterproductive?
+**A**: Straight pulling actually strengthens the opponent's leg triangle by driving your leg deeper into their lock configuration. It also exposes your heel by rotating it toward their grip, and creates leverage that assists their submission mechanics. Instead, you must rotate your hip internally and collapse their triangle structure through circular movement before extracting.
 
-`Outside Ashi-Garami Top → Outside Ashi Entry → Outside Ashi-Garami → Heel Hook → Won by Submission`
+**Q5**: When is it appropriate to attempt a counter leg entanglement rather than pure escape?
+**A**: Counter-entanglement is appropriate when your opponent's legs become exposed during their transition or submission attempt. Specifically, when they release their leg triangle to readjust, when their inside leg becomes accessible during a position change, or when they commit heavily to a heel hook attempt and create openings. The mutual threat created forces them to defend, often facilitating your escape.
 
-### Single Leg X Transition Path
+**Q6**: What role do frames play in the escape sequence and where should they be positioned?
+**A**: Frames create and maintain the distance necessary for leg extraction and prevent your opponent from closing space to improve their finishing mechanics. Position frames on your opponent's hips or chest using both hands and potentially your free leg. Frames must be maintained throughout the escape sequence, not abandoned once established, as they prevent the opponent from re-advancing their position.
 
-`Outside Ashi-Garami Top → Standing to Single Leg X → Single Leg X-Guard → Single Leg X Sweep → Standing Position`
+**Q7**: Your opponent's leg triangle feels loose - what escape approach becomes available?
+**A**: A loose leg triangle indicates the opportunity for a direct technical stand-up or simple leg extraction. Maintain your frames, continue protecting your heel, and use internal hip rotation combined with the looseness to thread your leg out. Once partially extracted, immediately elevate to standing and create distance. The loose triangle also makes counter-entanglement entries easier if you prefer an offensive transition.
+
+**Q8**: How does panic affect your escape success rate and what mental approach should you maintain?
+**A**: Panic leads to rushed, uncontrolled movements that expose your heel, waste energy, and create opportunities for your opponent to improve their position. The correct mental approach is calm, methodical problem-solving through systematic escape sequences. Breathe deeply, assess your heel position, identify whether their triangle is tight or loose, then execute the appropriate technique. Trust your drilling and technique rather than explosive scrambling.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -451,12 +397,11 @@ Partner establishes outside ashi and slowly attempts to access your heel, practi
 - **[[Inside Ashi-Garami]]** - Similar defensive leg entanglement with inside variation
 - **[[Saddle]]** - Advanced defensive challenge with both legs trapped
 - **[[Ashi Garami Escape]]** - Primary escape technique from this position
-- **[[Saddle Defense]]** - Related defensive concept for leg entanglement escapes
 - **[[Heel Hook]]** - Primary submission threat from opponent
 - **[[Straight Ankle Lock]]** - Secondary submission threat from opponent
 - **[[50-50 Guard]]** - Related defensive leg entanglement position
 - **[[Leg Entanglement]]** - General category this position belongs to
-- **[[Craig Jones Leg Lock System]]** - Expert system covering this position's offensive and defensive aspects
+- **[[Honey Hole]]** - Alternative name for saddle position commonly encountered
 
 
 </section>

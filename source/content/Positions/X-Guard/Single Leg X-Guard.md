@@ -89,35 +89,26 @@ Single Leg X-Guard (SLX) is a specialized open guard variation where the bottom 
 - Prevent opponent from establishing forward pressure by keeping their weight elevated and distributed over your hooks
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Single Leg X Sweep]]** → [[Standing Position]]
-  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+- **[[Single Leg X Sweep]]** (11% of attempts)
 
-- **[[X-Guard to Ashi Transition]]** → [[Ashi Garami]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[X-Guard to Ashi Transition]]** (12% of attempts)
 
-- **[[Single Leg X Entry]]** → [[Outside Ashi-Garami]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Single Leg X Entry]]** (11% of attempts)
 
-- **[[Technical Stand Up to Single Leg]]** → [[Standing Position]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Technical Stand Up to Single Leg]]** (10% of attempts)
 
-- **[[Butterfly Guard to X-Guard]]** → [[X-Guard]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Butterfly Guard to X-Guard]]** (12% of attempts)
 
-- **[[De La Riva to X-Guard Transition]]** → [[X-Guard]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[De La Riva to X-Guard Transition]]** (11% of attempts)
 
-- **[[Ankle Pick Sweep]]** → [[Standing Position]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Ankle Pick Sweep]]** (12% of attempts)
 
-- **[[Inside Ashi Entry]]** → [[Inside Ashi-Garami]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Inside Ashi Entry]]** (10% of attempts)
 
-- **[[Standing to Single Leg X]]** → [[Single Leg X-Guard]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Standing to Single Leg X]]** (11% of attempts)
 
 
 ### Common Mistakes
@@ -179,26 +170,20 @@ Single Leg X-Guard (SLX) is a specialized open guard variation where the bottom 
 - Maintain hip mobility to follow opponent's movements and prevent them from generating momentum for directional sweeps
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Headquarters Pass]]** → [[Headquarters Position]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Headquarters Pass]]** (19% of attempts)
 
-- **[[Knee Slice Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Knee Slice Pass]]** (18% of attempts)
 
-- **[[Leg Weave Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Leg Weave Pass]]** (16% of attempts)
 
-- **[[Standing up in Base]]** → [[Standing Position]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Standing up in Base]]** (20% of attempts)
 
-- **[[Smash Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Smash Pass]]** (15% of attempts)
 
-- **[[Kneebar]]** → [[Kneebar]]
-  - Success Rate: Beginner 15%, Intermediate 25%, Advanced 40%
+- **[[Kneebar]]** (12% of attempts)
 
 
 ### Common Mistakes

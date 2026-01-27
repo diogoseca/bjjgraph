@@ -10,8 +10,6 @@
     "open-guard",
     "intermediate"
   ],
-  "starting_position": "Open Guard",
-  "ending_position": "Side Control",
   "success_rates": {
     "beginner": 45,
     "intermediate": 60,
@@ -280,6 +278,24 @@
     {
       "name": "Smash Pass",
       "relationship": "Alternative pressure pass with similar weight distribution principles"
+    }
+  ],
+  "from_position": "Open Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Side Control/Top",
+      "probability": 75,
+      "result": "success"
+    },
+    {
+      "to": "Open Guard/Bottom",
+      "probability": 15,
+      "result": "failure"
+    },
+    {
+      "to": "Open Guard/Top",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

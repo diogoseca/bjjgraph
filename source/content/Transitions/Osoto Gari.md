@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Osoto Gari | BJJ Technique | BJJ Graph"
 description: "Master Osoto Gari, the fundamental judo throw adapted for BJJ. Step-by-step takedown from Standing Position to Side Control. Success: Beginner 30%, Intermediate 55%, Advanced 75%."
@@ -16,7 +17,7 @@ description: "Master Osoto Gari, the fundamental judo throw adapted for BJJ. Ste
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Osoto Gari in BJJ",
-  "description": "Step-by-step guide for Osoto Gari from Standing Position to Side Control.",
+  "description": "Step-by-step guide for Osoto Gari from Standing Position/Top. Possible outcomes: Side Control/Top (75%), Standing Position/Top (15%), Standing Position/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -154,11 +155,25 @@ description: "Master Osoto Gari, the fundamental judo throw adapted for BJJ. Ste
 
 Osoto Gari (Major Outer Reap) is a fundamental judo throw that has been successfully integrated into Brazilian Jiu-Jitsu as a high-percentage standing technique. This technique involves reaping your opponent's weight-bearing leg from the outside while simultaneously driving their upper body backward, creating a powerful off-balancing motion that results in a controlled takedown. The beauty of Osoto Gari lies in its simplicity and effectiveness - it requires minimal setup compared to other throws and can be executed from various gripping configurations. In the BJJ context, Osoto Gari is particularly valuable because it allows the practitioner to maintain upper body control throughout the throw, often landing directly in dominant positions such as Side Control or Scarf Hold (Kesa Gatame). The technique capitalizes on fundamental principles of off-balancing and leverage, making it accessible to practitioners of all levels while remaining effective at the highest levels of competition. Unlike many judo throws that require extensive kuzushi (off-balancing) preparation, Osoto Gari can be executed explosively when the opponent is slightly forward-weighted, making it an excellent counter-attacking technique.
 
-**Starting Position**: [[Standing Position]]
-**Ending Position**: [[Side Control]]
+**From Position**: [[Standing Position/Top]]
 **Success Rates**: Beginner 30%, Intermediate 55%, Advanced 75%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Side Control/Top]] | 75% |
+| Failure | [[Standing Position/Top]] | 15% |
+| Counter | [[Standing Position/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

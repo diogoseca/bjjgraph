@@ -22,7 +22,7 @@ Cross Ashi-Garami is a fundamental leg entanglement position in modern Brazilian
 
 This position emerged from the evolution of leg lock systems in submission grappling and no-gi competition, where practitioners discovered that the crossed leg configuration provided superior mechanical advantage for heel hook applications compared to traditional parallel leg positioning. The crossing of the legs creates a wedge effect that prevents the opponent from sitting up or turning effectively, while simultaneously allowing the top player to generate powerful rotational forces on the ankle and knee joints. The position serves as both a finishing platform for leg locks and a transitional hub connecting to other leg entanglement positions like Saddle (Honey Hole) and Inside Ashi-Garami.
 
-From the bottom perspective, Cross Ashi-Garami represents a defensive challenge requiring sophisticated understanding of leg entanglement escape mechanics, distance management, and counter-attack opportunities. The bottom player must navigate heel hook threats while maintaining defensive leg positioning and seeking opportunities to either escape to guard or enter their own leg attacks. From the top perspective, the position offers high-percentage submission opportunities and multiple paths to advancement, making it a cornerstone of modern leg lock systems taught by instructors like systematic and his students.
+From the bottom perspective, Cross Ashi-Garami represents a defensive challenge requiring sophisticated understanding of leg entanglement escape mechanics, distance management, and counter-attack opportunities. The bottom player must navigate heel hook threats while maintaining defensive leg positioning and seeking opportunities to either escape to guard or enter their own leg attacks. From the top perspective, the position offers high-percentage submission opportunities and multiple paths to advancement, making it a cornerstone of modern leg lock systems.
 
 The strategic importance of Cross Ashi-Garami in contemporary BJJ cannot be overstated - it has fundamentally changed the meta-game of no-gi competition and forced all serious competitors to develop both offensive proficiency and defensive competence in this position. Understanding Cross Ashi-Garami from both perspectives is essential for anyone competing in modern submission grappling formats where leg locks are permitted.
 
@@ -95,26 +95,20 @@ The strategic importance of Cross Ashi-Garami in contemporary BJJ cannot be over
 - Always be aware of tap-worthy positions and submit early if a heel hook is locked in to prevent serious injury
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Ashi Garami Escape]]** → [[Open Guard]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Ashi Garami Escape]]** (20% of attempts)
 
-- **[[Inside Ashi Entry]]** → [[Inside Ashi-Garami]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Inside Ashi Entry]]** (17% of attempts)
 
-- **[[X-Guard to Ashi Transition]]** → [[X-Guard]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[X-Guard to Ashi Transition]]** (16% of attempts)
 
-- **[[Saddle Defense]]** → [[Single Leg X-Guard]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Saddle Defense]]** (17% of attempts)
 
-- **[[Outside Ashi Entry]]** → [[Outside Ashi-Garami]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Outside Ashi Entry]]** (16% of attempts)
 
-- **[[Technical Standup]]** → [[Standing Position]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+- **[[Technical Standup]]** (14% of attempts)
 
 
 ### Common Mistakes
@@ -172,32 +166,24 @@ The strategic importance of Cross Ashi-Garami in contemporary BJJ cannot be over
 - Transition quickly between heel hook, straight ankle lock, and toe hold based on opponent's defensive reactions and grip adjustments
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Heel Hook]]** → [[Won by Submission]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 70%
+- **[[Heel Hook]]** (14% of attempts)
 
-- **[[Outside Heel Hook]]** → [[Won by Submission]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 65%
+- **[[Outside Heel Hook]]** (12% of attempts)
 
-- **[[Straight Ankle Lock]]** → [[Straight Ankle Lock Control]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Straight Ankle Lock]]** (13% of attempts)
 
-- **[[Toe Hold]]** → [[Toe Hold Control]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 55%
+- **[[Toe Hold]]** (11% of attempts)
 
-- **[[Saddle Entry from Top]]** → [[Saddle]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 70%
+- **[[Saddle Entry from Top]]** (13% of attempts)
 
-- **[[Inside Ashi Entry]]** → [[Inside Ashi-Garami]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Inside Ashi Entry]]** (13% of attempts)
 
-- **[[Kneebar from Top]]** → [[Kneebar Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 60%
+- **[[Kneebar from Top]]** (12% of attempts)
 
-- **[[X-Guard to Ashi Transition]]** → [[Ashi Garami]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[X-Guard to Ashi Transition]]** (12% of attempts)
 
 
 ### Common Mistakes
@@ -254,7 +240,7 @@ The strategic importance of Cross Ashi-Garami in contemporary BJJ cannot be over
 
 - **[[Leg Entanglement]]** - Fundamental concept underlying cross ashi mechanics
 
-- **[[systematic approach Leg Lock System]]** - Systematic framework incorporating cross ashi as core position
+- **[[Backside 50-50]]** - Related leg entanglement with different hip orientation
 
 
 </section>

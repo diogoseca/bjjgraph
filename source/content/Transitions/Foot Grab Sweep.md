@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Foot Grab Sweep | BJJ Technique | BJJ Graph"
 description: "Master the Foot Grab Sweep from open guard. Step-by-step execution with grip control and off-balancing. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%."
@@ -16,7 +17,7 @@ description: "Master the Foot Grab Sweep from open guard. Step-by-step execution
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Foot Grab Sweep in BJJ",
-  "description": "Step-by-step guide for Foot Grab Sweep from Seated Guard to Side Control.",
+  "description": "Step-by-step guide for Foot Grab Sweep from Seated Guard/Bottom. Possible outcomes: Side Control/Top (70%), Seated Guard/Bottom (20%), Seated Guard/Top (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -170,11 +171,25 @@ The sweep works on the principle of removing one of the opponent's base points w
 
 Success with this sweep depends heavily on timing, grip control, and the ability to read the opponent's weight distribution. Advanced practitioners can chain this sweep with other attacks, using the opponent's defensive reactions to create offensive opportunities. The foot grab sweep is an essential component of a complete open guard game and serves as both a primary attacking option and a counter to standing guard passes.
 
-**Starting Position**: [[Seated Guard]]
-**Ending Position**: [[Side Control]]
+**From Position**: [[Seated Guard/Bottom]]
 **Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Side Control/Top]] | 70% |
+| Failure | [[Seated Guard/Bottom]] | 20% |
+| Counter | [[Seated Guard/Top]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

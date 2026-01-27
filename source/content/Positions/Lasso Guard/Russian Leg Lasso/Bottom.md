@@ -21,37 +21,37 @@ description: "Master Russian Leg Lasso Bottom guard. Complete technical guide co
     {
       "@type": "HowToStep",
       "name": "Execute Lasso Guard Sweeps",
-      "text": "From this position, execute Lasso Guard Sweeps to transition to Mount. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Lasso Guard Sweeps. This technique is attempted in 22% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Lasso Guard Sweeps",
-      "text": "From this position, execute Lasso Guard Sweeps to transition to Mount. Success rate for advanced practitioners: 55%.",
+      "name": "Execute Triangle Setup",
+      "text": "From this position, attempt Triangle Setup. This technique is attempted in 16% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Triangle Setup",
-      "text": "From this position, execute Triangle Setup to transition to Triangle Control. Success rate for advanced practitioners: 65%.",
+      "name": "Execute Omoplata Sweep",
+      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 14% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Omoplata Sweep",
-      "text": "From this position, execute Omoplata Sweep to transition to Omoplata Control. Success rate for advanced practitioners: 58%.",
+      "name": "Execute De La Riva Sweep",
+      "text": "From this position, attempt De La Riva Sweep. This technique is attempted in 13% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute De La Riva Sweep",
-      "text": "From this position, execute De La Riva Sweep to transition to Back Control. Success rate for advanced practitioners: 62%.",
+      "name": "Execute Balloon Sweep",
+      "text": "From this position, attempt Balloon Sweep. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Lasso Guard Sweeps",
-      "text": "From this position, execute Lasso Guard Sweeps to transition to Side Control. Success rate for advanced practitioners: 60%.",
+      "name": "Execute Armbar from Guard",
+      "text": "From this position, attempt Armbar from Guard. This technique is attempted in 11% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -209,91 +209,20 @@ Russian Leg Lasso Bottom represents one of the most technically sophisticated op
 
 ## Available Escapes
 
-### [[Lasso Guard Sweeps]] → [[Mount]]
+### [[Lasso Guard Sweeps]] (22% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Triangle Setup]] (16% of attempts)
 
-### [[Lasso Guard Sweeps]] → [[Mount]]
+### [[Omoplata Sweep]] (14% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
+### [[De La Riva Sweep]] (13% of attempts)
 
-### [[Triangle Setup]] → [[Triangle Control]]
+### [[Balloon Sweep]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Armbar from Guard]] (11% of attempts)
 
-### [[Omoplata Sweep]] → [[Omoplata Control]]
+### [[Back Take Generic]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 28%
-- Intermediate: 43%
-- Advanced: 58%
-
-### [[De La Riva Sweep]] → [[Back Control]]
-
-**Success Rates:**
-- Beginner: 32%
-- Intermediate: 47%
-- Advanced: 62%
-
-### [[Lasso Guard Sweeps]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[Armbar from Guard]] → [[Armbar Control]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
-
-### [[Back Take Generic]] → [[Back Control]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Lasso Guard Pass]]** → [[Side Control]] (Opponent Success: 45%)
-- **[[Toreando Pass]]** → [[Side Control]] (Opponent Success: 40%)
-- **[[Knee Slice Pass]]** → [[Half Guard]] (Opponent Success: 35%)
-- **[[Pressure Pass]]** → [[Half Guard]] (Opponent Success: 38%)
-- **[[Leg Drag Pass]]** → [[Leg Drag Control]] (Opponent Success: 42%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Omoplata to Sweep]]** → [[Mount]]
-  - Opponent attempts to pressure forward or stack to defend initial sweep
-- **[[Switch to Triangle]]** → [[Triangle Control]]
-  - Opponent pulls arm out of lasso creating space for leg to switch to triangle configuration
-- **[[De La Riva Sweep]]** → [[Back Control]]
-  - Opponent steps around lasso side creating opportunity for De La Riva hook with non-lasso leg
-- **[[Transition to Omoplata]]** → [[Omoplata Control]]
-  - Opponent postures up aggressively breaking collar grip and creating space for omoplata entry
 
 
 </section>
@@ -304,22 +233,22 @@ Russian Leg Lasso Bottom represents one of the most technically sophisticated op
 
 **If opponent maintains distance and attempts to break collar grip:**
 - Execute **[[Triangle Setup]]** → [[Triangle Control]] (Probability: 55%)
-- Execute **[[Lasso Guard Sweeps]]** → [[Mount]] (Probability: 40%)
+- Execute **[[Lasso Guard Sweeps]]** → [[Mount]] (Probability: 45%)
 
 
 **If opponent drives forward with pressure attempting to smash pass:**
-- Execute **[[Lasso Guard Sweeps]]** → [[Mount]] (Probability: 60%)
+- Execute **[[Lasso Guard Sweeps]]** → [[Mount]] (Probability: 55%)
 - Execute **[[Omoplata Sweep]]** → [[Omoplata Control]] (Probability: 45%)
 
 
 **If opponent circles away from lasso attempting to disengage:**
 - Execute **[[Lasso Guard Sweeps]]** → [[Mount]] (Probability: 50%)
-- Execute **[[De La Riva Sweep]]** → [[Back Control]] (Probability: 45%)
+- Execute **[[De La Riva Sweep]]** → [[Back Control]] (Probability: 50%)
 
 
 **If opponent establishes strong base and begins systematic grip breaking:**
-- Execute **[[Guard Pull]]** → [[Closed Guard]] (Probability: 40%)
-- Execute **[[Transition to Omoplata]]** → [[Omoplata Control]] (Probability: 35%)
+- Execute **[[Back Take Generic]]** → [[Back Control]] (Probability: 45%)
+- Execute **[[Armbar from Guard]]** → [[Armbar Control]] (Probability: 55%)
 
 
 
@@ -400,29 +329,39 @@ Russian Leg Lasso established, but top player actively works to break collar and
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Direct triangle from lasso
+## Test Your Knowledge
 
-`Russian Leg Lasso Bottom → Triangle Setup → Triangle Control → Triangle Choke`
+**Q1**: What are the three essential grips required for maintaining effective Russian Leg Lasso control?
+**A**: The three essential grips are: the lasso itself (leg threaded through opponent's arm with foot positioned high near shoulder), the collar grip with the hand opposite to the lasso leg for posture control, and the sleeve grip on the lasso-side arm to prevent extraction and amplify rotational force. Losing any of these three significantly compromises position effectiveness.
 
-### Omoplata sweep to back attack
+**Q2**: How should your lasso leg be positioned for maximum control and sweep power?
+**A**: The lasso leg should be threaded deep with your shin crossing the opponent's tricep and your foot positioned near or past their shoulder. The leg should be high and tight, not low near the elbow. Maintaining hip elevation keeps the foot high and creates the binding effect that makes the lasso difficult to extract. This positioning maximizes rotational force generation for sweeps.
 
-`Russian Leg Lasso Bottom → Omoplata Sweep → Back Take Generic → Back Control → Rear Naked Choke`
+**Q3**: Your opponent starts breaking your collar grip - what should you do?
+**A**: Immediately transition to an attack rather than purely defending the grip. As they focus on the collar grip, their posture often opens submission opportunities like triangle or omoplata entries. If you cannot attack, re-establish the collar grip with the opposite hand or transition to a different guard variation like Spider Guard rather than maintaining incomplete Russian Leg Lasso controls.
 
-### Sweep to mount armbar
+**Q4**: What is the role of the non-lasso leg in this position?
+**A**: The non-lasso leg creates secondary control and prevents the opponent from circling away or establishing alternative passing angles. It should be constantly active, transitioning between De La Riva hook, butterfly hook, shin-to-shin contact, or extended foot-on-hip based on opponent movement. A static non-lasso leg allows the opponent to easily pass to that side.
 
-`Russian Leg Lasso Bottom → Lasso Guard Sweeps → Mount → Armbar from Mount`
+**Q5**: The opponent is closing distance and establishing chest-to-chest pressure - how do you respond?
+**A**: Use your non-lasso leg immediately to create frames and push into their hip to maintain distance. If they've already closed distance, transition to omoplata or triangle attacks that capitalize on their forward commitment. Do not try to hold the lasso position when flattened, as chest-to-chest pressure negates all mechanical advantages of the guard.
 
-### De La Riva combination to back
+**Q6**: How do you manage energy expenditure while playing Russian Leg Lasso?
+**A**: Russian Leg Lasso is energy-intensive and should not be held statically. Use it as a launching platform for immediate attacks, transitioning between sweep attempts and submissions every 3-5 seconds. Let the lasso mechanics do the work rather than gripping with arm strength alone. If you cannot attack within 5-10 seconds, consider transitioning to a different guard to preserve energy.
 
-`Russian Leg Lasso Bottom → De La Riva Sweep → Back Control → Rear Naked Choke`
+**Q7**: Your opponent begins to extract their arm from the lasso - what are your immediate options?
+**A**: As they extract the arm, immediately transition to triangle setup since the arm extraction creates space for your leg to switch configuration. Alternatively, use the movement to enter omoplata if they posture during extraction, or switch to De La Riva Guard using your non-lasso leg if they create distance. Never simply allow extraction without immediately threatening another attack.
+
+**Q8**: What hip position and distance should you maintain relative to your opponent?
+**A**: Maintain distance where your grips remain effective but the opponent cannot establish smash passing pressure. Your hips should be angled slightly toward the lasso side to optimize rotational sweep mechanics. Constant hip adjustment is essential as the opponent moves - too close allows pressure passing, too far loses grip effectiveness. The ideal distance keeps tension on the lasso while preserving hip mobility for attacks.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 

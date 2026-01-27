@@ -1,120 +1,43 @@
 // Move Cards - Display available moves on position pages
+// Reads per-page graph data injected at build time (no runtime fetch)
 import { removeAllChildren } from "./util"
 
-interface StateGraph {
-  positions: Record<
-    string,
-    {
-      name: string
-      hub: string
-      role: string
-      path?: string
-      transitions: Array<{
-        technique: string
-        target: string
-        targetPath?: string
-        isSubmission: boolean
-        successRate: { intermediate: number; advanced: number }
-      }>
-      defenses: Array<{
-        technique: string
-        target: string
-        targetPath?: string
-        successRate: number
-      }>
-    }
-  >
-  transitions: Record<string, any>
-  submissions: Record<string, any>
+interface PositionPageData {
+  type: "position"
+  name: string
+  transitions: Array<{
+    technique: string
+    target: string
+    targetPath?: string
+    isSubmission: boolean
+    submissionSlug?: string
+    successRate: { intermediate: number; advanced: number }
+  }>
+  defenses: Array<{
+    technique: string
+    target: string
+    targetPath?: string
+    successRate: number
+  }>
 }
 
-let stateGraph: StateGraph | null = null
-let pathToKeyIndex: Record<string, string> = {}
-
-async function fetchStateGraph(): Promise<StateGraph | null> {
-  if (stateGraph) return stateGraph
-
+function getPageData(): PositionPageData | null {
+  const el = document.getElementById("page-graph-data")
+  if (!el?.textContent) return null
   try {
-    const baseUrl = document.documentElement.dataset.baseUrl ?? ""
-    const response = await fetch(`${baseUrl}/static/stateGraph.json`)
-    stateGraph = await response.json()
-
-    // Build a reverse index from path → position key
-    // This helps us look up positions by their URL path
-    pathToKeyIndex = {}
-    if (stateGraph) {
-      for (const [key, pos] of Object.entries(stateGraph.positions)) {
-        if (pos.path) {
-          // Normalize path to lowercase with hyphens for matching
-          const normalizedPath = pos.path.toLowerCase().replace(/\s+/g, "-")
-          pathToKeyIndex[normalizedPath] = key
-        }
-        // Also index by the key itself (e.g., "mount/top" → "mount/top")
-        pathToKeyIndex[key] = key
-      }
-    }
-
-    return stateGraph
-  } catch (e) {
-    console.warn("State graph not available")
+    const data = JSON.parse(el.textContent)
+    return data.type === "position" ? data : null
+  } catch {
     return null
   }
 }
 
-function pathFromUrl(url: string): string {
-  // Convert URL path like /Positions/Twister-Control/Truck/Top to twister-control/truck/top
-  return url
-    .replace(/^\/?(Positions|Transitions|Submissions)\//, "")
-    .toLowerCase()
-    .replace(/\s+/g, "-")
-}
-
-function findPositionKey(urlPath: string): string | null {
-  // Try direct lookup first
-  if (pathToKeyIndex[urlPath]) {
-    return pathToKeyIndex[urlPath]
-  }
-
-  // Try with slug format (hub/role) for backwards compatibility
-  // e.g., "mount/top" should match directly
-  const parts = urlPath.split("/")
-  if (parts.length >= 2) {
-    const lastPart = parts[parts.length - 1]
-    if (lastPart === "top" || lastPart === "bottom") {
-      // Try hub + role format
-      const hub = parts[parts.length - 2]
-      const key = `${hub}/${lastPart}`
-      if (pathToKeyIndex[key]) {
-        return pathToKeyIndex[key]
-      }
-    }
-  }
-
-  // Try without role (neutral positions)
-  const neutralKey = parts[parts.length - 1]
-  if (pathToKeyIndex[neutralKey]) {
-    return pathToKeyIndex[neutralKey]
-  }
-
-  return null
-}
-
-document.addEventListener("nav", async () => {
+document.addEventListener("nav", () => {
   const container = document.getElementById("move-cards")
   if (!container) return
 
-  const graph = await fetchStateGraph()
-  if (!graph) return
-
-  // Get current page path and find corresponding position key
-  const currentPath = window.location.pathname
-  const urlPath = pathFromUrl(currentPath)
-  const positionKey = findPositionKey(urlPath)
-
-  // Find position data using the resolved key
-  const positionData = positionKey ? graph.positions[positionKey] : null
+  const positionData = getPageData()
   if (!positionData || !positionData.transitions || positionData.transitions.length === 0) {
-    // Hide container if no moves available
     const containerParent = container.closest(".move-cards-container")
     if (containerParent) {
       ;(containerParent as HTMLElement).style.display = "none"
@@ -122,11 +45,12 @@ document.addEventListener("nav", async () => {
     return
   }
 
-  // Show container
   const containerParent = container.closest(".move-cards-container")
   if (containerParent) {
     ;(containerParent as HTMLElement).style.display = "block"
   }
+
+  const currentPath = window.location.pathname
 
   removeAllChildren(container)
 

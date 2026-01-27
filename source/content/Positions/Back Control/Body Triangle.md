@@ -93,32 +93,24 @@ From this position, you maintain upper body control with your arms while your le
 - Angle Adjustment: Use hip movement to change squeeze angle and attack different areas of ribcage based on opponent's defensive reactions
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Rear Naked Choke]]** → [[Won by Submission]]
-  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 80%
+- **[[Rear Naked Choke]]** (15% of attempts)
 
-- **[[Armbar from Back with Legs]]** → [[Armbar Control]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Armbar from Back with Legs]]** (13% of attempts)
 
-- **[[Bow and Arrow Choke]]** → [[Won by Submission]]
-  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+- **[[Bow and Arrow Choke]]** (14% of attempts)
 
-- **[[Short Choke]]** → [[Won by Submission]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Short Choke]]** (12% of attempts)
 
-- **[[Triangle Choke Back]]** → [[Won by Submission]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Triangle Choke Back]]** (11% of attempts)
 
-- **[[Back Control to Crucifix]]** → [[Crucifix]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Back Control to Crucifix]]** (12% of attempts)
 
-- **[[Transition to Truck]]** → [[Truck]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Turtle to Truck]]** (10% of attempts)
 
-- **[[Transition to Mount]]** → [[Mount]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Side Control to Mount]]** (13% of attempts)
 
 
 ### Common Mistakes
@@ -176,26 +168,20 @@ From this position, you maintain upper body control with your arms while your le
 - Energy Conservation: Avoid constant maximum effort, instead using precise technique at key moments to avoid exhaustion under breathing restriction
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Hip Escape to Turtle]]** → [[Turtle]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Hip Escape to Turtle]]** (20% of attempts)
 
-- **[[Frame and Shrimp]]** → [[Half Guard]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+- **[[Frame and Shrimp]]** (18% of attempts)
 
-- **[[Granby Roll]]** → [[Guard Recovery]]
-  - Success Rate: Beginner 18%, Intermediate 33%, Advanced 48%
+- **[[Granby Roll]]** (19% of attempts)
 
-- **[[Rolling Back Take Reversal]]** → [[Back Control]]
-  - Success Rate: Beginner 10%, Intermediate 20%, Advanced 35%
+- **[[Rolling Back Take Reversal]]** (14% of attempts)
 
-- **[[Triangle Clear to Side]]** → [[Side Control]]
-  - Success Rate: Beginner 12%, Intermediate 25%, Advanced 40%
+- **[[Triangle Clear to Side]]** (16% of attempts)
 
-- **[[Technical Standup]]** → [[Standing Position]]
-  - Success Rate: Beginner 8%, Intermediate 18%, Advanced 32%
+- **[[Technical Standup]]** (13% of attempts)
 
 
 ### Common Mistakes

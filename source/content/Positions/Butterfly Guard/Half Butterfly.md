@@ -93,32 +93,24 @@ From the top perspective, Half Butterfly Top represents a critical transitional 
 - Use constant threatening motion to prevent opponent from consolidating passing pressure or establishing crossface control
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Basic Butterfly Sweep]]** → [[Mount]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Basic Butterfly Sweep]]** (13% of attempts)
 
-- **[[Old School Sweep]]** → [[Side Control]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Old School Sweep]]** (14% of attempts)
 
-- **[[Hook Sweep]]** → [[Mount]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Hook Sweep]]** (12% of attempts)
 
-- **[[Underhook Sweep from Half]]** → [[Side Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Underhook Sweep from Half]]** (13% of attempts)
 
-- **[[Back Take Generic]]** → [[Back Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Back Take Generic]]** (11% of attempts)
 
-- **[[Deep Half Entry]]** → [[Deep Half Guard]]
-  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+- **[[Deep Half Entry]]** (13% of attempts)
 
-- **[[Butterfly Guard to X-Guard]]** → [[X-Guard]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Butterfly Guard to X-Guard]]** (12% of attempts)
 
-- **[[Elevator Sweep]]** → [[Mount]]
-  - Success Rate: Beginner 32%, Intermediate 47%, Advanced 62%
+- **[[Elevator Sweep]]** (12% of attempts)
 
 
 ### Common Mistakes
@@ -176,26 +168,20 @@ From the top perspective, Half Butterfly Top represents a critical transitional 
 - Use strategic weight shifts to bait reactions and create passing opportunities
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Knee Slice Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+- **[[Knee Slice Pass]]** (19% of attempts)
 
-- **[[Smash Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Smash Pass]]** (18% of attempts)
 
-- **[[Long Step Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Long Step Pass]]** (17% of attempts)
 
-- **[[Leg Drag Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Leg Drag Pass]]** (15% of attempts)
 
-- **[[Transition to Mount]]** → [[Mount]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Side Control to Mount]]** (14% of attempts)
 
-- **[[Underhook Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 38%, Intermediate 53%, Advanced 68%
+- **[[Underhook Pass]]** (17% of attempts)
 
 
 ### Common Mistakes
@@ -256,7 +242,7 @@ From the top perspective, Half Butterfly Top represents a critical transitional 
 
 - **[[Back Control]]** - Alternative advancement target from successful back takes
 
-- **[[Underhook Control]]** - Critical control concept determining success in exchanges
+- **[[Overhook Control]]** - Critical control concept determining success in exchanges
 
 
 </section>

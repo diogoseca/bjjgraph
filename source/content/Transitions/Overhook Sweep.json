@@ -10,8 +10,6 @@
     "overhook",
     "mount"
   ],
-  "starting_position": "Closed Guard",
-  "ending_position": "Mount",
   "success_rates": {
     "beginner": 45,
     "intermediate": 65,
@@ -250,6 +248,24 @@
     {
       "name": "Mount",
       "relationship": "Ending position - where the sweep deposits you"
+    }
+  ],
+  "from_position": "Closed Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Mount/Top",
+      "probability": 75,
+      "result": "success"
+    },
+    {
+      "to": "Closed Guard/Bottom",
+      "probability": 15,
+      "result": "failure"
+    },
+    {
+      "to": "Closed Guard/Top",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

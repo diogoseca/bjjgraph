@@ -252,6 +252,36 @@
       "question": "From which common BJJ positions can D'arce variations be effectively applied, and what is the unifying principle across all these entries?",
       "answer": "D'arce variations can be applied from front headlock, turtle top position, side control top (Brabo variation), half guard top, standing front headlock, and scramble situations. The unifying principle across all entries is: controlling opponent's near arm while threading your choking arm through the gap between their neck and trapped shoulder to create a figure-four configuration. Regardless of starting position, you need arm isolation (removing one of their arms from defending the choke) and deep shoulder penetration with your choking arm. The finish always involves creating a perpendicular angle and using body weight rather than arm strength.",
       "safety_critical": false
+    },
+    {
+      "question": "Your opponent begins posturing up mid-choke attempt, creating space at the neck—what immediate adjustment prevents the escape?",
+      "answer": "When opponent postures, immediately drive your shoulder and chest weight forward into their trapped arm while simultaneously pulling your figure-four grip tighter toward your own chest. Do not chase the choke by reaching further—instead, collapse their posture by dropping your hips lower and sprawling if necessary. If they continue to create space, consider transitioning to a guillotine variation or following them to closed guard where you can finish with hip control. The key is maintaining the arm trap; losing control of their near arm during posturing attempts is the primary escape mechanism you must prevent.",
+      "safety_critical": false
+    },
+    {
+      "question": "What specific grip adjustments maximize finishing pressure in the figure-four configuration, and how does arm length affect grip selection?",
+      "answer": "For maximum pressure, your choking arm's bicep must be firmly against one carotid with your hand as deep as possible (ideally grabbing your own lat or far shoulder). The locking arm reaches under their trapped arm to secure your choking arm's wrist or forearm. Practitioners with longer arms should grab higher on the forearm or at the wrist for mechanical advantage, while shorter-armed practitioners may need to use a palm-to-palm or gable grip closer to the elbow. The key finishing detail is pinching your elbows together while expanding your chest—this creates the scissoring action that cinches the choke regardless of grip variation.",
+      "safety_critical": false
+    },
+    {
+      "question": "When finishing the D'arce, what indicates you have achieved proper blood choke mechanics versus an ineffective air choke or neck crank?",
+      "answer": "A proper blood choke will cause your training partner to tap within 8-10 seconds with relatively little discomfort reported—they feel pressure building but not sharp pain. Signs of an air choke include partner coughing, gagging, or reporting throat compression rather than 'pressure' sensations. Signs of a neck crank include partner reporting sharp pain in the cervical spine or twisted feeling in the neck. If you must squeeze hard with arm strength alone, you likely have improper positioning. The correct blood choke relies on body weight and angle creating compression on both carotids simultaneously, which feels like tightness rather than choking or cranking.",
+      "safety_critical": true
+    },
+    {
+      "question": "How do you chain the D'arce with other front headlock submissions when your initial entry is defended?",
+      "answer": "The D'arce chains naturally with the anaconda, guillotine, and back take depending on opponent's defensive reaction. If opponent defends D'arce by freeing their near arm and turning away, follow their rotation for the back take. If they turn into you attempting to escape the angle, the anaconda becomes available by switching your arm threading direction. If they drive forward attempting to stand, switch to guillotine grip by adjusting to under-chin control. The key is maintaining head control throughout all transitions—never release the head to chase a specific submission. Let their defensive movement dictate which attack becomes available next.",
+      "safety_critical": false
+    },
+    {
+      "question": "What body positioning error most commonly allows opponents to escape even a deep D'arce grip, and how do you correct it?",
+      "answer": "The most common error is remaining too square to your opponent rather than creating a perpendicular angle. Even with perfect arm depth and grip, a square body position distributes pressure inefficiently across their neck structure. Correct this by stepping your legs to the side opposite your choking arm, creating approximately 90 degrees to their spine. Your chest should be perpendicular to their body, head positioned toward their far hip. This angle creates a mechanical wedge that prevents them from rolling toward you or straightening their posture. Without proper angle, opponents can simply turn into you and slip out despite deep penetration.",
+      "safety_critical": false
+    },
+    {
+      "question": "During a competition, your opponent is defending your D'arce by keeping their chin extremely tucked—how do you overcome this defense and finish?",
+      "answer": "The chin tuck is a common but limited defense against the D'arce because the choke attacks the shoulder-neck structure, not just the throat. To overcome: first, ensure your arm is deep enough that you're compressing their shoulder against their own neck (not just squeezing the neck). Second, increase your perpendicular angle and drive more weight through your shoulder into their trapped arm—this wedges their shoulder further into their neck. Third, focus your squeeze on the bicep side rather than trying to compress the front of the neck. The shoulder pressure combined with carotid compression on the bicep side will finish even against a tucked chin within 10-15 seconds if positioned correctly.",
+      "safety_critical": false
     }
   ],
   "training_progressions_and_safety_protocols": [
@@ -315,7 +345,7 @@
     "Guillotine Choke",
     "Arm Triangle",
     "Brabo Choke",
-    "Marce Choke",
+    "Brabo Variations",
     "Peruvian Necktie",
     "Japanese Necktie",
     "North-South Choke",
@@ -325,48 +355,48 @@
   ],
   "related_content": [
     {
-      "name": "Darce Setup",
-      "relationship": "Primary entry technique from standing and front headlock"
+      "name": "Darce Choke",
+      "relationship": "Primary standard version that these variations build upon"
     },
     {
-      "name": "Darce from Turtle",
-      "relationship": "Most common variation setup from turtle top position"
-    },
-    {
-      "name": "Front Headlock to Darce",
-      "relationship": "Transition sequence for establishing choking position"
-    },
-    {
-      "name": "Anaconda Setup",
+      "name": "Anaconda Choke",
       "relationship": "Alternative choke when D'arce is defended or unavailable"
     },
     {
-      "name": "Snap Down to Front Headlock",
-      "relationship": "Standing entry creating front headlock control for D'arce"
+      "name": "Front Headlock",
+      "relationship": "Primary control position for establishing D'arce entries"
     },
     {
-      "name": "Head Control",
-      "relationship": "Fundamental principle for all D'arce entries"
-    },
-    {
-      "name": "Shoulder Pressure",
-      "relationship": "Critical pressure point for finishing D'arce effectively"
-    },
-    {
-      "name": "Control Maintenance",
-      "relationship": "Principle for holding position during D'arce transitions"
-    },
-    {
-      "name": "Guillotine Sequence",
-      "relationship": "Chaining system when switching between front headlock attacks"
+      "name": "Turtle",
+      "relationship": "Common attacking position where D'arce from turtle variation applies"
     },
     {
       "name": "Anaconda Control",
       "relationship": "Sister position with similar mechanics and applications"
     },
     {
+      "name": "D'arce Control",
+      "relationship": "Control position for securing the D'arce before finishing"
+    },
+    {
       "name": "Gift Wrap",
       "relationship": "Arm control position that can transition to D'arce variations"
+    },
+    {
+      "name": "Brabo Choke",
+      "relationship": "Related arm-in choke from side control with similar mechanics"
+    },
+    {
+      "name": "Guillotine Choke",
+      "relationship": "Front headlock submission that chains with D'arce attacks"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Position where D'arce from half guard top variation applies"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Position for Brabo variation entry with D'arce mechanics"
     }
   ]
 }

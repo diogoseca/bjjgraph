@@ -20,38 +20,38 @@ description: "Establish New York control from bottom position with overhook and 
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Invisible Collar",
-      "text": "From this position, execute Transition to Invisible Collar to transition to Invisible Collar. Success rate for advanced practitioners: 65%.",
+      "name": "Execute New York to Invisible Collar",
+      "text": "From this position, attempt New York to Invisible Collar. This technique is attempted in 11% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Progression to Zombie",
-      "text": "From this position, execute Progression to Zombie to transition to Zombie. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Progression to Zombie. This technique is attempted in 11% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Advance to Chill Dog",
-      "text": "From this position, execute Advance to Chill Dog to transition to Chill Dog. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Advance to Chill Dog. This technique is attempted in 9% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rotate to Carni",
-      "text": "From this position, execute Rotate to Carni to transition to Carni. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Rotate to Carni. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Setup",
-      "text": "From this position, execute Triangle Setup to transition to Triangle Control. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Triangle Setup. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Omoplata Sweep",
-      "text": "From this position, execute Omoplata Sweep to transition to Omoplata Control. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 8% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -220,105 +220,26 @@ From a learning progression standpoint, New York Bottom typically requires 40-60
 
 ## Available Escapes
 
-### [[Transition to Invisible Collar]] → [[Invisible Collar]]
+### [[New York to Invisible Collar]] (11% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 45%
-- Advanced: 65%
+### [[Progression to Zombie]] (11% of attempts)
 
-### [[Progression to Zombie]] → [[Zombie]]
+### [[Advance to Chill Dog]] (9% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 70%
+### [[Rotate to Carni]] (10% of attempts)
 
-### [[Advance to Chill Dog]] → [[Chill Dog]]
+### [[Triangle Setup]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 55%
+### [[Omoplata Sweep]] (8% of attempts)
 
-### [[Rotate to Carni]] → [[Carni]]
+### [[Gogoplata]] (7% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 60%
+### [[Armbar from Guard]] (11% of attempts)
 
-### [[Triangle Setup]] → [[Triangle Control]]
+### [[Hip Bump Sweep]] (11% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 55%
-- Advanced: 75%
+### [[Omoplata to Back]] (10% of attempts)
 
-### [[Omoplata Sweep]] → [[Omoplata Control]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
-
-### [[Gogoplata]] → [[Gogoplata Control]]
-
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 25%
-- Advanced: 40%
-
-### [[Armbar from Guard]] → [[Armbar Control]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 65%
-
-### [[Hip Bump Sweep]] → [[Mount]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 70%
-
-### [[Omoplata to Back]] → [[Back Control]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 60%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Overhook Extraction]]** → [[Closed Guard]] (Opponent Success: 40%)
-- **[[Posture Recovery]]** → [[Closed Guard]] (Opponent Success: 35%)
-- **[[Stack Defense]]** → [[Defensive Position]] (Opponent Success: 30%)
-- **[[Base Widening]]** → [[Closed Guard]] (Opponent Success: 25%)
-- **[[Guard Opening Sequence]]** → [[Open Guard]] (Opponent Success: 20%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Re-establish Overhook]]** → [[New York]]
-  - Opponent attempts to extract trapped arm by pulling elbow back
-- **[[Transition to Triangle]]** → [[Triangle Control]]
-  - Opponent successfully extracts overhook but leaves arm inside guard
-- **[[Switch to Invisible Collar]]** → [[Invisible Collar]]
-  - Opponent drives forward trying to flatten position
-- **[[Rotate to Carni]]** → [[Carni]]
-  - Opponent attempts to widen base and circle away from overhook side
 
 
 </section>
@@ -328,7 +249,7 @@ From a learning progression standpoint, New York Bottom typically requires 40-60
 ## Decision Making from This Position
 
 **If opponent maintains low posture and tries to slowly extract overhook arm:**
-- Execute **[[Transition to Invisible Collar]]** → [[Invisible Collar]] (Probability: 65%)
+- Execute **[[New York to Invisible Collar]]** → [[Invisible Collar]] (Probability: 65%)
 - Execute **[[Progression to Zombie]]** → [[Zombie]] (Probability: 55%)
 
 
@@ -430,33 +351,39 @@ Partner chooses randomly between three escape attempts (overhook extraction, pos
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Triangle from New York
+## Test Your Knowledge
 
-`New York → Triangle Setup → Triangle Control → Triangle Choke`
+**Q1**: Your opponent starts widening their base and circling away from your overhook - what adjustment do you make?
+**A**: Immediately rotate your hips to follow their movement while tightening your overhook grip. As they widen base and circle, this creates the perfect opening for Carni position - rotate your body toward the overhook side and begin threading your leg for omoplata control. Their base widening actually compromises their ability to resist the rotational movement. If they stop circling, use the angle you've gained to threaten the omoplata sweep.
 
-### Gogoplata via Chill Dog
+**Q2**: What are the essential grip configurations for maintaining strong New York control?
+**A**: The overhook arm must wrap deep around the opponent's tricep with your shoulder tight against their armpit - not just controlling the elbow. Your shin-gripping hand should hold near the ankle with a full wrap grip, positioned between ankle and lower calf. The combination of deep overhook and high ankle grip creates maximum leverage. Your free hand (non-overhook side) should be ready to assist with transitions or defend their grip fighting attempts.
 
-`New York → Advance to Chill Dog → Gogoplata Control → Gogoplata`
+**Q3**: How do you distribute your weight and hip position to maintain New York against a strong posture recovery attempt?
+**A**: Keep your hips angled slightly toward the overhook side rather than flat on your back. This angle loads their weight onto the compromised trapped arm side. Your core must remain engaged continuously to maintain hip elevation - the moment you relax, they can drive forward. Pull with your shin grip to maintain constant downward pressure on their shoulders. Small circular hip adjustments prevent them from establishing a stable platform for posture recovery.
 
-### Omoplata via Carni
+**Q4**: What is the primary escape your opponent will attempt and how do you shut it down?
+**A**: The primary escape is overhook extraction by pulling their elbow back toward their hip. Shut this down by maintaining shoulder-to-armpit pressure and deepening your overhook whenever you feel them pulling. If they begin successful extraction, immediately transition to triangle control by shooting your leg over their shoulder as their arm comes free. Their extraction attempt actually creates the opening for the triangle because their arm is positioned inside your guard as it extracts.
 
-`New York → Rotate to Carni → Omoplata Control → Omoplata`
+**Q5**: Your opponent drives forward aggressively trying to flatten you - how do you use this against them?
+**A**: Accept their forward drive and use it to advance to Chill Dog or Invisible Collar. As they drive in, swim your free hand to the back of their head for Invisible Collar, or thread your leg deeper to begin Chill Dog setup for gogoplata. Their forward pressure actually assists these transitions because it brings their head closer and compresses the space you need to control. The key is recognizing their drive as an opportunity rather than a threat.
 
-### Armbar from Overhook
+**Q6**: How do you apply offensive pressure from New York to force reactions you can exploit?
+**A**: Use your shin across their back as a lever by pulling with your grip and engaging your hip flexors. This constant pulling pressure forces them to resist continuously, depleting their energy faster than yours. Simultaneously use your overhook to control their posting arm's angle, preventing them from establishing any stable position. Cycle through minor attack feints every 5-10 seconds to keep them reacting rather than implementing their escape plan. Their defensive reactions reveal which attack pathway will be highest percentage.
 
-`New York → Armbar from Guard → Armbar Control → Straight Armbar`
+**Q7**: You feel your hip flexibility failing and can't maintain shin-to-shoulder connection - what's your recovery protocol?
+**A**: Immediately transition to your strongest available attack before control degrades completely. If you can threaten triangle or armbar, do so now while you still have overhook control. If that's not available, pull them into tighter closed guard while maintaining the overhook - this gives you recovery time while keeping offensive options. Never simply release and return to neutral closed guard if you can avoid it, as this wastes the positional advantage you created. Use the time in closed guard to rest your hips before re-attempting New York.
 
-### Back Take via Omoplata
-
-`New York → Rotate to Carni → Omoplata to Back → Back Control → Rear Naked Choke`
+**Q8**: How do you manage energy expenditure during extended New York control while maintaining offensive threat?
+**A**: New York control is structurally efficient - the opponent expends more energy defending than you do attacking. Use your skeletal structure rather than muscular effort by keeping your overhook locked at the joint rather than squeezing constantly. Your shin grip should use finger strength positioned for leverage rather than pure grip strength. Cycle through attack threats every 5-10 seconds to keep them reactive, but commit fully only when you feel genuine openings. This prevents the energy waste of uncommitted attacks while maintaining constant pressure.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -479,12 +406,12 @@ Partner chooses randomly between three escape attempts (overhook extraction, pos
 
 - **[[Mission Control]]** - Primary entry position for establishing New York control
 - **[[Rubber Guard]]** - Parent system containing New York and all related positions
-- **[[10th Planet Rubber Guard System]]** - Complete systematic approach to rubber guard game including New York
-- **[[Guard Retention]]** - Fundamental principle supporting New York maintenance
-- **[[Flexibility Training]]** - Essential physical preparation for effective New York execution
-- **[[Posture Breaking]]** - Critical prerequisite skill for successful New York entry
-- **[[Triangle from Closed Guard]]** - Alternative attack option when New York cannot be maintained
-- **[[Offensive Combinations]]** - Strategic framework for chaining attacks from New York
+- **[[Invisible Collar]]** - Advanced attacking position reached from New York
+- **[[Zombie]]** - Deeper control position for maintaining attack pressure
+- **[[Chill Dog]]** - Finishing position for gogoplata attacks
+- **[[Carni]]** - Omoplata attack position from New York rotation
+- **[[Closed Guard]]** - Foundational position and fallback if New York fails
+- **[[Triangle Control]]** - Alternative attack when overhook is compromised
 
 
 </section>

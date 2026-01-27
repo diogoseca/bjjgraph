@@ -404,10 +404,20 @@ The Arm Crush is a powerful shoulder lock submission that combines crushing pres
 - [[Kuzure Kesa-Gatame]] - Ideal setup position - arm is already trapped in perfect configuration
 - [[North-South]] - Alternative position - allows Arm Crush variation from opposite angle
 - [[Control Maintenance]] - Critical principle - must maintain side control consolidation throughout
-- [[Transition to North-South]] - Position change - if opponent begins escaping side control
+- [[Side Control to North-South]] - Position change - if opponent begins escaping side control
 - [[Pressure Application]] - Core principle - progressive pressure is essential for safety and effectiveness
 - [[Kimura Trap System]] - Related system - Arm Crush can be integrated into Kimura-based attack sequences
 
+
+</section>
+
+<section id="terminal-state" class="content-section">
+
+## Match Outcome
+
+Successful execution of Arm Crush leads to → [[game-over|Game Over]]
+
+*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
 
 </section>
 

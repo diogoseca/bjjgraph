@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Half Guard to Back Take | BJJ Technique | BJJ Graph"
 description: "Learn Half Guard to Back Take in BJJ. Advanced transition from half guard to dominant back control. Success rates: Beginner 45%, Intermediate 70%, Advanced 85%."
@@ -16,7 +17,7 @@ description: "Learn Half Guard to Back Take in BJJ. Advanced transition from hal
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Half Guard to Back Take in BJJ",
-  "description": "Step-by-step guide for Half Guard to Back Take from Half Guard to Back Control.",
+  "description": "Step-by-step guide for Half Guard to Back Take from Half Guard/Bottom. Possible outcomes: Back Control/Top (75%), Half Guard/Bottom (15%), Half Guard/Top (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -166,11 +167,25 @@ description: "Learn Half Guard to Back Take in BJJ. Advanced transition from hal
 
 Half Guard to Back Take represents an advanced positional transition that transforms a defensive half guard position into the highly dominant back control. This transition is fundamental to modern half guard systems and represents one of the highest-percentage paths to dominance from bottom position. The technique relies on establishing an underhook, creating a perpendicular angle to the opponent, and systematically climbing to their back while they attempt to maintain top pressure. This transition is particularly effective because it exploits the opponent's forward pressure against them, using their own weight commitment to facilitate the back take. Mastery of this transition is essential for any serious half guard player and represents a key component of offensive half guard systems developed by experts like Bernardo Faria and Craig Jones.
 
-**Starting Position**: [[Half Guard]]
-**Ending Position**: [[Back Control]]
+**From Position**: [[Half Guard/Bottom]]
 **Success Rates**: Beginner 45%, Intermediate 70%, Advanced 85%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Back Control/Top]] | 75% |
+| Failure | [[Half Guard/Bottom]] | 15% |
+| Counter | [[Half Guard/Top]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

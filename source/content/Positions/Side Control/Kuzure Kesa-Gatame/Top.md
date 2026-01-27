@@ -21,37 +21,37 @@ description: "Offensive guide for controlling and attacking from modified scarf 
     {
       "@type": "HowToStep",
       "name": "Execute Americana from Side Control",
-      "text": "From this position, execute Americana from Side Control to transition to Americana Control. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Americana from Side Control. This technique is attempted in 11% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Armbar from Side Control",
-      "text": "From this position, execute Armbar from Side Control to transition to Armbar Control. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Armbar from Side Control. This technique is attempted in 10% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kimura from Side Control",
-      "text": "From this position, execute Kimura from Side Control to transition to Kimura Control. Success rate for advanced practitioners: 72%.",
+      "text": "From this position, attempt Kimura from Side Control. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Mount",
-      "text": "From this position, execute Transition to Mount to transition to Mount. Success rate for advanced practitioners: 80%.",
+      "name": "Execute Side Control to Mount",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 11% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to North-South",
-      "text": "From this position, execute Transition to North-South to transition to North-South. Success rate for advanced practitioners: 82%.",
+      "name": "Execute Side Control to North-South",
+      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Paper Cutter Choke",
-      "text": "From this position, execute Paper Cutter Choke to transition to Won by Submission. Success rate for advanced practitioners: 62%.",
+      "text": "From this position, attempt Paper Cutter Choke. This technique is attempted in 9% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -211,105 +211,26 @@ The position also serves a critical strategic role in competition and training s
 
 ## Available Attacks
 
-### [[Americana from Side Control]] → [[Americana Control]]
+### [[Americana from Side Control]] (11% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 60%
-- Advanced: 75%
+### [[Armbar from Side Control]] (10% of attempts)
 
-### [[Armbar from Side Control]] → [[Armbar Control]]
+### [[Kimura from Side Control]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Side Control to Mount]] (11% of attempts)
 
-### [[Kimura from Side Control]] → [[Kimura Control]]
+### [[Side Control to North-South]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 38%
-- Intermediate: 58%
-- Advanced: 72%
+### [[Paper Cutter Choke]] (9% of attempts)
 
-### [[Transition to Mount]] → [[Mount]]
+### [[Arm Triangle]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 65%
-- Advanced: 80%
+### [[Breadcutter Choke]] (8% of attempts)
 
-### [[Transition to North-South]] → [[North-South]]
+### [[Far Side Armbar]] (9% of attempts)
 
-**Success Rates:**
-- Beginner: 50%
-- Intermediate: 68%
-- Advanced: 82%
+### [[Gift Wrap Control]] (10% of attempts)
 
-### [[Paper Cutter Choke]] → [[Won by Submission]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 45%
-- Advanced: 62%
-
-### [[Arm Triangle]] → [[Won by Submission]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 68%
-
-### [[Breadcutter Choke]] → [[Won by Submission]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 40%
-- Advanced: 58%
-
-### [[Far Side Armbar]] → [[Armbar Control]]
-
-**Success Rates:**
-- Beginner: 28%
-- Intermediate: 48%
-- Advanced: 65%
-
-### [[Gift Wrap Control]] → [[Gift Wrap]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 52%
-- Advanced: 68%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Elbow Escape]]** → [[Half Guard]] (Opponent Success: 30%)
-- **[[Bridge and Roll]]** → [[Side Control]] (Opponent Success: 20%)
-- **[[Granby Roll]]** → [[Turtle]] (Opponent Success: 28%)
-- **[[Arm Recovery to Guard]]** → [[Closed Guard]] (Opponent Success: 25%)
-- **[[Technical Standup]]** → [[Standing Position]] (Opponent Success: 15%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Mount Transition]]** → [[Mount]]
-  - Opponent turns into you attempting to recover guard
-- **[[Armbar Attack]]** → [[Armbar Control]]
-  - Opponent extends trapped arm during escape attempt
-- **[[North-South Transition]]** → [[North-South]]
-  - Opponent creates space with hip escape on near side
-- **[[Americana Lock]]** → [[Americana Control]]
-  - Opponent uses trapped arm to push against your chest
 
 
 </section>
@@ -319,22 +240,22 @@ The position also serves a critical strategic role in competition and training s
 ## Decision Making from This Position
 
 **If opponent keeps trapped arm bent and defensive while attempting hip escapes:**
-- Execute **[[Transition to Mount]]** → [[Mount]] (Probability: 70%)
-- Execute **[[Transition to North-South]]** → [[North-South]] (Probability: 60%)
+- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 70%)
+- Execute **[[Side Control to North-South]]** → [[North-South]] (Probability: 60%)
 
 
 **Else if opponent extends trapped arm attempting to create frame or push:**
 - Execute **[[Armbar from Side Control]]** → [[Armbar Control]] (Probability: 75%)
-- Execute **[[Americana from Side Control]]** → [[Americana Control]] (Probability: 68%)
+- Execute **[[Americana from Side Control]]** → [[Kimura Trap]] (Probability: 68%)
 
 
 **Else if opponent bridges and attempts to roll you over posting leg:**
-- Execute **[[Kimura from Side Control]]** → [[Kimura Control]] (Probability: 65%)
+- Execute **[[Kimura from Side Control]]** → [[Kimura Trap]] (Probability: 65%)
 - Execute **[[Gift Wrap Control]]** → [[Gift Wrap]] (Probability: 58%)
 
 
 **Else if opponent turns away exposing their back to escape pressure:**
-- Execute **[[Transition to Mount]]** → [[Mount]] (Probability: 80%)
+- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 80%)
 - Execute **[[Back Take Generic]]** → [[Back Control]] (Probability: 72%)
 
 
@@ -428,33 +349,39 @@ Start with compliant partner, increase their resistance by 20% every minute unti
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Americana Finish Chain
+## Test Your Knowledge
 
-`Kuzure Kesa-Gatame Top → Americana from Side Control → Americana Control → Won by Submission`
+**Q1**: Your opponent begins bridging explosively toward your posting leg - what adjustment do you make to maintain position?
+**A**: Immediately widen your base leg further from their body while simultaneously dropping your head past their far shoulder. This redirects the bridge force harmlessly across your body rather than over your base. Keep your hip pressure constant and let their bridge exhaust their energy while you remain structurally sound.
 
-### Armbar Progression
+**Q2**: What are the two critical control points for the trapped arm and why are both necessary?
+**A**: You must control both the shoulder (through armpit pressure clamping down on their upper arm) and the wrist (through grip or arm positioning). Controlling only the wrist allows them to rotate their shoulder and thread the arm free during hip escapes. Controlling only the shoulder permits them to extend the arm and create pushing frames. Both points together create a closed kinetic chain that prevents arm recovery.
 
-`Kuzure Kesa-Gatame Top → Armbar from Side Control → Armbar Control → Won by Submission`
+**Q3**: Your opponent uses their free arm to push against your chest and create space - how do you shut this down?
+**A**: Stay low with your chest parallel to the mat rather than sitting upright. Their push has no leverage point when your weight is already distributed low across their torso. If needed, use your head position on their far side to redirect any pushing force. The key is preventing them from getting their elbow underneath their push - keep your chest heavy and deny the space needed for effective framing.
 
-### Mount to Submission
+**Q4**: What is the proper weight distribution through your body to maintain maximum control with minimum energy expenditure?
+**A**: Channel approximately 70% of your weight through your hip into their ribs and 30% through your chest onto their upper body. Your posting leg should be weight-bearing only for balance, not for pressure generation. Relax your upper body muscles and let skeletal alignment maintain the chest position - tension in your arms and shoulders wastes energy and actually reduces control effectiveness.
 
-`Kuzure Kesa-Gatame Top → Transition to Mount → Mount → Armbar from Mount → Won by Submission`
+**Q5**: How do you use hip pressure directionally rather than just applying downward weight?
+**A**: Direct your hip pressure at a 45-degree angle toward their far hip, not straight down into the mat. This angular pressure prevents them from turning into you or away from you - it pins their torso in place. Think of driving your hip through their body toward their far hip bone. This directional pressure is far more controlling than simply being heavy.
 
-### Kimura Control Path
+**Q6**: Your opponent starts attempting to recover guard by turning into you - what immediate action prevents this while creating offensive opportunity?
+**A**: Their turn into you opens the mount transition. As they turn, slide your near knee across their belly while maintaining arm control. Their own turning motion helps you advance. If they stop turning to prevent mount, they return to the original position under your control. This creates a lose-lose dilemma where their escape attempt enables your advancement.
 
-`Kuzure Kesa-Gatame Top → Kimura from Side Control → Kimura Control → Won by Submission`
+**Q7**: What mistake causes rapid fatigue in this position and how do you correct it?
+**A**: Using muscular tension in your arms and chest to maintain control causes rapid fatigue. The correction is to completely relax your upper body musculature while maintaining structural positioning. Your body weight does the work, not your muscles. Focus on skeletal alignment and letting gravity create pressure. If you feel your arms or chest burning, you're working too hard and need to adjust your structure.
 
-### Choke Attack Sequence
-
-`Kuzure Kesa-Gatame Top → Paper Cutter Choke → Won by Submission`
+**Q8**: How do you recognize when your opponent is about to attempt a hip escape and preemptively shut it down?
+**A**: Watch for them positioning their far foot flat on the mat (generating pushing power), slight tension in their hip flexors, or their free arm beginning to frame against your shoulder. When you sense these preparatory movements, immediately increase hip pressure and make a small adjustment - shift your hip angle slightly or pulse your pressure. This disrupts their timing and forces them to reset their escape attempt.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -482,9 +409,7 @@ Start with compliant partner, increase their resistance by 20% every minute unti
 - **[[Kimura from Side Control]]** - Alternative shoulder lock from same arm control
 - **[[Mount]]** - Common advancement when opponent turns in
 - **[[North-South]]** - Transitional position for maintaining control
-- **[[Pressure Application]]** - Fundamental principle for position effectiveness
 - **[[Gift Wrap]]** - Alternative control when arm trapping opportunities arise
-- **[[100 Kilos]]** - Related position emphasizing shoulder pressure mechanics
 
 
 </section>

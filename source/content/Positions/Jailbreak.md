@@ -93,26 +93,20 @@ From bottom perspective, the practitioner uses underhook control combined with i
 - Chain to back takes or guard recovery if opponent follows the roll instead of stopping at turtle
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Jailbreak to Turtle]]** → [[Turtle]]
-  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 70%
+- **[[Jailbreak to Turtle]]** (19% of attempts)
 
-- **[[Jailbreak to Back Take]]** → [[Back Control]]
-  - Success Rate: Beginner 20%, Intermediate 40%, Advanced 60%
+- **[[Jailbreak to Back Take]]** (16% of attempts)
 
-- **[[Jailbreak to Deep Half Entry]]** → [[Deep Half Guard]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 65%
+- **[[Jailbreak to Deep Half Entry]]** (17% of attempts)
 
-- **[[Guard Recovery]]** → [[Half Guard]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 70%
+- **[[Guard Recovery]]** (19% of attempts)
 
-- **[[Old School Sweep]]** → [[Mount]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 50%
+- **[[Old School Sweep]]** (13% of attempts)
 
-- **[[Technical Standup]]** → [[Standing Position]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 60%
+- **[[Technical Standup]]** (16% of attempts)
 
 
 ### Common Mistakes
@@ -170,32 +164,24 @@ From bottom perspective, the practitioner uses underhook control combined with i
 - Use leg positioning to block bottom player's hip movement while navigating around extended legs
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Leg Weave Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+- **[[Leg Weave Pass]]** (13% of attempts)
 
-- **[[Smash Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 80%
+- **[[Smash Pass]]** (15% of attempts)
 
-- **[[Knee Slice from Half]]** → [[Side Control]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Knee Slice from Half]]** (12% of attempts)
 
-- **[[Back Step]]** → [[Outside Ashi-Garami]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Back Step]]** (12% of attempts)
 
-- **[[Underhook Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+- **[[Underhook Pass]]** (13% of attempts)
 
-- **[[Headquarters Pass]]** → [[Headquarters Position]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Headquarters Pass]]** (12% of attempts)
 
-- **[[Toreando Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Toreando Pass]]** (12% of attempts)
 
-- **[[X Pass]]** → [[Mount]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[X Pass]]** (11% of attempts)
 
 
 ### Common Mistakes

@@ -438,4 +438,14 @@ The toe hold from 50-50 has gained significant prominence in modern no-gi compet
 
 </section>
 
+<section id="terminal-state" class="content-section">
+
+## Match Outcome
+
+Successful execution of Toe Hold from 50-50 leads to → [[game-over|Game Over]]
+
+*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+
+</section>
+
 </main>

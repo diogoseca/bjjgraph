@@ -21,37 +21,37 @@ description: "Master Half Butterfly Top position in BJJ. Top player control agai
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, execute Knee Slice Pass to transition to Side Control. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 19% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Smash Pass",
-      "text": "From this position, execute Smash Pass to transition to Side Control. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Smash Pass. This technique is attempted in 18% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Long Step Pass",
-      "text": "From this position, execute Long Step Pass to transition to Side Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Long Step Pass. This technique is attempted in 17% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag Pass",
-      "text": "From this position, execute Leg Drag Pass to transition to Side Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 15% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Mount",
-      "text": "From this position, execute Transition to Mount to transition to Mount. Success rate for advanced practitioners: 55%.",
+      "name": "Execute Side Control to Mount",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 14% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Pass",
-      "text": "From this position, execute Underhook Pass to transition to Side Control. Success rate for advanced practitioners: 68%.",
+      "text": "From this position, attempt Underhook Pass. This technique is attempted in 17% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -211,77 +211,18 @@ The top player must establish upper body control first through crossface or unde
 
 ## Available Attacks
 
-### [[Knee Slice Pass]] → [[Side Control]]
+### [[Knee Slice Pass]] (19% of attempts)
 
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 60%
-- Advanced: 75%
+### [[Smash Pass]] (18% of attempts)
 
-### [[Smash Pass]] → [[Side Control]]
+### [[Long Step Pass]] (17% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Leg Drag Pass]] (15% of attempts)
 
-### [[Long Step Pass]] → [[Side Control]]
+### [[Side Control to Mount]] (14% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Underhook Pass]] (17% of attempts)
 
-### [[Leg Drag Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[Transition to Mount]] → [[Mount]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-### [[Underhook Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 38%
-- Intermediate: 53%
-- Advanced: 68%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Butterfly Sweep Variations]]** → [[Half Butterfly]] (Opponent Success: 40%)
-- **[[Underhook Sweep from Half]]** → [[Mount]] (Opponent Success: 35%)
-- **[[Guard Replacement]]** → [[Knee Shield Half Guard]] (Opponent Success: 45%)
-- **[[Deep Half Entry]]** → [[Deep Half Guard]] (Opponent Success: 30%)
-- **[[Re-Guard]]** → [[Butterfly Guard]] (Opponent Success: 25%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Underhook Pass]]** → [[Side Control]]
-  - Bottom player attempts underhook sweep
-- **[[Leg Weave Pass]]** → [[Side Control]]
-  - Bottom player extends butterfly hook for sweep attempt
-- **[[Front Headlock Series]]** → [[Front Headlock]]
-  - Bottom player turns to turtle to escape pressure
-- **[[Transition to North-South]]** → [[North-South]]
-  - Bottom player creates too much space attempting to recover guard
 
 
 </section>
@@ -388,29 +329,39 @@ Top player maintains half butterfly top while bottom player randomly chooses bet
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### High-percentage passing to submission
+## Test Your Knowledge
 
-`Half Butterfly Top → Knee Slice Pass → Side Control → Kimura from Side Control`
+**Q1**: What is the most critical weight distribution adjustment to neutralize the butterfly hook's lifting power?
+**A**: Drive your chest forward and down onto the bottom player's upper body while keeping your hips low and heavy. This shifts the load away from the hook's optimal leverage point near the thigh and distributes your weight where the bottom player's structural support is weakest. Avoid sitting upright, which allows the hook to engage fully and generate maximum elevation.
 
-### Back attack opportunity
+**Q2**: Your opponent begins to elevate with their butterfly hook - what immediate adjustment prevents the sweep?
+**A**: Immediately widen your base by spreading your knees outward while driving your hips forward toward the mat. Simultaneously apply heavier chest pressure and drive your shoulder across their face with a crossface. This combination removes space for the hook to generate lift and pins their upper body, killing the sweep before momentum builds.
 
-`Half Butterfly Top → Turtle Transition → Turtle to Back Take → Back Control → Rear Naked Choke`
+**Q3**: What are the essential grips and control points for maintaining half butterfly top position?
+**A**: The primary controls are crossface pressure controlling their head position, underhook or overhook on the near-side arm to prevent framing, and control of the far hip or leg to prevent guard recovery. The crossface is paramount as it limits their ability to turn into you and generate sweeping angles. Secondary control includes using your chest as a connection point to feel their movements.
 
-### Mount progression
+**Q4**: How do you shut down the bottom player's primary escape route to deep half guard?
+**A**: Keep your hips heavy and your inside knee positioned to block their head from diving underneath you. When you feel them attempting to turn away and shoot their outside arm under your hips, immediately sprawl your hips back and drive weight forward to flatten them. Maintaining constant chest pressure prevents them from creating the angle needed to enter deep half.
 
-`Half Butterfly Top → Smash Pass → Side Control → Transition to Mount → Mount → Armbar from Mount`
+**Q5**: What grip priorities should guide your passing sequence from half butterfly top?
+**A**: Prioritize crossface control first to control their head and prevent them from turning into you. Second priority is controlling their near arm to eliminate frames. Third is far hip or leg control to prevent guard recovery. Only after establishing these control points should you begin actively working passing mechanics. Rushing to pass without these controls results in being swept or stalled.
 
-### Pressure to arm attack
+**Q6**: The bottom player gets an underhook and starts coming up - what technique chain prevents the sweep?
+**A**: When they establish the underhook and begin to elevate, immediately circle toward their back while maintaining head position. If they continue rising, transition to the Underhook Pass by driving your overhook deep, sprawling your hips away, and using your head to drive them back down. If they collapse back, immediately return to heavy pressure and restart your passing sequence.
 
-`Half Butterfly Top → Underhook Pass → Side Control → Americana from Side Control`
+**Q7**: How do you manage energy expenditure while maintaining pressure in this position?
+**A**: Use skeletal structure rather than muscular effort to maintain pressure - let your bodyweight work through proper alignment rather than actively pushing. Keep your hips low so you're driving weight downward naturally. Avoid constant movement; instead, settle into pressure and wait for their reactions to guide your passing. Move in response to their attempts rather than initiating constantly.
+
+**Q8**: Your opponent partially recovers butterfly guard by inserting their second hook - how do you recover control?
+**A**: Immediately address the new hook by driving your hips toward the mat on that side and using your knee or shin to block the hook's elevation. Reestablish crossface pressure and work to clear one hook at a time by swimming your leg over or backstopping around it. Do not try to pass through double hooks - retreat slightly if needed to reset with only one hook engaged.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -438,8 +389,6 @@ Top player maintains half butterfly top while bottom player randomly chooses bet
 - **[[Knee Slice Pass]]** - Primary technique - most common passing option
 - **[[Smash Pass]]** - Primary technique - high-pressure passing option
 - **[[Underhook Pass]]** - Counter technique - used when bottom player gets underhook
-- **[[Pressure Passing]]** - Core concept - fundamental approach for this position
-- **[[Guard Passing Principles]]** - Fundamental concept - theoretical framework
 - **[[Deep Half Guard]]** - Common transition - where bottom player escapes
 
 

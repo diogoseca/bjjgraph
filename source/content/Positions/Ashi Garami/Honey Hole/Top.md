@@ -21,37 +21,37 @@ description: "Master Honey Hole Position Top in BJJ. Advanced leg entanglement c
     {
       "@type": "HowToStep",
       "name": "Execute Outside Heel Hook",
-      "text": "From this position, execute Outside Heel Hook to transition to Won by Submission. Success rate for advanced practitioners: 85%.",
+      "text": "From this position, attempt Outside Heel Hook. This technique is attempted in 16% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Inside Heel Hook",
-      "text": "From this position, execute Inside Heel Hook to transition to Won by Submission. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Inside Heel Hook. This technique is attempted in 13% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kneebar Finish",
-      "text": "From this position, execute Kneebar Finish to transition to Kneebar Control. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Kneebar Finish. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Toe Hold from Top",
-      "text": "From this position, execute Toe Hold from Top to transition to Toe Hold Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Toe Hold from Top. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Saddle Entry from Top",
-      "text": "From this position, execute Saddle Entry from Top to transition to Saddle. Success rate for advanced practitioners: 80%.",
+      "text": "From this position, attempt Saddle Entry from Top. This technique is attempted in 14% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Turtle to Back Take",
-      "text": "From this position, execute Turtle to Back Take to transition to Back Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Turtle to Back Take. This technique is attempted in 11% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -162,7 +162,7 @@ description: "Master Honey Hole Position Top in BJJ. Advanced leg entanglement c
 
 Honey Hole Position Top, also known as Inside Sankaku or 411 position, is an advanced leg entanglement where the top player traps one of opponent's legs between their own legs while facing their opponent. This position is highly offensive, providing direct access to heel hooks, kneebars, and toe holds while limiting opponent's escape options. The position creates a powerful control system through hip pressure and leg configuration, making it one of the most dangerous positions in modern no-gi BJJ.
 
-The Honey Hole represents the culmination of modern leg lock development, pioneered by systematic and his students. From this position, the top player maintains significant control advantages while threatening multiple submission paths. The position is characterized by the specific leg entanglement where one leg triangles around opponent's trapped leg while the other leg crosses over their hip, creating a figure-four configuration that isolates the leg for attack.
+The Honey Hole represents the culmination of modern leg lock development, refined through systematic study of leg entanglement mechanics. From this position, the top player maintains significant control advantages while threatening multiple submission paths. The position is characterized by the specific leg entanglement where one leg triangles around opponent's trapped leg while the other leg crosses over their hip, creating a figure-four configuration that isolates the leg for attack.
 
 This position excels in no-gi grappling and submission-only rulesets where leg attacks are permitted. It requires careful control and technical precision to maintain while setting up submissions. The risk level is medium because improper execution can result in counter-entanglements or leg lock exposure for the attacker. The position's effectiveness stems from its ability to create mechanical disadvantage for the defender while establishing multiple submission threats simultaneously.
 
@@ -212,93 +212,22 @@ This position excels in no-gi grappling and submission-only rulesets where leg a
 
 ## Available Attacks
 
-### [[Outside Heel Hook]] → [[Won by Submission]]
+### [[Outside Heel Hook]] (16% of attempts)
 
-**Success Rates:**
-- Beginner: 55%
-- Intermediate: 70%
-- Advanced: 85%
+### [[Inside Heel Hook]] (13% of attempts)
 
-### [[Inside Heel Hook]] → [[Won by Submission]]
+### [[Kneebar Finish]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 60%
-- Advanced: 75%
+### [[Toe Hold from Top]] (12% of attempts)
 
-### [[Kneebar Finish]] → [[Kneebar Control]]
+### [[Saddle Entry from Top]] (14% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Turtle to Back Take]] (11% of attempts)
 
-### [[Toe Hold from Top]] → [[Toe Hold Control]]
+### [[Inside Ashi Entry]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Calf Slicer from Truck]] (10% of attempts)
 
-### [[Saddle Entry from Top]] → [[Saddle]]
-
-**Success Rates:**
-- Beginner: 50%
-- Intermediate: 65%
-- Advanced: 80%
-
-### [[Turtle to Back Take]] → [[Back Control]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[Inside Ashi Entry]] → [[Inside Ashi-Garami]]
-
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
-
-### [[Calf Slicer from Truck]] → [[Calf Slicer]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Hip Escape]]** → [[Scramble Position]] (Opponent Success: 35%)
-- **[[Guard Replacement]]** → [[Open Guard]] (Opponent Success: 30%)
-- **[[Ashi Garami Escape]]** → [[Outside Ashi-Garami]] (Opponent Success: 25%)
-- **[[Rolling to Guard]]** → [[Turtle]] (Opponent Success: 20%)
-- **[[Saddle Defense]]** → [[Inside Ashi-Garami]] (Opponent Success: 15%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Outside Heel Hook]]** → [[Won by Submission]]
-  - Opponent attempts hip rotation escape
-- **[[Saddle Entry from Top]]** → [[Saddle]]
-  - Opponent creates space with leg extraction attempt
-- **[[Turtle to Back Take]]** → [[Back Control]]
-  - Opponent turns away to escape entanglement
-- **[[Kneebar Finish]]** → [[Kneebar Control]]
-  - Opponent defends heel by hiding foot
-- **[[Inside Heel Hook]]** → [[Won by Submission]]
-  - Opponent attempts to clear outside leg
 
 
 </section>
@@ -308,20 +237,20 @@ This position excels in no-gi grappling and submission-only rulesets where leg a
 ## Decision Making from This Position
 
 **If opponent attempts hip rotation to escape entanglement:**
-- Execute **[[Hip Pressure]]** → [[Honey Hole Top]] (Probability: 70%)
+- Execute **[[Hip Pressure]]** → [[Honey Hole]] (Probability: 70%)
 - Execute **[[Turtle to Back Take]]** → [[Back Control]] (Probability: 60%)
-- Execute **[[Outside Heel Hook]]** → [[Won by Submission]] (Probability: 75%)
+- Execute **[[Outside Heel Hook]]** → [[game-over]] (Probability: 75%)
 
 
 **If opponent tries to extract trapped leg by pulling knee to chest:**
 - Execute **[[Saddle Entry from Top]]** → [[Saddle]] (Probability: 80%)
 - Execute **[[Kneebar Finish]]** → [[Kneebar Control]] (Probability: 65%)
-- Execute **[[Inside Heel Hook]]** → [[Won by Submission]] (Probability: 60%)
+- Execute **[[Inside Heel Hook]]** → [[game-over]] (Probability: 60%)
 
 
 **If opponent attempts to establish inside position for reversal:**
 - Execute **[[Inside Ashi Entry]]** → [[Inside Ashi-Garami]] (Probability: 65%)
-- Execute **[[Outside Heel Hook]]** → [[Won by Submission]] (Probability: 70%)
+- Execute **[[Outside Heel Hook]]** → [[game-over]] (Probability: 70%)
 - Execute **[[50-50 Entry from Standing]]** → [[50-50 Guard]] (Probability: 50%)
 
 
@@ -367,7 +296,7 @@ This position excels in no-gi grappling and submission-only rulesets where leg a
 ### 6. Crossing feet too tight on figure-four reducing mobility
 
 - ❌ **Consequence**: Limits your ability to adjust position and follow opponent's movements. Creates static position that skilled opponents can escape
-- ✅ **Correction**: Maintain figure-four with controlled tension—tight enough for control but loose enough to allow hip adjustments and transitions. Your feet should be engaged but not locked rigidly.
+- ✅ **Correction**: Maintain figure-four with controlled tension - tight enough for control but loose enough to allow hip adjustments and transitions. Your feet should be engaged but not locked rigidly.
 
 
 
@@ -409,33 +338,39 @@ Partner in bottom position attempts one specific escape technique at 75% intensi
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Highest percentage finishing sequence
+## Test Your Knowledge
 
-`X-Guard → Honey Hole Top → Outside Heel Hook → Won by Submission`
+**Q1**: What hip adjustment should you make when your opponent begins rotating their body toward you?
+**A**: Follow their rotation by driving your hips forward and down, maintaining perpendicular alignment while increasing pressure through your outside leg across their hip. Your hips must move with them to prevent them from creating the angle needed to extract their leg. Simultaneously tighten your inside leg triangle to prevent any slack that rotation could exploit.
 
-### Control-focused progression with multiple submission threats
+**Q2**: What are the three essential control points for maintaining Honey Hole position?
+**A**: The three essential control points are: (1) Inside leg triangle around opponent's thigh controlling hip rotation, (2) Outside leg crossing their hip with shin pressure pinning them down, and (3) Upper body control through grips on their far leg, belt/shorts, or arm to prevent them from sitting up and creating frames. All three must work together for dominant control.
 
-`Single Leg X-Guard → Honey Hole Top → Saddle → Inside Heel Hook → Won by Submission`
+**Q3**: How do you shut down the primary hip rotation escape from Honey Hole top?
+**A**: Anticipate the rotation by maintaining constant downward hip pressure through your outside leg, which acts as a wedge against their hip. When you feel them load up to rotate, drive your hips forward and slightly toward their centerline, collapsing any space they need to turn. Keep your inside leg triangle tight and your body perpendicular - rotation becomes impossible when your weight pins their hip flat.
 
-### Competition-proven path from guard passing
+**Q4**: What grip priorities should you establish before attempting heel hook from Honey Hole?
+**A**: First priority is controlling opponent's far leg or hip to prevent rotation and boot scooting. Second is securing their upper body to stop them from sitting up. Only then grip the heel - cup the heel with fingers on top, thumb underneath, with your other hand controlling their ankle or wrist. Gripping heel before securing control telegraphs the attack and gives them time to defend.
 
-`Headquarters Position → Outside Ashi-Garami → Honey Hole Top → Kneebar → Won by Submission`
+**Q5**: How do you apply pressure correctly in Honey Hole to drain opponent's energy while maintaining position?
+**A**: Apply pressure through your outside leg driving across their hip while keeping your hips tight against their trapped leg. Your body weight should flow through your hips and legs, not through pushing with arms. Maintain steady, crushing pressure rather than explosive bursts - this forces them to work constantly against your weight while you conserve energy. The triangle configuration does the work; you just maintain tension.
 
-### Back attack alternative when opponent defends legs
+**Q6**: Your opponent suddenly bridges and tries to invert toward your legs - what immediate adjustment do you make?
+**A**: Immediately drive your outside leg deeper across their hip while posting your far hand on the mat for base. Shift your hips slightly away from their inversion direction to prevent them from rolling underneath you. If they commit heavily to the inversion, consider transitioning to their back as they turn, or tighten your triangle and follow their movement while maintaining heel access. Never let them complete the inversion without immediate positional adjustment.
 
-`Honey Hole Top → Back Control → Rear Naked Choke → Won by Submission`
+**Q7**: How do you manage your energy when opponent is actively defending for extended periods?
+**A**: Let the position do the work - your triangle and hip pressure require minimal effort to maintain once properly established. Focus on steady, consistent pressure rather than explosive adjustments that drain your cardio. When they rest, you rest. When they move, make small efficient adjustments rather than large corrections. Attack submissions only when openings appear naturally from their defensive errors, not through forced attempts that waste energy.
 
-### Leg lock chain from bottom guard
-
-`De La Riva Guard → Single Leg X-Guard → Honey Hole Top → Toe Hold → Won by Submission`
+**Q8**: After opponent partially extracts their leg but you maintain triangle control, how do you recover full position?
+**A**: Immediately drive your hips forward to close the space they created, using your outside leg to push their hip back down. Re-tighten your inside leg triangle by pulling your ankle deeper behind their leg. Use your far hand to grip their pants/shorts at the knee and pull their leg back into the entanglement. Re-establish perpendicular alignment and hip pressure before they can create more space. Speed is critical - partial escapes must be recovered immediately.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -466,7 +401,7 @@ Partner in bottom position attempts one specific escape technique at 75% intensi
 - **[[X-Guard]]** - Common entry position for establishing honey hole
 - **[[Single Leg X-Guard]]** - Frequent starting position for honey hole entries
 - **[[Leg Entanglement]]** - Core concept governing all aspects of position control
-- **[[systematic approach Leg Lock System]]** - System incorporating honey hole as key control position
+- **[[Kneebar Control]]** - Transition position when switching to kneebar attacks
 
 
 </section>

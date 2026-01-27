@@ -21,37 +21,37 @@ description: "Master escaping Side Control with systematic defensive frameworks 
     {
       "@type": "HowToStep",
       "name": "Execute Elbow Escape",
-      "text": "From this position, execute Elbow Escape to transition to Half Guard. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Elbow Escape. This technique is attempted in 25% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Frame and Shrimp",
-      "text": "From this position, execute Frame and Shrimp to transition to Closed Guard. Success rate for advanced practitioners: 40%.",
+      "text": "From this position, attempt Frame and Shrimp. This technique is attempted in 20% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bridge and Roll",
-      "text": "From this position, execute Bridge and Roll to transition to Standing Position. Success rate for advanced practitioners: 25%.",
+      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape",
-      "text": "From this position, execute Hip Escape to transition to Knee Shield Half Guard. Success rate for advanced practitioners: 45%.",
+      "text": "From this position, attempt Hip Escape. This technique is attempted in 25% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Side Control Escape",
-      "text": "From this position, execute Side Control Escape to transition to Deep Half Guard. Success rate for advanced practitioners: 35%.",
+      "name": "Execute Ghost Escape",
+      "text": "From this position, attempt Ghost Escape. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Shrimp Escape",
-      "text": "From this position, execute Shrimp Escape to transition to Butterfly Guard. Success rate for advanced practitioners: 38%.",
+      "name": "Execute Underhook Sweep",
+      "text": "From this position, attempt Underhook Sweep. This technique is attempted in 8% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -208,94 +208,18 @@ Side Control Bottom is one of the most challenging defensive positions in Brazil
 
 ## Available Escapes
 
-### [[Elbow Escape]] → [[Half Guard]]
+### [[Elbow Escape]] (25% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
+### [[Frame and Shrimp]] (20% of attempts)
 
-### [[Frame and Shrimp]] → [[Closed Guard]]
+### [[Bridge and Roll]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 25%
-- Advanced: 40%
+### [[Hip Escape]] (25% of attempts)
 
-### [[Bridge and Roll]] → [[Standing Position]]
+### [[Ghost Escape]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 10%
-- Intermediate: 15%
-- Advanced: 25%
+### [[Underhook Sweep]] (8% of attempts)
 
-### [[Hip Escape]] → [[Knee Shield Half Guard]]
-
-**Success Rates:**
-- Beginner: 18%
-- Intermediate: 30%
-- Advanced: 45%
-
-### [[Side Control Escape]] → [[Deep Half Guard]]
-
-**Success Rates:**
-- Beginner: 12%
-- Intermediate: 22%
-- Advanced: 35%
-
-### [[Shrimp Escape]] → [[Butterfly Guard]]
-
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 25%
-- Advanced: 38%
-
-### [[Side Control Escape]] → [[Turtle]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 35%
-- Advanced: 50%
-
-### [[Frame Creation]] → [[Defensive Position]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Side Control to Mount]]** → [[Mount]] (Opponent Success: 55%)
-- **[[Transition to North-South]]** → [[North-South]] (Opponent Success: 65%)
-- **[[Americana from Side Control]]** → [[Won by Submission]] (Opponent Success: 45%)
-- **[[Kimura from Side Control]]** → [[Won by Submission]] (Opponent Success: 40%)
-- **[[Arm Triangle]]** → [[Won by Submission]] (Opponent Success: 35%)
-- **[[Transition to Mount]]** → [[Knee on Belly]] (Opponent Success: 60%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Elbow Escape]]** → [[Half Guard]]
-  - Opponent transitions toward mount creating momentary space
-- **[[Hip Escape]]** → [[Knee Shield Half Guard]]
-  - Opponent lifts weight to attack submission allowing hip movement
-- **[[Side Control Escape]]** → [[Turtle]]
-  - Opponent drives crossface too aggressively creating turning opportunity
-- **[[Bridge and Roll]]** → [[Standing Position]]
-  - Opponent posts hand wide for submission creating reversal opportunity
-- **[[Shrimp Escape]]** → [[Butterfly Guard]]
-  - Opponent transitions to north-south creating space at hips
 
 
 </section>
@@ -305,8 +229,8 @@ Side Control Bottom is one of the most challenging defensive positions in Brazil
 ## Decision Making from This Position
 
 **If opponent settles heavy chest pressure with tight crossface and hip control:**
-- Execute **[[Frame Creation]]** → [[Defensive Position]] (Probability: 60%)
-- Execute **[[Side Control Escape]]** → [[Turtle]] (Probability: 35%)
+- Execute **[[Frame Creation]]** → [[Defensive frames established]] (Probability: 60%)
+- Execute **[[Ghost Escape]]** → [[Turtle]] (Probability: 35%)
 
 
 **If opponent transitions toward mount raising hips:**
@@ -315,17 +239,17 @@ Side Control Bottom is one of the most challenging defensive positions in Brazil
 
 
 **If opponent attacks submission lifting weight off hips:**
-- Execute **[[Shrimp Escape]]** → [[Butterfly Guard]] (Probability: 40%)
+- Execute **[[Underhook Sweep]]** → [[Butterfly Guard]] (Probability: 40%)
 - Execute **[[Frame and Shrimp]]** → [[Closed Guard]] (Probability: 38%)
 
 
 **If opponent transitions to north-south creating hip space:**
 - Execute **[[Hip Escape]]** → [[Knee Shield Half Guard]] (Probability: 45%)
-- Execute **[[Side Control Escape]]** → [[Deep Half Guard]] (Probability: 35%)
+- Execute **[[Deep Half Entry]]** → [[Deep Half Guard]] (Probability: 35%)
 
 
 **If opponent drives aggressive crossface creating turning momentum:**
-- Execute **[[Side Control Escape]]** → [[Turtle]] (Probability: 50%)
+- Execute **[[Ghost Escape]]** → [[Turtle]] (Probability: 50%)
 - Execute **[[Bridge and Roll]]** → [[Standing Position]] (Probability: 25%)
 
 
@@ -407,29 +331,7 @@ Partner transitions between side control variations and mount attempts. Practice
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
-
-### Highest Success Escape Path
-
-`Side Control Bottom → Elbow Escape → Half Guard (50% advanced success)`
-
-### Conservative Survival Path
-
-`Side Control Bottom → Frame Creation → Defensive Position → Turtle (60% advanced success to defensive position)`
-
-### Opportunistic Recovery Path
-
-`Side Control Bottom → (opponent attacks mount) → Hip Escape → Knee Shield Half Guard (45% advanced success)`
-
-### Guard Recovery Path
-
-`Side Control Bottom → Frame and Shrimp → Closed Guard (40% advanced success)`
-
-
-
-</section>
 
 <section id="position-metrics" class="content-section">
 
@@ -452,12 +354,12 @@ Partner transitions between side control variations and mount attempts. Practice
 
 - **[[Half Guard]]** - Primary escape target providing immediate guard recovery option
 - **[[Closed Guard]]** - Advanced escape target requiring more space and movement
-- **[[Defensive Position]]** - Survival position when full escape not immediately possible
+- **[[Turtle]]** - Survival position when full escape not immediately possible
 - **[[Knee Shield Half Guard]]** - Strong defensive position accessible via hip escape
-- **[[Side Control Defensive Framework]]** - Systematic approach to defending and escaping position
-- **[[Hip Escape Mechanics]]** - Fundamental movement pattern for creating escape space
-- **[[Frame Creation]]** - Essential defensive structure for preventing complete control
-- **[[Shrimping Mechanics]]** - Core escape movement combining explosive and technical elements
+- **[[Deep Half Guard]]** - Advanced recovery position with sweep potential
+- **[[Elbow Escape]]** - Primary escape technique for recovering half guard
+- **[[Frame and Shrimp]]** - Fundamental escape combining framing with hip movement
+- **[[Bridge and Roll]]** - Explosive reversal technique when opponent overcommits
 
 
 </section>

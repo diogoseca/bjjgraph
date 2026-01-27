@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Sickle Sweep | BJJ Technique | BJJ Graph"
 description: "Master the Sickle Sweep from De La Riva Guard. Step-by-step execution to mount or side control. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%."
@@ -16,7 +17,7 @@ description: "Master the Sickle Sweep from De La Riva Guard. Step-by-step execut
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Sickle Sweep in BJJ",
-  "description": "Step-by-step guide for Sickle Sweep from De La Riva Guard to Mount.",
+  "description": "Step-by-step guide for Sickle Sweep from De La Riva Guard/Bottom. Possible outcomes: Mount/Top (65%), De La Riva Guard/Bottom (25%), De La Riva Guard/Top (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -158,11 +159,25 @@ This sweep is particularly effective against opponents who are standing or have 
 
 The Sickle Sweep serves as a cornerstone technique in modern De La Riva Guard systems and chains naturally with other attacks including back takes, leg entanglements, and submission attempts. Understanding this sweep provides essential insight into how the De La Riva hook functions as an offensive weapon rather than just a defensive control mechanism.
 
-**Starting Position**: [[De La Riva Guard]]
-**Ending Position**: [[Mount]]
+**From Position**: [[De La Riva Guard/Bottom]]
 **Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Mount/Top]] | 65% |
+| Failure | [[De La Riva Guard/Bottom]] | 25% |
+| Counter | [[De La Riva Guard/Top]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

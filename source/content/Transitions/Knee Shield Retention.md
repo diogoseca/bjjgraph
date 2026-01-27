@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Knee Shield Retention | BJJ Technique | BJJ Graph"
 description: "Master Knee Shield Retention in BJJ. Essential defensive framework for maintaining half guard against passing pressure. Success: Beginner 50%, Intermediate 65%, Advanced 80%."
@@ -16,7 +17,7 @@ description: "Master Knee Shield Retention in BJJ. Essential defensive framework
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Knee Shield Retention in BJJ",
-  "description": "Step-by-step guide for Knee Shield Retention from Knee Shield Half Guard to Knee Shield Half Guard.",
+  "description": "Step-by-step guide for Knee Shield Retention from Knee Shield Half Guard/Bottom. Possible outcomes: Knee Shield Half Guard/Bottom (75%), Knee Shield Half Guard/Bottom (15%), Knee Shield Half Guard/Top (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -160,11 +161,25 @@ description: "Master Knee Shield Retention in BJJ. Essential defensive framework
 
 Knee Shield Retention is the fundamental defensive framework for maintaining half guard structure against passing attempts. This technical system focuses on using the top leg as a dynamic barrier to create distance, manage angles, and prevent the opponent from consolidating chest-to-chest pressure. The knee shield creates a structural frame that allows the bottom player to control distance while maintaining offensive and defensive options. Unlike passive defensive positions, knee shield retention is an active management system that requires constant adjustment of angles, frames, and connection points based on the opponent's pressure and passing tactics. The effectiveness of knee shield retention lies in understanding it as a dynamic system rather than a static position - the shield must constantly adapt to maintain optimal distance and angle control. This technique serves as the foundation for modern half guard systems, providing a platform for sweeps, back takes, and submissions while simultaneously defending against the most common passing sequences.
 
-**Starting Position**: [[Knee Shield Half Guard]]
-**Ending Position**: [[Knee Shield Half Guard]]
+**From Position**: [[Knee Shield Half Guard/Bottom]]
 **Success Rates**: Beginner 50%, Intermediate 65%, Advanced 80%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Knee Shield Half Guard/Bottom]] | 75% |
+| Failure | [[Knee Shield Half Guard/Bottom]] | 15% |
+| Counter | [[Knee Shield Half Guard/Top]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

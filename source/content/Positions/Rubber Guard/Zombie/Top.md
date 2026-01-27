@@ -21,37 +21,37 @@ description: "Master Zombie Top position in BJJ. Control and pass the opponent's
     {
       "@type": "HowToStep",
       "name": "Execute Crossface Pass",
-      "text": "From this position, execute Crossface Pass to transition to Side Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Crossface Pass. This technique is attempted in 12% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Weave Pass",
-      "text": "From this position, execute Leg Weave Pass to transition to Side Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Leg Weave Pass. This technique is attempted in 11% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, execute Knee Slice Pass to transition to Side Control. Success rate for advanced practitioners: 62%.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Smash Pass",
-      "text": "From this position, execute Smash Pass to transition to Side Control. Success rate for advanced practitioners: 58%.",
+      "text": "From this position, attempt Smash Pass. This technique is attempted in 11% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Turtle to Back Take",
-      "text": "From this position, execute Turtle to Back Take to transition to Back Control. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Turtle to Back Take. This technique is attempted in 14% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Crab Ride to Back",
-      "text": "From this position, execute Crab Ride to Back to transition to Crab Ride. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Crab Ride to Back. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -211,103 +211,24 @@ Success in Zombie Top depends on recognizing the opponent's defensive structure 
 
 ## Available Attacks
 
-### [[Crossface Pass]] → [[Side Control]]
+### [[Crossface Pass]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Leg Weave Pass]] (11% of attempts)
 
-### [[Leg Weave Pass]] → [[Side Control]]
+### [[Knee Slice Pass]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Smash Pass]] (11% of attempts)
 
-### [[Knee Slice Pass]] → [[Side Control]]
+### [[Turtle to Back Take]] (14% of attempts)
 
-**Success Rates:**
-- Beginner: 32%
-- Intermediate: 47%
-- Advanced: 62%
+### [[Crab Ride to Back]] (12% of attempts)
 
-### [[Smash Pass]] → [[Side Control]]
+### [[Anaconda from Turtle]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 28%
-- Intermediate: 43%
-- Advanced: 58%
+### [[Darce from Turtle]] (9% of attempts)
 
-### [[Turtle to Back Take]] → [[Back Control]]
+### [[Back Take Generic]] (9% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
-
-### [[Crab Ride to Back]] → [[Crab Ride]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-### [[Anaconda from Turtle]] → [[Anaconda Control]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 38%
-- Advanced: 52%
-
-### [[Darce from Turtle]] → [[D'arce Control]]
-
-**Success Rates:**
-- Beginner: 22%
-- Intermediate: 35%
-- Advanced: 48%
-
-### [[Back Take Generic]] → [[Crucifix]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 33%
-- Advanced: 46%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Old School Sweep]]** → [[Old School]]
-- **[[Electric Chair Submission]]** → [[Electric Chair]]
-- **[[Lockdown Sweeps]]** → [[Lockdown]]
-- **[[Re-Guard]]** → [[Closed Guard]]
-- **[[Underhook Sweep]]** → [[Half Guard]]
-- **[[Rolling to Guard]]** → [[Open Guard]]
-- **[[Technical Stand Up to Single Leg]]** → [[Standing Guard]]
-- **[[Hip Escape]]** → [[Half Guard]]
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Crossface Pass]]** → [[Side Control]]
-  - Opponent attempts Old School Sweep - apply heavy crossface pressure and drive shoulder into face
-- **[[Leg Weave Pass]]** → [[Side Control]]
-  - Opponent releases lockdown to re-guard - immediately thread leg through and consolidate side control
-- **[[Turtle to Back Take]]** → [[Back Control]]
-  - Opponent turns to turtle to escape pressure - follow rotation and secure back control hooks
-- **[[Smash Pass]]** → [[Side Control]]
-  - Opponent attempts to create space with frames - drive weight through chest and smash past guard
-- **[[Underhook Pass]]** → [[Side Control]]
-  - Opponent extends underhook too far - counter with own underhook and drive to opposite side
 
 
 </section>
@@ -427,37 +348,39 @@ Bottom player attempts Old School Sweep and Electric Chair attacks while top pla
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Back Attack Path
+## Test Your Knowledge
 
-`Zombie Top → Turtle to Back Take → Back Control → Rear Naked Choke`
+**Q1**: What weight distribution maintains optimal control from Zombie Top against an active lockdown?
+**A**: Weight should be distributed primarily through your hips and chest, driving forward and downward into the opponent. Your hips stay low to prevent being elevated for sweeps, while chest pressure on their upper body prevents them from creating angles. The free leg posts wide for base, allowing you to absorb their lockdown stretches without being off-balanced. Avoid sitting back on your heels, which makes you vulnerable to Old School Sweep attempts.
 
-### Front Headlock Path
+**Q2**: What are the essential grips for maintaining Zombie Top position?
+**A**: The primary grip is the crossface, where your forearm drives across the opponent's jaw and neck to control their head and prevent them from turning into you. Secondary control includes either a whizzer on the underhook side to neutralize their underhook threat, or far hip control to prevent them from creating angles. Hand placement should prevent them from establishing chest-to-chest connection while controlling their ability to frame.
 
-`Zombie Top → Anaconda from Turtle → Anaconda Control → Anaconda Choke`
+**Q3**: How do you shut down the Old School Sweep from Zombie Top?
+**A**: When you feel the opponent begin to post on their far foot and drive their hips toward you, immediately drop your weight forward and drive heavy crossface pressure into their face. This flattens them back down and prevents them from completing the posting motion. Additionally, shift your base wider toward the underhook side to counter their lifting force. If they get significant elevation, abandon the pass temporarily and re-establish base before they can complete the sweep.
 
-### Darce Sequence
+**Q4**: What grip priority should you follow when the opponent has a deep underhook from Zombie Bottom?
+**A**: First priority is preventing their underhook from getting chest-to-chest connection - immediately establish a strong whizzer by threading your arm over their underhook arm and gripping near their wrist or forearm. Second priority is head control through crossface to prevent them from turning their face toward you. Third priority is hip control on the far side. Never allow them to connect their head to your chest while maintaining their underhook, as this creates maximum sweep leverage.
 
-`Zombie Top → Darce from Turtle → D'arce Control → Darce Choke`
+**Q5**: Your opponent starts to stretch the lockdown aggressively - what pressure adjustment do you make?
+**A**: When you feel the lockdown stretch pulling your leg, don't fight against it by trying to pull your leg back explosively. Instead, drop your weight even further forward, driving your chest into their face and shoulder. This shifts the fulcrum point and reduces the leverage they have on your leg. Simultaneously, widen your base with your free leg and work to get your hips lower than theirs. The stretch loses power when you eliminate the space they need to complete the elevation.
 
-### Crucifix Path
+**Q6**: How do you apply pressure effectively from Zombie Top without exhausting yourself?
+**A**: Effective pressure comes from skeletal alignment rather than muscular effort. Position your shoulder directly over their face with your forearm across their jaw, allowing gravity to do the work. Keep your elbows tight and use your body weight rather than arm strength. Your chest should be heavy on their chest without you actively pushing down. Breathe normally and maintain the position statically rather than constantly adjusting - the opponent will tire faster than you if you're structurally sound.
 
-`Zombie Top → Back Take Generic → Crucifix → Armbar from Crucifix`
+**Q7**: What do you do when the opponent partially escapes and starts to recover half guard frames?
+**A**: When they begin creating space and inserting knee shields or frames, you have a critical window before they fully recover. Either immediately switch to a leg weave or knee slice pass before the frame solidifies, or accept the frame temporarily and work to collapse it systematically. Don't allow them to establish both a knee shield and an underhook simultaneously. If they're recovering successfully, sometimes the best option is to disengage slightly and reset to a more advantageous passing position rather than fighting through a strengthening defensive structure.
 
-### Side Control Submission Path
-
-`Zombie Top → Crossface Pass → Side Control → Kimura from Side Control`
-
-### Mount Progression
-
-`Zombie Top → Knee Slice Pass → Side Control → Side Control to Mount → Armbar from Mount`
+**Q8**: How do you manage energy when the opponent refuses to release lockdown for several minutes?
+**A**: Accept that the lockdown game can be a war of attrition. Rather than constantly working to extract your leg, settle into a dominant crossface position and make them carry your weight. Cycle between passing attempts - try crossface pressure for 30 seconds, then switch to leg weave positioning, then threaten smash pass. This keeps them reactive while you maintain consistent pressure. The key is maintaining heavy top position without burning energy on explosive escape attempts. Eventually their grip will fatigue from maintaining lockdown tension against your constant forward pressure.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -487,8 +410,8 @@ Bottom player attempts Old School Sweep and Electric Chair attacks while top pla
 - **[[Turtle to Back Take]]** - Common transition when opponent defends to turtle
 - **[[Side Control]]** - Common target position after successful pass
 - **[[Back Control]]** - High-value transition target when opponent turns away
-- **[[10th Planet Half Guard Bottom System]]** - Understanding opponent's system - Zombie is key position in 10th Planet half guard game
-- **[[Pressure Passing]]** - Related passing concept - systematic pressure application
+- **[[Deep Half Guard]]** - Understanding opponent's system - common transition target from lockdown
+- **[[Knee Slice Pass]]** - Related passing concept - systematic pressure application
 
 
 </section>

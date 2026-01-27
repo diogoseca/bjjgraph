@@ -43,6 +43,264 @@
       "relationship": "Traditional variant with different chest placement"
     }
   ],
+  "top": {
+    "name": "Modified Scarf Hold Top",
+    "description": "Offensive guide for Modified Scarf Hold top position. Master pressure application, submission setups, and transition control from this dominant pin.",
+    "tags": [
+      "offensive",
+      "pins",
+      "submissions",
+      "side-control-family",
+      "kesa-gatame"
+    ],
+    "overview": "Modified Scarf Hold Top represents one of the most dominant pinning positions in Brazilian Jiu-Jitsu, combining the immobilizing power of traditional scarf holds with superior submission opportunities. The position offers exceptional control through chest-to-chest pressure while maintaining the mobility necessary to counter escape attempts and transition between attacks.\n\nThe strategic advantage of Modified Scarf Hold lies in its dual threat capability - you can simultaneously apply crushing pressure that drains opponent energy while maintaining immediate access to multiple high-percentage submissions. Unlike standard side control where submission attacks often require significant positional adjustments, Modified Scarf Hold keeps armbars, kimuras, and chokes readily available from the base control position.\n\nSuccessful execution requires understanding the subtle weight distribution that maximizes pressure while maintaining mobility. The top player must balance between settling heavy chest pressure and staying light on the toes to counter escape attempts. This dynamic pressure application separates effective Modified Scarf Hold control from static pinning that allows savvy opponents to create escape opportunities.\n\nThe position excels in both point-fighting and submission-hunting strategies. In IBJJF competition, Modified Scarf Hold scores as side control (3 points) while offering better submission percentage than standard side control variations. The chest pressure creates visible discomfort that can influence referee decisions regarding stalling and activity.\n\nFrom a submission perspective, Modified Scarf Hold provides multiple attack pathways that flow naturally from the control position. The near arm entrapment creates immediate armbar and kimura threats, while the chest-to-chest positioning enables various chokes including the North-South choke and arm triangle variations. Advanced practitioners develop the ability to chain these attacks seamlessly, creating the submission dilemmas that characterize high-level grappling.\n\nThe learning progression for Modified Scarf Hold top follows predictable stages. Beginners focus on achieving and maintaining basic chest pressure. Intermediate practitioners develop the mobility and weight distribution necessary to counter common escapes. Advanced players master the submission chains and transitional flow that make the position truly dangerous at the highest levels of competition.",
+    "state_properties": {
+      "point_value": 3,
+      "position_type": "Offensive/Controlling",
+      "risk_level": "Low to Medium",
+      "energy_cost": "Medium",
+      "time_sustainability": "Medium to Long"
+    },
+    "state_invariants": [
+      "Your chest maintains constant downward pressure on opponent's chest, with your sternum positioned directly over their ribcage creating maximum compression and breathing restriction",
+      "Opponent's near-side arm is controlled or trapped, either threaded under your armpit or wrapped with your arm around their head, eliminating their primary framing tool",
+      "Your head is positioned heavy on opponent's face or chest, adding directional pressure that restricts vision and limits their ability to turn into you or away from the position"
+    ],
+    "prerequisites": [
+      "You have achieved top position over opponent (from takedown, scramble, or transition)",
+      "You have secured chest-to-chest contact before opponent established defensive frames",
+      "Opponent's near arm has been compromised allowing you to establish control",
+      "Your weight is distributed to maximize pressure while maintaining base"
+    ],
+    "key_principles": [
+      "Chest pressure is your primary control tool - maintain constant downward force through sternum",
+      "Control the near arm at all times - this prevents effective framing and creates submission pathways",
+      "Stay on your toes for mobility - you must be able to adjust to counter escape attempts",
+      "Head position amplifies pressure - keep your head heavy on opponent's face or chest",
+      "Submission opportunities emerge from solid control - establish the pin before hunting finishes",
+      "Dynamic pressure beats static weight - adjust pressure angles as opponent moves",
+      "Transition readiness is essential - be prepared to move to mount or north-south when opponent turns"
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "Your opponent starts to bridge explosively - what adjustment do you make to maintain position?",
+        "answer": "Stay on your toes and lower your hips while driving your chest pressure diagonally toward their far shoulder. Anticipate the bridge direction and be ready to transition to mount if they turn away, or to north-south if they turn into you. Never resist the bridge with static weight - flow with their movement while maintaining chest contact."
+      },
+      {
+        "question": "What are the essential grips and contact points for maintaining Modified Scarf Hold?",
+        "answer": "The primary contact point is sternum-to-sternum chest pressure with your weight driving downward. Control the near arm by threading it under your armpit or wrapping your arm around their head. Your head should be heavy on their face or chest. In gi, secure cross-face grip or lapel control; in no-gi, establish an underhook or head control. Keep your far hand posted for base adjustment."
+      },
+      {
+        "question": "How do you shut down your opponent's primary elbow escape attempt from Modified Scarf Hold?",
+        "answer": "Prevent the elbow escape by maintaining heavy hip-to-hip connection on the near side, blocking their ability to create hip space. When you feel them begin to shrimp, drive your hips forward and down while shifting your chest pressure toward their far shoulder. Keep their near arm controlled to prevent frame creation. If they manage to insert a knee, immediately transition to knee-on-belly or float to north-south."
+      },
+      {
+        "question": "What is the grip priority hierarchy when your opponent begins fighting grips in Modified Scarf Hold?",
+        "answer": "Priority one is maintaining near-arm control - this prevents both frames and submissions. Priority two is chest-to-chest contact through your sternum. Priority three is head position for directional pressure. If forced to release something, release the head position last because it enables both pressure application and submission setups. Never chase grips at the expense of chest pressure."
+      },
+      {
+        "question": "How should you apply pressure to maximize control without exhausting yourself?",
+        "answer": "Use skeletal alignment rather than muscular effort by positioning your sternum directly over their ribcage and letting gravity do the work. Stay on your toes for mobility but let your chest settle heavy. Drive pressure through your core at a 45-degree angle toward their far shoulder rather than straight down. Relax your arms and shoulders - tension should be in your core connection, not your limbs."
+      },
+      {
+        "question": "Your opponent creates slight hip space and begins turning their hips toward you - how do you respond?",
+        "answer": "Immediately recognize this as a north-south transition opportunity. Circle your hips toward their head while maintaining chest contact, sliding into north-south position before they can complete the turn. Alternatively, if they expose their back while turning, take the gift and transition to back control. Never fight their turning motion directly - use it to improve your position."
+      },
+      {
+        "question": "How do you manage your energy during an extended period in Modified Scarf Hold?",
+        "answer": "Settle your weight through proper skeletal alignment so gravity maintains pressure, not muscular effort. Breathe steadily and avoid holding your breath when applying pressure. Stay mentally calm and patient rather than rushing submissions. Use micro-adjustments rather than major repositioning. Let the position do the work - their energy expenditure escaping should far exceed your energy maintaining."
+      },
+      {
+        "question": "Your opponent partially escapes and inserts their far knee between your bodies - how do you recover position?",
+        "answer": "Immediately address the knee before it becomes a full knee shield. Drive your hips forward and use your near-side arm to push their knee down and toward their chest, flattening them. If the knee is too established, transition to knee-on-belly on the far side or float to north-south. Never settle into half guard from Modified Scarf Hold - either recover full control or advance position."
+      }
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent's near arm is isolated and extended",
+        "actions": [
+          {
+            "technique": "Americana from Side Control",
+            "target": "Americana Control",
+            "probability": 65
+          },
+          {
+            "technique": "Kimura from Side Control",
+            "target": "Kimura Trap",
+            "probability": 55
+          },
+          {
+            "technique": "Armbar from Side Control",
+            "target": "Armbar Control",
+            "probability": 50
+          }
+        ]
+      },
+      {
+        "condition": "If opponent attempts to bridge or turn away from pressure",
+        "actions": [
+          {
+            "technique": "Side Control to Mount",
+            "target": "Mount",
+            "probability": 70
+          },
+          {
+            "technique": "Back Take Generic",
+            "target": "Back Control",
+            "probability": 55
+          }
+        ]
+      },
+      {
+        "condition": "If opponent turns into you to escape chest pressure",
+        "actions": [
+          {
+            "technique": "Side Control to North-South",
+            "target": "North-South",
+            "probability": 75
+          },
+          {
+            "technique": "North-South Choke",
+            "target": "North South Control",
+            "probability": 50
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Remaining completely static with all weight settled",
+        "consequence": "Allows skilled opponents to create micro-movements that accumulate into escape opportunities",
+        "correction": "Stay on toes with active weight distribution, ready to adjust pressure angles as opponent moves"
+      },
+      {
+        "error": "Releasing near arm control to hunt submissions prematurely",
+        "consequence": "Opponent immediately uses freed arm to create frames and initiate escapes",
+        "correction": "Maintain near arm control until submission is fully locked and escape is impossible"
+      },
+      {
+        "error": "Lifting head to look around or observe escape attempts",
+        "consequence": "Reduces overall pressure significantly and creates space for opponent to turn or bridge",
+        "correction": "Keep head heavy and active on opponent's face or chest, feel their movements rather than watching"
+      },
+      {
+        "error": "Posting far hand wide for base during submission attempts",
+        "consequence": "Creates leverage for opponent to roll you over during bridge attempts",
+        "correction": "Keep base narrow with weight centered over opponent's chest, adjust with small steps"
+      },
+      {
+        "error": "Hunting submissions before establishing solid control",
+        "consequence": "Opponent escapes during transition to submission, losing dominant position entirely",
+        "correction": "Build control systematically - chest pressure, arm control, then submission attacks"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Pressure Maintenance Drill",
+        "description": "Maintain Modified Scarf Hold while partner attempts specific escapes at 50% intensity, focus on keeping constant chest pressure throughout",
+        "duration": "5 minutes"
+      },
+      {
+        "name": "Submission Chain Flow",
+        "description": "From Modified Scarf Hold, flow between americana, kimura, and armbar setups without releasing position, partner provides moderate resistance",
+        "duration": "4 minutes"
+      },
+      {
+        "name": "Transition Response Drill",
+        "description": "Partner attempts specific escape (bridge, turtle, turn-in) and you counter with appropriate transition (mount, back take, north-south), reset and rotate",
+        "duration": "6 minutes"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Side Control",
+        "relationship": "Parent position family"
+      },
+      {
+        "name": "Kesa Gatame",
+        "relationship": "Traditional scarf hold variant"
+      },
+      {
+        "name": "North-South",
+        "relationship": "Common transition destination"
+      },
+      {
+        "name": "Mount",
+        "relationship": "Advancement position"
+      },
+      {
+        "name": "Americana from Side Control",
+        "relationship": "Primary submission attack"
+      },
+      {
+        "name": "Kimura from Side Control",
+        "relationship": "High-percentage submission"
+      },
+      {
+        "name": "Arm Triangle",
+        "relationship": "Core choke submission"
+      },
+      {
+        "name": "Shoulder of Justice",
+        "relationship": "Specific pressure technique"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "beginner": 55,
+        "intermediate": 70,
+        "advanced": 85,
+        "description": "Ability to maintain position against escape attempts"
+      },
+      "advancement_probability": {
+        "beginner": 45,
+        "intermediate": 60,
+        "advanced": 75,
+        "description": "Probability of advancing to mount or back control"
+      },
+      "submission_probability": {
+        "beginner": 30,
+        "intermediate": 50,
+        "advanced": 70,
+        "description": "Probability of finishing submission from this position"
+      },
+      "average_time": "60-120 seconds to submission or advancement"
+    },
+    "transitions": [
+      {
+        "transition": "Americana from Side Control",
+        "attempt_probability": 14
+      },
+      {
+        "transition": "Kimura from Side Control",
+        "attempt_probability": 13
+      },
+      {
+        "transition": "Armbar from Side Control",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Side Control to Mount",
+        "attempt_probability": 15
+      },
+      {
+        "transition": "Side Control to North-South",
+        "attempt_probability": 14
+      },
+      {
+        "transition": "North-South Choke",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Far Side Armbar",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Arm Triangle",
+        "attempt_probability": 11
+      }
+    ]
+  },
   "bottom": {
     "name": "Modified Scarf Hold Bottom",
     "description": "Defensive guide for Modified Scarf Hold bottom position. Learn systematic escapes, frame creation, and breathing techniques to survive and escape this oppressive pin.",
@@ -81,104 +339,38 @@
       "Hip movement becomes available only after creating upper body space",
       "Turtle is often the safest immediate escape destination from this position"
     ],
-    "offensive_transitions": [
+    "knowledge_assessment": [
       {
-        "technique": "Elbow Escape",
-        "target_position": "Half Guard",
-        "success_rates": {
-          "beginner": 15,
-          "intermediate": 30,
-          "advanced": 45
-        }
+        "question": "Your opponent increases chest pressure and you feel your breathing becoming restricted - what immediate adjustment do you make?",
+        "answer": "Turn your head to the side away from the pressure and tuck your chin toward your far shoulder to protect your airway. Create micro-space by pressing your free hand against their hip or shoulder - not pushing up, but creating a frame to prevent them from settling deeper. Take shallow breaths using your diaphragm rather than trying to expand your chest against their weight."
       },
       {
-        "technique": "Bridge and Roll",
-        "target_position": "Closed Guard",
-        "success_rates": {
-          "beginner": 10,
-          "intermediate": 20,
-          "advanced": 35
-        }
+        "question": "What are the essential frames you need to establish before attempting any escape from Modified Scarf Hold bottom?",
+        "answer": "The primary frame is your free (far) arm positioned with elbow against their hip and hand on their shoulder or bicep, creating a diagonal barrier. This prevents them from advancing to mount and creates the initial space for hip movement. Secondary frame is protecting your trapped arm by keeping elbow connected to your ribs. Never attempt escapes without frames - you need structure before movement."
       },
       {
-        "technique": "Turtle Transition",
-        "target_position": "Turtle",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 40,
-          "advanced": 55
-        }
+        "question": "How do you prevent your opponent from isolating your near arm for americana or kimura submissions?",
+        "answer": "Keep your near arm elbow glued to your ribs at all times - the arm only becomes vulnerable when it extends away from your body. If they begin prying your arm loose, grab your own lapel (gi) or grip your far bicep (no-gi) to anchor the arm. Fight to keep your elbow pointing down toward your hip, never allow it to point toward your head or away from your centerline."
       },
       {
-        "technique": "Frame and Shrimp",
-        "target_position": "Open Guard",
-        "success_rates": {
-          "beginner": 12,
-          "intermediate": 25,
-          "advanced": 40
-        }
+        "question": "What is the proper timing for a bridge escape attempt from Modified Scarf Hold bottom?",
+        "answer": "Bridge only when your opponent shifts their weight - typically when they reach for a submission, adjust their position, or begin transitioning. Never bridge against a fully settled opponent as they will simply ride it and potentially advance to mount. Feel for the moment their hips lift or their chest pressure lightens, then bridge immediately and directionally toward their trapped side."
       },
       {
-        "technique": "Arm Extraction",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 18,
-          "intermediate": 32,
-          "advanced": 48
-        }
+        "question": "How should you apply your frames to create the initial space needed for hip escape?",
+        "answer": "Use your free arm frame to push at their hip at a 45-degree angle away from you - not straight up. Simultaneously turn your hips away from them, even just a few inches. The goal is incremental space creation, not explosive movement. Once you have any hip angle, immediately insert your near knee between your bodies to establish a guard recovery pathway."
       },
       {
-        "technique": "Ghost Escape",
-        "target_position": "Standing Position",
-        "success_rates": {
-          "beginner": 8,
-          "intermediate": 18,
-          "advanced": 30
-        }
-      }
-    ],
-    "defensive_responses": [
-      {
-        "technique": "Shoulder Pressure",
-        "target_position": "Modified Scarf Hold",
-        "success_rate": 75
+        "question": "Your opponent begins to transition toward mount while maintaining chest pressure - how do you anticipate and respond?",
+        "answer": "The mount transition telegraph is when they shift their weight toward your far side and begin walking their knees up. The moment you feel this weight shift, turn aggressively toward them and shoot your near knee across their path to block the mount. If too late to block, immediately switch to a mount escape - do not try to recover side control bottom once mount is being established."
       },
       {
-        "technique": "Transition to Mount",
-        "target_position": "Mount",
-        "success_rate": 55
+        "question": "How do you manage your energy when trapped in an extended Modified Scarf Hold situation?",
+        "answer": "Avoid explosive movements that deplete energy without creating escape opportunities. Maintain steady breathing despite pressure. Make small, purposeful adjustments rather than large desperate movements. Accept that you may need to survive for extended periods - settle mentally into efficient defense mode. Save explosive movements for high-percentage escape moments only."
       },
       {
-        "technique": "Transition to North-South",
-        "target_position": "North-South",
-        "success_rate": 65
-      },
-      {
-        "technique": "Americana from Side Control",
-        "target_position": "Americana Control",
-        "success_rate": 60
-      },
-      {
-        "technique": "Kimura from Side Control",
-        "target_position": "Kimura Control",
-        "success_rate": 50
-      }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Re-Guard",
-        "target_position": "Half Guard",
-        "trigger": "When opponent shifts weight to attack far arm or transitions to mount"
-      },
-      {
-        "technique": "Technical Standup",
-        "target_position": "Standing Position",
-        "trigger": "When opponent's base is high and chest pressure temporarily releases"
-      },
-      {
-        "technique": "Turtle Transition",
-        "target_position": "Turtle",
-        "trigger": "When creating enough space to turn away from pressure"
+        "question": "You partially escape to turtle position but opponent still has hooks and chest contact - how do you complete the escape?",
+        "answer": "From turtle with opponent still attached, immediately post on your hands and drive your hips backward to create separation. Turn to face them to recover guard, or continue circling away to create space for a sit-out or granby roll. Never remain static in turtle with opponent maintaining contact - either complete the escape to guard/standing or be prepared to defend back takes."
       }
     ],
     "decision_tree": [
@@ -272,20 +464,6 @@
         "duration": "4 minutes"
       }
     ],
-    "optimal_submission_paths": [
-      {
-        "name": "Frame to Guard Recovery",
-        "path": "Modified Scarf Hold Bottom → Frame and Shrimp → Half Guard → Butterfly Guard → Back Take Generic → Back Control → Rear Naked Choke"
-      },
-      {
-        "name": "Bridge to Reversal",
-        "path": "Modified Scarf Hold Bottom → Bridge and Roll → Closed Guard → Triangle Setup → Triangle Choke"
-      },
-      {
-        "name": "Turtle to Counter",
-        "path": "Modified Scarf Hold Bottom → Turtle Transition → Turtle → Standing up → Standing Position → Double Leg Entry → Mount → Armbar from Mount"
-      }
-    ],
     "related_content": [
       {
         "name": "Side Control",
@@ -312,8 +490,8 @@
         "relationship": "Fundamental escape movement"
       },
       {
-        "name": "Escape Hierarchy",
-        "relationship": "Systematic escape framework"
+        "name": "Bridge and Roll",
+        "relationship": "Secondary escape technique"
       }
     ],
     "position_metrics": {
@@ -336,332 +514,32 @@
         "description": "Probability of submitting opponent from bottom (extremely low)"
       },
       "average_time": "45-90 seconds before escape or submission"
-    }
-  },
-  "top": {
-    "name": "Modified Scarf Hold Top",
-    "description": "Offensive guide for Modified Scarf Hold top position. Master pressure application, submission setups, and transition control from this dominant pin.",
-    "tags": [
-      "offensive",
-      "pins",
-      "submissions",
-      "side-control-family",
-      "kesa-gatame"
-    ],
-    "overview": "Modified Scarf Hold Top represents one of the most dominant pinning positions in Brazilian Jiu-Jitsu, combining the immobilizing power of traditional scarf holds with superior submission opportunities. The position offers exceptional control through chest-to-chest pressure while maintaining the mobility necessary to counter escape attempts and transition between attacks.\n\nThe strategic advantage of Modified Scarf Hold lies in its dual threat capability - you can simultaneously apply crushing pressure that drains opponent energy while maintaining immediate access to multiple high-percentage submissions. Unlike standard side control where submission attacks often require significant positional adjustments, Modified Scarf Hold keeps armbars, kimuras, and chokes readily available from the base control position.\n\nSuccessful execution requires understanding the subtle weight distribution that maximizes pressure while maintaining mobility. The top player must balance between settling heavy chest pressure and staying light on the toes to counter escape attempts. This dynamic pressure application separates effective Modified Scarf Hold control from static pinning that allows savvy opponents to create escape opportunities.\n\nThe position excels in both point-fighting and submission-hunting strategies. In IBJJF competition, Modified Scarf Hold scores as side control (3 points) while offering better submission percentage than standard side control variations. The chest pressure creates visible discomfort that can influence referee decisions regarding stalling and activity.\n\nFrom a submission perspective, Modified Scarf Hold provides multiple attack pathways that flow naturally from the control position. The near arm entrapment creates immediate armbar and kimura threats, while the chest-to-chest positioning enables various chokes including the North-South choke and arm triangle variations. Advanced practitioners develop the ability to chain these attacks seamlessly, creating the submission dilemmas that characterize high-level grappling.\n\nThe learning progression for Modified Scarf Hold top follows predictable stages. Beginners focus on achieving and maintaining basic chest pressure. Intermediate practitioners develop the mobility and weight distribution necessary to counter common escapes. Advanced players master the submission chains and transitional flow that make the position truly dangerous at the highest levels of competition.",
-    "state_properties": {
-      "point_value": 3,
-      "position_type": "Offensive/Controlling",
-      "risk_level": "Low to Medium",
-      "energy_cost": "Medium",
-      "time_sustainability": "Medium to Long"
     },
-    "state_invariants": [
-      "Your chest maintains constant downward pressure on opponent's chest, with your sternum positioned directly over their ribcage creating maximum compression and breathing restriction",
-      "Opponent's near-side arm is controlled or trapped, either threaded under your armpit or wrapped with your arm around their head, eliminating their primary framing tool",
-      "Your head is positioned heavy on opponent's face or chest, adding directional pressure that restricts vision and limits their ability to turn into you or away from the position"
-    ],
-    "prerequisites": [
-      "You have achieved top position over opponent (from takedown, scramble, or transition)",
-      "You have secured chest-to-chest contact before opponent established defensive frames",
-      "Opponent's near arm has been compromised allowing you to establish control",
-      "Your weight is distributed to maximize pressure while maintaining base"
-    ],
-    "key_principles": [
-      "Chest pressure is your primary control tool - maintain constant downward force through sternum",
-      "Control the near arm at all times - this prevents effective framing and creates submission pathways",
-      "Stay on your toes for mobility - you must be able to adjust to counter escape attempts",
-      "Head position amplifies pressure - keep your head heavy on opponent's face or chest",
-      "Submission opportunities emerge from solid control - establish the pin before hunting finishes",
-      "Dynamic pressure beats static weight - adjust pressure angles as opponent moves",
-      "Transition readiness is essential - be prepared to move to mount or north-south when opponent turns"
-    ],
-    "offensive_transitions": [
+    "transitions": [
       {
-        "technique": "Americana from Side Control",
-        "target_position": "Americana Control",
-        "success_rates": {
-          "beginner": 40,
-          "intermediate": 55,
-          "advanced": 70
-        }
+        "transition": "Elbow Escape",
+        "attempt_probability": 18
       },
       {
-        "technique": "Kimura from Side Control",
-        "target_position": "Kimura Control",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 50,
-          "advanced": 65
-        }
+        "transition": "Bridge and Roll",
+        "attempt_probability": 14
       },
       {
-        "technique": "Armbar from Side Control",
-        "target_position": "Armbar Control",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 45,
-          "advanced": 60
-        }
+        "transition": "Turtle Transition",
+        "attempt_probability": 21
       },
       {
-        "technique": "Transition to Mount",
-        "target_position": "Mount",
-        "success_rates": {
-          "beginner": 45,
-          "intermediate": 60,
-          "advanced": 75
-        }
+        "transition": "Frame and Shrimp",
+        "attempt_probability": 16
       },
       {
-        "technique": "Transition to North-South",
-        "target_position": "North-South",
-        "success_rates": {
-          "beginner": 50,
-          "intermediate": 65,
-          "advanced": 80
-        }
+        "transition": "Arm Extraction",
+        "attempt_probability": 19
       },
       {
-        "technique": "North-South Choke",
-        "target_position": "North South Control",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 40,
-          "advanced": 55
-        }
-      },
-      {
-        "technique": "Far Side Armbar",
-        "target_position": "Armbar Control",
-        "success_rates": {
-          "beginner": 20,
-          "intermediate": 35,
-          "advanced": 50
-        }
-      },
-      {
-        "technique": "Arm Triangle",
-        "target_position": "Arm Triangle",
-        "success_rates": {
-          "beginner": 28,
-          "intermediate": 42,
-          "advanced": 58
-        }
+        "transition": "Ghost Escape",
+        "attempt_probability": 12
       }
-    ],
-    "defensive_responses": [
-      {
-        "technique": "Elbow Escape",
-        "target_position": "Half Guard",
-        "success_rate": 30
-      },
-      {
-        "technique": "Bridge and Roll",
-        "target_position": "Closed Guard",
-        "success_rate": 20
-      },
-      {
-        "technique": "Turtle Transition",
-        "target_position": "Turtle",
-        "success_rate": 40
-      },
-      {
-        "technique": "Frame and Shrimp",
-        "target_position": "Open Guard",
-        "success_rate": 25
-      },
-      {
-        "technique": "Ghost Escape",
-        "target_position": "Standing Position",
-        "success_rate": 15
-      }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Transition to Mount",
-        "target_position": "Mount",
-        "trigger": "When opponent bridges or exposes their back during escape attempt"
-      },
-      {
-        "technique": "Transition to North-South",
-        "target_position": "North-South",
-        "trigger": "When opponent turns into you to escape chest pressure"
-      },
-      {
-        "technique": "Back Take Generic",
-        "target_position": "Back Control",
-        "trigger": "When opponent successfully turns to turtle but exposes back in process"
-      }
-    ],
-    "decision_tree": [
-      {
-        "condition": "If opponent's near arm is isolated and extended",
-        "actions": [
-          {
-            "technique": "Americana from Side Control",
-            "target": "Americana Control",
-            "probability": 65
-          },
-          {
-            "technique": "Kimura from Side Control",
-            "target": "Kimura Control",
-            "probability": 55
-          },
-          {
-            "technique": "Armbar from Side Control",
-            "target": "Armbar Control",
-            "probability": 50
-          }
-        ]
-      },
-      {
-        "condition": "If opponent attempts to bridge or turn away from pressure",
-        "actions": [
-          {
-            "technique": "Transition to Mount",
-            "target": "Mount",
-            "probability": 70
-          },
-          {
-            "technique": "Back Take Generic",
-            "target": "Back Control",
-            "probability": 55
-          }
-        ]
-      },
-      {
-        "condition": "If opponent turns into you to escape chest pressure",
-        "actions": [
-          {
-            "technique": "Transition to North-South",
-            "target": "North-South",
-            "probability": 75
-          },
-          {
-            "technique": "North-South Choke",
-            "target": "North South Control",
-            "probability": 50
-          }
-        ]
-      }
-    ],
-    "common_errors": [
-      {
-        "error": "Remaining completely static with all weight settled",
-        "consequence": "Allows skilled opponents to create micro-movements that accumulate into escape opportunities",
-        "correction": "Stay on toes with active weight distribution, ready to adjust pressure angles as opponent moves"
-      },
-      {
-        "error": "Releasing near arm control to hunt submissions prematurely",
-        "consequence": "Opponent immediately uses freed arm to create frames and initiate escapes",
-        "correction": "Maintain near arm control until submission is fully locked and escape is impossible"
-      },
-      {
-        "error": "Lifting head to look around or observe escape attempts",
-        "consequence": "Reduces overall pressure significantly and creates space for opponent to turn or bridge",
-        "correction": "Keep head heavy and active on opponent's face or chest, feel their movements rather than watching"
-      },
-      {
-        "error": "Posting far hand wide for base during submission attempts",
-        "consequence": "Creates leverage for opponent to roll you over during bridge attempts",
-        "correction": "Keep base narrow with weight centered over opponent's chest, adjust with small steps"
-      },
-      {
-        "error": "Hunting submissions before establishing solid control",
-        "consequence": "Opponent escapes during transition to submission, losing dominant position entirely",
-        "correction": "Build control systematically - chest pressure, arm control, then submission attacks"
-      }
-    ],
-    "training_drills": [
-      {
-        "name": "Pressure Maintenance Drill",
-        "description": "Maintain Modified Scarf Hold while partner attempts specific escapes at 50% intensity, focus on keeping constant chest pressure throughout",
-        "duration": "5 minutes"
-      },
-      {
-        "name": "Submission Chain Flow",
-        "description": "From Modified Scarf Hold, flow between americana, kimura, and armbar setups without releasing position, partner provides moderate resistance",
-        "duration": "4 minutes"
-      },
-      {
-        "name": "Transition Response Drill",
-        "description": "Partner attempts specific escape (bridge, turtle, turn-in) and you counter with appropriate transition (mount, back take, north-south), reset and rotate",
-        "duration": "6 minutes"
-      }
-    ],
-    "optimal_submission_paths": [
-      {
-        "name": "Americana Chain",
-        "path": "Modified Scarf Hold Top → Americana from Side Control → Americana Control → Americana"
-      },
-      {
-        "name": "Kimura to Armbar",
-        "path": "Modified Scarf Hold Top → Kimura from Side Control → Kimura Control → Armbar from Side Control → Armbar Control → Armbar Finish"
-      },
-      {
-        "name": "North-South Transition",
-        "path": "Modified Scarf Hold Top → Transition to North-South → North-South → North-South Choke"
-      },
-      {
-        "name": "Mount Advancement",
-        "path": "Modified Scarf Hold Top → Transition to Mount → Mount → Armbar from Mount → Armbar Control → Armbar Finish"
-      }
-    ],
-    "related_content": [
-      {
-        "name": "Side Control",
-        "relationship": "Parent position family"
-      },
-      {
-        "name": "Kesa Gatame",
-        "relationship": "Traditional scarf hold variant"
-      },
-      {
-        "name": "North-South",
-        "relationship": "Common transition destination"
-      },
-      {
-        "name": "Mount",
-        "relationship": "Advancement position"
-      },
-      {
-        "name": "Americana from Side Control",
-        "relationship": "Primary submission attack"
-      },
-      {
-        "name": "Kimura from Side Control",
-        "relationship": "High-percentage submission"
-      },
-      {
-        "name": "Pressure Application",
-        "relationship": "Core control principle"
-      },
-      {
-        "name": "Shoulder Pressure",
-        "relationship": "Specific pressure technique"
-      }
-    ],
-    "position_metrics": {
-      "retention_rate": {
-        "beginner": 55,
-        "intermediate": 70,
-        "advanced": 85,
-        "description": "Ability to maintain position against escape attempts"
-      },
-      "advancement_probability": {
-        "beginner": 45,
-        "intermediate": 60,
-        "advanced": 75,
-        "description": "Probability of advancing to mount or back control"
-      },
-      "submission_probability": {
-        "beginner": 30,
-        "intermediate": 50,
-        "advanced": 70,
-        "description": "Probability of finishing submission from this position"
-      },
-      "average_time": "60-120 seconds to submission or advancement"
-    }
+    ]
   }
 }

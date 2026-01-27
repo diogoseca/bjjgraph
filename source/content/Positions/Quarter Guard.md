@@ -91,32 +91,24 @@ Quarter guard occurs most frequently during guard passing sequences when defende
 - Stay proactive with immediate attacks—quarter guard deteriorates within five to ten seconds under competent pressure making passivity fatal
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Old School Sweep]]** → [[Side Control]]
-  - Success Rate: Beginner 40%, Intermediate 60%, Advanced 75%
+- **[[Old School Sweep]]** (13% of attempts)
 
-- **[[Half Guard to Back Take]]** → [[Back Control]]
-  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 70%
+- **[[Half Guard to Back Take]]** (12% of attempts)
 
-- **[[Underhook Sweep from Half]]** → [[Side Control]]
-  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+- **[[Underhook Sweep from Half]]** (13% of attempts)
 
-- **[[Deep Half Entry]]** → [[Deep Half Guard]]
-  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 80%
+- **[[Deep Half Entry]]** (14% of attempts)
 
-- **[[Rolling Back Take]]** → [[Back Control]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 60%
+- **[[Rolling Back Take]]** (11% of attempts)
 
-- **[[Electric Chair Submission]]** → [[Electric Chair]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Electric Chair Submission]]** (9% of attempts)
 
-- **[[Knee Shield Retention]]** → [[Knee Shield Half Guard]]
-  - Success Rate: Beginner 55%, Intermediate 70%, Advanced 85%
+- **[[Knee Shield Retention]]** (16% of attempts)
 
-- **[[Lockdown Sweeps]]** → [[Side Control]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 65%
+- **[[Lockdown Sweeps]]** (12% of attempts)
 
 
 ### Common Mistakes
@@ -174,38 +166,28 @@ Quarter guard occurs most frequently during guard passing sequences when defende
 - Timing Recognition: Identify the precise moment when opponent's defensive structure fails completely and immediately advance to completed pass without second-guessing or hesitation
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Knee Slice Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 55%, Intermediate 70%, Advanced 85%
+- **[[Knee Slice Pass]]** (13% of attempts)
 
-- **[[Smash Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 80%
+- **[[Smash Pass]]** (12% of attempts)
 
-- **[[Crossface Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+- **[[Crossface Pass]]** (12% of attempts)
 
-- **[[Underhook Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Underhook Pass]]** (11% of attempts)
 
-- **[[Long Step Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Long Step Pass]]** (10% of attempts)
 
-- **[[Half Guard to Back Take]]** → [[Back Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Half Guard to Back Take]]** (8% of attempts)
 
-- **[[Transition to Mount]]** → [[Mount]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Side Control to Mount]]** (9% of attempts)
 
-- **[[Transition to North-South]]** → [[North-South]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Side Control to North-South]]** (10% of attempts)
 
-- **[[Kimura from Half Guard]]** → [[Kimura Control]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Kimura from Half Guard]]** (8% of attempts)
 
-- **[[Darce Setup]]** → [[D'arce Control]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+- **[[Darce Setup]]** (7% of attempts)
 
 
 ### Common Mistakes
@@ -263,8 +245,6 @@ Quarter guard occurs most frequently during guard passing sequences when defende
 - **[[Combat Base]]** - Foundational posture for top player maintaining pressure and base
 
 - **[[Z-Guard]]** - Alternative half guard structure with similar knee shield dynamics
-
-- **[[Underhook Control]]** - Critical control concept determining quarter guard success
 
 
 </section>

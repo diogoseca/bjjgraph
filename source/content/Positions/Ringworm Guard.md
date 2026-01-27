@@ -91,26 +91,20 @@ The guard creates mechanical advantages through the lapel wrap, restricting the 
 - Be prepared to transition to related lapel guard positions if opponent begins to escape the wrap configuration
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Ringworm Sweep to Back Control]]** → [[Back Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Ringworm Sweep to Back Control]]** (17% of attempts)
 
-- **[[Triangle Setup]]** → [[Triangle Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Triangle Setup]]** (15% of attempts)
 
-- **[[Omoplata to Sweep]]** → [[Omoplata Control]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Omoplata to Sweep]]** (14% of attempts)
 
-- **[[Lapel Guard Sweeps]]** → [[Mount]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Lapel Guard Sweeps]]** (18% of attempts)
 
-- **[[Berimbolo Entry]]** → [[Back Control]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 50%
+- **[[Berimbolo Entry]]** (14% of attempts)
 
-- **[[Transition to Worm Guard]]** → [[Worm Guard]]
-  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+- **[[Ringworm Guard to Worm Guard]]** (22% of attempts)
 
 
 ### Common Mistakes
@@ -166,26 +160,20 @@ The guard creates mechanical advantages through the lapel wrap, restricting the 
 - Monitor your base constantly and adjust weight distribution to compensate for the restricted leg mobility
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Lapel Grip Break and Posture Recovery]]** → [[Open Guard]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Lapel Grip Break and Posture Recovery]]** (17% of attempts)
 
-- **[[Leg Extraction from Lapel Wrap]]** → [[Combat Base]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Leg Extraction from Lapel Wrap]]** (18% of attempts)
 
-- **[[Stack Pass with Lapel Control Negation]]** → [[Side Control]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Stack Pass with Lapel Control Negation]]** (15% of attempts)
 
-- **[[Standing Guard Pass with Distance Creation]]** → [[Headquarters Position]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+- **[[Standing Guard Pass with Distance Creation]]** (14% of attempts)
 
-- **[[Smash Pass Counter]]** → [[Half Guard]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Smash Pass Counter]]** (17% of attempts)
 
-- **[[Standing Reset to Open Guard]]** → [[Standing Guard]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Standing Reset to Open Guard]]** (19% of attempts)
 
 
 ### Common Mistakes

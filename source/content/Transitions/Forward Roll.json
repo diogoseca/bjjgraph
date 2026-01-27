@@ -10,8 +10,6 @@
     "guard recovery",
     "rolling"
   ],
-  "starting_position": "Defensive Position",
-  "ending_position": "Seated Guard",
   "success_rates": {
     "beginner": 30,
     "intermediate": 50,
@@ -275,6 +273,24 @@
     {
       "name": "Granby to Closed Guard",
       "relationship": "Similar guard recovery technique with different rolling direction"
+    }
+  ],
+  "from_position": "Turtle/Bottom",
+  "outcomes": [
+    {
+      "to": "Seated Guard/Bottom",
+      "probability": 70,
+      "result": "success"
+    },
+    {
+      "to": "Turtle/Bottom",
+      "probability": 20,
+      "result": "failure"
+    },
+    {
+      "to": "Side Control/Bottom",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

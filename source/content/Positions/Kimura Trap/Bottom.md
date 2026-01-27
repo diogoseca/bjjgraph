@@ -21,37 +21,37 @@ description: "Master Kimura Trap Bottom in BJJ. Defensive control position with 
     {
       "@type": "HowToStep",
       "name": "Execute Old School Sweep",
-      "text": "From this position, execute Old School Sweep to transition to Mount. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Old School Sweep. This technique is attempted in 15% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kimura to Back Take",
-      "text": "From this position, execute Kimura to Back Take to transition to Back Control. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Kimura to Back Take. This technique is attempted in 14% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kimura from Half Guard",
-      "text": "From this position, execute Kimura from Half Guard to transition to Kimura Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Kimura from Half Guard. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling Kimura",
-      "text": "From this position, execute Rolling Kimura to transition to Mount. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Rolling Kimura. This technique is attempted in 11% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Sweep from Half",
-      "text": "From this position, execute Underhook Sweep from Half to transition to Side Control. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 13% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Half Guard Sweeps",
-      "text": "From this position, execute Half Guard Sweeps to transition to Side Control. Success rate for advanced practitioners: 68%.",
+      "text": "From this position, attempt Half Guard Sweeps. This technique is attempted in 13% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -213,91 +213,22 @@ Strategically, the position forces top players into impossible choices—they mu
 
 ## Available Escapes
 
-### [[Old School Sweep]] → [[Mount]]
+### [[Old School Sweep]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 50%
-- Intermediate: 65%
-- Advanced: 75%
+### [[Kimura to Back Take]] (14% of attempts)
 
-### [[Kimura to Back Take]] → [[Back Control]]
+### [[Kimura from Half Guard]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 60%
-- Advanced: 75%
+### [[Rolling Kimura]] (11% of attempts)
 
-### [[Kimura from Half Guard]] → [[Kimura Control]]
+### [[Underhook Sweep from Half]] (13% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Half Guard Sweeps]] (13% of attempts)
 
-### [[Rolling Kimura]] → [[Mount]]
+### [[Closed Guard to Omoplata]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Lockdown Sweeps]] (12% of attempts)
 
-### [[Underhook Sweep from Half]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 60%
-- Advanced: 70%
-
-### [[Half Guard Sweeps]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 68%
-
-### [[Transition to Omoplata]] → [[Omoplata Control]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-### [[Lockdown Sweeps]] → [[Half Guard]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Kimura Defense]]** → [[Half Guard]] (Opponent Success: 55%)
-- **[[Base Widening]]** → [[Side Control]] (Opponent Success: 45%)
-- **[[Arm Extraction]]** → [[Half Guard]] (Opponent Success: 40%)
-- **[[Stack Defense]]** → [[Half Guard]] (Opponent Success: 35%)
-- **[[Pressure Pass]]** → [[Side Control]] (Opponent Success: 50%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Rolling Kimura Escape]]** → [[Mount]]
-  - Opponent attempts to pull arm free by driving forward or posting, creating forward momentum
-- **[[Kimura to Back Take]]** → [[Back Control]]
-  - Opponent turns into Kimura grip to defend submission or attempts to step over trapped arm
-- **[[Old School Sweep]]** → [[Mount]]
-  - Opponent widens base or posts far leg to defend Kimura, creating leverage point for ankle hook
-- **[[Lockdown Sweeps]]** → [[Half Guard]]
-  - Opponent attempts to flatten hips and settle weight to neutralize Kimura threat
 
 
 </section>
@@ -313,17 +244,17 @@ Strategically, the position forces top players into impossible choices—they mu
 
 **If opponent turns into Kimura grip to alleviate shoulder pressure or defend submission:**
 - Execute **[[Kimura to Back Take]]** → [[Back Control]] (Probability: 75%)
-- Execute **[[Transition to Truck]]** → [[Truck]] (Probability: 60%)
+- Execute **[[Turtle to Truck]]** → [[Truck]] (Probability: 60%)
 
 
 **If opponent drives forward aggressively to flatten hips and neutralize Kimura system:**
-- Execute **[[Rolling Kimura Escape]]** → [[Mount]] (Probability: 65%)
+- Execute **[[Rolling Kimura]]** → [[Mount]] (Probability: 65%)
 - Execute **[[Underhook Sweep from Half]]** → [[Side Control]] (Probability: 60%)
 
 
 **If opponent pulls arm back and attempts to extract from Kimura grip:**
-- Execute **[[Kimura from Half Guard]]** → [[Kimura Control]] (Probability: 80%)
-- Execute **[[Transition to Omoplata]]** → [[Omoplata Control]] (Probability: 50%)
+- Execute **[[Kimura from Half Guard]]** → [[Armbar Control]] (Probability: 80%)
+- Execute **[[Closed Guard to Omoplata]]** → [[Omoplata Control]] (Probability: 50%)
 
 
 
@@ -404,29 +335,39 @@ Start in Kimura Trap Bottom. Partner cycles through four defensive reactions: (1
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Direct Kimura Finish Path
+## Test Your Knowledge
 
-`Kimura Trap Bottom → Kimura from Half Guard → Kimura Control → Kimura`
+**Q1**: What is the optimal hip positioning for maintaining offensive capability from Kimura Trap Bottom?
+**A**: Keep your hips turned toward your opponent with your bottom hip slightly elevated off the mat, creating an angle that enables sweeping mechanics. Your hips should never be flat on the mat, as this eliminates leverage and allows opponent to settle their weight. The lockdown or butterfly hook connection with their trapped leg maintains this angle while preventing them from passing or flattening you.
 
-### Sweep to Mount Submission Path
+**Q2**: Your opponent starts driving forward with heavy crossface pressure - what adjustment do you make?
+**A**: Use their forward drive against them by maintaining the Kimura grip and either executing a rolling Kimura (using their momentum to come on top) or transitioning to deep half guard by sliding underneath them. Their forward pressure creates momentum you can redirect. Additionally, use your free arm to frame on their shoulder or jaw to create distance and relieve the crossface pressure before they completely flatten you.
 
-`Kimura Trap Bottom → Old School Sweep → Mount → Kimura from Mount`
+**Q3**: What are the essential grips for maintaining Kimura Trap Bottom position?
+**A**: The primary grip is the figure-four Kimura configuration with your outside hand gripping your own wrist after threading under opponent's tricep. This must be deep near their elbow, not their wrist. Your free hand should either frame on their shoulder/face or establish an underhook on their far side for additional control. Your legs provide the secondary grip through lockdown configuration or butterfly hook on their trapped leg.
 
-### Back Take to Submission Path
+**Q4**: How do you shut down the opponent's primary counter from Kimura Trap Bottom?
+**A**: The primary counter is opponent pulling their arm back and extracting it from the grip. Prevent this by keeping constant inward pressure with the grip, positioning your elbows tight to your body, and using your hip angle to maintain the arm extended across their centerline. When you feel them pulling back, immediately increase submission pressure or initiate the Old School Sweep, making their extraction attempt work against them.
 
-`Kimura Trap Bottom → Kimura to Back Take → Back Control → Rear Naked Choke`
+**Q5**: What is the correct base structure for generating sweeping power from Kimura Trap Bottom?
+**A**: Establish a tripod base with your posted outside foot flat on the mat, your shoulder blade on the mat, and your head driving into opponent's chest. This creates three stable contact points that allow powerful hip elevation for sweeps. Your lockdown leg controls their trapped leg while your hips bridge up and toward them. The sweeping motion comes from this unified base structure, not from pulling with the arms.
 
-### Omoplata Transition Path
+**Q6**: Your opponent successfully widens their base and posts their far hand - how do you still complete the sweep?
+**A**: Their base widening actually creates the setup for Old School Sweep by exposing their far leg for ankle hooking. Hook their far ankle with your outside leg while bridging toward them and pulling the Kimura grip across your body. Their wide base and posted hand cannot prevent this off-balancing angle. Alternatively, use their commitment to base defense to threaten the back take, as their focus on staying upright often exposes their back.
 
-`Kimura Trap Bottom → Transition to Omoplata → Omoplata Control → Omoplata`
+**Q7**: How do you manage energy when working the Kimura Trap Bottom system against a patient opponent?
+**A**: Use efficient grip maintenance by keeping elbows tight and letting the figure-four structure do the work rather than constantly squeezing. Cycle through threat sequences methodically - show the sweep, show the submission, show the back take - forcing them to constantly adjust and expend energy. Rest when opponent isn't actively attacking by maintaining the grip with minimal effort. The bottom player with the Kimura grip can afford patience because the top player's arm is compromised.
+
+**Q8**: Your opponent partially passes but you maintain the Kimura grip - what is your recovery sequence?
+**A**: Keep the Kimura grip as your anchor and immediately recover half guard by shrimping your hips and re-inserting your knee shield or lockdown on their trapped leg. The grip prevents them from consolidating the pass because their arm is compromised. If they continue to advance, use the grip to pull yourself onto your side and threaten the back take as they pass, converting their positional advancement into back exposure.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -448,15 +389,15 @@ Start in Kimura Trap Bottom. Partner cycles through four defensive reactions: (1
 ## Related Positions and Techniques
 
 - **[[Half Guard]]** - Primary entry position - most common starting point for establishing Kimura Trap Bottom
-- **[[Kimura Trap System]]** - Parent system - comprehensive framework for Kimura Trap positions, sweeps, and submissions
 - **[[Lockdown]]** - Common leg configuration - often combined with Kimura grip for enhanced control
 - **[[Old School Sweep]]** - Primary sweep option - highest percentage sweep from Kimura Trap Bottom position
 - **[[Kimura]]** - Primary submission threat - direct finish option from this control position
 - **[[Back Control]]** - Common transition target - reached when opponent turns into Kimura grip defensively
 - **[[Side Control]]** - Alternative entry position - can establish Kimura Trap when opponent commits arm
-- **[[Underhook Control]]** - Related control concept - Kimura grip provides superior arm control mechanism
 - **[[Deep Half Guard]]** - Alternative bottom position - shares focus on creating sweeps from inferior position
 - **[[Turtle]]** - Entry position - opponent's turtle creates arm exposure for Kimura grip establishment
+- **[[Kimura to Back Take]]** - Key transition - used when opponent turns into grip defensively
+- **[[Electric Chair]]** - Connected attack - accessible when opponent defends Kimura from lockdown
 
 
 </section>

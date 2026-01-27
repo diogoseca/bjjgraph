@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Knee Through | BJJ Technique | BJJ Graph"
 description: "Master the Knee Through pass in BJJ. Systematic half guard passing technique using knee insertion and pressure. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%."
@@ -16,7 +17,7 @@ description: "Master the Knee Through pass in BJJ. Systematic half guard passing
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Knee Through in BJJ",
-  "description": "Step-by-step guide for Knee Through from Half Guard to Side Control.",
+  "description": "Step-by-step guide for Knee Through from Half Guard/Bottom. Possible outcomes: Side Control/Top (75%), Half Guard/Bottom (15%), Half Guard/Top (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -154,11 +155,25 @@ description: "Master the Knee Through pass in BJJ. Systematic half guard passing
 
 The Knee Through pass is a fundamental half guard passing technique that involves systematically inserting the trapped knee through the opponent's guard while maintaining upper body control. This pass is particularly effective against defensive half guard players who rely on the knee shield or traditional half guard frames. The technique exploits the natural weakness in the half guard structure when proper shoulder pressure and knee positioning combine to create an overwhelming passing sequence. The Knee Through differs from the Knee Slice in that it emphasizes driving the knee completely through the guard rather than cutting across, making it especially effective when the opponent has a strong underhook or is attempting to recover full guard. This pass forms the cornerstone of pressure-based passing systems and serves as a critical transition between standing passes and consolidated top positions.
 
-**Starting Position**: [[Half Guard]]
-**Ending Position**: [[Side Control]]
+**From Position**: [[Half Guard/Bottom]]
 **Success Rates**: Beginner 45%, Intermediate 60%, Advanced 75%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Side Control/Top]] | 75% |
+| Failure | [[Half Guard/Bottom]] | 15% |
+| Counter | [[Half Guard/Top]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

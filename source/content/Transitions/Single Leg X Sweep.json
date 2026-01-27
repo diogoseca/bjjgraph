@@ -11,8 +11,6 @@
     "x_guard_system",
     "open_guard"
   ],
-  "starting_position": "Single Leg X-Guard",
-  "ending_position": "Standing Position",
   "success_rates": {
     "beginner": 50,
     "intermediate": 70,
@@ -289,6 +287,24 @@
     {
       "name": "Ankle Pick Sweep",
       "relationship": "Alternative sweep targeting similar positions"
+    }
+  ],
+  "from_position": "Single Leg X-Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Standing Position/Top",
+      "probability": 75,
+      "result": "success"
+    },
+    {
+      "to": "Single Leg X-Guard/Bottom",
+      "probability": 15,
+      "result": "failure"
+    },
+    {
+      "to": "Single Leg X-Guard/Top",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

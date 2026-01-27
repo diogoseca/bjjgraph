@@ -10,8 +10,6 @@
     "guard attack",
     "mount transition"
   ],
-  "starting_position": "Closed Guard",
-  "ending_position": "Mount",
   "success_rates": {
     "beginner": 55,
     "intermediate": 75,
@@ -250,6 +248,24 @@
     {
       "name": "Guard Pass",
       "relationship": "Opponent's objective - technique prevents their passing attempts and reverses position"
+    }
+  ],
+  "from_position": "Closed Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Mount/Top",
+      "probability": 75,
+      "result": "success"
+    },
+    {
+      "to": "Closed Guard/Bottom",
+      "probability": 15,
+      "result": "failure"
+    },
+    {
+      "to": "Closed Guard/Top",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

@@ -1,0 +1,276 @@
+{
+  "name": "Aoki Lock Finish",
+  "description": "Learn Aoki Lock Finish in BJJ. Advanced shoulder lock submission from leg entanglement control. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "tags": [
+    "bjj",
+    "transition",
+    "technique",
+    "submission",
+    "shoulder-lock",
+    "advanced",
+    "no-gi"
+  ],
+  "from_position": "Aoki Lock/Top",
+  "outcomes": [
+    {
+      "to": "game-over",
+      "probability": 65,
+      "result": "success"
+    },
+    {
+      "to": "Aoki Lock/Top",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Open Guard/Bottom",
+      "probability": 10,
+      "result": "counter"
+    }
+  ],
+  "success_rates": {
+    "beginner": 30,
+    "intermediate": 50,
+    "advanced": 65
+  },
+  "overview": "The Aoki Lock Finish is an advanced shoulder lock submission named after Japanese MMA fighter Shinya Aoki, executed from a leg-entangled shoulder control position. This technique combines omoplata-style shoulder manipulation with leg-based trapping, creating rotational pressure on the shoulder joint through hip drive and proper angle maintenance. The finish requires precise mechanical understanding of shoulder anatomy and progressive pressure application to force the tap while minimizing injury risk.\n\nFrom a strategic perspective, the Aoki Lock Finish serves as the terminal option when you have established dominant leg entanglement control over the opponent's shoulder. The technique is particularly effective in no-gi competition and submission-only formats where the absence of gi grips makes traditional shoulder lock escapes more difficult. Success depends on maintaining tight leg control throughout the finish sequence while applying gradual, progressive pressure that gives your opponent time to recognize the submission threat and tap safely.\n\nThe finishing mechanics involve driving your hips forward and down into the opponent's shoulder while keeping their arm extended and isolated between your legs. Unlike traditional shoulder locks that rely primarily on arm manipulation, the Aoki Lock uses your entire lower body as a unified control mechanism, making it extremely difficult to escape once properly secured. The position carries significant injury risk, requiring strict adherence to safety protocols including progressive pressure application and immediate release upon tap signals.",
+  "key_principles": [
+    "Maintain tight leg entanglement throughout the finish to prevent arm extraction and escape",
+    "Apply progressive hip pressure over 3-5 seconds minimum to allow safe tap recognition",
+    "Keep opponent's elbow pointed away from their body to maximize shoulder joint torque",
+    "Post free leg close to opponent's body to maintain stable base during finish",
+    "Control opponent's hips with hands to prevent rotation into the pressure",
+    "Monitor opponent's tap signals constantly including verbal, hand taps, and body language",
+    "Release immediately upon any tap signal to prevent shoulder injury"
+  ],
+  "setup_requirements": [
+    "Established Aoki Lock top control with leg entanglement secured around opponent's shoulder and upper arm",
+    "Opponent's arm extended and isolated between your legs with elbow pointing away from their body",
+    "Stable base through posted leg positioned close to opponent's body",
+    "Hand control on opponent's hips or far-side limbs preventing rotation and escape angles",
+    "Opponent's defensive movements have been neutralized or they are static in defensive posture"
+  ],
+  "execution_steps": [
+    {
+      "step_number": 1,
+      "action": "Verify position",
+      "description": "Confirm leg entanglement is tight around opponent's shoulder and upper arm with your thigh over their shoulder and shin controlling their upper arm. Ensure their elbow is pointing away from their body and arm is extended.",
+      "timing": "Before initiating finish"
+    },
+    {
+      "step_number": 2,
+      "action": "Secure hip control",
+      "description": "Place your hands on opponent's far hip and near hip to prevent any rotation or escape angles. This control is essential as it prevents them from turning into the pressure or creating space for arm extraction.",
+      "timing": "Immediately before pressure application"
+    },
+    {
+      "step_number": 3,
+      "action": "Tighten leg triangle",
+      "description": "Squeeze your legs together firmly around opponent's shoulder complex, driving your top leg down while pulling your bottom leg up. This creates a unified clamp that prevents any arm movement and positions your hips for maximum pressure generation.",
+      "timing": "2-3 seconds"
+    },
+    {
+      "step_number": 4,
+      "action": "Initiate hip drive",
+      "description": "Begin driving your hips forward and down into opponent's shoulder joint at a gradual, controlled pace. The pressure should build progressively over 3-5 seconds, not explosively. Keep your posted leg close to their body for stable base.",
+      "timing": "3-5 seconds progressive buildup"
+    },
+    {
+      "step_number": 5,
+      "action": "Maintain pressure angle",
+      "description": "Adjust your hip angle to maximize external rotation pressure on opponent's shoulder. The pressure vector should drive their shoulder into external rotation while their arm remains trapped and extended. Watch for tap signals throughout.",
+      "timing": "Continuous throughout finish"
+    },
+    {
+      "step_number": 6,
+      "action": "Complete finish or release",
+      "description": "Continue progressive pressure until opponent taps or verbally submits. Release immediately upon any tap signal including hand taps on any surface, verbal submission, or body language indicating distress. Do not hold position after tap.",
+      "timing": "Immediate release upon tap"
+    }
+  ],
+  "common_counters": [
+    {
+      "counter": "Roll through escape where opponent rolls toward trapped arm to relieve pressure and extract arm",
+      "effectiveness": "Medium",
+      "your_response": "Follow their roll momentum and transition to back control rather than fighting to maintain the lock. Your leg positioning provides natural transition to rear mount or body triangle."
+    },
+    {
+      "counter": "Arm extraction by bending elbow and pulling arm back toward body during pressure buildup",
+      "effectiveness": "Medium",
+      "your_response": "Re-tighten leg triangle immediately by driving top leg down and bottom leg up. Increase hip drive to prevent further extraction. If arm comes free, transition to back control using existing leg positioning."
+    },
+    {
+      "counter": "Base attack where opponent uses free hand to destabilize your posted leg",
+      "effectiveness": "Low",
+      "your_response": "Keep posted leg close to opponent's body and distribute weight through hips into their shoulder. If base is compromised, follow the movement direction and transition to back control or truck position."
+    },
+    {
+      "counter": "Hip escape to create distance and change pressure angle on shoulder",
+      "effectiveness": "Medium",
+      "your_response": "Maintain hand control on opponent's hips to prevent escape movement. If they create space, follow with your hips to maintain pressure angle. Consider transitioning to crucifix if they expose far arm during escape attempt."
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "Applying pressure too quickly or explosively without gradual buildup",
+      "consequence": "Risk of serious shoulder injury including rotator cuff tears, labrum damage, or dislocation. Opponent cannot tap safely when pressure is explosive.",
+      "correction": "Apply pressure progressively over 3-5 seconds minimum. Build gradually and watch for tap signals constantly. The finish should feel controlled, not explosive."
+    },
+    {
+      "error": "Loose leg entanglement allowing opponent's arm to partially extract during finish",
+      "consequence": "Submission fails as opponent extracts arm or adjusts shoulder angle to defend. Position may be lost entirely.",
+      "correction": "Maintain tight squeeze with legs throughout finish. Drive top leg down and bottom leg up continuously. Re-tighten immediately if any slack develops."
+    },
+    {
+      "error": "Posted leg positioned too far from opponent's body",
+      "consequence": "Unstable base allows opponent to roll through or create escape angles. Hip pressure becomes inconsistent.",
+      "correction": "Keep posted leg close to opponent's body throughout finish. Base should feel stable and connected, not extended or reaching."
+    },
+    {
+      "error": "Failing to control opponent's hips with hands during finish",
+      "consequence": "Opponent rotates into pressure relieving shoulder torque or creates escape angle for arm extraction.",
+      "correction": "Maintain active hand control on opponent's hips throughout finish. Prevent any rotation or hip movement that could change pressure angle."
+    },
+    {
+      "error": "Looking away from opponent or losing awareness during finish",
+      "consequence": "Miss tap signals leading to injury, or miss defensive movements allowing escape.",
+      "correction": "Keep eyes on opponent throughout finish. Watch for all tap signals including hand taps, verbal submission, and body language indicating distress."
+    },
+    {
+      "error": "Holding position after opponent taps or continuing pressure unnecessarily",
+      "consequence": "Shoulder injury to training partner, unsafe training environment, potential loss of training partners.",
+      "correction": "Release immediately upon any tap signal. Do not hold position to establish dominance after submission is secured. Safety is paramount."
+    }
+  ],
+  "training_progressions": [
+    {
+      "phase": "Week 1-2",
+      "focus": "Fundamentals",
+      "description": "Practice the finish mechanics with fully compliant partner. Focus on proper leg positioning, hip drive angle, and progressive pressure application. Partner taps at first discomfort to develop sensitivity. No resistance.",
+      "resistance_level": "None"
+    },
+    {
+      "phase": "Week 3-4",
+      "focus": "Timing",
+      "description": "Partner provides light defensive movement including minor hip shifts and arm positioning adjustments. Practice recognizing when finish is available versus when transitions are better options. Develop timing for pressure application.",
+      "resistance_level": "Light"
+    },
+    {
+      "phase": "Week 5-6",
+      "focus": "Combinations",
+      "description": "Chain the Aoki Lock Finish with transition options. When partner defends effectively, flow to back control, truck, or crucifix. Practice reading defensive reactions and choosing appropriate follow-up techniques.",
+      "resistance_level": "Medium"
+    },
+    {
+      "phase": "Week 7+",
+      "focus": "Live application",
+      "description": "Apply in positional sparring starting from Aoki Lock top position. Full resistance with safety protocols maintained. Focus on entry timing, finish execution under pressure, and transition recognition when finish is defended.",
+      "resistance_level": "Full"
+    }
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Rolling Aoki Lock Finish",
+      "description": "When opponent attempts to roll through your Aoki Lock control, follow their momentum while maintaining leg entanglement. Complete the finish from the new angle after the roll, often ending in a more dominant position with their shoulder fully isolated.",
+      "when_to_use": "When opponent initiates roll escape and you can follow their momentum rather than fighting it"
+    },
+    {
+      "variant_name": "Aoki Lock to Back Take Finish",
+      "description": "When opponent's shoulder defense is strong, release the shoulder lock pressure slightly while maintaining leg entanglement. Use the control to transition to back control, then reattack with rear naked choke or re-establish Aoki Lock from the new angle.",
+      "when_to_use": "When direct finish is defended but positional control remains strong"
+    },
+    {
+      "variant_name": "Extended Arm Variation",
+      "description": "Variation where opponent's arm is fully straightened and extended away from their body. Apply wrist control with hands while maintaining leg entanglement on shoulder. Creates dual threat to shoulder and elbow joints.",
+      "when_to_use": "When opponent's arm is fully extended and you can secure wrist control"
+    }
+  ],
+  "knowledge_assessment": [
+    {
+      "question": "What is the primary goal of the Aoki Lock Finish?",
+      "answer": "The primary goal is to apply progressive rotational pressure to the opponent's shoulder joint through hip drive while maintaining leg entanglement control, forcing them to tap before shoulder damage occurs. The finish creates external rotation stress on the shoulder capsule.",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "What is the most critical hip movement when executing the Aoki Lock Finish?",
+      "answer": "The hip drive should be forward and down into the opponent's shoulder at a gradual, progressive pace over 3-5 seconds. The hips create the primary pressure vector for external rotation of the shoulder joint. Explosive hip movement risks injury and should be avoided.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "Your opponent starts to extract their arm during your finish attempt - how do you respond?",
+      "answer": "Immediately re-tighten your leg triangle by driving your top leg down while pulling your bottom leg up. Increase hip pressure to prevent further extraction. If arm continues coming free, abandon the shoulder lock and transition to back control using your existing leg positioning rather than fighting a losing battle.",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "What grip priorities should you maintain when finishing the Aoki Lock?",
+      "answer": "Hands should control opponent's hips to prevent rotation and escape angles. Do not grip the trapped arm itself - your legs provide shoulder control through entanglement. Hand grips focus on position management (hips) rather than the submission (arm).",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "When should you transition instead of continuing to pursue the Aoki Lock Finish?",
+      "answer": "Transition when you've applied two attempts at increasing pressure without submission progress, when opponent's defensive posture is strong and static, or when they create any opening for back control, truck, or crucifix. Forcing a defended shoulder lock wastes energy.",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "What are the essential setup requirements before attempting the finish?",
+      "answer": "You need established leg entanglement with thigh over opponent's shoulder and shin controlling upper arm, their arm extended with elbow pointing away from body, stable base through posted leg close to their body, and hand control on their hips preventing rotation. Missing any element significantly reduces finish probability.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "How do you recognize when to tap if defending versus when escape is possible?",
+      "answer": "Tap immediately when you feel sharp pain in the shoulder joint, when you cannot prevent full arm extension, when shoulder rotation reaches uncomfortable levels, or when opponent's pressure is increasing and you have no escape path. Shoulder injuries from this position are serious and not worth defending through.",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "Your opponent rolls toward their trapped arm during your finish attempt - what technique should you execute?",
+      "answer": "Follow their roll momentum rather than fighting it while maintaining leg entanglement. This often converts directly to back control. Use your existing leg positioning as a starting point for rear mount or body triangle. Do not pull backward against the roll as this creates space for arm extraction.",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "What is the optimal timing window for applying maximum pressure?",
+      "answer": "Apply maximum pressure only after confirming tight leg entanglement, stable posted leg base, and opponent's defensive movements have been neutralized. The pressure buildup should occur over 3-5 seconds minimum to allow safe tap recognition. Never apply explosive pressure.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "How does the direction of force differ in Aoki Lock Finish compared to traditional Kimura?",
+      "answer": "Aoki Lock uses hip drive creating external rotation pressure on the shoulder joint through leg entanglement, while Kimura uses figure-four grip creating internal rotation through arm manipulation. Aoki Lock's force comes from your entire lower body unified as a control mechanism rather than upper body grip strength.",
+      "difficulty": "Advanced"
+    }
+  ],
+  "safety_considerations": "The Aoki Lock Finish carries significant shoulder injury risk including rotator cuff tears, labrum damage, shoulder dislocation, and long-term joint damage. Always apply pressure progressively over 3-5 seconds minimum - never explosively. Release immediately upon any tap signal including hand taps on any surface, verbal submission, or body language indicating distress. Do not hold position after tap to establish dominance. In training, never exceed 60% pressure intensity. Ensure clear communication protocols with training partners before drilling. This submission is not recommended for beginners due to the technical precision required for safe application. If you feel your opponent's shoulder pop or hear unusual sounds, release immediately and check for injury.",
+  "position_integration": "The Aoki Lock Finish represents the terminal offensive option from Aoki Lock top control, completing the shoulder lock attack sequence that begins with position entry from turtle attacks, front headlock, or guard passing. This finish integrates into the broader leg entanglement and shoulder lock systems, sharing mechanical principles with omoplata and kimura attacks while using lower body control rather than upper body grips. When the finish is defended, natural transitions flow to back control, truck position, or crucifix capture, making the Aoki Lock system a versatile attacking hub. The finish also connects to the broader no-gi submission hierarchy as one of several advanced shoulder locks available when traditional attacks are defended.",
+  "related_content": [
+    {
+      "name": "Aoki Lock",
+      "relationship": "Starting position - must establish this control before attempting finish"
+    },
+    {
+      "name": "Omoplata Control",
+      "relationship": "Related position with similar shoulder lock mechanics"
+    },
+    {
+      "name": "Kimura Trap",
+      "relationship": "Related system - alternative shoulder lock control methodology"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Primary transition target when finish is defended"
+    },
+    {
+      "name": "Truck",
+      "relationship": "Alternative transition when opponent turns away during defense"
+    },
+    {
+      "name": "Crucifix",
+      "relationship": "Transition target when opponent exposes far arm defending"
+    },
+    {
+      "name": "Aoki Lock to Back Control",
+      "relationship": "Follow-up transition when direct finish fails"
+    },
+    {
+      "name": "Aoki Lock to Crucifix",
+      "relationship": "Alternative attack when opponent's defense exposes opportunities"
+    }
+  ]
+}

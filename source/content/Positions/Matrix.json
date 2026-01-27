@@ -47,360 +47,6 @@
       "relationship": "Alternative control when Matrix brings arm across body"
     }
   ],
-  "bottom": {
-    "name": "Matrix Bottom",
-    "description": "Execute the Matrix back take from bottom position. Technical guide to rolling mechanics, timing windows, and transitional sequences for dynamic back access from turtle and scrambles.",
-    "tags": [
-      "Back Takes",
-      "Dynamic Transitions",
-      "Turtle Attacks",
-      "Advanced Techniques",
-      "Competition Techniques",
-      "Scrambles",
-      "Rotational Movement"
-    ],
-    "overview": "From the bottom perspective, the Matrix represents one of the most effective offensive weapons available from seemingly defensive positions. This inverted rolling back take transforms turtle, bottom scrambles, and even certain guard positions into launching points for immediate back control access.\n\nThe fundamental concept involves creating rotational momentum through hip elevation and shoulder posting, then rolling underneath or around the opponent while maintaining connection through grips and hooks. The movement requires exceptional body awareness, as practitioners must track their spatial orientation while inverted and continue the motion smoothly into hook insertion and back control establishment.\n\nMechanically, the Matrix begins with establishing a stable base—typically from turtle or a seated position with one or both hands posted. The practitioner elevates their hips while maintaining shoulder contact with the mat, creating the fulcrum for rotation. As the hips rise and begin to circle, the legs start their rotational path around or under the opponent. The critical moment occurs mid-rotation when the first hook must be inserted before the body completes its inversion.\n\nTiming represents the most crucial element for Matrix success. The technique works best when opponents are static in their posture or during weight transitions. Attempting the Matrix against an actively mobile opponent with good base often results in the rotation being stuffed or countered. Practitioners must develop the ability to recognize micro-moments of opponent stillness or weight commitment and execute the entry explosively.\n\nThe Matrix functions as part of a comprehensive attacking system from bottom positions. It pairs exceptionally well with traditional underhook-based attacks, arm drags, and other back-take approaches. When opponents defend conventional attacks, they often create Matrix opportunities, and vice versa. This synergy makes the technique even more effective within integrated systems.\n\nPhysically, the Matrix demands significant core strength, hip flexibility, and rotational power. Practitioners must generate enough momentum to complete the inversion while maintaining control of their opponent's position. The movement also requires considerable cardio endurance, as failed attempts or partial completions often lead to scrambles requiring immediate follow-up action.\n\nRisk management is essential when executing the Matrix. Incomplete rotations can leave practitioners in vulnerable positions—inverted with their back exposed. Therefore, commitment to the movement is critical; hesitation mid-roll creates the highest risk scenarios. Practitioners must develop the confidence to fully commit to the rotation or immediately abort and return to defensive positioning.",
-    "state_properties": {
-      "point_value": 0,
-      "position_type": "Offensive",
-      "risk_level": "Medium to High",
-      "energy_cost": "High",
-      "time_sustainability": "Short"
-    },
-    "state_invariants": [
-      "At least one shoulder maintains mat contact during the initial rotation phase, providing the pivot point around which the body rotates—losing this contact causes the rotation to stall and leaves the practitioner floating without mechanical advantage",
-      "Hip elevation above shoulder level creates the necessary gravitational momentum for the inverted rotation—insufficient hip height results in weak rotational force that opponents can easily defend by simply maintaining their base",
-      "Active connection to opponent's torso or hips through grips or leg contact persists throughout the rotation—losing this connection means rotating in space without affecting opponent position, arriving at back control setup without actual control established"
-    ],
-    "prerequisites": [
-      "Opponent is in turtle, seated, or transitional position with relatively static base",
-      "Practitioner has established at least one grip or connection point to opponent's torso or hips",
-      "Sufficient space exists for rotational movement without immediate obstacles or barriers",
-      "Practitioner's positioning allows hip elevation and shoulder posting mechanics",
-      "Timing window present—opponent not actively moving or adjusting base dynamically"
-    ],
-    "key_principles": [
-      "Generate explosive rotational momentum through simultaneous hip elevation and shoulder posting",
-      "Maintain constant awareness of spatial orientation during inversion to enable precise hook placement",
-      "Commit fully to the rotation—partial attempts create maximum vulnerability with minimum reward",
-      "Insert first hook during the rotation, not after completion, to prevent opponent escape",
-      "Use opponent's static posture or weight transitions as timing triggers for entry",
-      "Keep connection to opponent throughout rotation through grips or leg contact",
-      "Prepare multiple backup transitions if rotation is defended or incomplete"
-    ],
-    "offensive_transitions": [
-      {
-        "technique": "Matrix Back Take",
-        "target_position": "Back Control",
-        "success_rates": {
-          "beginner": 20,
-          "intermediate": 40,
-          "advanced": 65
-        }
-      },
-      {
-        "technique": "Rolling Back Take",
-        "target_position": "Back Control",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 45,
-          "advanced": 60
-        }
-      },
-      {
-        "technique": "Arm Drag to Back",
-        "target_position": "Back Control",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 50,
-          "advanced": 65
-        }
-      },
-      {
-        "technique": "Chair Sit to Back",
-        "target_position": "Crab Ride",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 45,
-          "advanced": 60
-        }
-      },
-      {
-        "technique": "Granby Roll",
-        "target_position": "Closed Guard",
-        "success_rates": {
-          "beginner": 40,
-          "intermediate": 55,
-          "advanced": 70
-        }
-      },
-      {
-        "technique": "Rolling to Guard",
-        "target_position": "Open Guard",
-        "success_rates": {
-          "beginner": 45,
-          "intermediate": 60,
-          "advanced": 75
-        }
-      },
-      {
-        "technique": "Berimbolo Entry",
-        "target_position": "Back Control",
-        "success_rates": {
-          "beginner": 15,
-          "intermediate": 35,
-          "advanced": 55
-        }
-      },
-      {
-        "technique": "Turtle to Back Take",
-        "target_position": "Back Control",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 50,
-          "advanced": 65
-        }
-      }
-    ],
-    "defensive_responses": [
-      {
-        "technique": "Base Widening",
-        "target_position": "Turtle",
-        "success_rate": 60
-      },
-      {
-        "technique": "Weight Distribution Adjustment",
-        "target_position": "Turtle",
-        "success_rate": 55
-      },
-      {
-        "technique": "Hip Block",
-        "target_position": "Turtle",
-        "success_rate": 50
-      },
-      {
-        "technique": "Grip Break and Sprawl",
-        "target_position": "Turtle",
-        "success_rate": 45
-      },
-      {
-        "technique": "Counter Roll",
-        "target_position": "Scramble Position",
-        "success_rate": 40
-      }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Arm Drag to Back",
-        "target_position": "Back Control",
-        "trigger": "Opponent attempts to block rotation by reaching across body, exposing arm for drag"
-      },
-      {
-        "technique": "Turtle to Back Take",
-        "target_position": "Back Control",
-        "trigger": "Opponent defends Matrix by turtling tighter, creating traditional back attack opening"
-      },
-      {
-        "technique": "Rolling to Guard",
-        "target_position": "Closed Guard",
-        "trigger": "Rotation is blocked mid-movement, requiring immediate continuation to guard recovery"
-      },
-      {
-        "technique": "Granby Roll",
-        "target_position": "Closed Guard",
-        "trigger": "Opponent sprawls heavily on rotation attempt, necessitating continuation through to guard"
-      }
-    ],
-    "decision_tree": [
-      {
-        "condition": "Opponent maintains static turtle position with narrow base",
-        "actions": [
-          {
-            "technique": "Matrix Back Take",
-            "target": "Back Control",
-            "probability": 65
-          },
-          {
-            "technique": "Rolling Back Take",
-            "target": "Back Control",
-            "probability": 60
-          }
-        ]
-      },
-      {
-        "condition": "Opponent widens base or posts hand to block rotation",
-        "actions": [
-          {
-            "technique": "Arm Drag to Back",
-            "target": "Back Control",
-            "probability": 55
-          },
-          {
-            "technique": "Chair Sit to Back",
-            "target": "Crab Ride",
-            "probability": 50
-          }
-        ]
-      },
-      {
-        "condition": "Rotation is blocked mid-movement by weight pressure",
-        "actions": [
-          {
-            "technique": "Rolling to Guard",
-            "target": "Closed Guard",
-            "probability": 60
-          },
-          {
-            "technique": "Granby Roll",
-            "target": "Closed Guard",
-            "probability": 55
-          }
-        ]
-      },
-      {
-        "condition": "Opponent actively scrambling or mobile",
-        "actions": [
-          {
-            "technique": "Turtle to Back Take",
-            "target": "Back Control",
-            "probability": 50
-          },
-          {
-            "technique": "Rolling to Guard",
-            "target": "Open Guard",
-            "probability": 55
-          }
-        ]
-      }
-    ],
-    "common_errors": [
-      {
-        "error": "Insufficient hip elevation before initiating rotation",
-        "consequence": "Weak rotational momentum makes the movement slow and easily defended, often resulting in getting flattened or stuck mid-roll",
-        "correction": "Explosively drive hips upward until they are clearly above shoulder level before beginning the rotational component, using leg drive and core engagement"
-      },
-      {
-        "error": "Losing shoulder contact with mat during initial rotation phase",
-        "consequence": "Without the shoulder pivot point, the body rotates in space without mechanical advantage, creating a slow, floating movement easily stuffed by opponent",
-        "correction": "Maintain active shoulder pressure into the mat throughout the first 180 degrees of rotation, only lifting shoulder after hips have passed the apex"
-      },
-      {
-        "error": "Attempting hook insertion after rotation completes",
-        "consequence": "Opponent has time to defend hook entry, turn into practitioner, or establish their own hooks, negating the back take advantage",
-        "correction": "Begin threading the first hook as soon as hips pass opponent's centerline during rotation, inserting the hook while still inverted"
-      },
-      {
-        "error": "Releasing grips or connection during the rotation",
-        "consequence": "Rotating independently of opponent position means arriving behind them without actual control, allowing easy escape or counter",
-        "correction": "Maintain at least one strong connection point—typically belt, pants, or leg grip—throughout entire rotation to ensure opponent position moves with your rotation"
-      },
-      {
-        "error": "Hesitating or slowing mid-rotation",
-        "consequence": "Pausing while inverted creates maximum vulnerability with back exposed and no defensive structure, inviting opponent to take dominant position",
-        "correction": "Commit fully to completing the rotation in one continuous explosive motion, or immediately abort and return to defensive structure if entry timing is wrong"
-      },
-      {
-        "error": "Poor timing—attempting Matrix against actively mobile opponent",
-        "consequence": "Opponent's base adjustments and movement make rotation impossible to complete effectively, wasting energy and creating scramble situations",
-        "correction": "Wait for moments of opponent stillness, weight transfer, or static posting before initiating, using their momentary stability as entry window"
-      }
-    ],
-    "training_drills": [
-      {
-        "name": "Solo Matrix Rolls",
-        "description": "Practice the inverted rolling motion without a partner, focusing on maintaining spatial awareness and smooth rotation. Start from seated position, elevate hips, post shoulder, and complete the roll while tracking orientation. Perform 10 repetitions each direction.",
-        "duration": "5 minutes"
-      },
-      {
-        "name": "Partnered Static Entry Drill",
-        "description": "Partner holds static turtle position while practitioner practices Matrix entry at slow speed, focusing on proper hip elevation, shoulder posting, and hook insertion timing. Partner provides light resistance. Execute 20 repetitions.",
-        "duration": "10 minutes"
-      },
-      {
-        "name": "Dynamic Timing Drill",
-        "description": "Partner moves between turtle and standing positions while practitioner identifies and exploits timing windows for Matrix entry. Focus on recognizing moments of opponent stillness or weight transfer. Continuous drilling with position reset after each attempt.",
-        "duration": "6 minutes"
-      },
-      {
-        "name": "Failed Matrix Recovery",
-        "description": "Intentionally practice incomplete or defended Matrix attempts, focusing on immediate transition to backup options like granby rolls to guard or arm drags. Develop comfort with mid-movement decision making.",
-        "duration": "8 minutes"
-      }
-    ],
-    "optimal_submission_paths": [
-      {
-        "name": "Matrix to Rear Naked Choke",
-        "path": "Matrix Bottom → Back Control → Seat Belt Control Back → Rear Naked Choke"
-      },
-      {
-        "name": "Matrix to Bow and Arrow",
-        "path": "Matrix Bottom → Back Control → Bow and Arrow Choke"
-      },
-      {
-        "name": "Matrix to Armbar",
-        "path": "Matrix Bottom → Back Control → Armbar from Back"
-      },
-      {
-        "name": "Matrix to Body Triangle Attacks",
-        "path": "Matrix Bottom → Back Control → Body Triangle → Rear Naked Choke"
-      }
-    ],
-    "related_content": [
-      {
-        "name": "Back Control",
-        "relationship": "Primary target position achieved through successful Matrix execution"
-      },
-      {
-        "name": "Turtle",
-        "relationship": "Common starting position providing optimal structure for Matrix entry"
-      },
-      {
-        "name": "Rolling Back Take",
-        "relationship": "Similar rotational back take with comparable mechanics and timing"
-      },
-      {
-        "name": "Berimbolo Entry",
-        "relationship": "Shares inverted rolling mechanics and spatial awareness requirements"
-      },
-      {
-        "name": "Granby Roll",
-        "relationship": "Backup transition when Matrix is defended, uses similar rolling mechanics"
-      },
-      {
-        "name": "Crab Ride",
-        "relationship": "Alternative back attack approach with overlapping timing windows"
-      },
-      {
-        "name": "Back Attack System",
-        "relationship": "Comprehensive system integrating Matrix with other back take approaches"
-      },
-      {
-        "name": "Scramble Position",
-        "relationship": "Dynamic environment where Matrix opportunities frequently emerge"
-      }
-    ],
-    "position_metrics": {
-      "retention_rate": {
-        "beginner": 30,
-        "intermediate": 50,
-        "advanced": 70,
-        "description": "Ability to maintain position during rotation and complete back take"
-      },
-      "advancement_probability": {
-        "beginner": 25,
-        "intermediate": 45,
-        "advanced": 65,
-        "description": "Likelihood of successfully advancing to back control"
-      },
-      "submission_probability": {
-        "beginner": 15,
-        "intermediate": 30,
-        "advanced": 50,
-        "description": "Probability of finishing submission from resulting back control"
-      },
-      "average_time": "2-4 seconds for rotation execution, 5-10 seconds total to establish back control"
-    }
-  },
   "top": {
     "name": "Matrix Top",
     "description": "Defend against Matrix back take attempts from top position. Strategic guide to recognizing entry cues, countering rotational attacks, and maintaining dominant positioning against dynamic opponents.",
@@ -442,127 +88,38 @@
       "Grip fighting to prevent opponent's connection points disrupts Matrix mechanics",
       "Transitional movement (passing, advancing) naturally defends against static Matrix setups"
     ],
-    "offensive_transitions": [
+    "knowledge_assessment": [
       {
-        "technique": "Sprawl Defense",
-        "target_position": "Turtle",
-        "success_rates": {
-          "beginner": 40,
-          "intermediate": 60,
-          "advanced": 75
-        }
+        "question": "What are the earliest indicators that your opponent is setting up a Matrix back take?",
+        "answer": "The earliest indicators are hip elevation above normal turtle or guard level and shoulder posting where the opponent begins shifting weight to one shoulder. Additionally, watch for grip changes as they establish connection points to your body, and subtle weight shifts that create the leverage needed for rotation. Recognizing these micro-movements provides crucial reaction time before the rotation gains momentum."
       },
       {
-        "technique": "Crossface Pass",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 50,
-          "advanced": 65
-        }
+        "question": "Your opponent elevates their hips and posts their shoulder—what immediate adjustment do you make?",
+        "answer": "Immediately widen your base by spreading your knees and hands beyond shoulder width to create lateral stability against the rotational force. Simultaneously shift your weight distribution away from their intended rotation direction. If they're posting their right shoulder, shift weight toward their left side to deny them the leverage point they need. This must happen instantly as any delay allows their rotation to gain momentum."
       },
       {
-        "technique": "Back Step",
-        "target_position": "Back Control",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 45,
-          "advanced": 60
-        }
+        "question": "Why does static pressure fail against Matrix attempts while dynamic adjustment succeeds?",
+        "answer": "Static pressure creates a fixed point that the bottom player can use as a fulcrum for their rotation—your immobile weight becomes leverage against you. The rotational momentum of the Matrix is specifically designed to overcome stationary resistance. Dynamic adjustment means constantly redistributing weight in response to their movement, denying them any stable leverage point. Moving with and against their rotation neutralizes the momentum before it builds."
       },
       {
-        "technique": "Knee Slice Pass",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 40,
-          "intermediate": 55,
-          "advanced": 70
-        }
+        "question": "How does maintaining offensive pressure prevent Matrix entries better than focused defense?",
+        "answer": "When you're actively threatening passes, submissions, or position advancement, the bottom player must dedicate attention and energy to defending your attacks rather than setting up the complex timing and positioning the Matrix requires. The Matrix needs specific conditions—static opponent, established grips, proper hip position—and offensive pressure denies all of these. A passive top player creates the ideal Matrix entry opportunity."
       },
       {
-        "technique": "Turtle to Back Take",
-        "target_position": "Back Control",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 50,
-          "advanced": 65
-        }
+        "question": "Your opponent begins rotating but you've successfully blocked the initial movement—what's your immediate next action?",
+        "answer": "Immediately transition to offense rather than simply maintaining the defensive position. A blocked Matrix attempt leaves the opponent momentarily vulnerable with their weight committed and structure compromised. Attack with crossface pressure to pass, transition to darce or guillotine if their arm is extended, or take their back if they've over-rotated. The defensive win must convert to offensive advantage before they reset."
       },
       {
-        "technique": "Darce from Turtle",
-        "target_position": "D'arce Control",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 40,
-          "advanced": 55
-        }
+        "question": "What grip fighting priorities should you maintain to disrupt Matrix mechanics?",
+        "answer": "Break any grips the opponent establishes on your belt, pants legs, or ankles immediately—these connection points allow them to pull their rotation around you. Prevent them from establishing underhooks or seatbelt-style grips on your torso. Strip grips before they can load weight onto them. Without strong connection points, their rotation becomes an isolated movement that doesn't affect your position, making the technique ineffective."
       },
       {
-        "technique": "Guillotine from Turtle",
-        "target_position": "Guillotine Control",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 45,
-          "advanced": 60
-        }
+        "question": "How do you balance Matrix defense with maintaining passing efficiency?",
+        "answer": "Wide base and constant weight adjustment can slow your passing progression, but this trade-off is necessary against Matrix-skilled opponents. Focus on incremental advancement—establish secure position, then progress step-by-step rather than explosive passing that creates the instability Matrix relies on. Chain your attacks so each passing attempt also functions as Matrix defense through constant pressure and movement."
       },
       {
-        "technique": "Anaconda from Turtle",
-        "target_position": "Anaconda Control",
-        "success_rates": {
-          "beginner": 20,
-          "intermediate": 35,
-          "advanced": 50
-        }
-      }
-    ],
-    "defensive_responses": [
-      {
-        "technique": "Matrix Back Take",
-        "target_position": "Back Control",
-        "success_rate": 45
-      },
-      {
-        "technique": "Rolling Back Take",
-        "target_position": "Back Control",
-        "success_rate": 40
-      },
-      {
-        "technique": "Arm Drag to Back",
-        "target_position": "Back Control",
-        "success_rate": 50
-      },
-      {
-        "technique": "Granby Roll",
-        "target_position": "Closed Guard",
-        "success_rate": 55
-      },
-      {
-        "technique": "Rolling to Guard",
-        "target_position": "Open Guard",
-        "success_rate": 60
-      }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Back Step",
-        "target_position": "Back Control",
-        "trigger": "Opponent commits to Matrix rotation, exposing their back during the roll"
-      },
-      {
-        "technique": "Sprawl Defense",
-        "target_position": "Turtle",
-        "trigger": "Opponent elevates hips for Matrix entry, creating opportunity to sprawl and flatten"
-      },
-      {
-        "technique": "Darce from Turtle",
-        "target_position": "D'arce Control",
-        "trigger": "Opponent posts arm to initiate rotation, exposing arm for darce entry"
-      },
-      {
-        "technique": "Crossface Pass",
-        "target_position": "Side Control",
-        "trigger": "Opponent's rotation is blocked, allowing crossface control and pass completion"
+        "question": "Your opponent has established strong grips and begun hip elevation—is it too late to defend?",
+        "answer": "It's not too late but your response must be immediate and aggressive. Strip at least one grip while sprawling your hips back to flatten their hip elevation. If you can't strip grips, match their rotation by circling in the same direction they're rolling—this denies them the relative motion they need. Alternatively, immediately attack the exposed arm or neck that their rotation setup creates. Never accept the position passively."
       }
     ],
     "decision_tree": [
@@ -681,24 +238,6 @@
         "duration": "6 minutes"
       }
     ],
-    "optimal_submission_paths": [
-      {
-        "name": "Matrix Defense to Darce",
-        "path": "Matrix Top → Darce from Turtle → D'arce Control → Darce Choke"
-      },
-      {
-        "name": "Matrix Defense to Guillotine",
-        "path": "Matrix Top → Guillotine from Turtle → Guillotine Control → Guillotine Choke"
-      },
-      {
-        "name": "Matrix Defense to Back Attack",
-        "path": "Matrix Top → Back Step → Back Control → Rear Naked Choke"
-      },
-      {
-        "name": "Matrix Defense to Pass and Submit",
-        "path": "Matrix Top → Crossface Pass → Side Control → Americana from Side Control"
-      }
-    ],
     "related_content": [
       {
         "name": "Turtle",
@@ -753,6 +292,321 @@
         "description": "Probability of finishing submission through counter-attacks"
       },
       "average_time": "1-3 seconds to recognize and defend Matrix entry, 5-8 seconds total to reestablish offensive position"
-    }
+    },
+    "transitions": [
+      {
+        "transition": "Sprawl Defense",
+        "attempt_probability": 15
+      },
+      {
+        "transition": "Crossface Pass",
+        "attempt_probability": 13
+      },
+      {
+        "transition": "Back Step",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Knee Slice Pass",
+        "attempt_probability": 14
+      },
+      {
+        "transition": "Turtle to Back Take",
+        "attempt_probability": 13
+      },
+      {
+        "transition": "Darce from Turtle",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Guillotine from Turtle",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Anaconda from Turtle",
+        "attempt_probability": 10
+      }
+    ]
+  },
+  "bottom": {
+    "name": "Matrix Bottom",
+    "description": "Execute the Matrix back take from bottom position. Technical guide to rolling mechanics, timing windows, and transitional sequences for dynamic back access from turtle and scrambles.",
+    "tags": [
+      "Back Takes",
+      "Dynamic Transitions",
+      "Turtle Attacks",
+      "Advanced Techniques",
+      "Competition Techniques",
+      "Scrambles",
+      "Rotational Movement"
+    ],
+    "overview": "From the bottom perspective, the Matrix represents one of the most effective offensive weapons available from seemingly defensive positions. This inverted rolling back take transforms turtle, bottom scrambles, and even certain guard positions into launching points for immediate back control access.\n\nThe fundamental concept involves creating rotational momentum through hip elevation and shoulder posting, then rolling underneath or around the opponent while maintaining connection through grips and hooks. The movement requires exceptional body awareness, as practitioners must track their spatial orientation while inverted and continue the motion smoothly into hook insertion and back control establishment.\n\nMechanically, the Matrix begins with establishing a stable base—typically from turtle or a seated position with one or both hands posted. The practitioner elevates their hips while maintaining shoulder contact with the mat, creating the fulcrum for rotation. As the hips rise and begin to circle, the legs start their rotational path around or under the opponent. The critical moment occurs mid-rotation when the first hook must be inserted before the body completes its inversion.\n\nTiming represents the most crucial element for Matrix success. The technique works best when opponents are static in their posture or during weight transitions. Attempting the Matrix against an actively mobile opponent with good base often results in the rotation being stuffed or countered. Practitioners must develop the ability to recognize micro-moments of opponent stillness or weight commitment and execute the entry explosively.\n\nThe Matrix functions as part of a comprehensive attacking system from bottom positions. It pairs exceptionally well with traditional underhook-based attacks, arm drags, and other back-take approaches. When opponents defend conventional attacks, they often create Matrix opportunities, and vice versa. This synergy makes the technique even more effective within integrated systems.\n\nPhysically, the Matrix demands significant core strength, hip flexibility, and rotational power. Practitioners must generate enough momentum to complete the inversion while maintaining control of their opponent's position. The movement also requires considerable cardio endurance, as failed attempts or partial completions often lead to scrambles requiring immediate follow-up action.\n\nRisk management is essential when executing the Matrix. Incomplete rotations can leave practitioners in vulnerable positions—inverted with their back exposed. Therefore, commitment to the movement is critical; hesitation mid-roll creates the highest risk scenarios. Practitioners must develop the confidence to fully commit to the rotation or immediately abort and return to defensive positioning.",
+    "state_properties": {
+      "point_value": 0,
+      "position_type": "Offensive",
+      "risk_level": "Medium to High",
+      "energy_cost": "High",
+      "time_sustainability": "Short"
+    },
+    "state_invariants": [
+      "At least one shoulder maintains mat contact during the initial rotation phase, providing the pivot point around which the body rotates—losing this contact causes the rotation to stall and leaves the practitioner floating without mechanical advantage",
+      "Hip elevation above shoulder level creates the necessary gravitational momentum for the inverted rotation—insufficient hip height results in weak rotational force that opponents can easily defend by simply maintaining their base",
+      "Active connection to opponent's torso or hips through grips or leg contact persists throughout the rotation—losing this connection means rotating in space without affecting opponent position, arriving at back control setup without actual control established"
+    ],
+    "prerequisites": [
+      "Opponent is in turtle, seated, or transitional position with relatively static base",
+      "Practitioner has established at least one grip or connection point to opponent's torso or hips",
+      "Sufficient space exists for rotational movement without immediate obstacles or barriers",
+      "Practitioner's positioning allows hip elevation and shoulder posting mechanics",
+      "Timing window present—opponent not actively moving or adjusting base dynamically"
+    ],
+    "key_principles": [
+      "Generate explosive rotational momentum through simultaneous hip elevation and shoulder posting",
+      "Maintain constant awareness of spatial orientation during inversion to enable precise hook placement",
+      "Commit fully to the rotation—partial attempts create maximum vulnerability with minimum reward",
+      "Insert first hook during the rotation, not after completion, to prevent opponent escape",
+      "Use opponent's static posture or weight transitions as timing triggers for entry",
+      "Keep connection to opponent throughout rotation through grips or leg contact",
+      "Prepare multiple backup transitions if rotation is defended or incomplete"
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What are the essential grip connection points you must establish before initiating the Matrix rotation?",
+        "answer": "You need at least one strong connection point to the opponent's torso or hips—typically a belt grip, pants grip at the hip, or leg hook around their thigh. Without this connection, your rotation happens independently of their position, meaning you arrive behind them without actual control. The grip pulls them into your rotation and ensures they move with you rather than simply watching you roll past."
+      },
+      {
+        "question": "Your hips are elevated but your opponent starts shifting their base—do you continue or abort?",
+        "answer": "Abort immediately and return to your defensive structure. The Matrix requires a static or weight-transitioning opponent—their active base adjustment means they've recognized the threat and are countering. Continuing against a moving, aware opponent almost always results in a stuffed rotation where you end up in a worse position. Reset, re-establish your grips, and wait for another timing window when they settle."
+      },
+      {
+        "question": "At what point during the rotation must you begin inserting your first hook?",
+        "answer": "Begin threading the first hook as soon as your hips pass the opponent's centerline during the rotation—while you're still inverted. Waiting until the rotation completes gives the opponent time to turn into you, sprawl away, or establish their own hooks. The hook insertion should be part of the continuous motion, not a separate action. Your leg is already traveling in that direction; guide it into position during transit."
+      },
+      {
+        "question": "Why must shoulder contact with the mat be maintained during the initial rotation phase?",
+        "answer": "The shoulder on the mat serves as your pivot point—the fulcrum around which your entire body rotates. Without this contact, you're rotating through open space with no mechanical advantage, creating a slow, floating movement that opponents easily stuff. The shoulder anchors your rotation to a fixed point, allowing your hips and legs to generate momentum around it. Only lift the shoulder after your hips have passed their apex."
+      },
+      {
+        "question": "You're mid-rotation and feel your opponent beginning to follow and flatten you—what's your response?",
+        "answer": "Accelerate the rotation and commit harder rather than slowing down. Hesitation mid-rotation is the worst possible outcome—you're inverted with your back exposed and no defensive structure. Either complete the rotation explosively and race them to hook establishment, or if that's impossible, immediately transition to a granby roll to guard recovery. Never stop in the vulnerable inverted position."
+      },
+      {
+        "question": "How do you recognize the optimal timing window for Matrix entry against a turtle opponent?",
+        "answer": "Watch for moments of stillness or weight commitment. When they settle their weight, stop adjusting their base, or commit to a grip or movement that loads them onto one side, that's your window. Also effective: the moment after they complete their own movement (reaching for a grip, adjusting position) when they're momentarily static before starting their next action. Their weight transfer creates the stability you need to rotate against."
+      },
+      {
+        "question": "What backup transitions should you have ready if the Matrix rotation is blocked mid-movement?",
+        "answer": "Primary backup is the granby roll to guard recovery—continue the rolling momentum but redirect into closed guard establishment rather than back control. Secondary option is converting to an arm drag if their blocking arm is extended and vulnerable. Third option is completing a seated guard recovery if you can disengage cleanly. Never remain stuck mid-rotation; always have a continuous path to a safe position."
+      },
+      {
+        "question": "How do you generate sufficient hip elevation for effective rotational momentum?",
+        "answer": "Drive explosively upward using leg extension and core engagement simultaneously. Your posted foot pushes into the mat while your core contracts to lift your hips above shoulder level. Think of it as a hip thrust combined with a shoulder bridge but directed into rotation. The hips must clearly exceed shoulder height—insufficient elevation creates weak momentum that opponents defend simply by maintaining their base."
+      }
+    ],
+    "decision_tree": [
+      {
+        "condition": "Opponent maintains static turtle position with narrow base",
+        "actions": [
+          {
+            "technique": "Matrix Back Take",
+            "target": "Back Control",
+            "probability": 65
+          },
+          {
+            "technique": "Rolling Back Take",
+            "target": "Back Control",
+            "probability": 60
+          }
+        ]
+      },
+      {
+        "condition": "Opponent widens base or posts hand to block rotation",
+        "actions": [
+          {
+            "technique": "Arm Drag to Back",
+            "target": "Back Control",
+            "probability": 55
+          },
+          {
+            "technique": "Chair Sit to Back",
+            "target": "Crab Ride",
+            "probability": 50
+          }
+        ]
+      },
+      {
+        "condition": "Rotation is blocked mid-movement by weight pressure",
+        "actions": [
+          {
+            "technique": "Rolling to Guard",
+            "target": "Closed Guard",
+            "probability": 60
+          },
+          {
+            "technique": "Granby Roll",
+            "target": "Closed Guard",
+            "probability": 55
+          }
+        ]
+      },
+      {
+        "condition": "Opponent actively scrambling or mobile",
+        "actions": [
+          {
+            "technique": "Turtle to Back Take",
+            "target": "Back Control",
+            "probability": 50
+          },
+          {
+            "technique": "Rolling to Guard",
+            "target": "Open Guard",
+            "probability": 55
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Insufficient hip elevation before initiating rotation",
+        "consequence": "Weak rotational momentum makes the movement slow and easily defended, often resulting in getting flattened or stuck mid-roll",
+        "correction": "Explosively drive hips upward until they are clearly above shoulder level before beginning the rotational component, using leg drive and core engagement"
+      },
+      {
+        "error": "Losing shoulder contact with mat during initial rotation phase",
+        "consequence": "Without the shoulder pivot point, the body rotates in space without mechanical advantage, creating a slow, floating movement easily stuffed by opponent",
+        "correction": "Maintain active shoulder pressure into the mat throughout the first 180 degrees of rotation, only lifting shoulder after hips have passed the apex"
+      },
+      {
+        "error": "Attempting hook insertion after rotation completes",
+        "consequence": "Opponent has time to defend hook entry, turn into practitioner, or establish their own hooks, negating the back take advantage",
+        "correction": "Begin threading the first hook as soon as hips pass opponent's centerline during rotation, inserting the hook while still inverted"
+      },
+      {
+        "error": "Releasing grips or connection during the rotation",
+        "consequence": "Rotating independently of opponent position means arriving behind them without actual control, allowing easy escape or counter",
+        "correction": "Maintain at least one strong connection point—typically belt, pants, or leg grip—throughout entire rotation to ensure opponent position moves with your rotation"
+      },
+      {
+        "error": "Hesitating or slowing mid-rotation",
+        "consequence": "Pausing while inverted creates maximum vulnerability with back exposed and no defensive structure, inviting opponent to take dominant position",
+        "correction": "Commit fully to completing the rotation in one continuous explosive motion, or immediately abort and return to defensive structure if entry timing is wrong"
+      },
+      {
+        "error": "Poor timing—attempting Matrix against actively mobile opponent",
+        "consequence": "Opponent's base adjustments and movement make rotation impossible to complete effectively, wasting energy and creating scramble situations",
+        "correction": "Wait for moments of opponent stillness, weight transfer, or static posting before initiating, using their momentary stability as entry window"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Solo Matrix Rolls",
+        "description": "Practice the inverted rolling motion without a partner, focusing on maintaining spatial awareness and smooth rotation. Start from seated position, elevate hips, post shoulder, and complete the roll while tracking orientation. Perform 10 repetitions each direction.",
+        "duration": "5 minutes"
+      },
+      {
+        "name": "Partnered Static Entry Drill",
+        "description": "Partner holds static turtle position while practitioner practices Matrix entry at slow speed, focusing on proper hip elevation, shoulder posting, and hook insertion timing. Partner provides light resistance. Execute 20 repetitions.",
+        "duration": "10 minutes"
+      },
+      {
+        "name": "Dynamic Timing Drill",
+        "description": "Partner moves between turtle and standing positions while practitioner identifies and exploits timing windows for Matrix entry. Focus on recognizing moments of opponent stillness or weight transfer. Continuous drilling with position reset after each attempt.",
+        "duration": "6 minutes"
+      },
+      {
+        "name": "Failed Matrix Recovery",
+        "description": "Intentionally practice incomplete or defended Matrix attempts, focusing on immediate transition to backup options like granby rolls to guard or arm drags. Develop comfort with mid-movement decision making.",
+        "duration": "8 minutes"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Back Control",
+        "relationship": "Primary target position achieved through successful Matrix execution"
+      },
+      {
+        "name": "Turtle",
+        "relationship": "Common starting position providing optimal structure for Matrix entry"
+      },
+      {
+        "name": "Rolling Back Take",
+        "relationship": "Similar rotational back take with comparable mechanics and timing"
+      },
+      {
+        "name": "Berimbolo Entry",
+        "relationship": "Shares inverted rolling mechanics and spatial awareness requirements"
+      },
+      {
+        "name": "Granby Roll",
+        "relationship": "Backup transition when Matrix is defended, uses similar rolling mechanics"
+      },
+      {
+        "name": "Crab Ride",
+        "relationship": "Alternative back attack approach with overlapping timing windows"
+      },
+      {
+        "name": "Back Attack System",
+        "relationship": "Comprehensive system integrating Matrix with other back take approaches"
+      },
+      {
+        "name": "Scramble Position",
+        "relationship": "Dynamic environment where Matrix opportunities frequently emerge"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "beginner": 30,
+        "intermediate": 50,
+        "advanced": 70,
+        "description": "Ability to maintain position during rotation and complete back take"
+      },
+      "advancement_probability": {
+        "beginner": 25,
+        "intermediate": 45,
+        "advanced": 65,
+        "description": "Likelihood of successfully advancing to back control"
+      },
+      "submission_probability": {
+        "beginner": 15,
+        "intermediate": 30,
+        "advanced": 50,
+        "description": "Probability of finishing submission from resulting back control"
+      },
+      "average_time": "2-4 seconds for rotation execution, 5-10 seconds total to establish back control"
+    },
+    "transitions": [
+      {
+        "transition": "Matrix Back Take",
+        "attempt_probability": 13
+      },
+      {
+        "transition": "Rolling Back Take",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Arm Drag to Back",
+        "attempt_probability": 13
+      },
+      {
+        "transition": "Chair Sit to Back",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Granby Roll",
+        "attempt_probability": 14
+      },
+      {
+        "transition": "Rolling to Guard",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Berimbolo Entry",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Turtle to Back Take",
+        "attempt_probability": 13
+      }
+    ]
   }
 }

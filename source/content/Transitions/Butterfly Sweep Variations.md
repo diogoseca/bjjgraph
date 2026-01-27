@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Butterfly Sweep Variations | BJJ Technique | BJJ Graph"
 description: "Master Butterfly Sweep variations in BJJ. Learn Hook Sweep, Elevator Sweep, and Arm Drag combinations from Butterfly Guard. Success rates 35-65%."
@@ -16,7 +17,7 @@ description: "Master Butterfly Sweep variations in BJJ. Learn Hook Sweep, Elevat
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Butterfly Sweep Variations in BJJ",
-  "description": "Step-by-step guide for Butterfly Sweep Variations from Butterfly Guard to Mount.",
+  "description": "Step-by-step guide for Butterfly Sweep Variations from Butterfly Guard/Bottom. Possible outcomes: Mount/Top (65%), Butterfly Guard/Bottom (25%), Butterfly Guard/Top (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -160,11 +161,25 @@ description: "Master Butterfly Sweep variations in BJJ. Learn Hook Sweep, Elevat
 
 The Butterfly Sweep family represents one of the most versatile and high-percentage sweeping systems in Brazilian Jiu-Jitsu. Unlike the basic Butterfly Sweep which relies primarily on the hook and lift motion, these variations adapt to different grips, postures, and defensive reactions from your opponent. The Hook Sweep emphasizes rotational momentum when your opponent posts wide, the Elevator Sweep exploits forward pressure by launching them overhead, and the Arm Drag variation combines off-balancing with positional advancement to the back. Understanding these variations transforms the butterfly guard from a single-technique position into a dynamic attacking system where each defensive adjustment creates a new sweeping opportunity. The key to mastering these variations lies in recognizing your opponent's weight distribution and grip configuration, then selecting the sweep that best exploits their current structure. This systematic approach to butterfly guard sweeps allows practitioners to maintain constant offensive pressure while developing the sensitivity to feel which variation will have the highest success probability in real-time.
 
-**Starting Position**: [[Butterfly Guard]]
-**Ending Position**: [[Mount]]
+**From Position**: [[Butterfly Guard/Bottom]]
 **Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Mount/Top]] | 65% |
+| Failure | [[Butterfly Guard/Bottom]] | 25% |
+| Counter | [[Butterfly Guard/Top]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

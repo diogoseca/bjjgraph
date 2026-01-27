@@ -21,37 +21,37 @@ description: "Master Honey Hole defense in BJJ. Escape techniques, heel hook def
     {
       "@type": "HowToStep",
       "name": "Execute Inversion Escape",
-      "text": "From this position, execute Inversion Escape to transition to Turtle. Success rate for advanced practitioners: 45%.",
+      "text": "From this position, attempt Inversion Escape. This technique is attempted in 13% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape",
-      "text": "From this position, execute Hip Escape to transition to Open Guard. Success rate for advanced practitioners: 40%.",
+      "text": "From this position, attempt Hip Escape. This technique is attempted in 11% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Counter Sweep",
-      "text": "From this position, execute Counter Sweep to transition to 50-50 Guard. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Counter Sweep. This technique is attempted in 15% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling to Guard",
-      "text": "From this position, execute Rolling to Guard to transition to Half Guard. Success rate for advanced practitioners: 42%.",
+      "text": "From this position, attempt Rolling to Guard. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Technical Standup",
-      "text": "From this position, execute Technical Standup to transition to Standing Position. Success rate for advanced practitioners: 35%.",
+      "text": "From this position, attempt Technical Standup. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Saddle Defense",
-      "text": "From this position, execute Saddle Defense to transition to Outside Ashi-Garami. Success rate for advanced practitioners: 48%.",
+      "text": "From this position, attempt Saddle Defense. This technique is attempted in 14% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -211,94 +211,22 @@ Strategically, being on bottom of Honey Hole is survival situation rather than c
 
 ## Available Escapes
 
-### [[Inversion Escape]] → [[Turtle]]
+### [[Inversion Escape]] (13% of attempts)
 
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 45%
+### [[Hip Escape]] (11% of attempts)
 
-### [[Hip Escape]] → [[Open Guard]]
+### [[Counter Sweep]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 10%
-- Intermediate: 25%
-- Advanced: 40%
+### [[Rolling to Guard]] (12% of attempts)
 
-### [[Counter Sweep]] → [[50-50 Guard]]
+### [[Technical Standup]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
+### [[Saddle Defense]] (14% of attempts)
 
-### [[Rolling to Guard]] → [[Half Guard]]
+### [[Rolling Back Take]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 12%
-- Intermediate: 28%
-- Advanced: 42%
+### [[Ashi Garami Escape]] (13% of attempts)
 
-### [[Technical Standup]] → [[Standing Position]]
-
-**Success Rates:**
-- Beginner: 8%
-- Intermediate: 20%
-- Advanced: 35%
-
-### [[Saddle Defense]] → [[Outside Ashi-Garami]]
-
-**Success Rates:**
-- Beginner: 18%
-- Intermediate: 32%
-- Advanced: 48%
-
-### [[Rolling Back Take]] → [[Backside 50-50]]
-
-**Success Rates:**
-- Beginner: 14%
-- Intermediate: 27%
-- Advanced: 43%
-
-### [[Ashi Garami Escape]] → [[Open Guard]]
-
-**Success Rates:**
-- Beginner: 16%
-- Intermediate: 31%
-- Advanced: 46%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Inside Heel Hook]]** → [[Won by Submission]] (Opponent Success: 75%)
-- **[[Toe Hold]]** → [[Won by Submission]] (Opponent Success: 45%)
-- **[[Kneebar Finish]]** → [[Won by Submission]] (Opponent Success: 35%)
-- **[[Transition to Mount]]** → [[Back Control]] (Opponent Success: 30%)
-- **[[Leg Drag Pass]]** → [[Side Control]] (Opponent Success: 40%)
-- **[[Estima Lock]]** → [[Won by Submission]] (Opponent Success: 25%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Rolling Back Take]]** → [[50-50 Guard]]
-  - Opponent begins heel hook grip adjustment before full lock
-- **[[Granby Roll]]** → [[Turtle]]
-  - Opponent transitions weight forward or loosens triangle momentarily
-- **[[Hip Escape]]** → [[Open Guard]]
-  - Opponent's triangle becomes slightly loose during repositioning
-- **[[Ashi Garami Escape]]** → [[Outside Ashi-Garami]]
-  - Opponent attempts to switch grip or adjust leg position
-- **[[Rolling Kimura Escape]]** → [[Open Guard]]
-  - Opponent releases one hand from heel to adjust control
 
 
 </section>
@@ -320,7 +248,7 @@ Strategically, being on bottom of Honey Hole is survival situation rather than c
 
 
 **If opponent has locked heel hook grip with triangle secured and begins applying pressure:**
-- Execute **[[Tap Out]]** → [[Won by Submission]] (Probability: 95%)
+- Execute **[[Tap Out]]** → [[game-over]] (Probability: 95%)
 - Execute **[[Rolling Back Take]]** → [[Defensive Position]] (Probability: 5%)
 
 
@@ -420,37 +348,39 @@ Partner establishes Honey Hole with graduated resistance levels: 30%, 50%, 70%, 
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Most dangerous opponent submission path
+## Test Your Knowledge
 
-`Honey Hole Bottom → Inside Heel Hook → Won by Submission`
+**Q1**: Your opponent has just established inside leg triangle but hasn't secured your heel yet - what is your immediate priority?
+**A**: Explosive escape BEFORE they grip your heel. The moment you feel the triangle forming, commit 100% to rotational escape toward their legs or inversion away from their control. You have 1-2 seconds maximum before heel grip makes escape dramatically harder. Do not assess the situation - react immediately with your chosen escape direction. Every fraction of a second of hesitation reduces your success probability.
 
-### Secondary opponent submission threat
+**Q2**: What are the key indicators that tell you escape is no longer viable and you must tap?
+**A**: Tap immediately when: (1) opponent has secured heel grip with proper hand configuration (four fingers on top, thumb below), (2) their breaking mechanics are engaged with their elbows driving toward their chest, and (3) you feel ANY rotational pressure on your knee. The timeline from grip to injury can be under 2 seconds. If you're debating whether to tap, you should already be tapping.
 
-`Honey Hole Bottom → Toe Hold → Won by Submission`
+**Q3**: How do you use your free leg to maximize escape probability from Honey Hole bottom?
+**A**: Your free leg is your primary escape tool. Keep it mobile and actively posting - use it to push against opponent's hip to create space, hook their legs to initiate rotation into 50-50, or post on the mat for technical standup if space appears. Never let opponent control both legs. If they reach for your free leg, that's your window to explosively escape with the trapped leg while their attention is divided.
 
-### Opponent positional advancement path
+**Q4**: When opponent's triangle loosens momentarily during a grip adjustment, what escape should you attempt?
+**A**: Immediately execute explosive hip escape combined with rotation toward their legs to enter 50-50 guard, which neutralizes their inside position advantage. Drive your free foot into their hip while rotating your trapped leg's knee toward their centerline. The goal is to get your legs entangled with theirs in symmetrical position rather than staying in the asymmetric disadvantage. Speed and commitment are essential - this window closes in under one second.
 
-`Honey Hole Bottom → Leg Drag Pass → Side Control → Mount`
+**Q5**: Your escape attempt failed and opponent has re-secured the triangle - what is your grip-fighting defense priority?
+**A**: Fight their heel grip with both hands immediately. Your top priority is preventing them from cupping your heel with four fingers on top. Use two-on-one grip fighting to strip their hands, keeping your toes pointed toward them (hiding the heel). This is a last-resort defense that only delays the inevitable - continue attempting positional escapes between grip-fighting exchanges. If they establish full heel grip despite your grip fighting, prepare to tap.
 
-### Best escape path to safety
+**Q6**: How do you recover when your first escape attempt fails but you've created some space?
+**A**: Do not pause to rest or reassess - immediately chain into your second escape attempt while any space exists. If rotation escape failed, try inversion. If inversion failed, try technical standup. Use all available energy in the first 3-5 seconds of being caught. The position only gets worse with time as opponent settles weight and tightens control. Sequential explosive attempts are more effective than single attempts followed by recovery.
 
-`Honey Hole Bottom → Counter Sweep → 50-50 Guard → Open Guard`
+**Q7**: What body position should you maintain to minimize knee injury risk while defending?
+**A**: Keep your trapped leg's knee pointing in the same direction as your toes - this alignment protects your knee ligaments from rotational damage. Never let your knee face a different direction than your foot, as this twisted position is exactly what heel hooks exploit. If opponent begins rotating your heel, turn your entire body in the same direction to keep knee and foot aligned, then tap if you cannot complete the turn.
 
-### Explosive escape to neutral
-
-`Honey Hole Bottom → Granby Roll → Turtle → Standing Position`
-
-### Alternative submission threat from position
-
-`Honey Hole Bottom → Kneebar Finish → Won by Submission`
+**Q8**: After tapping to a heel hook in training, what should you immediately assess about your defense?
+**A**: Analyze the moment position was established: (1) What entry did they use and when could you have prevented it? (2) Did you hesitate after feeling the triangle form? (3) Was your escape attempt fully committed or half-hearted? (4) Did you grip-fight effectively? Prevention and early escape are far more trainable than late-stage defense. Most heel hook submissions happen because the bottom player didn't react in the first 1-2 seconds.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -476,13 +406,12 @@ Partner establishes Honey Hole with graduated resistance levels: 30%, 50%, 70%, 
 - **[[50-50 Guard]]** - Primary escape target via counter-entanglement - neutralizes opponent's inside position
 - **[[Outside Ashi-Garami]]** - Less dangerous leg entanglement - preferred position if entanglement unavoidable
 - **[[Inside Heel Hook]]** - Primary submission threat from this position - highest danger submission
-- **[[Ashi Garami Escape]]** - General escape methodology applicable to all ashi variations including inside position
 - **[[Leg Entanglement]]** - Conceptual framework - understanding leg lock systems essential for defense
-- **[[systematic approach Leg Lock System]]** - Expert system that developed modern inside position dominance - study for defensive understanding
-- **[[Lachlan Giles Leg Lock Defense Framework]]** - Defensive system specifically addressing escapes from this position
 - **[[Kneebar Control]]** - Alternative submission position - opponent may transition here from Honey Hole
 - **[[Turtle]]** - Common escape target via inversion - provides temporary safety if executed correctly
 - **[[Backside 50-50]]** - Counter-entanglement option through explosive rotation
+- **[[Open Guard]]** - Escape target position when successfully extracting from entanglement
+- **[[Toe Hold]]** - Secondary submission threat opponent may use from this position
 
 
 </section>

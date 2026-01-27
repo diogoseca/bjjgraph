@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Balloon Sweep | BJJ Technique | BJJ Graph"
 description: "Master the Balloon Sweep from Closed Guard in BJJ. Complete guide with step-by-step execution, timing, and setups. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%."
@@ -16,7 +17,7 @@ description: "Master the Balloon Sweep from Closed Guard in BJJ. Complete guide 
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Balloon Sweep in BJJ",
-  "description": "Step-by-step guide for Balloon Sweep from Closed Guard to Mount.",
+  "description": "Step-by-step guide for Balloon Sweep from Closed Guard/Bottom. Possible outcomes: Mount/Top (65%), Closed Guard/Bottom (25%), Closed Guard/Top (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -154,11 +155,25 @@ description: "Master the Balloon Sweep from Closed Guard in BJJ. Complete guide 
 
 The Balloon Sweep is a dynamic and versatile sweep that combines elements of butterfly guard mechanics within the closed guard structure. This technique exploits the opponent's forward pressure and posture by using an explosive upward lifting motion combined with hip movement to elevate and off-balance them. The name derives from the balloon-like inflation of the hips and legs that creates the sweeping momentum. Unlike traditional closed guard sweeps that rely primarily on lateral movement, the Balloon Sweep uses vertical displacement to compromise the opponent's base before transitioning them over your center line. This makes it particularly effective against opponents who maintain a strong low base and resist lateral sweeps. The technique requires precise timing and coordination between upper body control and lower body mechanics, making it a valuable addition to any guard player's arsenal.
 
-**Starting Position**: [[Closed Guard]]
-**Ending Position**: [[Mount]]
+**From Position**: [[Closed Guard/Bottom]]
 **Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Mount/Top]] | 65% |
+| Failure | [[Closed Guard/Bottom]] | 25% |
+| Counter | [[Closed Guard/Top]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

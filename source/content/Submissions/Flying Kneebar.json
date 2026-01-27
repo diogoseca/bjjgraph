@@ -294,6 +294,31 @@
       "question": "What are the specific ligaments targeted by the flying kneebar, and what are their respective injury severities and recovery times?",
       "answer": "The flying kneebar primarily targets: (1) Posterior Cruciate Ligament (PCL) - CRITICAL severity, 6-12 months recovery with surgical reconstruction. (2) Medial Collateral Ligament (MCL) - High severity, 6-12 weeks for grade 2 sprain, 3-6 months for complete tear. (3) Lateral Collateral Ligament (LCL) - High severity, 4-8 weeks for partial tear, up to 6 months for complete tear. All three can be damaged simultaneously with improper application. Additionally, meniscus tears can occur from rotational forces during entry (High severity, 6-12 weeks with possible surgery). This multi-ligament threat profile makes the flying kneebar one of the most dangerous submissions when applied recklessly.",
       "safety_critical": true
+    },
+    {
+      "question": "Your opponent begins actively bending their knee during your finishing attempt, pulling their heel toward their buttock - what grip adjustment prevents escape?",
+      "answer": "Immediately increase plantarflexion pressure on the ankle by driving their toes down toward the mat, which engages the ankle joint and makes knee bend biomechanically more difficult. Simultaneously, pull the ankle tighter to your chest and increase hip drive into the back of their knee. If they continue bending, consider transitioning to calf slicer position where their bent leg actually works in your favor. The key is controlling the ankle angle - without plantarflexion control, they can always create enough knee bend to relieve hyperextension pressure.",
+      "safety_critical": false
+    },
+    {
+      "question": "What is the point of no escape in the flying kneebar, and what indicators tell you the finish is imminent?",
+      "answer": "The point of no escape occurs when three conditions are met simultaneously: (1) your hip is wedged firmly behind their knee with no gap, (2) their ankle is pinned against your chest with plantarflexion, and (3) your legs have squeezed together to prevent any rotational escape. Indicators of imminent finish include: opponent's leg becoming completely straight with visible extension, cessation of defensive movement as they recognize the position is locked, verbal sounds of distress or discomfort, and any attempt to tap. At this point, maintain steady pressure rather than adding more - the submission is complete.",
+      "safety_critical": false
+    },
+    {
+      "question": "During competition, your flying kneebar entry is successful but you notice your hip landed slightly too high on the thigh - what immediate adjustment sequence completes the submission?",
+      "answer": "First, squeeze your knees together to prevent opponent from rotating while you adjust. Second, bridge your hips up slightly to create space, then slide your hip down toward their knee while maintaining ankle control. Third, re-establish hip contact directly behind the knee joint by feeling for the crease where thigh meets calf. Fourth, verify ankle is still tight to chest before reapplying extension pressure. This adjustment should take 1-2 seconds maximum. If opponent begins escaping during adjustment, consider transitioning to heel hook or calf slicer rather than forcing a poorly-positioned kneebar.",
+      "safety_critical": false
+    },
+    {
+      "question": "What makes the flying kneebar particularly dangerous compared to ground-based kneebar entries, and how does this affect training protocols?",
+      "answer": "The flying kneebar is more dangerous because: (1) the dynamic entry creates momentum that can translate to sudden, uncontrolled pressure on landing, (2) both practitioners are moving which makes precise hip positioning more difficult, (3) failed entries can result in awkward landings causing injury to both parties, (4) the surprise element means opponents may not recognize the submission in time to tap early, and (5) adrenaline from the athletic movement can mask the attacker's sense of how much pressure they're applying. Training protocols must therefore include: mandatory crash pad progression, zero-resistance drilling for 8-12 weeks, explicit consent requirements, and restriction to brown belt or higher for live application.",
+      "safety_critical": true
+    },
+    {
+      "question": "Your opponent's knee is locked and you have proper position, but they are gripping their own leg with both hands to prevent full extension - how do you break through this defense to finish?",
+      "answer": "Rather than fighting their grip strength directly, attack the structural weakness of their defense. First, increase hip pressure into the back of their knee while maintaining ankle control - this forces them to focus on preventing hyperextension rather than maintaining their grip. Second, use small hip circles or pulses to create micro-extensions that fatigue their grip. Third, if they're grabbing around their own knee, transition threat to toe hold by adjusting your far hand to their toes and rotating - this creates a dilemma where they must release the grip to defend the new attack. The key is making their defensive grip unsustainable rather than trying to overpower it.",
+      "safety_critical": false
     }
   ],
   "training_progressions_and_safety_protocols": [
@@ -349,33 +374,18 @@
     "De La Riva Guard"
   ],
   "related_submissions": [
-    "Kneebar",
-    "Kneebar from Guard",
-    "Kneebar from Top",
-    "Kneebar Variations",
     "Inside Heel Hook",
     "Flying Armbar",
     "Straight Ankle Lock",
-    "Kneebar from 50-50",
     "Outside Heel Hook",
     "Heel Hook",
     "Toe Hold",
     "Estima Lock",
-    "Achilles Lock"
+    "Achilles Lock",
+    "Calf Slicer",
+    "Belly Down Armbar"
   ],
   "related_content": [
-    {
-      "name": "Kneebar",
-      "relationship": "Core submission - static version of flying kneebar finish"
-    },
-    {
-      "name": "Kneebar from Guard",
-      "relationship": "Alternative kneebar entry with lower risk profile"
-    },
-    {
-      "name": "Kneebar from 50-50",
-      "relationship": "Related kneebar position requiring similar finishing mechanics"
-    },
     {
       "name": "Inside Heel Hook",
       "relationship": "Common transition when opponent defends by turning into kneebar"
@@ -393,20 +403,28 @@
       "relationship": "Similar dynamic aerial submission with comparable risk/reward profile"
     },
     {
-      "name": "Rolling Armbar",
-      "relationship": "Ground-based alternative to aerial submission entries"
-    },
-    {
       "name": "Ashi Garami",
       "relationship": "Static entry to same leg lock position system"
     },
     {
-      "name": "Craig Jones Leg Lock System",
-      "relationship": "Modern competition-focused leg lock methodology"
-    },
-    {
       "name": "Leg Entanglement",
       "relationship": "Core concept governing all leg lock positions and transitions"
+    },
+    {
+      "name": "Kneebar Control",
+      "relationship": "Control position for ground-based kneebar finish"
+    },
+    {
+      "name": "50-50 Guard",
+      "relationship": "Related leg entanglement with kneebar finishing options"
+    },
+    {
+      "name": "Straight Ankle Lock",
+      "relationship": "Alternative leg lock from similar leg configurations"
+    },
+    {
+      "name": "Calf Slicer",
+      "relationship": "Transition option when opponent bends knee defensively"
     }
   ]
 }

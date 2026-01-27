@@ -63,6 +63,302 @@
       "relationship": "Alternative opponent posture requiring different distance management"
     }
   ],
+  "top": {
+    "name": "Feet on Hips Guard Top",
+    "description": "Master feet on hips guard top position in BJJ. Complete passing strategies, grip control, and pressure management with 60-75% pass success rates.",
+    "tags": [
+      "bjj",
+      "position",
+      "guard-passing",
+      "feet-on-hips",
+      "open-guard",
+      "top-position",
+      "toreando",
+      "pressure-passing"
+    ],
+    "overview": "Feet on Hips Guard Top is the passing perspective when facing an opponent who has established feet on your hips as defensive frames. This common open guard scenario requires systematic breakdown of the bottom player's leg frames through grip control, pressure application, and strategic positioning. Success demands understanding how to neutralize the pushing power of the legs while maintaining forward pressure and creating passing opportunities. The position requires patience and technical precision—rushing into passes often results in the bottom player re-establishing guard or executing sweeps. Effective top players focus on controlling the knees, breaking the frames methodically, and transitioning to more advantageous passing positions. Your primary objectives are establishing dominant grips (particularly pants grips at the knees), applying constant forward pressure to prevent guard recovery, and timing your passing attacks to coincide with the bottom player's frame adjustments. The position demands balance between aggression and control—too passive allows the bottom player to threaten attacks, too aggressive creates sweep opportunities.",
+    "state_properties": {
+      "point_value": 0,
+      "position_type": "Offensive",
+      "risk_level": "Medium",
+      "energy_cost": "Medium",
+      "time_sustainability": "Medium to Long"
+    },
+    "state_invariants": [
+      "Bottom player's feet are placed on top player's hips, creating a pushing frame that maintains distance between the two practitioners and prevents chest-to-chest contact",
+      "Top player maintains upright posture with strong base, typically in combat base or standing position, preventing forward collapse or off-balancing from leg frames",
+      "Top player controls one or both of bottom player's pants at the knees or ankles, working to break the foot-on-hip frames and establish dominant passing grips",
+      "Bottom player maintains hip mobility and ability to adjust feet placement, using legs as active defensive tools rather than static barriers while threatening guard transitions"
+    ],
+    "prerequisites": [
+      "Bottom player has established open guard with feet on hips creating distance",
+      "Top player has disengaged from closed guard or is approaching from standing position",
+      "Sufficient space exists between both players for the frame to function",
+      "Top player maintains balance and base to prevent sweeps while applying pressure"
+    ],
+    "key_principles": [
+      "Control the knees before attempting to pass - grip fighting at the pants is essential foundation",
+      "Maintain constant forward pressure to prevent bottom player from recovering better guards or establishing sleeve control",
+      "Break one frame at a time rather than attempting to clear both feet simultaneously",
+      "Keep hips low and weight distributed to prevent being pushed backward or off-balanced",
+      "Use angle changes and lateral movement to create passing opportunities when frames adjust",
+      "Timing is critical - pass when bottom player adjusts their frames or attempts guard transitions",
+      "Protect against De La Riva hooks and lasso guards during frame breaking process"
+    ],
+    "decision_tree": [
+      {
+        "condition": "If bottom player has both feet on hips with strong frames and no sleeve grips established",
+        "actions": [
+          {
+            "technique": "Grip pants at knees",
+            "target": "Combat Base",
+            "probability": 60
+          },
+          {
+            "technique": "Stand up to create pressure",
+            "target": "Standing Position",
+            "probability": 70
+          }
+        ]
+      },
+      {
+        "condition": "If bottom player tries to establish sleeve grips for spider guard or collar control",
+        "actions": [
+          {
+            "technique": "Toreando Pass",
+            "target": "Side Control",
+            "probability": 65
+          },
+          {
+            "technique": "Spider Guard Pass",
+            "target": "Side Control",
+            "probability": 55
+          }
+        ]
+      },
+      {
+        "condition": "If bottom player begins to shoot triangle or omoplata with hips inverting",
+        "actions": [
+          {
+            "technique": "Stack Pass",
+            "target": "Side Control",
+            "probability": 60
+          },
+          {
+            "technique": "Posture up and circle away",
+            "target": "Combat Base",
+            "probability": 70
+          }
+        ]
+      },
+      {
+        "condition": "If bottom player creates excessive distance with frames or retracts legs",
+        "actions": [
+          {
+            "technique": "Long Step Pass",
+            "target": "Side Control",
+            "probability": 50
+          },
+          {
+            "technique": "Step around to leg drag",
+            "target": "Leg Drag Control",
+            "probability": 55
+          }
+        ]
+      },
+      {
+        "condition": "If bottom player attempts to establish De La Riva or lasso hooks during frame breaking",
+        "actions": [
+          {
+            "technique": "Smash Pass",
+            "target": "Side Control",
+            "probability": 55
+          },
+          {
+            "technique": "Clear hooks and knee cut",
+            "target": "Side Control",
+            "probability": 60
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting to pass without controlling the knees first",
+        "consequence": "Bottom player easily re-establishes guard or executes sweeps using full leg extension",
+        "correction": "Establish strong pants grips at the knees before initiating any passing movement to neutralize leg frames"
+      },
+      {
+        "error": "Standing too upright with poor base and elevated center of gravity",
+        "consequence": "Vulnerable to push sweeps and loss of balance from leg extension pressure",
+        "correction": "Maintain low, athletic stance with weight distributed evenly and hips engaged for stability"
+      },
+      {
+        "error": "Allowing bottom player to establish sleeve grips without fighting",
+        "consequence": "Bottom player transitions to spider guard or lasso guard with increased control and sweep opportunities",
+        "correction": "Fight grips aggressively and keep elbows tight to prevent sleeve control while establishing pants grips"
+      },
+      {
+        "error": "Rushing the pass without breaking frames methodically",
+        "consequence": "Bottom player pushes you away or off-balances you with coordinated leg and grip pressure",
+        "correction": "Methodically break one frame at a time before committing to pass, ensuring control throughout"
+      },
+      {
+        "error": "Keeping weight too far back away from the engagement",
+        "consequence": "Bottom player maintains distance and can attack with submissions or establish better guards",
+        "correction": "Apply constant forward pressure while maintaining balance to prevent guard recovery"
+      },
+      {
+        "error": "Ignoring De La Riva hook threats during frame breaking",
+        "consequence": "Bottom player establishes De La Riva and sweeps or takes the back during passing attempt",
+        "correction": "Keep knee line awareness and clear hooks immediately when they appear before continuing pass"
+      },
+      {
+        "error": "Using upper body strength to force through frames without technique",
+        "consequence": "Energy depletion and exposure to submissions when frames eventually collapse you forward",
+        "correction": "Use grip control and angle changes to systematically dismantle frames rather than forcing through"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Frame Breaking Drill",
+        "description": "Bottom player establishes feet on hips frames. Top player practices controlling knees and systematically breaking frames one at a time. Focus on grip fighting and maintaining pressure. Switch roles every 3 minutes. Emphasize technical precision over speed.",
+        "duration": "3 minutes per round"
+      },
+      {
+        "name": "Toreando Timing Drill",
+        "description": "From feet on hips position, top player waits for bottom player to adjust their frames, then executes toreando pass. Bottom player varies their frame adjustments to create realistic timing windows. Emphasize reading and reacting to movement rather than forcing passes.",
+        "duration": "5 minutes continuous"
+      },
+      {
+        "name": "Passing Flow Drill",
+        "description": "Top player cycles through different passing options (toreando, knee cut, leg drag, long step) from feet on hips position. Bottom player provides moderate resistance. Focus on smooth transitions between passing attempts when initial pass is defended. Build fluidity in passing chains.",
+        "duration": "4 minutes per person"
+      },
+      {
+        "name": "Grip Fighting Specific",
+        "description": "Isolated drill focusing only on grip fighting from feet on hips position. Top player tries to secure pants grips, bottom player tries to establish sleeve or collar grips. Reset every 30 seconds and alternate who achieves grips first. Builds grip fighting awareness and hand speed.",
+        "duration": "6 minutes total"
+      },
+      {
+        "name": "Positional Sparring from Feet on Hips",
+        "description": "Start with bottom player in feet on hips position with grips already established. Top player attempts to pass, bottom player attempts to sweep or submit. Reset to starting position after 2 minutes or after successful pass/sweep. Track success rates to measure improvement.",
+        "duration": "10 rounds of 2 minutes"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Feet on Hips Guard",
+        "relationship": "Opposing perspective of same position"
+      },
+      {
+        "name": "Spider Guard",
+        "relationship": "Common progression when sleeve grips are established by bottom player"
+      },
+      {
+        "name": "Combat Base",
+        "relationship": "Fundamental posture for this position"
+      },
+      {
+        "name": "Toreando Pass",
+        "relationship": "Primary passing technique from this position"
+      },
+      {
+        "name": "Knee Cut Pass",
+        "relationship": "High-percentage passing option when frames are broken"
+      },
+      {
+        "name": "Leg Drag Pass",
+        "relationship": "Alternative passing strategy using lateral movement"
+      },
+      {
+        "name": "Standing Position",
+        "relationship": "Alternative posture for addressing feet-on-hips frames"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "beginner": 40,
+        "intermediate": 55,
+        "advanced": 70
+      },
+      "advancement_probability": {
+        "beginner": 35,
+        "intermediate": 50,
+        "advanced": 65
+      },
+      "submission_probability": {
+        "beginner": 15,
+        "intermediate": 25,
+        "advanced": 40
+      },
+      "average_time": "45-90 seconds before successful pass or guard recovery"
+    },
+    "transitions": [
+      {
+        "transition": "Toreando Pass",
+        "attempt_probability": 18
+      },
+      {
+        "transition": "Knee Cut Pass",
+        "attempt_probability": 16
+      },
+      {
+        "transition": "Leg Drag Pass",
+        "attempt_probability": 14
+      },
+      {
+        "transition": "Double Under Pass",
+        "attempt_probability": 13
+      },
+      {
+        "transition": "Long Step Pass",
+        "attempt_probability": 14
+      },
+      {
+        "transition": "X Pass",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Stack Pass",
+        "attempt_probability": 13
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the first step you should take before attempting any pass against feet on hips guard?",
+        "answer": "Establish strong bilateral pants grips at or just below the knees before initiating any passing movement. This grip control neutralizes the pushing power of the opponent's leg frames and prevents them from extending fully to create distance. Without knee control, the bottom player retains full leg extension capability which makes any pass extremely difficult to complete."
+      },
+      {
+        "question": "Your opponent starts extending their legs forcefully to push you away - what adjustment do you make?",
+        "answer": "Lower your center of gravity by bending your knees and driving your hips forward while maintaining your knee grips. Keep your weight driving into the opponent rather than leaning back against the pressure. Use their extension as an opportunity to step laterally and create a passing angle, since fully extended legs are more vulnerable to lateral passing attacks like the toreando or leg drag."
+      },
+      {
+        "question": "Why should you break one frame at a time rather than attempting to clear both feet simultaneously?",
+        "answer": "Clearing both frames simultaneously requires releasing your grips and creates a moment where the opponent can freely adjust their position, re-establish frames, or attack with sweeps. Breaking one frame at a time maintains constant control and forward pressure. Once one foot is cleared past your hip, you can pin that leg while addressing the second frame, creating a systematic progression toward the pass rather than a chaotic exchange."
+      },
+      {
+        "question": "What are the essential grips for maintaining pressure and control against feet on hips guard?",
+        "answer": "The priority grips are bilateral pants control at the knees, which neutralizes the pushing frames. Secondary grips include collar control to prevent the opponent from sitting up and establishing offensive grips, and ankle grips when transitioning to specific passes. Avoid reaching for sleeve grips initially as this exposes your posture and allows the bottom player to threaten spider guard or lasso transitions."
+      },
+      {
+        "question": "How do you shut down the opponent's primary escape attempt of transitioning to De La Riva guard?",
+        "answer": "Maintain awareness of your knee line and keep your lead knee tight and low, preventing the opponent from threading their leg underneath to establish the DLR hook. When you see them attempt to rotate their hips or reach for your ankle, immediately backstep or circle your lead leg away from their hooking leg. Drive forward pressure through your grips to keep their hips flat, reducing their ability to create the angle needed for DLR entry."
+      },
+      {
+        "question": "The bottom player begins hip-escaping laterally to face you during your pass - how do you respond?",
+        "answer": "Follow their hip movement with your own lateral movement, keeping your chest aimed at their centerline. Use your knee grips to pull their legs back toward your centerline as they try to rotate. If they successfully create an angle, immediately transition to the passing direction they've exposed rather than fighting back to your original line. Their hip escape often creates an opportunity for knee cut or leg drag on the side they've opened."
+      },
+      {
+        "question": "What is the optimal weight distribution when maintaining top position against feet on hips guard?",
+        "answer": "Weight should be distributed forward and low, with your hips driving toward the opponent rather than staying elevated or sitting back. Keep approximately 60% of your weight driving forward through your grips while maintaining a stable base with wide feet. Your shoulders should be slightly ahead of your hips. This forward pressure makes it difficult for the bottom player to create distance while your low center of gravity prevents them from off-balancing you with push sweeps."
+      },
+      {
+        "question": "How do you manage energy while systematically breaking down feet on hips frames?",
+        "answer": "Avoid using upper body muscular effort to force through frames, which causes rapid fatigue. Instead, use your body weight and positioning to apply pressure. Grip the pants firmly but let your skeleton and bodyweight create pressure rather than constant grip squeezing. Move in small, controlled increments rather than explosive burst movements. Accept that breaking well-maintained frames takes time, and maintain consistent pressure rather than alternating between aggressive attacks and recovery periods."
+      }
+    ]
+  },
   "bottom": {
     "name": "Feet on Hips Guard Bottom",
     "description": "Master feet on hips guard bottom in BJJ. Distance management, sweep mechanics, and guard retention with 65% retention rate. Beginner 50%, Intermediate 65%, Advanced 80%.",
@@ -106,148 +402,6 @@
       "Stay ready to transition to other guards (Spider, De La Riva, X-Guard) when opponent attempts to pass or creates openings",
       "Create angles by walking hips laterally while maintaining foot pressure on hips, setting up sweeps and off-balancing opportunities",
       "Combine pushing and pulling forces through coordinated leg extension and grip control to break opponent's balance and posture"
-    ],
-    "offensive_transitions": [
-      {
-        "technique": "Scissor Sweep",
-        "target_position": "Mount",
-        "success_rates": {
-          "beginner": 45,
-          "intermediate": 60,
-          "advanced": 75
-        }
-      },
-      {
-        "technique": "Pendulum Sweep",
-        "target_position": "Mount",
-        "success_rates": {
-          "beginner": 40,
-          "intermediate": 55,
-          "advanced": 70
-        }
-      },
-      {
-        "technique": "Hip Bump Sweep",
-        "target_position": "Mount",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 50,
-          "advanced": 65
-        }
-      },
-      {
-        "technique": "Triangle Setup",
-        "target_position": "Triangle Control",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 45,
-          "advanced": 60
-        }
-      },
-      {
-        "technique": "Omoplata Sweep",
-        "target_position": "Omoplata Control",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 40,
-          "advanced": 55
-        }
-      },
-      {
-        "technique": "De La Riva Sweep",
-        "target_position": "De La Riva Guard",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 50,
-          "advanced": 65
-        }
-      },
-      {
-        "technique": "X-Guard Sweep",
-        "target_position": "X-Guard",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 45,
-          "advanced": 60
-        }
-      },
-      {
-        "technique": "Single Leg X Sweep",
-        "target_position": "Single Leg X-Guard",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 50,
-          "advanced": 65
-        }
-      },
-      {
-        "technique": "Elevator Sweep",
-        "target_position": "Mount",
-        "success_rates": {
-          "beginner": 38,
-          "intermediate": 53,
-          "advanced": 68
-        }
-      }
-    ],
-    "defensive_responses": [
-      {
-        "technique": "Toreando Pass",
-        "target_position": "Side Control",
-        "success_rate": 45
-      },
-      {
-        "technique": "Knee Slice Pass",
-        "target_position": "Side Control",
-        "success_rate": 40
-      },
-      {
-        "technique": "Double Under Pass",
-        "target_position": "Side Control",
-        "success_rate": 35
-      },
-      {
-        "technique": "Stack Pass",
-        "target_position": "Side Control",
-        "success_rate": 30
-      },
-      {
-        "technique": "Long Step Pass",
-        "target_position": "Side Control",
-        "success_rate": 35
-      },
-      {
-        "technique": "Leg Weave Pass",
-        "target_position": "Leg Drag Control",
-        "success_rate": 30
-      }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Butterfly Guard to X-Guard",
-        "target_position": "X-Guard",
-        "trigger": "Opponent steps in close to control ankles or drive pressure forward into frames"
-      },
-      {
-        "technique": "De La Riva Sweep",
-        "target_position": "De La Riva Guard",
-        "trigger": "Opponent attempts to pass to one side with weight commitment or lateral movement"
-      },
-      {
-        "technique": "Spider Guard Sweeps",
-        "target_position": "Spider Guard",
-        "trigger": "Opponent grabs sleeves and attempts to control arms while standing tall"
-      },
-      {
-        "technique": "Guard Recovery",
-        "target_position": "Closed Guard",
-        "trigger": "Opponent drives forward aggressively, allowing closed guard recapture as distance collapses"
-      },
-      {
-        "technique": "Triangle Setup",
-        "target_position": "Triangle Control",
-        "trigger": "Opponent reaches forward with one arm extended to control distance or break grips"
-      }
     ],
     "decision_tree": [
       {
@@ -395,28 +549,6 @@
         "duration": "10 rounds of 30 seconds"
       }
     ],
-    "optimal_submission_paths": [
-      {
-        "name": "Triangle path from feet-on-hips",
-        "path": "Feet on Hips Guard → Triangle Setup → Triangle Control → Triangle from Guard"
-      },
-      {
-        "name": "Armbar path via sweep",
-        "path": "Feet on Hips Guard → Scissor Sweep → Mount → Armbar from Mount"
-      },
-      {
-        "name": "Omoplata path with sweep option",
-        "path": "Feet on Hips Guard → Omoplata Sweep → Omoplata Control → Omoplata from Guard"
-      },
-      {
-        "name": "Guillotine path from failed pass",
-        "path": "Feet on Hips Guard → Guard Recovery → Closed Guard → Guillotine Choke"
-      },
-      {
-        "name": "Kimura path via Spider Guard transition",
-        "path": "Feet on Hips Guard → Spider Guard Sweeps → Spider Guard → Kimura from Guard"
-      }
-    ],
     "related_content": [
       {
         "name": "Open Guard",
@@ -453,18 +585,6 @@
       {
         "name": "Pendulum Sweep",
         "relationship": "Alternative sweep utilizing same foot-on-hip mechanics"
-      },
-      {
-        "name": "Guard Retention Concepts",
-        "relationship": "Fundamental principle - feet-on-hips exemplifies distance management concept"
-      },
-      {
-        "name": "Frame Management",
-        "relationship": "Core concept applied through leg frames on hips"
-      },
-      {
-        "name": "Distance Creation",
-        "relationship": "Primary tactical objective of feet-on-hips position"
       }
     ],
     "position_metrics": {
@@ -484,382 +604,78 @@
         "advanced": 50
       },
       "average_time": "30-90 seconds before transition or pass attempt"
-    }
-  },
-  "top": {
-    "name": "Feet on Hips Guard Top",
-    "description": "Master feet on hips guard top position in BJJ. Complete passing strategies, grip control, and pressure management with 60-75% pass success rates.",
-    "tags": [
-      "bjj",
-      "position",
-      "guard-passing",
-      "feet-on-hips",
-      "open-guard",
-      "top-position",
-      "toreando",
-      "pressure-passing"
-    ],
-    "overview": "Feet on Hips Guard Top is the passing perspective when facing an opponent who has established feet on your hips as defensive frames. This common open guard scenario requires systematic breakdown of the bottom player's leg frames through grip control, pressure application, and strategic positioning. Success demands understanding how to neutralize the pushing power of the legs while maintaining forward pressure and creating passing opportunities. The position requires patience and technical precision—rushing into passes often results in the bottom player re-establishing guard or executing sweeps. Effective top players focus on controlling the knees, breaking the frames methodically, and transitioning to more advantageous passing positions. Your primary objectives are establishing dominant grips (particularly pants grips at the knees), applying constant forward pressure to prevent guard recovery, and timing your passing attacks to coincide with the bottom player's frame adjustments. The position demands balance between aggression and control—too passive allows the bottom player to threaten attacks, too aggressive creates sweep opportunities.",
-    "state_properties": {
-      "point_value": 0,
-      "position_type": "Offensive",
-      "risk_level": "Medium",
-      "energy_cost": "Medium",
-      "time_sustainability": "Medium to Long"
     },
-    "state_invariants": [
-      "Bottom player's feet are placed on top player's hips, creating a pushing frame that maintains distance between the two practitioners and prevents chest-to-chest contact",
-      "Top player maintains upright posture with strong base, typically in combat base or standing position, preventing forward collapse or off-balancing from leg frames",
-      "Top player controls one or both of bottom player's pants at the knees or ankles, working to break the foot-on-hip frames and establish dominant passing grips",
-      "Bottom player maintains hip mobility and ability to adjust feet placement, using legs as active defensive tools rather than static barriers while threatening guard transitions"
-    ],
-    "prerequisites": [
-      "Bottom player has established open guard with feet on hips creating distance",
-      "Top player has disengaged from closed guard or is approaching from standing position",
-      "Sufficient space exists between both players for the frame to function",
-      "Top player maintains balance and base to prevent sweeps while applying pressure"
-    ],
-    "key_principles": [
-      "Control the knees before attempting to pass - grip fighting at the pants is essential foundation",
-      "Maintain constant forward pressure to prevent bottom player from recovering better guards or establishing sleeve control",
-      "Break one frame at a time rather than attempting to clear both feet simultaneously",
-      "Keep hips low and weight distributed to prevent being pushed backward or off-balanced",
-      "Use angle changes and lateral movement to create passing opportunities when frames adjust",
-      "Timing is critical - pass when bottom player adjusts their frames or attempts guard transitions",
-      "Protect against De La Riva hooks and lasso guards during frame breaking process"
-    ],
-    "offensive_transitions": [
+    "transitions": [
       {
-        "technique": "Toreando Pass",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 45,
-          "intermediate": 60,
-          "advanced": 75
-        }
+        "transition": "Scissor Sweep",
+        "attempt_probability": 14
       },
       {
-        "technique": "Knee Cut Pass",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 40,
-          "intermediate": 55,
-          "advanced": 70
-        }
+        "transition": "Pendulum Sweep",
+        "attempt_probability": 12
       },
       {
-        "technique": "Leg Drag Pass",
-        "target_position": "Leg Drag Control",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 50,
-          "advanced": 65
-        }
+        "transition": "Hip Bump Sweep",
+        "attempt_probability": 11
       },
       {
-        "technique": "Double Under Pass",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 45,
-          "advanced": 60
-        }
+        "transition": "Triangle Setup",
+        "attempt_probability": 10
       },
       {
-        "technique": "Long Step Pass",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 50,
-          "advanced": 65
-        }
+        "transition": "Omoplata Sweep",
+        "attempt_probability": 9
       },
       {
-        "technique": "X Pass",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 40,
-          "advanced": 55
-        }
+        "transition": "De La Riva Sweep",
+        "attempt_probability": 11
       },
       {
-        "technique": "Stack Pass",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 45,
-          "advanced": 60
-        }
+        "transition": "X-Guard Sweep",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Single Leg X Sweep",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Elevator Sweep",
+        "attempt_probability": 12
       }
     ],
-    "defensive_responses": [
+    "knowledge_assessment": [
       {
-        "technique": "Spider Guard Sweeps",
-        "target_position": "Spider Guard",
-        "success_rate": 35
+        "question": "What is the optimal foot placement for maintaining feet on hips guard and why?",
+        "answer": "Place the ball of each foot directly on the opponent's hip bones (anterior superior iliac spine landmarks), not on the thighs or stomach. This bony contact point provides maximum structural stability and pushing efficiency because bone-on-bone contact transmits force more effectively than pressing against soft tissue. The ball of the foot creates a broad, stable pushing surface while maintaining sensitivity to the opponent's weight shifts and movement."
       },
       {
-        "technique": "Lasso Guard Sweeps",
-        "target_position": "Lasso Guard",
-        "success_rate": 30
+        "question": "Your opponent grabs both of your ankles - what immediate adjustment do you make?",
+        "answer": "React instantly by retracting both legs toward your chest while simultaneously pulling your hips back and creating an angle to one side. As you retract, fight to strip at least one ankle grip by circling your foot and pulling sharply. Immediately transition to an alternative guard position such as butterfly guard by placing hooks inside their thighs, or create enough distance to reset your feet back on their hips. Never allow them to control both ankles while your hips remain flat and stationary."
       },
       {
-        "technique": "Triangle Setup",
-        "target_position": "Triangle Control",
-        "success_rate": 25
+        "question": "What are the essential grips for maintaining an effective feet on hips guard?",
+        "answer": "Prioritize sleeve grips at the wrists or elbows, which allow you to control the opponent's ability to grab your legs and provide pulling power to coordinate with your leg frames. Secondary options include collar grips for posture control and to threaten chokes, or pants grips at the knees to prevent them from stepping around your frames. Always fight to establish grips before the opponent can secure their own passing grips on your ankles or pants."
       },
       {
-        "technique": "Omoplata Sweep",
-        "target_position": "Omoplata Control",
-        "success_rate": 20
+        "question": "How do you maintain hip elevation and why is this critical for guard retention?",
+        "answer": "Maintain hip elevation by engaging your core muscles and keeping a curved lower back, creating space between your lower back and the mat. This elevated position preserves your ability to rotate, angle, and move your hips freely. When hips flatten to the mat, you lose mobility and the opponent can settle their weight, pin your legs, and systematically advance their pass. The curved spine position also generates stronger pushing power through your leg frames."
       },
       {
-        "technique": "De La Riva Sweep",
-        "target_position": "De La Riva Guard",
-        "success_rate": 30
+        "question": "The opponent begins circling laterally to your left side - how do you track their movement?",
+        "answer": "Walk your hips in the same direction they're moving by using your shoulders and feet to scoot your body, keeping your feet centered on their hips and your chest facing them squarely. Adjust your foot pressure by pushing slightly harder with your right foot to track their leftward movement. If you have sleeve grips, use them to pull their upper body back toward your centerline while your legs redirect their hips. Never allow them to achieve a perpendicular angle to your body."
+      },
+      {
+        "question": "What is the primary escape when the opponent begins driving forward with heavy pressure into your frames?",
+        "answer": "Use their forward momentum against them by pulling them even further forward with your grips while extending your legs to load their weight onto your feet. This creates the setup for sweeps like the scissor sweep or pendulum sweep. If the sweep opportunity passes, redirect their forward pressure to one side by angling your hips and extending one leg more than the other, creating space to recover to closed guard or transition to De La Riva guard on the side they're now committed toward."
+      },
+      {
+        "question": "How do you recover position after the opponent partially passes one foot off your hip?",
+        "answer": "Immediately hip escape away from the side where you've lost foot placement, creating space and preventing them from achieving chest-to-chest contact. Use your remaining foot on their hip to push and create distance while your free leg either resets to their hip or transitions to a hook position such as butterfly or De La Riva. Simultaneously use your grips to prevent them from advancing further and create pulling tension that helps you recover your guard structure. Speed and immediate reaction are critical - never accept a partial pass without fighting to recover."
+      },
+      {
+        "question": "What is the coordination between pushing and pulling that makes feet on hips guard effective?",
+        "answer": "Effective feet on hips guard requires constant push-pull coordination where your legs push the opponent away while your grips pull their upper body toward you. This creates rotational tension that breaks their posture and balance. When you push with your legs alone, they simply step back and remain balanced. When you pull with grips alone, they drive their weight forward into you. The combination of simultaneous pushing and pulling forces creates the off-balancing moment needed for sweeps and prevents them from establishing a stable passing position."
       }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Stack Pass",
-        "target_position": "Side Control",
-        "trigger": "Bottom player attempts to invert or shoot triangle with hips elevated"
-      },
-      {
-        "technique": "Smash Pass",
-        "target_position": "Side Control",
-        "trigger": "Bottom player tries to establish De La Riva or reverse De La Riva hooks"
-      },
-      {
-        "technique": "Headquarters Pass",
-        "target_position": "Headquarters Position",
-        "trigger": "Bottom player creates too much space with frames and retracts legs"
-      },
-      {
-        "technique": "Knee Slice",
-        "target_position": "Side Control",
-        "trigger": "Bottom player attempts to establish shin shield or half guard recovery"
-      }
-    ],
-    "decision_tree": [
-      {
-        "condition": "If bottom player has both feet on hips with strong frames and no sleeve grips established",
-        "actions": [
-          {
-            "technique": "Grip pants at knees",
-            "target": "Combat Base",
-            "probability": 60
-          },
-          {
-            "technique": "Stand up to create pressure",
-            "target": "Standing Position",
-            "probability": 70
-          }
-        ]
-      },
-      {
-        "condition": "If bottom player tries to establish sleeve grips for spider guard or collar control",
-        "actions": [
-          {
-            "technique": "Toreando Pass",
-            "target": "Side Control",
-            "probability": 65
-          },
-          {
-            "technique": "Spider Guard Pass",
-            "target": "Side Control",
-            "probability": 55
-          }
-        ]
-      },
-      {
-        "condition": "If bottom player begins to shoot triangle or omoplata with hips inverting",
-        "actions": [
-          {
-            "technique": "Stack Pass",
-            "target": "Side Control",
-            "probability": 60
-          },
-          {
-            "technique": "Posture up and circle away",
-            "target": "Combat Base",
-            "probability": 70
-          }
-        ]
-      },
-      {
-        "condition": "If bottom player creates excessive distance with frames or retracts legs",
-        "actions": [
-          {
-            "technique": "Long Step Pass",
-            "target": "Side Control",
-            "probability": 50
-          },
-          {
-            "technique": "Step around to leg drag",
-            "target": "Leg Drag Control",
-            "probability": 55
-          }
-        ]
-      },
-      {
-        "condition": "If bottom player attempts to establish De La Riva or lasso hooks during frame breaking",
-        "actions": [
-          {
-            "technique": "Smash Pass",
-            "target": "Side Control",
-            "probability": 55
-          },
-          {
-            "technique": "Clear hooks and knee cut",
-            "target": "Side Control",
-            "probability": 60
-          }
-        ]
-      }
-    ],
-    "common_errors": [
-      {
-        "error": "Attempting to pass without controlling the knees first",
-        "consequence": "Bottom player easily re-establishes guard or executes sweeps using full leg extension",
-        "correction": "Establish strong pants grips at the knees before initiating any passing movement to neutralize leg frames"
-      },
-      {
-        "error": "Standing too upright with poor base and elevated center of gravity",
-        "consequence": "Vulnerable to push sweeps and loss of balance from leg extension pressure",
-        "correction": "Maintain low, athletic stance with weight distributed evenly and hips engaged for stability"
-      },
-      {
-        "error": "Allowing bottom player to establish sleeve grips without fighting",
-        "consequence": "Bottom player transitions to spider guard or lasso guard with increased control and sweep opportunities",
-        "correction": "Fight grips aggressively and keep elbows tight to prevent sleeve control while establishing pants grips"
-      },
-      {
-        "error": "Rushing the pass without breaking frames methodically",
-        "consequence": "Bottom player pushes you away or off-balances you with coordinated leg and grip pressure",
-        "correction": "Methodically break one frame at a time before committing to pass, ensuring control throughout"
-      },
-      {
-        "error": "Keeping weight too far back away from the engagement",
-        "consequence": "Bottom player maintains distance and can attack with submissions or establish better guards",
-        "correction": "Apply constant forward pressure while maintaining balance to prevent guard recovery"
-      },
-      {
-        "error": "Ignoring De La Riva hook threats during frame breaking",
-        "consequence": "Bottom player establishes De La Riva and sweeps or takes the back during passing attempt",
-        "correction": "Keep knee line awareness and clear hooks immediately when they appear before continuing pass"
-      },
-      {
-        "error": "Using upper body strength to force through frames without technique",
-        "consequence": "Energy depletion and exposure to submissions when frames eventually collapse you forward",
-        "correction": "Use grip control and angle changes to systematically dismantle frames rather than forcing through"
-      }
-    ],
-    "training_drills": [
-      {
-        "name": "Frame Breaking Drill",
-        "description": "Bottom player establishes feet on hips frames. Top player practices controlling knees and systematically breaking frames one at a time. Focus on grip fighting and maintaining pressure. Switch roles every 3 minutes. Emphasize technical precision over speed.",
-        "duration": "3 minutes per round"
-      },
-      {
-        "name": "Toreando Timing Drill",
-        "description": "From feet on hips position, top player waits for bottom player to adjust their frames, then executes toreando pass. Bottom player varies their frame adjustments to create realistic timing windows. Emphasize reading and reacting to movement rather than forcing passes.",
-        "duration": "5 minutes continuous"
-      },
-      {
-        "name": "Passing Flow Drill",
-        "description": "Top player cycles through different passing options (toreando, knee cut, leg drag, long step) from feet on hips position. Bottom player provides moderate resistance. Focus on smooth transitions between passing attempts when initial pass is defended. Build fluidity in passing chains.",
-        "duration": "4 minutes per person"
-      },
-      {
-        "name": "Grip Fighting Specific",
-        "description": "Isolated drill focusing only on grip fighting from feet on hips position. Top player tries to secure pants grips, bottom player tries to establish sleeve or collar grips. Reset every 30 seconds and alternate who achieves grips first. Builds grip fighting awareness and hand speed.",
-        "duration": "6 minutes total"
-      },
-      {
-        "name": "Positional Sparring from Feet on Hips",
-        "description": "Start with bottom player in feet on hips position with grips already established. Top player attempts to pass, bottom player attempts to sweep or submit. Reset to starting position after 2 minutes or after successful pass/sweep. Track success rates to measure improvement.",
-        "duration": "10 rounds of 2 minutes"
-      }
-    ],
-    "optimal_submission_paths": [
-      {
-        "name": "Shortest path to submission via side control",
-        "path": "Feet on Hips Guard Top → Knee Cut Pass → Side Control → Americana"
-      },
-      {
-        "name": "High-percentage pressure path to mount submissions",
-        "path": "Feet on Hips Guard Top → Toreando Pass → Side Control → Mount → Armbar from Mount"
-      },
-      {
-        "name": "Back attack path via leg drag",
-        "path": "Feet on Hips Guard Top → Leg Drag Pass → Leg Drag Control → Back Control → Rear Naked Choke"
-      },
-      {
-        "name": "Submission path via north-south transition",
-        "path": "Feet on Hips Guard Top → Stack Pass → North-South → North-South Choke"
-      }
-    ],
-    "related_content": [
-      {
-        "name": "Feet on Hips Guard",
-        "relationship": "Opposing perspective of same position"
-      },
-      {
-        "name": "Spider Guard",
-        "relationship": "Common progression when sleeve grips are established by bottom player"
-      },
-      {
-        "name": "Combat Base",
-        "relationship": "Fundamental posture for this position"
-      },
-      {
-        "name": "Toreando Pass",
-        "relationship": "Primary passing technique from this position"
-      },
-      {
-        "name": "Knee Cut Pass",
-        "relationship": "High-percentage passing option when frames are broken"
-      },
-      {
-        "name": "Leg Drag Pass",
-        "relationship": "Alternative passing strategy using lateral movement"
-      },
-      {
-        "name": "Guard Passing Principles",
-        "relationship": "Conceptual framework for all passing applications"
-      },
-      {
-        "name": "Pressure Passing",
-        "relationship": "Strategic approach applicable to this position"
-      },
-      {
-        "name": "Standing Position",
-        "relationship": "Alternative posture for addressing feet-on-hips frames"
-      },
-      {
-        "name": "Grip Fighting",
-        "relationship": "Essential skill for establishing dominant grips and breaking frames"
-      }
-    ],
-    "position_metrics": {
-      "retention_rate": {
-        "beginner": 40,
-        "intermediate": 55,
-        "advanced": 70
-      },
-      "advancement_probability": {
-        "beginner": 35,
-        "intermediate": 50,
-        "advanced": 65
-      },
-      "submission_probability": {
-        "beginner": 15,
-        "intermediate": 25,
-        "advanced": 40
-      },
-      "average_time": "45-90 seconds before successful pass or guard recovery"
-    }
+    ]
   }
 }

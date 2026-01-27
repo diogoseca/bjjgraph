@@ -10,8 +10,6 @@
     "transitions",
     "grip fighting"
   ],
-  "starting_position": "Standing Position",
-  "ending_position": "Back Control",
   "success_rates": {
     "beginner": 45,
     "intermediate": 60,
@@ -262,6 +260,24 @@
     {
       "name": "Rear Naked Choke",
       "relationship": "Follow-up submission - primary finish from back control"
+    }
+  ],
+  "from_position": "Standing Position/Top",
+  "outcomes": [
+    {
+      "to": "Back Control/Top",
+      "probability": 75,
+      "result": "success"
+    },
+    {
+      "to": "Standing Position/Top",
+      "probability": 15,
+      "result": "failure"
+    },
+    {
+      "to": "Standing Position/Bottom",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

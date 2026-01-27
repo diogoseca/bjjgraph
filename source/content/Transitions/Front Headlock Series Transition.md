@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Front Headlock Series Transition | BJJ Technique | BJJ Graph"
 description: "Master Front Headlock Series in BJJ. Complete guide to control and transitions from front headlock to multiple finishes. Beginner 35%, Intermediate 55%, Advanced 75%."
@@ -16,7 +17,7 @@ description: "Master Front Headlock Series in BJJ. Complete guide to control and
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Front Headlock Series Transition in BJJ",
-  "description": "Step-by-step guide for Front Headlock Series Transition from Front Headlock to Back Control.",
+  "description": "Step-by-step guide for Front Headlock Series Transition from Front Headlock/Top. Possible outcomes: Back Control/Top (75%), Front Headlock/Top (15%), Front Headlock/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -158,11 +159,25 @@ The beauty of the front headlock series lies in its systematic nature—each def
 
 Developed and refined by high-level competitors including Marcelo Garcia, systematic Death Squad, and countless others, the front headlock series has proven itself in the highest levels of competition. Understanding this series requires not just technical proficiency in individual techniques, but also the strategic awareness to recognize which branch to follow based on opponent reactions. Mastery of this series transforms the front headlock from a simple control position into a complete submission system.
 
-**Starting Position**: [[Front Headlock]]
-**Ending Position**: [[Back Control]]
+**From Position**: [[Front Headlock/Top]]
 **Success Rates**: Beginner 35%, Intermediate 55%, Advanced 75%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Back Control/Top]] | 75% |
+| Failure | [[Front Headlock/Top]] | 15% |
+| Counter | [[Front Headlock/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

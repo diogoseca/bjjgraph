@@ -21,37 +21,37 @@ description: "Master Kesa Gatame Top position in BJJ. Dominant scarf hold with 7
     {
       "@type": "HowToStep",
       "name": "Execute Americana from Side Control",
-      "text": "From this position, execute Americana from Side Control to transition to Americana Control. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Americana from Side Control. This technique is attempted in 15% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kimura from Side Control",
-      "text": "From this position, execute Kimura from Side Control to transition to Kimura Control. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Kimura from Side Control. This technique is attempted in 14% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Armbar from Side Control",
-      "text": "From this position, execute Armbar from Side Control to transition to Armbar Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Armbar from Side Control. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute North-South Choke",
-      "text": "From this position, execute North-South Choke to transition to North-South. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt North-South Choke. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Mount",
-      "text": "From this position, execute Transition to Mount to transition to Mount. Success rate for advanced practitioners: 80%.",
+      "name": "Execute Side Control to Mount",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 16% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to North-South",
-      "text": "From this position, execute Transition to North-South to transition to North-South. Success rate for advanced practitioners: 85%.",
+      "name": "Execute Side Control to North-South",
+      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 19% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -213,84 +213,20 @@ The position requires careful attention to weight distribution and hip positioni
 
 ## Available Attacks
 
-### [[Americana from Side Control]] → [[Americana Control]]
+### [[Americana from Side Control]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 60%
-- Advanced: 75%
+### [[Kimura from Side Control]] (14% of attempts)
 
-### [[Kimura from Side Control]] → [[Kimura Control]]
+### [[Armbar from Side Control]] (13% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
+### [[North-South Choke]] (12% of attempts)
 
-### [[Armbar from Side Control]] → [[Armbar Control]]
+### [[Side Control to Mount]] (16% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Side Control to North-South]] (19% of attempts)
 
-### [[North-South Choke]] → [[North-South]]
+### [[Arm Triangle]] (11% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[Transition to Mount]] → [[Mount]]
-
-**Success Rates:**
-- Beginner: 50%
-- Intermediate: 65%
-- Advanced: 80%
-
-### [[Transition to North-South]] → [[North-South]]
-
-**Success Rates:**
-- Beginner: 55%
-- Intermediate: 70%
-- Advanced: 85%
-
-### [[Arm Triangle]] → [[Won by Submission]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Side Control Escape]]** → [[Open Guard]] (Opponent Success: 35%)
-- **[[Hip Escape]]** → [[Half Guard]] (Opponent Success: 40%)
-- **[[Bridge and Roll]]** → [[Scarf Hold Position]] (Opponent Success: 25%)
-- **[[Frame and Shrimp]]** → [[Half Guard]] (Opponent Success: 30%)
-- **[[Elbow Escape]]** → [[Closed Guard]] (Opponent Success: 35%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Transition to Mount]]** → [[Mount]]
-  - Opponent attempts to turn into you or bridge
-- **[[Transition to North-South]]** → [[North-South]]
-  - Opponent creates space on the near side and attempts to escape toward feet
-- **[[Kimura from Side Control]]** → [[Kimura Control]]
-  - Opponent extends trapped arm attempting to create frames
-- **[[Armbar from Side Control]]** → [[Armbar Control]]
-  - Opponent pushes against your head or attempts to create distance with straight arm
 
 
 </section>
@@ -300,22 +236,22 @@ The position requires careful attention to weight distribution and hip positioni
 ## Decision Making from This Position
 
 **If opponent attempts to turn into you and recover guard:**
-- Execute **[[Transition to Mount]]** → [[Mount]] (Probability: 70%)
-- Execute **[[Kimura from Side Control]]** → [[Kimura Control]] (Probability: 60%)
+- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 70%)
+- Execute **[[Kimura from Side Control]]** → [[Kimura Trap]] (Probability: 60%)
 
 
 **If opponent creates space and attempts to shrimp away toward their feet:**
-- Execute **[[Transition to North-South]]** → [[North-South]] (Probability: 75%)
+- Execute **[[Side Control to North-South]]** → [[North-South]] (Probability: 75%)
 - Execute **[[North-South Choke]]** → [[North-South]] (Probability: 50%)
 
 
 **If opponent extends trapped arm attempting to push or frame:**
-- Execute **[[Americana from Side Control]]** → [[Americana Control]] (Probability: 65%)
+- Execute **[[Americana from Side Control]]** → [[Armbar Control]] (Probability: 65%)
 - Execute **[[Armbar from Side Control]]** → [[Armbar Control]] (Probability: 55%)
 
 
 **If opponent remains flat and defensive without creating movement:**
-- Execute **[[Arm Triangle]]** → [[Won by Submission]] (Probability: 45%)
+- Execute **[[Arm Triangle]]** → [[game-over]] (Probability: 45%)
 - Execute **[[North-South Choke]]** → [[North-South]] (Probability: 40%)
 
 
@@ -397,33 +333,39 @@ Bottom player attempts one specific escape type (hip escape, bridge and roll, or
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Shortest High-Percentage Path
+## Test Your Knowledge
 
-`Scarf Hold Position → Americana from Side Control → Won by Submission`
+**Q1**: Your opponent starts bridging explosively toward your posted leg - what adjustment do you make to maintain position?
+**A**: Immediately widen your posted leg and shift your hips lower, driving your weight down through your chest into their torso. If the bridge is strong, be ready to transition to mount by stepping over as they turn into you, converting their escape attempt into positional advancement. The key is staying heavy on their upper body while maintaining wide base with your posted leg.
 
-### Control-First Path
+**Q2**: What are the essential control points for maintaining Kesa Gatame?
+**A**: The three essential control points are: head control with your arm wrapped around their neck pulling it toward your hip, near arm trap secured tightly under your armpit squeezing against your ribs, and chest-to-chest pressure with your weight distributed through your torso onto their upper body. Without all three points engaged, the position becomes unstable and escape-prone.
 
-`Scarf Hold Position → Transition to North-South → North-South Choke → Won by Submission`
+**Q3**: How do you shut down the bridge-and-roll escape before it develops momentum?
+**A**: Keep your hips extremely low and sink your weight into their chest, making bridging difficult. Your posted leg must stay wide at a 45-degree angle for base. When you feel them start to load their hips, immediately drive your shoulder into their face and sprawl your hips back slightly. You can also preemptively control their far arm to eliminate the grip they need to complete the roll.
 
-### Arm Attack Sequence
+**Q4**: What grip priorities should you maintain when someone is actively trying to escape?
+**A**: During active escape attempts, prioritize in this order: head control first (arm wrapped around their head pulling toward your hip), near arm trap second (squeezed tight under your armpit), and base leg position third (posted wide for stability). If you must release one grip to address an escape, never release head control first as this is the primary anchor preventing them from creating angles.
 
-`Scarf Hold Position → Kimura from Side Control → Armbar from Side Control → Won by Submission`
+**Q5**: How do you apply pressure effectively without exhausting yourself?
+**A**: Use skeletal alignment and gravity rather than muscular effort. Sit your hips low and let your bodyweight sink through your chest onto their torso. Keep your arm around their head relaxed but connected, using the bone structure of your shoulder and chest to apply pressure. The pressure should feel effortless to you while being crushing to them. Avoid squeezing with your arms or holding tension in your shoulders.
 
-### Mount Transition Path
+**Q6**: Your opponent starts turning their hips toward you to create an angle - how do you react?
+**A**: When they turn their hips toward you, this is actually an opportunity. Drive your near leg over their far hip to begin transitioning to mount, using their rotation to help you clear the leg. Alternatively, shift your weight forward and sprawl your hips to flatten them back down before they can complete the angle change. The worst response is remaining static - you must move with their movement.
 
-`Scarf Hold Position → Transition to Mount → Americana from Mount → Won by Submission`
+**Q7**: How do you manage your energy during extended control periods in Kesa Gatame?
+**A**: Relax between their escape attempts while maintaining structural connection through your frames. Use your bodyweight passively rather than actively squeezing. Focus on breathing calmly and staying mentally patient. When they explode with escape attempts, match their energy briefly then return to relaxed control. This creates a brutal energy differential where they exhaust themselves while you conserve energy.
 
-### Pressure Choke Path
-
-`Scarf Hold Position → Arm Triangle → Won by Submission`
+**Q8**: Your opponent partially escapes and gets their near arm free - how do you recover control?
+**A**: Immediately transition to a safer variation before they can capitalize. Options include: shifting to North-South by circling toward their head, moving to standard side control by sliding your hips perpendicular, or if they turn in, flowing to mount. Do not fight to re-trap the arm in Kesa Gatame as this creates scramble opportunities. Accept the partial escape and secure a dominant position rather than losing everything trying to maintain the original hold.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -452,8 +394,6 @@ Bottom player attempts one specific escape type (hip escape, bridge and roll, or
 - **[[Mount]]** - Common advancement target when opponent turns in
 - **[[Americana from Side Control]]** - Primary submission attack from this position
 - **[[Kimura from Side Control]]** - High-percentage submission option
-- **[[Pressure Application]]** - Fundamental concept for position effectiveness
-- **[[Weight Distribution]]** - Critical concept for maintaining heavy pressure
 
 
 </section>

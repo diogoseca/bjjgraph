@@ -89,26 +89,20 @@ The position's reputation is divided: traditionalists view it as a stalling posi
 - Energy Conservation: Position requires sustained defensive effort; avoid exhausting yourself with futile escape attempts when strategic extraction is better option
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Position reversal sweep to top]]** → [[50-50 Guard]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 65%
+- **[[Position reversal sweep to top]]** (18% of attempts)
 
-- **[[Counter heel hook]]** → [[Inside Ashi-Garami]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 50%
+- **[[Counter heel hook]]** (14% of attempts)
 
-- **[[Transition to Single Leg X-Guard]]** → [[Single Leg X-Guard]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 70%
+- **[[50-50 Guard to Single Leg X-Guard]]** (19% of attempts)
 
-- **[[Extract legs and stand up]]** → [[Standing Guard]]
-  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 75%
+- **[[Extract legs and stand up]]** (20% of attempts)
 
-- **[[Straight ankle lock]]** → [[Straight Ankle Lock Control]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 55%
+- **[[Straight Ankle Lock]]** (15% of attempts)
 
-- **[[Kneebar entry]]** → [[Kneebar Control]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 50%
+- **[[Kneebar entry]]** (14% of attempts)
 
 
 ### Common Mistakes
@@ -160,32 +154,24 @@ The position's reputation is divided: traditionalists view it as a stalling posi
 - Risk Awareness: Position can reverse quickly if opponent matches inside control, requiring constant awareness of position parity
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Inside Heel Hook]]** → [[Inside Heel Hook]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 50%
+- **[[Inside Heel Hook]]** (11% of attempts)
 
-- **[[Kneebar from 50-50]]** → [[Kneebar Control]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 45%
+- **[[Kneebar from 50-50]]** (10% of attempts)
 
-- **[[Straight Ankle Lock]]** → [[Straight Ankle Lock Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 50%
+- **[[Straight Ankle Lock]]** (11% of attempts)
 
-- **[[Calf Slicer from 50-50]]** → [[Calf Slicer from 50-50]]
-  - Success Rate: Beginner 10%, Intermediate 20%, Advanced 35%
+- **[[Calf Slicer from 50-50]]** (8% of attempts)
 
-- **[[Back Take from 50-50]]** → [[Back Control]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 70%
+- **[[Back Take from 50-50]]** (17% of attempts)
 
-- **[[Transition to Outside Ashi]]** → [[Outside Ashi-Garami]]
-  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 70%
+- **[[50-50 Guard to Outside Ashi]]** (16% of attempts)
 
-- **[[Transition to Inside Ashi]]** → [[Inside Ashi-Garami]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 65%
+- **[[50-50 Guard to Inside Ashi]]** (15% of attempts)
 
-- **[[Pass to Side Control]]** → [[Side Control]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 55%
+- **[[Pass to Side Control]]** (12% of attempts)
 
 
 ### Common Mistakes

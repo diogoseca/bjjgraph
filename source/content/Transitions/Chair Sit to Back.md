@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Chair Sit to Back | BJJ Technique | BJJ Graph"
 description: "Master Chair Sit to Back Take in BJJ. Control opponent from turtle, establish seatbelt grip, climb to back control. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%."
@@ -16,7 +17,7 @@ description: "Master Chair Sit to Back Take in BJJ. Control opponent from turtle
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Chair Sit to Back in BJJ",
-  "description": "Step-by-step guide for Chair Sit to Back from Turtle to Back Control.",
+  "description": "Step-by-step guide for Chair Sit to Back from Turtle/Top. Possible outcomes: Back Control/Top (75%), Turtle/Top (15%), Turtle/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -154,11 +155,25 @@ description: "Master Chair Sit to Back Take in BJJ. Control opponent from turtle
 
 The Chair Sit to Back Take is a fundamental transition from attacking turtle position to establishing dominant back control. This technique exploits the opponent's defensive turtle posture by controlling their hips and preventing forward movement while systematically climbing onto their back. The chair sit position provides exceptional control by using your leg as a barrier, preventing the opponent from turning into you while you establish the crucial seatbelt grip configuration. The technique represents a high-percentage pathway to back control because it neutralizes the opponent's ability to counter-rotate or escape forward, creating a controlled environment for methodical position advancement. Success requires precise hip positioning, weight distribution, and grip sequencing to prevent common defensive reactions such as rolling or sitting through. The chair sit acts as a transitional control position that bridges the gap between attacking turtle and securing full back mount with hooks established.
 
-**Starting Position**: [[Turtle]]
-**Ending Position**: [[Back Control]]
+**From Position**: [[Turtle/Top]]
 **Success Rates**: Beginner 45%, Intermediate 60%, Advanced 75%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Back Control/Top]] | 75% |
+| Failure | [[Turtle/Top]] | 15% |
+| Counter | [[Turtle/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

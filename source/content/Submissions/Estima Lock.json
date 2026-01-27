@@ -276,6 +276,31 @@
       "question": "Why is progressive pressure application over 5-7 seconds critical for safety in the Estima Lock?",
       "answer": "Progressive pressure over 5-7 seconds is critical because: (1) Ligaments and tendons in the foot and ankle can tear with sudden force before the person can tap, (2) It gives your partner multiple opportunities to recognize the danger and tap, (3) It allows you to feel resistance and adjust if something feels wrong, (4) It builds trust that makes partners willing to train leg locks safely, (5) Explosive force can cause fractures or severe ligament damage requiring surgery. Slow, controlled pressure is both more effective technically and vastly safer for your training partners.",
       "safety_critical": true
+    },
+    {
+      "question": "Your opponent begins retracting their foot toward their body during your Estima Lock attempt - what grip adjustment prevents the escape?",
+      "answer": "When the opponent retracts their foot, immediately shift your grip deeper onto the dorsal surface of the foot while pulling your elbows tight to your body. Angle your wrists to cup the foot rather than grip it flat. Simultaneously increase hip pressure forward to close the distance they are creating. If the foot continues retracting, follow it with your whole body rather than just reaching with your arms, maintaining the fulcrum behind their knee throughout the adjustment.",
+      "safety_critical": false
+    },
+    {
+      "question": "What are the primary indicators that the Estima Lock is reaching the breaking point and a tap is imminent?",
+      "answer": "Key indicators the submission is reaching the breaking point include: (1) Opponent's foot visibly folding toward their shin beyond normal range of motion, (2) Opponent begins verbally expressing distress or urgency, (3) Opponent's body stiffens as pain signals intensify, (4) Decreased resistance in the foot as ligaments reach their limit, (5) Opponent's free leg begins thrashing or kicking as panic sets in. Upon observing any of these indicators, IMMEDIATELY check for tap signals and be prepared to release - never push through these warning signs.",
+      "safety_critical": true
+    },
+    {
+      "question": "In competition, what determines whether to commit to finishing the Estima Lock versus transitioning to another attack?",
+      "answer": "The decision to finish versus transition depends on: (1) Whether your fulcrum behind the knee is solid - if their knee begins straightening, transition immediately to ankle lock or sweep, (2) Quality of your hand grip on the foot - if slipping toward toes, switch to toe hold, (3) Whether opponent is defending the foot or the position - if they focus on foot extraction, their leg position often deteriorates for other attacks, (4) Time remaining and point situation - finishing from suboptimal position may be necessary under time pressure. The Estima Lock works best when opponents must choose between defending the foot attack and maintaining leg position.",
+      "safety_critical": false
+    },
+    {
+      "question": "How do you maintain control when the opponent attempts to rotate their hip to relieve dorsiflexion pressure?",
+      "answer": "When the opponent rotates their hip, follow their rotation with your entire body rather than fighting it statically. Use your free leg to block their hip rotation by hooking or pressing against their hip. Adjust your hand grip to maintain the dorsiflexion angle relative to their shin regardless of hip position. If rotation continues, the hip movement often creates opportunities for toe hold (rotation exposes the foot differently) or transition to inside position for heel hook. The key is treating their defense as a transition opportunity rather than a problem to overcome with force.",
+      "safety_critical": false
+    },
+    {
+      "question": "What specific control must be established before any pressure is applied to prevent injury during the Estima Lock finish?",
+      "answer": "Before applying any finishing pressure: (1) Confirm your leg is solidly positioned behind their bent knee with no slippage possible, (2) Verify your hand grip covers the ball of the foot with secure finger placement - not the toes, (3) Ensure your free leg controls their hip to prevent sudden distance creation, (4) Confirm verbal communication with your training partner that pressure is beginning, (5) Verify tap access - partner's hands must be free to tap. Only after all five control points are confirmed should pressure application begin. Rushing the finish without proper control is the primary cause of training injuries with this submission.",
+      "safety_critical": true
     }
   ],
   "training_progressions_and_safety_protocols": [
@@ -341,7 +366,6 @@
     "Toe Hold from 50-50",
     "Heel Hook",
     "Calf Slicer from 50-50",
-    "Straight Footlock",
     "Achilles Lock"
   ],
   "related_content": [
@@ -382,12 +406,12 @@
       "relationship": "Direct transition when opponent pulls foot during Estima Lock defense"
     },
     {
-      "name": "Craig Jones Leg Lock System",
-      "relationship": "Modern leg lock approach emphasizing Estima Lock transitions and setups"
+      "name": "50-50 Guard",
+      "relationship": "Primary position for Estima Lock application and leg lock system integration"
     },
     {
-      "name": "Ashi Garami Escape",
-      "relationship": "Counter technique defending leg entanglements that lead to Estima Lock"
+      "name": "Saddle",
+      "relationship": "Advanced leg entanglement position that can transition to Estima Lock"
     }
   ]
 }

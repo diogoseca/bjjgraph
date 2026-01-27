@@ -47,6 +47,306 @@
       "relationship": "Related leg entanglement system from 10th Planet methodology"
     }
   ],
+  "top": {
+    "name": "Twister Side Control Top",
+    "description": "Control twister side control from top position with systematic submission chains. Master leg entanglement, shoulder pressure, and finishing mechanics with expert success rates.",
+    "tags": [
+      "offensive position",
+      "side control",
+      "twister system",
+      "submission position",
+      "10th planet"
+    ],
+    "overview": "Twister Side Control from the top represents one of the most submission-oriented control positions in modern no-gi grappling, offering immediate finishing opportunities while maintaining sufficient positional control to prevent escapes. The position exemplifies 10th Planet's philosophy of creating submission-focused positions that bypass traditional positional hierarchies, prioritizing finishing potential over point accumulation.\n\nThe top player in Twister Side Control leverages leg entanglement and shoulder pressure to create a mechanical framework that severely restricts the bottom player's defensive options. Unlike traditional side control where the primary focus is maintaining position and gradually advancing, Twister Side Control assumes an offensive posture from the moment of establishment, with multiple submission chains available and positional advancement serving as secondary objectives. This offensive emphasis requires different skill sets and strategic thinking compared to conventional top control positions.\n\nEstablishing effective Twister Side Control demands precise understanding of the position's mechanical requirements. The leg entanglement must be structured to restrict hip mobility while maintaining the top player's base and balance. Shoulder control must be sufficient to prevent the bottom player from turning in or creating effective frames. The coordination between these control elements creates the positional foundation from which submissions emerge. Experienced practitioners develop sensitivity to these mechanical relationships, understanding how small adjustments in leg positioning or weight distribution dramatically affect both control quality and submission accessibility.\n\nThe position's energy efficiency comes not from sustained pressure like traditional side control, but from structural positioning that creates mechanical disadvantages for the defender. Once properly established, Twister Side Control requires moderate energy expenditure to maintain, as the leg entanglement and shoulder control create a self-sustaining control structure. The primary energy demand comes from pursuing submissions and responding to escape attempts, requiring the top player to remain dynamically engaged rather than simply holding position.\n\nFrom a strategic perspective, Twister Side Control functions as a high-risk, high-reward position. The emphasis on offensive submission attempts necessarily reduces positional stability compared to traditional side control. Top players must accept that aggressive submission pursuit may create escape opportunities, making calculated risk assessment critical. Understanding when to consolidate position versus when to aggressively pursue submissions distinguishes competent practitioners from elite ones. This decision-making becomes particularly important in competition contexts where points and positioning may matter as much as submissions.\n\nThe learning progression for Twister Side Control top is significant, with beginners often struggling to maintain the position while simultaneously pursuing submissions. The coordination required to manage leg hooks, shoulder pressure, and submission mechanics challenges practitioners accustomed to more static control positions. Intermediate practitioners develop better positional maintenance and can threaten submissions with moderate success, though finish rates remain lower than elite practitioners. Advanced players integrate Twister Side Control seamlessly into their overall top game, using it as both a finishing platform and a transitional tool to other dominant positions when submission attempts are defended.",
+    "state_properties": {
+      "point_value": 3,
+      "position_type": "Offensive/Controlling",
+      "risk_level": "Medium",
+      "energy_cost": "Medium",
+      "time_sustainability": "Medium"
+    },
+    "state_invariants": [
+      "Top player maintains lateral control position with leg hook entangling bottom player's near leg while their body is positioned perpendicular or at angle to create leverage for spinal attacks and prevent bottom player from turning into them or achieving flat defensive posture",
+      "Top player's weight is distributed between shoulder pressure driving bottom player's near shoulder toward mat and leg positioning that controls and elevates bottom player's hips, creating the mechanical structure necessary for twister-style submissions while maintaining sufficient base to prevent reversal",
+      "Bottom player's mobility is severely restricted by combination of leg entanglement at lower body and shoulder control at upper body, with their spine in rotated position that makes traditional side control escapes ineffective while creating vulnerability to spinal submission attacks"
+    ],
+    "prerequisites": [
+      "Top player has achieved truck position or similar leg entanglement with bottom player facing away",
+      "Top player has successfully transitioned to lateral control while maintaining leg hook around bottom player's near leg",
+      "Bottom player's shoulder is accessible for control and their hips are elevated by leg entanglement creating mechanical foundation for submissions"
+    ],
+    "key_principles": [
+      "Leg entanglement must restrict hip mobility while maintaining top player's base and balance for sustained control",
+      "Shoulder pressure drives bottom player's near shoulder to mat preventing defensive turning and frame creation",
+      "Weight distribution balances between control maintenance and mobility for submission pursuit",
+      "Position prioritizes immediate submission threats over traditional positional advancement",
+      "Multiple submission chains should be pursued simultaneously to create defensive dilemmas",
+      "Calculated risk assessment determines when to consolidate position versus aggressively pursue submissions",
+      "Dynamic engagement required rather than static pressure maintenance"
+    ],
+    "decision_tree": [
+      {
+        "condition": "If bottom player's spine is fully rotated and shoulder is driven to mat with secure leg entanglement",
+        "actions": [
+          {
+            "technique": "Twister Finish",
+            "target": "game-over",
+            "probability": 65
+          },
+          {
+            "technique": "Calf Slicer",
+            "target": "game-over",
+            "probability": 45
+          }
+        ]
+      },
+      {
+        "condition": "If bottom player attempts to turn into top player to create frames or relieve pressure",
+        "actions": [
+          {
+            "technique": "Darce Choke",
+            "target": "game-over",
+            "probability": 70
+          },
+          {
+            "technique": "Anaconda Choke",
+            "target": "game-over",
+            "probability": 65
+          }
+        ]
+      },
+      {
+        "condition": "If bottom player turns away exposing their back to escape shoulder pressure",
+        "actions": [
+          {
+            "technique": "Back Take Generic",
+            "target": "Back Control",
+            "probability": 75
+          },
+          {
+            "technique": "Turtle to Truck",
+            "target": "Truck",
+            "probability": 70
+          }
+        ]
+      },
+      {
+        "condition": "If bottom player successfully creates frames and begins extracting legs",
+        "actions": [
+          {
+            "technique": "Side Control to North-South",
+            "target": "North-South",
+            "probability": 60
+          },
+          {
+            "technique": "Side Control to Mount",
+            "target": "Mount",
+            "probability": 55
+          }
+        ]
+      },
+      {
+        "condition": "If bottom player extends near arm to frame or post during escape attempt",
+        "actions": [
+          {
+            "technique": "Kimura",
+            "target": "game-over",
+            "probability": 68
+          },
+          {
+            "technique": "Arm Triangle",
+            "target": "game-over",
+            "probability": 55
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Overcommitting weight forward in pursuit of twister submission while neglecting base maintenance",
+        "consequence": "Bottom player can execute bridge and roll reversal or escape to turtle by exploiting compromised balance",
+        "correction": "Maintain wide base with outside leg posted while pursuing twister, keeping weight distributed to prevent reversals"
+      },
+      {
+        "error": "Focusing exclusively on twister setup while ignoring other submission opportunities that present",
+        "consequence": "Defender effectively defends single threat and eventually escapes while top player tunnels on unavailable submission",
+        "correction": "Recognize and pursue multiple submission chains including darce, anaconda, and kimura as opportunities present themselves"
+      },
+      {
+        "error": "Allowing leg entanglement to become loose or shallow during submission pursuit",
+        "consequence": "Bottom player extracts legs and escapes to guard or standing position before submission can be finished",
+        "correction": "Continuously maintain tight leg hook with active squeeze, adjusting hook position as needed during submission attempts"
+      },
+      {
+        "error": "Releasing shoulder pressure prematurely when transitioning between submission attempts",
+        "consequence": "Defender creates frames and space, significantly improving their defensive position and escape probability",
+        "correction": "Maintain constant shoulder pressure throughout all transitions, using body weight rather than arm strength to control shoulder"
+      },
+      {
+        "error": "Attempting twister finish without first achieving proper spinal rotation and shoulder control",
+        "consequence": "Submission lacks necessary mechanical leverage and defender can defend comfortably while working escape",
+        "correction": "Ensure all positional prerequisites are met before attempting finish: spine rotated, shoulder to mat, legs controlled, proper grips established"
+      },
+      {
+        "error": "Remaining static in position hoping bottom player will make defensive error rather than actively pursuing submissions",
+        "consequence": "Defender systematically improves position without pressure, eventually achieving escape through methodical defense",
+        "correction": "Constantly threaten submissions and position improvements to create defensive dilemmas and time pressure on defender"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Progressive Twister Setup",
+        "description": "Start from established truck position. Partner provides 50% resistance while top player practices transitioning to twister side control and setting up twister submission. Focus on maintaining control through transition and achieving proper mechanical positioning. Increase resistance as technique improves.",
+        "duration": "5 minutes"
+      },
+      {
+        "name": "Submission Chain Flow",
+        "description": "Begin in twister side control. Partner defends specific submissions as called out (twister, darce, kimura). Top player must recognize defense and flow to appropriate alternative submission. Emphasizes recognition of defensive patterns and smooth transitions between submission threats without losing control.",
+        "duration": "4 minutes"
+      },
+      {
+        "name": "Control Maintenance Under Pressure",
+        "description": "Establish twister side control while partner uses full resistance attempting various escapes. Top player's goal is maintaining position for full duration while threatening submissions. Develops base maintenance, weight distribution, and ability to maintain control against explosive escape attempts.",
+        "duration": "3 minutes"
+      },
+      {
+        "name": "Entry Sequences",
+        "description": "Start from various positions (truck, side control, failed back take). Partner provides moderate resistance while top player practices different pathways to establish twister side control. Emphasizes recognizing opportunities and executing smooth entries from diverse starting positions.",
+        "duration": "5 minutes"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Truck",
+        "relationship": "Primary entry position and related control structure within twister system"
+      },
+      {
+        "name": "Twister Control",
+        "relationship": "Advanced progression when achieving full twister setup mechanics"
+      },
+      {
+        "name": "Darce Choke",
+        "relationship": "High-percentage submission option when bottom player turns into top player"
+      },
+      {
+        "name": "Anaconda Choke",
+        "relationship": "Alternative front choke option from similar positional structure"
+      },
+      {
+        "name": "Back Control",
+        "relationship": "Common transition when bottom player exposes back during escape attempts"
+      },
+      {
+        "name": "Kimura",
+        "relationship": "Submission option when bottom player extends arm to frame"
+      },
+      {
+        "name": "Calf Slicer",
+        "relationship": "Leg attack available from established leg entanglement"
+      },
+      {
+        "name": "Side Control",
+        "relationship": "Traditional variant that shares lateral control but differs in submission emphasis"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "beginner": 50,
+        "intermediate": 65,
+        "advanced": 80,
+        "description": "Percentage of time top player maintains twister side control without losing position"
+      },
+      "advancement_probability": {
+        "beginner": 35,
+        "intermediate": 50,
+        "advanced": 70,
+        "description": "Probability of advancing to better position or achieving submission"
+      },
+      "submission_probability": {
+        "beginner": 25,
+        "intermediate": 40,
+        "advanced": 60,
+        "description": "Probability of finishing submission directly from this position"
+      },
+      "average_time": "45-120 seconds before submission or position change"
+    },
+    "transitions": [
+      {
+        "transition": "Twister Finish",
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Darce Choke",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Anaconda Choke",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Kimura",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Turtle to Truck",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Back Take Generic",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Side Control to North-South",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Side Control to Mount",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Arm Triangle",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Calf Slicer",
+        "attempt_probability": 8
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What are the two primary control elements that must be maintained simultaneously in twister side control top?",
+        "answer": "The leg entanglement around the bottom player's near leg and shoulder pressure driving their near shoulder toward the mat must be maintained simultaneously. The leg hook restricts hip mobility and creates the foundation for spinal submissions, while shoulder pressure prevents defensive turning and frame creation. Losing either element significantly reduces control quality and submission accessibility."
+      },
+      {
+        "question": "Your opponent begins to bridge explosively while you're pursuing the twister finish - what adjustment do you make?",
+        "answer": "Immediately post your outside leg wide to expand your base and absorb the bridging force. Shift weight distribution away from the forward-leaning submission posture toward a more balanced control position. Maintain the leg hook but temporarily pause submission pursuit until you've neutralized the bridge attempt and re-established stable control. Only resume offensive action when your base is secure."
+      },
+      {
+        "question": "How should weight distribution differ between maintaining control versus actively pursuing submissions from twister side control?",
+        "answer": "During control maintenance, weight should be evenly distributed between shoulder pressure and leg positioning to create a stable, self-sustaining control structure. When pursuing submissions, weight shifts more dynamically - forward for the twister finish, laterally for darce or anaconda attempts. The key is maintaining enough base to prevent reversals while creating the specific mechanical leverage each submission requires."
+      },
+      {
+        "question": "What submission chain should you pursue when the bottom player turns into you trying to create frames?",
+        "answer": "When the bottom player turns toward you exposing their neck, immediately transition to front choke attacks. The darce choke becomes high-percentage as their turning motion feeds their arm across their body, and the anaconda choke is available if you can circle to the opposite side. Recognize this defensive pattern as an offensive opportunity rather than a positional threat."
+      },
+      {
+        "question": "Your leg entanglement is starting to loosen as your opponent creates hip movement - how do you recover control?",
+        "answer": "Immediately re-establish the leg hook by driving your knee deeper behind their knee and squeezing actively with your legs. Simultaneously increase shoulder pressure to limit their ability to continue creating hip movement. If the entanglement becomes too shallow, consider transitioning to truck position to reset the leg control before returning to twister side control, rather than fighting a losing battle with compromised mechanics."
+      },
+      {
+        "question": "What distinguishes successful submission pursuit from positions lost due to over-aggression?",
+        "answer": "Successful submission pursuit maintains base integrity throughout - the outside leg stays posted, shoulder pressure continues, and the leg hook remains active even while attacking. Over-aggression abandons these control elements in pursuit of the finish, creating openings for escape. Elite practitioners threaten submissions while maintaining 70-80% of their positional control, only fully committing when all prerequisites for finishing are met."
+      },
+      {
+        "question": "How do you create submission dilemmas that force the bottom player into worse positions regardless of their defensive choice?",
+        "answer": "Structure your attacks so each defensive response opens another submission pathway. When they protect against the twister by preventing spinal rotation, their frames often expose the arm for kimura. When they turn in to relieve shoulder pressure, the neck becomes vulnerable for darce or anaconda. When they turn away, they gift back exposure. Constantly threaten multiple chains so no single defensive focus can neutralize your offense."
+      },
+      {
+        "question": "What are the key grip priorities when controlling from twister side control top?",
+        "answer": "The primary grip is the leg hook entanglement - this cannot be compromised. Secondary grips include controlling the near shoulder (either directly or through chest pressure), controlling the near wrist to prevent frames, and potentially securing the chin strap for twister finish attempts. In no-gi, hip positioning often replaces traditional grips, using body placement rather than handles to maintain control."
+      }
+    ]
+  },
   "bottom": {
     "name": "Twister Side Control Bottom",
     "description": "Defend twister side control with systematic escape strategies. Learn frame creation, hip movement, and submission defense techniques with skill-based success rates.",
@@ -84,118 +384,18 @@
       "Energy conservation through efficient movement is critical given the position's high defensive demands",
       "Technical stand-up becomes viable only after creating sufficient upper body separation and partial leg extraction"
     ],
-    "offensive_transitions": [
-      {
-        "technique": "Granby Roll",
-        "target_position": "Half Guard",
-        "success_rates": {
-          "beginner": 15,
-          "intermediate": 30,
-          "advanced": 45
-        }
-      },
-      {
-        "technique": "Technical Stand-up",
-        "target_position": "Standing Position",
-        "success_rates": {
-          "beginner": 10,
-          "intermediate": 25,
-          "advanced": 40
-        }
-      },
-      {
-        "technique": "Hip Escape",
-        "target_position": "Closed Guard",
-        "success_rates": {
-          "beginner": 20,
-          "intermediate": 35,
-          "advanced": 50
-        }
-      },
-      {
-        "technique": "Frame and Shrimp",
-        "target_position": "Open Guard",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 40,
-          "advanced": 55
-        }
-      },
-      {
-        "technique": "Turtle Transition",
-        "target_position": "Turtle",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 45,
-          "advanced": 60
-        }
-      },
-      {
-        "technique": "Rolling to Guard",
-        "target_position": "Half Guard",
-        "success_rates": {
-          "beginner": 18,
-          "intermediate": 33,
-          "advanced": 48
-        }
-      }
-    ],
-    "defensive_responses": [
-      {
-        "technique": "Shoulder Pressure",
-        "target_position": "Twister Side Control Bottom",
-        "success_rate": 60
-      },
-      {
-        "technique": "Hip Pressure",
-        "target_position": "Twister Side Control Bottom",
-        "success_rate": 55
-      },
-      {
-        "technique": "Leg Entanglement",
-        "target_position": "Side Control",
-        "success_rate": 40
-      },
-      {
-        "technique": "Spine Protection",
-        "target_position": "Twister Side Control Bottom",
-        "success_rate": 70
-      },
-      {
-        "technique": "Elbow Escape",
-        "target_position": "Half Guard",
-        "success_rate": 35
-      }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Bridge and Roll",
-        "target_position": "Mount Top",
-        "trigger": "When top player overcommits weight forward while attempting twister setup, creating reversal opportunity"
-      },
-      {
-        "technique": "Underhook Control",
-        "target_position": "Dogfight Position",
-        "trigger": "When top player's shoulder pressure momentarily reduces during leg position adjustment"
-      },
-      {
-        "technique": "Granby Roll",
-        "target_position": "Half Guard",
-        "trigger": "When top player attempts to deepen twister control by moving toward back exposure"
-      }
-    ],
     "decision_tree": [
       {
         "condition": "If top player is actively attacking twister submission with full spinal torque",
         "actions": [
           {
             "technique": "Spine Protection",
-            "target": "Defensive Position",
+            "target": "Twister Side Control Bottom",
             "probability": 80
           },
           {
             "technique": "Tap Out",
-            "target": "Lost by Submission",
+            "target": "game-over",
             "probability": 60
           }
         ]
@@ -220,7 +420,7 @@
         "actions": [
           {
             "technique": "Bridge and Roll",
-            "target": "Mount Top",
+            "target": "Mount",
             "probability": 35
           },
           {
@@ -300,36 +500,22 @@
         "duration": "2 minutes"
       }
     ],
-    "optimal_submission_paths": [
-      {
-        "name": "Survival to Guard Recovery",
-        "path": "Twister Side Control Bottom → Spine Protection → Frame Creation → Leg Extraction → Hip Escape → Half Guard"
-      },
-      {
-        "name": "Technical Stand-up Sequence",
-        "path": "Twister Side Control Bottom → Upper Body Frame → Partial Leg Extraction → Hip Elevation → Technical Stand-up → Standing Position"
-      },
-      {
-        "name": "Granby Roll Escape",
-        "path": "Twister Side Control Bottom → Shoulder Frame → Hip Movement → Granby Roll → Half Guard → Guard Replacement"
-      }
-    ],
     "related_content": [
       {
         "name": "Turtle",
         "relationship": "Common transitional position when achieving partial escape from twister side control"
       },
       {
-        "name": "Side Control Escape",
-        "relationship": "Fundamental escape principles that apply with modifications to twister variant"
+        "name": "Side Control",
+        "relationship": "Traditional position sharing lateral control mechanics with different escape priorities"
       },
       {
         "name": "Granby Roll",
         "relationship": "Key escape technique for creating distance and recovering guard"
       },
       {
-        "name": "Frame Management",
-        "relationship": "Essential defensive principle for creating and maintaining separation"
+        "name": "Half Guard",
+        "relationship": "Common recovery position after successful leg extraction"
       },
       {
         "name": "Hip Escape",
@@ -340,8 +526,8 @@
         "relationship": "Advanced escape option when sufficient upper body separation is achieved"
       },
       {
-        "name": "Submission Defense",
-        "relationship": "General defensive concepts applied specifically to twister mechanics"
+        "name": "Open Guard",
+        "relationship": "Recovery position achievable through successful shrimp escape sequences"
       }
     ],
     "position_metrics": {
@@ -364,398 +550,66 @@
         "description": "Probability of defender finishing submission from bottom (extremely rare)"
       },
       "average_time": "30-90 seconds before escape or submission"
-    }
-  },
-  "top": {
-    "name": "Twister Side Control Top",
-    "description": "Control twister side control from top position with systematic submission chains. Master leg entanglement, shoulder pressure, and finishing mechanics with expert success rates.",
-    "tags": [
-      "offensive position",
-      "side control",
-      "twister system",
-      "submission position",
-      "10th planet"
-    ],
-    "overview": "Twister Side Control from the top represents one of the most submission-oriented control positions in modern no-gi grappling, offering immediate finishing opportunities while maintaining sufficient positional control to prevent escapes. The position exemplifies 10th Planet's philosophy of creating submission-focused positions that bypass traditional positional hierarchies, prioritizing finishing potential over point accumulation.\n\nThe top player in Twister Side Control leverages leg entanglement and shoulder pressure to create a mechanical framework that severely restricts the bottom player's defensive options. Unlike traditional side control where the primary focus is maintaining position and gradually advancing, Twister Side Control assumes an offensive posture from the moment of establishment, with multiple submission chains available and positional advancement serving as secondary objectives. This offensive emphasis requires different skill sets and strategic thinking compared to conventional top control positions.\n\nEstablishing effective Twister Side Control demands precise understanding of the position's mechanical requirements. The leg entanglement must be structured to restrict hip mobility while maintaining the top player's base and balance. Shoulder control must be sufficient to prevent the bottom player from turning in or creating effective frames. The coordination between these control elements creates the positional foundation from which submissions emerge. Experienced practitioners develop sensitivity to these mechanical relationships, understanding how small adjustments in leg positioning or weight distribution dramatically affect both control quality and submission accessibility.\n\nThe position's energy efficiency comes not from sustained pressure like traditional side control, but from structural positioning that creates mechanical disadvantages for the defender. Once properly established, Twister Side Control requires moderate energy expenditure to maintain, as the leg entanglement and shoulder control create a self-sustaining control structure. The primary energy demand comes from pursuing submissions and responding to escape attempts, requiring the top player to remain dynamically engaged rather than simply holding position.\n\nFrom a strategic perspective, Twister Side Control functions as a high-risk, high-reward position. The emphasis on offensive submission attempts necessarily reduces positional stability compared to traditional side control. Top players must accept that aggressive submission pursuit may create escape opportunities, making calculated risk assessment critical. Understanding when to consolidate position versus when to aggressively pursue submissions distinguishes competent practitioners from elite ones. This decision-making becomes particularly important in competition contexts where points and positioning may matter as much as submissions.\n\nThe learning progression for Twister Side Control top is significant, with beginners often struggling to maintain the position while simultaneously pursuing submissions. The coordination required to manage leg hooks, shoulder pressure, and submission mechanics challenges practitioners accustomed to more static control positions. Intermediate practitioners develop better positional maintenance and can threaten submissions with moderate success, though finish rates remain lower than elite practitioners. Advanced players integrate Twister Side Control seamlessly into their overall top game, using it as both a finishing platform and a transitional tool to other dominant positions when submission attempts are defended.",
-    "state_properties": {
-      "point_value": 3,
-      "position_type": "Offensive/Controlling",
-      "risk_level": "Medium",
-      "energy_cost": "Medium",
-      "time_sustainability": "Medium"
     },
-    "state_invariants": [
-      "Top player maintains lateral control position with leg hook entangling bottom player's near leg while their body is positioned perpendicular or at angle to create leverage for spinal attacks and prevent bottom player from turning into them or achieving flat defensive posture",
-      "Top player's weight is distributed between shoulder pressure driving bottom player's near shoulder toward mat and leg positioning that controls and elevates bottom player's hips, creating the mechanical structure necessary for twister-style submissions while maintaining sufficient base to prevent reversal",
-      "Bottom player's mobility is severely restricted by combination of leg entanglement at lower body and shoulder control at upper body, with their spine in rotated position that makes traditional side control escapes ineffective while creating vulnerability to spinal submission attacks"
-    ],
-    "prerequisites": [
-      "Top player has achieved truck position or similar leg entanglement with bottom player facing away",
-      "Top player has successfully transitioned to lateral control while maintaining leg hook around bottom player's near leg",
-      "Bottom player's shoulder is accessible for control and their hips are elevated by leg entanglement creating mechanical foundation for submissions"
-    ],
-    "key_principles": [
-      "Leg entanglement must restrict hip mobility while maintaining top player's base and balance for sustained control",
-      "Shoulder pressure drives bottom player's near shoulder to mat preventing defensive turning and frame creation",
-      "Weight distribution balances between control maintenance and mobility for submission pursuit",
-      "Position prioritizes immediate submission threats over traditional positional advancement",
-      "Multiple submission chains should be pursued simultaneously to create defensive dilemmas",
-      "Calculated risk assessment determines when to consolidate position versus aggressively pursue submissions",
-      "Dynamic engagement required rather than static pressure maintenance"
-    ],
-    "offensive_transitions": [
+    "transitions": [
       {
-        "technique": "Twister Finish",
-        "target_position": "Won by Submission",
-        "success_rates": {
-          "beginner": 20,
-          "intermediate": 35,
-          "advanced": 55
-        }
+        "transition": "Granby Roll",
+        "attempt_probability": 15
       },
       {
-        "technique": "Darce Choke",
-        "target_position": "Won by Submission",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 40,
-          "advanced": 60
-        }
+        "transition": "Technical Stand-up",
+        "attempt_probability": 13
       },
       {
-        "technique": "Anaconda Choke",
-        "target_position": "Won by Submission",
-        "success_rates": {
-          "beginner": 22,
-          "intermediate": 38,
-          "advanced": 58
-        }
+        "transition": "Hip Escape",
+        "attempt_probability": 17
       },
       {
-        "technique": "Kimura",
-        "target_position": "Won by Submission",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 45,
-          "advanced": 65
-        }
+        "transition": "Frame and Shrimp",
+        "attempt_probability": 18
       },
       {
-        "technique": "Transition to Truck",
-        "target_position": "Truck",
-        "success_rates": {
-          "beginner": 40,
-          "intermediate": 55,
-          "advanced": 70
-        }
+        "transition": "Turtle Transition",
+        "attempt_probability": 21
       },
       {
-        "technique": "Back Take Generic",
-        "target_position": "Back Control",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 50,
-          "advanced": 65
-        }
-      },
-      {
-        "technique": "Transition to North-South",
-        "target_position": "North-South",
-        "success_rates": {
-          "beginner": 45,
-          "intermediate": 60,
-          "advanced": 75
-        }
-      },
-      {
-        "technique": "Side Control to Mount",
-        "target_position": "Mount",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 45,
-          "advanced": 60
-        }
-      },
-      {
-        "technique": "Arm Triangle",
-        "target_position": "Won by Submission",
-        "success_rates": {
-          "beginner": 18,
-          "intermediate": 33,
-          "advanced": 50
-        }
-      },
-      {
-        "technique": "Calf Slicer",
-        "target_position": "Won by Submission",
-        "success_rates": {
-          "beginner": 15,
-          "intermediate": 30,
-          "advanced": 48
-        }
+        "transition": "Rolling to Guard",
+        "attempt_probability": 16
       }
     ],
-    "defensive_responses": [
+    "knowledge_assessment": [
       {
-        "technique": "Hip Escape",
-        "target_position": "Half Guard",
-        "success_rate": 25
+        "question": "What is the correct hierarchy of defensive priorities when trapped in twister side control bottom?",
+        "answer": "The defensive hierarchy is: first protect the spine and prevent full rotational torque, second create upper body frames to reduce shoulder pressure, third systematically extract the legs from entanglement, and fourth create sufficient space to re-guard or achieve a neutral position. Attempting to skip steps typically results in submission or transition to worse positions. Each layer must be addressed before the next becomes viable."
       },
       {
-        "technique": "Granby Roll",
-        "target_position": "Closed Guard",
-        "success_rate": 20
+        "question": "Your opponent begins applying rotational torque to your spine - what is your immediate response?",
+        "answer": "Immediately use both hands to block spinal rotation by grabbing your own knee or thigh on the side being rotated, preventing the twister mechanics from completing. This takes priority over all other defensive concerns. Only after neutralizing the immediate spinal threat should you address other positional problems. Do not attempt leg extraction or escape while under active spinal attack."
       },
       {
-        "technique": "Technical Stand-up",
-        "target_position": "Standing Position",
-        "success_rate": 15
+        "question": "What type of frames should you build and where should they be positioned?",
+        "answer": "Build structural frames with elbows bent and connected to your hip, creating barriers rather than muscular pushing. The primary frame goes against the opponent's shoulder or hip to prevent them from consolidating weight. Never extend arms straight as this creates vulnerability to arm attacks and fails to create meaningful separation. Frames should redirect force rather than try to push the opponent away."
       },
       {
-        "technique": "Frame and Shrimp",
-        "target_position": "Open Guard",
-        "success_rate": 22
+        "question": "Why is turning away from the top player a critical error even when it relieves shoulder pressure?",
+        "answer": "Turning away gifts back exposure and actually deepens the twister setup by increasing spinal rotation - exactly what the submission requires. The momentary relief from shoulder pressure is replaced by worse positional vulnerability and accelerated submission mechanics. Always maintain facing toward the top player's hips while using frames to create separation rather than turning your back."
       },
       {
-        "technique": "Turtle Transition",
-        "target_position": "Turtle",
-        "success_rate": 30
+        "question": "How should you manage energy expenditure when defending twister side control?",
+        "answer": "Use small adjustments and strategic timing rather than constant muscular effort or explosive escape attempts. Failed explosive escapes leave you exhausted and more vulnerable. The goal is gradual improvement through incremental gains while conserving energy for the final escape sequence when opportunity presents. Move efficiently, time your efforts with the opponent's movements, and accept that escape may require extended defensive sequences."
       },
       {
-        "technique": "Bridge and Roll",
-        "target_position": "Mount",
-        "success_rate": 12
+        "question": "When does technical stand-up become a viable escape option from twister side control bottom?",
+        "answer": "Technical stand-up becomes viable only after creating sufficient upper body separation through effective framing and achieving partial leg extraction to restore some hip mobility. Attempting technical stand-up while the opponent maintains full control will fail and potentially worsen your position. The escape requires sequential success: frames first, then leg extraction, then the technical stand-up becomes possible."
+      },
+      {
+        "question": "What timing window should you look for when attempting the granby roll escape?",
+        "answer": "The optimal timing for granby roll is when the top player attempts to deepen their control by moving toward back exposure or when they shift weight to pursue a submission. This movement creates momentary gaps in their control structure. The granby uses their forward momentum against them, rolling away from the pressure rather than into it. Never granby when the opponent has fully consolidated control."
+      },
+      {
+        "question": "How do you sequence the leg extraction process without creating worse positions?",
+        "answer": "Leg extraction must be coordinated with upper body frames - never attempt to extract legs while the opponent has full shoulder control, as this often deepens the entanglement. First establish frames to limit their ability to follow your hip movement, then systematically work to unhook one leg at a time using hip extension and small circular movements. Maintain defensive posture throughout extraction rather than rushing to complete escape."
       }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Darce Choke",
-        "target_position": "Won by Submission",
-        "trigger": "When bottom player attempts to turn into top player or create frames, exposing neck"
-      },
-      {
-        "technique": "Back Take Generic",
-        "target_position": "Back Control",
-        "trigger": "When bottom player turns away to escape shoulder pressure, gifting back exposure"
-      },
-      {
-        "technique": "Kimura",
-        "target_position": "Won by Submission",
-        "trigger": "When bottom player extends near arm attempting to frame or post, creating arm isolation opportunity"
-      },
-      {
-        "technique": "Transition to Truck",
-        "target_position": "Truck",
-        "trigger": "When bottom player begins successful leg extraction, top player can follow and re-establish truck position"
-      }
-    ],
-    "decision_tree": [
-      {
-        "condition": "If bottom player's spine is fully rotated and shoulder is driven to mat with secure leg entanglement",
-        "actions": [
-          {
-            "technique": "Twister Finish",
-            "target": "Won by Submission",
-            "probability": 65
-          },
-          {
-            "technique": "Calf Slicer",
-            "target": "Won by Submission",
-            "probability": 45
-          }
-        ]
-      },
-      {
-        "condition": "If bottom player attempts to turn into top player to create frames or relieve pressure",
-        "actions": [
-          {
-            "technique": "Darce Choke",
-            "target": "Won by Submission",
-            "probability": 70
-          },
-          {
-            "technique": "Anaconda Choke",
-            "target": "Won by Submission",
-            "probability": 65
-          }
-        ]
-      },
-      {
-        "condition": "If bottom player turns away exposing their back to escape shoulder pressure",
-        "actions": [
-          {
-            "technique": "Back Take Generic",
-            "target": "Back Control",
-            "probability": 75
-          },
-          {
-            "technique": "Transition to Truck",
-            "target": "Truck",
-            "probability": 70
-          }
-        ]
-      },
-      {
-        "condition": "If bottom player successfully creates frames and begins extracting legs",
-        "actions": [
-          {
-            "technique": "Transition to North-South",
-            "target": "North-South",
-            "probability": 60
-          },
-          {
-            "technique": "Side Control to Mount",
-            "target": "Mount",
-            "probability": 55
-          }
-        ]
-      },
-      {
-        "condition": "If bottom player extends near arm to frame or post during escape attempt",
-        "actions": [
-          {
-            "technique": "Kimura",
-            "target": "Won by Submission",
-            "probability": 68
-          },
-          {
-            "technique": "Arm Triangle",
-            "target": "Won by Submission",
-            "probability": 55
-          }
-        ]
-      }
-    ],
-    "common_errors": [
-      {
-        "error": "Overcommitting weight forward in pursuit of twister submission while neglecting base maintenance",
-        "consequence": "Bottom player can execute bridge and roll reversal or escape to turtle by exploiting compromised balance",
-        "correction": "Maintain wide base with outside leg posted while pursuing twister, keeping weight distributed to prevent reversals"
-      },
-      {
-        "error": "Focusing exclusively on twister setup while ignoring other submission opportunities that present",
-        "consequence": "Defender effectively defends single threat and eventually escapes while top player tunnels on unavailable submission",
-        "correction": "Recognize and pursue multiple submission chains including darce, anaconda, and kimura as opportunities present themselves"
-      },
-      {
-        "error": "Allowing leg entanglement to become loose or shallow during submission pursuit",
-        "consequence": "Bottom player extracts legs and escapes to guard or standing position before submission can be finished",
-        "correction": "Continuously maintain tight leg hook with active squeeze, adjusting hook position as needed during submission attempts"
-      },
-      {
-        "error": "Releasing shoulder pressure prematurely when transitioning between submission attempts",
-        "consequence": "Defender creates frames and space, significantly improving their defensive position and escape probability",
-        "correction": "Maintain constant shoulder pressure throughout all transitions, using body weight rather than arm strength to control shoulder"
-      },
-      {
-        "error": "Attempting twister finish without first achieving proper spinal rotation and shoulder control",
-        "consequence": "Submission lacks necessary mechanical leverage and defender can defend comfortably while working escape",
-        "correction": "Ensure all positional prerequisites are met before attempting finish: spine rotated, shoulder to mat, legs controlled, proper grips established"
-      },
-      {
-        "error": "Remaining static in position hoping bottom player will make defensive error rather than actively pursuing submissions",
-        "consequence": "Defender systematically improves position without pressure, eventually achieving escape through methodical defense",
-        "correction": "Constantly threaten submissions and position improvements to create defensive dilemmas and time pressure on defender"
-      }
-    ],
-    "training_drills": [
-      {
-        "name": "Progressive Twister Setup",
-        "description": "Start from established truck position. Partner provides 50% resistance while top player practices transitioning to twister side control and setting up twister submission. Focus on maintaining control through transition and achieving proper mechanical positioning. Increase resistance as technique improves.",
-        "duration": "5 minutes"
-      },
-      {
-        "name": "Submission Chain Flow",
-        "description": "Begin in twister side control. Partner defends specific submissions as called out (twister, darce, kimura). Top player must recognize defense and flow to appropriate alternative submission. Emphasizes recognition of defensive patterns and smooth transitions between submission threats without losing control.",
-        "duration": "4 minutes"
-      },
-      {
-        "name": "Control Maintenance Under Pressure",
-        "description": "Establish twister side control while partner uses full resistance attempting various escapes. Top player's goal is maintaining position for full duration while threatening submissions. Develops base maintenance, weight distribution, and ability to maintain control against explosive escape attempts.",
-        "duration": "3 minutes"
-      },
-      {
-        "name": "Entry Sequences",
-        "description": "Start from various positions (truck, side control, failed back take). Partner provides moderate resistance while top player practices different pathways to establish twister side control. Emphasizes recognizing opportunities and executing smooth entries from diverse starting positions.",
-        "duration": "5 minutes"
-      }
-    ],
-    "optimal_submission_paths": [
-      {
-        "name": "Direct Twister Path",
-        "path": "Twister Side Control Top → Spinal Rotation → Shoulder Control → Leg Entanglement → Twister Finish → Won by Submission"
-      },
-      {
-        "name": "Darce Counter Attack",
-        "path": "Twister Side Control Top → Bottom Player Turns In → Darce Setup → Darce Choke → Won by Submission"
-      },
-      {
-        "name": "Back Take Sequence",
-        "path": "Twister Side Control Top → Bottom Player Turns Away → Back Take Generic → Back Control → Rear Naked Choke → Won by Submission"
-      },
-      {
-        "name": "Kimura Chain",
-        "path": "Twister Side Control Top → Arm Isolation → Kimura Control → Kimura Finish → Won by Submission"
-      },
-      {
-        "name": "Truck Return Path",
-        "path": "Twister Side Control Top → Leg Extraction Attempt → Transition to Truck → Calf Slicer → Won by Submission"
-      }
-    ],
-    "related_content": [
-      {
-        "name": "Truck",
-        "relationship": "Primary entry position and related control structure within twister system"
-      },
-      {
-        "name": "Twister Control",
-        "relationship": "Advanced progression when achieving full twister setup mechanics"
-      },
-      {
-        "name": "Darce Choke",
-        "relationship": "High-percentage submission option when bottom player turns into top player"
-      },
-      {
-        "name": "Anaconda Choke",
-        "relationship": "Alternative front choke option from similar positional structure"
-      },
-      {
-        "name": "Back Control",
-        "relationship": "Common transition when bottom player exposes back during escape attempts"
-      },
-      {
-        "name": "Kimura",
-        "relationship": "Submission option when bottom player extends arm to frame"
-      },
-      {
-        "name": "Twister System",
-        "relationship": "Broader systematic framework encompassing this position and related techniques"
-      },
-      {
-        "name": "Side Control",
-        "relationship": "Traditional variant that shares lateral control but differs in submission emphasis"
-      }
-    ],
-    "position_metrics": {
-      "retention_rate": {
-        "beginner": 50,
-        "intermediate": 65,
-        "advanced": 80,
-        "description": "Percentage of time top player maintains twister side control without losing position"
-      },
-      "advancement_probability": {
-        "beginner": 35,
-        "intermediate": 50,
-        "advanced": 70,
-        "description": "Probability of advancing to better position or achieving submission"
-      },
-      "submission_probability": {
-        "beginner": 25,
-        "intermediate": 40,
-        "advanced": 60,
-        "description": "Probability of finishing submission directly from this position"
-      },
-      "average_time": "45-120 seconds before submission or position change"
-    }
+    ]
   }
 }

@@ -21,37 +21,37 @@ description: "Defend against intense shoulder pressure in Shoulder of Justice Bo
     {
       "@type": "HowToStep",
       "name": "Execute Shrimp Escape",
-      "text": "From this position, execute Shrimp Escape to transition to Half Guard. Success rate for advanced practitioners: 42%.",
+      "text": "From this position, attempt Shrimp Escape. This technique is attempted in 19% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Elbow Escape",
-      "text": "From this position, execute Elbow Escape to transition to Half Guard. Success rate for advanced practitioners: 48%.",
+      "text": "From this position, attempt Elbow Escape. This technique is attempted in 21% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Frame and Shrimp",
-      "text": "From this position, execute Frame and Shrimp to transition to Closed Guard. Success rate for advanced practitioners: 38%.",
+      "text": "From this position, attempt Frame and Shrimp. This technique is attempted in 17% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bridge and Roll",
-      "text": "From this position, execute Bridge and Roll to transition to Side Control. Success rate for advanced practitioners: 25%.",
+      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 11% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Technical Standup",
-      "text": "From this position, execute Technical Standup to transition to Standing Position. Success rate for advanced practitioners: 35%.",
+      "text": "From this position, attempt Technical Standup. This technique is attempted in 16% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Re-Guard",
-      "text": "From this position, execute Re-Guard to transition to Open Guard. Success rate for advanced practitioners: 36%.",
+      "name": "Execute Hip Escape",
+      "text": "From this position, attempt Hip Escape. This technique is attempted in 16% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -211,76 +211,18 @@ From the bottom perspective, your primary objective is to relieve the shoulder p
 
 ## Available Escapes
 
-### [[Shrimp Escape]] → [[Half Guard]]
+### [[Shrimp Escape]] (19% of attempts)
 
-**Success Rates:**
-- Beginner: 18%
-- Intermediate: 28%
-- Advanced: 42%
+### [[Elbow Escape]] (21% of attempts)
 
-### [[Elbow Escape]] → [[Half Guard]]
+### [[Frame and Shrimp]] (17% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 32%
-- Advanced: 48%
+### [[Bridge and Roll]] (11% of attempts)
 
-### [[Frame and Shrimp]] → [[Closed Guard]]
+### [[Technical Standup]] (16% of attempts)
 
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 25%
-- Advanced: 38%
+### [[Hip Escape]] (16% of attempts)
 
-### [[Bridge and Roll]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 8%
-- Intermediate: 15%
-- Advanced: 25%
-
-### [[Technical Standup]] → [[Standing Position]]
-
-**Success Rates:**
-- Beginner: 12%
-- Intermediate: 22%
-- Advanced: 35%
-
-### [[Re-Guard]] → [[Open Guard]]
-
-**Success Rates:**
-- Beginner: 14%
-- Intermediate: 24%
-- Advanced: 36%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Kimura from Side Control]]** → [[Kimura Control]] (Opponent Success: 65%)
-- **[[Americana from Side Control]]** → [[Americana Control]] (Opponent Success: 58%)
-- **[[Transition to Mount]]** → [[Mount]] (Opponent Success: 72%)
-- **[[Transition to North-South]]** → [[North-South]] (Opponent Success: 78%)
-- **[[Arm Triangle]]** → [[Armbar Control]] (Opponent Success: 52%)
-- **[[Side Control to Mount]]** → [[Knee on Belly]] (Opponent Success: 62%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Shrimp Escape]]** → [[Half Guard]]
-  - Opponent shifts weight to adjust shoulder pressure angle creating momentary relief
-- **[[Frame and Shrimp]]** → [[Closed Guard]]
-  - Opponent attempts to transition to mount exposing brief window for hip escape
-- **[[Bridge and Roll]]** → [[Side Control]]
-  - Opponent raises hips or shifts base to threaten submission creating reversal opportunity
 
 
 </section>
@@ -301,7 +243,7 @@ From the bottom perspective, your primary objective is to relieve the shoulder p
 
 **If opponent begins stepping over for mount transition creating space:**
 - Execute **[[Elbow Escape]]** → [[Half Guard]] (Probability: 42%)
-- Execute **[[Re-Guard]]** → [[Open Guard]] (Probability: 32%)
+- Execute **[[Hip Escape]]** → [[Open Guard]] (Probability: 32%)
 
 
 
@@ -357,7 +299,7 @@ From the bottom perspective, your primary objective is to relieve the shoulder p
 
 ### Pressure Tolerance and Breathing Drill
 
-Partner establishes full Shoulder of Justice Bottom position with moderate pressure. Practice maintaining calm breathing through nose for 2-minute intervals while making no escape attempts. Focus entirely on composure, breathing rhythm, and not making reactive movements. Gradually increase pressure intensity over multiple rounds.
+Partner establishes full Shoulder of Justice position with moderate pressure. Practice maintaining calm breathing through nose for 2-minute intervals while making no escape attempts. Focus entirely on composure, breathing rhythm, and not making reactive movements. Gradually increase pressure intensity over multiple rounds.
 
 **Duration**: 6 rounds x 2 minutes
 
@@ -380,25 +322,39 @@ Partner increases shoulder pressure incrementally. You must avoid all reactive m
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Guard recovery via elbow escape
+## Test Your Knowledge
 
-`Shoulder of Justice Bottom → Frame creation → Elbow Escape → Half Guard → Guard Recovery`
+**Q1**: Why is breathing through your nose critical when trapped in Shoulder of Justice Bottom?
+**A**: Breathing through your nose maintains composure and prevents panic reactions that lead to desperate defensive movements. Jaw pressure naturally makes you want to breathe through your mouth, but this triggers a stress response that accelerates fatigue and causes reactive errors like extending your near arm or bringing your far arm across your face. Nasal breathing activates the parasympathetic nervous system, helping you stay calm and think systematically about escape timing.
 
-### Space creation to closed guard
+**Q2**: Your opponent increases shoulder pressure - what is the first thing you should NOT do?
+**A**: Do not extend your near arm to push their shoulder away from your face. This is the most common reactive error and immediately exposes your arm to a high-percentage kimura attack. The opponent is specifically applying pressure to provoke this reaction. Instead, keep your near arm tight to your body and create micro-frames with your forearm without any arm extension.
 
-`Shoulder of Justice Bottom → Micro-frame → Shrimp Escape → Frame and Shrimp → Closed Guard`
+**Q3**: What is the proper timing for attempting a shrimp escape from this position?
+**A**: Time your shrimp to coincide with opponent's weight shifts, not during maximum pressure application. Wait for moments when they adjust their shoulder angle, transition toward submissions, or shift their base. Attempting explosive shrimps while they have maximum pressure and stable base wastes energy, achieves no positional improvement, and creates fatigue that worsens your situation. The window opens when their weight moves, even momentarily.
 
-### Technical standup to neutral
+**Q4**: Why must your far arm stay tight to your body in this position?
+**A**: Bringing your far arm across your body to shield your face from shoulder pressure creates the perfect arm triangle setup. The opponent can immediately trap your arm across your own neck with their head and shoulder, creating a choking mechanism. Keep your far arm tight to your far-side ribs and never bring it across your body's centerline, even when the pressure is extremely uncomfortable.
 
-`Shoulder of Justice Bottom → Bridge on pressure shift → Technical Standup → Standing Position`
+**Q5**: What are the three escape priorities in order from Shoulder of Justice Bottom?
+**A**: First, relieve the shoulder pressure through proper positioning and micro-frames. Second, create space through well-timed shrimping when opponent's weight shifts. Third, recover guard by inserting knee shields or returning to closed guard. Attempting to recover guard without first relieving pressure and creating space results in failed escapes and wasted energy.
+
+**Q6**: Your opponent shifts weight toward your head to increase pressure - what escape opportunity does this create?
+**A**: When opponent shifts weight toward your head, their hips become lighter on your hip line, creating a potential bridge and roll opportunity. Their forward weight shift also makes them vulnerable if you can time a coordinated bridge that disrupts their base. Additionally, you may be able to sneak your hips out toward your feet for a technical standup attempt if you can create the initial angle.
+
+**Q7**: What happens if you turn your face into the pressure to relieve jaw discomfort?
+**A**: Turning into the pressure opens north-south transition pathways and potential back-take opportunities for your opponent. They can follow your turn, spin to north-south control, or take your back as you expose it. Instead, maintain your head turned away from the pressure while working on hip escape and space creation - accept the jaw discomfort as temporary.
+
+**Q8**: How do you create effective frames without exposing yourself to submissions?
+**A**: Create micro-frames using your forearms positioned close to your body rather than extending your arms fully. Your near-side elbow should stay tight to your ribs with your forearm creating a small wedge. These subtle frames maintain distance without extending vulnerable limbs that can be attacked. The goal is structural resistance through bone alignment, not muscular pushing that fatigues you and creates openings.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -423,13 +379,11 @@ Partner increases shoulder pressure incrementally. You must avoid all reactive m
 - **[[Side Control]]** - Parent category - Shoulder of Justice Bottom is specialized defensive variation
 - **[[Half Guard]]** - Primary escape target for guard recovery attempts
 - **[[Closed Guard]]** - Secondary escape target via full guard recovery
-- **[[Kimura Control]]** - Primary threat when near arm is extended for relief
-- **[[Americana Control]]** - Secondary threat when near arm is isolated
+- **[[Kimura Trap]]** - Primary threat when near arm is extended for relief
 - **[[North-South]]** - Position advancement threat when turning into pressure
 - **[[Mount]]** - Position advancement threat when shrimping creates space
-- **[[Shoulder Pressure]]** - Core concept - fundamental pressure principle being defended against
-- **[[Side Control Escapes]]** - Core concept - general escape framework applicable to this position
-- **[[Frame Creation]]** - Core concept - essential defensive mechanism for pressure relief
+- **[[Shrimp Escape]]** - Primary escape technique from this position
+- **[[Elbow Escape]]** - Secondary escape technique for guard recovery
 
 
 </section>

@@ -21,37 +21,37 @@ description: "Master Invisible Collar from top position with grip concealment ta
     {
       "@type": "HowToStep",
       "name": "Execute Cross Collar Choke Finish",
-      "text": "From this position, execute Cross Collar Choke Finish to transition to Won by Submission. Success rate for advanced practitioners: 88%.",
+      "text": "From this position, attempt Cross Collar Choke Finish. This technique is attempted in 14% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rear Naked Choke",
-      "text": "From this position, execute Rear Naked Choke to transition to Won by Submission. Success rate for advanced practitioners: 85%.",
+      "text": "From this position, attempt Rear Naked Choke. This technique is attempted in 14% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Armbar from Back with Legs",
-      "text": "From this position, execute Armbar from Back with Legs to transition to Armbar Control. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Armbar from Back with Legs. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Crucifix",
-      "text": "From this position, execute Transition to Crucifix to transition to Crucifix. Success rate for advanced practitioners: 70%.",
+      "name": "Execute Aoki Lock to Crucifix",
+      "text": "From this position, attempt Aoki Lock to Crucifix. This technique is attempted in 11% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bow and Arrow Choke",
-      "text": "From this position, execute Bow and Arrow Choke to transition to Won by Submission. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Bow and Arrow Choke. This technique is attempted in 11% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Clock Choke",
-      "text": "From this position, execute Clock Choke to transition to Won by Submission. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Clock Choke. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -214,92 +214,22 @@ Success in invisible collar top requires coordinating upper body attacks with lo
 
 ## Available Attacks
 
-### [[Cross Collar Choke Finish]] → [[Won by Submission]]
+### [[Cross Collar Choke Finish]] (14% of attempts)
 
-**Success Rates:**
-- Beginner: 60%
-- Intermediate: 75%
-- Advanced: 88%
+### [[Rear Naked Choke]] (14% of attempts)
 
-### [[Rear Naked Choke]] → [[Won by Submission]]
+### [[Armbar from Back with Legs]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 55%
-- Intermediate: 70%
-- Advanced: 85%
+### [[Aoki Lock to Crucifix]] (11% of attempts)
 
-### [[Armbar from Back with Legs]] → [[Armbar Control]]
+### [[Bow and Arrow Choke]] (11% of attempts)
 
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 60%
-- Advanced: 75%
+### [[Clock Choke]] (10% of attempts)
 
-### [[Transition to Crucifix]] → [[Crucifix]]
+### [[Back Control Maintenance]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Body Triangle Lock]] (13% of attempts)
 
-### [[Bow and Arrow Choke]] → [[Won by Submission]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-### [[Clock Choke]] → [[Won by Submission]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[Back Control Maintenance]] → [[Back Control]]
-
-**Success Rates:**
-- Beginner: 70%
-- Intermediate: 80%
-- Advanced: 90%
-
-### [[Body Triangle Lock]] → [[Body Triangle]]
-
-**Success Rates:**
-- Beginner: 50%
-- Intermediate: 65%
-- Advanced: 78%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Hand Fighting to Remove Collar Grip]]** → [[Back Control]] (Opponent Success: 35%)
-- **[[Chin Tuck and Neck Defense]]** → [[Back Control]] (Opponent Success: 40%)
-- **[[Hip Escape Attempt]]** → [[Half Guard]] (Opponent Success: 25%)
-- **[[Rolling Escape]]** → [[Open Guard]] (Opponent Success: 20%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Deepen Collar Grip and Finish]]** → [[Won by Submission]]
-  - Opponent attempts to remove grip with hands, creating distraction
-- **[[Switch to Rear Naked Choke]]** → [[Won by Submission]]
-  - Opponent successfully defends collar by tucking chin aggressively
-- **[[Transition to Crucifix]]** → [[Crucifix]]
-  - Opponent turns into the collar grip side attempting to relieve pressure
-- **[[Insert Second Hook]]** → [[Body Triangle]]
-  - Opponent attempts to remove existing hook with hand or hip movement
-- **[[Armbar from Back]]** → [[Armbar Control]]
-  - Opponent extends arm to defend collar or remove grip
 
 
 </section>
@@ -309,24 +239,24 @@ Success in invisible collar top requires coordinating upper body attacks with lo
 ## Decision Making from This Position
 
 **If opponent is unaware of invisible collar and not defending the grip:**
-- Execute **[[Continue Deepening Collar Grip]]** → [[Won by Submission]] (Probability: 80%)
-- Execute **[[Finish Collar Choke]]** → [[Won by Submission]] (Probability: 75%)
+- Execute **[[Continue Deepening Collar Grip]]** → [[game-over]] (Probability: 80%)
+- Execute **[[Finish Collar Choke]]** → [[game-over]] (Probability: 75%)
 
 
 **If opponent recognizes threat and begins hand fighting the collar grip:**
-- Execute **[[Switch to Rear Naked Choke]]** → [[Won by Submission]] (Probability: 65%)
-- Execute **[[Transition to Crucifix]]** → [[Crucifix]] (Probability: 55%)
+- Execute **[[Switch to Rear Naked Choke]]** → [[game-over]] (Probability: 65%)
+- Execute **[[Aoki Lock to Crucifix]]** → [[Crucifix]] (Probability: 55%)
 - Execute **[[Attack Extended Arm with Armbar]]** → [[Armbar Control]] (Probability: 60%)
 
 
 **If opponent turns into the collar side attempting to relieve pressure:**
 - Execute **[[Follow with Crucifix Entry]]** → [[Crucifix]] (Probability: 70%)
-- Execute **[[Tighten Collar Choke with Rotation]]** → [[Won by Submission]] (Probability: 68%)
+- Execute **[[Tighten Collar Choke with Rotation]]** → [[game-over]] (Probability: 68%)
 
 
 **If opponent successfully tucks chin and defends neck:**
 - Execute **[[Transition to Armbar from Back]]** → [[Armbar Control]] (Probability: 58%)
-- Execute **[[Setup Bow and Arrow Choke]]** → [[Won by Submission]] (Probability: 52%)
+- Execute **[[Setup Bow and Arrow Choke]]** → [[game-over]] (Probability: 52%)
 - Execute **[[Maintain Back Control and Reset]]** → [[Back Control]] (Probability: 75%)
 
 
@@ -403,33 +333,39 @@ From invisible collar position, create three-way dilemma: collar choke, rear nak
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Direct collar choke finish
+## Test Your Knowledge
 
-`Back Control → Invisible Collar Top → Cross Collar Choke → Won by Submission`
+**Q1**: How do you maintain the invisible collar grip when your opponent starts aggressively hand fighting your choking arm?
+**A**: Keep your elbow tight to your body and use your seatbelt arm to control their defending hand. Rather than fighting grip-to-grip, use your chest pressure to pin their shoulders while incrementally deepening your collar penetration during moments when they shift focus to hook defense. The key is patience—every time they move one hand to address another threat, advance your collar depth slightly.
 
-### Collar to RNC transition path
+**Q2**: What are the essential grips for maintaining invisible collar position?
+**A**: The primary grip is the deep collar grip with all four fingers inside the gi material, knuckles pressed against the opponent's neck with thumb on the outside of the collar. The secondary grip is the seatbelt underhook that controls the far shoulder. Both grips work together—the seatbelt prevents forward escape and creates the platform for collar grip maintenance and eventual finishing pressure.
 
-`Back Control → Invisible Collar Top → Opponent Defends Collar → Rear Naked Choke → Won by Submission`
+**Q3**: Your opponent begins bridging explosively while you have invisible collar established—what adjustment prevents them from creating escape space?
+**A**: Drop your hips lower and drive your chest weight forward into their upper back during the bridge. Use your hooks actively by driving your heels toward their hips to counter the upward momentum. The bridge actually helps you if you ride it correctly—their movement can be used to sink your hooks deeper and tighten your chest-to-back connection rather than create separation.
 
-### Armbar conversion path
+**Q4**: What are the grip priorities when transitioning from seatbelt to invisible collar?
+**A**: First, ensure your seatbelt underhook is secure and controlling the far shoulder. Second, begin walking your over-hook hand toward the collar in small increments while opponent focuses elsewhere. Third, achieve thumb-outside collar contact before committing fingers inside. Fourth, drive fingers deep with gradual penetration rather than sudden movement. Never sacrifice seatbelt integrity for collar depth—the seatbelt maintains position while collar develops.
 
-`Back Control → Invisible Collar Top → Opponent Extends Arm to Defend → Armbar from Back with Legs → Won by Submission`
+**Q5**: How do you apply finishing pressure from invisible collar without telegraphing the choke?
+**A**: The finish comes from rotating your choking forearm toward your own chest while simultaneously pulling your elbow toward your hip. This creates a tightening effect that compresses the carotid arteries. Avoid the common mistake of pulling the collar away from the neck—instead, fold the gi material against the neck and rotate. The pressure should feel like a gradual squeeze rather than a sudden jerk.
 
-### Crucifix transition path
+**Q6**: Your opponent successfully tucks their chin tightly—how do you recover offensive momentum?
+**A**: A strong chin tuck opens the armbar pathway because they must commit both hands to defending the collar, exposing their arms. You can also transition to bow and arrow by grabbing their far lapel and rotating to the armbar side while maintaining collar control. Alternatively, maintain your position and wait—the chin tuck is exhausting and their defense will eventually fatigue, allowing you to work back to the choke.
 
-`Back Control → Invisible Collar Top → Opponent Turns Into Grip → Crucifix → Choke from Crucifix → Won by Submission`
+**Q7**: What weight distribution maintains invisible collar stability while preventing escape?
+**A**: Keep approximately 70% of your weight driving forward through your chest into their upper back and shoulders. Your hips should be slightly lower than theirs to prevent them from creating rotational momentum. Avoid sitting too high on their back which allows them to sit back into you. Your hooks provide lateral stability while your chest pressure handles forward-backward control.
 
-### Bow and arrow setup path
-
-`Back Control → Invisible Collar Top → Opponent Defends Neck → Bow and Arrow Choke → Won by Submission`
+**Q8**: How do you recover position if your opponent partially removes one hook while you have invisible collar?
+**A**: Immediately bring your freed leg over to establish a body triangle if possible, or replant the hook from a different angle before they can turn completely. Use your collar grip to prevent their rotation—they cannot turn into you if you maintain forward collar pressure. If they create enough space to threaten a full escape, prioritize maintaining back control over finishing the collar choke by transitioning to seat belt and resetting your hooks.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -458,7 +394,6 @@ From invisible collar position, create three-way dilemma: collar choke, rear nak
 - **[[Armbar from Back with Legs]]** - Alternative submission when opponent extends arms to defend
 - **[[Bow and Arrow Choke]]** - Advanced variation using invisible collar grip mechanics
 - **[[Body Triangle]]** - Enhanced control position often combined with invisible collar
-- **[[Back Attack System]]** - Complete system incorporating invisible collar as key component
 
 
 </section>

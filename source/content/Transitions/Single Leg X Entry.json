@@ -11,8 +11,6 @@
     "sweep_setup",
     "modern_guard"
   ],
-  "starting_position": "Seated Guard",
-  "ending_position": "Single Leg X-Guard",
   "success_rates": {
     "beginner": 30,
     "intermediate": 50,
@@ -257,6 +255,24 @@
     {
       "name": "Deep Half Entry",
       "relationship": "Defensive transition—option when opponent sprawls heavily on Single Leg X entry"
+    }
+  ],
+  "from_position": "Seated Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Single Leg X-Guard/Bottom",
+      "probability": 70,
+      "result": "success"
+    },
+    {
+      "to": "Seated Guard/Bottom",
+      "probability": 20,
+      "result": "failure"
+    },
+    {
+      "to": "Seated Guard/Top",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

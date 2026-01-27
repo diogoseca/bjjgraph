@@ -11,8 +11,6 @@
     "darce",
     "no-gi"
   ],
-  "starting_position": "Front Headlock",
-  "ending_position": "D'arce Control",
   "success_rates": {
     "beginner": 30,
     "intermediate": 45,
@@ -276,6 +274,24 @@
     {
       "name": "Front Headlock Series",
       "relationship": "System overview"
+    }
+  ],
+  "from_position": "Front Headlock/Top",
+  "outcomes": [
+    {
+      "to": "D'arce Control/Top",
+      "probability": 60,
+      "result": "success"
+    },
+    {
+      "to": "Front Headlock/Top",
+      "probability": 30,
+      "result": "failure"
+    },
+    {
+      "to": "Front Headlock/Bottom",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

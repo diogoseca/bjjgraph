@@ -249,6 +249,31 @@
       "question": "What training restriction is mandatory regarding belt rank for spine lock practice, and what is the reasoning?",
       "answer": "Spine locks should be restricted to minimum blue belt practitioners with direct supervision. This restriction exists because the technique requires advanced positional awareness, body control, and safety judgment that white belts typically haven't developed. The consequences of error are severe enough that foundational skills and safety culture must be firmly established before practicing spinal compression techniques.",
       "safety_critical": true
+    },
+    {
+      "question": "Your opponent's leg control starts slipping as you apply compression - what adjustment maintains the finish while preserving safety?",
+      "answer": "If leg control begins slipping, immediately pause compression pressure and work to re-establish the Truck position. Use your free hand to reinforce leg control while maintaining steady (not increasing) pressure. If the leg cannot be secured, abandon the spine lock entirely and transition to an alternative attack such as the calf slicer or back control. Never chase a spine lock with deteriorating positional control, as uncontrolled pressure with compromised position dramatically increases injury risk.",
+      "safety_critical": false
+    },
+    {
+      "question": "What physical indicators suggest your opponent is approaching their breaking point, and how should you respond in training versus competition?",
+      "answer": "Physical indicators include sudden changes in breathing patterns, muscular tension spikes throughout the body, involuntary vocalizations, and cessation of defensive movement. In training, these signals should prompt immediate pressure reduction and verbal check-in with your partner - the goal is recognizing the position, not forcing the tap. In competition, maintain controlled pressure while watching for tap signals, but never apply sudden increases even when feeling close to the finish.",
+      "safety_critical": true
+    },
+    {
+      "question": "How does rotational control contribute to the spine lock's effectiveness, and what happens if you lose it during application?",
+      "answer": "Rotational control prevents the opponent from aligning their spine and alleviating compression pressure. The twisted position compromises their core strength and breathing, accelerating the submission. If rotational control is lost, the opponent can turn into you to reduce spinal curvature, making the technique ineffective. When rotation escapes, you have two options: immediately re-establish rotation through leg and hip control adjustments, or transition to a different attack like the calf slicer that doesn't require the same rotational constraint.",
+      "safety_critical": false
+    },
+    {
+      "question": "What distinguishes the spine lock from the Twister in terms of finishing mechanics and injury risk profile?",
+      "answer": "The Twister combines spinal rotation with cervical (neck) cranking, creating torque from the head downward through the spine. The spine lock focuses on lumbar compression through hip pressure without the cervical rotation component. The Twister's injury risk concentrates on the cervical spine and neck structures, while the spine lock primarily threatens the lumbar vertebrae and intervertebral discs. Both require extreme caution, but the spine lock's injury mechanism is more focused on compression force rather than rotational torque, making the finish feel different for both attacker and defender.",
+      "safety_critical": false
+    },
+    {
+      "question": "In competition, how do you determine when to commit fully to the spine lock finish versus transitioning to an alternative submission?",
+      "answer": "Commit to the spine lock when you have secure leg control, proper hip positioning over the lumbar spine, and your opponent is defending passively without creating significant movement. Transition to alternatives when: the opponent is generating explosive escapes that compromise control, their flexibility prevents effective compression, or leg control is deteriorating. The calf slicer and back take are primary alternatives that maintain offensive pressure without the same positional requirements. Recognizing these decision points quickly prevents wasted energy and keeps you in offensive cycles.",
+      "safety_critical": false
     }
   ],
   "training_progressions_and_safety_protocols": [
@@ -301,7 +326,6 @@
     "Turtle",
     "Back Control",
     "Crucifix",
-    "Game Over",
     "Rodeo Ride",
     "Twister Side Control"
   ],
@@ -333,14 +357,6 @@
       "relationship": "Common starting position for Truck entry and spine lock sequence"
     },
     {
-      "name": "Twister System",
-      "relationship": "Overarching system that includes spine lock as finishing option"
-    },
-    {
-      "name": "Truck Entry",
-      "relationship": "Essential transition to establish position before spine lock attempt"
-    },
-    {
       "name": "Calf Slicer from Truck",
       "relationship": "Complementary submission that chains with spine lock from same position"
     },
@@ -349,12 +365,20 @@
       "relationship": "Alternative control position if Truck is defended during spine lock attempt"
     },
     {
-      "name": "Submission Defense",
-      "relationship": "Critical defensive concepts for safely defending against spine compression"
+      "name": "Twister",
+      "relationship": "Related spinal submission with rotational cervical component"
     },
     {
-      "name": "Flexibility Training",
-      "relationship": "Essential training component for both attacking and defending spine locks safely"
+      "name": "Banana Split",
+      "relationship": "Alternative leg-based submission from Truck position"
+    },
+    {
+      "name": "Crucifix",
+      "relationship": "Control position with similar back exposure that can transition to spine lock"
+    },
+    {
+      "name": "Electric Chair",
+      "relationship": "Half guard position that can lead to Truck and spine lock entries"
     }
   ]
 }

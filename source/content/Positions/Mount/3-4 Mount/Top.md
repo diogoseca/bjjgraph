@@ -21,37 +21,37 @@ description: "Master offensive control from 3-4 Mount Top. Complete guide with t
     {
       "@type": "HowToStep",
       "name": "Execute Mount to Armbar",
-      "text": "From this position, execute Mount to Armbar to transition to Armbar Control. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Mount to Armbar. This technique is attempted in 18% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Mount",
-      "text": "From this position, execute Transition to Mount to transition to Mount. Success rate for advanced practitioners: 85%.",
+      "name": "Execute Side Control to Mount",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 15% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Americana from Mount",
-      "text": "From this position, execute Americana from Mount to transition to Americana Control. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Americana from Mount. This technique is attempted in 14% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Side Control to Mount",
-      "text": "From this position, execute Side Control to Mount to transition to Side Control. Success rate for advanced practitioners: 85%.",
+      "name": "Execute Ezekiel from Mount",
+      "text": "From this position, attempt Ezekiel from Mount. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Ezekiel from Mount",
-      "text": "From this position, execute Ezekiel from Mount to transition to Armbar Control. Success rate for advanced practitioners: 60%.",
+      "name": "Execute Triangle from Mount",
+      "text": "From this position, attempt Triangle from Mount. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Triangle from Mount",
-      "text": "From this position, execute Triangle from Mount to transition to Mounted Triangle. Success rate for advanced practitioners: 55%.",
+      "name": "Execute Kimura from Mount",
+      "text": "From this position, attempt Kimura from Mount. This technique is attempted in 11% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -213,114 +213,22 @@ Strategically, 3-4 Mount Top excels as both a finishing position and a transitio
 
 ## Available Attacks
 
-### [[Mount to Armbar]] → [[Armbar Control]]
+### [[Mount to Armbar]] (18% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 70%
+### [[Side Control to Mount]] (15% of attempts)
 
-### [[Transition to Mount]] → [[Mount]]
+### [[Americana from Mount]] (14% of attempts)
 
-**Success Rates:**
-- Beginner: 55%
-- Intermediate: 70%
-- Advanced: 85%
+### [[Ezekiel from Mount]] (12% of attempts)
 
-### [[Americana from Mount]] → [[Americana Control]]
+### [[Triangle from Mount]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Kimura from Mount]] (11% of attempts)
 
-### [[Side Control to Mount]] → [[Side Control]]
+### [[Side Control to North-South]] (8% of attempts)
 
-**Success Rates:**
-- Beginner: 60%
-- Intermediate: 75%
-- Advanced: 85%
+### [[Back Take Generic]] (12% of attempts)
 
-### [[Ezekiel from Mount]] → [[Armbar Control]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 60%
-
-### [[Triangle from Mount]] → [[Mounted Triangle]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 55%
-
-### [[Kimura from Mount]] → [[Kimura Control]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 65%
-
-### [[Transition to North-South]] → [[North-South]]
-
-**Success Rates:**
-- Beginner: 50%
-- Intermediate: 65%
-- Advanced: 80%
-
-### [[Back Take Generic]] → [[Back Control]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 70%
-
-### [[Transition to Mount]] → [[S Mount]]
-
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
-
-### [[Transition to Mount]] → [[Technical Mount]]
-
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 60%
-- Advanced: 75%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Bridge and Roll]]** → [[Mount]] (Opponent Success: 25%)
-- **[[Elbow Escape]]** → [[Half Guard]] (Opponent Success: 35%)
-- **[[Shrimp Escape]]** → [[Closed Guard]] (Opponent Success: 30%)
-- **[[Upa Escape]]** → [[Closed Guard]] (Opponent Success: 20%)
-- **[[Frame and Shrimp]]** → [[Half Guard]] (Opponent Success: 40%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Transition to Mount]]** → [[Mount]]
-  - Opponent attempts to turn into posted leg side or create space on mounted side
-- **[[Side Control to Mount]]** → [[Side Control]]
-  - Opponent successfully creates significant space or begins escaping hips away from mounted side
-- **[[Mount to Armbar]]** → [[Armbar Control]]
-  - Opponent extends arm to frame or push, creating armbar opportunity
-- **[[Transition to North-South]]** → [[North-South]]
-  - Opponent turns shoulders strongly toward posted leg, exposing back or neck
-- **[[Americana from Mount]]** → [[Americana Control]]
-  - Opponent's arm becomes isolated and trapped below shoulder level during escape attempt
 
 
 </section>
@@ -330,27 +238,27 @@ Strategically, 3-4 Mount Top excels as both a finishing position and a transitio
 ## Decision Making from This Position
 
 **If opponent remains flat and passive, accepting bottom position without immediate escape attempts:**
-- Execute **[[Transition to Mount]]** → [[Mount]] (Probability: 75%)
+- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 75%)
 - Execute **[[Mount to Armbar]]** → [[Armbar Control]] (Probability: 60%)
 - Execute **[[Ezekiel from Mount]]** → [[Armbar Control]] (Probability: 50%)
 
 
 **Else if opponent attempts to bridge explosively or turn into the mounted side to escape:**
-- Execute **[[Americana from Mount]]** → [[Americana Control]] (Probability: 65%)
-- Execute **[[Kimura from Mount]]** → [[Kimura Control]] (Probability: 60%)
-- Execute **[[Side Control to Mount]]** → [[Side Control]] (Probability: 70%)
+- Execute **[[Americana from Mount]]** → [[Kimura Trap]] (Probability: 65%)
+- Execute **[[Kimura from Mount]]** → [[Kimura Trap]] (Probability: 60%)
+- Execute **[[Knee Cut Pass]]** → [[Side Control]] (Probability: 70%)
 
 
 **Else if opponent turns away from posted leg or exposes their back during escape attempt:**
-- Execute **[[Transition to North-South]]** → [[North-South]] (Probability: 70%)
-- Execute **[[Side Control to Mount]]** → [[Side Control]] (Probability: 65%)
+- Execute **[[Side Control to North-South]]** → [[North-South]] (Probability: 70%)
+- Execute **[[Knee Cut Pass]]** → [[Side Control]] (Probability: 65%)
 - Execute **[[Back Take Generic]]** → [[Back Control]] (Probability: 75%)
 
 
 **Else if opponent successfully frames and begins creating space on the mounted side:**
 - Execute **[[Mount to Armbar]]** → [[Armbar Control]] (Probability: 55%)
 - Execute **[[Triangle from Mount]]** → [[Mounted Triangle]] (Probability: 45%)
-- Execute **[[Transition to Mount]]** → [[Mount]] (Probability: 60%)
+- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 60%)
 
 
 
@@ -436,33 +344,39 @@ Start in 3-4 Mount position. Bottom player attempts any escape at 75% intensity.
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Shortest path to armbar
+## Test Your Knowledge
 
-`3-4 Mount Top → Armbar Control → Armbar from Mount → Won by Submission`
+**Q1**: What is the primary advantage of maintaining 3-4 Mount over traditional mount with both legs crossed?
+**A**: The 3-4 Mount provides superior base stability against bridging attempts through the posted leg while maintaining offensive mobility for transitions and submission attacks. The asymmetric configuration allows rapid weight shifts to counter defensive movements while preserving the ability to flow between mount variations, S-mount, technical mount, and back control positions that would be slower to access from standard mount.
 
-### High-percentage Americana path
+**Q2**: Your opponent begins bridging toward your posted leg side. How do you adjust to maintain position?
+**A**: Immediately shift your weight toward the mounted side by driving your mounted-side knee deeper into their ribs while posting your hand on the mat near their far shoulder. This redistributes your weight away from the bridge direction. If the bridge is powerful, be ready to transition to side control or knee on belly rather than fighting the momentum—maintaining top position is more important than forcing the specific mount configuration.
 
-`3-4 Mount Top → Mount → Americana Control → Americana from Mount → Won by Submission`
+**Q3**: What are the essential grips and contact points for maintaining 3-4 Mount control?
+**A**: The critical contact points are: mounted knee tight against opponent's ribcage or armpit, posted leg's knee and foot creating triangular base outside opponent's body, chest-to-chest pressure driving forward and down, and at least one hand controlling opponent's arms (wrist, sleeve, or cross-grip). The hip-to-hip connection must remain constant, with your weight distributed primarily through your hips rather than sitting upright on your knees.
 
-### Ezekiel finishing sequence
+**Q4**: How do you shut down the elbow escape (shrimp) when your opponent begins creating hip movement?
+**A**: Drive your mounted-side knee deeper into their armpit as a wedge, eliminating the space they need to insert their elbow. Simultaneously drop your chest weight forward to pin their shoulders, making hip movement more difficult. If they manage to get their elbow inside, immediately transition to side control or switch to the opposite side 3-4 configuration rather than allowing them to continue building the escape sequence.
 
-`3-4 Mount Top → Mount → Armbar Control → Ezekiel from Mount → Won by Submission`
+**Q5**: What weight distribution error most commonly allows opponents to escape from 3-4 Mount?
+**A**: Sitting too upright with weight distributed through the knees instead of forward through the hips and chest. This common error reduces chest pressure, allows the opponent breathing room to generate explosive movement, and shifts your center of gravity higher, making you vulnerable to bridge and roll escapes. The correction is maintaining constant forward lean with chest heavy on opponent's sternum while using your posted leg for balance, not primary weight support.
 
-### Triangle transition path
+**Q6**: Your opponent traps your posted arm and attempts to bridge toward that side. What is your response?
+**A**: Immediately withdraw the trapped arm while posting your opposite hand for base. Shift your weight sharply toward the mounted side and drive your mounted knee into their ribs. If the bridge is already in motion, transition with it rather than against it—flow to side control on the side they're bridging toward, maintaining top position throughout. Never fight directly against a committed bridge when your posting arm is compromised.
 
-`3-4 Mount Top → Mount → Mounted Triangle → Triangle from Mount → Won by Submission`
+**Q7**: How do you manage energy expenditure when maintaining 3-4 Mount against an actively resisting opponent?
+**A**: Use skeletal structure and gravity rather than muscular effort for pressure—let your body weight do the work by staying heavy through your hips and chest. Minimize unnecessary movement by making small, precise adjustments rather than large reactive movements. When the opponent pauses their escape attempts, use that time to consolidate grips and positioning. Recognize that 3-4 Mount is transitional—if maintaining it becomes energy-intensive, advance to full mount or attack a submission rather than grinding in an unstable position.
 
-### Kimura control path
-
-`3-4 Mount Top → Kimura Control → Kimura from Mount → Won by Submission`
+**Q8**: Your opponent partially escapes and gets one knee inside, threatening half guard. How do you recover full mount control?
+**A**: Do not try to pull your leg back out against their hook—this wastes energy and rarely succeeds. Instead, accept top half guard temporarily and work to clear the knee using underhook pressure, crossface, and hip switching. Alternatively, if you feel their half guard is weak, immediately backstep to mount on the opposite side or transition to knee on belly to reset the position. The goal is maintaining dominant top position, not forcing a specific configuration.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -484,14 +398,14 @@ Start in 3-4 Mount position. Bottom player attempts any escape at 75% intensity.
 ## Related Positions and Techniques
 
 - **[[Mount]]** - Parent position - primary advancement target from 3-4 Mount
-- **[[3-4 Mount]]** - Sibling variant - opposing perspective of same position
+- **[[3-4 Mount]]** - Hub page - containing both top and bottom perspectives
 - **[[Side Control]]** - Common transition target when opponent turns or escapes mounted side
 - **[[High Mount]]** - Advanced variation - higher positioning with increased submission access
 - **[[S Mount]]** - Variation - alternative asymmetric mount configuration for armbar attacks
 - **[[Technical Mount]]** - Variation - another asymmetric mount used for back take and control
 - **[[Armbar Control]]** - Primary submission target from 3-4 Mount position
-- **[[Americana Control]]** - Common submission target when opponent's arm becomes isolated
-- **[[Positional Hierarchy]]** - Concept - understanding 3-4 Mount's place in position advancement ladder
+- **[[Kimura Trap]]** - Common submission control when opponent's arm becomes isolated
+- **[[Back Control]]** - Advanced transition when opponent turns away during escape attempts
 
 
 </section>

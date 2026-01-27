@@ -89,38 +89,28 @@ Shin-to-Shin Guard represents a sophisticated intersection between traditional o
 - Integrate shin-to-shin with broader guard retention system rather than treating it as isolated position
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Single Leg X Entry]]** → [[Single Leg X-Guard]]
-  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 70%
+- **[[Single Leg X Entry]]** (11% of attempts)
 
-- **[[X-Guard Sweep]]** → [[X-Guard]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 65%
+- **[[X-Guard Sweep]]** (10% of attempts)
 
-- **[[Butterfly Sweep]]** → [[Butterfly Guard]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Butterfly Sweep]]** (11% of attempts)
 
-- **[[Outside Ashi Entry]]** → [[Outside Ashi-Garami]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 60%
+- **[[Outside Ashi Entry]]** (10% of attempts)
 
-- **[[De La Riva Sweep]]** → [[De La Riva Guard]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 65%
+- **[[De La Riva Sweep]]** (10% of attempts)
 
-- **[[Technical Stand Up to Single Leg]]** → [[Standing Position]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Technical Stand Up to Single Leg]]** (10% of attempts)
 
-- **[[Omoplata Sweep]]** → [[Mount]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Omoplata Sweep]]** (8% of attempts)
 
-- **[[Shin to Shin Pull]]** → [[Scramble Position]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 60%
+- **[[Shin to Shin Pull]]** (10% of attempts)
 
-- **[[Hook Sweep]]** → [[Mount]]
-  - Success Rate: Beginner 30%, Intermediate 48%, Advanced 62%
+- **[[Hook Sweep]]** (10% of attempts)
 
-- **[[Tripod Sweep]]** → [[Standing Position]]
-  - Success Rate: Beginner 28%, Intermediate 46%, Advanced 60%
+- **[[Tripod Sweep]]** (10% of attempts)
 
 
 ### Common Mistakes
@@ -182,32 +172,24 @@ Shin-to-Shin Guard represents a sophisticated intersection between traditional o
 - Combine shin clearing with immediate passing pressure to prevent guard re-establishment
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Knee Slice Pass]]** → [[Headquarters Position]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Knee Slice Pass]]** (13% of attempts)
 
-- **[[Long Step Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Long Step Pass]]** (14% of attempts)
 
-- **[[Leg Drag Pass]]** → [[Back Control]]
-  - Success Rate: Beginner 30%, Intermediate 48%, Advanced 62%
+- **[[Leg Drag Pass]]** (12% of attempts)
 
-- **[[Stack Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 25%, Intermediate 42%, Advanced 58%
+- **[[Stack Pass]]** (11% of attempts)
 
-- **[[Pressure Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 38%, Intermediate 52%, Advanced 68%
+- **[[Pressure Pass]]** (13% of attempts)
 
-- **[[X Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 32%, Intermediate 48%, Advanced 63%
+- **[[X Pass]]** (12% of attempts)
 
-- **[[Knee Through]]** → [[Mount]]
-  - Success Rate: Beginner 28%, Intermediate 44%, Advanced 60%
+- **[[Knee Through]]** (12% of attempts)
 
-- **[[Smash Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Smash Pass]]** (13% of attempts)
 
 
 ### Common Mistakes

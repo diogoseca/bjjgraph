@@ -239,6 +239,36 @@
       "question": "What should you do immediately after your training partner taps to an Achilles Lock?",
       "answer": "Immediately release hip extension and return your hips to the mat to remove all breaking pressure. Maintain leg control but eliminate pressure from the ankle. Then slowly open your guard and release the leg in a controlled manner - never drop it suddenly. Verbally check with your partner before resuming training to ensure they're okay. This controlled release protocol prevents additional injury and maintains a safe training environment.",
       "safety_critical": true
+    },
+    {
+      "question": "Your opponent begins rotating their knee inward to relieve Achilles pressure - what submission chain opportunity does this create?",
+      "answer": "When the opponent rotates their knee inward, they expose their heel for heel hook attacks and create an angle favorable for toe hold entries. Rather than fighting their rotation, use it as a trigger to transition - thread your arm deeper for an inside heel hook setup or adjust your grip configuration to attack the toe hold. This defensive reaction often opens higher-percentage finishing opportunities than the original Achilles Lock attempt.",
+      "safety_critical": false
+    },
+    {
+      "question": "What anatomical structure does the Achilles Lock specifically target and what type of force creates the tap?",
+      "answer": "The Achilles Lock targets the Achilles tendon - the thick connective tissue band connecting the calf muscles (gastrocnemius and soleus) to the heel bone (calcaneus). The tap comes from compression and hyperextension forces applied to the tendon against the fulcrum point. Unlike heel hooks which attack rotational integrity, the Achilles Lock applies straight-line pressure that creates intense pain in the tendon before structural damage occurs, giving practitioners warning to tap safely.",
+      "safety_critical": false
+    },
+    {
+      "question": "At what point during the Achilles Lock finishing sequence has the opponent passed the 'point of no escape'?",
+      "answer": "The point of no escape occurs when three conditions are met simultaneously: (1) Your hips are fully extended with your body creating the bow-and-arrow shape, (2) The heel is trapped deep in your armpit with the fulcrum positioned correctly on the Achilles tendon, and (3) Your knees are squeezed tightly together preventing leg extraction. Once all three conditions exist and you begin applying progressive pressure, the opponent's only option is to tap. Attempting escape at this stage risks serious injury.",
+      "safety_critical": true
+    },
+    {
+      "question": "How should you adjust your grip and hip position when your opponent has particularly flexible ankles and seems to absorb standard finishing pressure?",
+      "answer": "For flexible opponents, transition to the figure-four grip configuration which provides a sharper fulcrum point and greater mechanical advantage. Simultaneously, move your hips even closer to their hip to maximize the leverage angle. You may also need to extend your hips more aggressively while pulling the heel deeper into your armpit. If standard mechanics remain ineffective, consider transitioning to belly-down variation where your body weight provides additional compression, or chain to a toe hold which attacks different structures.",
+      "safety_critical": false
+    },
+    {
+      "question": "In competition, what strategic considerations should guide your decision to pursue an Achilles Lock versus transitioning to a different leg attack?",
+      "answer": "Pursue the Achilles Lock when: the opponent's heel is properly positioned with toes toward you, you have established tight leg control with no gaps, and they are not actively defending with knee rotation. Transition away when: the opponent rotates their knee inward (sets up heel hook), they successfully extract space between your knees, or they sit up aggressively to negate your angle. The Achilles Lock works best as a first-line attack that creates reactions you can exploit for higher-percentage follow-ups like heel hooks or toe holds.",
+      "safety_critical": false
+    },
+    {
+      "question": "What specific injury can result from combining twisting or rotational pressure with an Achilles Lock, and why is this prohibited in training?",
+      "answer": "Combining rotation with an Achilles Lock can cause spiral fractures of the tibia or fibula, as well as severe damage to the ankle mortise joint where the leg bones meet the foot. The Achilles Lock is designed to apply straight-line compression - adding rotation transforms it into a hybrid attack that simultaneously stresses multiple structures with unpredictable injury mechanics. This combination is prohibited because the injury mechanism becomes unclear, making it impossible for the defender to know when to tap before damage occurs.",
+      "safety_critical": true
     }
   ],
   "training_progressions_and_safety_protocols": [
@@ -304,10 +334,7 @@
     "Kneebar",
     "Toe Hold",
     "Calf Slicer",
-    "Estima Lock",
-    "Straight Footlock",
-    "Kneebar from 50-50",
-    "Toe Hold from 50-50"
+    "Estima Lock"
   ],
   "related_content": [
     {
@@ -343,8 +370,8 @@
       "relationship": "Advanced leg entanglement position including Achilles variations"
     },
     {
-      "name": "Craig Jones Leg Lock System",
-      "relationship": "Modern leg lock methodology featuring Achilles Lock applications"
+      "name": "Inside Ashi-Garami",
+      "relationship": "Dominant Ashi variation for Achilles Lock attacks"
     },
     {
       "name": "Leg Entanglement",

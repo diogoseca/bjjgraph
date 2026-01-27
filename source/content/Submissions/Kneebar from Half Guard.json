@@ -241,6 +241,36 @@
       "question": "What specific injuries can result from improperly applied kneebars, and why is progressive pressure application critical?",
       "answer": "Improperly applied kneebars (particularly when jerked or spiked rapidly) can cause: posterior cruciate ligament (PCL) tears requiring 6-12 months recovery with surgery, medial collateral ligament (MCL) damage requiring 4-8 weeks recovery, patellar tendon strains or ruptures requiring 3-6 months recovery, and meniscus tears that may require surgery. Progressive pressure application (3-5 seconds minimum) is critical because knee ligaments have relatively poor proprioception compared to other joints—the pain response is delayed, meaning injury can occur before the person realizes they need to tap. Slow application gives the nervous system time to register danger and allows the training partner adequate time to recognize the submission and tap safely.",
       "safety_critical": true
+    },
+    {
+      "question": "Your opponent begins to posture up and straighten their back during your kneebar attempt—what adjustment prevents escape and why does this work?",
+      "answer": "When the opponent postures up, immediately pull your top leg tighter across their hip or lower back to prevent them from creating distance. Simultaneously, squeeze your knees together harder to maintain the figure-four configuration on their leg. Use your grip on their hip to pull them back toward you rather than letting them create space. This works because the kneebar relies on maintaining the fulcrum position—if they can posture up and pull their knee away from your torso centerline, the leverage system fails. Your top leg acts as a barrier preventing their weight from shifting backward.",
+      "safety_critical": false
+    },
+    {
+      "question": "What anatomical structure is the primary target of the kneebar, and what are the warning signs that you're approaching the breaking point?",
+      "answer": "The primary anatomical targets are the posterior cruciate ligament (PCL), the patellar tendon, and the surrounding ligaments of the knee joint. The kneebar attacks the knee through hyperextension. Warning signs approaching the breaking point include: (1) Visible straightening or hyperextension of the leg beyond normal range; (2) Partner beginning to panic or show distress before tapping; (3) Feeling the leg become increasingly rigid as ligaments reach their limit; (4) Any popping or clicking sounds during application. In training, you should never approach these indicators—the goal is to reach the 'tap threshold' where pressure is felt but no damage is imminent.",
+      "safety_critical": true
+    },
+    {
+      "question": "During competition, when is the optimal moment to accelerate your kneebar finish, and what factors indicate a high-percentage finishing window?",
+      "answer": "The optimal moment to accelerate the finish in competition is when: (1) Your hip control is completely secured and the opponent cannot rotate; (2) Your leg isolation is locked tight with both legs and the figure-four configuration is established; (3) Their knee joint is perfectly centered on your torso; (4) The opponent's hands are occupied defending or trapped (not protecting their knee). High-percentage indicators include: opponent's weight committed in a direction that assists your finish, their free leg is unable to post or base, and they're focused on upper body escapes rather than addressing the leg attack. Never rush the finish until all control points are secured.",
+      "safety_critical": false
+    },
+    {
+      "question": "How do you adjust your grip configuration if your opponent is wearing a gi versus in no-gi competition, and why does this matter for the finish?",
+      "answer": "In gi, you can grip the belt or pants at the hip for superior hip control—the fabric provides excellent purchase for preventing rotation. For the finish, you can also grip their pants leg near the ankle to control foot rotation. In no-gi, you must cup the hip bone directly with your palm or hook behind their far thigh, which requires more precise positioning and stronger grip strength. The ankle control in no-gi typically involves cupping the heel or wrapping your arm around the ankle/foot. Gi grips allow more margin for error in positioning because the friction and material control compensate for small adjustments. No-gi requires tighter body-to-body connection throughout.",
+      "safety_critical": false
+    },
+    {
+      "question": "What is the point of no escape for your opponent during a properly executed kneebar, and what should happen immediately before reaching this point?",
+      "answer": "The point of no escape occurs when: (1) Your hips have begun the extension arch; (2) Their knee joint is centered on your torso with the back of their knee pressed against your body; (3) Your legs are locked in figure-four with their leg completely isolated; and (4) Their hip rotation has been eliminated through your hand control. Before reaching this point in training, the opponent should have ample opportunity to tap—you should be applying pressure gradually over 3-5 seconds minimum. The 'point of no escape' should coincide with the tap, not precede it. In competition, this is when you can accelerate pressure knowing the submission is mechanically complete.",
+      "safety_critical": true
+    },
+    {
+      "question": "Your leg control starts slipping during the transition from half guard—what immediate grip adjustment maintains the attack and prevents your opponent from escaping?",
+      "answer": "If leg control slips, immediately pinch your knees together tightly while using your near-side hand to grab their ankle or heel and pull it toward your hip. This emergency grip replaces the leg isolation temporarily. Simultaneously, use your free hand to re-establish hip control to prevent them from rotating out. If you cannot recover the leg isolation quickly, consider abandoning the kneebar attempt and transitioning to either: (1) A toe hold by catching their foot as it rotates; (2) Return to half guard by re-establishing your bottom hook; or (3) Transition to 50-50 position if they're extracting backward. Never chase a submission with compromised control—either recover your position or transition intelligently.",
+      "safety_critical": false
     }
   ],
   "training_progressions_and_safety_protocols": [
@@ -296,18 +326,12 @@
     "Butterfly Half Guard"
   ],
   "related_submissions": [
-    "Kneebar",
-    "Kneebar Finish",
-    "Kneebar Variations",
-    "Kneebar from 50-50",
-    "Kneebar from Guard",
-    "Kneebar from Top",
     "Toe Hold",
     "Heel Hook",
-    "Straight Ankle Lock",
+    "Achilles Lock",
     "Calf Slicer",
-    "Kimura from Half Guard",
-    "Achilles Lock"
+    "Banana Split",
+    "Estima Lock"
   ],
   "related_content": [
     {
@@ -337,6 +361,14 @@
     {
       "name": "Leg Entanglement",
       "relationship": "Foundational principle for understanding control mechanics in this submission"
+    },
+    {
+      "name": "Kneebar Control",
+      "relationship": "Control position that precedes the finish when kneebar is not immediately available"
+    },
+    {
+      "name": "Deep Half Guard",
+      "relationship": "Alternative half guard position with direct rolling kneebar entry"
     }
   ]
 }

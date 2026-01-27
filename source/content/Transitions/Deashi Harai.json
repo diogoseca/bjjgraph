@@ -9,8 +9,6 @@
     "ashiwaza",
     "footsweep"
   ],
-  "starting_position": "Standing Position",
-  "ending_position": "Side Control",
   "success_rates": {
     "beginner": 30,
     "intermediate": 50,
@@ -284,6 +282,24 @@
     {
       "name": "Timing and Rhythm",
       "relationship": "Core concept that determines success or failure of this timing-dependent technique"
+    }
+  ],
+  "from_position": "Standing Position/Top",
+  "outcomes": [
+    {
+      "to": "Side Control/Top",
+      "probability": 70,
+      "result": "success"
+    },
+    {
+      "to": "Standing Position/Top",
+      "probability": 20,
+      "result": "failure"
+    },
+    {
+      "to": "Standing Position/Bottom",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

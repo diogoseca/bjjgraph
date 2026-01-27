@@ -97,32 +97,24 @@ Modern competitive grappling has elevated leg drag control from a transitional m
 - Recognize the position early during the passing sequence to defend proactively
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Leg Drag Escape to Closed Guard]]** → [[Closed Guard]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+- **[[Leg Drag Escape to Closed Guard]]** (12% of attempts)
 
-- **[[Technical Standup]]** → [[Standing Position]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Technical Standup]]** (13% of attempts)
 
-- **[[Leg Drag Counter to Half Guard]]** → [[Half Guard]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Leg Drag Counter to Half Guard]]** (18% of attempts)
 
-- **[[Roll to Turtle]]** → [[Turtle]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Roll to Turtle]]** (17% of attempts)
 
-- **[[Inside Position Recovery]]** → [[Butterfly Guard]]
-  - Success Rate: Beginner 10%, Intermediate 25%, Advanced 40%
+- **[[Inside Position Recovery]]** (11% of attempts)
 
-- **[[Granby Roll Escape]]** → [[Open Guard]]
-  - Success Rate: Beginner 5%, Intermediate 20%, Advanced 35%
+- **[[Granby Roll Escape]]** (9% of attempts)
 
-- **[[Leg Recovery to De La Riva]]** → [[De La Riva Guard]]
-  - Success Rate: Beginner 8%, Intermediate 22%, Advanced 38%
+- **[[Leg Recovery to De La Riva]]** (10% of attempts)
 
-- **[[Frame and Shrimp to Guard]]** → [[Open Guard]]
-  - Success Rate: Beginner 18%, Intermediate 32%, Advanced 48%
+- **[[Frame and Shrimp to Guard]]** (10% of attempts)
 
 
 ### Common Mistakes
@@ -180,38 +172,26 @@ Modern competitive grappling has elevated leg drag control from a transitional m
 - Weight distribution must be dynamic—shift between control points based on opponent's movement
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Leg Drag Pass to Side Control]]** → [[Side Control]]
-  - Success Rate: Beginner 45%, Intermediate 65%, Advanced 80%
+- **[[Leg Drag Pass to Side Control]]** (15% of attempts)
 
-- **[[Leg Drag to Back Take]]** → [[Back Control]]
-  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 75%
+- **[[Leg Drag to Back Take]]** (18% of attempts)
 
-- **[[Leg Drag to Mount]]** → [[Mount]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 70%
+- **[[Leg Drag to Mount]]** (14% of attempts)
 
-- **[[Leg Drag to Knee on Belly]]** → [[Knee on Belly]]
-  - Success Rate: Beginner 40%, Intermediate 60%, Advanced 75%
+- **[[Leg Drag to Knee on Belly]]** (12% of attempts)
 
-- **[[Leg Drag to North-South]]** → [[North-South]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 65%
+- **[[Leg Drag to North-South]]** (10% of attempts)
 
-- **[[Leg Drag to Crucifix]]** → [[Crucifix]]
-  - Success Rate: Beginner 15%, Intermediate 35%, Advanced 55%
+- **[[Leg Drag to Crucifix]]** (8% of attempts)
 
-- **[[Leg Drag to Inside Ashi]]** → [[Inside Ashi-Garami]]
-  - Success Rate: Beginner 20%, Intermediate 40%, Advanced 60%
+- **[[Leg Drag to Inside Ashi]]** (9% of attempts)
 
-- **[[Leg Drag to Kimura Control]]** → [[Kimura Control]]
-  - Success Rate: Beginner 18%, Intermediate 38%, Advanced 58%
+- **[[Leg Drag to Technical Mount]]** (8% of attempts)
 
-- **[[Leg Drag to Technical Mount]]** → [[Technical Mount]]
-  - Success Rate: Beginner 22%, Intermediate 42%, Advanced 62%
-
-- **[[Leg Drag to Darce Setup]]** → [[D'arce Control]]
-  - Success Rate: Beginner 12%, Intermediate 30%, Advanced 50%
+- **[[Leg Drag to Darce Setup]]** (6% of attempts)
 
 
 ### Common Mistakes

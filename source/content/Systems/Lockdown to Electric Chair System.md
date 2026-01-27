@@ -346,7 +346,7 @@ The Lockdown to Electric Chair System requires progressive drilling that builds 
 - [[Old School Sweep]] (Transition) - Primary sweep execution from Electric Chair defense
 - [[Half Guard Sweeps]] (Transition) - Broader category of techniques that lockdown system enhances
 - [[Half Guard to Back Take]] (Transition) - Back attack opportunities created by Electric Chair pressure
-- [[Transition to Truck]] (Transition) - Advanced progression when opponent defends lockdown attacks
+- [[Turtle to Truck]] (Transition) - Advanced progression when opponent defends lockdown attacks
 - [[Underhook Sweep from Half]] (Transition) - Related sweeping mechanics utilizing underhook control
 - [[Whizzer]] (Transition) - Primary defensive counter that must be systematically defeated
 - [[Electric Chair Submission]] (Submission) - Finishing technique in competition formats allowing crotch attacks

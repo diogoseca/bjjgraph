@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Counter Sweep | BJJ Technique | BJJ Graph"
 description: "Master Counter Sweep defense in BJJ. Transform opponent's sweep attempts into your offensive advantage. Success rates: Beginner 35%, Intermediate 50%, Advanced 70%."
@@ -16,7 +17,7 @@ description: "Master Counter Sweep defense in BJJ. Transform opponent's sweep at
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Counter Sweep in BJJ",
-  "description": "Step-by-step guide for Counter Sweep from Guard Bottom Transition to Guard Pass.",
+  "description": "Step-by-step guide for Counter Sweep from Guard Transition/Bottom. Possible outcomes: Guard Pass/Bottom (70%), Guard Transition/Bottom (20%), Guard Transition/Top (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -160,11 +161,25 @@ description: "Master Counter Sweep defense in BJJ. Transform opponent's sweep at
 
 Counter sweeping represents the critical defensive skill of neutralizing an opponent's sweep attempt while simultaneously converting their momentum into your own offensive advantage. This meta-technique encompasses the timing, weight distribution, and positional awareness necessary to prevent being swept from top position or to counter an opponent's sweep with your own reversal from bottom. The essence of counter sweeping lies in reading your opponent's commitment to a sweep direction, maintaining optimal base and posture, and exploiting the vulnerable moments created when they overcommit to the sweep attempt. Against any sweep, the top player must recognize the early indicators: grip changes, hip movement, hook placement, and weight shifts that telegraph the sweep direction. By maintaining proper base principles while remaining mobile enough to follow your opponent's movement, you can either shut down the sweep entirely or use their momentum against them. From bottom position, counter sweeping involves recognizing when your opponent has committed to defending your initial sweep, creating a situation where you can chain to a secondary sweep or transition. This skill separates intermediate practitioners from advanced competitors, as it requires reading multiple layers of action and reaction simultaneously.
 
-**Starting Position**: [[Guard Bottom Transition]]
-**Ending Position**: [[Guard Pass]]
+**From Position**: [[Guard Transition/Bottom]]
 **Success Rates**: Beginner 35%, Intermediate 50%, Advanced 70%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Guard Pass/Bottom]] | 70% |
+| Failure | [[Guard Transition/Bottom]] | 20% |
+| Counter | [[Guard Transition/Top]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

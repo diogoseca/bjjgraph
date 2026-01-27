@@ -21,37 +21,37 @@ description: "Master offensive strategies from top Mount. Learn control mechanic
     {
       "@type": "HowToStep",
       "name": "Execute Armbar from Mount",
-      "text": "From this position, execute Armbar from Mount to transition to Armbar Control. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Armbar from Mount. This technique is attempted in 15% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Americana from Mount",
-      "text": "From this position, execute Americana from Mount to transition to Americana Control. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Americana from Mount. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Cross Collar Choke",
-      "text": "From this position, execute Cross Collar Choke to transition to Won by Submission. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Cross Collar Choke. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Ezekiel from Mount",
-      "text": "From this position, execute Ezekiel from Mount to transition to Won by Submission. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Ezekiel from Mount. This technique is attempted in 8% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Back Control",
-      "text": "From this position, execute Transition to Back Control to transition to Back Control. Success rate for advanced practitioners: 80%.",
+      "name": "Execute Gift Wrap to Technical Mount",
+      "text": "From this position, attempt Gift Wrap to Technical Mount. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Mounted Triangle",
-      "text": "From this position, execute Mounted Triangle to transition to Mounted Triangle. Success rate for advanced practitioners: 55%.",
+      "name": "Execute S-Mount Transition",
+      "text": "From this position, attempt S-Mount Transition. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -208,106 +208,24 @@ The top Mount position represents the pinnacle of positional dominance in Brazil
 
 ## Available Attacks
 
-### [[Armbar from Mount]] → [[Armbar Control]]
+### [[Armbar from Mount]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 55%
-- Advanced: 75%
+### [[Americana from Mount]] (12% of attempts)
 
-### [[Americana from Mount]] → [[Americana Control]]
+### [[Cross Collar Choke]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 70%
+### [[Ezekiel from Mount]] (8% of attempts)
 
-### [[Cross Collar Choke]] → [[Won by Submission]]
+### [[Gift Wrap to Technical Mount]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 45%
-- Advanced: 65%
+### [[S-Mount Transition]] (10% of attempts)
 
-### [[Ezekiel from Mount]] → [[Won by Submission]]
+### [[High Mount Transition]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 40%
-- Advanced: 60%
+### [[Mounted Triangle]] (8% of attempts)
 
-### [[Transition to Back Control]] → [[Back Control]]
+### [[Consolidate Mount]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 60%
-- Advanced: 80%
-
-### [[Mounted Triangle]] → [[Mounted Triangle]]
-
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 35%
-- Advanced: 55%
-
-### [[Kimura from Mount]] → [[Kimura Control]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 45%
-- Advanced: 65%
-
-### [[Transition to Technical Mount]] → [[Technical Mount]]
-
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 65%
-- Advanced: 85%
-
-### [[S-Mount Transition]] → [[S Mount]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 70%
-
-### [[Gift Wrap Control]] → [[Gift Wrap]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 40%
-- Advanced: 60%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Elbow Escape]]** → [[Closed Guard]] (Opponent Success: 45%)
-- **[[Upa Escape]]** → [[Closed Guard]] (Opponent Success: 35%)
-- **[[Bridge and Roll]]** → [[Mount]] (Opponent Success: 30%)
-- **[[Hip Escape]]** → [[Half Guard]] (Opponent Success: 50%)
-- **[[Frame and Shrimp]]** → [[Open Guard]] (Opponent Success: 40%)
-- **[[Deep Half Entry]]** → [[Deep Half Guard]] (Opponent Success: 25%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Grapevine Legs]]** → [[Mount]]
-  - When opponent attempts hip escape to side
-- **[[Transition to High Mount]]** → [[High Mount]]
-  - When opponent creates frames and attempts to push away
-- **[[Swim to Back Control]]** → [[Back Control]]
-  - When opponent turns to side during escape attempt
-- **[[Armbar Counter]]** → [[Armbar Control]]
-  - When opponent extends arm to frame or push
 
 
 </section>
@@ -318,22 +236,22 @@ The top Mount position represents the pinnacle of positional dominance in Brazil
 
 **If opponent establishes strong frames and begins hip escape:**
 - Execute **[[Grapevine Legs]]** → [[Mount]] (Probability: 60%)
-- Execute **[[Transition to High Mount]]** → [[High Mount]] (Probability: 55%)
+- Execute **[[Americana Control to High Mount]]** → [[High Mount]] (Probability: 55%)
 
 
 **If opponent extends arm to frame on face or neck:**
 - Execute **[[Armbar from Mount]]** → [[Armbar Control]] (Probability: 70%)
-- Execute **[[Americana from Mount]]** → [[Americana Control]] (Probability: 50%)
+- Execute **[[Americana from Mount]]** → [[game-over]] (Probability: 50%)
 
 
 **If opponent keeps elbows tight and defends arms:**
-- Execute **[[Cross Collar Choke]]** → [[Won by Submission]] (Probability: 55%)
-- Execute **[[Ezekiel from Mount]]** → [[Won by Submission]] (Probability: 45%)
+- Execute **[[Cross Collar Choke]]** → [[game-over]] (Probability: 55%)
+- Execute **[[Ezekiel from Mount]]** → [[game-over]] (Probability: 45%)
 
 
 **If opponent turns to side to escape:**
-- Execute **[[Transition to Back Control]]** → [[Back Control]] (Probability: 75%)
-- Execute **[[Transition to Technical Mount]]** → [[Technical Mount]] (Probability: 65%)
+- Execute **[[Back Take from Top]]** → [[Back Control]] (Probability: 75%)
+- Execute **[[Gift Wrap to Technical Mount]]** → [[Technical Mount]] (Probability: 65%)
 
 
 **If opponent turtles or attempts deep half entry:**
@@ -424,33 +342,7 @@ Partner gives specific defensive reactions (frames, arm extensions, turns). Prac
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
-
-### Primary Armbar Chain
-
-`Mount → High Mount → S Mount → Armbar Control → Won by Submission`
-
-### Collar Choke Series
-
-`Mount → Cross Collar Choke → Ezekiel from Mount → Won by Submission`
-
-### Back Take Progression
-
-`Mount → Technical Mount → Back Control → Rear Naked Choke`
-
-### Americana to Armbar
-
-`Mount → Americana from Mount → Armbar from Mount → Won by Submission`
-
-### Gift Wrap to Back
-
-`Mount → Gift Wrap → Back Control → Submission Position`
-
-
-
-</section>
 
 <section id="position-metrics" class="content-section">
 
@@ -471,12 +363,12 @@ Partner gives specific defensive reactions (frames, arm extensions, turns). Prac
 
 ## Related Positions and Techniques
 
-- **[[Submission Chains]]** - Framework for connecting multiple attacks into inescapable sequences
-- **[[Pressure Application]]** - Fundamental principle for exhausting opponent and reducing defense effectiveness
-- **[[Control Maintenance]]** - Essential skill for keeping dominant position against escape attempts
-- **[[Position-Over-Submission Approach]]** - Strategic philosophy prioritizing positional dominance before submission attempts
-- **[[Weight Distribution]]** - Technical principle for maximizing control while maintaining mobility
-- **[[Base Maintenance]]** - Defensive structure preventing opponent's reversal attempts
+- **[[High Mount]]** - Advanced mount variation providing superior submission access
+- **[[Technical Mount]]** - Transitional mount variation bridging to back control
+- **[[Back Control]]** - Superior position often achieved from technical mount transition
+- **[[Armbar from Mount]]** - Primary high-percentage submission from mount position
+- **[[Americana from Mount]]** - Fundamental shoulder lock available from mount
+- **[[Cross Collar Choke]]** - Classic gi choke requiring collar access from mount
 
 
 </section>

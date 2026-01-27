@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Japanese Necktie Setup | BJJ Technique | BJJ Graph"
 description: "Master the Japanese Necktie Setup from Front Headlock in BJJ. Step-by-step execution with timing cues. Success rates: Beginner 30%, Intermediate 45%, Advanced 60%."
@@ -16,7 +17,7 @@ description: "Master the Japanese Necktie Setup from Front Headlock in BJJ. Step
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Japanese Necktie Setup in BJJ",
-  "description": "Step-by-step guide for Japanese Necktie Setup from Front Headlock to Japanese Necktie.",
+  "description": "Step-by-step guide for Japanese Necktie Setup from Front Headlock/Top. Possible outcomes: Japanese Necktie/Top (60%), Front Headlock/Top (30%), Front Headlock/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -154,11 +155,25 @@ description: "Master the Japanese Necktie Setup from Front Headlock in BJJ. Step
 
 The Japanese Necktie Setup is a sophisticated transition from Front Headlock control that capitalizes on the opponent's defensive turtle position. This technique creates a powerful blood choke by threading the arm under the opponent's neck while establishing a specific body configuration that amplifies pressure. Unlike traditional front chokes that rely purely on arm strength, the Japanese Necktie uses body positioning and weight distribution to generate overwhelming force. The setup phase is critical—proper arm threading, head positioning, and hip placement determine whether the submission becomes viable. When executed correctly, this transition catches opponents off-guard because it appears to be a standard front headlock attack until the choking mechanism suddenly materializes. The technique gained prominence in modern no-gi competition due to its effectiveness against defensive turtling and its ability to finish from seemingly neutral scramble positions.
 
-**Starting Position**: [[Front Headlock]]
-**Ending Position**: [[Japanese Necktie]]
+**From Position**: [[Front Headlock/Top]]
 **Success Rates**: Beginner 30%, Intermediate 45%, Advanced 60%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Japanese Necktie/Top]] | 60% |
+| Failure | [[Front Headlock/Top]] | 30% |
+| Counter | [[Front Headlock/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

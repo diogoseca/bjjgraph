@@ -250,6 +250,36 @@
       "question": "What should you do immediately when your partner taps to an armbar?",
       "answer": "Immediately upon feeling or hearing the tap: (1) Lower your hips to the mat to remove all hyperextension pressure, (2) Open your legs to release control of their head/shoulder, (3) Release your grip on their wrist/arm completely, (4) Allow them to safely retract their arm, (5) Verbally check that they are okay before continuing training. Never hold a submission after a tap, even for a moment. The tap is an absolute signal to release immediately, as joints can be damaged very quickly once someone taps.",
       "safety_critical": true
+    },
+    {
+      "question": "What anatomical structure does the armbar attack and what is the breaking mechanism?",
+      "answer": "The armbar attacks the elbow joint by hyperextending it beyond its natural range of motion. The elbow is a hinge joint that normally bends from approximately 0 degrees (straight) to about 150 degrees of flexion. By positioning the elbow directly over your hips with the thumb pointing up and extending your hips while pulling the wrist toward your chest, you force the joint past 0 degrees into hyperextension. This stretches and damages the ulnar collateral ligament (UCL), medial collateral ligament (MCL), and can ultimately dislocate the joint if pressure continues.",
+      "safety_critical": false
+    },
+    {
+      "question": "What are the indicators that an armbar is reaching the breaking point and requires immediate release or tap?",
+      "answer": "Breaking point indicators include: (1) Opponent's arm reaches full extension with no bend remaining in the elbow; (2) You feel the joint become tight with no more give in the arm; (3) Opponent begins to scream or show signs of distress; (4) The elbow is directly centered over your hip crease with no space remaining; (5) You feel small pops or creaking in the joint. In training, both partners should recognize these indicators - the attacker to stop before damage, the defender to tap before injury. Any of these signs means the submission is complete or imminent.",
+      "safety_critical": true
+    },
+    {
+      "question": "Your opponent starts to posture up and turn toward you during the finish - what grip adjustment maintains control?",
+      "answer": "When opponent attempts to posture and turn, immediately squeeze your knees tighter together to control their head and prevent rotation. Simultaneously, pull their wrist tighter to your chest while scooting your hips closer to their shoulder to eliminate space. If they continue turning, switch your grip so your bottom hand controls their wrist while your top hand reaches around to grip their far shoulder or control their turning direction. This grip adjustment maintains the arm angle while preventing the escape. You can also hook their near leg with your bottom foot to prevent them from completing the rotation.",
+      "safety_critical": false
+    },
+    {
+      "question": "What determines the point of no escape in an armbar finish?",
+      "answer": "The point of no escape occurs when three conditions are met simultaneously: (1) Your hips are directly under their elbow with no space between your hip and their shoulder; (2) Their arm is fully extended with thumb pointing up and cannot bend; (3) Your knees are squeezed together controlling their head, preventing any rotation. Once all three conditions exist, the only options are tap or injury. Before this point, various escapes remain viable. Understanding this threshold helps you recognize when to commit fully to the finish versus when to maintain position and wait for better control.",
+      "safety_critical": false
+    },
+    {
+      "question": "What common finishing error results in the hitchhiker escape and how do you prevent it?",
+      "answer": "The hitchhiker escape becomes available when there is space between opponent's arm and your chest, allowing them to rotate their elbow across your body while turning their body in the same direction. To prevent this, keep their arm glued to your sternum with no gap - their tricep should press directly against your chest. Additionally, squeeze your knees together to control their head rotation, and keep your hips tight to their shoulder to eliminate the space they need to turn. The combination of chest pressure, knee squeeze, and hip proximity makes the hitchhiker mechanically impossible.",
+      "safety_critical": false
+    },
+    {
+      "question": "In competition, what finishing strategies maximize armbar success rate while maintaining safety awareness?",
+      "answer": "Competition finishing strategies include: (1) Establish all control points before committing to extension - rushed attempts allow escapes; (2) Use progressive pressure even at faster speeds - smooth acceleration rather than jerking; (3) Walk hips closer to shoulder before extending to eliminate escape space; (4) Keep arm tight to chest throughout the entire finish; (5) Be prepared to transition to triangle or back take if they defend; (6) Release immediately on tap regardless of competition intensity. The fastest finishes come from perfect position, not explosive force. Remember that even in competition, intentionally injuring an opponent with a spike or jerk is unsportsmanlike and potentially illegal.",
+      "safety_critical": true
     }
   ],
   "training_progressions_and_safety_protocols": [
@@ -307,30 +337,21 @@
     "North-South"
   ],
   "related_submissions": [
-    "Triangle from Mount",
+    "Triangle Choke",
     "Americana from Mount",
-    "Ezekiel from Mount",
-    "Kimura from Mount",
+    "Ezekiel Choke",
+    "Kimura",
     "Armbar from Guard",
     "Armbar from Side Control",
     "Armbar from Back",
-    "Straight Armbar",
-    "Reverse Armbar",
     "Far Side Armbar",
     "Belly Down Armbar",
-    "Flying Armbar",
-    "Rolling Armbar",
-    "Spinning Armbar",
     "Armbar Finish"
   ],
   "related_content": [
     {
       "name": "Mount",
       "relationship": "Primary starting position for this submission"
-    },
-    {
-      "name": "Mount Control",
-      "relationship": "Essential control position before attempting armbar"
     },
     {
       "name": "High Mount",
@@ -349,7 +370,7 @@
       "relationship": "Submission chain option from mount attacks"
     },
     {
-      "name": "Kimura",
+      "name": "Kimura Trap",
       "relationship": "Alternative submission targeting opposite arm"
     },
     {
@@ -357,20 +378,16 @@
       "relationship": "Lower-risk joint lock alternative from mount"
     },
     {
-      "name": "Mount to Armbar",
-      "relationship": "Transition technique connecting position to submission"
+      "name": "Armbar Control",
+      "relationship": "Control position for finishing the armbar"
     },
     {
-      "name": "Triangle to Armbar",
-      "relationship": "Common submission chain when triangle is defended"
+      "name": "Technical Mount",
+      "relationship": "Transitional position for armbar setup"
     },
     {
-      "name": "Submission Chains",
-      "relationship": "Conceptual framework for linking mount attacks"
-    },
-    {
-      "name": "Control Maintenance",
-      "relationship": "Principle essential for successful mount attacks"
+      "name": "Back Control",
+      "relationship": "Alternative position when opponent turns during armbar"
     }
   ]
 }

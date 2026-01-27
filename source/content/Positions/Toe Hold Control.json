@@ -2,7 +2,7 @@
   "name": "Toe Hold Control",
   "slug": "toe-hold-control",
   "description": "Master Toe Hold Control position in BJJ. Strategic guide covering ankle isolation mechanics, submission setup principles, and defensive protocols with complete perspective analysis.",
-  "variant_uniqueness": "Ankle rotation attack with joint isolation",
+  "variant_uniqueness": "Ankle rotation trades control for injury risk",
   "overview": "Toe Hold Control represents a specialized leg entanglement position where rotational pressure is applied to the ankle joint through a figure-four grip configuration, creating one of Brazilian Jiu-Jitsu's most technically demanding submission control scenarios. This position exists at a critical junction in modern leg lock systems, serving as both a legitimate finishing threat and a transitional hub that facilitates movement throughout the leg entanglement hierarchy. The mechanical advantage derives from isolating the opponent's foot while controlling their leg's orientation, allowing the attacking practitioner to generate torque against the ankle's ligamentous structures through precise wrist and forearm positioning.\n\nThe position's strategic significance lies in its dual nature as both offensive weapon and positional gateway. From the top perspective, practitioners must balance immediate submission opportunity against the risk of overcommitment, maintaining secondary control points that preserve dominance even when the primary ankle attack is defended. The bottom perspective demands systematic defensive protocols that address both the immediate injury threat and the broader positional context, as panicked reactions often accelerate submission completion or worsen entanglement scenarios. Understanding proper grip configurations, body positioning relative to the opponent's leg, and the relationship between knee line control and ankle vulnerability forms the technical foundation for success in this position.\n\nToe Hold Control occupies a unique space in the leg lock ecosystem, particularly valuable in rulesets where heel hooks face restrictions. The position teaches fundamental principles of joint isolation, progressive pressure application, and the critical relationship between control and submission that applies across all leg entanglement scenarios. Modern practitioners view this position not as an isolated technique but as an integral component of systematic leg attack sequences, where transitions between ankle locks, toe holds, heel hooks, and kneebars flow seamlessly based on defensive reactions. Mastery requires understanding both the immediate mechanical application and the broader strategic context within comprehensive leg lock systems.",
   "key_principles": [
     "Ankle isolation requires complete foot control before rotational pressure begins, preventing escape and ensuring safe submission application",
@@ -63,6 +63,278 @@
       "relationship": "General guard category that bottom player seeks to recover after escaping toe hold control entirely"
     }
   ],
+  "top": {
+    "overview": "Toe Hold Control Top is an advanced leg entanglement position where the top practitioner controls the opponent's leg with the goal of executing a toe hold submission. This position is characterized by the top player securing the opponent's foot in their armpit while establishing control over the lower leg, creating a direct path to the toe hold finish. The position requires precise ankle isolation and proper grip configuration to prevent escapes while maintaining the structural integrity needed for submission application. As a top-side leg entanglement position, Toe Hold Control Top offers significant offensive advantages through the combination of postural control and isolated joint attack. The top player maintains superior leverage by controlling the opponent's leg across their body while using their bodyweight and arm configuration to create rotational pressure on the ankle joint. This position is frequently entered from various ashi garami variations, saddle positions, or during leg entanglement transitions when the opponent's foot becomes exposed. Success in this position depends on maintaining proper distance management to prevent the opponent from sitting up while simultaneously securing the mechanical advantage necessary for the toe hold finish. The position exemplifies modern leg lock methodology where control precedes submission, emphasizing positional dominance before attempting the finish.",
+    "state_properties": {
+      "point_value": 0,
+      "position_type": "Offensive/Controlling",
+      "risk_level": "Medium",
+      "energy_cost": "Medium",
+      "time_sustainability": "Short to Medium"
+    },
+    "state_invariants": [
+      "Top player's chest positioned over opponent's lower leg with bodyweight creating downward pressure preventing leg extraction while maintaining forward pressure on the knee line",
+      "Opponent's foot secured deeply in top player's armpit with the toes pointing toward the ceiling, blade of the foot pressed against the lateral ribs for maximum rotational control",
+      "Top player's arms wrapped around opponent's ankle and foot with hands clasped in a figure-four or gable grip configuration, creating a closed system that isolates the ankle joint from the rest of the leg",
+      "Opponent's knee oriented either inward or outward depending on the toe hold variation being pursued, with the top player's hip positioning controlling the knee line to prevent rotational escape",
+      "Top player's base distributed across their knees and hips with sufficient weight distribution to prevent opponent from sitting up while maintaining mobility for angle adjustments"
+    ],
+    "prerequisites": [
+      "Successful entry from ashi garami position with foot isolated from hip control",
+      "Opponent's foot exposed and accessible for grip establishment",
+      "Top player has established superior angle preventing immediate leg extraction",
+      "Proper distance management achieved to control opponent's upper body posture",
+      "Initial control of opponent's leg preventing immediate defensive rotation"
+    ],
+    "key_principles": [
+      "Maintain deep foot positioning in armpit with consistent pressure against the ribcage to maximize rotational leverage on the ankle joint",
+      "Control opponent's knee line through hip positioning and body angle to prevent rotational escape and maintain structural integrity of the leg entanglement",
+      "Establish tight grip configuration around ankle with elbows close to body, eliminating space that allows foot extraction or grip breaking",
+      "Distribute bodyweight strategically to prevent opponent from sitting up while maintaining enough mobility to adjust angles for submission finishing",
+      "Keep opponent's leg isolated from their hip by maintaining proper distance and angle, preventing them from generating defensive power through hip extension",
+      "Monitor opponent's free leg positioning constantly to defend against counters and transitions while maintaining primary leg control",
+      "Progress control systematically from position establishment to grip refinement to submission application, never rushing the finish before control is absolute"
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent maintains flat posture and cannot sit up",
+        "actions": [
+          {
+            "technique": "Toe Hold",
+            "target": "game-over",
+            "probability": 75
+          },
+          {
+            "technique": "Outside Ashi Entry",
+            "target": "Outside Ashi-Garami",
+            "probability": 65
+          }
+        ]
+      },
+      {
+        "condition": "If opponent sits up and begins to extract their leg",
+        "actions": [
+          {
+            "technique": "Saddle Entry from Top",
+            "target": "Saddle",
+            "probability": 70
+          },
+          {
+            "technique": "Inside Ashi Entry",
+            "target": "Inside Ashi-Garami",
+            "probability": 60
+          }
+        ]
+      },
+      {
+        "condition": "If opponent extends leg and pushes away with straight leg",
+        "actions": [
+          {
+            "technique": "Kneebar from Top",
+            "target": "Kneebar Control",
+            "probability": 65
+          },
+          {
+            "technique": "Straight Ankle Lock",
+            "target": "Straight Ankle Lock Control",
+            "probability": 60
+          }
+        ]
+      },
+      {
+        "condition": "If opponent rotates knee outward and attempts to clear entanglement",
+        "actions": [
+          {
+            "technique": "Outside Ashi Entry",
+            "target": "Outside Ashi-Garami",
+            "probability": 70
+          },
+          {
+            "technique": "Toe Hold",
+            "target": "game-over",
+            "probability": 55
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Failing to secure deep foot positioning in the armpit before attempting the toe hold finish",
+        "consequence": "Opponent can extract their foot from the control, eliminating submission leverage and allowing complete escape from the leg entanglement",
+        "correction": "Establish complete foot isolation with the blade of the foot pressed against ribs before any rotational pressure is applied, ensuring the foot cannot slip out during the finish"
+      },
+      {
+        "error": "Allowing opponent to sit up to a perpendicular angle while maintaining only foot control",
+        "consequence": "Opponent gains superior posture that enables powerful leg extraction through hip extension and creates opportunity for counter-attacks or complete position reversal",
+        "correction": "Maintain constant forward pressure with chest over opponent's lower leg and use body positioning to control the knee line, preventing the postural recovery that enables escape"
+      },
+      {
+        "error": "Gripping too high on the ankle or shin instead of isolating the foot itself",
+        "consequence": "Rotational pressure dissipates across larger surface area without concentrating force on the ankle joint, resulting in ineffective submission attempts and wasted energy",
+        "correction": "Secure grips specifically around the foot and lower ankle with hands clasped below the ankle joint, creating concentrated rotational leverage directly on the targeted structure"
+      },
+      {
+        "error": "Neglecting to control opponent's free leg positioning during toe hold setup",
+        "consequence": "Opponent uses free leg to push on hip or knee, creating distance that facilitates leg extraction or enables them to sit up and escape the position entirely",
+        "correction": "Monitor free leg constantly and use hip positioning or knee pressure to limit opponent's ability to generate pushing power with their non-trapped leg"
+      },
+      {
+        "error": "Rotating the foot too quickly without establishing structural control of the position",
+        "consequence": "Premature rotation alerts opponent to submission danger before control is absolute, triggering explosive defensive reactions that may result in losing the position or injury to opponent",
+        "correction": "Follow systematic progression of control establishment, grip refinement, and only then submission application, ensuring opponent has no escape before applying rotational pressure"
+      },
+      {
+        "error": "Maintaining static position without adjusting angle based on opponent's defensive reactions",
+        "consequence": "Opponent finds consistent escape route through predictable positioning, eventually extracting their leg or reversing position through superior adaptability",
+        "correction": "Continuously adjust body angle and hip positioning in response to opponent's movements, maintaining control through dynamic positioning rather than static strength"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Toe Hold Control Establishment Drill",
+        "description": "Partner starts in ashi garami bottom position with foot exposed. Top player practices securing deep foot positioning in armpit, establishing proper grip configuration, and controlling knee line through hip positioning. Focus on systematic progression from initial entry to complete control without rushing to submission. Perform 5 repetitions per side with partner providing progressive resistance levels.",
+        "duration": "5 minutes per side"
+      },
+      {
+        "name": "Positional Sparring from Toe Hold Control Top",
+        "description": "Begin in established toe hold control top position with proper grips secured. Bottom player attempts various escape sequences including sitting up, leg extraction, and rotation while top player maintains position and transitions between ashi garami variations and toe hold finishing positions. Reset when bottom player escapes or top player achieves submission position.",
+        "duration": "3-minute rounds"
+      },
+      {
+        "name": "Submission Sequence Flow Drill",
+        "description": "Top player flows between toe hold control, outside ashi, inside ashi, and saddle positions based on partner's defensive movements. Partner provides realistic but controlled resistance, creating scenarios that require position adjustment and transitional control. Practice maintaining connection through all transitions without allowing leg extraction. 10 complete flow sequences per side.",
+        "duration": "8 minutes"
+      },
+      {
+        "name": "Defensive Counter Recognition Drill",
+        "description": "Partner in bottom position performs specific escape attempts including hip escape, leg pullback, knee rotation, and sit-up at random intervals. Top player must recognize the escape type and execute appropriate counter-transition such as saddle entry, ashi variation change, or angle adjustment. Emphasize reaction speed and maintenance of control through defensive sequences. 15 defensive scenarios per round.",
+        "duration": "6 minutes per side"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Toe Hold Control Bottom",
+        "relationship": "Sibling variant representing defensive perspective of same position"
+      },
+      {
+        "name": "Toe Hold",
+        "relationship": "Primary submission finish from this position"
+      },
+      {
+        "name": "Outside Ashi-Garami",
+        "relationship": "Common transition target when opponent rotates knee outward"
+      },
+      {
+        "name": "Inside Ashi-Garami",
+        "relationship": "Alternative ashi position accessed through knee line rotation"
+      },
+      {
+        "name": "Saddle",
+        "relationship": "Advanced transition when opponent sits up or attempts leg extraction"
+      },
+      {
+        "name": "Straight Ankle Lock Control",
+        "relationship": "Alternative submission control position with similar leg entanglement"
+      },
+      {
+        "name": "Kneebar Control",
+        "relationship": "Transition target when opponent straightens leg during defense"
+      },
+      {
+        "name": "Leg Entanglement",
+        "relationship": "Fundamental concept governing all ashi-based positions and controls"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "beginner": 45,
+        "intermediate": 60,
+        "advanced": 75
+      },
+      "advancement_probability": {
+        "beginner": 35,
+        "intermediate": 55,
+        "advanced": 70
+      },
+      "submission_probability": {
+        "beginner": 30,
+        "intermediate": 50,
+        "advanced": 65
+      },
+      "average_time": "20-45 seconds"
+    },
+    "knowledge_assessment": [
+      {
+        "question": "What are the essential grips for maintaining toe hold control from the top position?",
+        "answer": "The essential grips involve a figure-four or gable grip configuration with both hands clasped around the opponent's foot and lower ankle. The opponent's foot should be secured deeply in the armpit with the blade of the foot pressed against the lateral ribs. Elbows must stay tight to the body to create a closed system that isolates the ankle joint and prevents foot extraction."
+      },
+      {
+        "question": "Your opponent starts to sit up and post on their elbows - what adjustment do you make?",
+        "answer": "Immediately apply forward pressure with your chest over their lower leg to drive them back down. Simultaneously adjust your hip positioning to maintain knee line control. If they continue to posture, transition to saddle entry by crossing your legs over their trapped leg, which converts their sit-up momentum into a deeper entanglement rather than allowing escape."
+      },
+      {
+        "question": "How should you distribute your weight to maintain positional dominance in toe hold control?",
+        "answer": "Weight should be distributed across your knees and hips with forward pressure applied through your chest onto the opponent's lower leg. This prevents them from sitting up while maintaining mobility for angle adjustments. Avoid settling your full weight static in one place - maintain dynamic balance that allows quick repositioning in response to escape attempts."
+      },
+      {
+        "question": "What is the primary escape your opponent will attempt and how do you shut it down?",
+        "answer": "The primary escape is the sit-up combined with leg extraction through hip extension. Shut this down by maintaining constant forward pressure on the knee line with your chest, keeping their leg isolated from their hip. Control their free leg positioning with your hips or knees to prevent them from generating pushing power that creates the space needed for extraction."
+      },
+      {
+        "question": "Your opponent rotates their knee outward attempting to clear the entanglement - what do you do?",
+        "answer": "Follow their rotation by transitioning to outside ashi-garami position. Their outward knee rotation actually improves your angle for outside heel hook entries. Maintain your grip on their foot while repositioning your legs to control the new angle. This converts their defensive movement into an offensive opportunity rather than allowing escape."
+      },
+      {
+        "question": "What grip priorities should you establish before attempting any rotational pressure?",
+        "answer": "First secure deep foot positioning with the blade pressed firmly against your ribs. Then establish the figure-four grip with hands clasped below the ankle joint. Control the knee line through hip positioning before any rotation. Only apply rotational pressure once these three control points are absolute - rushing the finish before complete control typically results in position loss."
+      },
+      {
+        "question": "How do you apply pressure progressively rather than explosively from toe hold control?",
+        "answer": "Begin with positional control and grip establishment without any rotational force. Then slowly increase rotational tension through controlled wrist rotation while monitoring your partner's response. This progressive application gives them clear tap opportunity and prevents injury. The distinction between controlled technique and dangerous force is the speed and warning - technical application is slow enough for recognition and tap."
+      },
+      {
+        "question": "After your opponent partially escapes but you maintain some grip control, how do you recover full position?",
+        "answer": "Do not attempt to re-establish the exact same position from weakened control. Instead, transition systematically through the leg lock hierarchy - if they've created distance, pursue outside ashi entry. If they've straightened their leg, transition to kneebar. Use their partial escape to enter a fresh attacking position rather than fighting to rebuild the degraded toe hold control."
+      }
+    ],
+    "name": "Toe Hold Control Top",
+    "description": "Master Toe Hold Control Top position in BJJ. Complete guide covering ankle isolation, submission setup, and defensive counters. Advanced leg lock position with high finish rates.",
+    "tags": [
+      "bjj",
+      "position",
+      "leg-locks",
+      "toe-hold",
+      "top-position",
+      "ashi-garami",
+      "submission-control"
+    ],
+    "transitions": [
+      {
+        "transition": "Toe Hold",
+        "attempt_probability": 17
+      },
+      {
+        "transition": "Outside Ashi Entry",
+        "attempt_probability": 18
+      },
+      {
+        "transition": "Inside Ashi Entry",
+        "attempt_probability": 17
+      },
+      {
+        "transition": "Saddle Entry from Top",
+        "attempt_probability": 16
+      },
+      {
+        "transition": "Straight Ankle Lock",
+        "attempt_probability": 17
+      },
+      {
+        "transition": "Kneebar from Top",
+        "attempt_probability": 15
+      }
+    ]
+  },
   "bottom": {
     "overview": "Toe Hold Control Bottom represents a defensive position within the leg entanglement hierarchy where the practitioner is caught in their opponent's toe hold attack configuration. This is a high-risk submission control position requiring immediate defensive awareness and systematic escape protocols. The bottom player faces direct threat to the ankle joint through rotational forces while managing limited mobility due to leg entanglement. Understanding proper defensive posture, grip fighting priorities, and escape mechanics is essential to prevent serious ankle injury. This position demands calm decision-making under pressure, as panicked movements can accelerate the submission or create worse entanglement scenarios. The defensive player must simultaneously address the immediate submission threat while working toward positional improvement, making this one of the more technically demanding defensive scenarios in modern leg lock systems. Success in this position relies on understanding both the mechanical vulnerabilities of the toe hold attack and the systematic pathways to extract the endangered leg while maintaining guard recovery options.",
     "state_properties": {
@@ -95,118 +367,13 @@
       "Grip fight aggressively on opponent's wrists and forearms to break toe hold configuration before addressing leg extraction",
       "Understand tap-early mentality where ankle injuries from toe holds can be severe and career-limiting, making preservation priority over positional pride"
     ],
-    "offensive_transitions": [
-      {
-        "technique": "Saddle Defense",
-        "target_position": "Ashi Garami",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 40,
-          "advanced": 60
-        }
-      },
-      {
-        "technique": "Ashi Garami Escape",
-        "target_position": "Half Guard",
-        "success_rates": {
-          "beginner": 20,
-          "intermediate": 35,
-          "advanced": 55
-        }
-      },
-      {
-        "technique": "Inside Ashi Entry",
-        "target_position": "Inside Ashi-Garami",
-        "success_rates": {
-          "beginner": 15,
-          "intermediate": 30,
-          "advanced": 50
-        }
-      },
-      {
-        "technique": "X-Guard to Ashi Transition",
-        "target_position": "X-Guard",
-        "success_rates": {
-          "beginner": 10,
-          "intermediate": 25,
-          "advanced": 45
-        }
-      },
-      {
-        "technique": "Guard Replacement",
-        "target_position": "Open Guard",
-        "success_rates": {
-          "beginner": 18,
-          "intermediate": 32,
-          "advanced": 48
-        }
-      },
-      {
-        "technique": "Deep Half Entry",
-        "target_position": "Deep Half Guard",
-        "success_rates": {
-          "beginner": 12,
-          "intermediate": 28,
-          "advanced": 42
-        }
-      }
-    ],
-    "defensive_responses": [
-      {
-        "technique": "Toe Hold",
-        "target_position": "Won by Submission",
-        "success_rate": 75
-      },
-      {
-        "technique": "Toe Hold from Top",
-        "target_position": "Won by Submission",
-        "success_rate": 70
-      },
-      {
-        "technique": "Saddle Entry from Top",
-        "target_position": "Saddle",
-        "success_rate": 55
-      },
-      {
-        "technique": "Outside Ashi Entry",
-        "target_position": "Outside Ashi-Garami",
-        "success_rate": 50
-      },
-      {
-        "technique": "Heel Hook",
-        "target_position": "Won by Submission",
-        "success_rate": 65
-      }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Ashi Garami Escape",
-        "target_position": "Open Guard",
-        "trigger": "Opponent loosens toe hold grip to readjust or switch to heel hook"
-      },
-      {
-        "technique": "Inside Ashi Entry",
-        "target_position": "Inside Ashi-Garami",
-        "trigger": "Opponent overcommits forward pressure allowing inside position on their leg"
-      },
-      {
-        "technique": "Single Leg X Entry",
-        "target_position": "Single Leg X-Guard",
-        "trigger": "Successfully clear toe hold grip and use free leg to elevate opponent"
-      },
-      {
-        "technique": "X-Guard to Ashi Transition",
-        "target_position": "X-Guard",
-        "trigger": "Extract endangered leg completely and establish hooks with both legs"
-      }
-    ],
     "decision_tree": [
       {
         "condition": "If opponent has completed full toe hold grip with figure-four and begins rotating ankle with significant pressure",
         "actions": [
           {
             "technique": "Tap Out",
-            "target": "Won by Submission",
+            "target": "game-over",
             "probability": 95
           },
           {
@@ -331,24 +498,6 @@
         "duration": "4 minutes"
       }
     ],
-    "optimal_submission_paths": [
-      {
-        "name": "Emergency Tap Protocol",
-        "path": "Toe Hold Control Bottom → Recognize severe ankle stress → Tap Out → Won by Submission"
-      },
-      {
-        "name": "Grip Break to Guard Recovery",
-        "path": "Toe Hold Control Bottom → Saddle Defense → Ashi Garami Escape → Half Guard"
-      },
-      {
-        "name": "Counter-Entanglement Pathway",
-        "path": "Toe Hold Control Bottom → Inside Ashi Entry → X-Guard to Ashi Transition → X-Guard"
-      },
-      {
-        "name": "Transition Window Exploitation",
-        "path": "Toe Hold Control Bottom → Ashi Garami Escape during grip change → Deep Half Entry → Deep Half Guard"
-      }
-    ],
     "related_content": [
       {
         "name": "Toe Hold Control Top",
@@ -371,7 +520,7 @@
         "relationship": "Primary submission threat from this position"
       },
       {
-        "name": "Heel Hook",
+        "name": "Inside Heel Hook",
         "relationship": "Common follow-up attack if opponent transitions from toe hold"
       },
       {
@@ -381,14 +530,6 @@
       {
         "name": "Ashi Garami Escape",
         "relationship": "Key escape pathway to safer positions"
-      },
-      {
-        "name": "systematic approach Leg Lock System",
-        "relationship": "Expert system providing theoretical framework for leg entanglement defense"
-      },
-      {
-        "name": "Lachlan Giles Leg Lock Defense Framework",
-        "relationship": "Expert defensive system specific to leg lock escapes and prevention"
       },
       {
         "name": "Leg Entanglement",
@@ -413,6 +554,40 @@
       },
       "average_time": "10-30 seconds"
     },
+    "knowledge_assessment": [
+      {
+        "question": "What is your immediate priority the moment you recognize you are caught in toe hold control?",
+        "answer": "The immediate priority is protecting the ankle by internally rotating your trapped foot (pointing toes toward your opposite leg) to hide the heel and limit rotational leverage. Simultaneously, use both hands to control opponent's wrists and prevent them from completing the figure-four grip or applying additional rotational pressure. This buys time for systematic escape rather than allowing immediate submission threat."
+      },
+      {
+        "question": "Your opponent begins applying rotational pressure to your ankle - what are the warning signs you should tap?",
+        "answer": "Tap immediately when you feel significant rotational stress on the ankle joint with no escape available, when the knee begins to torque in an unnatural direction, or when grip breaking attempts are failing against locked submission mechanics. With toe holds, the injury timeline is extremely short - ligament damage can occur within fractions of a second once the breaking mechanics are applied. Career longevity is more valuable than any single training round."
+      },
+      {
+        "question": "How should you use your free leg defensively from toe hold control bottom?",
+        "answer": "Keep your free leg actively engaged by framing on opponent's hips to create distance, hooking their far leg to limit their mobility, or preparing counter-entanglement positions. Never leave it passive or straight. The free leg creates space for grip breaks, prevents opponent from tightening control, and sets up escape pathways to X-guard or single leg X positions when grips are cleared."
+      },
+      {
+        "question": "What is the correct sequence for escaping - grip break first or leg extraction first?",
+        "answer": "Always prioritize grip breaking before leg extraction. Attempting to extract your leg while opponent maintains the toe hold grip is ineffective and dangerous - they simply re-establish control after failed escape attempts. Use two-on-one wrist control to break the figure-four configuration first, eliminating the submission threat, then systematically extract your leg through angular movement rather than straight pulling."
+      },
+      {
+        "question": "Your opponent loosens their grip momentarily to transition to heel hook - what opportunity does this create?",
+        "answer": "This grip transition creates a critical window for escape. Use this moment to establish inside position on their leg through inside ashi entry, or immediately work guard replacement to open guard. The grip loosening during transitions is often the best escape opportunity you'll get - recognize and exploit it immediately rather than waiting for them to settle into a new control position."
+      },
+      {
+        "question": "Why is maintaining upper body posture so important from toe hold control bottom?",
+        "answer": "Upper body posture on elbows or sitting provides the ability to create angles, generate leverage for grip breaks, and use your upper body weight to assist escapes. When flattened completely on your back, you lose all these mechanical advantages - you cannot effectively fight grips, create hip movement, or transition to counter positions. Active upper body posture maintains your defensive options throughout the escape sequence."
+      },
+      {
+        "question": "What knee orientation should you maintain with your trapped leg and why?",
+        "answer": "Keep your endangered knee pointed toward your opponent throughout the defensive sequence. External knee rotation dramatically increases rotational leverage on your ankle joint, accelerating submission danger exponentially. Use hip internal rotation to protect ankle alignment - this reduces the mechanical advantage your opponent has for the toe hold finish while you work systematic grip breaks and escape."
+      },
+      {
+        "question": "After successfully breaking opponent's grip control, how do you safely complete the escape?",
+        "answer": "Extract your leg through controlled angular movement rather than straight pulling - circle your knee toward your chest while maintaining internal rotation of the foot. Immediately establish distance by recovering to open guard, X-guard, or single leg X-guard with your free leg creating hooks for control. Never remain in range after grip clearance as this allows immediate re-entry to the leg entanglement."
+      }
+    ],
     "name": "Toe Hold Control Bottom",
     "description": "Master Toe Hold Control Bottom position in BJJ. Defensive guide covering escape mechanics, counter-attacks, and safety protocols.",
     "tags": [
@@ -424,353 +599,32 @@
       "submission-defense",
       "ashi-garami",
       "leg-entanglement"
-    ]
-  },
-  "top": {
-    "overview": "Toe Hold Control Top is an advanced leg entanglement position where the top practitioner controls the opponent's leg with the goal of executing a toe hold submission. This position is characterized by the top player securing the opponent's foot in their armpit while establishing control over the lower leg, creating a direct path to the toe hold finish. The position requires precise ankle isolation and proper grip configuration to prevent escapes while maintaining the structural integrity needed for submission application. As a top-side leg entanglement position, Toe Hold Control Top offers significant offensive advantages through the combination of postural control and isolated joint attack. The top player maintains superior leverage by controlling the opponent's leg across their body while using their bodyweight and arm configuration to create rotational pressure on the ankle joint. This position is frequently entered from various ashi garami variations, saddle positions, or during leg entanglement transitions when the opponent's foot becomes exposed. Success in this position depends on maintaining proper distance management to prevent the opponent from sitting up while simultaneously securing the mechanical advantage necessary for the toe hold finish. The position exemplifies modern leg lock methodology where control precedes submission, emphasizing positional dominance before attempting the finish.",
-    "state_properties": {
-      "point_value": 0,
-      "position_type": "Offensive/Controlling",
-      "risk_level": "Medium",
-      "energy_cost": "Medium",
-      "time_sustainability": "Short to Medium"
-    },
-    "state_invariants": [
-      "Top player's chest positioned over opponent's lower leg with bodyweight creating downward pressure preventing leg extraction while maintaining forward pressure on the knee line",
-      "Opponent's foot secured deeply in top player's armpit with the toes pointing toward the ceiling, blade of the foot pressed against the lateral ribs for maximum rotational control",
-      "Top player's arms wrapped around opponent's ankle and foot with hands clasped in a figure-four or gable grip configuration, creating a closed system that isolates the ankle joint from the rest of the leg",
-      "Opponent's knee oriented either inward or outward depending on the toe hold variation being pursued, with the top player's hip positioning controlling the knee line to prevent rotational escape",
-      "Top player's base distributed across their knees and hips with sufficient weight distribution to prevent opponent from sitting up while maintaining mobility for angle adjustments"
     ],
-    "prerequisites": [
-      "Successful entry from ashi garami position with foot isolated from hip control",
-      "Opponent's foot exposed and accessible for grip establishment",
-      "Top player has established superior angle preventing immediate leg extraction",
-      "Proper distance management achieved to control opponent's upper body posture",
-      "Initial control of opponent's leg preventing immediate defensive rotation"
-    ],
-    "key_principles": [
-      "Maintain deep foot positioning in armpit with consistent pressure against the ribcage to maximize rotational leverage on the ankle joint",
-      "Control opponent's knee line through hip positioning and body angle to prevent rotational escape and maintain structural integrity of the leg entanglement",
-      "Establish tight grip configuration around ankle with elbows close to body, eliminating space that allows foot extraction or grip breaking",
-      "Distribute bodyweight strategically to prevent opponent from sitting up while maintaining enough mobility to adjust angles for submission finishing",
-      "Keep opponent's leg isolated from their hip by maintaining proper distance and angle, preventing them from generating defensive power through hip extension",
-      "Monitor opponent's free leg positioning constantly to defend against counters and transitions while maintaining primary leg control",
-      "Progress control systematically from position establishment to grip refinement to submission application, never rushing the finish before control is absolute"
-    ],
-    "offensive_transitions": [
+    "transitions": [
       {
-        "technique": "Toe Hold",
-        "target_position": "Won by Submission",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 55,
-          "advanced": 75
-        }
+        "transition": "Saddle Defense",
+        "attempt_probability": 20
       },
       {
-        "technique": "Outside Ashi Entry",
-        "target_position": "Outside Ashi-Garami",
-        "success_rates": {
-          "beginner": 50,
-          "intermediate": 65,
-          "advanced": 80
-        }
+        "transition": "Ashi Garami Escape",
+        "attempt_probability": 18
       },
       {
-        "technique": "Inside Ashi Entry",
-        "target_position": "Inside Ashi-Garami",
-        "success_rates": {
-          "beginner": 45,
-          "intermediate": 60,
-          "advanced": 75
-        }
+        "transition": "Inside Ashi Entry",
+        "attempt_probability": 17
       },
       {
-        "technique": "Saddle Entry from Top",
-        "target_position": "Saddle",
-        "success_rates": {
-          "beginner": 40,
-          "intermediate": 55,
-          "advanced": 70
-        }
+        "transition": "X-Guard to Ashi Transition",
+        "attempt_probability": 15
       },
       {
-        "technique": "Straight Ankle Lock",
-        "target_position": "Straight Ankle Lock Control",
-        "success_rates": {
-          "beginner": 45,
-          "intermediate": 60,
-          "advanced": 75
-        }
+        "transition": "Guard Replacement",
+        "attempt_probability": 16
       },
       {
-        "technique": "Kneebar from Top",
-        "target_position": "Kneebar Control",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 45,
-          "advanced": 65
-        }
+        "transition": "Deep Half Entry",
+        "attempt_probability": 14
       }
-    ],
-    "defensive_responses": [
-      {
-        "technique": "Ashi Garami Escape",
-        "target_position": "Open Guard",
-        "success_rate": 35
-      },
-      {
-        "technique": "Hip Escape",
-        "target_position": "Open Guard",
-        "success_rate": 40
-      },
-      {
-        "technique": "Saddle Defense",
-        "target_position": "Half Guard",
-        "success_rate": 30
-      },
-      {
-        "technique": "Technical Standup",
-        "target_position": "Standing Position",
-        "success_rate": 25
-      },
-      {
-        "technique": "Rolling Back Take",
-        "target_position": "Back Control",
-        "success_rate": 20
-      }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Saddle Entry from Top",
-        "target_position": "Saddle",
-        "trigger": "Opponent attempts to pull their leg back and sit up to escape"
-      },
-      {
-        "technique": "Outside Ashi Entry",
-        "target_position": "Outside Ashi-Garami",
-        "trigger": "Opponent rotates their knee outward attempting to clear the entanglement"
-      },
-      {
-        "technique": "Kneebar from Top",
-        "target_position": "Kneebar Control",
-        "trigger": "Opponent extends their leg straight while attempting to kick free"
-      },
-      {
-        "technique": "Inside Ashi Entry",
-        "target_position": "Inside Ashi-Garami",
-        "trigger": "Opponent rotates their knee inward and attempts to turn away"
-      }
-    ],
-    "decision_tree": [
-      {
-        "condition": "If opponent maintains flat posture and cannot sit up",
-        "actions": [
-          {
-            "technique": "Toe Hold",
-            "target": "Won by Submission",
-            "probability": 75
-          },
-          {
-            "technique": "Outside Ashi Entry",
-            "target": "Outside Ashi-Garami",
-            "probability": 65
-          }
-        ]
-      },
-      {
-        "condition": "If opponent sits up and begins to extract their leg",
-        "actions": [
-          {
-            "technique": "Saddle Entry from Top",
-            "target": "Saddle",
-            "probability": 70
-          },
-          {
-            "technique": "Inside Ashi Entry",
-            "target": "Inside Ashi-Garami",
-            "probability": 60
-          }
-        ]
-      },
-      {
-        "condition": "If opponent extends leg and pushes away with straight leg",
-        "actions": [
-          {
-            "technique": "Kneebar from Top",
-            "target": "Kneebar Control",
-            "probability": 65
-          },
-          {
-            "technique": "Straight Ankle Lock",
-            "target": "Straight Ankle Lock Control",
-            "probability": 60
-          }
-        ]
-      },
-      {
-        "condition": "If opponent rotates knee outward and attempts to clear entanglement",
-        "actions": [
-          {
-            "technique": "Outside Ashi Entry",
-            "target": "Outside Ashi-Garami",
-            "probability": 70
-          },
-          {
-            "technique": "Toe Hold",
-            "target": "Won by Submission",
-            "probability": 55
-          }
-        ]
-      }
-    ],
-    "common_errors": [
-      {
-        "error": "Failing to secure deep foot positioning in the armpit before attempting the toe hold finish",
-        "consequence": "Opponent can extract their foot from the control, eliminating submission leverage and allowing complete escape from the leg entanglement",
-        "correction": "Establish complete foot isolation with the blade of the foot pressed against ribs before any rotational pressure is applied, ensuring the foot cannot slip out during the finish"
-      },
-      {
-        "error": "Allowing opponent to sit up to a perpendicular angle while maintaining only foot control",
-        "consequence": "Opponent gains superior posture that enables powerful leg extraction through hip extension and creates opportunity for counter-attacks or complete position reversal",
-        "correction": "Maintain constant forward pressure with chest over opponent's lower leg and use body positioning to control the knee line, preventing the postural recovery that enables escape"
-      },
-      {
-        "error": "Gripping too high on the ankle or shin instead of isolating the foot itself",
-        "consequence": "Rotational pressure dissipates across larger surface area without concentrating force on the ankle joint, resulting in ineffective submission attempts and wasted energy",
-        "correction": "Secure grips specifically around the foot and lower ankle with hands clasped below the ankle joint, creating concentrated rotational leverage directly on the targeted structure"
-      },
-      {
-        "error": "Neglecting to control opponent's free leg positioning during toe hold setup",
-        "consequence": "Opponent uses free leg to push on hip or knee, creating distance that facilitates leg extraction or enables them to sit up and escape the position entirely",
-        "correction": "Monitor free leg constantly and use hip positioning or knee pressure to limit opponent's ability to generate pushing power with their non-trapped leg"
-      },
-      {
-        "error": "Rotating the foot too quickly without establishing structural control of the position",
-        "consequence": "Premature rotation alerts opponent to submission danger before control is absolute, triggering explosive defensive reactions that may result in losing the position or injury to opponent",
-        "correction": "Follow systematic progression of control establishment, grip refinement, and only then submission application, ensuring opponent has no escape before applying rotational pressure"
-      },
-      {
-        "error": "Maintaining static position without adjusting angle based on opponent's defensive reactions",
-        "consequence": "Opponent finds consistent escape route through predictable positioning, eventually extracting their leg or reversing position through superior adaptability",
-        "correction": "Continuously adjust body angle and hip positioning in response to opponent's movements, maintaining control through dynamic positioning rather than static strength"
-      }
-    ],
-    "training_drills": [
-      {
-        "name": "Toe Hold Control Establishment Drill",
-        "description": "Partner starts in ashi garami bottom position with foot exposed. Top player practices securing deep foot positioning in armpit, establishing proper grip configuration, and controlling knee line through hip positioning. Focus on systematic progression from initial entry to complete control without rushing to submission. Perform 5 repetitions per side with partner providing progressive resistance levels.",
-        "duration": "5 minutes per side"
-      },
-      {
-        "name": "Positional Sparring from Toe Hold Control Top",
-        "description": "Begin in established toe hold control top position with proper grips secured. Bottom player attempts various escape sequences including sitting up, leg extraction, and rotation while top player maintains position and transitions between ashi garami variations and toe hold finishing positions. Reset when bottom player escapes or top player achieves submission position.",
-        "duration": "3-minute rounds"
-      },
-      {
-        "name": "Submission Sequence Flow Drill",
-        "description": "Top player flows between toe hold control, outside ashi, inside ashi, and saddle positions based on partner's defensive movements. Partner provides realistic but controlled resistance, creating scenarios that require position adjustment and transitional control. Practice maintaining connection through all transitions without allowing leg extraction. 10 complete flow sequences per side.",
-        "duration": "8 minutes"
-      },
-      {
-        "name": "Defensive Counter Recognition Drill",
-        "description": "Partner in bottom position performs specific escape attempts including hip escape, leg pullback, knee rotation, and sit-up at random intervals. Top player must recognize the escape type and execute appropriate counter-transition such as saddle entry, ashi variation change, or angle adjustment. Emphasize reaction speed and maintenance of control through defensive sequences. 15 defensive scenarios per round.",
-        "duration": "6 minutes per side"
-      }
-    ],
-    "optimal_submission_paths": [
-      {
-        "name": "Direct finish path from established control",
-        "path": "Toe Hold Control Top → Toe Hold → Won by Submission"
-      },
-      {
-        "name": "Ashi variation adjustment path",
-        "path": "Toe Hold Control Top → Outside Ashi-Garami → Toe Hold → Won by Submission"
-      },
-      {
-        "name": "Saddle transition path for resistant opponents",
-        "path": "Toe Hold Control Top → Saddle Entry from Top → Saddle → Toe Hold → Won by Submission"
-      },
-      {
-        "name": "Straight ankle backup path",
-        "path": "Toe Hold Control Top → Straight Ankle Lock Control → Straight Ankle Lock → Won by Submission"
-      },
-      {
-        "name": "Extended leg exploitation path",
-        "path": "Toe Hold Control Top → Kneebar Control → Kneebar from Top → Won by Submission"
-      }
-    ],
-    "related_content": [
-      {
-        "name": "Toe Hold Control Bottom",
-        "relationship": "Sibling variant representing defensive perspective of same position"
-      },
-      {
-        "name": "Toe Hold",
-        "relationship": "Primary submission finish from this position"
-      },
-      {
-        "name": "Outside Ashi-Garami",
-        "relationship": "Common transition target when opponent rotates knee outward"
-      },
-      {
-        "name": "Inside Ashi-Garami",
-        "relationship": "Alternative ashi position accessed through knee line rotation"
-      },
-      {
-        "name": "Saddle",
-        "relationship": "Advanced transition when opponent sits up or attempts leg extraction"
-      },
-      {
-        "name": "Straight Ankle Lock Control",
-        "relationship": "Alternative submission control position with similar leg entanglement"
-      },
-      {
-        "name": "systematic approach Leg Lock System",
-        "relationship": "Systematic framework governing position hierarchy and transition logic"
-      },
-      {
-        "name": "Craig Jones Leg Lock System",
-        "relationship": "Modern application methodology emphasizing control before submission"
-      },
-      {
-        "name": "Leg Entanglement",
-        "relationship": "Fundamental concept governing all ashi-based positions and controls"
-      },
-      {
-        "name": "Submission Control Position",
-        "relationship": "Conceptual framework for maintaining dominant position during submission attempts"
-      }
-    ],
-    "position_metrics": {
-      "retention_rate": {
-        "beginner": 45,
-        "intermediate": 60,
-        "advanced": 75
-      },
-      "advancement_probability": {
-        "beginner": 35,
-        "intermediate": 55,
-        "advanced": 70
-      },
-      "submission_probability": {
-        "beginner": 30,
-        "intermediate": 50,
-        "advanced": 65
-      },
-      "average_time": "20-45 seconds"
-    },
-    "name": "Toe Hold Control Top",
-    "description": "Master Toe Hold Control Top position in BJJ. Complete guide covering ankle isolation, submission setup, and defensive counters. Advanced leg lock position with high finish rates.",
-    "tags": [
-      "bjj",
-      "position",
-      "leg-locks",
-      "toe-hold",
-      "top-position",
-      "ashi-garami",
-      "submission-control"
     ]
   }
 }

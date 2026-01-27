@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Re-Guard from Headquarters | BJJ Technique | BJJ Graph"
 description: "Master re-guard recovery from Headquarters position. Learn systematic guard recovery methods. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%."
@@ -16,7 +17,7 @@ description: "Master re-guard recovery from Headquarters position. Learn systema
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Re-Guard from Headquarters in BJJ",
-  "description": "Step-by-step guide for Re-Guard from Headquarters from Headquarters Position to Guard Recovery.",
+  "description": "Step-by-step guide for Re-Guard from Headquarters from Headquarters Position/Top. Possible outcomes: Guard Recovery/Bottom (65%), Headquarters Position/Top (25%), Headquarters Position/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -158,11 +159,25 @@ The essence of re-guarding from Headquarters lies in creating distance and frame
 
 Successful re-guarding from this position is fundamental to maintaining a strong defensive game. The ability to recover guard when a pass is nearly complete separates intermediate practitioners from advanced competitors. This technique builds upon fundamental concepts of guard retention, framing mechanics, and hip escape principles while requiring precise timing and spatial awareness to execute against resisting opponents.
 
-**Starting Position**: [[Headquarters Position]]
-**Ending Position**: [[Guard Recovery]]
+**From Position**: [[Headquarters Position/Top]]
 **Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Guard Recovery/Bottom]] | 65% |
+| Failure | [[Headquarters Position/Top]] | 25% |
+| Counter | [[Headquarters Position/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

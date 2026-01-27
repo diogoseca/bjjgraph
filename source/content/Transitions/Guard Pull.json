@@ -11,8 +11,6 @@
     "grip-fighting",
     "standing"
   ],
-  "starting_position": "Standing Position",
-  "ending_position": "Closed Guard",
   "success_rates": {
     "beginner": 65,
     "intermediate": 75,
@@ -286,6 +284,24 @@
     {
       "name": "Guard Retention",
       "relationship": "Follow-up skill requirement"
+    }
+  ],
+  "from_position": "Standing Position/Top",
+  "outcomes": [
+    {
+      "to": "Closed Guard/Bottom",
+      "probability": 75,
+      "result": "success"
+    },
+    {
+      "to": "Standing Position/Top",
+      "probability": 15,
+      "result": "failure"
+    },
+    {
+      "to": "Standing Position/Bottom",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

@@ -21,37 +21,37 @@ description: "Master Reverse De La Riva Guard Top passing in BJJ. Complete guide
     {
       "@type": "HowToStep",
       "name": "Execute RDLR Pass",
-      "text": "From this position, execute RDLR Pass to transition to Side Control. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt RDLR Pass. This technique is attempted in 14% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag Pass",
-      "text": "From this position, execute Leg Drag Pass to transition to Leg Drag Position. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 15% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, execute Knee Slice Pass to transition to Side Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Smash Pass",
-      "text": "From this position, execute Smash Pass to transition to Side Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Smash Pass. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Toreando Pass",
-      "text": "From this position, execute Toreando Pass to transition to Side Control. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Toreando Pass. This technique is attempted in 14% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Step",
-      "text": "From this position, execute Back Step to transition to Headquarters Position. Success rate for advanced practitioners: 80%.",
+      "text": "From this position, attempt Back Step. This technique is attempted in 19% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -213,84 +213,20 @@ The top player must navigate multiple decision points throughout the passing seq
 
 ## Available Attacks
 
-### [[RDLR Pass]] → [[Side Control]]
+### [[RDLR Pass]] (14% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Leg Drag Pass]] (15% of attempts)
 
-### [[Leg Drag Pass]] → [[Leg Drag Position]]
+### [[Knee Slice Pass]] (13% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 60%
-- Advanced: 75%
+### [[Smash Pass]] (12% of attempts)
 
-### [[Knee Slice Pass]] → [[Side Control]]
+### [[Toreando Pass]] (14% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Back Step]] (19% of attempts)
 
-### [[Smash Pass]] → [[Side Control]]
+### [[Long Step Pass]] (13% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[Toreando Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 55%
-- Advanced: 70%
-
-### [[Back Step]] → [[Headquarters Position]]
-
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 65%
-- Advanced: 80%
-
-### [[Long Step Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 65%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[De La Riva Sweep]]** → [[Defensive Position]] (Opponent Success: 25%)
-- **[[Berimbolo Entry]]** → [[Back Control]] (Opponent Success: 30%)
-- **[[Reverse De La Riva Recovery]]** → [[Combat Base]] (Opponent Success: 50%)
-- **[[Single Leg X Entry]]** → [[Single Leg X-Guard]] (Opponent Success: 35%)
-- **[[Ashi Garami Escape]]** → [[Ashi Garami]] (Opponent Success: 20%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Back Step]]** → [[Headquarters Position]]
-  - Bottom player attempts kiss of the dragon or berimbolo inversion, beginning to rotate underneath your base
-- **[[Leg Drag Pass]]** → [[Leg Drag Position]]
-  - Bottom player loses reverse De La Riva hook structure or ankle grip control, creating passing opportunity
-- **[[Smash Pass]]** → [[Side Control]]
-  - Bottom player flattens out or loses far leg posting on hip, allowing pressure consolidation
-- **[[Bodylock Pass]]** → [[Side Control]]
-  - Bottom player over-commits to inversion or back exposure attempt, creating bodylock opportunity
 
 
 </section>
@@ -414,29 +350,39 @@ Bottom player can transition freely between reverse De La Riva, X-Guard, Single 
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Passing to Side Control Submission Path
+## Test Your Knowledge
 
-`Reverse De La Riva Guard Top → Leg Drag Pass → Leg Drag Position → Side Control → Kimura from Side Control`
+**Q1**: Your opponent establishes a tight RDLR hook with strong ankle control and begins elevating their hips—what is your immediate priority?
+**A**: Your immediate priority is to address the ankle grip before attempting any other action. The ankle grip is the steering mechanism that controls the direction of the hook's rotational force. By breaking or controlling their wrist first, you neutralize their ability to direct sweeping momentum. Simultaneously, keep your hips back and widen your base to prevent them from getting underneath your center of gravity. Never attempt to strip the hook with vertical force, as this feeds directly into their sweeping mechanics.
 
-### Backstep to Mount Submission Path
+**Q2**: What are the essential grips and contact points for maintaining a stable passing position against RDLR?
+**A**: Essential grips include control of the far hip or pants to prevent rotation, collar or cross-face control to limit their upper body mobility and inversion capacity, and grip on their far leg (knee or ankle) to prevent effective framing. Your feet should maintain a wide base with posting on the hooking-side leg. The combination of upper body control and lower body management creates a unified system that prevents them from generating the rotational momentum needed for sweeps or back takes.
 
-`Reverse De La Riva Guard Top → Back Step → Headquarters Position → Knee Slice Pass → Mount → Armbar from Mount`
+**Q3**: How do you shut down berimbolo entries when the bottom player begins rotating their shoulders toward the mat?
+**A**: When you recognize shoulder rotation indicating berimbolo entry, immediately backstep your hooked leg while driving your chest forward and down toward their hips. This removes the space they need to complete the inversion while maintaining pressure. Your far hip grip becomes critical—use it to turn their hips away from you, preventing them from completing the rotation underneath. If they've already committed deeply, consider transitioning to a bodylock where you wrap their torso and drive them flat, eliminating their rotational capacity entirely.
 
-### Smash Pass to North-South Path
+**Q4**: What weight distribution adjustments prevent the waiter sweep when the bottom player drives forward pressure?
+**A**: Against forward pressure indicating waiter sweep setup, shift your weight backward by sitting your hips back while maintaining chest connection forward. This creates a counterbalance where your center of gravity stays behind the line of their hook rather than drifting over it. Widen your base laterally and post strongly on your near-side leg. If they commit heavily to the forward drive, use their momentum against them by backstepping and circling to leg drag position, converting their offensive pressure into your passing opportunity.
 
-`Reverse De La Riva Guard Top → Smash Pass → Side Control → North-South → North-South Choke`
+**Q5**: Your base gets compromised and the bottom player begins getting underneath you—how do you recover?
+**A**: If your base is compromised and they're getting underneath, immediately disengage rather than fighting from a losing position. Release your grips and backstep completely away from the guard, resetting to standing position. Attempting to maintain base once they have elevation advantage typically results in completed sweeps. After resetting, re-engage with proper headquarters positioning, addressing the ankle grip first before attempting to pass. This tactical retreat preserves position rather than giving up back exposure or completing a sweep for your opponent.
 
-### Toreando to Mount Path
+**Q6**: How should you manage energy when passing RDLR against an opponent with superior hip mobility?
+**A**: Against mobile opponents, avoid extended grip fighting exchanges at the hook level where their hip mobility gives them advantage. Instead, focus on systematic progression: establish upper body control first (collar tie or cross-face) to limit their inversion capacity before addressing the hook. Use pressure passing methodologies that keep them flat rather than float passing that allows hip elevation. Accept that you may need multiple passing attempts, maintaining headquarters position between attempts rather than forcing single committed passes that can be countered by their mobility.
 
-`Reverse De La Riva Guard Top → Toreando Pass → Side Control → Transition to Mount → Mount → Americana from Mount`
+**Q7**: The bottom player successfully transitions to X-Guard during your pass attempt—what immediate adjustments are required?
+**A**: Upon X-Guard transition, your priorities shift immediately: extract your trapped leg by stepping back forcefully while posting your free leg wide for base. Do not attempt to continue the original passing trajectory. Control their far leg (the one elevating your hip) by gripping the ankle and pushing it down toward the mat. Establish upper body control through collar or shoulder pressure to prevent them from generating sweeping momentum. From there, you can attempt long step passing around their X-Guard structure or backstep to reset to headquarters position against a less developed guard.
+
+**Q8**: What visual and tactile cues indicate the bottom player is about to attempt kiss of the dragon?
+**A**: Visual cues include their head beginning to lower toward the mat, shoulders rotating toward you, and hips elevating higher than their normal guard position. Tactile cues include increased pulling pressure on your hooked leg toward their centerline, their far leg releasing its posting position to prepare for the roll, and a shift in their grip from ankle control to deeper hip or belt control. When you feel them loading your weight forward while their hips elevate, this indicates imminent kiss of the dragon entry. Immediate backstep and hip distance are required to prevent the technique.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -457,7 +403,7 @@ Bottom player can transition freely between reverse De La Riva, X-Guard, Single 
 
 ## Related Positions and Techniques
 
-- **[[Reverse De La Riva Guard Bottom]]** - Complementary perspective - bottom player's offensive guard position
+- **[[Reverse De La Riva Guard]]** - Hub position - this is the top perspective of the RDLR guard system
 - **[[De La Riva Guard]]** - Related guard position - similar passing challenges with different hook orientation
 - **[[Headquarters Position]]** - Transition target - intermediate control position during passing sequence
 - **[[Leg Drag Position]]** - Transition target - primary passing destination from RDLR top
@@ -466,8 +412,7 @@ Bottom player can transition freely between reverse De La Riva, X-Guard, Single 
 - **[[RDLR Pass]]** - Primary technique - specialized passing sequence for this position
 - **[[Back Step]]** - Primary technique - essential counter to inversion attempts and berimbolo entries
 - **[[Berimbolo Entry]]** - Defensive threat - bottom player's primary back-take system to defend against
-- **[[Guard Passing Principles]]** - Conceptual foundation - fundamental passing theory applicable to RDLR scenarios
-- **[[Pressure Passing]]** - Conceptual foundation - passing methodology applicable to smash passing from RDLR
+- **[[Side Control]]** - Target position - primary destination after successful guard pass
 
 
 </section>

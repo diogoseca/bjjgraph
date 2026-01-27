@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Triangle to Back | BJJ Technique | BJJ Graph"
 description: "Master the Triangle to Back transition in BJJ. Complete guide covering setup, execution, and back take mechanics. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%."
@@ -16,7 +17,7 @@ description: "Master the Triangle to Back transition in BJJ. Complete guide cove
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Triangle to Back in BJJ",
-  "description": "Step-by-step guide for Triangle to Back from Triangle Control to Back Control.",
+  "description": "Step-by-step guide for Triangle to Back from Triangle Control/Top. Possible outcomes: Back Control/Top (65%), Triangle Control/Top (25%), Triangle Control/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -160,11 +161,25 @@ description: "Master the Triangle to Back transition in BJJ. Complete guide cove
 
 The Triangle to Back transition represents an advanced positional flow that capitalizes on opponent defensive reactions within triangle control. When an opponent attempts to defend the triangle choke by posturing, stacking, or turning away, the attacker can redirect their control toward back exposure rather than forcing a low-percentage finish. This transition exemplifies the principle of following your opponent's energy rather than opposing it directly, converting a defended submission attempt into superior positional control. The technique is particularly valuable in competition scenarios where opponents are well-versed in triangle defense but may not anticipate the immediate shift to back attacks. By maintaining connection through the legs and upper body grips while rotating around the opponent's defensive posture, the practitioner creates a seamless pathway to the most dominant position in Brazilian Jiu-Jitsu.
 
-**Starting Position**: [[Triangle Control]]
-**Ending Position**: [[Back Control]]
+**From Position**: [[Triangle Control/Top]]
 **Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Back Control/Top]] | 65% |
+| Failure | [[Triangle Control/Top]] | 25% |
+| Counter | [[Triangle Control/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

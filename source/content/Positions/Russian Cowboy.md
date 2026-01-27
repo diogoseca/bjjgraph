@@ -93,26 +93,20 @@ The Russian Cowboy is particularly effective because it combines elements of bac
 - Never allow opponent to consolidate position - constant defensive movement required
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Granby Roll]]** → [[Open Guard]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 55%
+- **[[Granby Roll]]** (17% of attempts)
 
-- **[[Technical Standup]]** → [[Standing Guard]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 50%
+- **[[Technical Standup]]** (15% of attempts)
 
-- **[[Hip Escape]]** → [[Half Guard]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 60%
+- **[[Hip Escape]]** (18% of attempts)
 
-- **[[Rolling Back Take]]** → [[Scramble Position]]
-  - Success Rate: Beginner 10%, Intermediate 25%, Advanced 45%
+- **[[Rolling Back Take]]** (14% of attempts)
 
-- **[[Turtle Transition]]** → [[Turtle]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 65%
+- **[[Turtle Transition]]** (21% of attempts)
 
-- **[[Guard Replacement]]** → [[Closed Guard]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 50%
+- **[[Guard Replacement]]** (15% of attempts)
 
 
 ### Common Mistakes
@@ -166,32 +160,24 @@ The Russian Cowboy is particularly effective because it combines elements of bac
 - Use pressure through the hook to stretch opponent's body and expose vulnerability in their defense
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Truck Entry]]** → [[Truck]]
-  - Success Rate: Beginner 40%, Intermediate 60%, Advanced 80%
+- **[[Truck Entry]]** (14% of attempts)
 
-- **[[Twister Finish]]** → [[Twister Control]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 65%
+- **[[Twister Finish]]** (11% of attempts)
 
-- **[[Back Control to Crucifix]]** → [[Crucifix]]
-  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 75%
+- **[[Back Control to Crucifix]]** (13% of attempts)
 
-- **[[Rear Naked Choke]]** → [[Back Control]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 70%
+- **[[Rear Naked Choke]]** (12% of attempts)
 
-- **[[Calf Slicer from Truck]]** → [[Truck]]
-  - Success Rate: Beginner 20%, Intermediate 40%, Advanced 60%
+- **[[Calf Slicer from Truck]]** (11% of attempts)
 
-- **[[Bow and Arrow Choke]]** → [[Won by Submission]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 65%
+- **[[Bow and Arrow Choke]]** (11% of attempts)
 
-- **[[Turtle to Back Take]]** → [[Back Control]]
-  - Success Rate: Beginner 45%, Intermediate 65%, Advanced 85%
+- **[[Turtle to Back Take]]** (16% of attempts)
 
-- **[[Armbar from Back]]** → [[Armbar Control]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 70%
+- **[[Armbar from Back]]** (12% of attempts)
 
 
 ### Common Mistakes

@@ -12,8 +12,6 @@
     "attack",
     "top-position"
   ],
-  "starting_position": "Mount",
-  "ending_position": "Armbar Control",
   "success_rates": {
     "beginner": 30,
     "intermediate": 50,
@@ -254,6 +252,24 @@
     {
       "name": "Armbar Finish",
       "relationship": "Completion technique once armbar control is established"
+    }
+  ],
+  "from_position": "Mount/Top",
+  "outcomes": [
+    {
+      "to": "Armbar Control/Top",
+      "probability": 70,
+      "result": "success"
+    },
+    {
+      "to": "Mount/Top",
+      "probability": 20,
+      "result": "failure"
+    },
+    {
+      "to": "Mount/Bottom",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

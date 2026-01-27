@@ -20,38 +20,38 @@ description: "Master Leg Knot Bottom in BJJ. Defensive leg entanglement with sys
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Reverse the entanglement to Outside Ashi",
-      "text": "From this position, execute Reverse the entanglement to Outside Ashi to transition to Outside Ashi-Garami. Success rate for advanced practitioners: 50%.",
+      "name": "Execute 50-50 Entry",
+      "text": "From this position, attempt 50-50 Entry. This technique is attempted in 16% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Extract leg and establish Single Leg X",
-      "text": "From this position, execute Extract leg and establish Single Leg X to transition to Single Leg X-Guard. Success rate for advanced practitioners: 55%.",
+      "name": "Execute Single Leg X Entry",
+      "text": "From this position, attempt Single Leg X Entry. This technique is attempted in 17% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Granby roll to reverse position",
-      "text": "From this position, execute Granby roll to reverse position to transition to Ashi Garami. Success rate for advanced practitioners: 45%.",
+      "name": "Execute Granby Roll Escape",
+      "text": "From this position, attempt Granby Roll Escape. This technique is attempted in 14% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Clear leg and transition to X-Guard",
-      "text": "From this position, execute Clear leg and transition to X-Guard to transition to X-Guard. Success rate for advanced practitioners: 50%.",
+      "name": "Execute X-Guard Entry",
+      "text": "From this position, attempt X-Guard Entry. This technique is attempted in 16% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Counter-entangle to 50-50 Guard",
-      "text": "From this position, execute Counter-entangle to 50-50 Guard to transition to 50-50 Guard. Success rate for advanced practitioners: 55%.",
+      "name": "Execute 50-50 Guard to Single Leg X-Guard",
+      "text": "From this position, attempt 50-50 Guard to Single Leg X-Guard. This technique is attempted in 17% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Limp leg extraction to Half Guard",
-      "text": "From this position, execute Limp leg extraction to Half Guard to transition to Half Guard. Success rate for advanced practitioners: 60%.",
+      "name": "Execute Hip Escape to Half Guard",
+      "text": "From this position, attempt Hip Escape to Half Guard. This technique is attempted in 20% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -213,78 +213,18 @@ Success in Leg Knot Bottom requires understanding the hierarchical threat assess
 
 ## Available Escapes
 
-### [[Reverse the entanglement to Outside Ashi]] → [[Outside Ashi-Garami]]
+### [[50-50 Entry]] (16% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
+### [[Single Leg X Entry]] (17% of attempts)
 
-### [[Extract leg and establish Single Leg X]] → [[Single Leg X-Guard]]
+### [[Granby Roll Escape]] (14% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
+### [[X-Guard Entry]] (16% of attempts)
 
-### [[Granby roll to reverse position]] → [[Ashi Garami]]
+### [[50-50 Guard to Single Leg X-Guard]] (17% of attempts)
 
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 45%
+### [[Hip Escape to Half Guard]] (20% of attempts)
 
-### [[Clear leg and transition to X-Guard]] → [[X-Guard]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
-
-### [[Counter-entangle to 50-50 Guard]] → [[50-50 Guard]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-### [[Limp leg extraction to Half Guard]] → [[Half Guard]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Opponent consolidates to Saddle Position]]** → [[Saddle]] (Opponent Success: 40%)
-- **[[Opponent transitions to Inside Ashi-Garami]]** → [[Inside Ashi-Garami]] (Opponent Success: 35%)
-- **[[Opponent switches to Outside Ashi-Garami]]** → [[Outside Ashi-Garami]] (Opponent Success: 35%)
-- **[[Opponent establishes Heel Hook control]]** → [[Saddle]] (Opponent Success: 30%)
-- **[[Opponent secures Straight Ankle Lock]]** → [[Straight Ankle Lock Control]] (Opponent Success: 25%)
-- **[[Opponent applies Kneebar]]** → [[Kneebar Control]] (Opponent Success: 20%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Hip escape when opponent overcommits forward]]** → [[Half Guard]]
-  - Opponent drives forward aggressively for submission, creating space behind their hips
-- **[[Reverse entanglement when opponent switches legs]]** → [[Outside Ashi-Garami]]
-  - Opponent attempts to transition between different leg entanglements, creating momentary looseness
-- **[[Granby roll when heel is exposed]]** → [[Defensive Position]]
-  - Opponent secures heel grip and begins rotation for heel hook, requiring immediate defensive escape
-- **[[Clear leg and sit up when distance created]]** → [[Seated Guard]]
-  - Opponent's grip breaks or loosens, creating opportunity to extract the trapped leg completely
 
 
 </section>
@@ -294,7 +234,7 @@ Success in Leg Knot Bottom requires understanding the hierarchical threat assess
 ## Decision Making from This Position
 
 **If opponent secures heel grip and begins heel hook rotation:**
-- Execute **[[Immediate Granby roll escape]]** → [[Defensive Position]] (Probability: 60%)
+- Execute **[[Immediate Granby roll escape]]** → [[Open Guard]] (Probability: 60%)
 - Execute **[[Hide heel and turn into opponent]]** → [[50-50 Guard]] (Probability: 30%)
 
 
@@ -408,29 +348,39 @@ Start in Leg Knot Bottom position with specific goals: bottom player escapes to 
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Defensive escape to safety
+## Test Your Knowledge
 
-`Leg Knot Bottom → Hip escape → Half Guard → Distance creation → Open Guard`
+**Q1**: Your opponent secures your heel and begins rotating for a heel hook - what is your immediate defensive response?
+**A**: Immediately turn into the opponent (toward the attacking side) to hide the heel. Point your toes toward opponent's hip to protect heel exposure. Simultaneously use your free leg to push against their hip to create distance. If rotation has begun, initiate an emergency Granby roll to extract the leg before breaking mechanics are established. The key is speed - address the heel hook threat before attempting any positional escape.
 
-### Reversal to offensive leg attack
+**Q2**: What are the essential defensive frames for surviving Leg Knot Bottom?
+**A**: Essential frames include: free leg pushing against opponent's hip to control distance and prevent advancement, hands controlling opponent's attacking grips on your foot/ankle, upper body positioned on side (not flat) to maintain hip mobility, and elbows tight protecting against opponent's upper body advancement. The free leg is the most important framing tool as it can both create distance and begin offensive counter-attacks.
 
-`Leg Knot Bottom → Granby roll → Outside Ashi-Garami → Straight Ankle Lock`
+**Q3**: How do you shut down the opponent's primary attack of crossing your knee line to achieve Saddle?
+**A**: Maintain inside knee line by keeping your trapped leg's knee pointing inward at all times. Use your free leg to actively block opponent's attempts to triangulate or cross their leg over yours. If they begin crossing, immediately pump your knee upward while turning your hip toward them to prevent the cross. Consider preemptively counter-entangling to 50-50 rather than letting them achieve Saddle position.
 
-### Counter-entanglement to submission
+**Q4**: What grip priorities should you maintain from Leg Knot Bottom for defense?
+**A**: Primary grip priority is controlling your own foot/ankle to prevent opponent from securing heel grip - use both hands if necessary. Secondary priority is controlling opponent's controlling hand to strip grips. Tertiary priority is gripping opponent's far hip or belt to assist with hip mobility and escape movements. Never prioritize offensive grips over protective grips when under active leg lock threat.
 
-`Leg Knot Bottom → Counter-entangle → 50-50 Guard → Toe Hold`
+**Q5**: How should you manage pressure when your opponent applies forward driving pressure from Leg Knot Top?
+**A**: Do not resist the drive head-on as this wastes energy. Instead, redirect the energy by turning your hips and using the momentum to initiate an escape. If they stack heavily, the space created behind their hips becomes your escape route - hip escape out the back door while their weight is committed forward. Use your free leg frame to prevent them from flattening you while you work the escape angle.
 
-### Leg extraction to guard recovery
+**Q6**: Your opponent's grip breaks momentarily during a transition attempt - how do you capitalize?
+**A**: Immediately extract the trapped leg using a limp leg motion (relaxing the leg to slide out) combined with hip escape. Don't wait to see if they'll re-establish - act instantly. As the leg clears, transition directly to a safer position like Half Guard or Single Leg X rather than neutral, as neutral positions allow them to re-attack. Speed and commitment are essential during these brief windows.
 
-`Leg Knot Bottom → Clear leg → Single Leg X-Guard → X-Guard → Standing Position`
+**Q7**: What is the proper energy management strategy when defending Leg Knot Bottom?
+**A**: Avoid explosive thrashing which tightens entanglements and depletes energy rapidly. Use technique over strength - proper hip positioning and angles are more effective than muscling out. Stay relaxed until the moment of escape, then commit fully. Let opponent work for submissions while you defend efficiently. When you see an escape window, explode through it completely rather than making half-efforts that can be countered.
+
+**Q8**: After a failed escape attempt that returns you to Leg Knot Bottom, what is the recovery sequence?
+**A**: Immediately reassess heel protection and knee line - opponent may have improved position during your escape attempt. Re-establish defensive frames with free leg. Return hands to protective grips on your foot/ankle. Identify what defensive element failed and address it before next attempt. Consider a different escape route since opponent may be anticipating repeated attempts at the same escape. Reset breathing and stay calm.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -455,12 +405,11 @@ Start in Leg Knot Bottom position with specific goals: bottom player escapes to 
 - **[[Saddle]]** - Common advancement if defense fails
 - **[[Outside Ashi-Garami]]** - Reversal target position
 - **[[Ashi Garami Escape]]** - Related escape technique
-- **[[Saddle Defense]]** - Related defensive transition
 - **[[Half Guard]]** - Common escape target position
 - **[[Single Leg X-Guard]]** - Offensive counter-position
 - **[[50-50 Guard]]** - Counter-entanglement option
-- **[[Lachlan Giles Leg Lock Defense Framework]]** - Systematic defensive approach
-- **[[systematic approach Leg Lock System]]** - Comprehensive leg entanglement theory
+- **[[Inside Ashi-Garami]]** - Related leg entanglement threat
+- **[[Heel Hook]]** - Primary submission threat to defend
 - **[[Leg Entanglement]]** - Core conceptual framework
 
 

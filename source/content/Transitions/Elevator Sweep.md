@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Elevator Sweep | BJJ Technique | BJJ Graph"
 description: "Master the Elevator Sweep from butterfly guard. Step-by-step execution with hook control and elevation. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%."
@@ -16,7 +17,7 @@ description: "Master the Elevator Sweep from butterfly guard. Step-by-step execu
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Elevator Sweep in BJJ",
-  "description": "Step-by-step guide for Elevator Sweep from Butterfly Guard to Mount.",
+  "description": "Step-by-step guide for Elevator Sweep from Butterfly Guard/Bottom. Possible outcomes: Mount/Top (65%), Butterfly Guard/Bottom (25%), Butterfly Guard/Top (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -170,11 +171,25 @@ The elevator sweep is particularly effective against opponents who are sitting h
 
 Strategically, the elevator sweep serves as a cornerstone technique in the butterfly guard system, working in combination with other butterfly attacks like the basic butterfly sweep, arm drag to back takes, and guillotine attacks. The threat of the elevator sweep forces opponents to adjust their base and posture, creating opportunities for these complementary techniques. Mastering this sweep is essential for anyone looking to develop a dangerous butterfly guard game.
 
-**Starting Position**: [[Butterfly Guard]]
-**Ending Position**: [[Mount]]
+**From Position**: [[Butterfly Guard/Bottom]]
 **Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Mount/Top]] | 65% |
+| Failure | [[Butterfly Guard/Bottom]] | 25% |
+| Counter | [[Butterfly Guard/Top]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

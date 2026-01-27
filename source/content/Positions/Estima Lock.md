@@ -93,26 +93,20 @@ From the top attacking perspective, the position offers significant control adva
 - Use hip movement and angle changes to reduce the mechanical advantage of the lock while setting up escape sequences
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Ashi Garami Escape]]** → [[Open Guard]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Ashi Garami Escape]]** (25% of attempts)
 
-- **[[Leg Extraction]]** → [[Seated Guard]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Leg Extraction]]** (25% of attempts)
 
-- **[[Counter Sweep]]** → [[Estima Lock]]
-  - Success Rate: Beginner 15%, Intermediate 25%, Advanced 40%
+- **[[Counter Sweep]]** (15% of attempts)
 
-- **[[Saddle Defense]]** → [[Half Guard]]
-  - Success Rate: Beginner 18%, Intermediate 30%, Advanced 45%
+- **[[Saddle Defense]]** (15% of attempts)
 
-- **[[Technical Standup]]** → [[Standing Position]]
-  - Success Rate: Beginner 12%, Intermediate 22%, Advanced 35%
+- **[[Technical Standup]]** (10% of attempts)
 
-- **[[Rolling Back Take]]** → [[Back Control]]
-  - Success Rate: Beginner 10%, Intermediate 18%, Advanced 30%
+- **[[Rolling Back Take]]** (10% of attempts)
 
 
 ### Common Mistakes
@@ -170,26 +164,20 @@ From the top attacking perspective, the position offers significant control adva
 - Be prepared to transition to alternative leg attacks if opponent defends successfully rather than forcing incomplete submissions
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Estima Lock]]** → [[Won by Submission]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Estima Lock]]** (25% of attempts)
 
-- **[[Toe Hold]]** → [[Toe Hold Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Toe Hold]]** (20% of attempts)
 
-- **[[Straight Ankle Lock]]** → [[Straight Ankle Lock Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Straight Ankle Lock]]** (15% of attempts)
 
-- **[[Transition to Saddle]]** → [[Saddle]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Estima Lock to Saddle]]** (15% of attempts)
 
-- **[[Kneebar]]** → [[Kneebar Control]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Kneebar]]** (10% of attempts)
 
-- **[[Transition to Ashi Garami]]** → [[Ashi Garami]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Estima Lock to Ashi Garami]]** (15% of attempts)
 
 
 ### Common Mistakes

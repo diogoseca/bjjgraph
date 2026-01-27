@@ -10,8 +10,6 @@
     "top position",
     "control"
   ],
-  "starting_position": "Half Guard",
-  "ending_position": "Side Control",
   "success_rates": {
     "beginner": 45,
     "intermediate": 60,
@@ -280,6 +278,24 @@
     {
       "name": "Headquarters Position",
       "relationship": "Common starting position before securing underhook"
+    }
+  ],
+  "from_position": "Half Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Side Control/Top",
+      "probability": 75,
+      "result": "success"
+    },
+    {
+      "to": "Half Guard/Bottom",
+      "probability": 15,
+      "result": "failure"
+    },
+    {
+      "to": "Half Guard/Top",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

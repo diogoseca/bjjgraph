@@ -89,32 +89,24 @@ Modified Mount represents a strategic adaptation of the traditional mount positi
 - Energy efficiency - Position's reduced control means escapes require less energy than standard mount
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Hip Escape]]** → [[Half Guard]]
-  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 75%
+- **[[Hip Escape]]** (18% of attempts)
 
-- **[[Elbow Escape]]** → [[Closed Guard]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 70%
+- **[[Elbow Escape]]** (16% of attempts)
 
-- **[[Frame and Shrimp]]** → [[Open Guard]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 65%
+- **[[Frame and Shrimp]]** (14% of attempts)
 
-- **[[Bridge and Roll]]** → [[Mount]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Bridge and Roll]]** (10% of attempts)
 
-- **[[Upa Escape]]** → [[Closed Guard]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Upa Escape]]** (12% of attempts)
 
-- **[[Deep Half Entry]]** → [[Deep Half Guard]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 50%
+- **[[Deep Half Entry]]** (10% of attempts)
 
-- **[[Lockdown Recovery]]** → [[Lockdown]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 55%
+- **[[Lockdown Recovery]]** (10% of attempts)
 
-- **[[Turtle Transition]]** → [[Turtle]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 60%
+- **[[Turtle Transition]]** (10% of attempts)
 
 
 ### Common Mistakes
@@ -172,38 +164,26 @@ Modified Mount represents a strategic adaptation of the traditional mount positi
 - Strategic deployment - Use when opponent demonstrates strong bridge-and-roll escape ability
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Armbar from Mount]]** → [[Armbar Control]]
-  - Success Rate: Beginner 40%, Intermediate 60%, Advanced 80%
+- **[[Armbar from Mount]]** (15% of attempts)
 
-- **[[S-Mount Transition]]** → [[S Mount]]
-  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 75%
+- **[[S-Mount Transition]]** (12% of attempts)
 
-- **[[Mounted Triangle]]** → [[Mounted Triangle]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 65%
+- **[[Mounted Triangle]]** (10% of attempts)
 
-- **[[Transition to High Mount]]** → [[High Mount]]
-  - Success Rate: Beginner 45%, Intermediate 65%, Advanced 85%
+- **[[High Mount Transition]]** (13% of attempts)
 
-- **[[Americana from Mount]]** → [[Americana Control]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 70%
+- **[[Americana from Mount]]** (10% of attempts)
 
-- **[[Cross Collar Choke]]** → [[Won by Submission]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 65%
+- **[[Cross Collar Choke]]** (10% of attempts)
 
-- **[[Kimura from Mount]]** → [[Kimura Control]]
-  - Success Rate: Beginner 20%, Intermediate 40%, Advanced 60%
+- **[[Kimura from Mount]]** (8% of attempts)
 
-- **[[Transition to Technical Mount]]** → [[Technical Mount]]
-  - Success Rate: Beginner 40%, Intermediate 60%, Advanced 80%
+- **[[Gift Wrap Transition]]** (12% of attempts)
 
-- **[[Gift Wrap Control]]** → [[Gift Wrap]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 65%
-
-- **[[Transition to Back Control]]** → [[Back Control]]
-  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 75%
+- **[[Back Take from Top]]** (10% of attempts)
 
 
 ### Common Mistakes

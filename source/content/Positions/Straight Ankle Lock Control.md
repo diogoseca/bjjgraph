@@ -101,35 +101,26 @@ The position also serves an important pedagogical function in teaching fundament
 - Time pressure favors quick decisive action - finish or advance within 10-15 seconds
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Straight Ankle Lock]]** → [[Won by Submission]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Straight Ankle Lock]]** (11% of attempts)
 
-- **[[Inside Ashi Entry]]** → [[Inside Ashi-Garami]]
-  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+- **[[Inside Ashi Entry]]** (12% of attempts)
 
-- **[[Outside Ashi Entry]]** → [[Outside Ashi-Garami]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Outside Ashi Entry]]** (12% of attempts)
 
-- **[[X-Guard to Ashi Transition]]** → [[Inside Ashi-Garami]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[X-Guard to Ashi Transition]]** (11% of attempts)
 
-- **[[50-50 Entry from Standing]]** → [[50-50 Guard]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[50-50 Entry from Standing]]** (12% of attempts)
 
-- **[[Single Leg X Entry]]** → [[Single Leg X-Guard]]
-  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+- **[[Single Leg X Entry]]** (13% of attempts)
 
-- **[[Straight Footlock]]** → [[Won by Submission]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Straight Footlock]]** (10% of attempts)
 
-- **[[Kneebar Finish]]** → [[Won by Submission]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Kneebar Finish]]** (9% of attempts)
 
-- **[[Ankle Pick Sweep]]** → [[Standing Position]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Ankle Pick Sweep]]** (10% of attempts)
 
 
 ### Common Mistakes
@@ -187,29 +178,22 @@ The position also serves an important pedagogical function in teaching fundament
 - Counter-attack opportunities exist - establishing symmetrical control or passing attacker's guard are viable options
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Ashi Garami Escape]]** → [[Standing Position]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Ashi Garami Escape]]** (15% of attempts)
 
-- **[[Counter Entry to Opponent's Leg]]** → [[50-50 Guard]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Counter Entry to Opponent's Leg]]** (14% of attempts)
 
-- **[[Standing Escape]]** → [[Standing Position]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Standing Escape]]** (15% of attempts)
 
-- **[[Hip Rotation Defense]]** → [[Defensive Position]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Hip Rotation Defense]]** (15% of attempts)
 
-- **[[Knee Extraction]]** → [[Half Guard]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Knee Extraction]]** (14% of attempts)
 
-- **[[Frame and Distance Creation]]** → [[Open Guard]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Frame and Distance Creation]]** (15% of attempts)
 
-- **[[Pass to Top Control]]** → [[Side Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Pass to Top Control]]** (12% of attempts)
 
 
 ### Common Mistakes
@@ -262,7 +246,7 @@ The position also serves an important pedagogical function in teaching fundament
 
 - **[[Saddle]]** - Advanced leg entanglement accessible through strategic transitions
 
-- **[[Defensive Position]]** - Position opponent seeks when successfully defending control
+- **[[Open Guard]]** - Position opponent seeks when successfully defending control
 
 
 </section>

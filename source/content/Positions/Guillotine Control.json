@@ -2,7 +2,7 @@
   "name": "Guillotine Control",
   "slug": "guillotine-control",
   "description": "Master Guillotine Control position in BJJ. Complete strategic guide covering setup mechanics, grip variations, and finishing paths from both bottom and top perspectives.",
-  "variant_uniqueness": "Front headlock submission with dual perspectives",
+  "variant_uniqueness": "Neck control trades stability for tap threat",
   "overview": "Guillotine Control represents a fundamental attacking position in Brazilian Jiu-Jitsu where one practitioner secures a front headlock grip with submission intent, controlling the opponent's head and neck while threatening immediate choke submission. This position exists across a spectrum of scenarios—from standing clinch exchanges to ground-based situations—and creates powerful strategic dilemmas for the defender who must simultaneously protect against the submission while preventing positional advancement. The guillotine's effectiveness stems from its versatility as both a high-percentage finishing technique and a control position that severely limits the opponent's offensive options.\n\nThe position manifests in two distinct perspectives: bottom and top. From bottom, the practitioner uses the guillotine as an offensive weapon from what would otherwise be a defensive position, transforming guard retention scenarios into immediate submission threats. This creates forcing situations where the opponent must choose between defending the choke or advancing position, with either choice potentially leading to the bottom player's success. From top, the guillotine becomes a dominant control position offering superior leverage and multiple pathways to victory, whether through direct submission finish, positional advancement to mount or back control, or transitions to related attacks like anaconda and darce chokes.\n\nStrategically, Guillotine Control exemplifies the principle of creating binary defensive choices. Opponents must decide whether to prioritize neck defense through hand fighting and chin protection, or positional defense by preventing guard closure or position advancement. This decision tree, combined with the constant pressure of the choking threat, creates energy-draining scenarios where defenders must work actively while attackers can maintain relative efficiency. Modern systems emphasize the guillotine as part of comprehensive front headlock frameworks that include multiple submission variations and seamless transitions to dominant positions, making it a cornerstone technique in both gi and no-gi competition at all levels.",
   "key_principles": [
     "Maintain deep front headlock grip with choking arm positioned against neck structures for immediate submission threat",
@@ -59,6 +59,315 @@
       "relationship": "Advancement target when passing while maintaining guillotine grip"
     }
   ],
+  "top": {
+    "name": "Guillotine Control Top",
+    "description": "Master Guillotine Control Top position in BJJ. Dominant control with high-percentage finishing options and multiple advancement paths with 65% finish rate.",
+    "tags": [
+      "bjj",
+      "position",
+      "guillotine",
+      "front-headlock",
+      "submission-control",
+      "top-position",
+      "choke"
+    ],
+    "overview": "Guillotine Control Top is a dominant submission-control position where the top practitioner has secured a guillotine choke grip while maintaining superior positioning. This position represents a critical junction between positional control and submission finishing, offering the top player multiple high-percentage pathways to victory. The position is characterized by the choking arm wrapped around the opponent's neck with hands clasped together, while the top player uses their body weight and positioning to prevent escape and tighten the submission. Unlike the guillotine from guard (where the bottom player attempts the choke), this top variation provides superior leverage and control, making it one of the highest-percentage submissions in modern BJJ.\n\nThe strategic value of Guillotine Control Top lies in its versatility—the top player can finish the submission from multiple positions (standing, closed guard top, half guard top, or even while passing), adjust grip configurations for different finishing mechanics, or use the threat of the choke to advance position. The position creates a powerful dilemma for the opponent: defending the choke often opens pathways to mount, back control, or other dominant positions, while ignoring positional defense to focus solely on hand fighting leaves them vulnerable to the finish. This makes Guillotine Control Top not just a submission position, but a complete control system that forces opponents into progressively worse situations regardless of their defensive choices.",
+    "state_properties": {
+      "point_value": 0,
+      "position_type": "Offensive/Controlling",
+      "risk_level": "Low to Medium",
+      "energy_cost": "Medium",
+      "time_sustainability": "Short to Medium"
+    },
+    "state_invariants": [
+      "Choking arm wrapped around opponent's neck with forearm or bicep crossing the front of the throat, head trapped between arm and body",
+      "Hands clasped together in a secure grip configuration (palm-to-palm, gable grip, or arm-in variation) creating a closed loop around the neck",
+      "Top player's body weight distributed to prevent opponent from standing or creating space, typically with hips heavy and head positioning controlling direction",
+      "Top player maintains superior position (standing over, in closed guard top, half guard top, or side control) with ability to adjust angle and pressure",
+      "Opponent's posture broken forward with head lower than hips, limiting their ability to relieve pressure on the neck or create defensive frames"
+    ],
+    "prerequisites": [
+      "Successful guillotine grip established from guard pull, sprawl, turtle attack, or scramble situation",
+      "Control of opponent's head with ability to break their posture forward",
+      "Top player has established or is establishing superior positioning (not locked in opponent's closed guard)",
+      "Hands secured together in chosen grip configuration with proper forearm or bicep placement across throat",
+      "Opponent's defensive frames either not established or being actively controlled"
+    ],
+    "key_principles": [
+      "Keep opponent's head lower than their hips at all times to maintain choke pressure and prevent escape",
+      "Use hip pressure and body weight to close space and prevent opponent from creating defensive distance",
+      "Maintain tight connection between choking arm and your torso—any gap reduces choking pressure significantly",
+      "Control opponent's ability to turn into you or away from you using head position, shoulder pressure, and leg positioning",
+      "Adjust grip and angle continuously based on opponent's defensive movements rather than maintaining static position",
+      "Use the threat of the choke to facilitate position advancement when direct finish is not immediately available",
+      "Keep your own posture strong and base wide to prevent opponent from sweeping or reversing while you work the submission"
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What are the essential grips for maintaining Guillotine Control Top?",
+        "answer": "The primary grips include palm-to-palm (Marcelo grip), gable grip, and S-grip configurations. The choking arm wraps around the neck with the blade of the forearm or bicep crossing the front of the throat, while the supporting hand clasps to create a closed loop. Grip selection depends on arm-in versus no-arm variations and opponent's defensive reactions."
+      },
+      {
+        "question": "How should you distribute your weight to maintain Guillotine Control Top effectively?",
+        "answer": "Weight should be distributed forward through the hips and chest, keeping heavy pressure on the opponent to prevent them from creating space or closing guard. The head should control direction by pressing into the opponent's shoulder or back, while legs sprawl back to prevent guard closure. Avoid sitting back or pulling straight up, which allows opponent to establish defensive frames."
+      },
+      {
+        "question": "Your opponent begins turning into you to relieve choke pressure—what adjustment do you make?",
+        "answer": "When the opponent turns in, immediately transition to anaconda or darce choke setups by threading your arm deeper and switching the angle of attack. Use shoulder pressure and hip sprawl to prevent them from completing the turn while maintaining head control. The turn actually exposes them to more dangerous head-and-arm choke variations."
+      },
+      {
+        "question": "What is the primary escape your opponent will attempt and how do you shut it down?",
+        "answer": "The most common escape involves posturing up and hand fighting to create space for head extraction. Counter by keeping your elbows tight, maintaining constant downward pressure on the head, and using your hips to follow their movement. If they begin to posture, immediately adjust angle and increase choking pressure or transition to positional advancement before they can fully escape."
+      },
+      {
+        "question": "How do you apply pressure without burning excessive energy from Guillotine Control Top?",
+        "answer": "Use skeletal structure rather than muscular strength by keeping elbows pinned to ribs and using body weight through proper positioning. Let gravity work by maintaining forward hip pressure and sprawling legs back. Make micro-adjustments rather than constantly squeezing—the threat of the choke often does more work than continuous maximum effort application."
+      },
+      {
+        "question": "Your opponent successfully tucks their chin and defends the finish—what is your response?",
+        "answer": "When chin tuck defense succeeds, immediately pivot to positional advancement. Use their focus on neck defense to pass to mount, advance to north-south, or transition to side control. The opponent cannot defend both the choke and position simultaneously—exploit this dilemma by threatening finish to open positional opportunities."
+      },
+      {
+        "question": "What grip adjustments should you prioritize when opponent traps their arm inside the guillotine?",
+        "answer": "Transition to arm-in guillotine mechanics by adjusting hand position and angle. The arm-in variation uses the opponent's own trapped arm to assist the choke by pressing it against their carotid. Rotate your body slightly to the trapped arm side and apply finishing pressure at a diagonal angle rather than straight back."
+      },
+      {
+        "question": "How do you recover control if opponent begins extracting their head from the guillotine?",
+        "answer": "Immediately re-break their posture by pulling the head down while sprawling your hips forward. If they've created significant space, consider transitioning to front headlock control and re-establishing the guillotine with better depth, or use the remaining head control to advance position to side control or north-south rather than fighting for a compromised choke."
+      }
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent's posture is broken forward and chin is exposed",
+        "actions": [
+          {
+            "technique": "Guillotine Choke",
+            "target": "game-over",
+            "probability": 75
+          },
+          {
+            "technique": "High Elbow Guillotine",
+            "target": "game-over",
+            "probability": 70
+          }
+        ]
+      },
+      {
+        "condition": "If opponent tucks chin and defends neck but neglects position",
+        "actions": [
+          {
+            "technique": "Side Control to Mount",
+            "target": "Mount",
+            "probability": 78
+          },
+          {
+            "technique": "Side Control to North-South",
+            "target": "North-South",
+            "probability": 72
+          }
+        ]
+      },
+      {
+        "condition": "If opponent turns into you to defend",
+        "actions": [
+          {
+            "technique": "Front Headlock to Anaconda",
+            "target": "Anaconda Control",
+            "probability": 65
+          },
+          {
+            "technique": "Front Headlock to Darce",
+            "target": "D'arce Control",
+            "probability": 63
+          }
+        ]
+      },
+      {
+        "condition": "If opponent has arm trapped inside the guillotine",
+        "actions": [
+          {
+            "technique": "Arm in Guillotine",
+            "target": "game-over",
+            "probability": 72
+          },
+          {
+            "technique": "Side Control to Mount",
+            "target": "Mount",
+            "probability": 68
+          }
+        ]
+      },
+      {
+        "condition": "If opponent creates distance with legs but not hand fighting",
+        "actions": [
+          {
+            "technique": "Guard Pass",
+            "target": "Side Control",
+            "probability": 75
+          },
+          {
+            "technique": "High Elbow Guillotine",
+            "target": "game-over",
+            "probability": 65
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Pulling straight back on the choke without controlling opponent's hips or legs",
+        "consequence": "Opponent establishes closed guard, neutralizes top position advantage, and may even sweep or submit with own attacks",
+        "correction": "Maintain hip pressure forward, sprawl legs back, and use circular pulling motion while stepping to side to prevent guard closure"
+      },
+      {
+        "error": "Allowing gap between choking arm and your own torso during finish attempt",
+        "consequence": "Choking pressure dissipates entirely, opponent can breathe freely, and defensive hand fighting becomes much more effective",
+        "correction": "Keep elbow tight to ribs, pull forearm into your chest/sternum, and use lat engagement to maintain compression throughout the choke"
+      },
+      {
+        "error": "Maintaining only one grip configuration regardless of opponent's defensive adjustments",
+        "consequence": "Predictable attack allows opponent to develop specific defense, reducing finish rate and wasting energy on ineffective attempts",
+        "correction": "Flow between palm-to-palm, gable grip, and arm-in variations based on opponent's chin position and hand fighting responses"
+      },
+      {
+        "error": "Neglecting positional advancement when opponent successfully defends the choke",
+        "consequence": "Stalemate position develops where neither player can advance, wasting time and energy without productive outcome",
+        "correction": "Use opponent's focus on neck defense to pass guard, take mount, or transition to other submissions like anaconda or darce"
+      },
+      {
+        "error": "Pulling upward on opponent's head instead of controlling direction with shoulder and hip positioning",
+        "consequence": "Opponent can bridge, roll, or create angles that relieve pressure and potentially reverse position",
+        "correction": "Keep opponent's head directed toward your hip/pocket, use shoulder pressure to control their upper body direction, sprawl to prevent bridges"
+      },
+      {
+        "error": "Gripping too shallow with forearm across face instead of deep around neck",
+        "consequence": "No choking pressure on carotid arteries or trachea, opponent experiences discomfort but not submission threat, extended stalling occurs",
+        "correction": "Ensure blade of forearm or bicep crosses front of throat, adjust entry angle if needed, and verify hand position is behind opponent's head not their face"
+      },
+      {
+        "error": "Remaining stationary and static instead of making micro-adjustments to angle and pressure",
+        "consequence": "Opponent finds comfortable defensive position, can breathe and think clearly, eventually escapes or forces stalemate",
+        "correction": "Constantly adjust hip angle, stepping pattern, and shoulder pressure in small increments to maintain opponent's discomfort and prevent defensive settling"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Guillotine Grip Flow Drill",
+        "description": "Partner allows you to secure guillotine from various entries (sprawl, turtle, guard pull). Focus on quickly securing deep grip, clasping hands properly, and immediately establishing top pressure without allowing guard closure. Rotate through different grip types (gable, palm-to-palm, arm-in) to develop versatility. Partner provides light resistance to hand fighting but does not attempt full escapes.",
+        "duration": "5 minutes per partner"
+      },
+      {
+        "name": "Position Before Submission Drill",
+        "description": "Start in guillotine control top with partner defending choke. Your goal is not to finish but to advance position to mount, side control, or north-south while maintaining the grip. This develops ability to use choke threat for position advancement. Partner defends choke actively but allows positional movement when you create proper angles.",
+        "duration": "3 minute rounds, switch roles"
+      },
+      {
+        "name": "Guillotine Finishing Sequences",
+        "description": "Start with established guillotine control top, partner is allowed to defend. Work through systematic finishing sequence: standard guillotine, if defended adjust to high elbow, if defended transition to anaconda or darce, if defended advance position. Develops ability to chain attacks rather than forcing single technique. Gradually increase partner's defensive intensity over multiple rounds.",
+        "duration": "4 minute rounds, 30 second rest between"
+      },
+      {
+        "name": "Sprawl to Guillotine Control",
+        "description": "Partner shoots double leg or single leg takedown. Sprawl and immediately secure guillotine grip, then establish top control without allowing guard closure. Focus on seamless transition from defensive sprawl to offensive control position. This is one of the highest-percentage entries in competition. Partner shoots at 70% intensity.",
+        "duration": "10 repetitions per side"
+      },
+      {
+        "name": "Guard Prevention Drill",
+        "description": "Start in guillotine control with partner attempting to close guard, you must maintain top position using hip pressure, leg positioning, and angle changes. Develops crucial skill of keeping dominant position while working submission. If partner closes guard, restart. Partner uses full effort to close guard.",
+        "duration": "2 minute rounds, 5 rounds"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Front Headlock",
+        "relationship": "Similar position - precursor position before securing guillotine grip"
+      },
+      {
+        "name": "Anaconda Control",
+        "relationship": "Transition target - common alternative when guillotine is defended"
+      },
+      {
+        "name": "D'arce Control",
+        "relationship": "Transition target - alternative choke when opponent turns into guillotine"
+      },
+      {
+        "name": "Mount",
+        "relationship": "Transition target - position advancement using guillotine threat"
+      },
+      {
+        "name": "North-South",
+        "relationship": "Transition target - alternative advancement path"
+      },
+      {
+        "name": "Guillotine Choke",
+        "relationship": "Primary submission - main finishing technique from this position"
+      },
+      {
+        "name": "Chin Strap Guillotine",
+        "relationship": "Submission variation - alternative finishing mechanics with chin control"
+      },
+      {
+        "name": "Arm in Guillotine",
+        "relationship": "Submission variation - opportunistic variation when arm is trapped"
+      },
+      {
+        "name": "Side Control",
+        "relationship": "Positional advancement - common transition when choke is defended"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "beginner": 55,
+        "intermediate": 68,
+        "advanced": 78
+      },
+      "advancement_probability": {
+        "beginner": 45,
+        "intermediate": 62,
+        "advanced": 75
+      },
+      "submission_probability": {
+        "beginner": 40,
+        "intermediate": 60,
+        "advanced": 75
+      },
+      "average_time": "30-90 seconds"
+    },
+    "transitions": [
+      {
+        "transition": "Guillotine Choke",
+        "attempt_probability": 13
+      },
+      {
+        "transition": "High Elbow Guillotine",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Arm in Guillotine",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Front Headlock to Anaconda",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Front Headlock to Darce",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Side Control to Mount",
+        "attempt_probability": 13
+      },
+      {
+        "transition": "Side Control to North-South",
+        "attempt_probability": 15
+      },
+      {
+        "transition": "Guard Pass",
+        "attempt_probability": 13
+      }
+    ]
+  },
   "bottom": {
     "name": "Guillotine Control Bottom",
     "description": "Master Guillotine Control Bottom in BJJ. Complete guide covering setup, finishing mechanics, and counters with 45-70% finish rate across skill levels.",
@@ -66,10 +375,10 @@
       "bjj",
       "position",
       "guillotine",
-      "submission control",
-      "front headlock",
+      "submission-control",
+      "front-headlock",
       "choke",
-      "guard bottom"
+      "guard-bottom"
     ],
     "overview": "Guillotine Control Bottom represents a critical attacking position where the bottom practitioner has secured a guillotine choke grip while maintaining guard or attempting to close guard. This position transforms defensive bottom play into an immediate offensive threat, creating a powerful submission opportunity from what would otherwise be a neutral or disadvantageous position. The position is characterized by the bottom player controlling the opponent's head and neck with a front headlock grip, typically with the choking arm wrapped around the opponent's neck and the hands clasped together, while using the legs to control distance and prevent the opponent from escaping or advancing position.\n\nThe strategic value of Guillotine Control Bottom lies in its ability to threaten immediate submission while simultaneously creating opportunities for sweeps and guard retention. The position forces the opponent into a defensive posture, preventing them from executing their preferred passing game or establishing dominant control. Successful execution requires precise understanding of choking mechanics, proper hand placement, and the ability to coordinate upper body control with lower body positioning. The bottom player must balance the urgency of finishing the submission with the patience required to maintain control and prevent escape.\n\nFrom a positional hierarchy perspective, Guillotine Control Bottom represents a high-risk, high-reward position that can quickly transition to either submission victory or positional disadvantage if the opponent successfully defends. The position demands technical precision in grip management, hip positioning, and understanding of multiple finishing variations including arm-in guillotine, high elbow guillotine, and ten-finger variations. Modern guillotine systems emphasize the importance of guard retention and the ability to transition between different guillotine variations based on opponent reactions.",
     "state_properties": {
@@ -102,146 +411,38 @@
       "Maintain constant threat of submission finish while remaining prepared to transition to sweep attempts or alternative submissions if opponent successfully defends primary attack",
       "Protect against counter-passes by maintaining active guard structure and being ready to transition to different guard variations or re-establish position if opponent begins advancing"
     ],
-    "offensive_transitions": [
+    "knowledge_assessment": [
       {
-        "technique": "Guillotine Choke",
-        "target_position": "Won by Submission",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 45,
-          "advanced": 70
-        }
+        "question": "What are the essential grips for maintaining Guillotine Control Bottom?",
+        "answer": "The primary grips include palm-to-palm, gable grip, and S-grip configurations with the choking arm wrapped around the opponent's neck. The blade of the wrist or forearm should cross the front of the throat targeting the trachea or carotid arteries. The supporting hand reinforces by clasping the choking wrist or forearm to create a closed loop, preventing opponent from peeling the grip."
       },
       {
-        "technique": "High Elbow Guillotine",
-        "target_position": "Won by Submission",
-        "success_rates": {
-          "beginner": 20,
-          "intermediate": 40,
-          "advanced": 65
-        }
+        "question": "How should you position your hips to maintain control from Guillotine Control Bottom?",
+        "answer": "Hips should be positioned underneath or slightly behind the opponent's center of gravity, angled toward the choking side. This creates a fulcrum point that amplifies choking pressure. Avoid flat-on-back positioning which allows opponent to drive forward and flatten you. Hip mobility allows you to follow the opponent's escape attempts and maintain optimal choking angle."
       },
       {
-        "technique": "Arm in Guillotine",
-        "target_position": "Won by Submission",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 50,
-          "advanced": 75
-        }
+        "question": "Your opponent begins driving their weight forward to flatten you—what adjustment do you make?",
+        "answer": "Use the forward pressure against them by executing a hip bump sweep, leveraging their committed weight to roll them over your hip to mount while maintaining the guillotine grip. Alternatively, angle your hips away from the pressure and use butterfly hooks to elevate and redirect their weight. Never fight their pressure head-on—redirect it."
       },
       {
-        "technique": "Transition to Mount",
-        "target_position": "Mount",
-        "success_rates": {
-          "beginner": 15,
-          "intermediate": 30,
-          "advanced": 50
-        }
+        "question": "What is the primary escape your opponent will attempt and how do you shut it down?",
+        "answer": "The most common escape is posturing up and hand fighting to extract the head. Counter by maintaining downward pressure on the head with your choking arm while your legs actively prevent posture through closed guard, butterfly hooks, or high guard. If they begin creating space, immediately close the distance with your legs and pull the head back down before they can fully posture."
       },
       {
-        "technique": "Hip Bump Sweep",
-        "target_position": "Mount",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 40,
-          "advanced": 60
-        }
+        "question": "How do you apply finishing pressure without exhausting yourself from bottom position?",
+        "answer": "Use leg control (closed guard or high guard) to do the work of compressing the opponent's posture rather than relying solely on arm strength. The choking pressure comes from the angle and connection—keep elbows tight to your body and let the forearm blade do the work against the neck structures. Adjust angle rather than squeezing harder when the choke stalls."
       },
       {
-        "technique": "Guillotine Setup",
-        "target_position": "Closed Guard",
-        "success_rates": {
-          "beginner": 40,
-          "intermediate": 60,
-          "advanced": 75
-        }
+        "question": "Your opponent successfully tucks their chin against the choke—what is your response?",
+        "answer": "Transition to alternative attacks that exploit their chin tuck. The high elbow guillotine attacks behind the chin by driving your elbow toward the ceiling. If they trap their arm inside, switch to arm-in guillotine mechanics. Their chin tuck also opens triangle and omoplata opportunities as they become preoccupied with neck defense."
       },
       {
-        "technique": "Transition to Omoplata",
-        "target_position": "Omoplata Control",
-        "success_rates": {
-          "beginner": 10,
-          "intermediate": 25,
-          "advanced": 45
-        }
+        "question": "What leg position provides the best finishing platform for Guillotine Control Bottom?",
+        "answer": "High closed guard with legs positioned high on opponent's back provides the best finishing platform—it breaks posture, prevents escape, and creates a stable base for choking pressure. Alternatively, one-leg-up guard (same side as choking arm elevated, opposite leg controlling hip) creates excellent finishing angle while maintaining control."
       },
       {
-        "technique": "Switch to Triangle",
-        "target_position": "Triangle Control",
-        "success_rates": {
-          "beginner": 15,
-          "intermediate": 30,
-          "advanced": 50
-        }
-      },
-      {
-        "technique": "Anaconda Choke",
-        "target_position": "Won by Submission",
-        "success_rates": {
-          "beginner": 15,
-          "intermediate": 35,
-          "advanced": 60
-        }
-      }
-    ],
-    "defensive_responses": [
-      {
-        "technique": "Guillotine Defense",
-        "target_position": "Side Control",
-        "success_rate": 50
-      },
-      {
-        "technique": "Guillotine Counter",
-        "target_position": "Mount",
-        "success_rate": 35
-      },
-      {
-        "technique": "Guard Pass",
-        "target_position": "Side Control",
-        "success_rate": 40
-      },
-      {
-        "technique": "Sprawl",
-        "target_position": "Front Headlock",
-        "success_rate": 45
-      },
-      {
-        "technique": "Von Flue Choke",
-        "target_position": "Won by Submission",
-        "success_rate": 20
-      },
-      {
-        "technique": "Stack Defense",
-        "target_position": "Closed Guard",
-        "success_rate": 55
-      }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Hip Bump Sweep",
-        "target_position": "Mount",
-        "trigger": "Opponent drives weight forward to defend choke"
-      },
-      {
-        "technique": "Switch to Triangle",
-        "target_position": "Triangle Control",
-        "trigger": "Opponent pulls arm across to defend guillotine"
-      },
-      {
-        "technique": "Transition to Omoplata",
-        "target_position": "Omoplata Control",
-        "trigger": "Opponent posts hand on mat to create space"
-      },
-      {
-        "technique": "Anaconda Choke",
-        "target_position": "Won by Submission",
-        "trigger": "Opponent turns into the choke to escape"
-      },
-      {
-        "technique": "Guillotine Setup",
-        "target_position": "Closed Guard",
-        "trigger": "Opponent backs out to relieve pressure"
+        "question": "How do you recover control if opponent begins passing your guard while defending the guillotine?",
+        "answer": "If they begin passing, you must decide quickly: either fully commit to the guillotine finish before they complete the pass (risky but sometimes necessary), or release the choke and address the pass with standard guard retention. If releasing, maintain wrist control to prevent them from immediately posturing up and use the released arm to re-frame and recover guard before they consolidate."
       }
     ],
     "decision_tree": [
@@ -265,7 +466,7 @@
         "actions": [
           {
             "technique": "High Elbow Guillotine",
-            "target": "Won by Submission",
+            "target": "game-over",
             "probability": 65
           },
           {
@@ -280,12 +481,12 @@
         "actions": [
           {
             "technique": "Anaconda Choke",
-            "target": "Won by Submission",
+            "target": "game-over",
             "probability": 60
           },
           {
             "technique": "Darce Choke",
-            "target": "Won by Submission",
+            "target": "game-over",
             "probability": 55
           }
         ]
@@ -310,11 +511,11 @@
         "actions": [
           {
             "technique": "Arm in Guillotine",
-            "target": "Won by Submission",
+            "target": "game-over",
             "probability": 70
           },
           {
-            "technique": "Transition to Mount",
+            "technique": "Hip Bump Sweep",
             "target": "Mount",
             "probability": 45
           }
@@ -385,32 +586,6 @@
         "duration": "2-minute rounds, 5-8 rounds"
       }
     ],
-    "optimal_submission_paths": [
-      {
-        "name": "Direct Guillotine Finish Path",
-        "path": "Guillotine Control Bottom → Guillotine Choke → Won by Submission"
-      },
-      {
-        "name": "High-Percentage Arm-In Path",
-        "path": "Guillotine Control Bottom → Recognize arm trap → Arm in Guillotine → Won by Submission"
-      },
-      {
-        "name": "Sweep to Mounted Guillotine Path",
-        "path": "Guillotine Control Bottom → Hip Bump Sweep → Mount (maintain guillotine) → Guillotine Choke → Won by Submission"
-      },
-      {
-        "name": "Triangle Transition Path",
-        "path": "Guillotine Control Bottom → Opponent defends with arm across → Switch to Triangle → Triangle Choke → Won by Submission"
-      },
-      {
-        "name": "Anaconda Counter Path",
-        "path": "Guillotine Control Bottom → Opponent turns away → Anaconda Choke → Won by Submission"
-      },
-      {
-        "name": "High Elbow Variation Path",
-        "path": "Guillotine Control Bottom → Opponent postures up → High Elbow Guillotine → Won by Submission"
-      }
-    ],
     "related_content": [
       {
         "name": "Front Headlock",
@@ -433,8 +608,8 @@
         "relationship": "Variation technique - arm-trapped finishing method"
       },
       {
-        "name": "High Elbow Guillotine",
-        "relationship": "Variation technique - high-leverage finishing method"
+        "name": "Chin Strap Guillotine",
+        "relationship": "Variation technique - alternative finishing mechanics with chin control"
       },
       {
         "name": "Anaconda Choke",
@@ -445,12 +620,12 @@
         "relationship": "Chain submission - transition when arm crosses"
       },
       {
-        "name": "Marcelo Garcia Guillotine System",
-        "relationship": "Expert system - comprehensive guillotine methodology"
+        "name": "Omoplata Control",
+        "relationship": "Chain submission - transition when opponent posts hand"
       },
       {
-        "name": "systematic approach Front Headlock System",
-        "relationship": "Expert system - systematic front headlock approach"
+        "name": "Butterfly Guard",
+        "relationship": "Guard variation - alternative leg positioning for control"
       }
     ],
     "position_metrics": {
@@ -470,397 +645,40 @@
         "advanced": 65
       },
       "average_time": "20-45 seconds before resolution (finish or position change)"
-    }
-  },
-  "top": {
-    "name": "Guillotine Control Top",
-    "description": "Master Guillotine Control Top position in BJJ. Dominant control with high-percentage finishing options and multiple advancement paths with 65% finish rate.",
-    "tags": [
-      "bjj",
-      "position",
-      "guillotine",
-      "front-headlock",
-      "submission-control",
-      "top-position",
-      "choke"
-    ],
-    "overview": "Guillotine Control Top is a dominant submission-control position where the top practitioner has secured a guillotine choke grip while maintaining superior positioning. This position represents a critical junction between positional control and submission finishing, offering the top player multiple high-percentage pathways to victory. The position is characterized by the choking arm wrapped around the opponent's neck with hands clasped together, while the top player uses their body weight and positioning to prevent escape and tighten the submission. Unlike the guillotine from guard (where the bottom player attempts the choke), this top variation provides superior leverage and control, making it one of the highest-percentage submissions in modern BJJ.\n\nThe strategic value of Guillotine Control Top lies in its versatility—the top player can finish the submission from multiple positions (standing, closed guard top, half guard top, or even while passing), adjust grip configurations for different finishing mechanics, or use the threat of the choke to advance position. The position creates a powerful dilemma for the opponent: defending the choke often opens pathways to mount, back control, or other dominant positions, while ignoring positional defense to focus solely on hand fighting leaves them vulnerable to the finish. This makes Guillotine Control Top not just a submission position, but a complete control system that forces opponents into progressively worse situations regardless of their defensive choices.",
-    "state_properties": {
-      "point_value": 0,
-      "position_type": "Offensive/Controlling",
-      "risk_level": "Low to Medium",
-      "energy_cost": "Medium",
-      "time_sustainability": "Short to Medium"
     },
-    "state_invariants": [
-      "Choking arm wrapped around opponent's neck with forearm or bicep crossing the front of the throat, head trapped between arm and body",
-      "Hands clasped together in a secure grip configuration (palm-to-palm, gable grip, or arm-in variation) creating a closed loop around the neck",
-      "Top player's body weight distributed to prevent opponent from standing or creating space, typically with hips heavy and head positioning controlling direction",
-      "Top player maintains superior position (standing over, in closed guard top, half guard top, or side control) with ability to adjust angle and pressure",
-      "Opponent's posture broken forward with head lower than hips, limiting their ability to relieve pressure on the neck or create defensive frames"
-    ],
-    "prerequisites": [
-      "Successful guillotine grip established from guard pull, sprawl, turtle attack, or scramble situation",
-      "Control of opponent's head with ability to break their posture forward",
-      "Top player has established or is establishing superior positioning (not locked in opponent's closed guard)",
-      "Hands secured together in chosen grip configuration with proper forearm or bicep placement across throat",
-      "Opponent's defensive frames either not established or being actively controlled"
-    ],
-    "key_principles": [
-      "Keep opponent's head lower than their hips at all times to maintain choke pressure and prevent escape",
-      "Use hip pressure and body weight to close space and prevent opponent from creating defensive distance",
-      "Maintain tight connection between choking arm and your torso—any gap reduces choking pressure significantly",
-      "Control opponent's ability to turn into you or away from you using head position, shoulder pressure, and leg positioning",
-      "Adjust grip and angle continuously based on opponent's defensive movements rather than maintaining static position",
-      "Use the threat of the choke to facilitate position advancement when direct finish is not immediately available",
-      "Keep your own posture strong and base wide to prevent opponent from sweeping or reversing while you work the submission"
-    ],
-    "offensive_transitions": [
+    "transitions": [
       {
-        "technique": "Guillotine Choke",
-        "target_position": "Won by Submission",
-        "success_rates": {
-          "beginner": 45,
-          "intermediate": 60,
-          "advanced": 75
-        }
+        "transition": "Guillotine Choke",
+        "attempt_probability": 13
       },
       {
-        "technique": "High Elbow Guillotine",
-        "target_position": "Won by Submission",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 55,
-          "advanced": 70
-        }
+        "transition": "High Elbow Guillotine",
+        "attempt_probability": 12
       },
       {
-        "technique": "Arm in Guillotine",
-        "target_position": "Won by Submission",
-        "success_rates": {
-          "beginner": 40,
-          "intermediate": 58,
-          "advanced": 72
-        }
+        "transition": "Arm in Guillotine",
+        "attempt_probability": 13
       },
       {
-        "technique": "Front Headlock to Anaconda",
-        "target_position": "Anaconda Control",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 50,
-          "advanced": 65
-        }
+        "transition": "Hip Bump Sweep",
+        "attempt_probability": 12
       },
       {
-        "technique": "Front Headlock to Darce",
-        "target_position": "D'arce Control",
-        "success_rates": {
-          "beginner": 28,
-          "intermediate": 48,
-          "advanced": 63
-        }
+        "transition": "Guillotine Setup",
+        "attempt_probability": 14
       },
       {
-        "technique": "Transition to Mount",
-        "target_position": "Mount",
-        "success_rates": {
-          "beginner": 50,
-          "intermediate": 65,
-          "advanced": 78
-        }
+        "transition": "Closed Guard to Omoplata",
+        "attempt_probability": 10
       },
       {
-        "technique": "Transition to North-South",
-        "target_position": "North-South",
-        "success_rates": {
-          "beginner": 55,
-          "intermediate": 68,
-          "advanced": 80
-        }
+        "transition": "Switch to Triangle",
+        "attempt_probability": 12
       },
       {
-        "technique": "Guard Pass",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 45,
-          "intermediate": 62,
-          "advanced": 75
-        }
+        "transition": "Anaconda Choke",
+        "attempt_probability": 14
       }
-    ],
-    "defensive_responses": [
-      {
-        "technique": "Guillotine Defense",
-        "target_position": "Closed Guard",
-        "success_rate": 40
-      },
-      {
-        "technique": "Guillotine Defense",
-        "target_position": "Half Guard",
-        "success_rate": 35
-      },
-      {
-        "technique": "Hand Fighting from Back",
-        "target_position": "Open Guard",
-        "success_rate": 30
-      },
-      {
-        "technique": "Guillotine Counter",
-        "target_position": "Side Control",
-        "success_rate": 25
-      },
-      {
-        "technique": "Technical Standup",
-        "target_position": "Standing Position",
-        "success_rate": 20
-      }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Transition to Mount",
-        "target_position": "Mount",
-        "trigger": "Opponent attempts to create space by pushing with hands on hips"
-      },
-      {
-        "technique": "High Elbow Guillotine",
-        "target_position": "Won by Submission",
-        "trigger": "Opponent tucks chin and pulls head back, opening high elbow finish angle"
-      },
-      {
-        "technique": "Front Headlock to Anaconda",
-        "target_position": "Anaconda Control",
-        "trigger": "Opponent turns into you to defend guillotine, exposing anaconda entry"
-      },
-      {
-        "technique": "Transition to North-South",
-        "target_position": "North-South",
-        "trigger": "Opponent attempts to roll to their back to relieve pressure"
-      },
-      {
-        "technique": "Guard Pass",
-        "target_position": "Side Control",
-        "trigger": "Opponent focuses entirely on hand fighting and neglects leg positioning"
-      }
-    ],
-    "decision_tree": [
-      {
-        "condition": "If opponent's posture is broken forward and chin is exposed",
-        "actions": [
-          {
-            "technique": "Guillotine Choke",
-            "target": "Won by Submission",
-            "probability": 75
-          },
-          {
-            "technique": "High Elbow Guillotine",
-            "target": "Won by Submission",
-            "probability": 70
-          }
-        ]
-      },
-      {
-        "condition": "If opponent tucks chin and defends neck but neglects position",
-        "actions": [
-          {
-            "technique": "Transition to Mount",
-            "target": "Mount",
-            "probability": 78
-          },
-          {
-            "technique": "Transition to North-South",
-            "target": "North-South",
-            "probability": 72
-          }
-        ]
-      },
-      {
-        "condition": "If opponent turns into you to defend",
-        "actions": [
-          {
-            "technique": "Front Headlock to Anaconda",
-            "target": "Anaconda Control",
-            "probability": 65
-          },
-          {
-            "technique": "Front Headlock to Darce",
-            "target": "D'arce Control",
-            "probability": 63
-          }
-        ]
-      },
-      {
-        "condition": "If opponent has arm trapped inside the guillotine",
-        "actions": [
-          {
-            "technique": "Arm in Guillotine",
-            "target": "Won by Submission",
-            "probability": 72
-          },
-          {
-            "technique": "Transition to Mount",
-            "target": "Mount",
-            "probability": 68
-          }
-        ]
-      },
-      {
-        "condition": "If opponent creates distance with legs but not hand fighting",
-        "actions": [
-          {
-            "technique": "Guard Pass",
-            "target": "Side Control",
-            "probability": 75
-          },
-          {
-            "technique": "High Elbow Guillotine",
-            "target": "Won by Submission",
-            "probability": 65
-          }
-        ]
-      }
-    ],
-    "common_errors": [
-      {
-        "error": "Pulling straight back on the choke without controlling opponent's hips or legs",
-        "consequence": "Opponent establishes closed guard, neutralizes top position advantage, and may even sweep or submit with own attacks",
-        "correction": "Maintain hip pressure forward, sprawl legs back, and use circular pulling motion while stepping to side to prevent guard closure"
-      },
-      {
-        "error": "Allowing gap between choking arm and your own torso during finish attempt",
-        "consequence": "Choking pressure dissipates entirely, opponent can breathe freely, and defensive hand fighting becomes much more effective",
-        "correction": "Keep elbow tight to ribs, pull forearm into your chest/sternum, and use lat engagement to maintain compression throughout the choke"
-      },
-      {
-        "error": "Maintaining only one grip configuration regardless of opponent's defensive adjustments",
-        "consequence": "Predictable attack allows opponent to develop specific defense, reducing finish rate and wasting energy on ineffective attempts",
-        "correction": "Flow between palm-to-palm, gable grip, and arm-in variations based on opponent's chin position and hand fighting responses"
-      },
-      {
-        "error": "Neglecting positional advancement when opponent successfully defends the choke",
-        "consequence": "Stalemate position develops where neither player can advance, wasting time and energy without productive outcome",
-        "correction": "Use opponent's focus on neck defense to pass guard, take mount, or transition to other submissions like anaconda or darce"
-      },
-      {
-        "error": "Pulling upward on opponent's head instead of controlling direction with shoulder and hip positioning",
-        "consequence": "Opponent can bridge, roll, or create angles that relieve pressure and potentially reverse position",
-        "correction": "Keep opponent's head directed toward your hip/pocket, use shoulder pressure to control their upper body direction, sprawl to prevent bridges"
-      },
-      {
-        "error": "Gripping too shallow with forearm across face instead of deep around neck",
-        "consequence": "No choking pressure on carotid arteries or trachea, opponent experiences discomfort but not submission threat, extended stalling occurs",
-        "correction": "Ensure blade of forearm or bicep crosses front of throat, adjust entry angle if needed, and verify hand position is behind opponent's head not their face"
-      },
-      {
-        "error": "Remaining stationary and static instead of making micro-adjustments to angle and pressure",
-        "consequence": "Opponent finds comfortable defensive position, can breathe and think clearly, eventually escapes or forces stalemate",
-        "correction": "Constantly adjust hip angle, stepping pattern, and shoulder pressure in small increments to maintain opponent's discomfort and prevent defensive settling"
-      }
-    ],
-    "training_drills": [
-      {
-        "name": "Guillotine Grip Flow Drill",
-        "description": "Partner allows you to secure guillotine from various entries (sprawl, turtle, guard pull). Focus on quickly securing deep grip, clasping hands properly, and immediately establishing top pressure without allowing guard closure. Rotate through different grip types (gable, palm-to-palm, arm-in) to develop versatility. Partner provides light resistance to hand fighting but does not attempt full escapes.",
-        "duration": "5 minutes per partner"
-      },
-      {
-        "name": "Position Before Submission Drill",
-        "description": "Start in guillotine control top with partner defending choke. Your goal is not to finish but to advance position to mount, side control, or north-south while maintaining the grip. This develops ability to use choke threat for position advancement. Partner defends choke actively but allows positional movement when you create proper angles.",
-        "duration": "3 minute rounds, switch roles"
-      },
-      {
-        "name": "Guillotine Finishing Sequences",
-        "description": "Start with established guillotine control top, partner is allowed to defend. Work through systematic finishing sequence: standard guillotine, if defended adjust to high elbow, if defended transition to anaconda or darce, if defended advance position. Develops ability to chain attacks rather than forcing single technique. Gradually increase partner's defensive intensity over multiple rounds.",
-        "duration": "4 minute rounds, 30 second rest between"
-      },
-      {
-        "name": "Sprawl to Guillotine Control",
-        "description": "Partner shoots double leg or single leg takedown. Sprawl and immediately secure guillotine grip, then establish top control without allowing guard closure. Focus on seamless transition from defensive sprawl to offensive control position. This is one of the highest-percentage entries in competition. Partner shoots at 70% intensity.",
-        "duration": "10 repetitions per side"
-      },
-      {
-        "name": "Guard Prevention Drill",
-        "description": "Start in guillotine control with partner attempting to close guard, you must maintain top position using hip pressure, leg positioning, and angle changes. Develops crucial skill of keeping dominant position while working submission. If partner closes guard, restart. Partner uses full effort to close guard.",
-        "duration": "2 minute rounds, 5 rounds"
-      }
-    ],
-    "optimal_submission_paths": [
-      {
-        "name": "Direct finish from standing entry",
-        "path": "Sprawl → Guillotine Setup → Guillotine Control Top → Guillotine Choke → Won by Submission"
-      },
-      {
-        "name": "High-percentage arm-in variation",
-        "path": "Guard Pull → Guillotine Setup → Guillotine Control Top → Arm in Guillotine → Won by Submission"
-      },
-      {
-        "name": "Anaconda transition path",
-        "path": "Guillotine Control Top → Front Headlock to Anaconda → Anaconda Control → Anaconda Choke → Won by Submission"
-      },
-      {
-        "name": "Position advancement to mount finish",
-        "path": "Guillotine Control Top → Transition to Mount → Mount → Armbar from Mount → Won by Submission"
-      },
-      {
-        "name": "Darce conversion from defense",
-        "path": "Guillotine Control Top → Front Headlock to Darce → D'arce Control → Darce Choke → Won by Submission"
-      }
-    ],
-    "related_content": [
-      {
-        "name": "Front Headlock",
-        "relationship": "Similar position - precursor position before securing guillotine grip"
-      },
-      {
-        "name": "Anaconda Control",
-        "relationship": "Transition target - common alternative when guillotine is defended"
-      },
-      {
-        "name": "D'arce Control",
-        "relationship": "Transition target - alternative choke when opponent turns into guillotine"
-      },
-      {
-        "name": "Mount",
-        "relationship": "Transition target - position advancement using guillotine threat"
-      },
-      {
-        "name": "North-South",
-        "relationship": "Transition target - alternative advancement path"
-      },
-      {
-        "name": "Guillotine Choke",
-        "relationship": "Primary submission - main finishing technique from this position"
-      },
-      {
-        "name": "High Elbow Guillotine",
-        "relationship": "Submission variation - alternative finishing mechanics"
-      },
-      {
-        "name": "Arm in Guillotine",
-        "relationship": "Submission variation - opportunistic variation when arm is trapped"
-      },
-      {
-        "name": "Marcelo Garcia Guillotine System",
-        "relationship": "Expert system - comprehensive approach to guillotine game"
-      }
-    ],
-    "position_metrics": {
-      "retention_rate": {
-        "beginner": 55,
-        "intermediate": 68,
-        "advanced": 78
-      },
-      "advancement_probability": {
-        "beginner": 45,
-        "intermediate": 62,
-        "advanced": 75
-      },
-      "submission_probability": {
-        "beginner": 40,
-        "intermediate": 60,
-        "advanced": 75
-      },
-      "average_time": "30-90 seconds"
-    }
+    ]
   }
 }

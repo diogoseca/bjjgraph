@@ -11,8 +11,6 @@
     "control",
     "standing"
   ],
-  "starting_position": "Clinch",
-  "ending_position": "Front Headlock",
   "success_rates": {
     "beginner": 45,
     "intermediate": 60,
@@ -296,6 +294,24 @@
     {
       "name": "Snap Down",
       "relationship": "Related standing technique variation"
+    }
+  ],
+  "from_position": "Clinch/Top",
+  "outcomes": [
+    {
+      "to": "Front Headlock/Top",
+      "probability": 75,
+      "result": "success"
+    },
+    {
+      "to": "Clinch/Top",
+      "probability": 15,
+      "result": "failure"
+    },
+    {
+      "to": "Clinch/Bottom",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

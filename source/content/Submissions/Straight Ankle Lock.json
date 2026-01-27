@@ -268,6 +268,31 @@
       "question": "What should you do if your opponent grabs their own trapped leg with both hands to defend the straight ankle lock, and why is this the correct response?",
       "answer": "Rather than fighting their grip directly (which often fails and burns energy), you should adjust your angle to be more perpendicular to their leg, tighten your chest-to-knee connection, and use small hip movements to maintain pressure while their grip fatigues. Often this defense opens transitions to other attacks—heel hooks if they turn their knee away, or back takes if they commit to the grip and expose their back. The key principle is not to abandon good position control just because the immediate finish is temporarily blocked. Maintain connection and either the finish will open or better attacks will present themselves.",
       "safety_critical": false
+    },
+    {
+      "question": "What anatomical structures does the straight ankle lock attack, and at what point does the submission become dangerous?",
+      "answer": "The straight ankle lock primarily attacks the ankle joint through hyperextension, putting stress on the anterior talofibular ligament, the Achilles tendon, and the tibialis anterior tendon. The submission becomes dangerous when the ankle reaches the end of its natural range of motion—this is the point where continued pressure will cause ligament damage or tendon strain. The breaking point is reached when the opponent feels sharp pain transitioning from pressure to potential injury. In training, always stop well before this point by applying pressure slowly enough for your partner to tap at the first sign of significant discomfort.",
+      "safety_critical": true
+    },
+    {
+      "question": "Your opponent begins standing up while you maintain ankle lock control—what grip adjustment prevents escape and maintains finishing capability?",
+      "answer": "As your opponent stands, immediately tighten your elbow clamp on their heel to prevent extraction and use your inside leg to hook behind their standing leg's knee, potentially converting to a sweep or Single Leg X-Guard position. Your outside leg should post on their hip or thigh to create a frame that prevents them from driving forward. Maintain chest-to-knee connection by following their movement upward rather than staying flat. Often their standing attempt creates better finishing angles for the ankle lock because their weight now drives down into your pressure rather than away from it.",
+      "safety_critical": false
+    },
+    {
+      "question": "How do you recognize when the straight ankle lock has reached the point of no escape for your opponent, and what finishing adjustments maximize success?",
+      "answer": "The point of no escape occurs when three conditions align: the heel is trapped deep in your armpit with no gap for extraction, your chest is locked tight to their knee preventing leg bending or retraction, and your body angle is perpendicular so hip extension drives directly into the ankle. At this point, even small hip extensions create significant finishing pressure. The finishing adjustment is to extend your hips smoothly while simultaneously arching your back slightly and pulling your elbows toward your own hips. This creates a unified body movement that concentrates all force into the ankle hyperextension with no escape route for the opponent.",
+      "safety_critical": false
+    },
+    {
+      "question": "What is the proper response when your finishing pressure seems ineffective despite having proper position, and what common mistake causes this problem?",
+      "answer": "When finishing pressure seems ineffective despite proper position, the most common cause is that your forearm blade is positioned too low on the foot (near the toes) rather than high on the foot near the ankle joint. The correction is to adjust your grip by sliding your forearm higher on the foot until the blade of your radius bone sits directly across the top of the foot where it meets the ankle. This creates the proper fulcrum point for hyperextension. Secondary causes include body angle being too parallel (adjust to perpendicular) or losing chest-to-knee connection (re-establish before continuing pressure).",
+      "safety_critical": false
+    },
+    {
+      "question": "In competition, what strategic timing considerations determine whether to pursue the straight ankle lock finish versus transitioning to a different attack?",
+      "answer": "Strategic timing depends on heel accessibility and opponent reaction. If the heel is deep in your armpit with proper forearm position and the opponent is not actively defending, commit to the finish with progressive pressure. If the opponent rotates their knee inward, transition immediately to toe hold or heel hook rather than fighting the rotation. If they grab their own leg with both hands, the ankle lock may stall but their defense opens back take opportunities. If they begin extracting their heel successfully, abandon the finish early and return to Ashi Garami control rather than chasing—failed chase attempts create scrambles that favor the defender.",
+      "safety_critical": false
     }
   ],
   "training_progressions_and_safety_protocols": [
@@ -335,9 +360,6 @@
     "Achilles Lock",
     "Calf Slicer",
     "Estima Lock",
-    "Straight Footlock",
-    "Kneebar from 50-50",
-    "Toe Hold from 50-50",
     "Kneebar from Guard"
   ],
   "related_content": [
@@ -370,16 +392,16 @@
       "relationship": "Common entry position that transitions into leg entanglement for ankle lock"
     },
     {
-      "name": "X-Guard to Ashi Transition",
-      "relationship": "Technical transition that creates ankle lock opportunities from guard positions"
-    },
-    {
       "name": "Leg Entanglement",
       "relationship": "Fundamental principle underlying all leg lock positions and controls"
     },
     {
-      "name": "Straight Footlock to Kneebar Chain",
-      "relationship": "System progression linking straight ankle lock to kneebar attacks"
+      "name": "50-50 Guard",
+      "relationship": "Symmetrical leg entanglement offering mutual straight ankle lock opportunities"
+    },
+    {
+      "name": "Straight Ankle Lock Control",
+      "relationship": "Control position variant used when securing the finish"
     }
   ]
 }

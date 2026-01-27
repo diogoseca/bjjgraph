@@ -21,37 +21,37 @@ description: "Master body lock control from top position. Dominant standing cont
     {
       "@type": "HowToStep",
       "name": "Execute Back Take Generic",
-      "text": "From this position, execute Back Take Generic to transition to Back Control. Success rate for advanced practitioners: 80%.",
+      "text": "From this position, attempt Back Take Generic. This technique is attempted in 18% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Turtle to Back Take",
-      "text": "From this position, execute Turtle to Back Take to transition to Standing Back Control. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Turtle to Back Take. This technique is attempted in 16% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Body Lock Pass",
-      "text": "From this position, execute Body Lock Pass to transition to Side Control. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Body Lock Pass. This technique is attempted in 18% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Bodylock Pass",
-      "text": "From this position, execute Bodylock Pass to transition to Turtle. Success rate for advanced practitioners: 85%.",
+      "name": "Execute Double Leg Entry",
+      "text": "From this position, attempt Double Leg Entry. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Double leg takedown",
-      "text": "From this position, execute Double leg takedown to transition to Side Control. Success rate for advanced practitioners: 65%.",
+      "name": "Execute Snap Down",
+      "text": "From this position, attempt Snap Down. This technique is attempted in 14% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Snap Down",
-      "text": "From this position, execute Snap Down to transition to Front Headlock. Success rate for advanced practitioners: 70%.",
+      "name": "Execute Turtle to Back Control",
+      "text": "From this position, attempt Turtle to Back Control. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -213,91 +213,20 @@ Modern no-gi competition has elevated the body lock to a primary offensive weapo
 
 ## Available Attacks
 
-### [[Back Take Generic]] → [[Back Control]]
+### [[Back Take Generic]] (18% of attempts)
 
-**Success Rates:**
-- Beginner: 50%
-- Intermediate: 65%
-- Advanced: 80%
+### [[Turtle to Back Take]] (16% of attempts)
 
-### [[Turtle to Back Take]] → [[Standing Back Control]]
+### [[Body Lock Pass]] (18% of attempts)
 
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 60%
-- Advanced: 75%
+### [[Double Leg Entry]] (12% of attempts)
 
-### [[Body Lock Pass]] → [[Side Control]]
+### [[Snap Down]] (14% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Turtle to Back Control]] (12% of attempts)
 
-### [[Bodylock Pass]] → [[Turtle]]
+### [[Rolling Back Take]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 55%
-- Intermediate: 70%
-- Advanced: 85%
-
-### [[Double leg takedown]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-### [[Snap Down]] → [[Front Headlock]]
-
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
-
-### [[Turtle to Back Control]] → [[Seat Belt Control Back]]
-
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 60%
-- Advanced: 80%
-
-### [[Rolling Back Take]] → [[Back Control]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Hip Escape and Frame Creation]]** → [[Clinch]] (Opponent Success: 30%)
-- **[[Whizzer]]** → [[Overhook Control]] (Opponent Success: 25%)
-- **[[Sprawl Defense]]** → [[Front Headlock]] (Opponent Success: 20%)
-- **[[Sitting Guard Pull]]** → [[Closed Guard]] (Opponent Success: 40%)
-- **[[Grip Break with Hip Post]]** → [[Standing Position]] (Opponent Success: 25%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Follow to Closed Guard Top]]** → [[Closed Guard]]
-  - Opponent sits to guard attempting to escape body lock pressure
-- **[[Snap Down]]** → [[Front Headlock]]
-  - Opponent lowers level or ducks head trying to escape hip pressure
-- **[[Re-establish Body Lock]]** → [[Body Lock]]
-  - Opponent breaks grip but hasn't created sufficient distance for full escape
-- **[[Transition to Single Leg]]** → [[Standing Position]]
-  - Opponent posts on your hips to create distance
 
 
 </section>
@@ -313,7 +242,7 @@ Modern no-gi competition has elevated the body lock to a primary offensive weapo
 
 **Else if opponent's posture breaks backward under hip pressure:**
 - Execute **[[Turtle to Back Control]]** → [[Back Control]] (Probability: 75%)
-- Execute **[[Bodylock Pass]]** → [[Turtle]] (Probability: 70%)
+- Execute **[[Body Lock Pass]]** → [[Turtle]] (Probability: 70%)
 
 
 **Else if opponent attempts to sit or pull guard:**
@@ -404,37 +333,39 @@ Partner attempts various escapes from your body lock including frames, whizzer, 
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Direct back attack path
+## Test Your Knowledge
 
-`Body Lock Top → Back Take Generic → Back Control → Rear Naked Choke`
+**Q1**: What is the most critical body connection point for maintaining body lock control?
+**A**: The chest-to-back connection is the most critical control point. Your chest must be pressed firmly against your opponent's back or upper torso, eliminating all space between bodies. This connection transfers your weight directly into their center of gravity and prevents them from creating frames, turning to face you, or establishing distance for escape. The locked hands become secondary insurance once proper chest connection is established.
 
-### High-percentage mat return path
+**Q2**: Your opponent begins posting their hands on your hips to create separation - what adjustment do you make?
+**A**: Immediately increase forward hip pressure while maintaining your locked grip and chest connection. Drive your hips forward with progressive pressure to collapse their arm posts. If they successfully create distance, transition to a single leg or double leg entry before they can fully disengage. The key is not allowing them time to establish strong frames by attacking their structure before their posts become load-bearing.
 
-`Body Lock Top → Turtle to Back Control → Seat Belt Control Back → Rear Naked Choke`
+**Q3**: Why must attacks be executed within 1-2 seconds of establishing the body lock?
+**A**: The body lock is an inherently transitional position that cannot be sustained indefinitely. Hesitation allows opponents to establish defensive measures including hand fighting to break your grip, lowering their base to resist throws, or positioning to sit to guard. The position's value lies in the immediate offensive pressure it creates - the dilemma of multiple threats that cannot all be defended. Delaying transforms a dominant control into a stalemate where the opponent has time to neutralize your advantages.
 
-### Throw to submission path
+**Q4**: What are the essential grip configurations for the body lock and when should each be used?
+**A**: The three primary grip configurations are: gable grip (palm-to-palm with fingers interlocked) which provides the strongest connection for mat returns and throws; rear naked choke grip (one hand gripping the opposite bicep with that arm securing the wrist) which allows quick transition to back control attacks; and butterfly grip (hands clasped with thumbs on top) which offers a balance of strength and transition ability. Use gable grip for immediate powerful finishes, RNC grip when anticipating back control, and butterfly grip when you need flexibility to adjust.
 
-`Body Lock Top → Double leg takedown → Side Control → Mount → Armbar from Mount`
+**Q5**: How should your head be positioned during body lock control and why?
+**A**: Position your head tight to the underhook side with your temple or ear pressed against your opponent's shoulder area. This positioning serves multiple purposes: it prevents them from establishing head control or whizzer on that side, creates proper angle for executing throws, adds to the overall tightness of your body connection, and protects against them turning into you. Improper head position - too far back or forward - reduces control, makes you vulnerable to counters, and decreases throwing power.
 
-### Front headlock transition path
+**Q6**: Your opponent begins sitting down to pull guard while you have body lock established - what is your response?
+**A**: Follow their descent immediately while maintaining your locked grip and chest connection. As they sit, you have two high-percentage options: follow them into closed guard top position with your body lock intact to immediately begin passing, or use their downward movement to transition to back control by driving through them as they sit and inserting hooks. The critical error is releasing your grip as they sit, which allows them to establish guard with defensive frames. Keep driving forward pressure throughout their guard pull attempt.
 
-`Body Lock Top → Snap Down → Front Headlock → Darce Choke`
+**Q7**: What stance fundamentals must be maintained throughout body lock control?
+**A**: Maintain an athletic stance with knees bent, weight distributed through the balls of your feet, and center of gravity low. This stance provides a stable base resistant to counter throws while enabling explosive movement for your own throws, mat returns, and transitions. Standing too upright with straight legs compromises your base, reduces hip driving power, and limits your ability to react to opponent's defensive movements. Your stance should allow instant level changes in any direction.
 
-### Guard passing path
-
-`Body Lock Top → Bodylock Pass → Side Control → Mount → Submissions from mount`
-
-### Crab ride system path
-
-`Body Lock Top → Bodylock Pass → Crab Ride → Back Control → Rear Naked Choke`
+**Q8**: When should you break your grip during the body lock sequence?
+**A**: Only break your locked grip after you have fully secured an alternative dominant position with its own control mechanisms established. Breaking the grip prematurely is a critical error that allows opponents to escape or counter-attack. The grip should be maintained throughout the entire attacking sequence - through the mat return, through the landing, and until back control hooks and seatbelt are fully secured, or until side control crossface and hip control are established. The locked hands are your primary control until replaced by position-specific controls.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 

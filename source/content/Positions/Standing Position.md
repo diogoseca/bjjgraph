@@ -21,49 +21,49 @@ description: "Master standing position in BJJ. Complete guide covering grips, ta
     {
       "@type": "HowToStep",
       "name": "Execute Double Leg Entry",
-      "text": "From this position, execute Double Leg Entry to transition to Side Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Double Leg Entry. This technique is attempted in 12% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Single Leg Entry",
-      "text": "From this position, execute Single Leg Entry to transition to Half Guard. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Single Leg Entry. This technique is attempted in 14% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Ippon Seoi Nage",
-      "text": "From this position, execute Ippon Seoi Nage to transition to Side Control. Success rate for advanced practitioners: 50%.",
+      "name": "Execute Ankle Pick",
+      "text": "From this position, attempt Ankle Pick. This technique is attempted in 8% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Osoto Gari",
-      "text": "From this position, execute Osoto Gari to transition to Mount. Success rate for advanced practitioners: 55%.",
+      "name": "Execute Snap Down",
+      "text": "From this position, attempt Snap Down. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Ankle Pick",
-      "text": "From this position, execute Ankle Pick to transition to Half Guard. Success rate for advanced practitioners: 60%.",
+      "name": "Execute Guard Pull",
+      "text": "From this position, attempt Guard Pull. This technique is attempted in 18% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Snap Down",
-      "text": "From this position, execute Snap Down to transition to Front Headlock. Success rate for advanced practitioners: 70%.",
+      "name": "Execute Arm Drag to Back",
+      "text": "From this position, attempt Arm Drag to Back. This technique is attempted in 8% of exchanges from this position.",
       "position": 6
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Guard Pull",
-      "text": "From this position, execute Guard Pull to transition to Closed Guard. Success rate for advanced practitioners: 80%.",
+      "name": "Execute 50-50 Entry from Standing",
+      "text": "From this position, attempt 50-50 Entry from Standing. This technique is attempted in 6% of exchanges from this position.",
       "position": 7
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Sitting Guard Pull",
-      "text": "From this position, execute Sitting Guard Pull to transition to Seated Guard. Success rate for advanced practitioners: 85%.",
+      "name": "Execute Body Lock Pass",
+      "text": "From this position, attempt Body Lock Pass. This technique is attempted in 8% of exchanges from this position.",
       "position": 8
     }
   ],
@@ -230,146 +230,24 @@ The Standing Position represents the fundamental neutral starting state in BJJ a
 
 ## Available Techniques and Transitions
 
-### [[Double Leg Entry]] → [[Side Control]]
+### [[Double Leg Entry]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 60%
+### [[Single Leg Entry]] (14% of attempts)
 
-### [[Single Leg Entry]] → [[Half Guard]]
+### [[Ankle Pick]] (8% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 65%
+### [[Snap Down]] (10% of attempts)
 
-### [[Ippon Seoi Nage]] → [[Side Control]]
+### [[Guard Pull]] (18% of attempts)
 
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 50%
+### [[Arm Drag to Back]] (8% of attempts)
 
-### [[Osoto Gari]] → [[Mount]]
+### [[50-50 Entry from Standing]] (6% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 55%
+### [[Body Lock Pass]] (8% of attempts)
 
-### [[Ankle Pick]] → [[Half Guard]]
+### [[Sprawl]] (16% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 60%
-
-### [[Snap Down]] → [[Front Headlock]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 70%
-
-### [[Guard Pull]] → [[Closed Guard]]
-
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 60%
-- Advanced: 80%
-
-### [[Sitting Guard Pull]] → [[Seated Guard]]
-
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 65%
-- Advanced: 85%
-
-### [[Arm Drag to Back]] → [[Back Control]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 55%
-
-### [[Uchi Mata]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 50%
-
-### [[Kouchi Gari]] → [[Half Guard]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 60%
-
-### [[High Crotch]] → [[Half Guard]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 60%
-
-### [[Rolling Guard Pull]] → [[De La Riva Guard]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 70%
-
-### [[50-50 Entry from Standing]] → [[50-50 Guard]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 55%
-
-### [[Bodylock Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 60%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Defensive Counters
-
-- **[[Sprawl]]** → [[Front Headlock]] (Success: 50%)
-- **[[Sprawl Defense]]** → [[Turtle]] (Success: 45%)
-- **[[Guard Pull]]** → [[Closed Guard]] (Success: 60%)
-- **[[Sitting Guard Pull]]** → [[Seated Guard]] (Success: 55%)
-- **[[Grip Break]]** → [[Standing Position]] (Success: 40%)
-- **[[Takedown Defense]]** → [[Standing Position]] (Success: 45%)
-- **[[Standing to Single Leg X]]** → [[Single Leg X-Guard]] (Success: 35%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter Techniques
-
-- **[[Snap Down to Front Headlock]]** → [[Front Headlock]]
-  - Opponent pulls head back or stands too upright during grip exchange
-- **[[Single Leg to Back Take]]** → [[Back Control]]
-  - Opponent attempts to hop away from single leg attack
-- **[[Arm Drag to Back]]** → [[Standing Back Control]]
-  - Opponent reaches for grips or extends arms forward
-- **[[Ankle Pick]]** → [[Half Guard]]
-  - Opponent steps forward or shifts weight to one leg
-- **[[Sprawl]]** → [[Front Headlock]]
-  - Opponent shoots for legs or drops level suddenly
-- **[[Russian Tie to Back Take]]** → [[Back Control]]
-  - Opponent attempts to circle away from collar tie
 
 
 </section>
@@ -498,34 +376,6 @@ Practice multiple guard pull variations from standing engagement, focusing on gr
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
-
-## Optimal Paths from This Position
-
-### Guillotine Path from Standing
-
-`Standing Position → Snap Down → Front Headlock → Guillotine Choke → Won by Submission`
-
-### Leg Lock Path via Guard Pull
-
-`Standing Position → 50-50 Entry from Standing → 50-50 Guard → Inside Heel Hook → Won by Submission`
-
-### Back Attack Path from Takedown
-
-`Standing Position → Single Leg to Back Take → Back Control → Rear Naked Choke → Won by Submission`
-
-### Armbar Path from Guard
-
-`Standing Position → Guard Pull → Closed Guard → Triangle from Closed Guard → Triangle Choke → Won by Submission`
-
-### Kimura Path from Standing Control
-
-`Standing Position → Russian Tie to Back Take → Standing Back Control → Kimura from Standing → Won by Submission`
-
-
-
-</section>
-
 <section id="position-metrics" class="content-section">
 
 ## Success Rates and Statistics
@@ -545,7 +395,7 @@ Practice multiple guard pull variations from standing engagement, focusing on gr
 
 ## Related Positions and Techniques
 
-- **[[Clinch]]** - Natural progression from standing with established grips
+- **[[Clinch]]** - Natural progression from standing with established grips and collar tie control
 - **[[Front Headlock]]** - Common transition target from snapdowns
 - **[[Closed Guard]]** - Primary guard pull destination
 - **[[Combat Base]]** - Standing variation of defensive base concepts
@@ -553,10 +403,9 @@ Practice multiple guard pull variations from standing engagement, focusing on gr
 - **[[Double Leg Entry]]** - Primary takedown technique from this position
 - **[[Single Leg Entry]]** - High-percentage takedown option
 - **[[Sprawl]]** - Essential defensive response to leg attacks
-- **[[Grip Fighting]]** - Core concept governing standing exchanges
-- **[[Takedown Entry]]** - Conceptual framework for offensive standing work
-- **[[Standing Defense Strategy]]** - Strategic system for this position
-- **[[Collar Ties]]** - Primary grip control position from standing
+- **[[Seated Guard]]** - Common guard pull destination for modern BJJ strategies
+- **[[De La Riva Guard]]** - Rolling guard pull destination with leg entanglement options
+- **[[Back Control]]** - High-value target from standing arm drags and back takes
 
 
 </section>

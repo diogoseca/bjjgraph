@@ -8,8 +8,6 @@
     "defensive-transition",
     "guard-retention"
   ],
-  "starting_position": "Reverse De La Riva Guard",
-  "ending_position": "Reverse De La Riva Guard",
   "success_rates": {
     "beginner": 45,
     "intermediate": 60,
@@ -266,6 +264,24 @@
     {
       "name": "Shin Shield Recovery",
       "relationship": "Related guard retention concept for different guard systems"
+    }
+  ],
+  "from_position": "Reverse De La Riva Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Reverse De La Riva Guard/Bottom",
+      "probability": 75,
+      "result": "success"
+    },
+    {
+      "to": "Reverse De La Riva Guard/Bottom",
+      "probability": 15,
+      "result": "failure"
+    },
+    {
+      "to": "Reverse De La Riva Guard/Top",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

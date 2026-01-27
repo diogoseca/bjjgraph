@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Single Leg Finish | BJJ Technique | BJJ Graph"
 description: "Learn Single Leg Finish in BJJ. Step-by-step takedown completion from Single Leg control. Success: Beginner 50%, Intermediate 70%, Advanced 85%."
@@ -16,7 +17,7 @@ description: "Learn Single Leg Finish in BJJ. Step-by-step takedown completion f
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Single Leg Finish in BJJ",
-  "description": "Step-by-step guide for Single Leg Finish from Standing Position to Side Control.",
+  "description": "Step-by-step guide for Single Leg Finish from Standing Position/Top. Possible outcomes: Side Control/Top (75%), Standing Position/Top (15%), Standing Position/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -158,11 +159,25 @@ The single leg finish encompasses multiple finishing variations depending on you
 
 Mastery of single leg finishes dramatically improves takedown success rates and provides seamless transitions from standing to dominant ground positions. The technique builds upon wrestling fundamentals while incorporating BJJ-specific considerations for position, control, and submission threats. When executed properly, the single leg finish not only scores takedown points but establishes immediate offensive opportunities on the ground.
 
-**Starting Position**: [[Standing Position]]
-**Ending Position**: [[Side Control]]
+**From Position**: [[Standing Position/Top]]
 **Success Rates**: Beginner 50%, Intermediate 70%, Advanced 85%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Side Control/Top]] | 75% |
+| Failure | [[Standing Position/Top]] | 15% |
+| Counter | [[Standing Position/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

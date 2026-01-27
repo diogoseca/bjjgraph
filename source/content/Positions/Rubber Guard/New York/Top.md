@@ -21,37 +21,37 @@ description: "Defend and escape New York control from top position. Master postu
     {
       "@type": "HowToStep",
       "name": "Execute Posture Recovery",
-      "text": "From this position, execute Posture Recovery to transition to Closed Guard. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Posture Recovery. This technique is attempted in 18% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Overhook Extraction",
-      "text": "From this position, execute Overhook Extraction to transition to Closed Guard. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Overhook Extraction. This technique is attempted in 16% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Guard Opening Sequence",
-      "text": "From this position, execute Guard Opening Sequence to transition to Open Guard. Success rate for advanced practitioners: 45%.",
+      "text": "From this position, attempt Guard Opening Sequence. This technique is attempted in 15% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Base Widening",
-      "text": "From this position, execute Base Widening to transition to Closed Guard. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Base Widening. This technique is attempted in 20% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Stack Defense",
-      "text": "From this position, execute Stack Defense to transition to Defensive Position. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Stack Defense. This technique is attempted in 21% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Pressure Pass",
-      "text": "From this position, execute Pressure Pass to transition to Side Control. Success rate for advanced practitioners: 30%.",
+      "text": "From this position, attempt Pressure Pass. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -220,75 +220,18 @@ From a learning progression standpoint, developing effective New York Top defens
 
 ## Available Attacks
 
-### [[Posture Recovery]] → [[Closed Guard]]
+### [[Posture Recovery]] (18% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 55%
+### [[Overhook Extraction]] (16% of attempts)
 
-### [[Overhook Extraction]] → [[Closed Guard]]
+### [[Guard Opening Sequence]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 50%
+### [[Base Widening]] (20% of attempts)
 
-### [[Guard Opening Sequence]] → [[Open Guard]]
+### [[Stack Defense]] (21% of attempts)
 
-**Success Rates:**
-- Beginner: 10%
-- Intermediate: 25%
-- Advanced: 45%
+### [[Pressure Pass]] (10% of attempts)
 
-### [[Base Widening]] → [[Closed Guard]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 60%
-
-### [[Stack Defense]] → [[Defensive Position]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 65%
-
-### [[Pressure Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 5%
-- Intermediate: 15%
-- Advanced: 30%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Transition to Invisible Collar]]** → [[Invisible Collar]] (Opponent Success: 45%)
-- **[[Progression to Zombie]]** → [[Zombie]] (Opponent Success: 40%)
-- **[[Triangle Setup]]** → [[Triangle Control]] (Opponent Success: 50%)
-- **[[Omoplata Sweep]]** → [[Omoplata Control]] (Opponent Success: 35%)
-- **[[Hip Bump Sweep]]** → [[Mount]] (Opponent Success: 40%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Stack and Drive]]** → [[Closed Guard]]
-  - Opponent attempts to transition to Chill Dog or Gogoplata setup
-- **[[Spin to Side Control]]** → [[Side Control]]
-  - Opponent commits fully to triangle attempt, exposing opportunity to circle around
-- **[[Posture and Pass]]** → [[Open Guard]]
-  - Opponent's shin-grip hand momentarily releases during transition attempt
 
 
 </section>
@@ -303,13 +246,13 @@ From a learning progression standpoint, developing effective New York Top defens
 
 
 **If opponent begins transition to Invisible Collar or Zombie:**
-- Execute **[[Stack Defense]]** → [[Defensive Position]] (Probability: 60%)
+- Execute **[[Stack Defense]]** → [[Closed Guard]] (Probability: 60%)
 - Execute **[[Overhook Extraction]]** → [[Closed Guard]] (Probability: 40%)
 
 
 **If opponent attempts triangle setup or other arm-based submission:**
 - Execute **[[Spin to Side Control]]** → [[Side Control]] (Probability: 50%)
-- Execute **[[Stack Defense]]** → [[Defensive Position]] (Probability: 45%)
+- Execute **[[Stack Defense]]** → [[Closed Guard]] (Probability: 45%)
 
 
 **If opponent's grip on shin momentarily weakens or releases:**
@@ -400,25 +343,39 @@ Partner establishes New York control, you have 60 seconds to escape to better po
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Escape to Guard Pass
+## Test Your Knowledge
 
-`New York Top → Base Widening → Posture Recovery → Overhook Extraction → Closed Guard → Guard Pass → Side Control`
+**Q1**: Your opponent starts driving their shin deeper across your back - what immediate adjustment should you make?
+**A**: Immediately widen your base by spreading your knees apart to create a stable triangular foundation. This prevents being swept and gives you a platform to begin fighting for posture. Simultaneously, use your free hand to grip-fight against their shin-controlling hand to prevent them from consolidating deeper control. Do not attempt to pull backward while they have strong shin control, as this will accelerate their advancement to more dominant positions.
 
-### Stack and Pass
+**Q2**: What is the correct sequence for escaping New York Top and why does order matter?
+**A**: The correct sequence is: base first, posture second, overhook extraction third, guard pass fourth. Order matters because each step creates the structural foundation for the next. Without base, posture attempts result in sweeps. Without posture, overhook extraction fails because the shin leverage keeps the arm pinned. Attempting to skip steps or address elements out of sequence allows the bottom player to counter and advance to more dominant positions or submissions.
 
-`New York Top → Stack Defense → Pressure Pass → Side Control`
+**Q3**: What are the essential grips and frames you need to establish when beginning your escape?
+**A**: Your free hand should establish a frame on their hip or belt to prevent them from following your hip movement. The trapped arm should focus on blocking their overhook from deepening rather than immediately extracting. Your knees need to create a wide base for stability. Grip-fighting the opponent's shin-gripping hand is essential for creating the opening needed to begin posture recovery. These frames prevent advancement while you work systematically toward escape.
 
-### Spin to Side Control
+**Q4**: How do you shut down the primary submission threat (triangle) during your escape attempt?
+**A**: Keep your trapped elbow tight to your body and pointed downward rather than flaring out. When you feel them attempting to elevate their hips or shoot their leg over your shoulder, immediately posture toward the trapped arm side while driving your weight forward to flatten their hips. If the triangle is already being locked, stack them immediately by driving forward and up while turning toward the choking leg to relieve pressure and create extraction opportunities.
 
-`New York Top → Triangle Defense → Spin to Side Control → Side Control`
+**Q5**: What adjustments should you make when the opponent drives forward aggressively trying to advance to Chill Dog or Gogoplata?
+**A**: When they drive forward, use their momentum against them by accepting the forward pressure momentarily while stacking them. Drive your shoulder into their hips and begin to walk your knees forward to flatten them. This stacking defense neutralizes both Chill Dog and Gogoplata threats because it removes the hip elevation they need. From the stacked position, you can begin working to extract your arm and pass to side control.
+
+**Q6**: How should you apply pressure to prevent being swept while maintaining base in New York Top?
+**A**: Apply downward pressure through your hips and chest while keeping your base wide with knees spread. Your weight should be distributed across both knees rather than concentrated on the trapped arm side where your base is compromised. Drive your hips down and back slightly rather than forward, which prevents them from using hip bumps. Keep your free hand posted or framing on their hip to feel for hip movement that signals sweep attempts.
+
+**Q7**: You've managed to partially recover posture but your arm remains trapped - what do you do next?
+**A**: With partial posture recovered, immediately grip-fight their shin-controlling hand while maintaining your posture through core engagement. Circle your trapped elbow downward and toward your hip in a corkscrew motion rather than pulling straight back. As you extract, keep your weight on your knees and be ready to immediately address their guard retention attempts. Have your passing grip ready to control their legs the moment your arm comes free.
+
+**Q8**: How do you manage energy expenditure during an extended engagement in New York Top?
+**A**: Work methodically rather than explosively - calm systematic movements are 60% more successful and conserve energy. Take brief micro-pauses between escape attempts to allow grip strength recovery but never remain static for more than 3-5 seconds. Prioritize efficiency over speed, using leverage and body positioning rather than muscular exertion. Accept that escape may take 30-60 seconds of methodical work rather than a single explosive movement, and pace yourself accordingly.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -440,12 +397,12 @@ Partner establishes New York control, you have 60 seconds to escape to better po
 ## Related Positions and Techniques
 
 - **[[Closed Guard]]** - Target position after successful New York escape
-- **[[Guard Passing Principles]]** - Strategic framework for passing guard after escaping New York
-- **[[Posture Up]]** - Critical principle for recovering from broken posture in New York
-- **[[Base Maintenance]]** - Fundamental principle for preventing sweeps from New York
-- **[[Submission Defense]]** - Essential skills for defending multiple threats from New York
-- **[[Pressure Passing]]** - Alternative passing approach available after escaping New York control
-- **[[Stack Defense]]** - Defensive position used to counter rubber guard attacks
+- **[[Side Control]]** - Target position after successful pass from New York escape
+- **[[Combat Base]]** - Intermediate position during posture recovery sequence
+- **[[Open Guard]]** - Alternative target position after breaking New York control
+- **[[Triangle Control]]** - Primary submission threat to defend during escape
+- **[[Omoplata Control]]** - Secondary submission threat when overhook is compromised
+- **[[Mount]]** - Position bottom player achieves if sweep succeeds
 
 
 </section>

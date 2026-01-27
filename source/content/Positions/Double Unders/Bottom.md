@@ -21,38 +21,32 @@ description: "Master Double Unders Bottom defensive position in BJJ. Complete su
     {
       "@type": "HowToStep",
       "name": "Execute Deep Half Entry",
-      "text": "From this position, execute Deep Half Entry to transition to Deep Half Guard. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 25% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Granby Roll",
-      "text": "From this position, execute Granby Roll to transition to Turtle. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Granby Roll. This technique is attempted in 20% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Butterfly Hook Recovery",
-      "text": "From this position, execute Butterfly Hook Recovery to transition to Butterfly Guard. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Butterfly Hook Recovery. This technique is attempted in 18% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Frame and Shrimp",
-      "text": "From this position, execute Frame and Shrimp to transition to Half Guard. Success rate for advanced practitioners: 70%.",
+      "name": "Execute Hip Escape",
+      "text": "From this position, attempt Hip Escape. This technique is attempted in 22% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Underhook Recovery",
-      "text": "From this position, execute Underhook Recovery to transition to Underhook Battle. Success rate for advanced practitioners: 50%.",
+      "name": "Execute Shin to Shin Pull",
+      "text": "From this position, attempt Shin to Shin Pull. This technique is attempted in 15% of exchanges from this position.",
       "position": 5
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Hip Escape",
-      "text": "From this position, execute Hip Escape to transition to Open Guard. Success rate for advanced practitioners: 55%.",
-      "position": 6
     }
   ],
   "totalTime": "PT2M"
@@ -67,42 +61,42 @@ description: "Master Double Unders Bottom defensive position in BJJ. Complete su
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What happens if you accepting both underhooks passively without immediate frame creation response?",
+      "name": "What happens if you accepting flat back position without immediate frame creation response?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Allows opponent to consolidate double underhook control, flatten your back to the mat, and complete the pass with minimal resistance The correct approach is: Fight frames immediately - get elbows inside, forearms on face/neck, create any space possible before being flattened completely"
+        "text": "Allows opponent to consolidate double underhook control, stack your hips completely, and complete the pass with minimal resistance The correct approach is: Fight frames immediately - get elbows inside, forearms on face/neck, create any space possible before being stacked completely"
       }
     },
     {
       "@type": "Question",
-      "name": "What happens if you keeping hips flat and static on the mat without active movement?",
+      "name": "What happens if you keeping hips flat and static on the mat without turning to either side?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Opponent easily flattens you completely, removes all guard retention options, and passes directly to side control or mount The correct approach is: Keep hips mobile constantly - shrimp, bridge, turn to sides, prevent static flattening at all costs through continuous movement"
+        "text": "Opponent easily stacks you completely, removes all guard retention options, and passes directly to side control or mount The correct approach is: Keep hips angled to one side constantly - this preserves deep half entry on one side and granby option on the other"
       }
     },
     {
       "@type": "Question",
-      "name": "What happens if you fighting both underhooks equally instead of focusing on recovering one strategically?",
+      "name": "What happens if you fighting the stacking pressure by pushing against chest rather than redirecting?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Wastes energy fighting bilateral control symmetrically while opponent maintains dominant position and advances pass The correct approach is: Focus energy on recovering one underhook first - breaking bilateral control is more important than perfect frames on both sides"
+        "text": "Wastes energy fighting their strongest pressure vector while opponent maintains dominant position and advances pass The correct approach is: Redirect pressure laterally through frames and hip angle rather than pushing directly against their chest pressure"
       }
     },
     {
       "@type": "Question",
-      "name": "What happens if you allowing chest-to-chest contact without resistance or space creation?",
+      "name": "What happens if you allowing complete leg control without fighting for at least one butterfly hook?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Gives opponent full weight pressure advantage, eliminates all leverage opportunities, and makes escape nearly impossible The correct approach is: Fight for any distance - even inches of space between chests allows hip mobility and escape opportunities to function"
+        "text": "Eliminates all guard recovery options and gives opponent free path to complete pass The correct approach is: Constantly work to free one leg and insert butterfly hook or knee shield - even partial leg freedom maintains escape options"
       }
     },
     {
       "@type": "Question",
-      "name": "What happens if you giving up mentally when double underhooks are established, accepting defeat prematurely?",
+      "name": "What happens if you giving up mentally when double underhooks are established, accepting pass prematurely?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Surrenders defensive opportunities prematurely, allows easy pass, and reinforces bad habits for future similar positions The correct approach is: Stay mentally engaged - this position has multiple escape routes if you act quickly with proper technique and timing"
+        "text": "Surrenders defensive opportunities, allows easy pass, and reinforces bad habits for future similar positions The correct approach is: Stay mentally engaged - this position has multiple escape routes (deep half, granby, guard recovery) if you act with proper technique"
       }
     }
   ]
@@ -168,11 +162,11 @@ Double Unders Bottom Position occurs when an opponent has established underhooks
 
 ## Position Definition
 
-- Opponent has both arms wrapped under your armpits with underhooks established bilaterally, controlling your upper body and eliminating your ability to create effective frames with your arms
-- Your back is curved forward with shoulders rounded as opponent drives weight through underhooks into your chest and torso, collapsing defensive posture and restricting spinal extension
-- Opponent's chest pressure is driving forward and downward, forcing your upper body toward the mat while preventing you from sitting up or creating separation between bodies
-- Your hips are being pressured toward the mat with limited mobility as opponent works to flatten you completely and establish side control or mount positioning
-- Your legs may be entangled in half guard, butterfly hooks, or transitioning between guard positions as opponent advances the passing sequence progressively
+- Opponent has both arms wrapped under your legs with hands meeting behind your back or gripping belt, controlling your lower body and eliminating your ability to create effective frames with your legs
+- Your back is curved with hips elevated as opponent drives weight through underhooks into your thighs, collapsing defensive posture and stacking your weight onto your shoulders
+- Opponent's chest pressure is driving forward and downward into your legs, forcing your hips upward while preventing you from extending legs or creating separation between bodies
+- Your hips are being elevated toward your head with limited mobility as opponent works to stack you completely and walk their knees past your hips for pass completion
+- Your arms are free but limited in effectiveness due to body positioning, requiring strategic frame placement against face, shoulders, or hips to create any defensive space
 
 
 </section>
@@ -181,10 +175,10 @@ Double Unders Bottom Position occurs when an opponent has established underhooks
 
 ## Prerequisites
 
-- Opponent has secured double underhooks from a passing position
+- Opponent has secured double underhooks from a passing position under your legs
 - Your defensive frames have been compromised or removed
-- Opponent is driving forward pressure through underhooks
-- You are on your back or side with upper body controlled
+- Opponent is driving forward pressure through underhooks to stack your hips
+- You are on your back with hips elevated and upper body compressed
 - Guard passing sequence is in advanced stage requiring immediate response
 
 
@@ -195,11 +189,11 @@ Double Unders Bottom Position occurs when an opponent has established underhooks
 ## Key Defensive Principles
 
 - Create frames immediately - elbows inside, forearms against opponent's face/neck to generate any available space
-- Prevent chest-to-chest contact by maintaining distance with frames or hip positioning, even inches matter
-- Keep hips mobile and active - shrimping, bridging, turning to prevent being flattened completely
-- Fight to recover at least one underhook to break bilateral control and restore defensive structure
+- Prevent complete stacking by maintaining hip mobility and turning to one side when possible
+- Keep hips mobile and active - shrimping, bridging, turning to prevent being completely flattened
+- Fight to get one leg free to create butterfly hook or knee shield for guard recovery
 - Use opponent's forward pressure against them - granby rolls and deep half entries work with their momentum
-- Protect your back from taking the mat - once flattened, escape difficulty increases exponentially
+- Protect your spine from excessive compression - turn to side rather than accepting full stack
 - Accept strategic transitions when necessary - moving to deep half or turtle may be better than being crushed flat
 
 
@@ -209,77 +203,16 @@ Double Unders Bottom Position occurs when an opponent has established underhooks
 
 ## Available Escapes
 
-### [[Deep Half Entry]] → [[Deep Half Guard]]
+### [[Deep Half Entry]] (25% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Granby Roll]] (20% of attempts)
 
-### [[Granby Roll]] → [[Turtle]]
+### [[Butterfly Hook Recovery]] (18% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
+### [[Hip Escape]] (22% of attempts)
 
-### [[Butterfly Hook Recovery]] → [[Butterfly Guard]]
+### [[Shin to Shin Pull]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[Frame and Shrimp]] → [[Half Guard]]
-
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
-
-### [[Underhook Recovery]] → [[Underhook Battle]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
-
-### [[Hip Escape]] → [[Open Guard]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Smash Pass]]** → [[Side Control]] (Opponent Success: 65%)
-- **[[Knee Slice Pass]]** → [[Side Control]] (Opponent Success: 60%)
-- **[[Transition to Mount]]** → [[Mount]] (Opponent Success: 45%)
-- **[[Transition to North-South]]** → [[North-South]] (Opponent Success: 50%)
-- **[[Pressure Pass]]** → [[Side Control]] (Opponent Success: 70%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Deep Half Entry]]** → [[Deep Half Guard]]
-  - Opponent drives weight forward attempting to flatten you completely onto your back
-- **[[Granby Roll]]** → [[Turtle]]
-  - Opponent commits weight forward toward your head while advancing the pass
-- **[[Frame Creation]]** → [[Half Guard]]
-  - Opponent pauses pressure momentarily to adjust grips or reposition base
-- **[[Butterfly Hook Retention]]** → [[Butterfly Guard]]
-  - Opponent elevates hips to clear your legs during passing sequence
 
 
 </section>
@@ -294,18 +227,18 @@ Double Unders Bottom Position occurs when an opponent has established underhooks
 
 
 **If opponent pauses pressure to consolidate position or adjust grips and base structure:**
-- Execute **[[Frame and Shrimp]]** → [[Half Guard]] (Probability: 65%)
+- Execute **[[Hip Escape]]** → [[Half Guard]] (Probability: 65%)
 - Execute **[[Butterfly Hook Recovery]]** → [[Butterfly Guard]] (Probability: 50%)
 
 
 **If opponent lifts weight or shifts laterally to clear your legs and complete passing sequence:**
 - Execute **[[Hip Escape]]** → [[Open Guard]] (Probability: 60%)
-- Execute **[[Underhook Recovery]]** → [[Underhook Battle]] (Probability: 40%)
+- Execute **[[Shin to Shin Pull]]** → [[Shin-to-Shin Guard]] (Probability: 40%)
 
 
 **If you successfully create any frame or space between your chest and opponent's chest:**
-- Execute **[[Frame Management]]** → [[Half Guard]] (Probability: 70%)
-- Execute **[[Guard Recovery]]** → [[Closed Guard]] (Probability: 35%)
+- Execute **[[Knee Shield Recovery]]** → [[Knee Shield Half Guard]] (Probability: 70%)
+- Execute **[[Closed Guard Recovery]]** → [[Closed Guard]] (Probability: 35%)
 
 
 
@@ -316,40 +249,40 @@ Double Unders Bottom Position occurs when an opponent has established underhooks
 
 ## Common Defensive Mistakes
 
-### 1. Accepting both underhooks passively without immediate frame creation response
+### 1. Accepting flat back position without immediate frame creation response
 
-- ❌ **Consequence**: Allows opponent to consolidate double underhook control, flatten your back to the mat, and complete the pass with minimal resistance
-- ✅ **Correction**: Fight frames immediately - get elbows inside, forearms on face/neck, create any space possible before being flattened completely
+- ❌ **Consequence**: Allows opponent to consolidate double underhook control, stack your hips completely, and complete the pass with minimal resistance
+- ✅ **Correction**: Fight frames immediately - get elbows inside, forearms on face/neck, create any space possible before being stacked completely
 
-### 2. Keeping hips flat and static on the mat without active movement
+### 2. Keeping hips flat and static on the mat without turning to either side
 
-- ❌ **Consequence**: Opponent easily flattens you completely, removes all guard retention options, and passes directly to side control or mount
-- ✅ **Correction**: Keep hips mobile constantly - shrimp, bridge, turn to sides, prevent static flattening at all costs through continuous movement
+- ❌ **Consequence**: Opponent easily stacks you completely, removes all guard retention options, and passes directly to side control or mount
+- ✅ **Correction**: Keep hips angled to one side constantly - this preserves deep half entry on one side and granby option on the other
 
-### 3. Fighting both underhooks equally instead of focusing on recovering one strategically
+### 3. Fighting the stacking pressure by pushing against chest rather than redirecting
 
-- ❌ **Consequence**: Wastes energy fighting bilateral control symmetrically while opponent maintains dominant position and advances pass
-- ✅ **Correction**: Focus energy on recovering one underhook first - breaking bilateral control is more important than perfect frames on both sides
+- ❌ **Consequence**: Wastes energy fighting their strongest pressure vector while opponent maintains dominant position and advances pass
+- ✅ **Correction**: Redirect pressure laterally through frames and hip angle rather than pushing directly against their chest pressure
 
-### 4. Allowing chest-to-chest contact without resistance or space creation
+### 4. Allowing complete leg control without fighting for at least one butterfly hook
 
-- ❌ **Consequence**: Gives opponent full weight pressure advantage, eliminates all leverage opportunities, and makes escape nearly impossible
-- ✅ **Correction**: Fight for any distance - even inches of space between chests allows hip mobility and escape opportunities to function
+- ❌ **Consequence**: Eliminates all guard recovery options and gives opponent free path to complete pass
+- ✅ **Correction**: Constantly work to free one leg and insert butterfly hook or knee shield - even partial leg freedom maintains escape options
 
-### 5. Giving up mentally when double underhooks are established, accepting defeat prematurely
+### 5. Giving up mentally when double underhooks are established, accepting pass prematurely
 
-- ❌ **Consequence**: Surrenders defensive opportunities prematurely, allows easy pass, and reinforces bad habits for future similar positions
-- ✅ **Correction**: Stay mentally engaged - this position has multiple escape routes if you act quickly with proper technique and timing
+- ❌ **Consequence**: Surrenders defensive opportunities, allows easy pass, and reinforces bad habits for future similar positions
+- ✅ **Correction**: Stay mentally engaged - this position has multiple escape routes (deep half, granby, guard recovery) if you act with proper technique
 
-### 6. Extending legs straight or pushing opponent away with feet ineffectively
+### 6. Extending legs straight trying to push opponent away with feet
 
-- ❌ **Consequence**: Removes leg entanglement options, eliminates butterfly hook possibilities, and gives opponent clear path to side control
-- ✅ **Correction**: Keep legs active with hooks (butterfly, half guard) or transitional positions - never extend straight which surrenders control
+- ❌ **Consequence**: Removes leg entanglement options, eliminates butterfly hook possibilities, and makes stacking easier for opponent
+- ✅ **Correction**: Keep legs bent with active hooks available - straight legs surrender all guard retention mechanics
 
-### 7. Tucking chin to chest defensively instead of maintaining head position and mobility
+### 7. Holding breath and tensing entire body against pressure rather than breathing and moving
 
-- ❌ **Consequence**: Rounds spine further, makes you easier to flatten, and reduces mobility for granby rolls or hip escapes
-- ✅ **Correction**: Keep head active and mobile - look away from pressure direction to maintain spinal extension and mobility options
+- ❌ **Consequence**: Rapid exhaustion while opponent maintains pressure with less effort, leading to failed escape attempts and inevitable pass
+- ✅ **Correction**: Breathe steadily, use skeletal frames rather than muscular tension, and save explosive energy for committed escape attempts
 
 
 
@@ -361,7 +294,7 @@ Double Unders Bottom Position occurs when an opponent has established underhooks
 
 ### Double Underhook Escape Repetition
 
-Partner establishes double underhooks from various positions (half guard, butterfly, seated). Practice frame creation, underhook recovery, and deep half entries with progressive resistance. Start at 30% resistance, increase to 70% over weeks. Focus on immediate reactions when underhooks are secured.
+Partner establishes double underhooks from various positions (half guard, butterfly, seated). Practice frame creation, deep half entries, and granby rolls with progressive resistance. Start at 30% resistance, increase to 70% over weeks. Focus on immediate reactions when underhooks are secured.
 
 **Duration**: 5 minutes per round, 3 rounds
 
@@ -382,7 +315,7 @@ Partner establishes double underhooks and drives forward pressure. Bottom player
 
 ### Frame Fighting Flow Drill
 
-Partner continuously seeks double underhooks while you work to maintain frames, recover underhooks, and prevent bilateral control. Light resistance, focus on hand fighting, elbow positioning, and constant frame renewal. Develops defensive awareness and proactive frame maintenance.
+Partner continuously seeks double underhooks while you work to maintain frames, recover butterfly hooks, and prevent stacking. Light resistance, focus on hand fighting, elbow positioning, and constant frame renewal. Develops defensive awareness and proactive frame maintenance.
 
 **Duration**: 4 minutes continuous, 3 rounds
 
@@ -391,25 +324,39 @@ Partner continuously seeks double underhooks while you work to maintain frames, 
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Defensive survival path
+## Test Your Knowledge
 
-`Double Unders Bottom → Deep Half Guard → Deep Half Sweep → Top Position → Submission opportunities from top`
+**Q1**: Your opponent is driving heavy stacking pressure through double unders - what immediate frame should you establish to create space?
+**A**: Establish a cross-face frame by placing your forearm across their jawline or neck, using your elbow tight to your body as the anchor point. This frame creates a lever that generates space proportional to their forward pressure - the harder they drive, the more effective the frame becomes. Your other hand should control their bicep or shoulder to prevent them from walking around your frame. The frame must be skeletal rather than muscular, using bone alignment to redirect their pressure.
 
-### Counter-attacking path
+**Q2**: What are the fundamental requirements for maintaining any defensive structure against double unders pressure?
+**A**: Three elements must be maintained: active hip mobility to prevent complete flattening, at least one frame creating space between your body and theirs, and leg activity to threaten guard recovery. If any element is lost, the others become progressively harder to maintain. Priority is hip mobility first (turn to side, don't accept flat back), then frames second, then leg positioning. Without hip mobility, frames become ineffective; without frames, leg recovery becomes impossible.
 
-`Double Unders Bottom → Granby Roll → Turtle → Turtle to Back Take → Back Control → Rear Naked Choke`
+**Q3**: How do you execute the primary escape of diving to deep half guard when trapped in double unders bottom?
+**A**: Time the entry when opponent drives their weight forward. Turn your hips toward the side you're escaping to, thread your bottom arm under their near leg to establish the deep half underhook, and rotate your body underneath their hips using their forward pressure as momentum. Your head must get below their hip line. The key is committing fully to the rotation rather than fighting to stay on top - use their energy against them by diving deep underneath rather than resisting the pressure direction.
 
-### Guard recovery path
+**Q4**: What grip adjustments should you prioritize when opponent begins walking their knees forward to complete the pass?
+**A**: When knees start walking forward, your window for standard escapes closes rapidly. Prioritize getting one hand to their hip on the passing side to create a frame that blocks their knee advancement. If that fails, immediately commit to either deep half entry by threading under, or granby roll by using their forward momentum to rotate away. Do not try to push their chest away - redirect to hip control or commit to rotation-based escapes that work with their passing momentum.
 
-`Double Unders Bottom → Frame and Shrimp → Half Guard → Underhook Sweep from Half → Mount → Armbar from Mount`
+**Q5**: How should you use hip positioning to maximize your defensive options and prevent complete pass completion?
+**A**: Never accept a flat back position with both shoulders on the mat. Always turn your hips to one side, which accomplishes three things: reduces the stacking pressure on your spine, creates an angle for deep half entry on the low side, and maintains granby roll option toward the high side. The side you turn toward becomes your deep half escape side, while the opposite side becomes your granby direction. Staying angled rather than flat maintains both escape pathways.
+
+**Q6**: Your opponent pauses their forward pressure momentarily to readjust grips - what immediate action gives you the best recovery chance?
+**A**: The grip adjustment pause is your primary window. Immediately create maximum hip movement by bridging and turning to your side to break their chest connection. Then establish butterfly hook with your free leg by inserting your foot inside their thigh. The butterfly hook combined with your frame allows you to create enough space to either recover full butterfly guard or transition to half guard with knee shield. Speed is critical - you have approximately 1-2 seconds before they reestablish pressure.
+
+**Q7**: How do you manage energy expenditure to survive extended periods in double unders bottom while maintaining escape capability?
+**A**: Avoid constant muscular straining against their pressure, which exhausts you faster than them. Use frames based on skeletal alignment rather than muscular pushing. Time your explosive escape attempts for moments when their pressure lightens or shifts. Between escape attempts, focus on maintaining hip angle and breathing steadily rather than constantly fighting. Accept that you may need to survive 30-60 seconds before a legitimate escape window opens. Preserve your explosive capacity for committed escape attempts rather than wasting it on half-efforts.
+
+**Q8**: When should you strategically accept transitioning to turtle rather than continuing to fight double unders bottom, and how do you execute this safely?
+**A**: Accept turtle transition when you cannot establish any frames and your back is being completely flattened, or when opponent's pass is imminent and turtle provides better scramble opportunity. Execute by timing a granby roll as they commit weight forward - use their momentum to roll over your shoulder toward turtle rather than trying to sit up against their pressure. Immediately establish defensive turtle posture with elbows tight and head protected. Turtle from active choice is far better than being flattened into side control with no defensive options.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -434,10 +381,10 @@ Partner continuously seeks double underhooks while you work to maintain frames, 
 - **[[Headquarters Position]]** - Common preceding position where double underhooks are established
 - **[[Deep Half Guard]]** - Primary escape target from this position
 - **[[Half Guard]]** - Related defensive position with better structure
-- **[[Smash Pass]]** - Common pass attempt from double underhooks
-- **[[Pressure Passing]]** - Conceptual framework opponent uses from this position
-- **[[Frame Management]]** - Essential defensive concept for this position
+- **[[Butterfly Guard]]** - Guard position to recover through butterfly hook insertion
+- **[[Turtle]]** - Alternative escape position via granby roll
 - **[[Deep Half Entry]]** - Primary escape transition from this position
+- **[[Granby Roll]]** - Alternative escape using opponent's forward momentum
 
 
 </section>

@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Omoplata to Back | BJJ Technique | BJJ Graph"
 description: "Learn Omoplata to Back transition in BJJ. Step-by-step execution from Omoplata Control to Back Control. Success: Beginner 30%, Intermediate 50%, Advanced 70%."
@@ -16,7 +17,7 @@ description: "Learn Omoplata to Back transition in BJJ. Step-by-step execution f
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Omoplata to Back in BJJ",
-  "description": "Step-by-step guide for Omoplata to Back from Omoplata Control to Back Control.",
+  "description": "Step-by-step guide for Omoplata to Back from Omoplata Control/Top. Possible outcomes: Back Control/Top (70%), Omoplata Control/Top (20%), Omoplata Control/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -166,11 +167,25 @@ description: "Learn Omoplata to Back transition in BJJ. Step-by-step execution f
 
 The Omoplata to Back transition represents one of the most sophisticated and high-percentage follow-ups when an opponent defends the omoplata shoulder lock by rolling forward. This technical sequence exploits the opponent's defensive response to escape the submission, transforming their escape attempt into a direct path to back control. The transition requires precise timing and spatial awareness, as the practitioner must recognize the moment when their opponent commits to the forward roll and immediately adjust their position to maintain connection while establishing back control hooks. This transition is particularly effective in both gi and no-gi contexts, though the gi provides additional control options through lapel grips. The beauty of this technique lies in its seamless flow from submission attempt to dominant position, exemplifying the fundamental BJJ principle of chaining attacks together to create dilemmas for the opponent. When executed properly, the defender finds themselves transitioning from defending a shoulder lock directly into one of the most dominant control positions in grappling, with the attacker already positioned to threaten the rear naked choke.
 
-**Starting Position**: [[Omoplata Control]]
-**Ending Position**: [[Back Control]]
+**From Position**: [[Omoplata Control/Top]]
 **Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Back Control/Top]] | 70% |
+| Failure | [[Omoplata Control/Top]] | 20% |
+| Counter | [[Omoplata Control/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

@@ -12,8 +12,6 @@
     "arm-isolation",
     "positional-attack"
   ],
-  "starting_position": "North-South",
-  "ending_position": "Kimura Control",
   "success_rates": {
     "beginner": 30,
     "intermediate": 50,
@@ -235,7 +233,7 @@
       "relationship": "Alternative submission from the same starting position"
     },
     {
-      "name": "Transition to North-South",
+      "name": "Side Control to North-South",
       "relationship": "Prerequisite technique for establishing the starting position"
     },
     {
@@ -277,6 +275,24 @@
     {
       "name": "Americana from Side Control",
       "relationship": "Related shoulder lock from similar position"
+    }
+  ],
+  "from_position": "North-South/Top",
+  "outcomes": [
+    {
+      "to": "Kimura Control/Top",
+      "probability": 70,
+      "result": "success"
+    },
+    {
+      "to": "North-South/Top",
+      "probability": 20,
+      "result": "failure"
+    },
+    {
+      "to": "North-South/Bottom",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

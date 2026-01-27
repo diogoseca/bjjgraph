@@ -8,8 +8,6 @@
     "stack",
     "technique"
   ],
-  "starting_position": "Closed Guard",
-  "ending_position": "Side Control",
   "success_rates": {
     "beginner": 35,
     "intermediate": 55,
@@ -284,6 +282,24 @@
     {
       "name": "Base Maintenance",
       "relationship": "Critical principle for maintaining stability during the pass"
+    }
+  ],
+  "from_position": "Closed Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Side Control/Top",
+      "probability": 70,
+      "result": "success"
+    },
+    {
+      "to": "Closed Guard/Bottom",
+      "probability": 20,
+      "result": "failure"
+    },
+    {
+      "to": "Closed Guard/Top",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Tomoe Nage | BJJ Technique | BJJ Graph"
 description: "Learn Tomoe Nage in BJJ. Master the sacrifice throw from standing to guard positions. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%. Complete execution guide."
@@ -16,7 +17,7 @@ description: "Learn Tomoe Nage in BJJ. Master the sacrifice throw from standing 
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Tomoe Nage in BJJ",
-  "description": "Step-by-step guide for Tomoe Nage from Standing Position to Closed Guard.",
+  "description": "Step-by-step guide for Tomoe Nage from Standing Position/Top. Possible outcomes: Closed Guard/Bottom (70%), Standing Position/Top (20%), Standing Position/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -160,11 +161,25 @@ description: "Learn Tomoe Nage in BJJ. Master the sacrifice throw from standing 
 
 Tomoe Nage, known as the circle throw or stomach throw, is a dynamic sacrifice technique borrowed from judo that has found significant application in sport Brazilian Jiu-Jitsu. The technique involves dropping to your back while using foot placement on the opponent's hip or abdomen to elevate and throw them overhead, typically transitioning directly into closed guard or other dominant positions. This technique is particularly effective in gi competition where grips are secure, and it has become a staple for guard pullers who want to combine offensive takedown scoring with immediate guard establishment. The circular motion that gives Tomoe Nage its name refers to the arc created as the opponent is thrown over your body. Modern BJJ has adapted this classical judo throw into a versatile entry system that can lead to sweeps, guard pulls, and submission setups. The technique's effectiveness lies in its ability to use the opponent's forward momentum and weight against them, requiring more timing and technical precision than raw strength.
 
-**Starting Position**: [[Standing Position]]
-**Ending Position**: [[Closed Guard]]
+**From Position**: [[Standing Position/Top]]
 **Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Closed Guard/Bottom]] | 70% |
+| Failure | [[Standing Position/Top]] | 20% |
+| Counter | [[Standing Position/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

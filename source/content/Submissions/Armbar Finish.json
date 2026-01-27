@@ -223,6 +223,16 @@
       "safety_critical": true
     },
     {
+      "question": "Your opponent begins rotating their thumb downward during the finish - what immediate adjustment prevents escape?",
+      "answer": "Immediately rotate your hips in the same direction they are turning (toward their head) while maintaining tight wrist control. This hip rotation matches their arm rotation, preventing them from creating the angle needed to relieve elbow pressure. If they continue rotating despite your adjustment, transition to belly-down armbar by rolling toward their legs while maintaining wrist grip. The belly-down variation makes thumb position irrelevant since pressure comes from your body weight rather than hip elevation angle.",
+      "safety_critical": false
+    },
+    {
+      "question": "What anatomical structure does the armbar finish attack, and what indicates you've reached the breaking point?",
+      "answer": "The armbar attacks the elbow joint, specifically hyperextending it beyond its normal range of motion to stress the collateral ligaments (medial and lateral), the joint capsule, and potentially the ulnar nerve. Breaking point indicators include: opponent's arm reaching full extension with no bend remaining, visible stress on the elbow joint, opponent's body tensing in anticipation of pain, and verbal or physical distress signals. In training, you should receive a tap well before actual breaking point—never test the limits.",
+      "safety_critical": true
+    },
+    {
       "question": "Why must opponent's thumb point toward the ceiling during armbar finish, and what happens if you allow hitchhiker rotation?",
       "answer": "The thumb-up (supinated) position aligns the elbow joint for maximum vulnerability to hyperextension, creating the anatomically weakest position for the elbow. If opponent successfully rotates their thumb downward (hitchhiker escape), they change the angle of pressure application, dramatically reducing stress on the elbow joint and creating an escape path. To counter hitchhiker, you must rotate your hips in the same direction or transition to belly-down finish.",
       "safety_critical": false
@@ -238,8 +248,28 @@
       "safety_critical": true
     },
     {
+      "question": "Your opponent establishes a strong defensive grip by clasping their hands together - what finishing strategy should you employ?",
+      "answer": "Never attempt to finish through a strong defensive grip—you must break it first. Use progressive hip elevation to fatigue their grip over time while maintaining all control points. Attack the thumb by inserting your foot between their hands and using leg pressure to pry them apart. Alternatively, transition to complementary attacks: wristlock on the defending hand, triangle choke if their arm positioning allows, or kimura grip to use rotational force against their grip. The grip break should be methodical, not rushed.",
+      "safety_critical": false
+    },
+    {
       "question": "Why is knee pinch critical during armbar finish, and what escape does it prevent?",
       "answer": "Knee pinch creates a vice-like trap around opponent's isolated arm, preventing them from pulling their elbow back to their centerline. Without proper knee pinch, opponent can generate pulling power and retract their arm from danger. The pinch also prevents them from creating angles or rotation that would reduce pressure. Maximum knee pinch pressure should be maintained throughout the entire finish, from initial control to tap.",
+      "safety_critical": false
+    },
+    {
+      "question": "In competition, what grip adjustments optimize finishing percentage when opponent is actively defending?",
+      "answer": "For maximum finishing control, grip their wrist with your outside hand (thumb toward their fingers) and reinforce with your inside hand overlapping or gripping your own wrist for a figure-four configuration. This double grip prevents wrist rotation and slipping. Position their wrist at your sternum, not your chin or belly—sternum placement creates optimal leverage geometry. If grip is slipping in no-gi, transition to a monkey grip (fingers and thumb on same side) or secure their wrist in your armpit while maintaining hip pressure.",
+      "safety_critical": false
+    },
+    {
+      "question": "What control requirements must be established before attempting the armbar finish?",
+      "answer": "Before finishing, you must have: (1) complete arm isolation with no defensive grip, (2) both legs controlling opponent's upper body with one across chest pinning shoulder and one over face preventing forward escape, (3) hips positioned close to opponent's shoulder line, (4) opponent's thumb pointing toward ceiling, (5) strong two-handed wrist grip pulling toward your chest, and (6) body perpendicular to opponent's torso. Attempting the finish without all control points established results in high escape probability.",
+      "safety_critical": false
+    },
+    {
+      "question": "What is the point of no escape in an armbar, and how do you recognize when you've achieved it?",
+      "answer": "The point of no escape occurs when: opponent's arm is fully extended with their elbow trapped against your hip line, your knee pinch prevents any elbow retraction, your leg over their face eliminates forward rolling or sitting up, and hip elevation has begun creating pressure on the joint. Recognition indicators include: opponent stops active resistance and begins damage mitigation (protecting the joint rather than escaping), their free hand reaches to tap, and their body language shifts from escape attempts to submission acceptance. At this point, control the finish carefully—the submission is secured.",
       "safety_critical": false
     }
   ],
@@ -308,62 +338,59 @@
     "Triangle Choke",
     "Kimura",
     "Omoplata",
-    "Straight Armbar",
     "Belly Down Armbar",
     "Far Side Armbar",
-    "Reverse Armbar",
     "Flying Armbar",
-    "Rolling Armbar",
-    "Spinning Armbar"
+    "Bicep Slicer"
   ],
   "related_content": [
     {
-      "name": "Triangle to Armbar",
-      "relationship": "Common transition when triangle is defended"
+      "name": "Triangle Choke",
+      "relationship": "Common transition when triangle is defended, shares arm isolation principles"
     },
     {
-      "name": "Omoplata to Sweep",
-      "relationship": "Alternative attack from similar control position"
+      "name": "Omoplata",
+      "relationship": "Alternative shoulder attack from similar control positions"
     },
     {
-      "name": "Mount to Armbar",
-      "relationship": "Standard entry from top position"
+      "name": "Armbar from Mount",
+      "relationship": "Primary entry from mount position leading to armbar finish"
     },
     {
-      "name": "Submission Chains",
-      "relationship": "Principle of linking armbar with other attacks"
+      "name": "Armbar from Guard",
+      "relationship": "Classic entry from closed guard bottom"
     },
     {
-      "name": "Leverage Principles",
-      "relationship": "Biomechanical foundation of armbar finish mechanics"
+      "name": "Mount",
+      "relationship": "Dominant position providing high-percentage armbar setups"
     },
     {
-      "name": "Mount Control",
-      "relationship": "Positional prerequisite for high-percentage armbar setups"
+      "name": "Kimura",
+      "relationship": "Alternative arm attack sharing similar grip breaking principles"
     },
     {
-      "name": "Kimura from Mount",
-      "relationship": "Alternative arm attack from same top position"
-    },
-    {
-      "name": "Triangle from Guard",
-      "relationship": "Common setup that transitions to armbar"
+      "name": "Armbar Control",
+      "relationship": "Control position immediately preceding the finish"
     },
     {
       "name": "Gift Wrap",
-      "relationship": "Arm isolation position that sets up armbar"
+      "relationship": "Arm isolation position that sets up armbar entry"
     },
     {
-      "name": "Mission Control",
-      "relationship": "Rubber guard position with armbar finish options"
+      "name": "S Mount",
+      "relationship": "Transitional position with direct armbar finish access"
     },
     {
-      "name": "Omoplata Control",
-      "relationship": "Alternative shoulder attack from similar angles"
+      "name": "Belly Down Armbar",
+      "relationship": "Variation finish used when traditional finish is defended"
     },
     {
-      "name": "North-South",
-      "relationship": "Top position with armbar finish opportunities"
+      "name": "Triangle Control",
+      "relationship": "Position allowing armbar transition when choke is defended"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Dominant position with armbar finish opportunities via arm exposure"
     }
   ]
 }

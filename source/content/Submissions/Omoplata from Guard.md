@@ -427,7 +427,7 @@ The Omoplata from Guard is a versatile shoulder lock that attacks the opponent's
 - [[Omoplata to Back]] - Transition when opponent turns away from shoulder pressure to expose their back
 - [[Spider Guard]] - High-percentage entry using foot-on-bicep control to facilitate leg swing
 - [[Triangle Setup]] - Alternative submission when opponent defends Omoplata by posturing or when entry fails
-- [[Transition to Omoplata]] - Generic transition category covering various entries from different guard positions
+- [[Closed Guard to Omoplata]] - Generic transition category covering various entries from different guard positions
 - [[Triangle to Omoplata]] - Chain submission when Triangle is defended with good posture
 - [[Closed Guard to Triangle]] - Related attack chain from closed guard sharing similar control concepts
 - [[Hip Movement]] - Fundamental principle required for creating angle and establishing position
@@ -435,6 +435,16 @@ The Omoplata from Guard is a versatile shoulder lock that attacks the opponent's
 - [[Guard Retention]] - Defensive principle that complements offensive Omoplata attacks from bottom
 - [[Submission Chains]] - Strategic concept - Omoplata is central hub for multiple submission and sweep chains
 
+
+</section>
+
+<section id="terminal-state" class="content-section">
+
+## Match Outcome
+
+Successful execution of Omoplata from Guard leads to → [[game-over|Game Over]]
+
+*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
 
 </section>
 

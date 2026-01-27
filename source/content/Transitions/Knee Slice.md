@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Knee Slice | BJJ Technique | BJJ Graph"
 description: "Master Knee Slice pass in BJJ. Complete breakdown from half guard to side control. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%. Step-by-step execution included."
@@ -16,7 +17,7 @@ description: "Master Knee Slice pass in BJJ. Complete breakdown from half guard 
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Knee Slice in BJJ",
-  "description": "Step-by-step guide for Knee Slice from Half Guard to Side Control.",
+  "description": "Step-by-step guide for Knee Slice from Half Guard/Bottom. Possible outcomes: Side Control/Top (75%), Half Guard/Bottom (15%), Half Guard/Top (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -154,11 +155,25 @@ description: "Master Knee Slice pass in BJJ. Complete breakdown from half guard 
 
 The Knee Slice pass is one of the most fundamental and effective guard passing techniques in Brazilian Jiu-Jitsu. This dynamic passing system creates a powerful slicing motion that cuts through the guard's defensive structure, specifically targeting the space between the opponent's legs. The technique combines forward pressure with lateral movement, making it extremely difficult for the bottom player to maintain their guard retention. The Knee Slice is particularly effective against half guard, knee shield, and various open guard positions. Its effectiveness stems from the simultaneous attack on multiple defensive frames - as you slice your knee through, you collapse the opponent's knee shield while controlling their upper body, creating a direct path to dominant side control. This pass is valued across all levels of competition for its reliability, pressure-based mechanics, and ability to chain into other passing sequences when met with resistance.
 
-**Starting Position**: [[Half Guard]]
-**Ending Position**: [[Side Control]]
+**From Position**: [[Half Guard/Bottom]]
 **Success Rates**: Beginner 45%, Intermediate 60%, Advanced 75%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Side Control/Top]] | 75% |
+| Failure | [[Half Guard/Bottom]] | 15% |
+| Counter | [[Half Guard/Top]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

@@ -21,37 +21,37 @@ description: "Master grasshopper guard from bottom. Complete guide to inversion 
     {
       "@type": "HowToStep",
       "name": "Execute Kneebar from Grasshopper",
-      "text": "From this position, execute Kneebar from Grasshopper to transition to Kneebar Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Kneebar from Grasshopper. This technique is attempted in 9% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Straight Ankle Lock Entry",
-      "text": "From this position, execute Straight Ankle Lock Entry to transition to Straight Ankle Lock Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Straight Ankle Lock Entry. This technique is attempted in 10% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Single Leg X Transition",
-      "text": "From this position, execute Single Leg X Transition to transition to Single Leg X-Guard. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Single Leg X Transition. This technique is attempted in 11% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute X-Guard Elevation Sweep",
-      "text": "From this position, execute X-Guard Elevation Sweep to transition to Mount. Success rate for advanced practitioners: 70%.",
+      "name": "Execute X-Guard Sweep",
+      "text": "From this position, attempt X-Guard Sweep. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Inside Ashi Entry",
-      "text": "From this position, execute Inside Ashi Entry to transition to Inside Ashi-Garami. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Inside Ashi Entry. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling Kneebar",
-      "text": "From this position, execute Rolling Kneebar to transition to Kneebar Control. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Rolling Kneebar. This technique is attempted in 8% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -217,106 +217,26 @@ The position requires significant flexibility and conditioning. Your ability to 
 
 ## Available Escapes
 
-### [[Kneebar from Grasshopper]] → [[Kneebar Control]]
+### [[Kneebar from Grasshopper]] (9% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 60%
+### [[Straight Ankle Lock Entry]] (10% of attempts)
 
-### [[Straight Ankle Lock Entry]] → [[Straight Ankle Lock Control]]
+### [[Single Leg X Transition]] (11% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 65%
+### [[X-Guard Sweep]] (10% of attempts)
 
-### [[Single Leg X Transition]] → [[Single Leg X-Guard]]
+### [[Inside Ashi Entry]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 60%
-- Advanced: 75%
+### [[Rolling Kneebar]] (8% of attempts)
 
-### [[X-Guard Elevation Sweep]] → [[Mount]]
+### [[Grasshopper Sweep]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 70%
+### [[Technical Standup]] (13% of attempts)
 
-### [[Inside Ashi Entry]] → [[Inside Ashi-Garami]]
+### [[50-50 Entry]] (9% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 70%
+### [[Reverse De La Riva Recovery]] (10% of attempts)
 
-### [[Rolling Kneebar]] → [[Kneebar Control]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 55%
-
-### [[Grasshopper Sweep]] → [[Half Guard]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 55%
-- Advanced: 70%
-
-### [[Technical Standup from Inversion]] → [[Standing Guard]]
-
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 65%
-- Advanced: 80%
-
-### [[50-50 Entry]] → [[50-50 Guard]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 60%
-
-### [[Reverse De La Riva Recovery]] → [[Reverse De La Riva Guard]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 65%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Back Step Pass]]** → [[Side Control]]
-- **[[Leg Drag Counter]]** → [[Side Control]]
-- **[[Stack Pass from Inversion]]** → [[Side Control]]
-- **[[Knee Cut Through Center]]** → [[Side Control]]
-- **[[Sprawl and Circle]]** → [[Standing Position]]
-- **[[Step Over to Mount]]** → [[Mount]]
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Re-invert and Follow]]** → [[Inside Ashi-Garami]]
-  - Opponent attempts to back step or disengage from legs
-- **[[Granby Roll to Guard Recovery]]** → [[Closed Guard]]
-  - Opponent begins stack pass with forward pressure
-- **[[Explosion to X-Guard]]** → [[X-Guard]]
-  - Opponent's base becomes narrow or forward-weighted
-- **[[Leg Entanglement Continuation]]** → [[50-50 Guard]]
-  - Opponent commits leg forward into entanglement zone
 
 
 </section>
@@ -423,29 +343,39 @@ Partner initiates various pass attempts from standing. Your job is to recognize 
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Kneebar from Grasshopper Inversion
+## Test Your Knowledge
 
-`Grasshopper Guard Bottom → Inside Ashi-Garami → Kneebar Control → Kneebar`
+**Q1**: Your opponent begins back stepping to escape your leg control - what adjustment do you make?
+**A**: Follow their movement by re-inverting and rolling toward the direction they're stepping. As they back step, their trailing leg becomes vulnerable - shoot your legs to follow and reestablish contact on this leg. The key is anticipating the back step and initiating your roll slightly before they complete their motion, maintaining leg connection throughout the transition.
 
-### Rolling Ankle Lock Entry
+**Q2**: What are the essential body mechanics for maintaining hip elevation in grasshopper guard?
+**A**: Engage your core continuously with emphasis on lower abdominals and hip flexors. Distribute your weight across both shoulder blades for a stable platform. Think of driving your hips toward the ceiling rather than just lifting them. Your legs should remain active and dynamic rather than static, as the movement helps maintain elevation through momentum.
 
-`Grasshopper Guard Bottom → Rolling Inversion → Straight Ankle Lock Control → Straight Footlock`
+**Q3**: How do you recover when your hips start dropping due to fatigue?
+**A**: Transition immediately rather than fighting to maintain the failing position. Convert to a more sustainable guard like closed guard via Granby roll, or come up to seated guard or standing guard. Attempting to force grasshopper when core is fatigued leads to being flattened and passed. Use the last of your hip elevation to initiate a sweep or submission attempt before transitioning.
 
-### Single Leg X to Outside Heel Hook
+**Q4**: What leg configuration should you prioritize when first inverting into grasshopper?
+**A**: Establish at least one hook behind the opponent's knee or control on their ankle before completing your inversion. This ensures you maintain connection and prevents them from simply walking away. The primary leg creates the anchor while the secondary leg is free to thread for entanglements or provide additional sweep leverage.
 
-`Grasshopper Guard Bottom → Single Leg X-Guard → Outside Ashi-Garami → Outside Heel Hook`
+**Q5**: Your opponent is standing tall with a wide base - how do you attack from this position?
+**A**: Their tall posture with wide base is defensive and hard to sweep directly. Options include: technical standup to standing guard position using their distance against them, following with rolling ankle lock entries as they attempt to disengage, or waiting for them to narrow their base or step forward before attacking. Patience is key - their defensive posture cannot threaten you.
 
-### 50-50 Entry to Inside Heel Hook
+**Q6**: How do you manage energy expenditure to avoid position collapse from exhaustion?
+**A**: Use grasshopper in 10-15 second bursts maximum. Enter with a specific attack path in mind and commit fully to that path. If the attack fails or is defended, immediately transition to a sustainable position like seated guard or De La Riva rather than trying to reset in grasshopper. Think of grasshopper as a transitional hunting position, not a place to hold and wait.
 
-`Grasshopper Guard Bottom → 50-50 Guard → Inside Ashi-Garami → Inside Heel Hook`
+**Q7**: Your opponent drives forward with a stack pass - what counter do you employ?
+**A**: Execute a Granby roll to guard recovery by rolling your shoulders and allowing their forward pressure to carry them over you. As you roll, your legs naturally retract and can reset to closed guard or other defensive guard. Alternatively, if you detect the stack early, convert their forward momentum into an X-guard elevation sweep by shooting your legs into their hips.
+
+**Q8**: What visual cues should you track while in the inverted grasshopper position?
+**A**: Keep your chin tucked but eyes up, tracking opponent's hips and upper body simultaneously. Watch for hip shifts indicating they're about to step or circle, weight transfers suggesting sweep opportunities, and their foot positioning relative to your leg hooks. Your peripheral vision should also monitor your own leg positioning to ensure you maintain contact.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -472,8 +402,8 @@ Partner initiates various pass attempts from standing. Your job is to recognize 
 - **[[Inverted Guard]]** - Parent category - grasshopper is specific application
 - **[[Kneebar Control]]** - High-percentage submission entry from inverted leg access
 - **[[Straight Ankle Lock Control]]** - Alternative leg attack when kneebar is defended
-- **[[Rolling Kneebar]]** - Technique for following opponent's escape attempts with continued inversion
-- **[[Guard Retention]]** - Principle - grasshopper serves as emergency retention tool
+- **[[Closed Guard]]** - Safe recovery position after Granby roll from stack pass
+- **[[Reverse De La Riva Guard]]** - Alternative guard when opponent circles to back side
 
 
 </section>

@@ -21,37 +21,37 @@ description: "Master Inside Sankaku bottom perspective. Defensive strategies, es
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Guard Recovery",
-      "text": "From this position, execute Hip Escape to Guard Recovery to transition to Open Guard. Success rate for advanced practitioners: 40%.",
+      "text": "From this position, attempt Hip Escape to Guard Recovery. This technique is attempted in 19% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Granby Roll Escape",
-      "text": "From this position, execute Granby Roll Escape to transition to Turtle. Success rate for advanced practitioners: 35%.",
+      "text": "From this position, attempt Granby Roll Escape. This technique is attempted in 17% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Technical Standup",
-      "text": "From this position, execute Technical Standup to transition to Standing Position. Success rate for advanced practitioners: 25%.",
+      "text": "From this position, attempt Technical Standup. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Counter Leg Attack",
-      "text": "From this position, execute Counter Leg Attack to transition to 50-50 Guard. Success rate for advanced practitioners: 35%.",
+      "text": "From this position, attempt Counter Leg Attack. This technique is attempted in 17% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Frame and Extract to Half Guard",
-      "text": "From this position, execute Frame and Extract to Half Guard to transition to Half Guard. Success rate for advanced practitioners: 45%.",
+      "text": "From this position, attempt Frame and Extract to Half Guard. This technique is attempted in 21% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling Escape",
-      "text": "From this position, execute Rolling Escape to transition to Defensive Position. Success rate for advanced practitioners: 30%.",
+      "text": "From this position, attempt Rolling Escape. This technique is attempted in 14% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -211,75 +211,18 @@ From the bottom perspective of Inside Sankaku, the practitioner finds themselves
 
 ## Available Escapes
 
-### [[Hip Escape to Guard Recovery]] → [[Open Guard]]
+### [[Hip Escape to Guard Recovery]] (19% of attempts)
 
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 25%
-- Advanced: 40%
+### [[Granby Roll Escape]] (17% of attempts)
 
-### [[Granby Roll Escape]] → [[Turtle]]
+### [[Technical Standup]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 10%
-- Intermediate: 20%
-- Advanced: 35%
+### [[Counter Leg Attack]] (17% of attempts)
 
-### [[Technical Standup]] → [[Standing Position]]
+### [[Frame and Extract to Half Guard]] (21% of attempts)
 
-**Success Rates:**
-- Beginner: 8%
-- Intermediate: 15%
-- Advanced: 25%
+### [[Rolling Escape]] (14% of attempts)
 
-### [[Counter Leg Attack]] → [[50-50 Guard]]
-
-**Success Rates:**
-- Beginner: 12%
-- Intermediate: 22%
-- Advanced: 35%
-
-### [[Frame and Extract to Half Guard]] → [[Half Guard]]
-
-**Success Rates:**
-- Beginner: 18%
-- Intermediate: 30%
-- Advanced: 45%
-
-### [[Rolling Escape]] → [[Defensive Position]]
-
-**Success Rates:**
-- Beginner: 10%
-- Intermediate: 18%
-- Advanced: 30%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Inside Heel Hook Attack]]** → [[Lost by Submission]] (Opponent Success: 65%)
-- **[[Toe Hold Transition]]** → [[Lost by Submission]] (Opponent Success: 45%)
-- **[[Position Consolidation]]** → [[Inside Sankaku]] (Opponent Success: 70%)
-- **[[Saddle Transition]]** → [[Saddle]] (Opponent Success: 55%)
-- **[[Kneebar Attack]]** → [[Lost by Submission]] (Opponent Success: 40%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Counter Inside Sankaku Entry]]** → [[50-50 Guard]]
-  - Opponent focuses too heavily on submission attempt without securing position
-- **[[Leg Extraction to Guard]]** → [[Open Guard]]
-  - Opponent loses hip connection during position adjustment
-- **[[Technical Standup Counter]]** → [[Standing Position]]
-  - Opponent allows you to create vertical space and sit up
 
 
 </section>
@@ -301,8 +244,8 @@ From the bottom perspective of Inside Sankaku, the practitioner finds themselves
 
 
 **If opponent has established submission grip on your heel:**
-- Execute **[[Immediate tap if fully locked]]** → [[Lost by Submission]] (Probability: 100%)
-- Execute **[[Last resort rolling escape]]** → [[Defensive Position]] (Probability: 15%)
+- Execute **[[Immediate tap if fully locked]]** → [[game-over]] (Probability: 100%)
+- Execute **[[Last resort rolling escape]]** → [[Turtle]] (Probability: 15%)
 
 
 **If opponent loses hip connection or creates space:**
@@ -389,25 +332,39 @@ When opponent establishes Inside Sankaku, practice entering your own leg attacks
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Primary Escape Path
+## Test Your Knowledge
 
-`Inside Sankaku Bottom → Hip Escape → Open Guard → Guard Recovery`
+**Q1**: Your opponent has established Inside Sankaku and is reaching for your heel - what is your immediate defensive priority?
+**A**: Immediately hide your heel by pressing it tightly against your own hip, turning your toes inward and your knee outward to create maximum protection. Your hand closest to the trapped leg should reach down to grab your own foot or ankle to assist in keeping the heel hidden. This buys time to address the positional aspects of the escape and prevents the submission from being locked before you can create space.
 
-### Granby Escape Path
+**Q2**: What body positioning mistake most commonly leads to transitioning from Inside Sankaku into an even worse position like Saddle?
+**A**: The most common mistake is turning into the opponent attempting to pass the knee line. When you rotate toward them, you actually assist their entry into the Saddle by bringing your second leg into the entanglement. The correct escape direction is always away from the opponent - create distance by moving your hips backward and away, not through them. This fundamental directional error accounts for most Saddle transitions from Inside Sankaku.
 
-`Inside Sankaku Bottom → Granby Roll → Turtle → Guard Recovery`
+**Q3**: How do you know when to tap versus when escape is still possible in Inside Sankaku?
+**A**: Tap immediately when: (1) opponent has secured a firm two-on-one grip on your heel with their wrist blade positioned against the Achilles, (2) you feel rotational pressure beginning on your heel, or (3) you cannot freely move your foot within their grip. If your heel is still hidden, they don't have grip control, or you can still rotate your foot, escape is possible. The inside heel hook can cause career-ending injury in milliseconds once locked - there is no time to assess mid-submission.
 
-### Counter Attack Path
+**Q4**: Your opponent momentarily loses hip connection while adjusting their grip - what escape opportunity does this create?
+**A**: The loss of hip connection is your primary escape window. Immediately pump your hips backward to extend the distance, using your free leg to push off their hip or the mat. As you create space, begin extracting your trapped leg by pulling your knee toward your chest while your hips move away. Your goal is to create enough distance that their leg configuration can no longer maintain the figure-four around your leg. Speed is critical - this window closes quickly.
 
-`Inside Sankaku Bottom → Counter Leg Attack → 50-50 Guard → Positional Reset`
+**Q5**: What are the essential grips or frames you need to establish for a successful hip escape from Inside Sankaku?
+**A**: Establish frames using: (1) your near-side hand controlling their knee or leg to prevent them from following your hip movement, (2) your far-side hand either posting on the mat for hip mobility or reaching down to assist heel protection, and (3) your free leg positioned to push off their hip, the mat, or to hook their leg for counter-leverage. The frames create the structural support needed to generate hip escape power while maintaining heel protection.
+
+**Q6**: If a Granby roll escape attempt fails and you end up in Turtle, what position are you likely transitioning to?
+**A**: A failed Granby roll from Inside Sankaku typically transitions you to Turtle position with your opponent in a seated or kneeling position behind you, still potentially controlling your trapped leg. From here, you've escaped the immediate heel hook danger but face back exposure threats. The opponent may pursue back control or attempt to re-enter leg entanglements. Protect your neck and establish defensive grips to prevent seatbelt control while you work to recompose to guard.
+
+**Q7**: When is attempting a counter leg attack a viable strategy from Inside Sankaku bottom?
+**A**: Counter leg attacks are viable when: (1) the opponent is focused on submission grips rather than positional control, creating upper body openings, (2) you can reach their free leg or expose their heel without worsening your heel exposure, or (3) you can transition to 50-50 guard where the entanglement becomes symmetrical. This is generally a last-resort strategy for experienced practitioners - prioritize escape over counter-attack unless escape has failed repeatedly and you have clear access to their leg.
+
+**Q8**: How do you manage defensive energy expenditure when trapped in Inside Sankaku against a patient opponent?
+**A**: Avoid constant explosive escape attempts that drain energy quickly. Instead, protect your heel using positional defense (hiding heel against hip) which requires minimal energy. Wait for the opponent to create escape windows through their own movements rather than forcing opportunities. When they adjust grips or position, use that moment for controlled technical escapes. Frantic struggling accelerates exhaustion and increases injury risk - systematic defense with patient timing is more sustainable.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -432,7 +389,9 @@ When opponent establishes Inside Sankaku, practice entering your own leg attacks
 - **[[Saddle]]** - Common transition when bottom player makes escape errors
 - **[[50-50 Guard]]** - Counter-attack destination that neutralizes opponent's positional advantage
 - **[[Inside Heel Hook]]** - Primary submission threat that must be defended from this position
-- **[[Lachlan Giles Leg Lock Defense Framework]]** - Systematic defense protocols for escaping leg entanglements
+- **[[Turtle]]** - Common escape destination after Granby roll or failed extraction attempts
+- **[[Open Guard]]** - Primary escape destination after successful leg extraction
+- **[[Half Guard]]** - Alternative guard recovery position during escape sequence
 
 
 </section>

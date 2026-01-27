@@ -85,29 +85,20 @@ The biomechanics of triangle control favor the attacking practitioner significan
 - Maintain active leg pressure throughout—the submission comes from sustained compression, not explosive squeezing
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Triangle Choke Front]]** → [[Won by Submission]]
-  - Success Rate: Beginner 45%, Intermediate 65%, Advanced 80%
+- **[[Triangle Choke Front]]** (35% of attempts)
 
-- **[[Triangle to Armbar]]** → [[Armbar Control]]
-  - Success Rate: Beginner 40%, Intermediate 60%, Advanced 75%
+- **[[Triangle to Armbar]]** (25% of attempts)
 
-- **[[Triangle to Omoplata]]** → [[Omoplata Control]]
-  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 70%
+- **[[Triangle to Omoplata]]** (15% of attempts)
 
-- **[[Triangle to Back]]** → [[Back Control]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 65%
+- **[[Triangle to Back]]** (10% of attempts)
 
-- **[[Switch to Triangle]]** → [[Armbar Control]]
-  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 70%
+- **[[Mounted Triangle]]** (8% of attempts)
 
-- **[[Inverted Triangle]]** → [[Won by Submission]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 60%
-
-- **[[Transition to Omoplata]]** → [[Omoplata Control]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 65%
+- **[[Closed Guard to Omoplata]]** (7% of attempts)
 
 
 ### Common Mistakes
@@ -165,26 +156,20 @@ The biomechanics of triangle control favor the attacking practitioner significan
 - Understand that time is critical—the longer you remain in the position, the more opportunity the opponent has to tighten and finish
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Triangle Escape]]** → [[Closed Guard]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Triangle Escape]]** (15% of attempts)
 
-- **[[Posture Recovery]]** → [[Open Guard]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Posture Recovery]]** (30% of attempts)
 
-- **[[Triangle Escape]]** → [[Side Control]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+- **[[Stack Defense]]** (20% of attempts)
 
-- **[[Stack Defense]]** → [[Open Guard]]
-  - Success Rate: Beginner 18%, Intermediate 32%, Advanced 48%
+- **[[Triangle Escape to Guard]]** (25% of attempts)
 
-- **[[Triangle Escape]]** → [[Standing Position]]
-  - Success Rate: Beginner 12%, Intermediate 25%, Advanced 40%
+- **[[Guard Pass]]** (3% of attempts)
 
-- **[[Guard Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 10%, Intermediate 20%, Advanced 35%
+- **[[Triangle Escape to Standing]]** (7% of attempts)
 
 
 ### Common Mistakes

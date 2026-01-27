@@ -255,6 +255,31 @@
       "question": "If the opponent successfully stacks you during triangle finish, what adjustments should you make?",
       "answer": "If the opponent succeeds in stacking you by driving forward and pressuring your shoulders toward the mat, you must immediately adjust your angle to become more perpendicular to their body (closer to 90 degrees from original 45-degree angle). Use your hands to push on their hip while simultaneously scooting your shoulders away from them to relieve the stack pressure. If the stack becomes too severe and you can't maintain effective triangle, transition to omoplata by releasing one leg and swinging it over their back while controlling their trapped arm. Fighting to maintain a badly stacked triangle wastes energy and increases lower back injury risk. Smooth transition to omoplata or armbar is more effective than stubbornly maintaining compromised triangle.",
       "safety_critical": false
+    },
+    {
+      "question": "Your opponent starts to posture up while you have your leg over their shoulder but haven't locked the triangle yet - what finishing adjustment prevents escape?",
+      "answer": "The moment you feel them beginning to posture, immediately pull down hard on their head with both hands while simultaneously driving your hips upward to bring your ankle behind your knee for the lock. Speed is critical here - you must complete the lock before they achieve full posture. If they're already posturing, use your free leg to hook behind their far armpit or shoulder to prevent them from sitting back. Once locked even with them posturing, aggressively scoot your angle perpendicular and pull their head down to break their posture from the locked position. The locked triangle gives you significantly more control than the unlocked position.",
+      "safety_critical": false
+    },
+    {
+      "question": "What anatomical structures does the triangle choke target and how does proper mechanics ensure effective compression?",
+      "answer": "The triangle choke targets both carotid arteries on the sides of the neck, which supply blood to the brain. Proper mechanics compress these arteries from two directions: your leg compresses one carotid artery against the opponent's neck, while their own trapped shoulder compresses the other carotid artery against the opposite side of their neck. This bilateral compression cuts off blood flow to the brain, causing unconsciousness typically within 8-12 seconds if held at full pressure. The jugular veins are also compressed, preventing venous return. This is why proper shoulder-to-hip connection is essential - without their shoulder being pulled tight to your hip, you lose the second compression point and the choke becomes ineffective.",
+      "safety_critical": true
+    },
+    {
+      "question": "When is the point of no escape for the opponent in a properly locked triangle, and what indicators confirm you've reached this point?",
+      "answer": "The point of no escape occurs when three conditions are met simultaneously: the triangle is locked deep with ankle behind knee, the proper 45-degree angle is established with your hips scooted toward the trapped arm side, and the opponent's shoulder is pulled completely tight against your hip with their posture fully broken. Indicators confirming this point include: opponent's face beginning to change color (reddening or darkening), their breathing becoming labored or stopping, their escape attempts becoming weaker or more frantic, and their trapped arm having no leverage to extract. At this point, even experienced practitioners cannot escape and the finish is inevitable - which is why progressive pressure and tap awareness remain critical.",
+      "safety_critical": true
+    },
+    {
+      "question": "What grip adjustments should you make during the finishing sequence if your opponent is defending by tucking their chin?",
+      "answer": "Tucking the chin is largely ineffective against a properly applied triangle since it's a blood choke, not an air choke - but opponents still instinctively do it. If they tuck their chin, first ensure your angle is correct at 45 degrees and your lock is deep. Then switch your grip from behind their head to controlling their trapped arm at the wrist or triceps, pulling it tighter across your centerline. This increases the pressure of their own shoulder against their neck. You can also use one hand to cup under their chin and push it upward while maintaining head control with the other hand, though this isn't necessary if mechanics are correct. The key is not to fight the chin directly but to maximize shoulder compression.",
+      "safety_critical": false
+    },
+    {
+      "question": "In competition, what strategies maximize finishing percentage when the opponent is intelligently defending the triangle?",
+      "answer": "In competition against intelligent defense, implement a systematic approach: First, establish the lock quickly and create maximum angle immediately rather than gradually - speed of angle creation is more important than speed of entry. Second, attack their posture relentlessly using collar grips and head control, never allowing them to establish an upright defensive position. Third, use combination threats - when they defend the triangle, immediately threaten armbar on the trapped arm, which forces them to defend the arm and weakens their triangle defense. Fourth, if they're defending by hiding their arm, switch to omoplata attacks. Fifth, use wristlocks on the trapped hand as a finishing alternative. The triangle should be viewed as part of a submission system, not an isolated attack.",
+      "safety_critical": false
     }
   ],
   "training_progressions_and_safety_protocols": [
@@ -315,20 +340,16 @@
   ],
   "related_submissions": [
     "Triangle Choke",
-    "Triangle Choke Front",
-    "Triangle from Closed Guard",
-    "Triangle from Spider Guard",
-    "Triangle from De La Riva",
     "Triangle from Mount",
     "Armbar from Guard",
-    "Omoplata from Guard",
-    "Switch to Triangle",
+    "Omoplata",
     "Inverted Triangle",
     "Armbar Finish",
     "Gogoplata",
     "Baratoplata",
-    "Tarikoplata",
-    "Kimura from Guard"
+    "Kimura",
+    "Rear Triangle",
+    "Mounted Triangle"
   ],
   "related_content": [
     {
@@ -348,32 +369,32 @@
       "relationship": "Primary transition when opponent defends triangle by posturing or pulling arm"
     },
     {
-      "name": "Omoplata from Guard",
+      "name": "Omoplata",
       "relationship": "Alternative transition when triangle is stacked or defended"
     },
     {
-      "name": "Posture Breaking",
-      "relationship": "Essential principle for successful triangle entry from any guard"
+      "name": "De La Riva Guard",
+      "relationship": "Open guard position offering triangle entry opportunities"
     },
     {
-      "name": "Hip Movement",
-      "relationship": "Critical principle for creating the 45-degree finishing angle"
+      "name": "Lasso Guard",
+      "relationship": "Guard variation that creates triangle angles against standing opponents"
     },
     {
-      "name": "Angle Creation",
-      "relationship": "Fundamental principle that determines triangle effectiveness"
+      "name": "Rubber Guard",
+      "relationship": "Flexibility-based guard system with excellent triangle setups"
     },
     {
-      "name": "Guard Retention",
-      "relationship": "Required skill to maintain guard if triangle entry fails"
+      "name": "Mission Control",
+      "relationship": "Rubber guard position that creates direct triangle entries"
     },
     {
-      "name": "Submission Chains",
-      "relationship": "Strategic principle of linking triangle with armbar and omoplata"
+      "name": "Armbar Finish",
+      "relationship": "Primary alternative when opponent defends triangle by pulling arm"
     },
     {
-      "name": "Ryan Hall Triangle System",
-      "relationship": "Comprehensive system built around triangle as primary guard submission"
+      "name": "Inverted Triangle",
+      "relationship": "Variation applied from different angle when standard triangle is defended"
     }
   ]
 }

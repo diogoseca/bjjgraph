@@ -21,38 +21,32 @@ description: "Master D'arce Control Top in BJJ. Dominant front headlock variatio
     {
       "@type": "HowToStep",
       "name": "Execute Darce Choke",
-      "text": "From this position, execute Darce Choke to transition to Won by Submission. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Darce Choke. This technique is attempted in 25% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Mount",
-      "text": "From this position, execute Transition to Mount to transition to Mount. Success rate for advanced practitioners: 80%.",
+      "name": "Execute Side Control to Mount",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 20% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Turtle to Back Take",
-      "text": "From this position, execute Turtle to Back Take to transition to Back Control. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Turtle to Back Take. This technique is attempted in 20% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Anaconda from Turtle",
-      "text": "From this position, execute Anaconda from Turtle to transition to Anaconda Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Anaconda from Turtle. This technique is attempted in 15% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to North-South",
-      "text": "From this position, execute Transition to North-South to transition to North-South. Success rate for advanced practitioners: 85%.",
+      "name": "Execute Side Control to North-South",
+      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 20% of exchanges from this position.",
       "position": 5
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Arm Triangle from Turtle",
-      "text": "From this position, execute Arm Triangle from Turtle to transition to Side Control. Success rate for advanced practitioners: 60%.",
-      "position": 6
     }
   ],
   "totalTime": "PT2M"
@@ -211,74 +205,16 @@ From a strategic perspective, D'arce Control Top exemplifies the modern submissi
 
 ## Available Attacks
 
-### [[Darce Choke]] → [[Won by Submission]]
+### [[Darce Choke]] (25% of attempts)
 
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 60%
-- Advanced: 75%
+### [[Side Control to Mount]] (20% of attempts)
 
-### [[Transition to Mount]] → [[Mount]]
+### [[Turtle to Back Take]] (20% of attempts)
 
-**Success Rates:**
-- Beginner: 50%
-- Intermediate: 65%
-- Advanced: 80%
+### [[Anaconda from Turtle]] (15% of attempts)
 
-### [[Turtle to Back Take]] → [[Back Control]]
+### [[Side Control to North-South]] (20% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
-
-### [[Anaconda from Turtle]] → [[Anaconda Control]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-### [[Transition to North-South]] → [[North-South]]
-
-**Success Rates:**
-- Beginner: 55%
-- Intermediate: 70%
-- Advanced: 85%
-
-### [[Arm Triangle from Turtle]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Guard Recovery]]** → [[Open Guard]] (Opponent Success: 25%)
-- **[[Rolling Guard Pull]]** → [[Closed Guard]] (Opponent Success: 20%)
-- **[[Frame and Shrimp]]** → [[Turtle]] (Opponent Success: 30%)
-- **[[Hip Escape]]** → [[Half Guard]] (Opponent Success: 15%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Darce Setup]]** → [[D'arce Control]]
-  - Opponent attempts to pull guard or roll
-- **[[Transition to Mount]]** → [[Mount]]
-  - Opponent turtles and blocks the choke with chin
-- **[[Turtle to Back Take]]** → [[Back Control]]
-  - Opponent turns away to escape the choke
 
 
 </section>
@@ -288,17 +224,17 @@ From a strategic perspective, D'arce Control Top exemplifies the modern submissi
 ## Decision Making from This Position
 
 **If opponent keeps elbows tight and chin tucked, defending the choke finish:**
-- Execute **[[Transition to Mount]]** → [[Mount]] (Probability: 70%)
-- Execute **[[Transition to North-South]]** → [[North-South]] (Probability: 65%)
+- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 70%)
+- Execute **[[Side Control to North-South]]** → [[North-South]] (Probability: 65%)
 
 
 **Else if opponent attempts to roll through or turn into the choke:**
 - Execute **[[Turtle to Back Take]]** → [[Back Control]] (Probability: 75%)
-- Execute **[[Darce Choke]]** → [[Won by Submission]] (Probability: 60%)
+- Execute **[[Darce Choke]]** → [[game-over]] (Probability: 60%)
 
 
 **Else if opponent's defensive posture breaks down and arm remains trapped:**
-- Execute **[[Darce Choke]]** → [[Won by Submission]] (Probability: 80%)
+- Execute **[[Darce Choke]]** → [[game-over]] (Probability: 80%)
 - Execute **[[Anaconda from Turtle]]** → [[Anaconda Control]] (Probability: 55%)
 
 
@@ -375,33 +311,39 @@ Start from front headlock or turtle positions and work to establish darce contro
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Direct finish from control
+## Test Your Knowledge
 
-`D'arce Control Top → Darce Choke → Won by Submission`
+**Q1**: What adjustment should you make when your opponent starts turning their shoulders toward you while you have D'arce control?
+**A**: When the opponent begins turning their shoulders toward you, immediately sprawl your hips back and increase shoulder pressure into the side of their head to prevent the turn from completing. If they continue turning, transition to mount by stepping your leg over their body or take the back if they fully commit to the turn. Never allow them to establish inside position by getting their chest to face yours, as this compromises the arm-in choke structure.
 
-### Mount control to armbar
+**Q2**: What are the essential grip configurations for maintaining D'arce control position?
+**A**: The primary grip is a figure-four lock where your choking arm threads under opponent's armpit, around their neck, and your hand grabs your own bicep while your free hand controls opponent's shoulder or head. Alternative grips include gable grip (palm-to-palm) for maximum squeezing power and S-grip for faster transitions. The key is keeping elbows pinched tight to eliminate any gaps that would allow arm extraction.
 
-`D'arce Control Top → Transition to Mount → Mount → Armbar from Mount → Won by Submission`
+**Q3**: Your opponent tucks their chin and brings their elbows tight to their body - what is your best response?
+**A**: When the opponent establishes a strong defensive shell with chin tucked and elbows tight, you have two high-percentage options: transition to mount by driving your hips around and stepping over, using their defensive posture against them since they cannot frame effectively; or advance to north-south to establish new attacking angles. Trying to force the choke against a committed chin tuck wastes energy and time - positional advancement creates new opportunities.
 
-### Back take to rear naked choke
+**Q4**: How should your weight be distributed to maintain D'arce control position effectively?
+**A**: Weight should be distributed primarily through your shoulder and chest driving into the side of opponent's head and trapped shoulder, creating a wedge effect. Your hips stay mobile and positioned perpendicular to opponent's spine rather than directly on top of them. Approximately 70% of your weight should be on the choking side through shoulder pressure, with 30% distributed through your base leg and posting arm for mobility and adjustment capability.
 
-`D'arce Control Top → Turtle to Back Take → Back Control → Rear Naked Choke → Won by Submission`
+**Q5**: What is the primary escape your opponent will attempt and how do you shut it down?
+**A**: The primary escape is arm extraction where the opponent works to pull their trapped arm free from the choke configuration. Shut this down by maintaining constant inward pressure with your choking arm's bicep against their neck, keeping your elbow past their spine with your hand reaching toward their far hip. If they begin extracting, immediately drive your shoulder deeper and increase chest pressure to eliminate the space they need to complete the extraction.
 
-### Anaconda alternative finish
+**Q6**: How do you apply shoulder pressure correctly from D'arce control top?
+**A**: Correct shoulder pressure comes from driving your shoulder blade into the side of opponent's head and neck while keeping your head down next to theirs. The pressure vector should be perpendicular to their spine, pushing their head toward the mat. Use your entire upper body weight by keeping arms tight rather than extended. The shoulder acts as a wedge that prevents posture recovery and simultaneously tightens the choking mechanism through compression.
 
-`D'arce Control Top → Anaconda from Turtle → Anaconda Control → Anaconda Choke → Won by Submission`
+**Q7**: Your opponent explosively bridges to create space - what adjustment should you make?
+**A**: When opponent bridges, maintain your chest connection and seatbelt-style grip configuration while riding the bridge by keeping your hips mobile and base wide. Do not post your hands out as this releases pressure. As they return from the bridge, immediately re-apply heavy shoulder pressure and advance your grip deeper if any space was created. Use their landing moment to tighten your position since they momentarily lose defensive tension.
 
-### North-South control to kimura
-
-`D'arce Control Top → Transition to North-South → North-South → North-South to Kimura → Won by Submission`
+**Q8**: How do you manage energy expenditure while maintaining D'arce control for extended periods?
+**A**: Energy management requires using body weight and positioning rather than muscular squeezing. Establish your shoulder and chest pressure through structural alignment, keeping your core engaged but arms relatively relaxed in the grip. Breathe steadily through your nose. Make micro-adjustments rather than constant movement. When opponent stops escaping, reduce active squeezing while maintaining positional pressure - only increase grip tension when they attempt movement or when finishing the submission.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -422,16 +364,14 @@ Start from front headlock or turtle positions and work to establish darce contro
 
 ## Related Positions and Techniques
 
-- **[[D'arce Control]]** - Sibling variant - opposite perspective
+- **[[D'arce Control]]** - Hub position - both perspectives
 - **[[Front Headlock]]** - Precursor position - common entry point
 - **[[Anaconda Control]]** - Similar position - alternative front headlock choke
 - **[[Darce Choke]]** - Primary submission - main finishing technique
-- **[[Front Headlock to Darce]]** - Entry transition - common setup
-- **[[Darce from Turtle]]** - Entry transition - turtle attack
 - **[[Turtle]]** - Common preceding position
-- **[[Pressure Application]]** - Fundamental concept - shoulder pressure mechanics
-- **[[systematic approach Front Headlock System]]** - Systematic framework - comprehensive system
-- **[[Shoulder Pressure]]** - Key concept - finishing mechanics
+- **[[Mount]]** - Positional advancement when choke is defended
+- **[[Back Control]]** - High-percentage transition on opponent roll
+- **[[North-South]]** - Alternative transition when choke blocked
 
 
 </section>

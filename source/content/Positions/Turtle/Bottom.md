@@ -21,37 +21,37 @@ description: "Master Turtle Bottom position in BJJ. Defensive position with guar
     {
       "@type": "HowToStep",
       "name": "Execute Granby Roll",
-      "text": "From this position, execute Granby Roll to transition to Closed Guard. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Granby Roll. This technique is attempted in 16% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Technical Standup",
-      "text": "From this position, execute Technical Standup to transition to Standing Position. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Technical Standup. This technique is attempted in 18% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling to Guard",
-      "text": "From this position, execute Rolling to Guard to transition to Half Guard. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Rolling to Guard. This technique is attempted in 20% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Deep Half Entry",
-      "text": "From this position, execute Deep Half Entry to transition to Deep Half Guard. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 15% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Sit Through to Guard",
-      "text": "From this position, execute Sit Through to Guard to transition to Butterfly Guard. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Sit Through to Guard. This technique is attempted in 18% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Peterson Roll",
-      "text": "From this position, execute Peterson Roll to transition to Half Guard. Success rate for advanced practitioners: 45%.",
+      "text": "From this position, attempt Peterson Roll. This technique is attempted in 13% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -160,7 +160,7 @@ description: "Master Turtle Bottom position in BJJ. Defensive position with guar
 
 <section id="overview" class="content-section">
 
-Turtle Bottom (also known as Turtle Position or Referee's Position) is a defensive position where the bottom practitioner is on their hands and knees with their back exposed to the opponent. While traditionally viewed as a weak position in wrestling due to back exposure, modern BJJ has transformed the turtle into a dynamic guard recovery platform. The turtle position serves as a critical transitional state between being passed and recovering guard, offering numerous defensive options, sweep opportunities, and even submission threats. The key to effective turtle play lies in maintaining a tight defensive structure while actively working to improve position rather than remaining static. Top-level competitors like Marcelo Garcia, Priit Mihkelson, and various 10th Planet practitioners have developed sophisticated turtle-based systems that turn this defensive position into an offensive platform. The position requires excellent awareness of back defense, understanding of weight distribution, and precise timing to execute rolls, stand-ups, and guard recoveries before the opponent can establish dominant control or take the back. Success in turtle bottom depends on maintaining constant motion, fighting grips aggressively, and recognizing the optimal moment to explode into escape sequences based on opponent's weight commitment and positioning.
+Turtle Bottom is a defensive position where the bottom practitioner is on their hands and knees with their back exposed to the opponent. While traditionally viewed as a weak position in wrestling due to back exposure, modern BJJ has transformed the turtle into a dynamic guard recovery platform. The turtle position serves as a critical transitional state between being passed and recovering guard, offering numerous defensive options, sweep opportunities, and even submission threats. The key to effective turtle play lies in maintaining a tight defensive structure while actively working to improve position rather than remaining static. The position requires excellent awareness of back defense, understanding of weight distribution, and precise timing to execute rolls, stand-ups, and guard recoveries before the opponent can establish dominant control or take the back. Success in turtle bottom depends on maintaining constant motion, fighting grips aggressively, and recognizing the optimal moment to explode into escape sequences based on opponent's weight commitment and positioning.
 
 </section>
 
@@ -208,77 +208,18 @@ Turtle Bottom (also known as Turtle Position or Referee's Position) is a defensi
 
 ## Available Escapes
 
-### [[Granby Roll]] → [[Closed Guard]]
+### [[Granby Roll]] (16% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
+### [[Technical Standup]] (18% of attempts)
 
-### [[Technical Standup]] → [[Standing Position]]
+### [[Rolling to Guard]] (20% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Deep Half Entry]] (15% of attempts)
 
-### [[Rolling to Guard]] → [[Half Guard]]
+### [[Sit Through to Guard]] (18% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Peterson Roll]] (13% of attempts)
 
-### [[Deep Half Entry]] → [[Deep Half Guard]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
-
-### [[Sit Through to Guard]] → [[Butterfly Guard]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[Peterson Roll]] → [[Half Guard]]
-
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 45%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Turtle to Back Control]]** → [[Back Control]] (Opponent Success: 65%)
-- **[[Front Headlock to Anaconda]]** → [[Anaconda Control]] (Opponent Success: 40%)
-- **[[Front Headlock to Darce]]** → [[D'arce Control]] (Opponent Success: 35%)
-- **[[Crucifix from Turtle]]** → [[Crucifix]] (Opponent Success: 25%)
-- **[[Turtle Flatten to Side Control]]** → [[Side Control]] (Opponent Success: 50%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Elbow Escape to Guard]]** → [[Closed Guard]]
-  - Opponent attempts to flatten turtle by extending your far arm
-- **[[Sit Through Counter]]** → [[Half Guard]]
-  - Opponent commits weight forward attempting front headlock
-- **[[Stand Up in Base]]** → [[Standing Position]]
-  - Opponent's weight is high on your back without underhooks established
-- **[[Reverse to Guard]]** → [[Butterfly Guard]]
-  - Opponent attempts to take back with poor hook placement
 
 
 </section>
@@ -390,25 +331,39 @@ Partner attempts to establish harness control, underhooks, and dominant grips wh
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Shortest escape path to safety
+## Test Your Knowledge
 
-`Turtle Bottom → Granby Roll → Closed Guard → Triangle Choke → Won by Submission`
+**Q1**: What is the essential body position for maintaining a defensive turtle that protects against both chokes and back takes?
+**A**: The essential defensive turtle requires a rounded back with chin tucked tightly to chest, elbows glued to the inside of your knees creating a protective shell, and hips elevated off the mat with weight distributed evenly across all four points of contact. This configuration protects the neck from chokes by eliminating space, prevents underhook penetration that leads to flattening and back takes, and maintains mobility for dynamic escapes. The rounded spine and tucked chin specifically defend the carotid arteries from arm-in chokes.
 
-### Aggressive counter-attack path
+**Q2**: Your opponent establishes seatbelt control - what immediate actions should you take?
+**A**: Immediately begin hand fighting to strip their grips, specifically targeting the choking hand first since this prevents finishing attacks. While hand fighting, create motion through hip movement and directional changes to disrupt their weight placement. Look for opportunities to either explode to standing if their weight is high, or execute a sit-through if they commit forward. The key is not allowing them time to settle and insert hooks - constant movement and grip fighting buys you time and creates escape opportunities.
 
-`Turtle Bottom → Peterson Roll → Half Guard → Half Guard Sweeps → Mount → Armbar from Mount → Won by Submission`
+**Q3**: How do you determine whether to attempt a granby roll versus a technical standup from turtle?
+**A**: The decision depends on opponent's weight distribution and control points. Choose granby roll when opponent's weight is high on your back and forward-leaning, as you can use their momentum against them and they cannot follow your rotation effectively. Choose technical standup when opponent's weight is relatively light or they have poor hip control, allowing you to post and drive through without being dragged back down. If opponent has deep underhooks and heavy chest pressure, neither may work - consider sit-through or deep half entry instead.
 
-### Standing escape to reset
+**Q4**: Your opponent begins inserting a hook while you're in turtle - what is the proper defensive response?
+**A**: Immediately kick your leg back and away from their hooking attempt while simultaneously rotating your hips away from that side. Do not let the hook settle - if you feel them threading their foot inside your thigh, extend your leg explosively to strip the hook before they can secure it. If the first hook is secured, immediately work to prevent the second hook by turning toward the hook side and looking to sit through or granby roll. A single hook is recoverable; allowing both hooks to set dramatically reduces escape probability.
 
-`Turtle Bottom → Technical Standup → Standing Position → Double leg takedown → Back Control → Rear Naked Choke → Won by Submission`
+**Q5**: What role does grip fighting play in turtle bottom defense and what are the priority grips to fight?
+**A**: Grip fighting is critical because preventing dominant grip establishment buys time and creates escape windows. Priority grips to fight are: first, the choking hand in any seatbelt or harness configuration since this prevents finishing attacks; second, any wrist control they're using to flatten you or control your movement; third, grips on your hips or waist that control your base. Use two hands on one grip to strip efficiently rather than fighting multiple grips simultaneously. The goal is to create moments of loosened control where escapes become possible.
+
+**Q6**: Your opponent commits their weight forward for a front headlock attack - what opportunity does this create?
+**A**: Forward weight commitment for front headlock creates excellent sit-through opportunities. As they drive forward, their base becomes compromised and they cannot follow you laterally. Execute a quick sit-through to the opposite side of their choking arm, threading your near leg through and turning to face them. This often leads directly to half guard or closed guard recovery. The key is timing - wait for them to commit their weight before initiating the sit-through, or they can easily follow and maintain control.
+
+**Q7**: How should you manage energy expenditure while defending turtle position?
+**A**: Energy management in turtle requires strategic effort distribution. Use defensive structure (tight elbows, rounded back, tucked chin) as your primary defense rather than explosive movement - this costs minimal energy. Save explosive movements for genuine escape opportunities when opponent makes errors or their weight shifts favorably. Avoid fighting every grip with maximum effort; instead, prioritize the most threatening controls. When escape attempts fail, immediately return to defensive structure rather than continuing to scramble. Recognize that turtle is unsustainable - invest energy in calculated escape attempts rather than extended grip fighting battles.
+
+**Q8**: Your granby roll attempt fails and opponent follows you - how should you recover?
+**A**: If opponent follows your granby roll, immediately chain into a second escape rather than returning to static turtle. Options include: executing a second granby roll in the opposite direction using their forward momentum against them, transitioning to a sit-out and scramble if they're heavy on top, or inverting into deep half guard if they end up with chest pressure on your torso. The key principle is continuous motion - a failed escape that flows into another escape attempt is far better than resetting to a static turtle where opponent can re-establish control points.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 

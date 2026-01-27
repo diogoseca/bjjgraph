@@ -11,8 +11,6 @@
     "open_guard",
     "no_gi"
   ],
-  "starting_position": "Reverse De La Riva Guard",
-  "ending_position": "Side Control",
   "success_rates": {
     "beginner": 30,
     "intermediate": 50,
@@ -281,6 +279,24 @@
     {
       "name": "Hip Movement",
       "relationship": "Technical element - body mechanics required for circling around legs"
+    }
+  ],
+  "from_position": "Reverse De La Riva Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Side Control/Top",
+      "probability": 70,
+      "result": "success"
+    },
+    {
+      "to": "Reverse De La Riva Guard/Bottom",
+      "probability": 20,
+      "result": "failure"
+    },
+    {
+      "to": "Reverse De La Riva Guard/Top",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

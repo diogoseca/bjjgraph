@@ -9,8 +9,6 @@
     "fundamental",
     "guard-bottom"
   ],
-  "starting_position": "Butterfly Guard",
-  "ending_position": "Mount",
   "success_rates": {
     "beginner": 40,
     "intermediate": 55,
@@ -295,6 +293,24 @@
     {
       "name": "Off-Balancing",
       "relationship": "Underlying Principle - core concept for sweep effectiveness"
+    }
+  ],
+  "from_position": "Butterfly Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Mount/Top",
+      "probability": 70,
+      "result": "success"
+    },
+    {
+      "to": "Butterfly Guard/Bottom",
+      "probability": 20,
+      "result": "failure"
+    },
+    {
+      "to": "Butterfly Guard/Top",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

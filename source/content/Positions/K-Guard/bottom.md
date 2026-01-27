@@ -21,37 +21,37 @@ description: "Master K-Guard Bottom in BJJ. Dynamic half guard variation with in
     {
       "@type": "HowToStep",
       "name": "Execute X-Guard Sweep",
-      "text": "From this position, execute X-Guard Sweep to transition to X-Guard. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt X-Guard Sweep. This technique is attempted in 14% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Single Leg X Sweep",
-      "text": "From this position, execute Single Leg X Sweep to transition to Single Leg X-Guard. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Single Leg X Sweep. This technique is attempted in 15% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Deep Half Entry",
-      "text": "From this position, execute Deep Half Entry to transition to Deep Half Guard. Success rate for advanced practitioners: 80%.",
+      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 18% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Old School Sweep",
-      "text": "From this position, execute Old School Sweep to transition to Side Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Old School Sweep. This technique is attempted in 13% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Waiter Sweep",
-      "text": "From this position, execute Waiter Sweep to transition to Mount. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Waiter Sweep. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Half Guard to Back Take",
-      "text": "From this position, execute Half Guard to Back Take to transition to Back Control. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Half Guard to Back Take. This technique is attempted in 14% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -211,86 +211,20 @@ The position excels as both a retention platform and an offensive launching poin
 
 ## Available Escapes
 
-### [[X-Guard Sweep]] → [[X-Guard]]
+### [[X-Guard Sweep]] (14% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Single Leg X Sweep]] (15% of attempts)
 
-### [[Single Leg X Sweep]] → [[Single Leg X-Guard]]
+### [[Deep Half Entry]] (18% of attempts)
 
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 60%
-- Advanced: 75%
+### [[Old School Sweep]] (13% of attempts)
 
-### [[Deep Half Entry]] → [[Deep Half Guard]]
+### [[Waiter Sweep]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 50%
-- Intermediate: 65%
-- Advanced: 80%
+### [[Half Guard to Back Take]] (14% of attempts)
 
-### [[Old School Sweep]] → [[Side Control]]
+### [[Butterfly Sweep]] (14% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-### [[Waiter Sweep]] → [[Mount]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[Half Guard to Back Take]] → [[Back Control]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 70%
-
-### [[Butterfly Sweep]] → [[Mount]]
-
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Knee Slice Pass]]** → [[Side Control]] (Opponent Success: 35%)
-- **[[Smash Pass]]** → [[Side Control]] (Opponent Success: 40%)
-- **[[Long Step Pass]]** → [[Side Control]] (Opponent Success: 30%)
-- **[[Half Guard Pass]]** → [[Side Control]] (Opponent Success: 35%)
-- **[[Headquarters Pass]]** → [[Headquarters Position]] (Opponent Success: 25%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Deep Half Entry]]** → [[Deep Half Guard]]
-  - Opponent attempts to drive forward pressure to flatten hooks
-- **[[X-Guard Sweep]]** → [[X-Guard]]
-  - Opponent posts hand far side to prevent sweep initiation
-- **[[Single Leg X Sweep]]** → [[Single Leg X-Guard]]
-  - Opponent extracts trapped leg and steps back to disengage
-- **[[Half Guard to Back Take]]** → [[Back Control]]
-  - Opponent commits weight forward attempting crossface control
-- **[[Guard Replacement]]** → [[Butterfly Guard]]
-  - Opponent disengages and creates distance to reset passing attack
 
 
 </section>
@@ -397,29 +331,39 @@ Partner commits weight forward attempting various passing grips while bottom pra
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Back Attack Path
+## Test Your Knowledge
 
-`K-Guard Bottom → Half Guard to Back Take → Back Control → Rear Naked Choke`
+**Q1**: What is the correct weight distribution for maintaining K-Guard Bottom against a pressure passer?
+**A**: Weight should be distributed primarily on your shoulder and hip rather than flat on your back. Keep your head elevated off the mat to maintain spine angle that enables hip mobility. Your hooks should be actively loaded with tension - the inverted hook pulling the trapped leg across centerline while the butterfly hook creates constant upward pressure. This positioning allows you to redirect their pressure rather than absorbing it directly.
 
-### Sweep to Mount Submission
+**Q2**: Your opponent starts driving heavy crossface pressure to flatten you - what adjustment do you make?
+**A**: Immediately increase angle by moving your hips in a circular motion away from the pressure while maintaining your hook connections. Frame with your inside arm against their crossface to create distance, and coordinate this with increased butterfly hook pressure to elevate their weight off you. If they continue driving, use their forward commitment to enter Deep Half Guard by diving under their weight rather than fighting the pressure directly.
 
-`K-Guard Bottom → Waiter Sweep → Mount → Armbar from Mount`
+**Q3**: What are the essential hook mechanics that distinguish K-Guard from standard half guard?
+**A**: The defining characteristic is the inverted inside hook that crosses over the opponent's trapped leg with your knee pointing toward their far hip, combined with an active outside butterfly hook at hip level. Unlike standard half guard where hooks primarily retain, K-Guard hooks create dynamic off-balancing through simultaneous lateral pulling (inverted hook) and vertical elevation (butterfly hook). Both hooks must maintain active tension creating a push-pull system rather than static retention.
 
-### Deep Half to Leg Lock
+**Q4**: How do you shut down the knee slice pass from K-Guard Bottom?
+**A**: The knee slice becomes difficult when you maintain your inverted hook pulling their trapped leg across centerline - this prevents them from driving their knee through. Coordinate this with active butterfly hook pressure to elevate their weight when they attempt to slice. Use your inside frame to prevent them from flattening your shoulders, and continuously create angle changes with hip movement. If they begin slicing successfully, transition to Deep Half Guard before they complete the pass.
 
-`K-Guard Bottom → Deep Half Entry → Deep Half Guard → Ashi Garami → Heel Hook`
+**Q5**: What are the grip priorities for maintaining effective K-Guard retention?
+**A**: Primary grip should be an inside underhook or cross-face frame to prevent them from establishing chest-to-chest pressure. Secondary grip controls their far sleeve or collar to limit their posting options during sweep attempts. All grips should be active and coordinated with your hook actions - pushing with frames while pulling with hooks creates the amplified off-balancing effect that makes K-Guard effective. Avoid death-gripping statically as this creates predictable defensive positions.
 
-### X-Guard to Top Control
+**Q6**: Your opponent begins extracting their trapped leg and stepping back - what sequence do you follow?
+**A**: As they step back, maintain your butterfly hook connection and follow their movement by extending your hips toward them. This creates the perfect entry for Single Leg X-Guard or standard X-Guard transitions. Use their backward momentum against them by immediately threatening the elevation sweep - their defensive extraction actually gives you the angle and distance needed for these high-percentage sweeps. Key is maintaining hook connection throughout their extraction attempt.
 
-`K-Guard Bottom → X-Guard Sweep → Mount → Ezekiel Choke`
+**Q7**: How do you manage energy when maintaining K-Guard against a persistent pressure passer?
+**A**: Use your skeletal structure rather than muscular effort for retention - proper spine angle and hook positioning should allow you to redirect pressure without constant effort. Move your hips in small, efficient circular patterns rather than large explosive movements. Let their forward pressure load your hooks for sweep opportunities rather than fighting it. Maintain active but not maximal tension in hooks, saving explosive effort for sweep execution rather than retention.
+
+**Q8**: Your opponent controls your inside arm and begins flattening your hooks systematically - how do you recover?
+**A**: First priority is recovering inside arm position through swimming motions or framing against their shoulder. Simultaneously increase hip movement to create angles that prevent complete flattening. If they continue progressing, transition to Deep Half Guard by diving your upper body under their weight while maintaining bottom leg hook connection. Alternatively, release the inverted hook and recover to Butterfly Guard if they've created enough distance - maintaining a guard position is preferable to getting completely flattened.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 

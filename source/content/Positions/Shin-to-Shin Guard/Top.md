@@ -21,37 +21,37 @@ description: "Master passing Shin-to-Shin Guard from top perspective. Learn clea
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, execute Knee Slice Pass to transition to Headquarters Position. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 13% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Long Step Pass",
-      "text": "From this position, execute Long Step Pass to transition to Side Control. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Long Step Pass. This technique is attempted in 14% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag Pass",
-      "text": "From this position, execute Leg Drag Pass to transition to Back Control. Success rate for advanced practitioners: 62%.",
+      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Stack Pass",
-      "text": "From this position, execute Stack Pass to transition to Side Control. Success rate for advanced practitioners: 58%.",
+      "text": "From this position, attempt Stack Pass. This technique is attempted in 11% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Pressure Pass",
-      "text": "From this position, execute Pressure Pass to transition to Side Control. Success rate for advanced practitioners: 68%.",
+      "text": "From this position, attempt Pressure Pass. This technique is attempted in 13% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute X Pass",
-      "text": "From this position, execute X Pass to transition to Side Control. Success rate for advanced practitioners: 63%.",
+      "text": "From this position, attempt X Pass. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -210,93 +210,22 @@ Facing Shin-to-Shin Guard from the top position presents a unique set of challen
 
 ## Available Attacks
 
-### [[Knee Slice Pass]] → [[Headquarters Position]]
+### [[Knee Slice Pass]] (13% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Long Step Pass]] (14% of attempts)
 
-### [[Long Step Pass]] → [[Side Control]]
+### [[Leg Drag Pass]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Stack Pass]] (11% of attempts)
 
-### [[Leg Drag Pass]] → [[Back Control]]
+### [[Pressure Pass]] (13% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 48%
-- Advanced: 62%
+### [[X Pass]] (12% of attempts)
 
-### [[Stack Pass]] → [[Side Control]]
+### [[Knee Through]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 42%
-- Advanced: 58%
+### [[Smash Pass]] (13% of attempts)
 
-### [[Pressure Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 38%
-- Intermediate: 52%
-- Advanced: 68%
-
-### [[X Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 32%
-- Intermediate: 48%
-- Advanced: 63%
-
-### [[Knee Through]] → [[Mount]]
-
-**Success Rates:**
-- Beginner: 28%
-- Intermediate: 44%
-- Advanced: 60%
-
-### [[Smash Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Single Leg X Entry]]** → [[Single Leg X-Guard]] (Opponent Success: 45%)
-- **[[X-Guard Sweep]]** → [[X-Guard]] (Opponent Success: 40%)
-- **[[Butterfly Sweep]]** → [[Mount]] (Opponent Success: 35%)
-- **[[Outside Ashi Entry]]** → [[Outside Ashi-Garami]] (Opponent Success: 30%)
-- **[[De La Riva Sweep]]** → [[De La Riva Guard]] (Opponent Success: 35%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Knee Slice Pass]]** → [[Headquarters Position]]
-  - Successfully clear shin connection and establish upper body control, opponent's guard is opened
-- **[[Long Step Pass]]** → [[Side Control]]
-  - Opponent attempts to follow with shin connection as you circle, creating opening to step around
-- **[[Pressure Pass]]** → [[Side Control]]
-  - Opponent drops shin connection to establish different guard structure, allowing immediate forward pressure
-- **[[Leg Drag Pass]]** → [[Back Control]]
-  - Opponent commits to single leg X entry, creating opportunity to control and drag the extended leg
-- **[[Stack Pass]]** → [[Side Control]]
-  - Opponent maintains high guard retention posture, allowing stacking pressure to fold their structure
 
 
 </section>
@@ -413,33 +342,39 @@ Partner maintains shin-to-shin with moderate resistance. Practice applying diffe
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Direct pass to side control submission
+## Test Your Knowledge
 
-`Shin-to-Shin Guard Top → Long Step Pass → Side Control → Kimura from Side Control`
+**Q1**: What is the primary strategic objective when facing shin-to-shin guard from top position?
+**A**: The primary objective is to systematically neutralize the shin connection while preventing transitions to more dangerous positions like single leg X or X-guard. This requires establishing upper body control first to prevent distance management grips, then methodically clearing the shin using circling, backsteps, or controlled pressure rather than forcing directly through the connection.
 
-### Leg drag to back attack
+**Q2**: Your opponent begins elevating their hips and adjusting their angle toward your trapped leg—what are the early warning signs of a single leg X entry?
+**A**: Watch for hip elevation combined with angle adjustment toward your leg, their free leg beginning to thread underneath yours, increased pulling pressure on your ankle or lower leg, and their upper body starting to recline backward. These movements indicate they're building entry mechanics for single leg X. Immediately address by controlling their hip, widening your base, and circling away from the elevation angle.
 
-`Shin-to-Shin Guard Top → Leg Drag Pass → Back Control → Rear Naked Choke`
+**Q3**: Why should you establish upper body grips before attempting to clear the shin connection?
+**A**: Upper body grips prevent the guard player from achieving effective distance management and posture control through sleeve and collar grips. Without this control, you cannot safely clear the shin because any clearing attempt leaves you vulnerable to being pulled off-balance into sweeps or transitions. Dominant upper body control also prevents them from sitting up into your base during clearing sequences.
 
-### Knee slice to mount submission
+**Q4**: What base adjustments should you make when you feel the opponent increasing upward pressure through the shin connection?
+**A**: Widen your stance to lower your center of gravity, shift weight toward your heels to resist forward pulling, and consider dropping to combat base if standing. Keep your hips mobile and ready to circle rather than planting statically. Maintain grip control on their upper body to prevent them from using the increased pressure to generate sweeping momentum.
 
-`Shin-to-Shin Guard Top → Knee Slice Pass → Mount → Americana from Mount`
+**Q5**: How do you distinguish between safe moments to apply forward passing pressure versus dangerous moments that invite sweeps?
+**A**: Safe moments occur when you've successfully contested or broken their upper body grips, when you've cleared or significantly weakened the shin connection, or when their hips are flat rather than elevated. Dangerous moments are when they have strong sleeve/collar grips, when the shin connection is active with good angle, when their hips are elevated and mobile, or when they've begun transition mechanics to X-guard or single leg X.
 
-### Stack pass to submission
+**Q6**: Your opponent switches from active shin pressure to a more passive connection—what does this indicate and how should you respond?
+**A**: A passive shin connection often indicates the guard player is either fatigued, has lost their ideal angle, or is setting up a different attack vector. This creates an immediate passing opportunity—capitalize by combining grip pressure with forward advancement before they can re-establish active pressure or transition to a different guard. Move directly into your passing sequence rather than giving them time to reset.
 
-`Shin-to-Shin Guard Top → Stack Pass → Side Control → Arm Triangle`
+**Q7**: What is the relationship between clearing speed and base maintenance when addressing the shin connection?
+**A**: There's an inverse relationship—faster clearing attempts typically compromise base stability, creating openings for sweeps or transitions. Systematic, controlled clearing maintains your balance and weight distribution while still making progress. The key is consistent pressure with proper timing rather than explosive movements. Rushed clearing plays into the guard player's off-balancing mechanics.
 
-### Pressure pass to north-south attack
-
-`Shin-to-Shin Guard Top → Pressure Pass → Side Control → North-South → North-South Choke`
+**Q8**: How should you modify your passing approach if the opponent has particularly strong upper body grips despite your grip fighting?
+**A**: When they maintain strong grips, direct forward pressure becomes extremely dangerous. Instead, use movement-based clearing approaches like circling and long stepping that don't require driving into their grip structure. Break grips methodically as opportunities arise rather than forcing the pass. Consider whether backing away to reset the grip exchange is more efficient than continuing to fight compromised grips.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 

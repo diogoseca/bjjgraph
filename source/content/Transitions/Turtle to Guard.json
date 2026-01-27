@@ -9,8 +9,6 @@
     "escape",
     "fundamentals"
   ],
-  "starting_position": "Turtle",
-  "ending_position": "Closed Guard",
   "success_rates": {
     "beginner": 45,
     "intermediate": 60,
@@ -279,6 +277,24 @@
     {
       "name": "Re-Guard",
       "relationship": "Related guard recovery concept"
+    }
+  ],
+  "from_position": "Turtle/Top",
+  "outcomes": [
+    {
+      "to": "Closed Guard/Bottom",
+      "probability": 75,
+      "result": "success"
+    },
+    {
+      "to": "Turtle/Top",
+      "probability": 15,
+      "result": "failure"
+    },
+    {
+      "to": "Turtle/Bottom",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Spider Guard Variations | BJJ Technique | BJJ Graph"
 description: "Master Spider Guard variations in BJJ. Learn sleeve control mechanics, distance management, and sweep setups. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%."
@@ -16,7 +17,7 @@ description: "Master Spider Guard variations in BJJ. Learn sleeve control mechan
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Spider Guard Variations in BJJ",
-  "description": "Step-by-step guide for Spider Guard Variations from Spider Guard to Mount.",
+  "description": "Step-by-step guide for Spider Guard Variations from Spider Guard/Bottom. Possible outcomes: Mount/Top (65%), Spider Guard/Bottom (25%), Spider Guard/Top (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -154,11 +155,25 @@ description: "Master Spider Guard variations in BJJ. Learn sleeve control mechan
 
 Spider Guard variations represent a comprehensive system of distance management and sleeve control techniques that transform basic spider guard into a dynamic attacking platform. These variations exploit different grips, foot positions, and angles to create sweeping opportunities while maintaining optimal defensive distance. The fundamental principle underlying all spider guard variations is the use of your feet on the opponent's biceps or hips to control distance while your hands control their sleeves, creating a mechanical advantage that prevents them from establishing passing pressure. Understanding when to transition between variations based on your opponent's base, posture, and passing strategy is essential for developing a complete spider guard game that can adapt to different body types and grappling styles.
 
-**Starting Position**: [[Spider Guard]]
-**Ending Position**: [[Mount]]
+**From Position**: [[Spider Guard/Bottom]]
 **Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Mount/Top]] | 65% |
+| Failure | [[Spider Guard/Bottom]] | 25% |
+| Counter | [[Spider Guard/Top]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

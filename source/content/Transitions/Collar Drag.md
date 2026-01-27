@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Collar Drag | BJJ Technique | BJJ Graph"
 description: "Master the Collar Drag in BJJ. Essential standing technique transitioning to back control or takedown. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%."
@@ -16,7 +17,7 @@ description: "Master the Collar Drag in BJJ. Essential standing technique transi
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Collar Drag in BJJ",
-  "description": "Step-by-step guide for Collar Drag from Standing Position to Back Control.",
+  "description": "Step-by-step guide for Collar Drag from Standing Position/Top. Possible outcomes: Back Control/Top (65%), Standing Position/Top (25%), Standing Position/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -154,11 +155,25 @@ description: "Master the Collar Drag in BJJ. Essential standing technique transi
 
 The Collar Drag is a fundamental standing technique that creates dominant angles by pulling the opponent's collar or neck across their body while simultaneously controlling their opposite arm. This creates a powerful torque that disrupts their structure and opens pathways to back control, single leg attacks, or forced guard pulls. The technique relies on precise timing, proper grip placement, and explosive hip movement to generate the necessary pulling force. When executed correctly, the Collar Drag compromises the opponent's base and posture simultaneously, making it extremely difficult to defend. The beauty of this technique lies in its versatility—it works equally well in gi and no-gi contexts (using the neck in no-gi), functions as both an offensive attack and a counter to aggressive opponents, and chains seamlessly into multiple follow-up options. The Collar Drag represents a core principle of BJJ: using leverage and angles to overcome strength, making it effective regardless of size differential when timing and technique are sound.
 
-**Starting Position**: [[Standing Position]]
-**Ending Position**: [[Back Control]]
+**From Position**: [[Standing Position/Top]]
 **Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Back Control/Top]] | 65% |
+| Failure | [[Standing Position/Top]] | 25% |
+| Counter | [[Standing Position/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

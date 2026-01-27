@@ -99,44 +99,32 @@ Competition application demonstrates New York Control's effectiveness in both gi
 - Competition success requires dedicated drilling of submission chains and transitions
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Gogoplata]]** → [[Gogoplata Control]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 50%
+- **[[Gogoplata]]** (7% of attempts)
 
-- **[[Triangle Setup]]** → [[Triangle Control]]
-  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 70%
+- **[[Triangle Setup]]** (10% of attempts)
 
-- **[[Omoplata Sweep]]** → [[Omoplata Control]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 65%
+- **[[Omoplata Sweep]]** (9% of attempts)
 
-- **[[Triangle to Omoplata]]** → [[Omoplata Control]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 60%
+- **[[Triangle to Omoplata]]** (8% of attempts)
 
-- **[[Omoplata to Back]]** → [[Back Control]]
-  - Success Rate: Beginner 20%, Intermediate 40%, Advanced 55%
+- **[[Omoplata to Back]]** (7% of attempts)
 
-- **[[Triangle to Back]]** → [[Back Control]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 60%
+- **[[Triangle to Back]]** (8% of attempts)
 
-- **[[Transition to Mission Control]]** → [[Mission Control]]
-  - Success Rate: Beginner 40%, Intermediate 60%, Advanced 75%
+- **[[Crackhead Control to Mission Control]]** (10% of attempts)
 
-- **[[Transition to Invisible Collar]]** → [[Invisible Collar]]
-  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 70%
+- **[[New York to Invisible Collar]]** (10% of attempts)
 
-- **[[Transition to Zombie]]** → [[Zombie]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 65%
+- **[[New York Control to Zombie]]** (9% of attempts)
 
-- **[[Armbar from Guard]]** → [[Armbar Control]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Armbar from Guard]]** (7% of attempts)
 
-- **[[Kimura from Guard]]** → [[Kimura Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Kimura from Guard]]** (7% of attempts)
 
-- **[[Hip Bump Sweep]]** → [[Mount]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Hip Bump Sweep]]** (8% of attempts)
 
 
 ### Common Mistakes
@@ -194,26 +182,20 @@ Competition application demonstrates New York Control's effectiveness in both gi
 - Competition preparation demands specific rubber guard defense training - position appears infrequently
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Overhook Escape]]** → [[Open Guard]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 60%
+- **[[Overhook Escape]]** (18% of attempts)
 
-- **[[Posture Recovery]]** → [[Closed Guard]]
-  - Success Rate: Beginner 20%, Intermediate 40%, Advanced 55%
+- **[[Posture Recovery]]** (16% of attempts)
 
-- **[[Base Widening]]** → [[Combat Base]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 65%
+- **[[Base Widening]]** (20% of attempts)
 
-- **[[Stack Pass]]** → [[Headquarters Position]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+- **[[Stack Pass]]** (13% of attempts)
 
-- **[[Leg Extraction]]** → [[Half Guard]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 60%
+- **[[Leg Extraction]]** (18% of attempts)
 
-- **[[Standing up]]** → [[Standing Position]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Standing up]]** (15% of attempts)
 
 
 ### Common Mistakes

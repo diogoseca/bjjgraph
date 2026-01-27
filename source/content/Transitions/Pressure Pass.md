@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Pressure Pass | BJJ Technique | BJJ Graph"
 description: "Master the Pressure Pass in BJJ. Complete guide to heavy pressure guard passing. Success rates: Beginner 45%, Intermediate 65%, Advanced 80%. Step-by-step execution."
@@ -16,7 +17,7 @@ description: "Master the Pressure Pass in BJJ. Complete guide to heavy pressure 
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Pressure Pass in BJJ",
-  "description": "Step-by-step guide for Pressure Pass from Combat Base to Side Control.",
+  "description": "Step-by-step guide for Pressure Pass from Combat Base/Top. Possible outcomes: Side Control/Top (75%), Combat Base/Top (15%), Combat Base/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -160,11 +161,25 @@ description: "Master the Pressure Pass in BJJ. Complete guide to heavy pressure 
 
 The Pressure Pass is a fundamental guard passing technique that relies on controlled, heavy pressure to pin the opponent's hips and progressively advance past their legs. Unlike speed-based passes that seek to quickly bypass the guard, pressure passing emphasizes control, weight distribution, and methodical advancement. This approach is particularly effective against flexible opponents or those with strong retention, as it limits their mobility and forces them to carry your weight while you systematically break down their defensive structure. The Pressure Pass can be initiated from various guard positions including closed guard, half guard, and open guard variations. The key principle is establishing chest-to-chest or chest-to-hip pressure while controlling the opponent's hips and preventing them from creating space or recovering their guard. This pass is highly effective in gi and no-gi contexts and forms the foundation of many modern guard passing systems. The technique requires patience, proper weight distribution, and the ability to maintain pressure while advancing position incrementally.
 
-**Starting Position**: [[Combat Base]]
-**Ending Position**: [[Side Control]]
+**From Position**: [[Combat Base/Top]]
 **Success Rates**: Beginner 45%, Intermediate 65%, Advanced 80%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Side Control/Top]] | 75% |
+| Failure | [[Combat Base/Top]] | 15% |
+| Counter | [[Combat Base/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

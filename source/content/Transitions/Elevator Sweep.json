@@ -9,8 +9,6 @@
     "hook-control",
     "elevation"
   ],
-  "starting_position": "Butterfly Guard",
-  "ending_position": "Mount",
   "success_rates": {
     "beginner": 35,
     "intermediate": 50,
@@ -283,6 +281,24 @@
     {
       "name": "Deep Half Entry",
       "relationship": "Bail-out position - available when opponent sits back heavily"
+    }
+  ],
+  "from_position": "Butterfly Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Mount/Top",
+      "probability": 65,
+      "result": "success"
+    },
+    {
+      "to": "Butterfly Guard/Bottom",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Butterfly Guard/Top",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

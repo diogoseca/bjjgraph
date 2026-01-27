@@ -21,37 +21,37 @@ description: "Master Kimura Trap Top in BJJ. Dominant offensive position combini
     {
       "@type": "HowToStep",
       "name": "Execute Kimura from Side Control",
-      "text": "From this position, execute Kimura from Side Control to transition to Won by Submission. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Kimura from Side Control. This technique is attempted in 14% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kimura from North-South",
-      "text": "From this position, execute Kimura from North-South to transition to Won by Submission. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Kimura from North-South. This technique is attempted in 15% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Mount",
-      "text": "From this position, execute Transition to Mount to transition to Mount. Success rate for advanced practitioners: 78%.",
+      "name": "Execute Side Control to Mount",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 15% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kimura to Back Take",
-      "text": "From this position, execute Kimura to Back Take to transition to Back Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Kimura to Back Take. This technique is attempted in 13% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute North-South to Kimura",
-      "text": "From this position, execute North-South to Kimura to transition to North-South. Success rate for advanced practitioners: 72%.",
+      "text": "From this position, attempt North-South to Kimura. This technique is attempted in 14% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kimura from Turtle",
-      "text": "From this position, execute Kimura from Turtle to transition to Won by Submission. Success rate for advanced practitioners: 68%.",
+      "text": "From this position, attempt Kimura from Turtle. This technique is attempted in 14% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -213,82 +213,20 @@ Strategically, the position is valued for its control density—the top player c
 
 ## Available Attacks
 
-### [[Kimura from Side Control]] → [[Won by Submission]]
+### [[Kimura from Side Control]] (14% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Kimura from North-South]] (15% of attempts)
 
-### [[Kimura from North-South]] → [[Won by Submission]]
+### [[Side Control to Mount]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 60%
-- Advanced: 75%
+### [[Kimura to Back Take]] (13% of attempts)
 
-### [[Transition to Mount]] → [[Mount]]
+### [[North-South to Kimura]] (14% of attempts)
 
-**Success Rates:**
-- Beginner: 50%
-- Intermediate: 65%
-- Advanced: 78%
+### [[Kimura from Turtle]] (14% of attempts)
 
-### [[Kimura to Back Take]] → [[Back Control]]
+### [[Side Control to Mount]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-### [[North-South to Kimura]] → [[North-South]]
-
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 60%
-- Advanced: 72%
-
-### [[Kimura from Turtle]] → [[Won by Submission]]
-
-**Success Rates:**
-- Beginner: 38%
-- Intermediate: 53%
-- Advanced: 68%
-
-### [[Side Control to Mount]] → [[Mount]]
-
-**Success Rates:**
-- Beginner: 48%
-- Intermediate: 63%
-- Advanced: 75%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Kimura Defense]]** → [[Side Control]] (Opponent Success: 35%)
-- **[[Rolling Kimura Escape]]** → [[Guard Opening Sequence]] (Opponent Success: 25%)
-- **[[Elbow Escape]]** → [[Half Guard]] (Opponent Success: 30%)
-- **[[Bridge and Roll]]** → [[Guard Opening Sequence]] (Opponent Success: 20%)
-- **[[Arm Extraction]]** → [[Side Control]] (Opponent Success: 28%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Kimura from North-South]]** → [[Won by Submission]]
-  - Opponent attempts to turn into grip or bridge, exposing finishing angle
-- **[[Transition to Mount]]** → [[Mount]]
-  - Opponent attempts elbow escape or creates space, allowing step-over to mount
-- **[[Kimura to Back Take]]** → [[Back Control]]
-  - Opponent rolls to defend Kimura finish, creating back exposure
 
 
 </section>
@@ -298,23 +236,23 @@ Strategically, the position is valued for its control density—the top player c
 ## Decision Making from This Position
 
 **If opponent keeps arm tight and defensive, preventing finishing angle development:**
-- Execute **[[Transition to Mount]]** → [[Mount]] (Probability: 75%)
+- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 75%)
 - Execute **[[North-South to Kimura]]** → [[North-South]] (Probability: 65%)
 
 
 **If opponent attempts to roll or turn into Kimura grip to defend shoulder pressure:**
 - Execute **[[Kimura to Back Take]]** → [[Back Control]] (Probability: 80%)
-- Execute **[[Kimura from North-South]]** → [[Won by Submission]] (Probability: 70%)
+- Execute **[[Kimura from North-South]]** → [[game-over]] (Probability: 70%)
 
 
 **If opponent creates space attempting elbow escape or bridge and shrimp sequence:**
-- Execute **[[Transition to Mount]]** → [[Mount]] (Probability: 78%)
-- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 73%)
+- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 78%)
+- Execute **[[Knee on Belly]]** → [[Knee on Belly]] (Probability: 73%)
 
 
 **If opponent extends arm or loses defensive structure attempting to push or frame:**
-- Execute **[[Kimura from Side Control]]** → [[Won by Submission]] (Probability: 85%)
-- Execute **[[Kimura from North-South]]** → [[Won by Submission]] (Probability: 80%)
+- Execute **[[Kimura from Side Control]]** → [[game-over]] (Probability: 85%)
+- Execute **[[Kimura from North-South]]** → [[game-over]] (Probability: 80%)
 
 
 
@@ -395,29 +333,39 @@ Start in Kimura Trap Top from side control. Partner cycles through defensive rea
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Direct Kimura Finish from Side Control
+## Test Your Knowledge
 
-`Kimura Trap Top → Kimura from Side Control → Won by Submission`
+**Q1**: What is the optimal grip depth for maintaining Kimura Trap Top control?
+**A**: The grip should be positioned as close to the opponent's elbow as possible, with your figure-four locked tight and your gripping arm threaded deep under their tricep. This deep positioning maximizes leverage for both control and finishing, while shallow grips near the wrist allow opponents to straighten their arm and escape. The elbow-deep grip also prevents them from turning their hand to break the configuration.
 
-### North-South Kimura Path
+**Q2**: Your opponent starts bridging explosively while you have Kimura Trap Top established - what adjustment do you make?
+**A**: Ride the bridge by maintaining your grip connection and keeping your chest heavy on their torso without fighting the upward force directly. As they bridge, their trapped arm often extends slightly, creating finishing opportunities. When they come back down, immediately walk your feet toward their head to create the finishing angle. The bridge wastes their energy while you conserve yours through patient pressure.
 
-`Kimura Trap Top → North-South to Kimura → North-South → Kimura from North-South → Won by Submission`
+**Q3**: How do you distribute weight to maintain Kimura Trap Top without losing mobility?
+**A**: Keep your hips low with your weight concentrated through your shoulder into opponent's chest, but maintain light contact with your feet using a sprawled base. This allows you to shift weight quickly for transitions while keeping opponent pinned. Avoid sitting on your heels or putting weight on your knees, as this creates dead spots where opponent can escape. Your chest pressure should feel heavy to them while your legs remain mobile.
 
-### Mount Transition Path
+**Q4**: What are the essential grips for maintaining Kimura Trap Top position?
+**A**: The primary grip is the figure-four Kimura configuration where your outside hand grips your own wrist after threading under opponent's tricep. Your gripping hand should control their wrist with thumb-in grip for maximum control. Secondary control comes from your opposite arm either crossfacing their jaw or underhooking their far side to prevent turning. The combination of arm control plus head/far side control creates complete upper body dominance.
 
-`Kimura Trap Top → Transition to Mount → Mount → Kimura from Mount → Won by Submission`
+**Q5**: How do you shut down the opponent's primary escape from Kimura Trap Top?
+**A**: The primary escape is the opponent turning into you and rolling to relieve shoulder pressure. Prevent this by maintaining heavy shoulder pressure that pins their far shoulder to the mat, keeping your hips low and sprawled to create a wide base, and anticipating the roll by staying connected to their movement. When you feel them loading to turn, either tighten your chest pressure to pin them or flow with their roll to take the back.
 
-### Back Take to Submission Path
+**Q6**: Your opponent successfully hides their elbow tight to their body - what is your response?
+**A**: When opponent tucks their elbow defensively, you have three high-percentage options: first, maintain the grip and transition to mount since their defensive focus on the arm opens positional advancement; second, spin to north-south where different angles often expose the elbow; third, use the shoulder pressure to gradually pry the elbow away from their body through progressive angle changes. Never release the grip - their defensive posture still limits their escape options.
 
-`Kimura Trap Top → Kimura to Back Take → Back Control → Rear Naked Choke`
+**Q7**: How do you manage energy when the opponent is stalling in Kimura Trap Top?
+**A**: Use patient, pressure-based control rather than active pulling or cranking. Let your body weight do the work through proper positioning - heavy shoulder pressure, sprawled hips, and relaxed arms maintaining the grip configuration. Periodically create micro-adjustments by walking feet or shifting angle to prevent them from settling. The stalling opponent is expending energy defending while you conserve through efficient weight distribution.
+
+**Q8**: Your opponent partially escapes and gets to their side - how do you recover full Kimura Trap Top control?
+**A**: Maintain your Kimura grip absolutely - this is your anchor point. Drive your shoulder into their back while walking your feet in an arc to re-establish perpendicular position. Use the Kimura grip itself to pull them back flat by driving their trapped arm toward the mat. If they continue turning away, follow them to back control. The grip ensures you maintain offensive threat regardless of their positional movement.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -439,15 +387,15 @@ Start in Kimura Trap Top from side control. Partner cycles through defensive rea
 ## Related Positions and Techniques
 
 - **[[Side Control]]** - Primary position - most common platform for establishing Kimura Trap Top
-- **[[Kimura Trap System]]** - Parent system - comprehensive framework for Kimura Trap positions and techniques
 - **[[North-South]]** - Key transition position - excellent platform for Kimura finishing mechanics
 - **[[Kimura from Side Control]]** - Primary submission - direct finish from this control position
 - **[[Mount]]** - Common transition target - reached when opponent creates space defending Kimura
 - **[[Back Control]]** - Transition option - accessed when opponent rolls to defend Kimura
 - **[[Turtle]]** - Entry position - opponent's turtle creates arm exposure for grip establishment
 - **[[Half Guard]]** - Alternative entry - can establish Kimura Trap from top half guard position
-- **[[Kimura Control]]** - Related control position - focused specifically on Kimura grip dominance
-- **[[Americana Control]]** - Related shoulder lock - similar finishing mechanics from top positions
+- **[[Americana]]** - Related shoulder lock - similar finishing mechanics from top positions
+- **[[Kimura to Back Take]]** - Key transition - primary pathway when opponent rolls to defend
+- **[[Knee on Belly]]** - Alternative advancement - transitional position when Kimura is defended
 
 
 </section>

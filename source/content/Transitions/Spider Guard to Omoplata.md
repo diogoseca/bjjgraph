@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Spider Guard to Omoplata | BJJ Technique | BJJ Graph"
 description: "Master the Spider Guard to Omoplata transition in BJJ. Complete guide with setup, execution steps, and common counters. Success rates: Beginner 30%, Intermediate 45%, Advanced 60%."
@@ -16,7 +17,7 @@ description: "Master the Spider Guard to Omoplata transition in BJJ. Complete gu
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Spider Guard to Omoplata in BJJ",
-  "description": "Step-by-step guide for Spider Guard to Omoplata from Spider Guard to Omoplata Control.",
+  "description": "Step-by-step guide for Spider Guard to Omoplata from Spider Guard/Bottom. Possible outcomes: Omoplata Control/Top (60%), Spider Guard/Bottom (30%), Spider Guard/Top (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -160,11 +161,25 @@ description: "Master the Spider Guard to Omoplata transition in BJJ. Complete gu
 
 The Spider Guard to Omoplata is a fundamental attacking transition that combines sweeping mechanics with submission threat. From spider guard, you manipulate your opponent's posture and base using sleeve control and foot pressure on the biceps, creating an opening to swing your leg over their shoulder and sit up into the omoplata position. This technique exemplifies the principle of using your opponent's defensive reactions against them - when they resist your spider guard pressure by posting or pulling back, you capitalize on their commitment by attacking the shoulder with the omoplata. The transition is highly effective because it occurs in a single fluid motion, giving your opponent minimal time to recognize and counter the attack. Understanding proper grip mechanics, hip movement, and timing is essential for successfully executing this technique under resistance.
 
-**Starting Position**: [[Spider Guard]]
-**Ending Position**: [[Omoplata Control]]
+**From Position**: [[Spider Guard/Bottom]]
 **Success Rates**: Beginner 30%, Intermediate 45%, Advanced 60%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Omoplata Control/Top]] | 60% |
+| Failure | [[Spider Guard/Bottom]] | 30% |
+| Counter | [[Spider Guard/Top]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

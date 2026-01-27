@@ -95,26 +95,20 @@ The strategic importance of Kuzure Kesa-Gatame in modern BJJ cannot be overstate
 - Acceptance of position allows for strategic patience rather than panicked explosive efforts
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Elbow Escape]]** → [[Half Guard]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 50%
+- **[[Elbow Escape]]** (21% of attempts)
 
-- **[[Arm Recovery to Guard]]** → [[Closed Guard]]
-  - Success Rate: Beginner 10%, Intermediate 25%, Advanced 45%
+- **[[Arm Recovery to Guard]]** (18% of attempts)
 
-- **[[Bridge and Roll]]** → [[Side Control]]
-  - Success Rate: Beginner 8%, Intermediate 20%, Advanced 35%
+- **[[Bridge and Roll]]** (14% of attempts)
 
-- **[[Granby Roll]]** → [[Turtle]]
-  - Success Rate: Beginner 12%, Intermediate 28%, Advanced 48%
+- **[[Granby Roll]]** (19% of attempts)
 
-- **[[Technical Standup]]** → [[Standing Position]]
-  - Success Rate: Beginner 5%, Intermediate 15%, Advanced 30%
+- **[[Technical Standup]]** (12% of attempts)
 
-- **[[Re-Guard from Headquarters]]** → [[Open Guard]]
-  - Success Rate: Beginner 10%, Intermediate 22%, Advanced 40%
+- **[[Re-Guard from Headquarters]]** (16% of attempts)
 
 
 ### Common Mistakes
@@ -172,38 +166,28 @@ The strategic importance of Kuzure Kesa-Gatame in modern BJJ cannot be overstate
 - Constant small adjustments in pressure and position prevent opponent from timing escapes
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Americana from Side Control]]** → [[Americana Control]]
-  - Success Rate: Beginner 40%, Intermediate 60%, Advanced 75%
+- **[[Americana from Side Control]]** (11% of attempts)
 
-- **[[Armbar from Side Control]]** → [[Armbar Control]]
-  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 70%
+- **[[Armbar from Side Control]]** (10% of attempts)
 
-- **[[Kimura from Side Control]]** → [[Kimura Control]]
-  - Success Rate: Beginner 38%, Intermediate 58%, Advanced 72%
+- **[[Kimura from Side Control]]** (10% of attempts)
 
-- **[[Transition to Mount]]** → [[Mount]]
-  - Success Rate: Beginner 45%, Intermediate 65%, Advanced 80%
+- **[[Side Control to Mount]]** (11% of attempts)
 
-- **[[Transition to North-South]]** → [[North-South]]
-  - Success Rate: Beginner 50%, Intermediate 68%, Advanced 82%
+- **[[Side Control to North-South]]** (12% of attempts)
 
-- **[[Paper Cutter Choke]]** → [[Won by Submission]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 62%
+- **[[Paper Cutter Choke]]** (9% of attempts)
 
-- **[[Arm Triangle]]** → [[Won by Submission]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 68%
+- **[[Arm Triangle]]** (10% of attempts)
 
-- **[[Breadcutter Choke]]** → [[Won by Submission]]
-  - Success Rate: Beginner 20%, Intermediate 40%, Advanced 58%
+- **[[Breadcutter Choke]]** (8% of attempts)
 
-- **[[Far Side Armbar]]** → [[Armbar Control]]
-  - Success Rate: Beginner 28%, Intermediate 48%, Advanced 65%
+- **[[Far Side Armbar]]** (9% of attempts)
 
-- **[[Gift Wrap Control]]** → [[Gift Wrap]]
-  - Success Rate: Beginner 35%, Intermediate 52%, Advanced 68%
+- **[[Gift Wrap Control]]** (10% of attempts)
 
 
 ### Common Mistakes
@@ -256,11 +240,9 @@ The strategic importance of Kuzure Kesa-Gatame in modern BJJ cannot be overstate
 
 - **[[Mount]]** - Natural progression when opponent turns into the pressure
 
-- **[[Americana Control]]** - Frequently achieved submission control from arm isolation
+- **[[Kimura Trap]]** - Alternative submission control available from trapped arm
 
-- **[[Kimura Control]]** - Alternative submission control available from trapped arm
-
-- **[[100 Kilos]]** - Related position emphasizing shoulder pressure over arm isolation
+- **[[Armbar Control]]** - Submission control achieved when arm is extended
 
 
 </section>

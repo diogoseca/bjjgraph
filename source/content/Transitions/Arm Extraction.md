@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Arm Extraction | BJJ Technique | BJJ Graph"
 description: "Master Arm Extraction escape from Side Control. Learn systematic arm removal to recover guard. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%."
@@ -16,7 +17,7 @@ description: "Master Arm Extraction escape from Side Control. Learn systematic a
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Arm Extraction in BJJ",
-  "description": "Step-by-step guide for Arm Extraction from Side Control to Guard Recovery.",
+  "description": "Step-by-step guide for Arm Extraction from Side Control/Top. Possible outcomes: Guard Recovery/Bottom (75%), Side Control/Top (15%), Side Control/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -158,11 +159,25 @@ The Arm Extraction serves as a critical gateway technique connecting bottom side
 
 This escape is particularly effective against pressure-based top players who prioritize chest pressure over weight distribution. The technique's success depends on proper frame placement, shoulder rotation mechanics, and the ability to maintain defensive posture throughout the extraction sequence. Mastery of arm extraction fundamentally improves survival rates under side control and provides essential defensive foundations for all skill levels.
 
-**Starting Position**: [[Side Control]]
-**Ending Position**: [[Guard Recovery]]
+**From Position**: [[Side Control/Top]]
 **Success Rates**: Beginner 45%, Intermediate 60%, Advanced 75%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Guard Recovery/Bottom]] | 75% |
+| Failure | [[Side Control/Top]] | 15% |
+| Counter | [[Side Control/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

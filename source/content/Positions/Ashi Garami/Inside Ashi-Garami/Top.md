@@ -21,37 +21,37 @@ description: "Foundational leg entanglement for ankle locks and heel hooks. Entr
     {
       "@type": "HowToStep",
       "name": "Execute Straight Ankle Lock",
-      "text": "From this position, execute Straight Ankle Lock to transition to Straight Ankle Lock Control. Success rate for advanced practitioners: 80%.",
+      "text": "From this position, attempt Straight Ankle Lock. This technique is attempted in 13% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Inside Heel Hook",
-      "text": "From this position, execute Inside Heel Hook to transition to Saddle. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Inside Heel Hook. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Toe Hold",
-      "text": "From this position, execute Toe Hold to transition to Toe Hold Control. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Toe Hold. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kneebar Finish",
-      "text": "From this position, execute Kneebar Finish to transition to Kneebar Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Kneebar Finish. This technique is attempted in 11% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Honey Hole",
-      "text": "From this position, execute Transition to Honey Hole to transition to Honey Hole. Success rate for advanced practitioners: 65%.",
+      "name": "Execute Inside Ashi-Garami to Honey Hole",
+      "text": "From this position, attempt Inside Ashi-Garami to Honey Hole. This technique is attempted in 11% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Outside Ashi",
-      "text": "From this position, execute Transition to Outside Ashi to transition to Outside Ashi-Garami. Success rate for advanced practitioners: 75%.",
+      "name": "Execute 50-50 Guard to Outside Ashi",
+      "text": "From this position, attempt 50-50 Guard to Outside Ashi. This technique is attempted in 13% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -213,102 +213,24 @@ The position excels in no-gi grappling where leg attacks are permitted, offering
 
 ## Available Attacks
 
-### [[Straight Ankle Lock]] → [[Straight Ankle Lock Control]]
+### [[Straight Ankle Lock]] (13% of attempts)
 
-**Success Rates:**
-- Beginner: 50%
-- Intermediate: 65%
-- Advanced: 80%
+### [[Inside Heel Hook]] (12% of attempts)
 
-### [[Inside Heel Hook]] → [[Saddle]]
+### [[Toe Hold]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 70%
+### [[Kneebar Finish]] (11% of attempts)
 
-### [[Toe Hold]] → [[Toe Hold Control]]
+### [[Inside Ashi-Garami to Honey Hole]] (11% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
+### [[50-50 Guard to Outside Ashi]] (13% of attempts)
 
-### [[Kneebar Finish]] → [[Kneebar Control]]
+### [[Back Take from Ashi]] (8% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Sweep to Top Position]] (10% of attempts)
 
-### [[Transition to Honey Hole]] → [[Honey Hole]]
+### [[Inside Ashi-Garami to Cross Ashi]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 45%
-- Advanced: 65%
-
-### [[Transition to Outside Ashi]] → [[Outside Ashi-Garami]]
-
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 60%
-- Advanced: 75%
-
-### [[Back Take from Ashi]] → [[Back Control]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
-
-### [[Sweep to Top Position]] → [[Standing Position]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[Transition to Cross Ashi]] → [[Cross Ashi-Garami]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 60%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Ashi Garami Escape]]** → [[Open Guard]] (Opponent Success: 45%)
-- **[[Hip Escape to Clear Legs]]** → [[Seated Guard]] (Opponent Success: 35%)
-- **[[Leg Extraction]]** → [[Standing Position]] (Opponent Success: 30%)
-- **[[Counter to 50-50]]** → [[50-50 Guard]] (Opponent Success: 40%)
-- **[[Roll Through Escape]]** → [[Defensive Position]] (Opponent Success: 25%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Re-grip and Advance to Saddle]]** → [[Saddle]]
-  - Opponent attempts to clear inside leg from hip by pushing or bridging
-- **[[Switch to Outside Ashi]]** → [[Outside Ashi-Garami]]
-  - Opponent rotates hips away from inside position and creates space
-- **[[Immediate Straight Ankle Lock]]** → [[Straight Ankle Lock Control]]
-  - Opponent extends leg forcefully to push off and create distance
-- **[[Transition to Honey Hole]]** → [[Honey Hole]]
-  - Opponent turns knee inward to defend ankle lock and exposes heel
-- **[[Back Take Transition]]** → [[Back Control]]
-  - Opponent sits up aggressively and reaches for your legs or upper body
-- **[[Advance to Cross Ashi]]** → [[Cross Ashi-Garami]]
-  - Opponent straightens trapped leg completely and locks out knee
 
 
 </section>
@@ -324,7 +246,7 @@ The position excels in no-gi grappling where leg attacks are permitted, offering
 
 **If opponent turns knee inward to defend ankle lock and creates heel hook opportunity:**
 - Execute **[[Inside Heel Hook]]** → [[Saddle]] (Probability: 70%)
-- Execute **[[Transition to Honey Hole]]** → [[Honey Hole]] (Probability: 60%)
+- Execute **[[Inside Ashi-Garami to Honey Hole]]** → [[Honey Hole]] (Probability: 60%)
 
 
 **If opponent rotates hips away and attempts to clear inside leg from hip:**
@@ -420,33 +342,39 @@ Practice transitioning from inside ashi to more advanced positions (honey hole, 
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Shortest Path to Finish
+## Test Your Knowledge
 
-`Inside Ashi-Garami → Straight Ankle Lock → Won by Submission`
+**Q1**: Your opponent starts bridging explosively to clear your inside leg from their hip - what adjustment do you make?
+**A**: Drop your weight into the inside leg, driving your shin deeper across their hip while simultaneously pulling their trapped leg tighter into your body. Use the bridging momentum against them by switching your angle toward their head slightly, which loads more weight onto the inside leg and makes it harder to clear. If they continue bridging, this often exposes their heel for immediate attack opportunities.
 
-### High-Percentage Advanced Path
+**Q2**: What are the essential grips and leg positions for maintaining Inside Ashi-Garami from top?
+**A**: The inside leg must be positioned across opponent's near hip with your foot planted on their far side. The outside leg hooks behind their knee with your instep engaged against the back of their knee joint. Hands should secure their heel with a C-grip (fingers on heel, thumb on Achilles) or prepare for figure-four grip. Your chest stays connected to their trapped leg while maintaining perpendicular body alignment at approximately 90 degrees to their body.
 
-`Inside Ashi-Garami → Honey Hole → Inside Heel Hook → Won by Submission`
+**Q3**: How do you shut down the primary escape where opponent tries to extract their heel by pulling their leg back?
+**A**: Immediately clamp your legs tighter together and pull their heel toward your chest with increased grip pressure. Simultaneously drive your inside leg deeper across their hip to prevent them from creating space. If they continue pulling, follow their leg by scooting your hips forward to maintain connection. This defensive reaction often sets up a transition to Outside Ashi-Garami or Saddle as you follow their movement.
 
-### Systematic Control Path
+**Q4**: What grip should you prioritize first when establishing Inside Ashi-Garami from top?
+**A**: Prioritize controlling opponent's heel before anything else. Secure the C-grip with four fingers wrapped around the heel and thumb positioned on the Achilles tendon. This grip prevents them from rotating their knee away and establishes the foundation for all attacks. Secondary priority is ensuring your inside leg is across their hip - without heel control, all other positioning becomes meaningless as they can simply extract their leg.
 
-`Inside Ashi-Garami → Saddle → Inside Heel Hook → Won by Submission`
+**Q5**: How do you apply pressure in Inside Ashi-Garami without burning excessive energy?
+**A**: Use structural pressure rather than muscular tension. Elevate your hips off the mat and let gravity create downward pressure on their trapped leg. Keep your legs clamped but rely on body positioning rather than constant squeezing. Maintain chest-to-leg connection to transfer your body weight into control. The perpendicular body angle naturally creates leverage without requiring continuous muscular effort - this allows you to sustain the position for extended periods while threatening submissions.
 
-### Alternative Kneebar Path
+**Q6**: Your opponent rotates their knee inward toward you to defend the ankle lock - how do you respond?
+**A**: This is actually an opportunity rather than a problem. When they rotate their knee inward, their heel becomes exposed for inside heel hook attacks. Immediately transition your grip from C-grip to figure-four configuration around their heel, with your wrist behind their Achilles. Use this moment to advance to Honey Hole or Saddle by threading your outside leg deeper into the entanglement. Their defensive reaction has opened a more dominant position - don't chase the ankle lock, flow to the better position.
 
-`Inside Ashi-Garami → Kneebar Control → Kneebar Finish → Won by Submission`
+**Q7**: How do you manage energy when an opponent is actively fighting to escape for an extended period?
+**A**: Relax between their escape attempts rather than maintaining maximum tension constantly. Use positional structure - perpendicular alignment, hip elevation, inside leg across hip - to hold position efficiently. When they rest, you rest. When they explode, match their intensity briefly then return to structural control. If they're burning significant energy on escapes, let them tire themselves while you maintain efficient positioning. Consider whether threatening a submission forces them to burn even more energy defending.
 
-### Outside Transition Path
-
-`Inside Ashi-Garami → Outside Ashi-Garami → Outside Heel Hook → Won by Submission`
+**Q8**: Your opponent partially extracts their leg and creates space - how do you recover control?
+**A**: Immediately reconnect your chest to their leg and re-clamp your legs around their trapped limb. Drive your inside leg back across their hip while pulling their heel back toward your torso. If they've created significant space, consider transitioning rather than forcing the original position - Outside Ashi-Garami or Saddle may now be more accessible than re-establishing pure Inside Ashi. Follow their leg movement rather than fighting against it, converting their escape attempt into a position advancement for you.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -475,7 +403,7 @@ Practice transitioning from inside ashi to more advanced positions (honey hole, 
 - **[[Kneebar Control]]** - Alternative leg attack position accessible from inside ashi
 - **[[Single Leg X-Guard]]** - Similar position with different strategic purpose
 - **[[Leg Entanglement]]** - Conceptual framework governing all ashi garami positions
-- **[[Ashi Garami Escape]]** - Primary defensive response opponent will attempt
+- **[[Ashi Garami]]** - Parent position family for all ashi variations
 
 
 </section>

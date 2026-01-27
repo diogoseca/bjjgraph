@@ -55,6 +55,231 @@
       "relationship": "Alternative arm control position from similar entries"
     }
   ],
+  "top": {
+    "overview": "Twister Control Top represents one of the most unique and effective control positions in modern no-gi Brazilian Jiu-Jitsu, combining elements of back control with spinal manipulation to create an extremely uncomfortable and submission-rich position. This position has proven effective at the highest levels of competition when properly understood and applied. The fundamental concept revolves around controlling the opponent through rotational constraint of their spine, which simultaneously compromises their defensive capabilities while opening multiple offensive opportunities.\n\nThe position is characterized by the top player controlling one of the opponent's legs while simultaneously controlling their upper body in a way that creates and maintains spinal rotation. Unlike traditional back control where the focus is primarily on attacking the neck and arms, Twister Control emphasizes the creation of torque through the opponent's entire spinal column. This torque creates systemic mechanical failure where the opponent cannot effectively utilize their normal defensive structures.\n\nFrom a strategic standpoint, Twister Control offers several significant advantages over traditional back control positions. First, it is extremely difficult for the opponent to generate the explosive hip movements that typically enable escapes from back control. Second, the rotational constraint creates breathing difficulties for the opponent, accelerating their fatigue. Third, the position offers multiple submission pathways including the Twister itself, various guillotine variations, arm attacks, and transitions to more traditional back control. While the Twister finish itself may be lower percentage at elite levels, the control position creates reliable opportunities for other submissions and positional advancements.\n\nThe effectiveness of Twister Control scales significantly with technical understanding and practice. Beginners often struggle to coordinate the leg control with the upper body control, allowing opponents to simply turn into them and escape. Intermediate practitioners develop better mechanical understanding but may focus too heavily on the Twister submission itself, missing opportunities for higher-percentage attacks. Advanced practitioners understand Twister Control as a position from which multiple attacks flow naturally, with constant adjustments to maintain control while hunting for finishing opportunities.\n\nThe biomechanics of Twister Control require careful study. The leg control must prevent the opponent from turning into you, which means understanding angles and weight distribution. The upper body control must create and maintain rotation without allowing the opponent to simply roll through and escape. These two control systems must work in coordination - if the leg control is strong but the upper body control is weak, the opponent can hand-fight and eventually escape. If the upper body is controlled but the leg is free, the opponent can simply turn into you and escape the position entirely.\n\nOne critical aspect that differentiates elite-level Twister Control from intermediate level is the understanding of when to finish the Twister and when to transition to alternative attacks. The Twister submission itself requires specific circumstances - primarily that the opponent is still defending and creating resistance. If the opponent becomes defensive and stops moving, transitioning to a guillotine or arm attack may be more effective. This decision-making process requires experience and the ability to read the opponent's defensive reactions in real-time.",
+    "state_properties": {
+      "point_value": 4,
+      "position_type": "Offensive/Controlling",
+      "risk_level": "Medium",
+      "energy_cost": "Medium",
+      "time_sustainability": "Medium"
+    },
+    "state_invariants": [
+      "You maintain control of at least one of the opponent's legs, preventing them from turning into you and escaping the rotational constraint",
+      "The opponent's spine is twisted with their shoulders and hips facing different directions, creating rotational torque through their spinal column",
+      "Your upper body controls the opponent through a position resembling the truck or modified back control"
+    ],
+    "prerequisites": [
+      "You have established truck position or similar back exposure control on opponent",
+      "You have captured at least one of opponent's legs with your leg control",
+      "Opponent's spine is twisted with shoulders and hips misaligned"
+    ],
+    "key_principles": [
+      "Leg control is the foundation - maintain this at all costs to prevent escapes",
+      "Coordinate upper body and lower body control to maximize spinal rotation",
+      "Stay heavy and maintain pressure to prevent opponent from creating space",
+      "Hunt multiple submissions - don't fixate only on the Twister finish",
+      "Adjust constantly as opponent attempts to reduce rotation or escape",
+      "Transition to alternative controls if Twister Control begins to break down",
+      "Use the discomfort of the position to accelerate opponent fatigue and create submission opportunities"
+    ],
+    "transitions": [
+      {
+        "transition": "Twister Finish",
+        "attempt_probability": 25
+      },
+      {
+        "transition": "Guillotine from Twister",
+        "attempt_probability": 15
+      },
+      {
+        "transition": "Calf Slicer from Truck",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Transition to Back Control",
+        "attempt_probability": 25
+      },
+      {
+        "transition": "Neck Crank",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Banana Split",
+        "attempt_probability": 15
+      }
+    ],
+    "decision_tree": [
+      {
+        "condition": "Opponent is stationary and defending with minimal movement",
+        "actions": [
+          {
+            "technique": "Hunt Twister Finish",
+            "target": "game-over",
+            "probability": 45
+          },
+          {
+            "technique": "Transition to Guillotine",
+            "target": "game-over",
+            "probability": 55
+          }
+        ]
+      },
+      {
+        "condition": "Opponent is actively hand fighting and creating frames",
+        "actions": [
+          {
+            "technique": "Attack Extended Arm",
+            "target": "game-over",
+            "probability": 50
+          },
+          {
+            "technique": "Increase Rotation Pressure",
+            "target": "Break opponent's defensive structure",
+            "probability": 60
+          }
+        ]
+      },
+      {
+        "condition": "Opponent is working to free trapped leg",
+        "actions": [
+          {
+            "technique": "Recapture Leg Immediately",
+            "target": "Twister Control",
+            "probability": 70
+          },
+          {
+            "technique": "Aoki Lock to Back Control",
+            "target": "Back Control",
+            "probability": 65
+          }
+        ]
+      },
+      {
+        "condition": "Opponent turns into you sacrificing back to escape twist",
+        "actions": [
+          {
+            "technique": "Guillotine Choke",
+            "target": "game-over",
+            "probability": 70
+          },
+          {
+            "technique": "Front Headlock Series",
+            "target": "Front Headlock",
+            "probability": 65
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Fixating exclusively on Twister finish and missing higher percentage submissions",
+        "consequence": "Opponent escapes while you hunt for specific submission",
+        "correction": "Maintain awareness of multiple submission options and take what opponent gives you"
+      },
+      {
+        "error": "Allowing leg control to weaken while focusing on upper body attacks",
+        "consequence": "Opponent extracts leg and turns into you, escaping entire position",
+        "correction": "Prioritize leg control as foundation - all attacks flow from this base control"
+      },
+      {
+        "error": "Applying excessive force to complete Twister without proper control established",
+        "consequence": "Risk of injuring opponent or losing position through poor control",
+        "correction": "Build control systematically before attempting finish - control precedes submission"
+      },
+      {
+        "error": "Remaining static and not adjusting as opponent works their escape sequence",
+        "consequence": "Opponent systematically dismantles your position",
+        "correction": "Constantly adjust pressure and control points as opponent moves and creates frames"
+      },
+      {
+        "error": "Rising too high off opponent losing chest pressure and weight",
+        "consequence": "Opponent creates space to turn, breathe, and begin escape sequence",
+        "correction": "Maintain heavy chest pressure and weight distribution throughout position"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Twister Control Maintenance",
+        "description": "Establish Twister Control and maintain position while partner attempts systematic escapes. Focus on adjustment and pressure rather than submission. Partner provides progressive resistance.",
+        "duration": "5 minutes"
+      },
+      {
+        "name": "Submission Chain Flow",
+        "description": "From established Twister Control, flow between Twister attempt, guillotine, arm attacks, and back takes. Partner defends but does not escape. Build understanding of multiple attack pathways.",
+        "duration": "4 minutes"
+      },
+      {
+        "name": "Leg Control Isolation",
+        "description": "Isolate leg control aspect of Twister Control. Practice maintaining leg control while partner attempts various methods to free their trapped leg. Upper body attacks are not allowed - focus purely on leg control.",
+        "duration": "3 minutes"
+      }
+    ],
+    "optimal_submission_paths": [
+      {
+        "name": "Classic Twister Path",
+        "path": "Twister Control → Increase Rotation → Twister Finish → game-over"
+      },
+      {
+        "name": "Guillotine Transition Path",
+        "path": "Twister Control → Opponent Turns In → Guillotine Control → Guillotine Choke → game-over"
+      },
+      {
+        "name": "Back Take Path",
+        "path": "Twister Control → Release Twist → Back Control → Rear Naked Choke → game-over"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Truck",
+        "relationship": "Primary entry position leading to Twister Control"
+      },
+      {
+        "name": "Back Control",
+        "relationship": "Alternative control position to transition to when Twister Control breaks down"
+      },
+      {
+        "name": "Crab Ride",
+        "relationship": "Related back exposure position with similar control concepts"
+      },
+      {
+        "name": "Lockdown",
+        "relationship": "Bottom position in 10th Planet system that leads to truck and Twister entries"
+      },
+      {
+        "name": "Turtle",
+        "relationship": "Common starting position for entries into Twister system"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "beginner": 45,
+        "intermediate": 60,
+        "advanced": 75,
+        "description": "Ability to maintain position against escape attempts"
+      },
+      "advancement_probability": {
+        "beginner": 50,
+        "intermediate": 65,
+        "advanced": 78,
+        "description": "Probability of finishing submission or advancing to better control"
+      },
+      "submission_probability": {
+        "beginner": 30,
+        "intermediate": 45,
+        "advanced": 60,
+        "description": "Probability of finishing from this position"
+      },
+      "average_time": "20-45 seconds to submission or position change"
+    },
+    "name": "Twister Control Top",
+    "description": "Master offensive strategies from Twister Control Top. Complete guide covering spinal rotation mechanics, submission chains, and advanced transition techniques.",
+    "tags": [
+      "offensive position",
+      "back control variation",
+      "10th planet system"
+    ]
+  },
   "bottom": {
     "overview": "Being caught in Twister Control Bottom represents one of the most uncomfortable and dangerous positions in Brazilian Jiu-Jitsu. The combination of spinal rotation, leg immobilization, and upper body control creates a biomechanical nightmare where standard escape mechanisms are severely compromised. Understanding how to survive and escape this position is critical for any no-gi practitioner, as the consequences of poor defensive choices can range from submission to potential injury.\n\nThe fundamental problem when stuck in Twister Control Bottom is the rotational constraint applied to your spine. Your upper body is being pulled in one direction while your lower body is controlled and twisted in another, creating torque through your entire spinal column. This rotation compromises your core strength, restricts your breathing, and prevents the generation of explosive movements that typically enable escapes from difficult positions. This position was designed specifically to neutralize the defensive advantages that flexible and athletic opponents typically possess.\n\nFrom a defensive perspective, the primary goal is preventing the completion of the Twister finish itself while simultaneously working to reduce the spinal rotation and regain alignment. This requires a systematic approach that addresses both the leg control and the upper body control. Simply attempting to power out or scramble aggressively often results in increased rotation and accelerated submission. Escape from Twister Control requires calculated, precise movements rather than explosive panic reactions.\n\nThe position becomes progressively more dangerous as the top player establishes their controls more deeply. Initially, when first entering Twister Control, there may be opportunities to prevent the leg from being fully captured or to resist the initial rotation. Once the position is fully established with deep leg control and significant spinal rotation, escape options become severely limited. At this stage, protecting the neck becomes the primary concern, as various guillotine and neck crank options become available to the top player.\n\nOne critical aspect is understanding the mechanics of how the position creates submission opportunities. The Twister itself works through a combination of spinal rotation and posterior neck pressure. If the twisting force is too great, cervical spine injuries can occur. This makes tap timing critical - unlike some submissions where you can fight until the last moment, the Twister requires early recognition and submission to prevent injury. The bottom player must develop the awareness to recognize when escape is no longer possible and submission is necessary for safety.\n\nThe energy dynamics of being stuck in Twister Control Bottom are particularly challenging. The twisted position restricts breathing, making it difficult to maintain composure and work systematically through escape sequences. The longer you remain in the position, the more your defensive options deteriorate as fatigue sets in and the top player adjusts their controls. This creates urgency to escape quickly while simultaneously requiring the composure to not panic and make the position worse through poorly executed escape attempts.",
     "state_properties": {
@@ -83,99 +308,30 @@
       "Small technical adjustments are more effective than explosive power in this position",
       "Create frames with your arms to prevent opponent from deepening their controls"
     ],
-    "offensive_transitions": [
+    "transitions": [
       {
-        "technique": "Address Leg Control",
-        "target_position": "Turtle",
-        "success_rates": {
-          "beginner": 20,
-          "intermediate": 35,
-          "advanced": 50
-        }
+        "transition": "Leg Extraction to Half Guard",
+        "attempt_probability": 25
       },
       {
-        "technique": "Roll Through Escape",
-        "target_position": "Half Guard",
-        "success_rates": {
-          "beginner": 15,
-          "intermediate": 30,
-          "advanced": 45
-        }
+        "transition": "Roll Through Escape",
+        "attempt_probability": 15
       },
       {
-        "technique": "Frame and Turn",
-        "target_position": "Turtle",
-        "success_rates": {
-          "beginner": 18,
-          "intermediate": 32,
-          "advanced": 48
-        }
+        "transition": "Frame and Turn to Turtle",
+        "attempt_probability": 25
       },
       {
-        "technique": "Leg Extraction",
-        "target_position": "Back Control",
-        "success_rates": {
-          "beginner": 12,
-          "intermediate": 25,
-          "advanced": 40
-        }
+        "transition": "Counter Roll to Scramble",
+        "attempt_probability": 10
       },
       {
-        "technique": "Scramble to Guard",
-        "target_position": "Closed Guard",
-        "success_rates": {
-          "beginner": 10,
-          "intermediate": 22,
-          "advanced": 35
-        }
+        "transition": "Hip Escape to Guard Recovery",
+        "attempt_probability": 10
       },
       {
-        "technique": "Defensive Roll",
-        "target_position": "Defensive Position",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 38,
-          "advanced": 52
-        }
-      }
-    ],
-    "defensive_responses": [
-      {
-        "technique": "Twister Finish",
-        "target_position": "Lost by Submission",
-        "success_rate": 70
-      },
-      {
-        "technique": "Neck Crank",
-        "target_position": "Lost by Submission",
-        "success_rate": 55
-      },
-      {
-        "technique": "Guillotine Choke",
-        "target_position": "Lost by Submission",
-        "success_rate": 50
-      },
-      {
-        "technique": "Calf Slicer from Truck",
-        "target_position": "Lost by Submission",
-        "success_rate": 45
-      }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Counter Roll",
-        "target_position": "Scramble Position",
-        "trigger": "Opponent overcommits to Twister submission allowing momentum reversal"
-      },
-      {
-        "technique": "Leg Hook Counter",
-        "target_position": "Half Guard",
-        "trigger": "Opponent's leg control loosens during adjustment"
-      },
-      {
-        "technique": "Explosive Turn",
-        "target_position": "Turtle",
-        "trigger": "Upper body control breaks momentarily during transition"
+        "transition": "Explosive Turn to Side Control Bottom",
+        "attempt_probability": 15
       }
     ],
     "decision_tree": [
@@ -291,16 +447,16 @@
     ],
     "optimal_submission_paths": [
       {
-        "name": "Escape to Defensive Recovery",
-        "path": "Twister Control Bottom → Protect neck → Address leg control → Turtle → Guard Recovery"
+        "name": "Leg Extraction Recovery",
+        "path": "Twister Control Bottom → Leg Extraction → Half Guard Bottom → Guard Recovery"
       },
       {
-        "name": "Roll Through Escape",
-        "path": "Twister Control Bottom → Roll with twist → Half Guard → Guard consolidation"
+        "name": "Roll Through to Turtle",
+        "path": "Twister Control Bottom → Counter Roll → Turtle → Guard Recovery"
       },
       {
-        "name": "Frame and Turn Escape",
-        "path": "Twister Control Bottom → Create frames → Reduce rotation → Turn to face → Turtle or Guard"
+        "name": "Frame Escape Sequence",
+        "path": "Twister Control Bottom → Frame Creation → Turn Into Opponent → Side Control Bottom → Guard Recovery"
       }
     ],
     "related_content": [
@@ -351,304 +507,6 @@
     "tags": [
       "defensive position",
       "back exposure defense",
-      "10th planet system"
-    ]
-  },
-  "top": {
-    "overview": "Twister Control Top represents one of the most unique and effective control positions in modern no-gi Brazilian Jiu-Jitsu, combining elements of back control with spinal manipulation to create an extremely uncomfortable and submission-rich position. This position has proven effective at the highest levels of competition when properly understood and applied. The fundamental concept revolves around controlling the opponent through rotational constraint of their spine, which simultaneously compromises their defensive capabilities while opening multiple offensive opportunities.\n\nThe position is characterized by the top player controlling one of the opponent's legs while simultaneously controlling their upper body in a way that creates and maintains spinal rotation. Unlike traditional back control where the focus is primarily on attacking the neck and arms, Twister Control emphasizes the creation of torque through the opponent's entire spinal column. This torque creates systemic mechanical failure where the opponent cannot effectively utilize their normal defensive structures.\n\nFrom a strategic standpoint, Twister Control offers several significant advantages over traditional back control positions. First, it is extremely difficult for the opponent to generate the explosive hip movements that typically enable escapes from back control. Second, the rotational constraint creates breathing difficulties for the opponent, accelerating their fatigue. Third, the position offers multiple submission pathways including the Twister itself, various guillotine variations, arm attacks, and transitions to more traditional back control. While the Twister finish itself may be lower percentage at elite levels, the control position creates reliable opportunities for other submissions and positional advancements.\n\nThe effectiveness of Twister Control scales significantly with technical understanding and practice. Beginners often struggle to coordinate the leg control with the upper body control, allowing opponents to simply turn into them and escape. Intermediate practitioners develop better mechanical understanding but may focus too heavily on the Twister submission itself, missing opportunities for higher-percentage attacks. Advanced practitioners understand Twister Control as a position from which multiple attacks flow naturally, with constant adjustments to maintain control while hunting for finishing opportunities.\n\nThe biomechanics of Twister Control require careful study. The leg control must prevent the opponent from turning into you, which means understanding angles and weight distribution. The upper body control must create and maintain rotation without allowing the opponent to simply roll through and escape. These two control systems must work in coordination - if the leg control is strong but the upper body control is weak, the opponent can hand-fight and eventually escape. If the upper body is controlled but the leg is free, the opponent can simply turn into you and escape the position entirely.\n\nOne critical aspect that differentiates elite-level Twister Control from intermediate level is the understanding of when to finish the Twister and when to transition to alternative attacks. The Twister submission itself requires specific circumstances - primarily that the opponent is still defending and creating resistance. If the opponent becomes defensive and stops moving, transitioning to a guillotine or arm attack may be more effective. This decision-making process requires experience and the ability to read the opponent's defensive reactions in real-time.",
-    "state_properties": {
-      "point_value": 4,
-      "position_type": "Offensive/Controlling",
-      "risk_level": "Medium",
-      "energy_cost": "Medium",
-      "time_sustainability": "Medium"
-    },
-    "state_invariants": [
-      "You maintain control of at least one of the opponent's legs, preventing them from turning into you and escaping the rotational constraint",
-      "The opponent's spine is twisted with their shoulders and hips facing different directions, creating rotational torque through their spinal column",
-      "Your upper body controls the opponent through a position resembling the truck or modified back control"
-    ],
-    "prerequisites": [
-      "You have established truck position or similar back exposure control on opponent",
-      "You have captured at least one of opponent's legs with your leg control",
-      "Opponent's spine is twisted with shoulders and hips misaligned"
-    ],
-    "key_principles": [
-      "Leg control is the foundation - maintain this at all costs to prevent escapes",
-      "Coordinate upper body and lower body control to maximize spinal rotation",
-      "Stay heavy and maintain pressure to prevent opponent from creating space",
-      "Hunt multiple submissions - don't fixate only on the Twister finish",
-      "Adjust constantly as opponent attempts to reduce rotation or escape",
-      "Transition to alternative controls if Twister Control begins to break down",
-      "Use the discomfort of the position to accelerate opponent fatigue and create submission opportunities"
-    ],
-    "offensive_transitions": [
-      {
-        "technique": "Twister Finish",
-        "target_position": "Won by Submission",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 35,
-          "advanced": 45
-        }
-      },
-      {
-        "technique": "Guillotine Choke",
-        "target_position": "Won by Submission",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 45,
-          "advanced": 60
-        }
-      },
-      {
-        "technique": "Calf Slicer from Truck",
-        "target_position": "Won by Submission",
-        "success_rates": {
-          "beginner": 20,
-          "intermediate": 35,
-          "advanced": 50
-        }
-      },
-      {
-        "technique": "Back Take Generic",
-        "target_position": "Back Control",
-        "success_rates": {
-          "beginner": 40,
-          "intermediate": 55,
-          "advanced": 70
-        }
-      },
-      {
-        "technique": "Neck Crank",
-        "target_position": "Won by Submission",
-        "success_rates": {
-          "beginner": 22,
-          "intermediate": 38,
-          "advanced": 52
-        }
-      },
-      {
-        "technique": "Arm Triangle",
-        "target_position": "Won by Submission",
-        "success_rates": {
-          "beginner": 18,
-          "intermediate": 32,
-          "advanced": 48
-        }
-      }
-    ],
-    "defensive_responses": [
-      {
-        "technique": "Leg Extraction Defense",
-        "target_position": "Turtle",
-        "success_rate": 35
-      },
-      {
-        "technique": "Roll Through Escape",
-        "target_position": "Half Guard",
-        "success_rate": 28
-      },
-      {
-        "technique": "Frame and Turn Escape",
-        "target_position": "Turtle",
-        "success_rate": 32
-      },
-      {
-        "technique": "Hand Fighting",
-        "target_position": "Twister Control",
-        "success_rate": 40
-      }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Recapture Escaping Leg",
-        "target_position": "Twister Control",
-        "trigger": "Opponent begins to extract trapped leg from your control"
-      },
-      {
-        "technique": "Transition to Traditional Back Control",
-        "target_position": "Back Control",
-        "trigger": "Twister Control begins to break down but back exposure remains"
-      },
-      {
-        "technique": "Switch to Guillotine",
-        "target_position": "Won by Submission",
-        "trigger": "Opponent turns into you to escape Twister creating neck exposure"
-      }
-    ],
-    "decision_tree": [
-      {
-        "condition": "Opponent is stationary and defending with minimal movement",
-        "actions": [
-          {
-            "technique": "Hunt Twister Finish",
-            "target": "Won by Submission",
-            "probability": 45
-          },
-          {
-            "technique": "Transition to Guillotine",
-            "target": "Won by Submission",
-            "probability": 55
-          }
-        ]
-      },
-      {
-        "condition": "Opponent is actively hand fighting and creating frames",
-        "actions": [
-          {
-            "technique": "Attack Extended Arm",
-            "target": "Won by Submission",
-            "probability": 50
-          },
-          {
-            "technique": "Increase Rotation Pressure",
-            "target": "Break opponent's defensive structure",
-            "probability": 60
-          }
-        ]
-      },
-      {
-        "condition": "Opponent is working to free trapped leg",
-        "actions": [
-          {
-            "technique": "Recapture Leg Immediately",
-            "target": "Twister Control",
-            "probability": 70
-          },
-          {
-            "technique": "Transition to Back Control",
-            "target": "Back Control",
-            "probability": 65
-          }
-        ]
-      },
-      {
-        "condition": "Opponent turns into you sacrificing back to escape twist",
-        "actions": [
-          {
-            "technique": "Guillotine Choke",
-            "target": "Won by Submission",
-            "probability": 70
-          },
-          {
-            "technique": "Front Headlock Series",
-            "target": "Front Headlock",
-            "probability": 65
-          }
-        ]
-      }
-    ],
-    "common_errors": [
-      {
-        "error": "Fixating exclusively on Twister finish and missing higher percentage submissions",
-        "consequence": "Opponent escapes while you hunt for specific submission",
-        "correction": "Maintain awareness of multiple submission options and take what opponent gives you"
-      },
-      {
-        "error": "Allowing leg control to weaken while focusing on upper body attacks",
-        "consequence": "Opponent extracts leg and turns into you, escaping entire position",
-        "correction": "Prioritize leg control as foundation - all attacks flow from this base control"
-      },
-      {
-        "error": "Applying excessive force to complete Twister without proper control established",
-        "consequence": "Risk of injuring opponent or losing position through poor control",
-        "correction": "Build control systematically before attempting finish - control precedes submission"
-      },
-      {
-        "error": "Remaining static and not adjusting as opponent works their escape sequence",
-        "consequence": "Opponent systematically dismantles your position",
-        "correction": "Constantly adjust pressure and control points as opponent moves and creates frames"
-      },
-      {
-        "error": "Rising too high off opponent losing chest pressure and weight",
-        "consequence": "Opponent creates space to turn, breathe, and begin escape sequence",
-        "correction": "Maintain heavy chest pressure and weight distribution throughout position"
-      }
-    ],
-    "training_drills": [
-      {
-        "name": "Twister Control Maintenance",
-        "description": "Establish Twister Control and maintain position while partner attempts systematic escapes. Focus on adjustment and pressure rather than submission. Partner provides progressive resistance.",
-        "duration": "5 minutes"
-      },
-      {
-        "name": "Submission Chain Flow",
-        "description": "From established Twister Control, flow between Twister attempt, guillotine, arm attacks, and back takes. Partner defends but does not escape. Build understanding of multiple attack pathways.",
-        "duration": "4 minutes"
-      },
-      {
-        "name": "Leg Control Isolation",
-        "description": "Isolate leg control aspect of Twister Control. Practice maintaining leg control while partner attempts various methods to free their trapped leg. Upper body attacks are not allowed - focus purely on leg control.",
-        "duration": "3 minutes"
-      }
-    ],
-    "optimal_submission_paths": [
-      {
-        "name": "Direct Twister Path",
-        "path": "Truck → Twister Control → Establish deep rotation → Twister Finish → Won by Submission"
-      },
-      {
-        "name": "Guillotine Transition",
-        "path": "Twister Control → Opponent turns to escape → Guillotine Choke → Won by Submission"
-      },
-      {
-        "name": "Calf Slicer Alternative",
-        "path": "Twister Control → Opponent defends neck → Calf Slicer from Truck → Won by Submission"
-      },
-      {
-        "name": "Back Control Consolidation",
-        "path": "Twister Control → Position unstable → Back Control → Rear Naked Choke → Won by Submission"
-      }
-    ],
-    "related_content": [
-      {
-        "name": "Truck",
-        "relationship": "Primary entry position leading to Twister Control"
-      },
-      {
-        "name": "Back Control",
-        "relationship": "Alternative control position to transition to when Twister Control breaks down"
-      },
-      {
-        "name": "Crab Ride",
-        "relationship": "Related back exposure position with similar control concepts"
-      },
-      {
-        "name": "Lockdown",
-        "relationship": "Bottom position in 10th Planet system that leads to truck and Twister entries"
-      },
-      {
-        "name": "Turtle",
-        "relationship": "Common starting position for entries into Twister system"
-      }
-    ],
-    "position_metrics": {
-      "retention_rate": {
-        "beginner": 45,
-        "intermediate": 60,
-        "advanced": 75,
-        "description": "Ability to maintain position against escape attempts"
-      },
-      "advancement_probability": {
-        "beginner": 50,
-        "intermediate": 65,
-        "advanced": 78,
-        "description": "Probability of finishing submission or advancing to better control"
-      },
-      "submission_probability": {
-        "beginner": 30,
-        "intermediate": 45,
-        "advanced": 60,
-        "description": "Probability of finishing from this position"
-      },
-      "average_time": "20-45 seconds to submission or position change"
-    },
-    "name": "Twister Control Top",
-    "description": "Master offensive strategies from Twister Control Top. Complete guide covering spinal rotation mechanics, submission chains, and advanced transition techniques.",
-    "tags": [
-      "offensive position",
-      "back control variation",
       "10th planet system"
     ]
   }

@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Arm Drag Sweep | BJJ Technique | BJJ Graph"
 description: "Master the Arm Drag Sweep in BJJ. Complete guide with step-by-step execution from guard positions. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%."
@@ -16,7 +17,7 @@ description: "Master the Arm Drag Sweep in BJJ. Complete guide with step-by-step
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Arm Drag Sweep in BJJ",
-  "description": "Step-by-step guide for Arm Drag Sweep from Closed Guard to Back Control.",
+  "description": "Step-by-step guide for Arm Drag Sweep from Closed Guard/Bottom. Possible outcomes: Back Control/Top (75%), Closed Guard/Bottom (15%), Closed Guard/Top (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -164,11 +165,25 @@ The technique exploits the opponent's forward pressure and arm positioning by re
 
 What makes the arm drag sweep particularly powerful in modern BJJ is its adaptability across gi and no-gi contexts, its effectiveness against both conservative and aggressive opponents, and its natural integration into submission chains. The technique serves as a gateway movement that opens multiple attacking sequences while maintaining offensive pressure throughout the transition.
 
-**Starting Position**: [[Closed Guard]]
-**Ending Position**: [[Back Control]]
+**From Position**: [[Closed Guard/Bottom]]
 **Success Rates**: Beginner 45%, Intermediate 60%, Advanced 75%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Back Control/Top]] | 75% |
+| Failure | [[Closed Guard/Bottom]] | 15% |
+| Counter | [[Closed Guard/Top]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

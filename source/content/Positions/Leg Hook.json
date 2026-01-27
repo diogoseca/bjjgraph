@@ -45,6 +45,319 @@
       "relationship": "Common passing target from leg hook top position"
     }
   ],
+  "top": {
+    "name": "Leg Hook Top",
+    "description": "Master Leg Hook Top in BJJ. Control position from half guard top with hook control. Learn passing mechanics, leg control strategies, and submission threats with 65% average pass rate.",
+    "tags": [
+      "bjj",
+      "position",
+      "half-guard",
+      "top-position",
+      "leg-hook",
+      "passing",
+      "control"
+    ],
+    "overview": "Leg Hook Top Position represents a transitional control state where the top practitioner has achieved significant advancement in passing half guard by controlling the bottom player's leg with a hooking motion. This position occurs when the top player has managed to get their leg underneath or around the bottom player's defending leg, creating a powerful mechanical advantage for completing the pass. The hook serves multiple purposes: it controls the bottom player's hip mobility, prevents them from recovering full guard, and provides a stable base for the top player to advance their position. This is a critical waypoint in the passing sequence, where the top player has moved beyond the initial stages of half guard engagement but has not yet fully cleared the legs to achieve side control or mount. The position requires precise weight distribution, hip control, and timing to prevent the bottom player from using the momentary instability to re-guard or create scrambles. Understanding this position is essential for both passers who need to recognize the window of opportunity it creates, and bottom players who must understand the defensive requirements to prevent advancement.",
+    "state_properties": {
+      "point_value": 0,
+      "position_type": "Offensive/Controlling",
+      "risk_level": "Medium",
+      "energy_cost": "Medium",
+      "time_sustainability": "Short to Medium"
+    },
+    "state_invariants": [
+      "Top player's leg is hooked underneath or around bottom player's defending leg, creating mechanical control of the hip and limiting bottom player's ability to recover guard or create distance",
+      "Top player maintains forward chest pressure on bottom player's upper body, typically with shoulder or chest pressure on the sternum or shoulder line to prevent bottom player from sitting up or creating frames",
+      "Bottom player is on their side or back with at least one leg controlled by the hook, with limited ability to establish effective frames or create the space needed for guard recovery",
+      "Top player's weight is distributed between the hooked leg, grounded knee, and upper body pressure, creating a stable tripod base that resists bottom player's attempts to off-balance or reverse",
+      "Bottom player's far leg (not hooked) may be free but lacks the positional leverage to effectively recover guard without first addressing the hook control"
+    ],
+    "prerequisites": [
+      "Top player has initiated half guard passing sequence and achieved initial control",
+      "Bottom player's leg is accessible for hooking (not deeply locked in half guard or other defensive configuration)",
+      "Top player has created sufficient angle and space to insert the hooking leg",
+      "Bottom player's upper body is controlled enough to prevent immediate re-guarding attempts",
+      "Top player has maintained base and balance throughout the transitional movement"
+    ],
+    "key_principles": [
+      "Maintain constant forward pressure with chest and shoulders to prevent bottom player from creating space or establishing defensive frames",
+      "Control bottom player's far hip with hand or forearm to prevent hip escape and limit their ability to turn into you or away to recover guard",
+      "Keep the hooking leg actively engaged with pressure and tension, using it as both a control mechanism and a steering tool for the pass completion",
+      "Distribute weight intelligently across three points of contact: hooked leg, grounded knee, and upper body, creating stable base that resists sweeps and scrambles",
+      "Stay patient and systematic in advancing the pass rather than rushing, as premature weight shifts can allow bottom player to exploit the transitional vulnerability",
+      "Monitor bottom player's far leg and prevent them from using it to create butterfly hooks, push off your hips, or establish other re-guarding mechanisms",
+      "Transition smoothly to the next phase of the pass once the hook has served its controlling purpose, typically moving to leg drag, knee slice, or direct pressure pass completion"
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What three points of contact form the stable tripod base in Leg Hook Top position?",
+        "answer": "The stable tripod base consists of the hooked leg, the grounded knee, and upper body pressure distributed through chest and shoulder contact. This three-point distribution creates maximum stability while resisting the bottom player's attempts to off-balance or reverse you. The weight should shift dynamically between these points based on opponent reactions."
+      },
+      {
+        "question": "Your opponent starts hip escaping away from your hook - what adjustment do you make?",
+        "answer": "Immediately follow their hip movement by circling your hips in the same direction while maintaining the hook tension. Use your far hand to control their hip and prevent further escape distance. Drive your chest pressure forward and slightly toward the direction they're escaping to cut off the angle. If they create significant space, transition to leg drag mechanics to re-establish control."
+      },
+      {
+        "question": "Why is controlling the far hip critical for maintaining Leg Hook Top position?",
+        "answer": "Far hip control prevents the bottom player from executing hip escapes, turning into you, or creating the angular movement needed to recover guard. Without this control, they can use their free leg to push off your hips or establish butterfly hooks. The far hip grip acts as a tether that keeps them flat and limits their defensive options to only those that don't require hip mobility."
+      },
+      {
+        "question": "What is the primary error that allows bottom players to recover guard from Leg Hook Top?",
+        "answer": "Lifting chest and shoulder pressure off the bottom player's upper body to focus entirely on leg control is the primary error. This allows them to sit up, establish frames, or create space for guard recovery. The leg hook alone provides insufficient control - it must be combined with constant upper body pressure to create a complete control system that addresses both halves of their body."
+      },
+      {
+        "question": "Your opponent inserts a butterfly hook with their free leg - how do you respond?",
+        "answer": "Immediately flatten the butterfly hook by driving your hip weight down onto their thigh while maintaining your primary leg hook. Use your free hand to push their knee to the mat or pin it against their other leg. Shift to a more smashing pressure distribution to eliminate the space they need to elevate you with the butterfly hook. If the hook is deep, consider transitioning to a smash pass variation."
+      },
+      {
+        "question": "What angle should your body maintain relative to the bottom player during Leg Hook Top?",
+        "answer": "Position your body at 45-90 degrees relative to the bottom player rather than squared up directly. This passing angle creates efficient force direction for pass completion, limits their framing effectiveness, and provides better mobility to adjust to their defensive reactions. A squared-up posture makes you vulnerable to their frames and limits your passing options."
+      },
+      {
+        "question": "How do you prevent being swept when transitioning from Leg Hook Top to knee slice pass?",
+        "answer": "Maintain the far hip control grip throughout the transition and keep your weight low with hips driving forward. Don't lift your weight to create the slice - drive through with hip pressure while keeping chest contact. The common sweep opportunity occurs when passers elevate their hips too high during the knee slice entry, so keep your center of gravity low and use lateral pressure rather than upward movement."
+      },
+      {
+        "question": "What indicates the optimal timing to advance from Leg Hook Top to pass completion?",
+        "answer": "The optimal timing is when the bottom player's defensive frames collapse or when they commit to a single escape direction. Signs include: their far leg stops actively defending, their upper body flattens to the mat, they stop fighting the crossface, or they commit to turning away. Attempting to advance while they're actively framing and mobile typically results in guard recovery or scramble opportunities."
+      }
+    ],
+    "decision_tree": [
+      {
+        "condition": "If bottom player is flat on their back with minimal defensive frames",
+        "actions": [
+          {
+            "technique": "Knee Slice Pass",
+            "target": "Side Control",
+            "probability": 70
+          },
+          {
+            "technique": "Side Control to Mount",
+            "target": "Mount",
+            "probability": 60
+          }
+        ]
+      },
+      {
+        "condition": "Else if bottom player is on their side attempting to create frames and distance",
+        "actions": [
+          {
+            "technique": "Leg Drag Pass",
+            "target": "Side Control",
+            "probability": 65
+          },
+          {
+            "technique": "Smash Pass",
+            "target": "Side Control",
+            "probability": 60
+          }
+        ]
+      },
+      {
+        "condition": "Else if bottom player extends arms to push or frame",
+        "actions": [
+          {
+            "technique": "Kimura from Half Guard",
+            "target": "Kimura Trap",
+            "probability": 50
+          },
+          {
+            "technique": "Darce Setup",
+            "target": "D'arce Control",
+            "probability": 45
+          }
+        ]
+      },
+      {
+        "condition": "Else if bottom player attempts to turn away or go to turtle",
+        "actions": [
+          {
+            "technique": "Back Take Generic",
+            "target": "Back Control",
+            "probability": 65
+          },
+          {
+            "technique": "Darce Setup",
+            "target": "D'arce Control",
+            "probability": 55
+          }
+        ]
+      },
+      {
+        "condition": "Else if bottom player is actively trying to recover full guard",
+        "actions": [
+          {
+            "technique": "Pressure Pass",
+            "target": "Side Control",
+            "probability": 60
+          },
+          {
+            "technique": "Leg Weave Pass",
+            "target": "Side Control",
+            "probability": 55
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Maintaining static hook position without advancing the pass or adjusting pressure",
+        "consequence": "Bottom player gains time to develop defensive strategies, establish frames, or begin working toward guard recovery, negating the positional advantage",
+        "correction": "Use the hook as a transitional control tool with a specific passing objective in mind, constantly working toward the next phase of the pass rather than settling into static position"
+      },
+      {
+        "error": "Lifting weight off bottom player's upper body to focus entirely on leg control",
+        "consequence": "Bottom player sits up, establishes frames, or creates the space needed to recover guard or initiate scrambles",
+        "correction": "Maintain constant chest and shoulder pressure on bottom player's upper body while using the hook for lower body control, creating a complete control system"
+      },
+      {
+        "error": "Hooking the leg without controlling the far hip or opposite side of the body",
+        "consequence": "Bottom player can hip escape away from the hook, turn into you, or use their free leg to create butterfly hooks or push off your hips",
+        "correction": "Combine the leg hook with active control of the far hip using hand, forearm, or body weight to prevent hip movement and create complete control"
+      },
+      {
+        "error": "Rushing the pass completion before establishing sufficient control and positioning",
+        "consequence": "Bottom player exploits the weight shift and instability to sweep, re-guard, or initiate scrambles that neutralize your passing advantage",
+        "correction": "Progress systematically through the passing sequence, ensuring each phase of control is established before advancing to the next, particularly securing upper body control and hip immobilization"
+      },
+      {
+        "error": "Allowing bottom player's free leg to remain active and create defensive structures",
+        "consequence": "Bottom player uses the free leg to establish butterfly hooks, push off your hips, or create frames that compromise your base and passing mechanics",
+        "correction": "Monitor and control the free leg's positioning and activity, using your free hand or body positioning to limit its defensive effectiveness while maintaining the hook"
+      },
+      {
+        "error": "Maintaining squared-up posture instead of creating proper passing angle",
+        "consequence": "Limited mobility for pass completion, vulnerable to bottom player's frames and re-guarding attempts, inefficient force application",
+        "correction": "Create proper passing angle by positioning your body at 45-90 degrees relative to bottom player, allowing efficient force direction and pass completion mechanics"
+      },
+      {
+        "error": "Failing to chain the hook into a specific passing technique or submission threat",
+        "consequence": "Position becomes a stalemate with no clear advancement opportunity, wasting the control advantage and allowing bottom player time to develop counters",
+        "correction": "Have a clear technical sequence planned before establishing the hook, using it as one step in a multi-part passing chain that leads to position advancement or submission threats"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Hook Establishment Flow Drill",
+        "description": "Partner in half guard bottom offers 75% resistance. Top player practices entering and establishing the leg hook from various half guard configurations while maintaining upper body control. Focus on smooth transitions, proper weight distribution, and maintaining base throughout the hooking motion. Work for 5-minute rounds, switching roles after each round.",
+        "duration": "5 minutes per round"
+      },
+      {
+        "name": "Hook to Pass Completion Sequences",
+        "description": "Start in established leg hook top position. Partner provides graduated resistance (50%, 75%, 90%). Top player practices transitioning from hook control to various passing completions: knee slice, leg drag, leg weave, and direct pressure passes. Emphasis on recognizing the optimal timing and entry points for each passing variation based on bottom player's defensive positioning and movement.",
+        "duration": "6 minutes per round"
+      },
+      {
+        "name": "Hook Maintenance Under Pressure",
+        "description": "Establish leg hook top position with partner providing maximum resistance to escape or re-guard. Top player focuses on maintaining all control points (hook, upper body pressure, hip control) while bottom player attempts every guard recovery technique in their arsenal. Drill emphasizes problem-solving, pressure maintenance, and defensive awareness while in transitional positions.",
+        "duration": "3 minutes per round"
+      },
+      {
+        "name": "Counter Response Drill",
+        "description": "Partner in bottom position attempts specific escapes in sequence: hip escape, re-guard, deep half entry, butterfly hook creation, turning to turtle. Top player practices appropriate counters to each escape attempt while maintaining hook control or advancing to better position. Builds pattern recognition for common defensive responses and proper counter-timing.",
+        "duration": "5 minutes per round"
+      },
+      {
+        "name": "Submission Chain from Hook Position",
+        "description": "Start in leg hook top position. Practice transitioning to submission threats (kimura, darce, anaconda, guillotine) based on bottom player's defensive reactions and arm placement. Partner provides intelligent resistance, creating realistic arm positions and defensive frames. Focus on recognizing submission opportunities that present during the passing sequence.",
+        "duration": "5 minutes per round"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Half Guard",
+        "relationship": "Parent position - primary position from which leg hook top is typically established"
+      },
+      {
+        "name": "Deep Half Guard",
+        "relationship": "Related position - common defensive counter that bottom player may attempt"
+      },
+      {
+        "name": "Knee Slice Pass",
+        "relationship": "Primary transition - most common passing technique from this position"
+      },
+      {
+        "name": "Leg Drag Pass",
+        "relationship": "Primary transition - alternative high-percentage pass from hook control"
+      },
+      {
+        "name": "Side Control",
+        "relationship": "Transition target - most common final position after successful pass"
+      },
+      {
+        "name": "Headquarters Position",
+        "relationship": "Related passing position - similar control concepts with different leg configuration"
+      },
+      {
+        "name": "Kimura from Half Guard",
+        "relationship": "Submission threat - opportunistic submission from this position"
+      },
+      {
+        "name": "Darce Choke",
+        "relationship": "Submission threat - available when bottom player makes defensive errors"
+      },
+      {
+        "name": "Smash Pass",
+        "relationship": "Related passing concept - complementary pressure passing strategy"
+      },
+      {
+        "name": "Lockdown",
+        "relationship": "Defensive system - understanding opponent's control from bottom"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "beginner": 60,
+        "intermediate": 70,
+        "advanced": 80
+      },
+      "advancement_probability": {
+        "beginner": 50,
+        "intermediate": 65,
+        "advanced": 75
+      },
+      "submission_probability": {
+        "beginner": 15,
+        "intermediate": 25,
+        "advanced": 35
+      },
+      "average_time": "15-45 seconds"
+    },
+    "transitions": [
+      {
+        "transition": "Knee Slice Pass",
+        "attempt_probability": 18
+      },
+      {
+        "transition": "Leg Drag Pass",
+        "attempt_probability": 14
+      },
+      {
+        "transition": "Leg Weave Pass",
+        "attempt_probability": 13
+      },
+      {
+        "transition": "Side Control to Mount",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Back Take Generic",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Knee on Belly",
+        "attempt_probability": 13
+      },
+      {
+        "transition": "Kimura from Half Guard",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Darce Setup",
+        "attempt_probability": 9
+      }
+    ]
+  },
   "bottom": {
     "name": "Leg Hook Bottom",
     "description": "Master Leg Hook Bottom in BJJ. Transitional half guard control with leg entanglement for sweeps, guard recovery, and back attacks. Learn dynamic retention with 55% average success rate.",
@@ -88,127 +401,38 @@
       "Protect against crossface control which would severely limit mobility and escape options",
       "Combine leg hook control with upper body frames to create off-balancing opportunities"
     ],
-    "offensive_transitions": [
+    "knowledge_assessment": [
       {
-        "technique": "Deep Half Entry",
-        "target_position": "Deep Half Guard",
-        "success_rates": {
-          "beginner": 40,
-          "intermediate": 55,
-          "advanced": 70
-        }
+        "question": "What is the essential hip position for maintaining offensive options from Leg Hook Bottom?",
+        "answer": "Stay on your side with an active hip angle rather than flat on your back. Use your bottom elbow as a posting point to prevent being flattened completely. This side position maintains hip mobility essential for transitions and sweeps. When flat on your back, you lose all mobility and offensive capability, making sweeps impossible and allowing opponent to advance position."
       },
       {
-        "technique": "Old School Sweep",
-        "target_position": "Mount",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 50,
-          "advanced": 65
-        }
+        "question": "Your opponent starts driving forward with heavy crossface pressure - what immediate adjustments do you make?",
+        "answer": "First, fight the crossface with your near-side hand, framing at their neck or shoulder to prevent head control. Simultaneously increase leg hook tension and consider transitioning to deep half guard by using their forward momentum to duck underneath. If their pressure is committed, the deep half entry becomes higher percentage because their weight is already moving in the direction you need it to go."
       },
       {
-        "technique": "Underhook Sweep from Half",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 45,
-          "advanced": 60
-        }
+        "question": "What are the three primary functions of the leg hook in this position?",
+        "answer": "The leg hook serves three critical functions: controlling opponent's base and preventing them from freely distributing weight for passing, restricting their mobility so they cannot step over or create passing angles, and providing a connection point that creates off-balancing opportunities for sweeps. The hook must remain dynamic with constant tension adjustments based on opponent movement."
       },
       {
-        "technique": "Single Leg X Entry",
-        "target_position": "Single Leg X-Guard",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 50,
-          "advanced": 65
-        }
+        "question": "How do you prevent your opponent from extracting their trapped leg?",
+        "answer": "Constantly adjust leg hook tension, angle, and depth based on opponent's escape attempts. When they try to pull the leg out, increase hook depth and angle your hips to follow their movement. Combine the leg hook with upper body frames that prevent them from creating the space needed for extraction. If they step back, immediately transition to single leg X or other elevated guard positions."
       },
       {
-        "technique": "X-Guard to Ashi Transition",
-        "target_position": "Ashi Garami",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 40,
-          "advanced": 55
-        }
+        "question": "Your opponent begins standing up while in your leg hook - how do you respond?",
+        "answer": "Transition immediately to single leg X guard or X-guard positions that are designed for standing opponents. Maintain the leg hook connection while extending your body underneath them. Use your free leg to establish additional hooks on their standing leg. The standing position actually creates better sweeping opportunities for you if you adjust your guard configuration appropriately."
       },
       {
-        "technique": "Rolling Back Take",
-        "target_position": "Back Control",
-        "success_rates": {
-          "beginner": 20,
-          "intermediate": 35,
-          "advanced": 50
-        }
+        "question": "What role does the free leg play in Leg Hook Bottom position retention?",
+        "answer": "The free leg is a crucial dynamic tool that serves multiple purposes: pushing opponent's hips to create distance and prevent smashing pressure, establishing butterfly hooks as secondary control points, preparing for deep half or X-guard transitions, and creating barriers that prevent opponent from stepping through or around your guard. A passive free leg wastes a critical defensive resource."
       },
       {
-        "technique": "Lockdown Sweeps",
-        "target_position": "Lockdown",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 45,
-          "advanced": 60
-        }
+        "question": "When should you attempt sweeps versus focusing on guard retention?",
+        "answer": "Attempt sweeps only after establishing proper frames and using the leg hook to off-balance opponent. The timing window opens when opponent commits their weight forward without proper base, attempts to extract their trapped leg creating momentum you can redirect, or when their defensive reactions to your frames create an opening. Attempting sweeps while under heavy pressure without frames results in failed attempts and wasted energy."
       },
       {
-        "technique": "Shin Shield Recovery",
-        "target_position": "Knee Shield Half Guard",
-        "success_rates": {
-          "beginner": 45,
-          "intermediate": 60,
-          "advanced": 75
-        }
-      }
-    ],
-    "defensive_responses": [
-      {
-        "technique": "Knee Slice Pass",
-        "target_position": "Side Control",
-        "success_rate": 55
-      },
-      {
-        "technique": "Underhook Pass",
-        "target_position": "Side Control",
-        "success_rate": 50
-      },
-      {
-        "technique": "Crossface Pass",
-        "target_position": "Side Control",
-        "success_rate": 60
-      },
-      {
-        "technique": "Smash Pass",
-        "target_position": "Side Control",
-        "success_rate": 65
-      },
-      {
-        "technique": "Leg Weave Pass",
-        "target_position": "Side Control",
-        "success_rate": 45
-      }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Frame and Shrimp",
-        "target_position": "Half Guard",
-        "trigger": "Opponent attempts to flatten with crossface pressure"
-      },
-      {
-        "technique": "Deep Half Entry",
-        "target_position": "Deep Half Guard",
-        "trigger": "Opponent drives weight forward attempting to free leg"
-      },
-      {
-        "technique": "Rolling to Guard",
-        "target_position": "Closed Guard",
-        "trigger": "Opponent stands to break leg hook control"
-      },
-      {
-        "technique": "Underhook Sweep from Half",
-        "target_position": "Side Control",
-        "trigger": "Opponent commits weight forward without proper base"
+        "question": "What indicates you should transition from Leg Hook to Deep Half Guard?",
+        "answer": "Transition to deep half when opponent drives heavy forward pressure, as their momentum aids your entry underneath them. Also transition when they flatten you despite your frames, as going deeper removes their shoulder pressure effectiveness. The key indicator is when staying in standard leg hook becomes defensive with diminishing offensive options - deep half restores your attacking capability from underneath their base."
       }
     ],
     "decision_tree": [
@@ -327,24 +551,6 @@
         "duration": "10 repetitions each side at each resistance level"
       }
     ],
-    "optimal_submission_paths": [
-      {
-        "name": "Leg Lock Path via Deep Half",
-        "path": "Leg Hook Bottom → Deep Half Entry → Deep Half Guard → Ashi Garami → Straight Ankle Lock"
-      },
-      {
-        "name": "Back Attack Path",
-        "path": "Leg Hook Bottom → Rolling Back Take → Back Control → Rear Naked Choke"
-      },
-      {
-        "name": "Sweep to Mount Path",
-        "path": "Leg Hook Bottom → Old School Sweep → Mount → Armbar from Mount"
-      },
-      {
-        "name": "Kimura Path from Underhook",
-        "path": "Leg Hook Bottom → Underhook Sweep from Half → Side Control → Kimura from Half Guard"
-      }
-    ],
     "related_content": [
       {
         "name": "Half Guard",
@@ -375,16 +581,16 @@
         "relationship": "Primary offensive transition option"
       },
       {
-        "name": "Underhook Defense",
-        "relationship": "Critical concept for maintaining position"
+        "name": "Underhook Sweep from Half",
+        "relationship": "Critical sweep option using underhook control"
       },
       {
-        "name": "10th Planet Half Guard Bottom System",
+        "name": "X-Guard",
         "relationship": "Systematic approach incorporating leg hook variations"
       },
       {
-        "name": "Andrew Wiltse Half Guard System",
-        "relationship": "Modern systematic approach to half guard bottom positions"
+        "name": "Butterfly Guard",
+        "relationship": "Related guard with complementary hook mechanics"
       }
     ],
     "position_metrics": {
@@ -404,401 +610,40 @@
         "advanced": 40
       },
       "average_time": "30-90 seconds before transition or pass"
-    }
-  },
-  "top": {
-    "name": "Leg Hook Top",
-    "description": "Master Leg Hook Top in BJJ. Control position from half guard top with hook control. Learn passing mechanics, leg control strategies, and submission threats with 65% average pass rate.",
-    "tags": [
-      "bjj",
-      "position",
-      "half-guard",
-      "top-position",
-      "leg-hook",
-      "passing",
-      "control"
-    ],
-    "overview": "Leg Hook Top Position represents a transitional control state where the top practitioner has achieved significant advancement in passing half guard by controlling the bottom player's leg with a hooking motion. This position occurs when the top player has managed to get their leg underneath or around the bottom player's defending leg, creating a powerful mechanical advantage for completing the pass. The hook serves multiple purposes: it controls the bottom player's hip mobility, prevents them from recovering full guard, and provides a stable base for the top player to advance their position. This is a critical waypoint in the passing sequence, where the top player has moved beyond the initial stages of half guard engagement but has not yet fully cleared the legs to achieve side control or mount. The position requires precise weight distribution, hip control, and timing to prevent the bottom player from using the momentary instability to re-guard or create scrambles. Understanding this position is essential for both passers who need to recognize the window of opportunity it creates, and bottom players who must understand the defensive requirements to prevent advancement.",
-    "state_properties": {
-      "point_value": 0,
-      "position_type": "Offensive/Controlling",
-      "risk_level": "Medium",
-      "energy_cost": "Medium",
-      "time_sustainability": "Short to Medium"
     },
-    "state_invariants": [
-      "Top player's leg is hooked underneath or around bottom player's defending leg, creating mechanical control of the hip and limiting bottom player's ability to recover guard or create distance",
-      "Top player maintains forward chest pressure on bottom player's upper body, typically with shoulder or chest pressure on the sternum or shoulder line to prevent bottom player from sitting up or creating frames",
-      "Bottom player is on their side or back with at least one leg controlled by the hook, with limited ability to establish effective frames or create the space needed for guard recovery",
-      "Top player's weight is distributed between the hooked leg, grounded knee, and upper body pressure, creating a stable tripod base that resists bottom player's attempts to off-balance or reverse",
-      "Bottom player's far leg (not hooked) may be free but lacks the positional leverage to effectively recover guard without first addressing the hook control"
-    ],
-    "prerequisites": [
-      "Top player has initiated half guard passing sequence and achieved initial control",
-      "Bottom player's leg is accessible for hooking (not deeply locked in half guard or other defensive configuration)",
-      "Top player has created sufficient angle and space to insert the hooking leg",
-      "Bottom player's upper body is controlled enough to prevent immediate re-guarding attempts",
-      "Top player has maintained base and balance throughout the transitional movement"
-    ],
-    "key_principles": [
-      "Maintain constant forward pressure with chest and shoulders to prevent bottom player from creating space or establishing defensive frames",
-      "Control bottom player's far hip with hand or forearm to prevent hip escape and limit their ability to turn into you or away to recover guard",
-      "Keep the hooking leg actively engaged with pressure and tension, using it as both a control mechanism and a steering tool for the pass completion",
-      "Distribute weight intelligently across three points of contact: hooked leg, grounded knee, and upper body, creating stable base that resists sweeps and scrambles",
-      "Stay patient and systematic in advancing the pass rather than rushing, as premature weight shifts can allow bottom player to exploit the transitional vulnerability",
-      "Monitor bottom player's far leg and prevent them from using it to create butterfly hooks, push off your hips, or establish other re-guarding mechanisms",
-      "Transition smoothly to the next phase of the pass once the hook has served its controlling purpose, typically moving to leg drag, knee slice, or direct pressure pass completion"
-    ],
-    "offensive_transitions": [
+    "transitions": [
       {
-        "technique": "Knee Slice Pass",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 45,
-          "intermediate": 60,
-          "advanced": 75
-        }
+        "transition": "Deep Half Entry",
+        "attempt_probability": 14
       },
       {
-        "technique": "Leg Drag Pass",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 40,
-          "intermediate": 55,
-          "advanced": 70
-        }
+        "transition": "Old School Sweep",
+        "attempt_probability": 13
       },
       {
-        "technique": "Leg Weave Pass",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 50,
-          "advanced": 65
-        }
+        "transition": "Underhook Sweep from Half",
+        "attempt_probability": 12
       },
       {
-        "technique": "Transition to Mount",
-        "target_position": "Mount",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 45,
-          "advanced": 60
-        }
+        "transition": "Single Leg X Entry",
+        "attempt_probability": 13
       },
       {
-        "technique": "Back Take Generic",
-        "target_position": "Back Control",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 40,
-          "advanced": 55
-        }
+        "transition": "X-Guard to Ashi Transition",
+        "attempt_probability": 11
       },
       {
-        "technique": "Knee on Belly",
-        "target_position": "Knee on Belly",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 50,
-          "advanced": 65
-        }
+        "transition": "Rolling Back Take",
+        "attempt_probability": 10
       },
       {
-        "technique": "Kimura from Half Guard",
-        "target_position": "Kimura Control",
-        "success_rates": {
-          "beginner": 20,
-          "intermediate": 35,
-          "advanced": 50
-        }
+        "transition": "Lockdown Sweeps",
+        "attempt_probability": 12
       },
       {
-        "technique": "Darce Setup",
-        "target_position": "D'arce Control",
-        "success_rates": {
-          "beginner": 15,
-          "intermediate": 30,
-          "advanced": 45
-        }
+        "transition": "Shin Shield Recovery",
+        "attempt_probability": 15
       }
-    ],
-    "defensive_responses": [
-      {
-        "technique": "Hip Escape",
-        "target_position": "Half Guard",
-        "success_rate": 45
-      },
-      {
-        "technique": "Re-Guard",
-        "target_position": "Open Guard",
-        "success_rate": 35
-      },
-      {
-        "technique": "Deep Half Entry",
-        "target_position": "Deep Half Guard",
-        "success_rate": 30
-      },
-      {
-        "technique": "Butterfly Hook Control",
-        "target_position": "Butterfly Guard",
-        "success_rate": 25
-      },
-      {
-        "technique": "Lockdown Sweeps",
-        "target_position": "Lockdown",
-        "success_rate": 20
-      }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Pressure Pass",
-        "target_position": "Side Control",
-        "trigger": "Bottom player attempts to create space or frame"
-      },
-      {
-        "technique": "Smash Pass",
-        "target_position": "Side Control",
-        "trigger": "Bottom player tries to recover full guard or establish butterfly hooks"
-      },
-      {
-        "technique": "Kimura from Half Guard",
-        "target_position": "Kimura Control",
-        "trigger": "Bottom player extends arm to frame or push"
-      },
-      {
-        "technique": "Darce from Turtle",
-        "target_position": "D'arce Control",
-        "trigger": "Bottom player turns away to turtle"
-      },
-      {
-        "technique": "Back Take Generic",
-        "target_position": "Back Control",
-        "trigger": "Bottom player fully commits to turning away"
-      }
-    ],
-    "decision_tree": [
-      {
-        "condition": "If bottom player is flat on their back with minimal defensive frames",
-        "actions": [
-          {
-            "technique": "Knee Slice Pass",
-            "target": "Side Control",
-            "probability": 70
-          },
-          {
-            "technique": "Transition to Mount",
-            "target": "Mount",
-            "probability": 60
-          }
-        ]
-      },
-      {
-        "condition": "Else if bottom player is on their side attempting to create frames and distance",
-        "actions": [
-          {
-            "technique": "Leg Drag Pass",
-            "target": "Side Control",
-            "probability": 65
-          },
-          {
-            "technique": "Smash Pass",
-            "target": "Side Control",
-            "probability": 60
-          }
-        ]
-      },
-      {
-        "condition": "Else if bottom player extends arms to push or frame",
-        "actions": [
-          {
-            "technique": "Kimura from Half Guard",
-            "target": "Kimura Control",
-            "probability": 50
-          },
-          {
-            "technique": "Darce Setup",
-            "target": "D'arce Control",
-            "probability": 45
-          }
-        ]
-      },
-      {
-        "condition": "Else if bottom player attempts to turn away or go to turtle",
-        "actions": [
-          {
-            "technique": "Back Take Generic",
-            "target": "Back Control",
-            "probability": 65
-          },
-          {
-            "technique": "Darce from Turtle",
-            "target": "D'arce Control",
-            "probability": 55
-          }
-        ]
-      },
-      {
-        "condition": "Else if bottom player is actively trying to recover full guard",
-        "actions": [
-          {
-            "technique": "Pressure Pass",
-            "target": "Side Control",
-            "probability": 60
-          },
-          {
-            "technique": "Leg Weave Pass",
-            "target": "Side Control",
-            "probability": 55
-          }
-        ]
-      }
-    ],
-    "common_errors": [
-      {
-        "error": "Maintaining static hook position without advancing the pass or adjusting pressure",
-        "consequence": "Bottom player gains time to develop defensive strategies, establish frames, or begin working toward guard recovery, negating the positional advantage",
-        "correction": "Use the hook as a transitional control tool with a specific passing objective in mind, constantly working toward the next phase of the pass rather than settling into static position"
-      },
-      {
-        "error": "Lifting weight off bottom player's upper body to focus entirely on leg control",
-        "consequence": "Bottom player sits up, establishes frames, or creates the space needed to recover guard or initiate scrambles",
-        "correction": "Maintain constant chest and shoulder pressure on bottom player's upper body while using the hook for lower body control, creating a complete control system"
-      },
-      {
-        "error": "Hooking the leg without controlling the far hip or opposite side of the body",
-        "consequence": "Bottom player can hip escape away from the hook, turn into you, or use their free leg to create butterfly hooks or push off your hips",
-        "correction": "Combine the leg hook with active control of the far hip using hand, forearm, or body weight to prevent hip movement and create complete control"
-      },
-      {
-        "error": "Rushing the pass completion before establishing sufficient control and positioning",
-        "consequence": "Bottom player exploits the weight shift and instability to sweep, re-guard, or initiate scrambles that neutralize your passing advantage",
-        "correction": "Progress systematically through the passing sequence, ensuring each phase of control is established before advancing to the next, particularly securing upper body control and hip immobilization"
-      },
-      {
-        "error": "Allowing bottom player's free leg to remain active and create defensive structures",
-        "consequence": "Bottom player uses the free leg to establish butterfly hooks, push off your hips, or create frames that compromise your base and passing mechanics",
-        "correction": "Monitor and control the free leg's positioning and activity, using your free hand or body positioning to limit its defensive effectiveness while maintaining the hook"
-      },
-      {
-        "error": "Maintaining squared-up posture instead of creating proper passing angle",
-        "consequence": "Limited mobility for pass completion, vulnerable to bottom player's frames and re-guarding attempts, inefficient force application",
-        "correction": "Create proper passing angle by positioning your body at 45-90 degrees relative to bottom player, allowing efficient force direction and pass completion mechanics"
-      },
-      {
-        "error": "Failing to chain the hook into a specific passing technique or submission threat",
-        "consequence": "Position becomes a stalemate with no clear advancement opportunity, wasting the control advantage and allowing bottom player time to develop counters",
-        "correction": "Have a clear technical sequence planned before establishing the hook, using it as one step in a multi-part passing chain that leads to position advancement or submission threats"
-      }
-    ],
-    "training_drills": [
-      {
-        "name": "Hook Establishment Flow Drill",
-        "description": "Partner in half guard bottom offers 75% resistance. Top player practices entering and establishing the leg hook from various half guard configurations while maintaining upper body control. Focus on smooth transitions, proper weight distribution, and maintaining base throughout the hooking motion. Work for 5-minute rounds, switching roles after each round.",
-        "duration": "5 minutes per round"
-      },
-      {
-        "name": "Hook to Pass Completion Sequences",
-        "description": "Start in established leg hook top position. Partner provides graduated resistance (50%, 75%, 90%). Top player practices transitioning from hook control to various passing completions: knee slice, leg drag, leg weave, and direct pressure passes. Emphasis on recognizing the optimal timing and entry points for each passing variation based on bottom player's defensive positioning and movement.",
-        "duration": "6 minutes per round"
-      },
-      {
-        "name": "Hook Maintenance Under Pressure",
-        "description": "Establish leg hook top position with partner providing maximum resistance to escape or re-guard. Top player focuses on maintaining all control points (hook, upper body pressure, hip control) while bottom player attempts every guard recovery technique in their arsenal. Drill emphasizes problem-solving, pressure maintenance, and defensive awareness while in transitional positions.",
-        "duration": "3 minutes per round"
-      },
-      {
-        "name": "Counter Response Drill",
-        "description": "Partner in bottom position attempts specific escapes in sequence: hip escape, re-guard, deep half entry, butterfly hook creation, turning to turtle. Top player practices appropriate counters to each escape attempt while maintaining hook control or advancing to better position. Builds pattern recognition for common defensive responses and proper counter-timing.",
-        "duration": "5 minutes per round"
-      },
-      {
-        "name": "Submission Chain from Hook Position",
-        "description": "Start in leg hook top position. Practice transitioning to submission threats (kimura, darce, anaconda, guillotine) based on bottom player's defensive reactions and arm placement. Partner provides intelligent resistance, creating realistic arm positions and defensive frames. Focus on recognizing submission opportunities that present during the passing sequence.",
-        "duration": "5 minutes per round"
-      }
-    ],
-    "optimal_submission_paths": [
-      {
-        "name": "Shortest path to submission",
-        "path": "Leg Hook Top → Kimura from Half Guard → Kimura Control → Kimura"
-      },
-      {
-        "name": "High-percentage darce path",
-        "path": "Leg Hook Top → Darce Setup → D'arce Control → Darce Choke"
-      },
-      {
-        "name": "Back attack path",
-        "path": "Leg Hook Top → Back Take Generic → Back Control → Rear Naked Choke"
-      },
-      {
-        "name": "Position advancement to submission",
-        "path": "Leg Hook Top → Knee Slice Pass → Side Control → Kimura from Side Control"
-      },
-      {
-        "name": "Mount finish path",
-        "path": "Leg Hook Top → Transition to Mount → Mount → Armbar from Mount"
-      }
-    ],
-    "related_content": [
-      {
-        "name": "Half Guard",
-        "relationship": "Parent position - primary position from which leg hook top is typically established"
-      },
-      {
-        "name": "Deep Half Guard",
-        "relationship": "Related position - common defensive counter that bottom player may attempt"
-      },
-      {
-        "name": "Knee Slice Pass",
-        "relationship": "Primary transition - most common passing technique from this position"
-      },
-      {
-        "name": "Leg Drag Pass",
-        "relationship": "Primary transition - alternative high-percentage pass from hook control"
-      },
-      {
-        "name": "Side Control",
-        "relationship": "Transition target - most common final position after successful pass"
-      },
-      {
-        "name": "Headquarters Position",
-        "relationship": "Related passing position - similar control concepts with different leg configuration"
-      },
-      {
-        "name": "Kimura from Half Guard",
-        "relationship": "Submission threat - opportunistic submission from this position"
-      },
-      {
-        "name": "Darce Choke",
-        "relationship": "Submission threat - available when bottom player makes defensive errors"
-      },
-      {
-        "name": "Underhook Pass",
-        "relationship": "Related passing concept - complementary passing strategy from half guard top"
-      },
-      {
-        "name": "10th Planet Half Guard Bottom System",
-        "relationship": "Defensive system - understanding opponent's systematic defense from bottom"
-      }
-    ],
-    "position_metrics": {
-      "retention_rate": {
-        "beginner": 60,
-        "intermediate": 70,
-        "advanced": 80
-      },
-      "advancement_probability": {
-        "beginner": 50,
-        "intermediate": 65,
-        "advanced": 75
-      },
-      "submission_probability": {
-        "beginner": 15,
-        "intermediate": 25,
-        "advanced": 35
-      },
-      "average_time": "15-45 seconds"
-    }
+    ]
   }
 }

@@ -21,37 +21,37 @@ description: "Defend Invisible Collar position from bottom with grip removal tac
     {
       "@type": "HowToStep",
       "name": "Execute Hand Fighting to Remove Collar Grip",
-      "text": "From this position, execute Hand Fighting to Remove Collar Grip to transition to Back Control. Success rate for advanced practitioners: 45%.",
+      "text": "From this position, attempt Hand Fighting to Remove Collar Grip. This technique is attempted in 20% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Guard Recovery",
-      "text": "From this position, execute Hip Escape to Guard Recovery to transition to Half Guard. Success rate for advanced practitioners: 40%.",
+      "text": "From this position, attempt Hip Escape to Guard Recovery. This technique is attempted in 17% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Elbow Escape to Remove Hooks",
-      "text": "From this position, execute Elbow Escape to Remove Hooks to transition to Turtle. Success rate for advanced practitioners: 42%.",
+      "text": "From this position, attempt Elbow Escape to Remove Hooks. This technique is attempted in 18% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling Escape",
-      "text": "From this position, execute Rolling Escape to transition to Open Guard. Success rate for advanced practitioners: 35%.",
+      "text": "From this position, attempt Rolling Escape. This technique is attempted in 15% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Standing Escape",
-      "text": "From this position, execute Standing Escape to transition to Standing Position. Success rate for advanced practitioners: 30%.",
+      "text": "From this position, attempt Standing Escape. This technique is attempted in 13% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Granby Roll Escape",
-      "text": "From this position, execute Granby Roll Escape to transition to Closed Guard. Success rate for advanced practitioners: 38%.",
+      "text": "From this position, attempt Granby Roll Escape. This technique is attempted in 17% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -213,74 +213,18 @@ Successful escape from invisible collar bottom involves systematic approach to n
 
 ## Available Escapes
 
-### [[Hand Fighting to Remove Collar Grip]] → [[Back Control]]
+### [[Hand Fighting to Remove Collar Grip]] (20% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 35%
-- Advanced: 45%
+### [[Hip Escape to Guard Recovery]] (17% of attempts)
 
-### [[Hip Escape to Guard Recovery]] → [[Half Guard]]
+### [[Elbow Escape to Remove Hooks]] (18% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 30%
-- Advanced: 40%
+### [[Rolling Escape]] (15% of attempts)
 
-### [[Elbow Escape to Remove Hooks]] → [[Turtle]]
+### [[Standing Escape]] (13% of attempts)
 
-**Success Rates:**
-- Beginner: 22%
-- Intermediate: 32%
-- Advanced: 42%
+### [[Granby Roll Escape]] (17% of attempts)
 
-### [[Rolling Escape]] → [[Open Guard]]
-
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 25%
-- Advanced: 35%
-
-### [[Standing Escape]] → [[Standing Position]]
-
-**Success Rates:**
-- Beginner: 12%
-- Intermediate: 20%
-- Advanced: 30%
-
-### [[Granby Roll Escape]] → [[Closed Guard]]
-
-**Success Rates:**
-- Beginner: 18%
-- Intermediate: 28%
-- Advanced: 38%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Deepen Collar Grip]]** → [[Won by Submission]] (Opponent Success: 70%)
-- **[[Switch to Rear Naked Choke]]** → [[Won by Submission]] (Opponent Success: 65%)
-- **[[Transition to Crucifix]]** → [[Crucifix]] (Opponent Success: 55%)
-- **[[Insert Second Hook]]** → [[Body Triangle]] (Opponent Success: 60%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Two-on-One Hand Fighting]]** → [[Back Control]]
-  - When opponent's collar grip is not yet fully established
-- **[[Chin Tuck Defense]]** → [[Back Control]]
-  - When choking pressure begins to apply
-- **[[Bridge and Turn]]** → [[Half Guard]]
-  - When opponent commits weight forward to finish choke
 
 
 </section>
@@ -370,25 +314,39 @@ Start with invisible collar fully established and tight. Defender has 90 seconds
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Emergency survival to escape
+## Test Your Knowledge
 
-`Invisible Collar Bottom → Chin Tuck Defense → Remove Collar Grip → Remove Hooks → Half Guard Recovery`
+**Q1**: How do you recognize that your opponent is establishing invisible collar rather than standard seatbelt control?
+**A**: Pay attention to their over-hook hand movement. If it begins migrating toward your collar rather than staying on your shoulder or chest, they are likely setting up invisible collar. The key indicator is finger contact with your collar material—any penetration of fingers into the gi near your neck should trigger immediate defensive response. Constantly check their grip position rather than waiting for choking pressure.
 
-### Aggressive counter to escape
+**Q2**: What is the essential defensive posture when you recognize invisible collar being established?
+**A**: Immediately tuck your chin aggressively toward your chest and bring both hands to the collar grip area. Your chin should be pressed so tightly that your opponent cannot fit the gi material between your chin and chest. Simultaneously, begin working your hips away to create distance while maintaining the chin tuck. This posture limits choking angles while creating opportunities for grip removal.
 
-`Invisible Collar Bottom → Two-on-One Grip Break → Hip Escape → Turtle → Guard Recovery`
+**Q3**: Your opponent has established deep invisible collar and begins applying pressure—what emergency response gives you the best chance of survival?
+**A**: Commit both hands to two-on-one grip fighting on their choking hand—grab their wrist with both hands and pull it away from your neck while simultaneously tucking your chin as tight as possible. Accept that this leaves you vulnerable to other attacks but prioritize survival over position. Bridge hard toward the collar grip side to create space and potentially loosen their grip through the movement.
 
-### Standing escape sequence
+**Q4**: What are the grip priorities when defending invisible collar?
+**A**: Primary priority is controlling their choking wrist with both hands using two-on-one grip. Secondary priority is creating space between your neck and the collar material by pulling the grip away. Third priority is removing hooks to enable turning and escape. Never try to remove hooks first while a deep collar grip exists—the choke will finish faster than the escape.
 
-`Invisible Collar Bottom → Protect Neck → Remove One Hook → Standing Escape → Break Grips → Standing Position`
+**Q5**: How do you prevent your opponent from deepening the invisible collar grip during defense?
+**A**: Keep constant hand contact with their choking arm and monitor any attempt to walk fingers deeper into the collar. When you feel them trying to penetrate further, immediately grip their wrist and pull it away from your neck. The key is vigilance—check their grip position every few seconds even when working other defensive actions.
+
+**Q6**: Your opponent transitions to rear naked choke after you successfully defend the collar—how do you manage this chain?
+**A**: When they release the collar to switch to RNC, you have a brief window where their choking arm is uncommitted. Use this moment to trap their switching arm with your hands or tuck it under your armpit. Simultaneously work your hip escape since their attention shifted to the arm transition. The collar-to-RNC transition creates vulnerability if you time your defense correctly.
+
+**Q7**: What hip movement creates the best escape opportunity from invisible collar bottom?
+**A**: Hip escape toward the non-collar side—the opposite direction from their choking hand. This creates space between your neck and their grip while positioning you to turn into them. Avoid hip escaping toward the collar side as this can actually help them finish the choke by rotating your neck into the pressure. The escape direction matters as much as the escape itself.
+
+**Q8**: How do you manage energy when defending a sustained invisible collar attack?
+**A**: Focus on efficient defensive posture rather than explosive escapes. The chin tuck and hand fighting should be sustained, controlled efforts rather than panicked bursts. Time your explosive movements for moments when they commit to finishing—their finishing attempt creates opportunities but only if you have energy remaining. Breathe through your nose despite the pressure and avoid tensing your entire body unnecessarily.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -413,7 +371,7 @@ Start with invisible collar fully established and tight. Defender has 90 seconds
 - **[[Half Guard]]** - Common escape target position
 - **[[Turtle]]** - Transitional escape position
 - **[[Rear Naked Choke]]** - Alternative submission opponent may use
-- **[[Back Defense Protocol]]** - Systematic approach to defending back control
+- **[[Open Guard]]** - Recovery position after successful escape
 
 
 </section>

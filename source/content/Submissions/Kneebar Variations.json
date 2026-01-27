@@ -166,7 +166,8 @@
     {
       "error": "Losing chest-to-thigh connection and creating space",
       "consequence": "Opponent can rotate leg to escape, submission loses effectiveness, position becomes vulnerable to counter-attacks",
-      "correction": "Maintain constant chest pressure against thigh, squeeze everything tight, eliminate all space between your body and their leg throughout finish"
+      "correction": "Maintain constant chest pressure against thigh, squeeze everything tight, eliminate all space between your body and their leg throughout finish",
+      "danger_level": "Medium"
     },
     {
       "error": "Misaligning hips below or above knee joint",
@@ -183,7 +184,8 @@
     {
       "error": "Neglecting to secure opponent's free leg",
       "consequence": "Opponent achieves technical standup and escapes entirely, loses leg entanglement position",
-      "correction": "Hook or control free leg with your outside leg, prevent them from posting or creating base, maintain full body entanglement"
+      "correction": "Hook or control free leg with your outside leg, prevent them from posting or creating base, maintain full body entanglement",
+      "danger_level": "Low"
     },
     {
       "error": "Attempting finish before achieving full leg extension",
@@ -236,8 +238,8 @@
       "safety_critical": false
     },
     {
-      "question": "What are the three mandatory signals your training partner can use to tap from a kneebar, and what must you do immediately?",
-      "answer": "Training partners can tap verbally (saying 'tap'), physically tapping with their hand on you or the mat, or tapping with their foot on you or the mat. Any distress vocalization also counts. Upon receiving any tap signal, you must IMMEDIATELY release all hip extension pressure, release leg control completely, and create space from their leg. Never delay the release or 'finish' after feeling a tap - this violates fundamental training safety and can cause severe injury.",
+      "question": "What are the mandatory tap signals your training partner can use from a kneebar, and what must you do immediately upon receiving one?",
+      "answer": "Training partners can tap verbally (saying 'tap'), physically tapping with their hand on you or the mat, tapping with their foot on you or the mat, or any distress vocalization. Upon receiving any tap signal, you must IMMEDIATELY release all hip extension pressure, release leg control completely, and create space from their leg. Never delay the release or 'finish' after feeling a tap - this violates fundamental training safety and can cause severe injury.",
       "safety_critical": true
     },
     {
@@ -254,6 +256,31 @@
       "question": "Why is the flying kneebar considered high-risk and what prerequisites should exist before attempting it?",
       "answer": "The flying kneebar involves jumping at a standing opponent, creating significant fall risk for both practitioners. Prerequisites include: extensive experience with kneebar mechanics, understanding of breakfall techniques, careful mat awareness, appropriate training environment (no hard surfaces nearby), and willing/aware training partners. It should only be attempted by advanced practitioners who can control their body mid-air and land safely while securing position. Competition use requires additional preparation since opponents are not cooperating with safe landing.",
       "safety_critical": true
+    },
+    {
+      "question": "Your opponent begins rotating their toes toward you during the kneebar finish - what immediate adjustment prevents the escape?",
+      "answer": "Immediately increase heel control pressure by cupping the heel deeper into your armpit or tightening your hand grip. Simultaneously adjust your angle by rotating your body slightly in the opposite direction of their rotation to cut off their escape path. If they've already created significant rotation, release the kneebar attempt and transition to a heel hook attack since their rotation now exposes their heel. Never chase a failing kneebar - flow to the next attack in the chain.",
+      "safety_critical": false
+    },
+    {
+      "question": "What anatomical structures are at risk during a kneebar, and at what point does irreversible damage begin?",
+      "answer": "The primary structures at risk are the MCL (medial collateral ligament), LCL (lateral collateral ligament), PCL (posterior cruciate ligament), meniscus, and patellar ligaments. Irreversible damage typically begins when hyperextension exceeds 15-20 degrees beyond normal range, or approximately when the knee approaches 180 degrees of extension with continued pressure. The breaking point varies by individual flexibility and prior injury history. Training partners feel discomfort before damage occurs - this is the tap window that must be respected.",
+      "safety_critical": true
+    },
+    {
+      "question": "Your opponent maintains a strong defensive knee bend that you cannot break - what strategic options remain?",
+      "answer": "When the knee bend defense is successful, transition rather than exhaust yourself fighting it. Primary options include: (1) threaten inside heel hook which forces them to straighten their leg to defend, (2) transition to saddle position for better control and heel access, (3) switch to toe hold attack which works against a bent knee, or (4) use the kneebar threat to create sweeping opportunities and improve position. The kneebar threat is often more valuable than the finish itself because it creates reactions you can exploit.",
+      "safety_critical": false
+    },
+    {
+      "question": "How do you adjust your grip configuration when transitioning from a standard kneebar to the belly-down variation?",
+      "answer": "During the transition, maintain heel control as the primary anchor point - never release the heel. As you rotate to belly-down, your arm configuration changes from wrapping the thigh to threading under and around the leg. The new position places one arm controlling the heel while the other wraps over the thigh from the top. Your chest now presses down onto the thigh rather than sideways. The key is maintaining constant heel control throughout the rotation to prevent escape during the transition.",
+      "safety_critical": false
+    },
+    {
+      "question": "In competition, what indicators suggest your kneebar finish is imminent versus when you should abandon and transition?",
+      "answer": "Finish indicators include: opponent's leg fully extended, heel control secured preventing rotation, your hips aligned with their knee joint, and no active defensive frames. Transition indicators include: opponent maintaining knee bend after 3-5 seconds of breaking attempts, successful toe rotation toward you, opponent establishing frames that create space, or their free leg beginning to establish base for standup. In competition, recognize these cues quickly - chasing a low-percentage finish wastes time and energy while better opportunities pass.",
+      "safety_critical": false
     }
   ],
   "training_progressions_and_safety_protocols": [
@@ -349,12 +376,12 @@
       "relationship": "Back-facing ashi position with unique kneebar finishing angle"
     },
     {
-      "name": "Craig Jones Leg Lock System",
-      "relationship": "Modern leg lock methodology emphasizing kneebar entries and finishes"
+      "name": "Inside Ashi-Garami",
+      "relationship": "Primary leg entanglement for kneebar entries with inside control"
     },
     {
-      "name": "Straight Footlock to Kneebar Chain",
-      "relationship": "Submission chain using kneebar as follow-up to footlock defense"
+      "name": "Outside Ashi-Garami",
+      "relationship": "Alternative leg entanglement with different kneebar finishing angles"
     },
     {
       "name": "De La Riva Guard",
@@ -369,8 +396,12 @@
       "relationship": "Dynamic exchanges where opportunistic kneebar entries occur"
     },
     {
-      "name": "Lachlan Giles Leg Lock Defense Framework",
-      "relationship": "Defensive system teaching kneebar escape mechanics and prevention"
+      "name": "50-50 Guard",
+      "relationship": "Symmetrical leg entanglement providing kneebar opportunities"
+    },
+    {
+      "name": "Single Leg X-Guard",
+      "relationship": "Guard position with direct kneebar transition pathways"
     }
   ]
 }

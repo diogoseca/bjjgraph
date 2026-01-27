@@ -21,37 +21,37 @@ description: "Master Williams Guard Bottom in BJJ. Innovative shoulder lock guar
     {
       "@type": "HowToStep",
       "name": "Execute Williams Shoulder Lock",
-      "text": "From this position, execute Williams Shoulder Lock to transition to Won by Submission. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Williams Shoulder Lock. This technique is attempted in 14% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Omoplata Sweep",
-      "text": "From this position, execute Omoplata Sweep to transition to Mount. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 16% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Setup",
-      "text": "From this position, execute Triangle Setup to transition to Triangle Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Triangle Setup. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Omoplata",
-      "text": "From this position, execute Transition to Omoplata to transition to Omoplata Control. Success rate for advanced practitioners: 75%.",
+      "name": "Execute Closed Guard to Omoplata",
+      "text": "From this position, attempt Closed Guard to Omoplata. This technique is attempted in 18% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Take Generic",
-      "text": "From this position, execute Back Take Generic to transition to Back Control. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Back Take Generic. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kimura to Back Take",
-      "text": "From this position, execute Kimura to Back Take to transition to Back Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Kimura to Back Take. This technique is attempted in 13% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -207,81 +207,20 @@ Williams Guard Bottom is an innovative open guard position characterized by cont
 
 ## Available Escapes
 
-### [[Williams Shoulder Lock]] → [[Won by Submission]]
+### [[Williams Shoulder Lock]] (14% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Omoplata Sweep]] (16% of attempts)
 
-### [[Omoplata Sweep]] → [[Mount]]
+### [[Triangle Setup]] (13% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Closed Guard to Omoplata]] (18% of attempts)
 
-### [[Triangle Setup]] → [[Triangle Control]]
+### [[Back Take Generic]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Kimura to Back Take]] (13% of attempts)
 
-### [[Transition to Omoplata]] → [[Omoplata Control]]
+### [[Rolling Armbar]] (14% of attempts)
 
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 60%
-- Advanced: 75%
-
-### [[Back Take Generic]] → [[Back Control]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-### [[Kimura to Back Take]] → [[Back Control]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[Rolling Armbar]] → [[Armbar Control]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Arm Extraction]]** → [[Open Guard]] (Opponent Success: 40%)
-- **[[Stack Pass]]** → [[Side Control]] (Opponent Success: 35%)
-- **[[Guard Pass]]** → [[Side Control]] (Opponent Success: 30%)
-- **[[Posture Recovery]]** → [[Combat Base]] (Opponent Success: 45%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Rolling Armbar]]** → [[Armbar Control]]
-  - Opponent attempts to yank arm free aggressively
-- **[[Omoplata to Back]]** → [[Back Control]]
-  - Opponent drives forward to escape shoulder lock
-- **[[Triangle Setup]]** → [[Triangle Control]]
-  - Opponent posts free hand on mat to defend shoulder lock
 
 
 </section>
@@ -306,7 +245,7 @@ Williams Guard Bottom is an innovative open guard position characterized by cont
 
 
 **Else if opponent attempts to circle away from controlled arm:**
-- Execute **[[Transition to Omoplata]]** → [[Omoplata Control]] (Probability: 75%)
+- Execute **[[Closed Guard to Omoplata]]** → [[Omoplata Control]] (Probability: 75%)
 - Execute **[[Back Take Generic]]** → [[Back Control]] (Probability: 60%)
 
 
@@ -388,33 +327,39 @@ Flow drill connecting Williams shoulder lock to omoplata to triangle to armbar. 
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Direct shoulder lock finish
+## Test Your Knowledge
 
-`Williams Guard → Williams Shoulder Lock`
+**Q1**: What are the essential grips for establishing and maintaining Williams Guard control?
+**A**: Williams Guard requires a figure-four grip configuration on the opponent's arm that creates shoulder lock mechanics. Your bottom arm threads behind their tricep while your top hand grips your own wrist, creating the shoulder isolation. This grip must be reinforced by leg engagement—typically feet on hips or butterfly hooks—to create distance and prevent the opponent from collapsing into you to escape the shoulder manipulation.
 
-### Omoplata progression path
+**Q2**: Your opponent starts to posture up and pull their arm back forcefully—what adjustment do you make?
+**A**: An aggressive arm pull is your trigger for the rolling armbar or omoplata transition. Follow their motion rather than fighting it—as they pull back, use their momentum to rotate into the omoplata by swinging your leg over their shoulder. Alternatively, if their elbow is exposed, transition to armbar control. The key is reading their defensive energy and redirecting it into your attack rather than trying to hold static position.
 
-`Williams Guard → Transition to Omoplata → Omoplata Control → Omoplata`
+**Q3**: How do you maintain Williams Guard when opponent drives forward with heavy pressure?
+**A**: Forward pressure is actually advantageous for your attacking options. Use your legs as frames to manage the pressure while maintaining shoulder lock grip. Their forward drive accelerates your omoplata rotation—use their momentum to swing your leg over and take the back, or complete the omoplata sweep. Never try to hold static against forward pressure; instead, channel their energy into transitions that favor your attacking angles.
 
-### Triangle combination path
+**Q4**: What hip angle adjustments are critical for maintaining effective shoulder lock pressure?
+**A**: Your hips should angle away from the opponent's free arm while staying connected to the controlled arm side. This creates maximum isolation of the trapped limb while protecting you from their free arm establishing underhook or posting. The angle is dynamic—you continuously adjust based on their movements, using hip mobility to maintain the shoulder lock's mechanical advantage while setting up sweep angles.
 
-`Williams Guard → Triangle Setup → Triangle Control → Triangle Choke Front`
+**Q5**: How do you generate shoulder lock pressure using full body mechanics rather than arm strength?
+**A**: Shoulder lock pressure comes from engaging your entire posterior chain—core tension, hip engagement, and leg drive—not just grip strength. Your legs create distance frames that pull their arm into the lock. Your hips angle to maximize the shoulder rotation. Your core stabilizes the position. The grip is simply the connection point; the actual force comes from coordinated body structure working as a unit.
 
-### Armbar transition path
+**Q6**: When opponent posts their free hand on the mat, what immediate attack becomes available?
+**A**: A mat post with the free hand opens the triangle immediately. Their posted arm creates the space needed for your leg to swing over their shoulder and lock the triangle. It also exposes the posted arm to kimura attack or back take—if they commit to the post, you can release one side of your shoulder lock to attack the posted arm with kimura control, then use that grip to take the back when they react.
 
-`Williams Guard → Rolling Armbar → Armbar Control → Armbar Finish`
+**Q7**: What is the primary strategic advantage of Williams Guard over traditional guard positions?
+**A**: Williams Guard creates a mechanical dilemma where every defensive option the opponent chooses opens a specific attacking opportunity. Defending the shoulder lock requires movement that opens sweeps; defending sweeps requires posture that increases submission vulnerability. This integrated attack-defense system forces opponents into reactive mode where their choices are channeled into predictable patterns you can exploit systematically.
 
-### Back attack path
-
-`Williams Guard → Omoplata to Back → Back Control → Rear Naked Choke`
+**Q8**: How do you recover Williams Guard control after a partial escape where opponent frees their arm slightly?
+**A**: Immediate action is critical—do not let them fully extract. Hip escape to re-angle, use your legs to block their advance, and immediately work to re-isolate the arm by swimming your grip back to figure-four position. If they've created too much space, transition to another guard (butterfly, open guard) rather than fighting for lost position. Partial escapes often expose the back as they turn to extract—read this and transition to back take if available.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -443,7 +388,7 @@ Flow drill connecting Williams shoulder lock to omoplata to triangle to armbar. 
 - **[[Overhook Guard]]** - Similar arm isolation principle
 - **[[Williams Shoulder Lock]]** - Primary submission threat
 - **[[Omoplata]]** - Common submission transition
-- **[[Triangle Choke Front]]** - Alternative submission when opponent defends shoulder lock
+- **[[Triangle Choke]]** - Alternative submission when opponent defends shoulder lock
 - **[[Back Control]]** - High-value position from transitions
 
 

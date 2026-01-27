@@ -93,29 +93,22 @@ Rodeo Ride is particularly effective in both gi and no-gi contexts, though the s
 - Accept temporary exposure in less critical areas to defend most urgent threats
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Turtle to Guard]]** → [[Closed Guard]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Turtle to Guard]]** (20% of attempts)
 
-- **[[Technical Stand-up]]** → [[Standing Position]]
-  - Success Rate: Beginner 15%, Intermediate 25%, Advanced 40%
+- **[[Technical Stand-up]]** (18% of attempts)
 
-- **[[Granby Roll]]** → [[Open Guard]]
-  - Success Rate: Beginner 10%, Intermediate 20%, Advanced 35%
+- **[[Granby Roll]]** (15% of attempts)
 
-- **[[Rolling to Guard]]** → [[Half Guard]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+- **[[Rolling to Guard]]** (17% of attempts)
 
-- **[[Elbow Escape]]** → [[Half Guard]]
-  - Success Rate: Beginner 12%, Intermediate 25%, Advanced 40%
+- **[[Elbow Escape]]** (12% of attempts)
 
-- **[[Sit Through Escape]]** → [[Butterfly Guard]]
-  - Success Rate: Beginner 10%, Intermediate 20%, Advanced 35%
+- **[[Sit Through Escape]]** (10% of attempts)
 
-- **[[Standing up in Base]]** → [[Combat Base]]
-  - Success Rate: Beginner 8%, Intermediate 18%, Advanced 30%
+- **[[Standing up in Base]]** (8% of attempts)
 
 
 ### Common Mistakes
@@ -177,38 +170,26 @@ Rodeo Ride is particularly effective in both gi and no-gi contexts, though the s
 - Maintain one point of base (posted leg) while applying pressure with other points of contact
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Turtle to Back Take]]** → [[Back Control]]
-  - Success Rate: Beginner 40%, Intermediate 60%, Advanced 75%
+- **[[Turtle to Back Take]]** (18% of attempts)
 
-- **[[Crab Ride to Back]]** → [[Crab Ride]]
-  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 70%
+- **[[Crab Ride to Back]]** (15% of attempts)
 
-- **[[Transition to Truck]]** → [[Truck]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 65%
+- **[[Turtle to Truck]]** (12% of attempts)
 
-- **[[Crucifix from Turtle]]** → [[Crucifix]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 60%
+- **[[Crucifix from Turtle]]** (12% of attempts)
 
-- **[[Clock Choke]]** → [[Won by Submission]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Clock Choke]]** (10% of attempts)
 
-- **[[Bow and Arrow Choke]]** → [[Won by Submission]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+- **[[Bow and Arrow Choke]]** (8% of attempts)
 
-- **[[Transition to Mount]]** → [[Mount]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Side Control to Mount]]** (10% of attempts)
 
-- **[[Rolling Back Take]]** → [[Back Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Rolling Back Take]]** (8% of attempts)
 
-- **[[Side Control to Mount]]** → [[Side Control]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
-
-- **[[Darce from Turtle]]** → [[Won by Submission]]
-  - Success Rate: Beginner 18%, Intermediate 32%, Advanced 48%
+- **[[Darce from Turtle]]** (7% of attempts)
 
 
 ### Common Mistakes
@@ -257,7 +238,7 @@ Rodeo Ride is particularly effective in both gi and no-gi contexts, though the s
 
 - **[[Crab Ride]]** - Related turtle attack position with similar control mechanics
 
-- **[[Truck]]** - Alternative advancement position when opponent turns away
+- **[[Twister Control]]** - Alternative advancement position when opponent turns away
 
 - **[[Crucifix]]** - Submission position accessible from Rodeo Ride when opponent extends arms
 

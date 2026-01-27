@@ -21,37 +21,37 @@ description: "Master Double Sleeve Guard Bottom in BJJ. Control-focused open gua
     {
       "@type": "HowToStep",
       "name": "Execute Scissor Sweep",
-      "text": "From this position, execute Scissor Sweep to transition to Mount. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Scissor Sweep. This technique is attempted in 12% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Flower Sweep",
-      "text": "From this position, execute Flower Sweep to transition to Mount. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Flower Sweep. This technique is attempted in 11% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Pendulum Sweep",
-      "text": "From this position, execute Pendulum Sweep to transition to Mount. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Pendulum Sweep. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Spider Guard Sweeps",
-      "text": "From this position, execute Spider Guard Sweeps to transition to Spider Guard. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Spider Guard Sweeps. This technique is attempted in 15% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Lasso Guard Sweeps",
-      "text": "From this position, execute Lasso Guard Sweeps to transition to Lasso Guard. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Lasso Guard Sweeps. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Omoplata Sweep",
-      "text": "From this position, execute Omoplata Sweep to transition to Side Control. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 9% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -209,100 +209,24 @@ Double Sleeve Guard Bottom is a fundamental open guard position where the bottom
 
 ## Available Escapes
 
-### [[Scissor Sweep]] → [[Mount]]
+### [[Scissor Sweep]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Flower Sweep]] (11% of attempts)
 
-### [[Flower Sweep]] → [[Mount]]
+### [[Pendulum Sweep]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Spider Guard Sweeps]] (15% of attempts)
 
-### [[Pendulum Sweep]] → [[Mount]]
+### [[Lasso Guard Sweeps]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
+### [[Omoplata Sweep]] (9% of attempts)
 
-### [[Spider Guard Sweeps]] → [[Spider Guard]]
+### [[Triangle Setup]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Elevator Sweep]] (11% of attempts)
 
-### [[Lasso Guard Sweeps]] → [[Lasso Guard]]
+### [[De La Riva Sweep]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-### [[Omoplata Sweep]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
-
-### [[Triangle Setup]] → [[Triangle Control]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-### [[Elevator Sweep]] → [[Mount]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[De La Riva Sweep]] → [[De La Riva Guard]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Toreando Pass]]** → [[Side Control]] (Opponent Success: 45%)
-- **[[Knee Slice Pass]]** → [[Side Control]] (Opponent Success: 40%)
-- **[[Long Step Pass]]** → [[Side Control]] (Opponent Success: 35%)
-- **[[Spider Guard Pass]]** → [[Headquarters Position]] (Opponent Success: 50%)
-- **[[Grip Break]]** → [[Open Guard]] (Opponent Success: 55%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Lasso Guard Sweeps]]** → [[Lasso Guard]]
-  - Opponent attempts to circle away from double sleeve control
-- **[[Spider Guard Sweeps]]** → [[Spider Guard]]
-  - Opponent stands up to break grips or create pressure
-- **[[Triangle Setup]]** → [[Triangle Control]]
-  - Opponent leans forward attempting to break sleeve grips
-- **[[Omoplata Sweep]]** → [[Side Control]]
-  - Opponent postures back and pulls arms away from body
-- **[[De La Riva Sweep]]** → [[De La Riva Guard]]
-  - Opponent attempts to step around to one side for passing
 
 
 </section>
@@ -411,29 +335,39 @@ Start from double sleeve guard and transition to spider guard, lasso guard, or D
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Triangle finish from double sleeve
+## Test Your Knowledge
 
-`Double Sleeve Guard Bottom → Triangle Setup → Triangle Control → Triangle from Guard`
+**Q1**: Your opponent begins to rotate their wrists to break your sleeve grips - what adjustment maintains your control?
+**A**: Immediately pull your elbows tight to your ribs while curling your wrists inward, creating a structure where your grip strength is reinforced by your arm position rather than isolated finger strength. Simultaneously extend your legs to push them away, which makes their rotation less effective because they're being stretched. Re-grip deeper on the cuff if needed, as grip depth near the wrist opening provides maximum control with minimal effort.
 
-### Omoplata from broken posture
+**Q2**: What are the essential grip configurations for maintaining double sleeve control?
+**A**: Grip at or near the cuffs with four fingers inside the sleeve opening and thumb outside, creating a pistol grip. Your grip should be deep enough that your knuckles touch the inside of the cuff. Maintain constant pulling tension toward your hips with both arms bent at approximately 90 degrees. Your elbows should stay close to your body rather than flaring outward, which both strengthens your grip and positions you for sweeps.
 
-`Double Sleeve Guard Bottom → Omoplata Sweep → Omoplata Control → Omoplata from Guard`
+**Q3**: How should you position your hips and legs to maintain optimal distance against a standing opponent?
+**A**: Keep your hips elevated slightly off the mat with feet actively pushing on opponent's hips or biceps. Your legs should be bent at approximately 45-90 degrees depending on their distance - more bent when they're closer, more extended when they're further. Never let your hips rest flat on the mat as this eliminates your mobility. Your feet should push with the balls of your feet, not your heels, for maximum control and quick repositioning.
 
-### Sweep to mount submissions
+**Q4**: Your opponent successfully breaks one of your sleeve grips and begins to pass - how do you recover?
+**A**: Immediately use your remaining sleeve grip to pull them off-balance while creating an angle with your hips. Hip out toward the freed side to create distance and prevent them from achieving passing pressure. Your free hand should immediately seek to re-grip their sleeve, control their collar, or frame on their bicep. Transition to lasso guard, spider guard, or collar sleeve guard rather than fighting to re-establish double sleeve from a compromised position.
 
-`Double Sleeve Guard Bottom → Scissor Sweep → Mount → Armbar from Mount`
+**Q5**: What body mechanics create the most effective sweeping power from double sleeve guard?
+**A**: Combine push-pull mechanics with hip rotation for maximum sweeping power. Your feet push in one direction while your sleeve grips pull in another, creating rotational force. Your hips should come off the mat and rotate in the sweeping direction while your shoulders stay relatively fixed. The power comes from your core rotation and leg extension, not your arms pulling - your arms direct the force while your legs and hips generate it.
 
-### Spider guard armbar
+**Q6**: Your opponent postures strongly and pulls their arms back to break your grips - what sweep opportunity does this create?
+**A**: Their backward posture creates an excellent opportunity for the push sweep or technical stand-up. When they pull back, follow their momentum by sitting up while maintaining one sleeve grip. Use their backward energy to come to seated position or standing. Alternatively, if they pull back while you have feet on their hips, extend your legs explosively while pulling their sleeves to create a double ankle sweep opportunity as their base lifts.
 
-`Double Sleeve Guard Bottom → Spider Guard Sweeps → Spider Guard → Armbar from Guard`
+**Q7**: How do you recognize the optimal moment to attempt a sweep versus maintaining guard retention?
+**A**: Sweep when opponent's weight shifts uncommitted in one direction, when they reach to break your grip (their posting hand is occupied), when they step laterally creating a vulnerable base, or when they lean forward attempting to pressure pass. Maintain retention when their base is solid and symmetrical, when they have a hand ready to post, or when they're patiently working grip breaks without committing weight. Read their hips and shoulders - movement there precedes balance vulnerability.
+
+**Q8**: Your grips feel fatigued after extended grip fighting - how do you manage energy while maintaining control?
+**A**: Transition one grip to a more sustainable position like lasso or spider guard where the gi wrapping provides mechanical advantage requiring less grip strength. Alternate which hand is doing primary pulling work. Use your legs to do more of the controlling work, posting feet firmly on hips to maintain distance without requiring constant sleeve tension. Consider closing guard briefly to recover grip strength if opponent gets close enough. Strategic guard transitions preserve grip endurance better than sustained double sleeve fighting.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -461,9 +395,9 @@ Start from double sleeve guard and transition to spider guard, lasso guard, or D
 - **[[Collar Sleeve Guard]]** - Similar guard with mixed grip strategy
 - **[[Scissor Sweep]]** - Primary offensive technique from this position
 - **[[Flower Sweep]]** - High-percentage sweep option
-- **[[Triangle Setup]]** - Primary submission entry
-- **[[Grip Fighting]]** - Essential concept for maintaining position
-- **[[Guard Retention Concepts]]** - Theoretical framework for defensive responses
+- **[[Triangle Control]]** - Primary submission entry from broken posture
+- **[[Omoplata Control]]** - Submission control position from shoulder isolation
+- **[[De La Riva Guard]]** - Advanced guard transition against standing opponent
 
 
 </section>

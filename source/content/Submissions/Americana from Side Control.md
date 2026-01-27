@@ -428,7 +428,7 @@ The Americana from Side Control exemplifies the principle of positional dominanc
 - [[Kimura from Side Control]] - Complementary shoulder lock attacking opposite rotation direction
 - [[Americana]] - Parent submission technique with variations from multiple positions
 - [[Armbar from Side Control]] - Alternative arm attack from same position targeting elbow instead of shoulder
-- [[Transition to Mount]] - Position advancement that can be combined with maintained Americana grip
+- [[Side Control to Mount]] - Position advancement that can be combined with maintained Americana grip
 - [[North-South]] - Transitional position offering alternative angle for Americana application
 - [[Knee on Belly]] - Alternative top position for Americana variation with enhanced control
 - [[Submission Chains]] - Conceptual framework for linking Americana with other attacks
@@ -436,6 +436,16 @@ The Americana from Side Control exemplifies the principle of positional dominanc
 - [[Leverage Principles]] - Conceptual foundation explaining mechanical advantage in this submission
 - [[Control Maintenance]] - Essential concept for keeping position while attacking
 
+
+</section>
+
+<section id="terminal-state" class="content-section">
+
+## Match Outcome
+
+Successful execution of Americana from Side Control leads to → [[game-over|Game Over]]
+
+*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
 
 </section>
 

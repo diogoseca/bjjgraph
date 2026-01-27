@@ -14,13 +14,10 @@
     "state_invariants",
     "prerequisites",
     "key_principles",
-    "offensive_transitions",
-    "defensive_responses",
-    "counter_transitions",
+    "transitions",
     "decision_tree",
     "common_errors",
     "training_drills",
-    "optimal_submission_paths",
     "related_content",
     "position_metrics"
   ],
@@ -183,91 +180,26 @@
         ]
       ]
     },
-    "offensive_transitions": {
+    "transitions": {
       "type": "array",
-      "description": "Available attacks/advancements (6-20 items)",
-      "minItems": 6,
-      "maxItems": 20,
+      "description": "Available transitions from this position. attempt_probability MUST sum to 100%",
       "items": {
         "type": "object",
         "additionalProperties": false,
         "required": [
-          "technique",
-          "target_position",
-          "success_rates"
+          "transition",
+          "attempt_probability"
         ],
         "properties": {
-          "technique": {
+          "transition": {
             "type": "string",
-            "description": "Technique name",
-            "minLength": 1
+            "description": "Name of the transition technique (must exist as Transition JSON)"
           },
-          "target_position": {
-            "type": "string",
-            "description": "Resulting position",
-            "minLength": 1
-          },
-          "success_rates": {
-            "$ref": "#/$defs/skill_level_success_rates"
-          }
-        }
-      }
-    },
-    "defensive_responses": {
-      "type": "array",
-      "description": "Opponent's defensive actions (3-10 items)",
-      "minItems": 3,
-      "maxItems": 10,
-      "items": {
-        "type": "object",
-        "additionalProperties": false,
-        "required": [
-          "technique",
-          "target_position"
-        ],
-        "properties": {
-          "technique": {
-            "type": "string",
-            "minLength": 3
-          },
-          "target_position": {
-            "type": "string",
-            "minLength": 3
-          },
-          "success_rate": {
+          "attempt_probability": {
             "type": "integer",
             "minimum": 0,
             "maximum": 100,
-            "description": "Optional: opponent's success rate"
-          }
-        }
-      }
-    },
-    "counter_transitions": {
-      "type": "array",
-      "description": "Counter opponent's escapes (minimum 2)",
-      "minItems": 2,
-      "items": {
-        "type": "object",
-        "additionalProperties": false,
-        "required": [
-          "technique",
-          "target_position",
-          "trigger"
-        ],
-        "properties": {
-          "technique": {
-            "type": "string",
-            "minLength": 3
-          },
-          "target_position": {
-            "type": "string",
-            "minLength": 3
-          },
-          "trigger": {
-            "type": "string",
-            "description": "What opponent action triggers this counter (10+ characters)",
-            "minLength": 10
+            "description": "Probability this transition is attempted (all must sum to 100%)"
           }
         }
       }
@@ -375,34 +307,6 @@
               "3 minutes",
               "5 minutes",
               "2 minutes"
-            ]
-          }
-        }
-      }
-    },
-    "optimal_submission_paths": {
-      "type": "array",
-      "description": "Paths from position to submission (minimum 3)",
-      "minItems": 3,
-      "items": {
-        "type": "object",
-        "additionalProperties": false,
-        "required": [
-          "name",
-          "path"
-        ],
-        "properties": {
-          "name": {
-            "type": "string",
-            "description": "Path description (e.g., 'Takedown to dominant position') (5+ characters)",
-            "minLength": 5
-          },
-          "path": {
-            "type": "string",
-            "description": "Sequence of positions/techniques with → arrows (10+ characters)",
-            "minLength": 10,
-            "examples": [
-              "Standing → Single Leg → Top Position → Side Control → Mount"
             ]
           }
         }

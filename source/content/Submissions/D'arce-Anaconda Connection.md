@@ -434,4 +434,14 @@ The D'arce-Anaconda Connection represents one of the most fundamental submission
 
 </section>
 
+<section id="terminal-state" class="content-section">
+
+## Match Outcome
+
+Successful execution of D'arce-Anaconda Connection leads to → [[game-over|Game Over]]
+
+*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+
+</section>
+
 </main>

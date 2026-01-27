@@ -11,8 +11,6 @@
     "retention",
     "bottom-position"
   ],
-  "starting_position": "Defensive Position",
-  "ending_position": "Closed Guard",
   "success_rates": {
     "beginner": 30,
     "intermediate": 50,
@@ -296,6 +294,24 @@
     {
       "name": "Open Guard",
       "relationship": "Common starting and ending position for this technique"
+    }
+  ],
+  "from_position": "Defensive Position/Top",
+  "outcomes": [
+    {
+      "to": "Closed Guard/Bottom",
+      "probability": 70,
+      "result": "success"
+    },
+    {
+      "to": "Defensive Position/Top",
+      "probability": 20,
+      "result": "failure"
+    },
+    {
+      "to": "Defensive Position/Bottom",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

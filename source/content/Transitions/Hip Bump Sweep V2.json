@@ -10,8 +10,6 @@
     "beginner friendly",
     "mount attack"
   ],
-  "starting_position": "Closed Guard",
-  "ending_position": "Mount",
   "success_rates": {
     "beginner": 30,
     "intermediate": 50,
@@ -268,6 +266,24 @@
     {
       "name": "Guard Recovery",
       "relationship": "Relevant concept when sweep is partially defended and guard must be re-established"
+    }
+  ],
+  "from_position": "Closed Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Mount/Top",
+      "probability": 70,
+      "result": "success"
+    },
+    {
+      "to": "Closed Guard/Bottom",
+      "probability": 20,
+      "result": "failure"
+    },
+    {
+      "to": "Closed Guard/Top",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

@@ -225,6 +225,11 @@
   ],
   "knowledge_assessment": [
     {
+      "question": "What anatomical structures does the baseball bat choke attack, and how does proper grip placement ensure targeting the correct structures?",
+      "answer": "The baseball bat choke primarily attacks the carotid arteries on both sides of the neck, restricting blood flow to the brain and causing unconsciousness within seconds when properly applied. Proper grip placement positions the collar material along the lateral sides of the neck rather than directly across the front of the throat. The thumb-inside grip on the deep collar ensures pressure is directed toward the carotid arteries, while the rotational force from the second grip compresses both sides simultaneously. Incorrect placement across the trachea causes airway restriction, which is painful but less effective and creates injury risk.",
+      "safety_critical": true
+    },
+    {
       "question": "What is the primary mechanical principle that makes the baseball bat choke more effective than a simple pulling choke?",
       "answer": "The rotational force created by the grip configuration and pulling motion. While one hand acts as an anchor point, the second hand pulls in a circular motion creating a scissoring effect that tightens the collar around both sides of the neck simultaneously. This rotation makes it extremely difficult for opponents to relieve pressure by tucking their chin or turning their head, as these defensive movements don't effectively counter rotational force the way they defend against linear pulling.",
       "safety_critical": false
@@ -233,6 +238,16 @@
       "question": "Why must you apply progressive pressure over 3-4 seconds minimum rather than finishing the choke explosively?",
       "answer": "Progressive pressure application is critical for partner safety as it provides clear warning signals and adequate time to recognize the submission and tap before injury occurs. Explosive finishing doesn't allow the partner to assess the danger and respond appropriately, creating serious risk of unconsciousness, tracheal damage, or cervical strain. The gradual tightening gives your partner the ability to tap at the appropriate moment and gives you time to recognize their tap and release immediately. This is fundamental to safe training practice.",
       "safety_critical": true
+    },
+    {
+      "question": "Your opponent begins turning their head toward the choking side during the finish - what adjustment ensures the choke still completes?",
+      "answer": "When the opponent turns toward the choke, increase chest or shoulder pressure to pin their head in position while accelerating your rotational pull. In many variations, their turn actually helps tighten the collar around the neck. Follow their movement angle with your body positioning, adjusting the rotational pull direction to maintain perpendicular pressure to their neck. If they persist in turning, transition your body weight to block further rotation while maintaining grip tension. The key is using their defensive movement as an opportunity to deepen the choke rather than releasing pressure to chase their head position.",
+      "safety_critical": false
+    },
+    {
+      "question": "What are the indicators that tell you the choke has passed the point of no escape and will finish?",
+      "answer": "The point of no escape is reached when both collar grips are fully seated deep along the neck with minimal slack remaining, your body angle creates continuous pressure without requiring grip adjustment, and the opponent's defensive hands can no longer reach your choking arms due to the collar tightness compressing their neck mobility. Physical indicators include the opponent's face changing color, sudden cessation of active defense, and the characteristic gurgling sound from blood flow restriction. At this point, you can feel the collar material is completely tight against the neck with zero slack, and any further rotation directly compresses the carotid arteries without additional grip adjustment needed.",
+      "safety_critical": false
     },
     {
       "question": "How does body positioning create the leverage for this choke rather than relying solely on arm strength?",
@@ -250,13 +265,23 @@
       "safety_critical": false
     },
     {
+      "question": "Your grips are established but the opponent is actively hand fighting and attempting to strip your collar grips - what grip adjustments maintain finishing position?",
+      "answer": "When facing active grip stripping, cinch your elbows tight to your ribcage to reduce the angle available for their grip fighting. Pull your wrists slightly toward your centerline, which shortens the lever arm they can attack. If they successfully break the second grip, immediately re-establish it while using your body weight to maintain pressure through the first grip alone. In some cases, converting to a single-grip choke by pulling your body weight through the primary grip while blocking their defense with your free forearm provides an alternative finish. The critical element is never releasing the primary deep collar grip, which anchors the entire attack.",
+      "safety_critical": false
+    },
+    {
       "question": "What is the primary difference between a blood choke targeting the carotid arteries versus excessive tracheal pressure, and why is this distinction critical?",
       "answer": "A blood choke restricts blood flow to the brain through the carotid arteries, causing relatively quick unconsciousness with minimal pain and no lasting damage when applied correctly and released promptly. Excessive tracheal pressure crushes the airway causing intense pain, potential permanent damage to the trachea, and is actually less effective at causing submission. The distinction is critical because tracheal pressure is dangerous and injurious while proper carotid pressure is the safe, effective method. Collar positioning on the sides of the neck rather than front of throat ensures you're targeting blood flow, not airway.",
       "safety_critical": true
     },
     {
-      "question": "When is the baseball bat choke from mount variation most effectively applied compared to the standard back control version?",
-      "answer": "The mount variation is most effective when the opponent is focused on defending positional escapes or armbar attempts and has turned their head to the side, exposing their collar. From mount, you have superior weight distribution and can use chest pressure to drive through the choke while the opponent is pinned and unable to roll. This variation is particularly valuable when you cannot secure back control but have dominant mount position. The weight advantage from mount compensates for the slightly less optimal angle compared to back control.",
+      "question": "When transitioning from back control to complete the baseball bat choke by falling to your side, which direction do you fall relative to your grips and why?",
+      "answer": "You fall to the side opposite your collar grips. If your grips are on the right side of the opponent's neck, you fall to your left side. This creates maximum rotational torque because your body weight pulling away from the grips amplifies the scissoring action of the collar around the neck. Falling toward the same side as your grips reduces the rotational angle and makes the choke easier to defend. The opposite-side fall also prevents the opponent from following your body movement and creating space, as their body must rotate against the direction your weight is falling.",
+      "safety_critical": false
+    },
+    {
+      "question": "In competition, your opponent is defending aggressively with two hands on your choking arm and you have limited time - what finishing strategy maximizes success rate?",
+      "answer": "With time pressure and active two-on-one defense, shift your body weight aggressively through your grips rather than attempting to adjust grip position. Drive your chest into their back or side while maintaining relentless rotational pressure through your established grips. Their two-handed defense commits both arms, so threaten to release and attack an armbar if they extend an arm to push. Often the threat forces them to abandon one hand, allowing you to complete the choke. If they maintain defense, accept the stalemate position and work to improve position rather than burning grip strength in a strength battle you may lose.",
       "safety_critical": false
     }
   ],
@@ -319,35 +344,21 @@
     "Clock Choke",
     "Bow and Arrow Choke",
     "Cross Collar Choke",
-    "Paper Cutter Choke",
     "Rear Naked Choke",
     "Arm Triangle",
     "Loop Choke",
     "Ezekiel Choke",
     "North-South Choke",
-    "Short Choke",
     "Breadcutter Choke"
   ],
   "related_content": [
-    {
-      "name": "Collar Control",
-      "relationship": "Essential principle for establishing effective grips"
-    },
     {
       "name": "Back Control",
       "relationship": "Primary position for standard baseball bat choke application"
     },
     {
-      "name": "Mount Control",
+      "name": "Mount",
       "relationship": "Alternative dominant position for mount variation"
-    },
-    {
-      "name": "Submission Chains",
-      "relationship": "Framework for linking multiple choke variations"
-    },
-    {
-      "name": "Grip Strategy",
-      "relationship": "Systematic approach to establishing and maintaining collar grips"
     },
     {
       "name": "Body Triangle",
@@ -362,12 +373,24 @@
       "relationship": "Complementary gi choke that chains effectively with baseball bat variations"
     },
     {
-      "name": "Bow and Arrow Variations",
-      "relationship": "Alternative gi choke family that shares similar control principles"
+      "name": "Bow and Arrow Choke",
+      "relationship": "Alternative gi choke that shares similar collar control principles"
     },
     {
-      "name": "Control Maintenance",
-      "relationship": "Principle for maintaining dominant position while establishing grips"
+      "name": "Side Control",
+      "relationship": "Position where baseball bat variation can be applied with chest pressure"
+    },
+    {
+      "name": "Turtle",
+      "relationship": "Position allowing baseball bat choke application from top"
+    },
+    {
+      "name": "High Mount",
+      "relationship": "Elevated mount position ideal for baseball bat choke setups"
+    },
+    {
+      "name": "Knee on Belly",
+      "relationship": "Transitional position that can set up baseball bat choke entries"
     }
   ]
 }

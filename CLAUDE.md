@@ -86,8 +86,8 @@ bjjgraph/
 │   └── SEO.md                   # Schema markup, keywords, analytics
 ├── scripts/
 │   ├── validate_json.py         # JSON schema validation
-│   ├── json_to_md.py            # Regenerate markdown from JSON
-│   ├── fix_content.sh           # Auto-fill TODOs in JSON
+│   ├── regenerate_md_from_json.py            # Regenerate markdown from JSON
+│   ├── regenerate_content_json.py           # Auto-fill TODOs in JSON
 │   └── select_oldest_files.sh   # File selection for bot
 ├── source/
 │   ├── content/                 # Generated markdown (DO NOT EDIT DIRECTLY)
@@ -126,6 +126,21 @@ source/templates/*.json  →  *.md.jinja2  →  source/content/*.md  →  Quartz
 3. **Generated Markdown** - Content pages with frontmatter
 4. **Quartz Build** - Static site with graph visualization, search, backlinks
 
+### Graph Data Model
+
+The BJJ knowledge graph uses a **Position-Transition-Position** architecture where both positions and transitions are nodes:
+
+```
+Position ──[attempt %]──> Transition ──[outcome %]──> Position/Submission
+```
+
+**Key concepts:**
+
+- **Positions** are states (nodes) with roles (Top/Bottom)
+- **Transitions** are technique nodes with probabilistic outcomes
+- **Outcomes** lead to other positions, transitions, or terminal states
+- **Terminal state**: `game-over` (single page for all submission finishes)
+
 ### Position "Playing As" Model
 
 Positions follow a chess-like architecture:
@@ -146,6 +161,60 @@ Positions/
     ├── Top.md         # Playing as top (submissions, control)
     └── Bottom.md      # Playing as bottom (escapes, reversals)
 ```
+
+### Position Schema
+
+Each position role (Top/Bottom) has a `transitions` array specifying what techniques can be attempted:
+
+```json
+{
+  "top": {
+    "transitions": [
+      { "transition": "Armbar from Mount", "attempt_probability": 25 },
+      { "transition": "Cross Collar Choke", "attempt_probability": 20 },
+      { "transition": "Transition to Back Control", "attempt_probability": 30 },
+      { "transition": "Maintain Mount", "attempt_probability": 25 }
+    ]
+  }
+}
+```
+
+**Rules:**
+- `attempt_probability` values MUST sum to 100% per role
+- Each transition references a Transition by name
+- Represents likelihood of attempting each technique from position
+
+### Transition Schema
+
+Transitions are technique nodes with `from_position` and `outcomes`:
+
+```json
+{
+  "name": "Armbar from Mount",
+  "from_position": "Mount/Top",
+  "outcomes": [
+    { "to": "Armbar Control", "probability": 55, "result": "success" },
+    { "to": "Mount", "probability": 30, "result": "failure" },
+    { "to": "Closed Guard", "probability": 15, "result": "counter" }
+  ]
+}
+```
+
+**Rules:**
+- `from_position` format: "Position/Role" (e.g., "Mount/Top", "Closed Guard/Bottom")
+- `outcomes` probability values MUST sum to 100%
+- `result` types: `success` (technique works), `failure` (technique fails, stay/regress), `counter` (opponent counters)
+- `to` can be a Position, another Transition, or `game-over`
+
+### Terminal State
+
+All submissions implicitly connect to `game-over`, the single terminal state page:
+
+```
+Submission Control Position → Submission Finish Transition → game-over
+```
+
+The `game-over` page (`source/content/game-over.md`) is a sink node - once reached, the match ends. This replaces the previous `Won by Submission` / `Lost by Submission` split.
 
 ### Graph Component
 
@@ -172,10 +241,11 @@ All commands run from the repo root (`bjjgraph/`):
 | Command | Description |
 |---------|-------------|
 | `npm run validate` | Validate JSON and list files needing fixes |
-| `npm run generate:md` | Regenerate markdown from JSON |
-| `npm run generate:hubs` | Generate category hub pages |
-| `npm run generate:graph` | Generate BJJ graph data |
-| `npm run regenerate` | Run all generation (validate + md + hubs + graph) |
+| `npm run regenerate:json` | Fix/enrich JSON content with Claude AI |
+| `npm run regenerate:md` | Regenerate markdown from JSON |
+| `npm run regenerate:hubs` | Generate category hub pages |
+| `npm run regenerate:graph` | Generate BJJ graph data |
+| `npm run regenerate` | Run all steps (json + validate + md + hubs + graph) |
 | `npm run build` | Build static site |
 | `npm run regenerate:build` | Regenerate + build (full workflow) |
 | `npm run dev` | Development server with live reload |
@@ -233,7 +303,7 @@ SELECT (git age, JSON-first)
   → VALIDATE (schema check)
   → IMPROVE (Claude API fills TODOs, fixes errors)
   → VALIDATE + RETRY (max 3 attempts)
-  → REGENERATE (json_to_md.py)
+  → REGENERATE (regenerate_md_from_json.py)
   → CREATE PR
 ```
 
@@ -265,7 +335,7 @@ SELECT (git age, JSON-first)
 - Must match filename exactly (case-sensitive)
 - No `.md` extension
 - Verify target exists before adding
-- Special: `[[Won by Submission]]`, `[[Guard Opening Sequence]]`
+- Terminal state: `[[game-over]]` (NOT `Won by Submission` or `Lost by Submission`)
 
 ### Safety (Submissions Only)
 

@@ -21,37 +21,37 @@ description: "Master escaping back control in BJJ. Learn defensive frames, hip e
     {
       "@type": "HowToStep",
       "name": "Execute Back Escape Series",
-      "text": "From this position, execute Back Escape Series to transition to Half Guard. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Back Escape Series. This technique is attempted in 20% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Hip Escape",
-      "text": "From this position, execute Hip Escape to transition to Turtle. Success rate for advanced practitioners: 55%.",
+      "name": "Execute Hip Escape to Turtle",
+      "text": "From this position, attempt Hip Escape to Turtle. This technique is attempted in 22% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Rolling Escape",
-      "text": "From this position, execute Rolling Escape to transition to Closed Guard. Success rate for advanced practitioners: 45%.",
+      "name": "Execute Rolling Escape to Guard",
+      "text": "From this position, attempt Rolling Escape to Guard. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Granby Roll",
-      "text": "From this position, execute Granby Roll to transition to Turtle. Success rate for advanced practitioners: 40%.",
+      "name": "Execute Granby Roll Escape",
+      "text": "From this position, attempt Granby Roll Escape. This technique is attempted in 8% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Hand Fighting from Back",
-      "text": "From this position, execute Hand Fighting from Back to transition to Defensive Position. Success rate for advanced practitioners: 70%.",
+      "name": "Execute Turn and Face Escape",
+      "text": "From this position, attempt Turn and Face Escape. This technique is attempted in 15% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Hook Removal Sequence",
-      "text": "From this position, execute Hook Removal Sequence to transition to Turtle. Success rate for advanced practitioners: 50%.",
+      "name": "Execute Hook Removal to Side Position",
+      "text": "From this position, attempt Hook Removal to Side Position. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -212,78 +212,20 @@ Successful defense from back control requires understanding the hierarchy of con
 
 ## Available Escapes
 
-### [[Back Escape Series]] → [[Half Guard]]
+### [[Back Escape Series]] (20% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
+### [[Hip Escape to Turtle]] (22% of attempts)
 
-### [[Hip Escape]] → [[Turtle]]
+### [[Rolling Escape to Guard]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
+### [[Granby Roll Escape]] (8% of attempts)
 
-### [[Rolling Escape]] → [[Closed Guard]]
+### [[Turn and Face Escape]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 45%
+### [[Hook Removal to Side Position]] (10% of attempts)
 
-### [[Granby Roll]] → [[Turtle]]
+### [[Survive and Defend]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 10%
-- Intermediate: 25%
-- Advanced: 40%
-
-### [[Hand Fighting from Back]] → [[Defensive Position]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 70%
-
-### [[Hook Removal Sequence]] → [[Turtle]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Rear Naked Choke]]** → [[Lost by Submission]] (Opponent Success: 65%)
-- **[[Back Control to Crucifix]]** → [[Crucifix]] (Opponent Success: 55%)
-- **[[Bow and Arrow Choke]]** → [[Lost by Submission]] (Opponent Success: 50%)
-- **[[Armbar from Back with Legs]]** → [[Armbar Control]] (Opponent Success: 45%)
-- **[[Body Triangle]]** → [[Body Triangle]] (Opponent Success: 60%)
-- **[[Choke from Crucifix]]** → [[Lost by Submission]] (Opponent Success: 55%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Counter to Mount Transition]]** → [[Half Guard]]
-  - Opponent attempts to transition to mount and creates space during movement
-- **[[Rolling Counter to Guard]]** → [[Closed Guard]]
-  - Opponent's weight shifts forward excessively during choke attempt
-- **[[Hook Removal to Turtle]]** → [[Turtle]]
-  - Opponent's hooks become shallow or feet cross in front of body
-- **[[Escape During Submission Attempt]]** → [[Turtle]]
-  - Opponent breaks harness grip prematurely to attack submission without securing position
 
 
 </section>
@@ -293,8 +235,8 @@ Successful defense from back control requires understanding the hierarchy of con
 ## Decision Making from This Position
 
 **If opponent has both hooks in and harness grip with arm attacking your neck:**
-- Execute **[[Immediate chin tuck and two-on-one hand fighting]]** → [[Defensive Position]] (Probability: 70%)
-- Execute **[[Address choking arm with both hands]]** → [[Defensive Position]] (Probability: 65%)
+- Execute **[[Immediate chin tuck and two-on-one hand fighting]]** → [[Back Control]] (Probability: 70%)
+- Execute **[[Address choking arm with both hands]]** → [[Back Control]] (Probability: 65%)
 
 
 **If you successfully defend neck and opponent maintains hooks without immediate submission threat:**
@@ -303,8 +245,8 @@ Successful defense from back control requires understanding the hierarchy of con
 
 
 **If opponent has body triangle locked and attacking neck:**
-- Execute **[[Defend neck while attempting body triangle escape]]** → [[Defensive Position]] (Probability: 35%)
-- Execute **[[Accept defensive holding while managing energy]]** → [[Defensive Position]] (Probability: 50%)
+- Execute **[[Defend neck while attempting body triangle escape]]** → [[Back Control]] (Probability: 35%)
+- Execute **[[Accept defensive holding while managing energy]]** → [[Back Control]] (Probability: 50%)
 
 
 **If you create space and remove one hook successfully:**
@@ -390,29 +332,7 @@ Partner establishes back control with both hooks but does not attack submissions
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
-
-### Primary Escape to Guard
-
-`Back Control Bottom → Hand Fighting from Back → Hip Escape → Hook Removal Sequence → Half Guard → Closed Guard`
-
-### Turtle Escape Sequence
-
-`Back Control Bottom → Chin Protection → Hip Escape → Hook Removal Sequence → Turtle → Turtle to Guard`
-
-### Advanced Rolling Escape
-
-`Back Control Bottom → Chin Protection → Creating Space → Granby Roll → Closed Guard`
-
-### Counter During Transition
-
-`Back Control Bottom → Submission Defense → Transition to Mount → Half Guard`
-
-
-
-</section>
 
 <section id="position-metrics" class="content-section">
 
@@ -434,14 +354,12 @@ Partner establishes back control with both hooks but does not attack submissions
 ## Related Positions and Techniques
 
 - **[[Back Escape Series]]** - Comprehensive escape system for back control bottom position
-- **[[Hand Fighting from Back]]** - Specific defensive methodology for preventing choke attacks
+- **[[Hip Escape]]** - Fundamental movement for creating escape angles
 - **[[Turtle]]** - Common escape target position offering better defensive options
 - **[[Half Guard]]** - Improved position often achieved through partial back escape
 - **[[Rear Naked Choke]]** - Primary submission threat requiring constant defensive attention
-- **[[Chin Protection]]** - Fundamental defensive principle for back control survival
-- **[[RNC Defense]]** - Specific defensive techniques against rear naked choke attacks
-- **[[Escape Hierarchy]]** - Systematic framework for prioritizing defensive actions
-- **[[Back Defense Protocol]]** - Comprehensive defensive system for back control situations
+- **[[Closed Guard]]** - Neutral guard position achievable through complete escape
+- **[[Granby Roll]]** - Alternative escape movement for creating space and angle
 
 
 </section>

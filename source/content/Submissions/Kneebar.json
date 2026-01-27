@@ -260,6 +260,31 @@
       "question": "What muscle groups should you engage for safe, controlled kneebar pressure, and why is explosive bridging dangerous?",
       "answer": "Engage your posterior chain - glutes and hamstrings - to create controlled hip extension. Think of slowly arching your back with shoulder blades pressing into mat, creating a smooth arc of pressure over several seconds. Explosive bridging is dangerous because it generates sudden, intense force that can rupture knee ligaments before partner can tap. The explosive motion also reduces your control and increases injury risk. Controlled posterior chain engagement allows progressive pressure that respects training partner's safety while maintaining technical efficiency.",
       "safety_critical": true
+    },
+    {
+      "question": "Your opponent begins pulling their knee inward to flex the joint and relieve pressure - what adjustment do you make to maintain the finish?",
+      "answer": "Immediately scoot your hips closer to their body to re-establish contact with the back of their knee. Simultaneously increase your pulling tension on the ankle, drawing it tighter to your chest. If they have already created significant knee flexion, you must address this before continuing - extend their leg by driving your hips forward while pulling the ankle, essentially straightening the leg before reapplying finishing pressure. If knee flexion persists, consider transitioning to heel hook as their inward rotation may expose the heel.",
+      "safety_critical": false
+    },
+    {
+      "question": "What indicators tell you the kneebar is locked and your opponent has no escape?",
+      "answer": "The point of no escape occurs when: (1) your hips are in contact with the back of their knee with perpendicular alignment, (2) their ankle is secured tight to your chest with no space, (3) their free leg is controlled or cleared and cannot create frames, (4) your leg triangle prevents them from rotating or extracting. At this point, any hip extension creates hyperextension pressure. You will feel their leg become rigid as extension begins - this is when they must tap or face injury. Never accelerate pressure at this point; maintain progressive application.",
+      "safety_critical": false
+    },
+    {
+      "question": "How do you adjust your grip if the opponent's leg is sweaty or slippery in no-gi competition?",
+      "answer": "In no-gi with sweaty legs, transition from a standard ankle cup to a figure-four grip configuration where one arm wraps behind the Achilles and grips your own wrist or forearm. This creates a locked mechanical grip that doesn't rely on friction. You can also grip higher on the calf muscle belly where there's more surface area. Some competitors use a palm-to-palm Gable grip behind the ankle. The key is using interlocking arm positions rather than just hand grips on skin.",
+      "safety_critical": false
+    },
+    {
+      "question": "In competition, what strategies maximize your kneebar finish rate while maintaining safety?",
+      "answer": "Competition strategies include: (1) Attack when opponent is tired or distracted by other threats, (2) Use the kneebar as part of a dilemma system - threaten heel hook to get them to defend, then attack the kneebar when they hide the heel, (3) Establish position completely before applying any finishing pressure, (4) In training, practice at match pace but with controlled pressure - the setup can be fast, but the finish should still be progressive enough for tap recognition, (5) Focus on cutting off escape routes before applying pressure - a secure position finishes itself.",
+      "safety_critical": false
+    },
+    {
+      "question": "What is the difference between a kneebar that causes pain and one that causes structural damage, and why is this distinction critical for training?",
+      "answer": "Pain from a kneebar often occurs before structural damage as the ligaments stretch and pressure builds on the joint capsule. However, the margin between pain and structural damage in knee attacks is extremely small compared to other submissions. The ligaments can rupture with minimal additional force once the joint reaches its extension limit. This is why partners must tap at the first sensation of pressure, not pain - waiting for pain means you're already in the danger zone. In training, both partners must understand that the tap comes when extension begins, not when it hurts.",
+      "safety_critical": true
     }
   ],
   "training_progressions_and_safety_protocols": [
@@ -326,14 +351,9 @@
     "Outside Heel Hook",
     "Calf Slicer",
     "Estima Lock",
-    "Kneebar Finish",
-    "Kneebar Variations",
-    "Kneebar from 50-50",
-    "Kneebar from Guard",
-    "Kneebar from Half Guard",
-    "Kneebar from Top",
     "Achilles Lock",
-    "Straight Footlock"
+    "Kneebar Variations",
+    "Calf Slicer from 50-50"
   ],
   "related_content": [
     {
@@ -357,28 +377,20 @@
       "relationship": "Broader category of positions that includes all kneebar setups and control variations"
     },
     {
-      "name": "Craig Jones Leg Lock System",
-      "relationship": "Modern approach emphasizing kneebar as dilemma-creating tool within aggressive leg lock game"
-    },
-    {
-      "name": "Knee Bar from Top Positions",
-      "relationship": "Transition technique for entering kneebar from passing positions"
-    },
-    {
-      "name": "Outside Ashi Entry",
-      "relationship": "Entry method for establishing kneebar-ready position from standing or top control"
-    },
-    {
-      "name": "Inside Ashi Entry",
-      "relationship": "Alternative entry emphasizing inside position leg control for kneebar setups"
-    },
-    {
       "name": "X-Guard",
       "relationship": "Guard position offering sweep to kneebar combinations, particularly single leg X variations"
     },
     {
       "name": "De La Riva Guard",
       "relationship": "Guard with leg control hooks that can transition to kneebar attacks when opponent stands or passes"
+    },
+    {
+      "name": "Inside Ashi-Garami",
+      "relationship": "Foundation leg entanglement providing primary kneebar entries with inside position control"
+    },
+    {
+      "name": "Outside Ashi-Garami",
+      "relationship": "Alternative leg entanglement offering kneebar opportunities from outside angle"
     }
   ]
 }

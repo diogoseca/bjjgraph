@@ -60,7 +60,7 @@ Success in Half Guard demands understanding the fundamental asymmetry that defin
 | [[Knee Shield Half Guard]] | Low to Medium | Medium | Medium | Medium | Knee shield barrier prevents pressure contact |
 | [[Lockdown]] | Low to Medium | Medium to High | Medium | Medium | Leg triangle trades mobility for sweeps |
 | [[Butterfly Half Guard]] | Medium | Medium to High | Medium | Medium | Butterfly hook elevation with half guard control |
-| [[Z-Lock Half Guard]] | Medium | Low to Medium | Medium | Medium | Z-configuration for dynamic mobility attacks |
+| [[Z-Lock Half Guard]] | Medium | Low to Medium | Medium | Medium | Z-config adds dual-threat mobility to lockdown |
 | [[Flattened Half Guard]] | High | Low to Medium | High | Medium | Minimal frames trades mobility for survival |
 | [[Reverse Half Guard]] | Medium | Medium | Medium | Medium | Inverted orientation creates unique sweep angles |
 | [[Pocket Half Guard]] | Low to Medium | Low | Medium | Medium | Deep underhook creates sweep/pass dilemma |
@@ -96,32 +96,24 @@ Success in Half Guard demands understanding the fundamental asymmetry that defin
 - Transition between half guard variations based on opponent's pressure and positioning to maintain offensive options
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Underhook Sweep from Half]]** → [[Side Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Underhook Sweep from Half]]** (20% of attempts)
 
-- **[[Old School Sweep]]** → [[Mount]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Old School Sweep]]** (15% of attempts)
 
-- **[[Deep Half Entry]]** → [[Deep Half Guard]]
-  - Success Rate: Beginner 40%, Intermediate 60%, Advanced 75%
+- **[[Deep Half Entry]]** (15% of attempts)
 
-- **[[Lockdown Sweeps]]** → [[Side Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Lockdown Sweeps]]** (10% of attempts)
 
-- **[[Electric Chair Submission]]** → [[Electric Chair]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+- **[[Electric Chair Submission]]** (5% of attempts)
 
-- **[[Back Take Generic]]** → [[Back Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Half Guard to Back Take]]** (15% of attempts)
 
-- **[[Knee Shield Retention]]** → [[Knee Shield Half Guard]]
-  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 80%
+- **[[Waiter Sweep]]** (10% of attempts)
 
-- **[[Waiter Sweep]]** → [[Side Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Kimura from Half Guard]]** (10% of attempts)
 
 
 ### Common Mistakes
@@ -175,32 +167,24 @@ Success in Half Guard demands understanding the fundamental asymmetry that defin
 - Neutralize offensive threats including sweeps, back takes, and submissions before committing to passing sequences
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Knee Slice Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 70%
+- **[[Knee Slice Pass]]** (25% of attempts)
 
-- **[[Smash Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 75%
+- **[[Smash Pass]]** (15% of attempts)
 
-- **[[Underhook Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 65%
+- **[[Underhook Pass]]** (15% of attempts)
 
-- **[[Crossface Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 70%
+- **[[Long Step Pass]]** (8% of attempts)
 
-- **[[Long Step Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 20%, Intermediate 40%, Advanced 60%
+- **[[Crossface Pass]]** (12% of attempts)
 
-- **[[Kimura from Half Guard]]** → [[Kimura Control]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 50%
+- **[[Kimura from Half Guard]]** (8% of attempts)
 
-- **[[Darce Setup]]** → [[D'arce Control]]
-  - Success Rate: Beginner 10%, Intermediate 25%, Advanced 45%
+- **[[Darce Choke]]** (7% of attempts)
 
-- **[[Transition to Mount]]** → [[Mount]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 50%
+- **[[Back Step Pass]]** (10% of attempts)
 
 
 ### Common Mistakes

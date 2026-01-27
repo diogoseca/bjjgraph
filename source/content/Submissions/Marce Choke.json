@@ -234,6 +234,36 @@
       "question": "How should you progressively apply pressure during the Marce Choke in training, and why is this timing critical?",
       "answer": "In training, you should apply pressure progressively over 3-5 seconds minimum, starting light and gradually increasing to give your partner clear awareness of the danger and adequate time to tap. This is critical because blood chokes can cause unconsciousness quickly - often within 3-8 seconds of full pressure - and if you apply maximum pressure instantly, your partner may not have time to recognize the danger and tap before losing consciousness. Progressive application builds trust in training, prevents injuries, allows learning of the technique and its defenses, and develops the sensitivity needed to control the submission effectively in competition.",
       "safety_critical": true
+    },
+    {
+      "question": "Your opponent starts posturing up and creating frames as you attempt to feed the lapel - what adjustment prevents their escape?",
+      "answer": "When your opponent starts creating frames, immediately drive your shoulder into their face to collapse their posture before they can establish strong frames. Use your free hand to strip their grips or control their near arm. If they've already established frames, shift your hips lower and angle toward north-south position to change the pressure angle and remove their framing leverage. The key is recognizing the frame attempt early and addressing it before it becomes established - once strong frames are in place, you may need to abandon the Marce Choke attempt and maintain positional control for a different attack.",
+      "safety_critical": false
+    },
+    {
+      "question": "What indicates you have achieved the point of no return where the choke will finish if maintained?",
+      "answer": "The point of no return is reached when the lapel is fed deep across both sides of the neck forming a tight V-shape, your body weight is driving perpendicular pressure through the lapel, and you feel the opponent's defensive movements becoming weaker or more desperate. Physical indicators include their face changing color (reddening), their breathing becoming labored or stopping, and a noticeable decrease in the strength of their grip fighting. At this point, the carotid arteries are being compressed bilaterally and unconsciousness will occur within 3-8 seconds if maintained. In training, this is when you should expect an immediate tap - if it doesn't come, be prepared to release immediately as unconsciousness may be imminent.",
+      "safety_critical": true
+    },
+    {
+      "question": "How do you adjust your grip if the lapel starts slipping during the finishing sequence?",
+      "answer": "If the lapel begins slipping, immediately re-grip deeper on the material rather than trying to maintain the failing grip. Slide your hand further along the lapel toward their opposite armpit to secure more fabric. Simultaneously increase your chest pressure to prevent them from capitalizing on the momentary adjustment. If the slip is significant, you may need to restart the feed sequence - pull the lapel back across their neck while maintaining side control pressure. Never try to finish with a compromised grip as this converts the blood choke to an ineffective air choke that wastes energy and gives them escape opportunities.",
+      "safety_critical": false
+    },
+    {
+      "question": "In competition, when should you commit fully to finishing the Marce Choke versus transitioning to another attack?",
+      "answer": "Commit fully to finishing when all setup requirements are met: deep lapel grip across both carotids, opponent flat on their back, near arm controlled, and your body weight properly positioned. Transition to another attack when the opponent successfully turns to their side, establishes strong frames you cannot collapse, strips your lapel grip, or when the clock pressure requires points rather than submission hunting. In competition with limited time remaining, securing side control or mount points may be strategically superior to forcing a compromised choke attempt. The decision requires reading your opponent's defensive capability and the match situation.",
+      "safety_critical": false
+    },
+    {
+      "question": "What are the key differences between finishing the Marce Choke from side control versus north-south position?",
+      "answer": "From side control, your pressure angle is diagonal across their body, and you finish by driving your shoulder into their face while pulling the lapel. The opponent can more easily turn into you to escape. From north-south, your pressure is directly perpendicular to their neck, driving straight down through your chest, which creates more concentrated choking force and eliminates the turning escape. North-south also allows you to trap both of their arms more easily with your body. However, north-south requires more precise body positioning and is easier to lose if they hip escape effectively. Choose side control when you have excellent near-arm control; choose north-south when they're successfully defending by framing.",
+      "safety_critical": false
+    },
+    {
+      "question": "What recovery protocol should be followed after a training partner is briefly rendered unconscious by the Marce Choke?",
+      "answer": "Immediately release all pressure and position them on their side in the recovery position. Check for breathing and responsiveness - most people regain consciousness within 5-10 seconds after a blood choke is released. Do not shake them or slap their face. Speak calmly to them as they wake. Allow them to remain lying down for 30-60 seconds after regaining consciousness before attempting to sit up. They should not continue training for at least 5-10 minutes and should be monitored for headache, dizziness, or confusion. If unconsciousness lasts more than 10-15 seconds or they show any concerning symptoms, seek medical attention immediately. Document the incident and discuss what led to the unconsciousness to prevent recurrence.",
+      "safety_critical": true
     }
   ],
   "training_progressions_and_safety_protocols": [
@@ -291,7 +321,6 @@
   "related_submissions": [
     "Loop Choke",
     "Cross Collar Choke",
-    "Paper Cutter Choke",
     "Baseball Bat Choke",
     "Breadcutter Choke",
     "Bow and Arrow Choke",
@@ -299,7 +328,8 @@
     "Ezekiel Choke",
     "Arm Triangle",
     "Kimura from Side Control",
-    "Americana from Side Control"
+    "Americana from Side Control",
+    "Brabo Choke"
   ],
   "related_content": [
     {
@@ -323,16 +353,16 @@
       "relationship": "Shares the concept of using the gi to create carotid compression"
     },
     {
-      "name": "Collar Control",
-      "relationship": "Fundamental principle for all lapel-based submissions"
+      "name": "Knee on Belly",
+      "relationship": "Transitional position that offers excellent setup opportunities"
     },
     {
-      "name": "Side Control Escape",
-      "relationship": "Primary defensive response that must be prevented when attacking with Marce Choke"
+      "name": "Brabo Choke",
+      "relationship": "Related gi choke with similar pressure mechanics from top positions"
     },
     {
-      "name": "Chin Protection",
-      "relationship": "Defensive principle that is less effective against properly applied Marce Choke"
+      "name": "Breadcutter Choke",
+      "relationship": "Alternative lapel choke from similar positions with different finishing mechanics"
     }
   ]
 }

@@ -287,6 +287,26 @@
       "question": "What role does head positioning play in the high elbow guillotine, and where specifically should the crown of your head make contact?",
       "answer": "The crown of your head should drive into opponent's sternum or chest area, serving multiple critical functions: it prevents opponent from driving forward to stack you, creates a structural frame that reinforces your shoulder pressure, and allows you to use your neck muscles to add finishing power. Your chin should be tucked to protect your own neck. This head positioning is what transforms separate upper and lower body controls into one integrated submission system.",
       "safety_critical": false
+    },
+    {
+      "question": "Your opponent starts to posture up while you have the high elbow guillotine locked - what grip adjustment prevents their escape?",
+      "answer": "When the opponent attempts to posture, immediately tighten your grip connection and increase downward pulling pressure with your arms while simultaneously closing guard tighter or driving hips forward if standing. Use your head crown pressure to prevent them from lifting their torso. If they create significant postural recovery, adjust your elbow position even higher and consider transitioning to a standing finish where you can use gravity and body weight to re-break their posture.",
+      "safety_critical": false
+    },
+    {
+      "question": "What anatomical structures does the high elbow guillotine primarily attack, and how does the angle of the forearm affect which structure receives pressure?",
+      "answer": "The high elbow guillotine primarily attacks the carotid arteries on both sides of the neck, creating a blood choke that restricts oxygen to the brain. When the elbow is elevated above the shoulder line, the forearm angle directs pressure laterally into the carotids rather than straight back into the trachea. A horizontal forearm tends to compress the trachea (air choke), while the diagonal high elbow angle creates the arterial compression characteristic of an effective blood choke. This is why proper elbow elevation is the defining feature of this variation.",
+      "safety_critical": false
+    },
+    {
+      "question": "At what point during the high elbow guillotine is the opponent past the point of no escape, and what indicators tell you the submission is fully secured?",
+      "answer": "The point of no escape occurs when all five structural components are synchronized: deep grip around neck, elevated elbow above shoulder line, non-choking shoulder driving into opposite carotid, guard closed or hips connected eliminating distance, and crown of head anchored to sternum. Indicators that the submission is secured include opponent's face changing color, cessation of effective hand fighting, their body beginning to relax or go limp, and inability to create any space despite defensive effort. At this point, the tap is imminent and you should be monitoring carefully for immediate release.",
+      "safety_critical": true
+    },
+    {
+      "question": "How do you maintain control when transitioning from standing high elbow guillotine to guard pull, and what common mistake causes the choke to loosen during this transition?",
+      "answer": "Maintain control during the guard pull transition by keeping all upper body structure locked in place - grip connection, elbow elevation, and shoulder pressure must not change as you sit. The common mistake is loosening the grip or lowering the elbow during the sit, which allows the opponent to extract their head. To prevent this, think of the guard pull as bringing your legs to the opponent rather than dropping your upper body down. Close guard immediately upon sitting to trap them before they can create distance. The transition itself often tightens the choke when done correctly.",
+      "safety_critical": false
     }
   ],
   "training_progressions_and_safety_protocols": [
@@ -340,12 +360,10 @@
     "Closed Guard",
     "Half Guard",
     "Turtle",
-    "Clinch",
-    "Standing Rear Clinch"
+    "Clinch"
   ],
   "related_submissions": [
     "Guillotine Choke",
-    "Guillotine Variations",
     "Arm in Guillotine",
     "Ten Finger Guillotine",
     "Chin Strap Guillotine",
@@ -353,7 +371,6 @@
     "Anaconda Choke",
     "Japanese Necktie",
     "Peruvian Necktie",
-    "Marce Choke",
     "Arm Triangle",
     "Von Flue Choke"
   ],
@@ -363,12 +380,8 @@
       "relationship": "Primary entry transition - establishes the front headlock control needed for high elbow guillotine"
     },
     {
-      "name": "Front Headlock Series",
-      "relationship": "Parent system - high elbow guillotine is one option within the broader front headlock attack system"
-    },
-    {
-      "name": "Guillotine from Turtle",
-      "relationship": "Alternative entry position - attacking turtle with high elbow variation when darce/anaconda unavailable"
+      "name": "Front Headlock",
+      "relationship": "Parent control position - high elbow guillotine is one option within the broader front headlock attack system"
     },
     {
       "name": "Guillotine Defense",
@@ -383,7 +396,7 @@
       "relationship": "Direct transition - moving from control position to submission attempt"
     },
     {
-      "name": "Snap Down to Front Headlock",
+      "name": "Snap Down",
       "relationship": "Setup sequence - creating the initial front headlock control from standing"
     },
     {
@@ -399,12 +412,12 @@
       "relationship": "Alternative attack - related front headlock submission with similar entries"
     },
     {
-      "name": "Head Control",
-      "relationship": "Fundamental principle - controlling the head is prerequisite for all guillotine variations"
+      "name": "Closed Guard",
+      "relationship": "Finishing position - common guard configuration for completing the high elbow guillotine"
     },
     {
-      "name": "Chin Protection",
-      "relationship": "Defensive principle - understanding how opponents protect their neck improves your setups"
+      "name": "Turtle",
+      "relationship": "Entry position - attacking turtle with high elbow variation when darce/anaconda unavailable"
     }
   ]
 }

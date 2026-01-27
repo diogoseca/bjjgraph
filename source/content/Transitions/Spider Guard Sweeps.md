@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Spider Guard Sweeps | BJJ Technique | BJJ Graph"
 description: "Learn Spider Guard sweeps in BJJ. Triangle setup, omoplata sweep, and elevator sweep with step-by-step execution. Beginner 35%, Intermediate 50%, Advanced 65%."
@@ -16,7 +17,7 @@ description: "Learn Spider Guard sweeps in BJJ. Triangle setup, omoplata sweep, 
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Spider Guard Sweeps in BJJ",
-  "description": "Step-by-step guide for Spider Guard Sweeps from Spider Guard to Mount.",
+  "description": "Step-by-step guide for Spider Guard Sweeps from Spider Guard/Bottom. Possible outcomes: Mount/Top (65%), Spider Guard/Bottom (25%), Spider Guard/Top (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -160,11 +161,25 @@ description: "Learn Spider Guard sweeps in BJJ. Triangle setup, omoplata sweep, 
 
 Spider Guard sweeps represent a fundamental attacking system from one of BJJ's most versatile open guard positions. By controlling the opponent's sleeves with your feet on their biceps, you create a pushing force that breaks their posture and base while maintaining distance control. The spider guard sweep system exploits the mechanical disadvantage created when an opponent attempts to pass while you extend their arms, making it difficult for them to maintain balance or generate forward pressure. These sweeps work synergistically with submission threats like triangles and omoplatas, creating dilemmas where defending one attack opens the opponent to another. The system scales from fundamental techniques suitable for beginners to advanced competition-level variations used at the highest levels of the sport. Understanding the biomechanics of sleeve control, foot positioning, and timing allows practitioners to chain multiple sweep attempts together, adapting to opponent reactions and creating unstoppable offensive sequences.
 
-**Starting Position**: [[Spider Guard]]
-**Ending Position**: [[Mount]]
+**From Position**: [[Spider Guard/Bottom]]
 **Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Mount/Top]] | 65% |
+| Failure | [[Spider Guard/Bottom]] | 25% |
+| Counter | [[Spider Guard/Top]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

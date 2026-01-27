@@ -47,361 +47,6 @@
       "relationship": "Alternative guard bottom may attempt during scramble"
     }
   ],
-  "bottom": {
-    "name": "Leg Drag Control Bottom",
-    "description": "Navigate leg drag control from bottom position. Master defensive techniques, escape pathways, and guard recovery strategies to prevent back takes and submissions from this compromised position.",
-    "tags": [
-      "defensive",
-      "guard-retention",
-      "escape",
-      "leg-drag-defense",
-      "intermediate"
-    ],
-    "overview": "Being caught in leg drag control from the bottom represents one of the most precarious defensive situations in modern Brazilian Jiu-Jitsu. The crossed leg creates a mechanical disadvantage that severely limits your ability to use your legs for defense, while the top player's hip control restricts your movement and creates multiple attacking opportunities. Understanding how to navigate this position is essential for any practitioner, as the leg drag has become a staple passing technique in contemporary grappling.\n\nThe immediate dangers from bottom leg drag control are threefold: back exposure, submission vulnerability, and positional consolidation. The crossed leg naturally wants to force you onto your side, exposing your back to the opponent. Simultaneously, the hip control creates openings for leg attacks, while any hesitation allows the top player to settle into side control or mount. Your defensive priorities must be clear: protect your back first, work to free your trapped leg second, and only then consider offensive options. This hierarchical approach prevents the common mistake of attempting to recover guard while inadvertently giving up more dominant positions.\n\nThe biomechanics of escaping leg drag control center on hip mobility and creating space at the correct angles. Your crossed leg acts as a fulcrum that the opponent uses to control your lower body, so simply pulling that leg back rarely succeeds. Instead, effective escapes involve creating separation at the hips, establishing frames at critical control points (usually the shoulder and hip), and timing your escape attempts to moments when the opponent adjusts their position. Understanding the relationship between your leg position and your opponent's base allows you to exploit transitional moments when they are vulnerable.\n\nDefensive success in this position requires recognizing the leg drag early in the passing sequence. Once the opponent has fully established the position with settled weight and multiple control points, escape becomes exponentially more difficult. Advanced practitioners develop sensitivity to the leg drag entry and begin their defensive responses before the position is fully locked in. This proactive defense involves grip fighting during the pass, maintaining proper distance management, and understanding which guard variations are most susceptible to leg drag entries.",
-    "state_properties": {
-      "point_value": 0,
-      "position_type": "Defensive",
-      "risk_level": "High",
-      "energy_cost": "High",
-      "time_sustainability": "Short"
-    },
-    "state_invariants": [
-      "Bottom player's near-side leg is controlled and pulled across their body by the top player, typically with the top player's arm threading under or over the leg and gripping the hip or pants. This crossed leg configuration creates the fundamental control mechanism of the position and limits the bottom player's ability to use their legs for guard retention.",
-      "Top player maintains significant hip control through the trapped leg position, with their chest or shoulder driving pressure into the bottom player's near hip. This pressure prevents the bottom player from turning fully toward the top player and creates a constant threat of back exposure as the bottom player's natural defensive reaction is to turn away.",
-      "Bottom player's far shoulder is typically pressured or controlled by the top player's free arm, either through direct shoulder pressure, a crossface, or head control. This upper body control prevents the bottom player from sitting up or turning into the top player, completing the control system that the leg drag creates."
-    ],
-    "prerequisites": [
-      "Opponent has achieved control of one leg and pulled it across your body during guard passing sequence",
-      "You have not yet been turned completely to your side or onto your stomach",
-      "Your back is not yet fully taken but is under immediate threat",
-      "Traditional guard retention frames (knee shield, feet on hips) are no longer available due to leg position"
-    ],
-    "key_principles": [
-      "Your first priority is preventing back exposure—never turn completely away from opponent",
-      "Create frames at shoulder and hip to generate space before attempting leg recovery",
-      "Time your escape attempts to moments when opponent shifts weight or adjusts position",
-      "Your crossed leg is a liability—free it as quickly as possible or accept the transition",
-      "Staying flat on your back maximizes defensive options compared to being on your side",
-      "If you cannot free your leg, transition to a safer position like turtle rather than giving up back",
-      "Recognize the position early during the passing sequence to defend proactively"
-    ],
-    "offensive_transitions": [
-      {
-        "technique": "Leg Drag Escape to Closed Guard",
-        "target_position": "Closed Guard",
-        "success_rates": {
-          "beginner": 15,
-          "intermediate": 30,
-          "advanced": 45,
-          "description": "Recovering closed guard by freeing trapped leg and wrapping opponent"
-        }
-      },
-      {
-        "technique": "Technical Standup",
-        "target_position": "Standing Position",
-        "success_rates": {
-          "beginner": 20,
-          "intermediate": 35,
-          "advanced": 50,
-          "description": "Using frames to create space and standing up to reset position"
-        }
-      },
-      {
-        "technique": "Leg Drag Counter to Half Guard",
-        "target_position": "Half Guard",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 40,
-          "advanced": 55,
-          "description": "Recapturing opponent's leg to establish half guard control"
-        }
-      },
-      {
-        "technique": "Roll to Turtle",
-        "target_position": "Turtle",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 45,
-          "advanced": 60,
-          "description": "Controlled roll to hands and knees when leg cannot be freed"
-        }
-      },
-      {
-        "technique": "Inside Position Recovery",
-        "target_position": "Butterfly Guard",
-        "success_rates": {
-          "beginner": 10,
-          "intermediate": 25,
-          "advanced": 40,
-          "description": "Creating butterfly hooks when opponent overcommits to leg drag"
-        }
-      },
-      {
-        "technique": "Granby Roll Escape",
-        "target_position": "Open Guard",
-        "success_rates": {
-          "beginner": 5,
-          "intermediate": 20,
-          "advanced": 35,
-          "description": "Rolling through to opposite side to reset guard"
-        }
-      },
-      {
-        "technique": "Leg Recovery to De La Riva",
-        "target_position": "De La Riva Guard",
-        "success_rates": {
-          "beginner": 8,
-          "intermediate": 22,
-          "advanced": 38,
-          "description": "Threading free leg into DLR hook during scramble"
-        }
-      },
-      {
-        "technique": "Frame and Shrimp to Guard",
-        "target_position": "Open Guard",
-        "success_rates": {
-          "beginner": 18,
-          "intermediate": 32,
-          "advanced": 48,
-          "description": "Creating distance with frames and recovering open guard structure"
-        }
-      }
-    ],
-    "defensive_responses": [
-      {
-        "technique": "Leg Drag Pass to Side Control",
-        "target_position": "Side Control",
-        "success_rate": 65
-      },
-      {
-        "technique": "Leg Drag to Back Take",
-        "target_position": "Back Control",
-        "success_rate": 55
-      },
-      {
-        "technique": "Transition to Mount",
-        "target_position": "Mount",
-        "success_rate": 45
-      },
-      {
-        "technique": "Leg Drag to Knee on Belly",
-        "target_position": "Knee on Belly",
-        "success_rate": 50
-      },
-      {
-        "technique": "Leg Entanglement Entry",
-        "target_position": "Inside Ashi-Garami",
-        "success_rate": 40
-      },
-      {
-        "technique": "Crucifix Control Setup",
-        "target_position": "Crucifix",
-        "success_rate": 25
-      }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Counter Back Take Attempt",
-        "target_position": "Half Guard",
-        "trigger": "When opponent attempts to take back and you prevent hook insertion by capturing their leg"
-      },
-      {
-        "technique": "Counter to Leg Entanglement",
-        "target_position": "Single Leg X-Guard",
-        "trigger": "When opponent drops for leg attack and you establish SLX hook before they secure heel"
-      },
-      {
-        "technique": "Re-Guard During Transition",
-        "target_position": "Butterfly Guard",
-        "trigger": "When opponent lifts pressure to transition and you insert butterfly hooks"
-      }
-    ],
-    "decision_tree": [
-      {
-        "condition": "If opponent has strong shoulder control and is driving toward back take",
-        "actions": [
-          {
-            "technique": "Roll to Turtle",
-            "target": "Turtle",
-            "probability": 60
-          },
-          {
-            "technique": "Fight underhook and frame hip",
-            "target": "Leg Drag Control Bottom",
-            "probability": 40
-          }
-        ]
-      },
-      {
-        "condition": "If opponent's weight shifts forward toward head control",
-        "actions": [
-          {
-            "technique": "Technical Standup",
-            "target": "Standing Position",
-            "probability": 55
-          },
-          {
-            "technique": "Granby Roll Escape",
-            "target": "Open Guard",
-            "probability": 45
-          }
-        ]
-      },
-      {
-        "condition": "If opponent loosens leg control to adjust grip",
-        "actions": [
-          {
-            "technique": "Leg Drag Counter to Half Guard",
-            "target": "Half Guard",
-            "probability": 65
-          },
-          {
-            "technique": "Frame and Shrimp to Guard",
-            "target": "Open Guard",
-            "probability": 35
-          }
-        ]
-      },
-      {
-        "condition": "If opponent drops weight to attack leg entanglement",
-        "actions": [
-          {
-            "technique": "Inside Position Recovery",
-            "target": "Butterfly Guard",
-            "probability": 50
-          },
-          {
-            "technique": "Counter to Leg Entanglement",
-            "target": "Single Leg X-Guard",
-            "probability": 50
-          }
-        ]
-      }
-    ],
-    "common_errors": [
-      {
-        "error": "Turning away from opponent to protect guard, exposing back",
-        "consequence": "Gives opponent easy back take with hooks insertion",
-        "correction": "Stay square or slightly toward opponent, use frames to maintain distance while working leg free"
-      },
-      {
-        "error": "Pulling trapped leg straight back without creating space first",
-        "consequence": "Opponent's grip and body weight make this impossible, wasting energy",
-        "correction": "Frame at shoulder and hip to create separation before attempting leg extraction"
-      },
-      {
-        "error": "Focusing only on freeing the trapped leg while ignoring back exposure",
-        "consequence": "Successfully free leg but opponent has already secured back control",
-        "correction": "Prioritize preventing hooks and back control before working on leg recovery"
-      },
-      {
-        "error": "Remaining flat on back too long without active escape attempts",
-        "consequence": "Opponent settles weight and transitions to mount or side control",
-        "correction": "Recognize you have 1-2 seconds before consolidation, act immediately with frames and movement"
-      },
-      {
-        "error": "Using weak frames at opponent's chest instead of structural points",
-        "consequence": "Opponent easily collapses frames and advances position",
-        "correction": "Frame at shoulder and hip with elbows tight, creating maximum structural integrity"
-      },
-      {
-        "error": "Attempting to sit up without first addressing the crossed leg",
-        "consequence": "Opponent uses your momentum to complete the pass to side control",
-        "correction": "Free leg or accept turtle transition before attempting to sit up to guard"
-      }
-    ],
-    "training_drills": [
-      {
-        "name": "Timed Leg Drag Escape",
-        "description": "Partner establishes leg drag control with light pressure. Bottom player has 5 seconds to escape to guard or turtle. Reset and repeat with increasing pressure resistance.",
-        "duration": "5 minutes"
-      },
-      {
-        "name": "Progressive Leg Drag Defense",
-        "description": "Partner attempts leg drag pass from various guards (DLR, RDLR, seated). Bottom player works to prevent position establishment, then practices early recognition and counter-measures.",
-        "duration": "6 minutes"
-      },
-      {
-        "name": "Leg Drag Escape to Specific Position",
-        "description": "From established leg drag bottom, work specific escape pathway (only half guard recovery, only technical standup, etc.). Develop each escape option in isolation before combining.",
-        "duration": "4 minutes per escape type"
-      },
-      {
-        "name": "Back Exposure Prevention Drill",
-        "description": "Partner has leg drag control and actively attempts back take. Bottom player focuses solely on preventing hooks and back exposure while maintaining awareness of position.",
-        "duration": "3 minutes"
-      }
-    ],
-    "optimal_submission_paths": [
-      {
-        "name": "Escape and Counter",
-        "path": "Leg Drag Control Bottom → Technical Standup → Standing Position → Guard Pull → Closed Guard → Triangle Choke"
-      },
-      {
-        "name": "Recovery to Attack",
-        "path": "Leg Drag Control Bottom → Leg Recovery to Half Guard → Deep Half Guard → Homer Simpson Sweep → Mount → Armbar from Mount"
-      },
-      {
-        "name": "Turtle Transition Path",
-        "path": "Leg Drag Control Bottom → Roll to Turtle → Turtle to Guard → Butterfly Guard → Butterfly Sweep → Mount → Cross Collar Choke"
-      }
-    ],
-    "related_content": [
-      {
-        "name": "Half Guard",
-        "relationship": "Primary recovery target when recapturing opponent's leg"
-      },
-      {
-        "name": "Turtle",
-        "relationship": "Safer transition option when leg cannot be freed"
-      },
-      {
-        "name": "Technical Standup Concept",
-        "relationship": "Key principle for escaping when frames create sufficient space"
-      },
-      {
-        "name": "Guard Retention",
-        "relationship": "Foundational defensive principle for preventing leg drag entry"
-      },
-      {
-        "name": "Frame Creation",
-        "relationship": "Essential technique for creating space before escape attempts"
-      },
-      {
-        "name": "Shrimping",
-        "relationship": "Movement pattern used in conjunction with frames to escape"
-      },
-      {
-        "name": "Back Control",
-        "relationship": "Primary threat to defend against from this position"
-      },
-      {
-        "name": "Open Guard",
-        "relationship": "Target position for successful guard recovery"
-      }
-    ],
-    "position_metrics": {
-      "retention_rate": {
-        "beginner": 70,
-        "intermediate": 50,
-        "advanced": 30,
-        "description": "Probability opponent advances to side control or back within 10 seconds"
-      },
-      "advancement_probability": {
-        "beginner": 20,
-        "intermediate": 40,
-        "advanced": 60,
-        "description": "Probability of successfully recovering guard or escaping to neutral"
-      },
-      "submission_probability": {
-        "beginner": 5,
-        "intermediate": 3,
-        "advanced": 2,
-        "description": "Probability of being submitted directly from this position"
-      },
-      "average_time": "3-8 seconds before position transitions to side control, back control, or guard recovery"
-    }
-  },
   "top": {
     "name": "Leg Drag Control Top",
     "description": "Master leg drag control from top position. Complete strategic guide to maintaining control, advancing to dominant positions, and finishing with submissions from this powerful passing position.",
@@ -440,160 +85,38 @@
       "Be prepared to transition immediately when opponent creates space or turns",
       "Weight distribution must be dynamic—shift between control points based on opponent's movement"
     ],
-    "offensive_transitions": [
+    "knowledge_assessment": [
       {
-        "technique": "Leg Drag Pass to Side Control",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 45,
-          "intermediate": 65,
-          "advanced": 80,
-          "description": "Completing pass by transitioning to standard side control"
-        }
+        "question": "Your opponent starts bridging aggressively while you have leg drag control—what adjustment do you make?",
+        "answer": "When the opponent bridges, drive your chest pressure lower into their hip while posting your free hand wide on the mat for base. The bridge creates momentary space, so immediately follow their movement and use it to advance to mount or slide to side control. Do not fight the bridge statically—flow with it and use the momentum to consolidate."
       },
       {
-        "technique": "Leg Drag to Back Take",
-        "target_position": "Back Control",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 55,
-          "advanced": 75,
-          "description": "Taking back when opponent turns away to defend"
-        }
+        "question": "What are the essential grips for maintaining leg drag control from top position?",
+        "answer": "The primary grip is on the opponent's dragged leg, controlling the hip, pants, or belt to maintain the crossed-leg configuration. The secondary grip controls the far shoulder, establishes a crossface, or controls the head to prevent rotation. In no-gi, you use underhooks and overhooks on the leg combined with shoulder or head pressure. Both grips work together as a system—losing either compromises the position."
       },
       {
-        "technique": "Leg Drag to Mount",
-        "target_position": "Mount",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 50,
-          "advanced": 70,
-          "description": "Transitioning to mount when opponent stays flat"
-        }
+        "question": "How do you shut down the opponent's primary escape when they try to hip escape and recover guard?",
+        "answer": "When the opponent attempts to hip escape, immediately increase pressure on their shoulder or head control while driving your hips forward to close the space they're creating. Follow their hip movement with your body, maintaining the crossed-leg configuration. If they create significant space, transition to knee on belly or switch your angle to re-establish control before they can insert a knee shield or hook."
       },
       {
-        "technique": "Leg Drag to Knee on Belly",
-        "target_position": "Knee on Belly",
-        "success_rates": {
-          "beginner": 40,
-          "intermediate": 60,
-          "advanced": 75,
-          "description": "Quick knee slice to knee on belly position"
-        }
+        "question": "What are your grip priorities when you feel your opponent starting to create space?",
+        "answer": "When space is created, prioritize the shoulder or head control over the leg control. The upper body control prevents them from facing you and re-guarding, while the leg will naturally stay trapped if you maintain hip pressure. If you must choose, release the leg grip temporarily to establish stronger upper body control, then immediately re-secure the leg once they're stabilized."
       },
       {
-        "technique": "Leg Drag to North-South",
-        "target_position": "North-South",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 45,
-          "advanced": 65,
-          "description": "Transitioning to north-south when opponent turns into you"
-        }
+        "question": "How should you apply pressure in leg drag control without exhausting yourself?",
+        "answer": "Use skeletal alignment rather than muscular effort. Keep your chest bone-on-bone with their hip, letting gravity do the work. Your elbows should stay tight to your body, not flared. Drive pressure at 45-degree angles rather than straight down—this is more efficient and harder to escape. Stay on the balls of your feet ready to transition rather than sitting heavy, which wastes energy and slows your reactions."
       },
       {
-        "technique": "Leg Drag to Crucifix",
-        "target_position": "Crucifix",
-        "success_rates": {
-          "beginner": 15,
-          "intermediate": 35,
-          "advanced": 55,
-          "description": "Securing crucifix when opponent sits up and exposes arm"
-        }
+        "question": "Your opponent turns away from you while in leg drag control—how do you anticipate and respond?",
+        "answer": "The moment you feel them start to turn away, immediately release your shoulder control and reach over their back for the far hip or seatbelt control. Your leg control arm slides under their armpit or around their waist. Insert your bottom hook first as they expose their back, then secure the seatbelt grip before inserting the second hook. Turning away is what you want them to do—follow immediately and the back take is high-percentage."
       },
       {
-        "technique": "Leg Drag to Inside Ashi",
-        "target_position": "Inside Ashi-Garami",
-        "success_rates": {
-          "beginner": 20,
-          "intermediate": 40,
-          "advanced": 60,
-          "description": "Transitioning to leg entanglement when opponent defends upper body strongly"
-        }
+        "question": "How do you manage energy when your opponent is actively defending in leg drag control?",
+        "answer": "The key is making your opponent work harder than you. Constantly threaten advancement—back take, mount, or side control—forcing them to react. Each time they defend one attack, immediately threaten another. This drains their energy while you use efficient mechanics. If they stall, maintain position with minimal effort using proper pressure angles, then explode when an opening appears. The position should feel active but not exhausting."
       },
       {
-        "technique": "Leg Drag to Kimura Control",
-        "target_position": "Kimura Control",
-        "success_rates": {
-          "beginner": 18,
-          "intermediate": 38,
-          "advanced": 58,
-          "description": "Securing kimura grip when opponent frames with near arm"
-        }
-      },
-      {
-        "technique": "Leg Drag to Technical Mount",
-        "target_position": "Technical Mount",
-        "success_rates": {
-          "beginner": 22,
-          "intermediate": 42,
-          "advanced": 62,
-          "description": "Establishing technical mount when opponent turns to side"
-        }
-      },
-      {
-        "technique": "Leg Drag to Darce Setup",
-        "target_position": "D'arce Control",
-        "success_rates": {
-          "beginner": 12,
-          "intermediate": 30,
-          "advanced": 50,
-          "description": "Setting up darce choke when opponent turtles from leg drag"
-        }
-      }
-    ],
-    "defensive_responses": [
-      {
-        "technique": "Leg Drag Escape to Half Guard",
-        "target_position": "Half Guard",
-        "success_rate": 40
-      },
-      {
-        "technique": "Technical Standup from Bottom",
-        "target_position": "Standing Position",
-        "success_rate": 30
-      },
-      {
-        "technique": "Roll to Turtle Defense",
-        "target_position": "Turtle",
-        "success_rate": 45
-      },
-      {
-        "technique": "Frame and Shrimp to Guard",
-        "target_position": "Open Guard",
-        "success_rate": 25
-      },
-      {
-        "technique": "Granby Roll Counter",
-        "target_position": "Open Guard",
-        "success_rate": 20
-      },
-      {
-        "technique": "Counter to Leg Entanglement",
-        "target_position": "Single Leg X-Guard",
-        "success_rate": 15
-      }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Follow to Back Control",
-        "target_position": "Back Control",
-        "trigger": "When opponent turns away to defend their guard, follow their rotation and insert hooks"
-      },
-      {
-        "technique": "Mount Transition",
-        "target_position": "Mount",
-        "trigger": "When opponent flattens completely to prevent back take, step over to mount"
-      },
-      {
-        "technique": "Crucifix Entry",
-        "target_position": "Crucifix",
-        "trigger": "When opponent sits up and extends arm to frame, trap arm and secure crucifix"
-      },
-      {
-        "technique": "Darce Choke Setup",
-        "target_position": "D'arce Control",
-        "trigger": "When opponent rolls to turtle, immediately thread arm through for darce"
+        "question": "Your opponent partially escapes and gets a knee shield in—how do you recover your leg drag control?",
+        "answer": "When a knee shield enters, you've lost pure leg drag control. Do not force the leg drag against the shield—this wastes energy. Instead, use the knee shield as leverage: push it across their body while circling to the opposite side to re-establish the leg drag on the other leg, or collapse the shield by driving into their hip and transitioning to a smash pass. Alternatively, backstep to leg entanglement entries if they overcommit to the shield."
       }
     ],
     "decision_tree": [
@@ -727,28 +250,6 @@
         "duration": "5 minutes"
       }
     ],
-    "optimal_submission_paths": [
-      {
-        "name": "Leg Drag to Back Attack",
-        "path": "Leg Drag Control Top → Leg Drag to Back Take → Back Control → Rear Naked Choke"
-      },
-      {
-        "name": "Leg Drag to Mount Finish",
-        "path": "Leg Drag Control Top → Leg Drag to Mount → Mount → Armbar from Mount"
-      },
-      {
-        "name": "Leg Drag to Darce",
-        "path": "Leg Drag Control Top → Opponent Rolls to Turtle → Darce Choke → Won by Submission"
-      },
-      {
-        "name": "Leg Drag to Crucifix",
-        "path": "Leg Drag Control Top → Leg Drag to Crucifix → Crucifix → Choke from Crucifix"
-      },
-      {
-        "name": "Leg Drag to Leg Lock",
-        "path": "Leg Drag Control Top → Leg Drag to Inside Ashi → Inside Ashi-Garami → Inside Heel Hook"
-      }
-    ],
     "related_content": [
       {
         "name": "Side Control",
@@ -771,24 +272,24 @@
         "relationship": "The technique used to enter this control position"
       },
       {
-        "name": "Leg Drag Setup",
-        "relationship": "Preparatory positioning before establishing control"
-      },
-      {
-        "name": "Guard Passing Principles",
-        "relationship": "Fundamental concepts that apply to leg drag control"
-      },
-      {
-        "name": "Pressure Passing",
-        "relationship": "Alternative passing style that can complement leg drag approach"
-      },
-      {
         "name": "Crucifix",
         "relationship": "Advanced position available when opponent sits up from leg drag"
       },
       {
         "name": "Inside Ashi-Garami",
         "relationship": "Leg entanglement option when opponent defends upper body"
+      },
+      {
+        "name": "D'arce Control",
+        "relationship": "Choking position available when opponent turtles"
+      },
+      {
+        "name": "Technical Mount",
+        "relationship": "Alternative to full mount when opponent is partially turned"
+      },
+      {
+        "name": "North-South",
+        "relationship": "Control option when opponent blocks mount transition"
       }
     ],
     "position_metrics": {
@@ -811,6 +312,322 @@
         "description": "Probability of finishing submission from position or immediate transitions"
       },
       "average_time": "3-7 seconds before transition to side control, back control, mount, or opponent escape"
-    }
+    },
+    "transitions": [
+      {
+        "transition": "Leg Drag Pass to Side Control",
+        "attempt_probability": 15
+      },
+      {
+        "transition": "Leg Drag to Back Take",
+        "attempt_probability": 18
+      },
+      {
+        "transition": "Leg Drag to Mount",
+        "attempt_probability": 14
+      },
+      {
+        "transition": "Leg Drag to Knee on Belly",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Leg Drag to North-South",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Leg Drag to Crucifix",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Leg Drag to Inside Ashi",
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Leg Drag to Technical Mount",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Leg Drag to Darce Setup",
+        "attempt_probability": 6
+      }
+    ]
+  },
+  "bottom": {
+    "name": "Leg Drag Control Bottom",
+    "description": "Navigate leg drag control from bottom position. Master defensive techniques, escape pathways, and guard recovery strategies to prevent back takes and submissions from this compromised position.",
+    "tags": [
+      "defensive",
+      "guard-retention",
+      "escape",
+      "leg-drag-defense",
+      "intermediate"
+    ],
+    "overview": "Being caught in leg drag control from the bottom represents one of the most precarious defensive situations in modern Brazilian Jiu-Jitsu. The crossed leg creates a mechanical disadvantage that severely limits your ability to use your legs for defense, while the top player's hip control restricts your movement and creates multiple attacking opportunities. Understanding how to navigate this position is essential for any practitioner, as the leg drag has become a staple passing technique in contemporary grappling.\n\nThe immediate dangers from bottom leg drag control are threefold: back exposure, submission vulnerability, and positional consolidation. The crossed leg naturally wants to force you onto your side, exposing your back to the opponent. Simultaneously, the hip control creates openings for leg attacks, while any hesitation allows the top player to settle into side control or mount. Your defensive priorities must be clear: protect your back first, work to free your trapped leg second, and only then consider offensive options. This hierarchical approach prevents the common mistake of attempting to recover guard while inadvertently giving up more dominant positions.\n\nThe biomechanics of escaping leg drag control center on hip mobility and creating space at the correct angles. Your crossed leg acts as a fulcrum that the opponent uses to control your lower body, so simply pulling that leg back rarely succeeds. Instead, effective escapes involve creating separation at the hips, establishing frames at critical control points (usually the shoulder and hip), and timing your escape attempts to moments when the opponent adjusts their position. Understanding the relationship between your leg position and your opponent's base allows you to exploit transitional moments when they are vulnerable.\n\nDefensive success in this position requires recognizing the leg drag early in the passing sequence. Once the opponent has fully established the position with settled weight and multiple control points, escape becomes exponentially more difficult. Advanced practitioners develop sensitivity to the leg drag entry and begin their defensive responses before the position is fully locked in. This proactive defense involves grip fighting during the pass, maintaining proper distance management, and understanding which guard variations are most susceptible to leg drag entries.",
+    "state_properties": {
+      "point_value": 0,
+      "position_type": "Defensive",
+      "risk_level": "High",
+      "energy_cost": "High",
+      "time_sustainability": "Short"
+    },
+    "state_invariants": [
+      "Bottom player's near-side leg is controlled and pulled across their body by the top player, typically with the top player's arm threading under or over the leg and gripping the hip or pants. This crossed leg configuration creates the fundamental control mechanism of the position and limits the bottom player's ability to use their legs for guard retention.",
+      "Top player maintains significant hip control through the trapped leg position, with their chest or shoulder driving pressure into the bottom player's near hip. This pressure prevents the bottom player from turning fully toward the top player and creates a constant threat of back exposure as the bottom player's natural defensive reaction is to turn away.",
+      "Bottom player's far shoulder is typically pressured or controlled by the top player's free arm, either through direct shoulder pressure, a crossface, or head control. This upper body control prevents the bottom player from sitting up or turning into the top player, completing the control system that the leg drag creates."
+    ],
+    "prerequisites": [
+      "Opponent has achieved control of one leg and pulled it across your body during guard passing sequence",
+      "You have not yet been turned completely to your side or onto your stomach",
+      "Your back is not yet fully taken but is under immediate threat",
+      "Traditional guard retention frames (knee shield, feet on hips) are no longer available due to leg position"
+    ],
+    "key_principles": [
+      "Your first priority is preventing back exposure—never turn completely away from opponent",
+      "Create frames at shoulder and hip to generate space before attempting leg recovery",
+      "Time your escape attempts to moments when opponent shifts weight or adjusts position",
+      "Your crossed leg is a liability—free it as quickly as possible or accept the transition",
+      "Staying flat on your back maximizes defensive options compared to being on your side",
+      "If you cannot free your leg, transition to a safer position like turtle rather than giving up back",
+      "Recognize the position early during the passing sequence to defend proactively"
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "Your opponent starts advancing toward your back while you're in leg drag bottom—what immediate adjustment do you make?",
+        "answer": "Immediately fight for an underhook on the side they're advancing toward and drive your shoulder toward them, not away. This counters their back take angle. Simultaneously, use your free leg to create a frame against their hip or post on the mat to generate space. Never turn your back to them—stay chest-to-chest as much as possible while you work to free your leg."
+      },
+      {
+        "question": "What are the essential frames for preventing advancement when caught in leg drag bottom?",
+        "answer": "Your primary frame is against their shoulder or bicep with your near-side arm, keeping them from settling their weight. Your secondary frame uses your far-side arm to control their head or crossface them back. Your free leg frames against their hip to create space or posts on the mat for leverage. All frames work together—losing one compromises the others."
+      },
+      {
+        "question": "How do you shut down the opponent's primary attack of taking your back from leg drag bottom?",
+        "answer": "Stay flat on your back as long as possible rather than turning away. When you feel them start to come around, fight aggressively for the underhook on that side and turn INTO them, not away. Your goal is to face them, not give them your back. If they're committed to the back take, immediately sit up and face them, accepting half guard rather than giving up back control."
+      },
+      {
+        "question": "What are your grip priorities when trying to escape leg drag bottom?",
+        "answer": "First priority is breaking or preventing their shoulder or head control—this is what keeps you pinned. Second priority is controlling their hip or pants on the side controlling your leg to prevent them from settling weight. Third is fighting to reclaim control of your trapped leg. Without breaking their upper body control, leg recovery is nearly impossible."
+      },
+      {
+        "question": "How should you create space in leg drag bottom without exposing your back?",
+        "answer": "Use a shrimping motion away from them while keeping your shoulders flat—never turn onto your side. Push against their shoulder and hip simultaneously while hip escaping to create angle. Your free leg can push against their hip or hook behind their knee to generate space. The key is moving your hips away while keeping your chest facing them."
+      },
+      {
+        "question": "Your opponent shifts their weight to consolidate to side control—how do you anticipate and exploit this moment?",
+        "answer": "The transition from leg drag to side control is when they must release or adjust their leg control. This is your window. As they shift weight, immediately extract your trapped leg by pulling your knee to your chest. Time your hip escape to their weight shift. If you can get a knee inside before they settle, you can recover half guard or establish a knee shield."
+      },
+      {
+        "question": "How do you manage energy when defending leg drag bottom against an aggressive passer?",
+        "answer": "Don't waste energy trying to escape when they have full control—you'll exhaust yourself. Instead, maintain minimum frames to prevent advancement and wait for them to attack or transition. Escape windows open when they move. Stay relaxed between escape attempts, keeping frames tight but not rigid. One well-timed explosive escape attempt is better than constant ineffective movement."
+      },
+      {
+        "question": "Your partial escape attempt fails and they re-secure leg drag control—how do you recover your defensive position?",
+        "answer": "Immediately re-establish your primary frames at shoulder and hip before they can capitalize on your movement. Return to a flat position on your back rather than staying on your side. Assess where your failed escape left you—if they advanced, address the new threat first. Do not immediately attempt another escape; reset your breathing and frames, then look for the next opportunity when they adjust."
+      }
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent has strong shoulder control and is driving toward back take",
+        "actions": [
+          {
+            "technique": "Roll to Turtle",
+            "target": "Turtle",
+            "probability": 60
+          },
+          {
+            "technique": "Fight underhook and frame hip",
+            "target": "Leg Drag Control Bottom",
+            "probability": 40
+          }
+        ]
+      },
+      {
+        "condition": "If opponent's weight shifts forward toward head control",
+        "actions": [
+          {
+            "technique": "Technical Standup",
+            "target": "Standing Position",
+            "probability": 55
+          },
+          {
+            "technique": "Granby Roll Escape",
+            "target": "Open Guard",
+            "probability": 45
+          }
+        ]
+      },
+      {
+        "condition": "If opponent loosens leg control to adjust grip",
+        "actions": [
+          {
+            "technique": "Leg Drag Counter to Half Guard",
+            "target": "Half Guard",
+            "probability": 65
+          },
+          {
+            "technique": "Frame and Shrimp to Guard",
+            "target": "Open Guard",
+            "probability": 35
+          }
+        ]
+      },
+      {
+        "condition": "If opponent drops weight to attack leg entanglement",
+        "actions": [
+          {
+            "technique": "Inside Position Recovery",
+            "target": "Butterfly Guard",
+            "probability": 50
+          },
+          {
+            "technique": "Counter to Leg Entanglement",
+            "target": "Single Leg X-Guard",
+            "probability": 50
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Turning away from opponent to protect guard, exposing back",
+        "consequence": "Gives opponent easy back take with hooks insertion",
+        "correction": "Stay square or slightly toward opponent, use frames to maintain distance while working leg free"
+      },
+      {
+        "error": "Pulling trapped leg straight back without creating space first",
+        "consequence": "Opponent's grip and body weight make this impossible, wasting energy",
+        "correction": "Frame at shoulder and hip to create separation before attempting leg extraction"
+      },
+      {
+        "error": "Focusing only on freeing the trapped leg while ignoring back exposure",
+        "consequence": "Successfully free leg but opponent has already secured back control",
+        "correction": "Prioritize preventing hooks and back control before working on leg recovery"
+      },
+      {
+        "error": "Remaining flat on back too long without active escape attempts",
+        "consequence": "Opponent settles weight and transitions to mount or side control",
+        "correction": "Recognize you have 1-2 seconds before consolidation, act immediately with frames and movement"
+      },
+      {
+        "error": "Using weak frames at opponent's chest instead of structural points",
+        "consequence": "Opponent easily collapses frames and advances position",
+        "correction": "Frame at shoulder and hip with elbows tight, creating maximum structural integrity"
+      },
+      {
+        "error": "Attempting to sit up without first addressing the crossed leg",
+        "consequence": "Opponent uses your momentum to complete the pass to side control",
+        "correction": "Free leg or accept turtle transition before attempting to sit up to guard"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Timed Leg Drag Escape",
+        "description": "Partner establishes leg drag control with light pressure. Bottom player has 5 seconds to escape to guard or turtle. Reset and repeat with increasing pressure resistance.",
+        "duration": "5 minutes"
+      },
+      {
+        "name": "Progressive Leg Drag Defense",
+        "description": "Partner attempts leg drag pass from various guards (DLR, RDLR, seated). Bottom player works to prevent position establishment, then practices early recognition and counter-measures.",
+        "duration": "6 minutes"
+      },
+      {
+        "name": "Leg Drag Escape to Specific Position",
+        "description": "From established leg drag bottom, work specific escape pathway (only half guard recovery, only technical standup, etc.). Develop each escape option in isolation before combining.",
+        "duration": "4 minutes per escape type"
+      },
+      {
+        "name": "Back Exposure Prevention Drill",
+        "description": "Partner has leg drag control and actively attempts back take. Bottom player focuses solely on preventing hooks and back exposure while maintaining awareness of position.",
+        "duration": "3 minutes"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Half Guard",
+        "relationship": "Primary recovery target when recapturing opponent's leg"
+      },
+      {
+        "name": "Turtle",
+        "relationship": "Safer transition option when leg cannot be freed"
+      },
+      {
+        "name": "Open Guard",
+        "relationship": "Target position for successful guard recovery"
+      },
+      {
+        "name": "Back Control",
+        "relationship": "Primary threat to defend against from this position"
+      },
+      {
+        "name": "Single Leg X-Guard",
+        "relationship": "Counter position if opponent drops for legs"
+      },
+      {
+        "name": "Butterfly Guard",
+        "relationship": "Alternative recovery when space is created"
+      },
+      {
+        "name": "Standing Position",
+        "relationship": "Escape option via technical standup"
+      },
+      {
+        "name": "De La Riva Guard",
+        "relationship": "Guard to recover if you can insert DLR hook"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "beginner": 70,
+        "intermediate": 50,
+        "advanced": 30,
+        "description": "Probability opponent advances to side control or back within 10 seconds"
+      },
+      "advancement_probability": {
+        "beginner": 20,
+        "intermediate": 40,
+        "advanced": 60,
+        "description": "Probability of successfully recovering guard or escaping to neutral"
+      },
+      "submission_probability": {
+        "beginner": 5,
+        "intermediate": 3,
+        "advanced": 2,
+        "description": "Probability of being submitted directly from this position"
+      },
+      "average_time": "3-8 seconds before position transitions to side control, back control, or guard recovery"
+    },
+    "transitions": [
+      {
+        "transition": "Leg Drag Escape to Closed Guard",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Technical Standup",
+        "attempt_probability": 13
+      },
+      {
+        "transition": "Leg Drag Counter to Half Guard",
+        "attempt_probability": 18
+      },
+      {
+        "transition": "Roll to Turtle",
+        "attempt_probability": 17
+      },
+      {
+        "transition": "Inside Position Recovery",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Granby Roll Escape",
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Leg Recovery to De La Riva",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Frame and Shrimp to Guard",
+        "attempt_probability": 10
+      }
+    ]
   }
 }

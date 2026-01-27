@@ -62,7 +62,7 @@ Toe Hold Control occupies a unique space in the leg lock ecosystem, particularly
 | **Energy Cost** | Medium | Medium |
 | **Time** | Short | Short to Medium |
 
-**Key Difference:** Ankle rotation attack with joint isolation
+**Key Difference:** Ankle rotation trades control for injury risk
 
 
 
@@ -93,26 +93,20 @@ Toe Hold Control occupies a unique space in the leg lock ecosystem, particularly
 - Understand tap-early mentality where ankle injuries from toe holds can be severe and career-limiting, making preservation priority over positional pride
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Saddle Defense]]** → [[Ashi Garami]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 60%
+- **[[Saddle Defense]]** (20% of attempts)
 
-- **[[Ashi Garami Escape]]** → [[Half Guard]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 55%
+- **[[Ashi Garami Escape]]** (18% of attempts)
 
-- **[[Inside Ashi Entry]]** → [[Inside Ashi-Garami]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 50%
+- **[[Inside Ashi Entry]]** (17% of attempts)
 
-- **[[X-Guard to Ashi Transition]]** → [[X-Guard]]
-  - Success Rate: Beginner 10%, Intermediate 25%, Advanced 45%
+- **[[X-Guard to Ashi Transition]]** (15% of attempts)
 
-- **[[Guard Replacement]]** → [[Open Guard]]
-  - Success Rate: Beginner 18%, Intermediate 32%, Advanced 48%
+- **[[Guard Replacement]]** (16% of attempts)
 
-- **[[Deep Half Entry]]** → [[Deep Half Guard]]
-  - Success Rate: Beginner 12%, Intermediate 28%, Advanced 42%
+- **[[Deep Half Entry]]** (14% of attempts)
 
 
 ### Common Mistakes
@@ -174,26 +168,20 @@ Toe Hold Control occupies a unique space in the leg lock ecosystem, particularly
 - Progress control systematically from position establishment to grip refinement to submission application, never rushing the finish before control is absolute
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Toe Hold]]** → [[Won by Submission]]
-  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 75%
+- **[[Toe Hold]]** (17% of attempts)
 
-- **[[Outside Ashi Entry]]** → [[Outside Ashi-Garami]]
-  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 80%
+- **[[Outside Ashi Entry]]** (18% of attempts)
 
-- **[[Inside Ashi Entry]]** → [[Inside Ashi-Garami]]
-  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+- **[[Inside Ashi Entry]]** (17% of attempts)
 
-- **[[Saddle Entry from Top]]** → [[Saddle]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Saddle Entry from Top]]** (16% of attempts)
 
-- **[[Straight Ankle Lock]]** → [[Straight Ankle Lock Control]]
-  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+- **[[Straight Ankle Lock]]** (17% of attempts)
 
-- **[[Kneebar from Top]]** → [[Kneebar Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 65%
+- **[[Kneebar from Top]]** (15% of attempts)
 
 
 ### Common Mistakes

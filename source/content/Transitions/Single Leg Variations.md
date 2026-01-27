@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Single Leg Variations | BJJ Technique | BJJ Graph"
 description: "Master Single Leg Variations in BJJ. Complete takedown guide with multiple finishes from standing position. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%."
@@ -16,7 +17,7 @@ description: "Master Single Leg Variations in BJJ. Complete takedown guide with 
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Single Leg Variations in BJJ",
-  "description": "Step-by-step guide for Single Leg Variations from Standing Position to Side Control.",
+  "description": "Step-by-step guide for Single Leg Variations from Standing Position/Top. Possible outcomes: Side Control/Top (70%), Standing Position/Top (20%), Standing Position/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -158,11 +159,25 @@ Unlike the double leg takedown which commits both arms to leg control, the singl
 
 Mastery of single leg variations transforms a grappler's standing game from predictable to highly dynamic. Elite competitors have demonstrated how single leg entries can be chained directly into leg lock positions, creating seamless transitions from standing to ground submissions. This modern application has elevated the single leg from a simple takedown to a sophisticated entry system that bridges wrestling fundamentals with advanced BJJ leg entanglement strategies.
 
-**Starting Position**: [[Standing Position]]
-**Ending Position**: [[Side Control]]
+**From Position**: [[Standing Position/Top]]
 **Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Side Control/Top]] | 70% |
+| Failure | [[Standing Position/Top]] | 20% |
+| Counter | [[Standing Position/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

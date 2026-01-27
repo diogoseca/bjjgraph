@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Fireman's Carry | BJJ Technique | BJJ Graph"
 description: "Master the Fireman's Carry takedown in BJJ. Complete step-by-step execution from standing clinch to top position. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%."
@@ -16,7 +17,7 @@ description: "Master the Fireman's Carry takedown in BJJ. Complete step-by-step 
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Fireman's Carry in BJJ",
-  "description": "Step-by-step guide for Fireman's Carry from Clinch to Side Control.",
+  "description": "Step-by-step guide for Fireman's Carry from Clinch/Top. Possible outcomes: Side Control/Top (70%), Clinch/Top (20%), Clinch/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -160,11 +161,25 @@ description: "Master the Fireman's Carry takedown in BJJ. Complete step-by-step 
 
 The Fireman's Carry is a classical wrestling takedown that has found valuable application in Brazilian Jiu-Jitsu, particularly in no-gi and MMA contexts. This technique involves using a combination of off-balancing, level change, and explosive lifting to elevate your opponent onto your shoulders before driving them to the mat. The Fireman's Carry is particularly effective against opponents who maintain an upright posture in the clinch, as it exploits their high center of gravity and creates a sudden positional reversal. Unlike many BJJ takedowns that rely on pulling or tripping, the Fireman's Carry demonstrates the principle of lifting and redirecting an opponent's weight, making it an excellent complement to guard pulling and other ground-focused entries. The technique requires precise timing, proper body mechanics, and the ability to coordinate multiple movements simultaneously - the level change, arm control, penetration step, and lifting motion must all flow together seamlessly. When executed correctly, the Fireman's Carry not only achieves the takedown but also places you in an advantageous top position, often side control or modified mount, allowing for immediate passing or submission attempts. This makes it a high-percentage technique for competitors who want to establish top control early in a match.
 
-**Starting Position**: [[Clinch]]
-**Ending Position**: [[Side Control]]
+**From Position**: [[Clinch/Top]]
 **Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Side Control/Top]] | 70% |
+| Failure | [[Clinch/Top]] | 20% |
+| Counter | [[Clinch/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

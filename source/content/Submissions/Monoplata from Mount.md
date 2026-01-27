@@ -418,10 +418,20 @@ The Monoplata from Mount is an advanced shoulder lock submission that combines e
 - [[Triangle Control]] - Alternative submission when opponent defends monoplata by tucking arm
 - [[Armbar Control]] - Chain submission when opponent grabs your threading leg
 - [[Mount to Armbar]] - Common transition that can flow into monoplata if defended
-- [[Transition to Omoplata]] - Similar leg threading mechanics from different starting positions
+- [[Closed Guard to Omoplata]] - Similar leg threading mechanics from different starting positions
 - [[Submission Chains]] - Principle of chaining mount attacks including monoplata
 - [[Position-Over-Submission Approach]] - Philosophy emphasizing mount maintenance during submission attempts
 
+
+</section>
+
+<section id="terminal-state" class="content-section">
+
+## Match Outcome
+
+Successful execution of Monoplata from Mount leads to → [[game-over|Game Over]]
+
+*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
 
 </section>
 

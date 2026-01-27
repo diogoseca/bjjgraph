@@ -408,13 +408,23 @@ The Monoplata is an advanced shoulder lock submission that combines elements of 
 - [[Mission Control]] - High-control rubber guard variation offering optimal monoplata setup angle
 - [[Omoplata Control]] - Related shoulder attack sharing similar body positioning and pressure mechanics
 - [[Triangle Control]] - Alternative finish when monoplata is defended; failed triangle can transition to monoplata
-- [[Transition to Omoplata]] - Backup transition if figure-four configuration cannot be secured
+- [[Closed Guard to Omoplata]] - Backup transition if figure-four configuration cannot be secured
 - [[Closed Guard to Triangle]] - Related attack chain sharing similar setup requirements and control principles
 - [[Rubber Guard to Omoplata System]] - Technical system integrating monoplata within broader shoulder attack sequences
 - [[Submission Chains]] - Conceptual principle explaining how monoplata connects to triangle and omoplata attacks
 - [[New York]] - Rubber guard position that can transition to monoplata when opponent defends traditional attacks
 - [[Spider Guard]] - Alternative entry position for dynamic monoplata setups against upright opponents
 
+
+</section>
+
+<section id="terminal-state" class="content-section">
+
+## Match Outcome
+
+Successful execution of Monoplata leads to → [[game-over|Game Over]]
+
+*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
 
 </section>
 

@@ -21,37 +21,37 @@ description: "Master Single Leg X-Guard Bottom in BJJ. Complete guide covering s
     {
       "@type": "HowToStep",
       "name": "Execute Single Leg X Sweep",
-      "text": "From this position, execute Single Leg X Sweep to transition to Standing Position. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Single Leg X Sweep. This technique is attempted in 11% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute X-Guard to Ashi Transition",
-      "text": "From this position, execute X-Guard to Ashi Transition to transition to Ashi Garami. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt X-Guard to Ashi Transition. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Single Leg X Entry",
-      "text": "From this position, execute Single Leg X Entry to transition to Outside Ashi-Garami. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Single Leg X Entry. This technique is attempted in 11% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Technical Stand Up to Single Leg",
-      "text": "From this position, execute Technical Stand Up to Single Leg to transition to Standing Position. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Technical Stand Up to Single Leg. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Butterfly Guard to X-Guard",
-      "text": "From this position, execute Butterfly Guard to X-Guard to transition to X-Guard. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Butterfly Guard to X-Guard. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute De La Riva to X-Guard Transition",
-      "text": "From this position, execute De La Riva to X-Guard Transition to transition to X-Guard. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt De La Riva to X-Guard Transition. This technique is attempted in 11% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -208,102 +208,24 @@ Single Leg X-Guard Bottom represents one of the most versatile and effective pos
 
 ## Available Escapes
 
-### [[Single Leg X Sweep]] → [[Standing Position]]
+### [[Single Leg X Sweep]] (11% of attempts)
 
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 60%
-- Advanced: 75%
+### [[X-Guard to Ashi Transition]] (12% of attempts)
 
-### [[X-Guard to Ashi Transition]] → [[Ashi Garami]]
+### [[Single Leg X Entry]] (11% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Technical Stand Up to Single Leg]] (10% of attempts)
 
-### [[Single Leg X Entry]] → [[Outside Ashi-Garami]]
+### [[Butterfly Guard to X-Guard]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[De La Riva to X-Guard Transition]] (11% of attempts)
 
-### [[Technical Stand Up to Single Leg]] → [[Standing Position]]
+### [[Ankle Pick Sweep]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Inside Ashi Entry]] (10% of attempts)
 
-### [[Butterfly Guard to X-Guard]] → [[X-Guard]]
+### [[Standing to Single Leg X]] (11% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
-
-### [[De La Riva to X-Guard Transition]] → [[X-Guard]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-### [[Ankle Pick Sweep]] → [[Standing Position]]
-
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
-
-### [[Inside Ashi Entry]] → [[Inside Ashi-Garami]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[Standing to Single Leg X]] → [[Single Leg X-Guard]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Knee Slice Pass]]** → [[Side Control]] (Opponent Success: 45%)
-- **[[Smash Pass]]** → [[Side Control]] (Opponent Success: 40%)
-- **[[Long Step Pass]]** → [[Side Control]] (Opponent Success: 35%)
-- **[[Headquarters Pass]]** → [[Headquarters Position]] (Opponent Success: 40%)
-- **[[Standing up in Base]]** → [[Combat Base]] (Opponent Success: 50%)
-- **[[Leg Drag Pass]]** → [[Side Control]] (Opponent Success: 35%)
-- **[[Back Step]]** → [[Side Control]] (Opponent Success: 30%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[X-Guard Sweep]]** → [[Mount]]
-  - Opponent attempts to step back or disengage from leg entanglement
-- **[[Single Leg X Sweep]]** → [[Standing Position]]
-  - Opponent tries to establish heavy forward pressure or smash through guard
-- **[[X-Guard to Ashi Transition]]** → [[Ashi Garami]]
-  - Opponent pulls their trapped leg back defensively
-- **[[Technical Stand Up to Single Leg]]** → [[Standing Position]]
-  - Opponent stands up to create distance or disengage
-- **[[De La Riva to X-Guard Transition]]** → [[X-Guard]]
-  - Opponent circles away from hook or changes angle
 
 
 </section>
@@ -427,33 +349,39 @@ Maintain SLX hooks while partner attempts various passing strategies including k
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Shortest Path to Straight Ankle Lock
+## Test Your Knowledge
 
-`Single Leg X-Guard Bottom → Outside Ashi-Garami → Straight Ankle Lock (2 transitions)`
+**Q1**: Your opponent starts lowering their base and driving forward - what adjustment do you make to maintain control?
+**A**: When the opponent drives forward, immediately angle your hips to the side rather than accepting direct pressure. Extend your top hook aggressively into their hip to create distance while maintaining the bottom hook wrapped around their ankle. If pressure continues, this is your cue to transition to Ashi Garami by following their forward momentum - their weight commitment forward makes their leg more vulnerable to entanglement attacks.
 
-### High-Percentage Path to Kneebar
+**Q2**: What are the essential hooks and grips for maintaining Single Leg X-Guard?
+**A**: The essential controls are: the inside leg wrapped tightly around the opponent's ankle or lower calf to prevent extraction, the outside foot actively hooking on their hip or inner thigh to create elevation and off-balancing pressure, and upper body control through sleeve grips, collar ties, or overhooks to prevent them from posturing up and controlling distance. Both legs must work in coordination - the bottom hook controls, the top hook elevates.
 
-`Single Leg X-Guard Bottom → Ashi Garami → Kneebar (2 transitions)`
+**Q3**: How do you shut down the opponent's primary escape of simply pulling their leg free?
+**A**: Prevent leg extraction by maintaining constant tension in your inside leg wrap around their ankle and calf - never let this grip loosen. Keep their leg elevated by extending your hips upward, which stretches their leg out and makes extraction mechanically difficult. Position your hips directly underneath their center of gravity so they cannot generate the power needed to pull free. If they begin pulling, follow their movement by scooting your hips forward to maintain connection.
 
-### Advanced Path to Heel Hook
+**Q4**: What grip priorities allow you to maximize sweeping power from SLX?
+**A**: For maximum sweep power, prioritize controlling their same-side sleeve or wrist to prevent posting, which is their primary sweep defense. Secondary grip should control their collar, far shoulder, or establish an overhook to break their posture forward. These upper body grips work synergistically with your leg hooks - when you extend your hooks to sweep, the upper body grips prevent them from stepping out or posting their hands to recover balance.
 
-`Single Leg X-Guard Bottom → Inside Ashi-Garami → Saddle → Heel Hook (3 transitions)`
+**Q5**: How should you apply elevation pressure through your hooks without over-extending?
+**A**: Apply elevation through hip extension rather than straightening your legs completely. Keep your knees bent slightly while driving your hips upward - this maintains hook tension while creating lift. Your top hook pushes into their hip with the ball of your foot, creating upward and outward pressure. Avoid fully extending your legs, which actually reduces control and makes it easier for them to step over or clear your hooks. Think of elevating their weight onto your hooks rather than pushing them away.
 
-### Sweep to Submission Path
+**Q6**: Your opponent partially clears your top hook but you still have the ankle wrap - how do you recover position?
+**A**: Immediately use your retained ankle control as an anchor point and re-insert your top hook before they can fully pass. Hip escape slightly to create the angle needed for hook reinsertion. If they continue advancing, transition to a backup position - you can go to seated guard, butterfly guard, or even use the ankle control to stand up for a single leg attempt. Never release the ankle wrap until you have transitioned to another controlling position.
 
-`Single Leg X-Guard Bottom → Single Leg X Sweep → Standing Position → Back Control → Rear Naked Choke (4 transitions)`
+**Q7**: How do you manage energy expenditure when an opponent is methodically working to pass your SLX?
+**A**: Conserve energy by letting your structural positioning do the work rather than constantly muscling for control. Keep your hips underneath their center of gravity and maintain frame through your hooks - this requires less energy than constantly readjusting. Attack when opportunities present rather than forcing sweeps against a well-based opponent. Use their movements against them - when they shift weight or adjust position, that's when you attack with minimal energy expenditure.
 
-### X-Guard Transition Path
-
-`Single Leg X-Guard Bottom → X-Guard → Back Control → Rear Naked Choke (3 transitions)`
+**Q8**: After your opponent nearly passes but you recover to SLX - what steps do you take to prevent them from immediately trying the same pass?
+**A**: Immediately re-establish tight ankle control and aggressive elevation to remind them of the sweeping threat. Change your angle slightly from your previous position so they cannot simply repeat the same passing sequence. Consider attacking immediately with a sweep or leg lock entry while they are still adjusting - their near-success often means they over-committed in a way that creates vulnerability. Re-grip their sleeve or establish different upper body control to disrupt their grip pattern and prevent them from re-initiating the same passing chain.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 

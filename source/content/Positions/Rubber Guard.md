@@ -18,7 +18,7 @@ description: "Master Rubber Guard in BJJ with this comprehensive guide covering 
 
 <section id="overview" class="content-section">
 
-The Rubber Guard is a specialized guard position developed and popularized by 10th Planet's within his 10th Planet Jiu-Jitsu system. This position builds upon the closed guard by adding a high degree of upper body control through a series of complex leg and arm configurations. At its core, the Rubber Guard involves the bottom player using their leg to trap the opponent's arm against their own chest, typically by bringing one leg high across the opponent's back and securing the shin or foot with the opposite arm. This creates exceptional posture control and provides unique attacking opportunities, particularly for triangles, omoplatas, and various 10th Planet-specific submissions. The position is especially effective in no-gi grappling and MMA contexts where it can neutralize the opponent's striking while setting up submissions. The Rubber Guard system includes multiple named positions such as Mission Control, New York, Invisible Collar, and Zombie, each representing a specific configuration within the overall framework. Success in this position requires exceptional flexibility, particularly in the hips and hamstrings, along with systematic understanding of the progression sequences that characterize the 10th Planet approach. The strategic trade-off inherent in Rubber Guard is clear: practitioners sacrifice some positional stability and mobility in exchange for superior arm control and unique submission pathways unavailable from conventional closed guard positions.
+The Rubber Guard is a specialized guard position developed and popularized within the 10th Planet Jiu-Jitsu system. This position builds upon the closed guard by adding a high degree of upper body control through a series of complex leg and arm configurations. At its core, the Rubber Guard involves the bottom player using their leg to trap the opponent's arm against their own chest, typically by bringing one leg high across the opponent's back and securing the shin or foot with the opposite arm. This creates exceptional posture control and provides unique attacking opportunities, particularly for triangles, omoplatas, and various specialized submissions. The position is especially effective in no-gi grappling and MMA contexts where it can neutralize the opponent's striking while setting up submissions. The Rubber Guard system includes multiple named positions such as Mission Control, New York, Invisible Collar, and Zombie, each representing a specific configuration within the overall framework. Success in this position requires exceptional flexibility, particularly in the hips and hamstrings, along with systematic understanding of the progression sequences that characterize this approach. The strategic trade-off inherent in Rubber Guard is clear: practitioners sacrifice some positional stability and mobility in exchange for superior arm control and unique submission pathways unavailable from conventional closed guard positions.
 
 </section>
 
@@ -56,7 +56,7 @@ The Rubber Guard is a specialized guard position developed and popularized by 10
 | [[Invisible Collar]] | High | Low to Medium | High | Medium | Deceptive grip hides submission threat |
 | [[Zombie]] | Medium | Medium | Medium | Medium | Lockdown transforms defensive turtle into offense |
 | [[Crackhead Control]] | High | Medium to High | Medium | High | Deep overhook trades safety for submissions |
-| [[Meathook]] | Medium | High | High | High | Extreme arm isolation for devastating attacks |
+| [[Meathook]] | Medium | High | High | High | Arm isolation via shin hook enables choke chains |
 | [[Chill Dog]] | Medium | Low to Medium | Medium | Medium | Compact turtle defense with escape options |
 | [[Carni]] | Medium | High | Medium | High | Dynamic leg control trades static security |
 
@@ -89,35 +89,20 @@ The Rubber Guard is a specialized guard position developed and popularized by 10
 - Manage energy expenditure through efficient tension application rather than constant maximum pressure
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Triangle Setup]]** → [[Triangle Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 60%
+- **[[Triangle Setup]]** (25% of attempts)
 
-- **[[Omoplata to Back]]** → [[Omoplata Control]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 55%
+- **[[Omoplata to Back]]** (20% of attempts)
 
-- **[[Triangle to Armbar]]** → [[Armbar Control]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 55%
+- **[[Meathook to Gogoplata Control]]** (10% of attempts)
 
-- **[[Hip Bump Sweep]]** → [[Mount]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 60%
+- **[[Hip Bump Sweep]]** (15% of attempts)
 
-- **[[Omoplata Sweep]]** → [[Side Control]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 55%
+- **[[Omoplata Sweep]]** (15% of attempts)
 
-- **[[Transition to Omoplata]]** → [[Back Control]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 50%
-
-- **[[Switch to Triangle]]** → [[Triangle Control]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 55%
-
-- **[[Rolling Armbar]]** → [[Armbar Control]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 50%
-
-- **[[Rolling Omoplata]]** → [[Omoplata Control]]
-  - Success Rate: Beginner 15%, Intermediate 28%, Advanced 48%
+- **[[Triangle to Armbar]]** (15% of attempts)
 
 
 ### Common Mistakes
@@ -175,32 +160,20 @@ The Rubber Guard is a specialized guard position developed and popularized by 10
 - Use weight distribution and base management to resist stacking attempts and maintain stability
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Posture Recovery]]** → [[Closed Guard]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 55%
+- **[[Posture Recovery]]** (30% of attempts)
 
-- **[[Guard Opening Sequence]]** → [[Combat Base]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 50%
+- **[[Guard Opening Sequence]]** (20% of attempts)
 
-- **[[Guard Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 10%, Intermediate 25%, Advanced 45%
+- **[[Stack Pass]]** (15% of attempts)
 
-- **[[Stack Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 12%, Intermediate 28%, Advanced 48%
+- **[[Guard Pass]]** (10% of attempts)
 
-- **[[Pressure Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 10%, Intermediate 25%, Advanced 45%
+- **[[Pressure Pass]]** (10% of attempts)
 
-- **[[Position Change]]** → [[Open Guard]]
-  - Success Rate: Beginner 18%, Intermediate 33%, Advanced 53%
-
-- **[[Standing up]]** → [[Standing Position]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 50%
-
-- **[[Frame and Shrimp]]** → [[Combat Base]]
-  - Success Rate: Beginner 18%, Intermediate 33%, Advanced 53%
+- **[[Technical Stand-up]]** (15% of attempts)
 
 
 ### Common Mistakes

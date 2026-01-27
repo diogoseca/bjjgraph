@@ -8,8 +8,6 @@
     "butterfly-guard",
     "fundamental"
   ],
-  "starting_position": "Closed Guard",
-  "ending_position": "Mount",
   "success_rates": {
     "beginner": 35,
     "intermediate": 50,
@@ -262,6 +260,24 @@
     {
       "name": "Back Take Generic",
       "relationship": "Alternative - transition if opponent defends by turning"
+    }
+  ],
+  "from_position": "Closed Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Mount/Top",
+      "probability": 65,
+      "result": "success"
+    },
+    {
+      "to": "Closed Guard/Bottom",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Closed Guard/Top",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

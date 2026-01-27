@@ -4,7 +4,7 @@
 
 ---
 title: "Ashi Garami Top | BJJ Position Guide | BJJ Graph"
-description: "Master defensive strategies against Ashi Garami leg entanglements from top with systematic escapes, heel protection mechanics, counter-attacks, and awareness."
+description: "Master defensive strategies against Ashi Garami leg entanglements from top position with systematic escapes, heel protection mechanics, and counter-attacks."
 ---
 
 
@@ -21,37 +21,37 @@ description: "Master defensive strategies against Ashi Garami leg entanglements 
     {
       "@type": "HowToStep",
       "name": "Execute Ashi Garami Escape",
-      "text": "From this position, execute Ashi Garami Escape to transition to Standing Position. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Ashi Garami Escape. This technique is attempted in 30% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Counter Ashi Entry",
-      "text": "From this position, execute Counter Ashi Entry to transition to Outside Ashi-Garami. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Counter Ashi Entry. This technique is attempted in 20% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Guard Pass",
-      "text": "From this position, execute Guard Pass to transition to Side Control. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Guard Pass. This technique is attempted in 20% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Front Headlock Series",
-      "text": "From this position, execute Front Headlock Series to transition to Front Headlock. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Front Headlock Series. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Guillotine Setup",
-      "text": "From this position, execute Guillotine Setup to transition to Guillotine Control. Success rate for advanced practitioners: 45%.",
+      "text": "From this position, attempt Guillotine Setup. This technique is attempted in 8% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Saddle Defense",
-      "text": "From this position, execute Saddle Defense to transition to Outside Ashi-Garami. Success rate for advanced practitioners: 60%.",
+      "name": "Execute Straight Ankle Lock",
+      "text": "From this position, attempt Straight Ankle Lock. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -115,7 +115,7 @@ description: "Master defensive strategies against Ashi Garami leg entanglements 
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Ashi Garami Top",
-  "description": "Master defensive strategies against Ashi Garami leg entanglements from top with systematic escapes, heel protection mechanics, counter-attacks, and awareness.",
+  "description": "Master defensive strategies against Ashi Garami leg entanglements from top position with systematic escapes, heel protection mechanics, and counter-attacks.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -210,81 +210,18 @@ Top Ashi Garami defense requires extensive drilling of mechanical extraction seq
 
 ## Available Attacks
 
-### [[Ashi Garami Escape]] → [[Standing Position]]
+### [[Ashi Garami Escape]] (30% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 45%
-- Advanced: 65%
+### [[Counter Ashi Entry]] (20% of attempts)
 
-### [[Counter Ashi Entry]] → [[Outside Ashi-Garami]]
+### [[Guard Pass]] (20% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 55%
+### [[Front Headlock Series]] (10% of attempts)
 
-### [[Guard Pass]] → [[Side Control]]
+### [[Guillotine Setup]] (8% of attempts)
 
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 50%
+### [[Straight Ankle Lock]] (12% of attempts)
 
-### [[Front Headlock Series]] → [[Front Headlock]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 55%
-
-### [[Guillotine Setup]] → [[Guillotine Control]]
-
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 45%
-
-### [[Saddle Defense]] → [[Outside Ashi-Garami]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 40%
-- Advanced: 60%
-
-### [[Straight Ankle Lock]] → [[Won by Submission]]
-
-**Success Rates:**
-- Beginner: 10%
-- Intermediate: 20%
-- Advanced: 35%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Inside Ashi Entry]]** → [[Inside Ashi-Garami]] (Opponent Success: 45%)
-- **[[Saddle Entry from Top]]** → [[Saddle]] (Opponent Success: 35%)
-- **[[Heel Hook]]** → [[Won by Submission]] (Opponent Success: 30%)
-- **[[Outside Ashi Entry]]** → [[Outside Ashi-Garami]] (Opponent Success: 40%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Counter Ashi Entry]]** → [[Outside Ashi-Garami]]
-  - When opponent overcommits to advancement attempt, establish your own leg entanglement control
-- **[[Front Headlock Series]]** → [[Front Headlock]]
-  - When opponent sits up for better control angle, capitalize on neck exposure
-- **[[Guillotine Setup]]** → [[Guillotine Control]]
-  - When opponent loses hip connection during transition, attack exposed neck
 
 
 </section>
@@ -295,22 +232,22 @@ Top Ashi Garami defense requires extensive drilling of mechanical extraction seq
 
 **If opponent maintains Outside Ashi with inferior inside space control:**
 - Execute **[[Ashi Garami Escape]]** → [[Standing Position]] (Probability: 65%)
-- Execute **[[Counter Ashi Entry]]** → [[Outside Ashi-Garami]] (Probability: 30%)
+- Execute **[[Counter Ashi Entry]]** → [[Outside Ashi-Garami]] (Probability: 35%)
 
 
 **If opponent advances to Inside or Cross Ashi with superior position:**
-- Execute **[[Saddle Defense]]** → [[Outside Ashi-Garami]] (Probability: 60%)
-- Execute **[[Ashi Garami Escape]]** → [[Standing Position]] (Probability: 35%)
+- Execute **[[Saddle Defense]]** → [[Outside Ashi-Garami]] (Probability: 55%)
+- Execute **[[Ashi Garami Escape]]** → [[Standing Position]] (Probability: 45%)
 
 
 **If opponent achieves Saddle with heel exposure:**
-- Execute **[[Saddle Defense]]** → [[Outside Ashi-Garami]] (Probability: 50%)
-- Execute **[[Tap Out]]** → [[Lost by Submission]] (Probability: 40%)
+- Execute **[[Saddle Defense]]** → [[Outside Ashi-Garami]] (Probability: 55%)
+- Execute **[[Tap Out]]** → [[game-over]] (Probability: 45%)
 
 
 **If opponent loses connection points during advancement attempt:**
-- Execute **[[Guard Pass]]** → [[Side Control]] (Probability: 50%)
-- Execute **[[Front Headlock Series]]** → [[Front Headlock]] (Probability: 40%)
+- Execute **[[Guard Pass]]** → [[Side Control]] (Probability: 55%)
+- Execute **[[Front Headlock Series]]** → [[Front Headlock]] (Probability: 45%)
 
 
 
@@ -379,25 +316,7 @@ Positional sparring starting in various Ashi positions. Top player earns points 
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
-
-### Defensive Extraction to Control
-
-`Outside Ashi-Garami → Ashi Garami Escape → Standing Position → Guard Pass → Side Control`
-
-### Counter-Attack Sequence
-
-`Inside Ashi-Garami → Counter Ashi Entry → Outside Ashi-Garami → Heel Hook`
-
-### Neck Attack Counter
-
-`Outside Ashi-Garami → Front Headlock Series → Guillotine Control → Guillotine Choke`
-
-
-
-</section>
 
 <section id="position-metrics" class="content-section">
 
@@ -421,6 +340,8 @@ Positional sparring starting in various Ashi positions. Top player earns points 
 - **[[Straight Ankle Lock Control]]** - Counter-attack option when opponent overcommits to advancement; legal in most rule sets unlike heel hooks
 - **[[Front Headlock]]** - Offensive counter-position when opponent sits up for control angle, exposing neck to attack
 - **[[Guillotine Control]]** - Submission counter-attack available when opponent loses hip connection during transitions
+- **[[50-50 Guard]]** - Bilateral entanglement often reached during defensive scrambles; requires specialized escape sequences
+- **[[Standing Position]]** - Primary escape destination; full leg extraction returns to neutral standing engagement
 
 
 </section>

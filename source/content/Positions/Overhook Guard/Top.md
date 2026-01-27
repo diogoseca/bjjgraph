@@ -21,37 +21,37 @@ description: "Master Overhook Guard Top position in BJJ. Control opponent's arm 
     {
       "@type": "HowToStep",
       "name": "Execute Smash Pass",
-      "text": "From this position, execute Smash Pass to transition to Side Control. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Smash Pass. This technique is attempted in 19% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, execute Knee Slice Pass to transition to Side Control. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 18% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Over-Under Pass",
-      "text": "From this position, execute Over-Under Pass to transition to Side Control. Success rate for advanced practitioners: 68%.",
+      "text": "From this position, attempt Over-Under Pass. This technique is attempted in 17% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kimura from Guard",
-      "text": "From this position, execute Kimura from Guard to transition to Kimura Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Kimura from Guard. This technique is attempted in 17% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm Drag to Back",
-      "text": "From this position, execute Arm Drag to Back to transition to Back Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Arm Drag to Back. This technique is attempted in 15% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Mount",
-      "text": "From this position, execute Transition to Mount to transition to Mount Top. Success rate for advanced practitioners: 55%.",
+      "name": "Execute Side Control to Mount",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 14% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -212,77 +212,18 @@ This position is particularly effective in both gi and no-gi grappling, though t
 
 ## Available Attacks
 
-### [[Smash Pass]] → [[Side Control]]
+### [[Smash Pass]] (19% of attempts)
 
-**Success Rates:**
-- Beginner: 50%
-- Intermediate: 65%
-- Advanced: 75%
+### [[Knee Slice Pass]] (18% of attempts)
 
-### [[Knee Slice Pass]] → [[Side Control]]
+### [[Over-Under Pass]] (17% of attempts)
 
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 60%
-- Advanced: 70%
+### [[Kimura from Guard]] (17% of attempts)
 
-### [[Over-Under Pass]] → [[Side Control]]
+### [[Arm Drag to Back]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 68%
+### [[Side Control to Mount]] (14% of attempts)
 
-### [[Kimura from Guard]] → [[Kimura Control]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-### [[Arm Drag to Back]] → [[Back Control]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[Transition to Mount]] → [[Mount Top]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Hip Escape]]** → [[Closed Guard]]
-- **[[Frame and Shrimp]]** → [[Open Guard]]
-- **[[Overhook Sweep]]** → [[Side Control]]
-- **[[Armbar Defense]]** → [[Closed Guard]]
-- **[[Leg Weave Pass]]** → [[Half Guard]]
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Pressure Pass]]** → [[Side Control]]
-  - Opponent attempts to create space with frames
-- **[[Kimura from Side Control]]** → [[Kimura Control]]
-  - Opponent overcommits to stripping overhook
-- **[[Back Take Generic]]** → [[Back Control]]
-  - Opponent turns to side to defend pass
-- **[[Mount to Armbar]]** → [[Armbar Control]]
-  - Opponent exposes trapped arm while defending
 
 
 </section>
@@ -297,18 +238,18 @@ This position is particularly effective in both gi and no-gi grappling, though t
 
 
 **If opponent turns to side attempting to strip overhook:**
-- Execute **[[Back Take Generic]]** → [[Back Control]] (Probability: 55%)
-- Execute **[[Kimura from Guard]]** → [[Kimura Control]] (Probability: 50%)
+- Execute **[[Arm Drag to Back]]** → [[Back Control]] (Probability: 55%)
+- Execute **[[Kimura from Guard]]** → [[Kimura Trap]] (Probability: 50%)
 
 
 **If opponent attempts to create distance or recover full guard:**
-- Execute **[[Pressure Pass]]** → [[Side Control]] (Probability: 58%)
+- Execute **[[Smash Pass]]** → [[Side Control]] (Probability: 58%)
 - Execute **[[Over-Under Pass]]** → [[Side Control]] (Probability: 52%)
 
 
 **If opponent locks half guard with legs:**
-- Execute **[[Underhook Pass]]** → [[Side Control]] (Probability: 48%)
-- Execute **[[Knee Slice from Half]]** → [[Side Control]] (Probability: 45%)
+- Execute **[[Over-Under Pass]]** → [[Side Control]] (Probability: 48%)
+- Execute **[[Knee Slice Pass]]** → [[Side Control]] (Probability: 45%)
 
 
 
@@ -394,33 +335,39 @@ Positional sparring starting from overhook guard top. Top player wins by passing
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Shortest path to submission
+## Test Your Knowledge
 
-`Overhook Guard Top → Kimura Control → Kimura`
+**Q1**: What is the primary method for maintaining overhook control when your opponent attempts to posture and pull their arm free?
+**A**: Drive constant shoulder pressure into the overhooked arm while keeping your hips heavy and forward. The shoulder acts as a wedge that pins their arm to your body. Simultaneously maintain chest-to-chest contact to eliminate space they need to extract their arm, and use your free hand to control their opposite arm or collar to prevent them from generating leverage.
 
-### High-percentage passing to submission
+**Q2**: Your opponent begins bridging to create space while you have overhook control - how should you adjust your weight distribution?
+**A**: Drop your hips lower and drive your weight forward through your chest into their torso, not backward. Widen your base with your knees to absorb the bridging motion. As they bridge, use their movement to advance your position by walking your feet forward and increasing the angle of pressure through your shoulder. Never lift your hips high during their bridge as this creates the space they need to escape.
 
-`Overhook Guard Top → Smash Pass → Side Control → Americana from Side Control`
+**Q3**: What are the essential grip priorities for maintaining overhook guard top position effectively?
+**A**: Primary grip is the overhook itself, with your arm threaded deep under their arm and your hand controlling their shoulder blade or lat. Secondary priority is controlling their free arm with your opposite hand - grip their wrist, sleeve, or collar to prevent frames. In gi, use collar grips to reinforce control; in no-gi, use wrist control or underhook their free arm.
 
-### Back attack pathway
+**Q4**: How do you shut down your opponent's primary escape of turning away to recover guard?
+**A**: When you feel them begin to turn, immediately drive your shoulder pressure forward and follow their rotation. Keep your chest glued to their back or side as they turn. If they commit to turning, capitalize by transitioning to back control rather than trying to flatten them again. Use your free hand to block their hip rotation by controlling their far hip or belt.
 
-`Overhook Guard Top → Back Take Generic → Back Control → Rear Naked Choke`
+**Q5**: What is the proper shoulder pressure application technique from overhook guard top?
+**A**: Position your shoulder at approximately 45 degrees across their chest, driving into the junction of their neck and shoulder on the trapped arm side. Your weight should flow through your shoulder like a blade cutting across their body. Keep your head low on the opposite side of the overhook, and maintain a driving angle that pins both their shoulder and arm simultaneously. The pressure should feel like you're trying to touch their opposite shoulder with yours.
 
-### Mount control pathway
+**Q6**: Your opponent partially escapes by recovering half guard while you maintain the overhook - what is your recovery strategy?
+**A**: Maintain the overhook control as your anchor point and immediately switch your passing strategy to half guard techniques. Use the overhook to flatten their upper body while addressing the half guard with knee slice or over-under mechanics. The overhook actually enhances your half guard passing by eliminating one of their primary frames. Focus on keeping shoulder pressure while your lower body works the pass.
 
-`Overhook Guard Top → Knee Slice Pass → Side Control → Transition to Mount → Mount Top → Armbar from Mount`
+**Q7**: How do you manage energy expenditure to maintain this position for extended periods?
+**A**: Distribute your weight efficiently through your skeletal structure rather than relying on muscular tension. Keep your elbows tight to your body, use your chest and shoulder as the primary pressure tools, and maintain a low center of gravity. Breathe rhythmically and avoid death-gripping. Progress the pass systematically rather than fighting for static control - active passing is less tiring than holding a stalemate.
 
-### Kimura trap sequence
-
-`Overhook Guard Top → Kimura from Guard → Kimura Control → Kimura from Side Control`
+**Q8**: Your opponent explosively frames with their free arm against your face - how do you recover control?
+**A**: Turn your head to the side and drive your chin down, making the frame slip off your face rather than stopping your forward pressure. Simultaneously use your free hand to swim inside their framing arm and redirect it to the mat or pin it to their body. Never back away from the frame as this surrenders your position. Increase your forward pressure through the frame and angle your approach to bypass it.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -441,14 +388,14 @@ Positional sparring starting from overhook guard top. Top player wins by passing
 
 ## Related Positions and Techniques
 
-- **[[Overhook Guard Bottom]]** - Sibling variant - opposite perspective of same position
+- **[[Overhook Guard]]** - Hub position - parent position for this top perspective
 - **[[Overhook Control]]** - Related control position with overhook mechanics
 - **[[Side Control]]** - Primary passing target position from overhook control
-- **[[Kimura Control]]** - Submission control accessible from overhook when opponent defends
+- **[[Kimura Trap]]** - Submission control accessible from overhook when opponent defends
 - **[[Back Control]]** - Alternative advancement when opponent turns away from overhook
-- **[[Over-Under Pass]]** - Key transition technique from this position to side control
-- **[[Smash Pass]]** - High-percentage passing technique utilizing overhook control
 - **[[Headquarters Position]]** - Related top control position during passing sequences
+- **[[Half Guard]]** - Common guard recovery position opponent may achieve
+- **[[Closed Guard]]** - Guard position opponent attempts to maintain or recover
 
 
 </section>

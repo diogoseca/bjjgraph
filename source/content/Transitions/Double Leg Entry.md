@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Double Leg Entry | BJJ Technique | BJJ Graph"
 description: "Learn Double Leg Entry in BJJ. Step-by-step execution from standing position to dominant takedown setup. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%."
@@ -16,7 +17,7 @@ description: "Learn Double Leg Entry in BJJ. Step-by-step execution from standin
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Double Leg Entry in BJJ",
-  "description": "Step-by-step guide for Double Leg Entry from Standing Position to Front Headlock.",
+  "description": "Step-by-step guide for Double Leg Entry from Standing Position/Top. Possible outcomes: Front Headlock/Top (70%), Standing Position/Top (20%), Standing Position/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -154,11 +155,25 @@ description: "Learn Double Leg Entry in BJJ. Step-by-step execution from standin
 
 The Double Leg Entry is a fundamental wrestling-based takedown that serves as a cornerstone technique for standing grappling exchanges in Brazilian Jiu-Jitsu. This technique involves penetrating your opponent's defensive space, securing both legs simultaneously, and driving through to establish a dominant position on the ground. The double leg entry is distinguished from the finish itself - it focuses on the critical initial phases of level change, penetration step, and leg capture that create the conditions for a successful takedown. Understanding proper entry mechanics is essential because even perfect finishing technique cannot compensate for poor penetration and positioning. The double leg entry requires precise timing, explosive movement, and tactical deception to bypass an opponent's defensive posture. Unlike other takedown approaches that rely on upper body control, the double leg entry commits fully to attacking the opponent's base by removing both legs from the equation simultaneously. This creates an unavoidable mechanical disadvantage for the defender once proper penetration is achieved. Mastery of the double leg entry provides a reliable method for taking the fight to the ground on your terms, establishing top position, and controlling the pace of engagement from the opening exchange.
 
-**Starting Position**: [[Standing Position]]
-**Ending Position**: [[Front Headlock]]
+**From Position**: [[Standing Position/Top]]
 **Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Front Headlock/Top]] | 70% |
+| Failure | [[Standing Position/Top]] | 20% |
+| Counter | [[Standing Position/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

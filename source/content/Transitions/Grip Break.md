@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Grip Break | BJJ Technique | BJJ Graph"
 description: "Master grip breaking in BJJ with systematic hand fighting methods. Learn two-on-one control, directional force, and grip chains. Beginner 60%, Intermediate 75%, Advanced 90%."
@@ -16,7 +17,7 @@ description: "Master grip breaking in BJJ with systematic hand fighting methods.
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Grip Break in BJJ",
-  "description": "Step-by-step guide for Grip Break from Open Guard to Open Guard.",
+  "description": "Step-by-step guide for Grip Break from Open Guard/Bottom. Possible outcomes: Open Guard/Bottom (75%), Open Guard/Bottom (15%), Open Guard/Top (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -158,11 +159,25 @@ The effectiveness of grip breaking lies in understanding leverage principles and
 
 Mastery of grip breaking transcends the physical technique itself and becomes a chess match of grip fighting sequences. Advanced practitioners anticipate their opponent's re-gripping attempts and chain multiple grip breaks together, creating sustained periods of grip dominance that translate directly to positional and tactical advantages throughout the match.
 
-**Starting Position**: [[Open Guard]]
-**Ending Position**: [[Open Guard]]
+**From Position**: [[Open Guard/Bottom]]
 **Success Rates**: Beginner 60%, Intermediate 75%, Advanced 90%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Open Guard/Bottom]] | 75% |
+| Failure | [[Open Guard/Bottom]] | 15% |
+| Counter | [[Open Guard/Top]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

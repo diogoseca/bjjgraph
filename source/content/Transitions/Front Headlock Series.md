@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Front Headlock Series | BJJ Technique | BJJ Graph"
 description: "Master the Front Headlock Series in BJJ. Complete system covering Anaconda, Darce, Guillotine, and back takes. Success: Beginner 50%, Intermediate 70%, Advanced 85%."
@@ -16,7 +17,7 @@ description: "Master the Front Headlock Series in BJJ. Complete system covering 
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Front Headlock Series in BJJ",
-  "description": "Step-by-step guide for Front Headlock Series from Front Headlock to Back Control.",
+  "description": "Step-by-step guide for Front Headlock Series from Front Headlock/Top. Possible outcomes: Back Control/Top (75%), Front Headlock/Top (15%), Front Headlock/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -170,11 +171,25 @@ The effectiveness of this series lies in its systematic approach to creating dil
 
 Mastery of the Front Headlock Series transforms scrambles and transitional moments into dominant positions rather than chaotic exchanges. This systematic approach has revolutionized modern grappling by providing a clear decision tree for one of the most common positions encountered in both gi and no-gi competition. The series works effectively at all skill levels, though the sophistication of attack selection and execution refinement increases dramatically with experience.
 
-**Starting Position**: [[Front Headlock]]
-**Ending Position**: [[Back Control]]
+**From Position**: [[Front Headlock/Top]]
 **Success Rates**: Beginner 50%, Intermediate 70%, Advanced 85%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Back Control/Top]] | 75% |
+| Failure | [[Front Headlock/Top]] | 15% |
+| Counter | [[Front Headlock/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

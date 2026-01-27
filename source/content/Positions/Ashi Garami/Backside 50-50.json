@@ -55,6 +55,322 @@
       "relationship": "Defensive position bottom player may adopt when escaping leg entanglement"
     }
   ],
+  "top": {
+    "name": "Backside 50-50 Top",
+    "description": "Master Backside 50-50 Top in BJJ. Complete guide covering dominant leg entanglement control, back attacks, and leg locks with superior positional leverage.",
+    "tags": [
+      "bjj",
+      "position",
+      "leg-entanglement",
+      "top",
+      "offensive",
+      "no-gi",
+      "advanced"
+    ],
+    "overview": "Backside 50-50 Top is an advanced leg entanglement position where both practitioners have their legs intertwined, but the top player has their chest against the bottom player's back. This configuration provides significant mechanical and tactical advantages including superior pressure, better leg attack angles, and the constant threat of transitioning to back control.\n\nFrom the top position in backside 50-50, you can see your opponent's legs more clearly, apply pressure with your chest to limit their movement, and access high-percentage leg locks while also threatening to abandon the leg entanglement entirely to secure back control. This dual-threat nature makes the top position particularly powerful in modern no-gi competition.\n\nBackside 50-50 Top is commonly seen in no-gi competition and leg lock-focused training environments, appearing from successful leg entanglement entries, countered leg attacks, or as a transitional position during scrambles. The position rewards technical leg lock knowledge and the ability to manage multiple attacking options simultaneously while maintaining dominant positional control. Success requires balancing pressure application to control opponent's movement with strategic decision-making about when to commit to leg lock finishes versus when to advance to superior positions like back control or saddle.",
+    "state_properties": {
+      "point_value": 0,
+      "position_type": "Offensive/Controlling",
+      "risk_level": "Medium",
+      "energy_cost": "Medium",
+      "time_sustainability": "Medium"
+    },
+    "state_invariants": [
+      "Top player's chest remains in contact with bottom player's back, applying constant forward pressure to restrict hip mobility and offensive options while maintaining superior position",
+      "Both practitioners' legs are entangled in mirrored configuration with inside legs controlling outside legs, creating the characteristic 50-50 leg positioning while top player faces opponent's back",
+      "Top player maintains clear visual access to opponent's lower body and leg configuration, enabling precise technical adjustments and attack recognition that bottom player lacks",
+      "Top player's hips positioned higher than opponent's hips with ability to drive weight downward through chest, creating pressure differential that limits bottom player's movement and creates attacking opportunities",
+      "Bottom player's back exposed to top player with limited ability to turn and face opponent, creating structural disadvantage in both leg entanglement exchanges and positional advancement"
+    ],
+    "prerequisites": [
+      "Understanding of fundamental leg entanglement mechanics and 50-50 guard structure",
+      "Ability to recognize and capitalize on back exposure during leg lock exchanges",
+      "Basic competency with heel hooks, toe holds, and straight ankle locks from entangled positions",
+      "Familiarity with back control fundamentals and transitional pathways from leg entanglements",
+      "Experience managing dual-threat offensive systems where multiple attack paths exist simultaneously",
+      "Solid base management skills to prevent sweeps while maintaining offensive pressure"
+    ],
+    "key_principles": [
+      "Pressure Maintenance: Constant chest pressure on opponent's back limits their mobility and offensive options while establishing positional dominance",
+      "Dual Threat System: Simultaneous threat of leg locks and back control creates difficult defensive decisions forcing opponent errors",
+      "Visual Advantage: Clear view of opponent's legs allows precise leg lock mechanics and timing while opponent cannot see your positioning",
+      "Hip Control: Control opponent's hip movement to prevent sweeps while maintaining your attacking mobility and base",
+      "Systematic Progression: Choose between leg lock finish, back control advancement, or pass based on opponent's reactions and defensive choices",
+      "Base Management: Maintain solid base to prevent sweeps while working attacks, never sacrificing stability for submission attempts",
+      "Timing Recognition: Identify when to commit to submissions versus when to advance position based on opponent's defensive priorities"
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the primary mechanism for maintaining dominant pressure in Backside 50-50 Top?",
+        "answer": "Chest-to-back pressure is the primary control mechanism. Your chest should be heavy on opponent's upper back, driving their hips into the mat. This limits their hip mobility and prevents them from creating angles or frames. Weight distribution should favor forward pressure rather than sitting back on your heels."
+      },
+      {
+        "question": "Your opponent starts bridging and creating hip movement while you have Backside 50-50 Top. What adjustment do you make?",
+        "answer": "Drive your chest pressure forward and down immediately when you feel them bridge. Lower your hips closer to the mat to increase base stability. Use your forearm on their hip to post and prevent the turn. If they continue creating movement, walk your hips higher up their body toward back control rather than fighting to stay in the leg entanglement."
+      },
+      {
+        "question": "What are the essential grips for maintaining Backside 50-50 Top position?",
+        "answer": "Primary control comes from body positioning, not grips. Your chest pressure and leg entanglement provide base control. Hands should be free for attacking - one hand controlling opponent's heel or ankle for submissions, the other posting or framing against their hip. Avoid using arm strength to hold position as this fatigues quickly and reduces attacking options."
+      },
+      {
+        "question": "How do you shut down the bottom player's primary escape attempts from Backside 50-50 Top?",
+        "answer": "Their main escapes involve hip movement and turning to face you. Counter by maintaining heavy forward pressure that pins their hips. When they try to turn, walk your hips toward back control - their turn actually helps your advancement. Keep your legs active in the entanglement to prevent them from extracting. If they frame with their arms, use their frames against them by driving through them toward back control."
+      },
+      {
+        "question": "What determines whether you should attack legs or advance to back control from Backside 50-50 Top?",
+        "answer": "Read opponent's defensive focus. If they're creating frames to prevent back control advancement, their leg defense is compromised - attack the heel. If they're hiding their heel and defending leg attacks well, abandon legs and take the back. The position's power comes from this dilemma - they cannot defend both optimally. Take what they give you rather than forcing your preferred attack."
+      },
+      {
+        "question": "Your opponent grabs your foot and starts working to clear your leg entanglement. How do you respond?",
+        "answer": "This defense exposes them to back control. As they focus on leg clearing, walk your hips up their body and establish seat belt grip. Alternatively, if their heel becomes exposed during the clearing attempt, immediately attack the heel hook. Their focus on one threat opens the other. Maintain pressure throughout - if you lighten up, they'll successfully clear and create distance."
+      },
+      {
+        "question": "How do you manage energy expenditure to maintain Backside 50-50 Top for extended periods?",
+        "answer": "Let your body structure do the work rather than muscular effort. Chest pressure comes from positioning and weight distribution, not active pressing. Legs stay entangled through proper positioning, not squeezing. Arms remain relaxed until attacking. Keep breathing steady. The position should feel sustainable - if you're working hard just to maintain it, your body position is wrong."
+      },
+      {
+        "question": "You've partially lost control and your opponent creates a frame against your shoulder. How do you recover full control?",
+        "answer": "Don't fight the frame directly - redirect around it. Circle your pressure to the side away from their frame while maintaining leg entanglement. Alternatively, swim your arm under their frame while driving forward to collapse it. If the frame is too strong, use it as an opportunity to transition - either advance to back control by going around the frame, or drop to a leg attack while they're committed to the upper body frame."
+      }
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent is primarily defending their back and creating frames to prevent you from walking up their body",
+        "actions": [
+          {
+            "technique": "Inside Heel Hook",
+            "target": "game-over",
+            "probability": 50
+          },
+          {
+            "technique": "Outside Heel Hook",
+            "target": "game-over",
+            "probability": 45
+          },
+          {
+            "technique": "Toe Hold",
+            "target": "game-over",
+            "probability": 40
+          }
+        ]
+      },
+      {
+        "condition": "If opponent is primarily defending leg attacks with good positioning and control of your legs",
+        "actions": [
+          {
+            "technique": "Back Take Generic",
+            "target": "Back Control",
+            "probability": 65
+          },
+          {
+            "technique": "Saddle Entry from Top",
+            "target": "Saddle",
+            "probability": 55
+          },
+          {
+            "technique": "50-50 Pass",
+            "target": "Leg Drag Position",
+            "probability": 50
+          }
+        ]
+      },
+      {
+        "condition": "If opponent attempts to sweep by inverting or creating angles with their hips",
+        "actions": [
+          {
+            "technique": "Pressure Application",
+            "target": "Backside 50-50",
+            "probability": 70
+          },
+          {
+            "technique": "Back Take Generic",
+            "target": "Back Control",
+            "probability": 60
+          },
+          {
+            "technique": "Saddle Entry from Top",
+            "target": "Saddle",
+            "probability": 55
+          }
+        ]
+      },
+      {
+        "condition": "If opponent exposes their near leg by straightening or extending it during escape attempts",
+        "actions": [
+          {
+            "technique": "Kneebar",
+            "target": "game-over",
+            "probability": 55
+          },
+          {
+            "technique": "Straight Ankle Lock",
+            "target": "game-over",
+            "probability": 60
+          }
+        ]
+      },
+      {
+        "condition": "If opponent commits to turtle position to defend both back and legs simultaneously",
+        "actions": [
+          {
+            "technique": "Back Take Generic",
+            "target": "Back Control",
+            "probability": 70
+          },
+          {
+            "technique": "Pressure Pass",
+            "target": "Side Control",
+            "probability": 60
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Failing to maintain constant chest-to-back pressure while attacking legs",
+        "consequence": "Allows bottom player to create hip movement and angles, enabling sweeps or position improvements. Without constant pressure, your mechanical advantage disappears and the position neutralizes.",
+        "correction": "Maintain heavy, constant chest-to-back pressure throughout all attacking sequences. Your chest should be driving them into the mat, limiting their hip mobility. Even while attacking legs, some portion of your weight should be on their back. Use your hips to drive weight forward. If opponent is creating movement or angles easily, you're not applying enough pressure."
+      },
+      {
+        "error": "Tunnel vision on leg locks while ignoring superior back control opportunities",
+        "consequence": "Miss high-percentage position advancement to back control (4 points) while forcing lower-percentage leg lock finishes. Opponent may defend legs successfully while you ignore superior positional option.",
+        "correction": "Constantly evaluate back control opportunities. When opponent is defending legs well, look to walk your hips up their body toward back control. Back control is often the smarter choice than forcing leg locks. Be opportunistic and take what opponent gives you. The position's power comes from maintaining dual threats."
+      },
+      {
+        "error": "Compromising base stability to chase submission finishes",
+        "consequence": "Creates sweep opportunities for bottom player, potentially reversing the position entirely. Getting swept from dominant position wastes all positional advantages and energy investment.",
+        "correction": "Never sacrifice base for submissions. Keep your base wide and stable throughout all attacks. If you need to commit heavily to a finish, ensure opponent is sufficiently controlled first. Better to slow down and maintain position than rush and get swept."
+      },
+      {
+        "error": "Using arms instead of chest pressure to control opponent's position",
+        "consequence": "Arms fatigue quickly and provide weaker control than body weight. Opponent can move more freely, and your attacks become less effective as you tire. Arm-dependent control is unsustainable.",
+        "correction": "Use your chest and body weight as primary control mechanisms. Your arms should be used for attacking legs, not holding position. Let your body structure and weight distribution do the controlling work while arms focus on technical adjustments and submissions."
+      },
+      {
+        "error": "Failing to recognize opponent's defensive priorities and attacking blindly",
+        "consequence": "Waste time and energy attacking options opponent is prepared to defend while missing openings in areas they're neglecting. Reduces overall efficiency and success rate.",
+        "correction": "Read opponent's defensive focus. If they're worried about their back, attack legs. If they're defending legs well, take the back. The position works because they can't defend both equally. Identify the weakness and exploit it systematically."
+      },
+      {
+        "error": "Staying static in the position without working toward advancement or finish",
+        "consequence": "Referees penalize stalling in leg entanglements. Allows opponent to recover, solve problems, and potentially escape. Wastes positional advantage through inactivity.",
+        "correction": "Always be working toward something: leg lock finish, back control, or pass. Even if progressing slowly, show constant activity and technical adjustments. Movement prevents stalling calls and keeps opponent defensive rather than problem-solving."
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Backside 50-50 Entry Drill",
+        "description": "Partner starts in standard 50-50 guard. Practice transitioning to backside 50-50 top by circling behind opponent while maintaining leg entanglement. Focus on smooth transition while keeping pressure constant. Alternate roles every 5 entries.",
+        "duration": "5 minutes per partner"
+      },
+      {
+        "name": "Dual Threat Decision Drill",
+        "description": "Start in backside 50-50 top with bottom player given specific defensive instruction (defend back only OR defend legs only). Top player must recognize the opening and attack the neglected area. Rotate defensive priorities every 2 minutes to develop recognition skills.",
+        "duration": "10 minutes total"
+      },
+      {
+        "name": "Pressure Maintenance with Attacks Drill",
+        "description": "Maintain backside 50-50 top position while partner actively tries to create space and hip movement. Focus exclusively on keeping chest pressure heavy while preventing sweeps. No submissions - pure positional control. If bottom player creates significant space, reset and analyze what allowed it.",
+        "duration": "3 minute rounds"
+      },
+      {
+        "name": "Back Take Timing Drill",
+        "description": "Bottom player defends legs aggressively with good positioning. Top player recognizes this and transitions to back control, securing seat belt grip and hooks. Emphasis on recognizing when to abandon legs for superior position. Bottom player offers moderate resistance to develop timing.",
+        "duration": "5 minutes continuous flow"
+      },
+      {
+        "name": "Leg Lock Finish Sequence Drill",
+        "description": "Starting from backside 50-50 top, practice finishing sequence for inside heel hook, outside heel hook, and toe hold. Bottom player remains relatively static. Focus on technical precision of each finish from this specific position. 3 repetitions of each submission before switching partners.",
+        "duration": "8 minutes total"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "50-50 Guard",
+        "relationship": "Standard face-to-face variation with different attack angles"
+      },
+      {
+        "name": "Saddle",
+        "relationship": "Common transition target with both legs controlled"
+      },
+      {
+        "name": "Back Control",
+        "relationship": "High-percentage advancement option when legs are defended"
+      },
+      {
+        "name": "Inside Ashi-Garami",
+        "relationship": "Related leg entanglement with single leg control"
+      },
+      {
+        "name": "Honey Hole",
+        "relationship": "Alternative leg entanglement configuration from top"
+      },
+      {
+        "name": "Inside Heel Hook",
+        "relationship": "Primary submission finish from this position"
+      },
+      {
+        "name": "Outside Heel Hook",
+        "relationship": "Alternative heel attack option from this position"
+      },
+      {
+        "name": "Toe Hold",
+        "relationship": "Complementary leg attack when heel is defended"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "beginner": 30,
+        "intermediate": 50,
+        "advanced": 70
+      },
+      "advancement_probability": {
+        "beginner": 30,
+        "intermediate": 50,
+        "advanced": 70
+      },
+      "submission_probability": {
+        "beginner": 20,
+        "intermediate": 35,
+        "advanced": 50
+      },
+      "average_time": "45-90 seconds before advancement or submission attempt"
+    },
+    "transitions": [
+      {
+        "transition": "Inside Heel Hook",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Outside Heel Hook",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Toe Hold",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Straight Ankle Lock",
+        "attempt_probability": 14
+      },
+      {
+        "transition": "Back Take Generic",
+        "attempt_probability": 16
+      },
+      {
+        "transition": "Saddle Entry from Top",
+        "attempt_probability": 14
+      },
+      {
+        "transition": "Kneebar",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "50-50 Pass",
+        "attempt_probability": 12
+      }
+    ]
+  },
   "bottom": {
     "name": "Backside 50-50 Bottom",
     "description": "Master Backside 50-50 Bottom in BJJ. Complete guide covering defensive leg entanglement, escape mechanics, and reversal opportunities. Success rates vary by skill level.",
@@ -99,132 +415,38 @@
       "Position Before Submission: Prioritize improving position over forcing submissions from inferior position",
       "Space Creation Through Frames: Use frames and movement to prevent opponent from flattening you completely"
     ],
-    "offensive_transitions": [
+    "knowledge_assessment": [
       {
-        "technique": "Rolling Back Take",
-        "target_position": "Back Control",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 40,
-          "advanced": 60
-        }
+        "question": "What is the single most important thing to prevent when playing Backside 50-50 Bottom?",
+        "answer": "Prevent being completely flattened with your back fully on the mat. Once flattened, hip mobility disappears, sweeps become impossible, and opponent can attack your legs or back freely. Always stay active on your side with your top arm posting, constantly adjusting hip angles to maintain movement capability."
       },
       {
-        "technique": "50-50 Pass",
-        "target_position": "50-50 Guard",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 50,
-          "advanced": 70
-        }
+        "question": "Your opponent is driving chest pressure and you feel yourself getting flattened. What immediate adjustment do you make?",
+        "answer": "Bridge hard immediately to create space and turn to your side. Use your top arm to post on their shoulder or chest to create a frame. Simultaneously, angle your hips away from them to prevent the flattening pressure. If bridge fails, immediately threaten a reversal or leg attack to force them to defend rather than flatten."
       },
       {
-        "technique": "Inside Heel Hook",
-        "target_position": "Won by Submission",
-        "success_rates": {
-          "beginner": 20,
-          "intermediate": 35,
-          "advanced": 55
-        }
+        "question": "What are the essential frames for maintaining defensive structure in Backside 50-50 Bottom?",
+        "answer": "Top arm frames against opponent's chest, shoulder, or hip to maintain separation and prevent flattening. Bottom arm can frame against their leg or hip for additional stability. These frames work together to create space for hip movement. Without active frames, opponent collapses all space and eliminates your mobility."
       },
       {
-        "technique": "Outside Heel Hook",
-        "target_position": "Won by Submission",
-        "success_rates": {
-          "beginner": 15,
-          "intermediate": 30,
-          "advanced": 50
-        }
+        "question": "How do you defend against the primary back control threat from Backside 50-50 Bottom?",
+        "answer": "Monitor opponent's hands constantly - if they reach toward your neck or release leg control, immediately work to face them by turning into the pressure. Keep your chin tucked and elbows tight. When they abandon leg entanglement for back control, this creates opportunity to extract your legs and either stand or recover guard. The moment you feel them walk their hips up your body, accelerate your escape."
       },
       {
-        "technique": "Straight Ankle Lock",
-        "target_position": "Won by Submission",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 40,
-          "advanced": 55
-        }
+        "question": "Your opponent grabs your heel and starts attacking an inside heel hook. What is your defensive priority sequence?",
+        "answer": "First, hide your heel by turning your knee inward and pulling your toes toward your shin. Second, fight their grip - strip their hands from your foot if possible. Third, if grip is locked, create rotational movement with your hips to relieve pressure on the knee. Fourth, consider counter-attacking their leg if they've committed heavily to the heel hook, as their defense may be compromised."
       },
       {
-        "technique": "X-Guard to Ashi Transition",
-        "target_position": "Inside Ashi-Garami",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 45,
-          "advanced": 65
-        }
+        "question": "When is the appropriate time to attempt leg attacks from Backside 50-50 Bottom?",
+        "answer": "Only attack legs opportunistically when opponent makes mistakes or overcommits. If they extend their leg while attacking or passing, attack it. If they release upper body pressure to work on your legs, use that opening for your own attack. Never force leg attacks from bottom - position improvement should be primary goal. Leg attacks from bottom are counters to opponent's actions, not proactive strategies."
       },
       {
-        "technique": "Saddle Defense",
-        "target_position": "Saddle",
-        "success_rates": {
-          "beginner": 20,
-          "intermediate": 35,
-          "advanced": 55
-        }
+        "question": "How do you manage energy when stuck in Backside 50-50 Bottom for extended periods?",
+        "answer": "Move efficiently rather than constantly. Use frames to hold space rather than constantly fighting pressure. Make decisive movements when opportunities arise rather than constantly scrambling. Breathe steadily and stay calm - panic leads to exhaustion. Recognize that constant small movements drain you faster than waiting for right moment to make bigger escape attempts."
       },
       {
-        "technique": "Standing up in Base",
-        "target_position": "Standing Position",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 40,
-          "advanced": 60
-        }
-      }
-    ],
-    "defensive_responses": [
-      {
-        "technique": "Saddle Entry from Top",
-        "target_position": "Saddle",
-        "success_rate": 45
-      },
-      {
-        "technique": "Rolling Back Take",
-        "target_position": "Back Control",
-        "success_rate": 50
-      },
-      {
-        "technique": "Inside Heel Hook",
-        "target_position": "Won by Submission",
-        "success_rate": 40
-      },
-      {
-        "technique": "Outside Heel Hook",
-        "target_position": "Won by Submission",
-        "success_rate": 35
-      },
-      {
-        "technique": "Leg Drag Pass",
-        "target_position": "Leg Drag Position",
-        "success_rate": 40
-      },
-      {
-        "technique": "50-50 Pass",
-        "target_position": "Defensive Position",
-        "success_rate": 55
-      }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Rolling Back Take",
-        "target_position": "Back Control",
-        "trigger": "Opponent attempts to flatten you completely or releases leg control"
-      },
-      {
-        "technique": "50-50 Pass",
-        "target_position": "50-50 Guard",
-        "trigger": "Opponent overcommits to leg attack and loosens positional control"
-      },
-      {
-        "technique": "Inside Heel Hook",
-        "target_position": "Won by Submission",
-        "trigger": "Opponent extends their leg while attempting to pass or attack"
-      },
-      {
-        "technique": "X-Guard to Ashi Transition",
-        "target_position": "Inside Ashi-Garami",
-        "trigger": "Opponent posts weight forward while maintaining leg entanglement"
+        "question": "Your opponent backs off the leg entanglement pressure to reposition. How do you capitalize on this opening?",
+        "answer": "The moment pressure releases, immediately work to face them or extract your legs. Stand up in base if leg extraction is possible. Rotate your hips to face them and recover guard. If they've maintained leg entanglement but lightened pressure, use hip movement to create angles for sweeps. Any reduction in their pressure is your opportunity - don't wait for them to settle again."
       }
     ],
     "decision_tree": [
@@ -253,7 +475,7 @@
           },
           {
             "technique": "Inside Heel Hook",
-            "target": "Won by Submission",
+            "target": "game-over",
             "probability": 40
           }
         ]
@@ -263,12 +485,12 @@
         "actions": [
           {
             "technique": "Inside Heel Hook",
-            "target": "Won by Submission",
+            "target": "game-over",
             "probability": 50
           },
           {
             "technique": "Straight Ankle Lock",
-            "target": "Won by Submission",
+            "target": "game-over",
             "probability": 45
           }
         ]
@@ -358,28 +580,6 @@
         "duration": "6 rounds of 5 minutes"
       }
     ],
-    "optimal_submission_paths": [
-      {
-        "name": "Opportunistic Leg Attack Path",
-        "path": "Backside 50-50 Bottom → Inside Heel Hook → Won by Submission"
-      },
-      {
-        "name": "Position Improvement to Submission Path",
-        "path": "Backside 50-50 Bottom → 50-50 Guard → Inside Heel Hook → Won by Submission"
-      },
-      {
-        "name": "Back Take to Submission Path",
-        "path": "Backside 50-50 Bottom → Rolling Back Take → Back Control → Rear Naked Choke → Won by Submission"
-      },
-      {
-        "name": "Transition to Better Leg Entanglement Path",
-        "path": "Backside 50-50 Bottom → X-Guard to Ashi Transition → Inside Ashi-Garami → Inside Heel Hook → Won by Submission"
-      },
-      {
-        "name": "Standing Escape to Submission Path",
-        "path": "Backside 50-50 Bottom → Standing up in Base → Saddle Entry from Top → Outside Heel Hook → Won by Submission"
-      }
-    ],
     "related_content": [
       {
         "name": "50-50 Guard",
@@ -406,16 +606,12 @@
         "relationship": "Primary submission attack available from this position"
       },
       {
-        "name": "Defensive Strategy",
-        "relationship": "Conceptual framework for managing inferior positions like backside 50-50 bottom"
-      },
-      {
         "name": "X-Guard",
         "relationship": "Alternative leg entanglement position accessible through proper transitions"
       },
       {
-        "name": "systematic approach Leg Lock System",
-        "relationship": "Systematic framework incorporating this position into comprehensive leg attack hierarchy"
+        "name": "Open Guard",
+        "relationship": "Recovery position when successfully escaping leg entanglement"
       }
     ],
     "position_metrics": {
@@ -435,409 +631,40 @@
         "advanced": 50
       },
       "average_time": "30-60 seconds"
-    }
-  },
-  "top": {
-    "name": "Backside 50-50 Top",
-    "description": "Master Backside 50-50 Top in BJJ. Complete guide covering dominant leg entanglement control, back attacks, and leg locks with superior positional leverage.",
-    "tags": [
-      "bjj",
-      "position",
-      "leg-entanglement",
-      "top",
-      "offensive",
-      "no-gi",
-      "advanced"
-    ],
-    "overview": "Backside 50-50 Top is an advanced leg entanglement position where both practitioners have their legs intertwined, but the top player has their chest against the bottom player's back. This configuration provides significant mechanical and tactical advantages including superior pressure, better leg attack angles, and the constant threat of transitioning to back control.\n\nFrom the top position in backside 50-50, you can see your opponent's legs more clearly, apply pressure with your chest to limit their movement, and access high-percentage leg locks while also threatening to abandon the leg entanglement entirely to secure back control. This dual-threat nature makes the top position particularly powerful in modern no-gi competition.\n\nBackside 50-50 Top is commonly seen in no-gi competition and leg lock-focused training environments, appearing from successful leg entanglement entries, countered leg attacks, or as a transitional position during scrambles. The position rewards technical leg lock knowledge and the ability to manage multiple attacking options simultaneously while maintaining dominant positional control. Success requires balancing pressure application to control opponent's movement with strategic decision-making about when to commit to leg lock finishes versus when to advance to superior positions like back control or saddle.",
-    "state_properties": {
-      "point_value": 0,
-      "position_type": "Offensive/Controlling",
-      "risk_level": "Medium",
-      "energy_cost": "Medium",
-      "time_sustainability": "Medium"
     },
-    "state_invariants": [
-      "Top player's chest remains in contact with bottom player's back, applying constant forward pressure to restrict hip mobility and offensive options while maintaining superior position",
-      "Both practitioners' legs are entangled in mirrored configuration with inside legs controlling outside legs, creating the characteristic 50-50 leg positioning while top player faces opponent's back",
-      "Top player maintains clear visual access to opponent's lower body and leg configuration, enabling precise technical adjustments and attack recognition that bottom player lacks",
-      "Top player's hips positioned higher than opponent's hips with ability to drive weight downward through chest, creating pressure differential that limits bottom player's movement and creates attacking opportunities",
-      "Bottom player's back exposed to top player with limited ability to turn and face opponent, creating structural disadvantage in both leg entanglement exchanges and positional advancement"
-    ],
-    "prerequisites": [
-      "Understanding of fundamental leg entanglement mechanics and 50-50 guard structure",
-      "Ability to recognize and capitalize on back exposure during leg lock exchanges",
-      "Basic competency with heel hooks, toe holds, and straight ankle locks from entangled positions",
-      "Familiarity with back control fundamentals and transitional pathways from leg entanglements",
-      "Experience managing dual-threat offensive systems where multiple attack paths exist simultaneously",
-      "Solid base management skills to prevent sweeps while maintaining offensive pressure"
-    ],
-    "key_principles": [
-      "Pressure Maintenance: Constant chest pressure on opponent's back limits their mobility and offensive options while establishing positional dominance",
-      "Dual Threat System: Simultaneous threat of leg locks and back control creates difficult defensive decisions forcing opponent errors",
-      "Visual Advantage: Clear view of opponent's legs allows precise leg lock mechanics and timing while opponent cannot see your positioning",
-      "Hip Control: Control opponent's hip movement to prevent sweeps while maintaining your attacking mobility and base",
-      "Systematic Progression: Choose between leg lock finish, back control advancement, or pass based on opponent's reactions and defensive choices",
-      "Base Management: Maintain solid base to prevent sweeps while working attacks, never sacrificing stability for submission attempts",
-      "Timing Recognition: Identify when to commit to submissions versus when to advance position based on opponent's defensive priorities"
-    ],
-    "offensive_transitions": [
+    "transitions": [
       {
-        "technique": "Inside Heel Hook",
-        "target_position": "Won by Submission",
-        "success_rates": {
-          "beginner": 20,
-          "intermediate": 35,
-          "advanced": 50
-        }
+        "transition": "Rolling Back Take",
+        "attempt_probability": 13
       },
       {
-        "technique": "Outside Heel Hook",
-        "target_position": "Won by Submission",
-        "success_rates": {
-          "beginner": 15,
-          "intermediate": 30,
-          "advanced": 45
-        }
+        "transition": "50-50 Pass",
+        "attempt_probability": 13
       },
       {
-        "technique": "Toe Hold",
-        "target_position": "Won by Submission",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 40,
-          "advanced": 55
-        }
+        "transition": "Inside Heel Hook",
+        "attempt_probability": 12
       },
       {
-        "technique": "Straight Ankle Lock",
-        "target_position": "Won by Submission",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 45,
-          "advanced": 60
-        }
+        "transition": "Outside Heel Hook",
+        "attempt_probability": 11
       },
       {
-        "technique": "Back Take Generic",
-        "target_position": "Back Control",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 50,
-          "advanced": 65
-        }
+        "transition": "Straight Ankle Lock",
+        "attempt_probability": 12
       },
       {
-        "technique": "Saddle Entry from Top",
-        "target_position": "Saddle",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 45,
-          "advanced": 60
-        }
+        "transition": "X-Guard to Ashi Transition",
+        "attempt_probability": 14
       },
       {
-        "technique": "Kneebar",
-        "target_position": "Won by Submission",
-        "success_rates": {
-          "beginner": 20,
-          "intermediate": 35,
-          "advanced": 50
-        }
+        "transition": "Saddle Defense",
+        "attempt_probability": 12
       },
       {
-        "technique": "50-50 Pass",
-        "target_position": "Leg Drag Position",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 40,
-          "advanced": 55
-        }
+        "transition": "Standing up in Base",
+        "attempt_probability": 13
       }
-    ],
-    "defensive_responses": [
-      {
-        "technique": "Saddle Defense",
-        "target_position": "50-50 Guard",
-        "success_rate": 35
-      },
-      {
-        "technique": "Hip Escape",
-        "target_position": "Open Guard",
-        "success_rate": 30
-      },
-      {
-        "technique": "Counter Sweep",
-        "target_position": "Defensive Position",
-        "success_rate": 25
-      },
-      {
-        "technique": "Rolling to Guard",
-        "target_position": "Open Guard",
-        "success_rate": 20
-      },
-      {
-        "technique": "Defensive Position",
-        "target_position": "Defensive Position",
-        "success_rate": 40
-      },
-      {
-        "technique": "Turtle Transition",
-        "target_position": "Turtle",
-        "success_rate": 30
-      }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Back Take Generic",
-        "target_position": "Back Control",
-        "trigger": "Opponent attempts to turn into you or escape legs"
-      },
-      {
-        "technique": "Saddle Entry from Top",
-        "target_position": "Saddle",
-        "trigger": "Opponent tries to straighten trapped leg"
-      },
-      {
-        "technique": "Heel Hook",
-        "target_position": "Won by Submission",
-        "trigger": "Opponent focuses defense on preventing back control"
-      },
-      {
-        "technique": "50-50 Pass",
-        "target_position": "Leg Drag Position",
-        "trigger": "Opponent creates defensive frame and stops attacking"
-      },
-      {
-        "technique": "Pressure Pass",
-        "target_position": "Side Control",
-        "trigger": "Opponent flattens and turtles to protect back"
-      }
-    ],
-    "decision_tree": [
-      {
-        "condition": "If opponent is primarily defending their back and creating frames to prevent you from walking up their body",
-        "actions": [
-          {
-            "technique": "Inside Heel Hook",
-            "target": "Won by Submission",
-            "probability": 50
-          },
-          {
-            "technique": "Outside Heel Hook",
-            "target": "Won by Submission",
-            "probability": 45
-          },
-          {
-            "technique": "Toe Hold",
-            "target": "Won by Submission",
-            "probability": 40
-          }
-        ]
-      },
-      {
-        "condition": "If opponent is primarily defending leg attacks with good positioning and control of your legs",
-        "actions": [
-          {
-            "technique": "Back Take Generic",
-            "target": "Back Control",
-            "probability": 65
-          },
-          {
-            "technique": "Saddle Entry from Top",
-            "target": "Saddle",
-            "probability": 55
-          },
-          {
-            "technique": "50-50 Pass",
-            "target": "Leg Drag Position",
-            "probability": 50
-          }
-        ]
-      },
-      {
-        "condition": "If opponent attempts to sweep by inverting or creating angles with their hips",
-        "actions": [
-          {
-            "technique": "Pressure Application",
-            "target": "Backside 50-50 Top",
-            "probability": 70
-          },
-          {
-            "technique": "Back Take Generic",
-            "target": "Back Control",
-            "probability": 60
-          },
-          {
-            "technique": "Saddle Entry from Top",
-            "target": "Saddle",
-            "probability": 55
-          }
-        ]
-      },
-      {
-        "condition": "If opponent exposes their near leg by straightening or extending it during escape attempts",
-        "actions": [
-          {
-            "technique": "Kneebar",
-            "target": "Won by Submission",
-            "probability": 55
-          },
-          {
-            "technique": "Straight Ankle Lock",
-            "target": "Won by Submission",
-            "probability": 60
-          }
-        ]
-      },
-      {
-        "condition": "If opponent commits to turtle position to defend both back and legs simultaneously",
-        "actions": [
-          {
-            "technique": "Back Take Generic",
-            "target": "Back Control",
-            "probability": 70
-          },
-          {
-            "technique": "Pressure Pass",
-            "target": "Side Control",
-            "probability": 60
-          }
-        ]
-      }
-    ],
-    "common_errors": [
-      {
-        "error": "Failing to maintain constant chest-to-back pressure while attacking legs",
-        "consequence": "Allows bottom player to create hip movement and angles, enabling sweeps or position improvements. Without constant pressure, your mechanical advantage disappears and the position neutralizes.",
-        "correction": "Maintain heavy, constant chest-to-back pressure throughout all attacking sequences. Your chest should be driving them into the mat, limiting their hip mobility. Even while attacking legs, some portion of your weight should be on their back. Use your hips to drive weight forward. If opponent is creating movement or angles easily, you're not applying enough pressure."
-      },
-      {
-        "error": "Tunnel vision on leg locks while ignoring superior back control opportunities",
-        "consequence": "Miss high-percentage position advancement to back control (4 points) while forcing lower-percentage leg lock finishes. Opponent may defend legs successfully while you ignore superior positional option.",
-        "correction": "Constantly evaluate back control opportunities. When opponent is defending legs well, look to walk your hips up their body toward back control. Back control is often the smarter choice than forcing leg locks. Be opportunistic and take what opponent gives you. The position's power comes from maintaining dual threats."
-      },
-      {
-        "error": "Compromising base stability to chase submission finishes",
-        "consequence": "Creates sweep opportunities for bottom player, potentially reversing the position entirely. Getting swept from dominant position wastes all positional advantages and energy investment.",
-        "correction": "Never sacrifice base for submissions. Keep your base wide and stable throughout all attacks. If you need to commit heavily to a finish, ensure opponent is sufficiently controlled first. Better to slow down and maintain position than rush and get swept."
-      },
-      {
-        "error": "Using arms instead of chest pressure to control opponent's position",
-        "consequence": "Arms fatigue quickly and provide weaker control than body weight. Opponent can move more freely, and your attacks become less effective as you tire. Arm-dependent control is unsustainable.",
-        "correction": "Use your chest and body weight as primary control mechanisms. Your arms should be used for attacking legs, not holding position. Let your body structure and weight distribution do the controlling work while arms focus on technical adjustments and submissions."
-      },
-      {
-        "error": "Failing to recognize opponent's defensive priorities and attacking blindly",
-        "consequence": "Waste time and energy attacking options opponent is prepared to defend while missing openings in areas they're neglecting. Reduces overall efficiency and success rate.",
-        "correction": "Read opponent's defensive focus. If they're worried about their back, attack legs. If they're defending legs well, take the back. The position works because they can't defend both equally. Identify the weakness and exploit it systematically."
-      },
-      {
-        "error": "Staying static in the position without working toward advancement or finish",
-        "consequence": "Referees penalize stalling in leg entanglements. Allows opponent to recover, solve problems, and potentially escape. Wastes positional advantage through inactivity.",
-        "correction": "Always be working toward something: leg lock finish, back control, or pass. Even if progressing slowly, show constant activity and technical adjustments. Movement prevents stalling calls and keeps opponent defensive rather than problem-solving."
-      }
-    ],
-    "training_drills": [
-      {
-        "name": "Backside 50-50 Entry Drill",
-        "description": "Partner starts in standard 50-50 guard. Practice transitioning to backside 50-50 top by circling behind opponent while maintaining leg entanglement. Focus on smooth transition while keeping pressure constant. Alternate roles every 5 entries.",
-        "duration": "5 minutes per partner"
-      },
-      {
-        "name": "Dual Threat Decision Drill",
-        "description": "Start in backside 50-50 top with bottom player given specific defensive instruction (defend back only OR defend legs only). Top player must recognize the opening and attack the neglected area. Rotate defensive priorities every 2 minutes to develop recognition skills.",
-        "duration": "10 minutes total"
-      },
-      {
-        "name": "Pressure Maintenance with Attacks Drill",
-        "description": "Maintain backside 50-50 top position while partner actively tries to create space and hip movement. Focus exclusively on keeping chest pressure heavy while preventing sweeps. No submissions - pure positional control. If bottom player creates significant space, reset and analyze what allowed it.",
-        "duration": "3 minute rounds"
-      },
-      {
-        "name": "Back Take Timing Drill",
-        "description": "Bottom player defends legs aggressively with good positioning. Top player recognizes this and transitions to back control, securing seat belt grip and hooks. Emphasis on recognizing when to abandon legs for superior position. Bottom player offers moderate resistance to develop timing.",
-        "duration": "5 minutes continuous flow"
-      },
-      {
-        "name": "Leg Lock Finish Sequence Drill",
-        "description": "Starting from backside 50-50 top, practice finishing sequence for inside heel hook, outside heel hook, and toe hold. Bottom player remains relatively static. Focus on technical precision of each finish from this specific position. 3 repetitions of each submission before switching partners.",
-        "duration": "8 minutes total"
-      }
-    ],
-    "optimal_submission_paths": [
-      {
-        "name": "Shortest path to submission",
-        "path": "Backside 50-50 Top → Inside Heel Hook → Won by Submission"
-      },
-      {
-        "name": "High-percentage back attack path",
-        "path": "Backside 50-50 Top → Back Take Generic → Back Control → Rear Naked Choke → Won by Submission"
-      },
-      {
-        "name": "Saddle control path",
-        "path": "Backside 50-50 Top → Saddle Entry from Top → Saddle → Outside Heel Hook → Won by Submission"
-      },
-      {
-        "name": "Opportunistic toe hold path",
-        "path": "Backside 50-50 Top → Toe Hold → Won by Submission"
-      },
-      {
-        "name": "Kneebar exposure path",
-        "path": "Backside 50-50 Top → Kneebar → Won by Submission"
-      }
-    ],
-    "related_content": [
-      {
-        "name": "50-50 Guard",
-        "relationship": "Standard face-to-face variation with different attack angles"
-      },
-      {
-        "name": "Saddle",
-        "relationship": "Common transition target with both legs controlled"
-      },
-      {
-        "name": "Back Control",
-        "relationship": "High-percentage advancement option when legs are defended"
-      },
-      {
-        "name": "Inside Ashi-Garami",
-        "relationship": "Related leg entanglement with single leg control"
-      },
-      {
-        "name": "Honey Hole",
-        "relationship": "Alternative leg entanglement configuration from top"
-      },
-      {
-        "name": "Inside Heel Hook",
-        "relationship": "Primary submission finish from this position"
-      },
-      {
-        "name": "Craig Jones Leg Lock System",
-        "relationship": "Competition-proven system featuring this position prominently"
-      },
-      {
-        "name": "systematic approach Leg Lock System",
-        "relationship": "Systematic framework incorporating this position into comprehensive hierarchy"
-      }
-    ],
-    "position_metrics": {
-      "retention_rate": {
-        "beginner": 30,
-        "intermediate": 50,
-        "advanced": 70
-      },
-      "advancement_probability": {
-        "beginner": 30,
-        "intermediate": 50,
-        "advanced": 70
-      },
-      "submission_probability": {
-        "beginner": 20,
-        "intermediate": 35,
-        "advanced": 50
-      },
-      "average_time": "45-90 seconds before advancement or submission attempt"
-    }
+    ]
   }
 }

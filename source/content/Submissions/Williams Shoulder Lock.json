@@ -256,6 +256,36 @@
       "question": "Why is the Williams Shoulder Lock considered an advanced technique unsuitable for beginners to practice the finishing mechanics?",
       "answer": "The Williams Shoulder Lock is advanced because it requires exceptional body awareness, precise control of multiple points simultaneously (overhook, wrist, hips, legs), and intimate understanding of shoulder anatomy and injury mechanisms. Beginners lack the sensitivity to apply progressive pressure safely and may not recognize the subtle signs of their partner's distress before injury occurs. The shoulder joint is highly complex and vulnerable to multiple injury types, with recovery often requiring surgery and 6-12 months of rehabilitation. Beginners should practice only the position control and overhook maintenance, stopping well before applying any rotational pressure to the shoulder, until they develop sufficient technical foundation and body awareness under expert supervision.",
       "safety_critical": false
+    },
+    {
+      "question": "Your opponent starts posturing up aggressively while you have the overhook secured - what adjustment maintains the submission threat?",
+      "answer": "When opponent begins posturing, immediately adjust your top leg from its current position to their neck or near shoulder, using it as a lever to pull them back down into the broken posture position. Simultaneously increase your overhook grip depth and drive your heels into their lower back to prevent hip extension. If they gain significant posture despite these adjustments, your submission opportunity may be closing - recognize this and prepare to transition to omoplata or triangle rather than fighting for a compromised shoulder lock. The key is early intervention: the moment you feel posture initiation, your leg must move to the neck before they can generate upward momentum.",
+      "safety_critical": false
+    },
+    {
+      "question": "What anatomical indicators tell you the shoulder lock is properly engaged and the opponent is approaching their breaking point?",
+      "answer": "Several indicators signal proper engagement: (1) you feel the shoulder capsule tightening as resistance to rotation increases progressively rather than stopping abruptly; (2) the opponent's trapped arm becomes increasingly rigid as the rotator cuff muscles engage defensively; (3) you notice the opponent's breathing pattern change, often becoming shallow or held; (4) their free hand begins urgently seeking grip or attempting to bridge/roll; (5) their face shows signs of discomfort or distress. At this point, hold the position - do not increase pressure. The submission is fully engaged and you are waiting for the tap, not forcing further damage. In competition, minimal incremental pressure may encourage a tap, but in training, simply maintaining this engaged position is sufficient.",
+      "safety_critical": true
+    },
+    {
+      "question": "How do you adjust your grip configuration if your opponent has a high sweat factor or you are training no-gi?",
+      "answer": "In no-gi or high-sweat conditions, grip security becomes paramount. Replace the gi-dependent tricep grip with a deeper overhook that wraps completely around their arm, locking your hand on your own chest or grabbing your opposite lapel area for anchor. Your wrist control hand should grip using a C-clamp around their wrist rather than a palm grip on the gi sleeve. Consider using a Gable grip (palm-to-palm) if you can connect both hands around their arm for maximum security. The hip angle and leg control become even more critical as these provide structural security when gi-based friction is unavailable. Some practitioners find success grabbing behind their own head to anchor the overhook in slippery conditions.",
+      "safety_critical": false
+    },
+    {
+      "question": "What is the point of no escape in the Williams Shoulder Lock, and how does recognizing it affect your finishing strategy?",
+      "answer": "The point of no escape occurs when three conditions converge: (1) your overhook is deep enough that their elbow is trapped against your sternum with no extraction angle; (2) your hip angle has created the rotational fulcrum and their shoulder is beginning to externally rotate; and (3) your leg control has eliminated their ability to posture, roll, or create counter-leverage. Once these three elements align, the opponent cannot mechanically escape without your allowing it. Recognizing this point is critical because it means you can slow down and apply minimum necessary pressure for the tap rather than rushing. Many training injuries occur when practitioners fail to recognize they already have the submission and continue increasing pressure unnecessarily. At the point of no escape, patience becomes your primary tool - hold the position and wait for the tap.",
+      "safety_critical": true
+    },
+    {
+      "question": "In competition, your opponent refuses to tap despite clear submission engagement - what is the appropriate finishing strategy?",
+      "answer": "First, verify your technical position is correct - deep overhook, proper hip angle, controlled wrist, active legs. If all elements are present and the shoulder is clearly engaged in rotation, apply slow, incremental pressure increases while maintaining visual contact with the referee. Never spike or jerk regardless of competition context. If the opponent continues refusing to tap despite obvious submission engagement, the referee should intervene. If no referee intervention occurs and you feel you've reached maximum safe pressure, you have a choice: hold position and wait for referee stoppage, or transition to an alternative submission. Never exceed safe pressure levels even in competition - causing permanent injury to win a match is never acceptable. Some opponents have unusual flexibility or pain tolerance; the referee is responsible for protecting athletes who cannot protect themselves.",
+      "safety_critical": true
+    },
+    {
+      "question": "What common grip fighting errors do opponents make that create openings for the Williams Shoulder Lock setup?",
+      "answer": "Three primary grip errors create Williams Shoulder Lock opportunities: (1) reaching too deep with a single arm while attempting to break closed guard, which allows you to capture the overextended arm in an overhook; (2) posting one hand on the mat while the other attempts to control your hips, leaving the posted arm isolated and vulnerable to overhook capture during a hip bump feint; (3) driving forward aggressively with collar grips while their elbows flare outward, creating the space needed to swim under for the overhook. The key recognition is any moment where one arm becomes isolated from their defensive structure and crosses your centerline. Train your awareness to identify when an opponent's arm positioning invites the overhook rather than forcing entries against proper defensive posture.",
+      "safety_critical": false
     }
   ],
   "training_progressions_and_safety_protocols": [
@@ -320,8 +350,6 @@
     "Tarikoplata",
     "Baratoplata",
     "Americana",
-    "Reverse Kimura",
-    "Triangle from Guard",
     "Armbar from Guard",
     "Gogoplata"
   ],
@@ -343,32 +371,32 @@
       "relationship": "Natural transition when opponent defends by extracting arm"
     },
     {
-      "name": "Kimura Trap System",
-      "relationship": "Strategic framework incorporating overhook-based attacks"
+      "name": "Kimura Trap",
+      "relationship": "Strategic position incorporating overhook-based attacks"
     },
     {
       "name": "Rubber Guard",
       "relationship": "Related guard system using high leg control and shoulder attacks"
     },
     {
-      "name": "Leverage Principles",
-      "relationship": "Fundamental concept governing how body angle creates submission force"
+      "name": "Closed Guard",
+      "relationship": "Foundation guard from which Williams Guard is often entered"
     },
     {
-      "name": "Biomechanical Principles",
-      "relationship": "Understanding shoulder joint structure and vulnerability"
-    },
-    {
-      "name": "Submission Chains",
-      "relationship": "Framework for linking Williams Shoulder Lock with other attacks"
-    },
-    {
-      "name": "Triangle from Guard",
-      "relationship": "Alternative attack when opponent defends shoulder lock"
+      "name": "Triangle Control",
+      "relationship": "Alternative submission when opponent defends shoulder lock"
     },
     {
       "name": "Tarikoplata",
       "relationship": "Advanced shoulder lock with similar mechanics but different entry"
+    },
+    {
+      "name": "Omoplata Control",
+      "relationship": "Control position reached when transitioning from failed shoulder lock"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Dominant position achievable when opponent rolls to escape"
     }
   ]
 }

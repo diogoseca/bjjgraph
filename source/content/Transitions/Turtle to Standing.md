@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Turtle to Standing | BJJ Technique | BJJ Graph"
 description: "Master the Turtle to Standing transition in BJJ. Learn systematic escape from Turtle position to Standing Position. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%."
@@ -16,7 +17,7 @@ description: "Master the Turtle to Standing transition in BJJ. Learn systematic 
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Turtle to Standing in BJJ",
-  "description": "Step-by-step guide for Turtle to Standing from Turtle to Standing Position.",
+  "description": "Step-by-step guide for Turtle to Standing from Turtle/Top. Possible outcomes: Standing Position/Top (75%), Turtle/Top (15%), Turtle/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -160,11 +161,25 @@ description: "Master the Turtle to Standing transition in BJJ. Learn systematic 
 
 The Turtle to Standing transition is a fundamental defensive escape that allows a practitioner to safely exit the vulnerable turtle position and return to a standing position. This transition is essential for both gi and no-gi grappling, as it enables you to reset the engagement and prevent your opponent from securing dominant positions like back control or a submission. The technique relies on proper base maintenance, explosive hip movement, and strategic hand placement to create space while protecting against common attacks like chokes and back takes. Understanding this transition is critical for developing a complete defensive game, as turtle position is often a transitional state that occurs during scrambles, failed takedowns, or guard passing sequences. The ability to stand up from turtle not only prevents your opponent from scoring points but also creates opportunities to re-engage on your terms, potentially pulling guard or initiating your own takedown attack. This movement pattern is particularly valuable in competition settings where stalling penalties make it essential to show active defense and position improvement.
 
-**Starting Position**: [[Turtle]]
-**Ending Position**: [[Standing Position]]
+**From Position**: [[Turtle/Top]]
 **Success Rates**: Beginner 45%, Intermediate 60%, Advanced 75%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Standing Position/Top]] | 75% |
+| Failure | [[Turtle/Top]] | 15% |
+| Counter | [[Turtle/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

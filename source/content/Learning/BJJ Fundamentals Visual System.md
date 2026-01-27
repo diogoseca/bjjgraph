@@ -441,7 +441,7 @@ When primary attacks fail, have backup options:
 **Triangle Attack Chain**:
 1. Attempt [[Triangle Choke from Guard]]
 2. If opponent defends → [[Switch to Armbar]]
-3. If opponent defends armbar → [[Transition to Omoplata]]
+3. If opponent defends armbar → [[Closed Guard to Omoplata]]
 4. If opponent rolls → [[Take back control]]
 
 These chains create no-escape dilemmas where defending one attack opens another.

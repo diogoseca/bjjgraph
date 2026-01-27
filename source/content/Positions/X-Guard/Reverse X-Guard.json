@@ -51,355 +51,6 @@
       "relationship": "Alternative leg control guard position"
     }
   ],
-  "bottom": {
-    "name": "Reverse X-Guard Bottom",
-    "description": "Master Reverse X-Guard Bottom in BJJ. Advanced guard position with 60% sweep success. Control opponent's posture while attacking legs and creating off-balancing opportunities.",
-    "tags": [
-      "bjj",
-      "position",
-      "guard",
-      "bottom",
-      "reverse-x-guard",
-      "leg-entanglement",
-      "sweep",
-      "advanced"
-    ],
-    "overview": "Reverse X-Guard Bottom is an advanced open guard position where the bottom practitioner controls the opponent using an inverted X-Guard configuration with hooks on the same side. The practitioner places both legs on the same side of the opponent's body, with one hook behind the knee and the other controlling the hip or thigh, creating a powerful off-balancing platform. This position excels at generating sweeps through controlled elevation and rotation of the opponent's base.\n\nDeveloped as a counter to modern passing systems and standing guards, Reverse X-Guard Bottom provides exceptional control over the opponent's posture and weight distribution. The position is particularly effective against opponents attempting to disengage or stand up from traditional guard positions. By inverting the standard X-Guard configuration, the bottom player gains leverage advantages for sweeps while maintaining options to transition to other leg entanglement positions or back takes.\n\nThe position requires high technical proficiency, hip mobility, and timing to execute effectively. Success depends on maintaining constant pressure with the hooks while using grip control to manipulate the opponent's upper body. Practitioners must understand the relationship between hook placement, angle creation, and sweep mechanics to maximize effectiveness. Reverse X-Guard Bottom serves as a hub position within modern guard systems, offering pathways to multiple advanced positions and submissions.",
-    "state_properties": {
-      "point_value": 0,
-      "position_type": "Offensive",
-      "risk_level": "Medium",
-      "energy_cost": "Medium",
-      "time_sustainability": "Medium"
-    },
-    "state_invariants": [
-      "Both legs positioned on the same side of opponent's body, with primary hook behind opponent's knee and secondary hook controlling hip or thigh area, creating asymmetric leverage platform",
-      "Bottom practitioner's upper body angled away from opponent's trapped leg with shoulders and hips inverted relative to standard guard positioning, maintaining off-balancing pressure",
-      "Opponent standing or in combat base position with one leg controlled by hook system, weight distribution compromised by inverted hook configuration",
-      "Bottom practitioner's grips controlling opponent's sleeve, collar, or belt to manipulate upper body posture and prevent defensive base widening",
-      "Constant elevating pressure applied through both hooks, forcing opponent to react to off-balancing attempts while bottom player maintains active hip movement"
-    ],
-    "prerequisites": [
-      "Opponent in standing position or combat base attempting to pass or disengage",
-      "Bottom practitioner has established initial hook behind opponent's knee",
-      "Sufficient space created to invert body position and establish second hook",
-      "Grip control established on opponent's upper body (sleeve, collar, or belt)",
-      "Hip mobility and flexibility to maintain inverted positioning"
-    ],
-    "key_principles": [
-      "Maintain constant elevating pressure with primary hook behind knee, preventing opponent from establishing stable base",
-      "Use secondary hook on hip or thigh to control rotational movement and create sweeping angles",
-      "Keep upper body angled away from controlled leg, creating leverage advantage through body positioning",
-      "Coordinate hook pressure with grip control to manipulate opponent's posture and weight distribution",
-      "Stay active with hip movement, constantly adjusting angles to prevent opponent from establishing counter-pressure",
-      "Use inverted positioning to create unique sweeping angles unavailable from standard guard positions",
-      "Transition fluidly between Reverse X-Guard variations and related leg entanglement positions based on opponent reactions"
-    ],
-    "offensive_transitions": [
-      {
-        "technique": "Reverse X-Guard Sweep",
-        "target_position": "Mount",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 55,
-          "advanced": 70
-        }
-      },
-      {
-        "technique": "Elevation Sweep to Mount",
-        "target_position": "Mount",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 50,
-          "advanced": 65
-        }
-      },
-      {
-        "technique": "Reverse X to Back Take",
-        "target_position": "Back Control",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 45,
-          "advanced": 60
-        }
-      },
-      {
-        "technique": "Transition to Standard X-Guard",
-        "target_position": "X-Guard",
-        "success_rates": {
-          "beginner": 45,
-          "intermediate": 65,
-          "advanced": 80
-        }
-      },
-      {
-        "technique": "Reverse X to Single Leg X Entry",
-        "target_position": "Single Leg X-Guard",
-        "success_rates": {
-          "beginner": 40,
-          "intermediate": 60,
-          "advanced": 75
-        }
-      },
-      {
-        "technique": "Reverse X to Ashi Garami Entry",
-        "target_position": "Ashi Garami",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 50,
-          "advanced": 65
-        }
-      },
-      {
-        "technique": "Technical Stand Up",
-        "target_position": "Standing Position",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 55,
-          "advanced": 70
-        }
-      }
-    ],
-    "defensive_responses": [
-      {
-        "technique": "Base Widening and Posture Recovery",
-        "target_position": "Open Guard",
-        "success_rate": 40
-      },
-      {
-        "technique": "Knee Slide Pass",
-        "target_position": "Side Control",
-        "success_rate": 35
-      },
-      {
-        "technique": "Backstep to Leg Drag",
-        "target_position": "Leg Drag Control",
-        "success_rate": 45
-      },
-      {
-        "technique": "Pressure Pass with Hip Control",
-        "target_position": "Half Guard",
-        "success_rate": 40
-      },
-      {
-        "technique": "Standing Leg Extraction",
-        "target_position": "Standing Position",
-        "success_rate": 50
-      }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Hook Reinforcement to Sweep",
-        "target_position": "Mount",
-        "trigger": "Opponent attempts to widen base or pull leg free"
-      },
-      {
-        "technique": "Transition to Deep Half Guard",
-        "target_position": "Deep Half Guard",
-        "trigger": "Opponent drops weight and moves to side pressure"
-      },
-      {
-        "technique": "Inversion to Back Take",
-        "target_position": "Back Control",
-        "trigger": "Opponent steps over or attempts to backstep"
-      },
-      {
-        "technique": "Shift to Outside Ashi Garami",
-        "target_position": "Outside Ashi-Garami",
-        "trigger": "Opponent pulls leg back aggressively"
-      }
-    ],
-    "decision_tree": [
-      {
-        "condition": "If opponent maintains standing posture with weight evenly distributed",
-        "actions": [
-          {
-            "technique": "Elevation Sweep",
-            "target": "Mount",
-            "probability": 65
-          },
-          {
-            "technique": "Reverse X-Guard Sweep to Top",
-            "target": "Mount",
-            "probability": 70
-          }
-        ]
-      },
-      {
-        "condition": "If opponent drops weight and attempts to smash through hooks",
-        "actions": [
-          {
-            "technique": "Transition to Deep Half Guard",
-            "target": "Deep Half Guard",
-            "probability": 60
-          },
-          {
-            "technique": "Inversion to Back",
-            "target": "Back Control",
-            "probability": 55
-          }
-        ]
-      },
-      {
-        "condition": "If opponent steps back or attempts to disengage controlled leg",
-        "actions": [
-          {
-            "technique": "Follow to Single Leg X",
-            "target": "Single Leg X-Guard",
-            "probability": 70
-          },
-          {
-            "technique": "Transition to Ashi Garami",
-            "target": "Ashi Garami",
-            "probability": 65
-          }
-        ]
-      },
-      {
-        "condition": "If opponent backsteps or attempts to pass around controlled leg",
-        "actions": [
-          {
-            "technique": "Inversion to Back Take",
-            "target": "Back Control",
-            "probability": 60
-          },
-          {
-            "technique": "Granby Roll to Guard Recovery",
-            "target": "Open Guard",
-            "probability": 55
-          }
-        ]
-      }
-    ],
-    "common_errors": [
-      {
-        "error": "Allowing hooks to become passive without constant elevating pressure",
-        "consequence": "Opponent easily establishes stable base and begins methodical pass",
-        "correction": "Maintain active lifting pressure with primary hook behind knee, constantly disrupting opponent's balance and forcing reactive adjustments"
-      },
-      {
-        "error": "Failing to angle upper body away from controlled leg",
-        "consequence": "Loss of leverage advantage and inability to generate sweeping power",
-        "correction": "Keep shoulders and hips inverted relative to opponent's posture, creating optimal angle for elevation and rotation"
-      },
-      {
-        "error": "Gripping too high on opponent's body without controlling trapped leg side",
-        "consequence": "Opponent easily controls posture and establishes passing grips",
-        "correction": "Prioritize controlling sleeve or wrist on trapped leg side while maintaining secondary grip for posture manipulation"
-      },
-      {
-        "error": "Remaining static in position without adjusting to opponent's movements",
-        "consequence": "Opponent times defensive movements and extracts controlled leg",
-        "correction": "Stay in constant motion with hips, following opponent's adjustments and maintaining optimal hook angles"
-      },
-      {
-        "error": "Overcommitting to single sweep without recognizing transitional opportunities",
-        "consequence": "Opponent defends specific attack and passes while you maintain failed technique",
-        "correction": "Flow between multiple options based on opponent reactions, using Reverse X as hub position for transitions"
-      },
-      {
-        "error": "Allowing secondary hook to drift away from hip control point",
-        "consequence": "Loss of rotational control and opponent easily squares up posture",
-        "correction": "Keep secondary hook actively controlling hip or upper thigh, preventing opponent from establishing lateral base"
-      }
-    ],
-    "training_drills": [
-      {
-        "name": "Hook Placement and Elevation Drill",
-        "description": "Partner starts standing in guard. Practice establishing primary hook behind knee and secondary hook on hip, then drill elevating opponent off balance while maintaining inverted body angle. Focus on coordinating both hooks to create lifting pressure. 5 minutes per side.",
-        "duration": "10 minutes"
-      },
-      {
-        "name": "Reverse X Entry Flow Drill",
-        "description": "Start from various open guard positions (De La Riva, butterfly, seated guard). Flow through entries to Reverse X-Guard Bottom, emphasizing timing and angle creation. Partner provides progressive resistance. 10 minutes continuous flow.",
-        "duration": "10 minutes"
-      },
-      {
-        "name": "Sweep Sequence Drill",
-        "description": "From established Reverse X-Guard Bottom, practice three consecutive sweep variations based on partner's defensive reactions. Partner alternates between standing tall, dropping weight, and stepping back. Emphasize reading reactions and flowing to appropriate sweep. 7 minutes per side.",
-        "duration": "15 minutes"
-      },
-      {
-        "name": "Transition Chain Drill",
-        "description": "Practice flowing from Reverse X-Guard Bottom to related positions: Standard X-Guard, Single Leg X, Ashi Garami, and Deep Half Guard. Partner provides realistic defensive pressure. Focus on maintaining connection throughout transitions. 8 minutes per side.",
-        "duration": "16 minutes"
-      }
-    ],
-    "optimal_submission_paths": [
-      {
-        "name": "Leg Lock Path via Ashi Garami",
-        "path": "Reverse X-Guard Bottom → Ashi Garami → Heel Hook"
-      },
-      {
-        "name": "Back Attack Path",
-        "path": "Reverse X-Guard Bottom → Back Take Inversion → Back Control → Rear Naked Choke"
-      },
-      {
-        "name": "Top Position to Submission Path",
-        "path": "Reverse X-Guard Bottom → Elevation Sweep → Mount → Armbar from Mount"
-      },
-      {
-        "name": "Single Leg X to Submission Path",
-        "path": "Reverse X-Guard Bottom → Single Leg X-Guard → Single Leg X Sweep → Kneebar from Top"
-      }
-    ],
-    "related_content": [
-      {
-        "name": "X-Guard",
-        "relationship": "Mirror position with inverted hook configuration"
-      },
-      {
-        "name": "Single Leg X-Guard",
-        "relationship": "Common transition target when opponent disengages"
-      },
-      {
-        "name": "Deep Half Guard",
-        "relationship": "Transition option when opponent drops weight"
-      },
-      {
-        "name": "Ashi Garami",
-        "relationship": "Leg entanglement transition for submission attacks"
-      },
-      {
-        "name": "De La Riva Guard",
-        "relationship": "Entry position for establishing Reverse X-Guard"
-      },
-      {
-        "name": "Outside Ashi-Garami",
-        "relationship": "Alternative leg entanglement when opponent pulls leg back"
-      },
-      {
-        "name": "Butterfly Guard",
-        "relationship": "Related elevation-based guard position"
-      },
-      {
-        "name": "Back Control",
-        "relationship": "Advanced position from inversion transitions"
-      },
-      {
-        "name": "Open Guard",
-        "relationship": "Parent guard category"
-      }
-    ],
-    "position_metrics": {
-      "retention_rate": {
-        "beginner": 40,
-        "intermediate": 60,
-        "advanced": 75
-      },
-      "advancement_probability": {
-        "beginner": 35,
-        "intermediate": 55,
-        "advanced": 70
-      },
-      "submission_probability": {
-        "beginner": 15,
-        "intermediate": 30,
-        "advanced": 45
-      },
-      "average_time": "30-60 seconds"
-    }
-  },
   "top": {
     "name": "Reverse X-Guard Top",
     "description": "Master Reverse X-Guard Top in BJJ. Control leg attacks with 60% pass rate. Complete guide covering pressure passing, leg defense, and transitions.",
@@ -442,101 +93,6 @@
       "Maintain awareness of leg lock entries, particularly straight ankle locks and toe holds from this position",
       "Use angle changes and hip movement to create passing opportunities while defending against sweeps"
     ],
-    "offensive_transitions": [
-      {
-        "technique": "Smash Pass",
-        "target_position": "Half Guard",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 50,
-          "advanced": 65
-        }
-      },
-      {
-        "technique": "Knee Slice Pass",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 45,
-          "advanced": 60
-        }
-      },
-      {
-        "technique": "Long Step Pass",
-        "target_position": "Headquarters Position",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 40,
-          "advanced": 55
-        }
-      },
-      {
-        "technique": "Leg Drag Pass",
-        "target_position": "Leg Drag Control",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 45,
-          "advanced": 60
-        }
-      },
-      {
-        "technique": "Butterfly Pass",
-        "target_position": "Butterfly Guard",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 50,
-          "advanced": 65
-        }
-      },
-      {
-        "technique": "Back Step",
-        "target_position": "Standing Position",
-        "success_rates": {
-          "beginner": 20,
-          "intermediate": 35,
-          "advanced": 50
-        }
-      }
-    ],
-    "defensive_responses": [
-      {
-        "technique": "X-Guard Sweep",
-        "target_position": "Mount",
-        "success_rate": 40
-      },
-      {
-        "technique": "Single Leg X Sweep",
-        "target_position": "Mount",
-        "success_rate": 35
-      },
-      {
-        "technique": "Transition to Ashi Garami",
-        "target_position": "Ashi Garami",
-        "success_rate": 30
-      },
-      {
-        "technique": "Transition to Deep Half Guard",
-        "target_position": "Deep Half Guard",
-        "success_rate": 25
-      }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Smash Pass",
-        "target_position": "Side Control",
-        "trigger": "Opponent attempts to elevate hips for sweep"
-      },
-      {
-        "technique": "Knee Slice Pass",
-        "target_position": "Side Control",
-        "trigger": "Opponent's hooks weaken or lose connection"
-      },
-      {
-        "technique": "Back Step",
-        "target_position": "Headquarters Position",
-        "trigger": "Opponent transitions to leg lock entry"
-      }
-    ],
     "decision_tree": [
       {
         "condition": "If opponent has strong elevation and is actively attempting to sweep backward",
@@ -548,7 +104,7 @@
           },
           {
             "technique": "Widen base and apply forward pressure",
-            "target": "Reverse X-Guard Top",
+            "target": "Reverse X-Guard",
             "probability": 30
           }
         ]
@@ -648,24 +204,10 @@
         "duration": "6 rounds of 90 seconds each direction"
       }
     ],
-    "optimal_submission_paths": [
-      {
-        "name": "Shortest path to dominant control",
-        "path": "Reverse X-Guard Top → Smash Pass → Half Guard → Knee Slice Pass → Side Control → Mount"
-      },
-      {
-        "name": "Leg lock defense to passing sequence",
-        "path": "Reverse X-Guard Top → Back Step → Headquarters Position → Knee Slice Pass → Side Control"
-      },
-      {
-        "name": "High-percentage pressure passing path",
-        "path": "Reverse X-Guard Top → Smash Pass → Half Guard → Underhook Pass → Side Control → North-South → Kimura from North-South"
-      }
-    ],
     "related_content": [
       {
-        "name": "Reverse X-Guard Bottom",
-        "relationship": "Opposite perspective - bottom player's position"
+        "name": "Reverse X-Guard",
+        "relationship": "Hub position - opposite perspective"
       },
       {
         "name": "X-Guard",
@@ -692,8 +234,8 @@
         "relationship": "Alternative passing position from angle creation"
       },
       {
-        "name": "systematic approach Leg Lock System",
-        "relationship": "System covering leg entanglement defense principles"
+        "name": "Headquarters Position",
+        "relationship": "Neutral passing position after hook clearing"
       }
     ],
     "position_metrics": {
@@ -713,6 +255,347 @@
         "advanced": 15
       },
       "average_time": "30-90 seconds"
-    }
+    },
+    "transitions": [
+      {
+        "transition": "Smash Pass",
+        "attempt_probability": 19
+      },
+      {
+        "transition": "Knee Slice Pass",
+        "attempt_probability": 17
+      },
+      {
+        "transition": "Long Step Pass",
+        "attempt_probability": 15
+      },
+      {
+        "transition": "Leg Drag Pass",
+        "attempt_probability": 17
+      },
+      {
+        "transition": "Butterfly Pass",
+        "attempt_probability": 18
+      },
+      {
+        "transition": "Back Step",
+        "attempt_probability": 14
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "Your opponent begins to elevate their hips strongly - what immediate adjustment do you make?",
+        "answer": "Immediately widen your base by stepping your free leg further out while simultaneously driving your hips forward toward their chest. This forward pressure counters their elevation by flattening their structure. You should also lower your center of gravity slightly while maintaining upright posture to prevent being pushed backward. Control their sleeves or collar to prevent them from establishing off-balancing grips."
+      },
+      {
+        "question": "What are the essential grips for maintaining control from Reverse X-Guard Top?",
+        "answer": "The essential grips are controlling the opponent's upper body through collar, sleeves, or wrist control on both sides. In gi, collar grips provide excellent posture control while sleeve grips prevent them from establishing off-balancing holds. In no-gi, wrist control and head control become primary. Secondary grips on their pants at the knee help control the entangled leg and prevent transitions to leg locks."
+      },
+      {
+        "question": "How do you shut down the opponent's primary sweep attempt from Reverse X-Guard?",
+        "answer": "The primary sweep relies on elevation and rotation, so counter by driving forward pressure through your hips while maintaining elevated hip position. Keep your free leg wide as a tripod base point. Control their upper body to prevent the rotation needed for sweep completion. If they begin to elevate, immediately apply smash pass pressure to flatten their structure rather than allowing them to complete the lifting motion."
+      },
+      {
+        "question": "What should your weight distribution be when defending against sweeps from this position?",
+        "answer": "Weight should be distributed forward over your base with hips elevated above the opponent's hips. Approximately 60% of your weight should drive forward toward their chest while 40% maintains your base through the free leg positioned wide. Never allow weight to shift backward as this gives the opponent the mechanical advantage they need for elevation sweeps."
+      },
+      {
+        "question": "When the opponent starts transitioning toward leg lock entries, what is your immediate response?",
+        "answer": "Immediately backstep with your entangled leg while clearing their control. This disengages you from the dangerous leg entanglement before they can secure heel hook or toe hold grips. As you backstep, maintain upper body control to prevent them from following your movement. Reset to a neutral passing position like headquarters rather than remaining in the compromised leg entanglement."
+      },
+      {
+        "question": "Your opponent hooks are starting to weaken - how do you capitalize on this opening?",
+        "answer": "When hooks weaken, immediately initiate a passing sequence before they can re-establish control. The knee slice pass is highly effective as you can drive your knee through their weakened hook structure. Alternatively, execute a long step pass to create angle and clear the legs entirely. The key is immediate action - any hesitation allows them to reset their hooks and control."
+      },
+      {
+        "question": "How do you manage energy expenditure while defending Reverse X-Guard?",
+        "answer": "Use efficient body positioning rather than muscular effort. Keep your skeletal structure aligned with hips over base and weight distributed forward through proper posture. Avoid death-gripping sleeves - use active but relaxed hand fighting. When defending sweeps, use angular movement and base adjustments rather than fighting straight back against their power. This conserves energy while maintaining effective defense."
+      },
+      {
+        "question": "Your opponent begins rotating to take your back during a sweep attempt - how do you recover?",
+        "answer": "Immediately turn toward the direction they're rotating while establishing upper body control. If they're inverting, sprawl your hips and drive your weight down to flatten them. Control their near arm to prevent them from completing the back take. If they've already partially taken the back, focus on defending the seatbelt by controlling their choking arm and working to re-face them before they can establish hooks."
+      }
+    ]
+  },
+  "bottom": {
+    "name": "Reverse X-Guard Bottom",
+    "description": "Master Reverse X-Guard Bottom in BJJ. Advanced guard position with 60% sweep success. Control opponent's posture while attacking legs and creating off-balancing opportunities.",
+    "tags": [
+      "bjj",
+      "position",
+      "guard",
+      "bottom",
+      "reverse-x-guard",
+      "leg-entanglement",
+      "sweep",
+      "advanced"
+    ],
+    "overview": "Reverse X-Guard Bottom is an advanced open guard position where the bottom practitioner controls the opponent using an inverted X-Guard configuration with hooks on the same side. The practitioner places both legs on the same side of the opponent's body, with one hook behind the knee and the other controlling the hip or thigh, creating a powerful off-balancing platform. This position excels at generating sweeps through controlled elevation and rotation of the opponent's base.\n\nDeveloped as a counter to modern passing systems and standing guards, Reverse X-Guard Bottom provides exceptional control over the opponent's posture and weight distribution. The position is particularly effective against opponents attempting to disengage or stand up from traditional guard positions. By inverting the standard X-Guard configuration, the bottom player gains leverage advantages for sweeps while maintaining options to transition to other leg entanglement positions or back takes.\n\nThe position requires high technical proficiency, hip mobility, and timing to execute effectively. Success depends on maintaining constant pressure with the hooks while using grip control to manipulate the opponent's upper body. Practitioners must understand the relationship between hook placement, angle creation, and sweep mechanics to maximize effectiveness. Reverse X-Guard Bottom serves as a hub position within modern guard systems, offering pathways to multiple advanced positions and submissions.",
+    "state_properties": {
+      "point_value": 0,
+      "position_type": "Offensive",
+      "risk_level": "Medium",
+      "energy_cost": "Medium",
+      "time_sustainability": "Medium"
+    },
+    "state_invariants": [
+      "Both legs positioned on the same side of opponent's body, with primary hook behind opponent's knee and secondary hook controlling hip or thigh area, creating asymmetric leverage platform",
+      "Bottom practitioner's upper body angled away from opponent's trapped leg with shoulders and hips inverted relative to standard guard positioning, maintaining off-balancing pressure",
+      "Opponent standing or in combat base position with one leg controlled by hook system, weight distribution compromised by inverted hook configuration",
+      "Bottom practitioner's grips controlling opponent's sleeve, collar, or belt to manipulate upper body posture and prevent defensive base widening",
+      "Constant elevating pressure applied through both hooks, forcing opponent to react to off-balancing attempts while bottom player maintains active hip movement"
+    ],
+    "prerequisites": [
+      "Opponent in standing position or combat base attempting to pass or disengage",
+      "Bottom practitioner has established initial hook behind opponent's knee",
+      "Sufficient space created to invert body position and establish second hook",
+      "Grip control established on opponent's upper body (sleeve, collar, or belt)",
+      "Hip mobility and flexibility to maintain inverted positioning"
+    ],
+    "key_principles": [
+      "Maintain constant elevating pressure with primary hook behind knee, preventing opponent from establishing stable base",
+      "Use secondary hook on hip or thigh to control rotational movement and create sweeping angles",
+      "Keep upper body angled away from controlled leg, creating leverage advantage through body positioning",
+      "Coordinate hook pressure with grip control to manipulate opponent's posture and weight distribution",
+      "Stay active with hip movement, constantly adjusting angles to prevent opponent from establishing counter-pressure",
+      "Use inverted positioning to create unique sweeping angles unavailable from standard guard positions",
+      "Transition fluidly between Reverse X-Guard variations and related leg entanglement positions based on opponent reactions"
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent maintains standing posture with weight evenly distributed",
+        "actions": [
+          {
+            "technique": "Elevation Sweep",
+            "target": "Mount",
+            "probability": 65
+          },
+          {
+            "technique": "Reverse X-Guard Sweep",
+            "target": "Mount",
+            "probability": 70
+          }
+        ]
+      },
+      {
+        "condition": "If opponent drops weight and attempts to smash through hooks",
+        "actions": [
+          {
+            "technique": "Transition to Deep Half Guard",
+            "target": "Deep Half Guard",
+            "probability": 60
+          },
+          {
+            "technique": "Inversion to Back",
+            "target": "Back Control",
+            "probability": 55
+          }
+        ]
+      },
+      {
+        "condition": "If opponent steps back or attempts to disengage controlled leg",
+        "actions": [
+          {
+            "technique": "Follow to Single Leg X",
+            "target": "Single Leg X-Guard",
+            "probability": 70
+          },
+          {
+            "technique": "Entry to Ashi Garami",
+            "target": "Ashi Garami",
+            "probability": 65
+          }
+        ]
+      },
+      {
+        "condition": "If opponent backsteps or attempts to pass around controlled leg",
+        "actions": [
+          {
+            "technique": "Inversion to Back Take",
+            "target": "Back Control",
+            "probability": 60
+          },
+          {
+            "technique": "Granby Roll to Guard Recovery",
+            "target": "Open Guard",
+            "probability": 55
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Allowing hooks to become passive without constant elevating pressure",
+        "consequence": "Opponent easily establishes stable base and begins methodical pass",
+        "correction": "Maintain active lifting pressure with primary hook behind knee, constantly disrupting opponent's balance and forcing reactive adjustments"
+      },
+      {
+        "error": "Failing to angle upper body away from controlled leg",
+        "consequence": "Loss of leverage advantage and inability to generate sweeping power",
+        "correction": "Keep shoulders and hips inverted relative to opponent's posture, creating optimal angle for elevation and rotation"
+      },
+      {
+        "error": "Gripping too high on opponent's body without controlling trapped leg side",
+        "consequence": "Opponent easily controls posture and establishes passing grips",
+        "correction": "Prioritize controlling sleeve or wrist on trapped leg side while maintaining secondary grip for posture manipulation"
+      },
+      {
+        "error": "Remaining static in position without adjusting to opponent's movements",
+        "consequence": "Opponent times defensive movements and extracts controlled leg",
+        "correction": "Stay in constant motion with hips, following opponent's adjustments and maintaining optimal hook angles"
+      },
+      {
+        "error": "Overcommitting to single sweep without recognizing transitional opportunities",
+        "consequence": "Opponent defends specific attack and passes while you maintain failed technique",
+        "correction": "Flow between multiple options based on opponent reactions, using Reverse X as hub position for transitions"
+      },
+      {
+        "error": "Allowing secondary hook to drift away from hip control point",
+        "consequence": "Loss of rotational control and opponent easily squares up posture",
+        "correction": "Keep secondary hook actively controlling hip or upper thigh, preventing opponent from establishing lateral base"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Hook Placement and Elevation Drill",
+        "description": "Partner starts standing in guard. Practice establishing primary hook behind knee and secondary hook on hip, then drill elevating opponent off balance while maintaining inverted body angle. Focus on coordinating both hooks to create lifting pressure. 5 minutes per side.",
+        "duration": "10 minutes"
+      },
+      {
+        "name": "Reverse X Entry Flow Drill",
+        "description": "Start from various open guard positions (De La Riva, butterfly, seated guard). Flow through entries to Reverse X-Guard Bottom, emphasizing timing and angle creation. Partner provides progressive resistance. 10 minutes continuous flow.",
+        "duration": "10 minutes"
+      },
+      {
+        "name": "Sweep Sequence Drill",
+        "description": "From established Reverse X-Guard Bottom, practice three consecutive sweep variations based on partner's defensive reactions. Partner alternates between standing tall, dropping weight, and stepping back. Emphasize reading reactions and flowing to appropriate sweep. 7 minutes per side.",
+        "duration": "15 minutes"
+      },
+      {
+        "name": "Transition Chain Drill",
+        "description": "Practice flowing from Reverse X-Guard Bottom to related positions: Standard X-Guard, Single Leg X, Ashi Garami, and Deep Half Guard. Partner provides realistic defensive pressure. Focus on maintaining connection throughout transitions. 8 minutes per side.",
+        "duration": "16 minutes"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "X-Guard",
+        "relationship": "Mirror position with inverted hook configuration"
+      },
+      {
+        "name": "Single Leg X-Guard",
+        "relationship": "Common transition target when opponent disengages"
+      },
+      {
+        "name": "Deep Half Guard",
+        "relationship": "Transition option when opponent drops weight"
+      },
+      {
+        "name": "Ashi Garami",
+        "relationship": "Leg entanglement transition for submission attacks"
+      },
+      {
+        "name": "De La Riva Guard",
+        "relationship": "Entry position for establishing Reverse X-Guard"
+      },
+      {
+        "name": "Outside Ashi-Garami",
+        "relationship": "Alternative leg entanglement when opponent pulls leg back"
+      },
+      {
+        "name": "Butterfly Guard",
+        "relationship": "Related elevation-based guard position"
+      },
+      {
+        "name": "Back Control",
+        "relationship": "Advanced position from inversion transitions"
+      },
+      {
+        "name": "Open Guard",
+        "relationship": "Parent guard category"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "beginner": 40,
+        "intermediate": 60,
+        "advanced": 75
+      },
+      "advancement_probability": {
+        "beginner": 35,
+        "intermediate": 55,
+        "advanced": 70
+      },
+      "submission_probability": {
+        "beginner": 15,
+        "intermediate": 30,
+        "advanced": 45
+      },
+      "average_time": "30-60 seconds"
+    },
+    "transitions": [
+      {
+        "transition": "Reverse X-Guard Sweep",
+        "attempt_probability": 14
+      },
+      {
+        "transition": "Elevation Sweep to Mount",
+        "attempt_probability": 13
+      },
+      {
+        "transition": "Reverse X to Back Take",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Reverse X-Guard to Standard X-Guard",
+        "attempt_probability": 19
+      },
+      {
+        "transition": "Reverse X to Single Leg X Entry",
+        "attempt_probability": 15
+      },
+      {
+        "transition": "Reverse X to Ashi Garami Entry",
+        "attempt_probability": 13
+      },
+      {
+        "transition": "Technical Stand Up",
+        "attempt_probability": 14
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "Your opponent starts to widen their base to resist sweeps - what adjustment do you make?",
+        "answer": "When the opponent widens their base, immediately increase your hip elevation while pulling strongly on their controlled sleeve or collar. The wider base actually makes them more vulnerable to directional sweeps because they lose the ability to step. Rotate your hips toward their widened leg and execute a sweep in that direction. Alternatively, use their commitment to base width as an opportunity to transition to Single Leg X or back take."
+      },
+      {
+        "question": "What are the essential grips for maintaining Reverse X-Guard control?",
+        "answer": "The primary grip should control the sleeve or wrist on the same side as your hooks - this prevents them from posting when swept and controls their posture. Secondary grip options include far collar for additional posture control, belt grip for rotational manipulation, or far sleeve to prevent counter-attacks. In no-gi, wrist control on the near side and head or collar tie on the far side replicate these functions."
+      },
+      {
+        "question": "How do you prevent the opponent from smashing down through your hooks?",
+        "answer": "When the opponent drops weight to smash, you have two primary options. First, you can maintain your hooks and immediately transition to Deep Half Guard by threading under their near leg - their downward pressure actually assists this transition. Second, invert away from the pressure and look for back takes as they over-commit forward. Never try to fight straight back against their downward pressure as this is inefficient and exposes you to passes."
+      },
+      {
+        "question": "What should your hip position and angle be for maximum sweep power?",
+        "answer": "Your hips should be elevated and rotated away from your opponent's trapped leg, creating an inverted angle relative to their body. This positioning loads your hip flexors and core muscles for powerful elevation while your hooks create the fulcrum point. Think of creating a diagonal line from your shoulders through your hips - this angle generates the rotational force needed for sweeps while maximizing the lifting leverage from your primary hook."
+      },
+      {
+        "question": "When the opponent attempts to backstep out of your control, how do you follow?",
+        "answer": "As the opponent backsteps, immediately invert with them while maintaining your hook connection. Their backstep actually exposes their back, making this an excellent opportunity for a back take. Follow their movement by spinning underneath while your hooks transition from sweeping position to back-taking position. If they complete the backstep before you can take the back, transition to Single Leg X or Ashi Garami to maintain leg entanglement control."
+      },
+      {
+        "question": "How do you manage energy while maintaining active Reverse X-Guard control?",
+        "answer": "Use your skeletal structure rather than constant muscular tension. Your legs should create frame against the opponent's leg through proper hook positioning, not through squeezing. Conserve grip strength by using relaxed but connected grips rather than death-gripping. Generate sweeping power through coordinated hip movement and hook extension rather than trying to muscle opponents over. Rest between sweep attempts by maintaining position without constant attacking."
+      },
+      {
+        "question": "Your primary hook starts slipping - how do you recover or transition?",
+        "answer": "If your primary hook behind the knee begins slipping, immediately reinforce it by adjusting your hip angle to increase hook pressure, or transition before losing control entirely. Single Leg X-Guard requires less hook depth so is an excellent bail-out position. Alternatively, if your grip control is strong, you can use the sleeve grip to off-balance them while re-establishing your hook. Never let the hook slip completely before taking action."
+      },
+      {
+        "question": "How do you set up sweeps against an opponent who refuses to commit weight in any direction?",
+        "answer": "Against a perfectly balanced opponent, create off-balancing reactions through grip manipulation and false attacks. Pull sharply on their sleeve or collar to force them to resist in one direction, then sweep in the opposite direction as they recover. Use transitions to other positions (X-Guard, Single Leg X) to create new angles and force reactions. The key is never letting them stay comfortable - constant movement and threat generation eventually creates the opening you need."
+      }
+    ]
   }
 }

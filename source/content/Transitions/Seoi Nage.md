@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Seoi Nage | BJJ Technique | BJJ Graph"
 description: "Master Seoi Nage shoulder throw in BJJ. Step-by-step execution from standing clinch to top position. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%."
@@ -16,7 +17,7 @@ description: "Master Seoi Nage shoulder throw in BJJ. Step-by-step execution fro
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Seoi Nage in BJJ",
-  "description": "Step-by-step guide for Seoi Nage from Standing Position to Side Control.",
+  "description": "Step-by-step guide for Seoi Nage from Standing Position/Top. Possible outcomes: Side Control/Top (70%), Standing Position/Top (20%), Standing Position/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -164,11 +165,25 @@ In BJJ competition, Seoi Nage serves as a high-percentage takedown option that c
 
 The beauty of Seoi Nage lies in its versatility and adaptability across different body types and athletic abilities. Unlike purely strength-based takedowns, this technique relies heavily on timing, hip rotation, and proper positioning of your center of gravity relative to your opponent's. Understanding the biomechanical principles of the throw—particularly the importance of getting your hips lower than your opponent's and creating the proper turning angle—is essential for consistent execution at all skill levels.
 
-**Starting Position**: [[Standing Position]]
-**Ending Position**: [[Side Control]]
+**From Position**: [[Standing Position/Top]]
 **Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Side Control/Top]] | 70% |
+| Failure | [[Standing Position/Top]] | 20% |
+| Counter | [[Standing Position/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

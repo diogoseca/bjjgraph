@@ -9,8 +9,6 @@
     "gi",
     "spider-variations"
   ],
-  "starting_position": "Lasso Guard",
-  "ending_position": "Mount",
   "success_rates": {
     "beginner": 35,
     "intermediate": 50,
@@ -268,6 +266,24 @@
     {
       "name": "Triangle from Spider Guard",
       "relationship": "Submission chain from similar control"
+    }
+  ],
+  "from_position": "Lasso Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Mount/Top",
+      "probability": 65,
+      "result": "success"
+    },
+    {
+      "to": "Lasso Guard/Bottom",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Lasso Guard/Top",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

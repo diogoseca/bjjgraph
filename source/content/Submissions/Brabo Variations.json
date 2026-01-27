@@ -292,6 +292,26 @@
       "question": "What is the primary danger of cranking the opponent's neck sideways instead of using proper compression mechanics?",
       "answer": "Cranking the neck laterally creates a painful neck crank that targets the cervical spine rather than the carotid arteries. This can cause serious neck injuries including muscle strains, ligament damage, disc injuries, or vertebrae damage. It's also an ineffective choke that relies on pain rather than blood restriction. Proper technique uses shoulder and forearm compression on the throat with minimal twisting or lateral pressure on the neck structure itself.",
       "safety_critical": true
+    },
+    {
+      "question": "Your opponent starts to roll toward the choking side during the finish - how do you maintain the submission?",
+      "answer": "Follow the roll by staying connected with your chest to their back and keeping your hips forward. As they roll, the choke often tightens because their rotation drives their neck deeper into the compression point. Use your sprawled legs to create base as you follow them over, and you will typically end up on top in a side-control-style position with the choke already locked. The key is maintaining the figure-four grip and shoulder pressure throughout the roll rather than fighting against their rotation.",
+      "safety_critical": false
+    },
+    {
+      "question": "What physical indicators signal that the brabo choke is properly compressing the carotid arteries rather than just creating discomfort?",
+      "answer": "Proper carotid compression causes rapid color change to the opponent's face (reddening or purpling), visible neck engorgement, and often a slowing of resistance within 3-5 seconds. The opponent may involuntarily shake their head or attempt to verbally tap. Contrast this with an airway choke, which causes coughing, gasping, and desperate attempts to create space. If you feel only muscular tension but no rapid physiological response, your angle or grip positioning likely needs adjustment.",
+      "safety_critical": true
+    },
+    {
+      "question": "What grip adjustment should you make if your opponent creates a pocket of space by pulling their chin down toward their chest?",
+      "answer": "When the opponent tucks their chin creating space, increase your shoulder drive while walking your grip deeper by pulling your elbows tighter together. The chin tuck creates illusory defense - it doesn't actually protect the carotid arteries which are on the sides of the neck. Focus on compressing from the sides rather than directly across the front. If significant space persists, consider switching to the shallow brabo variation that emphasizes shoulder wedge over forearm placement.",
+      "safety_critical": false
+    },
+    {
+      "question": "What is the point of no escape in the brabo choke, and how do you recognize when you've achieved it?",
+      "answer": "The point of no escape occurs when your figure-four grip is locked tight with zero slack, your shoulder is wedged firmly against one side of the opponent's neck, and your hips are committed forward preventing them from backing out. At this point, the opponent can only choose where they tap - standing, rolling, or on the ground - but cannot actually prevent the finish. You recognize this when your elbows are together, chest is expanded, and the opponent's defensive movements (chin tuck, hand fighting, rolling) no longer create any additional space in your grip structure.",
+      "safety_critical": false
     }
   ],
   "training_progressions_and_safety_protocols": [
@@ -353,39 +373,29 @@
     "Anaconda Choke",
     "Guillotine Choke",
     "D'arce-Anaconda Connection",
-    "Japanese Necktie",
     "Arm Triangle",
     "Darce Variations",
     "Anaconda Variations",
-    "Peruvian Necktie",
-    "Marce Choke",
-    "North-South Choke",
-    "Arm in Guillotine"
+    "Arm in Guillotine",
+    "Brabo Choke",
+    "Ezekiel Choke"
   ],
   "related_content": [
     {
-      "name": "Front Headlock Series",
+      "name": "Front Headlock",
       "relationship": "Primary position for initiating all brabo variations with chaining to anaconda and guillotine"
     },
     {
-      "name": "Darce Setup",
+      "name": "Darce Choke",
       "relationship": "Entry mechanics for standard darce translate directly to no-gi brabo application"
     },
     {
-      "name": "Anaconda from Turtle",
+      "name": "Anaconda Choke",
       "relationship": "Alternative submission when opponent's defensive posture prevents brabo threading"
     },
     {
-      "name": "Front Headlock to Darce",
-      "relationship": "Fundamental transition showing how to recognize and execute brabo opportunity from control position"
-    },
-    {
-      "name": "Turtle Transition",
+      "name": "Turtle",
       "relationship": "Common position where opponent exposes neck for brabo entry while attempting to recover guard"
-    },
-    {
-      "name": "Snap Down",
-      "relationship": "Standing technique that creates front headlock position for brabo entries"
     },
     {
       "name": "Back Control",
@@ -397,7 +407,15 @@
     },
     {
       "name": "D'arce Control",
-      "relationship": "Gi-based version sharing fundamental mechanics with no-gi brabo variations"
+      "relationship": "Control position sharing fundamental mechanics with brabo variations"
+    },
+    {
+      "name": "Anaconda Control",
+      "relationship": "Alternative arm-in control position accessible when brabo threading fails"
+    },
+    {
+      "name": "North-South",
+      "relationship": "Transitional position offering north-south brabo adjustment opportunity"
     }
   ]
 }

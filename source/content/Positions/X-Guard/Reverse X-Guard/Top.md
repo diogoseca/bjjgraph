@@ -21,37 +21,37 @@ description: "Master Reverse X-Guard Top in BJJ. Control leg attacks with 60% pa
     {
       "@type": "HowToStep",
       "name": "Execute Smash Pass",
-      "text": "From this position, execute Smash Pass to transition to Half Guard. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Smash Pass. This technique is attempted in 19% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, execute Knee Slice Pass to transition to Side Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 17% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Long Step Pass",
-      "text": "From this position, execute Long Step Pass to transition to Headquarters Position. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Long Step Pass. This technique is attempted in 15% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag Pass",
-      "text": "From this position, execute Leg Drag Pass to transition to Leg Drag Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 17% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Butterfly Pass",
-      "text": "From this position, execute Butterfly Pass to transition to Butterfly Guard. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Butterfly Pass. This technique is attempted in 18% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Step",
-      "text": "From this position, execute Back Step to transition to Standing Position. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Back Step. This technique is attempted in 14% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -213,74 +213,18 @@ Strategically, Reverse X-Guard Top represents a transitional state where the top
 
 ## Available Attacks
 
-### [[Smash Pass]] → [[Half Guard]]
+### [[Smash Pass]] (19% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Knee Slice Pass]] (17% of attempts)
 
-### [[Knee Slice Pass]] → [[Side Control]]
+### [[Long Step Pass]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Leg Drag Pass]] (17% of attempts)
 
-### [[Long Step Pass]] → [[Headquarters Position]]
+### [[Butterfly Pass]] (18% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
+### [[Back Step]] (14% of attempts)
 
-### [[Leg Drag Pass]] → [[Leg Drag Control]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[Butterfly Pass]] → [[Butterfly Guard]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-### [[Back Step]] → [[Standing Position]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[X-Guard Sweep]]** → [[Mount]] (Opponent Success: 40%)
-- **[[Single Leg X Sweep]]** → [[Mount]] (Opponent Success: 35%)
-- **[[Transition to Ashi Garami]]** → [[Ashi Garami]] (Opponent Success: 30%)
-- **[[Transition to Deep Half Guard]]** → [[Deep Half Guard]] (Opponent Success: 25%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Smash Pass]]** → [[Side Control]]
-  - Opponent attempts to elevate hips for sweep
-- **[[Knee Slice Pass]]** → [[Side Control]]
-  - Opponent's hooks weaken or lose connection
-- **[[Back Step]]** → [[Headquarters Position]]
-  - Opponent transitions to leg lock entry
 
 
 </section>
@@ -291,7 +235,7 @@ Strategically, Reverse X-Guard Top represents a transitional state where the top
 
 **If opponent has strong elevation and is actively attempting to sweep backward:**
 - Execute **[[Smash Pass]]** → [[Half Guard]] (Probability: 55%)
-- Execute **[[Widen base and apply forward pressure]]** → [[Reverse X-Guard Top]] (Probability: 30%)
+- Execute **[[Widen base and apply forward pressure]]** → [[Reverse X-Guard]] (Probability: 30%)
 
 
 **If opponent's hooks are weakening or losing connection to legs:**
@@ -380,25 +324,39 @@ Positional sparring starting from Reverse X-Guard Top. Top player attempts to pa
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Shortest path to dominant control
+## Test Your Knowledge
 
-`Reverse X-Guard Top → Smash Pass → Half Guard → Knee Slice Pass → Side Control → Mount`
+**Q1**: Your opponent begins to elevate their hips strongly - what immediate adjustment do you make?
+**A**: Immediately widen your base by stepping your free leg further out while simultaneously driving your hips forward toward their chest. This forward pressure counters their elevation by flattening their structure. You should also lower your center of gravity slightly while maintaining upright posture to prevent being pushed backward. Control their sleeves or collar to prevent them from establishing off-balancing grips.
 
-### Leg lock defense to passing sequence
+**Q2**: What are the essential grips for maintaining control from Reverse X-Guard Top?
+**A**: The essential grips are controlling the opponent's upper body through collar, sleeves, or wrist control on both sides. In gi, collar grips provide excellent posture control while sleeve grips prevent them from establishing off-balancing holds. In no-gi, wrist control and head control become primary. Secondary grips on their pants at the knee help control the entangled leg and prevent transitions to leg locks.
 
-`Reverse X-Guard Top → Back Step → Headquarters Position → Knee Slice Pass → Side Control`
+**Q3**: How do you shut down the opponent's primary sweep attempt from Reverse X-Guard?
+**A**: The primary sweep relies on elevation and rotation, so counter by driving forward pressure through your hips while maintaining elevated hip position. Keep your free leg wide as a tripod base point. Control their upper body to prevent the rotation needed for sweep completion. If they begin to elevate, immediately apply smash pass pressure to flatten their structure rather than allowing them to complete the lifting motion.
 
-### High-percentage pressure passing path
+**Q4**: What should your weight distribution be when defending against sweeps from this position?
+**A**: Weight should be distributed forward over your base with hips elevated above the opponent's hips. Approximately 60% of your weight should drive forward toward their chest while 40% maintains your base through the free leg positioned wide. Never allow weight to shift backward as this gives the opponent the mechanical advantage they need for elevation sweeps.
 
-`Reverse X-Guard Top → Smash Pass → Half Guard → Underhook Pass → Side Control → North-South → Kimura from North-South`
+**Q5**: When the opponent starts transitioning toward leg lock entries, what is your immediate response?
+**A**: Immediately backstep with your entangled leg while clearing their control. This disengages you from the dangerous leg entanglement before they can secure heel hook or toe hold grips. As you backstep, maintain upper body control to prevent them from following your movement. Reset to a neutral passing position like headquarters rather than remaining in the compromised leg entanglement.
+
+**Q6**: Your opponent hooks are starting to weaken - how do you capitalize on this opening?
+**A**: When hooks weaken, immediately initiate a passing sequence before they can re-establish control. The knee slice pass is highly effective as you can drive your knee through their weakened hook structure. Alternatively, execute a long step pass to create angle and clear the legs entirely. The key is immediate action - any hesitation allows them to reset their hooks and control.
+
+**Q7**: How do you manage energy expenditure while defending Reverse X-Guard?
+**A**: Use efficient body positioning rather than muscular effort. Keep your skeletal structure aligned with hips over base and weight distributed forward through proper posture. Avoid death-gripping sleeves - use active but relaxed hand fighting. When defending sweeps, use angular movement and base adjustments rather than fighting straight back against their power. This conserves energy while maintaining effective defense.
+
+**Q8**: Your opponent begins rotating to take your back during a sweep attempt - how do you recover?
+**A**: Immediately turn toward the direction they're rotating while establishing upper body control. If they're inverting, sprawl your hips and drive your weight down to flatten them. Control their near arm to prevent them from completing the back take. If they've already partially taken the back, focus on defending the seatbelt by controlling their choking arm and working to re-face them before they can establish hooks.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -419,14 +377,14 @@ Positional sparring starting from Reverse X-Guard Top. Top player attempts to pa
 
 ## Related Positions and Techniques
 
-- **[[Reverse X-Guard Bottom]]** - Opposite perspective - bottom player's position
+- **[[Reverse X-Guard]]** - Hub position - opposite perspective
 - **[[X-Guard]]** - Similar guard defense position with different hook configuration
 - **[[Single Leg X-Guard]]** - Related leg entanglement defense position
 - **[[Ashi Garami]]** - Leg entanglement position opponent may transition to
 - **[[Half Guard]]** - Common transition target from smash passing
 - **[[Side Control]]** - Target position from successful knee slice pass
 - **[[Leg Drag Control]]** - Alternative passing position from angle creation
-- **[[systematic approach Leg Lock System]]** - System covering leg entanglement defense principles
+- **[[Headquarters Position]]** - Neutral passing position after hook clearing
 
 
 </section>

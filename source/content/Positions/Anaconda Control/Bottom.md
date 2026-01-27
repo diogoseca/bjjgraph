@@ -21,37 +21,37 @@ description: "Master defensive strategies for surviving Anaconda Control from bo
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape",
-      "text": "From this position, execute Hip Escape to transition to Closed Guard. Success rate for advanced practitioners: 45%.",
+      "text": "From this position, attempt Hip Escape. This technique is attempted in 17% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Technical Standup",
-      "text": "From this position, execute Technical Standup to transition to Turtle. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Technical Standup. This technique is attempted in 20% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling to Guard",
-      "text": "From this position, execute Rolling to Guard to transition to Half Guard. Success rate for advanced practitioners: 40%.",
+      "text": "From this position, attempt Rolling to Guard. This technique is attempted in 15% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Frame and Shrimp",
-      "text": "From this position, execute Frame and Shrimp to transition to Butterfly Guard. Success rate for advanced practitioners: 48%.",
+      "text": "From this position, attempt Frame and Shrimp. This technique is attempted in 18% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling Escape",
-      "text": "From this position, execute Rolling Escape to transition to Defensive Position. Success rate for advanced practitioners: 42%.",
+      "text": "From this position, attempt Rolling Escape. This technique is attempted in 16% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Movement",
-      "text": "From this position, execute Hip Movement to transition to Scramble Position. Success rate for advanced practitioners: 38%.",
+      "text": "From this position, attempt Hip Movement. This technique is attempted in 14% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -212,77 +212,18 @@ This position often occurs during scrambles from turtle, failed takedown attempt
 
 ## Available Escapes
 
-### [[Hip Escape]] → [[Closed Guard]]
+### [[Hip Escape]] (17% of attempts)
 
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 45%
+### [[Technical Standup]] (20% of attempts)
 
-### [[Technical Standup]] → [[Turtle]]
+### [[Rolling to Guard]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
+### [[Frame and Shrimp]] (18% of attempts)
 
-### [[Rolling to Guard]] → [[Half Guard]]
+### [[Rolling Escape]] (16% of attempts)
 
-**Success Rates:**
-- Beginner: 10%
-- Intermediate: 25%
-- Advanced: 40%
+### [[Hip Movement]] (14% of attempts)
 
-### [[Frame and Shrimp]] → [[Butterfly Guard]]
-
-**Success Rates:**
-- Beginner: 18%
-- Intermediate: 32%
-- Advanced: 48%
-
-### [[Rolling Escape]] → [[Defensive Position]]
-
-**Success Rates:**
-- Beginner: 12%
-- Intermediate: 28%
-- Advanced: 42%
-
-### [[Hip Movement]] → [[Scramble Position]]
-
-**Success Rates:**
-- Beginner: 8%
-- Intermediate: 22%
-- Advanced: 38%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Anaconda Choke]]** → [[Lost by Submission]] (Opponent Success: 65%)
-- **[[Front Headlock to Darce]]** → [[D'arce Control]] (Opponent Success: 45%)
-- **[[Anaconda from Turtle]]** → [[Side Control]] (Opponent Success: 55%)
-- **[[Transition to Mount]]** → [[Mount]] (Opponent Success: 50%)
-- **[[Front Headlock Series Transition]]** → [[Front Headlock]] (Opponent Success: 40%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Grip Break]]** → [[Front Headlock]]
-  - Opponent attempts to tighten grip before stepping over
-- **[[Hip Escape]]** → [[Turtle]]
-  - Opponent drives chest pressure but hasn't secured tight lock
-- **[[Rolling to Guard]]** → [[Scramble Position]]
-  - Opponent commits weight forward while attempting to roll
-- **[[Frame and Shrimp]]** → [[Closed Guard]]
-  - Opponent's base becomes elevated during adjustment
 
 
 </section>
@@ -393,25 +334,39 @@ Partner has anaconda grip with moderate tightness. Bottom player focuses solely 
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Immediate escape to neutral
+## Test Your Knowledge
 
-`Anaconda Control Bottom → Grip Break → Turtle → Technical Standup → Standing Position`
+**Q1**: What is the first priority when caught in anaconda control from bottom?
+**A**: The first priority is preventing the choke from tightening, not escaping the position. Use your free hand immediately to grip the opponent's choking wrist or forearm and pull it away from your neck to create space. This buys time and prevents the choke from reaching critical tightness. Only after establishing this defensive hand position should you work on positional escape. Many practitioners make the mistake of trying to escape first and get choked in the process.
 
-### Defensive recovery to guard
+**Q2**: How should you position your chin and head to minimize choking pressure?
+**A**: Tuck your chin tightly toward your free-side shoulder (the shoulder that isn't trapped). This creates the smallest possible choking surface and protects your carotid arteries by positioning bony structures rather than soft tissue against the choking arm. Avoid turning your head away from opponent or lifting your chin, as both actions expose more neck surface to the choke. Think of creating a 'double chin' while turning toward your free shoulder.
 
-`Anaconda Control Bottom → Hip Escape → Half Guard → Guard Recovery → Closed Guard`
+**Q3**: Your opponent begins stepping over your head to finish - what immediate action do you take?
+**A**: Use your free hand to post on their hip or thigh to prevent the step-over from completing. The step-over is the finishing sequence - once they complete it, the choke becomes extremely difficult to escape. Your free hand must leave the grip-fighting position and immediately post defensively on their hip. Simultaneously, try to flatten your body and scoot your hips away to reduce the angle they need. If the step is already mid-flight, roll in the same direction to deny them the dominant angle.
 
-### Counter-scramble path
+**Q4**: What is the correct hip movement when defending anaconda control?
+**A**: Move your hips away from the opponent's chest pressure, not toward them. Hip movement away reduces their ability to drive weight into your trapped shoulder and creates the angle needed to potentially escape to guard. Coordinate hip movement with your upper body defense - as your free hand creates space at the neck, your hips should be moving in the opposite direction. This combined movement works to open the constricting loop rather than tightening it.
 
-`Anaconda Control Bottom → Rolling to Guard → Scramble Position → Butterfly Guard → Butterfly Sweep → Mount`
+**Q5**: How do you manage your trapped arm to reduce choking effectiveness?
+**A**: Keep your trapped arm bent with elbow close to your body rather than extended. An extended arm creates a larger loop for the opponent to constrict and provides more leverage for the choke. By keeping the arm bent and pulled close, you minimize the space they can control. Additionally, try to rotate your trapped arm so your elbow points toward the ground - this further reduces the mechanical advantage of the choke by changing the angle of compression.
+
+**Q6**: Your opponent initiates the roll-through finish - how do you counter?
+**A**: When they commit to the roll, you have two options depending on timing. If caught early, post your free hand on the mat and resist the roll by sprawling your legs back. If the roll is already happening, go with their momentum but continue fighting the grip and immediately work to create space on the landing. Sometimes rolling with them and scrambling on the landing is more effective than trying to stop a committed roll. Use the momentary chaos of the roll to attack their grip and escape.
+
+**Q7**: What breathing strategy helps survive anaconda control?
+**A**: Take short, controlled breaths through your nose rather than gasping through your mouth. Deep panicked breaths expand your chest and actually tighten the choke mechanism. Stay calm and breathe shallowly while you work your defense. Focus on relaxing muscles that aren't actively needed for escape - tension increases oxygen consumption. If you feel the choke getting tight, tap early rather than going unconscious. There's no shame in tapping to a properly locked anaconda.
+
+**Q8**: When should you prioritize escaping versus tapping to the anaconda?
+**A**: Tap when you feel tunnel vision starting, when you can no longer effectively fight the grip, or when you recognize that the position is fully locked with no escape opportunity. The anaconda can cause unconsciousness rapidly once the blood choke is established. If your defensive hand fighting isn't creating space after 5-10 seconds of effort, the position is likely too deep to escape. In training, err on the side of tapping early - you gain nothing from going unconscious and lose the opportunity to reset and drill the defense from earlier stages.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 

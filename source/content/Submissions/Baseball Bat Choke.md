@@ -406,7 +406,7 @@ The Baseball Bat Choke is a powerful collar-based blood choke executed primarily
 - [[Turtle]] - High-percentage position for baseball bat setup with easy collar access
 - [[Collar Control]] - Fundamental principle for establishing and maintaining effective grips
 - [[Grip Fighting]] - Essential skill for securing deep collar grips against resistance
-- [[Transition to North-South]] - Common transition that creates baseball bat opportunities
+- [[Side Control to North-South]] - Common transition that creates baseball bat opportunities
 - [[North-South Choke]] - Related collar choke from similar position with different mechanics
 - [[Bow and Arrow Choke]] - Natural transition if baseball bat grips are secured but angle needs adjustment
 - [[Submission Chains]] - Baseball bat fits into collar choke chains from top positions
@@ -415,6 +415,16 @@ The Baseball Bat Choke is a powerful collar-based blood choke executed primarily
 - [[Positional Hierarchy]] - Understanding when to attempt baseball bat vs maintaining dominant position
 - [[Chin Protection]] - Defensive principle that is largely ineffective against baseball bat mechanics
 
+
+</section>
+
+<section id="terminal-state" class="content-section">
+
+## Match Outcome
+
+Successful execution of Baseball Bat Choke leads to → [[game-over|Game Over]]
+
+*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
 
 </section>
 

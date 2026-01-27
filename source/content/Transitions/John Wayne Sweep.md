@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "John Wayne Sweep | BJJ Technique | BJJ Graph"
 description: "Master the John Wayne Sweep from Butterfly Guard. High-reward transition to Mount using grip control and hip leverage. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%."
@@ -16,7 +17,7 @@ description: "Master the John Wayne Sweep from Butterfly Guard. High-reward tran
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute John Wayne Sweep in BJJ",
-  "description": "Step-by-step guide for John Wayne Sweep from Butterfly Guard to Mount.",
+  "description": "Step-by-step guide for John Wayne Sweep from Butterfly Guard/Bottom. Possible outcomes: Mount/Top (65%), Butterfly Guard/Bottom (25%), Butterfly Guard/Top (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -160,11 +161,25 @@ description: "Master the John Wayne Sweep from Butterfly Guard. High-reward tran
 
 The John Wayne Sweep is a powerful offensive technique from butterfly guard that capitalizes on opponent's forward pressure and poor base management. Named after the characteristic pistol-shooting motion used during the grip break, this sweep combines elements of traditional butterfly mechanics with creative grip fighting. The technique exploits the moment when your opponent reaches for underhooks or attempts to pass, using their forward momentum against them. By establishing strong sleeve control, creating an angle with your hip movement, and utilizing butterfly hooks effectively, you can elevate your opponent and transition directly to mount. This sweep is particularly effective in gi grappling where grip control provides leverage advantages, though no-gi variations exist using wrist and tricep controls.
 
-**Starting Position**: [[Butterfly Guard]]
-**Ending Position**: [[Mount]]
+**From Position**: [[Butterfly Guard/Bottom]]
 **Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Mount/Top]] | 65% |
+| Failure | [[Butterfly Guard/Bottom]] | 25% |
+| Counter | [[Butterfly Guard/Top]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

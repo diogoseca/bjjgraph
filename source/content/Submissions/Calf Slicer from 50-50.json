@@ -268,6 +268,31 @@
       "question": "At what belt level and under what conditions should practitioners begin training the calf slicer from 50-50, and what progressions should precede it?",
       "answer": "The calf slicer from 50-50 should only be practiced by purple belt and above due to its high injury potential and technical complexity. Required progressions include: mastery of 50-50 position entry and maintenance, understanding of leg entanglement hierarchy and escape sequences, extensive training with straight ankle locks and basic leg attacks, comprehensive knowledge of tap protocols and injury risks, and specific instruction from qualified coaches. Initial training should involve drilling the position and setup without applying finishing pressure, allowing practitioners to develop control and precision before adding compression force. All training must be with experienced partners who understand the dangers and will tap early.",
       "safety_critical": true
+    },
+    {
+      "question": "Your opponent starts extending their trapped leg forcefully while you have the calf slicer partially locked - what adjustment maximizes finishing pressure?",
+      "answer": "When the opponent extends their leg forcefully, use their own extension against them by immediately increasing your shin pressure into their calf. Their leg extension amplifies the compression force because they're pushing their calf harder into your shin blade while you maintain position. Simultaneously tighten your grip on their foot and continue pulling it toward your upper body. The opponent's explosive extension often accelerates the submission finish rather than helping them escape. However, if they achieve full extension and begin to straighten completely, be prepared to transition to a straight ankle lock which becomes available when the leg is fully extended.",
+      "safety_critical": false
+    },
+    {
+      "question": "What specific grip configuration provides the strongest control over the opponent's foot during the calf slicer finish?",
+      "answer": "The strongest grip configuration is a figure-four grip around the ankle with one hand cupping the heel from below while the opposite hand wraps over the ankle and grabs your own wrist. This creates a locked structure that prevents any foot rotation or extraction. Alternatively, a compound grip with one hand cupping the heel (fingers toward toes, palm on heel bone) while the other hand controls the ball of the foot or toes provides directional control for pulling. The key is two-hand control at all times - single-hand grips allow the opponent to rotate their foot free. The grip must be established before initiating hip extension, not after.",
+      "safety_critical": false
+    },
+    {
+      "question": "What sensation indicates you have achieved the correct compression angle and the submission is close to finishing?",
+      "answer": "The correct compression angle produces a deep, intense squeezing sensation throughout the entire calf muscle belly, not localized pain at a specific point. You should feel the opponent's calf compressing uniformly against your shin blade. Signs the submission is near finishing include: the opponent's leg becoming progressively more rigid as muscle fibers compress, visible engagement of their entire leg as they resist the pressure, and their body starting to twist or contort as they seek relief from the compression. In training, this sensation at approximately 60-70% pressure indicates successful positioning - you should stop here and allow your partner to tap rather than continuing to full compression.",
+      "safety_critical": false
+    },
+    {
+      "question": "How do you recognize when the opponent has passed the point of no escape and the calf slicer will finish if you maintain position?",
+      "answer": "The point of no escape occurs when three conditions are met simultaneously: (1) your shin blade is locked perpendicular across their calf muscle with no possibility of them rotating it off, (2) your grip on their foot is secure with figure-four or compound configuration preventing any extraction, and (3) your hips have extended past 70% of available range while their leg remains trapped in the 50-50 entanglement. At this point, any further hip extension will finish the submission. Physical indicators include their entire body tensing, attempts to verbally negotiate or signal distress, and their free leg scrambling for leverage that doesn't exist. In training, this is when you should stop applying additional pressure and await the tap.",
+      "safety_critical": true
+    },
+    {
+      "question": "In competition, what specific adjustments should you make to finish the calf slicer faster while maintaining control?",
+      "answer": "In competition, accelerate the finish by: (1) establishing grips on the opponent's foot before they recognize the threat, giving you a positional head start, (2) using your top leg to drive their knee downward while simultaneously extending your hips, creating dual compression vectors, (3) pulling their foot aggressively toward your shoulder rather than just your centerline to maximize the angle, and (4) keeping your torso reclined rather than upright to extend hip range of motion. However, never sacrifice control for speed - a loose entanglement allows escape regardless of how fast you apply pressure. The key is explosive but controlled entry into the final compression phase once all control elements are secured, not rushing through the setup.",
+      "safety_critical": false
     }
   ],
   "training_progressions_and_safety_protocols": [
@@ -333,8 +358,7 @@
     "Heel Hook",
     "Straight Ankle Lock",
     "Toe Hold",
-    "Toe Hold from 50-50",
-    "Kneebar from 50-50",
+    "Kneebar",
     "Achilles Lock",
     "Estima Lock",
     "Banana Split",
@@ -350,10 +374,6 @@
       "relationship": "Alternative leg entanglement position with similar submission access"
     },
     {
-      "name": "Craig Jones Leg Lock System",
-      "relationship": "Modern competition system emphasizing 50-50 position and submission chains"
-    },
-    {
       "name": "Leg Entanglement",
       "relationship": "Core positional principle enabling all leg-based submissions"
     },
@@ -362,16 +382,20 @@
       "relationship": "Primary follow-up submission when opponent defends calf slicer"
     },
     {
-      "name": "Toe Hold from 50-50",
-      "relationship": "Alternative compression submission from same position"
-    },
-    {
-      "name": "Submission Defense",
-      "relationship": "Defensive principles for recognizing and escaping calf compression"
+      "name": "Straight Ankle Lock",
+      "relationship": "Alternative submission available when opponent extends leg"
     },
     {
       "name": "X-Guard",
       "relationship": "Common entry pathway leading to 50-50 leg entanglement positions"
+    },
+    {
+      "name": "Saddle",
+      "relationship": "Advanced leg entanglement with superior control for similar attacks"
+    },
+    {
+      "name": "Backside 50-50",
+      "relationship": "Variation position enabling different angles for calf compression"
     }
   ]
 }

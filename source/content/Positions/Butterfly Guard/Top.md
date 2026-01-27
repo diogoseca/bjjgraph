@@ -20,38 +20,38 @@ description: "Navigate Butterfly Guard Top in BJJ. Strategic passing vs dynamic 
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Butterfly Pass",
-      "text": "From this position, execute Butterfly Pass to transition to Side Control. Success rate for advanced practitioners: 65%.",
+      "name": "Execute Knee Slice Pass",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 25% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Double Under Pass",
-      "text": "From this position, execute Double Under Pass to transition to Side Control. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Double Under Pass. This technique is attempted in 20% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Long Step Pass",
-      "text": "From this position, execute Long Step Pass to transition to Side Control. Success rate for advanced practitioners: 68%.",
+      "name": "Execute Butterfly Pass",
+      "text": "From this position, attempt Butterfly Pass. This technique is attempted in 18% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Knee Cut Pass",
-      "text": "From this position, execute Knee Cut Pass to transition to Side Control. Success rate for advanced practitioners: 66%.",
+      "name": "Execute Long Step Pass",
+      "text": "From this position, attempt Long Step Pass. This technique is attempted in 15% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Stack Pass",
-      "text": "From this position, execute Stack Pass to transition to Side Control. Success rate for advanced practitioners: 62%.",
+      "name": "Execute Over-Under Pass",
+      "text": "From this position, attempt Over-Under Pass. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Toreando Pass",
-      "text": "From this position, execute Toreando Pass to transition to Side Control. Success rate for advanced practitioners: 64%.",
+      "text": "From this position, attempt Toreando Pass. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -214,99 +214,18 @@ Elite competitors approach butterfly guard top by viewing it as an opportunity t
 
 ## Available Attacks
 
-### [[Butterfly Pass]] → [[Side Control]]
+### [[Knee Slice Pass]] (25% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Double Under Pass]] (20% of attempts)
 
-### [[Double Under Pass]] → [[Side Control]]
+### [[Butterfly Pass]] (18% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Long Step Pass]] (15% of attempts)
 
-### [[Long Step Pass]] → [[Side Control]]
+### [[Over-Under Pass]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 38%
-- Intermediate: 53%
-- Advanced: 68%
+### [[Toreando Pass]] (10% of attempts)
 
-### [[Knee Cut Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 36%
-- Intermediate: 51%
-- Advanced: 66%
-
-### [[Stack Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 32%
-- Intermediate: 47%
-- Advanced: 62%
-
-### [[Toreando Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 34%
-- Intermediate: 49%
-- Advanced: 64%
-
-### [[Over-Under Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 42%
-- Intermediate: 57%
-- Advanced: 72%
-
-### [[Half Guard Pass]] → [[Half Guard]]
-
-**Success Rates:**
-- Beginner: 44%
-- Intermediate: 59%
-- Advanced: 74%
-
-### [[Knee Slice Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 37%
-- Intermediate: 52%
-- Advanced: 67%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Butterfly Sweep]]** → [[Mount]] (Opponent Success: 55%)
-- **[[Elevator Sweep]]** → [[Mount]] (Opponent Success: 52%)
-- **[[Arm Drag to Back]]** → [[Turtle]] (Opponent Success: 48%)
-- **[[Hook Sweep]]** → [[Side Control]] (Opponent Success: 50%)
-- **[[Butterfly Guard to X-Guard]]** → [[X-Guard]] (Opponent Success: 45%)
-- **[[Guillotine Choke]]** → [[Won by Submission]] (Opponent Success: 35%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Butterfly Pass]]** → [[Side Control]]
-  - Opponent commits to sweep attempt and temporarily loses base, creating passing window
-- **[[Double Under Pass]]** → [[Side Control]]
-  - Opponent extends arms for distance creating opportunity to secure double underhooks
-- **[[Long Step Pass]]** → [[Side Control]]
-  - Opponent's hooks become shallow or lose connection allowing distance creation
-- **[[Stack Pass]]** → [[Side Control]]
-  - Opponent sits very upright with knees high creating vulnerability to stacking pressure
 
 
 </section>
@@ -430,29 +349,7 @@ Partner initiates common butterfly sweeps while you practice recognizing the ini
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
-
-### Submission path after successful pass to side control
-
-`Butterfly Guard Top → Butterfly Pass → Side Control → Kimura from Side Control`
-
-### Submission path via double under pass
-
-`Butterfly Guard Top → Double Under Pass → Side Control → Arm Triangle`
-
-### Submission path to mount after pass
-
-`Butterfly Guard Top → Butterfly Pass → Side Control → Transition to Mount → Americana from Mount`
-
-### Front headlock submission during scramble
-
-`Butterfly Guard Top → Snap Down to Front Headlock → Guillotine Choke`
-
-
-
-</section>
 
 <section id="position-metrics" class="content-section">
 
@@ -473,16 +370,11 @@ Partner initiates common butterfly sweeps while you practice recognizing the ini
 
 ## Related Positions and Techniques
 
-- **[[Side Control Top Position]]** - Primary target position after successfully passing butterfly guard
-- **[[Half Guard Top Position]]** - Common intermediate position when butterfly pass is partially successful
+- **[[Side Control]]** - Primary target position after successfully passing butterfly guard
+- **[[Half Guard]]** - Common intermediate position when butterfly pass is partially successful
 - **[[Combat Base]]** - Fundamental position for maintaining base and stability against butterfly guard attacks
 - **[[Headquarters Position]]** - Alternative controlling position when disengaging from butterfly guard hooks
 - **[[Standing Guard]]** - Tactical option for clearing hooks and transitioning to standing passes
-- **[[elite competitors' Passing System]]** - Modern systematic approach to passing guards including butterfly guard strategies
-- **[[Pressure Passing Framework]]** - Core principles for applying pressure effectively while managing butterfly guard threats
-- **[[Guard Passing Concepts]]** - Fundamental concepts underlying successful passing against various guard types including butterfly
-- **[[Grip Fighting Strategies]]** - Essential skill set for preventing opponent from establishing dominant butterfly guard controls
-- **[[Base Maintenance]]** - Critical principle for maintaining stability and resisting elevation from butterfly hooks
 
 
 </section>

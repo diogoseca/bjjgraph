@@ -21,37 +21,37 @@ description: "Master attacking from back control in BJJ. Learn hook control, har
     {
       "@type": "HowToStep",
       "name": "Execute Rear Naked Choke",
-      "text": "From this position, execute Rear Naked Choke to transition to Won by Submission. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Rear Naked Choke. This technique is attempted in 25% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Armbar from Back with Legs",
-      "text": "From this position, execute Armbar from Back with Legs to transition to Armbar Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Armbar from Back with Legs. This technique is attempted in 8% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Back Control to Crucifix",
-      "text": "From this position, execute Back Control to Crucifix to transition to Crucifix. Success rate for advanced practitioners: 70%.",
+      "name": "Execute Bow and Arrow Choke",
+      "text": "From this position, attempt Bow and Arrow Choke. This technique is attempted in 15% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Bow and Arrow Choke",
-      "text": "From this position, execute Bow and Arrow Choke to transition to Won by Submission. Success rate for advanced practitioners: 60%.",
+      "name": "Execute Back Control to Crucifix",
+      "text": "From this position, attempt Back Control to Crucifix. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Mount",
-      "text": "From this position, execute Transition to Mount to transition to Mount. Success rate for advanced practitioners: 80%.",
+      "name": "Execute Armbar from Back",
+      "text": "From this position, attempt Armbar from Back. This technique is attempted in 7% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Truck",
-      "text": "From this position, execute Transition to Truck to transition to Truck. Success rate for advanced practitioners: 65%.",
+      "name": "Execute Body Triangle Lock",
+      "text": "From this position, attempt Body Triangle Lock. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -212,91 +212,22 @@ Successful back control requires understanding the hierarchy of control points: 
 
 ## Available Attacks
 
-### [[Rear Naked Choke]] → [[Won by Submission]]
+### [[Rear Naked Choke]] (25% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 60%
-- Advanced: 75%
+### [[Armbar from Back with Legs]] (8% of attempts)
 
-### [[Armbar from Back with Legs]] → [[Armbar Control]]
+### [[Bow and Arrow Choke]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Back Control to Crucifix]] (10% of attempts)
 
-### [[Back Control to Crucifix]] → [[Crucifix]]
+### [[Armbar from Back]] (7% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Body Triangle Lock]] (10% of attempts)
 
-### [[Bow and Arrow Choke]] → [[Won by Submission]]
+### [[Choke from Crucifix]] (5% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Maintain Back Control]] (20% of attempts)
 
-### [[Transition to Mount]] → [[Mount]]
-
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 65%
-- Advanced: 80%
-
-### [[Transition to Truck]] → [[Truck]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 65%
-
-### [[Choke from Crucifix]] → [[Won by Submission]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 55%
-- Advanced: 70%
-
-### [[Armbar from Back]] → [[Won by Submission]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 45%
-- Advanced: 60%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Hand Fighting from Back]]** → [[Defensive Position]] (Opponent Success: 20%)
-- **[[Hip Escape]]** → [[Turtle]] (Opponent Success: 25%)
-- **[[Back Escape Series]]** → [[Half Guard]] (Opponent Success: 30%)
-- **[[Rolling Escape]]** → [[Closed Guard]] (Opponent Success: 20%)
-- **[[Granby Roll]]** → [[Turtle]] (Opponent Success: 15%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Back Control to Crucifix]]** → [[Crucifix]]
-  - Opponent attempts to remove top arm from harness grip exposing their arm
-- **[[Transition to Mount]]** → [[Mount]]
-  - Opponent turns into you while escaping hooks creating mount entry opportunity
-- **[[Transition to Truck]]** → [[Truck]]
-  - Opponent attempts to roll forward to escape hooks allowing truck entry
-- **[[Armbar from Back with Legs]]** → [[Armbar Control]]
-  - Opponent extends arm to push off mat during escape attempt
 
 
 </section>
@@ -312,17 +243,17 @@ Successful back control requires understanding the hierarchy of control points: 
 
 **If opponent attempts to remove hooks by attacking your feet with their hands:**
 - Execute **[[Switch to body triangle]]** → [[Body Triangle]] (Probability: 70%)
-- Execute **[[Transition to mount]]** → [[Mount]] (Probability: 65%)
+- Execute **[[Maintain back control with adjusted hooks]]** → [[Back Control]] (Probability: 65%)
 
 
-**If opponent turns into you creating mount entry angle:**
-- Execute **[[Follow turn to mount position]]** → [[Mount]] (Probability: 75%)
-- Execute **[[Maintain back control and attack choke during turn]]** → [[Won by Submission]] (Probability: 60%)
+**If opponent turns into you creating positional change opportunity:**
+- Execute **[[Follow turn to gift wrap position]]** → [[Gift Wrap]] (Probability: 75%)
+- Execute **[[Maintain back control and attack choke during turn]]** → [[game-over]] (Probability: 60%)
 
 
 **If opponent drives forward and tucks chin to mat defensively:**
-- Execute **[[Bow and arrow choke]]** → [[Won by Submission]] (Probability: 55%)
-- Execute **[[Transition to truck position]]** → [[Truck]] (Probability: 50%)
+- Execute **[[Bow and arrow choke]]** → [[game-over]] (Probability: 55%)
+- Execute **[[Transition to truck position]]** → [[Twister Control]] (Probability: 50%)
 
 
 
@@ -394,7 +325,7 @@ Start with back control established. Work breaking down partner's defensive grip
 
 ### Back Control Escape and Re-take Drill
 
-Partner works specific escape sequences while you practice countering escapes and maintaining or improving position. Focus on transitioning to mount, crucifix, or truck when opponent attempts escape. Reset when escape succeeds or your position improves. Develops adaptive control and counter-techniques.
+Partner works specific escape sequences while you practice countering escapes and maintaining or improving position. Focus on transitioning to crucifix, gift wrap, or truck when opponent attempts escape. Reset when escape succeeds or your position improves. Develops adaptive control and counter-techniques.
 
 **Duration**: 10 minutes continuous flow (5 minutes per partner)
 
@@ -403,33 +334,7 @@ Partner works specific escape sequences while you practice countering escapes an
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
-
-### Highest Percentage RNC Path
-
-`Back Control Top → Harness → Grip Break → Rear Naked Choke → Won by Submission`
-
-### Armbar Chain
-
-`Back Control Top → Gift Wrap → Armbar from Back with Legs → Armbar Control → Won by Submission`
-
-### Crucifix Control Path
-
-`Back Control Top → Hand Fighting → Back Control to Crucifix → Crucifix → Choke from Crucifix → Won by Submission`
-
-### Bow and Arrow Finish
-
-`Back Control Top → Collar Control → Bow and Arrow Choke → Won by Submission`
-
-### Position Advancement Sequence
-
-`Back Control Top → Transition to Mount → Mount → S Mount → Armbar from Mount → Won by Submission`
-
-
-
-</section>
 
 <section id="position-metrics" class="content-section">
 
@@ -458,8 +363,8 @@ Partner works specific escape sequences while you practice countering escapes an
 - **[[Turtle]]** - Common entry position for establishing back control
 - **[[Mount]]** - Alternative dominant position and common transition from back control
 - **[[Rear Naked Choke]]** - Primary submission attack from back control with highest success rate
-- **[[Back Attack System]]** - Comprehensive systematic approach to back control and submissions
-- **[[systematic approach Straight Jacket System]]** - Advanced back control methodology focusing on arm control before submission
+- **[[Bow and Arrow Choke]]** - High-percentage gi choke from back control using collar and leg
+- **[[Armbar from Back]]** - Arm attack option when choke defense is strong
 
 
 </section>

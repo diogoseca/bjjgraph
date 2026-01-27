@@ -242,6 +242,31 @@
       "question": "At what point during the technique should you pause if you feel your control deteriorating?",
       "answer": "Immediately pause at any point where the arm pin separates from your chest or the opponent creates bend in their elbow. Do not proceed with rotation if arm control is compromised. Similarly, if during rotation you feel their body starting to roll with you, stop and reestablish base. Finally, never apply extension if your hips are not properly positioned with their elbow at your pubic bone. Safety and control trump submission attempts—releasing and resetting is always better than forcing a compromised position.",
       "safety_critical": true
+    },
+    {
+      "question": "What anatomical structure does the reverse armbar specifically attack, and what makes it vulnerable in this position?",
+      "answer": "The reverse armbar attacks the elbow joint, specifically hyperextending the ulnohumeral articulation against its natural range of motion. The elbow is particularly vulnerable because the arm is isolated with the thumb facing upward (supinated), which positions the joint so the olecranon process of the ulna cannot lock against the humerus for stability. Your hips create a fulcrum directly below the elbow while your grip pulls the wrist in the opposite direction, generating hyperextension force that the ligaments cannot resist once full extension is achieved.",
+      "safety_critical": false
+    },
+    {
+      "question": "What indicates you have reached the point of no escape during the reverse armbar finish?",
+      "answer": "The point of no escape occurs when three conditions are met simultaneously: the arm is fully extended with no bend at the elbow, your hips are elevated and positioned tight against their shoulder creating the fulcrum below their elbow joint, and your legs have reestablished control with knees squeezed together trapping their arm. At this point, the opponent cannot bend their arm, cannot roll away due to leg pressure on their head and shoulder, and cannot create space because your hip-to-shoulder connection eliminates defensive movement. The submission is inevitable—the only question is whether they tap or sustain injury.",
+      "safety_critical": false
+    },
+    {
+      "question": "What grip adjustments should you make as you transition from rotation to the finishing phase?",
+      "answer": "During rotation, maintain a two-on-one grip with both hands controlling their wrist and forearm with the arm pinned to your chest. As you complete rotation and establish the reversed position, shift your grip to their wrist only with thumbs positioned on top of their forearm. This grip adjustment positions your hands to pull their wrist toward your chest during the finish while your hips elevate for the breaking angle. The thumbs-on-top positioning prevents their wrist from rotating and maintains the proper supinated arm position needed for maximum hyperextension leverage.",
+      "safety_critical": false
+    },
+    {
+      "question": "In competition, what finishing strategy maximizes submission success rate while minimizing injury risk to your opponent?",
+      "answer": "In competition, once you've completed the rotation and established the reversed position, apply steady progressive pressure through hip elevation while maintaining tight arm control. The pressure should be constant but controlled—giving your opponent the opportunity to tap before the elbow reaches its breaking threshold. Avoid explosive jerking or spiking even in competition, as this creates unnecessary injury risk and can result in referee stoppage or penalty. The submission should feel inevitable to your opponent, creating psychological pressure that forces the tap before physical damage occurs. Patient, mechanical finishing produces higher completion rates than explosive attempts.",
+      "safety_critical": true
+    },
+    {
+      "question": "What common finishing error causes the opponent to roll free during the final extension phase?",
+      "answer": "The most common finishing error is lifting your hips while simultaneously loosening leg pressure on the opponent's head and shoulder. When you focus solely on hip elevation without maintaining downward leg pressure, you create space that allows them to turn their shoulders and roll toward you, escaping the submission. The correct finishing mechanics require driving your hip upward for the breaking angle while simultaneously squeezing your knees together and maintaining leg pressure across their upper body. Your leg pressure pins them flat while your hips create the hyperextension—both elements must work together for successful completion.",
+      "safety_critical": false
     }
   ],
   "training_progressions_and_safety_protocols": [
@@ -316,28 +341,28 @@
   ],
   "related_content": [
     {
-      "name": "Mount to Armbar",
+      "name": "Armbar from Mount",
       "relationship": "Primary transition path, reverse armbar often flows from failed standard mount armbar"
     },
     {
-      "name": "Triangle to Armbar",
+      "name": "Triangle Choke",
       "relationship": "Alternative submission chain, can reverse to armbar from triangle control"
     },
     {
-      "name": "Armbar Defense",
-      "relationship": "Understanding defense mechanics shows when reverse variation beats standard defenses"
+      "name": "Armbar Finish",
+      "relationship": "Understanding finishing mechanics shows when reverse variation beats standard defenses"
     },
     {
       "name": "S Mount",
       "relationship": "High-percentage setup position, opponent's escape attempts create reverse armbar opportunities"
     },
     {
-      "name": "Triangle Setup",
+      "name": "Triangle from Mount",
       "relationship": "Complementary attack, reverse armbar becomes available when triangle is defended"
     },
     {
-      "name": "Submission Chains",
-      "relationship": "Strategic principle, reverse armbar exemplifies attacking from unexpected angles"
+      "name": "Omoplata",
+      "relationship": "Strategic alternative, reverse armbar exemplifies attacking from unexpected angles"
     },
     {
       "name": "Armbar Control",
@@ -348,8 +373,8 @@
       "relationship": "Common entry context, scrambles create arm isolation for reverse mechanics"
     },
     {
-      "name": "Armbar Finish",
-      "relationship": "Finishing mechanics overlap, hip positioning and extension principles apply to both"
+      "name": "Belly Down Armbar",
+      "relationship": "Related finishing mechanics, hip positioning and extension principles apply to both"
     }
   ]
 }

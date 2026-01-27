@@ -99,38 +99,28 @@ The energy dynamics of lapel guard favor the bottom player in extended exchanges
 - Use lapel barriers to prevent hip contact and pressure passing approaches
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Worm Guard Entry]]** → [[Worm Guard]]
-  - Success Rate: Beginner 45%, Intermediate 65%, Advanced 80%
+- **[[Worm Guard Entry]]** (11% of attempts)
 
-- **[[Squid Guard Entry]]** → [[Squid Guard]]
-  - Success Rate: Beginner 40%, Intermediate 60%, Advanced 75%
+- **[[Squid Guard Entry]]** (10% of attempts)
 
-- **[[Ringworm Guard Entry]]** → [[Ringworm Guard]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 65%
+- **[[Ringworm Guard Entry]]** (9% of attempts)
 
-- **[[Lapel Sweep to Back]]** → [[Back Control]]
-  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 70%
+- **[[Lapel Sweep to Back]]** (10% of attempts)
 
-- **[[Lapel Omoplata Entry]]** → [[Omoplata Control]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 65%
+- **[[Lapel Omoplata Entry]]** (9% of attempts)
 
-- **[[Lapel Triangle Setup]]** → [[Triangle Control]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 60%
+- **[[Lapel Triangle Setup]]** (8% of attempts)
 
-- **[[Lapel to Lasso Transition]]** → [[Lasso Guard]]
-  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 80%
+- **[[Lapel to Lasso Transition]]** (11% of attempts)
 
-- **[[Lapel to Spider Transition]]** → [[Spider Guard]]
-  - Success Rate: Beginner 55%, Intermediate 70%, Advanced 85%
+- **[[Lapel to Spider Transition]]** (12% of attempts)
 
-- **[[Lapel to De La Riva]]** → [[De La Riva Guard]]
-  - Success Rate: Beginner 45%, Intermediate 65%, Advanced 80%
+- **[[Lapel to De La Riva]]** (11% of attempts)
 
-- **[[Lapel Elevator Sweep]]** → [[Mount]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 65%
+- **[[Lapel Elevator Sweep]]** (9% of attempts)
 
 
 ### Common Mistakes
@@ -188,32 +178,24 @@ The energy dynamics of lapel guard favor the bottom player in extended exchanges
 - Recognize specific lapel guard variations and apply appropriate technical solutions
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Lapel Clear to Toreando Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 70%
+- **[[Lapel Clear to Toreando Pass]]** (13% of attempts)
 
-- **[[Backstep Around Worm Guard]]** → [[Turtle]]
-  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 75%
+- **[[Backstep Around Worm Guard]]** (14% of attempts)
 
-- **[[Pressure Pass Through Squid]]** → [[Half Guard Pass]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 65%
+- **[[Pressure Pass Through Squid]]** (12% of attempts)
 
-- **[[Knee Slice Despite Lapel]]** → [[Knee on Belly]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 70%
+- **[[Knee Slice Despite Lapel]]** (13% of attempts)
 
-- **[[Long Step Around Ringworm]]** → [[Side Control]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 65%
+- **[[Long Step Around Ringworm]]** (12% of attempts)
 
-- **[[Stack Pass Over Lapel Barrier]]** → [[Mount]]
-  - Success Rate: Beginner 20%, Intermediate 40%, Advanced 60%
+- **[[Stack Pass Over Lapel Barrier]]** (11% of attempts)
 
-- **[[Distance Creation to Reset]]** → [[Standing Guard]]
-  - Success Rate: Beginner 50%, Intermediate 70%, Advanced 85%
+- **[[Distance Creation to Reset]]** (13% of attempts)
 
-- **[[Leg Drag While Clearing Lapel]]** → [[Leg Drag Control]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 65%
+- **[[Leg Drag While Clearing Lapel]]** (12% of attempts)
 
 
 ### Common Mistakes

@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Bridge and Roll | BJJ Technique | BJJ Graph"
 description: "Master the Bridge and Roll escape from Mount in BJJ. Complete breakdown of hip elevation, weight distribution, and trap mechanics. Beginner 35%, Intermediate 50%, Advanced 65%."
@@ -16,7 +17,7 @@ description: "Master the Bridge and Roll escape from Mount in BJJ. Complete brea
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Bridge and Roll in BJJ",
-  "description": "Step-by-step guide for Bridge and Roll from Mount to Closed Guard.",
+  "description": "Step-by-step guide for Bridge and Roll from Mount/Top. Possible outcomes: Closed Guard/Bottom (65%), Mount/Top (25%), Mount/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -160,11 +161,25 @@ description: "Master the Bridge and Roll escape from Mount in BJJ. Complete brea
 
 The Bridge and Roll (also known as the Upa Escape or trap and roll) is the most fundamental and highest-percentage escape from the mounted position. This technique exploits the opponent's base by creating a powerful bridge with the hips while simultaneously trapping one arm and the same-side leg, forcing them to roll over their trapped shoulder. The escape is effective because it uses the strongest muscles in the body—the glutes and hamstrings—to generate explosive power that overwhelms the opponent's balance. The Bridge and Roll is typically the first mount escape taught to beginners due to its intuitive mechanics and immediate effectiveness, yet it remains a cornerstone technique at all belt levels. The success of this escape depends on proper timing, creating the correct angle before bridging, and understanding the relationship between the trapped arm and leg. When executed correctly, the practitioner not only escapes the mounted position but often ends up inside the opponent's closed guard with improved position. The technique demonstrates fundamental BJJ principles including the use of frames, hip movement, angle creation, and explosive power generation from inferior positions.
 
-**Starting Position**: [[Mount]]
-**Ending Position**: [[Closed Guard]]
+**From Position**: [[Mount/Top]]
 **Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Closed Guard/Bottom]] | 65% |
+| Failure | [[Mount/Top]] | 25% |
+| Counter | [[Mount/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

@@ -21,37 +21,37 @@ description: "Master armbar control from top position in BJJ. Learn arm isolatio
     {
       "@type": "HowToStep",
       "name": "Execute Armbar Finish",
-      "text": "From this position, execute Armbar Finish to transition to Won by Submission. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Armbar Finish. This technique is attempted in 35% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Setup",
-      "text": "From this position, execute Triangle Setup to transition to Triangle Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Triangle Setup. This technique is attempted in 20% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Omoplata",
-      "text": "From this position, execute Transition to Omoplata to transition to Omoplata Control. Success rate for advanced practitioners: 55%.",
+      "name": "Execute Closed Guard to Omoplata",
+      "text": "From this position, attempt Closed Guard to Omoplata. This technique is attempted in 15% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle to Armbar",
-      "text": "From this position, execute Triangle to Armbar to transition to Triangle Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Triangle to Armbar. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Mount to Armbar",
-      "text": "From this position, execute Mount to Armbar to transition to Mount. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Mount to Armbar. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kimura from Guard",
-      "text": "From this position, execute Kimura from Guard to transition to Kimura Control. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Kimura from Guard. This technique is attempted in 8% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -213,76 +213,18 @@ Armbar Control Top is accessible from multiple positions including mount, guard,
 
 ## Available Attacks
 
-### [[Armbar Finish]] → [[Won by Submission]]
+### [[Armbar Finish]] (35% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 60%
-- Advanced: 75%
+### [[Triangle Setup]] (20% of attempts)
 
-### [[Triangle Setup]] → [[Triangle Control]]
+### [[Closed Guard to Omoplata]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Triangle to Armbar]] (12% of attempts)
 
-### [[Transition to Omoplata]] → [[Omoplata Control]]
+### [[Mount to Armbar]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
+### [[Kimura from Guard]] (8% of attempts)
 
-### [[Triangle to Armbar]] → [[Triangle Control]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-### [[Mount to Armbar]] → [[Mount]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[Kimura from Guard]] → [[Kimura Control]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Armbar Defense]]** → [[Closed Guard]] (Opponent Success: 35%)
-- **[[Hip Escape]]** → [[Closed Guard]] (Opponent Success: 30%)
-- **[[Bridge and Roll]]** → [[Closed Guard]] (Opponent Success: 25%)
-- **[[Elbow Escape]]** → [[Defensive Position]] (Opponent Success: 28%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Triangle Setup]]** → [[Triangle Control]]
-  - Opponent attempts to stack or posture up to defend armbar
-- **[[Transition to Omoplata]]** → [[Omoplata Control]]
-  - Opponent successfully bends their arm and begins to extract it from armbar position
-- **[[Switch to Triangle]]** → [[Triangle Control]]
-  - Opponent turns into the position or attempts to roll through the armbar
-- **[[Mount to Armbar]]** → [[Mount]]
-  - Opponent creates space under the hips and attempts to turn away from the arm attack
 
 
 </section>
@@ -292,21 +234,21 @@ Armbar Control Top is accessible from multiple positions including mount, guard,
 ## Decision Making from This Position
 
 **If opponent keeps arm straight and does not attempt to stack or create defensive posture:**
-- Execute **[[Armbar Finish]]** → [[Won by Submission]] (Probability: 75%)
+- Execute **[[Armbar Finish]]** → [[game-over]] (Probability: 75%)
 
 
 **If opponent attempts to stack by driving forward and posting on their free arm:**
 - Execute **[[Triangle Setup]]** → [[Triangle Control]] (Probability: 60%)
-- Execute **[[Switch to Triangle]]** → [[Triangle Control]] (Probability: 55%)
+- Execute **[[Triangle to Armbar]]** → [[Triangle Control]] (Probability: 55%)
 
 
 **If opponent successfully bends their trapped arm and begins tucking elbow to chest:**
-- Execute **[[Transition to Omoplata]]** → [[Omoplata Control]] (Probability: 50%)
+- Execute **[[Closed Guard to Omoplata]]** → [[Omoplata Control]] (Probability: 50%)
 - Execute **[[Triangle to Armbar]]** → [[Triangle Control]] (Probability: 45%)
 
 
 **If opponent attempts to roll through or turn into the submission:**
-- Execute **[[Switch to Triangle]]** → [[Triangle Control]] (Probability: 55%)
+- Execute **[[Triangle to Armbar]]** → [[Triangle Control]] (Probability: 55%)
 - Execute **[[Kimura from Guard]]** → [[Kimura Control]] (Probability: 40%)
 
 
@@ -398,33 +340,39 @@ Practice entering armbar control from five different starting positions: closed 
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Shortest path from Mount
+## Test Your Knowledge
 
-`Mount → Armbar Control Top → Armbar Finish → Won by Submission`
+**Q1**: What is the optimal hip-to-shoulder distance when maintaining armbar control?
+**A**: Your hips should be positioned as close to the opponent's shoulder as possible, ideally with zero gap between your hip bone and their shoulder joint. This maximizes leverage by reducing the moment arm the opponent can use to defend, and ensures that any hip elevation translates directly into extension pressure on the elbow joint.
 
-### High-percentage path from Closed Guard
+**Q2**: Your opponent starts to sit up and stack forward - what adjustment do you make?
+**A**: When the opponent begins stacking, immediately transition your leg positioning by bringing your top leg (the one across their face) tighter against their neck and driving your knee toward the mat on the far side. This creates a wedge that prevents further forward movement. If stacking continues, flow to triangle by swinging your leg over their head, as their forward posture actually facilitates this transition.
 
-`Closed Guard → Triangle Setup → Triangle Control → Triangle to Armbar → Armbar Control Top → Armbar Finish → Won by Submission`
+**Q3**: Why should the opponent's thumb point upward during the armbar finish?
+**A**: Thumb-up orientation positions the elbow joint with the hyperextension plane aligned directly with your hip elevation. When the thumb points down, the arm can rotate, distributing pressure across the forearm bones rather than concentrating it on the elbow ligaments. The thumb-up position creates the weakest structural configuration for the joint, requiring less force to generate a tap.
 
-### Back attack transition path
+**Q4**: What are the essential grips for maintaining armbar control position?
+**A**: The primary grip configuration involves both hands controlling the wrist area with your thumbs on the inside (touching the opponent's pulse point). For additional security, a secondary grip has one hand on the wrist and one hand cupping the triceps above the elbow. Both hands should pull the arm toward your chest centerline while maintaining constant tension.
 
-`Back Control → Armbar from Back → Armbar Control Top → Armbar Finish → Won by Submission`
+**Q5**: How do you recover when your opponent extracts a few inches of their arm?
+**A**: Immediately re-grip higher on their arm (toward the elbow), pinch your knees together harder, and scoot your hips closer to their shoulder to recapture the lost distance. Do not chase the wrist - instead, control whatever portion of the arm remains accessible while repositioning your body. If significant space is lost, consider transitioning to triangle or omoplata rather than fighting for a deteriorating armbar.
 
-### Side control systematic path
+**Q6**: What is the proper leg positioning for controlling the opponent's upper body?
+**A**: One leg crosses over the opponent's face/neck with your hamstring pressing against their cheek and your calf hooking behind their head. The other leg positions across their chest with your thigh applying downward pressure. Both legs work together to prevent the opponent from sitting up or turning into the position. Avoid crossing your feet, which compromises hip mobility.
 
-`Side Control → Armbar from Side Control → Armbar Control Top → Armbar Finish → Won by Submission`
+**Q7**: How should you coordinate hip elevation with arm pulling during the finish?
+**A**: The finish requires simultaneous opposing vectors: hips drive upward toward the ceiling while hands pull the wrist toward your chest. The hip elevation creates the primary extension force using your largest muscle groups (glutes, core), while the arm pull maintains control and guides the direction of pressure. These movements must be synchronized - pulling without hip elevation wastes energy and reduces effectiveness.
 
-### Crucifix control path
-
-`Crucifix → Armbar from Crucifix → Armbar Control Top → Armbar Finish → Won by Submission`
+**Q8**: What should you do when your opponent begins to roll toward you?
+**A**: When the opponent rolls toward the controlled arm side, follow their roll while maintaining your grip configuration. As they rotate, your body position naturally transitions toward a mounted armbar or even belly-down armbar position. Keep your knees pinched and continue the arm isolation. If they roll away from the controlled arm, immediately tighten your leg control and consider switching to a triangle attack as this escape exposes their neck.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -453,8 +401,8 @@ Practice entering armbar control from five different starting positions: closed 
 - **[[Armbar from Mount]]** - Specific entry technique from mount position
 - **[[Armbar from Guard]]** - Entry variation from guard positions
 - **[[Kimura Control]]** - Alternative arm attack when armbar is defended
-- **[[Submission Defense]]** - Conceptual framework opponent uses to counter this position
-- **[[Hip Escape Mechanics]]** - Core movement concept opponent employs for escape attempts
+- **[[S Mount]]** - Transitional position for armbar setup from mount
+- **[[High Mount]]** - Alternative control position facilitating armbar entry
 
 
 </section>

@@ -416,10 +416,20 @@ The Kimura from North-South is a powerful shoulder lock that exploits the vulner
 - [[Side Control]] - Related top control position offering alternative Kimura angles
 - [[Americana Control]] - Alternative shoulder lock using similar figure-four mechanics but different rotation direction
 - [[Armbar Control]] - Alternative joint lock option if Kimura grip is defended
-- [[Transition to North-South]] - Entry methodology from various positions to establish north-south control
+- [[Side Control to North-South]] - Entry methodology from various positions to establish north-south control
 - [[Turtle]] - Common defensive position opponent may assume, creating alternative Kimura opportunities
 - [[Back Control]] - Positional transition when opponent rolls into Kimura defense
 
+
+</section>
+
+<section id="terminal-state" class="content-section">
+
+## Match Outcome
+
+Successful execution of Kimura from North-South leads to → [[game-over|Game Over]]
+
+*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
 
 </section>
 

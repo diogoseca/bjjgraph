@@ -8,8 +8,8 @@
     "compression",
     "lockdown",
     "10th-planet",
-    "eddie-10th Planet",
-    "half-guard"
+    "half-guard",
+    "groin-attack"
   ],
   "submission_category": "Compression",
   "submission_type": "Groin Compression",
@@ -224,13 +224,13 @@
       "safety_critical": true
     },
     {
-      "question": "Why is the underhook critical for Crotch Ripper execution, and what happens if you lose it?",
-      "answer": "The underhook serves multiple essential functions: it creates the angle by allowing you to turn onto your side rather than staying flat, prevents opponent from driving forward and flattening you, and maintains connection during hip extension when applying pressure. If you lose the underhook, opponent can easily flatten you by driving their weight forward, eliminating the angle needed for knee pressure on their groin. Without proper angle, no compression is generated and opponent can pass your guard easily.",
-      "safety_critical": false
+      "question": "What anatomical structures does the Crotch Ripper specifically target, and why is this different from joint locks?",
+      "answer": "The Crotch Ripper targets the hip flexor muscles (particularly the iliopsoas), the adductor muscle group (adductor longus, brevis, and magnus), and the soft tissue where the inner thigh meets the hip. Unlike joint locks that attack ligaments and joint capsules at specific mechanical limits, the Crotch Ripper creates muscular compression without a clear mechanical endpoint. This means the submission relies on pain compliance from muscle tissue being compressed, which can be damaged without obvious warning signs beyond increasing pain.",
+      "safety_critical": true
     },
     {
-      "question": "Where exactly should your knee be positioned to create effective compression, and how do you find this location?",
-      "answer": "Your knee should be positioned on the soft muscular tissue of opponent's groin area where their inner thigh meets their hip - specifically targeting the hip flexors and adductor muscles, not on bone. You find this location by placing your knee and making small adjustments based on opponent's reaction. When positioned correctly on muscular tissue, even light pressure creates noticeable discomfort. If you only feel bone contact or opponent shows no reaction, adjust position until you find the sensitive muscular area.",
+      "question": "Your opponent starts to posture up and drive forward while you have the Crotch Ripper partially locked - what adjustment prevents escape?",
+      "answer": "When opponent drives forward attempting to flatten you, immediately strengthen your underhook grip and use the lockdown to extend their trapped leg backward, off-balancing them in the opposite direction of their drive. This creates a counter-force that disrupts their forward momentum. If they successfully flatten you despite this adjustment, the position becomes compromised and you should transition to Electric Chair sweep rather than forcing the Crotch Ripper from a flattened angle.",
       "safety_critical": false
     },
     {
@@ -239,14 +239,44 @@
       "safety_critical": true
     },
     {
-      "question": "How does the Crotch Ripper create a submission/sweep dilemma when combined with Electric Chair?",
-      "answer": "When you threaten Crotch Ripper, opponent typically defends by either grabbing your attacking leg to control knee position or sprawling their hips back to create distance. Both defensive reactions actually facilitate the Electric Chair sweep - their grip on your leg helps you load them onto your hip, and their backward hip movement gives you the angle to roll them over. This creates a true dilemma where defending the submission opens the sweep, and defending the sweep leaves the submission available. This represents core 10th Planet philosophy of creating multiple offensive threats from bottom positions.",
+      "question": "What are the key control requirements that must be established before attempting the Crotch Ripper finish?",
+      "answer": "Three controls must be established before finishing: first, a secure lockdown figure-four with your legs that prevents opponent from extracting their trapped leg; second, a deep underhook on the same side that allows you to turn onto your side and creates the necessary angle; third, your body must be rotated 45-90 degrees onto your side rather than flat on your back. Without all three controls established, the compression mechanics cannot generate sufficient pressure for the submission.",
       "safety_critical": false
     },
     {
-      "question": "What are the primary muscle groups being compressed in a properly executed Crotch Ripper, and why is this relevant for training safety?",
-      "answer": "The primary targets are the hip flexor muscles (particularly iliopsoas), groin muscles (adductor group including adductor longus, brevis, and magnus), and inner thigh muscles. Understanding these targets is crucial for safety because muscular compression submissions can cause strains or tears if applied explosively. Unlike joint locks where ligaments provide mechanical stopping points, muscles can continue to be compressed beyond safe limits if pressure is applied too rapidly. This knowledge emphasizes why progressive, controlled application is mandatory - you're compressing soft tissue that can be damaged without obvious warning signals beyond pain.",
+      "question": "At what point does the opponent reach 'no escape' in a properly applied Crotch Ripper?",
+      "answer": "The point of no escape occurs when three conditions are simultaneously met: your lockdown is fully secured preventing leg extraction, your body angle is established with strong underhook control, and your knee is positioned on the soft muscular tissue of their groin with your hips beginning to extend. Once hip extension begins with all controls in place, the opponent's only realistic option is to tap, as escaping requires defeating the lockdown, the underhook angle, and removing the knee pressure simultaneously - which is mechanically impossible.",
+      "safety_critical": false
+    },
+    {
+      "question": "How does the Crotch Ripper create a submission/sweep dilemma when combined with Electric Chair?",
+      "answer": "When you threaten Crotch Ripper, opponent typically defends by either grabbing your attacking leg to control knee position or sprawling their hips back to create distance. Both defensive reactions actually facilitate the Electric Chair sweep - their grip on your leg helps you load them onto your hip, and their backward hip movement gives you the angle to roll them over. This creates a true dilemma where defending the submission opens the sweep, and defending the sweep leaves the submission available.",
+      "safety_critical": false
+    },
+    {
+      "question": "What grip adjustments should you make during the finishing sequence when opponent attempts to push your attacking knee away?",
+      "answer": "When opponent pushes on your attacking knee, do not fight their grip directly. Instead, use their push to circle your knee around their hand and reposition from a different angle while maintaining hip extension pressure. Simultaneously pull harder with your underhook to keep them connected to your body. You can also hook your attacking foot behind their far hip to anchor your leg position. The underhook is your primary anchor - as long as it remains strong, you can continuously reposition your knee despite their grip fighting.",
+      "safety_critical": false
+    },
+    {
+      "question": "What are the most common finishing errors that prevent the Crotch Ripper from achieving tap?",
+      "answer": "The three most common finishing errors are: positioning the knee on bone (thigh or hip bone) rather than soft muscular tissue where no pain compliance is generated; staying flat on your back without creating the necessary side angle that enables compression mechanics; and extending hips straight backward rather than forward and slightly upward which is required to drive the knee into the groin area. Each error eliminates the submission's effectiveness regardless of how tight the lockdown is.",
+      "safety_critical": false
+    },
+    {
+      "question": "In competition, what strategies maximize finishing percentage for the Crotch Ripper?",
+      "answer": "Competition strategy for Crotch Ripper centers on using it as part of a threat system rather than an isolated attack. Set up the Crotch Ripper by first threatening Electric Chair sweeps, then when opponent defends the sweep by posting or basing, their defensive posture creates the angle needed for Crotch Ripper knee placement. Apply progressive pressure while watching for tap. If opponent defends the Crotch Ripper effectively, immediately transition back to Electric Chair. This cycling between threats forces defensive errors that open either the submission or sweep.",
+      "safety_critical": false
+    },
+    {
+      "question": "Why is this compression submission considered more dangerous to train than many joint locks, and what training precautions are essential?",
+      "answer": "Compression submissions like the Crotch Ripper are more dangerous because muscles lack the clear mechanical stopping point that joints have. With an armbar, the elbow joint reaches maximum extension before catastrophic failure. With muscular compression, tissue can be damaged at any point along a continuous spectrum of pressure - there is no built-in warning before injury. Essential precautions include: always applying pressure progressively over 4-6 seconds, never using competition intensity in training, tapping early rather than late when receiving the technique, and avoiding this submission on partners with existing groin or hip injuries.",
       "safety_critical": true
+    },
+    {
+      "question": "Your opponent is experienced and immediately grips your attacking leg when you begin positioning for Crotch Ripper - what is the optimal response?",
+      "answer": "An experienced opponent gripping your attacking leg actually presents an opportunity rather than a problem. Use their grip against them by immediately transitioning to Electric Chair - their grip on your leg helps you load their weight onto your hip. Begin elevating your hips while maintaining lockdown and underhook, then roll toward the underhook side. Their grip becomes a handle that assists your sweep. This punishes the defensive grip and teaches opponents that grabbing your attacking leg leads to being swept, which subsequently opens the Crotch Ripper when they stop grabbing.",
+      "safety_critical": false
     }
   ],
   "training_progressions_and_safety_protocols": [
@@ -308,12 +338,11 @@
     "Boston Crab",
     "Twister",
     "Toe Hold",
-    "Kneebar from Half Guard",
-    "Kimura from Half Guard",
+    "Kneebar",
+    "Kimura",
     "Guillotine Choke",
     "Straight Ankle Lock",
-    "Suloev Stretch",
-    "Spine Lock"
+    "Calf Slicer"
   ],
   "related_content": [
     {
@@ -325,7 +354,7 @@
       "relationship": "Primary combination sweep when Crotch Ripper is defended - creates submission/sweep dilemma"
     },
     {
-      "name": "Old School Sweep",
+      "name": "Old School",
       "relationship": "Alternative lockdown attack when angle for Crotch Ripper is not available"
     },
     {
@@ -333,20 +362,20 @@
       "relationship": "Advanced position that can be entered from lockdown system, shares leg entanglement principles"
     },
     {
-      "name": "Lockdown to Electric Chair System",
-      "relationship": "Systematic approach linking Crotch Ripper submission threat with Electric Chair sweep"
+      "name": "Half Guard",
+      "relationship": "Parent guard position from which lockdown and Crotch Ripper are developed"
     },
     {
       "name": "Leg Entanglement",
       "relationship": "Fundamental principle underlying all lockdown-based attacks including Crotch Ripper"
     },
     {
-      "name": "Half Guard Sweeps",
-      "relationship": "Transition category that includes Electric Chair and Old School from lockdown position"
+      "name": "Deep Half Guard",
+      "relationship": "Related half guard variation that shares lockdown system entries"
     },
     {
-      "name": "Flexibility Training",
-      "relationship": "Essential physical preparation for executing lockdown system effectively"
+      "name": "Twister Control",
+      "relationship": "Advanced 10th Planet position accessible from lockdown system"
     }
   ]
 }

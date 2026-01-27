@@ -21,37 +21,37 @@ description: "Master defensive Cross Ashi-Garami from bottom position. Learn hee
     {
       "@type": "HowToStep",
       "name": "Execute Ashi Garami Escape",
-      "text": "From this position, execute Ashi Garami Escape to transition to Open Guard. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Ashi Garami Escape. This technique is attempted in 20% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Inside Ashi Entry",
-      "text": "From this position, execute Inside Ashi Entry to transition to Inside Ashi-Garami. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Inside Ashi Entry. This technique is attempted in 17% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute X-Guard to Ashi Transition",
-      "text": "From this position, execute X-Guard to Ashi Transition to transition to X-Guard. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt X-Guard to Ashi Transition. This technique is attempted in 16% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Saddle Defense",
-      "text": "From this position, execute Saddle Defense to transition to Single Leg X-Guard. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Saddle Defense. This technique is attempted in 17% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Outside Ashi Entry",
-      "text": "From this position, execute Outside Ashi Entry to transition to Outside Ashi-Garami. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Outside Ashi Entry. This technique is attempted in 16% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Technical Standup",
-      "text": "From this position, execute Technical Standup to transition to Standing Position. Success rate for advanced practitioners: 45%.",
+      "text": "From this position, attempt Technical Standup. This technique is attempted in 14% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -211,76 +211,18 @@ Cross Ashi-Garami Bottom is considered a medium-risk position because while heel
 
 ## Available Escapes
 
-### [[Ashi Garami Escape]] → [[Open Guard]]
+### [[Ashi Garami Escape]] (20% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Inside Ashi Entry]] (17% of attempts)
 
-### [[Inside Ashi Entry]] → [[Inside Ashi-Garami]]
+### [[X-Guard to Ashi Transition]] (16% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
+### [[Saddle Defense]] (17% of attempts)
 
-### [[X-Guard to Ashi Transition]] → [[X-Guard]]
+### [[Outside Ashi Entry]] (16% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
+### [[Technical Standup]] (14% of attempts)
 
-### [[Saddle Defense]] → [[Single Leg X-Guard]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-### [[Outside Ashi Entry]] → [[Outside Ashi-Garami]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
-
-### [[Technical Standup]] → [[Standing Position]]
-
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 45%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Heel Hook]]** → [[Lost by Submission]] (Opponent Success: 45%)
-- **[[Straight Ankle Lock]]** → [[Straight Ankle Lock Control]] (Opponent Success: 35%)
-- **[[Toe Hold]]** → [[Toe Hold Control]] (Opponent Success: 30%)
-- **[[Kneebar]]** → [[Kneebar Control]] (Opponent Success: 25%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Ashi Garami Escape]]** → [[Open Guard]]
-  - Opponent loosens leg control to adjust grips or reposition
-- **[[Inside Ashi Entry]]** → [[Inside Ashi-Garami]]
-  - Opponent's inside leg becomes available as they transition or adjust position
-- **[[X-Guard to Ashi Transition]]** → [[X-Guard]]
-  - Opponent posts their free leg on mat creating X-guard entry opportunity
-- **[[Saddle Defense]]** → [[Open Guard]]
-  - Opponent attempts to transition to saddle/honey hole position
 
 
 </section>
@@ -290,7 +232,7 @@ Cross Ashi-Garami Bottom is considered a medium-risk position because while heel
 ## Decision Making from This Position
 
 **If opponent secures deep heel hook grip with figure-four configuration locked and begins external rotation:**
-- Execute **[[Tap Out]]** → [[Lost by Submission]] (Probability: 95%)
+- Execute **[[Tap Out]]** → [[game-over]] (Probability: 95%)
 
 
 **If opponent has cross ashi control but hands are not yet secured in heel hook grip:**
@@ -386,25 +328,39 @@ From established cross ashi bottom position, partner deliberately creates openin
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Escape to Guard Reset Path
+## Test Your Knowledge
 
-`Cross Ashi-Garami Bottom → Ashi Garami Escape → Open Guard`
+**Q1**: What is the most critical defensive leg configuration when caught in Cross Ashi-Garami Bottom?
+**A**: Keep your trapped leg's knee flexed with your heel pulled toward your hip rather than allowing full leg extension. This bent knee position reduces the opponent's leverage for heel hook finishes by limiting the rotational force they can generate. Additionally, point your toes away from the opponent and maintain foot flexion to make it harder for them to expose and grip your heel.
 
-### Counter-Attack to Inside Ashi Path
+**Q2**: Your opponent has established cross ashi control but hasn't secured their heel grip yet - what is your immediate priority?
+**A**: Immediately engage in aggressive hand fighting to prevent them from locking their grip on your heel. Use both hands to control their wrists and break any developing grips by pulling their hands apart at the thumbs. Simultaneously, sit up to create frames and establish upper body posture, as these defensive structures buy time and create escape opportunities before the submission threat becomes critical.
 
-`Cross Ashi-Garami Bottom → Inside Ashi Entry → Inside Ashi-Garami → Inside Heel Hook → Won by Submission`
+**Q3**: What are the essential frames and body positioning for defending from Cross Ashi-Garami Bottom?
+**A**: Sit up or post on your elbows rather than lying flat on your back - this creates active defensive frames and improves your ability to manage distance. Use your free leg to push on opponent's hips, shoulders, or head to prevent them from settling into optimal finishing position. Your hands should actively control opponent's grips or push on their body. This elevated posture limits their submission leverage and creates escape opportunities.
 
-### Defensive Transition to Sweep Path
+**Q4**: Your opponent begins applying rotational pressure on your heel with a secure grip - what should you do?
+**A**: If the heel hook is locked in with figure-four configuration and rotation has begun, you must tap immediately to prevent serious knee injury. Heel hooks damage the knee ligaments (MCL, LCL, ACL) and can cause permanent injury within seconds of rotation. There is no shame in tapping early - recognizing tap-worthy positions is a fundamental safety skill in leg lock grappling. Never try to muscle out of a secured heel hook.
 
-`Cross Ashi-Garami Bottom → X-Guard to Ashi Transition → X-Guard → X-Guard Sweep → Mount`
+**Q5**: When is the optimal timing to attempt your escape from Cross Ashi-Garami Bottom?
+**A**: The best escape windows occur when your opponent loosens their leg control to adjust grips, reposition their body, or transition to another position like Saddle. Watch for moments when their inside hook loses depth or their outside cross becomes less tight. These transitional moments create space for leg extraction or counter-entanglement entries. Attempting escape against tight control wastes energy and risks injury.
+
+**Q6**: Your opponent's inside leg becomes exposed as they adjust their position - what counter-attack opportunity does this create?
+**A**: When their inside leg becomes available, you can enter your own Inside Ashi-Garami by threading your legs around their exposed leg. This counter-entanglement entry changes the dynamic from purely defensive to exchanging leg attacks. If successful, you may achieve a dominant position or at minimum create a neutral leg entanglement exchange where both players have submission threats.
+
+**Q7**: What is the danger of attempting to spin or roll out of Cross Ashi-Garami without proper timing?
+**A**: Rotational escape attempts without proper timing feed directly into the heel hook finish by creating rotation that the opponent can follow and amplify. Your spinning motion actually helps them apply the finishing mechanics of the submission. Only attempt rotational escapes when the opponent's leg control is clearly compromised and the escape path is open. Premature rotation dramatically increases injury risk.
+
+**Q8**: How should you manage your energy expenditure while defending Cross Ashi-Garami Bottom?
+**A**: Stay calm and move systematically rather than making explosive, panicked movements. Conserve energy by focusing on efficient hand fighting and frame maintenance rather than constant struggling. Attack escape opportunities decisively when they appear, but avoid wasting energy against tight control. Panicked movements can lead to self-inflicted injury and accelerate fatigue without improving your position.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -432,9 +388,9 @@ From established cross ashi bottom position, partner deliberately creates openin
 - **[[Inside Ashi Entry]]** - Counter-attack transition to establish own leg control
 - **[[Heel Hook]]** - Primary submission threat from opponent in this position
 - **[[Straight Ankle Lock]]** - Alternative submission threat from cross ashi position
-- **[[systematic approach Leg Lock System]]** - Systematic approach to understanding leg entanglement positions and defenses
 - **[[X-Guard]]** - Recovery position through X-guard to ashi transition
 - **[[Single Leg X-Guard]]** - Alternative recovery position from saddle defense
+- **[[50-50 Guard]]** - Neutral leg entanglement that may result from escape attempts
 
 
 </section>

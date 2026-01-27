@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Smash Pass | BJJ Technique | BJJ Graph"
 description: "Master the Smash Pass in BJJ. Complete guide covering pressure passing mechanics from Half Guard to Side Control. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%."
@@ -16,7 +17,7 @@ description: "Master the Smash Pass in BJJ. Complete guide covering pressure pas
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Smash Pass in BJJ",
-  "description": "Step-by-step guide for Smash Pass from Half Guard to Side Control.",
+  "description": "Step-by-step guide for Smash Pass from Half Guard/Bottom. Possible outcomes: Side Control/Top (70%), Half Guard/Bottom (20%), Half Guard/Top (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -154,11 +155,25 @@ description: "Master the Smash Pass in BJJ. Complete guide covering pressure pas
 
 The Smash Pass is a fundamental pressure-based guard passing technique used to overcome half guard retention. This pass emphasizes heavy shoulder pressure, crossface control, and systematic hip positioning to flatten the opponent and transition to side control. The technique is particularly effective against knee shield half guard and traditional half guard positions, as it uses the passer's body weight and positioning to nullify the bottom player's frames and mobility. The Smash Pass represents a core element of pressure passing systems and is valued for its high percentage success rate when executed with proper mechanics. Unlike dynamic passing approaches, the smash pass relies on patient pressure application, forcing the opponent into progressively worse positions until the guard can be cleared. This technique is especially effective in gi and no-gi contexts, making it a staple of modern BJJ competition strategies.
 
-**Starting Position**: [[Half Guard]]
-**Ending Position**: [[Side Control]]
+**From Position**: [[Half Guard/Bottom]]
 **Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Side Control/Top]] | 70% |
+| Failure | [[Half Guard/Bottom]] | 20% |
+| Counter | [[Half Guard/Top]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

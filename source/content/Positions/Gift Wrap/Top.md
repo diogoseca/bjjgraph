@@ -21,37 +21,37 @@ description: "Master Gift Wrap control from top in BJJ. Complete guide covering 
     {
       "@type": "HowToStep",
       "name": "Execute Rear Naked Choke",
-      "text": "From this position, execute Rear Naked Choke to transition to Won by Submission. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Rear Naked Choke. This technique is attempted in 12% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Armbar on Free Arm",
-      "text": "From this position, execute Armbar on Free Arm to transition to Armbar Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Armbar on Free Arm. This technique is attempted in 11% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Crucifix",
-      "text": "From this position, execute Transition to Crucifix to transition to Crucifix. Success rate for advanced practitioners: 70%.",
+      "name": "Execute Aoki Lock to Crucifix",
+      "text": "From this position, attempt Aoki Lock to Crucifix. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Technical Mount",
-      "text": "From this position, execute Transition to Technical Mount to transition to Technical Mount. Success rate for advanced practitioners: 65%.",
+      "name": "Execute Gift Wrap to Technical Mount",
+      "text": "From this position, attempt Gift Wrap to Technical Mount. This technique is attempted in 11% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Short Choke Attack",
-      "text": "From this position, execute Short Choke Attack to transition to Won by Submission. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Short Choke Attack. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bow and Arrow Choke Setup",
-      "text": "From this position, execute Bow and Arrow Choke Setup to transition to Won by Submission. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Bow and Arrow Choke Setup. This technique is attempted in 9% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -215,100 +215,24 @@ Understanding Gift Wrap Top requires recognizing it as part of a larger submissi
 
 ## Available Attacks
 
-### [[Rear Naked Choke]] → [[Won by Submission]]
+### [[Rear Naked Choke]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 60%
-- Advanced: 75%
+### [[Armbar on Free Arm]] (11% of attempts)
 
-### [[Armbar on Free Arm]] → [[Armbar Control]]
+### [[Aoki Lock to Crucifix]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Gift Wrap to Technical Mount]] (11% of attempts)
 
-### [[Transition to Crucifix]] → [[Crucifix]]
+### [[Short Choke Attack]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Bow and Arrow Choke Setup]] (9% of attempts)
 
-### [[Transition to Technical Mount]] → [[Technical Mount]]
+### [[Body Triangle Lock]] (13% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Side Control to Mount]] (12% of attempts)
 
-### [[Short Choke Attack]] → [[Won by Submission]]
+### [[Kimura on Trapped Arm]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[Bow and Arrow Choke Setup]] → [[Won by Submission]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-### [[Body Triangle Lock]] → [[Body Triangle]]
-
-**Success Rates:**
-- Beginner: 50%
-- Intermediate: 65%
-- Advanced: 80%
-
-### [[Transition to Mount]] → [[Mount]]
-
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
-
-### [[Kimura on Trapped Arm]] → [[Kimura Control]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Trapped Arm Recovery]]** → [[Back Control]] (Opponent Success: 25%)
-- **[[Hip Escape to Guard]]** → [[Half Guard]] (Opponent Success: 20%)
-- **[[Roll to Turtle]]** → [[Turtle]] (Opponent Success: 30%)
-- **[[Technical Stand Up]]** → [[Standing Position]] (Opponent Success: 15%)
-- **[[Counter Roll]]** → [[Scramble Position]] (Opponent Success: 10%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Rear Naked Choke Finish]]** → [[Won by Submission]]
-  - Opponent uses free arm to recover trapped arm, exposing neck
-- **[[Technical Mount Advancement]]** → [[Technical Mount]]
-  - Opponent attempts to hip escape or turn into attacker
-- **[[Crucifix Transition]]** → [[Crucifix]]
-  - Opponent rolls to belly trying to escape Gift Wrap control
-- **[[Armbar on Free Arm]]** → [[Armbar Control]]
-  - Opponent overextends free arm while attempting to create frames
-- **[[Body Triangle Lock]]** → [[Body Triangle]]
-  - Opponent focuses on arm recovery allowing leg position refinement
 
 
 </section>
@@ -318,33 +242,33 @@ Understanding Gift Wrap Top requires recognizing it as part of a larger submissi
 ## Decision Making from This Position
 
 **If opponent is passive and defending neck with free arm only:**
-- Execute **[[Rear Naked Choke Attack]]** → [[Won by Submission]] (Probability: 60%)
-- Execute **[[Transition to Technical Mount]]** → [[Technical Mount]] (Probability: 30%)
+- Execute **[[Rear Naked Choke Attack]]** → [[game-over]] (Probability: 60%)
+- Execute **[[Gift Wrap to Technical Mount]]** → [[Technical Mount]] (Probability: 30%)
 - Execute **[[Maintain control and set up body triangle]]** → [[Body Triangle]] (Probability: 55%)
 
 
 **If opponent is actively trying to recover trapped arm with explosive movements:**
-- Execute **[[Rear Naked Choke as Arm Recovery Creates Opening]]** → [[Won by Submission]] (Probability: 65%)
+- Execute **[[Rear Naked Choke as Arm Recovery Creates Opening]]** → [[game-over]] (Probability: 65%)
 - Execute **[[Transition to Crucifix]]** → [[Crucifix]] (Probability: 50%)
-- Execute **[[Reinforce Gift Wrap and Reset Control]]** → [[Gift Wrap Top]] (Probability: 45%)
+- Execute **[[Reinforce Gift Wrap and Reset Control]]** → [[Gift Wrap]] (Probability: 45%)
 
 
 **If opponent overextends free arm attempting to create frames or break grips:**
 - Execute **[[Armbar on Free Arm]]** → [[Armbar Control]] (Probability: 55%)
-- Execute **[[Transition to Technical Mount]]** → [[Technical Mount]] (Probability: 45%)
-- Execute **[[Maintain Gift Wrap and Attack Neck]]** → [[Won by Submission]] (Probability: 50%)
+- Execute **[[Gift Wrap to Technical Mount]]** → [[Technical Mount]] (Probability: 45%)
+- Execute **[[Maintain Gift Wrap and Attack Neck]]** → [[game-over]] (Probability: 50%)
 
 
 **If opponent attempts to turn into attacker or escape hips away:**
 - Execute **[[Follow to Technical Mount]]** → [[Technical Mount]] (Probability: 60%)
 - Execute **[[Transition to Crucifix]]** → [[Crucifix]] (Probability: 50%)
-- Execute **[[Maintain Gift Wrap and Follow Movement]]** → [[Gift Wrap Top]] (Probability: 55%)
+- Execute **[[Maintain Gift Wrap and Follow Movement]]** → [[Gift Wrap]] (Probability: 55%)
 
 
 **If opponent rolls to belly exposing back of head and neck:**
-- Execute **[[Short Choke or Rear Naked Choke]]** → [[Won by Submission]] (Probability: 70%)
+- Execute **[[Short Choke or Rear Naked Choke]]** → [[game-over]] (Probability: 70%)
 - Execute **[[Transition to Crucifix with Arm Trap]]** → [[Crucifix]] (Probability: 60%)
-- Execute **[[Bow and Arrow Choke Setup]]** → [[Won by Submission]] (Probability: 50%)
+- Execute **[[Bow and Arrow Choke Setup]]** → [[game-over]] (Probability: 50%)
 
 
 
@@ -437,33 +361,39 @@ Start from standard back control and race to establish Gift Wrap before partner 
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Direct Rear Naked Choke Path
+## Test Your Knowledge
 
-`Gift Wrap Top → Rear Naked Choke setup (reduced hand fighting) → Won by Submission`
+**Q1**: What is the optimal height to maintain the trapped arm across your opponent's body?
+**A**: The trapped arm should be pulled high across the opponent's chest toward their opposite shoulder. This high positioning prevents arm recovery through shoulder rotation and maintains maximum control effectiveness. If the arm drifts too low toward the hip or waist, the opponent gains mechanical advantage to extract the arm through rotational movements.
 
-### Armbar Chain
+**Q2**: Your opponent begins explosively bridging to create space for arm recovery - what adjustment do you make?
+**A**: When opponent bridges, drive your hips forward into their lower back to flatten them while simultaneously tightening your arm threading under their armpit. Use your hooks or body triangle to absorb the bridging energy. The key is anticipating the bridge and loading your weight forward before they complete the movement, rather than reacting after the bridge creates space.
 
-`Gift Wrap Top → Isolate free arm → Armbar Control → Armbar Finish → Won by Submission`
+**Q3**: What are the essential grip mechanics for maintaining the Gift Wrap arm trap?
+**A**: Thread your control arm under the opponent's armpit from the outside and secure their wrist or forearm on the opposite side. Your grip should be on their wrist or lower forearm for maximum leverage. The arm forms a diagonal line across their chest. Your other arm typically controls their neck area or reinforces the trap. The threading action creates a mechanical lock that requires minimal strength to maintain.
 
-### Crucifix Advancement
+**Q4**: How do you shut down the primary arm recovery escape attempt from Gift Wrap?
+**A**: Prevent arm recovery by keeping constant downward pressure on their trapped arm while maintaining it high across the chest. When they attempt to rotate their shoulder to extract the arm, drive your controlling elbow toward their hip to counter the rotation. Additionally, keeping your chest glued to their back eliminates the space they need to maneuver their shoulder for extraction.
 
-`Gift Wrap Top → Opponent rolls to belly → Crucifix → Crucifix Submissions → Won by Submission`
+**Q5**: What is the critical relationship between hooks and arm trap in maintaining Gift Wrap control?
+**A**: The arm trap is an enhancement to back control, not a replacement for it. Your hooks or body triangle provide the foundation that prevents hip escape, while the arm trap removes defensive options. If you focus entirely on the arm trap while your hooks slip out, the opponent escapes the entire position. Maintain hook pressure as the primary anchor while managing the arm trap as secondary control.
 
-### Mount Transition Path
+**Q6**: Your opponent starts turning their hips toward you while you have Gift Wrap - how do you respond?
+**A**: When opponent turns toward you, follow their rotation and transition to technical mount while maintaining the Gift Wrap arm control. This hip turn is actually an opportunity rather than an escape, as it opens the path to mounted positions. Use your hooks to guide the rotation while keeping the trapped arm secured, ending in technical mount with the Gift Wrap still intact.
 
-`Gift Wrap Top → Technical Mount (maintain arm trap) → Mount → Mounted Submissions → Won by Submission`
+**Q7**: How do you manage energy expenditure while maintaining Gift Wrap for extended periods?
+**A**: Use mechanical positioning rather than muscular strength to maintain control. Keep your chest connected to their back through body weight rather than squeezing. Let your arm threading create the control angle rather than gripping with maximum force. Relax between submission attempts while maintaining structural control. The arm trap itself should feel effortless when properly positioned.
 
-### Short Choke Finish
-
-`Gift Wrap Top → Opponent defends neck → Short Choke from Gift Wrap → Won by Submission`
+**Q8**: What is the immediate threat hierarchy you should address when your opponent partially recovers their trapped arm?
+**A**: If they begin recovering the arm, immediately attack the exposed neck since their hand fighting ability temporarily decreases during recovery attempts. The rear naked choke becomes highest percentage when they use their free arm to push against your controlling arm, as this removes their neck protection. Alternatively, if the arm recovers fully, immediately re-engage the Gift Wrap before they establish two-handed defense.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -490,10 +420,7 @@ Start from standard back control and race to establish Gift Wrap before partner 
 - **[[Rear Naked Choke]]** - Primary submission attack from Gift Wrap position
 - **[[Armbar from Back]]** - Secondary submission targeting the free arm
 - **[[Body Triangle]]** - Leg control option that combines with Gift Wrap arm control
-- **[[Truck]]** - Alternative back control system with related arm trapping concepts
-- **[[Back Attack System]]** - Comprehensive system that includes Gift Wrap as key position
-- **[[Control Maintenance]]** - Fundamental principle essential for Gift Wrap effectiveness
-- **[[Submission Chains]]** - Strategic approach to finishing from Gift Wrap position
+- **[[Twister Control]]** - Alternative back control system with related arm trapping concepts
 
 
 </section>

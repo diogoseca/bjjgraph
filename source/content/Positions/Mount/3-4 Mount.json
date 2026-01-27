@@ -47,14 +47,323 @@
       "relationship": "Advanced position accessed when bottom player turns away during escape attempts"
     },
     {
-      "name": "Escape Hierarchy",
-      "relationship": "Governing principle establishing priority system for bottom player's defensive options"
+      "name": "Closed Guard",
+      "relationship": "Guard recovery position when bottom player successfully creates space and inserts legs"
     },
     {
-      "name": "Positional Hierarchy",
-      "relationship": "Framework positioning 3-4 Mount within overall BJJ position advancement ladder"
+      "name": "Knee on Belly",
+      "relationship": "Alternative control position top player may transition to when mount becomes unstable"
     }
   ],
+  "top": {
+    "name": "3-4 Mount Top",
+    "description": "Master offensive control from 3-4 Mount Top. Complete guide with transitions to full mount, submission attacks, and base maintenance for dominant positioning.",
+    "tags": [
+      "bjj",
+      "position",
+      "mount",
+      "3-4-mount",
+      "top",
+      "offensive",
+      "control"
+    ],
+    "overview": "The 3-4 Mount Top position represents a hybrid control state that combines elements of traditional mount with characteristics of three-quarter mount positioning. From the top perspective, this position offers exceptional control while maintaining the mobility to transition between full mount, side control, and various submission attacks. The practitioner sits with one leg fully over the opponent's body (as in standard mount) while the other leg remains posted outside, creating a three-quarter configuration that maximizes pressure while retaining mobility.\n\nThis position emerged as practitioners recognized the tactical advantages of maintaining asymmetric leg positioning during mount attacks. Rather than committing both legs to the traditional mount configuration, the 3-4 Mount allows the top player to maintain a strong base against bridging attempts while preserving the ability to quickly shift weight, adjust angles, and respond to defensive movements. The position scores full mount points (4 points) in IBJJF competition while offering superior submission opportunities compared to traditional mount.\n\nStrategically, 3-4 Mount Top excels as both a finishing position and a transitional control point. Advanced practitioners use this position to create submission dilemmas, particularly targeting armbars, Americanas, and collar chokes, while the asymmetric base provides resistance against the most common mount escapes. The position demands precise weight distribution and constant pressure adjustment to prevent the bottom player from recovering guard or escaping to less disadvantageous positions.",
+    "state_properties": {
+      "point_value": 4,
+      "position_type": "Offensive/Controlling",
+      "risk_level": "Low to Medium",
+      "energy_cost": "Medium",
+      "time_sustainability": "Medium to Long"
+    },
+    "state_invariants": [
+      "Top player's hips positioned on opponent's torso/abdomen with one leg fully crossed over the body and one leg posted outside, creating asymmetric weight distribution through the mounted side while maintaining base through the posted leg",
+      "Mounted leg (inside leg) maintains tight connection to opponent's ribcage with knee driving into armpit or ribs, preventing space creation and establishing the primary control point for the three-quarter configuration",
+      "Posted leg (outside leg) positioned with knee on mat outside opponent's body, foot posting for base and mobility, creating a stable triangular base that resists bridging attempts while preserving transitional capacity",
+      "Opponent on their back with shoulders flat or partially turned toward the posted leg side, facing upward with restricted but not eliminated mobility, creating defensive urgency while maintaining escape potential",
+      "Top player's upper body maintains forward pressure with weight distributed across chest and hips, hands controlling opponent's arms or posted on mat for base, creating constant downward force that limits breathing and movement capacity"
+    ],
+    "prerequisites": [
+      "Successful transition from side control, standard mount, or knee on belly with opponent on their back",
+      "Control of opponent's upper body with at least one arm controlled or neutralized",
+      "Opponent flat or partially turned on their back with shoulders in contact with mat",
+      "Top player's weight successfully transferred onto opponent's torso with stable base established",
+      "Clear path for one leg to cross opponent's body while other leg maintains posted position for base and mobility"
+    ],
+    "key_principles": [
+      "Maintain constant forward pressure through hips and chest, sinking weight into opponent's diaphragm to restrict breathing and create submission urgency",
+      "Keep mounted-side knee tight to opponent's ribs/armpit, eliminating space and preventing the most common shrimp escape pattern",
+      "Posted leg provides dynamic base adjustments, shifting weight to counter bridge attempts while preserving ability to transition to full mount or side attacks",
+      "Control opponent's arms proactively, isolating limbs for submissions while preventing effective framing and escape attempts",
+      "Maintain low center of gravity with chest heavy on opponent, forcing them to carry your weight while limiting their ability to create explosive movement",
+      "Use head position and shoulder pressure to control opponent's upper body, preventing them from turning into you or establishing effective defensive frames",
+      "Stay mobile and ready to transition, recognizing that 3-4 Mount is often a transitional position leading to full mount, side control, or submission attacks"
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the primary advantage of maintaining 3-4 Mount over traditional mount with both legs crossed?",
+        "answer": "The 3-4 Mount provides superior base stability against bridging attempts through the posted leg while maintaining offensive mobility for transitions and submission attacks. The asymmetric configuration allows rapid weight shifts to counter defensive movements while preserving the ability to flow between mount variations, S-mount, technical mount, and back control positions that would be slower to access from standard mount."
+      },
+      {
+        "question": "Your opponent begins bridging toward your posted leg side. How do you adjust to maintain position?",
+        "answer": "Immediately shift your weight toward the mounted side by driving your mounted-side knee deeper into their ribs while posting your hand on the mat near their far shoulder. This redistributes your weight away from the bridge direction. If the bridge is powerful, be ready to transition to side control or knee on belly rather than fighting the momentum—maintaining top position is more important than forcing the specific mount configuration."
+      },
+      {
+        "question": "What are the essential grips and contact points for maintaining 3-4 Mount control?",
+        "answer": "The critical contact points are: mounted knee tight against opponent's ribcage or armpit, posted leg's knee and foot creating triangular base outside opponent's body, chest-to-chest pressure driving forward and down, and at least one hand controlling opponent's arms (wrist, sleeve, or cross-grip). The hip-to-hip connection must remain constant, with your weight distributed primarily through your hips rather than sitting upright on your knees."
+      },
+      {
+        "question": "How do you shut down the elbow escape (shrimp) when your opponent begins creating hip movement?",
+        "answer": "Drive your mounted-side knee deeper into their armpit as a wedge, eliminating the space they need to insert their elbow. Simultaneously drop your chest weight forward to pin their shoulders, making hip movement more difficult. If they manage to get their elbow inside, immediately transition to side control or switch to the opposite side 3-4 configuration rather than allowing them to continue building the escape sequence."
+      },
+      {
+        "question": "What weight distribution error most commonly allows opponents to escape from 3-4 Mount?",
+        "answer": "Sitting too upright with weight distributed through the knees instead of forward through the hips and chest. This common error reduces chest pressure, allows the opponent breathing room to generate explosive movement, and shifts your center of gravity higher, making you vulnerable to bridge and roll escapes. The correction is maintaining constant forward lean with chest heavy on opponent's sternum while using your posted leg for balance, not primary weight support."
+      },
+      {
+        "question": "Your opponent traps your posted arm and attempts to bridge toward that side. What is your response?",
+        "answer": "Immediately withdraw the trapped arm while posting your opposite hand for base. Shift your weight sharply toward the mounted side and drive your mounted knee into their ribs. If the bridge is already in motion, transition with it rather than against it—flow to side control on the side they're bridging toward, maintaining top position throughout. Never fight directly against a committed bridge when your posting arm is compromised."
+      },
+      {
+        "question": "How do you manage energy expenditure when maintaining 3-4 Mount against an actively resisting opponent?",
+        "answer": "Use skeletal structure and gravity rather than muscular effort for pressure—let your body weight do the work by staying heavy through your hips and chest. Minimize unnecessary movement by making small, precise adjustments rather than large reactive movements. When the opponent pauses their escape attempts, use that time to consolidate grips and positioning. Recognize that 3-4 Mount is transitional—if maintaining it becomes energy-intensive, advance to full mount or attack a submission rather than grinding in an unstable position."
+      },
+      {
+        "question": "Your opponent partially escapes and gets one knee inside, threatening half guard. How do you recover full mount control?",
+        "answer": "Do not try to pull your leg back out against their hook—this wastes energy and rarely succeeds. Instead, accept top half guard temporarily and work to clear the knee using underhook pressure, crossface, and hip switching. Alternatively, if you feel their half guard is weak, immediately backstep to mount on the opposite side or transition to knee on belly to reset the position. The goal is maintaining dominant top position, not forcing a specific configuration."
+      }
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent remains flat and passive, accepting bottom position without immediate escape attempts",
+        "actions": [
+          {
+            "technique": "Side Control to Mount",
+            "target": "Mount",
+            "probability": 75
+          },
+          {
+            "technique": "Mount to Armbar",
+            "target": "Armbar Control",
+            "probability": 60
+          },
+          {
+            "technique": "Ezekiel from Mount",
+            "target": "Armbar Control",
+            "probability": 50
+          }
+        ]
+      },
+      {
+        "condition": "Else if opponent attempts to bridge explosively or turn into the mounted side to escape",
+        "actions": [
+          {
+            "technique": "Americana from Mount",
+            "target": "Kimura Trap",
+            "probability": 65
+          },
+          {
+            "technique": "Kimura from Mount",
+            "target": "Kimura Trap",
+            "probability": 60
+          },
+          {
+            "technique": "Knee Cut Pass",
+            "target": "Side Control",
+            "probability": 70
+          }
+        ]
+      },
+      {
+        "condition": "Else if opponent turns away from posted leg or exposes their back during escape attempt",
+        "actions": [
+          {
+            "technique": "Side Control to North-South",
+            "target": "North-South",
+            "probability": 70
+          },
+          {
+            "technique": "Knee Cut Pass",
+            "target": "Side Control",
+            "probability": 65
+          },
+          {
+            "technique": "Back Take Generic",
+            "target": "Back Control",
+            "probability": 75
+          }
+        ]
+      },
+      {
+        "condition": "Else if opponent successfully frames and begins creating space on the mounted side",
+        "actions": [
+          {
+            "technique": "Mount to Armbar",
+            "target": "Armbar Control",
+            "probability": 55
+          },
+          {
+            "technique": "Triangle from Mount",
+            "target": "Mounted Triangle",
+            "probability": 45
+          },
+          {
+            "technique": "Side Control to Mount",
+            "target": "Mount",
+            "probability": 60
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Sitting too upright with weight distributed through the knees instead of hips and chest",
+        "consequence": "Allows opponent to generate explosive bridging power, creates space for elbow escape, and reduces submission control",
+        "correction": "Maintain forward pressure with chest heavy on opponent, distributing weight through hips into their diaphragm while keeping shoulders over their centerline"
+      },
+      {
+        "error": "Allowing the mounted-side knee to drift away from opponent's ribs, creating space on the inside",
+        "consequence": "Enables opponent to insert elbow and begin shrimp escape sequence, leading to half guard recovery or full escape",
+        "correction": "Keep mounted knee tight to ribs/armpit with constant inward pressure, using knee as a wedge to prevent any space creation on the inside"
+      },
+      {
+        "error": "Posting the outside leg too far from opponent's body, creating weak triangular base",
+        "consequence": "Reduces ability to counter bridging attempts, makes position unstable against explosive movements, and limits transitional capacity",
+        "correction": "Position posted leg close enough to maintain strong base but far enough to allow hip mobility and weight shifts to counter opponent's movements"
+      },
+      {
+        "error": "Neglecting to control opponent's arms, allowing them to establish effective frames",
+        "consequence": "Permits opponent to create space, push hips away, and execute escape sequences with higher success rates",
+        "correction": "Proactively control at least one arm at all times, isolating limbs for submissions or pinning them to reduce defensive capacity"
+      },
+      {
+        "error": "Remaining static in 3-4 Mount without transitioning to full mount or attacking submissions",
+        "consequence": "Wastes the position's transitional advantages, gives opponent time to develop escape strategy, and reduces finishing rate",
+        "correction": "Recognize 3-4 Mount as a transitional position leading to full mount, submissions, or side attacks—maintain constant offensive pressure"
+      },
+      {
+        "error": "Leaning weight toward the posted leg side instead of maintaining centered pressure",
+        "consequence": "Creates escape pathway on the mounted side, reduces submission control, and makes position vulnerable to bridge and roll",
+        "correction": "Distribute weight evenly or slightly toward mounted side, using posted leg for base adjustments rather than primary weight support"
+      },
+      {
+        "error": "Failing to adjust position when opponent begins turning into the posted leg",
+        "consequence": "Allows opponent to escape to turtle or recover guard by turning away from mounted side pressure",
+        "correction": "Immediately transition to side control or north-south when opponent begins turning, maintaining top position throughout the adjustment"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "3-4 Mount to Full Mount Transitions",
+        "description": "Partner starts in bottom mount position. Top player establishes 3-4 Mount, then transitions to full mount by bringing posted leg over. Bottom player offers 25% resistance. Drill both sides. Focus on maintaining pressure throughout transition and securing mount without allowing space creation.",
+        "duration": "3 minutes per side"
+      },
+      {
+        "name": "Submission Attacks from 3-4 Mount",
+        "description": "Top player establishes 3-4 Mount against compliant partner. Cycle through armbar, Americana, and Ezekiel setups without finishing. Bottom player offers light resistance and defensive frames. Focus on recognizing submission opportunities based on opponent's arm positions and maintaining control throughout attack sequences.",
+        "duration": "5 minutes continuous"
+      },
+      {
+        "name": "3-4 Mount Retention Against Escapes",
+        "description": "Bottom player attempts specific escape sequence (bridge and roll, elbow escape, or shrimp escape) at 50% intensity. Top player maintains 3-4 Mount position or transitions to maintain top control. Reset after each escape attempt. Focus on base adjustments, weight distribution, and counter-transitions to prevent escape success.",
+        "duration": "2 minutes per escape type"
+      },
+      {
+        "name": "Dynamic 3-4 Mount Positional Sparring",
+        "description": "Start in 3-4 Mount position. Bottom player attempts any escape at 75% intensity. Top player maintains position or improves to full mount/submissions. Round ends when bottom player escapes to guard or top player achieves submission control position. Focus on realistic pressure, timing, and transition recognition.",
+        "duration": "3-minute rounds, 5 rounds"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Mount",
+        "relationship": "Parent position - primary advancement target from 3-4 Mount"
+      },
+      {
+        "name": "3-4 Mount",
+        "relationship": "Hub page - containing both top and bottom perspectives"
+      },
+      {
+        "name": "Side Control",
+        "relationship": "Common transition target when opponent turns or escapes mounted side"
+      },
+      {
+        "name": "High Mount",
+        "relationship": "Advanced variation - higher positioning with increased submission access"
+      },
+      {
+        "name": "S Mount",
+        "relationship": "Variation - alternative asymmetric mount configuration for armbar attacks"
+      },
+      {
+        "name": "Technical Mount",
+        "relationship": "Variation - another asymmetric mount used for back take and control"
+      },
+      {
+        "name": "Armbar Control",
+        "relationship": "Primary submission target from 3-4 Mount position"
+      },
+      {
+        "name": "Kimura Trap",
+        "relationship": "Common submission control when opponent's arm becomes isolated"
+      },
+      {
+        "name": "Back Control",
+        "relationship": "Advanced transition when opponent turns away during escape attempts"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "beginner": 55,
+        "intermediate": 70,
+        "advanced": 85
+      },
+      "advancement_probability": {
+        "beginner": 45,
+        "intermediate": 60,
+        "advanced": 75
+      },
+      "submission_probability": {
+        "beginner": 30,
+        "intermediate": 45,
+        "advanced": 65
+      },
+      "average_time": "45-90 seconds"
+    },
+    "transitions": [
+      {
+        "transition": "Mount to Armbar",
+        "attempt_probability": 18
+      },
+      {
+        "transition": "Side Control to Mount",
+        "attempt_probability": 15
+      },
+      {
+        "transition": "Americana from Mount",
+        "attempt_probability": 14
+      },
+      {
+        "transition": "Ezekiel from Mount",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Triangle from Mount",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Kimura from Mount",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Side Control to North-South",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Back Take Generic",
+        "attempt_probability": 12
+      }
+    ]
+  },
   "bottom": {
     "name": "3-4 Mount Bottom",
     "description": "Master defensive strategies from 3-4 Mount Bottom. Complete escape guide with frames, hip movement, and guard recovery techniques. Success rates by skill level included.",
@@ -97,109 +406,38 @@
       "Use small, controlled movements rather than explosive panic responses to conserve energy and maintain structural integrity",
       "Coordinate bridge and shrimp movements to systematically create space and angle for guard recovery or positional improvement"
     ],
-    "offensive_transitions": [
+    "knowledge_assessment": [
       {
-        "technique": "Elbow Escape",
-        "target_position": "Half Guard",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 45,
-          "advanced": 60
-        }
+        "question": "What is the primary escape advantage of 3-4 Mount Bottom compared to traditional mount bottom?",
+        "answer": "The asymmetric weight distribution in 3-4 Mount creates a natural escape angle toward the lighter side where the opponent has fewer contact points. Unlike traditional mount where weight is evenly distributed, the posted leg configuration in 3-4 Mount means one side has compromised base stability. Recognizing this lighter side and directing escape movements toward it significantly increases success rates compared to escaping symmetric mount positions."
       },
       {
-        "technique": "Bridge and Roll",
-        "target_position": "Closed Guard",
-        "success_rates": {
-          "beginner": 20,
-          "intermediate": 35,
-          "advanced": 50
-        }
+        "question": "Your opponent has heavy chest pressure in 3-4 Mount. How do you create space for escape without exhausting yourself?",
+        "answer": "Establish frames using skeletal structure rather than muscular pushing—keep elbows bent at 90 degrees with forearms against their hips and shoulders. Bridge at a 45-degree angle toward the heavier side to momentarily unweight their chest pressure, then immediately shrimp your hips away toward the lighter side while maintaining your frames. Use controlled, systematic bridge-and-shrimp sequences rather than explosive single attempts that waste energy without creating cumulative space."
       },
       {
-        "technique": "Shrimp Escape",
-        "target_position": "Open Guard",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 40,
-          "advanced": 55
-        }
+        "question": "What are the essential frames needed to prevent submissions while escaping 3-4 Mount?",
+        "answer": "The primary defensive frames are: near-side elbow tight to your ribs creating a barrier against their hip pressure, far-side forearm across their bicep or shoulder preventing them from dropping chest weight, and chin tucked to chest protecting the neck from choke attempts. These frames must be maintained throughout the escape sequence—never extend arms fully as this creates armbar and Americana vulnerabilities."
       },
       {
-        "technique": "Hip Escape",
-        "target_position": "Open Guard",
-        "success_rates": {
-          "beginner": 22,
-          "intermediate": 38,
-          "advanced": 52
-        }
+        "question": "How do you identify which side is the lighter side in 3-4 Mount configuration?",
+        "answer": "The lighter side is the side with the posted leg—this leg has its knee off your body and foot posted on the mat, creating fewer contact points and less direct pressure on that side of your torso. Feel for where the opponent's weight is concentrated: the mounted side with the knee on your body will feel heavier. Direct your hip escape movements toward the posted leg side where there is less resistance and the opponent has compromised base stability."
       },
       {
-        "technique": "Frame and Shrimp",
-        "target_position": "Half Guard",
-        "success_rates": {
-          "beginner": 18,
-          "intermediate": 32,
-          "advanced": 48
-        }
+        "question": "Your opponent begins setting up an Americana from 3-4 Mount. What is your immediate defensive response?",
+        "answer": "Immediately straighten the threatened arm and drive it toward your hip, pulling your elbow tight to your body to deny the necessary angle. Simultaneously bridge toward the side of the attack to disrupt their base and reduce their control leverage. If they persist, grip your own collar or belt with the attacked hand to create an anchor point. Use the space created by their submission focus to execute an escape toward the opposite side, as their attention on the arm creates a momentary base weakness."
       },
       {
-        "technique": "Upa Escape",
-        "target_position": "Closed Guard",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 40,
-          "advanced": 55
-        }
-      }
-    ],
-    "defensive_responses": [
-      {
-        "technique": "Transition to Mount",
-        "target_position": "Mount",
-        "success_rate": 40
+        "question": "When is the optimal timing to attempt a bridge and roll escape from 3-4 Mount Bottom?",
+        "answer": "The optimal timing is when the opponent reaches high for a collar grip, submission setup, or adjusts their position—these moments raise their center of gravity and compromise their base. Additionally, if they shift their weight strongly toward the mounted side, this creates vulnerability to a bridge toward the posted leg side. Never attempt bridge and roll when they are settled low with heavy chest pressure and stable base; wait for or create movement that disrupts their equilibrium first."
       },
       {
-        "technique": "Transition to Mount",
-        "target_position": "S Mount",
-        "success_rate": 35
+        "question": "How do you recover guard after successfully creating space from 3-4 Mount Bottom?",
+        "answer": "After creating space through the bridge-and-shrimp sequence, immediately insert your near-side knee between your body and theirs as a knee shield, preventing them from reclosing the distance. Continue shrimping to create angle, then work to either recover closed guard by bringing your far leg around their body, establish half guard by trapping their leg with both of yours, or create open guard distance. Maintain frames throughout guard recovery to prevent them from immediately re-passing."
       },
       {
-        "technique": "Transition to Mount",
-        "target_position": "High Mount",
-        "success_rate": 30
-      },
-      {
-        "technique": "Americana from Mount",
-        "target_position": "Americana Control",
-        "success_rate": 25
-      },
-      {
-        "technique": "Armbar from Mount",
-        "target_position": "Armbar Control",
-        "success_rate": 28
-      }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Frame and Shrimp",
-        "target_position": "Half Guard",
-        "trigger": "Opponent attempts to consolidate mount position by bringing knees together"
-      },
-      {
-        "technique": "Hip Escape",
-        "target_position": "Open Guard",
-        "trigger": "Opponent posts hand to prevent bridge and roll, creating space on posting side"
-      },
-      {
-        "technique": "Bridge and Roll",
-        "target_position": "Mount",
-        "trigger": "Opponent reaches high for collar grip or submission attempt, raising center of gravity"
-      },
-      {
-        "technique": "Elbow Escape",
-        "target_position": "Closed Guard",
-        "trigger": "Opponent shifts weight to establish traditional mount, temporarily equalizing base"
+        "question": "What common error most frequently leads to failed escapes from 3-4 Mount Bottom?",
+        "answer": "Escaping toward the heavier side where the opponent's mounted knee creates maximum pressure and base stability. This common error results from not recognizing the asymmetric configuration or panicking without assessing weight distribution. The correction is to always identify the posted leg side first, bridge toward the mounted side to disrupt their base, then immediately escape toward the lighter posted leg side where their base is compromised and escape success rates are significantly higher."
       }
     ],
     "decision_tree": [
@@ -318,24 +556,6 @@
         "duration": "5 rounds of 2 minutes"
       }
     ],
-    "optimal_submission_paths": [
-      {
-        "name": "Shortest defensive path to safety",
-        "path": "3-4 Mount Bottom → Elbow Escape → Half Guard → Guard retention established"
-      },
-      {
-        "name": "High-percentage reversal path",
-        "path": "3-4 Mount Bottom → Bridge and Roll → Mount → Positional dominance"
-      },
-      {
-        "name": "Conservative recovery path",
-        "path": "3-4 Mount Bottom → Frame and Shrimp → Open Guard → Closed Guard"
-      },
-      {
-        "name": "Dynamic escape to standing",
-        "path": "3-4 Mount Bottom → Hip Escape → Technical Stand-up → Standing Position → Neutral position"
-      }
-    ],
     "related_content": [
       {
         "name": "Mount",
@@ -343,7 +563,7 @@
       },
       {
         "name": "3-4 Mount",
-        "relationship": "Sibling variant - opposite perspective of same position configuration"
+        "relationship": "Hub page - containing both top and bottom perspectives"
       },
       {
         "name": "High Mount",
@@ -358,20 +578,20 @@
         "relationship": "Common transition target - primary escape destination from 3-4 mount bottom"
       },
       {
-        "name": "Escape Hierarchy",
-        "relationship": "Governing concept - establishes priority system for mount escape attempts"
-      },
-      {
-        "name": "Defensive Framing",
-        "relationship": "Core concept - fundamental principle for maintaining structure in bottom positions"
-      },
-      {
-        "name": "Bridge and Shrimp",
-        "relationship": "Essential concept - foundational movement pattern for mount escapes"
+        "name": "Closed Guard",
+        "relationship": "Guard recovery goal - full guard position after successful escape sequence"
       },
       {
         "name": "Open Guard",
         "relationship": "Transition target - intermediate position during escape sequences"
+      },
+      {
+        "name": "Knee Shield Half Guard",
+        "relationship": "Common escape destination - using knee shield to prevent re-mounting"
+      },
+      {
+        "name": "Elbow Escape",
+        "relationship": "Primary escape technique - shrimp-based movement to recover guard"
       }
     ],
     "position_metrics": {
@@ -391,424 +611,32 @@
         "advanced": 5
       },
       "average_time": "30-90 seconds before escape or submission"
-    }
-  },
-  "top": {
-    "name": "3-4 Mount Top",
-    "description": "Master offensive control from 3-4 Mount Top. Complete guide with transitions to full mount, submission attacks, and base maintenance for dominant positioning.",
-    "tags": [
-      "bjj",
-      "position",
-      "mount",
-      "3-4-mount",
-      "top",
-      "offensive",
-      "control"
-    ],
-    "overview": "The 3-4 Mount Top position represents a hybrid control state that combines elements of traditional mount with characteristics of three-quarter mount positioning. From the top perspective, this position offers exceptional control while maintaining the mobility to transition between full mount, side control, and various submission attacks. The practitioner sits with one leg fully over the opponent's body (as in standard mount) while the other leg remains posted outside, creating a three-quarter configuration that maximizes pressure while retaining mobility.\n\nThis position emerged as practitioners recognized the tactical advantages of maintaining asymmetric leg positioning during mount attacks. Rather than committing both legs to the traditional mount configuration, the 3-4 Mount allows the top player to maintain a strong base against bridging attempts while preserving the ability to quickly shift weight, adjust angles, and respond to defensive movements. The position scores full mount points (4 points) in IBJJF competition while offering superior submission opportunities compared to traditional mount.\n\nStrategically, 3-4 Mount Top excels as both a finishing position and a transitional control point. Advanced practitioners use this position to create submission dilemmas, particularly targeting armbars, Americanas, and collar chokes, while the asymmetric base provides resistance against the most common mount escapes. The position demands precise weight distribution and constant pressure adjustment to prevent the bottom player from recovering guard or escaping to less disadvantageous positions.",
-    "state_properties": {
-      "point_value": 4,
-      "position_type": "Offensive/Controlling",
-      "risk_level": "Low to Medium",
-      "energy_cost": "Medium",
-      "time_sustainability": "Medium to Long"
     },
-    "state_invariants": [
-      "Top player's hips positioned on opponent's torso/abdomen with one leg fully crossed over the body and one leg posted outside, creating asymmetric weight distribution through the mounted side while maintaining base through the posted leg",
-      "Mounted leg (inside leg) maintains tight connection to opponent's ribcage with knee driving into armpit or ribs, preventing space creation and establishing the primary control point for the three-quarter configuration",
-      "Posted leg (outside leg) positioned with knee on mat outside opponent's body, foot posting for base and mobility, creating a stable triangular base that resists bridging attempts while preserving transitional capacity",
-      "Opponent on their back with shoulders flat or partially turned toward the posted leg side, facing upward with restricted but not eliminated mobility, creating defensive urgency while maintaining escape potential",
-      "Top player's upper body maintains forward pressure with weight distributed across chest and hips, hands controlling opponent's arms or posted on mat for base, creating constant downward force that limits breathing and movement capacity"
-    ],
-    "prerequisites": [
-      "Successful transition from side control, standard mount, or knee on belly with opponent on their back",
-      "Control of opponent's upper body with at least one arm controlled or neutralized",
-      "Opponent flat or partially turned on their back with shoulders in contact with mat",
-      "Top player's weight successfully transferred onto opponent's torso with stable base established",
-      "Clear path for one leg to cross opponent's body while other leg maintains posted position for base and mobility"
-    ],
-    "key_principles": [
-      "Maintain constant forward pressure through hips and chest, sinking weight into opponent's diaphragm to restrict breathing and create submission urgency",
-      "Keep mounted-side knee tight to opponent's ribs/armpit, eliminating space and preventing the most common shrimp escape pattern",
-      "Posted leg provides dynamic base adjustments, shifting weight to counter bridge attempts while preserving ability to transition to full mount or side attacks",
-      "Control opponent's arms proactively, isolating limbs for submissions while preventing effective framing and escape attempts",
-      "Maintain low center of gravity with chest heavy on opponent, forcing them to carry your weight while limiting their ability to create explosive movement",
-      "Use head position and shoulder pressure to control opponent's upper body, preventing them from turning into you or establishing effective defensive frames",
-      "Stay mobile and ready to transition, recognizing that 3-4 Mount is often a transitional position leading to full mount, side control, or submission attacks"
-    ],
-    "offensive_transitions": [
+    "transitions": [
       {
-        "technique": "Mount to Armbar",
-        "target_position": "Armbar Control",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 50,
-          "advanced": 70
-        }
+        "transition": "Elbow Escape",
+        "attempt_probability": 19
       },
       {
-        "technique": "Transition to Mount",
-        "target_position": "Mount",
-        "success_rates": {
-          "beginner": 55,
-          "intermediate": 70,
-          "advanced": 85
-        }
+        "transition": "Bridge and Roll",
+        "attempt_probability": 16
       },
       {
-        "technique": "Americana from Mount",
-        "target_position": "Americana Control",
-        "success_rates": {
-          "beginner": 40,
-          "intermediate": 55,
-          "advanced": 70
-        }
+        "transition": "Shrimp Escape",
+        "attempt_probability": 17
       },
       {
-        "technique": "Side Control to Mount",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 60,
-          "intermediate": 75,
-          "advanced": 85
-        }
+        "transition": "Hip Escape",
+        "attempt_probability": 16
       },
       {
-        "technique": "Ezekiel from Mount",
-        "target_position": "Armbar Control",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 40,
-          "advanced": 60
-        }
+        "transition": "Frame and Shrimp",
+        "attempt_probability": 15
       },
       {
-        "technique": "Triangle from Mount",
-        "target_position": "Mounted Triangle",
-        "success_rates": {
-          "beginner": 20,
-          "intermediate": 35,
-          "advanced": 55
-        }
-      },
-      {
-        "technique": "Kimura from Mount",
-        "target_position": "Kimura Control",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 45,
-          "advanced": 65
-        }
-      },
-      {
-        "technique": "Transition to North-South",
-        "target_position": "North-South",
-        "success_rates": {
-          "beginner": 50,
-          "intermediate": 65,
-          "advanced": 80
-        }
-      },
-      {
-        "technique": "Back Take Generic",
-        "target_position": "Back Control",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 50,
-          "advanced": 70
-        }
-      },
-      {
-        "technique": "Transition to Mount",
-        "target_position": "S Mount",
-        "success_rates": {
-          "beginner": 40,
-          "intermediate": 55,
-          "advanced": 70
-        }
-      },
-      {
-        "technique": "Transition to Mount",
-        "target_position": "Technical Mount",
-        "success_rates": {
-          "beginner": 45,
-          "intermediate": 60,
-          "advanced": 75
-        }
+        "transition": "Upa Escape",
+        "attempt_probability": 17
       }
-    ],
-    "defensive_responses": [
-      {
-        "technique": "Bridge and Roll",
-        "target_position": "Mount",
-        "success_rate": 25
-      },
-      {
-        "technique": "Elbow Escape",
-        "target_position": "Half Guard",
-        "success_rate": 35
-      },
-      {
-        "technique": "Shrimp Escape",
-        "target_position": "Closed Guard",
-        "success_rate": 30
-      },
-      {
-        "technique": "Upa Escape",
-        "target_position": "Closed Guard",
-        "success_rate": 20
-      },
-      {
-        "technique": "Frame and Shrimp",
-        "target_position": "Half Guard",
-        "success_rate": 40
-      }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Transition to Mount",
-        "target_position": "Mount",
-        "trigger": "Opponent attempts to turn into posted leg side or create space on mounted side"
-      },
-      {
-        "technique": "Side Control to Mount",
-        "target_position": "Side Control",
-        "trigger": "Opponent successfully creates significant space or begins escaping hips away from mounted side"
-      },
-      {
-        "technique": "Mount to Armbar",
-        "target_position": "Armbar Control",
-        "trigger": "Opponent extends arm to frame or push, creating armbar opportunity"
-      },
-      {
-        "technique": "Transition to North-South",
-        "target_position": "North-South",
-        "trigger": "Opponent turns shoulders strongly toward posted leg, exposing back or neck"
-      },
-      {
-        "technique": "Americana from Mount",
-        "target_position": "Americana Control",
-        "trigger": "Opponent's arm becomes isolated and trapped below shoulder level during escape attempt"
-      }
-    ],
-    "decision_tree": [
-      {
-        "condition": "If opponent remains flat and passive, accepting bottom position without immediate escape attempts",
-        "actions": [
-          {
-            "technique": "Transition to Mount",
-            "target": "Mount",
-            "probability": 75
-          },
-          {
-            "technique": "Mount to Armbar",
-            "target": "Armbar Control",
-            "probability": 60
-          },
-          {
-            "technique": "Ezekiel from Mount",
-            "target": "Armbar Control",
-            "probability": 50
-          }
-        ]
-      },
-      {
-        "condition": "Else if opponent attempts to bridge explosively or turn into the mounted side to escape",
-        "actions": [
-          {
-            "technique": "Americana from Mount",
-            "target": "Americana Control",
-            "probability": 65
-          },
-          {
-            "technique": "Kimura from Mount",
-            "target": "Kimura Control",
-            "probability": 60
-          },
-          {
-            "technique": "Side Control to Mount",
-            "target": "Side Control",
-            "probability": 70
-          }
-        ]
-      },
-      {
-        "condition": "Else if opponent turns away from posted leg or exposes their back during escape attempt",
-        "actions": [
-          {
-            "technique": "Transition to North-South",
-            "target": "North-South",
-            "probability": 70
-          },
-          {
-            "technique": "Side Control to Mount",
-            "target": "Side Control",
-            "probability": 65
-          },
-          {
-            "technique": "Back Take Generic",
-            "target": "Back Control",
-            "probability": 75
-          }
-        ]
-      },
-      {
-        "condition": "Else if opponent successfully frames and begins creating space on the mounted side",
-        "actions": [
-          {
-            "technique": "Mount to Armbar",
-            "target": "Armbar Control",
-            "probability": 55
-          },
-          {
-            "technique": "Triangle from Mount",
-            "target": "Mounted Triangle",
-            "probability": 45
-          },
-          {
-            "technique": "Transition to Mount",
-            "target": "Mount",
-            "probability": 60
-          }
-        ]
-      }
-    ],
-    "common_errors": [
-      {
-        "error": "Sitting too upright with weight distributed through the knees instead of hips and chest",
-        "consequence": "Allows opponent to generate explosive bridging power, creates space for elbow escape, and reduces submission control",
-        "correction": "Maintain forward pressure with chest heavy on opponent, distributing weight through hips into their diaphragm while keeping shoulders over their centerline"
-      },
-      {
-        "error": "Allowing the mounted-side knee to drift away from opponent's ribs, creating space on the inside",
-        "consequence": "Enables opponent to insert elbow and begin shrimp escape sequence, leading to half guard recovery or full escape",
-        "correction": "Keep mounted knee tight to ribs/armpit with constant inward pressure, using knee as a wedge to prevent any space creation on the inside"
-      },
-      {
-        "error": "Posting the outside leg too far from opponent's body, creating weak triangular base",
-        "consequence": "Reduces ability to counter bridging attempts, makes position unstable against explosive movements, and limits transitional capacity",
-        "correction": "Position posted leg close enough to maintain strong base but far enough to allow hip mobility and weight shifts to counter opponent's movements"
-      },
-      {
-        "error": "Neglecting to control opponent's arms, allowing them to establish effective frames",
-        "consequence": "Permits opponent to create space, push hips away, and execute escape sequences with higher success rates",
-        "correction": "Proactively control at least one arm at all times, isolating limbs for submissions or pinning them to reduce defensive capacity"
-      },
-      {
-        "error": "Remaining static in 3-4 Mount without transitioning to full mount or attacking submissions",
-        "consequence": "Wastes the position's transitional advantages, gives opponent time to develop escape strategy, and reduces finishing rate",
-        "correction": "Recognize 3-4 Mount as a transitional position leading to full mount, submissions, or side attacks—maintain constant offensive pressure"
-      },
-      {
-        "error": "Leaning weight toward the posted leg side instead of maintaining centered pressure",
-        "consequence": "Creates escape pathway on the mounted side, reduces submission control, and makes position vulnerable to bridge and roll",
-        "correction": "Distribute weight evenly or slightly toward mounted side, using posted leg for base adjustments rather than primary weight support"
-      },
-      {
-        "error": "Failing to adjust position when opponent begins turning into the posted leg",
-        "consequence": "Allows opponent to escape to turtle or recover guard by turning away from mounted side pressure",
-        "correction": "Immediately transition to side control or north-south when opponent begins turning, maintaining top position throughout the adjustment"
-      }
-    ],
-    "training_drills": [
-      {
-        "name": "3-4 Mount to Full Mount Transitions",
-        "description": "Partner starts in bottom mount position. Top player establishes 3-4 Mount, then transitions to full mount by bringing posted leg over. Bottom player offers 25% resistance. Drill both sides. Focus on maintaining pressure throughout transition and securing mount without allowing space creation.",
-        "duration": "3 minutes per side"
-      },
-      {
-        "name": "Submission Attacks from 3-4 Mount",
-        "description": "Top player establishes 3-4 Mount against compliant partner. Cycle through armbar, Americana, and Ezekiel setups without finishing. Bottom player offers light resistance and defensive frames. Focus on recognizing submission opportunities based on opponent's arm positions and maintaining control throughout attack sequences.",
-        "duration": "5 minutes continuous"
-      },
-      {
-        "name": "3-4 Mount Retention Against Escapes",
-        "description": "Bottom player attempts specific escape sequence (bridge and roll, elbow escape, or shrimp escape) at 50% intensity. Top player maintains 3-4 Mount position or transitions to maintain top control. Reset after each escape attempt. Focus on base adjustments, weight distribution, and counter-transitions to prevent escape success.",
-        "duration": "2 minutes per escape type"
-      },
-      {
-        "name": "Dynamic 3-4 Mount Positional Sparring",
-        "description": "Start in 3-4 Mount position. Bottom player attempts any escape at 75% intensity. Top player maintains position or improves to full mount/submissions. Round ends when bottom player escapes to guard or top player achieves submission control position. Focus on realistic pressure, timing, and transition recognition.",
-        "duration": "3-minute rounds, 5 rounds"
-      }
-    ],
-    "optimal_submission_paths": [
-      {
-        "name": "Shortest path to armbar",
-        "path": "3-4 Mount Top → Armbar Control → Armbar from Mount → Won by Submission"
-      },
-      {
-        "name": "High-percentage Americana path",
-        "path": "3-4 Mount Top → Mount → Americana Control → Americana from Mount → Won by Submission"
-      },
-      {
-        "name": "Ezekiel finishing sequence",
-        "path": "3-4 Mount Top → Mount → Armbar Control → Ezekiel from Mount → Won by Submission"
-      },
-      {
-        "name": "Triangle transition path",
-        "path": "3-4 Mount Top → Mount → Mounted Triangle → Triangle from Mount → Won by Submission"
-      },
-      {
-        "name": "Kimura control path",
-        "path": "3-4 Mount Top → Kimura Control → Kimura from Mount → Won by Submission"
-      }
-    ],
-    "related_content": [
-      {
-        "name": "Mount",
-        "relationship": "Parent position - primary advancement target from 3-4 Mount"
-      },
-      {
-        "name": "3-4 Mount",
-        "relationship": "Sibling variant - opposing perspective of same position"
-      },
-      {
-        "name": "Side Control",
-        "relationship": "Common transition target when opponent turns or escapes mounted side"
-      },
-      {
-        "name": "High Mount",
-        "relationship": "Advanced variation - higher positioning with increased submission access"
-      },
-      {
-        "name": "S Mount",
-        "relationship": "Variation - alternative asymmetric mount configuration for armbar attacks"
-      },
-      {
-        "name": "Technical Mount",
-        "relationship": "Variation - another asymmetric mount used for back take and control"
-      },
-      {
-        "name": "Armbar Control",
-        "relationship": "Primary submission target from 3-4 Mount position"
-      },
-      {
-        "name": "Americana Control",
-        "relationship": "Common submission target when opponent's arm becomes isolated"
-      },
-      {
-        "name": "Positional Hierarchy",
-        "relationship": "Concept - understanding 3-4 Mount's place in position advancement ladder"
-      }
-    ],
-    "position_metrics": {
-      "retention_rate": {
-        "beginner": 55,
-        "intermediate": 70,
-        "advanced": 85
-      },
-      "advancement_probability": {
-        "beginner": 45,
-        "intermediate": 60,
-        "advanced": 75
-      },
-      "submission_probability": {
-        "beginner": 30,
-        "intermediate": 45,
-        "advanced": 65
-      },
-      "average_time": "45-90 seconds"
-    }
+    ]
   }
 }

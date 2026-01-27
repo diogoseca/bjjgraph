@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Lasso Guard Variations | BJJ Technique | BJJ Graph"
 description: "Master Lasso Guard variations in BJJ. Learn spider lasso, inverted lasso, Russian lasso, and tactical adaptations. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%."
@@ -16,7 +17,7 @@ description: "Master Lasso Guard variations in BJJ. Learn spider lasso, inverted
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Lasso Guard Variations in BJJ",
-  "description": "Step-by-step guide for Lasso Guard Variations from Lasso Guard to Lasso Guard.",
+  "description": "Step-by-step guide for Lasso Guard Variations from Lasso Guard/Bottom. Possible outcomes: Lasso Guard/Bottom (65%), Lasso Guard/Bottom (25%), Lasso Guard/Top (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -160,11 +161,25 @@ description: "Master Lasso Guard variations in BJJ. Learn spider lasso, inverted
 
 The Lasso Guard system represents one of Brazilian Jiu-Jitsu's most versatile open guard frameworks, offering practitioners a wide array of tactical variations that blend control, sweeps, and submission attacks. At its core, the lasso guard uses a fundamental leg-threading mechanism where one leg wraps around the opponent's arm, creating a powerful control point that disrupts posture and limits mobility. This foundational position branches into multiple variations, each with distinct strategic applications and technical nuances. Understanding how to transition between lasso variations allows practitioners to maintain offensive initiative while adapting to different opponent reactions and body types. The system's effectiveness lies in its ability to create persistent off-balancing opportunities while maintaining a strong defensive structure. Advanced practitioners learn to chain lasso variations together, creating multi-layered attacking sequences that force opponents into defensive dilemmas where every escape attempt opens new offensive opportunities.
 
-**Starting Position**: [[Lasso Guard]]
-**Ending Position**: [[Lasso Guard]]
+**From Position**: [[Lasso Guard/Bottom]]
 **Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Lasso Guard/Bottom]] | 65% |
+| Failure | [[Lasso Guard/Bottom]] | 25% |
+| Counter | [[Lasso Guard/Top]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

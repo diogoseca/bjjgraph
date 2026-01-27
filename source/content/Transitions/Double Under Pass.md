@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Double Under Pass | BJJ Technique | BJJ Graph"
 description: "Master the Double Under Pass in BJJ. Control-based guard pass using bilateral underhooks. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%. Step-by-step execution guide."
@@ -16,7 +17,7 @@ description: "Master the Double Under Pass in BJJ. Control-based guard pass usin
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Double Under Pass in BJJ",
-  "description": "Step-by-step guide for Double Under Pass from Open Guard to Side Control.",
+  "description": "Step-by-step guide for Double Under Pass from Open Guard/Bottom. Possible outcomes: Side Control/Top (75%), Open Guard/Bottom (15%), Open Guard/Top (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -164,11 +165,25 @@ Historically favored by top-position specialists and pressure passers, the Doubl
 
 The Double Under Pass is particularly effective in gi grappling where grips can be used to enhance control, though it remains highly viable in no-gi competition. Advanced practitioners use this pass as part of a comprehensive passing system, often combining it with headquarters position, knee slice variations, and other pressure-based attacks to create multiple layers of offensive threat. The technique's reliability stems from its fundamental soundness—when executed correctly, the opponent must defend against immense pressure while having limited mechanical advantages to create distance or recover guard.
 
-**Starting Position**: [[Open Guard]]
-**Ending Position**: [[Side Control]]
+**From Position**: [[Open Guard/Bottom]]
 **Success Rates**: Beginner 45%, Intermediate 60%, Advanced 75%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Side Control/Top]] | 75% |
+| Failure | [[Open Guard/Bottom]] | 15% |
+| Counter | [[Open Guard/Top]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

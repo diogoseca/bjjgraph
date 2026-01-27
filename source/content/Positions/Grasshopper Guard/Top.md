@@ -21,37 +21,37 @@ description: "Master grasshopper guard from top. Complete guide to countering in
     {
       "@type": "HowToStep",
       "name": "Execute Back Step Pass",
-      "text": "From this position, execute Back Step Pass to transition to Side Control. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Back Step Pass. This technique is attempted in 11% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag Pass",
-      "text": "From this position, execute Leg Drag Pass to transition to Side Control. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Stack Pass from Inversion",
-      "text": "From this position, execute Stack Pass from Inversion to transition to Side Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Stack Pass from Inversion. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Step Over to Mount",
-      "text": "From this position, execute Step Over to Mount to transition to Mount. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Step Over to Mount. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Knee Cut Pass",
-      "text": "From this position, execute Knee Cut Pass to transition to Side Control. Success rate for advanced practitioners: 75%.",
+      "name": "Execute Knee Slice Pass",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Sprawl and Disengage",
-      "text": "From this position, execute Sprawl and Disengage to transition to Standing Position. Success rate for advanced practitioners: 85%.",
+      "text": "From this position, attempt Sprawl and Disengage. This technique is attempted in 14% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -217,98 +217,24 @@ The position also demands excellent leg lock defense awareness. Many of the bott
 
 ## Available Attacks
 
-### [[Back Step Pass]] → [[Side Control]]
+### [[Back Step Pass]] (11% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Leg Drag Pass]] (12% of attempts)
 
-### [[Leg Drag Pass]] → [[Side Control]]
+### [[Stack Pass from Inversion]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 60%
-- Advanced: 75%
+### [[Step Over to Mount]] (10% of attempts)
 
-### [[Stack Pass from Inversion]] → [[Side Control]]
+### [[Knee Slice Pass]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Sprawl and Disengage]] (14% of attempts)
 
-### [[Step Over to Mount]] → [[Mount]]
+### [[Toreando Pass]] (11% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Cartwheel Pass]] (10% of attempts)
 
-### [[Knee Cut Pass]] → [[Side Control]]
+### [[Pressure Pass through Center]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 60%
-- Advanced: 75%
-
-### [[Sprawl and Disengage]] → [[Standing Position]]
-
-**Success Rates:**
-- Beginner: 50%
-- Intermediate: 70%
-- Advanced: 85%
-
-### [[Toreando Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 55%
-- Advanced: 70%
-
-### [[Cartwheel Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 40%
-- Advanced: 60%
-
-### [[Pressure Pass through Center]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Inversion Follow and Leg Recovery]]** → [[Inside Ashi-Garami]]
-- **[[X-Guard Elevation]]** → [[Mount]]
-- **[[Rolling Kneebar Entry]]** → [[Kneebar Control]]
-- **[[Single Leg X Transition]]** → [[Single Leg X-Guard]]
-- **[[Granby Roll Recovery]]** → [[Closed Guard]]
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Back Step and Clear Legs]]** → [[Side Control]]
-  - Bottom player attempts to thread leg between yours or establish entanglement
-- **[[Immediate Sprawl]]** → [[Turtle]]
-  - Bottom player starts rolling for kneebar or ankle lock
-- **[[Stack and Drive Forward]]** → [[Side Control]]
-  - Bottom player's hips drop or inversion angle weakens
-- **[[Circle Away and Reset]]** → [[Standing Position]]
-  - Bottom player establishes too much leg control to pass safely
 
 
 </section>
@@ -415,25 +341,39 @@ Partner holds grasshopper position but signals by dropping hips 2-3 times per ro
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Leg Drag to Back Attack
+## Test Your Knowledge
 
-`Grasshopper Guard Top → Leg Drag Pass → Side Control → Back Control → Rear Naked Choke`
+**Q1**: Your opponent inverts deeply and begins threading their legs around yours - what is your immediate response?
+**A**: Execute a back step immediately by stepping your endangered leg backward and away from their entanglement attempt while keeping your weight low. The back step creates separation and removes your leg from the danger zone before they can establish control. Avoid pulling straight backward, which often completes their entanglement for them.
 
-### Stack Pass to Submission Chain
+**Q2**: What base width should you maintain when facing grasshopper guard, and why?
+**A**: Maintain a medium-width base that is wide enough to resist elevation sweeps but narrow enough to allow quick directional changes and passing attempts. Too wide a base makes you slow to react and vulnerable to leg threading between your stance. Too narrow makes you easily swept when they elevate their hips. Adjust dynamically based on their leg configuration.
 
-`Grasshopper Guard Top → Stack Pass → Side Control → Kimura Control → Kimura from Side Control`
+**Q3**: How do you recognize when the bottom player's inversion is weakening and becoming vulnerable to a stack pass?
+**A**: Watch for their hips dropping toward the mat, decreased leg activity, slower adjustments to your circling, and visible core fatigue indicated by their midsection relaxing. When their hips sag below chest height or they struggle to maintain shoulder base contact, this creates the optimal window to drive forward with a stack pass.
 
-### Mount Consolidation Path
+**Q4**: What are the essential grips or controls for maintaining top position against grasshopper guard?
+**A**: Rather than specific grips, focus on controlling distance and leg positioning. Your hands should be ready to strip or redirect their hooks, post on their hips to prevent elevation, or frame against their legs to create passing angles. Avoid reaching down toward their legs which compromises posture - instead maintain upright position and use your hips and base for control.
 
-`Grasshopper Guard Top → Step Over Pass → Mount → High Mount → Armbar from Mount`
+**Q5**: The bottom player establishes a hook behind your knee - how do you recover before they complete the entanglement?
+**A**: Immediately shift your weight away from the hooked leg and begin the back step motion. As you step back, use your free hand to address the hook by pushing their leg away or pinning it against their body. Move slowly and deliberately rather than explosively jerking, which can complete the entanglement or cause injury. Reset to neutral distance once the hook is cleared.
+
+**Q6**: Why is constant forward pressure ineffective against grasshopper guard?
+**A**: Constant forward pressure feeds directly into the bottom player's sweeping mechanics by providing the momentum and weight commitment they need for elevation sweeps and X-guard transitions. Their inverted posture is specifically designed to redirect forward pressure upward. Instead, use selective pressure during transition windows when their hips drop or inversion weakens.
+
+**Q7**: How should you manage energy expenditure when facing a skilled grasshopper guard player?
+**A**: Recognize that the bottom player's position is far more exhausting than yours. Maintain a patient, energy-efficient standing or combat base while making small circling movements that force them to constantly adjust. Avoid explosive reactions or prolonged grappling exchanges in their preferred range. Let time work against their position sustainability while you wait for passing opportunities.
+
+**Q8**: Your opponent begins rolling for a kneebar - what adjustment should you make?
+**A**: Sprawl immediately by extending your hips backward and driving your weight toward the mat. This removes the rotational leverage they need to complete the roll and finish the submission. Simultaneously begin stepping your endangered leg away from their body. Once the roll is disrupted, either complete the pass to side control or reset to standing with distance established.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -456,12 +396,12 @@ Partner holds grasshopper position but signals by dropping hips 2-3 times per ro
 
 - **[[Back Step Pass]]** - Primary passing technique for escaping leg entanglement danger
 - **[[Leg Drag Pass]]** - High-percentage pass when bottom player has one leg extended
-- **[[Stack Pass]]** - Effective when bottom player's inversion weakens or hips drop
 - **[[Inverted Guard]]** - Parent category - understanding general inverted guard defense applies here
-- **[[Leg Lock Defense]]** - Critical principle for surviving submission attempts from grasshopper
 - **[[Standing Position]]** - Safe disengagement option when passing becomes too risky
-- **[[Pressure Passing]]** - Principle - selective pressure timing rather than constant forward drive
-- **[[Guard Passing Principles]]** - Fundamental concepts modified for inverted guard scenarios
+- **[[Side Control]]** - Primary destination after successful pass completion
+- **[[Combat Base]]** - Stable base option for controlled engagement against inverted guards
+- **[[Turtle]]** - Opponent destination after successful sprawl disrupts their roll
+- **[[Knee Slice Pass]]** - Alternative pass when opponent's inversion weakens
 
 
 </section>

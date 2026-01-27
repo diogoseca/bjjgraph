@@ -157,12 +157,14 @@
     {
       "error": "Rising too high in mount while attempting the choke, sacrificing base and stability",
       "consequence": "Opponent can easily bridge and roll, escaping mount and potentially reversing position",
-      "correction": "Maintain low center of gravity with hips heavy on opponent's torso. Your chest should lower toward their head as you finish, not rise away from them. Think of driving your weight through the choke rather than pulling upward."
+      "correction": "Maintain low center of gravity with hips heavy on opponent's torso. Your chest should lower toward their head as you finish, not rise away from them. Think of driving your weight through the choke rather than pulling upward.",
+      "danger_level": "Low"
     },
     {
       "error": "Pulling both grips in the same direction or straight down rather than creating diagonal opposing vectors",
       "consequence": "Choke doesn't tighten properly and opponent can defend or escape",
-      "correction": "Visualize making an 'X' with your forearms - one grip pulls toward your hip, the other pulls across their neck toward your opposite shoulder. The diagonal crossing motion is what creates the loop tightening mechanism."
+      "correction": "Visualize making an 'X' with your forearms - one grip pulls toward your hip, the other pulls across their neck toward your opposite shoulder. The diagonal crossing motion is what creates the loop tightening mechanism.",
+      "danger_level": "Low"
     },
     {
       "error": "Applying sudden, jerking pressure to force a quick tap",
@@ -173,7 +175,8 @@
     {
       "error": "Neglecting to control opponent's near arm, allowing them to defend the collar effectively",
       "consequence": "Opponent uses frames to prevent collar grips or pushes your weight off to escape mount",
-      "correction": "Before attempting collar grips, trap or control the near-side arm using your knee, hand, or weight distribution. This isolation is a prerequisite for successful setup."
+      "correction": "Before attempting collar grips, trap or control the near-side arm using your knee, hand, or weight distribution. This isolation is a prerequisite for successful setup.",
+      "danger_level": "Low"
     },
     {
       "error": "Continuing to apply pressure after partner taps or shows distress signals",
@@ -184,7 +187,8 @@
     {
       "error": "Attempting the choke without proper mount stability, leading to position loss",
       "consequence": "Opponent escapes mount during setup attempt, losing dominant position for a failed submission",
-      "correction": "Ensure mount is fully consolidated before attempting submission attacks. If opponent is actively bridging and escaping, focus on maintaining position before threatening submissions. Position before submission."
+      "correction": "Ensure mount is fully consolidated before attempting submission attacks. If opponent is actively bridging and escaping, focus on maintaining position before threatening submissions. Position before submission.",
+      "danger_level": "Low"
     }
   ],
   "variations_and_setups": [
@@ -216,6 +220,11 @@
       "safety_critical": true
     },
     {
+      "question": "What anatomical structures does the loop choke from mount attack to cause unconsciousness?",
+      "answer": "The loop choke attacks the carotid arteries and jugular veins on both sides of the neck. When applied correctly, the collar creates a constricting loop that compresses these blood vessels bilaterally, restricting blood flow to and from the brain. This bilateral carotid compression causes rapid unconsciousness (typically within 8-12 seconds of full application) without attacking the airway. A properly applied blood choke is distinguishable from an air choke by the rapid onset and lack of tracheal discomfort.",
+      "safety_critical": false
+    },
+    {
       "question": "Why is a deep collar grip more effective than a shallow grip for the loop choke?",
       "answer": "A deep collar grip that reaches past the trachea toward the back of the neck creates a true blood choke by compressing the carotid arteries on both sides of the neck, resulting in a quick and relatively painless tap. A shallow grip that only reaches the front of the neck creates an air choke on the trachea, which is less effective, takes much longer to work, causes unnecessary discomfort, and has higher injury potential. The deep grip allows the collar to act as a noose around the neck's major blood vessels rather than crushing the windpipe.",
       "safety_critical": false
@@ -231,6 +240,11 @@
       "safety_critical": true
     },
     {
+      "question": "Your opponent begins posturing up and creating frames while you have the deep collar grip established - what adjustment prevents escape?",
+      "answer": "When they posture up or create frames, immediately lower your chest toward their head and drive your weight through the collar grip. Use your hips to pin their shoulders back to the mat rather than allowing them to create vertical space. The frames they create can actually help tighten the choke if you drive forward into them while maintaining your diagonal pulling vectors. If they successfully create significant space, consider transitioning to a mounted triangle or armbar on the framing arm rather than losing the position entirely.",
+      "safety_critical": false
+    },
+    {
       "question": "Why is arm control important before attempting the loop choke from mount?",
       "answer": "Controlling or trapping the opponent's near-side arm is essential because it removes their primary defensive tool for protecting their collar and preventing your grips. Without arm control, the opponent can frame against your hips, strip your collar grips, or create barriers that prevent you from establishing the deep collar penetration required for an effective choke. The arm control also prevents them from using that arm to assist in bridging and escaping mount, helping you maintain positional dominance throughout the submission attempt.",
       "safety_critical": false
@@ -241,8 +255,23 @@
       "safety_critical": true
     },
     {
+      "question": "What are the key indicators that tell you the choke is properly positioned before applying finishing pressure?",
+      "answer": "Key indicators of proper positioning include: your deep collar grip reaches past the trachea with four fingers behind the neck and thumb against the side of the neck, your elbow is high and pointing toward their opposite shoulder, your lapel grip creates tension across their neck toward your opposite hip, your weight is distributed forward with chest pressure on their upper body, and your opponent's near arm is controlled or trapped. Additionally, when you begin light pressure, you should feel the collar tightening around the sides of their neck rather than across the front of the throat.",
+      "safety_critical": false
+    },
+    {
       "question": "How does maintaining mount position contribute to the effectiveness of the loop choke?",
       "answer": "Mount position provides the weight distribution and postural control necessary to establish and maintain the collar grips while preventing escapes. The dominant top position allows you to pin the opponent's shoulders and hips, limiting their bridging and shrimping escapes. Additionally, the mount position creates the proper angle for your upper body to generate the diagonal pulling vectors required for the choke. Unlike many submissions that require sacrificing position, the loop choke can be finished while maintaining full mount control, meaning you never give up positional dominance even if the submission fails.",
+      "safety_critical": false
+    },
+    {
+      "question": "What grip adjustments should you make if your opponent turns their chin strongly toward your deep collar grip side?",
+      "answer": "When they turn their chin toward your deep grip, it can actually help create a tighter choke if you adjust properly. Drive your choking elbow higher over their face, using their chin turn to deepen the collar penetration. Simultaneously, pull your lapel grip more aggressively across their neck in the opposite direction to maintain the diagonal vector. If they turn significantly, consider following their movement into technical mount where the angle naturally supports the loop configuration. Their defensive turning motion can become the mechanism that tightens the choke if you maintain proper grip depth.",
+      "safety_critical": false
+    },
+    {
+      "question": "In competition, what finishing strategies maximize your completion rate with the loop choke from mount?",
+      "answer": "Competition finishing strategies include: establish grips incrementally while your opponent focuses on preventing mount escapes rather than collar defense, use other attacks (Americana, armbar) to create reactions that expose the collar, time your finish attempt when opponent is exhausted from defensive bridging, apply finishing pressure during their attempted escapes when their focus is divided, and commit fully once both grips are established rather than gradually tightening. Additionally, maintain your base throughout to prevent losing position if the choke fails, allowing you to maintain mount and attack again.",
       "safety_critical": false
     }
   ],
@@ -294,7 +323,6 @@
     "Mount",
     "High Mount",
     "S Mount",
-    "Mount Control",
     "Technical Mount",
     "Modified Mount",
     "Mounted Crucifix",
@@ -309,8 +337,6 @@
     "Ezekiel from Mount",
     "Armbar from Mount",
     "Americana from Mount",
-    "Kimura from Mount",
-    "Triangle from Mount",
     "Arm Triangle",
     "Bow and Arrow Choke",
     "Baseball Bat Choke"
@@ -341,18 +367,6 @@
       "relationship": "Arm attack that can be used to force opponent to expose collar while defending"
     },
     {
-      "name": "Transition to Mount",
-      "relationship": "Entry sequences that establish the necessary positional foundation"
-    },
-    {
-      "name": "Collar Control",
-      "relationship": "Fundamental principle governing grip fighting and collar manipulation"
-    },
-    {
-      "name": "Mount to Armbar",
-      "relationship": "Transition used when loop choke is defended, maintaining attacking pressure"
-    },
-    {
       "name": "Technical Mount",
       "relationship": "Modified position that can enhance loop choke finishing mechanics through improved angle"
     },
@@ -362,7 +376,11 @@
     },
     {
       "name": "Side Control",
-      "relationship": "Common transition destination if opponent turns during loop choke attempt, allowing continuation from new angle"
+      "relationship": "Common transition destination if opponent turns during loop choke attempt"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Alternative position to transition to when opponent turns away during choke attempt"
     }
   ]
 }

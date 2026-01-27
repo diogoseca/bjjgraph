@@ -21,37 +21,37 @@ description: "Master Seat Belt Control from top back position. Dominant 4-point 
     {
       "@type": "HowToStep",
       "name": "Execute Rear Naked Choke",
-      "text": "From this position, execute Rear Naked Choke to transition to Won by Submission. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Rear Naked Choke. This technique is attempted in 14% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Armbar from Back with Legs",
-      "text": "From this position, execute Armbar from Back with Legs to transition to Won by Submission. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Armbar from Back with Legs. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Armbar from Back",
-      "text": "From this position, execute Armbar from Back to transition to Won by Submission. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Armbar from Back. This technique is attempted in 11% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bow and Arrow Choke",
-      "text": "From this position, execute Bow and Arrow Choke to transition to Won by Submission. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Bow and Arrow Choke. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Control to Crucifix",
-      "text": "From this position, execute Back Control to Crucifix to transition to Crucifix. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Back Control to Crucifix. This technique is attempted in 11% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle from Back",
-      "text": "From this position, execute Triangle from Back to transition to Won by Submission. Success rate for advanced practitioners: 35%.",
+      "text": "From this position, attempt Triangle from Back. This technique is attempted in 7% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -213,101 +213,24 @@ Seat belt control excels when opponent is attempting to escape or defend, as the
 
 ## Available Attacks
 
-### [[Rear Naked Choke]] → [[Won by Submission]]
+### [[Rear Naked Choke]] (14% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 55%
-- Advanced: 75%
+### [[Armbar from Back with Legs]] (12% of attempts)
 
-### [[Armbar from Back with Legs]] → [[Won by Submission]]
+### [[Armbar from Back]] (11% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 60%
+### [[Bow and Arrow Choke]] (10% of attempts)
 
-### [[Armbar from Back]] → [[Won by Submission]]
+### [[Back Control to Crucifix]] (11% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 55%
+### [[Triangle from Back]] (7% of attempts)
 
-### [[Bow and Arrow Choke]] → [[Won by Submission]]
+### [[Short Choke]] (8% of attempts)
 
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 50%
+### [[Side Control to Mount]] (15% of attempts)
 
-### [[Back Control to Crucifix]] → [[Crucifix]]
+### [[Turtle to Truck]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 55%
-
-### [[Triangle from Back]] → [[Won by Submission]]
-
-**Success Rates:**
-- Beginner: 10%
-- Intermediate: 20%
-- Advanced: 35%
-
-### [[Short Choke]] → [[Won by Submission]]
-
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 25%
-- Advanced: 40%
-
-### [[Transition to Mount]] → [[Mount]]
-
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 60%
-- Advanced: 75%
-
-### [[Transition to Truck]] → [[Truck]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 60%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Hip Escape]]** → [[Turtle]] (Opponent Success: 25%)
-- **[[Rolling to Guard]]** → [[Closed Guard]] (Opponent Success: 20%)
-- **[[Grip Break]]** → [[Back Control]] (Opponent Success: 30%)
-- **[[Chin Protection]]** → [[Seat Belt Control Back]] (Opponent Success: 40%)
-- **[[Elbow Escape]]** → [[Half Guard]] (Opponent Success: 15%)
-- **[[Granby Roll]]** → [[Closed Guard]] (Opponent Success: 10%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Rear Naked Choke]]** → [[Won by Submission]]
-  - Opponent focuses on breaking seat belt grip with both hands high near chest or shoulders
-- **[[Armbar from Back]]** → [[Won by Submission]]
-  - Opponent defends neck by tucking chin and bringing hands to throat area creating arm isolation opportunity
-- **[[Transition to Mount]]** → [[Mount]]
-  - Opponent attempts to turn into you to escape hooks, rolling toward your chest
-- **[[Back Control to Crucifix]]** → [[Crucifix]]
-  - Opponent extends one arm attempting to base out or grip fight, exposing arm for trap
-- **[[Bow and Arrow Choke]]** → [[Won by Submission]]
-  - Opponent turns away attempting to remove bottom hook, exposing collar and creating finishing angle
 
 
 </section>
@@ -317,28 +240,28 @@ Seat belt control excels when opponent is attempting to escape or defend, as the
 ## Decision Making from This Position
 
 **If opponent's hands move high to defend neck or break seat belt grip at chest level:**
-- Execute **[[Rear Naked Choke]]** → [[Won by Submission]] (Probability: 65%)
-- Execute **[[Short Choke]]** → [[Won by Submission]] (Probability: 45%)
+- Execute **[[Rear Naked Choke]]** → [[game-over]] (Probability: 65%)
+- Execute **[[Short Choke]]** → [[game-over]] (Probability: 45%)
 
 
 **If opponent tucks chin and defends neck with hands protecting throat area:**
-- Execute **[[Armbar from Back with Legs]]** → [[Won by Submission]] (Probability: 55%)
-- Execute **[[Armbar from Back]]** → [[Won by Submission]] (Probability: 50%)
+- Execute **[[Armbar from Back with Legs]]** → [[game-over]] (Probability: 55%)
+- Execute **[[Armbar from Back]]** → [[game-over]] (Probability: 50%)
 
 
 **If opponent turns toward you attempting to face guard and escape hooks:**
-- Execute **[[Transition to Mount]]** → [[Mount]] (Probability: 70%)
+- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 70%)
 - Execute **[[Back Control to Crucifix]]** → [[Crucifix]] (Probability: 45%)
 
 
 **If opponent extends arms attempting to base or post for escape leverage:**
 - Execute **[[Back Control to Crucifix]]** → [[Crucifix]] (Probability: 60%)
-- Execute **[[Kimura to Back Take]]** → [[Won by Submission]] (Probability: 40%)
+- Execute **[[Kimura from Back]]** → [[game-over]] (Probability: 40%)
 
 
 **If opponent turns away and attempts to remove bottom hook by hip movement:**
-- Execute **[[Bow and Arrow Choke]]** → [[Won by Submission]] (Probability: 55%)
-- Execute **[[Transition to Truck]]** → [[Truck]] (Probability: 50%)
+- Execute **[[Bow and Arrow Choke]]** → [[game-over]] (Probability: 55%)
+- Execute **[[Turtle to Truck]]** → [[Truck]] (Probability: 50%)
 
 
 
@@ -431,37 +354,39 @@ Start from turtle position. Practice taking back, establishing seat belt control
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Shortest Path to RNC
+## Test Your Knowledge
 
-`Seat Belt Control Back Top → Rear Naked Choke (when opponent defends grips high)`
+**Q1**: Your opponent begins bridging explosively while hand fighting your seat belt grip - what immediate adjustment do you make?
+**A**: Drop your weight lower on their back by sliding your hips down toward their hips, tighten chest-to-back connection to eliminate any space created by the bridge, and drive your hooks deeper to prevent hip rotation. The bridge creates momentary space that you must immediately close by following their movement with your body weight while reinforcing your grip connection. Never allow the bridge to create cumulative space - match their movement with downward pressure.
 
-### High-Percentage Armbar Chain
+**Q2**: What are the essential grip configurations for maintaining seat belt control from the back?
+**A**: The primary seat belt configuration requires one arm over opponent's shoulder and the other under their opposite armpit, with hands connected across their chest or lat area. Connection options include gable grip (palm-to-palm with fingers interlocked), wrist-on-wrist grab, or palm cup grip. The over-arm should stay tight to prevent opponent from trapping it, while the under-arm provides the primary choking threat. Hand connection must be constantly reinforced as breaking this connection is opponent's primary escape objective.
 
-`Seat Belt Control Back Top → Opponent defends neck → Armbar from Back with Legs → Won by Submission`
+**Q3**: What is the optimal weight distribution for maintaining seat belt back control without exhausting yourself?
+**A**: Weight should be distributed primarily through chest compression against opponent's back and through your hooks/legs rather than through arm strength. Your core and hips provide the controlling pressure while arms maintain grip connection without generating force. Approximately 60% of control pressure should come from chest-to-back connection and hook tension, 30% from hip positioning, and only 10% from arm grip. This allows sustained control without grip fatigue that leads to position loss.
 
-### Crucifix Control Path
+**Q4**: How do you shut down the primary escape attempt where opponent tries to slide their hips to the mat and turn toward you?
+**A**: Immediately drop your bottom hook deeper while using your top hook to prevent their far hip from rotating. Increase chest pressure to pin their shoulders forward, preventing the rotation needed to turn. If they create any angle, immediately follow by adjusting your body position to maintain perpendicular alignment with their spine. The key is preventing the initial rotation rather than recovering after they've created angle - once momentum builds, escape probability increases exponentially.
 
-`Seat Belt Control Back Top → Opponent posts arm → Back Control to Crucifix → Crucifix → Armbar from Crucifix`
+**Q5**: What grip priorities should you maintain when opponent actively attacks your seat belt with both hands?
+**A**: Prioritize maintaining hand connection above all else - if hands separate, immediately reconnect before opponent can exploit the opening. When opponent attacks your over-arm grip, use your under-arm to reinforce by grabbing your own wrist. When opponent attacks under-arm, sink it deeper toward their far hip making it harder to access. Switch between grip configurations (gable, wrist, palm cup) based on which provides best security against their specific attack. Never allow both grips to be compromised simultaneously.
 
-### Bow and Arrow Setup
+**Q6**: Your opponent is defending perfectly with chin tucked and hands controlling your choking arm - how do you apply pressure to force a reaction?
+**A**: Apply diagonal pressure across their body by pulling with your over-arm while pushing with your under-arm, creating rotational stress. Alternate between squeezing tightly and releasing slightly to disrupt their defensive rhythm. Use your hooks to rock their hips side-to-side, forcing them to constantly readjust. Attack the arm defending the neck - if they commit hands to neck defense, their arms become vulnerable to isolation for armbar or crucifix entries. The goal is creating dilemmas where defending one threat exposes another.
 
-`Seat Belt Control Back Top → Opponent turns away → Bow and Arrow Choke → Won by Submission`
+**Q7**: How do you anticipate and counter the Granby roll escape attempt from back control?
+**A**: Recognize the setup - opponent creates space on one side and loads weight to initiate the roll. Counter by immediately following their hip movement with your hooks, preventing the inversion. Drop your weight low and toward the direction they're attempting to roll, using chest pressure to pin them flat. If they begin the roll, release your top hook and post your leg wide to prevent being rolled over, then immediately re-establish hooks once their movement stops. Stay heavy and connected rather than trying to hold them static.
 
-### Mount Transition Path
-
-`Seat Belt Control Back Top → Opponent turns into you → Transition to Mount → Mount → Armbar from Mount`
-
-### Triangle from Back Chain
-
-`Seat Belt Control Back Top → Opponent defends with arms extended → Triangle from Back → Won by Submission`
+**Q8**: Opponent has cleared your bottom hook - how do you recover position before they complete the escape?
+**A**: Immediately transition to body triangle attempt with your top leg or swing the cleared leg over their body to establish reverse hooks. Simultaneously tighten seat belt grip and increase chest pressure to prevent further rotation. If body triangle isn't available, use your free leg to post and prevent them from completing the turn while working to re-insert the hook from a new angle. Consider transitioning to technical mount or gift wrap if hook recovery isn't immediately possible - maintaining some control is better than losing position entirely.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 

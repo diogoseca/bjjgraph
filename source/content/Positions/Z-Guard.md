@@ -93,32 +93,24 @@ From both offensive and defensive perspectives, Z-Guard serves as a critical hub
 - Create angles through hip escaping movements, never remaining square to opponent as this allows them to apply effective pressure through frames
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Old School Sweep]]** → [[Half Guard]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Old School Sweep]]** (14% of attempts)
 
-- **[[Underhook Sweep from Half]]** → [[Half Guard]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Underhook Sweep from Half]]** (14% of attempts)
 
-- **[[Deep Half Entry]]** → [[Deep Half Guard]]
-  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+- **[[Deep Half Entry]]** (13% of attempts)
 
-- **[[Back Take Generic]]** → [[Back Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Back Take Generic]]** (12% of attempts)
 
-- **[[Transition to Truck]]** → [[Truck]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Turtle to Truck]]** (11% of attempts)
 
-- **[[X-Guard Sweep]]** → [[X-Guard]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[X-Guard Sweep]]** (13% of attempts)
 
-- **[[Lockdown Sweeps]]** → [[Lockdown]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Lockdown Sweeps]]** (12% of attempts)
 
-- **[[Electric Chair Submission]]** → [[Electric Chair]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Electric Chair Submission]]** (11% of attempts)
 
 
 ### Common Mistakes
@@ -180,29 +172,22 @@ From both offensive and defensive perspectives, Z-Guard serves as a critical hub
 - Circle away from the underhook side while maintaining pressure to create passing angles
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Knee Slice Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+- **[[Knee Slice Pass]]** (18% of attempts)
 
-- **[[Knee Slice from Half]]** → [[Side Control]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Knee Slice from Half]]** (16% of attempts)
 
-- **[[Knee Cut Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Knee Cut Pass]]** (14% of attempts)
 
-- **[[Long Step Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Long Step Pass]]** (13% of attempts)
 
-- **[[Smash Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Smash Pass]]** (14% of attempts)
 
-- **[[Back Step]]** → [[Back Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Back Step]]** (12% of attempts)
 
-- **[[Underhook Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Underhook Pass]]** (13% of attempts)
 
 
 ### Common Mistakes
@@ -241,23 +226,23 @@ From both offensive and defensive perspectives, Z-Guard serves as a critical hub
 ## Related Positions
 
 
-- **[[Knee Shield Half Guard Bottom]]** - Parent position with lower knee placement on hip rather than shoulder
+- **[[Knee Shield Half Guard]]** - Parent position with lower knee placement on hip rather than shoulder
 
-- **[[Half Guard Bottom]]** - Base position from which Z-Guard structure is established
+- **[[Half Guard]]** - Base position from which Z-Guard structure is established
 
-- **[[Deep Half Guard Bottom]]** - Primary transition target when knee shield is collapsed by pressure
+- **[[Deep Half Guard]]** - Primary transition target when knee shield is collapsed by pressure
 
 - **[[Lockdown]]** - Alternative retention system that can be combined with Z-Guard frames
-
-- **[[Old School]]** - Signature sweep position accessed from Z-Guard when opponent posts hand
 
 - **[[Electric Chair]]** - Offensive submission position reached via lockdown integration
 
 - **[[Dogfight Position]]** - Common scramble position after partial Z-Guard sweep success
 
-- **[[Underhook Battle]]** - Critical grip fighting stage determining Z-Guard effectiveness
-
 - **[[Headquarters Position]]** - Related passing position from top player's perspective
+
+- **[[Side Control]]** - Common destination after successful pass or sweep
+
+- **[[Back Control]]** - Offensive target when opponent circles around knee shield
 
 
 </section>

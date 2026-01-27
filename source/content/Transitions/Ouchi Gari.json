@@ -11,8 +11,6 @@
     "foot-sweep",
     "off-balancing"
   ],
-  "starting_position": "Standing Position",
-  "ending_position": "Side Control",
   "success_rates": {
     "beginner": 30,
     "intermediate": 50,
@@ -297,6 +295,24 @@
     {
       "name": "Deashi Harai",
       "relationship": "Alternative technique - advanced foot sweep that can be used in combination with Ouchi Gari"
+    }
+  ],
+  "from_position": "Standing Position/Top",
+  "outcomes": [
+    {
+      "to": "Side Control/Top",
+      "probability": 70,
+      "result": "success"
+    },
+    {
+      "to": "Standing Position/Top",
+      "probability": 20,
+      "result": "failure"
+    },
+    {
+      "to": "Standing Position/Bottom",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

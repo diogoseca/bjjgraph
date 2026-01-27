@@ -21,37 +21,37 @@ description: "Master Squid Guard Top in BJJ. Learn guard passing strategies, lap
     {
       "@type": "HowToStep",
       "name": "Execute Stack Pass",
-      "text": "From this position, execute Stack Pass to transition to Side Control. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Stack Pass. This technique is attempted in 17% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag Pass",
-      "text": "From this position, execute Leg Drag Pass to transition to Leg Drag Control. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 16% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Step",
-      "text": "From this position, execute Back Step to transition to Reverse De La Riva Guard. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Back Step. This technique is attempted in 15% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Toreando Pass",
-      "text": "From this position, execute Toreando Pass to transition to Headquarters Position. Success rate for advanced practitioners: 78%.",
+      "text": "From this position, attempt Toreando Pass. This technique is attempted in 17% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Pressure Pass",
-      "text": "From this position, execute Pressure Pass to transition to Half Guard. Success rate for advanced practitioners: 80%.",
+      "text": "From this position, attempt Pressure Pass. This technique is attempted in 18% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, execute Knee Slice Pass to transition to Side Control. Success rate for advanced practitioners: 74%.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 17% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -211,77 +211,18 @@ Success in this position correlates strongly with lapel grip management, base ma
 
 ## Available Attacks
 
-### [[Stack Pass]] → [[Side Control]]
+### [[Stack Pass]] (17% of attempts)
 
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 60%
-- Advanced: 75%
+### [[Leg Drag Pass]] (16% of attempts)
 
-### [[Leg Drag Pass]] → [[Leg Drag Control]]
+### [[Back Step]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Toreando Pass]] (17% of attempts)
 
-### [[Back Step]] → [[Reverse De La Riva Guard]]
+### [[Pressure Pass]] (18% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Knee Slice Pass]] (17% of attempts)
 
-### [[Toreando Pass]] → [[Headquarters Position]]
-
-**Success Rates:**
-- Beginner: 50%
-- Intermediate: 65%
-- Advanced: 78%
-
-### [[Pressure Pass]] → [[Half Guard]]
-
-**Success Rates:**
-- Beginner: 55%
-- Intermediate: 68%
-- Advanced: 80%
-
-### [[Knee Slice Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 48%
-- Intermediate: 62%
-- Advanced: 74%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Berimbolo Entry]]** → [[Back Control]] (Opponent Success: 45%)
-- **[[Kiss of the Dragon]]** → [[Back Control]] (Opponent Success: 40%)
-- **[[De La Riva Sweep]]** → [[Mount]] (Opponent Success: 35%)
-- **[[Triangle Setup]]** → [[Triangle Control]] (Opponent Success: 30%)
-- **[[X-Guard Sweep]]** → [[X-Guard]] (Opponent Success: 38%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Back Step]]** → [[Headquarters Position]]
-  - Bottom player begins inversion sequence
-- **[[Stack Pass]]** → [[Side Control]]
-  - Bottom player attempts to deepen lapel control
-- **[[Knee Slice Pass]]** → [[Side Control]]
-  - Bottom player loses lapel tension momentarily
-- **[[Smash Pass]]** → [[Side Control]]
-  - Bottom player transitions to traditional guard retention
 
 
 </section>
@@ -388,29 +329,39 @@ Isolated drill focusing on preventing bottom player from deepening lapel grips w
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Fastest consolidation path
+## Test Your Knowledge
 
-`Squid Guard Top → Leg Drag Pass → Side Control → Mount → Armbar from Mount`
+**Q1**: What is the first priority when you find yourself in Squid Guard Top?
+**A**: The first priority is maintaining vertical posture and preventing forward collapse. Falling into the bottom player's attack range exposes you to inversions, back takes, and submission threats. Establish a wide base, keep your hips back, and focus on posture before attempting any passing sequences. Only after securing stable posture should you begin addressing the lapel entanglements.
 
-### Pressure-based submission path
+**Q2**: Your opponent begins inverting while maintaining tight lapel control - what immediate adjustment prevents back exposure?
+**A**: Execute a backstep motion by stepping your trapped leg backward while simultaneously establishing shoulder pressure or crossface on their upper body. This cuts off their inversion angle and prevents them from completing the rotation to your back. The backstep must be timed as they initiate the inversion, not after they achieve full rotation. Combine this with grip fighting to strip their lapel control.
 
-`Squid Guard Top → Stack Pass → Side Control → North-South → North-South Choke`
+**Q3**: Why must you clear the lapel entanglement before attempting traditional passing mechanics?
+**A**: The lapel creates a mechanical tether that restricts your movement and provides constant off-balancing leverage to the bottom player. Attempting passes like knee slice or toreando while still entangled allows them to redirect your momentum into sweeps or use the tension to recover guard. Systematically unwrapping or stripping the lapel first removes their primary control point and allows you to pass with normal mechanics.
 
-### Back attack counter path
+**Q4**: How should you respond when the bottom player's lapel grip momentarily loosens?
+**A**: Immediately capitalize on the window by explosively advancing your pass. A loose lapel grip indicates either fatigue or transition, both opportunities to clear the entanglement entirely or pass before they can re-establish control. Time your knee slice or toreando entry to this moment, using their grip weakness against them. Don't allow them to reset and re-secure the lapel.
 
-`Squid Guard Top → Back Step → Back Control → Rear Naked Choke`
+**Q5**: What is the critical base adjustment to prevent being swept by lapel tension?
+**A**: Maintain a wide stance with weight distributed evenly between both legs, keeping your hips low and centered over your base. Avoid standing tall on straight legs, which makes you vulnerable to off-balancing. When you feel lapel tension pulling in one direction, counterbalance by shifting weight to the opposite leg and widening your base further in that direction. The goal is to make yourself heavy and immovable despite their pulling.
 
-### Systematic passing to submission
+**Q6**: Your opponent achieves full inversion and threatens to take your back - what recovery sequence should you execute?
+**A**: Immediately sprawl your hips backward while driving shoulder pressure into their inverted body to flatten them. Strip any lapel grips with your hands while maintaining this pressure. If they've already started circling to your back, spin in the same direction they're moving to face them, abandoning the pass in favor of preventing the back take. Re-establish neutral positioning before attempting to pass again.
 
-`Squid Guard Top → Knee Slice Pass → Side Control → Kimura from Side Control`
+**Q7**: Why is controlling the bottom player's free hand essential when passing Squid Guard?
+**A**: The free hand is their primary tool for deepening lapel control, adjusting grips, and reinforcing their guard structure. Allowing them to freely manipulate the lapel means they can progressively tighten entanglements and create more complex passing problems. By controlling their free hand through wrist control or sleeve grips, you prevent them from improving their position while you work to clear the existing entanglement.
+
+**Q8**: How do you recognize when to abandon a specific passing direction and switch sides?
+**A**: Watch for defensive overcommitment - when the bottom player shifts their hips heavily to one side, loads their hook in a specific direction, or adjusts their lapel wrap to defend a particular pass. This defensive commitment creates vulnerability on the opposite side. Recognizing these patterns allows you to bait their defensive reactions and immediately attack the newly opened passing lane before they can readjust.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 

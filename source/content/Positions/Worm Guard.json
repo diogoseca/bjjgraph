@@ -1,7 +1,7 @@
 {
   "name": "Worm Guard",
   "slug": "worm-guard",
-  "description": "Master Worm Guard in BJJ. Innovative lapel-based guard with sweeps and back takes. Learn Keenan Cornelius's signature position with complete perspective analysis.",
+  "description": "Master Worm Guard in BJJ. Innovative lapel-based guard with sweeps and back takes. Complete guide to this advanced gi position with techniques from both perspectives.",
   "variant_uniqueness": "Lapel control trades mobility for leverage",
   "overview": "Worm Guard is an advanced lapel-based open guard position developed and popularized by Keenan Cornelius. The position is characterized by feeding the opponent's lapel behind their back and around their leg, creating a lasso-like configuration that immobilizes their movement and creates powerful sweeping and back-taking opportunities. The name derives from the serpentine path the lapel takes around the opponent's body. This guard represents a modern evolution in gi-based grappling, utilizing the gi itself as an extension of your limbs to create control and leverage that would be impossible in no-gi grappling. The position excels at neutralizing larger, stronger opponents through technical manipulation rather than physical force.\n\nThe Worm Guard is particularly effective because it simultaneously controls the opponent's posture, limits their base, and creates offensive opportunities. By wrapping the lapel around the opponent's leg and maintaining a firm grip, you create a mechanical disadvantage for your opponent that makes passing extremely difficult. The position allows for seamless transitions to other lapel guards like Squid Guard and Ringworm, as well as traditional positions like De La Riva and X-Guard. Understanding the Worm Guard system opens up an entire universe of lapel-based techniques that can dominate gi competition.\n\nAt its core, Worm Guard is about creating a web of control using the gi that restricts the opponent's options while maximizing your attacking opportunities. The position requires precise lapel manipulation, strong grip endurance, and the ability to read opponent reactions to set up sweeps and transitions. When executed properly, it can be one of the most frustrating positions to escape, often forcing opponents into desperate passing attempts that create easy sweep opportunities.",
   "key_principles": [
@@ -51,387 +51,6 @@
       "relationship": "Foundation guard that shares grip fighting principles"
     }
   ],
-  "bottom": {
-    "name": "Worm Guard Bottom",
-    "description": "Master Worm Guard Bottom in BJJ. Keenan Cornelius's lapel guard system with sleeve and pant control. Success rates: Beginner 25%, Intermediate 45%, Advanced 65%.",
-    "tags": [
-      "bjj",
-      "position",
-      "guard",
-      "open-guard",
-      "lapel-guard",
-      "worm",
-      "advanced"
-    ],
-    "overview": "Worm Guard Bottom is an innovative lapel-based guard system developed by Keenan Cornelius that uses the opponent's gi lapel woven through their own legs to create unique control and attack opportunities. The position combines lapel control with precise leg placement to create a control system that is extremely difficult to pass when executed correctly, while offering powerful sweeps and back take opportunities. The guard is established by extracting the opponent's lapel (typically the same-side lapel), feeding it under their leg, and wrapping it around your own shin or foot to create a tight connection. This lapel weave creates a mechanical control that restricts the opponent's movement and posture in ways that traditional guard systems cannot replicate. The position is heavily dependent on gi grips and cannot be applied in no-gi contexts. Worm guard excels against opponents who are unfamiliar with the system, as the control mechanisms and attack patterns are highly unusual compared to traditional guards. The position requires significant technical knowledge and practice to execute effectively, but rewards dedicated study with a guard system that can shut down even expert passers.",
-    "state_properties": {
-      "point_value": 0,
-      "position_type": "Offensive",
-      "risk_level": "Medium",
-      "energy_cost": "Medium",
-      "time_sustainability": "Medium"
-    },
-    "state_invariants": [
-      "Opponent's lapel extracted and woven under their own leg (typically near-side leg), creating the foundational control mechanism with lapel passing from outside to inside under their thigh",
-      "Lapel wrapped tightly around your shin or foot with constant tension maintained through pulling grip, creating locked connection that restricts opponent's leg movement and prevents backward escape",
-      "Your leg threading through or hooking opponent's leg with lapel wrapped around it, pinning their leg in place and preventing extraction which would collapse entire guard structure",
-      "Opposite side sleeve or pant grip established to break opponent's symmetry and posture, making it impossible for them to establish stable base for passing pressure",
-      "Your hips positioned at optimal angle relative to opponent (typically perpendicular or slightly angled) to maximize off-balancing leverage despite lapel connection limiting some mobility",
-      "Free leg actively managing distance and creating frames to prevent opponent from closing distance for smash passing while maintaining proper ranges for sweeps and attacks"
-    ],
-    "prerequisites": [
-      "Opponent wearing gi with accessible lapel that can be extracted and controlled",
-      "Open guard position established with sufficient space to access and manipulate opponent's lapel",
-      "Ability to break opponent's grips to free hands for lapel extraction and feeding sequence",
-      "Understanding of lapel feeding mechanics and proper weave depth under opponent's leg",
-      "Opponent positioned close enough to establish lapel control but not yet in dominant passing position",
-      "Familiarity with basic lapel guard concepts and grip fighting strategies in gi"
-    ],
-    "key_principles": [
-      "Lapel Weave Integrity: Maintain constant tension on the lapel wrapped through opponent's leg and around your shin to preserve primary control mechanism",
-      "Leg Pin Control: Use lapel-wrapped leg to pin opponent's leg in place, preventing backward escape or leg extraction which would break the guard",
-      "Opposite Side Disruption: Control opponent's opposite sleeve to break symmetry and posture, making it impossible for them to establish stable passing pressure",
-      "Distance Management with Free Leg: Actively use free leg to manage optimal distance, preventing close-range smash while maintaining attack ranges",
-      "Hip Angle Adjustment: Constantly adjust hip angles despite lapel connection to create off-balancing forces that set up sweeps",
-      "Predictive Counter Strategy: Understand that worm guard forces opponent into limited passing options which you can anticipate and counter systematically",
-      "Grip Endurance Focus: Worm guard requires sustained grip strength on lapel and sleeve; develop grip endurance for extended exchanges"
-    ],
-    "offensive_transitions": [
-      {
-        "technique": "Omoplata Sweep",
-        "target_position": "Mount",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 45,
-          "advanced": 65
-        }
-      },
-      {
-        "technique": "Triangle Setup",
-        "target_position": "Triangle Control",
-        "success_rates": {
-          "beginner": 20,
-          "intermediate": 40,
-          "advanced": 60
-        }
-      },
-      {
-        "technique": "Omoplata to Back",
-        "target_position": "Back Control",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 50,
-          "advanced": 70
-        }
-      },
-      {
-        "technique": "Lasso Guard Sweeps",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 45,
-          "advanced": 65
-        }
-      },
-      {
-        "technique": "X-Guard Sweep",
-        "target_position": "Mount",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 50,
-          "advanced": 70
-        }
-      },
-      {
-        "technique": "De La Riva Sweep",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 45,
-          "advanced": 65
-        }
-      },
-      {
-        "technique": "Bolo Sweep",
-        "target_position": "Back Control",
-        "success_rates": {
-          "beginner": 15,
-          "intermediate": 35,
-          "advanced": 55
-        }
-      },
-      {
-        "technique": "Triangle from Guard",
-        "target_position": "Triangle Control",
-        "success_rates": {
-          "beginner": 20,
-          "intermediate": 40,
-          "advanced": 60
-        }
-      }
-    ],
-    "defensive_responses": [
-      {
-        "technique": "Lasso Guard Pass",
-        "target_position": "Side Control",
-        "success_rate": 30
-      },
-      {
-        "technique": "Knee Slice Pass",
-        "target_position": "Side Control",
-        "success_rate": 25
-      },
-      {
-        "technique": "Long Step Pass",
-        "target_position": "Side Control",
-        "success_rate": 35
-      },
-      {
-        "technique": "Pressure Pass",
-        "target_position": "Side Control",
-        "success_rate": 20
-      },
-      {
-        "technique": "Stack Pass",
-        "target_position": "Side Control",
-        "success_rate": 25
-      },
-      {
-        "technique": "Toreando Pass",
-        "target_position": "Side Control",
-        "success_rate": 30
-      }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Triangle Setup",
-        "target_position": "Triangle Control",
-        "trigger": "Opponent attempts to posture up and break lapel grip"
-      },
-      {
-        "technique": "Omoplata Sweep",
-        "target_position": "Mount",
-        "trigger": "Opponent tries to circle away from lapel-wrapped leg"
-      },
-      {
-        "technique": "X-Guard Sweep",
-        "target_position": "Mount",
-        "trigger": "Opponent stands to escape lapel control"
-      },
-      {
-        "technique": "De La Riva Sweep",
-        "target_position": "Side Control",
-        "trigger": "Opponent drives forward trying to smash through guard"
-      },
-      {
-        "technique": "Omoplata to Back",
-        "target_position": "Back Control",
-        "trigger": "Opponent commits weight forward while defending sweep"
-      }
-    ],
-    "decision_tree": [
-      {
-        "condition": "If opponent establishes strong posture and attempts to break lapel grip by standing or pulling backward",
-        "actions": [
-          {
-            "technique": "X-Guard Sweep",
-            "target": "Mount",
-            "probability": 60
-          },
-          {
-            "technique": "Triangle Setup",
-            "target": "Triangle Control",
-            "probability": 50
-          }
-        ]
-      },
-      {
-        "condition": "If opponent circles away from the lapel-wrapped leg trying to escape control mechanism",
-        "actions": [
-          {
-            "technique": "Omoplata Sweep",
-            "target": "Mount",
-            "probability": 65
-          },
-          {
-            "technique": "Omoplata to Back",
-            "target": "Back Control",
-            "probability": 70
-          }
-        ]
-      },
-      {
-        "condition": "If opponent drives forward with pressure attempting to smash through guard structure",
-        "actions": [
-          {
-            "technique": "De La Riva Sweep",
-            "target": "Side Control",
-            "probability": 55
-          },
-          {
-            "technique": "Lasso Guard Sweeps",
-            "target": "Side Control",
-            "probability": 60
-          }
-        ]
-      },
-      {
-        "condition": "If opponent attempts to clear lapel wrap by extracting their trapped leg",
-        "actions": [
-          {
-            "technique": "Triangle from Guard",
-            "target": "Triangle Control",
-            "probability": 45
-          },
-          {
-            "technique": "Bolo Sweep",
-            "target": "Back Control",
-            "probability": 50
-          }
-        ]
-      }
-    ],
-    "common_errors": [
-      {
-        "error": "Losing lapel tension during transitions or adjustment movements",
-        "consequence": "Entire worm guard structure collapses if lapel loses tension, allowing opponent to extract leg and escape control system. Without tight lapel connection, position becomes ineffective standard open guard.",
-        "correction": "Maintain constant pulling pressure on lapel throughout position. Monitor lapel wrap around shin/foot to ensure it stays tight. If tension loosens, immediately adjust or transition to different position before opponent recognizes weakness."
-      },
-      {
-        "error": "Feeding lapel incorrectly with insufficient depth under opponent's leg",
-        "consequence": "Incorrect lapel weave angle or depth makes control weak and easy to clear. Improper feed can also create false sense of security that collapses under pressure.",
-        "correction": "Practice deliberate lapel feeding—pull ample lapel material, feed deep under their leg (not shallow), wrap tightly around your shin/foot with proper tension. Seek coaching on exact mechanics of lapel weave to ensure proper execution."
-      },
-      {
-        "error": "Neglecting opposite side sleeve or pant control while focusing solely on lapel",
-        "consequence": "Opponent can establish stable base and posture with free arm, allowing them to generate passing pressure or clear lapel control more easily.",
-        "correction": "Always maintain grip on opponent's opposite sleeve or pant to break their symmetry. This grip is equally important as lapel control—it prevents them from establishing stable passing structure."
-      },
-      {
-        "error": "Allowing opponent to close distance without using free leg to manage space",
-        "consequence": "Opponent can collapse distance and initiate smash passing sequences that neutralize worm guard's off-balancing mechanics and make sweeps less effective.",
-        "correction": "Actively use free leg to create frames and manage distance. Push opponent away when they try to close distance, maintaining optimal range for your attacks while preventing their passing attempts."
-      },
-      {
-        "error": "Remaining static with hip positioning instead of creating angles for sweeps",
-        "consequence": "Without dynamic hip movement, sweeps become weak and telegraphed. Opponent can anchor their base against predictable attack angles.",
-        "correction": "Continuously adjust hip angles relative to opponent to create off-balancing forces. Move hips perpendicular, at angles, or in circles to generate momentum for sweeps and keep opponent off-balance."
-      },
-      {
-        "error": "Failing to recognize when lapel control is compromised and attempting to force position",
-        "consequence": "Continuing to play worm guard after lapel connection is broken wastes energy and allows opponent to advance position while you attempt ineffective techniques.",
-        "correction": "Develop sensitivity to recognize when lapel control is truly lost versus temporarily loosened. When compromised, immediately transition to alternative guard (spider, lasso, DLR) rather than forcing broken worm guard structure."
-      }
-    ],
-    "training_drills": [
-      {
-        "name": "Lapel Extraction and Weave Repetition Drill",
-        "description": "Start in open guard. Practice extracting opponent's lapel, feeding it under their leg at various depths, and wrapping around your shin. Reset and repeat 20 times per side. Focus on speed and precision of lapel manipulation. Partner provides light resistance, gradually increasing as proficiency improves.",
-        "duration": "5 minutes per side"
-      },
-      {
-        "name": "Worm Guard Retention Against Passing Attempts",
-        "description": "Establish full worm guard position. Partner attempts to pass using various methods (knee slice, toreando, long step, pressure) while you maintain lapel tension and use principles to retain guard. 3-minute rounds, focusing purely on retention without attempting sweeps. Partner gradually increases passing intensity.",
-        "duration": "3-minute rounds, 5 rounds"
-      },
-      {
-        "name": "Sweep Chain Flow Drill from Worm Guard",
-        "description": "Partner in worm guard, you attempt smooth chains: omoplata sweep → triangle setup → X-guard sweep → back take. Flow through sequences with moderate resistance. Focus on maintaining lapel control throughout transitions and creating proper angles for each attack. Switch roles every 5 minutes.",
-        "duration": "10 minutes total"
-      },
-      {
-        "name": "Grip Fighting for Worm Guard Establishment",
-        "description": "Start in neutral open guard. Both partners grip fight—you attempt to establish worm guard (extract lapel, feed, wrap) while partner prevents it and attempts to establish passing grips. When worm guard is established or pass is initiated, reset. Develops realistic timing for worm guard entries under resistance.",
-        "duration": "4-minute rounds, 4 rounds"
-      }
-    ],
-    "optimal_submission_paths": [
-      {
-        "name": "Shortest path to triangle submission",
-        "path": "Worm Guard Bottom → Triangle Setup → Triangle Control → Triangle from Guard"
-      },
-      {
-        "name": "High-percentage path to omoplata",
-        "path": "Worm Guard Bottom → Omoplata Sweep → Omoplata Control → Omoplata from Guard"
-      },
-      {
-        "name": "Back attack path",
-        "path": "Worm Guard Bottom → Omoplata to Back → Back Control → Rear Naked Choke"
-      },
-      {
-        "name": "Sweep to armbar chain",
-        "path": "Worm Guard Bottom → X-Guard Sweep → Mount → Armbar from Mount"
-      },
-      {
-        "name": "Alternative triangle finish path",
-        "path": "Worm Guard Bottom → Lasso Guard Sweeps → Mount → Triangle from Mount"
-      }
-    ],
-    "related_content": [
-      {
-        "name": "Lapel Guard",
-        "relationship": "Parent category - worm guard is specialized lapel guard variation"
-      },
-      {
-        "name": "Squid Guard",
-        "relationship": "Advanced progression - adds additional leg control to worm structure"
-      },
-      {
-        "name": "Lasso Guard",
-        "relationship": "Similar control mechanism - uses leg threading for control"
-      },
-      {
-        "name": "Spider Guard",
-        "relationship": "Complementary guard - can transition between systems"
-      },
-      {
-        "name": "De La Riva Guard",
-        "relationship": "Related guard system - similar leg positioning concepts"
-      },
-      {
-        "name": "X-Guard",
-        "relationship": "Common transition target - frequently entered from worm sweeps"
-      },
-      {
-        "name": "Triangle Control",
-        "relationship": "Primary submission target - high-percentage finish from worm"
-      },
-      {
-        "name": "Omoplata Control",
-        "relationship": "Primary attack - signature submission from worm guard"
-      },
-      {
-        "name": "Back Control",
-        "relationship": "High-value transition - omoplata to back is key sequence"
-      },
-      {
-        "name": "Keenan Cornelius Lapel Guard System",
-        "relationship": "Source system - worm guard was developed as part of this system"
-      },
-      {
-        "name": "Guard Retention Concepts",
-        "relationship": "Fundamental principle - worm guard implements advanced retention"
-      }
-    ],
-    "position_metrics": {
-      "retention_rate": {
-        "beginner": 30,
-        "intermediate": 50,
-        "advanced": 70
-      },
-      "advancement_probability": {
-        "beginner": 30,
-        "intermediate": 50,
-        "advanced": 70
-      },
-      "submission_probability": {
-        "beginner": 20,
-        "intermediate": 35,
-        "advanced": 50
-      },
-      "average_time": "1-3 minutes"
-    }
-  },
   "top": {
     "name": "Worm Guard Top",
     "description": "Master Worm Guard Top position in BJJ. Complete passing guide covering leg drag entries, pressure passing, and lapel control breaks with 60% pass rate for advanced players.",
@@ -474,99 +93,38 @@
       "Recognize that patience and methodical dismantling are more effective than speed",
       "Keep hips back and weight balanced to prevent the lapel from creating effective leverage"
     ],
-    "offensive_transitions": [
+    "knowledge_assessment": [
       {
-        "technique": "Leg Drag Pass",
-        "target_position": "Leg Drag Control",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 45,
-          "advanced": 60
-        }
+        "question": "What is the fundamental strategic error when attempting to pass worm guard with forward pressure while the lapel is still wrapped?",
+        "answer": "Forward pressure into an active lapel wrap creates perfect mechanical leverage for the bottom player to execute sweeps. The lapel acts as a lever that amplifies any forward weight commitment, converting your passing energy directly into sweep momentum. The correct approach is to first address and neutralize the lapel entanglement through systematic grip stripping or leg extraction before applying any forward pressure."
       },
       {
-        "technique": "Toreando Pass",
-        "target_position": "Headquarters Position",
-        "success_rates": {
-          "beginner": 20,
-          "intermediate": 40,
-          "advanced": 55
-        }
+        "question": "How should you position your base and weight distribution when facing an established worm guard?",
+        "answer": "Maintain a wide athletic base with hips back and weight distributed evenly between both legs. Keep your center of gravity low enough to resist off-balancing attempts but high enough to maintain mobility for grip fighting. Avoid narrow stances or excessive forward lean, as these create easy sweep targets. Your weight should never commit forward until the lapel control is completely neutralized."
       },
       {
-        "technique": "Smash Pass",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 15,
-          "intermediate": 35,
-          "advanced": 50
-        }
+        "question": "Your opponent has tight lapel control and you feel them starting to generate rotational momentum for a sweep - what adjustment do you make?",
+        "answer": "Immediately establish control of their far side collar or far shoulder to counter-act the rotation. Drop your base lower and widen your stance to increase stability. If rotation continues, step in the direction of the rotation to neutralize their momentum rather than fighting against it. Consider temporarily disengaging to reset your position rather than fighting through an active sweep attempt."
       },
       {
-        "technique": "Knee Slice Pass",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 20,
-          "intermediate": 38,
-          "advanced": 52
-        }
+        "question": "Why is patience more important than speed when passing worm guard?",
+        "answer": "Explosive speed-based passing attempts against worm guard typically fail because the lapel mechanics redirect explosive energy into sweep momentum. The bottom player's control system is specifically designed to capitalize on hasty movements. Methodical, patient dismantling allows you to systematically address each layer of control without creating opportunities for counter-attacks. Speed-based passes should only be attempted after lapel tension is broken."
       },
       {
-        "technique": "Long Step Pass",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 18,
-          "intermediate": 35,
-          "advanced": 48
-        }
+        "question": "What is the correct sequence for addressing multiple layers of worm guard control (lapel wrap plus collar/sleeve grips)?",
+        "answer": "Prioritize breaking one control system completely before addressing the other. Typically, start by either removing the lapel wrap or stripping the most threatening grip that's enabling their attacks. Attempting to address everything simultaneously divides your attention and allows them to maintain at least one strong control point. Once one system is cleared, the remaining grips become much easier to manage."
       },
       {
-        "technique": "Stack Pass",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 12,
-          "intermediate": 28,
-          "advanced": 42
-        }
-      }
-    ],
-    "defensive_responses": [
-      {
-        "technique": "X-Guard Sweep",
-        "target_position": "Mount",
-        "success_rate": 45
+        "question": "When is it appropriate to disengage and reset versus continuing to engage against a well-established worm guard?",
+        "answer": "Disengage and reset when you're caught in a sweep attempt you cannot counter, when the lapel control has been reinforced after a failed passing attempt, or when you find yourself in a stalemate burning excessive energy. However, complete disengagement allows them to reset and strengthen their guard structure. The ideal approach is maintaining engagement with strategic grips while systematically working through positional problems."
       },
       {
-        "technique": "Omoplata to Back",
-        "target_position": "Back Control",
-        "success_rate": 35
+        "question": "How do you recognize when the lapel tension is broken enough to initiate traditional passing mechanics?",
+        "answer": "The lapel tension is sufficiently broken when you can move your trapped leg freely without feeling the pulling resistance that creates off-balancing leverage. Visual indicators include the lapel hanging slack rather than taut, and your leg moving independently of their hip movements. At this point, traditional passes like leg drag or toreando become viable because the mechanical connection between their lapel control and your movement is severed."
       },
       {
-        "technique": "Triangle Setup",
-        "target_position": "Triangle Control",
-        "success_rate": 25
-      },
-      {
-        "technique": "Omoplata Sweep",
-        "target_position": "Mount",
-        "success_rate": 30
-      }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Leg Drag Pass",
-        "target_position": "Leg Drag Control",
-        "trigger": "Bottom player commits to sweep attempt with extended legs"
-      },
-      {
-        "technique": "Leg Weave Pass",
-        "target_position": "Side Control",
-        "trigger": "Bottom player inverts for back take attempt"
-      },
-      {
-        "technique": "Smash Pass",
-        "target_position": "Side Control",
-        "trigger": "Bottom player attempts to recover guard or triangle"
+        "question": "What passing techniques are most effective once you've neutralized the lapel wrap?",
+        "answer": "Once lapel tension is broken, leg drag pass becomes highly effective as their compromised leg control creates easy access to drag the leg across their body. Toreando pass works well since they can no longer use the lapel to prevent lateral movement. Knee slice pass is viable if you can establish inside position before they re-establish control. The key is executing your chosen pass immediately before they can re-feed the lapel."
       }
     ],
     "decision_tree": [
@@ -685,28 +243,10 @@
         "duration": "2-3 minute rounds, 4-5 rounds"
       }
     ],
-    "optimal_submission_paths": [
-      {
-        "name": "Pass to Side Control Submission Path",
-        "path": "Worm Guard Top → Leg Drag Pass → Leg Drag Control → Side Control → Kimura from Side Control"
-      },
-      {
-        "name": "Smash to Mount Submission Path",
-        "path": "Worm Guard Top → Smash Pass → Side Control → Mount → Armbar from Mount"
-      },
-      {
-        "name": "Stack to North-South Submission Path",
-        "path": "Worm Guard Top → Stack Pass → Side Control → North-South → North-South Choke"
-      },
-      {
-        "name": "Toreando to Back Attack Path",
-        "path": "Worm Guard Top → Toreando Pass → Turtle → Back Control → Rear Naked Choke"
-      }
-    ],
     "related_content": [
       {
-        "name": "Worm Guard Bottom",
-        "relationship": "Opposite perspective of same position"
+        "name": "Worm Guard",
+        "relationship": "Hub position for both perspectives"
       },
       {
         "name": "Lapel Guard",
@@ -733,12 +273,12 @@
         "relationship": "Key passing option when lapel control is neutralized"
       },
       {
-        "name": "Guard Passing Principles",
-        "relationship": "Conceptual foundation for position"
+        "name": "Knee Slice Pass",
+        "relationship": "Effective pass once inside position is established"
       },
       {
-        "name": "Grip Fighting Strategies",
-        "relationship": "Core concept for managing lapel entanglements"
+        "name": "Side Control",
+        "relationship": "Primary destination after successful pass"
       }
     ],
     "position_metrics": {
@@ -758,6 +298,326 @@
         "advanced": 20
       },
       "average_time": "45-90 seconds for successful pass"
-    }
+    },
+    "transitions": [
+      {
+        "transition": "Leg Drag Pass",
+        "attempt_probability": 19
+      },
+      {
+        "transition": "Toreando Pass",
+        "attempt_probability": 18
+      },
+      {
+        "transition": "Smash Pass",
+        "attempt_probability": 16
+      },
+      {
+        "transition": "Knee Slice Pass",
+        "attempt_probability": 17
+      },
+      {
+        "transition": "Long Step Pass",
+        "attempt_probability": 16
+      },
+      {
+        "transition": "Stack Pass",
+        "attempt_probability": 14
+      }
+    ]
+  },
+  "bottom": {
+    "name": "Worm Guard Bottom",
+    "description": "Master Worm Guard Bottom in BJJ. Advanced lapel guard system with sleeve and pant control. Success rates: Beginner 25%, Intermediate 45%, Advanced 65%.",
+    "tags": [
+      "bjj",
+      "position",
+      "guard",
+      "open-guard",
+      "lapel-guard",
+      "worm",
+      "advanced"
+    ],
+    "overview": "Worm Guard Bottom is an innovative lapel-based guard system developed by Keenan Cornelius that uses the opponent's gi lapel woven through their own legs to create unique control and attack opportunities. The position combines lapel control with precise leg placement to create a control system that is extremely difficult to pass when executed correctly, while offering powerful sweeps and back take opportunities. The guard is established by extracting the opponent's lapel (typically the same-side lapel), feeding it under their leg, and wrapping it around your own shin or foot to create a tight connection. This lapel weave creates a mechanical control that restricts the opponent's movement and posture in ways that traditional guard systems cannot replicate. The position is heavily dependent on gi grips and cannot be applied in no-gi contexts. Worm guard excels against opponents who are unfamiliar with the system, as the control mechanisms and attack patterns are highly unusual compared to traditional guards. The position requires significant technical knowledge and practice to execute effectively, but rewards dedicated study with a guard system that can shut down even expert passers.",
+    "state_properties": {
+      "point_value": 0,
+      "position_type": "Offensive",
+      "risk_level": "Medium",
+      "energy_cost": "Medium",
+      "time_sustainability": "Medium"
+    },
+    "state_invariants": [
+      "Opponent's lapel extracted and woven under their own leg (typically near-side leg), creating the foundational control mechanism with lapel passing from outside to inside under their thigh",
+      "Lapel wrapped tightly around your shin or foot with constant tension maintained through pulling grip, creating locked connection that restricts opponent's leg movement and prevents backward escape",
+      "Your leg threading through or hooking opponent's leg with lapel wrapped around it, pinning their leg in place and preventing extraction which would collapse entire guard structure",
+      "Opposite side sleeve or pant grip established to break opponent's symmetry and posture, making it impossible for them to establish stable base for passing pressure",
+      "Your hips positioned at optimal angle relative to opponent (typically perpendicular or slightly angled) to maximize off-balancing leverage despite lapel connection limiting some mobility",
+      "Free leg actively managing distance and creating frames to prevent opponent from closing distance for smash passing while maintaining proper ranges for sweeps and attacks"
+    ],
+    "prerequisites": [
+      "Opponent wearing gi with accessible lapel that can be extracted and controlled",
+      "Open guard position established with sufficient space to access and manipulate opponent's lapel",
+      "Ability to break opponent's grips to free hands for lapel extraction and feeding sequence",
+      "Understanding of lapel feeding mechanics and proper weave depth under opponent's leg",
+      "Opponent positioned close enough to establish lapel control but not yet in dominant passing position",
+      "Familiarity with basic lapel guard concepts and grip fighting strategies in gi"
+    ],
+    "key_principles": [
+      "Lapel Weave Integrity: Maintain constant tension on the lapel wrapped through opponent's leg and around your shin to preserve primary control mechanism",
+      "Leg Pin Control: Use lapel-wrapped leg to pin opponent's leg in place, preventing backward escape or leg extraction which would break the guard",
+      "Opposite Side Disruption: Control opponent's opposite sleeve to break symmetry and posture, making it impossible for them to establish stable passing pressure",
+      "Distance Management with Free Leg: Actively use free leg to manage optimal distance, preventing close-range smash while maintaining attack ranges",
+      "Hip Angle Adjustment: Constantly adjust hip angles despite lapel connection to create off-balancing forces that set up sweeps",
+      "Predictive Counter Strategy: Understand that worm guard forces opponent into limited passing options which you can anticipate and counter systematically",
+      "Grip Endurance Focus: Worm guard requires sustained grip strength on lapel and sleeve; develop grip endurance for extended exchanges"
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the most critical element for maintaining worm guard retention against passing attempts?",
+        "answer": "Constant tension on the lapel wrap is the most critical element. The moment tension is lost, the entire mechanical advantage of worm guard disappears and the position degrades to a standard open guard. Maintain pulling pressure on the lapel throughout all movements and transitions. If tension loosens, immediately re-tighten or transition to an alternative guard before the opponent can capitalize on the momentary weakness."
+      },
+      {
+        "question": "How do you properly feed the lapel to establish the worm guard configuration?",
+        "answer": "Extract sufficient lapel material from the opponent's gi, then feed it deep under their leg from outside to inside, passing under their thigh rather than shallow across the surface. The lapel should travel a complete path under their leg before wrapping around your shin or foot. Shallow feeds create weak control that collapses under pressure. Practice pulling ample lapel material and feeding at proper depth to create tight, secure connection."
+      },
+      {
+        "question": "Your opponent begins closing distance aggressively - what adjustment do you make to prevent the smash pass?",
+        "answer": "Immediately engage your free leg to create frames against their hip or shoulder, pushing them back to optimal distance. If they continue advancing, extend your legs and use the lapel connection as a lever to off-balance them forward into a sweep opportunity. Never allow them to collapse distance without resistance, as close-range negates worm guard's off-balancing mechanics and enables smash passing sequences."
+      },
+      {
+        "question": "Why is opposite side sleeve or pant control essential in worm guard?",
+        "answer": "The opposite side grip breaks the opponent's symmetry and prevents them from establishing a stable base for passing. Without this secondary control, opponents can posture freely, generate passing pressure with their uncontrolled side, and more easily strip your lapel grip. This grip creates a two-point control system that makes the position exponentially more difficult to escape than lapel control alone."
+      },
+      {
+        "question": "How should you adjust your hip angle when you feel the opponent trying to establish passing pressure?",
+        "answer": "Continuously adjust hip angles relative to the opponent to create off-balancing forces. Move hips perpendicular, at angles, or in circular motions to generate momentum for sweeps and keep them off-balance. Static hip positioning makes your sweeps predictable and allows opponents to anchor their base. Dynamic hip movement is what transforms worm guard from a stalling position into an attacking platform."
+      },
+      {
+        "question": "When should you transition away from worm guard to an alternative guard system?",
+        "answer": "Transition immediately when you recognize the lapel control is truly compromised rather than temporarily loosened. Signs include significant slack in the lapel, inability to generate off-balancing pressure, or feeling the opponent's leg moving independently of your control. Forcing a broken worm guard wastes energy and allows position advancement. Common transitions include spider guard, lasso guard, or De La Riva guard depending on the grips you can maintain."
+      },
+      {
+        "question": "What grip endurance strategies help maintain worm guard effectiveness during extended exchanges?",
+        "answer": "Alternate between maximum tension when attacking and slightly reduced tension during neutral moments to prevent grip fatigue. Use your shin and foot to share the load rather than relying purely on hand strength. Train specific grip endurance exercises like dead hangs, farmer's carries, and gi pull-ups. During exchanges, if grip fatigue becomes critical, immediately transition to an alternative guard rather than fighting with compromised grips."
+      },
+      {
+        "question": "How do you create sweep opportunities when the opponent maintains a stable, wide base?",
+        "answer": "Use the lapel control to continuously apply off-balancing pressure in the direction their trapped leg cannot recover, forcing them to narrow their base to resist. Create angles with hip movement that expose gaps in their base structure. Chain multiple sweep threats together so their defensive reaction to one threat opens them to another. The key is persistent pressure that gradually degrades their base rather than single explosive attempts."
+      }
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent establishes strong posture and attempts to break lapel grip by standing or pulling backward",
+        "actions": [
+          {
+            "technique": "X-Guard Sweep",
+            "target": "Mount",
+            "probability": 60
+          },
+          {
+            "technique": "Triangle Setup",
+            "target": "Triangle Control",
+            "probability": 50
+          }
+        ]
+      },
+      {
+        "condition": "If opponent circles away from the lapel-wrapped leg trying to escape control mechanism",
+        "actions": [
+          {
+            "technique": "Omoplata Sweep",
+            "target": "Mount",
+            "probability": 65
+          },
+          {
+            "technique": "Omoplata to Back",
+            "target": "Back Control",
+            "probability": 70
+          }
+        ]
+      },
+      {
+        "condition": "If opponent drives forward with pressure attempting to smash through guard structure",
+        "actions": [
+          {
+            "technique": "De La Riva Sweep",
+            "target": "Side Control",
+            "probability": 55
+          },
+          {
+            "technique": "Lasso Guard Sweeps",
+            "target": "Side Control",
+            "probability": 60
+          }
+        ]
+      },
+      {
+        "condition": "If opponent attempts to clear lapel wrap by extracting their trapped leg",
+        "actions": [
+          {
+            "technique": "Triangle from Guard",
+            "target": "Triangle Control",
+            "probability": 45
+          },
+          {
+            "technique": "Bolo Sweep",
+            "target": "Back Control",
+            "probability": 50
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Losing lapel tension during transitions or adjustment movements",
+        "consequence": "Entire worm guard structure collapses if lapel loses tension, allowing opponent to extract leg and escape control system. Without tight lapel connection, position becomes ineffective standard open guard.",
+        "correction": "Maintain constant pulling pressure on lapel throughout position. Monitor lapel wrap around shin/foot to ensure it stays tight. If tension loosens, immediately adjust or transition to different position before opponent recognizes weakness."
+      },
+      {
+        "error": "Feeding lapel incorrectly with insufficient depth under opponent's leg",
+        "consequence": "Incorrect lapel weave angle or depth makes control weak and easy to clear. Improper feed can also create false sense of security that collapses under pressure.",
+        "correction": "Practice deliberate lapel feeding—pull ample lapel material, feed deep under their leg (not shallow), wrap tightly around your shin/foot with proper tension. Seek coaching on exact mechanics of lapel weave to ensure proper execution."
+      },
+      {
+        "error": "Neglecting opposite side sleeve or pant control while focusing solely on lapel",
+        "consequence": "Opponent can establish stable base and posture with free arm, allowing them to generate passing pressure or clear lapel control more easily.",
+        "correction": "Always maintain grip on opponent's opposite sleeve or pant to break their symmetry. This grip is equally important as lapel control—it prevents them from establishing stable passing structure."
+      },
+      {
+        "error": "Allowing opponent to close distance without using free leg to manage space",
+        "consequence": "Opponent can collapse distance and initiate smash passing sequences that neutralize worm guard's off-balancing mechanics and make sweeps less effective.",
+        "correction": "Actively use free leg to create frames and manage distance. Push opponent away when they try to close distance, maintaining optimal range for your attacks while preventing their passing attempts."
+      },
+      {
+        "error": "Remaining static with hip positioning instead of creating angles for sweeps",
+        "consequence": "Without dynamic hip movement, sweeps become weak and telegraphed. Opponent can anchor their base against predictable attack angles.",
+        "correction": "Continuously adjust hip angles relative to opponent to create off-balancing forces. Move hips perpendicular, at angles, or in circles to generate momentum for sweeps and keep opponent off-balance."
+      },
+      {
+        "error": "Failing to recognize when lapel control is compromised and attempting to force position",
+        "consequence": "Continuing to play worm guard after lapel connection is broken wastes energy and allows opponent to advance position while you attempt ineffective techniques.",
+        "correction": "Develop sensitivity to recognize when lapel control is truly lost versus temporarily loosened. When compromised, immediately transition to alternative guard (spider, lasso, DLR) rather than forcing broken worm guard structure."
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Lapel Extraction and Weave Repetition Drill",
+        "description": "Start in open guard. Practice extracting opponent's lapel, feeding it under their leg at various depths, and wrapping around your shin. Reset and repeat 20 times per side. Focus on speed and precision of lapel manipulation. Partner provides light resistance, gradually increasing as proficiency improves.",
+        "duration": "5 minutes per side"
+      },
+      {
+        "name": "Worm Guard Retention Against Passing Attempts",
+        "description": "Establish full worm guard position. Partner attempts to pass using various methods (knee slice, toreando, long step, pressure) while you maintain lapel tension and use principles to retain guard. 3-minute rounds, focusing purely on retention without attempting sweeps. Partner gradually increases passing intensity.",
+        "duration": "3-minute rounds, 5 rounds"
+      },
+      {
+        "name": "Sweep Chain Flow Drill from Worm Guard",
+        "description": "Partner in worm guard, you attempt smooth chains: omoplata sweep to triangle setup to X-guard sweep to back take. Flow through sequences with moderate resistance. Focus on maintaining lapel control throughout transitions and creating proper angles for each attack. Switch roles every 5 minutes.",
+        "duration": "10 minutes total"
+      },
+      {
+        "name": "Grip Fighting for Worm Guard Establishment",
+        "description": "Start in neutral open guard. Both partners grip fight—you attempt to establish worm guard (extract lapel, feed, wrap) while partner prevents it and attempts to establish passing grips. When worm guard is established or pass is initiated, reset. Develops realistic timing for worm guard entries under resistance.",
+        "duration": "4-minute rounds, 4 rounds"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Worm Guard",
+        "relationship": "Hub position for both perspectives"
+      },
+      {
+        "name": "Lapel Guard",
+        "relationship": "Parent category - worm guard is specialized lapel guard variation"
+      },
+      {
+        "name": "Squid Guard",
+        "relationship": "Advanced progression - adds additional leg control to worm structure"
+      },
+      {
+        "name": "Lasso Guard",
+        "relationship": "Similar control mechanism - uses leg threading for control"
+      },
+      {
+        "name": "Spider Guard",
+        "relationship": "Complementary guard - can transition between systems"
+      },
+      {
+        "name": "De La Riva Guard",
+        "relationship": "Related guard system - similar leg positioning concepts"
+      },
+      {
+        "name": "X-Guard",
+        "relationship": "Common transition target - frequently entered from worm sweeps"
+      },
+      {
+        "name": "Triangle Control",
+        "relationship": "Primary submission target - high-percentage finish from worm"
+      },
+      {
+        "name": "Omoplata Control",
+        "relationship": "Primary attack - signature submission from worm guard"
+      },
+      {
+        "name": "Back Control",
+        "relationship": "High-value transition - omoplata to back is key sequence"
+      },
+      {
+        "name": "Ringworm Guard",
+        "relationship": "Related lapel guard with similar mechanics"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "beginner": 30,
+        "intermediate": 50,
+        "advanced": 70
+      },
+      "advancement_probability": {
+        "beginner": 30,
+        "intermediate": 50,
+        "advanced": 70
+      },
+      "submission_probability": {
+        "beginner": 20,
+        "intermediate": 35,
+        "advanced": 50
+      },
+      "average_time": "1-3 minutes"
+    },
+    "transitions": [
+      {
+        "transition": "Omoplata Sweep",
+        "attempt_probability": 13
+      },
+      {
+        "transition": "Triangle Setup",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Omoplata to Back",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Lasso Guard Sweeps",
+        "attempt_probability": 13
+      },
+      {
+        "transition": "X-Guard Sweep",
+        "attempt_probability": 14
+      },
+      {
+        "transition": "De La Riva Sweep",
+        "attempt_probability": 13
+      },
+      {
+        "transition": "Bolo Sweep",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Triangle from Guard",
+        "attempt_probability": 12
+      }
+    ]
   }
 }

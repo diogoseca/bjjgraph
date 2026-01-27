@@ -10,8 +10,6 @@
     "sacrifice-throw",
     "valley-drop"
   ],
-  "starting_position": "Standing Position",
-  "ending_position": "Side Control",
   "success_rates": {
     "beginner": 30,
     "intermediate": 50,
@@ -263,6 +261,24 @@
     {
       "name": "Guard Pull",
       "relationship": "Alternative strategy that Tani Otoshi can disguise or replace"
+    }
+  ],
+  "from_position": "Standing Position/Top",
+  "outcomes": [
+    {
+      "to": "Side Control/Top",
+      "probability": 70,
+      "result": "success"
+    },
+    {
+      "to": "Standing Position/Top",
+      "probability": 20,
+      "result": "failure"
+    },
+    {
+      "to": "Standing Position/Bottom",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

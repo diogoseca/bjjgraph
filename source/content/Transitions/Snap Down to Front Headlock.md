@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Snap Down to Front Headlock | BJJ Technique | BJJ Graph"
 description: "Master Snap Down to Front Headlock. Complete guide from standing clinch to dominant control. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%."
@@ -16,7 +17,7 @@ description: "Master Snap Down to Front Headlock. Complete guide from standing c
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Snap Down to Front Headlock in BJJ",
-  "description": "Step-by-step guide for Snap Down to Front Headlock from Clinch to Front Headlock.",
+  "description": "Step-by-step guide for Snap Down to Front Headlock from Clinch/Top. Possible outcomes: Front Headlock/Top (75%), Clinch/Top (15%), Clinch/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -164,11 +165,25 @@ This transition serves as a critical gateway technique in modern grappling, brid
 
 The snap down's effectiveness lies in its ability to bypass traditional takedown defenses by attacking the opponent's posture rather than their legs or hips. Against skilled defensive grapplers who excel at sprawling or defending leg attacks, the snap down provides an alternative pathway to top position that requires different defensive skills. Understanding proper timing, grip configuration, and follow-up options transforms this technique from a simple movement into a comprehensive control system.
 
-**Starting Position**: [[Clinch]]
-**Ending Position**: [[Front Headlock]]
+**From Position**: [[Clinch/Top]]
 **Success Rates**: Beginner 45%, Intermediate 60%, Advanced 75%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Front Headlock/Top]] | 75% |
+| Failure | [[Clinch/Top]] | 15% |
+| Counter | [[Clinch/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

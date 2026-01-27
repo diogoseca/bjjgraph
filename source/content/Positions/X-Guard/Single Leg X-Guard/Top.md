@@ -21,37 +21,37 @@ description: "Master Single Leg X-Guard Top in BJJ. Control, pass, and attack fr
     {
       "@type": "HowToStep",
       "name": "Execute Headquarters Pass",
-      "text": "From this position, execute Headquarters Pass to transition to Headquarters Position. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Headquarters Pass. This technique is attempted in 19% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, execute Knee Slice Pass to transition to Side Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 18% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Weave Pass",
-      "text": "From this position, execute Leg Weave Pass to transition to Side Control. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Leg Weave Pass. This technique is attempted in 16% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Standing up in Base",
-      "text": "From this position, execute Standing up in Base to transition to Standing Position. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Standing up in Base. This technique is attempted in 20% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Smash Pass",
-      "text": "From this position, execute Smash Pass to transition to Side Control. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Smash Pass. This technique is attempted in 15% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kneebar",
-      "text": "From this position, execute Kneebar to transition to Kneebar. Success rate for advanced practitioners: 40%.",
+      "text": "From this position, attempt Kneebar. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -208,76 +208,18 @@ Single Leg X-Guard Top represents the controlling position when facing an oppone
 
 ## Available Attacks
 
-### [[Headquarters Pass]] → [[Headquarters Position]]
+### [[Headquarters Pass]] (19% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Knee Slice Pass]] (18% of attempts)
 
-### [[Knee Slice Pass]] → [[Side Control]]
+### [[Leg Weave Pass]] (16% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Standing up in Base]] (20% of attempts)
 
-### [[Leg Weave Pass]] → [[Side Control]]
+### [[Smash Pass]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
+### [[Kneebar]] (12% of attempts)
 
-### [[Standing up in Base]] → [[Standing Position]]
-
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
-
-### [[Smash Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
-
-### [[Kneebar]] → [[Kneebar]]
-
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 25%
-- Advanced: 40%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Single Leg X Sweep]]** → [[Standing Position]] (Opponent Success: 45%)
-- **[[Technical Stand Up to Single Leg]]** → [[Standing Position]] (Opponent Success: 35%)
-- **[[Transition to X-Guard]]** → [[X-Guard]] (Opponent Success: 40%)
-- **[[Transition to Ashi Garami]]** → [[Ashi Garami]] (Opponent Success: 30%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Leg Weave Pass]]** → [[Side Control]]
-  - Opponent extends for sweep attempt
-- **[[Headquarters Pass]]** → [[Headquarters Position]]
-  - Opponent releases bottom hook
-- **[[Kneebar]]** → [[Kneebar]]
-  - Opponent overcommits to sweep with leg extension
-- **[[Standing up in Base]]** → [[Standing Position]]
-  - Opponent loses top hook control
 
 
 </section>
@@ -288,7 +230,7 @@ Single Leg X-Guard Top represents the controlling position when facing an oppone
 
 **If opponent has strong bottom hook and is extending for sweep:**
 - Execute **[[Leg Weave Pass]]** → [[Side Control]] (Probability: 55%)
-- Execute **[[Kneebar]]** → [[Kneebar]] (Probability: 35%)
+- Execute **[[Kneebar]]** → [[Kneebar Control]] (Probability: 35%)
 
 
 **If opponent's bottom hook is weak or removed:**
@@ -384,29 +326,39 @@ Flow through all major passing options from SLX Top: headquarters, knee slice, l
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Opportunistic Kneebar Path
+## Test Your Knowledge
 
-`Single Leg X-Guard Top → Opponent extends for sweep → Kneebar (1 transition)`
+**Q1**: Your opponent starts driving their bottom hook upward to initiate a sweep - what immediate adjustment do you make?
+**A**: Immediately widen your base by stepping your free leg diagonally away from the sweep direction, bend your knees to lower your center of gravity, and align your trapped knee toward the opponent to reduce the leverage they can generate. Simultaneously post your near hand on the mat if needed for stability while maintaining upper body control.
 
-### Dominant Control Path
+**Q2**: What are the essential base fundamentals for maintaining stability in SLX Top?
+**A**: The essential base fundamentals include: maintaining a wide stance with the free leg positioned diagonally behind you, keeping knees bent to lower your center of gravity, distributing weight evenly rather than loading entirely on the trapped leg, keeping your trapped knee pointed toward the opponent to prevent full extension, and maintaining hip mobility to follow the opponent's movements.
 
-`Single Leg X-Guard Top → Headquarters Pass → Headquarters Position → Knee Slice Pass → Side Control → Mount (4 transitions)`
+**Q3**: Which hook should you prioritize addressing first when attempting to escape SLX, and why?
+**A**: Address the bottom hook first because it represents the primary sweeping threat and controls your base. The bottom hook positioned behind your knee creates the elevation that enables sweeps in any direction. Clearing this hook first removes their primary leverage point and significantly reduces sweep danger, making it safer to then address the top hook and extract your leg.
 
-### Leg Attack Specialization Path
+**Q4**: What grip priorities should you maintain to prevent the bottom player from enhancing their sweep attempts?
+**A**: Prioritize controlling the opponent's hands and wrists to prevent them from securing sleeve grips that enhance pulling power. Use collar ties, wrist control, or cross-face pressure to limit their ability to sit up and create angles. Actively strip any grips they establish before attempting to advance your position, as strong upper body grips dramatically increase their sweeping effectiveness.
 
-`Single Leg X-Guard Top → Leg Weave Pass → Ashi Garami → Straight Ankle Lock (3 transitions)`
+**Q5**: How should you apply pressure without enabling the opponent's technical standup or guard recovery?
+**A**: Balance forward pressure with upper body control - never drive forward without simultaneously controlling their shoulders or head with collar ties or cross-face pressure. Keep your weight distributed through your chest and shoulders onto their upper body rather than just leaning over their legs. This prevents them from using your forward momentum to stand up while maintaining enough pressure to limit their movement options.
 
-### Pressure Passing Path
+**Q6**: Your opponent suddenly releases their bottom hook and begins transitioning - what should you anticipate and how do you respond?
+**A**: Anticipate they are either attempting to transition to a different leg entanglement (X-Guard, Ashi Garami) or creating space to recover guard. When they release the bottom hook, immediately recognize this as your window to pass - step to headquarters position or initiate a knee slice pass before they can re-establish hooks. Follow their hip movement with your own base adjustments to prevent them from completing any transition.
 
-`Single Leg X-Guard Top → Smash Pass → Side Control → North-South → North-South Choke (4 transitions)`
+**Q7**: How do you manage energy expenditure while maintaining position against an active SLX player?
+**A**: Avoid wasting energy by forcing extraction of your trapped leg - this rarely works and exhausts you quickly. Instead, use minimal energy by maintaining proper posture and base, making incremental positional improvements rather than explosive escape attempts. Let your body weight and structure do the work through proper alignment rather than muscular effort. Stay calm and work systematically through the hook clearing sequence.
+
+**Q8**: After your opponent partially disrupts your base but you manage to recover - what immediate steps do you take to prevent another attempt?
+**A**: Immediately re-establish wide base with free leg positioned further from sweep direction, lower your hips by bending knees more deeply, and re-engage upper body control to prevent them from building momentum for another attempt. Strip any grips they may have established during the disruption. Consider changing your angle relative to their hooks to prevent them from re-creating the same sweep setup that nearly worked.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 

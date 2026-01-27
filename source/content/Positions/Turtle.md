@@ -18,7 +18,7 @@ description: "Master turtle position in BJJ. Strategic guide covering defensive 
 
 <section id="overview" class="content-section">
 
-Turtle position is a transitional defensive posture in Brazilian Jiu-Jitsu where the practitioner is on hands and knees with their back exposed to the opponent. While traditionally viewed as a weak position in wrestling due to back exposure, modern BJJ has transformed the turtle into a dynamic guard recovery platform and attacking position. The turtle serves as a critical juncture between being passed and recovering guard, offering numerous defensive options, sweep opportunities, and even submission threats from both perspectives. From the bottom, the key lies in maintaining a tight defensive structure while actively working to improve position rather than remaining static. From the top, the position offers multiple attacking pathways including back takes, front headlock submissions, and crucifix entries. Top-level competitors like Marcelo Garcia, Priit Mihkelson, and various 10th Planet practitioners have developed sophisticated turtle-based systems that demonstrate the position's versatility. The position requires excellent awareness of back defense, understanding of weight distribution, and precise timing to execute rolls, stand-ups, and guard recoveries or attacks depending on which perspective you occupy. Success in turtle position from either angle demands constant movement, grip fighting excellence, and the ability to read opponent's weight distribution and intentions in real-time.
+Turtle position is a transitional defensive posture in Brazilian Jiu-Jitsu where the practitioner is on hands and knees with their back exposed to the opponent. While traditionally viewed as a weak position in wrestling due to back exposure, modern BJJ has transformed the turtle into a dynamic guard recovery platform and attacking position. The turtle serves as a critical juncture between being passed and recovering guard, offering numerous defensive options, sweep opportunities, and even submission threats from both perspectives. From the bottom, the key lies in maintaining a tight defensive structure while actively working to improve position rather than remaining static. From the top, the position offers multiple attacking pathways including back takes, front headlock submissions, and crucifix entries. The position requires excellent awareness of back defense, understanding of weight distribution, and precise timing to execute rolls, stand-ups, and guard recoveries or attacks depending on which perspective you occupy. Success in turtle position from either angle demands constant movement, grip fighting excellence, and the ability to read opponent's weight distribution and intentions in real-time.
 
 </section>
 
@@ -58,7 +58,7 @@ Turtle position is a transitional defensive posture in Brazilian Jiu-Jitsu where
 | **Energy Cost** | Medium | Medium |
 | **Time** | Short | Short to Medium |
 
-**Key Difference:** Defensive posture trading back exposure
+**Key Difference:** Four-point base trades back exposure for defense
 
 
 
@@ -89,26 +89,20 @@ Turtle position is a transitional defensive posture in Brazilian Jiu-Jitsu where
 - Create frames with forearms against opponent's hips and chest to manage distance and pressure
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Granby Roll]]** → [[Closed Guard]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Granby Roll]]** (16% of attempts)
 
-- **[[Technical Standup]]** → [[Standing Position]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Technical Standup]]** (18% of attempts)
 
-- **[[Rolling to Guard]]** → [[Half Guard]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Rolling to Guard]]** (20% of attempts)
 
-- **[[Deep Half Entry]]** → [[Deep Half Guard]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Deep Half Entry]]** (15% of attempts)
 
-- **[[Sit Through to Guard]]** → [[Butterfly Guard]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Sit Through to Guard]]** (18% of attempts)
 
-- **[[Peterson Roll]]** → [[Half Guard]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+- **[[Peterson Roll]]** (13% of attempts)
 
 
 ### Common Mistakes
@@ -166,32 +160,24 @@ Turtle position is a transitional defensive posture in Brazilian Jiu-Jitsu where
 - Recognize weight distribution changes that signal escape attempts
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Turtle to Back Control]]** → [[Back Control]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Turtle to Back Control]]** (16% of attempts)
 
-- **[[Front Headlock to Anaconda]]** → [[Anaconda Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Front Headlock to Anaconda]]** (13% of attempts)
 
-- **[[Front Headlock to Darce]]** → [[D'arce Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Front Headlock to Darce]]** (13% of attempts)
 
-- **[[Crucifix from Turtle]]** → [[Crucifix]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+- **[[Crucifix from Turtle]]** (11% of attempts)
 
-- **[[Turtle Flatten to Side Control]]** → [[Side Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Turtle Flatten to Side Control]]** (15% of attempts)
 
-- **[[Turtle to Truck Entry]]** → [[Truck]]
-  - Success Rate: Beginner 10%, Intermediate 25%, Advanced 40%
+- **[[Turtle to Truck Entry]]** (9% of attempts)
 
-- **[[Front Headlock to Guillotine]]** → [[Guillotine Control]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Front Headlock to Guillotine]]** (12% of attempts)
 
-- **[[Kimura from Turtle]]** → [[Kimura Control]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+- **[[Kimura from Turtle]]** (11% of attempts)
 
 
 ### Common Mistakes

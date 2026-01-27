@@ -11,8 +11,6 @@
     "sitting",
     "guard entry"
   ],
-  "starting_position": "Standing Position",
-  "ending_position": "Open Guard",
   "success_rates": {
     "beginner": 70,
     "intermediate": 80,
@@ -289,6 +287,24 @@
     {
       "name": "Collar Sleeve Guard",
       "relationship": "Gi-specific variant - collar and sleeve grip guard after pull"
+    }
+  ],
+  "from_position": "Standing Position/Top",
+  "outcomes": [
+    {
+      "to": "Open Guard/Bottom",
+      "probability": 75,
+      "result": "success"
+    },
+    {
+      "to": "Standing Position/Top",
+      "probability": 15,
+      "result": "failure"
+    },
+    {
+      "to": "Standing Position/Bottom",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

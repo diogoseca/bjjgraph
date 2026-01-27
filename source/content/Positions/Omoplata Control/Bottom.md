@@ -21,37 +21,37 @@ description: "Master Omoplata Control Bottom in BJJ. Complete guide covering sho
     {
       "@type": "HowToStep",
       "name": "Execute Omoplata",
-      "text": "From this position, execute Omoplata to transition to Won by Submission. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Omoplata. This technique is attempted in 17% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Omoplata Sweep",
-      "text": "From this position, execute Omoplata Sweep to transition to Side Control. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 19% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Omoplata to Back",
-      "text": "From this position, execute Omoplata to Back to transition to Back Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Omoplata to Back. This technique is attempted in 15% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Setup",
-      "text": "From this position, execute Triangle Setup to transition to Triangle Control. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Triangle Setup. This technique is attempted in 18% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Omoplata",
-      "text": "From this position, execute Transition to Omoplata to transition to Armbar Control. Success rate for advanced practitioners: 65%.",
+      "name": "Execute Closed Guard to Omoplata",
+      "text": "From this position, attempt Closed Guard to Omoplata. This technique is attempted in 17% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling Omoplata",
-      "text": "From this position, execute Rolling Omoplata to transition to Mount. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Rolling Omoplata. This technique is attempted in 14% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -208,74 +208,18 @@ Omoplata Control Bottom represents the offensive application of this position wh
 
 ## Available Escapes
 
-### [[Omoplata]] → [[Won by Submission]]
+### [[Omoplata]] (17% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Omoplata Sweep]] (19% of attempts)
 
-### [[Omoplata Sweep]] → [[Side Control]]
+### [[Omoplata to Back]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 60%
-- Advanced: 75%
+### [[Triangle Setup]] (18% of attempts)
 
-### [[Omoplata to Back]] → [[Back Control]]
+### [[Closed Guard to Omoplata]] (17% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Rolling Omoplata]] (14% of attempts)
 
-### [[Triangle Setup]] → [[Triangle Control]]
-
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
-
-### [[Transition to Omoplata]] → [[Armbar Control]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-### [[Rolling Omoplata]] → [[Mount]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Triangle Escape]]** → [[Open Guard]] (Opponent Success: 35%)
-- **[[Rolling Kimura Escape]]** → [[Turtle]] (Opponent Success: 40%)
-- **[[Posture Recovery]]** → [[Closed Guard]] (Opponent Success: 30%)
-- **[[Stack Defense]]** → [[Open Guard]] (Opponent Success: 25%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Omoplata Sweep]]** → [[Side Control]]
-  - Opponent attempts to roll forward to escape shoulder pressure
-- **[[Omoplata to Back]]** → [[Back Control]]
-  - Opponent turns into the submission trying to relieve shoulder rotation
-- **[[Triangle Setup]]** → [[Triangle Control]]
-  - Opponent pulls trapped arm free but leaves neck exposed
 
 
 </section>
@@ -290,13 +234,13 @@ Omoplata Control Bottom represents the offensive application of this position wh
 
 
 **If opponent turns into the submission or sits to their hip:**
-- Execute **[[Omoplata]]** → [[Won by Submission]] (Probability: 65%)
+- Execute **[[Omoplata]]** → [[game-over]] (Probability: 65%)
 - Execute **[[Omoplata to Back]]** → [[Back Control]] (Probability: 60%)
 
 
 **If opponent postures up and pulls arm free:**
 - Execute **[[Triangle Setup]]** → [[Triangle Control]] (Probability: 60%)
-- Execute **[[Transition to Omoplata]]** → [[Armbar Control]] (Probability: 50%)
+- Execute **[[Closed Guard to Omoplata]]** → [[Armbar Control]] (Probability: 50%)
 
 
 
@@ -365,29 +309,39 @@ Bottom practitioner establishes omoplata control. Top practitioner attempts vari
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Direct finish path
+## Test Your Knowledge
 
-`Omoplata Control Bottom → Omoplata → Won by Submission`
+**Q1**: Your opponent starts to stack you by driving their weight forward - what adjustment do you make?
+**A**: When being stacked, immediately move your hips laterally away from the opponent to create a sharper angle on their shoulder. This redirects their forward pressure into rotational pressure on the shoulder joint rather than allowing them to compress you. Simultaneously, use your free leg to hook their far hip and pull yourself toward their back, which both relieves the stacking pressure and sets up the sweep or back take. Never fight the stack straight-on - always angle away.
 
-### Sweep to dominant position path
+**Q2**: What are the essential control points for maintaining omoplata control from bottom?
+**A**: The primary control point is your leg over their shoulder with the shin applying constant pressure across their upper back. Secondary is hip proximity to their trapped shoulder, which should be as close as possible to prevent arm extraction. Third is control of their posting arm or belt/hip to limit their base. Your free leg acts as a dynamic fourth control point, hooking their hip to prevent backward escape and assisting with sweeps and transitions.
 
-`Omoplata Control Bottom → Omoplata Sweep → Side Control → Mount → Armbar from Mount`
+**Q3**: How do you shut down the opponent's attempt to roll through the omoplata?
+**A**: The forward roll is actually an opportunity rather than a threat when properly managed. Maintain your shin pressure across their back as they initiate the roll and follow them through it. Use your grip on their belt or hip to control the speed and direction of the roll. As they complete the roll, you should end up on top with options to either maintain the omoplata position, sweep to mount, or transition to back control by following their momentum.
 
-### Back take to submission path
+**Q4**: What grip priorities should you establish in omoplata control bottom?
+**A**: The primary grip should be on their belt or the top of their pants to control their hip movement and prevent them from rolling or posturing. In no-gi, establish a grip on their far hip or a seatbelt position around their waist. Secondary grip priority is controlling their free posting arm, either by grabbing their wrist or hooking their elbow. These grips work together to limit their defensive options and set up your attacks.
 
-`Omoplata Control Bottom → Omoplata to Back → Back Control → Rear Naked Choke`
+**Q5**: How do you apply shoulder pressure while staying safe from counters in omoplata bottom?
+**A**: Apply pressure by sitting up perpendicular to their body while maintaining your leg across their back. Lean away from them slightly to increase shoulder rotation while keeping your hips close. Control their hip with your near hand to prevent them from turning into you. Your free leg should be posted or hooking their far hip for stability. Apply pressure gradually and be ready to transition to the sweep or back take if they attempt to roll rather than tap.
 
-### Triangle transition path
+**Q6**: Your opponent is pulling their arm out of the omoplata - what immediate adjustments do you make?
+**A**: If the arm begins extracting, immediately increase leg pressure by driving your knee toward the mat across their back. If extraction continues, transition immediately rather than chasing the lost position. The most direct option is to throw for a triangle choke since their head is already between your legs. Alternatively, switch to an armbar by swinging your leg over their face while controlling their wrist. The key is recognizing early and transitioning before they fully escape rather than fighting to maintain a compromised omoplata.
 
-`Omoplata Control Bottom → Triangle Setup → Triangle Control → Triangle Choke`
+**Q7**: How should you manage energy expenditure while attacking from omoplata control bottom?
+**A**: Use gravity and body mechanics rather than muscular effort to maintain control. Keep your hips heavy against their shoulder and let your leg weight do the work across their back. Avoid constant squeezing or gripping which rapidly depletes your energy. Stay relaxed between attack attempts and explode only when executing sweeps or transitions. The position should drain your opponent's energy as they work to escape while you conserve energy by using efficient positioning.
+
+**Q8**: Your opponent partially postures and creates some distance - how do you recover control?
+**A**: When they create space by partial posturing, use your grip on their belt or hip to pull yourself toward them rather than trying to pull them down. Simultaneously increase shin pressure across their back. If they achieve significant posture, this is the trigger to sweep rather than insist on pulling them back down. Use their elevated posture against them by executing the omoplata sweep, driving forward as they rise and following through to mount or side control. Alternatively, if they pull the arm free, immediately transition to triangle or armbar.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 

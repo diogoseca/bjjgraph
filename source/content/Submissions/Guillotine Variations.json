@@ -269,6 +269,31 @@
       "question": "SAFETY CRITICAL: What are the specific injury risks associated with guillotine chokes, and what application speed is required during training?",
       "answer": "Guillotine chokes carry critical injury risks including trachea crush and permanent airway damage, cervical spine compression and neck strain, carotid artery trauma with potential blood clot formation, and jaw dislocation or TMJ damage. The application speed during training must be SLOW and progressive over minimum 3-5 seconds, never snapping or jerking the choke. Unlike some submissions where the danger is primarily at the finish, guillotines are dangerous throughout the application because they compress both blood vessels and the airway simultaneously. Jerking or spiking opponent's head downward during finish risks severe cervical spine injury. Training partners must always have clear access to tap, and the person applying the choke must develop sensitive recognition of tap signals and distress indicators. Competition speed or intensity is never appropriate during drilling, and practitioners must maintain constant communication with training partners throughout the application.",
       "safety_critical": true
+    },
+    {
+      "question": "Your opponent begins posturing aggressively while you have the guillotine locked - what adjustment prevents their escape and maintains submission threat?",
+      "answer": "When opponent postures aggressively, immediately increase hip extension while simultaneously using your legs to break their base and prevent them from achieving strong posture. From closed guard, lock your ankles behind their back and actively pull with your heels into their lower back while extending hips upward. Your knees should squeeze together to prevent them from creating lateral space. If they're generating significant upward force, consider transitioning to high guard position with legs climbing higher on their back, which increases your leverage advantage. The key is maintaining the connection between your chest and their shoulder throughout their postural attempt—if you allow separation, they can extract their head. Use their forward drive against them by timing your hip extension to coincide with their pushing motion.",
+      "safety_critical": false
+    },
+    {
+      "question": "When transitioning between guillotine variations mid-attempt, what is the point of no return where you must commit to one variation rather than switching?",
+      "answer": "The point of no return occurs once you have fully engaged hip extension and begun the finishing squeeze. Before this point, you can freely transition between variations by adjusting grip while maintaining head control with your chest-to-shoulder connection. Once hip extension begins, switching grips typically creates enough space for opponent to escape or posture. The tactical approach is to read opponent's defense during the setup phase—their chin position, hand placement, and body angle—and select your variation before committing to the finish. If opponent's defense changes during the finish attempt, you should abandon the guillotine entirely rather than releasing pressure to switch variations. Instead, chain to alternative submissions like darce or anaconda that capitalize on their defensive movements, or reset to front headlock control to begin a new attack sequence.",
+      "safety_critical": false
+    },
+    {
+      "question": "What anatomical structures does the guillotine attack, and how do the different variations target these structures differently?",
+      "answer": "The guillotine primarily targets the carotid arteries on both sides of the neck, creating a blood choke that causes unconsciousness through cerebral hypoxia. Secondary targets include the trachea (airway restriction) and the vagus nerve (which can cause rapid blood pressure drop). High elbow guillotine focuses pressure on the carotid arteries through the combination of forearm compression and shoulder pressure, creating an efficient blood choke. Arm-in guillotine adds opponent's trapped arm as a wedge that increases pressure on both carotids while potentially compressing the trachea more directly. Chin strap targets the neck by manipulating the chin to open the throat area. Ten finger guillotine applies bilateral forearm compression on both carotids simultaneously. The marce variation combines forearm and bicep pressure similar to a rear naked choke structure. Understanding these targeting differences helps select the most effective variation based on opponent's neck structure and defensive posture.",
+      "safety_critical": false
+    },
+    {
+      "question": "How do you maintain control and prevent escape when your opponent attempts to roll through your guillotine attempt from guard?",
+      "answer": "When opponent initiates a roll-through escape, the critical response is following their movement while maintaining your grip structure. Do not fight the roll—instead, use it to your advantage by allowing the rotation while keeping your body connected to theirs. As you roll, maintain the guillotine grip and immediately establish mount or side control when you land on top. The key is keeping your chest glued to their shoulder throughout the rotation, which prevents them from extracting their head during the transitional moment. Your legs should release from guard but immediately work to establish dominant top position. If you resist the roll, you create space that allows head extraction. If executed properly, the roll-through actually puts you in superior finishing position with gravity now assisting your hip pressure rather than working against it.",
+      "safety_critical": false
+    },
+    {
+      "question": "In competition, what indicators tell you the guillotine is reaching the breaking point where opponent must tap or lose consciousness?",
+      "answer": "The breaking point indicators include: opponent's body going slack or movements becoming uncoordinated, facial color changes (flushing red then potentially turning pale), cessation of active defense, weakening of grip on your body, and most critically, opponent stopping their breathing or making gurgling sounds. Their legs may begin straightening involuntarily or their tapping becomes frantic rather than controlled. In competition, you must maintain awareness of these signs to ensure immediate release upon tap while also recognizing when an opponent is about to lose consciousness and may not be able to tap. The responsible approach is releasing immediately when tap is given, never holding extra time to ensure the finish. If opponent loses consciousness, immediately release and signal the referee. The guillotine can cause unconsciousness in 4-10 seconds once fully locked, so the breaking point arrives rapidly once all mechanical elements align correctly.",
+      "safety_critical": true
     }
   ],
   "training_progressions_and_safety_protocols": [
@@ -333,11 +358,8 @@
     "Arm in Guillotine",
     "Chin Strap Guillotine",
     "Ten Finger Guillotine",
-    "Marce Choke",
     "Darce Choke",
     "Anaconda Choke",
-    "Japanese Necktie",
-    "Peruvian Necktie",
     "D'arce-Anaconda Connection",
     "Guillotine Sequence",
     "Rear Naked Choke",
@@ -354,26 +376,6 @@
       "relationship": "Control position that leads to guillotine variations"
     },
     {
-      "name": "Guillotine Setup",
-      "relationship": "Entry techniques for establishing guillotine variations"
-    },
-    {
-      "name": "Guillotine Defense",
-      "relationship": "Understanding defenses improves variation selection and finishing ability"
-    },
-    {
-      "name": "Guillotine Counter",
-      "relationship": "Counters to guillotine attempts inform better attacking strategies"
-    },
-    {
-      "name": "Front Headlock to Guillotine",
-      "relationship": "Primary transition to guillotine variations"
-    },
-    {
-      "name": "Marcelo Garcia Guillotine System",
-      "relationship": "Systematic approach to guillotine variations and finishing details"
-    },
-    {
       "name": "D'arce Control",
       "relationship": "Alternative choke from similar positions when guillotine is defended"
     },
@@ -382,12 +384,28 @@
       "relationship": "Alternative choke variation when opponent turns away from guillotine"
     },
     {
-      "name": "Guard Pull",
-      "relationship": "Common entry to guard-based guillotine finishes"
+      "name": "Closed Guard",
+      "relationship": "Primary finishing position for guard-based guillotine variations"
     },
     {
-      "name": "Snap Down",
-      "relationship": "Standing entry to front headlock and guillotine positions"
+      "name": "Half Guard",
+      "relationship": "Alternative finishing position for arm-in guillotine variations"
+    },
+    {
+      "name": "Turtle",
+      "relationship": "Common position where marce variation is applied from top"
+    },
+    {
+      "name": "Butterfly Guard",
+      "relationship": "Dynamic guard position offering guillotine opportunities during scrambles"
+    },
+    {
+      "name": "Standing Position",
+      "relationship": "Starting position for standing guillotine finishes and guard pull entries"
+    },
+    {
+      "name": "North-South",
+      "relationship": "Transitional position when guillotine is defended by circling"
     }
   ]
 }

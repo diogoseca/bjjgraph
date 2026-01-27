@@ -100,13 +100,13 @@ jobs:
 
               if [[ $file_size -lt 200 ]] || grep -q "TODO" "$file" 2>/dev/null; then
                 echo "  → Empty/minimal file (<200 bytes or has TODOs)"
-                echo "  → Running fix_content.sh to fill template..."
+                echo "  → Running regenerate_content_json.py to fill template..."
 
-                chmod +x ./scripts/fix_content.sh
-                if ./scripts/fix_content.sh "$file"; then
+                chmod +x ./scripts/regenerate_content_json.py
+                if ./scripts/regenerate_content_json.py "$file"; then
                   echo "  ✓ Template filled successfully"
                 else
-                  echo "  ✗ fix_content.sh failed - skipping this file"
+                  echo "  ✗ regenerate_content_json.py failed - skipping this file"
                   continue
                 fi
               fi
@@ -506,7 +506,7 @@ jobs:
           echo "Validating and retrying .json files"
           echo "========================================"
 
-          chmod +x ./scripts/fix_content.sh
+          chmod +x ./scripts/regenerate_content_json.py
           UPDATED_FILES=""
           FIXED_FILES=""
 
@@ -521,7 +521,7 @@ jobs:
               echo "  ✓ Validation passed"
               UPDATED_FILES="${UPDATED_FILES}${file}"$'\n'
             else
-              echo "  ✗ Validation failed - retrying with fix_content.sh (max 3 attempts)"
+              echo "  ✗ Validation failed - retrying with regenerate_content_json.py (max 3 attempts)"
 
               attempts=0
               fixed=false
@@ -530,7 +530,7 @@ jobs:
                 ((++attempts))
                 echo "    Attempt $attempts/3..."
 
-                if ./scripts/fix_content.sh "$file"; then
+                if ./scripts/regenerate_content_json.py "$file"; then
                   if python3 scripts/validate_json.py --file "$file" 2>&1 | grep -q "Valid"; then
                     echo "    ✓ Fixed successfully"
                     UPDATED_FILES="${UPDATED_FILES}${file}"$'\n'
@@ -568,7 +568,7 @@ jobs:
           while IFS= read -r json_file; do
             [ -z "$json_file" ] && continue
             echo "  → $json_file"
-            python3 scripts/json_to_md.py --file "$json_file" || echo "    ⚠ Warning: Regeneration failed"
+            python3 scripts/regenerate_md_from_json.py --file "$json_file" || echo "    ⚠ Warning: Regeneration failed"
           done <<< "${{ steps.validate_retry.outputs.updated_json_files }}"
 
       - name: Check for changes
@@ -675,7 +675,7 @@ jobs:
 
           **Pre-processing (Bash):**
           1. Generated content catalog → `/tmp/preprocessing/content_catalog.txt`
-          2. Auto-filled empty .json files (<200 bytes) with `fix_content.sh`
+          2. Auto-filled empty .json files (<200 bytes) with `regenerate_content_json.py`
           3. Detected template types (SINGLE/DUAL/FAMILY positions)
           4. Read templates and 5 examples per file
           5. Pre-validated .json files, saved results

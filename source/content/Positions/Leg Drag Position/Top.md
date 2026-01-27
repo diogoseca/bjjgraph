@@ -21,37 +21,37 @@ description: "Control and finish the leg drag position with systematic passing s
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, execute Knee Slice Pass to transition to Side Control. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 17% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Step",
-      "text": "From this position, execute Back Step to transition to Back Control. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Back Step. This technique is attempted in 13% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Pressure Pass",
-      "text": "From this position, execute Pressure Pass to transition to Side Control. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Pressure Pass. This technique is attempted in 14% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Mount",
-      "text": "From this position, execute Transition to Mount to transition to Mount. Success rate for advanced practitioners: 60%.",
+      "name": "Execute Side Control to Mount",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 11% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Body Lock Pass",
-      "text": "From this position, execute Body Lock Pass to transition to Side Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Body Lock Pass. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to North-South",
-      "text": "From this position, execute Transition to North-South to transition to North-South. Success rate for advanced practitioners: 60%.",
+      "name": "Execute Side Control to North-South",
+      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 11% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -212,88 +212,22 @@ Advanced applications of the leg drag involve chaining it with other positions a
 
 ## Available Attacks
 
-### [[Knee Slice Pass]] → [[Side Control]]
+### [[Knee Slice Pass]] (17% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 60%
-- Advanced: 75%
+### [[Back Step]] (13% of attempts)
 
-### [[Back Step]] → [[Back Control]]
+### [[Pressure Pass]] (14% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 70%
+### [[Side Control to Mount]] (11% of attempts)
 
-### [[Pressure Pass]] → [[Side Control]]
+### [[Body Lock Pass]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 60%
-- Advanced: 75%
+### [[Side Control to North-South]] (11% of attempts)
 
-### [[Transition to Mount]] → [[Mount]]
+### [[Knee on Belly]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 60%
+### [[Leg Weave Pass]] (10% of attempts)
 
-### [[Body Lock Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-### [[Transition to North-South]] → [[North-South]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[Knee on Belly]] → [[Knee on Belly]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-### [[Leg Weave Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Butterfly Hook Recovery]]** → [[Butterfly Guard]] (Opponent Success: 35%)
-- **[[Half Guard Recovery]]** → [[Knee Shield Half Guard]] (Opponent Success: 40%)
-- **[[Granby Roll]]** → [[Butterfly Guard]] (Opponent Success: 25%)
-- **[[Deep Half Entry]]** → [[Deep Half Guard]] (Opponent Success: 30%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Back Step to Back Take]]** → [[Back Control]]
-  - When opponent turns away to escape chest pressure
-- **[[Immediate Knee Slice]]** → [[Side Control]]
-  - When opponent attempts to create butterfly hook with free leg
-- **[[Body Lock Consolidation]]** → [[Body Lock]]
-  - When opponent's hip mobility increases and standard leg drag weakens
 
 
 </section>
@@ -400,29 +334,39 @@ Partner in leg drag bottom randomly turns away during the round. Practice immedi
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Direct Pass to Mounted Submissions
+## Test Your Knowledge
 
-`Leg Drag Position Top → Knee Slice Pass → Side Control → Transition to Mount → Armbar from Mount`
+**Q1**: Your opponent begins to hip escape and insert their free leg for a butterfly hook - what is your immediate response?
+**A**: Immediately drop your weight lower and drive your knee into the space where they're trying to insert the hook. Simultaneously increase chest pressure and use your near hand to control their free leg at the knee, preventing the hook from establishing. If the hook begins to form, immediately transition to a knee slice pass before they can elevate.
 
-### Back Take to Strangle
+**Q2**: What are the essential grips and control points for maintaining the leg drag position?
+**A**: The primary control points are: 1) Your chest or shoulder driving pressure onto the dragged leg to pin their hip, 2) Far hip control with your near hand gripping their belt, pants, or directly on the hip bone to prevent rotation, 3) Head position tight to their body on the far side to prevent space creation. Secondary control includes controlling their near arm to prevent frames.
 
-`Leg Drag Position Top → Back Step → Back Control → Rear Naked Choke`
+**Q3**: How should you distribute your weight to maximize pressure while remaining mobile?
+**A**: Keep your hips low and driving forward toward their centerline while your chest creates downward pressure on the dragged leg. Your weight should be concentrated through your chest rather than sitting back on your heels. Stay on your toes with your base slightly wide to allow quick directional changes. The key is maintaining heavy pressure while keeping enough mobility to react to their escape attempts.
 
-### North-South Transition
+**Q4**: Your opponent starts to turn away from you to escape - what adjustment do you make?
+**A**: This is a back take opportunity, not a problem. Immediately recognize the turn and begin your back step by stepping your inside leg over their body toward their far hip. Simultaneously secure a seatbelt grip (one arm over the shoulder, one under the armpit) as you transition. Never let them complete the turn to turtle without taking the back - this is the highest percentage attack from leg drag.
 
-`Leg Drag Position Top → Pressure Pass → North-South → North-South Choke`
+**Q5**: What is the primary error that allows opponents to granby roll out of the leg drag?
+**A**: The primary error is overcommitting chest pressure forward without controlling the far hip. When you drive your weight forward without anchoring their hip, the opponent can use your momentum to initiate an inversion or granby roll underneath you. The solution is to always maintain far hip control with your hand while applying chest pressure, creating a pinching effect that prevents the hip rotation necessary for the granby.
 
-### Mount via Knee on Belly
+**Q6**: How do you manage energy when your opponent is actively fighting to escape the leg drag?
+**A**: The leg drag should be treated as a transitional position, not a holding position. Rather than burning energy to maintain static control against an actively escaping opponent, commit to finishing the pass with a knee slice or back step within 5-10 seconds. If they're fighting hard, their defensive reactions will open opportunities - a butterfly hook attempt opens knee slice, turning away opens back take. Use their energy against them rather than fighting to hold position.
 
-`Leg Drag Position Top → Knee Slice Pass → Knee on Belly → Transition to Mount → Kimura from Mount`
+**Q7**: Your opponent frames on your shoulder and begins to create space - how do you recover pressure?
+**A**: First, lower your level by bending your elbows and driving your chest down to collapse underneath their frame. Simultaneously, circle your head to the opposite side of their frame to bypass it entirely. If they're framing with their near arm, secure control of that arm at the wrist or tricep while continuing to drive pressure. The key is going around or under the frame rather than trying to power through it, which wastes energy.
+
+**Q8**: When should you abandon the leg drag and transition to a different passing strategy?
+**A**: Transition away from leg drag when: 1) They successfully establish a strong butterfly hook that you cannot clear, 2) They recover half guard with a strong knee shield, 3) They create significant distance with frames that you cannot collapse efficiently, or 4) They enter deep half guard. In these cases, switch to the appropriate counter-strategy: smash pass or body lock for butterfly, knee slice for half guard, toreando for distance, or deep half passing sequence.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -449,9 +393,9 @@ Partner in leg drag bottom randomly turns away during the round. Practice immedi
 - **[[Body Lock]]** - Can be combined for enhanced control
 - **[[Knee Slice Pass]]** - Primary passing technique from leg drag
 - **[[Pressure Pass]]** - Alternative passing finish
-- **[[Guard Passing Principles]]** - Fundamental concepts applied in leg drag
 - **[[Leg Drag Pass]]** - Entry technique to establish this position
-- **[[Modern No-Gi Passing System]]** - Leg drag as core component
+- **[[Butterfly Guard]]** - Guard opponent attempts to recover
+- **[[De La Riva Guard]]** - Guard that leg drag effectively counters
 
 
 </section>

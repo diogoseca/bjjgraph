@@ -42,210 +42,42 @@
     "Recognize optimal timing windows for transitions to takedowns, guard pulls, or defensive reactions",
     "Manage energy efficiently through strategic movement and selective grip engagement rather than constant muscular tension"
   ],
-  "offensive_transitions": [
+  "transitions": [
     {
-      "technique": "Double Leg Entry",
-      "target_position": "Side Control",
-      "success_rates": {
-        "beginner": 25,
-        "intermediate": 40,
-        "advanced": 60
-      }
+      "transition": "Double Leg Entry",
+      "attempt_probability": 12
     },
     {
-      "technique": "Single Leg Entry",
-      "target_position": "Half Guard",
-      "success_rates": {
-        "beginner": 30,
-        "intermediate": 45,
-        "advanced": 65
-      }
+      "transition": "Single Leg Entry",
+      "attempt_probability": 14
     },
     {
-      "technique": "Ippon Seoi Nage",
-      "target_position": "Side Control",
-      "success_rates": {
-        "beginner": 15,
-        "intermediate": 30,
-        "advanced": 50
-      }
+      "transition": "Ankle Pick",
+      "attempt_probability": 8
     },
     {
-      "technique": "Osoto Gari",
-      "target_position": "Mount",
-      "success_rates": {
-        "beginner": 20,
-        "intermediate": 35,
-        "advanced": 55
-      }
+      "transition": "Snap Down",
+      "attempt_probability": 10
     },
     {
-      "technique": "Ankle Pick",
-      "target_position": "Half Guard",
-      "success_rates": {
-        "beginner": 25,
-        "intermediate": 40,
-        "advanced": 60
-      }
+      "transition": "Guard Pull",
+      "attempt_probability": 18
     },
     {
-      "technique": "Snap Down",
-      "target_position": "Front Headlock",
-      "success_rates": {
-        "beginner": 30,
-        "intermediate": 50,
-        "advanced": 70
-      }
+      "transition": "Arm Drag to Back",
+      "attempt_probability": 8
     },
     {
-      "technique": "Guard Pull",
-      "target_position": "Closed Guard",
-      "success_rates": {
-        "beginner": 40,
-        "intermediate": 60,
-        "advanced": 80
-      }
+      "transition": "50-50 Entry from Standing",
+      "attempt_probability": 6
     },
     {
-      "technique": "Sitting Guard Pull",
-      "target_position": "Seated Guard",
-      "success_rates": {
-        "beginner": 45,
-        "intermediate": 65,
-        "advanced": 85
-      }
+      "transition": "Body Lock Pass",
+      "attempt_probability": 8
     },
     {
-      "technique": "Arm Drag to Back",
-      "target_position": "Back Control",
-      "success_rates": {
-        "beginner": 20,
-        "intermediate": 35,
-        "advanced": 55
-      }
-    },
-    {
-      "technique": "Uchi Mata",
-      "target_position": "Side Control",
-      "success_rates": {
-        "beginner": 15,
-        "intermediate": 30,
-        "advanced": 50
-      }
-    },
-    {
-      "technique": "Kouchi Gari",
-      "target_position": "Half Guard",
-      "success_rates": {
-        "beginner": 25,
-        "intermediate": 40,
-        "advanced": 60
-      }
-    },
-    {
-      "technique": "High Crotch",
-      "target_position": "Half Guard",
-      "success_rates": {
-        "beginner": 25,
-        "intermediate": 40,
-        "advanced": 60
-      }
-    },
-    {
-      "technique": "Rolling Guard Pull",
-      "target_position": "De La Riva Guard",
-      "success_rates": {
-        "beginner": 30,
-        "intermediate": 50,
-        "advanced": 70
-      }
-    },
-    {
-      "technique": "50-50 Entry from Standing",
-      "target_position": "50-50 Guard",
-      "success_rates": {
-        "beginner": 20,
-        "intermediate": 35,
-        "advanced": 55
-      }
-    },
-    {
-      "technique": "Bodylock Pass",
-      "target_position": "Side Control",
-      "success_rates": {
-        "beginner": 25,
-        "intermediate": 40,
-        "advanced": 60
-      }
-    }
-  ],
-  "defensive_responses": [
-    {
-      "technique": "Sprawl",
-      "target_position": "Front Headlock",
-      "success_rate": 50
-    },
-    {
-      "technique": "Sprawl Defense",
-      "target_position": "Turtle",
-      "success_rate": 45
-    },
-    {
-      "technique": "Guard Pull",
-      "target_position": "Closed Guard",
-      "success_rate": 60
-    },
-    {
-      "technique": "Sitting Guard Pull",
-      "target_position": "Seated Guard",
-      "success_rate": 55
-    },
-    {
-      "technique": "Grip Break",
-      "target_position": "Standing Position",
-      "success_rate": 40
-    },
-    {
-      "technique": "Takedown Defense",
-      "target_position": "Standing Position",
-      "success_rate": 45
-    },
-    {
-      "technique": "Standing to Single Leg X",
-      "target_position": "Single Leg X-Guard",
-      "success_rate": 35
-    }
-  ],
-  "counter_transitions": [
-    {
-      "technique": "Snap Down to Front Headlock",
-      "target_position": "Front Headlock",
-      "trigger": "Opponent pulls head back or stands too upright during grip exchange"
-    },
-    {
-      "technique": "Single Leg to Back Take",
-      "target_position": "Back Control",
-      "trigger": "Opponent attempts to hop away from single leg attack"
-    },
-    {
-      "technique": "Arm Drag to Back",
-      "target_position": "Standing Back Control",
-      "trigger": "Opponent reaches for grips or extends arms forward"
-    },
-    {
-      "technique": "Ankle Pick",
-      "target_position": "Half Guard",
-      "trigger": "Opponent steps forward or shifts weight to one leg"
-    },
-    {
-      "technique": "Sprawl",
-      "target_position": "Front Headlock",
-      "trigger": "Opponent shoots for legs or drops level suddenly"
-    },
-    {
-      "technique": "Russian Tie to Back Take",
-      "target_position": "Back Control",
-      "trigger": "Opponent attempts to circle away from collar tie"
+      "transition": "Sprawl",
+      "attempt_probability": 16
     }
   ],
   "decision_tree": [
@@ -414,32 +246,10 @@
       "duration": "8 minutes rotating techniques"
     }
   ],
-  "optimal_submission_paths": [
-    {
-      "name": "Guillotine Path from Standing",
-      "path": "Standing Position → Snap Down → Front Headlock → Guillotine Choke → Won by Submission"
-    },
-    {
-      "name": "Leg Lock Path via Guard Pull",
-      "path": "Standing Position → 50-50 Entry from Standing → 50-50 Guard → Inside Heel Hook → Won by Submission"
-    },
-    {
-      "name": "Back Attack Path from Takedown",
-      "path": "Standing Position → Single Leg to Back Take → Back Control → Rear Naked Choke → Won by Submission"
-    },
-    {
-      "name": "Armbar Path from Guard",
-      "path": "Standing Position → Guard Pull → Closed Guard → Triangle from Closed Guard → Triangle Choke → Won by Submission"
-    },
-    {
-      "name": "Kimura Path from Standing Control",
-      "path": "Standing Position → Russian Tie to Back Take → Standing Back Control → Kimura from Standing → Won by Submission"
-    }
-  ],
   "related_content": [
     {
       "name": "Clinch",
-      "relationship": "Natural progression from standing with established grips"
+      "relationship": "Natural progression from standing with established grips and collar tie control"
     },
     {
       "name": "Front Headlock",
@@ -470,20 +280,16 @@
       "relationship": "Essential defensive response to leg attacks"
     },
     {
-      "name": "Grip Fighting",
-      "relationship": "Core concept governing standing exchanges"
+      "name": "Seated Guard",
+      "relationship": "Common guard pull destination for modern BJJ strategies"
     },
     {
-      "name": "Takedown Entry",
-      "relationship": "Conceptual framework for offensive standing work"
+      "name": "De La Riva Guard",
+      "relationship": "Rolling guard pull destination with leg entanglement options"
     },
     {
-      "name": "Standing Defense Strategy",
-      "relationship": "Strategic system for this position"
-    },
-    {
-      "name": "Collar Ties",
-      "relationship": "Primary grip control position from standing"
+      "name": "Back Control",
+      "relationship": "High-value target from standing arm drags and back takes"
     }
   ],
   "position_metrics": {

@@ -431,4 +431,14 @@ Historically, the triangle choke has been a cornerstone of guard-based jiu-jitsu
 
 </section>
 
+<section id="terminal-state" class="content-section">
+
+## Match Outcome
+
+Successful execution of Triangle Choke Front leads to → [[game-over|Game Over]]
+
+*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+
+</section>
+
 </main>

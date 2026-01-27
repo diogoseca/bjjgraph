@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Kouchi Gari | BJJ Technique | BJJ Graph"
 description: "Master Kouchi Gari in BJJ. Small inner reap takedown from standing clinch. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%. Complete execution guide."
@@ -16,7 +17,7 @@ description: "Master Kouchi Gari in BJJ. Small inner reap takedown from standing
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Kouchi Gari in BJJ",
-  "description": "Step-by-step guide for Kouchi Gari from Clinch to Side Control.",
+  "description": "Step-by-step guide for Kouchi Gari from Clinch/Top. Possible outcomes: Side Control/Top (65%), Clinch/Top (25%), Clinch/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -154,11 +155,25 @@ description: "Master Kouchi Gari in BJJ. Small inner reap takedown from standing
 
 Kouchi Gari (small inner reap) is a fundamental judo technique that has become essential in modern BJJ and no-gi grappling. The technique involves hooking your opponent's inside leg with your own while simultaneously breaking their balance backward and to the side. Unlike its larger cousin Ouchi Gari, Kouchi Gari focuses on a smaller, more nuanced reaping motion that targets the ankle and lower calf rather than the thigh. This makes it particularly effective when your opponent has a narrow stance or is stepping backward. The technique's beauty lies in its timing and subtlety—when executed properly, your opponent falls before they realize they've been swept. Kouchi Gari works exceptionally well as part of combination attacks, often setting up other throws or creating opportunities for guard pulls when the initial attempt is defended.
 
-**Starting Position**: [[Clinch]]
-**Ending Position**: [[Side Control]]
+**From Position**: [[Clinch/Top]]
 **Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Side Control/Top]] | 65% |
+| Failure | [[Clinch/Top]] | 25% |
+| Counter | [[Clinch/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

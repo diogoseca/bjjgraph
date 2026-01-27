@@ -247,6 +247,26 @@
       "question": "Why is the Suloev Stretch considered a high-risk submission in training and what injury risks must practitioners be aware of?",
       "answer": "The Suloev Stretch is high-risk because it attacks the knee joint from a compression angle that can cause posterior cruciate ligament (PCL) damage, meniscus tears from rotational forces, severe calf muscle tears, and hamstring attachment strains. The bent leg position makes tapping quickly difficult in some cases, and the submission creates intense pressure rapidly, meaning there's a small window between 'feeling pressure' and 'injury occurring.' Additionally, the compression mechanism can cause muscle damage even if the knee joint hasn't reached its limit. Practitioners must be aware that this submission requires extraordinary control and should never be practiced on partners with existing knee injuries without explicit permission and extreme caution.",
       "safety_critical": true
+    },
+    {
+      "question": "Your opponent begins extending their trapped leg forcefully against your figure-four lock - what immediate adjustments should you make to maintain the submission?",
+      "answer": "When opponent tries to extend their leg, immediately squeeze your knees together more tightly to reinforce the figure-four structure. Pull your feet closer to your body to shorten the lever and increase mechanical advantage. Simultaneously drive more chest pressure into their upper body to prevent them from sitting up and generating additional extension power. If they're generating significant force, shift your angle slightly to redirect their extension power rather than fighting it head-on. The key is using their extension attempt against them - as they push, maintain your lock and begin your hip extension, which will convert their force into additional compression on the submission.",
+      "safety_critical": false
+    },
+    {
+      "question": "What indicates that you have reached the 'point of no escape' in the Suloev Stretch, and how should this affect your finishing approach?",
+      "answer": "The point of no escape is reached when: your figure-four lock is fully secured with ankle hooked and knees squeezed tight; their heel is pulled close to their buttocks creating maximum calf-to-hamstring compression; your hips are positioned close to their hip with alignment for extension; and your upper body control prevents any rotation or sitting up. At this point, the opponent cannot escape through technical means - any escape attempt actually accelerates the submission. However, reaching this point should make you MORE careful, not less. Apply finishing pressure even more slowly and progressively, as the submission will finish with minimal additional force. In training, this is when you verbally check with your partner that they feel the position and give them extra time to tap comfortably.",
+      "safety_critical": true
+    },
+    {
+      "question": "How does grip adjustment during the finish differ between gi and no-gi application of the Suloev Stretch?",
+      "answer": "In gi, you can use collar grips, sleeve grips, or belt grips to enhance upper body control and prevent rotation, allowing your legs to focus entirely on the submission mechanics. The gi fabric provides friction that helps maintain the figure-four lock. In no-gi, you must rely on overhooks, underhooks, and body-to-body pressure for upper body control. The lack of friction means your figure-four must be tighter, with more emphasis on squeezing your knees together. No-gi also makes the sweat factor significant - you may need to wipe hands and adjust grips mid-submission. In both cases, the figure-four leg configuration remains identical, but no-gi demands more attention to maintaining tight body contact throughout the finish.",
+      "safety_critical": false
+    },
+    {
+      "question": "In a competition scenario, your opponent is defending by grabbing their own leg to prevent the compression angle - what adjustments lead to a successful finish?",
+      "answer": "When opponent grabs their leg to defend, first ensure your upper body control is maximized to prevent them from creating additional leverage. Work to strip their grip by using your free hand to peel their fingers or create a wedge between their grip and their leg. If grip stripping fails, adjust your angle by shifting your hips slightly to change the compression direction - their grip is strong in one plane but weak against angular pressure. You can also begin small hip extension pulses rather than steady pressure, making their grip fatigue faster. Additionally, increase your squeeze through the figure-four while maintaining angle, as even with their grip, the compression force will build. If they're very stubborn, consider transitioning to a straight kneebar by adjusting your leg position - this often opens up as they focus on defending the Suloev.",
+      "safety_critical": false
     }
   ],
   "training_progressions_and_safety_protocols": [
@@ -317,10 +337,6 @@
   ],
   "related_content": [
     {
-      "name": "Craig Jones Leg Lock System",
-      "relationship": "Related system - Craig Jones teaches the Suloev Stretch as part of his pressure passing and leg attack integration"
-    },
-    {
       "name": "Calf Slicer from 50-50",
       "relationship": "Similar mechanism - Both use calf-to-hamstring compression but from different positional contexts"
     },
@@ -341,8 +357,12 @@
       "relationship": "Related position - Similar leg control concepts, both attack from top position with leg configurations"
     },
     {
-      "name": "Lachlan Giles Leg Lock Defense Framework",
-      "relationship": "Defensive system - Teaches defenses against compression-based leg attacks including the Suloev Stretch"
+      "name": "Kneebar",
+      "relationship": "Alternative leg attack - Both target the knee joint but through different mechanical approaches"
+    },
+    {
+      "name": "Calf Slicer",
+      "relationship": "Closely related submission - Uses similar calf compression principles but with different body positioning"
     }
   ]
 }

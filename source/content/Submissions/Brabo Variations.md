@@ -439,4 +439,14 @@ The Brabo Choke, commonly known as the no-gi darce choke, represents a family of
 
 </section>
 
+<section id="terminal-state" class="content-section">
+
+## Match Outcome
+
+Successful execution of Brabo Variations leads to → [[game-over|Game Over]]
+
+*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+
+</section>
+
 </main>

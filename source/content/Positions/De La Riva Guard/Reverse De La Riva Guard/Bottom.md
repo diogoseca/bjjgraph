@@ -21,37 +21,37 @@ description: "Master Reverse De La Riva Guard Bottom in BJJ. Complete guide cove
     {
       "@type": "HowToStep",
       "name": "Execute Waiter Sweep",
-      "text": "From this position, execute Waiter Sweep to transition to Mount. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Waiter Sweep. This technique is attempted in 12% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kiss of the Dragon",
-      "text": "From this position, execute Kiss of the Dragon to transition to Back Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Kiss of the Dragon. This technique is attempted in 11% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Berimbolo Entry",
-      "text": "From this position, execute Berimbolo Entry to transition to Back Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Berimbolo Entry. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Crab Ride to Back",
-      "text": "From this position, execute Crab Ride to Back to transition to Back Control. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Crab Ride to Back. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute De La Riva to X-Guard Transition",
-      "text": "From this position, execute De La Riva to X-Guard Transition to transition to X-Guard. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt De La Riva to X-Guard Transition. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Single Leg X Entry",
-      "text": "From this position, execute Single Leg X Entry to transition to Single Leg X-Guard. Success rate for advanced practitioners: 80%.",
+      "text": "From this position, attempt Single Leg X Entry. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -215,101 +215,24 @@ Strategically, Reverse De La Riva operates on the principle of creating rotation
 
 ## Available Escapes
 
-### [[Waiter Sweep]] → [[Mount]]
+### [[Waiter Sweep]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Kiss of the Dragon]] (11% of attempts)
 
-### [[Kiss of the Dragon]] → [[Back Control]]
+### [[Berimbolo Entry]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 65%
+### [[Crab Ride to Back]] (12% of attempts)
 
-### [[Berimbolo Entry]] → [[Back Control]]
+### [[De La Riva to X-Guard Transition]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 60%
+### [[Single Leg X Entry]] (12% of attempts)
 
-### [[Crab Ride to Back]] → [[Back Control]]
+### [[Omoplata Sweep]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 70%
+### [[Rolling Back Take]] (10% of attempts)
 
-### [[De La Riva to X-Guard Transition]] → [[X-Guard]]
+### [[Turtle to Truck]] (11% of attempts)
 
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 60%
-- Advanced: 75%
-
-### [[Single Leg X Entry]] → [[Single Leg X-Guard]]
-
-**Success Rates:**
-- Beginner: 50%
-- Intermediate: 65%
-- Advanced: 80%
-
-### [[Omoplata Sweep]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[Rolling Back Take]] → [[Back Control]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 60%
-
-### [[Transition to Truck]] → [[Truck]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 65%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Leg Drag Pass]]** → [[Leg Drag Position]] (Opponent Success: 40%)
-- **[[Knee Slice Pass]]** → [[Side Control]] (Opponent Success: 35%)
-- **[[RDLR Pass]]** → [[Side Control]] (Opponent Success: 45%)
-- **[[Toreando Pass]]** → [[Side Control]] (Opponent Success: 30%)
-- **[[Reverse De La Riva Recovery]]** → [[Combat Base]] (Opponent Success: 50%)
-- **[[Standing up in Base]]** → [[Standing Position]] (Opponent Success: 55%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[X-Guard Sweep]]** → [[Mount]]
-  - Opponent attempts to backstep away from inverted hook to clear the guard structure
-- **[[Waiter Sweep]]** → [[Mount]]
-  - Opponent drives weight forward to counter hook pressure and establish smash passing
-- **[[Kiss of the Dragon]]** → [[Back Control]]
-  - Opponent stands up to disengage from guard and create distance
-- **[[Single Leg X Entry]]** → [[Single Leg X-Guard]]
-  - Opponent shifts weight to near leg to defend inverted hook and establish base
-- **[[Berimbolo Entry]]** → [[Back Control]]
-  - Opponent attempts to step over and pass to strong side, committing weight forward
 
 
 </section>
@@ -339,7 +262,7 @@ Strategically, Reverse De La Riva operates on the principle of creating rotation
 
 
 **If opponent establishes strong grips and attempts to break hook structure systematically:**
-- Execute **[[Transition to Truck]]** → [[Truck]] (Probability: 50%)
+- Execute **[[Turtle to Truck]]** → [[Truck]] (Probability: 50%)
 - Execute **[[Guard Recovery]]** → [[Open Guard]] (Probability: 60%)
 
 
@@ -421,33 +344,39 @@ From established Reverse De La Riva position, practice elevating and rotating hi
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Back Attack Path
+## Test Your Knowledge
 
-`Reverse De La Riva Guard Bottom → Kiss of the Dragon → Back Control → Rear Naked Choke`
+**Q1**: The opponent begins driving forward with heavy pressure to flatten your guard—what immediate adjustments maintain your position?
+**A**: When facing forward pressure, elevate your hips higher while pulling their weight onto you with your ankle grip, loading them for a waiter sweep. Your far leg should frame against their hip or bicep to prevent them from flattening you completely. If they commit heavily forward, this feeds directly into your sweep—use their momentum by extending your hook-side leg while pulling across with your grips. The key is not fighting the pressure but redirecting it into your offensive system.
 
-### Sweep to Submission Path
+**Q2**: What are the essential grips and contact points for maintaining RDLR structure against active passing?
+**A**: Essential grips include near-side hand controlling opponent's far ankle or pants (the steering mechanism), far-side hand framing on their near hip or knee to maintain distance, and the inverted hook around their far leg with active instep pressure. Your far leg must control their near leg through posting on hip, hooking behind knee, or establishing a frame. This diagonal control system—far ankle + near leg frame—creates the unified structure that prevents both forward drives and lateral passing attempts.
 
-`Reverse De La Riva Guard Bottom → Waiter Sweep → Mount → Armbar from Mount`
+**Q3**: The opponent successfully strips your ankle grip and begins addressing your hook—how do you recover guard retention?
+**A**: When the ankle grip breaks, immediately transition your near-side hand to their pants at the knee or establish a collar tie if in gi. Simultaneously, your far leg must increase its engagement on their near leg to compensate for lost control. If they're stripping the hook, consider transitioning proactively to X-Guard or Single Leg X before they complete the strip, rather than fighting to maintain a compromised RDLR. Active transition beats passive resistance—use their hook-clearing motion as momentum for your guard change.
 
-### Leg Lock Entry Path
+**Q4**: Your opponent backsteps away from the hook—what is the highest-percentage follow-up technique?
+**A**: Backstepping creates optimal conditions for X-Guard or Single Leg X transition. As they step back, immediately slide your hook-side foot to their far hip while your other foot establishes position on their near hip or behind their near knee. This converts their escaping momentum into your guard transition momentum. The backstep removes their forward pressure, giving you space to reconfigure your hooks into the elevated X-Guard structure. From there, technical standup sweeps become immediately available.
 
-`Reverse De La Riva Guard Bottom → Single Leg X Entry → Single Leg X-Guard → Straight Ankle Lock`
+**Q5**: How do you manage energy during extended RDLR exchanges against a patient passer?
+**A**: Against patient passers, avoid maintaining maximum hip elevation continuously—this exhausts your core rapidly. Instead, use pulsing pressure where you elevate and create off-balancing threats in bursts, then settle to a sustainable baseline position between attacks. Keep your grips active but not death-grip tight. Force them to react to your movements rather than holding static positions waiting for opportunities. If they're patient, you dictate the tempo by threatening techniques that require their response, creating openings in their defensive structure.
 
-### Berimbolo to Back Path
+**Q6**: The opponent begins attempting to smash your far leg frame to flatten you for passing—what defensive adjustment is required?
+**A**: When they attack your far leg frame, you have two primary options: redirect to offense or reframe defensively. Offensively, their forward commitment to smash your frame feeds into waiter sweep mechanics—elevate with your hook and pull their weight across as they drive. Defensively, if the sweep timing isn't available, transition your far leg to a different frame position (hip to bicep, or establish shin frame across their thigh) before they can consolidate the smash. Never let them pin your far leg to the mat—continuous frame adjustment is essential.
 
-`Reverse De La Riva Guard Bottom → Berimbolo Entry → Back Control → Rear Naked Choke`
+**Q7**: What visual and tactile cues indicate the optimal moment to attempt kiss of the dragon?
+**A**: Optimal kiss of the dragon timing occurs when: (1) opponent stands tall or straightens their posture, creating the space to rotate underneath; (2) their weight shifts backward as they attempt to disengage from your hook; (3) they release their hip control grip to address another threat. Tactile cues include feeling their weight lift off your hook pressure and sensing decreased forward drive. You need clearance underneath their hips to complete the rotation—if they're heavy and low, the technique requires a different setup or transition to other attacks.
 
-### Omoplata Path
-
-`Reverse De La Riva Guard Bottom → Omoplata Sweep → Side Control → Omoplata from Guard`
+**Q8**: Your berimbolo entry gets stuffed and you end up with shoulders on the mat but haven't secured back control—how do you recover?
+**A**: When berimbolo stalls with shoulders down, immediately assess if you can complete the inversion or need to abort. If they're defending well, abandon the back take and recover to open guard by pulling your hips away and re-establishing basic RDLR or transitioning to seated guard. If you're partially inverted, continuing to force the rotation typically results in getting passed or having your back taken. The recovery requires hip escape movement away from them while re-establishing your hooks and grips from a reset position. Accept the failed attempt and reset rather than fighting from compromised angles.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 

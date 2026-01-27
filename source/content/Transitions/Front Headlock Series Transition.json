@@ -11,8 +11,6 @@
     "submission-setup",
     "turtle-attack"
   ],
-  "starting_position": "Front Headlock",
-  "ending_position": "Back Control",
   "success_rates": {
     "beginner": 35,
     "intermediate": 55,
@@ -281,6 +279,24 @@
     {
       "name": "Arm Triangle from Turtle",
       "relationship": "Alternative submission from turtle attack"
+    }
+  ],
+  "from_position": "Front Headlock/Top",
+  "outcomes": [
+    {
+      "to": "Back Control/Top",
+      "probability": 75,
+      "result": "success"
+    },
+    {
+      "to": "Front Headlock/Top",
+      "probability": 15,
+      "result": "failure"
+    },
+    {
+      "to": "Front Headlock/Bottom",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

@@ -2,7 +2,7 @@
 
 ## Overview
 
-FAMILY position hub pages (Mount, Half Guard, etc.) display comparison tables showing risk/energy across all variants. The data comes from **multiple JSON files** that json_to_md.py must aggregate.
+FAMILY position hub pages (Mount, Half Guard, etc.) display comparison tables showing risk/energy across all variants. The data comes from **multiple JSON files** that regenerate_md_from_json.py must aggregate.
 
 ---
 
@@ -19,7 +19,7 @@ source/content/Positions/
 
 ---
 
-## json_to_md.py Aggregation Process
+## regenerate_md_from_json.py Aggregation Process
 
 ### Step 1: Detect FAMILY Template
 
@@ -165,7 +165,7 @@ Shows in hub page:
 
 validate_json.py does NOT validate variant aggregation (too complex).
 
-json_to_md.py should:
+regenerate_md_from_json.py should:
 1. Check variant files exist before rendering
 2. Warn if variant file missing
 3. Skip missing variants in tables (don't fail entire render)
@@ -192,5 +192,5 @@ for variant_ref in data['variations']:
 
 **DUAL positions:** Comparison table built from single JSON file
 **FAMILY positions:** Comparison tables built by aggregating base + variant JSON files
-**Aggregation happens:** In json_to_md.py only
+**Aggregation happens:** In regenerate_md_from_json.py only
 **Template needs:** variants_comparison array passed from aggregation logic

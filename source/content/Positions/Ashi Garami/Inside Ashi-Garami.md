@@ -91,32 +91,24 @@ Inside Ashi-Garami has become essential in modern competition grappling, particu
 - SAFETY FIRST: Always apply leg locks slowly and progressively with constant communication
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Inside Heel Hook]]** → [[Saddle]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Inside Heel Hook]]** (10% of attempts)
 
-- **[[Straight Ankle Lock]]** → [[Straight Ankle Lock Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Straight Ankle Lock]]** (13% of attempts)
 
-- **[[Saddle Entry from Top]]** → [[Saddle]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 70%
+- **[[Saddle Entry from Top]]** (16% of attempts)
 
-- **[[Outside Ashi Entry]]** → [[Outside Ashi-Garami]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Outside Ashi Entry]]** (14% of attempts)
 
-- **[[50-50 Entry from Standing]]** → [[50-50 Guard]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[50-50 Entry from Standing]]** (13% of attempts)
 
-- **[[Kneebar Finish]]** → [[Kneebar Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Kneebar Finish]]** (11% of attempts)
 
-- **[[Toe Hold]]** → [[Toe Hold Control]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Toe Hold]]** (10% of attempts)
 
-- **[[X-Guard to Ashi Transition]]** → [[Cross Ashi-Garami]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 65%
+- **[[X-Guard to Ashi Transition]]** (13% of attempts)
 
 
 ### Common Mistakes
@@ -172,35 +164,26 @@ Inside Ashi-Garami has become essential in modern competition grappling, particu
 - Perpendicular Alignment: Maintain approximately 90-degree body angle to opponent to maximize mechanical advantage for submissions and position advancement
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Straight Ankle Lock]]** → [[Straight Ankle Lock Control]]
-  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 80%
+- **[[Straight Ankle Lock]]** (13% of attempts)
 
-- **[[Inside Heel Hook]]** → [[Saddle]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 70%
+- **[[Inside Heel Hook]]** (12% of attempts)
 
-- **[[Toe Hold]]** → [[Toe Hold Control]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Toe Hold]]** (12% of attempts)
 
-- **[[Kneebar Finish]]** → [[Kneebar Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Kneebar Finish]]** (11% of attempts)
 
-- **[[Transition to Honey Hole]]** → [[Honey Hole]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 65%
+- **[[Inside Ashi-Garami to Honey Hole]]** (11% of attempts)
 
-- **[[Transition to Outside Ashi]]** → [[Outside Ashi-Garami]]
-  - Success Rate: Beginner 40%, Intermediate 60%, Advanced 75%
+- **[[50-50 Guard to Outside Ashi]]** (13% of attempts)
 
-- **[[Back Take from Ashi]]** → [[Back Control]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Back Take from Ashi]]** (8% of attempts)
 
-- **[[Sweep to Top Position]]** → [[Standing Position]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Sweep to Top Position]]** (10% of attempts)
 
-- **[[Transition to Cross Ashi]]** → [[Cross Ashi-Garami]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 60%
+- **[[Inside Ashi-Garami to Cross Ashi]]** (10% of attempts)
 
 
 ### Common Mistakes

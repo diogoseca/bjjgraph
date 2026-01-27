@@ -21,37 +21,37 @@ description: "Master 50-50 Guard Bottom defensive strategies. Learn heel protect
     {
       "@type": "HowToStep",
       "name": "Execute Position reversal sweep to top",
-      "text": "From this position, execute Position reversal sweep to top to transition to 50-50 Guard. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Position reversal sweep to top. This technique is attempted in 18% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Counter heel hook",
-      "text": "From this position, execute Counter heel hook to transition to Inside Ashi-Garami. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Counter heel hook. This technique is attempted in 14% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Single Leg X-Guard",
-      "text": "From this position, execute Transition to Single Leg X-Guard to transition to Single Leg X-Guard. Success rate for advanced practitioners: 70%.",
+      "name": "Execute 50-50 Guard to Single Leg X-Guard",
+      "text": "From this position, attempt 50-50 Guard to Single Leg X-Guard. This technique is attempted in 19% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Extract legs and stand up",
-      "text": "From this position, execute Extract legs and stand up to transition to Standing Guard. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Extract legs and stand up. This technique is attempted in 20% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Straight ankle lock",
-      "text": "From this position, execute Straight ankle lock to transition to Straight Ankle Lock Control. Success rate for advanced practitioners: 55%.",
+      "name": "Execute Straight Ankle Lock",
+      "text": "From this position, attempt Straight Ankle Lock. This technique is attempted in 15% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kneebar entry",
-      "text": "From this position, execute Kneebar entry to transition to Kneebar Control. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Kneebar entry. This technique is attempted in 14% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -212,74 +212,18 @@ From this position, you face multiple submission threats, primarily heel hook, a
 
 ## Available Escapes
 
-### [[Position reversal sweep to top]] → [[50-50 Guard]]
+### [[Position reversal sweep to top]] (18% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 45%
-- Advanced: 65%
+### [[Counter heel hook]] (14% of attempts)
 
-### [[Counter heel hook]] → [[Inside Ashi-Garami]]
+### [[50-50 Guard to Single Leg X-Guard]] (19% of attempts)
 
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 50%
+### [[Extract legs and stand up]] (20% of attempts)
 
-### [[Transition to Single Leg X-Guard]] → [[Single Leg X-Guard]]
+### [[Straight Ankle Lock]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 70%
+### [[Kneebar entry]] (14% of attempts)
 
-### [[Extract legs and stand up]] → [[Standing Guard]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 55%
-- Advanced: 75%
-
-### [[Straight ankle lock]] → [[Straight Ankle Lock Control]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 55%
-
-### [[Kneebar entry]] → [[Kneebar Control]]
-
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 50%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Heel hook attack from top]]** → [[Inside Ashi-Garami]] (Opponent Success: 60%)
-- **[[Kneebar transition]]** → [[Kneebar Control]] (Opponent Success: 45%)
-- **[[Straight ankle lock]]** → [[Straight Ankle Lock Control]] (Opponent Success: 40%)
-- **[[Pass to side control]]** → [[Side Control]] (Opponent Success: 35%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Counter heel hook]]** → [[Inside Ashi-Garami]]
-  - Opponent overextends trying to finish heel hook and sacrifices their own heel defense
-- **[[Sweep to top position]]** → [[50-50 Guard]]
-  - Opponent drives weight forward to pass or attack, creating reversal opportunity
-- **[[Extract to standing]]** → [[Standing Guard]]
-  - Opponent momentarily releases hip pressure to change grips or reposition
 
 
 </section>
@@ -369,25 +313,39 @@ Partner gives 50% resistance from top 50-50. Practice sweeping to top position u
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Counter Attack Path
+## Test Your Knowledge
 
-`50-50 Guard Bottom → Defend Heel → Counter Heel Hook → Inside Heel Hook`
+**Q1**: What is the absolute first priority when you find yourself in 50-50 Guard Bottom?
+**A**: Heel protection is the absolute first priority. Before attempting any escape, reversal, or counter-attack, you must hide your heel by rotating your knee inward and establishing defensive grips on opponent's hands. A heel hook can finish in under two seconds once opponent establishes proper control, making heel defense non-negotiable.
 
-### Reversal to Dominant Submission
+**Q2**: Your opponent secures a two-handed grip on your heel - what immediate defensive action prevents the finish?
+**A**: Immediately rotate your knee inward toward your opposite hip while simultaneously attacking their grip with both hands. The knee rotation takes tension off the heel hook mechanism. Use your hands to strip their grip on your heel - prioritize breaking the cupping hand first. If grip breaks fail, consider tapping early rather than risking knee damage.
 
-`50-50 Guard Bottom → Sweep to Top → Inside Heel Hook`
+**Q3**: How do you assess whether to fight for reversal versus extract and escape to standing?
+**A**: Assess inside position within the first 3-5 seconds. If you have inside position parity or advantage, fight for reversal using sweeping mechanics. If opponent has clear inside control that you cannot quickly match, immediately shift strategy to leg extraction and escape to standing. Fighting for reversal without inside position wastes energy and increases submission risk.
 
-### Safe Escape and Reset
+**Q4**: What hip movements prevent opponent from fully settling their weight and establishing dominant control?
+**A**: Maintain constant hip mobility through shrimping away to create angle, bridging to disrupt their balance, and directional hip changes that prevent them from aligning their pressure. Never remain static - even small hip adjustments of a few inches prevent opponent from fully settling and create micro-opportunities for escape or reversal.
 
-`50-50 Guard Bottom → Extract Legs → Standing Guard → Reengage`
+**Q5**: Your opponent overextends reaching for your heel - what counter-attack opportunity does this create?
+**A**: When opponent overextends for heel hooks, they often sacrifice their own heel defense and inside position control. This creates opportunity for counter heel hook by attacking their exposed heel, or sweep to top position by exploiting their compromised base. Wait for their weight to shift forward during the attack attempt before executing the counter.
+
+**Q6**: What are the key grip fighting priorities to prevent opponent from attacking your legs?
+**A**: Fight grips aggressively before opponent establishes control - breaking grips early is far easier than after they've secured position. Prioritize controlling their hands to prevent heel access. Establish your own controlling grips on their ankle or heel when possible, as this enables counter-attacks while defending. Two-on-one grip fighting to strip their control is highly effective.
+
+**Q7**: How should you manage energy when stuck in 50-50 Guard Bottom for extended periods?
+**A**: Work in bursts of intelligent movement rather than continuous struggling. Defend in relaxed but ready state between attack attempts, only explosively engaging when escaping or countering. Rest briefly between escape attempts. Conserve energy for high-percentage opportunities rather than wasting it on low-probability escapes. Strategic extraction to standing may be more energy-efficient than prolonged reversal attempts.
+
+**Q8**: What signals indicate opponent is about to attack with heel hook, and how do you preemptively defend?
+**A**: Signals include opponent securing two-handed grip on your heel area, rotating their hips to create breaking angle, pulling your heel toward their chest, or transitioning to belly-down position. Preemptively defend by keeping your knee bent and rotated inward, maintaining grip fighting to prevent their control, and staying ready to immediately strip grips when they reach for your heel.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 

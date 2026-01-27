@@ -20,38 +20,38 @@ description: "Master Reverse Kesa-Gatame Top in BJJ. Complete guide covering con
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Mount",
-      "text": "From this position, execute Transition to Mount to transition to Mount. Success rate for advanced practitioners: 75%.",
+      "name": "Execute Side Control to Mount",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 22% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to North-South",
-      "text": "From this position, execute Transition to North-South to transition to North-South. Success rate for advanced practitioners: 80%.",
+      "name": "Execute Side Control to North-South",
+      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 18% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kimura from Side Control",
-      "text": "From this position, execute Kimura from Side Control to transition to Kimura Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Kimura from Side Control. This technique is attempted in 18% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Americana from Side Control",
-      "text": "From this position, execute Americana from Side Control to transition to Americana Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Americana from Side Control. This technique is attempted in 15% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm Triangle",
-      "text": "From this position, execute Arm Triangle to transition to Side Control. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Arm Triangle. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to North-South",
-      "text": "From this position, execute Transition to North-South to transition to Crucifix. Success rate for advanced practitioners: 50%.",
+      "name": "Execute Back Take Generic",
+      "text": "From this position, attempt Back Take Generic. This technique is attempted in 15% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -209,93 +209,18 @@ Reverse Kesa-Gatame Top is a dominant pinning position where the top practitione
 
 ## Available Attacks
 
-### [[Transition to Mount]] → [[Mount]]
+### [[Side Control to Mount]] (22% of attempts)
 
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 60%
-- Advanced: 75%
+### [[Side Control to North-South]] (18% of attempts)
 
-### [[Transition to North-South]] → [[North-South]]
+### [[Kimura from Side Control]] (18% of attempts)
 
-**Success Rates:**
-- Beginner: 50%
-- Intermediate: 65%
-- Advanced: 80%
+### [[Americana from Side Control]] (15% of attempts)
 
-### [[Kimura from Side Control]] → [[Kimura Control]]
+### [[Arm Triangle]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Back Take Generic]] (15% of attempts)
 
-### [[Americana from Side Control]] → [[Americana Control]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[Arm Triangle]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-### [[Transition to North-South]] → [[Crucifix]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
-
-### [[Back Take Generic]] → [[Back Control]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-### [[Transition to Mount]] → [[Knee on Belly]]
-
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Shrimp Escape]]** → [[Open Guard]] (Opponent Success: 25%)
-- **[[Bridge and Roll]]** → [[Scramble Position]] (Opponent Success: 20%)
-- **[[Elbow Escape]]** → [[Half Guard]] (Opponent Success: 30%)
-- **[[Technical Stand-up]]** → [[Standing Position]] (Opponent Success: 15%)
-- **[[Turtle Transition]]** → [[Turtle]] (Opponent Success: 35%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Transition to Mount]]** → [[Mount]]
-  - Opponent attempts to shrimp away and create space
-- **[[Transition to North-South]]** → [[North-South]]
-  - Opponent bridges and attempts to roll into you
-- **[[Back Take Generic]]** → [[Back Control]]
-  - Opponent turns into you to escape chest pressure
-- **[[Kimura from Side Control]]** → [[Kimura Control]]
-  - Opponent attempts to extract trapped arm
-- **[[Transition to Mount]]** → [[Knee on Belly]]
-  - Opponent creates space with hip escape
 
 
 </section>
@@ -305,24 +230,24 @@ Reverse Kesa-Gatame Top is a dominant pinning position where the top practitione
 ## Decision Making from This Position
 
 **If opponent remains flat and defensive with minimal movement:**
-- Execute **[[Kimura from Side Control]]** → [[Kimura Control]] (Probability: 60%)
-- Execute **[[Americana from Side Control]]** → [[Americana Control]] (Probability: 55%)
+- Execute **[[Kimura from Side Control]]** → [[Kimura Trap]] (Probability: 60%)
+- Execute **[[Americana from Side Control]]** → [[Side Control]] (Probability: 55%)
 - Execute **[[Arm Triangle]]** → [[Side Control]] (Probability: 50%)
 
 
 **If opponent attempts to bridge and create space upward:**
-- Execute **[[Transition to Mount]]** → [[Mount]] (Probability: 70%)
-- Execute **[[Transition to North-South]]** → [[North-South]] (Probability: 65%)
+- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 70%)
+- Execute **[[Side Control to North-South]]** → [[North-South]] (Probability: 65%)
 
 
 **If opponent shrimps away attempting elbow escape:**
-- Execute **[[Transition to Mount]]** → [[Knee on Belly]] (Probability: 65%)
-- Execute **[[Transition to Mount]]** → [[Mount]] (Probability: 60%)
+- Execute **[[Knee Slide to Knee on Belly]]** → [[Knee on Belly]] (Probability: 65%)
+- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 60%)
 
 
 **If opponent turns into you exposing their back:**
 - Execute **[[Back Take Generic]]** → [[Back Control]] (Probability: 75%)
-- Execute **[[Transition to North-South]]** → [[Crucifix]] (Probability: 55%)
+- Execute **[[Side Control to North-South]]** → [[Crucifix]] (Probability: 55%)
 
 
 
@@ -403,33 +328,39 @@ Begin in standard side control, practice entering reverse kesa by securing far a
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Direct Kimura Path
+## Test Your Knowledge
 
-`Reverse Kesa-Gatame Top → Kimura Control → Kimura`
+**Q1**: What is the primary grip configuration for controlling the opponent's far arm in Reverse Kesa-Gatame?
+**A**: The far arm should be clamped tightly under your armpit with your elbow squeezed against your ribs, or controlled with a deep overhook grip. The armpit clamp creates a complete seal around the arm, preventing extraction. You should feel constant resistance if the opponent attempts to pull their arm free. This control is the foundation of the position's effectiveness.
 
-### Arm Triangle Path via Mount
+**Q2**: How should your weight be distributed to maximize chest pressure while maintaining stability?
+**A**: Your weight should drive through your chest and sternum directly onto the opponent's upper torso, not supported by your arms. Shoulders should be lower than your hips, creating a forward lean. Your hips stay low and heavy against their near-side ribs. The far leg extends wide for base while the near leg bends for stability, forming a tripod with your hips.
 
-`Reverse Kesa-Gatame Top → Mount → Arm Triangle`
+**Q3**: Your opponent begins a strong bridge attempt - what adjustment prevents them from creating space?
+**A**: Widen your base immediately by extending your far leg further and posting your near foot. Drop your hips even lower to increase the weight on their torso. Maintain your armpit clamp on their far arm - this prevents them from using that arm to aid the bridge. Ride the bridge by staying connected rather than tensing up, letting their energy dissipate as they return to the mat.
 
-### Back Attack Path
+**Q4**: What indicates your opponent is about to attempt an elbow escape, and how do you counter it?
+**A**: Signs include the opponent turning slightly onto their far side, bringing their near elbow toward their hip, and beginning to shrimp their hips away. Counter by driving your hips forward to follow their movement, maintaining chest pressure. If they create significant space, transition immediately to mount or knee-on-belly rather than chasing the reverse kesa position.
 
-`Reverse Kesa-Gatame Top → Back Control → Rear Naked Choke`
+**Q5**: How do you manage energy expenditure while maintaining dominant control in this position?
+**A**: Let your skeletal structure and gravity do the work rather than muscular effort. Your chest weight should rest naturally on their torso without active pushing. Arms remain light and ready for transitions, not supporting weight. Use your base from your legs rather than gripping intensely. Threatening submissions cyclically keeps the opponent defensive without requiring constant maximum pressure.
 
-### Americana Control Path
+**Q6**: Your opponent turns their body toward you attempting to face you - what is the optimal response?
+**A**: This exposes their back and creates an excellent back take opportunity. Maintain your chest connection and begin circling toward their back as they turn. Your armpit control on their far arm makes it easy to establish a seatbelt grip as you transition. Alternatively, if they expose their neck, you can attack with an arm triangle by sliding your head-side arm under their neck.
 
-`Reverse Kesa-Gatame Top → Americana Control → Americana from Side Control`
+**Q7**: What is the relationship between base width and submission threat in this position?
+**A**: Wider base provides stability against escapes but can limit submission mobility. When threatening submissions, you may temporarily narrow your base to create better angles for attacks like the kimura or americana. After the submission attempt concludes, immediately re-establish wide base. This creates a rhythm of base-narrow-attack, base-wide-control that keeps opponents guessing.
 
-### North-South Choke Path
-
-`Reverse Kesa-Gatame Top → North-South → North-South Choke`
+**Q8**: How do you recover position if your opponent partially escapes and inserts a knee shield?
+**A**: Don't fight the knee shield directly. Instead, transition to a different position that negates their defense. Options include: sliding to north-south by walking around their head, transitioning to knee-on-belly by posting your knee on their abdomen, or switching to standard side control and working to remove the knee shield. The key is recognizing when reverse kesa is compromised and flowing to the next position.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -456,7 +387,7 @@ Begin in standard side control, practice entering reverse kesa by securing far a
 - **[[North-South]]** - Natural transition target when opponent bridges
 - **[[Mount]]** - Primary advancement position when opponent creates space with shrimp
 - **[[Kuzure Kesa-Gatame]]** - Modified scarf hold variation with different arm control
-- **[[Kimura Control]]** - Primary submission control available from reverse kesa
+- **[[Kimura Trap]]** - Primary submission control available from reverse kesa
 - **[[Back Control]]** - Transition target when opponent turns in to escape chest pressure
 - **[[Knee on Belly]]** - Transitional position when opponent creates space
 - **[[Modified Scarf Hold]]** - Alternative scarf variation with different control points

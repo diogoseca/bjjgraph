@@ -275,6 +275,31 @@
       "question": "How does proper hip and leg positioning in 50-50 contribute to both your toe hold attack and your defense against opponent's attacks?",
       "answer": "Proper hip and leg positioning creates the foundation for safe and effective toe hold attacks. Your inside leg hooking behind opponent's knee prevents them from pulling their leg free, while your outside leg controlling their hip prevents them from rotating or escaping the position. This positional control must be maintained throughout the entire toe hold sequence—if you lose hip control while focused on the foot, the opponent can escape entirely or worse, establish their own leg attack on you. Strong 50-50 structure also protects your own trapped leg from attack, as your inside leg position makes it difficult for them to access your foot while your outside leg creates distance. The leg positioning is the defense while the arm positioning is the offense; both must be maintained simultaneously.",
       "safety_critical": false
+    },
+    {
+      "question": "Your opponent begins rotating their body with your toe hold pressure to relieve the torque - what adjustment should you make to maintain the finish?",
+      "answer": "First, use your leg hooks to prevent their full rotation by driving your inside leg deeper behind their knee and maintaining hip pressure with your outside leg. If they begin to succeed in rotating, you have two options: (1) Follow their rotation while maintaining the toe hold configuration, which may actually tighten the submission as you roll with them, or (2) Recognize the defense is working and immediately transition to an inside heel hook since their rotation exposes the heel, or switch to attacking the opposite leg. The key is to not fight the rotation with brute force—this wastes energy and often results in losing the position. Instead, use their movement to transition to an even better attacking position.",
+      "safety_critical": false
+    },
+    {
+      "question": "What is the point of no escape for your opponent once you have established the toe hold position?",
+      "answer": "The point of no escape occurs when you have secured all three critical elements simultaneously: (1) the figure-four grip is locked with your inside forearm under the heel creating a shelf, (2) your chest is connected to their foot with zero space between, and (3) their hip and knee are controlled by your leg positioning preventing rotation. Once these three elements are established, the opponent's only safe option is to tap. Attempting to pull the foot out risks the submission tightening, and rolling is prevented by the leg hooks. The window for escape exists only before chest connection is established—once you close that space, the submission is mechanically locked in.",
+      "safety_critical": false
+    },
+    {
+      "question": "How do you recognize when the ankle joint is approaching its breaking point during toe hold application?",
+      "answer": "Several indicators signal the breaking point is near: (1) You feel a significant increase in resistance as the ligaments reach maximum stretch, (2) The opponent's foot begins to make slight popping or crackling sounds from joint capsule stress, (3) The opponent's defensive movements become frantic or panicked, (4) You notice involuntary muscle tension throughout their leg. In training, you should NEVER reach this point—these are competition indicators only. In training, apply pressure slowly enough that your partner can tap at the first sensation of discomfort, well before any structural damage occurs. If you feel any of these indicators in training, you have applied pressure too fast.",
+      "safety_critical": true
+    },
+    {
+      "question": "What grip adjustments should you make if your initial figure-four grip begins to slip during the finishing sequence?",
+      "answer": "If the figure-four begins slipping, immediately tighten chest-to-foot connection first—this is your primary control. Then adjust by repositioning your inside forearm deeper under the heel, ensuring the bony part of your forearm creates a solid shelf against their Achilles area. If slippage continues, switch from wrist grip to grabbing your own bicep for a tighter figure-four. As a last resort, transition to the same-side grip configuration where both hands control from the same side of the foot. Never try to finish with a slipping grip—re-establish control first, as attempting to force the finish with poor grip leads to escape or injury from improper mechanics.",
+      "safety_critical": false
+    },
+    {
+      "question": "In competition, what strategic considerations should guide when to attempt the toe hold versus transitioning to heel hook from 50-50?",
+      "answer": "Strategic considerations include: (1) Rule set—if heel hooks are illegal (IBJJF gi and most white-purple belt no-gi), toe hold is your primary option. (2) Opponent's heel exposure—if their heel is hidden and protected but their foot is accessible, toe hold may be higher percentage than forcing a heel hook entry. (3) Time remaining—toe hold setups are often faster than heel hook entries, making them preferable in short time situations. (4) Opponent's defensive habits—if they heavily defend heel hooks by hiding heel and rotating knee, they often expose the foot for toe hold. (5) Dilemma creation—threaten toe hold to force reactions that expose the heel, then transition. The toe hold and heel hook work as a complementary system where defending one opens the other.",
+      "safety_critical": false
     }
   ],
   "training_progressions_and_safety_protocols": [
@@ -338,12 +363,10 @@
     "Inside Heel Hook",
     "Outside Heel Hook",
     "Straight Ankle Lock",
-    "Kneebar from 50-50",
     "Achilles Lock",
     "Estima Lock",
     "Calf Slicer from 50-50",
-    "Kneebar",
-    "Straight Footlock"
+    "Kneebar"
   ],
   "related_content": [
     {
@@ -379,16 +402,16 @@
       "relationship": "Transition position that can lead to 50-50 toe hold opportunities"
     },
     {
-      "name": "Kneebar from 50-50",
-      "relationship": "Alternative finishing option from 50-50 when opponent defends foot attacks"
-    },
-    {
       "name": "Saddle",
       "relationship": "Advanced transition from 50-50 when toe hold is defended - escalates to saddle position"
     },
     {
       "name": "X-Guard",
       "relationship": "Entry position that can transition to 50-50 for toe hold setup"
+    },
+    {
+      "name": "Inside Ashi-Garami",
+      "relationship": "Related leg entanglement that shares similar control mechanics and submission entries"
     }
   ]
 }

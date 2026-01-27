@@ -270,6 +270,31 @@
       "question": "Why is it dangerous to pull the wrist away from the opponent's body during the Americana rotation, and what is the correct mechanical application?",
       "answer": "Pulling the wrist away from the body is dangerous because it changes the angle of attack from the shoulder joint to potentially the elbow or AC joint, creating unpredictable leverage that can cause injury in areas you're not controlling. It also reduces the effectiveness of the submission by removing pressure from the shoulder. The correct mechanical application keeps the wrist pinned near the ribs or moving toward the hip while the elbow is driven downward toward the mat. This creates pure external rotation at the shoulder joint, which is controllable, predictable, and allows for safe tapping before injury.",
       "safety_critical": true
+    },
+    {
+      "question": "Your opponent begins to posture up and push their elbow toward the ceiling during your Americana attempt - what adjustment prevents the escape?",
+      "answer": "When the opponent tries to elevate their elbow, immediately drop your body weight lower and drive your chest into their trapped arm to pin it back down. Simultaneously, use your figure-four grip to pull their elbow toward your hip rather than allowing it to lift. If they continue fighting the position, briefly release rotational pressure to re-establish the proper 90-degree configuration before resuming the finish. The key is maintaining the elbow position - if they can lift it above shoulder level, the submission mechanics fail entirely.",
+      "safety_critical": false
+    },
+    {
+      "question": "What anatomical structure does the Americana primarily attack, and what sensation indicates the submission is reaching the breaking point?",
+      "answer": "The Americana primarily attacks the shoulder joint through external rotation, specifically stressing the rotator cuff muscles and tendons (supraspinatus, infraspinatus, subscapularis, and teres minor), the shoulder capsule, and the glenohumeral ligaments. The breaking point sensation is intense pressure deep in the shoulder joint accompanied by a feeling of the arm being twisted out of its socket. Training partners often describe a sharp, deep pain that differs from muscle fatigue - this is the point where tapping is essential to prevent injury. There is minimal warning before tissue damage occurs once this sensation begins.",
+      "safety_critical": true
+    },
+    {
+      "question": "What is the point of no escape for your opponent in the Americana, and how do you recognize when you've reached it?",
+      "answer": "The point of no escape occurs when the opponent's wrist is pinned near their hip, their elbow is locked in front of their shoulder line, and your figure-four grip has driven their elbow toward the mat. At this stage, their shoulder is fully externally rotated and any further movement will cause the tap. You recognize this point by the mechanical endpoint - their arm cannot move further toward their hip without the shoulder dislocating. The opponent's body will often involuntarily tense or arch, and their free arm may desperately reach for your grip. At this point, hold position and wait for the tap rather than applying additional force.",
+      "safety_critical": false
+    },
+    {
+      "question": "In competition, your opponent is defending aggressively and you feel the Americana is stalling at 80% completion - what finishing adjustments can secure the tap?",
+      "answer": "First, verify your weight distribution - shift more weight forward onto their chest to eliminate any space they're using to relieve pressure. Second, micro-adjust your elbow position by driving your elbows tighter to your own ribs, which increases the leverage on their shoulder. Third, try a slight hip switch where you drive your hip into their ribs while maintaining the grip - this added pressure often breaks defensive stalemates. Finally, consider the step-over variation where you bring your near leg over their head, eliminating their ability to roll and significantly increasing finishing pressure through the changed angle.",
+      "safety_critical": false
+    },
+    {
+      "question": "How does the grip configuration differ between training and competition applications of the Americana, and why?",
+      "answer": "In training, the figure-four grip should be relaxed enough to allow immediate release upon tap, with your grip hand loosely holding your own wrist. The priority is control and safety over maximum pressure. In competition, the grip becomes significantly tighter - your bottom hand grips their wrist firmly with all fingers, and your top hand death-grips your own wrist with your thumb wrapped over. Your elbows squeeze together creating a locked structure. This tighter competition grip makes the finish more secure but also makes release slower, which is why it's inappropriate for training where partner safety requires instant release capability.",
+      "safety_critical": true
     }
   ],
   "training_progressions_and_safety_protocols": [
@@ -325,8 +350,8 @@
     "North-South",
     "North South Control",
     "Knee on Belly",
-    "100 Kilos",
-    "Turtle"
+    "Side Control Consolidation",
+    "Reverse Kesa-Gatame"
   ],
   "related_submissions": [
     "Americana",
@@ -340,7 +365,6 @@
     "North-South Choke",
     "Straight Armbar",
     "Kimura from Mount",
-    "North-South to Kimura",
     "Kimura from North-South",
     "Reverse Kimura",
     "Far Side Armbar"
@@ -367,7 +391,7 @@
       "relationship": "Alternative arm attack from same position targeting elbow instead of shoulder"
     },
     {
-      "name": "Transition to Mount",
+      "name": "Side Control to Mount",
       "relationship": "Position advancement that can be combined with maintained Americana grip"
     },
     {
@@ -379,20 +403,20 @@
       "relationship": "Alternative top position for Americana variation with enhanced control"
     },
     {
-      "name": "Submission Chains",
-      "relationship": "Conceptual framework for linking Americana with other attacks"
+      "name": "Kesa Gatame",
+      "relationship": "Scarf hold variation offering similar Americana opportunities"
     },
     {
-      "name": "Shoulder Pressure",
-      "relationship": "Fundamental concept essential for controlling opponent during submission"
+      "name": "Kuzure Kesa-Gatame",
+      "relationship": "Modified scarf hold with arm isolation ideal for Americana setup"
     },
     {
-      "name": "Leverage Principles",
-      "relationship": "Conceptual foundation explaining mechanical advantage in this submission"
+      "name": "Kimura",
+      "relationship": "Opposite rotation shoulder lock forming natural submission chain"
     },
     {
-      "name": "Control Maintenance",
-      "relationship": "Essential concept for keeping position while attacking"
+      "name": "Arm Triangle",
+      "relationship": "Head and arm choke available when opponent defends Americana incorrectly"
     }
   ]
 }

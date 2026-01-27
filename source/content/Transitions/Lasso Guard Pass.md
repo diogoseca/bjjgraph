@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Lasso Guard Pass | BJJ Technique | BJJ Graph"
 description: "Master the Lasso Guard Pass in BJJ. Complete breakdown of techniques to defeat lasso hooks and establish top control. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%."
@@ -16,7 +17,7 @@ description: "Master the Lasso Guard Pass in BJJ. Complete breakdown of techniqu
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Lasso Guard Pass in BJJ",
-  "description": "Step-by-step guide for Lasso Guard Pass from Lasso Guard to Side Control.",
+  "description": "Step-by-step guide for Lasso Guard Pass from Lasso Guard/Bottom. Possible outcomes: Side Control/Top (65%), Lasso Guard/Bottom (25%), Lasso Guard/Top (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -154,11 +155,25 @@ description: "Master the Lasso Guard Pass in BJJ. Complete breakdown of techniqu
 
 The Lasso Guard Pass is a fundamental skill for defeating one of the most controlling open guard variations in Brazilian Jiu-Jitsu. The lasso guard utilizes the opponent's sleeve grip combined with a leg threaded behind the arm to create powerful control that can sweep, submit, or prevent passing. Understanding how to systematically dismantle this guard structure is essential for any serious competitor. The pass requires a combination of precise grip control, posture management, and strategic pressure application to neutralize the lasso hook while maintaining balance. Successful execution involves recognizing the mechanical disadvantages created by the lasso position and exploiting them through systematic steps that progressively remove the guard player's control points. This technique integrates principles of base maintenance, pressure passing, and tactical grip fighting to achieve dominant top position.
 
-**Starting Position**: [[Lasso Guard]]
-**Ending Position**: [[Side Control]]
+**From Position**: [[Lasso Guard/Bottom]]
 **Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Side Control/Top]] | 65% |
+| Failure | [[Lasso Guard/Bottom]] | 25% |
+| Counter | [[Lasso Guard/Top]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

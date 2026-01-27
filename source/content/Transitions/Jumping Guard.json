@@ -9,8 +9,6 @@
     "closed guard",
     "standing"
   ],
-  "starting_position": "Standing Position",
-  "ending_position": "Closed Guard",
   "success_rates": {
     "beginner": 30,
     "intermediate": 50,
@@ -273,6 +271,24 @@
     {
       "name": "Seated Guard",
       "relationship": "Alternative destination - Safer guard establishment if jumping commitment seems risky"
+    }
+  ],
+  "from_position": "Standing Position/Top",
+  "outcomes": [
+    {
+      "to": "Closed Guard/Bottom",
+      "probability": 65,
+      "result": "success"
+    },
+    {
+      "to": "Standing Position/Top",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Standing Position/Bottom",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

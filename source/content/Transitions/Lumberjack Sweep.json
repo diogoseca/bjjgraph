@@ -9,8 +9,6 @@
     "underhook",
     "fundamental"
   ],
-  "starting_position": "Half Guard",
-  "ending_position": "Side Control",
   "success_rates": {
     "beginner": 30,
     "intermediate": 50,
@@ -267,6 +265,24 @@
     {
       "name": "Sweep Mechanics",
       "relationship": "General principles that govern all sweeping techniques including lumberjack"
+    }
+  ],
+  "from_position": "Half Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Side Control/Top",
+      "probability": 70,
+      "result": "success"
+    },
+    {
+      "to": "Half Guard/Bottom",
+      "probability": 20,
+      "result": "failure"
+    },
+    {
+      "to": "Half Guard/Top",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

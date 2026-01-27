@@ -11,8 +11,6 @@
     "submission-setup",
     "positional-attack"
   ],
-  "starting_position": "Front Headlock",
-  "ending_position": "Japanese Necktie",
   "success_rates": {
     "beginner": 30,
     "intermediate": 45,
@@ -288,6 +286,24 @@
     {
       "name": "Anaconda Choke",
       "relationship": "Related submission from front headlock family"
+    }
+  ],
+  "from_position": "Front Headlock/Top",
+  "outcomes": [
+    {
+      "to": "Japanese Necktie/Top",
+      "probability": 60,
+      "result": "success"
+    },
+    {
+      "to": "Front Headlock/Top",
+      "probability": 30,
+      "result": "failure"
+    },
+    {
+      "to": "Front Headlock/Bottom",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

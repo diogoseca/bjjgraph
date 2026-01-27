@@ -21,37 +21,37 @@ description: "Master Williams Guard Top defense and passing strategies. Learn to
     {
       "@type": "HowToStep",
       "name": "Execute Arm Extraction",
-      "text": "From this position, execute Arm Extraction to transition to Combat Base. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Arm Extraction. This technique is attempted in 18% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Stack Pass",
-      "text": "From this position, execute Stack Pass to transition to Side Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Stack Pass. This technique is attempted in 16% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Pressure Pass",
-      "text": "From this position, execute Pressure Pass to transition to Side Control. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Pressure Pass. This technique is attempted in 14% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Guard Pass",
-      "text": "From this position, execute Guard Pass to transition to Side Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Guard Pass. This technique is attempted in 17% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Posture Recovery",
-      "text": "From this position, execute Posture Recovery to transition to Open Guard. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Posture Recovery. This technique is attempted in 19% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, execute Knee Slice Pass to transition to Side Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 16% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -207,75 +207,18 @@ Williams Guard Top represents the challenging defensive and passing position fac
 
 ## Available Attacks
 
-### [[Arm Extraction]] → [[Combat Base]]
+### [[Arm Extraction]] (18% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Stack Pass]] (16% of attempts)
 
-### [[Stack Pass]] → [[Side Control]]
+### [[Pressure Pass]] (14% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Guard Pass]] (17% of attempts)
 
-### [[Pressure Pass]] → [[Side Control]]
+### [[Posture Recovery]] (19% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
+### [[Knee Slice Pass]] (16% of attempts)
 
-### [[Guard Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-### [[Posture Recovery]] → [[Open Guard]]
-
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 60%
-- Advanced: 75%
-
-### [[Knee Slice Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Williams Shoulder Lock]]** → [[Lost by Submission]] (Opponent Success: 45%)
-- **[[Omoplata Sweep]]** → [[Mount]] (Opponent Success: 50%)
-- **[[Triangle Setup]]** → [[Triangle Control]] (Opponent Success: 40%)
-- **[[Transition to Omoplata]]** → [[Omoplata Control]] (Opponent Success: 55%)
-- **[[Back Take Generic]]** → [[Back Control]] (Opponent Success: 35%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Stack Pass]]** → [[Side Control]]
-  - Opponent commits heavily to shoulder lock finish and loses leg frame pressure
-- **[[Pressure Pass]]** → [[Side Control]]
-  - Opponent transitions to omoplata and creates space during rotation
-- **[[Knee Slice Pass]]** → [[Side Control]]
-  - Opponent opens guard to adjust shoulder lock angle
 
 
 </section>
@@ -387,25 +330,39 @@ Start in Williams Guard Top with arm controlled. Partner works for submissions a
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Escape to pass completion
+## Test Your Knowledge
 
-`Williams Guard Top → Arm Extraction → Combat Base → Guard Pass → Side Control`
+**Q1**: What is the first priority when trapped in Williams Guard Top with shoulder lock control on your arm?
+**A**: Submission defense must take absolute precedence over passing advancement. Protect your shoulder joint by maintaining proper alignment, keeping your elbow bent and close to your body, and preventing full extension or rotation into the submission. Attempting to pass while your arm remains compromised virtually guarantees either submission or sweep, so systematic arm extraction must be completed before any passing attempts.
 
-### Stack pass counter
+**Q2**: Your opponent begins rotating their hips to transition from Williams Guard to omoplata—what immediate adjustment do you make?
+**A**: The moment you recognize the hip rotation signaling omoplata transition, immediately posture up and create space in the opposite direction of their rotation. Drive your weight forward over their hips while simultaneously working to clear your arm using a pressure pass or stack pass motion. The space they create during rotation is your opportunity to advance—if you stay static, the omoplata completes.
 
-`Williams Guard Top → Stack Pass → Side Control`
+**Q3**: What are the essential weight distribution principles for maintaining base while defending the shoulder lock?
+**A**: Distribute weight primarily on your free arm (kept near centerline, not posted vulnerably) and your legs with a wide base. Your trapped arm should not bear weight as this increases submission pressure. Keep hips low and angled rather than squared to opponent's body. The goal is three-point base stability that prevents sweeps while allowing controlled movements for arm extraction.
 
-### Knee slice escape
+**Q4**: Why is using circular movements rather than linear pulling essential for arm extraction?
+**A**: Linear pulling (yanking arm straight back) increases shoulder lock pressure because it works against the mechanical structure of the figure-four grip. Circular movements—rotating the elbow while maintaining shoulder alignment—gradually disengage the grip mechanics by changing the angle of force application. This technique addresses the shoulder lock mechanically rather than fighting its strength directly.
 
-`Williams Guard Top → Knee Slice Pass → Side Control`
+**Q5**: How do you recognize when opponent is setting up a triangle from Williams Guard and how do you counter?
+**A**: Triangle setup is signaled by the opponent opening their guard wider, often while controlling your head or posture to create the necessary angle for leg positioning. Counter by immediately driving forward with a guard pass before they can close the triangle, or by keeping your posture tall and preventing head control. The open guard moment is your window—once legs start closing, options diminish rapidly.
+
+**Q6**: What grip or control should you prioritize with your free hand and why is posting dangerous?
+**A**: Your free hand should prioritize head control (collar grip or jaw/chin control) or stay defensively positioned near your centerline. Posting the free hand on the mat near opponent's hip is dangerous because they immediately attack it with triangle setup or use it as a leverage point for sweep execution. Head control neutralizes their guard retention while keeping you safe from arm attacks.
+
+**Q7**: After successfully extracting your arm, what is the immediate next action and why?
+**A**: Transition immediately to a secure passing position before opponent can re-establish Williams Guard or switch to another guard variation. The extraction moment is critical—if you pause to reset, they recover control. Common options include knee slice pass, stack pass, or pressure pass depending on their reaction. The arm extraction is not the goal; it's the gateway to passing advancement.
+
+**Q8**: How does hip angle affect your vulnerability to omoplata, triangle, and back take transitions?
+**A**: When hips square directly with opponent's body, you optimize their shoulder lock angle and create easier pathways for all three transitions. Maintaining an angled hip position (turned slightly away from controlled arm side) reduces shoulder lock effectiveness by changing the mechanical advantage and limits their transition options by taking away the angles they need. Movement through different hip angles disrupts their timing for transition attempts.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -435,7 +392,7 @@ Start in Williams Guard Top with arm controlled. Partner works for submissions a
 - **[[Williams Shoulder Lock]]** - Primary submission threat to defend
 - **[[Arm Extraction]]** - Key defensive technique
 - **[[Stack Pass]]** - Primary counter-passing technique
-- **[[Guard Passing Principles]]** - Fundamental concept for this position
+- **[[Pressure Pass]]** - Alternative counter-passing technique
 
 
 </section>

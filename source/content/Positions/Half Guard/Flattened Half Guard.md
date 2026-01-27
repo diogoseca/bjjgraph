@@ -93,29 +93,20 @@ The position's place in the BJJ positional hierarchy reflects its defensive natu
 - Use opponent's forward pressure against them by timing hip escapes with their pressure waves
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Hip Escape]]** → [[Knee Shield Half Guard]]
-  - Success Rate: Beginner 15%, Intermediate 35%, Advanced 50%
+- **[[Hip Escape]]** (25% of attempts)
 
-- **[[Deep Half Entry]]** → [[Deep Half Guard]]
-  - Success Rate: Beginner 10%, Intermediate 25%, Advanced 40%
+- **[[Deep Half Entry]]** (20% of attempts)
 
-- **[[Frame and Shrimp]]** → [[Half Guard Bottom]]
-  - Success Rate: Beginner 20%, Intermediate 40%, Advanced 55%
+- **[[Elbow Escape]]** (22% of attempts)
 
-- **[[Turtle Transition]]** → [[Turtle]]
-  - Success Rate: Beginner 25%, Intermediate 35%, Advanced 30%
+- **[[Granby Roll]]** (12% of attempts)
 
-- **[[Lockdown Sweeps]]** → [[Lockdown]]
-  - Success Rate: Beginner 5%, Intermediate 15%, Advanced 25%
+- **[[Lockdown Sweeps]]** (12% of attempts)
 
-- **[[Old School Sweep]]** → [[Mount]]
-  - Success Rate: Beginner 5%, Intermediate 12%, Advanced 20%
-
-- **[[Underhook Sweep from Half]]** → [[Half Guard]]
-  - Success Rate: Beginner 3%, Intermediate 8%, Advanced 15%
+- **[[Old School Sweep]]** (9% of attempts)
 
 
 ### Common Mistakes
@@ -165,29 +156,22 @@ The position's place in the BJJ positional hierarchy reflects its defensive natu
 - Create angles for leg extraction rather than forcing through direct opposition of trapped leg
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Knee Slice from Half]]** → [[Side Control]]
-  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 70%
+- **[[Knee Slice from Half]]** (19% of attempts)
 
-- **[[Crossface Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 65%
+- **[[Crossface Pass]]** (18% of attempts)
 
-- **[[Underhook Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 60%
+- **[[Underhook Pass]]** (16% of attempts)
 
-- **[[Back Take Generic]]** → [[Back Control]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+- **[[Back Take Generic]]** (12% of attempts)
 
-- **[[Kimura from Half Guard]]** → [[Kimura Control]]
-  - Success Rate: Beginner 10%, Intermediate 25%, Advanced 35%
+- **[[Kimura from Half Guard]]** (10% of attempts)
 
-- **[[Transition to Mount]]** → [[Mount]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Side Control to Mount]]** (14% of attempts)
 
-- **[[Knee on Belly]]** → [[Knee on Belly]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 40%
+- **[[Knee on Belly]]** (11% of attempts)
 
 
 ### Common Mistakes
@@ -222,7 +206,7 @@ The position's place in the BJJ positional hierarchy reflects its defensive natu
 ## Related Positions
 
 
-- **[[Half Guard Bottom]]** - The active parent position that Flattened Half Guard degrades from
+- **[[Half Guard]]** - The active parent position that Flattened Half Guard degrades from
 
 - **[[Deep Half Guard]]** - Alternative recovery position accessible through specific hip movement sequences
 
@@ -236,7 +220,7 @@ The position's place in the BJJ positional hierarchy reflects its defensive natu
 
 - **[[Lockdown]]** - Alternative leg control system that can provide stability when flattened
 
-- **[[Underhook Control]]** - Critical control point that determines escape viability from flattened position
+- **[[Overhook Control]]** - Critical control point that determines escape viability from flattened position
 
 
 </section>

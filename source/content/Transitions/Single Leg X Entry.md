@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Single Leg X Entry | BJJ Technique | BJJ Graph"
 description: "Master Single Leg X Entry in BJJ. Step-by-step execution from seated guard to Single Leg X. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%. Complete technical guide."
@@ -16,7 +17,7 @@ description: "Master Single Leg X Entry in BJJ. Step-by-step execution from seat
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Single Leg X Entry in BJJ",
-  "description": "Step-by-step guide for Single Leg X Entry from Seated Guard to Single Leg X-Guard.",
+  "description": "Step-by-step guide for Single Leg X Entry from Seated Guard/Bottom. Possible outcomes: Single Leg X-Guard/Bottom (70%), Seated Guard/Bottom (20%), Seated Guard/Top (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -158,11 +159,25 @@ Developed and popularized through modern competition grappling, the Single Leg X
 
 The Single Leg X position reached through this entry offers multiple offensive pathways including sweeps to top position, transitions to more complex leg entanglements like Ashi Garami or X-Guard, and direct submission attacks. Understanding this entry is crucial for developing a comprehensive modern guard game and building systematic attacking sequences from the bottom position.
 
-**Starting Position**: [[Seated Guard]]
-**Ending Position**: [[Single Leg X-Guard]]
+**From Position**: [[Seated Guard/Bottom]]
 **Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Single Leg X-Guard/Bottom]] | 70% |
+| Failure | [[Seated Guard/Bottom]] | 20% |
+| Counter | [[Seated Guard/Top]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

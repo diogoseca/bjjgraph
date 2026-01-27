@@ -39,22 +39,330 @@
       "relationship": "Related control position with head control emphasis"
     },
     {
-      "name": "Pressure Application",
-      "relationship": "Core concept for effective consolidation"
+      "name": "Half Guard",
+      "relationship": "Common escape destination for bottom player"
     },
     {
-      "name": "Control Point Hierarchy",
-      "relationship": "Theoretical framework for establishing control"
+      "name": "Turtle",
+      "relationship": "Alternative escape route through granby roll"
     },
     {
-      "name": "Weight Distribution",
-      "relationship": "Essential concept for proper pressure mechanics"
+      "name": "Kimura Trap",
+      "relationship": "Submission control accessible from consolidation"
     },
     {
-      "name": "Position Transitions",
-      "relationship": "Framework for advancing from consolidated control"
+      "name": "North South Control",
+      "relationship": "High-control position accessible through transition"
     }
   ],
+  "top": {
+    "name": "Side Control Consolidation Top",
+    "description": "Master Side Control Consolidation Top position with 85% retention rate. Complete guide covering pressure mechanics, control establishment, and strategic advancement timing.",
+    "tags": [
+      "bjj",
+      "position",
+      "side-control",
+      "top-position",
+      "consolidation",
+      "control",
+      "pressure-passing"
+    ],
+    "overview": "Side Control Consolidation Top represents the critical refinement phase after achieving side control, where the top practitioner systematically eliminates escape opportunities and establishes dominant control before advancing. This position emphasizes methodical pressure application, connection tightening, and strategic weight distribution to nullify the opponent's defensive frames and hip movement. Unlike the initial side control achievement, consolidation focuses on control quality over speed, ensuring each adjustment strengthens positional dominance.\n\nThe consolidation phase typically lasts 10-30 seconds and serves as the foundation for successful mount transitions, submission attacks, and sustained positional control. Expert practitioners use this time to read opponent defensive patterns, identify optimal advancement pathways, and establish the psychological pressure that often leads to defensive mistakes. The position requires precise weight distribution through the chest and hips, strategic crossface application, and active base management to prevent scrambles during the refinement process.\n\nMastery of Side Control Consolidation Top separates intermediate from advanced practitioners, as it transforms side control from a temporary achievement into a platform for systematic attack sequences. This position embodies the principle of position before submission, allowing practitioners to advance confidently knowing their control foundation is unbreakable.",
+    "state_properties": {
+      "point_value": 3,
+      "position_type": "Offensive/Controlling",
+      "risk_level": "Low",
+      "energy_cost": "Medium",
+      "time_sustainability": "Medium to Long"
+    },
+    "state_invariants": [
+      "Chest positioned heavily across opponent's torso with weight distributed through pectoral muscles and upper abdomen, creating constant downward pressure that restricts breathing and movement",
+      "Crossface arm threading under opponent's near-side head with forearm driving across jaw line and chin, creating rotational pressure that turns head away and limits hip escape angles",
+      "Far-side arm controlling opponent's far hip, far arm, or establishing underhook with hand gripping belt or gi material, preventing bridging and creating connection points for weight transfer",
+      "Hips positioned low and heavy on opponent's near-side ribs with knees spread wide for base stability, creating a wedge that blocks hip escape attempts and maintains constant pressure",
+      "Opponent flat on back with shoulders pinned to mat, defensive frames collapsing or eliminated, demonstrating visible signs of control consolidation such as reduced movement and defensive posture weakening"
+    ],
+    "prerequisites": [
+      "Successful achievement of Side Control position from guard pass, sweep, or scramble",
+      "Opponent's near-side arm controlled or neutralized to prevent effective framing",
+      "Initial crossface connection established with weight beginning to settle",
+      "Base stability achieved with at least one knee posted for pressure distribution",
+      "Opponent on back with limited mobility and defensive options restricting movement"
+    ],
+    "key_principles": [
+      "Distribute weight strategically through chest and hips rather than relying on arm posting, maximizing pressure while maintaining mobility for transitions",
+      "Tighten crossface progressively with each opponent adjustment, using their movement to deepen control and eliminate head positioning options",
+      "Monitor opponent's breathing rhythm and use exhalation moments to increase pressure and advance position, capitalizing on reduced defensive strength",
+      "Maintain active base with knees wide and mobile, ready to adjust pressure angles as opponent attempts to create frames or generate hip movement",
+      "Use small, deliberate movements to test opponent reactions before committing to major transitions, gathering information about defensive patterns and weaknesses",
+      "Establish multiple connection points between your body and opponent's torso, creating redundant control mechanisms that survive individual escape attempts",
+      "Control the far-side hip or arm to prevent bridging and rotation, eliminating the primary mechanical pathway for side control escapes"
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "Your opponent begins creating a frame with their far-side elbow against your hip - what immediate adjustment do you make to maintain consolidation?",
+        "answer": "Immediately drive your underhook deeper and collapse onto the framing arm using your chest weight, not your hands. Simultaneously shift your hips slightly toward their head to increase the pressure angle on their frame. If the frame persists, swim your underhook arm over their framing arm and pin it to the mat while maintaining chest-to-chest pressure. The key is addressing the frame before it becomes structural - a bent elbow frame is much easier to collapse than an extended one."
+      },
+      {
+        "question": "What are the essential grip configurations for maintaining side control consolidation in the gi?",
+        "answer": "The primary configuration uses crossface control with your near-side arm threading under their head, gripping the far lapel or shoulder to create head rotation. Your far-side arm establishes an underhook controlling their far hip, gripping the belt or back of pants. Alternative configurations include: collar-and-pants grip where you control their collar for head positioning and far pants at knee to prevent hip mobility, or double underhook where both arms establish underhooks creating maximum chest-to-chest connection. The critical principle is maintaining at least two connection points that prevent both head positioning and hip escape simultaneously."
+      },
+      {
+        "question": "How should your weight be distributed during proper side control consolidation, and why does posting on your hands compromise this?",
+        "answer": "Weight should flow through your chest and ribs into the opponent's torso, with your hips low and heavy against their near-side ribs. Approximately 70% of pressure should come through chest contact, with remaining weight distributed through hip connection and knee base. Posting on hands elevates your chest off the opponent, immediately reducing effective pressure by 40-50%. It also makes your base predictable and allows the opponent to time escape attempts around your arm posts. Your hands should only contact the mat lightly for balance adjustment, never bearing significant weight."
+      },
+      {
+        "question": "Your opponent starts bridging explosively - describe the base adjustment sequence to maintain position?",
+        "answer": "As the bridge initiates, immediately widen your knees to lower your center of gravity and increase base stability. Simultaneously drive your crossface deeper to prevent their head from turning into the bridge direction. Let your hips heavy down rather than fighting against the bridge direction - your weight should ride the bridge like a wave. As they descend from the bridge apex, immediately tighten all connections before they can chain into a hip escape. If the bridge is toward your head, step your far leg back to sprawl your hips. If toward your legs, drive your hips forward to maintain connection."
+      },
+      {
+        "question": "What is the primary escape your opponent will attempt during consolidation, and how do you shut it down before it develops?",
+        "answer": "The elbow escape (shrimp to half guard) is the highest-percentage escape attempt during consolidation. Shut it down by maintaining hip-to-hip connection that prevents their near hip from creating space for the shrimp movement. Keep your crossface heavy enough to prevent them from turning onto their side - they cannot effectively shrimp while flat on their back. Control their far arm to prevent the frame that creates shrimping power. When you feel them begin to turn, immediately increase crossface pressure and consider transitioning to mount since their turning motion actually helps your leg step over."
+      },
+      {
+        "question": "How do you use your opponent's breathing rhythm to deepen your consolidation?",
+        "answer": "Monitor the rise and fall of their chest beneath you. During their inhalation, their ribcage expands and creates small spaces - maintain your current pressure without advancing. During their exhalation, their ribcage contracts and defensive strength temporarily decreases - this is when you tighten connections and increase pressure. Time your major position improvements (tightening crossface, deepening underhook, walking hips forward) with their exhalation. After 3-4 breath cycles of increasing pressure on each exhale, their defensive structure progressively weakens as they cannot fully recover between breaths."
+      },
+      {
+        "question": "Your opponent manages to get their near-side elbow between your bodies - how do you recover full consolidation?",
+        "answer": "First, do not attempt to simply crush through the elbow frame with pressure - this expends energy and often fails against a properly placed frame. Instead, use your crossface to turn their head away, which weakens the structural alignment of their frame. Walk your hips slightly toward their head, changing the pressure angle. Use your far-side underhook hand to control their framing wrist, then drive their arm across their body while simultaneously dropping your chest weight. Alternatively, if the frame is strong, accept it temporarily and transition to knee-on-belly or north-south where their frame becomes ineffective."
+      },
+      {
+        "question": "What determines when you should advance from consolidation to mount versus staying in side control for submissions?",
+        "answer": "Advance to mount when: opponent's frames are fully collapsed, they are breathing heavily indicating diminished defensive capacity, their far arm is pinned or controlled eliminating frame potential during transition, and they show signs of defensive exhaustion (reduced movement, heavy breathing, lack of hip activity). Stay for submissions when: opponent is actively defending but creating arm isolation opportunities (extended arm for americana, framing arm for kimura), you have dominant crossface that sets up arm triangle or other choke attacks, or opponent's technical defense is strong but their arms are vulnerable. The general rule: advance position when frames are eliminated, attack submissions when arms are exposed."
+      }
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent maintains tight defensive posture with strong frames and active hip movement",
+        "actions": [
+          {
+            "technique": "Pressure Maintenance",
+            "target": "Side Control Consolidation",
+            "probability": 70
+          },
+          {
+            "technique": "Side Control to North-South",
+            "target": "North-South",
+            "probability": 60
+          },
+          {
+            "technique": "Americana from Side Control",
+            "target": "Americana",
+            "probability": 45
+          }
+        ]
+      },
+      {
+        "condition": "If opponent begins to flatten and frames start collapsing from sustained pressure",
+        "actions": [
+          {
+            "technique": "Side Control to Mount",
+            "target": "Mount",
+            "probability": 75
+          },
+          {
+            "technique": "Kimura from Side Control",
+            "target": "Kimura Trap",
+            "probability": 65
+          },
+          {
+            "technique": "Arm Triangle",
+            "target": "Arm Triangle",
+            "probability": 60
+          }
+        ]
+      },
+      {
+        "condition": "If opponent turns into you attempting to recover guard position",
+        "actions": [
+          {
+            "technique": "Knee on Belly",
+            "target": "Knee on Belly",
+            "probability": 80
+          },
+          {
+            "technique": "Side Control to Mount",
+            "target": "Mount",
+            "probability": 70
+          }
+        ]
+      },
+      {
+        "condition": "If opponent attempts explosive bridge or hip escape creating temporary space",
+        "actions": [
+          {
+            "technique": "Side Control to North-South",
+            "target": "North-South",
+            "probability": 85
+          },
+          {
+            "technique": "Side Control to Mount",
+            "target": "Mount",
+            "probability": 65
+          },
+          {
+            "technique": "Armbar from Side Control",
+            "target": "Armbar Control",
+            "probability": 50
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Posting on hands to maintain base instead of using chest pressure and hip weight",
+        "consequence": "Reduces pressure effectiveness, allows opponent to maintain breathing rhythm, creates space for defensive frames and hip escape attempts",
+        "correction": "Lower chest onto opponent's torso with weight distributed through pectoral muscles, using hands only for light contact points while hips provide primary pressure through near-side ribs"
+      },
+      {
+        "error": "Rushing to mount or submission before consolidating control and eliminating defensive frames",
+        "consequence": "Opponent capitalizes on transitional vulnerability, recovers guard or half guard, or creates scramble situations that neutralize positional advantage",
+        "correction": "Invest 10-30 seconds in systematic pressure application, progressively tightening connections and monitoring opponent's defensive strength before committing to advancement"
+      },
+      {
+        "error": "Applying static pressure without adjusting to opponent's movement and breathing patterns",
+        "consequence": "Opponent adapts to pressure angle, maintains energy conservation through breathing control, and preserves defensive structure for eventual escape attempts",
+        "correction": "Use dynamic pressure adjustments timed with opponent's exhalation, shifting weight angles with each breath cycle to progressively weaken defensive posture"
+      },
+      {
+        "error": "Neglecting far-side hip or arm control while focusing exclusively on crossface pressure",
+        "consequence": "Opponent generates bridging power through unrestricted far hip, creates rotation that weakens crossface effectiveness, and develops momentum for escape sequences",
+        "correction": "Establish underhook or far-side arm control simultaneously with crossface, creating multiple connection points that prevent rotational escape mechanics"
+      },
+      {
+        "error": "Maintaining narrow base with knees close together reducing stability and pressure distribution",
+        "consequence": "Vulnerable to explosive bridges and hip movement, unable to adjust quickly to opponent's escape attempts, creates predictable pressure patterns opponent can time escapes against",
+        "correction": "Spread knees wide with approximately shoulder-width distance, creating stable triangle base that allows rapid weight shifts and maintains pressure through opponent's movements"
+      },
+      {
+        "error": "Allowing opponent's near-side elbow to establish frame between bodies creating structural space",
+        "consequence": "Opponent develops leverage point for shrimp escape, creates breathing room that restores energy, and establishes foundation for progressive escape sequence",
+        "correction": "Trap near-side arm using body weight and crossface pressure, or control wrist and drive arm across opponent's body to eliminate framing opportunities"
+      },
+      {
+        "error": "Overlooking subtle opponent adjustments and defensive improvements during consolidation phase",
+        "consequence": "Opponent progressively strengthens position while appearing controlled, accumulates small defensive wins that build momentum, and suddenly explodes into successful escape",
+        "correction": "Monitor opponent's breathing depth, frame quality, and hip mobility continuously, immediately addressing any defensive improvements with pressure adjustments or positional changes"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Progressive Pressure Application Drill",
+        "description": "Bottom partner starts with strong defensive frames and active hip movement. Top partner methodically applies increasing pressure over 60-second rounds, focusing on eliminating one defensive element at a time: first weakening frames through crossface pressure, then restricting breathing through chest weight, finally controlling hips through underhook connection. Switch roles every round and track time required to achieve full consolidation.",
+        "duration": "5 rounds of 60 seconds"
+      },
+      {
+        "name": "Escape Response Counter Drill",
+        "description": "Bottom partner attempts one specific escape attempt (elbow escape, bridge and roll, frame and shrimp) every 10 seconds. Top partner maintains consolidation and counters each attempt with appropriate response: weight shift for bridge, knee slide for elbow escape, base adjustment for shrimp. Practice reading escape timing and developing automatic counter responses. Progress to random escape attempts after mastering individual counters.",
+        "duration": "4 rounds of 90 seconds"
+      },
+      {
+        "name": "Breathing-Timed Advancement Drill",
+        "description": "Top partner consolidates side control and monitors opponent's breathing rhythm for 30 seconds. On opponent's third exhalation, execute advancement to mount, north-south, or knee on belly. Focus on timing major movements with opponent's reduced defensive strength during exhalation phase. Bottom partner provides realistic resistance but does not actively escape. Develop sensitivity to breathing patterns and transitional timing.",
+        "duration": "6 rounds of 60 seconds"
+      },
+      {
+        "name": "Consolidation to Submission Chain Drill",
+        "description": "Start in early side control with opponent maintaining defensive posture. Top partner must achieve full consolidation (judge confirms flattened opponent with collapsed frames) before attempting any submission. Practice three sequences: consolidation to Americana, consolidation to kimura, consolidation to arm triangle. Emphasizes position quality before submission attempts and develops patience in control refinement.",
+        "duration": "3 rounds of 2 minutes per submission"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Side Control",
+        "relationship": "Parent position - initial achievement before consolidation phase"
+      },
+      {
+        "name": "Mount",
+        "relationship": "Primary advancement target from consolidated side control"
+      },
+      {
+        "name": "North-South",
+        "relationship": "Alternative advancement maintaining pressure-based control"
+      },
+      {
+        "name": "Knee on Belly",
+        "relationship": "Dynamic transition option when opponent turns into you"
+      },
+      {
+        "name": "Kesa Gatame",
+        "relationship": "Alternative side control variation with head control"
+      },
+      {
+        "name": "Side Control Consolidation Bottom",
+        "relationship": "Opposite perspective - defensive counterpart position"
+      },
+      {
+        "name": "Kimura from Side Control",
+        "relationship": "Primary submission option from consolidated control"
+      },
+      {
+        "name": "Americana from Side Control",
+        "relationship": "High-percentage submission when near arm isolated"
+      },
+      {
+        "name": "Arm Triangle",
+        "relationship": "Choke attack when opponent brings arm across"
+      },
+      {
+        "name": "North South Control",
+        "relationship": "Control position accessible through pressure transition"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "beginner": 60,
+        "intermediate": 75,
+        "advanced": 85
+      },
+      "advancement_probability": {
+        "beginner": 40,
+        "intermediate": 60,
+        "advanced": 75
+      },
+      "submission_probability": {
+        "beginner": 25,
+        "intermediate": 45,
+        "advanced": 60
+      },
+      "average_time": "30-90 seconds"
+    },
+    "transitions": [
+      {
+        "transition": "Side Control to Mount",
+        "attempt_probability": 14
+      },
+      {
+        "transition": "Side Control to North-South",
+        "attempt_probability": 14
+      },
+      {
+        "transition": "Knee on Belly",
+        "attempt_probability": 14
+      },
+      {
+        "transition": "Kimura from Side Control",
+        "attempt_probability": 13
+      },
+      {
+        "transition": "Americana from Side Control",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Arm Triangle",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Armbar from Side Control",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "North-South Choke",
+        "attempt_probability": 10
+      }
+    ]
+  },
   "bottom": {
     "name": "Side Control Consolidation Bottom",
     "description": "Master Side Control Consolidation Bottom defensive strategies. Complete guide covering frame management, breathing techniques, and escape timing with 45% retention rate for advanced practitioners.",
@@ -98,109 +406,38 @@
       "Maintain hip mobility readiness even when seemingly controlled",
       "Create small defensive victories progressively rather than attempting immediate full escapes"
     ],
-    "offensive_transitions": [
+    "knowledge_assessment": [
       {
-        "technique": "Elbow Escape",
-        "target_position": "Half Guard",
-        "success_rates": {
-          "beginner": 15,
-          "intermediate": 30,
-          "advanced": 45
-        }
+        "question": "Your opponent has established heavy crossface pressure and you're having difficulty breathing - what is your immediate priority and how do you address it?",
+        "answer": "Immediate priority is creating breathing space through your far-side frame. Place your far-side forearm against their hip or chest with a bent elbow (not extended), creating a structural frame that prevents them from fully settling their chest weight. Simultaneously turn your head slightly toward them (counterintuitively) which can relieve some crossface pressure on your jaw. Focus on exhaling fully - this creates more space for inhalation than trying to inhale against pressure. Use the brief moment of their exhalation to create your frame, as their pressure naturally lightens during their breath cycle."
       },
       {
-        "technique": "Frame and Shrimp",
-        "target_position": "Defensive Position",
-        "success_rates": {
-          "beginner": 20,
-          "intermediate": 35,
-          "advanced": 50
-        }
+        "question": "What are the essential frames you must maintain and what is the priority order if you can only keep one?",
+        "answer": "The essential frames are: far-side forearm frame against opponent's hip (primary), far-side hand frame against their shoulder/chest (secondary), and near-side elbow blocking body-to-body contact (tertiary). If you can only maintain one frame, the hip frame is most critical because it prevents full consolidation, maintains breathing space, and creates the foundation for hip escape mechanics. Without the hip frame, the opponent can fully settle their weight and your escape options diminish dramatically. A shoulder frame without hip frame still leaves you trapped, but a hip frame without shoulder frame preserves escape potential."
       },
       {
-        "technique": "Bridge and Roll",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 10,
-          "intermediate": 20,
-          "advanced": 30
-        }
+        "question": "Your opponent starts walking toward your head preparing to transition to mount - describe your defensive response?",
+        "answer": "As opponent walks toward your head, this is your primary escape window. Immediately bridge your hips toward them while simultaneously shrimping away from the direction they're moving. Your goal is to insert your near-side knee between their leg and your hip before they complete the step-over. Turn onto your side facing them, using the bridge to create the angle. If you get your knee in, you've recovered to knee shield half guard. If they complete the mount transition, you've missed your best opportunity and must now defend mount. The key recognition: their hip elevation during walking is when their weight is lightest and escape probability is highest."
       },
       {
-        "technique": "Granby Roll",
-        "target_position": "Turtle",
-        "success_rates": {
-          "beginner": 12,
-          "intermediate": 25,
-          "advanced": 38
-        }
+        "question": "How should you breathe when trapped under consolidated side control and why does breathing technique matter?",
+        "answer": "Exhale fully and completely, then take controlled inhales through your nose when opportunity allows. Full exhalation is critical because: it's easier to exhale against pressure than inhale, complete exhalation creates a vacuum effect that helps the next inhale, and it prevents panic-induced hyperventilation. Time your inhales to your opponent's exhalation or movement adjustments when their pressure momentarily lightens. Avoid shallow chest breathing which causes rapid fatigue. Instead, use diaphragmatic breathing even under pressure. Controlled breathing maintains composure, prevents panic, and preserves energy for actual escape attempts."
       },
       {
-        "technique": "Technical Standup",
-        "target_position": "Standing Guard",
-        "success_rates": {
-          "beginner": 8,
-          "intermediate": 18,
-          "advanced": 28
-        }
+        "question": "Your opponent is attempting to isolate your far arm for a kimura - how do you defend while maintaining escape potential?",
+        "answer": "Immediately grab your own belt, pants, or gi with the threatened hand, keeping your elbow tight to your body. This grip defense buys time but doesn't solve the problem. While maintaining grip defense, begin hip escape movements to change the angle and reduce their leverage on the arm. The kimura attack often loosens their overall consolidation because they must commit grip strength to the submission - use their submission focus to create hip escape opportunities. If they persist, straighten your arm and point your thumb toward the floor while continuing to hip escape. Never let them get the figure-four grip with your arm separated from your body."
       },
       {
-        "technique": "Hip Escape",
-        "target_position": "Guard Recovery",
-        "success_rates": {
-          "beginner": 18,
-          "intermediate": 32,
-          "advanced": 46
-        }
-      }
-    ],
-    "defensive_responses": [
-      {
-        "technique": "Side Control to Mount",
-        "target_position": "Mount",
-        "success_rate": 70
+        "question": "What is the timing window for the elbow escape and how do you recognize when it opens?",
+        "answer": "The elbow escape window opens when: opponent raises their hips to transition (mount, knee on belly), when they reach for a grip or submission creating space between their chest and yours, when they adjust their base or crossface position, or when they shift weight toward your head. Recognize these moments by feeling their weight distribution change - a lighter chest or mobile hip indicates they're moving. The moment you feel weight lift, immediately bridge toward them and shrimp away, driving your near knee toward your chest to create the knee shield. Don't wait to visually confirm - feel the pressure change and immediately initiate the escape."
       },
       {
-        "technique": "Transition to North-South",
-        "target_position": "North-South",
-        "success_rate": 75
+        "question": "Your escape attempt failed and you're now in a worse position with your opponent applying even heavier pressure - how do you recover?",
+        "answer": "First, immediately re-establish your far-side frame before they fully capitalize on your failed escape. Accept that you've expended energy without result and now must recover defensively before the next attempt. Return to defensive fundamentals: frame, breathing, hip mobility. Do not chain another immediate escape attempt while fatigued - opponent is expecting this and you'll fail again. Instead, use the next 15-20 seconds to restore your defensive structure, catch your breath, and wait for the next genuine opportunity. Failed escapes often open submission opportunities for your opponent, so ensure your arms are protected while you recover."
       },
       {
-        "technique": "Kimura from Side Control",
-        "target_position": "Kimura Control",
-        "success_rate": 60
-      },
-      {
-        "technique": "Americana from Side Control",
-        "target_position": "Americana Control",
-        "success_rate": 55
-      },
-      {
-        "technique": "Arm Triangle",
-        "target_position": "Arm Triangle",
-        "success_rate": 50
-      }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Elbow Escape",
-        "target_position": "Half Guard",
-        "trigger": "Opponent raises hips or shifts weight preparing for mount transition"
-      },
-      {
-        "technique": "Frame and Shrimp",
-        "target_position": "Defensive Position",
-        "trigger": "Opponent adjusts pressure angle or repositions crossface"
-      },
-      {
-        "technique": "Bridge and Roll",
-        "target_position": "Side Control",
-        "trigger": "Opponent posts hand or extends base creating leverage opportunity"
-      },
-      {
-        "technique": "Granby Roll",
-        "target_position": "Turtle",
-        "trigger": "Opponent advances toward north-south creating rolling angle"
+        "question": "How do you manage energy expenditure when defending prolonged side control consolidation?",
+        "answer": "Energy management requires distinguishing between essential and wasteful movements. Essential: maintaining frames, controlled breathing, small hip adjustments that test their base. Wasteful: explosive bridges without setup, pushing with arms against their weight, constant movement without purpose. Use the 80/20 principle - 80% of time spend conserving energy with minimal defensive adjustments, 20% commit full effort to genuine escape windows. Never chase low-percentage escapes. Accept that side control is temporary and opponent must eventually advance or attack - patience creates opportunities. A calm defender who escapes after 60 seconds beats an exhausted defender who burns out in 20 seconds."
       }
     ],
     "decision_tree": [
@@ -209,7 +446,7 @@
         "actions": [
           {
             "technique": "Frame and Shrimp",
-            "target": "Defensive Position",
+            "target": "Open Guard",
             "probability": 45
           },
           {
@@ -229,7 +466,7 @@
           },
           {
             "technique": "Hip Escape",
-            "target": "Guard Recovery",
+            "target": "Open Guard",
             "probability": 50
           }
         ]
@@ -324,24 +561,6 @@
         "duration": "3 rounds of 2 minutes"
       }
     ],
-    "optimal_submission_paths": [
-      {
-        "name": "Half Guard Recovery Path",
-        "path": "Side Control Consolidation Bottom → Elbow Escape → Half Guard → Deep Half Guard → Deep Half Entry"
-      },
-      {
-        "name": "Guard Recovery Path",
-        "path": "Side Control Consolidation Bottom → Hip Escape → Guard Recovery → Closed Guard"
-      },
-      {
-        "name": "Turtle Transition Path",
-        "path": "Side Control Consolidation Bottom → Granby Roll → Turtle → Turtle to Standing"
-      },
-      {
-        "name": "Technical Standup Path",
-        "path": "Side Control Consolidation Bottom → Frame and Shrimp → Defensive Position → Technical Standup → Standing Guard"
-      }
-    ],
     "related_content": [
       {
         "name": "Side Control",
@@ -368,20 +587,20 @@
         "relationship": "Fundamental defensive movement for space creation"
       },
       {
-        "name": "Side Control Defensive Framework",
-        "relationship": "Systematic approach to defending consolidated positions"
+        "name": "Knee Shield Half Guard",
+        "relationship": "Common recovery position after successful escape"
       },
       {
-        "name": "Side Control Escapes",
-        "relationship": "Collection of escape techniques from side control variants"
+        "name": "Open Guard",
+        "relationship": "Guard recovery target after creating distance"
       },
       {
-        "name": "Defensive Frame",
-        "relationship": "Core concept for managing opponent's pressure"
+        "name": "Side Control Consolidation Top",
+        "relationship": "Opposite perspective - offensive counterpart position"
       },
       {
-        "name": "Escape Hierarchy",
-        "relationship": "Prioritization framework for escape selection"
+        "name": "North-South",
+        "relationship": "Alternative pin opponent may transition to"
       }
     ],
     "position_metrics": {
@@ -401,399 +620,32 @@
         "advanced": 20
       },
       "average_time": "45-120 seconds under pressure"
-    }
-  },
-  "top": {
-    "name": "Side Control Consolidation Top",
-    "description": "Master Side Control Consolidation Top position with 85% retention rate. Complete guide covering pressure mechanics, control establishment, and strategic advancement timing.",
-    "tags": [
-      "bjj",
-      "position",
-      "side-control",
-      "top-position",
-      "consolidation",
-      "control",
-      "pressure-passing"
-    ],
-    "overview": "Side Control Consolidation Top represents the critical refinement phase after achieving side control, where the top practitioner systematically eliminates escape opportunities and establishes dominant control before advancing. This position emphasizes methodical pressure application, connection tightening, and strategic weight distribution to nullify the opponent's defensive frames and hip movement. Unlike the initial side control achievement, consolidation focuses on control quality over speed, ensuring each adjustment strengthens positional dominance.\n\nThe consolidation phase typically lasts 10-30 seconds and serves as the foundation for successful mount transitions, submission attacks, and sustained positional control. Expert practitioners use this time to read opponent defensive patterns, identify optimal advancement pathways, and establish the psychological pressure that often leads to defensive mistakes. The position requires precise weight distribution through the chest and hips, strategic crossface application, and active base management to prevent scrambles during the refinement process.\n\nMastery of Side Control Consolidation Top separates intermediate from advanced practitioners, as it transforms side control from a temporary achievement into a platform for systematic attack sequences. This position embodies the principle of position before submission, allowing practitioners to advance confidently knowing their control foundation is unbreakable.",
-    "state_properties": {
-      "point_value": 3,
-      "position_type": "Offensive/Controlling",
-      "risk_level": "Low",
-      "energy_cost": "Medium",
-      "time_sustainability": "Medium to Long"
     },
-    "state_invariants": [
-      "Chest positioned heavily across opponent's torso with weight distributed through pectoral muscles and upper abdomen, creating constant downward pressure that restricts breathing and movement",
-      "Crossface arm threading under opponent's near-side head with forearm driving across jaw line and chin, creating rotational pressure that turns head away and limits hip escape angles",
-      "Far-side arm controlling opponent's far hip, far arm, or establishing underhook with hand gripping belt or gi material, preventing bridging and creating connection points for weight transfer",
-      "Hips positioned low and heavy on opponent's near-side ribs with knees spread wide for base stability, creating a wedge that blocks hip escape attempts and maintains constant pressure",
-      "Opponent flat on back with shoulders pinned to mat, defensive frames collapsing or eliminated, demonstrating visible signs of control consolidation such as reduced movement and defensive posture weakening"
-    ],
-    "prerequisites": [
-      "Successful achievement of Side Control position from guard pass, sweep, or scramble",
-      "Opponent's near-side arm controlled or neutralized to prevent effective framing",
-      "Initial crossface connection established with weight beginning to settle",
-      "Base stability achieved with at least one knee posted for pressure distribution",
-      "Opponent on back with limited mobility and defensive options restricting movement"
-    ],
-    "key_principles": [
-      "Distribute weight strategically through chest and hips rather than relying on arm posting, maximizing pressure while maintaining mobility for transitions",
-      "Tighten crossface progressively with each opponent adjustment, using their movement to deepen control and eliminate head positioning options",
-      "Monitor opponent's breathing rhythm and use exhalation moments to increase pressure and advance position, capitalizing on reduced defensive strength",
-      "Maintain active base with knees wide and mobile, ready to adjust pressure angles as opponent attempts to create frames or generate hip movement",
-      "Use small, deliberate movements to test opponent reactions before committing to major transitions, gathering information about defensive patterns and weaknesses",
-      "Establish multiple connection points between your body and opponent's torso, creating redundant control mechanisms that survive individual escape attempts",
-      "Control the far-side hip or arm to prevent bridging and rotation, eliminating the primary mechanical pathway for side control escapes"
-    ],
-    "offensive_transitions": [
+    "transitions": [
       {
-        "technique": "Side Control to Mount",
-        "target_position": "Mount",
-        "success_rates": {
-          "beginner": 45,
-          "intermediate": 65,
-          "advanced": 80
-        }
+        "transition": "Elbow Escape",
+        "attempt_probability": 19
       },
       {
-        "technique": "Transition to North-South",
-        "target_position": "North-South",
-        "success_rates": {
-          "beginner": 55,
-          "intermediate": 70,
-          "advanced": 85
-        }
+        "transition": "Frame and Shrimp",
+        "attempt_probability": 21
       },
       {
-        "technique": "Knee Cut Pass",
-        "target_position": "Knee on Belly",
-        "success_rates": {
-          "beginner": 40,
-          "intermediate": 60,
-          "advanced": 75
-        }
+        "transition": "Bridge and Roll",
+        "attempt_probability": 13
       },
       {
-        "technique": "Kimura from Side Control",
-        "target_position": "Kimura Control",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 55,
-          "advanced": 70
-        }
+        "transition": "Granby Roll",
+        "attempt_probability": 16
       },
       {
-        "technique": "Americana from Side Control",
-        "target_position": "Americana Control",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 50,
-          "advanced": 65
-        }
+        "transition": "Technical Standup",
+        "attempt_probability": 12
       },
       {
-        "technique": "Arm Triangle",
-        "target_position": "Arm Triangle",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 45,
-          "advanced": 65
-        }
-      },
-      {
-        "technique": "Armbar from Side Control",
-        "target_position": "Armbar Control",
-        "success_rates": {
-          "beginner": 20,
-          "intermediate": 40,
-          "advanced": 60
-        }
-      },
-      {
-        "technique": "North-South Choke",
-        "target_position": "North-South",
-        "success_rates": {
-          "beginner": 15,
-          "intermediate": 35,
-          "advanced": 55
-        }
+        "transition": "Hip Escape",
+        "attempt_probability": 19
       }
-    ],
-    "defensive_responses": [
-      {
-        "technique": "Elbow Escape",
-        "target_position": "Half Guard",
-        "success_rate": 20
-      },
-      {
-        "technique": "Frame and Shrimp",
-        "target_position": "Defensive Position",
-        "success_rate": 15
-      },
-      {
-        "technique": "Bridge and Roll",
-        "target_position": "Side Control",
-        "success_rate": 10
-      },
-      {
-        "technique": "Granby Roll",
-        "target_position": "Turtle",
-        "success_rate": 12
-      },
-      {
-        "technique": "Technical Standup",
-        "target_position": "Standing Guard",
-        "success_rate": 8
-      }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Side Control to Mount",
-        "target_position": "Mount",
-        "trigger": "Opponent creates space with elbow frame attempting to insert knee shield"
-      },
-      {
-        "technique": "Knee on Belly",
-        "target_position": "Knee on Belly",
-        "trigger": "Opponent turns into you attempting to recover guard, exposing far hip"
-      },
-      {
-        "technique": "Kimura from Side Control",
-        "target_position": "Kimura Control",
-        "trigger": "Opponent reaches across to defend crossface, exposing near arm for isolation"
-      },
-      {
-        "technique": "Transition to North-South",
-        "target_position": "North-South",
-        "trigger": "Opponent bridges explosively attempting to create space under hips"
-      }
-    ],
-    "decision_tree": [
-      {
-        "condition": "If opponent maintains tight defensive posture with strong frames and active hip movement",
-        "actions": [
-          {
-            "technique": "Pressure Application",
-            "target": "Side Control Consolidation Top",
-            "probability": 70
-          },
-          {
-            "technique": "Transition to North-South",
-            "target": "North-South",
-            "probability": 60
-          },
-          {
-            "technique": "Americana from Side Control",
-            "target": "Americana Control",
-            "probability": 45
-          }
-        ]
-      },
-      {
-        "condition": "If opponent begins to flatten and frames start collapsing from sustained pressure",
-        "actions": [
-          {
-            "technique": "Side Control to Mount",
-            "target": "Mount",
-            "probability": 75
-          },
-          {
-            "technique": "Kimura from Side Control",
-            "target": "Kimura Control",
-            "probability": 65
-          },
-          {
-            "technique": "Arm Triangle",
-            "target": "Arm Triangle",
-            "probability": 60
-          }
-        ]
-      },
-      {
-        "condition": "If opponent turns into you attempting to recover guard position",
-        "actions": [
-          {
-            "technique": "Knee on Belly",
-            "target": "Knee on Belly",
-            "probability": 80
-          },
-          {
-            "technique": "Side Control to Mount",
-            "target": "Mount",
-            "probability": 70
-          }
-        ]
-      },
-      {
-        "condition": "If opponent attempts explosive bridge or hip escape creating temporary space",
-        "actions": [
-          {
-            "technique": "Transition to North-South",
-            "target": "North-South",
-            "probability": 85
-          },
-          {
-            "technique": "Side Control to Mount",
-            "target": "Mount",
-            "probability": 65
-          },
-          {
-            "technique": "Armbar from Side Control",
-            "target": "Armbar Control",
-            "probability": 50
-          }
-        ]
-      }
-    ],
-    "common_errors": [
-      {
-        "error": "Posting on hands to maintain base instead of using chest pressure and hip weight",
-        "consequence": "Reduces pressure effectiveness, allows opponent to maintain breathing rhythm, creates space for defensive frames and hip escape attempts",
-        "correction": "Lower chest onto opponent's torso with weight distributed through pectoral muscles, using hands only for light contact points while hips provide primary pressure through near-side ribs"
-      },
-      {
-        "error": "Rushing to mount or submission before consolidating control and eliminating defensive frames",
-        "consequence": "Opponent capitalizes on transitional vulnerability, recovers guard or half guard, or creates scramble situations that neutralize positional advantage",
-        "correction": "Invest 10-30 seconds in systematic pressure application, progressively tightening connections and monitoring opponent's defensive strength before committing to advancement"
-      },
-      {
-        "error": "Applying static pressure without adjusting to opponent's movement and breathing patterns",
-        "consequence": "Opponent adapts to pressure angle, maintains energy conservation through breathing control, and preserves defensive structure for eventual escape attempts",
-        "correction": "Use dynamic pressure adjustments timed with opponent's exhalation, shifting weight angles with each breath cycle to progressively weaken defensive posture"
-      },
-      {
-        "error": "Neglecting far-side hip or arm control while focusing exclusively on crossface pressure",
-        "consequence": "Opponent generates bridging power through unrestricted far hip, creates rotation that weakens crossface effectiveness, and develops momentum for escape sequences",
-        "correction": "Establish underhook or far-side arm control simultaneously with crossface, creating multiple connection points that prevent rotational escape mechanics"
-      },
-      {
-        "error": "Maintaining narrow base with knees close together reducing stability and pressure distribution",
-        "consequence": "Vulnerable to explosive bridges and hip movement, unable to adjust quickly to opponent's escape attempts, creates predictable pressure patterns opponent can time escapes against",
-        "correction": "Spread knees wide with approximately shoulder-width distance, creating stable triangle base that allows rapid weight shifts and maintains pressure through opponent's movements"
-      },
-      {
-        "error": "Allowing opponent's near-side elbow to establish frame between bodies creating structural space",
-        "consequence": "Opponent develops leverage point for shrimp escape, creates breathing room that restores energy, and establishes foundation for progressive escape sequence",
-        "correction": "Trap near-side arm using body weight and crossface pressure, or control wrist and drive arm across opponent's body to eliminate framing opportunities"
-      },
-      {
-        "error": "Overlooking subtle opponent adjustments and defensive improvements during consolidation phase",
-        "consequence": "Opponent progressively strengthens position while appearing controlled, accumulates small defensive wins that build momentum, and suddenly explodes into successful escape",
-        "correction": "Monitor opponent's breathing depth, frame quality, and hip mobility continuously, immediately addressing any defensive improvements with pressure adjustments or positional changes"
-      }
-    ],
-    "training_drills": [
-      {
-        "name": "Progressive Pressure Application Drill",
-        "description": "Bottom partner starts with strong defensive frames and active hip movement. Top partner methodically applies increasing pressure over 60-second rounds, focusing on eliminating one defensive element at a time: first weakening frames through crossface pressure, then restricting breathing through chest weight, finally controlling hips through underhook connection. Switch roles every round and track time required to achieve full consolidation.",
-        "duration": "5 rounds of 60 seconds"
-      },
-      {
-        "name": "Escape Response Counter Drill",
-        "description": "Bottom partner attempts one specific escape attempt (elbow escape, bridge and roll, frame and shrimp) every 10 seconds. Top partner maintains consolidation and counters each attempt with appropriate response: weight shift for bridge, knee slide for elbow escape, base adjustment for shrimp. Practice reading escape timing and developing automatic counter responses. Progress to random escape attempts after mastering individual counters.",
-        "duration": "4 rounds of 90 seconds"
-      },
-      {
-        "name": "Breathing-Timed Advancement Drill",
-        "description": "Top partner consolidates side control and monitors opponent's breathing rhythm for 30 seconds. On opponent's third exhalation, execute advancement to mount, north-south, or knee on belly. Focus on timing major movements with opponent's reduced defensive strength during exhalation phase. Bottom partner provides realistic resistance but does not actively escape. Develop sensitivity to breathing patterns and transitional timing.",
-        "duration": "6 rounds of 60 seconds"
-      },
-      {
-        "name": "Consolidation to Submission Chain Drill",
-        "description": "Start in early side control with opponent maintaining defensive posture. Top partner must achieve full consolidation (judge confirms flattened opponent with collapsed frames) before attempting any submission. Practice three sequences: consolidation to Americana, consolidation to kimura, consolidation to arm triangle. Emphasizes position quality before submission attempts and develops patience in control refinement.",
-        "duration": "3 rounds of 2 minutes per submission"
-      }
-    ],
-    "optimal_submission_paths": [
-      {
-        "name": "High-percentage control-based path",
-        "path": "Side Control Consolidation Top → Mount → Americana from Mount → Won by Submission"
-      },
-      {
-        "name": "Pressure-based submission path",
-        "path": "Side Control Consolidation Top → Arm Triangle → Won by Submission"
-      },
-      {
-        "name": "Kimura control path",
-        "path": "Side Control Consolidation Top → Kimura Control → Kimura → Won by Submission"
-      },
-      {
-        "name": "North-South choke path",
-        "path": "Side Control Consolidation Top → North-South → North-South Choke → Won by Submission"
-      },
-      {
-        "name": "Armbar transition path",
-        "path": "Side Control Consolidation Top → Armbar Control → Armbar Finish → Won by Submission"
-      }
-    ],
-    "related_content": [
-      {
-        "name": "Side Control",
-        "relationship": "Parent position - initial achievement before consolidation phase"
-      },
-      {
-        "name": "Mount",
-        "relationship": "Primary advancement target from consolidated side control"
-      },
-      {
-        "name": "North-South",
-        "relationship": "Alternative advancement maintaining pressure-based control"
-      },
-      {
-        "name": "Knee on Belly",
-        "relationship": "Dynamic transition option when opponent turns into you"
-      },
-      {
-        "name": "Pressure Application",
-        "relationship": "Core concept governing consolidation methodology"
-      },
-      {
-        "name": "Control Maintenance",
-        "relationship": "Fundamental principle for sustaining positional dominance"
-      },
-      {
-        "name": "Weight Distribution",
-        "relationship": "Technical concept for effective pressure management"
-      },
-      {
-        "name": "Bernardo Faria Pressure System",
-        "relationship": "Expert system emphasizing consolidation-based control"
-      },
-      {
-        "name": "Side Control Consolidation Bottom",
-        "relationship": "Opposite perspective - defensive counterpart position"
-      },
-      {
-        "name": "Kimura from Side Control",
-        "relationship": "Primary submission option from consolidated control"
-      },
-      {
-        "name": "Americana from Side Control",
-        "relationship": "High-percentage submission when near arm isolated"
-      },
-      {
-        "name": "Cross Face Control",
-        "relationship": "Essential control concept for head positioning"
-      }
-    ],
-    "position_metrics": {
-      "retention_rate": {
-        "beginner": 60,
-        "intermediate": 75,
-        "advanced": 85
-      },
-      "advancement_probability": {
-        "beginner": 40,
-        "intermediate": 60,
-        "advanced": 75
-      },
-      "submission_probability": {
-        "beginner": 25,
-        "intermediate": 45,
-        "advanced": 60
-      },
-      "average_time": "30-90 seconds"
-    }
+    ]
   }
 }

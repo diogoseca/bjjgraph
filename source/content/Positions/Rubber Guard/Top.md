@@ -21,37 +21,37 @@ description: "Defend against Rubber Guard from top position with systematic esca
     {
       "@type": "HowToStep",
       "name": "Execute Posture Recovery",
-      "text": "From this position, execute Posture Recovery to transition to Closed Guard. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Posture Recovery. This technique is attempted in 30% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Guard Opening Sequence",
-      "text": "From this position, execute Guard Opening Sequence to transition to Combat Base. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Guard Opening Sequence. This technique is attempted in 20% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Guard Pass",
-      "text": "From this position, execute Guard Pass to transition to Side Control. Success rate for advanced practitioners: 45%.",
+      "name": "Execute Stack Pass",
+      "text": "From this position, attempt Stack Pass. This technique is attempted in 15% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Stack Pass",
-      "text": "From this position, execute Stack Pass to transition to Side Control. Success rate for advanced practitioners: 48%.",
+      "name": "Execute Guard Pass",
+      "text": "From this position, attempt Guard Pass. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Pressure Pass",
-      "text": "From this position, execute Pressure Pass to transition to Side Control. Success rate for advanced practitioners: 45%.",
+      "text": "From this position, attempt Pressure Pass. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Position Change",
-      "text": "From this position, execute Position Change to transition to Open Guard. Success rate for advanced practitioners: 53%.",
+      "name": "Execute Technical Stand-up",
+      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 15% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -160,7 +160,7 @@ description: "Defend against Rubber Guard from top position with systematic esca
 
 <section id="overview" class="content-section">
 
-The Rubber Guard from the top perspective represents one of the most challenging defensive scenarios in modern Brazilian Jiu-Jitsu, particularly for practitioners unfamiliar with the specific defensive protocols required to neutralize its unique control mechanisms. When caught in an opponent's Rubber Guard, the top player faces severe posture compromise, arm isolation, and a systematic progression of submission threats that require precise defensive understanding to escape. The fundamental problem begins when the bottom player succeeds in breaking posture and elevating their leg high across the back, trapping the near-side arm against their chest. This creates a locked configuration that removes one of the top player's primary posting bases while simultaneously pulling them into a compromised position vulnerable to triangles, omoplatas, and various 10th Planet-specific submissions. The top player's immediate priority must be preventing the initial leg elevation by maintaining strong posture, keeping elbows tight to the body, and fighting aggressively to control distance in closed guard. Once the Rubber Guard is established, escape becomes significantly more difficult, requiring systematic understanding of how to address the arm trap, recover posture, and ultimately open the guard or pass to a superior position. The key defensive principles involve creating frames with the free hand, preventing the bottom player from advancing through the positional hierarchy (Mission Control → New York → Invisible Collar), and carefully extracting the trapped arm without creating space for submission entries. Understanding the submission sequences available from Rubber Guard is essential for effective defense, as each position within the system has specific submission threats that dictate appropriate defensive responses. The top player must also manage the energy dynamics carefully, as overly aggressive escape attempts often play into the bottom player's strategy by creating the reactions and movements that facilitate submission entries. Success from top in Rubber Guard requires patience, systematic defensive progression, and the technical knowledge to neutralize the position's control mechanisms while avoiding the submission traps that punish common escape attempts.
+The Rubber Guard from the top perspective represents one of the most challenging defensive scenarios in modern Brazilian Jiu-Jitsu, particularly for practitioners unfamiliar with the specific defensive protocols required to neutralize its unique control mechanisms. When caught in an opponent's Rubber Guard, the top player faces severe posture compromise, arm isolation, and a systematic progression of submission threats that require precise defensive understanding to escape. The fundamental problem begins when the bottom player succeeds in breaking posture and elevating their leg high across the back, trapping the near-side arm against their chest. This creates a locked configuration that removes one of the top player's primary posting bases while simultaneously pulling them into a compromised position vulnerable to triangles, omoplatas, and various specialized submissions. The top player's immediate priority must be preventing the initial leg elevation by maintaining strong posture, keeping elbows tight to the body, and fighting aggressively to control distance in closed guard. Once the Rubber Guard is established, escape becomes significantly more difficult, requiring systematic understanding of how to address the arm trap, recover posture, and ultimately open the guard or pass to a superior position. The key defensive principles involve creating frames with the free hand, preventing the bottom player from advancing through the positional hierarchy (Mission Control → New York → Invisible Collar), and carefully extracting the trapped arm without creating space for submission entries. Understanding the submission sequences available from Rubber Guard is essential for effective defense, as each position within the system has specific submission threats that dictate appropriate defensive responses. The top player must also manage the energy dynamics carefully, as overly aggressive escape attempts often play into the bottom player's strategy by creating the reactions and movements that facilitate submission entries. Success from top in Rubber Guard requires patience, systematic defensive progression, and the technical knowledge to neutralize the position's control mechanisms while avoiding the submission traps that punish common escape attempts.
 
 </section>
 
@@ -204,89 +204,18 @@ The Rubber Guard from the top perspective represents one of the most challenging
 
 ## Available Attacks
 
-### [[Posture Recovery]] → [[Closed Guard]]
+### [[Posture Recovery]] (30% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 55%
+### [[Guard Opening Sequence]] (20% of attempts)
 
-### [[Guard Opening Sequence]] → [[Combat Base]]
+### [[Stack Pass]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 50%
+### [[Guard Pass]] (10% of attempts)
 
-### [[Guard Pass]] → [[Side Control]]
+### [[Pressure Pass]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 10%
-- Intermediate: 25%
-- Advanced: 45%
+### [[Technical Stand-up]] (15% of attempts)
 
-### [[Stack Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 12%
-- Intermediate: 28%
-- Advanced: 48%
-
-### [[Pressure Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 10%
-- Intermediate: 25%
-- Advanced: 45%
-
-### [[Position Change]] → [[Open Guard]]
-
-**Success Rates:**
-- Beginner: 18%
-- Intermediate: 33%
-- Advanced: 53%
-
-### [[Standing up]] → [[Standing Position]]
-
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 50%
-
-### [[Frame and Shrimp]] → [[Combat Base]]
-
-**Success Rates:**
-- Beginner: 18%
-- Intermediate: 33%
-- Advanced: 53%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Triangle Setup]]** → [[Triangle Control]] (Opponent Success: 45%)
-- **[[Omoplata to Back]]** → [[Omoplata Control]] (Opponent Success: 40%)
-- **[[Hip Bump Sweep]]** → [[Mount]] (Opponent Success: 35%)
-- **[[Triangle to Armbar]]** → [[Armbar Control]] (Opponent Success: 40%)
-- **[[Omoplata Sweep]]** → [[Side Control]] (Opponent Success: 38%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Posture Recovery]]** → [[Closed Guard]]
-  - Bottom player attempts to advance grip configuration creating brief opening
-- **[[Stack Pass]]** → [[Side Control]]
-  - Bottom player overcommits to submission attempt allowing stacking pressure
-- **[[Standing up]]** → [[Standing Position]]
-  - Bottom player loses leg grip or fails to maintain proper configuration
 
 
 </section>
@@ -302,7 +231,7 @@ The Rubber Guard from the top perspective represents one of the most challenging
 
 **If bottom player attempts to advance to New York or Invisible Collar:**
 - Execute **[[Guard Opening Sequence]]** → [[Combat Base]] (Probability: 50%)
-- Execute **[[Position Change]]** → [[Open Guard]] (Probability: 45%)
+- Execute **[[Arm Extraction]]** → [[Open Guard]] (Probability: 45%)
 
 
 **If bottom player overextends for submission creating space:**
@@ -311,7 +240,7 @@ The Rubber Guard from the top perspective represents one of the most challenging
 
 
 **If able to extract trapped arm and create distance:**
-- Execute **[[Standing up]]** → [[Standing Position]] (Probability: 50%)
+- Execute **[[Technical Stand-up]]** → [[Standing Position]] (Probability: 50%)
 - Execute **[[Pressure Pass]]** → [[Side Control]] (Probability: 45%)
 
 
@@ -377,7 +306,7 @@ Partner establishes various Rubber Guard positions (Mission Control, New York, Z
 
 ### Escape Sequence Drilling
 
-Start trapped in established Rubber Guard. Work through systematic escape sequence: frame creation → posture recovery → arm extraction → guard opening → pass or standup. Perform slowly emphasizing technical precision. Partner gradually increases resistance over multiple rounds.
+Start trapped in established Rubber Guard. Work through systematic escape sequence: frame creation, posture recovery, arm extraction, guard opening, pass or standup. Perform slowly emphasizing technical precision. Partner gradually increases resistance over multiple rounds.
 
 **Duration**: 6 rounds of 3 minutes
 
@@ -393,29 +322,7 @@ Start in closed guard with good posture. Partner attempts to break posture and e
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
-
-### Posture Recovery to Pass
-
-`Rubber Guard Top → Posture Recovery → Closed Guard → Guard Opening Sequence → Combat Base → Guard Pass → Side Control`
-
-### Stack Escape Path
-
-`Rubber Guard Top → Frame Creation → Stack Pass → Side Control → Mount`
-
-### Standup Escape Path
-
-`Rubber Guard Top → Arm Extraction → Standing up → Standing Position → Toreando Pass → Side Control`
-
-### Pressure Pass Path
-
-`Rubber Guard Top → Posture Recovery → Closed Guard → Pressure Pass → Side Control`
-
-
-
-</section>
 
 <section id="position-metrics" class="content-section">
 
@@ -442,11 +349,6 @@ Start in closed guard with good posture. Partner attempts to break posture and e
 - **[[Triangle Control]]** - Primary submission threat when defending Rubber Guard requiring specific defensive protocols
 - **[[Omoplata Control]]** - Secondary submission threat particularly from New York position requiring awareness and counters
 - **[[Mission Control]]** - Primary Rubber Guard position that must be understood to defend effectively from top
-- **[[New York Control]]** - Advanced Rubber Guard position indicating increased omoplata threat requiring adjusted defense
-- **[[Invisible Collar]]** - Submission setup position from Rubber Guard signaling imminent choke attempts
-- **[[Zombie]]** - Gogoplata setup position representing advanced submission threat from Rubber Guard system
-- **[[10th Planet Rubber Guard System]]** - Complete system understanding essential for developing comprehensive defensive strategy
-- **[[Guard Opening Sequence]]** - Systematic approach to breaking closed guard after recovering from Rubber Guard control
 
 
 </section>

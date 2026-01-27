@@ -47,347 +47,6 @@
       "relationship": "Arm control position - can lead to S Mount entry when opponent's arm is trapped"
     }
   ],
-  "bottom": {
-    "name": "S Mount Bottom",
-    "description": "Defend against S Mount attacks in BJJ. Critical escape techniques, arm protection strategies, and survival principles when trapped in this dangerous submission position.",
-    "tags": [
-      "defensive-position",
-      "mount-escape",
-      "submission-defense",
-      "high-risk",
-      "emergency-escape"
-    ],
-    "overview": "Being trapped in S Mount bottom represents one of the most dangerous defensive scenarios in Brazilian Jiu-Jitsu. The bottom practitioner faces immediate threat of submission, primarily armbar, while dealing with severely limited mobility and escape options. This position demands technical precision, disciplined defensive posture, and strategic escape mechanics to avoid submission while creating opportunities to return to a more favorable position.\n\nThe primary challenge from S Mount bottom is the mechanical disadvantage created by the opponent's perpendicular body position. With one leg extended over your head and the other across your torso, the top practitioner has created a structural framework that simultaneously controls your upper body while isolating your near arm for attack. Your defensive priority must be protecting the arm first, then creating space for positional escape, as exposing the arm guarantees submission against any competent opponent.\n\nDefensive strategy from S Mount bottom revolves around maintaining defensive frames, keeping your elbows tight to your body, and preventing the opponent from fully extending your arm across their body. The critical defensive principle is never straightening your arm - bent arms are exponentially more difficult to attack than extended arms. You must also control the opponent's near leg with your free hand to prevent them from stepping over your head and securing full armbar position.\n\nEscape mechanics typically involve creating space through hip movement, establishing frames against the opponent's hips, and timing explosive movements to disrupt their base before they can secure the submission. The most common escape paths lead back to full mount, half guard, or in rare cases, complete escape to guard. Each escape option requires careful timing and technical execution, as premature or poorly timed escape attempts often result in giving up the submission.\n\nMental composure under pressure is perhaps the most critical factor in S Mount bottom survival. The position naturally creates claustrophobic pressure and the imminent threat of submission can lead to panic, which invariably results in technical breakdown and submission. Maintaining calm, focusing on defensive principles, and waiting for the correct moment to escape are essential skills for any practitioner facing this position. Understanding S Mount bottom defense is a fundamental component of comprehensive BJJ defensive systems and appears regularly in competition training.",
-    "state_properties": {
-      "point_value": 0,
-      "position_type": "Defensive",
-      "risk_level": "High",
-      "energy_cost": "High",
-      "time_sustainability": "Short"
-    },
-    "state_invariants": [
-      "Bottom practitioner is on their back with top opponent sitting perpendicular across their torso, creating an S-shaped body configuration. The top person's near leg extends over the bottom person's head with the foot planted on the mat beyond their shoulder, while the far leg crosses over the bottom person's torso at chest level. This perpendicular positioning isolates the bottom person's near arm and creates optimal leverage for armbar attacks while maintaining top position control.",
-      "The bottom practitioner's near arm is isolated and controlled by the top opponent, either trapped between their legs or being attacked for armbar position. The bottom person's defensive priority is keeping this arm bent and tucked close to their body, with their hand gripping their own collar, lapel, or shoulder to prevent full extension. The far arm is typically used to post on the mat or frame against the opponent's hips to create defensive space and prevent complete armbar setup.",
-      "Top opponent's hips are positioned tight against the bottom person's near shoulder, eliminating space and preventing escape. The top person's weight is distributed through their posted leg (over the head) and their far leg (across the torso), creating a structural base that is difficult to disrupt. Their upper body leans toward the bottom person's trapped arm, positioning their center of gravity to control the arm while maintaining balance and preventing being rolled or swept off the position."
-    ],
-    "prerequisites": [
-      "Opponent has achieved mount position and is actively attacking submissions",
-      "Top opponent has moved into perpendicular position with legs positioned for S Mount configuration",
-      "Bottom practitioner's near arm is isolated or under attack by opponent's control",
-      "Top opponent has established hip-to-shoulder connection eliminating defensive space",
-      "Bottom practitioner is on their back with limited mobility and escape options"
-    ],
-    "key_principles": [
-      "Protect the isolated arm first - never allow full extension as this guarantees submission",
-      "Keep trapped arm bent at 90 degrees or greater - straightened arms are indefensible against armbar",
-      "Use free hand to control opponent's near leg preventing full step-over to complete armbar",
-      "Create frames against opponent's hips with free arm to generate space for escape timing",
-      "Hip escape toward opponent's legs while maintaining arm protection to recover guard position",
-      "Never panic and thrash - explosive movements without technical foundation expose the arm to submission",
-      "If arm is fully extended and opponent has proper control, tap immediately - injury prevention is paramount"
-    ],
-    "offensive_transitions": [
-      {
-        "technique": "Elbow Escape",
-        "target_position": "Half Guard",
-        "success_rates": {
-          "beginner": 15,
-          "intermediate": 25,
-          "advanced": 35
-        }
-      },
-      {
-        "technique": "Hip Escape",
-        "target_position": "Closed Guard",
-        "success_rates": {
-          "beginner": 10,
-          "intermediate": 20,
-          "advanced": 30
-        }
-      },
-      {
-        "technique": "Bridge and Roll",
-        "target_position": "Mount",
-        "success_rates": {
-          "beginner": 5,
-          "intermediate": 10,
-          "advanced": 15
-        }
-      },
-      {
-        "technique": "Technical Standup",
-        "target_position": "Standing Position",
-        "success_rates": {
-          "beginner": 5,
-          "intermediate": 10,
-          "advanced": 20
-        }
-      },
-      {
-        "technique": "Leg Control to Sweep",
-        "target_position": "Mount",
-        "success_rates": {
-          "beginner": 8,
-          "intermediate": 15,
-          "advanced": 25
-        }
-      },
-      {
-        "technique": "Frame and Shrimp",
-        "target_position": "Open Guard",
-        "success_rates": {
-          "beginner": 12,
-          "intermediate": 22,
-          "advanced": 32
-        }
-      }
-    ],
-    "defensive_responses": [
-      {
-        "technique": "Armbar from Mount",
-        "target_position": "Armbar Control",
-        "success_rate": 75
-      },
-      {
-        "technique": "Triangle from Mount",
-        "target_position": "Mounted Triangle",
-        "success_rate": 40
-      },
-      {
-        "technique": "Americana from Mount",
-        "target_position": "Americana Control",
-        "success_rate": 35
-      },
-      {
-        "technique": "Transition to Mount",
-        "target_position": "Mount",
-        "success_rate": 50
-      },
-      {
-        "technique": "Transition to Back Control",
-        "target_position": "Back Control",
-        "success_rate": 45
-      }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Explosive Bridge",
-        "target_position": "Mount",
-        "trigger": "When opponent adjusts their leg position to step over head"
-      },
-      {
-        "technique": "Leg Hook Sweep",
-        "target_position": "Half Guard",
-        "trigger": "When opponent's base is compromised during submission attempt"
-      },
-      {
-        "technique": "Arm Extraction",
-        "target_position": "Closed Guard",
-        "trigger": "When opponent releases grip momentarily to readjust position"
-      }
-    ],
-    "decision_tree": [
-      {
-        "condition": "If opponent has full S Mount control with leg over head but arm is still bent and protected",
-        "actions": [
-          {
-            "technique": "Grip own collar",
-            "target": "Defensive Position",
-            "probability": 90
-          },
-          {
-            "technique": "Control opponent's leg with free hand",
-            "target": "Defensive Position",
-            "probability": 85
-          },
-          {
-            "technique": "Hip escape toward legs",
-            "target": "Half Guard",
-            "probability": 30
-          }
-        ]
-      },
-      {
-        "condition": "If opponent is transitioning to S Mount but hasn't fully stepped over head yet",
-        "actions": [
-          {
-            "technique": "Frame against hips immediately",
-            "target": "Mount",
-            "probability": 45
-          },
-          {
-            "technique": "Hook opponent's leg with free arm",
-            "target": "Mount",
-            "probability": 40
-          },
-          {
-            "technique": "Bridge explosively",
-            "target": "Mount",
-            "probability": 35
-          }
-        ]
-      },
-      {
-        "condition": "If arm is partially extended and opponent is securing armbar grip",
-        "actions": [
-          {
-            "technique": "Pull arm back aggressively",
-            "target": "Defensive Position",
-            "probability": 60
-          },
-          {
-            "technique": "Roll toward opponent",
-            "target": "Turtle",
-            "probability": 40
-          },
-          {
-            "technique": "Tap if full extension achieved",
-            "target": "Lost by Submission",
-            "probability": 100
-          }
-        ]
-      },
-      {
-        "condition": "If opponent adjusts position to attack other arm or transition to different submission",
-        "actions": [
-          {
-            "technique": "Explosive hip escape",
-            "target": "Half Guard",
-            "probability": 50
-          },
-          {
-            "technique": "Establish frames and create space",
-            "target": "Open Guard",
-            "probability": 45
-          },
-          {
-            "technique": "Bridge and roll",
-            "target": "Mount",
-            "probability": 25
-          }
-        ]
-      }
-    ],
-    "common_errors": [
-      {
-        "error": "Straightening the trapped arm in attempt to pull it free from opponent's control",
-        "consequence": "Creates perfect armbar setup - extended arm is mechanically indefensible and leads to immediate submission",
-        "correction": "Keep arm bent at all times, grip own collar or gi to maintain bent position, pull elbow tight to body"
-      },
-      {
-        "error": "Using both hands to push against opponent's leg over head without protecting trapped arm",
-        "consequence": "Opponent easily secures armbar as you actively extend your own arm into submission position",
-        "correction": "One hand protects arm (gripping collar), other hand controls opponent's leg - never abandon arm defense"
-      },
-      {
-        "error": "Panicking and thrashing randomly without technical escape structure",
-        "consequence": "Exhausts energy, creates opportunities for opponent to secure submission, prevents technical escape execution",
-        "correction": "Stay calm, maintain defensive posture, wait for opponent's adjustment to execute precise escape technique"
-      },
-      {
-        "error": "Attempting to sit up or crunch toward opponent while arm is trapped",
-        "consequence": "Feeds arm deeper into opponent's control, makes armbar completion easier by removing defensive space",
-        "correction": "Stay flat or slightly turned away, create frames with free arm, escape hips away from opponent"
-      },
-      {
-        "error": "Failing to control opponent's near leg with free hand during escape attempts",
-        "consequence": "Opponent easily steps over head to complete armbar or transitions to mounted triangle",
-        "correction": "Always maintain control of opponent's near leg with free hand to prevent full armbar setup"
-      },
-      {
-        "error": "Turning away from opponent to protect trapped arm",
-        "consequence": "Gives up back control or allows opponent to establish rear mount with both hooks",
-        "correction": "Face opponent, keep shoulders square, use technical frames rather than turning away"
-      }
-    ],
-    "training_drills": [
-      {
-        "name": "S Mount Escape Progression",
-        "description": "Partner establishes S Mount control with 50% resistance. Practice defensive posture (bent arm, collar grip, leg control) then execute hip escape to half guard. Gradually increase opponent's resistance as technique improves. Focus on maintaining arm protection throughout entire escape sequence.",
-        "duration": "5 minutes"
-      },
-      {
-        "name": "Armbar Defense Flow Drill",
-        "description": "Partner attacks armbar from S Mount position repeatedly while you practice defensive frames and arm protection. Work through sequence: collar grip → leg control → frame creation → hip escape. Reset and repeat continuously to build muscle memory for defensive reactions under pressure.",
-        "duration": "3 minutes"
-      },
-      {
-        "name": "Survival Sparring from S Mount",
-        "description": "Start in S Mount bottom with opponent actively attacking submissions. Your only goal is to survive without tapping for specified time period. Focus on defensive principles, maintaining calm under pressure, and recognizing escape opportunities. Partner uses 70-80% intensity.",
-        "duration": "2 minutes"
-      },
-      {
-        "name": "Timed Escape Challenge",
-        "description": "Partner establishes S Mount, timer starts. Race to execute complete escape to guard or better position as quickly as possible. Track time for each escape attempt and work to improve speed while maintaining technical precision. Develops urgency and decision-making under pressure.",
-        "duration": "Multiple 30-second rounds"
-      }
-    ],
-    "optimal_submission_paths": [
-      {
-        "name": "Emergency Escape to Guard Recovery",
-        "path": "S Mount Bottom → Frame and Shrimp → Half Guard → Guard Recovery → Closed Guard"
-      },
-      {
-        "name": "Explosive Reversal to Top Position",
-        "path": "S Mount Bottom → Bridge and Roll (during transition) → Mount → Submission Attack"
-      },
-      {
-        "name": "Technical Escape to Neutral",
-        "path": "S Mount Bottom → Elbow Escape → Half Guard → Knee Shield Half Guard → Open Guard → Standing Guard"
-      }
-    ],
-    "related_content": [
-      {
-        "name": "Mount",
-        "relationship": "Position opponent is attacking from - understanding mount control helps anticipate S Mount transitions"
-      },
-      {
-        "name": "Armbar Control",
-        "relationship": "Primary threat from this position - studying armbar mechanics improves defensive understanding"
-      },
-      {
-        "name": "Mount Escape Series",
-        "relationship": "Systematic escape progression that includes S Mount defensive techniques"
-      },
-      {
-        "name": "Half Guard",
-        "relationship": "Primary escape destination - most successful escapes lead to half guard position"
-      },
-      {
-        "name": "Defensive Framing",
-        "relationship": "Core principle for creating space and preventing submission setup"
-      },
-      {
-        "name": "Submission Defense",
-        "relationship": "Fundamental defensive concepts that apply specifically to S Mount survival"
-      },
-      {
-        "name": "Hip Escape Mechanics",
-        "relationship": "Essential movement pattern for executing technical escapes from S Mount"
-      }
-    ],
-    "position_metrics": {
-      "retention_rate": {
-        "beginner": 85,
-        "intermediate": 70,
-        "advanced": 50,
-        "description": "Percentage of time bottom practitioner remains trapped in S Mount"
-      },
-      "advancement_probability": {
-        "beginner": 10,
-        "intermediate": 20,
-        "advanced": 35,
-        "description": "Probability of successfully escaping to better position"
-      },
-      "submission_probability": {
-        "beginner": 75,
-        "intermediate": 55,
-        "advanced": 35,
-        "description": "Probability of getting submitted from this position"
-      },
-      "average_time": "15-45 seconds before submission or escape"
-    }
-  },
   "top": {
     "name": "S Mount Top",
     "description": "Dominate with S Mount attacks in BJJ. Master arm isolation, armbar mechanics, submission chains, and control principles from this high-percentage finishing position.",
@@ -426,129 +85,6 @@
       "Armbar is primary submission but maintain awareness of triangle, americana, and mounted triangle options",
       "Weight shifts from chest pressure to hip pressure during mount-to-S Mount transition",
       "If opponent successfully defends armbar, transition back to mount rather than forcing low-percentage finish"
-    ],
-    "offensive_transitions": [
-      {
-        "technique": "Armbar from Mount",
-        "target_position": "Armbar Control",
-        "success_rates": {
-          "beginner": 60,
-          "intermediate": 75,
-          "advanced": 85
-        }
-      },
-      {
-        "technique": "Triangle from Mount",
-        "target_position": "Mounted Triangle",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 50,
-          "advanced": 65
-        }
-      },
-      {
-        "technique": "Americana from Mount",
-        "target_position": "Americana Control",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 45,
-          "advanced": 55
-        }
-      },
-      {
-        "technique": "Kimura from Mount",
-        "target_position": "Kimura Control",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 40,
-          "advanced": 50
-        }
-      },
-      {
-        "technique": "Transition to Back Control",
-        "target_position": "Back Control",
-        "success_rates": {
-          "beginner": 40,
-          "intermediate": 55,
-          "advanced": 70
-        }
-      },
-      {
-        "technique": "Transition to Mount",
-        "target_position": "Mount",
-        "success_rates": {
-          "beginner": 70,
-          "intermediate": 80,
-          "advanced": 90
-        }
-      },
-      {
-        "technique": "Mounted Crucifix Entry",
-        "target_position": "Mounted Crucifix",
-        "success_rates": {
-          "beginner": 20,
-          "intermediate": 35,
-          "advanced": 50
-        }
-      },
-      {
-        "technique": "Gift Wrap to Back",
-        "target_position": "Gift Wrap",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 45,
-          "advanced": 60
-        }
-      }
-    ],
-    "defensive_responses": [
-      {
-        "technique": "Elbow Escape",
-        "target_position": "Half Guard",
-        "success_rate": 25
-      },
-      {
-        "technique": "Hip Escape",
-        "target_position": "Closed Guard",
-        "success_rate": 20
-      },
-      {
-        "technique": "Bridge and Roll",
-        "target_position": "Mount",
-        "success_rate": 10
-      },
-      {
-        "technique": "Frame and Shrimp",
-        "target_position": "Open Guard",
-        "success_rate": 15
-      },
-      {
-        "technique": "Technical Standup",
-        "target_position": "Standing Position",
-        "success_rate": 10
-      }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Step-over Armbar Completion",
-        "target_position": "Armbar Control",
-        "trigger": "When opponent tries to pull their arm back to defend"
-      },
-      {
-        "technique": "Switch to Triangle",
-        "target_position": "Mounted Triangle",
-        "trigger": "When opponent brings their free arm across their body to defend armbar"
-      },
-      {
-        "technique": "Back Take",
-        "target_position": "Back Control",
-        "trigger": "When opponent turns away from S Mount to protect their arm"
-      },
-      {
-        "technique": "Remount",
-        "target_position": "Mount",
-        "trigger": "When opponent creates space by shrimping but hasn't escaped leg control"
-      }
     ],
     "decision_tree": [
       {
@@ -611,7 +147,7 @@
           },
           {
             "technique": "Attack second arm with americana",
-            "target": "Americana Control",
+            "target": "Kimura Trap",
             "probability": 60
           },
           {
@@ -701,28 +237,6 @@
         "duration": "Multiple 2-minute rounds"
       }
     ],
-    "optimal_submission_paths": [
-      {
-        "name": "Direct Armbar Finish",
-        "path": "Mount → S Mount Top → Armbar Control → Won by Submission"
-      },
-      {
-        "name": "Triangle Chain",
-        "path": "Mount → S Mount Top → Mounted Triangle → Triangle Choke Front → Won by Submission"
-      },
-      {
-        "name": "Back Attack Series",
-        "path": "Mount → S Mount Top → Gift Wrap → Back Control → Rear Naked Choke"
-      },
-      {
-        "name": "Mounted Crucifix Path",
-        "path": "Mount → S Mount Top → Mounted Crucifix → Choke from Crucifix → Won by Submission"
-      },
-      {
-        "name": "Alternative Arm Attack",
-        "path": "Mount → S Mount Top → Americana Control → Americana from Mount → Won by Submission"
-      }
-    ],
     "related_content": [
       {
         "name": "Mount",
@@ -745,20 +259,20 @@
         "relationship": "Alternative advancement - take back when opponent turns away from S Mount"
       },
       {
-        "name": "Submission Position",
-        "relationship": "Core principle - S Mount exemplifies position before submission philosophy"
-      },
-      {
-        "name": "Control Maintenance",
-        "relationship": "Essential principle - maintaining control while transitioning to submissions"
-      },
-      {
         "name": "Armbar from Mount",
         "relationship": "Primary technique - the exact submission S Mount is designed to facilitate"
       },
       {
-        "name": "Roger Gracie Fundamental System",
-        "relationship": "Strategic framework - Roger Gracie's mount-to-armbar system uses S Mount extensively"
+        "name": "Triangle from Mount",
+        "relationship": "Alternative submission - common chain attack when armbar is defended"
+      },
+      {
+        "name": "Mounted Crucifix",
+        "relationship": "Alternative control - similar arm isolation with different configuration"
+      },
+      {
+        "name": "Gift Wrap",
+        "relationship": "Control transition - can lead to S Mount or back take"
       }
     ],
     "position_metrics": {
@@ -781,6 +295,349 @@
         "description": "Probability of finishing opponent with submission from this position"
       },
       "average_time": "20-60 seconds from entry to submission or position change"
-    }
+    },
+    "transitions": [
+      {
+        "transition": "Armbar from Mount",
+        "attempt_probability": 35
+      },
+      {
+        "transition": "Triangle from Mount",
+        "attempt_probability": 20
+      },
+      {
+        "transition": "Americana from Mount",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Kimura from Mount",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Back Take",
+        "attempt_probability": 15
+      },
+      {
+        "transition": "Mounted Crucifix Entry",
+        "attempt_probability": 10
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What hip adjustment should you make when your opponent starts to bridge explosively from S Mount bottom?",
+        "answer": "Drop your hips lower and tighter against their shoulder while posting your near foot wider for stability. The bridge creates upward force, so you counter by driving your weight down and forward toward their trapped arm. Keep your center of gravity low and avoid sitting up, which would make you vulnerable to being displaced."
+      },
+      {
+        "question": "What are the essential grip and leg positions for maintaining S Mount control?",
+        "answer": "Your near leg extends over their head with foot firmly planted on the mat beyond their far shoulder. Your far leg crosses their torso at chest level, creating a structural barrier. Hands grip their wrist and control the isolated arm - one hand on the wrist, the other securing the elbow or bicep. Your hips must stay glued to their shoulder to eliminate space."
+      },
+      {
+        "question": "How do you shut down the primary escape where opponent tries to pull their arm back to their body?",
+        "answer": "Maintain constant two-on-one control of their wrist, keeping their arm extended across your centerline. Drive your hip weight into their shoulder to pin it to the mat. If they start pulling, immediately transition to the armbar finish or switch to a mounted triangle by threading your leg under their chin as they expose the neck."
+      },
+      {
+        "question": "What grip priorities should you maintain from S Mount top when the opponent is actively defending?",
+        "answer": "Primary grip is wrist control on the isolated arm - never release this without transitioning to another control. Secondary grip pins their far arm or posts on the mat for base. If attacking armbar, add elbow control with your second hand. The wrist grip is non-negotiable; losing it typically means losing the position or submission opportunity."
+      },
+      {
+        "question": "How should you apply pressure from S Mount to drain opponent's energy while maintaining control?",
+        "answer": "Drive your hip bone into their shoulder joint, creating constant grinding pressure. Your weight should flow through this hip connection, not through your hands. The perpendicular body angle allows you to apply focused pressure on their shoulder while your legs control their movement. This pressure forces them to carry your weight through their trapped arm, fatiguing them rapidly."
+      },
+      {
+        "question": "Your opponent creates a small hip escape and begins to recover space - what immediate adjustment prevents full escape?",
+        "answer": "Follow their hip movement by scooting your hips with them, maintaining the hip-to-shoulder connection. Do not chase with your upper body first - lead with hip pressure. If space opens, either complete the armbar immediately before they recover, or abandon S Mount and drop back to standard mount to reset. The worst option is staying in compromised S Mount with space."
+      },
+      {
+        "question": "How do you manage energy expenditure when opponent is actively defending from S Mount bottom?",
+        "answer": "Use structural control rather than muscular effort - let your skeletal frame and body weight do the work through proper positioning. Avoid death-gripping the wrist; instead, use body position to make escape mechanically difficult. If they're defending successfully, return to mount to rest rather than burning energy forcing a low-percentage finish. Patient pressure eventually creates openings."
+      },
+      {
+        "question": "What should you do immediately after a partial escape where opponent frees their arm but you still have positional control?",
+        "answer": "Immediately transition back to standard mount and consolidate control before they can fully escape. Once in mount, reset your grips and wait for another arm isolation opportunity. Do not chase the escaped arm or attempt to re-enter S Mount while unstable. Secure the position first, then look for the next submission opportunity from a position of control."
+      }
+    ]
+  },
+  "bottom": {
+    "name": "S Mount Bottom",
+    "description": "Defend against S Mount attacks in BJJ. Critical escape techniques, arm protection strategies, and survival principles when trapped in this dangerous submission position.",
+    "tags": [
+      "defensive-position",
+      "mount-escape",
+      "submission-defense",
+      "high-risk",
+      "emergency-escape"
+    ],
+    "overview": "Being trapped in S Mount bottom represents one of the most dangerous defensive scenarios in Brazilian Jiu-Jitsu. The bottom practitioner faces immediate threat of submission, primarily armbar, while dealing with severely limited mobility and escape options. This position demands technical precision, disciplined defensive posture, and strategic escape mechanics to avoid submission while creating opportunities to return to a more favorable position.\n\nThe primary challenge from S Mount bottom is the mechanical disadvantage created by the opponent's perpendicular body position. With one leg extended over your head and the other across your torso, the top practitioner has created a structural framework that simultaneously controls your upper body while isolating your near arm for attack. Your defensive priority must be protecting the arm first, then creating space for positional escape, as exposing the arm guarantees submission against any competent opponent.\n\nDefensive strategy from S Mount bottom revolves around maintaining defensive frames, keeping your elbows tight to your body, and preventing the opponent from fully extending your arm across their body. The critical defensive principle is never straightening your arm - bent arms are exponentially more difficult to attack than extended arms. You must also control the opponent's near leg with your free hand to prevent them from stepping over your head and securing full armbar position.\n\nEscape mechanics typically involve creating space through hip movement, establishing frames against the opponent's hips, and timing explosive movements to disrupt their base before they can secure the submission. The most common escape paths lead back to full mount, half guard, or in rare cases, complete escape to guard. Each escape option requires careful timing and technical execution, as premature or poorly timed escape attempts often result in giving up the submission.\n\nMental composure under pressure is perhaps the most critical factor in S Mount bottom survival. The position naturally creates claustrophobic pressure and the imminent threat of submission can lead to panic, which invariably results in technical breakdown and submission. Maintaining calm, focusing on defensive principles, and waiting for the correct moment to escape are essential skills for any practitioner facing this position. Understanding S Mount bottom defense is a fundamental component of comprehensive BJJ defensive systems and appears regularly in competition training.",
+    "state_properties": {
+      "point_value": 0,
+      "position_type": "Defensive",
+      "risk_level": "High",
+      "energy_cost": "High",
+      "time_sustainability": "Short"
+    },
+    "state_invariants": [
+      "Bottom practitioner is on their back with top opponent sitting perpendicular across their torso, creating an S-shaped body configuration. The top person's near leg extends over the bottom person's head with the foot planted on the mat beyond their shoulder, while the far leg crosses over the bottom person's torso at chest level. This perpendicular positioning isolates the bottom person's near arm and creates optimal leverage for armbar attacks while maintaining top position control.",
+      "The bottom practitioner's near arm is isolated and controlled by the top opponent, either trapped between their legs or being attacked for armbar position. The bottom person's defensive priority is keeping this arm bent and tucked close to their body, with their hand gripping their own collar, lapel, or shoulder to prevent full extension. The far arm is typically used to post on the mat or frame against the opponent's hips to create defensive space and prevent complete armbar setup.",
+      "Top opponent's hips are positioned tight against the bottom person's near shoulder, eliminating space and preventing escape. The top person's weight is distributed through their posted leg (over the head) and their far leg (across the torso), creating a structural base that is difficult to disrupt. Their upper body leans toward the bottom person's trapped arm, positioning their center of gravity to control the arm while maintaining balance and preventing being rolled or swept off the position."
+    ],
+    "prerequisites": [
+      "Opponent has achieved mount position and is actively attacking submissions",
+      "Top opponent has moved into perpendicular position with legs positioned for S Mount configuration",
+      "Bottom practitioner's near arm is isolated or under attack by opponent's control",
+      "Top opponent has established hip-to-shoulder connection eliminating defensive space",
+      "Bottom practitioner is on their back with limited mobility and escape options"
+    ],
+    "key_principles": [
+      "Protect the isolated arm first - never allow full extension as this guarantees submission",
+      "Keep trapped arm bent at 90 degrees or greater - straightened arms are indefensible against armbar",
+      "Use free hand to control opponent's near leg preventing full step-over to complete armbar",
+      "Create frames against opponent's hips with free arm to generate space for escape timing",
+      "Hip escape toward opponent's legs while maintaining arm protection to recover guard position",
+      "Never panic and thrash - explosive movements without technical foundation expose the arm to submission",
+      "If arm is fully extended and opponent has proper control, tap immediately - injury prevention is paramount"
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent has full S Mount control with leg over head but arm is still bent and protected",
+        "actions": [
+          {
+            "technique": "Grip own collar",
+            "target": "S Mount",
+            "probability": 90
+          },
+          {
+            "technique": "Control opponent's leg with free hand",
+            "target": "S Mount",
+            "probability": 85
+          },
+          {
+            "technique": "Hip escape toward legs",
+            "target": "Half Guard",
+            "probability": 30
+          }
+        ]
+      },
+      {
+        "condition": "If opponent is transitioning to S Mount but hasn't fully stepped over head yet",
+        "actions": [
+          {
+            "technique": "Frame against hips immediately",
+            "target": "Mount",
+            "probability": 45
+          },
+          {
+            "technique": "Hook opponent's leg with free arm",
+            "target": "Mount",
+            "probability": 40
+          },
+          {
+            "technique": "Bridge explosively",
+            "target": "Mount",
+            "probability": 35
+          }
+        ]
+      },
+      {
+        "condition": "If arm is partially extended and opponent is securing armbar grip",
+        "actions": [
+          {
+            "technique": "Pull arm back aggressively",
+            "target": "S Mount",
+            "probability": 60
+          },
+          {
+            "technique": "Roll toward opponent",
+            "target": "Turtle",
+            "probability": 40
+          },
+          {
+            "technique": "Tap if full extension achieved",
+            "target": "game-over",
+            "probability": 100
+          }
+        ]
+      },
+      {
+        "condition": "If opponent adjusts position to attack other arm or transition to different submission",
+        "actions": [
+          {
+            "technique": "Explosive hip escape",
+            "target": "Half Guard",
+            "probability": 50
+          },
+          {
+            "technique": "Establish frames and create space",
+            "target": "Open Guard",
+            "probability": 45
+          },
+          {
+            "technique": "Bridge and roll",
+            "target": "Mount",
+            "probability": 25
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Straightening the trapped arm in attempt to pull it free from opponent's control",
+        "consequence": "Creates perfect armbar setup - extended arm is mechanically indefensible and leads to immediate submission",
+        "correction": "Keep arm bent at all times, grip own collar or gi to maintain bent position, pull elbow tight to body"
+      },
+      {
+        "error": "Using both hands to push against opponent's leg over head without protecting trapped arm",
+        "consequence": "Opponent easily secures armbar as you actively extend your own arm into submission position",
+        "correction": "One hand protects arm (gripping collar), other hand controls opponent's leg - never abandon arm defense"
+      },
+      {
+        "error": "Panicking and thrashing randomly without technical escape structure",
+        "consequence": "Exhausts energy, creates opportunities for opponent to secure submission, prevents technical escape execution",
+        "correction": "Stay calm, maintain defensive posture, wait for opponent's adjustment to execute precise escape technique"
+      },
+      {
+        "error": "Attempting to sit up or crunch toward opponent while arm is trapped",
+        "consequence": "Feeds arm deeper into opponent's control, makes armbar completion easier by removing defensive space",
+        "correction": "Stay flat or slightly turned away, create frames with free arm, escape hips away from opponent"
+      },
+      {
+        "error": "Failing to control opponent's near leg with free hand during escape attempts",
+        "consequence": "Opponent easily steps over head to complete armbar or transitions to mounted triangle",
+        "correction": "Always maintain control of opponent's near leg with free hand to prevent full armbar setup"
+      },
+      {
+        "error": "Turning away from opponent to protect trapped arm",
+        "consequence": "Gives up back control or allows opponent to establish rear mount with both hooks",
+        "correction": "Face opponent, keep shoulders square, use technical frames rather than turning away"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "S Mount Escape Progression",
+        "description": "Partner establishes S Mount control with 50% resistance. Practice defensive posture (bent arm, collar grip, leg control) then execute hip escape to half guard. Gradually increase opponent's resistance as technique improves. Focus on maintaining arm protection throughout entire escape sequence.",
+        "duration": "5 minutes"
+      },
+      {
+        "name": "Armbar Defense Flow Drill",
+        "description": "Partner attacks armbar from S Mount position repeatedly while you practice defensive frames and arm protection. Work through sequence: collar grip → leg control → frame creation → hip escape. Reset and repeat continuously to build muscle memory for defensive reactions under pressure.",
+        "duration": "3 minutes"
+      },
+      {
+        "name": "Survival Sparring from S Mount",
+        "description": "Start in S Mount bottom with opponent actively attacking submissions. Your only goal is to survive without tapping for specified time period. Focus on defensive principles, maintaining calm under pressure, and recognizing escape opportunities. Partner uses 70-80% intensity.",
+        "duration": "2 minutes"
+      },
+      {
+        "name": "Timed Escape Challenge",
+        "description": "Partner establishes S Mount, timer starts. Race to execute complete escape to guard or better position as quickly as possible. Track time for each escape attempt and work to improve speed while maintaining technical precision. Develops urgency and decision-making under pressure.",
+        "duration": "Multiple 30-second rounds"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Mount",
+        "relationship": "Position opponent is attacking from - understanding mount control helps anticipate S Mount transitions"
+      },
+      {
+        "name": "Armbar Control",
+        "relationship": "Primary threat from this position - studying armbar mechanics improves defensive understanding"
+      },
+      {
+        "name": "Half Guard",
+        "relationship": "Primary escape destination - most successful escapes lead to half guard position"
+      },
+      {
+        "name": "Closed Guard",
+        "relationship": "Alternative escape destination - recovery target when full escape is possible"
+      },
+      {
+        "name": "Elbow Escape",
+        "relationship": "Core escape technique - fundamental movement pattern for creating space"
+      },
+      {
+        "name": "Hip Escape",
+        "relationship": "Essential movement - primary defensive motion for escaping S Mount"
+      },
+      {
+        "name": "Turtle",
+        "relationship": "Emergency escape option - sometimes necessary to escape arm attack"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "beginner": 85,
+        "intermediate": 70,
+        "advanced": 50,
+        "description": "Percentage of time bottom practitioner remains trapped in S Mount"
+      },
+      "advancement_probability": {
+        "beginner": 10,
+        "intermediate": 20,
+        "advanced": 35,
+        "description": "Probability of successfully escaping to better position"
+      },
+      "submission_probability": {
+        "beginner": 75,
+        "intermediate": 55,
+        "advanced": 35,
+        "description": "Probability of getting submitted from this position"
+      },
+      "average_time": "15-45 seconds before submission or escape"
+    },
+    "transitions": [
+      {
+        "transition": "Elbow Escape",
+        "attempt_probability": 30
+      },
+      {
+        "transition": "Hip Escape",
+        "attempt_probability": 30
+      },
+      {
+        "transition": "Bridge and Roll",
+        "attempt_probability": 15
+      },
+      {
+        "transition": "Technical Standup",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Frame and Shrimp",
+        "attempt_probability": 15
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "Your opponent drops their weight and starts to extend your trapped arm - what immediate defensive action do you take?",
+        "answer": "Grip your own collar or lapel with the trapped hand, keeping the elbow bent at 90 degrees or greater. Simultaneously drive your free hand into their near hip to create a frame. Never straighten the arm to resist - bent arms are exponentially harder to attack. If they're pulling hard, curl toward your trapped arm rather than extending away from it."
+      },
+      {
+        "question": "What are the essential body positions you must maintain when trapped in S Mount bottom?",
+        "answer": "Keep your trapped arm bent with hand gripping your collar, elbow tight to your ribs. Your free hand controls opponent's near leg or frames against their hip. Shoulders stay relatively flat to prevent back exposure, but hips should be mobile and ready to escape. Chin tucked to protect neck. Never let both arms extend or get trapped simultaneously."
+      },
+      {
+        "question": "How do you prevent your opponent from stepping fully over your head to complete the armbar?",
+        "answer": "Use your free hand to hook or control their near leg at the knee or shin, physically blocking their ability to step over. This is your primary defensive tool - losing leg control usually means losing the arm. Combine this with hip escaping toward their legs to create distance that makes the step-over mechanically more difficult."
+      },
+      {
+        "question": "What grip priorities must you maintain when defending against S Mount attacks?",
+        "answer": "First priority: trapped hand grips own collar to keep arm bent. Second priority: free hand controls opponent's near leg. Never abandon the collar grip to push with both hands - this extends your trapped arm into the submission. The collar grip is non-negotiable; the leg control prevents the finish. Both must be maintained simultaneously."
+      },
+      {
+        "question": "How should you use hip movement when attempting to escape S Mount bottom?",
+        "answer": "Hip escape toward your opponent's legs (the direction away from your trapped arm) while maintaining arm protection and leg control. Small, controlled shrimps create cumulative space. Do not explosive hip escape without a plan - this often extends the trapped arm. Time your hip movement when opponent adjusts position or attacks, not when they're settled and heavy."
+      },
+      {
+        "question": "Your opponent momentarily releases wrist control to readjust their grip - what do you do?",
+        "answer": "Immediately pull your arm back to your body, gripping your collar before they can re-establish control. This is your window - even a split second of released pressure is an opportunity. Simultaneously hip escape to create distance. If you successfully extract the arm, immediately frame and recover to mount or half guard rather than staying flat."
+      },
+      {
+        "question": "How do you manage energy conservation when trapped in S Mount for extended periods?",
+        "answer": "Use defensive structure rather than muscular resistance - let your bent arm and collar grip do the work. Don't fight constantly; wait for opponent's adjustments to attempt escapes. Breathe steadily to avoid panic-induced fatigue. Small positional improvements compound over time. Accept that survival may require patience rather than explosive escape attempts."
+      },
+      {
+        "question": "What should you do if your arm becomes fully extended and opponent has proper armbar control?",
+        "answer": "Tap immediately. Once the arm is fully extended with opponent's hips tight to your shoulder and their legs controlling your body, the armbar is complete. Continuing to resist risks serious elbow injury. There is no shame in tapping to a properly executed submission - train again tomorrow. Recognize the submission is finished before the injury occurs."
+      }
+    ]
   }
 }

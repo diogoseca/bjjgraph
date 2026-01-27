@@ -21,37 +21,37 @@ description: "Master Turtle Top position in BJJ. Offensive position with multipl
     {
       "@type": "HowToStep",
       "name": "Execute Turtle to Back Control",
-      "text": "From this position, execute Turtle to Back Control to transition to Back Control. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Turtle to Back Control. This technique is attempted in 16% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Front Headlock to Anaconda",
-      "text": "From this position, execute Front Headlock to Anaconda to transition to Anaconda Control. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Front Headlock to Anaconda. This technique is attempted in 13% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Front Headlock to Darce",
-      "text": "From this position, execute Front Headlock to Darce to transition to D'arce Control. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Front Headlock to Darce. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Crucifix from Turtle",
-      "text": "From this position, execute Crucifix from Turtle to transition to Crucifix. Success rate for advanced practitioners: 45%.",
+      "text": "From this position, attempt Crucifix from Turtle. This technique is attempted in 11% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Turtle Flatten to Side Control",
-      "text": "From this position, execute Turtle Flatten to Side Control to transition to Side Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Turtle Flatten to Side Control. This technique is attempted in 15% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Turtle to Truck Entry",
-      "text": "From this position, execute Turtle to Truck Entry to transition to Truck. Success rate for advanced practitioners: 40%.",
+      "text": "From this position, attempt Turtle to Truck Entry. This technique is attempted in 9% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -207,91 +207,22 @@ Turtle Top is an offensive position where the practitioner attacks an opponent w
 
 ## Available Attacks
 
-### [[Turtle to Back Control]] → [[Back Control]]
+### [[Turtle to Back Control]] (16% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Front Headlock to Anaconda]] (13% of attempts)
 
-### [[Front Headlock to Anaconda]] → [[Anaconda Control]]
+### [[Front Headlock to Darce]] (13% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
+### [[Crucifix from Turtle]] (11% of attempts)
 
-### [[Front Headlock to Darce]] → [[D'arce Control]]
+### [[Turtle Flatten to Side Control]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
+### [[Turtle to Truck Entry]] (9% of attempts)
 
-### [[Crucifix from Turtle]] → [[Crucifix]]
+### [[Front Headlock to Guillotine]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 45%
+### [[Kimura from Turtle]] (11% of attempts)
 
-### [[Turtle Flatten to Side Control]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-### [[Turtle to Truck Entry]] → [[Truck]]
-
-**Success Rates:**
-- Beginner: 10%
-- Intermediate: 25%
-- Advanced: 40%
-
-### [[Front Headlock to Guillotine]] → [[Guillotine Control]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
-
-### [[Kimura from Turtle]] → [[Kimura Control]]
-
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 45%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Granby Roll Escape]]** → [[Closed Guard]] (Opponent Success: 45%)
-- **[[Technical Standup]]** → [[Standing Position]] (Opponent Success: 40%)
-- **[[Sit Through to Guard]]** → [[Butterfly Guard]] (Opponent Success: 50%)
-- **[[Deep Half Entry]]** → [[Deep Half Guard]] (Opponent Success: 35%)
-- **[[Forward Roll Escape]]** → [[Half Guard]] (Opponent Success: 40%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Follow Granby Roll]]** → [[Back Control]]
-  - Opponent attempts granby roll without proper timing
-- **[[Flatten and Take Back]]** → [[Back Control]]
-  - Opponent extends arm for posting during escape
-- **[[Front Headlock Counter]]** → [[Front Headlock]]
-  - Opponent lifts head during standup attempt
-- **[[Crucifix Entry]]** → [[Crucifix]]
-  - Opponent exposes arm reaching for underhook defense
 
 
 </section>
@@ -317,7 +248,7 @@ Turtle Top is an offensive position where the practitioner attacks an opponent w
 
 **If opponent extends arm for posting or defense:**
 - Execute **[[Crucifix Entry]]** → [[Crucifix]] (Probability: 55%)
-- Execute **[[Kimura Attack]]** → [[Kimura Control]] (Probability: 50%)
+- Execute **[[Kimura Attack]]** → [[Kimura Trap]] (Probability: 50%)
 
 
 **If opponent attempts to stand up explosively:**
@@ -403,25 +334,39 @@ Partner in turtle defends with various escape attempts (granby, standup, sit-thr
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Direct back take to finish
+## Test Your Knowledge
 
-`Turtle Top → Back Control → Rear Naked Choke → Won by Submission`
+**Q1**: What is the primary grip configuration for controlling turtle and why is it essential before attempting hooks?
+**A**: The seatbelt grip (over-under harness) is the primary control configuration, with one arm over the opponent's shoulder and the other under their armpit, hands clasped together. This grip is essential before attempting hooks because it controls the opponent's upper body and prevents them from turning into you, sitting to guard, or standing up. Without upper body control first, hook attempts are easily defended and you risk losing the position entirely.
 
-### Front headlock submission chain
+**Q2**: Your opponent starts shifting their hips to sit through - what adjustment should you make?
+**A**: Immediately drop your chest weight heavier onto their shoulders while using your near-side knee to block their hip movement. Simultaneously, sprawl your hips back slightly to create downward pressure that prevents their sit-through. If they continue the attempt, you can follow their movement into front headlock position or transition to crucifix if they expose an arm during the scramble.
 
-`Turtle Top → Front Headlock → Anaconda Choke → Won by Submission`
+**Q3**: What determines whether you should attack the back versus transition to front headlock?
+**A**: The key determining factor is opponent's defensive posture and head position. If they maintain a tight turtle with elbows to knees, chin tucked, and rounded back, the back take is optimal as you can systematically break down their structure. If they lift their head to create space or look for escape opportunities, the front headlock becomes higher percentage because their neck is exposed. Weight distribution also matters - if they're heavy on their hands, front headlock; if they're sitting back toward their heels, back take.
 
-### Crucifix to back control path
+**Q4**: How should you sequence hook insertion to maximize control and minimize escape opportunities?
+**A**: Always insert the near-side hook first while maintaining seatbelt control. The near-side hook is safer because your knee is already blocking that hip and you can use your chest pressure to control their rotation. Only after the first hook is secure should you work to insert the far-side hook. Attempting both hooks simultaneously or the far hook first often results in the opponent escaping to guard or creating a scramble as you lose base and control.
 
-`Turtle Top → Crucifix → Back Control → Rear Naked Choke → Won by Submission`
+**Q5**: Your opponent begins a granby roll - should you follow or disengage?
+**A**: You should follow the roll while maintaining your seatbelt grip. As they rotate, use their momentum to continue around with them, often ending up in an even better position with hooks already partially inserted. The key is maintaining chest-to-back connection throughout the roll and keeping your hips close to theirs. Disengaging allows them to successfully recover guard, wasting your positional advantage.
+
+**Q6**: What is the proper weight distribution for maintaining turtle top control?
+**A**: Weight should be distributed primarily through your chest onto their upper back and shoulders, with approximately 70% of pressure through your upper body. Your hips should be relatively light and mobile, allowing you to adjust to their movements. Avoid putting too much weight on their lower back or hips as this allows them to sit through or stand. The angle of pressure should be forward and down at approximately 45 degrees, collapsing their turtle structure.
+
+**Q7**: Your opponent extends an arm to post during an escape attempt - what opportunities does this create?
+**A**: An extended posting arm opens multiple high-percentage attacks. The crucifix becomes available if you can trap their arm between your legs while maintaining upper body control. A kimura attack is possible by controlling their wrist and rotating the shoulder. You can also use their posted arm as an anchor to flatten them for an easier back take. The extended arm is a defensive error that should be immediately capitalized upon.
+
+**Q8**: How do you maintain pressure while transitioning between attacks from turtle top?
+**A**: The key principle is never releasing all control points simultaneously. Maintain at least one dominant grip or pressure point while establishing the next one. When moving from back attack to front headlock, keep chest pressure and transition hand controls systematically. Think of it as 'hand over hand' climbing - one connection always secure before releasing another. This continuous pressure prevents the opponent from creating movement or space during your transitions.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 

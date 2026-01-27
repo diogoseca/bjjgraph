@@ -21,37 +21,37 @@ description: "Master Lockdown Top defense in BJJ. Strategic guide to countering 
     {
       "@type": "HowToStep",
       "name": "Execute Half Guard Pass",
-      "text": "From this position, execute Half Guard Pass to transition to Side Control. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Half Guard Pass. This technique is attempted in 16% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice from Half",
-      "text": "From this position, execute Knee Slice from Half to transition to Side Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Knee Slice from Half. This technique is attempted in 17% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Smash Pass",
-      "text": "From this position, execute Smash Pass to transition to Side Control. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Smash Pass. This technique is attempted in 14% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Pass",
-      "text": "From this position, execute Underhook Pass to transition to Side Control. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Underhook Pass. This technique is attempted in 16% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Crossface Pass",
-      "text": "From this position, execute Crossface Pass to transition to Side Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Crossface Pass. This technique is attempted in 17% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Extraction to Combat Base",
-      "text": "From this position, execute Leg Extraction to Combat Base to transition to Combat Base. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Leg Extraction to Combat Base. This technique is attempted in 20% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -209,75 +209,18 @@ Lockdown Top represents the defensive perspective against 10th Planet's signatur
 
 ## Available Attacks
 
-### [[Half Guard Pass]] → [[Side Control]]
+### [[Half Guard Pass]] (16% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
+### [[Knee Slice from Half]] (17% of attempts)
 
-### [[Knee Slice from Half]] → [[Side Control]]
+### [[Smash Pass]] (14% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Underhook Pass]] (16% of attempts)
 
-### [[Smash Pass]] → [[Side Control]]
+### [[Crossface Pass]] (17% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
+### [[Leg Extraction to Combat Base]] (20% of attempts)
 
-### [[Underhook Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-### [[Crossface Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[Leg Extraction to Combat Base]] → [[Combat Base]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Old School Sweep]]** → [[Mount]] (Opponent Success: 55%)
-- **[[Electric Chair Submission]]** → [[Electric Chair]] (Opponent Success: 45%)
-- **[[Whip-up Sweep]]** → [[Dogfight Position]] (Opponent Success: 50%)
-- **[[Rolling Back Take]]** → [[Back Control]] (Opponent Success: 40%)
-- **[[Transition to Truck]]** → [[Truck]] (Opponent Success: 35%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Crossface Pass]]** → [[Side Control]]
-  - Bottom player attempts whip-up without securing strong underhook
-- **[[Smash Pass]]** → [[Side Control]]
-  - Bottom player loses lockdown tension momentarily during position adjustment
-- **[[Leg Extraction]]** → [[Combat Base]]
-  - Bottom player focuses on upper body control and reduces lockdown pressure
 
 
 </section>
@@ -384,25 +327,39 @@ Top player starts trapped in lockdown, bottom player works for sweeps and submis
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Pass to Mount Attack
+## Test Your Knowledge
 
-`Lockdown → Leg Extraction → Combat Base → Knee Slice Pass → Side Control → Mount → Armbar from Mount → Won by Submission`
+**Q1**: What is the critical first step when finding yourself trapped in lockdown from top position?
+**A**: The critical first step is establishing dominant upper body control through crossface or heavy shoulder pressure before attempting any leg extraction. Without upper body control, the bottom player can freely attack with sweeps and submissions. By flattening the opponent first, you limit their hip mobility and offensive options, making subsequent leg extraction significantly easier and safer.
 
-### Crossface to Kimura
+**Q2**: Your opponent begins extending the lockdown aggressively to off-balance you - what adjustment should you make?
+**A**: When opponent extends the lockdown aggressively, drive your weight forward through your chest and shoulder into their upper body rather than pulling backward. Pulling back plays into their strength and opens Electric Chair opportunities. Forward pressure compresses their space and makes extensions less effective. Simultaneously, widen your free leg base to stabilize against the off-balancing force.
 
-`Lockdown → Crossface Control → Kimura from Half Guard → Kimura → Won by Submission`
+**Q3**: Why should you avoid attempting to extract your trapped leg by pulling straight backward?
+**A**: Pulling straight backward against the lockdown actually strengthens the opponent's control because the lockdown mechanism is designed to resist linear backward force. It also extends your leg into the Electric Chair position, giving them their primary submission opportunity. Instead, use circular motion and angle changes combined with hip pressure to extract the leg, working with the mechanics rather than directly against them.
 
-### Pass to Back Control
+**Q4**: What are the essential grips and controls for maintaining top position against lockdown?
+**A**: The essential controls are crossface with shoulder pressure driving into opponent's jaw or chest, control of their near-side hip or underhook arm to prevent them from turning into you, and a wide posted base with your free leg. Collar control in gi or head control in no-gi supplements the crossface. These combined controls flatten the opponent and neutralize their ability to create attacking angles.
 
-`Lockdown → Underhook Pass → Side Control → Back Control → Rear Naked Choke → Won by Submission`
+**Q5**: How should you time your leg extraction attempts when trapped in lockdown?
+**A**: Time leg extraction when the opponent is defensive, adjusting position, or momentarily relaxes their lockdown grip to reset their attack. Watch for moments when they release tension to switch between underhook and overhook, or when they begin a failed sweep attempt. Never try to extract when they are actively extending or attacking, as their grip will be at maximum strength.
+
+**Q6**: Your opponent secures a strong underhook while you're trapped in lockdown - what immediate response is required?
+**A**: Immediately address the underhook by driving heavy shoulder pressure into their face and chest while either swimming your arm over theirs to re-establish your underhook, or using your free hand to push their elbow down and away to break the underhook grip. Never allow the underhook to remain unchallenged as it enables the Old School sweep and back take opportunities.
+
+**Q7**: What weight distribution prevents the whip-up sweep while maintaining pressure?
+**A**: Keep your weight distributed forward through your chest onto their upper torso with your hips relatively low but not heavy on their hips. Your free leg posts wide for base with the knee pointed outward. This distribution creates downward pressure that makes it difficult for them to come up for the whip-up while maintaining enough mobility to adjust when they extend. Avoid sitting back with weight on your heels.
+
+**Q8**: How do you recover if the bottom player begins successfully executing the whip-up motion?
+**A**: If they begin the whip-up, immediately drive your weight forward and down through your crossface, simultaneously posting your free hand far to the threatened side. If they continue coming up, you may need to accept the scramble to dogfight position and immediately fight for your own underhook. Alternatively, switch to a front headlock if they expose their neck during the transition. Never continue trying to pass once the whip-up is in motion.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -428,11 +385,9 @@ Top player starts trapped in lockdown, bottom player works for sweeps and submis
 - **[[Side Control]]** - Common passing target after escaping lockdown
 - **[[Knee Shield Half Guard]]** - Related half guard top position with different challenges
 - **[[Deep Half Guard]]** - Alternative half guard top situation requiring different defense
-- **[[Lockdown to Electric Chair System]]** - Systematic approach to countering lockdown attacks
 - **[[Half Guard Pass]]** - Primary technique goal after neutralizing lockdown
 - **[[Crossface Pass]]** - Effective passing method against lockdown retention
 - **[[Smash Pass]]** - Pressure-based passing option from lockdown top
-- **[[Underhook Control]]** - Key control principle for neutralizing lockdown attacks
 
 
 </section>

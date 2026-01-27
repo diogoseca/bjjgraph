@@ -27,7 +27,7 @@
       "relationship": "Position where overhook amplifies hook sweep effectiveness"
     },
     {
-      "name": "Kimura Control",
+      "name": "Kimura Trap",
       "relationship": "Natural progression from overhook when opponent turns away"
     },
     {
@@ -51,359 +51,10 @@
       "relationship": "Advanced guard system that utilizes overhook principles with leg control"
     },
     {
-      "name": "Underhook Control",
-      "relationship": "Complementary control concept with opposite arm positioning mechanics"
+      "name": "Overhook Control",
+      "relationship": "Complementary control concept with similar arm positioning mechanics"
     }
   ],
-  "bottom": {
-    "name": "Overhook Guard Bottom",
-    "description": "Master Overhook Guard Bottom in BJJ. Complete guide covering control mechanics, sweeps, and submissions with 65% sweep success rate at advanced levels.",
-    "tags": [
-      "bjj",
-      "position",
-      "overhook-guard",
-      "bottom",
-      "closed-guard",
-      "offensive-guard",
-      "sweeps",
-      "submissions"
-    ],
-    "overview": "Overhook Guard Bottom is a highly offensive variation of guard where the bottom practitioner controls one of the opponent's arms with an overhook (also called a whizzer). This position creates significant control over the opponent's posture and base while opening multiple sweep and submission opportunities. The overhook effectively neutralizes one of the opponent's posting hands, making them vulnerable to off-balancing attacks and limiting their passing options.\n\nThe position is characterized by the bottom player wrapping their arm over and around the opponent's arm, with the hand gripping the opponent's back or lat muscle. This creates a strong frame that can be used to break posture, prevent stacking, and generate rotational movements for sweeps. When combined with proper hip movement and leg control, the overhook becomes a powerful weapon for creating advantageous positions.\n\nOverhook Guard is particularly effective against opponents who attempt to establish strong grips or posture in guard. It allows the bottom player to dictate the pace and direction of exchanges while maintaining a safe defensive structure. The position seamlessly integrates with various submission systems, including triangles, omoplatas, and kimuras, making it a versatile component of modern guard play.",
-    "state_properties": {
-      "point_value": 0,
-      "position_type": "Offensive",
-      "risk_level": "Low to Medium",
-      "energy_cost": "Medium",
-      "time_sustainability": "Medium to Long"
-    },
-    "state_invariants": [
-      "Bottom player maintains closed guard with legs locked around opponent's waist, with ankles crossed behind opponent's back and heels pulling toward their own glutes to maintain tension",
-      "Bottom player controls opponent's arm with overhook, wrapping their arm over and around opponent's arm with hand gripping opponent's lat, shoulder blade, or back to create strong frame and prevent posting",
-      "Opponent is positioned between bottom player's legs with hips elevated off the mat, maintaining upright or slightly broken-down posture while bottom player uses overhook to control shoulder and restrict movement",
-      "Bottom player's free hand maintains strategic grip on opponent's collar, sleeve, or wrist to control opposite arm and prevent defensive frames while setting up attacks"
-    ],
-    "prerequisites": [
-      "Established guard position with legs locked around opponent's waist",
-      "Successful overhook control obtained on one of opponent's arms",
-      "Opponent's posture broken or controlled to prevent stacking",
-      "Hip mobility and flexibility to maintain guard closure while attacking",
-      "Grip strength to maintain overhook control under pressure",
-      "Understanding of basic guard retention and hip escape mechanics"
-    ],
-    "key_principles": [
-      "Maintain constant tension on overhook by pulling elbow tight to ribs and hand gripping deep on opponent's back",
-      "Use overhook to control opponent's shoulder and restrict their ability to create distance or establish strong base",
-      "Break opponent's posture by pulling overhook arm down while using legs to control hip positioning",
-      "Create angles by hip escaping toward overhook side to expose opponent's back and set up sweeps",
-      "Coordinate overhook control with opposite-side grip management to prevent opponent from establishing defensive frames",
-      "Utilize leg pressure and hook placement to off-balance opponent when they attempt to posture or pass",
-      "Transition fluidly between sweep attempts and submission threats to create dilemmas for opponent"
-    ],
-    "offensive_transitions": [
-      {
-        "technique": "Overhook Sweep",
-        "target_position": "Mount Top",
-        "success_rates": {
-          "beginner": 40,
-          "intermediate": 55,
-          "advanced": 65
-        }
-      },
-      {
-        "technique": "Hip Bump Sweep",
-        "target_position": "Mount Top",
-        "success_rates": {
-          "beginner": 45,
-          "intermediate": 60,
-          "advanced": 70
-        }
-      },
-      {
-        "technique": "Omoplata to Sweep",
-        "target_position": "Mount Top",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 45,
-          "advanced": 60
-        }
-      },
-      {
-        "technique": "Rolling Back Take",
-        "target_position": "Back Control",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 40,
-          "advanced": 55
-        }
-      },
-      {
-        "technique": "Triangle Setup",
-        "target_position": "Triangle Control",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 50,
-          "advanced": 65
-        }
-      },
-      {
-        "technique": "Kimura from Guard",
-        "target_position": "Kimura Control",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 45,
-          "advanced": 60
-        }
-      },
-      {
-        "technique": "Omoplata from Guard",
-        "target_position": "Omoplata Control",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 40,
-          "advanced": 55
-        }
-      },
-      {
-        "technique": "Armbar from Guard",
-        "target_position": "Armbar Control",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 50,
-          "advanced": 65
-        }
-      }
-    ],
-    "defensive_responses": [
-      {
-        "technique": "Posture Recovery",
-        "target_position": "Closed Guard"
-      },
-      {
-        "technique": "Arm Extraction",
-        "target_position": "Closed Guard"
-      },
-      {
-        "technique": "Guard Opening Sequence",
-        "target_position": "Open Guard"
-      },
-      {
-        "technique": "Stack Defense",
-        "target_position": "Headquarters Position"
-      }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Triangle Setup",
-        "target_position": "Triangle Control",
-        "trigger": "Opponent attempts to pull arm free from overhook"
-      },
-      {
-        "technique": "Omoplata to Sweep",
-        "target_position": "Mount Top",
-        "trigger": "Opponent drives weight forward to stack"
-      },
-      {
-        "technique": "Hip Bump Sweep",
-        "target_position": "Mount Top",
-        "trigger": "Opponent sits back to establish posture"
-      },
-      {
-        "technique": "Rolling Back Take",
-        "target_position": "Back Control",
-        "trigger": "Opponent attempts to circle away from overhook"
-      }
-    ],
-    "decision_tree": [
-      {
-        "condition": "If opponent maintains strong upright posture with hips back",
-        "actions": [
-          {
-            "technique": "Hip Bump Sweep",
-            "target": "Mount Top",
-            "probability": 60
-          },
-          {
-            "technique": "Overhook Sweep",
-            "target": "Mount Top",
-            "probability": 55
-          }
-        ]
-      },
-      {
-        "condition": "If opponent drives weight forward attempting to stack",
-        "actions": [
-          {
-            "technique": "Omoplata to Sweep",
-            "target": "Mount Top",
-            "probability": 50
-          },
-          {
-            "technique": "Triangle Setup",
-            "target": "Triangle Control",
-            "probability": 55
-          }
-        ]
-      },
-      {
-        "condition": "If opponent attempts to pull overhook arm free",
-        "actions": [
-          {
-            "technique": "Triangle Setup",
-            "target": "Triangle Control",
-            "probability": 65
-          },
-          {
-            "technique": "Kimura from Guard",
-            "target": "Kimura Control",
-            "probability": 50
-          }
-        ]
-      },
-      {
-        "condition": "If opponent circles away from overhook side",
-        "actions": [
-          {
-            "technique": "Rolling Back Take",
-            "target": "Back Control",
-            "probability": 55
-          },
-          {
-            "technique": "Armbar from Guard",
-            "target": "Armbar Control",
-            "probability": 50
-          }
-        ]
-      }
-    ],
-    "common_errors": [
-      {
-        "error": "Releasing overhook tension when opponent postures",
-        "consequence": "Opponent easily recovers posture and establishes strong base for passing",
-        "correction": "Maintain constant pulling pressure on overhook with elbow tight to ribs, using legs to prevent hip elevation"
-      },
-      {
-        "error": "Neglecting opposite-side grip control",
-        "consequence": "Opponent establishes strong frame with free hand, blocking sweep attempts and creating passing angles",
-        "correction": "Always control opponent's free arm with collar, sleeve, or wrist grip to prevent defensive posting"
-      },
-      {
-        "error": "Attempting sweeps without proper angle creation",
-        "consequence": "Sweeps fail because opponent's base remains stable and centered over bottom player",
-        "correction": "Hip escape toward overhook side to create angle before initiating sweep, disrupting opponent's base alignment"
-      },
-      {
-        "error": "Staying flat on back without hip mobility",
-        "consequence": "Opponent maintains stable position and can slowly work to open guard or stack effectively",
-        "correction": "Constantly adjust hip position, create angles, and use shoulder frames to prevent opponent from settling into stable position"
-      },
-      {
-        "error": "Overcommitting to single attack without backup options",
-        "consequence": "Opponent defends primary attack and counters with guard pass or posture recovery",
-        "correction": "Chain attacks together using overhook control as anchor point, transitioning seamlessly between sweeps and submissions"
-      },
-      {
-        "error": "Allowing opponent to establish cross-face on overhook side",
-        "consequence": "Opponent controls head position and can flatten bottom player, neutralizing offensive options",
-        "correction": "Use overhook and opposite hand to block cross-face attempts, keeping head mobile and creating shoulder frames"
-      }
-    ],
-    "training_drills": [
-      {
-        "name": "Overhook Maintenance Drill",
-        "description": "Partner starts in closed guard with overhook established. Top player attempts to pull arm free, improve posture, and establish frames while bottom player maintains overhook control and breaks posture repeatedly. Focus on grip endurance and proper elbow positioning. Switch roles every 2 minutes.",
-        "duration": "5 rounds of 2 minutes"
-      },
-      {
-        "name": "Sweep Chain Flow Drill",
-        "description": "Bottom player establishes overhook in closed guard and flows between hip bump sweep, overhook sweep, and omoplata sweep based on top player's reactions. Top player provides realistic but predictable resistance by posturing up, sitting back, or driving forward. Focus on smooth transitions and angle creation. Reset to guard after each sweep attempt.",
-        "duration": "3 rounds of 3 minutes"
-      },
-      {
-        "name": "Submission Attack Progression",
-        "description": "Starting from overhook guard, bottom player attacks triangle, kimura, omoplata, and armbar in sequence while top player provides progressive resistance. Start at 30% resistance and increase to 70% over the drill duration. Emphasize proper setup mechanics and control maintenance throughout transitions.",
-        "duration": "4 rounds of 2 minutes"
-      },
-      {
-        "name": "Angle Creation and Recovery",
-        "description": "Bottom player maintains overhook guard while top player attempts to flatten them and establish centered base. Bottom player hip escapes to create angles, frames to prevent flattening, and constantly adjusts positioning. Top player works to maintain centered pressure and posture. Focus on mobility and position recovery.",
-        "duration": "3 rounds of 3 minutes"
-      }
-    ],
-    "optimal_submission_paths": [
-      {
-        "name": "High-percentage triangle path",
-        "path": "Overhook Guard Bottom → Triangle Setup → Triangle Control → Triangle from Guard"
-      },
-      {
-        "name": "Back attack path",
-        "path": "Overhook Guard Bottom → Rolling Back Take → Back Control → Rear Naked Choke"
-      },
-      {
-        "name": "Omoplata sweep to submission",
-        "path": "Overhook Guard Bottom → Omoplata to Sweep → Mount Top → Armbar from Mount"
-      },
-      {
-        "name": "Direct armbar path",
-        "path": "Overhook Guard Bottom → Hip escape angle creation → Armbar from Guard → Armbar Control"
-      },
-      {
-        "name": "Kimura control path",
-        "path": "Overhook Guard Bottom → Kimura from Guard → Kimura Control → Kimura"
-      }
-    ],
-    "related_content": [
-      {
-        "name": "Closed Guard",
-        "relationship": "Parent guard position from which overhook variation is established"
-      },
-      {
-        "name": "Kimura Trap",
-        "relationship": "Natural progression when overhook is converted to kimura grip"
-      },
-      {
-        "name": "Triangle Control",
-        "relationship": "Common submission position reached from overhook attacks"
-      },
-      {
-        "name": "Omoplata Control",
-        "relationship": "Alternative submission position using overhook control mechanics"
-      },
-      {
-        "name": "Hip Bump Sweep",
-        "relationship": "Primary sweep technique from overhook guard position"
-      },
-      {
-        "name": "Underhook Defense",
-        "relationship": "Complementary concept for controlling opponent's arm positioning"
-      },
-      {
-        "name": "Grip Fighting",
-        "relationship": "Fundamental concept for establishing and maintaining overhook control"
-      },
-      {
-        "name": "Back Control",
-        "relationship": "Transition target when executing rolling back take from overhook"
-      }
-    ],
-    "position_metrics": {
-      "retention_rate": {
-        "beginner": 55,
-        "intermediate": 70,
-        "advanced": 80
-      },
-      "advancement_probability": {
-        "beginner": 40,
-        "intermediate": 55,
-        "advanced": 65
-      },
-      "submission_probability": {
-        "beginner": 25,
-        "intermediate": 40,
-        "advanced": 55
-      },
-      "average_time": "45-90 seconds before sweep or submission attempt"
-    }
-  },
   "top": {
     "name": "Overhook Guard Top",
     "description": "Master Overhook Guard Top position in BJJ. Control opponent's arm while maintaining guard top position with 60% pass success rate at advanced levels.",
@@ -445,106 +96,6 @@
       "Anticipate opponent's escape attempts and counter with increased pressure or position advancement",
       "Maintain base with legs wide enough to prevent sweeps but mobile enough to advance passing sequences"
     ],
-    "offensive_transitions": [
-      {
-        "technique": "Smash Pass",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 50,
-          "intermediate": 65,
-          "advanced": 75
-        }
-      },
-      {
-        "technique": "Knee Slice Pass",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 45,
-          "intermediate": 60,
-          "advanced": 70
-        }
-      },
-      {
-        "technique": "Over-Under Pass",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 40,
-          "intermediate": 55,
-          "advanced": 68
-        }
-      },
-      {
-        "technique": "Kimura from Guard",
-        "target_position": "Kimura Control",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 50,
-          "advanced": 65
-        }
-      },
-      {
-        "technique": "Arm Drag to Back",
-        "target_position": "Back Control",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 45,
-          "advanced": 60
-        }
-      },
-      {
-        "technique": "Transition to Mount",
-        "target_position": "Mount Top",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 40,
-          "advanced": 55
-        }
-      }
-    ],
-    "defensive_responses": [
-      {
-        "technique": "Hip Escape",
-        "target_position": "Closed Guard"
-      },
-      {
-        "technique": "Frame and Shrimp",
-        "target_position": "Open Guard"
-      },
-      {
-        "technique": "Overhook Sweep",
-        "target_position": "Side Control"
-      },
-      {
-        "technique": "Armbar Defense",
-        "target_position": "Closed Guard"
-      },
-      {
-        "technique": "Leg Weave Pass",
-        "target_position": "Half Guard"
-      }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Pressure Pass",
-        "target_position": "Side Control",
-        "trigger": "Opponent attempts to create space with frames"
-      },
-      {
-        "technique": "Kimura from Side Control",
-        "target_position": "Kimura Control",
-        "trigger": "Opponent overcommits to stripping overhook"
-      },
-      {
-        "technique": "Back Take Generic",
-        "target_position": "Back Control",
-        "trigger": "Opponent turns to side to defend pass"
-      },
-      {
-        "technique": "Mount to Armbar",
-        "target_position": "Armbar Control",
-        "trigger": "Opponent exposes trapped arm while defending"
-      }
-    ],
     "decision_tree": [
       {
         "condition": "If opponent maintains flat posture and defends with free arm frames",
@@ -565,13 +116,13 @@
         "condition": "If opponent turns to side attempting to strip overhook",
         "actions": [
           {
-            "technique": "Back Take Generic",
+            "technique": "Arm Drag to Back",
             "target": "Back Control",
             "probability": 55
           },
           {
             "technique": "Kimura from Guard",
-            "target": "Kimura Control",
+            "target": "Kimura Trap",
             "probability": 50
           }
         ]
@@ -580,7 +131,7 @@
         "condition": "If opponent attempts to create distance or recover full guard",
         "actions": [
           {
-            "technique": "Pressure Pass",
+            "technique": "Smash Pass",
             "target": "Side Control",
             "probability": 58
           },
@@ -595,12 +146,12 @@
         "condition": "If opponent locks half guard with legs",
         "actions": [
           {
-            "technique": "Underhook Pass",
+            "technique": "Over-Under Pass",
             "target": "Side Control",
             "probability": 48
           },
           {
-            "technique": "Knee Slice from Half",
+            "technique": "Knee Slice Pass",
             "target": "Side Control",
             "probability": 45
           }
@@ -666,32 +217,10 @@
         "duration": "15 minutes"
       }
     ],
-    "optimal_submission_paths": [
-      {
-        "name": "Shortest path to submission",
-        "path": "Overhook Guard Top → Kimura Control → Kimura"
-      },
-      {
-        "name": "High-percentage passing to submission",
-        "path": "Overhook Guard Top → Smash Pass → Side Control → Americana from Side Control"
-      },
-      {
-        "name": "Back attack pathway",
-        "path": "Overhook Guard Top → Back Take Generic → Back Control → Rear Naked Choke"
-      },
-      {
-        "name": "Mount control pathway",
-        "path": "Overhook Guard Top → Knee Slice Pass → Side Control → Transition to Mount → Mount Top → Armbar from Mount"
-      },
-      {
-        "name": "Kimura trap sequence",
-        "path": "Overhook Guard Top → Kimura from Guard → Kimura Control → Kimura from Side Control"
-      }
-    ],
     "related_content": [
       {
-        "name": "Overhook Guard Bottom",
-        "relationship": "Sibling variant - opposite perspective of same position"
+        "name": "Overhook Guard",
+        "relationship": "Hub position - parent position for this top perspective"
       },
       {
         "name": "Overhook Control",
@@ -702,7 +231,7 @@
         "relationship": "Primary passing target position from overhook control"
       },
       {
-        "name": "Kimura Control",
+        "name": "Kimura Trap",
         "relationship": "Submission control accessible from overhook when opponent defends"
       },
       {
@@ -710,16 +239,16 @@
         "relationship": "Alternative advancement when opponent turns away from overhook"
       },
       {
-        "name": "Over-Under Pass",
-        "relationship": "Key transition technique from this position to side control"
-      },
-      {
-        "name": "Smash Pass",
-        "relationship": "High-percentage passing technique utilizing overhook control"
-      },
-      {
         "name": "Headquarters Position",
         "relationship": "Related top control position during passing sequences"
+      },
+      {
+        "name": "Half Guard",
+        "relationship": "Common guard recovery position opponent may achieve"
+      },
+      {
+        "name": "Closed Guard",
+        "relationship": "Guard position opponent attempts to maintain or recover"
       }
     ],
     "position_metrics": {
@@ -739,6 +268,347 @@
         "advanced": 35
       },
       "average_time": "45-90 seconds before pass or guard recovery"
-    }
+    },
+    "transitions": [
+      {
+        "transition": "Smash Pass",
+        "attempt_probability": 19
+      },
+      {
+        "transition": "Knee Slice Pass",
+        "attempt_probability": 18
+      },
+      {
+        "transition": "Over-Under Pass",
+        "attempt_probability": 17
+      },
+      {
+        "transition": "Kimura from Guard",
+        "attempt_probability": 17
+      },
+      {
+        "transition": "Arm Drag to Back",
+        "attempt_probability": 15
+      },
+      {
+        "transition": "Side Control to Mount",
+        "attempt_probability": 14
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the primary method for maintaining overhook control when your opponent attempts to posture and pull their arm free?",
+        "answer": "Drive constant shoulder pressure into the overhooked arm while keeping your hips heavy and forward. The shoulder acts as a wedge that pins their arm to your body. Simultaneously maintain chest-to-chest contact to eliminate space they need to extract their arm, and use your free hand to control their opposite arm or collar to prevent them from generating leverage."
+      },
+      {
+        "question": "Your opponent begins bridging to create space while you have overhook control - how should you adjust your weight distribution?",
+        "answer": "Drop your hips lower and drive your weight forward through your chest into their torso, not backward. Widen your base with your knees to absorb the bridging motion. As they bridge, use their movement to advance your position by walking your feet forward and increasing the angle of pressure through your shoulder. Never lift your hips high during their bridge as this creates the space they need to escape."
+      },
+      {
+        "question": "What are the essential grip priorities for maintaining overhook guard top position effectively?",
+        "answer": "Primary grip is the overhook itself, with your arm threaded deep under their arm and your hand controlling their shoulder blade or lat. Secondary priority is controlling their free arm with your opposite hand - grip their wrist, sleeve, or collar to prevent frames. In gi, use collar grips to reinforce control; in no-gi, use wrist control or underhook their free arm."
+      },
+      {
+        "question": "How do you shut down your opponent's primary escape of turning away to recover guard?",
+        "answer": "When you feel them begin to turn, immediately drive your shoulder pressure forward and follow their rotation. Keep your chest glued to their back or side as they turn. If they commit to turning, capitalize by transitioning to back control rather than trying to flatten them again. Use your free hand to block their hip rotation by controlling their far hip or belt."
+      },
+      {
+        "question": "What is the proper shoulder pressure application technique from overhook guard top?",
+        "answer": "Position your shoulder at approximately 45 degrees across their chest, driving into the junction of their neck and shoulder on the trapped arm side. Your weight should flow through your shoulder like a blade cutting across their body. Keep your head low on the opposite side of the overhook, and maintain a driving angle that pins both their shoulder and arm simultaneously. The pressure should feel like you're trying to touch their opposite shoulder with yours."
+      },
+      {
+        "question": "Your opponent partially escapes by recovering half guard while you maintain the overhook - what is your recovery strategy?",
+        "answer": "Maintain the overhook control as your anchor point and immediately switch your passing strategy to half guard techniques. Use the overhook to flatten their upper body while addressing the half guard with knee slice or over-under mechanics. The overhook actually enhances your half guard passing by eliminating one of their primary frames. Focus on keeping shoulder pressure while your lower body works the pass."
+      },
+      {
+        "question": "How do you manage energy expenditure to maintain this position for extended periods?",
+        "answer": "Distribute your weight efficiently through your skeletal structure rather than relying on muscular tension. Keep your elbows tight to your body, use your chest and shoulder as the primary pressure tools, and maintain a low center of gravity. Breathe rhythmically and avoid death-gripping. Progress the pass systematically rather than fighting for static control - active passing is less tiring than holding a stalemate."
+      },
+      {
+        "question": "Your opponent explosively frames with their free arm against your face - how do you recover control?",
+        "answer": "Turn your head to the side and drive your chin down, making the frame slip off your face rather than stopping your forward pressure. Simultaneously use your free hand to swim inside their framing arm and redirect it to the mat or pin it to their body. Never back away from the frame as this surrenders your position. Increase your forward pressure through the frame and angle your approach to bypass it."
+      }
+    ]
+  },
+  "bottom": {
+    "name": "Overhook Guard Bottom",
+    "description": "Master Overhook Guard Bottom in BJJ. Complete guide covering control mechanics, sweeps, and submissions with 65% sweep success rate at advanced levels.",
+    "tags": [
+      "bjj",
+      "position",
+      "overhook-guard",
+      "bottom",
+      "closed-guard",
+      "offensive-guard",
+      "sweeps",
+      "submissions"
+    ],
+    "overview": "Overhook Guard Bottom is a highly offensive variation of guard where the bottom practitioner controls one of the opponent's arms with an overhook (also called a whizzer). This position creates significant control over the opponent's posture and base while opening multiple sweep and submission opportunities. The overhook effectively neutralizes one of the opponent's posting hands, making them vulnerable to off-balancing attacks and limiting their passing options.\n\nThe position is characterized by the bottom player wrapping their arm over and around the opponent's arm, with the hand gripping the opponent's back or lat muscle. This creates a strong frame that can be used to break posture, prevent stacking, and generate rotational movements for sweeps. When combined with proper hip movement and leg control, the overhook becomes a powerful weapon for creating advantageous positions.\n\nOverhook Guard is particularly effective against opponents who attempt to establish strong grips or posture in guard. It allows the bottom player to dictate the pace and direction of exchanges while maintaining a safe defensive structure. The position seamlessly integrates with various submission systems, including triangles, omoplatas, and kimuras, making it a versatile component of modern guard play.",
+    "state_properties": {
+      "point_value": 0,
+      "position_type": "Offensive",
+      "risk_level": "Low to Medium",
+      "energy_cost": "Medium",
+      "time_sustainability": "Medium to Long"
+    },
+    "state_invariants": [
+      "Bottom player maintains closed guard with legs locked around opponent's waist, with ankles crossed behind opponent's back and heels pulling toward their own glutes to maintain tension",
+      "Bottom player controls opponent's arm with overhook, wrapping their arm over and around opponent's arm with hand gripping opponent's lat, shoulder blade, or back to create strong frame and prevent posting",
+      "Opponent is positioned between bottom player's legs with hips elevated off the mat, maintaining upright or slightly broken-down posture while bottom player uses overhook to control shoulder and restrict movement",
+      "Bottom player's free hand maintains strategic grip on opponent's collar, sleeve, or wrist to control opposite arm and prevent defensive frames while setting up attacks"
+    ],
+    "prerequisites": [
+      "Established guard position with legs locked around opponent's waist",
+      "Successful overhook control obtained on one of opponent's arms",
+      "Opponent's posture broken or controlled to prevent stacking",
+      "Hip mobility and flexibility to maintain guard closure while attacking",
+      "Grip strength to maintain overhook control under pressure",
+      "Understanding of basic guard retention and hip escape mechanics"
+    ],
+    "key_principles": [
+      "Maintain constant tension on overhook by pulling elbow tight to ribs and hand gripping deep on opponent's back",
+      "Use overhook to control opponent's shoulder and restrict their ability to create distance or establish strong base",
+      "Break opponent's posture by pulling overhook arm down while using legs to control hip positioning",
+      "Create angles by hip escaping toward overhook side to expose opponent's back and set up sweeps",
+      "Coordinate overhook control with opposite-side grip management to prevent opponent from establishing defensive frames",
+      "Utilize leg pressure and hook placement to off-balance opponent when they attempt to posture or pass",
+      "Transition fluidly between sweep attempts and submission threats to create dilemmas for opponent"
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent maintains strong upright posture with hips back",
+        "actions": [
+          {
+            "technique": "Hip Bump Sweep",
+            "target": "Mount",
+            "probability": 60
+          },
+          {
+            "technique": "Overhook Sweep",
+            "target": "Mount",
+            "probability": 55
+          }
+        ]
+      },
+      {
+        "condition": "If opponent drives weight forward attempting to stack",
+        "actions": [
+          {
+            "technique": "Omoplata from Guard",
+            "target": "Omoplata Control",
+            "probability": 50
+          },
+          {
+            "technique": "Triangle Setup",
+            "target": "Triangle Control",
+            "probability": 55
+          }
+        ]
+      },
+      {
+        "condition": "If opponent attempts to pull overhook arm free",
+        "actions": [
+          {
+            "technique": "Triangle Setup",
+            "target": "Triangle Control",
+            "probability": 65
+          },
+          {
+            "technique": "Kimura from Guard",
+            "target": "Kimura Trap",
+            "probability": 50
+          }
+        ]
+      },
+      {
+        "condition": "If opponent circles away from overhook side",
+        "actions": [
+          {
+            "technique": "Arm Drag to Back",
+            "target": "Back Control",
+            "probability": 55
+          },
+          {
+            "technique": "Armbar from Guard",
+            "target": "Armbar Control",
+            "probability": 50
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Releasing overhook tension when opponent postures",
+        "consequence": "Opponent easily recovers posture and establishes strong base for passing",
+        "correction": "Maintain constant pulling pressure on overhook with elbow tight to ribs, using legs to prevent hip elevation"
+      },
+      {
+        "error": "Neglecting opposite-side grip control",
+        "consequence": "Opponent establishes strong frame with free hand, blocking sweep attempts and creating passing angles",
+        "correction": "Always control opponent's free arm with collar, sleeve, or wrist grip to prevent defensive posting"
+      },
+      {
+        "error": "Attempting sweeps without proper angle creation",
+        "consequence": "Sweeps fail because opponent's base remains stable and centered over bottom player",
+        "correction": "Hip escape toward overhook side to create angle before initiating sweep, disrupting opponent's base alignment"
+      },
+      {
+        "error": "Staying flat on back without hip mobility",
+        "consequence": "Opponent maintains stable position and can slowly work to open guard or stack effectively",
+        "correction": "Constantly adjust hip position, create angles, and use shoulder frames to prevent opponent from settling into stable position"
+      },
+      {
+        "error": "Overcommitting to single attack without backup options",
+        "consequence": "Opponent defends primary attack and counters with guard pass or posture recovery",
+        "correction": "Chain attacks together using overhook control as anchor point, transitioning seamlessly between sweeps and submissions"
+      },
+      {
+        "error": "Allowing opponent to establish cross-face on overhook side",
+        "consequence": "Opponent controls head position and can flatten bottom player, neutralizing offensive options",
+        "correction": "Use overhook and opposite hand to block cross-face attempts, keeping head mobile and creating shoulder frames"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Overhook Maintenance Drill",
+        "description": "Partner starts in closed guard with overhook established. Top player attempts to pull arm free, improve posture, and establish frames while bottom player maintains overhook control and breaks posture repeatedly. Focus on grip endurance and proper elbow positioning. Switch roles every 2 minutes.",
+        "duration": "5 rounds of 2 minutes"
+      },
+      {
+        "name": "Sweep Chain Flow Drill",
+        "description": "Bottom player establishes overhook in closed guard and flows between hip bump sweep, overhook sweep, and omoplata sweep based on top player's reactions. Top player provides realistic but predictable resistance by posturing up, sitting back, or driving forward. Focus on smooth transitions and angle creation. Reset to guard after each sweep attempt.",
+        "duration": "3 rounds of 3 minutes"
+      },
+      {
+        "name": "Submission Attack Progression",
+        "description": "Starting from overhook guard, bottom player attacks triangle, kimura, omoplata, and armbar in sequence while top player provides progressive resistance. Start at 30% resistance and increase to 70% over the drill duration. Emphasize proper setup mechanics and control maintenance throughout transitions.",
+        "duration": "4 rounds of 2 minutes"
+      },
+      {
+        "name": "Angle Creation and Recovery",
+        "description": "Bottom player maintains overhook guard while top player attempts to flatten them and establish centered base. Bottom player hip escapes to create angles, frames to prevent flattening, and constantly adjusts positioning. Top player works to maintain centered pressure and posture. Focus on mobility and position recovery.",
+        "duration": "3 rounds of 3 minutes"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Overhook Guard",
+        "relationship": "Hub position - parent position for this bottom perspective"
+      },
+      {
+        "name": "Closed Guard",
+        "relationship": "Parent guard position from which overhook variation is established"
+      },
+      {
+        "name": "Kimura Trap",
+        "relationship": "Natural progression when overhook is converted to kimura grip"
+      },
+      {
+        "name": "Triangle Control",
+        "relationship": "Common submission position reached from overhook attacks"
+      },
+      {
+        "name": "Omoplata Control",
+        "relationship": "Alternative submission position using overhook control mechanics"
+      },
+      {
+        "name": "Back Control",
+        "relationship": "Transition target when executing rolling back take from overhook"
+      },
+      {
+        "name": "Mount",
+        "relationship": "Primary sweep target position from overhook guard"
+      },
+      {
+        "name": "Armbar Control",
+        "relationship": "Submission position accessible when opponent defends sweeps"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "beginner": 55,
+        "intermediate": 70,
+        "advanced": 80
+      },
+      "advancement_probability": {
+        "beginner": 40,
+        "intermediate": 55,
+        "advanced": 65
+      },
+      "submission_probability": {
+        "beginner": 25,
+        "intermediate": 40,
+        "advanced": 55
+      },
+      "average_time": "45-90 seconds before sweep or submission attempt"
+    },
+    "transitions": [
+      {
+        "transition": "Overhook Sweep",
+        "attempt_probability": 13
+      },
+      {
+        "transition": "Hip Bump Sweep",
+        "attempt_probability": 15
+      },
+      {
+        "transition": "Omoplata from Guard",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Arm Drag to Back",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Triangle Setup",
+        "attempt_probability": 13
+      },
+      {
+        "transition": "Kimura from Guard",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Omoplata from Guard",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Armbar from Guard",
+        "attempt_probability": 13
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the correct hand positioning for an effective overhook that maintains control under pressure?",
+        "answer": "Thread your arm deep over and around the opponent's arm so your hand grips their lat muscle, shoulder blade, or far side of their back. Your elbow should be tight to your ribs, not flaring out. The deeper your hand reaches behind their shoulder, the harder it is for them to strip the control. Avoid gripping just around their tricep as this shallow grip is easily broken."
+      },
+      {
+        "question": "Your opponent begins posturing up forcefully while you have the overhook established - what adjustments maintain your control?",
+        "answer": "Pull your overhook elbow tighter to your ribs while your hand pulls down on their lat. Simultaneously use your legs to prevent their hips from backing away by squeezing your knees together and pulling your heels toward your glutes. Add a collar or head grip with your free hand to create a second anchor point. If they continue posturing, follow their movement by sitting up with them rather than staying flat."
+      },
+      {
+        "question": "What are the essential grips needed to maintain overhook guard bottom against a pressure passer?",
+        "answer": "The overhook itself is primary, with your hand deep on their lat or back. Your free hand must control their opposite arm - grab their wrist, sleeve, or collar to prevent them from establishing a crossface or strong frame. In gi, collar grip behind their neck provides excellent posture control. In no-gi, cup behind their head or control their tricep. Both grips working together prevent them from establishing any passing pressure."
+      },
+      {
+        "question": "How do you prevent your opponent's primary defense of stacking your hips when attacking from overhook guard?",
+        "answer": "Create angle before they can stack by hip escaping toward the overhook side. This positions your body at 45 degrees where stacking is mechanically difficult. Use your overhook to pull their shoulder down and toward you, preventing them from driving forward. If they begin stacking, immediately pivot your hips further to the side and transition to omoplata or triangle where their forward pressure becomes a liability."
+      },
+      {
+        "question": "What is the proper technique for applying shoulder pressure with your overhook to break opponent's posture?",
+        "answer": "Pull your overhook elbow down toward your hip while your hand pulls their lat toward you. This creates a rotational force that breaks their posture by collapsing their shoulder forward and down. Combine this with your legs pulling their hips toward you. The pressure should feel like you're trying to curl their shoulder into your chest. Maintain constant tension rather than jerking motions."
+      },
+      {
+        "question": "Your opponent partially escapes by getting their knee inside your guard - how do you recover without losing the overhook?",
+        "answer": "Keep the overhook control as your anchor while immediately adjusting your leg position. Hip escape away from the knee that entered, creating space to recover your guard or transition to half guard with the overhook still intact. The overhook actually makes their knee position worse for passing because they can't post on that side. Use the overhook to keep their upper body controlled while your legs work to re-establish full guard closure."
+      },
+      {
+        "question": "How should you manage energy when maintaining overhook guard for extended guard retention?",
+        "answer": "Use your skeletal structure rather than constant muscle tension - keep your elbow pinned to your ribs naturally, let your body weight pull on the overhook rather than actively gripping hard constantly. Breathe rhythmically and stay relaxed between attack attempts. Use micro-adjustments rather than big movements. Attack when opportunities present themselves rather than fighting for static control. A relaxed, active guard is sustainable; a tense, death-grip guard exhausts you quickly."
+      },
+      {
+        "question": "Your opponent explosively attempts to rip their arm free from the overhook - what is your immediate counter?",
+        "answer": "Follow their arm movement rather than fighting it directly. As they pull, immediately transition to triangle by shooting your overhook-side leg over their shoulder since their posture is broken and arm is pulled back. Alternatively, switch to kimura grip as their arm extracts - their pulling motion actually assists your kimura entry. The key is to flow with their energy into an attack rather than losing a grip-fighting battle."
+      }
+    ]
   }
 }

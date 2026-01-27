@@ -20,38 +20,38 @@ description: "Dominant pinning position using perpendicular chest pressure to co
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Mount",
-      "text": "From this position, execute Transition to Mount to transition to Mount. Success rate for advanced practitioners: 80%.",
+      "name": "Execute Side Control to Mount",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 15% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute North-South Choke",
-      "text": "From this position, execute North-South Choke to transition to Won by Submission. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt North-South Choke. This technique is attempted in 15% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kimura from North-South",
-      "text": "From this position, execute Kimura from North-South to transition to Kimura Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Kimura from North-South. This technique is attempted in 18% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Armbar from North-South",
-      "text": "From this position, execute Armbar from North-South to transition to Armbar Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Armbar from North-South. This technique is attempted in 14% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Side Control",
-      "text": "From this position, execute Transition to Side Control to transition to Side Control. Success rate for advanced practitioners: 85%.",
+      "name": "Execute Position Change",
+      "text": "From this position, attempt Position Change. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Reverse Mount Transition",
-      "text": "From this position, execute Reverse Mount Transition to transition to Reverse Mount. Success rate for advanced practitioners: 70%.",
+      "name": "Execute Gift Wrap",
+      "text": "From this position, attempt Gift Wrap. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -211,88 +211,22 @@ The key to maximizing North-South effectiveness is understanding the relationshi
 
 ## Available Attacks
 
-### [[Transition to Mount]] → [[Mount]]
+### [[Side Control to Mount]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 50%
-- Intermediate: 65%
-- Advanced: 80%
+### [[North-South Choke]] (15% of attempts)
 
-### [[North-South Choke]] → [[Won by Submission]]
+### [[Kimura from North-South]] (18% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
+### [[Armbar from North-South]] (14% of attempts)
 
-### [[Kimura from North-South]] → [[Kimura Control]]
+### [[Position Change]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Gift Wrap]] (10% of attempts)
 
-### [[Armbar from North-South]] → [[Armbar Control]]
+### [[Arm Triangle Setup]] (8% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Back Take]] (8% of attempts)
 
-### [[Transition to Side Control]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 60%
-- Intermediate: 75%
-- Advanced: 85%
-
-### [[Reverse Mount Transition]] → [[Reverse Mount]]
-
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
-
-### [[Gift Wrap Control]] → [[Gift Wrap]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-### [[Arm Triangle Setup]] → [[Won by Submission]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Bridge and Turn to Turtle]]** → [[Turtle]]
-- **[[Explosive Bridge to Guard Recovery]]** → [[Open Guard]]
-- **[[Frame and Turn Escape]]** → [[Half Guard]]
-- **[[Granby Roll Escape]]** → [[Turtle]]
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Follow to Mount]]** → [[Mount]]
-  - When opponent attempts to bridge and turn but doesn't achieve full turtle position
-- **[[Kimura Grip During Bridge]]** → [[Kimura Control]]
-  - When opponent extends arm during bridge attempt, exposing kimura grip opportunity
-- **[[Back Take]]** → [[Back Control]]
-  - When opponent successfully turns to turtle but hasn't established defensive base
 
 
 </section>
@@ -302,8 +236,8 @@ The key to maximizing North-South effectiveness is understanding the relationshi
 ## Decision Making from This Position
 
 **If opponent is flat and not actively defending:**
-- Execute **[[Establish Kimura Grip on Near Arm]]** → [[Kimura Control]] (Probability: 60%)
-- Execute **[[Set Up North-South Choke]]** → [[Won by Submission]] (Probability: 45%)
+- Execute **[[Establish Kimura Grip on Near Arm]]** → [[Kimura Trap]] (Probability: 60%)
+- Execute **[[Set Up North-South Choke]]** → [[game-over]] (Probability: 45%)
 
 
 **If opponent is actively bridging and attempting escape:**
@@ -382,29 +316,39 @@ Practice timing the transition from North-South to mount in response to opponent
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Kimura Control Path
+## Test Your Knowledge
 
-`North South Control Top → Isolate Near Arm → Kimura Control → Kimura → Won by Submission`
+**Q1**: What is the primary mechanism for maintaining control in North-South position?
+**A**: The primary mechanism is distributing weight through your chest perpendicular across the opponent's torso and face, combined with a wide base from your knees positioned on either side of their head and shoulders. This creates crushing pressure that restricts breathing and prevents hip movement while allowing you to control without exhausting arm strength.
 
-### Direct Choke Path
+**Q2**: Your opponent starts to bridge explosively - what adjustment do you make?
+**A**: Widen your base by spreading your knees further apart and lowering your hips. Shift your weight slightly toward whichever direction they're bridging to ride the bridge rather than resist it. Keep your chest pressure constant and wait for them to return to the mat, then immediately re-consolidate control. Never fight directly against the bridge - use timing and pressure adjustment instead.
 
-`North South Control Top → Arm Configuration → North-South Choke → Won by Submission`
+**Q3**: What are the essential grips or control points for maintaining North-South?
+**A**: The essential controls are chest-to-chest pressure on the opponent's sternum, wide knee base for stability, and near-side arm isolation using either an underhook, overhook, or wrist control. Secondary controls include head positioning near their hips to monitor both arms and feet placement for additional stability during transitions.
 
-### Mount Advancement Path
+**Q4**: How do you shut down the primary bridge-and-turn escape attempt?
+**A**: Maintain heavy chest pressure to limit the power of their bridge, keep your knees wide to create a stable base that's difficult to off-balance, and when they begin turning, follow their movement by spinning with them rather than trying to hold them flat. If they turn toward you, transition to mount; if they achieve turtle, immediately work to establish back control.
 
-`North South Control Top → Follow Bridge → Mount → Armbar from Mount → Won by Submission`
+**Q5**: What are the grip priorities when transitioning from pressure maintenance to submission attacks?
+**A**: First priority is isolating the near-side arm before any submission attempt - this can be done through underhook, wrist control, or trapping against your body. Second priority is maintaining chest connection throughout the grip change. Third is establishing the specific submission grip (kimura figure-four, guillotine configuration, etc.) only after arm isolation is secured.
 
-### Back Take Sequence
+**Q6**: Your opponent creates a small frame with their near-side elbow - how do you address this?
+**A**: Increase chest pressure to collapse the frame by driving your weight directly through the elbow toward the mat. Alternatively, swim your arm underneath their elbow to convert it to an underhook while maintaining downward pressure. Never allow them to straighten the arm or establish a strong frame - address frames immediately while they're still developing.
 
-`North South Control Top → Opponent Turns → Back Control → Rear Naked Choke → Won by Submission`
+**Q7**: How do you manage energy expenditure in North-South to maintain control for extended periods?
+**A**: Use skeletal structure rather than muscular effort - your weight should rest on your chest and be supported by your wide knee base. Avoid gripping tightly with your arms or actively pushing; instead, let gravity create the pressure. Make small adjustments rather than large movements, and only use explosive effort when transitioning to submissions or following opponent movement.
+
+**Q8**: Your opponent partially escapes and gets to their side with one knee coming in - how do you recover?
+**A**: Immediately transition to knee-on-belly or side control rather than fighting to return to North-South. Their knee insertion has created too much space for pure North-South control. Use your hip pressure to prevent them completing the guard recovery, establish crossface control, and consolidate a strong side control position before considering whether to return to North-South.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -427,13 +371,12 @@ Practice timing the transition from North-South to mount in response to opponent
 
 - **[[Side Control]]** - Primary entry position through transitional movement
 - **[[Mount]]** - Common advancement when opponent bridges or turns
-- **[[Kimura Control]]** - Natural progression from arm isolation
+- **[[Kimura Trap]]** - Natural progression from arm isolation
 - **[[Kimura from North-South]]** - Primary submission attack from this position
 - **[[North-South Choke]]** - Signature submission technique from this position
 - **[[Armbar Control]]** - Alternative submission control from arm isolation
-- **[[Pressure Application]]** - Fundamental principle for maintaining control
-- **[[Weight Distribution]]** - Core concept for sustainable pressure maintenance
-- **[[Transition to Mount]]** - Primary positional advancement technique
+- **[[Back Control]]** - Accessible when opponent turns during escape attempts
+- **[[Side Control to Mount]]** - Primary positional advancement technique
 
 
 </section>

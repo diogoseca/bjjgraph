@@ -219,33 +219,63 @@
   ],
   "knowledge_assessment": [
     {
-      "question": "Why is it critical to trap the opponent's arm on the same side as your choking leg during triangle from back setup?",
-      "answer": "The trapped arm becomes part of the triangle structure and is essential for proper choke geometry. Trapping the arm on the same side ensures that when you bring your leg over that shoulder, their own arm helps compress their carotid artery. Crossing over the opposite shoulder would place their arm outside the triangle, destroying the choking mechanism and allowing easy defense.",
-      "safety_critical": false
-    },
-    {
-      "question": "What is the minimum time you should take to progress from initial triangle lock to full choking pressure in training?",
-      "answer": "Minimum 5-7 seconds of progressive, gradual pressure increase. This slow application gives your training partner ample time to recognize the choke developing, assess their defensive options, and tap before losing consciousness. Explosive application risks injury and doesn't allow proper tap opportunity.",
+      "question": "What anatomical structures does the triangle from back attack, and how does the choking mechanism differ from air chokes?",
+      "answer": "The triangle from back attacks the carotid arteries on both sides of the neck, restricting blood flow to the brain rather than cutting off air supply. Your shin compresses one carotid while their trapped arm compresses the other side against your thigh. This blood choke causes unconsciousness in 8-12 seconds under full pressure, compared to air chokes which take longer and are more uncomfortable. The blood choke mechanism is why progressive pressure application is essential for safety.",
       "safety_critical": true
     },
     {
-      "question": "How should your body be positioned relative to your opponent's spine to create effective triangle geometry from back control?",
-      "answer": "Your torso should be perpendicular to opponent's spine, forming a T-shape or L-shape. This angle is created by sliding your body to the side toward the trapped arm. The perpendicular angle ensures your shin crosses their carotid artery properly and prevents them from posturing out of the choke.",
+      "question": "Your opponent starts to posture up during the triangle finish - what grip and hip adjustments secure the tap?",
+      "answer": "Immediately pull their head down with your choking arm while simultaneously extending your hips forward and pulling your knees together. Use your free hand to control their far shoulder, preventing the posture. If they continue fighting posture, increase hip extension to close the angle between your body and theirs. The combination of head control pulling down and hip extension pushing forward creates an inescapable compression that defeats posturing attempts.",
       "safety_critical": false
     },
     {
-      "question": "What should you do immediately if your opponent goes limp during a triangle from back without tapping?",
-      "answer": "Immediately open the triangle legs completely, release all upper body grips, and roll opponent to recovery position (side-lying). Elevate their legs and monitor breathing and consciousness. Call for medical assistance if they don't regain consciousness within 10-15 seconds. Never delay release when partner goes limp - this indicates possible loss of consciousness.",
+      "question": "What are the clear indicators that your triangle is properly locked and the finish is imminent?",
+      "answer": "Key indicators include: opponent's face changing color (reddening or becoming pale), their resistance weakening noticeably, hands becoming less active in defense, body tension decreasing, and sometimes a slight tremor or softening in their frame. You'll feel the carotid pulse against your leg slow or become irregular. When you observe these signs, the submission is working correctly - maintain steady pressure without increasing force and expect the tap within seconds.",
       "safety_critical": true
     },
     {
-      "question": "What is the primary positional risk when attempting triangle from back, and how do you mitigate it?",
-      "answer": "The primary risk is losing back control entirely during the transition. Mitigate by maintaining at least one hook throughout the transition, keeping upper body control with seat belt or choking arm grip, and being willing to abandon the triangle attempt if back control becomes compromised. Position should never be fully sacrificed for submission attempt.",
+      "question": "What control must be established before you can safely attempt the triangle finish from back?",
+      "answer": "Before finishing, ensure: the triangle figure-four is completely locked with no gap between your ankle and the back of your knee, your choking arm controls their head angle, at least one hook or your remaining leg maintains some hip control, their trapped arm is genuinely incorporated into the choke structure (not floating free), and your perpendicular angle is established. Rushing to finish without these controls leads to escape opportunities and wasted energy.",
       "safety_critical": false
     },
     {
-      "question": "If opponent successfully hand fights and creates frames during the triangle finish, what is the appropriate tactical response?",
-      "answer": "Control their free arm with your non-choking hand to limit framing ability. If they commit both hands to defending the triangle, their neck becomes exposed - immediately transition back to rear naked choke. The triangle creates a dilemma where defending it opens other attacks. Never force a defended triangle when superior alternatives become available.",
+      "question": "At what point during the triangle from back does your opponent reach the 'point of no escape' where defense becomes nearly impossible?",
+      "answer": "The point of no escape occurs when the figure-four lock is fully secured with your ankle deep behind your knee, your body has achieved perpendicular angle to their spine, and you've begun hip extension with the head pulled down. Once these three elements align, traditional defenses like posturing or hand fighting become mechanically ineffective. The opponent's only remaining option is explosive rotation toward you, which should be anticipated and countered with upper body control.",
+      "safety_critical": false
+    },
+    {
+      "question": "What are the most common finishing errors that result in losing the triangle from back, and how do you correct them mid-submission?",
+      "answer": "Common finishing errors include: losing perpendicular angle (correct by sliding your hips further to the side), allowing the trapped arm to slip out (re-trap immediately with your choking hand), squeezing with calves only without hip extension (extend hips while pulling knees together), and losing head control (re-grip their head with your choking arm). Mid-submission corrections must be made decisively - if multiple elements fail simultaneously, consider resetting to basic back control rather than forcing an ineffective finish.",
+      "safety_critical": false
+    },
+    {
+      "question": "How do you adjust your grip and squeeze angle when your opponent attempts to two-on-one fight your locking leg?",
+      "answer": "When opponent grabs your locking leg with both hands, this creates a submission dilemma. First, their neck becomes exposed - consider transitioning immediately to rear naked choke. If you want to finish the triangle, use your free hand to attack their grip while simultaneously extending your hips to increase pressure. You can also threaten armbar on the reaching arms by beginning to rotate your body. The key insight is that defending your leg with both hands means they've abandoned neck defense.",
+      "safety_critical": false
+    },
+    {
+      "question": "What immediate actions must you take if your opponent goes limp before tapping during the triangle from back?",
+      "answer": "Immediately open your legs completely by separating your knees and unlocking the figure-four. Release all upper body grips and roll opponent to their side in recovery position. Check for breathing and responsiveness. Elevate their legs slightly to restore blood flow to the brain. If unconscious, they typically regain consciousness within 10-20 seconds - do not shake them or apply stimulation. Call for medical assistance if they don't respond within 30 seconds. This represents a training failure - review why tap signals were missed.",
+      "safety_critical": true
+    },
+    {
+      "question": "What competition finishing strategies maximize your tap rate when opponent is actively defending the triangle from back?",
+      "answer": "In competition, apply pressure in waves rather than constant maximum squeeze - this prevents muscle fatigue and maintains finishing power. Use micro-adjustments between pressure waves to optimize angle. If opponent defends for more than 15 seconds, transition to rear naked choke since their hands are occupied, then immediately return to triangle when they move hands to defend the choke. This chain attacking exhausts their defensive resources systematically. Time your maximum pressure application for when they exhale or when you feel their frame weaken.",
+      "safety_critical": false
+    },
+    {
+      "question": "How does the finishing mechanism change when transitioning from rear triangle to mounted triangle mid-submission?",
+      "answer": "When opponent rotates toward you forcing a mounted triangle transition, the finish mechanics shift significantly. In mounted triangle, your weight becomes the primary control element rather than hip extension. The squeeze angle changes from perpendicular to more aligned with their spine. Adjust by sitting upright on the mount, using gravity and hip pressure rather than hip extension. The head control with your choking arm becomes less critical as mount position provides the necessary angle. Finish by squeezing knees together while settling your weight onto their chest.",
+      "safety_critical": false
+    },
+    {
+      "question": "What safety protocols apply specifically to training the triangle from back with less experienced partners?",
+      "answer": "With less experienced partners: explain tap signals thoroughly before drilling, use only 30-40% maximum pressure intensity, release immediately at any tap without requiring multiple signals, watch for face color changes they may not recognize themselves, maintain constant verbal communication asking about pressure level, position their hands where they can easily tap your leg, and never hold the locked position for more than 5 seconds without checking in. Their unfamiliarity with blood choke sensations means they may not recognize submission danger until too late.",
+      "safety_critical": true
+    },
+    {
+      "question": "When your triangle is locked but opponent is managing to breathe and defend, what micro-adjustments optimize the finish without requiring additional energy?",
+      "answer": "Micro-adjustments for optimization: rotate your shin slightly to ensure the bony part (not the calf muscle) contacts their carotid, slide your locking leg ankle deeper behind your knee to tighten the figure-four, pull your knees fractionally closer together, extend your hips incrementally to reduce the angle, pull opponent's chin toward their chest with your choking arm to reduce neck space. Each small adjustment compounds the pressure without significant energy expenditure. Often a 1-2 inch hip extension is the difference between defended and finished.",
       "safety_critical": false
     }
   ],
@@ -306,7 +336,6 @@
   "related_submissions": [
     "Rear Naked Choke",
     "Triangle Choke",
-    "Triangle Choke Back",
     "Armbar from Back",
     "Armbar from Back with Legs",
     "Choke from Crucifix",
@@ -314,11 +343,7 @@
     "Short Choke",
     "Inverted Triangle",
     "Mounted Triangle",
-    "Triangle from Closed Guard",
-    "Triangle from Guard",
-    "Triangle Choke Front",
-    "Switch to Triangle",
-    "Triangle to Armbar"
+    "Triangle from Guard"
   ],
   "related_content": [
     {
@@ -346,7 +371,7 @@
       "relationship": "Position that pre-traps opponent's arm, simplifying triangle entry"
     },
     {
-      "name": "Triangle from Closed Guard",
+      "name": "Triangle from Guard",
       "relationship": "Related triangle technique using similar choking mechanics but different positional context"
     },
     {
@@ -362,12 +387,12 @@
       "relationship": "Core triangle choke technique that this variation builds upon"
     },
     {
-      "name": "Triangle to Back",
-      "relationship": "Reverse transition when starting from front triangle to back control"
-    },
-    {
       "name": "Seat Belt Control Back",
       "relationship": "Key control position used during triangle from back setup"
+    },
+    {
+      "name": "Harness",
+      "relationship": "Upper body control grip used to maintain back position during triangle setup"
     }
   ]
 }

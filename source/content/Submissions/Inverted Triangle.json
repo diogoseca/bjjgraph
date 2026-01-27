@@ -263,6 +263,31 @@
       "question": "How does the inverted triangle differ strategically from a standard triangle in terms of when to attempt it?",
       "answer": "The inverted triangle is primarily a reactive or transitional submission rather than a primary attack from static positions. While you can hit standard triangles from stable closed guard or spider guard positions, inverted triangles typically emerge from scrambles, failed submissions (like armbars), defensive situations (like turtle), or when opponents are moving dynamically and expose unconventional angles. Strategically, you should recognize inverted triangle opportunities when you have arm control across the neck but your body position doesn't allow for standard attacks. It's an excellent 'plan B' submission that catches opponents who have developed strong triangle defense patterns, as those defenses are largely ineffective against the inverted angle.",
       "safety_critical": false
+    },
+    {
+      "question": "Your opponent starts to posture up while you have the figure-four locked - what adjustment prevents escape?",
+      "answer": "When opponent attempts to posture, immediately increase hip extension while pulling their head down with your hands. Do not simply squeeze harder with your legs - this wastes energy and allows them to continue posturing. Instead, extend your hips explosively toward the ceiling and rotate further perpendicular to their body. Use your hands to control either their head, collar, or the back of their neck to prevent the posture. If they achieve partial posture, consider switching your angle by scooting your hips further away from them while maintaining the figure-four, which often re-breaks their posture as they chase you.",
+      "safety_critical": false
+    },
+    {
+      "question": "What anatomical structures does the inverted triangle attack and how does proper arm positioning enhance the choke?",
+      "answer": "The inverted triangle attacks the carotid arteries on both sides of the neck, creating a blood choke that restricts oxygen flow to the brain. The trapped arm across the opponent's neck creates pressure on one carotid artery, while your leg configuration (specifically the thigh pressing against the other side of the neck) restricts the other carotid. Proper arm positioning is critical because the bicep or forearm creates the 'third side' of the triangle, completing the choking structure. Without the arm properly positioned, you must rely entirely on leg pressure, which is less efficient and allows more defensive movement. The arm also prevents the opponent from turning their chin into the crook of your leg to relieve pressure.",
+      "safety_critical": false
+    },
+    {
+      "question": "What grip adjustments should you make during the finish if the opponent is successfully defending by keeping their chin tucked?",
+      "answer": "When opponent tucks their chin, do not attempt to pry it away forcefully as this wastes energy and can cause neck injury. Instead, adjust your hand position to control the crown of their head, pushing it down toward your hip while maintaining hip extension. Alternatively, establish a grip on their far shoulder and pull it toward you while rotating your hips away, which naturally exposes the neck by changing the angle of attack. You can also grab behind their head with a gable grip and pull down while extending your hips. The goal is to change the angle rather than fighting their chin directly - a well-positioned inverted triangle makes chin tucking ineffective because the pressure comes from perpendicular angles.",
+      "safety_critical": false
+    },
+    {
+      "question": "How do you recognize the point of no escape in the inverted triangle, and what indicators tell you the choke is correctly applied?",
+      "answer": "The point of no escape occurs when the figure-four is locked with proper ankle placement, your hips are extended and perpendicular to the opponent, and the trapped arm is creating consistent pressure against their carotid. Indicators of correct application include: opponent's face changing color (reddening or purple tint), visible decrease in their movement and strength, their free arm movements becoming weaker and less coordinated, and a distinctive 'settled' feeling where your leg structure feels locked in place without requiring constant adjustment. The choke should feel mechanically efficient - if you're straining with leg strength, the angle is likely wrong. A correctly applied inverted triangle feels like the opponent's own body is working against them.",
+      "safety_critical": true
+    },
+    {
+      "question": "What are the competition finishing strategies for the inverted triangle versus training application differences?",
+      "answer": "In competition, once the figure-four is locked and angle established, you can apply finishing pressure more rapidly (2-3 seconds to full pressure) because the objective is the tap or unconsciousness within the rules. Use maximum hip extension immediately once control is established. In training, you must apply pressure over 5-7 seconds minimum to allow your partner to assess and tap. Competition allows following up if they stand with potential slam risk (rules-dependent), while training requires immediate release if they begin standing. Competition strategy includes hand-fighting aggressively to prevent any grip establishment, while training should allow some defensive movement for learning purposes. The core finishing mechanics remain identical, but the application speed and willingness to accept extreme positions differs significantly.",
+      "safety_critical": true
     }
   ],
   "training_progressions_and_safety_protocols": [
@@ -323,19 +348,14 @@
   ],
   "related_submissions": [
     "Triangle Choke",
-    "Triangle from Closed Guard",
-    "Triangle from Guard",
     "Armbar from Guard",
     "Omoplata",
-    "Omoplata from Guard",
-    "Triangle to Armbar",
-    "Triangle to Omoplata",
     "Gogoplata",
     "Baratoplata",
-    "Monoplata from Guard",
     "Rear Naked Choke",
-    "Triangle Choke Front",
-    "Triangle from Spider Guard"
+    "Armbar from Mount",
+    "Triangle from Mount",
+    "Mounted Triangle"
   ],
   "related_content": [
     {
@@ -347,24 +367,12 @@
       "relationship": "Entry transition - traditional triangle setup principles"
     },
     {
-      "name": "Switch to Triangle",
-      "relationship": "Alternative transition - switching from other guards to triangle variations"
-    },
-    {
       "name": "Closed Guard to Triangle",
       "relationship": "Primary entry path - standard triangle from closed guard"
     },
     {
-      "name": "Ryan Hall Triangle System",
-      "relationship": "Systematic framework - comprehensive triangle variations and setups"
-    },
-    {
       "name": "Armbar Finish",
       "relationship": "Common chain - inverted triangle often follows failed armbar attempts"
-    },
-    {
-      "name": "Triangle Choke Front",
-      "relationship": "Contrasting technique - standard frontal triangle versus inverted angle"
     },
     {
       "name": "Kimura",
@@ -377,6 +385,14 @@
     {
       "name": "Crucifix",
       "relationship": "Related control position - similar arm trapping and body inversion principles"
+    },
+    {
+      "name": "Omoplata",
+      "relationship": "Alternative submission from similar arm control positions"
+    },
+    {
+      "name": "Gogoplata",
+      "relationship": "Advanced submission sharing inverted leg positioning principles"
     }
   ]
 }

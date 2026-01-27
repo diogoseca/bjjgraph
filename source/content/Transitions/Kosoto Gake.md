@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Kosoto Gake | BJJ Technique | BJJ Graph"
 description: "Learn Kosoto Gake in BJJ. Master this minor outer reaping throw from standing to dominant top position. Success rates: Beginner 30%, Intermediate 45%, Advanced 65%."
@@ -16,7 +17,7 @@ description: "Learn Kosoto Gake in BJJ. Master this minor outer reaping throw fr
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Kosoto Gake in BJJ",
-  "description": "Step-by-step guide for Kosoto Gake from Standing Position to Side Control.",
+  "description": "Step-by-step guide for Kosoto Gake from Standing Position/Top. Possible outcomes: Side Control/Top (65%), Standing Position/Top (25%), Standing Position/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -154,11 +155,25 @@ description: "Learn Kosoto Gake in BJJ. Master this minor outer reaping throw fr
 
 Kosoto Gake (minor outer reaping) is a fundamental judo throw that has become a staple in Brazilian Jiu-Jitsu's standing game. This technique involves reaping your opponent's supporting leg from the outside while simultaneously pulling their upper body backward, causing them to fall directly into your side control position. The beauty of Kosoto Gake lies in its simplicity and relatively low physical demands compared to explosive throws like Uchi Mata or Harai Goshi. It excels when your opponent has their weight distributed on their rear leg, making it an excellent counter to defensive stances and backward movement. The throw creates a seamless transition from standing to dominant groundwork, with the thrower maintaining control throughout the entire movement and landing directly in a scoring position. This makes it particularly valuable in both gi and no-gi competition contexts where takedown points and top position are strategically critical.
 
-**Starting Position**: [[Standing Position]]
-**Ending Position**: [[Side Control]]
+**From Position**: [[Standing Position/Top]]
 **Success Rates**: Beginner 30%, Intermediate 45%, Advanced 65%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Side Control/Top]] | 65% |
+| Failure | [[Standing Position/Top]] | 25% |
+| Counter | [[Standing Position/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

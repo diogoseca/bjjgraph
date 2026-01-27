@@ -21,37 +21,37 @@ description: "Master offensive New York Control from bottom position. Complete g
     {
       "@type": "HowToStep",
       "name": "Execute Gogoplata",
-      "text": "From this position, execute Gogoplata to transition to Gogoplata Control. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Gogoplata. This technique is attempted in 7% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Setup",
-      "text": "From this position, execute Triangle Setup to transition to Triangle Control. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Triangle Setup. This technique is attempted in 10% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Omoplata Sweep",
-      "text": "From this position, execute Omoplata Sweep to transition to Omoplata Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 9% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle to Omoplata",
-      "text": "From this position, execute Triangle to Omoplata to transition to Omoplata Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Triangle to Omoplata. This technique is attempted in 8% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Omoplata to Back",
-      "text": "From this position, execute Omoplata to Back to transition to Back Control. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Omoplata to Back. This technique is attempted in 7% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle to Back",
-      "text": "From this position, execute Triangle to Back to transition to Back Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Triangle to Back. This technique is attempted in 8% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -217,121 +217,30 @@ Competition application demonstrates particular effectiveness in no-gi contexts 
 
 ## Available Escapes
 
-### [[Gogoplata]] → [[Gogoplata Control]]
+### [[Gogoplata]] (7% of attempts)
 
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 50%
+### [[Triangle Setup]] (10% of attempts)
 
-### [[Triangle Setup]] → [[Triangle Control]]
+### [[Omoplata Sweep]] (9% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Triangle to Omoplata]] (8% of attempts)
 
-### [[Omoplata Sweep]] → [[Omoplata Control]]
+### [[Omoplata to Back]] (7% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Triangle to Back]] (8% of attempts)
 
-### [[Triangle to Omoplata]] → [[Omoplata Control]]
+### [[Crackhead Control to Mission Control]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 45%
-- Advanced: 60%
+### [[New York to Invisible Collar]] (10% of attempts)
 
-### [[Omoplata to Back]] → [[Back Control]]
+### [[New York Control to Zombie]] (9% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 40%
-- Advanced: 55%
+### [[Armbar from Guard]] (7% of attempts)
 
-### [[Triangle to Back]] → [[Back Control]]
+### [[Kimura from Guard]] (7% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Hip Bump Sweep]] (8% of attempts)
 
-### [[Transition to Mission Control]] → [[Mission Control]]
-
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 60%
-- Advanced: 75%
-
-### [[Transition to Invisible Collar]] → [[Invisible Collar]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 55%
-- Advanced: 70%
-
-### [[Transition to Zombie]] → [[Zombie]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 65%
-
-### [[Armbar from Guard]] → [[Armbar Control]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
-
-### [[Kimura from Guard]] → [[Kimura Control]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-### [[Hip Bump Sweep]] → [[Mount]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Posture Recovery]]** → [[Closed Guard]] (Opponent Success: 35%)
-- **[[Overhook Escape]]** → [[Open Guard]] (Opponent Success: 40%)
-- **[[Base Widening]]** → [[Combat Base]] (Opponent Success: 30%)
-- **[[Stack Pass]]** → [[Headquarters Position]] (Opponent Success: 25%)
-- **[[Leg Extraction]]** → [[Half Guard]] (Opponent Success: 35%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Triangle to Omoplata]]** → [[Omoplata Control]]
-  - Opponent defends triangle by tucking chin and pulling posture
-- **[[Omoplata to Back]]** → [[Back Control]]
-  - Opponent rolls forward to escape omoplata pressure
-- **[[Triangle to Back]]** → [[Back Control]]
-  - Opponent attempts to stack or pass during triangle defense
-- **[[Switch to Gogoplata]]** → [[Gogoplata Control]]
-  - Opponent creates space while defending triangle attempt
-- **[[Hip Bump Sweep]]** → [[Mount]]
-  - Opponent posts hand on mat to prevent triangle lock
 
 
 </section>
@@ -356,12 +265,12 @@ Competition application demonstrates particular effectiveness in no-gi contexts 
 
 
 **If opponent successfully escapes overhook but leg control remains intact:**
-- Execute **[[Transition to Mission Control]]** → [[Mission Control]] (Probability: 70%)
-- Execute **[[Transition to Invisible Collar]]** → [[Invisible Collar]] (Probability: 65%)
+- Execute **[[Crackhead Control to Mission Control]]** → [[Mission Control]] (Probability: 70%)
+- Execute **[[New York to Invisible Collar]]** → [[Invisible Collar]] (Probability: 65%)
 
 
 **If opponent begins extracting leg from shoulder control:**
-- Execute **[[Transition to Zombie]]** → [[Zombie]] (Probability: 60%)
+- Execute **[[New York Control to Zombie]]** → [[Zombie]] (Probability: 60%)
 - Execute **[[Armbar from Guard]]** → [[Armbar Control]] (Probability: 50%)
 
 
@@ -443,33 +352,39 @@ Dedicated stretching routine focusing on hip external rotation, hamstring flexib
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Direct Gogoplata Path
+## Test Your Knowledge
 
-`New York Control Bottom → Gogoplata Control → Gogoplata`
+**Q1**: What are the essential controls for maintaining New York Control position?
+**A**: New York Control requires three simultaneous controls: the leg wrapped over the opponent's shoulder and across their back with foot near the opposite shoulder creating posture control, a deep overhook on the same side with arm fully threaded under the armpit and hand clasping shoulder or neck, and free hand control of the opponent's other arm or neck. All three must be maintained actively to prevent escape.
 
-### Triangle Chain Path
+**Q2**: How do you prevent the opponent from escaping your overhook control?
+**A**: Drive your arm as deep as possible under their armpit until your hand can clasp your own leg, their shoulder, or their neck. Keep your elbow tight to your body and actively pull their trapped arm across your centerline. If they begin rotating their shoulder to escape, immediately tighten leg pressure and transition to a submission threat, making the escape attempt cost them positionally.
 
-`New York Control Bottom → Triangle Control → Triangle Choke Front`
+**Q3**: Your opponent begins posturing up aggressively - what adjustment maintains the position?
+**A**: Increase active leg pressure by pulling your knee toward their far shoulder while simultaneously deepening the overhook and pulling their head down. Use your free hand to push their far shoulder away, breaking their structural alignment. If they persist, their posture attempt opens the gogoplata angle - shoot your shin across their throat as they create space.
 
-### Triangle to Back Path
+**Q4**: What is the proper weight distribution for maintaining New York Control from bottom?
+**A**: Weight should be distributed through your upper back and shoulders while keeping hips elevated and mobile. Avoid lying flat, which reduces leg pressure effectiveness. Stay slightly on your side toward the overhook to maximize control depth. Your hips need to remain free to adjust angle for submissions while your upper body provides the anchor point for all controls.
 
-`New York Control Bottom → Triangle Control → Triangle to Back → Back Control`
+**Q5**: How does the submission chain work when your triangle attempt is defended?
+**A**: When the opponent defends the triangle by tucking chin and pulling posture, immediately transition to omoplata by rotating your hips under their arm while maintaining overhook control. If they base out to prevent the omoplata sweep, switch to back take as their posting arm creates space. Each defense opens a specific counter - the key is recognizing the defensive pattern and flowing to the appropriate chain link.
 
-### Omoplata Sweep Path
+**Q6**: Your opponent starts extracting their trapped arm - what recovery sequence should you execute?
+**A**: Immediately transition to alternative control before they complete the extraction. Switch to Crackhead Control by bringing your leg to their head and controlling their posture with your shin, then re-establish Mission Control or go directly to triangle setup. The moment you feel arm slippage, you must transition rather than fight to maintain the original overhook position.
 
-`New York Control Bottom → Omoplata Control → Omoplata to Back → Back Control`
+**Q7**: What makes flexibility critical for New York Control retention?
+**A**: The leg wrap requires exceptional hip external rotation and hamstring flexibility to maintain the foot near the opponent's far shoulder while keeping active pressure. Without adequate range of motion, the leg position becomes shallow and easily cleared. The overhook also requires shoulder mobility to reach deep enough for structural control. Insufficient flexibility means you cannot achieve the angles needed for submission threats.
 
-### Triangle to Omoplata Path
-
-`New York Control Bottom → Triangle Control → Triangle to Omoplata → Omoplata Control → Omoplata`
+**Q8**: How do you manage energy expenditure while maintaining constant offensive pressure from New York?
+**A**: Use structural positioning rather than muscular effort for primary controls - let your leg weight and bone alignment create pressure instead of squeezing constantly. Transition between submission threats rhythmically rather than holding static positions. The opponent should feel constant pressure, but you achieve this through technique cycling rather than sustained muscular contraction. Rest comes during transitions, not during holds.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -490,14 +405,14 @@ Dedicated stretching routine focusing on hip external rotation, hamstring flexib
 
 ## Related Positions and Techniques
 
-- **[[10th Planet Rubber Guard System]]** - Primary systematic framework containing New York Control
-- **[[Rubber Guard to Triangle System]]** - Systematic approach to triangle finishes from rubber guard positions
-- **[[Rubber Guard to Omoplata System]]** - Systematic approach to omoplata attacks from rubber guard structure
 - **[[Mission Control]]** - Primary entry position and alternative control configuration
-- **[[Guard Retention]]** - Fundamental principle underlying New York defensive mechanics
-- **[[Offensive Combinations]]** - Principle governing submission chain construction from New York
-- **[[Flexibility Training]]** - Essential physical preparation for New York Control execution
+- **[[Invisible Collar]]** - Related rubber guard position for systematic transitions
+- **[[Zombie]]** - Advanced rubber guard position for continued offense
+- **[[Triangle Control]]** - Primary submission position from New York transitions
+- **[[Omoplata Control]]** - High-percentage attack and sweep option
 - **[[Gogoplata]]** - Signature submission finish from New York position
+- **[[Back Control]]** - Common transition target when opponent defends submissions
+- **[[Closed Guard]]** - Recovery position and rubber guard entry point
 
 
 </section>

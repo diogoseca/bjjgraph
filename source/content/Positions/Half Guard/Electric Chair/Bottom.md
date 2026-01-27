@@ -21,37 +21,37 @@ description: "Master Electric Chair Bottom position in BJJ. Complete guide cover
     {
       "@type": "HowToStep",
       "name": "Execute Old School Sweep",
-      "text": "From this position, execute Old School Sweep to transition to Mount. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Old School Sweep. This technique is attempted in 18% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Electric Chair Submission",
-      "text": "From this position, execute Electric Chair Submission to transition to Won by Submission. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Electric Chair Submission. This technique is attempted in 16% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Truck",
-      "text": "From this position, execute Transition to Truck to transition to Truck. Success rate for advanced practitioners: 70%.",
+      "name": "Execute Turtle to Truck",
+      "text": "From this position, attempt Turtle to Truck. This technique is attempted in 17% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Lockdown Sweeps",
-      "text": "From this position, execute Lockdown Sweeps to transition to Mount. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Lockdown Sweeps. This technique is attempted in 16% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Deep Half Entry",
-      "text": "From this position, execute Deep Half Entry to transition to Deep Half Guard. Success rate for advanced practitioners: 80%.",
+      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 19% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Omoplata",
-      "text": "From this position, execute Transition to Omoplata to transition to Omoplata Control. Success rate for advanced practitioners: 60%.",
+      "name": "Execute Dogfight Position",
+      "text": "From this position, attempt Dogfight Position. This technique is attempted in 14% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -214,76 +214,18 @@ Electric Chair Bottom represents a systematic approach to bottom half guard wher
 
 ## Available Escapes
 
-### [[Old School Sweep]] → [[Mount]]
+### [[Old School Sweep]] (18% of attempts)
 
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 60%
-- Advanced: 75%
+### [[Electric Chair Submission]] (16% of attempts)
 
-### [[Electric Chair Submission]] → [[Won by Submission]]
+### [[Turtle to Truck]] (17% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Lockdown Sweeps]] (16% of attempts)
 
-### [[Transition to Truck]] → [[Truck]]
+### [[Deep Half Entry]] (19% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Dogfight Position]] (14% of attempts)
 
-### [[Lockdown Sweeps]] → [[Mount]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-### [[Deep Half Entry]] → [[Deep Half Guard]]
-
-**Success Rates:**
-- Beginner: 50%
-- Intermediate: 65%
-- Advanced: 80%
-
-### [[Transition to Omoplata]] → [[Omoplata Control]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Half Guard Pass]]** → [[Side Control]] (Opponent Success: 35%)
-- **[[Knee Shield Recovery]]** → [[Knee Shield Half Guard]] (Opponent Success: 45%)
-- **[[Knee Slice from Half]]** → [[Side Control]] (Opponent Success: 30%)
-- **[[Sprawl Defense]]** → [[Turtle]] (Opponent Success: 25%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Truck Entry]]** → [[Truck]]
-  - Opponent attempts to extract their leg from lockdown
-- **[[Deep Half Entry]]** → [[Deep Half Guard]]
-  - Opponent posts their hand to defend electric chair
-- **[[Old School Sweep]]** → [[Mount]]
-  - Opponent commits weight forward to counter submission threat
-- **[[Transition to Omoplata]]** → [[Omoplata Control]]
-  - Opponent pulls their trapped leg back defensively
 
 
 </section>
@@ -294,16 +236,16 @@ Electric Chair Bottom represents a systematic approach to bottom half guard wher
 
 **If opponent maintains heavy forward pressure and low posture defending the electric chair:**
 - Execute **[[Old School Sweep]]** → [[Mount]] (Probability: 70%)
-- Execute **[[Transition to Truck]]** → [[Truck]] (Probability: 60%)
+- Execute **[[Turtle to Truck]]** → [[Truck]] (Probability: 60%)
 
 
 **Else if opponent postures up and attempts to extract their trapped leg:**
-- Execute **[[Electric Chair Submission]]** → [[Won by Submission]] (Probability: 55%)
+- Execute **[[Electric Chair Submission]]** → [[game-over]] (Probability: 55%)
 - Execute **[[Deep Half Entry]]** → [[Deep Half Guard]] (Probability: 65%)
 
 
 **Else if opponent posts their far arm to defend underhook:**
-- Execute **[[Transition to Omoplata]]** → [[Omoplata Control]] (Probability: 50%)
+- Execute **[[Dogfight Position]]** → [[Dogfight Position]] (Probability: 50%)
 - Execute **[[Lockdown Sweeps]]** → [[Side Control]] (Probability: 45%)
 
 
@@ -390,29 +332,39 @@ Start in electric chair bottom position with all grips established. Bottom pract
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Direct electric chair submission path
+## Test Your Knowledge
 
-`Electric Chair Bottom → Electric Chair Submission → Won by Submission`
+**Q1**: Your opponent starts driving their weight forward to flatten you - what adjustment do you make to maintain the Electric Chair?
+**A**: Use the underhook to pull yourself toward their far hip while simultaneously extending the lockdown to prevent them from settling their weight. Angle your hips further perpendicular to create more splitting pressure. If they commit too far forward, immediately transition to the Old School sweep using their momentum.
 
-### Truck transition to twister path
+**Q2**: What are the essential grips for maintaining Electric Chair Bottom?
+**A**: Three primary controls: 1) Lockdown leg configuration trapping opponent's near leg with heel on thigh and figure-four behind their calf, 2) Deep underhook reaching across opponent's back to their far lat or belt, 3) Far hand controlling opponent's near ankle, pulling it toward your hip. All three must work in coordination.
 
-`Electric Chair Bottom → Truck → Twister Control → Twister → Won by Submission`
+**Q3**: How do you shut down your opponent's primary lockdown escape attempt?
+**A**: When opponent tries to extract their leg by driving knee toward your hip, increase lockdown tension by pulling your heel down harder and extending your hips. Simultaneously pull with the underhook to prevent them from creating space. If they persist, immediately transition to Truck entry as their leg extraction motion exposes the crab ride hook position.
 
-### Deep half to leg lock path
+**Q4**: What is the correct grip sequence when establishing the Electric Chair from lockdown?
+**A**: First establish tight lockdown with proper heel and instep positioning. Second, secure deep underhook reaching to opponent's far lat before they can establish crossface. Third, once underhook is secure, release near hand to control opponent's ankle. Never sacrifice lockdown tension for grip changes.
 
-`Electric Chair Bottom → Deep Half Guard → Ashi Garami → Heel Hook → Won by Submission`
+**Q5**: How should you apply pressure to maximize both sweep and submission threat?
+**A**: Extend your lockdown while pulling opponent's ankle toward your hip, creating a splitting action through their groin and hip. Pull with underhook to stretch their upper body in opposite direction. This creates a dilemma: if they resist the stretch, they become light for the sweep; if they base to prevent sweep, they take more submission pressure.
 
-### Sweep to mount submission path
+**Q6**: Your opponent postures up to relieve the pressure - what do you do?
+**A**: Their posturing increases effectiveness of the Electric Chair submission. Immediately extend your hips powerfully while pulling the ankle to maximize the split. If they posture high enough, the submission becomes available. If they try to drop back down, use the momentum shift to hit the Old School sweep.
 
-`Electric Chair Bottom → Old School Sweep → Mount → Armbar from Mount → Won by Submission`
+**Q7**: How do you manage energy when maintaining Electric Chair against a defensive opponent?
+**A**: Apply consistent but not maximal pressure through lockdown and underhook. Use opponent's resistance against them by timing sweep attempts with their defensive movements. Rest between attacking cycles by maintaining position without full extension. Force opponent to carry your weight through the underhook.
+
+**Q8**: Your opponent partially escapes the lockdown but you still have the underhook - how do you recover or transition?
+**A**: If lockdown is compromised but underhook remains, immediately transition to Deep Half Guard by diving underneath opponent toward their far hip. Alternatively, if they've created space, use the underhook to sit up toward Dogfight position. Never try to re-engage a broken lockdown against a moving opponent - flow to the next available position.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -434,15 +386,15 @@ Start in electric chair bottom position with all grips established. Bottom pract
 ## Related Positions and Techniques
 
 - **[[Lockdown]]** - Parent position - electric chair is advanced attacking variation
-- **[[Electric Chair Top]]** - Opponent's perspective from same position
+- **[[Electric Chair]]** - Hub position for this perspective
 - **[[Truck]]** - Common transition target when opponent defends electric chair
 - **[[Deep Half Guard]]** - Alternative transition when electric chair is defended
 - **[[Old School]]** - Primary sweeping technique from this position
 - **[[Electric Chair Submission]]** - Primary submission threat from this position
-- **[[10th Planet Half Guard Bottom System]]** - Systematic framework containing this position
-- **[[Lockdown to Electric Chair System]]** - Systematic progression leading to this position
 - **[[Banana Split]]** - Alternative name for electric chair submission finish
 - **[[Vaporizer]]** - Related sweep from lockdown position
+- **[[Half Guard]]** - Base guard system
+- **[[Dogfight Position]]** - Transition option when underhook is strong
 
 
 </section>

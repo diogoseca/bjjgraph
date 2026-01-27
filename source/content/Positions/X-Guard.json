@@ -47,357 +47,6 @@
       "relationship": "Alternative guard sharing similar leg control concepts"
     }
   ],
-  "bottom": {
-    "name": "X-Guard Bottom",
-    "description": "Master X-Guard Bottom in BJJ. Comprehensive guide covering sweeps, entries, and retention. Powerful off-balancing position with 65% advanced sweep rate.",
-    "tags": [
-      "bjj position x-guard bottom",
-      "x-guard sweeps technique",
-      "open guard leg entanglement"
-    ],
-    "overview": "X-Guard Bottom is a powerful open guard position where the bottom practitioner controls the opponent using their legs in an 'X' configuration around one of the opponent's legs. The position is characterized by one leg hooking behind the opponent's knee while the other controls the hip or belt line, creating a crossing pattern that gives the position its name. This configuration provides exceptional off-balancing control and sweep opportunities. The X-Guard emerged as a revolutionary position in modern BJJ, popularized by Marcelo Garcia who demonstrated its effectiveness at the highest levels of competition. The position offers a systematic approach to dealing with standing opponents and is particularly effective against knee slice passes and other pressure-based attacks. Unlike traditional guards, X-Guard creates mechanical advantages through leg control rather than grips, making it highly effective in both gi and no-gi contexts. From a strategic standpoint, X-Guard Bottom serves as both a sweeping platform and a transitional hub to other leg entanglement positions. The position's power comes from controlling the opponent's base while simultaneously threatening multiple sweeping directions. Advanced practitioners use X-Guard as part of an integrated guard system, flowing seamlessly between Single Leg X, Reverse X-Guard, and Deep Half variations based on opponent reactions.",
-    "state_properties": {
-      "point_value": 0,
-      "position_type": "Offensive",
-      "risk_level": "Medium",
-      "energy_cost": "Low",
-      "time_sustainability": "Medium"
-    },
-    "state_invariants": [
-      "Bottom practitioner's inside leg hooks deeply behind opponent's near knee with foot positioned past the knee joint",
-      "Bottom practitioner's outside leg extends across opponent's hip or belt line creating distance control barrier",
-      "Opponent is standing or in combat base with one leg isolated and controlled by X-Guard configuration",
-      "Bottom practitioner's upper body is positioned perpendicular to opponent's trapped leg with hips elevated",
-      "Bottom practitioner maintains hand control on opponent's trapped leg ankle or controls the free leg"
-    ],
-    "prerequisites": [
-      "Opponent is standing or in combat base position",
-      "Bottom practitioner has isolated one of opponent's legs",
-      "Bottom practitioner's inside leg has access to hook behind opponent's knee",
-      "Bottom practitioner has sufficient space to configure legs in X-pattern",
-      "Opponent's weight is distributed such that trapped leg can be off-balanced"
-    ],
-    "key_principles": [
-      "Maintain deep knee hook with inside leg to control opponent's base and create off-balancing leverage",
-      "Keep outside leg active and extended across opponent's hip to control distance",
-      "Elevate hips off mat to create tension in X-configuration and maintain active control",
-      "Use upper body positioning perpendicular to opponent's trapped leg to maximize sweeping angles",
-      "Control opponent's ankle or pants with hands to prevent escape",
-      "Threaten multiple sweeping directions simultaneously to create defensive dilemmas",
-      "Transition seamlessly between X-Guard variations based on opponent reactions"
-    ],
-    "offensive_transitions": [
-      {
-        "technique": "X-Guard Sweep",
-        "target_position": "Mount",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 50,
-          "advanced": 65
-        }
-      },
-      {
-        "technique": "Single Leg X Entry",
-        "target_position": "Single Leg X-Guard",
-        "success_rates": {
-          "beginner": 45,
-          "intermediate": 60,
-          "advanced": 75
-        }
-      },
-      {
-        "technique": "X-Guard to Ashi Transition",
-        "target_position": "Ashi Garami",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 45,
-          "advanced": 60
-        }
-      },
-      {
-        "technique": "Standing to Single Leg X",
-        "target_position": "Single Leg X-Guard",
-        "success_rates": {
-          "beginner": 40,
-          "intermediate": 55,
-          "advanced": 70
-        }
-      },
-      {
-        "technique": "Technical Standup",
-        "target_position": "Standing Position",
-        "success_rates": {
-          "beginner": 50,
-          "intermediate": 65,
-          "advanced": 80
-        }
-      },
-      {
-        "technique": "Deep Half Entry",
-        "target_position": "Deep Half Guard",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 50,
-          "advanced": 65
-        }
-      },
-      {
-        "technique": "Butterfly Guard to X-Guard",
-        "target_position": "Butterfly Guard",
-        "success_rates": {
-          "beginner": 40,
-          "intermediate": 55,
-          "advanced": 70
-        }
-      }
-    ],
-    "defensive_responses": [
-      {
-        "technique": "Knee Slice Pass",
-        "target_position": "Side Control",
-        "success_rate": 25
-      },
-      {
-        "technique": "Leg Drag Pass",
-        "target_position": "Leg Drag Position",
-        "success_rate": 30
-      },
-      {
-        "technique": "Stack Pass",
-        "target_position": "Side Control",
-        "success_rate": 20
-      },
-      {
-        "technique": "Posture Recovery",
-        "target_position": "Combat Base",
-        "success_rate": 35
-      },
-      {
-        "technique": "Guard Pass",
-        "target_position": "Open Guard",
-        "success_rate": 40
-      }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Single Leg X Entry",
-        "target_position": "Single Leg X-Guard",
-        "trigger": "Opponent attempts to backstep or extract their trapped leg"
-      },
-      {
-        "technique": "Butterfly Guard to X-Guard",
-        "target_position": "Butterfly Guard",
-        "trigger": "Opponent sits back to break X-Guard configuration"
-      },
-      {
-        "technique": "X-Guard to Ashi Transition",
-        "target_position": "Ashi Garami",
-        "trigger": "Opponent attempts to step over the outside leg"
-      },
-      {
-        "technique": "Deep Half Entry",
-        "target_position": "Deep Half Guard",
-        "trigger": "Opponent drives knee forward through X-Guard"
-      }
-    ],
-    "decision_tree": [
-      {
-        "condition": "If opponent maintains strong upright posture with both feet planted and good base",
-        "actions": [
-          {
-            "technique": "X-Guard Sweep",
-            "target": "Mount",
-            "probability": 65
-          },
-          {
-            "technique": "Technical Standup",
-            "target": "Standing Position",
-            "probability": 55
-          }
-        ]
-      },
-      {
-        "condition": "If opponent attempts to backstep or circle away from the X-Guard configuration",
-        "actions": [
-          {
-            "technique": "Single Leg X Entry",
-            "target": "Single Leg X-Guard",
-            "probability": 70
-          },
-          {
-            "technique": "X-Guard to Ashi Transition",
-            "target": "Ashi Garami",
-            "probability": 60
-          }
-        ]
-      },
-      {
-        "condition": "If opponent sits back to break X-Guard or attempts to smash forward with knee pressure",
-        "actions": [
-          {
-            "technique": "Butterfly Guard to X-Guard",
-            "target": "Butterfly Guard",
-            "probability": 65
-          },
-          {
-            "technique": "Deep Half Entry",
-            "target": "Deep Half Guard",
-            "probability": 60
-          }
-        ]
-      },
-      {
-        "condition": "If opponent attempts to step over the outside leg while trapped leg remains controlled",
-        "actions": [
-          {
-            "technique": "X-Guard to Ashi Transition",
-            "target": "Ashi Garami",
-            "probability": 75
-          },
-          {
-            "technique": "Single Leg X Entry",
-            "target": "Single Leg X-Guard",
-            "probability": 65
-          }
-        ]
-      }
-    ],
-    "common_errors": [
-      {
-        "error": "Allowing hips to remain flat on the mat instead of elevating them",
-        "consequence": "Loss of tension in the X-Guard configuration, making sweeps ineffective and allowing opponent to establish pressure and pass",
-        "correction": "Actively bridge hips off the mat to create upward pressure through the inside leg hook and maintain tight X-configuration with constant tension"
-      },
-      {
-        "error": "Hooking too shallow behind opponent's knee with inside leg",
-        "consequence": "Opponent can easily extract their leg by stepping back, breaking the X-Guard and transitioning to a dominant passing position",
-        "correction": "Drive inside leg deep past opponent's knee joint until foot clears the back of the knee, creating a secure hook that prevents backward extraction"
-      },
-      {
-        "error": "Failing to control opponent's ankle or pants with hands",
-        "consequence": "Opponent can freely step over or reposition their legs, defeating the X-Guard's off-balancing mechanics and establishing dominant passing grips",
-        "correction": "Maintain consistent grip on opponent's trapped leg ankle or pants while using free hand to control their free leg or establish grips for sweeping mechanics"
-      },
-      {
-        "error": "Positioning upper body parallel to opponent's trapped leg instead of perpendicular",
-        "consequence": "Reduced sweeping angles and leverage, making it difficult to off-balance opponent and complete sweeps effectively",
-        "correction": "Align shoulders perpendicular to opponent's trapped leg with upper body forming a 'T' shape, maximizing sweeping leverage and creating multiple directional threats"
-      },
-      {
-        "error": "Keeping outside leg passive or bent instead of actively extended",
-        "consequence": "Opponent can drive forward pressure through the gap, smashing the X-Guard and advancing to passing positions like knee slice or leg drag",
-        "correction": "Maintain active extension with outside leg across opponent's hip, creating a rigid barrier that controls distance and prevents forward pressure"
-      },
-      {
-        "error": "Failing to transition when opponent begins to escape or counter the X-Guard",
-        "consequence": "Getting stuck in a defensive position as opponent establishes passing control, leading to guard pass and loss of the position",
-        "correction": "Proactively transition to Single Leg X, Ashi Garami, or Deep Half based on opponent's escape direction, maintaining control through positional flow"
-      }
-    ],
-    "training_drills": [
-      {
-        "name": "X-Guard Entry and Sweep Repetitions",
-        "description": "Partner stands in combat base while you practice entering X-Guard from seated guard or butterfly. Focus on deep knee hook, hip elevation, and completing sweeps to mount or top position. Perform 10 repetitions per side, emphasizing smooth entry mechanics and explosive sweep execution.",
-        "duration": "5 minutes per side"
-      },
-      {
-        "name": "X-Guard Retention Against Pressure",
-        "description": "Partner attempts to pass using knee slice, stack, or backstep escapes while you maintain X-Guard configuration and counter their attempts. Focus on transitioning between X-Guard variations to retain guard. Partner gradually increases resistance over 3-minute rounds.",
-        "duration": "3 rounds of 3 minutes"
-      },
-      {
-        "name": "X-Guard Positional Sparring",
-        "description": "Start in established X-Guard Bottom position. Your goal is to sweep or submit; opponent's goal is to pass guard. Reset to X-Guard after each successful action. This builds timing, decision-making, and transition skills under realistic pressure.",
-        "duration": "5 minute rounds, 3-5 rounds"
-      },
-      {
-        "name": "X-Guard to Leg Entanglement Flow Drill",
-        "description": "Practice flowing from X-Guard to Single Leg X to Ashi Garami and back based on partner's movements. Partner provides graduated resistance, moving in different directions to simulate escape attempts. Focus on maintaining leg control throughout transitions.",
-        "duration": "4 minutes continuous flow"
-      }
-    ],
-    "optimal_submission_paths": [
-      {
-        "name": "Shortest path to submission from X-Guard",
-        "path": "X-Guard Bottom → Ashi Garami → Straight Ankle Lock"
-      },
-      {
-        "name": "High-percentage sweep to submission path",
-        "path": "X-Guard Bottom → Mount → Armbar from Mount"
-      },
-      {
-        "name": "Leg entanglement specialist path",
-        "path": "X-Guard Bottom → Single Leg X-Guard → Kneebar from Guard"
-      },
-      {
-        "name": "Back attack path through sweep",
-        "path": "X-Guard Bottom → Mount → Back Control → Rear Naked Choke"
-      }
-    ],
-    "related_content": [
-      {
-        "name": "Single Leg X-Guard",
-        "relationship": "Primary variation - natural transition when opponent begins to extract leg"
-      },
-      {
-        "name": "Reverse X-Guard",
-        "relationship": "Alternative variation - entered when opponent's weight shifts differently"
-      },
-      {
-        "name": "Butterfly Guard",
-        "relationship": "Entry position - commonly used to set up X-Guard entries"
-      },
-      {
-        "name": "De La Riva Guard",
-        "relationship": "Related open guard - shares similar leg hooking mechanics"
-      },
-      {
-        "name": "Deep Half Guard",
-        "relationship": "Transition target - common fallback when X-Guard is pressured"
-      },
-      {
-        "name": "Ashi Garami",
-        "relationship": "Leg entanglement transition - natural progression for leg lock attacks"
-      },
-      {
-        "name": "Marcelo Garcia X-Guard System",
-        "relationship": "Complete system - comprehensive approach to X-Guard positions and transitions"
-      },
-      {
-        "name": "Sweep Mechanics",
-        "relationship": "Foundational concept - principles that make X-Guard sweeps effective"
-      },
-      {
-        "name": "Off-Balancing",
-        "relationship": "Core concept - mechanical principles behind X-Guard control"
-      },
-      {
-        "name": "Leg Entanglement",
-        "relationship": "Related concept - understanding leg control mechanics in guard systems"
-      }
-    ],
-    "position_metrics": {
-      "retention_rate": {
-        "beginner": 40,
-        "intermediate": 60,
-        "advanced": 75,
-        "description": "Ability to maintain X-Guard configuration against passing attempts before transitioning or being passed"
-      },
-      "advancement_probability": {
-        "beginner": 35,
-        "intermediate": 55,
-        "advanced": 70,
-        "description": "Likelihood of successfully sweeping or advancing position from X-Guard Bottom"
-      },
-      "submission_probability": {
-        "beginner": 15,
-        "intermediate": 30,
-        "advanced": 45,
-        "description": "Probability of finishing submission directly or through transition from X-Guard Bottom"
-      },
-      "average_time": "30-90 seconds"
-    }
-  },
   "top": {
     "name": "X-Guard Top",
     "description": "Master X-Guard Top in BJJ. Control opponent's inverted guard with strategic base, pressure passing, and leg attack entries. 60-75% pass success across levels.",
@@ -437,127 +86,38 @@
       "Recognize leg entanglement opportunities as opponent's legs are already engaged",
       "Maintain calm patience while systematically dismantling the guard"
     ],
-    "offensive_transitions": [
+    "transitions": [
       {
-        "technique": "Smash Pass",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 45,
-          "intermediate": 60,
-          "advanced": 75
-        }
+        "transition": "Smash Pass",
+        "attempt_probability": 18
       },
       {
-        "technique": "Knee Slice Pass",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 40,
-          "intermediate": 55,
-          "advanced": 70
-        }
+        "transition": "Knee Slice Pass",
+        "attempt_probability": 20
       },
       {
-        "technique": "Long Step Pass",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 50,
-          "advanced": 65
-        }
+        "transition": "Long Step Pass",
+        "attempt_probability": 12
       },
       {
-        "technique": "Saddle Entry from Top",
-        "target_position": "Honey Hole",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 40,
-          "advanced": 60
-        }
+        "transition": "Saddle Entry from Top",
+        "attempt_probability": 10
       },
       {
-        "technique": "Outside Ashi Entry",
-        "target_position": "Outside Ashi-Garami",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 45,
-          "advanced": 60
-        }
+        "transition": "Outside Ashi Entry",
+        "attempt_probability": 8
       },
       {
-        "technique": "Leg Weave Pass",
-        "target_position": "Headquarters Position",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 50,
-          "advanced": 65
-        }
+        "transition": "Leg Weave Pass",
+        "attempt_probability": 12
       },
       {
-        "technique": "Stack Pass",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 45,
-          "advanced": 60
-        }
+        "transition": "Back Step",
+        "attempt_probability": 8
       },
       {
-        "technique": "Back Step",
-        "target_position": "Back Control",
-        "success_rates": {
-          "beginner": 20,
-          "intermediate": 35,
-          "advanced": 50
-        }
-      }
-    ],
-    "defensive_responses": [
-      {
-        "technique": "X-Guard Sweep",
-        "target_position": "Mount",
-        "success_rate": 45
-      },
-      {
-        "technique": "Single Leg X Entry",
-        "target_position": "Single Leg X-Guard",
-        "success_rate": 40
-      },
-      {
-        "technique": "X-Guard to Ashi Transition",
-        "target_position": "Ashi Garami",
-        "success_rate": 35
-      },
-      {
-        "technique": "Technical Stand Up to Single Leg",
-        "target_position": "Standing Position",
-        "success_rate": 30
-      },
-      {
-        "technique": "Butterfly Guard to X-Guard",
-        "target_position": "Butterfly Guard",
-        "success_rate": 35
-      }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Saddle Entry from Top",
-        "target_position": "Honey Hole",
-        "trigger": "Opponent attempts to invert deeper or transition to Ashi Garami"
-      },
-      {
-        "technique": "Smash Pass",
-        "target_position": "Side Control",
-        "trigger": "Opponent's far leg hook releases or weakens during sweep attempt"
-      },
-      {
-        "technique": "Back Step",
-        "target_position": "Back Control",
-        "trigger": "Opponent commits heavily to one side during sweep attempt"
-      },
-      {
-        "technique": "Stack Pass",
-        "target_position": "Side Control",
-        "trigger": "Opponent attempts to recover guard or extend legs"
+        "transition": "Stack Pass",
+        "attempt_probability": 12
       }
     ],
     "decision_tree": [
@@ -678,20 +238,16 @@
     ],
     "optimal_submission_paths": [
       {
-        "name": "Leg entanglement finish path",
-        "path": "X-Guard Top → Saddle Entry from Top → Honey Hole → Heel Hook"
+        "name": "Pass to Submission Chain",
+        "path": "X-Guard Top → Knee Slice Pass → Side Control → Kimura"
       },
       {
-        "name": "Smash pass to submission path",
-        "path": "X-Guard Top → Smash Pass → Side Control → Kimura from Side Control"
+        "name": "Counter to Leg Attack",
+        "path": "X-Guard Top → Saddle Entry from Top → Honey Hole → Inside Heel Hook"
       },
       {
-        "name": "Back attack path",
+        "name": "Back Take Path",
         "path": "X-Guard Top → Back Step → Back Control → Rear Naked Choke"
-      },
-      {
-        "name": "Outside ashi finish path",
-        "path": "X-Guard Top → Outside Ashi Entry → Outside Ashi-Garami → Straight Ankle Lock"
       }
     ],
     "related_content": [
@@ -718,10 +274,6 @@
       {
         "name": "Outside Ashi-Garami",
         "relationship": "Counter-attack option - leg entanglement transition"
-      },
-      {
-        "name": "Lachlan Giles Leg Lock Defense Framework",
-        "relationship": "Relevant system - understanding leg attack prevention while passing"
       },
       {
         "name": "Back Control",
@@ -756,6 +308,265 @@
         "description": "Probability of finishing submission through leg attacks or after passing from X-Guard Top"
       },
       "average_time": "30-90 seconds depending on skill differential and grip fighting success"
+    }
+  },
+  "bottom": {
+    "name": "X-Guard Bottom",
+    "description": "Master X-Guard Bottom in BJJ. Comprehensive guide covering sweeps, entries, and retention. Powerful off-balancing position with 65% advanced sweep rate.",
+    "tags": [
+      "bjj position x-guard bottom",
+      "x-guard sweeps technique",
+      "open guard leg entanglement"
+    ],
+    "overview": "X-Guard Bottom is a powerful open guard position where the bottom practitioner controls the opponent using their legs in an 'X' configuration around one of the opponent's legs. The position is characterized by one leg hooking behind the opponent's knee while the other controls the hip or belt line, creating a crossing pattern that gives the position its name. This configuration provides exceptional off-balancing control and sweep opportunities. The X-Guard emerged as a revolutionary position in modern BJJ, popularized by Marcelo Garcia who demonstrated its effectiveness at the highest levels of competition. The position offers a systematic approach to dealing with standing opponents and is particularly effective against knee slice passes and other pressure-based attacks. Unlike traditional guards, X-Guard creates mechanical advantages through leg control rather than grips, making it highly effective in both gi and no-gi contexts. From a strategic standpoint, X-Guard Bottom serves as both a sweeping platform and a transitional hub to other leg entanglement positions. The position's power comes from controlling the opponent's base while simultaneously threatening multiple sweeping directions. Advanced practitioners use X-Guard as part of an integrated guard system, flowing seamlessly between Single Leg X, Reverse X-Guard, and Deep Half variations based on opponent reactions.",
+    "state_properties": {
+      "point_value": 0,
+      "position_type": "Offensive",
+      "risk_level": "Medium",
+      "energy_cost": "Low",
+      "time_sustainability": "Medium"
+    },
+    "state_invariants": [
+      "Bottom practitioner's inside leg hooks deeply behind opponent's near knee with foot positioned past the knee joint",
+      "Bottom practitioner's outside leg extends across opponent's hip or belt line creating distance control barrier",
+      "Opponent is standing or in combat base with one leg isolated and controlled by X-Guard configuration",
+      "Bottom practitioner's upper body is positioned perpendicular to opponent's trapped leg with hips elevated",
+      "Bottom practitioner maintains hand control on opponent's trapped leg ankle or controls the free leg"
+    ],
+    "prerequisites": [
+      "Opponent is standing or in combat base position",
+      "Bottom practitioner has isolated one of opponent's legs",
+      "Bottom practitioner's inside leg has access to hook behind opponent's knee",
+      "Bottom practitioner has sufficient space to configure legs in X-pattern",
+      "Opponent's weight is distributed such that trapped leg can be off-balanced"
+    ],
+    "key_principles": [
+      "Maintain deep knee hook with inside leg to control opponent's base and create off-balancing leverage",
+      "Keep outside leg active and extended across opponent's hip to control distance",
+      "Elevate hips off mat to create tension in X-configuration and maintain active control",
+      "Use upper body positioning perpendicular to opponent's trapped leg to maximize sweeping angles",
+      "Control opponent's ankle or pants with hands to prevent escape",
+      "Threaten multiple sweeping directions simultaneously to create defensive dilemmas",
+      "Transition seamlessly between X-Guard variations based on opponent reactions"
+    ],
+    "transitions": [
+      {
+        "transition": "X-Guard Sweep",
+        "attempt_probability": 25
+      },
+      {
+        "transition": "Single Leg X Entry",
+        "attempt_probability": 20
+      },
+      {
+        "transition": "X-Guard to Ashi Transition",
+        "attempt_probability": 15
+      },
+      {
+        "transition": "Technical Stand Up to Single Leg",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Deep Half Entry",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Butterfly Guard to X-Guard",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Overhead Sweep",
+        "attempt_probability": 7
+      },
+      {
+        "transition": "Kneebar from Guard",
+        "attempt_probability": 5
+      }
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent maintains strong upright posture with both feet planted and good base",
+        "actions": [
+          {
+            "technique": "X-Guard Sweep",
+            "target": "Mount",
+            "probability": 65
+          },
+          {
+            "technique": "Technical Stand Up to Single Leg",
+            "target": "Standing Position",
+            "probability": 55
+          }
+        ]
+      },
+      {
+        "condition": "If opponent attempts to backstep or circle away from the X-Guard configuration",
+        "actions": [
+          {
+            "technique": "Single Leg X Entry",
+            "target": "Single Leg X-Guard",
+            "probability": 70
+          },
+          {
+            "technique": "X-Guard to Ashi Transition",
+            "target": "Ashi Garami",
+            "probability": 60
+          }
+        ]
+      },
+      {
+        "condition": "If opponent sits back to break X-Guard or attempts to smash forward with knee pressure",
+        "actions": [
+          {
+            "technique": "Butterfly Guard to X-Guard",
+            "target": "Butterfly Guard",
+            "probability": 65
+          },
+          {
+            "technique": "Deep Half Entry",
+            "target": "Deep Half Guard",
+            "probability": 60
+          }
+        ]
+      },
+      {
+        "condition": "If opponent attempts to step over the outside leg while trapped leg remains controlled",
+        "actions": [
+          {
+            "technique": "X-Guard to Ashi Transition",
+            "target": "Ashi Garami",
+            "probability": 75
+          },
+          {
+            "technique": "Single Leg X Entry",
+            "target": "Single Leg X-Guard",
+            "probability": 65
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Allowing hips to remain flat on the mat instead of elevating them",
+        "consequence": "Loss of tension in the X-Guard configuration, making sweeps ineffective and allowing opponent to establish pressure and pass",
+        "correction": "Actively bridge hips off the mat to create upward pressure through the inside leg hook and maintain tight X-configuration with constant tension"
+      },
+      {
+        "error": "Hooking too shallow behind opponent's knee with inside leg",
+        "consequence": "Opponent can easily extract their leg by stepping back, breaking the X-Guard and transitioning to a dominant passing position",
+        "correction": "Drive inside leg deep past opponent's knee joint until foot clears the back of the knee, creating a secure hook that prevents backward extraction"
+      },
+      {
+        "error": "Failing to control opponent's ankle or pants with hands",
+        "consequence": "Opponent can freely step over or reposition their legs, defeating the X-Guard's off-balancing mechanics and establishing dominant passing grips",
+        "correction": "Maintain consistent grip on opponent's trapped leg ankle or pants while using free hand to control their free leg or establish grips for sweeping mechanics"
+      },
+      {
+        "error": "Positioning upper body parallel to opponent's trapped leg instead of perpendicular",
+        "consequence": "Reduced sweeping angles and leverage, making it difficult to off-balance opponent and complete sweeps effectively",
+        "correction": "Align shoulders perpendicular to opponent's trapped leg with upper body forming a 'T' shape, maximizing sweeping leverage and creating multiple directional threats"
+      },
+      {
+        "error": "Keeping outside leg passive or bent instead of actively extended",
+        "consequence": "Opponent can drive forward pressure through the gap, smashing the X-Guard and advancing to passing positions like knee slice or leg drag",
+        "correction": "Maintain active extension with outside leg across opponent's hip, creating a rigid barrier that controls distance and prevents forward pressure"
+      },
+      {
+        "error": "Failing to transition when opponent begins to escape or counter the X-Guard",
+        "consequence": "Getting stuck in a defensive position as opponent establishes passing control, leading to guard pass and loss of the position",
+        "correction": "Proactively transition to Single Leg X, Ashi Garami, or Deep Half based on opponent's escape direction, maintaining control through positional flow"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "X-Guard Entry and Sweep Repetitions",
+        "description": "Partner stands in combat base while you practice entering X-Guard from seated guard or butterfly. Focus on deep knee hook, hip elevation, and completing sweeps to mount or top position. Perform 10 repetitions per side, emphasizing smooth entry mechanics and explosive sweep execution.",
+        "duration": "5 minutes per side"
+      },
+      {
+        "name": "X-Guard Retention Against Pressure",
+        "description": "Partner attempts to pass using knee slice, stack, or backstep escapes while you maintain X-Guard configuration and counter their attempts. Focus on transitioning between X-Guard variations to retain guard. Partner gradually increases resistance over 3-minute rounds.",
+        "duration": "3 rounds of 3 minutes"
+      },
+      {
+        "name": "X-Guard Positional Sparring",
+        "description": "Start in established X-Guard Bottom position. Your goal is to sweep or submit; opponent's goal is to pass guard. Reset to X-Guard after each successful action. This builds timing, decision-making, and transition skills under realistic pressure.",
+        "duration": "5 minute rounds, 3-5 rounds"
+      },
+      {
+        "name": "X-Guard to Leg Entanglement Flow Drill",
+        "description": "Practice flowing from X-Guard to Single Leg X to Ashi Garami and back based on partner's movements. Partner provides graduated resistance, moving in different directions to simulate escape attempts. Focus on maintaining leg control throughout transitions.",
+        "duration": "4 minutes continuous flow"
+      }
+    ],
+    "optimal_submission_paths": [
+      {
+        "name": "Sweep to Mount Finish",
+        "path": "X-Guard Bottom → X-Guard Sweep → Mount → Armbar from Mount"
+      },
+      {
+        "name": "Leg Entanglement Chain",
+        "path": "X-Guard Bottom → X-Guard to Ashi Transition → Ashi Garami → Heel Hook"
+      },
+      {
+        "name": "Technical Stand to Takedown",
+        "path": "X-Guard Bottom → Technical Stand Up to Single Leg → Standing Position → Single Leg Takedown → Side Control"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Single Leg X-Guard",
+        "relationship": "Primary variation - natural transition when opponent begins to extract leg"
+      },
+      {
+        "name": "Reverse X-Guard",
+        "relationship": "Alternative variation - entered when opponent's weight shifts differently"
+      },
+      {
+        "name": "Butterfly Guard",
+        "relationship": "Entry position - commonly used to set up X-Guard entries"
+      },
+      {
+        "name": "De La Riva Guard",
+        "relationship": "Related open guard - shares similar leg hooking mechanics"
+      },
+      {
+        "name": "Deep Half Guard",
+        "relationship": "Transition target - common fallback when X-Guard is pressured"
+      },
+      {
+        "name": "Ashi Garami",
+        "relationship": "Leg entanglement transition - natural progression for leg lock attacks"
+      },
+      {
+        "name": "X-Guard Sweep",
+        "relationship": "Primary offensive technique - main sweeping option from this position"
+      },
+      {
+        "name": "Leg Entanglement",
+        "relationship": "Related concept - understanding leg control mechanics in guard systems"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "beginner": 40,
+        "intermediate": 60,
+        "advanced": 75,
+        "description": "Ability to maintain X-Guard configuration against passing attempts before transitioning or being passed"
+      },
+      "advancement_probability": {
+        "beginner": 35,
+        "intermediate": 55,
+        "advanced": 70,
+        "description": "Likelihood of successfully sweeping or advancing position from X-Guard Bottom"
+      },
+      "submission_probability": {
+        "beginner": 15,
+        "intermediate": 30,
+        "advanced": 45,
+        "description": "Probability of finishing submission directly or through transition from X-Guard Bottom"
+      },
+      "average_time": "30-90 seconds"
     }
   }
 }

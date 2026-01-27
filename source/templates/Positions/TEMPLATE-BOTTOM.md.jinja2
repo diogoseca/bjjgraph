@@ -18,11 +18,11 @@ description: "{{ bottom.description }}"
   "name": "How to Escape {{ bottom.name }}",
   "description": "Step-by-step guide to escaping and defending {{ bottom.name.replace(' Bottom', '').replace(' (Defense)', '') }} position in BJJ.",
   "step": [
-    {%- for transition in bottom.offensive_transitions[:6] %}
+    {%- for transition in bottom.transitions[:6] %}
     {
       "@type": "HowToStep",
-      "name": "Execute {{ transition.technique }}",
-      "text": "From this position, execute {{ transition.technique }} to transition to {{ transition.target_position }}. Success rate for advanced practitioners: {{ transition.success_rates.advanced }}%.",
+      "name": "Execute {{ transition.transition }}",
+      "text": "From this position, attempt {{ transition.transition }}. This technique is attempted in {{ transition.attempt_probability }}% of exchanges from this position.",
       "position": {{ loop.index }}
     }{{ "," if not loop.last else "" }}
     {%- endfor %}
@@ -100,7 +100,7 @@ description: "{{ bottom.description }}"
   🐛 BJJ Graph A/B Testing Debug Mode (Bottom Perspective)
 
   Content Type: positions
-  Section Count: 15
+  Section Count: 12
   Week Seed: {{ week_seed }}
   Visual Variant: {{ visual_elements }}
 
@@ -151,35 +151,9 @@ description: "{{ bottom.description }}"
 
 ## Available Escapes
 
-{% for transition in bottom.offensive_transitions -%}
-### [[{{ transition.technique }}]] → [[{{ transition.target_position }}]]
+{% for transition in bottom.transitions -%}
+### [[{{ transition.transition }}]] ({{ transition.attempt_probability }}% of attempts)
 
-**Success Rates:**
-- Beginner: {{ transition.success_rates.beginner }}%
-- Intermediate: {{ transition.success_rates.intermediate }}%
-- Advanced: {{ transition.success_rates.advanced }}%
-
-{% endfor %}
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-{% for response in bottom.defensive_responses -%}
-- **[[{{ response.technique }}]]** → [[{{ response.target_position }}]]{% if response.success_rate %} (Opponent Success: {{ response.success_rate }}%){% endif %}
-{% endfor %}
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-{% for counter in bottom.counter_transitions -%}
-- **[[{{ counter.technique }}]]** → [[{{ counter.target_position }}]]
-  - {{ counter.trigger }}
 {% endfor %}
 
 </section>
@@ -229,18 +203,19 @@ description: "{{ bottom.description }}"
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
+{% if bottom.knowledge_assessment %}
+<section id="knowledge-assessment" class="content-section">
 
-## Escape and Survival Paths
+## Test Your Knowledge
 
-{% for path in bottom.optimal_submission_paths -%}
-### {{ path.name }}
-
-`{{ path.path }}`
+{% for qa in bottom.knowledge_assessment -%}
+**Q{{ loop.index }}**: {{ qa.question }}
+**A**: {{ qa.answer }}
 
 {% endfor %}
 
 </section>
+{% endif %}
 
 <section id="position-metrics" class="content-section">
 

@@ -21,37 +21,37 @@ description: "Master overhook control from bottom positions. Guard-based whizzer
     {
       "@type": "HowToStep",
       "name": "Execute Arm Drag to Back",
-      "text": "From this position, execute Arm Drag to Back to transition to Back Control. Success rate for advanced practitioners: 66%.",
+      "text": "From this position, attempt Arm Drag to Back. This technique is attempted in 13% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Overhook Sweep",
-      "text": "From this position, execute Overhook Sweep to transition to Mount. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Overhook Sweep. This technique is attempted in 14% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Butterfly Sweep",
-      "text": "From this position, execute Butterfly Sweep to transition to Mount. Success rate for advanced practitioners: 68%.",
+      "text": "From this position, attempt Butterfly Sweep. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Setup",
-      "text": "From this position, execute Triangle Setup to transition to Triangle Control. Success rate for advanced practitioners: 62%.",
+      "text": "From this position, attempt Triangle Setup. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Omoplata",
-      "text": "From this position, execute Transition to Omoplata to transition to Omoplata Control. Success rate for advanced practitioners: 58%.",
+      "name": "Execute Closed Guard to Omoplata",
+      "text": "From this position, attempt Closed Guard to Omoplata. This technique is attempted in 11% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Guillotine Setup",
-      "text": "From this position, execute Guillotine Setup to transition to Guillotine Control. Success rate for advanced practitioners: 64%.",
+      "text": "From this position, attempt Guillotine Setup. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -215,91 +215,22 @@ Modern guard players have integrated overhook control into systematic approaches
 
 ## Available Escapes
 
-### [[Arm Drag to Back]] → [[Back Control]]
+### [[Arm Drag to Back]] (13% of attempts)
 
-**Success Rates:**
-- Beginner: 32%
-- Intermediate: 48%
-- Advanced: 66%
+### [[Overhook Sweep]] (14% of attempts)
 
-### [[Overhook Sweep]] → [[Mount]]
+### [[Butterfly Sweep]] (13% of attempts)
 
-**Success Rates:**
-- Beginner: 38%
-- Intermediate: 54%
-- Advanced: 70%
+### [[Triangle Setup]] (12% of attempts)
 
-### [[Butterfly Sweep]] → [[Mount]]
+### [[Closed Guard to Omoplata]] (11% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 52%
-- Advanced: 68%
+### [[Guillotine Setup]] (12% of attempts)
 
-### [[Triangle Setup]] → [[Triangle Control]]
+### [[Elevator Sweep]] (13% of attempts)
 
-**Success Rates:**
-- Beginner: 28%
-- Intermediate: 44%
-- Advanced: 62%
+### [[Old School Sweep]] (12% of attempts)
 
-### [[Transition to Omoplata]] → [[Omoplata Control]]
-
-**Success Rates:**
-- Beginner: 22%
-- Intermediate: 38%
-- Advanced: 58%
-
-### [[Guillotine Setup]] → [[Guillotine Control]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 46%
-- Advanced: 64%
-
-### [[Elevator Sweep]] → [[Mount]]
-
-**Success Rates:**
-- Beginner: 33%
-- Intermediate: 49%
-- Advanced: 67%
-
-### [[Old School Sweep]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 26%
-- Intermediate: 42%
-- Advanced: 60%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Underhook Pass]]** → [[Side Control]] (Opponent Success: 35%)
-- **[[Stack Pass]]** → [[Side Control]] (Opponent Success: 28%)
-- **[[Pull Arm Free and Reset]]** → [[Open Guard]] (Opponent Success: 42%)
-- **[[Switch to Opposite Side Pass]]** → [[Side Control]] (Opponent Success: 32%)
-- **[[Smash Pass Pressure]]** → [[Half Guard Pass]] (Opponent Success: 30%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Arm Drag]]** → [[Back Control]]
-  - Opponent attempts to pull their arm back through overhook control
-- **[[Triangle Setup]]** → [[Triangle Control]]
-  - Opponent postures upward to free their trapped arm
-- **[[Overhook Sweep]]** → [[Mount]]
-  - Opponent drives weight forward into overhook side
-- **[[Guillotine Setup]]** → [[Guillotine Control]]
-  - Opponent drops their head forward while attempting to pass
 
 
 </section>
@@ -320,7 +251,7 @@ Modern guard players have integrated overhook control into systematic approaches
 
 **If opponent drops their head forward attempting to pass:**
 - Execute **[[Guillotine Setup]]** → [[Guillotine Control]] (Probability: 64%)
-- Execute **[[Transition to Omoplata]]** → [[Omoplata Control]] (Probability: 58%)
+- Execute **[[Closed Guard to Omoplata]]** → [[Omoplata Control]] (Probability: 58%)
 
 
 **If opponent attempts to circle away from overhook side:**
@@ -401,29 +332,39 @@ Both partners start in half guard with one attempting underhook, other attemptin
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Triangle path from overhook
+## Test Your Knowledge
 
-`Overhook Control Bottom → Triangle Setup → Triangle Control → Triangle Choke`
+**Q1**: Your opponent begins driving forward with pressure into your overhook side - what sweep opportunity does this create?
+**A**: Forward driving pressure creates the ideal setup for the overhook sweep. As they drive in, their weight commits forward and their base becomes narrow. Use your outside leg to hook over their back while your inside foot pushes off their hip. Pull their trapped arm across your body while elevating with your legs. Their forward momentum combines with your sweeping motion to roll them directly into mount. Time the sweep with their pressure rather than fighting against it.
 
-### Back attack from arm drag
+**Q2**: What are the essential grips for maintaining overhook control while preserving guard mobility from bottom?
+**A**: The primary grip is the armpit seal over opponent's shoulder - this must remain tight regardless of other grip changes. Secondary grip options include: gripping high on their shoulder blade or neck for maximum leverage, figure-four grip with your hands clasped for control during transitions, or a grip on their belt or pants to prevent them from pulling away. Your opposite arm should control their head, sleeve, or collar rather than remaining passive.
 
-`Overhook Control Bottom → Arm Drag to Back → Back Control → Rear Naked Choke`
+**Q3**: You feel opponent beginning to pass to your overhook side despite your control - what adjustment saves the position?
+**A**: When being passed to overhook side, immediately use your hips to create angle away from the pass direction while maintaining the armpit seal. If the pass has progressed too far, release the overhook and use that arm to frame against their hip or shoulder while hip escaping to re-guard. The critical error is maintaining overhook when it prevents effective guard recovery - recognize when to release and transition to defensive frames rather than holding a grip that's become a liability.
 
-### Omoplata chain
+**Q4**: How do you shut down the primary escape when opponent attempts to limp-arm out of your overhook?
+**A**: Counter the limp-arm by immediately driving your overhook shoulder down while pulling your elbow tight to your ribs, eliminating any gap. As they attempt to slip out, follow their arm rotation with your body angle - don't let them create space between your armpit and their shoulder. If they're successfully creating space, transition immediately to an arm drag using their pulling motion against them. The limp-arm escape requires them to move their shoulder away - pursue that shoulder rather than holding static position.
 
-`Overhook Control Bottom → Transition to Omoplata → Omoplata Control → Omoplata`
+**Q5**: What pressure application from bottom overhook prevents opponent from establishing dominant passing grips?
+**A**: Constant upward and outward pressure on their trapped arm prevents grip establishment. By keeping their arm elevated above their power line, they cannot use it to crossface, underhook, or post effectively. Combine this with your opposite arm controlling their head or collar to deny their other hand's effectiveness. The pressure should make them feel one-armed - they have bilateral capability but you've removed one arm's function through the overhook elevation and structure-breaking pressure.
 
-### Guillotine from bottom
+**Q6**: Your opponent postures back strongly attempting to pull their arm free - what immediate attack does this create?
+**A**: Backward posturing creates arm drag and back take opportunities. As they pull back, follow their movement by sitting up with them while maintaining overhook control. Use their pulling energy to transition to a two-on-one grip on their trapped arm and drag it across your body while you circle behind. Alternatively, their upward posture exposes their neck for triangle entries - shoot your overhook-side leg over their shoulder as they posture. Their pulling motion opens attack paths rather than closing them.
 
-`Overhook Control Bottom → Guillotine Setup → Guillotine Control → Guillotine Choke`
+**Q7**: How do you manage energy when maintaining bottom overhook against a patient passer who isn't providing reactions?
+**A**: Against a patient opponent, you must create the reactions rather than waiting for them. Use your legs to bump, off-balance, or threaten sweeps that force them to adjust. The overhook provides control but requires active engagement - never settle into static holding. If opponent refuses to engage, use the overhook as a base to sit up, threatening technical stand-up or arm drags. Bottom overhook energy cost increases when you wait passively - decrease it by constantly threatening attacks that make opponent react.
+
+**Q8**: After a partial sweep attempt fails, how do you recover full overhook control without losing guard position?
+**A**: After failed sweep, immediately re-center your hips while maintaining the armpit seal - don't let the failed sweep open space in your overhook. Use your legs to block opponent's passing attempts while you recompose hip position. Re-establish your secondary grip (head control, collar, sleeve) before attempting another attack. The critical element is keeping the armpit sealed during recovery - if that connection breaks during your recomposition, opponent will escape or pass. Move your hips and legs while keeping your upper body connection intact.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -451,6 +392,7 @@ Both partners start in half guard with one attempting underhook, other attemptin
 - **[[Triangle Control]]** - Submission control accessed when opponent postures against overhook
 - **[[Omoplata Control]]** - Alternative submission control from bottom overhook when opponent drives forward
 - **[[Guillotine Control]]** - Front headlock submission available when opponent drops head into overhook
+- **[[Overhook Guard]]** - Dedicated guard system built around the overhook grip as primary control
 
 
 </section>

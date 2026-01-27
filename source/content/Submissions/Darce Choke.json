@@ -145,7 +145,7 @@
     {
       "defense": "Pull trapped arm out",
       "effectiveness": "Medium",
-      "your_adjustment": "Increase shoulder pressure on their neck to make the space smaller. Keep your choking elbow tight to your ribs to prevent them from creating space. If they start freeing the arm, switch to a marce choke (using their collar) or anaconda variation."
+      "your_adjustment": "Increase shoulder pressure on their neck to make the space smaller. Keep your choking elbow tight to your ribs to prevent them from creating space. If they start freeing the arm, switch to anaconda choke variation by adjusting grip position."
     },
     {
       "defense": "Stand up or posture up",
@@ -264,6 +264,31 @@
       "question": "What is the relationship between the darce choke and the anaconda choke, and when might you transition between them?",
       "answer": "The darce and anaconda are closely related front headlock chokes with similar mechanics but opposite arm positioning. When an opponent defends the darce by turning into you (facing you), you can maintain your grip but adjust shoulder and elbow position to switch to an anaconda configuration. This transition allows you to maintain submission pressure despite their defensive movement rather than losing the position entirely.",
       "safety_critical": false
+    },
+    {
+      "question": "What anatomical structures does the darce choke attack, and what happens physiologically when properly applied?",
+      "answer": "The darce choke primarily attacks the carotid arteries on both sides of the neck, which supply oxygenated blood to the brain. When both carotid arteries are compressed through bilateral pressure from the shoulder and forearm blade, blood flow to the brain is severely restricted. This causes rapid loss of consciousness—typically within 3-6 seconds at full pressure—due to oxygen deprivation to the brain. Secondary compression of the jugular veins prevents venous return, accelerating the effect.",
+      "safety_critical": true
+    },
+    {
+      "question": "Your opponent begins to posture up during your darce attempt—what grip adjustment prevents the escape and completes the finish?",
+      "answer": "When opponent postures, immediately increase chest pressure on their shoulders while driving your shoulder harder into the near-side of their neck. Pull your figure-four grip tighter by contracting your locking arm while keeping your choking elbow anchored to your ribs. If they continue posturing, step your inside leg over their back to add downward leverage or transition to a standing darce where you use your body weight dropping through the choke to finish. Never chase with loose grips—tighten everything before they can fully posture.",
+      "safety_critical": false
+    },
+    {
+      "question": "What are the key indicators that tell you the darce choke is properly positioned for a finish versus improperly positioned?",
+      "answer": "A properly positioned darce shows these indicators: your bicep is past the centerline of opponent's neck on the far side, your forearm blade is tight against the back/side of their neck, your shoulder is driving into the near-side carotid, there is zero space between your arms and their neck, and your elbow is pinned to your ribs. Improper positioning shows: bicep not deep enough across the neck, space between arms and neck allowing head movement, elbow floating away from ribs, or shoulder not engaged in compression. If improperly positioned, the opponent can turn their chin into the space, extend their neck to relieve pressure, or pull their head out entirely.",
+      "safety_critical": false
+    },
+    {
+      "question": "In competition, your darce is locked but opponent is defending by grabbing your elbow—how do you finish?",
+      "answer": "When opponent grabs your choking elbow, this defense is typically too late to be effective. Maintain your figure-four lock and focus on increasing bilateral compression rather than fighting their grip. Drive your shoulder harder into the near-side carotid while pulling your locking arm to tighten the forearm blade on the far side. Their elbow grip doesn't address the actual choking mechanism—both carotid arteries. Keep your elbow anchored to your ribs despite their grip and continue progressive pressure. If they persist, you can adjust body angle to increase leverage while maintaining the locked position.",
+      "safety_critical": false
+    },
+    {
+      "question": "What signs indicate your training partner may be losing consciousness during a darce choke, and what is the immediate response protocol?",
+      "answer": "CRITICAL SAFETY: Signs of impending unconsciousness include sudden body limpness or relaxation, cessation of defensive movements, skin color changes (flushing or pallor), gurgling sounds, or eyes rolling back. If you observe ANY of these signs, IMMEDIATELY release the choke by unclasping hands, removing shoulder pressure, and slowly extracting your arm. Place partner on their back, ensure airway is clear, and elevate their legs slightly. Monitor breathing and responsiveness. If they don't regain consciousness within 10-15 seconds, call for medical assistance. Never apply pressure beyond a clear tap or these warning signs.",
+      "safety_critical": true
     }
   ],
   "training_progressions_and_safety_protocols": [
@@ -316,26 +341,21 @@
     "Side Control",
     "North-South",
     "Half Guard",
-    "Scramble Position",
-    "Standing Rear Clinch",
-    "Combat Base"
+    "Scramble Position"
   ],
   "related_submissions": [
     "Anaconda Choke",
     "Guillotine Choke",
     "Arm Triangle",
-    "Japanese Necktie",
-    "Peruvian Necktie",
     "Brabo Choke",
-    "Marce Choke",
-    "North-South Choke",
-    "Rear Naked Choke",
-    "High Elbow Guillotine",
-    "Arm in Guillotine"
+    "Arm in Guillotine",
+    "Ezekiel Choke",
+    "Darce Variations",
+    "Anaconda Variations"
   ],
   "related_content": [
     {
-      "name": "Front Headlock Series",
+      "name": "Front Headlock",
       "relationship": "Primary position for darce entries—mastering front headlock control essential for high-percentage darce setups"
     },
     {
@@ -345,10 +365,6 @@
     {
       "name": "Darce from Turtle",
       "relationship": "Specific transition for most common darce entry point when opponent defensive turtles"
-    },
-    {
-      "name": "Front Headlock to Darce",
-      "relationship": "Detailed transition pathway from front headlock control to darce finish"
     },
     {
       "name": "D'arce-Anaconda Connection",
@@ -365,6 +381,10 @@
     {
       "name": "Anaconda Control",
       "relationship": "Related control position—understanding anaconda mechanics improves darce understanding and vice versa"
+    },
+    {
+      "name": "Turtle",
+      "relationship": "Common attacking position where darce opportunities frequently arise from opponent's defensive posture"
     }
   ]
 }

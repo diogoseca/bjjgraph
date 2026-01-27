@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Rolling to Guard | BJJ Technique | BJJ Graph"
 description: "Master Rolling to Guard in BJJ. Dynamic defensive recovery from bottom positions to guard using rotational mechanics. Success rates: Beginner 55%, Intermediate 75%, Advanced 90%."
@@ -16,7 +17,7 @@ description: "Master Rolling to Guard in BJJ. Dynamic defensive recovery from bo
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Rolling to Guard in BJJ",
-  "description": "Step-by-step guide for Rolling to Guard from Defensive Position to Closed Guard.",
+  "description": "Step-by-step guide for Rolling to Guard from Defensive Position/Top. Possible outcomes: Closed Guard/Bottom (75%), Defensive Position/Top (15%), Defensive Position/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -160,11 +161,25 @@ description: "Master Rolling to Guard in BJJ. Dynamic defensive recovery from bo
 
 Rolling to Guard is a fundamental defensive recovery technique that allows a practitioner to transition from an inferior bottom position back to a guard position using dynamic movement and hip rotation. This technique is essential for escaping bad positions, recovering guard after a scramble, or regaining a defensive frame when an opponent attempts to establish control. The rolling motion creates space, disrupts opponent positioning, and allows the practitioner to reestablish their legs as a barrier between themselves and their opponent. This movement is particularly effective when combined with proper framing and timing, as it converts defensive desperation into offensive opportunity. The technique requires coordination, body awareness, and understanding of when to commit to the roll versus when to use alternative escapes. Mastery of rolling to guard is a hallmark of effective guard retention and defensive grappling.
 
-**Starting Position**: [[Defensive Position]]
-**Ending Position**: [[Closed Guard]]
+**From Position**: [[Defensive Position/Top]]
 **Success Rates**: Beginner 55%, Intermediate 75%, Advanced 90%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Closed Guard/Bottom]] | 75% |
+| Failure | [[Defensive Position/Top]] | 15% |
+| Counter | [[Defensive Position/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

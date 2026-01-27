@@ -95,26 +95,18 @@ Strategically, Reverse Kesa-Gatame serves as an excellent transitional position 
 - Systematically work to recover guard position rather than attempting to immediately stand or scramble
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Elbow Escape]]** → [[Half Guard]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Elbow Escape]]** (25% of attempts)
 
-- **[[Hip Escape]]** → [[Open Guard]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Hip Escape]]** (22% of attempts)
 
-- **[[Bridge and Roll]]** → [[Kesa Gatame]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Bridge and Roll]]** (18% of attempts)
 
-- **[[Frame and Shrimp]]** → [[Closed Guard]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Frame and Shrimp]]** (20% of attempts)
 
-- **[[Technical Standup]]** → [[Standing Position]]
-  - Success Rate: Beginner 15%, Intermediate 25%, Advanced 40%
-
-- **[[Shrimp Escape]]** → [[Turtle]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Technical Standup]]** (15% of attempts)
 
 
 ### Common Mistakes
@@ -172,32 +164,20 @@ Strategically, Reverse Kesa-Gatame serves as an excellent transitional position 
 - Reverse position naturally blocks common side control escape pathways including elbow escape and guard recovery
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Transition to Mount]]** → [[Mount]]
-  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+- **[[Side Control to Mount]]** (22% of attempts)
 
-- **[[Transition to North-South]]** → [[North-South]]
-  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 80%
+- **[[Side Control to North-South]]** (18% of attempts)
 
-- **[[Kimura from Side Control]]** → [[Kimura Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Kimura from Side Control]]** (18% of attempts)
 
-- **[[Americana from Side Control]]** → [[Americana Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Americana from Side Control]]** (15% of attempts)
 
-- **[[Arm Triangle]]** → [[Side Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Arm Triangle]]** (12% of attempts)
 
-- **[[Transition to North-South]]** → [[Crucifix]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
-
-- **[[Back Take Generic]]** → [[Back Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
-
-- **[[Transition to Mount]]** → [[Knee on Belly]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Back Take Generic]]** (15% of attempts)
 
 
 ### Common Mistakes
@@ -250,9 +230,7 @@ Strategically, Reverse Kesa-Gatame serves as an excellent transitional position 
 
 - **[[Mount]]** - Primary advancement position when opponent creates space with hip movement
 
-- **[[Kimura Control]]** - Primary submission control from reverse kesa when far arm is isolated
-
-- **[[Americana Control]]** - Alternative shoulder lock control when arm is pinned perpendicular
+- **[[Kimura Trap]]** - Primary submission control from reverse kesa when far arm is isolated
 
 - **[[Half Guard]]** - Common escape destination for bottom player via elbow escape
 

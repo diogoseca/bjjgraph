@@ -93,26 +93,18 @@ This position appears across all levels of competition and training, making prof
 - Stay calm and methodical - panic leads to muscling out which depletes energy and increases injury risk
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Hip Escape]]** → [[Closed Guard]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Hip Escape]]** (25% of attempts)
 
-- **[[Stack Defense]]** → [[Standing Position]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Stack Defense]]** (20% of attempts)
 
-- **[[Arm Extraction]]** → [[Closed Guard]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Arm Extraction]]** (18% of attempts)
 
-- **[[Rolling Escape]]** → [[Turtle]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Hitchhiker Escape]]** (20% of attempts)
 
-- **[[Hitchhiker Escape]]** → [[Half Guard]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
-
-- **[[Bridge and Roll]]** → [[Mount]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Bridge and Roll]]** (17% of attempts)
 
 
 ### Common Mistakes
@@ -170,26 +162,20 @@ This position appears across all levels of competition and training, making prof
 - Stay perpendicular to the opponent's body throughout the sequence, avoiding the common error of turning parallel which reduces leverage and opens escape opportunities
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Armbar Finish]]** → [[Won by Submission]]
-  - Success Rate: Beginner 40%, Intermediate 60%, Advanced 75%
+- **[[Armbar Finish]]** (35% of attempts)
 
-- **[[Triangle Setup]]** → [[Triangle Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Triangle Setup]]** (20% of attempts)
 
-- **[[Transition to Omoplata]]** → [[Omoplata Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Closed Guard to Omoplata]]** (15% of attempts)
 
-- **[[Triangle to Armbar]]** → [[Triangle Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Triangle to Armbar]]** (12% of attempts)
 
-- **[[Mount to Armbar]]** → [[Mount]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Mount to Armbar]]** (10% of attempts)
 
-- **[[Kimura from Guard]]** → [[Kimura Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Kimura from Guard]]** (8% of attempts)
 
 
 ### Common Mistakes

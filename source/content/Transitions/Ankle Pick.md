@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Ankle Pick | BJJ Technique | BJJ Graph"
 description: "Learn the Ankle Pick takedown in BJJ. Step-by-step execution from standing position to top control. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%."
@@ -16,7 +17,7 @@ description: "Learn the Ankle Pick takedown in BJJ. Step-by-step execution from 
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Ankle Pick in BJJ",
-  "description": "Step-by-step guide for Ankle Pick from Standing Position to Side Control.",
+  "description": "Step-by-step guide for Ankle Pick from Standing Position. Possible outcomes: Side Control (65%), Standing Position (25%), Closed Guard (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -164,11 +165,25 @@ The effectiveness of the Ankle Pick lies in its ability to create a sudden level
 
 In the modern BJJ meta-game, the Ankle Pick serves as both a primary offensive takedown and an excellent setup for other attacks. When opponents defend the ankle grip, they often create opportunities for arm drags, snap downs, or transitions to the clinch. The ankle pick also integrates seamlessly with guard pulling strategies, as the same forward motion can be converted into a seated guard entry if the takedown is defended. This versatility makes it an essential tool for competitors who need reliable standing techniques that complement their ground game.
 
-**Starting Position**: [[Standing Position]]
-**Ending Position**: [[Side Control]]
+**From Position**: [[Standing Position]]
 **Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Side Control]] | 65% |
+| Failure | [[Standing Position]] | 25% |
+| Counter | [[Closed Guard]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 
@@ -321,6 +336,24 @@ Develop ankle pick as part of complete standing game. Work on subtle setups and 
 
 **Q6**: Why is maintaining the collar tie throughout the level change considered essential for ankle pick success?
 **A**: The collar tie serves multiple critical functions: it prevents the opponent from backing away as you drop your level (maintaining the distance needed for ankle access), it provides the upper body control point for the backward drive force that completes the takedown, it helps mask your level change intention through maintained upper body contact, and it prevents the opponent from achieving dominant head control or guillotine position during your attack. Without maintained collar tie, the opponent can simply step backward and your ankle grip becomes ineffective.
+
+**Q7**: Your opponent posts their hand on your head as you begin your level change. How do you adjust your attack?
+**A**: When an opponent posts their hand on your head, they create a defensive frame but also extend their arm and compromise their posture. Use this as an opportunity to immediately transition to an arm drag or two-on-one control on their posting arm. Their extended arm creates vulnerability—secure wrist control and pull their arm across their body to off-balance them. This often creates a better angle for a follow-up ankle pick or exposes their back for a back take. The key is recognizing the post immediately and attacking the exposed arm rather than fighting through it.
+
+**Q8**: What specific direction of force should your head apply during the finish of the ankle pick?
+**A**: Your head should apply pressure in a diagonal direction—driving forward and slightly upward into the outside of opponent's hip or thigh. This head pressure serves as a third control point that works in concert with the ankle pull and collar tie drive. The angle of head pressure is critical: too much upward pressure lifts you up and reduces drive power, while purely forward pressure doesn't create the rotational moment. The diagonal pressure vector multiplies the effectiveness of your opposing forces and prevents opponent from stepping over your head to recover balance.
+
+**Q9**: What grip requirements must be established before you can safely attempt the ankle pick level change?
+**A**: Before attempting the level change, you must have: a secure collar tie with your lead hand maintaining constant pressure on the back of opponent's neck, wrist or sleeve control with your other hand to prevent them from achieving their own head control, and your collar tie elbow must be tight and connected to prevent them from breaking your grip. Without these grip prerequisites, you risk shooting into a guillotine choke, having your head controlled during the level change, or having the opponent simply step away before you can reach their ankle.
+
+**Q10**: When the ankle pick is blocked, what are the highest-percentage chain attacks to pursue?
+**A**: When the ankle pick is blocked, the three highest-percentage chain attacks depend on opponent's defensive reaction. If they sprawl backward, immediately transition to a snap down since their weight shifts forward during sprawl recovery. If they lift their ankle and hop, follow aggressively with a double leg entry since their base is compromised on one leg. If they circle away, use your collar tie to pull them into an arm drag toward their retreating side. The common thread is maintaining forward pressure and immediately capitalizing on their defensive movement rather than resetting to neutral.
+
+**Q11**: What is the optimal timing window for initiating the ankle pick during a standing exchange?
+**A**: The optimal timing window occurs during three specific moments: immediately after opponent completes a forward step and their lead foot plants (weight committed before they can react), when they are pushing forward into your collar tie pressure (their momentum assists your attack), or when they are focused on defending a different threat like a snap down attempt (cognitive load prevents anticipating the ankle pick). The worst timing is when opponent is actively moving laterally, when they are backing away, or when they have achieved dominant head position over you.
+
+**Q12**: How does the entry angle for the outside ankle pick variation differ from the standard inside ankle pick?
+**A**: The outside ankle pick attacks from the opposite angle—instead of circling to create angle toward opponent's lead leg centerline, you circle to the outside of their lead leg. Your head pressure goes to the far outside of their hip rather than the near side, and you pull their ankle across their body toward your opposite hip. This variation requires longer reach and more aggressive circling to establish position. The outside entry is particularly effective when opponent defends the inside angle by turning their hips away, as it attacks the opening they create in their stance.
 
 
 

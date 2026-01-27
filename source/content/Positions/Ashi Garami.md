@@ -4,7 +4,7 @@
 
 ---
 title: "Ashi Garami | BJJ Position Guide | BJJ Graph"
-description: "Master Ashi Garami leg entanglements with control mechanics, hierarchical advancement, submission entries, defensive escapes, and bilateral awareness."
+description: "Master Ashi Garami leg entanglements with systematic control mechanics, hierarchical advancement strategies, submission entries, and bilateral awareness."
 ---
 
 
@@ -83,37 +83,25 @@ Understanding Ashi Garami requires recognizing the position as a complete system
 
 - **Heel Protection**: Understand heel exposure mechanics and maintain defensive leg positioning to protect your own finish while attacking opponent
 
-- **Connection Maintenance**: Maintain critical connection points (inside leg control, hip pressure, upper body grips) that prevent opponent position improvement
+- **Connection Maintenance**: Maintain critical connection points (inside leg hook, hip pressure, upper body grips) that prevent opponent position improvement
 
 - **Bilateral Awareness**: Recognize reciprocal nature of leg entanglements where both practitioners can attack; prioritize superior position before submission attempts
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Inside Ashi Entry]]** → [[Inside Ashi-Garami]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 70%
+- **[[Inside Ashi Entry]]** (25% of attempts)
 
-- **[[Outside Ashi Entry]]** → [[Outside Ashi-Garami]]
-  - Success Rate: Beginner 40%, Intermediate 60%, Advanced 75%
+- **[[Saddle Entry from Top]]** (15% of attempts)
 
-- **[[Saddle Entry from Top]]** → [[Saddle]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 55%
+- **[[50-50 Entry from Standing]]** (15% of attempts)
 
-- **[[50-50 Entry from Standing]]** → [[50-50 Guard]]
-  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 70%
+- **[[Heel Hook]]** (20% of attempts)
 
-- **[[X-Guard to Ashi Transition]]** → [[Inside Ashi-Garami]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 65%
+- **[[Straight Ankle Lock]]** (15% of attempts)
 
-- **[[De La Riva to X-Guard Transition]]** → [[Single Leg X-Guard]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 70%
-
-- **[[Heel Hook]]** → [[Won by Submission]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 50%
-
-- **[[Straight Ankle Lock]]** → [[Won by Submission]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 55%
+- **[[X-Guard to Ashi Transition]]** (10% of attempts)
 
 
 ### Common Mistakes
@@ -163,29 +151,20 @@ Understanding Ashi Garami requires recognizing the position as a complete system
 - **Counter-Attack Recognition**: Identify offensive opportunities when opponent overcommits to advancement or submission attempts
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Ashi Garami Escape]]** → [[Standing Position]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 65%
+- **[[Ashi Garami Escape]]** (30% of attempts)
 
-- **[[Counter Ashi Entry]]** → [[Outside Ashi-Garami]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 55%
+- **[[Counter Ashi Entry]]** (20% of attempts)
 
-- **[[Guard Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 50%
+- **[[Guard Pass]]** (20% of attempts)
 
-- **[[Front Headlock Series]]** → [[Front Headlock]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 55%
+- **[[Front Headlock Series]]** (10% of attempts)
 
-- **[[Guillotine Setup]]** → [[Guillotine Control]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+- **[[Guillotine Setup]]** (8% of attempts)
 
-- **[[Saddle Defense]]** → [[Outside Ashi-Garami]]
-  - Success Rate: Beginner 20%, Intermediate 40%, Advanced 60%
-
-- **[[Straight Ankle Lock]]** → [[Won by Submission]]
-  - Success Rate: Beginner 10%, Intermediate 20%, Advanced 35%
+- **[[Straight Ankle Lock]]** (12% of attempts)
 
 
 ### Common Mistakes

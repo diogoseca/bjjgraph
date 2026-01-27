@@ -47,14 +47,288 @@
       "relationship": "Guard recovery target for bottom player's escape sequences"
     },
     {
-      "name": "Americana Control",
-      "relationship": "Primary submission position available from top perspective"
-    },
-    {
-      "name": "Kimura Control",
+      "name": "Kimura Trap",
       "relationship": "Alternative arm lock control when opponent defends americana"
     }
   ],
+  "top": {
+    "overview": "Kesa Gatame Top, also known as scarf hold, is a traditional judo pinning position that has been adapted for Brazilian Jiu-Jitsu. The top practitioner sits perpendicular to their supine opponent, controlling the head and near arm while using their bodyweight to pin the opponent's torso. This position creates immense pressure and restricts the opponent's breathing and movement, making it highly effective for maintaining control and setting up submissions.\n\nWhile less commonly emphasized in modern sport BJJ compared to traditional side control, Kesa Gatame offers unique advantages including superior weight distribution, excellent control of the opponent's upper body, and powerful submission opportunities. The position is particularly effective in no-gi and MMA contexts where the crossface and shoulder pressure can be devastating. Understanding Kesa Gatame enhances a practitioner's overall top game by providing an alternative pinning structure with distinct mechanical advantages.\n\nThe position requires careful attention to weight distribution and hip positioning to prevent common escapes. When executed properly, Kesa Gatame can be one of the most oppressive positions in grappling, creating a sense of helplessness in the bottom player while offering the top player numerous attacking options.",
+    "state_properties": {
+      "point_value": 3,
+      "position_type": "Offensive/Controlling",
+      "risk_level": "Medium",
+      "energy_cost": "Medium",
+      "time_sustainability": "Medium to Long"
+    },
+    "state_invariants": [
+      "Top player sits perpendicular to opponent's body with hips low and weight distributed through the torso, creating downward pressure on opponent's chest and diaphragm",
+      "Near arm of opponent is trapped and controlled under top player's armpit, with top player's arm wrapped around opponent's head creating a tight scarf-like grip",
+      "Top player's far leg is posted wide for base while near leg hooks or controls opponent's far hip to prevent rotation and escape attempts",
+      "Opponent lies supine on their back with shoulders flat to the mat, head controlled and turned toward top player, with limited ability to create frames or generate hip movement",
+      "Top player's chest and shoulder apply constant pressure to opponent's face and chest, restricting breathing and creating discomfort that compounds over time"
+    ],
+    "prerequisites": [
+      "Successful transition from side control, mount, or passing sequence",
+      "Opponent flat on their back with upper body accessible for control",
+      "Ability to secure head control and near arm trap",
+      "Understanding of weight distribution through hips and torso rather than hands",
+      "Sufficient base and balance to maintain perpendicular angle while under pressure"
+    ],
+    "key_principles": [
+      "Maintain perpendicular body angle to opponent with hips low and heavy",
+      "Control opponent's head and near arm as primary control points",
+      "Distribute weight through chest and hips onto opponent's torso and face",
+      "Keep far leg posted wide for base while near leg controls opponent's far hip",
+      "Apply constant shoulder pressure to opponent's face to restrict breathing and movement",
+      "Sink hips low to prevent opponent from creating space underneath",
+      "Anticipate and counter hip escape attempts by adjusting weight distribution"
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent attempts to turn into you and recover guard",
+        "actions": [
+          {
+            "technique": "Side Control to Mount",
+            "target": "Mount",
+            "probability": 70
+          },
+          {
+            "technique": "Kimura from Side Control",
+            "target": "Kimura Trap",
+            "probability": 60
+          }
+        ]
+      },
+      {
+        "condition": "If opponent creates space and attempts to shrimp away toward their feet",
+        "actions": [
+          {
+            "technique": "Side Control to North-South",
+            "target": "North-South",
+            "probability": 75
+          },
+          {
+            "technique": "North-South Choke",
+            "target": "North-South",
+            "probability": 50
+          }
+        ]
+      },
+      {
+        "condition": "If opponent extends trapped arm attempting to push or frame",
+        "actions": [
+          {
+            "technique": "Americana from Side Control",
+            "target": "Armbar Control",
+            "probability": 65
+          },
+          {
+            "technique": "Armbar from Side Control",
+            "target": "Armbar Control",
+            "probability": 55
+          }
+        ]
+      },
+      {
+        "condition": "If opponent remains flat and defensive without creating movement",
+        "actions": [
+          {
+            "technique": "Arm Triangle",
+            "target": "game-over",
+            "probability": 45
+          },
+          {
+            "technique": "North-South Choke",
+            "target": "North-South",
+            "probability": 40
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Sitting too high on opponent's chest rather than keeping hips low",
+        "consequence": "Opponent can easily bridge and create space underneath, leading to escape or reversal",
+        "correction": "Keep hips sunk low with weight distributed through torso and hips, not sitting upright on opponent"
+      },
+      {
+        "error": "Releasing head control to attempt submissions prematurely",
+        "consequence": "Opponent immediately escapes by turning into you or creating frames, losing dominant position",
+        "correction": "Maintain tight head and arm control until submission is fully secured, never sacrifice positional control for premature attack"
+      },
+      {
+        "error": "Posting far leg too close to opponent's body, reducing base",
+        "consequence": "Opponent can bridge effectively or sweep you over the weak side, resulting in reversal",
+        "correction": "Post far leg wide at approximately 45-degree angle for maximum base and stability"
+      },
+      {
+        "error": "Allowing opponent's far arm to remain free and create frames",
+        "consequence": "Opponent uses free arm to push against your face, create space, and initiate effective escapes",
+        "correction": "Control or pin opponent's far arm with your near leg or monitor it constantly to prevent effective framing"
+      },
+      {
+        "error": "Distributing weight through hands rather than hips and chest",
+        "consequence": "Reduces pressure on opponent, allows them to breathe and move more freely, and creates openings for escape",
+        "correction": "Keep hands free for submission attacks while distributing all weight through hips and chest onto opponent's torso"
+      },
+      {
+        "error": "Failing to adjust position when opponent begins escape sequence",
+        "consequence": "Opponent completes escape and recovers guard or worse, achieves reversal to top position",
+        "correction": "Stay mobile and ready to transition to North-South, mount, or other positions as opponent creates movement"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Positional Maintenance Drill",
+        "description": "Partner starts in Kesa Gatame Top and must maintain position for 2-minute rounds while bottom player attempts escapes at 50% intensity. Focus on weight distribution, base maintenance, and preventing hip escapes. Top player should not attempt submissions, only control.",
+        "duration": "5 rounds of 2 minutes"
+      },
+      {
+        "name": "Transition Flow Drill",
+        "description": "From Kesa Gatame Top, practice flowing between variations: standard Kesa Gatame, Reverse Kesa Gatame, North-South, and back. Partner provides mild resistance but allows transitions. Focus on maintaining control throughout all transitions and never allowing opponent to create space.",
+        "duration": "3 rounds of 3 minutes"
+      },
+      {
+        "name": "Submission Chain Drill",
+        "description": "Start in Kesa Gatame Top and flow through the submission chain: Americana attempt → opponent defends → switch to Kimura → opponent defends → transition to Armbar → opponent defends → secure North-South Choke. Partner provides realistic defensive reactions. Reset and repeat with different entry points.",
+        "duration": "4 rounds of 3 minutes"
+      },
+      {
+        "name": "Escape and Recapture Drill",
+        "description": "Bottom player attempts one specific escape type (hip escape, bridge and roll, or turn-in) repeatedly. Top player must recognize the escape early and either prevent it through positional adjustment or flow to appropriate counter position (Mount, North-South, etc.). Switch escape types every 2 minutes.",
+        "duration": "6 rounds of 2 minutes"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Scarf Hold Position",
+        "relationship": "Identical position, alternative name"
+      },
+      {
+        "name": "Reverse Kesa-Gatame",
+        "relationship": "Mirror variation facing opposite direction"
+      },
+      {
+        "name": "Kuzure Kesa-Gatame",
+        "relationship": "Modified variation with different arm control"
+      },
+      {
+        "name": "Side Control",
+        "relationship": "Parent category, closely related pinning position"
+      },
+      {
+        "name": "North-South",
+        "relationship": "Common transition target for control maintenance"
+      },
+      {
+        "name": "Mount",
+        "relationship": "Common advancement target when opponent turns in"
+      },
+      {
+        "name": "Americana from Side Control",
+        "relationship": "Primary submission attack from this position"
+      },
+      {
+        "name": "Kimura from Side Control",
+        "relationship": "High-percentage submission option"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "beginner": 55,
+        "intermediate": 70,
+        "advanced": 85
+      },
+      "advancement_probability": {
+        "beginner": 40,
+        "intermediate": 55,
+        "advanced": 70
+      },
+      "submission_probability": {
+        "beginner": 30,
+        "intermediate": 45,
+        "advanced": 60
+      },
+      "average_time": "1-3 minutes"
+    },
+    "name": "Kesa Gatame Top",
+    "description": "Master Kesa Gatame Top position in BJJ. Dominant scarf hold with 70% retention rate. Complete guide covering control, submissions, and transitions.",
+    "tags": [
+      "bjj",
+      "position",
+      "kesa-gatame",
+      "scarf-hold",
+      "pinning",
+      "side-control-variation",
+      "judo",
+      "top-position",
+      "offensive"
+    ],
+    "transitions": [
+      {
+        "transition": "Americana from Side Control",
+        "attempt_probability": 15
+      },
+      {
+        "transition": "Kimura from Side Control",
+        "attempt_probability": 14
+      },
+      {
+        "transition": "Armbar from Side Control",
+        "attempt_probability": 13
+      },
+      {
+        "transition": "North-South Choke",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Side Control to Mount",
+        "attempt_probability": 16
+      },
+      {
+        "transition": "Side Control to North-South",
+        "attempt_probability": 19
+      },
+      {
+        "transition": "Arm Triangle",
+        "attempt_probability": 11
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "Your opponent starts bridging explosively toward your posted leg - what adjustment do you make to maintain position?",
+        "answer": "Immediately widen your posted leg and shift your hips lower, driving your weight down through your chest into their torso. If the bridge is strong, be ready to transition to mount by stepping over as they turn into you, converting their escape attempt into positional advancement. The key is staying heavy on their upper body while maintaining wide base with your posted leg."
+      },
+      {
+        "question": "What are the essential control points for maintaining Kesa Gatame?",
+        "answer": "The three essential control points are: head control with your arm wrapped around their neck pulling it toward your hip, near arm trap secured tightly under your armpit squeezing against your ribs, and chest-to-chest pressure with your weight distributed through your torso onto their upper body. Without all three points engaged, the position becomes unstable and escape-prone."
+      },
+      {
+        "question": "How do you shut down the bridge-and-roll escape before it develops momentum?",
+        "answer": "Keep your hips extremely low and sink your weight into their chest, making bridging difficult. Your posted leg must stay wide at a 45-degree angle for base. When you feel them start to load their hips, immediately drive your shoulder into their face and sprawl your hips back slightly. You can also preemptively control their far arm to eliminate the grip they need to complete the roll."
+      },
+      {
+        "question": "What grip priorities should you maintain when someone is actively trying to escape?",
+        "answer": "During active escape attempts, prioritize in this order: head control first (arm wrapped around their head pulling toward your hip), near arm trap second (squeezed tight under your armpit), and base leg position third (posted wide for stability). If you must release one grip to address an escape, never release head control first as this is the primary anchor preventing them from creating angles."
+      },
+      {
+        "question": "How do you apply pressure effectively without exhausting yourself?",
+        "answer": "Use skeletal alignment and gravity rather than muscular effort. Sit your hips low and let your bodyweight sink through your chest onto their torso. Keep your arm around their head relaxed but connected, using the bone structure of your shoulder and chest to apply pressure. The pressure should feel effortless to you while being crushing to them. Avoid squeezing with your arms or holding tension in your shoulders."
+      },
+      {
+        "question": "Your opponent starts turning their hips toward you to create an angle - how do you react?",
+        "answer": "When they turn their hips toward you, this is actually an opportunity. Drive your near leg over their far hip to begin transitioning to mount, using their rotation to help you clear the leg. Alternatively, shift your weight forward and sprawl your hips to flatten them back down before they can complete the angle change. The worst response is remaining static - you must move with their movement."
+      },
+      {
+        "question": "How do you manage your energy during extended control periods in Kesa Gatame?",
+        "answer": "Relax between their escape attempts while maintaining structural connection through your frames. Use your bodyweight passively rather than actively squeezing. Focus on breathing calmly and staying mentally patient. When they explode with escape attempts, match their energy briefly then return to relaxed control. This creates a brutal energy differential where they exhaust themselves while you conserve energy."
+      },
+      {
+        "question": "Your opponent partially escapes and gets their near arm free - how do you recover control?",
+        "answer": "Immediately transition to a safer variation before they can capitalize. Options include: shifting to North-South by circling toward their head, moving to standard side control by sliding your hips perpendicular, or if they turn in, flowing to mount. Do not fight to re-trap the arm in Kesa Gatame as this creates scramble opportunities. Accept the partial escape and secure a dominant position rather than losing everything trying to maintain the original hold."
+      }
+    ]
+  },
   "bottom": {
     "overview": "Kesa Gatame Bottom represents one of the most challenging defensive positions in Brazilian Jiu-Jitsu, where the bottom practitioner faces intense chest-to-chest pressure from an opponent controlling from the scarf hold position. This classical judo pin has been adapted for BJJ competition and presents unique escape challenges due to the opponent's ability to control both the head and near-side arm while applying crushing chest pressure. The position requires specific escape mechanics that differ significantly from standard side control escapes, as the top player's weight distribution and control points create a distinct defensive problem. Understanding the fundamental escape pathways from Kesa Gatame Bottom is essential for any practitioner, as this position appears frequently in both gi and no-gi competition, particularly against opponents with judo backgrounds or those who favor old-school control positions.\n\nThe defensive challenge of Kesa Gatame Bottom centers on the opponent's ability to control your head and arm while sitting their hips back, making standard shrimping escapes ineffective. The top player's chest pressure restricts breathing and movement, while their cross-face and arm control prevent easy frame creation. Successful escape requires understanding the specific vulnerabilities in the top player's position: their exposed back, the potential to create space by attacking their far arm, and the opportunity to exploit their posted leg for sweeping mechanics. The position demands patience, systematic defensive progression, and the ability to recognize windows of opportunity when the top player adjusts their weight or attempts submissions.",
     "state_properties": {
@@ -86,120 +360,6 @@
       "Maintain calm breathing despite chest pressure and work systematically through escape progressions rather than explosive scrambling",
       "Look for opponent's back exposure and be ready to transition to turtle or take their back when space is created",
       "Use your legs to hook opponent's near leg and prevent them from transitioning to mount or other dominant positions"
-    ],
-    "offensive_transitions": [
-      {
-        "technique": "Bridge and Roll",
-        "target_position": "Scarf Hold Position",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 35,
-          "advanced": 50
-        }
-      },
-      {
-        "technique": "Elbow Escape",
-        "target_position": "Half Guard",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 45,
-          "advanced": 60
-        }
-      },
-      {
-        "technique": "Hip Escape",
-        "target_position": "Closed Guard",
-        "success_rates": {
-          "beginner": 20,
-          "intermediate": 35,
-          "advanced": 50
-        }
-      },
-      {
-        "technique": "Back Take Generic",
-        "target_position": "Back Control",
-        "success_rates": {
-          "beginner": 15,
-          "intermediate": 25,
-          "advanced": 40
-        }
-      },
-      {
-        "technique": "Turtle Transition",
-        "target_position": "Turtle",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 50,
-          "advanced": 65
-        }
-      },
-      {
-        "technique": "Ghost Escape",
-        "target_position": "Turtle",
-        "success_rates": {
-          "beginner": 20,
-          "intermediate": 35,
-          "advanced": 55
-        }
-      },
-      {
-        "technique": "Frame and Shrimp",
-        "target_position": "Open Guard",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 40,
-          "advanced": 55
-        }
-      }
-    ],
-    "defensive_responses": [
-      {
-        "technique": "Transition to Mount",
-        "target_position": "Mount",
-        "success_rate": 35
-      },
-      {
-        "technique": "Transition to North-South",
-        "target_position": "North-South",
-        "success_rate": 30
-      },
-      {
-        "technique": "Position Change",
-        "target_position": "Kuzure Kesa-Gatame",
-        "success_rate": 40
-      },
-      {
-        "technique": "Americana from Side Control",
-        "target_position": "Americana Control",
-        "success_rate": 25
-      },
-      {
-        "technique": "North-South Choke",
-        "target_position": "Won by Submission",
-        "success_rate": 15
-      }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Re-Guard",
-        "target_position": "Half Guard",
-        "trigger": "Opponent loosens head control to transition"
-      },
-      {
-        "technique": "Granby Roll",
-        "target_position": "Turtle",
-        "trigger": "Opponent shifts weight forward toward your head"
-      },
-      {
-        "technique": "Technical Standup",
-        "target_position": "Standing Position",
-        "trigger": "Opponent's base becomes compromised during transition attempt"
-      },
-      {
-        "technique": "Guard Replacement",
-        "target_position": "Closed Guard",
-        "trigger": "Opponent releases head control to attack submission"
-      }
     ],
     "decision_tree": [
       {
@@ -337,20 +497,6 @@
         "duration": "12-15 minutes"
       }
     ],
-    "optimal_submission_paths": [
-      {
-        "name": "Not applicable - defensive position",
-        "path": "Focus is on escaping rather than submitting from bottom"
-      },
-      {
-        "name": "Counter-submission opportunity",
-        "path": "Kesa Gatame Bottom → Bridge and Roll → Scarf Hold Position → Americana from Side Control → Won by Submission"
-      },
-      {
-        "name": "Back attack path",
-        "path": "Kesa Gatame Bottom → Back Take Generic → Back Control → Rear Naked Choke → Won by Submission"
-      }
-    ],
     "related_content": [
       {
         "name": "Scarf Hold Position",
@@ -385,12 +531,12 @@
         "relationship": "Primary guard recovery target"
       },
       {
-        "name": "Escape Hierarchy",
-        "relationship": "Conceptual framework for escape prioritization"
+        "name": "Bridge and Roll",
+        "relationship": "Primary escape technique from this position"
       },
       {
-        "name": "Bridge and Shrimp",
-        "relationship": "Core movement concept for escapes"
+        "name": "Elbow Escape",
+        "relationship": "Fundamental escape movement pattern"
       }
     ],
     "position_metrics": {
@@ -422,364 +568,70 @@
       "scarf-hold",
       "pin-escape",
       "side-control-variant"
-    ]
-  },
-  "top": {
-    "overview": "Kesa Gatame Top, also known as scarf hold, is a traditional judo pinning position that has been adapted for Brazilian Jiu-Jitsu. The top practitioner sits perpendicular to their supine opponent, controlling the head and near arm while using their bodyweight to pin the opponent's torso. This position creates immense pressure and restricts the opponent's breathing and movement, making it highly effective for maintaining control and setting up submissions.\n\nWhile less commonly emphasized in modern sport BJJ compared to traditional side control, Kesa Gatame offers unique advantages including superior weight distribution, excellent control of the opponent's upper body, and powerful submission opportunities. The position is particularly effective in no-gi and MMA contexts where the crossface and shoulder pressure can be devastating. Understanding Kesa Gatame enhances a practitioner's overall top game by providing an alternative pinning structure with distinct mechanical advantages.\n\nThe position requires careful attention to weight distribution and hip positioning to prevent common escapes. When executed properly, Kesa Gatame can be one of the most oppressive positions in grappling, creating a sense of helplessness in the bottom player while offering the top player numerous attacking options.",
-    "state_properties": {
-      "point_value": 3,
-      "position_type": "Offensive/Controlling",
-      "risk_level": "Medium",
-      "energy_cost": "Medium",
-      "time_sustainability": "Medium to Long"
-    },
-    "state_invariants": [
-      "Top player sits perpendicular to opponent's body with hips low and weight distributed through the torso, creating downward pressure on opponent's chest and diaphragm",
-      "Near arm of opponent is trapped and controlled under top player's armpit, with top player's arm wrapped around opponent's head creating a tight scarf-like grip",
-      "Top player's far leg is posted wide for base while near leg hooks or controls opponent's far hip to prevent rotation and escape attempts",
-      "Opponent lies supine on their back with shoulders flat to the mat, head controlled and turned toward top player, with limited ability to create frames or generate hip movement",
-      "Top player's chest and shoulder apply constant pressure to opponent's face and chest, restricting breathing and creating discomfort that compounds over time"
     ],
-    "prerequisites": [
-      "Successful transition from side control, mount, or passing sequence",
-      "Opponent flat on their back with upper body accessible for control",
-      "Ability to secure head control and near arm trap",
-      "Understanding of weight distribution through hips and torso rather than hands",
-      "Sufficient base and balance to maintain perpendicular angle while under pressure"
-    ],
-    "key_principles": [
-      "Maintain perpendicular body angle to opponent with hips low and heavy",
-      "Control opponent's head and near arm as primary control points",
-      "Distribute weight through chest and hips onto opponent's torso and face",
-      "Keep far leg posted wide for base while near leg controls opponent's far hip",
-      "Apply constant shoulder pressure to opponent's face to restrict breathing and movement",
-      "Sink hips low to prevent opponent from creating space underneath",
-      "Anticipate and counter hip escape attempts by adjusting weight distribution"
-    ],
-    "offensive_transitions": [
+    "transitions": [
       {
-        "technique": "Americana from Side Control",
-        "target_position": "Americana Control",
-        "success_rates": {
-          "beginner": 45,
-          "intermediate": 60,
-          "advanced": 75
-        }
+        "transition": "Bridge and Roll",
+        "attempt_probability": 13
       },
       {
-        "technique": "Kimura from Side Control",
-        "target_position": "Kimura Control",
-        "success_rates": {
-          "beginner": 40,
-          "intermediate": 55,
-          "advanced": 70
-        }
+        "transition": "Elbow Escape",
+        "attempt_probability": 16
       },
       {
-        "technique": "Armbar from Side Control",
-        "target_position": "Armbar Control",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 50,
-          "advanced": 65
-        }
+        "transition": "Hip Escape",
+        "attempt_probability": 13
       },
       {
-        "technique": "North-South Choke",
-        "target_position": "North-South",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 45,
-          "advanced": 60
-        }
+        "transition": "Back Take Generic",
+        "attempt_probability": 11
       },
       {
-        "technique": "Transition to Mount",
-        "target_position": "Mount",
-        "success_rates": {
-          "beginner": 50,
-          "intermediate": 65,
-          "advanced": 80
-        }
+        "transition": "Turtle Transition",
+        "attempt_probability": 17
       },
       {
-        "technique": "Transition to North-South",
-        "target_position": "North-South",
-        "success_rates": {
-          "beginner": 55,
-          "intermediate": 70,
-          "advanced": 85
-        }
+        "transition": "Ghost Escape",
+        "attempt_probability": 15
       },
       {
-        "technique": "Arm Triangle",
-        "target_position": "Won by Submission",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 40,
-          "advanced": 55
-        }
+        "transition": "Frame and Shrimp",
+        "attempt_probability": 15
       }
     ],
-    "defensive_responses": [
+    "knowledge_assessment": [
       {
-        "technique": "Side Control Escape",
-        "target_position": "Open Guard",
-        "success_rate": 35
+        "question": "Your opponent is applying crushing chest pressure and you're struggling to breathe - what's your immediate priority?",
+        "answer": "Turn your head away from the pressure to create a small pocket of breathing space, and use your free arm to frame against their shoulder or face to create distance between their chest and your face. Do not panic or waste energy fighting the pressure directly. Establish controlled breathing through your nose if possible, and accept some discomfort while working methodically toward escape. Panic breathing and explosive struggling will exhaust you rapidly."
       },
       {
-        "technique": "Hip Escape",
-        "target_position": "Half Guard",
-        "success_rate": 40
+        "question": "What are the essential defensive frames you need to establish before attempting any escape?",
+        "answer": "The primary frame is your free arm (far arm) pressing against opponent's face, neck, or shoulder to create distance and prevent smothering. Secondary is using your near elbow (if you can extract it) against their hip to prevent them from advancing. Tertiary is keeping your chin tucked to your chest to protect against chokes. These frames must be structural, using bone alignment rather than muscular pushing, so they don't exhaust you while you wait for escape opportunities."
       },
       {
-        "technique": "Bridge and Roll",
-        "target_position": "Scarf Hold Position",
-        "success_rate": 25
+        "question": "Why is standard shrimping ineffective from Kesa Gatame and what should you do instead?",
+        "answer": "Standard shrimping is ineffective because the opponent's perpendicular angle means your hip escape pushes you directly into their hips rather than creating usable space. Instead, use bridge-and-turn mechanics where you bridge toward them while turning your body to face them, or turn away to reach turtle position. The escape direction must account for their perpendicular positioning rather than the parallel alignment of traditional side control."
       },
       {
-        "technique": "Frame and Shrimp",
-        "target_position": "Half Guard",
-        "success_rate": 30
+        "question": "Your opponent's back is exposed because they're sitting heavily - how do you exploit this vulnerability?",
+        "answer": "When opponent sits back heavily, immediately turn into them rather than away. Use your free arm to reach around their back while turning your hips to face them. Your goal is to get chest-to-chest facing them, which allows you to either take their back directly or transition to turtle and then attack their back from there. This is the highest-percentage escape unique to Kesa Gatame because their perpendicular positioning inherently exposes their back."
       },
       {
-        "technique": "Elbow Escape",
-        "target_position": "Closed Guard",
-        "success_rate": 35
+        "question": "How do you apply pressure against opponent's base to set up the bridge-and-roll escape?",
+        "answer": "Before bridging, grab their far arm at the wrist or elbow to prevent them from posting when you bridge. If wearing gi, grip their far sleeve or lapel. Pull this arm across your body while simultaneously trapping their near leg with your legs. Then bridge explosively toward their trapped side at a 45-degree angle. Without controlling their posting arm first, they will simply base out and your bridge will be ineffective."
+      },
+      {
+        "question": "Your opponent starts transitioning toward mount - what do you do to prevent advancement?",
+        "answer": "Use your legs actively to hook their near leg, creating a barrier that prevents them from stepping over to mount. Your knee should be between your bodies, and your foot should be hooking behind their knee or thigh. If they persist in trying to mount, this leg entanglement creates an opportunity to either recover half guard or execute a bridge-and-roll as they lift their leg. Never let them freely step over without resistance."
+      },
+      {
+        "question": "How do you manage your energy when you're unable to escape immediately?",
+        "answer": "Accept that you're in a bad position and focus on survival rather than forcing escapes. Maintain your frames using structural alignment rather than muscular effort. Breathe through your nose in a controlled pattern. Wait for opponent to make a mistake - when they attempt submissions or transitions, that's when escape windows open. Conserve explosive effort for when opportunities arise rather than constantly fighting. Most people exhaust themselves within 30-60 seconds of panicked struggling."
+      },
+      {
+        "question": "You partially escape and get space but opponent is re-engaging - how do you complete the guard recovery?",
+        "answer": "Once you have space, commit fully to guard recovery rather than trying to maintain the intermediate position. Immediately bring your knees to your chest and insert your knee shield or closed guard before they can re-establish pressure. If they're driving forward, use their momentum to pull them into your closed guard. If going to turtle, complete the transition fully rather than stopping halfway where you can be flattened again. Partial positions are dangerous - commit to completing the escape."
       }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Transition to Mount",
-        "target_position": "Mount",
-        "trigger": "Opponent attempts to turn into you or bridge"
-      },
-      {
-        "technique": "Transition to North-South",
-        "target_position": "North-South",
-        "trigger": "Opponent creates space on the near side and attempts to escape toward feet"
-      },
-      {
-        "technique": "Kimura from Side Control",
-        "target_position": "Kimura Control",
-        "trigger": "Opponent extends trapped arm attempting to create frames"
-      },
-      {
-        "technique": "Armbar from Side Control",
-        "target_position": "Armbar Control",
-        "trigger": "Opponent pushes against your head or attempts to create distance with straight arm"
-      }
-    ],
-    "decision_tree": [
-      {
-        "condition": "If opponent attempts to turn into you and recover guard",
-        "actions": [
-          {
-            "technique": "Transition to Mount",
-            "target": "Mount",
-            "probability": 70
-          },
-          {
-            "technique": "Kimura from Side Control",
-            "target": "Kimura Control",
-            "probability": 60
-          }
-        ]
-      },
-      {
-        "condition": "If opponent creates space and attempts to shrimp away toward their feet",
-        "actions": [
-          {
-            "technique": "Transition to North-South",
-            "target": "North-South",
-            "probability": 75
-          },
-          {
-            "technique": "North-South Choke",
-            "target": "North-South",
-            "probability": 50
-          }
-        ]
-      },
-      {
-        "condition": "If opponent extends trapped arm attempting to push or frame",
-        "actions": [
-          {
-            "technique": "Americana from Side Control",
-            "target": "Americana Control",
-            "probability": 65
-          },
-          {
-            "technique": "Armbar from Side Control",
-            "target": "Armbar Control",
-            "probability": 55
-          }
-        ]
-      },
-      {
-        "condition": "If opponent remains flat and defensive without creating movement",
-        "actions": [
-          {
-            "technique": "Arm Triangle",
-            "target": "Won by Submission",
-            "probability": 45
-          },
-          {
-            "technique": "North-South Choke",
-            "target": "North-South",
-            "probability": 40
-          }
-        ]
-      }
-    ],
-    "common_errors": [
-      {
-        "error": "Sitting too high on opponent's chest rather than keeping hips low",
-        "consequence": "Opponent can easily bridge and create space underneath, leading to escape or reversal",
-        "correction": "Keep hips sunk low with weight distributed through torso and hips, not sitting upright on opponent"
-      },
-      {
-        "error": "Releasing head control to attempt submissions prematurely",
-        "consequence": "Opponent immediately escapes by turning into you or creating frames, losing dominant position",
-        "correction": "Maintain tight head and arm control until submission is fully secured, never sacrifice positional control for premature attack"
-      },
-      {
-        "error": "Posting far leg too close to opponent's body, reducing base",
-        "consequence": "Opponent can bridge effectively or sweep you over the weak side, resulting in reversal",
-        "correction": "Post far leg wide at approximately 45-degree angle for maximum base and stability"
-      },
-      {
-        "error": "Allowing opponent's far arm to remain free and create frames",
-        "consequence": "Opponent uses free arm to push against your face, create space, and initiate effective escapes",
-        "correction": "Control or pin opponent's far arm with your near leg or monitor it constantly to prevent effective framing"
-      },
-      {
-        "error": "Distributing weight through hands rather than hips and chest",
-        "consequence": "Reduces pressure on opponent, allows them to breathe and move more freely, and creates openings for escape",
-        "correction": "Keep hands free for submission attacks while distributing all weight through hips and chest onto opponent's torso"
-      },
-      {
-        "error": "Failing to adjust position when opponent begins escape sequence",
-        "consequence": "Opponent completes escape and recovers guard or worse, achieves reversal to top position",
-        "correction": "Stay mobile and ready to transition to North-South, mount, or other positions as opponent creates movement"
-      }
-    ],
-    "training_drills": [
-      {
-        "name": "Positional Maintenance Drill",
-        "description": "Partner starts in Kesa Gatame Top and must maintain position for 2-minute rounds while bottom player attempts escapes at 50% intensity. Focus on weight distribution, base maintenance, and preventing hip escapes. Top player should not attempt submissions, only control.",
-        "duration": "5 rounds of 2 minutes"
-      },
-      {
-        "name": "Transition Flow Drill",
-        "description": "From Kesa Gatame Top, practice flowing between variations: standard Kesa Gatame, Reverse Kesa Gatame, North-South, and back. Partner provides mild resistance but allows transitions. Focus on maintaining control throughout all transitions and never allowing opponent to create space.",
-        "duration": "3 rounds of 3 minutes"
-      },
-      {
-        "name": "Submission Chain Drill",
-        "description": "Start in Kesa Gatame Top and flow through the submission chain: Americana attempt → opponent defends → switch to Kimura → opponent defends → transition to Armbar → opponent defends → secure North-South Choke. Partner provides realistic defensive reactions. Reset and repeat with different entry points.",
-        "duration": "4 rounds of 3 minutes"
-      },
-      {
-        "name": "Escape and Recapture Drill",
-        "description": "Bottom player attempts one specific escape type (hip escape, bridge and roll, or turn-in) repeatedly. Top player must recognize the escape early and either prevent it through positional adjustment or flow to appropriate counter position (Mount, North-South, etc.). Switch escape types every 2 minutes.",
-        "duration": "6 rounds of 2 minutes"
-      }
-    ],
-    "optimal_submission_paths": [
-      {
-        "name": "Shortest High-Percentage Path",
-        "path": "Scarf Hold Position → Americana from Side Control → Won by Submission"
-      },
-      {
-        "name": "Control-First Path",
-        "path": "Scarf Hold Position → Transition to North-South → North-South Choke → Won by Submission"
-      },
-      {
-        "name": "Arm Attack Sequence",
-        "path": "Scarf Hold Position → Kimura from Side Control → Armbar from Side Control → Won by Submission"
-      },
-      {
-        "name": "Mount Transition Path",
-        "path": "Scarf Hold Position → Transition to Mount → Americana from Mount → Won by Submission"
-      },
-      {
-        "name": "Pressure Choke Path",
-        "path": "Scarf Hold Position → Arm Triangle → Won by Submission"
-      }
-    ],
-    "related_content": [
-      {
-        "name": "Scarf Hold Position",
-        "relationship": "Identical position, alternative name"
-      },
-      {
-        "name": "Reverse Kesa-Gatame",
-        "relationship": "Mirror variation facing opposite direction"
-      },
-      {
-        "name": "Kuzure Kesa-Gatame",
-        "relationship": "Modified variation with different arm control"
-      },
-      {
-        "name": "Side Control",
-        "relationship": "Parent category, closely related pinning position"
-      },
-      {
-        "name": "North-South",
-        "relationship": "Common transition target for control maintenance"
-      },
-      {
-        "name": "Mount",
-        "relationship": "Common advancement target when opponent turns in"
-      },
-      {
-        "name": "Americana from Side Control",
-        "relationship": "Primary submission attack from this position"
-      },
-      {
-        "name": "Kimura from Side Control",
-        "relationship": "High-percentage submission option"
-      },
-      {
-        "name": "Pressure Application",
-        "relationship": "Fundamental concept for position effectiveness"
-      },
-      {
-        "name": "Weight Distribution",
-        "relationship": "Critical concept for maintaining heavy pressure"
-      }
-    ],
-    "position_metrics": {
-      "retention_rate": {
-        "beginner": 55,
-        "intermediate": 70,
-        "advanced": 85
-      },
-      "advancement_probability": {
-        "beginner": 40,
-        "intermediate": 55,
-        "advanced": 70
-      },
-      "submission_probability": {
-        "beginner": 30,
-        "intermediate": 45,
-        "advanced": 60
-      },
-      "average_time": "1-3 minutes"
-    },
-    "name": "Kesa Gatame Top",
-    "description": "Master Kesa Gatame Top position in BJJ. Dominant scarf hold with 70% retention rate. Complete guide covering control, submissions, and transitions.",
-    "tags": [
-      "bjj",
-      "position",
-      "kesa-gatame",
-      "scarf-hold",
-      "pinning",
-      "side-control-variation",
-      "judo",
-      "top-position",
-      "offensive"
     ]
   }
 }

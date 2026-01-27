@@ -95,32 +95,24 @@ The strategic value of the Hindulotine lies in its ability to force defensive re
 - Prevent opponent's near-side shoulder from creating a defensive frame between their body and yours
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Guillotine Choke]]** → [[Won by Submission]]
-  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 75%
+- **[[Guillotine Choke]]** (14% of attempts)
 
-- **[[Transition to Darce Choke]]** → [[D'arce Control]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 70%
+- **[[Hindulotine to Darce Choke]]** (13% of attempts)
 
-- **[[Transition to Anaconda Choke]]** → [[Anaconda Control]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 65%
+- **[[Hindulotine to Anaconda Choke]]** (12% of attempts)
 
-- **[[Sweep to Mount]]** → [[Mount]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 65%
+- **[[Sweep to Mount]]** (12% of attempts)
 
-- **[[Back Take from Bottom]]** → [[Back Control]]
-  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 70%
+- **[[Back Take from Bottom]]** (13% of attempts)
 
-- **[[Arm Triangle Transition]]** → [[Side Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 60%
+- **[[Arm Triangle Transition]]** (11% of attempts)
 
-- **[[High Elbow Guillotine Variation]]** → [[Won by Submission]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 70%
+- **[[High Elbow Guillotine Variation]]** (13% of attempts)
 
-- **[[Butterfly Sweep with Guillotine]]** → [[Mount]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Butterfly Sweep with Guillotine]]** (12% of attempts)
 
 
 ### Common Mistakes
@@ -174,32 +166,24 @@ The strategic value of the Hindulotine lies in its ability to force defensive re
 - Adjust grip height and pressure angle based on opponent's defensive reactions without loosening control
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Guillotine Choke]]** → [[Won by Submission]]
-  - Success Rate: Beginner 40%, Intermediate 60%, Advanced 80%
+- **[[Guillotine Choke]]** (12% of attempts)
 
-- **[[Transition to Darce Choke]]** → [[D'arce Control]]
-  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 75%
+- **[[Hindulotine to Darce Choke]]** (13% of attempts)
 
-- **[[Transition to Anaconda Choke]]** → [[Anaconda Control]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 70%
+- **[[Hindulotine to Anaconda Choke]]** (12% of attempts)
 
-- **[[Back Take from Top]]** → [[Back Control]]
-  - Success Rate: Beginner 45%, Intermediate 65%, Advanced 80%
+- **[[Back Take from Top]]** (14% of attempts)
 
-- **[[Transition to Mount]]** → [[Mount]]
-  - Success Rate: Beginner 40%, Intermediate 60%, Advanced 75%
+- **[[Side Control to Mount]]** (13% of attempts)
 
-- **[[Transition to North-South]]** → [[North-South]]
-  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 70%
+- **[[Side Control to North-South]]** (12% of attempts)
 
-- **[[Front Headlock to Back]]** → [[Back Control]]
-  - Success Rate: Beginner 40%, Intermediate 60%, Advanced 75%
+- **[[Front Headlock to Back]]** (13% of attempts)
 
-- **[[Arm Triangle from Top]]** → [[Won by Submission]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 65%
+- **[[Arm Triangle from Top]]** (11% of attempts)
 
 
 ### Common Mistakes

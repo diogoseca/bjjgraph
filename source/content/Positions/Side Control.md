@@ -83,32 +83,20 @@ Side Control (also known as side mount or cross-side) is one of the most fundame
 - Time escape attempts with opponent's transitions or submission setups when their base is compromised
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Elbow Escape]]** → [[Half Guard]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Elbow Escape]]** (25% of attempts)
 
-- **[[Frame and Shrimp]]** → [[Closed Guard]]
-  - Success Rate: Beginner 15%, Intermediate 25%, Advanced 40%
+- **[[Frame and Shrimp]]** (20% of attempts)
 
-- **[[Bridge and Roll]]** → [[Standing Position]]
-  - Success Rate: Beginner 10%, Intermediate 15%, Advanced 25%
+- **[[Bridge and Roll]]** (10% of attempts)
 
-- **[[Hip Escape]]** → [[Knee Shield Half Guard]]
-  - Success Rate: Beginner 18%, Intermediate 30%, Advanced 45%
+- **[[Hip Escape]]** (25% of attempts)
 
-- **[[Side Control Escape]]** → [[Deep Half Guard]]
-  - Success Rate: Beginner 12%, Intermediate 22%, Advanced 35%
+- **[[Ghost Escape]]** (12% of attempts)
 
-- **[[Shrimp Escape]]** → [[Butterfly Guard]]
-  - Success Rate: Beginner 15%, Intermediate 25%, Advanced 38%
-
-- **[[Side Control Escape]]** → [[Turtle]]
-  - Success Rate: Beginner 25%, Intermediate 35%, Advanced 50%
-
-- **[[Frame Creation]]** → [[Defensive Position]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Underhook Sweep]]** (8% of attempts)
 
 
 ### Common Mistakes
@@ -166,38 +154,26 @@ Side Control (also known as side mount or cross-side) is one of the most fundame
 - Chest Pressure: Perpendicular chest contact maximizes control surface and distributes weight effectively
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Side Control to Mount]]** → [[Mount]]
-  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+- **[[Maintain Side Control]]** (20% of attempts)
 
-- **[[Transition to North-South]]** → [[North-South]]
-  - Success Rate: Beginner 55%, Intermediate 70%, Advanced 85%
+- **[[Side Control to Mount]]** (18% of attempts)
 
-- **[[Americana from Side Control]]** → [[Won by Submission]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Side Control to North-South]]** (10% of attempts)
 
-- **[[Kimura from Side Control]]** → [[Won by Submission]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Americana from Side Control]]** (12% of attempts)
 
-- **[[Arm Triangle]]** → [[Won by Submission]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Kimura from Side Control]]** (10% of attempts)
 
-- **[[Armbar from Side Control]]** → [[Won by Submission]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+- **[[Arm Triangle]]** (8% of attempts)
 
-- **[[Transition to Mount]]** → [[Knee on Belly]]
-  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 80%
+- **[[Armbar from Side Control]]** (7% of attempts)
 
-- **[[North-South Choke]]** → [[Won by Submission]]
-  - Success Rate: Beginner 15%, Intermediate 25%, Advanced 40%
+- **[[Knee on Belly]]** (10% of attempts)
 
-- **[[Paper Cutter Choke]]** → [[Won by Submission]]
-  - Success Rate: Beginner 20%, Intermediate 30%, Advanced 45%
-
-- **[[Kimura to Back Take]]** → [[Back Control]]
-  - Success Rate: Beginner 18%, Intermediate 30%, Advanced 45%
+- **[[North-South Choke]]** (5% of attempts)
 
 
 ### Common Mistakes

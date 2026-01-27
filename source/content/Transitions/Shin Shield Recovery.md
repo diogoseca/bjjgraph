@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Shin Shield Recovery | BJJ Technique | BJJ Graph"
 description: "Master Shin Shield Recovery in BJJ. Essential defensive framing from half guard. Prevent passing and create space. Success rates: Beginner 45%, Intermediate 65%, Advanced 80%."
@@ -16,7 +17,7 @@ description: "Master Shin Shield Recovery in BJJ. Essential defensive framing fr
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Shin Shield Recovery in BJJ",
-  "description": "Step-by-step guide for Shin Shield Recovery from Half Guard to Knee Shield Half Guard.",
+  "description": "Step-by-step guide for Shin Shield Recovery from Half Guard/Bottom. Possible outcomes: Knee Shield Half Guard/Bottom (75%), Half Guard/Bottom (15%), Half Guard/Top (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -164,11 +165,25 @@ The shin shield works by using your inside leg to create a barrier across the op
 
 Mastering shin shield recovery is critical for developing a robust half guard game. It serves as the foundation for numerous sweeps, back takes, and submissions while simultaneously providing a reliable defensive structure. The technique requires precise hip positioning, proper angle creation, and understanding of weight distribution to maximize effectiveness against various passing attempts.
 
-**Starting Position**: [[Half Guard]]
-**Ending Position**: [[Knee Shield Half Guard]]
+**From Position**: [[Half Guard/Bottom]]
 **Success Rates**: Beginner 45%, Intermediate 65%, Advanced 80%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Knee Shield Half Guard/Bottom]] | 75% |
+| Failure | [[Half Guard/Bottom]] | 15% |
+| Counter | [[Half Guard/Top]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

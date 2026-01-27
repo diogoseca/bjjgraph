@@ -423,7 +423,7 @@ This submission appears frequently in both gi and no-gi competition at all level
 - [[Armbar from Side Control]] - Direct variation from same position family
 - [[Kimura from Side Control]] - Alternative arm attack that can chain with far side armbar
 - [[Americana from Side Control]] - Near-arm attack that complements far-arm targeting
-- [[Transition to Mount]] - Position transition that creates armbar entries
+- [[Side Control to Mount]] - Position transition that creates armbar entries
 - [[Submission Chains]] - Conceptual framework for linking far side armbar with other attacks
 - [[Leverage Principles]] - Fundamental concept explaining why proper angle and hip position matter
 - [[Armbar Defense]] - Understanding defenses improves your offensive application
@@ -432,6 +432,16 @@ This submission appears frequently in both gi and no-gi competition at all level
 - [[North-South]] - Transitional position that creates far side armbar opportunities
 - [[Triangle Choke]] - Alternative submission from similar control positions
 
+
+</section>
+
+<section id="terminal-state" class="content-section">
+
+## Match Outcome
+
+Successful execution of Far Side Armbar leads to → [[game-over|Game Over]]
+
+*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
 
 </section>
 

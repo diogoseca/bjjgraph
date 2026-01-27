@@ -21,37 +21,37 @@ description: "Master Inside Sankaku top perspective. Complete control mechanics,
     {
       "@type": "HowToStep",
       "name": "Execute Inside Heel Hook",
-      "text": "From this position, execute Inside Heel Hook to transition to Won by Submission. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Inside Heel Hook. This technique is attempted in 12% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Toe Hold",
-      "text": "From this position, execute Toe Hold to transition to Won by Submission. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Toe Hold. This technique is attempted in 9% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Outside Ashi Entry",
-      "text": "From this position, execute Outside Ashi Entry to transition to Outside Ashi-Garami. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Outside Ashi Entry. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Saddle Entry from Top",
-      "text": "From this position, execute Saddle Entry from Top to transition to Saddle. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Saddle Entry from Top. This technique is attempted in 11% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute 50-50 Entry",
-      "text": "From this position, execute 50-50 Entry to transition to 50-50 Guard. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt 50-50 Entry. This technique is attempted in 11% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kneebar from Top",
-      "text": "From this position, execute Kneebar from Top to transition to Won by Submission. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Kneebar from Top. This technique is attempted in 9% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -211,110 +211,26 @@ Inside Sankaku from the top perspective represents one of the most dominant and 
 
 ## Available Attacks
 
-### [[Inside Heel Hook]] → [[Won by Submission]]
+### [[Inside Heel Hook]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 45%
-- Advanced: 65%
+### [[Toe Hold]] (9% of attempts)
 
-### [[Toe Hold]] → [[Won by Submission]]
+### [[Outside Ashi Entry]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
+### [[Saddle Entry from Top]] (11% of attempts)
 
-### [[Outside Ashi Entry]] → [[Outside Ashi-Garami]]
+### [[50-50 Entry]] (11% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Kneebar from Top]] (9% of attempts)
 
-### [[Saddle Entry from Top]] → [[Saddle]]
+### [[Calf Slicer]] (8% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Rolling Back Take]] (10% of attempts)
 
-### [[50-50 Entry]] → [[50-50 Guard]]
+### [[Outside Heel Hook]] (9% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Side Control to Mount]] (9% of attempts)
 
-### [[Kneebar from Top]] → [[Won by Submission]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
-
-### [[Calf Slicer]] → [[Won by Submission]]
-
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 45%
-
-### [[Rolling Back Take]] → [[Back Control]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-### [[Outside Heel Hook]] → [[Won by Submission]]
-
-**Success Rates:**
-- Beginner: 18%
-- Intermediate: 32%
-- Advanced: 48%
-
-### [[Transition to Mount]] → [[Mount]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Hip Escape]]** → [[Open Guard]] (Opponent Success: 35%)
-- **[[Granby Roll]]** → [[Turtle]] (Opponent Success: 25%)
-- **[[Defensive Posture]]** → [[Inside Sankaku]] (Opponent Success: 40%)
-- **[[Frame and Shrimp]]** → [[Half Guard]] (Opponent Success: 30%)
-- **[[Counter Leg Attack]]** → [[50-50 Guard]] (Opponent Success: 35%)
-- **[[Technical Standup]]** → [[Standing Position]] (Opponent Success: 15%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Hip Pressure and Angle Adjustment]]** → [[Inside Sankaku]]
-  - Opponent attempts to create space by extending hips away
-- **[[Outside Ashi Entry]]** → [[Outside Ashi-Garami]]
-  - Opponent attempts to clear knee line by rotating away
-- **[[Kneebar Attack]]** → [[Won by Submission]]
-  - Opponent defends heel hook by hiding heel or straightening leg
-- **[[Position Maintenance]]** → [[Inside Sankaku]]
-  - Opponent begins to extract leg from entanglement
-- **[[Saddle Entry]]** → [[Saddle]]
-  - Opponent turns into you attempting to pass knee line
-- **[[Rolling Back Take]]** → [[Back Control]]
-  - Opponent gives up back to defend leg attack
 
 
 </section>
@@ -325,14 +241,14 @@ Inside Sankaku from the top perspective represents one of the most dominant and 
 
 **If opponent maintains defensive posture and protects heel by keeping it hidden:**
 - Execute **[[Hip pressure application]]** → [[Inside Sankaku]] (Probability: 70%)
-- Execute **[[Toe Hold transition]]** → [[Won by Submission]] (Probability: 60%)
-- Execute **[[Kneebar attack]]** → [[Won by Submission]] (Probability: 55%)
+- Execute **[[Toe Hold transition]]** → [[game-over]] (Probability: 60%)
+- Execute **[[Kneebar attack]]** → [[game-over]] (Probability: 55%)
 
 
 **If opponent attempts to clear knee line by rotating away from you:**
 - Execute **[[Outside Ashi Entry]]** → [[Outside Ashi-Garami]] (Probability: 65%)
 - Execute **[[Position maintenance with leg adjustment]]** → [[Inside Sankaku]] (Probability: 60%)
-- Execute **[[Outside Heel Hook]]** → [[Won by Submission]] (Probability: 50%)
+- Execute **[[Outside Heel Hook]]** → [[game-over]] (Probability: 50%)
 
 
 **If opponent turns into you attempting to pass knee line and stack:**
@@ -348,8 +264,8 @@ Inside Sankaku from the top perspective represents one of the most dominant and 
 
 
 **If opponent exposes heel and you have optimal submission angle established:**
-- Execute **[[Inside Heel Hook finish]]** → [[Won by Submission]] (Probability: 75%)
-- Execute **[[Toe Hold finish]]** → [[Won by Submission]] (Probability: 50%)
+- Execute **[[Inside Heel Hook finish]]** → [[game-over]] (Probability: 75%)
+- Execute **[[Toe Hold finish]]** → [[game-over]] (Probability: 50%)
 
 
 
@@ -442,37 +358,39 @@ Start in established Inside Sankaku position. Top player works to maintain posit
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Direct Inside Heel Hook Path
+## Test Your Knowledge
 
-`Outside Ashi-Garami → Inside Sankaku Top → Inside Heel Hook → Won by Submission`
+**Q1**: Your opponent starts pumping their hips backward to create space - what adjustment do you make to maintain control?
+**A**: Follow their hip movement by driving your own hips forward while maintaining the figure-four leg configuration. Use your core to close the distance they create. Your outside leg should actively pull their knee toward you as you advance your hips, preventing them from extracting the trapped leg. The key is anticipating the movement and matching their hip escape with your own forward pressure.
 
-### Single Leg X Entry Path
+**Q2**: What are the three essential control points that must be established before attempting the inside heel hook?
+**A**: The three essential control points are: (1) Hip-to-hip connection - your hips must be tight against opponent's hips to prevent escape distance, (2) Knee line control - your legs must block their ability to rotate their knee past the barrier created by your leg configuration, and (3) Proper heel exposure - the heel must be facing toward your centerline with your grip positioning established. Only when all three are secured should you commit to the submission.
 
-`Single Leg X-Guard → Inside Sankaku Top → Inside Heel Hook → Won by Submission`
+**Q3**: How do you shut down the primary escape when your opponent attempts to clear the knee line by rotating away?
+**A**: When they rotate away attempting to clear the knee line, immediately adjust your outside leg to follow their movement and maintain the barrier. Drive your hips forward and angle slightly to cut off their rotation path. If they continue the rotation, be ready to transition to Outside Ashi-Garami where you can attack the outside heel hook instead. The rotation that clears one heel hook often exposes the other.
 
-### 50-50 Transition Path
+**Q4**: What grip configuration provides the strongest control for the inside heel hook finish?
+**A**: The optimal grip uses a two-on-one configuration where both hands control the ankle and heel. Your blade hand (the hand closer to the heel) wraps around the Achilles tendon with the blade of your wrist positioned against the heel. Your secondary hand grabs your own wrist or forearm to reinforce the position. Keep elbows tight to your body and the foot tucked into your armpit for maximum breaking power.
 
-`50-50 Guard → Inside Sankaku Top → Inside Heel Hook → Won by Submission`
+**Q5**: Your opponent hides their heel by pressing it against their own hip - what pressure application forces the exposure?
+**A**: Apply consistent hip pressure forward while using your inside leg to elevate their knee slightly. This creates tension on their hip flexor and makes maintaining the hidden heel position exhausting. Alternatively, transition to toe hold attack which targets the foot regardless of heel hiding. The pressure forces them to choose between exhaustion defending heel exposure or accepting a different submission threat.
 
-### Heel Hook to Toe Hold Chain
+**Q6**: What movement indicates your opponent is about to attempt a rolling escape, and how do you counter it?
+**A**: The tell-tale signs are: shoulder dipping toward the mat, head turning toward their trapped leg, and hip loading to initiate the roll. Counter by immediately driving your weight down into the entanglement, pulling their trapped knee tighter to your body, and using your outside hand to post or grab their far hip to prevent the rotation. If they commit fully, follow the roll and transition to Saddle for even tighter control.
 
-`Inside Sankaku Top → Inside Heel Hook (defended) → Toe Hold → Won by Submission`
+**Q7**: How do you manage energy expenditure while maintaining Inside Sankaku against an opponent who is actively defending?
+**A**: Distribute weight through your hips rather than using arm strength for control. Maintain steady, consistent pressure rather than explosive movements that drain energy quickly. Let the position do the work - the mechanical advantage of the entanglement means small adjustments maintain control against larger escape efforts. Be patient and wait for them to tire from defensive efforts before committing to submission attempts.
 
-### Kneebar Alternative Path
-
-`Inside Sankaku Top → Kneebar → Won by Submission`
-
-### Saddle Transition Path
-
-`Inside Sankaku Top → Saddle → Inside Heel Hook → Won by Submission`
+**Q8**: Your opponent has partially extracted their leg but hasn't fully escaped - how do you recover full control?
+**A**: Immediately re-engage your inside leg hook under their thigh while driving your hips forward to close the gap. Use your outside leg to recapture knee line control by pressing down on their leg above the knee. Grab their ankle with your hands to prevent further extraction while your legs reestablish the full figure-four configuration. The key is quick reaction - once they fully extract, recovery becomes exponentially harder.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -501,10 +419,8 @@ Start in established Inside Sankaku position. Top player works to maintain posit
 - **[[Toe Hold]]** - Alternative submission - attacked when heel is hidden or defended
 - **[[Cross Ashi-Garami]]** - Related position - similar leg configuration with different attacking opportunities
 - **[[Back Control]]** - Transition target - available when opponent gives back defending leg attack
-- **[[systematic approach Leg Lock System]]** - Expert system - systematic approach to leg entanglements including Inside Sankaku
-- **[[Craig Jones Leg Lock System]]** - Expert system - modern competition-tested leg lock methodology
-- **[[Lachlan Giles Leg Lock Defense Framework]]** - Defensive system - understanding opponent's defense improves offensive approach
-- **[[Inside Sankaku]]** - Opposite perspective - understanding defensive mechanics aids offensive strategy
+- **[[Honey Hole]]** - Alternative name for Inside Sankaku - same position with different terminology
+- **[[Kneebar Control]]** - Alternative finishing position when heel hook defenses are effective
 
 
 </section>

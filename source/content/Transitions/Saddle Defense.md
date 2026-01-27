@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Saddle Defense | BJJ Technique | BJJ Graph"
 description: "Learn Saddle Defense in BJJ. Step-by-step escape from one of the most dangerous leg entanglement positions. Success rates: Beginner 25%, Intermediate 45%, Advanced 65%."
@@ -16,7 +17,7 @@ description: "Learn Saddle Defense in BJJ. Step-by-step escape from one of the m
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Saddle Defense in BJJ",
-  "description": "Step-by-step guide for Saddle Defense from Saddle to Standing Position.",
+  "description": "Step-by-step guide for Saddle Defense from Saddle/Top. Possible outcomes: Standing Position/Top (65%), Saddle/Top (25%), Saddle/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -166,11 +167,25 @@ description: "Learn Saddle Defense in BJJ. Step-by-step escape from one of the m
 
 The Saddle Defense (also known as the Honey Hole or 4-11 escape) is a critical defensive sequence designed to escape one of the most dangerous leg entanglement positions in modern BJJ. When caught in the saddle, your opponent controls both your legs while isolating one for heel hook attacks, creating an extremely high-risk submission threat. This defense prioritizes immediate heel protection through proper positioning of the trapped leg, systematic dismantling of opponent control points, and strategic recovery to safer positions. The technique requires precise understanding of leg entanglement mechanics, as improper defensive movements can actually facilitate the heel hook finish. Successfully executing this escape involves controlling your opponent's hip alignment, clearing their leg triangle configuration, and creating the rotational space needed to extract your trapped leg. This is considered an advanced technique due to the severe injury risk associated with heel hooks and the technical precision required under extreme pressure.
 
-**Starting Position**: [[Saddle]]
-**Ending Position**: [[Standing Position]]
+**From Position**: [[Saddle/Top]]
 **Success Rates**: Beginner 25%, Intermediate 45%, Advanced 65%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Standing Position/Top]] | 65% |
+| Failure | [[Saddle/Top]] | 25% |
+| Counter | [[Saddle/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

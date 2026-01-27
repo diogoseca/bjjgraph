@@ -237,6 +237,36 @@
       "question": "Why is the switch to triangle particularly effective in a systematic guard game, and how does it relate to the principle of creating dilemmas?",
       "answer": "The switch to triangle is effective because it capitalizes on your opponent's defensive reactions to other attacks (armbar, omoplata, guillotine). When an opponent successfully defends one submission, they often create the exact positioning needed for the triangle. This embodies the dilemma principle - where every defensive choice leads to another offensive opportunity. By attacking in sequences rather than isolated techniques, you dramatically increase success rates because your opponent must defend multiple threats simultaneously. If they defend the armbar by pulling their arm in, they give you the triangle; if they defend the triangle by posturing, they give you the armbar back. This systematic approach is fundamental to high-level guard play.",
       "safety_critical": false
+    },
+    {
+      "question": "What anatomical structures does the triangle choke attack and what are the indicators that the choke is properly applied?",
+      "answer": "The triangle choke attacks the carotid arteries on both sides of the neck, restricting blood flow to the brain. When properly applied, your opponent's face will begin changing color (reddening), they may start feeling lightheaded, and their defensive movements will become weaker and less coordinated. The key indicator of proper application is bilateral compression - one carotid is compressed by your leg/calf while the other is compressed by their own trapped shoulder being driven into their neck. If they can still breathe normally but feel the blood choke effects, you have correct positioning.",
+      "safety_critical": false
+    },
+    {
+      "question": "Your opponent starts to posture up during the triangle switch - what grip adjustment prevents their escape?",
+      "answer": "When they begin to posture, immediately grab behind their head with both hands and pull their forehead toward your chest while simultaneously squeezing your knees together. This dual action breaks their postural strength before they can fully extend. If they've already created some distance, transition your grips to behind their tricep on the trapped arm side and behind their neck, using a Gable grip to maintain the pull. The key is recognizing the posture attempt early and addressing it before they achieve full extension.",
+      "safety_critical": false
+    },
+    {
+      "question": "What is the point of no escape in the triangle choke, and what control requirements must be established before reaching it?",
+      "answer": "The point of no escape is reached when three conditions are met: (1) the figure-four leg lock is fully secured with ankle behind knee, (2) your body angle is perpendicular creating the T-shape, and (3) their trapped arm is pulled across your centerline eliminating the gap. Before this point, you must establish: broken posture preventing them from sitting back, arm isolation preventing extraction, and hip angle positioning through proper hip escape. Once all three finishing conditions are met simultaneously, even experienced opponents cannot escape without you making a technical error.",
+      "safety_critical": false
+    },
+    {
+      "question": "How do you adjust your finishing grip when your opponent tucks their chin to defend the choke?",
+      "answer": "When opponent tucks their chin, first verify your angle is correct - a perpendicular angle makes chin tucks less effective. Then grab your own shin (the leg across their neck) with one hand while the other hand pulls behind their head. As you squeeze your knees together, use the shin grip to pull your leg tighter while elevating your hips. This creates a smaller circumference that the chin cannot block. Additionally, you can use the hand behind their head to push their chin up while squeezing, or transition to armbar on the trapped arm since their chin defense often relaxes arm protection.",
+      "safety_critical": false
+    },
+    {
+      "question": "In competition when time is running out, what finishing adjustments maximize your tap probability from the triangle?",
+      "answer": "For competition finishing under time pressure: First, aggressively cut your angle to full perpendicular if not already there. Second, grab your own shin and pull your leg as tight as possible while squeezing knees together maximally. Third, elevate your hips high off the mat to create upward pressure. Fourth, control their free wrist and pull it across their own neck to add a third point of compression. Finally, consider pulling their trapped arm straight across your body (armbar threat) which often causes them to relax the arm position trying to defend, inadvertently tightening the choke. The combination of maximum squeeze, hip elevation, and arm manipulation creates finishing pressure most opponents cannot withstand.",
+      "safety_critical": false
+    },
+    {
+      "question": "What are the common finishing errors that result in losing the triangle after the switch is completed?",
+      "answer": "The most common finishing errors are: (1) Failing to maintain perpendicular angle and allowing your body to drift back in front of them, which weakens the choke and enables posture recovery. (2) Not controlling the free arm, allowing them to create frames or relieve pressure. (3) Squeezing with legs but not pulling their head down - both actions must work together. (4) Applying pressure to their jaw or back of skull instead of centering the choke on the neck. (5) Allowing them to walk their fingers toward your hip on the trapped arm side, creating space to extract the arm. (6) Relaxing leg pressure when adjusting hand grips, giving them a window to posture or escape.",
+      "safety_critical": false
     }
   ],
   "training_progressions_and_safety_protocols": [
@@ -297,61 +327,18 @@
   ],
   "related_submissions": [
     "Triangle Choke",
-    "Triangle from Closed Guard",
-    "Triangle from Guard",
     "Armbar from Guard",
     "Triangle to Armbar",
     "Omoplata",
-    "Omoplata from Guard",
-    "Triangle to Omoplata",
-    "Triangle to Back",
     "Inverted Triangle",
     "Guillotine Choke",
     "Kimura from Guard",
-    "Triangle Choke Front",
-    "Rear Naked Choke"
+    "Rear Naked Choke",
+    "Gogoplata",
+    "Armbar from Mount",
+    "Mounted Triangle"
   ],
   "related_content": [
-    {
-      "name": "Triangle Setup",
-      "relationship": "Primary entry technique - teaches initial positioning before the switch"
-    },
-    {
-      "name": "Closed Guard to Triangle",
-      "relationship": "Common starting position for this transition technique"
-    },
-    {
-      "name": "Triangle to Armbar",
-      "relationship": "Counter-technique when opponent defends your triangle switch"
-    },
-    {
-      "name": "Triangle to Omoplata",
-      "relationship": "Alternative chain attack from same positioning"
-    },
-    {
-      "name": "Triangle Escape",
-      "relationship": "Understanding opponent's perspective improves your finishing mechanics"
-    },
-    {
-      "name": "Hip Movement",
-      "relationship": "Essential principle for creating proper angle during switch"
-    },
-    {
-      "name": "Angle Creation",
-      "relationship": "Core principle that makes triangle switch effective"
-    },
-    {
-      "name": "Guard Retention",
-      "relationship": "Foundation skill that enables smooth transitions under pressure"
-    },
-    {
-      "name": "Submission Chains",
-      "relationship": "Strategic framework for linking triangle with other attacks"
-    },
-    {
-      "name": "Ryan Hall Triangle System",
-      "relationship": "Comprehensive system built around triangle transitions and variations"
-    },
     {
       "name": "Triangle Control",
       "relationship": "Position achieved after successful switch - finishing details"
@@ -359,6 +346,42 @@
     {
       "name": "Armbar Control",
       "relationship": "Common starting position before switching to triangle"
+    },
+    {
+      "name": "Omoplata Control",
+      "relationship": "Alternative chain attack from same positioning"
+    },
+    {
+      "name": "Closed Guard",
+      "relationship": "Primary starting position for this transition technique"
+    },
+    {
+      "name": "Spider Guard",
+      "relationship": "Alternative guard position for triangle entry"
+    },
+    {
+      "name": "Rubber Guard",
+      "relationship": "Advanced guard system enabling triangle transitions"
+    },
+    {
+      "name": "Mission Control",
+      "relationship": "Rubber guard position that facilitates triangle switch"
+    },
+    {
+      "name": "Triangle Choke",
+      "relationship": "The submission achieved through this transition"
+    },
+    {
+      "name": "Mounted Triangle",
+      "relationship": "Variation achieved when inverting from stacked position"
+    },
+    {
+      "name": "Omoplata",
+      "relationship": "Chain submission when triangle switch is defended"
+    },
+    {
+      "name": "Armbar from Guard",
+      "relationship": "Primary attack that sets up the triangle switch"
     }
   ]
 }

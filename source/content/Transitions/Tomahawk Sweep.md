@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Tomahawk Sweep | BJJ Technique | BJJ Graph"
 description: "Master the Tomahawk Sweep from X-Guard in BJJ. Dynamic sweep using hook leverage and angle creation. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%."
@@ -16,7 +17,7 @@ description: "Master the Tomahawk Sweep from X-Guard in BJJ. Dynamic sweep using
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Tomahawk Sweep in BJJ",
-  "description": "Step-by-step guide for Tomahawk Sweep from X-Guard to Mount.",
+  "description": "Step-by-step guide for Tomahawk Sweep from X-Guard/Bottom. Possible outcomes: Mount/Top (65%), X-Guard/Bottom (25%), X-Guard/Top (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -160,11 +161,25 @@ description: "Master the Tomahawk Sweep from X-Guard in BJJ. Dynamic sweep using
 
 The Tomahawk Sweep is a dynamic and powerful technique executed from X-Guard that capitalizes on hook leverage and angular momentum to sweep opponents directly to mount or side control. Named for its chopping motion that resembles a tomahawk strike, this sweep exemplifies the offensive potential of X-Guard positions. The technique combines precise hook placement, grip control, and explosive hip extension to destabilize even heavy opponents with superior base. Unlike traditional X-Guard sweeps that often result in scrambles or top position transitions, the Tomahawk Sweep creates a direct pathway to dominant positions when executed with proper timing and angle creation. This sweep is particularly effective against opponents who maintain upright posture while defending X-Guard, as their vertical base becomes a liability when the sweeping motion is initiated. The Tomahawk Sweep represents an essential component of modern guard retention and sweeping systems, offering practitioners a reliable method for reversing bottom positions into top control with minimal energy expenditure.
 
-**Starting Position**: [[X-Guard]]
-**Ending Position**: [[Mount]]
+**From Position**: [[X-Guard/Bottom]]
 **Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Mount/Top]] | 65% |
+| Failure | [[X-Guard/Bottom]] | 25% |
+| Counter | [[X-Guard/Top]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

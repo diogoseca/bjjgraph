@@ -93,26 +93,20 @@ From both perspectives, this position demands technical precision and strategic 
 - Use strategic gripping - control opponent's wrists, sleeves, or hands to limit their ability to complete choke attacks
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Elbow Escape]]** → [[Turtle]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Elbow Escape]]** (17% of attempts)
 
-- **[[Hip Escape]]** → [[Turtle]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Hip Escape]]** (19% of attempts)
 
-- **[[Rolling Back Take]]** → [[Turtle]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Rolling Escape]]** (16% of attempts)
 
-- **[[Back Escape Series]]** → [[Closed Guard]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+- **[[Back Escape Series]]** (14% of attempts)
 
-- **[[Hand Fighting]]** → [[Defensive Position]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Hand Fighting]]** (21% of attempts)
 
-- **[[Technical Standup]]** → [[Standing Position]]
-  - Success Rate: Beginner 10%, Intermediate 25%, Advanced 40%
+- **[[Technical Standup]]** (13% of attempts)
 
 
 ### Common Mistakes
@@ -170,35 +164,26 @@ From both perspectives, this position demands technical precision and strategic 
 - Position Before Submission: Establish complete control before attempting submissions to maximize success rates and prevent escape during transition
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Rear Naked Choke]]** → [[Won by Submission]]
-  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 75%
+- **[[Rear Naked Choke]]** (14% of attempts)
 
-- **[[Armbar from Back with Legs]]** → [[Won by Submission]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 60%
+- **[[Armbar from Back with Legs]]** (12% of attempts)
 
-- **[[Armbar from Back]]** → [[Won by Submission]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 55%
+- **[[Armbar from Back]]** (11% of attempts)
 
-- **[[Bow and Arrow Choke]]** → [[Won by Submission]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 50%
+- **[[Bow and Arrow Choke]]** (10% of attempts)
 
-- **[[Back Control to Crucifix]]** → [[Crucifix]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 55%
+- **[[Back Control to Crucifix]]** (11% of attempts)
 
-- **[[Triangle from Back]]** → [[Won by Submission]]
-  - Success Rate: Beginner 10%, Intermediate 20%, Advanced 35%
+- **[[Triangle from Back]]** (7% of attempts)
 
-- **[[Short Choke]]** → [[Won by Submission]]
-  - Success Rate: Beginner 15%, Intermediate 25%, Advanced 40%
+- **[[Short Choke]]** (8% of attempts)
 
-- **[[Transition to Mount]]** → [[Mount]]
-  - Success Rate: Beginner 40%, Intermediate 60%, Advanced 75%
+- **[[Side Control to Mount]]** (15% of attempts)
 
-- **[[Transition to Truck]]** → [[Truck]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 60%
+- **[[Turtle to Truck]]** (12% of attempts)
 
 
 ### Common Mistakes

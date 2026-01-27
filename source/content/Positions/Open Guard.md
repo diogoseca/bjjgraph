@@ -95,44 +95,32 @@ From the top perspective, Open Guard Top represents the fundamental challenge of
 - Maintain hip mobility and avoid being flattened - once shoulders are pinned, guard retention becomes exponentially harder
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Scissor Sweep]]** → [[Mount]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Scissor Sweep]]** (9% of attempts)
 
-- **[[Hip Bump Sweep]]** → [[Mount]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Hip Bump Sweep]]** (9% of attempts)
 
-- **[[Butterfly Sweep]]** → [[Mount]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Butterfly Sweep]]** (11% of attempts)
 
-- **[[De La Riva Sweep]]** → [[Standing Position]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 60%
+- **[[De La Riva Sweep]]** (9% of attempts)
 
-- **[[X-Guard Sweep]]** → [[Mount]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 70%
+- **[[X-Guard Sweep]]** (10% of attempts)
 
-- **[[Spider Guard Sweeps]]** → [[Mount]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Spider Guard Sweeps]]** (9% of attempts)
 
-- **[[Lasso Guard Sweeps]]** → [[Side Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Lasso Guard Sweeps]]** (9% of attempts)
 
-- **[[Omoplata Sweep]]** → [[Mount]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Omoplata Sweep]]** (8% of attempts)
 
-- **[[Triangle from Guard]]** → [[Triangle Control]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Triangle from Guard]]** (7% of attempts)
 
-- **[[Armbar from Guard]]** → [[Armbar Control]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+- **[[Armbar from Guard]]** (6% of attempts)
 
-- **[[Kimura from Guard]]** → [[Kimura Control]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Kimura from Guard]]** (7% of attempts)
 
-- **[[Omoplata from Guard]]** → [[Omoplata Control]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+- **[[Omoplata from Guard]]** (6% of attempts)
 
 
 ### Common Mistakes
@@ -194,38 +182,28 @@ From the top perspective, Open Guard Top represents the fundamental challenge of
 - Apply strategic pressure to break down guard structures while preserving energy and maintaining safe positioning
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Toreando Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Toreando Pass]]** (12% of attempts)
 
-- **[[Knee Slice Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Knee Slice Pass]]** (10% of attempts)
 
-- **[[Leg Drag Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 60%
+- **[[Leg Drag Pass]]** (10% of attempts)
 
-- **[[Stack Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 55%
+- **[[Stack Pass]]** (9% of attempts)
 
-- **[[Long Step Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 28%, Intermediate 42%, Advanced 58%
+- **[[Long Step Pass]]** (10% of attempts)
 
-- **[[X Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[X Pass]]** (9% of attempts)
 
-- **[[Smash Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 32%, Intermediate 48%, Advanced 62%
+- **[[Smash Pass]]** (10% of attempts)
 
-- **[[Double Under Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 28%, Intermediate 44%, Advanced 58%
+- **[[Double Under Pass]]** (10% of attempts)
 
-- **[[Pressure Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 30%, Intermediate 46%, Advanced 60%
+- **[[Pressure Pass]]** (10% of attempts)
 
-- **[[Knee Cut Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 32%, Intermediate 48%, Advanced 62%
+- **[[Knee Cut Pass]]** (10% of attempts)
 
 
 ### Common Mistakes

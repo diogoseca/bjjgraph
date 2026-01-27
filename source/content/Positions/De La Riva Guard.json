@@ -48,300 +48,6 @@
       "relationship": "Related open guard system with different hook mechanics that serves as alternative when DLR is compromised"
     }
   ],
-  "bottom": {
-    "name": "De La Riva Guard Bottom",
-    "description": "Master De La Riva Guard Bottom in BJJ. Hook-based offensive guard with berimbolo entries, sweeps, and back takes. Complete guide with 65% advanced success.",
-    "tags": [
-      "bjj position de-la-riva open-guard sweeps back-takes",
-      "de la riva guard bottom technique fundamentals",
-      "berimbolo entry kiss of the dragon variations"
-    ],
-    "overview": "De La Riva Guard Bottom is one of the most dynamic and versatile open guard positions in modern Brazilian Jiu-Jitsu. Named after Ricardo De La Riva who revolutionized its use in the 1980s, this position is characterized by the bottom player hooking their opponent's leg from the outside while controlling the opposite sleeve or collar. The De La Riva hook, created by threading your leg around the outside of your opponent's near leg and hooking behind their knee, creates powerful off-balancing opportunities and serves as the foundation for numerous sweeps, back takes, and leg entanglements.\n\nThis position excels at disrupting your opponent's base and posture, making it difficult for them to establish effective pressure or initiate guard passes. The De La Riva hook combined with strategic grips allows the bottom player to control distance, create angles, and threaten multiple attack sequences simultaneously. The position's effectiveness stems from its ability to break down the opponent's structure while maintaining offensive options - when executed properly, it forces the top player into a defensive posture rather than allowing them to dictate the pace of the engagement.\n\nDe La Riva Guard Bottom has become fundamental to competitive BJJ, particularly in no-gi grappling where it transitions seamlessly into leg lock systems and back attacks. The position offers exceptional versatility, allowing practitioners to chain together sweeps, transitions to other guards (X-Guard, Single Leg X), and direct paths to dominant positions like the back or mount. Its modern applications, influenced by practitioners like the Mendes brothers, Cobrinha, and the Miyao brothers, have expanded the position's scope to include berimbolo entries, kiss of the dragon variations, and sophisticated leg entanglement systems.",
-    "state_properties": {
-      "point_value": 0,
-      "position_type": "Offensive",
-      "risk_level": "Medium",
-      "energy_cost": "Medium",
-      "time_sustainability": "Medium"
-    },
-    "state_invariants": [
-      "Bottom player's outside leg threaded around opponent's near leg with foot hooking behind their knee, creating the signature De La Riva hook that controls their base and prevents forward pressure",
-      "Bottom player controlling opponent's opposite sleeve or collar with a cross grip, creating a diagonal control system that disrupts their posture and enables angular attacks"
-    ],
-    "prerequisites": [
-      "Opponent in open guard passing position on their knees or in combat base",
-      "Bottom player has established the De La Riva hook around opponent's near leg",
-      "Bottom player has secured a cross grip on opponent's opposite sleeve, collar, or lapel"
-    ],
-    "key_principles": [
-      "Maintain constant tension on the De La Riva hook by pulling your knee toward your chest and driving your hooking foot into the back of their knee",
-      "Create diagonal control by combining the hook with a strong cross grip to break down their posture and prevent them from squaring up to you",
-      "Use your non-hooking leg actively to manage distance - placing it on their hip, knee, or bicep to prevent them from closing distance and smashing forward",
-      "Keep your hips mobile and shoulders slightly off the mat to enable quick angle changes, inversions, and transitions to other positions",
-      "Constantly off-balance your opponent by pulling with your grips while extending and retracting the De La Riva hook to disrupt their base"
-    ],
-    "offensive_transitions": [
-      {
-        "technique": "De La Riva Sweep",
-        "target_position": "Mount Top",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 50,
-          "advanced": 65
-        }
-      },
-      {
-        "technique": "De La Riva to X-Guard Transition",
-        "target_position": "X-Guard",
-        "success_rates": {
-          "beginner": 40,
-          "intermediate": 60,
-          "advanced": 75
-        }
-      },
-      {
-        "technique": "Berimbolo Entry",
-        "target_position": "Back Control",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 45,
-          "advanced": 65
-        }
-      },
-      {
-        "technique": "Kiss of the Dragon",
-        "target_position": "Back Control",
-        "success_rates": {
-          "beginner": 20,
-          "intermediate": 40,
-          "advanced": 60
-        }
-      },
-      {
-        "technique": "Single Leg X Entry",
-        "target_position": "Single Leg X-Guard",
-        "success_rates": {
-          "beginner": 45,
-          "intermediate": 60,
-          "advanced": 75
-        }
-      },
-      {
-        "technique": "Waiter Sweep",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 50,
-          "advanced": 65
-        }
-      },
-      {
-        "technique": "Balloon Sweep",
-        "target_position": "Mount Top",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 45,
-          "advanced": 60
-        }
-      },
-      {
-        "technique": "Outside Ashi Entry",
-        "target_position": "Outside Ashi-Garami",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 45,
-          "advanced": 65
-        }
-      }
-    ],
-    "defensive_responses": [
-      {
-        "technique": "Knee Cut Pass",
-        "target_position": "Side Control",
-        "success_rate": 40
-      },
-      {
-        "technique": "Toreando Pass",
-        "target_position": "Side Control",
-        "success_rate": 35
-      },
-      {
-        "technique": "Leg Drag Pass",
-        "target_position": "Leg Drag Position",
-        "success_rate": 45
-      },
-      {
-        "technique": "Back Step",
-        "target_position": "Side Control",
-        "success_rate": 50
-      }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Re-Guard",
-        "target_position": "De La Riva Guard",
-        "trigger": "Opponent attempts to clear the De La Riva hook by stepping back"
-      },
-      {
-        "technique": "Reverse De La Riva Recovery",
-        "target_position": "Reverse De La Riva Guard",
-        "trigger": "Opponent squares up and pressures forward to smash the guard"
-      },
-      {
-        "technique": "Butterfly Guard to X-Guard",
-        "target_position": "Butterfly Guard",
-        "trigger": "Opponent breaks the cross grip and closes distance"
-      }
-    ],
-    "decision_tree": [
-      {
-        "condition": "If opponent maintains upright posture and resists being pulled forward",
-        "actions": [
-          {
-            "technique": "De La Riva to X-Guard Transition",
-            "target": "X-Guard",
-            "probability": 70
-          },
-          {
-            "technique": "Single Leg X Entry",
-            "target": "Single Leg X-Guard",
-            "probability": 65
-          }
-        ]
-      },
-      {
-        "condition": "If opponent drives forward with pressure attempting to smash the guard",
-        "actions": [
-          {
-            "technique": "Berimbolo Entry",
-            "target": "Back Control",
-            "probability": 60
-          },
-          {
-            "technique": "Kiss of the Dragon",
-            "target": "Back Control",
-            "probability": 55
-          }
-        ]
-      },
-      {
-        "condition": "If opponent posts on your non-hooking leg and attempts to clear the De La Riva hook",
-        "actions": [
-          {
-            "technique": "De La Riva Sweep",
-            "target": "Mount Top",
-            "probability": 65
-          },
-          {
-            "technique": "Waiter Sweep",
-            "target": "Side Control",
-            "probability": 60
-          }
-        ]
-      }
-    ],
-    "common_errors": [
-      {
-        "error": "Allowing the De La Riva hook to go slack or releasing tension on the opponent's trapped leg",
-        "consequence": "Opponent can easily step back and clear the hook, eliminating your primary control mechanism and allowing them to pass",
-        "correction": "Maintain constant pulling pressure with your hooking leg by keeping your knee pulled toward your chest and actively driving your foot into the back of their knee"
-      },
-      {
-        "error": "Losing the cross grip on the opponent's far sleeve or collar",
-        "consequence": "Without the diagonal control system, opponent can square up their posture, establish better base, and pass with pressure",
-        "correction": "Fight aggressively for the cross grip and if broken, immediately re-establish it or transition to a different guard position"
-      },
-      {
-        "error": "Allowing your non-hooking leg to be controlled or trapped by the opponent",
-        "consequence": "Losing your free leg makes it nearly impossible to maintain distance, change angles, or execute sweeps and transitions",
-        "correction": "Keep your non-hooking leg active and mobile, constantly repositioning it on their hip, bicep, or knee to maintain control of distance"
-      },
-      {
-        "error": "Staying static in one configuration without threatening attacks or changing angles",
-        "consequence": "Opponent can settle into a defensive position, work on clearing your hooks methodically, and eventually pass your guard",
-        "correction": "Constantly chain attacks together, move your hips to create new angles, and threaten multiple techniques to keep opponent reactive"
-      },
-      {
-        "error": "Flattening your back completely to the mat and losing hip mobility",
-        "consequence": "Cannot execute inversions, berimbolo entries, or quick angle changes that make De La Riva guard effective",
-        "correction": "Keep your shoulders slightly elevated off the mat and maintain active hip movement to enable dynamic transitions"
-      }
-    ],
-    "training_drills": [
-      {
-        "name": "De La Riva Hook Retention Drill",
-        "description": "Partner attempts to clear your De La Riva hook using various methods (stepping back, circling, driving forward) while you maintain the hook and grips. Focus on keeping constant tension and re-establishing the hook if temporarily cleared. 3-minute rounds switching roles.",
-        "duration": "3 minutes per round"
-      },
-      {
-        "name": "Sweep Chain Flow Drill",
-        "description": "Starting from De La Riva guard, flow through a sequence of sweeps based on partner's reactions: attempt the basic De La Riva sweep, if defended flow to waiter sweep, then to balloon sweep. Partner provides progressive resistance. Focus on smooth transitions between techniques without resetting to neutral.",
-        "duration": "5 minutes per round"
-      },
-      {
-        "name": "Berimbolo Entry Repetitions",
-        "description": "Practice entering the berimbolo from De La Riva guard with partner providing 50% resistance. Focus on timing the entry when opponent drives forward, maintaining the De La Riva hook throughout the inversion, and coming up to back control. Perform 10 repetitions per side, then switch roles.",
-        "duration": "10 repetitions each side"
-      }
-    ],
-    "optimal_submission_paths": [
-      {
-        "name": "Back Attack Path via Berimbolo",
-        "path": "De La Riva Guard Bottom → Berimbolo Entry → Back Control → Rear Naked Choke"
-      },
-      {
-        "name": "Leg Lock Path via Outside Ashi",
-        "path": "De La Riva Guard Bottom → Outside Ashi Entry → Outside Ashi-Garami → Outside Heel Hook"
-      },
-      {
-        "name": "Mount Submission Path",
-        "path": "De La Riva Guard Bottom → De La Riva Sweep → Mount Top → Armbar from Mount"
-      }
-    ],
-    "related_content": [
-      {
-        "name": "X-Guard",
-        "relationship": "Common transition target from De La Riva when opponent maintains upright posture"
-      },
-      {
-        "name": "Single Leg X-Guard",
-        "relationship": "Alternative guard option when opponent stands or posts on free leg"
-      },
-      {
-        "name": "Reverse De La Riva Guard",
-        "relationship": "Counter-option when opponent drives forward with smash passing pressure"
-      },
-      {
-        "name": "Back Control",
-        "relationship": "Primary dominant position target via berimbolo and kiss of the dragon entries"
-      },
-      {
-        "name": "Outside Ashi-Garami",
-        "relationship": "Leg entanglement option when opponent stands to disengage"
-      }
-    ],
-    "position_metrics": {
-      "retention_rate": {
-        "beginner": 45,
-        "intermediate": 60,
-        "advanced": 75,
-        "description": "Percentage of time guard is maintained against passing attempts across skill levels"
-      },
-      "advancement_probability": {
-        "beginner": 35,
-        "intermediate": 55,
-        "advanced": 70,
-        "description": "Likelihood of successfully advancing to dominant position through sweeps or transitions"
-      },
-      "submission_probability": {
-        "beginner": 10,
-        "intermediate": 20,
-        "advanced": 35,
-        "description": "Probability of achieving submission directly from this position or immediate follow-up"
-      },
-      "average_time": "45-90 seconds per engagement"
-    }
-  },
   "top": {
     "name": "De La Riva Guard Top",
     "description": "Master De La Riva Guard Top passing in BJJ. Complete guide covering DLR hook removal, pressure strategies, mobile passing, and modern guard passing systems.",
@@ -374,117 +80,30 @@
       "Hip Control: Don't allow bottom player to maintain optimal hip angle perpendicular to you, as this angle maximizes their sweeping power and berimbolo entries",
       "Pressure Application: Once hooks are neutralized, apply passing pressure immediately to prevent guard recovery"
     ],
-    "offensive_transitions": [
+    "transitions": [
       {
-        "technique": "Toreando Pass",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 50,
-          "advanced": 65
-        }
+        "transition": "Toreando Pass",
+        "attempt_probability": 20
       },
       {
-        "technique": "Knee Slice Pass",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 45,
-          "advanced": 60
-        }
+        "transition": "Knee Slice Pass",
+        "attempt_probability": 25
       },
       {
-        "technique": "X Pass",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 40,
-          "advanced": 55
-        }
+        "transition": "X Pass",
+        "attempt_probability": 15
       },
       {
-        "technique": "Leg Drag Pass",
-        "target_position": "Leg Drag Position",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 45,
-          "advanced": 60
-        }
+        "transition": "Leg Drag Pass",
+        "attempt_probability": 18
       },
       {
-        "technique": "Long Step Pass",
-        "target_position": "Headquarters Position",
-        "success_rates": {
-          "beginner": 28,
-          "intermediate": 42,
-          "advanced": 58
-        }
+        "transition": "Long Step Pass",
+        "attempt_probability": 12
       },
       {
-        "technique": "Stack Pass",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 20,
-          "intermediate": 35,
-          "advanced": 50
-        }
-      },
-      {
-        "technique": "RDLR Pass",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 22,
-          "intermediate": 38,
-          "advanced": 52
-        }
-      },
-      {
-        "technique": "Smash Pass",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 40,
-          "advanced": 55
-        }
-      }
-    ],
-    "defensive_responses": [
-      {
-        "technique": "De La Riva Sweep",
-        "target_position": "Mount Top",
-        "success_rate": 45
-      },
-      {
-        "technique": "Berimbolo Entry",
-        "target_position": "Back Control",
-        "success_rate": 35
-      },
-      {
-        "technique": "De La Riva to X-Guard Transition",
-        "target_position": "X-Guard",
-        "success_rate": 40
-      },
-      {
-        "technique": "Single Leg X Entry",
-        "target_position": "Single Leg X-Guard",
-        "success_rate": 38
-      }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Leg Drag Setup",
-        "target_position": "Leg Drag Position",
-        "trigger": "Bottom player attempts to square hips or recover DLR hook after initial removal"
-      },
-      {
-        "technique": "Knee Slice from Half",
-        "target_position": "Side Control",
-        "trigger": "Bottom player transitions to half guard during passing sequence as defensive recovery"
-      },
-      {
-        "technique": "Saddle Entry from Top",
-        "target_position": "Saddle",
-        "trigger": "Bottom player exposes leg during berimbolo attempt or DLR recovery, creating leg entanglement opportunity"
+        "transition": "Smash Pass",
+        "attempt_probability": 10
       }
     ],
     "decision_tree": [
@@ -580,16 +199,16 @@
     ],
     "optimal_submission_paths": [
       {
-        "name": "Leg Lock Path via Saddle",
-        "path": "De La Riva Guard Top → Saddle Entry from Top → Saddle → Heel Hook"
+        "name": "Pass to Mount Armbar",
+        "path": "Toreando Pass → Side Control → Mount → Armbar from Mount"
       },
       {
-        "name": "Standard Passing to Submission Path",
-        "path": "De La Riva Guard Top → Knee Slice Pass → Side Control → Americana from Side Control"
+        "name": "Leg Drag to Back Attack",
+        "path": "Leg Drag Pass → Leg Drag Position → Back Take → Rear Naked Choke"
       },
       {
-        "name": "High-Percentage Passing to Back Attack",
-        "path": "De La Riva Guard Top → Leg Drag Pass → Leg Drag Position → Rolling Back Take → Back Control → Rear Naked Choke"
+        "name": "Smash to Arm Triangle",
+        "path": "Smash Pass → Side Control → Arm Triangle"
       }
     ],
     "related_content": [
@@ -634,6 +253,221 @@
         "description": "Probability of achieving submission during or after successful guard pass"
       },
       "average_time": "45-90 seconds before pass or sweep"
+    }
+  },
+  "bottom": {
+    "name": "De La Riva Guard Bottom",
+    "description": "Master De La Riva Guard Bottom in BJJ. Hook-based offensive guard with berimbolo entries, sweeps, and back takes. Complete guide with 65% advanced success.",
+    "tags": [
+      "bjj position de-la-riva open-guard sweeps back-takes",
+      "de la riva guard bottom technique fundamentals",
+      "berimbolo entry kiss of the dragon variations"
+    ],
+    "overview": "De La Riva Guard Bottom is one of the most dynamic and versatile open guard positions in modern Brazilian Jiu-Jitsu. Named after Ricardo De La Riva who revolutionized its use in the 1980s, this position is characterized by the bottom player hooking their opponent's leg from the outside while controlling the opposite sleeve or collar. The De La Riva hook, created by threading your leg around the outside of your opponent's near leg and hooking behind their knee, creates powerful off-balancing opportunities and serves as the foundation for numerous sweeps, back takes, and leg entanglements.\n\nThis position excels at disrupting your opponent's base and posture, making it difficult for them to establish effective pressure or initiate guard passes. The De La Riva hook combined with strategic grips allows the bottom player to control distance, create angles, and threaten multiple attack sequences simultaneously. The position's effectiveness stems from its ability to break down the opponent's structure while maintaining offensive options - when executed properly, it forces the top player into a defensive posture rather than allowing them to dictate the pace of the engagement.\n\nDe La Riva Guard Bottom has become fundamental to competitive BJJ, particularly in no-gi grappling where it transitions seamlessly into leg lock systems and back attacks. The position offers exceptional versatility, allowing practitioners to chain together sweeps, transitions to other guards (X-Guard, Single Leg X), and direct paths to dominant positions like the back or mount. Its modern applications, influenced by practitioners like the Mendes brothers, Cobrinha, and the Miyao brothers, have expanded the position's scope to include berimbolo entries, kiss of the dragon variations, and sophisticated leg entanglement systems.",
+    "state_properties": {
+      "point_value": 0,
+      "position_type": "Offensive",
+      "risk_level": "Medium",
+      "energy_cost": "Medium",
+      "time_sustainability": "Medium"
+    },
+    "state_invariants": [
+      "Bottom player's outside leg threaded around opponent's near leg with foot hooking behind their knee, creating the signature De La Riva hook that controls their base and prevents forward pressure",
+      "Bottom player controlling opponent's opposite sleeve or collar with a cross grip, creating a diagonal control system that disrupts their posture and enables angular attacks"
+    ],
+    "prerequisites": [
+      "Opponent in open guard passing position on their knees or in combat base",
+      "Bottom player has established the De La Riva hook around opponent's near leg",
+      "Bottom player has secured a cross grip on opponent's opposite sleeve, collar, or lapel"
+    ],
+    "key_principles": [
+      "Maintain constant tension on the De La Riva hook by pulling your knee toward your chest and driving your hooking foot into the back of their knee",
+      "Create diagonal control by combining the hook with a strong cross grip to break down their posture and prevent them from squaring up to you",
+      "Use your non-hooking leg actively to manage distance - placing it on their hip, knee, or bicep to prevent them from closing distance and smashing forward",
+      "Keep your hips mobile and shoulders slightly off the mat to enable quick angle changes, inversions, and transitions to other positions",
+      "Constantly off-balance your opponent by pulling with your grips while extending and retracting the De La Riva hook to disrupt their base"
+    ],
+    "transitions": [
+      {
+        "transition": "De La Riva Sweep",
+        "attempt_probability": 18
+      },
+      {
+        "transition": "De La Riva to X-Guard Transition",
+        "attempt_probability": 17
+      },
+      {
+        "transition": "Berimbolo Entry",
+        "attempt_probability": 15
+      },
+      {
+        "transition": "Kiss of the Dragon",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Single Leg X Entry",
+        "attempt_probability": 15
+      },
+      {
+        "transition": "Waiter Sweep",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Balloon Sweep",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Outside Ashi Entry",
+        "attempt_probability": 7
+      }
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent maintains upright posture and resists being pulled forward",
+        "actions": [
+          {
+            "technique": "De La Riva to X-Guard Transition",
+            "target": "X-Guard",
+            "probability": 70
+          },
+          {
+            "technique": "Single Leg X Entry",
+            "target": "Single Leg X-Guard",
+            "probability": 65
+          }
+        ]
+      },
+      {
+        "condition": "If opponent drives forward with pressure attempting to smash the guard",
+        "actions": [
+          {
+            "technique": "Berimbolo Entry",
+            "target": "Back Control",
+            "probability": 60
+          },
+          {
+            "technique": "Kiss of the Dragon",
+            "target": "Back Control",
+            "probability": 55
+          }
+        ]
+      },
+      {
+        "condition": "If opponent posts on your non-hooking leg and attempts to clear the De La Riva hook",
+        "actions": [
+          {
+            "technique": "De La Riva Sweep",
+            "target": "Mount",
+            "probability": 65
+          },
+          {
+            "technique": "Waiter Sweep",
+            "target": "Side Control",
+            "probability": 60
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Allowing the De La Riva hook to go slack or releasing tension on the opponent's trapped leg",
+        "consequence": "Opponent can easily step back and clear the hook, eliminating your primary control mechanism and allowing them to pass",
+        "correction": "Maintain constant pulling pressure with your hooking leg by keeping your knee pulled toward your chest and actively driving your foot into the back of their knee"
+      },
+      {
+        "error": "Losing the cross grip on the opponent's far sleeve or collar",
+        "consequence": "Without the diagonal control system, opponent can square up their posture, establish better base, and pass with pressure",
+        "correction": "Fight aggressively for the cross grip and if broken, immediately re-establish it or transition to a different guard position"
+      },
+      {
+        "error": "Allowing your non-hooking leg to be controlled or trapped by the opponent",
+        "consequence": "Losing your free leg makes it nearly impossible to maintain distance, change angles, or execute sweeps and transitions",
+        "correction": "Keep your non-hooking leg active and mobile, constantly repositioning it on their hip, bicep, or knee to maintain control of distance"
+      },
+      {
+        "error": "Staying static in one configuration without threatening attacks or changing angles",
+        "consequence": "Opponent can settle into a defensive position, work on clearing your hooks methodically, and eventually pass your guard",
+        "correction": "Constantly chain attacks together, move your hips to create new angles, and threaten multiple techniques to keep opponent reactive"
+      },
+      {
+        "error": "Flattening your back completely to the mat and losing hip mobility",
+        "consequence": "Cannot execute inversions, berimbolo entries, or quick angle changes that make De La Riva guard effective",
+        "correction": "Keep your shoulders slightly elevated off the mat and maintain active hip movement to enable dynamic transitions"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "De La Riva Hook Retention Drill",
+        "description": "Partner attempts to clear your De La Riva hook using various methods (stepping back, circling, driving forward) while you maintain the hook and grips. Focus on keeping constant tension and re-establishing the hook if temporarily cleared. 3-minute rounds switching roles.",
+        "duration": "3 minutes per round"
+      },
+      {
+        "name": "Sweep Chain Flow Drill",
+        "description": "Starting from De La Riva guard, flow through a sequence of sweeps based on partner's reactions: attempt the basic De La Riva sweep, if defended flow to waiter sweep, then to balloon sweep. Partner provides progressive resistance. Focus on smooth transitions between techniques without resetting to neutral.",
+        "duration": "5 minutes per round"
+      },
+      {
+        "name": "Berimbolo Entry Repetitions",
+        "description": "Practice entering the berimbolo from De La Riva guard with partner providing 50% resistance. Focus on timing the entry when opponent drives forward, maintaining the De La Riva hook throughout the inversion, and coming up to back control. Perform 10 repetitions per side, then switch roles.",
+        "duration": "10 repetitions each side"
+      }
+    ],
+    "optimal_submission_paths": [
+      {
+        "name": "Berimbolo to Back Finish",
+        "path": "De La Riva Guard → Berimbolo Entry → Back Control → Rear Naked Choke"
+      },
+      {
+        "name": "X-Guard Sweep to Mount",
+        "path": "De La Riva Guard → X-Guard Transition → X-Guard Sweep → Mount → Cross Collar Choke"
+      },
+      {
+        "name": "Leg Entry to Heel Hook",
+        "path": "De La Riva Guard → Outside Ashi Entry → Outside Ashi-Garami → Heel Hook"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "X-Guard",
+        "relationship": "Common transition target from De La Riva when opponent maintains upright posture"
+      },
+      {
+        "name": "Single Leg X-Guard",
+        "relationship": "Alternative guard option when opponent stands or posts on free leg"
+      },
+      {
+        "name": "Reverse De La Riva Guard",
+        "relationship": "Counter-option when opponent drives forward with smash passing pressure"
+      },
+      {
+        "name": "Back Control",
+        "relationship": "Primary dominant position target via berimbolo and kiss of the dragon entries"
+      },
+      {
+        "name": "Outside Ashi-Garami",
+        "relationship": "Leg entanglement option when opponent stands to disengage"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "beginner": 45,
+        "intermediate": 60,
+        "advanced": 75,
+        "description": "Percentage of time guard is maintained against passing attempts across skill levels"
+      },
+      "advancement_probability": {
+        "beginner": 35,
+        "intermediate": 55,
+        "advanced": 70,
+        "description": "Likelihood of successfully advancing to dominant position through sweeps or transitions"
+      },
+      "submission_probability": {
+        "beginner": 10,
+        "intermediate": 20,
+        "advanced": 35,
+        "description": "Probability of achieving submission directly from this position or immediate follow-up"
+      },
+      "average_time": "45-90 seconds per engagement"
     }
   }
 }

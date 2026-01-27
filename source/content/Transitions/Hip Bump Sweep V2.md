@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Hip Bump Sweep V2 | BJJ Technique | BJJ Graph"
 description: "Master the Hip Bump Sweep from Closed Guard. Complete guide with setup, execution steps, and success rates: Beginner 30%, Intermediate 50%, Advanced 70%."
@@ -16,7 +17,7 @@ description: "Master the Hip Bump Sweep from Closed Guard. Complete guide with s
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Hip Bump Sweep V2 in BJJ",
-  "description": "Step-by-step guide for Hip Bump Sweep V2 from Closed Guard to Mount.",
+  "description": "Step-by-step guide for Hip Bump Sweep V2 from Closed Guard/Bottom. Possible outcomes: Mount/Top (70%), Closed Guard/Bottom (20%), Closed Guard/Top (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -158,11 +159,25 @@ The Hip Bump Sweep serves as a cornerstone technique in closed guard offense, te
 
 This sweep is considered essential curriculum for white and blue belts, as it develops fundamental skills in breaking posture, creating angles, and understanding weight distribution. The Hip Bump Sweep integrates seamlessly into closed guard attack systems and creates multiple offensive opportunities through the reactions it generates from opponents.
 
-**Starting Position**: [[Closed Guard]]
-**Ending Position**: [[Mount]]
+**From Position**: [[Closed Guard/Bottom]]
 **Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Mount/Top]] | 70% |
+| Failure | [[Closed Guard/Bottom]] | 20% |
+| Counter | [[Closed Guard/Top]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

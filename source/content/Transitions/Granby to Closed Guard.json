@@ -10,8 +10,6 @@
     "defensive-technique",
     "movement"
   ],
-  "starting_position": "Turtle",
-  "ending_position": "Closed Guard",
   "success_rates": {
     "beginner": 35,
     "intermediate": 50,
@@ -268,6 +266,24 @@
     {
       "name": "Frame and Shrimp",
       "relationship": "Alternative escape combining framing with linear movement"
+    }
+  ],
+  "from_position": "Turtle/Top",
+  "outcomes": [
+    {
+      "to": "Closed Guard/Bottom",
+      "probability": 65,
+      "result": "success"
+    },
+    {
+      "to": "Turtle/Top",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Turtle/Bottom",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

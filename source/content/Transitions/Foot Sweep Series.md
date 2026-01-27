@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Foot Sweep Series | BJJ Technique | BJJ Graph"
 description: "Master foot sweep techniques in BJJ. Learn Deashi Harai, Kosoto Gari, and Kouchi Gari execution from standing. Success: Beginner 30%, Intermediate 50%, Advanced 70%."
@@ -16,7 +17,7 @@ description: "Master foot sweep techniques in BJJ. Learn Deashi Harai, Kosoto Ga
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Foot Sweep Series in BJJ",
-  "description": "Step-by-step guide for Foot Sweep Series from Standing Position to Side Control.",
+  "description": "Step-by-step guide for Foot Sweep Series from Standing Position/Top. Possible outcomes: Side Control/Top (70%), Standing Position/Top (20%), Standing Position/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -158,11 +159,25 @@ The primary techniques in this series include Deashi Harai (advancing foot sweep
 
 Mastering foot sweeps requires developing exceptional timing, balance, and sensitivity to opponent's weight shifts. These techniques are particularly effective in gi competition where grips provide better control and feedback, but they can also be adapted for no-gi with proper hand fighting and body positioning. The foot sweep series forms a complete standing system that can be combined with other takedowns and guard pulls to create a well-rounded approach to starting the match on your terms.
 
-**Starting Position**: [[Standing Position]]
-**Ending Position**: [[Side Control]]
+**From Position**: [[Standing Position/Top]]
 **Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Side Control/Top]] | 70% |
+| Failure | [[Standing Position/Top]] | 20% |
+| Counter | [[Standing Position/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

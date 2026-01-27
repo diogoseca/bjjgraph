@@ -21,37 +21,37 @@ description: "Master bottom butterfly half guard - hybrid position combining but
     {
       "@type": "HowToStep",
       "name": "Execute 100% Sweep",
-      "text": "From this position, execute 100% Sweep to transition to Mount. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt 100% Sweep. This technique is attempted in 11% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Old School Sweep",
-      "text": "From this position, execute Old School Sweep to transition to Side Control. Success rate for advanced practitioners: 80%.",
+      "text": "From this position, attempt Old School Sweep. This technique is attempted in 13% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Butterfly Sweep",
-      "text": "From this position, execute Butterfly Sweep to transition to Mount. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Butterfly Sweep. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Deep Half Entry",
-      "text": "From this position, execute Deep Half Entry to transition to Deep Half Guard. Success rate for advanced practitioners: 85%.",
+      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Waiter Sweep",
-      "text": "From this position, execute Waiter Sweep to transition to Side Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Waiter Sweep. This technique is attempted in 9% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Sweep from Half",
-      "text": "From this position, execute Underhook Sweep from Half to transition to Dogfight Position. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -216,110 +216,26 @@ Success in butterfly half guard bottom requires mastering several key technical 
 
 ## Available Escapes
 
-### [[100% Sweep]] → [[Mount]]
+### [[100% Sweep]] (11% of attempts)
 
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 60%
-- Advanced: 75%
+### [[Old School Sweep]] (13% of attempts)
 
-### [[Old School Sweep]] → [[Side Control]]
+### [[Butterfly Sweep]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 50%
-- Intermediate: 65%
-- Advanced: 80%
+### [[Deep Half Entry]] (12% of attempts)
 
-### [[Butterfly Sweep]] → [[Mount]]
+### [[Waiter Sweep]] (9% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Underhook Sweep from Half]] (10% of attempts)
 
-### [[Deep Half Entry]] → [[Deep Half Guard]]
+### [[Knee Tap]] (9% of attempts)
 
-**Success Rates:**
-- Beginner: 55%
-- Intermediate: 70%
-- Advanced: 85%
+### [[Half Guard to Back Take]] (9% of attempts)
 
-### [[Waiter Sweep]] → [[Side Control]]
+### [[Butterfly Guard to X-Guard]] (8% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Lockdown Sweeps]] (9% of attempts)
 
-### [[Underhook Sweep from Half]] → [[Dogfight Position]]
-
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
-
-### [[Knee Tap]] → [[Standing Position]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-### [[Half Guard to Back Take]] → [[Back Control]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[Butterfly Guard to X-Guard]] → [[X-Guard]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-### [[Lockdown Sweeps]] → [[Lockdown]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Half Guard Pass]]** → [[Side Control]] (Opponent Success: 45%)
-- **[[Knee Slice Pass]]** → [[Side Control]] (Opponent Success: 40%)
-- **[[Smash Pass]]** → [[Side Control]] (Opponent Success: 50%)
-- **[[Underhook Pass]]** → [[Side Control]] (Opponent Success: 45%)
-- **[[Pressure Pass]]** → [[Headquarters Position]] (Opponent Success: 35%)
-- **[[Long Step Pass]]** → [[Side Control]] (Opponent Success: 40%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Deep Half Entry]]** → [[Deep Half Guard]]
-  - Opponent attempts to free trapped leg and drives forward with heavy pressure and crossface
-- **[[Old School Sweep]]** → [[Side Control]]
-  - Opponent posts hand on mat to defend butterfly sweep elevation and weight distribution shifts
-- **[[Lockdown Sweeps]]** → [[Lockdown]]
-  - Opponent successfully flattens you or establishes strong crossface control threatening to consolidate pass
-- **[[Half Guard to Back Take]]** → [[Back Control]]
-  - Opponent attempts to step over trapped leg or transition to north-south exposing their back
-- **[[Waiter Sweep]]** → [[Side Control]]
-  - Opponent drives weight forward and commits to smash pass with heavy shoulder pressure
-- **[[Butterfly Guard to X-Guard]]** → [[X-Guard]]
-  - Opponent stands or posts high to defend butterfly hook elevation creating space underneath
 
 
 </section>
@@ -444,37 +360,39 @@ Isolated drill focusing exclusively on hip angle adjustments to optimize sweep m
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Shortest path to submission
+## Test Your Knowledge
 
-`Butterfly Half Guard Bottom → 100% Sweep → Mount → Mounted Triangle`
+**Q1**: What is the optimal body posture for maintaining butterfly half guard and why does lying flat compromise the position?
+**A**: The optimal posture is seated or semi-reclined with shoulders elevated 30-45 degrees off the mat. This posture creates the mechanical foundation for sweep leverage by allowing your hips to move freely and generate power through the butterfly hook. Lying flat eliminates the geometric advantage because your hook can only push upward rather than drive at an angle, your core cannot engage effectively to coordinate the sweep, and your opponent can apply crushing shoulder pressure without you having leverage to counter.
 
-### High-percentage submission path
+**Q2**: What are the essential grips for maintaining offensive pressure from butterfly half guard bottom?
+**A**: The primary grip is an underhook on the butterfly hook side, threading your arm under their armpit to control their lat or back. This prevents them from driving forward pressure and gives you pulling power for sweeps. Secondary grips include collar tie on the same side for posture control, or far side collar grip in gi to prevent them from posturing up. The underhook is non-negotiable - without it, your sweeping power is severely diminished and they can flatten you at will.
 
-`Butterfly Half Guard Bottom → Half Guard to Back Take → Back Control → Rear Naked Choke`
+**Q3**: Your opponent establishes a strong crossface and begins flattening you out - what immediate adjustment do you make?
+**A**: Immediately transition to deep half guard or lockdown to preserve guard retention. For deep half, release the butterfly hook temporarily and dive underneath their hips, sliding your head toward their far hip. For lockdown, figure-four your legs around their trapped leg and use the whip-up motion to off-balance them. The key is recognizing that your butterfly half structure is compromised and flowing to a related position rather than fighting a losing battle against the crossface pressure.
 
-### Deep half submission sequence
+**Q4**: How do you maintain the butterfly hook under pressure when your opponent is trying to flatten and kill it?
+**A**: Keep the hook active by constantly driving your foot upward under their thigh, pointing toes outward. Your knee should stay bent at approximately 90 degrees with hip flexors engaged. If they pressure down, briefly extend your leg to create space then immediately re-insert the hook. Never let the hook become passive - treat it as a continuous threat even between sweep attempts. If they successfully kill the hook, immediately transition to knee shield or deep half rather than trying to re-establish butterfly half without the hook.
 
-`Butterfly Half Guard Bottom → Deep Half Entry → Deep Half Guard → Waiter Sweep → Side Control → Kimura from Side Control`
+**Q5**: Your opponent posts their hand on the mat to prevent your butterfly sweep elevation - what opportunity does this create?
+**A**: A hand post creates the perfect setup for the old school sweep. When they post, their weight shifts to that side and their far hip becomes vulnerable. Secure a deep underhook, come up onto your elbow on the non-butterfly side, and drive into them while hooking their far leg. Their posted hand prevents them from basing in that direction, making the sweep high percentage. This is the fundamental action-reaction chain of butterfly half - threaten butterfly sweep to force a hand post, then attack old school.
 
-### Direct submission threat
+**Q6**: How should you anticipate and react when your opponent begins standing up to defend your butterfly hook?
+**A**: Standing creates space underneath them, which is the entry to X-guard or single leg X. As they begin to stand, immediately insert your free foot on their hip while maintaining the butterfly hook. This creates X-guard structure. Alternatively, if they stand quickly, release the half guard trap and transition to full butterfly or single leg X for technical standup opportunities. The key insight is that standing to defend butterfly hook trades one vulnerability for another - use their height to attack their base from underneath.
 
-`Butterfly Half Guard Bottom → Guillotine Choke (when opponent overcommits to pass with head exposed)`
+**Q7**: What is the proper timing and coordination between your butterfly hook drive and upper body pull during sweep execution?
+**A**: The butterfly hook drive and upper body pull must be simultaneous and coordinated. Start with a slight hip adjustment to create the perpendicular angle (about 45 degrees to their base). Then explode through the hook while pulling your underhook toward your opposite hip in one unified motion. The hook provides elevation and off-balancing while the pull controls their trajectory over the sweep. Common mistake is driving the hook first then pulling - this gives them time to base out. The movements must be unified.
 
-### Leg attack pathway
-
-`Butterfly Half Guard Bottom → Deep Half Entry → Deep Half Guard → Kneebar from Half Guard`
-
-### X-guard submission chain
-
-`Butterfly Half Guard Bottom → Butterfly Guard to X-Guard → X-Guard Sweep → Mount → Armbar from Mount`
+**Q8**: How do you manage energy when your opponent is defending your sweeps effectively and the position becomes a stalemate?
+**A**: Avoid repeatedly forcing the same sweep that's being defended - this burns energy without results. Instead, maintain your core structure with minimal effort (slight shoulder elevation, active but not maximal hook pressure) and wait for them to initiate movement. Their passing attempts create the opportunities for your counters. If truly stalled, flow to a related position (deep half, lockdown, full butterfly) to reset the dynamic. Energy management means making them work to defend while you stay ready to capitalize on their movements.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 

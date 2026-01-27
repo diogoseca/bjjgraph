@@ -9,8 +9,6 @@
     "back-control",
     "pinning"
   ],
-  "starting_position": "Turtle",
-  "ending_position": "Back Control",
   "success_rates": {
     "beginner": 35,
     "intermediate": 50,
@@ -272,6 +270,24 @@
     {
       "name": "Turtle to Standing",
       "relationship": "Opponent's escape attempt requiring counter-adjustment"
+    }
+  ],
+  "from_position": "Turtle/Top",
+  "outcomes": [
+    {
+      "to": "Back Control/Top",
+      "probability": 70,
+      "result": "success"
+    },
+    {
+      "to": "Turtle/Top",
+      "probability": 20,
+      "result": "failure"
+    },
+    {
+      "to": "Turtle/Bottom",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

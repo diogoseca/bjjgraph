@@ -10,8 +10,6 @@
     "submission-setup",
     "guard-attack"
   ],
-  "starting_position": "Closed Guard",
-  "ending_position": "Triangle Control",
   "success_rates": {
     "beginner": 25,
     "intermediate": 40,
@@ -263,6 +261,24 @@
     {
       "name": "Posture Recovery",
       "relationship": "Key defensive concept opponent uses against this attack"
+    }
+  ],
+  "from_position": "Closed Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Triangle Control/Top",
+      "probability": 60,
+      "result": "success"
+    },
+    {
+      "to": "Closed Guard/Bottom",
+      "probability": 30,
+      "result": "failure"
+    },
+    {
+      "to": "Closed Guard/Top",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

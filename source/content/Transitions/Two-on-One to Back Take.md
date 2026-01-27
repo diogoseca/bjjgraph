@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Two-on-One to Back Take | BJJ Technique | BJJ Graph"
 description: "Master the Two-on-One to Back Take in BJJ. Step-by-step execution from standing clinch position. Success rates: Beginner 35%, Intermediate 50%, Advanced 70%."
@@ -16,7 +17,7 @@ description: "Master the Two-on-One to Back Take in BJJ. Step-by-step execution 
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Two-on-One to Back Take in BJJ",
-  "description": "Step-by-step guide for Two-on-One to Back Take from Clinch to Back Control.",
+  "description": "Step-by-step guide for Two-on-One to Back Take from Clinch/Top. Possible outcomes: Back Control/Top (70%), Clinch/Top (20%), Clinch/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -154,11 +155,25 @@ description: "Master the Two-on-One to Back Take in BJJ. Step-by-step execution 
 
 The Two-on-One to Back Take is a fundamental wrestling-based transition that exploits control of a single arm to access the opponent's back from standing positions. This technique leverages the asymmetrical control created when both hands control one of the opponent's arms, creating a mechanical disadvantage that prevents effective defense while opening pathways to superior positioning. The two-on-one grip, also known as a Russian tie in wrestling, is one of the most dominant control positions in standing grappling because it simultaneously neutralizes one of the opponent's primary defensive tools while creating clear paths to the back. The transition capitalizes on the opponent's inability to effectively defend their back when one arm is compromised and their body rotation is controlled. This technique represents a bridge between wrestling and Brazilian Jiu-Jitsu methodologies, combining upper body control with positional advancement principles. The back take can be executed through multiple pathways depending on opponent reactions, including stepping behind, duck-under variations, or arm drag mechanics, making it a versatile addition to any standing game.
 
-**Starting Position**: [[Clinch]]
-**Ending Position**: [[Back Control]]
+**From Position**: [[Clinch/Top]]
 **Success Rates**: Beginner 35%, Intermediate 50%, Advanced 70%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Back Control/Top]] | 70% |
+| Failure | [[Clinch/Top]] | 20% |
+| Counter | [[Clinch/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

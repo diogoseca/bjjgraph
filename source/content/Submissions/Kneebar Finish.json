@@ -263,6 +263,31 @@
       "question": "What anatomical structures are at risk during a kneebar submission, and what are the severity and recovery implications?",
       "answer": "The kneebar primarily threatens the posterior cruciate ligament (PCL), which prevents posterior translation of the tibia and resists hyperextension. PCL tears are high-severity injuries requiring 6-12 months of surgical recovery with extensive rehabilitation. The medial and lateral collateral ligaments (MCL/LCL) are also at risk, with complete tears requiring 3-6 months recovery. Additionally, the joint capsule can sustain damage causing synovial inflammation (2-6 weeks recovery), and rotational stress during escape attempts can cause meniscus tears requiring 4-6 months including potential surgical repair. Unlike some submissions where pain precedes damage, knee hyperextension can cause structural failure rapidly, making the kneebar one of the higher-risk submissions in terms of potential injury severity. This anatomical vulnerability is why kneebars often face restrictions in beginner competition divisions and why many academies delay teaching them until students demonstrate sufficient control and awareness.",
       "safety_critical": true
+    },
+    {
+      "question": "Your opponent starts to internally rotate their knee during your kneebar attempt—what grip adjustment prevents escape?",
+      "answer": "When the opponent begins internally rotating their knee, immediately tighten your foot control by pulling their foot deeper into your armpit rather than your chest. The armpit position provides superior rotational control because it locks the foot against the junction of your arm and torso. Simultaneously, adjust your leg triangle by repositioning your outside leg higher on their hip to physically block their hip rotation. If their toes were pointing toward your head, ensure they stay locked in that orientation by cupping their heel and maintaining constant pulling pressure. The key is addressing the rotation at the foot level—if you allow their foot to turn, the knee follows. In training, recognize this defense early and adjust before they complete the rotation, rather than forcing the finish against a compromised angle.",
+      "safety_critical": false
+    },
+    {
+      "question": "How do you identify the exact moment when the kneebar transitions from control position to submission threat?",
+      "answer": "The transition from control to submission threat occurs when three elements converge: (1) their knee is centered on your pubic bone with no lateral drift, (2) your leg triangle eliminates all space and their leg cannot rotate independently of your body, and (3) their foot is locked to your body so tightly that any hip extension you generate transfers directly to their knee joint. At this point of no escape, even minimal hip extension creates immediate pressure on the knee. You can test this threshold by applying gentle pressure—if they feel any knee discomfort with light extension, you have achieved the submission position. In competition, skilled practitioners recognize this moment and accelerate the finish; in training, this recognition point is where you slow down and apply the 5-7 second progressive pressure standard, giving your partner time to tap before any joint stress becomes dangerous.",
+      "safety_critical": false
+    },
+    {
+      "question": "What are the critical grip adjustments needed when finishing a kneebar against a flexible opponent?",
+      "answer": "Flexible opponents can tolerate greater hyperextension angles before experiencing submission pressure, requiring adjusted finishing mechanics. First, ensure your hip elevation is maximized—bridge higher than you would against a normal opponent to extend beyond their flexibility range. Second, pull their foot deeper into your body, potentially transitioning from chest to armpit position for increased extension. Third, consider angling their foot slightly to create a compound stretch that adds rotational stress to the pure hyperextension—this is still a kneebar but attacks the joint from multiple vectors. Fourth, ensure your upper back remains absolutely planted to generate maximum hip drive. Against very flexible opponents, you may need to hold the position longer and accept that the tap comes from accumulated stress rather than immediate submission threat. Never compensate for their flexibility by applying explosive force—the answer is better positioning and patience, not violence.",
+      "safety_critical": true
+    },
+    {
+      "question": "In competition, how do you recognize when an opponent has structurally compromised their knee versus when they are simply not tapping?",
+      "answer": "Structural compromise manifests through several observable indicators: sudden loss of defensive tension in their leg (the muscle resistance disappears), an audible pop or crack sound, the opponent's body language shifting from active defense to frozen pain response, or the joint achieving an angle clearly beyond normal anatomical range. However, in competition you should never intentionally seek structural damage—the goal is to create a position where the opponent recognizes submission is inevitable and taps. If you achieve a locked, perfectly positioned kneebar and the opponent refuses to tap despite clearly being caught, maintain the position and continue progressive pressure while staying alert to referee intervention. Some competitors have high pain tolerance or are willing to sacrifice their knee rather than lose—this is their choice, but you must not accelerate or spike the pressure to force the issue. Your responsibility is correct technique and controlled application; their responsibility is recognizing when to submit.",
+      "safety_critical": true
+    },
+    {
+      "question": "How does the finishing strategy differ between bottom kneebar (from ashi garami) versus top kneebar (from passing or turtle)?",
+      "answer": "Bottom kneebar from ashi garami relies primarily on hip extension while lying on your back, with your upper back as the anchor point and gravity neutral to your finishing mechanics. Your leg triangle must compensate for the opponent's ability to stand or stack, and you typically pull their foot toward your head while bridging. Top kneebar finishing mechanics differ significantly—you often have gravity assisting your finish, your body weight can supplement hip extension, and you may finish with a more upright or face-down orientation. From top position, the fulcrum shifts from your pubic bone to potentially your hip or even your shoulder, depending on the specific variation. Top kneebars also allow you to maintain passing pressure while attacking, whereas bottom kneebars commit you entirely to the leg attack system. Understanding these mechanical differences is essential for adapting your finishing strategy based on how you entered the position.",
+      "safety_critical": false
     }
   ],
   "training_progressions_and_safety_protocols": [
@@ -360,10 +385,6 @@
       "relationship": "Specific positional application where both grapplers are entangled and racing to finish"
     },
     {
-      "name": "Craig Jones Leg Lock System",
-      "relationship": "Modern competitive framework emphasizing kneebar entries and finishes in no-gi contexts"
-    },
-    {
       "name": "Saddle",
       "relationship": "Advanced leg entanglement position offering both kneebar and heel hook options"
     },
@@ -376,12 +397,20 @@
       "relationship": "Rotational leg lock often available when kneebar defenses create alternative angles"
     },
     {
-      "name": "Lachlan Giles Leg Lock Defense Framework",
-      "relationship": "Defensive system teaching escape mechanics from kneebar positions—essential for understanding both sides"
-    },
-    {
       "name": "Deep Half Guard",
       "relationship": "Bottom position from which kneebar attacks can develop during sweep attempts and transitions"
+    },
+    {
+      "name": "Inside Heel Hook",
+      "relationship": "High-percentage leg lock sharing similar control positions and entry mechanics"
+    },
+    {
+      "name": "Kneebar Control",
+      "relationship": "Control position that must be established before executing the kneebar finish"
+    },
+    {
+      "name": "Calf Slicer",
+      "relationship": "Compression submission that can be combined with or transitioned to from kneebar control"
     }
   ]
 }

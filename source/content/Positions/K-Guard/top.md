@@ -21,37 +21,37 @@ description: "Master K-Guard Top in BJJ. Navigate inverted hook systems while ma
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, execute Knee Slice Pass to transition to Side Control. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 14% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Smash Pass",
-      "text": "From this position, execute Smash Pass to transition to Side Control. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Smash Pass. This technique is attempted in 13% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag Pass",
-      "text": "From this position, execute Leg Drag Pass to transition to Side Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Half Guard Pass",
-      "text": "From this position, execute Half Guard Pass to transition to Side Control. Success rate for advanced practitioners: 80%.",
+      "text": "From this position, attempt Half Guard Pass. This technique is attempted in 16% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Pass",
-      "text": "From this position, execute Underhook Pass to transition to Side Control. Success rate for advanced practitioners: 68%.",
+      "text": "From this position, attempt Underhook Pass. This technique is attempted in 13% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Mount",
-      "text": "From this position, execute Transition to Mount to transition to Mount. Success rate for advanced practitioners: 55%.",
+      "name": "Execute Side Control to Mount",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 11% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -213,92 +213,22 @@ Strategically, K-Guard Top represents a transitional position where the top play
 
 ## Available Attacks
 
-### [[Knee Slice Pass]] → [[Side Control]]
+### [[Knee Slice Pass]] (14% of attempts)
 
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 60%
-- Advanced: 75%
+### [[Smash Pass]] (13% of attempts)
 
-### [[Smash Pass]] → [[Side Control]]
+### [[Leg Drag Pass]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Half Guard Pass]] (16% of attempts)
 
-### [[Leg Drag Pass]] → [[Side Control]]
+### [[Underhook Pass]] (13% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Side Control to Mount]] (11% of attempts)
 
-### [[Half Guard Pass]] → [[Side Control]]
+### [[Side Control to North-South]] (11% of attempts)
 
-**Success Rates:**
-- Beginner: 50%
-- Intermediate: 65%
-- Advanced: 80%
+### [[Kimura from Half Guard]] (10% of attempts)
 
-### [[Underhook Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 38%
-- Intermediate: 53%
-- Advanced: 68%
-
-### [[Transition to Mount]] → [[Mount]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-### [[Transition to North-South]] → [[North-South]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[Kimura from Half Guard]] → [[Kimura Control]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Lockdown Sweeps]]** → [[Half Guard]] (Opponent Success: 40%)
-- **[[Underhook Sweep from Half]]** → [[Half Guard]] (Opponent Success: 45%)
-- **[[Deep Half Entry]]** → [[Deep Half Guard]] (Opponent Success: 35%)
-- **[[Old School Sweep]]** → [[Half Guard]] (Opponent Success: 30%)
-- **[[Back Take Generic]]** → [[Back Control]] (Opponent Success: 25%)
-- **[[Re-Guard]]** → [[Closed Guard]] (Opponent Success: 35%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Smash Pass]]** → [[Side Control]]
-  - Bottom player attempts to recover full guard or create distance
-- **[[Leg Drag Pass]]** → [[Side Control]]
-  - Bottom player extends hooks too far or loses hip connection
-- **[[Kimura from Half Guard]]** → [[Kimura Control]]
-  - Bottom player reaches for underhook and overextends arm
-- **[[Transition to North-South]]** → [[North-South]]
-  - Bottom player turns away or attempts to turtle
 
 
 </section>
@@ -314,11 +244,11 @@ Strategically, K-Guard Top represents a transitional position where the top play
 
 **If bottom player loses hook tension or flattens out to back:**
 - Execute **[[Half Guard Pass]]** → [[Side Control]] (Probability: 70%)
-- Execute **[[Transition to Mount]]** → [[Mount]] (Probability: 50%)
+- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 50%)
 
 
 **If bottom player attempts underhook or reaches for back take:**
-- Execute **[[Kimura from Half Guard]]** → [[Kimura Control]] (Probability: 45%)
+- Execute **[[Kimura from Half Guard]]** → [[Kimura Trap]] (Probability: 45%)
 - Execute **[[Underhook Pass]]** → [[Side Control]] (Probability: 60%)
 
 
@@ -417,33 +347,39 @@ Start in K-Guard Top position. Top player's goal is to advance to side control o
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### High-percentage submission path
+## Test Your Knowledge
 
-`K-Guard Top → Knee Slice Pass → Side Control → Kimura`
+**Q1**: What is the primary weight distribution strategy for maintaining passing pressure from K-Guard Top?
+**A**: The primary strategy is directing weight through forward hip pressure angled toward the bottom player's upper body while maintaining a low chest position. Weight should compress the hook system rather than push against it, with the trapped leg staying heavy to prevent elevation while the free leg provides stable base. This creates downward and forward pressure that limits the bottom player's hip mobility without exposing you to sweep attempts.
 
-### Direct submission opportunity
+**Q2**: Your opponent starts elevating your trapped leg with their butterfly hook - what adjustment do you make?
+**A**: Immediately widen your free leg base and drop your hips lower while driving your weight laterally into the butterfly hook side rather than fighting the elevation directly. Simultaneously control their far hip to prevent them from completing the off-balancing motion. If elevation continues, backstep the trapped leg to remove it from the hook system entirely and re-engage from a safer angle.
 
-`K-Guard Top → Kimura from Half Guard → Kimura Control → Kimura`
+**Q3**: What are the essential grip priorities when facing K-Guard from top position?
+**A**: First priority is far hip control to anchor their position and prevent hip escapes that power sweeps. Second priority is collar or crossface grip to control their upper body and flatten their spine. Third priority is controlling the knee shield or inside arm to prevent re-framing. Grips should be established before initiating any pass to ensure the bottom player cannot reinforce their defensive structure.
 
-### Dominant position path
+**Q4**: How should you shut down the primary back-take threat from K-Guard bottom?
+**A**: The back-take primarily occurs when you commit weight forward and the bottom player swims under for an underhook. Prevent this by maintaining chest angle down with your head positioned on their far shoulder, controlling their inside arm to block underhook attempts, and keeping pressure diagonal rather than straight down. If they begin the underhook motion, immediately whizzer and drive them flat before they can complete the back-take sequence.
 
-`K-Guard Top → Half Guard Pass → Side Control → Transition to Mount → Mount → Armbar from Mount`
+**Q5**: What is the most common base error that leads to getting swept from K-Guard Top?
+**A**: The most common error is standing too upright while attempting to extract the trapped leg, which allows the bottom player to extend their hooks and frames to full length. This creates maximum leverage for their sweep attempts and removes your ability to pressure their hooks. The correction is to maintain forward hip pressure with chest angled down throughout the passing attempt, only creating height when you've already broken their hook tension.
 
-### Back attack path
+**Q6**: Your opponent maintains active hook tension and you cannot flatten them - what systematic approach should you take?
+**A**: Begin by winning the grip fight to establish dominant control points. Then use hip pressure combined with angle changes to redirect rather than fight their hook tension. Work to flatten their spine through shoulder pressure while controlling the far hip. Once their defensive structure is compromised, time your passing sequence to coincide with the moment their frames collapse. Patience is essential - forcing premature passes against active hooks leads to sweep counters.
 
-`K-Guard Top → Leg Drag Pass → Back Take Generic → Back Control → Rear Naked Choke`
+**Q7**: How do you manage energy expenditure when facing a strong K-Guard retention system?
+**A**: Use positional pressure through body weight rather than muscular effort. Establish grips that allow you to rest weight on them while maintaining control. Avoid pushing directly against their hook system which creates stalemates. Instead, use angle changes and redirections that require minimal energy while systematically degrading their position. Accept that passing a skilled K-Guard player requires patience and methodical pressure rather than explosive attempts.
 
-### North-South submission path
-
-`K-Guard Top → Transition to North-South → North-South → North-South Choke`
+**Q8**: Your opponent partially recovers full guard as you attempt to pass - how do you prevent complete guard recovery?
+**A**: Immediately stop the passing attempt and re-establish pressure on the K-Guard structure before they can fully close their guard. Drive your trapped knee down between their legs to maintain the half guard configuration. Control their inside arm to prevent framing and re-apply hip pressure to compress their hooks. If they've already begun closing, backstep and disengage momentarily rather than getting caught in a compromised closed guard position, then re-engage with better angles.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -465,7 +401,7 @@ Start in K-Guard Top position. Top player's goal is to advance to side control o
 ## Related Positions and Techniques
 
 - **[[Half Guard]]** - Parent position - K-Guard is a specialized variation of half guard top
-- **[[K-Guard Bottom]]** - Opposite perspective - bottom player's view of same position
+- **[[K-Guard]]** - Hub page - overview of both perspectives
 - **[[Knee Shield Half Guard]]** - Similar position - closely related defensive structure
 - **[[Lockdown]]** - Related half guard variation - different leg configuration
 - **[[Z-Guard]]** - Related half guard variation - similar defensive structure
@@ -473,9 +409,8 @@ Start in K-Guard Top position. Top player's goal is to advance to side control o
 - **[[Smash Pass]]** - Primary passing technique - common approach from K-Guard
 - **[[Headquarters Position]]** - Related passing position - systematic passing framework
 - **[[Half Guard Pass]]** - Primary technique - essential passing method
-- **[[Pressure Passing Framework]]** - Conceptual framework - strategic approach for this position
-- **[[Guard Passing Principles]]** - Conceptual foundation - underlying principles for success
-- **[[Underhook Defense]]** - Defensive concept - preventing bottom player's primary attack
+- **[[Knee Slice Pass]]** - High-percentage pass - effective against K-Guard retention
+- **[[Leg Drag Pass]]** - Alternative pass - useful when hooks extend
 
 
 </section>

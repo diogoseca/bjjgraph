@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Rolling Back Take | BJJ Technique | BJJ Graph"
 description: "Learn Rolling Back Take in BJJ. Step-by-step execution from Turtle to Back Control. Success: Beginner 45%, Intermediate 65%, Advanced 80%. Dynamic technique using momentum."
@@ -16,7 +17,7 @@ description: "Learn Rolling Back Take in BJJ. Step-by-step execution from Turtle
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Rolling Back Take in BJJ",
-  "description": "Step-by-step guide for Rolling Back Take from Turtle to Back Control.",
+  "description": "Step-by-step guide for Rolling Back Take from Turtle/Top. Possible outcomes: Back Control/Top (75%), Turtle/Top (15%), Turtle/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -160,11 +161,25 @@ description: "Learn Rolling Back Take in BJJ. Step-by-step execution from Turtle
 
 The Rolling Back Take is a dynamic and highly effective transition from top turtle position to back control. This technique exploits the opponent's defensive posture by using momentum and timing to roll over their shoulder, landing directly on their back with control. Unlike static back takes that rely on breaking down the turtle position incrementally, the rolling back take uses explosive movement to bypass defensive frames entirely. This technique is particularly valuable when the opponent maintains a strong defensive turtle with their elbows tight to their knees, making traditional hook insertions difficult. The rolling back take requires precise timing, spatial awareness, and the ability to maintain connection throughout the roll. When executed correctly, it provides immediate access to high-value control positions and submission opportunities, making it a favorite among competitors at all levels.
 
-**Starting Position**: [[Turtle]]
-**Ending Position**: [[Back Control]]
+**From Position**: [[Turtle/Top]]
 **Success Rates**: Beginner 45%, Intermediate 65%, Advanced 80%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Back Control/Top]] | 75% |
+| Failure | [[Turtle/Top]] | 15% |
+| Counter | [[Turtle/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

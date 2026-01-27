@@ -21,37 +21,37 @@ description: "Master Leg Hook Bottom in BJJ. Transitional half guard control wit
     {
       "@type": "HowToStep",
       "name": "Execute Deep Half Entry",
-      "text": "From this position, execute Deep Half Entry to transition to Deep Half Guard. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 14% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Old School Sweep",
-      "text": "From this position, execute Old School Sweep to transition to Mount. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Old School Sweep. This technique is attempted in 13% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Sweep from Half",
-      "text": "From this position, execute Underhook Sweep from Half to transition to Side Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Single Leg X Entry",
-      "text": "From this position, execute Single Leg X Entry to transition to Single Leg X-Guard. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Single Leg X Entry. This technique is attempted in 13% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute X-Guard to Ashi Transition",
-      "text": "From this position, execute X-Guard to Ashi Transition to transition to Ashi Garami. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt X-Guard to Ashi Transition. This technique is attempted in 11% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling Back Take",
-      "text": "From this position, execute Rolling Back Take to transition to Back Control. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -209,91 +209,22 @@ Leg Hook Bottom Position represents a critical transitional state within the hal
 
 ## Available Escapes
 
-### [[Deep Half Entry]] → [[Deep Half Guard]]
+### [[Deep Half Entry]] (14% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Old School Sweep]] (13% of attempts)
 
-### [[Old School Sweep]] → [[Mount]]
+### [[Underhook Sweep from Half]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Single Leg X Entry]] (13% of attempts)
 
-### [[Underhook Sweep from Half]] → [[Side Control]]
+### [[X-Guard to Ashi Transition]] (11% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Rolling Back Take]] (10% of attempts)
 
-### [[Single Leg X Entry]] → [[Single Leg X-Guard]]
+### [[Lockdown Sweeps]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Shin Shield Recovery]] (15% of attempts)
 
-### [[X-Guard to Ashi Transition]] → [[Ashi Garami]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-### [[Rolling Back Take]] → [[Back Control]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
-
-### [[Lockdown Sweeps]] → [[Lockdown]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[Shin Shield Recovery]] → [[Knee Shield Half Guard]]
-
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 60%
-- Advanced: 75%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Knee Slice Pass]]** → [[Side Control]] (Opponent Success: 55%)
-- **[[Underhook Pass]]** → [[Side Control]] (Opponent Success: 50%)
-- **[[Crossface Pass]]** → [[Side Control]] (Opponent Success: 60%)
-- **[[Smash Pass]]** → [[Side Control]] (Opponent Success: 65%)
-- **[[Leg Weave Pass]]** → [[Side Control]] (Opponent Success: 45%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Frame and Shrimp]]** → [[Half Guard]]
-  - Opponent attempts to flatten with crossface pressure
-- **[[Deep Half Entry]]** → [[Deep Half Guard]]
-  - Opponent drives weight forward attempting to free leg
-- **[[Rolling to Guard]]** → [[Closed Guard]]
-  - Opponent stands to break leg hook control
-- **[[Underhook Sweep from Half]]** → [[Side Control]]
-  - Opponent commits weight forward without proper base
 
 
 </section>
@@ -400,29 +331,39 @@ Isolate the old school sweep from leg hook position with partner providing gradu
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Leg Lock Path via Deep Half
+## Test Your Knowledge
 
-`Leg Hook Bottom → Deep Half Entry → Deep Half Guard → Ashi Garami → Straight Ankle Lock`
+**Q1**: What is the essential hip position for maintaining offensive options from Leg Hook Bottom?
+**A**: Stay on your side with an active hip angle rather than flat on your back. Use your bottom elbow as a posting point to prevent being flattened completely. This side position maintains hip mobility essential for transitions and sweeps. When flat on your back, you lose all mobility and offensive capability, making sweeps impossible and allowing opponent to advance position.
 
-### Back Attack Path
+**Q2**: Your opponent starts driving forward with heavy crossface pressure - what immediate adjustments do you make?
+**A**: First, fight the crossface with your near-side hand, framing at their neck or shoulder to prevent head control. Simultaneously increase leg hook tension and consider transitioning to deep half guard by using their forward momentum to duck underneath. If their pressure is committed, the deep half entry becomes higher percentage because their weight is already moving in the direction you need it to go.
 
-`Leg Hook Bottom → Rolling Back Take → Back Control → Rear Naked Choke`
+**Q3**: What are the three primary functions of the leg hook in this position?
+**A**: The leg hook serves three critical functions: controlling opponent's base and preventing them from freely distributing weight for passing, restricting their mobility so they cannot step over or create passing angles, and providing a connection point that creates off-balancing opportunities for sweeps. The hook must remain dynamic with constant tension adjustments based on opponent movement.
 
-### Sweep to Mount Path
+**Q4**: How do you prevent your opponent from extracting their trapped leg?
+**A**: Constantly adjust leg hook tension, angle, and depth based on opponent's escape attempts. When they try to pull the leg out, increase hook depth and angle your hips to follow their movement. Combine the leg hook with upper body frames that prevent them from creating the space needed for extraction. If they step back, immediately transition to single leg X or other elevated guard positions.
 
-`Leg Hook Bottom → Old School Sweep → Mount → Armbar from Mount`
+**Q5**: Your opponent begins standing up while in your leg hook - how do you respond?
+**A**: Transition immediately to single leg X guard or X-guard positions that are designed for standing opponents. Maintain the leg hook connection while extending your body underneath them. Use your free leg to establish additional hooks on their standing leg. The standing position actually creates better sweeping opportunities for you if you adjust your guard configuration appropriately.
 
-### Kimura Path from Underhook
+**Q6**: What role does the free leg play in Leg Hook Bottom position retention?
+**A**: The free leg is a crucial dynamic tool that serves multiple purposes: pushing opponent's hips to create distance and prevent smashing pressure, establishing butterfly hooks as secondary control points, preparing for deep half or X-guard transitions, and creating barriers that prevent opponent from stepping through or around your guard. A passive free leg wastes a critical defensive resource.
 
-`Leg Hook Bottom → Underhook Sweep from Half → Side Control → Kimura from Half Guard`
+**Q7**: When should you attempt sweeps versus focusing on guard retention?
+**A**: Attempt sweeps only after establishing proper frames and using the leg hook to off-balance opponent. The timing window opens when opponent commits their weight forward without proper base, attempts to extract their trapped leg creating momentum you can redirect, or when their defensive reactions to your frames create an opening. Attempting sweeps while under heavy pressure without frames results in failed attempts and wasted energy.
+
+**Q8**: What indicates you should transition from Leg Hook to Deep Half Guard?
+**A**: Transition to deep half when opponent drives heavy forward pressure, as their momentum aids your entry underneath them. Also transition when they flatten you despite your frames, as going deeper removes their shoulder pressure effectiveness. The key indicator is when staying in standard leg hook becomes defensive with diminishing offensive options - deep half restores your attacking capability from underneath their base.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -450,9 +391,9 @@ Isolate the old school sweep from leg hook position with partner providing gradu
 - **[[Lockdown]]** - Variation using different leg entanglement method
 - **[[Old School Sweep]]** - High-percentage sweep from this position
 - **[[Deep Half Entry]]** - Primary offensive transition option
-- **[[Underhook Defense]]** - Critical concept for maintaining position
-- **[[10th Planet Half Guard Bottom System]]** - Systematic approach incorporating leg hook variations
-- **[[Andrew Wiltse Half Guard System]]** - Modern systematic approach to half guard bottom positions
+- **[[Underhook Sweep from Half]]** - Critical sweep option using underhook control
+- **[[X-Guard]]** - Systematic approach incorporating leg hook variations
+- **[[Butterfly Guard]]** - Related guard with complementary hook mechanics
 
 
 </section>

@@ -45,178 +45,42 @@
     "Create and exploit leverage advantages for takedown opportunities by manipulating opponent's base and balance through superior positioning",
     "Manage energy expenditure through efficient positioning rather than constant muscular engagement, using technical control over strength"
   ],
-  "offensive_transitions": [
+  "transitions": [
     {
-      "technique": "Double Leg Entry",
-      "target_position": "Side Control",
-      "success_rates": {
-        "beginner": 35,
-        "intermediate": 50,
-        "advanced": 65
-      }
+      "transition": "Double Leg Takedown",
+      "attempt_probability": 15
     },
     {
-      "technique": "Single Leg Entry",
-      "target_position": "Side Control",
-      "success_rates": {
-        "beginner": 40,
-        "intermediate": 55,
-        "advanced": 70
-      }
+      "transition": "Single Leg Takedown",
+      "attempt_probability": 15
     },
     {
-      "technique": "Body Lock Pass",
-      "target_position": "Side Control",
-      "success_rates": {
-        "beginner": 30,
-        "intermediate": 45,
-        "advanced": 60
-      }
+      "transition": "Body Lock Takedown",
+      "attempt_probability": 10
     },
     {
-      "technique": "Snap Down",
-      "target_position": "Front Headlock",
-      "success_rates": {
-        "beginner": 45,
-        "intermediate": 60,
-        "advanced": 75
-      }
+      "transition": "Snap Down",
+      "attempt_probability": 12
     },
     {
-      "technique": "Front Headlock Series",
-      "target_position": "Front Headlock",
-      "success_rates": {
-        "beginner": 40,
-        "intermediate": 55,
-        "advanced": 70
-      }
+      "transition": "Guard Pull",
+      "attempt_probability": 15
     },
     {
-      "technique": "Guard Pull",
-      "target_position": "Closed Guard",
-      "success_rates": {
-        "beginner": 50,
-        "intermediate": 65,
-        "advanced": 80
-      }
+      "transition": "Arm Drag to Back",
+      "attempt_probability": 10
     },
     {
-      "technique": "Pull guard",
-      "target_position": "Open Guard",
-      "success_rates": {
-        "beginner": 45,
-        "intermediate": 60,
-        "advanced": 75
-      }
+      "transition": "Ankle Pick",
+      "attempt_probability": 8
     },
     {
-      "technique": "Ippon Seoi Nage",
-      "target_position": "Side Control",
-      "success_rates": {
-        "beginner": 25,
-        "intermediate": 40,
-        "advanced": 55
-      }
+      "transition": "High Crotch",
+      "attempt_probability": 8
     },
     {
-      "technique": "Osoto Gari",
-      "target_position": "Side Control",
-      "success_rates": {
-        "beginner": 30,
-        "intermediate": 45,
-        "advanced": 60
-      }
-    },
-    {
-      "technique": "High Crotch",
-      "target_position": "Side Control",
-      "success_rates": {
-        "beginner": 35,
-        "intermediate": 50,
-        "advanced": 65
-      }
-    },
-    {
-      "technique": "Arm Drag to Back",
-      "target_position": "Back Control",
-      "success_rates": {
-        "beginner": 30,
-        "intermediate": 45,
-        "advanced": 60
-      }
-    },
-    {
-      "technique": "Ankle Pick",
-      "target_position": "Side Control",
-      "success_rates": {
-        "beginner": 35,
-        "intermediate": 50,
-        "advanced": 65
-      }
-    }
-  ],
-  "defensive_responses": [
-    {
-      "technique": "Sprawl Defense",
-      "target_position": "Front Headlock",
-      "success_rate": 60
-    },
-    {
-      "technique": "Takedown Defense",
-      "target_position": "Standing Position",
-      "success_rate": 55
-    },
-    {
-      "technique": "Guard Pull",
-      "target_position": "Closed Guard",
-      "success_rate": 70
-    },
-    {
-      "technique": "Frame Creation",
-      "target_position": "Standing Position",
-      "success_rate": 50
-    },
-    {
-      "technique": "Whizzer",
-      "target_position": "Standing Position",
-      "success_rate": 45
-    },
-    {
-      "technique": "Sprawl",
-      "target_position": "Front Headlock",
-      "success_rate": 65
-    }
-  ],
-  "counter_transitions": [
-    {
-      "technique": "Snap Down",
-      "target_position": "Front Headlock",
-      "trigger": "Opponent overextends attempting takedown with poor posture or reaches too far for grips"
-    },
-    {
-      "technique": "Sprawl",
-      "target_position": "Front Headlock",
-      "trigger": "Opponent shoots for legs without proper setup or commits to penetration step prematurely"
-    },
-    {
-      "technique": "Body Lock Pass",
-      "target_position": "Back Control",
-      "trigger": "Opponent turns away or exposes back while defending takedown or attempting to circle out"
-    },
-    {
-      "technique": "Single Leg Entry",
-      "target_position": "Side Control",
-      "trigger": "Opponent posts hand on ground, squares up stance, or creates space with poor weight distribution"
-    },
-    {
-      "technique": "High Crotch",
-      "target_position": "Side Control",
-      "trigger": "Opponent maintains upright posture with hips back, creating opening for level change and penetration"
-    },
-    {
-      "technique": "Arm Drag to Back",
-      "target_position": "Back Control",
-      "trigger": "Opponent extends arm to establish grip or pushes into your control without protecting arm position"
+      "transition": "Collar Drag",
+      "attempt_probability": 7
     }
   ],
   "decision_tree": [
@@ -375,45 +239,7 @@
       "duration": "2-3 minute rounds"
     }
   ],
-  "optimal_submission_paths": [
-    {
-      "name": "Front Headlock to Guillotine Path",
-      "path": "Clinch → Snap Down → Front Headlock → Guillotine Choke"
-    },
-    {
-      "name": "Takedown to Mount Submission Path",
-      "path": "Clinch → Double Leg Entry → Side Control → Mount → Armbar from Mount"
-    },
-    {
-      "name": "Guard Pull to Triangle Path",
-      "path": "Clinch → Guard Pull → Closed Guard → Triangle from Closed Guard"
-    },
-    {
-      "name": "Body Lock to Back Attack Path",
-      "path": "Clinch → Body Lock Pass → Back Control → Rear Naked Choke"
-    },
-    {
-      "name": "Single Leg to Top Control Submission Path",
-      "path": "Clinch → Single Leg Entry → Side Control → Kimura from Side Control"
-    },
-    {
-      "name": "Judo Throw to Submission Path",
-      "path": "Clinch → Ippon Seoi Nage → Mount → Armbar from Mount"
-    }
-  ],
   "related_content": [
-    {
-      "name": "Collar Ties",
-      "relationship": "Specific clinch variation focusing on collar and head control"
-    },
-    {
-      "name": "Overhook Control Clinch",
-      "relationship": "Variation emphasizing overhook grip configurations"
-    },
-    {
-      "name": "Underhook Battle",
-      "relationship": "Specific scenario focused on underhook fighting"
-    },
     {
       "name": "Body Lock",
       "relationship": "Advanced clinch control with torso engagement"
@@ -425,10 +251,6 @@
     {
       "name": "Standing Position",
       "relationship": "General category containing clinch variations"
-    },
-    {
-      "name": "Underhook Control",
-      "relationship": "Dominant grip position within clinch exchanges"
     },
     {
       "name": "Double Leg Entry",
@@ -445,6 +267,22 @@
     {
       "name": "Standing Rear Clinch",
       "relationship": "Advanced clinch variation with back exposure"
+    },
+    {
+      "name": "Arm Drag to Back",
+      "relationship": "High-percentage back take from clinch grip fighting"
+    },
+    {
+      "name": "Single Leg Takedown",
+      "relationship": "Essential wrestling takedown from clinch engagement"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Primary destination when arm drag succeeds"
+    },
+    {
+      "name": "Closed Guard",
+      "relationship": "Common landing position after guard pull"
     }
   ],
   "position_metrics": {

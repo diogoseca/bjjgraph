@@ -8,8 +8,6 @@
     "butterfly-guard",
     "fundamental"
   ],
-  "starting_position": "Butterfly Guard",
-  "ending_position": "Mount",
   "success_rates": {
     "beginner": 40,
     "intermediate": 55,
@@ -283,6 +281,24 @@
     {
       "name": "Marcelo Garcia Butterfly Guard System",
       "relationship": "System Integration - Complete system built around butterfly sweeps"
+    }
+  ],
+  "from_position": "Butterfly Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Mount/Top",
+      "probability": 70,
+      "result": "success"
+    },
+    {
+      "to": "Butterfly Guard/Bottom",
+      "probability": 20,
+      "result": "failure"
+    },
+    {
+      "to": "Butterfly Guard/Top",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

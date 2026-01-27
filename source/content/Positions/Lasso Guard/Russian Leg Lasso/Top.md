@@ -21,37 +21,37 @@ description: "Master Russian Leg Lasso Top position. Complete guide for passing 
     {
       "@type": "HowToStep",
       "name": "Execute Lasso Guard Pass",
-      "text": "From this position, execute Lasso Guard Pass to transition to Side Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Lasso Guard Pass. This technique is attempted in 18% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, execute Knee Slice Pass to transition to Half Guard. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 16% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Toreando Pass",
-      "text": "From this position, execute Toreando Pass to transition to Side Control. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Toreando Pass. This technique is attempted in 15% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Long Step Pass",
-      "text": "From this position, execute Long Step Pass to transition to Side Control. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Long Step Pass. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag Pass",
-      "text": "From this position, execute Leg Drag Pass to transition to Leg Drag Control. Success rate for advanced practitioners: 58%.",
+      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 14% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Pressure Pass",
-      "text": "From this position, execute Pressure Pass to transition to Half Guard. Success rate for advanced practitioners: 62%.",
+      "text": "From this position, attempt Pressure Pass. This technique is attempted in 13% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -209,84 +209,20 @@ Russian Leg Lasso Top is the passing position against one of the most complex la
 
 ## Available Attacks
 
-### [[Lasso Guard Pass]] → [[Side Control]]
+### [[Lasso Guard Pass]] (18% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Knee Slice Pass]] (16% of attempts)
 
-### [[Knee Slice Pass]] → [[Half Guard]]
+### [[Toreando Pass]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Long Step Pass]] (12% of attempts)
 
-### [[Toreando Pass]] → [[Side Control]]
+### [[Leg Drag Pass]] (14% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
+### [[Pressure Pass]] (13% of attempts)
 
-### [[Long Step Pass]] → [[Side Control]]
+### [[Double Under Pass]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
-
-### [[Leg Drag Pass]] → [[Leg Drag Control]]
-
-**Success Rates:**
-- Beginner: 28%
-- Intermediate: 42%
-- Advanced: 58%
-
-### [[Pressure Pass]] → [[Half Guard]]
-
-**Success Rates:**
-- Beginner: 32%
-- Intermediate: 47%
-- Advanced: 62%
-
-### [[Double Under Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 22%
-- Intermediate: 37%
-- Advanced: 52%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[De La Riva Sweep]]** → [[Scramble Position]] (Opponent Success: 45%)
-- **[[Omoplata to Sweep]]** → [[Mount]] (Opponent Success: 40%)
-- **[[Triangle Setup]]** → [[Triangle Control]] (Opponent Success: 35%)
-- **[[Lasso Guard Sweeps]]** → [[Mount]] (Opponent Success: 30%)
-- **[[Lasso Guard Sweeps]]** → [[Mount]] (Opponent Success: 42%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Sprawl Defense]]** → [[Headquarters Position]]
-  - Opponent attempts to elevate with lasso for sweep
-- **[[Knee Slice Pass]]** → [[Half Guard]]
-  - Opponent's lasso grip weakens during transition
-- **[[Pressure Pass]]** → [[Half Guard]]
-  - Opponent overcommits to one-sided lasso control
-- **[[Toreando Pass]]** → [[Side Control]]
-  - Opponent's non-lasso leg becomes uncontrolled allowing circular pass
 
 
 </section>
@@ -297,22 +233,22 @@ Russian Leg Lasso Top is the passing position against one of the most complex la
 
 **If opponent has strong collar and sleeve grips enhancing lasso control:**
 - Execute **[[Grip Break]]** → [[Open Guard]] (Probability: 60%)
-- Execute **[[Posture Recovery]]** → [[Standing Guard]] (Probability: 30%)
+- Execute **[[Posture Recovery]]** → [[Standing Guard]] (Probability: 40%)
 
 
 **If opponent's lasso is high and tight creating immediate sweep threat:**
-- Execute **[[Sprawl Defense]]** → [[Headquarters Position]] (Probability: 50%)
-- Execute **[[Toreando Pass]]** → [[Side Control]] (Probability: 35%)
+- Execute **[[Sprawl Defense]]** → [[Headquarters Position]] (Probability: 55%)
+- Execute **[[Toreando Pass]]** → [[Side Control]] (Probability: 45%)
 
 
 **If opponent's non-lasso leg is uncontrolled and mobile:**
 - Execute **[[Leg Drag Pass]]** → [[Leg Drag Control]] (Probability: 55%)
-- Execute **[[Knee Slice Pass]]** → [[Half Guard]] (Probability: 40%)
+- Execute **[[Knee Slice Pass]]** → [[Half Guard]] (Probability: 45%)
 
 
 **If lasso grip is broken or compromised:**
-- Execute **[[Pressure Pass]]** → [[Half Guard]] (Probability: 65%)
-- Execute **[[Lasso Guard Pass]]** → [[Side Control]] (Probability: 50%)
+- Execute **[[Pressure Pass]]** → [[Half Guard]] (Probability: 60%)
+- Execute **[[Lasso Guard Pass]]** → [[Side Control]] (Probability: 40%)
 
 
 
@@ -393,29 +329,39 @@ From standing position, partner establishes Russian Leg Lasso. Top player practi
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Shortest path to control
+## Test Your Knowledge
 
-`Russian Leg Lasso Top → Lasso Guard Pass → Side Control → Kimura from Side Control`
+**Q1**: What is the primary mechanical principle that makes the Russian Leg Lasso dangerous for the top player?
+**A**: The lasso creates a pulley-like fulcrum around which the guard player generates rotational force. When the top player leans forward or commits weight into the lasso, they amplify this mechanical advantage exponentially, making sweeps nearly unstoppable. Understanding this principle is essential because it dictates that passers must maintain upright posture with hips back rather than applying forward pressure.
 
-### High-percentage passing to submission
+**Q2**: Why must you address the non-lasso leg before attempting to extract your trapped arm?
+**A**: The non-lasso leg serves as a secondary control point that creates combination attack opportunities. If you focus solely on the lasso while ignoring this leg, the opponent establishes De La Riva hooks, butterfly hooks, or shin-to-shin contact that generates powerful sweep chains. Controlling the non-lasso leg first eliminates these secondary threats and isolates the lasso as the only problem to solve.
 
-`Russian Leg Lasso Top → Knee Slice Pass → Half Guard Pass → Mount → Armbar from Mount`
+**Q3**: Your opponent begins rotating their hips to initiate a sweep - what immediate adjustment should you make?
+**A**: Immediately widen your stance and shift your weight away from the sweep direction while maintaining upright posture. Sprawl your hips back and down to lower your center of gravity. Simultaneously control their non-lasso leg to prevent them from completing the rotation. Never fight the sweep by leaning into it, as this amplifies their rotational force.
 
-### Pressure-based control path
+**Q4**: What is the correct sequence for dismantling Russian Leg Lasso controls?
+**A**: The systematic sequence is: first break or control the sleeve grip on your trapped arm, then secure control of the non-lasso leg, next create an angle that makes the lasso configuration mechanically disadvantaged, then address the lasso itself through positional adjustments, and finally complete the pass. Skipping steps or rushing results in being swept because each step removes a specific defensive layer.
 
-`Russian Leg Lasso Top → Pressure Pass → Half Guard → Half Guard Pass → Side Control → Americana from Side Control`
+**Q5**: How should your weight be distributed when passing Russian Leg Lasso?
+**A**: Weight should be distributed through your legs and hips with your center of gravity positioned low and back, not forward over your opponent. Maintain a wide stance with both feet flat for maximum stability against rotational forces. Your upper body should remain upright with shoulders back rather than hunched forward. This distribution allows you to absorb sweep attempts while maintaining mobility for passing angles.
 
-### Dynamic passing approach
+**Q6**: The opponent's collar grip is breaking your posture - what is your priority response?
+**A**: Breaking or neutralizing the collar grip takes immediate priority because it controls your posture and enables their sweep mechanics. Use two-on-one grip breaks or strip the grip by pulling your lapel away while maintaining your base. Without the collar grip, their ability to generate rotational force for sweeps is significantly diminished, making the position much safer to work from.
 
-`Russian Leg Lasso Top → Toreando Pass → Side Control → North-South → North-South Choke`
+**Q7**: When should you attempt a toreando pass versus a knee slice pass against Russian Leg Lasso?
+**A**: Use toreando when the opponent's non-lasso leg becomes uncontrolled and you have opportunity for a circular pass around their lasso side. Use knee slice when you've broken or compromised the lasso grip and can drive through the weakened guard configuration. The choice depends on which control point has been neutralized - toreando exploits leg positioning gaps while knee slice exploits grip failures.
+
+**Q8**: Your opponent starts elevating their hips aggressively to set up an overhead sweep - what should you do?
+**A**: Immediately sprawl your hips back and down while driving your weight through your legs rather than forward. Control their hips or belt with your free hand to prevent elevation. Step back with your trapped-arm side leg to remove the base they need for the overhead motion. If they've already committed to the elevation, consider following their movement and transitioning to a back take rather than fighting the sweep directly.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -443,7 +389,7 @@ From standing position, partner establishes Russian Leg Lasso. Top player practi
 - **[[Collar Sleeve Guard]]** - Shares grip configurations and can transition into Russian Leg Lasso
 - **[[Lasso Guard Pass]]** - Primary transition technique for passing this position
 - **[[Toreando Pass]]** - Alternative passing strategy working around lasso controls
-- **[[Grip Fighting]]** - Fundamental skill essential for success in this position
+- **[[Knee Slice Pass]]** - High-percentage passing option when lasso grip is compromised
 - **[[Open Guard]]** - Parent category for understanding guard passing principles
 
 

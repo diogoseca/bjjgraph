@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Back Step | BJJ Technique | BJJ Graph"
 description: "Master the Back Step pass in BJJ. Essential leg entanglement counter technique. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%."
@@ -16,7 +17,7 @@ description: "Master the Back Step pass in BJJ. Essential leg entanglement count
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Back Step in BJJ",
-  "description": "Step-by-step guide for Back Step from Outside Ashi-Garami to Side Control.",
+  "description": "Step-by-step guide for Back Step from Outside Ashi-Garami/Top. Possible outcomes: Side Control/Top (65%), Outside Ashi-Garami/Top (25%), Outside Ashi-Garami/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -160,11 +161,25 @@ description: "Master the Back Step pass in BJJ. Essential leg entanglement count
 
 The Back Step is a fundamental leg entanglement escape and guard pass that creates immediate pressure passing opportunities when an opponent attempts to enter outside ashi-garami or other leg entanglement positions. By stepping the trapped leg backward over the opponent's body while maintaining heavy chest pressure, you simultaneously break their leg entanglement structure and establish dominant top position. This technique is essential in modern BJJ, particularly in no-gi competition where leg locks are prevalent. The back step exemplifies the principle of using aggressive forward movement to counter defensive guard retention, turning a potentially dangerous leg entanglement situation into a dominant passing position. When executed properly, the back step not only neutralizes the leg attack but also creates a direct path to side control or knee on belly, often catching opponents off-guard as they transition from offensive to defensive positioning.
 
-**Starting Position**: [[Outside Ashi-Garami]]
-**Ending Position**: [[Side Control]]
+**From Position**: [[Outside Ashi-Garami/Top]]
 **Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Side Control/Top]] | 65% |
+| Failure | [[Outside Ashi-Garami/Top]] | 25% |
+| Counter | [[Outside Ashi-Garami/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

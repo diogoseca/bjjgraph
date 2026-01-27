@@ -12,8 +12,6 @@
     "framing",
     "hip_escape"
   ],
-  "starting_position": "Side Control",
-  "ending_position": "Open Guard",
   "success_rates": {
     "beginner": 45,
     "intermediate": 65,
@@ -274,6 +272,24 @@
     {
       "name": "Mount Escape Series",
       "relationship": "Application of same mechanics to different position"
+    }
+  ],
+  "from_position": "Side Control/Top",
+  "outcomes": [
+    {
+      "to": "Open Guard/Bottom",
+      "probability": 75,
+      "result": "success"
+    },
+    {
+      "to": "Side Control/Top",
+      "probability": 15,
+      "result": "failure"
+    },
+    {
+      "to": "Side Control/Bottom",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

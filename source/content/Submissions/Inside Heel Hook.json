@@ -263,6 +263,31 @@
       "question": "Why is the inside heel hook considered more dangerous than many other submissions, and what makes ligament damage occur so rapidly?",
       "answer": "The inside heel hook is exceptionally dangerous because it attacks ligamentous structures (ACL, MCL, LCL) through rotational force that creates rapid catastrophic failure before significant pain registers. Ligaments have poor blood supply and minimal pain receptors compared to muscles, so damage progresses from intact to completely ruptured in under one second at competition speed. The mechanical advantage created by proper leg entanglement and heel control generates enormous torque that exceeds ligament tensile strength almost immediately. Unlike joint locks that compress nerves (causing immediate pain), or chokes that create oxygen deprivation (giving 8-10 seconds of consciousness), heel hooks can destroy the knee structure before the opponent recognizes they should tap, making technical precision and safety protocols absolutely essential.",
       "safety_critical": true
+    },
+    {
+      "question": "Your opponent begins rotating their knee inward to hide their heel during your inside heel hook attempt—what adjustment do you make to maintain the finish?",
+      "answer": "When opponent rotates their knee inward to hide the heel, immediately increase hip pressure with your inside leg across their hip to prevent further rotation. Follow their movement by adjusting your own body angle to maintain perpendicular alignment. If you still have heel control, use your hip extension to drive their heel back toward exposure. If the heel becomes completely hidden, recognize this defensive reaction has now exposed their ankle—transition to straight ankle lock or toe hold attack rather than forcing a heel hook against effective defense. Chain between attacks based on their defensive reactions.",
+      "safety_critical": false
+    },
+    {
+      "question": "What are the warning signs that indicate a training partner is about to suffer injury during an inside heel hook application?",
+      "answer": "Warning signs include: any verbal sound of distress or surprise, sudden stiffening of opponent's body, attempt to rotate or bridge explosively, facial expression showing fear or pain, delayed tap response that seems confused, and any knee popping or clicking sounds. If you observe any of these signs, immediately release all pressure even if no explicit tap has occurred. In training, err heavily on the side of caution—it is always better to release a submission that might have finished than to injure a training partner. The absence of obvious pain is NOT a reliable indicator of safety with heel hooks.",
+      "safety_critical": true
+    },
+    {
+      "question": "What is the correct adjustment when opponent successfully strips your heel grip during the finishing sequence?",
+      "answer": "When opponent strips your heel grip, do not chase the heel with desperate hand fighting as this often compromises your positional control. First, re-establish your leg entanglement security by tightening your inside leg across their hip and your outside leg hook. Then re-attack the heel using proper grip fighting technique: control their wrist with one hand while establishing heel control with the other. If they continue successful grip defense, transition to alternative attacks such as kneebar by controlling above the knee, or calf slicer if they straighten their leg. Maintain positional dominance throughout—position enables submission attempts, not the reverse.",
+      "safety_critical": false
+    },
+    {
+      "question": "How do you recognize the breaking point where opponent cannot escape and must tap, and what considerations apply in competition versus training?",
+      "answer": "The breaking point occurs when you have established tight heel control with proper grip configuration, your hips are positioned for maximum leverage, opponent's knee cannot rotate to relieve pressure, and you have begun hip extension with external rotation of the heel. At this point, continued rotation will cause ligament failure. In training, you should never reach or pass this point—stop at the first sign of effective control and allow partner to tap safely. In competition, you may apply finishing pressure through the breaking point until referee intervention, but even then, release immediately upon tap. The responsibility for partner safety always supersedes competitive finishing.",
+      "safety_critical": true
+    },
+    {
+      "question": "What is the strategic advantage of transitioning between inside and outside heel hook attempts during a leg entanglement exchange?",
+      "answer": "Transitioning between inside and outside heel hook attacks creates a submission dilemma where defending one attack exposes the other. When opponent rotates their knee inward to defend inside heel hook, they expose their ankle for outside heel hook by creating the rotation angle you need. When they rotate outward to defend outside heel hook, they re-expose the heel for inside attack. This forces opponent to make defensive choices that open new attacking opportunities rather than achieving neutral defense. The systematic practitioner chains between these attacks based on opponent reaction, never allowing them to establish stable defensive positioning. This is why leg lock specialists focus on positional control and transition mechanics, not just individual finishing technique.",
+      "safety_critical": false
     }
   ],
   "training_progressions_and_safety_protocols": [
@@ -320,18 +345,16 @@
     "K-Guard"
   ],
   "related_submissions": [
-    "Heel Hook",
     "Outside Heel Hook",
     "Heel Hook Variations",
     "Kneebar",
     "Kneebar from 50-50",
-    "Straight Ankle Lock",
     "Toe Hold",
     "Toe Hold from 50-50",
     "Calf Slicer from 50-50",
     "Estima Lock",
     "Achilles Lock",
-    "Straight Footlock"
+    "Straight Ankle Lock"
   ],
   "related_content": [
     {
@@ -339,8 +362,8 @@
       "relationship": "Parent position family for leg entanglement control"
     },
     {
-      "name": "Inside Ashi Entry",
-      "relationship": "Primary transition to establish position for submission"
+      "name": "Inside Ashi-Garami",
+      "relationship": "Primary control position for establishing heel hook"
     },
     {
       "name": "Ashi Garami Escape",
@@ -351,20 +374,12 @@
       "relationship": "Alternative entry pathway from guard position"
     },
     {
-      "name": "Craig Jones Leg Lock System",
-      "relationship": "Modern competition-tested approach to leg entanglement attacks"
-    },
-    {
-      "name": "Garry Tonon Leg Lock to Back System",
-      "relationship": "Integration of heel hooks with back attack transitions"
+      "name": "Saddle Entry from Top",
+      "relationship": "Transition to dominant leg entanglement position"
     },
     {
       "name": "Leg Entanglement",
       "relationship": "Fundamental principle underlying all ashi-garami positions"
-    },
-    {
-      "name": "Submission Defense",
-      "relationship": "Defensive principles for escaping heel hook attacks"
     },
     {
       "name": "Backside 50-50",
@@ -377,6 +392,14 @@
     {
       "name": "Dogfight Position",
       "relationship": "Scramble position with leg entanglement entry opportunities"
+    },
+    {
+      "name": "Outside Heel Hook",
+      "relationship": "Complementary heel hook attack with opposite rotation direction"
+    },
+    {
+      "name": "Kneebar Control",
+      "relationship": "Alternative leg attack when heel is hidden"
     }
   ]
 }

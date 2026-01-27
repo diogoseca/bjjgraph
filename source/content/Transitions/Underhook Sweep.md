@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Underhook Sweep | BJJ Technique | BJJ Graph"
 description: "Master the Underhook Sweep from Half Guard in BJJ. Complete technical breakdown with biomechanical analysis. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%."
@@ -16,7 +17,7 @@ description: "Master the Underhook Sweep from Half Guard in BJJ. Complete techni
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Underhook Sweep in BJJ",
-  "description": "Step-by-step guide for Underhook Sweep from Half Guard to Side Control.",
+  "description": "Step-by-step guide for Underhook Sweep from Half Guard/Bottom. Possible outcomes: Side Control/Top (65%), Half Guard/Bottom (25%), Half Guard/Top (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -154,11 +155,25 @@ description: "Master the Underhook Sweep from Half Guard in BJJ. Complete techni
 
 The Underhook Sweep is a fundamental offensive technique from half guard bottom that exploits the powerful mechanical advantage of the underhook grip. This sweep operates on the principle of controlling your opponent's center of gravity while simultaneously removing their base, creating an inevitable off-balancing moment that allows you to reverse position. The underhook provides crucial control of the opponent's shoulder and upper body, preventing them from establishing effective crossface pressure and creating the angle necessary for the sweep. This technique is particularly effective against opponents who commit their weight forward while passing, as it redirects their momentum against them. The sweep can be executed from various half guard configurations including traditional half guard, deep half guard, and knee shield variations, making it a versatile tool in your bottom game arsenal. Understanding the timing and mechanical principles of this sweep is essential for developing a complete half guard game, as it creates offensive threats that force opponents into defensive reactions, opening pathways to other attacks and transitions.
 
-**Starting Position**: [[Half Guard]]
-**Ending Position**: [[Side Control]]
+**From Position**: [[Half Guard/Bottom]]
 **Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Side Control/Top]] | 65% |
+| Failure | [[Half Guard/Bottom]] | 25% |
+| Counter | [[Half Guard/Top]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

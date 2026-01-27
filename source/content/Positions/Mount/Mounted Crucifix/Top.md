@@ -21,37 +21,37 @@ description: "Dominate with mounted crucifix top position in BJJ. Complete guide
     {
       "@type": "HowToStep",
       "name": "Execute Armbar from Crucifix",
-      "text": "From this position, execute Armbar from Crucifix to transition to Won by Submission. Success rate for advanced practitioners: 80%.",
+      "text": "From this position, attempt Armbar from Crucifix. This technique is attempted in 10% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Choke from Crucifix",
-      "text": "From this position, execute Choke from Crucifix to transition to Won by Submission. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Choke from Crucifix. This technique is attempted in 10% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Control to Crucifix",
-      "text": "From this position, execute Back Control to Crucifix to transition to Back Control. Success rate for advanced practitioners: 85%.",
+      "text": "From this position, attempt Back Control to Crucifix. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rear Naked Choke",
-      "text": "From this position, execute Rear Naked Choke to transition to Won by Submission. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Rear Naked Choke. This technique is attempted in 9% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Technical Mount",
-      "text": "From this position, execute Transition to Technical Mount to transition to Technical Mount. Success rate for advanced practitioners: 85%.",
+      "name": "Execute Gift Wrap to Technical Mount",
+      "text": "From this position, attempt Gift Wrap to Technical Mount. This technique is attempted in 11% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Straight Armbar",
-      "text": "From this position, execute Straight Armbar to transition to Won by Submission. Success rate for advanced practitioners: 80%.",
+      "text": "From this position, attempt Straight Armbar. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -219,107 +219,26 @@ From a teaching perspective, the mounted crucifix demonstrates critical concepts
 
 ## Available Attacks
 
-### [[Armbar from Crucifix]] → [[Won by Submission]]
+### [[Armbar from Crucifix]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 50%
-- Intermediate: 65%
-- Advanced: 80%
+### [[Choke from Crucifix]] (10% of attempts)
 
-### [[Choke from Crucifix]] → [[Won by Submission]]
+### [[Back Control to Crucifix]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 60%
-- Advanced: 75%
+### [[Rear Naked Choke]] (9% of attempts)
 
-### [[Back Control to Crucifix]] → [[Back Control]]
+### [[Gift Wrap to Technical Mount]] (11% of attempts)
 
-**Success Rates:**
-- Beginner: 55%
-- Intermediate: 70%
-- Advanced: 85%
+### [[Straight Armbar]] (10% of attempts)
 
-### [[Rear Naked Choke]] → [[Won by Submission]]
+### [[Mount to Armbar]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Mounted Crucifix to S Mount]] (10% of attempts)
 
-### [[Transition to Technical Mount]] → [[Technical Mount]]
+### [[Gift Wrap Transition]] (9% of attempts)
 
-**Success Rates:**
-- Beginner: 60%
-- Intermediate: 75%
-- Advanced: 85%
+### [[Seat Belt Control Back]] (11% of attempts)
 
-### [[Straight Armbar]] → [[Won by Submission]]
-
-**Success Rates:**
-- Beginner: 50%
-- Intermediate: 65%
-- Advanced: 80%
-
-### [[Mount to Armbar]] → [[Armbar Control]]
-
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 60%
-- Advanced: 75%
-
-### [[Transition to S Mount]] → [[S Mount]]
-
-**Success Rates:**
-- Beginner: 50%
-- Intermediate: 65%
-- Advanced: 80%
-
-### [[Gift Wrap Transition]] → [[Gift Wrap]]
-
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 60%
-- Advanced: 70%
-
-### [[Seat Belt Control Back]] → [[Seat Belt Control Back]]
-
-**Success Rates:**
-- Beginner: 55%
-- Intermediate: 70%
-- Advanced: 85%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Arm Extraction]]** → [[Mount]] (Opponent Success: 30%)
-- **[[Bridge and Roll]]** → [[Closed Guard]] (Opponent Success: 20%)
-- **[[Elbow Escape]]** → [[Half Guard]] (Opponent Success: 25%)
-- **[[Explosive Bridge to Turtle]]** → [[Turtle]] (Opponent Success: 20%)
-- **[[Hip Escape]]** → [[Defensive Position]] (Opponent Success: 15%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Choke from Crucifix]]** → [[Won by Submission]]
-  - Opponent focuses on arm extraction and exposes neck
-- **[[Armbar from Crucifix]]** → [[Won by Submission]]
-  - Opponent creates space or extends trapped arm attempting escape
-- **[[Back Control to Crucifix]]** → [[Back Control]]
-  - Opponent turns away attempting to protect face from strikes or chokes
-- **[[Technical Mount Transition]]** → [[Technical Mount]]
-  - Opponent bridges and creates angle opening technical mount opportunity
-- **[[Gift Wrap Transition]]** → [[Gift Wrap]]
-  - Opponent frees one arm but creates opportunity for gift wrap control
 
 
 </section>
@@ -329,13 +248,13 @@ From a teaching perspective, the mounted crucifix demonstrates critical concepts
 ## Decision Making from This Position
 
 **If opponent's neck is exposed and both arms are trapped:**
-- Execute **[[Choke from Crucifix]]** → [[Won by Submission]] (Probability: 75%)
-- Execute **[[Rear Naked Choke]]** → [[Won by Submission]] (Probability: 65%)
+- Execute **[[Choke from Crucifix]]** → [[game-over]] (Probability: 75%)
+- Execute **[[Rear Naked Choke]]** → [[game-over]] (Probability: 65%)
 
 
 **If opponent extends trapped arm attempting extraction:**
-- Execute **[[Armbar from Crucifix]]** → [[Won by Submission]] (Probability: 80%)
-- Execute **[[Straight Armbar]]** → [[Won by Submission]] (Probability: 75%)
+- Execute **[[Armbar from Crucifix]]** → [[game-over]] (Probability: 80%)
+- Execute **[[Straight Armbar]]** → [[game-over]] (Probability: 75%)
 
 
 **If opponent turns away to defend neck:**
@@ -344,8 +263,8 @@ From a teaching perspective, the mounted crucifix demonstrates critical concepts
 
 
 **If opponent creates bridge creating space:**
-- Execute **[[Transition to Technical Mount]]** → [[Technical Mount]] (Probability: 70%)
-- Execute **[[Transition to S Mount]]** → [[S Mount]] (Probability: 65%)
+- Execute **[[Gift Wrap to Technical Mount]]** → [[Technical Mount]] (Probability: 70%)
+- Execute **[[Mounted Crucifix to S Mount]]** → [[S Mount]] (Probability: 65%)
 
 
 **If one arm escapes but opponent remains controlled:**
@@ -443,29 +362,39 @@ Chain attacks from mounted crucifix creating tactical dilemmas. Attack neck with
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Direct Crucifix Finish
+## Test Your Knowledge
 
-`High Mount → Mounted Crucifix Top → Armbar from Crucifix → Won by Submission`
+**Q1**: What are the essential weight distribution principles for maintaining mounted crucifix control?
+**A**: Weight should be distributed forward with hips low to prevent bridging escapes while keeping upper body mobile for attacks. The balance requires approximately 60% of weight forward over opponent's chest to control their hip movement, while the remaining 40% stays centered to maintain base. Leaning too far back enables explosive bridges; leaning too far forward risks being rolled. The key is staying heavy through your hips while keeping shoulders light enough to attack or adjust.
 
-### Crucifix to Back Finish
+**Q2**: How should you adjust your knee pressure when opponent attempts to extract their trapped arm?
+**A**: When opponent initiates arm extraction, immediately squeeze knees tighter together while driving your shin bone across their upper arm or bicep. Simultaneously shift weight slightly toward the escaping arm side to add pressure. The pinching motion with knees creates a vice-like trap that tightens as they pull. Avoid widening your knees or lifting your hips, as this creates the space they need. Think of your legs as a closing gate rather than a static barrier.
 
-`Mounted Crucifix Top → Back Control to Crucifix → Seat Belt Control Back → Rear Naked Choke → Won by Submission`
+**Q3**: Your opponent starts bridging explosively while you have mounted crucifix - what adjustment prevents them from creating escape space?
+**A**: Drop your chest pressure immediately onto their face or shoulder while driving hips forward and down into their midsection. Time your weight shift to land heavy just as their bridge peaks, using their own momentum against them. Keep knees tight and ride their movement rather than fighting against it. If the bridge is toward your trapped-arm side, you may transition to that side's submission attack while they are committed to the explosive movement.
 
-### Technical Mount Chain
+**Q4**: What grip priorities should you establish from mounted crucifix top position?
+**A**: Primary grip priority is controlling the opponent's far-side collar or underhook for choke setup. Secondary is wrist control on any free arm to prevent defensive framing. In no-gi, prioritize a cross-face or head control with one hand while the other threatens submissions. Avoid gripping both arms simultaneously as this reduces your attack options. Your legs provide the primary arm control, freeing your hands for offense rather than grip-fighting.
 
-`Mounted Crucifix Top → Technical Mount → S Mount → Armbar Control → Straight Armbar → Won by Submission`
+**Q5**: How do you apply pressure to drain opponent's energy while maintaining mounted crucifix?
+**A**: Settle your weight through your pelvis directly onto their diaphragm area, making each breath difficult and energy-intensive. Keep constant forward pressure that forces them to carry your weight. Maintain the arm traps tight so their attempts to create space require full-body effort rather than efficient technical movements. The psychological pressure of being unable to defend with trapped arms accelerates fatigue. Avoid unnecessary movement that gives them recovery windows.
 
-### Choke Attack Sequence
+**Q6**: Your opponent partially extracts one arm but remains pinned - how do you recover full control?
+**A**: Immediately re-establish control before they complete extraction by driving your knee back over their arm while shifting weight to that side. If the arm is too far extracted, transition to Gift Wrap control by capturing their escaping arm across their face with your hand and re-securing. Alternatively, abandon that arm entirely and attack the remaining trapped arm with an immediate submission threat, using their escape effort against them as they're now committed to one direction.
 
-`Mounted Crucifix Top → Choke from Crucifix → Gift Wrap → Rear Naked Choke → Won by Submission`
+**Q7**: What signals indicate you should transition to back control rather than continuing submission attempts from mounted crucifix?
+**A**: Transition to back when opponent consistently turns their face away exposing the back of their head, when they start turtling their upper body to defend chokes, when your submission attempts are being effectively defended but they're opening their back during defense, or when fatigue has reduced your ability to maintain tight crucifix control. The back take preserves your dominant position if you sense control slipping, and opponents often give their back more readily than expected when defending crucifix submissions.
+
+**Q8**: How do you recover mounted crucifix control if your base is disrupted during a submission attempt?
+**A**: Post immediately with your free hand on the mat to prevent being rolled while keeping the arm-trapping leg tight. Re-establish mount fundamentals first by squaring your hips and dropping weight, then re-isolate arms systematically. If the crucifix is lost entirely, settle for standard mount and work back to crucifix when stability returns. Never chase the crucifix position at the expense of mount - mount is still dominant and crucifix can be re-established from a stable foundation.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -494,9 +423,9 @@ Chain attacks from mounted crucifix creating tactical dilemmas. Attack neck with
 - **[[Gift Wrap]]** - Alternative control - similar arm-trapping with different mechanics
 - **[[Armbar Control]]** - Submission position - crucifix creates easy armbar entries
 - **[[Seat Belt Control Back]]** - Transition target - natural progression when taking back from crucifix
-- **[[Control Maintenance]]** - Essential principle - maintaining crucifix requires constant pressure and adjustment
-- **[[Submission Control Position]]** - Conceptual framework - crucifix exemplifies submission-ready control positions
-- **[[systematic approach Front Headlock System]]** - Related system - shares principles of arm isolation and control progression
+- **[[Mount]]** - Foundation position - mounted crucifix builds upon standard mount control
+- **[[North South Control]]** - Alternative control - can transition to for different attack angles
+- **[[Kimura Trap]]** - Related arm control - similar principles of isolating opponent's limbs
 
 
 </section>

@@ -21,37 +21,37 @@ description: "Defend against Matrix back take attempts from top position. Strate
     {
       "@type": "HowToStep",
       "name": "Execute Sprawl Defense",
-      "text": "From this position, execute Sprawl Defense to transition to Turtle. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Sprawl Defense. This technique is attempted in 15% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Crossface Pass",
-      "text": "From this position, execute Crossface Pass to transition to Side Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Crossface Pass. This technique is attempted in 13% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Step",
-      "text": "From this position, execute Back Step to transition to Back Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Back Step. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, execute Knee Slice Pass to transition to Side Control. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 14% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Turtle to Back Take",
-      "text": "From this position, execute Turtle to Back Take to transition to Back Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Turtle to Back Take. This technique is attempted in 13% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Darce from Turtle",
-      "text": "From this position, execute Darce from Turtle to transition to D'arce Control. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Darce from Turtle. This technique is attempted in 11% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -219,91 +219,22 @@ Physically, Matrix defense demands excellent balance, responsive base adjustment
 
 ## Available Attacks
 
-### [[Sprawl Defense]] → [[Turtle]]
+### [[Sprawl Defense]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 60%
-- Advanced: 75%
+### [[Crossface Pass]] (13% of attempts)
 
-### [[Crossface Pass]] → [[Side Control]]
+### [[Back Step]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Knee Slice Pass]] (14% of attempts)
 
-### [[Back Step]] → [[Back Control]]
+### [[Turtle to Back Take]] (13% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Darce from Turtle]] (11% of attempts)
 
-### [[Knee Slice Pass]] → [[Side Control]]
+### [[Guillotine from Turtle]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Anaconda from Turtle]] (10% of attempts)
 
-### [[Turtle to Back Take]] → [[Back Control]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-### [[Darce from Turtle]] → [[D'arce Control]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-### [[Guillotine from Turtle]] → [[Guillotine Control]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[Anaconda from Turtle]] → [[Anaconda Control]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Matrix Back Take]]** → [[Back Control]] (Opponent Success: 45%)
-- **[[Rolling Back Take]]** → [[Back Control]] (Opponent Success: 40%)
-- **[[Arm Drag to Back]]** → [[Back Control]] (Opponent Success: 50%)
-- **[[Granby Roll]]** → [[Closed Guard]] (Opponent Success: 55%)
-- **[[Rolling to Guard]]** → [[Open Guard]] (Opponent Success: 60%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Back Step]]** → [[Back Control]]
-  - Opponent commits to Matrix rotation, exposing their back during the roll
-- **[[Sprawl Defense]]** → [[Turtle]]
-  - Opponent elevates hips for Matrix entry, creating opportunity to sprawl and flatten
-- **[[Darce from Turtle]]** → [[D'arce Control]]
-  - Opponent posts arm to initiate rotation, exposing arm for darce entry
-- **[[Crossface Pass]]** → [[Side Control]]
-  - Opponent's rotation is blocked, allowing crossface control and pass completion
 
 
 </section>
@@ -410,29 +341,39 @@ Bottom player is encouraged to attempt Matrix back takes while top player focuse
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Matrix Defense to Darce
+## Test Your Knowledge
 
-`Matrix Top → Darce from Turtle → D'arce Control → Darce Choke`
+**Q1**: What are the earliest indicators that your opponent is setting up a Matrix back take?
+**A**: The earliest indicators are hip elevation above normal turtle or guard level and shoulder posting where the opponent begins shifting weight to one shoulder. Additionally, watch for grip changes as they establish connection points to your body, and subtle weight shifts that create the leverage needed for rotation. Recognizing these micro-movements provides crucial reaction time before the rotation gains momentum.
 
-### Matrix Defense to Guillotine
+**Q2**: Your opponent elevates their hips and posts their shoulder—what immediate adjustment do you make?
+**A**: Immediately widen your base by spreading your knees and hands beyond shoulder width to create lateral stability against the rotational force. Simultaneously shift your weight distribution away from their intended rotation direction. If they're posting their right shoulder, shift weight toward their left side to deny them the leverage point they need. This must happen instantly as any delay allows their rotation to gain momentum.
 
-`Matrix Top → Guillotine from Turtle → Guillotine Control → Guillotine Choke`
+**Q3**: Why does static pressure fail against Matrix attempts while dynamic adjustment succeeds?
+**A**: Static pressure creates a fixed point that the bottom player can use as a fulcrum for their rotation—your immobile weight becomes leverage against you. The rotational momentum of the Matrix is specifically designed to overcome stationary resistance. Dynamic adjustment means constantly redistributing weight in response to their movement, denying them any stable leverage point. Moving with and against their rotation neutralizes the momentum before it builds.
 
-### Matrix Defense to Back Attack
+**Q4**: How does maintaining offensive pressure prevent Matrix entries better than focused defense?
+**A**: When you're actively threatening passes, submissions, or position advancement, the bottom player must dedicate attention and energy to defending your attacks rather than setting up the complex timing and positioning the Matrix requires. The Matrix needs specific conditions—static opponent, established grips, proper hip position—and offensive pressure denies all of these. A passive top player creates the ideal Matrix entry opportunity.
 
-`Matrix Top → Back Step → Back Control → Rear Naked Choke`
+**Q5**: Your opponent begins rotating but you've successfully blocked the initial movement—what's your immediate next action?
+**A**: Immediately transition to offense rather than simply maintaining the defensive position. A blocked Matrix attempt leaves the opponent momentarily vulnerable with their weight committed and structure compromised. Attack with crossface pressure to pass, transition to darce or guillotine if their arm is extended, or take their back if they've over-rotated. The defensive win must convert to offensive advantage before they reset.
 
-### Matrix Defense to Pass and Submit
+**Q6**: What grip fighting priorities should you maintain to disrupt Matrix mechanics?
+**A**: Break any grips the opponent establishes on your belt, pants legs, or ankles immediately—these connection points allow them to pull their rotation around you. Prevent them from establishing underhooks or seatbelt-style grips on your torso. Strip grips before they can load weight onto them. Without strong connection points, their rotation becomes an isolated movement that doesn't affect your position, making the technique ineffective.
 
-`Matrix Top → Crossface Pass → Side Control → Americana from Side Control`
+**Q7**: How do you balance Matrix defense with maintaining passing efficiency?
+**A**: Wide base and constant weight adjustment can slow your passing progression, but this trade-off is necessary against Matrix-skilled opponents. Focus on incremental advancement—establish secure position, then progress step-by-step rather than explosive passing that creates the instability Matrix relies on. Chain your attacks so each passing attempt also functions as Matrix defense through constant pressure and movement.
+
+**Q8**: Your opponent has established strong grips and begun hip elevation—is it too late to defend?
+**A**: It's not too late but your response must be immediate and aggressive. Strip at least one grip while sprawling your hips back to flatten their hip elevation. If you can't strip grips, match their rotation by circling in the same direction they're rolling—this denies them the relative motion they need. Alternatively, immediately attack the exposed arm or neck that their rotation setup creates. Never accept the position passively.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 

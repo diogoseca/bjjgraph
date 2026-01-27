@@ -257,6 +257,31 @@
       "question": "What are the key differences between setting up Baratoplata from Mission Control versus New York position?",
       "answer": "Mission Control provides the initial high guard control and arm isolation, with your foot behind opponent's head and hand controlling their trapped wrist. New York is typically the transition position where you release bottom leg from closed guard and bring knee across opponent's back, creating the angle necessary for threading the arm weave. Most practitioners establish Mission Control first, then transition to New York to create the geometry needed for the arm weave, though experienced grapplers may enter directly to New York.",
       "safety_critical": false
+    },
+    {
+      "question": "What anatomical structures does the Baratoplata attack and at what point does the submission become dangerous?",
+      "answer": "The Baratoplata primarily attacks the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis), the shoulder capsule, and the labrum. The submission becomes dangerous when the opponent's shoulder begins rotating beyond its natural range of motion - typically when you feel their resistance suddenly decrease or hear any clicking or popping sounds. The point of no escape occurs once the arm weave is fully locked and hip extension begins, as the trapped arm cannot be extracted once the rotational pressure is applied.",
+      "safety_critical": true
+    },
+    {
+      "question": "Your opponent begins to posture up during the arm weave threading - what adjustment prevents the escape?",
+      "answer": "Immediately increase downward pressure with your high guard leg on their head and upper back while pulling their trapped arm tighter toward your body. If they continue gaining posture, abort the arm weave and transition to triangle by bringing your leg over their shoulder to reset the position. The key is recognizing posture recovery early and either intensifying control or transitioning before they fully escape.",
+      "safety_critical": false
+    },
+    {
+      "question": "What grip adjustments should you make if your opponent begins stripping your arm weave during the finish?",
+      "answer": "Tighten your weave by pulling your shin closer to your body, creating less space for them to work their grip breaks. Use your free hand to actively block their grip-fighting attempts. If they're making progress, consider accelerating your hip extension to finish before they can break the weave, or transition to an alternative attack such as omoplata or armbar while you still maintain arm isolation. Never sacrifice control of their trapped arm entirely.",
+      "safety_critical": false
+    },
+    {
+      "question": "What are the critical indicators that the Baratoplata finish is properly locked before applying maximum pressure?",
+      "answer": "The critical indicators are: arm weave is fully threaded with your grip secured on your own shin or knee, opponent's posture is completely broken with their head pulled down by your high guard leg, your hips are angled away from opponent creating proper rotational geometry, opponent's free arm is controlled or neutralized preventing effective posting, and you feel their shoulder beginning to rotate with even light hip extension. Only apply finishing pressure when all these elements are confirmed.",
+      "safety_critical": false
+    },
+    {
+      "question": "In competition, what finishing strategies maximize Baratoplata success against a skilled opponent?",
+      "answer": "In competition, chain the Baratoplata with other rubber guard attacks to create dilemmas - threaten triangle to force arm extraction which opens the Baratoplata, or threaten omoplata to draw their arm across for the weave. Use feints to provoke defensive reactions that expose the arm. Time your finish when opponent's energy is depleted from defending other attacks. Apply steady progressive pressure rather than explosive finishing - even in competition, controlled pressure is more effective than jerky movements that allow escape opportunities.",
+      "safety_critical": false
     }
   ],
   "training_progressions_and_safety_protocols": [
@@ -318,15 +343,11 @@
     "Gogoplata",
     "Triangle Choke",
     "Armbar from Guard",
-    "Reverse Armbar",
+    "Kimura",
     "Omoplata from Guard",
     "Triangle from Guard",
-    "Monoplata",
-    "Kimura",
-    "Rolling Omoplata",
-    "Williams Shoulder Lock",
-    "Reverse Kimura",
-    "Inverted Triangle"
+    "Americana",
+    "Armbar from Mount"
   ],
   "related_content": [
     {
@@ -358,14 +379,6 @@
       "relationship": "Transition target when opponent defends Baratoplata aggressively"
     },
     {
-      "name": "Submission Chains",
-      "relationship": "Principle of linking Baratoplata with other attacks"
-    },
-    {
-      "name": "Guard Retention",
-      "relationship": "Fundamental skill for maintaining rubber guard positions"
-    },
-    {
       "name": "Meathook",
       "relationship": "Rubber guard position that can transition to Baratoplata"
     },
@@ -376,6 +389,14 @@
     {
       "name": "Zombie",
       "relationship": "Rubber guard position that shares control mechanics"
+    },
+    {
+      "name": "Closed Guard",
+      "relationship": "Foundation position from which rubber guard is established"
+    },
+    {
+      "name": "Omoplata Control",
+      "relationship": "Related control position for shoulder submissions"
     }
   ]
 }

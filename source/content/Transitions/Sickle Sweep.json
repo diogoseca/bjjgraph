@@ -11,8 +11,6 @@
     "open-guard",
     "bottom-position"
   ],
-  "starting_position": "De La Riva Guard",
-  "ending_position": "Mount",
   "success_rates": {
     "beginner": 35,
     "intermediate": 50,
@@ -267,6 +265,24 @@
     {
       "name": "De La Riva to X-Guard Transition",
       "relationship": "Follow-up - natural transition when sweep is defended"
+    }
+  ],
+  "from_position": "De La Riva Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Mount/Top",
+      "probability": 65,
+      "result": "success"
+    },
+    {
+      "to": "De La Riva Guard/Bottom",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "De La Riva Guard/Top",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

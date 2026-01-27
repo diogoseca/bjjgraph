@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Deep Half Entry | BJJ Technique | BJJ Graph"
 description: "Learn Deep Half Entry in BJJ. Step-by-step execution from Half Guard to Deep Half Guard. Success rates: Beginner 35%, Intermediate 55%, Advanced 70%."
@@ -16,7 +17,7 @@ description: "Learn Deep Half Entry in BJJ. Step-by-step execution from Half Gua
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Deep Half Entry in BJJ",
-  "description": "Step-by-step guide for Deep Half Entry from Half Guard to Deep Half Guard.",
+  "description": "Step-by-step guide for Deep Half Entry from Half Guard/Bottom. Possible outcomes: Deep Half Guard/Bottom (70%), Half Guard/Bottom (20%), Half Guard/Top (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -154,11 +155,25 @@ description: "Learn Deep Half Entry in BJJ. Step-by-step execution from Half Gua
 
 The Deep Half Entry is a fundamental transition from traditional half guard to the deep half guard position, representing a critical defensive recovery and offensive repositioning technique. This entry allows the bottom player to create powerful sweeping opportunities while simultaneously removing themselves from immediate passing danger. Deep half guard has become increasingly prevalent in modern competition BJJ, particularly at the highest levels, as it provides a systematic framework for dealing with pressure-based passing attempts. The position works by getting underneath your opponent's center of gravity, using their weight against them to create mechanical advantage for sweeps and back takes. The entry itself requires precise timing, proper hip mobility, and an understanding of how to manage space and frames during the transition. When executed correctly, the deep half entry transforms a potentially defensive situation into an offensive opportunity, allowing the practitioner to attack with various sweep options including the waiter sweep, Homer Simpson sweep, and electric chair variations.
 
-**Starting Position**: [[Half Guard]]
-**Ending Position**: [[Deep Half Guard]]
+**From Position**: [[Half Guard/Bottom]]
 **Success Rates**: Beginner 35%, Intermediate 55%, Advanced 70%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Deep Half Guard/Bottom]] | 70% |
+| Failure | [[Half Guard/Bottom]] | 20% |
+| Counter | [[Half Guard/Top]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

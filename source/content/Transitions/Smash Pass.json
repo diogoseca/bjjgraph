@@ -11,8 +11,6 @@
     "half_guard",
     "cross_face"
   ],
-  "starting_position": "Half Guard",
-  "ending_position": "Side Control",
   "success_rates": {
     "beginner": 30,
     "intermediate": 50,
@@ -274,6 +272,24 @@
     {
       "name": "Pressure Passing",
       "relationship": "Conceptual framework - smash pass exemplifies pressure passing principles"
+    }
+  ],
+  "from_position": "Half Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Side Control/Top",
+      "probability": 70,
+      "result": "success"
+    },
+    {
+      "to": "Half Guard/Bottom",
+      "probability": 20,
+      "result": "failure"
+    },
+    {
+      "to": "Half Guard/Top",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

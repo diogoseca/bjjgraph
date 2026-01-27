@@ -20,38 +20,38 @@ description: "Master Meathook from bottom. Complete control guide covering arm i
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Gogoplata Control",
-      "text": "From this position, execute Transition to Gogoplata Control to transition to Gogoplata Control. Success rate for advanced practitioners: 65%.",
+      "name": "Execute Meathook to Gogoplata Control",
+      "text": "From this position, attempt Meathook to Gogoplata Control. This technique is attempted in 15% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Setup",
-      "text": "From this position, execute Triangle Setup to transition to Triangle Control. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Triangle Setup. This technique is attempted in 18% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Omoplata",
-      "text": "From this position, execute Transition to Omoplata to transition to Omoplata Control. Success rate for advanced practitioners: 70%.",
+      "name": "Execute Closed Guard to Omoplata",
+      "text": "From this position, attempt Closed Guard to Omoplata. This technique is attempted in 16% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Carni",
-      "text": "From this position, execute Transition to Carni to transition to Carni. Success rate for advanced practitioners: 80%.",
+      "name": "Execute Crackhead Control to Carni",
+      "text": "From this position, attempt Crackhead Control to Carni. This technique is attempted in 14% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Armbar from Guard",
-      "text": "From this position, execute Armbar from Guard to transition to Armbar Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Armbar from Guard. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Omoplata to Back",
-      "text": "From this position, execute Omoplata to Back to transition to Back Control. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Omoplata to Back. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -219,98 +219,20 @@ Competition application requires understanding rule sets and opponent body types
 
 ## Available Escapes
 
-### [[Transition to Gogoplata Control]] → [[Gogoplata Control]]
+### [[Meathook to Gogoplata Control]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 40%
-- Advanced: 65%
+### [[Triangle Setup]] (18% of attempts)
 
-### [[Triangle Setup]] → [[Triangle Control]]
+### [[Closed Guard to Omoplata]] (16% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 55%
-- Advanced: 75%
+### [[Crackhead Control to Carni]] (14% of attempts)
 
-### [[Transition to Omoplata]] → [[Omoplata Control]]
+### [[Armbar from Guard]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 70%
+### [[Omoplata to Back]] (10% of attempts)
 
-### [[Transition to Carni]] → [[Carni]]
+### [[Crackhead Control to Mission Control]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 60%
-- Advanced: 80%
-
-### [[Armbar from Guard]] → [[Armbar Control]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 45%
-- Advanced: 65%
-
-### [[Omoplata to Back]] → [[Back Control]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 55%
-
-### [[Transition to Mission Control]] → [[Mission Control]]
-
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 65%
-- Advanced: 80%
-
-### [[Baratoplata Setup]] → [[Omoplata Control]]
-
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 50%
-
-### [[Tarikoplata Setup]] → [[Triangle Control]]
-
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 50%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Posture Recovery]]** → [[Closed Guard]] (Opponent Success: 25%)
-- **[[Arm Extraction]]** → [[Closed Guard]] (Opponent Success: 30%)
-- **[[Stack Defense]]** → [[Half Guard]] (Opponent Success: 35%)
-- **[[Guard Opening Sequence]]** → [[Open Guard]] (Opponent Success: 20%)
-- **[[Sprawl]]** → [[Turtle]] (Opponent Success: 15%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Triangle Setup]]** → [[Triangle Control]]
-  - When opponent attempts to extract trapped arm upward, their posture opens triangle angle
-- **[[Transition to Gogoplata Control]]** → [[Gogoplata Control]]
-  - When opponent drives forward pressure to escape, their head position enters gogoplata range
-- **[[Transition to Omoplata]]** → [[Omoplata Control]]
-  - When opponent attempts to spin or circle trapped arm, rotation opens omoplata pathway
-- **[[Omoplata to Back]]** → [[Back Control]]
-  - When opponent rolls to escape omoplata, follow the roll to take the back
 
 
 </section>
@@ -320,28 +242,28 @@ Competition application requires understanding rule sets and opponent body types
 ## Decision Making from This Position
 
 **If opponent drives forward with pressure attempting to stack or smash guard:**
-- Execute **[[Transition to Gogoplata Control]]** → [[Gogoplata Control]] (Probability: 65%)
+- Execute **[[Meathook to Gogoplata Control]]** → [[Gogoplata Control]] (Probability: 65%)
 - Execute **[[Triangle Setup]]** → [[Triangle Control]] (Probability: 50%)
 
 
 **If opponent attempts to extract trapped arm by pulling upward or circling:**
 - Execute **[[Triangle Setup]]** → [[Triangle Control]] (Probability: 70%)
-- Execute **[[Transition to Omoplata]]** → [[Omoplata Control]] (Probability: 65%)
+- Execute **[[Closed Guard to Omoplata]]** → [[Omoplata Control]] (Probability: 65%)
 
 
 **If opponent attempts to spin or rotate trapped arm to escape hook:**
-- Execute **[[Transition to Omoplata]]** → [[Omoplata Control]] (Probability: 75%)
-- Execute **[[Transition to Carni]]** → [[Carni]] (Probability: 70%)
+- Execute **[[Closed Guard to Omoplata]]** → [[Omoplata Control]] (Probability: 75%)
+- Execute **[[Crackhead Control to Carni]]** → [[Carni]] (Probability: 70%)
 
 
 **If opponent establishes strong base and pauses defensive movement:**
-- Execute **[[Transition to Mission Control]]** → [[Mission Control]] (Probability: 65%)
+- Execute **[[Crackhead Control to Mission Control]]** → [[Mission Control]] (Probability: 65%)
 - Execute **[[Armbar from Guard]]** → [[Armbar Control]] (Probability: 55%)
 
 
 **If opponent attempts to pressure pass by driving shoulder into chest:**
 - Execute **[[Omoplata to Back]]** → [[Back Control]] (Probability: 60%)
-- Execute **[[Transition to Carni]]** → [[Carni]] (Probability: 65%)
+- Execute **[[Crackhead Control to Carni]]** → [[Carni]] (Probability: 65%)
 
 
 
@@ -427,33 +349,39 @@ Start in Meathook position with partner attempting escapes using full resistance
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Forward Pressure to Gogoplata
+## Test Your Knowledge
 
-`Meathook Bottom → Gogoplata Control → Gogoplata finish (when opponent drives forward)`
+**Q1**: What grip and leg coordination is essential for maintaining Meathook control?
+**A**: The shin hook pressing against the opponent's tricep must work in coordination with the grip on the non-trapped side (overhook or deep collar control). These create opposing forces—the hook pulls the shoulder forward while the grip pulls the head down—compressing posture and preventing escape. Losing either element collapses the control structure.
 
-### Arm Extraction to Triangle
+**Q2**: How deep must the shin hook be placed to maintain proper Meathook control?
+**A**: The ankle must cross completely over the opponent's shoulder line, with the shin applying downward lever pressure against the tricep. A shallow hook where the ankle doesn't clear the shoulder allows the opponent to simply pull their arm backward and escape. Deep hook placement creates a mechanical trap that prevents extraction regardless of opponent's strength.
 
-`Meathook Bottom → Triangle Control → Triangle Choke (when opponent pulls trapped arm upward)`
+**Q3**: Your opponent begins driving forward with pressure while in your Meathook—what submission becomes available?
+**A**: Forward pressure drives the opponent's head into gogoplata range. As they drive forward to escape, transition to Gogoplata Control by adjusting your shin position to their throat. Their forward momentum actually assists the submission setup—the harder they drive, the deeper they enter the choke. This is why experienced practitioners never pressure forward against Meathook.
 
-### Spin Defense to Omoplata
+**Q4**: How should you manage the high energy cost of Meathook position?
+**A**: Meathook is unsustainable beyond 30-45 seconds due to hip flexor and core demand. You must either advance to submission or transition to a more sustainable position like Mission Control within this window. Never attempt to hold Meathook as a static control position—recognize it as a transitional attack position and maintain urgency in your offensive progression.
 
-`Meathook Bottom → Carni → Omoplata Control → Omoplata finish (when opponent rotates trapped arm)`
+**Q5**: Your opponent attempts to extract their trapped arm by pulling upward—what counter attack opens?
+**A**: Upward arm extraction attempts open the triangle angle. As they pull up, their head dips and their shoulder rises, creating the perfect alignment for Triangle Setup. Follow their upward movement by adjusting your hip angle and throwing your leg over their neck to establish Triangle Control. Their escape attempt becomes your submission entry.
 
-### Omoplata to Back Transition
+**Q6**: What happens when you try to hold Meathook without adequate hip flexibility?
+**A**: Forcing Meathook beyond your natural range causes hip flexor strain and hamstring tears, compromises hook pressure allowing easy escape, and creates pain that distracts from proper technique execution. Test flexibility by bringing your knee to your chest while supine—if it doesn't reach shoulder level comfortably, continue flexibility development before attempting live Meathook.
 
-`Meathook Bottom → Omoplata Control → Back Control → Rear Naked Choke (when opponent rolls to escape omoplata)`
+**Q7**: Your opponent is spinning their trapped arm to escape the hook—what submission chain activates?
+**A**: Arm spinning opens the omoplata pathway. As they rotate, transition to Carni by adjusting your hip angle to follow their rotation, then continue into Omoplata Control. Their spinning motion actually assists your shoulder isolation. The rotation that frees them from the hook simultaneously threads them deeper into the omoplata attack chain.
 
-### High Triangle Path
-
-`Meathook Bottom → Mission Control → Triangle Control → Triangle Choke (systematic high-percentage chain)`
+**Q8**: Why is static hip positioning a critical error in Meathook?
+**A**: Static hips make submissions unavailable as angles fail to align properly, and opponents find escape paths through your positional stagnation. Treat your hips as a dynamic steering mechanism—rotate toward triangle when they pull up, angle for gogoplata when they drive forward, shift for omoplata when they spin. Movement creates submission opportunities; stillness eliminates them.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -479,11 +407,11 @@ Start in Meathook position with partner attempting escapes using full resistance
 - **[[Triangle Control]]** - High-percentage finish when opponent attempts upward arm extraction
 - **[[Omoplata Control]]** - Natural transition when opponent spins or rotates trapped arm
 - **[[Carni]]** - Intermediate position that bridges Meathook to omoplata attacks
-- **[[10th Planet Rubber Guard System]]** - Systematic framework that positions Meathook within larger attack chain
-- **[[Rubber Guard to Triangle System]]** - Strategic system emphasizing Meathook to triangle pathways
-- **[[Rubber Guard to Omoplata System]]** - Alternative system focusing on omoplata finishes from Meathook
-- **[[Guard Retention]]** - Fundamental principle that Meathook exemplifies through extreme control
-- **[[Submission Chains]]** - Concept principle that Meathook embodies through interconnected attack web
+- **[[New York]]** - Alternative Rubber Guard control that can transition to Meathook
+- **[[Invisible Collar]]** - Related Rubber Guard position within the same system
+- **[[Crackhead Control]]** - Transitional position in Rubber Guard chain connecting Meathook to other controls
+- **[[Armbar Control]]** - Alternative attack when opponent establishes strong defensive base
+- **[[Back Control]]** - Available when opponent rolls or pressure passes from Meathook attacks
 
 
 </section>

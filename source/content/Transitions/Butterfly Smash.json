@@ -9,8 +9,6 @@
     "top-game",
     "fundamental-technique"
   ],
-  "starting_position": "Butterfly Guard",
-  "ending_position": "Side Control",
   "success_rates": {
     "beginner": 45,
     "intermediate": 60,
@@ -258,6 +256,24 @@
     {
       "name": "Weight Distribution",
       "relationship": "Essential skill for effective execution"
+    }
+  ],
+  "from_position": "Butterfly Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Side Control/Top",
+      "probability": 75,
+      "result": "success"
+    },
+    {
+      "to": "Butterfly Guard/Bottom",
+      "probability": 15,
+      "result": "failure"
+    },
+    {
+      "to": "Butterfly Guard/Top",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

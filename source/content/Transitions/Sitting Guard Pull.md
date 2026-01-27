@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Sitting Guard Pull | BJJ Technique | BJJ Graph"
 description: "Learn Sitting Guard Pull in BJJ. Step-by-step execution from Standing Position to Open Guard Bottom. Success: Beginner 70%, Intermediate 85%, Advanced 95%."
@@ -16,7 +17,7 @@ description: "Learn Sitting Guard Pull in BJJ. Step-by-step execution from Stand
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Sitting Guard Pull in BJJ",
-  "description": "Step-by-step guide for Sitting Guard Pull from Standing Position to Seated Guard.",
+  "description": "Step-by-step guide for Sitting Guard Pull from Standing Position/Top. Possible outcomes: Seated Guard/Bottom (75%), Standing Position/Top (15%), Standing Position/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -154,11 +155,25 @@ description: "Learn Sitting Guard Pull in BJJ. Step-by-step execution from Stand
 
 The Sitting Guard Pull is one of the most fundamental and reliable methods for establishing guard from standing position in Brazilian Jiu-Jitsu. This technique allows a practitioner to safely transition from neutral standing to a seated open guard position while maintaining grips and controlling distance. Unlike dynamic jumping or rolling guard pulls, the sitting guard pull emphasizes control, safety, and strategic positioning. The technique is particularly valuable in both gi and no-gi contexts, serving as a foundational entry point to various open guard systems including butterfly guard, De La Riva, seated guard, and shin-to-shin configurations. The sitting guard pull's high success rate across all skill levels makes it an essential technique for competitors who prefer playing guard, as it reliably achieves the desired position while minimizing risk of injury or positional disadvantage. Mastery of this technique provides a solid platform for developing a comprehensive guard game.
 
-**Starting Position**: [[Standing Position]]
-**Ending Position**: [[Seated Guard]]
+**From Position**: [[Standing Position/Top]]
 **Success Rates**: Beginner 70%, Intermediate 85%, Advanced 95%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Seated Guard/Bottom]] | 75% |
+| Failure | [[Standing Position/Top]] | 15% |
+| Counter | [[Standing Position/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

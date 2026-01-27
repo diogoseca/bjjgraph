@@ -11,8 +11,6 @@
     "defensive-recovery",
     "guard-recovery"
   ],
-  "starting_position": "Turtle",
-  "ending_position": "Single Leg X-Guard",
   "success_rates": {
     "beginner": 35,
     "intermediate": 50,
@@ -285,6 +283,24 @@
     {
       "name": "Standing Defense Strategy",
       "relationship": "Broader strategic system this technique fits within"
+    }
+  ],
+  "from_position": "Turtle/Top",
+  "outcomes": [
+    {
+      "to": "Single Leg X-Guard/Bottom",
+      "probability": 65,
+      "result": "success"
+    },
+    {
+      "to": "Turtle/Top",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Turtle/Bottom",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

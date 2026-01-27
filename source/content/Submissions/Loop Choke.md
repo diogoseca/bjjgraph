@@ -407,8 +407,18 @@ The Loop Choke is a deceptive gi-based blood choke that attacks the carotid arte
 - [[Ezekiel Choke]] - Alternative mount finishing option when collar grip is unavailable
 - [[Americana from Mount]] - Joint lock threat that can be chained with loop choke to create submission dilemmas
 - [[Kesa Gatame]] - Scarf hold variation providing excellent angle for loop choke application
-- [[Won by Submission]] - Terminal state reached upon successful loop choke completion
+- [[game-over]] - Terminal state reached upon successful loop choke completion
 
+
+</section>
+
+<section id="terminal-state" class="content-section">
+
+## Match Outcome
+
+Successful execution of Loop Choke leads to → [[game-over|Game Over]]
+
+*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
 
 </section>
 

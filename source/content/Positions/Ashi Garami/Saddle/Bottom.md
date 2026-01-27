@@ -21,38 +21,32 @@ description: "Learn systematic saddle escapes prioritizing heel protection, hip 
     {
       "@type": "HowToStep",
       "name": "Execute Ashi Garami Escape",
-      "text": "From this position, execute Ashi Garami Escape to transition to Inside Ashi-Garami. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Ashi Garami Escape. This technique is attempted in 22% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape",
-      "text": "From this position, execute Hip Escape to transition to Half Guard. Success rate for advanced practitioners: 45%.",
+      "text": "From this position, attempt Hip Escape. This technique is attempted in 18% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Technical Standup",
-      "text": "From this position, execute Technical Standup to transition to Standing Position. Success rate for advanced practitioners: 35%.",
+      "text": "From this position, attempt Technical Standup. This technique is attempted in 15% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Guard Recovery",
-      "text": "From this position, execute Guard Recovery to transition to Open Guard. Success rate for advanced practitioners: 48%.",
+      "text": "From this position, attempt Guard Recovery. This technique is attempted in 20% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Rolling Escape",
-      "text": "From this position, execute Rolling Escape to transition to Turtle. Success rate for advanced practitioners: 40%.",
-      "position": 5
-    },
-    {
-      "@type": "HowToStep",
       "name": "Execute Frame and Shrimp",
-      "text": "From this position, execute Frame and Shrimp to transition to Outside Ashi-Garami. Success rate for advanced practitioners: 55%.",
-      "position": 6
+      "text": "From this position, attempt Frame and Shrimp. This technique is attempted in 25% of exchanges from this position.",
+      "position": 5
     }
   ],
   "totalTime": "PT2M"
@@ -213,76 +207,16 @@ Understanding common submission mechanics from Saddle is essential for defensive
 
 ## Available Escapes
 
-### [[Ashi Garami Escape]] → [[Inside Ashi-Garami]]
+### [[Ashi Garami Escape]] (22% of attempts)
 
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 50%
+### [[Hip Escape]] (18% of attempts)
 
-### [[Hip Escape]] → [[Half Guard]]
+### [[Technical Standup]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 10%
-- Intermediate: 25%
-- Advanced: 45%
+### [[Guard Recovery]] (20% of attempts)
 
-### [[Technical Standup]] → [[Standing Position]]
+### [[Frame and Shrimp]] (25% of attempts)
 
-**Success Rates:**
-- Beginner: 5%
-- Intermediate: 15%
-- Advanced: 35%
-
-### [[Guard Recovery]] → [[Open Guard]]
-
-**Success Rates:**
-- Beginner: 12%
-- Intermediate: 28%
-- Advanced: 48%
-
-### [[Rolling Escape]] → [[Turtle]]
-
-**Success Rates:**
-- Beginner: 8%
-- Intermediate: 20%
-- Advanced: 40%
-
-### [[Frame and Shrimp]] → [[Outside Ashi-Garami]]
-
-**Success Rates:**
-- Beginner: 18%
-- Intermediate: 35%
-- Advanced: 55%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Inside Heel Hook]]** → [[Won by Submission]]
-- **[[Outside Heel Hook]]** → [[Won by Submission]]
-- **[[Straight Ankle Lock]]** → [[Won by Submission]]
-- **[[Toe Hold]]** → [[Won by Submission]]
-- **[[Kneebar]]** → [[Won by Submission]]
-- **[[Back Take Generic]]** → [[Back Control]]
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Frame and Shrimp]]** → [[Half Guard]]
-  - Opponent squares hips to finish heel hook
-- **[[Grip Break]]** → [[Outside Ashi-Garami]]
-  - Opponent transitions between grip configurations
-- **[[Hip Escape]]** → [[Open Guard]]
-  - Opponent loses hip pressure temporarily
 
 
 </section>
@@ -294,21 +228,23 @@ Understanding common submission mechanics from Saddle is essential for defensive
 **Opponent has established heel control with figure-four grip but hasn't yet extended the heel:**
 - Execute **[[Hide the heel by rotating knee inward]]** → [[Straight Ankle Lock Control]] (Probability: 40%)
 - Execute **[[Attack opponent's grips systematically]]** → [[Inside Ashi-Garami]] (Probability: 35%)
+- Execute **[[Tap if rotation begins]]** → [[game-over]] (Probability: 25%)
 
 
 **Opponent is actively extending the heel with rotation:**
-- Execute **[[Tap immediately to prevent injury]]** → [[Won by Submission]] (Probability: 90%)
+- Execute **[[Tap immediately to prevent injury]]** → [[game-over]] (Probability: 90%)
 - Execute **[[Emergency hip clear with frame]]** → [[Outside Ashi-Garami]] (Probability: 10%)
 
 
 **Opponent has loose control with space between your bodies:**
 - Execute **[[Ashi Garami Escape]]** → [[Open Guard]] (Probability: 55%)
-- Execute **[[Standing escape protocol]]** → [[Standing Position]] (Probability: 45%)
+- Execute **[[Technical Standup]]** → [[Standing Position]] (Probability: 45%)
 
 
 **You have created frame with free leg on opponent's hip:**
-- Execute **[[Hip escape sequence]]** → [[Half Guard]] (Probability: 50%)
+- Execute **[[Hip Escape]]** → [[Half Guard]] (Probability: 50%)
 - Execute **[[Leg extraction to butterfly]]** → [[Butterfly Guard]] (Probability: 40%)
+- Execute **[[Technical Standup]]** → [[Standing Position]] (Probability: 10%)
 
 
 
@@ -373,29 +309,50 @@ Partner establishes near-finished heel hook position. Practice recognizing when 
 **Duration**: 2 minutes
 
 
+### Submission Dilemma Management
 
+Partner alternates between heel hook and ankle lock threats. Practice transitioning defensive posture between protecting heel and protecting ankle while maintaining overall escape progress.
 
-</section>
+**Duration**: 4 minutes
 
-<section id="optimal-submission-paths" class="content-section">
-
-## Escape and Survival Paths
-
-### Immediate Danger Recognition
-
-`Recognize Saddle configuration → Assess heel exposure → Prioritize defensive protocol → Execute systematic escape sequence`
-
-### Defensive Gate Progression
-
-`Protect heel → Clear hip line → Establish frames → Create space → Extract leg → Recover guard`
-
-### Worst Case Survival
-
-`Heel already exposed → Hide heel internally → Attack grips → Create body connection → Clear hip pressure → Escape to Inside Ashi-Garami`
 
 
 
 </section>
+
+
+<section id="knowledge-assessment" class="content-section">
+
+## Test Your Knowledge
+
+**Q1**: Your opponent begins extending your heel with rotational pressure—what is your immediate response?
+**A**: If the submission is locked with rotation already applied, tap immediately to prevent knee ligament damage. If you still have some heel protection or the rotation is just beginning, attempt an emergency hip clear by posting with your free leg and explosively moving your body toward the opponent rather than pulling your leg away. This reduces joint stress while creating angles. However, recognize that once heel hook mechanics are engaged, the window for escape is extremely small—prioritize safety over ego.
+
+**Q2**: What are the essential defensive grips for preventing heel hook finishes from bottom saddle?
+**A**: Your primary grip defense involves using both hands to control your own foot and ankle, preventing the opponent from rotating your heel. Grab your own shin or ankle to create a barrier. If the opponent has already established heel grip, use two-on-one grip fighting to strip their control at the thumbs. Secondary defense involves framing on their hip with your free leg to prevent them from tightening the position.
+
+**Q3**: How do you shut down an opponent's ability to finish when they have saddle but haven't yet secured the heel?
+**A**: Hide the heel by rotating your knee inward toward your centerline while keeping your foot flexed. This makes the heel difficult to access but exposes your ankle to straight ankle lock. Use your hands to protect the ankle/foot area while your free leg frames on their hip to prevent them from improving position. The goal is to create a defensive stalemate where they cannot finish, buying time to work escapes.
+
+**Q4**: What is the correct sequence for escaping saddle without exposing yourself to greater danger?
+**A**: The hierarchy is: 1) Protect heel by hiding it, 2) Address opponent's grips with systematic grip fighting, 3) Clear their hip pressure by framing and creating angles, 4) Only after hip pressure is reduced, begin leg extraction by moving your body toward them, not pulling leg away. Violating this sequence—especially attempting extraction before clearing hip pressure—dramatically increases injury risk.
+
+**Q5**: How should you use your free leg defensively while trapped in saddle?
+**A**: Your free leg should frame on the opponent's hip to prevent them from achieving optimal perpendicular positioning. Push against their hip to reduce their ability to apply pressure and rotation. The free leg can also be used to create posts that help you shift your body position. Never use the free leg to push explosively without purpose, as this wastes energy and may help them tighten control.
+
+**Q6**: Your opponent switches from heel hook attack to straight ankle lock after you hide your heel—what adjustment do you make?
+**A**: When defending ankle lock, pull your toes back and rotate your foot to point your toes away from their armpit. This reduces the lever arm for the ankle lock. However, recognize this re-exposes your heel—you're managing a submission dilemma. Continue working grip breaks and hip clears while managing which attack you're exposed to. The goal is to survive long enough to escape, not to create perfect defense against any single attack.
+
+**Q7**: How do you manage energy expenditure when trapped in saddle against a patient opponent?
+**A**: Avoid the trap of continuously fighting explosively against superior control. Make deliberate, technical movements rather than panicked struggles. Focus on incremental improvements: small grip fights, minor angle changes, gradual hip movement. Accept that escape may take time and conserve energy for moments when opportunities arise. Explosive movements should be reserved for when you've created genuine escape openings, not as constant resistance.
+
+**Q8**: What recovery protocol do you use if your escape attempt fails and the opponent re-tightens control?
+**A**: Return to the defensive hierarchy immediately: re-protect the heel, address any grips they've re-established, and frame to prevent further tightening. Do not compound a failed escape with continued movement that could worsen your position. Recognize that you may need to restart the escape sequence from the beginning. Each failed attempt teaches you about this specific opponent's control and reactions—use that information in subsequent attempts.
+
+
+
+</section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -419,9 +376,9 @@ Partner establishes near-finished heel hook position. Practice recognizing when 
 - **[[Inside Ashi-Garami]]** - Common fallback position when saddle escape is partially successful
 - **[[Outside Ashi-Garami]]** - Intermediate position during escape sequence
 - **[[Ashi Garami Escape]]** - Primary defensive transition technique
-- **[[Lachlan Giles Leg Lock Defense Framework]]** - Comprehensive defensive system including saddle escapes
+- **[[Heel Hook]]** - Primary submission threat requiring defense
+- **[[Straight Ankle Lock]]** - Secondary submission threat when heel is hidden
 - **[[Leg Entanglement]]** - Conceptual framework for understanding position hierarchy
-- **[[Submission Defense]]** - General defensive principles applicable to leg locks
 
 
 </section>

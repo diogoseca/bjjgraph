@@ -21,37 +21,37 @@ description: "Master Knee Shield Half Guard Top in BJJ. Complete guide covering 
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice from Half",
-      "text": "From this position, execute Knee Slice from Half to transition to Side Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Knee Slice from Half. This technique is attempted in 12% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Smash Pass",
-      "text": "From this position, execute Smash Pass to transition to Side Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Smash Pass. This technique is attempted in 13% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Long Step Pass",
-      "text": "From this position, execute Long Step Pass to transition to Side Control. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Long Step Pass. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Pass",
-      "text": "From this position, execute Underhook Pass to transition to Mount. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Underhook Pass. This technique is attempted in 11% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Crossface Pass",
-      "text": "From this position, execute Crossface Pass to transition to Side Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Crossface Pass. This technique is attempted in 13% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Weave Pass",
-      "text": "From this position, execute Leg Weave Pass to transition to Side Control. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Leg Weave Pass. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -210,91 +210,22 @@ From top position, the primary goal is to neutralize the knee shield's effective
 
 ## Available Attacks
 
-### [[Knee Slice from Half]] → [[Side Control]]
+### [[Knee Slice from Half]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Smash Pass]] (13% of attempts)
 
-### [[Smash Pass]] → [[Side Control]]
+### [[Long Step Pass]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Underhook Pass]] (11% of attempts)
 
-### [[Long Step Pass]] → [[Side Control]]
+### [[Crossface Pass]] (13% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
+### [[Leg Weave Pass]] (12% of attempts)
 
-### [[Underhook Pass]] → [[Mount]]
+### [[Side Control to North-South]] (14% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
+### [[Knee on Belly]] (13% of attempts)
 
-### [[Crossface Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[Leg Weave Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-### [[Transition to North-South]] → [[North-South]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-### [[Knee on Belly]] → [[Knee on Belly]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Old School Sweep]]** → [[Mount]] (Opponent Success: 40%)
-- **[[Deep Half Entry]]** → [[Deep Half Guard]] (Opponent Success: 45%)
-- **[[Underhook Sweep from Half]]** → [[Mount]] (Opponent Success: 35%)
-- **[[Lockdown Sweeps]]** → [[Lockdown]] (Opponent Success: 30%)
-- **[[Hip Escape]]** → [[Closed Guard]] (Opponent Success: 25%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Smash Pass]]** → [[Side Control]]
-  - Opponent extends knee shield too far creating space underneath
-- **[[Knee Slice from Half]]** → [[Side Control]]
-  - Opponent retracts knee shield allowing knee slice opportunity
-- **[[Long Step Pass]]** → [[Side Control]]
-  - Opponent commits to underhook battle opening far side
-- **[[Underhook Pass]]** → [[Mount]]
-  - Opponent loses upper body control during knee shield adjustment
 
 
 </section>
@@ -320,7 +251,7 @@ From top position, the primary goal is to neutralize the knee shield's effective
 
 **If opponent's knee shield collapses or loses structural integrity:**
 - Execute **[[Smash Pass]]** → [[Side Control]] (Probability: 70%)
-- Execute **[[Transition to North-South]]** → [[North-South]] (Probability: 60%)
+- Execute **[[Side Control to North-South]]** → [[North-South]] (Probability: 60%)
 
 
 
@@ -401,33 +332,39 @@ Start in knee shield half guard top position with specific goal constraints. Top
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### High-percentage passing to submission path
+## Test Your Knowledge
 
-`Knee Shield Half Guard Top → Knee Slice from Half → Side Control → Kimura from Side Control`
+**Q1**: Your opponent is pushing their knee shield strongly into your chest. What adjustment should you make?
+**A**: Angle your body at 45 degrees to the knee shield rather than facing it directly. This redirects the force of their frame away from your centerline, reducing its effectiveness. Simultaneously control their ankle or pants grip on the knee shield leg to limit their ability to adjust the shield angle. Apply shoulder pressure into their upper chest rather than pushing into the shield itself.
 
-### Pressure-based submission sequence
+**Q2**: What are the essential grips for maintaining pressure while passing the knee shield?
+**A**: The crossface grip controlling opponent's head and near shoulder is primary, preventing them from turning into you or establishing frames. Secondary grip should control the knee shield leg at the ankle, knee, or pants to limit shield mobility. For gi, collar and pants grips provide excellent control. In no-gi, underhook on far side and wrist control on near side prevent their offensive grip establishment.
 
-`Knee Shield Half Guard Top → Smash Pass → Side Control → Americana from Side Control`
+**Q3**: How do you shut down the opponent's underhook attempt from bottom knee shield?
+**A**: Maintain heavy crossface pressure driving your shoulder into their jaw to prevent them from turning their shoulder up to create underhook space. Control their near arm with an overhook or wrist grip. If they begin threading their arm through, immediately whizzer their underhook attempt while driving your weight forward. Never allow space between your chest and their shoulder on the near side.
 
-### Dynamic passing to mount submission
+**Q4**: What grip priorities should you establish when entering knee shield top position?
+**A**: First priority is crossface control to neutralize upper body mobility and underhook threats. Second is controlling the knee shield leg to limit frame adjustments. Third is far hip control to prevent hip escape and re-guard attempts. In gi, collar grip plus pants grip on shield leg creates excellent control. In no-gi, underhook plus head control accomplishes similar objectives.
 
-`Knee Shield Half Guard Top → Underhook Pass → Mount → Armbar from Mount`
+**Q5**: How do you apply pressure effectively without overcommitting and getting swept?
+**A**: Apply pressure in waves rather than constant maximum pressure. Drive weight through your shoulder into their upper chest, not directly into the knee shield. Keep your base wide with knees on either side of their hips. Distribute weight so you can post quickly if they attempt sweeps. Never fully extend your legs or bring knees together—maintain a tripod-like base that allows quick recovery.
 
-### Back attack opportunity path
+**Q6**: Your opponent starts to hip escape during your pass attempt—what immediate adjustment do you make?
+**A**: Immediately control their far hip with your free hand, blocking their hip escape motion. Drive your weight forward and down toward their upper body while maintaining crossface. Switch your passing angle to follow their hip movement rather than fighting against it. If they create significant space, consider transitioning to a different pass like the long step that capitalizes on the angle they've created.
 
-`Knee Shield Half Guard Top → Crossface Pass → Crucifix → Choke from Crucifix`
+**Q7**: How do you manage energy when facing a persistent knee shield that won't collapse?
+**A**: Avoid burning energy pushing directly into a strong shield. Instead, create multiple angles of attack forcing them to constantly readjust. Use pressure waves—apply heavy pressure, release slightly to bait reactions, then capitalize on their adjustments. Switch between knee slice threats, smash pass setups, and long step opportunities. The goal is making them expend energy adjusting while you conserve energy through efficient positioning.
 
-### North-South transition path
-
-`Knee Shield Half Guard Top → Transition to North-South → North-South → Kimura from North-South`
+**Q8**: Your opponent partially escapes and recovers their knee shield after you nearly passed—how do you recover?
+**A**: Immediately re-establish crossface control before they can optimize their shield position. Control their near arm to prevent underhook re-establishment. Don't abandon position—consolidate what you have before restarting the pass sequence. Address any grip they established during the scramble. Reset your base with knees wide, then systematically work to collapse the recovered shield using the same methodical approach.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -448,7 +385,7 @@ Start in knee shield half guard top position with specific goal constraints. Top
 
 ## Related Positions and Techniques
 
-- **[[Knee Shield Half Guard Bottom]]** - Sibling variant—opposite perspective of same position
+- **[[Knee Shield Half Guard]]** - Hub position—this is the top perspective
 - **[[Half Guard]]** - Parent position—broader category
 - **[[Side Control]]** - Primary transition target from successful passing
 - **[[Knee Slice from Half]]** - Primary offensive transition technique

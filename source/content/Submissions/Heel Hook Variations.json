@@ -298,6 +298,26 @@
       "question": "What are the warning signs that a training partner may be injured during heel hook practice, and what should you do if you observe them?",
       "answer": "Warning signs include: unusual sounds from the knee (popping, cracking), sudden loss of resistance (leg goes limp), verbal distress signals, visible distress on their face even without tap, inability to tap due to arm position, or partner continuing to resist past normal range without tapping. If you observe any of these signs: 1) IMMEDIATELY release all pressure and reverse rotation to neutral, 2) Completely release the submission, 3) Verbally check if they are okay, 4) Stop training and allow them to assess their knee, 5) If there's any indication of injury, suggest they see medical professional and inform the instructor, 6) Never pressure them to continue training if they're uncertain about injury status. Better to stop unnecessarily 100 times than to cause one serious injury.",
       "safety_critical": true
+    },
+    {
+      "question": "Your opponent starts extending their leg forcefully to create distance while you have heel control - what finishing adjustment maximizes your chance of success?",
+      "answer": "Their leg extension actually assists your finish if you respond correctly. Maintain your heel grip firmly anchored to your chest and follow their extension by driving your hips forward. As they straighten their leg, this actually increases the rotational torque on their knee joint when you apply the rotation. Use their pushing force against them by bridging into the heel hook while rotating. However, if they create enough distance to escape your leg entanglement, immediately release and either re-enter or transition to kneebar attack which becomes available as they extend.",
+      "safety_critical": false
+    },
+    {
+      "question": "What specific grip adjustments should you make when transitioning from inside heel hook attempt to outside heel hook during a scramble?",
+      "answer": "When switching from inside to outside heel hook, you must completely reconfigure your grip orientation. For inside heel hook, your palm faces toward their body with fingers cupping the heel from the inside. For outside heel hook, rotate your grip so your palm faces away from their body, cupping the heel from the outside. Your wrist position changes from behind the Achilles to in front of it. Simultaneously, your body angle must change - you're now using internal torso rotation rather than external. Most importantly, maintain constant heel contact during the transition; never let the heel float free or you'll lose your attacking opportunity entirely.",
+      "safety_critical": false
+    },
+    {
+      "question": "How do you determine the exact moment when your heel hook is locked and ready to generate the tap versus still needing positional refinement?",
+      "answer": "The submission is locked when three conditions are met simultaneously: 1) Your heel grip is anchored to your body with zero slack - if you rotate your torso, the heel moves with you as a single unit, 2) Your leg entanglement has eliminated their knee's ability to rotate - test this by making micro-rotations and observing if their knee responds or if only their heel moves, 3) Their defensive grips are cleared and they cannot frame on your hips. If any of these conditions isn't met, continue positional refinement. Attempting to finish before all three conditions are satisfied dramatically reduces success rate and allows escapes.",
+      "safety_critical": false
+    },
+    {
+      "question": "In competition, what are the key indicators that tell you to commit fully to the finish versus release and reset for another attempt?",
+      "answer": "Commit to finish when: you have secure heel-to-body connection, opponent's knee line is controlled with no rotation available, their defensive grips have been cleared, and you can feel the structural tension beginning to build in their knee. Release and reset when: they establish a strong defensive grip you cannot break, they've successfully rotated their knee toward their chest relieving pressure, your leg entanglement is compromised and they're extracting their leg, or they've created significant space allowing them to address your position. In competition, attempted finishes from weak positions waste time and energy - reset and attack again from proper control.",
+      "safety_critical": false
     }
   ],
   "training_progressions_and_safety_protocols": [
@@ -379,44 +399,44 @@
       "relationship": "Parent position family for all heel hook variations"
     },
     {
-      "name": "Craig Jones Leg Lock System",
-      "relationship": "Modern competitive application of heel hook variations"
+      "name": "Saddle",
+      "relationship": "Primary finishing position for inside heel hook attacks"
     },
     {
-      "name": "Garry Tonon Leg Lock to Back System",
-      "relationship": "Strategic system combining heel hooks with back takes"
+      "name": "Honey Hole",
+      "relationship": "Alternative dominant position for heel hook finishes"
     },
     {
-      "name": "Lachlan Giles Leg Lock Defense Framework",
-      "relationship": "Essential defensive principles against heel hook attacks"
+      "name": "Inside Ashi-Garami",
+      "relationship": "Entry position and transitional hub to saddle"
     },
     {
-      "name": "Straight Footlock to Kneebar Chain",
-      "relationship": "Common leg attack sequence that can transition to heel hooks"
+      "name": "Outside Ashi-Garami",
+      "relationship": "Entry position for outside heel hook variation"
     },
     {
-      "name": "X-Guard to Ashi Transition",
-      "relationship": "High-percentage entry path to heel hook positions"
+      "name": "50-50 Guard",
+      "relationship": "Mirrored leg entanglement with heel hook opportunities for both players"
     },
     {
-      "name": "Inside Ashi Entry",
-      "relationship": "Primary transition to establish inside heel hook position"
+      "name": "Kneebar",
+      "relationship": "Complementary leg attack that chains with heel hooks"
     },
     {
-      "name": "Outside Ashi Entry",
-      "relationship": "Entry method for outside heel hook variations"
+      "name": "Straight Ankle Lock",
+      "relationship": "Lower-risk leg attack that transitions to heel hook positions"
     },
     {
-      "name": "Saddle Entry from Top",
-      "relationship": "Offensive entry to dominant heel hook position"
-    },
-    {
-      "name": "Saddle Defense",
-      "relationship": "Critical defensive knowledge for preventing heel hook finishes"
+      "name": "Toe Hold",
+      "relationship": "Alternative finish when heel is hidden defensively"
     },
     {
       "name": "Leg Entanglement",
       "relationship": "Fundamental principle underlying all heel hook positions"
+    },
+    {
+      "name": "X-Guard",
+      "relationship": "High-percentage entry guard for leg entanglement transitions"
     }
   ]
 }

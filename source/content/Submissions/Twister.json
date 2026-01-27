@@ -179,17 +179,20 @@
     {
       "error": "Losing lockdown control and attempting to finish anyway",
       "consequence": "Opponent can escape or turn into you, negating the submission entirely",
-      "correction": "Re-establish solid lower body control before attempting the finish. The Twister is impossible without anchoring their hips and legs."
+      "correction": "Re-establish solid lower body control before attempting the finish. The Twister is impossible without anchoring their hips and legs.",
+      "danger_level": "High"
     },
     {
       "error": "Not controlling the far arm adequately",
       "consequence": "Opponent creates defensive frames and escapes or reduces submission pressure",
-      "correction": "Pull their far arm across their back and maintain tight wrist or triceps control throughout the sequence. Their arm should be trapped behind them."
+      "correction": "Pull their far arm across their back and maintain tight wrist or triceps control throughout the sequence. Their arm should be trapped behind them.",
+      "danger_level": "Medium"
     },
     {
       "error": "Poor perpendicular alignment with opponent's spine",
       "consequence": "Reduced twisting pressure and easier escape for opponent",
-      "correction": "Position your body at 90 degrees to opponent's spine. Your chest should be near their ribs, not parallel to their body."
+      "correction": "Position your body at 90 degrees to opponent's spine. Your chest should be near their ribs, not parallel to their body.",
+      "danger_level": "Medium"
     },
     {
       "error": "Using only arm strength to pull the head",
@@ -261,6 +264,31 @@
       "question": "What common error transforms the Twister from a spinal lock into a dangerous neck crank?",
       "answer": "Pulling the head straight back toward you instead of creating rotational torque with opposing vectors. The Twister should create a twisting, corkscrew motion on the entire spine by pushing the lower body one direction while pulling the upper body the opposite direction. Simply pulling the head backward becomes a neck crank, which is more dangerous and less effective than the proper spinal lock mechanism.",
       "safety_critical": true
+    },
+    {
+      "question": "What anatomical structures does the Twister primarily attack, and what makes them vulnerable?",
+      "answer": "The Twister primarily attacks the cervical spine (neck vertebrae), thoracic spine (upper back), and the surrounding musculature including the shoulder girdle. These structures are vulnerable because the spine has limited rotational capacity before injury occurs. Unlike joints that can hyperextend gradually, the spine under rotational load can suffer sudden catastrophic failure of intervertebral discs, facet joints, and spinal ligaments with very little warning.",
+      "safety_critical": true
+    },
+    {
+      "question": "Your opponent begins to straighten their trapped leg while you have Twister control established - what finishing adjustment should you make?",
+      "answer": "When the opponent straightens their trapped leg, you lose the lower body anchor that creates the opposing force vector. Immediately switch to a body triangle or hook configuration to regain lower body control before continuing. Alternatively, if they've created significant space, transition to the Calf Slicer on the extended leg as a counter-attack. Never attempt to finish the Twister without solid lower body control as the rotational pressure becomes unpredictable and potentially more dangerous.",
+      "safety_critical": false
+    },
+    {
+      "question": "At what point during the Twister application is there 'no escape' for the defender, and how should this affect your finishing pressure?",
+      "answer": "The point of no escape occurs when you have achieved full perpendicular alignment with deep lockdown control and have begun the rotational pressure with their far arm trapped. At this point, their only option is to tap. This should actually cause you to SLOW DOWN your application, not speed up. Once you recognize the position is locked, apply finishing pressure progressively over 3-5 seconds, giving your partner ample time to signal the tap. The danger zone is precisely when they cannot escape.",
+      "safety_critical": true
+    },
+    {
+      "question": "How do you adjust your grip configuration when finishing the Twister in competition versus training?",
+      "answer": "In training, maintain loose, adjustable grips that allow you to instantly release upon tap signal. Never gable grip the chin tightly - use a cupping or cradling grip instead. In competition, grips can be tighter but application speed should still be controlled. The key difference is training prioritizes partner safety with 50% speed maximum, while competition allows faster setup but the finish itself should still be progressive to allow referee intervention if needed.",
+      "safety_critical": true
+    },
+    {
+      "question": "What are the indicators that your Twister pressure is creating the intended spinal rotation versus becoming a dangerous neck crank?",
+      "answer": "Proper spinal rotation shows these indicators: opponent's entire torso rotates as a unit, pressure is distributed across the full spine, and the submission feels like tightening a corkscrew. A neck crank shows: isolated movement at the cervical spine only, opponent's body below the shoulders remains relatively stationary, and pressure concentrates at the base of the skull. If you notice crank indicators, immediately adjust by increasing leg extension to engage the lower body in the rotation.",
+      "safety_critical": true
     }
   ],
   "training_progressions_and_safety_protocols": [
@@ -319,11 +347,9 @@
     "Twister Side Control"
   ],
   "related_submissions": [
-    "Twister Finish",
     "Calf Slicer from Truck",
     "Banana Split",
     "Electric Chair Submission",
-    "Spine Lock",
     "Rear Naked Choke",
     "Bow and Arrow Choke",
     "Crucifix Submissions",
@@ -332,8 +358,7 @@
     "Kimura",
     "Armbar from Back",
     "Calf Slicer",
-    "Boston Crab",
-    "Suloev Stretch"
+    "Boston Crab"
   ],
   "related_content": [
     {
@@ -349,36 +374,36 @@
       "relationship": "Essential lower body control mechanism for anchoring opponent's legs"
     },
     {
-      "name": "Truck Entry",
-      "relationship": "Transition technique to achieve Truck position from various positions"
+      "name": "Back Control",
+      "relationship": "Alternative back attack position and common entry point to Truck"
     },
     {
-      "name": "Turtle to Back Control",
-      "relationship": "Common entry path to Truck position and subsequent Twister setup"
-    },
-    {
-      "name": "Twister System",
-      "relationship": "Comprehensive system built around this submission and related techniques"
-    },
-    {
-      "name": "Crab Ride to Back",
+      "name": "Crab Ride",
       "relationship": "Alternative back attack entry that can transition to Truck"
     },
     {
-      "name": "Back Attack System",
-      "relationship": "Broader system of back attacks where Twister is advanced option"
+      "name": "Turtle",
+      "relationship": "Common opponent position for Truck entry and Twister setup"
     },
     {
-      "name": "Transition to Truck",
-      "relationship": "Generic transition category for entering Truck position"
+      "name": "Electric Chair",
+      "relationship": "Related 10th Planet position that chains directly with Twister"
     },
     {
-      "name": "Flexibility Training",
-      "relationship": "Essential principle for safely practicing and defending spinal locks"
+      "name": "Half Guard",
+      "relationship": "Starting position for lockdown entries leading to Truck system"
     },
     {
-      "name": "Submission Chains",
-      "relationship": "Principle of combining Twister with Calf Slicer, Banana Split, etc."
+      "name": "Calf Slicer from Truck",
+      "relationship": "Complementary submission from same control position"
+    },
+    {
+      "name": "Banana Split",
+      "relationship": "Alternative submission in the Truck attack system"
+    },
+    {
+      "name": "Crucifix",
+      "relationship": "Related back control position with arm isolation options"
     }
   ]
 }

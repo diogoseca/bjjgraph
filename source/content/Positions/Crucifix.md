@@ -95,26 +95,20 @@ Mastery of the Crucifix from both perspectives—understanding how to establish 
 - Keep the free arm active and defensive, preventing its capture which would create an irreversible position
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Hip Escape to Guard Recovery]]** → [[Closed Guard]]
-  - Success Rate: Beginner 15%, Intermediate 25%, Advanced 40%
+- **[[Hip Escape to Guard Recovery]]** (17% of attempts)
 
-- **[[Arm Extraction]]** → [[Turtle]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Arm Extraction]]** (21% of attempts)
 
-- **[[Rolling Back Take]]** → [[Back Control]]
-  - Success Rate: Beginner 10%, Intermediate 20%, Advanced 35%
+- **[[Back Take from Bottom]]** (15% of attempts)
 
-- **[[Elbow Escape]]** → [[Side Control]]
-  - Success Rate: Beginner 12%, Intermediate 22%, Advanced 38%
+- **[[Elbow Escape]]** (16% of attempts)
 
-- **[[Hip Escape]]** → [[Half Guard]]
-  - Success Rate: Beginner 18%, Intermediate 30%, Advanced 45%
+- **[[Hip Escape]]** (19% of attempts)
 
-- **[[Technical Standup]]** → [[Standing Position]]
-  - Success Rate: Beginner 8%, Intermediate 15%, Advanced 28%
+- **[[Technical Standup]]** (12% of attempts)
 
 
 ### Common Mistakes
@@ -172,29 +166,22 @@ Mastery of the Crucifix from both perspectives—understanding how to establish 
 - Stay tight to opponent's back and shoulders to prevent space creation and rolling escapes
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Rear Naked Choke]]** → [[Won by Submission]]
-  - Success Rate: Beginner 55%, Intermediate 70%, Advanced 85%
+- **[[Rear Naked Choke]]** (16% of attempts)
 
-- **[[Choke from Crucifix]]** → [[Won by Submission]]
-  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 80%
+- **[[Choke from Crucifix]]** (14% of attempts)
 
-- **[[Armbar from Crucifix]]** → [[Won by Submission]]
-  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 80%
+- **[[Armbar from Crucifix]]** (14% of attempts)
 
-- **[[Kimura]]** → [[Won by Submission]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Kimura]]** (13% of attempts)
 
-- **[[Transition to Mount]]** → [[Mount]]
-  - Success Rate: Beginner 60%, Intermediate 70%, Advanced 80%
+- **[[Side Control to Mount]]** (14% of attempts)
 
-- **[[Back Control to Crucifix]]** → [[Back Control]]
-  - Success Rate: Beginner 65%, Intermediate 75%, Advanced 85%
+- **[[Back Control to Crucifix]]** (15% of attempts)
 
-- **[[Transition to North-South]]** → [[North-South]]
-  - Success Rate: Beginner 55%, Intermediate 65%, Advanced 75%
+- **[[Side Control to North-South]]** (14% of attempts)
 
 
 ### Common Mistakes

@@ -440,4 +440,14 @@ The High Elbow Guillotine is a devastating blood choke that targets the carotid 
 
 </section>
 
+<section id="terminal-state" class="content-section">
+
+## Match Outcome
+
+Successful execution of High Elbow Guillotine leads to → [[game-over|Game Over]]
+
+*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+
+</section>
+
 </main>

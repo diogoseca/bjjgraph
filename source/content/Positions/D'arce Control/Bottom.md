@@ -21,38 +21,32 @@ description: "Master D'arce Control from bottom position in BJJ. Learn defensive
     {
       "@type": "HowToStep",
       "name": "Execute Arm Extraction",
-      "text": "From this position, execute Arm Extraction to transition to Turtle. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Arm Extraction. This technique is attempted in 25% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling to Guard",
-      "text": "From this position, execute Rolling to Guard to transition to Half Guard. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Rolling to Guard. This technique is attempted in 25% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Step Over Escape",
-      "text": "From this position, execute Step Over Escape to transition to Open Guard. Success rate for advanced practitioners: 45%.",
+      "name": "Execute Granby Roll",
+      "text": "From this position, attempt Granby Roll. This technique is attempted in 20% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Door Escape",
-      "text": "From this position, execute Back Door Escape to transition to Turtle. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Back Door Escape. This technique is attempted in 18% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Counter Roll",
-      "text": "From this position, execute Counter Roll to transition to Side Control. Success rate for advanced practitioners: 35%.",
+      "text": "From this position, attempt Counter Roll. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Granby Roll",
-      "text": "From this position, execute Granby Roll to transition to Closed Guard. Success rate for advanced practitioners: 40%.",
-      "position": 6
     }
   ],
   "totalTime": "PT2M"
@@ -210,74 +204,16 @@ While extremely dangerous, D'arce Control Bottom is not an inescapable position.
 
 ## Available Escapes
 
-### [[Arm Extraction]] → [[Turtle]]
+### [[Arm Extraction]] (25% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
+### [[Rolling to Guard]] (25% of attempts)
 
-### [[Rolling to Guard]] → [[Half Guard]]
+### [[Granby Roll]] (20% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
+### [[Back Door Escape]] (18% of attempts)
 
-### [[Step Over Escape]] → [[Open Guard]]
+### [[Counter Roll]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 45%
-
-### [[Back Door Escape]] → [[Turtle]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
-
-### [[Counter Roll]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 10%
-- Intermediate: 20%
-- Advanced: 35%
-
-### [[Granby Roll]] → [[Closed Guard]]
-
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 25%
-- Advanced: 40%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Darce Choke]]** → [[Lost by Submission]] (Opponent Success: 70%)
-- **[[Transition to North-South]]** → [[North-South]] (Opponent Success: 50%)
-- **[[Transition to Mount]]** → [[Mount]] (Opponent Success: 45%)
-- **[[Anaconda Choke]]** → [[Lost by Submission]] (Opponent Success: 40%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Hidden Arm Escape]]** → [[Turtle]]
-  - Opponent attempts to flatten you to complete choke
-- **[[Shoulder Roll Counter]]** → [[Half Guard]]
-  - Opponent drives forward with chest pressure
-- **[[Hip Escape]]** → [[Open Guard]]
-  - Opponent loosens grip to adjust position
 
 
 </section>
@@ -288,7 +224,7 @@ While extremely dangerous, D'arce Control Bottom is not an inescapable position.
 
 **If opponent has shallow grip and choke is not yet tight:**
 - Execute **[[Arm Extraction]]** → [[Turtle]] (Probability: 55%)
-- Execute **[[Step Over Escape]]** → [[Open Guard]] (Probability: 45%)
+- Execute **[[Granby Roll]]** → [[Open Guard]] (Probability: 45%)
 
 
 **If opponent is driving forward to flatten you and tighten choke:**
@@ -363,7 +299,7 @@ Start in turtle position. Partner attempts D'arce entry while you defend the und
 
 ### Escape Route Options Drill
 
-Partner holds D'arce Control Bottom position with moderate resistance. Practice each escape option (arm extraction, step over, rolling to guard, back door, granby roll) individually with proper mechanics. Partner provides feedback on effectiveness of frames, hip movement, and timing. Build muscle memory for multiple escape pathways.
+Partner holds D'arce Control position with moderate resistance. Practice each escape option (arm extraction, step over, rolling to guard, back door, granby roll) individually with proper mechanics. Partner provides feedback on effectiveness of frames, hip movement, and timing. Build muscle memory for multiple escape pathways.
 
 **Duration**: 8 minutes cycling through all escapes
 
@@ -372,25 +308,39 @@ Partner holds D'arce Control Bottom position with moderate resistance. Practice 
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Immediate defensive escape
+## Test Your Knowledge
 
-`D'arce Control Bottom → Arm Extraction → Turtle → Open Guard`
+**Q1**: Your opponent starts driving their shoulder deeper into your neck - what immediate adjustment do you make?
+**A**: When opponent increases shoulder pressure, immediately turn your body toward them rather than away. Tuck your chin tighter to your chest to block deeper penetration of the choke. Use your free hand to frame on their hip or shoulder to prevent them from fully flattening you. The counter-intuitive movement toward the choke reduces the angle needed for carotid compression and creates space for arm extraction.
 
-### Counter-offensive reversal
+**Q2**: What are the essential defensive frames for surviving D'arce control bottom?
+**A**: The primary frame is your free hand (the arm not trapped in the choke) placed against opponent's hip, shoulder, or head to prevent them from advancing or flattening you. Secondary frames include keeping your chin tucked tight as a structural defense against the choke, and maintaining some base on your knees or hip rather than being completely flat. These frames create the time and space needed to execute escape sequences.
 
-`D'arce Control Bottom → Counter Roll → Side Control → Mount`
+**Q3**: Your opponent begins walking their hips around to finish the choke - how do you respond?
+**A**: When opponent starts walking their hips around to improve their finishing angle, you must move with them to maintain the defensive angle. Turn your body in the same direction they're moving, keeping your chin tucked and trying to get your chest facing theirs. As they walk around, look for opportunities to extract your trapped arm through the space created by their movement. If they fully commit to the hip walk, consider a granby roll in the direction of their movement to create an escape scramble.
 
-### Granby escape sequence
+**Q4**: How should you manage your breathing when caught in D'arce control bottom?
+**A**: Breathe slowly and deliberately through your nose to conserve oxygen and maintain composure. Avoid mouth breathing which accelerates panic response. Take controlled breaths during moments when pressure lessens slightly. Never hold your breath as this depletes oxygen faster and increases panic. The calm breathing pattern helps you think clearly and execute systematic escape sequences rather than explosive, energy-wasting movements that often make the choke tighter.
 
-`D'arce Control Bottom → Granby Roll → Closed Guard → Triangle Setup`
+**Q5**: What is the primary escape you should attempt and what makes it effective?
+**A**: Arm extraction is the primary escape because it eliminates the arm-in choke structure that makes the D'arce effective. Use your free hand to grip your trapped arm's wrist or forearm and pull it toward your body while simultaneously turning into your opponent. The extraction works because the D'arce requires your arm trapped against your neck to create the compression - once the arm is free, the choke mechanics fail and you can recover to turtle or guard positions.
+
+**Q6**: How do you apply pressure correctly as the defender to prevent the choke from tightening?
+**A**: Apply outward pressure with your trapped shoulder by rotating it away from your neck, creating space between your neck and opponent's choking arm. Push into opponent's body with your free hand frame to prevent them from settling their weight and closing the space. Drive your hips away from opponent while keeping your shoulders turned into them. This combination of outward shoulder rotation and frame pressure prevents the compression needed to finish the choke.
+
+**Q7**: Your opponent attempts to flatten you completely - what adjustment should you make?
+**A**: When opponent tries to flatten you, immediately post your free hand on the mat or against their hip to create a base that prevents going fully flat. Hip escape away while maintaining your chin tuck, working to get on your side rather than your back. If partially flattened, immediately work to get your knees under you or create a butterfly hook with your bottom leg. Being flat eliminates your ability to create frames and makes the choke finish much easier for your opponent.
+
+**Q8**: How do you recognize early that a D'arce attempt is coming and what preventive action should you take?
+**A**: Early recognition signs include opponent threading their arm under your armpit while controlling your head, reaching across the back of your neck toward your far shoulder, and walking their hips to your side from front headlock or turtle positions. Preventive action requires immediately tucking your chin, bringing your elbows tight to your body to prevent the arm from threading through, and either standing up explosively or sitting back to guard before the grip is locked. Once the figure-four grip is secured, escape becomes significantly harder.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -411,15 +361,14 @@ Partner holds D'arce Control Bottom position with moderate resistance. Practice 
 
 ## Related Positions and Techniques
 
-- **[[D'arce Control]]** - Opposite perspective - sibling variant
+- **[[D'arce Control]]** - Hub position - both perspectives
 - **[[Darce Choke]]** - Primary submission threat from this position
 - **[[Turtle]]** - Common entry position and primary escape target
 - **[[Front Headlock]]** - Related defensive position with similar escape mechanics
 - **[[Anaconda Control]]** - Similar choke defense position with overlapping escape strategies
 - **[[Guillotine Control]]** - Related front headlock submission defense position
-- **[[Defensive Position]]** - Broader category of high-risk defensive situations
-- **[[Submission Defense Concepts]]** - Theoretical framework for defending submissions
 - **[[Half Guard]]** - Frequent recovery position after successful escape
+- **[[Closed Guard]]** - Recovery position after granby roll escape
 
 
 </section>

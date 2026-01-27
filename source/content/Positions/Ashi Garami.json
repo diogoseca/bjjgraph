@@ -1,7 +1,7 @@
 {
   "name": "Ashi Garami",
   "slug": "ashi-garami",
-  "description": "Master Ashi Garami leg entanglements with control mechanics, hierarchical advancement, submission entries, defensive escapes, and bilateral awareness.",
+  "description": "Master Ashi Garami leg entanglements with systematic control mechanics, hierarchical advancement strategies, submission entries, and bilateral awareness.",
   "variant_uniqueness": "Horizontal control negates size through mechanics",
   "overview": "**Ashi Garami** (足絡み, Japanese for \"leg entanglement\") represents a comprehensive family of leg control positions that form the foundation of modern leg lock systems. Unlike traditional top-bottom positional hierarchies, Ashi Garami positions exist in a horizontal plane where both practitioners compete for leg control and finishing opportunities. This position family has revolutionized competitive Brazilian Jiu-Jitsu and submission grappling, particularly in no-gi formats where the absence of grips makes leg attacks more accessible and effective.\n\nThe Ashi Garami system encompasses multiple variations, each offering distinct tactical advantages and submission pathways. From the fundamental **Outside Ashi-Garami** (standard outside leg entanglement) to the advanced **Saddle** position (formerly known as \"Honey Hole\"), these positions create a strategic landscape where control, attack, and counter-attack occur simultaneously. The position family includes **50-50 Guard** (bilateral leg entanglement), **Inside Ashi-Garami** (inside leg control), **Cross Ashi-Garami** (cross-body leg control), and **Ushiro Ashi-Garami** (reverse leg entanglement), each with specific biomechanical advantages and submission chains.\n\nModern Ashi Garami systems emphasize hierarchical position progression, systematic entry sequences, and mechanical understanding of heel exposure. Unlike older leg lock approaches that relied on explosive attacks, contemporary Ashi Garami methodology treats leg entanglements as positions requiring control maintenance, gradual advancement, and strategic positioning before submission attempts. This systematic approach has proven devastatingly effective at the highest levels of competition in both gi and no-gi formats.\n\nThe strategic value of Ashi Garami positions extends beyond submission threats. These positions offer unique tactical advantages including neutralization of size and strength differentials, creation of scoring opportunities through sweeps and reversals, and forcing opponents into defensive postures that limit their offensive capabilities. The bilateral nature of many Ashi Garami variations creates \"dilemma situations\" where defensive actions against one threat expose vulnerabilities to alternative attacks, embodying the modern competition principle of forcing opponents to choose between multiple negative outcomes.\n\nUnderstanding Ashi Garami requires recognizing the position as a complete system rather than isolated techniques. Success in these positions demands mastery of fundamental principles including hip positioning, inside space control, heel exposure mechanics, and transitional pathways between variations. The position family's effectiveness has fundamentally altered competitive grappling strategy, making leg lock defense and Ashi Garami understanding essential components of any complete grappling game.",
   "key_principles": [
@@ -69,307 +69,6 @@
       "relationship": "Facilitates entries into reverse and cross-body Ashi Garami variations through leg drag mechanics"
     }
   ],
-  "bottom": {
-    "overview": "From the bottom perspective, **Ashi Garami** positions represent offensive leg entanglement opportunities where you control your opponent's leg(s) while maintaining defensive posture against their leg attack attempts. Unlike traditional guard positions that emphasize sweeping or back-taking, Ashi Garami from bottom prioritizes leg control advancement through the positional hierarchy, ultimately reaching dominant finishing positions like **Saddle** or **Cross Ashi-Garami**. The bottom player must simultaneously manage defensive responsibilities (protecting their own heel), offensive opportunities (exposing opponent's heel), and positional advancement (progressing up the hierarchy).\n\nBottom Ashi Garami positions emerge from various guard scenarios including **Single Leg X-Guard** entries, **De La Riva Guard** transitions, failed takedown defenses, and opportunistic leg grabs during scrambles. The fundamental strategy involves securing initial leg control, establishing inside space dominance, and systematically advancing position while neutralizing the opponent's counter-attacks. Success requires understanding the reciprocal nature of leg entanglements—both practitioners have access to leg attacks, making defensive awareness equally critical as offensive progression.\n\nThe bottom player's primary objectives include: (1) securing and maintaining leg control through proper hooking mechanics, (2) controlling inside space to prevent opponent's advancement up their own hierarchy, (3) exposing the opponent's heel through proper positioning and angle creation, (4) advancing through the positional hierarchy toward more dominant variations, and (5) finishing with mechanical leg locks when proper position is achieved. Modern methodology emphasizes patience and systematic progression over explosive submission attempts from inferior positions.\n\nDefensive considerations from bottom Ashi Garami involve protecting your own heel through proper leg positioning, maintaining connection points that prevent opponent advancement, and recognizing when to abandon positions that become defensively compromised. The bilateral nature of many Ashi Garami positions means both practitioners can attack simultaneously, creating dynamic exchanges where position quality determines success more than position type. Understanding escape pathways and recognizing defensive triggers prevents prolonged exposure in compromised positions.\n\nBottom Ashi Garami mastery requires extensive drilling of fundamental mechanics including hip positioning, inside space control, hook placement, and transitional movements between variations. Competition application demands strategic decision-making about when to pursue leg entanglements versus alternative guard retention or sweeping options, as well as understanding rule sets that may restrict or penalize certain leg attack variations. The position family's technical depth and strategic complexity make it a complete system worthy of specialized study rather than supplementary technique collection.",
-    "state_properties": {
-      "point_value": 0,
-      "position_type": "Offensive",
-      "risk_level": "Medium",
-      "energy_cost": "Medium",
-      "time_sustainability": "Medium"
-    },
-    "state_invariants": [
-      "You control at least one of opponent's legs with your legs in hooking/entanglement configuration",
-      "Your hips maintain mobility and positioning capability to advance or defend within leg entanglement system"
-    ],
-    "prerequisites": [
-      "Understanding of leg lock safety protocols and tap-early mentality to prevent injury during training",
-      "Fundamental leg lock mechanics including straight ankle locks and basic heel hook principles",
-      "Inside space control principles and hip positioning fundamentals for leg entanglement positions"
-    ],
-    "key_principles": [
-      "**Inside Space Dominance**: Control the inside space between your hip and opponent's hip to prevent escapes and enable advancement",
-      "**Hierarchical Progression**: Advance systematically through Outside Ashi → Inside Ashi → Cross Ashi → Saddle rather than forcing submissions from inferior positions",
-      "**Heel Protection**: Understand heel exposure mechanics and maintain defensive leg positioning to protect your own finish while attacking opponent",
-      "**Connection Maintenance**: Maintain critical connection points (inside leg control, hip pressure, upper body grips) that prevent opponent position improvement",
-      "**Bilateral Awareness**: Recognize reciprocal nature of leg entanglements where both practitioners can attack; prioritize superior position before submission attempts"
-    ],
-    "offensive_transitions": [
-      {
-        "technique": "Inside Ashi Entry",
-        "target_position": "Inside Ashi-Garami",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 50,
-          "advanced": 70
-        }
-      },
-      {
-        "technique": "Outside Ashi Entry",
-        "target_position": "Outside Ashi-Garami",
-        "success_rates": {
-          "beginner": 40,
-          "intermediate": 60,
-          "advanced": 75
-        }
-      },
-      {
-        "technique": "Saddle Entry from Top",
-        "target_position": "Saddle",
-        "success_rates": {
-          "beginner": 20,
-          "intermediate": 35,
-          "advanced": 55
-        }
-      },
-      {
-        "technique": "50-50 Entry from Standing",
-        "target_position": "50-50 Guard",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 55,
-          "advanced": 70
-        }
-      },
-      {
-        "technique": "X-Guard to Ashi Transition",
-        "target_position": "Inside Ashi-Garami",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 45,
-          "advanced": 65
-        }
-      },
-      {
-        "technique": "De La Riva to X-Guard Transition",
-        "target_position": "Single Leg X-Guard",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 50,
-          "advanced": 70
-        }
-      },
-      {
-        "technique": "Heel Hook",
-        "target_position": "Won by Submission",
-        "success_rates": {
-          "beginner": 15,
-          "intermediate": 30,
-          "advanced": 50
-        }
-      },
-      {
-        "technique": "Straight Ankle Lock",
-        "target_position": "Won by Submission",
-        "success_rates": {
-          "beginner": 20,
-          "intermediate": 35,
-          "advanced": 55
-        }
-      }
-    ],
-    "defensive_responses": [
-      {
-        "technique": "Ashi Garami Escape",
-        "target_position": "Standing Position",
-        "success_rate": 40
-      },
-      {
-        "technique": "Counter Ashi Entry",
-        "target_position": "Inside Ashi-Garami",
-        "success_rate": 35
-      },
-      {
-        "technique": "Saddle Defense",
-        "target_position": "Outside Ashi-Garami",
-        "success_rate": 30
-      },
-      {
-        "technique": "Heel Hook",
-        "target_position": "Won by Submission",
-        "success_rate": 50
-      }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Inside Ashi Entry",
-        "target_position": "Inside Ashi-Garami",
-        "trigger": "When opponent attempts leg extraction from Outside Ashi, redirect to inside position control"
-      },
-      {
-        "technique": "Saddle Entry from Top",
-        "target_position": "Saddle",
-        "trigger": "When opponent exposes back during 50-50 or Cross Ashi defense, capitalize on back exposure"
-      },
-      {
-        "technique": "Outside Ashi Entry",
-        "target_position": "Outside Ashi-Garami",
-        "trigger": "When opponent attempts standing escape, re-establish fundamental outside leg entanglement"
-      }
-    ],
-    "decision_tree": [
-      {
-        "condition": "If opponent maintains strong defensive leg positioning protecting heel",
-        "actions": [
-          {
-            "technique": "Inside Ashi Entry",
-            "target": "Inside Ashi-Garami",
-            "probability": 55
-          },
-          {
-            "technique": "Outside Ashi Entry",
-            "target": "Outside Ashi-Garami",
-            "probability": 45
-          }
-        ]
-      },
-      {
-        "condition": "If opponent exposes heel through poor positioning or defensive error",
-        "actions": [
-          {
-            "technique": "Heel Hook",
-            "target": "Won by Submission",
-            "probability": 50
-          },
-          {
-            "technique": "Saddle Entry from Top",
-            "target": "Saddle",
-            "probability": 40
-          }
-        ]
-      },
-      {
-        "condition": "If opponent establishes reciprocal leg entanglement in 50-50 configuration",
-        "actions": [
-          {
-            "technique": "50-50 Entry from Standing",
-            "target": "50-50 Guard",
-            "probability": 60
-          },
-          {
-            "technique": "Inside Ashi Entry",
-            "target": "Inside Ashi-Garami",
-            "probability": 35
-          }
-        ]
-      },
-      {
-        "condition": "If opponent attempts standing extraction or escape",
-        "actions": [
-          {
-            "technique": "X-Guard to Ashi Transition",
-            "target": "Single Leg X-Guard",
-            "probability": 50
-          },
-          {
-            "technique": "Outside Ashi Entry",
-            "target": "Outside Ashi-Garami",
-            "probability": 40
-          }
-        ]
-      }
-    ],
-    "common_errors": [
-      {
-        "error": "Forcing heel hook attempts from Outside Ashi without advancing to superior positions first",
-        "consequence": "Low success rate, exposure to counter-attacks, and training partner injury risk from poor mechanics",
-        "correction": "Advance systematically through positional hierarchy (Outside → Inside → Cross → Saddle) before attempting finishes"
-      },
-      {
-        "error": "Neglecting inside space control, allowing opponent to establish their own inside position",
-        "consequence": "Opponent gains superior position, reverses hierarchy advantage, and achieves their own finishing opportunities",
-        "correction": "Maintain constant inside space control through hip positioning and inside leg pressure throughout all transitions"
-      },
-      {
-        "error": "Exposing own heel through careless leg positioning during entanglement exchanges",
-        "consequence": "Opponent achieves finishing position or submission while you maintain offensive focus",
-        "correction": "Maintain defensive leg positioning with heel protected (straight leg or hidden heel) while executing offensive techniques"
-      },
-      {
-        "error": "Abandoning connection points during positional advancement attempts",
-        "consequence": "Opponent escapes entirely or reverses position before you secure improved control",
-        "correction": "Maintain critical connections (inside leg hook, hip pressure) while incrementally advancing position"
-      },
-      {
-        "error": "Failing to recognize when position becomes defensively compromised and continuing attack",
-        "consequence": "Prolonged exposure in inferior position leads to opponent finishing or achieving dominant position",
-        "correction": "Develop recognition of defensive triggers (heel exposure, inside space loss) that indicate need for positional abandon or escape"
-      }
-    ],
-    "training_drills": [
-      {
-        "name": "Positional Hierarchy Progression Drill",
-        "description": "Start from Outside Ashi, advance through Inside Ashi, Cross Ashi, and Saddle with partner providing graduated resistance. Focus on maintaining connections and inside space throughout transitions.",
-        "duration": "5 minutes per round, 3 rounds with different partners"
-      },
-      {
-        "name": "50-50 Inside Space Battle",
-        "description": "Both practitioners start in 50-50 Guard, compete for inside space control and position advancement. First to achieve Saddle or Cross Ashi wins the exchange. Resets after each position gain.",
-        "duration": "3-minute rounds, 5 rounds total"
-      },
-      {
-        "name": "Entry Integration Sequences",
-        "description": "Drill seamless entries from guard positions (SLX, De La Riva, X-Guard) into various Ashi Garami positions. Partner provides specific defensive responses to practice problem-solving transitions.",
-        "duration": "10 minutes alternating roles every 2 minutes"
-      }
-    ],
-    "optimal_submission_paths": [
-      {
-        "name": "Systematic Hierarchy Advancement",
-        "path": "Outside Ashi-Garami → Inside Ashi-Garami → Cross Ashi-Garami → Saddle → Heel Hook"
-      },
-      {
-        "name": "Guard Integration Path",
-        "path": "Single Leg X-Guard → Outside Ashi-Garami → Inside Ashi-Garami → Heel Hook"
-      },
-      {
-        "name": "50-50 Competition Path",
-        "path": "50-50 Guard → Inside Space Control → Cross Ashi-Garami → Saddle → Heel Hook"
-      }
-    ],
-    "related_content": [
-      {
-        "name": "Single Leg X-Guard",
-        "relationship": "Primary entry position for Outside Ashi; single leg control precedes double leg entanglement"
-      },
-      {
-        "name": "De La Riva Guard",
-        "relationship": "Hook-based guard providing technical entries into outside Ashi positions through leg drag mechanics"
-      },
-      {
-        "name": "X-Guard",
-        "relationship": "Shares leg hooking principles; transitional position between traditional guards and leg entanglement systems"
-      }
-    ],
-    "position_metrics": {
-      "retention_rate": {
-        "beginner": 40,
-        "intermediate": 60,
-        "advanced": 75,
-        "description": "Percentage of time practitioner maintains Ashi Garami control without opponent escaping to standing or neutral position"
-      },
-      "advancement_probability": {
-        "beginner": 25,
-        "intermediate": 45,
-        "advanced": 65,
-        "description": "Likelihood of advancing up positional hierarchy from current Ashi variation to more dominant position"
-      },
-      "submission_probability": {
-        "beginner": 15,
-        "intermediate": 30,
-        "advanced": 50,
-        "description": "Probability of achieving submission directly from Ashi Garami positions through heel hooks or ankle locks"
-      },
-      "average_time": "45-90 seconds before position resolution through escape, submission, or advancement"
-    },
-    "name": "Ashi Garami Bottom",
-    "description": "Master Ashi Garami from bottom with systematic leg control, hierarchical advancement, high-percentage finishing sequences, and bilateral position awareness.",
-    "tags": [
-      "leg entanglement system bottom position offensive guard",
-      "bottom position leg control offensive guard modern methodology",
-      "modern no-gi methodology competitive system leg lock game"
-    ]
-  },
   "top": {
     "overview": "From the top perspective, **Ashi Garami** positions present unique defensive challenges and offensive counter-opportunities where your leg(s) are controlled by the opponent while you maintain standing or kneeling base. Unlike traditional bottom positions where the top player enjoys clear hierarchical advantage, leg entanglement positions create bilateral threat scenarios where both practitioners can attack simultaneously. The top player's primary objectives involve escaping leg control, preventing opponent advancement up the positional hierarchy, protecting the heel from exposure, and capitalizing on counter-attack opportunities when the bottom player overcommits to offensive techniques.\n\nTop Ashi Garami positioning emerges from various scenarios including failed guard passing attempts, takedown defense situations, and scrambles where the opponent secures leg control before you establish stable top position. The fundamental defensive strategy involves maintaining base and posture to prevent being pulled into flat positions that enhance opponent control, protecting the captured leg from dangerous angles through proper alignment, and systematically extracting the leg through mechanical understanding rather than explosive force. Modern leg lock defense methodology emphasizes technical extraction sequences over strength-based ripping, as forceful escape attempts often expose the heel and create finishing opportunities for skilled bottom players.\n\nThe top player's defensive priorities include: (1) preventing opponent advancement from Outside to Inside to Cross to Saddle positions through inside space denial, (2) maintaining heel protection through straight leg alignment or hidden heel positioning, (3) controlling opponent's upper body to limit their mobility and angle creation, (4) creating extraction opportunities through systematic leg clearing sequences, and (5) recognizing and capitalizing on offensive counter-opportunities when bottom player makes positional errors. Understanding the positional hierarchy from the defensive perspective proves equally important as offensive understanding—recognizing when you're in Outside versus Inside versus Cross Ashi determines appropriate defensive responses.\n\nOffensive counter-opportunities from top Ashi positions include establishing your own leg entanglements when opponent overcommits to attack, passing to traditional top positions when opponent loses connection points during transitions, and achieving submissions through guillotines, front headlocks, or your own leg attacks when proper positioning aligns. The bilateral nature of leg entanglements means defensive situations can transform into offensive opportunities when the top player maintains composure and recognizes counter-attack windows. High-level competitors often deliberately enter leg entanglement exchanges from top position, confident in their defensive understanding and counter-attack capabilities.\n\nTop Ashi Garami defense requires extensive drilling of mechanical extraction sequences, heel protection positioning, and recognition of positional hierarchy markers that indicate immediate danger. Competition application demands strategic decision-making about when to invest energy in escape attempts versus maintaining defensive positioning while opponent exhausts themselves, as well as understanding rule sets regarding legal and illegal leg attack variations. Comprehensive leg lock defense transforms from reactive scrambling to systematic problem-solving through positional understanding and technical extraction mechanics.",
     "state_properties": {
@@ -395,108 +94,30 @@
       "**Systematic Extraction**: Clear leg entanglement through mechanical sequences rather than explosive ripping that exposes heel",
       "**Counter-Attack Recognition**: Identify offensive opportunities when opponent overcommits to advancement or submission attempts"
     ],
-    "offensive_transitions": [
+    "transitions": [
       {
-        "technique": "Ashi Garami Escape",
-        "target_position": "Standing Position",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 45,
-          "advanced": 65
-        }
+        "transition": "Ashi Garami Escape",
+        "attempt_probability": 30
       },
       {
-        "technique": "Counter Ashi Entry",
-        "target_position": "Outside Ashi-Garami",
-        "success_rates": {
-          "beginner": 20,
-          "intermediate": 35,
-          "advanced": 55
-        }
+        "transition": "Counter Ashi Entry",
+        "attempt_probability": 20
       },
       {
-        "technique": "Guard Pass",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 15,
-          "intermediate": 30,
-          "advanced": 50
-        }
+        "transition": "Guard Pass",
+        "attempt_probability": 20
       },
       {
-        "technique": "Front Headlock Series",
-        "target_position": "Front Headlock",
-        "success_rates": {
-          "beginner": 20,
-          "intermediate": 35,
-          "advanced": 55
-        }
+        "transition": "Front Headlock Series",
+        "attempt_probability": 10
       },
       {
-        "technique": "Guillotine Setup",
-        "target_position": "Guillotine Control",
-        "success_rates": {
-          "beginner": 15,
-          "intermediate": 30,
-          "advanced": 45
-        }
+        "transition": "Guillotine Setup",
+        "attempt_probability": 8
       },
       {
-        "technique": "Saddle Defense",
-        "target_position": "Outside Ashi-Garami",
-        "success_rates": {
-          "beginner": 20,
-          "intermediate": 40,
-          "advanced": 60
-        }
-      },
-      {
-        "technique": "Straight Ankle Lock",
-        "target_position": "Won by Submission",
-        "success_rates": {
-          "beginner": 10,
-          "intermediate": 20,
-          "advanced": 35
-        }
-      }
-    ],
-    "defensive_responses": [
-      {
-        "technique": "Inside Ashi Entry",
-        "target_position": "Inside Ashi-Garami",
-        "success_rate": 45
-      },
-      {
-        "technique": "Saddle Entry from Top",
-        "target_position": "Saddle",
-        "success_rate": 35
-      },
-      {
-        "technique": "Heel Hook",
-        "target_position": "Won by Submission",
-        "success_rate": 30
-      },
-      {
-        "technique": "Outside Ashi Entry",
-        "target_position": "Outside Ashi-Garami",
-        "success_rate": 40
-      }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Counter Ashi Entry",
-        "target_position": "Outside Ashi-Garami",
-        "trigger": "When opponent overcommits to advancement attempt, establish your own leg entanglement control"
-      },
-      {
-        "technique": "Front Headlock Series",
-        "target_position": "Front Headlock",
-        "trigger": "When opponent sits up for better control angle, capitalize on neck exposure"
-      },
-      {
-        "technique": "Guillotine Setup",
-        "target_position": "Guillotine Control",
-        "trigger": "When opponent loses hip connection during transition, attack exposed neck"
+        "transition": "Straight Ankle Lock",
+        "attempt_probability": 12
       }
     ],
     "decision_tree": [
@@ -511,7 +132,7 @@
           {
             "technique": "Counter Ashi Entry",
             "target": "Outside Ashi-Garami",
-            "probability": 30
+            "probability": 35
           }
         ]
       },
@@ -521,12 +142,12 @@
           {
             "technique": "Saddle Defense",
             "target": "Outside Ashi-Garami",
-            "probability": 60
+            "probability": 55
           },
           {
             "technique": "Ashi Garami Escape",
             "target": "Standing Position",
-            "probability": 35
+            "probability": 45
           }
         ]
       },
@@ -536,12 +157,12 @@
           {
             "technique": "Saddle Defense",
             "target": "Outside Ashi-Garami",
-            "probability": 50
+            "probability": 55
           },
           {
             "technique": "Tap Out",
-            "target": "Lost by Submission",
-            "probability": 40
+            "target": "game-over",
+            "probability": 45
           }
         ]
       },
@@ -551,12 +172,12 @@
           {
             "technique": "Guard Pass",
             "target": "Side Control",
-            "probability": 50
+            "probability": 55
           },
           {
             "technique": "Front Headlock Series",
             "target": "Front Headlock",
-            "probability": 40
+            "probability": 45
           }
         ]
       }
@@ -607,16 +228,16 @@
     ],
     "optimal_submission_paths": [
       {
-        "name": "Defensive Extraction to Control",
-        "path": "Outside Ashi-Garami → Ashi Garami Escape → Standing Position → Guard Pass → Side Control"
+        "name": "Escape to Counter-Attack Chain",
+        "path": "Ashi Garami Top → Ashi Garami Escape → Standing Position → Guard Pass → Side Control"
       },
       {
-        "name": "Counter-Attack Sequence",
-        "path": "Inside Ashi-Garami → Counter Ashi Entry → Outside Ashi-Garami → Heel Hook"
+        "name": "Counter Entanglement to Finish",
+        "path": "Ashi Garami Top → Counter Ashi Entry → Outside Ashi-Garami → Straight Ankle Lock → game-over"
       },
       {
-        "name": "Neck Attack Counter",
-        "path": "Outside Ashi-Garami → Front Headlock Series → Guillotine Control → Guillotine Choke"
+        "name": "Upper Body Counter Chain",
+        "path": "Ashi Garami Top → Front Headlock Series → Front Headlock → Darce Choke → game-over"
       }
     ],
     "related_content": [
@@ -631,6 +252,14 @@
       {
         "name": "Guillotine Control",
         "relationship": "Submission counter-attack available when opponent loses hip connection during transitions"
+      },
+      {
+        "name": "50-50 Guard",
+        "relationship": "Bilateral entanglement often reached during defensive scrambles; requires specialized escape sequences"
+      },
+      {
+        "name": "Standing Position",
+        "relationship": "Primary escape destination; full leg extraction returns to neutral standing engagement"
       }
     ],
     "position_metrics": {
@@ -655,11 +284,233 @@
       "average_time": "30-60 seconds before defensive resolution through escape, submission, or opponent advancement"
     },
     "name": "Ashi Garami Top",
-    "description": "Master defensive strategies against Ashi Garami leg entanglements from top with systematic escapes, heel protection mechanics, counter-attacks, and awareness.",
+    "description": "Master defensive strategies against Ashi Garami leg entanglements from top position with systematic escapes, heel protection mechanics, and counter-attacks.",
     "tags": [
       "leg lock defense system top position defensive strategy",
       "top position defense against entanglements leg lock escape",
       "counter-attack methodology defensive system competitive defense"
+    ]
+  },
+  "bottom": {
+    "overview": "From the bottom perspective, **Ashi Garami** positions represent offensive leg entanglement opportunities where you control your opponent's leg(s) while maintaining defensive posture against their leg attack attempts. Unlike traditional guard positions that emphasize sweeping or back-taking, Ashi Garami from bottom prioritizes leg control advancement through the positional hierarchy, ultimately reaching dominant finishing positions like **Saddle** or **Cross Ashi-Garami**. The bottom player must simultaneously manage defensive responsibilities (protecting their own heel), offensive opportunities (exposing opponent's heel), and positional advancement (progressing up the hierarchy).\n\nBottom Ashi Garami positions emerge from various guard scenarios including **Single Leg X-Guard** entries, **De La Riva Guard** transitions, failed takedown defenses, and opportunistic leg grabs during scrambles. The fundamental strategy involves securing initial leg control, establishing inside space dominance, and systematically advancing position while neutralizing the opponent's counter-attacks. Success requires understanding the reciprocal nature of leg entanglements—both practitioners have access to leg attacks, making defensive awareness equally critical as offensive progression.\n\nThe bottom player's primary objectives include: (1) securing and maintaining leg control through proper hooking mechanics, (2) controlling inside space to prevent opponent's advancement up their own hierarchy, (3) exposing the opponent's heel through proper positioning and angle creation, (4) advancing through the positional hierarchy toward more dominant variations, and (5) finishing with mechanical leg locks when proper position is achieved. Modern methodology emphasizes patience and systematic progression over explosive submission attempts from inferior positions.\n\nDefensive considerations from bottom Ashi Garami involve protecting your own heel through proper leg positioning, maintaining connection points that prevent opponent advancement, and recognizing when to abandon positions that become defensively compromised. The bilateral nature of many Ashi Garami positions means both practitioners can attack simultaneously, creating dynamic exchanges where position quality determines success more than position type. Understanding escape pathways and recognizing defensive triggers prevents prolonged exposure in compromised positions.\n\nBottom Ashi Garami mastery requires extensive drilling of fundamental mechanics including hip positioning, inside space control, hook placement, and transitional movements between variations. Competition application demands strategic decision-making about when to pursue leg entanglements versus alternative guard retention or sweeping options, as well as understanding rule sets that may restrict or penalize certain leg attack variations. The position family's technical depth and strategic complexity make it a complete system worthy of specialized study rather than supplementary technique collection.",
+    "state_properties": {
+      "point_value": 0,
+      "position_type": "Offensive",
+      "risk_level": "Medium",
+      "energy_cost": "Medium",
+      "time_sustainability": "Medium"
+    },
+    "state_invariants": [
+      "You control at least one of opponent's legs with your legs in hooking/entanglement configuration",
+      "Your hips maintain mobility and positioning capability to advance or defend within leg entanglement system"
+    ],
+    "prerequisites": [
+      "Understanding of leg lock safety protocols and tap-early mentality to prevent injury during training",
+      "Fundamental leg lock mechanics including straight ankle locks and basic heel hook principles",
+      "Inside space control principles and hip positioning fundamentals for leg entanglement positions"
+    ],
+    "key_principles": [
+      "**Inside Space Dominance**: Control the inside space between your hip and opponent's hip to prevent escapes and enable advancement",
+      "**Hierarchical Progression**: Advance systematically through Outside Ashi → Inside Ashi → Cross Ashi → Saddle rather than forcing submissions from inferior positions",
+      "**Heel Protection**: Understand heel exposure mechanics and maintain defensive leg positioning to protect your own finish while attacking opponent",
+      "**Connection Maintenance**: Maintain critical connection points (inside leg hook, hip pressure, upper body grips) that prevent opponent position improvement",
+      "**Bilateral Awareness**: Recognize reciprocal nature of leg entanglements where both practitioners can attack; prioritize superior position before submission attempts"
+    ],
+    "transitions": [
+      {
+        "transition": "Inside Ashi Entry",
+        "attempt_probability": 25
+      },
+      {
+        "transition": "Saddle Entry from Top",
+        "attempt_probability": 15
+      },
+      {
+        "transition": "50-50 Entry from Standing",
+        "attempt_probability": 15
+      },
+      {
+        "transition": "Heel Hook",
+        "attempt_probability": 20
+      },
+      {
+        "transition": "Straight Ankle Lock",
+        "attempt_probability": 15
+      },
+      {
+        "transition": "X-Guard to Ashi Transition",
+        "attempt_probability": 10
+      }
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent maintains strong defensive leg positioning protecting heel",
+        "actions": [
+          {
+            "technique": "Inside Ashi Entry",
+            "target": "Inside Ashi-Garami",
+            "probability": 55
+          },
+          {
+            "technique": "Outside Ashi Entry",
+            "target": "Outside Ashi-Garami",
+            "probability": 45
+          }
+        ]
+      },
+      {
+        "condition": "If opponent exposes heel through poor positioning or defensive error",
+        "actions": [
+          {
+            "technique": "Heel Hook",
+            "target": "game-over",
+            "probability": 55
+          },
+          {
+            "technique": "Saddle Entry from Top",
+            "target": "Saddle",
+            "probability": 45
+          }
+        ]
+      },
+      {
+        "condition": "If opponent establishes reciprocal leg entanglement in 50-50 configuration",
+        "actions": [
+          {
+            "technique": "50-50 Entry from Standing",
+            "target": "50-50 Guard",
+            "probability": 55
+          },
+          {
+            "technique": "Inside Ashi Entry",
+            "target": "Inside Ashi-Garami",
+            "probability": 45
+          }
+        ]
+      },
+      {
+        "condition": "If opponent attempts standing extraction or escape",
+        "actions": [
+          {
+            "technique": "X-Guard to Ashi Transition",
+            "target": "Single Leg X-Guard",
+            "probability": 55
+          },
+          {
+            "technique": "Outside Ashi Entry",
+            "target": "Outside Ashi-Garami",
+            "probability": 45
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Forcing heel hook attempts from Outside Ashi without advancing to superior positions first",
+        "consequence": "Low success rate, exposure to counter-attacks, and training partner injury risk from poor mechanics",
+        "correction": "Advance systematically through positional hierarchy (Outside → Inside → Cross → Saddle) before attempting finishes"
+      },
+      {
+        "error": "Neglecting inside space control, allowing opponent to establish their own inside position",
+        "consequence": "Opponent gains superior position, reverses hierarchy advantage, and achieves their own finishing opportunities",
+        "correction": "Maintain constant inside space control through hip positioning and inside leg pressure throughout all transitions"
+      },
+      {
+        "error": "Exposing own heel through careless leg positioning during entanglement exchanges",
+        "consequence": "Opponent achieves finishing position or submission while you maintain offensive focus",
+        "correction": "Maintain defensive leg positioning with heel protected (straight leg or hidden heel) while executing offensive techniques"
+      },
+      {
+        "error": "Abandoning connection points during positional advancement attempts",
+        "consequence": "Opponent escapes entirely or reverses position before you secure improved control",
+        "correction": "Maintain critical connections (inside leg hook, hip pressure) while incrementally advancing position"
+      },
+      {
+        "error": "Failing to recognize when position becomes defensively compromised and continuing attack",
+        "consequence": "Prolonged exposure in inferior position leads to opponent finishing or achieving dominant position",
+        "correction": "Develop recognition of defensive triggers (heel exposure, inside space loss) that indicate need for positional abandon or escape"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Positional Hierarchy Progression Drill",
+        "description": "Start from Outside Ashi, advance through Inside Ashi, Cross Ashi, and Saddle with partner providing graduated resistance. Focus on maintaining connections and inside space throughout transitions.",
+        "duration": "5 minutes per round, 3 rounds with different partners"
+      },
+      {
+        "name": "50-50 Inside Space Battle",
+        "description": "Both practitioners start in 50-50 Guard, compete for inside space control and position advancement. First to achieve Saddle or Cross Ashi wins the exchange. Resets after each position gain.",
+        "duration": "3-minute rounds, 5 rounds total"
+      },
+      {
+        "name": "Entry Integration Sequences",
+        "description": "Drill seamless entries from guard positions (SLX, De La Riva, X-Guard) into various Ashi Garami positions. Partner provides specific defensive responses to practice problem-solving transitions.",
+        "duration": "10 minutes alternating roles every 2 minutes"
+      }
+    ],
+    "optimal_submission_paths": [
+      {
+        "name": "Hierarchy to Heel Hook Chain",
+        "path": "Ashi Garami Bottom → Inside Ashi Entry → Inside Ashi-Garami → Saddle Entry from Top → Saddle → Heel Hook → game-over"
+      },
+      {
+        "name": "Outside to Inside Finish",
+        "path": "Ashi Garami Bottom → Outside Ashi Entry → Outside Ashi-Garami → Inside Ashi Entry → Inside Ashi-Garami → Heel Hook → game-over"
+      },
+      {
+        "name": "50-50 Advancement Path",
+        "path": "Ashi Garami Bottom → 50-50 Entry from Standing → 50-50 Guard → Back Take from 50-50 → Back Control → Rear Naked Choke → game-over"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Single Leg X-Guard",
+        "relationship": "Primary entry position for Outside Ashi; single leg control precedes double leg entanglement"
+      },
+      {
+        "name": "De La Riva Guard",
+        "relationship": "Hook-based guard providing technical entries into outside Ashi positions through leg drag mechanics"
+      },
+      {
+        "name": "X-Guard",
+        "relationship": "Shares leg hooking principles; transitional position between traditional guards and leg entanglement systems"
+      },
+      {
+        "name": "Saddle",
+        "relationship": "Apex of leg entanglement hierarchy; primary finishing position for heel hook attacks"
+      },
+      {
+        "name": "Inside Ashi-Garami",
+        "relationship": "First major advancement from Outside Ashi; provides superior control and finishing angles"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "beginner": 40,
+        "intermediate": 60,
+        "advanced": 75,
+        "description": "Percentage of time practitioner maintains Ashi Garami control without opponent escaping to standing or neutral position"
+      },
+      "advancement_probability": {
+        "beginner": 25,
+        "intermediate": 45,
+        "advanced": 65,
+        "description": "Likelihood of advancing up positional hierarchy from current Ashi variation to more dominant position"
+      },
+      "submission_probability": {
+        "beginner": 15,
+        "intermediate": 30,
+        "advanced": 50,
+        "description": "Probability of achieving submission directly from Ashi Garami positions through heel hooks or ankle locks"
+      },
+      "average_time": "45-90 seconds before position resolution through escape, submission, or advancement"
+    },
+    "name": "Ashi Garami Bottom",
+    "description": "Master Ashi Garami from bottom with systematic leg control, hierarchical advancement, high-percentage finishing sequences, and bilateral position awareness.",
+    "tags": [
+      "leg entanglement system bottom position offensive guard",
+      "bottom position leg control offensive guard modern methodology",
+      "modern no-gi methodology competitive system leg lock game"
     ]
   }
 }

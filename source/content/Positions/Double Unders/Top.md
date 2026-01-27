@@ -21,37 +21,37 @@ description: "Master Double Unders top position in BJJ. Dominant pressure passin
     {
       "@type": "HowToStep",
       "name": "Execute Double Under Pass",
-      "text": "From this position, execute Double Under Pass to transition to Side Control. Success rate for advanced practitioners: 85%.",
+      "text": "From this position, attempt Double Under Pass. This technique is attempted in 25% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Mount",
-      "text": "From this position, execute Transition to Mount to transition to Mount. Success rate for advanced practitioners: 65%.",
+      "name": "Execute Stack Pass",
+      "text": "From this position, attempt Stack Pass. This technique is attempted in 20% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to North-South",
-      "text": "From this position, execute Transition to North-South to transition to North-South. Success rate for advanced practitioners: 70%.",
+      "name": "Execute Leg Weave Pass",
+      "text": "From this position, attempt Leg Weave Pass. This technique is attempted in 18% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Back Control",
-      "text": "From this position, execute Transition to Back Control to transition to Back Control. Success rate for advanced practitioners: 60%.",
+      "name": "Execute Back Take",
+      "text": "From this position, attempt Back Take. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Stack Pass",
-      "text": "From this position, execute Stack Pass to transition to Side Control. Success rate for advanced practitioners: 80%.",
+      "name": "Execute Knee Slice Pass",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 15% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Knee Slice Pass",
-      "text": "From this position, execute Knee Slice Pass to transition to Side Control. Success rate for advanced practitioners: 75%.",
+      "name": "Execute Bullfighter Pass",
+      "text": "From this position, attempt Bullfighter Pass. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -210,77 +210,18 @@ The Double Unders position excels at breaking down various open guard styles, pa
 
 ## Available Attacks
 
-### [[Double Under Pass]] → [[Side Control]]
+### [[Double Under Pass]] (25% of attempts)
 
-**Success Rates:**
-- Beginner: 55%
-- Intermediate: 70%
-- Advanced: 85%
+### [[Stack Pass]] (20% of attempts)
 
-### [[Transition to Mount]] → [[Mount]]
+### [[Leg Weave Pass]] (18% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Back Take]] (12% of attempts)
 
-### [[Transition to North-South]] → [[North-South]]
+### [[Knee Slice Pass]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Bullfighter Pass]] (10% of attempts)
 
-### [[Transition to Back Control]] → [[Back Control]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 60%
-
-### [[Stack Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 50%
-- Intermediate: 65%
-- Advanced: 80%
-
-### [[Knee Slice Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 60%
-- Advanced: 75%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Hip Escape]]** → [[Half Guard]] (Opponent Success: 25%)
-- **[[Frame and Shrimp]]** → [[Open Guard]] (Opponent Success: 30%)
-- **[[Granby Roll]]** → [[Turtle]] (Opponent Success: 20%)
-- **[[Butterfly Hook Retention]]** → [[Butterfly Guard]] (Opponent Success: 15%)
-- **[[Deep Half Entry]]** → [[Deep Half Guard]] (Opponent Success: 35%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Smash Pass]]** → [[Side Control]]
-  - Opponent attempts to hip escape to recover guard position
-- **[[Leg Weave Pass]]** → [[Side Control]]
-  - Opponent tries to insert butterfly hooks or create frames between bodies
-- **[[Transition to Back Control]]** → [[Back Control]]
-  - Opponent turns to their side attempting to escape the pressure
-- **[[Kimura from Side Control]]** → [[Kimura Control]]
-  - Opponent extends arms trying to push away or create frames against chest pressure
 
 
 </section>
@@ -291,21 +232,21 @@ The Double Unders position excels at breaking down various open guard styles, pa
 
 **If opponent keeps legs together and attempts to frame with hands on chest maintaining flat back:**
 - Execute **[[Stack Pass]]** → [[Side Control]] (Probability: 75%)
-- Execute **[[Transition to North-South]]** → [[North-South]] (Probability: 55%)
+- Execute **[[Double Under Pass]]** → [[Side Control]] (Probability: 55%)
 
 
 **If opponent turns to their side trying to face away and escape the crushing pressure:**
-- Execute **[[Transition to Back Control]]** → [[Back Control]] (Probability: 70%)
-- Execute **[[Smash Pass]]** → [[Side Control]] (Probability: 65%)
+- Execute **[[Back Take]]** → [[Back Control]] (Probability: 70%)
+- Execute **[[Leg Weave Pass]]** → [[Side Control]] (Probability: 65%)
 
 
 **If opponent attempts to separate legs or insert butterfly hooks between your arms:**
 - Execute **[[Leg Weave Pass]]** → [[Side Control]] (Probability: 60%)
-- Execute **[[Transition to Mount]]** → [[Mount]] (Probability: 50%)
+- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 50%)
 
 
 **If opponent extends arms to create frames or push away from chest pressure:**
-- Execute **[[Kimura from Side Control]]** → [[Kimura Control]] (Probability: 45%)
+- Execute **[[Kimura from Side Control]]** → [[Kimura Trap]] (Probability: 45%)
 - Execute **[[Double Under Pass]]** → [[Side Control]] (Probability: 70%)
 
 
@@ -371,7 +312,7 @@ Start from established double unders position. Partner alternates between strong
 
 ### Counter Defense Drill
 
-Partner actively attempts specific escapes: hip escape, granby roll, butterfly hook insertion, and frame creation. Practice countering each escape attempt with appropriate response: leg weave for butterfly hooks, smash pass for hip escapes, back take for turns. Build recognition of defensive patterns.
+Partner actively attempts specific escapes: hip escape, granby roll, butterfly hook insertion, and frame creation. Practice countering each escape attempt with appropriate response: leg weave for butterfly hooks, pressure pass for hip escapes, back take for turns. Build recognition of defensive patterns.
 
 **Duration**: 6 minutes per partner
 
@@ -380,29 +321,39 @@ Partner actively attempts specific escapes: hip escape, granby roll, butterfly h
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Shortest path to submission
+## Test Your Knowledge
 
-`Double Unders Top → Side Control → Kimura Control → Kimura`
+**Q1**: Your opponent begins bridging explosively while you have double unders established - what adjustment prevents you from being off-balanced?
+**A**: Widen your base immediately by stepping one foot out laterally while maintaining your grip behind their back. Drop your chest weight lower onto their thighs to ride out the bridge momentum. Keep your head positioned on the side opposite to their bridge direction to maintain balance. The bridge will exhaust them quickly, so maintain pressure and wait for them to return to the mat before advancing the pass.
 
-### High-percentage mount path
+**Q2**: What are the essential grip configurations for maintaining double unders control against a resisting opponent?
+**A**: The primary grip options are: hands clasped together (gable grip or S-grip) behind opponent's lower back, gripping their belt or pants waistband, or in no-gi, securing a body lock with hands meeting on their far hip. The grip must be deep enough that your forearms are fully under their legs. Shallow grips allow leg separation and escape. Your elbows must stay tight to your ribs throughout to prevent frame insertion.
 
-`Double Unders Top → Mount → S Mount → Armbar Control → Armbar from Mount`
+**Q3**: How do you shut down the opponent's primary escape attempt of diving to deep half guard from double unders?
+**A**: Prevent deep half entry by keeping your hips low and connected to their body rather than creating space underneath you. When you sense them trying to dive under, immediately walk your knees forward to pin their hips and eliminate the space they need to rotate. You can also switch your head position to the opposite hip to block their rotation direction. If they start getting under, sprawl your hips back slightly while maintaining underhook control to flatten them back out.
 
-### Back control path
+**Q4**: What grip adjustments should you prioritize when opponent begins to separate their legs during double unders control?
+**A**: The moment you feel leg separation beginning, tighten your elbow connection to your ribcage and squeeze your arms together to compress their legs. If one leg begins to escape, immediately transition to controlling that leg individually while maintaining underhook on the other - this shifts you toward a leg weave or over-under passing configuration. Never chase both legs simultaneously as this creates space. Commit to controlling whichever leg they're exposing more.
 
-`Double Unders Top → Back Control → Rear Naked Choke`
+**Q5**: How should you distribute your weight to maximize control pressure while maintaining the ability to advance the pass?
+**A**: Weight should be primarily forward through your chest into their thighs, with approximately 70% of your pressure driving downward and forward. Your hips stay low but mobile, knees bent with feet positioned to push forward. The key is keeping weight on your toes rather than flat-footed, allowing you to walk knees forward progressively. Your head provides additional downward pressure on their chest or hip depending on their defensive posture.
 
-### North-South submission path
+**Q6**: Your opponent creates a frame with their forearms against your face while you have double unders - how do you address this without releasing control?
+**A**: Drive your forehead into their forearms while continuing forward pressure through your chest. The frame cannot generate enough force to overcome your full body weight if you keep advancing. Walk your knees forward progressively, which increases stacking pressure and makes their frame less effective as their spine compresses. You can also angle your head to one side to slip past the frame while maintaining continuous forward progression. Never back away or release pressure in response to frames.
 
-`Double Unders Top → North-South → Kimura Control → Kimura from North-South`
+**Q7**: What indicators tell you the optimal moment to begin completing the pass from double unders to side control?
+**A**: Key indicators include: opponent's legs going limp or losing active resistance, their breathing becoming labored indicating fatigue, failed escape attempts leaving them momentarily static, or their hips flattening to the mat. When you feel their defensive energy drop, immediately walk your knees past their hips while keeping chest pressure, then release one underhook to establish crossface as you slide into side control. Timing this transition during their recovery pause is critical.
+
+**Q8**: How do you manage energy expenditure to maintain double unders pressure over an extended period against a defensive opponent?
+**A**: Rather than constant muscular tension, use skeletal alignment to maintain pressure - stack your body weight onto their legs rather than actively pushing. Keep your arms connected but not straining, letting the grip configuration hold rather than squeezing constantly. Breathe steadily and avoid holding your breath. Make small progressive adjustments rather than explosive movements. The goal is transferring your body weight through structure rather than generating force through muscular effort, allowing you to maintain pressure indefinitely while they exhaust defending.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -424,14 +375,14 @@ Partner actively attempts specific escapes: hip escape, granby roll, butterfly h
 ## Related Positions and Techniques
 
 - **[[Headquarters Position]]** - Similar pressure passing control with different arm configuration
-- **[[Long Step]]** - Alternative guard passing position with leg control focus
-- **[[Smash Pass]]** - Common transition target when opponent defends or turns away
+- **[[Leg Weave]]** - Related passing position when legs separate during double unders
 - **[[Side Control]]** - Primary transition target upon successful pass completion
 - **[[Half Guard]]** - Common escape position opponent seeks to recover from this pressure
 - **[[Butterfly Guard]]** - Vulnerable guard position that double unders effectively counters and neutralizes
 - **[[Double Under Pass]]** - Primary technique used to advance from this position to side control
-- **[[Pressure Passing]]** - Core conceptual framework governing this position's mechanics
-- **[[Guard Passing Principles]]** - Fundamental concepts applied in executing this position effectively
+- **[[Stack Pass]]** - Alternative passing technique using vertical stacking pressure
+- **[[Back Control]]** - Alternative transition when opponent turns away during pressure
+- **[[Knee Slice Pass]]** - Chain passing option when transitioning from double unders
 
 
 </section>

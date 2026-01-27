@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Triangle to Omoplata | BJJ Technique | BJJ Graph"
 description: "Learn Triangle to Omoplata transition in BJJ. Step-by-step execution from Triangle Control to Omoplata Control. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%."
@@ -16,7 +17,7 @@ description: "Learn Triangle to Omoplata transition in BJJ. Step-by-step executi
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Triangle to Omoplata in BJJ",
-  "description": "Step-by-step guide for Triangle to Omoplata from Triangle Control to Omoplata Control.",
+  "description": "Step-by-step guide for Triangle to Omoplata from Triangle Control/Top. Possible outcomes: Omoplata Control/Top (70%), Triangle Control/Top (20%), Triangle Control/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -154,11 +155,25 @@ description: "Learn Triangle to Omoplata transition in BJJ. Step-by-step executi
 
 The Triangle to Omoplata transition is a fundamental submission chain that exploits opponent's defensive reactions to the triangle choke. When an opponent successfully defends the triangle by posturing or stacking, the bottom player can seamlessly transition to an omoplata shoulder lock by releasing the triangle configuration and capturing the trapped arm. This transition represents a core principle in modern guard work: using the opponent's escape attempts to create new attacking opportunities. The technique is particularly effective because the opponent's defensive posture—driving forward to relieve triangle pressure—naturally feeds into the omoplata setup. This creates a true dilemma where defending one submission opens the path to another.
 
-**Starting Position**: [[Triangle Control]]
-**Ending Position**: [[Omoplata Control]]
+**From Position**: [[Triangle Control/Top]]
 **Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Omoplata Control/Top]] | 70% |
+| Failure | [[Triangle Control/Top]] | 20% |
+| Counter | [[Triangle Control/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

@@ -12,8 +12,6 @@
     "butterfly_guard",
     "seated_guard"
   ],
-  "starting_position": "Seated Guard",
-  "ending_position": "Side Control",
   "success_rates": {
     "beginner": 30,
     "intermediate": 50,
@@ -283,6 +281,24 @@
     {
       "name": "X-Guard",
       "relationship": "Related guard position with similar sweeping principles"
+    }
+  ],
+  "from_position": "Seated Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Side Control/Top",
+      "probability": 70,
+      "result": "success"
+    },
+    {
+      "to": "Seated Guard/Bottom",
+      "probability": 20,
+      "result": "failure"
+    },
+    {
+      "to": "Seated Guard/Top",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

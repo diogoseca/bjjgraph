@@ -61,7 +61,7 @@ Understanding Lasso Guard requires appreciation for both its strengths and limit
 |---------|-------------|----------|---------------|------------|----------------|
 | [[Lasso Guard]] | Medium | Medium | Medium | Medium | Sleeve extension trades mobility for sweeps |
 | [[Inverted Lasso Guard]] | Medium to High | Medium to High | High | Medium | Inverted posture creates superior sweep angles |
-| [[Russian Leg Lasso]] | Medium | Medium | Medium | Medium | Deep lasso with extra grip controls |
+| [[Russian Leg Lasso]] | Medium | Medium | Medium | Medium | Added grips trade energy for rotational power |
 
 
 
@@ -90,32 +90,24 @@ Understanding Lasso Guard requires appreciation for both its strengths and limit
 - Recognize when to abandon the lasso early if the opponent successfully counters, recovering to alternative guard positions before losing control completely
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Lasso Guard Sweeps]]** → [[Mount]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Lasso Guard Sweeps]]** (25% of attempts)
 
-- **[[Triangle Setup]]** → [[Triangle Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Triangle Setup]]** (18% of attempts)
 
-- **[[Omoplata Sweep]]** → [[Omoplata Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Omoplata Sweep]]** (15% of attempts)
 
-- **[[De La Riva Sweep]]** → [[Back Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[De La Riva Sweep]]** (12% of attempts)
 
-- **[[Spider Guard Sweeps]]** → [[Side Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Spider Guard Sweeps]]** (10% of attempts)
 
-- **[[X-Guard Sweep]]** → [[Mount]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[X-Guard Sweep]]** (8% of attempts)
 
-- **[[Armbar from Guard]]** → [[Armbar Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Armbar from Guard]]** (7% of attempts)
 
-- **[[Kimura from Guard]]** → [[Kimura Control]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Kimura from Guard]]** (5% of attempts)
 
 
 ### Common Mistakes
@@ -171,32 +163,24 @@ Understanding Lasso Guard requires appreciation for both its strengths and limit
 - Remain patient and methodical, recognizing that rushing into passing attempts while fully lassoed typically results in being swept or submitted
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Lasso Guard Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Lasso Guard Pass]]** (20% of attempts)
 
-- **[[Stack Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Stack Pass]]** (12% of attempts)
 
-- **[[Knee Cut Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Knee Cut Pass]]** (18% of attempts)
 
-- **[[Smash Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Smash Pass]]** (12% of attempts)
 
-- **[[Toreando Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Toreando Pass]]** (15% of attempts)
 
-- **[[Pressure Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Long Step Pass]]** (8% of attempts)
 
-- **[[Long Step Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Leg Weave Pass]]** (10% of attempts)
 
-- **[[Kimura from Standing]]** → [[Kimura Control]]
-  - Success Rate: Beginner 15%, Intermediate 25%, Advanced 40%
+- **[[Kimura from Standing]]** (5% of attempts)
 
 
 ### Common Mistakes

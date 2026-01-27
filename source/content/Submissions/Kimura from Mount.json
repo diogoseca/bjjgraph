@@ -262,6 +262,31 @@
       "question": "How should you adjust your Kimura attack if the opponent straightens their trapped arm to defend?",
       "answer": "When the opponent straightens their trapped arm in an attempt to reduce rotational pressure on the shoulder, they create an immediate opening for a straight armbar. Maintain your grip on their wrist, adjust your angle by bringing your leg over their face toward the trapped arm side, and fall back while controlling their arm for the armbar finish. The figure-four grip naturally transitions to armbar control when they extend. This is why Kimura defense by arm extension is considered poor technique - it trades one submission threat for another without escaping danger.",
       "safety_critical": false
+    },
+    {
+      "question": "Your opponent begins to posture up and create space during your Kimura setup - what adjustment prevents escape?",
+      "answer": "When the opponent attempts to posture, immediately lower your hips and drive your weight forward through the figure-four grip. Use your chest pressure to flatten them back to the mat while maintaining the grip configuration. If they create significant space, shift your angle more aggressively toward their head, using your leg positioning to block their hip movement. The key is not letting them establish a defensive frame before you secure the proper angle. If they posture successfully, consider transitioning to back control by following their movement rather than fighting it.",
+      "safety_critical": false
+    },
+    {
+      "question": "What anatomical structures does the Kimura from Mount specifically attack and how does the submission create the breaking mechanism?",
+      "answer": "The Kimura targets the shoulder joint complex, specifically the glenohumeral joint, rotator cuff muscles (supraspinatus, infraspinatus, subscapularis, teres minor), and the surrounding ligamentous capsule. The figure-four grip creates internal rotation of the humerus while the elbow is flexed and the arm is elevated. This forces the humeral head against the posterior capsule and stretches the external rotator muscles beyond their natural range. The breaking mechanism occurs when continued rotation exceeds the structural limits of the capsule, tendons, or the joint itself, resulting in dislocation or tissue rupture.",
+      "safety_critical": false
+    },
+    {
+      "question": "At what point during the Kimura from Mount is the opponent past the point of no escape and what indicators show this?",
+      "answer": "The point of no escape typically occurs when: (1) the figure-four grip is fully secured with proper wrist distance, (2) your body angle is perpendicular to their trapped arm with hips tight to their shoulder, (3) their elbow has been lifted off the mat to ribcage height, and (4) their wrist has begun moving toward their head in the circular arc. Visual indicators include their inability to straighten the arm, their shoulder becoming pinned to the mat, and the internal rotation of their arm becoming visible. At this stage, the only options are tap or transition - pure defense is no longer viable.",
+      "safety_critical": false
+    },
+    {
+      "question": "What grip adjustments should you make during the finishing sequence if opponent resistance is preventing the tap?",
+      "answer": "If resistance prevents the finish, first verify your grip distance on your own wrist is maximized. Then check your body angle - you may need to shift your chest more perpendicular to their body. If the resistance is grip-based (they're holding their belt or pants), increase your body angle toward their head while maintaining elbow height, using the mechanical advantage of the longer lever to break their grip. You can also post your far hand on their head to create additional pressure. Never compensate for poor positioning by adding explosive force - instead, troubleshoot mechanics systematically.",
+      "safety_critical": false
+    },
+    {
+      "question": "What common finishing errors reduce submission effectiveness and how do you recognize when they're occurring?",
+      "answer": "The most common finishing errors are: (1) lifting straight up instead of rotating toward the head - recognized when you feel significant resistance despite adequate grip strength; (2) allowing the wrist to drift away from their body - visible when their arm begins to extend rather than rotate; (3) losing hip connection to their shoulder - recognized when they begin to create space or rotate their torso; and (4) gripping too close on the figure-four - felt as inadequate leverage despite correct motion. Each error has a distinct sensation: straight lifting feels like a strength contest, drifting wrist feels like losing control, hip disconnection feels like the position becoming unstable, and close gripping feels mechanically weak.",
+      "safety_critical": false
     }
   ],
   "training_progressions_and_safety_protocols": [
@@ -326,11 +351,11 @@
     "Triangle from Mount",
     "Ezekiel from Mount",
     "Cross Collar Choke",
-    "Straight Armbar",
-    "Reverse Kimura",
     "Arm Triangle",
     "Kimura from Side Control",
-    "Armbar Finish"
+    "Armbar Finish",
+    "Americana",
+    "Americana from Side Control"
   ],
   "related_content": [
     {
@@ -346,28 +371,16 @@
       "relationship": "Enhanced control variation - prevents rolling defenses more effectively"
     },
     {
-      "name": "Kimura Control",
-      "relationship": "Positional control state achieved once figure-four grip is secured"
-    },
-    {
-      "name": "Kimura Trap System",
-      "relationship": "Systematic approach integrating this submission with transitions and positional chains"
+      "name": "Kimura Trap",
+      "relationship": "Positional control state achieved once figure-four grip is secured with systematic follow-up options"
     },
     {
       "name": "Back Control",
       "relationship": "Common transition target when opponent rolls to defend Kimura"
     },
     {
-      "name": "Kimura to Back Take",
-      "relationship": "Transition technique used when opponent defends by rolling"
-    },
-    {
-      "name": "Mount to Armbar",
+      "name": "Armbar from Mount",
       "relationship": "Alternative submission when opponent straightens arm to defend Kimura"
-    },
-    {
-      "name": "Submission Chains",
-      "relationship": "Principle governing connection between mount attacks"
     },
     {
       "name": "Side Control",
@@ -380,6 +393,14 @@
     {
       "name": "Gift Wrap",
       "relationship": "Control position that can transition to Kimura setup from mount"
+    },
+    {
+      "name": "Technical Mount",
+      "relationship": "Mount variation allowing Kimura attacks with enhanced head control"
+    },
+    {
+      "name": "Americana",
+      "relationship": "Related shoulder lock submission sharing similar mechanics from mount"
     }
   ]
 }

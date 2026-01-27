@@ -21,37 +21,37 @@ description: "Master offensive strategies from Modified Mount. Learn stability m
     {
       "@type": "HowToStep",
       "name": "Execute Armbar from Mount",
-      "text": "From this position, execute Armbar from Mount to transition to Armbar Control. Success rate for advanced practitioners: 80%.",
+      "text": "From this position, attempt Armbar from Mount. This technique is attempted in 15% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute S-Mount Transition",
-      "text": "From this position, execute S-Mount Transition to transition to S Mount. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt S-Mount Transition. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Mounted Triangle",
-      "text": "From this position, execute Mounted Triangle to transition to Mounted Triangle. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Mounted Triangle. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to High Mount",
-      "text": "From this position, execute Transition to High Mount to transition to High Mount. Success rate for advanced practitioners: 85%.",
+      "name": "Execute High Mount Transition",
+      "text": "From this position, attempt High Mount Transition. This technique is attempted in 13% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Americana from Mount",
-      "text": "From this position, execute Americana from Mount to transition to Americana Control. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Americana from Mount. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Cross Collar Choke",
-      "text": "From this position, execute Cross Collar Choke to transition to Won by Submission. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Cross Collar Choke. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -209,106 +209,24 @@ Modified Mount from the top perspective represents a strategic decision to trade
 
 ## Available Attacks
 
-### [[Armbar from Mount]] → [[Armbar Control]]
+### [[Armbar from Mount]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 60%
-- Advanced: 80%
+### [[S-Mount Transition]] (12% of attempts)
 
-### [[S-Mount Transition]] → [[S Mount]]
+### [[Mounted Triangle]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 55%
-- Advanced: 75%
+### [[High Mount Transition]] (13% of attempts)
 
-### [[Mounted Triangle]] → [[Mounted Triangle]]
+### [[Americana from Mount]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 45%
-- Advanced: 65%
+### [[Cross Collar Choke]] (10% of attempts)
 
-### [[Transition to High Mount]] → [[High Mount]]
+### [[Kimura from Mount]] (8% of attempts)
 
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 65%
-- Advanced: 85%
+### [[Gift Wrap Transition]] (12% of attempts)
 
-### [[Americana from Mount]] → [[Americana Control]]
+### [[Back Take from Top]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 70%
-
-### [[Cross Collar Choke]] → [[Won by Submission]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 45%
-- Advanced: 65%
-
-### [[Kimura from Mount]] → [[Kimura Control]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 40%
-- Advanced: 60%
-
-### [[Transition to Technical Mount]] → [[Technical Mount]]
-
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 60%
-- Advanced: 80%
-
-### [[Gift Wrap Control]] → [[Gift Wrap]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 45%
-- Advanced: 65%
-
-### [[Transition to Back Control]] → [[Back Control]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 55%
-- Advanced: 75%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Hip Escape]]** → [[Half Guard]] (Opponent Success: 55%)
-- **[[Elbow Escape]]** → [[Closed Guard]] (Opponent Success: 50%)
-- **[[Frame and Shrimp]]** → [[Open Guard]] (Opponent Success: 45%)
-- **[[Bridge and Roll]]** → [[Mount]] (Opponent Success: 30%)
-- **[[Deep Half Entry]]** → [[Deep Half Guard]] (Opponent Success: 35%)
-- **[[Turtle Transition]]** → [[Turtle]] (Opponent Success: 40%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Base Posting Against Hip Escape]]** → [[Modified Mount Top]]
-  - When opponent attempts to shrimp toward posted leg side
-- **[[Immediate Armbar Transition]]** → [[Armbar Control]]
-  - When opponent extends near-side arm to frame or push
-- **[[S-Mount Advancement]]** → [[S Mount]]
-  - When opponent creates frames and attempts to create space
-- **[[Technical Mount Transition]]** → [[Technical Mount]]
-  - When opponent turns to side during escape attempt
 
 
 </section>
@@ -323,23 +241,23 @@ Modified Mount from the top perspective represents a strategic decision to trade
 
 
 **If opponent attempts hip escape toward posted leg:**
-- Execute **[[Base Posting Against Hip Escape]]** → [[Modified Mount Top]] (Probability: 70%)
-- Execute **[[Transition to High Mount]]** → [[High Mount]] (Probability: 60%)
+- Execute **[[Base Posting Against Hip Escape]]** → [[Modified Mount]] (Probability: 70%)
+- Execute **[[High Mount Transition]]** → [[High Mount]] (Probability: 60%)
 
 
 **If opponent keeps arms tight and defends neck:**
-- Execute **[[Cross Collar Choke]]** → [[Won by Submission]] (Probability: 55%)
+- Execute **[[Cross Collar Choke]]** → [[game-over]] (Probability: 55%)
 - Execute **[[Americana from Mount]]** → [[Americana Control]] (Probability: 50%)
 
 
 **If opponent turns to side or turtles:**
-- Execute **[[Transition to Back Control]]** → [[Back Control]] (Probability: 70%)
-- Execute **[[Transition to Technical Mount]]** → [[Technical Mount]] (Probability: 65%)
+- Execute **[[Back Take from Top]]** → [[Back Control]] (Probability: 70%)
+- Execute **[[Gift Wrap Transition]]** → [[Technical Mount]] (Probability: 65%)
 
 
 **If opponent creates strong defensive frames:**
 - Execute **[[Mounted Triangle]]** → [[Mounted Triangle]] (Probability: 60%)
-- Execute **[[Gift Wrap Control]]** → [[Gift Wrap]] (Probability: 50%)
+- Execute **[[Gift Wrap Transition]]** → [[Gift Wrap]] (Probability: 50%)
 
 
 
@@ -420,33 +338,39 @@ Partner gives specific defensive responses (arm frames, hip escapes, turtling). 
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Primary Armbar Sequence
+## Test Your Knowledge
 
-`Modified Mount Top → Armbar Setup → S Mount → Armbar Control → Won by Submission`
+**Q1**: What is the primary advantage of posting one leg in Modified Mount versus keeping both knees on the mat?
+**A**: The posted leg creates a significantly wider base that prevents explosive bridge-and-roll reversals. When an opponent attempts to bridge and roll, the posted foot acts as a structural anchor that stops the momentum, whereas standard mount with both knees down is more vulnerable to being rolled. The trade-off is slightly less even weight distribution across the opponent's torso.
 
-### Triangle Chain
+**Q2**: How should you adjust your weight distribution when your opponent starts attempting hip escapes toward the posted leg side?
+**A**: When the opponent hip escapes toward the posted leg, you should increase downward pressure through the across-body knee while using the posted leg to follow their hip movement laterally. If they consistently attack that direction, consider transitioning to standard mount or high mount to remove the posted leg vulnerability. The key is maintaining heavy pressure through the across-body connection point while your posted leg provides mobile stability.
 
-`Modified Mount Top → Mounted Triangle → Triangle Control → Won by Submission`
+**Q3**: When is Modified Mount preferable to standard mount for submission attacks?
+**A**: Modified Mount is preferable when attacking armbars specifically because the posted leg is already partially positioned for the swing-over motion. The asymmetric structure naturally funnels into armbar mechanics. It's also advantageous against opponents with excellent bridge-and-roll escapes, as the posted leg insurance allows more aggressive submission attempts without fear of reversal. However, for cross chokes or when even pressure is needed, standard mount may be better.
 
-### Technical Mount Progression
+**Q4**: Your opponent is defending their arms tightly and tucking their chin - what should you threaten to open up submission opportunities?
+**A**: Use the cross collar choke or collar threats to force them to defend their neck, which requires moving their hands upward and creates arm isolation opportunities for americanas or armbars. You can also transition toward high mount or S-mount to increase pressure and force reaction. The key principle is creating dilemmas where defending one attack opens another. Threatening the neck makes them expose their arms; threatening arms makes them expose their neck.
 
-`Modified Mount Top → Technical Mount → Back Control → Rear Naked Choke`
+**Q5**: What is the optimal distance for the posted leg from your body, and how do you determine it?
+**A**: The posted leg should be far enough to create genuine stability against bridge attempts (typically 12-18 inches from your hip depending on opponent size) but close enough that the opponent cannot easily shoot their hips into the space created to recover half guard. Test this by having your partner bridge - if you feel unstable, post wider. Then have them hip escape - if they can capture your leg, post closer. The optimal distance is the narrowest post that still provides stability.
 
-### Americana to Armbar
+**Q6**: How should you respond when your opponent turns to their side during your Modified Mount control?
+**A**: When the opponent turns to their side, immediately transition toward technical mount by inserting your bottom leg hook behind their back, or pursue back control by sliding toward their turtle/side. Their turning motion often indicates an escape attempt but also exposes their back. You can also use a gift wrap control on their top arm to prevent them completing the turn while setting up back take options. Never allow them to fully turtle without attacking.
 
-`Modified Mount Top → Americana from Mount → Armbar from Mount → Won by Submission`
+**Q7**: What are the primary grip priorities when maintaining Modified Mount control?
+**A**: Primary grip priorities are: 1) Cross-face or head control to prevent them from turning away and to maintain upper body pressure, 2) Underhook on the far side to prevent their elbow-knee connection and stop guard recovery, 3) Collar grips for gi or head/arm control for no-gi to set up chokes and create defensive reactions. The across-body knee and posted leg handle structural control, while your arms manage upper body positioning and submission setups.
 
-### Gift Wrap to Back
-
-`Modified Mount Top → Gift Wrap → Back Control → Submission Position`
+**Q8**: How do you recover Modified Mount if your opponent partially escapes to half guard on the posted leg side?
+**A**: If they capture your posted leg in half guard, immediately switch your weight pressure to that leg while posting your other leg out for base reversal. Work to free the trapped leg by windshield-wipering your knee across their guard or backstep to quarter guard. Alternatively, accept the half guard transition and work your half guard passing game. The key is not panicking - this is a common situation and you maintain significant advantage in half guard top position.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -470,10 +394,10 @@ Partner gives specific defensive responses (arm frames, hip escapes, turtling). 
 - **[[Armbar from Mount]]** - Primary submission accessible from Modified Mount structure
 - **[[S Mount]]** - Natural progression from Modified Mount when advancing toward armbar
 - **[[Technical Mount]]** - Alternative advancement when opponent turns to escape
-- **[[Base Maintenance]]** - Fundamental principle enhanced by posted leg configuration
-- **[[Submission Chains]]** - Framework for connecting Modified Mount attacks into inescapable sequences
-- **[[Weight Distribution]]** - Critical principle for managing asymmetric pressure effectively
-- **[[Mount Control]]** - Parent position and control principles underlying Modified Mount effectiveness
+- **[[High Mount]]** - Advancement target when opponent creates frames
+- **[[Mounted Triangle]]** - Alternative submission when arm isolation is difficult
+- **[[Gift Wrap]]** - Control position accessible when opponent defends armbars
+- **[[Mount]]** - Parent position and control principles underlying Modified Mount effectiveness
 
 
 </section>

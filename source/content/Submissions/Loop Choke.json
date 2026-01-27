@@ -234,6 +234,36 @@
       "question": "Why is controlling the opponent's defensive frames critical before attempting the finish?",
       "answer": "Controlling defensive frames prevents the opponent from stripping your collar grip or creating space to turn into the choke and relieve pressure. If the opponent can bring both hands to your attacking grip, they can often strip it before you establish proper finishing position. Early frame control allows you to focus on technical execution without having to fight through active hand defenses.",
       "safety_critical": false
+    },
+    {
+      "question": "Your opponent begins turning into the choke to relieve pressure - what adjustment secures the finish?",
+      "answer": "Block their turning motion by driving your head tight against their head on the opposite side of your choking arm. Simultaneously increase shoulder pressure into the neck and use your free hand to control their far shoulder, preventing rotation. If they continue turning, flow with the movement to take the back while maintaining the collar grip for a potential bow and arrow or clock choke transition.",
+      "safety_critical": false
+    },
+    {
+      "question": "What anatomical structures does the loop choke attack and how does unconsciousness occur?",
+      "answer": "The loop choke attacks the carotid arteries on both sides of the neck, restricting blood flow to the brain. The collar creates compression on one side while shoulder pressure compresses the opposite carotid. Blood chokes cause unconsciousness within 8-12 seconds of proper application as the brain is deprived of oxygenated blood. This is why progressive application and immediate release on tap are critical safety requirements.",
+      "safety_critical": true
+    },
+    {
+      "question": "What are the key indicators that the choke is properly set and the opponent is approaching the point of no escape?",
+      "answer": "Key indicators include: opponent's face changing color (reddening or pale), their defensive movements becoming weaker or more frantic, inability to create effective frames, loss of posture control, and audible changes in breathing. When the shoulder is wedged firmly against the neck with head blocking rotation and the collar grip is deep, escape becomes nearly impossible. At this point, maintain progressive pressure until tap occurs.",
+      "safety_critical": false
+    },
+    {
+      "question": "How do you adjust the loop choke finish when attacking from turtle versus mount?",
+      "answer": "From turtle, you typically roll the opponent toward your choking arm while maintaining the collar grip, finishing with them on their side or back. The rolling motion itself helps tighten the choke. From mount, the finish is more static - you drive shoulder pressure down while using head position to block rotation, with your weight and gravity providing the compression. Both require the same grip depth but use different body mechanics to complete.",
+      "safety_critical": false
+    },
+    {
+      "question": "What grip adjustments should you make if the opponent is actively defending by pulling on your choking arm?",
+      "answer": "If they're pulling your choking arm, use this as an opportunity to drive the grip even deeper by threading further into the collar as they create slack. Simultaneously increase chest pressure to limit their pulling power. If they successfully peel fingers, immediately transition to an alternative collar attack like cross collar choke or switch to shoulder of justice control, using their defensive focus to advance position.",
+      "safety_critical": false
+    },
+    {
+      "question": "In competition, what strategies maximize loop choke success rate when opponent knows it's coming?",
+      "answer": "Chain the loop choke with complementary attacks so defense creates new openings. Threaten armbars and Americanas first to occupy their hands, then establish the collar grip as apparent control rather than submission. Use dominant position pressure to exhaust their defensive energy before committing to the finish. Against opponents who strongly defend the collar, use the grip threat to advance position or transition to back control where collar attacks become even more effective.",
+      "safety_critical": false
     }
   ],
   "training_progressions_and_safety_protocols": [
@@ -297,7 +327,6 @@
     "Ezekiel Choke",
     "Ezekiel from Mount",
     "Bow and Arrow Choke",
-    "Paper Cutter Choke",
     "Breadcutter Choke",
     "Clock Choke",
     "Triangle Choke",
@@ -307,7 +336,7 @@
   ],
   "related_content": [
     {
-      "name": "Mount Control",
+      "name": "Mount",
       "relationship": "Primary position for establishing loop choke setups with dominant control"
     },
     {
@@ -317,14 +346,6 @@
     {
       "name": "Turtle",
       "relationship": "Defensive position vulnerable to loop choke attacks from back exposure"
-    },
-    {
-      "name": "Collar Control",
-      "relationship": "Fundamental principle governing effective grip establishment and maintenance"
-    },
-    {
-      "name": "Grip Strategy",
-      "relationship": "Conceptual framework for disguising attacking grips as control grips"
     },
     {
       "name": "Cross Collar Choke",
@@ -343,8 +364,16 @@
       "relationship": "Scarf hold variation providing excellent angle for loop choke application"
     },
     {
-      "name": "Won by Submission",
-      "relationship": "Terminal state reached upon successful loop choke completion"
+      "name": "High Mount",
+      "relationship": "Elevated mount variation offering optimal collar access for loop choke setup"
+    },
+    {
+      "name": "Knee on Belly",
+      "relationship": "Transitional position that can flow into loop choke attack with collar grip"
+    },
+    {
+      "name": "Bow and Arrow Choke",
+      "relationship": "Alternative collar choke that can be transitioned to when opponent defends loop choke"
     }
   ]
 }

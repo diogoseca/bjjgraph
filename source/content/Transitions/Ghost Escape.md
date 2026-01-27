@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Ghost Escape | BJJ Technique | BJJ Graph"
 description: "Learn Ghost Escape in BJJ. Step-by-step execution from Side Control to Turtle. Advanced rotational escape technique. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%."
@@ -16,7 +17,7 @@ description: "Learn Ghost Escape in BJJ. Step-by-step execution from Side Contro
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Ghost Escape in BJJ",
-  "description": "Step-by-step guide for Ghost Escape from Side Control to Turtle.",
+  "description": "Step-by-step guide for Ghost Escape from Side Control/Top. Possible outcomes: Turtle/Top (70%), Side Control/Top (20%), Side Control/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -154,11 +155,25 @@ description: "Learn Ghost Escape in BJJ. Step-by-step execution from Side Contro
 
 The Ghost Escape is an advanced, dynamic escape from side control that utilizes rotational movement and timing to create space and transition to turtle position. Named for its ability to seemingly disappear from underneath the opponent's control, this escape combines hip movement, shoulder rotation, and precise timing to slip out from heavy pressure. Unlike traditional shrimping escapes that move perpendicular to the opponent, the Ghost Escape rotates the body in a circular motion, creating a unique angle that disrupts the opponent's base and weight distribution. This technique is particularly effective against opponents who maintain heavy chest-to-chest pressure and are anticipating standard escape patterns. The Ghost Escape requires good body awareness, timing, and the ability to create small windows of space under pressure. It's most successful when initiated during transitional moments when the opponent shifts their weight or adjusts their grips. The escape represents a modern, mobile approach to dealing with dominant top positions and is especially valuable in no-gi grappling where traditional gi grips are unavailable.
 
-**Starting Position**: [[Side Control]]
-**Ending Position**: [[Turtle]]
+**From Position**: [[Side Control/Top]]
 **Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Turtle/Top]] | 70% |
+| Failure | [[Side Control/Top]] | 20% |
+| Counter | [[Side Control/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

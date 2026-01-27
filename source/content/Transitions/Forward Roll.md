@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Forward Roll | BJJ Technique | BJJ Graph"
 description: "Master the Forward Roll in BJJ. Essential escape and movement technique for guard recovery and defensive positioning. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%."
@@ -16,7 +17,7 @@ description: "Master the Forward Roll in BJJ. Essential escape and movement tech
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Forward Roll in BJJ",
-  "description": "Step-by-step guide for Forward Roll from Defensive Position to Seated Guard.",
+  "description": "Step-by-step guide for Forward Roll from Defensive Position/Top. Possible outcomes: Seated Guard/Bottom (70%), Defensive Position/Top (20%), Defensive Position/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -160,11 +161,25 @@ description: "Master the Forward Roll in BJJ. Essential escape and movement tech
 
 The Forward Roll is a fundamental movement technique in Brazilian Jiu-Jitsu that serves both defensive and offensive purposes. This dynamic rolling motion allows practitioners to escape dangerous positions, create distance from opponents, and transition into advantageous guard positions. The forward roll is particularly effective when combined with proper timing and spatial awareness, enabling practitioners to turn defensive situations into offensive opportunities. Understanding the biomechanics of rolling forward while maintaining control of your center of gravity is essential for smooth execution. This technique becomes increasingly valuable as practitioners develop their guard game, as it provides a reliable method for recovering guard position after being passed or during scrambles. The forward roll also builds body awareness and coordination that translates to other advanced movements in BJJ.
 
-**Starting Position**: [[Defensive Position]]
-**Ending Position**: [[Seated Guard]]
+**From Position**: [[Defensive Position/Top]]
 **Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Seated Guard/Bottom]] | 70% |
+| Failure | [[Defensive Position/Top]] | 20% |
+| Counter | [[Defensive Position/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

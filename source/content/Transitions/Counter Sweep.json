@@ -11,8 +11,6 @@
     "timing",
     "position recovery"
   ],
-  "starting_position": "Guard Bottom Transition",
-  "ending_position": "Guard Pass",
   "success_rates": {
     "beginner": 35,
     "intermediate": 50,
@@ -276,6 +274,24 @@
     {
       "name": "Defensive Strategy",
       "relationship": "Broader framework that includes sweep defense as component"
+    }
+  ],
+  "from_position": "Guard Transition/Bottom",
+  "outcomes": [
+    {
+      "to": "Guard Pass/Bottom",
+      "probability": 70,
+      "result": "success"
+    },
+    {
+      "to": "Guard Transition/Bottom",
+      "probability": 20,
+      "result": "failure"
+    },
+    {
+      "to": "Guard Transition/Top",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

@@ -21,37 +21,37 @@ description: "Learn pressure passing from flattened half guard top. Complete you
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice from Half",
-      "text": "From this position, execute Knee Slice from Half to transition to Side Control. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Knee Slice from Half. This technique is attempted in 19% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Crossface Pass",
-      "text": "From this position, execute Crossface Pass to transition to Side Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Crossface Pass. This technique is attempted in 18% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Pass",
-      "text": "From this position, execute Underhook Pass to transition to Side Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Underhook Pass. This technique is attempted in 16% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Take Generic",
-      "text": "From this position, execute Back Take Generic to transition to Back Control. Success rate for advanced practitioners: 45%.",
+      "text": "From this position, attempt Back Take Generic. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kimura from Half Guard",
-      "text": "From this position, execute Kimura from Half Guard to transition to Kimura Control. Success rate for advanced practitioners: 35%.",
+      "text": "From this position, attempt Kimura from Half Guard. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Mount",
-      "text": "From this position, execute Transition to Mount to transition to Mount. Success rate for advanced practitioners: 50%.",
+      "name": "Execute Side Control to Mount",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 14% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -211,81 +211,20 @@ Understanding the position's relationship to the broader passing game is essenti
 
 ## Available Attacks
 
-### [[Knee Slice from Half]] → [[Side Control]]
+### [[Knee Slice from Half]] (19% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Crossface Pass]] (18% of attempts)
 
-### [[Crossface Pass]] → [[Side Control]]
+### [[Underhook Pass]] (16% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Back Take Generic]] (12% of attempts)
 
-### [[Underhook Pass]] → [[Side Control]]
+### [[Kimura from Half Guard]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Side Control to Mount]] (14% of attempts)
 
-### [[Back Take Generic]] → [[Back Control]]
+### [[Knee on Belly]] (11% of attempts)
 
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 45%
-
-### [[Kimura from Half Guard]] → [[Kimura Control]]
-
-**Success Rates:**
-- Beginner: 10%
-- Intermediate: 25%
-- Advanced: 35%
-
-### [[Transition to Mount]] → [[Mount]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
-
-### [[Knee on Belly]] → [[Knee on Belly]]
-
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 40%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Hip Escape]]** → [[Knee Shield Half Guard]] (Opponent Success: 35%)
-- **[[Deep Half Entry]]** → [[Deep Half Guard]] (Opponent Success: 25%)
-- **[[Frame and Shrimp]]** → [[Half Guard Bottom]] (Opponent Success: 40%)
-- **[[Turtle Transition]]** → [[Turtle]] (Opponent Success: 30%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Knee Slice from Half]]** → [[Side Control]]
-  - When opponent shrimps to create space, immediately drive knee across body to complete pass
-- **[[Back Take Generic]]** → [[Back Control]]
-  - As opponent turns away to prevent crossface pass, follow their movement to secure back control
-- **[[Kimura from Half Guard]]** → [[Kimura Control]]
-  - When opponent reaches to establish underhook or push crossface, secure wrist and lock Kimura grip
 
 
 </section>
@@ -301,11 +240,11 @@ Understanding the position's relationship to the broader passing game is essenti
 
 **If opponent turns away to escape crossface pressure or prevent pass completion:**
 - Execute **[[Back Take Generic]]** → [[Back Control]] (Probability: 50%)
-- Execute **[[Transition to Mount]]** → [[Mount]] (Probability: 40%)
+- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 40%)
 
 
 **If opponent extends arm to establish underhook or create frame against crossface:**
-- Execute **[[Kimura from Half Guard]]** → [[Kimura Control]] (Probability: 40%)
+- Execute **[[Kimura from Half Guard]]** → [[Kimura Trap]] (Probability: 40%)
 - Execute **[[Underhook Pass]]** → [[Side Control]] (Probability: 50%)
 
 
@@ -375,25 +314,39 @@ Begin in flattened half guard and flow through your passing sequences - knee sli
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Pressure Pass to Mount Submissions
+## Test Your Knowledge
 
-`Flattened Half Guard Top → Knee Slice from Half → Side Control → Transition to Mount → Armbar from Mount`
+**Q1**: What is the single most important control point to maintain when playing flattened half guard top?
+**A**: The crossface is the highest priority control point. It turns your opponent's head away from the action, creates a pressure point that multiplies your body weight's effect, and prevents them from using their near-side arm for framing. Losing the crossface opens multiple defensive pathways and allows frame recovery.
 
-### Back Take to Rear Naked Choke
+**Q2**: Your opponent begins a small hip escape while you have flattened half guard top - what adjustment do you make?
+**A**: Immediately increase your forward pressure through your chest and hips to follow their movement, then use their hip escape motion as the trigger to initiate your knee slice pass. The hip escape creates the angle you need - drive your knee across as they shrimp rather than fighting their movement.
 
-`Flattened Half Guard Top → Back Take Generic → Back Control → Rear Naked Choke`
+**Q3**: Why is static pressure ineffective from flattened half guard top even when your opponent is clearly uncomfortable?
+**A**: Static pressure allows your opponent to systematically work through incremental frame recovery sequences. While uncomfortable, a skilled bottom player will eventually create space through micro-adjustments if you remain stationary. Effective pressure must be dynamic - flowing between control and advancement to prevent them from executing their recovery plan.
 
-### Kimura Control to Finish
+**Q4**: What are the two primary passing approaches available from flattened half guard top?
+**A**: The knee slice pass and the crossface/underhook pass are the two primary options. The knee slice involves creating an angle and driving your knee across their body to free the trapped leg. The crossface pass maintains heavy shoulder pressure while extracting the leg through hip movement and stepping over. Both require maintaining chest pressure throughout.
 
-`Flattened Half Guard Top → Kimura from Half Guard → Kimura Control → Kimura`
+**Q5**: Your opponent reaches their far arm to push against your crossface - how do you capitalize on this?
+**A**: When they extend their arm to push your crossface, immediately secure their wrist and lock a Kimura grip on the exposed arm. This creates a submission threat and a positional advancement opportunity. They must now defend the Kimura while you maintain passing pressure, creating a dilemma where defending one threat opens the other.
+
+**Q6**: How should weight distribution differ between chest pressure and hip pressure in this position?
+**A**: Chest and hip pressure must work together as a unified system. Using only chest pressure allows hip escape opportunities as your weight is too high. Drive pressure through both your chest and hips simultaneously, with your hips staying low and heavy. This creates a broad pressure base that limits their mobility in all directions.
+
+**Q7**: What is the correct response when your opponent turns away to prevent the crossface pass?
+**A**: When your opponent turns away, immediately follow their rotation while maintaining your crossface control, transitioning to back control. Their turning motion is an attempt to escape but it exposes their back. Use your underhook and crossface to climb onto their back as they rotate, securing hooks and seatbelt control.
+
+**Q8**: How do you maintain pressure while transitioning between different passing attempts?
+**A**: Keep your chest connected to their torso throughout all transitions - adjust position through hip movement and weight shifts rather than posting hands wide or sitting back. The moment you lift your chest, they will insert a knee shield or create frames. Think of your chest as an anchor point that never breaks contact during movement.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -417,10 +370,10 @@ Begin in flattened half guard and flow through your passing sequences - knee sli
 - **[[Half Guard]]** - Parent position where establishing flattening control is primary objective
 - **[[Side Control]]** - Target position achieved after completing pass from flattened half guard
 - **[[Knee Shield Half Guard]]** - Position opponent attempts to recover when you lose pressure control
-- **[[Pressure Passing]]** - Core passing framework that flattened half guard control exemplifies
-- **[[Top Half Guard]]** - Broader principle set for controlling and passing from half guard top positions
-- **[[Cross Face Control]]** - Essential control point for maintaining dominant position while flattened
-- **[[Forward Pressure]]** - Fundamental pressure principle enabling effective flattened half guard control
+- **[[Knee Slice from Half]]** - Primary passing technique executed from flattened half guard control
+- **[[Crossface Pass]]** - High-percentage pass using crossface pressure mechanics
+- **[[Underhook Pass]]** - Alternative passing approach utilizing underhook control
+- **[[Back Control]]** - Position achieved when opponent turns away during pass attempts
 
 
 </section>

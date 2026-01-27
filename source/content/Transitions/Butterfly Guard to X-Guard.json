@@ -10,8 +10,6 @@
     "x-guard",
     "off-balancing"
   ],
-  "starting_position": "Butterfly Guard",
-  "ending_position": "X-Guard",
   "success_rates": {
     "beginner": 35,
     "intermediate": 50,
@@ -262,6 +260,24 @@
     {
       "name": "Single Leg X Entry",
       "relationship": "Related entry technique"
+    }
+  ],
+  "from_position": "Butterfly Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "X-Guard/Bottom",
+      "probability": 65,
+      "result": "success"
+    },
+    {
+      "to": "Butterfly Guard/Bottom",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Butterfly Guard/Top",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

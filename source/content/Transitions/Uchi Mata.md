@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Uchi Mata | BJJ Technique | BJJ Graph"
 description: "Master Uchi Mata in BJJ. Complete standing throw from Clinch to Mount/Side Control. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%. Judo-based technique."
@@ -16,7 +17,7 @@ description: "Master Uchi Mata in BJJ. Complete standing throw from Clinch to Mo
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Uchi Mata in BJJ",
-  "description": "Step-by-step guide for Uchi Mata from Clinch to Side Control.",
+  "description": "Step-by-step guide for Uchi Mata from Clinch/Top. Possible outcomes: Side Control/Top (70%), Clinch/Top (20%), Clinch/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -160,11 +161,25 @@ description: "Master Uchi Mata in BJJ. Complete standing throw from Clinch to Mo
 
 The Uchi Mata (inner thigh throw) is one of judo's most powerful and versatile throwing techniques, highly effective in both gi and no-gi grappling. Translated as 'inner thigh reap,' this technique involves using your inner thigh to sweep your opponent's supporting leg while simultaneously rotating them over your hip. The Uchi Mata is particularly effective against taller opponents or those who stand upright in the clinch, as it exploits their high center of gravity. When executed properly, this throw generates tremendous force and typically results in a direct transition to side control or mount, making it one of the highest-percentage scoring techniques in BJJ competition. The technique requires precise timing, proper kuzushi (off-balancing), and coordinated hip and leg movement. Unlike some throws that rely purely on strength, Uchi Mata is a technical throw that uses rotational momentum and leverage to amplify your power. Its effectiveness has made it a staple in the arsenals of many high-level BJJ competitors who incorporate judo into their standing game.
 
-**Starting Position**: [[Clinch]]
-**Ending Position**: [[Side Control]]
+**From Position**: [[Clinch/Top]]
 **Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Side Control/Top]] | 70% |
+| Failure | [[Clinch/Top]] | 20% |
+| Counter | [[Clinch/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

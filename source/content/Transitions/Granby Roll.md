@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Granby Roll | BJJ Technique | BJJ Graph"
 description: "Master the Granby Roll escape technique in BJJ. Essential defensive movement from turtle and bottom positions. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%."
@@ -16,7 +17,7 @@ description: "Master the Granby Roll escape technique in BJJ. Essential defensiv
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Granby Roll in BJJ",
-  "description": "Step-by-step guide for Granby Roll from Turtle to Closed Guard.",
+  "description": "Step-by-step guide for Granby Roll from Turtle/Top. Possible outcomes: Closed Guard/Bottom (70%), Turtle/Top (20%), Turtle/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -160,11 +161,25 @@ description: "Master the Granby Roll escape technique in BJJ. Essential defensiv
 
 The Granby Roll is a fundamental defensive movement technique that allows a practitioner to escape from inferior positions by rolling over the shoulder and inverting the body. Named after the wrestling technique popularized at Granby High School, this movement has become essential in modern BJJ for escaping turtle position, preventing back takes, and recovering guard. The technique involves a coordinated shoulder roll combined with hip extension and leg drive to create space and change the orientation of your body relative to your opponent. The Granby Roll is particularly effective against opponents attempting to take the back from turtle or when trapped in side control variations. Its effectiveness comes from the explosive nature of the movement combined with the ability to create angles that disrupt opponent control. Modern no-gi practitioners have elevated this technique to an art form, using it not just as an escape but as a transition into offensive positions and guard pulls. The movement requires significant flexibility in the spine and shoulders, as well as the spatial awareness to roll into open space rather than into your opponent's control.
 
-**Starting Position**: [[Turtle]]
-**Ending Position**: [[Closed Guard]]
+**From Position**: [[Turtle/Top]]
 **Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Closed Guard/Bottom]] | 70% |
+| Failure | [[Turtle/Top]] | 20% |
+| Counter | [[Turtle/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

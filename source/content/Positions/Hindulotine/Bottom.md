@@ -21,37 +21,37 @@ description: "Offensive guillotine variation from bottom guard using rotational 
     {
       "@type": "HowToStep",
       "name": "Execute Guillotine Choke",
-      "text": "From this position, execute Guillotine Choke to transition to Won by Submission. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Guillotine Choke. This technique is attempted in 14% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Darce Choke",
-      "text": "From this position, execute Transition to Darce Choke to transition to D'arce Control. Success rate for advanced practitioners: 70%.",
+      "name": "Execute Hindulotine to Darce Choke",
+      "text": "From this position, attempt Hindulotine to Darce Choke. This technique is attempted in 13% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Anaconda Choke",
-      "text": "From this position, execute Transition to Anaconda Choke to transition to Anaconda Control. Success rate for advanced practitioners: 65%.",
+      "name": "Execute Hindulotine to Anaconda Choke",
+      "text": "From this position, attempt Hindulotine to Anaconda Choke. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Sweep to Mount",
-      "text": "From this position, execute Sweep to Mount to transition to Mount. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Sweep to Mount. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Take from Bottom",
-      "text": "From this position, execute Back Take from Bottom to transition to Back Control. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Back Take from Bottom. This technique is attempted in 13% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm Triangle Transition",
-      "text": "From this position, execute Arm Triangle Transition to transition to Side Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Arm Triangle Transition. This technique is attempted in 11% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -215,91 +215,22 @@ Success from bottom Hindulotine requires understanding the interplay between you
 
 ## Available Escapes
 
-### [[Guillotine Choke]] → [[Won by Submission]]
+### [[Guillotine Choke]] (14% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 55%
-- Advanced: 75%
+### [[Hindulotine to Darce Choke]] (13% of attempts)
 
-### [[Transition to Darce Choke]] → [[D'arce Control]]
+### [[Hindulotine to Anaconda Choke]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 70%
+### [[Sweep to Mount]] (12% of attempts)
 
-### [[Transition to Anaconda Choke]] → [[Anaconda Control]]
+### [[Back Take from Bottom]] (13% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 45%
-- Advanced: 65%
+### [[Arm Triangle Transition]] (11% of attempts)
 
-### [[Sweep to Mount]] → [[Mount]]
+### [[High Elbow Guillotine Variation]] (13% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Butterfly Sweep with Guillotine]] (12% of attempts)
 
-### [[Back Take from Bottom]] → [[Back Control]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 55%
-- Advanced: 70%
-
-### [[Arm Triangle Transition]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 60%
-
-### [[High Elbow Guillotine Variation]] → [[Won by Submission]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 70%
-
-### [[Butterfly Sweep with Guillotine]] → [[Mount]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Posture Recovery and Chin Tuck]]** → [[Closed Guard]] (Opponent Success: 40%)
-- **[[Von Flue Counter]]** → [[Side Control]] (Opponent Success: 35%)
-- **[[Stack Pass with Pressure]]** → [[Side Control]] (Opponent Success: 30%)
-- **[[Circle Out Escape]]** → [[Standing Position]] (Opponent Success: 25%)
-- **[[Hand Fighting to Break Grip]]** → [[Open Guard]] (Opponent Success: 30%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Angle Adjustment for Deeper Choke]]** → [[Won by Submission]]
-  - Opponent attempts to posture up or drive forward with pressure
-- **[[Switch to Darce]]** → [[D'arce Control]]
-  - Opponent creates space on near side while defending guillotine
-- **[[Sweep to Mount]]** → [[Mount]]
-  - Opponent drives weight forward to pressure and flatten you
-- **[[Back Take]]** → [[Back Control]]
-  - Opponent turns away to escape neck pressure
 
 
 </section>
@@ -315,7 +246,7 @@ Success from bottom Hindulotine requires understanding the interplay between you
 
 **If opponent drives forward with pressure trying to flatten you out:**
 - Execute **[[Butterfly Sweep with Guillotine]]** → [[Mount]] (Probability: 55%)
-- Execute **[[Angle Adjustment for Finish]]** → [[Won by Submission]] (Probability: 50%)
+- Execute **[[Angle Adjustment for Finish]]** → [[game-over]] (Probability: 50%)
 
 
 **If opponent turns away to escape the choking pressure:**
@@ -324,7 +255,7 @@ Success from bottom Hindulotine requires understanding the interplay between you
 
 
 **If opponent creates defensive frame with near-side arm:**
-- Execute **[[Transition to Darce Choke]]** → [[D'arce Control]] (Probability: 60%)
+- Execute **[[Hindulotine to Darce Choke]]** → [[D'arce Control]] (Probability: 60%)
 - Execute **[[Arm Triangle Transition]]** → [[Side Control]] (Probability: 45%)
 
 
@@ -401,29 +332,39 @@ Establish Hindulotine from bottom with partner actively defending by hand fighti
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Guard pull to submission
+## Test Your Knowledge
 
-`Standing Position → Pull guard → Closed Guard → Hindulotine Bottom → Guillotine Choke → Won by Submission`
+**Q1**: What hip angle creates maximum rotational pressure from bottom Hindulotine?
+**A**: Position your hips at approximately 45-90 degrees perpendicular to opponent's spine rather than directly underneath them. This angle allows your core rotation to generate torque on the neck rather than relying on pulling straight back. The further you angle your hips toward their choking-arm side, the more rotational pressure you create.
 
-### Failed takedown counter from bottom
+**Q2**: Your opponent begins driving forward to stack and flatten you - what adjustment maintains your attacking position?
+**A**: Use butterfly hooks or open your guard and plant your feet to create elevation under their hips. As they drive forward, load their weight onto your hooks and execute a butterfly sweep while maintaining the guillotine grip. Their forward pressure becomes the energy for the sweep, and you finish in mount with the choke still locked.
 
-`Standing Position → Opponent Shoots Takedown → Pull guard with Guillotine → Hindulotine Bottom → Guillotine Choke → Won by Submission`
+**Q3**: What are the essential grip configurations for maintaining bottom Hindulotine control?
+**A**: Use either a gable grip with palms together or a chin strap where your choking hand grabs your opposite bicep. The blade of your wrist or forearm must be positioned high under opponent's chin, not on their throat. Your non-choking arm reinforces the grip while your elbows stay tight to prevent opponent from creating defensive space.
 
-### Butterfly guard attack
+**Q4**: How do you prevent the Von Flue counter when holding bottom Hindulotine?
+**A**: Keep your hips angled rather than flat on your back, which prevents opponent from driving shoulder pressure into your neck. Maintain closed guard or active butterfly hooks to control their hip movement. If they begin positioning for the Von Flue, immediately adjust your hip angle away from their pressure or transition to a sweep.
 
-`Butterfly Guard → Guillotine Setup → Hindulotine Bottom → Guillotine Choke → Won by Submission`
+**Q5**: What leg configuration provides the best control against an opponent trying to posture and circle out?
+**A**: Closed guard provides the strongest hip control against circling, but limits your angle adjustment ability. For more dynamic control, use butterfly hooks with your feet hooked inside their thighs, allowing you to follow their movement while restricting their posture. One hook high on the hip with the opposite foot posted can block circling while maintaining sweep threat.
 
-### Scramble to submission
+**Q6**: Your opponent turns their body away to relieve choking pressure - how do you capitalize on this movement?
+**A**: Their turn exposes their back. Release the guillotine grip and immediately establish a seat belt control, with your choking arm becoming the over-hook arm across their chest. Hook your legs for back control as they complete their turn. The turn that escapes the guillotine delivers them directly into your back take.
 
-`Scramble Position → Guillotine Grip → Hindulotine Bottom → Guillotine Choke → Won by Submission`
+**Q7**: How do you conserve energy during extended bottom Hindulotine control without losing submission pressure?
+**A**: Use your legs and core for control rather than squeezing with arms. Lock your grip and maintain constant but not maximum pressure - you only need to restrict blood flow, not crush. Let your body structure hold the position while making small adjustments. Save maximum squeezing effort for when you feel the finish is available.
+
+**Q8**: Your opponent partially breaks your grip and starts extracting their head - how do you recover?
+**A**: If they create significant space, abandon the guillotine attempt rather than chasing with diminishing grip. Transition immediately to closed guard control and reset. If they only partially escape, use your legs to pull them back down while re-establishing your grip higher on the neck. A partial grip is worse than controlled guard position.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 

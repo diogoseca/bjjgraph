@@ -43,7 +43,7 @@
       "relationship": "Common entry position for establishing back control when opponent assumes turtle defensive position"
     },
     {
-      "name": "Truck",
+      "name": "Twister Control",
       "relationship": "Related back attack position with different leg configuration leading to twister and calf slicer submissions"
     },
     {
@@ -51,6 +51,276 @@
       "relationship": "Arm trap variation used to isolate opponent's arm during back control for submission entries"
     }
   ],
+  "top": {
+    "name": "Back Control Top",
+    "description": "Master attacking from back control in BJJ. Learn hook control, harness grip, submission entries, and systematic breakdown. Dominant 4-point position finishing.",
+    "tags": [
+      "bjj position offensive dominant",
+      "back control top attacking strategy",
+      "brazilian jiu-jitsu back attack submissions"
+    ],
+    "overview": "Back control top represents the most dominant offensive position in Brazilian Jiu-Jitsu, where you control your opponent from behind with chest-to-back connection, leg hooks or body triangle, and upper body control through harness grip or alternative configurations. This position scores 4 points in IBJJF competition and provides the highest percentage submission opportunities in grappling, combining maximum control with maximum attacking potential while minimizing your defensive risks. Your opponent cannot see your attacks, has limited mobility, and faces immediate submission threats including rear naked choke, arm attacks, and various choke variations.\n\nFrom back control top, your primary objectives are maintaining dominant position through systematic control of opponent's hips and upper body, breaking down defensive structures through hand fighting and grip adjustments, and executing high-percentage submissions when positional dominance is complete. The position allows multiple submission entries including rear naked choke, armbar variations, bow and arrow choke, and crucifix transitions. Your ability to maintain the position under resistance while systematically attacking submissions represents advanced technical skill and positional understanding.\n\nSuccessful back control requires understanding the hierarchy of control points: leg control through hooks or body triangle provides the foundation preventing escape, harness grip dominates upper body limiting arm movement, and chest-to-back connection distributes weight creating the cooking effect that drains opponent's energy. The position-before-submission principle applies critically here - rushing submission attempts before securing complete positional dominance often results in losing the position entirely. Systematic control maintenance combined with patient submission hunting creates the highest success rates from this dominant position.",
+    "state_properties": {
+      "point_value": 4,
+      "position_type": "Offensive/Controlling",
+      "risk_level": "Low",
+      "energy_cost": "Medium",
+      "time_sustainability": "Long"
+    },
+    "state_invariants": [
+      "Your chest pressed tightly against opponent's back with constant forward pressure ensuring they cannot create distance or turn to face you",
+      "Your legs wrapped around opponent's waist with feet hooked inside their thighs (hooks in) or locked in body triangle configuration, controlling hip movement and preventing rotation",
+      "Your arms controlling upper body through harness grip (seatbelt) with one arm over shoulder and other under armpit, hands clasped together, or alternative grips like double underhooks or gift wrap",
+      "Opponent's back facing you with their shoulders and spine exposed, unable to see your attacks or effectively defend against choke or armbar attempts"
+    ],
+    "prerequisites": [
+      "Successful transition from mount, side control, turtle, guard, or standing position establishing back connection",
+      "Control of opponent's upper body preventing them from turning to face you during entry sequence",
+      "Proper insertion of at least one hook or establishment of body triangle for hip control",
+      "Seatbelt, harness, or double underhook control established before considering position fully secured",
+      "Opponent's defensive frames broken down or bypassed allowing chest-to-back connection"
+    ],
+    "key_principles": [
+      "Maintain constant chest-to-back connection with forward pressure preventing opponent from creating space or turning toward you",
+      "Control opponent's hip movement through deep hooks with feet inside thighs or body triangle preventing rotational escapes",
+      "Establish and maintain harness control (seatbelt) of upper body to limit arm movement and create submission entry angles",
+      "Prevent opponent's attempts to turn and face you by adjusting hook placement, weight distribution, and grip configuration",
+      "Break down defensive hand fighting systematically by controlling opponent's arms before transitioning to submission attacks",
+      "Create attacking angles for submissions using hip movement, grip adjustments, and transitions between control variations",
+      "Follow position-before-submission principle by securing complete positional dominance before committing to submission attempts"
+    ],
+    "transitions": [
+      {
+        "transition": "Rear Naked Choke",
+        "attempt_probability": 25
+      },
+      {
+        "transition": "Armbar from Back with Legs",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Bow and Arrow Choke",
+        "attempt_probability": 15
+      },
+      {
+        "transition": "Back Control to Crucifix",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Armbar from Back",
+        "attempt_probability": 7
+      },
+      {
+        "transition": "Body Triangle Lock",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Choke from Crucifix",
+        "attempt_probability": 5
+      },
+      {
+        "transition": "Maintain Back Control",
+        "attempt_probability": 20
+      }
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent defends neck with both hands and maintains chin tucked with good hand fighting",
+        "actions": [
+          {
+            "technique": "Transition to crucifix to trap arms",
+            "target": "Crucifix",
+            "probability": 60
+          },
+          {
+            "technique": "Attack armbar from back",
+            "target": "Armbar Control",
+            "probability": 50
+          }
+        ]
+      },
+      {
+        "condition": "If opponent attempts to remove hooks by attacking your feet with their hands",
+        "actions": [
+          {
+            "technique": "Switch to body triangle",
+            "target": "Body Triangle",
+            "probability": 70
+          },
+          {
+            "technique": "Maintain back control with adjusted hooks",
+            "target": "Back Control",
+            "probability": 65
+          }
+        ]
+      },
+      {
+        "condition": "If opponent turns into you creating positional change opportunity",
+        "actions": [
+          {
+            "technique": "Follow turn to gift wrap position",
+            "target": "Gift Wrap",
+            "probability": 75
+          },
+          {
+            "technique": "Maintain back control and attack choke during turn",
+            "target": "game-over",
+            "probability": 60
+          }
+        ]
+      },
+      {
+        "condition": "If opponent drives forward and tucks chin to mat defensively",
+        "actions": [
+          {
+            "technique": "Bow and arrow choke",
+            "target": "game-over",
+            "probability": 55
+          },
+          {
+            "technique": "Transition to truck position",
+            "target": "Twister Control",
+            "probability": 50
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Losing chest-to-back connection by leaning back or sitting up too high above opponent",
+        "consequence": "Creates space allowing opponent to turn into you, escape hooks easily, or establish defensive frames that facilitate escape",
+        "correction": "Maintain constant forward pressure with chest glued to opponent's back, keeping weight low and hips close to their hips throughout control"
+      },
+      {
+        "error": "Placing hooks too high near opponent's hips instead of deep inside their thighs",
+        "consequence": "Allows opponent to easily clear hooks by turning their knees inward, pushing your feet away with their hands, or executing basic escapes",
+        "correction": "Insert hooks deep with feet crossing inside opponent's thighs near groin area, toes pointing outward for maximum control and hook retention"
+      },
+      {
+        "error": "Breaking harness grip prematurely to attack neck before establishing dominant positional control",
+        "consequence": "Opponent can use free arms to defend neck effectively, grab your attacking arm for control, or begin escape sequences unopposed",
+        "correction": "Maintain harness grip until ready to attack, use gift wrap or crucifix to trap arms first before transitioning to choke attempts"
+      },
+      {
+        "error": "Allowing opponent to get their shoulders to mat and create defensive ball position",
+        "consequence": "Reduces submission angles significantly, makes neck attack much harder, and gives opponent stronger defensive posture for escape attempts",
+        "correction": "Keep opponent's shoulders elevated off mat using your chest pressure and hook leverage, preventing them from turtling or flattening defensively"
+      },
+      {
+        "error": "Crossing feet in front of opponent's body instead of maintaining proper hooks or body triangle",
+        "consequence": "Creates vulnerability to ankle lock or straight footlock, and significantly reduces hip control allowing easier escape opportunities",
+        "correction": "Never cross feet in front of opponent's body; maintain proper hooks with feet inside thighs or lock body triangle if crossing legs"
+      },
+      {
+        "error": "Chasing submission too aggressively without maintaining positional control first",
+        "consequence": "Loses back control entirely when submission attempt fails, allowing opponent to escape completely or reverse position",
+        "correction": "Follow position-before-submission principle rigorously: secure dominant control with hooks and harness before attacking for finish"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Back Control Maintenance Against Progressive Resistance",
+        "description": "Start with both hooks in and harness grip established. Partner progressively increases escape attempts (10%, 25%, 50%, 75% resistance) while you maintain position for 2-minute rounds. Focus on maintaining chest-to-back connection, adjusting hooks, and preventing rotation. Partner alternates escape strategies each round.",
+        "duration": "10 minutes (5 rounds x 2 minutes)"
+      },
+      {
+        "name": "Hook Insertion and Control Flow Drill",
+        "description": "Start from turtle position. Practice inserting hooks and establishing back control while partner provides moderate resistance. Alternate between standard hooks and body triangle transitions. Focus on maintaining control throughout transition. Reset every 30 seconds for repetition practice.",
+        "duration": "6 minutes (alternating partners every 3 minutes)"
+      },
+      {
+        "name": "Hand Fighting and Submission Entry Sequences",
+        "description": "Start with back control established. Work breaking down partner's defensive grips and transitioning between harness, gift wrap, and crucifix positions. Practice submission entries (RNC, armbar, bow and arrow) with controlled resistance. Partner provides realistic hand fighting defense.",
+        "duration": "12 minutes (4 rounds x 3 minutes)"
+      },
+      {
+        "name": "Back Control Escape and Re-take Drill",
+        "description": "Partner works specific escape sequences while you practice countering escapes and maintaining or improving position. Focus on transitioning to crucifix, gift wrap, or truck when opponent attempts escape. Reset when escape succeeds or your position improves. Develops adaptive control and counter-techniques.",
+        "duration": "10 minutes continuous flow (5 minutes per partner)"
+      }
+    ],
+    "optimal_submission_paths": [
+      {
+        "name": "Rear Naked Choke Primary Path",
+        "path": "Back Control → Hand Fighting → Harness Adjustment → Choking Arm Insert → Rear Naked Choke → game-over"
+      },
+      {
+        "name": "Crucifix Arm Trap Sequence",
+        "path": "Back Control → Gift Wrap → Crucifix Transition → Armbar from Crucifix → game-over"
+      },
+      {
+        "name": "Bow and Arrow Choke Path",
+        "path": "Back Control → Collar Grip Establishment → Body Angle Adjustment → Bow and Arrow Choke → game-over"
+      },
+      {
+        "name": "Body Triangle Control Path",
+        "path": "Back Control → Hook Adjustment → Body Triangle Lock → Submission Attack"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Seat Belt Control Back",
+        "relationship": "Specific grip configuration for upper body control from back position"
+      },
+      {
+        "name": "Body Triangle",
+        "relationship": "Position variation using body triangle instead of hooks for leg control"
+      },
+      {
+        "name": "Harness",
+        "relationship": "Upper body control mechanism fundamental to back control maintenance"
+      },
+      {
+        "name": "Gift Wrap",
+        "relationship": "Arm trap position used for submission entries from back control"
+      },
+      {
+        "name": "Crucifix",
+        "relationship": "Advanced variation where both opponent's arms are controlled"
+      },
+      {
+        "name": "Turtle",
+        "relationship": "Common entry position for establishing back control"
+      },
+      {
+        "name": "Mount",
+        "relationship": "Alternative dominant position and common transition from back control"
+      },
+      {
+        "name": "Rear Naked Choke",
+        "relationship": "Primary submission attack from back control with highest success rate"
+      },
+      {
+        "name": "Bow and Arrow Choke",
+        "relationship": "High-percentage gi choke from back control using collar and leg"
+      },
+      {
+        "name": "Armbar from Back",
+        "relationship": "Arm attack option when choke defense is strong"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "beginner": 60,
+        "intermediate": 75,
+        "advanced": 85,
+        "description": "Ability to maintain back control position against escape attempts"
+      },
+      "advancement_probability": {
+        "beginner": 40,
+        "intermediate": 55,
+        "advanced": 70,
+        "description": "Likelihood of improving to better control variation or submission position"
+      },
+      "submission_probability": {
+        "beginner": 35,
+        "intermediate": 50,
+        "advanced": 65,
+        "description": "Success rate of finishing submission from back control position"
+      },
+      "average_time": "45-90 seconds before submission attempt or position change"
+    }
+  },
   "bottom": {
     "name": "Back Control Bottom",
     "description": "Master escaping back control in BJJ. Learn defensive frames, hip escapes, survival tactics, and systematic escape sequences with hand fighting techniques.",
@@ -89,114 +359,34 @@
       "Progressive escape sequences targeting specific control points systematically rather than explosive random movements that waste energy",
       "Accept position improvement as victory even when full escape not achieved within single sequence"
     ],
-    "offensive_transitions": [
+    "transitions": [
       {
-        "technique": "Back Escape Series",
-        "target_position": "Half Guard",
-        "success_rates": {
-          "beginner": 20,
-          "intermediate": 35,
-          "advanced": 50
-        }
+        "transition": "Back Escape Series",
+        "attempt_probability": 20
       },
       {
-        "technique": "Hip Escape",
-        "target_position": "Turtle",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 40,
-          "advanced": 55
-        }
+        "transition": "Hip Escape to Turtle",
+        "attempt_probability": 22
       },
       {
-        "technique": "Rolling Escape",
-        "target_position": "Closed Guard",
-        "success_rates": {
-          "beginner": 15,
-          "intermediate": 30,
-          "advanced": 45
-        }
+        "transition": "Rolling Escape to Guard",
+        "attempt_probability": 10
       },
       {
-        "technique": "Granby Roll",
-        "target_position": "Turtle",
-        "success_rates": {
-          "beginner": 10,
-          "intermediate": 25,
-          "advanced": 40
-        }
+        "transition": "Granby Roll Escape",
+        "attempt_probability": 8
       },
       {
-        "technique": "Hand Fighting from Back",
-        "target_position": "Defensive Position",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 50,
-          "advanced": 70
-        }
+        "transition": "Turn and Face Escape",
+        "attempt_probability": 15
       },
       {
-        "technique": "Hook Removal Sequence",
-        "target_position": "Turtle",
-        "success_rates": {
-          "beginner": 20,
-          "intermediate": 35,
-          "advanced": 50
-        }
-      }
-    ],
-    "defensive_responses": [
-      {
-        "technique": "Rear Naked Choke",
-        "target_position": "Lost by Submission",
-        "success_rate": 65
+        "transition": "Hook Removal to Side Position",
+        "attempt_probability": 10
       },
       {
-        "technique": "Back Control to Crucifix",
-        "target_position": "Crucifix",
-        "success_rate": 55
-      },
-      {
-        "technique": "Bow and Arrow Choke",
-        "target_position": "Lost by Submission",
-        "success_rate": 50
-      },
-      {
-        "technique": "Armbar from Back with Legs",
-        "target_position": "Armbar Control",
-        "success_rate": 45
-      },
-      {
-        "technique": "Body Triangle",
-        "target_position": "Body Triangle",
-        "success_rate": 60
-      },
-      {
-        "technique": "Choke from Crucifix",
-        "target_position": "Lost by Submission",
-        "success_rate": 55
-      }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Counter to Mount Transition",
-        "target_position": "Half Guard",
-        "trigger": "Opponent attempts to transition to mount and creates space during movement"
-      },
-      {
-        "technique": "Rolling Counter to Guard",
-        "target_position": "Closed Guard",
-        "trigger": "Opponent's weight shifts forward excessively during choke attempt"
-      },
-      {
-        "technique": "Hook Removal to Turtle",
-        "target_position": "Turtle",
-        "trigger": "Opponent's hooks become shallow or feet cross in front of body"
-      },
-      {
-        "technique": "Escape During Submission Attempt",
-        "target_position": "Turtle",
-        "trigger": "Opponent breaks harness grip prematurely to attack submission without securing position"
+        "transition": "Survive and Defend",
+        "attempt_probability": 15
       }
     ],
     "decision_tree": [
@@ -205,12 +395,12 @@
         "actions": [
           {
             "technique": "Immediate chin tuck and two-on-one hand fighting",
-            "target": "Defensive Position",
+            "target": "Back Control",
             "probability": 70
           },
           {
             "technique": "Address choking arm with both hands",
-            "target": "Defensive Position",
+            "target": "Back Control",
             "probability": 65
           }
         ]
@@ -235,12 +425,12 @@
         "actions": [
           {
             "technique": "Defend neck while attempting body triangle escape",
-            "target": "Defensive Position",
+            "target": "Back Control",
             "probability": 35
           },
           {
             "technique": "Accept defensive holding while managing energy",
-            "target": "Defensive Position",
+            "target": "Back Control",
             "probability": 50
           }
         ]
@@ -317,20 +507,16 @@
     ],
     "optimal_submission_paths": [
       {
-        "name": "Primary Escape to Guard",
-        "path": "Back Control Bottom → Hand Fighting from Back → Hip Escape → Hook Removal Sequence → Half Guard → Closed Guard"
+        "name": "Systematic Escape to Half Guard",
+        "path": "Back Control Bottom → Neck Defense → Hand Fighting → Hook Removal → Hip Escape → Half Guard"
       },
       {
-        "name": "Turtle Escape Sequence",
-        "path": "Back Control Bottom → Chin Protection → Hip Escape → Hook Removal Sequence → Turtle → Turtle to Guard"
+        "name": "Rolling Escape to Guard",
+        "path": "Back Control Bottom → Forward Weight Shift Recognition → Rolling Counter → Closed Guard Recovery"
       },
       {
-        "name": "Advanced Rolling Escape",
-        "path": "Back Control Bottom → Chin Protection → Creating Space → Granby Roll → Closed Guard"
-      },
-      {
-        "name": "Counter During Transition",
-        "path": "Back Control Bottom → Submission Defense → Transition to Mount → Half Guard"
+        "name": "Turtle Escape Path",
+        "path": "Back Control Bottom → Hook Removal → Hip Escape → Turtle → Guard Recovery"
       }
     ],
     "related_content": [
@@ -339,8 +525,8 @@
         "relationship": "Comprehensive escape system for back control bottom position"
       },
       {
-        "name": "Hand Fighting from Back",
-        "relationship": "Specific defensive methodology for preventing choke attacks"
+        "name": "Hip Escape",
+        "relationship": "Fundamental movement for creating escape angles"
       },
       {
         "name": "Turtle",
@@ -355,20 +541,12 @@
         "relationship": "Primary submission threat requiring constant defensive attention"
       },
       {
-        "name": "Chin Protection",
-        "relationship": "Fundamental defensive principle for back control survival"
+        "name": "Closed Guard",
+        "relationship": "Neutral guard position achievable through complete escape"
       },
       {
-        "name": "RNC Defense",
-        "relationship": "Specific defensive techniques against rear naked choke attacks"
-      },
-      {
-        "name": "Escape Hierarchy",
-        "relationship": "Systematic framework for prioritizing defensive actions"
-      },
-      {
-        "name": "Back Defense Protocol",
-        "relationship": "Comprehensive defensive system for back control situations"
+        "name": "Granby Roll",
+        "relationship": "Alternative escape movement for creating space and angle"
       }
     ],
     "position_metrics": {
@@ -391,369 +569,6 @@
         "description": "Risk of being submitted from back control bottom position"
       },
       "average_time": "30-60 seconds before submission or escape attempt"
-    }
-  },
-  "top": {
-    "name": "Back Control Top",
-    "description": "Master attacking from back control in BJJ. Learn hook control, harness grip, submission entries, and systematic breakdown. Dominant 4-point position finishing.",
-    "tags": [
-      "bjj position offensive dominant",
-      "back control top attacking strategy",
-      "brazilian jiu-jitsu back attack submissions"
-    ],
-    "overview": "Back control top represents the most dominant offensive position in Brazilian Jiu-Jitsu, where you control your opponent from behind with chest-to-back connection, leg hooks or body triangle, and upper body control through harness grip or alternative configurations. This position scores 4 points in IBJJF competition and provides the highest percentage submission opportunities in grappling, combining maximum control with maximum attacking potential while minimizing your defensive risks. Your opponent cannot see your attacks, has limited mobility, and faces immediate submission threats including rear naked choke, arm attacks, and various choke variations.\n\nFrom back control top, your primary objectives are maintaining dominant position through systematic control of opponent's hips and upper body, breaking down defensive structures through hand fighting and grip adjustments, and executing high-percentage submissions when positional dominance is complete. The position allows multiple submission entries including rear naked choke, armbar variations, bow and arrow choke, and crucifix transitions. Your ability to maintain the position under resistance while systematically attacking submissions represents advanced technical skill and positional understanding.\n\nSuccessful back control requires understanding the hierarchy of control points: leg control through hooks or body triangle provides the foundation preventing escape, harness grip dominates upper body limiting arm movement, and chest-to-back connection distributes weight creating the cooking effect that drains opponent's energy. The position-before-submission principle applies critically here - rushing submission attempts before securing complete positional dominance often results in losing the position entirely. Systematic control maintenance combined with patient submission hunting creates the highest success rates from this dominant position.",
-    "state_properties": {
-      "point_value": 4,
-      "position_type": "Offensive/Controlling",
-      "risk_level": "Low",
-      "energy_cost": "Medium",
-      "time_sustainability": "Long"
-    },
-    "state_invariants": [
-      "Your chest pressed tightly against opponent's back with constant forward pressure ensuring they cannot create distance or turn to face you",
-      "Your legs wrapped around opponent's waist with feet hooked inside their thighs (hooks in) or locked in body triangle configuration, controlling hip movement and preventing rotation",
-      "Your arms controlling upper body through harness grip (seatbelt) with one arm over shoulder and other under armpit, hands clasped together, or alternative grips like double underhooks or gift wrap",
-      "Opponent's back facing you with their shoulders and spine exposed, unable to see your attacks or effectively defend against choke or armbar attempts"
-    ],
-    "prerequisites": [
-      "Successful transition from mount, side control, turtle, guard, or standing position establishing back connection",
-      "Control of opponent's upper body preventing them from turning to face you during entry sequence",
-      "Proper insertion of at least one hook or establishment of body triangle for hip control",
-      "Seatbelt, harness, or double underhook control established before considering position fully secured",
-      "Opponent's defensive frames broken down or bypassed allowing chest-to-back connection"
-    ],
-    "key_principles": [
-      "Maintain constant chest-to-back connection with forward pressure preventing opponent from creating space or turning toward you",
-      "Control opponent's hip movement through deep hooks with feet inside thighs or body triangle preventing rotational escapes",
-      "Establish and maintain harness control (seatbelt) of upper body to limit arm movement and create submission entry angles",
-      "Prevent opponent's attempts to turn and face you by adjusting hook placement, weight distribution, and grip configuration",
-      "Break down defensive hand fighting systematically by controlling opponent's arms before transitioning to submission attacks",
-      "Create attacking angles for submissions using hip movement, grip adjustments, and transitions between control variations",
-      "Follow position-before-submission principle by securing complete positional dominance before committing to submission attempts"
-    ],
-    "offensive_transitions": [
-      {
-        "technique": "Rear Naked Choke",
-        "target_position": "Won by Submission",
-        "success_rates": {
-          "beginner": 40,
-          "intermediate": 60,
-          "advanced": 75
-        }
-      },
-      {
-        "technique": "Armbar from Back with Legs",
-        "target_position": "Armbar Control",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 50,
-          "advanced": 65
-        }
-      },
-      {
-        "technique": "Back Control to Crucifix",
-        "target_position": "Crucifix",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 55,
-          "advanced": 70
-        }
-      },
-      {
-        "technique": "Bow and Arrow Choke",
-        "target_position": "Won by Submission",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 45,
-          "advanced": 60
-        }
-      },
-      {
-        "technique": "Transition to Mount",
-        "target_position": "Mount",
-        "success_rates": {
-          "beginner": 45,
-          "intermediate": 65,
-          "advanced": 80
-        }
-      },
-      {
-        "technique": "Transition to Truck",
-        "target_position": "Truck",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 50,
-          "advanced": 65
-        }
-      },
-      {
-        "technique": "Choke from Crucifix",
-        "target_position": "Won by Submission",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 55,
-          "advanced": 70
-        }
-      },
-      {
-        "technique": "Armbar from Back",
-        "target_position": "Won by Submission",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 45,
-          "advanced": 60
-        }
-      }
-    ],
-    "defensive_responses": [
-      {
-        "technique": "Hand Fighting from Back",
-        "target_position": "Defensive Position",
-        "success_rate": 20
-      },
-      {
-        "technique": "Hip Escape",
-        "target_position": "Turtle",
-        "success_rate": 25
-      },
-      {
-        "technique": "Back Escape Series",
-        "target_position": "Half Guard",
-        "success_rate": 30
-      },
-      {
-        "technique": "Rolling Escape",
-        "target_position": "Closed Guard",
-        "success_rate": 20
-      },
-      {
-        "technique": "Granby Roll",
-        "target_position": "Turtle",
-        "success_rate": 15
-      }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Back Control to Crucifix",
-        "target_position": "Crucifix",
-        "trigger": "Opponent attempts to remove top arm from harness grip exposing their arm"
-      },
-      {
-        "technique": "Transition to Mount",
-        "target_position": "Mount",
-        "trigger": "Opponent turns into you while escaping hooks creating mount entry opportunity"
-      },
-      {
-        "technique": "Transition to Truck",
-        "target_position": "Truck",
-        "trigger": "Opponent attempts to roll forward to escape hooks allowing truck entry"
-      },
-      {
-        "technique": "Armbar from Back with Legs",
-        "target_position": "Armbar Control",
-        "trigger": "Opponent extends arm to push off mat during escape attempt"
-      }
-    ],
-    "decision_tree": [
-      {
-        "condition": "If opponent defends neck with both hands and maintains chin tucked with good hand fighting",
-        "actions": [
-          {
-            "technique": "Transition to crucifix to trap arms",
-            "target": "Crucifix",
-            "probability": 60
-          },
-          {
-            "technique": "Attack armbar from back",
-            "target": "Armbar Control",
-            "probability": 50
-          }
-        ]
-      },
-      {
-        "condition": "If opponent attempts to remove hooks by attacking your feet with their hands",
-        "actions": [
-          {
-            "technique": "Switch to body triangle",
-            "target": "Body Triangle",
-            "probability": 70
-          },
-          {
-            "technique": "Transition to mount",
-            "target": "Mount",
-            "probability": 65
-          }
-        ]
-      },
-      {
-        "condition": "If opponent turns into you creating mount entry angle",
-        "actions": [
-          {
-            "technique": "Follow turn to mount position",
-            "target": "Mount",
-            "probability": 75
-          },
-          {
-            "technique": "Maintain back control and attack choke during turn",
-            "target": "Won by Submission",
-            "probability": 60
-          }
-        ]
-      },
-      {
-        "condition": "If opponent drives forward and tucks chin to mat defensively",
-        "actions": [
-          {
-            "technique": "Bow and arrow choke",
-            "target": "Won by Submission",
-            "probability": 55
-          },
-          {
-            "technique": "Transition to truck position",
-            "target": "Truck",
-            "probability": 50
-          }
-        ]
-      }
-    ],
-    "common_errors": [
-      {
-        "error": "Losing chest-to-back connection by leaning back or sitting up too high above opponent",
-        "consequence": "Creates space allowing opponent to turn into you, escape hooks easily, or establish defensive frames that facilitate escape",
-        "correction": "Maintain constant forward pressure with chest glued to opponent's back, keeping weight low and hips close to their hips throughout control"
-      },
-      {
-        "error": "Placing hooks too high near opponent's hips instead of deep inside their thighs",
-        "consequence": "Allows opponent to easily clear hooks by turning their knees inward, pushing your feet away with their hands, or executing basic escapes",
-        "correction": "Insert hooks deep with feet crossing inside opponent's thighs near groin area, toes pointing outward for maximum control and hook retention"
-      },
-      {
-        "error": "Breaking harness grip prematurely to attack neck before establishing dominant positional control",
-        "consequence": "Opponent can use free arms to defend neck effectively, grab your attacking arm for control, or begin escape sequences unopposed",
-        "correction": "Maintain harness grip until ready to attack, use gift wrap or crucifix to trap arms first before transitioning to choke attempts"
-      },
-      {
-        "error": "Allowing opponent to get their shoulders to mat and create defensive ball position",
-        "consequence": "Reduces submission angles significantly, makes neck attack much harder, and gives opponent stronger defensive posture for escape attempts",
-        "correction": "Keep opponent's shoulders elevated off mat using your chest pressure and hook leverage, preventing them from turtling or flattening defensively"
-      },
-      {
-        "error": "Crossing feet in front of opponent's body instead of maintaining proper hooks or body triangle",
-        "consequence": "Creates vulnerability to ankle lock or straight footlock, and significantly reduces hip control allowing easier escape opportunities",
-        "correction": "Never cross feet in front of opponent's body; maintain proper hooks with feet inside thighs or lock body triangle if crossing legs"
-      },
-      {
-        "error": "Chasing submission too aggressively without maintaining positional control first",
-        "consequence": "Loses back control entirely when submission attempt fails, allowing opponent to escape completely or reverse position",
-        "correction": "Follow position-before-submission principle rigorously: secure dominant control with hooks and harness before attacking for finish"
-      }
-    ],
-    "training_drills": [
-      {
-        "name": "Back Control Maintenance Against Progressive Resistance",
-        "description": "Start with both hooks in and harness grip established. Partner progressively increases escape attempts (10%, 25%, 50%, 75% resistance) while you maintain position for 2-minute rounds. Focus on maintaining chest-to-back connection, adjusting hooks, and preventing rotation. Partner alternates escape strategies each round.",
-        "duration": "10 minutes (5 rounds x 2 minutes)"
-      },
-      {
-        "name": "Hook Insertion and Control Flow Drill",
-        "description": "Start from turtle position. Practice inserting hooks and establishing back control while partner provides moderate resistance. Alternate between standard hooks and body triangle transitions. Focus on maintaining control throughout transition. Reset every 30 seconds for repetition practice.",
-        "duration": "6 minutes (alternating partners every 3 minutes)"
-      },
-      {
-        "name": "Hand Fighting and Submission Entry Sequences",
-        "description": "Start with back control established. Work breaking down partner's defensive grips and transitioning between harness, gift wrap, and crucifix positions. Practice submission entries (RNC, armbar, bow and arrow) with controlled resistance. Partner provides realistic hand fighting defense.",
-        "duration": "12 minutes (4 rounds x 3 minutes)"
-      },
-      {
-        "name": "Back Control Escape and Re-take Drill",
-        "description": "Partner works specific escape sequences while you practice countering escapes and maintaining or improving position. Focus on transitioning to mount, crucifix, or truck when opponent attempts escape. Reset when escape succeeds or your position improves. Develops adaptive control and counter-techniques.",
-        "duration": "10 minutes continuous flow (5 minutes per partner)"
-      }
-    ],
-    "optimal_submission_paths": [
-      {
-        "name": "Highest Percentage RNC Path",
-        "path": "Back Control Top → Harness → Grip Break → Rear Naked Choke → Won by Submission"
-      },
-      {
-        "name": "Armbar Chain",
-        "path": "Back Control Top → Gift Wrap → Armbar from Back with Legs → Armbar Control → Won by Submission"
-      },
-      {
-        "name": "Crucifix Control Path",
-        "path": "Back Control Top → Hand Fighting → Back Control to Crucifix → Crucifix → Choke from Crucifix → Won by Submission"
-      },
-      {
-        "name": "Bow and Arrow Finish",
-        "path": "Back Control Top → Collar Control → Bow and Arrow Choke → Won by Submission"
-      },
-      {
-        "name": "Position Advancement Sequence",
-        "path": "Back Control Top → Transition to Mount → Mount → S Mount → Armbar from Mount → Won by Submission"
-      }
-    ],
-    "related_content": [
-      {
-        "name": "Seat Belt Control Back",
-        "relationship": "Specific grip configuration for upper body control from back position"
-      },
-      {
-        "name": "Body Triangle",
-        "relationship": "Position variation using body triangle instead of hooks for leg control"
-      },
-      {
-        "name": "Harness",
-        "relationship": "Upper body control mechanism fundamental to back control maintenance"
-      },
-      {
-        "name": "Gift Wrap",
-        "relationship": "Arm trap position used for submission entries from back control"
-      },
-      {
-        "name": "Crucifix",
-        "relationship": "Advanced variation where both opponent's arms are controlled"
-      },
-      {
-        "name": "Turtle",
-        "relationship": "Common entry position for establishing back control"
-      },
-      {
-        "name": "Mount",
-        "relationship": "Alternative dominant position and common transition from back control"
-      },
-      {
-        "name": "Rear Naked Choke",
-        "relationship": "Primary submission attack from back control with highest success rate"
-      },
-      {
-        "name": "Back Attack System",
-        "relationship": "Comprehensive systematic approach to back control and submissions"
-      },
-      {
-        "name": "systematic approach Straight Jacket System",
-        "relationship": "Advanced back control methodology focusing on arm control before submission"
-      }
-    ],
-    "position_metrics": {
-      "retention_rate": {
-        "beginner": 60,
-        "intermediate": 75,
-        "advanced": 85,
-        "description": "Ability to maintain back control position against escape attempts"
-      },
-      "advancement_probability": {
-        "beginner": 40,
-        "intermediate": 55,
-        "advanced": 70,
-        "description": "Likelihood of improving to better control variation or submission position"
-      },
-      "submission_probability": {
-        "beginner": 35,
-        "intermediate": 50,
-        "advanced": 65,
-        "description": "Success rate of finishing submission from back control position"
-      },
-      "average_time": "45-90 seconds before submission attempt or position change"
     }
   }
 }

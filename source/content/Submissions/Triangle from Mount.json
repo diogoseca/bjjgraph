@@ -218,6 +218,11 @@
   ],
   "knowledge_assessment": [
     {
+      "question": "What anatomical structures does the triangle from mount attack to cause the tap?",
+      "answer": "The triangle from mount attacks both carotid arteries simultaneously using a combination of leg pressure and the opponent's own trapped arm. Your choking leg compresses one carotid artery against the opponent's neck, while their own trapped shoulder is forced across their neck to compress the opposite carotid artery. This bilateral compression of blood flow to the brain causes rapid loss of consciousness, typically within 8-10 seconds of proper application. The jugular veins are also compressed, preventing blood return from the head.",
+      "safety_critical": false
+    },
+    {
       "question": "What is the primary indicator that triangle from mount opportunity exists?",
       "answer": "The primary indicator is when the opponent creates a defensive frame or underhook that positions one of their arms across their own centerline. This arm positioning is essential because the triangle works by using their own arm to compress one carotid artery while your legs compress the other. Common scenarios include opponent framing against your chest, establishing an underhook to create space, or pushing your hip during escape attempts.",
       "safety_critical": false
@@ -250,6 +255,26 @@
     {
       "question": "How does the triangle from mount differ strategically from triangle from guard?",
       "answer": "The mounted triangle maintains superior position throughout the attempt, meaning even if the submission fails, you retain top control and can transition to other attacks. From guard, a failed triangle often results in opponent passing to better position. Additionally, the mounted triangle offers easier transitions to backup submissions like armbars and arm triangles because you control the top position. However, the setup is more complex from mount because you must manage the transition from mount to triangle while preventing escapes, whereas from guard you're already in the leg-based control structure.",
+      "safety_critical": false
+    },
+    {
+      "question": "What indicates you have reached the point of no escape when finishing the triangle from mount?",
+      "answer": "The point of no escape occurs when three conditions are met simultaneously: (1) Your triangle lock is fully closed with ankle secured behind knee and no gaps in the leg configuration, (2) Your hips are angled approximately 45 degrees to the side creating optimal compression geometry, and (3) The opponent's posture is completely broken with their head pulled down tight against your hips. At this point, even if they grab their own hands or attempt to posture, the arterial compression is already occurring. In training, this is the moment to apply progressive pressure rather than waiting - the control is established.",
+      "safety_critical": false
+    },
+    {
+      "question": "Your opponent is stacking you and driving forward while you have the triangle locked - what adjustments prevent escape?",
+      "answer": "When being stacked, first extend your hips away from opponent to create distance and reduce their driving leverage. Simultaneously, angle your body further to the side (beyond 45 degrees if needed) to prevent them from driving straight through. Control their far hip with your bottom hand to limit their forward drive. If the stack becomes severe, you have two options: release and return to mount position (safer), or transition to an omoplata by releasing the triangle and rotating under them. Never hold a compromised triangle while stacked - you risk neck injury and position loss.",
+      "safety_critical": false
+    },
+    {
+      "question": "What grip adjustments should you make during the finish to maximize choking pressure?",
+      "answer": "During the finish, grip behind the opponent's head with both hands clasped together (Gable grip or S-grip) and pull their head forcefully toward your hips while extending your hips away. This creates maximum distance between their head and shoulders, tightening the triangle. Alternatively, underhook your own shin with one hand while controlling their head with the other, creating a closed system. Avoid gripping their arm during the finish - the arm is already trapped and gripping it reduces the pressure you can apply through your legs and head control.",
+      "safety_critical": false
+    },
+    {
+      "question": "In competition, what finishing strategies maximize success rate when opponent is actively defending?",
+      "answer": "In competition, chain the triangle with armbar and omoplata threats to create decision paralysis. If they defend the choke by posturing, immediately transition to armbar on the free arm. If they try to hide the free arm, the choke opens up. Use the squeeze-release-squeeze rhythm to exhaust their defensive efforts - apply strong pressure for 2-3 seconds, briefly reduce pressure to bait their response, then reapply with angle adjustment. Control the near-side wrist to prevent them gripping their own hands. Consider deliberately loosening the triangle slightly to invite their escape attempt, then capitalize on their movement with a tighter relock at a better angle.",
       "safety_critical": false
     }
   ],
@@ -313,11 +338,8 @@
     "Americana from Mount",
     "Ezekiel from Mount",
     "Kimura from Mount",
-    "Triangle to Armbar",
-    "Triangle to Back",
     "Mounted Triangle",
     "Cross Collar Choke",
-    "Loop Choke from Mount",
     "Gogoplata"
   ],
   "related_content": [
@@ -326,7 +348,7 @@
       "relationship": "Position reached when triangle is locked from mount"
     },
     {
-      "name": "Mount Control",
+      "name": "Mount",
       "relationship": "Starting position that provides setup opportunity"
     },
     {
@@ -338,10 +360,6 @@
       "relationship": "Transitional position that shares similar leg-over-shoulder mechanics"
     },
     {
-      "name": "Triangle to Armbar",
-      "relationship": "Natural chain if opponent defends triangle by posturing"
-    },
-    {
       "name": "Arm Triangle",
       "relationship": "Alternative choke from mount using different mechanics"
     },
@@ -350,16 +368,16 @@
       "relationship": "Control position that sets up easier triangle entry"
     },
     {
-      "name": "Submission Chains",
-      "relationship": "Conceptual framework for linking mount submissions together"
-    },
-    {
       "name": "High Mount",
       "relationship": "Elevated position that facilitates easier leg swing for triangle"
     },
     {
-      "name": "Ryan Hall Triangle System",
-      "relationship": "Systematic approach to triangle variations including mounted version"
+      "name": "Omoplata Control",
+      "relationship": "Alternative submission available when triangle is stacked or defended"
+    },
+    {
+      "name": "Mounted Triangle",
+      "relationship": "Control position variant for mounted triangle attacks"
     }
   ]
 }

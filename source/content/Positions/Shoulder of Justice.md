@@ -91,26 +91,20 @@ This position is particularly effective in both gi and no-gi contexts, as it com
 - Escape priority: relieve pressure first, create space second, recover guard third
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Shrimp Escape]]** → [[Half Guard]]
-  - Success Rate: Beginner 18%, Intermediate 28%, Advanced 42%
+- **[[Shrimp Escape]]** (19% of attempts)
 
-- **[[Elbow Escape]]** → [[Half Guard]]
-  - Success Rate: Beginner 20%, Intermediate 32%, Advanced 48%
+- **[[Elbow Escape]]** (21% of attempts)
 
-- **[[Frame and Shrimp]]** → [[Closed Guard]]
-  - Success Rate: Beginner 15%, Intermediate 25%, Advanced 38%
+- **[[Frame and Shrimp]]** (17% of attempts)
 
-- **[[Bridge and Roll]]** → [[Side Control]]
-  - Success Rate: Beginner 8%, Intermediate 15%, Advanced 25%
+- **[[Bridge and Roll]]** (11% of attempts)
 
-- **[[Technical Standup]]** → [[Standing Position]]
-  - Success Rate: Beginner 12%, Intermediate 22%, Advanced 35%
+- **[[Technical Standup]]** (16% of attempts)
 
-- **[[Re-Guard]]** → [[Open Guard]]
-  - Success Rate: Beginner 14%, Intermediate 24%, Advanced 36%
+- **[[Hip Escape]]** (16% of attempts)
 
 
 ### Common Mistakes
@@ -172,35 +166,26 @@ This position is particularly effective in both gi and no-gi contexts, as it com
 - Adjust shoulder angle and pressure direction continuously based on opponent's head position and escape attempts
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Kimura from Side Control]]** → [[Kimura Control]]
-  - Success Rate: Beginner 52%, Intermediate 67%, Advanced 82%
+- **[[Kimura from Side Control]]** (12% of attempts)
 
-- **[[Americana from Side Control]]** → [[Americana Control]]
-  - Success Rate: Beginner 47%, Intermediate 62%, Advanced 77%
+- **[[Americana from Side Control]]** (11% of attempts)
 
-- **[[Transition to Mount]]** → [[Mount]]
-  - Success Rate: Beginner 58%, Intermediate 73%, Advanced 87%
+- **[[Side Control to Mount]]** (12% of attempts)
 
-- **[[Transition to North-South]]** → [[North-South]]
-  - Success Rate: Beginner 62%, Intermediate 77%, Advanced 90%
+- **[[Side Control to North-South]]** (12% of attempts)
 
-- **[[Side Control to Mount]]** → [[Knee on Belly]]
-  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 80%
+- **[[Side Control to Mount]]** (11% of attempts)
 
-- **[[Arm Triangle]]** → [[Armbar Control]]
-  - Success Rate: Beginner 38%, Intermediate 53%, Advanced 70%
+- **[[Arm Triangle]]** (10% of attempts)
 
-- **[[North-South Choke]]** → [[North-South]]
-  - Success Rate: Beginner 33%, Intermediate 48%, Advanced 65%
+- **[[North-South Choke]]** (9% of attempts)
 
-- **[[Position Change]]** → [[Scarf Hold Position]]
-  - Success Rate: Beginner 55%, Intermediate 70%, Advanced 84%
+- **[[Position Change]]** (12% of attempts)
 
-- **[[Transition to North-South]]** → [[Kesa Gatame]]
-  - Success Rate: Beginner 48%, Intermediate 63%, Advanced 78%
+- **[[Side Control to North-South]]** (11% of attempts)
 
 
 ### Common Mistakes
@@ -255,15 +240,11 @@ This position is particularly effective in both gi and no-gi contexts, as it com
 
 - **[[Mount]]** - Position advancement target when opponent shrimps or turns defensively
 
-- **[[Kimura Control]]** - Primary submission target when opponent frames with near arm
-
-- **[[Americana Control]]** - Secondary submission option when near arm is isolated
+- **[[Kimura Trap]]** - Primary submission control when opponent frames with near arm
 
 - **[[Knee on Belly]]** - Transition option when opponent creates space while shrimping
 
 - **[[Scarf Hold Position]]** - Alternative pressure position with similar control objectives
-
-- **[[100 Kilos]]** - Related heavy pressure position emphasizing opponent discomfort
 
 - **[[Half Guard]]** - Common escape target for bottom player attempting guard recovery
 

@@ -5,7 +5,8 @@
 ---
 title: "{{ data.name }} | BJJ Position Guide | BJJ Graph"
 description: "{{ data.description }}"
----
+{% if data.graph is defined and data.graph == false %}graph: false
+{% endif %}---
 
 {# PostHog A/B Testing Metadata #}
 <body data-content-type="positions">
@@ -18,11 +19,11 @@ description: "{{ data.description }}"
   "name": "How to Use {{ data.name.split('|')[0].strip() }}",
   "description": "Complete guide to {{ data.name.split('|')[0].strip().lower() }} in BJJ.",
   "step": [
-    {%- for transition in data.offensive_transitions[:8] %}
+    {%- for transition in data.transitions[:8] %}
     {
       "@type": "HowToStep",
-      "name": "Execute {{ transition.technique }}",
-      "text": "From this position, execute {{ transition.technique }} to transition to {{ transition.target_position }}. Success rate for advanced practitioners: {{ transition.success_rates.advanced }}%.",
+      "name": "Execute {{ transition.transition }}",
+      "text": "From this position, attempt {{ transition.transition }}. This technique is attempted in {{ transition.attempt_probability }}% of exchanges from this position.",
       "position": {{ loop.index }}
     }{{ "," if not loop.last else "" }}
     {%- endfor %}
@@ -100,7 +101,7 @@ description: "{{ data.description }}"
   🐛 BJJ Graph A/B Testing Debug Mode
 
   Content Type: positions
-  Section Count: 14
+  Section Count: 10
   Week Seed: {{ week_seed }}
   Visual Variant: {{ visual_elements }}
 
@@ -109,13 +110,10 @@ description: "{{ data.description }}"
   - state-invariants: {{ priorities.get('state-invariants', 'N/A') }}
   - prerequisites: {{ priorities.get('prerequisites', 'N/A') }}
   - key-principles: {{ priorities.get('key-principles', 'N/A') }}
-  - offensive-transitions: {{ priorities.get('offensive-transitions', 'N/A') }}
-  - defensive-responses: {{ priorities.get('defensive-responses', 'N/A') }}
-  - counter-transitions: {{ priorities.get('counter-transitions', 'N/A') }}
+  - transitions: {{ priorities.get('transitions', 'N/A') }}
   - decision-tree: {{ priorities.get('decision-tree', 'N/A') }}
   - common-mistakes: {{ priorities.get('common-mistakes', 'N/A') }}
   - training-drills: {{ priorities.get('training-drills', 'N/A') }}
-  - optimal-submission-paths: {{ priorities.get('optimal-submission-paths', 'N/A') }}
   - position-metrics: {{ priorities.get('position-metrics', 'N/A') }}
   - related-content: {{ priorities.get('related-content', 'N/A') }}
 
@@ -166,35 +164,9 @@ description: "{{ data.description }}"
 
 ## Available Techniques and Transitions
 
-{% for transition in data.offensive_transitions -%}
-### [[{{ transition.technique }}]] → [[{{ transition.target_position }}]]
+{% for transition in data.transitions -%}
+### [[{{ transition.transition }}]] ({{ transition.attempt_probability }}% of attempts)
 
-**Success Rates:**
-- Beginner: {{ transition.success_rates.beginner }}%
-- Intermediate: {{ transition.success_rates.intermediate }}%
-- Advanced: {{ transition.success_rates.advanced }}%
-
-{% endfor %}
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Defensive Counters
-
-{% for response in data.defensive_responses -%}
-- **[[{{ response.technique }}]]** → [[{{ response.target_position }}]]{% if response.success_rate %} (Success: {{ response.success_rate }}%){% endif %}
-{% endfor %}
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter Techniques
-
-{% for counter in data.counter_transitions -%}
-- **[[{{ counter.technique }}]]** → [[{{ counter.target_position }}]]
-  - {{ counter.trigger }}
 {% endfor %}
 
 </section>
@@ -239,19 +211,6 @@ description: "{{ data.description }}"
 {% if drill.duration -%}
 **Duration**: {{ drill.duration }}
 {% endif %}
-
-{% endfor %}
-
-</section>
-
-<section id="optimal-submission-paths" class="content-section">
-
-## Optimal Paths from This Position
-
-{% for path in data.optimal_submission_paths -%}
-### {{ path.name }}
-
-`{{ path.path }}`
 
 {% endfor %}
 

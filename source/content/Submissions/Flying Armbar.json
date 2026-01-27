@@ -237,6 +237,11 @@
       "safety_critical": true
     },
     {
+      "question": "What anatomical structure does the flying armbar attack, and what are the specific indicators that the breaking point is being reached?",
+      "answer": "The flying armbar attacks the elbow joint, specifically hyperextending the elbow by applying force against the natural bending direction. The breaking point indicators include: the opponent's arm becoming fully extended with no remaining slack, feeling increasing tension in the ligaments as you apply hip pressure, the opponent's body beginning to rise off the mat as they try to relieve pressure, and visible straightening of the arm beyond its natural range. In training, you must recognize these signs and apply pressure slowly enough that your partner can tap before injury occurs.",
+      "safety_critical": true
+    },
+    {
       "question": "Why is two-on-one grip control essential before initiating the jumping motion, and what can happen if this grip is insufficient?",
       "answer": "Two-on-one grip control (one hand on wrist, one on sleeve) is essential because once you leave the ground, you cannot re-establish control if the arm slips free. Insufficient grip allows the opponent to pull their arm back during your aerial rotation, resulting in a failed technique where you land without control, vulnerable to being passed or mounted. The grip must be tested by pulling before jumping - if the arm moves easily, the grip is inadequate for an aerial attack. Strong grip control is the foundation that makes the entire technique possible.",
       "safety_critical": false
@@ -252,6 +257,11 @@
       "safety_critical": true
     },
     {
+      "question": "Your opponent begins posturing up and stacking you forward after you've landed - what immediate adjustment prevents escape and maintains submission control?",
+      "answer": "When being stacked, immediately angle your body 45 degrees toward your outside shoulder rather than staying flat. This creates space for your hips and prevents compression. Simultaneously, pull their wrist strongly toward your opposite shoulder to maintain arm isolation and angle the elbow away from their centerline. If the stack is severe, consider releasing the submission and transitioning to triangle or omoplata rather than fighting from a compromised position where control is diminishing and injury risk to both parties increases.",
+      "safety_critical": false
+    },
+    {
       "question": "What should you do if your opponent sprawls backward or pulls their arm back as you attempt to initiate the flying armbar?",
       "answer": "If your opponent sprawls backward or pulls their arm back, you should immediately abandon the flying armbar attempt and return to guard position or pursue a different attack. Fighting against a sprawl or trying to jump on a retracted arm is extremely low percentage and creates dangerous positions where injury risk is high. The flying armbar requires specific conditions - extended arm and compromised base - and attempting it without these conditions present leads to failure. Recognizing when the technique is not available is as important as executing it properly when conditions are right.",
       "safety_critical": false
@@ -259,6 +269,26 @@
     {
       "question": "What is the proper breakfall technique for landing the flying armbar safely?",
       "answer": "Proper breakfall technique involves landing on your shoulder blades and upper back, distributing impact across a wide area rather than concentrating force on your spine or neck. Your chin should be tucked to protect your neck, and you should land with a slight rounding of your upper back. Never land flat on your back or with your neck extended, as this can cause serious spinal compression injuries. The landing should be controlled and relatively gentle, not a violent slam. In initial learning phases, practice the aerial rotation and landing separately using crash pads or extra mats. Your ability to breakfall correctly determines whether you can train this technique safely.",
+      "safety_critical": true
+    },
+    {
+      "question": "What hip and wrist mechanics create the actual breaking pressure in the flying armbar finish?",
+      "answer": "The breaking pressure is created through coordinated hip elevation and wrist control. Your hips drive upward like a bridge, creating a fulcrum point across the opponent's elbow joint using your hip bones or lower pelvis. Simultaneously, you pull their wrist down toward your chest, creating opposing forces that hyperextend the elbow. The arm must be positioned with the thumb pointing upward (internal rotation) so the elbow bends against your hip line. Control their wrist close to your sternum rather than letting it drift toward your shoulder, as this maintains optimal breaking angle and prevents them from rotating to relieve pressure.",
+      "safety_critical": false
+    },
+    {
+      "question": "When is the point of no escape reached in a properly executed flying armbar, and what control elements must be established?",
+      "answer": "The point of no escape is reached when: your hips are perpendicular to their body with their elbow centered on your pelvis, their thumb is pointing upward ensuring proper arm rotation, your top leg is firmly across their face preventing posture recovery, your bottom leg is tight under their armpit preventing them from turning into you, and your knees are pinched together eliminating any gap for arm extraction. Once all five elements are secured, the opponent cannot escape without you making an error. This is why the aerial entry must establish leg position before landing - achieving this configuration after landing against a defending opponent is nearly impossible.",
+      "safety_critical": false
+    },
+    {
+      "question": "What are the most common finishing errors that allow escape from an otherwise secured flying armbar position?",
+      "answer": "The most common finishing errors include: allowing their elbow to drift off-center from your hips which reduces breaking leverage, letting their thumb rotate outward which allows them to stack and relieve pressure, relaxing knee squeeze which creates space for arm extraction, positioning hips too high on their arm near the shoulder which reduces mechanical advantage, and rushing the finish before position is fully secured which telegraphs the submission and allows defensive reactions. Additionally, pulling their wrist toward your shoulder instead of your chest changes the breaking angle and makes escape easier through rotation.",
+      "safety_critical": false
+    },
+    {
+      "question": "In competition, how do you adjust your finishing grip and pressure application compared to training while still prioritizing opponent safety?",
+      "answer": "In competition, you apply pressure more quickly once position is secured, but you must still recognize tap signals immediately and release without hesitation. Use a tighter wrist grip with your forearms rather than just hands, and elevate hips more decisively. However, never crank or jerk the submission - even in competition, controlled progressive pressure is both more effective and safer. The key difference is the time between establishing control and applying pressure, not the nature of the pressure itself. A controlled 2-3 second finish in competition is still fundamentally different from the dangerous jerking motion that causes injuries.",
       "safety_critical": true
     }
   ],
@@ -320,20 +350,15 @@
   ],
   "related_submissions": [
     "Armbar from Guard",
-    "Triangle from Guard",
-    "Rolling Armbar",
-    "Armbar from Mount",
     "Triangle Choke",
-    "Omoplata from Guard",
+    "Armbar from Mount",
+    "Omoplata",
     "Flying Kneebar",
     "Armbar from Back",
     "Belly Down Armbar",
-    "Triangle from Closed Guard",
-    "Spinning Armbar",
-    "Straight Armbar",
     "Far Side Armbar",
-    "Reverse Armbar",
-    "Kimura from Guard"
+    "Kimura",
+    "Guillotine Choke"
   ],
   "related_content": [
     {
@@ -341,8 +366,8 @@
       "relationship": "Fundamental prerequisite - master static armbar before attempting flying version"
     },
     {
-      "name": "Triangle from Guard",
-      "relationship": "Primary backup option if flying armbar entry succeeds but arm escapes"
+      "name": "Triangle Choke",
+      "relationship": "Primary backup submission if flying armbar entry succeeds but arm escapes"
     },
     {
       "name": "Closed Guard",
@@ -353,28 +378,8 @@
       "relationship": "Alternative guard position providing excellent flying armbar entries"
     },
     {
-      "name": "Rolling Armbar",
-      "relationship": "Related dynamic armbar variation requiring similar athletic ability and timing"
-    },
-    {
-      "name": "Jumping Guard",
-      "relationship": "Uses similar aerial mechanics and timing concepts"
-    },
-    {
-      "name": "Triangle Choke",
-      "relationship": "Common combination attack using armbar as backup to triangle"
-    },
-    {
-      "name": "Omoplata from Guard",
-      "relationship": "Alternative shoulder lock from similar guard positions"
-    },
-    {
       "name": "Armbar from Mount",
       "relationship": "Understanding ground-based armbar mechanics helps refine flying version"
-    },
-    {
-      "name": "Guard Pull",
-      "relationship": "Failed guard pull can chain into flying armbar setup"
     },
     {
       "name": "Open Guard",
@@ -383,6 +388,18 @@
     {
       "name": "De La Riva Guard",
       "relationship": "Advanced guard position that can transition to flying submissions"
+    },
+    {
+      "name": "Omoplata",
+      "relationship": "Alternative shoulder attack from similar guard positions"
+    },
+    {
+      "name": "Flying Kneebar",
+      "relationship": "Related aerial leg lock requiring similar athletic ability and timing"
+    },
+    {
+      "name": "Armbar Control",
+      "relationship": "Control position established after successful aerial entry"
     }
   ]
 }

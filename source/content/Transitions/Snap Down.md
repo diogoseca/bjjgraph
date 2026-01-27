@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Snap Down | BJJ Technique | BJJ Graph"
 description: "Master the Snap Down in BJJ. Control opponent's posture from standing to create takedown or submission opportunities. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%."
@@ -16,7 +17,7 @@ description: "Master the Snap Down in BJJ. Control opponent's posture from stand
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Snap Down in BJJ",
-  "description": "Step-by-step guide for Snap Down from Standing Position to Front Headlock.",
+  "description": "Step-by-step guide for Snap Down from Standing Position/Top. Possible outcomes: Front Headlock/Top (75%), Standing Position/Top (15%), Standing Position/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -154,11 +155,25 @@ description: "Master the Snap Down in BJJ. Control opponent's posture from stand
 
 The Snap Down is a fundamental wrestling-based technique that has become essential in modern Brazilian Jiu-Jitsu, particularly in no-gi competition. This technique exploits an opponent's upright posture by rapidly pulling their head and upper body downward, forcing them into a compromised position. The Snap Down creates immediate offensive opportunities, allowing you to transition into dominant positions like front headlock control, back takes, or submission attacks. The effectiveness of the snap down lies in its simplicity and timing - when executed properly, it combines grip control, body positioning, and explosive downward force to break your opponent's base and posture. This technique is particularly valuable because it works across all skill levels and can be chained with numerous follow-up attacks, making it a cornerstone of standing grappling exchanges in BJJ.
 
-**Starting Position**: [[Standing Position]]
-**Ending Position**: [[Front Headlock]]
+**From Position**: [[Standing Position/Top]]
 **Success Rates**: Beginner 45%, Intermediate 60%, Advanced 75%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Front Headlock/Top]] | 75% |
+| Failure | [[Standing Position/Top]] | 15% |
+| Counter | [[Standing Position/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

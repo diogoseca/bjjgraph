@@ -21,49 +21,49 @@ description: "Master scramble position dynamics in BJJ with expert techniques fo
     {
       "@type": "HowToStep",
       "name": "Execute Turtle to Back Take",
-      "text": "From this position, execute Turtle to Back Take to transition to Back Control. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Turtle to Back Take. This technique is attempted in 18% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Single Leg Entry",
-      "text": "From this position, execute Single Leg Entry to transition to Single Leg X-Guard. Success rate for advanced practitioners: 80%.",
+      "name": "Execute Technical Stand-up",
+      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 15% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Granby Roll",
-      "text": "From this position, execute Granby Roll to transition to Closed Guard. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Granby Roll. This technique is attempted in 14% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Technical Stand-up",
-      "text": "From this position, execute Technical Stand-up to transition to Standing Position. Success rate for advanced practitioners: 85%.",
+      "name": "Execute Front Headlock Series",
+      "text": "From this position, attempt Front Headlock Series. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Rolling to Guard",
-      "text": "From this position, execute Rolling to Guard to transition to Open Guard. Success rate for advanced practitioners: 75%.",
+      "name": "Execute Deep Half Entry",
+      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Sprawl",
-      "text": "From this position, execute Sprawl to transition to Front Headlock. Success rate for advanced practitioners: 80%.",
+      "name": "Execute Guillotine Setup",
+      "text": "From this position, attempt Guillotine Setup. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Deep Half Entry",
-      "text": "From this position, execute Deep Half Entry to transition to Deep Half Guard. Success rate for advanced practitioners: 70%.",
+      "name": "Execute Single Leg to Back Take",
+      "text": "From this position, attempt Single Leg to Back Take. This technique is attempted in 8% of exchanges from this position.",
       "position": 7
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Guillotine Setup",
-      "text": "From this position, execute Guillotine Setup to transition to Guillotine Control. Success rate for advanced practitioners: 75%.",
+      "name": "Execute Guard Replacement",
+      "text": "From this position, attempt Guard Replacement. This technique is attempted in 8% of exchanges from this position.",
       "position": 8
     }
   ],
@@ -229,93 +229,24 @@ The Scramble Position refers to a highly dynamic transitional state in BJJ where
 
 ## Available Techniques and Transitions
 
-### [[Turtle to Back Take]] → [[Back Control]]
+### [[Turtle to Back Take]] (18% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 55%
-- Advanced: 75%
+### [[Technical Stand-up]] (15% of attempts)
 
-### [[Single Leg Entry]] → [[Single Leg X-Guard]]
+### [[Granby Roll]] (14% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 60%
-- Advanced: 80%
+### [[Front Headlock Series]] (12% of attempts)
 
-### [[Granby Roll]] → [[Closed Guard]]
+### [[Deep Half Entry]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 70%
+### [[Guillotine Setup]] (10% of attempts)
 
-### [[Technical Stand-up]] → [[Standing Position]]
+### [[Single Leg to Back Take]] (8% of attempts)
 
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 65%
-- Advanced: 85%
+### [[Guard Replacement]] (8% of attempts)
 
-### [[Rolling to Guard]] → [[Open Guard]]
+### [[Darce Setup]] (5% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 55%
-- Advanced: 75%
-
-### [[Sprawl]] → [[Front Headlock]]
-
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 60%
-- Advanced: 80%
-
-### [[Deep Half Entry]] → [[Deep Half Guard]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 70%
-
-### [[Guillotine Setup]] → [[Guillotine Control]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 55%
-- Advanced: 75%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Defensive Counters
-
-- **[[Re-Guard]]** → [[Open Guard]] (Success: 50%)
-- **[[Turtle Transition]]** → [[Turtle]] (Success: 60%)
-- **[[Guard Recovery]]** → [[Half Guard]] (Success: 55%)
-- **[[Technical Stand-up]]** → [[Standing Position]] (Success: 45%)
-- **[[Granby Roll]]** → [[Defensive Position]] (Success: 50%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter Techniques
-
-- **[[Turtle to Back Take]]** → [[Back Control]]
-  - Opponent commits to turtle position for defensive security
-- **[[Single Leg to Back Take]]** → [[Back Control]]
-  - Opponent attempts single leg defense with poor hip position
-- **[[Anaconda Setup]]** → [[Anaconda Control]]
-  - Opponent drops head during scramble creating front headlock opportunity
-- **[[Darce Setup]]** → [[D'arce Control]]
-  - Opponent reaches under for underhook exposing shoulder and neck
-- **[[Kimura from Turtle]]** → [[Kimura Control]]
-  - Opponent posts hand on mat during scramble recovery
 
 
 </section>
@@ -326,7 +257,7 @@ The Scramble Position refers to a highly dynamic transitional state in BJJ where
 
 **If opponent exposes their back during scramble (turning away or turtling):**
 - Execute **[[Turtle to Back Take]]** → [[Back Control]] (Probability: 65%)
-- Execute **[[Transition to Truck]]** → [[Truck]] (Probability: 45%)
+- Execute **[[Turtle to Truck]]** → [[Twister Control]] (Probability: 45%)
 
 
 **If opponent drops head forward or shoots takedown unsuccessfully:**
@@ -341,13 +272,13 @@ The Scramble Position refers to a highly dynamic transitional state in BJJ where
 
 
 **If opponent commits to leg entanglement during scramble:**
-- Execute **[[Single Leg Entry]]** → [[Single Leg X-Guard]] (Probability: 60%)
-- Execute **[[Rolling to Guard]]** → [[Ashi Garami]] (Probability: 50%)
+- Execute **[[Inside Ashi Entry]]** → [[Inside Ashi-Garami]] (Probability: 60%)
+- Execute **[[Guard Replacement]]** → [[Ashi Garami]] (Probability: 50%)
 
 
 **If scramble extends beyond 5-7 seconds without clear advantage:**
 - Execute **[[Technical Stand-up]]** → [[Standing Position]] (Probability: 55%)
-- Execute **[[Re-Guard]]** → [[Open Guard]] (Probability: 50%)
+- Execute **[[Guard Replacement]]** → [[Open Guard]] (Probability: 50%)
 
 
 
@@ -428,34 +359,6 @@ Live scrambling with one arm behind back to develop reliance on positioning, wei
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
-
-## Optimal Paths from This Position
-
-### Back Attack Pathway
-
-`Scramble Position → Turtle to Back Take → Back Control → Rear Naked Choke`
-
-### Front Headlock Chain
-
-`Scramble Position → Sprawl → Front Headlock → Darce Choke`
-
-### Leg Entanglement Series
-
-`Scramble Position → Single Leg Entry → Single Leg X-Guard → Ashi Garami → Heel Hook`
-
-### Guillotine Pathway
-
-`Scramble Position → Guillotine Setup → Guillotine Choke`
-
-### Kimura Trap Route
-
-`Scramble Position → Kimura from Turtle → Kimura`
-
-
-
-</section>
-
 <section id="position-metrics" class="content-section">
 
 ## Success Rates and Statistics
@@ -481,10 +384,10 @@ Live scrambling with one arm behind back to develop reliance on positioning, wei
 - **[[Standing Position]]** - Reset option when scramble becomes energy-inefficient or strategically unfavorable
 - **[[Deep Half Guard]]** - Guard variation accessible during scrambles when opponent commits to top pressure
 - **[[Single Leg X-Guard]]** - Leg entanglement option when scramble involves lower body control battles
-- **[[Transition Management]]** - Core concept for understanding and optimizing scramble navigation
-- **[[Position Transitions]]** - Conceptual framework for systematic approach to scramble situations
-- **[[Escape Hierarchy]]** - Strategic framework for prioritizing scramble outcomes based on positional hierarchy
-- **[[Guard Recovery]]** - Defensive objective when scramble is unfavorable or energy conservation needed
+- **[[Closed Guard]]** - Defensive guard option accessible via granby roll during scrambles
+- **[[Open Guard]]** - Common recovery position when scramble favors defensive posturing
+- **[[Ashi Garami]]** - Leg entanglement system accessible when opponent's legs become available during chaos
+- **[[Guillotine Control]]** - Submission control position reached when opponent exposes neck during scramble
 
 
 </section>

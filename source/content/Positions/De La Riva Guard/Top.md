@@ -21,37 +21,37 @@ description: "Master De La Riva Guard Top passing in BJJ. Complete guide coverin
     {
       "@type": "HowToStep",
       "name": "Execute Toreando Pass",
-      "text": "From this position, execute Toreando Pass to transition to Side Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Toreando Pass. This technique is attempted in 20% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, execute Knee Slice Pass to transition to Side Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 25% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute X Pass",
-      "text": "From this position, execute X Pass to transition to Side Control. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt X Pass. This technique is attempted in 15% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag Pass",
-      "text": "From this position, execute Leg Drag Pass to transition to Leg Drag Position. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 18% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Long Step Pass",
-      "text": "From this position, execute Long Step Pass to transition to Headquarters Position. Success rate for advanced practitioners: 58%.",
+      "text": "From this position, attempt Long Step Pass. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Stack Pass",
-      "text": "From this position, execute Stack Pass to transition to Side Control. Success rate for advanced practitioners: 50%.",
+      "name": "Execute Smash Pass",
+      "text": "From this position, attempt Smash Pass. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -204,88 +204,18 @@ De La Riva guard is one of the most popular and effective open guards in modern 
 
 ## Available Attacks
 
-### [[Toreando Pass]] → [[Side Control]]
+### [[Toreando Pass]] (20% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Knee Slice Pass]] (25% of attempts)
 
-### [[Knee Slice Pass]] → [[Side Control]]
+### [[X Pass]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Leg Drag Pass]] (18% of attempts)
 
-### [[X Pass]] → [[Side Control]]
+### [[Long Step Pass]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
+### [[Smash Pass]] (10% of attempts)
 
-### [[Leg Drag Pass]] → [[Leg Drag Position]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[Long Step Pass]] → [[Headquarters Position]]
-
-**Success Rates:**
-- Beginner: 28%
-- Intermediate: 42%
-- Advanced: 58%
-
-### [[Stack Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
-
-### [[RDLR Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 22%
-- Intermediate: 38%
-- Advanced: 52%
-
-### [[Smash Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[De La Riva Sweep]]** → [[Mount Top]] (Opponent Success: 45%)
-- **[[Berimbolo Entry]]** → [[Back Control]] (Opponent Success: 35%)
-- **[[De La Riva to X-Guard Transition]]** → [[X-Guard]] (Opponent Success: 40%)
-- **[[Single Leg X Entry]]** → [[Single Leg X-Guard]] (Opponent Success: 38%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Leg Drag Setup]]** → [[Leg Drag Position]]
-  - Bottom player attempts to square hips or recover DLR hook after initial removal
-- **[[Knee Slice from Half]]** → [[Side Control]]
-  - Bottom player transitions to half guard during passing sequence as defensive recovery
-- **[[Saddle Entry from Top]]** → [[Saddle]]
-  - Bottom player exposes leg during berimbolo attempt or DLR recovery, creating leg entanglement opportunity
 
 
 </section>
@@ -375,25 +305,7 @@ Partner plays active DLR guard with full resistance. Top player drills passing c
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
-
-### Leg Lock Path via Saddle
-
-`De La Riva Guard Top → Saddle Entry from Top → Saddle → Heel Hook`
-
-### Standard Passing to Submission Path
-
-`De La Riva Guard Top → Knee Slice Pass → Side Control → Americana from Side Control`
-
-### High-Percentage Passing to Back Attack
-
-`De La Riva Guard Top → Leg Drag Pass → Leg Drag Position → Rolling Back Take → Back Control → Rear Naked Choke`
-
-
-
-</section>
 
 <section id="position-metrics" class="content-section">
 

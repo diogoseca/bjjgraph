@@ -21,49 +21,49 @@ description: "Master the Dogfight position in BJJ half guard. Dynamic kneeling p
     {
       "@type": "HowToStep",
       "name": "Execute Old School Sweep",
-      "text": "From this position, execute Old School Sweep to transition to Half Guard. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Old School Sweep. This technique is attempted in 18% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Take Generic",
-      "text": "From this position, execute Back Take Generic to transition to Back Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Back Take Generic. This technique is attempted in 18% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Deep Half Entry",
-      "text": "From this position, execute Deep Half Entry to transition to Deep Half Guard. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 15% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Waiter Sweep",
-      "text": "From this position, execute Waiter Sweep to transition to Mount. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Waiter Sweep. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute John Wayne Sweep",
-      "text": "From this position, execute John Wayne Sweep to transition to Half Guard. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt John Wayne Sweep. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Sweep from Half",
-      "text": "From this position, execute Underhook Sweep from Half to transition to Side Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     },
     {
       "@type": "HowToStep",
       "name": "Execute Electric Chair Submission",
-      "text": "From this position, execute Electric Chair Submission to transition to Electric Chair. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Electric Chair Submission. This technique is attempted in 7% of exchanges from this position.",
       "position": 7
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Bump Sweep",
-      "text": "From this position, execute Hip Bump Sweep to transition to Half Guard. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Hip Bump Sweep. This technique is attempted in 7% of exchanges from this position.",
       "position": 8
     }
   ],
@@ -234,102 +234,24 @@ The position is favored in modern no-gi grappling and has become a cornerstone o
 
 ## Available Techniques and Transitions
 
-### [[Old School Sweep]] → [[Half Guard]]
+### [[Old School Sweep]] (18% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Back Take Generic]] (18% of attempts)
 
-### [[Back Take Generic]] → [[Back Control]]
+### [[Deep Half Entry]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Waiter Sweep]] (10% of attempts)
 
-### [[Deep Half Entry]] → [[Deep Half Guard]]
+### [[John Wayne Sweep]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 60%
-- Advanced: 75%
+### [[Underhook Sweep from Half]] (10% of attempts)
 
-### [[Waiter Sweep]] → [[Mount]]
+### [[Electric Chair Submission]] (7% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Hip Bump Sweep]] (7% of attempts)
 
-### [[John Wayne Sweep]] → [[Half Guard]]
+### [[Rolling to Guard]] (5% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[Underhook Sweep from Half]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-### [[Electric Chair Submission]] → [[Electric Chair]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
-
-### [[Hip Bump Sweep]] → [[Half Guard]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[Rolling to Guard]] → [[Closed Guard]]
-
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Defensive Counters
-
-- **[[Knee Slice from Half]]** → [[Side Control]] (Success: 45%)
-- **[[Smash Pass]]** → [[Side Control]] (Success: 50%)
-- **[[Crossface Pass]]** → [[Side Control]] (Success: 40%)
-- **[[Whizzer]]** → [[Half Guard]] (Success: 55%)
-- **[[Half Guard Pass]]** → [[Side Control]] (Success: 45%)
-- **[[Back Step]]** → [[Back Control]] (Success: 35%)
-- **[[Sprawl Defense]]** → [[Front Headlock]] (Success: 40%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter Techniques
-
-- **[[Back Take Generic]]** → [[Back Control]]
-  - Opponent attempts to flatten you with crossface or removes their whizzer, exposing their back
-- **[[Deep Half Entry]]** → [[Deep Half Guard]]
-  - Opponent drives forward pressure, attempts to smash pass, or posts their free leg far out creating space underneath
-- **[[Old School Sweep]]** → [[Half Guard]]
-  - Opponent posts their far leg to prevent back take or establishes strong base with outside leg
-- **[[Hip Bump Sweep]]** → [[Half Guard]]
-  - Opponent shifts weight backward to counter underhook pressure or creates vertical posture
-- **[[Rolling to Guard]]** → [[Closed Guard]]
-  - Opponent establishes dominant whizzer and you cannot maintain upright posture against pressure
 
 
 </section>
@@ -454,34 +376,6 @@ Practice entering Dogfight from flat half guard bottom with progressive resistan
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
-
-## Optimal Paths from This Position
-
-### Highest percentage submission path via back control
-
-`Dogfight Position → Back Take Generic → Back Control → Rear Naked Choke`
-
-### Submission path via sweep to dominant position
-
-`Dogfight Position → Old School Sweep → Half Guard → Side Control → Mount → Armbar from Mount`
-
-### Technical submission path via deep half system
-
-`Dogfight Position → Deep Half Entry → Deep Half Guard → Waiter Sweep → Mount → Kimura from Mount`
-
-### Lockdown variation submission path
-
-`Dogfight Position → Electric Chair Submission → Lockdown → Electric Chair`
-
-### Leg lock path from Dogfight transitions
-
-`Dogfight Position → Deep Half Entry → Deep Half Guard → Ashi Garami → Heel Hook`
-
-
-
-</section>
-
 <section id="position-metrics" class="content-section">
 
 ## Success Rates and Statistics
@@ -506,11 +400,10 @@ Practice entering Dogfight from flat half guard bottom with progressive resistan
 - **[[Lockdown]]** - Alternative half guard control mechanism that can transition to Dogfight when coming up to knees
 - **[[Knee Shield Half Guard]]** - Often precedes Dogfight - bottom player comes up to knees from knee shield configuration to enter Dogfight
 - **[[Back Control]]** - Primary offensive target from Dogfight via back take transitions when opponent exposes back
-- **[[Old School Sweep]]** - Signature sweep technique from Dogfight position targeting opponent's posted far leg
-- **[[Whizzer Control]]** - Defensive concept the top player uses to counter Dogfight underhook and flatten opponent
+- **[[Old School]]** - Signature sweep technique from Dogfight position targeting opponent's posted far leg
+- **[[Overhook Control]]** - Defensive concept the top player uses to counter Dogfight underhook and flatten opponent
 - **[[Z-Guard]]** - Related half guard position with similar knee shield mechanics that can transition to Dogfight
 - **[[Butterfly Guard]]** - Alternative guard position with similar underhook battles and elevated posture dynamics
-- **[[Underhook Battle]]** - Core positional concept that defines the Dogfight engagement and determines outcomes
 - **[[Crab Ride]]** - Alternative position top player may transition to when defending Dogfight back take attempts
 
 

@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Pull guard | BJJ Technique | BJJ Graph"
 description: "Master Pull Guard in BJJ. Learn proper execution from standing to guard. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%. Complete technique breakdown included."
@@ -16,7 +17,7 @@ description: "Master Pull Guard in BJJ. Learn proper execution from standing to 
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Pull guard in BJJ",
-  "description": "Step-by-step guide for Pull guard from Standing Position to Closed Guard.",
+  "description": "Step-by-step guide for Pull guard from Standing Position/Top. Possible outcomes: Closed Guard/Bottom (70%), Standing Position/Top (20%), Standing Position/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -154,11 +155,25 @@ description: "Master Pull Guard in BJJ. Learn proper execution from standing to 
 
 Pulling guard is a strategic defensive maneuver that transitions from standing to a guard position, prioritizing ground control over takedown exchanges. This technique allows practitioners to bypass the standing phase and immediately establish their preferred guard system, particularly valuable when facing opponents with superior wrestling or judo backgrounds. The guard pull represents a fundamental shift in engagement strategy, transforming a potentially disadvantageous standing exchange into a controlled ground scenario where technical guard players can implement their systematic attacks. Proper execution requires precise timing, grip control, and body mechanics to ensure safe descent while maintaining offensive positioning. The technique has become increasingly sophisticated in modern competition, with variations designed to establish specific guard types like De La Riva, Spider Guard, or Butterfly Guard directly from the standing position.
 
-**Starting Position**: [[Standing Position]]
-**Ending Position**: [[Closed Guard]]
+**From Position**: [[Standing Position/Top]]
 **Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Closed Guard/Bottom]] | 70% |
+| Failure | [[Standing Position/Top]] | 20% |
+| Counter | [[Standing Position/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

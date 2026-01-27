@@ -62,7 +62,7 @@ Strategically, Guillotine Control exemplifies the principle of creating binary d
 | **Energy Cost** | High | Medium |
 | **Time** | Short to Medium | Short to Medium |
 
-**Key Difference:** Front headlock submission with dual perspectives
+**Key Difference:** Neck control trades stability for tap threat
 
 
 
@@ -93,35 +93,24 @@ Strategically, Guillotine Control exemplifies the principle of creating binary d
 - Protect against counter-passes by maintaining active guard structure and being ready to transition to different guard variations or re-establish position if opponent begins advancing
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Guillotine Choke]]** → [[Won by Submission]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 70%
+- **[[Guillotine Choke]]** (13% of attempts)
 
-- **[[High Elbow Guillotine]]** → [[Won by Submission]]
-  - Success Rate: Beginner 20%, Intermediate 40%, Advanced 65%
+- **[[High Elbow Guillotine]]** (12% of attempts)
 
-- **[[Arm in Guillotine]]** → [[Won by Submission]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 75%
+- **[[Arm in Guillotine]]** (13% of attempts)
 
-- **[[Transition to Mount]]** → [[Mount]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 50%
+- **[[Hip Bump Sweep]]** (12% of attempts)
 
-- **[[Hip Bump Sweep]]** → [[Mount]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 60%
+- **[[Guillotine Setup]]** (14% of attempts)
 
-- **[[Guillotine Setup]]** → [[Closed Guard]]
-  - Success Rate: Beginner 40%, Intermediate 60%, Advanced 75%
+- **[[Closed Guard to Omoplata]]** (10% of attempts)
 
-- **[[Transition to Omoplata]]** → [[Omoplata Control]]
-  - Success Rate: Beginner 10%, Intermediate 25%, Advanced 45%
+- **[[Switch to Triangle]]** (12% of attempts)
 
-- **[[Switch to Triangle]]** → [[Triangle Control]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 50%
-
-- **[[Anaconda Choke]]** → [[Won by Submission]]
-  - Success Rate: Beginner 15%, Intermediate 35%, Advanced 60%
+- **[[Anaconda Choke]]** (14% of attempts)
 
 
 ### Common Mistakes
@@ -183,32 +172,24 @@ Strategically, Guillotine Control exemplifies the principle of creating binary d
 - Keep your own posture strong and base wide to prevent opponent from sweeping or reversing while you work the submission
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Guillotine Choke]]** → [[Won by Submission]]
-  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+- **[[Guillotine Choke]]** (13% of attempts)
 
-- **[[High Elbow Guillotine]]** → [[Won by Submission]]
-  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 70%
+- **[[High Elbow Guillotine]]** (12% of attempts)
 
-- **[[Arm in Guillotine]]** → [[Won by Submission]]
-  - Success Rate: Beginner 40%, Intermediate 58%, Advanced 72%
+- **[[Arm in Guillotine]]** (12% of attempts)
 
-- **[[Front Headlock to Anaconda]]** → [[Anaconda Control]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 65%
+- **[[Front Headlock to Anaconda]]** (11% of attempts)
 
-- **[[Front Headlock to Darce]]** → [[D'arce Control]]
-  - Success Rate: Beginner 28%, Intermediate 48%, Advanced 63%
+- **[[Front Headlock to Darce]]** (11% of attempts)
 
-- **[[Transition to Mount]]** → [[Mount]]
-  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 78%
+- **[[Side Control to Mount]]** (13% of attempts)
 
-- **[[Transition to North-South]]** → [[North-South]]
-  - Success Rate: Beginner 55%, Intermediate 68%, Advanced 80%
+- **[[Side Control to North-South]]** (15% of attempts)
 
-- **[[Guard Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 45%, Intermediate 62%, Advanced 75%
+- **[[Guard Pass]]** (13% of attempts)
 
 
 ### Common Mistakes

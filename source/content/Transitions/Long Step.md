@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Long Step | BJJ Technique | BJJ Graph"
 description: "Master the Long Step pass in BJJ. Systematic guard passing technique from standing or headquarters. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%."
@@ -16,7 +17,7 @@ description: "Master the Long Step pass in BJJ. Systematic guard passing techniq
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Long Step in BJJ",
-  "description": "Step-by-step guide for Long Step from Headquarters Position to Side Control.",
+  "description": "Step-by-step guide for Long Step from Headquarters Position/Top. Possible outcomes: Side Control/Top (65%), Headquarters Position/Top (25%), Headquarters Position/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -160,11 +161,25 @@ description: "Master the Long Step pass in BJJ. Systematic guard passing techniq
 
 The **Long Step Pass** is a fundamental pressure passing technique that neutralizes guard retention by stepping far around the guard player's knee shield or butterfly hooks. This pass creates a powerful angle that prevents hip escape while establishing control on the far side of the opponent's body. The technique emphasizes distance management and timing—stepping too early allows the guard player to follow, while stepping too late gives them time to recover guard. The Long Step is particularly effective against modern guard retention systems that rely on frames and distance management. By committing to the far step, you force the opponent into a defensive position where their primary defensive tools (frames, hip movement, knee shields) become ineffective. This pass integrates seamlessly with other pressure passing sequences, creating a comprehensive passing system that addresses multiple guard variations. The Long Step represents the intersection of pressure passing principles and dynamic movement, requiring both technical precision and explosive execution.
 
-**Starting Position**: [[Headquarters Position]]
-**Ending Position**: [[Side Control]]
+**From Position**: [[Headquarters Position/Top]]
 **Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Side Control/Top]] | 65% |
+| Failure | [[Headquarters Position/Top]] | 25% |
+| Counter | [[Headquarters Position/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

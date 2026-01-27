@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Whizzer | BJJ Technique | BJJ Graph"
 description: "Master the Whizzer overhook control in BJJ. Essential defensive and offensive technique with systematic breakdown. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%."
@@ -16,7 +17,7 @@ description: "Master the Whizzer overhook control in BJJ. Essential defensive an
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Whizzer in BJJ",
-  "description": "Step-by-step guide for Whizzer from Overhook Control to Back Control.",
+  "description": "Step-by-step guide for Whizzer from Overhook Control/Top. Possible outcomes: Back Control/Top (75%), Overhook Control/Top (15%), Overhook Control/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -160,11 +161,25 @@ description: "Master the Whizzer overhook control in BJJ. Essential defensive an
 
 The Whizzer is a fundamental overhook control position that serves as both a powerful defensive mechanism and an offensive transition tool in Brazilian Jiu-Jitsu. Borrowed from wrestling, this technique involves threading your arm over your opponent's arm and controlling their shoulder, creating a mechanical advantage that neutralizes underhook-based attacks while opening pathways to dominant positions. The Whizzer excels in multiple contexts: defending single-leg takedowns, preventing back takes from turtle, controlling scrambles, and setting up your own offensive transitions to back control or reversal positions. Understanding when to establish, maintain, and abandon the Whizzer separates competent grapplers from those who get swept or taken down repeatedly. The position's effectiveness stems from its ability to control your opponent's posture and limit their hip mobility while preserving your own defensive structure and offensive options.
 
-**Starting Position**: [[Overhook Control]]
-**Ending Position**: [[Back Control]]
+**From Position**: [[Overhook Control/Top]]
 **Success Rates**: Beginner 45%, Intermediate 60%, Advanced 75%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Back Control/Top]] | 75% |
+| Failure | [[Overhook Control/Top]] | 15% |
+| Counter | [[Overhook Control/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

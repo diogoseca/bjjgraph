@@ -97,32 +97,24 @@ Success in mounted triangle requires understanding the biomechanical principles 
 - Systematic dismantling through proper defensive sequencing beats random thrashing
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Bridge and Roll]]** → [[Mount]]
-  - Success Rate: Beginner 15%, Intermediate 25%, Advanced 35%
+- **[[Bridge and Roll]]** (12% of attempts)
 
-- **[[Elbow Escape]]** → [[Half Guard]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Elbow Escape]]** (18% of attempts)
 
-- **[[Granby Roll]]** → [[Defensive Position]]
-  - Success Rate: Beginner 10%, Intermediate 20%, Advanced 30%
+- **[[Granby Roll]]** (10% of attempts)
 
-- **[[Hip Escape]]** → [[Open Guard]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+- **[[Hip Escape]]** (15% of attempts)
 
-- **[[Upa Escape]]** → [[Closed Guard]]
-  - Success Rate: Beginner 12%, Intermediate 22%, Advanced 35%
+- **[[Upa Escape]]** (12% of attempts)
 
-- **[[Frame and Shrimp]]** → [[Guard Opening Sequence]]
-  - Success Rate: Beginner 18%, Intermediate 32%, Advanced 48%
+- **[[Frame and Shrimp]]** (16% of attempts)
 
-- **[[Technical Stand Up]]** → [[Standing Position]]
-  - Success Rate: Beginner 8%, Intermediate 15%, Advanced 25%
+- **[[Technical Stand Up]]** (8% of attempts)
 
-- **[[Arm Extraction]]** → [[Mount]]
-  - Success Rate: Beginner 10%, Intermediate 18%, Advanced 28%
+- **[[Arm Extraction]]** (9% of attempts)
 
 
 ### Common Mistakes
@@ -180,38 +172,28 @@ Success in mounted triangle requires understanding the biomechanical principles 
 - Submission commitment must be timed - premature finishing attempts create escape opportunities
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Triangle Choke]]** → [[Won by Submission]]
-  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 70%
+- **[[Triangle Choke]]** (11% of attempts)
 
-- **[[Armbar Finish]]** → [[Won by Submission]]
-  - Success Rate: Beginner 40%, Intermediate 60%, Advanced 75%
+- **[[Armbar Finish]]** (11% of attempts)
 
-- **[[Switch to Triangle]]** → [[Triangle Control]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 65%
+- **[[Switch to Triangle]]** (10% of attempts)
 
-- **[[Back Take Generic]]** → [[Back Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Back Take Generic]]** (10% of attempts)
 
-- **[[Transition to Mount]]** → [[High Mount]]
-  - Success Rate: Beginner 45%, Intermediate 65%, Advanced 80%
+- **[[Side Control to Mount]]** (11% of attempts)
 
-- **[[Gift Wrap]]** → [[Gift Wrap]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Gift Wrap]]** (8% of attempts)
 
-- **[[Kimura to Back Take]]** → [[Back Control]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Kimura to Back Take]]** (8% of attempts)
 
-- **[[S Mount Transition]]** → [[S Mount]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[S Mount Transition]]** (11% of attempts)
 
-- **[[Triangle to Armbar]]** → [[Armbar Control]]
-  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 70%
+- **[[Triangle to Armbar]]** (11% of attempts)
 
-- **[[Triangle to Back]]** → [[Back Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Triangle to Back]]** (9% of attempts)
 
 
 ### Common Mistakes
@@ -266,7 +248,7 @@ Success in mounted triangle requires understanding the biomechanical principles 
 
 - **[[Gift Wrap]]** - Arm control position that facilitates mounted triangle entry
 
-- **[[Mount Control]]** - Standard mount position from which mounted triangle develops
+- **[[Mount]]** - Standard mount position from which mounted triangle develops
 
 - **[[Technical Mount]]** - Transitional position during mounted triangle setup
 

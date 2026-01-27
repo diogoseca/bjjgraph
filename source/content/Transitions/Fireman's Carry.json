@@ -10,8 +10,6 @@
     "clinch",
     "throw"
   ],
-  "starting_position": "Clinch",
-  "ending_position": "Side Control",
   "success_rates": {
     "beginner": 30,
     "intermediate": 50,
@@ -296,6 +294,24 @@
     {
       "name": "Standing Position",
       "relationship": "General category where technique is initiated"
+    }
+  ],
+  "from_position": "Clinch/Top",
+  "outcomes": [
+    {
+      "to": "Side Control/Top",
+      "probability": 70,
+      "result": "success"
+    },
+    {
+      "to": "Clinch/Top",
+      "probability": 20,
+      "result": "failure"
+    },
+    {
+      "to": "Clinch/Bottom",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

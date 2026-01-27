@@ -93,29 +93,22 @@ From the top perspective, deep half guard presents a deceptive challenge - while
 - Transition quickly when opponent's weight shifts to capitalize on openings
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Waiter Sweep]]** → [[Mount]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 65%
+- **[[Waiter Sweep]]** (15% of attempts)
 
-- **[[Deep Half Entry]]** → [[Back Control]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 60%
+- **[[Deep Half Entry]]** (14% of attempts)
 
-- **[[Old School Sweep]]** → [[Side Control]]
-  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 70%
+- **[[Old School Sweep]]** (17% of attempts)
 
-- **[[Rolling Back Take]]** → [[Back Control]]
-  - Success Rate: Beginner 20%, Intermediate 40%, Advanced 60%
+- **[[Rolling Back Take]]** (14% of attempts)
 
-- **[[Electric Chair Submission]]** → [[Electric Chair]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+- **[[Electric Chair Submission]]** (11% of attempts)
 
-- **[[Underhook Sweep from Half]]** → [[Side Control]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 65%
+- **[[Underhook Sweep from Half]]** (15% of attempts)
 
-- **[[X-Guard Sweep]]** → [[Standing Position]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 60%
+- **[[X-Guard Sweep]]** (14% of attempts)
 
 
 ### Common Mistakes
@@ -169,26 +162,20 @@ From the top perspective, deep half guard presents a deceptive challenge - while
 - Patience Under Pressure: Recognize this is dangerous position requiring methodical escape
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Crossface Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 70%
+- **[[Crossface Pass]]** (18% of attempts)
 
-- **[[Knee Slice Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 65%
+- **[[Knee Slice Pass]]** (17% of attempts)
 
-- **[[Smash Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 60%
+- **[[Smash Pass]]** (16% of attempts)
 
-- **[[Half Guard Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 40%, Intermediate 60%, Advanced 75%
+- **[[Half Guard Pass]]** (19% of attempts)
 
-- **[[Underhook Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 65%
+- **[[Underhook Pass]]** (17% of attempts)
 
-- **[[Kimura from Half Guard]]** → [[Kimura Control]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Kimura from Half Guard]]** (13% of attempts)
 
 
 ### Common Mistakes

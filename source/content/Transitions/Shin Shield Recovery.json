@@ -9,8 +9,6 @@
     "guard-retention",
     "framing"
   ],
-  "starting_position": "Half Guard",
-  "ending_position": "Knee Shield Half Guard",
   "success_rates": {
     "beginner": 45,
     "intermediate": 65,
@@ -281,6 +279,24 @@
     {
       "name": "Hip Escape Mechanics",
       "relationship": "Fundamental movement - Hip escape creates space necessary for shin shield insertion"
+    }
+  ],
+  "from_position": "Half Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Knee Shield Half Guard/Bottom",
+      "probability": 75,
+      "result": "success"
+    },
+    {
+      "to": "Half Guard/Bottom",
+      "probability": 15,
+      "result": "failure"
+    },
+    {
+      "to": "Half Guard/Top",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

@@ -27,7 +27,7 @@
       "relationship": "Alternative control position with different pressure dynamics"
     },
     {
-      "name": "Kimura Control",
+      "name": "Kimura Trap",
       "relationship": "Submission control position accessible from North-South"
     },
     {
@@ -51,6 +51,313 @@
       "relationship": "Advanced control position with superior arm isolation"
     }
   ],
+  "top": {
+    "name": "North-South Top",
+    "description": "Master North-South top position in BJJ. Complete guide to establishing crushing pressure control, submission attacks, and positional transitions from this dominant pinning position.",
+    "tags": [
+      "position",
+      "top",
+      "offensive",
+      "pin-control",
+      "north-south",
+      "pressure-passing"
+    ],
+    "overview": "North-South top is one of Brazilian Jiu-Jitsu's most dominant pinning positions, characterized by perpendicular chest-to-chest alignment where you distribute your entire body weight across your opponent's upper body while your heads point in opposite directions. This position offers exceptional control with relatively low energy expenditure once properly established, making it ideal for recovering stamina while maintaining offensive pressure.\n\nThe strategic value of North-South top lies in its dual functionality as both a control position and a submission platform. The crushing chest pressure restricts your opponent's breathing and movement while your hands remain free to isolate arms, set up chokes, or control the head. Unlike parallel positions like side control, the perpendicular alignment provides unique leverage for specific submissions like the North-South choke while making certain escapes more difficult for the bottom player.\n\nEstablishing effective North-South control requires precise weight distribution and arm control. Your chest must create continuous downward pressure across the opponent's chest and shoulders, not their stomach or hips. The pressure should restrict their rib expansion and breathing while your weight distribution prevents them from bridging effectively. Hand positioning varies based on your control strategy - you can secure underhooks, control arms directly, or establish grips for submission setups.\n\nThe position serves as a critical checkpoint during guard passing sequences and transitions between dominant positions. Skilled practitioners flow seamlessly from side control to North-South to mount, using the perpendicular alignment to consolidate control or set up submissions. Understanding when to maintain North-South versus when to transition is crucial - the position excels at control and specific submissions but may not be optimal for all finishing sequences. Mastery requires balancing pressure maintenance with transition timing and submission recognition.",
+    "state_properties": {
+      "point_value": 3,
+      "position_type": "Offensive/Controlling",
+      "risk_level": "Low",
+      "energy_cost": "Low",
+      "time_sustainability": "Long"
+    },
+    "state_invariants": [
+      "Top player's chest maintains continuous downward pressure across bottom player's chest and shoulder area, with body weight distributed to compress their rib cage and restrict breathing while heads align perpendicular to each other",
+      "Top player's hips remain relatively low and base-wide to prevent bridging escapes, with weight forward over opponent's upper body rather than sitting back toward their legs where control weakens significantly",
+      "Top player controls or restricts bottom player's arms through underhooks, overhooks, or direct arm control to prevent defensive frame creation that would create escape space and reduce pressure effectiveness"
+    ],
+    "prerequisites": [
+      "Bottom player's back is flat on mat with guard passed or position entered from side control",
+      "Top player has achieved perpendicular body alignment with chest over opponent's chest",
+      "Top player controls or restricts at least one of bottom player's arms",
+      "Top player has established base and pressure to prevent immediate escape"
+    ],
+    "key_principles": [
+      "Distribute body weight across opponent's chest and shoulders, not stomach or hips",
+      "Keep chest pressure constant while hands work for arm control or submissions",
+      "Maintain low hip position with wide base to prevent bridge and roll escapes",
+      "Control opponent's arms before attempting major position transitions or submissions",
+      "Use shoulder and head pressure to restrict opponent's head movement and breathing",
+      "Transition to mount or other positions when opponent creates defensive frames",
+      "Balance between control maintenance and submission hunting based on opponent's reactions"
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent maintains flat back with arms controlled",
+        "actions": [
+          {
+            "technique": "North-South choke setup",
+            "target": "game-over",
+            "probability": 55
+          },
+          {
+            "technique": "Maintain pressure and control",
+            "target": "North-South",
+            "probability": 70
+          }
+        ]
+      },
+      {
+        "condition": "If opponent creates frames and begins hip escape",
+        "actions": [
+          {
+            "technique": "Transition to mount",
+            "target": "Mount",
+            "probability": 65
+          },
+          {
+            "technique": "Switch to side control",
+            "target": "Side Control",
+            "probability": 60
+          }
+        ]
+      },
+      {
+        "condition": "If opponent exposes near arm during escape attempt",
+        "actions": [
+          {
+            "technique": "Kimura grip and control",
+            "target": "Kimura Trap",
+            "probability": 60
+          },
+          {
+            "technique": "Americana lock",
+            "target": "game-over",
+            "probability": 45
+          }
+        ]
+      },
+      {
+        "condition": "If opponent turns to turtle",
+        "actions": [
+          {
+            "technique": "Take the back",
+            "target": "Back Control",
+            "probability": 70
+          },
+          {
+            "technique": "Return to side control",
+            "target": "Side Control",
+            "probability": 65
+          }
+        ]
+      },
+      {
+        "condition": "If opponent extends both arms for frames",
+        "actions": [
+          {
+            "technique": "North-South choke",
+            "target": "game-over",
+            "probability": 50
+          },
+          {
+            "technique": "Armbar setup",
+            "target": "game-over",
+            "probability": 40
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Sitting weight back toward opponent's hips instead of forward over chest",
+        "consequence": "Reduces chest pressure effectiveness, makes bridge and roll escapes easier, and loses primary control mechanism",
+        "correction": "Keep weight distributed forward over opponent's chest and shoulders with hips relatively low and base wide"
+      },
+      {
+        "error": "Allowing opponent's arms to remain free and create defensive frames",
+        "consequence": "Opponent establishes space for hip escapes, reduces pressure effectiveness, and creates escape opportunities",
+        "correction": "Immediately control at least one arm through underhooks or direct control before settling into position"
+      },
+      {
+        "error": "Lifting head and chest up during submission attempts",
+        "consequence": "Creates space for opponent to hip escape or bridge, loses positional control while hunting submission",
+        "correction": "Maintain heavy chest pressure even during submission setups, use shoulder and head pressure to keep opponent pinned"
+      },
+      {
+        "error": "Staying in North-South too long when opponent creates defensive frames",
+        "consequence": "Wastes energy fighting against established frames, allows opponent to systematically escape over time",
+        "correction": "Recognize when opponent establishes frames and transition to mount or side control rather than fighting position"
+      },
+      {
+        "error": "Reaching too far for submissions without securing control first",
+        "consequence": "Creates balance opportunities for opponent to bridge and roll, exposes your own position to reversals",
+        "correction": "Establish secure arm control and base before committing to submission attacks, keep weight distribution stable"
+      },
+      {
+        "error": "Using only upper body pressure without engaging hips and core",
+        "consequence": "Creates unstable pressure that's easier to escape, fatigues upper body muscles unnecessarily",
+        "correction": "Engage entire core and use hip positioning to drive weight forward, pressure comes from body structure not arm strength"
+      },
+      {
+        "error": "Allowing base to narrow when opponent begins escape attempts",
+        "consequence": "Makes position vulnerable to bridge and roll escapes, reduces stability during opponent's explosive movements",
+        "correction": "Widen base and lower hips immediately when sensing escape attempts, use sprawl-like posture to prevent rolls"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "North-South Control Maintenance",
+        "description": "Maintain North-South position against progressively resistant partner for timed rounds. Partner works systematic escapes while you focus on weight distribution, arm control, and pressure maintenance. Reset each time opponent escapes. Develop endurance and positional awareness.",
+        "duration": "5 minutes"
+      },
+      {
+        "name": "Submission Setup Flow Drill",
+        "description": "Flow between North-South choke, kimura, and armbar setups while maintaining pressure. Partner provides light resistance. Focus on seamless transitions between attacks without losing positional control. Build muscle memory for submission chains.",
+        "duration": "4 minutes"
+      },
+      {
+        "name": "Transition Sequences",
+        "description": "Practice flowing between side control, North-South, and mount in continuous sequences. Partner provides moderate resistance to transitions but not full escape attempts. Develop smooth positional flow and weight distribution adjustments between positions.",
+        "duration": "5 minutes"
+      },
+      {
+        "name": "Pressure Resistance Training",
+        "description": "Maintain maximum chest pressure in North-South while partner attempts only frame creation and breathing (no full escapes). You adjust weight distribution to counter their frames. Builds sensitivity to pressure points and control maintenance.",
+        "duration": "3 minutes"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Side Control",
+        "relationship": "Common entry position and alternative control option"
+      },
+      {
+        "name": "Mount",
+        "relationship": "Primary transition target for positional advancement"
+      },
+      {
+        "name": "Knee on Belly",
+        "relationship": "Alternative pressure position with different control dynamics"
+      },
+      {
+        "name": "North-South Choke",
+        "relationship": "Primary submission from this position"
+      },
+      {
+        "name": "North-South to Kimura",
+        "relationship": "High-percentage submission transition"
+      },
+      {
+        "name": "Side Control to Mount",
+        "relationship": "Primary advancement technique from North-South"
+      },
+      {
+        "name": "Back Control",
+        "relationship": "Available when opponent turns to turtle"
+      },
+      {
+        "name": "Kimura Trap",
+        "relationship": "Control position for finishing arm attacks"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "beginner": 50,
+        "intermediate": 70,
+        "advanced": 85,
+        "description": "Ability to maintain North-South position against escape attempts"
+      },
+      "advancement_probability": {
+        "beginner": 45,
+        "intermediate": 65,
+        "advanced": 80,
+        "description": "Probability of transitioning to mount or securing submission"
+      },
+      "submission_probability": {
+        "beginner": 25,
+        "intermediate": 45,
+        "advanced": 65,
+        "description": "Probability of finishing submission directly from North-South"
+      },
+      "average_time": "60-120 seconds of control before transition or submission"
+    },
+    "transitions": [
+      {
+        "transition": "North-South Choke",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Side Control to Mount",
+        "attempt_probability": 13
+      },
+      {
+        "transition": "North-South to Kimura",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Armbar from Side Control",
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Side Control to North-South",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Americana from Side Control",
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Side Control to Mount",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Knee on Belly",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Spinning Armbar",
+        "attempt_probability": 7
+      },
+      {
+        "transition": "Reverse Armbar",
+        "attempt_probability": 8
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the optimal weight distribution for maintaining North-South control?",
+        "answer": "Your body weight should be distributed forward across your opponent's chest and shoulders, not sitting back toward their hips or stomach. The pressure point should be your sternum driving into their upper chest area, compressing their rib cage to restrict breathing. Keep your hips relatively low and base wide to prevent bridging escapes while maintaining the forward weight commitment."
+      },
+      {
+        "question": "Your opponent starts creating frames with their forearms against your chest - what adjustment do you make?",
+        "answer": "When frames are being established, you have two primary options: either collapse the frames by driving your chest pressure forward and angling your shoulders to slip past their forearms, or recognize this as a signal to transition to mount or side control. Fighting against established frames wastes energy - instead, use their frame creation as a trigger to advance position by stepping over to mount when they commit both arms to framing."
+      },
+      {
+        "question": "What are the essential grip priorities from North-South top?",
+        "answer": "Priority one is controlling at least one of your opponent's arms through underhooks, overhooks, or direct wrist control to prevent defensive framing. Secondary grips depend on your objective: for the North-South choke, control their far arm while positioning for the choke; for kimura attacks, isolate and feed the near arm across their body. Never allow both arms to remain free and active."
+      },
+      {
+        "question": "How do you shut down the primary bridge and roll escape attempt from North-South?",
+        "answer": "Widen your base immediately when you feel them begin to bridge by sprawling your legs outward and lowering your hips. Your head should stay heavy on the mat beside their hip to block their turning momentum. Keep weight forward over their chest - if you're sitting back, you're vulnerable. The key is anticipating the bridge by feeling their hip movement and pre-emptively adjusting your base before they generate momentum."
+      },
+      {
+        "question": "Your opponent explosively bridges and you feel yourself being lifted - what is your immediate response?",
+        "answer": "Immediately sprawl your hips back and widen your base, using your hands to post on the mat if needed. Ride the bridge rather than fighting it directly - their bridge will fail within 1-2 seconds due to fatigue. As they return to the mat, immediately reestablish your chest pressure and tighten your arm control. If the bridge was strong enough to create space, consider transitioning to mount during their descent."
+      },
+      {
+        "question": "How do you manage energy while maintaining North-South for extended periods?",
+        "answer": "North-South should be a low-energy position when maintained correctly. Use skeletal structure rather than muscular effort - let your body weight create pressure rather than actively pushing. Keep your breathing rhythmic and controlled. Avoid constant movement; instead, settle your weight and only adjust when your opponent moves. The position is designed for recovery while controlling, so relax your non-essential muscles and let gravity do the work."
+      },
+      {
+        "question": "Your opponent partially escapes and gets one knee between you - how do you recover full control?",
+        "answer": "Address the knee immediately by hip switching to clear it before they can establish a full half guard frame. Drive your chest pressure forward while using your hand to push their knee down and away. If the knee is established, transition to passing their half guard rather than trying to force back to North-South. You can also switch your angle and attack side control on the opposite side where they haven't established the knee shield."
+      },
+      {
+        "question": "What determines whether you should hunt submissions from North-South versus transitioning to mount?",
+        "answer": "Transition to mount when: your opponent has established strong defensive frames, they're defending their neck well making the North-South choke unavailable, or you feel their escape is progressing despite your control. Hunt submissions when: their arms are exposed or isolated, their neck is available for the choke, they're flat on their back without active frames, or they're exhausted and not actively defending. The decision also depends on the rule set - mount scores points, so in competition you may prioritize advancement."
+      }
+    ]
+  },
   "bottom": {
     "name": "North-South Bottom",
     "description": "Escape North-South bottom position in BJJ. Comprehensive guide to hip movement, frame creation, and escape timing from this crushing pin with technical breakdowns and drilling protocols.",
@@ -89,119 +396,6 @@
       "Target opponent's balance points when they transition or attack submissions",
       "Knee insertion between bodies is critical gateway to guard recovery",
       "Maintain mental composure under pressure rather than explosive panic movements"
-    ],
-    "offensive_transitions": [
-      {
-        "technique": "Elbow Escape",
-        "target_position": "Closed Guard",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 40,
-          "advanced": 60
-        }
-      },
-      {
-        "technique": "Bridge and Roll",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 20,
-          "intermediate": 35,
-          "advanced": 50
-        }
-      },
-      {
-        "technique": "Turtle Transition",
-        "target_position": "Turtle",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 50,
-          "advanced": 65
-        }
-      },
-      {
-        "technique": "Hip Escape",
-        "target_position": "Half Guard",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 45,
-          "advanced": 60
-        }
-      },
-      {
-        "technique": "North-South Escape",
-        "target_position": "Open Guard",
-        "success_rates": {
-          "beginner": 20,
-          "intermediate": 35,
-          "advanced": 55
-        }
-      },
-      {
-        "technique": "Frame and Shrimp",
-        "target_position": "Butterfly Guard",
-        "success_rates": {
-          "beginner": 15,
-          "intermediate": 30,
-          "advanced": 50
-        }
-      },
-      {
-        "technique": "Granby Roll",
-        "target_position": "Turtle",
-        "success_rates": {
-          "beginner": 10,
-          "intermediate": 25,
-          "advanced": 45
-        }
-      },
-      {
-        "technique": "Technical Stand-up",
-        "target_position": "Standing Position",
-        "success_rates": {
-          "beginner": 5,
-          "intermediate": 15,
-          "advanced": 30
-        }
-      }
-    ],
-    "defensive_responses": [
-      {
-        "technique": "North-South Choke",
-        "target_position": "Lost by Submission"
-      },
-      {
-        "technique": "Kimura from North-South",
-        "target_position": "Lost by Submission"
-      },
-      {
-        "technique": "Transition to Mount",
-        "target_position": "Mount"
-      },
-      {
-        "technique": "Armbar from Side Control",
-        "target_position": "Lost by Submission"
-      },
-      {
-        "technique": "Transition to North-South",
-        "target_position": "North-South"
-      }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Frame and Shrimp",
-        "target_position": "Half Guard",
-        "trigger": "Opponent shifts weight forward during North-South choke attempt"
-      },
-      {
-        "technique": "Bridge and Roll",
-        "target_position": "Side Control",
-        "trigger": "Opponent reaches too far for kimura grip exposing their balance"
-      },
-      {
-        "technique": "Turtle Transition",
-        "target_position": "Turtle",
-        "trigger": "Opponent transitions toward mount creating space at hips"
-      }
     ],
     "decision_tree": [
       {
@@ -324,20 +518,6 @@
         "duration": "4 minutes"
       }
     ],
-    "optimal_submission_paths": [
-      {
-        "name": "Immediate escape to guard recovery",
-        "path": "North-South Bottom → Frame Creation → Hip Escape → Half Guard → Closed Guard"
-      },
-      {
-        "name": "Turtle transition to guard",
-        "path": "North-South Bottom → Turn to Turtle → Sit to Guard → Butterfly Guard"
-      },
-      {
-        "name": "Reversal to top position",
-        "path": "North-South Bottom → Bridge and Roll → Side Control → Mount → Submission"
-      }
-    ],
     "related_content": [
       {
         "name": "Side Control",
@@ -360,16 +540,16 @@
         "relationship": "Fundamental movement for creating space"
       },
       {
-        "name": "Pin Escape Methodology",
-        "relationship": "Systematic framework for escaping all pin positions"
+        "name": "Half Guard",
+        "relationship": "Common guard recovery position from escape"
       },
       {
-        "name": "Frame Creation",
-        "relationship": "Essential defensive concept for creating breathing space"
+        "name": "Bridge and Roll",
+        "relationship": "Alternative escape technique using hip power"
       },
       {
-        "name": "Shrimping",
-        "relationship": "Core movement pattern for generating hip mobility"
+        "name": "Frame and Shrimp",
+        "relationship": "Combined technique for systematic escape"
       }
     ],
     "position_metrics": {
@@ -392,404 +572,74 @@
         "description": "Probability of reversing position and finishing from bottom"
       },
       "average_time": "45-90 seconds under sustained pressure before escape or submission"
-    }
-  },
-  "top": {
-    "name": "North-South Top",
-    "description": "Master North-South top position in BJJ. Complete guide to establishing crushing pressure control, submission attacks, and positional transitions from this dominant pinning position.",
-    "tags": [
-      "position",
-      "top",
-      "offensive",
-      "pin-control",
-      "north-south",
-      "pressure-passing"
-    ],
-    "overview": "North-South top is one of Brazilian Jiu-Jitsu's most dominant pinning positions, characterized by perpendicular chest-to-chest alignment where you distribute your entire body weight across your opponent's upper body while your heads point in opposite directions. This position offers exceptional control with relatively low energy expenditure once properly established, making it ideal for recovering stamina while maintaining offensive pressure.\n\nThe strategic value of North-South top lies in its dual functionality as both a control position and a submission platform. The crushing chest pressure restricts your opponent's breathing and movement while your hands remain free to isolate arms, set up chokes, or control the head. Unlike parallel positions like side control, the perpendicular alignment provides unique leverage for specific submissions like the North-South choke while making certain escapes more difficult for the bottom player.\n\nEstablishing effective North-South control requires precise weight distribution and arm control. Your chest must create continuous downward pressure across the opponent's chest and shoulders, not their stomach or hips. The pressure should restrict their rib expansion and breathing while your weight distribution prevents them from bridging effectively. Hand positioning varies based on your control strategy - you can secure underhooks, control arms directly, or establish grips for submission setups.\n\nThe position serves as a critical checkpoint during guard passing sequences and transitions between dominant positions. Skilled practitioners flow seamlessly from side control to North-South to mount, using the perpendicular alignment to consolidate control or set up submissions. Understanding when to maintain North-South versus when to transition is crucial - the position excels at control and specific submissions but may not be optimal for all finishing sequences. Mastery requires balancing pressure maintenance with transition timing and submission recognition.",
-    "state_properties": {
-      "point_value": 3,
-      "position_type": "Offensive/Controlling",
-      "risk_level": "Low",
-      "energy_cost": "Low",
-      "time_sustainability": "Long"
     },
-    "state_invariants": [
-      "Top player's chest maintains continuous downward pressure across bottom player's chest and shoulder area, with body weight distributed to compress their rib cage and restrict breathing while heads align perpendicular to each other",
-      "Top player's hips remain relatively low and base-wide to prevent bridging escapes, with weight forward over opponent's upper body rather than sitting back toward their legs where control weakens significantly",
-      "Top player controls or restricts bottom player's arms through underhooks, overhooks, or direct arm control to prevent defensive frame creation that would create escape space and reduce pressure effectiveness"
-    ],
-    "prerequisites": [
-      "Bottom player's back is flat on mat with guard passed or position entered from side control",
-      "Top player has achieved perpendicular body alignment with chest over opponent's chest",
-      "Top player controls or restricts at least one of bottom player's arms",
-      "Top player has established base and pressure to prevent immediate escape"
-    ],
-    "key_principles": [
-      "Distribute body weight across opponent's chest and shoulders, not stomach or hips",
-      "Keep chest pressure constant while hands work for arm control or submissions",
-      "Maintain low hip position with wide base to prevent bridge and roll escapes",
-      "Control opponent's arms before attempting major position transitions or submissions",
-      "Use shoulder and head pressure to restrict opponent's head movement and breathing",
-      "Transition to mount or other positions when opponent creates defensive frames",
-      "Balance between control maintenance and submission hunting based on opponent's reactions"
-    ],
-    "offensive_transitions": [
+    "transitions": [
       {
-        "technique": "North-South Choke",
-        "target_position": "Won by Submission",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 50,
-          "advanced": 70
-        }
+        "transition": "Elbow Escape",
+        "attempt_probability": 14
       },
       {
-        "technique": "Transition to Mount",
-        "target_position": "Mount",
-        "success_rates": {
-          "beginner": 45,
-          "intermediate": 65,
-          "advanced": 80
-        }
+        "transition": "Bridge and Roll",
+        "attempt_probability": 12
       },
       {
-        "technique": "North-South to Kimura",
-        "target_position": "Kimura Control",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 55,
-          "advanced": 75
-        }
+        "transition": "Turtle Transition",
+        "attempt_probability": 17
       },
       {
-        "technique": "Armbar from Side Control",
-        "target_position": "Won by Submission",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 45,
-          "advanced": 65
-        }
+        "transition": "Hip Escape",
+        "attempt_probability": 14
       },
       {
-        "technique": "Transition to North-South",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 50,
-          "intermediate": 70,
-          "advanced": 85
-        }
+        "transition": "North-South Escape",
+        "attempt_probability": 13
       },
       {
-        "technique": "Americana from Side Control",
-        "target_position": "Won by Submission",
-        "success_rates": {
-          "beginner": 20,
-          "intermediate": 40,
-          "advanced": 60
-        }
+        "transition": "Frame and Shrimp",
+        "attempt_probability": 12
       },
       {
-        "technique": "Side Control to Mount",
-        "target_position": "Mount",
-        "success_rates": {
-          "beginner": 40,
-          "intermediate": 60,
-          "advanced": 75
-        }
+        "transition": "Granby Roll",
+        "attempt_probability": 11
       },
       {
-        "technique": "Knee on Belly",
-        "target_position": "Knee on Belly",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 55,
-          "advanced": 70
-        }
-      },
-      {
-        "technique": "Spinning Armbar",
-        "target_position": "Won by Submission",
-        "success_rates": {
-          "beginner": 15,
-          "intermediate": 30,
-          "advanced": 50
-        }
-      },
-      {
-        "technique": "Reverse Armbar",
-        "target_position": "Won by Submission",
-        "success_rates": {
-          "beginner": 20,
-          "intermediate": 35,
-          "advanced": 55
-        }
+        "transition": "Technical Stand-up",
+        "attempt_probability": 7
       }
     ],
-    "defensive_responses": [
+    "knowledge_assessment": [
       {
-        "technique": "Elbow Escape",
-        "target_position": "Closed Guard",
-        "success_rate": 35
+        "question": "What is the first priority when you find yourself in North-South bottom?",
+        "answer": "The immediate priority is establishing controlled breathing and creating basic frames with your forearms against your opponent's chest. Panic breathing leads to rapid fatigue and poor decision-making. Place your forearms perpendicular to their chest to create structural frames, not pushing with muscle strength. This creates the minimum space needed for breathing while you assess your escape options."
       },
       {
-        "technique": "Bridge and Roll",
-        "target_position": "Side Control",
-        "success_rate": 25
+        "question": "Your opponent's weight is crushing your chest and you're struggling to breathe - what adjustment do you make?",
+        "answer": "Turn your body slightly to one side rather than remaining flat on your back - this angles your rib cage and creates space for lung expansion. Combine this with forearm frames against their chest to maintain the space. Time your inhales during their micro-adjustments or weight shifts, and exhale during their heavy pressure phases. Small incremental hip escapes also progressively reduce the chest-to-chest contact area."
       },
       {
-        "technique": "Turtle Transition",
-        "target_position": "Turtle",
-        "success_rate": 40
+        "question": "What are the essential frames needed to begin your escape sequence?",
+        "answer": "The primary frame is your forearm positioned perpendicular to your opponent's chest, creating a skeletal brace rather than a muscular push. Your elbow should be tight to your ribs for structural integrity. The secondary frame uses your other forearm against their far shoulder to prevent them from driving chest pressure. These frames work together to create and maintain the minimum space necessary for hip mobility and eventual guard recovery."
       },
       {
-        "technique": "Hip Escape",
-        "target_position": "Half Guard",
-        "success_rate": 30
+        "question": "How do you prevent your opponent from isolating your arm for a kimura attack?",
+        "answer": "Keep your elbows tight to your body at all times - never let your arm extend away from your torso or cross your centerline. When creating frames, your elbows should remain within the width of your shoulders. If they begin isolating an arm, immediately pull that elbow back tight to your ribs and fight for inside wrist control. Use your hip escape to angle away from the threatened arm, making the kimura grip more difficult to secure."
       },
       {
-        "technique": "North-South Escape",
-        "target_position": "Open Guard",
-        "success_rate": 25
+        "question": "Your opponent begins transitioning toward mount - what is your immediate response?",
+        "answer": "This is actually your best escape opportunity. As they shift weight to step over, their chest pressure momentarily decreases. Immediately insert your knee between your bodies, creating a knee shield. Your knee should reach their hip or chest line, with your shin perpendicular to their body. If you're too slow for the knee shield, turn to turtle position rather than accepting mount - turtle is more escapable than mount."
+      },
+      {
+        "question": "When is the optimal timing to attempt a bridge and roll escape from North-South?",
+        "answer": "The optimal timing is when your opponent reaches for a submission, particularly the kimura. As they isolate your arm and shift their weight to one side for the grip, their base becomes compromised. Bridge explosively toward the side they're reaching, trapping their posted arm if possible. This timing is critical - bridging against a settled opponent with proper base wastes energy and fails. Wait for their weight commitment to create the vulnerability."
+      },
+      {
+        "question": "How do you manage energy to avoid exhaustion while escaping North-South?",
+        "answer": "Focus on small, technical movements rather than explosive scrambles. Chain multiple small hip escapes together, moving inches at a time. Rest between escape attempts by establishing frames and controlling your breathing. Never fight directly against their weight - use timing and technique to escape during their movements or transitions. Recognize that one hip escape rarely succeeds; plan for 3-5 connected shrimps. Patience and systematic effort beats panic and exhaustion."
+      },
+      {
+        "question": "Your escape attempt is partially successful and you've created some space - how do you prevent them from re-consolidating control?",
+        "answer": "Immediately insert your knee or both knees between your bodies before they can close the distance. Maintain your frames throughout - the space you created is worthless without frames to keep it. Continue your hip escape to increase the distance. If they drive forward to re-consolidate, use the momentum to complete your turn toward guard recovery. Never pause or rest in a partial escape position - maintain constant motion toward a stable guard."
       }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Mount transition",
-        "target_position": "Mount",
-        "trigger": "Opponent creates frame and begins hip escape attempt"
-      },
-      {
-        "technique": "North-South choke",
-        "target_position": "Won by Submission",
-        "trigger": "Opponent extends arms to create frames exposing neck"
-      },
-      {
-        "technique": "Kimura isolation",
-        "target_position": "Kimura Control",
-        "trigger": "Opponent reaches across body during escape creating arm isolation opportunity"
-      },
-      {
-        "technique": "Back to side control",
-        "target_position": "Side Control",
-        "trigger": "Opponent begins turtle transition exposing their side"
-      }
-    ],
-    "decision_tree": [
-      {
-        "condition": "If opponent maintains flat back with arms controlled",
-        "actions": [
-          {
-            "technique": "North-South choke setup",
-            "target": "Won by Submission",
-            "probability": 55
-          },
-          {
-            "technique": "Maintain pressure and control",
-            "target": "North-South",
-            "probability": 70
-          }
-        ]
-      },
-      {
-        "condition": "If opponent creates frames and begins hip escape",
-        "actions": [
-          {
-            "technique": "Transition to mount",
-            "target": "Mount",
-            "probability": 65
-          },
-          {
-            "technique": "Switch to side control",
-            "target": "Side Control",
-            "probability": 60
-          }
-        ]
-      },
-      {
-        "condition": "If opponent exposes near arm during escape attempt",
-        "actions": [
-          {
-            "technique": "Kimura grip and control",
-            "target": "Kimura Control",
-            "probability": 60
-          },
-          {
-            "technique": "Americana lock",
-            "target": "Won by Submission",
-            "probability": 45
-          }
-        ]
-      },
-      {
-        "condition": "If opponent turns to turtle",
-        "actions": [
-          {
-            "technique": "Take the back",
-            "target": "Back Control",
-            "probability": 70
-          },
-          {
-            "technique": "Return to side control",
-            "target": "Side Control",
-            "probability": 65
-          }
-        ]
-      },
-      {
-        "condition": "If opponent extends both arms for frames",
-        "actions": [
-          {
-            "technique": "North-South choke",
-            "target": "Won by Submission",
-            "probability": 50
-          },
-          {
-            "technique": "Armbar setup",
-            "target": "Won by Submission",
-            "probability": 40
-          }
-        ]
-      }
-    ],
-    "common_errors": [
-      {
-        "error": "Sitting weight back toward opponent's hips instead of forward over chest",
-        "consequence": "Reduces chest pressure effectiveness, makes bridge and roll escapes easier, and loses primary control mechanism",
-        "correction": "Keep weight distributed forward over opponent's chest and shoulders with hips relatively low and base wide"
-      },
-      {
-        "error": "Allowing opponent's arms to remain free and create defensive frames",
-        "consequence": "Opponent establishes space for hip escapes, reduces pressure effectiveness, and creates escape opportunities",
-        "correction": "Immediately control at least one arm through underhooks or direct control before settling into position"
-      },
-      {
-        "error": "Lifting head and chest up during submission attempts",
-        "consequence": "Creates space for opponent to hip escape or bridge, loses positional control while hunting submission",
-        "correction": "Maintain heavy chest pressure even during submission setups, use shoulder and head pressure to keep opponent pinned"
-      },
-      {
-        "error": "Staying in North-South too long when opponent creates defensive frames",
-        "consequence": "Wastes energy fighting against established frames, allows opponent to systematically escape over time",
-        "correction": "Recognize when opponent establishes frames and transition to mount or side control rather than fighting position"
-      },
-      {
-        "error": "Reaching too far for submissions without securing control first",
-        "consequence": "Creates balance opportunities for opponent to bridge and roll, exposes your own position to reversals",
-        "correction": "Establish secure arm control and base before committing to submission attacks, keep weight distribution stable"
-      },
-      {
-        "error": "Using only upper body pressure without engaging hips and core",
-        "consequence": "Creates unstable pressure that's easier to escape, fatigues upper body muscles unnecessarily",
-        "correction": "Engage entire core and use hip positioning to drive weight forward, pressure comes from body structure not arm strength"
-      },
-      {
-        "error": "Allowing base to narrow when opponent begins escape attempts",
-        "consequence": "Makes position vulnerable to bridge and roll escapes, reduces stability during opponent's explosive movements",
-        "correction": "Widen base and lower hips immediately when sensing escape attempts, use sprawl-like posture to prevent rolls"
-      }
-    ],
-    "training_drills": [
-      {
-        "name": "North-South Control Maintenance",
-        "description": "Maintain North-South position against progressively resistant partner for timed rounds. Partner works systematic escapes while you focus on weight distribution, arm control, and pressure maintenance. Reset each time opponent escapes. Develop endurance and positional awareness.",
-        "duration": "5 minutes"
-      },
-      {
-        "name": "Submission Setup Flow Drill",
-        "description": "Flow between North-South choke, kimura, and armbar setups while maintaining pressure. Partner provides light resistance. Focus on seamless transitions between attacks without losing positional control. Build muscle memory for submission chains.",
-        "duration": "4 minutes"
-      },
-      {
-        "name": "Transition Sequences",
-        "description": "Practice flowing between side control, North-South, and mount in continuous sequences. Partner provides moderate resistance to transitions but not full escape attempts. Develop smooth positional flow and weight distribution adjustments between positions.",
-        "duration": "5 minutes"
-      },
-      {
-        "name": "Pressure Resistance Training",
-        "description": "Maintain maximum chest pressure in North-South while partner attempts only frame creation and breathing (no full escapes). You adjust weight distribution to counter their frames. Builds sensitivity to pressure points and control maintenance.",
-        "duration": "3 minutes"
-      }
-    ],
-    "optimal_submission_paths": [
-      {
-        "name": "Direct North-South choke finish",
-        "path": "North-South Top → Arm control → North-South Choke → Won by Submission"
-      },
-      {
-        "name": "Kimura to mount control",
-        "path": "North-South Top → Kimura Control → Mount → Armbar from Mount → Won by Submission"
-      },
-      {
-        "name": "Mount transition to submission",
-        "path": "North-South Top → Mount → High Mount → North-South Choke or Armbar → Won by Submission"
-      },
-      {
-        "name": "Back take from turtle",
-        "path": "North-South Top → Opponent turns to Turtle → Back Control → Rear Naked Choke → Won by Submission"
-      }
-    ],
-    "related_content": [
-      {
-        "name": "Side Control",
-        "relationship": "Common entry position and alternative control option"
-      },
-      {
-        "name": "Mount",
-        "relationship": "Primary transition target for positional advancement"
-      },
-      {
-        "name": "Knee on Belly",
-        "relationship": "Alternative pressure position with different control dynamics"
-      },
-      {
-        "name": "North-South Choke",
-        "relationship": "Primary submission from this position"
-      },
-      {
-        "name": "Kimura from North-South",
-        "relationship": "High-percentage submission option"
-      },
-      {
-        "name": "Pressure Application",
-        "relationship": "Essential principle for effective control"
-      },
-      {
-        "name": "Control Maintenance",
-        "relationship": "Framework for sustaining dominant positions"
-      },
-      {
-        "name": "Weight Distribution",
-        "relationship": "Critical concept for effective pressure control"
-      },
-      {
-        "name": "Transition to Mount",
-        "relationship": "Primary advancement technique from North-South"
-      },
-      {
-        "name": "Back Control",
-        "relationship": "Available when opponent turns to turtle"
-      }
-    ],
-    "position_metrics": {
-      "retention_rate": {
-        "beginner": 50,
-        "intermediate": 70,
-        "advanced": 85,
-        "description": "Ability to maintain North-South position against escape attempts"
-      },
-      "advancement_probability": {
-        "beginner": 45,
-        "intermediate": 65,
-        "advanced": 80,
-        "description": "Probability of transitioning to mount or securing submission"
-      },
-      "submission_probability": {
-        "beginner": 25,
-        "intermediate": 45,
-        "advanced": 65,
-        "description": "Probability of finishing submission directly from North-South"
-      },
-      "average_time": "60-120 seconds of control before transition or submission"
-    }
+    ]
   }
 }

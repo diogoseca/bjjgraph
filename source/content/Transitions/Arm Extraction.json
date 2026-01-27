@@ -10,8 +10,6 @@
     "framing",
     "hip-escape"
   ],
-  "starting_position": "Side Control",
-  "ending_position": "Guard Recovery",
   "success_rates": {
     "beginner": 45,
     "intermediate": 60,
@@ -261,6 +259,24 @@
     {
       "name": "Hitchhiker Escape",
       "relationship": "Alternative escape to use if opponent transitions to north-south during arm extraction attempt"
+    }
+  ],
+  "from_position": "Side Control/Top",
+  "outcomes": [
+    {
+      "to": "Guard Recovery/Bottom",
+      "probability": 75,
+      "result": "success"
+    },
+    {
+      "to": "Side Control/Top",
+      "probability": 15,
+      "result": "failure"
+    },
+    {
+      "to": "Side Control/Bottom",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

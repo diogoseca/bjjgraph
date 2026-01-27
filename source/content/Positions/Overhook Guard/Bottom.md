@@ -21,37 +21,37 @@ description: "Master Overhook Guard Bottom in BJJ. Complete guide covering contr
     {
       "@type": "HowToStep",
       "name": "Execute Overhook Sweep",
-      "text": "From this position, execute Overhook Sweep to transition to Mount Top. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Overhook Sweep. This technique is attempted in 13% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Bump Sweep",
-      "text": "From this position, execute Hip Bump Sweep to transition to Mount Top. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Hip Bump Sweep. This technique is attempted in 15% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Omoplata to Sweep",
-      "text": "From this position, execute Omoplata to Sweep to transition to Mount Top. Success rate for advanced practitioners: 60%.",
+      "name": "Execute Omoplata from Guard",
+      "text": "From this position, attempt Omoplata from Guard. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Rolling Back Take",
-      "text": "From this position, execute Rolling Back Take to transition to Back Control. Success rate for advanced practitioners: 55%.",
+      "name": "Execute Arm Drag to Back",
+      "text": "From this position, attempt Arm Drag to Back. This technique is attempted in 11% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Setup",
-      "text": "From this position, execute Triangle Setup to transition to Triangle Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Triangle Setup. This technique is attempted in 13% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kimura from Guard",
-      "text": "From this position, execute Kimura from Guard to transition to Kimura Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Kimura from Guard. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -213,90 +213,22 @@ Overhook Guard is particularly effective against opponents who attempt to establ
 
 ## Available Escapes
 
-### [[Overhook Sweep]] → [[Mount Top]]
+### [[Overhook Sweep]] (13% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 65%
+### [[Hip Bump Sweep]] (15% of attempts)
 
-### [[Hip Bump Sweep]] → [[Mount Top]]
+### [[Omoplata from Guard]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 60%
-- Advanced: 70%
+### [[Arm Drag to Back]] (11% of attempts)
 
-### [[Omoplata to Sweep]] → [[Mount Top]]
+### [[Triangle Setup]] (13% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Kimura from Guard]] (12% of attempts)
 
-### [[Rolling Back Take]] → [[Back Control]]
+### [[Omoplata from Guard]] (11% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
+### [[Armbar from Guard]] (13% of attempts)
 
-### [[Triangle Setup]] → [[Triangle Control]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-### [[Kimura from Guard]] → [[Kimura Control]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[Omoplata from Guard]] → [[Omoplata Control]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-### [[Armbar from Guard]] → [[Armbar Control]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Posture Recovery]]** → [[Closed Guard]]
-- **[[Arm Extraction]]** → [[Closed Guard]]
-- **[[Guard Opening Sequence]]** → [[Open Guard]]
-- **[[Stack Defense]]** → [[Headquarters Position]]
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Triangle Setup]]** → [[Triangle Control]]
-  - Opponent attempts to pull arm free from overhook
-- **[[Omoplata to Sweep]]** → [[Mount Top]]
-  - Opponent drives weight forward to stack
-- **[[Hip Bump Sweep]]** → [[Mount Top]]
-  - Opponent sits back to establish posture
-- **[[Rolling Back Take]]** → [[Back Control]]
-  - Opponent attempts to circle away from overhook
 
 
 </section>
@@ -306,22 +238,22 @@ Overhook Guard is particularly effective against opponents who attempt to establ
 ## Decision Making from This Position
 
 **If opponent maintains strong upright posture with hips back:**
-- Execute **[[Hip Bump Sweep]]** → [[Mount Top]] (Probability: 60%)
-- Execute **[[Overhook Sweep]]** → [[Mount Top]] (Probability: 55%)
+- Execute **[[Hip Bump Sweep]]** → [[Mount]] (Probability: 60%)
+- Execute **[[Overhook Sweep]]** → [[Mount]] (Probability: 55%)
 
 
 **If opponent drives weight forward attempting to stack:**
-- Execute **[[Omoplata to Sweep]]** → [[Mount Top]] (Probability: 50%)
+- Execute **[[Omoplata from Guard]]** → [[Omoplata Control]] (Probability: 50%)
 - Execute **[[Triangle Setup]]** → [[Triangle Control]] (Probability: 55%)
 
 
 **If opponent attempts to pull overhook arm free:**
 - Execute **[[Triangle Setup]]** → [[Triangle Control]] (Probability: 65%)
-- Execute **[[Kimura from Guard]]** → [[Kimura Control]] (Probability: 50%)
+- Execute **[[Kimura from Guard]]** → [[Kimura Trap]] (Probability: 50%)
 
 
 **If opponent circles away from overhook side:**
-- Execute **[[Rolling Back Take]]** → [[Back Control]] (Probability: 55%)
+- Execute **[[Arm Drag to Back]]** → [[Back Control]] (Probability: 55%)
 - Execute **[[Armbar from Guard]]** → [[Armbar Control]] (Probability: 50%)
 
 
@@ -403,33 +335,39 @@ Bottom player maintains overhook guard while top player attempts to flatten them
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### High-percentage triangle path
+## Test Your Knowledge
 
-`Overhook Guard Bottom → Triangle Setup → Triangle Control → Triangle from Guard`
+**Q1**: What is the correct hand positioning for an effective overhook that maintains control under pressure?
+**A**: Thread your arm deep over and around the opponent's arm so your hand grips their lat muscle, shoulder blade, or far side of their back. Your elbow should be tight to your ribs, not flaring out. The deeper your hand reaches behind their shoulder, the harder it is for them to strip the control. Avoid gripping just around their tricep as this shallow grip is easily broken.
 
-### Back attack path
+**Q2**: Your opponent begins posturing up forcefully while you have the overhook established - what adjustments maintain your control?
+**A**: Pull your overhook elbow tighter to your ribs while your hand pulls down on their lat. Simultaneously use your legs to prevent their hips from backing away by squeezing your knees together and pulling your heels toward your glutes. Add a collar or head grip with your free hand to create a second anchor point. If they continue posturing, follow their movement by sitting up with them rather than staying flat.
 
-`Overhook Guard Bottom → Rolling Back Take → Back Control → Rear Naked Choke`
+**Q3**: What are the essential grips needed to maintain overhook guard bottom against a pressure passer?
+**A**: The overhook itself is primary, with your hand deep on their lat or back. Your free hand must control their opposite arm - grab their wrist, sleeve, or collar to prevent them from establishing a crossface or strong frame. In gi, collar grip behind their neck provides excellent posture control. In no-gi, cup behind their head or control their tricep. Both grips working together prevent them from establishing any passing pressure.
 
-### Omoplata sweep to submission
+**Q4**: How do you prevent your opponent's primary defense of stacking your hips when attacking from overhook guard?
+**A**: Create angle before they can stack by hip escaping toward the overhook side. This positions your body at 45 degrees where stacking is mechanically difficult. Use your overhook to pull their shoulder down and toward you, preventing them from driving forward. If they begin stacking, immediately pivot your hips further to the side and transition to omoplata or triangle where their forward pressure becomes a liability.
 
-`Overhook Guard Bottom → Omoplata to Sweep → Mount Top → Armbar from Mount`
+**Q5**: What is the proper technique for applying shoulder pressure with your overhook to break opponent's posture?
+**A**: Pull your overhook elbow down toward your hip while your hand pulls their lat toward you. This creates a rotational force that breaks their posture by collapsing their shoulder forward and down. Combine this with your legs pulling their hips toward you. The pressure should feel like you're trying to curl their shoulder into your chest. Maintain constant tension rather than jerking motions.
 
-### Direct armbar path
+**Q6**: Your opponent partially escapes by getting their knee inside your guard - how do you recover without losing the overhook?
+**A**: Keep the overhook control as your anchor while immediately adjusting your leg position. Hip escape away from the knee that entered, creating space to recover your guard or transition to half guard with the overhook still intact. The overhook actually makes their knee position worse for passing because they can't post on that side. Use the overhook to keep their upper body controlled while your legs work to re-establish full guard closure.
 
-`Overhook Guard Bottom → Hip escape angle creation → Armbar from Guard → Armbar Control`
+**Q7**: How should you manage energy when maintaining overhook guard for extended guard retention?
+**A**: Use your skeletal structure rather than constant muscle tension - keep your elbow pinned to your ribs naturally, let your body weight pull on the overhook rather than actively gripping hard constantly. Breathe rhythmically and stay relaxed between attack attempts. Use micro-adjustments rather than big movements. Attack when opportunities present themselves rather than fighting for static control. A relaxed, active guard is sustainable; a tense, death-grip guard exhausts you quickly.
 
-### Kimura control path
-
-`Overhook Guard Bottom → Kimura from Guard → Kimura Control → Kimura`
+**Q8**: Your opponent explosively attempts to rip their arm free from the overhook - what is your immediate counter?
+**A**: Follow their arm movement rather than fighting it directly. As they pull, immediately transition to triangle by shooting your overhook-side leg over their shoulder since their posture is broken and arm is pulled back. Alternatively, switch to kimura grip as their arm extracts - their pulling motion actually assists your kimura entry. The key is to flow with their energy into an attack rather than losing a grip-fighting battle.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -450,14 +388,14 @@ Bottom player maintains overhook guard while top player attempts to flatten them
 
 ## Related Positions and Techniques
 
+- **[[Overhook Guard]]** - Hub position - parent position for this bottom perspective
 - **[[Closed Guard]]** - Parent guard position from which overhook variation is established
 - **[[Kimura Trap]]** - Natural progression when overhook is converted to kimura grip
 - **[[Triangle Control]]** - Common submission position reached from overhook attacks
 - **[[Omoplata Control]]** - Alternative submission position using overhook control mechanics
-- **[[Hip Bump Sweep]]** - Primary sweep technique from overhook guard position
-- **[[Underhook Defense]]** - Complementary concept for controlling opponent's arm positioning
-- **[[Grip Fighting]]** - Fundamental concept for establishing and maintaining overhook control
 - **[[Back Control]]** - Transition target when executing rolling back take from overhook
+- **[[Mount]]** - Primary sweep target position from overhook guard
+- **[[Armbar Control]]** - Submission position accessible when opponent defends sweeps
 
 
 </section>

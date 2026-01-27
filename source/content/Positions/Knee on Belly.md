@@ -37,6 +37,8 @@ Knee on Belly is a dynamic control position in Brazilian Jiu-Jitsu where one pra
 
 - Proper knee placement on solar plexus/diaphragm creates respiratory distress that accelerates defensive errors
 
+- The position's value lies in creating multiple dilemmas simultaneously - defend pressure, prevent advancement, and protect submissions
+
 
 </section>
 
@@ -85,29 +87,22 @@ Knee on Belly is a dynamic control position in Brazilian Jiu-Jitsu where one pra
 - Prioritize re-guard over stand-up escapes due to opponent's superior pressure and control position
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Elbow Escape]]** → [[Half Guard]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Elbow Escape]]** (17% of attempts)
 
-- **[[Hip Escape]]** → [[Closed Guard]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Hip Escape]]** (14% of attempts)
 
-- **[[Shrimp Escape]]** → [[Open Guard]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Shrimp Escape]]** (16% of attempts)
 
-- **[[Deep Half Entry]]** → [[Deep Half Guard]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Deep Half Entry]]** (13% of attempts)
 
-- **[[Knee Shield Retention]]** → [[Knee Shield Half Guard]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Knee Shield Retention]]** (16% of attempts)
 
-- **[[Technical Standup]]** → [[Standing Position]]
-  - Success Rate: Beginner 15%, Intermediate 25%, Advanced 40%
+- **[[Technical Standup]]** (10% of attempts)
 
-- **[[Frame and Shrimp]]** → [[Butterfly Guard]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Frame and Shrimp]]** (14% of attempts)
 
 
 ### Common Mistakes
@@ -169,32 +164,22 @@ Knee on Belly is a dynamic control position in Brazilian Jiu-Jitsu where one pra
 - Keep hips high and forward to maintain downward pressure angle through the knee
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Transition to Mount]]** → [[Mount]]
-  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+- **[[Side Control to Mount]]** (22% of attempts)
 
-- **[[Armbar from Side Control]]** → [[Armbar Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Armbar from Side Control]]** (14% of attempts)
 
-- **[[Baseball Bat Choke]]** → [[Baseball Bat Choke]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Baseball Bat Choke]]** (16% of attempts)
 
-- **[[Transition to North-South]]** → [[North-South]]
-  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 80%
+- **[[Side Control to North-South]]** (15% of attempts)
 
-- **[[Side Control to Mount]]** → [[Side Control]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Kimura from Side Control]]** (12% of attempts)
 
-- **[[Kimura from Side Control]]** → [[Kimura Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Back Take Generic]]** (10% of attempts)
 
-- **[[Back Take Generic]]** → [[Back Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
-
-- **[[S Mount Transition]]** → [[S Mount]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[S Mount Transition]]** (11% of attempts)
 
 
 ### Common Mistakes

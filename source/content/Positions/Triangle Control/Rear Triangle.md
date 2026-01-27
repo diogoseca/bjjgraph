@@ -93,26 +93,20 @@ The strategic significance of the rear triangle lies in its ability to create su
 - Generate rotation and angle changes to disrupt the triangle's structure rather than attempting pure strength-based escapes
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Arm Extraction]]** → [[Back Control]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+- **[[Arm Extraction]]** (19% of attempts)
 
-- **[[Triangle Escape]]** → [[Turtle]]
-  - Success Rate: Beginner 10%, Intermediate 25%, Advanced 40%
+- **[[Triangle Escape]]** (17% of attempts)
 
-- **[[Rolling Escape]]** → [[Closed Guard]]
-  - Success Rate: Beginner 8%, Intermediate 20%, Advanced 35%
+- **[[Rolling Escape]]** (15% of attempts)
 
-- **[[Stack Defense]]** → [[Defensive Position]]
-  - Success Rate: Beginner 12%, Intermediate 22%, Advanced 38%
+- **[[Stack Defense]]** (16% of attempts)
 
-- **[[Posture Recovery]]** → [[Back Control]]
-  - Success Rate: Beginner 10%, Intermediate 20%, Advanced 35%
+- **[[Posture Recovery]]** (15% of attempts)
 
-- **[[Hand Fighting from Back]]** → [[Seat Belt Control Back]]
-  - Success Rate: Beginner 18%, Intermediate 28%, Advanced 42%
+- **[[Hand Fighting from Back]]** (18% of attempts)
 
 
 ### Common Mistakes
@@ -174,26 +168,20 @@ The strategic significance of the rear triangle lies in its ability to create su
 - Transition fluidly between submission threats - rear triangle choke, armbar on trapped arm, and rear naked choke - to overwhelm opponent's defenses
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Triangle Choke Back]]** → [[Won by Submission]]
-  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 75%
+- **[[Triangle Choke Back]]** (19% of attempts)
 
-- **[[Armbar from Back with Legs]]** → [[Armbar Control]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 70%
+- **[[Armbar from Back with Legs]]** (17% of attempts)
 
-- **[[Rear Naked Choke]]** → [[Won by Submission]]
-  - Success Rate: Beginner 40%, Intermediate 60%, Advanced 80%
+- **[[Rear Naked Choke]]** (19% of attempts)
 
-- **[[Transition to Crucifix]]** → [[Crucifix]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 65%
+- **[[Aoki Lock to Crucifix]]** (16% of attempts)
 
-- **[[Bow and Arrow Choke]]** → [[Won by Submission]]
-  - Success Rate: Beginner 20%, Intermediate 40%, Advanced 60%
+- **[[Bow and Arrow Choke]]** (15% of attempts)
 
-- **[[Kimura from Back]]** → [[Kimura Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Kimura from Back]]** (14% of attempts)
 
 
 ### Common Mistakes

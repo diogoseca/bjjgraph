@@ -4,7 +4,7 @@
 
 ---
 title: "Z-Guard Bottom | BJJ Position Guide | BJJ Graph"
-description: "Master Z-Guard Bottom position in BJJ. Complete guide covering knee shield retention, sweeps, and back takes. Defensive half guard variation with 65% sweep success rate."
+description: "Master Z-Guard Bottom position in BJJ. Complete guide covering knee shield retention, sweeps, and back takes. Defensive half guard variation with exceptional retention capabilities."
 ---
 
 
@@ -21,37 +21,37 @@ description: "Master Z-Guard Bottom position in BJJ. Complete guide covering kne
     {
       "@type": "HowToStep",
       "name": "Execute Old School Sweep",
-      "text": "From this position, execute Old School Sweep to transition to Half Guard. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Old School Sweep. This technique is attempted in 14% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Sweep from Half",
-      "text": "From this position, execute Underhook Sweep from Half to transition to Half Guard. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 14% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Deep Half Entry",
-      "text": "From this position, execute Deep Half Entry to transition to Deep Half Guard. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Take Generic",
-      "text": "From this position, execute Back Take Generic to transition to Back Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Back Take Generic. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Truck",
-      "text": "From this position, execute Transition to Truck to transition to Truck. Success rate for advanced practitioners: 55%.",
+      "name": "Execute Turtle to Truck",
+      "text": "From this position, attempt Turtle to Truck. This technique is attempted in 11% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute X-Guard Sweep",
-      "text": "From this position, execute X-Guard Sweep to transition to X-Guard. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt X-Guard Sweep. This technique is attempted in 13% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -115,7 +115,7 @@ description: "Master Z-Guard Bottom position in BJJ. Complete guide covering kne
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Z-Guard Bottom",
-  "description": "Master Z-Guard Bottom position in BJJ. Complete guide covering knee shield retention, sweeps, and back takes. Defensive half guard variation with 65% sweep success rate.",
+  "description": "Master Z-Guard Bottom position in BJJ. Complete guide covering knee shield retention, sweeps, and back takes. Defensive half guard variation with exceptional retention capabilities.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -162,7 +162,7 @@ description: "Master Z-Guard Bottom position in BJJ. Complete guide covering kne
 
 Z-Guard Bottom is a dynamic half guard variation characterized by an active knee shield that creates distance and frames against the top player's pressure. This position, also known as Knee Shield Half Guard in some systems, represents one of the most versatile defensive positions in modern BJJ, offering exceptional retention capabilities while maintaining offensive sweep and back-take options. The fundamental structure involves trapping one of the opponent's legs with your inside leg while your outside leg creates a shield with the knee pressed into the opponent's shoulder or upper chest, preventing them from settling their weight and establishing effective passing pressure.
 
-The Z-Guard Bottom excels as a position that combines defensive soundness with offensive potential. Unlike traditional half guard where the bottom player often accepts significant pressure, Z-Guard maintains active frames and space, allowing the practitioner to control distance and tempo. The knee shield serves as both a defensive barrier preventing the pass and an offensive launching point for sweeps, with the extended leg providing leverage for off-balancing attacks. The position gained prominence through competitors like Craig Jones and Lachlan Giles, who demonstrated its effectiveness at the highest levels of competition, particularly in no-gi formats where traditional grips are unavailable.
+The Z-Guard Bottom excels as a position that combines defensive soundness with offensive potential. Unlike traditional half guard where the bottom player often accepts significant pressure, Z-Guard maintains active frames and space, allowing the practitioner to control distance and tempo. The knee shield serves as both a defensive barrier preventing the pass and an offensive launching point for sweeps, with the extended leg providing leverage for off-balancing attacks. The position gained prominence through competitors who demonstrated its effectiveness at the highest levels of competition, particularly in no-gi formats where traditional grips are unavailable.
 
 From a strategic perspective, Z-Guard Bottom represents a critical position in the modern guard retention hierarchy. It serves as an intermediary position between open guard and deep half guard, allowing practitioners to maintain distance against pressure passers while setting up transitions to more offensive positions. The position's effectiveness stems from its ability to nullify the opponent's weight advantage through proper framing and angle creation, while simultaneously threatening with sweeps that capitalize on the opponent's forward pressure. Understanding Z-Guard Bottom is essential for any serious competitor, as it addresses the fundamental problem of dealing with heavy top pressure while maintaining offensive capabilities.
 
@@ -214,95 +214,22 @@ From a strategic perspective, Z-Guard Bottom represents a critical position in t
 
 ## Available Escapes
 
-### [[Old School Sweep]] → [[Half Guard]]
+### [[Old School Sweep]] (14% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Underhook Sweep from Half]] (14% of attempts)
 
-### [[Underhook Sweep from Half]] → [[Half Guard]]
+### [[Deep Half Entry]] (13% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Back Take Generic]] (12% of attempts)
 
-### [[Deep Half Entry]] → [[Deep Half Guard]]
+### [[Turtle to Truck]] (11% of attempts)
 
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 60%
-- Advanced: 75%
+### [[X-Guard Sweep]] (13% of attempts)
 
-### [[Back Take Generic]] → [[Back Control]]
+### [[Lockdown Sweeps]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Electric Chair Submission]] (11% of attempts)
 
-### [[Transition to Truck]] → [[Truck]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-### [[X-Guard Sweep]] → [[X-Guard]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-### [[Lockdown Sweeps]] → [[Lockdown]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[Electric Chair Submission]] → [[Electric Chair]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Knee Slice Pass]]** → [[Side Control]] (Opponent Success: 45%)
-- **[[Underhook Pass]]** → [[Side Control]] (Opponent Success: 40%)
-- **[[Smash Pass]]** → [[Side Control]] (Opponent Success: 50%)
-- **[[Half Guard Pass]]** → [[Side Control]] (Opponent Success: 45%)
-- **[[Back Step]]** → [[Back Control]] (Opponent Success: 35%)
-- **[[Leg Weave Pass]]** → [[Side Control]] (Opponent Success: 40%)
-- **[[Knee Cut Pass]]** → [[Side Control]] (Opponent Success: 42%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Deep Half Entry]]** → [[Deep Half Guard]]
-  - Opponent drives forward pressure attempting to flatten knee shield
-- **[[Old School Sweep]]** → [[Half Guard]]
-  - Opponent posts hand on mat near your head to prevent being swept
-- **[[Back Take Generic]]** → [[Back Control]]
-  - Opponent attempts to free trapped leg by stepping over
-- **[[Lockdown Sweeps]]** → [[Lockdown]]
-  - Opponent successfully collapses knee shield and attempts to consolidate top position
-- **[[Electric Chair Submission]]** → [[Electric Chair]]
-  - Opponent tries to circle to backstep position exposing far leg
 
 
 </section>
@@ -324,7 +251,7 @@ From a strategic perspective, Z-Guard Bottom represents a critical position in t
 **If opponent attempts to circle around knee shield toward backstep position:**
 - Execute **[[Back Take Generic]]** → [[Back Control]] (Probability: 60%)
 - Execute **[[Electric Chair Submission]]** → [[Electric Chair]] (Probability: 50%)
-- Execute **[[Transition to Truck]]** → [[Truck]] (Probability: 55%)
+- Execute **[[Turtle to Truck]]** → [[Truck]] (Probability: 55%)
 
 
 **If opponent successfully collapses knee shield but has not yet established full passing pressure:**
@@ -427,33 +354,39 @@ Start from flattened half guard or nearly-passed position. Bottom player must re
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Shortest Electric Chair Path
+## Test Your Knowledge
 
-`Z-Guard Bottom → Electric Chair Submission → Won by Submission`
+**Q1**: Your opponent starts to drive heavy pressure into your knee shield - what adjustment should you make to maintain the position?
+**A**: Rather than fighting the pressure head-on, use hip mobility to create an angle by escaping your hips slightly away from the pressure. Simultaneously extend your knee shield more forcefully into their shoulder while keeping your foot hooked on their hip for additional distance control. If pressure continues to increase, this is actually your cue to transition to deep half guard by allowing them to collapse your frame while you dive underneath them.
 
-### High-Percentage Sweep to Submission
+**Q2**: What are the essential grips for maintaining Z-Guard effectively?
+**A**: The underhook on the trapped leg side is the most critical grip - it controls opponent's posture and enables all major sweeps. Secondary grips include: collar tie on the same side to prevent crossface, far side sleeve or wrist control to prevent them from establishing grips, and potentially a pants grip near their knee to control their base. The combination of underhook plus one secondary grip is the minimum for effective offense.
 
-`Z-Guard Bottom → Old School Sweep → Half Guard → Kimura from Half Guard → Won by Submission`
+**Q3**: How do you shut down the opponent's primary passing attack - the knee slice?
+**A**: Prevent the knee slice by maintaining constant tension in your knee shield against their shoulder rather than letting it drop to their hip. Control their far arm to prevent them from establishing the crossface that enables the slice. Keep your hips angled rather than square - if they begin the slice motion, hip escape away while maintaining the underhook to create space. If they commit hard to the slice, use their forward momentum to enter deep half or execute an underhook sweep.
 
-### Back Attack Pathway
+**Q4**: What grip priorities should you establish when first entering Z-Guard?
+**A**: First priority is securing the underhook on the trapped leg side before opponent can establish crossface. Second priority is establishing a controlling grip on their far side - sleeve, collar, or wrist - to limit their options. Third priority is ensuring proper knee shield placement high on their shoulder rather than low on their chest. These three elements create the foundation that makes all offensive options available.
 
-`Z-Guard Bottom → Back Take Generic → Back Control → Rear Naked Choke → Won by Submission`
+**Q5**: How should you apply the knee shield for maximum defensive effectiveness?
+**A**: Position your knee directly into opponent's shoulder or collarbone rather than their chest or bicep. Angle your shin upward at approximately 45 degrees with your foot hooking their hip or thigh to create maximum distance. Maintain constant active pressure - think of it as a spring that must stay loaded. Your knee shield should feel like a barrier they cannot simply push through, redirecting their pressure rather than absorbing it.
 
-### Deep Half to Leg Lock
+**Q6**: Your opponent begins circling toward your back to avoid the knee shield - how should you react?
+**A**: Recognize this as an offensive opportunity rather than a defensive problem. As they circle, use your underhook to follow their movement and begin climbing up their back. Convert your bottom hook to a back hook and look to establish seatbelt control. If they've overcommitted to the circle, you may be able to take their back directly. If they stop mid-circle, use the angle they've created to hit the old school sweep or transition to electric chair.
 
-`Z-Guard Bottom → Deep Half Entry → Deep Half Guard → Ashi Garami → Heel Hook → Won by Submission`
+**Q7**: How do you manage energy when facing a heavy pressure passer who is systematically working to collapse your frames?
+**A**: Conserve energy by using frames and leverage rather than muscular resistance. Let your skeletal structure bear the weight through proper knee shield positioning rather than holding them off with arm strength. Use opponent's pressure to load your sweeps - when they push, that energy can be redirected into sweep attempts. If position becomes too compromised, transition to deep half rather than exhausting yourself defending a deteriorating Z-Guard.
 
-### Truck to Twister Sequence
-
-`Z-Guard Bottom → Transition to Truck → Truck → Twister Finish → Won by Submission`
+**Q8**: After your knee shield partially collapses but you haven't been passed, what's your recovery strategy?
+**A**: Immediately make a decision - either re-establish the knee shield or commit to a transition. To recover, hip escape aggressively while using your arms to frame and create space, then re-insert the knee shield before they can settle their weight. If recovery isn't possible, accept the collapse and dive into deep half guard using their forward momentum. The worst option is staying in the halfway position where you have neither good defense nor offensive options.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -479,10 +412,10 @@ Start from flattened half guard or nearly-passed position. Bottom player must re
 - **[[Lockdown]]** - Alternative half guard retention system when Z-Guard is compromised
 - **[[Half Guard]]** - Parent position category - Z-Guard is specialized variation
 - **[[Knee Shield Half Guard]]** - Closely related position with similar mechanics but lower knee placement
-- **[[Old School Sweep]]** - Signature sweep from Z-Guard utilizing posted hand as fulcrum
 - **[[Electric Chair]]** - Submission position accessed when opponent attempts backstep
-- **[[Underhook Battle]]** - Grip fighting stage often preceding Z-Guard establishment
-- **[[10th Planet Half Guard Bottom System]]** - Comprehensive system incorporating Z-Guard, Lockdown, and Electric Chair
+- **[[Dogfight Position]]** - Common scramble position after partial sweep success
+- **[[X-Guard]]** - Transition option when opponent maintains distance
+- **[[Back Control]]** - Offensive target when opponent circles around knee shield
 
 
 </section>

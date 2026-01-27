@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Knee Cut Pass | BJJ Technique | BJJ Graph"
 description: "Master the Knee Cut Pass in BJJ. Complete guide from Open Guard to Side Control with step-by-step execution. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%."
@@ -16,7 +17,7 @@ description: "Master the Knee Cut Pass in BJJ. Complete guide from Open Guard to
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Knee Cut Pass in BJJ",
-  "description": "Step-by-step guide for Knee Cut Pass from Open Guard to Side Control.",
+  "description": "Step-by-step guide for Knee Cut Pass from Open Guard/Bottom. Possible outcomes: Side Control/Top (75%), Open Guard/Bottom (15%), Open Guard/Top (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -164,11 +165,25 @@ What makes the knee cut particularly powerful is its versatility across all leve
 
 The knee cut pass represents a perfect marriage of pressure passing and movement-based passing. Unlike purely smash passes that rely on static pressure, or purely speed passes that rely on rapid movement, the knee cut combines both elements. The passer must maintain constant forward pressure while simultaneously cutting their knee through the opponent's leg line, creating a dynamic pass that adapts to defensive reactions. This dual nature makes it both highly effective and highly technical, requiring practitioners to develop sensitivity to weight distribution and timing.
 
-**Starting Position**: [[Open Guard]]
-**Ending Position**: [[Side Control]]
+**From Position**: [[Open Guard/Bottom]]
 **Success Rates**: Beginner 45%, Intermediate 60%, Advanced 75%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Side Control/Top]] | 75% |
+| Failure | [[Open Guard/Bottom]] | 15% |
+| Counter | [[Open Guard/Top]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

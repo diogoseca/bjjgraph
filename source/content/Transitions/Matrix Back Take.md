@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Matrix Back Take | BJJ Technique | BJJ Graph"
 description: "Master the Matrix Back Take from turtle. Step-by-step execution with control maintenance and weight distribution. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%."
@@ -16,7 +17,7 @@ description: "Master the Matrix Back Take from turtle. Step-by-step execution wi
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Matrix Back Take in BJJ",
-  "description": "Step-by-step guide for Matrix Back Take from Turtle to Back Control.",
+  "description": "Step-by-step guide for Matrix Back Take from Turtle/Top. Possible outcomes: Back Control/Top (75%), Turtle/Top (15%), Turtle/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -164,11 +165,25 @@ This technique requires excellent body awareness, timing, and the ability to rea
 
 The Matrix Back Take has become increasingly popular in modern no-gi grappling, where traditional gi-based controls are unavailable. It represents a sophisticated understanding of positional transitions and demonstrates the importance of movement quality over static pressure. This technique is commonly seen in high-level competition and is a staple in many contemporary back attack systems.
 
-**Starting Position**: [[Turtle]]
-**Ending Position**: [[Back Control]]
+**From Position**: [[Turtle/Top]]
 **Success Rates**: Beginner 45%, Intermediate 60%, Advanced 75%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Back Control/Top]] | 75% |
+| Failure | [[Turtle/Top]] | 15% |
+| Counter | [[Turtle/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

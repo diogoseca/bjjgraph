@@ -21,37 +21,37 @@ description: "Master Open Guard Bottom in BJJ. Complete guide covering setup, co
     {
       "@type": "HowToStep",
       "name": "Execute Scissor Sweep",
-      "text": "From this position, execute Scissor Sweep to transition to Mount. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Scissor Sweep. This technique is attempted in 9% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Bump Sweep",
-      "text": "From this position, execute Hip Bump Sweep to transition to Mount. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Hip Bump Sweep. This technique is attempted in 9% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Butterfly Sweep",
-      "text": "From this position, execute Butterfly Sweep to transition to Mount. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Butterfly Sweep. This technique is attempted in 11% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute De La Riva Sweep",
-      "text": "From this position, execute De La Riva Sweep to transition to Standing Position. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt De La Riva Sweep. This technique is attempted in 9% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute X-Guard Sweep",
-      "text": "From this position, execute X-Guard Sweep to transition to Mount. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt X-Guard Sweep. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Spider Guard Sweeps",
-      "text": "From this position, execute Spider Guard Sweeps to transition to Mount. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Spider Guard Sweeps. This technique is attempted in 9% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -209,123 +209,30 @@ Open Guard Bottom is a dynamic family of guard positions where the bottom player
 
 ## Available Escapes
 
-### [[Scissor Sweep]] → [[Mount]]
+### [[Scissor Sweep]] (9% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Hip Bump Sweep]] (9% of attempts)
 
-### [[Hip Bump Sweep]] → [[Mount]]
+### [[Butterfly Sweep]] (11% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
+### [[De La Riva Sweep]] (9% of attempts)
 
-### [[Butterfly Sweep]] → [[Mount]]
+### [[X-Guard Sweep]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Spider Guard Sweeps]] (9% of attempts)
 
-### [[De La Riva Sweep]] → [[Standing Position]]
+### [[Lasso Guard Sweeps]] (9% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 60%
+### [[Omoplata Sweep]] (8% of attempts)
 
-### [[X-Guard Sweep]] → [[Mount]]
+### [[Triangle from Guard]] (7% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 70%
+### [[Armbar from Guard]] (6% of attempts)
 
-### [[Spider Guard Sweeps]] → [[Mount]]
+### [[Kimura from Guard]] (7% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Omoplata from Guard]] (6% of attempts)
 
-### [[Lasso Guard Sweeps]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[Omoplata Sweep]] → [[Mount]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-### [[Triangle from Guard]] → [[Triangle Control]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
-
-### [[Armbar from Guard]] → [[Armbar Control]]
-
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 45%
-
-### [[Kimura from Guard]] → [[Kimura Control]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
-
-### [[Omoplata from Guard]] → [[Omoplata Control]]
-
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 45%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Knee Slice Pass]]** → [[Side Control]] (Opponent Success: 45%)
-- **[[Toreando Pass]]** → [[Side Control]] (Opponent Success: 50%)
-- **[[Over-Under Pass]]** → [[Side Control]] (Opponent Success: 40%)
-- **[[Stack Pass]]** → [[Side Control]] (Opponent Success: 35%)
-- **[[Long Step Pass]]** → [[Side Control]] (Opponent Success: 40%)
-- **[[Leg Drag Pass]]** → [[Back Control]] (Opponent Success: 45%)
-- **[[Body Lock Pass]]** → [[Side Control]] (Opponent Success: 35%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Butterfly Guard to X-Guard]]** → [[X-Guard]]
-  - Opponent stands to counter butterfly hooks
-- **[[De La Riva to X-Guard Transition]]** → [[X-Guard]]
-  - Opponent attempts to clear de la riva hook
-- **[[Open Guard to Deep Half]]** → [[Deep Half Guard]]
-  - Opponent attempts knee slice or smash pass
-- **[[Reverse De La Riva Recovery]]** → [[Reverse De La Riva Guard]]
-  - Opponent circles away from de la riva hook
-- **[[Shin Shield Recovery]]** → [[Knee Shield Half Guard]]
-  - Opponent achieves partial pass but not yet consolidated
 
 
 </section>
@@ -446,33 +353,39 @@ Positional sparring focused exclusively on establishing and breaking grips from 
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Triangle Attack Path
+## Test Your Knowledge
 
-`Open Guard → Triangle from Guard → Triangle Control → Triangle Choke Front → Won by Submission`
+**Q1**: Your opponent begins driving forward with shoulder pressure - what hip adjustment maintains your guard structure?
+**A**: Immediately hip escape diagonally away from the pressure direction while maintaining one foot on their hip and the other creating a frame on their knee or thigh. Never stay flat when pressure comes - angle your body to create space and prevent being flattened. This hip escape creates the space needed to insert hooks or establish a specific guard variation.
 
-### Armbar from Guard Path
+**Q2**: What are the essential connection points for maintaining open guard control against a standing opponent?
+**A**: Minimum two connection points required: one controlling lower body (foot on hip, de la riva hook, or shin frame) and one controlling upper body (collar grip, sleeve grip, or wrist control). Without both connections, opponent can freely advance. The feet manage distance while hands control their posture and movement direction.
 
-`Open Guard → Armbar from Guard → Armbar Control → Armbar Finish → Won by Submission`
+**Q3**: How do you shut down a toreando pass attempt when opponent grabs your pants at the knees?
+**A**: Immediately grip their sleeves or wrists to prevent them from redirecting your legs. Keep your knees pointed at them rather than allowing them to be pushed to one side. If they begin the lateral movement, follow with your hips and establish a hook on their near leg. The key is preventing the angle creation by keeping your legs between you and them.
 
-### Omoplata Chain Path
+**Q4**: Your opponent strips your collar grip while maintaining pant control - what immediate recovery prevents the pass?
+**A**: Establish a new connection point immediately - either re-grip the collar from a different angle, control their same-side sleeve, or frame on their shoulder with your hand. Simultaneously create distance with your feet by pushing on their hips. Never allow them to have upper body freedom while controlling your legs - this is the passing configuration.
 
-`Open Guard → Omoplata from Guard → Omoplata Control → Omoplata Sweep → Mount → Kimura from Mount → Won by Submission`
+**Q5**: What weight distribution fundamentals allow you to maintain guard when being stacked?
+**A**: Keep weight on your upper back and shoulders rather than rolling onto your neck. Post with one or both hands behind you to prevent being folded completely. Turn your body to the side rather than staying square - this makes stacking much more difficult and creates angles for guard retention or sweep opportunities.
 
-### Kimura to Back Path
+**Q6**: How do you maintain control when your primary guard variation is being systematically dismantled?
+**A**: Transition to a different guard variation before your current guard completely fails. Recognize early warning signs (losing key grips, opponent creating angle) and flow to complementary guards. For example, if spider guard grips are being stripped, transition to lasso or de la riva before losing all control. The transition itself can create sweep opportunities.
 
-`Open Guard → Kimura from Guard → Kimura Trap → Kimura to Back Take → Back Control → Rear Naked Choke → Won by Submission`
+**Q7**: What framing priorities prevent opponent from achieving chest-to-chest pressure?
+**A**: Primary frame on their shoulder or bicep with your forearm - not extended arm. Secondary frame with your knee or shin across their hip line. Keep elbows tight to your body when framing to prevent kimura attacks. Create a structure that uses your skeleton's strength rather than muscular effort to maintain distance.
 
-### Sweep to Mount Submission Path
-
-`Open Guard → Butterfly Sweep → Mount → Armbar from Mount → Won by Submission`
+**Q8**: How do you manage energy when defending sustained passing pressure for extended periods?
+**A**: Use efficient movements - small hip adjustments rather than large escapes when possible. Let your guard structure absorb pressure rather than fighting it directly. Threaten sweeps and submissions to force opponent to reset rather than continuously defending. Transition to half guard or closed guard periodically to recover if needed - these require less active maintenance.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -500,9 +413,9 @@ Positional sparring focused exclusively on establishing and breaking grips from 
 - **[[Lasso Guard]]** - Specific open guard variation with lasso grip
 - **[[X-Guard]]** - Advanced open guard variation for sweeps
 - **[[Half Guard]]** - Common transition when open guard is partially passed
-- **[[Guard Retention Concepts]]** - Fundamental concepts for maintaining guard
-- **[[Sweep Mechanics]]** - Technical principles for executing sweeps from guard
-- **[[Grip Fighting]]** - Essential skill set for open guard control
+- **[[Scissor Sweep]]** - Fundamental sweep technique from open guard
+- **[[Hip Bump Sweep]]** - High-percentage sweep when opponent pressures forward
+- **[[Butterfly Sweep]]** - Core sweeping technique from butterfly guard variation
 
 
 </section>

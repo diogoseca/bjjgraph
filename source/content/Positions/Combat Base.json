@@ -43,142 +43,38 @@
     "Keep elbows tight to body and avoid overextending arms to prevent armbars, omoplatas, and triangle setups",
     "Adjust stance width and knee position based on opponent's guard type and defensive strategy to optimize passing angles"
   ],
-  "offensive_transitions": [
+  "transitions": [
     {
-      "technique": "Knee Slice Pass",
-      "target_position": "Side Control",
-      "success_rates": {
-        "beginner": 45,
-        "intermediate": 60,
-        "advanced": 75
-      }
+      "transition": "Knee Slice Pass",
+      "attempt_probability": 20
     },
     {
-      "technique": "Toreando Pass",
-      "target_position": "Side Control",
-      "success_rates": {
-        "beginner": 40,
-        "intermediate": 55,
-        "advanced": 70
-      }
+      "transition": "Toreando Pass",
+      "attempt_probability": 18
     },
     {
-      "technique": "Long Step Pass",
-      "target_position": "Side Control",
-      "success_rates": {
-        "beginner": 35,
-        "intermediate": 50,
-        "advanced": 65
-      }
+      "transition": "Long Step Pass",
+      "attempt_probability": 12
     },
     {
-      "technique": "Double Under Pass",
-      "target_position": "Side Control",
-      "success_rates": {
-        "beginner": 30,
-        "intermediate": 45,
-        "advanced": 60
-      }
+      "transition": "Double Under Pass",
+      "attempt_probability": 10
     },
     {
-      "technique": "Knee Cut Pass",
-      "target_position": "Side Control",
-      "success_rates": {
-        "beginner": 40,
-        "intermediate": 55,
-        "advanced": 70
-      }
+      "transition": "Leg Drag Pass",
+      "attempt_probability": 15
     },
     {
-      "technique": "Leg Drag Pass",
-      "target_position": "Leg Drag Position",
-      "success_rates": {
-        "beginner": 35,
-        "intermediate": 50,
-        "advanced": 65
-      }
+      "transition": "Headquarters Pass",
+      "attempt_probability": 10
     },
     {
-      "technique": "Headquarters Pass",
-      "target_position": "Headquarters Position",
-      "success_rates": {
-        "beginner": 30,
-        "intermediate": 45,
-        "advanced": 60
-      }
+      "transition": "Smash Pass",
+      "attempt_probability": 10
     },
     {
-      "technique": "Smash Pass",
-      "target_position": "Side Control",
-      "success_rates": {
-        "beginner": 35,
-        "intermediate": 50,
-        "advanced": 65
-      }
-    }
-  ],
-  "defensive_responses": [
-    {
-      "technique": "De La Riva Guard Entry",
-      "target_position": "De La Riva Guard",
-      "success_rate": 40
-    },
-    {
-      "technique": "X-Guard Entry",
-      "target_position": "X-Guard",
-      "success_rate": 35
-    },
-    {
-      "technique": "Single Leg X Entry",
-      "target_position": "Single Leg X-Guard",
-      "success_rate": 35
-    },
-    {
-      "technique": "Butterfly Hook Retention",
-      "target_position": "Butterfly Guard",
-      "success_rate": 40
-    },
-    {
-      "technique": "Reverse De La Riva Recovery",
-      "target_position": "Reverse De La Riva Guard",
-      "success_rate": 30
-    },
-    {
-      "technique": "Spider Guard Retention",
-      "target_position": "Spider Guard",
-      "success_rate": 35
-    },
-    {
-      "technique": "Lasso Guard Variations",
-      "target_position": "Lasso Guard",
-      "success_rate": 30
-    }
-  ],
-  "counter_transitions": [
-    {
-      "technique": "Knee Slice Pass",
-      "target_position": "Side Control",
-      "trigger": "Opponent attempts to re-establish closed guard or frames against chest with feet on hips"
-    },
-    {
-      "technique": "Leg Drag Pass",
-      "target_position": "Leg Drag Position",
-      "trigger": "Opponent extends legs for distance creation or attempts to establish De La Riva hook on posted leg"
-    },
-    {
-      "technique": "Toreando Pass",
-      "target_position": "Side Control",
-      "trigger": "Opponent elevates hips for sweep attempt or creates excessive space between bodies"
-    },
-    {
-      "technique": "Stack Pass",
-      "target_position": "Side Control",
-      "trigger": "Opponent pulls knees to chest in defensive turtle position or inverts"
-    },
-    {
-      "technique": "Over-Under Pass",
-      "target_position": "Side Control",
-      "trigger": "Opponent attempts to create frames with legs extended and feet on hips"
+      "transition": "Stack Pass",
+      "attempt_probability": 5
     }
   ],
   "decision_tree": [
@@ -193,7 +89,7 @@
         {
           "technique": "Leg Drag Pass",
           "target": "Leg Drag Position",
-          "probability": 50
+          "probability": 45
         }
       ]
     },
@@ -203,12 +99,12 @@
         {
           "technique": "Knee Slice Pass",
           "target": "Side Control",
-          "probability": 60
+          "probability": 55
         },
         {
           "technique": "Smash Pass",
           "target": "Side Control",
-          "probability": 50
+          "probability": 45
         }
       ]
     },
@@ -218,7 +114,7 @@
         {
           "technique": "Leg Drag Pass",
           "target": "Leg Drag Position",
-          "probability": 50
+          "probability": 55
         },
         {
           "technique": "Headquarters Pass",
@@ -233,7 +129,7 @@
         {
           "technique": "Long Step Pass",
           "target": "Side Control",
-          "probability": 50
+          "probability": 45
         },
         {
           "technique": "Toreando Pass",
@@ -248,7 +144,7 @@
         {
           "technique": "Double Under Pass",
           "target": "Side Control",
-          "probability": 45
+          "probability": 50
         },
         {
           "technique": "Stack Pass",
@@ -322,28 +218,6 @@
       "duration": "5 minutes"
     }
   ],
-  "optimal_submission_paths": [
-    {
-      "name": "Shortest path to submission",
-      "path": "Combat Base → Toreando Pass → Side Control → Kimura"
-    },
-    {
-      "name": "High-percentage control path",
-      "path": "Combat Base → Knee Slice Pass → Side Control → Mount → Armbar from Mount"
-    },
-    {
-      "name": "Pressure-based submission path",
-      "path": "Combat Base → Smash Pass → Side Control → North-South → North-South Choke"
-    },
-    {
-      "name": "Back attack path",
-      "path": "Combat Base → Long Step Pass → Side Control → Back Control → Rear Naked Choke"
-    },
-    {
-      "name": "Leg entanglement path",
-      "path": "Combat Base → Headquarters Pass → Headquarters Position → Saddle → Heel Hook"
-    }
-  ],
   "related_content": [
     {
       "name": "Closed Guard",
@@ -370,28 +244,28 @@
       "relationship": "Primary transition technique - High-percentage pressure pass from combat base"
     },
     {
-      "name": "Guard Passing",
-      "relationship": "Foundational concept - Core principles applied in combat base positioning"
-    },
-    {
-      "name": "Base Maintenance",
-      "relationship": "Core principle - Essential for maintaining combat base integrity against sweeps"
-    },
-    {
-      "name": "Posture Up",
-      "relationship": "Core principle - Critical for effective combat base structure and submission defense"
-    },
-    {
-      "name": "Pressure Passing",
-      "relationship": "System concept - Combat base serves as platform for pressure passing sequences"
-    },
-    {
       "name": "De La Riva Guard",
       "relationship": "Counter position - Common guard retention response to combat base"
     },
     {
       "name": "Leg Drag Position",
       "relationship": "Transition target - Alternative passing position from combat base against hooks"
+    },
+    {
+      "name": "X-Guard",
+      "relationship": "Counter position - Opponent's elevation-based guard option against combat base"
+    },
+    {
+      "name": "Butterfly Guard",
+      "relationship": "Counter position - Opponent's hook-based guard for off-balancing combat base"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Common destination - Position often reached when passes are partially defended"
+    },
+    {
+      "name": "Knee on Belly",
+      "relationship": "Alternative target - High-control position accessible from combat base passing"
     }
   ],
   "position_metrics": {

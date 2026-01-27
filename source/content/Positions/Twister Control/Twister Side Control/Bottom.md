@@ -21,37 +21,37 @@ description: "Defend twister side control with systematic escape strategies. Lea
     {
       "@type": "HowToStep",
       "name": "Execute Granby Roll",
-      "text": "From this position, execute Granby Roll to transition to Half Guard. Success rate for advanced practitioners: 45%.",
+      "text": "From this position, attempt Granby Roll. This technique is attempted in 15% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Technical Stand-up",
-      "text": "From this position, execute Technical Stand-up to transition to Standing Position. Success rate for advanced practitioners: 40%.",
+      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 13% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape",
-      "text": "From this position, execute Hip Escape to transition to Closed Guard. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Hip Escape. This technique is attempted in 17% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Frame and Shrimp",
-      "text": "From this position, execute Frame and Shrimp to transition to Open Guard. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Frame and Shrimp. This technique is attempted in 18% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Turtle Transition",
-      "text": "From this position, execute Turtle Transition to transition to Turtle. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Turtle Transition. This technique is attempted in 21% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling to Guard",
-      "text": "From this position, execute Rolling to Guard to transition to Half Guard. Success rate for advanced practitioners: 48%.",
+      "text": "From this position, attempt Rolling to Guard. This technique is attempted in 16% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -215,75 +215,18 @@ The learning curve for defending Twister Side Control is steep, with beginners o
 
 ## Available Escapes
 
-### [[Granby Roll]] → [[Half Guard]]
+### [[Granby Roll]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 45%
+### [[Technical Stand-up]] (13% of attempts)
 
-### [[Technical Stand-up]] → [[Standing Position]]
+### [[Hip Escape]] (17% of attempts)
 
-**Success Rates:**
-- Beginner: 10%
-- Intermediate: 25%
-- Advanced: 40%
+### [[Frame and Shrimp]] (18% of attempts)
 
-### [[Hip Escape]] → [[Closed Guard]]
+### [[Turtle Transition]] (21% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
+### [[Rolling to Guard]] (16% of attempts)
 
-### [[Frame and Shrimp]] → [[Open Guard]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-### [[Turtle Transition]] → [[Turtle]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[Rolling to Guard]] → [[Half Guard]]
-
-**Success Rates:**
-- Beginner: 18%
-- Intermediate: 33%
-- Advanced: 48%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Shoulder Pressure]]** → [[Twister Side Control Bottom]] (Opponent Success: 60%)
-- **[[Hip Pressure]]** → [[Twister Side Control Bottom]] (Opponent Success: 55%)
-- **[[Leg Entanglement]]** → [[Side Control]] (Opponent Success: 40%)
-- **[[Spine Protection]]** → [[Twister Side Control Bottom]] (Opponent Success: 70%)
-- **[[Elbow Escape]]** → [[Half Guard]] (Opponent Success: 35%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Bridge and Roll]]** → [[Mount Top]]
-  - When top player overcommits weight forward while attempting twister setup, creating reversal opportunity
-- **[[Underhook Control]]** → [[Dogfight Position]]
-  - When top player's shoulder pressure momentarily reduces during leg position adjustment
-- **[[Granby Roll]]** → [[Half Guard]]
-  - When top player attempts to deepen twister control by moving toward back exposure
 
 
 </section>
@@ -293,8 +236,8 @@ The learning curve for defending Twister Side Control is steep, with beginners o
 ## Decision Making from This Position
 
 **If top player is actively attacking twister submission with full spinal torque:**
-- Execute **[[Spine Protection]]** → [[Defensive Position]] (Probability: 80%)
-- Execute **[[Tap Out]]** → [[Lost by Submission]] (Probability: 60%)
+- Execute **[[Spine Protection]]** → [[Twister Side Control Bottom]] (Probability: 80%)
+- Execute **[[Tap Out]]** → [[game-over]] (Probability: 60%)
 
 
 **If top player has shoulder control but incomplete leg entanglement:**
@@ -303,7 +246,7 @@ The learning curve for defending Twister Side Control is steep, with beginners o
 
 
 **If top player's weight is distributed unevenly or too far forward:**
-- Execute **[[Bridge and Roll]]** → [[Mount Top]] (Probability: 35%)
+- Execute **[[Bridge and Roll]]** → [[Mount]] (Probability: 35%)
 - Execute **[[Technical Stand-up]]** → [[Standing Position]] (Probability: 30%)
 
 
@@ -390,25 +333,39 @@ Multiple rounds starting from twister side control bottom. Defender attempts ful
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Survival to Guard Recovery
+## Test Your Knowledge
 
-`Twister Side Control Bottom → Spine Protection → Frame Creation → Leg Extraction → Hip Escape → Half Guard`
+**Q1**: What is the correct hierarchy of defensive priorities when trapped in twister side control bottom?
+**A**: The defensive hierarchy is: first protect the spine and prevent full rotational torque, second create upper body frames to reduce shoulder pressure, third systematically extract the legs from entanglement, and fourth create sufficient space to re-guard or achieve a neutral position. Attempting to skip steps typically results in submission or transition to worse positions. Each layer must be addressed before the next becomes viable.
 
-### Technical Stand-up Sequence
+**Q2**: Your opponent begins applying rotational torque to your spine - what is your immediate response?
+**A**: Immediately use both hands to block spinal rotation by grabbing your own knee or thigh on the side being rotated, preventing the twister mechanics from completing. This takes priority over all other defensive concerns. Only after neutralizing the immediate spinal threat should you address other positional problems. Do not attempt leg extraction or escape while under active spinal attack.
 
-`Twister Side Control Bottom → Upper Body Frame → Partial Leg Extraction → Hip Elevation → Technical Stand-up → Standing Position`
+**Q3**: What type of frames should you build and where should they be positioned?
+**A**: Build structural frames with elbows bent and connected to your hip, creating barriers rather than muscular pushing. The primary frame goes against the opponent's shoulder or hip to prevent them from consolidating weight. Never extend arms straight as this creates vulnerability to arm attacks and fails to create meaningful separation. Frames should redirect force rather than try to push the opponent away.
 
-### Granby Roll Escape
+**Q4**: Why is turning away from the top player a critical error even when it relieves shoulder pressure?
+**A**: Turning away gifts back exposure and actually deepens the twister setup by increasing spinal rotation - exactly what the submission requires. The momentary relief from shoulder pressure is replaced by worse positional vulnerability and accelerated submission mechanics. Always maintain facing toward the top player's hips while using frames to create separation rather than turning your back.
 
-`Twister Side Control Bottom → Shoulder Frame → Hip Movement → Granby Roll → Half Guard → Guard Replacement`
+**Q5**: How should you manage energy expenditure when defending twister side control?
+**A**: Use small adjustments and strategic timing rather than constant muscular effort or explosive escape attempts. Failed explosive escapes leave you exhausted and more vulnerable. The goal is gradual improvement through incremental gains while conserving energy for the final escape sequence when opportunity presents. Move efficiently, time your efforts with the opponent's movements, and accept that escape may require extended defensive sequences.
+
+**Q6**: When does technical stand-up become a viable escape option from twister side control bottom?
+**A**: Technical stand-up becomes viable only after creating sufficient upper body separation through effective framing and achieving partial leg extraction to restore some hip mobility. Attempting technical stand-up while the opponent maintains full control will fail and potentially worsen your position. The escape requires sequential success: frames first, then leg extraction, then the technical stand-up becomes possible.
+
+**Q7**: What timing window should you look for when attempting the granby roll escape?
+**A**: The optimal timing for granby roll is when the top player attempts to deepen their control by moving toward back exposure or when they shift weight to pursue a submission. This movement creates momentary gaps in their control structure. The granby uses their forward momentum against them, rolling away from the pressure rather than into it. Never granby when the opponent has fully consolidated control.
+
+**Q8**: How do you sequence the leg extraction process without creating worse positions?
+**A**: Leg extraction must be coordinated with upper body frames - never attempt to extract legs while the opponent has full shoulder control, as this often deepens the entanglement. First establish frames to limit their ability to follow your hip movement, then systematically work to unhook one leg at a time using hip extension and small circular movements. Maintain defensive posture throughout extraction rather than rushing to complete escape.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -430,12 +387,12 @@ Multiple rounds starting from twister side control bottom. Defender attempts ful
 ## Related Positions and Techniques
 
 - **[[Turtle]]** - Common transitional position when achieving partial escape from twister side control
-- **[[Side Control Escape]]** - Fundamental escape principles that apply with modifications to twister variant
+- **[[Side Control]]** - Traditional position sharing lateral control mechanics with different escape priorities
 - **[[Granby Roll]]** - Key escape technique for creating distance and recovering guard
-- **[[Frame Management]]** - Essential defensive principle for creating and maintaining separation
+- **[[Half Guard]]** - Common recovery position after successful leg extraction
 - **[[Hip Escape]]** - Fundamental movement pattern adapted for escaping leg entanglement
 - **[[Technical Stand-up]]** - Advanced escape option when sufficient upper body separation is achieved
-- **[[Submission Defense]]** - General defensive concepts applied specifically to twister mechanics
+- **[[Open Guard]]** - Recovery position achievable through successful shrimp escape sequences
 
 
 </section>

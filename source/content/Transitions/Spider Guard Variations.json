@@ -11,8 +11,6 @@
     "distance-control",
     "sleeve-control"
   ],
-  "starting_position": "Spider Guard",
-  "ending_position": "Mount",
   "success_rates": {
     "beginner": 35,
     "intermediate": 50,
@@ -292,6 +290,24 @@
     {
       "name": "Bicep Slicer",
       "relationship": "Submission from lasso"
+    }
+  ],
+  "from_position": "Spider Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Mount/Top",
+      "probability": 65,
+      "result": "success"
+    },
+    {
+      "to": "Spider Guard/Bottom",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Spider Guard/Top",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

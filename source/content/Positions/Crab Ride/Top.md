@@ -21,37 +21,37 @@ description: "Master Crab Ride Top attacks in BJJ. Complete guide covering back 
     {
       "@type": "HowToStep",
       "name": "Execute Crab Ride to Back",
-      "text": "From this position, execute Crab Ride to Back to transition to Back Control. Success rate for advanced practitioners: 80%.",
+      "text": "From this position, attempt Crab Ride to Back. This technique is attempted in 25% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Control to Crucifix",
-      "text": "From this position, execute Back Control to Crucifix to transition to Crucifix. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Back Control to Crucifix. This technique is attempted in 15% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Darce from Turtle",
-      "text": "From this position, execute Darce from Turtle to transition to D'arce Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Darce from Turtle. This technique is attempted in 15% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Anaconda from Turtle",
-      "text": "From this position, execute Anaconda from Turtle to transition to Anaconda Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Anaconda from Turtle. This technique is attempted in 15% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Guillotine from Turtle",
-      "text": "From this position, execute Guillotine from Turtle to transition to Guillotine Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Guillotine from Turtle. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Arm Triangle from Turtle",
-      "text": "From this position, execute Arm Triangle from Turtle to transition to Arm Triangle. Success rate for advanced practitioners: 55%.",
+      "name": "Execute Kimura from Turtle",
+      "text": "From this position, attempt Kimura from Turtle. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -164,7 +164,7 @@ Crab Ride Top is a highly effective attacking position from the turtle, where th
 
 The position gets its name from the sideways orientation and the characteristic way the attacker 'rides' the opponent's back and hips, similar to how a crab might cling to its prey. The top practitioner typically establishes control with one leg hooking under the opponent's near hip while maintaining upper body control through strategic gripping on the far side. This asymmetrical configuration creates tremendous pressure and limits the bottom player's mobility.
 
-Crab Ride Top is particularly valued in modern no-gi grappling and MMA contexts, where it serves as an essential transitional position between turtle and back control. The position offers high-percentage pathways to the back, crucifix, and various submission attacks, making it a cornerstone of complete turtle attack systems taught by experts like systematic approach and Garry Tonon.
+Crab Ride Top is particularly valued in modern no-gi grappling and MMA contexts, where it serves as an essential transitional position between turtle and back control. The position offers high-percentage pathways to the back, crucifix, and various submission attacks, making it a cornerstone of complete turtle attack systems. The perpendicular positioning creates mechanical advantages that make defending extremely difficult once established.
 
 </section>
 
@@ -212,92 +212,20 @@ Crab Ride Top is particularly valued in modern no-gi grappling and MMA contexts,
 
 ## Available Attacks
 
-### [[Crab Ride to Back]] → [[Back Control]]
+### [[Crab Ride to Back]] (25% of attempts)
 
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 65%
-- Advanced: 80%
+### [[Back Control to Crucifix]] (15% of attempts)
 
-### [[Back Control to Crucifix]] → [[Crucifix]]
+### [[Darce from Turtle]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Anaconda from Turtle]] (15% of attempts)
 
-### [[Darce from Turtle]] → [[D'arce Control]]
+### [[Guillotine from Turtle]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Kimura from Turtle]] (10% of attempts)
 
-### [[Anaconda from Turtle]] → [[Anaconda Control]]
+### [[Truck Entry]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 65%
-
-### [[Guillotine from Turtle]] → [[Guillotine Control]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[Arm Triangle from Turtle]] → [[Arm Triangle]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 40%
-- Advanced: 55%
-
-### [[Transition to Mount]] → [[Mount]]
-
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 60%
-- Advanced: 75%
-
-### [[Side Control to Mount]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 50%
-- Intermediate: 65%
-- Advanced: 80%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Turtle to Guard]]** → [[Open Guard]] (Opponent Success: 35%)
-- **[[Turtle to Standing]]** → [[Standing Position]] (Opponent Success: 25%)
-- **[[Rolling to Guard]]** → [[Open Guard]] (Opponent Success: 30%)
-- **[[Technical Standup]]** → [[Standing Position]] (Opponent Success: 20%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Crab Ride to Back]]** → [[Back Control]]
-  - Opponent attempts to turn into you or sit through
-- **[[Back Control to Crucifix]]** → [[Crucifix]]
-  - Opponent extends far arm to defend neck or post
-- **[[Darce from Turtle]]** → [[D'arce Control]]
-  - Opponent tucks chin and brings head down defensively
-- **[[Anaconda from Turtle]]** → [[Anaconda Control]]
-  - Opponent drives forward or attempts to circle away
-- **[[Transition to Mount]]** → [[Mount]]
-  - Opponent flattens out completely or rolls to back
 
 
 </section>
@@ -322,13 +250,13 @@ Crab Ride Top is particularly valued in modern no-gi grappling and MMA contexts,
 
 
 **If opponent flattens out completely or rolls to their back:**
-- Execute **[[Transition to Mount]]** → [[Mount]] (Probability: 80%)
-- Execute **[[Side Control to Mount]]** → [[Side Control]] (Probability: 75%)
+- Execute **[[Flatten to Side Control]]** → [[Side Control]] (Probability: 80%)
+- Execute **[[Mount Transition]]** → [[Mount]] (Probability: 70%)
 
 
 **If opponent extends far arm to post or defend neck:**
 - Execute **[[Back Control to Crucifix]]** → [[Crucifix]] (Probability: 70%)
-- Execute **[[Arm Triangle from Turtle]]** → [[Arm Triangle]] (Probability: 55%)
+- Execute **[[Kimura from Turtle]]** → [[Kimura Trap]] (Probability: 55%)
 
 
 
@@ -416,33 +344,39 @@ Partner in turtle randomly performs different defensive actions (turning in, sit
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Highest percentage path to submission
+## Test Your Knowledge
 
-`Crab Ride Top → Back Control → Rear Naked Choke (65% overall success for advanced practitioners)`
+**Q1**: What is the primary weight distribution principle for maintaining Crab Ride Top control?
+**A**: Weight should be distributed through your chest pressing into the opponent's shoulder blade and ribs, with your hooking leg serving as an anchor under their hip. The majority of pressure comes from your upper body driving into their back rather than sitting heavily on your base leg. This creates the flattening pressure that limits their mobility while keeping you mobile enough to follow their movements and adjust position.
 
-### Fastest path to submission
+**Q2**: Your opponent begins turning their shoulders toward you while in Crab Ride - how do you adjust?
+**A**: Increase chest pressure immediately while driving your hooking leg deeper to prevent the turn. Control their far arm by securing an overhook or wrist grip to eliminate their posting ability. If they continue turning, follow their rotation and transition to back control as their turn creates the opening for your second hook. Never resist the turn by pulling backward - instead, use their momentum to advance position.
 
-`Crab Ride Top → Darce Choke (can finish in 8-12 seconds with proper setup)`
+**Q3**: What are the essential grip priorities from Crab Ride Top?
+**A**: Primary grip should control the opponent's far side - either their far arm, far shoulder, or far collar in gi. This prevents them from turning toward you and sets up back attacks. Secondary control comes from the underhook or overhook on the near side to manage their posture. The hooking leg provides the third control point. Never rely solely on near-side grips as this allows opponents to turn into you and escape.
 
-### No-gi specialist path
+**Q4**: How do you prevent an opponent from sitting through to guard from Crab Ride?
+**A**: The hooking leg must stay actively engaged under their hip, preventing forward hip movement that initiates the sit-through. Keep your hook foot positioned inside their legs rather than floating outside. Maintain forward chest pressure to keep their weight over their hands rather than allowing them to shift backward. If you feel them loading for a sit-through, drive your weight forward and lower your hips to increase the anchor effect of your hook.
 
-`Crab Ride Top → Crucifix → Rear Naked Choke or arm isolation submissions`
+**Q5**: What is the relationship between pressure application and submission opportunities from Crab Ride Top?
+**A**: Constant pressure creates the defensive reactions that open submission pathways. When you drive chest pressure into their back, opponents typically respond by dropping their head (opening darce/anaconda), extending their far arm (opening crucifix), or trying to turn (opening back take). The key is maintaining enough pressure to force a reaction while staying mobile enough to capitalize on it. Static pressure without attacking intent allows opponents to build defensive frames.
 
-### Gi-specific path
+**Q6**: Your opponent posts their far hand and begins driving forward - what adjustments maintain control?
+**A**: Follow their forward drive by walking your base leg forward while maintaining hook depth. Simultaneously work to break their far hand post by driving your chest weight through their shoulder blade angle toward their posting arm. If you can collapse the post, immediately threaten darce or anaconda. If they maintain the post strongly, use their extended arm to set up crucifix by trapping it under your knee as you adjust position.
 
-`Crab Ride Top → Bow and Arrow Choke (uses collar grips established during crab ride)`
+**Q7**: How should you manage your base leg position for optimal Crab Ride Top control?
+**A**: The base leg should maintain a wide posting position with your knee and foot angled to allow quick adjustments in any direction. Keep it mobile rather than planted heavily - your primary weight goes through your chest and hooking leg, not your base. The base leg functions as a rudder for following opponent movement and as a launching point for transitions. Position it far enough from opponent that they cannot trap or attack it, but close enough to maintain balance.
 
-### MMA application path
-
-`Crab Ride Top → Back Control → Rear Naked Choke (most reliable in MMA context with strikes)`
+**Q8**: What are the warning signs that your Crab Ride Top control is failing?
+**A**: Key warning signs include: opponent successfully elevating their hips off the mat (losing flattening pressure), your hook becoming shallow or sliding out of the hip crease, opponent's far arm becoming free and framing effectively, your chest lifting off their back creating space, and opponent successfully turning their shoulders past 45 degrees toward you. When you feel any of these developing, immediately adjust by deepening the hook, increasing pressure, or transitioning to a more secure position before the escape completes.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -463,7 +397,7 @@ Partner in turtle randomly performs different defensive actions (turning in, sit
 
 ## Related Positions and Techniques
 
-- **[[Crab Ride]]** - Opposing perspective of same position
+- **[[Crab Ride]]** - Hub page for this position
 - **[[Back Control]]** - Primary advancement target
 - **[[Turtle]]** - Parent position category
 - **[[Crucifix]]** - Common transition target
@@ -471,7 +405,7 @@ Partner in turtle randomly performs different defensive actions (turning in, sit
 - **[[Rodeo Ride]]** - Alternative turtle control variation
 - **[[D'arce Control]]** - Direct submission target from this position
 - **[[Anaconda Control]]** - Direct submission target from this position
-- **[[Back Attack System]]** - Strategic framework using crab ride as entry
+- **[[Front Headlock]]** - Alternative turtle attack position
 
 
 </section>

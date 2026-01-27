@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Kimura Defense | BJJ Technique | BJJ Graph"
 description: "Master Kimura Defense in BJJ. Complete defensive framework from multiple positions. Success rates: Beginner 35%, Intermediate 50%, Advanced 70%."
@@ -16,7 +17,7 @@ description: "Master Kimura Defense in BJJ. Complete defensive framework from mu
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Kimura Defense in BJJ",
-  "description": "Step-by-step guide for Kimura Defense from Kimura Control to Guard Recovery.",
+  "description": "Step-by-step guide for Kimura Defense from Kimura Control/Top. Possible outcomes: Guard Recovery/Bottom (70%), Kimura Control/Top (20%), Kimura Control/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -154,11 +155,25 @@ description: "Master Kimura Defense in BJJ. Complete defensive framework from mu
 
 The Kimura Defense represents a critical defensive skill set against one of BJJ's most versatile submissions. The kimura presents danger from virtually every position, making defensive proficiency essential for survival. Understanding proper defensive mechanics protects the shoulder joint while creating opportunities to escape or counter-attack. The defense operates on three levels: prevention (hand fighting and grip denial), early escape (before full lock completion), and late-stage survival (managing locked positions). Success requires recognizing threat stages, maintaining defensive frames, and exploiting timing windows during opponent transitions. Unlike many submission defenses that focus purely on escape, kimura defense integrates offensive transitions, as the attacker's grip commitment creates vulnerabilities. Advanced practitioners transform defensive sequences into offensive opportunities, using the opponent's kimura grip against them through rolling escapes, back takes, or sweep reversals.
 
-**Starting Position**: [[Kimura Control]]
-**Ending Position**: [[Guard Recovery]]
+**From Position**: [[Kimura Control/Top]]
 **Success Rates**: Beginner 35%, Intermediate 50%, Advanced 70%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Guard Recovery/Bottom]] | 70% |
+| Failure | [[Kimura Control/Top]] | 20% |
+| Counter | [[Kimura Control/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

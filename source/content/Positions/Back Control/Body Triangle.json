@@ -47,6 +47,279 @@
       "relationship": "Upper body control variation that pairs well with triangle"
     }
   ],
+  "top": {
+    "name": "Body Triangle Top",
+    "description": "Defend and escape body triangle position in BJJ. Strategic guide covering breathing management, triangle clearing, and systematic escape sequences. Beginner 25%, Intermediate 40%, Advanced 55%.",
+    "tags": [
+      "bjj",
+      "position",
+      "back-defense",
+      "defensive",
+      "escape",
+      "body-triangle",
+      "top-perspective"
+    ],
+    "overview": "From the top perspective in Body Triangle Position, you are the defender who is being controlled from the back with your opponent's legs locked in a triangle configuration around your torso. This is one of the most challenging defensive positions in Brazilian Jiu-Jitsu, as the body triangle provides your opponent exceptional control while restricting your breathing and limiting your escape options. Unlike standard back control with hooks, the triangle lock cannot be cleared through simple hip movement, requiring systematic approach and mental composure under significant physical and psychological pressure.\n\nThe primary challenge of this position is the breathing restriction created by the triangle squeezing your ribcage and diaphragm. This creates genuine physiological stress that compounds over time, forcing you to work urgently while potentially causing panic. Your opponent's legs create a locked structure that prevents hip rotation and limits your ability to turn into them or create escape angles. Meanwhile, their upper body is free to attack your neck and arms without concern for maintaining leg positioning, creating a multi-layered defensive challenge.\n\nSuccessful defense from body triangle top requires calm breathing management, systematic clearing of the triangle lock, and protection of your neck throughout the escape process. You must work methodically despite the discomfort, using specific techniques to create space, attack the locked leg configuration, and eventually turn into your opponent or extract yourself from back control entirely. Elite defenders view this position as a temporary problem to be solved through technical precision rather than explosive scrambling. Understanding the mechanics of how the triangle creates pressure allows you to find weaknesses in the lock and systematically dismantle your opponent's control before advancing to neck attacks.",
+    "state_properties": {
+      "point_value": 0,
+      "position_type": "Defensive",
+      "risk_level": "High",
+      "energy_cost": "High",
+      "time_sustainability": "Short"
+    },
+    "state_invariants": [
+      "Opponent's legs are locked in figure-four triangle configuration around your torso, creating constant squeezing pressure on your ribcage and diaphragm that restricts breathing and prevents hip rotation, forcing you to work urgently for escape",
+      "Opponent's chest is positioned tight against your back with minimal space between their torso and yours, maintaining chest-to-back connection that limits your ability to turn into them or create distance for escape initiation",
+      "Your back is exposed to opponent with their upper body controlling you through collar grips, seatbelt configuration, or other upper body controls that threaten your neck while you must simultaneously address the breathing restriction from the triangle"
+    ],
+    "prerequisites": [
+      "Opponent has successfully achieved back control position with access to your back",
+      "Opponent has locked their legs in triangle configuration around your torso at sufficient height to create breathing restriction",
+      "Your back is exposed and opponent maintains chest-to-back connection preventing easy turning",
+      "Opponent has established upper body control threatening your neck or arms",
+      "You are experiencing breathing restriction and psychological pressure from the triangle squeeze"
+    ],
+    "key_principles": [
+      "Breathing Management: Control your breathing despite restriction, taking measured breaths and avoiding panic that wastes energy and clouds judgment",
+      "Systematic Approach: Work methodically to clear triangle rather than explosive scrambling that wastes energy without solving the structural problem",
+      "Neck Protection Priority: Protect your neck throughout escape process as opponent will increase submission attempts when feeling triangle threatened",
+      "Triangle Mechanics Understanding: Identify how the triangle creates pressure to find weaknesses in the lock and attack the figure-four configuration",
+      "Space Creation: Generate space between your body and opponent's legs to reduce pressure and create opportunity for clearing attempts",
+      "Hip Movement: Despite triangle's hip rotation prevention, use whatever limited hip mobility remains to create angles for escape",
+      "Energy Conservation: Avoid constant maximum effort, instead using precise technique at key moments to avoid exhaustion under breathing restriction"
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "Your opponent squeezes the body triangle tighter when you attempt to clear it - what adjustment should you make?",
+        "answer": "Stop fighting the squeeze directly and focus on attacking the lock mechanics instead. Target the foot behind their knee by creating space with your hips first, then using your hand to push their ankle out of the figure-four lock. The tighter they squeeze, the more committed their legs become, making the lock position itself the vulnerability rather than the pressure."
+      },
+      {
+        "question": "What are the essential defensive positions for your hands when trapped in body triangle?",
+        "answer": "One hand should always be defending your neck by keeping your chin tucked and hand positioned to block choking arm entry. The second hand fights their controlling hand or works to create frames against their body. Never have both hands attacking the triangle simultaneously as this exposes your neck completely to their submission attempts."
+      },
+      {
+        "question": "How should you manage your breathing when the body triangle restricts your diaphragm?",
+        "answer": "Take controlled, shallow breaths using your chest rather than trying to breathe deeply with your diaphragm. Avoid holding your breath or breathing erratically as this accelerates panic and oxygen depletion. Accept that you cannot take full breaths and work efficiently with reduced oxygen, saving explosive efforts for critical escape moments rather than constant struggling."
+      },
+      {
+        "question": "Your opponent starts increasing squeeze pressure - what is your immediate priority?",
+        "answer": "Immediately turn your body toward the triangle leg to reduce the squeezing angle and surface area. By angling your torso toward the locked leg side, you reduce the effectiveness of their squeeze while positioning yourself to begin attacking the lock. This buys time without requiring excessive energy expenditure."
+      },
+      {
+        "question": "What is the primary vulnerability in the body triangle lock you should target for escape?",
+        "answer": "The foot tucked behind their knee is the structural weakness of the body triangle. If you can push this foot out of position, the entire lock fails. Target this by first creating space through hip movement, then using your hand to attack the ankle position rather than trying to pry their legs apart with strength."
+      },
+      {
+        "question": "How do you recover if opponent nearly sinks a rear naked choke while you're working on clearing the triangle?",
+        "answer": "Immediately prioritize neck defense by tucking your chin deeply and bringing both hands to protect your throat. The triangle escape becomes secondary - you must survive the choke attempt first. Once you've defended the immediate choke threat, resume systematic escape work but expect opponent to attack neck again when you redirect attention to the triangle."
+      },
+      {
+        "question": "What base fundamentals help reduce the body triangle's effectiveness?",
+        "answer": "Keep your shoulders on the mat and avoid allowing opponent to roll you to your side where the squeeze becomes more effective. Create angles by turning your hips while keeping back connection to mat. Use your feet and legs to post against the mat for stability and to generate hip movement for escape attempts."
+      },
+      {
+        "question": "After partially clearing the body triangle, opponent tries to re-establish it - how do you prevent this?",
+        "answer": "As soon as you feel the triangle loosen, immediately insert your elbow or forearm between your body and their legs to prevent re-locking. Continue turning into them while maintaining this frame. The key is not pausing to rest after breaking the initial lock - opponent will quickly re-establish if you don't immediately occupy the space you've created."
+      }
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent has tight triangle with maximum pressure and aggressive neck attacks",
+        "actions": [
+          {
+            "technique": "Protect neck with chin down and hands",
+            "target": "Body Triangle",
+            "probability": 80
+          },
+          {
+            "technique": "Focus on breathing management",
+            "target": "Body Triangle",
+            "probability": 75
+          }
+        ]
+      },
+      {
+        "condition": "If you create space between your body and opponent's legs",
+        "actions": [
+          {
+            "technique": "Attack the figure-four lock",
+            "target": "Turtle",
+            "probability": 45
+          },
+          {
+            "technique": "Work to turn into opponent",
+            "target": "Half Guard",
+            "probability": 40
+          }
+        ]
+      },
+      {
+        "condition": "If opponent's triangle lock is loosening or not optimally positioned",
+        "actions": [
+          {
+            "technique": "Hip Escape to Turtle",
+            "target": "Turtle",
+            "probability": 50
+          },
+          {
+            "technique": "Granby Roll escape",
+            "target": "Open Guard",
+            "probability": 48
+          }
+        ]
+      },
+      {
+        "condition": "If you have cleared triangle completely but opponent maintains upper body control",
+        "actions": [
+          {
+            "technique": "Frame and Shrimp to Half Guard",
+            "target": "Half Guard",
+            "probability": 55
+          },
+          {
+            "technique": "Technical Standup",
+            "target": "Standing Position",
+            "probability": 45
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Panicking from breathing restriction and attempting explosive scrambling without technical precision",
+        "consequence": "Wastes precious energy while under breathing restriction, creates submission opportunities for opponent, and fails to address structural problem of the triangle lock",
+        "correction": "Maintain calm mental state, control breathing with measured breaths, and work systematically on clearing triangle using technical approach rather than athletic scrambling"
+      },
+      {
+        "error": "Focusing exclusively on clearing triangle while completely neglecting neck protection",
+        "consequence": "Opponent capitalizes on your distraction with triangle to sink in rear naked choke or other neck attacks, finishing submission while you work on leg position",
+        "correction": "Maintain constant neck protection with chin tucked and hands defending neck throughout escape process, only exposing neck when absolutely necessary for clearing attempts"
+      },
+      {
+        "error": "Attempting to power out of triangle lock with pure strength and muscle",
+        "consequence": "Exhausts your muscles under breathing restriction without breaking properly locked figure-four configuration, leaving you depleted for actual escape attempts and increasing submission danger",
+        "correction": "Use technical clearing methods that attack the mechanics of the triangle lock, finding weakness in foot position behind knee rather than attempting to overpower locked structure"
+      },
+      {
+        "error": "Staying flat on your back and not attempting to turn into opponent or create angles",
+        "consequence": "Allows opponent to maintain optimal back control indefinitely, maximizes effectiveness of triangle pressure, and provides them comfortable position to hunt submissions without defensive pressure",
+        "correction": "Constantly work to turn your shoulders toward opponent, create angles that reduce triangle effectiveness, and threaten to face them which forces them to adjust control"
+      },
+      {
+        "error": "Giving up mentally from discomfort and accepting the position as inescapable",
+        "consequence": "Guarantees eventual submission as opponent works systematically through their attack options while you provide no defensive resistance or escape attempts",
+        "correction": "Maintain fighting mentality despite discomfort, recognizing that body triangle has technical escape solutions and opponent's position requires energy to maintain submission attempts"
+      },
+      {
+        "error": "Reaching back to grab or attack opponent's legs without proper strategy",
+        "consequence": "Exposes your arms to armbar attacks and crucifix transitions while failing to effectively clear the triangle, creating multiple submission dangers simultaneously",
+        "correction": "Only attack triangle lock with specific technical clearing sequences that protect your arms, using proper frames and leverage rather than reaching back blindly"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Breathing Under Pressure Drill",
+        "description": "Partner locks body triangle with moderate pressure. Practice maintaining calm breathing, taking measured breaths, and working technically on escape without panic. Partner gradually increases pressure as your comfort improves. Develops mental composure under physical stress.",
+        "duration": "3-minute rounds"
+      },
+      {
+        "name": "Triangle Clearing Technique Drill",
+        "description": "Start with partner's body triangle locked. Practice specific technical sequences for clearing the figure-four lock, attacking the foot position behind knee, creating space, and eventually opening the triangle. Partner provides resistance but allows successful technique. Work both sides.",
+        "duration": "5 minutes each side"
+      },
+      {
+        "name": "Escape Flow from Body Triangle",
+        "description": "Partner locks body triangle and attempts submissions at 50% intensity. Practice full escape sequences from initial neck protection through triangle clearing to final position achievement (turtle, half guard, standing). Focus on systematic progression through escape steps.",
+        "duration": "6 minutes"
+      },
+      {
+        "name": "Defensive Positioning Under Triangle",
+        "description": "Partner maintains body triangle while you focus exclusively on optimal defensive positioning - chin protection, hand fighting, creating angles to reduce pressure. No escape attempts, only defensive management. Develops positional awareness and defensive fundamentals.",
+        "duration": "4 minutes"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Back Control",
+        "relationship": "Parent position opponent is controlling you from"
+      },
+      {
+        "name": "Turtle",
+        "relationship": "Common escape target position from body triangle"
+      },
+      {
+        "name": "Half Guard",
+        "relationship": "Alternative escape target achieving guard recovery"
+      },
+      {
+        "name": "Frame and Shrimp",
+        "relationship": "Key escape movement pattern for creating space"
+      },
+      {
+        "name": "Granby Roll",
+        "relationship": "Advanced escape technique from body triangle control"
+      },
+      {
+        "name": "Hip Escape to Turtle",
+        "relationship": "Primary escape transition from body triangle"
+      },
+      {
+        "name": "Technical Standup",
+        "relationship": "Alternative escape path to standing position"
+      },
+      {
+        "name": "Rear Naked Choke",
+        "relationship": "Primary submission threat you must defend during escape"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "beginner": 15,
+        "intermediate": 30,
+        "advanced": 45,
+        "description": "Ability to maintain defensive position without being submitted"
+      },
+      "advancement_probability": {
+        "beginner": 25,
+        "intermediate": 40,
+        "advanced": 55,
+        "description": "Probability of escaping to better position"
+      },
+      "submission_probability": {
+        "beginner": 65,
+        "intermediate": 50,
+        "advanced": 30,
+        "description": "Risk of being submitted from this position"
+      },
+      "average_time": "1-3 minutes depending on skill level and opponent's submission timing"
+    },
+    "transitions": [
+      {
+        "transition": "Hip Escape to Turtle",
+        "attempt_probability": 20
+      },
+      {
+        "transition": "Frame and Shrimp",
+        "attempt_probability": 18
+      },
+      {
+        "transition": "Granby Roll",
+        "attempt_probability": 19
+      },
+      {
+        "transition": "Rolling Back Take Reversal",
+        "attempt_probability": 14
+      },
+      {
+        "transition": "Triangle Clear to Side",
+        "attempt_probability": 16
+      },
+      {
+        "transition": "Technical Standup",
+        "attempt_probability": 13
+      }
+    ]
+  },
   "bottom": {
     "name": "Body Triangle Bottom",
     "description": "Master body triangle from bottom perspective. Powerful leg control creating breathing restriction and submission setups. Beginner 45%, Intermediate 60%, Advanced 75%.",
@@ -89,127 +362,38 @@
       "Pressure Modulation: Apply strategic squeezing at key moments rather than constant maximum pressure to prevent adaptation and fatigue",
       "Angle Adjustment: Use hip movement to change squeeze angle and attack different areas of ribcage based on opponent's defensive reactions"
     ],
-    "offensive_transitions": [
+    "knowledge_assessment": [
       {
-        "technique": "Rear Naked Choke",
-        "target_position": "Won by Submission",
-        "success_rates": {
-          "beginner": 50,
-          "intermediate": 65,
-          "advanced": 80
-        }
+        "question": "Your opponent starts turning their body toward your triangle leg - what adjustment maintains your control?",
+        "answer": "Follow their turn by adjusting your hip angle to stay behind them, and increase squeeze pressure momentarily to discourage the turning motion. Use your upper body control (seatbelt) to pull them back toward a flatter position. If they persist, prepare to transition to crucifix or armbar as their turning creates arm exposure opportunities."
       },
       {
-        "technique": "Armbar from Back with Legs",
-        "target_position": "Armbar Control",
-        "success_rates": {
-          "beginner": 40,
-          "intermediate": 55,
-          "advanced": 70
-        }
+        "question": "What are the essential grip configurations for maintaining body triangle control?",
+        "answer": "The seatbelt grip (over-under around their torso with hands clasped) is primary, with the choking arm over their shoulder and control arm under their armpit. Keep elbows tight to prevent grip breaks. In gi, collar grips provide additional neck threat. Your upper body grips work together with the triangle to create complete body immobilization."
       },
       {
-        "technique": "Bow and Arrow Choke",
-        "target_position": "Won by Submission",
-        "success_rates": {
-          "beginner": 45,
-          "intermediate": 60,
-          "advanced": 75
-        }
+        "question": "How do you modulate squeeze pressure effectively to conserve energy while maintaining control?",
+        "answer": "Apply baseline light squeeze sufficient to maintain the lock without exhausting your legs. Increase pressure strategically when opponent attempts escape, when hunting submissions, or to accelerate their fatigue. Use pulsing pressure (squeeze-release-squeeze) rather than constant maximum effort to prevent your own muscle fatigue while keeping opponent uncomfortable."
       },
       {
-        "technique": "Short Choke",
-        "target_position": "Won by Submission",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 50,
-          "advanced": 65
-        }
+        "question": "Your opponent posts their hands on your locked foot trying to clear the triangle - what is your response?",
+        "answer": "This exposes their arms for attack. Immediately transition to armbar by isolating the reaching arm, or transition to crucifix by trapping that arm while maintaining back control. Their hands on your foot mean hands not protecting their neck, so alternatively increase neck attack pressure. The clearing attempt itself creates the submission opportunity."
       },
       {
-        "technique": "Triangle Choke Back",
-        "target_position": "Won by Submission",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 45,
-          "advanced": 60
-        }
+        "question": "What is the optimal height to position your body triangle on opponent's torso and why?",
+        "answer": "Position the triangle around the lower ribcage and diaphragm area, typically just above the belly button level. Too high allows better breathing and easier clearing. Too low provides less control and may slip off. The lower rib position maximizes breathing restriction while securing the locked legs against the hip bones to prevent downward slippage."
       },
       {
-        "technique": "Back Control to Crucifix",
-        "target_position": "Crucifix",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 50,
-          "advanced": 65
-        }
+        "question": "How do you recover control if opponent partially clears the triangle lock?",
+        "answer": "Immediately re-engage by pulling your escaping foot back behind your knee, using your hand to assist if necessary. Simultaneously tighten chest-to-back connection and pull them toward you with your upper body grips. If the full triangle cannot be immediately re-established, transition to hooks momentarily, stabilize, then work to re-lock the triangle from the hooks position."
       },
       {
-        "technique": "Transition to Truck",
-        "target_position": "Truck",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 40,
-          "advanced": 55
-        }
+        "question": "What base adjustments prevent opponent from rolling you over while maintaining the body triangle?",
+        "answer": "Keep your hips on the mat beside opponent rather than elevated on their back. This creates a post that prevents rolling. If they attempt to roll toward your triangle leg, post your elbow or hand on the mat. If they roll away from the triangle leg, follow the roll while maintaining chest connection and use the momentum to end up in mount with triangle still locked."
       },
       {
-        "technique": "Transition to Mount",
-        "target_position": "Mount",
-        "success_rates": {
-          "beginner": 40,
-          "intermediate": 55,
-          "advanced": 70
-        }
-      }
-    ],
-    "defensive_responses": [
-      {
-        "technique": "Hip Escape to Turtle",
-        "target_position": "Turtle",
-        "success_rate": 25
-      },
-      {
-        "technique": "Rolling Back Take Reversal",
-        "target_position": "Guard Recovery",
-        "success_rate": 20
-      },
-      {
-        "technique": "Frame and Shrimp to Half Guard",
-        "target_position": "Half Guard",
-        "success_rate": 15
-      },
-      {
-        "technique": "Granby Roll Escape",
-        "target_position": "Defensive Position",
-        "success_rate": 18
-      },
-      {
-        "technique": "Chin Protection Defense",
-        "target_position": "Body Triangle",
-        "success_rate": 40
-      }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Rear Naked Choke",
-        "target_position": "Won by Submission",
-        "trigger": "Opponent focuses on clearing triangle and exposes neck by raising hands to attack legs"
-      },
-      {
-        "technique": "Armbar from Back with Legs",
-        "target_position": "Armbar Control",
-        "trigger": "Opponent attempts to grip-fight and extends arm away from body to defend neck or attack triangle"
-      },
-      {
-        "technique": "Back Control to Crucifix",
-        "target_position": "Crucifix",
-        "trigger": "Opponent reaches back with arm to attack the triangle lock or pull at your legs"
-      },
-      {
-        "technique": "Bow and Arrow Choke",
-        "target_position": "Won by Submission",
-        "trigger": "Opponent turns into you trying to escape triangle pressure or roll to face you"
+        "question": "Your opponent begins aggressive hand fighting against your seatbelt control - how do you maintain position stability?",
+        "answer": "Keep elbows extremely tight to your body to prevent grip breaks. Use your triangle squeeze to restrict their movement and breathing, which limits their hand fighting effectiveness. Cycle between different upper body grip configurations - if they break seatbelt, transition to collar grips or over-under, then work back to seatbelt. The triangle provides positional security even during grip transitions."
       }
     ],
     "decision_tree": [
@@ -223,7 +407,7 @@
           },
           {
             "technique": "Work for collar grips systematically",
-            "target": "Rear Naked Choke",
+            "target": "game-over",
             "probability": 60
           }
         ]
@@ -248,11 +432,11 @@
         "actions": [
           {
             "technique": "Bow and Arrow Choke",
-            "target": "Won by Submission",
+            "target": "game-over",
             "probability": 70
           },
           {
-            "technique": "Transition to Truck",
+            "technique": "Turtle to Truck",
             "target": "Truck",
             "probability": 50
           }
@@ -328,28 +512,6 @@
         "duration": "5 minutes"
       }
     ],
-    "optimal_submission_paths": [
-      {
-        "name": "Shortest path to submission",
-        "path": "Body Triangle → Rear Naked Choke → Won by Submission"
-      },
-      {
-        "name": "High-percentage choke path",
-        "path": "Body Triangle → Short Choke → Won by Submission"
-      },
-      {
-        "name": "Arm attack path",
-        "path": "Body Triangle → Armbar from Back with Legs → Armbar Control → Won by Submission"
-      },
-      {
-        "name": "Gi-specific path",
-        "path": "Body Triangle → Bow and Arrow Choke → Won by Submission"
-      },
-      {
-        "name": "Position advancement path",
-        "path": "Body Triangle → Back Control to Crucifix → Crucifix → Choke from Crucifix → Won by Submission"
-      }
-    ],
     "related_content": [
       {
         "name": "Back Control",
@@ -380,8 +542,8 @@
         "relationship": "Advanced transition option from body triangle"
       },
       {
-        "name": "Back Attack System",
-        "relationship": "System incorporating body triangle as key control position"
+        "name": "Body Triangle Lock",
+        "relationship": "Transition to establish this position from standard hooks"
       }
     ],
     "position_metrics": {
@@ -401,341 +563,40 @@
         "advanced": 70
       },
       "average_time": "2-4 minutes depending on opponent's escape urgency and your submission timing"
-    }
-  },
-  "top": {
-    "name": "Body Triangle Top",
-    "description": "Defend and escape body triangle position in BJJ. Strategic guide covering breathing management, triangle clearing, and systematic escape sequences. Beginner 25%, Intermediate 40%, Advanced 55%.",
-    "tags": [
-      "bjj",
-      "position",
-      "back-defense",
-      "defensive",
-      "escape",
-      "body-triangle",
-      "top-perspective"
-    ],
-    "overview": "From the top perspective in Body Triangle Position, you are the defender who is being controlled from the back with your opponent's legs locked in a triangle configuration around your torso. This is one of the most challenging defensive positions in Brazilian Jiu-Jitsu, as the body triangle provides your opponent exceptional control while restricting your breathing and limiting your escape options. Unlike standard back control with hooks, the triangle lock cannot be cleared through simple hip movement, requiring systematic approach and mental composure under significant physical and psychological pressure.\n\nThe primary challenge of this position is the breathing restriction created by the triangle squeezing your ribcage and diaphragm. This creates genuine physiological stress that compounds over time, forcing you to work urgently while potentially causing panic. Your opponent's legs create a locked structure that prevents hip rotation and limits your ability to turn into them or create escape angles. Meanwhile, their upper body is free to attack your neck and arms without concern for maintaining leg positioning, creating a multi-layered defensive challenge.\n\nSuccessful defense from body triangle top requires calm breathing management, systematic clearing of the triangle lock, and protection of your neck throughout the escape process. You must work methodically despite the discomfort, using specific techniques to create space, attack the locked leg configuration, and eventually turn into your opponent or extract yourself from back control entirely. Elite defenders view this position as a temporary problem to be solved through technical precision rather than explosive scrambling. Understanding the mechanics of how the triangle creates pressure allows you to find weaknesses in the lock and systematically dismantle your opponent's control before advancing to neck attacks.",
-    "state_properties": {
-      "point_value": 0,
-      "position_type": "Defensive",
-      "risk_level": "High",
-      "energy_cost": "High",
-      "time_sustainability": "Short"
     },
-    "state_invariants": [
-      "Opponent's legs are locked in figure-four triangle configuration around your torso, creating constant squeezing pressure on your ribcage and diaphragm that restricts breathing and prevents hip rotation, forcing you to work urgently for escape",
-      "Opponent's chest is positioned tight against your back with minimal space between their torso and yours, maintaining chest-to-back connection that limits your ability to turn into them or create distance for escape initiation",
-      "Your back is exposed to opponent with their upper body controlling you through collar grips, seatbelt configuration, or other upper body controls that threaten your neck while you must simultaneously address the breathing restriction from the triangle"
-    ],
-    "prerequisites": [
-      "Opponent has successfully achieved back control position with access to your back",
-      "Opponent has locked their legs in triangle configuration around your torso at sufficient height to create breathing restriction",
-      "Your back is exposed and opponent maintains chest-to-back connection preventing easy turning",
-      "Opponent has established upper body control threatening your neck or arms",
-      "You are experiencing breathing restriction and psychological pressure from the triangle squeeze"
-    ],
-    "key_principles": [
-      "Breathing Management: Control your breathing despite restriction, taking measured breaths and avoiding panic that wastes energy and clouds judgment",
-      "Systematic Approach: Work methodically to clear triangle rather than explosive scrambling that wastes energy without solving the structural problem",
-      "Neck Protection Priority: Protect your neck throughout escape process as opponent will increase submission attempts when feeling triangle threatened",
-      "Triangle Mechanics Understanding: Identify how the triangle creates pressure to find weaknesses in the lock and attack the figure-four configuration",
-      "Space Creation: Generate space between your body and opponent's legs to reduce pressure and create opportunity for clearing attempts",
-      "Hip Movement: Despite triangle's hip rotation prevention, use whatever limited hip mobility remains to create angles for escape",
-      "Energy Conservation: Avoid constant maximum effort, instead using precise technique at key moments to avoid exhaustion under breathing restriction"
-    ],
-    "offensive_transitions": [
+    "transitions": [
       {
-        "technique": "Hip Escape to Turtle",
-        "target_position": "Turtle",
-        "success_rates": {
-          "beginner": 20,
-          "intermediate": 35,
-          "advanced": 50
-        }
+        "transition": "Rear Naked Choke",
+        "attempt_probability": 15
       },
       {
-        "technique": "Frame and Shrimp",
-        "target_position": "Half Guard",
-        "success_rates": {
-          "beginner": 15,
-          "intermediate": 30,
-          "advanced": 45
-        }
+        "transition": "Armbar from Back with Legs",
+        "attempt_probability": 13
       },
       {
-        "technique": "Granby Roll",
-        "target_position": "Guard Recovery",
-        "success_rates": {
-          "beginner": 18,
-          "intermediate": 33,
-          "advanced": 48
-        }
+        "transition": "Bow and Arrow Choke",
+        "attempt_probability": 14
       },
       {
-        "technique": "Rolling Back Take Reversal",
-        "target_position": "Back Control",
-        "success_rates": {
-          "beginner": 10,
-          "intermediate": 20,
-          "advanced": 35
-        }
+        "transition": "Short Choke",
+        "attempt_probability": 12
       },
       {
-        "technique": "Triangle Clear to Side",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 12,
-          "intermediate": 25,
-          "advanced": 40
-        }
+        "transition": "Triangle Choke Back",
+        "attempt_probability": 11
       },
       {
-        "technique": "Technical Standup",
-        "target_position": "Standing Position",
-        "success_rates": {
-          "beginner": 8,
-          "intermediate": 18,
-          "advanced": 32
-        }
+        "transition": "Back Control to Crucifix",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Turtle to Truck",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Side Control to Mount",
+        "attempt_probability": 13
       }
-    ],
-    "defensive_responses": [
-      {
-        "technique": "Rear Naked Choke",
-        "target_position": "Lost by Submission",
-        "success_rate": 65
-      },
-      {
-        "technique": "Bow and Arrow Choke",
-        "target_position": "Lost by Submission",
-        "success_rate": 60
-      },
-      {
-        "technique": "Armbar from Back with Legs",
-        "target_position": "Armbar Control",
-        "success_rate": 55
-      },
-      {
-        "technique": "Short Choke",
-        "target_position": "Lost by Submission",
-        "success_rate": 50
-      },
-      {
-        "technique": "Back Control to Crucifix",
-        "target_position": "Crucifix",
-        "success_rate": 45
-      }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Hip Escape to Turtle",
-        "target_position": "Turtle",
-        "trigger": "When you create enough space to rotate hips and begin turning into opponent"
-      },
-      {
-        "technique": "Frame and Shrimp to Half Guard",
-        "target_position": "Half Guard",
-        "trigger": "After clearing triangle and creating frame to prevent opponent from maintaining back control"
-      },
-      {
-        "technique": "Technical Standup",
-        "target_position": "Standing Position",
-        "trigger": "When triangle is cleared and you have posting opportunity to elevate to standing"
-      }
-    ],
-    "decision_tree": [
-      {
-        "condition": "If opponent has tight triangle with maximum pressure and aggressive neck attacks",
-        "actions": [
-          {
-            "technique": "Protect neck with chin down and hands",
-            "target": "Body Triangle",
-            "probability": 80
-          },
-          {
-            "technique": "Focus on breathing management",
-            "target": "Body Triangle",
-            "probability": 75
-          }
-        ]
-      },
-      {
-        "condition": "If you create space between your body and opponent's legs",
-        "actions": [
-          {
-            "technique": "Attack the figure-four lock",
-            "target": "Turtle",
-            "probability": 45
-          },
-          {
-            "technique": "Work to turn into opponent",
-            "target": "Half Guard",
-            "probability": 40
-          }
-        ]
-      },
-      {
-        "condition": "If opponent's triangle lock is loosening or not optimally positioned",
-        "actions": [
-          {
-            "technique": "Hip Escape to Turtle",
-            "target": "Turtle",
-            "probability": 50
-          },
-          {
-            "technique": "Granby Roll escape",
-            "target": "Guard Recovery",
-            "probability": 48
-          }
-        ]
-      },
-      {
-        "condition": "If you have cleared triangle completely but opponent maintains upper body control",
-        "actions": [
-          {
-            "technique": "Frame and Shrimp to Half Guard",
-            "target": "Half Guard",
-            "probability": 55
-          },
-          {
-            "technique": "Technical Standup",
-            "target": "Standing Position",
-            "probability": 45
-          }
-        ]
-      }
-    ],
-    "common_errors": [
-      {
-        "error": "Panicking from breathing restriction and attempting explosive scrambling without technical precision",
-        "consequence": "Wastes precious energy while under breathing restriction, creates submission opportunities for opponent, and fails to address structural problem of the triangle lock",
-        "correction": "Maintain calm mental state, control breathing with measured breaths, and work systematically on clearing triangle using technical approach rather than athletic scrambling"
-      },
-      {
-        "error": "Focusing exclusively on clearing triangle while completely neglecting neck protection",
-        "consequence": "Opponent capitalizes on your distraction with triangle to sink in rear naked choke or other neck attacks, finishing submission while you work on leg position",
-        "correction": "Maintain constant neck protection with chin tucked and hands defending neck throughout escape process, only exposing neck when absolutely necessary for clearing attempts"
-      },
-      {
-        "error": "Attempting to power out of triangle lock with pure strength and muscle",
-        "consequence": "Exhausts your muscles under breathing restriction without breaking properly locked figure-four configuration, leaving you depleted for actual escape attempts and increasing submission danger",
-        "correction": "Use technical clearing methods that attack the mechanics of the triangle lock, finding weakness in foot position behind knee rather than attempting to overpower locked structure"
-      },
-      {
-        "error": "Staying flat on your back and not attempting to turn into opponent or create angles",
-        "consequence": "Allows opponent to maintain optimal back control indefinitely, maximizes effectiveness of triangle pressure, and provides them comfortable position to hunt submissions without defensive pressure",
-        "correction": "Constantly work to turn your shoulders toward opponent, create angles that reduce triangle effectiveness, and threaten to face them which forces them to adjust control"
-      },
-      {
-        "error": "Giving up mentally from discomfort and accepting the position as inescapable",
-        "consequence": "Guarantees eventual submission as opponent works systematically through their attack options while you provide no defensive resistance or escape attempts",
-        "correction": "Maintain fighting mentality despite discomfort, recognizing that body triangle has technical escape solutions and opponent's position requires energy to maintain submission attempts"
-      },
-      {
-        "error": "Reaching back to grab or attack opponent's legs without proper strategy",
-        "consequence": "Exposes your arms to armbar attacks and crucifix transitions while failing to effectively clear the triangle, creating multiple submission dangers simultaneously",
-        "correction": "Only attack triangle lock with specific technical clearing sequences that protect your arms, using proper frames and leverage rather than reaching back blindly"
-      }
-    ],
-    "training_drills": [
-      {
-        "name": "Breathing Under Pressure Drill",
-        "description": "Partner locks body triangle with moderate pressure. Practice maintaining calm breathing, taking measured breaths, and working technically on escape without panic. Partner gradually increases pressure as your comfort improves. Develops mental composure under physical stress.",
-        "duration": "3-minute rounds"
-      },
-      {
-        "name": "Triangle Clearing Technique Drill",
-        "description": "Start with partner's body triangle locked. Practice specific technical sequences for clearing the figure-four lock, attacking the foot position behind knee, creating space, and eventually opening the triangle. Partner provides resistance but allows successful technique. Work both sides.",
-        "duration": "5 minutes each side"
-      },
-      {
-        "name": "Escape Flow from Body Triangle",
-        "description": "Partner locks body triangle and attempts submissions at 50% intensity. Practice full escape sequences from initial neck protection through triangle clearing to final position achievement (turtle, half guard, standing). Focus on systematic progression through escape steps.",
-        "duration": "6 minutes"
-      },
-      {
-        "name": "Defensive Positioning Under Triangle",
-        "description": "Partner maintains body triangle while you focus exclusively on optimal defensive positioning - chin protection, hand fighting, creating angles to reduce pressure. No escape attempts, only defensive management. Develops positional awareness and defensive fundamentals.",
-        "duration": "4 minutes"
-      }
-    ],
-    "optimal_submission_paths": [
-      {
-        "name": "Shortest escape path",
-        "path": "Body Triangle → Hip Escape → Turtle → Standing Position"
-      },
-      {
-        "name": "Guard recovery path",
-        "path": "Body Triangle → Granby Roll → Guard Recovery → Closed Guard"
-      },
-      {
-        "name": "Half guard safety path",
-        "path": "Body Triangle → Frame and Shrimp → Half Guard → Half Guard Recovery"
-      },
-      {
-        "name": "Reversal path",
-        "path": "Body Triangle → Rolling Back Take Reversal → Back Control"
-      },
-      {
-        "name": "Standing escape path",
-        "path": "Body Triangle → Triangle Clear → Technical Standup → Standing Position"
-      }
-    ],
-    "related_content": [
-      {
-        "name": "Back Control",
-        "relationship": "Parent position opponent is controlling you from"
-      },
-      {
-        "name": "Turtle",
-        "relationship": "Common escape target position from body triangle"
-      },
-      {
-        "name": "Half Guard",
-        "relationship": "Alternative escape target achieving guard recovery"
-      },
-      {
-        "name": "Back Escape Series",
-        "relationship": "Systematic escape principles applicable to body triangle"
-      },
-      {
-        "name": "RNC Defense",
-        "relationship": "Critical defensive skill needed while escaping triangle"
-      },
-      {
-        "name": "Hand Fighting from Back",
-        "relationship": "Upper body defensive skills used throughout escape process"
-      },
-      {
-        "name": "Hip Escape",
-        "relationship": "Key movement pattern for creating angles and clearing triangle"
-      },
-      {
-        "name": "Granby Roll",
-        "relationship": "Advanced escape technique from body triangle control"
-      }
-    ],
-    "position_metrics": {
-      "retention_rate": {
-        "beginner": 15,
-        "intermediate": 30,
-        "advanced": 45,
-        "description": "Ability to maintain defensive position without being submitted"
-      },
-      "advancement_probability": {
-        "beginner": 25,
-        "intermediate": 40,
-        "advanced": 55,
-        "description": "Probability of escaping to better position"
-      },
-      "submission_probability": {
-        "beginner": 65,
-        "intermediate": 50,
-        "advanced": 30,
-        "description": "Risk of being submitted from this position"
-      },
-      "average_time": "1-3 minutes depending on skill level and opponent's submission timing"
-    }
+    ]
   }
 }

@@ -21,37 +21,37 @@ description: "Master the bottom of Mission Control with complete control mechani
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Setup",
-      "text": "From this position, execute Triangle Setup to transition to Triangle Control. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Triangle Setup. This technique is attempted in 15% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Omoplata to Sweep",
-      "text": "From this position, execute Omoplata to Sweep to transition to Omoplata Control. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Omoplata to Sweep. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Omoplata",
-      "text": "From this position, execute Transition to Omoplata to transition to Omoplata Control. Success rate for advanced practitioners: 68%.",
+      "name": "Execute Closed Guard to Omoplata",
+      "text": "From this position, attempt Closed Guard to Omoplata. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle from Guard",
-      "text": "From this position, execute Triangle from Guard to transition to Triangle Control. Success rate for advanced practitioners: 72%.",
+      "text": "From this position, attempt Triangle from Guard. This technique is attempted in 14% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Armbar from Guard",
-      "text": "From this position, execute Armbar from Guard to transition to Armbar Control. Success rate for advanced practitioners: 62%.",
+      "text": "From this position, attempt Armbar from Guard. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Truck",
-      "text": "From this position, execute Transition to Truck to transition to New York. Success rate for advanced practitioners: 58%.",
+      "name": "Execute Hip Bump Sweep",
+      "text": "From this position, attempt Hip Bump Sweep. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -217,121 +217,24 @@ Success in Mission Control bottom requires specific physical attributes and tech
 
 ## Available Escapes
 
-### [[Triangle Setup]] → [[Triangle Control]]
+### [[Triangle Setup]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 55%
-- Advanced: 75%
+### [[Omoplata to Sweep]] (12% of attempts)
 
-### [[Omoplata to Sweep]] → [[Omoplata Control]]
+### [[Closed Guard to Omoplata]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 70%
+### [[Triangle from Guard]] (14% of attempts)
 
-### [[Transition to Omoplata]] → [[Omoplata Control]]
+### [[Armbar from Guard]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 28%
-- Intermediate: 48%
-- Advanced: 68%
+### [[Hip Bump Sweep]] (10% of attempts)
 
-### [[Triangle from Guard]] → [[Triangle Control]]
+### [[Omoplata Sweep]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 32%
-- Intermediate: 52%
-- Advanced: 72%
+### [[Closed Guard to Triangle]] (8% of attempts)
 
-### [[Armbar from Guard]] → [[Armbar Control]]
+### [[Triangle to Omoplata]] (9% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 42%
-- Advanced: 62%
-
-### [[Transition to Truck]] → [[New York]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 38%
-- Advanced: 58%
-
-### [[Hip Bump Sweep]] → [[Mount]]
-
-**Success Rates:**
-- Beginner: 18%
-- Intermediate: 32%
-- Advanced: 50%
-
-### [[Omoplata Sweep]] → [[Back Control]]
-
-**Success Rates:**
-- Beginner: 22%
-- Intermediate: 40%
-- Advanced: 60%
-
-### [[Transition to Omoplata]] → [[Carni]]
-
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 50%
-
-### [[Closed Guard to Triangle]] → [[Gogoplata Control]]
-
-**Success Rates:**
-- Beginner: 10%
-- Intermediate: 22%
-- Advanced: 40%
-
-### [[Triangle to Omoplata]] → [[Invisible Collar]]
-
-**Success Rates:**
-- Beginner: 12%
-- Intermediate: 25%
-- Advanced: 45%
-
-### [[Omoplata to Back]] → [[Zombie]]
-
-**Success Rates:**
-- Beginner: 8%
-- Intermediate: 18%
-- Advanced: 35%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Posture Up]]** → [[Closed Guard]] (Opponent Success: 25%)
-- **[[Guard Pass]]** → [[Side Control]] (Opponent Success: 20%)
-- **[[Stack Defense]]** → [[Turtle]] (Opponent Success: 18%)
-- **[[Arm Extraction]]** → [[Open Guard]] (Opponent Success: 22%)
-- **[[Standing up in Base]]** → [[Standing Guard]] (Opponent Success: 15%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Triangle Setup]]** → [[Triangle Control]]
-  - When opponent postures up, immediately transition to triangle using their upward movement to assist the attack
-- **[[Omoplata to Sweep]]** → [[Omoplata Control]]
-  - When opponent pulls trapped arm back, follow the arm into omoplata and sweep as they defend
-- **[[Transition to Truck]]** → [[New York]]
-  - When opponent successfully extracts their arm, transition to New York control to reestablish shoulder isolation
-- **[[Omoplata Sweep]]** → [[Back Control]]
-  - When opponent drives forward with stacking pressure, use their momentum to transition to back control
-- **[[Hip Bump Sweep]]** → [[Mount]]
-  - When opponent posts hand to defend submissions, immediately sweep using their posted hand as lever
 
 
 </section>
@@ -342,22 +245,22 @@ Success in Mission Control bottom requires specific physical attributes and tech
 
 **Opponent maintains broken posture with head down and weight on trapped shoulder:**
 - Execute **[[Triangle Setup]]** → [[Triangle Control]] (Probability: 75%)
-- Execute **[[Transition to Omoplata]]** → [[Omoplata Control]] (Probability: 70%)
+- Execute **[[Closed Guard to Omoplata]]** → [[Omoplata Control]] (Probability: 70%)
 
 
 **Opponent attempts to posture up by driving weight back and lifting head:**
 - Execute **[[Triangle from Guard]]** → [[Triangle Control]] (Probability: 70%)
-- Execute **[[Transition to Truck]]** → [[New York]] (Probability: 55%)
+- Execute **[[New York Transition]]** → [[New York]] (Probability: 55%)
 
 
 **Opponent drives forward with stacking pressure attempting to collapse high guard:**
-- Execute **[[Transition to Truck]]** → [[Zombie]] (Probability: 60%)
+- Execute **[[Zombie Transition]]** → [[Zombie]] (Probability: 60%)
 - Execute **[[Omoplata Sweep]]** → [[Back Control]] (Probability: 58%)
 
 
 **Opponent pulls trapped arm back attempting to free shoulder from isolation:**
 - Execute **[[Omoplata to Sweep]]** → [[Omoplata Control]] (Probability: 68%)
-- Execute **[[Transition to Omoplata]]** → [[Invisible Collar]] (Probability: 45%)
+- Execute **[[Invisible Collar Transition]]** → [[Invisible Collar]] (Probability: 45%)
 
 
 **Opponent successfully extracts arm and begins to open guard:**
@@ -455,37 +358,39 @@ Flow drill starting in Mission Control. Partner defends triangle, transition to 
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Direct Triangle from Mission Control
+## Test Your Knowledge
 
-`Mission Control → Triangle Setup → Triangle Control → Triangle Choke`
+**Q1**: What is the essential weight distribution for maintaining Mission Control and how does it create the 'cooking' effect on your opponent?
+**A**: Your hips must remain elevated off the mat, creating active upward pressure that forces your opponent's weight onto their trapped shoulder. This asymmetric loading creates rapid fatigue in their shoulder and neck while you can maintain control with relatively less effort. The structural mechanics mean their own defensive efforts work against them - the more they resist, the more their weight loads onto the compromised shoulder.
 
-### Omoplata Sweep to Back Take
+**Q2**: Your opponent begins recovering posture by driving weight backward - what adjustment do you make to maintain control?
+**A**: Increase hip elevation and pull more aggressively on their head with both hands to counteract their backward movement. If they continue driving back, immediately transition to triangle by bringing your leg across their face - their upward posture movement actually assists the triangle entry. Use their defensive momentum against them rather than fighting it directly with strength.
 
-`Mission Control → Omoplata to Sweep → Omoplata Control → Omoplata Sweep → Back Control → Rear Naked Choke`
+**Q3**: What are the primary grips required to maintain Mission Control and why is each essential?
+**A**: The primary grip is head control - either double overhooks behind the head or one hand on the back of the head with the other controlling the trapped arm. Head control is non-negotiable because any relaxation allows posture recovery which eliminates both control and submission opportunities. Secondary is the wrist or tricep control on the trapped arm to prevent extraction. Without aggressive head control, the entire position structure fails.
 
-### Triangle to Armbar Chain
+**Q4**: How do you shut down the opponent's primary escape attempt of extracting their trapped arm?
+**A**: Keep the trapped arm isolated on the inside of your high guard leg by constantly monitoring its position and maintaining downward pressure with your outside leg over their shoulder. If they begin pulling the arm back, immediately follow it into omoplata - their extraction attempt is actually the setup for your next attack. If the arm slips toward the outside, transition to Invisible Collar or New York to reestablish shoulder isolation.
 
-`Mission Control → Triangle Setup → Triangle Control → Triangle to Armbar → Armbar from Guard`
+**Q5**: Where should the high guard leg be positioned on the opponent's back and why does height matter?
+**A**: Thread your inside leg as high as possible across the opponent's back, with the shin or calf creating downward pressure on the shoulder blade. The higher the leg position, the greater the shoulder isolation and mechanical leverage. A leg positioned too low allows the opponent to maintain shoulder mobility and generate defensive frames, reducing submission threat and control effectiveness.
 
-### New York to Triangle Transition
+**Q6**: Your opponent successfully stands up while you maintain Mission Control - how do you recover or capitalize?
+**A**: If they stand with you attached, you have two options based on their balance. If they're off-balance forward, continue pulling their head and elevate into a flying triangle or omoplata. If they achieve stable standing posture, release the high guard and transition to standing guard position, looking for immediate takedowns or guard pulls. Don't cling to a compromised Mission Control against a standing opponent.
 
-`Mission Control → Transition to Truck → New York → Triangle Setup → Triangle Control → Triangle Choke`
+**Q7**: How do you manage energy expenditure to maintain Mission Control for extended periods?
+**A**: Rely on structural positioning rather than muscular effort - use hip elevation and leg positioning for control, letting structural mechanics do the work. Once the position is locked, relax into it while maintaining control tension through your frame, not through constant gripping and pulling. Let the opponent's own weight distribution create the fatigue while you conserve energy for attacks and adjustments.
 
-### Gogoplata from Broken Posture
-
-`Mission Control → Closed Guard to Triangle → Gogoplata Control → Gogoplata`
-
-### Omoplata to Triangle Switch
-
-`Mission Control → Omoplata to Sweep → Omoplata Control → Triangle to Omoplata → Triangle Control → Triangle Choke`
+**Q8**: Your opponent drives forward with stacking pressure to collapse your high guard - what is your counter?
+**A**: Accept their forward pressure and use their momentum to transition. Options include transitioning to Zombie control which is specifically designed for stacking opponents, rolling into omoplata using their forward pressure as momentum, or using an overhead sweep to reverse position entirely. Forward stacking should be welcomed as it creates predictable momentum you can redirect into attacks.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -507,7 +412,6 @@ Flow drill starting in Mission Control. Partner defends triangle, transition to 
 ## Related Positions and Techniques
 
 - **[[Rubber Guard]]** - Parent system - Mission Control is the foundational control position
-- **[[10th Planet Rubber Guard System]]** - Strategic framework - systematic approach to rubber guard positions and submissions
 - **[[New York]]** - Advanced control - primary transition when opponent defends Mission Control
 - **[[Triangle Control]]** - Primary submission destination from Mission Control
 - **[[Omoplata Control]]** - Secondary submission destination from Mission Control
@@ -516,6 +420,7 @@ Flow drill starting in Mission Control. Partner defends triangle, transition to 
 - **[[Carni]]** - Alternative shoulder isolation control within rubber guard system
 - **[[Invisible Collar]]** - Transition control when opponent strips grips or extracts arm
 - **[[Zombie]]** - Counter control when opponent stacks or drives forward pressure
+- **[[Back Control]]** - Alternative destination from omoplata sweeps when opponent over-defends
 
 
 </section>

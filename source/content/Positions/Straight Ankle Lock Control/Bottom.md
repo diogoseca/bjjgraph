@@ -21,37 +21,37 @@ description: "Master the attacking perspective of straight ankle lock control. C
     {
       "@type": "HowToStep",
       "name": "Execute Straight Ankle Lock",
-      "text": "From this position, execute Straight Ankle Lock to transition to Won by Submission. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Straight Ankle Lock. This technique is attempted in 11% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Inside Ashi Entry",
-      "text": "From this position, execute Inside Ashi Entry to transition to Inside Ashi-Garami. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Inside Ashi Entry. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Outside Ashi Entry",
-      "text": "From this position, execute Outside Ashi Entry to transition to Outside Ashi-Garami. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Outside Ashi Entry. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute X-Guard to Ashi Transition",
-      "text": "From this position, execute X-Guard to Ashi Transition to transition to Inside Ashi-Garami. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt X-Guard to Ashi Transition. This technique is attempted in 11% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute 50-50 Entry from Standing",
-      "text": "From this position, execute 50-50 Entry from Standing to transition to 50-50 Guard. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt 50-50 Entry from Standing. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Single Leg X Entry",
-      "text": "From this position, execute Single Leg X Entry to transition to Single Leg X-Guard. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Single Leg X Entry. This technique is attempted in 13% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -218,101 +218,24 @@ The technical execution requires precise coordination of grips, leg positioning,
 
 ## Available Escapes
 
-### [[Straight Ankle Lock]] → [[Won by Submission]]
+### [[Straight Ankle Lock]] (11% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Inside Ashi Entry]] (12% of attempts)
 
-### [[Inside Ashi Entry]] → [[Inside Ashi-Garami]]
+### [[Outside Ashi Entry]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 60%
-- Advanced: 75%
+### [[X-Guard to Ashi Transition]] (11% of attempts)
 
-### [[Outside Ashi Entry]] → [[Outside Ashi-Garami]]
+### [[50-50 Entry from Standing]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Single Leg X Entry]] (13% of attempts)
 
-### [[X-Guard to Ashi Transition]] → [[Inside Ashi-Garami]]
+### [[Straight Footlock]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Kneebar Finish]] (9% of attempts)
 
-### [[50-50 Entry from Standing]] → [[50-50 Guard]]
+### [[Ankle Pick Sweep]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
-
-### [[Single Leg X Entry]] → [[Single Leg X-Guard]]
-
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 60%
-- Advanced: 75%
-
-### [[Straight Footlock]] → [[Won by Submission]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[Kneebar Finish]] → [[Won by Submission]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-### [[Ankle Pick Sweep]] → [[Standing Position]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Ashi Garami Escape]]** → [[Standing Position]] (Opponent Success: 45%)
-- **[[Hip Rotation Defense]]** → [[Defensive Position]] (Opponent Success: 40%)
-- **[[Knee Extraction]]** → [[Half Guard]] (Opponent Success: 35%)
-- **[[Frame and Distance Creation]]** → [[Open Guard]] (Opponent Success: 40%)
-- **[[Counter Entry to Opponent's Leg]]** → [[50-50 Guard]] (Opponent Success: 30%)
-- **[[Standing Escape]]** → [[Standing Position]] (Opponent Success: 35%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Inside Ashi Entry]]** → [[Inside Ashi-Garami]]
-  - When defender rotates hip away to create space for knee extraction
-- **[[Outside Ashi Entry]]** → [[Outside Ashi-Garami]]
-  - When defender rotates hip toward attacker attempting to come on top
-- **[[50-50 Entry from Standing]]** → [[50-50 Guard]]
-  - When defender attempts to enter on attacker's opposite leg while standing
-- **[[X-Guard to Ashi Transition]]** → [[Inside Ashi-Garami]]
-  - When defender attempts to pass by stepping over trapped leg
-- **[[Straight Footlock]]** → [[Won by Submission]]
-  - When defender extends leg straight attempting to pull out of control
 
 
 </section>
@@ -332,8 +255,8 @@ The technical execution requires precise coordination of grips, leg positioning,
 
 
 **If defender straightens leg completely attempting to pull foot out of grip:**
-- Execute **[[Straight Ankle Lock]]** → [[Won by Submission]] (Probability: 70%)
-- Execute **[[Kneebar Finish]]** → [[Won by Submission]] (Probability: 55%)
+- Execute **[[Straight Ankle Lock]]** → [[game-over]] (Probability: 70%)
+- Execute **[[Kneebar Finish]]** → [[game-over]] (Probability: 55%)
 
 
 **If defender attempts to stand and creates vertical pressure on trapped leg:**
@@ -343,7 +266,7 @@ The technical execution requires precise coordination of grips, leg positioning,
 
 **If defender secures grip on attacker's opposite leg attempting symmetrical entanglement:**
 - Execute **[[50-50 Entry from Standing]]** → [[50-50 Guard]] (Probability: 70%)
-- Execute **[[Race to finish ankle lock before defender secures their control]]** → [[Won by Submission]] (Probability: 45%)
+- Execute **[[Race to finish ankle lock before defender secures their control]]** → [[game-over]] (Probability: 45%)
 
 
 
@@ -424,33 +347,39 @@ With fully compliant partner in straight ankle lock control, practice proper bre
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Direct Straight Ankle Lock Finish
+## Test Your Knowledge
 
-`Straight Ankle Lock Control Bottom → Straight Ankle Lock → Won by Submission`
+**Q1**: What is the proper sequence for establishing control before attempting to finish the straight ankle lock?
+**A**: First establish perpendicular hip positioning relative to defender's body, then wrap your legs securely around their trapped leg to prevent hip rotation, verify ankle grip security with forearm positioned against the Achilles tendon and opposite hand cupping the heel, and only then initiate breaking mechanics. Position before submission is the fundamental principle - attempting to finish without these control elements results in easy escape.
 
-### Inside Ashi Advancement to Heel Hook
+**Q2**: Your opponent rotates their hip away from you attempting to extract their knee - what counter-transition do you execute?
+**A**: Their hip rotation away opens a pathway to Inside Ashi-Garami. Follow their rotation by threading your inside leg through to establish the leg triangle, transitioning your control to secure inside position with your shin across their far hip. Their defensive movement actually facilitates your advancement to a more dominant entanglement where heel hooks become available.
 
-`Straight Ankle Lock Control Bottom → Inside Ashi-Garami → Saddle → Inside Heel Hook → Won by Submission`
+**Q3**: What are the essential grips for maintaining control and finishing capability in this position?
+**A**: The primary grip positions your forearm directly against the Achilles tendon with the blade of your wrist bone pressing into the tendon. The secondary grip cups the heel with palm across the back of the heel and fingers pointing toward toes. This configuration creates the pocket needed for submission leverage while controlling heel rotation that would allow escape.
 
-### Outside Ashi to Kneebar Chain
+**Q4**: How do you apply proper breaking mechanics to finish the straight ankle lock?
+**A**: Breaking mechanics require full body coordination: arch your back to create extension, pull the heel tight to your chest, extend your hips to generate downward pressure, and dorsiflex the ankle by pushing toes toward shin. All movements happen simultaneously to maximize pressure on the Achilles tendon and ankle joint. The finish comes from hip extension and back arch, not arm strength.
 
-`Straight Ankle Lock Control Bottom → Outside Ashi-Garami → Kneebar Control → Kneebar → Won by Submission`
+**Q5**: The defender straightens their leg completely attempting to pull their foot free - what opportunity does this create?
+**A**: Full leg extension is a critical defensive error that dramatically increases your finishing leverage on the straight ankle lock and also opens immediate kneebar opportunities. The straight leg creates a direct line of force for ankle pressure while the extended knee becomes vulnerable to kneebar attack. This defensive mistake should trigger immediate commitment to finishing.
 
-### 50-50 Symmetrical Finish
+**Q6**: What leg configurations can you use to prevent the defender's hip rotation?
+**A**: Three primary configurations exist: inside position with your leg behind their knee creating a wedge, figure-four leg triangle where you cross your ankles around their thigh, or dual shin control across their thigh pinching from both sides. Each configuration prevents hip rotation while offering different transition flexibility. Choose based on the defender's leg positioning and your intended follow-up attacks.
 
-`Straight Ankle Lock Control Bottom → 50-50 Guard → Straight Ankle Lock → Won by Submission`
+**Q7**: How do you manage the time pressure dynamics when attacking from straight ankle lock control?
+**A**: Implement strict internal time limits - if the submission is not imminent within 10-15 seconds, immediately transition to a more controlling position rather than continuing to fight for the finish. Energy expenditure without positional improvement favors the defender, so decisive action either toward the finish or toward advancement is required. Stalling in this position is tactically unsound.
 
-### Single Leg X Sweep to Top Control
-
-`Straight Ankle Lock Control Bottom → Single Leg X-Guard → Single Leg X Sweep → Saddle → Inside Heel Hook → Won by Submission`
+**Q8**: The defender establishes frames on your upper body and begins creating distance - how do you recover control?
+**A**: Immediately tighten your leg wrap to maintain connection while using your free arm to break their frames or control their hip. If distance becomes significant, transition to Single Leg X-Guard to maintain leg engagement while rebuilding your attack angle. Never allow frames to accumulate unchallenged, as distance compounds and control becomes progressively more difficult to re-establish.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -475,7 +404,7 @@ With fully compliant partner in straight ankle lock control, practice proper bre
 - **[[Outside Ashi-Garami]]** - Alternative advancement when defender rotates hip toward attacker
 - **[[50-50 Guard]]** - Symmetrical entanglement resulting from defender's counter-entry attempts
 - **[[Single Leg X-Guard]]** - Common entry position and fallback when standing defense occurs
-- **[[Straight Ankle Lock]]** - Primary submission finish from this control position
+- **[[Achilles Lock]]** - Primary submission finish from this control position
 - **[[Kneebar Control]]** - Alternative attack when defender straightens leg defending ankle lock
 - **[[Saddle]]** - Advanced leg entanglement accessible through systematic transitions
 - **[[Leg Entanglement]]** - Conceptual framework principle governing this position category

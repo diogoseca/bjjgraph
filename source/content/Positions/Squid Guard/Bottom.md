@@ -21,37 +21,37 @@ description: "Master Squid Guard Bottom in BJJ. Advanced asymmetrical guard with
     {
       "@type": "HowToStep",
       "name": "Execute Kiss of the Dragon",
-      "text": "From this position, execute Kiss of the Dragon to transition to Back Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Kiss of the Dragon. This technique is attempted in 11% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute X-Guard Sweep",
-      "text": "From this position, execute X-Guard Sweep to transition to X-Guard. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt X-Guard Sweep. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Single Leg X Sweep",
-      "text": "From this position, execute Single Leg X Sweep to transition to Single Leg X-Guard. Success rate for advanced practitioners: 68%.",
+      "text": "From this position, attempt Single Leg X Sweep. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Berimbolo Entry",
-      "text": "From this position, execute Berimbolo Entry to transition to Back Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Berimbolo Entry. This technique is attempted in 11% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute De La Riva Sweep",
-      "text": "From this position, execute De La Riva Sweep to transition to Side Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt De La Riva Sweep. This technique is attempted in 11% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Technical Stand Up",
-      "text": "From this position, execute Technical Stand Up to transition to Standing Position. Success rate for advanced practitioners: 72%.",
+      "text": "From this position, attempt Technical Stand Up. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -214,98 +214,24 @@ While technically demanding and requiring significant flexibility, coordination,
 
 ## Available Escapes
 
-### [[Kiss of the Dragon]] → [[Back Control]]
+### [[Kiss of the Dragon]] (11% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 45%
-- Advanced: 65%
+### [[X-Guard Sweep]] (12% of attempts)
 
-### [[X-Guard Sweep]] → [[X-Guard]]
+### [[Single Leg X Sweep]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Berimbolo Entry]] (11% of attempts)
 
-### [[Single Leg X Sweep]] → [[Single Leg X-Guard]]
+### [[De La Riva Sweep]] (11% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 68%
+### [[Technical Stand Up]] (12% of attempts)
 
-### [[Berimbolo Entry]] → [[Back Control]]
+### [[Omoplata Sweep]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 40%
-- Advanced: 60%
+### [[Triangle Setup]] (10% of attempts)
 
-### [[De La Riva Sweep]] → [[Side Control]]
+### [[Omoplata to Back]] (11% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 48%
-- Advanced: 65%
-
-### [[Technical Stand Up]] → [[Standing Position]]
-
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 58%
-- Advanced: 72%
-
-### [[Omoplata Sweep]] → [[Mount]]
-
-**Success Rates:**
-- Beginner: 22%
-- Intermediate: 38%
-- Advanced: 55%
-
-### [[Triangle Setup]] → [[Triangle Control]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 55%
-
-### [[Omoplata to Back]] → [[Back Control]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 60%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Knee Slice Pass]]** → [[Side Control]] (Opponent Success: 35%)
-- **[[Leg Drag Pass]]** → [[Side Control]] (Opponent Success: 40%)
-- **[[Stack Pass]]** → [[Side Control]] (Opponent Success: 30%)
-- **[[Leg Weave Pass]]** → [[Side Control]] (Opponent Success: 40%)
-- **[[Toreando Pass]]** → [[Side Control]] (Opponent Success: 32%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Re-Guard]]** → [[Closed Guard]]
-  - Opponent attempts to stack or pressure forward
-- **[[De La Riva Sweep]]** → [[Side Control]]
-  - Opponent stands to disengage from threading leg
-- **[[Back Take Generic]]** → [[Back Control]]
-  - Opponent turns away from threading leg pressure
-- **[[Technical Stand Up]]** → [[Standing Position]]
-  - Opponent backs away to break guard
 
 
 </section>
@@ -412,33 +338,39 @@ Hold Squid Guard position with partner attempting to extract threading leg and c
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Triangle Path via Hook Control
+## Test Your Knowledge
 
-`Squid Guard Bottom → Triangle Setup → Triangle Choke`
+**Q1**: What are the essential grips required to maintain effective Squid Guard control?
+**A**: The primary grip is on the opponent's lapel, wrapped around their leg or body to create constant tension and restrict their mobility. Secondary grips include sleeve control on their far arm to prevent grip stripping, and collar grip to break their posture. The lapel grip is non-negotiable - without it, Squid Guard degenerates into standard De La Riva and loses its unique advantages. At minimum, maintain the lapel wrap plus one upper body grip.
 
-### Back Attack Path via Berimbolo
+**Q2**: How should you distribute your weight and position your hips to maximize guard retention?
+**A**: Keep your hips angled at approximately 45 degrees to your opponent rather than flat on your back. This angle creates better leverage for sweeps and makes it harder for them to stack or pressure pass. Your weight should be slightly on the hip of your non-threading leg, which allows rapid hip adjustment and creates rotational power. Avoid being flat - it eliminates your mobility and sweep potential.
 
-`Squid Guard Bottom → Berimbolo Entry → Back Control → Rear Naked Choke`
+**Q3**: Your opponent starts standing upright with good posture - what immediate threat should you create?
+**A**: When they stand tall with neutral weight distribution, attack with sweeping movements that exploit their height and narrow base. Pull the lapel to break their posture while simultaneously extending your threading leg to elevate their far leg. This combination of pulling and lifting creates immediate off-balancing that threatens sweeps. The taller they stand, the more vulnerable they are to elevation-based attacks.
 
-### Back Attack Path via Kiss of Dragon
+**Q4**: Your opponent begins driving forward with heavy pressure attempting to stack you - how do you respond?
+**A**: Use their forward momentum against them by initiating back take sequences. When they drive forward, they're essentially loading your guard and creating the energy you need for inversions. Time your berimbolo or Kiss of the Dragon entry to their forward pressure, using their momentum to accelerate your rotation underneath them. The key is recognizing their commitment early and initiating your inversion before they flatten you.
 
-`Squid Guard Bottom → Kiss of the Dragon → Back Control → Rear Naked Choke`
+**Q5**: What is the primary danger to your threading leg and how do you protect it?
+**A**: The threading leg is exposed to leg lock attacks, particularly heel hooks and kneebars, when opponents recognize the vulnerability. Protect it by maintaining constant movement and tension - a stationary threading leg is an easy target. If you sense them reaching for your heel or shifting to attack the leg, immediately withdraw the thread and transition to Spider Guard or Lasso Guard. Never allow them to isolate the threading leg with both hands.
 
-### Armbar Path via Sweep
+**Q6**: How do you recover when your opponent strips your lapel grip?
+**A**: The moment your lapel grip breaks, you must immediately transition to another guard or re-establish control. Don't try to maintain Squid Guard without the lapel - it's the defining element. Options include: re-feeding the lapel if possible, transitioning to standard De La Riva by maintaining your hook, shifting to Spider Guard using your sleeve grip, or threatening a triangle to force them to give you the space to re-establish. Prioritize maintaining some control over forcing the lapel back.
 
-`Squid Guard Bottom → X-Guard Sweep → Mount → Armbar from Mount`
+**Q7**: Your opponent turns away from your threading leg pressure - what attack sequence should you follow?
+**A**: When they turn away, they're exposing their back to escape your leg pressure. Immediately pursue with back take sequences - use your threading leg to follow their hip rotation while pulling on your lapel and upper body grips to accelerate their turn. Your non-threading leg should hook their hip to prevent them from completing a full escape. The goal is to convert their defensive turn into your offensive back take before they can stabilize in a new position.
 
-### Omoplata Path
-
-`Squid Guard Bottom → Omoplata Sweep → Omoplata`
+**Q8**: How do you manage energy expenditure while maintaining active Squid Guard?
+**A**: Squid Guard is energy-intensive due to the constant tension required. Manage energy by using frame-based distance control with your non-threading leg rather than pure muscular effort. Let the lapel wrap do most of the work - properly wrapped, it creates mechanical restriction that doesn't require constant pulling. Recognize when to transition out of Squid Guard if opponent is successfully defending without advancing, rather than depleting yourself trying to force attacks from a stalemated position.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 

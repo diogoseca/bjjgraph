@@ -2,7 +2,7 @@
 
 ![Status](https://img.shields.io/badge/Status-Beta-yellow)
 ![Active Development](https://img.shields.io/badge/Development-Active-green)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![License: PolyForm Noncommercial](https://img.shields.io/badge/License-PolyForm%20Noncommercial-blue.svg)](LICENSE)
 
 > **Note:** BJJGraph is under active development. Content is being expanded daily. Contributions welcome!
 
@@ -32,10 +32,11 @@ cd .. && npm run dev       # Development server at localhost:8080
 | Command | Description |
 |---------|-------------|
 | `npm run validate` | Validate JSON and list files needing fixes |
-| `npm run generate:md` | Regenerate markdown from JSON |
-| `npm run generate:hubs` | Generate category hub pages |
-| `npm run generate:graph` | Generate BJJ graph data |
-| `npm run regenerate` | Run all generation (validate + md + hubs + graph) |
+| `npm run regenerate:json` | Fix/enrich JSON content with Claude AI |
+| `npm run regenerate:md` | Regenerate markdown from JSON |
+| `npm run regenerate:hubs` | Generate category hub pages |
+| `npm run regenerate:graph` | Generate BJJ graph data |
+| `npm run regenerate` | Run all steps (json + validate + md + hubs + graph) |
 | `npm run build` | Build static site |
 | `npm run regenerate:build` | Regenerate + build (full workflow) |
 | `npm run dev` | Development server with live reload |
@@ -109,7 +110,7 @@ We're looking for partners who share this vision—BJJ apps, gear companies, aca
 
 ## License
 
-MIT License - see [LICENSE](LICENSE)
+PolyForm Noncommercial 1.0.0 - Free for personal, educational, and non-commercial use. Commercial use requires permission. See [LICENSE](LICENSE)
 
 ## Links
 

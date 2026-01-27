@@ -21,37 +21,37 @@ description: "Offensive guide to mastering Russian Cowboy position. Learn contro
     {
       "@type": "HowToStep",
       "name": "Execute Truck Entry",
-      "text": "From this position, execute Truck Entry to transition to Truck. Success rate for advanced practitioners: 80%.",
+      "text": "From this position, attempt Truck Entry. This technique is attempted in 14% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Twister Finish",
-      "text": "From this position, execute Twister Finish to transition to Twister Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Twister Finish. This technique is attempted in 11% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Control to Crucifix",
-      "text": "From this position, execute Back Control to Crucifix to transition to Crucifix. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Back Control to Crucifix. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rear Naked Choke",
-      "text": "From this position, execute Rear Naked Choke to transition to Back Control. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Rear Naked Choke. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Calf Slicer from Truck",
-      "text": "From this position, execute Calf Slicer from Truck to transition to Truck. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Calf Slicer from Truck. This technique is attempted in 11% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bow and Arrow Choke",
-      "text": "From this position, execute Bow and Arrow Choke to transition to Won by Submission. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Bow and Arrow Choke. This technique is attempted in 11% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -213,91 +213,22 @@ The Russian Cowboy is particularly effective because it combines elements of bac
 
 ## Available Attacks
 
-### [[Truck Entry]] → [[Truck]]
+### [[Truck Entry]] (14% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 60%
-- Advanced: 80%
+### [[Twister Finish]] (11% of attempts)
 
-### [[Twister Finish]] → [[Twister Control]]
+### [[Back Control to Crucifix]] (13% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 45%
-- Advanced: 65%
+### [[Rear Naked Choke]] (12% of attempts)
 
-### [[Back Control to Crucifix]] → [[Crucifix]]
+### [[Calf Slicer from Truck]] (11% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 55%
-- Advanced: 75%
+### [[Bow and Arrow Choke]] (11% of attempts)
 
-### [[Rear Naked Choke]] → [[Back Control]]
+### [[Turtle to Back Take]] (16% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 70%
+### [[Armbar from Back]] (12% of attempts)
 
-### [[Calf Slicer from Truck]] → [[Truck]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 40%
-- Advanced: 60%
-
-### [[Bow and Arrow Choke]] → [[Won by Submission]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 45%
-- Advanced: 65%
-
-### [[Turtle to Back Take]] → [[Back Control]]
-
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 65%
-- Advanced: 85%
-
-### [[Armbar from Back]] → [[Armbar Control]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 70%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Granby Roll]]** → [[Open Guard]] (Opponent Success: 25%)
-- **[[Technical Standup]]** → [[Standing Guard]] (Opponent Success: 20%)
-- **[[Rolling Back Take]]** → [[Scramble Position]] (Opponent Success: 30%)
-- **[[Hip Escape]]** → [[Half Guard]] (Opponent Success: 35%)
-- **[[Turtle Transition]]** → [[Turtle]] (Opponent Success: 40%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Transition to Truck]]** → [[Truck]]
-  - Opponent attempts to roll forward or away from the hook
-- **[[Crucifix from Turtle]]** → [[Crucifix]]
-  - Opponent turtles and extends far arm for posting
-- **[[Back Control to Crucifix]]** → [[Back Control]]
-  - Opponent turns into you to escape the hook
-- **[[Twister Finish]]** → [[Twister Control]]
-  - Opponent's spine becomes exposed during escape attempts
 
 
 </section>
@@ -312,13 +243,13 @@ The Russian Cowboy is particularly effective because it combines elements of bac
 
 
 **If opponent attempts to roll forward or granby away from the hook:**
-- Execute **[[Transition to Truck]]** → [[Truck]] (Probability: 70%)
+- Execute **[[Turtle to Truck]]** → [[Truck]] (Probability: 70%)
 - Execute **[[Twister Finish]]** → [[Twister Control]] (Probability: 50%)
 
 
 **If opponent turns into you to escape the bottom position:**
 - Execute **[[Turtle to Back Take]]** → [[Back Control]] (Probability: 75%)
-- Execute **[[Rear Naked Choke]]** → [[Won by Submission]] (Probability: 60%)
+- Execute **[[Rear Naked Choke]]** → [[game-over]] (Probability: 60%)
 
 
 **If opponent extends their far arm to post or create distance:**
@@ -327,7 +258,7 @@ The Russian Cowboy is particularly effective because it combines elements of bac
 
 
 **If opponent flattens out attempting to relieve hook pressure:**
-- Execute **[[Bow and Arrow Choke]]** → [[Won by Submission]] (Probability: 60%)
+- Execute **[[Bow and Arrow Choke]]** → [[game-over]] (Probability: 60%)
 - Execute **[[Calf Slicer from Truck]]** → [[Truck]] (Probability: 55%)
 
 
@@ -409,33 +340,39 @@ Partner in turtle position with moderate defensive posture. Practice entering Ru
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Twister Specialist Path
+## Test Your Knowledge
 
-`Russian Cowboy Top → Truck Entry → Twister Control → Twister`
+**Q1**: Your opponent begins to bridge and turn their shoulders toward you - what immediate adjustment should you make to maintain control?
+**A**: When opponent bridges toward you, immediately drive your chest weight forward and down into their upper back while simultaneously deepening your leg hook by pulling your heel toward your buttock. Use your seatbelt grip to pull their shoulder back toward the mat and angle your hips away from their turning direction. This combination of increased chest pressure and hook engagement creates a counter-rotation force that prevents them from completing the turn and reestablishes your dominant angle.
 
-### Leg Attack Sequence
+**Q2**: What are the essential grip configurations for maintaining Russian Cowboy control and which takes priority?
+**A**: The primary grip is the seatbelt with the choking arm over the shoulder and underhook arm beneath the armpit, hands clasped together on the sternum. Secondary options include over-under control with wrist grip on the far arm, or collar tie combined with underhook. The seatbelt takes priority because it simultaneously threatens the choke, controls upper body rotation, and creates the asymmetric tension needed to prevent escape. Without proper seatbelt alignment, the position degrades quickly regardless of how well the hook is positioned.
 
-`Russian Cowboy Top → Truck Entry → Calf Slicer from Truck → Won by Submission`
+**Q3**: How should weight be distributed between your chest, hooking leg, and posting leg to maximize control retention?
+**A**: Approximately 50-60% of weight should drive through your chest into opponent's upper back, 25-30% through the hooking leg creating downward and rotational pressure, and 15-20% through the posting leg for balance and adjustment capability. The chest weight prevents forward escape, the hook creates the rotational control that defines the position, and the light posting leg allows rapid repositioning. Common error is too much weight on posting leg which makes the position static and easier to escape.
 
-### Traditional Back Attack
+**Q4**: What is the primary escape attempt you must shut down from Russian Cowboy and how do you counter it?
+**A**: The primary escape is the opponent rolling away from the hook toward turtle position. Counter this by anticipating the roll direction and following with your chest while maintaining hook engagement - their roll actually feeds into your truck entry if you stay connected. Use your seatbelt grip to control their rotation speed and either ride the roll into truck position or prevent it entirely by driving your chest weight down and pulling their near shoulder back. Never let them create separation during the roll.
 
-`Russian Cowboy Top → Turtle to Back Take → Rear Naked Choke → Won by Submission`
+**Q5**: When your opponent creates a strong frame against your chest, what pressure application technique restores control?
+**A**: Against a chest frame, angle your body to create diagonal pressure rather than fighting directly into their frame. Shift your hips toward their head while maintaining hook depth, which changes the force vector and makes their frame less effective. Simultaneously use your underhook to drive their elbow toward their hip, collapsing the frame structure. If they persist, use your hook to pull their hips toward you while angling your chest the opposite direction, creating a stretching force that breaks down their defensive posture.
 
-### Crucifix Development
+**Q6**: Your opponent suddenly shrimps their hips explosively - how do you anticipate and manage this movement?
+**A**: Anticipate hip movement by maintaining constant tension through your hook and monitoring their hip alignment. When you feel their hips load for the shrimp, immediately extend your hook leg to match their movement while driving your chest forward to prevent space creation. The key is following their hips with your hook rather than trying to anchor statically. Advanced practitioners actually use opponent's shrimp as an entry to truck by riding the movement and threading the second leg hook as they create space.
 
-`Russian Cowboy Top → Back Control to Crucifix → Armbar from Back → Won by Submission`
+**Q7**: How do you manage energy expenditure when opponent is actively fighting from Russian Cowboy bottom?
+**A**: Energy management requires using positional pressure rather than muscular effort. Let your body weight do the work through proper chest alignment and hook positioning rather than squeezing with arms. When opponent moves, follow with small adjustments rather than large repositioning efforts. The position should feel like riding a wave - constant micro-adjustments matching their movement while maintaining the fundamental control points. If you're breathing heavily while maintaining position, you're using too much grip strength and not enough structural control.
 
-### Bow and Arrow Finish
-
-`Russian Cowboy Top → Truck Entry → Bow and Arrow Choke → Won by Submission`
+**Q8**: Opponent manages to partially extract their hooked leg - what recovery sequence restores full control?
+**A**: Immediately prioritize re-establishing the hook before addressing anything else. Drive your knee back under their thigh while simultaneously pulling with your seatbelt to bring their upper body back toward you - this creates the space needed for hook re-insertion. If they've extracted significantly, transition your free leg over their body while maintaining chest contact to establish a temporary crucifix-style pin, then work to reinsert the original hook. Never release upper body control to chase the hook or you'll lose the position entirely.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -464,7 +401,6 @@ Partner in turtle position with moderate defensive posture. Practice entering Ru
 - **[[Crab Ride]]** - Similar back control variant with different hook configuration
 - **[[Twister]]** - Signature submission from this position
 - **[[Truck Entry]]** - Primary offensive transition
-- **[[Back Attack System]]** - Overall strategic framework that includes Russian Cowboy
 - **[[Calf Slicer from Truck]]** - High-percentage submission available from transition
 
 

@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Outside Ashi Entry | BJJ Technique | BJJ Graph"
 description: "Master the Outside Ashi Entry from standing. Learn systematic approach to leg entanglements with proper mechanics. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%."
@@ -16,7 +17,7 @@ description: "Master the Outside Ashi Entry from standing. Learn systematic appr
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Outside Ashi Entry in BJJ",
-  "description": "Step-by-step guide for Outside Ashi Entry from Standing Position to Outside Ashi-Garami.",
+  "description": "Step-by-step guide for Outside Ashi Entry from Standing Position/Top. Possible outcomes: Outside Ashi-Garami/Top (65%), Standing Position/Top (25%), Standing Position/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -164,11 +165,25 @@ What makes the Outside Ashi Entry distinctive is its versatility - it can be exe
 
 This technique has become increasingly prevalent in modern competition due to its effectiveness in both gi and no-gi environments. The systematic approach to entering outside ashi creates a clear pathway to leg lock submissions while maintaining defensive integrity throughout the transition. Understanding this entry is essential for any practitioner looking to develop a comprehensive leg lock game, as it serves as a gateway to multiple finishing positions and creates dilemmas that force opponents into defensive reactions.
 
-**Starting Position**: [[Standing Position]]
-**Ending Position**: [[Outside Ashi-Garami]]
+**From Position**: [[Standing Position/Top]]
 **Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Outside Ashi-Garami/Top]] | 65% |
+| Failure | [[Standing Position/Top]] | 25% |
+| Counter | [[Standing Position/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

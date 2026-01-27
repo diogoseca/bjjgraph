@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Butterfly Smash | BJJ Technique | BJJ Graph"
 description: "Master the Butterfly Smash pass in BJJ. Break down butterfly hooks with pressure and control. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%."
@@ -16,7 +17,7 @@ description: "Master the Butterfly Smash pass in BJJ. Break down butterfly hooks
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Butterfly Smash in BJJ",
-  "description": "Step-by-step guide for Butterfly Smash from Butterfly Guard to Side Control.",
+  "description": "Step-by-step guide for Butterfly Smash from Butterfly Guard/Bottom. Possible outcomes: Side Control/Top (75%), Butterfly Guard/Bottom (15%), Butterfly Guard/Top (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -160,11 +161,25 @@ description: "Master the Butterfly Smash pass in BJJ. Break down butterfly hooks
 
 The Butterfly Smash is a fundamental pressure passing technique designed to neutralize and collapse the butterfly guard structure. This pass exploits the inherent weakness of butterfly hooks when met with forward pressure and proper weight distribution. By driving your weight through specific points of control while systematically removing the bottom player's frames and hooks, you create a pathway to dominant top positions. The technique emphasizes pressure over speed, making it highly effective against technically proficient guard players who rely on maintaining distance and active hooks. Understanding the mechanics of hip pressure, shoulder positioning, and incremental advances makes this pass a cornerstone of any pressure-based passing system.
 
-**Starting Position**: [[Butterfly Guard]]
-**Ending Position**: [[Side Control]]
+**From Position**: [[Butterfly Guard/Bottom]]
 **Success Rates**: Beginner 45%, Intermediate 60%, Advanced 75%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Side Control/Top]] | 75% |
+| Failure | [[Butterfly Guard/Bottom]] | 15% |
+| Counter | [[Butterfly Guard/Top]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

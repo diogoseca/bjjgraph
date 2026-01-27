@@ -21,37 +21,37 @@ description: "Master Double Jump Bottom position in BJJ. Dynamic entry to deep h
     {
       "@type": "HowToStep",
       "name": "Execute Deep Half Entry",
-      "text": "From this position, execute Deep Half Entry to transition to Deep Half Guard. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 15% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Old School Sweep",
-      "text": "From this position, execute Old School Sweep to transition to Side Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Old School Sweep. This technique is attempted in 14% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Waiter Sweep",
-      "text": "From this position, execute Waiter Sweep to transition to Side Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Waiter Sweep. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute 100% Sweep",
-      "text": "From this position, execute 100% Sweep to transition to Mount. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt 100% Sweep. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Half Guard to Back Take",
-      "text": "From this position, execute Half Guard to Back Take to transition to Back Control. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Half Guard to Back Take. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Electric Chair Submission",
-      "text": "From this position, execute Electric Chair Submission to transition to Electric Chair. Success rate for advanced practitioners: 45%.",
+      "text": "From this position, attempt Electric Chair Submission. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -214,94 +214,22 @@ Successful execution of Double Jump Bottom requires precise timing, explosive hi
 
 ## Available Escapes
 
-### [[Deep Half Entry]] → [[Deep Half Guard]]
+### [[Deep Half Entry]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 55%
-- Advanced: 75%
+### [[Old School Sweep]] (14% of attempts)
 
-### [[Old School Sweep]] → [[Side Control]]
+### [[Waiter Sweep]] (13% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 45%
-- Advanced: 65%
+### [[100% Sweep]] (12% of attempts)
 
-### [[Waiter Sweep]] → [[Side Control]]
+### [[Half Guard to Back Take]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 40%
-- Advanced: 60%
+### [[Electric Chair Submission]] (10% of attempts)
 
-### [[100% Sweep]] → [[Mount]]
+### [[Lockdown Sweeps]] (13% of attempts)
 
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 35%
-- Advanced: 55%
+### [[X-Guard Sweep]] (11% of attempts)
 
-### [[Half Guard to Back Take]] → [[Back Control]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 55%
-
-### [[Electric Chair Submission]] → [[Electric Chair]]
-
-**Success Rates:**
-- Beginner: 10%
-- Intermediate: 25%
-- Advanced: 45%
-
-### [[Lockdown Sweeps]] → [[Lockdown]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 60%
-
-### [[X-Guard Sweep]] → [[X-Guard]]
-
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 50%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Sprawl Defense]]** → [[Front Headlock]] (Opponent Success: 45%)
-- **[[Base Widening]]** → [[Half Guard]] (Opponent Success: 35%)
-- **[[Crossface Pass]]** → [[Side Control]] (Opponent Success: 30%)
-- **[[Guillotine Setup]]** → [[Guillotine Control]] (Opponent Success: 25%)
-- **[[Knee Slice Pass]]** → [[Side Control]] (Opponent Success: 40%)
-- **[[Stack Pass]]** → [[Side Control]] (Opponent Success: 35%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Deep Half Entry]]** → [[Deep Half Guard]]
-  - Opponent sprawls legs back - immediately establish deep half hooks on their near leg
-- **[[Rolling Back Take]]** → [[Back Control]]
-  - Opponent steps over to avoid sweep - follow their movement and take the back
-- **[[Lockdown Sweeps]]** → [[Lockdown]]
-  - Opponent tries to flatten you out - lock down their leg and initiate sweep sequence
-- **[[X-Guard Sweep]]** → [[X-Guard]]
-  - Opponent stands up to avoid deep half - transition legs to X-Guard configuration
-- **[[Underhook Sweep from Half]]** → [[Side Control]]
-  - Opponent commits weight forward to crossface - use underhook to sweep
 
 
 </section>
@@ -425,33 +353,39 @@ Partner starts with zero resistance, allowing perfect execution of double jump t
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Shortest submission path from double jump
+## Test Your Knowledge
 
-`Double Jump Bottom → Deep Half Guard → Electric Chair → Electric Chair Submission`
+**Q1**: What body position must you establish before initiating the Double Jump Bottom entry?
+**A**: You must establish a side position with your body perpendicular to the opponent's centerline before initiating the double jump sequence. Being flat on your back lacks the angular momentum and leverage needed for explosive leg insertion. The side position creates the proper angle for your legs to shoot underneath the opponent's hips and provides the hip mobility necessary for the explosive entry.
 
-### High-percentage submission sequence
+**Q2**: How do you know when the timing is right to execute the Double Jump entry?
+**A**: The optimal timing is when your opponent's weight is clearly committed forward in their passing attempt. This forward pressure is actually what makes the technique work - the harder they drive forward, the more effective your entry becomes. Do not attempt Double Jump when opponent's weight is posted back or they maintain a wide, defensive base, as the entry requires their forward momentum to succeed.
 
-`Double Jump Bottom → Deep Half Guard → Old School Sweep → Mount → Armbar from Mount`
+**Q3**: Your opponent sprawls back as you attempt the Double Jump - what do you do?
+**A**: If opponent sprawls back, immediately transition to deep half guard by establishing hooks on their near leg, or switch to lockdown half guard to recapture control. Their backward movement actually helps you access deep half position more easily. Use their defensive sprawl as an opportunity to secure leg control rather than trying to force the original entry against their retreat.
 
-### Back attack pathway
+**Q4**: What are the essential controls you must establish immediately after a successful Double Jump entry?
+**A**: Immediately after entry, you must establish deep half hooks by curling your inside leg to hook opponent's far leg while your outside leg controls their near hip. You should also maintain control of opponent's near arm with your outside hand to prevent posting and base recovery. The entry and hook establishment must be one continuous motion - stopping after entry without hooks allows immediate escape.
 
-`Double Jump Bottom → Deep Half Guard → Half Guard to Back Take → Back Control → Rear Naked Choke`
+**Q5**: How do you protect against guillotine attacks during the Double Jump entry?
+**A**: Keep your head positioned away from opponent's hips on the outside throughout the entry, actively turning your head away from their hips toward the outside. Maintaining safe head position while establishing deep half hooks prevents guillotine and front headlock opportunities. Never allow your head to drift toward their hips during the explosive leg insertion.
 
-### Leg lock pathway via sweep
+**Q6**: Your opponent stands up after you enter Double Jump - what is your response?
+**A**: When opponent stands to create distance, immediately transition your legs to X-Guard configuration or single leg X-Guard. Their standing actually opens up these powerful sweeping positions. Use the elevation change to reconfigure your hooks into butterfly-style foot placement on their hips, maintaining the underhook on their leg as you flow into the standing guard attack system.
 
-`Double Jump Bottom → X-Guard → X-Guard Sweep → Ashi Garami → Heel Hook`
+**Q7**: Why is it important that both legs shoot simultaneously in the Double Jump?
+**A**: Both legs must shoot together like a single explosive unit because synchronized bilateral insertion creates the destabilizing effect that makes the technique work. Jumping with legs at different timing creates predictable movement that opponent can easily sprawl against. The synchronized motion generates enough momentum and disruption to prevent opponent from reacting defensively to incremental leg placement.
 
-### Lockdown submission chain
-
-`Double Jump Bottom → Lockdown → Electric Chair → Electric Chair Submission`
+**Q8**: How do you manage the high energy cost of Double Jump Bottom position?
+**A**: Double Jump Bottom is inherently a high-energy transition position meant to be held only 3-8 seconds. Once you achieve the entry, immediately work toward sweep completion rather than consolidating in place. Chain your attacks (deep half entry to old school sweep to back take) in continuous flow rather than pausing between techniques. The energy expenditure is justified by the high percentage improvement over incremental guard recovery methods.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -477,11 +411,11 @@ Partner starts with zero resistance, allowing perfect execution of double jump t
 - **[[Electric Chair]]** - Direct submission threat from successful double jump entry
 - **[[Old School Sweep]]** - Primary sweeping technique executed from double jump position
 - **[[X-Guard]]** - Alternative position when opponent stands to defend
-- **[[10th Planet Half Guard Bottom System]]** - Parent system - double jump is foundational entry technique
 - **[[Waiter Sweep]]** - High-percentage sweep option from double jump deep half position
 - **[[Half Guard]]** - Starting position - double jump is advanced recovery technique
 - **[[100% Sweep]]** - Advanced sweep variation from successful double jump entry
 - **[[Half Guard to Back Take]]** - Counter option when opponent attempts to step over legs
+- **[[Single Leg X-Guard]]** - Alternative guard transition when opponent stands to defend
 
 
 </section>

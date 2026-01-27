@@ -21,37 +21,37 @@ description: "Defensive guide for escaping modified scarf hold. Learn arm recove
     {
       "@type": "HowToStep",
       "name": "Execute Elbow Escape",
-      "text": "From this position, execute Elbow Escape to transition to Half Guard. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Elbow Escape. This technique is attempted in 21% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm Recovery to Guard",
-      "text": "From this position, execute Arm Recovery to Guard to transition to Closed Guard. Success rate for advanced practitioners: 45%.",
+      "text": "From this position, attempt Arm Recovery to Guard. This technique is attempted in 18% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bridge and Roll",
-      "text": "From this position, execute Bridge and Roll to transition to Side Control. Success rate for advanced practitioners: 35%.",
+      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 14% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Granby Roll",
-      "text": "From this position, execute Granby Roll to transition to Turtle. Success rate for advanced practitioners: 48%.",
+      "text": "From this position, attempt Granby Roll. This technique is attempted in 19% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Technical Standup",
-      "text": "From this position, execute Technical Standup to transition to Standing Position. Success rate for advanced practitioners: 30%.",
+      "text": "From this position, attempt Technical Standup. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Re-Guard from Headquarters",
-      "text": "From this position, execute Re-Guard from Headquarters to transition to Open Guard. Success rate for advanced practitioners: 40%.",
+      "text": "From this position, attempt Re-Guard from Headquarters. This technique is attempted in 16% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -211,75 +211,18 @@ The position also demands exceptional conditioning and mental resilience. The co
 
 ## Available Escapes
 
-### [[Elbow Escape]] → [[Half Guard]]
+### [[Elbow Escape]] (21% of attempts)
 
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 50%
+### [[Arm Recovery to Guard]] (18% of attempts)
 
-### [[Arm Recovery to Guard]] → [[Closed Guard]]
+### [[Bridge and Roll]] (14% of attempts)
 
-**Success Rates:**
-- Beginner: 10%
-- Intermediate: 25%
-- Advanced: 45%
+### [[Granby Roll]] (19% of attempts)
 
-### [[Bridge and Roll]] → [[Side Control]]
+### [[Technical Standup]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 8%
-- Intermediate: 20%
-- Advanced: 35%
+### [[Re-Guard from Headquarters]] (16% of attempts)
 
-### [[Granby Roll]] → [[Turtle]]
-
-**Success Rates:**
-- Beginner: 12%
-- Intermediate: 28%
-- Advanced: 48%
-
-### [[Technical Standup]] → [[Standing Position]]
-
-**Success Rates:**
-- Beginner: 5%
-- Intermediate: 15%
-- Advanced: 30%
-
-### [[Re-Guard from Headquarters]] → [[Open Guard]]
-
-**Success Rates:**
-- Beginner: 10%
-- Intermediate: 22%
-- Advanced: 40%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Hip Pressure Consolidation]]** → [[Kuzure Kesa-Gatame]] (Opponent Success: 75%)
-- **[[Transition to Mount]]** → [[Mount]] (Opponent Success: 65%)
-- **[[Transition to North-South]]** → [[North-South]] (Opponent Success: 60%)
-- **[[Americana from Side Control]]** → [[Americana Control]] (Opponent Success: 55%)
-- **[[Armbar from Side Control]]** → [[Armbar Control]] (Opponent Success: 50%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Hip Escape Denial]]** → [[Kuzure Kesa-Gatame]]
-  - Bottom practitioner attempts to create space with hips
-- **[[Armbar Attack]]** → [[Armbar Control]]
-  - Bottom practitioner extends trapped arm while attempting escape
-- **[[Mount Transition]]** → [[Mount]]
-  - Bottom practitioner turns into top practitioner to recover guard
 
 
 </section>
@@ -381,25 +324,39 @@ Start with partner at 50% resistance, increase by 10% each successful escape unt
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Escape to Guard Recovery
+## Test Your Knowledge
 
-`Kuzure Kesa-Gatame Bottom → Arm Recovery to Guard → Closed Guard → Triangle Setup → Triangle Control`
+**Q1**: Your opponent shifts their weight forward to attack your trapped arm with an americana - what escape opportunity does this create?
+**A**: Their forward weight shift removes pressure from your hips and creates space behind them. This is the ideal moment for a bridge and roll toward their posting leg, or to begin hip escaping away while their attention is on the submission. Their commitment to the attack opens defensive opportunities - time your explosive movement to coincide with their deepest commitment to the submission grip.
 
-### Turtle to Back Attack
+**Q2**: What is the correct position for your trapped arm to prevent immediate submission while maintaining recovery potential?
+**A**: Keep the trapped arm bent at approximately 90 degrees with your elbow tight to your ribs. Never let the arm fully extend (armbar threat) or collapse completely against your body (americana threat). Maintain slight internal rotation at the shoulder to prevent the americana finish angle. This defensive arm position buys time and keeps recovery options open.
 
-`Kuzure Kesa-Gatame Bottom → Granby Roll → Turtle → Turtle to Back Take → Back Control`
+**Q3**: How should you use your free arm during escape attempts rather than simply pushing against your opponent?
+**A**: Your free arm creates structural frames that maintain minimal space during hip movement - it's not for generating pushing force. Frame against their hip or shoulder to create a wedge that prevents them from closing distance as you shrimp. Pushing wastes energy because they can simply wait for your arm to fatigue. Framing maintains space efficiently using skeletal structure.
 
-### Reversal to Top Control
+**Q4**: Why is bridging directly upward ineffective from this position and what direction should you bridge instead?
+**A**: Bridging straight up allows your opponent to simply wait and settle their weight back down when you land - you've wasted explosive energy without creating meaningful change. Instead, bridge at a perpendicular angle targeting their posting leg. This attacks their base structure and can actually create a weight shift or roll opportunity. The angular bridge disrupts their balance rather than just lifting them temporarily.
 
-`Kuzure Kesa-Gatame Bottom → Bridge and Roll → Side Control → Transition to Mount → Mount`
+**Q5**: What are the signs that your opponent is about to transition to mount, and how do you prevent it?
+**A**: Watch for them lifting their near hip or beginning to slide their knee across your belly. Their head may also begin moving toward your far side. To prevent the mount, immediately turn toward them (paradoxically), getting your back more toward the mat. This denies the space they need to slide their knee across. You may also insert your knee as a shield between your bodies during their transition attempt.
+
+**Q6**: How do you manage breathing under the constant rib pressure of this position?
+**A**: Force controlled diaphragmatic breathing despite the pressure - your belly should expand, not your chest. Breathe in during moments of slightly reduced pressure (when opponent adjusts or attacks) and exhale slowly during peak pressure. Panic breathing with rapid shallow breaths accelerates fatigue and clouds tactical thinking. Accept the discomfort and maintain slow, controlled breathing patterns.
+
+**Q7**: When should you attempt to recover your trapped arm versus accepting its position and working other escapes?
+**A**: Prioritize arm recovery when your opponent shifts weight forward for submissions or makes adjustments - these moments reduce armpit pressure on your shoulder. If they maintain constant heavy pressure on your arm, attempting recovery wastes energy and may create submission openings. In high-pressure scenarios, work escapes like the Granby roll that don't require arm recovery first, then recover the arm once you've changed the positional dynamic.
+
+**Q8**: Your escape attempt fails and your opponent recaptures heavy control - what should your immediate response be?
+**A**: Return immediately to defensive breathing and structural arm positioning. Do not chain another explosive attempt right away - this burns energy against peak pressure. Reset your frames, recover mentally, and wait for the next timing window (their adjustment, submission attempt, or fatigue-induced pressure reduction). Failed escapes are expected; the key is not compounding the energy loss with additional poorly-timed attempts.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -423,10 +380,9 @@ Start with partner at 50% resistance, increase by 10% each successful escape unt
 - **[[Side Control]]** - Parent position family with shared escape principles
 - **[[Elbow Escape]]** - Primary escape technique from this position
 - **[[Granby Roll]]** - Advanced escape option when standard escapes are denied
-- **[[Defensive Framing]]** - Essential principle for maintaining space during escapes
 - **[[Bridge and Roll]]** - Reversal technique targeting opponent's base vulnerabilities
-- **[[Side Control Escapes]]** - General escape concepts applicable to this variation
 - **[[Half Guard]]** - Common transitional position during escape sequences
+- **[[Turtle]]** - Alternative escape destination when guard recovery is blocked
 
 
 </section>

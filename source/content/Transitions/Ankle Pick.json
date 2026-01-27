@@ -10,8 +10,6 @@
     "ankle-pick",
     "grip-fighting"
   ],
-  "starting_position": "Standing Position",
-  "ending_position": "Side Control",
   "success_rates": {
     "beginner": 35,
     "intermediate": 50,
@@ -240,6 +238,36 @@
       "question": "Why is maintaining the collar tie throughout the level change considered essential for ankle pick success?",
       "answer": "The collar tie serves multiple critical functions: it prevents the opponent from backing away as you drop your level (maintaining the distance needed for ankle access), it provides the upper body control point for the backward drive force that completes the takedown, it helps mask your level change intention through maintained upper body contact, and it prevents the opponent from achieving dominant head control or guillotine position during your attack. Without maintained collar tie, the opponent can simply step backward and your ankle grip becomes ineffective.",
       "difficulty": "Beginner"
+    },
+    {
+      "question": "Your opponent posts their hand on your head as you begin your level change. How do you adjust your attack?",
+      "answer": "When an opponent posts their hand on your head, they create a defensive frame but also extend their arm and compromise their posture. Use this as an opportunity to immediately transition to an arm drag or two-on-one control on their posting arm. Their extended arm creates vulnerability—secure wrist control and pull their arm across their body to off-balance them. This often creates a better angle for a follow-up ankle pick or exposes their back for a back take. The key is recognizing the post immediately and attacking the exposed arm rather than fighting through it.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "What specific direction of force should your head apply during the finish of the ankle pick?",
+      "answer": "Your head should apply pressure in a diagonal direction—driving forward and slightly upward into the outside of opponent's hip or thigh. This head pressure serves as a third control point that works in concert with the ankle pull and collar tie drive. The angle of head pressure is critical: too much upward pressure lifts you up and reduces drive power, while purely forward pressure doesn't create the rotational moment. The diagonal pressure vector multiplies the effectiveness of your opposing forces and prevents opponent from stepping over your head to recover balance.",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "What grip requirements must be established before you can safely attempt the ankle pick level change?",
+      "answer": "Before attempting the level change, you must have: a secure collar tie with your lead hand maintaining constant pressure on the back of opponent's neck, wrist or sleeve control with your other hand to prevent them from achieving their own head control, and your collar tie elbow must be tight and connected to prevent them from breaking your grip. Without these grip prerequisites, you risk shooting into a guillotine choke, having your head controlled during the level change, or having the opponent simply step away before you can reach their ankle.",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "When the ankle pick is blocked, what are the highest-percentage chain attacks to pursue?",
+      "answer": "When the ankle pick is blocked, the three highest-percentage chain attacks depend on opponent's defensive reaction. If they sprawl backward, immediately transition to a snap down since their weight shifts forward during sprawl recovery. If they lift their ankle and hop, follow aggressively with a double leg entry since their base is compromised on one leg. If they circle away, use your collar tie to pull them into an arm drag toward their retreating side. The common thread is maintaining forward pressure and immediately capitalizing on their defensive movement rather than resetting to neutral.",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "What is the optimal timing window for initiating the ankle pick during a standing exchange?",
+      "answer": "The optimal timing window occurs during three specific moments: immediately after opponent completes a forward step and their lead foot plants (weight committed before they can react), when they are pushing forward into your collar tie pressure (their momentum assists your attack), or when they are focused on defending a different threat like a snap down attempt (cognitive load prevents anticipating the ankle pick). The worst timing is when opponent is actively moving laterally, when they are backing away, or when they have achieved dominant head position over you.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "How does the entry angle for the outside ankle pick variation differ from the standard inside ankle pick?",
+      "answer": "The outside ankle pick attacks from the opposite angle—instead of circling to create angle toward opponent's lead leg centerline, you circle to the outside of their lead leg. Your head pressure goes to the far outside of their hip rather than the near side, and you pull their ankle across their body toward your opposite hip. This variation requires longer reach and more aggressive circling to establish position. The outside entry is particularly effective when opponent defends the inside angle by turning their hips away, as it attacks the opening they create in their stance.",
+      "difficulty": "Intermediate"
     }
   ],
   "safety_considerations": "When practicing the Ankle Pick, both training partners must be aware of specific safety concerns. The person executing the technique should ensure controlled descent during level changes to avoid knee injuries—dropping too quickly or with poor form can damage your own knees. Always practice on appropriate mat surfaces as the finish involves driving the opponent backward to the mat. The person being taken down should learn proper breakfall technique and avoid posting their arms rigidly to catch their fall, as this can cause wrist, elbow, or shoulder injuries. When drilling at higher resistance levels, both partners should communicate about pace and intensity. The ankle grip should be firm but not torqued—avoid twisting the ankle joint as this can cause ligament damage. When defending, avoid trying to hop excessively on one leg as this can lead to ankle rolls or knee injuries if you lose balance. Start all training at low speed and gradually increase intensity only when proper mechanics are established. Competition-level drilling should only occur after both partners have developed proper technique and understand how to safely receive takedowns.",
@@ -280,6 +308,24 @@
     {
       "name": "Front Headlock Series",
       "relationship": "Transition"
+    }
+  ],
+  "from_position": "Standing Position",
+  "outcomes": [
+    {
+      "to": "Side Control",
+      "probability": 65,
+      "result": "success"
+    },
+    {
+      "to": "Standing Position",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Closed Guard",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

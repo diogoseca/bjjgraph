@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "50-50 Entry from Standing | BJJ Technique | BJJ Graph"
 description: "Master the 50-50 Entry from Standing in BJJ. Step-by-step execution from standing position to 50-50 Guard. Success rates: Beginner 30%, Intermediate 45%, Advanced 60%."
@@ -16,7 +17,7 @@ description: "Master the 50-50 Entry from Standing in BJJ. Step-by-step executio
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute 50-50 Entry from Standing in BJJ",
-  "description": "Step-by-step guide for 50-50 Entry from Standing from Standing Position to 50-50 Guard.",
+  "description": "Step-by-step guide for 50-50 Entry from Standing from Standing Position. Possible outcomes: 50-50 Guard (60%), Standing Position (30%), Open Guard (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -162,11 +163,25 @@ The 50-50 Entry from Standing is a modern leg entanglement technique that allows
 
 This entry has become increasingly popular in modern competitive BJJ, particularly among leg lock specialists who use the 50-50 as a platform for attacking heel hooks and toe holds. The position's symmetry creates a strategic stalemate that can frustrate opponents unfamiliar with its intricacies, while providing numerous attacking opportunities for those well-versed in the system. The entry requires precise timing and coordination to successfully establish the position without exposing yourself to counters.
 
-**Starting Position**: [[Standing Position]]
-**Ending Position**: [[50-50 Guard]]
+**From Position**: [[Standing Position]]
 **Success Rates**: Beginner 30%, Intermediate 45%, Advanced 60%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[50-50 Guard]] | 60% |
+| Failure | [[Standing Position]] | 30% |
+| Counter | [[Open Guard]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 
@@ -319,6 +334,21 @@ Actively look for opportunities to enter 50-50 from standing during regular spar
 **Q7**: What are the backup options if your 50-50 entry is successfully defended, and how do you transition to them?
 **A**: If the 50-50 entry fails, your primary backup options depend on how it was defended: (1) If opponent sprawls but you maintain leg control, transition to single leg takedown; (2) If opponent steps back, follow with outside ashi garami or shin-to-shin guard; (3) If opponent drives forward with pressure, establish X-guard or single leg X; (4) If completely stuffed, stand back up and reset to neutral standing position. The key is maintaining your grips and staying connected to your opponent rather than remaining in a failed position. Recognition of which backup to use comes from understanding which direction your opponent's defense took them.
 
+**Q8**: Your opponent posts their hand on your shoulder as you begin the entry - how do you adjust?
+**A**: When an opponent posts on your shoulder during entry, they are attempting to create a frame that blocks your descent and maintains distance. You should immediately secure their posting arm with your free hand by gripping the wrist or sleeve, pulling it across your body to collapse the frame. This arm drag motion simultaneously removes their defensive structure and creates an angle advantage. Continue your entry once the post is cleared, using the trapped arm as additional control.
+
+**Q9**: What is the optimal timing window for committing to the 50-50 entry from standing?
+**A**: The optimal timing window occurs when your opponent's weight shifts forward onto their lead leg, typically during their offensive movement or when they reach to establish grips. This forward commitment makes sprawling mechanically difficult since their weight must reverse direction. A secondary window exists immediately after you break their grip or collar tie, during the momentary distraction of the grip break. The worst timing is when they are retreating or have their weight on their back foot, as they can easily continue backward movement to avoid your entry.
+
+**Q10**: What grip is most critical during the sitting phase of the entry, and why?
+**A**: The ankle or lower shin grip on their lead leg is most critical during the sitting phase. This grip serves as your anchor point that prevents them from simply stepping back out of range. It allows you to pull yourself into proper hip proximity rather than sitting down at distance. Even if your upper body grip is broken, maintaining the ankle grip enables you to continue the entry by following their leg. The upper body grip is important for control, but the ankle grip is what physically connects you to your target limb for the entanglement.
+
+**Q11**: What direction of force should you apply through your hips during the transition to 50-50?
+**A**: Your hips should drive forward and slightly upward toward your opponent's hips during the transition. This forward hip drive accomplishes several things: it closes the distance that would allow them to escape, it loads your weight into the entanglement creating immediate control, and it prevents you from sitting back at distance where they could easily disengage. Think of driving your hips into theirs rather than simply dropping your seat to the mat. The forward vector is more important than the downward vector.
+
+**Q12**: If your opponent successfully defends your initial 50-50 entry by stepping back, what chain attack should you immediately threaten?
+**A**: When your opponent steps back to defend the 50-50 entry, immediately threaten the single leg takedown by maintaining your ankle grip and transitioning your weight forward onto your lead knee. This creates a dilemma: if they continue backing away, you follow with the single leg; if they stop their backward movement to address the single leg threat, you have recreated the opportunity to re-enter 50-50. The key is staying connected and threatening offense rather than accepting a failed entry. Many practitioners find the single leg threat opens the 50-50 entry on the second attempt as opponents freeze to defend the takedown.
+
 
 
 </section>
@@ -346,15 +376,17 @@ Strategically, the 50-50 entry from standing is particularly valuable in no-gi c
 ## Related Techniques
 
 - [[50-50 Guard]] - Target position - the end state of this technique
-- [[Outside Ashi Entry]] - Alternative entry method to leg entanglement from standing
-- [[Inside Ashi Entry]] - Related leg entanglement entry option
+- [[Outside Ashi-Garami]] - Alternative leg entanglement entry from standing
+- [[Inside Ashi-Garami]] - Related leg entanglement entry option
 - [[Guard Pull]] - General category - 50-50 entry is a specific type of guard pull
 - [[Sitting Guard Pull]] - Similar sitting entry but to different guard position
 - [[Inside Heel Hook]] - Primary submission attack from 50-50 position
-- [[Single Leg X Entry]] - Alternative leg entanglement entry that can convert to 50-50
-- [[X-Guard to Ashi Transition]] - Related transition within the leg entanglement system
-- [[Saddle Entry from Top]] - Follow-up position that can be achieved by adjusting from 50-50
+- [[Single Leg X-Guard]] - Alternative leg entanglement entry that can convert to 50-50
+- [[X-Guard]] - Related sweeping position within the leg entanglement system
+- [[Saddle]] - Follow-up position that can be achieved by adjusting from 50-50
 - [[Heel Hook]] - Common submission finish from 50-50 position
+- [[Standing Position]] - Starting position for this entry technique
+- [[Shin-to-Shin Guard]] - Alternative entry path with more control before committing
 
 
 </section>

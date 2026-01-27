@@ -171,12 +171,14 @@
     {
       "error": "Allowing the trapped arm to slip out during setup",
       "consequence": "Converts to standard guillotine which may be easier to escape, losing the control advantage",
-      "correction": "Maintain constant awareness of trapped arm position. If it begins sliding out, immediately adjust your angle or re-trap it before continuing the finish sequence."
+      "correction": "Maintain constant awareness of trapped arm position. If it begins sliding out, immediately adjust your angle or re-trap it before continuing the finish sequence.",
+      "danger_level": "Low"
     },
     {
       "error": "Gripping your own wrist or hand instead of wrist-to-wrist connection",
       "consequence": "Creates larger choking circle with less pressure, significantly reducing effectiveness and increasing opponent's escape opportunities",
-      "correction": "Practice the wrist-to-wrist grip specifically. Your wrists should lock together with palms facing each other, creating the smallest possible diameter around opponent's neck."
+      "correction": "Practice the wrist-to-wrist grip specifically. Your wrists should lock together with palms facing each other, creating the smallest possible diameter around opponent's neck.",
+      "danger_level": "Low"
     },
     {
       "error": "Using pure arm strength instead of hip extension",
@@ -260,6 +262,31 @@
       "question": "Describe the optimal head positioning for the person applying the arm-in guillotine and explain why this position is critical?",
       "answer": "Your head should be tight to the opponent's far shoulder with your ear essentially touching their back or shoulder blade area. This head position serves multiple critical functions: it prevents their head from sliding up and out over your shoulder (a primary escape), maintains optimal angle for neck control, helps you follow their movements if they try to roll or turn, and provides additional downward pressure on their posture. If your head lifts away from their shoulder, you create space for escape and lose structural connection. Think of your head as a pin keeping their head down and controlled throughout the submission.",
       "safety_critical": false
+    },
+    {
+      "question": "Your opponent starts driving forward aggressively to stack you while you have the arm-in guillotine locked - what finishing adjustment prevents the escape?",
+      "answer": "When the opponent stacks forward, you must immediately adjust your guard position rather than trying to hold them in place. If standing, sit to your hip on the non-choking side and pull guard, using the falling momentum to add pressure to the choke. If already in guard, open your guard and insert butterfly hooks or place shins on their biceps to create off-balancing leverage. Then re-close guard at a higher angle on their back, using your legs to break their forward posture. The key is using their forward momentum against them rather than fighting it directly with arm strength.",
+      "safety_critical": false
+    },
+    {
+      "question": "What anatomical structures does the arm-in guillotine attack and how does proper positioning affect which structure receives primary pressure?",
+      "answer": "The arm-in guillotine attacks both the carotid arteries (blood choke) and the trachea (air choke). The blade of your forearm, specifically the thumb-side radius bone, creates the choking pressure. Your elbow height determines which structure receives primary attack - a higher elbow position with wrist curling toward their spine emphasizes the carotid arteries for a blood choke, while a lower elbow with more direct forearm-to-throat contact emphasizes the trachea. Blood chokes are preferred in training as they produce unconsciousness without pain, whereas trachea compression causes intense discomfort. The arm-in variation tends toward more trachea pressure due to the trapped arm filling space, making proper elbow elevation even more important.",
+      "safety_critical": true
+    },
+    {
+      "question": "How do you recognize when the arm-in guillotine is positioned correctly and the tap is imminent versus when adjustments are needed?",
+      "answer": "A correctly positioned arm-in guillotine will feel mechanically tight with minimal muscular effort required to maintain pressure. Your opponent's face may show color change (flushing or reddening), their body will begin going slack, and they may tap rapidly. Signs that adjustments are needed include: you feel like you're muscling the choke, opponent can still move their head freely, the trapped arm is sliding out, or opponent maintains ability to create frames or posture changes. If after 5-7 seconds of pressure there's no tap and your arms are fatiguing, the position is incorrect and should be adjusted or abandoned rather than forced.",
+      "safety_critical": false
+    },
+    {
+      "question": "What is the 'point of no escape' in the arm-in guillotine and how do you achieve it?",
+      "answer": "The point of no escape occurs when three conditions are met simultaneously: (1) the opponent's trapped arm is fully secured with no extraction angle available, (2) your wrist-to-wrist connection is locked on the far side of their neck creating a closed choking loop, and (3) your hips are extended with chest elevated creating structural pressure that doesn't rely on arm strength. At this point, the opponent's only option is to tap because all escape pathways are blocked - they cannot extract the arm, cannot create posture, and cannot relieve the choke pressure. Achieving this requires patience during setup rather than rushing to the finish.",
+      "safety_critical": false
+    },
+    {
+      "question": "In competition, how do you modify finishing intensity and speed compared to training while still completing the submission?",
+      "answer": "In competition, you can apply finishing pressure more rapidly (1-2 seconds rather than 3-5) because the opponent is expected to tap immediately when caught. However, you must still avoid jerking or spiking motions that could cause injury. The key difference is in setup speed and commitment - in competition you can jump to guard more explosively, commit fully to the choke without hesitation, and maintain maximum pressure until the tap or referee stoppage. You should still release immediately upon tap or referee intervention. Never continue applying pressure after the match is stopped, as this can result in disqualification and potential injury to your opponent.",
+      "safety_critical": true
     }
   ],
   "training_progressions_and_safety_protocols": [
@@ -314,9 +341,7 @@
     "Turtle",
     "Standing Position",
     "Clinch",
-    "Open Guard",
-    "De La Riva Guard",
-    "Knee Shield Half Guard"
+    "Open Guard"
   ],
   "related_submissions": [
     "Guillotine Choke",
@@ -329,10 +354,6 @@
     "Rear Naked Choke",
     "Triangle Choke",
     "Arm Triangle",
-    "D'arce-Anaconda Connection",
-    "Peruvian Necktie",
-    "Japanese Necktie",
-    "Von Flue Choke",
     "North-South Choke"
   ],
   "related_content": [
@@ -341,48 +362,40 @@
       "relationship": "Primary control position for setting up arm-in variant"
     },
     {
-      "name": "Front Headlock Series",
-      "relationship": "Broader system that includes arm-in guillotine as key option"
+      "name": "Front Headlock",
+      "relationship": "Primary entry position and control platform for arm-in guillotine"
     },
     {
-      "name": "Marcelo Garcia Guillotine System",
-      "relationship": "Expert system featuring high-level arm-in guillotine applications"
+      "name": "Anaconda Control",
+      "relationship": "Alternative arm-in choke position when opponent turns toward choking arm"
     },
     {
-      "name": "Guillotine Setup",
-      "relationship": "Entry technique for establishing the arm-in configuration"
+      "name": "D'arce Control",
+      "relationship": "Alternative arm-in choke position accessible from similar setups"
     },
     {
-      "name": "Guillotine Defense",
-      "relationship": "Understanding defenses improves offensive application"
+      "name": "Closed Guard",
+      "relationship": "Primary finishing position when pulling guard with guillotine locked"
     },
     {
-      "name": "Front Headlock to Guillotine",
-      "relationship": "Primary transition path to arm-in guillotine"
+      "name": "Butterfly Guard",
+      "relationship": "Alternative guard position for arm-in guillotine finishes"
     },
     {
-      "name": "Snap Down to Front Headlock",
-      "relationship": "Common setup creating arm-in opportunities"
+      "name": "Half Guard",
+      "relationship": "Recovery position if opponent partially escapes guillotine"
     },
     {
-      "name": "Submission Chains",
-      "relationship": "Conceptual framework for linking arm-in guillotine with other attacks"
+      "name": "Back Control",
+      "relationship": "Alternative position when opponent escapes guillotine by turning away"
     },
     {
-      "name": "Guard Pull",
-      "relationship": "Tactical transition often combined with arm-in guillotine from standing"
+      "name": "Standing Position",
+      "relationship": "Entry position for standing arm-in guillotine variations"
     },
     {
-      "name": "Posture Breaking",
-      "relationship": "Essential principle for creating guillotine opportunities"
-    },
-    {
-      "name": "Head Control",
-      "relationship": "Fundamental control principle underlying all guillotine variations"
-    },
-    {
-      "name": "Chin Protection",
-      "relationship": "Defensive principle that arm-in guillotine must overcome"
+      "name": "Turtle",
+      "relationship": "Entry position when attacking opponent's turtle with front headlock"
     }
   ]
 }

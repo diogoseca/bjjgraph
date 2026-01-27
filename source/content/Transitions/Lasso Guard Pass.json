@@ -10,8 +10,6 @@
     "pressure-passing",
     "standing-pass"
   ],
-  "starting_position": "Lasso Guard",
-  "ending_position": "Side Control",
   "success_rates": {
     "beginner": 35,
     "intermediate": 50,
@@ -274,6 +272,24 @@
     {
       "name": "Pressure Passing",
       "relationship": "Conceptual framework - overarching principles applied in this pass"
+    }
+  ],
+  "from_position": "Lasso Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Side Control/Top",
+      "probability": 65,
+      "result": "success"
+    },
+    {
+      "to": "Lasso Guard/Bottom",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Lasso Guard/Top",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

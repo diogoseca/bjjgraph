@@ -1,0 +1,123 @@
+.not-found-page {
+  .not-found-title {
+    font-size: 2rem;
+    margin-bottom: 0.25rem;
+    color: var(--dark);
+    font-weight: 700;
+  }
+
+  .not-found-subtitle {
+    font-family: var(--codeFont);
+    font-size: 0.85rem;
+    color: var(--gray);
+    margin: 0 0 0.75rem 0;
+    word-break: break-all;
+  }
+
+  .not-found-message {
+    font-size: 1rem;
+    color: var(--darkgray);
+    margin: 0 0 1.5rem 0;
+  }
+
+  // "Did you mean" suggestion
+  .did-you-mean {
+    margin: 0 0 1.5rem 0;
+    padding: 0.75rem 1rem;
+    background-color: var(--highlight);
+    border-radius: 6px;
+    border-left: 3px solid var(--secondary);
+    font-size: 0.9rem;
+
+    .did-you-mean-label {
+      color: var(--darkgray);
+    }
+
+    .did-you-mean-suggestion {
+      color: var(--secondary);
+      font-weight: 600;
+      text-decoration: none;
+      border-bottom: 1.5px solid var(--secondary);
+      padding-bottom: 1px;
+
+      &:hover {
+        color: var(--tertiary);
+        border-bottom-color: var(--tertiary);
+      }
+    }
+  }
+
+  // Action buttons row
+  .not-found-actions {
+    display: flex;
+    gap: 10px;
+    margin: 0 0 1.5rem 0;
+    flex-wrap: wrap;
+  }
+
+  .action-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 18px;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+    transition:
+      background-color 0.15s ease,
+      border-color 0.15s ease;
+    line-height: 1;
+
+    svg {
+      flex-shrink: 0;
+    }
+  }
+
+  .request-button {
+    background-color: transparent;
+    color: var(--dark);
+    border: 1.5px solid var(--dark);
+
+    &:hover {
+      border-color: var(--secondary);
+      color: var(--secondary);
+    }
+  }
+
+  .search-button {
+    background-color: transparent;
+    color: var(--darkgray);
+    border: 1.5px solid var(--lightgray);
+
+    &:hover {
+      border-color: var(--secondary);
+      color: var(--secondary);
+    }
+  }
+
+  // Homepage fallback
+  .home-fallback {
+    margin-top: 2rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--lightgray);
+
+    .home-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      color: var(--gray);
+      font-size: 0.8rem;
+      text-decoration: none;
+
+      &:hover {
+        color: var(--secondary);
+      }
+
+      svg {
+        flex-shrink: 0;
+      }
+    }
+  }
+}

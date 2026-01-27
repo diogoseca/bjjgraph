@@ -292,6 +292,26 @@
       "question": "From a strategic perspective, why is the Kimura considered one of the most versatile submissions in BJJ?",
       "answer": "The Kimura is versatile because it can be applied from virtually every position - top, bottom, standing, transitional, guard, turtle, side control, mount, and scrambles. Beyond being a direct submission, the grip creates powerful control that enables sweeps, back takes, position advancement, and chains to other submissions. Even when the submission itself is defended, the grip controls the opponent's posture and movement, making it a fundamental technique across all belt levels and strategic situations.",
       "safety_critical": false
+    },
+    {
+      "question": "Your opponent begins to posture up while you have the Kimura grip from closed guard - what adjustment secures the finish?",
+      "answer": "As they posture, open your guard and rotate your hips perpendicular to their body while maintaining the grip. Use your legs to hook their far leg or hip to prevent them from standing fully. If they continue posturing, use the grip to come up with them in a seated position, using their posture to add rotational force. You can also hip escape to the side and use your bottom leg as a hook while driving their hand toward the mat. The key is never releasing the grip and using their postural energy against them.",
+      "safety_critical": false
+    },
+    {
+      "question": "What anatomical structures does the Kimura attack, and what indicates you are approaching the breaking point?",
+      "answer": "The Kimura attacks the shoulder joint capsule, the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis), the glenoid labrum, and can stress the bicep tendon. Indicators of approaching the breaking point include: opponent's shoulder elevating as the arm rotates behind their back, visible tension in the deltoid and surrounding musculature, opponent's inability to prevent further rotation, and their arm reaching approximately 45-60 degrees of internal rotation behind their back. At this point, minimal additional rotation creates submission pressure.",
+      "safety_critical": false
+    },
+    {
+      "question": "How do you adjust your grip positioning when transitioning from side control Kimura to mounted Kimura mid-finish?",
+      "answer": "As you transition from side control to mount while maintaining the Kimura grip, you must adjust your elbow pinning from your chest to your thigh or hip. Step over into mount while keeping the figure-four grip intact and their elbow trapped between your body and arm. Once mounted, use your knee closest to their trapped arm to reinforce elbow control. The mount position changes the angle of rotation - you can now drive their hand toward their opposite hip using your body weight from above rather than perpendicular pressure. Maintain hip connection throughout to prevent bridging escapes.",
+      "safety_critical": false
+    },
+    {
+      "question": "In competition, what finishing strategy maximizes Kimura success rate while maintaining safety?",
+      "answer": "In competition, secure the grip with complete elbow isolation before attempting the finish - rushed attempts without proper control result in failed submissions and lost position. Use the grip first to stabilize and advance position if needed. When finishing, apply steady progressive rotation rather than explosive movements, as controlled pressure is more difficult to defend than jerky applications that opponents can explosively counter. If opponent defends with belt grip, immediately transition to back take or armbar rather than stalling. Time pressure application when opponent is recovering from a sweep or positional change, as defensive capacity is reduced during transitions.",
+      "safety_critical": false
     }
   ],
   "training_progressions_and_safety_protocols": [
@@ -346,7 +366,6 @@
     "Turtle",
     "North-South",
     "Standing Position",
-    "Kimura Control",
     "Kimura Trap",
     "Open Guard"
   ],

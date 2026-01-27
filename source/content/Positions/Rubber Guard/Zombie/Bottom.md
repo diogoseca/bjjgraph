@@ -21,37 +21,37 @@ description: "Master Zombie Bottom position in BJJ. Defensive half guard variant
     {
       "@type": "HowToStep",
       "name": "Execute Old School Sweep",
-      "text": "From this position, execute Old School Sweep to transition to Half Guard. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Old School Sweep. This technique is attempted in 15% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Electric Chair Submission",
-      "text": "From this position, execute Electric Chair Submission to transition to Electric Chair. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Electric Chair Submission. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Lockdown Sweeps",
-      "text": "From this position, execute Lockdown Sweeps to transition to Half Guard. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Lockdown Sweeps. This technique is attempted in 15% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Re-Guard",
-      "text": "From this position, execute Re-Guard to transition to Half Guard. Success rate for advanced practitioners: 75%.",
+      "name": "Execute Guard Recovery",
+      "text": "From this position, attempt Guard Recovery. This technique is attempted in 16% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Granby Roll",
-      "text": "From this position, execute Granby Roll to transition to Closed Guard. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Granby Roll. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling Back Take",
-      "text": "From this position, execute Rolling Back Take to transition to Back Control. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -211,94 +211,22 @@ Unlike traditional turtle positions where the practitioner curls into a ball, th
 
 ## Available Escapes
 
-### [[Old School Sweep]] → [[Half Guard]]
+### [[Old School Sweep]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Electric Chair Submission]] (12% of attempts)
 
-### [[Electric Chair Submission]] → [[Electric Chair]]
+### [[Lockdown Sweeps]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
+### [[Guard Recovery]] (16% of attempts)
 
-### [[Lockdown Sweeps]] → [[Half Guard]]
+### [[Granby Roll]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Rolling Back Take]] (10% of attempts)
 
-### [[Re-Guard]] → [[Half Guard]]
+### [[Turtle to Truck]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 60%
-- Advanced: 75%
+### [[Deep Half Entry]] (10% of attempts)
 
-### [[Granby Roll]] → [[Closed Guard]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[Rolling Back Take]] → [[Back Control]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
-
-### [[Transition to Truck]] → [[Truck]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-### [[Deep Half Entry]] → [[Deep Half Guard]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Knee Slice Pass]]** → [[Side Control]]
-- **[[Crossface Pass]]** → [[Side Control]]
-- **[[Smash Pass]]** → [[Side Control]]
-- **[[Turtle to Back Take]]** → [[Back Control]]
-- **[[Crab Ride to Back]]** → [[Crab Ride]]
-- **[[Leg Weave Pass]]** → [[Side Control]]
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Lockdown Sweeps]]** → [[Half Guard]]
-  - Opponent attempts to free their leg from lockdown by posting or pulling back
-- **[[Electric Chair Submission]]** → [[Electric Chair]]
-  - Opponent drives forward with crossface pressure while leg is locked
-- **[[Deep Half Entry]]** → [[Deep Half Guard]]
-  - Opponent's weight shifts forward attempting to consolidate side control
-- **[[Rolling Back Take]]** → [[Back Control]]
-  - Opponent reaches for far-side underhook exposing their back
-- **[[Granby Roll]]** → [[Closed Guard]]
-  - Opponent pressures head down attempting to flatten your position
 
 
 </section>
@@ -318,12 +246,12 @@ Unlike traditional turtle positions where the practitioner curls into a ball, th
 
 
 **If opponent establishes strong chest-to-chest pressure attempting to flatten you:**
-- Execute **[[Transition to Truck]]** → [[Truck]] (Probability: 45%)
+- Execute **[[Turtle to Truck]]** → [[Truck]] (Probability: 45%)
 - Execute **[[Rolling Back Take]]** → [[Back Control]] (Probability: 40%)
 
 
 **If opponent creates distance trying to clear lockdown and establish passing grips:**
-- Execute **[[Re-Guard]]** → [[Half Guard]] (Probability: 65%)
+- Execute **[[Guard Recovery]]** → [[Half Guard]] (Probability: 65%)
 - Execute **[[Lockdown Sweeps]]** → [[Half Guard]] (Probability: 55%)
 
 
@@ -410,33 +338,39 @@ Practice Granby Roll specifically from Zombie position when opponent applies hea
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Shortest back attack path
+## Test Your Knowledge
 
-`Zombie → Electric Chair Submission → Back Control → Rear Naked Choke`
+**Q1**: What weight distribution and hip positioning maintains the Zombie Bottom position effectively?
+**A**: Your weight should be primarily on your hip and shoulder, staying on your side rather than flat on your back. The hip closest to the opponent should be angled slightly upward to maintain mobility for shrimping and sweep attempts. Never allow both shoulders to touch the mat simultaneously - this signals you've been flattened and lost the position. Your lockdown leg carries the opponent's weight through the entanglement, which should feel like controlled tension rather than desperate gripping.
 
-### High-percentage sweep to submission path
+**Q2**: What are the essential grips and frames for maintaining Zombie Bottom?
+**A**: The primary frame is your near-side arm, positioned with your forearm against the opponent's chest, shoulder, or neck to prevent them from driving forward and flattening you. Your far-side arm should be fighting for underhook position or controlling the opponent's far arm to prevent crossface establishment. The lockdown grip on their leg - foot hooked behind their calf with thigh squeeze active - is your primary lower body control. Secondary grips include collar ties or wrist control depending on the opponent's positioning.
 
-`Zombie → Old School Sweep → Half Guard → Knee Slice Pass → Side Control → Kimura from Side Control`
+**Q3**: How do you shut down the crossface pass from Zombie Bottom?
+**A**: When you feel the opponent driving their shoulder toward your face for the crossface, immediately turn your head away and drive your near-side frame into their shoulder or chest. This creates a wedge that prevents them from completing the crossface connection. Simultaneously, maintain active underhook fighting with your far arm and use your lockdown to disrupt their base by stretching their trapped leg. If the crossface starts to establish, immediately shrimp your hips away to create space and prevent them from settling their weight.
 
-### Leg lock specialization path
+**Q4**: What grip priority should you follow when the opponent is attempting to smash pass?
+**A**: First priority is maintaining the lockdown - this is your anchor and primary disruption tool against smash passing. Second priority is your near-side frame, which must stay active against their chest pressure. Third priority is head positioning - turn your face away from their crossface and keep your chin tucked. Fourth priority is far-side underhook fighting. If you must choose, sacrifice the underhook before releasing the lockdown, as the lockdown is what keeps you from being completely smashed.
 
-`Zombie → Transition to Truck → Truck → Twister Finish → Twister`
+**Q5**: Your opponent starts to drive heavy shoulder pressure into your face - what adjustment do you make?
+**A**: Turn your head away from the pressure while simultaneously shrimping your hips in the opposite direction. This creates an angle that reduces the effectiveness of their pressure. Simultaneously, activate your lockdown stretch to disrupt their base - when they're heavy on your upper body, their leg is more vulnerable to being stretched and off-balanced. Your near-side frame should be pushing against their shoulder rather than their face. If the pressure is overwhelming, consider a Granby Roll to completely reset the position.
 
-### Guard recovery to triangle path
+**Q6**: How do you apply lockdown tension effectively without exhausting yourself?
+**A**: Effective lockdown comes from proper positioning rather than muscular effort. Your foot should hook deep behind their calf with your instep, not just your toes. The squeeze comes from your thighs pressing together around their leg, using your adductor muscles which have great endurance. Apply constant moderate tension rather than intermittent maximum tension. When you need to stretch them for a sweep, combine hip extension with the lockdown stretch for maximum leverage. Think of it as controlling their mobility rather than trying to damage their knee.
 
-`Zombie → Re-Guard → Half Guard → Deep Half Entry → Deep Half Guard → Mount → Triangle from Mount`
+**Q7**: What do you do when the opponent starts to successfully extract their leg from your lockdown?
+**A**: The moment you feel your lockdown weakening, you have a critical decision point. If they're creating backward pressure to extract, immediately attempt the Old School Sweep while you still have some lockdown tension - their backward movement actually helps your sweep. If they're driving forward while extracting, transition immediately to Deep Half Guard by ducking under them. If neither is available, release the lockdown completely and immediately reframe with your legs, establishing knee shield or butterfly hooks to prevent the pass. Never hold a failing lockdown - transition before it's completely broken.
 
-### Creative back take path
-
-`Zombie → Rolling Back Take → Back Control → Armbar from Back with Legs`
+**Q8**: How do you manage energy when the opponent is patiently pressuring without giving sweep opportunities?
+**A**: Accept that the position may require sustained defense before offensive opportunities appear. Maintain your frames with skeletal structure rather than muscular effort - your elbow should be anchored against your ribs with your forearm creating the frame. Keep your lockdown active but not maximal. Breathe steadily and wait for the opponent to make a committed passing attempt. The moment they shift their weight for a pass, that's when you need to explode into your counter. Patience is key - a controlled Zombie that doesn't waste energy will outlast an opponent who's burning energy trying to pass.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -464,8 +398,8 @@ Practice Granby Roll specifically from Zombie position when opponent applies hea
 - **[[Half Guard]]** - Guard recovery destination - Primary goal for re-establishing guard structure
 - **[[Turtle]]** - Similar position - Traditional turtle alternative without lockdown mechanics
 - **[[Old School]]** - Primary offensive technique - Highest percentage sweep from Zombie position
-- **[[Twister System]]** - Parent system - Zombie is integral component of 10th Planet Twister system
-- **[[10th Planet Half Guard Bottom System]]** - Systematic framework - Zombie is key position in 10th Planet half guard game
+- **[[Twister Control]]** - Parent system - Zombie is integral component of 10th Planet Twister system
+- **[[Knee Shield Half Guard]]** - Systematic framework - Related half guard defensive structure
 - **[[Rubber Guard]]** - Related 10th Planet position - shares systematic philosophy
 
 

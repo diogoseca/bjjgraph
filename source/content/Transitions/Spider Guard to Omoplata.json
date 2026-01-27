@@ -11,8 +11,6 @@
     "submission",
     "guard"
   ],
-  "starting_position": "Spider Guard",
-  "ending_position": "Omoplata Control",
   "success_rates": {
     "beginner": 30,
     "intermediate": 45,
@@ -259,6 +257,24 @@
     {
       "name": "Rolling Omoplata",
       "relationship": "Technical variation - rolling entry method"
+    }
+  ],
+  "from_position": "Spider Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Omoplata Control/Top",
+      "probability": 60,
+      "result": "success"
+    },
+    {
+      "to": "Spider Guard/Bottom",
+      "probability": 30,
+      "result": "failure"
+    },
+    {
+      "to": "Spider Guard/Top",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

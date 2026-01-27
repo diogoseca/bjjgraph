@@ -10,8 +10,6 @@
     "advanced-technique",
     "inversion"
   ],
-  "starting_position": "Turtle",
-  "ending_position": "Back Control",
   "success_rates": {
     "beginner": 25,
     "intermediate": 40,
@@ -284,6 +282,24 @@
     {
       "name": "Front Headlock",
       "relationship": "Alternative Turtle Control Position"
+    }
+  ],
+  "from_position": "Turtle/Top",
+  "outcomes": [
+    {
+      "to": "Back Control/Top",
+      "probability": 60,
+      "result": "success"
+    },
+    {
+      "to": "Turtle/Top",
+      "probability": 30,
+      "result": "failure"
+    },
+    {
+      "to": "Turtle/Bottom",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

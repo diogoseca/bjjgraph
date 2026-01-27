@@ -43,403 +43,10 @@
       "relationship": "Advanced leg entanglement accessible through strategic transitions"
     },
     {
-      "name": "Defensive Position",
+      "name": "Open Guard",
       "relationship": "Position opponent seeks when successfully defending control"
     }
   ],
-  "bottom": {
-    "name": "Straight Ankle Lock Control Bottom",
-    "description": "Master the attacking perspective of straight ankle lock control. Complete guide to securing ankle control, finishing mechanics, transition options, and systematically advancing through defensive reactions.",
-    "tags": [
-      "leg locks",
-      "ankle lock",
-      "offensive control",
-      "submission position",
-      "leg entanglement",
-      "foot locks",
-      "attacking position"
-    ],
-    "overview": "From the attacking bottom perspective, straight ankle lock control represents a calculated trade of superior positioning for immediate submission threat and transitional opportunities into more advanced leg entanglement systems. The practitioner on bottom has intentionally entered this position to exploit their opponent's leg vulnerability, accepting temporary positional sacrifice in exchange for offensive potential.\n\nThe fundamental geometry of the position places the attacker perpendicular to the defender, with the defender's ankle secured across the attacker's hip line. The attacker's legs wrap around the defender's trapped leg to prevent hip rotation and escape, while their hands establish grips on the ankle and foot that enable both control and submission finishing mechanics. This configuration creates a mechanical advantage where the attacker can generate significant pressure on the ankle joint through relatively small body movements.\n\nStrategic decision-making in this position revolves around accurately reading the defender's reactions and choosing the appropriate response. Defenders typically attempt one of several escape sequences: rotating their hip toward or away from the attacker, extracting their trapped foot by pulling the knee to their chest, pushing the attacker's upper body away to create distance, or attempting to come up and pass the attacker's guard. Each defensive choice opens specific offensive opportunities that the prepared attacker can exploit through practiced transition sequences.\n\nThe energy dynamics favor quick decisive action from the bottom attacker. Every second spent in this position without advancing toward submission or improved control represents energy expenditure without positional improvement. The defender's defensive frames and escape attempts gradually accumulate advantage, making it progressively more difficult to maintain control and finish the submission. This temporal pressure requires the attacker to develop efficient finishing mechanics and smooth transition pathways that capitalize on brief windows of opportunity.\n\nModern approach to straight ankle lock control from bottom emphasizes system integration rather than isolated submission attempts. Advanced practitioners use the position as a hub from which multiple attacking sequences branch based on the defender's choices. The initial ankle lock threat forces defensive reactions that open pathways to inside ashi garami, outside ashi garami, 50-50 guard, or kneebar control. This systematic approach transforms a relatively low-control position into a powerful offensive platform where the attacker maintains initiative throughout the engagement.\n\nThe technical execution requires precise coordination of grips, leg positioning, and hip movement. The attacking legs must actively prevent the defender from rotating their hip while remaining flexible enough to transition fluidly when the defender attempts escape. The hands must maintain firm ankle control without telegraphing submission attempts, allowing the attacker to threaten finishes while remaining ready to transition based on defensive reactions. This balance of control and mobility distinguishes effective straight ankle lock control from ineffective attempts that allow easy escape.",
-    "state_properties": {
-      "point_value": 0,
-      "position_type": "Offensive",
-      "risk_level": "Medium to High",
-      "energy_cost": "Medium",
-      "time_sustainability": "Short to Medium"
-    },
-    "state_invariants": [
-      "Attacker maintains perpendicular positioning relative to defender's body, with defender's trapped leg extended across attacker's hip line and attacker's torso angled at approximately 90 degrees to defender's centerline, creating optimal mechanical advantage for ankle pressure while maintaining balance and control",
-      "Defender's ankle is secured across attacker's hip with hands controlling the foot and heel, grip placement varies based on gi/no-gi but consistently positions the attacker's forearm against the Achilles tendon while the opposite hand cups the heel or tops of the foot, establishing submission leverage",
-      "Attacker's legs actively wrap around defender's trapped leg using various configurations including inside position behind the knee, 'figure-four' leg triangle, or dual shin control across the thigh, these leg positions prevent hip rotation and maintain distance control while remaining flexible for transitions"
-    ],
-    "prerequisites": [
-      "Successful entry from standing guard, Single Leg X-Guard, or leg drag position",
-      "Initial control of opponent's ankle secured with at least one hand",
-      "Hip positioning established perpendicular or near-perpendicular to opponent",
-      "Opponent's leg extended or extending across attacker's centerline",
-      "Attacker's legs positioned to wrap around opponent's trapped leg",
-      "Sufficient space created to prevent opponent's immediate grip on attacker's collar or head"
-    ],
-    "key_principles": [
-      "Control position comes before finishing attempt - secure ankle and leg control before breaking mechanics",
-      "Perpendicular hip alignment maximizes leverage - angle of attack determines submission effectiveness",
-      "Leg configuration must prevent defender's hip rotation while maintaining transition readiness",
-      "Grip security on ankle determines control sustainability - proper hand placement is non-negotiable",
-      "Breaking mechanics require full body coordination - arching back, pulling heel, and extending hips simultaneously",
-      "Read defender's escape attempts to choose optimal transitions - every defensive move opens specific advances",
-      "Time pressure favors quick decisive action - finish or advance within 10-15 seconds"
-    ],
-    "offensive_transitions": [
-      {
-        "technique": "Straight Ankle Lock",
-        "target_position": "Won by Submission",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 50,
-          "advanced": 65
-        }
-      },
-      {
-        "technique": "Inside Ashi Entry",
-        "target_position": "Inside Ashi-Garami",
-        "success_rates": {
-          "beginner": 45,
-          "intermediate": 60,
-          "advanced": 75
-        }
-      },
-      {
-        "technique": "Outside Ashi Entry",
-        "target_position": "Outside Ashi-Garami",
-        "success_rates": {
-          "beginner": 40,
-          "intermediate": 55,
-          "advanced": 70
-        }
-      },
-      {
-        "technique": "X-Guard to Ashi Transition",
-        "target_position": "Inside Ashi-Garami",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 50,
-          "advanced": 65
-        }
-      },
-      {
-        "technique": "50-50 Entry from Standing",
-        "target_position": "50-50 Guard",
-        "success_rates": {
-          "beginner": 40,
-          "intermediate": 55,
-          "advanced": 70
-        }
-      },
-      {
-        "technique": "Single Leg X Entry",
-        "target_position": "Single Leg X-Guard",
-        "success_rates": {
-          "beginner": 45,
-          "intermediate": 60,
-          "advanced": 75
-        }
-      },
-      {
-        "technique": "Straight Footlock",
-        "target_position": "Won by Submission",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 45,
-          "advanced": 60
-        }
-      },
-      {
-        "technique": "Kneebar Finish",
-        "target_position": "Won by Submission",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 40,
-          "advanced": 55
-        }
-      },
-      {
-        "technique": "Ankle Pick Sweep",
-        "target_position": "Standing Position",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 45,
-          "advanced": 60
-        }
-      }
-    ],
-    "defensive_responses": [
-      {
-        "technique": "Ashi Garami Escape",
-        "target_position": "Standing Position",
-        "success_rate": 45
-      },
-      {
-        "technique": "Hip Rotation Defense",
-        "target_position": "Defensive Position",
-        "success_rate": 40
-      },
-      {
-        "technique": "Knee Extraction",
-        "target_position": "Half Guard",
-        "success_rate": 35
-      },
-      {
-        "technique": "Frame and Distance Creation",
-        "target_position": "Open Guard",
-        "success_rate": 40
-      },
-      {
-        "technique": "Counter Entry to Opponent's Leg",
-        "target_position": "50-50 Guard",
-        "success_rate": 30
-      },
-      {
-        "technique": "Standing Escape",
-        "target_position": "Standing Position",
-        "success_rate": 35
-      }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Inside Ashi Entry",
-        "target_position": "Inside Ashi-Garami",
-        "trigger": "When defender rotates hip away to create space for knee extraction"
-      },
-      {
-        "technique": "Outside Ashi Entry",
-        "target_position": "Outside Ashi-Garami",
-        "trigger": "When defender rotates hip toward attacker attempting to come on top"
-      },
-      {
-        "technique": "50-50 Entry from Standing",
-        "target_position": "50-50 Guard",
-        "trigger": "When defender attempts to enter on attacker's opposite leg while standing"
-      },
-      {
-        "technique": "X-Guard to Ashi Transition",
-        "target_position": "Inside Ashi-Garami",
-        "trigger": "When defender attempts to pass by stepping over trapped leg"
-      },
-      {
-        "technique": "Straight Footlock",
-        "target_position": "Won by Submission",
-        "trigger": "When defender extends leg straight attempting to pull out of control"
-      }
-    ],
-    "decision_tree": [
-      {
-        "condition": "If defender rotates hip away from attacker attempting to extract knee and create distance",
-        "actions": [
-          {
-            "technique": "Inside Ashi Entry",
-            "target": "Inside Ashi-Garami",
-            "probability": 70
-          },
-          {
-            "technique": "Transition to leg triangle control",
-            "target": "Inside Ashi-Garami",
-            "probability": 65
-          }
-        ]
-      },
-      {
-        "condition": "If defender rotates hip toward attacker attempting to come on top or pass",
-        "actions": [
-          {
-            "technique": "Outside Ashi Entry",
-            "target": "Outside Ashi-Garami",
-            "probability": 65
-          },
-          {
-            "technique": "Maintain ankle control and transition outside",
-            "target": "Outside Ashi-Garami",
-            "probability": 60
-          }
-        ]
-      },
-      {
-        "condition": "If defender straightens leg completely attempting to pull foot out of grip",
-        "actions": [
-          {
-            "technique": "Straight Ankle Lock",
-            "target": "Won by Submission",
-            "probability": 70
-          },
-          {
-            "technique": "Kneebar Finish",
-            "target": "Won by Submission",
-            "probability": 55
-          }
-        ]
-      },
-      {
-        "condition": "If defender attempts to stand and creates vertical pressure on trapped leg",
-        "actions": [
-          {
-            "technique": "Ankle Pick Sweep",
-            "target": "Standing Position",
-            "probability": 60
-          },
-          {
-            "technique": "Single Leg X Entry",
-            "target": "Single Leg X-Guard",
-            "probability": 65
-          }
-        ]
-      },
-      {
-        "condition": "If defender secures grip on attacker's opposite leg attempting symmetrical entanglement",
-        "actions": [
-          {
-            "technique": "50-50 Entry from Standing",
-            "target": "50-50 Guard",
-            "probability": 70
-          },
-          {
-            "technique": "Race to finish ankle lock before defender secures their control",
-            "target": "Won by Submission",
-            "probability": 45
-          }
-        ]
-      }
-    ],
-    "common_errors": [
-      {
-        "error": "Attempting to finish ankle lock immediately without establishing secure control position",
-        "consequence": "Defender easily rotates hip and extracts foot, escaping to standing or neutral position before attacker can apply meaningful pressure",
-        "correction": "Establish perpendicular hip positioning, wrap legs securely around defender's trapped leg, and verify ankle grip security before initiating breaking mechanics"
-      },
-      {
-        "error": "Maintaining static leg configuration that allows defender to rotate hip freely",
-        "consequence": "Defender escapes control by rotating toward or away from attacker, extracting knee and establishing defensive frames that nullify submission threat",
-        "correction": "Actively adjust leg positioning to block defender's hip rotation, using inside leg behind knee or figure-four configuration that prevents rotation while maintaining transition flexibility"
-      },
-      {
-        "error": "Focusing exclusively on ankle grip while neglecting leg control and hip positioning",
-        "consequence": "Strong grip on ankle means nothing if defender can freely rotate and create angles that eliminate submission leverage and facilitate escape",
-        "correction": "Balance attention between hand grip, leg wrapping, and hip alignment as interconnected control elements that must work together systematically"
-      },
-      {
-        "error": "Failing to read defender's escape attempts and choosing appropriate counter-transitions",
-        "consequence": "Defender's defensive movements create opportunities for positional advancement that attacker misses, eventually leading to successful escape to neutral or superior position",
-        "correction": "Study common escape sequences and practice counter-transitions so defensive reactions automatically trigger appropriate offensive advances"
-      },
-      {
-        "error": "Spending excessive time attempting to finish from straight ankle lock control without advancing",
-        "consequence": "Energy expenditure favors defender who gradually accumulates frames and distance, making control progressively more difficult to maintain as time passes",
-        "correction": "Implement strict time limits in training - if submission is not imminent within 10-15 seconds, immediately transition to more controlling position"
-      },
-      {
-        "error": "Neglecting upper body positioning and allowing defender to control attacker's head or collar",
-        "consequence": "Defender uses upper body grips to control attacker's posture, preventing effective breaking mechanics and facilitating escape by limiting attacker's ability to arch back",
-        "correction": "Maintain active upper body posture with free arm posting or framing to prevent defender from establishing controlling grips on head, collar, or upper torso"
-      }
-    ],
-    "training_drills": [
-      {
-        "name": "Entry and Control Establishment",
-        "description": "Starting from Single Leg X-Guard or standing guard, practice entering straight ankle lock control and establishing secure position with proper hip alignment, leg configuration, and grip placement before any submission attempt. Partner provides moderate resistance to escape attempts.",
-        "duration": "5 minutes"
-      },
-      {
-        "name": "Defender Response Recognition",
-        "description": "Begin in established straight ankle lock control with partner executing specific escape sequences on rotation. Practice reading each defensive movement and executing appropriate counter-transition without predetermined knowledge of which escape defender will attempt.",
-        "duration": "5 minutes"
-      },
-      {
-        "name": "Rapid Transition Sequences",
-        "description": "Start from straight ankle lock control and flow through all major transitions based on called scenarios: hip away to inside ashi, hip toward to outside ashi, standing defense to single leg X, symmetrical entry to 50-50. Focus on smooth efficient movement between positions.",
-        "duration": "4 minutes"
-      },
-      {
-        "name": "Submission Finishing Mechanics",
-        "description": "With fully compliant partner in straight ankle lock control, practice proper breaking mechanics with emphasis on hip extension, back arch, heel pull, and ankle dorsiflexion coordination. Partner provides feedback on pressure application and tap timing. STOP at first sign of discomfort.",
-        "duration": "3 minutes"
-      }
-    ],
-    "optimal_submission_paths": [
-      {
-        "name": "Direct Straight Ankle Lock Finish",
-        "path": "Straight Ankle Lock Control Bottom → Straight Ankle Lock → Won by Submission"
-      },
-      {
-        "name": "Inside Ashi Advancement to Heel Hook",
-        "path": "Straight Ankle Lock Control Bottom → Inside Ashi-Garami → Saddle → Inside Heel Hook → Won by Submission"
-      },
-      {
-        "name": "Outside Ashi to Kneebar Chain",
-        "path": "Straight Ankle Lock Control Bottom → Outside Ashi-Garami → Kneebar Control → Kneebar → Won by Submission"
-      },
-      {
-        "name": "50-50 Symmetrical Finish",
-        "path": "Straight Ankle Lock Control Bottom → 50-50 Guard → Straight Ankle Lock → Won by Submission"
-      },
-      {
-        "name": "Single Leg X Sweep to Top Control",
-        "path": "Straight Ankle Lock Control Bottom → Single Leg X-Guard → Single Leg X Sweep → Saddle → Inside Heel Hook → Won by Submission"
-      }
-    ],
-    "related_content": [
-      {
-        "name": "Inside Ashi-Garami",
-        "relationship": "Primary advancement position when defender rotates hip away from control"
-      },
-      {
-        "name": "Outside Ashi-Garami",
-        "relationship": "Alternative advancement when defender rotates hip toward attacker"
-      },
-      {
-        "name": "50-50 Guard",
-        "relationship": "Symmetrical entanglement resulting from defender's counter-entry attempts"
-      },
-      {
-        "name": "Single Leg X-Guard",
-        "relationship": "Common entry position and fallback when standing defense occurs"
-      },
-      {
-        "name": "Straight Ankle Lock",
-        "relationship": "Primary submission finish from this control position"
-      },
-      {
-        "name": "Kneebar Control",
-        "relationship": "Alternative attack when defender straightens leg defending ankle lock"
-      },
-      {
-        "name": "Saddle",
-        "relationship": "Advanced leg entanglement accessible through systematic transitions"
-      },
-      {
-        "name": "Leg Entanglement",
-        "relationship": "Conceptual framework principle governing this position category"
-      }
-    ],
-    "position_metrics": {
-      "retention_rate": {
-        "beginner": 35,
-        "intermediate": 50,
-        "advanced": 65,
-        "description": "Ability to maintain control against active escape attempts"
-      },
-      "advancement_probability": {
-        "beginner": 40,
-        "intermediate": 55,
-        "advanced": 70,
-        "description": "Likelihood of transitioning to more dominant leg entanglement"
-      },
-      "submission_probability": {
-        "beginner": 30,
-        "intermediate": 45,
-        "advanced": 60,
-        "description": "Probability of finishing straight ankle lock submission from this position"
-      },
-      "average_time": "8-15 seconds before finish or transition required"
-    }
-  },
   "top": {
     "name": "Straight Ankle Lock Control Top",
     "description": "Master defensive strategies from top of straight ankle lock control. Complete guide to escape sequences, counter-attacks, prevention concepts, and systematically nullifying leg attack threats.",
@@ -453,6 +60,40 @@
       "escape sequences"
     ],
     "overview": "From the defensive top perspective, being caught in straight ankle lock control represents a critical decision point where immediate intelligent action determines whether the practitioner escapes to safety or becomes increasingly trapped in progressively more dangerous leg entanglement systems. Unlike traditional top positions where time and patience favor the top player, straight ankle lock control reverses this dynamic - every moment spent in this configuration allows the bottom attacker to improve their control and advance toward more dominant positions.\n\nThe fundamental defensive challenge involves simultaneously addressing multiple control points while maintaining enough awareness to recognize and counter the attacker's transition attempts. The defender must manage the attacker's grip on their ankle, prevent the attacker's legs from establishing immobilizing control around their trapped leg, maintain hip mobility that allows escape-enabling rotation, and avoid reactions that open transitions to more dangerous positions. This multi-layered defensive problem requires practiced systematic responses rather than panicked explosive movements.\n\nSuccessful escape sequences follow clear hierarchies of objectives. The primary goal is extracting the trapped foot from the attacker's grip entirely, returning to standing or neutral ground position where leg attack threats are eliminated. If immediate extraction proves impossible due to secure grips and leg control, the secondary objective becomes preventing the attacker from transitioning to more dominant entanglements like inside ashi garami or saddle where heel hook threats emerge. The tertiary objective involves establishing counter-control through symmetrical leg entanglement, creating 50-50 configurations where both practitioners face similar threats and the position neutralizes.\n\nThe biomechanical principles governing successful escape emphasize hip rotation and knee protection as foundational elements. By rotating the hip in specific directions based on the attacker's leg configuration, the defender creates angles that reduce submission leverage while facilitating foot extraction. By keeping the knee bent and pulled toward the chest rather than allowing full leg extension, the defender maintains structural integrity that limits the attacker's ability to generate dangerous pressure on the ankle joint. These mechanical principles must be understood at a conceptual level rather than memorized as isolated techniques, allowing adaptive responses to varied grip and control configurations.\n\nModern leg lock defense has evolved beyond simple reactive escape attempts toward proactive prevention strategies that begin before ankle lock control is established. Understanding common entry sequences from positions like single leg X guard, standing guard passing, and leg drag scenarios allows defenders to recognize attack patterns early and implement preventive measures that shut down attacks before control is secured. This proactive approach reduces the frequency of defensive emergencies by addressing threats at their source rather than waiting until control is established.\n\nThe psychological dimension of defending straight ankle lock control cannot be understated. Many practitioners panic when their leg is controlled, making explosive uncontrolled movements that actually facilitate the attacker's transitions and tighten their control. Effective defense requires maintaining composure under submission threat, methodically executing escape sequences while remaining aware of the attacker's positioning and intention. This mental discipline develops through progressive exposure training where defenders gradually build tolerance for leg entanglement positions while practicing systematic escape protocols.",
+    "knowledge_assessment": [
+      {
+        "question": "What is the primary defensive resource you must protect when caught in straight ankle lock control?",
+        "answer": "Hip mobility and rotational freedom is your primary defensive resource. Any position adjustment that restricts hip movement substantially increases danger and reduces escape probability. Your ability to rotate your hip in the correct direction creates angles that reduce submission leverage and facilitate foot extraction, making this the foundation of all successful escape sequences."
+      },
+      {
+        "question": "Your opponent begins tightening their leg triangle around your trapped leg - what immediate adjustment do you make?",
+        "answer": "Immediately use your free leg to kick or push down on their bottom leg while simultaneously rotating your hip away from their control. You must prevent the leg triangle from completing because once full leg control is established, escape becomes exponentially harder. Address leg control as equal priority to grip fighting, never allowing them to consolidate position."
+      },
+      {
+        "question": "Why should you keep your trapped knee bent rather than letting your leg straighten during escape attempts?",
+        "answer": "Full leg extension eliminates your ability to use hip rotation for escape while maximizing the attacker's submission leverage, dramatically increasing injury risk. Keeping the knee bent and pulled toward your chest maintains structural integrity that limits submission pressure on the ankle joint while preserving the mobility needed for technical escapes and hip rotation."
+      },
+      {
+        "question": "What are the essential grip fighting priorities when defending straight ankle lock control?",
+        "answer": "Two-on-one grip breaking on the attacker's hand controlling your heel is the primary priority, as the heel grip provides most of their finishing leverage. Secondary priority is preventing them from deepening their forearm position against your Achilles. Use constant pressure against their thumb line while creating frames with your free arm to generate distance."
+      },
+      {
+        "question": "How do you determine which direction to rotate your hip during escape?",
+        "answer": "Rotate in the direction that complicates the attacker's transition attempts rather than facilitating them. If rotating hip away would give them inside ashi-garami, rotate toward them instead. If rotating toward would give them outside ashi-garami, rotate away. The key is understanding what position they want to achieve and deliberately choosing the opposite rotation direction."
+      },
+      {
+        "question": "The attacker commits heavily to a submission attempt and temporarily sacrifices their leg positioning - what opportunity does this create?",
+        "answer": "When the attacker over-commits to the finish, they often sacrifice upper body positioning and leg control to maximize breaking pressure. This creates a window to pass to top control by circling around their guard or to establish frames and distance that facilitate standing escape. Their focused commitment to finishing opens counter-attack and escape opportunities that disappear once they recompose."
+      },
+      {
+        "question": "What is the optimal time window for escape before the attacker typically advances to a more dangerous position?",
+        "answer": "The optimal escape window is 5-12 seconds from when ankle control is established. Beyond this timeframe, the attacker has had sufficient time to consolidate grips, complete leg triangle control, and begin transitioning to more dominant entanglements. Immediate aggressive escape sequences dramatically improve success probability compared to passive waiting."
+      },
+      {
+        "question": "How do you recover if your initial escape attempt fails but you've partially freed your leg?",
+        "answer": "Immediately re-establish frames on the attacker's upper body while keeping your partially freed knee bent and protected. Use the momentum of your escape attempt to create additional distance before the attacker can recompose their control. If complete extraction is still impossible, prevent progression to worse positions by blocking their leg advancement while preparing your next escape sequence."
+      }
+    ],
     "state_properties": {
       "point_value": 0,
       "position_type": "Defensive",
@@ -482,120 +123,6 @@
       "Systematic escape sequences over explosive panic - methodical technical escape outperforms athletic scrambling",
       "Counter-attack opportunities exist - establishing symmetrical control or passing attacker's guard are viable options"
     ],
-    "offensive_transitions": [
-      {
-        "technique": "Ashi Garami Escape",
-        "target_position": "Standing Position",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 50,
-          "advanced": 65
-        }
-      },
-      {
-        "technique": "Counter Entry to Opponent's Leg",
-        "target_position": "50-50 Guard",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 45,
-          "advanced": 60
-        }
-      },
-      {
-        "technique": "Standing Escape",
-        "target_position": "Standing Position",
-        "success_rates": {
-          "beginner": 40,
-          "intermediate": 55,
-          "advanced": 70
-        }
-      },
-      {
-        "technique": "Hip Rotation Defense",
-        "target_position": "Defensive Position",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 50,
-          "advanced": 65
-        }
-      },
-      {
-        "technique": "Knee Extraction",
-        "target_position": "Half Guard",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 45,
-          "advanced": 60
-        }
-      },
-      {
-        "technique": "Frame and Distance Creation",
-        "target_position": "Open Guard",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 50,
-          "advanced": 65
-        }
-      },
-      {
-        "technique": "Pass to Top Control",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 40,
-          "advanced": 55
-        }
-      }
-    ],
-    "defensive_responses": [
-      {
-        "technique": "Inside Ashi Entry",
-        "target_position": "Inside Ashi-Garami",
-        "success_rate": 60
-      },
-      {
-        "technique": "Outside Ashi Entry",
-        "target_position": "Outside Ashi-Garami",
-        "success_rate": 55
-      },
-      {
-        "technique": "Straight Ankle Lock",
-        "target_position": "Lost by Submission",
-        "success_rate": 45
-      },
-      {
-        "technique": "50-50 Entry from Standing",
-        "target_position": "50-50 Guard",
-        "success_rate": 50
-      },
-      {
-        "technique": "Kneebar Finish",
-        "target_position": "Lost by Submission",
-        "success_rate": 35
-      }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Ashi Garami Escape",
-        "target_position": "Standing Position",
-        "trigger": "When attacker's leg control is incomplete or grip security is temporarily compromised"
-      },
-      {
-        "technique": "Counter Entry to Opponent's Leg",
-        "target_position": "50-50 Guard",
-        "trigger": "When both legs are engaged and symmetrical control can be established"
-      },
-      {
-        "technique": "Standing Escape",
-        "target_position": "Standing Position",
-        "trigger": "When sufficient distance is created to safely stand and extract foot"
-      },
-      {
-        "technique": "Pass to Top Control",
-        "target_position": "Side Control",
-        "trigger": "When attacker commits fully to ankle grip and temporarily sacrifices positional control"
-      }
-    ],
     "decision_tree": [
       {
         "condition": "If attacker has not yet completed leg triangle and grip security is moderate",
@@ -607,7 +134,7 @@
           },
           {
             "technique": "Rotate hip away and extract knee",
-            "target": "Defensive Position",
+            "target": "Open Guard",
             "probability": 60
           }
         ]
@@ -662,7 +189,7 @@
         "actions": [
           {
             "technique": "Hip Rotation Defense",
-            "target": "Defensive Position",
+            "target": "Open Guard",
             "probability": 60
           },
           {
@@ -727,28 +254,6 @@
         "duration": "3 minutes"
       }
     ],
-    "optimal_submission_paths": [
-      {
-        "name": "Direct Standing Escape",
-        "path": "Straight Ankle Lock Control Top → Standing Escape → Standing Position"
-      },
-      {
-        "name": "Hip Rotation to Extraction",
-        "path": "Straight Ankle Lock Control Top → Hip Rotation Defense → Ashi Garami Escape → Standing Position"
-      },
-      {
-        "name": "Symmetrical Control Neutralization",
-        "path": "Straight Ankle Lock Control Top → Counter Entry to Opponent's Leg → 50-50 Guard → Ashi Garami Escape → Standing Position"
-      },
-      {
-        "name": "Pass to Dominant Position",
-        "path": "Straight Ankle Lock Control Top → Pass to Top Control → Side Control"
-      },
-      {
-        "name": "Frame and Distance Escape",
-        "path": "Straight Ankle Lock Control Top → Frame and Distance Creation → Open Guard → Standing Position"
-      }
-    ],
     "related_content": [
       {
         "name": "Inside Ashi-Garami",
@@ -767,10 +272,6 @@
         "relationship": "Primary technical escape sequence from this defensive position"
       },
       {
-        "name": "Submission Defense",
-        "relationship": "Fundamental principle governing defensive approach to this position"
-      },
-      {
         "name": "Standing Position",
         "relationship": "Primary objective destination for successful escape sequences"
       },
@@ -779,8 +280,12 @@
         "relationship": "Conceptual framework principle for understanding position category"
       },
       {
-        "name": "Defensive Position",
-        "relationship": "Intermediate state during progressive escape execution"
+        "name": "Open Guard",
+        "relationship": "Intermediate recovery state during progressive escape execution"
+      },
+      {
+        "name": "Half Guard",
+        "relationship": "Alternative recovery position when full extraction is not possible"
       }
     ],
     "position_metrics": {
@@ -803,6 +308,337 @@
         "description": "Risk of being submitted from this defensive position"
       },
       "average_time": "5-12 seconds optimal window for escape before attacker advances"
-    }
+    },
+    "transitions": [
+      {
+        "transition": "Ashi Garami Escape",
+        "attempt_probability": 15
+      },
+      {
+        "transition": "Counter Entry to Opponent's Leg",
+        "attempt_probability": 14
+      },
+      {
+        "transition": "Standing Escape",
+        "attempt_probability": 15
+      },
+      {
+        "transition": "Hip Rotation Defense",
+        "attempt_probability": 15
+      },
+      {
+        "transition": "Knee Extraction",
+        "attempt_probability": 14
+      },
+      {
+        "transition": "Frame and Distance Creation",
+        "attempt_probability": 15
+      },
+      {
+        "transition": "Pass to Top Control",
+        "attempt_probability": 12
+      }
+    ]
+  },
+  "bottom": {
+    "name": "Straight Ankle Lock Control Bottom",
+    "description": "Master the attacking perspective of straight ankle lock control. Complete guide to securing ankle control, finishing mechanics, transition options, and systematically advancing through defensive reactions.",
+    "tags": [
+      "leg locks",
+      "ankle lock",
+      "offensive control",
+      "submission position",
+      "leg entanglement",
+      "foot locks",
+      "attacking position"
+    ],
+    "overview": "From the attacking bottom perspective, straight ankle lock control represents a calculated trade of superior positioning for immediate submission threat and transitional opportunities into more advanced leg entanglement systems. The practitioner on bottom has intentionally entered this position to exploit their opponent's leg vulnerability, accepting temporary positional sacrifice in exchange for offensive potential.\n\nThe fundamental geometry of the position places the attacker perpendicular to the defender, with the defender's ankle secured across the attacker's hip line. The attacker's legs wrap around the defender's trapped leg to prevent hip rotation and escape, while their hands establish grips on the ankle and foot that enable both control and submission finishing mechanics. This configuration creates a mechanical advantage where the attacker can generate significant pressure on the ankle joint through relatively small body movements.\n\nStrategic decision-making in this position revolves around accurately reading the defender's reactions and choosing the appropriate response. Defenders typically attempt one of several escape sequences: rotating their hip toward or away from the attacker, extracting their trapped foot by pulling the knee to their chest, pushing the attacker's upper body away to create distance, or attempting to come up and pass the attacker's guard. Each defensive choice opens specific offensive opportunities that the prepared attacker can exploit through practiced transition sequences.\n\nThe energy dynamics favor quick decisive action from the bottom attacker. Every second spent in this position without advancing toward submission or improved control represents energy expenditure without positional improvement. The defender's defensive frames and escape attempts gradually accumulate advantage, making it progressively more difficult to maintain control and finish the submission. This temporal pressure requires the attacker to develop efficient finishing mechanics and smooth transition pathways that capitalize on brief windows of opportunity.\n\nModern approach to straight ankle lock control from bottom emphasizes system integration rather than isolated submission attempts. Advanced practitioners use the position as a hub from which multiple attacking sequences branch based on the defender's choices. The initial ankle lock threat forces defensive reactions that open pathways to inside ashi garami, outside ashi garami, 50-50 guard, or kneebar control. This systematic approach transforms a relatively low-control position into a powerful offensive platform where the attacker maintains initiative throughout the engagement.\n\nThe technical execution requires precise coordination of grips, leg positioning, and hip movement. The attacking legs must actively prevent the defender from rotating their hip while remaining flexible enough to transition fluidly when the defender attempts escape. The hands must maintain firm ankle control without telegraphing submission attempts, allowing the attacker to threaten finishes while remaining ready to transition based on defensive reactions. This balance of control and mobility distinguishes effective straight ankle lock control from ineffective attempts that allow easy escape.",
+    "knowledge_assessment": [
+      {
+        "question": "What is the proper sequence for establishing control before attempting to finish the straight ankle lock?",
+        "answer": "First establish perpendicular hip positioning relative to defender's body, then wrap your legs securely around their trapped leg to prevent hip rotation, verify ankle grip security with forearm positioned against the Achilles tendon and opposite hand cupping the heel, and only then initiate breaking mechanics. Position before submission is the fundamental principle - attempting to finish without these control elements results in easy escape."
+      },
+      {
+        "question": "Your opponent rotates their hip away from you attempting to extract their knee - what counter-transition do you execute?",
+        "answer": "Their hip rotation away opens a pathway to Inside Ashi-Garami. Follow their rotation by threading your inside leg through to establish the leg triangle, transitioning your control to secure inside position with your shin across their far hip. Their defensive movement actually facilitates your advancement to a more dominant entanglement where heel hooks become available."
+      },
+      {
+        "question": "What are the essential grips for maintaining control and finishing capability in this position?",
+        "answer": "The primary grip positions your forearm directly against the Achilles tendon with the blade of your wrist bone pressing into the tendon. The secondary grip cups the heel with palm across the back of the heel and fingers pointing toward toes. This configuration creates the pocket needed for submission leverage while controlling heel rotation that would allow escape."
+      },
+      {
+        "question": "How do you apply proper breaking mechanics to finish the straight ankle lock?",
+        "answer": "Breaking mechanics require full body coordination: arch your back to create extension, pull the heel tight to your chest, extend your hips to generate downward pressure, and dorsiflex the ankle by pushing toes toward shin. All movements happen simultaneously to maximize pressure on the Achilles tendon and ankle joint. The finish comes from hip extension and back arch, not arm strength."
+      },
+      {
+        "question": "The defender straightens their leg completely attempting to pull their foot free - what opportunity does this create?",
+        "answer": "Full leg extension is a critical defensive error that dramatically increases your finishing leverage on the straight ankle lock and also opens immediate kneebar opportunities. The straight leg creates a direct line of force for ankle pressure while the extended knee becomes vulnerable to kneebar attack. This defensive mistake should trigger immediate commitment to finishing."
+      },
+      {
+        "question": "What leg configurations can you use to prevent the defender's hip rotation?",
+        "answer": "Three primary configurations exist: inside position with your leg behind their knee creating a wedge, figure-four leg triangle where you cross your ankles around their thigh, or dual shin control across their thigh pinching from both sides. Each configuration prevents hip rotation while offering different transition flexibility. Choose based on the defender's leg positioning and your intended follow-up attacks."
+      },
+      {
+        "question": "How do you manage the time pressure dynamics when attacking from straight ankle lock control?",
+        "answer": "Implement strict internal time limits - if the submission is not imminent within 10-15 seconds, immediately transition to a more controlling position rather than continuing to fight for the finish. Energy expenditure without positional improvement favors the defender, so decisive action either toward the finish or toward advancement is required. Stalling in this position is tactically unsound."
+      },
+      {
+        "question": "The defender establishes frames on your upper body and begins creating distance - how do you recover control?",
+        "answer": "Immediately tighten your leg wrap to maintain connection while using your free arm to break their frames or control their hip. If distance becomes significant, transition to Single Leg X-Guard to maintain leg engagement while rebuilding your attack angle. Never allow frames to accumulate unchallenged, as distance compounds and control becomes progressively more difficult to re-establish."
+      }
+    ],
+    "state_properties": {
+      "point_value": 0,
+      "position_type": "Offensive",
+      "risk_level": "Medium to High",
+      "energy_cost": "Medium",
+      "time_sustainability": "Short to Medium"
+    },
+    "state_invariants": [
+      "Attacker maintains perpendicular positioning relative to defender's body, with defender's trapped leg extended across attacker's hip line and attacker's torso angled at approximately 90 degrees to defender's centerline, creating optimal mechanical advantage for ankle pressure while maintaining balance and control",
+      "Defender's ankle is secured across attacker's hip with hands controlling the foot and heel, grip placement varies based on gi/no-gi but consistently positions the attacker's forearm against the Achilles tendon while the opposite hand cups the heel or tops of the foot, establishing submission leverage",
+      "Attacker's legs actively wrap around defender's trapped leg using various configurations including inside position behind the knee, 'figure-four' leg triangle, or dual shin control across the thigh, these leg positions prevent hip rotation and maintain distance control while remaining flexible for transitions"
+    ],
+    "prerequisites": [
+      "Successful entry from standing guard, Single Leg X-Guard, or leg drag position",
+      "Initial control of opponent's ankle secured with at least one hand",
+      "Hip positioning established perpendicular or near-perpendicular to opponent",
+      "Opponent's leg extended or extending across attacker's centerline",
+      "Attacker's legs positioned to wrap around opponent's trapped leg",
+      "Sufficient space created to prevent opponent's immediate grip on attacker's collar or head"
+    ],
+    "key_principles": [
+      "Control position comes before finishing attempt - secure ankle and leg control before breaking mechanics",
+      "Perpendicular hip alignment maximizes leverage - angle of attack determines submission effectiveness",
+      "Leg configuration must prevent defender's hip rotation while maintaining transition readiness",
+      "Grip security on ankle determines control sustainability - proper hand placement is non-negotiable",
+      "Breaking mechanics require full body coordination - arching back, pulling heel, and extending hips simultaneously",
+      "Read defender's escape attempts to choose optimal transitions - every defensive move opens specific advances",
+      "Time pressure favors quick decisive action - finish or advance within 10-15 seconds"
+    ],
+    "decision_tree": [
+      {
+        "condition": "If defender rotates hip away from attacker attempting to extract knee and create distance",
+        "actions": [
+          {
+            "technique": "Inside Ashi Entry",
+            "target": "Inside Ashi-Garami",
+            "probability": 70
+          },
+          {
+            "technique": "Transition to leg triangle control",
+            "target": "Inside Ashi-Garami",
+            "probability": 65
+          }
+        ]
+      },
+      {
+        "condition": "If defender rotates hip toward attacker attempting to come on top or pass",
+        "actions": [
+          {
+            "technique": "Outside Ashi Entry",
+            "target": "Outside Ashi-Garami",
+            "probability": 65
+          },
+          {
+            "technique": "Maintain ankle control and transition outside",
+            "target": "Outside Ashi-Garami",
+            "probability": 60
+          }
+        ]
+      },
+      {
+        "condition": "If defender straightens leg completely attempting to pull foot out of grip",
+        "actions": [
+          {
+            "technique": "Straight Ankle Lock",
+            "target": "game-over",
+            "probability": 70
+          },
+          {
+            "technique": "Kneebar Finish",
+            "target": "game-over",
+            "probability": 55
+          }
+        ]
+      },
+      {
+        "condition": "If defender attempts to stand and creates vertical pressure on trapped leg",
+        "actions": [
+          {
+            "technique": "Ankle Pick Sweep",
+            "target": "Standing Position",
+            "probability": 60
+          },
+          {
+            "technique": "Single Leg X Entry",
+            "target": "Single Leg X-Guard",
+            "probability": 65
+          }
+        ]
+      },
+      {
+        "condition": "If defender secures grip on attacker's opposite leg attempting symmetrical entanglement",
+        "actions": [
+          {
+            "technique": "50-50 Entry from Standing",
+            "target": "50-50 Guard",
+            "probability": 70
+          },
+          {
+            "technique": "Race to finish ankle lock before defender secures their control",
+            "target": "game-over",
+            "probability": 45
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting to finish ankle lock immediately without establishing secure control position",
+        "consequence": "Defender easily rotates hip and extracts foot, escaping to standing or neutral position before attacker can apply meaningful pressure",
+        "correction": "Establish perpendicular hip positioning, wrap legs securely around defender's trapped leg, and verify ankle grip security before initiating breaking mechanics"
+      },
+      {
+        "error": "Maintaining static leg configuration that allows defender to rotate hip freely",
+        "consequence": "Defender escapes control by rotating toward or away from attacker, extracting knee and establishing defensive frames that nullify submission threat",
+        "correction": "Actively adjust leg positioning to block defender's hip rotation, using inside leg behind knee or figure-four configuration that prevents rotation while maintaining transition flexibility"
+      },
+      {
+        "error": "Focusing exclusively on ankle grip while neglecting leg control and hip positioning",
+        "consequence": "Strong grip on ankle means nothing if defender can freely rotate and create angles that eliminate submission leverage and facilitate escape",
+        "correction": "Balance attention between hand grip, leg wrapping, and hip alignment as interconnected control elements that must work together systematically"
+      },
+      {
+        "error": "Failing to read defender's escape attempts and choosing appropriate counter-transitions",
+        "consequence": "Defender's defensive movements create opportunities for positional advancement that attacker misses, eventually leading to successful escape to neutral or superior position",
+        "correction": "Study common escape sequences and practice counter-transitions so defensive reactions automatically trigger appropriate offensive advances"
+      },
+      {
+        "error": "Spending excessive time attempting to finish from straight ankle lock control without advancing",
+        "consequence": "Energy expenditure favors defender who gradually accumulates frames and distance, making control progressively more difficult to maintain as time passes",
+        "correction": "Implement strict time limits in training - if submission is not imminent within 10-15 seconds, immediately transition to more controlling position"
+      },
+      {
+        "error": "Neglecting upper body positioning and allowing defender to control attacker's head or collar",
+        "consequence": "Defender uses upper body grips to control attacker's posture, preventing effective breaking mechanics and facilitating escape by limiting attacker's ability to arch back",
+        "correction": "Maintain active upper body posture with free arm posting or framing to prevent defender from establishing controlling grips on head, collar, or upper torso"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Entry and Control Establishment",
+        "description": "Starting from Single Leg X-Guard or standing guard, practice entering straight ankle lock control and establishing secure position with proper hip alignment, leg configuration, and grip placement before any submission attempt. Partner provides moderate resistance to escape attempts.",
+        "duration": "5 minutes"
+      },
+      {
+        "name": "Defender Response Recognition",
+        "description": "Begin in established straight ankle lock control with partner executing specific escape sequences on rotation. Practice reading each defensive movement and executing appropriate counter-transition without predetermined knowledge of which escape defender will attempt.",
+        "duration": "5 minutes"
+      },
+      {
+        "name": "Rapid Transition Sequences",
+        "description": "Start from straight ankle lock control and flow through all major transitions based on called scenarios: hip away to inside ashi, hip toward to outside ashi, standing defense to single leg X, symmetrical entry to 50-50. Focus on smooth efficient movement between positions.",
+        "duration": "4 minutes"
+      },
+      {
+        "name": "Submission Finishing Mechanics",
+        "description": "With fully compliant partner in straight ankle lock control, practice proper breaking mechanics with emphasis on hip extension, back arch, heel pull, and ankle dorsiflexion coordination. Partner provides feedback on pressure application and tap timing. STOP at first sign of discomfort.",
+        "duration": "3 minutes"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Inside Ashi-Garami",
+        "relationship": "Primary advancement position when defender rotates hip away from control"
+      },
+      {
+        "name": "Outside Ashi-Garami",
+        "relationship": "Alternative advancement when defender rotates hip toward attacker"
+      },
+      {
+        "name": "50-50 Guard",
+        "relationship": "Symmetrical entanglement resulting from defender's counter-entry attempts"
+      },
+      {
+        "name": "Single Leg X-Guard",
+        "relationship": "Common entry position and fallback when standing defense occurs"
+      },
+      {
+        "name": "Achilles Lock",
+        "relationship": "Primary submission finish from this control position"
+      },
+      {
+        "name": "Kneebar Control",
+        "relationship": "Alternative attack when defender straightens leg defending ankle lock"
+      },
+      {
+        "name": "Saddle",
+        "relationship": "Advanced leg entanglement accessible through systematic transitions"
+      },
+      {
+        "name": "Leg Entanglement",
+        "relationship": "Conceptual framework principle governing this position category"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "beginner": 35,
+        "intermediate": 50,
+        "advanced": 65,
+        "description": "Ability to maintain control against active escape attempts"
+      },
+      "advancement_probability": {
+        "beginner": 40,
+        "intermediate": 55,
+        "advanced": 70,
+        "description": "Likelihood of transitioning to more dominant leg entanglement"
+      },
+      "submission_probability": {
+        "beginner": 30,
+        "intermediate": 45,
+        "advanced": 60,
+        "description": "Probability of finishing straight ankle lock submission from this position"
+      },
+      "average_time": "8-15 seconds before finish or transition required"
+    },
+    "transitions": [
+      {
+        "transition": "Straight Ankle Lock",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Inside Ashi Entry",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Outside Ashi Entry",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "X-Guard to Ashi Transition",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "50-50 Entry from Standing",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Single Leg X Entry",
+        "attempt_probability": 13
+      },
+      {
+        "transition": "Straight Footlock",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Kneebar Finish",
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Ankle Pick Sweep",
+        "attempt_probability": 10
+      }
+    ]
   }
 }

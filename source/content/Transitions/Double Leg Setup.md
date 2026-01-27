@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Double Leg Setup | BJJ Technique | BJJ Graph"
 description: "Learn Double Leg Setup in BJJ. Step-by-step execution from Standing Position to Double Leg Entry. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%."
@@ -16,7 +17,7 @@ description: "Learn Double Leg Setup in BJJ. Step-by-step execution from Standin
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Double Leg Setup in BJJ",
-  "description": "Step-by-step guide for Double Leg Setup from Standing Position to Double Leg Entry.",
+  "description": "Step-by-step guide for Double Leg Setup from Standing Position/Top. Possible outcomes: Double Leg Entry/Top (70%), Standing Position/Top (20%), Standing Position/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -166,11 +167,25 @@ description: "Learn Double Leg Setup in BJJ. Step-by-step execution from Standin
 
 The Double Leg Setup is a fundamental wrestling entry adapted for Brazilian Jiu-Jitsu that creates the optimal conditions for executing a double leg takedown. This preparatory sequence focuses on controlling distance, manipulating opponent reactions, and establishing proper positioning before committing to the explosive penetration step. The setup phase is arguably more important than the finish itself, as it determines whether you'll achieve a clean takedown or expose yourself to sprawl defense and guillotine attacks. Effective setup work involves a combination of grip fighting, level changes, angle creation, and timing that forces your opponent into defensive postures while creating offensive opportunities. The modern approach to double leg setups emphasizes tactical entries over purely athletic explosiveness, making it accessible to practitioners of all physical abilities. Understanding the setup mechanics allows you to chain together multiple takedown attempts, use feints to create openings, and seamlessly transition between standing and ground techniques when opportunities arise.
 
-**Starting Position**: [[Standing Position]]
-**Ending Position**: [[Double Leg Entry]]
+**From Position**: [[Standing Position/Top]]
 **Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Double Leg Entry/Top]] | 70% |
+| Failure | [[Standing Position/Top]] | 20% |
+| Counter | [[Standing Position/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

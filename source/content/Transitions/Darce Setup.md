@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Darce Setup | BJJ Technique | BJJ Graph"
 description: "Learn Darce Setup in BJJ. Step-by-step execution from Front Headlock/Turtle to Darce Control. Success rates: Beginner 30%, Intermediate 45%, Advanced 60%."
@@ -16,7 +17,7 @@ description: "Learn Darce Setup in BJJ. Step-by-step execution from Front Headlo
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Darce Setup in BJJ",
-  "description": "Step-by-step guide for Darce Setup from Front Headlock to D'arce Control.",
+  "description": "Step-by-step guide for Darce Setup from Front Headlock/Top. Possible outcomes: D'arce Control/Top (60%), Front Headlock/Top (30%), Front Headlock/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -154,11 +155,25 @@ description: "Learn Darce Setup in BJJ. Step-by-step execution from Front Headlo
 
 The Darce Setup is a crucial transitional technique that transforms front headlock control into one of Brazilian Jiu-Jitsu's most effective submission positions. Named after Joe D'Arce, this setup exploits opponent posture and creates the distinctive arm-in configuration that defines the Darce choke system. The technique is particularly effective when opponents attempt to defend turtle position or when transitioning from scrambles, making it an essential weapon for modern grapplers. Understanding proper hand positioning, angle creation, and body weight distribution during the setup phase dramatically increases finishing rates. The Darce setup requires precise timing and technical execution rather than pure strength, making it accessible to practitioners of all sizes when properly understood. This technique serves as a gateway to multiple submission opportunities including the Darce choke, Anaconda choke, and various transitions to back control or mount positions.
 
-**Starting Position**: [[Front Headlock]]
-**Ending Position**: [[D'arce Control]]
+**From Position**: [[Front Headlock/Top]]
 **Success Rates**: Beginner 30%, Intermediate 45%, Advanced 60%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[D'arce Control/Top]] | 60% |
+| Failure | [[Front Headlock/Top]] | 30% |
+| Counter | [[Front Headlock/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Guard Pass | BJJ Technique | BJJ Graph"
 description: "Learn Guard Pass techniques in BJJ. Comprehensive guide to passing guard from various positions. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%."
@@ -16,7 +17,7 @@ description: "Learn Guard Pass techniques in BJJ. Comprehensive guide to passing
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Guard Pass in BJJ",
-  "description": "Step-by-step guide for Guard Pass from Open Guard to Side Control.",
+  "description": "Step-by-step guide for Guard Pass from Open Guard/Bottom. Possible outcomes: Side Control/Top (70%), Open Guard/Bottom (20%), Open Guard/Top (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -158,11 +159,25 @@ The modern approach to guard passing encompasses multiple philosophies: pressure
 
 Mastering guard passing fundamentals creates the foundation for all top game development in BJJ. Whether passing closed guard, open guard variations, or modern leg entanglement guards, the core principles remain consistent: establish dominant grips, control distance and angles, break the opponent's structure, and advance through stages of control before settling into a dominant position. This systematic approach, combined with the ability to read and counter opponent reactions, separates effective guard passers from those who struggle to advance position.
 
-**Starting Position**: [[Open Guard]]
-**Ending Position**: [[Side Control]]
+**From Position**: [[Open Guard/Bottom]]
 **Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Side Control/Top]] | 70% |
+| Failure | [[Open Guard/Bottom]] | 20% |
+| Counter | [[Open Guard/Top]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

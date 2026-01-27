@@ -262,6 +262,31 @@
       "question": "Why should you never elevate the opponent's elbow beyond 90 degrees from their body during the Kimura finish?",
       "answer": "Elevating beyond 90 degrees creates extreme stress on the shoulder capsule and significantly increases the risk of shoulder dislocation, especially in opponents with limited flexibility or previous shoulder injuries. The submission is designed to finish through the combination of moderate elevation (around 90 degrees) and rotation. Excessive elevation can cause injury before the opponent feels sufficient pain to tap, as the shoulder can dislocate suddenly without warning. Safe application focuses on rotational pressure with controlled elevation.",
       "safety_critical": true
+    },
+    {
+      "question": "Your opponent begins straightening their arm to break your figure-four structure - what immediate adjustment prevents the escape?",
+      "answer": "Immediately pinch your elbows tighter together and drive them toward your opponent's centerline, maintaining pressure on the bent arm. If their arm begins to straighten, use your chest weight to push their elbow toward the mat while maintaining wrist control. If the arm straightens past the point of recovery, transition immediately to an armbar by throwing your leg over their head - the straight arm is now perfectly positioned for this submission. Never waste energy fighting a fully straightened arm; instead, use it as a transition opportunity.",
+      "safety_critical": false
+    },
+    {
+      "question": "What anatomical structure does the Kimura specifically attack, and what creates the breaking point?",
+      "answer": "The Kimura attacks the shoulder joint, specifically targeting the glenohumeral joint through extreme external rotation combined with elevation. The breaking point occurs when the rotator cuff muscles (subscapularis, supraspinatus, infraspinatus, teres minor) can no longer resist the rotational force being applied. The shoulder capsule and labrum are also stressed. The tap typically comes when the opponent feels the shoulder being forced past its natural range of motion in the rotational plane, creating sharp pain in the anterior shoulder.",
+      "safety_critical": false
+    },
+    {
+      "question": "At what point in the Kimura sequence has the opponent reached the point of no escape?",
+      "answer": "The point of no escape occurs when you have secured the figure-four grip with tight elbows, established hip control with your knee blocking their turn, and begun the elevation phase with their elbow lifted off the mat. Once the elbow is elevated and your body weight is committed to the rotation, their defensive options become extremely limited. If they haven't freed their arm before this point, their only remaining option is to tap. Recognizing this threshold in competition allows you to commit fully to the finish without fear of losing position.",
+      "safety_critical": false
+    },
+    {
+      "question": "Your opponent's shoulder has limited flexibility and they tap earlier than expected - how do you adjust your finishing mechanics for different body types?",
+      "answer": "Always communicate with training partners about flexibility limitations before drilling. For less flexible opponents, reduce your elevation angle significantly and rely more on rotation with the arm closer to the mat. Watch for early warning signs like grimacing or tension before verbal taps. Some practitioners may tap at 70-80 degrees of elevation that others can sustain without discomfort. In competition, recognize that inflexible opponents tap faster, so secure control and apply pressure progressively rather than explosively. Never assume everyone has the same range of motion.",
+      "safety_critical": true
+    },
+    {
+      "question": "How do you adjust your grip and positioning if you're attempting the Kimura in no-gi versus gi competition?",
+      "answer": "In no-gi, grip security becomes critical since there's no gi material to anchor. Use a deeper figure-four grip where your grabbing hand wraps further around your own wrist for added security. Keep your body tighter to the opponent to prevent their arm from slipping due to sweat. Your chest pressure becomes even more important since you can't use collar or sleeve grips to control position. Consider the wrist-ride variation where you grip their wrist more aggressively. In gi, you can use their sleeve to assist arm isolation and their belt or pants grip to add rotational pressure to the finish.",
+      "safety_critical": false
     }
   ],
   "training_progressions_and_safety_protocols": [
@@ -337,10 +362,6 @@
   ],
   "related_content": [
     {
-      "name": "Kimura Control",
-      "relationship": "Position reached when Kimura grip is secured but not yet finished"
-    },
-    {
       "name": "Kimura Trap",
       "relationship": "Control system based on maintaining Kimura grip for positional dominance"
     },
@@ -361,28 +382,32 @@
       "relationship": "Alternative positional advancement when Kimura is strongly defended"
     },
     {
-      "name": "Kimura Trap System",
-      "relationship": "Systematic approach to using Kimura grip for control and submissions"
-    },
-    {
       "name": "Gift Wrap",
       "relationship": "Back control position that can be entered via Kimura grip control"
     },
     {
-      "name": "Americana Control",
+      "name": "Americana from Side Control",
       "relationship": "Alternative shoulder lock when opponent defends Kimura by gripping gi"
-    },
-    {
-      "name": "Submission Control Position",
-      "relationship": "Principle of maintaining dominant position while attacking submissions"
-    },
-    {
-      "name": "Control Point Hierarchy",
-      "relationship": "Framework for understanding when to abandon submission for position"
     },
     {
       "name": "Crucifix",
       "relationship": "Alternative control position accessible via Kimura grip when opponent turns"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Primary starting position for this submission"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Position accessible when opponent defends by turning away"
+    },
+    {
+      "name": "Armbar from Side Control",
+      "relationship": "Alternative submission when opponent straightens arm to escape"
+    },
+    {
+      "name": "Americana",
+      "relationship": "Related shoulder lock attacking the same joint from opposite direction"
     }
   ]
 }

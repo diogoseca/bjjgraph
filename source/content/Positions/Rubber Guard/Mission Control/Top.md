@@ -21,37 +21,37 @@ description: "Learn defensive strategies and escape mechanics from the top of Mi
     {
       "@type": "HowToStep",
       "name": "Execute Posture Recovery",
-      "text": "From this position, execute Posture Recovery to transition to Closed Guard. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Posture Recovery. This technique is attempted in 19% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Guard Pass",
-      "text": "From this position, execute Guard Pass to transition to Side Control. Success rate for advanced practitioners: 45%.",
+      "text": "From this position, attempt Guard Pass. This technique is attempted in 16% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Stack Defense",
-      "text": "From this position, execute Stack Defense to transition to Headquarters Position. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Stack Defense. This technique is attempted in 17% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Standing up in Base",
-      "text": "From this position, execute Standing up in Base to transition to Standing Guard. Success rate for advanced practitioners: 58%.",
+      "text": "From this position, attempt Standing up in Base. This technique is attempted in 20% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm Extraction",
-      "text": "From this position, execute Arm Extraction to transition to Open Guard. Success rate for advanced practitioners: 42%.",
+      "text": "From this position, attempt Arm Extraction. This technique is attempted in 15% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Guard Opening Sequence",
-      "text": "From this position, execute Guard Opening Sequence to transition to Combat Base. Success rate for advanced practitioners: 38%.",
+      "text": "From this position, attempt Guard Opening Sequence. This technique is attempted in 13% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -217,77 +217,18 @@ Energy management from Mission Control top is critical for successful escape. Wh
 
 ## Available Attacks
 
-### [[Posture Recovery]] → [[Closed Guard]]
+### [[Posture Recovery]] (19% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 55%
+### [[Guard Pass]] (16% of attempts)
 
-### [[Guard Pass]] → [[Side Control]]
+### [[Stack Defense]] (17% of attempts)
 
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 28%
-- Advanced: 45%
+### [[Standing up in Base]] (20% of attempts)
 
-### [[Stack Defense]] → [[Headquarters Position]]
+### [[Arm Extraction]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 18%
-- Intermediate: 32%
-- Advanced: 50%
+### [[Guard Opening Sequence]] (13% of attempts)
 
-### [[Standing up in Base]] → [[Standing Guard]]
-
-**Success Rates:**
-- Beginner: 22%
-- Intermediate: 38%
-- Advanced: 58%
-
-### [[Arm Extraction]] → [[Open Guard]]
-
-**Success Rates:**
-- Beginner: 12%
-- Intermediate: 25%
-- Advanced: 42%
-
-### [[Guard Opening Sequence]] → [[Combat Base]]
-
-**Success Rates:**
-- Beginner: 10%
-- Intermediate: 20%
-- Advanced: 38%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Triangle Setup]]** → [[Triangle Control]] (Opponent Success: 70%)
-- **[[Omoplata to Sweep]]** → [[Omoplata Control]] (Opponent Success: 65%)
-- **[[Hip Bump Sweep]]** → [[Mount]] (Opponent Success: 50%)
-- **[[Transition to Truck]]** → [[New York]] (Opponent Success: 55%)
-- **[[Closed Guard to Triangle]]** → [[Gogoplata Control]] (Opponent Success: 35%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Stack Defense]]** → [[Headquarters Position]]
-  - When bottom practitioner threatens triangle, immediately drive weight forward with stacking pressure to prevent leg from coming across face
-- **[[Standing up in Base]]** → [[Standing Guard]]
-  - When bottom practitioner's high guard control is momentarily loosened, immediately stand to break the high guard leg position
-- **[[Posture Recovery]]** → [[Closed Guard]]
-  - When bottom practitioner relaxes pulling pressure on head even slightly, drive weight back and pull head up to begin posture recovery
-- **[[Guard Pass]]** → [[Side Control]]
-  - When arm is successfully extracted and high guard is broken, immediately drive passing pressure before bottom practitioner can reestablish guard
 
 
 </section>
@@ -406,25 +347,39 @@ Partner establishes Mission Control. Top person practices standing to break cont
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Systematic Escape to Guard Pass
+## Test Your Knowledge
 
-`Mission Control Top → Posture Recovery → Closed Guard → Guard Opening Sequence → Combat Base → Guard Pass → Side Control`
+**Q1**: What is the proper weight distribution to maintain when trapped in Mission Control to avoid strengthening the bottom player's control?
+**A**: Distribute weight evenly between both arms rather than loading onto the trapped shoulder. Maintain some backward weight distribution to reduce the mechanical advantage the bottom practitioner gains from shoulder loading, but don't pull so far back that you lose all forward pressure needed for eventual escape. The goal is to minimize the 'cooking' effect while maintaining enough connection to work systematic escapes.
 
-### Standing Escape to Passing
+**Q2**: Your opponent begins bringing their leg across your face to complete a triangle - what is your immediate defensive response?
+**A**: Immediately drive weight forward with stacking pressure to prevent the leg from crossing your face completely. Simultaneously turn your head toward the trapped arm side to create space and make it harder for them to lock the triangle. If the leg is already partially across, tuck your chin and begin working to create an angle by circling toward the trapped arm side while maintaining your base.
 
-`Mission Control Top → Standing up in Base → Standing Guard → Guard Pass → Side Control`
+**Q3**: What are the essential grips you must fight to prevent the bottom player from maintaining Mission Control?
+**A**: The primary grip to fight is head control - use your free hand constantly to strip grips, create distance, and prevent deep collar ties or head locks on your neck. Secondary is the grip controlling your trapped arm's wrist or sleeve. If they achieve deep two-handed head control, submission entries become nearly indefensible and escape becomes almost impossible.
 
-### Stack Defense to Headquarters
+**Q4**: Why is explosive posturing up a critical error when defending Mission Control?
+**A**: Sudden explosive posturing creates the exact movement pattern that allows the bottom practitioner to complete the triangle lock - your upward movement actually helps them get their leg across your face. The explosive motion also telegraphs your intention, allowing them to time their attack. Additionally, failed explosive attempts waste energy and often create worse angles for the bottom player's submissions.
 
-`Mission Control Top → Stack Defense → Headquarters Position → Guard Pass → Side Control`
+**Q5**: How should you approach energy management when trapped in Mission Control for an extended period?
+**A**: Accept the temporary discomfort and work systematically through escape phases using technical precision rather than athleticism. Panicking and explosive escape attempts accelerate energy expenditure without improving the situation. The position naturally deteriorates as the bottom player's hip flexibility and grip endurance fade - extend the battle past their sustainable timeframe while conserving your energy for the decisive escape moment.
+
+**Q6**: Your opponent's hip elevation momentarily drops - what opportunity does this create and how do you capitalize?
+**A**: Dropping hip elevation weakens the entire Mission Control structure. Immediately drive weight slightly back while lifting your head to begin posture recovery. Use this window to fight their head control grips and create small progressive improvements in your posture angle. Alternatively, if their grip control also relaxes, this is the optimal moment to stand up explosively and break the high guard leg position entirely.
+
+**Q7**: What base adjustments should you maintain throughout the entire defensive sequence to prevent sweeps?
+**A**: Widen your knees and distribute weight evenly to create a stable triangular base. The bottom practitioner will attempt hip bump sweeps and other reversals when their submission attacks are defended, so you must defend both threats simultaneously. Avoid bringing your knees together or shifting weight too far in any single direction, as this creates the instability they need to execute sweeps.
+
+**Q8**: After successfully extracting your trapped arm, what should be your immediate next action?
+**A**: Immediately drive passing pressure before the bottom practitioner can reestablish guard or transition to another rubber guard control. The moment of arm extraction is when they are most vulnerable - their control structure is broken and they need time to reset. Drive toward side control or immediately stand to combat base, maintaining forward pressure to prevent guard recovery.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -453,7 +408,7 @@ Partner establishes Mission Control. Top person practices standing to break cont
 - **[[Standing Guard]]** - Alternative escape - standing can break high guard control
 - **[[Side Control]]** - Passing destination - successful escape often leads directly to passing opportunity
 - **[[New York]]** - Advanced threat - bottom practitioner may transition to this when initial Mission Control is defended
-- **[[Guard Passing Principles]]** - Conceptual framework - systematic passing approach applies after escaping Mission Control
+- **[[Combat Base]]** - Escape destination - stable position for initiating guard passing after escape
 
 
 </section>

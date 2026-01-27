@@ -266,6 +266,31 @@
       "question": "What role does pinching your knees together play in the armbar, and what happens if your knees are too far apart?",
       "answer": "Pinching your knees together creates a scissor-like trap that isolates opponent's shoulder and prevents them from extracting their arm back through your legs. The knee pinch controls both their head (preventing them from sitting up or turning) and their shoulder (preventing rotation). If your knees are spread apart, opponent can pull their arm back through the gap between your legs, rotate their body to relieve pressure on the elbow, or turn into you to stack and defend. The knee pinch must be maintained constantly throughout the submission—it's as critical as the wrist control.",
       "safety_critical": false
+    },
+    {
+      "question": "Your opponent begins to stack you during an armbar attempt—what immediate adjustment prevents losing the submission?",
+      "answer": "When opponent begins stacking, first keep your finishing leg heavy across their face or neck to create a barrier. If stacking continues, immediately shrimp your hips out to the side (away from their stacking direction) to relieve the pressure and create a new angle. This hip escape reestablishes your perpendicular position relative to their body. Alternatively, if they commit fully to the stack, you can roll through with them into a belly-down armbar position where their forward momentum works against them, driving their face into the mat while you maintain arm control and finish from the new angle.",
+      "safety_critical": false
+    },
+    {
+      "question": "What specific anatomical structure does the armbar attack, and why is controlled application critical for safety?",
+      "answer": "The armbar attacks the elbow joint, specifically hyperextending it beyond its natural range of motion. The elbow is a hinge joint with limited rotational capability and is surrounded by the ulnar collateral ligament (UCL), radial collateral ligament, and the bicep tendon insertion. Controlled application is critical because the elbow can be damaged very quickly—ligament tears, dislocations, and fractures can occur in fractions of a second if excessive force is applied explosively. The joint provides minimal warning before catastrophic failure, making slow, progressive pressure essential for partner safety in training.",
+      "safety_critical": true
+    },
+    {
+      "question": "When is an armbar considered fully locked and past the point of escape for a competent opponent?",
+      "answer": "An armbar is fully locked when all control elements converge: your hips are tight to their shoulder with no gap, their wrist is secured high on your chest with thumb up, your knees are pinched together controlling their shoulder and head, your body is perpendicular to theirs, and you have begun hip elevation. The point of no escape occurs when you eliminate all space around the wrist and elbow while your legs prevent any rotational escape. A competent opponent recognizes this moment and taps before hip elevation applies significant pressure—continuing to fight after full lockdown risks injury.",
+      "safety_critical": false
+    },
+    {
+      "question": "How do you adjust your grip when opponent's arm is slippery from sweat during a no-gi armbar finish?",
+      "answer": "In no-gi or when the arm is slippery, use a figure-four grip (Kimura grip) around the wrist for maximum security—your hand grabs your own wrist while cradling their wrist against your chest. This interlocked grip prevents slippage even with heavy perspiration. Additionally, squeeze your elbows extremely tight to your ribs, creating a locked cradle that uses bone structure rather than grip strength alone. Some practitioners also hook their chin over their own forearm to add an additional anchor point, creating multiple redundant controls against slippage.",
+      "safety_critical": false
+    },
+    {
+      "question": "What are the key indicators that you have achieved optimal finishing position before applying hip pressure?",
+      "answer": "Optimal finishing position indicators include: (1) zero space between your hip and their shoulder—you should feel their deltoid pressing against your hip bone, (2) their wrist secured high on your sternum with thumb pointing ceiling-ward, (3) your knees squeezed together with calves controlling their head and far shoulder, (4) your spine perpendicular to their centerline forming a clear T-shape, (5) their arm completely straight across your hip line with elbow joint centered over your pelvis, and (6) base leg posted for stability. When all six checkpoints are confirmed, only then should you begin gradual hip elevation.",
+      "safety_critical": false
     }
   ],
   "training_progressions_and_safety_protocols": [
@@ -330,65 +355,63 @@
     "Kimura",
     "Armbar from Mount",
     "Armbar from Guard",
-    "Triangle from Guard",
-    "Rolling Armbar",
-    "Flying Armbar",
     "Belly Down Armbar",
     "Far Side Armbar",
-    "Spinning Armbar",
-    "Reverse Armbar",
     "Armbar from Side Control",
     "Armbar from Back",
-    "Triangle from Mount"
+    "Armbar from Back with Legs",
+    "Armbar from Crucifix",
+    "Flying Armbar",
+    "Armbar Finish"
   ],
   "related_content": [
     {
-      "name": "Mount to Armbar",
-      "relationship": "Primary transition sequence from mount position to armbar finish"
+      "name": "Triangle Choke",
+      "relationship": "Primary chain submission when opponent defends armbar by clasping hands"
     },
     {
-      "name": "Triangle to Armbar",
-      "relationship": "Common submission chain when triangle is defended"
+      "name": "Omoplata",
+      "relationship": "Alternative shoulder attack accessible from same guard positions"
     },
     {
-      "name": "Triangle Setup",
-      "relationship": "Alternative submission from similar control positions"
+      "name": "Kimura",
+      "relationship": "Complementary shoulder lock that chains with armbar attacks"
     },
     {
-      "name": "Submission Chains",
-      "relationship": "Strategic principle of linking armbars with other submissions"
+      "name": "Mount",
+      "relationship": "Primary position for high-percentage armbar setups"
     },
     {
-      "name": "Submission Control Position",
-      "relationship": "Fundamental principle emphasizing position before submission"
+      "name": "Closed Guard",
+      "relationship": "Fundamental position for learning armbar mechanics"
     },
     {
-      "name": "Leverage Principles",
-      "relationship": "Biomechanical concepts underlying armbar effectiveness"
+      "name": "S Mount",
+      "relationship": "Advanced mount variation optimized for armbar entry"
     },
     {
-      "name": "Hip Movement",
-      "relationship": "Essential principle for generating finishing force in armbars"
+      "name": "Armbar Control",
+      "relationship": "Control position for finishing the armbar submission"
     },
     {
-      "name": "Positional Hierarchy",
-      "relationship": "Framework for understanding when to attempt armbars vs. maintain position"
+      "name": "Triangle Control",
+      "relationship": "Position that chains directly with armbar when triangle is defended"
     },
     {
-      "name": "Omoplata to Sweep",
-      "relationship": "Alternative attack when armbar is defended by opponent rolling"
-    },
-    {
-      "name": "Guard Pass",
-      "relationship": "Opponent's counter-strategy that creates armbar opportunities"
+      "name": "Back Control",
+      "relationship": "Dominant position offering spinning armbar opportunities"
     },
     {
       "name": "Crucifix",
-      "relationship": "Alternative control position with armbar finishing options"
+      "relationship": "Control position with unique armbar finishing angle"
     },
     {
       "name": "North-South",
-      "relationship": "Position with specific armbar variations and entries"
+      "relationship": "Position offering north-south armbar variation"
+    },
+    {
+      "name": "High Mount",
+      "relationship": "Elevated mount position facilitating arm isolation for armbar"
     }
   ]
 }

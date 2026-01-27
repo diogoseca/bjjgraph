@@ -21,37 +21,37 @@ description: "Defensive concepts and escape strategies from Gift Wrap bottom pos
     {
       "@type": "HowToStep",
       "name": "Execute Gift Wrap Arm Recovery",
-      "text": "From this position, execute Gift Wrap Arm Recovery to transition to Back Control. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Gift Wrap Arm Recovery. This technique is attempted in 17% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Guard",
-      "text": "From this position, execute Hip Escape to Guard to transition to Half Guard. Success rate for advanced practitioners: 40%.",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 14% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Roll to Turtle",
-      "text": "From this position, execute Roll to Turtle to transition to Turtle. Success rate for advanced practitioners: 45%.",
+      "text": "From this position, attempt Roll to Turtle. This technique is attempted in 16% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Technical Stand Up",
-      "text": "From this position, execute Technical Stand Up to transition to Standing Position. Success rate for advanced practitioners: 35%.",
+      "text": "From this position, attempt Technical Stand Up. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Counter Roll to Top",
-      "text": "From this position, execute Counter Roll to Top to transition to Side Control. Success rate for advanced practitioners: 25%.",
+      "text": "From this position, attempt Counter Roll to Top. This technique is attempted in 9% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Granby Roll Escape",
-      "text": "From this position, execute Granby Roll Escape to transition to Open Guard. Success rate for advanced practitioners: 35%.",
+      "text": "From this position, attempt Granby Roll Escape. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -215,85 +215,20 @@ From a training perspective, Gift Wrap Bottom should be practiced extensively be
 
 ## Available Escapes
 
-### [[Gift Wrap Arm Recovery]] → [[Back Control]]
+### [[Gift Wrap Arm Recovery]] (17% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
+### [[Hip Escape to Guard]] (14% of attempts)
 
-### [[Hip Escape to Guard]] → [[Half Guard]]
+### [[Roll to Turtle]] (16% of attempts)
 
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 25%
-- Advanced: 40%
+### [[Technical Stand Up]] (12% of attempts)
 
-### [[Roll to Turtle]] → [[Turtle]]
+### [[Counter Roll to Top]] (9% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 35%
-- Advanced: 45%
+### [[Granby Roll Escape]] (12% of attempts)
 
-### [[Technical Stand Up]] → [[Standing Position]]
+### [[Submission Escape Protocol]] (20% of attempts)
 
-**Success Rates:**
-- Beginner: 10%
-- Intermediate: 20%
-- Advanced: 35%
-
-### [[Counter Roll to Top]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 5%
-- Intermediate: 15%
-- Advanced: 25%
-
-### [[Granby Roll Escape]] → [[Open Guard]]
-
-**Success Rates:**
-- Beginner: 10%
-- Intermediate: 20%
-- Advanced: 35%
-
-### [[Submission Escape Protocol]] → [[Defensive Position]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Rear Naked Choke]]** → [[Lost by Submission]] (Opponent Success: 45%)
-- **[[Armbar on Free Arm]]** → [[Armbar Control]] (Opponent Success: 35%)
-- **[[Transition to Crucifix]]** → [[Crucifix]] (Opponent Success: 40%)
-- **[[Transition to Mount]]** → [[Mount]] (Opponent Success: 35%)
-- **[[Body Triangle Lock]]** → [[Body Triangle]] (Opponent Success: 30%)
-- **[[Short Choke Application]]** → [[Lost by Submission]] (Opponent Success: 25%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Immediate Chin Tuck Defense]]** → [[Defensive Position]]
-  - Opponent attacks neck for rear naked choke
-- **[[Arm Drag Counter]]** → [[Guard Recovery]]
-  - Opponent loosens grip to adjust position
-- **[[Bridge and Roll Escape]]** → [[Turtle]]
-  - Opponent shifts weight forward for mounted position
-- **[[Free Arm Frame Creation]]** → [[Half Guard]]
-  - Opponent attempts to flatten defender's body
 
 
 </section>
@@ -303,9 +238,9 @@ From a training perspective, Gift Wrap Bottom should be practiced extensively be
 ## Decision Making from This Position
 
 **If opponent is actively attacking rear naked choke with choking arm deep:**
-- Execute **[[Two-on-One Hand Defense]]** → [[Defensive Position]] (Probability: 40%)
-- Execute **[[Chin Tuck and Turn]]** → [[Defensive Position]] (Probability: 35%)
-- Execute **[[Accept submission]]** → [[Lost by Submission]] (Probability: 25%)
+- Execute **[[Two-on-One Hand Defense]]** → [[Gift Wrap]] (Probability: 40%)
+- Execute **[[Chin Tuck and Turn]]** → [[Gift Wrap]] (Probability: 35%)
+- Execute **[[Accept submission]]** → [[game-over]] (Probability: 25%)
 
 
 **If opponent is consolidating Gift Wrap control without immediate submission attack:**
@@ -321,7 +256,7 @@ From a training perspective, Gift Wrap Bottom should be practiced extensively be
 
 
 **If opponent is isolating free arm for armbar attack:**
-- Execute **[[Defensive Arm Retraction]]** → [[Defensive Position]] (Probability: 35%)
+- Execute **[[Defensive Arm Retraction]]** → [[Gift Wrap]] (Probability: 35%)
 - Execute **[[Roll Through Armbar]]** → [[Turtle]] (Probability: 25%)
 - Execute **[[Accept armbar position]]** → [[Armbar Control]] (Probability: 40%)
 
@@ -404,25 +339,39 @@ Start each round from Gift Wrap Bottom position. Defender's goal is to escape to
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Escape to Guard Recovery
+## Test Your Knowledge
 
-`Gift Wrap Bottom → Defensive Position (neck protected) → Back Control (arm recovered) → Half Guard (hip escape) → Open Guard`
+**Q1**: What is the correct priority sequence when defending from Gift Wrap Bottom?
+**A**: The priority sequence is: first, prevent immediate submissions (especially the rear naked choke) by protecting the neck with your free hand; second, work to recover the trapped arm to restore defensive capability; third, address the back position through hip escapes or guard recovery. Attempting these out of order typically results in submission or position advancement by the attacker.
 
-### Emergency Turtle Conversion
+**Q2**: Your opponent begins attacking the rear naked choke with their arm already under your chin - what is your immediate response?
+**A**: Immediately use your free hand to grip fight the choking arm, pulling it down and away from your neck while simultaneously tucking your chin hard toward your chest. Turn your body slightly toward the choking arm side to reduce the angle. Do not waste time on arm recovery when a choke is imminent - defend the choke first, then address the position.
 
-`Gift Wrap Bottom → Roll to Turtle (explosive bridge) → Turtle → Guard Recovery`
+**Q3**: What is the proper technique for recovering the trapped arm in Gift Wrap?
+**A**: Keep the trapped arm relaxed rather than pushing against the control. Use your hips and shoulder movement to create rotational space. The key mechanics involve rotating your trapped shoulder forward while shrimping your hips in the same direction. This creates an angle that allows you to withdraw the arm along the path of least resistance. Timing the recovery when opponent shifts for a submission attempt often creates the necessary space.
 
-### Standing Escape Sequence
+**Q4**: Why is staying on your side critical for escaping Gift Wrap Bottom?
+**A**: Staying on your side maintains hip mobility, which is essential for shrimping and creating escape angles. When you flatten onto your back, you lose the ability to effectively shrimp, your hips become pinned, and the opponent's control becomes significantly stronger. Side positioning also reduces the effectiveness of certain chokes and maintains better structural defense against submission attempts.
 
-`Gift Wrap Bottom → Hip Escape (create space) → Technical Stand Up → Standing Position → Guard Pull`
+**Q5**: Your opponent starts transitioning toward mount while maintaining the Gift Wrap - how should you respond?
+**A**: As they shift toward mount, use this weight transfer to bridge and create hip movement. Shrimp your hips away from the direction they are moving and try to insert a knee or shin as a frame. The mount transition momentarily reduces their back control pressure, creating an escape window. Time your hip escape to coincide with their weight shift rather than fighting against settled control.
+
+**Q6**: How do you prevent exhausting yourself while defending Gift Wrap Bottom?
+**A**: Keep your trapped arm completely relaxed instead of constantly fighting against the control. Focus on using hip movement and body positioning rather than arm strength. Wait for your opponent to attack or adjust before attempting explosive escapes. Maintain steady breathing and conserve energy for properly timed escape attempts rather than continuous struggling that accomplishes nothing.
+
+**Q7**: What common mistake leads defenders to get submitted while focusing on arm recovery?
+**A**: The most common mistake is neglecting neck defense while prioritizing arm recovery. When defenders focus entirely on freeing the trapped arm, they often remove their free hand from neck protection, creating an immediate rear naked choke opportunity. The attacker expects this mistake and waits for the opening. Always maintain neck defense with the free hand while using hip and shoulder mechanics for arm recovery.
+
+**Q8**: Your opponent is attacking your free arm for an armbar - what is your defensive protocol?
+**A**: Immediately retract the free arm close to your body, keeping the elbow tight to your ribs. Turn toward the arm being attacked to reduce extension angles. If they begin isolating the arm, you may need to accept giving up the arm momentarily to roll through the armbar attempt, using the rotation to potentially escape to turtle. Never fully extend the free arm or you lose your last defensive tool.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 

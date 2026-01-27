@@ -11,8 +11,6 @@
     "passing",
     "leg entanglement"
   ],
-  "starting_position": "Headquarters Position",
-  "ending_position": "Kneebar Control",
   "success_rates": {
     "beginner": 30,
     "intermediate": 45,
@@ -282,6 +280,24 @@
     {
       "name": "Straight Ankle Lock",
       "relationship": "Alternative leg submission when kneebar control is established but finishing angle is compromised"
+    }
+  ],
+  "from_position": "Headquarters Position/Top",
+  "outcomes": [
+    {
+      "to": "Kneebar Control/Top",
+      "probability": 60,
+      "result": "success"
+    },
+    {
+      "to": "Headquarters Position/Top",
+      "probability": 30,
+      "result": "failure"
+    },
+    {
+      "to": "Headquarters Position/Bottom",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

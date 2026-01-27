@@ -261,6 +261,31 @@
       "question": "Why is it critical to control opponent's defensive grips before fully committing to the kneebar entry?",
       "answer": "If opponent has strong defensive grips locked on their own leg (grabbing their knee or shin), attempting to force the kneebar entry against these grips wastes significant energy and time while allowing opponent to defend effectively. More importantly, fighting against their defensive grips often leaves you vulnerable to guard passes as you exhaust yourself in the struggle. It is far more efficient to break their defensive grips first using two-on-one grip breaks, or to threaten sweeps and back takes that force them to release their defensive grip and post their hands for base, creating the opening for clean kneebar entry.",
       "safety_critical": false
+    },
+    {
+      "question": "Your opponent begins posturing up to escape - what immediate adjustment secures the finish?",
+      "answer": "When opponent starts posturing up, immediately increase pressure with your free leg against their chest or shoulder to push them back down while simultaneously tightening your heel grip and scooting your hips further away from their body. If they continue to rise, angle your body more perpendicular and use the leg triangle squeeze to maintain control of their trapped leg. The combination of upper body frame and tightened hip angle creates a structure they cannot posture through. If they successfully achieve upright posture despite these adjustments, transition immediately to a sweep or back take rather than forcing a compromised finish.",
+      "safety_critical": false
+    },
+    {
+      "question": "What anatomical structure does the kneebar primarily attack, and what is the mechanism of injury?",
+      "answer": "The kneebar primarily attacks the posterior cruciate ligament (PCL) through hyperextension of the knee joint. The mechanism involves positioning the fulcrum point (your hip or lower abdomen) just above the patella while controlling the heel, then extending your hips to create a lever that forces the knee beyond its natural range of extension. Secondary structures at risk include the medial and lateral collateral ligaments, which resist valgus and varus stress respectively, and the menisci, which can tear under rotational or compressive forces if the heel is not properly controlled during application.",
+      "safety_critical": true
+    },
+    {
+      "question": "At what point during the kneebar application is there no escape for your opponent?",
+      "answer": "The point of no escape occurs when you have achieved three simultaneous conditions: perpendicular hip positioning with your fulcrum directly above their kneecap, a locked figure-four leg triangle preventing leg extraction, and tight heel control eliminating all space between their heel and your chest. Once these three elements are secured and you begin hip extension, the mechanical advantage is overwhelming and escape becomes nearly impossible without significant injury risk. Prior to achieving all three conditions, various escapes remain available including sitting up, grip fighting, rotating the trapped leg, or stepping over with the free leg.",
+      "safety_critical": false
+    },
+    {
+      "question": "What grip adjustments should you make if opponent attempts to rotate their heel during the finish?",
+      "answer": "If opponent attempts heel rotation, immediately reinforce your grip by bringing both elbows tight to your body while cupping their heel with overlapping hands in a prayer grip. Pull their heel deeper into your armpit area rather than holding it at chest level, which provides more rotational stability. Angle their toes directly away from you and use your forearms to create a rigid cage around the heel that prevents any rotation. If rotation begins despite these measures, immediately release finishing pressure as continued pressure with rotation dramatically increases ACL injury risk in addition to PCL damage.",
+      "safety_critical": true
+    },
+    {
+      "question": "How do you recognize when the kneebar position quality is insufficient for a safe finish in competition?",
+      "answer": "Position quality is insufficient when any of these indicators are present: your hips are not fully perpendicular to their leg creating an acute rather than right angle, space exists between their heel and your chest allowing potential extraction, your leg triangle is loose or opponent's thigh is not fully trapped, opponent has defensive grips on their own leg that you cannot break, or opponent has successfully stepped their free leg over your head establishing a defensive hook. When these conditions exist, forcing the finish risks both escape and potential counter-attack. Transition to sweeps or alternative submissions rather than committing to a low-percentage finish.",
+      "safety_critical": false
     }
   ],
   "training_progressions_and_safety_protocols": [
@@ -322,17 +347,15 @@
   "related_submissions": [
     "Kneebar Finish",
     "Kneebar Variations",
-    "Kneebar from 50-50",
-    "Kneebar from Half Guard",
-    "Kneebar from Top",
     "Heel Hook",
+    "Heel Hook Dilemma",
     "Straight Ankle Lock",
     "Toe Hold",
+    "Toe Hold Variations",
     "Triangle Choke",
     "Armbar from Guard",
-    "Omoplata from Guard",
-    "Triangle from Guard",
-    "Triangle from Closed Guard"
+    "Omoplata",
+    "Calf Slicer"
   ],
   "related_content": [
     {
@@ -340,20 +363,12 @@
       "relationship": "Natural transition position that shares similar leg isolation mechanics"
     },
     {
-      "name": "X-Guard to Ashi Transition",
-      "relationship": "Alternative leg entanglement entry that can lead to kneebar opportunities"
-    },
-    {
       "name": "Ashi Garami",
-      "relationship": "Understanding escapes helps recognize defensive patterns to counter"
+      "relationship": "Fundamental leg entanglement position with similar control mechanics"
     },
     {
-      "name": "De La Riva to X-Guard Transition",
-      "relationship": "Common sweep chain that can convert to kneebar attacks"
-    },
-    {
-      "name": "Craig Jones Leg Lock System",
-      "relationship": "Modern competitive approach emphasizing kneebar from guard positions"
+      "name": "Kneebar Control",
+      "relationship": "Finishing position achieved when kneebar is secured from guard"
     },
     {
       "name": "Leg Entanglement",
@@ -370,6 +385,14 @@
     {
       "name": "Reverse X-Guard",
       "relationship": "Alternative guard position that can transition to kneebar attacks"
+    },
+    {
+      "name": "X-Guard",
+      "relationship": "Common transition when opponent defends kneebar by standing"
+    },
+    {
+      "name": "De La Riva Guard",
+      "relationship": "Primary entry guard for kneebar attacks against standing opponents"
     }
   ]
 }

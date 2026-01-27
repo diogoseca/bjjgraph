@@ -11,8 +11,6 @@
     "attack",
     "position-reversal"
   ],
-  "starting_position": "Omoplata Control",
-  "ending_position": "Mount",
   "success_rates": {
     "beginner": 30,
     "intermediate": 50,
@@ -271,6 +269,24 @@
     {
       "name": "Technical Mount",
       "relationship": "Advanced finishing position maintaining submission threats"
+    }
+  ],
+  "from_position": "Omoplata Control/Top",
+  "outcomes": [
+    {
+      "to": "Mount/Top",
+      "probability": 70,
+      "result": "success"
+    },
+    {
+      "to": "Omoplata Control/Top",
+      "probability": 20,
+      "result": "failure"
+    },
+    {
+      "to": "Omoplata Control/Bottom",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

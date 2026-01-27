@@ -9,8 +9,6 @@
     "ashi garami",
     "leg locks"
   ],
-  "starting_position": "Ashi Garami",
-  "ending_position": "Standing Position",
   "success_rates": {
     "beginner": 30,
     "intermediate": 50,
@@ -275,6 +273,24 @@
     {
       "name": "Single Leg X-Guard",
       "relationship": "Related Position - Guard with similar leg control principles"
+    }
+  ],
+  "from_position": "Ashi Garami/Top",
+  "outcomes": [
+    {
+      "to": "Standing Position/Top",
+      "probability": 70,
+      "result": "success"
+    },
+    {
+      "to": "Ashi Garami/Top",
+      "probability": 20,
+      "result": "failure"
+    },
+    {
+      "to": "Ashi Garami/Bottom",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

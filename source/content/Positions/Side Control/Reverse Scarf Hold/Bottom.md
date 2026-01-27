@@ -21,37 +21,37 @@ description: "Master defensive strategies and systematic escapes from Reverse Sc
     {
       "@type": "HowToStep",
       "name": "Execute Elbow Escape",
-      "text": "From this position, execute Elbow Escape to transition to Half Guard. Success rate for advanced practitioners: 45%.",
+      "text": "From this position, attempt Elbow Escape. This technique is attempted in 20% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bridge and Roll",
-      "text": "From this position, execute Bridge and Roll to transition to Reverse Scarf Hold Top. Success rate for advanced practitioners: 35%.",
+      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 15% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape",
-      "text": "From this position, execute Hip Escape to transition to Open Guard. Success rate for advanced practitioners: 40%.",
+      "text": "From this position, attempt Hip Escape. This technique is attempted in 17% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Frame and Shrimp",
-      "text": "From this position, execute Frame and Shrimp to transition to Closed Guard. Success rate for advanced practitioners: 38%.",
+      "text": "From this position, attempt Frame and Shrimp. This technique is attempted in 17% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Technical Standup",
-      "text": "From this position, execute Technical Standup to transition to Standing Position. Success rate for advanced practitioners: 30%.",
+      "text": "From this position, attempt Technical Standup. This technique is attempted in 13% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Shrimp Escape",
-      "text": "From this position, execute Shrimp Escape to transition to Open Guard. Success rate for advanced practitioners: 42%.",
+      "text": "From this position, attempt Shrimp Escape. This technique is attempted in 18% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -213,77 +213,18 @@ Success in this position requires prioritizing survival first, then creating fra
 
 ## Available Escapes
 
-### [[Elbow Escape]] → [[Half Guard]]
+### [[Elbow Escape]] (20% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 35%
-- Advanced: 45%
+### [[Bridge and Roll]] (15% of attempts)
 
-### [[Bridge and Roll]] → [[Reverse Scarf Hold Top]]
+### [[Hip Escape]] (17% of attempts)
 
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 25%
-- Advanced: 35%
+### [[Frame and Shrimp]] (17% of attempts)
 
-### [[Hip Escape]] → [[Open Guard]]
+### [[Technical Standup]] (13% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 30%
-- Advanced: 40%
+### [[Shrimp Escape]] (18% of attempts)
 
-### [[Frame and Shrimp]] → [[Closed Guard]]
-
-**Success Rates:**
-- Beginner: 18%
-- Intermediate: 28%
-- Advanced: 38%
-
-### [[Technical Standup]] → [[Standing Position]]
-
-**Success Rates:**
-- Beginner: 12%
-- Intermediate: 20%
-- Advanced: 30%
-
-### [[Shrimp Escape]] → [[Open Guard]]
-
-**Success Rates:**
-- Beginner: 22%
-- Intermediate: 32%
-- Advanced: 42%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Americana from Side Control]]** → [[Americana Control]] (Opponent Success: 45%)
-- **[[Kimura from Side Control]]** → [[Kimura Control]] (Opponent Success: 40%)
-- **[[Transition to Mount]]** → [[Mount]] (Opponent Success: 50%)
-- **[[Transition to North-South]]** → [[North-South]] (Opponent Success: 35%)
-- **[[Straight Armbar]]** → [[Armbar Control]] (Opponent Success: 30%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Kimura Defense]]** → [[Half Guard]]
-  - Opponent attempts kimura grip on near arm
-- **[[Re-Guard]]** → [[Closed Guard]]
-  - Opponent lifts weight to advance toward mount
-- **[[Bridge and Roll]]** → [[Reverse Scarf Hold Top]]
-  - Opponent reaches far for submission or loses base
-- **[[Guard Replacement]]** → [[Open Guard]]
-  - Opponent transitions to north-south creating space
 
 
 </section>
@@ -293,22 +234,22 @@ Success in this position requires prioritizing survival first, then creating fra
 ## Decision Making from This Position
 
 **If opponent maintains heavy chest pressure without attempting submissions:**
-- Execute **[[Frame Creation]]** → [[Defensive Position]] (Probability: 70%)
+- Execute **[[Frame Creation]]** → [[Half Guard]] (Probability: 70%)
 - Execute **[[Hip Escape]]** → [[Half Guard]] (Probability: 60%)
 
 
 **If opponent isolates near-side arm for kimura or americana:**
-- Execute **[[Kimura Defense]]** → [[Defensive Position]] (Probability: 55%)
-- Execute **[[Bridge and Roll]]** → [[Reverse Scarf Hold Top]] (Probability: 40%)
+- Execute **[[Kimura Defense]]** → [[Half Guard]] (Probability: 55%)
+- Execute **[[Bridge and Roll]]** → [[Reverse Scarf Hold]] (Probability: 40%)
 
 
 **If opponent attempts to advance to mount or north-south:**
-- Execute **[[Re-Guard]]** → [[Open Guard]] (Probability: 65%)
+- Execute **[[Guard Recovery]]** → [[Open Guard]] (Probability: 65%)
 - Execute **[[Elbow Escape]]** → [[Half Guard]] (Probability: 50%)
 
 
 **If opponent's base becomes compromised during transition attempts:**
-- Execute **[[Bridge and Roll]]** → [[Reverse Scarf Hold Top]] (Probability: 55%)
+- Execute **[[Bridge and Roll]]** → [[Reverse Scarf Hold]] (Probability: 55%)
 - Execute **[[Technical Standup]]** → [[Standing Position]] (Probability: 35%)
 
 
@@ -390,25 +331,39 @@ Top player creates windows of opportunity (reaching for submissions, adjusting p
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Highest percentage escape to safety
+## Test Your Knowledge
 
-`Reverse Scarf Hold Bottom → Frame Creation → Hip Escape → Half Guard → Guard Recovery`
+**Q1**: What is the first priority when you find yourself in Reverse Scarf Hold Bottom?
+**A**: The first priority is survival through breath control and protecting your near-side arm. Focus on diaphragmatic breathing despite chest compression to prevent panic. Immediately bring your near-side elbow tight to your ribs with your hand near your opposite shoulder to prevent arm isolation for kimura or americana attacks. Only after establishing defensive breathing and arm protection should you begin working on escape sequences.
 
-### Reversal path when opponent overcommits
+**Q2**: Your opponent starts isolating your near arm for a kimura - what is the immediate defensive response?
+**A**: When you feel the kimura grip being established, immediately turn your body toward the attacking arm (rotating your torso toward your trapped arm), which decreases the angle available for the submission. Simultaneously pull your elbow back toward your hip and try to straighten your arm while bridging to create space. If possible, grab your own belt, gi, or shorts to prevent arm separation. The key is addressing the attack immediately before they secure the figure-four grip.
 
-`Reverse Scarf Hold Bottom → Bridge and Roll → Reverse Scarf Hold Top → Transition to Mount`
+**Q3**: What are the essential frames for creating escape space from Reverse Scarf Hold Bottom?
+**A**: The primary frame is your far-side arm positioned against the opponent's neck, shoulder, or hip depending on their positioning. This frame should use skeletal structure (forearm perpendicular to their body) rather than pushing with muscle strength. Your near-side arm, when not defending submissions, can frame on their hip to prevent them from settling their weight further onto your chest. These frames create the space necessary for hip escape mechanics.
 
-### Standing escape path
+**Q4**: How do you shut down the opponent's primary advancement to mount?
+**A**: When you feel the opponent attempting to step over to mount, immediately turn your hips toward them and insert your near-side knee between your bodies as a shield. This knee insertion must happen before their leg clears your body. Simultaneously push on their hip with your far-side frame to create separation. If they begin the step-over, use that moment of weight shift to execute a hip escape toward their back, potentially recovering half guard or creating reversal opportunity.
 
-`Reverse Scarf Hold Bottom → Frame and Shrimp → Technical Standup → Standing Position → Guard Pull`
+**Q5**: What grip priority should you maintain when the opponent reaches for a submission attempt?
+**A**: When the opponent reaches for a submission, they temporarily compromise their base and weight distribution. Your priority is using this window to either defend the specific submission or initiate your escape. For arm attacks, immediately address the grip before it locks. For transitions, use their weight shift to bridge and create space. The key is recognizing that their attack attempt is your escape opportunity - maintain defensive arm position while capitalizing on their compromised base.
+
+**Q6**: Your opponent transitions toward north-south - what is the correct defensive response?
+**A**: As they begin moving toward north-south, their weight necessarily shifts off your chest, creating space. Immediately follow their movement with your hips by turning to face them and inserting your knees between your bodies. As they complete the transition, work to establish open guard frames before they can consolidate north-south control. The transition moment is often easier to escape than either stable position, so act immediately when you feel the weight shift.
+
+**Q7**: How do you manage energy expenditure while defending Reverse Scarf Hold?
+**A**: Energy management requires recognizing the difference between effective effort and wasted movement. Explosive bridging without setup is wasted energy. Pushing with arms against their weight is wasted energy. Effective effort includes controlled breathing, maintaining structural frames that don't require muscular effort, and timing explosive movements for when opponent's base is compromised. Accept that you may need to survive 30-60 seconds before an escape opportunity presents itself.
+
+**Q8**: What is the recovery sequence after you create space but fail to complete the escape?
+**A**: After creating space without completing the escape, immediately re-establish your defensive frames before the opponent can recapture full control. Reset your near-side arm to protected position (elbow tight, hand near opposite shoulder). Re-establish your far-side frame against their neck or shoulder. Use the remaining space to adjust your hip angle for the next escape attempt. Don't abandon frames to immediately attempt another escape - reset your defensive structure first, then look for the next opportunity.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -429,18 +384,16 @@ Top player creates windows of opportunity (reaching for submissions, adjusting p
 
 ## Related Positions and Techniques
 
-- **[[Reverse Scarf Hold Top]]** - Sibling variant - opposite perspective of same position
-- **[[Reverse Kesa-Gatame]]** - Parent position - base variant
+- **[[Reverse Scarf Hold]]** - Parent position - hub page for this variant
+- **[[Reverse Kesa-Gatame]]** - Alternative name - judo terminology for same position
 - **[[Kesa Gatame]]** - Similar defensive position with traditional scarf hold orientation
 - **[[Side Control]]** - Related defensive position with similar escape principles
 - **[[Scarf Hold Position]]** - Related position with traditional forward-facing scarf hold
-- **[[Escape Fundamentals]]** - Core concept governing all escape techniques from pins
-- **[[Frame Creation]]** - Essential defensive concept for creating space under pressure
-- **[[Hip Escape Mechanics]]** - Technical concept underlying shrimping and space creation
 - **[[Elbow Escape]]** - Primary escape transition from bottom pins
 - **[[Bridge and Roll]]** - Reversal transition when opponent's base is compromised
-- **[[Kimura Defense]]** - Critical defensive skill against common attack from this position
-- **[[Pin Escape Methodology]]** - Systematic approach to escaping all pinning positions
+- **[[Half Guard]]** - Common recovery position after successful escape
+- **[[Closed Guard]]** - Full guard recovery position after complete escape
+- **[[Open Guard]]** - Alternative guard recovery when closed guard unavailable
 
 
 </section>

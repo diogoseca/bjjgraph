@@ -62,7 +62,7 @@ Understanding double unders from both perspectives is essential for developing c
 | **Energy Cost** | High | Medium |
 | **Time** | Short | Medium |
 
-**Key Difference:** Bilateral underhook control for pressure
+**Key Difference:** Bilateral underhook control for pressure passing
 
 
 
@@ -80,71 +80,63 @@ Understanding double unders from both perspectives is essential for developing c
 
 - Create frames immediately - elbows inside, forearms against opponent's face/neck to generate any available space
 
-- Prevent chest-to-chest contact by maintaining distance with frames or hip positioning, even inches matter
+- Prevent complete stacking by maintaining hip mobility and turning to one side when possible
 
-- Keep hips mobile and active - shrimping, bridging, turning to prevent being flattened completely
+- Keep hips mobile and active - shrimping, bridging, turning to prevent being completely flattened
 
-- Fight to recover at least one underhook to break bilateral control and restore defensive structure
+- Fight to get one leg free to create butterfly hook or knee shield for guard recovery
 
 - Use opponent's forward pressure against them - granby rolls and deep half entries work with their momentum
 
-- Protect your back from taking the mat - once flattened, escape difficulty increases exponentially
+- Protect your spine from excessive compression - turn to side rather than accepting full stack
 
 - Accept strategic transitions when necessary - moving to deep half or turtle may be better than being crushed flat
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Deep Half Entry]]** → [[Deep Half Guard]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Deep Half Entry]]** (25% of attempts)
 
-- **[[Granby Roll]]** → [[Turtle]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Granby Roll]]** (20% of attempts)
 
-- **[[Butterfly Hook Recovery]]** → [[Butterfly Guard]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Butterfly Hook Recovery]]** (18% of attempts)
 
-- **[[Frame and Shrimp]]** → [[Half Guard]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Hip Escape]]** (22% of attempts)
 
-- **[[Underhook Recovery]]** → [[Underhook Battle]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
-
-- **[[Hip Escape]]** → [[Open Guard]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Shin to Shin Pull]]** (15% of attempts)
 
 
 ### Common Mistakes
 
 
-- ❌ **Accepting both underhooks passively without immediate frame creation response**
-  - Consequence: Allows opponent to consolidate double underhook control, flatten your back to the mat, and complete the pass with minimal resistance
-  - ✅ Correction: Fight frames immediately - get elbows inside, forearms on face/neck, create any space possible before being flattened completely
+- ❌ **Accepting flat back position without immediate frame creation response**
+  - Consequence: Allows opponent to consolidate double underhook control, stack your hips completely, and complete the pass with minimal resistance
+  - ✅ Correction: Fight frames immediately - get elbows inside, forearms on face/neck, create any space possible before being stacked completely
 
-- ❌ **Keeping hips flat and static on the mat without active movement**
-  - Consequence: Opponent easily flattens you completely, removes all guard retention options, and passes directly to side control or mount
-  - ✅ Correction: Keep hips mobile constantly - shrimp, bridge, turn to sides, prevent static flattening at all costs through continuous movement
+- ❌ **Keeping hips flat and static on the mat without turning to either side**
+  - Consequence: Opponent easily stacks you completely, removes all guard retention options, and passes directly to side control or mount
+  - ✅ Correction: Keep hips angled to one side constantly - this preserves deep half entry on one side and granby option on the other
 
-- ❌ **Fighting both underhooks equally instead of focusing on recovering one strategically**
-  - Consequence: Wastes energy fighting bilateral control symmetrically while opponent maintains dominant position and advances pass
-  - ✅ Correction: Focus energy on recovering one underhook first - breaking bilateral control is more important than perfect frames on both sides
+- ❌ **Fighting the stacking pressure by pushing against chest rather than redirecting**
+  - Consequence: Wastes energy fighting their strongest pressure vector while opponent maintains dominant position and advances pass
+  - ✅ Correction: Redirect pressure laterally through frames and hip angle rather than pushing directly against their chest pressure
 
-- ❌ **Allowing chest-to-chest contact without resistance or space creation**
-  - Consequence: Gives opponent full weight pressure advantage, eliminates all leverage opportunities, and makes escape nearly impossible
-  - ✅ Correction: Fight for any distance - even inches of space between chests allows hip mobility and escape opportunities to function
+- ❌ **Allowing complete leg control without fighting for at least one butterfly hook**
+  - Consequence: Eliminates all guard recovery options and gives opponent free path to complete pass
+  - ✅ Correction: Constantly work to free one leg and insert butterfly hook or knee shield - even partial leg freedom maintains escape options
 
-- ❌ **Giving up mentally when double underhooks are established, accepting defeat prematurely**
-  - Consequence: Surrenders defensive opportunities prematurely, allows easy pass, and reinforces bad habits for future similar positions
-  - ✅ Correction: Stay mentally engaged - this position has multiple escape routes if you act quickly with proper technique and timing
+- ❌ **Giving up mentally when double underhooks are established, accepting pass prematurely**
+  - Consequence: Surrenders defensive opportunities, allows easy pass, and reinforces bad habits for future similar positions
+  - ✅ Correction: Stay mentally engaged - this position has multiple escape routes (deep half, granby, guard recovery) if you act with proper technique
 
-- ❌ **Extending legs straight or pushing opponent away with feet ineffectively**
-  - Consequence: Removes leg entanglement options, eliminates butterfly hook possibilities, and gives opponent clear path to side control
-  - ✅ Correction: Keep legs active with hooks (butterfly, half guard) or transitional positions - never extend straight which surrenders control
+- ❌ **Extending legs straight trying to push opponent away with feet**
+  - Consequence: Removes leg entanglement options, eliminates butterfly hook possibilities, and makes stacking easier for opponent
+  - ✅ Correction: Keep legs bent with active hooks available - straight legs surrender all guard retention mechanics
 
-- ❌ **Tucking chin to chest defensively instead of maintaining head position and mobility**
-  - Consequence: Rounds spine further, makes you easier to flatten, and reduces mobility for granby rolls or hip escapes
-  - ✅ Correction: Keep head active and mobile - look away from pressure direction to maintain spinal extension and mobility options
+- ❌ **Holding breath and tensing entire body against pressure rather than breathing and moving**
+  - Consequence: Rapid exhaustion while opponent maintains pressure with less effort, leading to failed escape attempts and inevitable pass
+  - ✅ Correction: Breathe steadily, use skeletal frames rather than muscular tension, and save explosive energy for committed escape attempts
 
 
 </section>
@@ -174,26 +166,20 @@ Understanding double unders from both perspectives is essential for developing c
 - Maintain active base with feet positioned to drive forward, preventing opponent from off-balancing or creating sweep opportunities
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Double Under Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 55%, Intermediate 70%, Advanced 85%
+- **[[Double Under Pass]]** (25% of attempts)
 
-- **[[Transition to Mount]]** → [[Mount]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Stack Pass]]** (20% of attempts)
 
-- **[[Transition to North-South]]** → [[North-South]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Leg Weave Pass]]** (18% of attempts)
 
-- **[[Transition to Back Control]]** → [[Back Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 60%
+- **[[Back Take]]** (12% of attempts)
 
-- **[[Stack Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 80%
+- **[[Knee Slice Pass]]** (15% of attempts)
 
-- **[[Knee Slice Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+- **[[Bullfighter Pass]]** (10% of attempts)
 
 
 ### Common Mistakes
@@ -244,13 +230,13 @@ Understanding double unders from both perspectives is essential for developing c
 
 - **[[Turtle]]** - Alternative escape position bottom player may accept via granby roll when flattening is imminent
 
-- **[[Smash Pass]]** - Related pressure passing position often reached when opponent defends or turns from double unders
-
-- **[[Long Step]]** - Alternative guard passing approach with different control mechanisms and passing angles
+- **[[Leg Weave]]** - Related pressure passing position often reached when opponent defends or turns from double unders
 
 - **[[Combat Base]]** - Top player's base structure must be maintained while establishing and advancing double unders control
 
-- **[[Underhook Battle]]** - Conceptual framework for the bilateral underhook control struggle that defines this position
+- **[[Open Guard]]** - Starting guard position that double unders effectively attacks and neutralizes
+
+- **[[Knee on Belly]]** - Alternative transitional position top player can achieve when opponent creates space during pass
 
 
 </section>

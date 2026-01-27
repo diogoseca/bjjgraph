@@ -21,37 +21,37 @@ description: "Master Old School Top in BJJ half guard. Control opponent's lockdo
     {
       "@type": "HowToStep",
       "name": "Execute Half Guard Pass",
-      "text": "From this position, execute Half Guard Pass to transition to Side Control. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Half Guard Pass. This technique is attempted in 22% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, execute Knee Slice Pass to transition to Side Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 20% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Crossface Pass",
-      "text": "From this position, execute Crossface Pass to transition to Side Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Crossface Pass. This technique is attempted in 18% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Mount",
-      "text": "From this position, execute Transition to Mount to transition to Mount. Success rate for advanced practitioners: 55%.",
+      "name": "Execute Side Control to Mount",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 14% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Take Generic",
-      "text": "From this position, execute Back Take Generic to transition to Back Control. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Back Take Generic. This technique is attempted in 14% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kimura from Half Guard",
-      "text": "From this position, execute Kimura from Half Guard to transition to Kimura Control. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Kimura from Half Guard. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -213,74 +213,18 @@ From Old School Top, the practitioner can transition to passing positions like s
 
 ## Available Attacks
 
-### [[Half Guard Pass]] → [[Side Control]]
+### [[Half Guard Pass]] (22% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Knee Slice Pass]] (20% of attempts)
 
-### [[Knee Slice Pass]] → [[Side Control]]
+### [[Crossface Pass]] (18% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Side Control to Mount]] (14% of attempts)
 
-### [[Crossface Pass]] → [[Side Control]]
+### [[Back Take Generic]] (14% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Kimura from Half Guard]] (12% of attempts)
 
-### [[Transition to Mount]] → [[Mount]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-### [[Back Take Generic]] → [[Back Control]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
-
-### [[Kimura from Half Guard]] → [[Kimura Control]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Old School Sweep]]** → [[Old School]] (Opponent Success: 45%)
-- **[[Electric Chair Submission]]** → [[Electric Chair]] (Opponent Success: 30%)
-- **[[Lockdown Sweeps]]** → [[Lockdown]] (Opponent Success: 35%)
-- **[[Deep Half Entry]]** → [[Deep Half Guard]] (Opponent Success: 40%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Back Take Generic]]** → [[Back Control]]
-  - Opponent attempts to come up to dogfight position
-- **[[Crossface Pass]]** → [[Side Control]]
-  - Opponent releases lockdown to reguard
-- **[[Kimura from Half Guard]]** → [[Kimura Control]]
-  - Opponent extends whizzered arm to frame
 
 
 </section>
@@ -305,8 +249,8 @@ From Old School Top, the practitioner can transition to passing positions like s
 
 
 **If opponent extends whizzered arm to create frames:**
-- Execute **[[Kimura from Half Guard]]** → [[Kimura Control]] (Probability: 50%)
-- Execute **[[Transition to Mount]]** → [[Mount]] (Probability: 40%)
+- Execute **[[Kimura from Half Guard]]** → [[Kimura Trap]] (Probability: 50%)
+- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 40%)
 
 
 
@@ -387,29 +331,39 @@ Bottom player attempts Old School Sweep or Electric Chair entries while top play
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Whizzer to Kimura Path
+## Test Your Knowledge
 
-`Old School Top → Kimura Control (when opponent extends arm) → Kimura`
+**Q1**: Your opponent begins to bridge and roll toward the lockdown side - what immediate adjustment prevents the sweep?
+**A**: Post your free leg wider with the knee angled outward at 45 degrees while simultaneously driving increased crossface pressure and dropping your chest weight onto their sternum. The wide base removes their sweeping angle while the increased pressure prevents them from completing the rotation. Never try to balance by posting on your hands - keep weight through your chest.
 
-### Leg Attack Opportunity Path
+**Q2**: What are the essential grips and pressure points for maintaining Old School Top position?
+**A**: The three essential control points are: 1) Deep whizzer threaded under opponent's armpit with hand gripping your own thigh or their hip, 2) Heavy crossface pressure with shoulder driving into their jaw/face forcing head turn, and 3) Chest-to-chest connection with weight distributed forward. These create a structural framework that prevents both sweeping and reguarding attempts.
 
-`Old School Top → Free trapped leg → Straight Ankle Lock Control (on formerly locked leg) → Straight Ankle Lock`
+**Q3**: How do you shut down the Old School Sweep when opponent has underhook and head control established?
+**A**: Drive your whizzer deep and clamp your elbow tight to your body to control their underhooking arm's mobility. Increase crossface pressure dramatically to turn their head away and break their pulling angle. Keep hips low and heavy - never raise them as this feeds directly into their sweep mechanics. Post free leg extremely wide to remove their rotational leverage entirely.
 
-### Back Attack Path
+**Q4**: What grip priorities should you establish when first recognizing opponent's lockdown?
+**A**: First priority is the whizzer - thread it deep immediately before they can secure strong underhook position. Second priority is establishing crossface pressure with opposite shoulder. Third is controlling their far arm to prevent them securing head control. These must happen in rapid sequence within 2-3 seconds of recognizing the lockdown configuration.
 
-`Old School Top → Opponent attempts dogfight → Back Take Generic → Back Control → Rear Naked Choke`
+**Q5**: How should you apply pressure to flatten the bottom player without creating space they can exploit?
+**A**: Drive your weight forward and downward through your chest, not through your hips or hands. Your sternum should press directly into their sternum while your crossface shoulder drives into their face. Keep hands light and only for balance adjustments. This creates smothering pressure that limits their hip mobility - the foundation of all lockdown attacks.
 
-### Passing to Submission Path
+**Q6**: Your opponent begins pumping the lockdown to create sweep momentum - how do you anticipate and counter this?
+**A**: Feel for the rhythm of their leg extension attempts and time your base adjustments accordingly. When you feel them beginning to extend, immediately sprawl your hips slightly back while maintaining chest connection and driving crossface pressure. The sprawl removes the leverage they need while keeping your weight on them prevents the space creation they're seeking.
 
-`Old School Top → Knee Slice Pass → Side Control → Kimura from Side Control`
+**Q7**: How do you manage energy expenditure when stuck in extended Old School Top battles?
+**A**: Relax into the position using skeletal structure rather than muscular tension for control. Your whizzer should be deep enough that it holds structurally without squeezing. Crossface pressure comes from body weight positioning, not shoulder muscle. Breathe steadily and avoid reactive explosive movements that burn energy - patience and systematic pressure exhaust them faster than you.
+
+**Q8**: Opponent partially escapes your crossface and begins coming up to dogfight - what recovery sequence prevents position loss?
+**A**: Immediately increase whizzer pressure to stop their rotation while sprawling your hips back to remove their lifting angle. If they're already coming up, switch your whizzer to an underhook and circle toward their back rather than fighting for the flattened position. The back take becomes available when they commit to coming up - use their momentum against them rather than fighting it directly.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -434,11 +388,11 @@ Bottom player attempts Old School Sweep or Electric Chair entries while top play
 - **[[Old School]]** - Opposite perspective - defending against this position
 - **[[Half Guard]]** - Parent position category
 - **[[Electric Chair]]** - Primary submission threat to defend against
-- **[[10th Planet Half Guard Bottom System]]** - System this position counters
-- **[[Lockdown to Electric Chair System]]** - Opponent's systematic approach from bottom
-- **[[Whizzer Control]]** - Key control concept utilized in this position
+- **[[Dogfight Position]]** - Transitional position when opponent comes up on underhook
 - **[[Old School Sweep]]** - Primary sweep threat to defend against
 - **[[Half Guard Pass]]** - Primary offensive transition goal
+- **[[Deep Half Guard]]** - Position opponent may transition to if smash fails
+- **[[Kimura Trap]]** - Submission opportunity when opponent frames with whizzered arm
 
 
 </section>

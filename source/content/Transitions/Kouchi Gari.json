@@ -11,8 +11,6 @@
     "clinch",
     "technique"
   ],
-  "starting_position": "Clinch",
-  "ending_position": "Side Control",
   "success_rates": {
     "beginner": 35,
     "intermediate": 50,
@@ -240,6 +238,24 @@
     {
       "name": "Snap Down to Front Headlock",
       "relationship": "Alternative when opponent resists backward off-balancing"
+    }
+  ],
+  "from_position": "Clinch/Top",
+  "outcomes": [
+    {
+      "to": "Side Control/Top",
+      "probability": 65,
+      "result": "success"
+    },
+    {
+      "to": "Clinch/Top",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Clinch/Bottom",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

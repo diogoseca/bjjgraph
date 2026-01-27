@@ -168,17 +168,20 @@
     {
       "error": "Failing to thread the hand deep enough across the neck",
       "consequence": "The choke lacks depth and only creates superficial pressure that the opponent can defend by tucking their chin or turning their head",
-      "correction": "Ensure your thumb passes the centerline of the opponent's throat before applying pressure. Your hand should be deep enough that the opponent cannot create space by turning their head."
+      "correction": "Ensure your thumb passes the centerline of the opponent's throat before applying pressure. Your hand should be deep enough that the opponent cannot create space by turning their head.",
+      "danger_level": "Low"
     },
     {
       "error": "Lifting your chest off the opponent while applying the choke",
       "consequence": "The opponent gains space to turn, bridge, or escape the position entirely, nullifying the submission attempt",
-      "correction": "Keep your chest heavy on the opponent throughout the entire sequence. Your weight should remain constant even as your arms work to finish the choke."
+      "correction": "Keep your chest heavy on the opponent throughout the entire sequence. Your weight should remain constant even as your arms work to finish the choke.",
+      "danger_level": "Low"
     },
     {
       "error": "Telegraphing the choke by obviously reaching for your sleeve before establishing control",
       "consequence": "Opponent recognizes the threat early and defends their neck preemptively, tucking their chin and framing to prevent the setup",
-      "correction": "Establish dominant pressure first, then grip your sleeve in one smooth motion while maintaining chest pressure. Use feints or secondary threats to occupy the opponent's defensive attention."
+      "correction": "Establish dominant pressure first, then grip your sleeve in one smooth motion while maintaining chest pressure. Use feints or secondary threats to occupy the opponent's defensive attention.",
+      "danger_level": "Low"
     },
     {
       "error": "Keeping elbows flared away from your body during the finish",
@@ -260,6 +263,31 @@
       "question": "What is the mechanical principle behind why keeping your elbows tight to your body increases the effectiveness of the Ezekiel Choke?",
       "answer": "Keeping your elbows tight to your body creates superior leverage through mechanical advantage. When your elbows are tucked close to your ribs, you can engage your back muscles, lat muscles, and core to generate the squeezing pressure, which is much stronger than relying on your arm muscles alone. Flared elbows rely primarily on shoulder and bicep strength, which is significantly weaker and easier for the opponent to endure. The tight elbow position also creates a more acute angle of compression on the neck, focusing the pressure more directly on the carotid arteries. Additionally, tight elbows make it harder for the opponent to strip your grips or create space because your arms are protected by your torso rather than exposed in space where they can be controlled.",
       "safety_critical": false
+    },
+    {
+      "question": "What anatomical structures does the Ezekiel Choke primarily attack, and what happens physiologically when applied correctly?",
+      "answer": "The Ezekiel Choke primarily attacks the carotid arteries on both sides of the neck, which are the major blood vessels supplying oxygenated blood to the brain. When applied correctly with bilateral compression, the choke restricts blood flow through both carotid arteries simultaneously, causing cerebral hypoxia (lack of oxygen to the brain). This results in unconsciousness within 8-12 seconds if the choke is fully locked. The trachea (windpipe) should NOT be the primary target - compressing the trachea causes pain and potential injury without efficiently inducing unconsciousness. The jugular veins may also be compressed, preventing blood from draining from the head, which accelerates unconsciousness.",
+      "safety_critical": true
+    },
+    {
+      "question": "Your opponent begins to posture up while you're attempting the Ezekiel from mount - what adjustments prevent the escape?",
+      "answer": "When the opponent starts to posture up, immediately increase your chest pressure and drive your weight forward onto their chest and face to break their posture back down. If they've created space, quickly transition your hips higher toward their head to re-establish control. You can also use your head to drive into their chin or face, forcing them to turn their head and preventing the posture. If they continue fighting for posture, abandon the Ezekiel temporarily, re-establish mount control with tight knees and heavy hips, and wait for a better opportunity when they're no longer actively escaping. Never chase a submission at the expense of positional control.",
+      "safety_critical": false
+    },
+    {
+      "question": "At what point during the Ezekiel Choke setup is the opponent past the point of no escape, and what indicates this threshold?",
+      "answer": "The point of no escape occurs once your choking hand has threaded past the centerline of the opponent's throat AND your assisting forearm is positioned on the opposite side of their neck. At this stage, even if they manage to create some space, the bilateral compression can still be achieved. The key indicators are: your thumb is past the centerline of their throat, your forearm blade contacts the opposite carotid artery, and your elbows can squeeze together without obstruction. Before this threshold, the opponent can defend by tucking their chin, controlling your wrist, or creating posture. After this point, the choke becomes increasingly difficult to defend as any movement tends to tighten the compression rather than create escape opportunities.",
+      "safety_critical": false
+    },
+    {
+      "question": "What grip adjustments should you make during the finish if you feel the choke slipping or the opponent creating space?",
+      "answer": "If the choke is slipping during the finish, immediately deepen your sleeve grip by pulling more fabric into your palm and threading your choking hand deeper across the neck. Increase chest pressure to eliminate any space. You can also adjust your assisting arm by repositioning the forearm blade more directly against the carotid artery. If the opponent is turning their head, follow their chin with your head pressure to prevent them from creating an angle. Some practitioners find success switching from the standard grip to clasping their hands behind the opponent's head for a different leverage point. If adjustments fail, reset the position rather than burning energy on a compromised submission attempt.",
+      "safety_critical": false
+    },
+    {
+      "question": "What are the key differences between finishing the Ezekiel in training versus competition, and why do these differences matter for safety?",
+      "answer": "In training, you must apply the choke slowly over 3-5 seconds minimum, using 50-70% of your maximum pressure to allow your partner time to recognize the threat and tap safely. In competition, the choke can be applied at full speed and pressure (1-2 seconds) since the goal is to finish before the opponent can escape. This matters for safety because blood chokes can cause unconsciousness very rapidly - in competition, quick finishes are acceptable because referees are watching, but in training, rapid application gives your partner insufficient time to tap, risking unconsciousness. Training at competition speed creates an unsafe environment where partners cannot develop trust. Always prioritize your training partner's safety over finishing the submission, as brain injuries from held chokes are permanent.",
+      "safety_critical": true
     }
   ],
   "training_progressions_and_safety_protocols": [
@@ -325,7 +353,7 @@
     "North-South Choke",
     "Cross Collar Choke",
     "Loop Choke",
-    "Loop Choke from Mount",
+    "Loop Choke Variations",
     "Baseball Bat Choke",
     "Guillotine Choke",
     "Anaconda Choke",
@@ -373,16 +401,16 @@
       "relationship": "Related gi choke using similar cross-collar mechanics"
     },
     {
-      "name": "Positional Hierarchy",
-      "relationship": "Concept explaining why mount and side control variations are higher percentage"
-    },
-    {
       "name": "North-South Choke",
       "relationship": "Related choke from north-south position"
     },
     {
       "name": "Knee on Belly",
       "relationship": "Starting position for knee on belly variation"
+    },
+    {
+      "name": "Cross Collar Choke",
+      "relationship": "Related gi choke utilizing collar control for bilateral compression"
     }
   ]
 }

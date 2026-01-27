@@ -10,8 +10,6 @@
     "escape",
     "fundamentals"
   ],
-  "starting_position": "Closed Guard",
-  "ending_position": "Combat Base",
   "success_rates": {
     "beginner": 55,
     "intermediate": 70,
@@ -280,6 +278,24 @@
     {
       "name": "Knee Shield Retention",
       "relationship": "Related defense - what opponent may transition to if you recover too aggressively"
+    }
+  ],
+  "from_position": "Closed Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Combat Base/Top",
+      "probability": 75,
+      "result": "success"
+    },
+    {
+      "to": "Closed Guard/Bottom",
+      "probability": 15,
+      "result": "failure"
+    },
+    {
+      "to": "Closed Guard/Top",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

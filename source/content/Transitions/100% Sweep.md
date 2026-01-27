@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "100% Sweep | BJJ Technique | BJJ Graph"
 description: "Master the 100% Sweep from closed guard. Complete guide covering arm trap mechanics, hip angle creation, and sweep execution. Beginner 20%, Intermediate 40%, Advanced 60%."
@@ -16,7 +17,7 @@ description: "Master the 100% Sweep from closed guard. Complete guide covering a
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute 100% Sweep in BJJ",
-  "description": "Step-by-step guide for 100% Sweep from Closed Guard to Mount.",
+  "description": "Step-by-step guide for 100% Sweep from Closed Guard. Possible outcomes: Mount (60%), Closed Guard (30%), Closed Guard (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -166,11 +167,25 @@ description: "Master the 100% Sweep from closed guard. Complete guide covering a
 
 The 100% Sweep, also known as the Hundred Percent Sweep or Arm Trap Sweep, is an advanced closed guard technique that reverses position from bottom to top by isolating the opponent's arm and using precise hip movement. This sweep exemplifies the principle of limb isolation to create sweeping leverage, demonstrating how technical control can overcome strength. The technique starts from closed guard bottom with the practitioner trapping one of the opponent's arms across their body while simultaneously breaking their posture and creating an optimal angle through hip movement. The 100% Sweep is particularly effective against opponents who posture aggressively or attempt to break the guard, making it a high-percentage competition technique. Success requires excellent timing, proper arm control, and dynamic hip mobility to roll the opponent over their trapped arm and shoulder. This sweep is essential for advanced practitioners developing a sophisticated closed guard game and understanding the mechanics of limb isolation sweeps.
 
-**Starting Position**: [[Closed Guard]]
-**Ending Position**: [[Mount]]
+**From Position**: [[Closed Guard]]
 **Success Rates**: Beginner 20%, Intermediate 40%, Advanced 60%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Mount]] | 60% |
+| Failure | [[Closed Guard]] | 30% |
+| Counter | [[Closed Guard]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 
@@ -318,6 +333,24 @@ Apply the 100% Sweep in full sparring and competition simulation rounds. Focus o
 **Q6**: What role does the planted foot play in executing the 100% Sweep?
 **A**: The planted foot is critical for generating the explosive hip drive that completes the sweep. It should be positioned close to your hip on the mat, creating a stable base from which to push off. When you initiate the sweep, this planted foot drives forcefully into the mat, propelling your hips upward and to the side. This generates the rotational power needed to roll the opponent over their trapped arm and shoulder. Without proper foot placement and drive, the sweep lacks the necessary force to overcome their base.
 
+**Q7**: Your opponent posts their free hand on the mat as you initiate the sweep - how do you adjust?
+**A**: When the opponent posts with their free hand, immediately recognize this as a Kimura opportunity. Their posting arm is now exposed and vulnerable. Abandon the sweep momentarily and wrap their posting arm with a figure-four Kimura grip, securing your hands palm-to-palm or wrist-to-wrist around their wrist. From here, you can either finish the Kimura directly or use the control to continue the sweeping motion with added leverage. The key is reading their defensive post instantly and transitioning to the submission attack before they can retract the arm.
+
+**Q8**: What hip angle is required for the 100% Sweep and why is it critical?
+**A**: The hip angle should be approximately 45 degrees or more to the side of the trapped arm. This angle is critical because it creates the mechanical advantage needed to roll the opponent over their shoulder line rather than pushing them straight back where their base is strongest. The angle also allows your planted foot to drive your hips in a diagonal trajectory that combines upward lift with lateral rotation. Without sufficient angle, you're fighting against their strongest base points and the sweep becomes a strength contest rather than a technical execution.
+
+**Q9**: What grip options work best for securing the arm trap in no-gi situations?
+**A**: In no-gi, the most effective grip options for the arm trap include: a deep overhook where your armpit clamps their tricep against your ribs, a two-on-one wrist control where both hands secure their wrist and pull it across your centerline, or a Russian tie grip where you thread under their arm to control the tricep from behind while your other hand controls the wrist. The overhook provides the most secure control but requires closer range. The two-on-one allows more distance but is easier to strip with sweat. Combining these grips with active pulling creates the necessary control despite the lack of gi friction.
+
+**Q10**: If your opponent defends by pulling their trapped arm back forcefully, what attack chain opens up?
+**A**: When the opponent forcefully pulls their arm back, this defensive motion typically drives their head forward toward you, creating an immediate guillotine opportunity. As they retract the arm, shoot your free hand around the back of their head and secure a guillotine grip around their neck before they can posture back up. The momentum of their arm pull actually assists in breaking their posture for the choke. This creates the classic closed guard attack triangle where the 100% Sweep chains to Kimura (if they post) or Guillotine (if they pull the arm back), with each defense opening the next attack.
+
+**Q11**: How do you prevent the opponent from simply standing up to defend the 100% Sweep?
+**A**: The key to preventing the stand-up defense is maintaining strong ankle lock pressure with your heels driving into their lower back before and during the sweep initiation. When they begin to stand, immediately pull down harder with your heels while simultaneously shooting your hips upward into the sweep. Their standing attempt actually assists the sweep if timed correctly because they're loading weight onto their feet rather than their knees. Additionally, maintaining constant forward pull on their posture with grips makes standing significantly more difficult. If they do achieve standing position, transition to standing sweep options like the double ankle sweep or technical stand-up rather than forcing the 100% Sweep from a compromised position.
+
+**Q12**: What is the correct sequence for consolidating position after completing the sweep?
+**A**: After rolling the opponent over, immediately drive your knee across their body to establish mount before they can recover guard or turn to turtle. Keep the arm trap secured throughout the transition if possible, as this prevents them from framing. Once your knee clears their hip, settle your weight low with your hips pressed into their abdomen. Establish head control with your free hand to prevent them from bridging. Your first priority is preventing the elbow-knee escape by driving your knees into their armpits. Only release the arm trap once mount is fully secured with proper weight distribution and base. The entire consolidation should be one continuous motion flowing from the sweep completion.
+
 
 
 </section>
@@ -347,11 +380,13 @@ The 100% Sweep is a crucial component of an advanced closed guard attack system,
 - [[Hip Bump Sweep]] - Complementary sweep that can be combined in sequences
 - [[Scissor Sweep]] - Alternative sweep from closed guard that creates attack combinations
 - [[Pendulum Sweep]] - Related closed guard sweep using different angle creation
-- [[Triangle from Closed Guard]] - Chain submission when opponent defends sweep by recovering posture
+- [[Closed Guard to Triangle]] - Chain submission when opponent defends sweep by recovering posture
 - [[Armbar from Guard]] - Alternative attack when arm is isolated but sweep is defended
 - [[Closed Guard]] - Starting position for this technique
 - [[Mount]] - Common ending position when sweep is successful
 - [[Side Control]] - Alternative ending position if opponent turns away during sweep
+- [[Kimura from Guard]] - Chain attack when opponent posts hand to defend sweep
+- [[Guillotine Choke]] - Chain attack when opponent pulls arm back defensively
 
 
 </section>

@@ -11,8 +11,6 @@
     "standing",
     "choke"
   ],
-  "starting_position": "Front Headlock",
-  "ending_position": "Guillotine Control",
   "success_rates": {
     "beginner": 30,
     "intermediate": 50,
@@ -270,6 +268,24 @@
     {
       "name": "Chin Strap Guillotine",
       "relationship": "Variation"
+    }
+  ],
+  "from_position": "Front Headlock/Top",
+  "outcomes": [
+    {
+      "to": "Guillotine Control/Top",
+      "probability": 70,
+      "result": "success"
+    },
+    {
+      "to": "Front Headlock/Top",
+      "probability": 20,
+      "result": "failure"
+    },
+    {
+      "to": "Front Headlock/Bottom",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

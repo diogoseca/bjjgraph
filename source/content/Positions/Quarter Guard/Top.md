@@ -21,37 +21,37 @@ description: "Master Quarter Guard Top in BJJ. Complete guide covering passing s
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, execute Knee Slice Pass to transition to Side Control. Success rate for advanced practitioners: 85%.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 13% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Smash Pass",
-      "text": "From this position, execute Smash Pass to transition to Side Control. Success rate for advanced practitioners: 80%.",
+      "text": "From this position, attempt Smash Pass. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Crossface Pass",
-      "text": "From this position, execute Crossface Pass to transition to Side Control. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Crossface Pass. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Pass",
-      "text": "From this position, execute Underhook Pass to transition to Side Control. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Underhook Pass. This technique is attempted in 11% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Long Step Pass",
-      "text": "From this position, execute Long Step Pass to transition to Side Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Long Step Pass. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Half Guard to Back Take",
-      "text": "From this position, execute Half Guard to Back Take to transition to Back Control. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Half Guard to Back Take. This technique is attempted in 8% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -213,108 +213,26 @@ The key distinction from half guard top is that the bottom player's defensive ca
 
 ## Available Attacks
 
-### [[Knee Slice Pass]] → [[Side Control]]
+### [[Knee Slice Pass]] (13% of attempts)
 
-**Success Rates:**
-- Beginner: 55%
-- Intermediate: 70%
-- Advanced: 85%
+### [[Smash Pass]] (12% of attempts)
 
-### [[Smash Pass]] → [[Side Control]]
+### [[Crossface Pass]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 50%
-- Intermediate: 65%
-- Advanced: 80%
+### [[Underhook Pass]] (11% of attempts)
 
-### [[Crossface Pass]] → [[Side Control]]
+### [[Long Step Pass]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 60%
-- Advanced: 75%
+### [[Half Guard to Back Take]] (8% of attempts)
 
-### [[Underhook Pass]] → [[Side Control]]
+### [[Side Control to Mount]] (9% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Side Control to North-South]] (10% of attempts)
 
-### [[Long Step Pass]] → [[Side Control]]
+### [[Kimura from Half Guard]] (8% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Darce Setup]] (7% of attempts)
 
-### [[Half Guard to Back Take]] → [[Back Control]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-### [[Transition to Mount]] → [[Mount]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[Transition to North-South]] → [[North-South]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-### [[Kimura from Half Guard]] → [[Kimura Control]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
-
-### [[Darce Setup]] → [[D'arce Control]]
-
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 45%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Knee Shield Retention]]** → [[Knee Shield Half Guard]] (Opponent Success: 30%)
-- **[[Underhook Sweep from Half]]** → [[Side Control]] (Opponent Success: 20%)
-- **[[Re-Guard from Headquarters]]** → [[Half Guard]] (Opponent Success: 25%)
-- **[[Deep Half Entry]]** → [[Deep Half Guard]] (Opponent Success: 15%)
-- **[[Lockdown Sweeps]]** → [[Side Control]] (Opponent Success: 10%)
-- **[[Rolling to Guard]]** → [[Open Guard]] (Opponent Success: 15%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Knee Slice Pass]]** → [[Side Control]]
-  - Opponent attempts to recover knee shield or create frames, exposing opening for knee slice completion
-- **[[Smash Pass]]** → [[Side Control]]
-  - Opponent flattens out completely or loses knee shield connection, allowing heavy pressure pass
-- **[[Half Guard to Back Take]]** → [[Back Control]]
-  - Opponent turns away to defend crossface or creates space attempting escape, exposing back
-- **[[Crossface Pass]]** → [[Side Control]]
-  - Opponent attempts to turn into you or frame against chest, allowing crossface pressure to complete pass
-- **[[Transition to Mount]]** → [[Mount]]
-  - Opponent's legs are completely cleared and they remain flat, allowing direct mount advancement
 
 
 </section>
@@ -330,11 +248,11 @@ The key distinction from half guard top is that the bottom player's defensive ca
 
 **If opponent attempts to turn away from crossface or create distance for escape:**
 - Execute **[[Half Guard to Back Take]]** → [[Back Control]] (Probability: 55%)
-- Execute **[[Transition to North-South]]** → [[North-South]] (Probability: 50%)
+- Execute **[[Side Control to North-South]]** → [[North-South]] (Probability: 50%)
 
 
 **If opponent flattens completely and loses all leg control and defensive structures:**
-- Execute **[[Transition to Mount]]** → [[Mount]] (Probability: 60%)
+- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 60%)
 - Execute **[[Smash Pass]]** → [[Side Control]] (Probability: 75%)
 
 
@@ -344,7 +262,7 @@ The key distinction from half guard top is that the bottom player's defensive ca
 
 
 **If opponent exposes arm attempting to frame or recover guard structure:**
-- Execute **[[Kimura from Half Guard]]** → [[Kimura Control]] (Probability: 45%)
+- Execute **[[Kimura from Half Guard]]** → [[Kimura Trap]] (Probability: 45%)
 - Execute **[[Darce Setup]]** → [[D'arce Control]] (Probability: 40%)
 
 
@@ -433,33 +351,39 @@ Flow rolling from quarter guard top where partner randomly varies their defensiv
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Shortest path to submission
+## Test Your Knowledge
 
-`Quarter Guard Top → Side Control → Kimura Control → Kimura`
+**Q1**: Your opponent starts to hip escape and turn to their side during your quarter guard top—what adjustment do you make?
+**A**: Immediately increase crossface pressure by driving your shoulder into their jaw and far cheek to flatten them back down. Simultaneously walk your hips toward their head to cut off the angle they're creating. If they continue turning despite pressure, recognize this as a back take opportunity rather than forcing the pass—follow their rotation and transition to back control since their movement has exposed their back.
 
-### High-percentage path via mount
+**Q2**: What are the essential grips and control points for maintaining quarter guard top position?
+**A**: The primary control points are crossface pressure with your shoulder against their far cheek or jaw, far hip control with your hand preventing rotation, and chest-to-chest connection distributing weight through their upper body. Secondary controls include near-side arm pinning to prevent frames and knee positioning past their hip line to block guard recovery. The crossface is the most critical—without it, all other controls become less effective.
 
-`Quarter Guard Top → Mount → Americana from Mount`
+**Q3**: How do you shut down the bottom player's primary escape of recovering knee shield half guard?
+**A**: Prevent knee shield recovery by maintaining forward hip pressure that closes the space needed for knee insertion, controlling their near-side knee with your hand or shin pressure to push it toward the mat, and keeping your chest heavy on their upper body so they cannot create the angle needed for knee shield. If you feel them attempting to insert the knee, immediately slide your passing knee across faster to cut off the space before the shield can establish.
 
-### Back attack path
+**Q4**: What is the correct weight distribution for maintaining quarter guard top while staying mobile for pass completion?
+**A**: Distribute approximately seventy percent of your weight forward through your chest and shoulder into opponent's upper body, with thirty percent remaining on your base leg and posting hand for sweep defense. The weight should feel like controlled directional pressure toward their far shoulder rather than simply heavy downward pressure. Your hips should remain light and mobile, ready to slide across instantly when defensive structure breaks.
 
-`Quarter Guard Top → Back Control → Rear Naked Choke`
+**Q5**: How do you apply crossface pressure effectively without gassing out during extended passing sequences?
+**A**: Use skeletal structure rather than muscular effort by positioning your shoulder blade as the pressure point against their face, letting your body weight create the pressure rather than actively pushing. Keep your elbow tight to your ribs and drive through your legs and hips rather than your arms. The pressure should feel effortless to maintain—if you're getting tired from crossface, you're muscling it rather than using proper positioning and weight distribution.
 
-### Front headlock path
+**Q6**: Your opponent creates an underhook on your near side while you're in quarter guard top—what immediate adjustments are needed?
+**A**: When opponent establishes underhook, immediately increase downward pressure to prevent them from using it to come up to their side. You have two options: whizzer the underhook by overhooking their arm and driving your weight down while continuing the pass, or switch to underhook pass variation by accepting their underhook and using it as a control point while stepping around. Never ignore the underhook—it's their primary tool for sweeping or recovering guard.
 
-`Quarter Guard Top → Front Headlock → D'arce Control → Darce Choke`
+**Q7**: How do you manage energy while maintaining pressure in quarter guard top to prevent fatigue during competition?
+**A**: Energy management requires using your body weight and positioning rather than muscular effort. Let gravity do the work by positioning your chest at the correct angle where weight naturally transfers through opponent. Breathe steadily and avoid holding tension in muscles not actively engaged. Keep the position transitional—spending five to ten seconds maximum before completing pass. If you're fatiguing in quarter guard, you're either muscling or staying too long.
 
-### North-South path
-
-`Quarter Guard Top → North-South → Kimura Control → Kimura from North-South`
+**Q8**: Your opponent partially escapes your crossface and begins turning in—how do you recover control versus when do you follow to back take?
+**A**: If they're less than forty-five degrees turned and you can re-establish crossface by driving your shoulder back across their face, recover the crossface and continue the original pass. If they've turned past forty-five degrees and your crossface has slipped to their shoulder or back, follow their momentum immediately to back control rather than trying to flatten them again. The decision point is whether your shoulder can contact their face—if yes, recover; if no, take the back.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 

@@ -93,29 +93,22 @@ The position requires significant core strength, flexibility, and timing to exec
 - Transition fluidly between Reverse X-Guard variations and related leg entanglement positions based on opponent reactions
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Reverse X-Guard Sweep]]** → [[Mount]]
-  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 70%
+- **[[Reverse X-Guard Sweep]]** (14% of attempts)
 
-- **[[Elevation Sweep to Mount]]** → [[Mount]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 65%
+- **[[Elevation Sweep to Mount]]** (13% of attempts)
 
-- **[[Reverse X to Back Take]]** → [[Back Control]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 60%
+- **[[Reverse X to Back Take]]** (12% of attempts)
 
-- **[[Transition to Standard X-Guard]]** → [[X-Guard]]
-  - Success Rate: Beginner 45%, Intermediate 65%, Advanced 80%
+- **[[Reverse X-Guard to Standard X-Guard]]** (19% of attempts)
 
-- **[[Reverse X to Single Leg X Entry]]** → [[Single Leg X-Guard]]
-  - Success Rate: Beginner 40%, Intermediate 60%, Advanced 75%
+- **[[Reverse X to Single Leg X Entry]]** (15% of attempts)
 
-- **[[Reverse X to Ashi Garami Entry]]** → [[Ashi Garami]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 65%
+- **[[Reverse X to Ashi Garami Entry]]** (13% of attempts)
 
-- **[[Technical Stand Up]]** → [[Standing Position]]
-  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 70%
+- **[[Technical Stand Up]]** (14% of attempts)
 
 
 ### Common Mistakes
@@ -173,26 +166,20 @@ The position requires significant core strength, flexibility, and timing to exec
 - Use angle changes and hip movement to create passing opportunities while defending against sweeps
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Smash Pass]]** → [[Half Guard]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Smash Pass]]** (19% of attempts)
 
-- **[[Knee Slice Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Knee Slice Pass]]** (17% of attempts)
 
-- **[[Long Step Pass]]** → [[Headquarters Position]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Long Step Pass]]** (15% of attempts)
 
-- **[[Leg Drag Pass]]** → [[Leg Drag Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Leg Drag Pass]]** (17% of attempts)
 
-- **[[Butterfly Pass]]** → [[Butterfly Guard]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Butterfly Pass]]** (18% of attempts)
 
-- **[[Back Step]]** → [[Standing Position]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Back Step]]** (14% of attempts)
 
 
 ### Common Mistakes

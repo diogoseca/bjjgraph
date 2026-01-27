@@ -1,0 +1,59 @@
+{
+  "name": "Arm Triangle from Top",
+  "description": "TODO: Add SEO description for Arm Triangle from Top transition covering the head and arm choke setup from top position (140-180 characters)",
+  "tags": ["bjj", "transition", "choke", "arm triangle", "top position"],
+  "from_position": "Side Control/Top",
+  "outcomes": [
+    {"to": "Arm Triangle Control", "probability": 55, "result": "success"},
+    {"to": "Side Control", "probability": 30, "result": "failure"},
+    {"to": "Half Guard", "probability": 15, "result": "counter"}
+  ],
+  "success_rates": {"beginner": 25, "intermediate": 45, "advanced": 65},
+  "overview": "TODO: Add overview of the Arm Triangle from Top technique, describing how to trap the opponent's arm and head from side control or mount top position to set up the arm triangle choke. Include details about weight distribution, head positioning, walking to the opposite side, and the squeeze mechanics that create the blood choke. Minimum 400 characters required.",
+  "key_principles": ["TODO: Add principle 1", "TODO: Add principle 2", "TODO: Add principle 3", "TODO: Add principle 4", "TODO: Add principle 5"],
+  "setup_requirements": ["TODO: Add setup requirement 1", "TODO: Add setup requirement 2", "TODO: Add setup requirement 3", "TODO: Add setup requirement 4"],
+  "execution_steps": [
+    {"step_number": 1, "action": "TODO", "description": "TODO: Add detailed step 1 description with at least fifty characters of content"},
+    {"step_number": 2, "action": "TODO", "description": "TODO: Add detailed step 2 description with at least fifty characters of content"},
+    {"step_number": 3, "action": "TODO", "description": "TODO: Add detailed step 3 description with at least fifty characters of content"},
+    {"step_number": 4, "action": "TODO", "description": "TODO: Add detailed step 4 description with at least fifty characters of content"},
+    {"step_number": 5, "action": "TODO", "description": "TODO: Add detailed step 5 description with at least fifty characters of content"},
+    {"step_number": 6, "action": "TODO", "description": "TODO: Add detailed step 6 description with at least fifty characters of content"}
+  ],
+  "common_counters": [
+    {"counter": "TODO: Add counter 1 description", "effectiveness": "High", "your_response": "TODO"},
+    {"counter": "TODO: Add counter 2 description", "effectiveness": "Medium", "your_response": "TODO"},
+    {"counter": "TODO: Add counter 3 description", "effectiveness": "Low", "your_response": "TODO"}
+  ],
+  "common_errors": [
+    {"error": "TODO: Error 1", "consequence": "TODO: Consequence 1", "correction": "TODO: Correction 1"},
+    {"error": "TODO: Error 2", "consequence": "TODO: Consequence 2", "correction": "TODO: Correction 2"},
+    {"error": "TODO: Error 3", "consequence": "TODO: Consequence 3", "correction": "TODO: Correction 3"},
+    {"error": "TODO: Error 4", "consequence": "TODO: Consequence 4", "correction": "TODO: Correction 4"},
+    {"error": "TODO: Error 5", "consequence": "TODO: Consequence 5", "correction": "TODO: Correction 5"}
+  ],
+  "training_progressions": [
+    {"phase": "Foundation", "focus": "TODO", "description": "TODO: Add description", "resistance_level": "None"},
+    {"phase": "Technique", "focus": "TODO", "description": "TODO: Add description", "resistance_level": "Light"},
+    {"phase": "Timing", "focus": "TODO", "description": "TODO: Add description", "resistance_level": "Medium"},
+    {"phase": "Live", "focus": "TODO", "description": "TODO: Add description", "resistance_level": "Full"}
+  ],
+  "variants_and_adaptations": [
+    {"variant_name": "Mounted Arm Triangle", "description": "TODO: Add description", "when_to_use": "TODO"},
+    {"variant_name": "Arm Triangle from North-South", "description": "TODO: Add description", "when_to_use": "TODO"}
+  ],
+  "knowledge_assessment": [
+    {"question": "What is the correct arm and head positioning for the arm triangle from top?", "answer": "TODO: Add answer with at least fifty characters of detailed content", "difficulty": "Beginner"},
+    {"question": "How do you maintain pressure while transitioning to the finishing position?", "answer": "TODO: Add answer with at least fifty characters of detailed content", "difficulty": "Intermediate"},
+    {"question": "What adjustment do you make when your opponent tries to create space by framing?", "answer": "TODO: Add answer with at least fifty characters of detailed content", "difficulty": "Advanced"},
+    {"question": "When should you switch sides during the arm triangle setup from top?", "answer": "TODO: Add answer with at least fifty characters of detailed content", "difficulty": "Intermediate"},
+    {"question": "How does the arm triangle from top differ from a darce choke setup?", "answer": "TODO: Add answer with at least fifty characters of detailed content", "difficulty": "Advanced"}
+  ],
+  "safety_considerations": "TODO: Add safety considerations for the arm triangle from top. Include information about blood choke risks, recognizing when opponent is becoming unconscious, proper release protocol upon tap, and training intensity guidelines.",
+  "position_integration": "TODO: Describe how the arm triangle from top integrates with the broader positional game. Explain connections to side control attacks, mount transitions, and how it fits into a systematic top control game plan. Cover entries from different positions and follow-up options if the choke fails.",
+  "related_content": [
+    {"name": "Arm Triangle", "relationship": "Parent submission technique"},
+    {"name": "Side Control", "relationship": "Primary starting position"},
+    {"name": "Darce Choke", "relationship": "Related head and arm choke"}
+  ]
+}

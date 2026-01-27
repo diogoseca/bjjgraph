@@ -1,0 +1,194 @@
+{
+  "name": "Back Door Escape",
+  "description": "TODO: Add SEO description for Back Door Escape technique (150-160 characters).",
+  "tags": [
+    "bjj",
+    "transition",
+    "technique",
+    "TODO"
+  ],
+  "from_position": "D'arce Control/Bottom",
+  "outcomes": [
+    {
+      "to": "Open Guard/Bottom",
+      "probability": 65,
+      "result": "success"
+    },
+    {
+      "to": "D'arce Control/Bottom",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "D'arce Control/Top",
+      "probability": 10,
+      "result": "counter"
+    }
+  ],
+  "success_rates": {
+    "beginner": 30,
+    "intermediate": 50,
+    "advanced": 65
+  },
+  "overview": "TODO: Add overview for Back Door Escape. This transition is executed from D'arce Control/Bottom. Describe the technique, when to use it, and strategic considerations.",
+  "key_principles": [
+    "TODO: Add principle 1",
+    "TODO: Add principle 2",
+    "TODO: Add principle 3",
+    "TODO: Add principle 4",
+    "TODO: Add principle 5"
+  ],
+  "setup_requirements": [
+    "TODO: Add setup requirement 1",
+    "TODO: Add setup requirement 2",
+    "TODO: Add setup requirement 3",
+    "TODO: Add setup requirement 4"
+  ],
+  "execution_steps": [
+    {
+      "step_number": 1,
+      "action": "TODO",
+      "description": "TODO: Add detailed step 1 description (50+ characters minimum)"
+    },
+    {
+      "step_number": 2,
+      "action": "TODO",
+      "description": "TODO: Add detailed step 2 description (50+ characters minimum)"
+    },
+    {
+      "step_number": 3,
+      "action": "TODO",
+      "description": "TODO: Add detailed step 3 description (50+ characters minimum)"
+    },
+    {
+      "step_number": 4,
+      "action": "TODO",
+      "description": "TODO: Add detailed step 4 description (50+ characters minimum)"
+    },
+    {
+      "step_number": 5,
+      "action": "TODO",
+      "description": "TODO: Add detailed step 5 description (50+ characters minimum)"
+    },
+    {
+      "step_number": 6,
+      "action": "TODO",
+      "description": "TODO: Add detailed step 6 description (50+ characters minimum)"
+    }
+  ],
+  "common_counters": [
+    {
+      "counter": "TODO: Add counter 1",
+      "effectiveness": "Medium"
+    },
+    {
+      "counter": "TODO: Add counter 2",
+      "effectiveness": "Medium"
+    },
+    {
+      "counter": "TODO: Add counter 3",
+      "effectiveness": "Low"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "TODO: Add error 1",
+      "consequence": "TODO",
+      "correction": "TODO"
+    },
+    {
+      "error": "TODO: Add error 2",
+      "consequence": "TODO",
+      "correction": "TODO"
+    },
+    {
+      "error": "TODO: Add error 3",
+      "consequence": "TODO",
+      "correction": "TODO"
+    },
+    {
+      "error": "TODO: Add error 4",
+      "consequence": "TODO",
+      "correction": "TODO"
+    },
+    {
+      "error": "TODO: Add error 5",
+      "consequence": "TODO",
+      "correction": "TODO"
+    }
+  ],
+  "training_progressions": [
+    {
+      "phase": "Week 1-2",
+      "focus": "Fundamentals",
+      "description": "TODO",
+      "resistance_level": "None"
+    },
+    {
+      "phase": "Week 3-4",
+      "focus": "Timing",
+      "description": "TODO",
+      "resistance_level": "Light"
+    },
+    {
+      "phase": "Week 5-6",
+      "focus": "Combinations",
+      "description": "TODO",
+      "resistance_level": "Medium"
+    },
+    {
+      "phase": "Week 7+",
+      "focus": "Live application",
+      "description": "TODO",
+      "resistance_level": "Full"
+    }
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "TODO: Variant 1",
+      "description": "TODO"
+    },
+    {
+      "variant_name": "TODO: Variant 2",
+      "description": "TODO"
+    }
+  ],
+  "knowledge_assessment": [
+    {
+      "question": "What is the primary goal of Back Door Escape?",
+      "answer": "TODO: Add answer"
+    },
+    {
+      "question": "What position do you start Back Door Escape from?",
+      "answer": "This technique starts from D'arce Control/Bottom."
+    },
+    {
+      "question": "What are the key grips needed for Back Door Escape?",
+      "answer": "TODO: Add answer"
+    },
+    {
+      "question": "How do you counter Back Door Escape?",
+      "answer": "TODO: Add answer"
+    },
+    {
+      "question": "When is the best time to attempt Back Door Escape?",
+      "answer": "TODO: Add answer"
+    }
+  ],
+  "safety_considerations": "TODO: Add safety considerations for this technique. Include any injury risks, proper training protocols, and when to avoid attempting this move.",
+  "position_integration": "TODO: Describe how Back Door Escape fits into the overall BJJ game. Explain its relationship to D'arce Control and common follow-ups.",
+  "related_content": [
+    {
+      "name": "D'arce Control",
+      "relationship": "Starting position"
+    },
+    {
+      "name": "TODO: Related technique 1",
+      "relationship": "TODO"
+    },
+    {
+      "name": "TODO: Related technique 2",
+      "relationship": "TODO"
+    }
+  ]
+}

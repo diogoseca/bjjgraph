@@ -93,26 +93,20 @@ The position is inherently transitional and requires immediate attack execution.
 - Move explosively when creating space - slow movements allow opponent to follow and re-establish control
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Hip Escape]]** → [[Standing Position]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Hip Escape]]** (17% of attempts)
 
-- **[[Grip Break]]** → [[Clinch]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Grip Break]]** (15% of attempts)
 
-- **[[Sitting Guard Pull]]** → [[Closed Guard]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Sitting Guard Pull]]** (21% of attempts)
 
-- **[[Technical Standup]]** → [[Standing Position]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+- **[[Technical Standup]]** (14% of attempts)
 
-- **[[Sprawl Defense]]** → [[Front Headlock]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Sprawl Defense]]** (15% of attempts)
 
-- **[[Rolling to Guard]]** → [[Closed Guard]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Rolling to Guard]]** (18% of attempts)
 
 
 ### Common Mistakes
@@ -166,32 +160,22 @@ The position is inherently transitional and requires immediate attack execution.
 - Maintain locked grip throughout entire technique execution until new dominant position is secured
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Back Take Generic]]** → [[Back Control]]
-  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 80%
+- **[[Back Take Generic]]** (18% of attempts)
 
-- **[[Turtle to Back Take]]** → [[Standing Back Control]]
-  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+- **[[Turtle to Back Take]]** (16% of attempts)
 
-- **[[Body Lock Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Body Lock Pass]]** (18% of attempts)
 
-- **[[Bodylock Pass]]** → [[Turtle]]
-  - Success Rate: Beginner 55%, Intermediate 70%, Advanced 85%
+- **[[Double Leg Entry]]** (12% of attempts)
 
-- **[[Double leg takedown]]** → [[Side Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Snap Down]]** (14% of attempts)
 
-- **[[Snap Down]]** → [[Front Headlock]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Turtle to Back Control]]** (12% of attempts)
 
-- **[[Turtle to Back Control]]** → [[Seat Belt Control Back]]
-  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 80%
-
-- **[[Rolling Back Take]]** → [[Back Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Rolling Back Take]]** (10% of attempts)
 
 
 ### Common Mistakes

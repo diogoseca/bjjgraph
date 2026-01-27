@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Technical Stand Up to Single Leg | BJJ Technique | BJJ Graph"
 description: "Master Technical Stand Up to Single Leg in BJJ. Execute safe standup from bottom positions and attack with single leg takedown. Beginner 35%, Intermediate 50%, Advanced 65%."
@@ -16,7 +17,7 @@ description: "Master Technical Stand Up to Single Leg in BJJ. Execute safe stand
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Technical Stand Up to Single Leg in BJJ",
-  "description": "Step-by-step guide for Technical Stand Up to Single Leg from Turtle to Single Leg X-Guard.",
+  "description": "Step-by-step guide for Technical Stand Up to Single Leg from Turtle/Top. Possible outcomes: Single Leg X-Guard/Bottom (65%), Turtle/Top (25%), Turtle/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -160,11 +161,25 @@ description: "Master Technical Stand Up to Single Leg in BJJ. Execute safe stand
 
 The Technical Stand Up to Single Leg is a fundamental defensive recovery sequence that transforms a vulnerable bottom position into an offensive wrestling attack. This technique combines the safety and base management of the technical standup with the explosive entry mechanics of single leg takedowns, creating a seamless transition from defense to offense. The sequence is particularly valuable in no-gi grappling, MMA, and self-defense contexts where maintaining distance and controlling engagement timing is critical. By establishing proper base during the standup phase, you create the structural foundation necessary to generate explosive power for the single leg entry. The technique exemplifies the principle of position-over-submission thinking, as you prioritize safe recovery before attacking. Against opponents who pressure forward during your standup, this sequence allows you to redirect their momentum into a takedown opportunity, turning their aggression into your advantage.
 
-**Starting Position**: [[Turtle]]
-**Ending Position**: [[Single Leg X-Guard]]
+**From Position**: [[Turtle/Top]]
 **Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Single Leg X-Guard/Bottom]] | 65% |
+| Failure | [[Turtle/Top]] | 25% |
+| Counter | [[Turtle/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

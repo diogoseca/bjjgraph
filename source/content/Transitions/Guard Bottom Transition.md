@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Guard Bottom Transition | BJJ Technique | BJJ Graph"
 description: "Learn Guard Bottom Transition in BJJ. Master proper guard pulling mechanics from standing to open guard. Success rates: Beginner 70%, Intermediate 80%, Advanced 90%."
@@ -16,7 +17,7 @@ description: "Learn Guard Bottom Transition in BJJ. Master proper guard pulling 
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Guard Bottom Transition in BJJ",
-  "description": "Step-by-step guide for Guard Bottom Transition from Standing Position to Open Guard.",
+  "description": "Step-by-step guide for Guard Bottom Transition from Standing Position/Top. Possible outcomes: Open Guard/Bottom (75%), Standing Position/Top (15%), Standing Position/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -160,11 +161,25 @@ description: "Learn Guard Bottom Transition in BJJ. Master proper guard pulling 
 
 The Guard Bottom Transition, commonly known as pulling guard, is a fundamental BJJ technique that allows a practitioner to voluntarily move from standing position to open guard bottom. This transition is essential in modern Brazilian Jiu-Jitsu as it enables grapplers to establish their preferred guard system without engaging in the takedown battle. The technique involves controlled sitting while maintaining grips on the opponent, ensuring proper distance management and immediate guard establishment. Unlike a wrestling-focused approach where both practitioners compete for takedowns, pulling guard represents a strategic choice to fight from the bottom position, leveraging the comprehensive guard attack system that BJJ is renowned for. This transition is particularly valuable in sport BJJ competition where pulling guard incurs no penalty and allows immediate implementation of sweeps, submissions, and control strategies from the bottom position.
 
-**Starting Position**: [[Standing Position]]
-**Ending Position**: [[Open Guard]]
+**From Position**: [[Standing Position/Top]]
 **Success Rates**: Beginner 70%, Intermediate 80%, Advanced 90%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Open Guard/Bottom]] | 75% |
+| Failure | [[Standing Position/Top]] | 15% |
+| Counter | [[Standing Position/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

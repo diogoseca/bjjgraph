@@ -1,4 +1,5 @@
-// Victory Display - Shows journey stats and celebration on Won by Submission page
+// Victory Display - Game-over page with performance report
+// Journey data stored in localStorage (future: auth + server-side persistence)
 
 interface JourneyStep {
   slug: string
@@ -12,15 +13,19 @@ interface VictoryData {
   journey: JourneyStep[]
 }
 
-// Simple confetti animation using CSS
+interface TechniqueRecord {
+  name: string
+  attempts: number
+  successes: number
+}
+
 function createConfetti(container: HTMLElement) {
   const colors = ["#2e7d32", "#4caf50", "#81c784", "#ffd700", "#ffeb3b"]
-  const confettiCount = 50
 
-  for (let i = 0; i < confettiCount; i++) {
-    const confetti = document.createElement("div")
-    confetti.className = "confetti-piece"
-    confetti.style.cssText = `
+  for (let i = 0; i < 50; i++) {
+    const piece = document.createElement("div")
+    piece.className = "confetti-piece"
+    piece.style.cssText = `
       position: absolute;
       width: ${Math.random() * 10 + 5}px;
       height: ${Math.random() * 10 + 5}px;
@@ -32,119 +37,143 @@ function createConfetti(container: HTMLElement) {
       animation: confetti-fall ${Math.random() * 2 + 2}s ease-out forwards;
       animation-delay: ${Math.random() * 0.5}s;
     `
-    container.appendChild(confetti)
+    container.appendChild(piece)
   }
 
-  // Clean up confetti after animation
   setTimeout(() => {
     container.innerHTML = ""
   }, 4000)
 }
 
-// Hide ALL content sections - we only want the victory UI
 function hideAllContent() {
-  // Hide the entire article content
   const article = document.querySelector("article")
   if (article) {
     article.style.display = "none"
   }
-
-  // Also hide any remaining sections by ID just in case
-  const sectionsToHide = [
-    "overview",
-    "state-invariants",
-    "prerequisites",
-    "key-principles",
-    "offensive-transitions",
-    "defensive-responses",
-    "counter-transitions",
-    "decision-tree",
-    "common-mistakes",
-    "training-drills",
-    "optimal-submission-paths",
-    "position-metrics",
-    "related-content",
-  ]
-
-  sectionsToHide.forEach((id) => {
-    const section = document.getElementById(id)
-    if (section) {
-      section.style.display = "none"
-    }
-  })
 }
 
+/**
+ * Analyze journey steps to produce strengths and weaknesses.
+ * Groups techniques by name, calculates success rate, then splits
+ * into "landed consistently" vs "needs more drilling".
+ */
+function analyzePerformance(journey: JourneyStep[]): {
+  strengths: TechniqueRecord[]
+  weaknesses: TechniqueRecord[]
+} {
+  const techniques = new Map<string, TechniqueRecord>()
 
-// Handle Roll Again - clear journey and navigate home to roll
-async function handleRollAgain() {
-  // Clear journey data
+  for (const step of journey) {
+    if (step.success === undefined) continue
+
+    let record = techniques.get(step.name)
+    if (!record) {
+      record = { name: step.name, attempts: 0, successes: 0 }
+      techniques.set(step.name, record)
+    }
+
+    record.attempts++
+    if (step.success) record.successes++
+  }
+
+  const strengths: TechniqueRecord[] = []
+  const weaknesses: TechniqueRecord[] = []
+
+  for (const record of techniques.values()) {
+    const rate = record.successes / record.attempts
+    if (rate >= 0.5) {
+      strengths.push(record)
+    } else {
+      weaknesses.push(record)
+    }
+  }
+
+  // Sort strengths by success rate descending, weaknesses by attempts descending
+  strengths.sort((a, b) => b.successes / b.attempts - a.successes / a.attempts)
+  weaknesses.sort((a, b) => b.attempts - a.attempts)
+
+  return { strengths, weaknesses }
+}
+
+function renderReport(journey: JourneyStep[]) {
+  const reportEl = document.getElementById("performance-report")
+  const strengthsList = document.getElementById("report-strengths")
+  const weaknessesList = document.getElementById("report-weaknesses")
+
+  if (!reportEl || !strengthsList || !weaknessesList) return
+
+  const { strengths, weaknesses } = analyzePerformance(journey)
+
+  // Only show report if there's meaningful data (at least 2 technique attempts)
+  const totalAttempts = journey.filter((s) => s.success !== undefined).length
+  if (totalAttempts < 2) return
+
+  for (const tech of strengths) {
+    const li = document.createElement("li")
+    li.className = "report-item strength"
+    const pct = Math.round((tech.successes / tech.attempts) * 100)
+    li.innerHTML = `<span class="report-technique">${tech.name}</span><span class="report-rate">${pct}%</span>`
+    strengthsList.appendChild(li)
+  }
+
+  for (const tech of weaknesses) {
+    const li = document.createElement("li")
+    li.className = "report-item weakness"
+    const pct = Math.round((tech.successes / tech.attempts) * 100)
+    li.innerHTML = `<span class="report-technique">${tech.name}</span><span class="report-rate">${pct}%</span>`
+    weaknessesList.appendChild(li)
+  }
+
+  // Show "Clean sheet" or "All defended" if one side is empty
+  if (strengths.length === 0) {
+    const li = document.createElement("li")
+    li.className = "report-item empty"
+    li.textContent = "Keep drilling!"
+    strengthsList.appendChild(li)
+  }
+
+  if (weaknesses.length === 0) {
+    const li = document.createElement("li")
+    li.className = "report-item empty"
+    li.textContent = "Clean sheet"
+    weaknessesList.appendChild(li)
+  }
+
+  reportEl.style.display = "block"
+}
+
+// Uses build-time injected window.__rollPositions (no runtime fetch needed)
+function navigateToRandomPosition() {
+  const positions = (window as any).__rollPositions as Array<{ s: string; n: string }> | undefined
+  if (!positions || positions.length === 0) {
+    window.spaNavigate(new URL("/", window.location.toString()), false)
+    return
+  }
+
+  const position = positions[Math.floor(Math.random() * positions.length)]
+
+  sessionStorage.setItem(
+    "snackbar",
+    JSON.stringify({ type: "info", message: `Roll started in ${position.n}` }),
+  )
+
+  window.spaNavigate(new URL(`/${position.s}`, window.location.toString()), false)
+}
+
+function handleRollAgain() {
   localStorage.setItem("bjj-journey", "[]")
   sessionStorage.removeItem("victory-data")
-
-  // Fetch state graph and pick random position
-  const baseUrl = document.documentElement.dataset.baseUrl ?? ""
-
-  try {
-    const response = await fetch(`${baseUrl}/static/stateGraph.json`)
-    const stateGraph = await response.json()
-
-    // Get all position pages with roles
-    const rolePages = Object.keys(stateGraph.positions).filter(
-      (slug: string) => slug.includes("/top") || slug.includes("/bottom"),
-    )
-
-    if (rolePages.length === 0) {
-      window.spaNavigate(new URL("/", window.location.toString()), false)
-      return
-    }
-
-    const randomSlug = rolePages[Math.floor(Math.random() * rolePages.length)]
-    const positionData = stateGraph.positions[randomSlug]
-    const positionName = positionData?.name || "Unknown Position"
-
-    // Set snackbar for arrival
-    sessionStorage.setItem(
-      "snackbar",
-      JSON.stringify({
-        type: "info",
-        message: `Roll started in ${positionName}`,
-      }),
-    )
-
-    // Build URL
-    let targetUrl: string
-    if (positionData?.path) {
-      const urlPath = positionData.path.replace(/\s+/g, "-")
-      targetUrl = `/Positions/${urlPath}`
-    } else {
-      const pathParts = randomSlug.split("/")
-      const formattedParts = pathParts.map((part: string) =>
-        part
-          .split("-")
-          .map((w: string) => w.charAt(0).toUpperCase() + w.slice(1))
-          .join("-"),
-      )
-      targetUrl = `/Positions/${formattedParts.join("/")}`
-    }
-
-    window.spaNavigate(new URL(targetUrl, window.location.toString()), false)
-  } catch {
-    // Fallback to homepage
-    window.spaNavigate(new URL("/", window.location.toString()), false)
-  }
+  navigateToRandomPosition()
 }
 
-// Navigate to homepage for Start Rolling button
 function handleStartRoll() {
   localStorage.setItem("bjj-journey", "[]")
   sessionStorage.removeItem("victory-data")
-  handleRollAgain()
+  navigateToRandomPosition()
 }
 
 document.addEventListener("nav", () => {
-  console.log("[VictoryDisplay] Nav event fired")
   const victoryDisplay = document.getElementById("victory-display")
-  console.log("[VictoryDisplay] victoryDisplay element:", victoryDisplay)
   if (!victoryDisplay) return
 
   const victoryContent = document.getElementById("victory-content")
@@ -159,52 +188,29 @@ document.addEventListener("nav", () => {
   const rollAgainBtn = document.getElementById("roll-again-btn")
   const startRollBtn = document.getElementById("start-roll-btn")
 
-  console.log("[VictoryDisplay] Elements found:", {
-    victoryContent: !!victoryContent,
-    victoryFallback: !!victoryFallback,
-    statMoves: !!statMoves,
-    statSuccesses: !!statSuccesses,
-    statFailures: !!statFailures,
-    journeyPath: !!journeyPath,
-  })
-
-  if (
-    !victoryContent ||
-    !victoryFallback ||
-    !statMoves ||
-    !statSuccesses ||
-    !statFailures ||
-    !journeyPath
-  ) {
-    console.log("[VictoryDisplay] Missing required elements, exiting")
+  if (!victoryContent || !victoryFallback || !statMoves || !statSuccesses || !statFailures || !journeyPath) {
     return
   }
 
-  // Check for victory data from sessionStorage
   const victoryDataRaw = sessionStorage.getItem("victory-data")
-  console.log("[VictoryDisplay] Victory data raw:", victoryDataRaw)
 
   if (victoryDataRaw) {
     try {
       const victoryData: VictoryData = JSON.parse(victoryDataRaw)
       const journey = victoryData.journey || []
 
-      // Calculate stats
       const totalMoves = journey.length
       const successes = journey.filter((step) => step.success === true).length
       const failures = journey.filter((step) => step.success === false).length
 
-      // Update stats
       statMoves.textContent = String(totalMoves)
       statSuccesses.textContent = String(successes)
       statFailures.textContent = String(failures)
 
-      // Update title with submission name
       if (victoryTitle && victoryData.submissionName) {
         victoryTitle.textContent = `Victory by ${victoryData.submissionName}!`
       }
 
-      // Add subtitle
       if (victorySubtitle) {
         if (totalMoves === 1) {
           victorySubtitle.textContent = "Lightning fast submission!"
@@ -217,29 +223,28 @@ document.addEventListener("nav", () => {
         }
       }
 
-      // Build journey path display
+      // Performance report
+      renderReport(journey)
+
+      // Journey path
       journeyPath.innerHTML = ""
 
-      // Filter to show meaningful steps (first position + transitions/submissions)
       const meaningfulSteps = journey.filter(
-        (step, index) => index === 0 || step.type === "transition" || step.type === "submission",
+        (step, idx) => idx === 0 || step.type === "transition" || step.type === "submission",
       )
 
-      meaningfulSteps.forEach((step, index) => {
+      meaningfulSteps.forEach((step, idx) => {
         const stepEl = document.createElement("span")
         stepEl.className = `journey-step ${step.type}`
 
-        // Add success/failure indicator for transitions/submissions
         if (step.type !== "position" && step.success !== undefined) {
           stepEl.classList.add(step.success ? "success" : "failure")
         }
 
         stepEl.textContent = step.name
-
         journeyPath.appendChild(stepEl)
 
-        // Add arrow between steps
-        if (index < meaningfulSteps.length - 1) {
+        if (idx < meaningfulSteps.length - 1) {
           const arrow = document.createElement("span")
           arrow.className = "journey-arrow"
           arrow.textContent = " \u2192 "
@@ -247,37 +252,26 @@ document.addEventListener("nav", () => {
         }
       })
 
-      // Show victory content, hide fallback
       victoryContent.style.display = "block"
       victoryFallback.style.display = "none"
-
-      // Hide all static content - only show victory UI
       hideAllContent()
 
-      // Trigger confetti
       if (confettiContainer) {
         createConfetti(confettiContainer)
       }
 
-      // Clear victory data after displaying (so refresh shows fallback)
       sessionStorage.removeItem("victory-data")
     } catch {
-      // Invalid data, show fallback
       victoryContent.style.display = "none"
       victoryFallback.style.display = "block"
       hideAllContent()
     }
   } else {
-    // No victory data - show fallback for direct navigation
-    console.log("[VictoryDisplay] No victory data, showing fallback")
     victoryContent.style.display = "none"
     victoryFallback.style.display = "block"
-    console.log("[VictoryDisplay] Fallback display set to:", victoryFallback.style.display)
-    // Hide all static content - only show the Roll button
     hideAllContent()
   }
 
-  // Attach event handlers
   if (rollAgainBtn) {
     rollAgainBtn.addEventListener("click", handleRollAgain)
     window.addCleanup(() => rollAgainBtn.removeEventListener("click", handleRollAgain))

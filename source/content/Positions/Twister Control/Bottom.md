@@ -20,38 +20,38 @@ description: "Master defensive strategies for Twister Control Bottom. Learn esca
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Address Leg Control",
-      "text": "From this position, execute Address Leg Control to transition to Turtle. Success rate for advanced practitioners: 50%.",
+      "name": "Execute Leg Extraction to Half Guard",
+      "text": "From this position, attempt Leg Extraction to Half Guard. This technique is attempted in 25% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Roll Through Escape",
-      "text": "From this position, execute Roll Through Escape to transition to Half Guard. Success rate for advanced practitioners: 45%.",
+      "text": "From this position, attempt Roll Through Escape. This technique is attempted in 15% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Frame and Turn",
-      "text": "From this position, execute Frame and Turn to transition to Turtle. Success rate for advanced practitioners: 48%.",
+      "name": "Execute Frame and Turn to Turtle",
+      "text": "From this position, attempt Frame and Turn to Turtle. This technique is attempted in 25% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Leg Extraction",
-      "text": "From this position, execute Leg Extraction to transition to Back Control. Success rate for advanced practitioners: 40%.",
+      "name": "Execute Counter Roll to Scramble",
+      "text": "From this position, attempt Counter Roll to Scramble. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Scramble to Guard",
-      "text": "From this position, execute Scramble to Guard to transition to Closed Guard. Success rate for advanced practitioners: 35%.",
+      "name": "Execute Hip Escape to Guard Recovery",
+      "text": "From this position, attempt Hip Escape to Guard Recovery. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Defensive Roll",
-      "text": "From this position, execute Defensive Roll to transition to Defensive Position. Success rate for advanced practitioners: 52%.",
+      "name": "Execute Explosive Turn to Side Control Bottom",
+      "text": "From this position, attempt Explosive Turn to Side Control Bottom. This technique is attempted in 15% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -215,74 +215,18 @@ The energy dynamics of being stuck in Twister Control Bottom are particularly ch
 
 ## Available Escapes
 
-### [[Address Leg Control]] → [[Turtle]]
+### [[Leg Extraction to Half Guard]] (25% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
+### [[Roll Through Escape]] (15% of attempts)
 
-### [[Roll Through Escape]] → [[Half Guard]]
+### [[Frame and Turn to Turtle]] (25% of attempts)
 
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 45%
+### [[Counter Roll to Scramble]] (10% of attempts)
 
-### [[Frame and Turn]] → [[Turtle]]
+### [[Hip Escape to Guard Recovery]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 18%
-- Intermediate: 32%
-- Advanced: 48%
+### [[Explosive Turn to Side Control Bottom]] (15% of attempts)
 
-### [[Leg Extraction]] → [[Back Control]]
-
-**Success Rates:**
-- Beginner: 12%
-- Intermediate: 25%
-- Advanced: 40%
-
-### [[Scramble to Guard]] → [[Closed Guard]]
-
-**Success Rates:**
-- Beginner: 10%
-- Intermediate: 22%
-- Advanced: 35%
-
-### [[Defensive Roll]] → [[Defensive Position]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 38%
-- Advanced: 52%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Twister Finish]]** → [[Lost by Submission]] (Opponent Success: 70%)
-- **[[Neck Crank]]** → [[Lost by Submission]] (Opponent Success: 55%)
-- **[[Guillotine Choke]]** → [[Lost by Submission]] (Opponent Success: 50%)
-- **[[Calf Slicer from Truck]]** → [[Lost by Submission]] (Opponent Success: 45%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Counter Roll]]** → [[Scramble Position]]
-  - Opponent overcommits to Twister submission allowing momentum reversal
-- **[[Leg Hook Counter]]** → [[Half Guard]]
-  - Opponent's leg control loosens during adjustment
-- **[[Explosive Turn]]** → [[Turtle]]
-  - Upper body control breaks momentarily during transition
 
 
 </section>
@@ -378,25 +322,7 @@ Practice hand fighting and neck protection while in rotated position. Partner at
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
-
-### Escape to Defensive Recovery
-
-`Twister Control Bottom → Protect neck → Address leg control → Turtle → Guard Recovery`
-
-### Roll Through Escape
-
-`Twister Control Bottom → Roll with twist → Half Guard → Guard consolidation`
-
-### Frame and Turn Escape
-
-`Twister Control Bottom → Create frames → Reduce rotation → Turn to face → Turtle or Guard`
-
-
-
-</section>
 
 <section id="position-metrics" class="content-section">
 

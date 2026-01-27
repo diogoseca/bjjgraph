@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Side Control Escape | BJJ Technique | BJJ Graph"
 description: "Learn Side Control Escape in BJJ. Step-by-step execution from Side Control Bottom to Guard Recovery. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%."
@@ -16,7 +17,7 @@ description: "Learn Side Control Escape in BJJ. Step-by-step execution from Side
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Side Control Escape in BJJ",
-  "description": "Step-by-step guide for Side Control Escape from Side Control to Closed Guard.",
+  "description": "Step-by-step guide for Side Control Escape from Side Control/Top. Possible outcomes: Closed Guard/Bottom (70%), Side Control/Top (20%), Side Control/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -154,11 +155,25 @@ description: "Learn Side Control Escape in BJJ. Step-by-step execution from Side
 
 The Side Control Escape is one of the most fundamental defensive techniques in Brazilian Jiu-Jitsu, representing a critical survival skill for practitioners at all levels. When trapped in side control, the bottom player faces constant pressure, point accumulation, and the threat of submission. This escape sequence uses precise framing, hip movement, and timing to create space and recover guard position. The technique emphasizes creating defensive frames to manage opponent's pressure while systematically working to turn the hips, insert the knee shield, and reestablish guard. Understanding side control escapes is essential because side control is one of the most common dominant positions in both gi and no-gi grappling. The escape requires patience, proper breathing under pressure, and the discipline to execute technical movements rather than relying on explosive strength. Mastering this fundamental escape provides the foundation for more advanced guard recovery systems and builds the defensive awareness necessary for high-level competition.
 
-**Starting Position**: [[Side Control]]
-**Ending Position**: [[Closed Guard]]
+**From Position**: [[Side Control/Top]]
 **Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Closed Guard/Bottom]] | 70% |
+| Failure | [[Side Control/Top]] | 20% |
+| Counter | [[Side Control/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

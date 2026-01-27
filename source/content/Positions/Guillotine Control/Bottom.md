@@ -21,37 +21,37 @@ description: "Master Guillotine Control Bottom in BJJ. Complete guide covering s
     {
       "@type": "HowToStep",
       "name": "Execute Guillotine Choke",
-      "text": "From this position, execute Guillotine Choke to transition to Won by Submission. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Guillotine Choke. This technique is attempted in 13% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute High Elbow Guillotine",
-      "text": "From this position, execute High Elbow Guillotine to transition to Won by Submission. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt High Elbow Guillotine. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm in Guillotine",
-      "text": "From this position, execute Arm in Guillotine to transition to Won by Submission. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Arm in Guillotine. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Mount",
-      "text": "From this position, execute Transition to Mount to transition to Mount. Success rate for advanced practitioners: 50%.",
+      "name": "Execute Hip Bump Sweep",
+      "text": "From this position, attempt Hip Bump Sweep. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Hip Bump Sweep",
-      "text": "From this position, execute Hip Bump Sweep to transition to Mount. Success rate for advanced practitioners: 60%.",
+      "name": "Execute Guillotine Setup",
+      "text": "From this position, attempt Guillotine Setup. This technique is attempted in 14% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Guillotine Setup",
-      "text": "From this position, execute Guillotine Setup to transition to Closed Guard. Success rate for advanced practitioners: 75%.",
+      "name": "Execute Closed Guard to Omoplata",
+      "text": "From this position, attempt Closed Guard to Omoplata. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -213,101 +213,22 @@ From a positional hierarchy perspective, Guillotine Control Bottom represents a 
 
 ## Available Escapes
 
-### [[Guillotine Choke]] → [[Won by Submission]]
+### [[Guillotine Choke]] (13% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 45%
-- Advanced: 70%
+### [[High Elbow Guillotine]] (12% of attempts)
 
-### [[High Elbow Guillotine]] → [[Won by Submission]]
+### [[Arm in Guillotine]] (13% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 40%
-- Advanced: 65%
+### [[Hip Bump Sweep]] (12% of attempts)
 
-### [[Arm in Guillotine]] → [[Won by Submission]]
+### [[Guillotine Setup]] (14% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 75%
+### [[Closed Guard to Omoplata]] (10% of attempts)
 
-### [[Transition to Mount]] → [[Mount]]
+### [[Switch to Triangle]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 50%
+### [[Anaconda Choke]] (14% of attempts)
 
-### [[Hip Bump Sweep]] → [[Mount]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 60%
-
-### [[Guillotine Setup]] → [[Closed Guard]]
-
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 60%
-- Advanced: 75%
-
-### [[Transition to Omoplata]] → [[Omoplata Control]]
-
-**Success Rates:**
-- Beginner: 10%
-- Intermediate: 25%
-- Advanced: 45%
-
-### [[Switch to Triangle]] → [[Triangle Control]]
-
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 50%
-
-### [[Anaconda Choke]] → [[Won by Submission]]
-
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 35%
-- Advanced: 60%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Guillotine Defense]]** → [[Side Control]] (Opponent Success: 50%)
-- **[[Guillotine Counter]]** → [[Mount]] (Opponent Success: 35%)
-- **[[Guard Pass]]** → [[Side Control]] (Opponent Success: 40%)
-- **[[Sprawl]]** → [[Front Headlock]] (Opponent Success: 45%)
-- **[[Von Flue Choke]]** → [[Won by Submission]] (Opponent Success: 20%)
-- **[[Stack Defense]]** → [[Closed Guard]] (Opponent Success: 55%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Hip Bump Sweep]]** → [[Mount]]
-  - Opponent drives weight forward to defend choke
-- **[[Switch to Triangle]]** → [[Triangle Control]]
-  - Opponent pulls arm across to defend guillotine
-- **[[Transition to Omoplata]]** → [[Omoplata Control]]
-  - Opponent posts hand on mat to create space
-- **[[Anaconda Choke]]** → [[Won by Submission]]
-  - Opponent turns into the choke to escape
-- **[[Guillotine Setup]]** → [[Closed Guard]]
-  - Opponent backs out to relieve pressure
 
 
 </section>
@@ -322,13 +243,13 @@ From a positional hierarchy perspective, Guillotine Control Bottom represents a 
 
 
 **If opponent postures up and attempts to create space by extending arms or lifting torso:**
-- Execute **[[High Elbow Guillotine]]** → [[Won by Submission]] (Probability: 65%)
+- Execute **[[High Elbow Guillotine]]** → [[game-over]] (Probability: 65%)
 - Execute **[[Guillotine Setup]]** → [[Closed Guard]] (Probability: 50%)
 
 
 **If opponent turns head and shoulders away from choking arm to escape:**
-- Execute **[[Anaconda Choke]]** → [[Won by Submission]] (Probability: 60%)
-- Execute **[[Darce Choke]]** → [[Won by Submission]] (Probability: 55%)
+- Execute **[[Anaconda Choke]]** → [[game-over]] (Probability: 60%)
+- Execute **[[Darce Choke]]** → [[game-over]] (Probability: 55%)
 
 
 **If opponent successfully creates significant space and begins extracting head:**
@@ -337,8 +258,8 @@ From a positional hierarchy perspective, Guillotine Control Bottom represents a 
 
 
 **If opponent keeps head down and attempts to drive forward while defending neck:**
-- Execute **[[Arm in Guillotine]]** → [[Won by Submission]] (Probability: 70%)
-- Execute **[[Transition to Mount]]** → [[Mount]] (Probability: 45%)
+- Execute **[[Arm in Guillotine]]** → [[game-over]] (Probability: 70%)
+- Execute **[[Hip Bump Sweep]]** → [[Mount]] (Probability: 45%)
 
 
 
@@ -431,37 +352,39 @@ Start each round with bottom player establishing guillotine control in guard. Bo
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Direct Guillotine Finish Path
+## Test Your Knowledge
 
-`Guillotine Control Bottom → Guillotine Choke → Won by Submission`
+**Q1**: What are the essential grips for maintaining Guillotine Control Bottom?
+**A**: The primary grips include palm-to-palm, gable grip, and S-grip configurations with the choking arm wrapped around the opponent's neck. The blade of the wrist or forearm should cross the front of the throat targeting the trachea or carotid arteries. The supporting hand reinforces by clasping the choking wrist or forearm to create a closed loop, preventing opponent from peeling the grip.
 
-### High-Percentage Arm-In Path
+**Q2**: How should you position your hips to maintain control from Guillotine Control Bottom?
+**A**: Hips should be positioned underneath or slightly behind the opponent's center of gravity, angled toward the choking side. This creates a fulcrum point that amplifies choking pressure. Avoid flat-on-back positioning which allows opponent to drive forward and flatten you. Hip mobility allows you to follow the opponent's escape attempts and maintain optimal choking angle.
 
-`Guillotine Control Bottom → Recognize arm trap → Arm in Guillotine → Won by Submission`
+**Q3**: Your opponent begins driving their weight forward to flatten you—what adjustment do you make?
+**A**: Use the forward pressure against them by executing a hip bump sweep, leveraging their committed weight to roll them over your hip to mount while maintaining the guillotine grip. Alternatively, angle your hips away from the pressure and use butterfly hooks to elevate and redirect their weight. Never fight their pressure head-on—redirect it.
 
-### Sweep to Mounted Guillotine Path
+**Q4**: What is the primary escape your opponent will attempt and how do you shut it down?
+**A**: The most common escape is posturing up and hand fighting to extract the head. Counter by maintaining downward pressure on the head with your choking arm while your legs actively prevent posture through closed guard, butterfly hooks, or high guard. If they begin creating space, immediately close the distance with your legs and pull the head back down before they can fully posture.
 
-`Guillotine Control Bottom → Hip Bump Sweep → Mount (maintain guillotine) → Guillotine Choke → Won by Submission`
+**Q5**: How do you apply finishing pressure without exhausting yourself from bottom position?
+**A**: Use leg control (closed guard or high guard) to do the work of compressing the opponent's posture rather than relying solely on arm strength. The choking pressure comes from the angle and connection—keep elbows tight to your body and let the forearm blade do the work against the neck structures. Adjust angle rather than squeezing harder when the choke stalls.
 
-### Triangle Transition Path
+**Q6**: Your opponent successfully tucks their chin against the choke—what is your response?
+**A**: Transition to alternative attacks that exploit their chin tuck. The high elbow guillotine attacks behind the chin by driving your elbow toward the ceiling. If they trap their arm inside, switch to arm-in guillotine mechanics. Their chin tuck also opens triangle and omoplata opportunities as they become preoccupied with neck defense.
 
-`Guillotine Control Bottom → Opponent defends with arm across → Switch to Triangle → Triangle Choke → Won by Submission`
+**Q7**: What leg position provides the best finishing platform for Guillotine Control Bottom?
+**A**: High closed guard with legs positioned high on opponent's back provides the best finishing platform—it breaks posture, prevents escape, and creates a stable base for choking pressure. Alternatively, one-leg-up guard (same side as choking arm elevated, opposite leg controlling hip) creates excellent finishing angle while maintaining control.
 
-### Anaconda Counter Path
-
-`Guillotine Control Bottom → Opponent turns away → Anaconda Choke → Won by Submission`
-
-### High Elbow Variation Path
-
-`Guillotine Control Bottom → Opponent postures up → High Elbow Guillotine → Won by Submission`
+**Q8**: How do you recover control if opponent begins passing your guard while defending the guillotine?
+**A**: If they begin passing, you must decide quickly: either fully commit to the guillotine finish before they complete the pass (risky but sometimes necessary), or release the choke and address the pass with standard guard retention. If releasing, maintain wrist control to prevent them from immediately posturing up and use the released arm to re-frame and recover guard before they consolidate.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -487,11 +410,11 @@ Start each round with bottom player establishing guillotine control in guard. Bo
 - **[[Half Guard]]** - Common transition - alternative guard retention option
 - **[[Guillotine Choke]]** - Primary submission - main finishing technique
 - **[[Arm in Guillotine]]** - Variation technique - arm-trapped finishing method
-- **[[High Elbow Guillotine]]** - Variation technique - high-leverage finishing method
+- **[[Chin Strap Guillotine]]** - Variation technique - alternative finishing mechanics with chin control
 - **[[Anaconda Choke]]** - Alternative submission - counter when opponent turns
 - **[[Triangle Control]]** - Chain submission - transition when arm crosses
-- **[[Marcelo Garcia Guillotine System]]** - Expert system - comprehensive guillotine methodology
-- **[[systematic approach Front Headlock System]]** - Expert system - systematic front headlock approach
+- **[[Omoplata Control]]** - Chain submission - transition when opponent posts hand
+- **[[Butterfly Guard]]** - Guard variation - alternative leg positioning for control
 
 
 </section>

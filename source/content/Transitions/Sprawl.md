@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Sprawl | BJJ Technique | BJJ Graph"
 description: "Master the Sprawl takedown defense in BJJ. Essential defensive technique against single and double leg attacks. Success rates: Beginner 45%, Intermediate 65%, Advanced 85%."
@@ -16,7 +17,7 @@ description: "Master the Sprawl takedown defense in BJJ. Essential defensive tec
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Sprawl in BJJ",
-  "description": "Step-by-step guide for Sprawl from Standing Position to Front Headlock.",
+  "description": "Step-by-step guide for Sprawl from Standing Position/Top. Possible outcomes: Front Headlock/Top (75%), Standing Position/Top (15%), Standing Position/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -154,11 +155,25 @@ description: "Master the Sprawl takedown defense in BJJ. Essential defensive tec
 
 The Sprawl is a fundamental defensive technique in Brazilian Jiu-Jitsu and wrestling, designed to counter opponent takedown attempts, particularly single leg and double leg attacks. When executed properly, the sprawl allows you to stuff the opponent's shot, prevent them from completing the takedown, and transition to a dominant position such as front headlock control. The sprawl works by explosively driving your hips down and back while simultaneously driving your weight onto the opponent's shoulders and head, breaking their posture and eliminating their ability to lift or drive forward. This creates an immediate shift in positional hierarchy, turning a potentially dangerous defensive situation into an offensive opportunity. The sprawl is considered one of the most high-percentage defensive techniques in grappling because it relies on fundamental principles of base, weight distribution, and reactive timing rather than complex technical sequences. Mastery of the sprawl is essential for anyone seeking to develop a complete standing game, as it provides the foundation for defending against wrestling-based attacks while setting up submission opportunities and positional transitions.
 
-**Starting Position**: [[Standing Position]]
-**Ending Position**: [[Front Headlock]]
+**From Position**: [[Standing Position/Top]]
 **Success Rates**: Beginner 45%, Intermediate 65%, Advanced 85%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Front Headlock/Top]] | 75% |
+| Failure | [[Standing Position/Top]] | 15% |
+| Counter | [[Standing Position/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

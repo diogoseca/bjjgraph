@@ -21,37 +21,37 @@ description: "Escape front headlock control in BJJ. Defensive strategies for avo
     {
       "@type": "HowToStep",
       "name": "Execute Technical Standup",
-      "text": "From this position, execute Technical Standup to transition to Standing Position. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Technical Standup. This technique is attempted in 19% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Granby Roll",
-      "text": "From this position, execute Granby Roll to transition to Closed Guard. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Granby Roll. This technique is attempted in 17% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Turtle to Guard",
-      "text": "From this position, execute Turtle to Guard to transition to Half Guard. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Turtle to Guard. This technique is attempted in 21% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Stand and Circle Away",
-      "text": "From this position, execute Stand and Circle Away to transition to Standing Rear Clinch. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Stand and Circle Away. This technique is attempted in 16% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Roll Through to Reversal",
-      "text": "From this position, execute Roll Through to Reversal to transition to Turtle. Success rate for advanced practitioners: 45%.",
+      "text": "From this position, attempt Roll Through to Reversal. This technique is attempted in 14% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm Drag Escape",
-      "text": "From this position, execute Arm Drag Escape to transition to Back Control. Success rate for advanced practitioners: 40%.",
+      "text": "From this position, attempt Arm Drag Escape. This technique is attempted in 13% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -215,76 +215,18 @@ Successful front headlock bottom defense requires remaining calm under pressure.
 
 ## Available Escapes
 
-### [[Technical Standup]] → [[Standing Position]]
+### [[Technical Standup]] (19% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Granby Roll]] (17% of attempts)
 
-### [[Granby Roll]] → [[Closed Guard]]
+### [[Turtle to Guard]] (21% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
+### [[Stand and Circle Away]] (16% of attempts)
 
-### [[Turtle to Guard]] → [[Half Guard]]
+### [[Roll Through to Reversal]] (14% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Arm Drag Escape]] (13% of attempts)
 
-### [[Stand and Circle Away]] → [[Standing Rear Clinch]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
-
-### [[Roll Through to Reversal]] → [[Turtle]]
-
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 45%
-
-### [[Arm Drag Escape]] → [[Back Control]]
-
-**Success Rates:**
-- Beginner: 10%
-- Intermediate: 25%
-- Advanced: 40%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Guillotine Choke]]** → [[Lost by Submission]] (Opponent Success: 45%)
-- **[[Anaconda Choke]]** → [[Lost by Submission]] (Opponent Success: 40%)
-- **[[Darce Choke]]** → [[Lost by Submission]] (Opponent Success: 40%)
-- **[[Front Headlock to Back]]** → [[Back Control]] (Opponent Success: 50%)
-- **[[Transition to Mount]]** → [[Mount]] (Opponent Success: 35%)
-- **[[Transition to Side Control]]** → [[Side Control]] (Opponent Success: 40%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Chin Tuck Defense]]** → [[Front Headlock Bottom]]
-  - Opponent attempts to extend neck for guillotine or crank - tuck chin hard to chest and grab their wrist
-- **[[Hip Circle Escape]]** → [[Half Guard]]
-  - Opponent focuses on arm-in choke setup - post on their hip and circle away from pressure to recover guard
-- **[[Explosive Stand]]** → [[Standing Position]]
-  - Opponent's weight shifts forward or their base narrows - explosively stand while maintaining hand control
 
 
 </section>
@@ -294,7 +236,7 @@ Successful front headlock bottom defense requires remaining calm under pressure.
 ## Decision Making from This Position
 
 **If opponent has guillotine grip with hands locked and is pulling up on neck:**
-- Execute **[[Guillotine Defense - Chin Tuck and Arm Control]]** → [[Front Headlock Bottom]] (Probability: 60%)
+- Execute **[[Guillotine Defense - Chin Tuck and Arm Control]]** → [[Front Headlock]] (Probability: 60%)
 - Execute **[[Forward Roll Escape]]** → [[Turtle]] (Probability: 30%)
 
 
@@ -391,25 +333,39 @@ Partner establishes front headlock and announces which submission they'll attemp
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Primary Escape to Safety
+## Test Your Knowledge
 
-`Front Headlock Bottom → Technical Standup → Standing Position (Neutral)`
+**Q1**: What is the absolute first priority when you find yourself in front headlock bottom?
+**A**: Protect your neck by tucking your chin tightly to your chest. This is non-negotiable and must happen before any escape attempt. The chin tuck prevents neck extension which is required for most front headlock chokes to finish. If you extend your neck while escaping, you're likely to get caught in a guillotine, anaconda, or darce. Secure the chin tuck first, then begin hand fighting and working your escape. Many practitioners get submitted because they prioritize escape over protection.
 
-### Roll Through to Guard Recovery
+**Q2**: How should you distribute your hands defensively when trapped in front headlock bottom?
+**A**: One hand must always be fighting the opponent's choking arm, controlling at the wrist or elbow to limit their ability to deepen their grip or tighten the choke. The other hand can frame against their hip, post on the mat for base, or prepare for an escape movement. Never use both hands to push their body while leaving the choking arm uncontrolled - this gives them free access to lock up submissions. The hand fighting the choking arm is your primary defensive tool after the chin tuck.
 
-`Front Headlock Bottom → Granby Roll → Closed Guard → Guard Work`
+**Q3**: Your opponent is setting up an anaconda choke - you feel your arm getting trapped. What is your immediate response?
+**A**: Circle away from the trapped arm side immediately. The anaconda requires your arm trapped against your neck, so moving toward that side makes the choke tighter. By circling away, you create the angle that makes it harder for them to finish while potentially extracting your trapped arm. As you circle, keep fighting the choking arm and look to recover guard or stand. If the grip is too deep to circle out, consider rolling through toward the trapped arm side to invert and potentially recover guard, though this is riskier.
 
-### Circle Escape to Half Guard
+**Q4**: When is the optimal time to attempt a technical standup escape from front headlock bottom?
+**A**: The optimal time is when the opponent's weight shifts forward or their base narrows - typically when they're reaching to deepen a grip or transitioning between attacks. At this moment, their pressure on you temporarily lessens and their ability to follow your movement is compromised. Post your hands, explosively drive up while keeping chin tucked, and control their choking arm throughout the standup. Do not attempt the standup when they have heavy, settled pressure with wide base - in that case, work to create the opening first by hand fighting or forcing them to adjust.
 
-`Front Headlock Bottom → Hip Circle Away → Half Guard → Sweep Attempts`
+**Q5**: Why is remaining static in front headlock bottom one of the worst defensive choices?
+**A**: Static defense allows your opponent unlimited time to perfect their position, adjust their grips, and choose their optimal attack. Every second you stay still, they can improve their angle, deepen their choking arm, or set up a transition to back control. The front headlock is designed to be an attacking position, so a static defender will eventually succumb to submission or positional loss. Constant movement and escape attempts, even small ones, force the opponent to react rather than attack, creating windows for escape. Even failed escape attempts are better than no movement because they prevent the opponent from settling.
+
+**Q6**: How do you defend against your opponent flattening you from front headlock to set up chokes or back take?
+**A**: Maintain space between your chest and the mat at all costs. Keep your knees under your hips in a ready position rather than letting your legs extend behind you. If they drive forward, you can post with your hands and create the base needed to stand or circle. Your hips must remain mobile and ready to move. If you feel yourself getting flattened, immediately work to get your knees back under you and either stand up or circle to create angle. Once fully flattened with legs extended, your escape options become extremely limited.
+
+**Q7**: Your opponent has loose front headlock control but you're fatigued - should you rest or continue working to escape?
+**A**: Continue working to escape, but do so efficiently rather than explosively. Loose control means their submission threat is reduced, but it also represents your best opportunity to escape before they retighten. Use technical escapes rather than explosive ones to conserve energy - steady circling, methodical hand fighting, and patient positioning. Resting allows them to recover their control and energy while you remain in a dangerous position. The concept of 'resting' in front headlock bottom is largely a myth - you're burning energy just surviving, so you might as well direct that energy toward escape.
+
+**Q8**: What is the relationship between your escape direction and the opponent's submission attempts from front headlock?
+**A**: Your escape direction should generally be perpendicular to or away from their primary attack angle. For guillotines, the choke tightens if you drive into them, so circle to the sides or roll through. For anaconda, escape away from your trapped arm side. For darce, the trapped arm is opposite, so escape toward the darce side. For back takes, they typically step toward one side, so escape the opposite direction. Reading which submission they're setting up tells you which escape direction is safest. Escaping directly into their attack line is the worst choice in all scenarios.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -431,12 +387,12 @@ Partner establishes front headlock and announces which submission they'll attemp
 ## Related Positions and Techniques
 
 - **[[Turtle]]** - Primary entry position - front headlock typically attacks turtle, requires similar defensive principles
-- **[[Guillotine Defense]]** - Specific submission defense - essential for surviving front headlock position
-- **[[Technical Standup Concept]]** - Primary escape principle - standing removes most submission threats from front headlock
-- **[[Granby Roll Concept]]** - Alternative escape method - rolling through front headlock to recover guard
-- **[[Chin Protection]]** - Fundamental defensive principle - chin tuck prevents all front headlock chokes
-- **[[Defensive Position]]** - Related defensive state - similar high-risk defensive situation requiring immediate action
-- **[[Back Defense Protocol]]** - Related defensive system - front headlock often transitions to back, requires connected defensive understanding
+- **[[Guillotine Defense]]** - Specific submission defense transition essential for surviving front headlock position
+- **[[Technical Standup]]** - Primary escape method - standing removes most submission threats from front headlock
+- **[[Granby Roll]]** - Alternative escape method - rolling through front headlock to recover guard
+- **[[Half Guard]]** - Common recovery position after successful escape from front headlock
+- **[[Closed Guard]]** - Ideal recovery position if escape creates opportunity for full guard
+- **[[Back Control]]** - Position to prevent - front headlock often transitions to back if defense fails
 
 
 </section>

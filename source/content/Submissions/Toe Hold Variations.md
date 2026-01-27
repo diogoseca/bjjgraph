@@ -429,4 +429,14 @@ The toe hold is a versatile leg lock that attacks the ankle and foot through rot
 
 </section>
 
+<section id="terminal-state" class="content-section">
+
+## Match Outcome
+
+Successful execution of Toe Hold Variations leads to → [[game-over|Game Over]]
+
+*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+
+</section>
+
 </main>

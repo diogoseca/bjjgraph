@@ -21,37 +21,37 @@ description: "Master Double Jump Top position in BJJ. Advanced turtle attack wit
     {
       "@type": "HowToStep",
       "name": "Execute Turtle to Back Control",
-      "text": "From this position, execute Turtle to Back Control to transition to Back Control. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Turtle to Back Control. This technique is attempted in 19% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Crab Ride to Back",
-      "text": "From this position, execute Crab Ride to Back to transition to Crab Ride. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Crab Ride to Back. This technique is attempted in 17% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Truck",
-      "text": "From this position, execute Transition to Truck to transition to Truck. Success rate for advanced practitioners: 60%.",
+      "name": "Execute Turtle to Truck",
+      "text": "From this position, attempt Turtle to Truck. This technique is attempted in 16% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling Back Take",
-      "text": "From this position, execute Rolling Back Take to transition to Back Control. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 15% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Truck Entry",
-      "text": "From this position, execute Truck Entry to transition to Truck. Success rate for advanced practitioners: 58%.",
+      "text": "From this position, attempt Truck Entry. This technique is attempted in 16% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Take Generic",
-      "text": "From this position, execute Back Take Generic to transition to Back Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Back Take Generic. This technique is attempted in 17% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -213,76 +213,18 @@ Double Jump Top represents modern turtle attack methodology, emphasizing leg-bas
 
 ## Available Attacks
 
-### [[Turtle to Back Control]] → [[Back Control]]
+### [[Turtle to Back Control]] (19% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 70%
+### [[Crab Ride to Back]] (17% of attempts)
 
-### [[Crab Ride to Back]] → [[Crab Ride]]
+### [[Turtle to Truck]] (16% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 45%
-- Advanced: 65%
+### [[Rolling Back Take]] (15% of attempts)
 
-### [[Transition to Truck]] → [[Truck]]
+### [[Truck Entry]] (16% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 40%
-- Advanced: 60%
+### [[Back Take Generic]] (17% of attempts)
 
-### [[Rolling Back Take]] → [[Back Control]]
-
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 35%
-- Advanced: 55%
-
-### [[Truck Entry]] → [[Truck]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 38%
-- Advanced: 58%
-
-### [[Back Take Generic]] → [[Back Control]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 45%
-- Advanced: 65%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Turtle to Guard]]** → [[Closed Guard]] (Opponent Success: 35%)
-- **[[Turtle to Standing]]** → [[Standing Position]] (Opponent Success: 25%)
-- **[[Turtle Transition]]** → [[Open Guard]] (Opponent Success: 30%)
-- **[[Rolling to Guard]]** → [[Half Guard]] (Opponent Success: 28%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Crab Ride to Back]]** → [[Crab Ride]]
-  - Opponent attempts to sit to butterfly guard or turn into you
-- **[[Transition to Truck]]** → [[Truck]]
-  - Opponent tries to roll away from pressure while you maintain hook control
-- **[[Rolling Back Take]]** → [[Back Control]]
-  - Opponent commits to forward roll escape while you follow rotation with hooks
-- **[[Turtle to Back Control]]** → [[Back Control]]
-  - Opponent flattens to belly attempting to defend leg hooks
 
 
 </section>
@@ -304,7 +246,7 @@ Double Jump Top represents modern turtle attack methodology, emphasizing leg-bas
 
 
 **If opponent rolls away from pressure to escape hooks:**
-- Execute **[[Transition to Truck]]** → [[Truck]] (Probability: 70%)
+- Execute **[[Turtle to Truck]]** → [[Truck]] (Probability: 70%)
 - Execute **[[Rolling Back Take]]** → [[Back Control]] (Probability: 65%)
 - Execute **[[Truck Entry]]** → [[Truck]] (Probability: 60%)
 
@@ -385,29 +327,39 @@ Start each round with you in Double Jump Top position with both hooks establishe
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Shortest path to submission
+## Test Your Knowledge
 
-`Double Jump Top → Turtle to Back Control → Back Control → Rear Naked Choke`
+**Q1**: What is the correct sequence for establishing Double Jump Top position?
+**A**: The correct sequence is: first establish upper body control through crossface, overhook, or harness grip, then insert the first leg hook while maintaining chest pressure, and finally add the second hook once base control is secured. Upper body control must always precede leg hook insertion to prevent opponent from sitting to guard or performing roll escapes.
 
-### High-percentage truck path
+**Q2**: How do you maintain weight distribution to prevent being rolled over in Double Jump Top?
+**A**: Weight distribution should be balanced between chest pressure on opponent's upper back and active leg control through the hooks. Avoid overcommitting weight forward onto their back, as this creates the momentum needed for forward roll escapes. Keep your own base by maintaining hip connection and being ready to follow any defensive movements without losing balance.
 
-`Double Jump Top → Transition to Truck → Truck → Twister Finish`
+**Q3**: Your opponent starts to sit back toward butterfly guard - what adjustment do you make?
+**A**: As soon as you feel opponent beginning the sitting motion, immediately transition to crab ride or begin taking the back by following their movement. Use their sitting action as momentum to slide into back control position. Do not try to prevent the sit - instead, use it as an opportunity to advance position by staying connected and moving with their motion.
 
-### Crab ride control path
+**Q4**: What are the essential grip configurations for controlling from Double Jump Top?
+**A**: The primary grip options are: seatbelt/harness grip (one arm over shoulder, one under armpit with hands connected), crossface control (forearm across opponent's face with shoulder pressure), or overhook on the near arm combined with head control. The seatbelt is most effective for transitioning to back control, while crossface maintains pressure during hook insertion.
 
-`Double Jump Top → Crab Ride to Back → Crab Ride → Turtle to Back Control → Back Control → Rear Naked Choke`
+**Q5**: How do you apply pressure correctly in Double Jump Top position?
+**A**: Pressure is applied through chest-to-back connection with weight distributed forward and downward into opponent's upper back or shoulder region. The leg hooks should actively pull opponent's hips while your chest drives them toward the mat. Pressure should be constant but controlled, preventing defensive reactions while maintaining your own stability to follow any escape attempts.
 
-### Rolling attack sequence
+**Q6**: Your opponent tries to roll away from your pressure - how do you respond?
+**A**: When opponent rolls away, maintain your hook control and follow their rotation while transitioning to truck position. Their rolling motion actually facilitates your entry into truck by creating the necessary momentum. Keep your hooks deep and your upper body connected throughout the roll, using their escape attempt to advance to an even more dominant leg entanglement.
 
-`Double Jump Top → Rolling Back Take → Back Control → Armbar from Back`
+**Q7**: How do you manage energy in Double Jump Top since it is a transitional position?
+**A**: Double Jump Top should not be held statically for extended periods. Commit to advancing within 5-10 seconds of establishing hooks by transitioning to back control, truck, or crab ride. The position requires active work to maintain, so staying too long allows opponent to recover and extract hooks. Use the position as a launching pad for attacks rather than a holding position.
+
+**Q8**: What do you do if opponent successfully extracts one of your hooks?
+**A**: If one hook is extracted, immediately transition to a single-hook attacking position like crab ride, or use the remaining hook to establish half back control. Do not try to force the second hook back in against a defended position. Instead, use the remaining control points to advance to an alternative dominant position or attack the exposed side with upper body submissions.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -435,8 +387,8 @@ Start each round with you in Double Jump Top position with both hooks establishe
 - **[[Twister Control]]** - Submission destination - accessible through truck transitions from Double Jump
 - **[[Turtle to Back Control]]** - Primary transition technique - main method of advancing to back control
 - **[[Truck Entry]]** - Alternative transition - counter-option when opponent defends back take
-- **[[10th Planet No-Gi Guard System]]** - System context - Double Jump fits within 10th Planet's leg-based control methodology
-- **[[Twister System]]** - System progression - Double Jump serves as entry point to truck-based submissions
+- **[[Seat Belt Control Back]]** - Upper body control configuration used when transitioning to back control
+- **[[Body Triangle]]** - Alternative leg control after completing back take from Double Jump
 
 
 </section>

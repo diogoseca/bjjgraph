@@ -422,4 +422,14 @@ The Ten Finger Guillotine is a fundamental front headlock choke that utilizes an
 
 </section>
 
+<section id="terminal-state" class="content-section">
+
+## Match Outcome
+
+Successful execution of Ten Finger Guillotine leads to → [[game-over|Game Over]]
+
+*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+
+</section>
+
 </main>

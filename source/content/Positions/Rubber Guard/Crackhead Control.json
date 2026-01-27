@@ -47,388 +47,6 @@
       "relationship": "Fallback position if Crackhead Control fails or becomes untenable"
     }
   ],
-  "bottom": {
-    "name": "Crackhead Control Bottom",
-    "description": "Master the bottom perspective of 10th Planet's Crackhead Control - deep overhook guard position with high submission threat density and strategic back exposure for aggressive attacks.",
-    "tags": [
-      "rubber-guard",
-      "10th-planet",
-      "advanced-guard",
-      "submission-hunting",
-      "no-gi-guard",
-      "eddie-10th Planet-system",
-      "high-risk-position"
-    ],
-    "overview": "From the bottom perspective, Crackhead Control represents a calculated gamble where positional safety is exchanged for immediate submission access. The position demands exceptional hip flexibility, submission chain knowledge, and psychological comfort with back exposure. Bottom players must develop the ability to recognize when opponent defensive reactions signal transitions to different submissions, creating a dynamic flow state where multiple attacks connect seamlessly. The deep overhook serves as the positional anchor that remains constant throughout submission chains, allowing rapid transitions without reestablishing control from scratch. Success requires not just technical knowledge but also the mental fortitude to maintain aggressive offense even when opponents threaten back takes. The position exemplifies 10th Planet's philosophy of creating action-forcing scenarios where defensive success by the opponent merely transitions them into a different dangerous situation.",
-    "state_properties": {
-      "point_value": 0,
-      "position_type": "Offensive",
-      "risk_level": "High",
-      "energy_cost": "Medium",
-      "time_sustainability": "Medium"
-    },
-    "state_invariants": [
-      "Bottom player's right arm (assuming right-sided Crackhead) must maintain deep overhook past opponent's left shoulder blade, with elbow pointing toward ceiling and hand gripping behind opponent's tricep or lat. The overhook depth is critical - insufficient depth allows arm extraction and position collapse. The grip should feel like the arm is \"hooked\" around the opponent's arm rather than simply controlling it.",
-      "Bottom player's right leg must be positioned across opponent's upper back or neck, with the shin applying downward pressure to break posture forward. The leg placement creates a lever system where any attempt by the opponent to posture up increases pressure on their trapped arm. The knee should be actively pulling toward the chest to maintain tension.",
-      "Bottom player's left leg maintains active hip connection through hook, butterfly hook, or posting on opponent's hip to prevent back exposure completion. This leg serves as the primary safety mechanism - if it loses connection, the opponent can begin passing to back control. The left leg must remain dynamic and ready to adjust based on opponent movement patterns."
-    ],
-    "prerequisites": [
-      "Established rubber guard control with leg across opponent's back and broken posture",
-      "Deep overhook secured past opponent's shoulder blade with hand gripping behind shoulder",
-      "Opponent's trapped arm isolated and unable to establish defensive frames",
-      "Bottom player's hips mobile and able to adjust angles for submission entries",
-      "Sufficient flexibility to maintain leg control without excessive strain"
-    ],
-    "key_principles": [
-      "Overhook depth determines position sustainability - shallow overhoooks collapse under pressure",
-      "Leg across back must maintain constant downward pressure to prevent opponent posturing",
-      "Monitor opponent's free arm position constantly - double underhooks signal immediate danger",
-      "Hip angle adjustments create different submission entry opportunities without releasing control",
-      "Transition aggressively between submissions when opponent defends - never return to neutral",
-      "Accept back exposure risk only when deep overhook remains secured and leg pressure maintained",
-      "Use opponent's weight shifts to determine which submission chain to pursue"
-    ],
-    "offensive_transitions": [
-      {
-        "technique": "Gogoplata",
-        "target_position": "Gogoplata Control",
-        "success_rates": {
-          "beginner": 15,
-          "intermediate": 30,
-          "advanced": 50
-        }
-      },
-      {
-        "technique": "Omoplata",
-        "target_position": "Omoplata Control",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 40,
-          "advanced": 60
-        }
-      },
-      {
-        "technique": "Triangle Choke",
-        "target_position": "Triangle Control",
-        "success_rates": {
-          "beginner": 20,
-          "intermediate": 35,
-          "advanced": 55
-        }
-      },
-      {
-        "technique": "Transition to Carni",
-        "target_position": "Carni",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 50,
-          "advanced": 70
-        }
-      },
-      {
-        "technique": "Armbar from Guard",
-        "target_position": "Armbar Control",
-        "success_rates": {
-          "beginner": 20,
-          "intermediate": 35,
-          "advanced": 55
-        }
-      },
-      {
-        "technique": "Baratoplata",
-        "target_position": "Won by Submission",
-        "success_rates": {
-          "beginner": 10,
-          "intermediate": 20,
-          "advanced": 35
-        }
-      },
-      {
-        "technique": "Transition to Mission Control",
-        "target_position": "Mission Control",
-        "success_rates": {
-          "beginner": 40,
-          "intermediate": 60,
-          "advanced": 75
-        }
-      },
-      {
-        "technique": "Transition to New York",
-        "target_position": "New York",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 55,
-          "advanced": 70
-        }
-      }
-    ],
-    "defensive_responses": [
-      {
-        "technique": "Back Take",
-        "target_position": "Back Control",
-        "success_rate": 45
-      },
-      {
-        "technique": "Arm Extraction and Posture Recovery",
-        "target_position": "Closed Guard",
-        "success_rate": 35
-      },
-      {
-        "technique": "Stack Pass",
-        "target_position": "Side Control",
-        "success_rate": 25
-      },
-      {
-        "technique": "Double Underhook Pass",
-        "target_position": "Side Control",
-        "success_rate": 40
-      },
-      {
-        "technique": "Rolling Back Take",
-        "target_position": "Back Control",
-        "success_rate": 30
-      }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Hook Sweep",
-        "target_position": "Mount",
-        "trigger": "Opponent commits weight forward attempting to stack or pressure through position"
-      },
-      {
-        "technique": "Omoplata Sweep",
-        "target_position": "Side Control",
-        "trigger": "Opponent pulls trapped arm back attempting extraction"
-      },
-      {
-        "technique": "Triangle Setup",
-        "target_position": "Triangle Control",
-        "trigger": "Opponent postures up attempting to create distance from submissions"
-      },
-      {
-        "technique": "Technical Stand Up to Single Leg",
-        "target_position": "Standing Position",
-        "trigger": "Opponent begins circling toward back exposure side"
-      }
-    ],
-    "decision_tree": [
-      {
-        "condition": "If opponent drives weight forward attempting to smash through position or establish double underhooks",
-        "actions": [
-          {
-            "technique": "Transition to Carni",
-            "target": "Carni",
-            "probability": 65
-          },
-          {
-            "technique": "Gogoplata",
-            "target": "Gogoplata Control",
-            "probability": 45
-          },
-          {
-            "technique": "Hook Sweep",
-            "target": "Mount",
-            "probability": 50
-          }
-        ]
-      },
-      {
-        "condition": "If opponent attempts to extract trapped arm by pulling it back toward their body",
-        "actions": [
-          {
-            "technique": "Omoplata",
-            "target": "Omoplata Control",
-            "probability": 60
-          },
-          {
-            "technique": "Omoplata Sweep",
-            "target": "Side Control",
-            "probability": 55
-          },
-          {
-            "technique": "Triangle Choke",
-            "target": "Triangle Control",
-            "probability": 50
-          }
-        ]
-      },
-      {
-        "condition": "If opponent postures up attempting to create distance and reduce submission threat",
-        "actions": [
-          {
-            "technique": "Triangle Setup",
-            "target": "Triangle Control",
-            "probability": 55
-          },
-          {
-            "technique": "Armbar from Guard",
-            "target": "Armbar Control",
-            "probability": 50
-          },
-          {
-            "technique": "Transition to Mission Control",
-            "target": "Mission Control",
-            "probability": 65
-          }
-        ]
-      },
-      {
-        "condition": "If opponent begins circling toward back exposure side or establishes strong hip pressure",
-        "actions": [
-          {
-            "technique": "Technical Stand Up to Single Leg",
-            "target": "Standing Position",
-            "probability": 60
-          },
-          {
-            "technique": "Transition to Closed Guard",
-            "target": "Closed Guard",
-            "probability": 70
-          },
-          {
-            "technique": "Rolling Guard Pull",
-            "target": "Closed Guard",
-            "probability": 45
-          }
-        ]
-      }
-    ],
-    "common_errors": [
-      {
-        "error": "Overhook too shallow - hand gripping at elbow rather than behind shoulder blade",
-        "consequence": "Opponent easily extracts arm by straightening it and posturing up, causing immediate position collapse and potential pass to side control",
-        "correction": "Drive overhooking arm deeper until hand reaches behind opponent's shoulder blade or lat muscle. Elbow should point toward ceiling with forearm across opponent's back creating maximum control depth."
-      },
-      {
-        "error": "Leg across back applies insufficient downward pressure on opponent's neck/shoulders",
-        "consequence": "Opponent regains posture easily, negating submission threats and creating passing opportunities as bottom player remains extended",
-        "correction": "Actively pull knee toward chest while maintaining shin pressure across opponent's upper back. The leg should feel like it's constantly dragging opponent's posture down rather than passively resting across their back."
-      },
-      {
-        "error": "Neglecting free leg positioning, allowing it to float or lose hip connection",
-        "consequence": "Opponent immediately begins passing toward back control as the bottom player has no mechanism to prevent hip rotation",
-        "correction": "Free leg must maintain active connection through butterfly hook, posting on hip, or hooking behind opponent's leg. This leg is the primary back exposure prevention mechanism and must remain engaged constantly."
-      },
-      {
-        "error": "Remaining static in Crackhead Control rather than flowing between submission attempts",
-        "consequence": "Opponent escapes single submission threat and establishes defensive positioning, often leading to successful pass or back take",
-        "correction": "Chain submissions continuously - when opponent defends omoplata, immediately transition to triangle or gogoplata. Never allow opponent to establish a defensive rest position."
-      },
-      {
-        "error": "Failing to recognize opponent achieving double underhooks and continuing to hunt submissions",
-        "consequence": "Opponent completes stack pass or back take with high probability as bottom player has no frames to prevent advancement",
-        "correction": "Double underhooks by opponent signal critical danger - immediately abandon submission hunting and transition to closed guard or technical standup. This is a red-line defensive trigger that overrides offensive intentions."
-      },
-      {
-        "error": "Insufficient hip flexibility causes excessive strain to maintain leg position across back",
-        "consequence": "Position becomes unsustainable due to physical discomfort, forcing early abandonment and loss of offensive momentum",
-        "correction": "Develop specific hip flexor and external rotation flexibility through dedicated stretching. If flexibility insufficient, use Mission Control or New York instead until mobility improves."
-      }
-    ],
-    "training_drills": [
-      {
-        "name": "Overhook Depth Development Drill",
-        "description": "Partner establishes closed guard and breaks opponent's posture. Focus exclusively on achieving maximum overhook depth - hand behind shoulder blade, elbow pointing up. Opponent provides progressive resistance attempting arm extraction. Goal is maintaining depth for 30 seconds against increasing pressure.",
-        "duration": "5 minutes"
-      },
-      {
-        "name": "Submission Chain Flow Drill",
-        "description": "Start in Crackhead Control with compliant partner. Flow continuously between gogoplata setup, omoplata entry, triangle position, and back to Crackhead Control without releasing overhook. Emphasize smooth transitions maintaining constant control rather than finishing submissions. Build movement vocabulary and transition fluidity.",
-        "duration": "4 minutes"
-      },
-      {
-        "name": "Back Exposure Recognition Drill",
-        "description": "Start in Crackhead Control with partner actively attempting to pass to back control. Practice recognizing visual and tactile cues that signal dangerous back exposure - hip pressure, double underhooks, loss of leg connection. When cues detected, transition immediately to closed guard or technical standup. Develops defensive awareness essential for safe position use.",
-        "duration": "3 minutes"
-      },
-      {
-        "name": "Entry Transition Drill",
-        "description": "Begin in standard closed guard with broken posture. Partner provides specific resistance patterns - driving forward, pulling back, or maintaining neutral. Practice entering Crackhead Control from different angles based on opponent's positioning. Emphasize timing entry when opponent's weight distribution favors position establishment.",
-        "duration": "4 minutes"
-      }
-    ],
-    "optimal_submission_paths": [
-      {
-        "name": "Forward Pressure Gogoplata Chain",
-        "path": "Crackhead Control Bottom → Carni → Gogoplata Control → Won by Submission"
-      },
-      {
-        "name": "Arm Extraction Omoplata Sequence",
-        "path": "Crackhead Control Bottom → Omoplata Control → Won by Submission"
-      },
-      {
-        "name": "Posture Recovery Triangle Attack",
-        "path": "Crackhead Control Bottom → Triangle Control → Triangle Choke → Won by Submission"
-      },
-      {
-        "name": "Baratoplata Connection",
-        "path": "Crackhead Control Bottom → Armbar Control → Baratoplata → Won by Submission"
-      },
-      {
-        "name": "Sweep to Dominant Position",
-        "path": "Crackhead Control Bottom → Hook Sweep → Mount → Mounted submissions"
-      }
-    ],
-    "related_content": [
-      {
-        "name": "Rubber Guard",
-        "relationship": "Parent position providing systematic framework and entry mechanics"
-      },
-      {
-        "name": "Mission Control",
-        "relationship": "Primary entry position before deepening overhook to Crackhead Control"
-      },
-      {
-        "name": "Carni",
-        "relationship": "Key transition for gogoplata setups when opponent drives forward"
-      },
-      {
-        "name": "Omoplata Control",
-        "relationship": "Primary submission target when opponent attempts arm extraction"
-      },
-      {
-        "name": "Triangle Control",
-        "relationship": "Alternative submission when opponent postures up defending omoplata"
-      },
-      {
-        "name": "10th Planet Rubber Guard System",
-        "relationship": "Complete system context providing position sequences and tactical frameworks"
-      },
-      {
-        "name": "Gogoplata",
-        "relationship": "High-percentage submission from Carni transition"
-      },
-      {
-        "name": "Flexibility Training",
-        "relationship": "Essential physical preparation for sustainable position maintenance"
-      },
-      {
-        "name": "Guard Retention",
-        "relationship": "Critical skill for managing back exposure risk inherent in position"
-      }
-    ],
-    "position_metrics": {
-      "retention_rate": {
-        "beginner": 25,
-        "intermediate": 45,
-        "advanced": 65,
-        "description": "Ability to maintain position without opponent passing or taking back"
-      },
-      "advancement_probability": {
-        "beginner": 35,
-        "intermediate": 55,
-        "advanced": 75,
-        "description": "Likelihood of successfully transitioning to submission control or sweep"
-      },
-      "submission_probability": {
-        "beginner": 20,
-        "intermediate": 35,
-        "advanced": 55,
-        "description": "Probability of finishing submission directly from position"
-      },
-      "average_time": "15-30 seconds before submission attempt or transition"
-    }
-  },
   "top": {
     "name": "Crackhead Control Top",
     "description": "Navigate Crackhead Control from top position - defending deep overhook rubber guard while managing submission threats and pursuing back exposure opportunities.",
@@ -468,111 +86,6 @@
       "Look for back exposure opportunities when bottom player commits aggressively to submissions",
       "Avoid driving excessive forward pressure - this triggers gogoplata and Carni transitions",
       "Double underhooks provide strongest passing pathway but require patient establishment"
-    ],
-    "offensive_transitions": [
-      {
-        "technique": "Back Take",
-        "target_position": "Back Control",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 45,
-          "advanced": 60
-        }
-      },
-      {
-        "technique": "Stack Pass",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 20,
-          "intermediate": 35,
-          "advanced": 50
-        }
-      },
-      {
-        "technique": "Double Underhook Pass",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 40,
-          "advanced": 55
-        }
-      },
-      {
-        "technique": "Rolling Back Take",
-        "target_position": "Back Control",
-        "success_rates": {
-          "beginner": 20,
-          "intermediate": 35,
-          "advanced": 50
-        }
-      },
-      {
-        "technique": "Posture Recovery to Closed Guard",
-        "target_position": "Closed Guard",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 50,
-          "advanced": 65
-        }
-      },
-      {
-        "technique": "Arm Extraction and Pass",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 40,
-          "advanced": 55
-        }
-      }
-    ],
-    "defensive_responses": [
-      {
-        "technique": "Gogoplata",
-        "target_position": "Gogoplata Control",
-        "success_rate": 30
-      },
-      {
-        "technique": "Omoplata",
-        "target_position": "Omoplata Control",
-        "success_rate": 40
-      },
-      {
-        "technique": "Triangle Choke",
-        "target_position": "Triangle Control",
-        "success_rate": 35
-      },
-      {
-        "technique": "Hook Sweep",
-        "target_position": "Mount",
-        "success_rate": 25
-      },
-      {
-        "technique": "Armbar from Guard",
-        "target_position": "Armbar Control",
-        "success_rate": 30
-      }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Back Take",
-        "target_position": "Back Control",
-        "trigger": "Bottom player extends legs for triangle or omoplata setup, creating back exposure window"
-      },
-      {
-        "technique": "Stack Pass",
-        "target_position": "Side Control",
-        "trigger": "Bottom player commits weight backward attempting submission finish, allowing stacking pressure"
-      },
-      {
-        "technique": "Double Underhook Pass",
-        "target_position": "Side Control",
-        "trigger": "Bottom player loses leg control across back while maintaining overhook focus"
-      },
-      {
-        "technique": "Sprawl",
-        "target_position": "Front Headlock",
-        "trigger": "Bottom player attempts technical standup or sweep, creating sprawling opportunity"
-      }
     ],
     "decision_tree": [
       {
@@ -710,28 +223,6 @@
         "duration": "3 minutes"
       }
     ],
-    "optimal_submission_paths": [
-      {
-        "name": "Extension Exploitation Back Take",
-        "path": "Crackhead Control Top → Back Control → Rear Naked Choke → Won by Submission"
-      },
-      {
-        "name": "Systematic Arm Extraction Pass",
-        "path": "Crackhead Control Top → Closed Guard → Guard Pass → Side Control → Mount"
-      },
-      {
-        "name": "Rolling Back Capture",
-        "path": "Crackhead Control Top → Rolling Back Take → Back Control → submission attacks"
-      },
-      {
-        "name": "Double Underhook Consolidation",
-        "path": "Crackhead Control Top → Double Underhook Pass → Side Control → positional advancement"
-      },
-      {
-        "name": "Stack Pressure Pass",
-        "path": "Crackhead Control Top → Stack Pass → Side Control → submission hunting"
-      }
-    ],
     "related_content": [
       {
         "name": "Rubber Guard",
@@ -754,20 +245,16 @@
         "relationship": "Submission threat when driving excessive forward pressure"
       },
       {
-        "name": "Guard Passing Principles",
-        "relationship": "General passing concepts apply but require modification for trapped arm scenario"
-      },
-      {
-        "name": "Submission Defense",
-        "relationship": "Essential skill for managing multiple concurrent submission threats"
-      },
-      {
         "name": "Side Control",
         "relationship": "Target position for successful passing sequences"
       },
       {
-        "name": "10th Planet Rubber Guard System",
-        "relationship": "Systematic understanding helps predict bottom player's likely sequences"
+        "name": "Front Headlock",
+        "relationship": "Alternative offensive option when sprawling on sweep attempts"
+      },
+      {
+        "name": "Triangle Control",
+        "relationship": "Submission threat requiring constant awareness during arm extraction"
       }
     ],
     "position_metrics": {
@@ -790,6 +277,366 @@
         "description": "Probability of finishing submission from top (very low, primarily defensive position)"
       },
       "average_time": "20-40 seconds before position resolves to pass, back take, or submission"
-    }
+    },
+    "transitions": [
+      {
+        "transition": "Back Take",
+        "attempt_probability": 18
+      },
+      {
+        "transition": "Stack Pass",
+        "attempt_probability": 15
+      },
+      {
+        "transition": "Double Underhook Pass",
+        "attempt_probability": 16
+      },
+      {
+        "transition": "Rolling Back Take",
+        "attempt_probability": 15
+      },
+      {
+        "transition": "Posture Recovery to Closed Guard",
+        "attempt_probability": 20
+      },
+      {
+        "transition": "Arm Extraction and Pass",
+        "attempt_probability": 16
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the primary defensive priority when trapped in Crackhead Control from top?",
+        "answer": "The primary defensive priority is systematic arm extraction combined with posture recovery. The trapped arm severely limits passing mechanics and defensive options, so freeing it must precede any serious passing attempts. This should be done through small circular motions rather than explosive pulling, which triggers omoplata entries."
+      },
+      {
+        "question": "How should you adjust your weight distribution to avoid triggering gogoplata setups?",
+        "answer": "Maintain moderate forward pressure through your hips and chest rather than diving your head forward. Excessive forward pressure triggers gogoplata and Carni transitions because it provides the bottom player with the momentum needed to thread their shin across your throat. Keep pressure steady but not overwhelming."
+      },
+      {
+        "question": "Your opponent's hip angle suddenly changes as they shift weight to their left hip - what does this signal?",
+        "answer": "Hip angle changes signal specific submission entries. A shift to one hip typically indicates omoplata setup if rotating the trapped arm outward, or triangle setup if the hips are opening to create space for the leg to swing over. Recognizing these cues allows preemptive defensive adjustments before the submission is fully established."
+      },
+      {
+        "question": "What are the essential base fundamentals for surviving Crackhead Control from top?",
+        "answer": "Keep feet wide with knees slightly bent to create a stable platform that resists sweeps. The free arm must remain posted to provide counter-pressure and prevent being rolled. Weight distribution should be balanced - not too far forward (triggers gogoplata) or too far back (allows free hip movement). Base must be mobile and reactive to opponent's movements."
+      },
+      {
+        "question": "When is it appropriate to attempt a back take from top position in Crackhead Control?",
+        "answer": "The back take window opens when the bottom player commits aggressively to submission finishes, particularly when they extend their legs for triangle or omoplata setups. This extension creates temporary back exposure. The key is recognizing these moments rather than forcing the back take, as premature attempts result in the opponent simply returning to closed guard."
+      },
+      {
+        "question": "What should you do immediately if your opponent establishes double underhooks from Crackhead Control?",
+        "answer": "If you're the top player and opponent gets double underhooks, this actually signals danger for THEM - they've abandoned the overhook control. Immediately capitalize by stacking and passing, as they've given up their primary control mechanism. However, be aware they may be setting up a sweep, so maintain wide base during the pass."
+      },
+      {
+        "question": "How do you recover position after partially escaping but still having posture broken?",
+        "answer": "Work incrementally rather than trying to fully posture in one movement. First, establish your free arm as a strong post. Then begin small arm circles to reduce overhook depth while maintaining base. Use hip pressure combined with gradual posture elevation. The goal is systematic improvement of your position rather than explosive escape attempts."
+      },
+      {
+        "question": "Why is passive defense particularly dangerous in Crackhead Control top position?",
+        "answer": "Passive defense allows the bottom player to freely cycle through their submission chain without time pressure or positional degradation. They can optimize their offense by making incremental angle adjustments until finding a successful entry. Active defense forces mistakes and prevents the bottom player from establishing their preferred submission sequence."
+      }
+    ]
+  },
+  "bottom": {
+    "name": "Crackhead Control Bottom",
+    "description": "Master the bottom perspective of 10th Planet's Crackhead Control - deep overhook guard position with high submission threat density and strategic back exposure for aggressive attacks.",
+    "tags": [
+      "rubber-guard",
+      "10th-planet",
+      "advanced-guard",
+      "submission-hunting",
+      "no-gi-guard",
+      "high-risk-position"
+    ],
+    "overview": "From the bottom perspective, Crackhead Control represents a calculated gamble where positional safety is exchanged for immediate submission access. The position demands exceptional hip flexibility, submission chain knowledge, and psychological comfort with back exposure. Bottom players must develop the ability to recognize when opponent defensive reactions signal transitions to different submissions, creating a dynamic flow state where multiple attacks connect seamlessly. The deep overhook serves as the positional anchor that remains constant throughout submission chains, allowing rapid transitions without reestablishing control from scratch. Success requires not just technical knowledge but also the mental fortitude to maintain aggressive offense even when opponents threaten back takes. The position exemplifies 10th Planet's philosophy of creating action-forcing scenarios where defensive success by the opponent merely transitions them into a different dangerous situation.",
+    "state_properties": {
+      "point_value": 0,
+      "position_type": "Offensive",
+      "risk_level": "High",
+      "energy_cost": "Medium",
+      "time_sustainability": "Medium"
+    },
+    "state_invariants": [
+      "Bottom player's right arm (assuming right-sided Crackhead) must maintain deep overhook past opponent's left shoulder blade, with elbow pointing toward ceiling and hand gripping behind opponent's tricep or lat. The overhook depth is critical - insufficient depth allows arm extraction and position collapse. The grip should feel like the arm is \"hooked\" around the opponent's arm rather than simply controlling it.",
+      "Bottom player's right leg must be positioned across opponent's upper back or neck, with the shin applying downward pressure to break posture forward. The leg placement creates a lever system where any attempt by the opponent to posture up increases pressure on their trapped arm. The knee should be actively pulling toward the chest to maintain tension.",
+      "Bottom player's left leg maintains active hip connection through hook, butterfly hook, or posting on opponent's hip to prevent back exposure completion. This leg serves as the primary safety mechanism - if it loses connection, the opponent can begin passing to back control. The left leg must remain dynamic and ready to adjust based on opponent movement patterns."
+    ],
+    "prerequisites": [
+      "Established rubber guard control with leg across opponent's back and broken posture",
+      "Deep overhook secured past opponent's shoulder blade with hand gripping behind shoulder",
+      "Opponent's trapped arm isolated and unable to establish defensive frames",
+      "Bottom player's hips mobile and able to adjust angles for submission entries",
+      "Sufficient flexibility to maintain leg control without excessive strain"
+    ],
+    "key_principles": [
+      "Overhook depth determines position sustainability - shallow overhooks collapse under pressure",
+      "Leg across back must maintain constant downward pressure to prevent opponent posturing",
+      "Monitor opponent's free arm position constantly - double underhooks signal immediate danger",
+      "Hip angle adjustments create different submission entry opportunities without releasing control",
+      "Transition aggressively between submissions when opponent defends - never return to neutral",
+      "Accept back exposure risk only when deep overhook remains secured and leg pressure maintained",
+      "Use opponent's weight shifts to determine which submission chain to pursue"
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent drives weight forward attempting to smash through position or establish double underhooks",
+        "actions": [
+          {
+            "technique": "Crackhead Control to Carni",
+            "target": "Carni",
+            "probability": 65
+          },
+          {
+            "technique": "Gogoplata",
+            "target": "Gogoplata Control",
+            "probability": 45
+          },
+          {
+            "technique": "Hook Sweep",
+            "target": "Mount",
+            "probability": 50
+          }
+        ]
+      },
+      {
+        "condition": "If opponent attempts to extract trapped arm by pulling it back toward their body",
+        "actions": [
+          {
+            "technique": "Omoplata",
+            "target": "Omoplata Control",
+            "probability": 60
+          },
+          {
+            "technique": "Omoplata Sweep",
+            "target": "Side Control",
+            "probability": 55
+          },
+          {
+            "technique": "Triangle Choke",
+            "target": "Triangle Control",
+            "probability": 50
+          }
+        ]
+      },
+      {
+        "condition": "If opponent postures up attempting to create distance and reduce submission threat",
+        "actions": [
+          {
+            "technique": "Triangle Setup",
+            "target": "Triangle Control",
+            "probability": 55
+          },
+          {
+            "technique": "Armbar from Guard",
+            "target": "Armbar Control",
+            "probability": 50
+          },
+          {
+            "technique": "Crackhead Control to Mission Control",
+            "target": "Mission Control",
+            "probability": 65
+          }
+        ]
+      },
+      {
+        "condition": "If opponent begins circling toward back exposure side or establishes strong hip pressure",
+        "actions": [
+          {
+            "technique": "Technical Stand Up to Single Leg",
+            "target": "Standing Position",
+            "probability": 60
+          },
+          {
+            "technique": "Transition to Closed Guard",
+            "target": "Closed Guard",
+            "probability": 70
+          },
+          {
+            "technique": "Rolling Guard Pull",
+            "target": "Closed Guard",
+            "probability": 45
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Overhook too shallow - hand gripping at elbow rather than behind shoulder blade",
+        "consequence": "Opponent easily extracts arm by straightening it and posturing up, causing immediate position collapse and potential pass to side control",
+        "correction": "Drive overhooking arm deeper until hand reaches behind opponent's shoulder blade or lat muscle. Elbow should point toward ceiling with forearm across opponent's back creating maximum control depth."
+      },
+      {
+        "error": "Leg across back applies insufficient downward pressure on opponent's neck/shoulders",
+        "consequence": "Opponent regains posture easily, negating submission threats and creating passing opportunities as bottom player remains extended",
+        "correction": "Actively pull knee toward chest while maintaining shin pressure across opponent's upper back. The leg should feel like it's constantly dragging opponent's posture down rather than passively resting across their back."
+      },
+      {
+        "error": "Neglecting free leg positioning, allowing it to float or lose hip connection",
+        "consequence": "Opponent immediately begins passing toward back control as the bottom player has no mechanism to prevent hip rotation",
+        "correction": "Free leg must maintain active connection through butterfly hook, posting on hip, or hooking behind opponent's leg. This leg is the primary back exposure prevention mechanism and must remain engaged constantly."
+      },
+      {
+        "error": "Remaining static in Crackhead Control rather than flowing between submission attempts",
+        "consequence": "Opponent escapes single submission threat and establishes defensive positioning, often leading to successful pass or back take",
+        "correction": "Chain submissions continuously - when opponent defends omoplata, immediately transition to triangle or gogoplata. Never allow opponent to establish a defensive rest position."
+      },
+      {
+        "error": "Failing to recognize opponent achieving double underhooks and continuing to hunt submissions",
+        "consequence": "Opponent completes stack pass or back take with high probability as bottom player has no frames to prevent advancement",
+        "correction": "Double underhooks by opponent signal critical danger - immediately abandon submission hunting and transition to closed guard or technical standup. This is a red-line defensive trigger that overrides offensive intentions."
+      },
+      {
+        "error": "Insufficient hip flexibility causes excessive strain to maintain leg position across back",
+        "consequence": "Position becomes unsustainable due to physical discomfort, forcing early abandonment and loss of offensive momentum",
+        "correction": "Develop specific hip flexor and external rotation flexibility through dedicated stretching. If flexibility insufficient, use Mission Control or New York instead until mobility improves."
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Overhook Depth Development Drill",
+        "description": "Partner establishes closed guard and breaks opponent's posture. Focus exclusively on achieving maximum overhook depth - hand behind shoulder blade, elbow pointing up. Opponent provides progressive resistance attempting arm extraction. Goal is maintaining depth for 30 seconds against increasing pressure.",
+        "duration": "5 minutes"
+      },
+      {
+        "name": "Submission Chain Flow Drill",
+        "description": "Start in Crackhead Control with compliant partner. Flow continuously between gogoplata setup, omoplata entry, triangle position, and back to Crackhead Control without releasing overhook. Emphasize smooth transitions maintaining constant control rather than finishing submissions. Build movement vocabulary and transition fluidity.",
+        "duration": "4 minutes"
+      },
+      {
+        "name": "Back Exposure Recognition Drill",
+        "description": "Start in Crackhead Control with partner actively attempting to pass to back control. Practice recognizing visual and tactile cues that signal dangerous back exposure - hip pressure, double underhooks, loss of leg connection. When cues detected, transition immediately to closed guard or technical standup. Develops defensive awareness essential for safe position use.",
+        "duration": "3 minutes"
+      },
+      {
+        "name": "Entry Transition Drill",
+        "description": "Begin in standard closed guard with broken posture. Partner provides specific resistance patterns - driving forward, pulling back, or maintaining neutral. Practice entering Crackhead Control from different angles based on opponent's positioning. Emphasize timing entry when opponent's weight distribution favors position establishment.",
+        "duration": "4 minutes"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Rubber Guard",
+        "relationship": "Parent position providing systematic framework and entry mechanics"
+      },
+      {
+        "name": "Mission Control",
+        "relationship": "Primary entry position before deepening overhook to Crackhead Control"
+      },
+      {
+        "name": "Carni",
+        "relationship": "Key transition for gogoplata setups when opponent drives forward"
+      },
+      {
+        "name": "Omoplata Control",
+        "relationship": "Primary submission target when opponent attempts arm extraction"
+      },
+      {
+        "name": "Triangle Control",
+        "relationship": "Alternative submission when opponent postures up defending omoplata"
+      },
+      {
+        "name": "Gogoplata Control",
+        "relationship": "High-percentage submission from Carni transition"
+      },
+      {
+        "name": "Closed Guard",
+        "relationship": "Safe fallback position when back exposure becomes dangerous"
+      },
+      {
+        "name": "New York",
+        "relationship": "Alternative rubber guard position with different overhook angle"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "beginner": 25,
+        "intermediate": 45,
+        "advanced": 65,
+        "description": "Ability to maintain position without opponent passing or taking back"
+      },
+      "advancement_probability": {
+        "beginner": 35,
+        "intermediate": 55,
+        "advanced": 75,
+        "description": "Likelihood of successfully transitioning to submission control or sweep"
+      },
+      "submission_probability": {
+        "beginner": 20,
+        "intermediate": 35,
+        "advanced": 55,
+        "description": "Probability of finishing submission directly from position"
+      },
+      "average_time": "15-30 seconds before submission attempt or transition"
+    },
+    "transitions": [
+      {
+        "transition": "Gogoplata",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Omoplata",
+        "attempt_probability": 13
+      },
+      {
+        "transition": "Triangle Choke",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Crackhead Control to Carni",
+        "attempt_probability": 15
+      },
+      {
+        "transition": "Armbar from Guard",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Baratoplata",
+        "attempt_probability": 7
+      },
+      {
+        "transition": "Crackhead Control to Mission Control",
+        "attempt_probability": 15
+      },
+      {
+        "transition": "Crackhead Control to New York",
+        "attempt_probability": 15
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the minimum overhook depth required for sustainable Crackhead Control?",
+        "answer": "The overhooking hand must reach behind the opponent's shoulder blade or lat muscle, with the elbow pointing toward the ceiling and forearm crossing diagonally across their back. Anything shallower - such as gripping at the elbow - allows the opponent to extract the arm through straightening and posturing, collapsing the position entirely."
+      },
+      {
+        "question": "How do you maintain constant downward pressure with the leg across the opponent's back?",
+        "answer": "Actively pull the knee toward your chest while keeping the shin pressed across the opponent's upper back or neck. The leg should feel like it's constantly dragging their posture down rather than passively resting on them. This creates a lever system where their posturing attempts actually increase pressure on the trapped arm."
+      },
+      {
+        "question": "Your opponent starts circling toward your exposed back side - what immediate adjustment do you make?",
+        "answer": "Immediately engage your free leg more actively - either by establishing a strong butterfly hook on their hip, posting on the mat, or hooking behind their leg to arrest the hip rotation. If they continue the movement, abandon the submission hunting and transition to closed guard or technical standup before the back exposure becomes critical."
+      },
+      {
+        "question": "What are the grip priorities for maintaining Crackhead Control?",
+        "answer": "The deep overhook is the primary anchor and must never be compromised. Hand placement behind the shoulder blade with elbow pointing up is critical. Secondary priority is the leg position across their back maintaining downward pressure. The free leg connection for hip control comes third but becomes first priority if back exposure danger emerges."
+      },
+      {
+        "question": "How do you recognize when to transition from gogoplata attempt to omoplata?",
+        "answer": "When the opponent defends the gogoplata by keeping their head posture strong and pulling back rather than driving forward, the omoplata becomes available. Their arm pulling back motion actually sets up the omoplata rotation. Recognize this through the direction of their weight shift - backward momentum favors omoplata, forward momentum favors gogoplata continuation."
+      },
+      {
+        "question": "Your opponent achieves double underhooks while you're hunting a submission - what's your immediate response?",
+        "answer": "Double underhooks signal critical danger requiring immediate position change regardless of how close your submission attempt is. Abandon the attack and either transition to closed guard by releasing the overhook and closing your legs, or initiate technical standup. This is a red-line trigger that overrides all offensive intentions because stack passes and back takes become extremely high percentage from double underhooks."
+      },
+      {
+        "question": "How do you manage energy expenditure to make Crackhead Control sustainable?",
+        "answer": "The deep overhook maintains control without constant grip fighting, so let it do the work rather than squeezing hard. Cycle through submission attempts smoothly rather than forcing individual techniques. Keep the leg across the back engaged but not cramping by pulling with hip flexors rather than just the leg muscles. The position should feel sustainable - if it requires maximum effort to maintain, the mechanics are wrong."
+      },
+      {
+        "question": "What flexibility requirements must be developed to safely use Crackhead Control?",
+        "answer": "Hip flexor and external rotation flexibility are essential for maintaining the leg across the opponent's back without excessive strain. If you experience cramping or discomfort in the hip area, your flexibility is insufficient and you should use Mission Control or New York instead while developing mobility. Forcing the position with inadequate flexibility leads to unsustainable positions and potential injury."
+      }
+    ]
   }
 }

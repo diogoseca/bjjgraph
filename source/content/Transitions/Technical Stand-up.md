@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Technical Stand-up | BJJ Technique | BJJ Graph"
 description: "Master Technical Stand-up in BJJ. Essential escape from bottom to standing. Success rates: Beginner 65%, Intermediate 80%, Advanced 90%. Complete guide."
@@ -16,7 +17,7 @@ description: "Master Technical Stand-up in BJJ. Essential escape from bottom to 
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Technical Stand-up in BJJ",
-  "description": "Step-by-step guide for Technical Stand-up from Seated Guard to Standing Position.",
+  "description": "Step-by-step guide for Technical Stand-up from Seated Guard/Bottom. Possible outcomes: Standing Position/Top (75%), Seated Guard/Bottom (15%), Seated Guard/Top (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -154,11 +155,25 @@ description: "Master Technical Stand-up in BJJ. Essential escape from bottom to 
 
 The Technical Stand-up is a fundamental defensive movement in Brazilian Jiu-Jitsu that allows a practitioner to safely transition from a seated or grounded position to standing. This technique is essential for guard recovery, creating distance from an aggressive opponent, and resetting to a neutral standing position. The movement emphasizes proper base maintenance, hip positioning, and hand placement to prevent being taken down or swept during the transition. Unlike a simple stand-up, the technical version uses specific biomechanical principles to maintain defensive posture throughout the movement, making it extremely difficult for an opponent to capitalize on the transition. The technique is particularly valuable in self-defense scenarios, scrambles, and situations where re-establishing guard is not immediately possible. Mastery of the technical stand-up provides a reliable escape option from compromised bottom positions and forms the foundation for advanced guard retention systems.
 
-**Starting Position**: [[Seated Guard]]
-**Ending Position**: [[Standing Position]]
+**From Position**: [[Seated Guard/Bottom]]
 **Success Rates**: Beginner 65%, Intermediate 80%, Advanced 90%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Standing Position/Top]] | 75% |
+| Failure | [[Seated Guard/Bottom]] | 15% |
+| Counter | [[Seated Guard/Top]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Tap Out | BJJ Technique | BJJ Graph"
 description: "Master the critical tap out protocol in BJJ. Learn proper tap signals, safety awareness, and submission defense fundamentals. Success rates vary by submission awareness and timing."
@@ -16,7 +17,7 @@ description: "Master the critical tap out protocol in BJJ. Learn proper tap sign
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Tap Out in BJJ",
-  "description": "Step-by-step guide for Tap Out from Defensive Position to Lost by Submission.",
+  "description": "Step-by-step guide for Tap Out from Defensive Position/Top. Possible outcomes: game-over/Top (75%), Defensive Position/Top (15%), Defensive Position/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -166,11 +167,25 @@ description: "Master the critical tap out protocol in BJJ. Learn proper tap sign
 
 The tap out is the most fundamental safety mechanism in Brazilian Jiu-Jitsu, representing the universal signal of submission and the practitioner's acknowledgment that they have been caught in a technique they cannot escape. This critical protocol transcends technique and competition, serving as the cornerstone of safe training that allows practitioners to push their limits while minimizing injury risk. Understanding when and how to tap is essential for longevity in the sport, as pride-driven resistance to tapping leads to unnecessary injuries that can end careers. The tap out requires no technical skill but demands mental discipline, ego management, and trust in the training environment. Every practitioner from white belt to black belt must respect the tap, both as the person applying submissions and as the one caught in them. This mutual respect for the tap creates the safe training environment that allows BJJ to be practiced at full intensity without the injury rates seen in other combat sports.
 
-**Starting Position**: [[Defensive Position]]
-**Ending Position**: [[Lost by Submission]]
+**From Position**: [[Defensive Position/Top]]
 **Success Rates**: Beginner 95%, Intermediate 98%, Advanced 99%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[game-over/Top]] | 75% |
+| Failure | [[Defensive Position/Top]] | 15% |
+| Counter | [[Defensive Position/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 
@@ -320,7 +335,7 @@ The tap out is the fundamental safety mechanism that makes Brazilian Jiu-Jitsu p
 
 ## Position Integration
 
-The tap out represents the terminal state in the BJJ state machine, ending the current exchange and resetting to neutral position. It is the universal exit from any submission control position, whether Armbar Control, Triangle Control, Rear Naked Choke Control, Kimura Control, Guillotine Control, or any leg lock position such as Saddle or Inside Ashi-Garami. Understanding tap protocol is essential before learning any submission techniques, as it provides the safety foundation that allows practitioners to train submissions at full intensity. The tap transitions the match from active competition to the Lost by Submission state, then typically returns to Standing Position or Closed Guard for the next roll. In the larger context of BJJ training, frequent tapping in the gym paradoxically accelerates improvement by allowing practitioners to explore positions and submission escapes they would avoid if injury risk prevented experimentation. The tap also serves as critical feedback, indicating exactly where defensive skills need improvement. Advanced practitioners use their tap frequency as a diagnostic tool, noting which positions or submissions they tap to most often and systematically addressing those weaknesses through dedicated training.
+The tap out represents the terminal state in the BJJ state machine, ending the current exchange and resetting to neutral position. It is the universal exit from any submission control position, whether Armbar Control, Triangle Control, Rear Naked Choke Control, Kimura Control, Guillotine Control, or any leg lock position such as Saddle or Inside Ashi-Garami. Understanding tap protocol is essential before learning any submission techniques, as it provides the safety foundation that allows practitioners to train submissions at full intensity. The tap transitions the match from active competition to the game-over state, then typically returns to Standing Position or Closed Guard for the next roll. In the larger context of BJJ training, frequent tapping in the gym paradoxically accelerates improvement by allowing practitioners to explore positions and submission escapes they would avoid if injury risk prevented experimentation. The tap also serves as critical feedback, indicating exactly where defensive skills need improvement. Advanced practitioners use their tap frequency as a diagnostic tool, noting which positions or submissions they tap to most often and systematically addressing those weaknesses through dedicated training.
 
 </section>
 
@@ -328,7 +343,7 @@ The tap out represents the terminal state in the BJJ state machine, ending the c
 
 ## Related Techniques
 
-- [[Lost by Submission]] - Terminal state reached by tapping
+- [[game-over]] - Terminal state reached by tapping
 - [[Armbar Control]] - Common position requiring tap
 - [[Triangle Control]] - Common position requiring tap
 - [[Rear Naked Choke]] - High-percentage submission requiring quick tap

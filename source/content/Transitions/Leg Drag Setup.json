@@ -9,8 +9,6 @@
     "open-guard",
     "fundamentals"
   ],
-  "starting_position": "Open Guard",
-  "ending_position": "Leg Drag Position",
   "success_rates": {
     "beginner": 35,
     "intermediate": 50,
@@ -267,6 +265,24 @@
     {
       "name": "Over-Under Pass",
       "relationship": "Alternative - Backup option when leg drag fails"
+    }
+  ],
+  "from_position": "Open Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Leg Drag Position/Top",
+      "probability": 65,
+      "result": "success"
+    },
+    {
+      "to": "Open Guard/Bottom",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Open Guard/Top",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

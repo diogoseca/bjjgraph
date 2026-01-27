@@ -21,38 +21,32 @@ description: "Defend and escape Meathook from top. Complete defensive guide cove
     {
       "@type": "HowToStep",
       "name": "Execute Arm Extraction",
-      "text": "From this position, execute Arm Extraction to transition to Closed Guard. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Arm Extraction. This technique is attempted in 25% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Posture Recovery",
-      "text": "From this position, execute Posture Recovery to transition to Closed Guard. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Posture Recovery. This technique is attempted in 20% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Stack Defense",
-      "text": "From this position, execute Stack Defense to transition to Half Guard. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Stack Defense. This technique is attempted in 20% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Sprawl",
-      "text": "From this position, execute Sprawl to transition to Turtle. Success rate for advanced practitioners: 45%.",
+      "text": "From this position, attempt Sprawl. This technique is attempted in 15% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Guard Opening Sequence",
-      "text": "From this position, execute Guard Opening Sequence to transition to Open Guard. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Guard Opening Sequence. This technique is attempted in 20% of exchanges from this position.",
       "position": 5
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Base Widening",
-      "text": "From this position, execute Base Widening to transition to Closed Guard. Success rate for advanced practitioners: 55%.",
-      "position": 6
     }
   ],
   "totalTime": "PT2M"
@@ -219,76 +213,16 @@ Energy management in escape attempts requires strategic consideration. Explosive
 
 ## Available Attacks
 
-### [[Arm Extraction]] → [[Closed Guard]]
+### [[Arm Extraction]] (25% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Posture Recovery]] (20% of attempts)
 
-### [[Posture Recovery]] → [[Closed Guard]]
+### [[Stack Defense]] (20% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 40%
-- Advanced: 55%
+### [[Sprawl]] (15% of attempts)
 
-### [[Stack Defense]] → [[Half Guard]]
+### [[Guard Opening Sequence]] (20% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[Sprawl]] → [[Turtle]]
-
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 45%
-
-### [[Guard Opening Sequence]] → [[Open Guard]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
-
-### [[Base Widening]] → [[Closed Guard]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Transition to Gogoplata Control]]** → [[Gogoplata Control]] (Opponent Success: 60%)
-- **[[Triangle Setup]]** → [[Triangle Control]] (Opponent Success: 65%)
-- **[[Transition to Omoplata]]** → [[Omoplata Control]] (Opponent Success: 55%)
-- **[[Transition to Carni]]** → [[Carni]] (Opponent Success: 50%)
-- **[[Armbar from Guard]]** → [[Armbar Control]] (Opponent Success: 45%)
-- **[[Omoplata to Back]]** → [[Back Control]] (Opponent Success: 40%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Arm Extraction]]** → [[Closed Guard]]
-  - When bottom player shifts attention to submission setup, briefly loosening shin hook pressure
-- **[[Stack Defense]]** → [[Half Guard]]
-  - When bottom player commits to gogoplata setup, driving forward into stack position
-- **[[Posture Recovery]]** → [[Closed Guard]]
-  - Immediately after arm extraction, using freed limb to establish base and drive upward
 
 
 </section>
@@ -400,25 +334,39 @@ Start with arm already extracted but posture still broken in closed guard. Pract
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Arm Extraction to Guard Recovery
+## Test Your Knowledge
 
-`Meathook Top → Arm Extraction → Closed Guard → Posture Recovery → Guard Opening Sequence`
+**Q1**: Your opponent has established Meathook and you feel their shin hook tightening—what is your immediate priority?
+**A**: Immediate recognition and defensive mode shift is critical. Stop any passing attempts and prioritize arm extraction above all else. Widen your base with your free arm to create leverage, and prepare for an explosive rotational extraction attempt. Every second of delay increases submission danger as your opponent consolidates control and sets up attacks.
 
-### Stack Escape to Half Guard
+**Q2**: What are the essential grips and frames needed to survive and escape Meathook Top?
+**A**: Your free arm must post wide to create a triangular base structure that generates leverage for extraction. Avoid placing it close to your body. While arm extraction is primary, your free hand should also work to address the opponent's controlling grip on your head or collar when possible. After extracting, both hands establish base for immediate posture recovery.
 
-`Meathook Top → Stack Defense → Half Guard → Knee Slice Pass (when bottom player commits to gogoplata)`
+**Q3**: Why does attempting to pass guard while trapped in Meathook accelerate submissions?
+**A**: Forward pressure from passing attempts drives your head deeper into gogoplata range and increases the mechanical advantage of the shin hook. Your weight moving forward amplifies the compression on your trapped arm and feeds directly into the opponent's attack chain. The correct response is accepting temporary disadvantage and executing escape sequences rather than forcing the pass.
 
-### Explosive Extraction to Standing
+**Q4**: Your opponent begins shifting their hips toward gogoplata setup—what defensive adjustment should you make?
+**A**: When you recognize the hip shift toward gogoplata, immediately consider a stack defense by driving forward into them to disrupt their shin angle before it reaches your throat. Alternatively, time an explosive arm extraction to their transitional moment when the hook temporarily loosens during hip adjustment. The sprawl option puts you at Turtle but escapes the submission threat.
 
-`Meathook Top → Arm Extraction → Standing up in Base → Open Guard passing (accepting position reset for safety)`
+**Q5**: How should you manage energy during escape attempts from Meathook Top?
+**A**: Explosive movements offer the best arm extraction chance but consume significant energy. Wait for optimal timing—when opponent shifts attention to submission setup or adjusts grips, hook pressure briefly loosens. This is your window for explosive rotational extraction. Continuous moderate effort wastes energy without results; measured explosive timing beats sustained pulling.
+
+**Q6**: After successfully extracting your trapped arm, what must happen immediately?
+**A**: Posture recovery must follow arm extraction without pause. Use the newly freed arm to establish base alongside your other arm, create space, and drive upward through proper spinal alignment to achieve neutral posture. The opponent will immediately attempt to re-establish Rubber Guard control or transition to traditional closed guard attacks—rapid posture recovery prevents this.
+
+**Q7**: What common error leads to shoulder injuries when escaping Meathook?
+**A**: Continuous straight-line pulling on the trapped arm without rotational component creates sustained tension against the shin hook's strongest resistance angle, risking shoulder strain. The correct mechanic combines pulling force with rotational movement—spiral the arm as you extract rather than pulling straight back. This rotation changes leverage angles and exploits weaknesses in the hook.
+
+**Q8**: Why is accepting Closed Guard or even a sweep often the strategically correct choice when escaping Meathook?
+**A**: Extracting the arm while maintaining top position is often mechanically impossible against a properly established Meathook. Remaining trapped guarantees submission completion. Accepting Closed Guard after arm extraction or conceding a sweep during escape creates neutral or recoverable positions, whereas staying in Meathook leads to certain submission. Strategic retreat enables survival.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -444,10 +392,9 @@ Start with arm already extracted but posture still broken in closed guard. Pract
 - **[[Gogoplata Control]]** - Primary submission threat when trapped in Meathook
 - **[[Triangle Control]]** - Common finish when top player attempts upward arm extraction
 - **[[Omoplata Control]]** - High-probability submission when top player rotates trapped arm
-- **[[Armbar Defense]]** - General defensive principles applicable to Meathook escape
-- **[[Posture Recovery]]** - Essential follow-up after arm extraction from Meathook
-- **[[Guard Retention]]** - Conceptual framework for understanding why Meathook is so effective
-- **[[Defensive Strategy]]** - Broader tactical context for prioritizing escape over advancement
+- **[[Armbar Control]]** - Submission threat requiring awareness during escape
+- **[[Half Guard]]** - Possible escape destination when using stack defense
+- **[[Turtle]]** - Emergency escape position via sprawl when gogoplata is imminent
 
 
 </section>

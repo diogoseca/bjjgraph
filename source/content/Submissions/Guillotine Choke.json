@@ -265,6 +265,31 @@
       "question": "What should you do immediately if your training partner becomes unconscious from a guillotine choke?",
       "answer": "Immediately release all choking pressure and remove your arm from their neck. Help them to a seated position to assist with blood flow returning to the brain. Monitor their breathing and consciousness level closely. They should regain consciousness within seconds - if they do not wake up immediately or show any signs of distress, call for medical assistance. Never continue training until they are fully recovered and cleared by medical personnel if there was any extended loss of consciousness. This scenario should be extremely rare in training if proper safety protocols are followed.",
       "safety_critical": true
+    },
+    {
+      "question": "Your opponent begins to posture up strongly while you have a guillotine grip from closed guard - what finishing adjustment prevents escape?",
+      "answer": "When your opponent postures up, immediately close your guard tightly around their waist and pull your heels into their lower back to break their posture back down. Simultaneously, drive your hips upward into their chest while pulling your choking arm toward your chest. If they continue posturing despite this, consider transitioning to the mounted guillotine by following their posture up and climbing to mount while maintaining your grip. The key is never fighting their posture with arm strength alone - use your entire body including legs and hips to either break the posture or transition to a finishing position where their posture becomes irrelevant.",
+      "safety_critical": false
+    },
+    {
+      "question": "What anatomical structures does a properly applied guillotine choke attack, and what is the typical time to unconsciousness?",
+      "answer": "A properly applied guillotine primarily attacks the carotid arteries on both sides of the neck, which supply oxygenated blood to the brain. When both carotids are compressed, unconsciousness typically occurs within 6-10 seconds due to cerebral hypoxia. Secondary pressure may also affect the jugular veins (preventing blood from leaving the brain) and the vagus nerve. A guillotine applied with low elbow may also compress the trachea (windpipe), causing air choke sensation, but this is less effective and more dangerous. The blood choke mechanism is preferred because it is faster, more reliable, and causes less tissue damage than trachea compression.",
+      "safety_critical": true
+    },
+    {
+      "question": "At what point during a guillotine does the submission become inescapable for most opponents?",
+      "answer": "The point of no escape typically occurs when three conditions are met simultaneously: (1) your choking arm is fully locked with proper grip and the shoulder is sealed against their neck eliminating space, (2) you have established a 45-degree body angle preventing their forward escape or circling, and (3) your legs are controlling their hips either through closed guard, mount, or hook control. Once these three elements are locked in and you begin applying finishing pressure through hip drive and elbow elevation, escape becomes extremely difficult. Skilled opponents may still escape before the grip is fully locked or before the angle is established, which is why securing all control points before committing to the finish is critical.",
+      "safety_critical": false
+    },
+    {
+      "question": "How do you adjust your grip when your opponent's neck is sweaty and your hands keep slipping during the guillotine?",
+      "answer": "When dealing with slippery conditions, transition to the ten-finger guillotine grip where all ten fingers interlock together rather than a wrist grip or palm-to-palm connection. This creates maximum grip security. Additionally, focus on wrist-to-wrist contact rather than palm-to-palm, as the bony wrist provides more friction. You can also drive your choking forearm deeper before locking the grip, using the crook of your elbow against their neck for a more secure anchor point. In extreme cases, the marcelotine grip (grabbing your own bicep) provides excellent security. Regardless of grip variation, maintaining shoulder-to-neck pressure becomes even more important when hands are slipping.",
+      "safety_critical": false
+    },
+    {
+      "question": "What strategies maximize guillotine success rate in competition when opponents are actively defending?",
+      "answer": "Competition-level guillotine success requires: (1) attacking during transitions when opponent is focused on other objectives like completing a takedown or passing guard, (2) chaining the guillotine with other attacks so defending the sweep or pass opens the neck, (3) using the guillotine threat to set up sweeps and back takes which creates submission dilemmas, (4) committing fully to the mounted guillotine finish when opponents try to pass through the choke, and (5) developing multiple grip variations to adapt when one is countered. Elite competitors also time their guillotine entries to catch opponents mid-movement when they cannot defend effectively, rather than attacking a static, prepared opponent.",
+      "safety_critical": false
     }
   ],
   "training_progressions_and_safety_protocols": [
@@ -329,7 +354,6 @@
     "Ten Finger Guillotine",
     "Chin Strap Guillotine",
     "Guillotine Variations",
-    "Guillotine Sequence",
     "Darce Choke",
     "Anaconda Choke",
     "D'arce-Anaconda Connection",
@@ -366,16 +390,16 @@
       "relationship": "Standing setup entry for guillotine position"
     },
     {
-      "name": "Marcelo Garcia Guillotine System",
-      "relationship": "Systematic framework for guillotine-based game"
-    },
-    {
       "name": "Head Control",
       "relationship": "Fundamental principle for guillotine effectiveness"
     },
     {
       "name": "Posture Breaking",
       "relationship": "Prerequisite principle for establishing guillotine control"
+    },
+    {
+      "name": "Closed Guard",
+      "relationship": "Common position for guillotine execution from bottom"
     }
   ]
 }

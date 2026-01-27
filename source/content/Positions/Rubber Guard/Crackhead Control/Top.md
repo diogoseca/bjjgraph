@@ -21,37 +21,37 @@ description: "Navigate Crackhead Control from top position - defending deep over
     {
       "@type": "HowToStep",
       "name": "Execute Back Take",
-      "text": "From this position, execute Back Take to transition to Back Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Back Take. This technique is attempted in 18% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Stack Pass",
-      "text": "From this position, execute Stack Pass to transition to Side Control. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Stack Pass. This technique is attempted in 15% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Double Underhook Pass",
-      "text": "From this position, execute Double Underhook Pass to transition to Side Control. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Double Underhook Pass. This technique is attempted in 16% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling Back Take",
-      "text": "From this position, execute Rolling Back Take to transition to Back Control. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 15% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Posture Recovery to Closed Guard",
-      "text": "From this position, execute Posture Recovery to Closed Guard to transition to Closed Guard. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Posture Recovery to Closed Guard. This technique is attempted in 20% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm Extraction and Pass",
-      "text": "From this position, execute Arm Extraction and Pass to transition to Side Control. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Arm Extraction and Pass. This technique is attempted in 16% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -207,77 +207,18 @@ From the top perspective, Crackhead Control presents a complex defensive puzzle 
 
 ## Available Attacks
 
-### [[Back Take]] → [[Back Control]]
+### [[Back Take]] (18% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Stack Pass]] (15% of attempts)
 
-### [[Stack Pass]] → [[Side Control]]
+### [[Double Underhook Pass]] (16% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
+### [[Rolling Back Take]] (15% of attempts)
 
-### [[Double Underhook Pass]] → [[Side Control]]
+### [[Posture Recovery to Closed Guard]] (20% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
+### [[Arm Extraction and Pass]] (16% of attempts)
 
-### [[Rolling Back Take]] → [[Back Control]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
-
-### [[Posture Recovery to Closed Guard]] → [[Closed Guard]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-### [[Arm Extraction and Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Gogoplata]]** → [[Gogoplata Control]] (Opponent Success: 30%)
-- **[[Omoplata]]** → [[Omoplata Control]] (Opponent Success: 40%)
-- **[[Triangle Choke]]** → [[Triangle Control]] (Opponent Success: 35%)
-- **[[Hook Sweep]]** → [[Mount]] (Opponent Success: 25%)
-- **[[Armbar from Guard]]** → [[Armbar Control]] (Opponent Success: 30%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Back Take]]** → [[Back Control]]
-  - Bottom player extends legs for triangle or omoplata setup, creating back exposure window
-- **[[Stack Pass]]** → [[Side Control]]
-  - Bottom player commits weight backward attempting submission finish, allowing stacking pressure
-- **[[Double Underhook Pass]]** → [[Side Control]]
-  - Bottom player loses leg control across back while maintaining overhook focus
-- **[[Sprawl]]** → [[Front Headlock]]
-  - Bottom player attempts technical standup or sweep, creating sprawling opportunity
 
 
 </section>
@@ -388,33 +329,39 @@ Maintain top position in Crackhead Control while modulating forward pressure - t
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Extension Exploitation Back Take
+## Test Your Knowledge
 
-`Crackhead Control Top → Back Control → Rear Naked Choke → Won by Submission`
+**Q1**: What is the primary defensive priority when trapped in Crackhead Control from top?
+**A**: The primary defensive priority is systematic arm extraction combined with posture recovery. The trapped arm severely limits passing mechanics and defensive options, so freeing it must precede any serious passing attempts. This should be done through small circular motions rather than explosive pulling, which triggers omoplata entries.
 
-### Systematic Arm Extraction Pass
+**Q2**: How should you adjust your weight distribution to avoid triggering gogoplata setups?
+**A**: Maintain moderate forward pressure through your hips and chest rather than diving your head forward. Excessive forward pressure triggers gogoplata and Carni transitions because it provides the bottom player with the momentum needed to thread their shin across your throat. Keep pressure steady but not overwhelming.
 
-`Crackhead Control Top → Closed Guard → Guard Pass → Side Control → Mount`
+**Q3**: Your opponent's hip angle suddenly changes as they shift weight to their left hip - what does this signal?
+**A**: Hip angle changes signal specific submission entries. A shift to one hip typically indicates omoplata setup if rotating the trapped arm outward, or triangle setup if the hips are opening to create space for the leg to swing over. Recognizing these cues allows preemptive defensive adjustments before the submission is fully established.
 
-### Rolling Back Capture
+**Q4**: What are the essential base fundamentals for surviving Crackhead Control from top?
+**A**: Keep feet wide with knees slightly bent to create a stable platform that resists sweeps. The free arm must remain posted to provide counter-pressure and prevent being rolled. Weight distribution should be balanced - not too far forward (triggers gogoplata) or too far back (allows free hip movement). Base must be mobile and reactive to opponent's movements.
 
-`Crackhead Control Top → Rolling Back Take → Back Control → submission attacks`
+**Q5**: When is it appropriate to attempt a back take from top position in Crackhead Control?
+**A**: The back take window opens when the bottom player commits aggressively to submission finishes, particularly when they extend their legs for triangle or omoplata setups. This extension creates temporary back exposure. The key is recognizing these moments rather than forcing the back take, as premature attempts result in the opponent simply returning to closed guard.
 
-### Double Underhook Consolidation
+**Q6**: What should you do immediately if your opponent establishes double underhooks from Crackhead Control?
+**A**: If you're the top player and opponent gets double underhooks, this actually signals danger for THEM - they've abandoned the overhook control. Immediately capitalize by stacking and passing, as they've given up their primary control mechanism. However, be aware they may be setting up a sweep, so maintain wide base during the pass.
 
-`Crackhead Control Top → Double Underhook Pass → Side Control → positional advancement`
+**Q7**: How do you recover position after partially escaping but still having posture broken?
+**A**: Work incrementally rather than trying to fully posture in one movement. First, establish your free arm as a strong post. Then begin small arm circles to reduce overhook depth while maintaining base. Use hip pressure combined with gradual posture elevation. The goal is systematic improvement of your position rather than explosive escape attempts.
 
-### Stack Pressure Pass
-
-`Crackhead Control Top → Stack Pass → Side Control → submission hunting`
+**Q8**: Why is passive defense particularly dangerous in Crackhead Control top position?
+**A**: Passive defense allows the bottom player to freely cycle through their submission chain without time pressure or positional degradation. They can optimize their offense by making incremental angle adjustments until finding a successful entry. Active defense forces mistakes and prevents the bottom player from establishing their preferred submission sequence.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -440,10 +387,9 @@ Maintain top position in Crackhead Control while modulating forward pressure - t
 - **[[Closed Guard]]** - Common result of successful arm extraction and posture recovery
 - **[[Omoplata Control]]** - Primary submission threat when attempting arm extraction incorrectly
 - **[[Gogoplata Control]]** - Submission threat when driving excessive forward pressure
-- **[[Guard Passing Principles]]** - General passing concepts apply but require modification for trapped arm scenario
-- **[[Submission Defense]]** - Essential skill for managing multiple concurrent submission threats
 - **[[Side Control]]** - Target position for successful passing sequences
-- **[[10th Planet Rubber Guard System]]** - Systematic understanding helps predict bottom player's likely sequences
+- **[[Front Headlock]]** - Alternative offensive option when sprawling on sweep attempts
+- **[[Triangle Control]]** - Submission threat requiring constant awareness during arm extraction
 
 
 </section>

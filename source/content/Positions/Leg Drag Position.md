@@ -93,26 +93,20 @@ Historically, the leg drag evolved from traditional gi passing but has found eve
 - Recognize early and prevent completion - late defense rarely succeeds
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Butterfly Hook Recovery]]** → [[Butterfly Guard]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Butterfly Hook Recovery]]** (20% of attempts)
 
-- **[[Half Guard Recovery]]** → [[Knee Shield Half Guard]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Half Guard Recovery]]** (20% of attempts)
 
-- **[[Deep Half Entry]]** → [[Deep Half Guard]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Deep Half Entry]]** (16% of attempts)
 
-- **[[Granby Roll]]** → [[Butterfly Guard]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 50%
+- **[[Granby Roll]]** (16% of attempts)
 
-- **[[Frame and Shrimp]]** → [[Open Guard]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Frame and Shrimp]]** (17% of attempts)
 
-- **[[Underhook Battle]]** → [[Underhook Control]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Arm Drag Escape]]** (11% of attempts)
 
 
 ### Common Mistakes
@@ -164,32 +158,24 @@ Historically, the leg drag evolved from traditional gi passing but has found eve
 - Control far hip to prevent granby rolls and inversions
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Knee Slice Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 40%, Intermediate 60%, Advanced 75%
+- **[[Knee Slice Pass]]** (17% of attempts)
 
-- **[[Back Step]]** → [[Back Control]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 70%
+- **[[Back Step]]** (13% of attempts)
 
-- **[[Pressure Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+- **[[Pressure Pass]]** (14% of attempts)
 
-- **[[Transition to Mount]]** → [[Mount]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 60%
+- **[[Side Control to Mount]]** (11% of attempts)
 
-- **[[Body Lock Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Body Lock Pass]]** (12% of attempts)
 
-- **[[Transition to North-South]]** → [[North-South]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Side Control to North-South]]** (11% of attempts)
 
-- **[[Knee on Belly]]** → [[Knee on Belly]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Knee on Belly]]** (12% of attempts)
 
-- **[[Leg Weave Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Leg Weave Pass]]** (10% of attempts)
 
 
 ### Common Mistakes

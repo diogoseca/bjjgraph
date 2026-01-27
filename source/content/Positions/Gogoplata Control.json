@@ -51,10 +51,283 @@
       "relationship": "Transition target if opponent rolls to escape shin pressure"
     },
     {
-      "name": "Won by Submission",
+      "name": "game-over",
       "relationship": "Terminal state when gogoplata submission is completed successfully"
     }
   ],
+  "top": {
+    "name": "Gogoplata Control Top",
+    "description": "Master defending and escaping gogoplata control from top position including posture maintenance, shin removal, head extraction, and counter-attack strategies against flexible opponents.",
+    "tags": [
+      "defensive technique",
+      "gogoplata defense",
+      "escape mechanics",
+      "guard passing",
+      "submission defense",
+      "posture recovery",
+      "advanced defense"
+    ],
+    "overview": "From the top position in Gogoplata Control, the practitioner faces one of Brazilian Jiu-Jitsu's most technically challenging defensive situations. The bottom player has established a shin across the throat while securing their own foot behind the defender's head, creating a submission-control hybrid that severely limits conventional escape options. The top position defender must employ specific strategies to extract themselves from this anatomically compromising position without succumbing to the choke or exposing themselves to alternative attacks.\n\nThe defensive challenge stems from the unique mechanics of gogoplata control. Unlike traditional guard positions where the top player can rely on posture and base to create escape opportunities, the shin-across-throat configuration has already compromised posture. Traditional strategies of driving weight forward or pulling away both prove ineffective because the foot-behind-head configuration prevents separation. This forces the top defender to employ more sophisticated extraction mechanics focused on angle changes, systematic head positioning, and careful leg removal.\n\nInitially, the top player must assess the immediate danger level. A fully locked gogoplata with proper shin alignment and deep foot positioning represents a critical threat requiring immediate defensive action. A loosely established position with poor hip elevation from the bottom player provides more time for methodical escape. This assessment determines whether the defender must employ explosive emergency escapes or can work through systematic positional improvements.\n\nThe primary defensive objective is removing the shin from the throat while preventing the bottom player from transitioning to alternative attacks. This requires managing multiple threats simultaneously - the gogoplata finish itself, potential triangle transitions if the shin position changes, omoplata attacks if the defender turns the wrong direction, and back exposure if forward rolls are attempted. This multi-threat environment makes defensive decision-making complex and time-sensitive.\n\nStrategically, the top defender must recognize that maintaining calm and avoiding panic is essential. Explosive, uncontrolled movements typically worsen the position by tightening the choke or exposing alternative submission opportunities. Systematic, technically precise movements focused on creating small advantages and building toward complete escape prove more effective than desperate struggling.\n\nThe position also provides important lessons about submission defense principles. The gogoplata demonstrates that some submissions cannot be defended through strength or aggression alone. The anatomical configuration creates a mechanical disadvantage that requires technical understanding and precise execution to overcome. This makes it an excellent teaching position for advanced practitioners learning to defend against unconventional attacks.",
+    "state_properties": {
+      "point_value": 0,
+      "position_type": "Defensive",
+      "risk_level": "High",
+      "energy_cost": "Medium",
+      "time_sustainability": "Short"
+    },
+    "state_invariants": [
+      "Top player's head is trapped with bottom player's shin across throat creating direct pressure on trachea, while bottom player's foot is secured behind top player's head preventing conventional head extraction through backward movement",
+      "Top player maintains some base with hands posted on mat or controlling bottom player's hips, though posture is severely compromised by the shin-across-throat position and forward lean is unavoidable due to foot-behind-head configuration",
+      "Top player's breathing is restricted by shin compression requiring immediate defensive action, with the degree of restriction determining whether explosive emergency escape or systematic technical escape is appropriate response"
+    ],
+    "prerequisites": [
+      "Bottom player has achieved high guard or rubber guard control with top player's posture broken",
+      "Bottom player possesses sufficient flexibility to thread leg across throat and secure foot behind head",
+      "Top player's head positioning allows bottom player to establish perpendicular shin alignment across trachea",
+      "Bottom player has elevated hips creating proper angle for shin compression",
+      "Top player's defensive awareness activated by recognition of submission threat"
+    ],
+    "key_principles": [
+      "Remain calm and avoid panic-driven movements that tighten the choke or expose additional threats",
+      "Prioritize creating breathing space before attempting full escape from position",
+      "Understand that pulling straight back is ineffective due to foot-behind-head configuration",
+      "Focus on changing angles and removing leg systematically rather than using strength alone",
+      "Recognize that explosive movements often worsen position by exposing back or tightening submission",
+      "Address multiple attack threats simultaneously including gogoplata, triangle, omoplata, and back exposure",
+      "Build escape through incremental improvements rather than single explosive movement"
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the first priority when caught in gogoplata control before attempting escape?",
+        "answer": "Create breathing space by turning your chin slightly toward the attacking leg to reduce direct trachea compression. This buys time for a systematic escape rather than panicking with explosive movements that typically tighten the choke."
+      },
+      {
+        "question": "Why does pulling straight backward fail as an escape from gogoplata control?",
+        "answer": "The foot-behind-head configuration creates a closed loop system. Pulling backward actually tightens the choke because the shin is locked in place by the foot behind your head. You must address the foot position first or change angles laterally."
+      },
+      {
+        "question": "Your opponent's hips suddenly drop to mat level while maintaining gogoplata - what opportunity does this create?",
+        "answer": "Dropped hips reduce the perpendicular shin angle across your throat, decreasing compression effectiveness. This is your window to stack forward with pressure, driving your weight into them while working to extract your head as the submission loosens."
+      },
+      {
+        "question": "What are the three alternative submissions you must defend against when escaping gogoplata?",
+        "answer": "Triangle choke if your escape movement allows them to switch the leg configuration, omoplata if you turn toward the attacking leg exposing your shoulder, and back exposure if you attempt to roll forward through the position. Each escape direction has specific counter-threats."
+      },
+      {
+        "question": "How should you use your hands when defending gogoplata control?",
+        "answer": "Use hands to control the opponent's hips and create base rather than grabbing at the choking leg directly. The leg is stronger than your arms making direct pulling ineffective. Hand position on hips allows you to manage distance and prevent hip elevation that maintains the choke."
+      },
+      {
+        "question": "If you feel the choke tightening and have limited time, what emergency escape option exists?",
+        "answer": "Emergency tuck and roll toward turtle position, accepting the back exposure risk. This explosive movement breaks the shin angle and foot position simultaneously, though it requires immediate turtle defense skills. Only use when systematic escape time is unavailable."
+      },
+      {
+        "question": "What mistake causes many defenders to give up an omoplata when escaping gogoplata?",
+        "answer": "Turning toward the attacking leg to escape throat pressure exposes your shoulder for omoplata. If you must turn, always turn away from the choking leg. Better still, work on lateral head movement and systematic extraction rather than turning at all."
+      },
+      {
+        "question": "How do you assess whether you have time for systematic escape versus needing emergency action?",
+        "answer": "Evaluate hip elevation and foot depth. Fully locked gogoplata with deep foot position and elevated hips requires immediate action. Shallow foot position or hips on mat provides time for systematic escape. Breathing restriction level is your primary indicator."
+      }
+    ],
+    "decision_tree": [
+      {
+        "condition": "If gogoplata is fully locked with deep foot position and strong shin compression making breathing difficult",
+        "actions": [
+          {
+            "technique": "Emergency Tuck and Roll",
+            "target": "Turtle",
+            "probability": 40
+          },
+          {
+            "technique": "Tap for Safety",
+            "target": "game-over",
+            "probability": 60
+          }
+        ]
+      },
+      {
+        "condition": "If shin is across throat but foot position behind head is shallow or hip elevation is inconsistent",
+        "actions": [
+          {
+            "technique": "Systematic Head Extraction",
+            "target": "Closed Guard",
+            "probability": 55
+          },
+          {
+            "technique": "Angle Change to Remove Pressure",
+            "target": "Half Guard",
+            "probability": 50
+          }
+        ]
+      },
+      {
+        "condition": "If bottom player attempts to tighten submission by pulling foot deeper behind head",
+        "actions": [
+          {
+            "technique": "Hand Fighting Foot Position",
+            "target": "Open Guard",
+            "probability": 45
+          },
+          {
+            "technique": "Posture Recovery",
+            "target": "Closed Guard",
+            "probability": 40
+          }
+        ]
+      },
+      {
+        "condition": "If bottom player's hips drop to mat during control maintenance",
+        "actions": [
+          {
+            "technique": "Immediate Stack Pressure",
+            "target": "Half Guard",
+            "probability": 65
+          },
+          {
+            "technique": "Head Extraction",
+            "target": "Closed Guard",
+            "probability": 60
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Pulling head straight backward away from bottom player to escape shin pressure",
+        "consequence": "Foot-behind-head configuration prevents backward movement and pulling motion tightens the choke by increasing shin pressure against throat",
+        "correction": "Focus on lateral head movement and changing angles rather than pulling away; work to remove foot from behind head first before attempting head extraction"
+      },
+      {
+        "error": "Driving weight forward into bottom player attempting to smash through position",
+        "consequence": "Forward pressure increases shin compression on throat and may expose back for back take if opponent uses forward momentum against defender",
+        "correction": "Maintain neutral weight distribution while working on technical escape mechanics; use hand fighting and angle changes rather than weight pressure"
+      },
+      {
+        "error": "Panicking and making explosive, uncontrolled movements when feeling choke pressure",
+        "consequence": "Random movements often expose neck further, tighten existing submission, or create opportunities for triangle and omoplata transitions",
+        "correction": "Stay calm and work systematically through escape sequence; recognize that controlled technical movements are more effective than explosive struggling"
+      },
+      {
+        "error": "Focusing exclusively on removing shin from throat without addressing foot-behind-head position",
+        "consequence": "Shin can be replaced immediately after removal because structural configuration remains intact with foot still behind head",
+        "correction": "Prioritize removing or loosening foot from behind head which eliminates the structural foundation allowing shin to be replaced across throat"
+      },
+      {
+        "error": "Attempting to use hands to pull the leg away from throat without proper leverage",
+        "consequence": "Bottom player's leg is stronger than top player's arms making direct pulling ineffective while hand positioning opens armbar opportunities",
+        "correction": "Use hands to control bottom player's hips and create base rather than grabbing at the choking leg; focus on positional improvements that make leg removal possible"
+      },
+      {
+        "error": "Turning shoulder toward the choking leg to escape pressure",
+        "consequence": "Turning into the shin creates omoplata position giving bottom player alternative submission while maintaining control",
+        "correction": "If turning, turn away from choking leg while maintaining awareness of back exposure; better to work on systematic head extraction than turning into additional threats"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Gogoplata Defense Progression Drill",
+        "description": "Partner establishes gogoplata control at 50% tightness. Practice systematic escape sequence: hand position to create frame, lateral head movement to reduce pressure, foot removal from behind head, shin extraction, return to closed guard. Partner gradually increases resistance as escape mechanics improve.",
+        "duration": "5 minutes per person"
+      },
+      {
+        "name": "Panic Management Drill",
+        "description": "Partner applies gogoplata control while you focus exclusively on remaining calm and breathing despite pressure. No escape attempts - purely training mental composure under submission pressure. Partner increases pressure gradually while you maintain calm breathing and clear thinking. Builds psychological resilience for competition scenarios.",
+        "duration": "2 minutes per round"
+      },
+      {
+        "name": "Multi-Threat Defense Drill",
+        "description": "Partner establishes gogoplata control and transitions between gogoplata, triangle, and omoplata based on your defensive movements. Practice recognizing which threat is active and adjusting defense accordingly. Develops ability to manage multiple simultaneous submission threats from complex control positions.",
+        "duration": "3 minutes per person"
+      },
+      {
+        "name": "Emergency Escape Simulation",
+        "description": "Partner locks gogoplata at 80% tightness requiring immediate explosive escape attempt. Practice emergency rolling escapes, tuck-and-roll mechanics, and explosive posture recovery under high pressure. Simulates competition scenarios where technical escape time is not available. Emphasize safety with clear tap protocols.",
+        "duration": "1 minute per round"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Rubber Guard",
+        "relationship": "Primary position from which gogoplata control is established"
+      },
+      {
+        "name": "Triangle Control",
+        "relationship": "Alternative submission when top player defends gogoplata imperfectly"
+      },
+      {
+        "name": "Closed Guard",
+        "relationship": "Target position after successful escape from gogoplata control"
+      },
+      {
+        "name": "Half Guard",
+        "relationship": "Alternative escape target position using lateral movement"
+      },
+      {
+        "name": "Omoplata Control",
+        "relationship": "Position defender must avoid when escaping gogoplata through turning movements"
+      },
+      {
+        "name": "Mission Control",
+        "relationship": "Rubber guard control position that precedes gogoplata setup"
+      },
+      {
+        "name": "Back Control",
+        "relationship": "Position exposure risk if forward roll escape is attempted"
+      },
+      {
+        "name": "Turtle",
+        "relationship": "Emergency escape destination when immediate extraction required"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "beginner": 30,
+        "intermediate": 50,
+        "advanced": 70,
+        "description": "Ability to avoid submission and maintain defensive structure while escaping"
+      },
+      "advancement_probability": {
+        "beginner": 25,
+        "intermediate": 40,
+        "advanced": 60,
+        "description": "Likelihood of successfully escaping to neutral or better position"
+      },
+      "submission_probability": {
+        "beginner": 50,
+        "intermediate": 35,
+        "advanced": 20,
+        "description": "Risk of being submitted if escape is not executed properly"
+      },
+      "average_time": "15-30 seconds from recognizing danger to complete escape or submission"
+    },
+    "transitions": [
+      {
+        "transition": "Head Extraction to Posture",
+        "attempt_probability": 17
+      },
+      {
+        "transition": "Shin Removal to Pass",
+        "attempt_probability": 15
+      },
+      {
+        "transition": "Leg Extraction Escape",
+        "attempt_probability": 14
+      },
+      {
+        "transition": "Stack Defense",
+        "attempt_probability": 19
+      },
+      {
+        "transition": "Angle Change Escape",
+        "attempt_probability": 18
+      },
+      {
+        "transition": "Hand Control to Extract",
+        "attempt_probability": 17
+      }
+    ]
+  },
   "bottom": {
     "name": "Gogoplata Control Bottom",
     "description": "Master bottom gogoplata control mechanics including shin positioning, foot-behind-head configuration, hip elevation, and submission finishing from guard and rubber guard positions.",
@@ -96,122 +369,38 @@
       "Position functions as submission attempt and control state simultaneously without separation",
       "Transitions to triangle, omoplata, or back are available if primary finish is defended"
     ],
-    "offensive_transitions": [
+    "knowledge_assessment": [
       {
-        "technique": "Gogoplata",
-        "target_position": "Won by Submission",
-        "success_rates": {
-          "beginner": 15,
-          "intermediate": 30,
-          "advanced": 50
-        }
+        "question": "What is the optimal shin alignment relative to the opponent's throat for maximum submission effectiveness?",
+        "answer": "The shin must be perpendicular to the trachea, not parallel or diagonal. The tibia should contact the front of the throat directly with the ankle hooking around the far side of the head. This perpendicular alignment maximizes compression on the airway and carotid arteries."
       },
       {
-        "technique": "Triangle Choke",
-        "target_position": "Triangle Control",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 50,
-          "advanced": 65
-        }
+        "question": "Your opponent creates a small gap - how do you use this to deepen your control?",
+        "answer": "Use your hands to immediately pull your own foot deeper behind their head while maintaining shin pressure. The gap they created becomes an opportunity to tighten the configuration. Once deeper, re-establish hip elevation to lock the improved position."
       },
       {
-        "technique": "Transition to Omoplata",
-        "target_position": "Omoplata Control",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 45,
-          "advanced": 60
-        }
+        "question": "Why is hip elevation critical for maintaining gogoplata control?",
+        "answer": "Elevated hips create the necessary angle for the shin to compress the throat rather than sliding off. When hips drop to mat level, the shin angle becomes parallel to the throat eliminating compression. Core engagement must keep pelvis higher than shoulders throughout control."
       },
       {
-        "technique": "Back Take",
-        "target_position": "Back Control",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 40,
-          "advanced": 55
-        }
+        "question": "What hand positioning maintains optimal control while setting up the finish?",
+        "answer": "Use both hands initially to pull your own foot deep behind the opponent's head. Maintain at least one hand on your foot throughout to prevent removal. The hands control your foot position, not the opponent's head - the shin does the controlling work."
       },
       {
-        "technique": "Armbar from Guard",
-        "target_position": "Armbar Control",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 45,
-          "advanced": 60
-        }
+        "question": "Your opponent starts turning their shoulder away from the choking shin - what transition becomes available?",
+        "answer": "The omoplata transition opens when they turn away. As their shoulder rotates toward you to escape throat pressure, redirect to omoplata control by releasing the gogoplata configuration and securing their arm across your hip. Their escape movement provides the rotation needed."
       },
       {
-        "technique": "High Mount Transition",
-        "target_position": "High Mount",
-        "success_rates": {
-          "beginner": 20,
-          "intermediate": 35,
-          "advanced": 50
-        }
+        "question": "What prerequisite flexibility must be developed before attempting gogoplata in live training?",
+        "answer": "Hip external rotation and hamstring flexibility sufficient for sustained leg-behind-head positioning. Test by achieving mission control in rubber guard first. If you cannot comfortably maintain your leg across your own shoulder, the gogoplata flexibility requirements are not met."
       },
       {
-        "technique": "Mission Control Recovery",
-        "target_position": "Mission Control",
-        "success_rates": {
-          "beginner": 40,
-          "intermediate": 55,
-          "advanced": 70
-        }
+        "question": "How do you transition to triangle when the opponent successfully removes your shin from their throat?",
+        "answer": "As the shin slides off, immediately switch to triangle configuration by bringing your opposite leg over their shoulder and locking your ankles. The foot that was behind their head now assists in securing the triangle. The removed shin becomes the locking leg."
       },
       {
-        "technique": "Rubber Guard Maintenance",
-        "target_position": "Rubber Guard",
-        "success_rates": {
-          "beginner": 45,
-          "intermediate": 60,
-          "advanced": 75
-        }
-      }
-    ],
-    "defensive_responses": [
-      {
-        "technique": "Head Extraction",
-        "target_position": "Closed Guard"
-      },
-      {
-        "technique": "Posture Recovery",
-        "target_position": "Defensive Position"
-      },
-      {
-        "technique": "Stack Defense",
-        "target_position": "Guard Opening Sequence"
-      },
-      {
-        "technique": "Roll Through Escape",
-        "target_position": "Turtle"
-      },
-      {
-        "technique": "Leg Removal",
-        "target_position": "Half Guard"
-      }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Triangle Adjustment",
-        "target_position": "Triangle Control",
-        "trigger": "Opponent attempts to remove shin by pushing leg away from throat"
-      },
-      {
-        "technique": "Omoplata Roll",
-        "target_position": "Omoplata Control",
-        "trigger": "Opponent turns away from choking shin to escape pressure"
-      },
-      {
-        "technique": "Back Take from Roll",
-        "target_position": "Back Control",
-        "trigger": "Opponent attempts forward roll to escape shin compression"
-      },
-      {
-        "technique": "Foot Lock Deepening",
-        "target_position": "Gogoplata Control",
-        "trigger": "Opponent creates small space allowing deeper foot positioning behind head"
+        "question": "Your opponent attempts a forward roll to escape - what position should you transition to?",
+        "answer": "Follow them to back control. As they roll forward, maintain contact and ride the roll to end up on their back. The forward momentum they generate to escape actually assists your back take transition. Release the gogoplata grip to secure back control hooks."
       }
     ],
     "decision_tree": [
@@ -220,7 +409,7 @@
         "actions": [
           {
             "technique": "Gogoplata Finish",
-            "target": "Won by Submission",
+            "target": "game-over",
             "probability": 50
           },
           {
@@ -305,7 +494,7 @@
       {
         "error": "Attempting gogoplata from positions without proper control prerequisites",
         "consequence": "Opponent easily defends by posturing or passing before the shin can be established across throat",
-        "correction": "Build through proper progression: closed guard → rubber guard → mission control → gogoplata; ensure each control is solid before advancing"
+        "correction": "Build through proper progression: closed guard to rubber guard to mission control to gogoplata; ensure each control is solid before advancing"
       }
     ],
     "training_drills": [
@@ -330,24 +519,6 @@
         "duration": "2 minutes per round"
       }
     ],
-    "optimal_submission_paths": [
-      {
-        "name": "Rubber Guard to Gogoplata Finish",
-        "path": "Closed Guard → Rubber Guard → Mission Control → Gogoplata Control → Won by Submission"
-      },
-      {
-        "name": "Triangle to Gogoplata Transition",
-        "path": "Closed Guard → Triangle Setup → Triangle Control → Gogoplata Control → Won by Submission"
-      },
-      {
-        "name": "High Guard to Gogoplata Attack",
-        "path": "Closed Guard → High Mount → Gogoplata Control → Won by Submission"
-      },
-      {
-        "name": "Omoplata to Gogoplata Chain",
-        "path": "Closed Guard → Omoplata Control → Gogoplata Control → Won by Submission"
-      }
-    ],
     "related_content": [
       {
         "name": "Rubber Guard",
@@ -366,20 +537,20 @@
         "relationship": "Alternative shoulder attack available when opponent defends gogoplata"
       },
       {
-        "name": "10th Planet Rubber Guard System",
-        "relationship": "Comprehensive system incorporating gogoplata as key finishing position"
+        "name": "Closed Guard",
+        "relationship": "Foundation position from which rubber guard chain develops"
       },
       {
-        "name": "Flexibility Training",
-        "relationship": "Essential physical preparation for achieving and maintaining gogoplata positions"
+        "name": "Back Control",
+        "relationship": "Transition target when opponent rolls forward to escape"
       },
       {
         "name": "Gogoplata",
         "relationship": "Submission finish executed from this control position"
       },
       {
-        "name": "Triangle Choke",
-        "relationship": "Primary backup submission when gogoplata is defended"
+        "name": "High Mount",
+        "relationship": "Alternative transition target if opponent's escape creates mount opportunity"
       }
     ],
     "position_metrics": {
@@ -402,333 +573,40 @@
         "description": "Probability of finishing submission directly from gogoplata control"
       },
       "average_time": "20-45 seconds from control establishment to finish or transition"
-    }
-  },
-  "top": {
-    "name": "Gogoplata Control Top",
-    "description": "Master defending and escaping gogoplata control from top position including posture maintenance, shin removal, head extraction, and counter-attack strategies against flexible opponents.",
-    "tags": [
-      "defensive technique",
-      "gogoplata defense",
-      "escape mechanics",
-      "guard passing",
-      "submission defense",
-      "posture recovery",
-      "advanced defense"
-    ],
-    "overview": "From the top position in Gogoplata Control, the practitioner faces one of Brazilian Jiu-Jitsu's most technically challenging defensive situations. The bottom player has established a shin across the throat while securing their own foot behind the defender's head, creating a submission-control hybrid that severely limits conventional escape options. The top position defender must employ specific strategies to extract themselves from this anatomically compromising position without succumbing to the choke or exposing themselves to alternative attacks.\n\nThe defensive challenge stems from the unique mechanics of gogoplata control. Unlike traditional guard positions where the top player can rely on posture and base to create escape opportunities, the shin-across-throat configuration has already compromised posture. Traditional strategies of driving weight forward or pulling away both prove ineffective because the foot-behind-head configuration prevents separation. This forces the top defender to employ more sophisticated extraction mechanics focused on angle changes, systematic head positioning, and careful leg removal.\n\nInitially, the top player must assess the immediate danger level. A fully locked gogoplata with proper shin alignment and deep foot positioning represents a critical threat requiring immediate defensive action. A loosely established position with poor hip elevation from the bottom player provides more time for methodical escape. This assessment determines whether the defender must employ explosive emergency escapes or can work through systematic positional improvements.\n\nThe primary defensive objective is removing the shin from the throat while preventing the bottom player from transitioning to alternative attacks. This requires managing multiple threats simultaneously - the gogoplata finish itself, potential triangle transitions if the shin position changes, omoplata attacks if the defender turns the wrong direction, and back exposure if forward rolls are attempted. This multi-threat environment makes defensive decision-making complex and time-sensitive.\n\nStrategically, the top defender must recognize that maintaining calm and avoiding panic is essential. Explosive, uncontrolled movements typically worsen the position by tightening the choke or exposing alternative submission opportunities. Systematic, technically precise movements focused on creating small advantages and building toward complete escape prove more effective than desperate struggling.\n\nThe position also provides important lessons about submission defense principles. The gogoplata demonstrates that some submissions cannot be defended through strength or aggression alone. The anatomical configuration creates a mechanical disadvantage that requires technical understanding and precise execution to overcome. This makes it an excellent teaching position for advanced practitioners learning to defend against unconventional attacks.",
-    "state_properties": {
-      "point_value": 0,
-      "position_type": "Defensive",
-      "risk_level": "High",
-      "energy_cost": "Medium",
-      "time_sustainability": "Short"
     },
-    "state_invariants": [
-      "Top player's head is trapped with bottom player's shin across throat creating direct pressure on trachea, while bottom player's foot is secured behind top player's head preventing conventional head extraction through backward movement",
-      "Top player maintains some base with hands posted on mat or controlling bottom player's hips, though posture is severely compromised by the shin-across-throat position and forward lean is unavoidable due to foot-behind-head configuration",
-      "Top player's breathing is restricted by shin compression requiring immediate defensive action, with the degree of restriction determining whether explosive emergency escape or systematic technical escape is appropriate response"
-    ],
-    "prerequisites": [
-      "Bottom player has achieved high guard or rubber guard control with top player's posture broken",
-      "Bottom player possesses sufficient flexibility to thread leg across throat and secure foot behind head",
-      "Top player's head positioning allows bottom player to establish perpendicular shin alignment across trachea",
-      "Bottom player has elevated hips creating proper angle for shin compression",
-      "Top player's defensive awareness activated by recognition of submission threat"
-    ],
-    "key_principles": [
-      "Remain calm and avoid panic-driven movements that tighten the choke or expose additional threats",
-      "Prioritize creating breathing space before attempting full escape from position",
-      "Understand that pulling straight back is ineffective due to foot-behind-head configuration",
-      "Focus on changing angles and removing leg systematically rather than using strength alone",
-      "Recognize that explosive movements often worsen position by exposing back or tightening submission",
-      "Address multiple attack threats simultaneously including gogoplata, triangle, omoplata, and back exposure",
-      "Build escape through incremental improvements rather than single explosive movement"
-    ],
-    "offensive_transitions": [
+    "transitions": [
       {
-        "technique": "Head Extraction to Posture",
-        "target_position": "Closed Guard",
-        "success_rates": {
-          "beginner": 20,
-          "intermediate": 35,
-          "advanced": 55
-        }
+        "transition": "Gogoplata",
+        "attempt_probability": 10
       },
       {
-        "technique": "Shin Removal to Pass",
-        "target_position": "Half Guard",
-        "success_rates": {
-          "beginner": 15,
-          "intermediate": 30,
-          "advanced": 50
-        }
+        "transition": "Triangle Choke",
+        "attempt_probability": 13
       },
       {
-        "technique": "Leg Extraction Escape",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 10,
-          "intermediate": 25,
-          "advanced": 45
-        }
+        "transition": "Closed Guard to Omoplata",
+        "attempt_probability": 12
       },
       {
-        "technique": "Stack Defense",
-        "target_position": "Guard Opening Sequence",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 40,
-          "advanced": 60
-        }
+        "transition": "Back Take",
+        "attempt_probability": 11
       },
       {
-        "technique": "Angle Change Escape",
-        "target_position": "Turtle",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 45,
-          "advanced": 60
-        }
+        "transition": "Armbar from Guard",
+        "attempt_probability": 12
       },
       {
-        "technique": "Hand Control to Extract",
-        "target_position": "Defensive Position",
-        "success_rates": {
-          "beginner": 20,
-          "intermediate": 35,
-          "advanced": 55
-        }
+        "transition": "High Mount Transition",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Mission Control Recovery",
+        "attempt_probability": 14
+      },
+      {
+        "transition": "Rubber Guard Maintenance",
+        "attempt_probability": 18
       }
-    ],
-    "defensive_responses": [
-      {
-        "technique": "Gogoplata Finish",
-        "target_position": "Lost by Submission",
-        "success_rate": 50
-      },
-      {
-        "technique": "Triangle Transition",
-        "target_position": "Triangle Control",
-        "success_rate": 65
-      },
-      {
-        "technique": "Omoplata Adjustment",
-        "target_position": "Omoplata Control",
-        "success_rate": 60
-      },
-      {
-        "technique": "Back Take from Roll",
-        "target_position": "Back Control",
-        "success_rate": 70
-      },
-      {
-        "technique": "Armbar Transition",
-        "target_position": "Armbar Control",
-        "success_rate": 55
-      }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Immediate Posture Recovery",
-        "target_position": "Closed Guard",
-        "trigger": "Bottom player loses hip elevation allowing brief window for posture restoration"
-      },
-      {
-        "technique": "Stack and Pressure",
-        "target_position": "Guard Opening Sequence",
-        "trigger": "Bottom player's hips drop to mat level reducing shin compression effectiveness"
-      },
-      {
-        "technique": "Lateral Head Movement",
-        "target_position": "Half Guard",
-        "trigger": "Bottom player's foot position behind head loosens creating space for head extraction"
-      }
-    ],
-    "decision_tree": [
-      {
-        "condition": "If gogoplata is fully locked with deep foot position and strong shin compression making breathing difficult",
-        "actions": [
-          {
-            "technique": "Emergency Tuck and Roll",
-            "target": "Turtle",
-            "probability": 40
-          },
-          {
-            "technique": "Tap for Safety",
-            "target": "Lost by Submission",
-            "probability": 60
-          }
-        ]
-      },
-      {
-        "condition": "If shin is across throat but foot position behind head is shallow or hip elevation is inconsistent",
-        "actions": [
-          {
-            "technique": "Systematic Head Extraction",
-            "target": "Closed Guard",
-            "probability": 55
-          },
-          {
-            "technique": "Angle Change to Remove Pressure",
-            "target": "Half Guard",
-            "probability": 50
-          }
-        ]
-      },
-      {
-        "condition": "If bottom player attempts to tighten submission by pulling foot deeper behind head",
-        "actions": [
-          {
-            "technique": "Hand Fighting Foot Position",
-            "target": "Defensive Position",
-            "probability": 45
-          },
-          {
-            "technique": "Posture Recovery",
-            "target": "Closed Guard",
-            "probability": 40
-          }
-        ]
-      },
-      {
-        "condition": "If bottom player's hips drop to mat during control maintenance",
-        "actions": [
-          {
-            "technique": "Immediate Stack Pressure",
-            "target": "Guard Opening Sequence",
-            "probability": 65
-          },
-          {
-            "technique": "Head Extraction",
-            "target": "Closed Guard",
-            "probability": 60
-          }
-        ]
-      }
-    ],
-    "common_errors": [
-      {
-        "error": "Pulling head straight backward away from bottom player to escape shin pressure",
-        "consequence": "Foot-behind-head configuration prevents backward movement and pulling motion tightens the choke by increasing shin pressure against throat",
-        "correction": "Focus on lateral head movement and changing angles rather than pulling away; work to remove foot from behind head first before attempting head extraction"
-      },
-      {
-        "error": "Driving weight forward into bottom player attempting to smash through position",
-        "consequence": "Forward pressure increases shin compression on throat and may expose back for back take if opponent uses forward momentum against defender",
-        "correction": "Maintain neutral weight distribution while working on technical escape mechanics; use hand fighting and angle changes rather than weight pressure"
-      },
-      {
-        "error": "Panicking and making explosive, uncontrolled movements when feeling choke pressure",
-        "consequence": "Random movements often expose neck further, tighten existing submission, or create opportunities for triangle and omoplata transitions",
-        "correction": "Stay calm and work systematically through escape sequence; recognize that controlled technical movements are more effective than explosive struggling"
-      },
-      {
-        "error": "Focusing exclusively on removing shin from throat without addressing foot-behind-head position",
-        "consequence": "Shin can be replaced immediately after removal because structural configuration remains intact with foot still behind head",
-        "correction": "Prioritize removing or loosening foot from behind head which eliminates the structural foundation allowing shin to be replaced across throat"
-      },
-      {
-        "error": "Attempting to use hands to pull the leg away from throat without proper leverage",
-        "consequence": "Bottom player's leg is stronger than top player's arms making direct pulling ineffective while hand positioning opens armbar opportunities",
-        "correction": "Use hands to control bottom player's hips and create base rather than grabbing at the choking leg; focus on positional improvements that make leg removal possible"
-      },
-      {
-        "error": "Turning shoulder toward the choking leg to escape pressure",
-        "consequence": "Turning into the shin creates omoplata position giving bottom player alternative submission while maintaining control",
-        "correction": "If turning, turn away from choking leg while maintaining awareness of back exposure; better to work on systematic head extraction than turning into additional threats"
-      }
-    ],
-    "training_drills": [
-      {
-        "name": "Gogoplata Defense Progression Drill",
-        "description": "Partner establishes gogoplata control at 50% tightness. Practice systematic escape sequence: hand position to create frame, lateral head movement to reduce pressure, foot removal from behind head, shin extraction, return to closed guard. Partner gradually increases resistance as escape mechanics improve.",
-        "duration": "5 minutes per person"
-      },
-      {
-        "name": "Panic Management Drill",
-        "description": "Partner applies gogoplata control while you focus exclusively on remaining calm and breathing despite pressure. No escape attempts - purely training mental composure under submission pressure. Partner increases pressure gradually while you maintain calm breathing and clear thinking. Builds psychological resilience for competition scenarios.",
-        "duration": "2 minutes per round"
-      },
-      {
-        "name": "Multi-Threat Defense Drill",
-        "description": "Partner establishes gogoplata control and transitions between gogoplata, triangle, and omoplata based on your defensive movements. Practice recognizing which threat is active and adjusting defense accordingly. Develops ability to manage multiple simultaneous submission threats from complex control positions.",
-        "duration": "3 minutes per person"
-      },
-      {
-        "name": "Emergency Escape Simulation",
-        "description": "Partner locks gogoplata at 80% tightness requiring immediate explosive escape attempt. Practice emergency rolling escapes, tuck-and-roll mechanics, and explosive posture recovery under high pressure. Simulates competition scenarios where technical escape time is not available. Emphasize safety with clear tap protocols.",
-        "duration": "1 minute per round"
-      }
-    ],
-    "optimal_submission_paths": [
-      {
-        "name": "Technical Escape to Guard Recovery",
-        "path": "Gogoplata Control → Defensive Position → Closed Guard → Guard Recovery"
-      },
-      {
-        "name": "Stack Escape to Pass",
-        "path": "Gogoplata Control → Stack Defense → Guard Opening Sequence → Half Guard Pass"
-      },
-      {
-        "name": "Emergency Roll to Turtle",
-        "path": "Gogoplata Control → Turtle → Turtle to Guard → Closed Guard"
-      }
-    ],
-    "related_content": [
-      {
-        "name": "Rubber Guard",
-        "relationship": "Primary position from which gogoplata control is established"
-      },
-      {
-        "name": "Triangle Control",
-        "relationship": "Alternative submission when top player defends gogoplata imperfectly"
-      },
-      {
-        "name": "Submission Defense",
-        "relationship": "General defensive principles applicable to gogoplata escape scenarios"
-      },
-      {
-        "name": "Closed Guard",
-        "relationship": "Target position after successful escape from gogoplata control"
-      },
-      {
-        "name": "Guard Opening Sequence",
-        "relationship": "Alternative escape pathway using stacking and pressure principles"
-      },
-      {
-        "name": "Omoplata Control",
-        "relationship": "Position defender must avoid when escaping gogoplata through turning movements"
-      },
-      {
-        "name": "Flexibility Training",
-        "relationship": "Understanding opponent's flexibility helps predict gogoplata threat likelihood"
-      },
-      {
-        "name": "10th Planet Rubber Guard System",
-        "relationship": "System knowledge helps anticipate gogoplata setups and alternative attacks"
-      }
-    ],
-    "position_metrics": {
-      "retention_rate": {
-        "beginner": 30,
-        "intermediate": 50,
-        "advanced": 70,
-        "description": "Ability to avoid submission and maintain defensive structure while escaping"
-      },
-      "advancement_probability": {
-        "beginner": 25,
-        "intermediate": 40,
-        "advanced": 60,
-        "description": "Likelihood of successfully escaping to neutral or better position"
-      },
-      "submission_probability": {
-        "beginner": 50,
-        "intermediate": 35,
-        "advanced": 20,
-        "description": "Risk of being submitted if escape is not executed properly"
-      },
-      "average_time": "15-30 seconds from recognizing danger to complete escape or submission"
-    }
+    ]
   }
 }

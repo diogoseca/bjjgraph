@@ -47,362 +47,14 @@
       "relationship": "Common advancement target via back-take from bottom underhook"
     },
     {
-      "name": "Underhook Control",
-      "relationship": "Core control concept defining this position's effectiveness"
+      "name": "Overhook Control",
+      "relationship": "Alternative control concept when underhook is lost"
     },
     {
       "name": "Combat Base",
       "relationship": "Position opponent uses to defend against pocket half guard attacks"
     }
   ],
-  "bottom": {
-    "name": "Pocket Half Guard Bottom",
-    "description": "Master Pocket Half Guard Bottom in BJJ. Deep underhook half guard variant with excellent sweeping and back-taking. Beginner 45%, Intermediate 60%, Advanced 75%.",
-    "tags": [
-      "bjj",
-      "position",
-      "half-guard",
-      "bottom",
-      "underhook",
-      "pocket",
-      "defensive"
-    ],
-    "overview": "Pocket Half Guard Bottom is a specialized half guard variant characterized by a deep underhook on the opponent's far side combined with tight hip connection and the trapped leg locked between your legs. The 'pocket' refers to the space created by pulling the opponent's far shoulder down with the underhook while using your bottom leg to create a frame against their near hip. This position excels at generating powerful sweeps and back-takes because the deep underhook compromises the opponent's base while the tight leg control prevents them from advancing to mount or establishing a strong passing position.\n\nThe position gained prominence through the 10th Planet system and has been refined by competition specialists who recognize its effectiveness against pressure passers. Unlike standard half guard where the underhook may be shallow, Pocket Half Guard demands a deep underhook that reaches across the opponent's back, ideally gripping their far lat or armpit. This depth allows you to control their upper body rotation and create powerful off-balancing mechanics. The bottom leg creates a 'pocket' or wedge against the opponent's hip, providing both defensive framing and offensive leverage for sweeps.\n\nPocket Half Guard Bottom is particularly effective against opponents who favor heavy pressure passing or who attempt to flatten you in half guard. The deep underhook and hip frame prevent them from establishing chest-to-chest pressure, while the leg configuration maintains enough space to generate hip movement and rotational power for sweeps. Advanced practitioners use this position as a launching point for the Old School Sweep, back-takes, and transitions to Deep Half Guard or X-Guard variations.",
-    "state_properties": {
-      "point_value": 0,
-      "position_type": "Defensive with offensive options",
-      "risk_level": "Low to Medium",
-      "energy_cost": "Medium",
-      "time_sustainability": "Medium to Long"
-    },
-    "state_invariants": [
-      "Deep underhook secured on opponent's far side, with your arm reaching across their back to grip their far lat, armpit, or belt, creating significant control over their upper body rotation and preventing them from establishing dominant chest pressure",
-      "Bottom leg (same side as trapped leg) actively framing against opponent's near hip with foot pressure, creating the characteristic 'pocket' space that prevents them from advancing to mount while providing leverage for sweeps and maintaining optimal distance",
-      "Top leg (free leg) locked over opponent's trapped leg in standard half guard configuration, with knee shield option available or leg threaded beneath their thigh, securing the fundamental half guard lock that prevents them from extracting their leg",
-      "Your bottom shoulder and hip positioned on the mat with active hip mobility maintained, avoiding being completely flattened while keeping enough space to generate rotational power for offensive techniques",
-      "Head position on the underhook side, using head pressure against opponent's ribs or armpit to reinforce the underhook control and prevent them from stripping your grip or establishing head control"
-    ],
-    "prerequisites": [
-      "Opponent trapped in your half guard with one of their legs secured between both of your legs",
-      "Deep underhook secured on opponent's far side before they establish heavy chest pressure",
-      "Bottom leg able to create active frame against opponent's near hip",
-      "Sufficient space and hip mobility to prevent being completely flattened",
-      "Upper body positioning that allows maintenance of underhook depth"
-    ],
-    "key_principles": [
-      "Maintain underhook depth at all costs - shallow underhook compromises all offensive options and allows opponent to establish dominant pressure",
-      "Active bottom leg frame creates the 'pocket' space - passive leg allows opponent to flatten you and neutralize sweeping mechanics",
-      "Hip mobility is essential - being completely flattened destroys offensive potential and puts you at risk of being passed",
-      "Head pressure reinforces underhook control - pulling opponent's shoulder down with combined arm and head pressure prevents their escape",
-      "Use pocket space to generate rotational power - the gap created by bottom leg frame provides leverage for sweeps and off-balancing",
-      "Transition readiness to Deep Half or Old School - Pocket Half Guard serves as a hub position for multiple high-percentage attacks",
-      "Prevent crossface at all costs - opponent's crossface combined with underhook stripping leads to flattening and successful passing"
-    ],
-    "offensive_transitions": [
-      {
-        "technique": "Old School Sweep",
-        "target_position": "Mount",
-        "success_rates": {
-          "beginner": 45,
-          "intermediate": 60,
-          "advanced": 75
-        }
-      },
-      {
-        "technique": "Back Take Generic",
-        "target_position": "Back Control",
-        "success_rates": {
-          "beginner": 40,
-          "intermediate": 55,
-          "advanced": 70
-        }
-      },
-      {
-        "technique": "Deep Half Entry",
-        "target_position": "Deep Half Guard",
-        "success_rates": {
-          "beginner": 50,
-          "intermediate": 65,
-          "advanced": 80
-        }
-      },
-      {
-        "technique": "Underhook Sweep from Half",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 50,
-          "advanced": 65
-        }
-      },
-      {
-        "technique": "Electric Chair Submission",
-        "target_position": "Electric Chair",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 40,
-          "advanced": 55
-        }
-      },
-      {
-        "technique": "Transition to Truck",
-        "target_position": "Truck",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 45,
-          "advanced": 60
-        }
-      }
-    ],
-    "defensive_responses": [
-      {
-        "technique": "Crossface Pass",
-        "target_position": "Side Control",
-        "success_rate": 35
-      },
-      {
-        "technique": "Underhook Pass",
-        "target_position": "Flattened Half Guard",
-        "success_rate": 40
-      },
-      {
-        "technique": "Knee Slice Pass",
-        "target_position": "Side Control",
-        "success_rate": 30
-      },
-      {
-        "technique": "Pressure Pass",
-        "target_position": "Mount",
-        "success_rate": 25
-      },
-      {
-        "technique": "Arm Extraction",
-        "target_position": "Combat Base",
-        "success_rate": 35
-      }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Deep Half Entry",
-        "target_position": "Deep Half Guard",
-        "trigger": "Opponent attempts to strip underhook by driving forward"
-      },
-      {
-        "technique": "Old School Sweep",
-        "target_position": "Mount",
-        "trigger": "Opponent posts hand on mat near your head to base against underhook pressure"
-      },
-      {
-        "technique": "Back Take Generic",
-        "target_position": "Back Control",
-        "trigger": "Opponent attempts to step over your head or circle to crossface"
-      },
-      {
-        "technique": "Electric Chair Submission",
-        "target_position": "Electric Chair",
-        "trigger": "Opponent extends trapped leg attempting to extract it from half guard"
-      }
-    ],
-    "decision_tree": [
-      {
-        "condition": "If opponent maintains upright posture and attempts to strip underhook",
-        "actions": [
-          {
-            "technique": "Old School Sweep",
-            "target": "Mount",
-            "probability": 65
-          },
-          {
-            "technique": "Back Take Generic",
-            "target": "Back Control",
-            "probability": 55
-          }
-        ]
-      },
-      {
-        "condition": "If opponent drives forward with heavy pressure attempting to flatten",
-        "actions": [
-          {
-            "technique": "Deep Half Entry",
-            "target": "Deep Half Guard",
-            "probability": 70
-          },
-          {
-            "technique": "Underhook Sweep from Half",
-            "target": "Side Control",
-            "probability": 50
-          }
-        ]
-      },
-      {
-        "condition": "If opponent establishes crossface and compromises underhook depth",
-        "actions": [
-          {
-            "technique": "Shrimp Escape",
-            "target": "Knee Shield Half Guard",
-            "probability": 45
-          },
-          {
-            "technique": "Re-Guard",
-            "target": "Open Guard",
-            "probability": 40
-          }
-        ]
-      },
-      {
-        "condition": "If opponent attempts to extract trapped leg by extending it",
-        "actions": [
-          {
-            "technique": "Electric Chair Submission",
-            "target": "Electric Chair",
-            "probability": 60
-          },
-          {
-            "technique": "Transition to Truck",
-            "target": "Truck",
-            "probability": 55
-          }
-        ]
-      }
-    ],
-    "common_errors": [
-      {
-        "error": "Allowing underhook to become shallow or losing underhook grip entirely",
-        "consequence": "Opponent can establish dominant chest pressure, flatten you completely, and pass to side control or mount with minimal resistance",
-        "correction": "Fight aggressively to maintain underhook depth - if opponent strips it, immediately recover it or transition to different guard rather than accepting shallow underhook position"
-      },
-      {
-        "error": "Passive bottom leg that doesn't actively frame against opponent's hip",
-        "consequence": "Opponent collapses the pocket space, flattens your hips, and eliminates all sweeping leverage while advancing their passing position",
-        "correction": "Keep constant active pressure with bottom foot against opponent's hip, adjusting foot position as needed to maintain the pocket space and prevent hip flattening"
-      },
-      {
-        "error": "Allowing opponent to establish crossface while you maintain underhook",
-        "consequence": "Crossface combined with forward pressure neutralizes underhook advantage and leads to being passed via knee slice or pressure pass",
-        "correction": "Use head pressure on underhook side to prevent crossface, and if crossface begins to establish, immediately transition to Deep Half or abandon position"
-      },
-      {
-        "error": "Being too passive and waiting for opponent to make mistake rather than actively attacking",
-        "consequence": "Allows opponent time to work on stripping underhook, establishing crossface, or setting up their preferred passing sequence",
-        "correction": "Constantly threaten Old School Sweep and back-takes - even failed attempts keep opponent defensive and preserve your offensive options"
-      },
-      {
-        "error": "Gripping opponent's far arm or shoulder instead of securing deep underhook to their back",
-        "consequence": "Shallow underhook provides insufficient control over opponent's rotation and allows them to easily strip the underhook by rotating away",
-        "correction": "Ensure underhook reaches all the way across opponent's back to grip their far lat, far armpit, or far side belt for maximum control depth"
-      },
-      {
-        "error": "Allowing trapped leg to become completely extended and locked straight",
-        "consequence": "Creates vulnerability to leg attacks and reduces mobility needed to generate sweeping power or transition to other positions",
-        "correction": "Maintain slight bend in trapped leg configuration and keep it close to your body rather than allowing it to be stretched out straight"
-      }
-    ],
-    "training_drills": [
-      {
-        "name": "Underhook Depth Maintenance Drill",
-        "description": "Partner applies progressive resistance attempting to strip your underhook while you fight to maintain depth. Start at 30% resistance and increase to 70%. Focus on using head pressure, hip movement, and grip adjustments to preserve underhook depth even against stripping attempts. Practice for 3-minute rounds, switching roles.",
-        "duration": "3 minutes per round, 4 rounds"
-      },
-      {
-        "name": "Pocket Space Creation and Maintenance",
-        "description": "From Pocket Half Guard Bottom, partner attempts to flatten your hips and collapse pocket space using forward pressure. You maintain active bottom leg frame and hip mobility to preserve the pocket. Partner gradually increases pressure from 40% to 80%. Focus on hip angle adjustments and active foot pressure against opponent's hip.",
-        "duration": "2 minutes per round, 5 rounds"
-      },
-      {
-        "name": "Old School Sweep Repetitions",
-        "description": "Set up Pocket Half Guard Bottom position and execute Old School Sweep repetitions with cooperative partner. Focus on using underhook to pull opponent's shoulder down, creating angle with bottom leg pocket, and completing sweep to mount. Perform 20 repetitions per side, gradually increasing speed and resistance.",
-        "duration": "10 minutes"
-      },
-      {
-        "name": "Transition Flow Drill: Pocket to Deep Half to Back",
-        "description": "Flow between Pocket Half Guard Bottom, Deep Half Guard, and Back Control positions. Partner provides moderate resistance (50%) while you practice reading their pressure and weight distribution to choose appropriate transition. Focus on smooth entries and maintaining control throughout transitions.",
-        "duration": "5 minutes continuous flow"
-      },
-      {
-        "name": "Positional Sparring: Pocket Half Guard Bottom Only",
-        "description": "Start in Pocket Half Guard Bottom with deep underhook and pocket space established. Partner attempts to pass, you can only sweep, submit, or improve position (no allowing yourself to be passed). Reset after successful sweep/pass. This isolates the position and forces you to solve problems from Pocket Half Guard specifically.",
-        "duration": "5 minutes per round, 3 rounds"
-      }
-    ],
-    "optimal_submission_paths": [
-      {
-        "name": "Shortest path to submission",
-        "path": "Pocket Half Guard Bottom → Electric Chair → Electric Chair Submission"
-      },
-      {
-        "name": "High-percentage path via positional advancement",
-        "path": "Pocket Half Guard Bottom → Old School Sweep → Mount → Armbar from Mount"
-      },
-      {
-        "name": "Back-take submission path",
-        "path": "Pocket Half Guard Bottom → Back Take Generic → Back Control → Rear Naked Choke"
-      },
-      {
-        "name": "Deep Half transition path",
-        "path": "Pocket Half Guard Bottom → Deep Half Entry → Deep Half Guard → Waiter Sweep → Side Control → Kimura from Side Control"
-      },
-      {
-        "name": "Truck system path",
-        "path": "Pocket Half Guard Bottom → Transition to Truck → Truck → Twister Finish"
-      }
-    ],
-    "related_content": [
-      {
-        "name": "Deep Half Guard",
-        "relationship": "Natural transition target when opponent drives forward pressure"
-      },
-      {
-        "name": "Old School",
-        "relationship": "Primary offensive technique from this position"
-      },
-      {
-        "name": "Electric Chair",
-        "relationship": "Submission opportunity when opponent extends trapped leg"
-      },
-      {
-        "name": "Knee Shield Half Guard",
-        "relationship": "Alternative half guard variant if underhook is lost"
-      },
-      {
-        "name": "10th Planet Half Guard Bottom System",
-        "relationship": "System that extensively develops Pocket Half Guard concepts"
-      },
-      {
-        "name": "Lockdown",
-        "relationship": "Can be combined with Pocket Half Guard for additional leg control"
-      },
-      {
-        "name": "Back Control",
-        "relationship": "Common advancement target via back-take from underhook"
-      },
-      {
-        "name": "Underhook Battle",
-        "relationship": "Transitional position when fighting for underhook depth"
-      },
-      {
-        "name": "Truck",
-        "relationship": "Advanced transition when opponent defends Old School Sweep"
-      }
-    ],
-    "position_metrics": {
-      "retention_rate": {
-        "beginner": 55,
-        "intermediate": 70,
-        "advanced": 85
-      },
-      "advancement_probability": {
-        "beginner": 45,
-        "intermediate": 60,
-        "advanced": 75
-      },
-      "submission_probability": {
-        "beginner": 20,
-        "intermediate": 35,
-        "advanced": 50
-      },
-      "average_time": "45-90 seconds before sweep attempt or transition"
-    }
-  },
   "top": {
     "name": "Pocket Half Guard Top",
     "description": "Master Pocket Half Guard Top in BJJ. Complete guide covering control maintenance, passing options, and pressure tactics. Dominant passing position with 65% success rate.",
@@ -445,109 +97,38 @@
       "Progress methodically toward the pass by first flattening the opponent completely, then systematically removing the trapped leg while maintaining all other control points",
       "Coordinate pressure and movement to prevent the bottom player from coming to their side, which would allow them to establish better frames and potentially sweep or re-guard"
     ],
-    "offensive_transitions": [
+    "knowledge_assessment": [
       {
-        "technique": "Knee Slice Pass",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 50,
-          "intermediate": 65,
-          "advanced": 75
-        }
+        "question": "What is the optimal weight distribution for maintaining Pocket Half Guard Top position?",
+        "answer": "Weight should be distributed primarily through the chest and shoulder into the opponent's upper torso, with your hips staying low and connected to their body. Avoid putting weight on your knees as this reduces pressure effectiveness. Drive forward pressure through your sternum into their chest while keeping your base wide with one leg posted for stability."
       },
       {
-        "technique": "Smash Pass",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 45,
-          "intermediate": 60,
-          "advanced": 70
-        }
+        "question": "Your opponent starts creating frames with their free arm - what adjustment prevents this?",
+        "answer": "Immediately use your free hand (non-underhook side) to pin their near arm to their body or control their wrist before they complete the frame. If the frame is partially established, drive your shoulder deeper into the crossface position while simultaneously pulling with your underhook to collapse their defensive structure. The key is addressing frames early before they become fully established."
       },
       {
-        "technique": "Transition to Mount",
-        "target_position": "Mount",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 50,
-          "advanced": 65
-        }
+        "question": "What are the essential grips for maintaining dominant control in this position?",
+        "answer": "The primary grip is your deep underhook reaching across the opponent's back to their far lat or shoulder blade. Secondary grips include crossface control with your forearm across their jaw, wrist control on their near arm, or belt/pants grip on their far hip. The underhook depth is non-negotiable - shallow underhook compromises all control."
       },
       {
-        "technique": "Side Control to Mount",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 55,
-          "intermediate": 70,
-          "advanced": 80
-        }
+        "question": "How do you shut down the opponent's primary Deep Half Guard escape attempt?",
+        "answer": "When you feel opponent scooting their hips under you for deep half entry, immediately switch your hips to sprawl position while maintaining underhook pressure. Drive your trapped knee toward the mat to prevent them from getting underneath you. If they're already entering, abandon the underhook pass and transition to addressing the deep half guard before it's fully established."
       },
       {
-        "technique": "Underhook Pass",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 50,
-          "intermediate": 65,
-          "advanced": 75
-        }
+        "question": "Your opponent bridges explosively - what is the correct response to maintain position?",
+        "answer": "Do not fight the bridge directly. Instead, base out wide with your free leg while maintaining chest connection and underhook control. Ride the bridge by staying connected rather than trying to pin them down. Wait for them to return to the mat (bridges fatigue within 1-2 seconds), then immediately re-establish flattening pressure and continue your pass progression."
       },
       {
-        "technique": "Back Take Generic",
-        "target_position": "Back Control",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 40,
-          "advanced": 55
-        }
-      }
-    ],
-    "defensive_responses": [
-      {
-        "technique": "Underhook Sweep from Half",
-        "target_position": "Half Guard",
-        "success_rate": 20
+        "question": "What base fundamentals prevent you from being swept from this position?",
+        "answer": "Maintain a triangular base with one knee and your posted foot creating wide support. Never have both knees close together or directly under your hips. Keep your weight distributed forward through your chest, not back on your heels. If opponent threatens a sweep, immediately widen your base in the direction of the sweep rather than stiffening against it."
       },
       {
-        "technique": "Deep Half Entry",
-        "target_position": "Deep Half Guard",
-        "success_rate": 25
+        "question": "How do you manage energy expenditure while maintaining crushing pressure for extended periods?",
+        "answer": "Use skeletal alignment rather than muscular effort - let your body weight create pressure through proper positioning. Rest your chest on their body rather than holding yourself up. Breathe calmly and avoid unnecessary movements. Progress methodically toward the pass rather than rushing, which wastes energy. Your underhook should maintain passive tension from grip position, not active pulling force."
       },
       {
-        "technique": "Frame and Shrimp",
-        "target_position": "Half Guard",
-        "success_rate": 30
-      },
-      {
-        "technique": "Lockdown Sweeps",
-        "target_position": "Lockdown",
-        "success_rate": 15
-      },
-      {
-        "technique": "Kimura Defense",
-        "target_position": "Pocket Half Guard Bottom",
-        "success_rate": 35
-      }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Transition to North-South",
-        "target_position": "North-South",
-        "trigger": "Opponent attempts to turn into underhook or recover guard"
-      },
-      {
-        "technique": "Kimura from Half Guard",
-        "target_position": "Kimura Control",
-        "trigger": "Opponent reaches for underhook defense or attempts to frame"
-      },
-      {
-        "technique": "Darce Setup",
-        "target_position": "D'arce Control",
-        "trigger": "Opponent turns into you to defend the pass"
-      },
-      {
-        "technique": "Back Step",
-        "target_position": "Back Control",
-        "trigger": "Opponent attempts to come to their side or recover full guard"
+        "question": "The opponent partially recovers their knee shield - how do you prevent full guard recovery?",
+        "answer": "Immediately drive your shoulder deeper into crossface while using your underhook to pull their far shoulder toward you. This creates opposing forces that collapse the knee shield. Use your free hand to push their knee down toward the mat while maintaining chest pressure. If the knee shield is solidly established, consider abandoning direct pressure and transitioning to a knee slice angle instead."
       }
     ],
     "decision_tree": [
@@ -570,17 +151,17 @@
         "condition": "If opponent turns into underhook to defend",
         "actions": [
           {
-            "technique": "Darce Setup",
+            "technique": "Darce Choke",
             "target": "D'arce Control",
             "probability": 60
           },
           {
-            "technique": "Back Step",
+            "technique": "Back Step Pass",
             "target": "Back Control",
             "probability": 55
           },
           {
-            "technique": "Transition to North-South",
+            "technique": "North-South Transition",
             "target": "North-South",
             "probability": 65
           }
@@ -591,7 +172,7 @@
         "actions": [
           {
             "technique": "Kimura from Half Guard",
-            "target": "Kimura Control",
+            "target": "Kimura Trap",
             "probability": 55
           },
           {
@@ -605,7 +186,7 @@
         "condition": "If opponent attempts deep half guard entry",
         "actions": [
           {
-            "technique": "Transition to Mount",
+            "technique": "Side Control to Mount",
             "target": "Mount",
             "probability": 50
           },
@@ -671,32 +252,10 @@
         "duration": "3 rounds focusing on different escape attempts"
       }
     ],
-    "optimal_submission_paths": [
-      {
-        "name": "Pressure pass to submission chain",
-        "path": "Pocket Half Guard Top → Knee Slice Pass → Side Control → Kimura from Side Control → Kimura"
-      },
-      {
-        "name": "Opportunistic choke path",
-        "path": "Pocket Half Guard Top → (opponent turns in) → Darce Setup → D'arce Control → Darce Choke"
-      },
-      {
-        "name": "Back attack path",
-        "path": "Pocket Half Guard Top → Back Step → Back Control → Rear Naked Choke"
-      },
-      {
-        "name": "Mount to armbar path",
-        "path": "Pocket Half Guard Top → Smash Pass → Mount → Armbar from Mount"
-      }
-    ],
     "related_content": [
       {
         "name": "Half Guard",
         "relationship": "Parent position - broader category"
-      },
-      {
-        "name": "Pocket Half Guard Bottom",
-        "relationship": "Sibling variant - opposite perspective"
       },
       {
         "name": "Side Control",
@@ -715,16 +274,20 @@
         "relationship": "Opportunistic submission position - when opponent turns in"
       },
       {
-        "name": "Kimura from Half Guard",
+        "name": "Kimura Trap",
         "relationship": "Submission option - attacking the defending arm"
       },
       {
-        "name": "Pressure Passing Framework",
-        "relationship": "Conceptual foundation - strategic approach"
+        "name": "Mount",
+        "relationship": "Advanced position target - highest point advancement"
       },
       {
-        "name": "Underhook Control",
-        "relationship": "Control concept - fundamental control mechanism"
+        "name": "Knee Shield Half Guard",
+        "relationship": "Common recovery position for bottom player"
+      },
+      {
+        "name": "Flattened Half Guard",
+        "relationship": "Related position when complete flattening is achieved"
       }
     ],
     "position_metrics": {
@@ -744,6 +307,305 @@
         "advanced": 35
       },
       "average_time": "45-90 seconds before completing pass or losing position"
-    }
+    },
+    "transitions": [
+      {
+        "transition": "Knee Slice Pass",
+        "attempt_probability": 22
+      },
+      {
+        "transition": "Smash Pass",
+        "attempt_probability": 20
+      },
+      {
+        "transition": "Side Control to Mount",
+        "attempt_probability": 18
+      },
+      {
+        "transition": "Underhook Pass",
+        "attempt_probability": 20
+      },
+      {
+        "transition": "Back Take Generic",
+        "attempt_probability": 20
+      }
+    ]
+  },
+  "bottom": {
+    "name": "Pocket Half Guard Bottom",
+    "description": "Master Pocket Half Guard Bottom in BJJ. Deep underhook half guard variant with excellent sweeping and back-taking. Beginner 45%, Intermediate 60%, Advanced 75%.",
+    "tags": [
+      "bjj",
+      "position",
+      "half-guard",
+      "bottom",
+      "underhook",
+      "pocket",
+      "defensive"
+    ],
+    "overview": "Pocket Half Guard Bottom is a specialized half guard variant characterized by a deep underhook on the opponent's far side combined with tight hip connection and the trapped leg locked between your legs. The 'pocket' refers to the space created by pulling the opponent's far shoulder down with the underhook while using your bottom leg to create a frame against their near hip. This position excels at generating powerful sweeps and back-takes because the deep underhook compromises the opponent's base while the tight leg control prevents them from advancing to mount or establishing a strong passing position.\n\nThe position gained prominence through the 10th Planet system and has been refined by competition specialists who recognize its effectiveness against pressure passers. Unlike standard half guard where the underhook may be shallow, Pocket Half Guard demands a deep underhook that reaches across the opponent's back, ideally gripping their far lat or armpit. This depth allows you to control their upper body rotation and create powerful off-balancing mechanics. The bottom leg creates a 'pocket' or wedge against the opponent's hip, providing both defensive framing and offensive leverage for sweeps.\n\nPocket Half Guard Bottom is particularly effective against opponents who favor heavy pressure passing or who attempt to flatten you in half guard. The deep underhook and hip frame prevent them from establishing chest-to-chest pressure, while the leg configuration maintains enough space to generate hip movement and rotational power for sweeps. Advanced practitioners use this position as a launching point for the Old School Sweep, back-takes, and transitions to Deep Half Guard or X-Guard variations.",
+    "state_properties": {
+      "point_value": 0,
+      "position_type": "Defensive with offensive options",
+      "risk_level": "Low to Medium",
+      "energy_cost": "Medium",
+      "time_sustainability": "Medium to Long"
+    },
+    "state_invariants": [
+      "Deep underhook secured on opponent's far side, with your arm reaching across their back to grip their far lat, armpit, or belt, creating significant control over their upper body rotation and preventing them from establishing dominant chest pressure",
+      "Bottom leg (same side as trapped leg) actively framing against opponent's near hip with foot pressure, creating the characteristic 'pocket' space that prevents them from advancing to mount while providing leverage for sweeps and maintaining optimal distance",
+      "Top leg (free leg) locked over opponent's trapped leg in standard half guard configuration, with knee shield option available or leg threaded beneath their thigh, securing the fundamental half guard lock that prevents them from extracting their leg",
+      "Your bottom shoulder and hip positioned on the mat with active hip mobility maintained, avoiding being completely flattened while keeping enough space to generate rotational power for offensive techniques",
+      "Head position on the underhook side, using head pressure against opponent's ribs or armpit to reinforce the underhook control and prevent them from stripping your grip or establishing head control"
+    ],
+    "prerequisites": [
+      "Opponent trapped in your half guard with one of their legs secured between both of your legs",
+      "Deep underhook secured on opponent's far side before they establish heavy chest pressure",
+      "Bottom leg able to create active frame against opponent's near hip",
+      "Sufficient space and hip mobility to prevent being completely flattened",
+      "Upper body positioning that allows maintenance of underhook depth"
+    ],
+    "key_principles": [
+      "Maintain underhook depth at all costs - shallow underhook compromises all offensive options and allows opponent to establish dominant pressure",
+      "Active bottom leg frame creates the 'pocket' space - passive leg allows opponent to flatten you and neutralize sweeping mechanics",
+      "Hip mobility is essential - being completely flattened destroys offensive potential and puts you at risk of being passed",
+      "Head pressure reinforces underhook control - pulling opponent's shoulder down with combined arm and head pressure prevents their escape",
+      "Use pocket space to generate rotational power - the gap created by bottom leg frame provides leverage for sweeps and off-balancing",
+      "Transition readiness to Deep Half or Old School - Pocket Half Guard serves as a hub position for multiple high-percentage attacks",
+      "Prevent crossface at all costs - opponent's crossface combined with underhook stripping leads to flattening and successful passing"
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the optimal underhook depth and grip placement for maintaining Pocket Half Guard Bottom?",
+        "answer": "Your underhook must reach completely across the opponent's back, with your hand gripping their far lat, far armpit, or belt line. A grip on just their near shoulder or arm is too shallow and provides insufficient control. The deep grip controls their upper body rotation and prevents them from driving their chest into you. Think of your arm wrapping around their torso, not just reaching under their armpit."
+      },
+      {
+        "question": "Your opponent starts driving forward pressure to flatten you - what immediate adjustment do you make?",
+        "answer": "Immediately increase your bottom leg frame pressure against their hip while simultaneously pulling with your underhook to create counter-rotation. If the pressure is overwhelming, transition to deep half guard by scooting your hips under them. The key is using their forward pressure as energy for your transition rather than fighting directly against it. Never accept being flattened - always have an escape route in motion."
+      },
+      {
+        "question": "What are the essential control points that must be maintained to prevent guard passing?",
+        "answer": "Three critical control points: 1) Deep underhook with grip on far side of opponent's back, 2) Bottom leg actively framing against their near hip to maintain pocket space, and 3) Half guard leg lock trapping their leg between both of yours. Losing any one of these compromises the position - losing the underhook allows flattening, losing the pocket frame allows advancement, and losing the leg lock allows them to extract and pass."
+      },
+      {
+        "question": "How do you shut down the opponent's primary crossface and pressure pass attempt?",
+        "answer": "Prevention is critical - use your head positioned tight on the underhook side to create a barrier against the crossface. Your forehead should be against their ribs or chest, making it physically difficult for them to thread their arm across your face. If they begin establishing crossface, immediately create angle by turning into your underhook and threatening the Old School sweep, which forces them to abandon the crossface to defend."
+      },
+      {
+        "question": "Your opponent begins stripping your underhook - what is the correct response?",
+        "answer": "First, reinforce your underhook grip by pulling your elbow tighter to your body and re-gripping deeper on their back. If they're successfully stripping it despite resistance, do not accept a shallow underhook position. Instead, immediately transition to an alternative guard (knee shield, butterfly hooks, or deep half) where you have defensive options without relying on the underhook. Fighting to maintain a compromised underhook is worse than transitioning to a fresh position."
+      },
+      {
+        "question": "What base fundamentals keep your hip mobile and prevent flattening in this position?",
+        "answer": "Keep your bottom hip slightly elevated off the mat rather than completely pinned down. Your bottom leg frame against their hip creates the space for this elevation. Avoid having your shoulders flat and squared to the ceiling - maintain a slight angle toward your underhook side. Active hip movement is essential; if you feel yourself being flattened, immediately shrimp or hip escape to create angle before you're completely pinned."
+      },
+      {
+        "question": "How do you manage energy expenditure while maintaining offensive threat from bottom?",
+        "answer": "Use grip positioning and skeletal alignment rather than constant muscular effort. Your underhook should hang on their body using your grip, not continuous pulling force. Save explosive energy for actual sweep attempts rather than constant resistance. Threaten sweeps with positioning and angles rather than repetitive failed attempts. If you're breathing heavily in this position, you're working too hard - refine your structure."
+      },
+      {
+        "question": "The opponent partially passes but you maintain half guard - how do you recover full Pocket Half Guard position?",
+        "answer": "First priority is preventing further advancement by maintaining your half guard leg lock. Then work to recover your underhook by framing against their shoulder with your free arm to create space, then swimming your arm back to underhook position. Simultaneously use hip escapes to recreate angle and reestablish your bottom leg frame. The sequence is: stop advancement, create space, recover underhook, reestablish pocket frame."
+      }
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent maintains upright posture and attempts to strip underhook",
+        "actions": [
+          {
+            "technique": "Old School Sweep",
+            "target": "Mount",
+            "probability": 65
+          },
+          {
+            "technique": "Back Take Generic",
+            "target": "Back Control",
+            "probability": 55
+          }
+        ]
+      },
+      {
+        "condition": "If opponent drives forward with heavy pressure attempting to flatten",
+        "actions": [
+          {
+            "technique": "Deep Half Entry",
+            "target": "Deep Half Guard",
+            "probability": 70
+          },
+          {
+            "technique": "Underhook Sweep from Half",
+            "target": "Side Control",
+            "probability": 50
+          }
+        ]
+      },
+      {
+        "condition": "If opponent establishes crossface and compromises underhook depth",
+        "actions": [
+          {
+            "technique": "Knee Shield Recovery",
+            "target": "Knee Shield Half Guard",
+            "probability": 45
+          },
+          {
+            "technique": "Guard Recovery",
+            "target": "Open Guard",
+            "probability": 40
+          }
+        ]
+      },
+      {
+        "condition": "If opponent attempts to extract trapped leg by extending it",
+        "actions": [
+          {
+            "technique": "Electric Chair Submission",
+            "target": "Electric Chair",
+            "probability": 60
+          },
+          {
+            "technique": "Truck Entry",
+            "target": "Twister Control",
+            "probability": 55
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Allowing underhook to become shallow or losing underhook grip entirely",
+        "consequence": "Opponent can establish dominant chest pressure, flatten you completely, and pass to side control or mount with minimal resistance",
+        "correction": "Fight aggressively to maintain underhook depth - if opponent strips it, immediately recover it or transition to different guard rather than accepting shallow underhook position"
+      },
+      {
+        "error": "Passive bottom leg that doesn't actively frame against opponent's hip",
+        "consequence": "Opponent collapses the pocket space, flattens your hips, and eliminates all sweeping leverage while advancing their passing position",
+        "correction": "Keep constant active pressure with bottom foot against opponent's hip, adjusting foot position as needed to maintain the pocket space and prevent hip flattening"
+      },
+      {
+        "error": "Allowing opponent to establish crossface while you maintain underhook",
+        "consequence": "Crossface combined with forward pressure neutralizes underhook advantage and leads to being passed via knee slice or pressure pass",
+        "correction": "Use head pressure on underhook side to prevent crossface, and if crossface begins to establish, immediately transition to Deep Half or abandon position"
+      },
+      {
+        "error": "Being too passive and waiting for opponent to make mistake rather than actively attacking",
+        "consequence": "Allows opponent time to work on stripping underhook, establishing crossface, or setting up their preferred passing sequence",
+        "correction": "Constantly threaten Old School Sweep and back-takes - even failed attempts keep opponent defensive and preserve your offensive options"
+      },
+      {
+        "error": "Gripping opponent's far arm or shoulder instead of securing deep underhook to their back",
+        "consequence": "Shallow underhook provides insufficient control over opponent's rotation and allows them to easily strip the underhook by rotating away",
+        "correction": "Ensure underhook reaches all the way across opponent's back to grip their far lat, far armpit, or far side belt for maximum control depth"
+      },
+      {
+        "error": "Allowing trapped leg to become completely extended and locked straight",
+        "consequence": "Creates vulnerability to leg attacks and reduces mobility needed to generate sweeping power or transition to other positions",
+        "correction": "Maintain slight bend in trapped leg configuration and keep it close to your body rather than allowing it to be stretched out straight"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Underhook Depth Maintenance Drill",
+        "description": "Partner applies progressive resistance attempting to strip your underhook while you fight to maintain depth. Start at 30% resistance and increase to 70%. Focus on using head pressure, hip movement, and grip adjustments to preserve underhook depth even against stripping attempts. Practice for 3-minute rounds, switching roles.",
+        "duration": "3 minutes per round, 4 rounds"
+      },
+      {
+        "name": "Pocket Space Creation and Maintenance",
+        "description": "From Pocket Half Guard Bottom, partner attempts to flatten your hips and collapse pocket space using forward pressure. You maintain active bottom leg frame and hip mobility to preserve the pocket. Partner gradually increases pressure from 40% to 80%. Focus on hip angle adjustments and active foot pressure against opponent's hip.",
+        "duration": "2 minutes per round, 5 rounds"
+      },
+      {
+        "name": "Old School Sweep Repetitions",
+        "description": "Set up Pocket Half Guard Bottom position and execute Old School Sweep repetitions with cooperative partner. Focus on using underhook to pull opponent's shoulder down, creating angle with bottom leg pocket, and completing sweep to mount. Perform 20 repetitions per side, gradually increasing speed and resistance.",
+        "duration": "10 minutes"
+      },
+      {
+        "name": "Transition Flow Drill: Pocket to Deep Half to Back",
+        "description": "Flow between Pocket Half Guard Bottom, Deep Half Guard, and Back Control positions. Partner provides moderate resistance (50%) while you practice reading their pressure and weight distribution to choose appropriate transition. Focus on smooth entries and maintaining control throughout transitions.",
+        "duration": "5 minutes continuous flow"
+      },
+      {
+        "name": "Positional Sparring: Pocket Half Guard Bottom Only",
+        "description": "Start in Pocket Half Guard Bottom with deep underhook and pocket space established. Partner attempts to pass, you can only sweep, submit, or improve position (no allowing yourself to be passed). Reset after successful sweep/pass. This isolates the position and forces you to solve problems from Pocket Half Guard specifically.",
+        "duration": "5 minutes per round, 3 rounds"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Deep Half Guard",
+        "relationship": "Natural transition target when opponent drives forward pressure"
+      },
+      {
+        "name": "Old School",
+        "relationship": "Primary offensive technique from this position"
+      },
+      {
+        "name": "Electric Chair",
+        "relationship": "Submission opportunity when opponent extends trapped leg"
+      },
+      {
+        "name": "Knee Shield Half Guard",
+        "relationship": "Alternative half guard variant if underhook is lost"
+      },
+      {
+        "name": "Lockdown",
+        "relationship": "Can be combined with Pocket Half Guard for additional leg control"
+      },
+      {
+        "name": "Back Control",
+        "relationship": "Common advancement target via back-take from underhook"
+      },
+      {
+        "name": "Twister Control",
+        "relationship": "Advanced transition when opponent defends Old School Sweep"
+      },
+      {
+        "name": "X-Guard",
+        "relationship": "Alternative guard transition when pocket space is compromised"
+      },
+      {
+        "name": "Butterfly Guard",
+        "relationship": "Transition option when half guard retention becomes difficult"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "beginner": 55,
+        "intermediate": 70,
+        "advanced": 85
+      },
+      "advancement_probability": {
+        "beginner": 45,
+        "intermediate": 60,
+        "advanced": 75
+      },
+      "submission_probability": {
+        "beginner": 20,
+        "intermediate": 35,
+        "advanced": 50
+      },
+      "average_time": "45-90 seconds before sweep attempt or transition"
+    },
+    "transitions": [
+      {
+        "transition": "Old School Sweep",
+        "attempt_probability": 25
+      },
+      {
+        "transition": "Back Take Generic",
+        "attempt_probability": 20
+      },
+      {
+        "transition": "Deep Half Entry",
+        "attempt_probability": 22
+      },
+      {
+        "transition": "Underhook Sweep from Half",
+        "attempt_probability": 18
+      },
+      {
+        "transition": "Electric Chair Submission",
+        "attempt_probability": 15
+      }
+    ]
   }
 }

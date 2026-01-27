@@ -21,37 +21,37 @@ description: "Master attacking from Carni position in BJJ. Advanced leg entangle
     {
       "@type": "HowToStep",
       "name": "Execute Inside Heel Hook",
-      "text": "From this position, execute Inside Heel Hook to transition to Heel Hook. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Inside Heel Hook. This technique is attempted in 13% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Saddle Entry from Top",
-      "text": "From this position, execute Saddle Entry from Top to transition to Saddle. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Saddle Entry from Top. This technique is attempted in 15% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling Back Take",
-      "text": "From this position, execute Rolling Back Take to transition to Back Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Truck",
-      "text": "From this position, execute Transition to Truck to transition to Truck. Success rate for advanced practitioners: 70%.",
+      "name": "Execute Turtle to Truck",
+      "text": "From this position, attempt Turtle to Truck. This technique is attempted in 13% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Calf Slicer from Truck",
-      "text": "From this position, execute Calf Slicer from Truck to transition to Calf Slicer from Truck. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Calf Slicer from Truck. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Outside Ashi Entry",
-      "text": "From this position, execute Outside Ashi Entry to transition to Outside Ashi-Garami. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Outside Ashi Entry. This technique is attempted in 13% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -216,94 +216,22 @@ The technical requirements for effective Carni play from bottom include precise 
 
 ## Available Escapes
 
-### [[Inside Heel Hook]] → [[Heel Hook]]
+### [[Inside Heel Hook]] (13% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Saddle Entry from Top]] (15% of attempts)
 
-### [[Saddle Entry from Top]] → [[Saddle]]
+### [[Rolling Back Take]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 60%
-- Advanced: 75%
+### [[Turtle to Truck]] (13% of attempts)
 
-### [[Rolling Back Take]] → [[Back Control]]
+### [[Calf Slicer from Truck]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Outside Ashi Entry]] (13% of attempts)
 
-### [[Transition to Truck]] → [[Truck]]
+### [[Kneebar Finish]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Side Control to North-South]] (10% of attempts)
 
-### [[Calf Slicer from Truck]] → [[Calf Slicer from Truck]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[Outside Ashi Entry]] → [[Outside Ashi-Garami]]
-
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
-
-### [[Kneebar Finish]] → [[Kneebar]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[Transition to North-South]] → [[North-South]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Saddle Defense]]** → [[Ashi Garami]] (Opponent Success: 45%)
-- **[[Rolling Kimura Escape]]** → [[Scramble Position]] (Opponent Success: 40%)
-- **[[Technical Standup]]** → [[Standing Position]] (Opponent Success: 35%)
-- **[[Stack Defense]]** → [[Combat Base]] (Opponent Success: 30%)
-- **[[Granby Roll]]** → [[Half Guard Recovery]] (Opponent Success: 25%)
-- **[[Leg Drag Pass]]** → [[Side Control]] (Opponent Success: 20%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Rolling Back Take]]** → [[Back Control]]
-  - Opponent attempts to roll away from heel hook pressure to extract their trapped leg
-- **[[Saddle Entry from Top]]** → [[Saddle]]
-  - Opponent pulls knee toward chest to defend heel hook and creates defensive ball position
-- **[[Transition to Truck]]** → [[Truck]]
-  - Opponent turns belly down to defend leg attack and hide heel exposure
-- **[[Kneebar Finish]]** → [[Kneebar]]
-  - Opponent straightens leg to create distance and attempt to pull out of entanglement
-- **[[Calf Slicer from Truck]]** → [[Calf Slicer from Truck]]
-  - Opponent locks hands to defend back exposure from truck position
 
 
 </section>
@@ -319,21 +247,21 @@ The technical requirements for effective Carni play from bottom include precise 
 
 **If opponent attempts to roll away or spin to extract trapped leg:**
 - Execute **[[Rolling Back Take]]** → [[Back Control]] (Probability: 65%)
-- Execute **[[Transition to Truck]]** → [[Truck]] (Probability: 60%)
+- Execute **[[Turtle to Truck]]** → [[Truck]] (Probability: 60%)
 
 
 **If opponent turns belly down to defend heel exposure:**
-- Execute **[[Transition to Truck]]** → [[Truck]] (Probability: 75%)
-- Execute **[[Calf Slicer from Truck]]** → [[Calf Slicer from Truck]] (Probability: 55%)
+- Execute **[[Turtle to Truck]]** → [[Truck]] (Probability: 75%)
+- Execute **[[Calf Slicer from Truck]]** → [[Truck]] (Probability: 55%)
 
 
 **If opponent extends leg and attempts to create distance:**
 - Execute **[[Inside Heel Hook]]** → [[Heel Hook]] (Probability: 70%)
-- Execute **[[Kneebar Finish]]** → [[Kneebar]] (Probability: 60%)
+- Execute **[[Kneebar Finish]]** → [[Kneebar Control]] (Probability: 60%)
 
 
 **If opponent establishes upper body pressure and attempts to stack:**
-- Execute **[[Granby Roll]]** → [[Half Guard Recovery]] (Probability: 50%)
+- Execute **[[Granby Roll]]** → [[Half Guard]] (Probability: 50%)
 - Execute **[[Outside Ashi Entry]]** → [[Outside Ashi-Garami]] (Probability: 45%)
 
 
@@ -427,33 +355,39 @@ Start from Carni position with clear rules: if heel is defended, transition to s
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Direct Heel Hook Path
+## Test Your Knowledge
 
-`Carni Bottom → Inside Heel Hook → Won by Submission`
+**Q1**: What is the primary weight distribution for maintaining Carni control?
+**A**: Weight should be distributed through your leg entanglement and hip connection rather than your upper body. Your legs create the primary control by trapping the opponent's leg in a figure-four configuration while your hips stay angled to their hip line. Keep your upper body relaxed and mobile so you can react to their defensive movements. The tension comes from your leg triangle, not from gripping or squeezing with arms.
 
-### Saddle Transition Path
+**Q2**: Your opponent starts to pull their knee toward their chest - what adjustment do you make?
+**A**: When the opponent pulls their knee toward their chest creating a defensive ball, immediately transition toward the saddle position. Their knee retraction actually creates the perfect angle for saddle entry as their leg crosses your body. Follow their movement by threading deeper and transitioning your leg position to secure the saddle configuration. This is a high-percentage transition because their defensive action facilitates your advancement.
 
-`Carni Bottom → Saddle Entry from Top → Saddle → Inside Heel Hook → Won by Submission`
+**Q3**: What are the essential grips for maintaining Carni position?
+**A**: The essential grips are on the opponent's heel and ankle with both hands, creating immediate submission threat. Control the heel with your inside hand (pulling toward your chest) while your outside hand controls the ankle area for directional control. Avoid gripping too high on the leg above the knee as this loses immediate finish threat. These grips must be maintained throughout transitions while your legs do the primary controlling work.
 
-### Back Exposure Path
+**Q4**: How do you shut down the primary escape where opponent tries to step over with their free leg?
+**A**: To shut down the step-over escape, maintain active inside positioning with your top leg hooking over the opponent's hip or threading toward their far hip. This leg acts as a barrier preventing them from stepping over. If they attempt the step-over, immediately adjust your hook to block their movement while tightening your leg triangle. You can also use your outside arm to control their far leg if needed.
 
-`Carni Bottom → Rolling Back Take → Back Control → Rear Naked Choke → Won by Submission`
+**Q5**: What grip priorities should you maintain as the opponent increases their defensive pressure?
+**A**: As defensive pressure increases, prioritize in this order: first maintain your inside leg position over their hip, second keep heel and ankle control with both hands, and third use your leg triangle tension to prevent leg extraction. If they stack, be ready to invert to maintain these controls. Never sacrifice inside leg positioning for better heel grip as this allows them to step over and escape entirely.
 
-### Truck to Calf Slicer Path
+**Q6**: Your opponent attempts to roll away from the heel hook threat - how do you apply pressure to follow?
+**A**: When the opponent rolls away, immediately follow their movement to take the back or transition to truck position. As they roll, maintain your leg entanglement while rotating your body to stay connected. Follow their hip rotation with your own hips rather than trying to hold them static. The rolling motion they use to escape the heel hook actually exposes their back, making this a higher percentage finish than forcing the leg lock.
 
-`Carni Bottom → Transition to Truck → Truck → Calf Slicer from Truck → Won by Submission`
+**Q7**: How should you manage energy during extended Carni control sequences?
+**A**: Energy management requires keeping your upper body relaxed while your legs maintain active tension. Avoid death-gripping the heel as this fatigues your forearms quickly. Let your leg configuration do the primary control work while your hands guide and threaten. Stay patient and let the opponent expend energy escaping while you wait for optimal finishing opportunities. The position should feel sustainable for 30-45 seconds of active control.
 
-### Kneebar Transition Path
-
-`Carni Bottom → Kneebar Finish → Kneebar → Won by Submission`
+**Q8**: After your opponent partially extracts their leg, what's your recovery procedure to re-establish control?
+**A**: If they partially extract, immediately re-engage your inside leg hook over their hip to prevent complete escape. Follow their movement and re-establish your leg triangle around whatever portion of their leg remains trapped. If needed, transition to a different ashi garami variation like outside ashi that may be available from the new angle. Never let them fully extract - maintain constant connection even if the specific position changes.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -485,7 +419,7 @@ Start from Carni position with clear rules: if heel is defended, transition to s
 - **[[Heel Hook]]** - Primary submission - most common finish from Carni position
 - **[[Calf Slicer from Truck]]** - Secondary submission - accessed via truck transition from Carni
 - **[[Kneebar]]** - Alternative submission - opportunistic finish when opponent extends leg
-- **[[Craig Jones Leg Lock System]]** - Strategic framework - systematic approach to Carni position and transitions
+- **[[Honey Hole]]** - Related finishing position - alternative leg entanglement for submissions
 
 
 </section>

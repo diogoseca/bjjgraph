@@ -21,37 +21,37 @@ description: "Defend and escape the leg drag position with systematic recovery s
     {
       "@type": "HowToStep",
       "name": "Execute Butterfly Hook Recovery",
-      "text": "From this position, execute Butterfly Hook Recovery to transition to Butterfly Guard. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Butterfly Hook Recovery. This technique is attempted in 20% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Half Guard Recovery",
-      "text": "From this position, execute Half Guard Recovery to transition to Knee Shield Half Guard. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Half Guard Recovery. This technique is attempted in 20% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Deep Half Entry",
-      "text": "From this position, execute Deep Half Entry to transition to Deep Half Guard. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 16% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Granby Roll",
-      "text": "From this position, execute Granby Roll to transition to Butterfly Guard. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Granby Roll. This technique is attempted in 16% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Frame and Shrimp",
-      "text": "From this position, execute Frame and Shrimp to transition to Open Guard. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Frame and Shrimp. This technique is attempted in 17% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Underhook Battle",
-      "text": "From this position, execute Underhook Battle to transition to Underhook Control. Success rate for advanced practitioners: 50%.",
+      "name": "Execute Arm Drag Escape",
+      "text": "From this position, attempt Arm Drag Escape. This technique is attempted in 11% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -211,72 +211,18 @@ Advanced practitioners develop sensitivity to the weight distribution and pressu
 
 ## Available Escapes
 
-### [[Butterfly Hook Recovery]] → [[Butterfly Guard]]
+### [[Butterfly Hook Recovery]] (20% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
+### [[Half Guard Recovery]] (20% of attempts)
 
-### [[Half Guard Recovery]] → [[Knee Shield Half Guard]]
+### [[Deep Half Entry]] (16% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Granby Roll]] (16% of attempts)
 
-### [[Deep Half Entry]] → [[Deep Half Guard]]
+### [[Frame and Shrimp]] (17% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
+### [[Arm Drag Escape]] (11% of attempts)
 
-### [[Granby Roll]] → [[Butterfly Guard]]
-
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 50%
-
-### [[Frame and Shrimp]] → [[Open Guard]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-### [[Underhook Battle]] → [[Underhook Control]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Knee Slice Pass]]** → [[Side Control]]
-- **[[Back Step]]** → [[Back Control]]
-- **[[Pressure Pass]]** → [[Side Control]]
-- **[[Transition to Mount]]** → [[Mount]]
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Re-Guard]]** → [[Butterfly Guard]]
-  - When top player shifts weight to complete pass
-- **[[Rolling Back Take]]** → [[Back Control]]
-  - When top player overcommits to chest pressure
 
 
 </section>
@@ -366,25 +312,39 @@ Partner maintains heavy leg drag pressure. Bottom player works exclusively on cr
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Guard Recovery to Sweep to Submission
+## Test Your Knowledge
 
-`Leg Drag Position Bottom → Butterfly Guard → Butterfly Sweep → Mount → Armbar from Mount`
+**Q1**: Your opponent is applying heavy chest pressure on your dragged leg - what is your immediate priority?
+**A**: Your immediate priority is to create frames using your free leg and far-side arm to lift or redirect the pressure, not to escape directly. Place your free shin across their hip or chest as a frame while your far arm posts on their shoulder or bicep. These frames create the space needed to insert a butterfly hook or begin shrimping. Without frames first, any escape attempt will fail against heavy pressure.
 
-### Deep Half to Back
+**Q2**: What are the key frames needed to create escape opportunities from leg drag bottom?
+**A**: The essential frames are: 1) Free leg shin placed across opponent's hip or stomach to prevent them from driving forward, 2) Far-side arm posting on their shoulder or collar to create upper body distance, 3) Near-side elbow tight to your body preventing the crossface. These three frames create a defensive structure that gives you space to work. The free leg frame is particularly important as it can directly lead to butterfly hook recovery.
 
-`Leg Drag Position Bottom → Deep Half Guard → Rolling Back Take → Back Control → Rear Naked Choke`
+**Q3**: Why is turning away from your opponent the worst possible escape attempt from leg drag?
+**A**: Turning away immediately exposes your back for taking. The leg drag position already has your hip compromised and your opponent at a dominant angle - turning away completes their path to back control. They simply need to follow your turn, secure a seatbelt grip, and establish hooks. This is the highest percentage back take from leg drag. Always face your opponent and work your escapes toward them, never away.
 
-### Counter Back Take
+**Q4**: Your opponent begins transitioning to a knee slice pass - what is your recovery window?
+**A**: The knee slice creates a brief recovery window as they shift weight to slice through. As they lift pressure to move their knee, immediately insert your free leg as a butterfly hook or half guard knee shield in the space created. Your hip must move first - shrimp toward them as they transition, not away. This is your best opportunity to recover guard, as their forward momentum during the slice creates the necessary space.
 
-`Leg Drag Position Bottom → Rolling Back Take → Back Control → Rear Naked Choke`
+**Q5**: How do you prevent the pass from completing when your frames are failing?
+**A**: When frames fail, commit fully to either granby roll or turtle. For granby roll, use the momentum of their pressure by rolling your hips over your shoulder toward them, inverting underneath to reset to butterfly or open guard. For turtle, bring both knees tight to your chest and turn to all fours before they can establish side control. Half-committed defensive movements always fail - pick one escape path and execute with full commitment.
+
+**Q6**: What timing cues indicate when to attempt butterfly hook recovery versus granby roll?
+**A**: Attempt butterfly hook recovery when: opponent's chest pressure is moderate but they haven't secured far hip control, giving you space to insert the hook. Attempt granby roll when: opponent is driving forward heavily with committed chest pressure but their base is high or narrow. The granby uses their forward momentum against them. If they're balanced with moderate pressure and good hip control, you may need to frame first to create either opportunity.
+
+**Q7**: Your opponent controls your far hip, preventing your primary escapes - what options remain?
+**A**: When far hip is controlled, your primary options are: 1) Attack their grip by stripping their hand off your hip using your far arm, 2) Use your near-side underhook attempt to force them to address the threat, creating a moment to recover, 3) Commit to deep half guard by threading under their base using the mobility you still have in your upper body, 4) If they're very heavy, accept turtle as a transitional position rather than having your back taken. The key is recognizing that standard escapes won't work and adapting.
+
+**Q8**: How do you manage energy when stuck in leg drag bottom against a patient passer?
+**A**: Against a patient passer, avoid burning energy on low-percentage escape attempts. Maintain your frames efficiently without pushing hard - frames should redirect, not fight. Wait for them to initiate their pass (knee slice, back step, pressure pass), as each transition creates a specific recovery window. Time your explosive escape effort to coincide with their movement, not against their static pressure. This gives you maximum effect for minimum energy expenditure.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -408,9 +368,9 @@ Partner maintains heavy leg drag pressure. Bottom player works exclusively on cr
 - **[[Butterfly Guard]]** - Primary guard recovery target
 - **[[Knee Shield Half Guard]]** - Alternative recovery structure
 - **[[Deep Half Guard]]** - Advanced recovery option when direct paths blocked
-- **[[Frame Creation]]** - Essential principle for creating escape space
-- **[[Guard Retention]]** - Prevents reaching leg drag position
-- **[[Granby Roll Concept]]** - Key movement pattern for escaping leg drag
+- **[[Half Guard]]** - Common recovery target from leg drag bottom
+- **[[Open Guard]]** - Guard structure to recover distance
+- **[[Turtle]]** - Emergency defensive position if guard recovery fails
 - **[[Back Control]]** - Danger position if escape fails and you turn away
 
 

@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Guard Opening Sequence | BJJ Technique | BJJ Graph"
 description: "Master guard opening in BJJ. Systematic approaches to opening closed guard with posture, grips, and pressure. Success: Beginner 35%, Intermediate 55%, Advanced 75%."
@@ -16,7 +17,7 @@ description: "Master guard opening in BJJ. Systematic approaches to opening clos
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Guard Opening Sequence in BJJ",
-  "description": "Step-by-step guide for Guard Opening Sequence from Closed Guard to Open Guard.",
+  "description": "Step-by-step guide for Guard Opening Sequence from Closed Guard/Bottom. Possible outcomes: Open Guard/Bottom (75%), Closed Guard/Bottom (15%), Closed Guard/Top (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -160,11 +161,25 @@ description: "Master guard opening in BJJ. Systematic approaches to opening clos
 
 Guard Opening Sequence represents the systematic approach to breaking closed guard and transitioning to an open guard passing position. This foundational technique encompasses posture establishment, grip fighting, and the application of specific opening mechanics to force the opponent's guard open. The sequence is fundamental to all guard passing systems, as no pass can begin without first opening the closed guard. Understanding proper opening mechanics prevents common injuries, maintains positional control, and sets up high-percentage passing opportunities. The technique involves careful attention to base maintenance, grip control, and strategic pressure application to overcome the opponent's defensive structure while maintaining safety and control throughout the transition.
 
-**Starting Position**: [[Closed Guard]]
-**Ending Position**: [[Open Guard]]
+**From Position**: [[Closed Guard/Bottom]]
 **Success Rates**: Beginner 35%, Intermediate 55%, Advanced 75%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Open Guard/Bottom]] | 75% |
+| Failure | [[Closed Guard/Bottom]] | 15% |
+| Counter | [[Closed Guard/Top]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

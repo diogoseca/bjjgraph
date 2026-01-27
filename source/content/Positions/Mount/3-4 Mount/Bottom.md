@@ -21,37 +21,37 @@ description: "Master defensive strategies from 3-4 Mount Bottom. Complete escape
     {
       "@type": "HowToStep",
       "name": "Execute Elbow Escape",
-      "text": "From this position, execute Elbow Escape to transition to Half Guard. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Elbow Escape. This technique is attempted in 19% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bridge and Roll",
-      "text": "From this position, execute Bridge and Roll to transition to Closed Guard. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 16% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Shrimp Escape",
-      "text": "From this position, execute Shrimp Escape to transition to Open Guard. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Shrimp Escape. This technique is attempted in 17% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape",
-      "text": "From this position, execute Hip Escape to transition to Open Guard. Success rate for advanced practitioners: 52%.",
+      "text": "From this position, attempt Hip Escape. This technique is attempted in 16% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Frame and Shrimp",
-      "text": "From this position, execute Frame and Shrimp to transition to Half Guard. Success rate for advanced practitioners: 48%.",
+      "text": "From this position, attempt Frame and Shrimp. This technique is attempted in 15% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Upa Escape",
-      "text": "From this position, execute Upa Escape to transition to Closed Guard. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Upa Escape. This technique is attempted in 17% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -212,77 +212,18 @@ From a positional hierarchy perspective, 3-4 Mount Bottom is a high-risk defensi
 
 ## Available Escapes
 
-### [[Elbow Escape]] → [[Half Guard]]
+### [[Elbow Escape]] (19% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Bridge and Roll]] (16% of attempts)
 
-### [[Bridge and Roll]] → [[Closed Guard]]
+### [[Shrimp Escape]] (17% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
+### [[Hip Escape]] (16% of attempts)
 
-### [[Shrimp Escape]] → [[Open Guard]]
+### [[Frame and Shrimp]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
+### [[Upa Escape]] (17% of attempts)
 
-### [[Hip Escape]] → [[Open Guard]]
-
-**Success Rates:**
-- Beginner: 22%
-- Intermediate: 38%
-- Advanced: 52%
-
-### [[Frame and Shrimp]] → [[Half Guard]]
-
-**Success Rates:**
-- Beginner: 18%
-- Intermediate: 32%
-- Advanced: 48%
-
-### [[Upa Escape]] → [[Closed Guard]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Transition to Mount]]** → [[Mount]] (Opponent Success: 40%)
-- **[[Transition to Mount]]** → [[S Mount]] (Opponent Success: 35%)
-- **[[Transition to Mount]]** → [[High Mount]] (Opponent Success: 30%)
-- **[[Americana from Mount]]** → [[Americana Control]] (Opponent Success: 25%)
-- **[[Armbar from Mount]]** → [[Armbar Control]] (Opponent Success: 28%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Frame and Shrimp]]** → [[Half Guard]]
-  - Opponent attempts to consolidate mount position by bringing knees together
-- **[[Hip Escape]]** → [[Open Guard]]
-  - Opponent posts hand to prevent bridge and roll, creating space on posting side
-- **[[Bridge and Roll]]** → [[Mount]]
-  - Opponent reaches high for collar grip or submission attempt, raising center of gravity
-- **[[Elbow Escape]]** → [[Closed Guard]]
-  - Opponent shifts weight to establish traditional mount, temporarily equalizing base
 
 
 </section>
@@ -389,29 +330,39 @@ Timed rounds starting from 3-4 mount bottom position. Bottom player scores point
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Shortest defensive path to safety
+## Test Your Knowledge
 
-`3-4 Mount Bottom → Elbow Escape → Half Guard → Guard retention established`
+**Q1**: What is the primary escape advantage of 3-4 Mount Bottom compared to traditional mount bottom?
+**A**: The asymmetric weight distribution in 3-4 Mount creates a natural escape angle toward the lighter side where the opponent has fewer contact points. Unlike traditional mount where weight is evenly distributed, the posted leg configuration in 3-4 Mount means one side has compromised base stability. Recognizing this lighter side and directing escape movements toward it significantly increases success rates compared to escaping symmetric mount positions.
 
-### High-percentage reversal path
+**Q2**: Your opponent has heavy chest pressure in 3-4 Mount. How do you create space for escape without exhausting yourself?
+**A**: Establish frames using skeletal structure rather than muscular pushing—keep elbows bent at 90 degrees with forearms against their hips and shoulders. Bridge at a 45-degree angle toward the heavier side to momentarily unweight their chest pressure, then immediately shrimp your hips away toward the lighter side while maintaining your frames. Use controlled, systematic bridge-and-shrimp sequences rather than explosive single attempts that waste energy without creating cumulative space.
 
-`3-4 Mount Bottom → Bridge and Roll → Mount → Positional dominance`
+**Q3**: What are the essential frames needed to prevent submissions while escaping 3-4 Mount?
+**A**: The primary defensive frames are: near-side elbow tight to your ribs creating a barrier against their hip pressure, far-side forearm across their bicep or shoulder preventing them from dropping chest weight, and chin tucked to chest protecting the neck from choke attempts. These frames must be maintained throughout the escape sequence—never extend arms fully as this creates armbar and Americana vulnerabilities.
 
-### Conservative recovery path
+**Q4**: How do you identify which side is the lighter side in 3-4 Mount configuration?
+**A**: The lighter side is the side with the posted leg—this leg has its knee off your body and foot posted on the mat, creating fewer contact points and less direct pressure on that side of your torso. Feel for where the opponent's weight is concentrated: the mounted side with the knee on your body will feel heavier. Direct your hip escape movements toward the posted leg side where there is less resistance and the opponent has compromised base stability.
 
-`3-4 Mount Bottom → Frame and Shrimp → Open Guard → Closed Guard`
+**Q5**: Your opponent begins setting up an Americana from 3-4 Mount. What is your immediate defensive response?
+**A**: Immediately straighten the threatened arm and drive it toward your hip, pulling your elbow tight to your body to deny the necessary angle. Simultaneously bridge toward the side of the attack to disrupt their base and reduce their control leverage. If they persist, grip your own collar or belt with the attacked hand to create an anchor point. Use the space created by their submission focus to execute an escape toward the opposite side, as their attention on the arm creates a momentary base weakness.
 
-### Dynamic escape to standing
+**Q6**: When is the optimal timing to attempt a bridge and roll escape from 3-4 Mount Bottom?
+**A**: The optimal timing is when the opponent reaches high for a collar grip, submission setup, or adjusts their position—these moments raise their center of gravity and compromise their base. Additionally, if they shift their weight strongly toward the mounted side, this creates vulnerability to a bridge toward the posted leg side. Never attempt bridge and roll when they are settled low with heavy chest pressure and stable base; wait for or create movement that disrupts their equilibrium first.
 
-`3-4 Mount Bottom → Hip Escape → Technical Stand-up → Standing Position → Neutral position`
+**Q7**: How do you recover guard after successfully creating space from 3-4 Mount Bottom?
+**A**: After creating space through the bridge-and-shrimp sequence, immediately insert your near-side knee between your body and theirs as a knee shield, preventing them from reclosing the distance. Continue shrimping to create angle, then work to either recover closed guard by bringing your far leg around their body, establish half guard by trapping their leg with both of yours, or create open guard distance. Maintain frames throughout guard recovery to prevent them from immediately re-passing.
+
+**Q8**: What common error most frequently leads to failed escapes from 3-4 Mount Bottom?
+**A**: Escaping toward the heavier side where the opponent's mounted knee creates maximum pressure and base stability. This common error results from not recognizing the asymmetric configuration or panicking without assessing weight distribution. The correction is to always identify the posted leg side first, bridge toward the mounted side to disrupt their base, then immediately escape toward the lighter posted leg side where their base is compromised and escape success rates are significantly higher.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -433,14 +384,14 @@ Timed rounds starting from 3-4 mount bottom position. Bottom player scores point
 ## Related Positions and Techniques
 
 - **[[Mount]]** - Parent position - traditional mount bottom from which 3-4 variation derives
-- **[[3-4 Mount]]** - Sibling variant - opposite perspective of same position configuration
+- **[[3-4 Mount]]** - Hub page - containing both top and bottom perspectives
 - **[[High Mount]]** - Related defensive position - similar escape principles with different opponent positioning
 - **[[S Mount]]** - Related defensive position - advanced mount variation requiring adapted escape techniques
 - **[[Half Guard]]** - Common transition target - primary escape destination from 3-4 mount bottom
-- **[[Escape Hierarchy]]** - Governing concept - establishes priority system for mount escape attempts
-- **[[Defensive Framing]]** - Core concept - fundamental principle for maintaining structure in bottom positions
-- **[[Bridge and Shrimp]]** - Essential concept - foundational movement pattern for mount escapes
+- **[[Closed Guard]]** - Guard recovery goal - full guard position after successful escape sequence
 - **[[Open Guard]]** - Transition target - intermediate position during escape sequences
+- **[[Knee Shield Half Guard]]** - Common escape destination - using knee shield to prevent re-mounting
+- **[[Elbow Escape]]** - Primary escape technique - shrimp-based movement to recover guard
 
 
 </section>

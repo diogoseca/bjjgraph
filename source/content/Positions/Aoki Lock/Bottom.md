@@ -21,37 +21,37 @@ description: "Master Aoki Lock defense and escape strategies. Defensive control 
     {
       "@type": "HowToStep",
       "name": "Execute Rolling Escape to Guard",
-      "text": "From this position, execute Rolling Escape to Guard to transition to Closed Guard. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Rolling Escape to Guard. This technique is attempted in 19% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm Extraction to Turtle",
-      "text": "From this position, execute Arm Extraction to Turtle to transition to Turtle. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Arm Extraction to Turtle. This technique is attempted in 21% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Guard Recovery",
-      "text": "From this position, execute Hip Escape to Guard Recovery to transition to Open Guard. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Hip Escape to Guard Recovery. This technique is attempted in 17% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling Counter to Top",
-      "text": "From this position, execute Rolling Counter to Top to transition to Scramble Position. Success rate for advanced practitioners: 45%.",
+      "text": "From this position, attempt Rolling Counter to Top. This technique is attempted in 14% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Base Attack to Sweep",
-      "text": "From this position, execute Base Attack to Sweep to transition to Standing Position. Success rate for advanced practitioners: 40%.",
+      "text": "From this position, attempt Base Attack to Sweep. This technique is attempted in 13% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Granby Roll Escape",
-      "text": "From this position, execute Granby Roll Escape to transition to Turtle. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Granby Roll Escape. This technique is attempted in 16% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -213,74 +213,18 @@ This position commonly arises when defending turtle position, during scrambles f
 
 ## Available Escapes
 
-### [[Rolling Escape to Guard]] → [[Closed Guard]]
+### [[Rolling Escape to Guard]] (19% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Arm Extraction to Turtle]] (21% of attempts)
 
-### [[Arm Extraction to Turtle]] → [[Turtle]]
+### [[Hip Escape to Guard Recovery]] (17% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Rolling Counter to Top]] (14% of attempts)
 
-### [[Hip Escape to Guard Recovery]] → [[Open Guard]]
+### [[Base Attack to Sweep]] (13% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
+### [[Granby Roll Escape]] (16% of attempts)
 
-### [[Rolling Counter to Top]] → [[Scramble Position]]
-
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 45%
-
-### [[Base Attack to Sweep]] → [[Standing Position]]
-
-**Success Rates:**
-- Beginner: 10%
-- Intermediate: 25%
-- Advanced: 40%
-
-### [[Granby Roll Escape]] → [[Turtle]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Increased Hip Pressure]]** → [[Won by Submission]] (Opponent Success: 60%)
-- **[[Leg Entanglement Tightening]]** → [[Aoki Lock]] (Opponent Success: 55%)
-- **[[Transition to Truck]]** → [[Truck]] (Opponent Success: 50%)
-- **[[Transition to Back Control]]** → [[Back Control]] (Opponent Success: 45%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Rolling Escape When Pressure Increases]]** → [[Closed Guard]]
-  - Opponent drives hip pressure forward creating momentum you can roll with
-- **[[Base Attack During Adjustment]]** → [[Scramble Position]]
-  - Opponent repositions posted leg or adjusts hip angle
-- **[[Arm Extraction When Control Loosens]]** → [[Turtle]]
-  - Opponent's leg entanglement loosens to adjust shoulder angle
 
 
 </section>
@@ -291,17 +235,17 @@ This position commonly arises when defending turtle position, during scrambles f
 
 **If opponent is applying progressive shoulder pressure with tight leg control:**
 - Execute **[[Rolling Escape to Guard]]** → [[Closed Guard]] (Probability: 55%)
-- Execute **[[Tap Early if Pressure Dangerous]]** → [[Tap Out]] (Probability: 100%)
+- Execute **[[Tap Early if Pressure Dangerous]]** → [[game-over]] (Probability: 45%)
 
 
 **If opponent's posted leg base appears unstable or adjustable:**
-- Execute **[[Base Attack to Sweep]]** → [[Standing Position]] (Probability: 40%)
-- Execute **[[Arm Extraction to Turtle]]** → [[Turtle]] (Probability: 50%)
+- Execute **[[Base Attack to Sweep]]** → [[Standing Position]] (Probability: 45%)
+- Execute **[[Arm Extraction to Turtle]]** → [[Turtle]] (Probability: 55%)
 
 
 **If leg entanglement loosens but hip pressure remains:**
-- Execute **[[Hip Escape to Guard]]** → [[Open Guard]] (Probability: 60%)
-- Execute **[[Arm Extraction]]** → [[Turtle]] (Probability: 55%)
+- Execute **[[Hip Escape to Guard]]** → [[Open Guard]] (Probability: 55%)
+- Execute **[[Arm Extraction]]** → [[Turtle]] (Probability: 45%)
 
 
 
@@ -377,25 +321,39 @@ Partner applies progressive Aoki Lock pressure very slowly. Practice tapping at 
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Safest escape path
+## Test Your Knowledge
 
-`Aoki Lock Bottom → Rolling Escape → Closed Guard → Guard Recovery`
+**Q1**: Your opponent increases hip pressure on your shoulder - what immediate defensive adjustment should you make?
+**A**: Internally rotate your shoulder to resist the external rotation pressure from their hip drive. Simultaneously initiate a roll toward your trapped arm direction, using their forward pressure momentum to assist your escape. Do not fight the pressure by pulling away, as this dramatically increases shoulder torque and injury risk.
 
-### Conservative turtle path
+**Q2**: What are the essential defensive priorities when caught in Aoki Lock bottom position?
+**A**: First priority is protecting your shoulder from catastrophic rotation by keeping it internally rotated. Second is addressing the leg entanglement before attempting arm extraction. Third is using your free hand to attack opponent's posted leg base or control their hip. Fourth is creating continuous movement toward escape rather than static defense.
 
-`Aoki Lock Bottom → Arm Extraction → Turtle → Guard Recovery`
+**Q3**: How do you shut down your opponent's ability to finish the submission?
+**A**: Keep your trapped elbow bent when possible without compromising shoulder safety to prevent full arm extension. Roll toward the trapped arm direction following path of least resistance. Attack opponent's posted leg to destabilize their base and pressure generation. Create hip movement to reduce the pressure angle. Most importantly, tap early if pressure reaches dangerous threshold.
 
-### Aggressive counter path
+**Q4**: What grip or frame priorities help you survive and escape Aoki Lock bottom?
+**A**: Your free hand should immediately engage in attacking opponent's posted leg or controlling their hip to create escape angles. Do not grip your trapped arm trying to pull it free, as this wastes energy and doesn't address the leg entanglement. Focus frames on creating space and destabilizing opponent's base rather than directly fighting the submission.
 
-`Aoki Lock Bottom → Base Attack → Scramble Position → Standing Position`
+**Q5**: How do you recognize when you should tap rather than continue defending?
+**A**: Tap immediately when you feel sharp pain in the shoulder joint, when you cannot prevent your arm from full extension, when your shoulder rotation reaches uncomfortable levels, or when opponent's pressure is increasing and you have no escape path. Shoulder injuries from this position include rotator cuff tears, labrum damage, and dislocation - none are worth continuing defense.
+
+**Q6**: Your opponent adjusts their posted leg position - how do you capitalize on this moment?
+**A**: Attack their base immediately with your free hand before they re-establish stable posting. Time your arm extraction attempt to coincide with their adjustment since leg entanglement often loosens during repositioning. Use their momentary instability to create hip movement and change your angle toward escape. This is your primary window for successful escape.
+
+**Q7**: How do you manage energy when defending Aoki Lock bottom position?
+**A**: Avoid fighting the submission with constant maximum tension, which exhausts you quickly. Focus on efficient movement patterns rather than strength-based resistance. Time your escape attempts to coincide with opponent's adjustments or pressure changes. Accept that some pressure is inevitable and conserve energy for explosive escape attempts at opportune moments.
+
+**Q8**: Your escape attempt fails but you've created some space - how do you prevent opponent from fully re-establishing control?
+**A**: Keep moving immediately rather than pausing in the partial escape position. If you've loosened the leg entanglement, continue working arm extraction before they re-tighten. If you've disrupted their base, continue attacking it to prevent re-stabilization. Chain your escape attempts together rather than treating each as isolated. Continuous movement is more effective than single powerful attempts.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -420,7 +378,7 @@ Partner applies progressive Aoki Lock pressure very slowly. Practice tapping at 
 - **[[Kimura Control]]** - Related shoulder lock defense
 - **[[Turtle]]** - Common entry position and escape destination
 - **[[Closed Guard]]** - Primary escape target position
-- **[[Submission Defense]]** - Conceptual framework for defending submissions
+- **[[Open Guard]]** - Alternative escape target position
 
 
 </section>

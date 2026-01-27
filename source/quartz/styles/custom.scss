@@ -6,6 +6,16 @@
 // Landing Page (Homepage)
 // ============================================================================
 
+// Hide reading time and sidebar search on the landing page
+// (search is already in the hero area)
+body[data-slug="index"] .content-meta {
+  display: none;
+}
+
+body[data-slug="index"] .search > .search-button {
+  visibility: hidden;
+}
+
 // Hero content
 .tagline {
   font-size: 1.25rem;
@@ -502,6 +512,86 @@
     width: 24px;
     height: 24px;
     filter: brightness(0) invert(1);
+  }
+}
+
+// Performance Report (Strengths / Revisit)
+.performance-report {
+  margin: 1.5rem 0;
+  text-align: left;
+}
+
+.report-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+
+  @media (max-width: 600px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.report-column {
+  padding: 1rem;
+  border-radius: 8px;
+  background: var(--highlight);
+}
+
+.report-heading {
+  margin: 0 0 0.75rem 0;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+
+  .strengths & {
+    color: #2e7d32;
+  }
+
+  .weaknesses & {
+    color: #c62828;
+  }
+}
+
+.report-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.report-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.15);
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  &.empty {
+    color: var(--gray);
+    font-style: italic;
+  }
+}
+
+.report-technique {
+  font-weight: 500;
+  color: var(--dark);
+}
+
+.report-rate {
+  font-size: 0.9rem;
+  font-weight: 600;
+  min-width: 3rem;
+  text-align: right;
+
+  .strength & {
+    color: #2e7d32;
+  }
+
+  .weakness & {
+    color: #c62828;
   }
 }
 

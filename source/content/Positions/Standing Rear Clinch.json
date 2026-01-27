@@ -15,8 +15,8 @@
   "overview": "Standing Rear Clinch is a dominant control position where you establish chest-to-back connection with a standing opponent, typically securing body lock, seatbelt, or collar tie configurations. This position bridges wrestling and Brazilian Jiu-Jitsu, serving as a critical transition point for securing takedowns, back takes, or forcing opponents into inferior ground positions. The standing variant offers unique tactical advantages over ground-based back control, allowing the top player to dictate when and how the engagement transitions to the mat while maintaining dominant positional control.\n\nStrategically, Standing Rear Clinch provides multiple advancement pathways including rear takedowns like mat returns or back steps to establish back control on the ground, bodylock passes if the opponent sits to guard, or standing submission attacks. The position requires sophisticated weight distribution management, hip positioning, and grip fighting to prevent opponents from hand fighting free or executing reversal techniques. Understanding these mechanics is essential for competitors who want to control the pace of standing exchanges and systematically advance to more dominant positions.\n\nThe Standing Rear Clinch holds particular importance in no-gi grappling and MMA contexts where wrestling-based positions dominate the standing phase, though it remains highly relevant in gi competition where collar and sleeve grips integrate with traditional bodylock and seatbelt controls. Mastery allows practitioners to neutralize guard pullers, force action in stalling situations, and create scoring opportunities through takedowns and back exposure while maintaining offensive initiative throughout the standing phase.",
   "state_properties": {
     "point_value": 0,
-    "position_type": "Neutral",
-    "risk_level": "Medium",
+    "position_type": "Offensive/Controlling",
+    "risk_level": "Low to Medium",
     "energy_cost": "Medium",
     "time_sustainability": "Medium"
   },
@@ -41,127 +41,34 @@
     "Transition between grip configurations fluidly as opponent defends, moving from bodylock to seatbelt to collar ties as opportunities present",
     "Use head position strategically to prevent opponent from executing headlock or throw attempts while supporting grip structure"
   ],
-  "offensive_transitions": [
+  "transitions": [
     {
-      "technique": "Back Take Generic",
-      "target_position": "Back Control",
-      "success_rates": {
-        "beginner": 50,
-        "intermediate": 65,
-        "advanced": 80
-      }
+      "transition": "Back Take Generic",
+      "attempt_probability": 25
     },
     {
-      "technique": "Body Lock Pass",
-      "target_position": "Side Control",
-      "success_rates": {
-        "beginner": 45,
-        "intermediate": 60,
-        "advanced": 75
-      }
+      "transition": "Body Lock Pass",
+      "attempt_probability": 20
     },
     {
-      "technique": "Rear Naked Choke",
-      "target_position": "Won by Submission",
-      "success_rates": {
-        "beginner": 25,
-        "intermediate": 40,
-        "advanced": 55
-      }
+      "transition": "Rolling Back Take",
+      "attempt_probability": 15
     },
     {
-      "technique": "Rolling Back Take",
-      "target_position": "Back Control",
-      "success_rates": {
-        "beginner": 35,
-        "intermediate": 50,
-        "advanced": 65
-      }
+      "transition": "Snap Down",
+      "attempt_probability": 15
     },
     {
-      "technique": "Snap Down",
-      "target_position": "Front Headlock",
-      "success_rates": {
-        "beginner": 40,
-        "intermediate": 55,
-        "advanced": 70
-      }
+      "transition": "Double Leg Finish",
+      "attempt_probability": 10
     },
     {
-      "technique": "Double Leg Finish",
-      "target_position": "Side Control",
-      "success_rates": {
-        "beginner": 38,
-        "intermediate": 53,
-        "advanced": 68
-      }
+      "transition": "Single Leg Takedown",
+      "attempt_probability": 10
     },
     {
-      "technique": "Single Leg Takedown",
-      "target_position": "Turtle",
-      "success_rates": {
-        "beginner": 35,
-        "intermediate": 50,
-        "advanced": 65
-      }
-    },
-    {
-      "technique": "Transition to Truck",
-      "target_position": "Truck",
-      "success_rates": {
-        "beginner": 28,
-        "intermediate": 43,
-        "advanced": 58
-      }
-    }
-  ],
-  "defensive_responses": [
-    {
-      "technique": "Hip Escape",
-      "target_position": "Standing Position",
-      "success_rate": 35
-    },
-    {
-      "technique": "Hand Fighting",
-      "target_position": "Clinch",
-      "success_rate": 40
-    },
-    {
-      "technique": "Sit to Guard",
-      "target_position": "Closed Guard",
-      "success_rate": 45
-    },
-    {
-      "technique": "Granby Roll",
-      "target_position": "Standing Position",
-      "success_rate": 25
-    },
-    {
-      "technique": "Technical Stand Up to Single Leg",
-      "target_position": "Standing Position",
-      "success_rate": 38
-    }
-  ],
-  "counter_transitions": [
-    {
-      "technique": "Back Take Generic",
-      "target_position": "Back Control",
-      "trigger": "Opponent attempts to sit to guard or execute hip escape with back exposed"
-    },
-    {
-      "technique": "Body Lock Pass",
-      "target_position": "Side Control",
-      "trigger": "Opponent sits to guard but maintains poor posture allowing pass progression"
-    },
-    {
-      "technique": "Rolling Back Take",
-      "target_position": "Turtle",
-      "trigger": "Opponent drops weight attempting to get to all fours defensive position"
-    },
-    {
-      "technique": "Rear Naked Choke",
-      "target_position": "Won by Submission",
-      "trigger": "Opponent turns head away from choking arm creating neck exposure while standing"
+      "transition": "Rear Naked Choke Setup",
+      "attempt_probability": 5
     }
   ],
   "decision_tree": [
@@ -214,8 +121,8 @@
       "condition": "If opponent turns head away creating immediate choke opportunity",
       "actions": [
         {
-          "technique": "Rear Naked Choke",
-          "target": "Won by Submission",
+          "technique": "Rear Naked Choke Setup",
+          "target": "Back Control",
           "probability": 50
         },
         {
@@ -293,28 +200,6 @@
       "name": "Dynamic Position Maintenance",
       "description": "Bottom person moves aggressively in all directions (forward, backward, spinning, sitting, standing) while top person maintains standing rear clinch control. Focus on staying mobile, following movement, and preventing separation. Increase intensity gradually over 90-second intervals.",
       "duration": "5 rounds of 90 seconds"
-    }
-  ],
-  "optimal_submission_paths": [
-    {
-      "name": "Direct standing submission path",
-      "path": "Standing Rear Clinch → Rear Naked Choke"
-    },
-    {
-      "name": "Highest percentage controlled path",
-      "path": "Standing Rear Clinch → Back Take Generic → Back Control → Rear Naked Choke"
-    },
-    {
-      "name": "Control-focused advancement path",
-      "path": "Standing Rear Clinch → Rolling Back Take → Back Control → Body Triangle → Rear Naked Choke"
-    },
-    {
-      "name": "Ground transition passing path",
-      "path": "Standing Rear Clinch → Body Lock Pass → Side Control → Mount → Armbar from Mount"
-    },
-    {
-      "name": "Alternative control path through turtle",
-      "path": "Standing Rear Clinch → Snap Down → Front Headlock → Back Control → Rear Naked Choke"
     }
   ],
   "related_content": [

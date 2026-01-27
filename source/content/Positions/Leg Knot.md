@@ -93,26 +93,20 @@ Modern leg lock systems have elevated Leg Knot Position from a scramble scenario
 - Use systematic leg extraction sequences rather than explosive movements that may worsen entanglement or expose vulnerable positions
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Reverse the entanglement to Outside Ashi]]** → [[Outside Ashi-Garami]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[50-50 Entry]]** (16% of attempts)
 
-- **[[Extract leg and establish Single Leg X]]** → [[Single Leg X-Guard]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Single Leg X Entry]]** (17% of attempts)
 
-- **[[Granby roll to reverse position]]** → [[Ashi Garami]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+- **[[Granby Roll Escape]]** (14% of attempts)
 
-- **[[Clear leg and transition to X-Guard]]** → [[X-Guard]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[X-Guard Entry]]** (16% of attempts)
 
-- **[[Counter-entangle to 50-50 Guard]]** → [[50-50 Guard]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[50-50 Guard to Single Leg X-Guard]]** (17% of attempts)
 
-- **[[Limp leg extraction to Half Guard]]** → [[Half Guard]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Hip Escape to Half Guard]]** (20% of attempts)
 
 
 ### Common Mistakes
@@ -174,32 +168,24 @@ Modern leg lock systems have elevated Leg Knot Position from a scramble scenario
 - Maintain awareness of opponent's free leg and prevent defensive kicking or re-guard attempts through positioning
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Heel Hook]]** → [[Saddle]]
-  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 70%
+- **[[Heel Hook]]** (13% of attempts)
 
-- **[[Inside Heel Hook]]** → [[Inside Ashi-Garami]]
-  - Success Rate: Beginner 40%, Intermediate 60%, Advanced 75%
+- **[[Inside Heel Hook]]** (12% of attempts)
 
-- **[[Toe Hold]]** → [[Toe Hold Control]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 65%
+- **[[Toe Hold]]** (12% of attempts)
 
-- **[[Kneebar]]** → [[Kneebar Control]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 60%
+- **[[Kneebar]]** (11% of attempts)
 
-- **[[Transition to Saddle]]** → [[Saddle]]
-  - Success Rate: Beginner 45%, Intermediate 65%, Advanced 80%
+- **[[Saddle Entry from Top]]** (14% of attempts)
 
-- **[[Inside Ashi Entry]]** → [[Inside Ashi-Garami]]
-  - Success Rate: Beginner 40%, Intermediate 60%, Advanced 75%
+- **[[Inside Ashi Entry]]** (14% of attempts)
 
-- **[[Leg Weave Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 65%
+- **[[Leg Weave Pass]]** (12% of attempts)
 
-- **[[Straight Ankle Lock]]** → [[Straight Ankle Lock Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Straight Ankle Lock]]** (12% of attempts)
 
 
 ### Common Mistakes

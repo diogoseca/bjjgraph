@@ -235,6 +235,36 @@
       "question": "What is the appropriate application speed for this choke in training versus competition?",
       "answer": "In training, apply pressure slowly and progressively over 3-5 seconds minimum, giving your partner ample time to recognize the danger and tap. Never use explosive or sudden pressure in training. In competition, you can apply pressure more quickly while still using progressive mechanics, but you must still release immediately upon tap. The critical distinction is that training partners are there to help you improve and must be protected, while competition is a test of skill where both participants accept higher risk. However, even in competition, deliberate technique is more effective than explosive force.",
       "safety_critical": true
+    },
+    {
+      "question": "Your opponent begins attempting to roll forward while you have the crucifix locked - how do you adjust your grip and body position to finish the choke?",
+      "answer": "When the opponent attempts to roll forward, immediately widen your base by extending your legs further from your body and dropping your hips to the mat. This creates a heavy anchor that prevents them from completing the roll. Keep your chest pressure heavy on their upper back while maintaining the leg traps. If they commit hard to the roll and begin to turn, you can follow the roll and transition to mounted crucifix, which provides even better choking angles. Throughout this adjustment, never release your choking grip - the choke often finishes precisely as they run out of rolling momentum.",
+      "safety_critical": false
+    },
+    {
+      "question": "What indicates that the choke is positioned correctly on the carotid arteries rather than crushing the windpipe?",
+      "answer": "The key indicators are: (1) Your opponent can still breathe but becomes visibly disoriented or their resistance weakens rapidly, (2) Your forearm blade is angled across their neck in a V-shape rather than flat against their throat, (3) Your bicep is pressing against one side of the neck while your forearm presses the other side, (4) Your opponent is not gasping or making choking sounds - blood chokes are silent. If your opponent is coughing, gagging, or their face is turning red rather than pale, you are crushing the trachea and need to adjust your angle immediately.",
+      "safety_critical": true
+    },
+    {
+      "question": "What grip adjustments should you make if your initial choking arm insertion is blocked by the opponent's chin tuck?",
+      "answer": "When facing a strong chin tuck, you have several options: First, try switching to a short choke variation where you grip your own lapel or their far collar and pull across without needing to get under the chin. Second, use your free hand to apply pressure to their forehead or jaw to force the chin up, then quickly slide your choking arm into position. Third, flatten them further onto their back where the chin tuck becomes mechanically weaker. Fourth, patiently wait with forearm pressure against their jaw - the discomfort eventually forces them to move their chin, creating your opening. Never try to force under a locked chin with explosive movement.",
+      "safety_critical": false
+    },
+    {
+      "question": "How do you recognize when your opponent has reached the point of no escape in this choke?",
+      "answer": "The point of no escape occurs when: (1) Both arms remain fully trapped with no possibility of freeing either hand, (2) Your choking arm is seated deep under the chin with bicep and forearm positioned on both carotids, (3) Your grip structure is locked (bicep grip for RNC, collar grip for short choke), (4) Your body position is consolidated with chest tight to their back and hips driving forward. At this point, even minimal additional squeeze will produce the tap. The opponent's only remaining option is to tap - any attempt to escape requires either arm freedom or the ability to turn, both of which are eliminated by proper crucifix control.",
+      "safety_critical": false
+    },
+    {
+      "question": "What finishing strategy should you employ in competition when your opponent is experienced at defending crucifix chokes?",
+      "answer": "Against experienced defenders, employ a multi-threat approach: Begin attacking the choke to force their defensive focus upward, then immediately switch to threatening the armbar on their trapped arm when they commit fully to neck defense. This creates a dilemma - defending the choke exposes the arm, defending the arm exposes the neck. Additionally, vary your choke entries unpredictably between RNC grip, short choke, and arm-in variations. Finally, use continuous hip pressure and positional adjustments to drain their energy - a fatigued opponent makes defensive errors. The finish often comes after the third or fourth transition in the chain.",
+      "safety_critical": false
+    },
+    {
+      "question": "If you notice your training partner has gone unconscious but you only realized after 1-2 seconds, what is the correct response protocol?",
+      "answer": "Immediately release all pressure and carefully position your partner on their side in the recovery position with their airway clear. Do not shake them or slap them - unconsciousness from blood chokes typically resolves within 10-20 seconds naturally as blood flow returns to the brain. Stay with them and monitor their breathing. If they do not regain consciousness within 20-30 seconds, signal for help immediately. When they wake up, keep them lying down and monitor for confusion, headache, or nausea. Do not allow them to immediately return to training - they should rest and be checked. Report the incident to your instructor regardless of outcome.",
+      "safety_critical": true
     }
   ],
   "training_progressions_and_safety_protocols": [
@@ -292,14 +322,13 @@
   "related_submissions": [
     "Rear Naked Choke",
     "Armbar from Crucifix",
-    "Short Choke",
     "Clock Choke",
     "Triangle Choke",
     "Kimura",
-    "Straight Armbar",
     "Ezekiel Choke",
-    "Paper Cutter Choke",
-    "Arm Triangle"
+    "Arm Triangle",
+    "Bow and Arrow Choke",
+    "Crucifix Submissions"
   ],
   "related_content": [
     {
@@ -319,16 +348,12 @@
       "relationship": "Alternative finish from same position when choke is defended"
     },
     {
-      "name": "Positional Hierarchy",
-      "relationship": "Principle emphasizing crucifix as high-dominance position"
+      "name": "Crucifix",
+      "relationship": "Parent control position from which this choke is executed"
     },
     {
-      "name": "Submission Position",
-      "relationship": "Concept of establishing control before attempting finish"
-    },
-    {
-      "name": "Control Maintenance",
-      "relationship": "Essential principle for maintaining crucifix throughout choke"
+      "name": "Mounted Crucifix",
+      "relationship": "Variation position that provides similar choking opportunities"
     },
     {
       "name": "Seat Belt Control Back",
@@ -337,6 +362,10 @@
     {
       "name": "Crab Ride",
       "relationship": "Alternative back control position with crucifix entry options"
+    },
+    {
+      "name": "Rear Naked Choke",
+      "relationship": "Related choke sharing similar mechanics from back position"
     }
   ]
 }

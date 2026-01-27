@@ -9,8 +9,6 @@
     "open-guard",
     "guard-attacks"
   ],
-  "starting_position": "Spider Guard",
-  "ending_position": "Mount",
   "success_rates": {
     "beginner": 35,
     "intermediate": 50,
@@ -311,6 +309,24 @@
     {
       "name": "Dynamic Guard System",
       "relationship": "Strategic system that incorporates spider guard sweeps"
+    }
+  ],
+  "from_position": "Spider Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Mount/Top",
+      "probability": 65,
+      "result": "success"
+    },
+    {
+      "to": "Spider Guard/Bottom",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Spider Guard/Top",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

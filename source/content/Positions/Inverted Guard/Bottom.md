@@ -21,37 +21,37 @@ description: "Master inverted guard from bottom perspective. Dynamic defensive p
     {
       "@type": "HowToStep",
       "name": "Execute Berimbolo Entry",
-      "text": "From this position, execute Berimbolo Entry to transition to Back Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Berimbolo Entry. This technique is attempted in 9% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling Back Take",
-      "text": "From this position, execute Rolling Back Take to transition to Back Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 10% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kiss of the Dragon",
-      "text": "From this position, execute Kiss of the Dragon to transition to Back Control. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Kiss of the Dragon. This technique is attempted in 9% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Single Leg X Entry",
-      "text": "From this position, execute Single Leg X Entry to transition to Single Leg X-Guard. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Single Leg X Entry. This technique is attempted in 11% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute X-Guard Sweep",
-      "text": "From this position, execute X-Guard Sweep to transition to X-Guard. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt X-Guard Sweep. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Granby Roll",
-      "text": "From this position, execute Granby Roll to transition to Closed Guard. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Granby Roll. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -208,108 +208,26 @@ From the bottom perspective, Inverted Guard represents a highly mobile defensive
 
 ## Available Escapes
 
-### [[Berimbolo Entry]] → [[Back Control]]
+### [[Berimbolo Entry]] (9% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 40%
-- Advanced: 60%
+### [[Rolling Back Take]] (10% of attempts)
 
-### [[Rolling Back Take]] → [[Back Control]]
+### [[Kiss of the Dragon]] (9% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 45%
-- Advanced: 65%
+### [[Single Leg X Entry]] (11% of attempts)
 
-### [[Kiss of the Dragon]] → [[Back Control]]
+### [[X-Guard Sweep]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 35%
-- Advanced: 55%
+### [[Granby Roll]] (12% of attempts)
 
-### [[Single Leg X Entry]] → [[Single Leg X-Guard]]
+### [[Omoplata from Guard]] (8% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 70%
+### [[Truck Entry]] (8% of attempts)
 
-### [[X-Guard Sweep]] → [[X-Guard]]
+### [[Reverse X-Guard Entry]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 45%
-- Advanced: 65%
+### [[Technical Stand-up]] (13% of attempts)
 
-### [[Granby Roll]] → [[Closed Guard]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 55%
-- Advanced: 75%
-
-### [[Omoplata to Sweep]] → [[Mount]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
-
-### [[Truck Entry]] → [[Truck]]
-
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 50%
-
-### [[Reverse X-Guard Entry]] → [[Reverse X-Guard]]
-
-**Success Rates:**
-- Beginner: 22%
-- Intermediate: 42%
-- Advanced: 62%
-
-### [[Technical Stand-up]] → [[Standing Guard]]
-
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 60%
-- Advanced: 80%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Smash Pass]]** → [[Side Control]] (Opponent Success: 40%)
-- **[[Stack Pass]]** → [[Side Control]] (Opponent Success: 35%)
-- **[[Headquarters Pass]]** → [[Headquarters Position]] (Opponent Success: 30%)
-- **[[Knee Slice Pass]]** → [[Side Control]] (Opponent Success: 35%)
-- **[[Pressure Pass]]** → [[Side Control]] (Opponent Success: 40%)
-- **[[Leg Weave Pass]]** → [[Side Control]] (Opponent Success: 32%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Granby Roll]]** → [[Closed Guard]]
-  - Opponent attempts to smash pass or stack with forward pressure on shoulders
-- **[[Rolling Back Take]]** → [[Back Control]]
-  - Opponent commits weight forward to establish passing position or control
-- **[[Single Leg X Entry]]** → [[Single Leg X-Guard]]
-  - Opponent steps forward to establish base or begins leg weave passing sequence
-- **[[Technical Stand-up]]** → [[Standing Guard]]
-  - Opponent disengages or backs away from engagement to reset position
-- **[[Berimbolo Entry]]** → [[Back Control]]
-  - Opponent maintains close distance with weight distributed forward during passing attempt
 
 
 </section>
@@ -433,37 +351,39 @@ Focus specifically on berimbolo entries and rolling back takes from inverted gua
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Shortest path to submission
+## Test Your Knowledge
 
-`Inverted Guard Bottom → Rolling Back Take → Back Control → Rear Naked Choke`
+**Q1**: What is the most critical body positioning element for maintaining inverted guard safely and effectively?
+**A**: The most critical element is keeping your weight distributed across your shoulder blades rather than your neck. Your head should be tucked with chin toward chest, and you should actively press your shoulders into the mat while elevating your hips. If you feel pressure on your cervical spine or neck, you've inverted incorrectly and need to immediately adjust by driving through your shoulders and lifting your hips higher to redistribute weight.
 
-### High-percentage back attack path
+**Q2**: Your opponent starts applying stack pressure to flatten you. What immediate adjustment should you make before they consolidate the position?
+**A**: Immediately execute a granby roll to the side opposite their pressure, using the momentum from their drive to assist your rotation. As you feel them committing weight forward, turn your hips toward one side while pushing off with your posting hand and rolling over your shoulder. This converts their passing pressure into your escape momentum. If the granby isn't available, actively rotate your hips and angle your legs to prevent them from achieving a direct line of pressure through your center.
 
-`Inverted Guard Bottom → Berimbolo Entry → Back Control → Rear Naked Choke`
+**Q3**: What are the essential grips you need to establish from inverted guard to set up a berimbolo entry?
+**A**: For berimbolo, you need a grip on the opponent's far hip or belt (critical for pulling yourself underneath and controlling their rotation), and a secondary grip on their sleeve or collar to prevent them from posting or basing away. The far hip grip is non-negotiable - without it, you cannot generate the pull necessary to rotate underneath them. The sleeve grip prevents them from posting their hand to stop your rotation.
 
-### Leg entanglement path
+**Q4**: How do you determine whether to attack with a berimbolo versus transitioning to X-guard or single leg X from inverted guard?
+**A**: The decision depends on opponent's weight distribution and posture. If opponent is leaning forward with weight over you and close distance, berimbolo is optimal because their forward momentum aids your rotation underneath. If opponent maintains an upright posture with weight back and creates distance, transition to X-guard or single leg X because you can use their leg as a platform for elevation and sweeps. Also consider your grip situation - strong far hip grip favors berimbolo while strong pants grip at the knee favors leg entanglement entries.
 
-`Inverted Guard Bottom → Single Leg X Entry → Single Leg X-Guard → Outside Ashi-Garami → Outside Heel Hook`
+**Q5**: Your opponent is effectively shutting down your inversions by controlling your hips with their hands. How do you create offensive opportunities?
+**A**: When opponent commits both hands to controlling your hips, they sacrifice their base and grip fighting capability. Use this by attacking their grip hands with your feet - place your feet on their wrists or forearms to break the grip control. Alternatively, use the freedom in your upper body to establish collar or sleeve grips, then use those grips to off-balance them as you invert. You can also simply stand up using a technical standup when they're so focused on your hips that they can't address your upper body movement.
 
-### Triangle finish path
+**Q6**: What indicators tell you that you're running out of time in inverted guard and need to transition immediately?
+**A**: Key indicators include: your hip elevation declining (hips sinking toward mat), increasing pressure on your neck or shoulders, opponent consolidating grips on both your legs, your rotation becoming sluggish or blocked, and increasing energy expenditure to maintain basic positioning. When you notice these signs, immediately execute your highest percentage transition - whether berimbolo, guard recovery via granby roll, or technical standup. The position becomes dangerous when you've lost the ability to rotate freely.
 
-`Inverted Guard Bottom → Granby Roll → Closed Guard → Triangle Setup → Triangle Choke`
+**Q7**: How should you manage your energy while playing inverted guard during a long competition match?
+**A**: Inverted guard should be used as a transitional position, not a resting position. Enter inversion with a specific attack in mind and execute it within 3-5 seconds. If the attack fails, immediately transition to a more sustainable guard position like De La Riva or recover to seated guard rather than re-establishing inverted guard repeatedly. Use inversion sparingly as a tactical tool to create specific angles or defend specific passes, not as your primary guard system throughout the match.
 
-### Omoplata sequence path
-
-`Inverted Guard Bottom → Omoplata to Sweep → Mount → Armbar from Mount`
-
-### Kiss of the Dragon path
-
-`Inverted Guard Bottom → Kiss of the Dragon → Back Control → Rear Naked Choke`
+**Q8**: Your opponent recognizes your berimbolo attempt and begins counter-rotating in the same direction. What should you do?
+**A**: When opponent counter-rotates with your berimbolo, use their rotation to transition to alternative attacks. You can: follow them into a truck position by controlling their bottom leg as they rotate, switch to a kiss of the dragon variation by releasing your hook and spinning directly to their back, or accept the scramble and immediately establish X-guard or single leg X as you both settle. The key is maintaining grip on their hip throughout so you can redirect to whichever position becomes available based on how they complete their counter-rotation.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -493,7 +413,6 @@ Focus specifically on berimbolo entries and rolling back takes from inverted gua
 - **[[Granby Roll]]** - Essential movement pattern for entering and exiting inverted guard safely
 - **[[Kiss of the Dragon]]** - Advanced back take variation from inverted guard with high finishing potential
 - **[[Truck]]** - Related inverted position with back attack and submission opportunities
-- **[[Guard Retention Concepts]]** - Conceptual framework for using inversion defensively within comprehensive guard systems
 - **[[Spider Guard]]** - Entry position that can transition to inverted guard for defensive retention
 - **[[Lasso Guard]]** - Connected guard position with inversion pathways and similar control strategies
 

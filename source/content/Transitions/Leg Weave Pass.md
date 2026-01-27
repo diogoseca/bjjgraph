@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Leg Weave Pass | BJJ Technique | BJJ Graph"
 description: "Master the Leg Weave Pass in BJJ. Step-by-step pressure passing from half guard to side control. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%."
@@ -16,7 +17,7 @@ description: "Master the Leg Weave Pass in BJJ. Step-by-step pressure passing fr
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Leg Weave Pass in BJJ",
-  "description": "Step-by-step guide for Leg Weave Pass from Half Guard to Side Control.",
+  "description": "Step-by-step guide for Leg Weave Pass from Half Guard/Bottom. Possible outcomes: Side Control/Top (70%), Half Guard/Bottom (20%), Half Guard/Top (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -152,11 +153,25 @@ description: "Master the Leg Weave Pass in BJJ. Step-by-step pressure passing fr
 
 The Leg Weave Pass is a highly effective pressure passing technique used to control and pass the half guard. This technique involves threading your leg between the opponent's legs while maintaining heavy top pressure, creating a configuration that severely limits the bottom player's mobility and defensive options. The leg weave creates a unique control position that combines elements of smash passing with positional control, making it particularly effective against modern half guard retention strategies. The technique is characterized by inserting your inside leg (the leg on the same side as the opponent's lockdown or half guard) through and over the opponent's bottom leg, creating a weaving pattern that traps their legs and prevents hip movement. This passing method has become increasingly popular in modern competition BJJ due to its effectiveness against knee shield and deep half guard variations. The leg weave pass represents a systematic approach to passing that prioritizes control and pressure over speed, making it an essential technique for practitioners who favor a methodical, pressure-based passing game.
 
-**Starting Position**: [[Half Guard]]
-**Ending Position**: [[Side Control]]
+**From Position**: [[Half Guard/Bottom]]
 **Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Side Control/Top]] | 70% |
+| Failure | [[Half Guard/Bottom]] | 20% |
+| Counter | [[Half Guard/Top]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

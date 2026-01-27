@@ -21,38 +21,32 @@ description: "Master Pocket Half Guard Top in BJJ. Complete guide covering contr
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, execute Knee Slice Pass to transition to Side Control. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 22% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Smash Pass",
-      "text": "From this position, execute Smash Pass to transition to Side Control. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Smash Pass. This technique is attempted in 20% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Mount",
-      "text": "From this position, execute Transition to Mount to transition to Mount. Success rate for advanced practitioners: 65%.",
+      "name": "Execute Side Control to Mount",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 18% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Side Control to Mount",
-      "text": "From this position, execute Side Control to Mount to transition to Side Control. Success rate for advanced practitioners: 80%.",
+      "name": "Execute Underhook Pass",
+      "text": "From this position, attempt Underhook Pass. This technique is attempted in 20% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Underhook Pass",
-      "text": "From this position, execute Underhook Pass to transition to Side Control. Success rate for advanced practitioners: 75%.",
-      "position": 5
-    },
-    {
-      "@type": "HowToStep",
       "name": "Execute Back Take Generic",
-      "text": "From this position, execute Back Take Generic to transition to Back Control. Success rate for advanced practitioners: 55%.",
-      "position": 6
+      "text": "From this position, attempt Back Take Generic. This technique is attempted in 20% of exchanges from this position.",
+      "position": 5
     }
   ],
   "totalTime": "PT2M"
@@ -210,77 +204,16 @@ From this position, the top player enjoys significant control advantages, includ
 
 ## Available Attacks
 
-### [[Knee Slice Pass]] → [[Side Control]]
+### [[Knee Slice Pass]] (22% of attempts)
 
-**Success Rates:**
-- Beginner: 50%
-- Intermediate: 65%
-- Advanced: 75%
+### [[Smash Pass]] (20% of attempts)
 
-### [[Smash Pass]] → [[Side Control]]
+### [[Side Control to Mount]] (18% of attempts)
 
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 60%
-- Advanced: 70%
+### [[Underhook Pass]] (20% of attempts)
 
-### [[Transition to Mount]] → [[Mount]]
+### [[Back Take Generic]] (20% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-### [[Side Control to Mount]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 55%
-- Intermediate: 70%
-- Advanced: 80%
-
-### [[Underhook Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 50%
-- Intermediate: 65%
-- Advanced: 75%
-
-### [[Back Take Generic]] → [[Back Control]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Underhook Sweep from Half]]** → [[Half Guard]] (Opponent Success: 20%)
-- **[[Deep Half Entry]]** → [[Deep Half Guard]] (Opponent Success: 25%)
-- **[[Frame and Shrimp]]** → [[Half Guard]] (Opponent Success: 30%)
-- **[[Lockdown Sweeps]]** → [[Lockdown]] (Opponent Success: 15%)
-- **[[Kimura Defense]]** → [[Pocket Half Guard Bottom]] (Opponent Success: 35%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Transition to North-South]]** → [[North-South]]
-  - Opponent attempts to turn into underhook or recover guard
-- **[[Kimura from Half Guard]]** → [[Kimura Control]]
-  - Opponent reaches for underhook defense or attempts to frame
-- **[[Darce Setup]]** → [[D'arce Control]]
-  - Opponent turns into you to defend the pass
-- **[[Back Step]]** → [[Back Control]]
-  - Opponent attempts to come to their side or recover full guard
 
 
 </section>
@@ -295,18 +228,18 @@ From this position, the top player enjoys significant control advantages, includ
 
 
 **If opponent turns into underhook to defend:**
-- Execute **[[Darce Setup]]** → [[D'arce Control]] (Probability: 60%)
-- Execute **[[Back Step]]** → [[Back Control]] (Probability: 55%)
-- Execute **[[Transition to North-South]]** → [[North-South]] (Probability: 65%)
+- Execute **[[Darce Choke]]** → [[D'arce Control]] (Probability: 60%)
+- Execute **[[Back Step Pass]]** → [[Back Control]] (Probability: 55%)
+- Execute **[[North-South Transition]]** → [[North-South]] (Probability: 65%)
 
 
 **If opponent establishes frames with their free arm:**
-- Execute **[[Kimura from Half Guard]]** → [[Kimura Control]] (Probability: 55%)
+- Execute **[[Kimura from Half Guard]]** → [[Kimura Trap]] (Probability: 55%)
 - Execute **[[Underhook Pass]]** → [[Side Control]] (Probability: 65%)
 
 
 **If opponent attempts deep half guard entry:**
-- Execute **[[Transition to Mount]]** → [[Mount]] (Probability: 50%)
+- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 50%)
 - Execute **[[Smash Pass]]** → [[Side Control]] (Probability: 60%)
 
 
@@ -388,29 +321,39 @@ Bottom player attempts specific escapes (deep half entry, turning into underhook
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Pressure pass to submission chain
+## Test Your Knowledge
 
-`Pocket Half Guard Top → Knee Slice Pass → Side Control → Kimura from Side Control → Kimura`
+**Q1**: What is the optimal weight distribution for maintaining Pocket Half Guard Top position?
+**A**: Weight should be distributed primarily through the chest and shoulder into the opponent's upper torso, with your hips staying low and connected to their body. Avoid putting weight on your knees as this reduces pressure effectiveness. Drive forward pressure through your sternum into their chest while keeping your base wide with one leg posted for stability.
 
-### Opportunistic choke path
+**Q2**: Your opponent starts creating frames with their free arm - what adjustment prevents this?
+**A**: Immediately use your free hand (non-underhook side) to pin their near arm to their body or control their wrist before they complete the frame. If the frame is partially established, drive your shoulder deeper into the crossface position while simultaneously pulling with your underhook to collapse their defensive structure. The key is addressing frames early before they become fully established.
 
-`Pocket Half Guard Top → (opponent turns in) → Darce Setup → D'arce Control → Darce Choke`
+**Q3**: What are the essential grips for maintaining dominant control in this position?
+**A**: The primary grip is your deep underhook reaching across the opponent's back to their far lat or shoulder blade. Secondary grips include crossface control with your forearm across their jaw, wrist control on their near arm, or belt/pants grip on their far hip. The underhook depth is non-negotiable - shallow underhook compromises all control.
 
-### Back attack path
+**Q4**: How do you shut down the opponent's primary Deep Half Guard escape attempt?
+**A**: When you feel opponent scooting their hips under you for deep half entry, immediately switch your hips to sprawl position while maintaining underhook pressure. Drive your trapped knee toward the mat to prevent them from getting underneath you. If they're already entering, abandon the underhook pass and transition to addressing the deep half guard before it's fully established.
 
-`Pocket Half Guard Top → Back Step → Back Control → Rear Naked Choke`
+**Q5**: Your opponent bridges explosively - what is the correct response to maintain position?
+**A**: Do not fight the bridge directly. Instead, base out wide with your free leg while maintaining chest connection and underhook control. Ride the bridge by staying connected rather than trying to pin them down. Wait for them to return to the mat (bridges fatigue within 1-2 seconds), then immediately re-establish flattening pressure and continue your pass progression.
 
-### Mount to armbar path
+**Q6**: What base fundamentals prevent you from being swept from this position?
+**A**: Maintain a triangular base with one knee and your posted foot creating wide support. Never have both knees close together or directly under your hips. Keep your weight distributed forward through your chest, not back on your heels. If opponent threatens a sweep, immediately widen your base in the direction of the sweep rather than stiffening against it.
 
-`Pocket Half Guard Top → Smash Pass → Mount → Armbar from Mount`
+**Q7**: How do you manage energy expenditure while maintaining crushing pressure for extended periods?
+**A**: Use skeletal alignment rather than muscular effort - let your body weight create pressure through proper positioning. Rest your chest on their body rather than holding yourself up. Breathe calmly and avoid unnecessary movements. Progress methodically toward the pass rather than rushing, which wastes energy. Your underhook should maintain passive tension from grip position, not active pulling force.
+
+**Q8**: The opponent partially recovers their knee shield - how do you prevent full guard recovery?
+**A**: Immediately drive your shoulder deeper into crossface while using your underhook to pull their far shoulder toward you. This creates opposing forces that collapse the knee shield. Use your free hand to push their knee down toward the mat while maintaining chest pressure. If the knee shield is solidly established, consider abandoning direct pressure and transitioning to a knee slice angle instead.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -432,14 +375,14 @@ Bottom player attempts specific escapes (deep half entry, turning into underhook
 ## Related Positions and Techniques
 
 - **[[Half Guard]]** - Parent position - broader category
-- **[[Pocket Half Guard Bottom]]** - Sibling variant - opposite perspective
 - **[[Side Control]]** - Common transition target - primary passing option
 - **[[Deep Half Guard]]** - Common defensive response - bottom player's primary escape
 - **[[Underhook Pass]]** - Primary offensive technique - key passing method
 - **[[D'arce Control]]** - Opportunistic submission position - when opponent turns in
-- **[[Kimura from Half Guard]]** - Submission option - attacking the defending arm
-- **[[Pressure Passing Framework]]** - Conceptual foundation - strategic approach
-- **[[Underhook Control]]** - Control concept - fundamental control mechanism
+- **[[Kimura Trap]]** - Submission option - attacking the defending arm
+- **[[Mount]]** - Advanced position target - highest point advancement
+- **[[Knee Shield Half Guard]]** - Common recovery position for bottom player
+- **[[Flattened Half Guard]]** - Related position when complete flattening is achieved
 
 
 </section>

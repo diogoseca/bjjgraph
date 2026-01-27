@@ -21,37 +21,37 @@ description: "Master Deep Half Guard Top with defensive counters, pressure maint
     {
       "@type": "HowToStep",
       "name": "Execute Crossface Pass",
-      "text": "From this position, execute Crossface Pass to transition to Side Control. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Crossface Pass. This technique is attempted in 18% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, execute Knee Slice Pass to transition to Side Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 17% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Smash Pass",
-      "text": "From this position, execute Smash Pass to transition to Side Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Smash Pass. This technique is attempted in 16% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Half Guard Pass",
-      "text": "From this position, execute Half Guard Pass to transition to Side Control. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Half Guard Pass. This technique is attempted in 19% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Pass",
-      "text": "From this position, execute Underhook Pass to transition to Side Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Underhook Pass. This technique is attempted in 17% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kimura from Half Guard",
-      "text": "From this position, execute Kimura from Half Guard to transition to Kimura Control. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Kimura from Half Guard. This technique is attempted in 13% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -211,74 +211,18 @@ Success from top position requires understanding the sweep mechanics your oppone
 
 ## Available Attacks
 
-### [[Crossface Pass]] → [[Side Control]]
+### [[Crossface Pass]] (18% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Knee Slice Pass]] (17% of attempts)
 
-### [[Knee Slice Pass]] → [[Side Control]]
+### [[Smash Pass]] (16% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Half Guard Pass]] (19% of attempts)
 
-### [[Smash Pass]] → [[Side Control]]
+### [[Underhook Pass]] (17% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Kimura from Half Guard]] (13% of attempts)
 
-### [[Half Guard Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 60%
-- Advanced: 75%
-
-### [[Underhook Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 65%
-
-### [[Kimura from Half Guard]] → [[Kimura Control]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Waiter Sweep]]** → [[Mount]] (Opponent Success: 60%)
-- **[[Old School Sweep]]** → [[Side Control]] (Opponent Success: 55%)
-- **[[Rolling Back Take]]** → [[Back Control]] (Opponent Success: 45%)
-- **[[Lockdown Sweeps]]** → [[Mount]] (Opponent Success: 50%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Crossface Pass]]** → [[Side Control]]
-  - Opponent attempts to look up or establish waiter sweep grip
-- **[[Smash Pass]]** → [[Side Control]]
-  - Opponent's head becomes exposed during sweep attempt
-- **[[Kimura from Half Guard]]** → [[Kimura Control]]
-  - Opponent overcommits to underhook or waiter sweep grip
 
 
 </section>
@@ -303,7 +247,7 @@ Success from top position requires understanding the sweep mechanics your oppone
 
 
 **If opponent overcommits to underhook or exposes arm:**
-- Execute **[[Kimura from Half Guard]]** → [[Kimura Control]] (Probability: 50%)
+- Execute **[[Kimura from Half Guard]]** → [[Kimura Trap]] (Probability: 50%)
 
 
 
@@ -372,25 +316,39 @@ Positional sparring starting in deep half guard top. You work to pass while part
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### High-percentage submission path via pass
+## Test Your Knowledge
 
-`Deep Half Guard Top → Crossface Pass → Side Control → Kimura from Side Control`
+**Q1**: Your opponent begins to elevate their hips while maintaining deep underhook - what immediate adjustment do you make?
+**A**: Immediately shift your weight forward and drive your hips down toward the mat to counter their elevation attempt. Simultaneously widen your base with your free leg by posting it far to the side. This removes the space they need to complete the sweep and grounds your center of gravity below theirs. If possible, establish crossface pressure to flatten their upper body and disrupt their ability to generate lift.
 
-### Opportunistic submission path
+**Q2**: What are the essential grips and contact points for maintaining position from deep half guard top?
+**A**: The essential contact points are: crossface control with your shoulder or forearm driving into opponent's face/jaw to limit their mobility, hip control with your free hand to monitor their elevation attempts, and a wide base with your free leg posted far to the side. Your trapped leg should maintain some downward pressure while you work extraction. The crossface is priority one as it shuts down most sweep mechanics.
 
-`Deep Half Guard Top → Kimura from Half Guard → Kimura Control → Kimura`
+**Q3**: How do you shut down the waiter sweep specifically when you feel your opponent loading it?
+**A**: When you feel the waiter sweep loading (opponent grabbing your belt or pants and beginning to sit up), immediately shift your weight backward and lower your hips toward the mat. Drive your crossface pressure downward to flatten them. Widen your base dramatically with your free leg and consider grabbing their far hip or pants to anchor yourself. The key is removing the elevation space they need while applying counter-pressure to their upper body.
 
-### Systematic pass to mount submission
+**Q4**: What grip should be your highest priority when defending from deep half guard top?
+**A**: Crossface control should be your highest priority grip. Whether using your forearm across their jaw or shoulder driving into their face, this control limits their ability to look up and generate the rotation needed for sweeps. Without controlling their head and upper body, all other defenses become significantly harder as they can freely adjust angles and time their sweeps.
 
-`Deep Half Guard Top → Half Guard Pass → Side Control → Mount → Armbar from Mount`
+**Q5**: How do you apply pressure correctly from deep half guard top without getting swept?
+**A**: Apply pressure through your shoulder and chest into their upper body, not through your hips into their hips. Keep your hips light and mobile, ready to adjust, while your upper body does the controlling work. Maintain roughly 50/50 weight distribution between your legs with slight forward bias. Never drive all your weight forward as this enables the waiter sweep, and never sit back as this enables the old school sweep.
+
+**Q6**: Your opponent momentarily releases their underhook grip - what is your immediate response?
+**A**: The moment they release their underhook, immediately begin extracting your trapped leg while maintaining crossface pressure. Use a circular motion with your knee (up, back, then down and out) rather than pulling straight back. This window is brief so move with urgency but not reckless speed. As your leg clears, transition immediately to side control or knee slide position to complete the pass.
+
+**Q7**: How do you manage energy expenditure when stuck in deep half guard top for extended periods?
+**A**: Avoid explosive movements which drain energy and often facilitate sweeps. Instead, apply steady methodical pressure through your crossface while making small incremental adjustments to your base and positioning. Focus on disrupting their grips and controls through sustained pressure rather than burst movements. Remember that time actually favors the bottom player, so work systematically toward extraction rather than waiting indefinitely.
+
+**Q8**: Your opponent begins turning toward you underneath as if to take your back - how do you recover?
+**A**: If they're turning to take your back, immediately drive your weight into them and establish a strong whizzer (overhook) on their far arm to prevent the roll. Drop your hips and sprawl slightly to remove their leverage. You may need to accept giving up your leg from their grip to prevent the back take - extract and circle away from their rotation while maintaining the whizzer. Consider switching your hips to face them directly.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -411,7 +369,7 @@ Positional sparring starting in deep half guard top. You work to pass while part
 
 ## Related Positions and Techniques
 
-- **[[Deep Half Guard Bottom]]** - Sibling variant - opponent's perspective of same position
+- **[[Deep Half Guard]]** - Sibling variant - opponent's perspective of same position
 - **[[Half Guard]]** - Parent position - simpler position to retreat to when deep half is too challenging
 - **[[Side Control]]** - Primary target position when passing from deep half top
 - **[[Lockdown]]** - Common entry point for deep half guard bottom

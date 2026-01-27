@@ -12,8 +12,24 @@
     "no-gi",
     "leg-defense"
   ],
-  "starting_position": "50-50 Guard",
-  "ending_position": "Side Control",
+  "from_position": "50-50 Guard",
+  "outcomes": [
+    {
+      "to": "Side Control",
+      "probability": 65,
+      "result": "success"
+    },
+    {
+      "to": "50-50 Guard",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "50-50 Guard",
+      "probability": 10,
+      "result": "counter"
+    }
+  ],
   "success_rates": {
     "beginner": 35,
     "intermediate": 50,
@@ -221,6 +237,16 @@
       "difficulty": "Intermediate"
     },
     {
+      "question": "Your opponent establishes a strong two-handed grip on your heel during the pass attempt - what immediate action should you take?",
+      "answer": "Immediately abandon the pass and address the heel hook threat. Use both hands to break their grip on your heel, starting with the hand cupping your heel. Only after successfully breaking their grips should you resume the passing sequence. Forcing the pass with a heel hook grip secured will result in submission or serious injury.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "What direction should you rotate your knee when opponent threatens an inside heel hook during extraction?",
+      "answer": "Rotate your knee inward toward your opposite hip. This takes tension off the heel hook mechanism by aligning your knee and heel, reducing the rotational torque that causes injury. The inward knee rotation is the primary defensive mechanism against inside heel hooks throughout the passing sequence.",
+      "difficulty": "Intermediate"
+    },
+    {
       "question": "How does the 50-50 pass integrate into modern leg lock meta-game strategy?",
       "answer": "The 50-50 pass is essential defensive knowledge in modern no-gi grappling where leg entanglements are common. It allows you to escape a dangerous attacking position (50-50) while transitioning to a dominant passing position. Understanding this pass also teaches leg lock defense principles that apply to other entanglements like ashi garami and saddle. In competition, the ability to pass from 50-50 prevents your opponent from stalling in the position while threatening submissions.",
       "difficulty": "Advanced"
@@ -228,6 +254,21 @@
     {
       "question": "When should you abandon the 50-50 pass and return to defensive positioning?",
       "answer": "If opponent secures a strong inside heel hook grip that you cannot break, or if they successfully sit up and break your upper body control. In these situations, forcing the pass increases injury risk or allows sweeps. Return to neutral 50-50, re-establish defensive priorities, and wait for a better opportunity to pass. Patience and safety are more important than forcing a dangerous pass.",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "Your opponent attempts to re-entangle by threading their leg back between yours after you extract your bottom leg - how do you prevent this?",
+      "answer": "Immediately step your top leg over their body as one continuous motion with the bottom leg extraction. Do not pause between movements. Additionally, drive your crossface pressure harder to flatten them on their back, reducing their hip mobility. Keep your extracted leg wide and away from re-entanglement range while your top leg steps over.",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "What grip adjustments are necessary when transitioning from leg extraction to side control consolidation?",
+      "answer": "During extraction, your hands control opponent's hips and grips. As you step over, your near-side arm transitions to an underhook position on their far side while your crossface arm maintains head and shoulder control. Never release both grips simultaneously - one hand maintains control while the other transitions. This ensures continuous pressure throughout the passing sequence.",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "How do you recognize the optimal timing window to initiate the 50-50 pass?",
+      "answer": "The optimal window occurs when opponent is focused on their own offense rather than guard retention. Watch for them reaching for heel grips, adjusting their position, or transitioning between attack setups. These moments create brief lapses in their defensive frame. Additionally, when opponent's hip pressure lightens as they reset or adjust, immediately begin your extraction sequence.",
       "difficulty": "Advanced"
     }
   ],
@@ -251,10 +292,6 @@
       "relationship": "Follow-up - can be used as finishing technique after leg extraction"
     },
     {
-      "name": "Saddle Entry from Top",
-      "relationship": "Counter - opponent may attempt this if you lose position during pass"
-    },
-    {
       "name": "Inside Heel Hook",
       "relationship": "Primary Threat - defensive awareness required throughout technique"
     },
@@ -267,15 +304,7 @@
       "relationship": "Transition Position - intermediate position during pass sequence"
     },
     {
-      "name": "Craig Jones Leg Lock System",
-      "relationship": "System Context - understanding opponent's attacking system from 50-50"
-    },
-    {
-      "name": "Lachlan Giles Leg Lock Defense Framework",
-      "relationship": "Defensive System - broader context for 50-50 escape strategies"
-    },
-    {
-      "name": "Ashi Garami",
+      "name": "Inside Ashi-Garami",
       "relationship": "Related Position - similar leg entanglement structure"
     },
     {
@@ -283,8 +312,16 @@
       "relationship": "Related Position - another dangerous leg entanglement to escape from"
     },
     {
-      "name": "X-Guard to Ashi Transition",
-      "relationship": "Entry Path - common route into 50-50 position"
+      "name": "Outside Ashi-Garami",
+      "relationship": "Related Position - alternative leg entanglement with different mechanics"
+    },
+    {
+      "name": "Backside 50-50",
+      "relationship": "Related Position - variation of 50-50 with different control dynamics"
+    },
+    {
+      "name": "Kneebar Control",
+      "relationship": "Threat Position - opponent may transition here during pass attempt"
     }
   ]
 }

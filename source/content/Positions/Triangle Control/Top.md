@@ -21,37 +21,37 @@ description: "Master Triangle Control defense from top position in BJJ. Learn de
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Escape",
-      "text": "From this position, execute Triangle Escape to transition to Closed Guard. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Triangle Escape. This technique is attempted in 15% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Posture Recovery",
-      "text": "From this position, execute Posture Recovery to transition to Open Guard. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Posture Recovery. This technique is attempted in 30% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Triangle Escape",
-      "text": "From this position, execute Triangle Escape to transition to Side Control. Success rate for advanced practitioners: 45%.",
+      "name": "Execute Stack Defense",
+      "text": "From this position, attempt Stack Defense. This technique is attempted in 20% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Stack Defense",
-      "text": "From this position, execute Stack Defense to transition to Open Guard. Success rate for advanced practitioners: 48%.",
+      "name": "Execute Triangle Escape to Guard",
+      "text": "From this position, attempt Triangle Escape to Guard. This technique is attempted in 25% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Triangle Escape",
-      "text": "From this position, execute Triangle Escape to transition to Standing Position. Success rate for advanced practitioners: 40%.",
+      "name": "Execute Guard Pass",
+      "text": "From this position, attempt Guard Pass. This technique is attempted in 3% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Guard Pass",
-      "text": "From this position, execute Guard Pass to transition to Side Control. Success rate for advanced practitioners: 35%.",
+      "name": "Execute Triangle Escape to Standing",
+      "text": "From this position, attempt Triangle Escape to Standing. This technique is attempted in 7% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -213,77 +213,18 @@ This position is commonly reached when the bottom player successfully sets up a 
 
 ## Available Attacks
 
-### [[Triangle Escape]] → [[Closed Guard]]
+### [[Triangle Escape]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
+### [[Posture Recovery]] (30% of attempts)
 
-### [[Posture Recovery]] → [[Open Guard]]
+### [[Stack Defense]] (20% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
+### [[Triangle Escape to Guard]] (25% of attempts)
 
-### [[Triangle Escape]] → [[Side Control]]
+### [[Guard Pass]] (3% of attempts)
 
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 45%
+### [[Triangle Escape to Standing]] (7% of attempts)
 
-### [[Stack Defense]] → [[Open Guard]]
-
-**Success Rates:**
-- Beginner: 18%
-- Intermediate: 32%
-- Advanced: 48%
-
-### [[Triangle Escape]] → [[Standing Position]]
-
-**Success Rates:**
-- Beginner: 12%
-- Intermediate: 25%
-- Advanced: 40%
-
-### [[Guard Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 10%
-- Intermediate: 20%
-- Advanced: 35%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Triangle Choke Front]]** → [[Lost by Submission]] (Opponent Success: 45%)
-- **[[Triangle to Armbar]]** → [[Armbar Control]] (Opponent Success: 35%)
-- **[[Triangle to Omoplata]]** → [[Omoplata Control]] (Opponent Success: 25%)
-- **[[Transition to Omoplata]]** → [[Omoplata Control]] (Opponent Success: 30%)
-- **[[Triangle to Back]]** → [[Back Control]] (Opponent Success: 20%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Posture Recovery]]** → [[Open Guard]]
-  - Opponent attempts to break posture down further or adjust angle
-- **[[Triangle Escape]]** → [[Side Control]]
-  - Opponent extends hips to finish choke, creating space for escape
-- **[[Stack Defense]]** → [[Side Control]]
-  - Opponent tries to adjust legs or switch to armbar
-- **[[Triangle Escape]]** → [[Standing Position]]
-  - Opponent loses leg lock temporarily during adjustment
 
 
 </section>
@@ -399,25 +340,7 @@ Start in triangle control with posture broken. Bottom player provides progressiv
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
-
-### Immediate escape path
-
-`Triangle Control Top → Triangle Escape → Side Control → Transition to Mount → Mount → Submissions from mount`
-
-### Conservative recovery path
-
-`Triangle Control Top → Posture Recovery → Open Guard → Guard Pass → Side Control → Control consolidation`
-
-### Defensive survival path
-
-`Triangle Control Top → Triangle Escape → Closed Guard → Guard Opening Sequence → Open Guard → Position recovery`
-
-
-
-</section>
 
 <section id="position-metrics" class="content-section">
 
@@ -438,7 +361,7 @@ Start in triangle control with posture broken. Bottom player provides progressiv
 
 ## Related Positions and Techniques
 
-- **[[Triangle Control Bottom]]** - Opposite perspective—offensive position
+- **[[Triangle Control]]** - Opposite perspective—offensive position from bottom
 - **[[Triangle Choke Front]]** - Primary submission threat from this position
 - **[[Triangle Escape]]** - Primary escape technique
 - **[[Armbar Control]]** - Common transition target for opponent
@@ -446,10 +369,9 @@ Start in triangle control with posture broken. Bottom player provides progressiv
 - **[[Omoplata Control]]** - Alternative submission threat from triangle
 - **[[Triangle to Armbar]]** - Opponent's transition option
 - **[[Triangle to Omoplata]]** - Opponent's transition option
-- **[[Submission Defense]]** - Fundamental defensive concept
 - **[[Posture Recovery]]** - Critical defensive technique
 - **[[Open Guard]]** - Potential escape destination
-- **[[Ryan Hall Triangle System]]** - Expert system for understanding triangle mechanics from both positions
+- **[[Side Control]]** - Target position after successful escape and pass
 
 
 </section>

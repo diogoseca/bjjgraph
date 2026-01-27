@@ -266,6 +266,31 @@
       "question": "What should you do immediately if your training partner taps or shows any sign of distress during the chin strap guillotine?",
       "answer": "You must immediately release the choking arm grip and remove all pressure from the chin and neck. Do not hesitate or delay even for a fraction of a second. Allow your partner to roll away and recover their breathing. Check on their condition and ensure they are okay before continuing training. Never assume a tap is accidental or premature - always respond instantly. Developing this habit of immediate release is critical for safety in all submission training, especially chokes where loss of consciousness can occur in seconds. Your training partner's safety must always be the absolute first priority over practicing the technique.",
       "safety_critical": true
+    },
+    {
+      "question": "What anatomical structures does the chin strap guillotine primarily attack to cause unconsciousness?",
+      "answer": "The chin strap guillotine primarily attacks both carotid arteries on either side of the neck. The choking forearm positioned under the chin creates pressure on the far-side carotid artery when you pull the chin toward your chest. Simultaneously, your shoulder driving into the side of their neck compresses the near-side carotid artery. This bilateral compression restricts blood flow to the brain, causing unconsciousness within 8-12 seconds if the choke is properly applied. Secondary pressure may also affect the windpipe (trachea), though a properly executed blood choke should primarily target the arteries rather than the airway.",
+      "safety_critical": false
+    },
+    {
+      "question": "Your opponent begins posturing up during the chin strap setup - what grip adjustment maintains your finishing position?",
+      "answer": "When opponent postures up, immediately deepen your choking arm by pulling your elbow tighter to your body and driving your wrist further under their chin. Use your opposite hand to push down on the back of their head, counteracting their posture attempt. If they create significant space, consider transitioning to a high elbow guillotine variation where you drive your elbow toward the ceiling - their postured position actually makes this variation more accessible. Alternatively, pull your hips in closer and use your legs to break their posture down before they can fully extend. The key is recognizing the posture attempt early and adjusting before they create too much space.",
+      "safety_critical": false
+    },
+    {
+      "question": "At what point during the chin strap guillotine is the opponent past the point of escape?",
+      "answer": "The point of no escape occurs when three conditions are met simultaneously: (1) your choking forearm is fully threaded under their chin with the bicep grip secured, (2) your shoulder is driving into the near side of their neck creating bilateral carotid compression, and (3) your legs have locked their hips preventing them from turning away or standing. Once all three elements are in place with proper tightening, even a strong opponent cannot create the space or angle needed to escape. The finish becomes inevitable - it's simply a matter of progressively tightening the configuration. Recognizing this point helps you know when to commit fully versus when to adjust your setup.",
+      "safety_critical": false
+    },
+    {
+      "question": "How do you adjust your finishing mechanics when the opponent turns their chin toward your choking arm side?",
+      "answer": "When opponent turns their chin toward your choking arm, they actually make the finish easier in some ways - their turning motion exposes the far-side carotid more fully to your forearm pressure. Maintain your bicep grip and increase the chin pull while keeping your shoulder pressure constant. However, watch for them using this turn to initiate a roll escape. Counter by sprawling your hips back and to the choking arm side, jamming their turn. If they commit to rolling into you, follow the roll while maintaining the grip - you can finish from mount or side control positions. The chin strap remains effective regardless of whether you end up on top or transitioning with their movement.",
+      "safety_critical": false
+    },
+    {
+      "question": "What are the key indicators that your chin strap guillotine is properly positioned for a finish versus creating a neck crank?",
+      "answer": "A properly positioned chin strap shows these indicators: (1) your forearm blade is directly under their chin, not across the side of their neck, (2) their head is tilted slightly back with chin elevated, not being pushed sideways, (3) you feel bilateral pressure - both your shoulder and forearm are compressing different sides of the neck simultaneously, (4) the finish feels like a gradual blood flow restriction rather than requiring explosive squeezing. A neck crank, in contrast, feels like you're cranking or twisting their head, their chin is being pushed to the side rather than back, and you need excessive force without getting a tap. If you're muscling the finish without feeling the characteristic tightening on both carotids, reposition before continuing.",
+      "safety_critical": true
     }
   ],
   "training_progressions_and_safety_protocols": [
@@ -331,9 +356,6 @@
     "Ten Finger Guillotine",
     "Darce Choke",
     "Anaconda Choke",
-    "Japanese Necktie",
-    "Peruvian Necktie",
-    "Marce Choke",
     "Rear Naked Choke",
     "Arm Triangle",
     "Von Flue Choke",
@@ -346,8 +368,8 @@
       "relationship": "Primary entry transition for establishing chin strap position"
     },
     {
-      "name": "Front Headlock Series",
-      "relationship": "Broader system containing chin strap as one finishing option"
+      "name": "Front Headlock",
+      "relationship": "Broader control system containing chin strap as one finishing option"
     },
     {
       "name": "Guillotine Defense",
@@ -356,18 +378,6 @@
     {
       "name": "Snap Down to Front Headlock",
       "relationship": "Standing entry that creates front headlock control for chin strap"
-    },
-    {
-      "name": "Guillotine from Turtle",
-      "relationship": "Alternative entry from turtle position attacks"
-    },
-    {
-      "name": "Chin Protection",
-      "relationship": "Key defensive principle opponent uses to prevent chin strap"
-    },
-    {
-      "name": "Marcelo Garcia Guillotine System",
-      "relationship": "Expert system featuring chin strap variations and entries"
     },
     {
       "name": "D'arce Control",
@@ -384,6 +394,10 @@
     {
       "name": "Front Headlock to Guillotine",
       "relationship": "Entry transition directly into chin strap setup"
+    },
+    {
+      "name": "Turtle",
+      "relationship": "Common entry position for attacking with chin strap guillotine"
     }
   ]
 }

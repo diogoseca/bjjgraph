@@ -21,37 +21,37 @@ description: "Master mounted triangle attacks from top position. High-percentage
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Choke",
-      "text": "From this position, execute Triangle Choke to transition to Won by Submission. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Triangle Choke. This technique is attempted in 11% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Armbar Finish",
-      "text": "From this position, execute Armbar Finish to transition to Won by Submission. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Armbar Finish. This technique is attempted in 11% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Switch to Triangle",
-      "text": "From this position, execute Switch to Triangle to transition to Triangle Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Switch to Triangle. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Take Generic",
-      "text": "From this position, execute Back Take Generic to transition to Back Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Back Take Generic. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Mount",
-      "text": "From this position, execute Transition to Mount to transition to High Mount. Success rate for advanced practitioners: 80%.",
+      "name": "Execute Side Control to Mount",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 11% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Gift Wrap",
-      "text": "From this position, execute Gift Wrap to transition to Gift Wrap. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Gift Wrap. This technique is attempted in 8% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -213,105 +213,26 @@ The mounted triangle exemplifies modern BJJ's evolution toward dynamic, submissi
 
 ## Available Attacks
 
-### [[Triangle Choke]] → [[Won by Submission]]
+### [[Triangle Choke]] (11% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Armbar Finish]] (11% of attempts)
 
-### [[Armbar Finish]] → [[Won by Submission]]
+### [[Switch to Triangle]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 60%
-- Advanced: 75%
+### [[Back Take Generic]] (10% of attempts)
 
-### [[Switch to Triangle]] → [[Triangle Control]]
+### [[Side Control to Mount]] (11% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Gift Wrap]] (8% of attempts)
 
-### [[Back Take Generic]] → [[Back Control]]
+### [[Kimura to Back Take]] (8% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[S Mount Transition]] (11% of attempts)
 
-### [[Transition to Mount]] → [[High Mount]]
+### [[Triangle to Armbar]] (11% of attempts)
 
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 65%
-- Advanced: 80%
+### [[Triangle to Back]] (9% of attempts)
 
-### [[Gift Wrap]] → [[Gift Wrap]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-### [[Kimura to Back Take]] → [[Back Control]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
-
-### [[S Mount Transition]] → [[S Mount]]
-
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
-
-### [[Triangle to Armbar]] → [[Armbar Control]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 55%
-- Advanced: 70%
-
-### [[Triangle to Back]] → [[Back Control]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Bridge and Roll]]** → [[Closed Guard]] (Opponent Success: 20%)
-- **[[Elbow Escape]]** → [[Half Guard]] (Opponent Success: 25%)
-- **[[Hip Escape]]** → [[Guard Opening Sequence]] (Opponent Success: 30%)
-- **[[Arm Extraction]]** → [[Mount]] (Opponent Success: 15%)
-- **[[Granby Roll]]** → [[Defensive Position]] (Opponent Success: 12%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Armbar Transition]]** → [[Armbar Control]]
-  - Opponent attempts to extract trapped arm from triangle structure
-- **[[Back Take]]** → [[Back Control]]
-  - Opponent turns to side to escape triangle pressure
-- **[[Remount]]** → [[High Mount]]
-  - Opponent creates significant space during hip escape attempt
-- **[[Gift Wrap Control]]** → [[Gift Wrap]]
-  - Opponent extends free arm for defensive frame
 
 
 </section>
@@ -321,12 +242,12 @@ The mounted triangle exemplifies modern BJJ's evolution toward dynamic, submissi
 ## Decision Making from This Position
 
 **If opponent keeps trapped arm bent and protects neck with chin tuck:**
-- Execute **[[Armbar Finish]]** → [[Won by Submission]] (Probability: 60%)
+- Execute **[[Armbar Finish]]** → [[game-over]] (Probability: 60%)
 - Execute **[[Triangle to Armbar]]** → [[Armbar Control]] (Probability: 55%)
 
 
 **If opponent extends trapped arm or loosens defensive posture:**
-- Execute **[[Triangle Choke]]** → [[Won by Submission]] (Probability: 70%)
+- Execute **[[Triangle Choke]]** → [[game-over]] (Probability: 70%)
 - Execute **[[Switch to Triangle]]** → [[Triangle Control]] (Probability: 65%)
 
 
@@ -336,7 +257,7 @@ The mounted triangle exemplifies modern BJJ's evolution toward dynamic, submissi
 
 
 **If opponent bridges explosively or creates significant space:**
-- Execute **[[Transition to Mount]]** → [[High Mount]] (Probability: 75%)
+- Execute **[[Side Control to Mount]]** → [[High Mount]] (Probability: 75%)
 - Execute **[[S Mount Transition]]** → [[S Mount]] (Probability: 65%)
 
 
@@ -435,29 +356,39 @@ Partner explosively bridges or creates space from mounted triangle. Practice imm
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Triangle Finish from Mount
+## Test Your Knowledge
 
-`High Mount → Arm Isolation → Mounted Triangle Top → Angle Adjustment → Triangle Choke → Won by Submission`
+**Q1**: Your opponent starts bridging explosively - what immediate adjustment do you make to maintain position?
+**A**: Drop your base by posting your bottom leg wider and lower on their hip while maintaining the triangle lock. Shift your weight slightly backward to counter their upward momentum. If the bridge is particularly powerful, be ready to abandon the triangle temporarily and remount to high mount or S mount, then re-establish the triangle configuration once base is secured.
 
-### Triangle to Armbar Sequence
+**Q2**: What are the essential control points for maintaining mounted triangle position?
+**A**: The three critical control points are: (1) the triangle lock itself with proper figure-four configuration and angle on the neck, (2) head and posture control using your free hand to break their posture down and prevent framing, and (3) bottom leg positioning either hooked under their hip or posted wide to prevent bridge escapes. Losing any of these three points compromises position stability.
 
-`Mounted Triangle Top → Opponent Defends Neck → Triangle to Armbar → Armbar Control → Armbar Finish → Won by Submission`
+**Q3**: How do you shut down the opponent's primary escape attempt of bridging and rolling?
+**A**: Anticipate the bridge direction by feeling their hip movement. Post your bottom leg wide on the side they're bridging toward to create a base that absorbs their momentum. Simultaneously, use your free hand to control their head and prevent them from turning into the bridge. If they generate significant power, be willing to release the triangle and flow to side control or back to mount rather than fighting a losing battle.
 
-### Triangle to Back Attack
+**Q4**: What grip priorities should you establish when settling into mounted triangle?
+**A**: Primary grip is head control with your free hand behind their skull, pulling their head toward the trapped arm side to tighten the choke. Secondary priority is controlling their free arm - either trapping it with a gift wrap or monitoring it to prevent framing. The triangle lock configuration itself (ankle behind knee) must be secured before worrying about submission finishing grips like grabbing your shin to pull down.
 
-`Mounted Triangle Top → Opponent Turns to Escape → Triangle to Back → Back Control → Rear Naked Choke → Won by Submission`
+**Q5**: How do you apply effective pressure while maintaining enough base to prevent escapes?
+**A**: The key is distributing weight between triangle squeeze and mount pressure. Keep hips mobile and elevated enough to adjust angle, but not so high that you lose connection to their torso. Your bottom leg should carry 30-40% of your stabilizing weight while the triangle applies submission pressure. Avoid committing full weight to the finish until you've confirmed their escape options are neutralized.
 
-### Mount Submission Chain
+**Q6**: Your opponent turns their head toward your triangle leg and begins shrimping - how do you respond?
+**A**: This turning motion creates a back take opportunity. Immediately recognize this as them giving you their back rather than fighting the triangle. Release the triangle lock, establish a seat belt grip (over-under on their torso), and hook their bottom hip with your leg while they're mid-turn. Their escape attempt becomes your path to an even more dominant position.
 
-`High Mount → Mounted Triangle Top → S Mount Transition → Armbar from Mount → Won by Submission`
+**Q7**: How do you manage energy expenditure while maintaining offensive pressure from mounted triangle?
+**A**: Use skeletal structure rather than muscular effort - let the triangle lock and body positioning do the work rather than actively squeezing constantly. Apply pressure in bursts when finishing rather than sustained maximum effort. Stay relaxed between finishing attempts. Recognize that if the position becomes a stalemate, it's better to transition to a fresh attack (armbar, back take, remount) than to exhaust yourself trying to finish a defended triangle.
+
+**Q8**: Your opponent partially extracts their trapped arm during your finishing attempt - how do you recover position?
+**A**: Immediately transition to armbar by controlling their partially freed arm at the wrist and elbow while pivoting your hips to create the armbar angle. Their arm extraction attempt often leaves their arm extended and vulnerable. If they pull the arm completely free before you can catch it, their defensive movement typically opens the back or creates space for you to remount to high mount and restart the sequence.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -484,10 +415,10 @@ Partner explosively bridges or creates space from mounted triangle. Practice imm
 - **[[S Mount]]** - Related mount variation that facilitates triangle entry and transitions
 - **[[Back Control]]** - Common transition when opponent turns to escape mounted triangle
 - **[[Gift Wrap]]** - Arm control position used during mounted triangle setup and maintenance
-- **[[Mount Control]]** - Fundamental mount principles applied to mounted triangle positioning
+- **[[Mount]]** - Fundamental mount principles applied to mounted triangle positioning
 - **[[Triangle Setup]]** - Entry mechanics and setup sequences for establishing mounted triangle
 - **[[Triangle to Armbar]]** - Primary offensive transition sequence from mounted triangle
-- **[[Submission Chains]]** - Strategic framework for linking mounted triangle with other submissions
+- **[[Armbar from Mount]]** - Related submission attack from similar positioning
 
 
 </section>

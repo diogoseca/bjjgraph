@@ -21,37 +21,37 @@ description: "Master Toe Hold Control Bottom position in BJJ. Defensive guide co
     {
       "@type": "HowToStep",
       "name": "Execute Saddle Defense",
-      "text": "From this position, execute Saddle Defense to transition to Ashi Garami. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Saddle Defense. This technique is attempted in 20% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Ashi Garami Escape",
-      "text": "From this position, execute Ashi Garami Escape to transition to Half Guard. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Ashi Garami Escape. This technique is attempted in 18% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Inside Ashi Entry",
-      "text": "From this position, execute Inside Ashi Entry to transition to Inside Ashi-Garami. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Inside Ashi Entry. This technique is attempted in 17% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute X-Guard to Ashi Transition",
-      "text": "From this position, execute X-Guard to Ashi Transition to transition to X-Guard. Success rate for advanced practitioners: 45%.",
+      "text": "From this position, attempt X-Guard to Ashi Transition. This technique is attempted in 15% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Guard Replacement",
-      "text": "From this position, execute Guard Replacement to transition to Open Guard. Success rate for advanced practitioners: 48%.",
+      "text": "From this position, attempt Guard Replacement. This technique is attempted in 16% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Deep Half Entry",
-      "text": "From this position, execute Deep Half Entry to transition to Deep Half Guard. Success rate for advanced practitioners: 42%.",
+      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 14% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -209,77 +209,18 @@ Toe Hold Control Bottom represents a defensive position within the leg entanglem
 
 ## Available Escapes
 
-### [[Saddle Defense]] → [[Ashi Garami]]
+### [[Saddle Defense]] (20% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 60%
+### [[Ashi Garami Escape]] (18% of attempts)
 
-### [[Ashi Garami Escape]] → [[Half Guard]]
+### [[Inside Ashi Entry]] (17% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 55%
+### [[X-Guard to Ashi Transition]] (15% of attempts)
 
-### [[Inside Ashi Entry]] → [[Inside Ashi-Garami]]
+### [[Guard Replacement]] (16% of attempts)
 
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 50%
+### [[Deep Half Entry]] (14% of attempts)
 
-### [[X-Guard to Ashi Transition]] → [[X-Guard]]
-
-**Success Rates:**
-- Beginner: 10%
-- Intermediate: 25%
-- Advanced: 45%
-
-### [[Guard Replacement]] → [[Open Guard]]
-
-**Success Rates:**
-- Beginner: 18%
-- Intermediate: 32%
-- Advanced: 48%
-
-### [[Deep Half Entry]] → [[Deep Half Guard]]
-
-**Success Rates:**
-- Beginner: 12%
-- Intermediate: 28%
-- Advanced: 42%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Toe Hold]]** → [[Won by Submission]] (Opponent Success: 75%)
-- **[[Toe Hold from Top]]** → [[Won by Submission]] (Opponent Success: 70%)
-- **[[Saddle Entry from Top]]** → [[Saddle]] (Opponent Success: 55%)
-- **[[Outside Ashi Entry]]** → [[Outside Ashi-Garami]] (Opponent Success: 50%)
-- **[[Heel Hook]]** → [[Won by Submission]] (Opponent Success: 65%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Ashi Garami Escape]]** → [[Open Guard]]
-  - Opponent loosens toe hold grip to readjust or switch to heel hook
-- **[[Inside Ashi Entry]]** → [[Inside Ashi-Garami]]
-  - Opponent overcommits forward pressure allowing inside position on their leg
-- **[[Single Leg X Entry]]** → [[Single Leg X-Guard]]
-  - Successfully clear toe hold grip and use free leg to elevate opponent
-- **[[X-Guard to Ashi Transition]]** → [[X-Guard]]
-  - Extract endangered leg completely and establish hooks with both legs
 
 
 </section>
@@ -289,7 +230,7 @@ Toe Hold Control Bottom represents a defensive position within the leg entanglem
 ## Decision Making from This Position
 
 **If opponent has completed full toe hold grip with figure-four and begins rotating ankle with significant pressure:**
-- Execute **[[Tap Out]]** → [[Won by Submission]] (Probability: 95%)
+- Execute **[[Tap Out]]** → [[game-over]] (Probability: 95%)
 - Execute **[[Explosive wrist control and internal rotation escape]]** → [[Ashi Garami]] (Probability: 5%)
 
 
@@ -393,29 +334,39 @@ From toe hold control bottom, practice using free leg to create multiple defensi
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Emergency Tap Protocol
+## Test Your Knowledge
 
-`Toe Hold Control Bottom → Recognize severe ankle stress → Tap Out → Won by Submission`
+**Q1**: What is your immediate priority the moment you recognize you are caught in toe hold control?
+**A**: The immediate priority is protecting the ankle by internally rotating your trapped foot (pointing toes toward your opposite leg) to hide the heel and limit rotational leverage. Simultaneously, use both hands to control opponent's wrists and prevent them from completing the figure-four grip or applying additional rotational pressure. This buys time for systematic escape rather than allowing immediate submission threat.
 
-### Grip Break to Guard Recovery
+**Q2**: Your opponent begins applying rotational pressure to your ankle - what are the warning signs you should tap?
+**A**: Tap immediately when you feel significant rotational stress on the ankle joint with no escape available, when the knee begins to torque in an unnatural direction, or when grip breaking attempts are failing against locked submission mechanics. With toe holds, the injury timeline is extremely short - ligament damage can occur within fractions of a second once the breaking mechanics are applied. Career longevity is more valuable than any single training round.
 
-`Toe Hold Control Bottom → Saddle Defense → Ashi Garami Escape → Half Guard`
+**Q3**: How should you use your free leg defensively from toe hold control bottom?
+**A**: Keep your free leg actively engaged by framing on opponent's hips to create distance, hooking their far leg to limit their mobility, or preparing counter-entanglement positions. Never leave it passive or straight. The free leg creates space for grip breaks, prevents opponent from tightening control, and sets up escape pathways to X-guard or single leg X positions when grips are cleared.
 
-### Counter-Entanglement Pathway
+**Q4**: What is the correct sequence for escaping - grip break first or leg extraction first?
+**A**: Always prioritize grip breaking before leg extraction. Attempting to extract your leg while opponent maintains the toe hold grip is ineffective and dangerous - they simply re-establish control after failed escape attempts. Use two-on-one wrist control to break the figure-four configuration first, eliminating the submission threat, then systematically extract your leg through angular movement rather than straight pulling.
 
-`Toe Hold Control Bottom → Inside Ashi Entry → X-Guard to Ashi Transition → X-Guard`
+**Q5**: Your opponent loosens their grip momentarily to transition to heel hook - what opportunity does this create?
+**A**: This grip transition creates a critical window for escape. Use this moment to establish inside position on their leg through inside ashi entry, or immediately work guard replacement to open guard. The grip loosening during transitions is often the best escape opportunity you'll get - recognize and exploit it immediately rather than waiting for them to settle into a new control position.
 
-### Transition Window Exploitation
+**Q6**: Why is maintaining upper body posture so important from toe hold control bottom?
+**A**: Upper body posture on elbows or sitting provides the ability to create angles, generate leverage for grip breaks, and use your upper body weight to assist escapes. When flattened completely on your back, you lose all these mechanical advantages - you cannot effectively fight grips, create hip movement, or transition to counter positions. Active upper body posture maintains your defensive options throughout the escape sequence.
 
-`Toe Hold Control Bottom → Ashi Garami Escape during grip change → Deep Half Entry → Deep Half Guard`
+**Q7**: What knee orientation should you maintain with your trapped leg and why?
+**A**: Keep your endangered knee pointed toward your opponent throughout the defensive sequence. External knee rotation dramatically increases rotational leverage on your ankle joint, accelerating submission danger exponentially. Use hip internal rotation to protect ankle alignment - this reduces the mechanical advantage your opponent has for the toe hold finish while you work systematic grip breaks and escape.
+
+**Q8**: After successfully breaking opponent's grip control, how do you safely complete the escape?
+**A**: Extract your leg through controlled angular movement rather than straight pulling - circle your knee toward your chest while maintaining internal rotation of the foot. Immediately establish distance by recovering to open guard, X-guard, or single leg X-guard with your free leg creating hooks for control. Never remain in range after grip clearance as this allows immediate re-entry to the leg entanglement.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -441,11 +392,9 @@ From toe hold control bottom, practice using free leg to create multiple defensi
 - **[[Saddle]]** - Worse position representing common progression if toe hold defense fails
 - **[[Outside Ashi-Garami]]** - Related leg entanglement where similar defensive principles apply
 - **[[Toe Hold]]** - Primary submission threat from this position
-- **[[Heel Hook]]** - Common follow-up attack if opponent transitions from toe hold
+- **[[Inside Heel Hook]]** - Common follow-up attack if opponent transitions from toe hold
 - **[[Saddle Defense]]** - Primary defensive transition technique for escaping toe hold control
 - **[[Ashi Garami Escape]]** - Key escape pathway to safer positions
-- **[[systematic approach Leg Lock System]]** - Expert system providing theoretical framework for leg entanglement defense
-- **[[Lachlan Giles Leg Lock Defense Framework]]** - Expert defensive system specific to leg lock escapes and prevention
 - **[[Leg Entanglement]]** - Fundamental concept underlying principles of position
 
 

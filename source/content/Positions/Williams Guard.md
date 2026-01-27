@@ -93,29 +93,22 @@ From the top perspective, Williams Guard presents significant challenges requiri
 - Use opponent's attempts to free their arm as triggers for sweeps and position advancement
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Williams Shoulder Lock]]** → [[Won by Submission]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Williams Shoulder Lock]]** (14% of attempts)
 
-- **[[Omoplata Sweep]]** → [[Mount]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Omoplata Sweep]]** (16% of attempts)
 
-- **[[Triangle Setup]]** → [[Triangle Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Triangle Setup]]** (13% of attempts)
 
-- **[[Transition to Omoplata]]** → [[Omoplata Control]]
-  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+- **[[Closed Guard to Omoplata]]** (18% of attempts)
 
-- **[[Back Take Generic]]** → [[Back Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Back Take Generic]]** (12% of attempts)
 
-- **[[Kimura to Back Take]]** → [[Back Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Kimura to Back Take]]** (13% of attempts)
 
-- **[[Rolling Armbar]]** → [[Armbar Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Rolling Armbar]]** (14% of attempts)
 
 
 ### Common Mistakes
@@ -173,26 +166,20 @@ From the top perspective, Williams Guard presents significant challenges requiri
 - Transition to secure passing positions immediately upon arm extraction to prevent guard re-establishment
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Arm Extraction]]** → [[Combat Base]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Arm Extraction]]** (18% of attempts)
 
-- **[[Stack Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Stack Pass]]** (16% of attempts)
 
-- **[[Pressure Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Pressure Pass]]** (14% of attempts)
 
-- **[[Guard Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Guard Pass]]** (17% of attempts)
 
-- **[[Posture Recovery]]** → [[Open Guard]]
-  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+- **[[Posture Recovery]]** (19% of attempts)
 
-- **[[Knee Slice Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Knee Slice Pass]]** (16% of attempts)
 
 
 ### Common Mistakes

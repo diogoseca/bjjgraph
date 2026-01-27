@@ -11,8 +11,6 @@
     "single leg x",
     "sweep setup"
   ],
-  "starting_position": "Standing Position",
-  "ending_position": "Shin-to-Shin Guard",
   "success_rates": {
     "beginner": 35,
     "intermediate": 50,
@@ -259,6 +257,24 @@
     {
       "name": "Guard Pull",
       "relationship": "General category of guard establishment techniques"
+    }
+  ],
+  "from_position": "Standing Position/Top",
+  "outcomes": [
+    {
+      "to": "Shin-to-Shin Guard/Bottom",
+      "probability": 65,
+      "result": "success"
+    },
+    {
+      "to": "Standing Position/Top",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Standing Position/Bottom",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

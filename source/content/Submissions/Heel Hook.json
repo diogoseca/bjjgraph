@@ -188,7 +188,7 @@
     {
       "error": "Attempting heel hooks without proper leg entanglement control or from poor positional understanding",
       "consequence": "Easy escapes for opponent, potential for counter-attacks, and development of bad habits that ignore systematic positional hierarchy",
-      "correction": "Master ashi-garami positional control before pursuing finishes. Study the specific leg entanglement system (systematic approach, Craig Jones, etc.) comprehensively. Spend months drilling entries, controls, and transitions before adding finishing mechanics to your training.",
+      "correction": "Master ashi-garami positional control before pursuing finishes. Study the specific leg entanglement system comprehensively. Spend months drilling entries, controls, and transitions before adding finishing mechanics to your training.",
       "danger_level": "High"
     },
     {
@@ -266,28 +266,53 @@
       "safety_critical": true
     },
     {
-      "question": "What is the relationship between hip positioning (perpendicular vs. frontal alignment) and the heel hook's breaking mechanics on the knee joint?",
-      "answer": "Perpendicular hip positioning (your spine at approximately 90 degrees to opponent's leg) is essential for rotational force to affect the knee joint rather than just the ankle. When positioned perpendicular and falling to your side, your heel rotation creates torque on their knee while your leg entanglement prevents their femur from rotating with their tibia - this opposing rotational force is what damages knee ligaments. If you remain directly in front of opponent, your rotation allows their entire leg to rotate as a unit, dissipating force and creating only ankle pressure. The perpendicular angle locks their hip rotation with leg entanglement while forcing knee rotation with heel control, creating the mechanical separation that damages ligamentous structures. This is why systematic approach emphasizes hip positioning as more important than grip strength in heel hook systems.",
+      "question": "What anatomical structures does the heel hook primarily attack, and why does this make the submission so effective?",
+      "answer": "The heel hook primarily attacks the knee ligaments (ACL, MCL, LCL) and meniscus through rotational torque, with secondary stress on ankle ligaments and joint capsules. The effectiveness comes from attacking multiple structures simultaneously through rotation rather than linear force. When the foot rotates while the femur remains fixed (due to leg entanglement), the tibia twists relative to the femur, creating shearing and rotational stress on knee structures not designed for this type of load. The ACL in particular has very limited rotational tolerance, which is why it fails catastrophically under heel hook pressure even when other submissions affecting the same joint might allow more warning.",
       "safety_critical": false
     },
     {
-      "question": "Why is inside position control considered critically important in leg entanglement systems, and how does it relate to both offensive and defensive heel hook scenarios?",
-      "answer": "Inside position (your leg controlling inside their knee line across their hip/thigh) provides geometric advantages that determine who can successfully attack and who must defend. The inside position allows you to control opponent's hip rotation, create better angles for heel exposure, and prevent their leg from rotating with your submission attempts. Simultaneously, it blocks their ability to establish their own inside position for counter-attacks. In symmetrical situations like 50-50, whoever achieves superior inside position gains offensive advantages while their opponent faces defensive compromises. This is why systematic leg entanglement approaches emphasize inside position dominance before pursuing finishes - controlling inside position makes your heel hooks more effective while making opponent's heel hook attempts geometrically disadvantaged. It's the foundational concept that determines success in leg entanglement exchanges.",
+      "question": "Your opponent begins hand fighting to strip your heel grip during a heel hook attempt - what grip adjustment prevents them from escaping?",
+      "answer": "Transition to hiding the heel deeper behind your torso by pulling it toward your opposite shoulder and tucking it against your chest. If they're attacking one hand, immediately reinforce with a figure-four or gable grip configuration where both hands support each other. Position your body by falling to your side or back, which forces them to reach across significant distance to hand fight while you maintain close control. Your body mass becomes a barrier protecting the heel. Additionally, ensure your elbows stay tight to your body rather than flaring out, which would give them better angles to attack individual grips.",
       "safety_critical": false
     },
     {
-      "question": "What are the key differences between inside heel hook and outside heel hook in terms of rotational direction, typical positions, and relative effectiveness?",
-      "answer": "Inside heel hook rotates the heel toward the opponent's body midline (medial rotation), typically applied from inside ashi-garami, saddle position, or 50-50 guard. Outside heel hook rotates the heel away from their midline (lateral rotation), commonly applied from outside ashi-garami or cross ashi-garami. The inside heel hook is generally considered more powerful because the medial rotation creates stronger torque on knee structures and the typical positions (especially saddle) offer superior control over hip rotation. The outside heel hook, while still extremely dangerous, often provides less rotational control and can be more susceptible to rolling defenses. However, both are legitimate finishing techniques, and high-level leg lock systems use them in combination - opponent's defense against inside heel hook often creates outside heel hook opportunities and vice versa. The choice between them often depends on which position the entry sequences provide rather than one being universally superior.",
+      "question": "What are the breaking point indicators that tell you the heel hook is properly applied and the opponent should tap?",
+      "answer": "When properly applied, you'll feel the heel become 'locked' against your chest with no slack in the system, their leg fully extended through your hip extension, and your perpendicular positioning prevents their hip from rotating. The opponent will typically feel increasing pressure in their knee joint (not just ankle) and recognize the rotational stress building. Breaking point indicators include: the heel feels solidly trapped with no movement possible, your body rotation creates immediate feedback in their knee, and their defensive options (rolling, clearing knee line) are all blocked by your positioning. At this point, any additional rotation will damage structures - an experienced opponent should tap before you need to apply significant force.",
       "safety_critical": false
     },
     {
-      "question": "How should you adjust your training approach to heel hooks based on your training partner's experience level with leg entanglements?",
-      "answer": "Training partner experience level should dramatically affect your heel hook training approach. With experienced leg lockers who understand defensive principles, you can gradually build toward realistic training intensity (still maintaining slow application) while practicing dynamic entries, transitions, and counters. With less experienced partners, you must drastically reduce intensity, focus purely on positional control rather than finishes, clearly communicate each step before executing it, and potentially avoid finishing mechanics entirely depending on their comfort level. Before engaging any heel hook training with new partners, verify their experience level explicitly, demonstrate your control and communication abilities with lighter techniques first, and establish clear protocols for tapping and stopping. Never assume someone understands heel hook dangers based on their belt rank alone - many traditional academies don't train them even at black belt. Your responsibility as the attacking practitioner is to ensure partner safety through appropriate calibration of intensity, speed, and technique selection based on their demonstrable skill level.",
+      "question": "What control requirements must be established before attempting to finish the heel hook?",
+      "answer": "Before finishing, you must establish: (1) secure leg entanglement with their leg trapped between both of your legs and no space for extraction, (2) inside position control with your knee inside their knee line preventing them from rotating away, (3) heel grip security with the heel hidden close to your centerline and protected by your body mass, (4) perpendicular hip alignment creating 90-degree angle between your spine and their leg, (5) system tension with all slack removed through hip extension so their leg is straight, and (6) free leg control or awareness to prevent them creating escape leverage. Attempting to finish before these controls are established results in failed submissions and positional losses.",
+      "safety_critical": false
+    },
+    {
+      "question": "When does the 'point of no escape' occur in a heel hook, and what should happen before this point?",
+      "answer": "The point of no escape occurs when your perpendicular positioning is locked, their leg is fully extended with no slack, and any rotation will immediately stress their knee ligaments. Before this point, the defender still has options: rolling with the submission, clearing the knee line, hand fighting for grip breaks, or creating space with their free leg. Once the point of no escape is reached, the only remaining option is to tap. In training, experienced practitioners should tap when they recognize the position is locked and their defensive options are exhausted - not when they feel pain. This pre-emptive tapping is essential because significant damage can occur before pain signals register.",
       "safety_critical": true
     },
     {
-      "question": "What is the purpose of 'hiding the heel' behind your torso, and how does this relate to preventing opponent's defensive hand fighting?",
-      "answer": "Hiding the heel means pulling opponent's heel across your body toward your opposite shoulder, positioning it behind your torso where they cannot easily reach with their hands. This serves multiple purposes: it prevents their defensive hand fighting since they must reach across distance while you maintain close control; it positions the heel near your centerline where your body mass can protect it; it creates better leverage angles for rotational force since the heel is closer to your rotational axis; and it makes grip security easier since your arms work in stronger ranges of motion. When the heel is extended away from your body, opponent can easily attack your grips with both hands, strip your control, and begin extracting their leg. By hiding the heel deep, you force them to address other aspects of the position (leg entanglement, inside position, hip positioning) while your finishing mechanics remain protected. This is a fundamental concept across all leg lock systems that separates effective finishing from easily defended attacks.",
+      "question": "What common finishing errors prevent the heel hook from being effective against experienced defenders?",
+      "answer": "Common finishing errors include: (1) poor hip positioning staying frontal rather than perpendicular, which allows the entire leg to rotate as a unit dissipating force, (2) extending the heel away from your body with arms, creating grip vulnerability and reducing leverage, (3) rotating only with arms/hands rather than engaging the entire torso, producing weak force that defenders tolerate, (4) attempting the finish before removing all slack from the system, giving defenders room to escape, (5) neglecting the free leg allowing push-off leverage, and (6) losing inside position during the finishing attempt which enables defensive rotation. All of these reduce mechanical efficiency and allow skilled defenders to escape what should be a finished position.",
+      "safety_critical": false
+    },
+    {
+      "question": "How should you adjust your finishing grip when the opponent rotates their knee inward to hide their heel?",
+      "answer": "When opponent rotates their knee inward, they're actually creating an outside heel hook opportunity. Rather than fighting their defensive rotation, redirect to the now-exposed heel on the opposite side. Transition your grip by rotating your body to follow their knee movement, switching your angle to attack from the new direction. This inside-to-outside heel hook chain is a fundamental concept in leg lock systems - their defense against one attack opens vulnerability to another. The key is recognizing this isn't a failed attack but a transition opportunity, and smoothly flowing to the new angle rather than stubbornly pursuing the original heel hook direction.",
+      "safety_critical": false
+    },
+    {
+      "question": "What competition finishing strategy should you employ when you have a secured heel hook position but limited time remaining?",
+      "answer": "With limited time, prioritize positional perfection over rushed finishing. Verify your perpendicular alignment is optimal, ensure all slack is removed through maximum hip extension, and confirm inside position is secure. Then apply progressive rotational pressure through torso rotation rather than arm cranking. Rushing by increasing speed or force often results in grip breaks and position loss. Even under time pressure, the mechanics should remain controlled - the difference between training and competition is committing to the finish rather than backing off, not abandoning proper technique. If time expires with the position locked but no tap, you had the position; rushing and losing it is the worse outcome.",
+      "safety_critical": false
+    },
+    {
+      "question": "How do you safely train heel hooks with a new partner whose experience level with leg locks is unknown?",
+      "answer": "Before engaging, have an explicit conversation about their leg lock experience, asking specifically about heel hooks rather than assuming. Demonstrate your control and release protocols with a lighter technique first (straight ankle lock). Establish clear verbal cues: 'pressure starting,' 'more pressure,' 'tap now.' For the first several exchanges, apply heel hooks at extremely slow speed (15+ seconds) with frequent stops to discuss what they're feeling. Watch for panic responses or unfamiliarity with proper tap timing. If they show any uncertainty about when to tap or seem to be relying on pain rather than position recognition, restrict training to positional sparring without finishing mechanics until their defensive understanding develops.",
+      "safety_critical": true
+    },
+    {
+      "question": "What is the relationship between hip positioning (perpendicular vs. frontal alignment) and the heel hook's breaking mechanics on the knee joint?",
+      "answer": "Perpendicular hip positioning (your spine at approximately 90 degrees to opponent's leg) is essential for rotational force to affect the knee joint rather than just the ankle. When positioned perpendicular and falling to your side, your heel rotation creates torque on their knee while your leg entanglement prevents their femur from rotating with their tibia - this opposing rotational force is what damages knee ligaments. If you remain directly in front of opponent, your rotation allows their entire leg to rotate as a unit, dissipating force and creating only ankle pressure. The perpendicular angle locks their hip rotation with leg entanglement while forcing knee rotation with heel control, creating the mechanical separation that damages ligamentous structures.",
       "safety_critical": false
     }
   ],
@@ -355,16 +380,9 @@
     "Straight Ankle Lock",
     "Calf Slicer",
     "Estima Lock",
-    "Achilles Lock",
-    "Kneebar from 50-50",
-    "Toe Hold from 50-50",
-    "Straight Footlock"
+    "Achilles Lock"
   ],
   "related_content": [
-    {
-      "name": "Craig Jones Leg Lock System",
-      "relationship": "Modern competition-focused leg attack system with emphasis on dynamic entries and finishing efficiency"
-    },
     {
       "name": "Leg Entanglement",
       "relationship": "Foundational principle governing all heel hook positions and control mechanics"
@@ -378,7 +396,7 @@
       "relationship": "Guard position that can transition to leg entanglements and heel hook attacks"
     },
     {
-      "name": "Truck",
+      "name": "Twister Control",
       "relationship": "Back attack position that transitions to heel hooks when opponent defends twister"
     },
     {
@@ -400,6 +418,10 @@
     {
       "name": "Half Guard",
       "relationship": "Position from which leg entanglements can be entered when opponent attempts to pass"
+    },
+    {
+      "name": "Straight Ankle Lock Control",
+      "relationship": "Related finishing position with different mechanics but similar leg control requirements"
     }
   ]
 }

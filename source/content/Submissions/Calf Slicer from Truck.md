@@ -418,7 +418,7 @@ The Calf Slicer from Truck is a high-level compression submission that targets t
 
 - [[Truck]] - Primary starting position - truck control must be mastered before attempting this submission
 - [[Twister Control]] - Primary transition when opponent defends by straightening leg - rotate to upper body attack
-- [[Transition to Truck]] - Entry mechanics - learn how to achieve truck position from various starting points
+- [[Turtle to Truck]] - Entry mechanics - learn how to achieve truck position from various starting points
 - [[Truck Entry]] - Setup sequences - multiple pathways to establish truck position for this submission
 - [[Lockdown]] - Alternative entry - can transition from electric chair position in lockdown system
 - [[Crab Ride]] - Related control position - similar back exposure with different leg configuration
@@ -427,6 +427,16 @@ The Calf Slicer from Truck is a high-level compression submission that targets t
 - [[Leg Entanglement]] - Conceptual principle - understanding leg control mechanics applicable to truck position
 - [[Craig Jones Leg Lock System]] - Modern leg lock context - competitive applications of compression submissions
 
+
+</section>
+
+<section id="terminal-state" class="content-section">
+
+## Match Outcome
+
+Successful execution of Calf Slicer from Truck leads to → [[game-over|Game Over]]
+
+*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
 
 </section>
 

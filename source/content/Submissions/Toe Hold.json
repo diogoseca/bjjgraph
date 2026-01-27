@@ -277,6 +277,31 @@
       "question": "How should you adjust your technique if your opponent attempts to defend by rolling toward you?",
       "answer": "If the opponent attempts to roll toward you to relieve the rotational pressure, you have two primary options. First, you can prevent the roll by using your inside leg as a strong post against their hip or torso - this blocks their ability to rotate toward you and maintains the submission position. Your inside leg should be active and pushing to keep them flat. Second, if they have already initiated the roll with good momentum, you can allow the roll and follow them into a modified Saddle position, maintaining your heel and toe grips throughout the transition. In the Saddle position, you have even better control and can re-establish the submission with superior positioning. The key is to stay connected through the transition and never release your grips during the roll.",
       "safety_critical": false
+    },
+    {
+      "question": "Your opponent begins pulling their toes back and flexing their foot while you have the toe grip - what finishing adjustment creates the tap?",
+      "answer": "When the opponent flexes their foot and pulls their toes back defensively, increase the extension component by pulling their toes more firmly toward their shin while simultaneously lying back slightly to add leverage. This counteracts their defensive flexion. Ensure your heel control remains tight - the heel must stay pinned to your shoulder or chest as the fixed fulcrum. If they continue to resist, you can also add hip pressure by driving your hips forward into their leg while maintaining the rotation-extension combination. The key is patience and progressive pressure rather than explosive force.",
+      "safety_critical": false
+    },
+    {
+      "question": "What anatomical structures are specifically attacked by the Toe Hold, and at what point does the opponent typically feel the breaking point approaching?",
+      "answer": "The Toe Hold attacks multiple structures: the lateral and medial ankle ligaments (particularly the anterior talofibular ligament), the small joints of the toes and metatarsals, the plantar fascia on the bottom of the foot, and in severe applications, the Lisfranc joint complex in the midfoot. The breaking point is typically felt when internal rotation reaches approximately 30-40 degrees beyond the natural range of motion combined with forced dorsiflexion. Opponents usually feel sharp pain in the outer ankle first, followed by pressure across the top of the foot. Training partners should tap at the first sign of discomfort - well before the breaking point.",
+      "safety_critical": true
+    },
+    {
+      "question": "Your opponent successfully hides their heel by tucking their foot behind your leg - what options do you have to continue your attack?",
+      "answer": "When the opponent successfully hides their heel, you have several options: 1) Use your free hand to reach behind and pry their foot out by grabbing their toes or ankle, 2) Transition to an Achilles lock attack on the same leg which doesn't require heel exposure, 3) Switch your attack to an inside heel hook if you can expose the heel from a different angle by adjusting your hip position, 4) Abandon the current leg and transition to attacking their other leg through leg entanglement exchanges, or 5) Adjust your positioning to a different leg entanglement (like Saddle or 50-50) that naturally exposes the heel from a better angle. The worst option is to stubbornly force the Toe Hold against a well-hidden heel.",
+      "safety_critical": false
+    },
+    {
+      "question": "In competition, what indicators tell you the submission is locked and the opponent has reached the point of no escape?",
+      "answer": "The submission is locked when: 1) The heel is completely immobilized against your shoulder/chest with no possibility of extraction, 2) Your cupping grip encompasses the entire forefoot with your forearm running along the sole, 3) Internal rotation has reached the opponent's end range of motion and you feel solid resistance, 4) Your legs are completely controlling their trapped leg preventing knee rotation, 5) The opponent's free leg cannot reach your body to create leverage for escape, and 6) Adding the slightest extension creates visible distress. At this point, progressive extension while maintaining rotation will produce the tap. In competition, this is when you can safely increase pressure knowing the mechanics are complete.",
+      "safety_critical": false
+    },
+    {
+      "question": "What grip adjustments should you make if your initial cupping grip begins to slip during the finishing sequence?",
+      "answer": "If your cupping grip begins to slip, immediately reinforce it rather than rushing to finish. First, ensure your palm is firmly on the ball of the foot - not the toes themselves - as this provides the most secure grip surface. Second, wrap your fingers around the lateral edge of the foot and squeeze the toes together, creating a more unified structure to control. Third, you can add a figure-four grip by bringing your other hand over to clasp your own wrist, dramatically increasing grip strength. Fourth, adjust your torso angle to pin the heel more securely, reducing the load on your grip. Never compensate for a slipping grip by applying explosive force - this leads to injuries. If the grip is failing, briefly release and re-establish before continuing.",
+      "safety_critical": false
     }
   ],
   "training_progressions_and_safety_protocols": [
@@ -337,18 +362,15 @@
     "Heel Hook",
     "Inside Heel Hook",
     "Outside Heel Hook",
-    "Straight Ankle Lock",
-    "Kneebar",
     "Achilles Lock",
+    "Kneebar",
     "Calf Slicer",
-    "Toe Hold from 50-50",
-    "Toe Hold from Top",
-    "Toe Hold Variations",
     "Heel Hook Variations",
     "Kneebar from 50-50",
-    "Straight Footlock",
     "Estima Lock",
-    "Calf Slicer from 50-50"
+    "Calf Slicer from 50-50",
+    "Kneebar Variations",
+    "Aoki Lock"
   ],
   "related_content": [
     {
@@ -376,7 +398,7 @@
       "relationship": "Related leg lock attacking knee through rotational pressure, often combined in leg attack sequences"
     },
     {
-      "name": "Straight Ankle Lock",
+      "name": "Achilles Lock",
       "relationship": "Alternative ankle attack using compression rather than rotation, often used when Toe Hold is defended"
     },
     {

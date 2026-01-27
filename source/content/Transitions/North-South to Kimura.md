@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "North-South to Kimura | BJJ Technique | BJJ Graph"
 description: "Master North-South to Kimura transition in BJJ. Step-by-step arm isolation and control from dominant position. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%."
@@ -16,7 +17,7 @@ description: "Master North-South to Kimura transition in BJJ. Step-by-step arm i
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute North-South to Kimura in BJJ",
-  "description": "Step-by-step guide for North-South to Kimura from North-South to Kimura Control.",
+  "description": "Step-by-step guide for North-South to Kimura from North-South/Top. Possible outcomes: Kimura Control/Top (70%), North-South/Top (20%), North-South/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -154,11 +155,25 @@ description: "Master North-South to Kimura transition in BJJ. Step-by-step arm i
 
 The North-South to Kimura transition represents a fundamental attacking sequence from one of BJJ's most dominant control positions. From North-South position, the practitioner isolates the opponent's arm and transitions to the Kimura control position, threatening a high-percentage shoulder lock submission. This technique capitalizes on the superior weight distribution and control inherent to the North-South position, where the opponent's defensive frames are compromised and their shoulders are vulnerable to attack. The transition requires precise timing and grip control, as the practitioner must maintain chest-to-chest pressure while manipulating the opponent's arm into the characteristic figure-four Kimura grip. Once established, the Kimura control offers multiple finishing options, sweep opportunities, and transitions to other dominant positions, making this a versatile and essential technique for any top game specialist. The position's effectiveness stems from the mechanical advantage created by controlling the opponent's shoulder joint while their mobility is restricted by your body weight.
 
-**Starting Position**: [[North-South]]
-**Ending Position**: [[Kimura Control]]
+**From Position**: [[North-South/Top]]
 **Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Kimura Control/Top]] | 70% |
+| Failure | [[North-South/Top]] | 20% |
+| Counter | [[North-South/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 
@@ -327,7 +342,7 @@ The North-South to Kimura transition is a cornerstone technique in modern BJJ's 
 - [[Kimura Control]] - Ending position and primary goal of this transition
 - [[Kimura from North-South]] - Primary submission finish from this control position
 - [[North-South Choke]] - Alternative submission from the same starting position
-- [[Transition to North-South]] - Prerequisite technique for establishing the starting position
+- [[Side Control to North-South]] - Prerequisite technique for establishing the starting position
 - [[Kimura to Back Take]] - Follow-up transition when opponent defends the submission
 - [[Side Control]] - Common entry position before reaching North-South
 - [[Kimura from Side Control]] - Related technique from similar top control position

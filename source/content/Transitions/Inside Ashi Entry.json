@@ -11,8 +11,6 @@
     "no-gi",
     "advanced technique"
   ],
-  "starting_position": "Open Guard",
-  "ending_position": "Inside Ashi-Garami",
   "success_rates": {
     "beginner": 35,
     "intermediate": 50,
@@ -286,6 +284,24 @@
     {
       "name": "50-50 Guard",
       "relationship": "Neutral position that often results from inside ashi scrambles"
+    }
+  ],
+  "from_position": "Open Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Inside Ashi-Garami/Top",
+      "probability": 65,
+      "result": "success"
+    },
+    {
+      "to": "Open Guard/Bottom",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Open Guard/Top",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

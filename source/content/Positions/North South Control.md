@@ -97,26 +97,18 @@ North-South serves as a crucial transitional hub in positional chess, often appe
 - Use short, explosive movements rather than sustained pushing which depletes energy
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Bridge and Turn to Turtle]]** → [[Turtle]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Bridge and Turn to Turtle]]** (25% of attempts)
 
-- **[[Explosive Bridge to Guard Recovery]]** → [[Open Guard]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+- **[[Explosive Bridge to Guard Recovery]]** (20% of attempts)
 
-- **[[Elbow Escape to Side Control Escape]]** → [[Half Guard]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Hip Escape]]** (20% of attempts)
 
-- **[[Technical Stand Up]]** → [[Standing Position]]
-  - Success Rate: Beginner 10%, Intermediate 25%, Advanced 40%
+- **[[Technical Stand Up]]** (15% of attempts)
 
-- **[[Granby Roll]]** → [[Turtle]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
-
-- **[[Frame and Turn to Defensive Position]]** → [[Defensive Position]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Granby Roll]]** (20% of attempts)
 
 
 ### Common Mistakes
@@ -170,32 +162,24 @@ North-South serves as a crucial transitional hub in positional chess, often appe
 - Use head position to monitor both arms and anticipate defensive reactions
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Transition to Mount]]** → [[Mount]]
-  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 80%
+- **[[Side Control to Mount]]** (15% of attempts)
 
-- **[[North-South Choke]]** → [[Won by Submission]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[North-South Choke]]** (15% of attempts)
 
-- **[[Kimura from North-South]]** → [[Kimura Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Kimura from North-South]]** (18% of attempts)
 
-- **[[Armbar from North-South]]** → [[Armbar Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Armbar from North-South]]** (14% of attempts)
 
-- **[[Transition to Side Control]]** → [[Side Control]]
-  - Success Rate: Beginner 60%, Intermediate 75%, Advanced 85%
+- **[[Position Change]]** (12% of attempts)
 
-- **[[Reverse Mount Transition]]** → [[Reverse Mount]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Gift Wrap]]** (10% of attempts)
 
-- **[[Gift Wrap Control]]** → [[Gift Wrap]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Arm Triangle Setup]]** (8% of attempts)
 
-- **[[Arm Triangle Setup]]** → [[Won by Submission]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Back Take]]** (8% of attempts)
 
 
 ### Common Mistakes
@@ -236,7 +220,7 @@ North-South serves as a crucial transitional hub in positional chess, often appe
 
 - **[[Knee on Belly]]** - Alternative pinning position with similar pressure principles
 
-- **[[Kimura Control]]** - Natural submission control accessible from North-South isolation
+- **[[Kimura Trap]]** - Natural submission control accessible from North-South isolation
 
 - **[[Crucifix]]** - Advanced control position accessible through arm trapping sequences
 

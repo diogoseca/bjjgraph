@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Ashi Garami Escape | BJJ Technique | BJJ Graph"
 description: "Master Ashi Garami escape techniques in BJJ. Learn systematic defensive principles, hip positioning, and leg extraction. Beginner 30%, Intermediate 50%, Advanced 70%."
@@ -16,7 +17,7 @@ description: "Master Ashi Garami escape techniques in BJJ. Learn systematic defe
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Ashi Garami Escape in BJJ",
-  "description": "Step-by-step guide for Ashi Garami Escape from Ashi Garami to Standing Position.",
+  "description": "Step-by-step guide for Ashi Garami Escape from Ashi Garami/Top. Possible outcomes: Standing Position/Top (70%), Ashi Garami/Top (20%), Ashi Garami/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -160,11 +161,25 @@ description: "Master Ashi Garami escape techniques in BJJ. Learn systematic defe
 
 The Ashi Garami escape is a fundamental defensive skill in modern leg lock grappling, requiring precise understanding of leg entanglement mechanics and systematic approach to extracting the trapped leg. This escape addresses one of the most common leg entanglement positions in no-gi competition, where the opponent controls your leg while maintaining inside position. The primary goal is to extract the trapped leg while preventing the opponent from advancing to more dangerous positions like the saddle or securing submission attacks. Success depends on understanding the hierarchical nature of leg entanglements and systematically clearing control points before attempting full extraction. The escape emphasizes hip positioning, frame management, and timing to create space for leg removal while maintaining defensive awareness of submission threats. This technique is essential for anyone training in modern submission grappling, as leg entanglements have become increasingly prevalent in contemporary competition.
 
-**Starting Position**: [[Ashi Garami]]
-**Ending Position**: [[Standing Position]]
+**From Position**: [[Ashi Garami/Top]]
 **Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Standing Position/Top]] | 70% |
+| Failure | [[Ashi Garami/Top]] | 20% |
+| Counter | [[Ashi Garami/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

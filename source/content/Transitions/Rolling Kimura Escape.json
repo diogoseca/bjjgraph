@@ -11,8 +11,6 @@
     "shoulder-lock-escape",
     "rolling-mechanics"
   ],
-  "starting_position": "Kimura Control",
-  "ending_position": "Open Guard",
   "success_rates": {
     "beginner": 30,
     "intermediate": 50,
@@ -271,6 +269,24 @@
     {
       "name": "Bridge and Roll",
       "relationship": "Related rolling escape mechanics from different position"
+    }
+  ],
+  "from_position": "Kimura Control/Top",
+  "outcomes": [
+    {
+      "to": "Open Guard/Bottom",
+      "probability": 70,
+      "result": "success"
+    },
+    {
+      "to": "Kimura Control/Top",
+      "probability": 20,
+      "result": "failure"
+    },
+    {
+      "to": "Kimura Control/Bottom",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

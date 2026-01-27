@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Hip Escape | BJJ Technique | BJJ Graph"
 description: "Master the Hip Escape (Shrimp) in BJJ. Essential defensive movement for escaping pins and creating space. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%."
@@ -16,7 +17,7 @@ description: "Master the Hip Escape (Shrimp) in BJJ. Essential defensive movemen
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Hip Escape in BJJ",
-  "description": "Step-by-step guide for Hip Escape from Side Control to Half Guard.",
+  "description": "Step-by-step guide for Hip Escape from Side Control/Top. Possible outcomes: Half Guard/Bottom (70%), Side Control/Top (20%), Side Control/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -154,11 +155,25 @@ description: "Master the Hip Escape (Shrimp) in BJJ. Essential defensive movemen
 
 The Hip Escape, also known as the Shrimp or Shrimping movement, is one of the most fundamental defensive techniques in Brazilian Jiu-Jitsu. This essential movement pattern allows practitioners to create distance and recover guard position when pinned beneath an opponent. The technique involves a coordinated movement of bridging, turning, and sliding the hips away from pressure while maintaining proper frames to prevent the opponent from following. Understanding and mastering the hip escape is critical for survival in bottom positions, as it forms the foundation for virtually all escapes from pins including side control, mount, knee on belly, and north-south positions. The movement creates the necessary space to insert defensive frames, recover guard, or transition to better positions. While simple in concept, the hip escape requires precise timing, proper weight distribution, and efficient body mechanics to execute effectively against a skilled opponent applying heavy pressure.
 
-**Starting Position**: [[Side Control]]
-**Ending Position**: [[Half Guard]]
+**From Position**: [[Side Control/Top]]
 **Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Half Guard/Bottom]] | 70% |
+| Failure | [[Side Control/Top]] | 20% |
+| Counter | [[Side Control/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

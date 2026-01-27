@@ -20,9 +20,9 @@ description: "Master Honey Hole position in BJJ. Advanced leg entanglement with 
 
 Honey Hole position, also known as Inside Sankaku, Saddle, or 4/11, represents one of the most dominant and dangerous leg entanglement positions in modern Brazilian Jiu-Jitsu. This position features an inside leg configuration where one practitioner traps their opponent's leg between their own legs with an inside leg triangle, creating mechanical control that severely limits escape options while providing direct access to heel hooks, kneebars, and toe holds.
 
-The position's strategic significance stems from its asymmetric control dynamics - the top player maintains overwhelming mechanical advantage through perpendicular body alignment and leg configuration, while the bottom player faces extremely limited defensive options and high submission danger. The inside leg triangle around the opponent's thigh creates what systematic calls 'rotational imprisonment,' where natural escape mechanisms through hip rotation are directly countered by the entanglement geometry.
+The position's strategic significance stems from its asymmetric control dynamics - the top player maintains overwhelming mechanical advantage through perpendicular body alignment and leg configuration, while the bottom player faces extremely limited defensive options and high submission danger. The inside leg triangle around the opponent's thigh creates what practitioners call 'rotational imprisonment,' where natural escape mechanisms through hip rotation are directly countered by the entanglement geometry.
 
-From a competitive standpoint, Honey Hole has revolutionized modern no-gi grappling, particularly in submission-only and IBJJF brown/black belt competition where heel hooks are legal. The position's development through the modern leg lock pioneers and subsequent adoption by elite competitors has made it a fundamental component of contemporary leg lock systems. Understanding both offensive and defensive aspects of this position is essential for any serious no-gi practitioner, as the submission threat timeline is measured in seconds rather than minutes, requiring immediate recognition and response from the defensive perspective.
+From a competitive standpoint, Honey Hole has revolutionized modern no-gi grappling, particularly in submission-only and IBJJF brown/black belt competition where heel hooks are legal. The position's development through modern leg lock pioneers and subsequent adoption by elite competitors has made it a fundamental component of contemporary leg lock systems. Understanding both offensive and defensive aspects of this position is essential for any serious no-gi practitioner, as the submission threat timeline is measured in seconds rather than minutes, requiring immediate recognition and response from the defensive perspective.
 
 </section>
 
@@ -93,32 +93,24 @@ From a competitive standpoint, Honey Hole has revolutionized modern no-gi grappl
 - Protect your knee by controlling rotation - Your knee ligaments are most vulnerable to rotational pressure combined with heel exposure
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Inversion Escape]]** → [[Turtle]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+- **[[Inversion Escape]]** (13% of attempts)
 
-- **[[Hip Escape]]** → [[Open Guard]]
-  - Success Rate: Beginner 10%, Intermediate 25%, Advanced 40%
+- **[[Hip Escape]]** (11% of attempts)
 
-- **[[Counter Sweep]]** → [[50-50 Guard]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Counter Sweep]]** (15% of attempts)
 
-- **[[Rolling to Guard]]** → [[Half Guard]]
-  - Success Rate: Beginner 12%, Intermediate 28%, Advanced 42%
+- **[[Rolling to Guard]]** (12% of attempts)
 
-- **[[Technical Standup]]** → [[Standing Position]]
-  - Success Rate: Beginner 8%, Intermediate 20%, Advanced 35%
+- **[[Technical Standup]]** (10% of attempts)
 
-- **[[Saddle Defense]]** → [[Outside Ashi-Garami]]
-  - Success Rate: Beginner 18%, Intermediate 32%, Advanced 48%
+- **[[Saddle Defense]]** (14% of attempts)
 
-- **[[Rolling Back Take]]** → [[Backside 50-50]]
-  - Success Rate: Beginner 14%, Intermediate 27%, Advanced 43%
+- **[[Rolling Back Take]]** (12% of attempts)
 
-- **[[Ashi Garami Escape]]** → [[Open Guard]]
-  - Success Rate: Beginner 16%, Intermediate 31%, Advanced 46%
+- **[[Ashi Garami Escape]]** (13% of attempts)
 
 
 ### Common Mistakes
@@ -180,32 +172,24 @@ From a competitive standpoint, Honey Hole has revolutionized modern no-gi grappl
 - Positional Patience: Maintain control under pressure without rushing submissions, letting position create submission opportunities
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Outside Heel Hook]]** → [[Won by Submission]]
-  - Success Rate: Beginner 55%, Intermediate 70%, Advanced 85%
+- **[[Outside Heel Hook]]** (16% of attempts)
 
-- **[[Inside Heel Hook]]** → [[Won by Submission]]
-  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+- **[[Inside Heel Hook]]** (13% of attempts)
 
-- **[[Kneebar Finish]]** → [[Kneebar Control]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Kneebar Finish]]** (12% of attempts)
 
-- **[[Toe Hold from Top]]** → [[Toe Hold Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Toe Hold from Top]]** (12% of attempts)
 
-- **[[Saddle Entry from Top]]** → [[Saddle]]
-  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 80%
+- **[[Saddle Entry from Top]]** (14% of attempts)
 
-- **[[Turtle to Back Take]]** → [[Back Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Turtle to Back Take]]** (11% of attempts)
 
-- **[[Inside Ashi Entry]]** → [[Inside Ashi-Garami]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Inside Ashi Entry]]** (12% of attempts)
 
-- **[[Calf Slicer from Truck]]** → [[Calf Slicer]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Calf Slicer from Truck]]** (10% of attempts)
 
 
 ### Common Mistakes
@@ -233,7 +217,7 @@ From a competitive standpoint, Honey Hole has revolutionized modern no-gi grappl
 
 - ❌ **Crossing feet too tight on figure-four reducing mobility**
   - Consequence: Limits your ability to adjust position and follow opponent's movements. Creates static position that skilled opponents can escape
-  - ✅ Correction: Maintain figure-four with controlled tension—tight enough for control but loose enough to allow hip adjustments and transitions. Your feet should be engaged but not locked rigidly.
+  - ✅ Correction: Maintain figure-four with controlled tension - tight enough for control but loose enough to allow hip adjustments and transitions. Your feet should be engaged but not locked rigidly.
 
 
 </section>
@@ -266,7 +250,7 @@ From a competitive standpoint, Honey Hole has revolutionized modern no-gi grappl
 
 - **[[Kneebar]]** - Secondary submission option when heel exposure is defended
 
-- **[[systematic approach Leg Lock System]]** - Systematic framework incorporating Honey Hole as cornerstone control position
+- **[[Leg Entanglement]]** - Conceptual framework governing all leg lock positions
 
 
 </section>

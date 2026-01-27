@@ -97,29 +97,18 @@ The position's moderate risk level reflects its transitional nature - dominant e
 - Keep one shoulder off the mat when possible to maintain escape options and prevent complete flattening
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Elbow Escape]]** → [[Turtle]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Elbow Escape]]** (25% of attempts)
 
-- **[[Bridge and Roll]]** → [[Half Guard]]
-  - Success Rate: Beginner 15%, Intermediate 25%, Advanced 35%
+- **[[Bridge and Roll]]** (25% of attempts)
 
-- **[[Hip Escape]]** → [[Open Guard]]
-  - Success Rate: Beginner 10%, Intermediate 20%, Advanced 35%
+- **[[Hip Escape]]** (20% of attempts)
 
-- **[[Re-Guard]]** → [[Closed Guard]]
-  - Success Rate: Beginner 8%, Intermediate 15%, Advanced 25%
+- **[[Guard Replacement]]** (15% of attempts)
 
-- **[[Technical Standup]]** → [[Standing Position]]
-  - Success Rate: Beginner 5%, Intermediate 12%, Advanced 20%
-
-- **[[Rolling to Guard]]** → [[Butterfly Guard]]
-  - Success Rate: Beginner 12%, Intermediate 22%, Advanced 35%
-
-- **[[Explosive Bridge]]** → [[Deep Half Guard]]
-  - Success Rate: Beginner 8%, Intermediate 18%, Advanced 30%
+- **[[Frame and Shrimp]]** (15% of attempts)
 
 
 ### Common Mistakes
@@ -177,26 +166,18 @@ The position's moderate risk level reflects its transitional nature - dominant e
 - Position Hierarchy Awareness: Recognizing that standard mount and back control are superior end goals
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Transition to Mount]]** → [[Mount]]
-  - Success Rate: Beginner 50%, Intermediate 70%, Advanced 85%
+- **[[Side Control to Mount]]** (35% of attempts)
 
-- **[[Back Take Generic]]** → [[Back Control]]
-  - Success Rate: Beginner 40%, Intermediate 60%, Advanced 75%
+- **[[Back Take Generic]]** (30% of attempts)
 
-- **[[Mount to Armbar]]** → [[Armbar Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Mount to Armbar]]** (15% of attempts)
 
-- **[[Transition to Truck]]** → [[Truck]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Turtle to Truck]]** (10% of attempts)
 
-- **[[Side Control to Mount]]** → [[S Mount]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
-
-- **[[Transition to North-South]]** → [[North-South]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Side Control to North-South]]** (10% of attempts)
 
 
 ### Common Mistakes

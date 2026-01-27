@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Switch to Triangle | BJJ Technique | BJJ Graph"
 description: "Master the Switch to Triangle in BJJ. Learn when and how to transition from failed attacks to triangle choke. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%."
@@ -16,7 +17,7 @@ description: "Master the Switch to Triangle in BJJ. Learn when and how to transi
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Switch to Triangle in BJJ",
-  "description": "Step-by-step guide for Switch to Triangle from Closed Guard to Triangle Control.",
+  "description": "Step-by-step guide for Switch to Triangle from Closed Guard/Bottom. Possible outcomes: Triangle Control/Top (65%), Closed Guard/Bottom (25%), Closed Guard/Top (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -160,11 +161,25 @@ description: "Master the Switch to Triangle in BJJ. Learn when and how to transi
 
 The Switch to Triangle represents a fundamental submission chain concept in Brazilian Jiu-Jitsu, allowing practitioners to seamlessly transition from failed or defended attacks into a high-percentage triangle choke. This transition is most commonly executed from closed guard when opponents defend against armbar attempts, kimura attacks, or other offensive techniques by pulling their arm free or posturing up. The beauty of this technique lies in its ability to capitalize on the opponent's defensive reactions - as they focus on escaping one submission, they often create the perfect opening for the triangle. Understanding this transition transforms individual techniques into a flowing attack system where every defense opens a new offensive opportunity. The switch to triangle exemplifies the principle of offensive combinations and submission chains, where skilled practitioners never rely on a single attack but instead link multiple threats together. This creates a dilemma-based game where the opponent must choose between defending the current attack and preventing the follow-up, rarely able to accomplish both simultaneously. Mastering this transition is essential for developing a dangerous closed guard game and represents a critical milestone in understanding how submissions work together as a system rather than as isolated techniques.
 
-**Starting Position**: [[Closed Guard]]
-**Ending Position**: [[Triangle Control]]
+**From Position**: [[Closed Guard/Bottom]]
 **Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Triangle Control/Top]] | 65% |
+| Failure | [[Closed Guard/Bottom]] | 25% |
+| Counter | [[Closed Guard/Top]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

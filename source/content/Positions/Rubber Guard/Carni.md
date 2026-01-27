@@ -95,32 +95,24 @@ From the attacking perspective (bottom), the Carni offers exceptional offensive 
 - Maintain tension in the leg entanglement while staying relaxed in upper body to conserve energy and react quickly
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Inside Heel Hook]]** → [[Heel Hook]]
-  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 70%
+- **[[Inside Heel Hook]]** (13% of attempts)
 
-- **[[Saddle Entry from Top]]** → [[Saddle]]
-  - Success Rate: Beginner 40%, Intermediate 60%, Advanced 75%
+- **[[Saddle Entry from Top]]** (15% of attempts)
 
-- **[[Rolling Back Take]]** → [[Back Control]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 65%
+- **[[Rolling Back Take]]** (12% of attempts)
 
-- **[[Transition to Truck]]** → [[Truck]]
-  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 70%
+- **[[Turtle to Truck]]** (13% of attempts)
 
-- **[[Calf Slicer from Truck]]** → [[Calf Slicer from Truck]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 60%
+- **[[Calf Slicer from Truck]]** (12% of attempts)
 
-- **[[Outside Ashi Entry]]** → [[Outside Ashi-Garami]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Outside Ashi Entry]]** (13% of attempts)
 
-- **[[Kneebar Finish]]** → [[Kneebar]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Kneebar Finish]]** (12% of attempts)
 
-- **[[Transition to North-South]]** → [[North-South]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Side Control to North-South]]** (10% of attempts)
 
 
 ### Common Mistakes
@@ -182,26 +174,20 @@ From the attacking perspective (bottom), the Carni offers exceptional offensive 
 - Be willing to give up position or accept guard passing if it means safely extracting from leg entanglement
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Stack Defense]]** → [[Combat Base]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Stack Defense]]** (19% of attempts)
 
-- **[[Rolling Kimura Escape]]** → [[Scramble Position]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Rolling Kimura Escape]]** (19% of attempts)
 
-- **[[Technical Standup]]** → [[Standing Position]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+- **[[Technical Standup]]** (17% of attempts)
 
-- **[[Leg Drag Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 10%, Intermediate 25%, Advanced 40%
+- **[[Leg Drag Pass]]** (15% of attempts)
 
-- **[[Granby Roll]]** → [[Half Guard Recovery]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+- **[[Granby Roll]]** (17% of attempts)
 
-- **[[Knee Slice Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 10%, Intermediate 20%, Advanced 35%
+- **[[Knee Slice Pass]]** (13% of attempts)
 
 
 ### Common Mistakes

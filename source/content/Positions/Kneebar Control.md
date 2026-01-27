@@ -28,7 +28,7 @@ From a strategic perspective, kneebar control serves multiple functions within a
 
 The risk profile of kneebar control varies significantly based on the specific variation and the opponent's defensive knowledge. Top position kneebars offer greater stability and escape options for the attacker, while bottom position variants like ashi garami kneebars create mutual risk where both practitioners are vulnerable to counters. Understanding when to commit to the finish versus when to use the position as a gateway to other attacks represents a crucial decision point in modern leg lock systems.
 
-Historically, the kneebar has existed in grappling arts for centuries, appearing in judo, sambo, and catch wrestling before being systematically integrated into Brazilian Jiu-Jitsu. The position gained prominence in no-gi competition through the innovations of practitioners like Dean Lister, 10th Planet's, and later the modern leg lock pioneers, who developed comprehensive systems linking kneebar control to heel hooks, toe holds, and positional advancement. The modern understanding emphasizes the kneebar not as an isolated technique but as one component of an interconnected leg attack ecosystem where each position flows naturally to others based on defensive reactions.
+Historically, the kneebar has existed in grappling arts for centuries, appearing in judo, sambo, and catch wrestling before being systematically integrated into Brazilian Jiu-Jitsu. The position gained prominence in no-gi competition through the innovations of leg lock specialists who developed comprehensive systems linking kneebar control to heel hooks, toe holds, and positional advancement. The modern understanding emphasizes the kneebar not as an isolated technique but as one component of an interconnected leg attack ecosystem where each position flows naturally to others based on defensive reactions.
 
 </section>
 
@@ -99,38 +99,28 @@ Historically, the kneebar has existed in grappling arts for centuries, appearing
 - Opponent's weight distribution determines optimal finishing angle and timing
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Kneebar Finish]]** → [[Won by Submission]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 50%
+- **[[Kneebar Finish]]** (8% of attempts)
 
-- **[[Inside Ashi Entry]]** → [[Inside Ashi-Garami]]
-  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+- **[[Inside Ashi Entry]]** (14% of attempts)
 
-- **[[Outside Ashi Entry]]** → [[Outside Ashi-Garami]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Outside Ashi Entry]]** (12% of attempts)
 
-- **[[Saddle Entry from Top]]** → [[Saddle]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 55%
+- **[[Saddle Entry from Top]]** (9% of attempts)
 
-- **[[50-50 Entry from Standing]]** → [[50-50 Guard]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[50-50 Entry from Standing]]** (11% of attempts)
 
-- **[[Heel Hook]]** → [[Won by Submission]]
-  - Success Rate: Beginner 10%, Intermediate 25%, Advanced 45%
+- **[[Heel Hook]]** (8% of attempts)
 
-- **[[Straight Ankle Lock]]** → [[Straight Ankle Lock Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Straight Ankle Lock]]** (10% of attempts)
 
-- **[[Toe Hold]]** → [[Toe Hold Control]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 50%
+- **[[Toe Hold]]** (8% of attempts)
 
-- **[[Single Leg X Entry]]** → [[Single Leg X-Guard]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Single Leg X Entry]]** (11% of attempts)
 
-- **[[X-Guard Sweep]]** → [[Mount]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[X-Guard Sweep]]** (9% of attempts)
 
 
 ### Common Mistakes
@@ -192,35 +182,26 @@ Historically, the kneebar has existed in grappling arts for centuries, appearing
 - Top position variants offer inherently lower risk than bottom position kneebar attacks
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Kneebar Finish]]** → [[Won by Submission]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 55%
+- **[[Kneebar Finish]]** (9% of attempts)
 
-- **[[Knee Cut Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 80%
+- **[[Knee Cut Pass]]** (13% of attempts)
 
-- **[[Transition to Mount]]** → [[Mount]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Side Control to Mount]]** (11% of attempts)
 
-- **[[Transition to North-South]]** → [[North-South]]
-  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+- **[[Side Control to North-South]]** (12% of attempts)
 
-- **[[Straight Ankle Lock]]** → [[Straight Ankle Lock Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Straight Ankle Lock]]** (11% of attempts)
 
-- **[[Toe Hold]]** → [[Toe Hold Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 60%
+- **[[Toe Hold]]** (10% of attempts)
 
-- **[[Half Guard Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+- **[[Half Guard Pass]]** (12% of attempts)
 
-- **[[Knee on Belly]]** → [[Knee on Belly]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Knee on Belly]]** (11% of attempts)
 
-- **[[Armbar from Mount]]** → [[Armbar Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 65%
+- **[[Armbar from Mount]]** (11% of attempts)
 
 
 ### Common Mistakes

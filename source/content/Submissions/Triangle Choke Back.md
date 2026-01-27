@@ -422,4 +422,14 @@ The Triangle Choke from Back Control requires precise leg positioning, hip mobil
 
 </section>
 
+<section id="terminal-state" class="content-section">
+
+## Match Outcome
+
+Successful execution of Triangle Choke Back leads to → [[game-over|Game Over]]
+
+*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+
+</section>
+
 </main>

@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Old School Sweep | BJJ Technique | BJJ Graph"
 description: "Learn Old School Sweep from Half Guard in BJJ. Step-by-step execution to top position. Success: Beginner 35%, Intermediate 55%, Advanced 70%."
@@ -16,7 +17,7 @@ description: "Learn Old School Sweep from Half Guard in BJJ. Step-by-step execut
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Old School Sweep in BJJ",
-  "description": "Step-by-step guide for Old School Sweep from Half Guard to Side Control.",
+  "description": "Step-by-step guide for Old School Sweep from Half Guard/Bottom. Possible outcomes: Side Control/Top (70%), Half Guard/Bottom (20%), Half Guard/Top (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -160,11 +161,25 @@ description: "Learn Old School Sweep from Half Guard in BJJ. Step-by-step execut
 
 The Old School Sweep is a fundamental half guard technique popularized by 10th Planet's and the 10th Planet system. This sweep capitalizes on the opponent's forward pressure by using an underhook and strategic footwork to off-balance and sweep them. The technique is particularly effective when the opponent is driving forward in an attempt to pass your half guard. By establishing a deep underhook and creating an angle with your body, you can use your opponent's momentum against them. The Old School Sweep is valued for its reliability and mechanical simplicity - it doesn't require exceptional flexibility or athleticism, making it accessible to practitioners of all body types. The sweep flows naturally into dominant top positions and integrates seamlessly with other half guard attacks, creating a threatening offensive system from bottom position.
 
-**Starting Position**: [[Half Guard]]
-**Ending Position**: [[Side Control]]
+**From Position**: [[Half Guard/Bottom]]
 **Success Rates**: Beginner 35%, Intermediate 55%, Advanced 70%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Side Control/Top]] | 70% |
+| Failure | [[Half Guard/Bottom]] | 20% |
+| Counter | [[Half Guard/Top]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

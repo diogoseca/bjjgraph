@@ -36,14 +36,18 @@ CATEGORIES = {
 # Reference fields by category
 REFERENCE_FIELDS = {
     "Positions": {
-        "offensive_transitions": ["target_position"],
-        "defensive_responses": ["target_position"],
-        "related_content": ["name"]
+        "related_content": ["name"],
+        "transitions": ["transition"],
+        "top.transitions": ["transition"],
+        "bottom.transitions": ["transition"]
     },
     "Transitions": {
         "starting_position": ["direct"],
         "ending_position": ["direct"],
-        "related_content": ["name"]
+        "from_position": ["direct"],  # New: role-based format (e.g., "Mount/Bottom")
+        "related_content": ["name"],
+        # New: outcomes array with position references
+        "outcomes": ["to"]
     },
     "Submissions": {
         "from_positions": ["direct"],
@@ -117,10 +121,20 @@ def extract_references_from_field(data, field_path, field_config):
 
 
 def normalize_reference(ref):
-    """Normalize a reference to (category, name) tuple."""
-    # Handle Category/Name format
+    """Normalize a reference to (category, name) tuple.
+
+    Handles two formats:
+    - Category/Name: e.g., "Positions/Mount" -> (category="Positions", name="Mount")
+    - Position/Role: e.g., "Mount/Top" -> (category=None, name="Mount")
+      Role suffixes "Top" and "Bottom" indicate Position/Role format,
+      not Category/Name format.
+    """
     if "/" in ref:
         parts = ref.split("/", 1)
+        # Check if this is Position/Role format (e.g., "Mount/Top", "Closed Guard/Bottom")
+        # The second part being "Top" or "Bottom" means it's a role, not a filename
+        if parts[1] in ('Top', 'Bottom'):
+            return (None, parts[0])
         return (parts[0], parts[1])
 
     # Just a name without category
@@ -151,6 +165,10 @@ def validate_references(data, category, path=""):
         references = extract_references_from_field(data, field_path, field_config)
 
         for ref in references:
+            # Skip special terminal state references
+            if isinstance(ref, str) and ref.lower() in {'game-over', 'won by submission', 'lost by submission'}:
+                continue
+
             # Normalize reference
             ref_category, ref_name = normalize_reference(ref)
 
@@ -269,17 +287,254 @@ def validate_success_rate_ordering(data, path=""):
     if 'success_rates' in data:
         check_rates(data['success_rates'], f"{path}.success_rates")
 
-    # Check offensive_transitions (Positions)
-    if 'offensive_transitions' in data:
-        for i, transition in enumerate(data['offensive_transitions']):
-            if 'success_rates' in transition:
-                check_rates(transition['success_rates'], f"{path}.offensive_transitions[{i}]")
-
     # Check position_metrics (Positions)
     if 'position_metrics' in data:
         for metric_name in ['retention_rate', 'advancement_probability', 'submission_probability']:
             if metric_name in data['position_metrics']:
                 check_rates(data['position_metrics'][metric_name], f"{path}.position_metrics.{metric_name}")
+
+    return errors
+
+
+def validate_attempt_probability_sum(transitions, path=""):
+    """Validate attempt_probability sums to 100% for a transitions array.
+
+    Args:
+        transitions: List of transition objects with attempt_probability field
+        path: Path string for error messages (e.g., "top.transitions")
+
+    Returns:
+        List of error messages
+    """
+    errors = []
+
+    if not transitions or not isinstance(transitions, list):
+        return errors
+
+    # Check if any transition has attempt_probability
+    has_attempt_probability = any(
+        isinstance(t, dict) and 'attempt_probability' in t
+        for t in transitions
+    )
+
+    if not has_attempt_probability:
+        return errors
+
+    total = sum(
+        t.get('attempt_probability', 0)
+        for t in transitions
+        if isinstance(t, dict)
+    )
+
+    if total != 100:
+        errors.append(f"{path}: attempt_probability sum is {total}, should be 100")
+
+    return errors
+
+
+def validate_position_transitions(data, category, content_index, path=""):
+    """Validate transition references in Position JSONs.
+
+    Checks that each referenced transition in top.transitions and bottom.transitions
+    arrays exists as a Transition JSON file.
+
+    Args:
+        data: Position JSON data
+        category: Category name (should be "Positions")
+        content_index: Dict mapping category names to sets of existing files
+        path: Path string for error messages
+
+    Returns:
+        Tuple of (errors, warnings)
+    """
+    errors = []
+    warnings = []
+
+    if category != "Positions":
+        return errors, warnings
+
+    transitions_index = content_index.get("Transitions", set())
+
+    def check_transitions_array(transitions_array, section_path):
+        """Check a transitions array for missing transition references."""
+        if not transitions_array or not isinstance(transitions_array, list):
+            return
+
+        for i, t in enumerate(transitions_array):
+            if not isinstance(t, dict):
+                continue
+
+            transition_name = t.get('transition')
+            if not transition_name:
+                continue
+
+            # Normalize the transition name for lookup
+            # Strip potential path prefixes
+            normalized_name = transition_name.split('/')[-1] if '/' in transition_name else transition_name
+
+            # Check if transition exists
+            found = normalized_name in transitions_index
+
+            # Also check nested paths (e.g., "Folder/Transition Name")
+            if not found:
+                for existing in transitions_index:
+                    if existing.endswith(f"/{normalized_name}") or existing == normalized_name:
+                        found = True
+                        break
+                    # Normalize comparison
+                    existing_name = existing.split('/')[-1] if '/' in existing else existing
+                    if existing_name.lower().replace('-', ' ').replace('_', ' ') == \
+                       normalized_name.lower().replace('-', ' ').replace('_', ' '):
+                        found = True
+                        break
+
+            if not found:
+                warnings.append(
+                    f"{section_path}[{i}].transition: Transition '{transition_name}' not found in Transitions/"
+                )
+
+        # Validate attempt_probability sum
+        prob_errors = validate_attempt_probability_sum(transitions_array, section_path)
+        errors.extend(prob_errors)
+
+    # Check top.transitions
+    if 'top' in data and isinstance(data['top'], dict):
+        check_transitions_array(data['top'].get('transitions'), f"{path}top.transitions")
+
+    # Check bottom.transitions
+    if 'bottom' in data and isinstance(data['bottom'], dict):
+        check_transitions_array(data['bottom'].get('transitions'), f"{path}bottom.transitions")
+
+    # Check root-level transitions (SINGLE positions)
+    if 'transitions' in data and isinstance(data['transitions'], list):
+        check_transitions_array(data['transitions'], f"{path}transitions")
+
+    return errors, warnings
+
+
+def validate_transition_outcomes(data, category, content_index, path=""):
+    """Validate outcomes array in Transition JSONs.
+
+    For Transition JSONs with outcomes array, validates:
+    - outcomes[].probability sums to 100%
+    - Each outcome has valid result (success, failure, or counter)
+    - Each 'to' position reference is valid
+
+    Args:
+        data: Transition JSON data
+        category: Category name (should be "Transitions")
+        content_index: Dict mapping category names to sets of existing files
+        path: Path string for error messages
+
+    Returns:
+        List of error messages
+    """
+    errors = []
+
+    if category != "Transitions":
+        return errors
+
+    outcomes = data.get('outcomes')
+    if not outcomes or not isinstance(outcomes, list):
+        return errors
+
+    positions_index = content_index.get("Positions", set())
+    valid_results = {'success', 'failure', 'counter'}
+
+    # Validate probability sum
+    total_probability = sum(
+        o.get('probability', 0)
+        for o in outcomes
+        if isinstance(o, dict)
+    )
+
+    if total_probability != 100:
+        errors.append(f"{path}outcomes: probability sum is {total_probability}, should be 100")
+
+    # Validate each outcome
+    for i, outcome in enumerate(outcomes):
+        if not isinstance(outcome, dict):
+            errors.append(f"{path}outcomes[{i}]: expected object, got {type(outcome).__name__}")
+            continue
+
+        # Validate result field
+        result = outcome.get('result')
+        if result and result not in valid_results:
+            errors.append(
+                f"{path}outcomes[{i}].result: '{result}' is not valid. "
+                f"Must be one of: {', '.join(sorted(valid_results))}"
+            )
+
+        # Validate 'to' position reference
+        to_position = outcome.get('to')
+        if to_position:
+            # Handle special terminal states
+            if to_position.lower() in {'game-over', 'won by submission', 'lost by submission'}:
+                continue
+
+            # Normalize: extract position name (first part before Role suffix)
+            normalized = to_position.split('/')[0] if '/' in to_position else to_position
+
+            found = normalized in positions_index
+
+            if not found:
+                for existing in positions_index:
+                    existing_name = existing.split('/')[-1] if '/' in existing else existing
+                    if existing_name.lower().replace('-', ' ').replace('_', ' ') == \
+                       normalized.lower().replace('-', ' ').replace('_', ' '):
+                        found = True
+                        break
+
+            if not found:
+                errors.append(
+                    f"{path}outcomes[{i}].to: Position '{to_position}' not found in Positions/"
+                )
+
+    return errors
+
+
+def validate_role_consistency(data, category, path=""):
+    """Validate from_position in Transitions matches valid Position/Role format.
+
+    Valid formats:
+    - "Position Name" (just position)
+    - "Position Name/Top" (position with top role)
+    - "Position Name/Bottom" (position with bottom role)
+
+    Args:
+        data: Transition JSON data
+        category: Category name (should be "Transitions")
+        path: Path string for error messages
+
+    Returns:
+        List of error messages
+    """
+    errors = []
+
+    if category != "Transitions":
+        return errors
+
+    from_position = data.get('from_position')
+    if not from_position:
+        return errors
+
+    valid_roles = {'Top', 'Bottom'}
+
+    # Check format
+    if '/' in from_position:
+        parts = from_position.split('/')
+        if len(parts) == 2:
+            position_name, role = parts
+            if role not in valid_roles:
+                errors.append(
+                    f"{path}from_position: Role '{role}' in '{from_position}' is not valid. "
+                    f"Must be one of: {', '.join(sorted(valid_roles))}"
+                )
+        elif len(parts) > 2:
+            errors.append(
+                f"{path}from_position: '{from_position}' has too many path components. "
+                f"Expected format: 'Position Name' or 'Position Name/Role'"
+            )
 
     return errors
 
@@ -353,15 +608,16 @@ def validate_family_variants(data, json_file_path):
 def validate_json_file(json_path, schema, category, strict=False):
     """Validate a single JSON file against schema"""
     errors = []
+    warnings = []
 
     # Load JSON data
     try:
         with open(json_path, 'r', encoding='utf-8') as f:
             data = json.load(f)
     except FileNotFoundError:
-        return [f"File not found: {json_path}"]
+        return [f"File not found: {json_path}"], []
     except json.JSONDecodeError as e:
-        return [f"Invalid JSON: {e}"]
+        return [f"Invalid JSON: {e}"], []
 
     # Validate against JSON Schema
     try:
@@ -385,7 +641,31 @@ def validate_json_file(json_path, schema, category, strict=False):
     reference_errors = validate_references(data, category, json_path.name)
     errors.extend(reference_errors)
 
-    return errors
+    # Build content index for cross-file validation (cached in function)
+    if not hasattr(validate_json_file, 'content_index'):
+        validate_json_file.content_index = build_content_index()
+    content_index = validate_json_file.content_index
+
+    # Validate Position transitions array (references to Transitions)
+    if category == "Positions":
+        transition_errors, transition_warnings = validate_position_transitions(
+            data, category, content_index, json_path.name + ":"
+        )
+        errors.extend(transition_errors)
+        warnings.extend(transition_warnings)
+
+    # Validate Transition outcomes array
+    if category == "Transitions" and isinstance(data, dict):
+        outcome_errors = validate_transition_outcomes(
+            data, category, content_index, json_path.name + ":"
+        )
+        errors.extend(outcome_errors)
+
+        # Validate role consistency for from_position
+        role_errors = validate_role_consistency(data, category, json_path.name + ":")
+        errors.extend(role_errors)
+
+    return errors, warnings
 
 
 def validate_category(category, strict=False):
@@ -410,28 +690,41 @@ def validate_category(category, strict=False):
     print(f"\nValidating {len(json_files)} files in {category}...")
 
     total_errors = 0
+    total_warnings = 0
     failed_files = []
 
     for json_file in sorted(json_files):
         # Load appropriate schema for this file (Positions uses file-specific detection)
         schema = load_schema(category, json_file)
-        errors = validate_json_file(json_file, schema, category, strict)
+        errors, warnings = validate_json_file(json_file, schema, category, strict)
 
-        if errors:
-            # Show relative path for nested files
-            relative_path = json_file.relative_to(category_path)
+        # Show relative path for nested files
+        relative_path = json_file.relative_to(category_path)
+
+        if errors or (warnings and strict):
             print(f"\n✗ {relative_path}:")
             for error in errors:
-                print(f"  - {error}")
+                print(f"  - ERROR: {error}")
+            for warning in warnings:
+                print(f"  - WARNING: {warning}")
             total_errors += len(errors)
+            if strict:
+                total_errors += len(warnings)
             failed_files.append(str(relative_path))
+        elif warnings:
+            print(f"⚠ {relative_path}:")
+            for warning in warnings:
+                print(f"  - WARNING: {warning}")
+            total_warnings += len(warnings)
         else:
-            relative_path = json_file.relative_to(category_path)
             print(f"✓ {relative_path}")
 
     print(f"\n{'='*60}")
     if total_errors == 0:
-        print(f"✓ {category}: All {len(json_files)} files valid")
+        if total_warnings > 0:
+            print(f"✓ {category}: All {len(json_files)} files valid ({total_warnings} warnings)")
+        else:
+            print(f"✓ {category}: All {len(json_files)} files valid")
         return True
     else:
         print(f"✗ {category}: {len(failed_files)} files failed with {total_errors} errors")
@@ -502,13 +795,20 @@ Examples:
             sys.exit(1)
 
         schema = load_schema(category, json_path)
-        errors = validate_json_file(json_path, schema, category, args.strict)
+        errors, warnings = validate_json_file(json_path, schema, category, args.strict)
 
-        if errors:
+        if errors or (warnings and args.strict):
             print(f"✗ {json_path.name}:")
             for error in errors:
-                print(f"  - {error}")
+                print(f"  - ERROR: {error}")
+            for warning in warnings:
+                print(f"  - WARNING: {warning}")
             sys.exit(1)
+        elif warnings:
+            print(f"⚠ {json_path.name}: Valid with warnings")
+            for warning in warnings:
+                print(f"  - WARNING: {warning}")
+            sys.exit(0)
         else:
             print(f"✓ {json_path.name}: Valid")
             sys.exit(0)

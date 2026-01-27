@@ -21,37 +21,37 @@ description: "Master defensive survival from Rear Triangle Bottom. Learn arm ext
     {
       "@type": "HowToStep",
       "name": "Execute Arm Extraction",
-      "text": "From this position, execute Arm Extraction to transition to Back Control. Success rate for advanced practitioners: 45%.",
+      "text": "From this position, attempt Arm Extraction. This technique is attempted in 19% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Escape",
-      "text": "From this position, execute Triangle Escape to transition to Turtle. Success rate for advanced practitioners: 40%.",
+      "text": "From this position, attempt Triangle Escape. This technique is attempted in 17% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling Escape",
-      "text": "From this position, execute Rolling Escape to transition to Closed Guard. Success rate for advanced practitioners: 35%.",
+      "text": "From this position, attempt Rolling Escape. This technique is attempted in 15% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Stack Defense",
-      "text": "From this position, execute Stack Defense to transition to Defensive Position. Success rate for advanced practitioners: 38%.",
+      "text": "From this position, attempt Stack Defense. This technique is attempted in 16% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Posture Recovery",
-      "text": "From this position, execute Posture Recovery to transition to Back Control. Success rate for advanced practitioners: 35%.",
+      "text": "From this position, attempt Posture Recovery. This technique is attempted in 15% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hand Fighting from Back",
-      "text": "From this position, execute Hand Fighting from Back to transition to Seat Belt Control Back. Success rate for advanced practitioners: 42%.",
+      "text": "From this position, attempt Hand Fighting from Back. This technique is attempted in 18% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -207,77 +207,18 @@ Rear Triangle Bottom is a highly compromised defensive position where the practi
 
 ## Available Escapes
 
-### [[Arm Extraction]] → [[Back Control]]
+### [[Arm Extraction]] (19% of attempts)
 
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 45%
+### [[Triangle Escape]] (17% of attempts)
 
-### [[Triangle Escape]] → [[Turtle]]
+### [[Rolling Escape]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 10%
-- Intermediate: 25%
-- Advanced: 40%
+### [[Stack Defense]] (16% of attempts)
 
-### [[Rolling Escape]] → [[Closed Guard]]
+### [[Posture Recovery]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 8%
-- Intermediate: 20%
-- Advanced: 35%
+### [[Hand Fighting from Back]] (18% of attempts)
 
-### [[Stack Defense]] → [[Defensive Position]]
-
-**Success Rates:**
-- Beginner: 12%
-- Intermediate: 22%
-- Advanced: 38%
-
-### [[Posture Recovery]] → [[Back Control]]
-
-**Success Rates:**
-- Beginner: 10%
-- Intermediate: 20%
-- Advanced: 35%
-
-### [[Hand Fighting from Back]] → [[Seat Belt Control Back]]
-
-**Success Rates:**
-- Beginner: 18%
-- Intermediate: 28%
-- Advanced: 42%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Triangle Choke Back]]** → [[Won by Submission]] (Opponent Success: 65%)
-- **[[Triangle to Armbar]]** → [[Armbar Control]] (Opponent Success: 55%)
-- **[[Rear Naked Choke]]** → [[Won by Submission]] (Opponent Success: 45%)
-- **[[Triangle Setup]]** → [[Triangle Control]] (Opponent Success: 70%)
-- **[[Back Take Generic]]** → [[Back Control]] (Opponent Success: 50%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Arm Extraction Counter]]** → [[Back Control]]
-  - Opponent attempts to tighten triangle while defender extracts trapped arm
-- **[[Posture Break Defense]]** → [[Turtle]]
-  - Opponent breaks defender's posture to finish triangle or transition to armbar
-- **[[Rolling Counter]]** → [[Closed Guard]]
-  - Opponent extends legs or loosens triangle grip during finishing attempt
-- **[[Chin Protection]]** → [[Defensive Position]]
-  - Opponent applies increasing pressure to complete the triangle choke
 
 
 </section>
@@ -288,8 +229,8 @@ Rear Triangle Bottom is a highly compromised defensive position where the practi
 
 **If opponent's triangle is fully locked with ankle behind knee and tight pressure on carotid arteries:**
 - Execute **[[Triangle Escape]]** → [[Back Control]] (Probability: 25%)
-- Execute **[[Arm Extraction]]** → [[Defensive Position]] (Probability: 30%)
-- Execute **[[Tap Out]]** → [[Won by Submission]] (Probability: 45%)
+- Execute **[[Arm Extraction]]** → [[Turtle]] (Probability: 30%)
+- Execute **[[Tap Out]]** → [[game-over]] (Probability: 45%)
 
 
 **If triangle is locked but defender maintains some posture and trapped arm has mobility:**
@@ -301,7 +242,7 @@ Rear Triangle Bottom is a highly compromised defensive position where the practi
 **If opponent transitions to armbar or loosens triangle to adjust position:**
 - Execute **[[Rolling Escape]]** → [[Closed Guard]] (Probability: 40%)
 - Execute **[[Arm Extraction]]** → [[Back Control]] (Probability: 35%)
-- Execute **[[Hand Fighting from Back]]** → [[Defensive Position]] (Probability: 25%)
+- Execute **[[Hand Fighting from Back]]** → [[Turtle]] (Probability: 25%)
 
 
 **If defender successfully extracts trapped arm from triangle structure:**
@@ -400,29 +341,39 @@ Start in fully locked rear triangle bottom position with defender earning 1 poin
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Shortest escape path to neutral
+## Test Your Knowledge
 
-`Rear Triangle Bottom → Arm Extraction → Triangle Escape → Turtle → Turtle to Guard → Closed Guard`
+**Q1**: What is the first priority when caught in a fully locked rear triangle and why?
+**A**: The first priority is to protect your chin by tucking it tightly to your chest and turning your face toward the non-choking leg side. This creates a defensive structure that reduces the effectiveness of the blood choke by protecting the carotid arteries from full compression. Chin protection buys you critical time to work your escape sequence before loss of consciousness.
 
-### High-percentage survival path
+**Q2**: Your opponent starts to angle their hips more aggressively to finish the choke - what adjustment do you make?
+**A**: Grip the opponent's choking leg at the ankle or behind the knee with your free hand to prevent further hip adjustment. Simultaneously attempt to create rotation by turning your body toward the non-choking leg side. Use your trapped arm to push against the opponent's leg rather than trying to pull it out. These combined actions disrupt their finishing angle.
 
-`Rear Triangle Bottom → Chin Protection → Hand Fighting from Back → Arm Extraction → Back Control → Elbow Escape → Side Control → Side Control Escape → Closed Guard`
+**Q3**: Why should you extract the trapped arm before attempting to remove your head from the triangle?
+**A**: The trapped arm is what makes the triangle effective as a choke - it fills the space that would otherwise exist between your neck and the opponent's legs. Attempting to remove your head first actually tightens the choke because it drives your shoulder more deeply into your neck. By extracting the arm first, you eliminate the mechanical wedge and create space for your head to escape.
 
-### Counter-attack path
+**Q4**: What grip priorities should you establish with your free hand when escaping rear triangle?
+**A**: Primary grip is on the opponent's choking leg ankle or behind the knee to prevent tightening and create escape leverage. Secondary grip is on your trapped arm's wrist to assist with arm extraction. Never waste the free hand reaching for your opponent's hands behind your head - this is ineffective and exposes you to wrist control.
 
-`Rear Triangle Bottom → Posture Recovery → Rolling Escape → Closed Guard → Triangle from Closed Guard → Triangle Control → Triangle Choke Front`
+**Q5**: How do you recognize when the triangle is transitioning to an armbar and what is your immediate response?
+**A**: The armbar transition shows when opponent begins extending their hips away while pulling down on your trapped arm and shifting their body perpendicular to yours. Immediate response is to keep your trapped arm bent and tight to your body, clasp your hands together if possible, and turn your body toward the trapped arm side to prevent elbow extension.
 
-### Conservative defensive path
+**Q6**: Your opponent loosens the triangle to adjust position - how do you capitalize on this window?
+**A**: This is your escape opportunity. Immediately work arm extraction by pulling elbow tight to ribs and threading forearm across your centerline. Simultaneously shrimp your hips away and work to insert your knee between bodies. If the triangle is loose enough, you can roll toward the non-choking leg side to escape to guard. Speed is critical during this adjustment window.
 
-`Rear Triangle Bottom → Defensive Position → Stack Defense → Arm Extraction → Back Control → Technical Standup → Standing Position`
+**Q7**: How do you manage breathing and energy when trapped in rear triangle under sustained pressure?
+**A**: Breathe through your nose in controlled patterns rather than gasping through your mouth. Focus on diaphragmatic breathing rather than chest breathing. Conserve energy by using technical movements rather than explosive escape attempts. Accept that escape will take multiple small movements rather than one big effort. Mental composure directly affects your breathing efficiency and escape timing.
+
+**Q8**: After successfully extracting your trapped arm, what is the immediate follow-up to complete the escape?
+**A**: Once the arm is extracted, immediately use it to frame against opponent's hip or leg while shrimping your hips away. Work to insert your bottom knee between your bodies to create a barrier. Continue turning toward the non-choking leg side while maintaining the frame. Target turtle position first as an interim goal, then work to recover guard or stand. Never stop moving once the arm is free.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -445,16 +396,14 @@ Start in fully locked rear triangle bottom position with defender earning 1 poin
 
 - **[[Triangle Control]]** - Opponent's position - top perspective of same configuration
 - **[[Back Control]]** - Common transition target after successful arm extraction
-- **[[Triangle Choke Back]]** - Primary submission threat from this position
+- **[[Triangle Choke]]** - Primary submission threat from this position
 - **[[Armbar Control]]** - Common transition position when opponent switches from triangle
 - **[[Turtle]]** - Escape target position for defensive recovery
 - **[[Triangle Escape]]** - Primary escape technique from this position
-- **[[Submission Defense]]** - Core defensive concept applicable to this position
-- **[[Escape Hierarchy]]** - Conceptual framework for prioritizing escape attempts
-- **[[Triangle from Back]]** - Submission variation applicable from this configuration
+- **[[Arm Extraction]]** - Essential defensive technique for escaping this position
+- **[[Rear Naked Choke]]** - Secondary submission threat opponent may transition to
 - **[[Closed Guard]]** - Alternative escape target for positional reset
-- **[[Defensive Position]]** - Interim protective position during escape sequences
-- **[[Submission Chains]]** - Submission sequence concept that opponent may employ
+- **[[Seat Belt Control Back]]** - Recovery position if triangle is broken but back control maintained
 
 
 </section>

@@ -91,35 +91,26 @@ Double Sleeve Guard is characterized by its emphasis on grip fighting dominance 
 - Use the guard to control tempo and prevent opponent from initiating their passing game
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Scissor Sweep]]** → [[Mount]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Scissor Sweep]]** (12% of attempts)
 
-- **[[Flower Sweep]]** → [[Mount]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Flower Sweep]]** (11% of attempts)
 
-- **[[Pendulum Sweep]]** → [[Mount]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Pendulum Sweep]]** (10% of attempts)
 
-- **[[Spider Guard Sweeps]]** → [[Spider Guard]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Spider Guard Sweeps]]** (15% of attempts)
 
-- **[[Lasso Guard Sweeps]]** → [[Lasso Guard]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Lasso Guard Sweeps]]** (12% of attempts)
 
-- **[[Omoplata Sweep]]** → [[Side Control]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Omoplata Sweep]]** (9% of attempts)
 
-- **[[Triangle Setup]]** → [[Triangle Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Triangle Setup]]** (10% of attempts)
 
-- **[[Elevator Sweep]]** → [[Mount]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Elevator Sweep]]** (11% of attempts)
 
-- **[[De La Riva Sweep]]** → [[De La Riva Guard]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[De La Riva Sweep]]** (10% of attempts)
 
 
 ### Common Mistakes
@@ -177,29 +168,22 @@ Double Sleeve Guard is characterized by its emphasis on grip fighting dominance 
 - Transition between different passing approaches based on how bottom player adjusts their leg positioning and sleeve grip depth
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Toreando Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Toreando Pass]]** (16% of attempts)
 
-- **[[Knee Slice Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Knee Slice Pass]]** (15% of attempts)
 
-- **[[Leg Drag Pass]]** → [[Leg Drag Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Leg Drag Pass]]** (14% of attempts)
 
-- **[[Stack Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Stack Pass]]** (13% of attempts)
 
-- **[[Long Step Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Long Step Pass]]** (14% of attempts)
 
-- **[[X Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[X Pass]]** (15% of attempts)
 
-- **[[Double Under Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Double Under Pass]]** (13% of attempts)
 
 
 ### Common Mistakes

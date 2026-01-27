@@ -21,37 +21,37 @@ description: "Escape Scarf Hold Bottom (Kesa Gatame) in BJJ. Defensive position 
     {
       "@type": "HowToStep",
       "name": "Execute Bridge and Roll",
-      "text": "From this position, execute Bridge and Roll to transition to Scramble Position. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 16% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Elbow Escape",
-      "text": "From this position, execute Elbow Escape to transition to Half Guard. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Elbow Escape. This technique is attempted in 18% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape",
-      "text": "From this position, execute Hip Escape to transition to Closed Guard. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Hip Escape. This technique is attempted in 15% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Ghost Escape",
-      "text": "From this position, execute Ghost Escape to transition to Turtle. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Ghost Escape. This technique is attempted in 16% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Frame and Shrimp",
-      "text": "From this position, execute Frame and Shrimp to transition to Open Guard. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Frame and Shrimp. This technique is attempted in 16% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Turtle Transition",
-      "text": "From this position, execute Turtle Transition to transition to Turtle. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Turtle Transition. This technique is attempted in 19% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -213,77 +213,18 @@ Scarf Hold Bottom presents both immediate submission dangers through arm locks (
 
 ## Available Escapes
 
-### [[Bridge and Roll]] → [[Scramble Position]]
+### [[Bridge and Roll]] (16% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Elbow Escape]] (18% of attempts)
 
-### [[Elbow Escape]] → [[Half Guard]]
+### [[Hip Escape]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Ghost Escape]] (16% of attempts)
 
-### [[Hip Escape]] → [[Closed Guard]]
+### [[Frame and Shrimp]] (16% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
+### [[Turtle Transition]] (19% of attempts)
 
-### [[Ghost Escape]] → [[Turtle]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 60%
-
-### [[Frame and Shrimp]] → [[Open Guard]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[Turtle Transition]] → [[Turtle]]
-
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Transition to Mount]]** → [[Mount]] (Opponent Success: 40%)
-- **[[Transition to North-South]]** → [[North-South]] (Opponent Success: 35%)
-- **[[Americana from Side Control]]** → [[Americana Control]] (Opponent Success: 30%)
-- **[[Kimura from Side Control]]** → [[Kimura Control]] (Opponent Success: 25%)
-- **[[Armbar from Side Control]]** → [[Armbar Control]] (Opponent Success: 20%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Re-Guard]]** → [[Half Guard]]
-  - Opponent releases head control to transition or attack submission
-- **[[Granby Roll]]** → [[Turtle]]
-  - Opponent shifts weight forward toward your head creating space near hips
-- **[[Technical Standup]]** → [[Standing Position]]
-  - Opponent's base becomes narrow or they over-commit to one side
-- **[[Ghost Escape]]** → [[Turtle]]
-  - Opponent sits heavily backward creating space between chest and hips
 
 
 </section>
@@ -295,7 +236,7 @@ Scarf Hold Bottom presents both immediate submission dangers through arm locks (
 **If opponent maintains tight control with heavy hip pressure and secure head control without attacking submissions:**
 - Execute **[[Frame and Shrimp]]** → [[Half Guard]] (Probability: 45%)
 - Execute **[[Elbow Escape]]** → [[Half Guard]] (Probability: 50%)
-- Execute **[[Create frames and establish breathing space]]** → [[Scarf Hold Position Bottom]] (Probability: 60%)
+- Execute **[[Create frames and establish breathing space]]** → [[Scarf Hold Position]] (Probability: 60%)
 
 
 **If opponent shifts weight forward attempting to transition to mount or north-south:**
@@ -365,43 +306,60 @@ Scarf Hold Bottom presents both immediate submission dangers through arm locks (
 
 Partner establishes solid scarf hold with controlled pressure. Bottom player works through four-phase escape sequence for 2-minute rounds: Phase 1 (0-30 seconds) establish defensive frames and protect neck; Phase 2 (30-60 seconds) create hip movement and attack opponent's base; Phase 3 (60-90 seconds) execute bridge-and-roll attempts; Phase 4 (90-120 seconds) chain escapes together based on opponent's defensive reactions. Partner gradually increases resistance across rounds. Perform 5 rounds with 1-minute rest between rounds.
 
+**Duration**: 2 minutes
 
 
 ### Bridge-and-Roll Mechanics from Scarf Hold
 
 Isolate and refine the bridge-and-roll escape specific to scarf hold positioning. Partner maintains scarf hold control while bottom player practices three-step sequence: Step 1 - Grab opponent's far arm or gi with free hand; Step 2 - Pull opponent off balance while initiating bridge; Step 3 - Roll opponent over shoulder to reverse position. Begin with cooperative drilling (15 reps), progress to moderate resistance (15 reps), finish with full resistance (10 attempts). Focus on timing, grip strength, and coordinated explosive power.
 
+**Duration**: 5 minutes
 
 
 ### Scarf Hold to Turtle Transition Drilling
 
 Specific training for transitioning from scarf hold bottom to turtle position. Partner maintains scarf hold with moderate pressure. Bottom player practices ghost escape mechanics, turning into opponent's back, and achieving turtle position with good defensive posture. Emphasize smooth weight transfer, maintaining connection to opponent, and immediately establishing strong turtle base. Perform 20 successful transitions, alternating sides every 5 repetitions.
 
+**Duration**: 3 minutes
 
 
 
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Defensive position - escape focused
+## Test Your Knowledge
 
-`Primary goal is escaping to neutral or advantageous positions rather than submitting from bottom`
+**Q1**: Why are standard side control shrimping escapes ineffective from scarf hold bottom?
+**A**: The perpendicular angle of scarf hold makes lateral hip movement ineffective because your hips are moving parallel to the opponent's body rather than away from their pressure. In standard side control, shrimping creates distance perpendicular to opponent's chest. In scarf hold, the opponent sits T-shaped across you, so lateral movement just slides along their body without creating escape space. Bridge-and-turn mechanics are required instead because they exploit the perpendicular angle by rotating toward or away from the opponent.
 
-### Reversal to submission path
+**Q2**: Your opponent has heavy hip pressure on your ribs making breathing difficult - what is your immediate priority?
+**A**: First priority is establishing a frame with your free arm against their head and shoulder to create minimal breathing space and prevent complete smothering. Turn your body slightly toward them to angle your ribs and reduce direct compression. Focus on controlled diaphragmatic breathing using your belly rather than chest expansion. Do not waste energy on explosive escapes while oxygen-deprived. Once you can breathe adequately, begin systematically working escape progressions.
 
-`Scarf Hold Position Bottom → Bridge and Roll → Scramble Position → Top position → Submissions`
+**Q3**: What are the key frames you must establish before attempting any escape from scarf hold?
+**A**: Primary frame is your far arm (free arm) positioned against opponent's head/neck and shoulder to prevent complete smothering and maintain breathing space. Secondary frame involves protecting your neck by tucking chin and using near-side hand if possible to prevent deep crossface. Third frame is using your bottom leg to hook opponent's near leg, preventing mount transition and creating a barrier. These frames must be established before attempting escapes to prevent submission attacks during your escape attempts.
 
-### Back attack opportunity
+**Q4**: Your opponent shifts their weight forward to transition to mount - what escape opportunity does this create?
+**A**: Forward weight shift creates space between their hips and your lower body, enabling backdoor escapes. Execute ghost escape by turning into them and coming to your knees as their forward momentum carries past you. Alternatively, use granby roll mechanics to invert toward their legs and recover guard. The key is timing - as their weight commits forward, their base near your hips weakens significantly. Move immediately when you feel the weight shift rather than waiting for them to complete the transition.
 
-`Scarf Hold Position Bottom → Ghost Escape → Turtle → Back Control → Rear Naked Choke → Won by Submission`
+**Q5**: How do you set up and execute the bridge-and-roll escape specific to scarf hold?
+**A**: First, grab opponent's far arm or gi material with your free hand and pull it across your body to remove their posting ability. Hook their near leg with your bottom leg to prevent them from basing out. Bump your hips toward them slightly to load their weight, then explosively bridge at 45-degree angle toward their trapped arm side while rolling them over their shoulder. The perpendicular angle means you're rolling them sideways rather than head-over-heels. Maintain the arm trap throughout the roll to prevent them from posting.
+
+**Q6**: What timing windows should you recognize for escape attempts from scarf hold bottom?
+**A**: Primary windows occur when opponent releases head control to attack submissions - this momentarily frees your head mobility for escape mechanics. Second window is when they shift weight to transition positions, creating space on one side. Third window is when they reach for grips or adjust arm control, weakening their structural connection. Fourth window follows their unsuccessful submission attempt when they must reset. Recognize these windows through feeling weight shifts and grip changes rather than visual cues.
+
+**Q7**: Your opponent begins attacking americana on your trapped arm - how do you defend while setting up escape?
+**A**: Immediately straighten your trapped arm and turn your thumb toward the ceiling to prevent the figure-four grip completion. Grip your own thigh or belt with the threatened hand to anchor it. The americana attack requires them to release some head control, creating an escape window. As they commit to the submission, use their compromised position to execute hip escape toward your free side or bridge-and-roll while their arms are occupied with the attack rather than base.
+
+**Q8**: How do you manage energy conservation while escaping from scarf hold over extended periods?
+**A**: Prioritize breathing and frame maintenance over escape attempts when heavily controlled. Work escapes in bursts using tactical timing windows rather than constant struggling. Chain escape attempts efficiently - if bridge fails, immediately flow to ghost escape or guard recovery rather than resetting and burning energy. Accept turtle position as valid intermediate escape rather than fighting for guard from disadvantaged angles. Rest between attempts while maintaining minimal defensive frames.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -431,7 +389,6 @@ Specific training for transitioning from scarf hold bottom to turtle position. P
 - **[[Turtle]]** - Primary escape target offering defensive stability
 - **[[Half Guard]]** - Primary guard recovery target for partial escape
 - **[[Bridge and Roll]]** - Primary escape technique requiring explosive power
-- **[[Escape Hierarchy]]** - Framework for prioritizing escape attempts by success probability
 
 
 </section>

@@ -86,11 +86,10 @@ description: "{{ description }}"
 - {{ principle }}
 {% endfor %}
 
-### Primary Techniques
+### Available Transitions
 
-{% for technique in bottom_summary.offensive_transitions %}
-- **[[{{ technique.technique }}]]** → [[{{ technique.target_position }}]]
-  - Success Rate: Beginner {{ technique.success_rates.beginner }}%, Intermediate {{ technique.success_rates.intermediate }}%, Advanced {{ technique.success_rates.advanced }}%
+{% for t in bottom_summary.transitions %}
+- **[[{{ t.transition }}]]** ({{ t.attempt_probability }}% of attempts)
 {% endfor %}
 
 ### Common Mistakes
@@ -116,11 +115,10 @@ description: "{{ description }}"
 - {{ principle }}
 {% endfor %}
 
-### Primary Techniques
+### Available Transitions
 
-{% for technique in top_summary.offensive_transitions %}
-- **[[{{ technique.technique }}]]** → [[{{ technique.target_position }}]]
-  - Success Rate: Beginner {{ technique.success_rates.beginner }}%, Intermediate {{ technique.success_rates.intermediate }}%, Advanced {{ technique.success_rates.advanced }}%
+{% for t in top_summary.transitions %}
+- **[[{{ t.transition }}]]** ({{ t.attempt_probability }}% of attempts)
 {% endfor %}
 
 ### Common Mistakes

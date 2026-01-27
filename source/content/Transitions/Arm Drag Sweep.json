@@ -10,8 +10,6 @@
     "back-take",
     "off-balancing"
   ],
-  "starting_position": "Closed Guard",
-  "ending_position": "Back Control",
   "success_rates": {
     "beginner": 45,
     "intermediate": 60,
@@ -262,6 +260,24 @@
     {
       "name": "Grip Fighting",
       "relationship": "Essential skill for establishing and maintaining arm drag grips"
+    }
+  ],
+  "from_position": "Closed Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Back Control/Top",
+      "probability": 75,
+      "result": "success"
+    },
+    {
+      "to": "Closed Guard/Bottom",
+      "probability": 15,
+      "result": "failure"
+    },
+    {
+      "to": "Closed Guard/Top",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

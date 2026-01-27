@@ -1,5 +1,6 @@
-{# BJJ Transition Template V3 - Jinja2 #}
+{# BJJ Transition Template V4 - Jinja2 #}
 {# Generates markdown from TEMPLATE.json data with auto-generated schema markup #}
+{# Supports outcomes-based schema with from_position and multiple outcome probabilities #}
 {# A/B Testing: variant-a-show/variant-b-hide CSS classes for section testing #}
 
 ---
@@ -16,7 +17,7 @@ description: "{{description}}"
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute {{name}} in BJJ",
-  "description": "Step-by-step guide for {{name}} from {{starting_position}} to {{ending_position}}.",
+  "description": "Step-by-step guide for {{name}} from {{from_position}}. Possible outcomes: {% for outcome in outcomes %}{{outcome.to}} ({{outcome.probability}}%){{ ', ' if not loop.last else '' }}{% endfor %}.",
   "step": [
     {%- for step in execution_steps[:8] %}
     {
@@ -99,18 +100,46 @@ description: "{{description}}"
 
 {{overview}}
 
-**Starting Position**: [[{{starting_position}}]]
-**Ending Position**: [[{{ending_position}}]]
+**From Position**: [[{{from_position}}]]
 **Success Rates**: Beginner {{success_rates.beginner}}%, Intermediate {{success_rates.intermediate}}%, Advanced {{success_rates.advanced}}%
 
 </section>
 
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+{% for outcome in outcomes -%}
+| {{ outcome.result | capitalize }} | [[{{ outcome.to }}]] | {{ outcome.probability }}% |
+{% endfor %}
+
+</section>
+
+{% if conditions %}
+<section id="conditions" class="content-section">
+
+## Conditions for Attempt
+{% for condition in conditions -%}
+- {{ condition }}
+{% endfor %}
+
+</section>
+{% endif %}
+
 <section id="key-principles" class="content-section">
 
 ## Key Principles
-{% for principle in key_principles -%}
-- {{principle}}
+{% if principles -%}
+{% for principle in principles -%}
+- [[Principles/{{ principle }}|{{ principle }}]]
 {% endfor %}
+{%- elif key_principles -%}
+{% for principle in key_principles -%}
+- {{ principle }}
+{% endfor %}
+{%- endif %}
 
 </section>
 

@@ -93,26 +93,18 @@ From the top perspective, Pocket Half Guard Top represents a dominant pressure-p
 - Prevent crossface at all costs - opponent's crossface combined with underhook stripping leads to flattening and successful passing
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Old School Sweep]]** → [[Mount]]
-  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+- **[[Old School Sweep]]** (25% of attempts)
 
-- **[[Back Take Generic]]** → [[Back Control]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Back Take Generic]]** (20% of attempts)
 
-- **[[Deep Half Entry]]** → [[Deep Half Guard]]
-  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 80%
+- **[[Deep Half Entry]]** (22% of attempts)
 
-- **[[Underhook Sweep from Half]]** → [[Side Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Underhook Sweep from Half]]** (18% of attempts)
 
-- **[[Electric Chair Submission]]** → [[Electric Chair]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
-
-- **[[Transition to Truck]]** → [[Truck]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Electric Chair Submission]]** (15% of attempts)
 
 
 ### Common Mistakes
@@ -168,26 +160,18 @@ From the top perspective, Pocket Half Guard Top represents a dominant pressure-p
 - Coordinate pressure and movement to prevent the bottom player from coming to their side, which would allow them to establish better frames and potentially sweep or re-guard
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Knee Slice Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 75%
+- **[[Knee Slice Pass]]** (22% of attempts)
 
-- **[[Smash Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 70%
+- **[[Smash Pass]]** (20% of attempts)
 
-- **[[Transition to Mount]]** → [[Mount]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Side Control to Mount]]** (18% of attempts)
 
-- **[[Side Control to Mount]]** → [[Side Control]]
-  - Success Rate: Beginner 55%, Intermediate 70%, Advanced 80%
+- **[[Underhook Pass]]** (20% of attempts)
 
-- **[[Underhook Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 75%
-
-- **[[Back Take Generic]]** → [[Back Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Back Take Generic]]** (20% of attempts)
 
 
 ### Common Mistakes
@@ -242,7 +226,7 @@ From the top perspective, Pocket Half Guard Top represents a dominant pressure-p
 
 - **[[Back Control]]** - Common advancement target via back-take from bottom underhook
 
-- **[[Underhook Control]]** - Core control concept defining this position's effectiveness
+- **[[Overhook Control]]** - Alternative control concept when underhook is lost
 
 - **[[Combat Base]]** - Position opponent uses to defend against pocket half guard attacks
 

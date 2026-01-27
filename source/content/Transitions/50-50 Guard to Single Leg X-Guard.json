@@ -1,0 +1,273 @@
+{
+  "name": "50-50 Guard to Single Leg X-Guard",
+  "description": "Learn 50-50 Guard to Single Leg X-Guard transition. Escape leg entanglement to sweeping position. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "tags": [
+    "bjj",
+    "transition",
+    "technique",
+    "leg-entanglement",
+    "guard",
+    "sweep-setup"
+  ],
+  "from_position": "50-50 Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Single Leg X-Guard",
+      "probability": 65,
+      "result": "success"
+    },
+    {
+      "to": "50-50 Guard",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "50-50 Guard",
+      "probability": 10,
+      "result": "counter"
+    }
+  ],
+  "success_rates": {
+    "beginner": 30,
+    "intermediate": 50,
+    "advanced": 65
+  },
+  "overview": "The 50-50 Guard to Single Leg X-Guard transition represents a strategic positional upgrade that transforms a symmetrical leg entanglement into an asymmetrical sweeping platform. From the defensive 50-50 bottom position, this technique extracts your outside leg while maintaining control of opponent's leg, allowing you to establish the powerful Single Leg X-Guard configuration.\n\nThis transition is particularly valuable when facing opponents with superior heel hook attacks or when the 50-50 has become stalemated. Rather than fighting for inside position parity or attempting counter-attacks from disadvantage, this movement shifts the game entirely to a position favoring sweeps and stand-ups. The Single Leg X-Guard offers immediate access to technical stand-up, X-Guard sweeps, and leg drag opportunities that the symmetric 50-50 cannot provide.\n\nTiming is critical for this transition. The optimal window occurs when opponent focuses on attacking your heel or when they momentarily release hip pressure to adjust their position. The movement requires coordinated leg extraction, hip repositioning, and immediate hook establishment to prevent opponent from following into your new position or returning to neutral.",
+  "key_principles": [
+    "Extract outside leg first while maintaining inside hook control on opponent's trapped leg",
+    "Use hip escape motion to create space for leg repositioning rather than pulling directly",
+    "Establish butterfly hook behind opponent's knee before fully clearing 50-50 entanglement",
+    "Control opponent's ankle with both hands throughout transition to prevent disengagement",
+    "Keep hips low and angled during extraction to prevent opponent from driving forward",
+    "Time the transition when opponent reaches for heel or shifts weight to attack"
+  ],
+  "setup_requirements": [
+    "Your heel is currently defended or hidden from immediate attack",
+    "Opponent's weight has shifted forward or they are reaching for submissions",
+    "You have grip control on opponent's ankle or lower leg",
+    "Space exists to begin hip escape motion without immediate counter-attack",
+    "Your inside hook maintains connection to opponent's leg throughout"
+  ],
+  "execution_steps": [
+    {
+      "step_number": 1,
+      "action": "Defend heel and control ankle",
+      "description": "Ensure your heel is hidden by rotating knee inward. Establish two-handed grip on opponent's ankle or Achilles area to control their leg throughout the transition.",
+      "timing": "Before initiating any movement"
+    },
+    {
+      "step_number": 2,
+      "action": "Hip escape to create angle",
+      "description": "Execute a strong hip escape away from opponent, driving your hips toward their trapped foot side. This creates the space needed to begin extracting your outside leg from the entanglement.",
+      "timing": "When opponent reaches for heel or shifts weight"
+    },
+    {
+      "step_number": 3,
+      "action": "Extract outside leg",
+      "description": "While maintaining hip escape angle, pull your outside leg free from the 50-50 configuration by straightening it and sliding it underneath opponent's trapped leg.",
+      "timing": "Immediately following hip escape"
+    },
+    {
+      "step_number": 4,
+      "action": "Establish butterfly hook",
+      "description": "As your leg clears, immediately position your foot as a butterfly hook behind opponent's knee on their trapped leg side. This hook becomes your primary control point.",
+      "timing": "Before opponent can react to leg extraction"
+    },
+    {
+      "step_number": 5,
+      "action": "Position inside leg as X-hook",
+      "description": "Your inside leg (previously in 50-50 configuration) transitions to cross behind opponent's heel, creating the characteristic X-Guard hook configuration with foot on hip or inner thigh.",
+      "timing": "Coordinated with butterfly hook establishment"
+    },
+    {
+      "step_number": 6,
+      "action": "Secure Single Leg X-Guard",
+      "description": "Finalize the position by ensuring both hooks are secure, ankle grip is maintained, and your hips are positioned underneath opponent's base. You should now be in a strong Single Leg X-Guard ready to sweep.",
+      "timing": "Complete within 2-3 seconds of initial movement"
+    }
+  ],
+  "common_counters": [
+    {
+      "counter": "Opponent drives hips forward to maintain 50-50",
+      "effectiveness": "High",
+      "your_response": "Use their forward drive to accelerate your hip escape and load them onto your hooks for immediate sweep"
+    },
+    {
+      "counter": "Opponent backsteps to disengage entirely",
+      "effectiveness": "Medium",
+      "your_response": "Follow with technical stand-up since they've abandoned leg control, or transition to standing guard"
+    },
+    {
+      "counter": "Opponent attacks heel during transition",
+      "effectiveness": "High",
+      "your_response": "Abort transition and return to heel defense; this counter is why proper timing is essential"
+    },
+    {
+      "counter": "Opponent posts on your hips to prevent repositioning",
+      "effectiveness": "Medium",
+      "your_response": "Use their extended arm as leverage point for sweep or arm drag to back take"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "Attempting transition while heel is exposed to attack",
+      "consequence": "Immediate heel hook submission risk during the movement when your defensive structure is compromised",
+      "correction": "Always verify heel is hidden and opponent's grip is broken before initiating transition"
+    },
+    {
+      "error": "Releasing ankle control during leg extraction",
+      "consequence": "Opponent disengages entirely, returning to neutral standing or establishing dominant position",
+      "correction": "Maintain two-handed grip on opponent's ankle throughout entire transition sequence"
+    },
+    {
+      "error": "Failing to establish butterfly hook before completing extraction",
+      "consequence": "Creates dead space where you have no control and opponent can pass or reset position",
+      "correction": "Make butterfly hook placement the priority immediately as outside leg clears"
+    },
+    {
+      "error": "Keeping hips high during transition",
+      "consequence": "Allows opponent to drive forward and smash through your guard recovery attempt",
+      "correction": "Keep hips low and use hip escape motion; the angle protects from forward pressure"
+    },
+    {
+      "error": "Rushing transition without proper timing",
+      "consequence": "Opponent is ready and counters with heel attack or position recovery before you complete the movement",
+      "correction": "Wait for opponent to commit to attack or adjust position before initiating"
+    }
+  ],
+  "training_progressions": [
+    {
+      "phase": "Week 1-2",
+      "focus": "Fundamentals",
+      "description": "Practice leg extraction and hook placement mechanics from static 50-50 position. Partner provides no resistance. Focus on understanding the hip escape angle and hook placement sequence.",
+      "resistance_level": "None"
+    },
+    {
+      "phase": "Week 3-4",
+      "focus": "Timing",
+      "description": "Partner simulates reaching for heel attacks while you identify timing windows. Practice recognizing when opponent commits to attack and executing transition in that moment.",
+      "resistance_level": "Light"
+    },
+    {
+      "phase": "Week 5-6",
+      "focus": "Combinations",
+      "description": "Chain the transition with Single Leg X-Guard sweeps and technical stand-ups. Add contingencies for when transition fails and you must return to 50-50 defense.",
+      "resistance_level": "Medium"
+    },
+    {
+      "phase": "Week 7+",
+      "focus": "Live application",
+      "description": "Incorporate into live rolling starting from 50-50 bottom. Test against training partners with strong leg lock games. Develop intuitive timing recognition.",
+      "resistance_level": "Full"
+    }
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Direct to Technical Stand-Up",
+      "description": "Instead of establishing Single Leg X-Guard, use the extraction momentum to immediately stand while maintaining ankle control, forcing opponent to deal with standing passer",
+      "when_to_use": "When opponent is off-balance or you have superior grip on their ankle"
+    },
+    {
+      "variant_name": "Full X-Guard Entry",
+      "description": "Continue movement past Single Leg X to establish full X-Guard with both hooks behind opponent's legs for higher-amplitude sweeps",
+      "when_to_use": "Against heavier opponents where Single Leg X sweep power is insufficient"
+    },
+    {
+      "variant_name": "Honey Hole Transition",
+      "description": "If opponent's heel becomes exposed during extraction, abandon Single Leg X entry and immediately secure Honey Hole position for heel hook attack",
+      "when_to_use": "When opponent's defensive posture breaks during your transition"
+    }
+  ],
+  "knowledge_assessment": [
+    {
+      "question": "What is the primary strategic goal of transitioning from 50-50 to Single Leg X-Guard?",
+      "answer": "The primary goal is converting a symmetrical defensive position into an asymmetrical attacking platform. While 50-50 bottom places you at submission risk with limited offensive options, Single Leg X-Guard provides immediate access to high-percentage sweeps, technical stand-ups, and passing opportunities without heel hook danger.",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "What position must your heel be in before attempting this transition?",
+      "answer": "Your heel must be hidden and defended with your knee rotated inward before initiating any transition. The movement temporarily compromises your defensive structure, making it critical that opponent does not have grip access to your heel when you begin.",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "What are the essential grips needed throughout the 50-50 to Single Leg X-Guard transition?",
+      "answer": "Two-handed control on opponent's ankle or Achilles area is essential throughout the entire transition. This grip prevents opponent from disengaging during your positional change and provides the control needed to establish Single Leg X-Guard hooks. Never release both hands simultaneously.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "Your opponent drives their hips forward as you begin extracting your leg - how do you adapt?",
+      "answer": "Use their forward drive to accelerate your transition. Their forward momentum loads them onto your hooks, creating immediate sweep opportunity. Continue establishing your butterfly hook while using their drive to elevate and off-balance them. This counter becomes an advantage rather than a problem.",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "When is the optimal timing window to initiate this transition?",
+      "answer": "The optimal window occurs when opponent commits to attacking your heel (their focus shifts from position maintenance to submission) or when they release hip pressure to adjust their grips. Both moments create brief windows where their defensive reactions to your movement are delayed.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "What is the correct sequence for establishing hooks during the transition?",
+      "answer": "First, maintain inside hook control on opponent's leg throughout. Second, establish butterfly hook behind their knee immediately as your outside leg clears. Third, position your inside leg as the X-hook behind their heel with foot on hip. The butterfly hook is priority because it prevents opponent following into your new position.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "How does hip positioning differ between 50-50 and the transitional movement?",
+      "answer": "In 50-50 bottom, hips are relatively flat and low. During transition, you execute a strong hip escape creating lateral angle rather than vertical elevation. This hip escape motion creates space for leg extraction while the angle prevents opponent from driving forward through your guard.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "What should you do if opponent begins attacking your heel mid-transition?",
+      "answer": "Immediately abort the transition and return to heel defense. Pull your extracting leg back, rotate knee inward, and fight their grips. This is why timing is critical - attempting the transition when opponent is poised to attack rather than when they are committed to attacking creates exactly this dangerous scenario.",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "What follow-up attacks are available immediately upon establishing Single Leg X-Guard?",
+      "answer": "Immediate options include: technical stand-up to passing position, X-Guard sweep by elevating and driving opponent backward, single leg takedown by standing with their leg, and leg drag pass by controlling their ankle and stepping around. The position is a launching platform, not a destination.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "Why is this transition preferable to fighting for inside position in 50-50?",
+      "answer": "Fighting for inside position in 50-50 is energy-intensive with uncertain results against skilled opponents. This transition completely changes the positional dynamic rather than competing within it. The Single Leg X-Guard removes heel hook danger while creating sweep opportunities that don't exist in 50-50 bottom.",
+      "difficulty": "Advanced"
+    }
+  ],
+  "safety_considerations": "This transition involves leg entanglement positions where knee injuries are possible if movements are rushed or forced. Practice with controlled speed initially and ensure training partners understand tap signals for any knee discomfort. The 50-50 starting position carries inherent heel hook risk - never attempt this transition if opponent has a strong grip on your heel, as the movement can exacerbate rotational force on your knee. Both practitioners should have clear communication about training intensity, and beginners should only practice this technique under instructor supervision until proper mechanics are established.",
+  "position_integration": "The 50-50 to Single Leg X-Guard transition occupies a critical junction in the leg entanglement system. When 50-50 bottom becomes untenable due to opponent's superior inside position or heel hook threat, this transition provides an exit that maintains offensive potential. Rather than accepting a defensive stalemate or risking submission, the practitioner redirects to Single Leg X-Guard where sweeps become the primary threat. This fits within a broader strategic framework where guard positions flow based on opponent reactions - if 50-50 attacks succeed, pursue them; if they stall or become defensive, transition to sweeping platforms. The movement also connects to standing sequences, as Single Leg X-Guard readily converts to technical stand-ups when sweeps are defended.",
+  "related_content": [
+    {
+      "name": "50-50 Guard",
+      "relationship": "Starting position"
+    },
+    {
+      "name": "Single Leg X-Guard",
+      "relationship": "Target position"
+    },
+    {
+      "name": "X-Guard",
+      "relationship": "Related guard with similar sweep mechanics"
+    },
+    {
+      "name": "Inside Ashi-Garami",
+      "relationship": "Alternative leg entanglement option from 50-50"
+    },
+    {
+      "name": "Technical Stand Up",
+      "relationship": "Follow-up option from Single Leg X-Guard"
+    },
+    {
+      "name": "Inside Heel Hook",
+      "relationship": "Primary threat this transition avoids"
+    },
+    {
+      "name": "Butterfly Sweep",
+      "relationship": "Follow-up sweep from Single Leg X-Guard"
+    },
+    {
+      "name": "Leg Drag Pass",
+      "relationship": "Alternative follow-up pass from Single Leg X-Guard"
+    },
+    {
+      "name": "50-50 Guard to Inside Ashi",
+      "relationship": "Alternative transition from same starting position"
+    }
+  ]
+}

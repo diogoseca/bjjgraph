@@ -10,8 +10,6 @@
     "rolling",
     "momentum"
   ],
-  "starting_position": "Standing Position",
-  "ending_position": "Closed Guard",
   "success_rates": {
     "beginner": 35,
     "intermediate": 50,
@@ -280,6 +278,24 @@
     {
       "name": "Guard Retention",
       "relationship": "Fundamental principle applied immediately after roll completes"
+    }
+  ],
+  "from_position": "Standing Position/Top",
+  "outcomes": [
+    {
+      "to": "Closed Guard/Bottom",
+      "probability": 65,
+      "result": "success"
+    },
+    {
+      "to": "Standing Position/Top",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Standing Position/Bottom",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

@@ -93,32 +93,24 @@ Backside 50-50 has become increasingly relevant in modern no-gi competition as l
 - Space Creation Through Frames: Use frames and movement to prevent opponent from flattening you completely
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Rolling Back Take]]** → [[Back Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 60%
+- **[[Rolling Back Take]]** (13% of attempts)
 
-- **[[50-50 Pass]]** → [[50-50 Guard]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 70%
+- **[[50-50 Pass]]** (13% of attempts)
 
-- **[[Inside Heel Hook]]** → [[Won by Submission]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 55%
+- **[[Inside Heel Hook]]** (12% of attempts)
 
-- **[[Outside Heel Hook]]** → [[Won by Submission]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 50%
+- **[[Outside Heel Hook]]** (11% of attempts)
 
-- **[[Straight Ankle Lock]]** → [[Won by Submission]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Straight Ankle Lock]]** (12% of attempts)
 
-- **[[X-Guard to Ashi Transition]]** → [[Inside Ashi-Garami]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 65%
+- **[[X-Guard to Ashi Transition]]** (14% of attempts)
 
-- **[[Saddle Defense]]** → [[Saddle]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 55%
+- **[[Saddle Defense]]** (12% of attempts)
 
-- **[[Standing up in Base]]** → [[Standing Position]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 60%
+- **[[Standing up in Base]]** (13% of attempts)
 
 
 ### Common Mistakes
@@ -176,32 +168,24 @@ Backside 50-50 has become increasingly relevant in modern no-gi competition as l
 - Timing Recognition: Identify when to commit to submissions versus when to advance position based on opponent's defensive priorities
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Inside Heel Hook]]** → [[Won by Submission]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Inside Heel Hook]]** (11% of attempts)
 
-- **[[Outside Heel Hook]]** → [[Won by Submission]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+- **[[Outside Heel Hook]]** (10% of attempts)
 
-- **[[Toe Hold]]** → [[Won by Submission]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Toe Hold]]** (12% of attempts)
 
-- **[[Straight Ankle Lock]]** → [[Won by Submission]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Straight Ankle Lock]]** (14% of attempts)
 
-- **[[Back Take Generic]]** → [[Back Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Back Take Generic]]** (16% of attempts)
 
-- **[[Saddle Entry from Top]]** → [[Saddle]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Saddle Entry from Top]]** (14% of attempts)
 
-- **[[Kneebar]]** → [[Won by Submission]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Kneebar]]** (11% of attempts)
 
-- **[[50-50 Pass]]** → [[Leg Drag Position]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[50-50 Pass]]** (12% of attempts)
 
 
 ### Common Mistakes

@@ -230,7 +230,7 @@
     },
     {
       "question": "What are the primary anatomical targets and injury risks of the monoplata?",
-      "answer": "The monoplata primarily targets the shoulder joint, specifically attacking through external rotation and compression. The major injury risks include rotator cuff tears, shoulder dislocation (which can lead to chronic instability), labrum damage, and AC joint sprains. The rotator cuff and labrum injuries are particularly serious as they often require surgical intervention and extended recovery periods of 6+ months.",
+      "answer": "The monoplata primarily targets the shoulder joint, specifically attacking through external rotation and compression of the joint capsule. The major injury risks include rotator cuff tears, shoulder dislocation (which can lead to chronic instability), labrum damage, and AC joint sprains. The rotator cuff and labrum injuries are particularly serious as they often require surgical intervention and extended recovery periods of 6+ months.",
       "safety_critical": true
     },
     {
@@ -256,6 +256,31 @@
     {
       "question": "How does the monoplata differ from a traditional omoplata in terms of mechanics and control?",
       "answer": "The traditional omoplata typically requires you to roll the opponent forward or rotate your body to apply shoulder pressure, often ending with you on top. The monoplata maintains a more static control position with you on your side or back, using a figure-four leg lock instead of both legs extended. The monoplata creates pressure through leg squeezing and hip extension rather than body rotation. This makes it effective when the opponent successfully defends the rolling motion of a traditional omoplata, as the monoplata requires less movement to finish.",
+      "safety_critical": false
+    },
+    {
+      "question": "Your opponent starts posturing up aggressively during the monoplata setup - what grip adjustment prevents escape?",
+      "answer": "When the opponent postures up, immediately reinforce your wrist control by switching to a two-on-one grip on their trapped arm. Pull their elbow toward your chest while maintaining your leg configuration. If they create significant distance, transition your near-side hand to grip behind their tricep or elbow, pulling it across your body. The key is maintaining constant tension on the arm - any slack allows them to extract it. Consider using your legs to pull them back down by squeezing your thighs toward their head.",
+      "safety_critical": false
+    },
+    {
+      "question": "What specific indicators tell you the submission is locked and ready to finish?",
+      "answer": "The monoplata is ready to finish when you observe these indicators: (1) their elbow is bent and pointing toward their own head, (2) your figure-four is tight with no gaps around their arm, (3) your body is perpendicular forming a clear T-shape with theirs, (4) their shoulder is compressed against your legs, (5) they cannot straighten their arm despite effort, and (6) your free leg is blocking their escape routes. When all indicators are present, the slightest squeeze should produce immediate pressure on the shoulder joint.",
+      "safety_critical": false
+    },
+    {
+      "question": "How do you adjust the finish when facing an opponent with exceptional shoulder flexibility?",
+      "answer": "Against flexible opponents, the standard finish may not generate enough pressure. Adjust by: (1) increasing the perpendicular angle slightly past 90 degrees to create more rotation, (2) driving your hips further away from their body to extend the lever arm, (3) using both hands to push their shoulder toward their head while squeezing, (4) considering the inverted monoplata variation which attacks from a different angle, or (5) transitioning to a combination attack where the monoplata sets up a triangle or back take rather than forcing the tap.",
+      "safety_critical": false
+    },
+    {
+      "question": "In competition, what is the point of no return where the opponent can no longer safely escape the monoplata?",
+      "answer": "The point of no return occurs when your figure-four is fully locked with no arm mobility remaining, your body angle is perpendicular, and their shoulder begins to internally rotate past neutral. At this stage, any explosive escape attempt risks serious shoulder injury. The opponent's only safe options are to tap immediately or attempt a slow, controlled posture recovery before pressure is applied. Recognizing this point is critical - once reached, you control the submission's outcome and should apply pressure gradually to allow a safe tap.",
+      "safety_critical": true
+    },
+    {
+      "question": "What finishing errors commonly result in the opponent escaping at the last moment?",
+      "answer": "Common last-moment escapes result from: (1) failing to squeeze the figure-four tightly enough, allowing arm extraction, (2) applying pressure too quickly before all control points are secured, (3) not blocking the far hip with your free leg, enabling a forward roll escape, (4) losing wrist control during the finish, allowing defensive grips, (5) having an incorrect body angle that lacks mechanical advantage, and (6) telegraphing the finish by pausing before applying pressure. The solution is systematic control establishment before any finishing attempt.",
       "safety_critical": false
     }
   ],
@@ -316,20 +341,13 @@
     "Collar Sleeve Guard"
   ],
   "related_submissions": [
-    "Omoplata from Guard",
     "Omoplata",
     "Baratoplata",
-    "Tarikoplata",
-    "Triangle from Guard",
     "Triangle Choke",
     "Armbar from Guard",
     "Gogoplata",
-    "Monoplata from Mount",
-    "Kimura from Guard",
-    "Omoplata Variations",
-    "Triangle from Closed Guard",
+    "Kimura",
     "Inverted Triangle",
-    "Rolling Omoplata",
     "Armbar Finish"
   ],
   "related_content": [
@@ -364,10 +382,6 @@
     {
       "name": "Closed Guard",
       "relationship": "Primary starting position for monoplata attacks"
-    },
-    {
-      "name": "Ryan Hall Triangle System",
-      "relationship": "System that teaches similar leg-based shoulder attacks"
     },
     {
       "name": "Rubber Guard",

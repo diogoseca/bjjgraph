@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Headquarters Pass | BJJ Technique | BJJ Graph"
 description: "Learn Headquarters Pass in BJJ. Step-by-step execution from headquarters position to side control. Success: Beginner 45%, Intermediate 65%, Advanced 80%."
@@ -16,7 +17,7 @@ description: "Learn Headquarters Pass in BJJ. Step-by-step execution from headqu
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Headquarters Pass in BJJ",
-  "description": "Step-by-step guide for Headquarters Pass from Headquarters Position to Side Control.",
+  "description": "Step-by-step guide for Headquarters Pass from Headquarters Position/Top. Possible outcomes: Side Control/Top (75%), Headquarters Position/Top (15%), Headquarters Position/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -154,11 +155,25 @@ description: "Learn Headquarters Pass in BJJ. Step-by-step execution from headqu
 
 The Headquarters Pass is a fundamental position and passing sequence that establishes dominant control over the half guard player before advancing to side control. This position, popularized by modern no-gi grapplers, creates a stable platform where the passer controls the opponent's legs while maintaining strong shoulder pressure and crossface control. The headquarters position neutralizes most half guard retention strategies by controlling the opponent's bottom leg and preventing them from creating frames or recovering full guard. From this controlling position, the passer can systematically break down the opponent's defenses and transition to side control with minimal risk of being swept or re-guarded. The headquarters pass is particularly effective because it allows the passer to pause, assess the opponent's defensive reactions, and choose from multiple finishing options based on how the opponent responds.
 
-**Starting Position**: [[Headquarters Position]]
-**Ending Position**: [[Side Control]]
+**From Position**: [[Headquarters Position/Top]]
 **Success Rates**: Beginner 45%, Intermediate 65%, Advanced 80%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Side Control/Top]] | 75% |
+| Failure | [[Headquarters Position/Top]] | 15% |
+| Counter | [[Headquarters Position/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

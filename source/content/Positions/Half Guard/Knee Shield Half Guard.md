@@ -95,29 +95,22 @@ The knee shield half guard has become essential in modern competitive BJJ, with 
 - Maintain ready position for quick transitions to deep half, x-guard, or other guard systems when opportunities present
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Old School Sweep]]** → [[Mount]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Old School Sweep]]** (16% of attempts)
 
-- **[[Underhook Sweep from Half]]** → [[Mount]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Underhook Sweep from Half]]** (14% of attempts)
 
-- **[[Deep Half Entry]]** → [[Deep Half Guard]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Deep Half Entry]]** (17% of attempts)
 
-- **[[Back Take Generic]]** → [[Back Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Back Take Generic]]** (13% of attempts)
 
-- **[[X-Guard Sweep]]** → [[X-Guard]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Single Leg X Entry]]** (14% of attempts)
 
-- **[[Lumberjack Sweep]]** → [[Mount]]
-  - Success Rate: Beginner 28%, Intermediate 42%, Advanced 58%
+- **[[Lumberjack Sweep]]** (14% of attempts)
 
-- **[[Kimura from Half Guard]]** → [[Kimura Control]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Kimura from Half Guard]]** (12% of attempts)
 
 
 ### Common Mistakes
@@ -175,32 +168,24 @@ The knee shield half guard has become essential in modern competitive BJJ, with 
 - Never allow opponent to establish strong underhook connection on near side
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Knee Slice from Half]]** → [[Side Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Knee Slice from Half]]** (12% of attempts)
 
-- **[[Smash Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Smash Pass]]** (13% of attempts)
 
-- **[[Long Step Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Long Step Pass]]** (12% of attempts)
 
-- **[[Underhook Pass]]** → [[Mount]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Underhook Pass]]** (11% of attempts)
 
-- **[[Crossface Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Crossface Pass]]** (13% of attempts)
 
-- **[[Leg Weave Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Leg Weave Pass]]** (12% of attempts)
 
-- **[[Transition to North-South]]** → [[North-South]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Side Control to North-South]]** (14% of attempts)
 
-- **[[Knee on Belly]]** → [[Knee on Belly]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Knee on Belly]]** (13% of attempts)
 
 
 ### Common Mistakes
@@ -253,7 +238,7 @@ The knee shield half guard has become essential in modern competitive BJJ, with 
 
 - **[[Headquarters Position]]** - Related passing position with similar dynamics
 
-- **[[Underhook Control]]** - Key grip battle scenario in position
+- **[[Overhook Control]]** - Key grip battle scenario in position
 
 - **[[Dogfight Position]]** - Common scramble when both players establish underhooks
 

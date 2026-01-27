@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "RDLR Pass | BJJ Technique | BJJ Graph"
 description: "Learn Reverse De La Riva Pass in BJJ. Step-by-step execution from RDLR Guard to Side Control. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%."
@@ -16,7 +17,7 @@ description: "Learn Reverse De La Riva Pass in BJJ. Step-by-step execution from 
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute RDLR Pass in BJJ",
-  "description": "Step-by-step guide for RDLR Pass from Reverse De La Riva Guard to Side Control.",
+  "description": "Step-by-step guide for RDLR Pass from Reverse De La Riva Guard/Bottom. Possible outcomes: Side Control/Top (70%), Reverse De La Riva Guard/Bottom (20%), Reverse De La Riva Guard/Top (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -164,11 +165,25 @@ The RDLR pass is particularly relevant in modern no-gi competition, where the ab
 
 This passing sequence integrates seamlessly with other modern passing systems, including the long step pass, knee slice, and leg drag. The RDLR pass often serves as an entry point into these complementary techniques, creating a comprehensive passing game that keeps opponents constantly defending multiple threats.
 
-**Starting Position**: [[Reverse De La Riva Guard]]
-**Ending Position**: [[Side Control]]
+**From Position**: [[Reverse De La Riva Guard/Bottom]]
 **Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Side Control/Top]] | 70% |
+| Failure | [[Reverse De La Riva Guard/Bottom]] | 20% |
+| Counter | [[Reverse De La Riva Guard/Top]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

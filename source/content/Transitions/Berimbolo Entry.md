@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Berimbolo Entry | BJJ Technique | BJJ Graph"
 description: "Master the Berimbolo Entry in BJJ. Dynamic inversion technique from De La Riva Guard to Back Control. Success rates: Beginner 25%, Intermediate 45%, Advanced 65%."
@@ -16,7 +17,7 @@ description: "Master the Berimbolo Entry in BJJ. Dynamic inversion technique fro
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Berimbolo Entry in BJJ",
-  "description": "Step-by-step guide for Berimbolo Entry from De La Riva Guard to Back Control.",
+  "description": "Step-by-step guide for Berimbolo Entry from De La Riva Guard/Bottom. Possible outcomes: Back Control/Top (65%), De La Riva Guard/Bottom (25%), De La Riva Guard/Top (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -156,11 +157,25 @@ The Berimbolo Entry is a revolutionary back-taking technique that emerged from t
 
 The berimbolo represents a paradigm shift in guard play, prioritizing movement and angles over traditional sweeping mechanics. By inverting underneath the opponent, the practitioner creates a unique angle of attack that bypasses conventional passing defenses. The technique requires excellent hip mobility, timing, and spatial awareness, but when executed properly, it offers one of the highest percentage paths to back control in modern jiu-jitsu. The entry phase is crucial - proper De La Riva hook placement and grip control determine whether the inversion will be successful or if the opponent can counter-rotate to prevent the back take.
 
-**Starting Position**: [[De La Riva Guard]]
-**Ending Position**: [[Back Control]]
+**From Position**: [[De La Riva Guard/Bottom]]
 **Success Rates**: Beginner 25%, Intermediate 45%, Advanced 65%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Back Control/Top]] | 65% |
+| Failure | [[De La Riva Guard/Bottom]] | 25% |
+| Counter | [[De La Riva Guard/Top]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

@@ -21,38 +21,32 @@ description: "Defend against S Mount attacks in BJJ. Critical escape techniques,
     {
       "@type": "HowToStep",
       "name": "Execute Elbow Escape",
-      "text": "From this position, execute Elbow Escape to transition to Half Guard. Success rate for advanced practitioners: 35%.",
+      "text": "From this position, attempt Elbow Escape. This technique is attempted in 30% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape",
-      "text": "From this position, execute Hip Escape to transition to Closed Guard. Success rate for advanced practitioners: 30%.",
+      "text": "From this position, attempt Hip Escape. This technique is attempted in 30% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bridge and Roll",
-      "text": "From this position, execute Bridge and Roll to transition to Mount. Success rate for advanced practitioners: 15%.",
+      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 15% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Technical Standup",
-      "text": "From this position, execute Technical Standup to transition to Standing Position. Success rate for advanced practitioners: 20%.",
+      "text": "From this position, attempt Technical Standup. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Leg Control to Sweep",
-      "text": "From this position, execute Leg Control to Sweep to transition to Mount. Success rate for advanced practitioners: 25%.",
-      "position": 5
-    },
-    {
-      "@type": "HowToStep",
       "name": "Execute Frame and Shrimp",
-      "text": "From this position, execute Frame and Shrimp to transition to Open Guard. Success rate for advanced practitioners: 32%.",
-      "position": 6
+      "text": "From this position, attempt Frame and Shrimp. This technique is attempted in 15% of exchanges from this position.",
+      "position": 5
     }
   ],
   "totalTime": "PT2M"
@@ -215,75 +209,16 @@ Mental composure under pressure is perhaps the most critical factor in S Mount b
 
 ## Available Escapes
 
-### [[Elbow Escape]] → [[Half Guard]]
+### [[Elbow Escape]] (30% of attempts)
 
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 25%
-- Advanced: 35%
+### [[Hip Escape]] (30% of attempts)
 
-### [[Hip Escape]] → [[Closed Guard]]
+### [[Bridge and Roll]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 10%
-- Intermediate: 20%
-- Advanced: 30%
+### [[Technical Standup]] (10% of attempts)
 
-### [[Bridge and Roll]] → [[Mount]]
+### [[Frame and Shrimp]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 5%
-- Intermediate: 10%
-- Advanced: 15%
-
-### [[Technical Standup]] → [[Standing Position]]
-
-**Success Rates:**
-- Beginner: 5%
-- Intermediate: 10%
-- Advanced: 20%
-
-### [[Leg Control to Sweep]] → [[Mount]]
-
-**Success Rates:**
-- Beginner: 8%
-- Intermediate: 15%
-- Advanced: 25%
-
-### [[Frame and Shrimp]] → [[Open Guard]]
-
-**Success Rates:**
-- Beginner: 12%
-- Intermediate: 22%
-- Advanced: 32%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Armbar from Mount]]** → [[Armbar Control]] (Opponent Success: 75%)
-- **[[Triangle from Mount]]** → [[Mounted Triangle]] (Opponent Success: 40%)
-- **[[Americana from Mount]]** → [[Americana Control]] (Opponent Success: 35%)
-- **[[Transition to Mount]]** → [[Mount]] (Opponent Success: 50%)
-- **[[Transition to Back Control]]** → [[Back Control]] (Opponent Success: 45%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Explosive Bridge]]** → [[Mount]]
-  - When opponent adjusts their leg position to step over head
-- **[[Leg Hook Sweep]]** → [[Half Guard]]
-  - When opponent's base is compromised during submission attempt
-- **[[Arm Extraction]]** → [[Closed Guard]]
-  - When opponent releases grip momentarily to readjust position
 
 
 </section>
@@ -293,8 +228,8 @@ Mental composure under pressure is perhaps the most critical factor in S Mount b
 ## Decision Making from This Position
 
 **If opponent has full S Mount control with leg over head but arm is still bent and protected:**
-- Execute **[[Grip own collar]]** → [[Defensive Position]] (Probability: 90%)
-- Execute **[[Control opponent's leg with free hand]]** → [[Defensive Position]] (Probability: 85%)
+- Execute **[[Grip own collar]]** → [[S Mount]] (Probability: 90%)
+- Execute **[[Control opponent's leg with free hand]]** → [[S Mount]] (Probability: 85%)
 - Execute **[[Hip escape toward legs]]** → [[Half Guard]] (Probability: 30%)
 
 
@@ -305,9 +240,9 @@ Mental composure under pressure is perhaps the most critical factor in S Mount b
 
 
 **If arm is partially extended and opponent is securing armbar grip:**
-- Execute **[[Pull arm back aggressively]]** → [[Defensive Position]] (Probability: 60%)
+- Execute **[[Pull arm back aggressively]]** → [[S Mount]] (Probability: 60%)
 - Execute **[[Roll toward opponent]]** → [[Turtle]] (Probability: 40%)
-- Execute **[[Tap if full extension achieved]]** → [[Lost by Submission]] (Probability: 100%)
+- Execute **[[Tap if full extension achieved]]** → [[game-over]] (Probability: 100%)
 
 
 **If opponent adjusts position to attack other arm or transition to different submission:**
@@ -394,25 +329,39 @@ Partner establishes S Mount, timer starts. Race to execute complete escape to gu
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Emergency Escape to Guard Recovery
+## Test Your Knowledge
 
-`S Mount Bottom → Frame and Shrimp → Half Guard → Guard Recovery → Closed Guard`
+**Q1**: Your opponent drops their weight and starts to extend your trapped arm - what immediate defensive action do you take?
+**A**: Grip your own collar or lapel with the trapped hand, keeping the elbow bent at 90 degrees or greater. Simultaneously drive your free hand into their near hip to create a frame. Never straighten the arm to resist - bent arms are exponentially harder to attack. If they're pulling hard, curl toward your trapped arm rather than extending away from it.
 
-### Explosive Reversal to Top Position
+**Q2**: What are the essential body positions you must maintain when trapped in S Mount bottom?
+**A**: Keep your trapped arm bent with hand gripping your collar, elbow tight to your ribs. Your free hand controls opponent's near leg or frames against their hip. Shoulders stay relatively flat to prevent back exposure, but hips should be mobile and ready to escape. Chin tucked to protect neck. Never let both arms extend or get trapped simultaneously.
 
-`S Mount Bottom → Bridge and Roll (during transition) → Mount → Submission Attack`
+**Q3**: How do you prevent your opponent from stepping fully over your head to complete the armbar?
+**A**: Use your free hand to hook or control their near leg at the knee or shin, physically blocking their ability to step over. This is your primary defensive tool - losing leg control usually means losing the arm. Combine this with hip escaping toward their legs to create distance that makes the step-over mechanically more difficult.
 
-### Technical Escape to Neutral
+**Q4**: What grip priorities must you maintain when defending against S Mount attacks?
+**A**: First priority: trapped hand grips own collar to keep arm bent. Second priority: free hand controls opponent's near leg. Never abandon the collar grip to push with both hands - this extends your trapped arm into the submission. The collar grip is non-negotiable; the leg control prevents the finish. Both must be maintained simultaneously.
 
-`S Mount Bottom → Elbow Escape → Half Guard → Knee Shield Half Guard → Open Guard → Standing Guard`
+**Q5**: How should you use hip movement when attempting to escape S Mount bottom?
+**A**: Hip escape toward your opponent's legs (the direction away from your trapped arm) while maintaining arm protection and leg control. Small, controlled shrimps create cumulative space. Do not explosive hip escape without a plan - this often extends the trapped arm. Time your hip movement when opponent adjusts position or attacks, not when they're settled and heavy.
+
+**Q6**: Your opponent momentarily releases wrist control to readjust their grip - what do you do?
+**A**: Immediately pull your arm back to your body, gripping your collar before they can re-establish control. This is your window - even a split second of released pressure is an opportunity. Simultaneously hip escape to create distance. If you successfully extract the arm, immediately frame and recover to mount or half guard rather than staying flat.
+
+**Q7**: How do you manage energy conservation when trapped in S Mount for extended periods?
+**A**: Use defensive structure rather than muscular resistance - let your bent arm and collar grip do the work. Don't fight constantly; wait for opponent's adjustments to attempt escapes. Breathe steadily to avoid panic-induced fatigue. Small positional improvements compound over time. Accept that survival may require patience rather than explosive escape attempts.
+
+**Q8**: What should you do if your arm becomes fully extended and opponent has proper armbar control?
+**A**: Tap immediately. Once the arm is fully extended with opponent's hips tight to your shoulder and their legs controlling your body, the armbar is complete. Continuing to resist risks serious elbow injury. There is no shame in tapping to a properly executed submission - train again tomorrow. Recognize the submission is finished before the injury occurs.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -435,11 +384,11 @@ Partner establishes S Mount, timer starts. Race to execute complete escape to gu
 
 - **[[Mount]]** - Position opponent is attacking from - understanding mount control helps anticipate S Mount transitions
 - **[[Armbar Control]]** - Primary threat from this position - studying armbar mechanics improves defensive understanding
-- **[[Mount Escape Series]]** - Systematic escape progression that includes S Mount defensive techniques
 - **[[Half Guard]]** - Primary escape destination - most successful escapes lead to half guard position
-- **[[Defensive Framing]]** - Core principle for creating space and preventing submission setup
-- **[[Submission Defense]]** - Fundamental defensive concepts that apply specifically to S Mount survival
-- **[[Hip Escape Mechanics]]** - Essential movement pattern for executing technical escapes from S Mount
+- **[[Closed Guard]]** - Alternative escape destination - recovery target when full escape is possible
+- **[[Elbow Escape]]** - Core escape technique - fundamental movement pattern for creating space
+- **[[Hip Escape]]** - Essential movement - primary defensive motion for escaping S Mount
+- **[[Turtle]]** - Emergency escape option - sometimes necessary to escape arm attack
 
 
 </section>

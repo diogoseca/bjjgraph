@@ -10,8 +10,6 @@
     "intermediate",
     "submission-to-position"
   ],
-  "starting_position": "Kimura Control",
-  "ending_position": "Back Control",
   "success_rates": {
     "beginner": 35,
     "intermediate": 50,
@@ -268,6 +266,24 @@
     {
       "name": "Gift Wrap",
       "relationship": "Alternative control - related arm control system from back position"
+    }
+  ],
+  "from_position": "Kimura Control/Top",
+  "outcomes": [
+    {
+      "to": "Back Control/Top",
+      "probability": 65,
+      "result": "success"
+    },
+    {
+      "to": "Kimura Control/Top",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Kimura Control/Bottom",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

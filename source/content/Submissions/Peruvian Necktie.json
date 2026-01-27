@@ -259,6 +259,31 @@
       "question": "When opponent attempts to roll or cartwheel to escape the Peruvian Necktie, what should you do to maintain the submission?",
       "answer": "Maintain your triangle lock tightly and follow their rolling motion while keeping constant pressure on the choke. Do not release the triangle or loosen your connections. Use your free hand to post or base as needed to control the roll. Often the rolling motion actually tightens the choke rather than escaping it. Be prepared to end up in mount, side control, or other top positions as you follow the roll, with the Peruvian Necktie still locked. The key is maintaining your hip position close to their head and keeping the triangle tight throughout the movement. Many opponents tap during the roll as the changing angles create increased pressure on the choke. Stay calm, maintain your structure, and allow their own movement to work against them.",
       "safety_critical": false
+    },
+    {
+      "question": "Your opponent starts to posture up while you're establishing the front headlock - what adjustment do you make to maintain control and continue the Peruvian Necktie setup?",
+      "answer": "When the opponent postures, immediately sprawl your hips back to add downward pressure while keeping your choking arm tight around their neck. Use your free hand to post on their far hip or shoulder to prevent them from rising completely. Drive your shoulder and chest weight down onto their upper back to collapse their posture back down. If they continue to fight upward, consider dropping to your hip and transitioning to a guillotine variation instead, or using the momentum to snap them back down. The key is maintaining connection - never let them create space between your chest and their upper back. Heavy, committed shoulder pressure makes it extremely difficult for them to complete the standup.",
+      "safety_critical": false
+    },
+    {
+      "question": "What is the point of no escape in the Peruvian Necktie, and what indicators tell you the choke is properly locked?",
+      "answer": "The point of no escape occurs when the triangle lock is secured high on the neck with your shin pressing into the back and side of the neck, while your forearm is positioned across the opposite carotid artery. Key indicators that the choke is properly locked include: the opponent's trapped arm is pinned securely against their own neck creating additional compression, your hips are close to their head with the triangle feeling tight and immovable, you can feel bilateral carotid pressure when you begin hip rotation, and the opponent's defensive movement becomes increasingly limited. Once all these elements are in place and you begin rotating your hips, escape becomes nearly impossible. At this point, the opponent typically has only seconds to tap before unconsciousness begins.",
+      "safety_critical": false
+    },
+    {
+      "question": "What grip adjustments should you make during the finishing sequence to maximize choking efficiency?",
+      "answer": "During the finish, pull your choking arm toward your own chest rather than simply squeezing harder - this creates a drawing motion that positions the forearm optimally across the carotid artery. Your free hand can grip your own wrist, clasp your hands together, or push against the opponent's head to prevent any last-second posture recovery. As you rotate your hips, adjust the angle of your forearm slightly to ensure you're compressing the carotid artery rather than the trachea - the blade of the forearm should be against the side of the neck, not the front. Keep your elbows tight and use your entire body structure rather than just arm strength. The grip should feel like you're pulling the opponent's head into your chest while your legs create the backstop through the triangle lock.",
+      "safety_critical": false
+    },
+    {
+      "question": "In competition, what strategies maximize your finishing rate when the opponent is defending desperately against the Peruvian Necktie?",
+      "answer": "First, prioritize proper positioning over speed - a well-positioned choke with moderate pressure is more effective than a rushed attempt with poor mechanics. Use incremental adjustments rather than large movements that create escape opportunities. If the opponent is defending by grabbing their own arm, increase your hip rotation gradually while using your free hand to attack their defensive grip. Create dilemmas by threatening transitions to darce or anaconda if they adjust their arm position. In competition, maintain constant forward pressure to prevent them from creating space, and use the time pressure of match scoring to your advantage - they must escape while you only need to maintain. Stay patient and methodical, knowing that sustained proper pressure will eventually break through most defenses.",
+      "safety_critical": false
+    },
+    {
+      "question": "What are the most common finishing errors that allow opponents to survive a locked Peruvian Necktie, and how do you correct them?",
+      "answer": "The most common finishing errors are: insufficient hip rotation (the scissoring motion is what creates finishing pressure - actively rotate hips away from opponent), triangle lock positioned too low on shoulders rather than high on neck (re-adjust by scooting hips closer to their head), choking arm targeting trachea instead of carotid (adjust forearm angle to the side of neck), releasing pressure when opponent resists or rolls (maintain constant pressure and follow their movement), and relying on arm strength alone without using body mechanics (settle your weight, use hip rotation, and let your structure create pressure rather than muscular exertion). The correction for all these errors involves returning to fundamentals: proper forearm placement, tight high triangle, hips close to head, and committed hip rotation during the finish.",
+      "safety_critical": false
     }
   ],
   "training_progressions_and_safety_protocols": [
@@ -318,56 +343,44 @@
     "Guillotine Choke",
     "Darce Choke",
     "Anaconda Choke",
-    "Japanese Necktie",
     "Arm Triangle",
-    "North-South Choke",
     "Rear Naked Choke",
-    "Marce Choke",
     "Brabo Choke",
     "Guillotine Variations",
-    "Arm in Guillotine",
-    "High Elbow Guillotine"
+    "Arm in Guillotine"
   ],
   "related_content": [
     {
-      "name": "Front Headlock Series",
-      "relationship": "Primary system for entries and setup variations"
+      "name": "Front Headlock",
+      "relationship": "Primary control position for entries and setup variations"
     },
     {
-      "name": "Front Headlock to Guillotine",
+      "name": "Guillotine Choke",
       "relationship": "Alternative finish from same position when arm not trapped"
     },
     {
-      "name": "Darce Setup",
+      "name": "Darce Choke",
       "relationship": "Parallel choke option using arm-in configuration"
     },
     {
-      "name": "Anaconda Setup",
+      "name": "Anaconda Choke",
       "relationship": "Alternative front headlock finish using opposite arm configuration"
     },
     {
-      "name": "Japanese Necktie Setup",
-      "relationship": "Similar leg-threading choke from different entry position"
+      "name": "Turtle",
+      "relationship": "Primary attacking position where Peruvian Necktie opportunities arise"
     },
     {
-      "name": "Snap Down to Front Headlock",
-      "relationship": "Primary standing entry to establish front headlock control"
-    },
-    {
-      "name": "Turtle to Back Take",
+      "name": "Back Control",
       "relationship": "Alternative attack option when Peruvian Necktie is defended"
     },
     {
-      "name": "Grip Fighting",
-      "relationship": "Essential skill for establishing and maintaining front headlock control"
+      "name": "Arm Triangle",
+      "relationship": "Related arm-in choking attack from similar positions"
     },
     {
-      "name": "Head Control",
-      "relationship": "Fundamental principle underlying all front headlock attacks"
-    },
-    {
-      "name": "Submission Chains",
-      "relationship": "Strategic framework for transitioning between front headlock submissions"
+      "name": "Crucifix",
+      "relationship": "Alternative control position when opponent defends front headlock attacks"
     }
   ]
 }

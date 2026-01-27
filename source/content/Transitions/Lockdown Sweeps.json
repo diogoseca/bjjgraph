@@ -10,8 +10,6 @@
     "10th-planet",
     "eddie-10th Planet"
   ],
-  "starting_position": "Lockdown",
-  "ending_position": "Side Control",
   "success_rates": {
     "beginner": 35,
     "intermediate": 50,
@@ -253,6 +251,24 @@
     {
       "name": "Twister",
       "relationship": "Follow-up submission - advanced finish from truck position after lockdown sweeps"
+    }
+  ],
+  "from_position": "Lockdown/Top",
+  "outcomes": [
+    {
+      "to": "Side Control/Top",
+      "probability": 65,
+      "result": "success"
+    },
+    {
+      "to": "Lockdown/Top",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Lockdown/Bottom",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Tripod Sweep | BJJ Technique | BJJ Graph"
 description: "Master the Tripod Sweep from Spider Guard in BJJ. Technical breakdown of setup, execution, and follow-ups. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%."
@@ -16,7 +17,7 @@ description: "Master the Tripod Sweep from Spider Guard in BJJ. Technical breakd
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Tripod Sweep in BJJ",
-  "description": "Step-by-step guide for Tripod Sweep from Spider Guard to Standing Position.",
+  "description": "Step-by-step guide for Tripod Sweep from Spider Guard/Bottom. Possible outcomes: Standing Position/Top (65%), Spider Guard/Bottom (25%), Spider Guard/Top (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -154,11 +155,25 @@ description: "Master the Tripod Sweep from Spider Guard in BJJ. Technical breakd
 
 The Tripod Sweep is a fundamental open guard technique that creates a mechanical advantage through angles and off-balancing. From Spider Guard, the practitioner establishes a three-point base (two feet and one hand on the opponent) to create an unstable platform, forcing the opponent to react and creating sweep opportunities. This technique is particularly effective against opponents attempting to maintain distance and posture in the guard, as it exploits their upright stance and converts their weight distribution into a sweeping motion. The name 'tripod' refers to the three points of contact that control the opponent's base while simultaneously removing one of their legs from the equation. This sweep is a cornerstone of modern Spider Guard systems and provides entry points into multiple dominant positions including mount, knee on belly, or standing control. The tripod structure allows for dynamic transitions and combinations, making it an essential technique for competitors at all levels who wish to develop an active, attacking guard game.
 
-**Starting Position**: [[Spider Guard]]
-**Ending Position**: [[Standing Position]]
+**From Position**: [[Spider Guard/Bottom]]
 **Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Standing Position/Top]] | 65% |
+| Failure | [[Spider Guard/Bottom]] | 25% |
+| Counter | [[Spider Guard/Top]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

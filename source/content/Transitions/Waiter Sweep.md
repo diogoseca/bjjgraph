@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Waiter Sweep | BJJ Technique | BJJ Graph"
 description: "Master the Waiter Sweep from Butterfly Guard in BJJ. High-percentage sweep using underhook and overhook control. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%."
@@ -16,7 +17,7 @@ description: "Master the Waiter Sweep from Butterfly Guard in BJJ. High-percenta
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Waiter Sweep in BJJ",
-  "description": "Step-by-step guide for Waiter Sweep from Butterfly Guard to Side Control.",
+  "description": "Step-by-step guide for Waiter Sweep from Butterfly Guard/Bottom. Possible outcomes: Side Control/Top (75%), Butterfly Guard/Bottom (15%), Butterfly Guard/Top (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -154,11 +155,25 @@ description: "Master the Waiter Sweep from Butterfly Guard in BJJ. High-percenta
 
 The Waiter Sweep is a fundamental butterfly guard technique that derives its name from the characteristic hand position resembling a waiter carrying a tray. This sweep is highly effective because it capitalizes on creating an asymmetrical control structure—combining an underhook on one side with an overhook or collar grip on the other—that severely compromises your opponent's base and posture. The technique works by using your butterfly hooks to elevate your opponent while simultaneously using your grips to break their posting ability, creating a clean sweep to side control or mount. Unlike pure lifting sweeps that rely heavily on strength, the Waiter Sweep uses leverage and timing to redirect your opponent's weight, making it accessible to practitioners of all sizes and strength levels. The sweep is particularly effective in both gi and no-gi contexts, though the grip variations differ slightly between formats. Its high success rate across skill levels stems from its fundamental reliance on destroying base and creating directional momentum rather than explosive power.
 
-**Starting Position**: [[Butterfly Guard]]
-**Ending Position**: [[Side Control]]
+**From Position**: [[Butterfly Guard/Bottom]]
 **Success Rates**: Beginner 45%, Intermediate 60%, Advanced 75%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Side Control/Top]] | 75% |
+| Failure | [[Butterfly Guard/Bottom]] | 15% |
+| Counter | [[Butterfly Guard/Top]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

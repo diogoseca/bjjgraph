@@ -353,7 +353,7 @@ Competition scoring strategy development requires specific drilling protocols th
 - [[Guard Pass]] (Transition) - Primary 3-point scoring action from top position
 - [[Guard Pull]] (Transition) - Strategic opening that sacrifices takedown points for guard game
 - [[Back Take Generic]] (Transition) - 4-point scoring transition to highest value position
-- [[Transition to Mount]] (Transition) - 4-point scoring advancement from side control or knee on belly
+- [[Side Control to Mount]] (Transition) - 4-point scoring advancement from side control or knee on belly
 - [[Single Leg Takedown]] (Transition) - 2-point opening strategy with lower energy investment
 - [[Positional Hierarchy]] (Principle) - Understanding of position value system underlying all scoring strategy
 - [[Position-Over-Submission Approach]] (Principle) - Strategic philosophy prioritizing point accumulation before finishes

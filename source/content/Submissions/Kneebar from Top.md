@@ -429,4 +429,14 @@ The Kneebar from Top represents a high-percentage leg attack opportunity that ar
 
 </section>
 
+<section id="terminal-state" class="content-section">
+
+## Match Outcome
+
+Successful execution of Kneebar from Top leads to → [[game-over|Game Over]]
+
+*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+
+</section>
+
 </main>

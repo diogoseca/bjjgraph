@@ -70,7 +70,7 @@ Understanding Meathook requires grasping its place in the larger Rubber Guard ec
 | **Energy Cost** | High | High |
 | **Time** | Short | Short |
 
-**Key Difference:** Extreme arm isolation for devastating attacks
+**Key Difference:** Arm isolation via shin hook enables choke chains
 
 
 
@@ -101,35 +101,22 @@ Understanding Meathook requires grasping its place in the larger Rubber Guard ec
 - Position chains are essential—Meathook connects systematically to Mission Control, Carni, and multiple finishing positions
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Transition to Gogoplata Control]]** → [[Gogoplata Control]]
-  - Success Rate: Beginner 20%, Intermediate 40%, Advanced 65%
+- **[[Meathook to Gogoplata Control]]** (15% of attempts)
 
-- **[[Triangle Setup]]** → [[Triangle Control]]
-  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 75%
+- **[[Triangle Setup]]** (18% of attempts)
 
-- **[[Transition to Omoplata]]** → [[Omoplata Control]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 70%
+- **[[Closed Guard to Omoplata]]** (16% of attempts)
 
-- **[[Transition to Carni]]** → [[Carni]]
-  - Success Rate: Beginner 40%, Intermediate 60%, Advanced 80%
+- **[[Crackhead Control to Carni]]** (14% of attempts)
 
-- **[[Armbar from Guard]]** → [[Armbar Control]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 65%
+- **[[Armbar from Guard]]** (12% of attempts)
 
-- **[[Omoplata to Back]]** → [[Back Control]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 55%
+- **[[Omoplata to Back]]** (10% of attempts)
 
-- **[[Transition to Mission Control]]** → [[Mission Control]]
-  - Success Rate: Beginner 45%, Intermediate 65%, Advanced 80%
-
-- **[[Baratoplata Setup]]** → [[Omoplata Control]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 50%
-
-- **[[Tarikoplata Setup]]** → [[Triangle Control]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 50%
+- **[[Crackhead Control to Mission Control]]** (15% of attempts)
 
 
 ### Common Mistakes
@@ -191,26 +178,18 @@ Understanding Meathook requires grasping its place in the larger Rubber Guard ec
 - Posture recovery must follow arm extraction—attempting both simultaneously dilutes effectiveness of each
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Arm Extraction]]** → [[Closed Guard]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 60%
+- **[[Arm Extraction]]** (25% of attempts)
 
-- **[[Posture Recovery]]** → [[Closed Guard]]
-  - Success Rate: Beginner 20%, Intermediate 40%, Advanced 55%
+- **[[Posture Recovery]]** (20% of attempts)
 
-- **[[Stack Defense]]** → [[Half Guard]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Stack Defense]]** (20% of attempts)
 
-- **[[Sprawl]]** → [[Turtle]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+- **[[Sprawl]]** (15% of attempts)
 
-- **[[Guard Opening Sequence]]** → [[Open Guard]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
-
-- **[[Base Widening]]** → [[Closed Guard]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Guard Opening Sequence]]** (20% of attempts)
 
 
 ### Common Mistakes

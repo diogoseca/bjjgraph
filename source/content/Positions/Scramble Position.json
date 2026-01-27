@@ -41,132 +41,42 @@
     "Apply technique fragments rather than complete sequences, using partial back takes, incomplete guards, and transitional controls",
     "Utilize momentum and energy efficiency during dynamic exchanges, redirecting opponent's force rather than muscling through resistance"
   ],
-  "offensive_transitions": [
+  "transitions": [
     {
-      "technique": "Turtle to Back Take",
-      "target_position": "Back Control",
-      "success_rates": {
-        "beginner": 35,
-        "intermediate": 55,
-        "advanced": 75
-      }
+      "transition": "Turtle to Back Take",
+      "attempt_probability": 18
     },
     {
-      "technique": "Single Leg Entry",
-      "target_position": "Single Leg X-Guard",
-      "success_rates": {
-        "beginner": 40,
-        "intermediate": 60,
-        "advanced": 80
-      }
+      "transition": "Technical Stand-up",
+      "attempt_probability": 15
     },
     {
-      "technique": "Granby Roll",
-      "target_position": "Closed Guard",
-      "success_rates": {
-        "beginner": 30,
-        "intermediate": 50,
-        "advanced": 70
-      }
+      "transition": "Granby Roll",
+      "attempt_probability": 14
     },
     {
-      "technique": "Technical Stand-up",
-      "target_position": "Standing Position",
-      "success_rates": {
-        "beginner": 45,
-        "intermediate": 65,
-        "advanced": 85
-      }
+      "transition": "Front Headlock Series",
+      "attempt_probability": 12
     },
     {
-      "technique": "Rolling to Guard",
-      "target_position": "Open Guard",
-      "success_rates": {
-        "beginner": 35,
-        "intermediate": 55,
-        "advanced": 75
-      }
+      "transition": "Deep Half Entry",
+      "attempt_probability": 10
     },
     {
-      "technique": "Sprawl",
-      "target_position": "Front Headlock",
-      "success_rates": {
-        "beginner": 40,
-        "intermediate": 60,
-        "advanced": 80
-      }
+      "transition": "Guillotine Setup",
+      "attempt_probability": 10
     },
     {
-      "technique": "Deep Half Entry",
-      "target_position": "Deep Half Guard",
-      "success_rates": {
-        "beginner": 30,
-        "intermediate": 50,
-        "advanced": 70
-      }
+      "transition": "Single Leg to Back Take",
+      "attempt_probability": 8
     },
     {
-      "technique": "Guillotine Setup",
-      "target_position": "Guillotine Control",
-      "success_rates": {
-        "beginner": 35,
-        "intermediate": 55,
-        "advanced": 75
-      }
-    }
-  ],
-  "defensive_responses": [
-    {
-      "technique": "Re-Guard",
-      "target_position": "Open Guard",
-      "success_rate": 50
+      "transition": "Guard Replacement",
+      "attempt_probability": 8
     },
     {
-      "technique": "Turtle Transition",
-      "target_position": "Turtle",
-      "success_rate": 60
-    },
-    {
-      "technique": "Guard Recovery",
-      "target_position": "Half Guard",
-      "success_rate": 55
-    },
-    {
-      "technique": "Technical Stand-up",
-      "target_position": "Standing Position",
-      "success_rate": 45
-    },
-    {
-      "technique": "Granby Roll",
-      "target_position": "Defensive Position",
-      "success_rate": 50
-    }
-  ],
-  "counter_transitions": [
-    {
-      "technique": "Turtle to Back Take",
-      "target_position": "Back Control",
-      "trigger": "Opponent commits to turtle position for defensive security"
-    },
-    {
-      "technique": "Single Leg to Back Take",
-      "target_position": "Back Control",
-      "trigger": "Opponent attempts single leg defense with poor hip position"
-    },
-    {
-      "technique": "Anaconda Setup",
-      "target_position": "Anaconda Control",
-      "trigger": "Opponent drops head during scramble creating front headlock opportunity"
-    },
-    {
-      "technique": "Darce Setup",
-      "target_position": "D'arce Control",
-      "trigger": "Opponent reaches under for underhook exposing shoulder and neck"
-    },
-    {
-      "technique": "Kimura from Turtle",
-      "target_position": "Kimura Control",
-      "trigger": "Opponent posts hand on mat during scramble recovery"
+      "transition": "Darce Setup",
+      "attempt_probability": 5
     }
   ],
   "decision_tree": [
@@ -179,8 +89,8 @@
           "probability": 65
         },
         {
-          "technique": "Transition to Truck",
-          "target": "Truck",
+          "technique": "Turtle to Truck",
+          "target": "Twister Control",
           "probability": 45
         }
       ]
@@ -224,12 +134,12 @@
       "condition": "If opponent commits to leg entanglement during scramble",
       "actions": [
         {
-          "technique": "Single Leg Entry",
-          "target": "Single Leg X-Guard",
+          "technique": "Inside Ashi Entry",
+          "target": "Inside Ashi-Garami",
           "probability": 60
         },
         {
-          "technique": "Rolling to Guard",
+          "technique": "Guard Replacement",
           "target": "Ashi Garami",
           "probability": 50
         }
@@ -244,7 +154,7 @@
           "probability": 55
         },
         {
-          "technique": "Re-Guard",
+          "technique": "Guard Replacement",
           "target": "Open Guard",
           "probability": 50
         }
@@ -305,28 +215,6 @@
       "duration": "2-3 minute rounds"
     }
   ],
-  "optimal_submission_paths": [
-    {
-      "name": "Back Attack Pathway",
-      "path": "Scramble Position → Turtle to Back Take → Back Control → Rear Naked Choke"
-    },
-    {
-      "name": "Front Headlock Chain",
-      "path": "Scramble Position → Sprawl → Front Headlock → Darce Choke"
-    },
-    {
-      "name": "Leg Entanglement Series",
-      "path": "Scramble Position → Single Leg Entry → Single Leg X-Guard → Ashi Garami → Heel Hook"
-    },
-    {
-      "name": "Guillotine Pathway",
-      "path": "Scramble Position → Guillotine Setup → Guillotine Choke"
-    },
-    {
-      "name": "Kimura Trap Route",
-      "path": "Scramble Position → Kimura from Turtle → Kimura"
-    }
-  ],
   "related_content": [
     {
       "name": "Front Headlock",
@@ -353,20 +241,20 @@
       "relationship": "Leg entanglement option when scramble involves lower body control battles"
     },
     {
-      "name": "Transition Management",
-      "relationship": "Core concept for understanding and optimizing scramble navigation"
+      "name": "Closed Guard",
+      "relationship": "Defensive guard option accessible via granby roll during scrambles"
     },
     {
-      "name": "Position Transitions",
-      "relationship": "Conceptual framework for systematic approach to scramble situations"
+      "name": "Open Guard",
+      "relationship": "Common recovery position when scramble favors defensive posturing"
     },
     {
-      "name": "Escape Hierarchy",
-      "relationship": "Strategic framework for prioritizing scramble outcomes based on positional hierarchy"
+      "name": "Ashi Garami",
+      "relationship": "Leg entanglement system accessible when opponent's legs become available during chaos"
     },
     {
-      "name": "Guard Recovery",
-      "relationship": "Defensive objective when scramble is unfavorable or energy conservation needed"
+      "name": "Guillotine Control",
+      "relationship": "Submission control position reached when opponent exposes neck during scramble"
     }
   ],
   "position_metrics": {

@@ -19,7 +19,7 @@
     "intermediate": 35,
     "advanced": 60
   },
-  "overview": "The Heel Hook Dilemma is an advanced leg lock system that creates a binary choice for the opponent where both defensive options lead to submission opportunities. Originating from the modern leg entanglement game, this technique forces the opponent to choose between defending the heel hook or defending alternative attacks like the calf slicer or straight ankle lock. The dilemma is fundamental to high-level leg lock systems because it exploits the opponent's defensive instincts to create finishing opportunities. Unlike isolated submission attempts, the heel hook dilemma operates as a systematic approach where the primary heel hook threat forces reactions that open secondary attacks. This conceptual framework has revolutionized modern no-gi grappling, particularly through the work of the modern leg lock pioneers and subsequent evolution by Craig Jones and the B-Team. The dilemma principle applies across multiple leg entanglement positions including saddle, inside ashi-garami, and 50-50 guard. Proper execution requires deep understanding of leg positioning, hip mechanics, and timing to seamlessly transition between submission threats.",
+  "overview": "The Heel Hook Dilemma is an advanced leg lock system that creates a binary choice for the opponent where both defensive options lead to submission opportunities. Originating from the modern leg entanglement game, this technique forces the opponent to choose between defending the heel hook or defending alternative attacks like the calf slicer or straight ankle lock. The dilemma is fundamental to high-level leg lock systems because it exploits the opponent's defensive instincts to create finishing opportunities. Unlike isolated submission attempts, the heel hook dilemma operates as a systematic approach where the primary heel hook threat forces reactions that open secondary attacks. This conceptual framework has revolutionized modern no-gi grappling, particularly through systematic development of leg lock methodology. The dilemma principle applies across multiple leg entanglement positions including saddle, inside ashi-garami, and 50-50 guard. Proper execution requires deep understanding of leg positioning, hip mechanics, and timing to seamlessly transition between submission threats.",
   "safety_considerations": {
     "injury_risks": [
       {
@@ -258,6 +258,36 @@
       "question": "Why is the heel hook dilemma considered more effective than isolated heel hook attempts?",
       "answer": "The heel hook dilemma is more effective because it eliminates the opponent's most reliable defenses by turning them into submission openings. In an isolated heel hook attempt, the opponent can defend by creating space, turning into the pressure, or attacking your legs. The dilemma system accounts for these defenses and converts them into pathways to alternative submissions. This systematic approach increases finishing rates significantly because the opponent cannot establish a stable defensive position - every defensive movement opens a new attack.",
       "safety_critical": false
+    },
+    {
+      "question": "What anatomical structures does the heel hook dilemma primarily attack, and what are the warning signs that a tap is imminent?",
+      "answer": "The heel hook dilemma primarily attacks the knee ligaments - the ACL, PCL, LCL, and MCL - through rotational torque on the knee joint while the hip is extended. Warning signs that indicate the breaking point is near include: feeling the knee become unstable or 'loose', sensing rotational movement in the joint that shouldn't occur, any clicking or popping sensations, and pain that suddenly increases in intensity. Unlike chokes which allow gradual pressure assessment, heel hooks can cause immediate catastrophic damage once the breaking point threshold is crossed, which is why tapping early is essential.",
+      "safety_critical": true
+    },
+    {
+      "question": "Your opponent starts to posture up and push your hips away while you have heel control - what adjustment prevents escape and which submission path opens?",
+      "answer": "When the opponent postures up and pushes your hips away, immediately thread your inside leg deeper across their calf muscle and crunch your body forward to close the distance they created. This converts their defensive space creation into the setup for a calf slicer - their pushing action straightens their leg which is exactly what the calf slicer requires. Maintain heel control throughout so you can switch back to the heel hook if they stop pushing and try to collapse the space. The key adjustment is using their pushing force against them rather than fighting to maintain the original position.",
+      "safety_critical": false
+    },
+    {
+      "question": "What grip adjustments should you make during the finish when transitioning from heel hook threat to calf slicer?",
+      "answer": "When transitioning from heel hook to calf slicer, the heel grip can be relaxed but not released entirely - maintain contact with the foot to prevent them from pulling the leg completely free. Your primary focus shifts to ensuring your shin bone is positioned directly across their calf muscle belly (the thickest part), not on the Achilles or ankle. Your hands should clasp together behind their leg or grab your own shin to create the crushing structure. The body crunch forward is the actual finishing mechanism, compressing their calf between your shin and their own thigh. Keep your outside leg heavy on their hip throughout to prevent escape.",
+      "safety_critical": false
+    },
+    {
+      "question": "What is the point of no escape in the heel hook dilemma, and how do you recognize when the opponent has passed it?",
+      "answer": "The point of no escape occurs when you have achieved all three elements simultaneously: hip-to-hip connection preventing space creation, secure heel grip with elbow tight to ribs, and initial hip extension pressure that straightens their leg. Once these are established and you begin adding rotation to the heel while maintaining extension, the opponent has passed the point of no escape - any movement they make will either tighten the heel hook or open the calf slicer. You recognize this moment when their only remaining movements are the two defensive reactions of the dilemma (pushing away or turning in), and both lead to submission finishes.",
+      "safety_critical": false
+    },
+    {
+      "question": "How should you adjust your finishing mechanics in competition versus training for the heel hook dilemma?",
+      "answer": "In training, always apply pressure progressively over 5-7 seconds minimum, maintain verbal communication, and release immediately upon any tap signal. In competition, the mechanics change significantly: application speed increases dramatically (sub-second finishing is possible once control is established), there is no verbal communication requirement, and you hold the submission until referee stoppage. However, even in competition, the fundamental mechanics remain identical - hip extension before rotation, hip-to-hip connection, elbow tight to ribs. The difference is purely in application speed and release timing. Never practice competition-speed heel hooks in training regardless of your skill level.",
+      "safety_critical": true
+    },
+    {
+      "question": "What common finishing error causes the heel hook to slip off before the tap, and how do you correct it?",
+      "answer": "The most common finishing error is allowing the elbow to drift away from the ribs during rotation, which creates space for the heel to slip free. When the arm extends, you lose the pinning pressure that keeps the heel secured against your hip or armpit. To correct this, focus on keeping the elbow glued to your ribs throughout the entire finishing sequence - the rotation should come from your hips and torso turning as a unit, not from your arms pulling the heel across. Think of your arm as a hook that simply maintains heel position while your entire body creates the rotational force through hip movement.",
+      "safety_critical": false
     }
   ],
   "training_progressions_and_safety_protocols": [
@@ -330,40 +360,40 @@
   ],
   "related_content": [
     {
-      "name": "Craig Jones Leg Lock System",
-      "relationship": "Modern application of dilemma principles in competition"
+      "name": "Saddle",
+      "relationship": "Primary position for establishing the heel hook dilemma with superior control"
     },
     {
-      "name": "B-Team Dilemma System",
-      "relationship": "Evolution of dilemma creation across entire game"
+      "name": "Inside Ashi-Garami",
+      "relationship": "Entry position for dilemma setup with direct heel access"
     },
     {
-      "name": "Dilemma Creation",
-      "relationship": "Core principle underlying the heel hook dilemma concept"
+      "name": "50-50 Guard",
+      "relationship": "Bilateral entanglement where dilemma principles create attack opportunities"
     },
     {
       "name": "Leg Entanglement",
-      "relationship": "Foundational principle for all leg lock attacks"
+      "relationship": "Foundational principle governing all leg lock attacks including dilemma systems"
     },
     {
-      "name": "Submission Chains",
-      "relationship": "Systematic approach to linking multiple submission threats"
+      "name": "Outside Ashi-Garami",
+      "relationship": "Alternative entanglement for outside heel hook dilemma variation"
     },
     {
-      "name": "Garry Tonon Leg Lock to Back System",
-      "relationship": "Alternative finishing system when heel hooks are defended"
+      "name": "Cross Ashi-Garami",
+      "relationship": "Position enabling heel hook to ankle lock transition dilemma"
     },
     {
-      "name": "Lachlan Giles Leg Lock Defense Framework",
-      "relationship": "Defensive counterpart - understanding attacks improves defense"
+      "name": "Honey Hole",
+      "relationship": "10th Planet terminology for saddle position where dilemma is most effective"
     },
     {
-      "name": "Outside Ashi Entry",
-      "relationship": "Common entry to establish heel hook dilemma positions"
+      "name": "Calf Slicer",
+      "relationship": "Secondary submission in the dilemma when opponent creates space"
     },
     {
-      "name": "Saddle Entry from Top",
-      "relationship": "Primary entry for most effective dilemma variation"
+      "name": "Heel Hook",
+      "relationship": "Primary submission threat that forces defensive reactions"
     }
   ]
 }

@@ -12,8 +12,6 @@
     "choke",
     "blood_choke"
   ],
-  "starting_position": "Turtle",
-  "ending_position": "D'arce Control",
   "success_rates": {
     "beginner": 35,
     "intermediate": 55,
@@ -270,6 +268,24 @@
     {
       "name": "Anaconda Choke",
       "relationship": "Sister technique - mirror image choke with similar mechanics"
+    }
+  ],
+  "from_position": "Turtle/Top",
+  "outcomes": [
+    {
+      "to": "D'arce Control/Top",
+      "probability": 70,
+      "result": "success"
+    },
+    {
+      "to": "Turtle/Top",
+      "probability": 20,
+      "result": "failure"
+    },
+    {
+      "to": "Turtle/Bottom",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

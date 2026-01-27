@@ -21,37 +21,37 @@ description: "Master Lockdown Bottom in BJJ. 10th Planet's signature half guard 
     {
       "@type": "HowToStep",
       "name": "Execute Whip-up Sweep",
-      "text": "From this position, execute Whip-up Sweep to transition to Dogfight Position. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Whip-up Sweep. This technique is attempted in 13% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Old School Sweep",
-      "text": "From this position, execute Old School Sweep to transition to Mount. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Old School Sweep. This technique is attempted in 15% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Electric Chair Submission",
-      "text": "From this position, execute Electric Chair Submission to transition to Electric Chair. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Electric Chair Submission. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Lockdown Sweeps",
-      "text": "From this position, execute Lockdown Sweeps to transition to Side Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Lockdown Sweeps. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling Back Take",
-      "text": "From this position, execute Rolling Back Take to transition to Back Control. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 11% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Truck",
-      "text": "From this position, execute Transition to Truck to transition to Truck. Success rate for advanced practitioners: 60%.",
+      "name": "Execute Turtle to Truck",
+      "text": "From this position, attempt Turtle to Truck. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -209,94 +209,22 @@ Lockdown Bottom is 10th Planet's signature half guard variation where the bottom
 
 ## Available Escapes
 
-### [[Whip-up Sweep]] → [[Dogfight Position]]
+### [[Whip-up Sweep]] (13% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Old School Sweep]] (15% of attempts)
 
-### [[Old School Sweep]] → [[Mount]]
+### [[Electric Chair Submission]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Lockdown Sweeps]] (12% of attempts)
 
-### [[Electric Chair Submission]] → [[Electric Chair]]
+### [[Rolling Back Take]] (11% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 60%
+### [[Turtle to Truck]] (12% of attempts)
 
-### [[Lockdown Sweeps]] → [[Side Control]]
+### [[Deep Half Entry]] (13% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Kimura from Half Guard]] (12% of attempts)
 
-### [[Rolling Back Take]] → [[Back Control]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-### [[Transition to Truck]] → [[Truck]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[Deep Half Entry]] → [[Deep Half Guard]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-### [[Kimura from Half Guard]] → [[Kimura Control]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Half Guard Pass]]** → [[Side Control]] (Opponent Success: 35%)
-- **[[Knee Slice from Half]]** → [[Side Control]] (Opponent Success: 40%)
-- **[[Smash Pass]]** → [[Side Control]] (Opponent Success: 30%)
-- **[[Underhook Pass]]** → [[Side Control]] (Opponent Success: 35%)
-- **[[Crossface Pass]]** → [[Side Control]] (Opponent Success: 40%)
-- **[[Leg Extraction]]** → [[Combat Base]] (Opponent Success: 45%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Lockdown Extension Counter]]** → [[Lockdown]]
-  - Opponent attempts to extract trapped leg by pulling back
-- **[[Whip-up to Dogfight]]** → [[Dogfight Position]]
-  - Opponent drives forward with crossface pressure
-- **[[Electric Chair Setup]]** → [[Electric Chair]]
-  - Opponent maintains extended posture while trying to pass
-- **[[Underhook Recapture]]** → [[Lockdown]]
-  - Opponent strips underhook and attempts to establish crossface
-- **[[Rolling to Truck]]** → [[Truck]]
-  - Opponent establishes heavy crossface and drives toward pass
 
 
 </section>
@@ -322,7 +250,7 @@ Lockdown Bottom is 10th Planet's signature half guard variation where the bottom
 
 **If opponent maintains neutral posture in half guard without committing:**
 - Execute **[[Lockdown Sweeps]]** → [[Side Control]] (Probability: 60%)
-- Execute **[[Kimura from Half Guard]]** → [[Kimura Control]] (Probability: 55%)
+- Execute **[[Kimura from Half Guard]]** → [[Kimura Trap]] (Probability: 55%)
 
 
 
@@ -410,33 +338,39 @@ Bottom player starts in lockdown with underhook, top player attempts to pass. Bo
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Electric Chair Direct Path
+## Test Your Knowledge
 
-`Lockdown → Electric Chair → Electric Chair Submission → Won by Submission`
+**Q1**: What is the correct leg configuration to establish and maintain a tight lockdown?
+**A**: The near-side leg threads over opponent's trapped leg at knee level, wrapping around and crossing back underneath their ankle. The bottom leg hooks under their shin from the outside. Ankles must be crossed tightly with the top foot flexed and pulling their heel toward your hip. Squeeze your knees together while extending your hips to maximize control and pressure on their trapped leg.
 
-### Sweep to Back Attack Path
+**Q2**: Your opponent drives forward with heavy crossface pressure - what sweep opportunity does this create?
+**A**: Forward pressure from opponent creates the ideal setup for the whip-up sweep. Use their forward momentum against them by securing the underhook, extending the lockdown to load their weight, then explosively come up to your elbow and drive into them while maintaining the lockdown. Their forward pressure becomes the energy that propels you to top position or dogfight.
 
-`Lockdown → Old School Sweep → Mount → Back Control → Rear Naked Choke → Won by Submission`
+**Q3**: What are the essential grips needed to maintain offensive pressure from lockdown bottom?
+**A**: The primary grip is the underhook on the trapped-leg side, reaching deep around their back. Secondary controls include overhook on their far arm to prevent them establishing underhook, or collar grip (in gi) on the crossface side. Your free hand frames against their shoulder or bicep to prevent flattening. These grips combined with tight lockdown create control over their entire upper body.
 
-### Kimura from Half Guard Path
+**Q4**: How do you prevent being flattened when opponent establishes strong crossface control?
+**A**: Immediately counter crossface by turning into the opponent rather than away. Use your outside arm to frame against their bicep or shoulder while whipping up toward them. The whip-up motion uses the lockdown extension to off-balance them while you come to your side. If you remain flat under crossface, you lose all offensive potential. Always maintain the ability to turn toward your opponent.
 
-`Lockdown → Kimura from Half Guard → Kimura → Won by Submission`
+**Q5**: Your opponent sits back with their weight away from you trying to extract their leg - what attack becomes available?
+**A**: When opponent sits back, this opens the Old School sweep and Electric Chair submission. For Old School, secure deep underhook, post your outside leg, and drive into them while extending the lockdown. For Electric Chair, release the triangle and step over their trapped leg with your outside leg, capturing in Electric Chair configuration while maintaining the underhook for control.
 
-### Truck Submission Path
+**Q6**: What adjustment do you make when opponent begins successfully extracting their trapped leg?
+**A**: When they begin extraction, immediately extend your lockdown forcefully while pulling their heel toward your hip with flexed feet. Simultaneously hip escape away from them to lengthen the leg and make extraction harder. If they continue progressing, release the lockdown and transition to deep half guard by going underneath them, or switch to traditional half guard retention with knee shield.
 
-`Lockdown → Truck → Twister → Won by Submission`
+**Q7**: How do you manage energy expenditure while maintaining active lockdown offense?
+**A**: Lockdown should pulse between pressure and brief relaxation rather than constant maximum squeeze. Extend aggressively when attacking, then relax slightly to recover while maintaining the configuration. Use your opponent's movement and weight shifts as opportunities to attack rather than fighting static battles of strength. Time your biggest efforts for actual sweep attempts, not just retention.
 
-### Sweep to Mount Path
-
-`Lockdown → Whip-up Sweep → Dogfight Position → Back Control → Mount → Armbar from Mount → Won by Submission`
+**Q8**: What indicates the correct timing to transition from lockdown retention to sweep attempt?
+**A**: Transition to sweep when opponent commits their weight in one direction - either driving forward (whip-up) or sitting back (Old School). Watch for them posting one hand on the mat which indicates compromised base. When they release upper body pressure to adjust position or fight grips, immediately attack with coordinated extension and upper body drive. Never attempt sweeps when their base is solid and weight centered.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -457,8 +391,6 @@ Bottom player starts in lockdown with underhook, top player attempts to pass. Bo
 
 ## Related Positions and Techniques
 
-- **[[10th Planet Half Guard Bottom System]]** - Parent system containing lockdown methodology
-- **[[Lockdown to Electric Chair System]]** - Specialized system for lockdown submissions
 - **[[Electric Chair]]** - Primary submission position from lockdown
 - **[[Dogfight Position]]** - Common transition target via whip-up sweep
 - **[[Half Guard]]** - Parent position and alternative half guard approach
@@ -467,8 +399,6 @@ Bottom player starts in lockdown with underhook, top player attempts to pass. Bo
 - **[[Z-Guard]]** - Alternative half guard structure
 - **[[Knee Shield Half Guard]]** - Alternative half guard defensive structure
 - **[[Old School]]** - Primary sweep position from lockdown
-- **[[Lockdown Sweeps]]** - Collection of sweeps from lockdown position
-- **[[Hip Movement]]** - Essential principle for lockdown effectiveness
 
 
 </section>

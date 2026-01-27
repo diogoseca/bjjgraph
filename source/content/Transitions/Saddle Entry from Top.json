@@ -10,8 +10,6 @@
     "leg-entanglement",
     "top-position"
   ],
-  "starting_position": "Headquarters Position",
-  "ending_position": "Saddle",
   "success_rates": {
     "beginner": 35,
     "intermediate": 55,
@@ -295,6 +293,24 @@
     {
       "name": "Kneebar",
       "relationship": "Alternative submission from saddle position"
+    }
+  ],
+  "from_position": "Headquarters Position/Top",
+  "outcomes": [
+    {
+      "to": "Saddle/Top",
+      "probability": 75,
+      "result": "success"
+    },
+    {
+      "to": "Headquarters Position/Top",
+      "probability": 15,
+      "result": "failure"
+    },
+    {
+      "to": "Headquarters Position/Bottom",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

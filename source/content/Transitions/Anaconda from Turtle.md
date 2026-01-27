@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Anaconda from Turtle | BJJ Technique | BJJ Graph"
 description: "Learn Anaconda from Turtle in BJJ. Step-by-step execution from Turtle to Anaconda Control. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%."
@@ -16,7 +17,7 @@ description: "Learn Anaconda from Turtle in BJJ. Step-by-step execution from Tur
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Anaconda from Turtle in BJJ",
-  "description": "Step-by-step guide for Anaconda from Turtle from Turtle to Anaconda Control.",
+  "description": "Step-by-step guide for Anaconda from Turtle from Turtle. Possible outcomes: Anaconda Control (65%), Turtle (25%), Turtle (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -160,11 +161,25 @@ description: "Learn Anaconda from Turtle in BJJ. Step-by-step execution from Tur
 
 The Anaconda from Turtle is a dynamic submission setup that transitions from turtle top position to anaconda control through a rolling motion. This technique is technically similar to the D'arce choke but requires trapping the near arm instead of the far arm, and involves rolling to your side or back rather than maintaining top position. The anaconda exploits opponent's defensive turtle posture by threading your arm under their neck while trapping their near arm, then using a figure-four grip and rolling motion to secure optimal choking angle. The execution requires precise timing - threading the arm deep with palm-down orientation, ensuring the near arm is trapped between your choking arm and their neck, locking the grip tight, and committing to the roll before opponent can defend. Your bicep compresses one carotid artery while their own trapped arm and shoulder compress the other, creating bilateral pressure. The rolling momentum is not just a finishing detail but essential for creating the proper choking angle. This technique has become a staple of modern no-gi grappling, particularly effective because the dynamic roll is unexpected and often secures the finish before opponents can defend properly. It represents a high-level understanding of front headlock mechanics combined with dynamic movement principles.
 
-**Starting Position**: [[Turtle]]
-**Ending Position**: [[Anaconda Control]]
+**From Position**: [[Turtle]]
 **Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Anaconda Control]] | 65% |
+| Failure | [[Turtle]] | 25% |
+| Counter | [[Turtle]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 
@@ -317,6 +332,21 @@ Work with advanced partners who defend with various reactions and counter-techni
 **Q7**: Why is the rolling motion essential rather than optional in the anaconda?
 **A**: The rolling motion is essential because it creates the proper choking angle for bilateral carotid compression. Unlike some chokes that can finish from multiple angles, the anaconda specifically requires the inverted angle created by rolling to position your bicep and their trapped arm optimally against both carotid arteries. Without the roll, pressure is insufficient for a finish.
 
+**Q8**: Your opponent posts their hand wide to prevent the roll - how do you adjust your attack?
+**A**: When opponent posts wide, you have two primary options: first, walk your hips in a wide arc around their posted hand to find a new rolling angle where their post becomes ineffective; second, use the posting hand as an opportunity to transition to a different attack such as kimura on the posted arm or abandon the anaconda to take the back while they remain committed to defending the choke. Never force a roll against a strong post.
+
+**Q9**: What is the critical hip movement pattern during the anaconda roll?
+**A**: Your hips should drive in a circular arc that brings your body perpendicular to your opponent's spine as you complete the roll. Start by stepping over their back with your far leg while maintaining grip tightness, then use hip rotation to pull them into the finishing position. The hip movement creates the torque that tightens the choke - without proper hip engagement, the roll becomes a disconnected spin rather than a submission-finishing motion.
+
+**Q10**: What grip configuration provides the tightest anaconda control and why?
+**A**: The figure-four grip (gable grip variation where you grab your own bicep) provides the tightest control because it creates a closed mechanical system with no gaps. Your choking arm wraps the neck, your other hand grabs your bicep, and your choking hand grabs your free arm's wrist or forearm. This triangular grip structure prevents any space from opening during the roll and allows you to generate maximum compression by pulling your elbows together.
+
+**Q11**: Opponent begins standing up while you have the anaconda grip locked - what is your response?
+**A**: Follow them up while maintaining the locked grip and transition to a standing anaconda finish or jump to guillotine. As they stand, drive your chest into their shoulder to slow their rise, then either commit to the standing choke by stepping behind them and finishing from standing, or if they create too much space, quickly transition to standing guillotine by releasing the figure-four and securing a chin strap grip under their neck.
+
+**Q12**: What palm orientation should your choking arm maintain during threading and why?
+**A**: Your choking arm should maintain palm-down orientation throughout the threading process. This orientation allows the radius bone of your forearm to align against the carotid artery on one side while positioning your bicep optimally for pressure on the other side after the roll. Palm-up threading results in poor finishing mechanics because the forearm bones align incorrectly against the neck structures.
+
 
 
 </section>
@@ -333,7 +363,7 @@ When practicing the anaconda from turtle, execute the rolling motion smoothly an
 
 ## Position Integration
 
-The anaconda from turtle is part of the front headlock family and represents a high-level submission setup from turtle top control. It connects to the broader turtle attack system where you have options including back takes, guillotines, D'arce chokes, and now the anaconda. The technique is particularly valuable because turtle is a common defensive position in both gi and no-gi grappling - opponents frequently turtle to defend guard passes or back attacks, making the anaconda readily available. It integrates with modern no-gi systems emphasizing front headlock control, submission wrestling, and dynamic transitions. The rolling element makes it especially effective in scramble situations where momentum can be used to your advantage. In competition, it serves as both a submission threat and position improvement tool - even if the choke doesn't finish, you often establish dominant side control or back position. The anaconda has become fundamental in 10th Planet Jiu-Jitsu and the 10th Planet system, as well as in submission grappling competitions like ADCC where turtle attacks are heavily rewarded. It fits within the broader front headlock series alongside guillotine, D'arce, Japanese necktie, and marce variations, creating a complete attacking system from this control position. Understanding anaconda mechanics also improves your overall front headlock game and teaches important principles about bilateral pressure, arm trapping, and dynamic movement.
+The anaconda from turtle is part of the front headlock family and represents a high-level submission setup from turtle top control. It connects to the broader turtle attack system where you have options including back takes, guillotines, D'arce chokes, and now the anaconda. The technique is particularly valuable because turtle is a common defensive position in both gi and no-gi grappling - opponents frequently turtle to defend guard passes or back attacks, making the anaconda readily available. It integrates with modern no-gi systems emphasizing front headlock control, submission wrestling, and dynamic transitions. The rolling element makes it especially effective in scramble situations where momentum can be used to your advantage. In competition, it serves as both a submission threat and position improvement tool - even if the choke doesn't finish, you often establish dominant side control or back position. The anaconda has become fundamental in modern submission grappling as well as in ADCC where turtle attacks are heavily rewarded. It fits within the broader front headlock series alongside guillotine, D'arce, Japanese necktie, and marce variations, creating a complete attacking system from this control position. Understanding anaconda mechanics also improves your overall front headlock game and teaches important principles about bilateral pressure, arm trapping, and dynamic movement.
 
 </section>
 

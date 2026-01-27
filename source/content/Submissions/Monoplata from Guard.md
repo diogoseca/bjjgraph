@@ -428,4 +428,14 @@ The Monoplata from Guard is an advanced shoulder lock that combines elements of 
 
 </section>
 
+<section id="terminal-state" class="content-section">
+
+## Match Outcome
+
+Successful execution of Monoplata from Guard leads to → [[game-over|Game Over]]
+
+*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+
+</section>
+
 </main>

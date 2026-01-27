@@ -93,26 +93,18 @@ From top perspective, Old School demands sophisticated pressure management and p
 - Drive the sweep in a circular motion from side to mount, using the underhook and head control to guide opponent over while hips drive forward and up
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Old School Sweep]]** → [[Mount]]
-  - Success Rate: Beginner 40%, Intermediate 60%, Advanced 75%
+- **[[Old School Sweep]]** (35% of attempts)
 
-- **[[Old School Sweep]]** → [[Back Control]]
-  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 70%
+- **[[Lockdown Sweeps]]** (18% of attempts)
 
-- **[[Lockdown Sweeps]]** → [[Half Guard]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Electric Chair Submission]]** (15% of attempts)
 
-- **[[Electric Chair Submission]]** → [[Electric Chair]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Underhook Sweep from Half]]** (17% of attempts)
 
-- **[[Underhook Sweep from Half]]** → [[Side Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
-
-- **[[Half Guard to Back Take]]** → [[Back Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Half Guard to Back Take]]** (15% of attempts)
 
 
 ### Common Mistakes
@@ -174,26 +166,20 @@ From top perspective, Old School demands sophisticated pressure management and p
 - Use whizzer grip to control opponent's upper body rotation and prevent them from coming up to dogfight position
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Half Guard Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Half Guard Pass]]** (22% of attempts)
 
-- **[[Knee Slice Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Knee Slice Pass]]** (20% of attempts)
 
-- **[[Crossface Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Crossface Pass]]** (18% of attempts)
 
-- **[[Transition to Mount]]** → [[Mount]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Side Control to Mount]]** (14% of attempts)
 
-- **[[Back Take Generic]]** → [[Back Control]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Back Take Generic]]** (14% of attempts)
 
-- **[[Kimura from Half Guard]]** → [[Kimura Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Kimura from Half Guard]]** (12% of attempts)
 
 
 ### Common Mistakes
@@ -246,9 +232,9 @@ From top perspective, Old School demands sophisticated pressure management and p
 
 - **[[Back Control]]** - Alternative target for Old School Sweep or top's whizzer counter
 
-- **[[10th Planet Half Guard Bottom System]]** - Systematic framework integrating Old School with broader lockdown game
+- **[[Dogfight Position]]** - Transitional position when bottom comes up on underhook
 
-- **[[Lockdown to Electric Chair System]]** - Tactical system connecting Old School position to submission attacks
+- **[[Knee Shield Half Guard]]** - Alternative half guard variation when lockdown is broken
 
 
 </section>

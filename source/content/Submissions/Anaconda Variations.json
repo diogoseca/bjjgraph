@@ -212,17 +212,17 @@
     },
     {
       "variation_name": "High Elbow Anaconda",
-      "description": "Instead of rolling or dropping elbow, maintain elevated elbow position near opponent's temple while driving shoulder into their neck. This creates darce-style shoulder pressure while maintaining anaconda arm configuration. Highly effective standing or when opponent sprawls. Requires less body movement, making it faster to finish in scrambles. elite competitors' frequently employs this variation in no-gi competition.",
+      "description": "Instead of rolling or dropping elbow, maintain elevated elbow position near opponent's temple while driving shoulder into their neck. This creates darce-style shoulder pressure while maintaining anaconda arm configuration. Highly effective standing or when opponent sprawls. Requires less body movement, making it faster to finish in scrambles.",
       "when_to_use": "When opponent stands or sprawls making rolling difficult; when in scramble situation requiring quick finish; against flexible opponents who can defend standard roll; in transitions from takedown attempts"
     },
     {
       "variation_name": "Marce Choke (Anaconda-Darce Hybrid)",
-      "description": "Combine anaconda arm positioning with darce-style shoulder driving mechanics. After securing anaconda grip, instead of rolling, walk your feet toward opponent's head while driving your shoulder into their neck. This creates intense pressure from unusual angle that defeats traditional anaconda defenses. Named for its hybrid nature - 'mar' from arm triangle/darce family, 'ce' from anaconda.",
+      "description": "Combine anaconda arm positioning with darce-style shoulder driving mechanics. After securing anaconda grip, instead of rolling, walk your feet toward opponent's head while driving your shoulder into their neck. This creates intense pressure from unusual angle that defeats traditional anaconda defenses. Named for its hybrid nature combining arm triangle and anaconda mechanics.",
       "when_to_use": "When standard anaconda angle is compromised; when opponent defends their neck exceptionally well; from certain turtle positions where rolling is impractical; when you want standing finish option"
     },
     {
       "variation_name": "Reverse Anaconda Roll",
-      "description": "After securing standard anaconda, roll toward your non-choking shoulder instead of choking shoulder. This unorthodox direction often surprises opponents and can create tighter angle when their body positioning makes standard roll awkward. Requires excellent body awareness and comfort with unusual mechanics. the 10th Planet system includes this variation for specific scramble situations.",
+      "description": "After securing standard anaconda, roll toward your non-choking shoulder instead of choking shoulder. This unorthodox direction often surprises opponents and can create tighter angle when their body positioning makes standard roll awkward. Requires excellent body awareness and comfort with unusual mechanics.",
       "when_to_use": "When opponent's base is particularly strong on choking side; when standard roll direction is blocked by cage or training partner; as surprise tactic against opponents familiar with your standard pattern"
     },
     {
@@ -259,7 +259,37 @@
     },
     {
       "question": "Why is variation mastery considered more important than perfecting a single anaconda technique, according to modern competitive evidence?",
-      "answer": "Modern competitive data shows opponents who defend one anaconda variation often expose themselves to another variation. If they post their arm to stop the roll, they create the arm-in setup. If they stand to prevent rolling, they expose the high elbow variation. If they defend neck positioning perfectly for standard anaconda, the marce angle defeats their structure. Single-technique specialists succeed against unprepared opponents but fail against those familiar with that specific defense. Variation specialists maintain finishing capability across multiple defensive responses, dramatically increasing overall submission percentage. The anaconda becomes a system rather than a technique, where each defensive choice opens a different finishing path. This systems approach mirrors systematic teaching philosophy - create dilemmas where opponent's defensive options are limited and each choice leads to submission threat.",
+      "answer": "Modern competitive data shows opponents who defend one anaconda variation often expose themselves to another variation. If they post their arm to stop the roll, they create the arm-in setup. If they stand to prevent rolling, they expose the high elbow variation. If they defend neck positioning perfectly for standard anaconda, the marce angle defeats their structure. Single-technique specialists succeed against unprepared opponents but fail against those familiar with that specific defense. Variation specialists maintain finishing capability across multiple defensive responses, dramatically increasing overall submission percentage. The anaconda becomes a system rather than a technique, where each defensive choice opens a different finishing path. This systems approach creates dilemmas where opponent's defensive options are limited and each choice leads to submission threat.",
+      "safety_critical": false
+    },
+    {
+      "question": "What anatomical structures does the anaconda choke target, and how does proper arm placement ensure a blood choke rather than an air choke?",
+      "answer": "The anaconda choke targets the carotid arteries on both sides of the neck, which supply oxygenated blood to the brain. Proper arm placement positions your forearm across the lateral sides of the opponent's neck where the carotids run, compressing them bilaterally. When your elbow clears past the centerline and your forearm lies against the neck rather than the trachea, you create a blood choke that causes unconsciousness through cerebral hypoxia. Incorrect placement - particularly shallow penetration where the forearm crosses the front of the throat - compresses the trachea instead, creating an air choke that is both less effective and more dangerous due to potential airway damage. The carotid compression causes unconsciousness in 8-12 seconds when properly applied; tracheal compression takes much longer and causes panic and potential injury.",
+      "safety_critical": true
+    },
+    {
+      "question": "When transitioning from front headlock to anaconda grip, what grip configurations are available and when should each be used?",
+      "answer": "Three primary grip configurations exist for anaconda variations: (1) Gable grip (palm to palm) provides the strongest initial connection and is optimal for rolling variations where grip security during movement is paramount; (2) S-grip (fingers interlaced) offers slightly more reach and is effective when arm length differential exists or when you need maximum extension around larger opponents; (3) Figure-four grip (rear-naked-choke style) provides the tightest squeeze mechanism and works best for static finishing positions like high elbow or marce where you don't need to maintain grip through rolling. Selection depends on your arm length relative to opponent's body size, which variation you're executing, and personal preference developed through training. Most practitioners default to gable grip for versatility.",
+      "safety_critical": false
+    },
+    {
+      "question": "Your opponent defends by grabbing your choking arm with both hands and pulling down - what adjustment maintains submission viability?",
+      "answer": "When opponent grabs your choking arm and pulls downward, they are attempting to create space and prevent deep penetration. Counter by driving your hips forward aggressively while walking your chest over their back, using your body weight to overcome their grip strength. Simultaneously, use your non-choking arm to either peel one of their hands away or post on their far hip to prevent them from sitting out. If they commit both hands to defending your choking arm, they cannot post or frame, making the arm-in variation extremely effective - simply secure their defending arm inside your lock as you complete the encirclement. Their defensive grip often accelerates their path to submission by removing their ability to escape. The key is recognizing that their hand fight creates an opportunity rather than an obstacle.",
+      "safety_critical": false
+    },
+    {
+      "question": "What is the point of no escape for the anaconda choke, and how do you recognize when opponent can no longer defend?",
+      "answer": "The point of no escape occurs when three conditions are simultaneously met: (1) your elbow has cleared past opponent's centerline with forearm positioned on carotid arteries; (2) your body lock is secured with hands connected and hips driving forward; (3) opponent's shoulder is trapped between your chest and their own neck. At this point, regardless of which variation you employ, the only variable is finishing time - the submission is mechanically inevitable. You recognize this threshold when opponent's defensive movements no longer create space but instead seem to tighten the choke. Their attempts to bridge, roll, or stand actually increase pressure rather than relieve it. Experienced practitioners feel this transition moment - suddenly your grip feels lighter because their body is doing the work of compression. When this happens, maintain position and allow the submission to complete itself.",
+      "safety_critical": false
+    },
+    {
+      "question": "How should you adjust your anaconda technique when facing an opponent with a significantly thicker neck or larger body type?",
+      "answer": "Against thicker-necked or larger opponents, several adjustments maximize success: First, prioritize even deeper arm penetration than normal - your elbow must clear well past centerline to accommodate the increased circumference. Second, favor gable grip or figure-four over s-grip for maximum compression potential. Third, the high elbow and marce variations typically outperform the rolling variation because shoulder driving creates more localized pressure than distributed body compression - larger opponents absorb rolling pressure more effectively. Fourth, be prepared to walk your body around their larger frame, using multiple positional adjustments rather than single explosive movements. Fifth, patience becomes critical - larger opponents take longer to finish, so maintain technical position without forcing. Finally, the arm-in variation may be necessary if their neck is too thick for clean arm-only encirclement.",
+      "safety_critical": false
+    },
+    {
+      "question": "What are the key indicators that you should abort an anaconda attempt and transition to a different attack?",
+      "answer": "Abort and transition indicators include: (1) opponent fully stands with posture recovered and your arm penetration compromised - transition to guillotine or back take; (2) opponent successfully extracts their head by circling away and creating angles you cannot follow - transition to arm drag or front headlock reset; (3) you feel significant space develop between your chest and their shoulder that you cannot close despite hip adjustment - transition to darce if their arm position allows, or disengage to prevent energy waste; (4) opponent secures double underhooks and begins driving into you - disengage before they achieve reversal; (5) your grip is breaking due to sweat or fatigue and repositioning isn't solving it - transition rather than chase a failing submission. The principle is recognizing sunk cost - time invested in a failing anaconda is better redirected to a higher-percentage alternative than forcing completion.",
       "safety_critical": false
     }
   ],
@@ -325,19 +355,16 @@
     "D'arce-Anaconda Connection",
     "Guillotine Choke",
     "Arm Triangle",
-    "Japanese Necktie",
-    "Peruvian Necktie",
     "Brabo Choke",
-    "North-South Choke",
-    "High Elbow Guillotine",
     "Arm in Guillotine",
-    "Marce Choke",
-    "Rear Naked Choke"
+    "Rear Naked Choke",
+    "Darce Variations",
+    "Arm Triangle Progression"
   ],
   "related_content": [
     {
-      "name": "Front Headlock Series",
-      "relationship": "Primary entry system - mastery of front headlock control enables all anaconda variations"
+      "name": "Front Headlock",
+      "relationship": "Primary entry position - mastery of front headlock control enables all anaconda variations"
     },
     {
       "name": "Anaconda from Turtle",
@@ -346,10 +373,6 @@
     {
       "name": "Darce Setup",
       "relationship": "Alternative attack from same position - failed anaconda often transitions to darce"
-    },
-    {
-      "name": "Front Headlock to Anaconda",
-      "relationship": "Foundational entry sequence - establishes head control before attempting variations"
     },
     {
       "name": "Anaconda Control",
@@ -364,7 +387,7 @@
       "relationship": "Alternative choke from similar positioning - option when anaconda angle is compromised"
     },
     {
-      "name": "Kimura Control",
+      "name": "Kimura Trap",
       "relationship": "Submission alternative if choke is defended - transitions from front headlock family"
     },
     {
@@ -378,6 +401,10 @@
     {
       "name": "Arm Triangle Progression",
       "relationship": "Related compression choke system - shares shoulder pressure principles with marce variation"
+    },
+    {
+      "name": "Turtle",
+      "relationship": "Primary attack surface - turtle position exposes neck for anaconda entries"
     }
   ]
 }

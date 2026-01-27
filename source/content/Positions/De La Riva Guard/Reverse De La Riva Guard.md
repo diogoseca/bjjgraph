@@ -95,35 +95,26 @@ Strategically, RDLR has become increasingly prominent in both gi and no-gi compe
 - Strategic grips on ankles and pants enhance control and create pathways to sweeps, back takes, and guard transitions
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Waiter Sweep]]** → [[Mount]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Waiter Sweep]]** (12% of attempts)
 
-- **[[Kiss of the Dragon]]** → [[Back Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 65%
+- **[[Kiss of the Dragon]]** (11% of attempts)
 
-- **[[Berimbolo Entry]]** → [[Back Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 60%
+- **[[Berimbolo Entry]]** (10% of attempts)
 
-- **[[Crab Ride to Back]]** → [[Back Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 70%
+- **[[Crab Ride to Back]]** (12% of attempts)
 
-- **[[De La Riva to X-Guard Transition]]** → [[X-Guard]]
-  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+- **[[De La Riva to X-Guard Transition]]** (12% of attempts)
 
-- **[[Single Leg X Entry]]** → [[Single Leg X-Guard]]
-  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 80%
+- **[[Single Leg X Entry]]** (12% of attempts)
 
-- **[[Omoplata Sweep]]** → [[Side Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Omoplata Sweep]]** (10% of attempts)
 
-- **[[Rolling Back Take]]** → [[Back Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 60%
+- **[[Rolling Back Take]]** (10% of attempts)
 
-- **[[Transition to Truck]]** → [[Truck]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 65%
+- **[[Turtle to Truck]]** (11% of attempts)
 
 
 ### Common Mistakes
@@ -181,29 +172,22 @@ Strategically, RDLR has become increasingly prominent in both gi and no-gi compe
 - Recognize and defend common sweeps (kiss of the dragon, waiter sweep, berimbolo) by maintaining proper posture and weight distribution throughout the passing sequence, never allowing hips to drift forward
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[RDLR Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 70%
+- **[[RDLR Pass]]** (14% of attempts)
 
-- **[[Leg Drag Pass]]** → [[Leg Drag Position]]
-  - Success Rate: Beginner 40%, Intermediate 60%, Advanced 75%
+- **[[Leg Drag Pass]]** (15% of attempts)
 
-- **[[Knee Slice Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 65%
+- **[[Knee Slice Pass]]** (13% of attempts)
 
-- **[[Smash Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 60%
+- **[[Smash Pass]]** (12% of attempts)
 
-- **[[Toreando Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 70%
+- **[[Toreando Pass]]** (14% of attempts)
 
-- **[[Back Step]]** → [[Headquarters Position]]
-  - Success Rate: Beginner 45%, Intermediate 65%, Advanced 80%
+- **[[Back Step]]** (19% of attempts)
 
-- **[[Long Step Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 65%
+- **[[Long Step Pass]]** (13% of attempts)
 
 
 ### Common Mistakes

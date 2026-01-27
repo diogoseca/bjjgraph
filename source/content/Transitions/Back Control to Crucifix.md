@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Back Control to Crucifix | BJJ Technique | BJJ Graph"
 description: "Learn Back Control to Crucifix in BJJ. Step-by-step execution from back mount to crucifix control. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%."
@@ -16,7 +17,7 @@ description: "Learn Back Control to Crucifix in BJJ. Step-by-step execution from
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Back Control to Crucifix in BJJ",
-  "description": "Step-by-step guide for Back Control to Crucifix from Back Control to Crucifix.",
+  "description": "Step-by-step guide for Back Control to Crucifix from Back Control/Top. Possible outcomes: Crucifix/Top (65%), Back Control/Top (25%), Back Control/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -154,11 +155,25 @@ description: "Learn Back Control to Crucifix in BJJ. Step-by-step execution from
 
 The Back Control to Crucifix transition represents a critical advancement in back attack systems, converting standard rear mount dominance into an even more controlling and submission-rich position. This transition capitalizes on the opponent's defensive hand fighting and arm positioning, transforming their defensive frames into liabilities. When executed properly, the crucifix provides superior control over both of the opponent's arms while maintaining back exposure, creating a near-inescapable submission platform. The transition typically occurs when the bottom player attempts to defend the rear naked choke by gripping their own collar or creating defensive frames with their arms. Understanding this positional flow is essential for any serious back attack specialist, as it represents the logical evolution from basic back control to a more sophisticated control position that dramatically increases submission percentages while minimizing escape opportunities.
 
-**Starting Position**: [[Back Control]]
-**Ending Position**: [[Crucifix]]
+**From Position**: [[Back Control/Top]]
 **Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Crucifix/Top]] | 65% |
+| Failure | [[Back Control/Top]] | 25% |
+| Counter | [[Back Control/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

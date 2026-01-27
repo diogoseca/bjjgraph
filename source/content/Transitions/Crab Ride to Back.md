@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Crab Ride to Back | BJJ Technique | BJJ Graph"
 description: "Master the Crab Ride to Back transition in BJJ. Complete step-by-step execution from top turtle control. Success rates: Beginner 45%, Intermediate 65%, Advanced 80%."
@@ -16,7 +17,7 @@ description: "Master the Crab Ride to Back transition in BJJ. Complete step-by-s
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Crab Ride to Back in BJJ",
-  "description": "Step-by-step guide for Crab Ride to Back from Crab Ride to Back Control.",
+  "description": "Step-by-step guide for Crab Ride to Back from Crab Ride/Top. Possible outcomes: Back Control/Top (75%), Crab Ride/Top (15%), Crab Ride/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -158,11 +159,25 @@ Historically developed and refined through wrestling's emphasis on top control, 
 
 What makes this transition particularly effective is the combination of mechanical advantage and limited defensive options available to the bottom player. From the Crab Ride, the top player controls crucial aspects of their opponent's base and posture, making it extremely difficult to resist the back take. Understanding proper weight distribution, hook placement, and timing of the roll or slide to back control separates successful execution from defensive stalemates. This technique exemplifies the principle of positional dominance leading to back control, one of the most advantageous positions in all of grappling.
 
-**Starting Position**: [[Crab Ride]]
-**Ending Position**: [[Back Control]]
+**From Position**: [[Crab Ride/Top]]
 **Success Rates**: Beginner 45%, Intermediate 65%, Advanced 80%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Back Control/Top]] | 75% |
+| Failure | [[Crab Ride/Top]] | 15% |
+| Counter | [[Crab Ride/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

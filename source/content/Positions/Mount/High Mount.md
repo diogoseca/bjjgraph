@@ -95,26 +95,18 @@ In competition contexts, High Mount represents the culmination of successful pas
 - Accept that escapes require perfect timing during opponent's transitions rather than sustained pressure
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Upa Escape]]** → [[Guard Recovery]]
-  - Success Rate: Beginner 10%, Intermediate 20%, Advanced 35%
+- **[[Upa Escape]]** (18% of attempts)
 
-- **[[Elbow Escape]]** → [[Half Guard]]
-  - Success Rate: Beginner 15%, Intermediate 25%, Advanced 40%
+- **[[Elbow Escape]]** (25% of attempts)
 
-- **[[Bridge and Roll]]** → [[Guard Recovery]]
-  - Success Rate: Beginner 8%, Intermediate 15%, Advanced 25%
+- **[[Bridge and Roll]]** (15% of attempts)
 
-- **[[Shrimp Escape]]** → [[Guard Recovery]]
-  - Success Rate: Beginner 10%, Intermediate 18%, Advanced 30%
+- **[[Shrimp Escape]]** (18% of attempts)
 
-- **[[Frame Creation]]** → [[Defensive Position]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
-
-- **[[Hip Escape]]** → [[Half Guard]]
-  - Success Rate: Beginner 12%, Intermediate 22%, Advanced 35%
+- **[[Hip Escape]]** (24% of attempts)
 
 
 ### Common Mistakes
@@ -176,44 +168,24 @@ In competition contexts, High Mount represents the culmination of successful pas
 - Prioritize position retention over rushing submissions, allowing control to create submission opportunities naturally
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Armbar from Mount]]** → [[Armbar Control]]
-  - Success Rate: Beginner 45%, Intermediate 65%, Advanced 80%
+- **[[Armbar from Mount]]** (18% of attempts)
 
-- **[[Ezekiel from Mount]]** → [[Won by Submission]]
-  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 70%
+- **[[Ezekiel from Mount]]** (14% of attempts)
 
-- **[[Cross Collar Choke]]** → [[Won by Submission]]
-  - Success Rate: Beginner 40%, Intermediate 60%, Advanced 75%
+- **[[Cross Collar Choke]]** (14% of attempts)
 
-- **[[Americana from Mount]]** → [[Won by Submission]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 65%
+- **[[Americana from Mount]]** (12% of attempts)
 
-- **[[Triangle from Mount]]** → [[Triangle Control]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 60%
+- **[[Triangle from Mount]]** (10% of attempts)
 
-- **[[Transition to Mount]]** → [[S Mount]]
-  - Success Rate: Beginner 50%, Intermediate 70%, Advanced 85%
+- **[[Kimura from Mount]]** (12% of attempts)
 
-- **[[Transition to Mount]]** → [[Technical Mount]]
-  - Success Rate: Beginner 45%, Intermediate 65%, Advanced 80%
+- **[[Arm Triangle]]** (10% of attempts)
 
-- **[[Kimura from Mount]]** → [[Kimura Control]]
-  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 70%
-
-- **[[Arm Triangle]]** → [[Won by Submission]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 65%
-
-- **[[Gift Wrap Transition]]** → [[Gift Wrap]]
-  - Success Rate: Beginner 40%, Intermediate 60%, Advanced 75%
-
-- **[[Loop Choke from Mount]]** → [[Won by Submission]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
-
-- **[[Monoplata from Mount]]** → [[Won by Submission]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Gift Wrap Transition]]** (10% of attempts)
 
 
 ### Common Mistakes
@@ -272,7 +244,7 @@ In competition contexts, High Mount represents the culmination of successful pas
 
 - **[[North-South]]** - Transition option when opponent creates significant bridge and attempts rotation
 
-- **[[Kimura Control]]** - Shoulder lock control position accessible when opponent defends with bent arms
+- **[[Kimura Trap]]** - Shoulder lock control position accessible when opponent defends with bent arms
 
 - **[[Mounted Crucifix]]** - Advanced control variation isolating both arms for submission attacks
 

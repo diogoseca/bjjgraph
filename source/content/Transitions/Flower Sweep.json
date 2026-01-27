@@ -9,8 +9,6 @@
     "guard-bottom",
     "fundamental"
   ],
-  "starting_position": "Closed Guard",
-  "ending_position": "Mount",
   "success_rates": {
     "beginner": 35,
     "intermediate": 55,
@@ -254,6 +252,24 @@
     {
       "name": "Butterfly Sweep",
       "relationship": "Related sweep using butterfly hook mechanics from open guard position"
+    }
+  ],
+  "from_position": "Closed Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Mount/Top",
+      "probability": 70,
+      "result": "success"
+    },
+    {
+      "to": "Closed Guard/Bottom",
+      "probability": 20,
+      "result": "failure"
+    },
+    {
+      "to": "Closed Guard/Top",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

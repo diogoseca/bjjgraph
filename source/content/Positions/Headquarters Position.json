@@ -42,127 +42,34 @@
     "Neutralize opponent's frames and hooks by maintaining distance with posting hand while controlling with gripping hand, preventing them from creating space",
     "Systematically eliminate defensive options by reading reactions and selecting appropriate passing variations, using headquarters as central decision hub"
   ],
-  "offensive_transitions": [
+  "transitions": [
     {
-      "technique": "Knee Slice Pass",
-      "target_position": "Side Control",
-      "success_rates": {
-        "beginner": 40,
-        "intermediate": 60,
-        "advanced": 75
-      }
+      "transition": "Knee Slice Pass",
+      "attempt_probability": 25
     },
     {
-      "technique": "Long Step Pass",
-      "target_position": "Side Control",
-      "success_rates": {
-        "beginner": 35,
-        "intermediate": 55,
-        "advanced": 70
-      }
+      "transition": "Long Step Pass",
+      "attempt_probability": 15
     },
     {
-      "technique": "Smash Pass",
-      "target_position": "Side Control",
-      "success_rates": {
-        "beginner": 45,
-        "intermediate": 65,
-        "advanced": 80
-      }
+      "transition": "Smash Pass",
+      "attempt_probability": 20
     },
     {
-      "technique": "Leg Weave Pass",
-      "target_position": "Mount",
-      "success_rates": {
-        "beginner": 30,
-        "intermediate": 50,
-        "advanced": 65
-      }
+      "transition": "Leg Weave Pass",
+      "attempt_probability": 10
     },
     {
-      "technique": "Over-Under Pass",
-      "target_position": "Side Control",
-      "success_rates": {
-        "beginner": 35,
-        "intermediate": 55,
-        "advanced": 70
-      }
+      "transition": "Over Under Pass",
+      "attempt_probability": 10
     },
     {
-      "technique": "Underhook Pass",
-      "target_position": "Side Control",
-      "success_rates": {
-        "beginner": 40,
-        "intermediate": 60,
-        "advanced": 75
-      }
+      "transition": "Back Step Pass",
+      "attempt_probability": 10
     },
     {
-      "technique": "Crossface Pass",
-      "target_position": "Side Control",
-      "success_rates": {
-        "beginner": 35,
-        "intermediate": 55,
-        "advanced": 70
-      }
-    },
-    {
-      "technique": "Transition to Mount",
-      "target_position": "Mount",
-      "success_rates": {
-        "beginner": 25,
-        "intermediate": 45,
-        "advanced": 60
-      }
-    }
-  ],
-  "defensive_responses": [
-    {
-      "technique": "Frame and Shrimp",
-      "target_position": "Half Guard",
-      "success_rate": 45
-    },
-    {
-      "technique": "Underhook Sweep from Half",
-      "target_position": "Scramble Position",
-      "success_rate": 35
-    },
-    {
-      "technique": "Re-Guard from Headquarters",
-      "target_position": "Half Guard",
-      "success_rate": 40
-    },
-    {
-      "technique": "Technical Standup",
-      "target_position": "Standing Position",
-      "success_rate": 30
-    },
-    {
-      "technique": "Deep Half Entry",
-      "target_position": "Deep Half Guard",
-      "success_rate": 35
-    }
-  ],
-  "counter_transitions": [
-    {
-      "technique": "Pressure Pass",
-      "target_position": "Side Control",
-      "trigger": "Opponent attempts to create frames and space with hands or feet to prevent passing pressure"
-    },
-    {
-      "technique": "Knee Slice Pass",
-      "target_position": "Side Control",
-      "trigger": "Opponent turns toward trapped leg attempting to recover half guard structure or full guard"
-    },
-    {
-      "technique": "Long Step Pass",
-      "target_position": "Side Control",
-      "trigger": "Opponent extends leg to create distance or pushes knee line with foot on hip"
-    },
-    {
-      "technique": "Back Step",
-      "target_position": "Back Control",
-      "trigger": "Opponent commits to deep half guard entry or underhook attack creating back exposure"
+      "transition": "Crossface Pass",
+      "attempt_probability": 10
     }
   ],
   "decision_tree": [
@@ -215,12 +122,12 @@
       "condition": "If opponent attempts deep half guard entry or commits to underhook sweep mechanics",
       "actions": [
         {
-          "technique": "Back Step",
+          "technique": "Back Step Pass",
           "target": "Back Control",
           "probability": 65
         },
         {
-          "technique": "Underhook Pass",
+          "technique": "Knee Cut Pass",
           "target": "Side Control",
           "probability": 60
         }
@@ -276,20 +183,6 @@
       "duration": "2 minutes per scenario, 5-6 different starting positions"
     }
   ],
-  "optimal_submission_paths": [
-    {
-      "name": "High-percentage kimura path from side control",
-      "path": "Headquarters Position → Smash Pass → Side Control → Kimura from Side Control"
-    },
-    {
-      "name": "Back attack path via counter to deep half",
-      "path": "Headquarters Position → Back Step → Back Control → Rear Naked Choke"
-    },
-    {
-      "name": "Mount submission sequence via knee slice",
-      "path": "Headquarters Position → Knee Slice Pass → Side Control → Transition to Mount → Mount → Americana from Mount"
-    }
-  ],
   "related_content": [
     {
       "name": "Combat Base",
@@ -308,8 +201,8 @@
       "relationship": "Common defensive entry opponent attempts from headquarters pressure"
     },
     {
-      "name": "Pressure Passing",
-      "relationship": "Technical concept applied when maintaining headquarters control and advancing passes"
+      "name": "Knee Shield Half Guard",
+      "relationship": "Defensive guard structure opponent may attempt to establish against headquarters"
     },
     {
       "name": "Knee Slice Pass",
@@ -320,16 +213,16 @@
       "relationship": "Primary offensive transition when opponent extends leg to create distance"
     },
     {
-      "name": "Headquarters Pass",
-      "relationship": "Specific passing transition utilizing headquarters control principles"
-    },
-    {
-      "name": "Re-Guard from Headquarters",
-      "relationship": "Common defensive transition opponent attempts from this position"
-    },
-    {
       "name": "Smash Pass",
       "relationship": "Primary offensive transition when opponent creates strong frames"
+    },
+    {
+      "name": "Back Step Pass",
+      "relationship": "Counter transition when opponent attempts deep half or underhook attacks"
+    },
+    {
+      "name": "Mount",
+      "relationship": "Advanced target position achievable through leg weave or progressive passing"
     }
   ],
   "position_metrics": {

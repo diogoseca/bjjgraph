@@ -11,8 +11,6 @@
     "back_control",
     "shoulder_lock"
   ],
-  "starting_position": "Omoplata Control",
-  "ending_position": "Back Control",
   "success_rates": {
     "beginner": 30,
     "intermediate": 50,
@@ -274,6 +272,24 @@
     {
       "name": "Baratoplata",
       "relationship": "Advanced variation combining omoplata mechanics with rolling to back"
+    }
+  ],
+  "from_position": "Omoplata Control/Top",
+  "outcomes": [
+    {
+      "to": "Back Control/Top",
+      "probability": 70,
+      "result": "success"
+    },
+    {
+      "to": "Omoplata Control/Top",
+      "probability": 20,
+      "result": "failure"
+    },
+    {
+      "to": "Omoplata Control/Bottom",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

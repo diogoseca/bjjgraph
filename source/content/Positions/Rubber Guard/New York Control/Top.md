@@ -21,37 +21,37 @@ description: "Master defensive strategies against New York Control from top posi
     {
       "@type": "HowToStep",
       "name": "Execute Overhook Escape",
-      "text": "From this position, execute Overhook Escape to transition to Open Guard. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Overhook Escape. This technique is attempted in 18% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Posture Recovery",
-      "text": "From this position, execute Posture Recovery to transition to Closed Guard. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Posture Recovery. This technique is attempted in 16% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Base Widening",
-      "text": "From this position, execute Base Widening to transition to Combat Base. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Base Widening. This technique is attempted in 20% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Stack Pass",
-      "text": "From this position, execute Stack Pass to transition to Headquarters Position. Success rate for advanced practitioners: 45%.",
+      "text": "From this position, attempt Stack Pass. This technique is attempted in 13% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Extraction",
-      "text": "From this position, execute Leg Extraction to transition to Half Guard. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Leg Extraction. This technique is attempted in 18% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Standing up",
-      "text": "From this position, execute Standing up to transition to Standing Position. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Standing up. This technique is attempted in 15% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -217,76 +217,18 @@ Competition preparation requires specific drilling of New York defensive protoco
 
 ## Available Attacks
 
-### [[Overhook Escape]] → [[Open Guard]]
+### [[Overhook Escape]] (18% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Posture Recovery]] (16% of attempts)
 
-### [[Posture Recovery]] → [[Closed Guard]]
+### [[Base Widening]] (20% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 40%
-- Advanced: 55%
+### [[Stack Pass]] (13% of attempts)
 
-### [[Base Widening]] → [[Combat Base]]
+### [[Leg Extraction]] (18% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Standing up]] (15% of attempts)
 
-### [[Stack Pass]] → [[Headquarters Position]]
-
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 45%
-
-### [[Leg Extraction]] → [[Half Guard]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[Standing up]] → [[Standing Position]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Gogoplata]]** → [[Gogoplata Control]] (Opponent Success: 40%)
-- **[[Triangle Setup]]** → [[Triangle Control]] (Opponent Success: 50%)
-- **[[Omoplata Sweep]]** → [[Omoplata Control]] (Opponent Success: 45%)
-- **[[Triangle to Back]]** → [[Back Control]] (Opponent Success: 35%)
-- **[[Omoplata to Back]]** → [[Back Control]] (Opponent Success: 35%)
-- **[[Hip Bump Sweep]]** → [[Mount]] (Opponent Success: 40%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Posture Recovery]]** → [[Closed Guard]]
-  - Bottom player loses overhook control temporarily during grip adjustment
-- **[[Base Widening]]** → [[Combat Base]]
-  - Bottom player attempts to transition to different rubber guard position
-- **[[Stack Pass]]** → [[Headquarters Position]]
-  - Bottom player extends legs attempting gogoplata or triangle setup
 
 
 </section>
@@ -376,25 +318,39 @@ Begin in New York Control with top player working to escape or pass while bottom
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Standard Escape Path
+## Test Your Knowledge
 
-`New York Control Top → Overhook Escape → Open Guard → Posture Recovery → Closed Guard`
+**Q1**: What is the correct priority sequence when escaping New York Control from top?
+**A**: The overhook must be escaped before attempting to remove the leg control. Attempting to extract the leg while the overhook remains engaged leaves your arm trapped and allows the bottom player to transition between gogoplata, triangle, and omoplata threats freely. Only after the overhook is compromised can you safely address the leg control.
 
-### Base Recovery Path
+**Q2**: Why does driving forward with pressure increase submission danger in New York Control?
+**A**: Forward pressure drives the opponent's controlling leg deeper across your back and shoulder, tightening their structure and improving their angle for gogoplata and triangle submissions. It also loads your weight forward, making sweeps easier. Lateral movement and base widening provide safer escape vectors that don't feed into their submission chains.
 
-`New York Control Top → Base Widening → Combat Base → Guard Pass`
+**Q3**: Your opponent begins to shoot their shin across your neck for a gogoplata - what immediate defensive adjustment should you make?
+**A**: Immediately tuck your chin firmly to your chest while simultaneously driving your head toward the mat on the side away from the incoming shin. Keep elbows tight to prevent arm isolation for triangle backup. If possible, stand up explosively to create distance and eliminate the angle, or stack their hips to reduce the shin pressure across your throat.
 
-### Emergency Standing Path
+**Q4**: How should you distribute your weight when stuck in New York Control from top?
+**A**: Maintain a wide, low base with weight distributed laterally rather than forward. Keep hips close to the mat and spread knees wide for stability against sweeps. Avoid loading weight forward into the opponent, as this feeds their submission chains. Weight should feel centered over your knees with the ability to shift laterally quickly.
 
-`New York Control Top → Standing up → Standing Position → Guard Pass`
+**Q5**: What makes standard posture recovery ineffective against New York Control?
+**A**: The leg wrapped over your shoulder and across your back mechanically prevents vertical posture establishment. Attempting to straighten up only tightens their leg control and often drives your trapped arm deeper into their overhook. Instead, use circular base distribution and lateral movement to reduce leg effectiveness before any vertical posture attempts.
+
+**Q6**: Your opponent adjusts their grip - what window does this create for escape?
+**A**: Grip adjustments temporarily reduce overhook control depth and pulling pressure. This creates a brief window for arm extraction. Immediately rotate your shoulder forward and pull your elbow toward your hip while their grip is compromised. Time your posture recovery attempt to coincide with their grip transition, then establish defensive hand positioning before they can re-engage.
+
+**Q7**: How do you prevent the bottom player from transitioning to triangle when defending their overhook?
+**A**: Keep elbows pinned tightly to your ribs with hands protecting your neck at all times. Never extend your arms to post or push away, as extended arms provide the isolation needed for triangle setup. When escaping the overhook, rotate your shoulder while keeping the elbow connected to your body, denying the space needed for leg entry around your neck.
+
+**Q8**: What is the relationship between base widening and successful New York Control defense?
+**A**: Base widening spreads your weight across a larger area, making sweeps mechanically more difficult while providing stability for systematic escape attempts. It also lowers your center of gravity, reducing the effectiveness of the opponent's leg pressure. Wide base combined with low hips creates the defensive platform needed to execute patient overhook escape without being swept during the process.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -415,12 +371,12 @@ Begin in New York Control with top player working to escape or pass while bottom
 
 ## Related Positions and Techniques
 
-- **[[Rubber Guard to Triangle System]]** - Broader defensive framework against 10th Planet positions
-- **[[Triangle Defense]]** - Specific defensive mechanics against primary New York submission
-- **[[Omoplata Defense]]** - Defensive protocols against common New York attack
+- **[[Triangle Control]]** - Primary submission threat requiring specific defensive protocols
+- **[[Omoplata Control]]** - Common attack target requiring shoulder protection and posture awareness
 - **[[Mission Control]]** - Related rubber guard position requiring similar defensive approach
-- **[[Guard Passing Principles]]** - Fundamental concepts adapted for rubber guard contexts
-- **[[Defensive Strategy]]** - Mental framework for systematic escape protocols
+- **[[Closed Guard]]** - Recovery target position after successful overhook escape
+- **[[Combat Base]]** - Intermediate position achieved through base widening defense
+- **[[Headquarters Position]]** - Passing position achieved after successful stack defense
 
 
 </section>

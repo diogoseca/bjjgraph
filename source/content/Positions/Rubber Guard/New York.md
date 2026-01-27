@@ -103,38 +103,28 @@ The learning curve for New York is steep, typically requiring 6-12 months of ded
 - Core engagement is continuous - relaxing the core allows opponent to drive forward and escape
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Transition to Invisible Collar]]** → [[Invisible Collar]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 65%
+- **[[New York to Invisible Collar]]** (11% of attempts)
 
-- **[[Progression to Zombie]]** → [[Zombie]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 70%
+- **[[Progression to Zombie]]** (11% of attempts)
 
-- **[[Advance to Chill Dog]]** → [[Chill Dog]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 55%
+- **[[Advance to Chill Dog]]** (9% of attempts)
 
-- **[[Rotate to Carni]]** → [[Carni]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 60%
+- **[[Rotate to Carni]]** (10% of attempts)
 
-- **[[Triangle Setup]]** → [[Triangle Control]]
-  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 75%
+- **[[Triangle Setup]]** (12% of attempts)
 
-- **[[Omoplata Sweep]]** → [[Omoplata Control]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Omoplata Sweep]]** (8% of attempts)
 
-- **[[Gogoplata]]** → [[Gogoplata Control]]
-  - Success Rate: Beginner 15%, Intermediate 25%, Advanced 40%
+- **[[Gogoplata]]** (7% of attempts)
 
-- **[[Armbar from Guard]]** → [[Armbar Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 65%
+- **[[Armbar from Guard]]** (11% of attempts)
 
-- **[[Hip Bump Sweep]]** → [[Mount]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 70%
+- **[[Hip Bump Sweep]]** (11% of attempts)
 
-- **[[Omoplata to Back]]** → [[Back Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 60%
+- **[[Omoplata to Back]]** (10% of attempts)
 
 
 ### Common Mistakes
@@ -196,26 +186,20 @@ The learning curve for New York is steep, typically requiring 6-12 months of ded
 - Time pressure favors bottom player - prolonged defensive engagement leads to exhaustion and submission
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Posture Recovery]]** → [[Closed Guard]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 55%
+- **[[Posture Recovery]]** (18% of attempts)
 
-- **[[Overhook Extraction]]** → [[Closed Guard]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 50%
+- **[[Overhook Extraction]]** (16% of attempts)
 
-- **[[Guard Opening Sequence]]** → [[Open Guard]]
-  - Success Rate: Beginner 10%, Intermediate 25%, Advanced 45%
+- **[[Guard Opening Sequence]]** (15% of attempts)
 
-- **[[Base Widening]]** → [[Closed Guard]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 60%
+- **[[Base Widening]]** (20% of attempts)
 
-- **[[Stack Defense]]** → [[Defensive Position]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 65%
+- **[[Stack Defense]]** (21% of attempts)
 
-- **[[Pressure Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 5%, Intermediate 15%, Advanced 30%
+- **[[Pressure Pass]]** (10% of attempts)
 
 
 ### Common Mistakes

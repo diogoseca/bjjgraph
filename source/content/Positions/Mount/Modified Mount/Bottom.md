@@ -21,37 +21,37 @@ description: "Defend Modified Mount position effectively. Learn escape sequences
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape",
-      "text": "From this position, execute Hip Escape to transition to Half Guard. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Hip Escape. This technique is attempted in 18% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Elbow Escape",
-      "text": "From this position, execute Elbow Escape to transition to Closed Guard. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Elbow Escape. This technique is attempted in 16% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Frame and Shrimp",
-      "text": "From this position, execute Frame and Shrimp to transition to Open Guard. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Frame and Shrimp. This technique is attempted in 14% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bridge and Roll",
-      "text": "From this position, execute Bridge and Roll to transition to Mount. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Upa Escape",
-      "text": "From this position, execute Upa Escape to transition to Closed Guard. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Upa Escape. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Deep Half Entry",
-      "text": "From this position, execute Deep Half Entry to transition to Deep Half Guard. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -209,91 +209,22 @@ Facing Modified Mount from the bottom requires understanding how the asymmetric 
 
 ## Available Escapes
 
-### [[Hip Escape]] → [[Half Guard]]
+### [[Hip Escape]] (18% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 55%
-- Advanced: 75%
+### [[Elbow Escape]] (16% of attempts)
 
-### [[Elbow Escape]] → [[Closed Guard]]
+### [[Frame and Shrimp]] (14% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 70%
+### [[Bridge and Roll]] (10% of attempts)
 
-### [[Frame and Shrimp]] → [[Open Guard]]
+### [[Upa Escape]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 45%
-- Advanced: 65%
+### [[Deep Half Entry]] (10% of attempts)
 
-### [[Bridge and Roll]] → [[Mount]]
+### [[Lockdown Recovery]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
+### [[Turtle Transition]] (10% of attempts)
 
-### [[Upa Escape]] → [[Closed Guard]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-### [[Deep Half Entry]] → [[Deep Half Guard]]
-
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 50%
-
-### [[Lockdown Recovery]] → [[Lockdown]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 55%
-
-### [[Turtle Transition]] → [[Turtle]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 60%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Armbar from Mount]]** → [[Armbar Control]] (Opponent Success: 60%)
-- **[[S-Mount Transition]]** → [[S Mount]] (Opponent Success: 55%)
-- **[[Transition to High Mount]]** → [[High Mount]] (Opponent Success: 50%)
-- **[[Mounted Triangle]]** → [[Mounted Triangle]] (Opponent Success: 45%)
-- **[[Americana from Mount]]** → [[Americana Control]] (Opponent Success: 40%)
-- **[[Cross Collar Choke]]** → [[Won by Submission]] (Opponent Success: 35%)
-- **[[Gift Wrap Control]]** → [[Gift Wrap]] (Opponent Success: 40%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Attack Posted Leg]]** → [[Half Guard]]
-  - When opponent posts leg too far from body creating space
-- **[[Trap and Roll]]** → [[Mount]]
-  - When opponent reaches for armbar grip and posts hand high
-- **[[Granby Roll]]** → [[Turtle]]
-  - When opponent transitions toward technical mount or S-mount
 
 
 </section>
@@ -309,7 +240,7 @@ Facing Modified Mount from the bottom requires understanding how the asymmetric 
 
 **If opponent reaches for armbar grip on near-side arm:**
 - Execute **[[Trap and Roll]]** → [[Mount]] (Probability: 45%)
-- Execute **[[Armbar Defense]]** → [[Modified Mount Bottom]] (Probability: 60%)
+- Execute **[[Armbar Defense]]** → [[Modified Mount]] (Probability: 60%)
 
 
 **If opponent transitions toward S-mount or technical mount:**
@@ -400,29 +331,39 @@ Partner transitions from standard mount to Modified Mount repeatedly. Bottom pra
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Primary Hip Escape Sequence
+## Test Your Knowledge
 
-`Modified Mount Bottom → Frame Creation → Hip Escape → Half Guard → Closed Guard`
+**Q1**: Why should you escape toward the posted leg side rather than toward the across-body knee?
+**A**: The posted leg side has inherently weaker control because the opponent's weight is primarily distributed through the across-body knee onto your torso. The posted leg is extended outward for stability, creating a gap between their hip and your body that can be exploited with hip escapes. Escaping toward the across-body knee means fighting directly into their strongest control point where maximum pressure is applied, wasting energy with minimal progress.
 
-### Posted Leg Attack
+**Q2**: How should you protect your near-side arm to prevent the armbar that Modified Mount naturally sets up?
+**A**: Keep the near-side arm tight against your body with your elbow glued to your hip and your hand protecting your neck or gripping your own collar. Never extend this arm upward to frame on their chest or push, as this creates the exact arm isolation the opponent needs for the armbar. Frame on their hips with your far-side arm instead, maintaining the near-side arm in a defensive position throughout your escape attempts.
 
-`Modified Mount Bottom → Posted Leg Capture → Lockdown → Half Guard → Sweep`
+**Q3**: What frames should you establish before attempting a hip escape from Modified Mount?
+**A**: Establish a frame with your far-side hand on their hip bone to create initial space and prevent them from following your hip movement. Your near-side elbow should connect to your own hip, protecting that arm. If possible, get your far-side knee up toward their hip as well to create a knee-elbow frame. These frames must be set before hip escaping - without them, the opponent simply rides your movement and maintains control.
 
-### Reversal from Armbar Attempt
+**Q4**: What is the optimal timing window to attack your escape from Modified Mount?
+**A**: The best timing windows are: 1) When the opponent reaches for a submission, as their weight shifts and they momentarily reduce controlling pressure, 2) During transitions when they're adjusting from standard mount to Modified Mount or vice versa, 3) When they post their leg farther than optimal, creating extra space to exploit, 4) When they shift weight forward to establish high mount, creating an opening for hip escape behind them.
 
-`Modified Mount Bottom → Armbar Defense → Trap and Roll → Mount → Submission`
+**Q5**: How do you recognize which leg your opponent has posted in Modified Mount?
+**A**: Feel for where the primary pressure is coming from - the across-body knee will create downward crushing pressure on your torso, while the posted leg side will feel lighter with space between their hip and your body. You can also feel for their foot flat on the mat on one side versus knee down on the other. Visual recognition is difficult when mounted, so develop tactile sensitivity through drilling to instantly identify the configuration without looking.
 
-### Turtle Recovery
+**Q6**: What should you do if the opponent begins transitioning to S-mount or technical mount during your escape attempt?
+**A**: These transitions actually create escape opportunities if recognized quickly. For S-mount transition, immediately turn toward the posted leg side aggressively since they're lifting their across-body knee. For technical mount transition, as they insert their back hook, perform a Granby roll toward their posted leg or dive for deep half guard under their elevated leg. The key is recognizing the transition and attacking decisively rather than freezing or continuing your original escape into a worse position.
 
-`Modified Mount Bottom → Granby Roll → Turtle → Guard Recovery`
+**Q7**: How should you manage your energy when trapped in Modified Mount against a patient opponent?
+**A**: Avoid explosive movements that the posted leg is designed to absorb - bridges and explosive escapes waste enormous energy against this position's stability. Instead, use small, technical hip escapes combined with frames, accepting incremental progress. Keep your breathing controlled and avoid panicking. Wait for genuine openings rather than forcing escapes. The opponent is expending less energy than in standard mount, so patience and technical precision beat explosive attempts that exhaust you.
+
+**Q8**: What is the recovery pathway if your escape partially succeeds and you capture their posted leg in half guard?
+**A**: Capturing the posted leg in half guard is an excellent outcome. Immediately establish knee shield with your inside leg, get an underhook on the near side, and begin your half guard retention and sweep game. Prevent them from flattening you by keeping your hips mobile and maintaining the underhook. From half guard, you've successfully escaped the mount position and regained a guard position with multiple sweep and submission options available.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -443,12 +384,12 @@ Partner transitions from standard mount to Modified Mount repeatedly. Bottom pra
 
 ## Related Positions and Techniques
 
-- **[[Mount Escape Hierarchy]]** - Overall framework for prioritizing escapes, Modified Mount fits within systematic approach
+- **[[Mount]]** - Parent position - understanding standard mount defense informs Modified Mount escape
 - **[[Armbar Defense]]** - Critical skill for defending primary submission threat from Modified Mount
-- **[[Hip Escape Mechanics]]** - Fundamental movement pattern for exploiting posted leg vulnerability
-- **[[Frame Creation]]** - Essential defensive structure for creating escape space from Modified Mount
+- **[[Hip Escape]]** - Fundamental movement pattern for exploiting posted leg vulnerability
+- **[[Half Guard]]** - Primary escape target when capturing posted leg
 - **[[Deep Half Guard]]** - Alternative escape target when attacking posted leg
-- **[[Energy Conservation]]** - Principle for surviving Modified Mount with efficient technical movements
+- **[[Closed Guard]]** - Escape target when creating significant space
 
 
 </section>

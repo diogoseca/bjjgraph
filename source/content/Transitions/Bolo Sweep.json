@@ -10,8 +10,6 @@
     "back-take",
     "inversion"
   ],
-  "starting_position": "De La Riva Guard",
-  "ending_position": "Back Control",
   "success_rates": {
     "beginner": 25,
     "intermediate": 45,
@@ -248,6 +246,24 @@
     {
       "name": "Waiter Sweep",
       "relationship": "Complementary De La Riva sweep creating different angle"
+    }
+  ],
+  "from_position": "De La Riva Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Back Control/Top",
+      "probability": 65,
+      "result": "success"
+    },
+    {
+      "to": "De La Riva Guard/Bottom",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "De La Riva Guard/Top",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

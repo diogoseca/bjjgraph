@@ -10,8 +10,6 @@
     "guard-retention",
     "distance-management"
   ],
-  "starting_position": "Seated Guard",
-  "ending_position": "Standing Position",
   "success_rates": {
     "beginner": 65,
     "intermediate": 80,
@@ -263,6 +261,24 @@
     {
       "name": "Guillotine Defense",
       "relationship": "Counter needed if opponent attacks during standup"
+    }
+  ],
+  "from_position": "Seated Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Standing Position/Top",
+      "probability": 75,
+      "result": "success"
+    },
+    {
+      "to": "Seated Guard/Bottom",
+      "probability": 15,
+      "result": "failure"
+    },
+    {
+      "to": "Seated Guard/Top",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

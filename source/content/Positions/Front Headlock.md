@@ -24,7 +24,7 @@ The front headlock's strategic value lies in its ability to control an opponent'
 
 The mechanics of front headlock control revolve around maintaining downward pressure on your opponent's head while controlling their far shoulder or arm. Your chest weight drives into their upper back, preventing them from standing up or improving their position. This creates a dilemma: if they stay static, you can work your submissions; if they try to escape, you can transition to back control or other dominant positions.
 
-Historically, the front headlock has evolved from wrestling into one of modern BJJ's most sophisticated control systems. Coaches like systematic have systematized the position into comprehensive attack sequences, while competitors like elite competitors' and Garry Tonon have demonstrated its effectiveness at the highest levels of competition. The position is equally effective in gi and no-gi contexts, though the specific grips and submission mechanics vary slightly.
+Historically, the front headlock has evolved from wrestling into one of modern BJJ's most sophisticated control systems. The position has been systematized into comprehensive attack sequences, with high-level competitors demonstrating its effectiveness at the highest levels of competition. The position is equally effective in gi and no-gi contexts, though the specific grips and submission mechanics vary slightly.
 
 The front headlock represents the intersection of positional control and submission threat. Unlike positions where you must choose between maintaining control and hunting for submissions, the front headlock allows you to do both simultaneously. Your control mechanics naturally set up your submission attacks, and your submission threats reinforce your positional control. This synergy makes it one of the highest-percentage positions in all of grappling.
 
@@ -99,26 +99,20 @@ Understanding the front headlock requires recognizing its role as a transitional
 - Roll through aggressively if opponent overcommits forward - can result in reversal or guard recovery
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Technical Standup]]** → [[Standing Position]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Technical Standup]]** (19% of attempts)
 
-- **[[Granby Roll]]** → [[Closed Guard]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Granby Roll]]** (17% of attempts)
 
-- **[[Turtle to Guard]]** → [[Half Guard]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Turtle to Guard]]** (21% of attempts)
 
-- **[[Stand and Circle Away]]** → [[Standing Rear Clinch]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Stand and Circle Away]]** (16% of attempts)
 
-- **[[Roll Through to Reversal]]** → [[Turtle]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+- **[[Roll Through to Reversal]]** (14% of attempts)
 
-- **[[Arm Drag Escape]]** → [[Back Control]]
-  - Success Rate: Beginner 10%, Intermediate 25%, Advanced 40%
+- **[[Arm Drag Escape]]** (13% of attempts)
 
 
 ### Common Mistakes
@@ -176,35 +170,26 @@ Understanding the front headlock requires recognizing its role as a transitional
 - Read opponent's weight distribution and defensive reactions to determine optimal attack
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Guillotine Setup]]** → [[Guillotine Control]]
-  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+- **[[Guillotine Setup]]** (12% of attempts)
 
-- **[[Anaconda Setup]]** → [[Anaconda Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Anaconda Setup]]** (12% of attempts)
 
-- **[[Darce Setup]]** → [[D'arce Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Darce Setup]]** (12% of attempts)
 
-- **[[Front Headlock to Back]]** → [[Back Control]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Front Headlock to Back]]** (12% of attempts)
 
-- **[[Transition to Mount]]** → [[Mount]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Side Control to Mount]]** (11% of attempts)
 
-- **[[Transition to Side Control]]** → [[Side Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Buggy Choke to Side Control]]** (12% of attempts)
 
-- **[[Transition to Crucifix]]** → [[Crucifix]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Aoki Lock to Crucifix]]** (9% of attempts)
 
-- **[[Front Headlock Series Transition]]** → [[Kimura Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Front Headlock Series Transition]]** (10% of attempts)
 
-- **[[Arm Triangle from Front Headlock]]** → [[Arm Triangle Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Arm Triangle from Front Headlock]]** (10% of attempts)
 
 
 ### Common Mistakes
@@ -263,7 +248,7 @@ Understanding the front headlock requires recognizing its role as a transitional
 
 - **[[Crucifix]]** - Alternative control - if opponent rolls through front headlock escape, can catch crucifix position
 
-- **[[Kimura Control]]** - Alternative submission - if opponent defends chokes by freeing head, kimura on near arm becomes available
+- **[[Kimura Trap]]** - Alternative submission - if opponent defends chokes by freeing head, kimura on near arm becomes available
 
 
 </section>

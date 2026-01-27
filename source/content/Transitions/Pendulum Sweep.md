@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Pendulum Sweep | BJJ Technique | BJJ Graph"
 description: "Master the Pendulum Sweep from Closed Guard to Mount. Learn proper execution, timing, and leverage. Success rates: Beginner 40%, Intermediate 60%, Advanced 75%."
@@ -16,7 +17,7 @@ description: "Master the Pendulum Sweep from Closed Guard to Mount. Learn proper
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Pendulum Sweep in BJJ",
-  "description": "Step-by-step guide for Pendulum Sweep from Closed Guard to Mount.",
+  "description": "Step-by-step guide for Pendulum Sweep from Closed Guard/Bottom. Possible outcomes: Mount/Top (75%), Closed Guard/Bottom (15%), Closed Guard/Top (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -154,11 +155,25 @@ description: "Master the Pendulum Sweep from Closed Guard to Mount. Learn proper
 
 The Pendulum Sweep is a fundamental and highly effective attack from closed guard that exploits the opponent's defensive posture when they post their hand to the mat. Named for the pendulum-like leg motion that generates sweeping momentum, this technique is one of the first sweeps taught to beginners due to its mechanical efficiency and high success rate. The sweep works by creating a powerful lever system using your legs while controlling the opponent's upper body, making it extremely difficult to defend once properly initiated. Unlike many sweeps that require breaking the opponent's posture forward, the Pendulum Sweep actually works best when the opponent maintains upright posture or even leans back, making it an ideal complement to other closed guard attacks. The technique's effectiveness comes from the combination of hip movement, proper gripping, and the pendulum motion of the outside leg, which creates overwhelming rotational force that dumps the opponent directly into mount position. Mastering this sweep provides practitioners with a reliable path from defensive bottom position to dominant top position.
 
-**Starting Position**: [[Closed Guard]]
-**Ending Position**: [[Mount]]
+**From Position**: [[Closed Guard/Bottom]]
 **Success Rates**: Beginner 40%, Intermediate 60%, Advanced 75%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Mount/Top]] | 75% |
+| Failure | [[Closed Guard/Bottom]] | 15% |
+| Counter | [[Closed Guard/Top]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

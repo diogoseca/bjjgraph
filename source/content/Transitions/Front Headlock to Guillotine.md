@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Front Headlock to Guillotine | BJJ Technique | BJJ Graph"
 description: "Master the Front Headlock to Guillotine transition in BJJ. Complete technical breakdown with step-by-step execution, timing cues, and finishing mechanics."
@@ -16,7 +17,7 @@ description: "Master the Front Headlock to Guillotine transition in BJJ. Complet
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Front Headlock to Guillotine in BJJ",
-  "description": "Step-by-step guide for Front Headlock to Guillotine from Front Headlock to Guillotine Control.",
+  "description": "Step-by-step guide for Front Headlock to Guillotine from Front Headlock/Top. Possible outcomes: Guillotine Control/Top (65%), Front Headlock/Top (25%), Front Headlock/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -158,11 +159,25 @@ This transition's effectiveness lies in its ability to capitalize on the opponen
 
 The Front Headlock to Guillotine is a cornerstone technique in no-gi grappling and MMA, where collar controls are unavailable. It serves as both a submission threat and a gateway to other attacks within the front headlock system, including the darce choke, anaconda choke, and various back takes. Mastering this transition requires understanding proper head positioning, grip mechanics, and the ability to maintain control throughout the adjustment phase while preventing the opponent from establishing defensive frames or creating distance.
 
-**Starting Position**: [[Front Headlock]]
-**Ending Position**: [[Guillotine Control]]
+**From Position**: [[Front Headlock/Top]]
 **Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Guillotine Control/Top]] | 65% |
+| Failure | [[Front Headlock/Top]] | 25% |
+| Counter | [[Front Headlock/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

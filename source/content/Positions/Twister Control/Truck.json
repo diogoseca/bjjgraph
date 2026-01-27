@@ -3,7 +3,7 @@
   "slug": "truck",
   "description": "Master Truck Position in BJJ with comprehensive bottom and top perspective analysis. Defensive survival guide and offensive submission system covering twister, calf slicer, and back attacks.",
   "variant_uniqueness": "Leg entanglement creates dual spinal threats",
-  "overview": "The Truck Position is a specialized back-attack control position developed and popularized by 10th Planet's within the 10th Planet Jiu-Jitsu system. This position creates a unique control system where the controlling practitioner is positioned perpendicular to their opponent, with legs entangled in a figure-four configuration controlling the opponent's lower body while maintaining upper body control through various grips.\n\nThe truck represents the convergence of leg lock systems and back attack systems, making it one of the most dangerous positions in modern no-gi grappling. The position's power comes from the dilemma it creates: defending upper body attacks (Twister, bow and arrow choke) exposes the lower body to leg attacks (calf slicer, banana split), while defending leg attacks allows upper body submissions. This multiple-threat system makes the truck one of the highest finishing-rate positions in modern BJJ.\n\nThe position exists in two distinct perspectives: from the bottom, it is a high-danger defensive position requiring immediate escape mechanics and submission defense, while from the top it is an offensive control position with multiple submission paths. The boot pressure (foot against hip) is the engine of the top position, creating torque that enables all subsequent attacks. Understanding both perspectives is essential for complete truck position mastery.",
+  "overview": "The Truck Position is a specialized back-attack control position developed and popularized within the 10th Planet Jiu-Jitsu system. This position creates a unique control system where the controlling practitioner is positioned perpendicular to their opponent, with legs entangled in a figure-four configuration controlling the opponent's lower body while maintaining upper body control through various grips.\n\nThe truck represents the convergence of leg lock systems and back attack systems, making it one of the most dangerous positions in modern no-gi grappling. The position's power comes from the dilemma it creates: defending upper body attacks (Twister, bow and arrow choke) exposes the lower body to leg attacks (calf slicer, banana split), while defending leg attacks allows upper body submissions. This multiple-threat system makes the truck one of the highest finishing-rate positions in modern BJJ.\n\nThe position exists in two distinct perspectives: from the bottom, it is a high-danger defensive position requiring immediate escape mechanics and submission defense, while from the top it is an offensive control position with multiple submission paths. The boot pressure (foot against hip) is the engine of the top position, creating torque that enables all subsequent attacks. Understanding both perspectives is essential for complete truck position mastery.",
   "key_principles": [
     "Leg entanglement controls lower body mobility and creates submission opportunities",
     "Perpendicular body alignment maximizes leverage for both control and attacks",
@@ -59,6 +59,309 @@
       "relationship": "Transition state during truck entries and escapes"
     }
   ],
+  "top": {
+    "name": "Truck Top",
+    "description": "Dominant back-attack position combining leg entanglement with perpendicular control. Master twister, calf slicer, and back attacks with 65-80% submission success at advanced levels.",
+    "tags": [
+      "bjj",
+      "position",
+      "truck",
+      "top",
+      "offensive",
+      "submission",
+      "back-attack"
+    ],
+    "overview": "Truck Top Position is a dominant back-attack variation where you control your opponent from behind with their legs entangled, using your boot (foot) pressed against their hip to create torque and control while hunting for twister, calf slicer, banana split, or back control finishes. Popularized within the 10th Planet Jiu-Jitsu system, this position represents an evolution of traditional back control that emphasizes leg entanglement and spinal attacks.\n\nThe position's power comes from the dilemma it creates: defending the upper body (twister) exposes the lower body (calf slicer/banana split), while defending the lower body allows upper body attacks. This multiple-threat system makes the truck one of the highest finishing-rate positions in modern BJJ. The boot control is the engine of the position, creating the torque that enables all subsequent attacks. The position serves as both a submission hunting platform and a back control entry system.\n\nAdvanced practitioners use the truck as a transitional position, flowing between leg attacks, spinal locks, and traditional back control based on defensive reactions. The position is particularly effective in no-gi environments where the lack of grips forces opponents to rely on framing and hip movement, both of which can be nullified through proper boot pressure and leg entanglement.",
+    "state_properties": {
+      "point_value": 4,
+      "position_type": "Offensive/Controlling",
+      "risk_level": "Medium",
+      "energy_cost": "Medium",
+      "time_sustainability": "Medium"
+    },
+    "state_invariants": [
+      "Boot (foot) pressed firmly against opponent's hip or thigh, creating constant lateral pressure that prevents them from squaring up or rolling through to escape, acting as fulcrum point generating torque through opponent's spine and lower body",
+      "Opponent positioned on their side with back exposed to top player, unable to face forward or achieve neutral posture due to leg entanglement and boot pressure controlling their hip orientation and rotational movement",
+      "Legs entangled with opponent's legs in configuration that restricts their ability to straighten, separate, or use legs for escape movements, typically one leg hooked or controlled while other leg's foot provides boot pressure",
+      "Upper body control established through arm positioning across opponent's chest, shoulders, or neck, creating connection between leg control and upper body attacks coordinating with boot pressure",
+      "Top player's chest or shoulder pressure against opponent's back or upper shoulder, pinning them in place and preventing forward rolls or hip escapes with weight distribution keeping opponent flattened on their side"
+    ],
+    "prerequisites": [
+      "Understanding of back take mechanics and rear control principles",
+      "Knowledge of leg entanglement systems and boot control methodology",
+      "Experience with crab ride position and turtle top attacks",
+      "Familiarity with twister mechanics, safety protocols, and spinal lock applications",
+      "Ability to maintain control while transitioning between upper and lower body attacks"
+    ],
+    "key_principles": [
+      "Boot Pressure Maintenance: Constant hip/thigh pressure controls opponent orientation and prevents rotation",
+      "Leg Entanglement Control: Tangled legs restrict opponent mobility and create submission opportunities",
+      "Multiple Threat System: Chain between twister, calf slicer, banana split, and back control",
+      "Upper-Lower Body Connection: Coordinate leg control with arm attacks for maximum effectiveness",
+      "Slow Methodical Attacks: Position rewards patience and systematic progression over rushing",
+      "Dilemma Creation: Force opponent to choose which attack to defend, opening other opportunities",
+      "Back Control Option: Always maintain ability to transition to traditional back control as fallback"
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent defends upper body by hiding arms and protecting neck",
+        "actions": [
+          {
+            "technique": "Calf Slicer from Truck",
+            "target": "game-over",
+            "probability": 55
+          },
+          {
+            "technique": "Banana Split",
+            "target": "game-over",
+            "probability": 45
+          }
+        ]
+      },
+      {
+        "condition": "Else if opponent defends lower body by straightening legs or clearing hooks",
+        "actions": [
+          {
+            "technique": "Twister",
+            "target": "game-over",
+            "probability": 50
+          },
+          {
+            "technique": "Bow and Arrow Choke",
+            "target": "game-over",
+            "probability": 50
+          }
+        ]
+      },
+      {
+        "condition": "Else if opponent attempts to roll through or forward roll escape",
+        "actions": [
+          {
+            "technique": "Rolling Back Take",
+            "target": "Back Control",
+            "probability": 55
+          },
+          {
+            "technique": "Crucifix from Turtle",
+            "target": "Crucifix",
+            "probability": 45
+          }
+        ]
+      },
+      {
+        "condition": "Else if opponent clears boot pressure and begins to escape leg entanglement",
+        "actions": [
+          {
+            "technique": "Truck Entry",
+            "target": "Back Control",
+            "probability": 55
+          },
+          {
+            "technique": "Side Control to Mount",
+            "target": "Mount",
+            "probability": 45
+          }
+        ]
+      },
+      {
+        "condition": "Else if opponent turtles up or attempts to stand",
+        "actions": [
+          {
+            "technique": "Turtle to Back Take",
+            "target": "Back Control",
+            "probability": 60
+          },
+          {
+            "technique": "Kimura from Turtle",
+            "target": "Kimura Trap",
+            "probability": 40
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Losing boot pressure during submission attempts",
+        "consequence": "Opponent escapes the torque control and can roll through or untangle legs, losing the dominant position entirely",
+        "correction": "Maintain constant boot pressure even while working upper body attacks; the boot is foundation of all control"
+      },
+      {
+        "error": "Rushing the twister without proper setup",
+        "consequence": "Attempt fails and alerts opponent to threat, allowing them to hide arms and defend effectively",
+        "correction": "Establish full control first: secure boot pressure, control opponent's near arm, achieve proper chest position, then methodically work twister grip"
+      },
+      {
+        "error": "Failing to coordinate upper and lower body attacks",
+        "consequence": "Attacks become predictable and easier to defend; opponent can focus defensive efforts on one area",
+        "correction": "Create true dilemmas by threatening both areas simultaneously. When opponent defends high, immediately attack low"
+      },
+      {
+        "error": "Neglecting the back control transition option",
+        "consequence": "Getting stuck in truck position without finishing, allowing opponent time to develop better defenses",
+        "correction": "Always maintain awareness of back control option. When submissions aren't immediately available, transition to traditional back control"
+      },
+      {
+        "error": "Improper leg entanglement leading to opponent's leg freedom",
+        "consequence": "Opponent can use freed legs to create space, push away, or complete escape movements",
+        "correction": "Maintain tight leg entanglement with proper hooks and boot control. If opponent begins freeing legs, immediately adjust positioning"
+      },
+      {
+        "error": "Over-committing to one submission while ignoring escape attempts",
+        "consequence": "Opponent escapes position while you're focused on finishing, losing all control",
+        "correction": "Stay aware of opponent's escape attempts even during submission sequences. Be willing to abandon one attack to maintain position"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Boot Control Maintenance Drill",
+        "description": "Partner attempts to clear your boot while you maintain pressure, practicing adjustment angles and pressure. Start with 30% resistance and progressively increase. Focus on keeping boot pressure constant while partner uses various clearing methods (hand fighting boot, hip movement, leg straightening).",
+        "duration": "3-5 minutes per round"
+      },
+      {
+        "name": "Submission Chain Flow Drill",
+        "description": "Flow between twister, calf slicer, and banana split based on partner's defensive reactions. Partner provides realistic but controlled resistance, focusing specific defense on one area at a time. Develop threat recognition and smooth transitions between attacks without losing position.",
+        "duration": "5-7 minutes per round"
+      },
+      {
+        "name": "Truck Entry Sequences",
+        "description": "Practice entering truck from turtle, crab ride, half guard, and scramble situations, focusing on quick boot establishment and immediate control. Partner starts in various positions and provides increasing resistance. Emphasize securing boot pressure as the first priority upon entry.",
+        "duration": "2-3 minutes per position"
+      },
+      {
+        "name": "Positional Sparring from Truck",
+        "description": "Start in established truck position. Top player works for submissions and position maintenance, bottom player works for escapes. Reset when submission occurs or position is lost. Develops timing, pressure maintenance, and submission setups under realistic resistance.",
+        "duration": "5-minute rounds"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Truck",
+        "relationship": "Sibling variant - defensive perspective of same position"
+      },
+      {
+        "name": "Back Control",
+        "relationship": "Primary transition target - traditional back control"
+      },
+      {
+        "name": "Crab Ride",
+        "relationship": "Entry position - common path to truck"
+      },
+      {
+        "name": "Turtle",
+        "relationship": "Entry position - turtle attacks lead to truck"
+      },
+      {
+        "name": "Twister Control",
+        "relationship": "Submission position - primary attack from truck"
+      },
+      {
+        "name": "Crucifix",
+        "relationship": "Transition target - alternative control position"
+      },
+      {
+        "name": "Twister",
+        "relationship": "Primary submission technique from this position"
+      },
+      {
+        "name": "Calf Slicer from Truck",
+        "relationship": "Secondary submission attacking trapped leg"
+      },
+      {
+        "name": "Banana Split",
+        "relationship": "Alternative submission from truck position"
+      },
+      {
+        "name": "Rolling Back Take",
+        "relationship": "Transition technique when opponent rolls"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "beginner": 30,
+        "intermediate": 50,
+        "advanced": 70
+      },
+      "advancement_probability": {
+        "beginner": 35,
+        "intermediate": 55,
+        "advanced": 75
+      },
+      "submission_probability": {
+        "beginner": 25,
+        "intermediate": 45,
+        "advanced": 65
+      },
+      "average_time": "30-90 seconds before submission or transition"
+    },
+    "transitions": [
+      {
+        "transition": "Twister",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Calf Slicer from Truck",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Banana Split",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Rolling Back Take",
+        "attempt_probability": 16
+      },
+      {
+        "transition": "Bow and Arrow Choke",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Crab Ride to Back",
+        "attempt_probability": 14
+      },
+      {
+        "transition": "Crucifix from Turtle",
+        "attempt_probability": 13
+      },
+      {
+        "transition": "Side Control to Mount",
+        "attempt_probability": 13
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the primary control mechanism that makes the truck position effective?",
+        "answer": "The boot pressure (foot pressed against opponent's hip or thigh) is the primary control mechanism. It creates constant lateral torque that prevents the opponent from squaring up, rolling through, or achieving neutral posture. The boot acts as a fulcrum point that generates rotational force through the opponent's spine and lower body, enabling all subsequent submission attacks."
+      },
+      {
+        "question": "Your opponent starts defending their neck and hiding their arms - what adjustment do you make?",
+        "answer": "When the opponent prioritizes upper body defense by hiding arms and protecting their neck from the twister, immediately redirect your attack to the lower body. Target the calf slicer by extending their trapped leg and applying compression pressure, or set up the banana split by controlling both legs and creating separation. This creates the core dilemma of the truck position."
+      },
+      {
+        "question": "How should you distribute your weight to maintain truck position against an escaping opponent?",
+        "answer": "Weight should be distributed through your chest or shoulder against the opponent's upper back while maintaining constant boot pressure on their hip. Avoid putting weight too far forward (allows roll-through) or too far back (reduces control). The key is staying perpendicular with connected pressure points at both the upper body (chest/shoulder) and lower body (boot) simultaneously."
+      },
+      {
+        "question": "What are the essential grips for maintaining truck position?",
+        "answer": "Essential grips include: your boot foot controlling their hip creating the foundational torque, your legs entangled with their trapped leg preventing straightening, and your arm controlling across their chest, shoulder, or around their neck for upper body connection. In no-gi, an underhook or overhook on their near arm supplements control."
+      },
+      {
+        "question": "When opponent begins a granby roll escape, what is your counter?",
+        "answer": "When the opponent initiates a granby roll, you have two primary options: follow their roll and transition to traditional back control by inserting your hooks during their rotation, or if you feel them generating significant momentum, switch to the crucifix by catching their far arm as they roll. The key is recognizing the roll early and choosing to flow with it rather than fighting against it."
+      },
+      {
+        "question": "How do you prevent your opponent from straightening their trapped leg to escape?",
+        "answer": "Maintain constant inward pressure with your entangling leg, keeping their knee bent by hooking behind their knee joint or locking your feet together. If they begin straightening, immediately attack the calf slicer or transition to the banana split, which uses their straightening motion against them. You can also increase boot pressure to restrict their hip movement needed for leg extension."
+      },
+      {
+        "question": "What determines when to transition from truck to traditional back control?",
+        "answer": "Transition to back control when: submissions aren't presenting due to effective defense, the opponent's escape attempts are creating scramble situations, you're losing boot pressure and need to consolidate control, or when you've created enough rotation to easily insert hooks. The truck should flow into back control rather than being an isolated position."
+      },
+      {
+        "question": "How do you manage energy expenditure while maintaining truck position?",
+        "answer": "Use skeletal structure rather than muscular effort by positioning your body weight to create pressure without constant tension. Maintain boot pressure through leg positioning rather than pushing. Work submissions methodically rather than frantically. Let the opponent's defensive reactions guide your attacks rather than forcing entries. Rest in control moments between attack sequences."
+      }
+    ]
+  },
   "bottom": {
     "name": "Truck Bottom",
     "description": "Defensive survival position requiring systematic escape mechanics to avoid twister, calf slicer, and back control. Navigate this high-danger position with 45-60% escape success through proper technique.",
@@ -102,124 +405,19 @@
       "Use hip movement and bridging to relieve pressure and create angles for extraction of trapped leg",
       "Calm under pressure: maintain composure and systematic defense rather than panicking and burning energy"
     ],
-    "offensive_transitions": [
-      {
-        "technique": "Granby Roll",
-        "target_position": "Turtle",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 40,
-          "advanced": 60
-        }
-      },
-      {
-        "technique": "Hip Escape",
-        "target_position": "Half Guard",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 45,
-          "advanced": 65
-        }
-      },
-      {
-        "technique": "Leg Extraction",
-        "target_position": "Turtle",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 45,
-          "advanced": 60
-        }
-      },
-      {
-        "technique": "Rolling Back Take",
-        "target_position": "Open Guard",
-        "success_rates": {
-          "beginner": 20,
-          "intermediate": 35,
-          "advanced": 55
-        }
-      },
-      {
-        "technique": "Forward Roll",
-        "target_position": "Deep Half Guard",
-        "success_rates": {
-          "beginner": 15,
-          "intermediate": 30,
-          "advanced": 50
-        }
-      },
-      {
-        "technique": "Technical Standup",
-        "target_position": "Standing Position",
-        "success_rates": {
-          "beginner": 10,
-          "intermediate": 25,
-          "advanced": 40
-        }
-      }
-    ],
-    "defensive_responses": [
-      {
-        "technique": "Twister",
-        "target_position": "Won by Submission",
-        "success_rate": 55
-      },
-      {
-        "technique": "Calf Slicer from Truck",
-        "target_position": "Won by Submission",
-        "success_rate": 48
-      },
-      {
-        "technique": "Banana Split",
-        "target_position": "Won by Submission",
-        "success_rate": 40
-      },
-      {
-        "technique": "Rear Naked Choke",
-        "target_position": "Won by Submission",
-        "success_rate": 45
-      },
-      {
-        "technique": "Crab Ride to Back",
-        "target_position": "Back Control",
-        "success_rate": 60
-      }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Granby Roll Counter",
-        "target_position": "Turtle",
-        "trigger": "Opponent overcommits to twister attack giving rotation space"
-      },
-      {
-        "technique": "Leg Extraction",
-        "target_position": "Half Guard",
-        "trigger": "Opponent extends trapped leg for calf slicer or knee attack"
-      },
-      {
-        "technique": "Frame Creation",
-        "target_position": "Dogfight Position",
-        "trigger": "Opponent consolidates upper body control for twister setup"
-      },
-      {
-        "technique": "Hip Escape",
-        "target_position": "Open Guard",
-        "trigger": "Opponent shifts weight to one side for submission finish"
-      }
-    ],
     "decision_tree": [
       {
         "condition": "If opponent is setting up Twister (controlling far arm and twisting spine)",
         "actions": [
           {
             "technique": "Chin Protection and Grip Defense",
-            "target": "Defensive Position",
+            "target": "Truck",
             "probability": 65
           },
           {
             "technique": "Granby Roll",
             "target": "Turtle",
-            "probability": 50
+            "probability": 35
           }
         ]
       },
@@ -229,17 +427,17 @@
           {
             "technique": "Leg Extraction",
             "target": "Half Guard",
-            "probability": 55
+            "probability": 50
           },
           {
             "technique": "Forward Roll",
             "target": "Deep Half Guard",
-            "probability": 30
+            "probability": 25
           },
           {
             "technique": "Tap Early Before Injury",
-            "target": "Won by Submission",
-            "probability": 35
+            "target": "game-over",
+            "probability": 25
           }
         ]
       },
@@ -254,7 +452,7 @@
           {
             "technique": "Granby Roll",
             "target": "Turtle",
-            "probability": 40
+            "probability": 45
           }
         ]
       },
@@ -264,7 +462,7 @@
           {
             "technique": "Back Escape Series",
             "target": "Turtle",
-            "probability": 60
+            "probability": 55
           },
           {
             "technique": "Rolling Back Take",
@@ -328,24 +526,6 @@
         "duration": "5-10 minutes per resistance level"
       }
     ],
-    "optimal_submission_paths": [
-      {
-        "name": "Safest escape path",
-        "path": "Truck → Leg Extraction → Turtle → Open Guard"
-      },
-      {
-        "name": "Granby roll escape (technical defensive path)",
-        "path": "Truck → Granby Roll timing → Turtle → Open Guard"
-      },
-      {
-        "name": "Forward momentum escape (advanced defensive path)",
-        "path": "Truck → Forward Roll → Deep Half Guard → Half Guard → Open Guard"
-      },
-      {
-        "name": "Emergency standing escape (desperation path)",
-        "path": "Truck → Technical Standup → Standing Position → Closed Guard"
-      }
-    ],
     "related_content": [
       {
         "name": "Truck",
@@ -380,16 +560,12 @@
         "relationship": "Alternative submission attack from truck position"
       },
       {
-        "name": "Back Escape Series",
-        "relationship": "Relevant principle - defensive concepts apply to truck escapes"
+        "name": "Granby Roll",
+        "relationship": "Primary escape technique from truck bottom"
       },
       {
-        "name": "10th Planet No-Gi Guard System",
-        "relationship": "System context - truck position within 10th Planet methodology"
-      },
-      {
-        "name": "Twister System",
-        "relationship": "System context - truck as key position in twister game"
+        "name": "Hip Escape",
+        "relationship": "Fundamental movement for creating escape angles"
       }
     ],
     "position_metrics": {
@@ -409,391 +585,66 @@
         "advanced": 35
       },
       "average_time": "20-45 seconds (high urgency position requiring immediate action)"
-    }
-  },
-  "top": {
-    "name": "Truck Top",
-    "description": "Dominant back-attack position combining leg entanglement with perpendicular control. Master twister, calf slicer, and back attacks with 65-80% submission success at advanced levels.",
-    "tags": [
-      "bjj",
-      "position",
-      "truck",
-      "top",
-      "offensive",
-      "submission",
-      "back-attack"
-    ],
-    "overview": "Truck Top Position is a dominant back-attack variation where you control your opponent from behind with their legs entangled, using your boot (foot) pressed against their hip to create torque and control while hunting for twister, calf slicer, banana split, or back control finishes. Popularized by 10th Planet's and the 10th Planet Jiu-Jitsu system, this position represents an evolution of traditional back control that emphasizes leg entanglement and spinal attacks.\n\nThe position's power comes from the dilemma it creates: defending the upper body (twister) exposes the lower body (calf slicer/banana split), while defending the lower body allows upper body attacks. This multiple-threat system makes the truck one of the highest finishing-rate positions in modern BJJ. The boot control is the engine of the position, creating the torque that enables all subsequent attacks. The position serves as both a submission hunting platform and a back control entry system.\n\nAdvanced practitioners use the truck as a transitional position, flowing between leg attacks, spinal locks, and traditional back control based on defensive reactions. The position is particularly effective in no-gi environments where the lack of grips forces opponents to rely on framing and hip movement, both of which can be nullified through proper boot pressure and leg entanglement.",
-    "state_properties": {
-      "point_value": 4,
-      "position_type": "Offensive/Controlling",
-      "risk_level": "Medium",
-      "energy_cost": "Medium",
-      "time_sustainability": "Medium"
     },
-    "state_invariants": [
-      "Boot (foot) pressed firmly against opponent's hip or thigh, creating constant lateral pressure that prevents them from squaring up or rolling through to escape, acting as fulcrum point generating torque through opponent's spine and lower body",
-      "Opponent positioned on their side with back exposed to top player, unable to face forward or achieve neutral posture due to leg entanglement and boot pressure controlling their hip orientation and rotational movement",
-      "Legs entangled with opponent's legs in configuration that restricts their ability to straighten, separate, or use legs for escape movements, typically one leg hooked or controlled while other leg's foot provides boot pressure",
-      "Upper body control established through arm positioning across opponent's chest, shoulders, or neck, creating connection between leg control and upper body attacks coordinating with boot pressure",
-      "Top player's chest or shoulder pressure against opponent's back or upper shoulder, pinning them in place and preventing forward rolls or hip escapes with weight distribution keeping opponent flattened on their side"
-    ],
-    "prerequisites": [
-      "Understanding of back take mechanics and rear control principles",
-      "Knowledge of leg entanglement systems and boot control methodology",
-      "Experience with crab ride position and turtle top attacks",
-      "Familiarity with twister mechanics, safety protocols, and spinal lock applications",
-      "Ability to maintain control while transitioning between upper and lower body attacks"
-    ],
-    "key_principles": [
-      "Boot Pressure Maintenance: Constant hip/thigh pressure controls opponent orientation and prevents rotation",
-      "Leg Entanglement Control: Tangled legs restrict opponent mobility and create submission opportunities",
-      "Multiple Threat System: Chain between twister, calf slicer, banana split, and back control",
-      "Upper-Lower Body Connection: Coordinate leg control with arm attacks for maximum effectiveness",
-      "Slow Methodical Attacks: Position rewards patience and systematic progression over rushing",
-      "Dilemma Creation: Force opponent to choose which attack to defend, opening other opportunities",
-      "Back Control Option: Always maintain ability to transition to traditional back control as fallback"
-    ],
-    "offensive_transitions": [
+    "transitions": [
       {
-        "technique": "Twister",
-        "target_position": "Won by Submission",
-        "success_rates": {
-          "beginner": 20,
-          "intermediate": 35,
-          "advanced": 50
-        }
+        "transition": "Granby Roll",
+        "attempt_probability": 18
       },
       {
-        "technique": "Calf Slicer from Truck",
-        "target_position": "Won by Submission",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 40,
-          "advanced": 55
-        }
+        "transition": "Hip Escape",
+        "attempt_probability": 20
       },
       {
-        "technique": "Banana Split",
-        "target_position": "Won by Submission",
-        "success_rates": {
-          "beginner": 15,
-          "intermediate": 30,
-          "advanced": 45
-        }
+        "transition": "Leg Extraction",
+        "attempt_probability": 18
       },
       {
-        "technique": "Rolling Back Take",
-        "target_position": "Back Control",
-        "success_rates": {
-          "beginner": 40,
-          "intermediate": 55,
-          "advanced": 70
-        }
+        "transition": "Rolling Back Take",
+        "attempt_probability": 17
       },
       {
-        "technique": "Bow and Arrow Choke",
-        "target_position": "Won by Submission",
-        "success_rates": {
-          "beginner": 20,
-          "intermediate": 35,
-          "advanced": 50
-        }
+        "transition": "Forward Roll",
+        "attempt_probability": 15
       },
       {
-        "technique": "Crab Ride to Back",
-        "target_position": "Crab Ride",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 50,
-          "advanced": 65
-        }
-      },
-      {
-        "technique": "Crucifix from Turtle",
-        "target_position": "Crucifix",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 45,
-          "advanced": 60
-        }
-      },
-      {
-        "technique": "Transition to Mount",
-        "target_position": "Mount",
-        "success_rates": {
-          "beginner": 28,
-          "intermediate": 45,
-          "advanced": 58
-        }
+        "transition": "Technical Standup",
+        "attempt_probability": 12
       }
     ],
-    "defensive_responses": [
+    "knowledge_assessment": [
       {
-        "technique": "Hip Escape",
-        "target_position": "Turtle",
-        "success_rate": 25
+        "question": "What is your immediate priority upon finding yourself in truck bottom position?",
+        "answer": "Your immediate priority is protecting your neck by tucking your chin and positioning your hands near your neck to defend against twister grips and choking attempts. The twister can cause serious spinal injury if the opponent achieves full rotation, so defending the cervical spine takes precedence over all other concerns including leg extraction."
       },
       {
-        "technique": "Rolling Through Escape",
-        "target_position": "Scramble Position",
-        "success_rate": 30
+        "question": "Your opponent increases boot pressure on your hip - how do you address this?",
+        "answer": "Address boot pressure by using your free hand to fight the boot while maintaining neck protection with the other hand. Simultaneously work your hips in a circular motion to reduce the leverage their boot creates. If you can break or reduce the boot pressure, their ability to generate torque for twister or maintain leg entanglement significantly decreases."
       },
       {
-        "technique": "Boot Clear and Re-guard",
-        "target_position": "Open Guard",
-        "success_rate": 20
+        "question": "What determines whether to attempt a granby roll versus a hip escape from truck bottom?",
+        "answer": "Choose granby roll when opponent's weight is committed forward or they're focused on upper body attacks, as the roll uses their forward pressure momentum. Choose hip escape when opponent has loose upper body control but strong boot/leg control, as shrimping can create angles to extract the trapped leg. Granby requires space to roll into; hip escape works in tighter spaces."
       },
       {
-        "technique": "Leg Straightening Defense",
-        "target_position": "Turtle",
-        "success_rate": 35
+        "question": "How do you prevent the opponent from completing the twister finish?",
+        "answer": "Prevent twister finish by: keeping chin tucked to limit cervical rotation, fighting their grip on your far arm with your near hand, maintaining hip elevation to avoid being completely flattened, and preventing full torso rotation by posting your base hand. If they achieve the grip, immediately attempt granby roll before they can lock the rotation."
       },
       {
-        "technique": "Forward Roll Escape",
-        "target_position": "Dogfight Position",
-        "success_rate": 15
+        "question": "Your trapped leg is being extended for a calf slicer - what is your response?",
+        "answer": "When leg is being extended for calf slicer, attempt to bend your knee sharply to reduce pressure on the joint while simultaneously working to extract the leg. If extraction isn't possible, forward roll toward your head using the extended leg as a pivot point to end up in deep half guard. If submission pressure becomes significant, tap early to prevent knee injury."
+      },
+      {
+        "question": "How should you manage your breathing and energy when caught in truck bottom?",
+        "answer": "Maintain controlled breathing with slow, deep breaths through your nose to prevent panic response. Focus energy on systematic defensive actions rather than explosive random movements. Work in sequences: protect neck, then address one problem at a time. Accept that escape may require multiple attempts and save explosive efforts for moments when escape opportunity presents itself."
+      },
+      {
+        "question": "When is the correct time to initiate your primary escape attempt?",
+        "answer": "Initiate escape when opponent shifts their weight for submission setup, transitions between attacks, or when you've successfully addressed one of their control points (boot pressure reduced, grip broken). Attempting escape while opponent has full control usually fails and expends energy. Create your opportunity through defensive fighting, then exploit the opening."
+      },
+      {
+        "question": "What body positioning minimizes your vulnerability while in truck bottom?",
+        "answer": "Optimal positioning includes: hips elevated off the mat rather than flattened, chin tucked with hands near neck for defense, free leg posted for base and potential bridging, torso not fully twisted (resist rotation), and weight distributed between your base hand and free leg. Avoid complete flattening as this gives opponent the stable platform needed for finishing."
       }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Boot Re-establishment",
-        "target_position": "Truck",
-        "trigger": "Opponent attempts to clear boot pressure"
-      },
-      {
-        "technique": "Switch to Back Control",
-        "target_position": "Back Control",
-        "trigger": "Opponent begins rolling through to escape"
-      },
-      {
-        "technique": "Calf Slicer Attack",
-        "target_position": "Won by Submission",
-        "trigger": "Opponent defends upper body twister threat"
-      },
-      {
-        "technique": "Twister Attack",
-        "target_position": "Won by Submission",
-        "trigger": "Opponent focuses defense on lower body"
-      },
-      {
-        "technique": "Transition to Mount",
-        "target_position": "Mount",
-        "trigger": "Opponent turtles up to defend submissions"
-      }
-    ],
-    "decision_tree": [
-      {
-        "condition": "If opponent defends upper body by hiding arms and protecting neck",
-        "actions": [
-          {
-            "technique": "Calf Slicer from Truck",
-            "target": "Won by Submission",
-            "probability": 55
-          },
-          {
-            "technique": "Banana Split",
-            "target": "Won by Submission",
-            "probability": 45
-          }
-        ]
-      },
-      {
-        "condition": "Else if opponent defends lower body by straightening legs or clearing hooks",
-        "actions": [
-          {
-            "technique": "Twister",
-            "target": "Won by Submission",
-            "probability": 50
-          },
-          {
-            "technique": "Bow and Arrow Choke",
-            "target": "Won by Submission",
-            "probability": 40
-          }
-        ]
-      },
-      {
-        "condition": "Else if opponent attempts to roll through or forward roll escape",
-        "actions": [
-          {
-            "technique": "Rolling Back Take",
-            "target": "Back Control",
-            "probability": 65
-          },
-          {
-            "technique": "Crucifix from Turtle",
-            "target": "Crucifix",
-            "probability": 50
-          }
-        ]
-      },
-      {
-        "condition": "Else if opponent clears boot pressure and begins to escape leg entanglement",
-        "actions": [
-          {
-            "technique": "Truck Entry",
-            "target": "Back Control",
-            "probability": 60
-          },
-          {
-            "technique": "Transition to Mount",
-            "target": "Mount",
-            "probability": 45
-          }
-        ]
-      },
-      {
-        "condition": "Else if opponent turtles up or attempts to stand",
-        "actions": [
-          {
-            "technique": "Turtle to Back Take",
-            "target": "Back Control",
-            "probability": 70
-          },
-          {
-            "technique": "Kimura from Turtle",
-            "target": "Kimura Control",
-            "probability": 50
-          }
-        ]
-      }
-    ],
-    "common_errors": [
-      {
-        "error": "Losing boot pressure during submission attempts",
-        "consequence": "Opponent escapes the torque control and can roll through or untangle legs, losing the dominant position entirely",
-        "correction": "Maintain constant boot pressure even while working upper body attacks; the boot is foundation of all control"
-      },
-      {
-        "error": "Rushing the twister without proper setup",
-        "consequence": "Attempt fails and alerts opponent to threat, allowing them to hide arms and defend effectively",
-        "correction": "Establish full control first: secure boot pressure, control opponent's near arm, achieve proper chest position, then methodically work twister grip"
-      },
-      {
-        "error": "Failing to coordinate upper and lower body attacks",
-        "consequence": "Attacks become predictable and easier to defend; opponent can focus defensive efforts on one area",
-        "correction": "Create true dilemmas by threatening both areas simultaneously. When opponent defends high, immediately attack low"
-      },
-      {
-        "error": "Neglecting the back control transition option",
-        "consequence": "Getting stuck in truck position without finishing, allowing opponent time to develop better defenses",
-        "correction": "Always maintain awareness of back control option. When submissions aren't immediately available, transition to traditional back control"
-      },
-      {
-        "error": "Improper leg entanglement leading to opponent's leg freedom",
-        "consequence": "Opponent can use freed legs to create space, push away, or complete escape movements",
-        "correction": "Maintain tight leg entanglement with proper hooks and boot control. If opponent begins freeing legs, immediately adjust positioning"
-      },
-      {
-        "error": "Over-committing to one submission while ignoring escape attempts",
-        "consequence": "Opponent escapes position while you're focused on finishing, losing all control",
-        "correction": "Stay aware of opponent's escape attempts even during submission sequences. Be willing to abandon one attack to maintain position"
-      }
-    ],
-    "training_drills": [
-      {
-        "name": "Boot Control Maintenance Drill",
-        "description": "Partner attempts to clear your boot while you maintain pressure, practicing adjustment angles and pressure. Start with 30% resistance and progressively increase. Focus on keeping boot pressure constant while partner uses various clearing methods (hand fighting boot, hip movement, leg straightening).",
-        "duration": "3-5 minutes per round"
-      },
-      {
-        "name": "Submission Chain Flow Drill",
-        "description": "Flow between twister, calf slicer, and banana split based on partner's defensive reactions. Partner provides realistic but controlled resistance, focusing specific defense on one area at a time. Develop threat recognition and smooth transitions between attacks without losing position.",
-        "duration": "5-7 minutes per round"
-      },
-      {
-        "name": "Truck Entry Sequences",
-        "description": "Practice entering truck from turtle, crab ride, half guard, and scramble situations, focusing on quick boot establishment and immediate control. Partner starts in various positions and provides increasing resistance. Emphasize securing boot pressure as the first priority upon entry.",
-        "duration": "2-3 minutes per position"
-      },
-      {
-        "name": "Positional Sparring from Truck",
-        "description": "Start in established truck position. Top player works for submissions and position maintenance, bottom player works for escapes. Reset when submission occurs or position is lost. Develops timing, pressure maintenance, and submission setups under realistic resistance.",
-        "duration": "5-minute rounds"
-      }
-    ],
-    "optimal_submission_paths": [
-      {
-        "name": "Highest Percentage Path (Calf Slicer Focus)",
-        "path": "Turtle → Truck Entry → Truck → Calf Slicer from Truck → Won by Submission"
-      },
-      {
-        "name": "Advanced Spinal Attack Path",
-        "path": "Crab Ride → Transition to Truck → Truck → Twister → Won by Submission"
-      },
-      {
-        "name": "Groin Attack Path",
-        "path": "Back Control → Rolling to Truck → Truck → Banana Split → Won by Submission"
-      },
-      {
-        "name": "Back Control Transition Path",
-        "path": "Truck → Rolling Back Take → Back Control → Rear Naked Choke → Won by Submission"
-      },
-      {
-        "name": "Crucifix Development Path",
-        "path": "Truck → Crucifix from Turtle → Crucifix → Armbar from Crucifix → Won by Submission"
-      }
-    ],
-    "related_content": [
-      {
-        "name": "Truck",
-        "relationship": "Sibling variant - defensive perspective of same position"
-      },
-      {
-        "name": "Back Control",
-        "relationship": "Primary transition target - traditional back control"
-      },
-      {
-        "name": "Crab Ride",
-        "relationship": "Entry position - common path to truck"
-      },
-      {
-        "name": "Turtle",
-        "relationship": "Entry position - turtle attacks lead to truck"
-      },
-      {
-        "name": "Twister Control",
-        "relationship": "Submission position - primary attack from truck"
-      },
-      {
-        "name": "Crucifix",
-        "relationship": "Transition target - alternative control position"
-      },
-      {
-        "name": "Twister System",
-        "relationship": "Expert system - 10th Planet's comprehensive truck system"
-      },
-      {
-        "name": "10th Planet No-Gi Guard System",
-        "relationship": "Expert system - broader context for truck position"
-      },
-      {
-        "name": "Control Maintenance",
-        "relationship": "Core principle - essential for position retention"
-      },
-      {
-        "name": "Off-Balancing",
-        "relationship": "Core principle - boot pressure creates off-balancing"
-      }
-    ],
-    "position_metrics": {
-      "retention_rate": {
-        "beginner": 30,
-        "intermediate": 50,
-        "advanced": 70
-      },
-      "advancement_probability": {
-        "beginner": 35,
-        "intermediate": 55,
-        "advanced": 75
-      },
-      "submission_probability": {
-        "beginner": 25,
-        "intermediate": 45,
-        "advanced": 65
-      },
-      "average_time": "30-90 seconds before submission or transition"
-    }
+    ]
   }
 }

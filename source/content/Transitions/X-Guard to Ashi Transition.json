@@ -10,8 +10,6 @@
     "no-gi",
     "advanced"
   ],
-  "starting_position": "X-Guard",
-  "ending_position": "Inside Ashi-Garami",
   "success_rates": {
     "beginner": 35,
     "intermediate": 50,
@@ -304,6 +302,24 @@
     {
       "name": "Deep Half Guard",
       "relationship": "Backup Position If Transition Fails"
+    }
+  ],
+  "from_position": "X-Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Inside Ashi-Garami/Top",
+      "probability": 65,
+      "result": "success"
+    },
+    {
+      "to": "X-Guard/Bottom",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "X-Guard/Top",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

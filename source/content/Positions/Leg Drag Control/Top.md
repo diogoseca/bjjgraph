@@ -21,37 +21,37 @@ description: "Master leg drag control from top position. Complete strategic guid
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag Pass to Side Control",
-      "text": "From this position, execute Leg Drag Pass to Side Control to transition to Side Control. Success rate for advanced practitioners: 80%.",
+      "text": "From this position, attempt Leg Drag Pass to Side Control. This technique is attempted in 15% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag to Back Take",
-      "text": "From this position, execute Leg Drag to Back Take to transition to Back Control. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Leg Drag to Back Take. This technique is attempted in 18% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag to Mount",
-      "text": "From this position, execute Leg Drag to Mount to transition to Mount. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Leg Drag to Mount. This technique is attempted in 14% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag to Knee on Belly",
-      "text": "From this position, execute Leg Drag to Knee on Belly to transition to Knee on Belly. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Leg Drag to Knee on Belly. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag to North-South",
-      "text": "From this position, execute Leg Drag to North-South to transition to North-South. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Leg Drag to North-South. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag to Crucifix",
-      "text": "From this position, execute Leg Drag to Crucifix to transition to Crucifix. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Leg Drag to Crucifix. This technique is attempted in 8% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -212,106 +212,24 @@ From a competitive perspective, mastering leg drag control has become essential 
 
 ## Available Attacks
 
-### [[Leg Drag Pass to Side Control]] → [[Side Control]]
+### [[Leg Drag Pass to Side Control]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 65%
-- Advanced: 80%
+### [[Leg Drag to Back Take]] (18% of attempts)
 
-### [[Leg Drag to Back Take]] → [[Back Control]]
+### [[Leg Drag to Mount]] (14% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 55%
-- Advanced: 75%
+### [[Leg Drag to Knee on Belly]] (12% of attempts)
 
-### [[Leg Drag to Mount]] → [[Mount]]
+### [[Leg Drag to North-South]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 70%
+### [[Leg Drag to Crucifix]] (8% of attempts)
 
-### [[Leg Drag to Knee on Belly]] → [[Knee on Belly]]
+### [[Leg Drag to Inside Ashi]] (9% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 60%
-- Advanced: 75%
+### [[Leg Drag to Technical Mount]] (8% of attempts)
 
-### [[Leg Drag to North-South]] → [[North-South]]
+### [[Leg Drag to Darce Setup]] (6% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 45%
-- Advanced: 65%
-
-### [[Leg Drag to Crucifix]] → [[Crucifix]]
-
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 35%
-- Advanced: 55%
-
-### [[Leg Drag to Inside Ashi]] → [[Inside Ashi-Garami]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 40%
-- Advanced: 60%
-
-### [[Leg Drag to Kimura Control]] → [[Kimura Control]]
-
-**Success Rates:**
-- Beginner: 18%
-- Intermediate: 38%
-- Advanced: 58%
-
-### [[Leg Drag to Technical Mount]] → [[Technical Mount]]
-
-**Success Rates:**
-- Beginner: 22%
-- Intermediate: 42%
-- Advanced: 62%
-
-### [[Leg Drag to Darce Setup]] → [[D'arce Control]]
-
-**Success Rates:**
-- Beginner: 12%
-- Intermediate: 30%
-- Advanced: 50%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Leg Drag Escape to Half Guard]]** → [[Half Guard]] (Opponent Success: 40%)
-- **[[Technical Standup from Bottom]]** → [[Standing Position]] (Opponent Success: 30%)
-- **[[Roll to Turtle Defense]]** → [[Turtle]] (Opponent Success: 45%)
-- **[[Frame and Shrimp to Guard]]** → [[Open Guard]] (Opponent Success: 25%)
-- **[[Granby Roll Counter]]** → [[Open Guard]] (Opponent Success: 20%)
-- **[[Counter to Leg Entanglement]]** → [[Single Leg X-Guard]] (Opponent Success: 15%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Follow to Back Control]]** → [[Back Control]]
-  - When opponent turns away to defend their guard, follow their rotation and insert hooks
-- **[[Mount Transition]]** → [[Mount]]
-  - When opponent flattens completely to prevent back take, step over to mount
-- **[[Crucifix Entry]]** → [[Crucifix]]
-  - When opponent sits up and extends arm to frame, trap arm and secure crucifix
-- **[[Darce Choke Setup]]** → [[D'arce Control]]
-  - When opponent rolls to turtle, immediately thread arm through for darce
 
 
 </section>
@@ -423,33 +341,39 @@ Partner randomly performs one of four defensive reactions (turn away, stay flat,
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Leg Drag to Back Attack
+## Test Your Knowledge
 
-`Leg Drag Control Top → Leg Drag to Back Take → Back Control → Rear Naked Choke`
+**Q1**: Your opponent starts bridging aggressively while you have leg drag control—what adjustment do you make?
+**A**: When the opponent bridges, drive your chest pressure lower into their hip while posting your free hand wide on the mat for base. The bridge creates momentary space, so immediately follow their movement and use it to advance to mount or slide to side control. Do not fight the bridge statically—flow with it and use the momentum to consolidate.
 
-### Leg Drag to Mount Finish
+**Q2**: What are the essential grips for maintaining leg drag control from top position?
+**A**: The primary grip is on the opponent's dragged leg, controlling the hip, pants, or belt to maintain the crossed-leg configuration. The secondary grip controls the far shoulder, establishes a crossface, or controls the head to prevent rotation. In no-gi, you use underhooks and overhooks on the leg combined with shoulder or head pressure. Both grips work together as a system—losing either compromises the position.
 
-`Leg Drag Control Top → Leg Drag to Mount → Mount → Armbar from Mount`
+**Q3**: How do you shut down the opponent's primary escape when they try to hip escape and recover guard?
+**A**: When the opponent attempts to hip escape, immediately increase pressure on their shoulder or head control while driving your hips forward to close the space they're creating. Follow their hip movement with your body, maintaining the crossed-leg configuration. If they create significant space, transition to knee on belly or switch your angle to re-establish control before they can insert a knee shield or hook.
 
-### Leg Drag to Darce
+**Q4**: What are your grip priorities when you feel your opponent starting to create space?
+**A**: When space is created, prioritize the shoulder or head control over the leg control. The upper body control prevents them from facing you and re-guarding, while the leg will naturally stay trapped if you maintain hip pressure. If you must choose, release the leg grip temporarily to establish stronger upper body control, then immediately re-secure the leg once they're stabilized.
 
-`Leg Drag Control Top → Opponent Rolls to Turtle → Darce Choke → Won by Submission`
+**Q5**: How should you apply pressure in leg drag control without exhausting yourself?
+**A**: Use skeletal alignment rather than muscular effort. Keep your chest bone-on-bone with their hip, letting gravity do the work. Your elbows should stay tight to your body, not flared. Drive pressure at 45-degree angles rather than straight down—this is more efficient and harder to escape. Stay on the balls of your feet ready to transition rather than sitting heavy, which wastes energy and slows your reactions.
 
-### Leg Drag to Crucifix
+**Q6**: Your opponent turns away from you while in leg drag control—how do you anticipate and respond?
+**A**: The moment you feel them start to turn away, immediately release your shoulder control and reach over their back for the far hip or seatbelt control. Your leg control arm slides under their armpit or around their waist. Insert your bottom hook first as they expose their back, then secure the seatbelt grip before inserting the second hook. Turning away is what you want them to do—follow immediately and the back take is high-percentage.
 
-`Leg Drag Control Top → Leg Drag to Crucifix → Crucifix → Choke from Crucifix`
+**Q7**: How do you manage energy when your opponent is actively defending in leg drag control?
+**A**: The key is making your opponent work harder than you. Constantly threaten advancement—back take, mount, or side control—forcing them to react. Each time they defend one attack, immediately threaten another. This drains their energy while you use efficient mechanics. If they stall, maintain position with minimal effort using proper pressure angles, then explode when an opening appears. The position should feel active but not exhausting.
 
-### Leg Drag to Leg Lock
-
-`Leg Drag Control Top → Leg Drag to Inside Ashi → Inside Ashi-Garami → Inside Heel Hook`
+**Q8**: Your opponent partially escapes and gets a knee shield in—how do you recover your leg drag control?
+**A**: When a knee shield enters, you've lost pure leg drag control. Do not force the leg drag against the shield—this wastes energy. Instead, use the knee shield as leverage: push it across their body while circling to the opposite side to re-establish the leg drag on the other leg, or collapse the shield by driving into their hip and transitioning to a smash pass. Alternatively, backstep to leg entanglement entries if they overcommit to the shield.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -475,11 +399,11 @@ Partner randomly performs one of four defensive reactions (turn away, stay flat,
 - **[[Mount]]** - Alternative consolidation when opponent stays flat
 - **[[Knee on Belly]]** - Quick pressure position to force opponent's reaction
 - **[[Leg Drag Pass]]** - The technique used to enter this control position
-- **[[Leg Drag Setup]]** - Preparatory positioning before establishing control
-- **[[Guard Passing Principles]]** - Fundamental concepts that apply to leg drag control
-- **[[Pressure Passing]]** - Alternative passing style that can complement leg drag approach
 - **[[Crucifix]]** - Advanced position available when opponent sits up from leg drag
 - **[[Inside Ashi-Garami]]** - Leg entanglement option when opponent defends upper body
+- **[[D'arce Control]]** - Choking position available when opponent turtles
+- **[[Technical Mount]]** - Alternative to full mount when opponent is partially turned
+- **[[North-South]]** - Control option when opponent blocks mount transition
 
 
 </section>

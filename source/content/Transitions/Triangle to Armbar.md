@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Triangle to Armbar | BJJ Technique | BJJ Graph"
 description: "Learn Triangle to Armbar transition in BJJ. Step-by-step execution from triangle control. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%."
@@ -16,7 +17,7 @@ description: "Learn Triangle to Armbar transition in BJJ. Step-by-step execution
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Triangle to Armbar in BJJ",
-  "description": "Step-by-step guide for Triangle to Armbar from Triangle Control to Armbar Control.",
+  "description": "Step-by-step guide for Triangle to Armbar from Triangle Control/Top. Possible outcomes: Armbar Control/Top (65%), Triangle Control/Top (25%), Triangle Control/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -154,11 +155,25 @@ description: "Learn Triangle to Armbar transition in BJJ. Step-by-step execution
 
 The Triangle to Armbar transition represents one of the most fundamental and high-percentage submission chains in Brazilian Jiu-Jitsu. When an opponent defends the triangle choke by maintaining proper posture or hand positioning, the armbar becomes immediately available. This transition capitalizes on the opponent's defensive response to the triangle, creating a classic two-attack system where defending one submission opens the path to another. The technical execution requires precise angle adjustment, hip mobility, and control of the defending arm. Unlike standalone armbars, this variation benefits from the leg control already established during the triangle attempt, making escape significantly more difficult. The transition can be executed from closed guard, open guard variations, or even scramble situations where triangle control has been established. Understanding this connection is essential for developing a complete guard game, as it forces opponents into defensive dilemmas where every response creates vulnerability. The triangle-to-armbar system exemplifies the principle of submission chains, where multiple attacks flow seamlessly based on the opponent's reactions, maximizing offensive pressure while minimizing energy expenditure.
 
-**Starting Position**: [[Triangle Control]]
-**Ending Position**: [[Armbar Control]]
+**From Position**: [[Triangle Control/Top]]
 **Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Armbar Control/Top]] | 65% |
+| Failure | [[Triangle Control/Top]] | 25% |
+| Counter | [[Triangle Control/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 
@@ -320,7 +335,7 @@ The triangle to armbar transition is an essential component of comprehensive gua
 - [[Armbar from Guard]] - Related finishing technique
 - [[Triangle Setup]] - Prerequisite transition
 - [[Closed Guard to Triangle]] - Initial attack sequence
-- [[Transition to Omoplata]] - Alternative transition option
+- [[Closed Guard to Omoplata]] - Alternative transition option
 - [[Omoplata]] - Third option in submission chain
 - [[Straight Armbar]] - Finishing variation
 - [[Closed Guard]] - Primary position context

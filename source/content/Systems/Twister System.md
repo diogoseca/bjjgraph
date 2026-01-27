@@ -393,7 +393,7 @@ The Twister System requires structured drilling that builds from foundational lo
 - [[Back Control]] (Position) - Traditional back control position that can be accessed from Truck transitions
 - [[Old School Sweep]] (Transition) - Primary sweep from lockdown that creates Truck entry when defended
 - [[Truck Entry]] (Transition) - Transitional mechanics for achieving Truck Position from various positions
-- [[Transition to Truck]] (Transition) - General transition pathway into Truck Position
+- [[Turtle to Truck]] (Transition) - General transition pathway into Truck Position
 - [[Lockdown Sweeps]] (Transition) - Collection of sweeping techniques available from lockdown position
 - [[Half Guard to Back Take]] (Transition) - Transition pathway connecting half guard positions to back control
 - [[Twister]] (Submission) - Signature submission finish of the entire system

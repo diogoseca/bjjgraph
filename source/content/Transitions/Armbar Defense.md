@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Armbar Defense | BJJ Technique | BJJ Graph"
 description: "Master Armbar Defense in BJJ. Learn systematic escapes from mount, guard, and side control armbars. Success rates: Beginner 30%, Intermediate 45%, Advanced 60%."
@@ -16,7 +17,7 @@ description: "Master Armbar Defense in BJJ. Learn systematic escapes from mount,
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Armbar Defense in BJJ",
-  "description": "Step-by-step guide for Armbar Defense from Armbar Control to Guard Opening Sequence.",
+  "description": "Step-by-step guide for Armbar Defense from Armbar Control/Top. Possible outcomes: Guard Opening Sequence/Bottom (60%), Armbar Control/Top (30%), Armbar Control/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -154,11 +155,25 @@ description: "Master Armbar Defense in BJJ. Learn systematic escapes from mount,
 
 Armbar defense represents one of the most critical defensive skills in Brazilian Jiu-Jitsu, as the armbar is among the highest-percentage submissions across all skill levels and rule sets. The defensive sequence must be executed with precise timing and technical understanding, as even slight delays can result in a completed submission. Effective armbar defense operates on multiple layers: preventing the initial setup through postural awareness, recognizing the attack in its early stages, executing appropriate escape mechanics based on the specific armbar variation, and transitioning to a safer position once the immediate threat is neutralized. The defense varies significantly depending on whether the armbar is being applied from mount, guard, side control, or back control, requiring practitioners to develop position-specific defensive responses while maintaining awareness of fundamental escape principles that apply across all variations.
 
-**Starting Position**: [[Armbar Control]]
-**Ending Position**: [[Guard Opening Sequence]]
+**From Position**: [[Armbar Control/Top]]
 **Success Rates**: Beginner 30%, Intermediate 45%, Advanced 60%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Guard Opening Sequence/Bottom]] | 60% |
+| Failure | [[Armbar Control/Top]] | 30% |
+| Counter | [[Armbar Control/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

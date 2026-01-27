@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Guillotine Setup | BJJ Technique | BJJ Graph"
 description: "Learn Guillotine Setup in BJJ. Step-by-step execution from Front Headlock to Guillotine Control. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%."
@@ -16,7 +17,7 @@ description: "Learn Guillotine Setup in BJJ. Step-by-step execution from Front H
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Guillotine Setup in BJJ",
-  "description": "Step-by-step guide for Guillotine Setup from Front Headlock to Guillotine Control.",
+  "description": "Step-by-step guide for Guillotine Setup from Front Headlock/Top. Possible outcomes: Guillotine Control/Top (70%), Front Headlock/Top (20%), Front Headlock/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -160,11 +161,25 @@ description: "Learn Guillotine Setup in BJJ. Step-by-step execution from Front H
 
 The Guillotine Setup represents one of the most fundamental and highest-percentage submission entries in Brazilian Jiu-Jitsu, serving as a critical bridge between controlling the opponent's head and securing a fight-finishing choke. This transition capitalizes on the dominant front headlock position, where the practitioner has already secured head control and posture dominance, and systematically converts this control into a guillotine choke configuration. The setup is characterized by precise arm placement around the opponent's neck, proper hand positioning for maximum leverage, and strategic body alignment that maximizes choking pressure while minimizing escape opportunities. What makes this setup particularly valuable is its versatility across multiple contexts—it can be executed from standing exchanges, scrambles, failed takedown attempts, or ground transitions, making it an essential tool for practitioners at all levels. The guillotine setup embodies the principle of capitalizing on opponent mistakes, as it most commonly presents itself when an opponent shoots for a takedown, turtles defensively, or attempts to pass guard with poor posture. Understanding the nuances of grip configuration, head positioning, and hip placement during the setup phase dramatically increases the success rate of the subsequent choke, as a properly established guillotine is extraordinarily difficult to defend once locked in place.
 
-**Starting Position**: [[Front Headlock]]
-**Ending Position**: [[Guillotine Control]]
+**From Position**: [[Front Headlock/Top]]
 **Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Guillotine Control/Top]] | 70% |
+| Failure | [[Front Headlock/Top]] | 20% |
+| Counter | [[Front Headlock/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

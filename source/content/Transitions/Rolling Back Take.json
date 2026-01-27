@@ -10,8 +10,6 @@
     "momentum",
     "rotation"
   ],
-  "starting_position": "Turtle",
-  "ending_position": "Back Control",
   "success_rates": {
     "beginner": 45,
     "intermediate": 65,
@@ -265,6 +263,24 @@
     {
       "name": "Gift Wrap",
       "relationship": "Alternative control position if arm is captured during roll"
+    }
+  ],
+  "from_position": "Turtle/Top",
+  "outcomes": [
+    {
+      "to": "Back Control/Top",
+      "probability": 75,
+      "result": "success"
+    },
+    {
+      "to": "Turtle/Top",
+      "probability": 15,
+      "result": "failure"
+    },
+    {
+      "to": "Turtle/Bottom",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

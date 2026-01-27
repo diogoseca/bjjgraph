@@ -235,7 +235,7 @@
       "safety_critical": false
     },
     {
-      "question": "What must you do immediately after tapping to a triangle choke, and what are the specific steps to safely release this submission?",
+      "question": "What must you do immediately after receiving a tap to a triangle choke, and what are the specific steps to safely release this submission?",
       "answer": "Upon receiving a tap, immediately: (1) open your legs and release the figure-four lock, (2) pull the trapped arm out from the triangle space, (3) release head and neck control completely, (4) move your hips away to create space, (5) check your partner's consciousness and breathing, and (6) allow them time to recover before resuming training. Never hold the position even briefly after a tap—the release must be immediate and complete. If your partner goes unconscious without tapping, follow the same protocol and ensure they are breathing and conscious before continuing.",
       "safety_critical": true
     },
@@ -257,6 +257,31 @@
     {
       "question": "Why is the triangle from spider guard considered particularly effective compared to triangles from other guard positions?",
       "answer": "The triangle from spider guard is highly effective because spider guard already establishes the key prerequisites for triangle success: broken posture (feet on biceps push opponent forward), controlled arm positioning (sleeve grips dictate where arms are placed), and distance management (feet create optimal spacing for throwing legs). Opponents defending spider guard sweeps often create defensive reactions—posting hands, driving forward, collapsing posture—that expose them perfectly to the triangle. The transition is fluid and natural since the same controls that make spider guard effective for sweeps translate directly into submission setups, often catching opponents focused on pass defense rather than submission defense.",
+      "safety_critical": false
+    },
+    {
+      "question": "Your opponent starts to posture up while you're transitioning from spider guard to triangle - what biomechanical adjustment prevents their escape?",
+      "answer": "When opponent postures during the transition, immediately pull your knees toward your chest while maintaining your collar or sleeve grip to control their head. Use your feet to kick outward against their biceps or chest to collapse their posture back down. If you've already thrown one leg over their shoulder, use that leg as a hook behind their neck and pull down forcefully while simultaneously hip escaping to create the angle. The combination of leg pressure pulling their head down and hip angle makes it mechanically impossible for them to fully posture once you've committed to the entry.",
+      "safety_critical": false
+    },
+    {
+      "question": "What anatomical structures does the triangle choke attack, and how does proper positioning ensure you're targeting them correctly?",
+      "answer": "The triangle choke targets the carotid arteries on both sides of the neck, which supply blood to the brain. Proper positioning ensures compression by placing your leg diagonally across the back of the opponent's neck (not the crown of their head), creating angle so your inner thigh presses against one carotid while their own trapped shoulder compresses the other. The one arm in, one arm out configuration forces their shoulder into their own neck. If you feel pressure on the trachea (front of throat) rather than the sides of the neck, you need more angle—this causes discomfort but doesn't produce unconsciousness and can injure the throat.",
+      "safety_critical": true
+    },
+    {
+      "question": "What are the key breaking point indicators that tell you the triangle choke is properly applied and your opponent will tap soon?",
+      "answer": "Key breaking point indicators include: opponent's face changing color (reddening or purpling), cessation of escape attempts as they conserve oxygen, labored or gurgling breathing sounds, weakening resistance in their trapped arm, their free hand desperately tapping or reaching for your legs. In training, you should receive a tap well before these extreme signs appear. If you notice color change or reduced consciousness before a tap, release immediately—your partner may be too stubborn to tap or unable to signal. The choke is working correctly if opponent taps within 5-10 seconds of proper pressure application.",
+      "safety_critical": true
+    },
+    {
+      "question": "Your opponent defends by gripping their hands together in a Gable grip to prevent you from pulling their arm across - what grip adjustment maintains finishing pressure?",
+      "answer": "When opponent creates a Gable grip defense, switch from trying to pull their wrist to controlling their elbow or upper arm instead. Push their elbow toward their own face while simultaneously adjusting your angle further perpendicular to their body. You can also attack their Gable grip by inserting your fingers between their hands and prying them apart, or by pushing their top hand toward the mat to break the connection. Another option is to abandon the arm pull entirely and focus on maximum hip elevation and angle—with proper positioning, the choke can finish even without pulling the arm across, as your thigh and their shoulder still compress both carotids.",
+      "safety_critical": false
+    },
+    {
+      "question": "In competition, what finishing strategies maximize your success rate when the opponent is defending intelligently and the clock is running down?",
+      "answer": "For competition finishing under time pressure: First, commit fully to your angle by pivoting your hips as perpendicular as possible—half-committed triangles never finish against good defense. Second, abandon the head pull if they're resisting strongly and focus on hip elevation and knee squeeze, which is harder for them to counter. Third, use their defensive movements against them—if they're spending energy fighting the arm pull, they're not defending the angle adjustment. Fourth, threaten the armbar on their trapped arm to create a dilemma: if they defend the armbar, they expose the choke, and vice versa. Finally, if the triangle truly isn't finishing, transition immediately to omoplata or armbar rather than wasting precious time on a stalled position.",
       "safety_critical": false
     }
   ],
@@ -317,69 +342,56 @@
   ],
   "related_submissions": [
     "Triangle Choke",
-    "Triangle from Guard",
-    "Triangle from Closed Guard",
     "Omoplata",
-    "Omoplata from Guard",
-    "Triangle to Armbar",
-    "Triangle to Omoplata",
     "Armbar from Guard",
     "Inverted Triangle",
     "Baratoplata",
     "Gogoplata",
-    "Triangle from De La Riva",
-    "Monoplata",
-    "Switch to Triangle",
-    "Rolling Armbar"
+    "Guillotine Choke",
+    "Arm Triangle",
+    "Kimura",
+    "Cross Collar Choke"
   ],
   "related_content": [
     {
-      "name": "Omoplata from Guard",
-      "relationship": "Alternative submission from same position setup"
+      "name": "Spider Guard",
+      "relationship": "Primary starting position for this triangle variation"
     },
     {
-      "name": "Triangle from Closed Guard",
-      "relationship": "Similar triangle mechanics from different guard"
+      "name": "Triangle Control",
+      "relationship": "Control position reached upon successful entry"
     },
     {
-      "name": "Triangle Setup",
-      "relationship": "General triangle entry principles applicable from spider guard"
-    },
-    {
-      "name": "Ryan Hall Triangle System",
-      "relationship": "Comprehensive triangle system including spider guard variations"
-    },
-    {
-      "name": "Guard Retention",
-      "relationship": "Spider guard retention prevents opponent from passing before triangle opportunity"
-    },
-    {
-      "name": "Omoplata to Sweep",
-      "relationship": "Omoplata threat from spider guard sets up triangle and vice versa"
-    },
-    {
-      "name": "Collar Drag",
-      "relationship": "Entry technique for creating triangle opportunity from spider guard"
+      "name": "Omoplata Control",
+      "relationship": "Alternative submission when triangle is defended"
     },
     {
       "name": "Lasso Guard",
       "relationship": "Similar arm control concepts applicable to triangle entries"
     },
     {
-      "name": "Elevator Sweep",
-      "relationship": "Spider guard sweep that creates triangle opportunities when defended"
+      "name": "Collar Sleeve Guard",
+      "relationship": "Complementary guard with similar triangle setups"
     },
     {
       "name": "Inverted Guard",
       "relationship": "Advanced inverted triangle variation from spider guard"
     },
     {
-      "name": "Guard Passing",
-      "relationship": "Understanding passing helps anticipate opponent reactions that expose triangle"
+      "name": "Open Guard",
+      "relationship": "Parent guard category for spider guard positioning"
     },
     {
-      "name": "Submission Defense",
-      "relationship": "Understanding triangle defense improves your offensive execution"
+      "name": "De La Riva Guard",
+      "relationship": "Complementary guard that combines with spider for attacks"
+    },
+    {
+      "name": "Armbar Control",
+      "relationship": "Transition target when triangle arm is exposed"
+    },
+    {
+      "name": "Closed Guard",
+      "relationship": "Alternative guard for triangle attacks when spider fails"
     }
   ]
 }

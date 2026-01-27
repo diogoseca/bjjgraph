@@ -250,23 +250,48 @@
       "safety_critical": true
     },
     {
-      "question": "From which leg entanglement positions can toe hold variations be effectively applied?",
-      "answer": "Toe holds can be applied from 50-50 guard, outside ashi garami, inside ashi garami, saddle position, single leg X-guard, and various transitional positions during leg entanglement scrambles. They can also be opportunistically applied from top positions like side control or during turtle attacks when the opponent's foot becomes isolated. The most common and highest percentage applications come from 50-50 and outside ashi positions where the leg is already controlled and isolated. Each position offers slightly different mechanical advantages - for example, outside ashi provides better top control while 50-50 offers better leg isolation.",
-      "safety_critical": false
-    },
-    {
-      "question": "How should you defend if an opponent attempts to sit up and address your upper body during a toe hold attempt?",
-      "answer": "Use your free leg to push against their chest or establish a collar tie to prevent them from fully sitting up. If they are succeeding in sitting up, temporarily abandon the submission finish to reestablish positional dominance and control their upper body. You can use frames, push their shoulders back, or transition to other positions like triangle or back control if they overcommit to sitting forward. Never sacrifice position for a low-percentage submission attempt - reestablish control first, then return to attacking. From their attempted sit-up, you often have opportunities to transition to upper body submissions or sweep them if they're off-balance.",
-      "safety_critical": false
-    },
-    {
-      "question": "What is the correct grip position on the foot to maximize toe hold effectiveness while minimizing individual toe injury risk?",
-      "answer": "Your hand should wrap around the ball of the foot, controlling at least three toes together, with your thumb on the sole of the foot. This grip distributes pressure across multiple toes and the metatarsal bones rather than isolating individual digits. Gripping only one or two toes can cause toe injuries without achieving effective ankle rotation. The ball-of-foot grip also provides better leverage for rotation because you're controlling a larger surface area. Think of the grip like holding a baseball - your hand wraps around the entire structure rather than pinching specific points. This grip is both more effective for the submission and safer for your training partner.",
+      "question": "What anatomical structures does the toe hold primarily attack, and what makes them vulnerable to rotational pressure?",
+      "answer": "The toe hold primarily attacks the ankle ligaments (deltoid and talofibular), the small joints of the midfoot, and places secondary stress on the Achilles tendon. These structures are vulnerable because the ankle joint is designed for flexion and extension movements, not significant rotation. When rotational force is applied with the heel fixed, the ligaments that stabilize the ankle experience stress they are not designed to handle. The deltoid ligament on the medial side and the lateral ligament complex are particularly vulnerable as they bear the brunt of external rotation force.",
       "safety_critical": true
     },
     {
-      "question": "What are the key mechanical differences between applying a toe hold from bottom 50-50 versus top outside ashi?",
-      "answer": "From bottom 50-50, you have more leg entanglement security but less upper body control, requiring you to keep your chest tight to their leg to prevent them from sitting up. Your rotation comes primarily from shoulder and torso turn. From top outside ashi, you have superior weight distribution and hip pressure that prevents the sit-up defense more easily, but you must be more careful about your own leg positioning to prevent counters. Top position allows you to add downward pressure while rotating, making it mechanically stronger. Bottom position requires more reliance on grip fighting and angle control. Both can be equally effective, but top ashi generally offers better control and easier finishing mechanics for most grapplers.",
+      "question": "Your opponent begins rotating their knee inward to relieve pressure during your toe hold attempt - how do you adjust the finish?",
+      "answer": "When opponent rotates their knee inward, immediately increase your outside leg pressure over their thigh to force the knee back to center position. Simultaneously use your inside leg to create a triangle around their leg if possible, preventing further knee rotation. If you cannot control the knee rotation, recognize that their defense actually exposes them to an inside heel hook attack in rulesets where it is legal. Rather than forcing the toe hold against their defense, flow to the heel hook opportunity they have created. The key is maintaining leg entanglement while adapting your attack angle.",
+      "safety_critical": false
+    },
+    {
+      "question": "What indicators tell you that your toe hold position is secure enough to begin applying finishing pressure?",
+      "answer": "You are ready to finish when: your leg entanglement is tight with no space for opponent to extract their leg, your heel cup is secure with palm around the back of their heel, you control at least three toes with proper ball-of-foot grip, your chest maintains connection to their trapped leg, your hips are angled toward their leg at approximately 45 degrees, and opponent's defensive grips have been cleared. If any of these elements is missing, continue working position before attempting to finish. Premature finishing attempts with incomplete control lead to failed submissions and wasted positions.",
+      "safety_critical": false
+    },
+    {
+      "question": "How do you generate maximum rotational power for the toe hold finish without using jerking or explosive movements?",
+      "answer": "Rotational power comes from your entire torso, not arm strength. Keep elbows tight to your body and use shoulder and core rotation as the primary force generators. The motion resembles opening a jar lid - your shoulders turn progressively while your grip on the foot remains constant. Simultaneously pull their toes toward their shin to increase ankle isolation. Hip position matters critically: angling your hips away from opponent creates better mechanical advantage for the torso rotation. Apply this rotation progressively over 3-5 seconds, allowing opponent time to recognize and respond to the pressure with a tap.",
+      "safety_critical": true
+    },
+    {
+      "question": "Your opponent grabs their own foot with both hands during your toe hold attempt - what adjustments break this defense?",
+      "answer": "First, use shoulder pressure against their defending arms while maintaining your heel cup - this prevents them from strengthening their grip. Second, slide your top arm under their knee to create a figure-four configuration that adds breaking pressure to overwhelm their hand defense. Third, if their grip remains too strong, consider transitioning to straight ankle lock by releasing toe control and attacking the exposed ankle - their focus on defending rotation often leaves the ankle vulnerable to extension pressure. Finally, you can address their grips directly by controlling their wrist with one hand before re-establishing toe control.",
+      "safety_critical": false
+    },
+    {
+      "question": "What is the point of no escape for the toe hold, and how do you recognize when opponent has passed this threshold?",
+      "answer": "The point of no escape occurs when you have established secure heel cup, proper toe grip, tight leg entanglement, and begun rotation with your torso committed to the turning motion. At this stage, opponent cannot extract their leg or relieve pressure without tapping. You recognize this threshold when: your body rotation has begun and opponent's ankle is moving with your torso, their knee is trapped and cannot rotate inward, their defensive grips have been cleared or broken, and you feel the resistance in the ankle joint itself rather than in their leg position. Once past this point, apply pressure progressively - the submission will finish within seconds.",
+      "safety_critical": false
+    },
+    {
+      "question": "What grip adjustments should you make during the finish when opponent's foot is sweaty or your grip begins slipping?",
+      "answer": "When grip becomes unreliable, immediately reinforce your heel cup by pressing your palm deeper into the back of their heel and pulling it tighter to your chest. For the toe grip, wrap your hand lower on the ball of the foot where there is more surface area to control, rather than gripping individual toes. Keep elbows extremely tight to your body to create a structural grip that relies less on friction. In no-gi, you can use your chin to help pin the foot to your chest. If grip continues failing, abort the finish attempt and reset your grips before trying again - forcing a submission with compromised control risks injury and escape.",
+      "safety_critical": true
+    },
+    {
+      "question": "How do you finish the toe hold in competition against an opponent who refuses to tap despite obvious submission danger?",
+      "answer": "In competition against an opponent not tapping, maintain controlled progressive pressure without jerking or spiking. The finish will happen through gradual rotational pressure that overwhelms their ankle structure. Continue torso rotation at competition speed (1-2 seconds total application) while maintaining all controls. If they refuse to tap, the referee will typically stop the match when they observe clear submission mechanics and potential injury. Never increase to explosive or jerking movements to force the tap - this creates serious injury risk. If the submission does not finish with proper technique, consider transitioning to an alternative attack rather than forcing with dangerous mechanics.",
+      "safety_critical": true
+    },
+    {
+      "question": "What common competition finishing errors reduce toe hold success rates, and how do you correct them?",
+      "answer": "Common competition errors include: rushing the finish before establishing secure leg entanglement (correction: always secure position before attacking), pulling the foot toward your body instead of rotating in place (correction: focus on torso rotation with heel stationary), loose grip on the ball of foot (correction: grip at least three toes with hand wrapped around entire ball), allowing space between chest and opponent's leg (correction: maintain constant connection to prevent sit-up defense), and abandoning the submission too quickly when initial rotation meets resistance (correction: adjust angle and continue progressive pressure). Success requires patience and precise mechanics even under competition pressure.",
       "safety_critical": false
     }
   ],
@@ -328,18 +353,14 @@
   ],
   "related_submissions": [
     "Toe Hold",
-    "Toe Hold from 50-50",
-    "Toe Hold from Top",
     "Heel Hook",
     "Inside Heel Hook",
     "Outside Heel Hook",
     "Straight Ankle Lock",
     "Kneebar",
-    "Kneebar from 50-50",
     "Achilles Lock",
     "Calf Slicer",
-    "Estima Lock",
-    "Straight Footlock"
+    "Estima Lock"
   ],
   "related_content": [
     {
@@ -359,28 +380,28 @@
       "relationship": "Leg control position offering toe hold opportunities from bottom or top"
     },
     {
-      "name": "Craig Jones Leg Lock System",
-      "relationship": "Modern approach to leg locks emphasizing toe hold variations and transitions"
-    },
-    {
-      "name": "Straight Footlock to Kneebar Chain",
-      "relationship": "Submission system where toe hold serves as alternative attack angle"
-    },
-    {
       "name": "Leg Entanglement",
       "relationship": "Fundamental principle for controlling opponent's leg before attempting toe hold"
     },
     {
-      "name": "Outside Ashi Entry",
-      "relationship": "Entry technique establishing optimal toe hold attacking position"
+      "name": "Straight Ankle Lock",
+      "relationship": "Complementary submission often chained with toe hold attacks"
     },
     {
-      "name": "50-50 Entry from Standing",
-      "relationship": "Takedown and leg entanglement leading directly to toe hold opportunities"
+      "name": "Heel Hook",
+      "relationship": "Alternative leg lock attack from same positions as toe hold"
     },
     {
-      "name": "Lachlan Giles Leg Lock Defense Framework",
-      "relationship": "Defensive system teaching how to prevent and escape toe hold variations"
+      "name": "Kneebar",
+      "relationship": "Leg attack that can be chained when toe hold is defended"
+    },
+    {
+      "name": "Ashi Garami",
+      "relationship": "Parent position family for all leg entanglement toe hold entries"
+    },
+    {
+      "name": "Calf Slicer",
+      "relationship": "Compression attack accessible from similar leg entanglement positions"
     }
   ]
 }

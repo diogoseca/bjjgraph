@@ -21,37 +21,37 @@ description: "Master feet on hips guard bottom in BJJ. Distance management, swee
     {
       "@type": "HowToStep",
       "name": "Execute Scissor Sweep",
-      "text": "From this position, execute Scissor Sweep to transition to Mount. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Scissor Sweep. This technique is attempted in 14% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Pendulum Sweep",
-      "text": "From this position, execute Pendulum Sweep to transition to Mount. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Pendulum Sweep. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Bump Sweep",
-      "text": "From this position, execute Hip Bump Sweep to transition to Mount. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Hip Bump Sweep. This technique is attempted in 11% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Setup",
-      "text": "From this position, execute Triangle Setup to transition to Triangle Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Triangle Setup. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Omoplata Sweep",
-      "text": "From this position, execute Omoplata Sweep to transition to Omoplata Control. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 9% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute De La Riva Sweep",
-      "text": "From this position, execute De La Riva Sweep to transition to De La Riva Guard. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt De La Riva Sweep. This technique is attempted in 11% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -209,101 +209,24 @@ Feet on Hips Guard Bottom is the guard player's perspective in this fundamental 
 
 ## Available Escapes
 
-### [[Scissor Sweep]] → [[Mount]]
+### [[Scissor Sweep]] (14% of attempts)
 
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 60%
-- Advanced: 75%
+### [[Pendulum Sweep]] (12% of attempts)
 
-### [[Pendulum Sweep]] → [[Mount]]
+### [[Hip Bump Sweep]] (11% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Triangle Setup]] (10% of attempts)
 
-### [[Hip Bump Sweep]] → [[Mount]]
+### [[Omoplata Sweep]] (9% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[De La Riva Sweep]] (11% of attempts)
 
-### [[Triangle Setup]] → [[Triangle Control]]
+### [[X-Guard Sweep]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Single Leg X Sweep]] (11% of attempts)
 
-### [[Omoplata Sweep]] → [[Omoplata Control]]
+### [[Elevator Sweep]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-### [[De La Riva Sweep]] → [[De La Riva Guard]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-### [[X-Guard Sweep]] → [[X-Guard]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[Single Leg X Sweep]] → [[Single Leg X-Guard]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-### [[Elevator Sweep]] → [[Mount]]
-
-**Success Rates:**
-- Beginner: 38%
-- Intermediate: 53%
-- Advanced: 68%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Toreando Pass]]** → [[Side Control]] (Opponent Success: 45%)
-- **[[Knee Slice Pass]]** → [[Side Control]] (Opponent Success: 40%)
-- **[[Double Under Pass]]** → [[Side Control]] (Opponent Success: 35%)
-- **[[Stack Pass]]** → [[Side Control]] (Opponent Success: 30%)
-- **[[Long Step Pass]]** → [[Side Control]] (Opponent Success: 35%)
-- **[[Leg Weave Pass]]** → [[Leg Drag Control]] (Opponent Success: 30%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Butterfly Guard to X-Guard]]** → [[X-Guard]]
-  - Opponent steps in close to control ankles or drive pressure forward into frames
-- **[[De La Riva Sweep]]** → [[De La Riva Guard]]
-  - Opponent attempts to pass to one side with weight commitment or lateral movement
-- **[[Spider Guard Sweeps]]** → [[Spider Guard]]
-  - Opponent grabs sleeves and attempts to control arms while standing tall
-- **[[Guard Recovery]]** → [[Closed Guard]]
-  - Opponent drives forward aggressively, allowing closed guard recapture as distance collapses
-- **[[Triangle Setup]]** → [[Triangle Control]]
-  - Opponent reaches forward with one arm extended to control distance or break grips
 
 
 </section>
@@ -428,33 +351,39 @@ Top partner starts with one ankle controlled. Bottom player must recover feet-on
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Triangle path from feet-on-hips
+## Test Your Knowledge
 
-`Feet on Hips Guard → Triangle Setup → Triangle Control → Triangle from Guard`
+**Q1**: What is the optimal foot placement for maintaining feet on hips guard and why?
+**A**: Place the ball of each foot directly on the opponent's hip bones (anterior superior iliac spine landmarks), not on the thighs or stomach. This bony contact point provides maximum structural stability and pushing efficiency because bone-on-bone contact transmits force more effectively than pressing against soft tissue. The ball of the foot creates a broad, stable pushing surface while maintaining sensitivity to the opponent's weight shifts and movement.
 
-### Armbar path via sweep
+**Q2**: Your opponent grabs both of your ankles - what immediate adjustment do you make?
+**A**: React instantly by retracting both legs toward your chest while simultaneously pulling your hips back and creating an angle to one side. As you retract, fight to strip at least one ankle grip by circling your foot and pulling sharply. Immediately transition to an alternative guard position such as butterfly guard by placing hooks inside their thighs, or create enough distance to reset your feet back on their hips. Never allow them to control both ankles while your hips remain flat and stationary.
 
-`Feet on Hips Guard → Scissor Sweep → Mount → Armbar from Mount`
+**Q3**: What are the essential grips for maintaining an effective feet on hips guard?
+**A**: Prioritize sleeve grips at the wrists or elbows, which allow you to control the opponent's ability to grab your legs and provide pulling power to coordinate with your leg frames. Secondary options include collar grips for posture control and to threaten chokes, or pants grips at the knees to prevent them from stepping around your frames. Always fight to establish grips before the opponent can secure their own passing grips on your ankles or pants.
 
-### Omoplata path with sweep option
+**Q4**: How do you maintain hip elevation and why is this critical for guard retention?
+**A**: Maintain hip elevation by engaging your core muscles and keeping a curved lower back, creating space between your lower back and the mat. This elevated position preserves your ability to rotate, angle, and move your hips freely. When hips flatten to the mat, you lose mobility and the opponent can settle their weight, pin your legs, and systematically advance their pass. The curved spine position also generates stronger pushing power through your leg frames.
 
-`Feet on Hips Guard → Omoplata Sweep → Omoplata Control → Omoplata from Guard`
+**Q5**: The opponent begins circling laterally to your left side - how do you track their movement?
+**A**: Walk your hips in the same direction they're moving by using your shoulders and feet to scoot your body, keeping your feet centered on their hips and your chest facing them squarely. Adjust your foot pressure by pushing slightly harder with your right foot to track their leftward movement. If you have sleeve grips, use them to pull their upper body back toward your centerline while your legs redirect their hips. Never allow them to achieve a perpendicular angle to your body.
 
-### Guillotine path from failed pass
+**Q6**: What is the primary escape when the opponent begins driving forward with heavy pressure into your frames?
+**A**: Use their forward momentum against them by pulling them even further forward with your grips while extending your legs to load their weight onto your feet. This creates the setup for sweeps like the scissor sweep or pendulum sweep. If the sweep opportunity passes, redirect their forward pressure to one side by angling your hips and extending one leg more than the other, creating space to recover to closed guard or transition to De La Riva guard on the side they're now committed toward.
 
-`Feet on Hips Guard → Guard Recovery → Closed Guard → Guillotine Choke`
+**Q7**: How do you recover position after the opponent partially passes one foot off your hip?
+**A**: Immediately hip escape away from the side where you've lost foot placement, creating space and preventing them from achieving chest-to-chest contact. Use your remaining foot on their hip to push and create distance while your free leg either resets to their hip or transitions to a hook position such as butterfly or De La Riva. Simultaneously use your grips to prevent them from advancing further and create pulling tension that helps you recover your guard structure. Speed and immediate reaction are critical - never accept a partial pass without fighting to recover.
 
-### Kimura path via Spider Guard transition
-
-`Feet on Hips Guard → Spider Guard Sweeps → Spider Guard → Kimura from Guard`
+**Q8**: What is the coordination between pushing and pulling that makes feet on hips guard effective?
+**A**: Effective feet on hips guard requires constant push-pull coordination where your legs push the opponent away while your grips pull their upper body toward you. This creates rotational tension that breaks their posture and balance. When you push with your legs alone, they simply step back and remain balanced. When you pull with grips alone, they drive their weight forward into you. The combination of simultaneous pushing and pulling forces creates the off-balancing moment needed for sweeps and prevents them from establishing a stable passing position.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -484,9 +413,6 @@ Top partner starts with one ankle controlled. Bottom player must recover feet-on
 - **[[Triangle Control]]** - Primary submission threat when opponent reaches forward with arms
 - **[[Scissor Sweep]]** - High-percentage sweep when opponent commits weight forward
 - **[[Pendulum Sweep]]** - Alternative sweep utilizing same foot-on-hip mechanics
-- **[[Guard Retention Concepts]]** - Fundamental principle - feet-on-hips exemplifies distance management concept
-- **[[Frame Management]]** - Core concept applied through leg frames on hips
-- **[[Distance Creation]]** - Primary tactical objective of feet-on-hips position
 
 
 </section>

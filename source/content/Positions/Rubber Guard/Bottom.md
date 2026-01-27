@@ -4,7 +4,7 @@
 
 ---
 title: "Rubber Guard Bottom | BJJ Position Guide | BJJ Graph"
-description: "Master Rubber Guard bottom position with this complete guide to the 10th Planet systematic approach. Learn Mission Control, New York, and submission chains."
+description: "Master Rubber Guard bottom position with this complete guide to the 10th Planet systematic approach. Learn Mission Control, New York, Invisible Collar progressions, and high-percentage submission chains including triangles, omoplatas, and gogoplatas."
 ---
 
 
@@ -21,37 +21,37 @@ description: "Master Rubber Guard bottom position with this complete guide to th
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Setup",
-      "text": "From this position, execute Triangle Setup to transition to Triangle Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Triangle Setup. This technique is attempted in 25% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Omoplata to Back",
-      "text": "From this position, execute Omoplata to Back to transition to Omoplata Control. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Omoplata to Back. This technique is attempted in 20% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Triangle to Armbar",
-      "text": "From this position, execute Triangle to Armbar to transition to Armbar Control. Success rate for advanced practitioners: 55%.",
+      "name": "Execute Meathook to Gogoplata Control",
+      "text": "From this position, attempt Meathook to Gogoplata Control. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Bump Sweep",
-      "text": "From this position, execute Hip Bump Sweep to transition to Mount. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Hip Bump Sweep. This technique is attempted in 15% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Omoplata Sweep",
-      "text": "From this position, execute Omoplata Sweep to transition to Side Control. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 15% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Omoplata",
-      "text": "From this position, execute Transition to Omoplata to transition to Back Control. Success rate for advanced practitioners: 50%.",
+      "name": "Execute Triangle to Armbar",
+      "text": "From this position, attempt Triangle to Armbar. This technique is attempted in 15% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -115,7 +115,7 @@ description: "Master Rubber Guard bottom position with this complete guide to th
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Rubber Guard Bottom",
-  "description": "Master Rubber Guard bottom position with this complete guide to the 10th Planet systematic approach. Learn Mission Control, New York, and submission chains.",
+  "description": "Master Rubber Guard bottom position with this complete guide to the 10th Planet systematic approach. Learn Mission Control, New York, Invisible Collar progressions, and high-percentage submission chains including triangles, omoplatas, and gogoplatas.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -160,7 +160,7 @@ description: "Master Rubber Guard bottom position with this complete guide to th
 
 <section id="overview" class="content-section">
 
-The Rubber Guard from the bottom perspective represents one of the most innovative and systematically developed guard positions in modern Brazilian Jiu-Jitsu. Developed by 10th Planet's specifically for no-gi grappling and MMA applications, this position fundamentally reimagines closed guard control by incorporating extreme flexibility and systematic progression through named positions. From bottom, the practitioner uses their leg to create a locked configuration that traps the opponent's arm against their own chest while simultaneously controlling posture. This dual-threat control system creates unique submission opportunities unavailable from conventional guard positions. The position begins from closed guard, where the bottom player breaks the opponent's posture and brings one leg high across the opponent's back, securing the shin or foot with the same-side hand to create Mission Control, the foundational Rubber Guard position. From here, systematic progressions lead to New York (omoplata threat), Invisible Collar (choke setups), Zombie (gogoplata position), and numerous other variations, each with specific grip configurations and submission entries. The bottom player's strategy centers on maintaining constant arm isolation while using the opponent's defensive reactions to dictate which submission pathway to pursue. Understanding the Rubber Guard system requires accepting its physical prerequisites—exceptional hip flexibility is non-negotiable—but for practitioners who possess or develop this attribute, the position offers a comprehensive attacking system that creates unique problems for conventionally trained opponents. The energy management aspect is critical: unlike traditional closed guard where pressure can be sustained for extended periods, Rubber Guard's elevated leg position demands intelligent application of pressure in bursts rather than constant maximum tension. The bottom player must also manage the inherent vulnerability to stacking pressure by maintaining proper shoulder positioning and using hip mobility to adjust angles. When executed properly with systematic understanding of the position's nuances, Rubber Guard from bottom provides exceptional control, neutralizes striking in MMA contexts, and creates high-percentage submission opportunities through its unique mechanical configurations.
+The Rubber Guard from the bottom perspective represents one of the most innovative and systematically developed guard positions in modern Brazilian Jiu-Jitsu. Developed specifically for no-gi grappling and MMA applications, this position fundamentally reimagines closed guard control by incorporating extreme flexibility and systematic progression through named positions. From bottom, the practitioner uses their leg to create a locked configuration that traps the opponent's arm against their own chest while simultaneously controlling posture. This dual-threat control system creates unique submission opportunities unavailable from conventional guard positions. The position begins from closed guard, where the bottom player breaks the opponent's posture and brings one leg high across the opponent's back, securing the shin or foot with the same-side hand to create Mission Control, the foundational Rubber Guard position. From here, systematic progressions lead to New York (omoplata threat), Invisible Collar (choke setups), Zombie (gogoplata position), and numerous other variations, each with specific grip configurations and submission entries. The bottom player's strategy centers on maintaining constant arm isolation while using the opponent's defensive reactions to dictate which submission pathway to pursue. Understanding the Rubber Guard system requires accepting its physical prerequisites—exceptional hip flexibility is non-negotiable—but for practitioners who possess or develop this attribute, the position offers a comprehensive attacking system that creates unique problems for conventionally trained opponents. The energy management aspect is critical: unlike traditional closed guard where pressure can be sustained for extended periods, Rubber Guard's elevated leg position demands intelligent application of pressure in bursts rather than constant maximum tension. The bottom player must also manage the inherent vulnerability to stacking pressure by maintaining proper shoulder positioning and using hip mobility to adjust angles. When executed properly with systematic understanding of the position's nuances, Rubber Guard from bottom provides exceptional control, neutralizes striking in MMA contexts, and creates high-percentage submission opportunities through its unique mechanical configurations.
 
 </section>
 
@@ -180,7 +180,7 @@ The Rubber Guard from the bottom perspective represents one of the most innovati
 
 - Exceptional hip and hamstring flexibility to achieve high leg position
 - Strong closed guard fundamentals with understanding of posture control
-- Knowledge of specialized grip configurations and 10th Planet position naming system
+- Knowledge of specialized grip configurations and position naming system
 
 
 </section>
@@ -204,95 +204,18 @@ The Rubber Guard from the bottom perspective represents one of the most innovati
 
 ## Available Escapes
 
-### [[Triangle Setup]] → [[Triangle Control]]
+### [[Triangle Setup]] (25% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 60%
+### [[Omoplata to Back]] (20% of attempts)
 
-### [[Omoplata to Back]] → [[Omoplata Control]]
+### [[Meathook to Gogoplata Control]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 55%
+### [[Hip Bump Sweep]] (15% of attempts)
 
-### [[Triangle to Armbar]] → [[Armbar Control]]
+### [[Omoplata Sweep]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 55%
+### [[Triangle to Armbar]] (15% of attempts)
 
-### [[Hip Bump Sweep]] → [[Mount]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 60%
-
-### [[Omoplata Sweep]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 55%
-
-### [[Transition to Omoplata]] → [[Back Control]]
-
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 50%
-
-### [[Switch to Triangle]] → [[Triangle Control]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 55%
-
-### [[Rolling Armbar]] → [[Armbar Control]]
-
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 50%
-
-### [[Rolling Omoplata]] → [[Omoplata Control]]
-
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 28%
-- Advanced: 48%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Posture Recovery]]** → [[Closed Guard]] (Opponent Success: 40%)
-- **[[Guard Opening Sequence]]** → [[Combat Base]] (Opponent Success: 35%)
-- **[[Guard Pass]]** → [[Side Control]] (Opponent Success: 25%)
-- **[[Position Change]]** → [[Open Guard]] (Opponent Success: 30%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Triangle Setup]]** → [[Triangle Control]]
-  - Opponent attempts to pull trapped arm free creating space between arm and chest
-- **[[Omoplata to Back]]** → [[Omoplata Control]]
-  - Opponent drives forward to smash or applies stacking pressure
-- **[[Hip Bump Sweep]]** → [[Mount]]
-  - Opponent sits back to break leg grip or create distance
 
 
 </section>
@@ -307,7 +230,7 @@ The Rubber Guard from the bottom perspective represents one of the most innovati
 
 
 **If opponent drives forward with pressure attempting to smash or stack:**
-- Execute **[[Transition to Omoplata]]** → [[Back Control]] (Probability: 55%)
+- Execute **[[Closed Guard to Omoplata]]** → [[Back Control]] (Probability: 55%)
 - Execute **[[Hip Bump Sweep]]** → [[Mount]] (Probability: 45%)
 
 
@@ -317,7 +240,7 @@ The Rubber Guard from the bottom perspective represents one of the most innovati
 
 
 **If opponent successfully breaks leg grip but remains in guard:**
-- Execute **[[Re-Guard]]** → [[Closed Guard]] (Probability: 70%)
+- Execute **[[Guard Recovery]]** → [[Closed Guard]] (Probability: 70%)
 - Execute **[[Guard Replacement]]** → [[Open Guard]] (Probability: 60%)
 
 
@@ -399,33 +322,7 @@ Start in established Rubber Guard position. Flow between triangle, omoplata, and
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
-
-### Classic Triangle Path
-
-`Closed Guard → Mission Control → Triangle Setup → Triangle Control → Triangle Choke`
-
-### Omoplata to Back Path
-
-`Closed Guard → New York Control → Omoplata to Back → Back Control → Rear Naked Choke`
-
-### Gogoplata Path
-
-`Closed Guard → Invisible Collar → Zombie → Gogoplata Control → Gogoplata`
-
-### Triangle-Armbar Chain
-
-`Mission Control → Triangle Setup → Triangle to Armbar → Armbar Control → Armbar from Guard`
-
-### Sweep to Mount Path
-
-`Mission Control → Hip Bump Sweep → Mount → Armbar from Mount`
-
-
-
-</section>
 
 <section id="position-metrics" class="content-section">
 
@@ -455,9 +352,6 @@ Start in established Rubber Guard position. Flow between triangle, omoplata, and
 - **[[Triangle Control]]** - Primary submission target from Rubber Guard with multiple entry pathways from different variations
 - **[[Omoplata Control]]** - Secondary submission target particularly effective from New York position within Rubber Guard
 - **[[Gogoplata Control]]** - Advanced submission target from Zombie position requiring extreme flexibility and precise positioning
-- **[[10th Planet Rubber Guard System]]** - Complete systematic framework providing comprehensive progression and submission chains from this position
-- **[[Rubber Guard to Triangle System]]** - Specialized submission system focusing on triangle entries from various Rubber Guard configurations
-- **[[Rubber Guard to Omoplata System]]** - Alternative submission system emphasizing shoulder lock entries and back-taking opportunities
 
 
 </section>

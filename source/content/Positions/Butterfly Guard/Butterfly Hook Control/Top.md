@@ -21,37 +21,37 @@ description: "Master Butterfly Hook Control Top in BJJ. Complete guide covering 
     {
       "@type": "HowToStep",
       "name": "Execute Butterfly Pass",
-      "text": "From this position, execute Butterfly Pass to transition to Side Control. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Butterfly Pass. This technique is attempted in 13% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Butterfly Smash",
-      "text": "From this position, execute Butterfly Smash to transition to Half Guard. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Butterfly Smash. This technique is attempted in 17% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, execute Knee Slice Pass to transition to Side Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Standing up in Base",
-      "text": "From this position, execute Standing up in Base to transition to Standing Guard. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Standing up in Base. This technique is attempted in 14% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Pressure Pass",
-      "text": "From this position, execute Pressure Pass to transition to Side Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Pressure Pass. This technique is attempted in 11% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Double Under Pass",
-      "text": "From this position, execute Double Under Pass to transition to Side Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Double Under Pass. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -211,94 +211,22 @@ Effective top play requires understanding how to distribute weight to minimize s
 
 ## Available Attacks
 
-### [[Butterfly Pass]] → [[Side Control]]
+### [[Butterfly Pass]] (13% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Butterfly Smash]] (17% of attempts)
 
-### [[Butterfly Smash]] → [[Half Guard]]
+### [[Knee Slice Pass]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 60%
-- Advanced: 75%
+### [[Standing up in Base]] (14% of attempts)
 
-### [[Knee Slice Pass]] → [[Side Control]]
+### [[Pressure Pass]] (11% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Double Under Pass]] (12% of attempts)
 
-### [[Standing up in Base]] → [[Standing Guard]]
+### [[Leg Weave Pass]] (11% of attempts)
 
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 60%
-- Advanced: 75%
+### [[Toreando Pass]] (10% of attempts)
 
-### [[Pressure Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[Double Under Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 65%
-
-### [[Leg Weave Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 60%
-
-### [[Toreando Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 55%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Butterfly Sweep]]** → [[Mount]] (Opponent Success: 45%)
-- **[[Arm Drag to Back]]** → [[Back Control]] (Opponent Success: 35%)
-- **[[Butterfly Guard to X-Guard]]** → [[X-Guard]] (Opponent Success: 30%)
-- **[[Deep Half Entry]]** → [[Deep Half Guard]] (Opponent Success: 40%)
-- **[[Guillotine Setup]]** → [[Guillotine Control]] (Opponent Success: 25%)
-- **[[Hook Sweep]]** → [[Side Control]] (Opponent Success: 40%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Knee Slice Pass]]** → [[Side Control]]
-  - Opponent commits to sweep in one direction
-- **[[Standing up in Base]]** → [[Standing Guard]]
-  - Opponent achieves strong elevation with hooks
-- **[[Butterfly Smash]]** → [[Half Guard]]
-  - Opponent's hooks are shallow or weak
-- **[[Double Under Pass]]** → [[Side Control]]
-  - Opponent sits too upright exposing underhook opportunities
-- **[[Pressure Pass]]** → [[Side Control]]
-  - Opponent loses upright posture and begins to fall backward
 
 
 </section>
@@ -405,29 +333,39 @@ Start with opponent in butterfly guard with hooks established. Work to pass usin
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Pass to side control submission
+## Test Your Knowledge
 
-`Butterfly Hook Control Top → Butterfly Pass → Side Control → Kimura from Side Control`
+**Q1**: Your opponent starts elevating with their hooks while maintaining collar grip - what immediate base adjustment do you make?
+**A**: Widen your knee base immediately while driving your hips backward and down toward the mat. This lowers your center of gravity and removes the angle the hooks need for effective elevation. Simultaneously break the collar grip by stripping it with both hands or swimming your head through, as the grip is what allows them to direct your weight during the sweep. Without the collar control, their elevation becomes undirected force you can redirect.
 
-### Smash to half guard finish
+**Q2**: What are the essential grips for maintaining position against butterfly hooks?
+**A**: Priority grips include collar control on the same side you plan to pass (prevents them pulling you into sweep direction), sleeve or wrist control on their dominant grip hand (neutralizes their directional control), and underhook or crossface control to prevent them sitting up into strong posture. In no-gi, head position combined with wrist control serves similar function. The key is denying them the upper body connections they need to direct sweeping force.
 
-`Butterfly Hook Control Top → Butterfly Smash → Half Guard → Kimura from Half Guard`
+**Q3**: How do you shut down the primary arm drag back take threat from butterfly guard?
+**A**: Keep elbows tight to your ribs at all times - the arm drag requires them to isolate your arm away from your body. When you feel them grip your tricep or wrist for the drag, immediately circle your elbow down and in toward your hip while driving your shoulder forward into their chest. If the drag begins, you must circle away from the drag direction while maintaining base. Never reach or post with straight arms near their body, as extended arms are easy drag targets.
 
-### Standing pass to mount
+**Q4**: What grip priorities should you establish before attempting to pass butterfly guard?
+**A**: First priority is controlling their dominant upper body grip to prevent sweep direction. Second is establishing collar grip or underhook on the side you intend to pass. Third is controlling their far hip or pants to prevent them creating angles. These three control points form a triangle that limits their offensive options. Only after establishing at least two of these should you begin active passing attempts.
 
-`Butterfly Hook Control Top → Standing up in Base → Toreando Pass → Mount → Armbar from Mount`
+**Q5**: How do you apply forward pressure without getting swept?
+**A**: The key is distributing weight through your chest and shoulders into their upper body while keeping your hips back and base wide. Your weight should feel heavy on their chest but your center of gravity stays behind your knees, not over their hooks. Think of pressing down diagonally rather than straight forward. This pressure prevents them sitting up without loading your weight onto their hooks where they can elevate and sweep.
 
-### Pressure pass to choke
+**Q6**: Your opponent suddenly sits up explosively and pumps their hooks - what is your immediate response?
+**A**: Immediately drive your forehead or shoulder into their chest while sprawling your hips backward and widening your base. This stops their upward momentum and prevents them achieving the elevation angle needed for the sweep. Do not try to post your hands wide - keep elbows tight to prevent arm drag. If they achieve significant elevation, standing up in base is often safer than trying to recover kneeling position while elevated.
 
-`Butterfly Hook Control Top → Pressure Pass → Side Control → North-South → North-South Choke`
+**Q7**: How do you manage energy when passing butterfly guard against an active opponent?
+**A**: Avoid constant forward pressure battles which exhaust you faster than the guard player. Instead, use intermittent pressure bursts followed by grip fighting and position consolidation. Focus on systematically removing one hook at a time rather than trying to pass both simultaneously. Accept that passing butterfly often requires multiple attempts - conserve energy between attempts by controlling distance and grips rather than constantly engaging with the hooks.
+
+**Q8**: Your opponent partially sweeps you but you post your hand to stop the sweep - how do you recover to stable position?
+**A**: From the posted position, immediately drive your shoulder and head forward into their upper body while walking your base back underneath you. Do not try to lift your posted hand until your base is stable - instead use it as a pivot point while you bring your knees back to wide position. Once base is recovered, strip any grips they have before resuming your passing strategy. If they maintain strong control during your recovery, consider standing up rather than fighting to re-establish kneeling base.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -457,9 +395,9 @@ Start with opponent in butterfly guard with hooks established. Work to pass usin
 - **[[Butterfly Pass]]** - Primary passing technique
 - **[[Butterfly Smash]]** - Hook neutralization technique
 - **[[Knee Slice Pass]]** - Counter-sweep passing option
-- **[[Base Maintenance]]** - Core principle for preventing sweeps
-- **[[Pressure Passing]]** - Passing methodology applicable to butterfly
-- **[[Guard Passing Principles]]** - Fundamental framework for passing strategy
+- **[[Toreando Pass]]** - Alternative passing option when creating distance
+- **[[Double Under Pass]]** - Pressure-based passing option
+- **[[Leg Weave Pass]]** - Control-based passing methodology
 
 
 </section>

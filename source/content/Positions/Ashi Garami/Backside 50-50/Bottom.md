@@ -21,37 +21,37 @@ description: "Master Backside 50-50 Bottom in BJJ. Complete guide covering defen
     {
       "@type": "HowToStep",
       "name": "Execute Rolling Back Take",
-      "text": "From this position, execute Rolling Back Take to transition to Back Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 13% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute 50-50 Pass",
-      "text": "From this position, execute 50-50 Pass to transition to 50-50 Guard. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt 50-50 Pass. This technique is attempted in 13% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Inside Heel Hook",
-      "text": "From this position, execute Inside Heel Hook to transition to Won by Submission. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Inside Heel Hook. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Outside Heel Hook",
-      "text": "From this position, execute Outside Heel Hook to transition to Won by Submission. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Outside Heel Hook. This technique is attempted in 11% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Straight Ankle Lock",
-      "text": "From this position, execute Straight Ankle Lock to transition to Won by Submission. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Straight Ankle Lock. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute X-Guard to Ashi Transition",
-      "text": "From this position, execute X-Guard to Ashi Transition to transition to Inside Ashi-Garami. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt X-Guard to Ashi Transition. This technique is attempted in 14% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -214,92 +214,22 @@ Backside 50-50 Bottom is common in no-gi grappling and leg lock-focused competit
 
 ## Available Escapes
 
-### [[Rolling Back Take]] → [[Back Control]]
+### [[Rolling Back Take]] (13% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 60%
+### [[50-50 Pass]] (13% of attempts)
 
-### [[50-50 Pass]] → [[50-50 Guard]]
+### [[Inside Heel Hook]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 70%
+### [[Outside Heel Hook]] (11% of attempts)
 
-### [[Inside Heel Hook]] → [[Won by Submission]]
+### [[Straight Ankle Lock]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 55%
+### [[X-Guard to Ashi Transition]] (14% of attempts)
 
-### [[Outside Heel Hook]] → [[Won by Submission]]
+### [[Saddle Defense]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 50%
+### [[Standing up in Base]] (13% of attempts)
 
-### [[Straight Ankle Lock]] → [[Won by Submission]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-### [[X-Guard to Ashi Transition]] → [[Inside Ashi-Garami]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 65%
-
-### [[Saddle Defense]] → [[Saddle]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 55%
-
-### [[Standing up in Base]] → [[Standing Position]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 60%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Saddle Entry from Top]]** → [[Saddle]] (Opponent Success: 45%)
-- **[[Rolling Back Take]]** → [[Back Control]] (Opponent Success: 50%)
-- **[[Inside Heel Hook]]** → [[Won by Submission]] (Opponent Success: 40%)
-- **[[Outside Heel Hook]]** → [[Won by Submission]] (Opponent Success: 35%)
-- **[[Leg Drag Pass]]** → [[Leg Drag Position]] (Opponent Success: 40%)
-- **[[50-50 Pass]]** → [[Defensive Position]] (Opponent Success: 55%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Rolling Back Take]]** → [[Back Control]]
-  - Opponent attempts to flatten you completely or releases leg control
-- **[[50-50 Pass]]** → [[50-50 Guard]]
-  - Opponent overcommits to leg attack and loosens positional control
-- **[[Inside Heel Hook]]** → [[Won by Submission]]
-  - Opponent extends their leg while attempting to pass or attack
-- **[[X-Guard to Ashi Transition]]** → [[Inside Ashi-Garami]]
-  - Opponent posts weight forward while maintaining leg entanglement
 
 
 </section>
@@ -315,12 +245,12 @@ Backside 50-50 Bottom is common in no-gi grappling and leg lock-focused competit
 
 **If opponent overcommits to leg attack and releases upper body control:**
 - Execute **[[50-50 Pass]]** → [[50-50 Guard]] (Probability: 55%)
-- Execute **[[Inside Heel Hook]]** → [[Won by Submission]] (Probability: 40%)
+- Execute **[[Inside Heel Hook]]** → [[game-over]] (Probability: 40%)
 
 
 **If opponent maintains tight leg entanglement but extends their attacking leg:**
-- Execute **[[Inside Heel Hook]]** → [[Won by Submission]] (Probability: 50%)
-- Execute **[[Straight Ankle Lock]]** → [[Won by Submission]] (Probability: 45%)
+- Execute **[[Inside Heel Hook]]** → [[game-over]] (Probability: 50%)
+- Execute **[[Straight Ankle Lock]]** → [[game-over]] (Probability: 45%)
 
 
 **If opponent is transitioning toward saddle position:**
@@ -411,33 +341,39 @@ Both partners in backside 50-50 (alternating top/bottom) practice attacking and 
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Opportunistic Leg Attack Path
+## Test Your Knowledge
 
-`Backside 50-50 Bottom → Inside Heel Hook → Won by Submission`
+**Q1**: What is the single most important thing to prevent when playing Backside 50-50 Bottom?
+**A**: Prevent being completely flattened with your back fully on the mat. Once flattened, hip mobility disappears, sweeps become impossible, and opponent can attack your legs or back freely. Always stay active on your side with your top arm posting, constantly adjusting hip angles to maintain movement capability.
 
-### Position Improvement to Submission Path
+**Q2**: Your opponent is driving chest pressure and you feel yourself getting flattened. What immediate adjustment do you make?
+**A**: Bridge hard immediately to create space and turn to your side. Use your top arm to post on their shoulder or chest to create a frame. Simultaneously, angle your hips away from them to prevent the flattening pressure. If bridge fails, immediately threaten a reversal or leg attack to force them to defend rather than flatten.
 
-`Backside 50-50 Bottom → 50-50 Guard → Inside Heel Hook → Won by Submission`
+**Q3**: What are the essential frames for maintaining defensive structure in Backside 50-50 Bottom?
+**A**: Top arm frames against opponent's chest, shoulder, or hip to maintain separation and prevent flattening. Bottom arm can frame against their leg or hip for additional stability. These frames work together to create space for hip movement. Without active frames, opponent collapses all space and eliminates your mobility.
 
-### Back Take to Submission Path
+**Q4**: How do you defend against the primary back control threat from Backside 50-50 Bottom?
+**A**: Monitor opponent's hands constantly - if they reach toward your neck or release leg control, immediately work to face them by turning into the pressure. Keep your chin tucked and elbows tight. When they abandon leg entanglement for back control, this creates opportunity to extract your legs and either stand or recover guard. The moment you feel them walk their hips up your body, accelerate your escape.
 
-`Backside 50-50 Bottom → Rolling Back Take → Back Control → Rear Naked Choke → Won by Submission`
+**Q5**: Your opponent grabs your heel and starts attacking an inside heel hook. What is your defensive priority sequence?
+**A**: First, hide your heel by turning your knee inward and pulling your toes toward your shin. Second, fight their grip - strip their hands from your foot if possible. Third, if grip is locked, create rotational movement with your hips to relieve pressure on the knee. Fourth, consider counter-attacking their leg if they've committed heavily to the heel hook, as their defense may be compromised.
 
-### Transition to Better Leg Entanglement Path
+**Q6**: When is the appropriate time to attempt leg attacks from Backside 50-50 Bottom?
+**A**: Only attack legs opportunistically when opponent makes mistakes or overcommits. If they extend their leg while attacking or passing, attack it. If they release upper body pressure to work on your legs, use that opening for your own attack. Never force leg attacks from bottom - position improvement should be primary goal. Leg attacks from bottom are counters to opponent's actions, not proactive strategies.
 
-`Backside 50-50 Bottom → X-Guard to Ashi Transition → Inside Ashi-Garami → Inside Heel Hook → Won by Submission`
+**Q7**: How do you manage energy when stuck in Backside 50-50 Bottom for extended periods?
+**A**: Move efficiently rather than constantly. Use frames to hold space rather than constantly fighting pressure. Make decisive movements when opportunities arise rather than constantly scrambling. Breathe steadily and stay calm - panic leads to exhaustion. Recognize that constant small movements drain you faster than waiting for right moment to make bigger escape attempts.
 
-### Standing Escape to Submission Path
-
-`Backside 50-50 Bottom → Standing up in Base → Saddle Entry from Top → Outside Heel Hook → Won by Submission`
+**Q8**: Your opponent backs off the leg entanglement pressure to reposition. How do you capitalize on this opening?
+**A**: The moment pressure releases, immediately work to face them or extract your legs. Stand up in base if leg extraction is possible. Rotate your hips to face them and recover guard. If they've maintained leg entanglement but lightened pressure, use hip movement to create angles for sweeps. Any reduction in their pressure is your opportunity - don't wait for them to settle again.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -464,9 +400,8 @@ Both partners in backside 50-50 (alternating top/bottom) practice attacking and 
 - **[[Back Control]]** - Major defensive concern - position opponent may transition to from backside 50-50 top
 - **[[Leg Entanglement]]** - Fundamental concept governing mechanics of all 50-50 variations
 - **[[Inside Heel Hook]]** - Primary submission attack available from this position
-- **[[Defensive Strategy]]** - Conceptual framework for managing inferior positions like backside 50-50 bottom
 - **[[X-Guard]]** - Alternative leg entanglement position accessible through proper transitions
-- **[[systematic approach Leg Lock System]]** - Systematic framework incorporating this position into comprehensive leg attack hierarchy
+- **[[Open Guard]]** - Recovery position when successfully escaping leg entanglement
 
 
 </section>

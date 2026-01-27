@@ -414,4 +414,14 @@ The Belly Down Armbar is an opportunistic joint lock typically applied when the 
 
 </section>
 
+<section id="terminal-state" class="content-section">
+
+## Match Outcome
+
+Successful execution of Belly Down Armbar leads to → [[game-over|Game Over]]
+
+*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+
+</section>
+
 </main>

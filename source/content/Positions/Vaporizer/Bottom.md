@@ -21,37 +21,37 @@ description: "Master Vaporizer bottom position in BJJ. 10th Planet innovation fo
     {
       "@type": "HowToStep",
       "name": "Execute Old School Sweep",
-      "text": "From this position, execute Old School Sweep to transition to Mount. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Old School Sweep. This technique is attempted in 20% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Truck",
-      "text": "From this position, execute Transition to Truck to transition to Truck. Success rate for advanced practitioners: 65%.",
+      "name": "Execute Turtle to Truck",
+      "text": "From this position, attempt Turtle to Truck. This technique is attempted in 18% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Electric Chair Submission",
-      "text": "From this position, execute Electric Chair Submission to transition to Electric Chair. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Electric Chair Submission. This technique is attempted in 18% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Omoplata",
-      "text": "From this position, execute Transition to Omoplata to transition to Omoplata Control. Success rate for advanced practitioners: 55%.",
+      "name": "Execute Closed Guard to Omoplata",
+      "text": "From this position, attempt Closed Guard to Omoplata. This technique is attempted in 14% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Rolling Back Take",
-      "text": "From this position, execute Rolling Back Take to transition to Back Control. Success rate for advanced practitioners: 60%.",
+      "name": "Execute Half Guard to Back Take",
+      "text": "From this position, attempt Half Guard to Back Take. This technique is attempted in 15% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Lockdown Sweeps",
-      "text": "From this position, execute Lockdown Sweeps to transition to Side Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Lockdown Sweeps. This technique is attempted in 15% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -213,74 +213,18 @@ The effectiveness of the Vaporizer lies in its ability to force reactions from o
 
 ## Available Escapes
 
-### [[Old School Sweep]] → [[Mount]]
+### [[Old School Sweep]] (20% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Turtle to Truck]] (18% of attempts)
 
-### [[Transition to Truck]] → [[Truck]]
+### [[Electric Chair Submission]] (18% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Closed Guard to Omoplata]] (14% of attempts)
 
-### [[Electric Chair Submission]] → [[Electric Chair]]
+### [[Half Guard to Back Take]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Lockdown Sweeps]] (15% of attempts)
 
-### [[Transition to Omoplata]] → [[Omoplata Control]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-### [[Rolling Back Take]] → [[Back Control]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[Lockdown Sweeps]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Lockdown Defense]]** → [[Half Guard]] (Opponent Success: 35%)
-- **[[Whizzer]]** → [[Half Guard]] (Opponent Success: 40%)
-- **[[Base Widening]]** → [[Combat Base]] (Opponent Success: 30%)
-- **[[Pressure Pass]]** → [[Side Control]] (Opponent Success: 25%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Electric Chair Submission]]** → [[Electric Chair]]
-  - Opponent tries to whizzer or pull leg free
-- **[[Transition to Truck]]** → [[Truck]]
-  - Opponent posts hand to defend whip-up
-- **[[Rolling Back Take]]** → [[Back Control]]
-  - Opponent commits weight forward to counter lockdown
 
 
 </section>
@@ -291,22 +235,22 @@ The effectiveness of the Vaporizer lies in its ability to force reactions from o
 
 **If opponent maintains heavy pressure and resists whip-up motion with wide base:**
 - Execute **[[Electric Chair Submission]]** → [[Electric Chair]] (Probability: 55%)
-- Execute **[[Transition to Truck]]** → [[Truck]] (Probability: 45%)
+- Execute **[[Turtle to Truck]]** → [[Twister Control]] (Probability: 45%)
 
 
 **If opponent posts hand or attempts to create distance:**
-- Execute **[[Old School Sweep]]** → [[Mount]] (Probability: 65%)
-- Execute **[[Lockdown Sweeps]]** → [[Side Control]] (Probability: 50%)
+- Execute **[[Old School Sweep]]** → [[Mount]] (Probability: 60%)
+- Execute **[[Lockdown Sweeps]]** → [[Side Control]] (Probability: 40%)
 
 
 **If opponent commits weight forward to counter lockdown pressure:**
-- Execute **[[Rolling Back Take]]** → [[Back Control]] (Probability: 60%)
-- Execute **[[Transition to Omoplata]]** → [[Omoplata Control]] (Probability: 45%)
+- Execute **[[Half Guard to Back Take]]** → [[Back Control]] (Probability: 55%)
+- Execute **[[Closed Guard to Omoplata]]** → [[Omoplata Control]] (Probability: 45%)
 
 
 **If opponent successfully widens base and prevents whip-up:**
-- Execute **[[Transition to Truck]]** → [[Truck]] (Probability: 50%)
-- Execute **[[Electric Chair Submission]]** → [[Electric Chair]] (Probability: 40%)
+- Execute **[[Turtle to Truck]]** → [[Twister Control]] (Probability: 50%)
+- Execute **[[Electric Chair Submission]]** → [[Electric Chair]] (Probability: 50%)
 
 
 
@@ -387,29 +331,39 @@ From Vaporizer, attempt Old School sweep. When partner defends, immediately tran
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Electric Chair Path
+## Test Your Knowledge
 
-`Vaporizer Bottom → Electric Chair → Electric Chair Submission`
+**Q1**: Your opponent begins to widen their base to resist your whip-up motion - how do you adjust your lockdown pressure to maintain control?
+**A**: When opponent widens their base, increase the extension of their trapped leg by driving your lockdown legs away from your body while pulling them closer with your underhook. This creates opposing forces that compromise their widened base. Additionally, angle your hips slightly toward their trapped leg side to maximize the lateral pressure. A widened base actually exposes them to the Electric Chair - use their defensive posture against them.
 
-### Truck to Twister Path
+**Q2**: What are the essential grips required for maintaining the Vaporizer position and creating effective attacks?
+**A**: The two essential grips are the lockdown leg configuration and the underhook. The lockdown must be tight with your top leg's foot hooked behind your bottom leg, creating a figure-four that traps their leg. The underhook should be deep, reaching their far shoulder blade or lat, providing leverage for the whip-up motion. Without both grips working together, the position loses its effectiveness - the lockdown alone can be weathered, and the underhook alone allows them to extract their leg.
 
-`Vaporizer Bottom → Truck → Twister Control → Twister`
+**Q3**: How do you shut down your opponent's primary escape attempt when they try to establish a whizzer?
+**A**: When they establish a whizzer, immediately drive your underhook deeper and pull yourself tighter to their body, eliminating the space the whizzer needs to be effective. Simultaneously increase your lockdown pressure to prevent them from using the whizzer to create distance. If their whizzer is strong, this actually sets up the Electric Chair perfectly - their whizzer commitment prevents them from defending the leg split. Transition to Electric Chair by releasing the lockdown and controlling their far leg.
 
-### Back Attack Path
+**Q4**: What is the proper hip movement sequence for executing an effective whip-up motion?
+**A**: The whip-up motion starts from your core and hips, not your arms. Drive your hips forward and upward toward opponent's chest while simultaneously extending their trapped leg away with your lockdown. Your underhook pulls them toward you as your hips rise. Think of trying to touch your hips to their armpit while extending their leg behind you. The motion should be rhythmic and continuous - multiple smaller whip-ups are more effective than one explosive attempt.
 
-`Vaporizer Bottom → Rolling Back Take → Back Control → Rear Naked Choke`
+**Q5**: Your opponent posts their hand on the mat to prevent being swept - how do you capitalize on this defensive reaction?
+**A**: When they post their hand, they've created the setup for the Old School sweep. Their posted hand becomes a fixed point you can sweep around. Drive your outside foot to the mat behind you and bridge toward their posted hand while pulling with your underhook. Their post prevents them from basing in that direction, making the sweep high percentage. If they remove the post to defend, immediately return to the whip-up motion - they cannot defend both simultaneously.
 
-### Omoplata Finish Path
+**Q6**: How do you apply pressure effectively without exhausting yourself when your opponent is defending well?
+**A**: Use structural pressure rather than muscular effort. Let your body weight do the work through proper positioning - chest tight to their side, hips driving forward, lockdown extending their leg using your leg weight. Maintain rhythmic breathing and avoid holding your breath during whip-up attempts. Create pressure through angles and leverage rather than squeezing or pulling harder. Rest between attack attempts by simply maintaining the position with good structure rather than constantly exploding.
 
-`Vaporizer Bottom → Transition to Omoplata → Omoplata Control → Omoplata`
+**Q7**: Your opponent manages to partially extract their leg from the lockdown - what is your recovery protocol?
+**A**: Immediately re-establish the lockdown before they fully clear by hooking your top foot back behind your bottom leg. If they've created significant space, temporarily transition to a traditional half guard hook and work to re-establish the lockdown from there. Maintain your underhook throughout - losing the underhook while they're clearing the lockdown gives up the position entirely. Use your underhook to pull yourself back into tight proximity where you can re-lock your legs.
+
+**Q8**: When should you transition from the Vaporizer to the Electric Chair versus continuing with sweep attempts?
+**A**: Transition to Electric Chair when opponent commits their weight backward to resist the whip-up or establishes a strong whizzer. Their backward weight commitment makes leg separation easier. Also transition when they flatten out and become difficult to sweep laterally - the Electric Chair works by splitting their legs rather than rolling them. Continue with sweep attempts when they stay light, post their hands, or maintain high posture - these reactions favor the Old School sweep and other lateral attacks.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -432,12 +386,12 @@ From Vaporizer, attempt Old School sweep. When partner defends, immediately tran
 
 - **[[Lockdown]]** - Parent position providing foundational control
 - **[[Electric Chair]]** - Primary submission transition
-- **[[Truck]]** - Advanced transition target
+- **[[Twister Control]]** - Advanced transition target
 - **[[Half Guard]]** - Foundational position
 - **[[Old School]]** - Primary sweep position
-- **[[10th Planet Half Guard Bottom System]]** - Parent system methodology
 - **[[Rubber Guard]]** - Related 10th Planet position
 - **[[Deep Half Guard]]** - Alternative half guard approach
+- **[[Back Control]]** - Target position from rolling back take
 
 
 </section>

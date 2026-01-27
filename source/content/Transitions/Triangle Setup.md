@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Triangle Setup | BJJ Technique | BJJ Graph"
 description: "Master Triangle Setup from guard in BJJ. Complete guide covering angle creation, posture breaking, and control. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%."
@@ -16,7 +17,7 @@ description: "Master Triangle Setup from guard in BJJ. Complete guide covering a
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Triangle Setup in BJJ",
-  "description": "Step-by-step guide for Triangle Setup from Closed Guard to Triangle Control.",
+  "description": "Step-by-step guide for Triangle Setup from Closed Guard/Bottom. Possible outcomes: Triangle Control/Top (70%), Closed Guard/Bottom (20%), Closed Guard/Top (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -160,11 +161,25 @@ description: "Master Triangle Setup from guard in BJJ. Complete guide covering a
 
 The Triangle Setup is a fundamental attacking sequence from closed guard that establishes the control position necessary for finishing the triangle choke. This technique exploits the opponent's defensive posture and arm positioning to create the angle and leg configuration required for effective triangle control. The setup phase is arguably more critical than the finish itself, as poor initial positioning makes the submission nearly impossible to complete regardless of technical knowledge. The triangle setup demonstrates the principle of using the opponent's defensive structure against them—their posting arm becomes the trapped limb, and their attempt to maintain base provides the opening for angle creation. This technique serves as a gateway to multiple attacking options including the triangle choke itself, omoplata transitions, armbar variations, and back take opportunities. Mastering the setup phase dramatically increases submission success rates across all skill levels and forms the foundation of a dangerous guard game.
 
-**Starting Position**: [[Closed Guard]]
-**Ending Position**: [[Triangle Control]]
+**From Position**: [[Closed Guard/Bottom]]
 **Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Triangle Control/Top]] | 70% |
+| Failure | [[Closed Guard/Bottom]] | 20% |
+| Counter | [[Closed Guard/Top]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

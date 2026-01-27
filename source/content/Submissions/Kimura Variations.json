@@ -173,17 +173,20 @@
     {
       "error": "Failing to secure the elbow pin before rotating",
       "consequence": "Opponent easily escapes by pulling their elbow away, or you lose control of the position entirely",
-      "correction": "Always establish the elbow connection to your body before adding rotational pressure. The elbow pin is the fulcrum - without it, there's no effective leverage on the shoulder."
+      "correction": "Always establish the elbow connection to your body before adding rotational pressure. The elbow pin is the fulcrum - without it, there's no effective leverage on the shoulder.",
+      "danger_level": "Medium"
     },
     {
       "error": "Neglecting to control opponent's hips and rotational escape routes",
       "consequence": "Opponent rolls toward the submission to escape, or stands up to relieve pressure and nullify the attack",
-      "correction": "Use your legs, weight distribution, or free arm to control their hip movement before finishing. Position your body to block rolling and standing escapes. Control first, submit second."
+      "correction": "Use your legs, weight distribution, or free arm to control their hip movement before finishing. Position your body to block rolling and standing escapes. Control first, submit second.",
+      "danger_level": "Medium"
     },
     {
       "error": "Allowing elbows to separate during the figure-four grip",
       "consequence": "Opponent breaks your grip by pulling their elbow back, completely escaping the submission attempt",
-      "correction": "Keep your elbows squeezed tightly together throughout the entire sequence. Think of your arms as a single unit wrapped around theirs, not two separate limbs."
+      "correction": "Keep your elbows squeezed tightly together throughout the entire sequence. Think of your arms as a single unit wrapped around theirs, not two separate limbs.",
+      "danger_level": "Low"
     },
     {
       "error": "Continuing pressure after hearing or feeling structural 'pop' sounds from the shoulder",
@@ -194,12 +197,14 @@
     {
       "error": "Positioning your body at poor angles that give opponent easy escape paths",
       "consequence": "Opponent simply walks around your body or rolls away because you're not blocking their movement",
-      "correction": "Angle your body 45-90 degrees to their shoulder line depending on position. Use your torso, legs, and free arm to wall off common escape directions. Your body should create barriers to their movement."
+      "correction": "Angle your body 45-90 degrees to their shoulder line depending on position. Use your torso, legs, and free arm to wall off common escape directions. Your body should create barriers to their movement.",
+      "danger_level": "Medium"
     },
     {
       "error": "Abandoning the Kimura grip too early when opponent defends effectively",
       "consequence": "You lose a powerful control position that could lead to sweeps, back takes, or positional advancement",
-      "correction": "Recognize that the Kimura grip is valuable even when the submission isn't immediately available. Use it to control posture, prevent guard passing, set up sweeps, or transition to other attacks. It's a system, not just a submission."
+      "correction": "Recognize that the Kimura grip is valuable even when the submission isn't immediately available. Use it to control posture, prevent guard passing, set up sweeps, or transition to other attacks. It's a system, not just a submission.",
+      "danger_level": "Low"
     }
   ],
   "variations_and_setups": [
@@ -279,6 +284,31 @@
       "question": "What is the proper grip-breaking defense against the Kimura figure-four, and why does keeping your elbows together prevent this defense?",
       "answer": "Opponent's most effective grip break is pulling their elbow back forcefully toward their own body, which creates separation and can break the wrist-to-wrist connection of the figure-four. When you keep your elbows squeezed tightly together (touching or nearly touching), your arms form a single structural unit that is much stronger against backward pulling force. The tight elbow positioning also maintains the elbow pin against your body, preventing them from creating the distance needed to break free. Conversely, if your elbows are separated, opponent can exploit the weakness in your structure by directing force between your arms, creating leverage that breaks your grip.",
       "safety_critical": false
+    },
+    {
+      "question": "Your opponent begins rolling forward as you apply the Kimura - what is the optimal response to maintain offensive pressure?",
+      "answer": "Maintain your figure-four grip throughout their roll while following their rotation with your body. As they complete the roll, you typically end up in a dominant position (mount or back control) while still controlling their arm. Use the maintained grip to immediately threaten the Kimura again from the new position, or transition to other attacks. The key is anticipating the roll rather than fighting it - their defensive movement becomes your pathway to better position. Never release the grip during the roll unless absolutely necessary for safety.",
+      "safety_critical": false
+    },
+    {
+      "question": "When attacking the Kimura from closed guard bottom, what must you control to prevent the most common escape?",
+      "answer": "You must control opponent's hip movement and their ability to stand up. Use your legs actively - keep guard closed or transition to butterfly hooks that prevent them from posting their leg to stand. Additionally, angle your hips away from the Kimura side to create better leverage and reduce their ability to stack you. Without hip control, opponent will simply stand up to relieve all shoulder pressure and potentially pass your guard. The Kimura from guard requires coordinating upper body grip control with lower body hip control.",
+      "safety_critical": false
+    },
+    {
+      "question": "What anatomical structures are at primary risk during improper Kimura application, and what type of force causes the most damage?",
+      "answer": "The primary structures at risk are the rotator cuff tendons (supraspinatus, infraspinatus, subscapularis, teres minor), the glenoid labrum, the glenohumeral ligaments, and the joint capsule. Explosive rotational force causes the most damage because these soft tissue structures cannot adapt quickly to sudden loading. The shoulder's high mobility comes at the cost of stability, making it particularly vulnerable to rapid rotation that exceeds the tissues' elastic limits. Slow, progressive pressure allows tissues to signal pain before structural failure, while explosive force can cause tearing before protective pain responses activate.",
+      "safety_critical": true
+    },
+    {
+      "question": "How do you adjust your finishing mechanics when the opponent grabs their own belt or gi to defend the Kimura?",
+      "answer": "First, attempt to strip the grip by changing your angle - rotating your body can create leverage to break their grip without releasing yours. Use your free hand to attack their gripping hand directly, peeling fingers or pushing at the wrist. If the grip cannot be broken, use the stalled position to transition - the Kimura grip still controls their posture and can be used to sweep, take the back as they focus on defending, or advance position. Avoid forcing the finish against a solid grip defense as this often results in losing the position entirely. The grip stalemate is an opportunity for positional advancement.",
+      "safety_critical": false
+    },
+    {
+      "question": "What distinguishes competition-level Kimura finishing speed from safe training application speed?",
+      "answer": "Competition finishing can be faster (1-3 seconds) because both athletes have accepted the inherent injury risks of competitive grappling, and the stakes may justify increased speed. Training application should always be minimum 4-6 seconds with progressive pressure, allowing partners adequate time to tap and protecting long-term training relationships. Even in competition, experienced grapplers often apply Kimuras progressively because explosive finishes damage opponents unnecessarily and build poor habits. The key distinction is that training partners are not adversaries - their longevity enables your continued development, making their safety your responsibility.",
+      "safety_critical": true
     }
   ],
   "training_progressions_and_safety_protocols": [
@@ -335,7 +365,7 @@
     "Open Guard",
     "Standing Position",
     "Front Headlock",
-    "Kimura Control"
+    "Kimura Trap"
   ],
   "related_submissions": [
     "Kimura",
@@ -345,8 +375,6 @@
     "Kimura from Half Guard",
     "Kimura from North-South",
     "Kimura from Turtle",
-    "Kimura from Standing",
-    "Reverse Kimura",
     "Americana",
     "Americana from Side Control",
     "Americana from Mount",
@@ -356,32 +384,8 @@
   ],
   "related_content": [
     {
-      "name": "Kimura Trap System",
-      "relationship": "Systematic approach to using Kimura grip for sweeps, back takes, and positional control beyond just submission"
-    },
-    {
-      "name": "Kimura Control",
-      "relationship": "Control position that emphasizes using the figure-four grip for positional dominance rather than immediate submission"
-    },
-    {
       "name": "Kimura Trap",
-      "relationship": "Specialized half guard position built around establishing and maintaining Kimura grip control"
-    },
-    {
-      "name": "Kimura to Back Take",
-      "relationship": "Transition technique that uses opponent's rolling defense against the Kimura to secure back control"
-    },
-    {
-      "name": "Rolling Kimura",
-      "relationship": "Dynamic variation where you roll through to maintain or establish Kimura grip during scrambles"
-    },
-    {
-      "name": "North-South to Kimura",
-      "relationship": "Entry sequence from north-south position to Kimura submission"
-    },
-    {
-      "name": "Kimura Defense",
-      "relationship": "Defensive concepts and techniques for escaping or preventing Kimura attacks"
+      "relationship": "Specialized half guard position built around establishing and maintaining Kimura grip control for sweeps, back takes, and submissions"
     },
     {
       "name": "Gift Wrap",
@@ -402,6 +406,30 @@
     {
       "name": "Triangle Choke",
       "relationship": "Alternative attack when opponent defends Kimura from guard by pulling their elbow free"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Common transition target when using Kimura grip to follow opponent's rolling defense"
+    },
+    {
+      "name": "North-South",
+      "relationship": "Position offering strong Kimura finishing angle via north-south Kimura variation"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Position where underhook battles create natural Kimura opportunities"
+    },
+    {
+      "name": "Armbar Finish",
+      "relationship": "Complementary submission that chains naturally when opponent straightens arm defending Kimura"
+    },
+    {
+      "name": "Americana",
+      "relationship": "Related shoulder lock using similar figure-four grip but different rotational direction"
+    },
+    {
+      "name": "Omoplata",
+      "relationship": "Alternative shoulder attack from guard when Kimura angle is unavailable"
     }
   ]
 }

@@ -101,32 +101,24 @@ Understanding the biomechanical differences between ushiro ashi-garami and stand
 - Monitor opponent's grip changes as indicators of submission attempt timing and type
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Ushiro Ashi-Garami Escape]]** → [[Standing Position]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 60%
+- **[[Ushiro Ashi-Garami Escape]]** (15% of attempts)
 
-- **[[Inversion to Turtle]]** → [[Turtle]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Inversion to Turtle]]** (17% of attempts)
 
-- **[[Counter Ashi Entry]]** → [[Outside Ashi-Garami]]
-  - Success Rate: Beginner 15%, Intermediate 25%, Advanced 40%
+- **[[Counter Ashi Entry]]** (10% of attempts)
 
-- **[[Transition to Deep Half]]** → [[Deep Half Guard]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Ushiro Ashi-Garami to Deep Half]]** (12% of attempts)
 
-- **[[Single Leg X Recovery]]** → [[Single Leg X-Guard]]
-  - Success Rate: Beginner 20%, Intermediate 30%, Advanced 45%
+- **[[Single Leg X Recovery]]** (11% of attempts)
 
-- **[[Reverse Heel Hook Counter]]** → [[Inside Ashi-Garami]]
-  - Success Rate: Beginner 10%, Intermediate 20%, Advanced 35%
+- **[[Reverse Heel Hook Counter]]** (9% of attempts)
 
-- **[[Leg Extraction to Guard]]** → [[Open Guard]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Leg Extraction to Guard]]** (14% of attempts)
 
-- **[[Granby Roll Escape]]** → [[Turtle]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 50%
+- **[[Granby Roll Escape]]** (12% of attempts)
 
 
 ### Common Mistakes
@@ -184,35 +176,26 @@ Understanding the biomechanical differences between ushiro ashi-garami and stand
 - Monitor opponent's free leg position as indicator of their next escape attempt or counter-attack opportunity
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Inside Heel Hook from Ushiro]]** → [[Won by Submission]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 55%
+- **[[Inside Heel Hook from Ushiro]]** (11% of attempts)
 
-- **[[Transition to Saddle]]** → [[Saddle]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 60%
+- **[[Estima Lock to Saddle]]** (12% of attempts)
 
-- **[[Follow to Back Control]]** → [[Back Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 65%
+- **[[Follow to Back Control]]** (16% of attempts)
 
-- **[[Ankle Lock Finish]]** → [[Won by Submission]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Ankle Lock Finish]]** (11% of attempts)
 
-- **[[Transition to Honey Hole]]** → [[Honey Hole]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Inside Ashi-Garami to Honey Hole]]** (10% of attempts)
 
-- **[[Cross Ashi Transition]]** → [[Cross Ashi-Garami]]
-  - Success Rate: Beginner 25%, Intermediate 35%, Advanced 50%
+- **[[Cross Ashi Transition]]** (10% of attempts)
 
-- **[[Outside Heel Hook Adjustment]]** → [[Won by Submission]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+- **[[Outside Heel Hook Adjustment]]** (9% of attempts)
 
-- **[[Return to Outside Ashi]]** → [[Outside Ashi-Garami]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Return to Outside Ashi]]** (13% of attempts)
 
-- **[[Kneebar from Ushiro]]** → [[Won by Submission]]
-  - Success Rate: Beginner 15%, Intermediate 25%, Advanced 40%
+- **[[Kneebar from Ushiro]]** (8% of attempts)
 
 
 ### Common Mistakes

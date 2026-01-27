@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Leg Drag Setup | BJJ Technique | BJJ Graph"
 description: "Master the Leg Drag Setup from open guard. Learn grip sequences, angle creation, and hip control to enter dominant leg drag position. Beginner 35%, Intermediate 50%, Advanced 65%."
@@ -16,7 +17,7 @@ description: "Master the Leg Drag Setup from open guard. Learn grip sequences, a
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Leg Drag Setup in BJJ",
-  "description": "Step-by-step guide for Leg Drag Setup from Open Guard to Leg Drag Position.",
+  "description": "Step-by-step guide for Leg Drag Setup from Open Guard/Bottom. Possible outcomes: Leg Drag Position/Top (65%), Open Guard/Bottom (25%), Open Guard/Top (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -154,11 +155,25 @@ description: "Master the Leg Drag Setup from open guard. Learn grip sequences, a
 
 The Leg Drag Setup is a fundamental entry sequence into one of modern Brazilian Jiu-Jitsu's most effective passing positions. This technique establishes the critical grips, angles, and hip control necessary to transition from open guard into the leg drag position, where the passer controls the opponent's legs while staying perpendicular to their hips. The setup phase is crucial because it determines whether you can successfully enter the leg drag position or whether your opponent can retain guard. The leg drag setup exploits the natural tendency of guard players to extend their legs for frame creation, using grip fighting and angle changes to trap the near leg while controlling the far hip. This creates a powerful passing position that combines pressure, angle, and hip control to neutralize most guard retention strategies. Modern no-gi and gi passing systems have made the leg drag setup essential knowledge, as it provides a reliable entry into dominant passing positions against even the most technical guard players.
 
-**Starting Position**: [[Open Guard]]
-**Ending Position**: [[Leg Drag Position]]
+**From Position**: [[Open Guard/Bottom]]
 **Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Leg Drag Position/Top]] | 65% |
+| Failure | [[Open Guard/Bottom]] | 25% |
+| Counter | [[Open Guard/Top]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

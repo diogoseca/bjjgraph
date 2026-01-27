@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Standing to Single Leg X | BJJ Technique | BJJ Graph"
 description: "Learn Standing to Single Leg X transition in BJJ. Step-by-step entry from standing guard to leg entanglement position. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%."
@@ -16,7 +17,7 @@ description: "Learn Standing to Single Leg X transition in BJJ. Step-by-step ent
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Standing to Single Leg X in BJJ",
-  "description": "Step-by-step guide for Standing to Single Leg X from Standing Position to Single Leg X-Guard.",
+  "description": "Step-by-step guide for Standing to Single Leg X from Standing Position/Top. Possible outcomes: Single Leg X-Guard/Bottom (65%), Standing Position/Top (25%), Standing Position/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -154,11 +155,25 @@ description: "Learn Standing to Single Leg X transition in BJJ. Step-by-step ent
 
 The Standing to Single Leg X transition is a fundamental guard pull entry that converts standing engagement into a powerful leg entanglement position. This technique allows the bottom player to bypass traditional guard establishment and immediately threaten sweeps and leg attacks from a mechanically advantageous position. The Single Leg X position provides superior control of one leg while maintaining distance management and sweep opportunities. Unlike traditional seated guard pulls, this entry creates immediate offensive pressure by compromising the opponent's base and posture simultaneously. The technique is particularly effective in no-gi grappling and modern sport BJJ competition, where dynamic guard pulling has become essential. Success depends on timing the entry during opponent movement, maintaining proper body positioning throughout the transition, and securing critical grips before the opponent can establish defensive posture.
 
-**Starting Position**: [[Standing Position]]
-**Ending Position**: [[Single Leg X-Guard]]
+**From Position**: [[Standing Position/Top]]
 **Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Single Leg X-Guard/Bottom]] | 65% |
+| Failure | [[Standing Position/Top]] | 25% |
+| Counter | [[Standing Position/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

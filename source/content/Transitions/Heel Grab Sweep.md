@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Heel Grab Sweep | BJJ Technique | BJJ Graph"
 description: "Master the Heel Grab Sweep from Single Leg X Guard. Complete technical breakdown with setup, timing, and execution steps. Success rates: 35%, 60%, 75%."
@@ -16,7 +17,7 @@ description: "Master the Heel Grab Sweep from Single Leg X Guard. Complete techn
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Heel Grab Sweep in BJJ",
-  "description": "Step-by-step guide for Heel Grab Sweep from Single Leg X-Guard to Side Control.",
+  "description": "Step-by-step guide for Heel Grab Sweep from Single Leg X-Guard/Bottom. Possible outcomes: Side Control/Top (75%), Single Leg X-Guard/Bottom (15%), Single Leg X-Guard/Top (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -160,11 +161,25 @@ description: "Master the Heel Grab Sweep from Single Leg X Guard. Complete techn
 
 The Heel Grab Sweep is a fundamental off-balancing technique from Single Leg X Guard that exploits your opponent's compromised base by controlling their trapped leg and manipulating their heel. This sweep creates a powerful lever system where you use your legs to elevate and extend the opponent's trapped leg while simultaneously pulling their heel backward, disrupting their balance and forcing them to the mat. The technique is particularly effective against standing opponents who attempt to maintain a squared stance or those who fail to properly address the Single Leg X position. The Heel Grab Sweep serves as a primary attacking option from Single Leg X Guard, working in concert with other sweeps and leg entanglements to create a comprehensive guard system. Its effectiveness stems from the biomechanical advantage created by controlling both the opponent's heel and knee simultaneously, making it extremely difficult for them to maintain balance or counter effectively. This sweep is applicable in both gi and no-gi contexts, though the grip variations differ slightly between the two formats.
 
-**Starting Position**: [[Single Leg X-Guard]]
-**Ending Position**: [[Side Control]]
+**From Position**: [[Single Leg X-Guard/Bottom]]
 **Success Rates**: Beginner 35%, Intermediate 60%, Advanced 75%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Side Control/Top]] | 75% |
+| Failure | [[Single Leg X-Guard/Bottom]] | 15% |
+| Counter | [[Single Leg X-Guard/Top]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 
@@ -284,7 +299,7 @@ Develop a complete attack system from Single Leg X Guard that includes the Heel 
 ## Variations
 **No-Gi Heel Grab Sweep**: Without gi grips available, cup the heel with both hands in a similar fashion but focus on controlling the actual foot and heel bone. The biomechanics remain the same, but grip security becomes more critical. Consider using a figure-four grip around the heel for additional control in no-gi situations. (When to use: In no-gi training or MMA contexts where gi grips are unavailable)
 
-**Transition to Outside Ashi**: If opponent begins to sit or defend the sweep effectively, maintain heel control and transition your legs to Outside Ashi-Garami position. This allows you to attack with heel hooks or continue sweeping from a different angle while keeping the opponent's leg controlled throughout. (When to use: When opponent sits to defend or when leg lock opportunities present themselves)
+**50-50 Guard to Outside Ashi**: If opponent begins to sit or defend the sweep effectively, maintain heel control and transition your legs to Outside Ashi-Garami position. This allows you to attack with heel hooks or continue sweeping from a different angle while keeping the opponent's leg controlled throughout. (When to use: When opponent sits to defend or when leg lock opportunities present themselves)
 
 **Same-Side Heel Grab Sweep**: Instead of pulling the heel backward, pull it across the opponent's centerline toward their opposite leg. This creates a different angle of off-balancing that works well against opponents who defend the traditional backward sweep by widening their base. (When to use: Against opponents who establish wide base or step back to counter the standard sweep)
 

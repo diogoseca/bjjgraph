@@ -434,4 +434,14 @@ The Triangle from Spider Guard is a high-percentage finishing sequence that capi
 
 </section>
 
+<section id="terminal-state" class="content-section">
+
+## Match Outcome
+
+Successful execution of Triangle from Spider Guard leads to → [[game-over|Game Over]]
+
+*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+
+</section>
+
 </main>

@@ -21,37 +21,37 @@ description: "Master Electric Chair Top position in BJJ. Control opponent's lock
     {
       "@type": "HowToStep",
       "name": "Execute Lockdown Break and Pass",
-      "text": "From this position, execute Lockdown Break and Pass to transition to Side Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Lockdown Break and Pass. This technique is attempted in 21% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Limp Leg Escape to Pass",
-      "text": "From this position, execute Limp Leg Escape to Pass to transition to Side Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Limp Leg Escape to Pass. This technique is attempted in 18% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Take from Lockdown Defense",
-      "text": "From this position, execute Back Take from Lockdown Defense to transition to Back Control. Success rate for advanced practitioners: 45%.",
+      "text": "From this position, attempt Back Take from Lockdown Defense. This technique is attempted in 14% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, execute Knee Slice Pass to transition to Side Control. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 17% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Smash Pass",
-      "text": "From this position, execute Smash Pass to transition to Side Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Smash Pass. This technique is attempted in 18% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Darce from Lockdown Counter",
-      "text": "From this position, execute Darce from Lockdown Counter to transition to D'arce Control. Success rate for advanced practitioners: 40%.",
+      "text": "From this position, attempt Darce from Lockdown Counter. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -204,6 +204,7 @@ The Electric Chair Top position is particularly common in 10th Planet Jiu-Jitsu 
 - Work systematically to break the lockdown by addressing the foot triangle first, then extracting your trapped leg
 - Maintain wide base with your free leg to counter off-balancing attempts and sweep threats like the Old School
 - Stay patient and methodical - rushing the escape often leads to giving up back control or being swept
+- Use the limp leg concept to reduce the effectiveness of the stretch on your trapped leg
 
 
 </section>
@@ -212,74 +213,18 @@ The Electric Chair Top position is particularly common in 10th Planet Jiu-Jitsu 
 
 ## Available Attacks
 
-### [[Lockdown Break and Pass]] → [[Side Control]]
+### [[Lockdown Break and Pass]] (21% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Limp Leg Escape to Pass]] (18% of attempts)
 
-### [[Limp Leg Escape to Pass]] → [[Side Control]]
+### [[Back Take from Lockdown Defense]] (14% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Knee Slice Pass]] (17% of attempts)
 
-### [[Back Take from Lockdown Defense]] → [[Back Control]]
+### [[Smash Pass]] (18% of attempts)
 
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 45%
+### [[Darce from Lockdown Counter]] (12% of attempts)
 
-### [[Knee Slice Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 40%
-- Advanced: 55%
-
-### [[Smash Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[Darce from Lockdown Counter]] → [[D'arce Control]]
-
-**Success Rates:**
-- Beginner: 10%
-- Intermediate: 25%
-- Advanced: 40%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Electric Chair Submission]]** → [[Won by Submission]] (Opponent Success: 45%)
-- **[[Old School Sweep]]** → [[Old School]] (Opponent Success: 40%)
-- **[[Dogfight Sweep]]** → [[Dogfight Position]] (Opponent Success: 35%)
-- **[[Back Take from Lockdown]]** → [[Back Control]] (Opponent Success: 30%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Counter Old School with Whizzer]]** → [[Side Control]]
-  - Opponent attempts Old School sweep by rolling back over shoulder
-- **[[Backstep to Back Control]]** → [[Back Control]]
-  - Opponent overcommits to Electric Chair finish and exposes their back
-- **[[Pressure and Extract]]** → [[Half Guard]]
-  - Opponent loses lockdown pressure or foot triangle opens
 
 
 </section>
@@ -289,8 +234,8 @@ The Electric Chair Top position is particularly common in 10th Planet Jiu-Jitsu 
 ## Decision Making from This Position
 
 **If opponent has strong lockdown with underhook and is attempting Electric Chair submission:**
-- Execute **[[Limp Leg Defense]]** → [[Defensive Position]] (Probability: 70%)
-- Execute **[[Pressure Forward and Crossface]]** → [[Electric Chair Top]] (Probability: 60%)
+- Execute **[[Limp Leg Defense]]** → [[Electric Chair]] (Probability: 70%)
+- Execute **[[Pressure Forward and Crossface]]** → [[Electric Chair]] (Probability: 60%)
 
 
 **If opponent releases lockdown pressure to attempt sweep or transition:**
@@ -386,25 +331,39 @@ Partner attempts Old School sweep from lockdown while you defend with proper bas
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Shortest defensive escape to neutral
+## Test Your Knowledge
 
-`Electric Chair Top → Half Guard → Side Control`
+**Q1**: Your opponent starts extending their hips to increase the Electric Chair pressure - what immediate adjustment do you make?
+**A**: Drive your chest weight forward onto opponent while simultaneously relaxing your trapped leg (limp leg). This prevents them from achieving the perpendicular angle needed for maximum submission pressure. Use your free leg to push their hips flat to the mat, reducing their extension leverage.
 
-### Counter-attack to dominant position
+**Q2**: What are the essential grips and controls for maintaining defensive posture in Electric Chair Top?
+**A**: Prioritize crossface control with your nearside arm to prevent opponent from achieving optimal angle. Use your farside arm to control their underhook or establish a whizzer. Your free leg must post wide for base while your head drives into their shoulder on the crossface side.
 
-`Electric Chair Top → Back Control → Rear Naked Choke → Won by Submission`
+**Q3**: How do you shut down the Old School sweep attempt from this position?
+**A**: When opponent begins rolling backward for the Old School, immediately establish a deep whizzer on their underhooking arm and sprawl your hips away. Drive your chest into them while maintaining wide base with your free leg. The whizzer prevents them from completing the roll and can be used to counter to side control.
 
-### Pressure passing after lockdown escape
+**Q4**: What is the correct sequence for breaking the lockdown?
+**A**: First, establish forward pressure to limit opponent's angle. Second, address the foot triangle by using your free hand to separate their feet or knee pressure to open the triangle. Third, relax your trapped leg (limp leg) to reduce the grip. Finally, extract your leg by driving your knee toward opponent's hip while maintaining upper body control.
 
-`Electric Chair Top → Half Guard → Side Control → Mount`
+**Q5**: How should you distribute your weight to minimize sweep and submission threats?
+**A**: Keep approximately 70% of your weight forward on your chest and shoulder pressure against opponent. Never lean back or post hands behind you. Your free leg should be posted wide at a 45-degree angle for maximum base. Hips should stay as low as possible while driving forward.
+
+**Q6**: Your opponent suddenly releases lockdown pressure to transition - what do you do?
+**A**: Immediately extract your trapped leg by driving your knee toward their hip. Transition directly to passing by establishing knee slice position or smash pass posture before they can re-engage the lockdown. Do not hesitate - any delay allows them to reestablish control or transition to another guard.
+
+**Q7**: How do you manage energy when stuck in the Electric Chair position?
+**A**: Avoid explosive escape attempts that drain energy quickly. Work methodically through the lockdown break sequence, making small adjustments rather than large movements. Use breathing control to stay relaxed. Let opponent expend energy attacking while you maintain defensive posture and wait for the right moment to escape.
+
+**Q8**: After partially escaping the lockdown but before fully passing, your opponent regrips - how do you recover?
+**A**: Immediately re-establish crossface pressure and wide base. If they've secured a new lockdown, restart the break sequence from the beginning. If they're transitioning to another guard, use the moment of transition to advance your position before their new guard is established. Never allow them to settle into a new controlling position.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -425,16 +384,16 @@ Partner attempts Old School sweep from lockdown while you defend with proper bas
 
 ## Related Positions and Techniques
 
-- **[[Electric Chair Bottom]]** - Opponent's perspective from this position
+- **[[Electric Chair]]** - Hub position for this perspective
 - **[[Lockdown]]** - Common entry position for opponent
 - **[[Half Guard]]** - Target position after lockdown escape
 - **[[Old School]]** - Common sweep threat from this position
 - **[[Dogfight Position]]** - Possible transition if opponent releases lockdown
 - **[[Side Control]]** - Common passing target after lockdown break
 - **[[Back Control]]** - Counter-attack option if opponent overextends
-- **[[Lockdown to Electric Chair System]]** - System opponent is using against you
-- **[[10th Planet Half Guard Bottom System]]** - Source system for opponent's attacks
-- **[[Defensive Strategy]]** - Conceptual framework for this defensive position
+- **[[Truck]]** - Counter option when opponent exposes back
+- **[[Deep Half Guard]]** - Position opponent may transition to
+- **[[Vaporizer]]** - Alternative threat from lockdown system
 
 
 </section>

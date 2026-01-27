@@ -95,32 +95,24 @@ The position frequently occurs during scrambles, failed takedown attempts, succe
 - Fight to recover neutral or improve to a grounded defensive position - the goal is not to stay here but to transition to better positions quickly and safely
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Hip Escape to Turtle]]** → [[Turtle]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Hip Escape to Turtle]]** (14% of attempts)
 
-- **[[Technical Standup]]** → [[Standing Position]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Technical Standup]]** (12% of attempts)
 
-- **[[Rolling to Guard]]** → [[Closed Guard]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Rolling to Guard]]** (13% of attempts)
 
-- **[[Granby Roll]]** → [[Open Guard]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Granby Roll]]** (11% of attempts)
 
-- **[[Standing up in Base]]** → [[Standing Position]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+- **[[Standing up in Base]]** (10% of attempts)
 
-- **[[Grip Break and Face]]** → [[Scramble Position]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Grip Break and Face]]** (12% of attempts)
 
-- **[[Controlled Descent]]** → [[Back Control]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Controlled Descent]]** (17% of attempts)
 
-- **[[Explosive Forward Roll]]** → [[Half Guard]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Explosive Forward Roll]]** (11% of attempts)
 
 
 ### Common Mistakes
@@ -178,32 +170,24 @@ The position frequently occurs during scrambles, failed takedown attempts, succe
 - Be prepared to flow between submissions, takedowns, and position transitions - dynamic adaptability is key to maintaining offensive pressure from this inherently unstable position
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Rear Naked Choke]]** → [[Won by Submission]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Rear Naked Choke]]** (14% of attempts)
 
-- **[[Takedown to Grounded Back Control]]** → [[Back Control]]
-  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+- **[[Takedown to Grounded Back Control]]** (15% of attempts)
 
-- **[[Bow and Arrow Choke]]** → [[Won by Submission]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Bow and Arrow Choke]]** (12% of attempts)
 
-- **[[Body Triangle Lock]]** → [[Body Triangle]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Body Triangle Lock]]** (13% of attempts)
 
-- **[[Armbar from Back Transition]]** → [[Armbar Control]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Armbar from Back Transition]]** (11% of attempts)
 
-- **[[Mat Return to Back Mount]]** → [[Mount]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Mat Return to Back Mount]]** (14% of attempts)
 
-- **[[Crucifix Transition]]** → [[Crucifix]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+- **[[Crucifix Transition]]** (10% of attempts)
 
-- **[[Truck Position Entry]]** → [[Truck]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Truck Position Entry]]** (11% of attempts)
 
 
 ### Common Mistakes

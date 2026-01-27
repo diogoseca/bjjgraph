@@ -93,29 +93,22 @@ The strategic uniqueness of Kesa Gatame lies in its geometric relationship: the 
 - Use your legs to hook opponent's near leg and prevent them from transitioning to mount or other dominant positions
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Bridge and Roll]]** → [[Scarf Hold Position]]
-  - Success Rate: Beginner 25%, Intermediate 35%, Advanced 50%
+- **[[Bridge and Roll]]** (13% of attempts)
 
-- **[[Elbow Escape]]** → [[Half Guard]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Elbow Escape]]** (16% of attempts)
 
-- **[[Hip Escape]]** → [[Closed Guard]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Hip Escape]]** (13% of attempts)
 
-- **[[Back Take Generic]]** → [[Back Control]]
-  - Success Rate: Beginner 15%, Intermediate 25%, Advanced 40%
+- **[[Back Take Generic]]** (11% of attempts)
 
-- **[[Turtle Transition]]** → [[Turtle]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Turtle Transition]]** (17% of attempts)
 
-- **[[Ghost Escape]]** → [[Turtle]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 55%
+- **[[Ghost Escape]]** (15% of attempts)
 
-- **[[Frame and Shrimp]]** → [[Open Guard]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Frame and Shrimp]]** (15% of attempts)
 
 
 ### Common Mistakes
@@ -177,29 +170,22 @@ The strategic uniqueness of Kesa Gatame lies in its geometric relationship: the 
 - Anticipate and counter hip escape attempts by adjusting weight distribution
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Americana from Side Control]]** → [[Americana Control]]
-  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+- **[[Americana from Side Control]]** (15% of attempts)
 
-- **[[Kimura from Side Control]]** → [[Kimura Control]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Kimura from Side Control]]** (14% of attempts)
 
-- **[[Armbar from Side Control]]** → [[Armbar Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Armbar from Side Control]]** (13% of attempts)
 
-- **[[North-South Choke]]** → [[North-South]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[North-South Choke]]** (12% of attempts)
 
-- **[[Transition to Mount]]** → [[Mount]]
-  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 80%
+- **[[Side Control to Mount]]** (16% of attempts)
 
-- **[[Transition to North-South]]** → [[North-South]]
-  - Success Rate: Beginner 55%, Intermediate 70%, Advanced 85%
+- **[[Side Control to North-South]]** (19% of attempts)
 
-- **[[Arm Triangle]]** → [[Won by Submission]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Arm Triangle]]** (11% of attempts)
 
 
 ### Common Mistakes
@@ -254,9 +240,7 @@ The strategic uniqueness of Kesa Gatame lies in its geometric relationship: the 
 
 - **[[Half Guard]]** - Guard recovery target for bottom player's escape sequences
 
-- **[[Americana Control]]** - Primary submission position available from top perspective
-
-- **[[Kimura Control]]** - Alternative arm lock control when opponent defends americana
+- **[[Kimura Trap]]** - Alternative arm lock control when opponent defends americana
 
 
 </section>

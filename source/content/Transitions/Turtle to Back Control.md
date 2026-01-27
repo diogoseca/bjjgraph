@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Turtle to Back Control | BJJ Technique | BJJ Graph"
 description: "Master the Turtle to Back Control transition in BJJ. Essential back take from turtle position with systematic control progression. Success: 35/50/70%."
@@ -16,7 +17,7 @@ description: "Master the Turtle to Back Control transition in BJJ. Essential bac
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Turtle to Back Control in BJJ",
-  "description": "Step-by-step guide for Turtle to Back Control from Turtle to Back Control.",
+  "description": "Step-by-step guide for Turtle to Back Control from Turtle/Top. Possible outcomes: Back Control/Top (70%), Turtle/Top (20%), Turtle/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -154,11 +155,25 @@ description: "Master the Turtle to Back Control transition in BJJ. Essential bac
 
 The Turtle to Back Control transition is a fundamental back-taking sequence that exploits the defensive turtle position's inherent vulnerability. When an opponent assumes turtle position to protect against pins or submissions, they expose their back - creating a high-percentage opportunity for positional advancement. This transition involves systematically breaking down the turtle structure through strategic grip placement, hip control, and body positioning to achieve the dominant back control position. The key to successful execution lies in understanding weight distribution, preventing defensive escapes, and methodically establishing control points before fully transitioning to back mount. This technique forms the cornerstone of effective top turtle work and is essential for competitors at all levels, offering direct pathways to both dominant positioning and submission attacks.
 
-**Starting Position**: [[Turtle]]
-**Ending Position**: [[Back Control]]
+**From Position**: [[Turtle/Top]]
 **Success Rates**: Beginner 35%, Intermediate 50%, Advanced 70%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Back Control/Top]] | 70% |
+| Failure | [[Turtle/Top]] | 20% |
+| Counter | [[Turtle/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

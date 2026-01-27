@@ -421,4 +421,14 @@ The Breadcutter Choke is a powerful gi-based blood choke that utilizes the oppon
 
 </section>
 
+<section id="terminal-state" class="content-section">
+
+## Match Outcome
+
+Successful execution of Breadcutter Choke leads to → [[game-over|Game Over]]
+
+*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+
+</section>
+
 </main>

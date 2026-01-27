@@ -24,7 +24,7 @@ The position represents one of the most accessible entries into systematic guard
 
 Strategically, collar sleeve guard serves as a hub position connecting to numerous high-percentage attacks. The collar grip facilitates transitions to triangle chokes, omoplatas, and collar-based sweeps, while the sleeve control enables pendulum sweeps, flower sweeps, and technical stand-ups. Advanced practitioners use this position to create systematic attack sequences where defensive responses to one threat directly expose the opponent to complementary attacks.
 
-The position's effectiveness stems from its ability to break the opponent's structural connection to the ground. By controlling one arm through the sleeve grip while pulling the collar, you create a mechanical disadvantage where the opponent cannot effectively distribute weight or establish a strong base. This fundamental imbalance makes collar sleeve guard particularly effective against opponents who rely on pressure passing or statica base maintenance.
+The position's effectiveness stems from its ability to break the opponent's structural connection to the ground. By controlling one arm through the sleeve grip while pulling the collar, you create a mechanical disadvantage where the opponent cannot effectively distribute weight or establish a strong base. This fundamental imbalance makes collar sleeve guard particularly effective against opponents who rely on pressure passing or static base maintenance.
 
 In competition contexts, collar sleeve guard appears frequently in gi-based rulesets from white belt through black belt divisions. Its prevalence reflects both its technical soundness and its role as a foundational position that develops essential guard skills including grip fighting, hip movement, angle creation, and timing. Modern competitors often use collar sleeve guard as an initial control position before transitioning to more specialized guards like lasso, spider, or De La Riva variations.
 
@@ -99,38 +99,28 @@ The position demands active hip movement and constant angle adjustment to remain
 - Grip sequencing determines available attack options and sweep directions
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Pendulum Sweep]]** → [[Mount]]
-  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+- **[[Pendulum Sweep]]** (11% of attempts)
 
-- **[[Flower Sweep]]** → [[Mount]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Flower Sweep]]** (10% of attempts)
 
-- **[[Triangle Setup]]** → [[Triangle Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Triangle Setup]]** (9% of attempts)
 
-- **[[Omoplata Sweep]]** → [[Omoplata Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Omoplata Sweep]]** (9% of attempts)
 
-- **[[Hip Bump Sweep]]** → [[Mount]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Hip Bump Sweep]]** (10% of attempts)
 
-- **[[Scissor Sweep]]** → [[Mount]]
-  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 80%
+- **[[Scissor Sweep]]** (12% of attempts)
 
-- **[[Arm Drag to Back]]** → [[Back Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Arm Drag to Back]]** (9% of attempts)
 
-- **[[Technical Stand Up to Single Leg]]** → [[Standing Position]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Technical Stand Up]]** (9% of attempts)
 
-- **[[Lasso Guard Variations]]** → [[Lasso Guard]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Lasso Guard Variations]]** (10% of attempts)
 
-- **[[Spider Guard Variations]]** → [[Spider Guard]]
-  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+- **[[Spider Guard Variations]]** (11% of attempts)
 
 
 ### Common Mistakes
@@ -188,32 +178,24 @@ The position demands active hip movement and constant angle adjustment to remain
 - Counter-grips on collar or sleeves neutralize opponent's control before passing
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Toreando Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Toreando Pass]]** (12% of attempts)
 
-- **[[Knee Cut Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+- **[[Knee Cut Pass]]** (13% of attempts)
 
-- **[[Stack Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Stack Pass]]** (11% of attempts)
 
-- **[[Double Under Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Double Under Pass]]** (12% of attempts)
 
-- **[[Leg Drag Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Leg Drag Pass]]** (11% of attempts)
 
-- **[[Knee Slice Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+- **[[Knee Slice Pass]]** (13% of attempts)
 
-- **[[Pressure Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Pressure Pass]]** (12% of attempts)
 
-- **[[Headquarters Pass]]** → [[Headquarters Position]]
-  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 80%
+- **[[Headquarters Pass]]** (16% of attempts)
 
 
 ### Common Mistakes

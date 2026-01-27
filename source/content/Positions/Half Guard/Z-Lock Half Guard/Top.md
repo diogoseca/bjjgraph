@@ -21,37 +21,37 @@ description: "Master Z-Lock Half Guard Top in BJJ. Complete guide covering contr
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice from Half",
-      "text": "From this position, execute Knee Slice from Half to transition to Side Control. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Knee Slice from Half. This technique is attempted in 19% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Pass",
-      "text": "From this position, execute Underhook Pass to transition to Side Control. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Underhook Pass. This technique is attempted in 17% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Take Generic",
-      "text": "From this position, execute Back Take Generic to transition to Back Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Back Take Generic. This technique is attempted in 15% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Smash Pass",
-      "text": "From this position, execute Smash Pass to transition to Side Control. Success rate for advanced practitioners: 80%.",
+      "text": "From this position, attempt Smash Pass. This technique is attempted in 19% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Mount",
-      "text": "From this position, execute Transition to Mount to transition to Mount. Success rate for advanced practitioners: 55%.",
+      "name": "Execute Side Control to Mount",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 14% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Crossface Pass",
-      "text": "From this position, execute Crossface Pass to transition to Side Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Crossface Pass. This technique is attempted in 16% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -212,77 +212,18 @@ From a strategic perspective, Z-Lock Half Guard Top serves as a transitional con
 
 ## Available Attacks
 
-### [[Knee Slice from Half]] → [[Side Control]]
+### [[Knee Slice from Half]] (19% of attempts)
 
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 60%
-- Advanced: 75%
+### [[Underhook Pass]] (17% of attempts)
 
-### [[Underhook Pass]] → [[Side Control]]
+### [[Back Take Generic]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Smash Pass]] (19% of attempts)
 
-### [[Back Take Generic]] → [[Back Control]]
+### [[Side Control to Mount]] (14% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Crossface Pass]] (16% of attempts)
 
-### [[Smash Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 50%
-- Intermediate: 65%
-- Advanced: 80%
-
-### [[Transition to Mount]] → [[Mount]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-### [[Crossface Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Frame and Shrimp]]** → [[Half Guard]] (Opponent Success: 35%)
-- **[[Underhook Sweep from Half]]** → [[Half Guard]] (Opponent Success: 25%)
-- **[[Old School Sweep]]** → [[Mount]] (Opponent Success: 20%)
-- **[[Re-Guard]]** → [[Closed Guard]] (Opponent Success: 30%)
-- **[[Deep Half Entry]]** → [[Deep Half Guard]] (Opponent Success: 15%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Knee Slice from Half]]** → [[Side Control]]
-  - Opponent attempts to recover knee shield or create frames
-- **[[Back Take Generic]]** → [[Back Control]]
-  - Opponent turns away to escape pressure, exposing back
-- **[[Smash Pass]]** → [[Side Control]]
-  - Opponent flattens completely trying to prevent passes
-- **[[Transition to Mount]]** → [[Mount]]
-  - Opponent's trapped leg straightens or loses control of top leg
 
 
 </section>
@@ -298,7 +239,7 @@ From a strategic perspective, Z-Lock Half Guard Top serves as a transitional con
 
 **If opponent turns away from pressure to protect upper body:**
 - Execute **[[Back Take Generic]]** → [[Back Control]] (Probability: 60%)
-- Execute **[[Transition to Mount]]** → [[Mount]] (Probability: 50%)
+- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 50%)
 
 
 **If opponent secures underhook on trapped side:**
@@ -307,7 +248,7 @@ From a strategic perspective, Z-Lock Half Guard Top serves as a transitional con
 
 
 **If opponent extends trapped leg attempting to free it:**
-- Execute **[[Transition to Mount]]** → [[Mount]] (Probability: 65%)
+- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 65%)
 - Execute **[[Knee Slice from Half]]** → [[Side Control]] (Probability: 70%)
 
 
@@ -389,29 +330,39 @@ Establish Z-lock position. Partner attempts to create frames, recover underhooks
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Shortest submission path
+## Test Your Knowledge
 
-`Z-Lock Half Guard Top → Kimura from Half Guard → Won by Submission`
+**Q1**: Your opponent begins bridging explosively while you're in Z-Lock Half Guard Top - what immediate adjustment maintains control?
+**A**: When opponent bridges, drive your weight forward and low rather than posting on hands. Increase shoulder pressure into their chest while keeping hips heavy on their trapped leg. Use your posted leg to widen base in direction of the bridge. The key is staying connected and heavy rather than lifting up to regain balance, which creates the space they need to escape.
 
-### High-percentage control path
+**Q2**: What are the three primary contact points you must maintain to retain Z-Lock Half Guard Top position?
+**A**: The three essential contact points are: (1) shoulder driving into opponent's chest or face creating upper body pressure, (2) knee positioned across opponent's hip with shin creating the characteristic Z-shape blocking hip movement, and (3) your hips driving weight into their trapped leg. Losing any of these three points significantly compromises the position and opens escape opportunities.
 
-`Z-Lock Half Guard Top → Knee Slice from Half → Side Control → Americana from Side Control → Won by Submission`
+**Q3**: How do you shut down an opponent's primary escape - the underhook recovery - from Z-Lock Half Guard Top?
+**A**: Prevent underhook recovery by controlling opponent's inside arm with your nearside hand, keeping their elbow pinned to their ribs or controlled at the wrist. If they begin threading their arm, immediately swim your arm over theirs to establish your own underhook, or drive crossface pressure that flattens their shoulder to the mat. The underhook battle is won through anticipation - address it before they fully establish rather than fighting an established underhook.
 
-### Back attack path
+**Q4**: Which grips take priority when maintaining Z-Lock Half Guard Top in no-gi versus gi scenarios?
+**A**: In no-gi, prioritize wrist control on their inside arm and head-arm control through crossface or underhook position. In gi, add collar grip options - a deep cross-collar grip provides excellent posture control while sleeve grips limit their framing ability. Regardless of attire, controlling the inside arm remains highest priority as this prevents both underhook recovery and effective frames.
 
-`Z-Lock Half Guard Top → Back Take Generic → Back Control → Rear Naked Choke → Won by Submission`
+**Q5**: How should you apply pressure through your body weight in Z-Lock Half Guard Top without gassing yourself out?
+**A**: Effective pressure application comes from skeletal alignment rather than muscular tension. Drive weight through your shoulder bone into their chest and let your hips sink heavy onto their trapped leg. Keep hands light for grip adjustments rather than supporting weight. Your head should be low and heavy, letting gravity do the work. This structural pressure is sustainable for extended periods while constant muscular squeezing leads to rapid fatigue.
 
-### Mount progression path
+**Q6**: Your opponent manages to create a knee shield frame despite your Z-Lock position - what sequence recovers dominant pressure?
+**A**: When opponent establishes knee shield, first control their shield knee by gripping behind it with your free hand. Drive the knee to the mat while maintaining shoulder pressure on their upper body. As the knee clears, immediately re-establish your Z-lock positioning with your knee across their hip before they can recreate the frame. The key is addressing the knee shield while never losing upper body pressure that prevents them from turning into you.
 
-`Z-Lock Half Guard Top → Transition to Mount → Mount → Armbar from Mount → Won by Submission`
+**Q7**: How do you manage energy expenditure when opponent is actively hand-fighting and creating defensive frames from bottom?
+**A**: Rather than constantly fighting their hands, use positional pressure to make their frames ineffective. Heavy shoulder pressure limits how much their frames can create space. Strip grips methodically using short, efficient movements rather than extended arm wrestling. When they exhaust energy creating frames that don't move you, they'll slow down. Stay patient with steady pressure rather than bursts of explosive effort that drain your cardio equally.
+
+**Q8**: Your opponent nearly escapes by turning away from you - how do you recover the Z-Lock position rather than transitioning?
+**A**: If committed to recovering Z-Lock rather than taking the back, immediately drive your shoulder back into their chest while pulling with your underhook or overhook to turn them flat. Re-establish your knee across their hip by circling it back into position as you flatten them. The window for recovery is brief - if they complete the turn to turtle, you're better served transitioning to turtle attacks rather than forcing them flat again. Prevention through heavy pressure is easier than recovery.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -438,8 +389,8 @@ Establish Z-lock position. Partner attempts to create frames, recover underhooks
 - **[[Deep Half Guard]]** - Common escape target that Z-lock specifically prevents
 - **[[Dogfight Position]]** - Intermediate position reached if opponent recovers underhook
 - **[[Side Control]]** - Primary passing destination from successful Z-lock sequences
-- **[[Lockdown Sweeps]]** - Defensive techniques that Z-lock is designed to prevent
-- **[[Underhook Defense]]** - Key concept for preventing opponent's primary escape route
+- **[[Knee Slice from Half]]** - Primary passing transition from Z-Lock top position
+- **[[Back Control]]** - High-value transition when opponent turns away from pressure
 
 
 </section>

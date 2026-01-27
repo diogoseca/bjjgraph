@@ -269,29 +269,54 @@
       "safety_critical": true
     },
     {
-      "question": "Describe the proper hand positioning for the figure-four grip in a toe hold, and explain why interlacing fingers is dangerous?",
-      "answer": "The proper figure-four grip involves one hand cupping the ball of the opponent's foot (metatarsal area) while the other hand reaches under the ankle and grasps the wrist of the first hand, using either a palm-to-palm or gable grip configuration. Interlacing fingers is dangerous because when finishing pressure is applied or when the opponent resists, the fingers can hyperextend or dislocate. The palm-to-palm or gable grip provides secure control while protecting the fingers from injury during the intense forces involved in the submission.",
-      "safety_critical": false
-    },
-    {
-      "question": "What is the purpose of maintaining hip-to-hip connection during toe hold application, and what happens if this connection is lost?",
-      "answer": "Maintaining hip-to-hip connection prevents the opponent from creating distance between their hip and yours, which is essential for two reasons: First, if space develops, the opponent can relieve pressure on the submission by changing the angle of their leg relative to your body. Second, and more critically, space allows them to fully extract their leg from your entanglement and escape the position entirely. The hip connection 'closes the door' on their primary escape route while maximizing your leverage for the rotational finishing mechanics.",
-      "safety_critical": false
-    },
-    {
-      "question": "Explain the biomechanical difference between the heel pull and toe rotation components of the toe hold, and why both must be applied simultaneously for maximum effectiveness?",
-      "answer": "The heel pull component creates hyperextension of the ankle by pulling the heel toward your chest, primarily attacking the anterior ankle structures and Achilles tendon. The toe rotation component externally rotates the foot, creating torsional stress on the ankle's lateral ligaments and the knee's MCL. When applied simultaneously, these two forces create a spiraling pressure that attacks multiple joint structures from different angles, making the submission extremely difficult to defend and highly effective even against flexible opponents. Using only one component significantly reduces the submission's effectiveness.",
-      "safety_critical": false
-    },
-    {
-      "question": "How should you respond when an opponent defends the toe hold by gripping their own foot with both hands, and why is this defense initially effective?",
-      "answer": "When opponent grips their own foot, they create a barrier preventing you from establishing the figure-four grip and can also reduce the rotational pressure even if you do secure the position. The effective counter is to strip one grip at a time using circular hand motions to break their hold, or to temporarily threaten a heel hook which forces them to release their defensive grips to defend the more dangerous attack. Once their hands are occupied defending the heel hook, you can transition back to the toe hold. This defense works initially because their arm strength combined with their ability to monitor exactly where you're gripping gives them a significant advantage in the hand fighting battle.",
+      "question": "Your opponent begins rolling toward the toe hold direction to relieve pressure - what grip adjustment ensures the finish rather than losing the submission?",
+      "answer": "When opponent rolls toward the toe hold direction, follow their roll by maintaining your hip connection and keeping the figure-four grip locked tight to your chest. As they roll, keep pulling the heel toward your centerline while continuing the external rotation. Often their rolling momentum actually accelerates the rotational pressure on their ankle and MCL. The key is not to fight the roll but to flow with it while maintaining your gripping structure - let physics work for you as their body rotation adds to your rotational pressure.",
       "safety_critical": false
     },
     {
       "question": "What are the immediate steps you must take upon receiving a tap signal during toe hold application, and why is the sequence of release important?",
       "answer": "Upon receiving a tap signal, you must: (1) Immediately stop all rotational pressure, (2) Release the figure-four grip completely while still controlling the leg with your legs, (3) Allow the opponent to externally rotate their foot back to neutral position, (4) Maintain leg control but remove all pressure for 2-3 seconds, (5) Fully disengage only after confirming opponent's safety, and (6) Check verbally with your partner. This sequence is important because releasing the leg control before releasing the figure-four grip can cause the opponent's leg to snap back suddenly, potentially causing injury. Allowing them to return their foot to neutral position under their own control prevents additional rotational stress during the release phase.",
       "safety_critical": true
+    },
+    {
+      "question": "Your figure-four grip is established but opponent's foot feels loose and keeps slipping - what grip adjustment fixes this finishing problem?",
+      "answer": "A slipping grip indicates your hand is positioned too high on the ankle or shin rather than cupping the ball of the foot at the metatarsals. Reposition your primary hand so the palm contacts the metatarsal area with fingers wrapping over the top of the foot. Ensure your secondary hand grabs your wrist, not your fingers, creating a locked figure-four below the ankle joint. Additionally, pull your elbows tight to your ribs rather than flaring them out - this creates a compact structure where the foot cannot slip through. The heel should be pulled into your sternum, not held away from your body.",
+      "safety_critical": false
+    },
+    {
+      "question": "You have the figure-four locked but the opponent is posting their free leg against your hip and creating distance - how do you maintain finishing position?",
+      "answer": "When opponent posts their free leg against your hip, you have two immediate options. First, triangle your legs tighter by clamping your knees together and driving your hips forward into theirs - this counteracts their pushing pressure through structural force rather than muscular effort. Second, if the push is too strong, temporarily release your secondary grip (not the primary hand on the foot) and use that hand to slap their free leg off your hip or trap it between your arm and body, then immediately re-establish the figure-four. Never abandon the submission entirely - maintain the primary grip on the foot throughout the adjustment.",
+      "safety_critical": false
+    },
+    {
+      "question": "At what point during the toe hold sequence has the opponent passed the 'point of no escape' where the submission will finish?",
+      "answer": "The point of no escape occurs when you have achieved three conditions simultaneously: (1) hip-to-hip connection with no space for them to create distance, (2) figure-four grip locked with heel pulled to your chest and elbows tight, and (3) initial rotational pressure has begun turning the toe away from their centerline. Once external rotation begins with proper structural control, the opponent cannot extract their leg without exposing their ankle to the hyperextension component, and they cannot rotate away from the submission without increasing the MCL pressure. At this stage, their only option is to tap - attempting to fight creates more damage.",
+      "safety_critical": false
+    },
+    {
+      "question": "Your opponent has their knee fully extended and straight - why is this position suboptimal for finishing the toe hold and how do you correct it?",
+      "answer": "A fully extended knee removes tension from the MCL, significantly reducing the submission's effectiveness since the rotational component cannot properly load the knee ligament. Additionally, a straight leg is easier to retract and extract from your entanglement. To correct this, use your leg entanglement to bend their knee by pulling their foot toward you while your legs clamp tighter around their thigh. Position your hips closer to their hip, which naturally forces knee flexion. A 15-30 degree knee bend is optimal - this loads the MCL when you apply rotation while maintaining your positional control over their leg.",
+      "safety_critical": false
+    },
+    {
+      "question": "In competition when you need to finish quickly, what adjustment increases finishing speed while maintaining control?",
+      "answer": "In competition, accelerate the finish by establishing all control points simultaneously rather than sequentially. Enter with hip connection already tight, begin grip fighting while your legs are still securing position, and start the heel pull immediately upon establishing the figure-four. The rotation can be faster (2-3 seconds rather than 5-7) but must still be smooth - never jerky. The key acceleration comes from eliminating dead time between steps, not from applying pressure faster. Maintain constant forward hip drive throughout to prevent any space from developing. Your posture should remain high so you can drive body weight through the submission if needed.",
+      "safety_critical": false
+    },
+    {
+      "question": "You've established the toe hold but opponent grips their own foot with both hands - what sequence breaks this defensive grip while maintaining submission position?",
+      "answer": "Do not release your figure-four to fight both their grips directly - this abandons your submission position. Instead, use circular stripping motions with your secondary hand to peel one grip at a time while maintaining the primary hand on their foot. Alternatively, threaten a heel hook by shifting your grip toward their heel - this forces them to release their foot grip to defend the more dangerous attack, at which point you immediately return to the toe hold. A third option is to continue applying slow rotational pressure through their grip - many defensive grips cannot sustain the torsional force and will break under sustained pressure without you needing to hand fight at all.",
+      "safety_critical": false
+    },
+    {
+      "question": "What physical indicators tell you the toe hold is reaching the breaking point and the opponent should tap?",
+      "answer": "Several indicators suggest imminent submission: (1) the opponent's foot begins rotating past its natural range of motion and you feel ligament resistance as a 'firm endpoint', (2) their knee begins elevating or twisting as the body tries to relieve MCL pressure, (3) you feel a sudden change in resistance as structures reach their elastic limit, (4) opponent's breathing changes dramatically or they begin vocalizing distress, (5) their body stiffens globally as they brace against the pain. In training, you must recognize these signs and hold pressure steady to allow the tap - never push through these indicators. In competition, controlled pressure through these signs typically produces immediate tap.",
+      "safety_critical": true
+    },
+    {
+      "question": "How do you transition from a failed toe hold attempt to an alternative leg attack without losing positional control?",
+      "answer": "When the toe hold fails (usually because opponent creates distance or hides their foot), maintain your leg entanglement as the foundation for the next attack. If they pull their foot back, their heel becomes exposed for heel hook - transition by releasing the figure-four and securing their heel instead. If they straighten their leg to escape, this creates a direct kneebar opportunity - release the foot and control above their knee while extending their leg. If they roll away, follow their roll and transition to Outside Ashi-Garami for better angle. The key is never releasing your leg control during transition - your legs stay locked around their leg while only your hand grips change.",
+      "safety_critical": false
     }
   ],
   "training_progressions_and_safety_protocols": [
@@ -363,7 +388,6 @@
     "Achilles Lock",
     "Calf Slicer",
     "Estima Lock",
-    "Straight Footlock",
     "Kneebar from 50-50",
     "Heel Hook Variations"
   ],
@@ -401,8 +425,12 @@
       "relationship": "Conceptual framework for understanding the positional control required before attempting toe hold"
     },
     {
-      "name": "Craig Jones Leg Lock System",
-      "relationship": "Modern leg lock methodology emphasizing toe hold as part of complete leg attack system with dynamic entries"
+      "name": "Kneebar Control",
+      "relationship": "Control position for alternative leg attack accessible from same leg entanglements"
+    },
+    {
+      "name": "Toe Hold Control",
+      "relationship": "Control position representing the established toe hold grip before finishing pressure"
     }
   ]
 }

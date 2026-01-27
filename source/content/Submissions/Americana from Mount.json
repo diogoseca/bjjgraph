@@ -246,6 +246,36 @@
       "question": "What are all the acceptable ways a training partner can signal a tap when caught in an americana, and why must you know all of them?",
       "answer": "Acceptable tap signals include: (1) verbal tap - saying 'tap' or making any distress vocalization, (2) physical hand tap on opponent or mat with minimum 2 taps, (3) physical foot tap on the mat, (4) head shake or nodding if hands are trapped, and (5) any unusual vocalization or distress signal. You must know and recognize all of these because in the americana position, one or both of the opponent's hands may be trapped or controlled, limiting their tapping options. Missing a tap signal can result in serious injury to your training partner. Always err on the side of caution - if you think they might be tapping or in distress, release immediately and ask.",
       "safety_critical": true
+    },
+    {
+      "question": "Your opponent starts to bridge explosively as you begin applying finishing pressure - what adjustment do you make to maintain the submission?",
+      "answer": "When the opponent bridges during finishing pressure, immediately widen your base by posting your free leg out wide on the same side as the trapped arm. Simultaneously drive your weight forward and down through your chest into their shoulder, flattening them back to the mat. Keep your figure-four grip tight and your elbows pulled toward your centerline. If the bridge is particularly explosive and committed, you may need to release the americana grip momentarily, follow them over, establish side control, and then reapply the submission from the new position. Never fight the bridge rigidly from a narrow base.",
+      "safety_critical": false
+    },
+    {
+      "question": "What specific grip adjustments should you make if your opponent begins to rotate their wrist or pull their arm toward their body during the finish?",
+      "answer": "If the opponent rotates their wrist or pulls their arm inward, you must immediately reinforce your grip by pulling your elbows tighter to your centerline and increasing the clamping pressure of your figure-four. Shift more of your chest weight onto their shoulder to prevent them from creating the space needed for the rotation. If they continue to gain ground, consider switching your wrist grip to a palm-up position (Kimura grip direction) momentarily to stop their rotation, then readjust back to americana grip once you've stabilized control. The key is never letting their wrist escape the pinned position against the mat.",
+      "safety_critical": false
+    },
+    {
+      "question": "What are the indicators that your opponent is about to tap, and how should this affect your application of pressure?",
+      "answer": "Indicators that the opponent is approaching their breaking point include: (1) audible grunting or vocalization that intensifies, (2) their body tensing rigidly rather than continuing to defend, (3) their free hand beginning to move toward a tapping position or reaching toward you, (4) facial expression showing significant discomfort, (5) cessation of active escape attempts and acceptance of the position. When you observe these indicators, maintain your current pressure level but do NOT increase pressure further. Wait for the tap while holding position. In training, these warning signs mean you've successfully achieved the submission - there's no benefit to applying additional pressure that could injure your partner.",
+      "safety_critical": true
+    },
+    {
+      "question": "How do you adjust your americana finish when the opponent has significantly stronger arms or larger frame than you?",
+      "answer": "Against stronger or larger opponents, you must maximize your mechanical advantage rather than trying to match their strength. First, ensure your chest weight is completely pinning their shoulder - use gravity as your primary weapon. Second, keep their elbow as close to shoulder level as possible (not below) to maximize rotational leverage. Third, position your figure-four grip so your forearm is across the back of their tricep rather than their forearm, creating a longer lever. Fourth, use your entire upper body rotating as a unit rather than just arm strength. Finally, consider transitioning to high mount before attempting the submission to reduce their ability to generate escape power. Patience is essential - maintain position and apply slow, steady pressure.",
+      "safety_critical": false
+    },
+    {
+      "question": "What is the point of no escape for the americana, and how do you recognize when you've achieved it?",
+      "answer": "The point of no escape occurs when three conditions are met simultaneously: (1) the opponent's shoulder blade is completely pinned to the mat with your chest weight, (2) their elbow is firmly controlled at or below shoulder level with no space to straighten the arm, and (3) your figure-four grip is locked with your wrist secured and elbows tight. At this point, the opponent cannot generate enough rotational force to follow their arm, cannot straighten the arm to relieve pressure, and cannot bridge effectively due to your weight distribution. You recognize this moment when you feel their arm become 'stuck' - they may continue struggling, but the mechanics are locked. From here, slow, controlled rotation will produce the tap.",
+      "safety_critical": false
+    },
+    {
+      "question": "In competition, how do you finish the americana quickly while maintaining safety principles, and what's different from training application?",
+      "answer": "In competition, you can apply pressure more quickly than training (1-2 seconds rather than 3-5) because your opponent is a skilled competitor who understands when to tap. However, you should never jerk or spike the shoulder regardless of context. The key competition adjustments are: (1) secure the position completely before applying any pressure - rushing the setup is the primary cause of failed competition americanas, (2) once locked in, apply smooth, progressive pressure without pause, (3) maintain maximum pressure until the referee stops the match or you feel the tap. The ethical difference is that in competition, both parties accept increased risk. However, even in competition, jerking or spiking submissions is dangerous and unsportsmanlike. A properly executed americana finishes quickly through technique, not through violent application.",
+      "safety_critical": true
     }
   ],
   "training_progressions_and_safety_protocols": [
@@ -304,7 +334,6 @@
   ],
   "related_submissions": [
     "Armbar from Mount",
-    "Kimura from Mount",
     "Ezekiel from Mount",
     "Americana Variations",
     "Kimura",
@@ -312,12 +341,10 @@
     "Americana from Side Control",
     "Armbar from Side Control",
     "Arm Triangle",
-    "Reverse Armbar",
-    "Straight Armbar",
-    "Kimura from Side Control",
-    "Kimura from North-South",
-    "Monoplata from Mount",
-    "Triangle from Mount"
+    "Triangle from Mount",
+    "Cross Collar Choke",
+    "Armbar from Guard",
+    "Americana"
   ],
   "related_content": [
     {
@@ -341,7 +368,7 @@
       "relationship": "Related technique from different position using same submission mechanics"
     },
     {
-      "name": "Kimura from Mount",
+      "name": "Kimura",
       "relationship": "Complementary shoulder lock attacking opposite rotation direction"
     },
     {
@@ -361,12 +388,12 @@
       "relationship": "Advanced control position where americana can also be applied"
     },
     {
-      "name": "Mount Control",
-      "relationship": "Fundamental control system required before attempting americana"
+      "name": "Technical Mount",
+      "relationship": "Mount variation providing alternative angle for americana setup"
     },
     {
-      "name": "Submission Chains",
-      "relationship": "Principle of linking americana with armbars and other attacks"
+      "name": "Modified Mount",
+      "relationship": "Mount variation with posted leg providing base stability during americana"
     }
   ]
 }

@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Mount to Armbar | BJJ Technique | BJJ Graph"
 description: "Master the Mount to Armbar transition in BJJ. Complete step-by-step execution from Mount to Armbar Control. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%."
@@ -16,7 +17,7 @@ description: "Master the Mount to Armbar transition in BJJ. Complete step-by-ste
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Mount to Armbar in BJJ",
-  "description": "Step-by-step guide for Mount to Armbar from Mount to Armbar Control.",
+  "description": "Step-by-step guide for Mount to Armbar from Mount/Top. Possible outcomes: Armbar Control/Top (70%), Mount/Top (20%), Mount/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -160,11 +161,25 @@ description: "Master the Mount to Armbar transition in BJJ. Complete step-by-ste
 
 The Mount to Armbar transition is one of the most fundamental and high-percentage submission attacks in Brazilian Jiu-Jitsu, representing a cornerstone technique that every practitioner must master. From the dominant Mount position, this technique capitalizes on the opponent's natural defensive reactions by converting their arm-framing attempts into submission opportunities. The transition requires precise weight distribution, controlled movement sequencing, and the ability to maintain dominant positioning throughout the execution. This technique exemplifies the principle of position before submission, as maintaining mount control throughout the transition is critical to success. The Mount to Armbar serves as a gateway technique that opens pathways to other submissions including the triangle choke, Americana, and Ezekiel choke, making it an essential component of any complete mount attack system.
 
-**Starting Position**: [[Mount]]
-**Ending Position**: [[Armbar Control]]
+**From Position**: [[Mount/Top]]
 **Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Armbar Control/Top]] | 70% |
+| Failure | [[Mount/Top]] | 20% |
+| Counter | [[Mount/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

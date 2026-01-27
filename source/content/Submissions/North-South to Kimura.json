@@ -249,6 +249,36 @@
       "question": "What defensive reaction from the opponent makes the north-south kimura particularly effective?",
       "answer": "The opponent's natural tendency to push or frame against the top player's hips and torso when pinned in north-south creates the ideal setup for the kimura. This defensive framing extends their arm away from their body, allowing you to isolate and control the wrist easily. The extended arm position provides excellent access for threading your far arm underneath to secure the figure-four grip. Essentially, their defensive reaction to create space and prevent chest pressure directly sets up the submission opportunity, making this a high-percentage technique against common north-south defenses.",
       "safety_critical": false
+    },
+    {
+      "question": "Your opponent begins to bridge explosively as you initiate the rotation - what is the critical adjustment to maintain control and complete the finish?",
+      "answer": "When opponent bridges during rotation, ride the bridge by keeping your hips low and following their upward movement rather than fighting it. Maintain the figure-four grip throughout the bridge and actually use their energy expenditure against them by increasing rotational pressure as they settle back down from the failed bridge. Keep your weight distributed across their chest through your hips and torso to limit bridge effectiveness. The key is staying connected and heavy rather than trying to pin them through strength alone - their bridge will fatigue them while you conserve energy and maintain the submission threat.",
+      "safety_critical": false
+    },
+    {
+      "question": "At what point during the finishing sequence should the opponent's arm reach the breaking point, and what are the warning signs you must watch for?",
+      "answer": "The breaking point approaches when the opponent's wrist is rotated toward their head with their elbow pushed away from their body at roughly a 90-degree angle. Warning signs include: increased resistance in the shoulder joint indicating tissue stretching, opponent's body tensing or arching, facial expressions showing pain or distress, any verbal indication of discomfort, or sudden cessation of defensive movement indicating they may be in shock. In training, you must watch for these signs and stop well before the breaking point - the tap should come at 70-80% of maximum pressure. Never test the absolute limit in training.",
+      "safety_critical": true
+    },
+    {
+      "question": "What grip adjustment should you make if your opponent's arm is particularly sweaty or slippery during no-gi competition?",
+      "answer": "When grips are compromised by sweat, secure a deeper figure-four by gripping higher on your own forearm rather than at the wrist. This creates a tighter, more secure configuration less susceptible to slippage. Additionally, pin their wrist against your chest or shoulder for additional friction and control. You can also use your chest pressure to help pin their arm in place while adjusting grips. The key is maintaining constant pressure throughout any grip adjustment - never release completely and re-grip, as this creates escape windows.",
+      "safety_critical": false
+    },
+    {
+      "question": "How do you recognize when to abandon the kimura attempt and transition to an alternative attack?",
+      "answer": "Abandon the kimura when: the opponent successfully grabs their belt, pants, or opposite arm and you cannot break the grip after 2-3 attempts; they've created enough space through bridging to begin a significant escape sequence; they've partially turned their body negating your perpendicular angle; or you feel your own grip fatiguing. The ideal transitions are to an armbar (if you maintain wrist control and can swing your leg over), north-south choke (if they're focused on defending arms), or simply re-consolidating north-south control to reset. Never force a submission that isn't there - better to maintain position and attack again.",
+      "safety_critical": false
+    },
+    {
+      "question": "What is the biomechanical reason the shoulder joint is particularly vulnerable in the kimura position?",
+      "answer": "The shoulder joint is vulnerable in the kimura because the submission applies external rotation and extension forces to a joint designed primarily for flexion and internal rotation in its most powerful configurations. The rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis) are stretched beyond their normal range while the glenohumeral ligaments are loaded in their weakest orientation. The figure-four grip creates a long lever arm that multiplies the rotational force applied to these relatively small structures. Unlike the elbow or knee which have defined stopping points, the shoulder's ball-and-socket design allows rotation until soft tissue failure occurs.",
+      "safety_critical": true
+    },
+    {
+      "question": "During competition, your opponent is defending well and time is running out - how do you accelerate the finish without compromising safety?",
+      "answer": "To accelerate the finish safely under time pressure: increase your chest pressure to further restrict their breathing and movement capacity, making defense more difficult; use your base to drive your entire body weight into the rotation rather than just arm strength; angle your hips more aggressively toward the trapped arm to maximize leverage; and chain quick transitions between kimura and armbar threats to force defensive errors. Even in competition, the rotation should still take 2-3 seconds minimum - the acceleration comes from superior positioning and pressure, not from jerking or spiking the submission. Prioritize the win but never at the cost of seriously injuring your opponent.",
+      "safety_critical": true
     }
   ],
   "training_progressions_and_safety_protocols": [
@@ -330,7 +360,7 @@
       "relationship": "Strategic system built around kimura control and finishing mechanics"
     },
     {
-      "name": "Transition to North-South",
+      "name": "Side Control to North-South",
       "relationship": "Entry technique to establish north-south position before applying kimura"
     },
     {
@@ -342,23 +372,19 @@
       "relationship": "Alternative progression from side control family of positions"
     },
     {
-      "name": "Kimura Control",
-      "relationship": "Control position using kimura grip structure"
-    },
-    {
       "name": "Kimura Trap",
-      "relationship": "Advanced control system using kimura grip to create submission chains"
+      "relationship": "Control position using kimura grip structure for submission chains"
     },
     {
       "name": "Gift Wrap",
       "relationship": "Alternative arm control position from north-south leading to back take"
     },
     {
-      "name": "Underhook Control",
-      "relationship": "Fundamental control concept for maintaining top position"
+      "name": "Overhook Control",
+      "relationship": "Fundamental control concept for maintaining arm isolation from top"
     },
     {
-      "name": "Mount Control",
+      "name": "Mount",
       "relationship": "Alternative dominant position with similar submission opportunities"
     },
     {

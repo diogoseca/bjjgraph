@@ -10,8 +10,6 @@
     "wrestling",
     "position-advancement"
   ],
-  "starting_position": "Butterfly Guard",
-  "ending_position": "Back Control",
   "success_rates": {
     "beginner": 35,
     "intermediate": 50,
@@ -296,6 +294,24 @@
     {
       "name": "Chair Sit to Back",
       "relationship": "Related technique - alternative back take from similar angle"
+    }
+  ],
+  "from_position": "Butterfly Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Back Control/Top",
+      "probability": 65,
+      "result": "success"
+    },
+    {
+      "to": "Butterfly Guard/Bottom",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Butterfly Guard/Top",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

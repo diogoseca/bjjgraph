@@ -3,7 +3,7 @@
   "slug": "collar-sleeve-guard",
   "description": "Master collar sleeve guard in BJJ. Comprehensive guide covering grip control, off-balancing mechanics, sweeps, and triangle setups with strategic analysis for competition.",
   "variant_uniqueness": "Two-grip asymmetry creates rotational control",
-  "overview": "Collar sleeve guard is a fundamental open guard variation that combines a collar grip (typically cross-collar) with a same-side sleeve grip to create powerful off-balancing and sweeping opportunities. This guard is characterized by its asymmetric grip structure, which generates rotational forces that disrupt the opponent's base while maintaining distance control through the extended sleeve grip.\n\nThe position represents one of the most accessible entries into systematic guard play for practitioners at all levels. Unlike more complex guards that require specific flexibility or body type advantages, collar sleeve guard relies on fundamental principles of leverage, angle creation, and grip fighting that translate across all body types and competitive formats. The cross-collar grip provides direct control over the opponent's posture and upper body rotation, while the sleeve grip manages distance and prevents posting.\n\nStrategically, collar sleeve guard serves as a hub position connecting to numerous high-percentage attacks. The collar grip facilitates transitions to triangle chokes, omoplatas, and collar-based sweeps, while the sleeve control enables pendulum sweeps, flower sweeps, and technical stand-ups. Advanced practitioners use this position to create systematic attack sequences where defensive responses to one threat directly expose the opponent to complementary attacks.\n\nThe position's effectiveness stems from its ability to break the opponent's structural connection to the ground. By controlling one arm through the sleeve grip while pulling the collar, you create a mechanical disadvantage where the opponent cannot effectively distribute weight or establish a strong base. This fundamental imbalance makes collar sleeve guard particularly effective against opponents who rely on pressure passing or statica base maintenance.\n\nIn competition contexts, collar sleeve guard appears frequently in gi-based rulesets from white belt through black belt divisions. Its prevalence reflects both its technical soundness and its role as a foundational position that develops essential guard skills including grip fighting, hip movement, angle creation, and timing. Modern competitors often use collar sleeve guard as an initial control position before transitioning to more specialized guards like lasso, spider, or De La Riva variations.\n\nThe position demands active hip movement and constant angle adjustment to remain effective. Static collar sleeve guard allows opponents to establish counter-grips and initiate guard passing sequences. Effective practitioners constantly shift angles, use their legs to create frames and off-balancing forces, and threaten multiple attacks to keep opponents defensive and reactive rather than offensive and controlling.",
+  "overview": "Collar sleeve guard is a fundamental open guard variation that combines a collar grip (typically cross-collar) with a same-side sleeve grip to create powerful off-balancing and sweeping opportunities. This guard is characterized by its asymmetric grip structure, which generates rotational forces that disrupt the opponent's base while maintaining distance control through the extended sleeve grip.\n\nThe position represents one of the most accessible entries into systematic guard play for practitioners at all levels. Unlike more complex guards that require specific flexibility or body type advantages, collar sleeve guard relies on fundamental principles of leverage, angle creation, and grip fighting that translate across all body types and competitive formats. The cross-collar grip provides direct control over the opponent's posture and upper body rotation, while the sleeve grip manages distance and prevents posting.\n\nStrategically, collar sleeve guard serves as a hub position connecting to numerous high-percentage attacks. The collar grip facilitates transitions to triangle chokes, omoplatas, and collar-based sweeps, while the sleeve control enables pendulum sweeps, flower sweeps, and technical stand-ups. Advanced practitioners use this position to create systematic attack sequences where defensive responses to one threat directly expose the opponent to complementary attacks.\n\nThe position's effectiveness stems from its ability to break the opponent's structural connection to the ground. By controlling one arm through the sleeve grip while pulling the collar, you create a mechanical disadvantage where the opponent cannot effectively distribute weight or establish a strong base. This fundamental imbalance makes collar sleeve guard particularly effective against opponents who rely on pressure passing or static base maintenance.\n\nIn competition contexts, collar sleeve guard appears frequently in gi-based rulesets from white belt through black belt divisions. Its prevalence reflects both its technical soundness and its role as a foundational position that develops essential guard skills including grip fighting, hip movement, angle creation, and timing. Modern competitors often use collar sleeve guard as an initial control position before transitioning to more specialized guards like lasso, spider, or De La Riva variations.\n\nThe position demands active hip movement and constant angle adjustment to remain effective. Static collar sleeve guard allows opponents to establish counter-grips and initiate guard passing sequences. Effective practitioners constantly shift angles, use their legs to create frames and off-balancing forces, and threaten multiple attacks to keep opponents defensive and reactive rather than offensive and controlling.",
   "key_principles": [
     "Cross-collar grip controls posture and creates rotational vulnerability",
     "Sleeve grip prevents posting and manages distance",
@@ -47,387 +47,6 @@
       "relationship": "Target position for successful sweep completion"
     }
   ],
-  "bottom": {
-    "name": "Collar Sleeve Guard Bottom",
-    "description": "Control opponent with cross-collar and sleeve grips. Learn sweep mechanics, triangle entries, and off-balancing principles from collar sleeve guard bottom position.",
-    "tags": [
-      "Guard",
-      "Open Guard",
-      "Collar Sleeve",
-      "Sweeps",
-      "Triangles",
-      "Intermediate"
-    ],
-    "overview": "From the bottom perspective, collar sleeve guard represents an active offensive position where you control the engagement through strategic grip placement and systematic attack sequencing. Your primary objective is to break the opponent's posture using the collar grip while the sleeve grip prevents them from establishing base or advancing their position.\n\nThe bottom player's success in collar sleeve guard depends on maintaining active hip movement and constantly threatening attacks. Static positioning allows the opponent to establish counter-grips, stack your guard, or initiate passing sequences. Effective bottom players create a rhythm of angle changes, grip adjustments, and attack threats that keep opponents reactive and defensive.\n\nGrip establishment follows a specific hierarchy: secure the cross-collar grip first as it provides the most control over posture and position, then establish the same-side sleeve grip to complete the guard structure. The collar grip typically uses four fingers inside the collar near the opponent's shoulder or lapel, creating maximum leverage for pulling and breaking posture. The sleeve grip controls the wrist or sleeve fabric at the forearm, preventing posting and managing distance.\n\nOnce grips are established, your legs play crucial roles in maintaining the guard. The foot on the sleeve-grip side typically posts on the opponent's hip or bicep, creating a frame that maintains distance and prevents forward pressure. The other leg remains mobile, ready to pump the hip for sweeps, hook for off-balancing, or elevate for triangle entries. This leg mobility differentiates effective collar sleeve guard from static positioning.\n\nAttack sequences from collar sleeve guard bottom typically begin with off-balancing attempts that force defensive reactions. When you pull the collar and extend the opponent forward while framing with your sleeve-side leg, you create immediate instability. Opponents typically respond by either posting with their free hand, sitting back to recover posture, or attempting to circle around your frames. Each response opens specific attack opportunities.\n\nThe position's effectiveness against different passing styles varies based on grip maintenance and angle adjustment. Against pressure passers, the collar sleeve structure excels at maintaining distance and creating off-balancing moments that disrupt forward progression. Against speed passers, the grips provide immediate feedback about direction changes, allowing you to adjust angles and maintain connection. Against stack passers, the collar grip becomes essential for preventing the opponent from driving your knees to your chest.\n\nEnergy management in collar sleeve guard bottom requires balancing active movement with strategic conservation. Constantly threatening attacks and changing angles demands significant core and grip endurance, but passive positioning allows opponents to dictate the engagement pace. Experienced practitioners develop a rhythm that applies pressure through threats and grips while allowing brief moments of lower intensity when opponents are adequately controlled.\n\nTransitioning out of collar sleeve guard bottom occurs through successful sweeps, submission attempts, or strategic position changes. Sweeps typically target moments when the opponent's base is compromised by your off-balancing forces. Submission attempts flow naturally from collar sleeve structure, particularly triangles when opponents defend sweeps by posting. Position changes to more advanced guards occur when opponents establish dangerous counter-grips or begin successful passing sequences.",
-    "state_properties": {
-      "point_value": 0,
-      "position_type": "Offensive",
-      "risk_level": "Low to Medium",
-      "energy_cost": "Medium",
-      "time_sustainability": "Medium to Long"
-    },
-    "state_invariants": [
-      "Bottom player maintains cross-collar grip with four fingers deep inside opponent's collar near the shoulder, creating direct leverage over upper body rotation and posture control while keeping the elbow tight to prevent grip breaks",
-      "Bottom player controls same-side sleeve at the wrist or forearm with firm grip, preventing the opponent from posting or establishing base on that side while maintaining straight arm extension to manage distance effectively",
-      "Bottom player's hips remain mobile and elevated off the mat, never flat, allowing constant angle adjustments and the ability to generate rotational forces through leg pumping and hip movement that compromise opponent's balance"
-    ],
-    "prerequisites": [
-      "Opponent has opened your closed guard or you have opened guard deliberately",
-      "You have established cross-collar grip before opponent secures dominant grips",
-      "You have space to establish sleeve grip on same side as collar grip",
-      "Your hips are mobile and not pinned to the mat by opponent's pressure",
-      "Opponent is in kneeling or standing position allowing guard structure"
-    ],
-    "key_principles": [
-      "Collar grip pulls continuously to break posture and prevent opponent base",
-      "Sleeve grip extends to create distance and prevent posting on that side",
-      "Hip movement generates rotational forces that amplify grip control",
-      "Legs create frames on hips or biceps to maintain distance management",
-      "Angle changes prevent opponent from establishing static passing position",
-      "Attack threats keep opponent defensive and unable to establish counter-grips",
-      "Grip sequencing determines available attack options and sweep directions"
-    ],
-    "offensive_transitions": [
-      {
-        "technique": "Pendulum Sweep",
-        "target_position": "Mount",
-        "success_rates": {
-          "beginner": 45,
-          "intermediate": 60,
-          "advanced": 75
-        }
-      },
-      {
-        "technique": "Flower Sweep",
-        "target_position": "Mount",
-        "success_rates": {
-          "beginner": 40,
-          "intermediate": 55,
-          "advanced": 70
-        }
-      },
-      {
-        "technique": "Triangle Setup",
-        "target_position": "Triangle Control",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 50,
-          "advanced": 65
-        }
-      },
-      {
-        "technique": "Omoplata Sweep",
-        "target_position": "Omoplata Control",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 45,
-          "advanced": 60
-        }
-      },
-      {
-        "technique": "Hip Bump Sweep",
-        "target_position": "Mount",
-        "success_rates": {
-          "beginner": 40,
-          "intermediate": 55,
-          "advanced": 70
-        }
-      },
-      {
-        "technique": "Scissor Sweep",
-        "target_position": "Mount",
-        "success_rates": {
-          "beginner": 50,
-          "intermediate": 65,
-          "advanced": 80
-        }
-      },
-      {
-        "technique": "Arm Drag to Back",
-        "target_position": "Back Control",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 50,
-          "advanced": 65
-        }
-      },
-      {
-        "technique": "Technical Stand Up to Single Leg",
-        "target_position": "Standing Position",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 45,
-          "advanced": 60
-        }
-      },
-      {
-        "technique": "Lasso Guard Variations",
-        "target_position": "Lasso Guard",
-        "success_rates": {
-          "beginner": 40,
-          "intermediate": 55,
-          "advanced": 70
-        }
-      },
-      {
-        "technique": "Spider Guard Variations",
-        "target_position": "Spider Guard",
-        "success_rates": {
-          "beginner": 45,
-          "intermediate": 60,
-          "advanced": 75
-        }
-      }
-    ],
-    "defensive_responses": [
-      {
-        "technique": "Collar Drag",
-        "target_position": "Side Control"
-      },
-      {
-        "technique": "Guard Pass",
-        "target_position": "Side Control"
-      },
-      {
-        "technique": "Stack Pass",
-        "target_position": "Side Control"
-      },
-      {
-        "technique": "Knee Cut Pass",
-        "target_position": "Side Control"
-      },
-      {
-        "technique": "Toreando Pass",
-        "target_position": "Side Control"
-      }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Triangle Setup",
-        "target_position": "Triangle Control",
-        "trigger": "Opponent posts free hand to defend sweep attempt"
-      },
-      {
-        "technique": "Omoplata to Sweep",
-        "target_position": "Omoplata Control",
-        "trigger": "Opponent pulls sleeve arm back to break grip"
-      },
-      {
-        "technique": "Arm Drag",
-        "target_position": "Back Control",
-        "trigger": "Opponent reaches over to establish cross-face grip"
-      },
-      {
-        "technique": "Pendulum Sweep",
-        "target_position": "Mount",
-        "trigger": "Opponent stands to create distance and attempt standing pass"
-      }
-    ],
-    "decision_tree": [
-      {
-        "condition": "If opponent maintains square posture and strong base with both knees planted",
-        "actions": [
-          {
-            "technique": "Hip Bump Sweep",
-            "target": "Mount",
-            "probability": 55
-          },
-          {
-            "technique": "Pendulum Sweep",
-            "target": "Mount",
-            "probability": 60
-          }
-        ]
-      },
-      {
-        "condition": "If opponent posts free hand forward to defend collar pull or sweep attempt",
-        "actions": [
-          {
-            "technique": "Triangle Setup",
-            "target": "Triangle Control",
-            "probability": 65
-          },
-          {
-            "technique": "Transition to Omoplata",
-            "target": "Omoplata Control",
-            "probability": 50
-          }
-        ]
-      },
-      {
-        "condition": "If opponent sits back heavily to break posture and defend collar grip",
-        "actions": [
-          {
-            "technique": "Flower Sweep",
-            "target": "Mount",
-            "probability": 55
-          },
-          {
-            "technique": "Scissor Sweep",
-            "target": "Mount",
-            "probability": 65
-          }
-        ]
-      },
-      {
-        "condition": "If opponent attempts to circle around to pass toward sleeve-grip side",
-        "actions": [
-          {
-            "technique": "Spider Guard Variations",
-            "target": "Spider Guard",
-            "probability": 60
-          },
-          {
-            "technique": "Lasso Guard Variations",
-            "target": "Lasso Guard",
-            "probability": 55
-          }
-        ]
-      },
-      {
-        "condition": "If opponent stands up completely to initiate standing guard pass",
-        "actions": [
-          {
-            "technique": "Technical Stand-up",
-            "target": "Standing Position",
-            "probability": 50
-          },
-          {
-            "technique": "Arm Drag to Back",
-            "target": "Back Control",
-            "probability": 45
-          }
-        ]
-      }
-    ],
-    "common_errors": [
-      {
-        "error": "Maintaining static hip position without constant angle adjustment",
-        "consequence": "Allows opponent to establish counter-grips and initiate passing sequences with predictable attack angles",
-        "correction": "Keep hips elevated and constantly shift angles 15-30 degrees while maintaining grip tension to prevent opponent from settling into stable passing position"
-      },
-      {
-        "error": "Gripping the sleeve too high at the bicep or shoulder instead of wrist/forearm",
-        "consequence": "Opponent can post hand on ground or your body, establishing base and negating distance control",
-        "correction": "Control the sleeve at the wrist or mid-forearm where you have maximum leverage over posting attempts and can fully extend their arm"
-      },
-      {
-        "error": "Pulling collar grip straight back toward your chest instead of at angles",
-        "consequence": "Opponent can maintain base by leaning forward into the pull without compromising balance",
-        "correction": "Pull collar at 45-degree angles toward your shoulders, creating rotational forces that disrupt square base and open sweep opportunities"
-      },
-      {
-        "error": "Allowing opponent to establish cross-face or collar grips before securing your own grips",
-        "consequence": "Opponent controls engagement timing and can flatten you out or pressure pass before your guard structure is established",
-        "correction": "Prioritize collar grip establishment immediately when guard opens, using frames and hip movement to prevent opponent grips until your structure is complete"
-      },
-      {
-        "error": "Keeping both legs static in fixed positions instead of one mobile attack leg",
-        "consequence": "Cannot generate sweeping momentum or adjust for opponent movement, making attacks predictable and easily defended",
-        "correction": "Maintain one leg as active frame on hip/bicep while other leg stays mobile for hooking, pumping, and triangle entries"
-      },
-      {
-        "error": "Threatening only one attack repeatedly without creating combination sequences",
-        "consequence": "Opponent learns to defend specific attack and can focus defensive energy on shutting down predictable offense",
-        "correction": "Chain attacks where defense of one technique directly exposes opponent to complementary attack (sweep to triangle, triangle to omoplata)"
-      }
-    ],
-    "training_drills": [
-      {
-        "name": "Collar Sleeve Grip Establishment vs. Resistance",
-        "description": "Partner starts in combat base with active hands. You must establish cross-collar and sleeve grips within 10 seconds while partner uses frames and grip fighting to prevent your grips. Reset and repeat, focusing on grip sequencing and maintaining hip mobility during grip fighting exchanges.",
-        "duration": "5 minutes"
-      },
-      {
-        "name": "Off-Balancing Cycle Drill",
-        "description": "With collar sleeve grips established, practice continuous off-balancing in all four directions (forward pull, rotational left, rotational right, pulling to sitting position). Partner maintains base without defending specific techniques. Focus on hip movement generating rotational forces that amplify grip control.",
-        "duration": "4 minutes"
-      },
-      {
-        "name": "Triangle Entry Timing Drill",
-        "description": "Partner starts in collar sleeve guard and repeatedly posts their free hand in different positions and timings. You must recognize posting moment and immediately shoot triangle entry with proper leg positioning. Reset after each attempt regardless of success. Develops recognition speed for posting reactions.",
-        "duration": "5 minutes"
-      },
-      {
-        "name": "Sweep to Guard Recovery Flow",
-        "description": "Attempt collar sleeve sweep (pendulum, flower, or scissor). If partner defends and starts to pass, immediately recover guard using hip escapes and reguard. If sweep succeeds, partner allows mount then initiates bridge and roll escape. Continuous flow developing sweep commitment and recovery skills.",
-        "duration": "6 minutes"
-      }
-    ],
-    "optimal_submission_paths": [
-      {
-        "name": "Collar Sleeve to Triangle via Post",
-        "path": "Collar Sleeve Guard Bottom → Opponent Posts Free Hand → Triangle Setup → Triangle Control → Triangle from Closed Guard"
-      },
-      {
-        "name": "Collar Sleeve to Armbar via Sweep",
-        "path": "Collar Sleeve Guard Bottom → Pendulum Sweep → Mount → Armbar from Mount"
-      },
-      {
-        "name": "Collar Sleeve to Omoplata Finish",
-        "path": "Collar Sleeve Guard Bottom → Triangle Setup (Defended) → Transition to Omoplata → Omoplata Control → Omoplata from Guard"
-      },
-      {
-        "name": "Collar Sleeve to Back Attack",
-        "path": "Collar Sleeve Guard Bottom → Arm Drag to Back → Back Control → Rear Naked Choke"
-      }
-    ],
-    "related_content": [
-      {
-        "name": "Spider Guard",
-        "relationship": "Advanced variation - add second sleeve grip for enhanced control"
-      },
-      {
-        "name": "Lasso Guard",
-        "relationship": "Specialized variation - thread leg through sleeve arm"
-      },
-      {
-        "name": "Triangle Control",
-        "relationship": "Primary submission path when opponent posts to defend sweeps"
-      },
-      {
-        "name": "Omoplata Control",
-        "relationship": "Alternative submission when triangle is defended"
-      },
-      {
-        "name": "Closed Guard",
-        "relationship": "Common entry position before opening to collar sleeve"
-      },
-      {
-        "name": "Grip Fighting",
-        "relationship": "Essential principle for establishing and maintaining grips"
-      },
-      {
-        "name": "Posture Breaking",
-        "relationship": "Fundamental principle applied through collar grip control"
-      },
-      {
-        "name": "Off-Balancing",
-        "relationship": "Core principle for creating sweep opportunities"
-      }
-    ],
-    "position_metrics": {
-      "retention_rate": {
-        "beginner": 50,
-        "intermediate": 65,
-        "advanced": 80,
-        "description": "Ability to maintain collar sleeve guard against passing attempts"
-      },
-      "advancement_probability": {
-        "beginner": 40,
-        "intermediate": 55,
-        "advanced": 70,
-        "description": "Likelihood of successful sweep or transition to better position"
-      },
-      "submission_probability": {
-        "beginner": 25,
-        "intermediate": 40,
-        "advanced": 55,
-        "description": "Probability of finishing submission directly from collar sleeve guard"
-      },
-      "average_time": "45-90 seconds before sweep attempt or position change"
-    }
-  },
   "top": {
     "name": "Collar Sleeve Guard Top",
     "description": "Defend and pass collar sleeve guard from top position. Learn grip breaking, posture maintenance, and systematic passing strategies against collar sleeve attacks.",
@@ -466,119 +85,6 @@
       "Passing strategies target moments when opponent commits to attacks",
       "Distance management prevents opponent from maintaining ideal guard range",
       "Counter-grips on collar or sleeves neutralize opponent's control before passing"
-    ],
-    "offensive_transitions": [
-      {
-        "technique": "Toreando Pass",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 40,
-          "intermediate": 55,
-          "advanced": 70
-        }
-      },
-      {
-        "technique": "Knee Cut Pass",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 45,
-          "intermediate": 60,
-          "advanced": 75
-        }
-      },
-      {
-        "technique": "Stack Pass",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 50,
-          "advanced": 65
-        }
-      },
-      {
-        "technique": "Double Under Pass",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 40,
-          "intermediate": 55,
-          "advanced": 70
-        }
-      },
-      {
-        "technique": "Leg Drag Pass",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 50,
-          "advanced": 65
-        }
-      },
-      {
-        "technique": "Knee Slice Pass",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 45,
-          "intermediate": 60,
-          "advanced": 75
-        }
-      },
-      {
-        "technique": "Pressure Pass",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 40,
-          "intermediate": 55,
-          "advanced": 70
-        }
-      },
-      {
-        "technique": "Headquarters Pass",
-        "target_position": "Headquarters Position",
-        "success_rates": {
-          "beginner": 50,
-          "intermediate": 65,
-          "advanced": 80
-        }
-      }
-    ],
-    "defensive_responses": [
-      {
-        "technique": "Pendulum Sweep",
-        "target_position": "Mount"
-      },
-      {
-        "technique": "Triangle Setup",
-        "target_position": "Triangle Control"
-      },
-      {
-        "technique": "Scissor Sweep",
-        "target_position": "Mount"
-      },
-      {
-        "technique": "Flower Sweep",
-        "target_position": "Mount"
-      },
-      {
-        "technique": "Omoplata Sweep",
-        "target_position": "Omoplata Control"
-      }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Knee Slice Pass",
-        "target_position": "Side Control",
-        "trigger": "Opponent commits to pendulum sweep and extends legs"
-      },
-      {
-        "technique": "Stack Pass",
-        "target_position": "Side Control",
-        "trigger": "Opponent attempts triangle and brings knees high"
-      },
-      {
-        "technique": "Toreando Pass",
-        "target_position": "Side Control",
-        "trigger": "Opponent extends both legs for scissor sweep attempt"
-      }
     ],
     "decision_tree": [
       {
@@ -711,20 +217,6 @@
         "duration": "6 minutes"
       }
     ],
-    "optimal_submission_paths": [
-      {
-        "name": "Guard Pass to Submission Control",
-        "path": "Collar Sleeve Guard Top → Knee Slice Pass → Side Control → Kimura from Side Control"
-      },
-      {
-        "name": "Counter Triangle to Pass",
-        "path": "Collar Sleeve Guard Top → Triangle Setup (Defended) → Stack Pass → Side Control → Americana from Side Control"
-      },
-      {
-        "name": "Distance Pass to Mount Attack",
-        "path": "Collar Sleeve Guard Top → Toreando Pass → Side Control → Side Control to Mount → Armbar from Mount"
-      }
-    ],
     "related_content": [
       {
         "name": "Side Control",
@@ -743,20 +235,20 @@
         "relationship": "Pressure passing option when opponent brings knees high"
       },
       {
-        "name": "Grip Breaking",
-        "relationship": "Essential skill for neutralizing opponent's control"
-      },
-      {
-        "name": "Posture Up",
-        "relationship": "Fundamental defensive principle against collar pulling"
-      },
-      {
-        "name": "Guard Passing Principles",
-        "relationship": "Systematic framework for passing any guard variation"
-      },
-      {
-        "name": "Knee Slice Pass",
+        "name": "Knee Cut Pass",
         "relationship": "Effective counter when opponent commits to sweeps"
+      },
+      {
+        "name": "Knee on Belly",
+        "relationship": "Intermediate control position when transitioning past guard"
+      },
+      {
+        "name": "Combat Base",
+        "relationship": "Starting stance for initiating passes against collar sleeve"
+      },
+      {
+        "name": "Double Under Pass",
+        "relationship": "Pressure passing option when opponent's grips are compromised"
       }
     ],
     "position_metrics": {
@@ -779,6 +271,377 @@
         "description": "Probability of finishing submission directly from top of collar sleeve guard"
       },
       "average_time": "60-120 seconds to complete guard pass or get swept"
-    }
+    },
+    "transitions": [
+      {
+        "transition": "Toreando Pass",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Knee Cut Pass",
+        "attempt_probability": 13
+      },
+      {
+        "transition": "Stack Pass",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Double Under Pass",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Leg Drag Pass",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Knee Slice Pass",
+        "attempt_probability": 13
+      },
+      {
+        "transition": "Pressure Pass",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Headquarters Pass",
+        "attempt_probability": 16
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "Your opponent has established strong collar and sleeve grips and starts pulling your posture forward - what immediate adjustment do you make?",
+        "answer": "Drive your hips backward while simultaneously widening your knees to create a stable tripod base. Keep your chest elevated and look forward rather than down. This repositions your center of gravity behind their pulling force vector, making it mechanically inefficient for them to continue breaking your posture. Avoid fighting their pull with pure upper body strength, which is unsustainable and leads to exhaustion."
+      },
+      {
+        "question": "What are the essential grips you should prioritize when facing collar sleeve guard?",
+        "answer": "Prioritize controlling their collar-gripping wrist with your free hand to neutralize their posture control, then establish your own pants grips at the knees or pant cuffs on both legs. These grips allow you to control their leg positioning for passing while preventing them from using their legs to create frames. If you cannot immediately break their collar grip, establishing your own cross-collar grip provides a counter-balance and opens passing opportunities."
+      },
+      {
+        "question": "How do you shut down the primary triangle threat from collar sleeve guard?",
+        "answer": "Keep your controlled arm's elbow tight to your ribs rather than letting it float forward where they can capture it with their legs. Maintain strong upright posture so your head stays out of triangle range. When you feel them load their leg to shoot the triangle, immediately drive your free hand to the mat on the opposite side and drive your hips back. The combination of posture, elbow position, and base distribution makes triangle entries extremely difficult."
+      },
+      {
+        "question": "What grip priorities should guide your approach to breaking collar sleeve guard structure?",
+        "answer": "Break the collar grip first since it provides the most control over your posture and positioning. Use a two-on-one grip break where your free hand controls their gripping wrist while you explosively drive your hips back. Once the collar grip is broken, the sleeve grip becomes much less dangerous as they cannot effectively combine it with posture control for attacks. After breaking grips, immediately establish your own controlling grips before they can re-establish."
+      },
+      {
+        "question": "How should you apply pressure when passing collar sleeve guard without exposing yourself to sweeps?",
+        "answer": "Apply pressure in controlled bursts of 15-20 seconds rather than constant grinding. When pressuring forward, keep your base wide and hips low with weight distributed to both legs. Drive your chest and shoulder into their upper body to flatten their hips while maintaining the ability to post your free hand. If you feel them loading for a sweep, immediately sit your hips back and widen your base rather than trying to muscle through the sweep attempt."
+      },
+      {
+        "question": "Your opponent starts to hip escape and angle away as you pressure forward - what adjustment prevents guard recovery?",
+        "answer": "Follow their hip movement with your body rather than letting them create angle. When they escape their hips, immediately cut your knee through the space they create toward their far hip. Use your chest to pin their near shoulder while your knee slides across their thigh line. This knee cut motion intercepts their guard recovery by occupying the space before they can insert frames or hooks. The key is reacting immediately to hip movement rather than allowing them to complete the escape and re-establish guard structure."
+      },
+      {
+        "question": "What indicators tell you an opponent is about to attempt a pendulum or flower sweep from collar sleeve guard?",
+        "answer": "Watch for hip elevation and angle creation as they shift their body perpendicular to yours. They will typically extend the sleeve-grip side leg while loading weight onto the opposite hip. The collar pull will intensify and change direction from straight back to angular, pulling you toward the sweeping direction. Their free leg will begin to hook behind your leg or elevate toward your shoulder. Recognizing these loading motions allows you to preemptively base out in the opposite direction of their sweep before they can generate momentum."
+      },
+      {
+        "question": "How do you manage energy when facing an opponent with very active collar sleeve guard?",
+        "answer": "Establish a rhythm where you apply intense passing pressure for 15-20 seconds, then briefly disengage to a safe standing or combat base distance for 5-10 seconds. During pressure phases, work to break grips and advance position. During recovery phases, maintain distance that prevents them from re-establishing ideal grips without expending energy defending. Avoid trying to pass through continuous grinding which leads to exhaustion and mistakes. Also focus on efficient grip breaks using leverage rather than strength to conserve grip endurance."
+      }
+    ]
+  },
+  "bottom": {
+    "name": "Collar Sleeve Guard Bottom",
+    "description": "Control opponent with cross-collar and sleeve grips. Learn sweep mechanics, triangle entries, and off-balancing principles from collar sleeve guard bottom position.",
+    "tags": [
+      "Guard",
+      "Open Guard",
+      "Collar Sleeve",
+      "Sweeps",
+      "Triangles",
+      "Intermediate"
+    ],
+    "overview": "From the bottom perspective, collar sleeve guard represents an active offensive position where you control the engagement through strategic grip placement and systematic attack sequencing. Your primary objective is to break the opponent's posture using the collar grip while the sleeve grip prevents them from establishing base or advancing their position.\n\nThe bottom player's success in collar sleeve guard depends on maintaining active hip movement and constantly threatening attacks. Static positioning allows the opponent to establish counter-grips, stack your guard, or initiate passing sequences. Effective bottom players create a rhythm of angle changes, grip adjustments, and attack threats that keep opponents reactive and defensive.\n\nGrip establishment follows a specific hierarchy: secure the cross-collar grip first as it provides the most control over posture and position, then establish the same-side sleeve grip to complete the guard structure. The collar grip typically uses four fingers inside the collar near the opponent's shoulder or lapel, creating maximum leverage for pulling and breaking posture. The sleeve grip controls the wrist or sleeve fabric at the forearm, preventing posting and managing distance.\n\nOnce grips are established, your legs play crucial roles in maintaining the guard. The foot on the sleeve-grip side typically posts on the opponent's hip or bicep, creating a frame that maintains distance and prevents forward pressure. The other leg remains mobile, ready to pump the hip for sweeps, hook for off-balancing, or elevate for triangle entries. This leg mobility differentiates effective collar sleeve guard from static positioning.\n\nAttack sequences from collar sleeve guard bottom typically begin with off-balancing attempts that force defensive reactions. When you pull the collar and extend the opponent forward while framing with your sleeve-side leg, you create immediate instability. Opponents typically respond by either posting with their free hand, sitting back to recover posture, or attempting to circle around your frames. Each response opens specific attack opportunities.\n\nThe position's effectiveness against different passing styles varies based on grip maintenance and angle adjustment. Against pressure passers, the collar sleeve structure excels at maintaining distance and creating off-balancing moments that disrupt forward progression. Against speed passers, the grips provide immediate feedback about direction changes, allowing you to adjust angles and maintain connection. Against stack passers, the collar grip becomes essential for preventing the opponent from driving your knees to your chest.\n\nEnergy management in collar sleeve guard bottom requires balancing active movement with strategic conservation. Constantly threatening attacks and changing angles demands significant core and grip endurance, but passive positioning allows opponents to dictate the engagement pace. Experienced practitioners develop a rhythm that applies pressure through threats and grips while allowing brief moments of lower intensity when opponents are adequately controlled.\n\nTransitioning out of collar sleeve guard bottom occurs through successful sweeps, submission attempts, or strategic position changes. Sweeps typically target moments when the opponent's base is compromised by your off-balancing forces. Submission attempts flow naturally from collar sleeve structure, particularly triangles when opponents defend sweeps by posting. Position changes to more advanced guards occur when opponents establish dangerous counter-grips or begin successful passing sequences.",
+    "state_properties": {
+      "point_value": 0,
+      "position_type": "Offensive",
+      "risk_level": "Low to Medium",
+      "energy_cost": "Medium",
+      "time_sustainability": "Medium to Long"
+    },
+    "state_invariants": [
+      "Bottom player maintains cross-collar grip with four fingers deep inside opponent's collar near the shoulder, creating direct leverage over upper body rotation and posture control while keeping the elbow tight to prevent grip breaks",
+      "Bottom player controls same-side sleeve at the wrist or forearm with firm grip, preventing the opponent from posting or establishing base on that side while maintaining straight arm extension to manage distance effectively",
+      "Bottom player's hips remain mobile and elevated off the mat, never flat, allowing constant angle adjustments and the ability to generate rotational forces through leg pumping and hip movement that compromise opponent's balance"
+    ],
+    "prerequisites": [
+      "Opponent has opened your closed guard or you have opened guard deliberately",
+      "You have established cross-collar grip before opponent secures dominant grips",
+      "You have space to establish sleeve grip on same side as collar grip",
+      "Your hips are mobile and not pinned to the mat by opponent's pressure",
+      "Opponent is in kneeling or standing position allowing guard structure"
+    ],
+    "key_principles": [
+      "Collar grip pulls continuously to break posture and prevent opponent base",
+      "Sleeve grip extends to create distance and prevent posting on that side",
+      "Hip movement generates rotational forces that amplify grip control",
+      "Legs create frames on hips or biceps to maintain distance management",
+      "Angle changes prevent opponent from establishing static passing position",
+      "Attack threats keep opponent defensive and unable to establish counter-grips",
+      "Grip sequencing determines available attack options and sweep directions"
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent maintains square posture and strong base with both knees planted",
+        "actions": [
+          {
+            "technique": "Hip Bump Sweep",
+            "target": "Mount",
+            "probability": 55
+          },
+          {
+            "technique": "Pendulum Sweep",
+            "target": "Mount",
+            "probability": 60
+          }
+        ]
+      },
+      {
+        "condition": "If opponent posts free hand forward to defend collar pull or sweep attempt",
+        "actions": [
+          {
+            "technique": "Triangle Setup",
+            "target": "Triangle Control",
+            "probability": 65
+          },
+          {
+            "technique": "Omoplata Sweep",
+            "target": "Omoplata Control",
+            "probability": 50
+          }
+        ]
+      },
+      {
+        "condition": "If opponent sits back heavily to break posture and defend collar grip",
+        "actions": [
+          {
+            "technique": "Flower Sweep",
+            "target": "Mount",
+            "probability": 55
+          },
+          {
+            "technique": "Scissor Sweep",
+            "target": "Mount",
+            "probability": 65
+          }
+        ]
+      },
+      {
+        "condition": "If opponent attempts to circle around to pass toward sleeve-grip side",
+        "actions": [
+          {
+            "technique": "Spider Guard Variations",
+            "target": "Spider Guard",
+            "probability": 60
+          },
+          {
+            "technique": "Lasso Guard Variations",
+            "target": "Lasso Guard",
+            "probability": 55
+          }
+        ]
+      },
+      {
+        "condition": "If opponent stands up completely to initiate standing guard pass",
+        "actions": [
+          {
+            "technique": "Technical Stand Up",
+            "target": "Standing Position",
+            "probability": 50
+          },
+          {
+            "technique": "Arm Drag to Back",
+            "target": "Back Control",
+            "probability": 45
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Maintaining static hip position without constant angle adjustment",
+        "consequence": "Allows opponent to establish counter-grips and initiate passing sequences with predictable attack angles",
+        "correction": "Keep hips elevated and constantly shift angles 15-30 degrees while maintaining grip tension to prevent opponent from settling into stable passing position"
+      },
+      {
+        "error": "Gripping the sleeve too high at the bicep or shoulder instead of wrist/forearm",
+        "consequence": "Opponent can post hand on ground or your body, establishing base and negating distance control",
+        "correction": "Control the sleeve at the wrist or mid-forearm where you have maximum leverage over posting attempts and can fully extend their arm"
+      },
+      {
+        "error": "Pulling collar grip straight back toward your chest instead of at angles",
+        "consequence": "Opponent can maintain base by leaning forward into the pull without compromising balance",
+        "correction": "Pull collar at 45-degree angles toward your shoulders, creating rotational forces that disrupt square base and open sweep opportunities"
+      },
+      {
+        "error": "Allowing opponent to establish cross-face or collar grips before securing your own grips",
+        "consequence": "Opponent controls engagement timing and can flatten you out or pressure pass before your guard structure is established",
+        "correction": "Prioritize collar grip establishment immediately when guard opens, using frames and hip movement to prevent opponent grips until your structure is complete"
+      },
+      {
+        "error": "Keeping both legs static in fixed positions instead of one mobile attack leg",
+        "consequence": "Cannot generate sweeping momentum or adjust for opponent movement, making attacks predictable and easily defended",
+        "correction": "Maintain one leg as active frame on hip/bicep while other leg stays mobile for hooking, pumping, and triangle entries"
+      },
+      {
+        "error": "Threatening only one attack repeatedly without creating combination sequences",
+        "consequence": "Opponent learns to defend specific attack and can focus defensive energy on shutting down predictable offense",
+        "correction": "Chain attacks where defense of one technique directly exposes opponent to complementary attack (sweep to triangle, triangle to omoplata)"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Collar Sleeve Grip Establishment vs. Resistance",
+        "description": "Partner starts in combat base with active hands. You must establish cross-collar and sleeve grips within 10 seconds while partner uses frames and grip fighting to prevent your grips. Reset and repeat, focusing on grip sequencing and maintaining hip mobility during grip fighting exchanges.",
+        "duration": "5 minutes"
+      },
+      {
+        "name": "Off-Balancing Cycle Drill",
+        "description": "With collar sleeve grips established, practice continuous off-balancing in all four directions (forward pull, rotational left, rotational right, pulling to sitting position). Partner maintains base without defending specific techniques. Focus on hip movement generating rotational forces that amplify grip control.",
+        "duration": "4 minutes"
+      },
+      {
+        "name": "Triangle Entry Timing Drill",
+        "description": "Partner starts in collar sleeve guard and repeatedly posts their free hand in different positions and timings. You must recognize posting moment and immediately shoot triangle entry with proper leg positioning. Reset after each attempt regardless of success. Develops recognition speed for posting reactions.",
+        "duration": "5 minutes"
+      },
+      {
+        "name": "Sweep to Guard Recovery Flow",
+        "description": "Attempt collar sleeve sweep (pendulum, flower, or scissor). If partner defends and starts to pass, immediately recover guard using hip escapes and reguard. If sweep succeeds, partner allows mount then initiates bridge and roll escape. Continuous flow developing sweep commitment and recovery skills.",
+        "duration": "6 minutes"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Spider Guard",
+        "relationship": "Advanced variation - add second sleeve grip for enhanced control"
+      },
+      {
+        "name": "Lasso Guard",
+        "relationship": "Specialized variation - thread leg through sleeve arm"
+      },
+      {
+        "name": "Triangle Control",
+        "relationship": "Primary submission path when opponent posts to defend sweeps"
+      },
+      {
+        "name": "Omoplata Control",
+        "relationship": "Alternative submission when triangle is defended"
+      },
+      {
+        "name": "Closed Guard",
+        "relationship": "Common entry position before opening to collar sleeve"
+      },
+      {
+        "name": "De La Riva Guard",
+        "relationship": "Complementary guard combining hooks with collar sleeve grips"
+      },
+      {
+        "name": "Mount",
+        "relationship": "Target position after successful sweep completion"
+      },
+      {
+        "name": "Back Control",
+        "relationship": "Alternative target when opponent turns away during attacks"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "beginner": 50,
+        "intermediate": 65,
+        "advanced": 80,
+        "description": "Ability to maintain collar sleeve guard against passing attempts"
+      },
+      "advancement_probability": {
+        "beginner": 40,
+        "intermediate": 55,
+        "advanced": 70,
+        "description": "Likelihood of successful sweep or transition to better position"
+      },
+      "submission_probability": {
+        "beginner": 25,
+        "intermediate": 40,
+        "advanced": 55,
+        "description": "Probability of finishing submission directly from collar sleeve guard"
+      },
+      "average_time": "45-90 seconds before sweep attempt or position change"
+    },
+    "transitions": [
+      {
+        "transition": "Pendulum Sweep",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Flower Sweep",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Triangle Setup",
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Omoplata Sweep",
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Hip Bump Sweep",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Scissor Sweep",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Arm Drag to Back",
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Technical Stand Up",
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Lasso Guard Variations",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Spider Guard Variations",
+        "attempt_probability": 11
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "Your opponent starts to posture up strongly against your collar grip - what immediate adjustment do you make?",
+        "answer": "Pull the collar at a 45-degree angle toward one of your shoulders rather than straight back toward your chest. This angular pull creates rotational force that is much harder to resist than a linear pull. Simultaneously elevate your hips and pump your legs to add lower body force to the pull. If they continue posturing, transition to a sweep that capitalizes on their backward weight shift, such as a flower sweep or sitting guard sweep, rather than fighting a losing strength battle."
+      },
+      {
+        "question": "What are the essential grips for maintaining effective collar sleeve guard?",
+        "answer": "The cross-collar grip should have four fingers deep inside the collar near the opponent's shoulder or upper chest, with thumb outside for maximum purchase. This grip controls posture and creates rotational leverage. The same-side sleeve grip controls at the wrist or mid-forearm, never higher than the elbow, to prevent posting and manage distance. The wrist-level grip gives you the longest lever arm and maximum control over where their hand can reach."
+      },
+      {
+        "question": "How do you shut down a toreando pass attempt from collar sleeve guard?",
+        "answer": "When you feel them grab your knees or pants to initiate toreando, immediately frame with your feet on their hips or biceps to maintain distance. Pull hard on the collar grip to break their posture forward which compromises their passing base. If they commit to the lateral step, follow their movement with your hips by hip escaping in the same direction while maintaining collar tension. The collar grip is your anchor - as long as you keep pulling them forward and off-balance, they cannot complete the lateral passing motion effectively."
+      },
+      {
+        "question": "What grip priorities guide your attack selection from collar sleeve guard?",
+        "answer": "Your attack options flow from which grip is strongest. If your collar grip is deep and controlling their posture effectively, prioritize sweeps that use collar pulls like pendulum and flower sweeps. If your sleeve grip has full extension preventing their posting, triangles become high percentage because they cannot use that arm to defend. When both grips are strong, you can chain any attack because their defensive options are limited. Always secure the collar grip first as it provides more versatile control."
+      },
+      {
+        "question": "How should you apply off-balancing pressure to set up sweeps from collar sleeve guard?",
+        "answer": "Create continuous multi-directional off-balancing rather than single committed pulls. Alternate between pulling their collar forward to break posture, then angular pulls toward your shoulders to create rotational instability. Use your legs actively - pump the hip with the sleeve-side foot on their bicep or hip while your other leg hooks behind their leg or elevates for attacks. This constant movement prevents them from settling their weight and creates the loading moment where a committed sweep becomes high percentage. The goal is to make them constantly adjust their base until they commit too far in one direction."
+      },
+      {
+        "question": "Your opponent breaks your sleeve grip and starts advancing their knee to pass - what recovery options do you have?",
+        "answer": "Immediately hip escape away from their advancing knee while maintaining your collar grip anchor. Use your free hand to frame on their shoulder or bicep on the passing side to create space. If space allows, re-establish sleeve control before they complete the pass. If they have too much momentum, transition to lasso guard by threading your leg around their arm on the passing side, or transition to De La Riva by inserting a hook on their far leg. The collar grip gives you a connection point to work guard retention even when other grips are lost."
+      },
+      {
+        "question": "What indicators tell you it's time to transition from sweep attempts to triangle attacks?",
+        "answer": "The primary indicator is when the opponent posts their free hand on the mat or your body to defend sweep attempts. This hand posting creates the arm isolation needed for triangle entry. Watch for their free arm to extend forward - this is your cue to immediately shoot your leg over their shoulder while pulling their head down with the collar grip. Other indicators include when they elevate onto their toes for base (hips become light making leg entry easier) or when they square up to you directly (makes their arm more accessible to your leg)."
+      },
+      {
+        "question": "How do you manage energy during extended collar sleeve guard exchanges without becoming passive?",
+        "answer": "Develop a rhythm that alternates between high-intensity attack sequences and lower-intensity control phases. During attack phases (10-15 seconds), commit fully to sweep or submission chains with active hip movement. During control phases (5-10 seconds), maintain grip tension and hip elevation but reduce large movements while you recover grip strength and assess their reactions. Never go completely passive - always maintain some degree of off-balancing pressure through your grips. Focus on efficiency by using hip movement to amplify grip power rather than relying solely on grip strength."
+      }
+    ]
   }
 }

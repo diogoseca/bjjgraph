@@ -237,6 +237,36 @@
       "question": "What are at least three valid tap signals a partner might use when caught in a Von Flue choke, and why is recognizing these signals especially important for this submission?",
       "answer": "Valid tap signals include: 1) Verbal tap (calling out 'tap' or making verbal distress sounds), 2) Physical hand tap on your body or the mat, 3) Physical foot tap on the mat, 4) Releasing the guillotine grip immediately, and 5) Body going limp (indicating unconsciousness). Recognizing these signals is especially important for the Von Flue because the opponent's arms may be trapped in their own guillotine grip, limiting their ability to tap with their hands. Verbal taps become particularly important, as does watching for their grip to loosen (which often indicates impending unconsciousness). You must be hypersensitive to any indication they want to tap, including changes in their breathing or grip pressure.",
       "safety_critical": true
+    },
+    {
+      "question": "Your opponent is stubbornly holding their guillotine grip despite your shoulder pressure. What indicators suggest they are approaching unconsciousness, and what should you do?",
+      "answer": "Key indicators of impending unconsciousness include: their grip beginning to loosen without them intentionally releasing, their body going slack or limp, changes in their breathing pattern (becoming irregular or stopping), their skin color changing (flushing or becoming pale), and lack of purposeful movement or resistance. If you observe any of these signs, you must immediately release all pressure and check their consciousness. Do not wait for a tap—a stubborn opponent may pass out before they decide to tap. The moment you sense they're approaching unconsciousness, the training round is over regardless of whether they formally surrendered.",
+      "safety_critical": true
+    },
+    {
+      "question": "You've established the Von Flue position but your opponent's legs are actively pushing your hips away. What adjustment secures the finish?",
+      "answer": "When facing leg pressure pushing your hips away, immediately walk your hips higher toward their head in small incremental steps. This accomplishes two things: it increases the downward angle of your shoulder pressure (making the choke tighter) and it removes the leverage their legs have to push you. The higher your hips travel toward their head, the less effective their leg push becomes because they lose the angle needed to generate force. Keep your chest heavy and maintain the crossface throughout this adjustment. If they create significant distance despite this, consider transitioning to mount while keeping shoulder pressure on the neck.",
+      "safety_critical": false
+    },
+    {
+      "question": "Why does the Von Flue work specifically against opponents holding a guillotine from bottom position but not against other defensive configurations?",
+      "answer": "The Von Flue only works against opponents holding a guillotine because their own arm creates half of the choking mechanism. When they hold the guillotine grip from bottom, their forearm crosses their own neck, compressing one carotid artery from the inside. Your shoulder then compresses the opposite carotid from the outside. Without their guillotine grip in place, your shoulder pressure alone only compresses one side of the neck, which is insufficient to cause a blood choke. This is why the technique is specifically a counter to the guillotine—it weaponizes their offensive grip against them. Against other defensive positions, this same shoulder pressure would at best be uncomfortable but not create a submission.",
+      "safety_critical": false
+    },
+    {
+      "question": "During competition, your opponent is caught in your Von Flue but neither taps nor releases their grip as time expires. What is the correct response?",
+      "answer": "You must release the submission immediately when time expires, regardless of how close the finish seemed. In competition, the referee will stop the match and you cannot continue the submission after time. From a safety perspective, your opponent may have been about to go unconscious but time saved them. Never try to hold the submission hoping the referee doesn't notice time has expired. Additionally, this scenario demonstrates why competition finishing requires faster pressure application than training—in competition, you may need to apply firmer pressure within the rules to get the tap before time runs out, while always maintaining control to release instantly when required.",
+      "safety_critical": true
+    },
+    {
+      "question": "What crossface grip configuration provides the best control during the Von Flue, and how does it enhance the finishing mechanics?",
+      "answer": "The optimal crossface configuration has your near arm crossing their face with your hand gripping behind their far shoulder or hooking under their far armpit. This grip serves multiple functions: it locks your shoulder in position against their neck by creating a closed circuit of control, it prevents them from turning their head toward you which would relieve the choke, and it allows you to actively drive additional pressure through your shoulder by pulling with your crossface arm. The elbow should stay tight to their near side to eliminate space. This grip configuration transforms the crossface from passive head control into an active pressure multiplier for the choke.",
+      "safety_critical": false
+    },
+    {
+      "question": "Your training partner has been caught in two Von Flue chokes this session and now seems reluctant to attempt guillotines. How should you interpret this and what training adjustment should you make?",
+      "answer": "This reluctance demonstrates the secondary strategic value of the Von Flue—it serves as a deterrent that changes opponent behavior. When training partners know you can counter their guillotine with the Von Flue, they become hesitant to hold the grip from bottom position, which actually makes your guard passing easier. However, for their development, you should now give them space to practice guillotines without immediately countering with the Von Flue. Consider alternating rounds where you allow the guillotine to develop so they can work their technique, versus rounds where you apply the counter. Good training partnership means developing both practitioners, not just demonstrating your counters repeatedly.",
+      "safety_critical": false
     }
   ],
   "training_progressions_and_safety_protocols": [
@@ -296,7 +326,6 @@
   "related_submissions": [
     "Guillotine Choke",
     "Arm in Guillotine",
-    "High Elbow Guillotine",
     "Chin Strap Guillotine",
     "North-South Choke",
     "Arm Triangle",
@@ -316,32 +345,28 @@
       "relationship": "Position being countered by Von Flue technique"
     },
     {
-      "name": "Guillotine Defense",
-      "relationship": "Von Flue is the ultimate counter-defense to guillotine"
-    },
-    {
       "name": "Half Guard",
       "relationship": "Common position where Von Flue can be applied during passing"
-    },
-    {
-      "name": "Shoulder Pressure",
-      "relationship": "Key principle used to execute the choke"
-    },
-    {
-      "name": "Side Control Escape",
-      "relationship": "What opponent should attempt instead of holding guillotine"
-    },
-    {
-      "name": "Guard Pass",
-      "relationship": "Often in progress when Von Flue opportunity presents itself"
     },
     {
       "name": "North-South",
       "relationship": "Alternative position where similar shoulder pressure can be applied"
     },
     {
-      "name": "Defensive Posture",
-      "relationship": "Principle violated by opponent when they hold guillotine from bottom"
+      "name": "Kesa Gatame",
+      "relationship": "Related side control variation with similar pressure principles"
+    },
+    {
+      "name": "Front Headlock",
+      "relationship": "Related upper body control position used in guillotine sequences"
+    },
+    {
+      "name": "Side Control Consolidation",
+      "relationship": "Position to consolidate after successful Von Flue forces grip release"
+    },
+    {
+      "name": "Mount",
+      "relationship": "Alternative finish position when opponent bridges during Von Flue attempt"
     }
   ]
 }

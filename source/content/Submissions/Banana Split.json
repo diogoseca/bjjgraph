@@ -246,6 +246,31 @@
       "question": "Why must you account for individual flexibility differences when applying the banana split?",
       "answer": "The banana split targets flexibility limitations in hip abduction, which varies dramatically between individuals. More flexible opponents (gymnasts, yoga practitioners) may require additional control points or may not feel the submission at all. Less flexible opponents will feel intense pressure much earlier and require extra caution with slower pressure application to prevent muscle tears. Always assess your training partner's flexibility level and adjust your application speed accordingly.",
       "safety_critical": true
+    },
+    {
+      "question": "Your opponent begins walking their hips toward you to reduce the splitting angle - what adjustment maintains finishing pressure?",
+      "answer": "When the opponent walks their hips toward you to close the splitting angle, you must simultaneously scoot your hips away while extending your lockdown leg to maintain the spread. Pull their far leg more aggressively toward you while using your underhook or upper body control to prevent them from advancing further. If they successfully close the angle significantly, consider transitioning to electric chair sweep mechanics before the position deteriorates.",
+      "safety_critical": false
+    },
+    {
+      "question": "What physical indicators suggest you are approaching the submission breaking point?",
+      "answer": "Breaking point indicators include visible straining in the opponent's face, audible grunting or sharp breathing changes, involuntary muscle twitching in the inner thighs, significant resistance followed by sudden relaxation (indicating they've hit their flexibility limit), and the opponent's body beginning to twist or contort to relieve pressure. Recognize these signs and give adequate time for tapping before the breaking point is reached.",
+      "safety_critical": true
+    },
+    {
+      "question": "How should you adjust your grip if the opponent's far leg becomes sweaty or slippery during execution?",
+      "answer": "When grips become compromised due to sweat, switch from ankle control to deeper control points like behind the knee or the lower thigh where there's more surface area and friction. You can also hook their far leg with your own leg rather than relying solely on hand grips. The key is having redundant control mechanisms so losing one grip doesn't result in losing the position entirely.",
+      "safety_critical": false
+    },
+    {
+      "question": "What distinguishes the banana split's pressure mechanism from traditional joint locks like the armbar?",
+      "answer": "The banana split attacks muscular flexibility and compression rather than joint articulation. Traditional joint locks like the armbar hyperextend a joint past its natural range of motion, attacking ligaments and the joint capsule with a clear structural limit. The banana split overstretches muscle groups (adductors, groin, hip flexors) that have no clear structural limit - they simply tear when exceeded. This makes the banana split more dangerous because there's no obvious 'stopping point' before injury occurs.",
+      "safety_critical": true
+    },
+    {
+      "question": "In competition, what strategic advantage does threatening the banana split create even if you don't finish?",
+      "answer": "Threatening the banana split forces the opponent into a defensive dilemma that opens other attacks. When they defend the split by driving forward, they become vulnerable to electric chair sweeps and back takes. When they defend by pulling their leg back, they compromise their base for other sweeps. The banana split threat also causes psychological pressure that can lead to panic-based mistakes. Using it as a positional threat rather than always hunting the finish creates a more complete attacking system from deep half guard.",
+      "safety_critical": false
     }
   ],
   "training_progressions_and_safety_protocols": [
@@ -297,7 +322,6 @@
     "Lockdown",
     "Electric Chair",
     "Half Guard",
-    "Z-Lock Half Guard",
     "Turtle",
     "Truck",
     "Quarter Guard"
@@ -311,9 +335,7 @@
     "Estima Lock",
     "Achilles Lock",
     "Toe Hold",
-    "Kneebar from Half Guard",
-    "Spine Lock",
-    "Suloev Stretch"
+    "Kneebar"
   ],
   "related_content": [
     {
@@ -337,24 +359,16 @@
       "relationship": "Core principle for controlling opponent's legs during setup"
     },
     {
-      "name": "Hip Movement",
-      "relationship": "Essential principle for generating splitting pressure from bottom"
+      "name": "Half Guard",
+      "relationship": "Parent guard system from which banana split entries develop"
     },
     {
-      "name": "Flexibility Training",
-      "relationship": "Understanding flexibility helps both attack and defense of this submission"
+      "name": "Back Control",
+      "relationship": "Alternative target when opponent defends banana split by rolling"
     },
     {
-      "name": "Truck Entry",
-      "relationship": "Transition that can lead to banana split variation"
-    },
-    {
-      "name": "Half Guard Sweeps",
-      "relationship": "Complementary attacks from same position family"
-    },
-    {
-      "name": "Half Guard to Back Take",
-      "relationship": "Alternative attack when banana split controls are established but finish unavailable"
+      "name": "Twister Control",
+      "relationship": "Related control position with similar leg entanglement mechanics"
     }
   ]
 }

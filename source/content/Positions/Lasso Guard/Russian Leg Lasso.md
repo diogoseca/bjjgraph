@@ -56,7 +56,7 @@ Russian Leg Lasso is an advanced variation of the traditional lasso guard that i
 | **Energy Cost** | Medium | Medium |
 | **Time** | Medium | Medium |
 
-**Key Difference:** Deep lasso with extra grip controls
+**Key Difference:** Added grips trade energy for rotational power
 
 
 
@@ -87,32 +87,22 @@ Russian Leg Lasso is an advanced variation of the traditional lasso guard that i
 - Grip fighting must be dynamic - when opponent attacks sleeve grip, immediately transition to alternative attacks rather than purely defending grip
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Lasso Guard Sweeps]]** → [[Mount]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Lasso Guard Sweeps]]** (22% of attempts)
 
-- **[[Lasso Guard Sweeps]]** → [[Mount]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Triangle Setup]]** (16% of attempts)
 
-- **[[Triangle Setup]]** → [[Triangle Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Omoplata Sweep]]** (14% of attempts)
 
-- **[[Omoplata Sweep]]** → [[Omoplata Control]]
-  - Success Rate: Beginner 28%, Intermediate 43%, Advanced 58%
+- **[[De La Riva Sweep]]** (13% of attempts)
 
-- **[[De La Riva Sweep]]** → [[Back Control]]
-  - Success Rate: Beginner 32%, Intermediate 47%, Advanced 62%
+- **[[Balloon Sweep]]** (12% of attempts)
 
-- **[[Lasso Guard Sweeps]]** → [[Side Control]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Armbar from Guard]]** (11% of attempts)
 
-- **[[Armbar from Guard]]** → [[Armbar Control]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
-
-- **[[Back Take Generic]]** → [[Back Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Back Take Generic]]** (12% of attempts)
 
 
 ### Common Mistakes
@@ -170,29 +160,22 @@ Russian Leg Lasso is an advanced variation of the traditional lasso guard that i
 - Recognize when to address the lasso directly versus when to pass around it using positional adjustments
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Lasso Guard Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Lasso Guard Pass]]** (18% of attempts)
 
-- **[[Knee Slice Pass]]** → [[Half Guard]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Knee Slice Pass]]** (16% of attempts)
 
-- **[[Toreando Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Toreando Pass]]** (15% of attempts)
 
-- **[[Long Step Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Long Step Pass]]** (12% of attempts)
 
-- **[[Leg Drag Pass]]** → [[Leg Drag Control]]
-  - Success Rate: Beginner 28%, Intermediate 42%, Advanced 58%
+- **[[Leg Drag Pass]]** (14% of attempts)
 
-- **[[Pressure Pass]]** → [[Half Guard]]
-  - Success Rate: Beginner 32%, Intermediate 47%, Advanced 62%
+- **[[Pressure Pass]]** (13% of attempts)
 
-- **[[Double Under Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 22%, Intermediate 37%, Advanced 52%
+- **[[Double Under Pass]]** (12% of attempts)
 
 
 ### Common Mistakes

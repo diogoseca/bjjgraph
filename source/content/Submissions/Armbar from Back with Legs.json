@@ -235,13 +235,33 @@
       "safety_critical": true
     },
     {
+      "question": "What anatomical structure does this submission attack and what causes the tap?",
+      "answer": "This submission attacks the elbow joint, specifically hyperextending the arm against its natural range of motion. The tap is caused by pressure on the elbow joint's ligaments (medial and lateral collateral ligaments) and the joint capsule itself. The hip bones serve as the fulcrum point, and when hip extension is applied while the wrist is controlled and pulled toward your chest, the elbow is forced into hyperextension. The opponent feels intense pressure on the elbow joint that rapidly escalates toward dislocation if not released.",
+      "safety_critical": true
+    },
+    {
       "question": "Why must you maintain at least one hook during the initial transition phase?",
       "answer": "Maintaining at least one hook during the initial transition prevents opponent from rolling forward over their shoulder or turning into you before your leg configuration is established. If you remove both hooks too early, you lose the back control that provides the necessary control to safely isolate their arm. The hook acts as an anchor point that keeps them in place while you swing your leg over their face. Only once your top leg is secured across their face should you remove the bottom hook to complete the armbar position.",
       "safety_critical": false
     },
     {
-      "question": "What is the correct thumb position for maximum submission effectiveness and safety?",
-      "answer": "The opponent's thumb should point upward toward their head (supinated position) throughout the submission. This pronated arm position creates maximum vulnerability in the elbow joint and ensures that hip extension creates pressure on the elbow rather than the wrist or shoulder. If the thumb points downward, the submission becomes less effective and may cause wrist injury instead of proper elbow pressure. Additionally, the downward thumb position enables the hitchhiker escape, allowing opponent to slip their arm out.",
+      "question": "What is the correct thumb position for maximum submission effectiveness and what happens if the thumb rotates?",
+      "answer": "The opponent's thumb should point upward toward their head (supinated position) throughout the submission. This arm position creates maximum vulnerability in the elbow joint and ensures that hip extension creates pressure on the elbow rather than the wrist or shoulder. If the thumb rotates downward, the submission becomes significantly less effective and enables the hitchhiker escape, where opponent can rotate their arm and slip out. Incorrect thumb position may also cause wrist injury instead of proper elbow pressure, making it both less effective and potentially more dangerous.",
+      "safety_critical": true
+    },
+    {
+      "question": "Your opponent starts to posture up and stack toward you during the finish - what adjustment prevents escape?",
+      "answer": "When opponent attempts to stack, immediately increase the pressure of your top leg across their face, pushing their head away and down to flatten their posture. Simultaneously, angle your hips away from their stacking direction while maintaining tight wrist control. If stacking continues, you may need to transition to a belly-down armbar by following their movement while keeping the arm isolated. The key is early recognition - once they achieve significant stacking angle, escape becomes much more likely. Proactive top leg pressure prevents the stack from initiating.",
+      "safety_critical": false
+    },
+    {
+      "question": "Where exactly should the opponent's elbow be positioned on your body for optimal leverage and why?",
+      "answer": "The opponent's elbow joint should be positioned directly over your hip bones, which serve as the fulcrum point for the submission. If the elbow is too high on your torso, you lose leverage and the submission feels weak because the fulcrum is soft tissue rather than bone. If too low (below your hips), you also lose leverage and create space for them to pull their arm back. Your hips should be slightly elevated with your shoulders lower, creating the optimal lever geometry where small hip extension creates maximum pressure on their elbow. The hip bones provide the hardest, most stable surface for the fulcrum effect.",
+      "safety_critical": false
+    },
+    {
+      "question": "What should you do immediately if your partner shows distress or makes unusual sounds during application?",
+      "answer": "Immediately release all pressure by opening your legs and returning their arm to neutral position, treating any distress signal as a tap. Never wait to confirm or question unusual sounds - err on the side of caution. After releasing, verbally confirm they are okay before continuing training. Some people have difficulty tapping verbally or physically when in extreme pain or panic, so any sign of distress must be treated as a submission. This is especially critical with joint locks where permanent damage can occur in fractions of a second if someone is unable to tap properly.",
       "safety_critical": true
     },
     {
@@ -250,19 +270,24 @@
       "safety_critical": false
     },
     {
-      "question": "What are the two highest-percentage defenses against this submission and how do you counter each?",
-      "answer": "The two highest-percentage defenses are: (1) Rolling forward over their trapped shoulder - countered by keeping your top leg heavy across their face and being prepared to follow the roll while maintaining wrist control, potentially finishing from top position; (2) Turning into you to stack and compress your position - countered by preventing the turn early with active top leg pressure across their face and maintaining proper leg configuration. If the turn begins, you may need to transition to a belly-down armbar or abandon and return to back control. The key is preventing these defenses through proper leg positioning rather than trying to counter them after they begin.",
+      "question": "What are the key indicators that tell you the submission is properly locked before applying finishing pressure?",
+      "answer": "Key indicators include: their elbow is positioned directly over your hip bones, their thumb points upward toward their head, your knees are squeezed tightly together with no space around their shoulder, their wrist is pulled tight to your chest with no slack in your grip, your top leg is heavy across their face preventing rotation, and their body is relatively flat rather than angled toward you. Additionally, you should feel their arm is fully extended with no bend in the elbow before you begin hip extension. If any of these indicators are absent, improve your position before applying pressure.",
       "safety_critical": false
     },
     {
-      "question": "Where exactly should the opponent's elbow be positioned on your body for optimal leverage?",
-      "answer": "The opponent's elbow joint should be positioned directly over your hip bones, which serve as the fulcrum point for the submission. If the elbow is too high on your torso, you lose leverage and the submission feels weak. If too low (below your hips), you also lose leverage and create space for them to pull their arm back. Your hips should be slightly elevated with your shoulders lower, creating the optimal lever geometry where small hip extension creates maximum pressure on their elbow. The hip bones provide the hardest, most stable surface for the fulcrum effect.",
+      "question": "What common grip adjustments might you need to make during the finishing sequence and why?",
+      "answer": "During the finish, you may need to adjust grips to maintain control as opponent struggles. If they attempt to rotate their arm, switch to a two-on-one wrist grip that prevents thumb rotation. If their wrist is slipping, grab their hand directly rather than the wrist for more secure control. Some practitioners switch to a figure-four grip on the wrist for maximum control. You may also need to slide your grip higher toward their elbow if they're creating space at the wrist. The key is maintaining constant tension - never fully release one grip before establishing another.",
       "safety_critical": false
     },
     {
-      "question": "What should you do immediately if your partner shows distress or makes unusual sounds during application?",
-      "answer": "Immediately release all pressure by opening your legs and returning their arm to neutral position, treating any distress signal as a tap. Never wait to confirm or question unusual sounds - err on the side of caution. After releasing, verbally confirm they are okay before continuing training. Some people have difficulty tapping verbally or physically when in extreme pain or panic, so any sign of distress must be treated as a submission. This is especially critical with joint locks where permanent damage can occur in fractions of a second if someone is unable to tap properly.",
-      "safety_critical": true
+      "question": "What is the point of no escape for your opponent in this submission?",
+      "answer": "The point of no escape occurs when your legs are fully configured with knees squeezed tight, their elbow is aligned over your hip bones, their thumb is pointing up with wrist secured to your chest, and your top leg is heavy across their face. Once all these elements are in place, even strong opponents cannot power out because their arm is isolated from their body's strength. The critical moment is when you complete the hip pivot and establish the leg across the face - before this, rolling escapes are possible. After this configuration is locked, only the hitchhiker escape or stacking defense remain viable, both of which are easily countered with proper pressure.",
+      "safety_critical": false
+    },
+    {
+      "question": "In competition, what finishing strategies maximize your success rate with this submission?",
+      "answer": "In competition, establish complete positional control before committing to the finish - rushing leads to failed attempts. Use the threat of rear naked choke to bait arm extension, then immediately transition. Apply steady increasing pressure rather than explosive force even in competition to prevent referee stoppage before tap. If opponent is highly defensive, chain the armbar threat with triangle and back choke attempts to force reactions. Be prepared to follow rolling escapes and finish from the top position. Finally, if they establish a strong defensive grip, maintain pressure and wait for their grip to fatigue rather than trying to rip through it.",
+      "safety_critical": false
     }
   ],
   "training_progressions_and_safety_protocols": [
@@ -322,61 +347,56 @@
   "related_submissions": [
     "Armbar from Back",
     "Rear Naked Choke",
-    "Triangle Choke Back",
     "Armbar from Crucifix",
-    "Kimura from Turtle",
-    "Straight Armbar",
     "Choke from Crucifix",
     "Armbar Finish",
     "Belly Down Armbar",
     "Triangle to Armbar",
     "Armbar from Mount",
-    "Mounted Crucifix"
+    "Bow and Arrow Choke",
+    "Kimura",
+    "Omoplata"
   ],
   "related_content": [
     {
-      "name": "Back Control to Crucifix",
-      "relationship": "Alternative transition from same starting position if armbar is defended"
+      "name": "Back Control",
+      "relationship": "Primary starting position providing the dominant control needed for this submission"
     },
     {
-      "name": "Arm Drag to Back",
-      "relationship": "Common entry to establish the back control needed for this submission"
+      "name": "Body Triangle",
+      "relationship": "Enhanced back control variation offering even tighter control during the armbar transition"
     },
     {
-      "name": "Triangle to Back",
-      "relationship": "Alternative path to back control from guard positions"
+      "name": "Crucifix",
+      "relationship": "Alternative transition target if armbar is defended by reaching back"
     },
     {
-      "name": "Submission Chains",
-      "relationship": "Conceptual framework for combining this armbar with other back attacks"
+      "name": "Armbar Control",
+      "relationship": "Control position established before applying finishing pressure"
     },
     {
-      "name": "Control Maintenance",
-      "relationship": "Fundamental principle for keeping back control during submission transitions"
+      "name": "Rear Naked Choke",
+      "relationship": "Primary submission that creates armbar opportunities when defended"
     },
     {
-      "name": "Armbar Escape",
-      "relationship": "Defensive perspective showing how opponents will attempt to counter this technique"
+      "name": "Armbar from Back",
+      "relationship": "Related armbar variation with different leg configuration from same starting position"
     },
     {
-      "name": "Back Attack System",
-      "relationship": "Overall system where this submission fits as one finishing option from back control"
-    },
-    {
-      "name": "Kimura",
-      "relationship": "Alternative arm attack from back control when armbar is not available"
-    },
-    {
-      "name": "Back Escape Series",
-      "relationship": "Understanding opponent's escape priorities helps recognize armbar opportunities"
-    },
-    {
-      "name": "Omoplata",
-      "relationship": "Another shoulder/arm attack that can be combined in submission chains from back control"
+      "name": "Belly Down Armbar",
+      "relationship": "Transition option when opponent rolls or stacks during standard finish"
     },
     {
       "name": "Triangle to Armbar",
-      "relationship": "Shows similar transition mechanics between submissions using leg configuration"
+      "relationship": "Demonstrates similar leg-based control mechanics for submission transitions"
+    },
+    {
+      "name": "Bow and Arrow Choke",
+      "relationship": "Alternative back control submission when arm isolation proves difficult"
+    },
+    {
+      "name": "Kimura",
+      "relationship": "Alternative arm attack from back control when armbar angle is not available"
     }
   ]
 }

@@ -61,7 +61,6 @@ The Mount position represents the pinnacle of positional dominance in Brazilian 
 | [[Mounted Triangle]] | High | Medium to High | High | Medium | Mount pressure with triangle mechanics |
 | [[Mounted Crucifix]] | High | Low | High | Low | Mount stability with arm isolation control |
 | [[3-4 Mount]] | High | Low to Medium | High | Medium | Asymmetric leg configuration for submissions |
-| [[Mount Control]] | High | Low to Medium | High | Low | Elevated position maximizes submissions |
 
 
 
@@ -92,32 +91,20 @@ The Mount position represents the pinnacle of positional dominance in Brazilian 
 - Systematic progression - Follow escape hierarchy rather than random techniques
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Elbow Escape]]** → [[Closed Guard]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 65%
+- **[[Elbow Escape]]** (25% of attempts)
 
-- **[[Upa Escape]]** → [[Closed Guard]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Upa Escape]]** (20% of attempts)
 
-- **[[Bridge and Roll]]** → [[Mount]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+- **[[Hip Escape]]** (25% of attempts)
 
-- **[[Hip Escape]]** → [[Half Guard]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 70%
+- **[[Frame and Shrimp]]** (15% of attempts)
 
-- **[[Frame and Shrimp]]** → [[Open Guard]]
-  - Success Rate: Beginner 20%, Intermediate 40%, Advanced 60%
+- **[[Deep Half Entry]]** (5% of attempts)
 
-- **[[Deep Half Entry]]** → [[Deep Half Guard]]
-  - Success Rate: Beginner 10%, Intermediate 25%, Advanced 45%
-
-- **[[Lockdown Sweeps]]** → [[Mount]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 50%
-
-- **[[Technical Standup]]** → [[Standing Position]]
-  - Success Rate: Beginner 10%, Intermediate 20%, Advanced 35%
+- **[[Bridge and Roll]]** (10% of attempts)
 
 
 ### Common Mistakes
@@ -179,38 +166,26 @@ The Mount position represents the pinnacle of positional dominance in Brazilian 
 - Submission from reaction - Allow opponent's defensive movements to guide attack selection
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Armbar from Mount]]** → [[Armbar Control]]
-  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 75%
+- **[[Armbar from Mount]]** (15% of attempts)
 
-- **[[Americana from Mount]]** → [[Americana Control]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 70%
+- **[[Americana from Mount]]** (12% of attempts)
 
-- **[[Cross Collar Choke]]** → [[Won by Submission]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 65%
+- **[[Cross Collar Choke]]** (10% of attempts)
 
-- **[[Ezekiel from Mount]]** → [[Won by Submission]]
-  - Success Rate: Beginner 20%, Intermediate 40%, Advanced 60%
+- **[[Ezekiel from Mount]]** (8% of attempts)
 
-- **[[Transition to Back Control]]** → [[Back Control]]
-  - Success Rate: Beginner 40%, Intermediate 60%, Advanced 80%
+- **[[Gift Wrap to Technical Mount]]** (10% of attempts)
 
-- **[[Mounted Triangle]]** → [[Mounted Triangle]]
-  - Success Rate: Beginner 15%, Intermediate 35%, Advanced 55%
+- **[[S-Mount Transition]]** (10% of attempts)
 
-- **[[Kimura from Mount]]** → [[Kimura Control]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 65%
+- **[[High Mount Transition]]** (12% of attempts)
 
-- **[[Transition to Technical Mount]]** → [[Technical Mount]]
-  - Success Rate: Beginner 45%, Intermediate 65%, Advanced 85%
+- **[[Mounted Triangle]]** (8% of attempts)
 
-- **[[S-Mount Transition]]** → [[S Mount]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 70%
-
-- **[[Gift Wrap Control]]** → [[Gift Wrap]]
-  - Success Rate: Beginner 20%, Intermediate 40%, Advanced 60%
+- **[[Consolidate Mount]]** (15% of attempts)
 
 
 ### Common Mistakes

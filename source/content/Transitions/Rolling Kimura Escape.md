@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Rolling Kimura Escape | BJJ Technique | BJJ Graph"
 description: "Learn Rolling Kimura Escape in BJJ. Dynamic rolling technique from Kimura Control to Guard Recovery. Success: Beginner 30%, Intermediate 50%, Advanced 70%."
@@ -16,7 +17,7 @@ description: "Learn Rolling Kimura Escape in BJJ. Dynamic rolling technique from
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Rolling Kimura Escape in BJJ",
-  "description": "Step-by-step guide for Rolling Kimura Escape from Kimura Control to Open Guard.",
+  "description": "Step-by-step guide for Rolling Kimura Escape from Kimura Control/Top. Possible outcomes: Open Guard/Bottom (70%), Kimura Control/Top (20%), Kimura Control/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -160,11 +161,25 @@ description: "Learn Rolling Kimura Escape in BJJ. Dynamic rolling technique from
 
 The Rolling Kimura Escape is an advanced defensive technique used to escape when an opponent has secured a tight Kimura grip on your arm. This dynamic escape utilizes forward rolling mechanics to relieve shoulder pressure and create space for guard recovery. The technique is particularly effective when traditional defensive frames have failed and the shoulder lock is being applied with significant pressure. The rolling motion works by using momentum and body rotation to change the angle of attack, transforming what would be a devastating submission into an opportunity to return to a neutral or even advantageous position. This escape requires excellent timing, spatial awareness, and complete commitment to the rolling motion. The key principle is that by rolling in the direction of the lock rather than resisting against it, you can momentarily relieve pressure while repositioning your body to defend. Success depends heavily on recognizing the exact moment when your opponent is committed to the finish and cannot easily adjust their base to follow your roll.
 
-**Starting Position**: [[Kimura Control]]
-**Ending Position**: [[Open Guard]]
+**From Position**: [[Kimura Control/Top]]
 **Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Open Guard/Bottom]] | 70% |
+| Failure | [[Kimura Control/Top]] | 20% |
+| Counter | [[Kimura Control/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

@@ -410,13 +410,23 @@ The Loop Choke from Mount is a devastating gi-based blood choke that leverages t
 - [[Cross Collar Choke]] - Complementary attack that sets up loop choke when defended
 - [[Armbar from Mount]] - Alternative submission to threaten when opponent defends collar, creating reactions
 - [[Americana from Mount]] - Arm attack that can be used to force opponent to expose collar while defending
-- [[Transition to Mount]] - Entry sequences that establish the necessary positional foundation
+- [[Side Control to Mount]] - Entry sequences that establish the necessary positional foundation
 - [[Collar Control]] - Fundamental principle governing grip fighting and collar manipulation
 - [[Mount to Armbar]] - Transition used when loop choke is defended, maintaining attacking pressure
 - [[Technical Mount]] - Modified position that can enhance loop choke finishing mechanics through improved angle
 - [[Ezekiel from Mount]] - Alternative mount choke useful against opponents who defend their collar differently
 - [[Side Control]] - Common transition destination if opponent turns during loop choke attempt, allowing continuation from new angle
 
+
+</section>
+
+<section id="terminal-state" class="content-section">
+
+## Match Outcome
+
+Successful execution of Loop Choke from Mount leads to → [[game-over|Game Over]]
+
+*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
 
 </section>
 

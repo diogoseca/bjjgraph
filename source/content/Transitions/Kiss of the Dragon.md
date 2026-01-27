@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Kiss of the Dragon | BJJ Technique | BJJ Graph"
 description: "Learn Kiss of the Dragon in BJJ. Rolling transition from Turtle to Back Control bypassing defensive layers. Success rates: Beginner 25%, Intermediate 40%, Advanced 60%."
@@ -16,7 +17,7 @@ description: "Learn Kiss of the Dragon in BJJ. Rolling transition from Turtle to
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Kiss of the Dragon in BJJ",
-  "description": "Step-by-step guide for Kiss of the Dragon from Turtle to Back Control.",
+  "description": "Step-by-step guide for Kiss of the Dragon from Turtle/Top. Possible outcomes: Back Control/Top (60%), Turtle/Top (30%), Turtle/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -160,11 +161,25 @@ description: "Learn Kiss of the Dragon in BJJ. Rolling transition from Turtle to
 
 The Kiss of the Dragon is an advanced rolling back take technique that allows the top player to bypass the turtle position's defensive structure and directly establish back control. Named for its distinctive forward rolling motion that resembles a dragon's head curling down, this technique exploits the moment when an opponent turtles defensively. The practitioner uses a forward somersault while maintaining grip control on the opponent's hips or belt, rolling underneath and behind the turtle position to emerge directly on the back. This dynamic movement is particularly effective against opponents who are skilled at defending traditional back take attempts, as it circumvents the typical defensive frames and hand fighting that occur during standard back attacks. The technique requires excellent spatial awareness, timing, and the ability to maintain connection throughout the inversion. When executed properly, the Kiss of the Dragon provides an almost undefendable path to the back, as the defender's protective layers are bypassed entirely through the rolling motion.
 
-**Starting Position**: [[Turtle]]
-**Ending Position**: [[Back Control]]
+**From Position**: [[Turtle/Top]]
 **Success Rates**: Beginner 25%, Intermediate 40%, Advanced 60%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Back Control/Top]] | 60% |
+| Failure | [[Turtle/Top]] | 30% |
+| Counter | [[Turtle/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

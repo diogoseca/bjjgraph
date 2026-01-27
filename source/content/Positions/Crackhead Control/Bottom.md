@@ -21,37 +21,37 @@ description: "Master Crackhead Control Bottom in BJJ. 10th Planet's innovative t
     {
       "@type": "HowToStep",
       "name": "Execute Turtle to Guard",
-      "text": "From this position, execute Turtle to Guard to transition to Closed Guard. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Turtle to Guard. This technique is attempted in 18% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Granby Roll",
-      "text": "From this position, execute Granby Roll to transition to Closed Guard. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Granby Roll. This technique is attempted in 15% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Technical Standup",
-      "text": "From this position, execute Technical Standup to transition to Standing Position. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Technical Standup. This technique is attempted in 17% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Dogfight Position Bottom",
-      "text": "From this position, execute Dogfight Position Bottom to transition to Dogfight Position. Success rate for advanced practitioners: 70%.",
+      "name": "Execute Sit Through Escape",
+      "text": "From this position, attempt Sit Through Escape. This technique is attempted in 19% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Deep Half Entry",
-      "text": "From this position, execute Deep Half Entry to transition to Deep Half Guard. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 14% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape",
-      "text": "From this position, execute Hip Escape to transition to Half Guard. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Hip Escape. This technique is attempted in 17% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -160,7 +160,7 @@ description: "Master Crackhead Control Bottom in BJJ. 10th Planet's innovative t
 
 <section id="overview" class="content-section">
 
-Crackhead Control Bottom is an innovative defensive turtle position developed by 10th Planet's as part of the 10th Planet Jiu-Jitsu system. This position represents a modern evolution of traditional turtle defense, characterized by extreme hip mobility, aggressive hand fighting, and constant motion to prevent back takes and maintain defensive integrity. Unlike static turtle positions, Crackhead Control emphasizes dynamic movement, making it exceptionally difficult for opponents to establish dominant grips or secure controlling positions.
+Crackhead Control Bottom is an innovative defensive turtle position developed as part of the 10th Planet Jiu-Jitsu system. This position represents a modern evolution of traditional turtle defense, characterized by extreme hip mobility, aggressive hand fighting, and constant motion to prevent back takes and maintain defensive integrity. Unlike static turtle positions, Crackhead Control emphasizes dynamic movement, making it exceptionally difficult for opponents to establish dominant grips or secure controlling positions.
 
 The position derives its name from the frenetic, unpredictable energy required to maintain it effectively - constantly shifting weight, rotating hips, and fighting grips with relentless intensity. This approach transforms turtle from a passive defensive shell into an active, offensive-minded position that creates scramble opportunities and potential for guard recovery or even reversals. The system is particularly effective in no-gi grappling where traditional gi grips are unavailable, forcing opponents to rely on body control that can be disrupted through constant movement and intelligent positioning.
 
@@ -215,77 +215,18 @@ Successful execution requires exceptional cardiovascular conditioning and techni
 
 ## Available Escapes
 
-### [[Turtle to Guard]] → [[Closed Guard]]
+### [[Turtle to Guard]] (18% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Granby Roll]] (15% of attempts)
 
-### [[Granby Roll]] → [[Closed Guard]]
+### [[Technical Standup]] (17% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
+### [[Sit Through Escape]] (19% of attempts)
 
-### [[Technical Standup]] → [[Standing Position]]
+### [[Deep Half Entry]] (14% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Hip Escape]] (17% of attempts)
 
-### [[Dogfight Position Bottom]] → [[Dogfight Position]]
-
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
-
-### [[Deep Half Entry]] → [[Deep Half Guard]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
-
-### [[Hip Escape]] → [[Half Guard]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Turtle to Back Take]]** → [[Back Control]] (Opponent Success: 55%)
-- **[[Crucifix from Turtle]]** → [[Crucifix]] (Opponent Success: 35%)
-- **[[Turtle to Standing]]** → [[Front Headlock]] (Opponent Success: 40%)
-- **[[Darce Setup]]** → [[D'arce Control]] (Opponent Success: 30%)
-- **[[Anaconda Setup]]** → [[Anaconda Control]] (Opponent Success: 30%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Hip Escape]]** → [[Closed Guard]]
-  - Opponent attempts to flatten turtle with chest pressure
-- **[[Granby to Closed Guard]]** → [[Closed Guard]]
-  - Opponent commits weight forward attempting back take
-- **[[Dogfight Position Bottom]]** → [[Dogfight Position]]
-  - Opponent secures single underhook but fails to establish back control
-- **[[Technical Stand Up to Single Leg]]** → [[Standing Position]]
-  - Opponent loses base while attempting to secure grips from top turtle
 
 
 </section>
@@ -296,7 +237,7 @@ Successful execution requires exceptional cardiovascular conditioning and techni
 
 **If opponent attempts to secure seat belt control with both underhooks or cross-face:**
 - Execute **[[Granby Roll]]** → [[Closed Guard]] (Probability: 50%)
-- Execute **[[Dogfight Position Bottom]]** → [[Dogfight Position]] (Probability: 45%)
+- Execute **[[Sit Through Escape]]** → [[Dogfight Position]] (Probability: 45%)
 
 
 **If opponent commits heavy chest pressure attempting to flatten turtle:**
@@ -392,29 +333,39 @@ Continuous flow drill alternating between turtle bottom and various guard positi
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Shortest defensive path to safety
+## Test Your Knowledge
 
-`Crackhead Control Bottom → Granby Roll → Closed Guard → Sweep to Top Position`
+**Q1**: What is the fundamental defensive posture for crackhead control bottom, and why is each element important?
+**A**: The fundamental posture includes: head tucked with chin to chest creating a protective wedge between shoulders to deny chokes, elbows tight to ribs to prevent hook insertion, weight distributed evenly across hands and knees for explosive movement capability, and hips positioned to enable constant circular motion. Each element serves to deny the opponent the stable contact points they need for systematic back attacks.
 
-### High-percentage escape to dominant position
+**Q2**: Your opponent successfully establishes an overhook on your near arm - what is your immediate defensive priority?
+**A**: Immediately intensify hip movement while stripping the grip with your free hand. Do not let them consolidate with a second grip. Circle your hips away from their pressure while keeping elbows tight to prevent hook insertion. If they maintain the overhook, use it as a pivot point for granby roll escape rather than fighting the grip statically. Movement is more important than grip fighting when they have initial control.
 
-`Crackhead Control Bottom → Hip Escape → Half Guard → Old School Sweep → Side Control`
+**Q3**: How do you maintain defensive base while executing the constant hip movement that defines crackhead control?
+**A**: Distribute weight primarily through your knees with hands providing balance and direction changes rather than full weight support. The circular hip motion should feel like stirring a pot - continuous but controlled, with weight shifting smoothly between knees. Keep your center of gravity low and avoid posting too far forward on your hands, which compromises base. The movement disrupts opponent's control without sacrificing your own stability.
 
-### Standing escape to reset
+**Q4**: What are the primary grip attacks you must defend against, and in what order of priority?
+**A**: In order of priority: first defend the seat belt configuration (far arm over shoulder, near arm under armpit) as this directly enables back control; second prevent the cross-face which controls your head and limits movement; third strip collar ties which set up chokes; fourth prevent underhooks which facilitate lifting and turning attacks. The seat belt is most dangerous because it provides both control and immediate choke threats.
 
-`Crackhead Control Bottom → Technical Standup → Standing Position → Single Leg Takedown → Side Control`
+**Q5**: Your opponent has achieved heavy chest pressure and you feel your turtle flattening - what is your recovery sequence?
+**A**: First, create space through explosive hip movement - bump your hips upward while simultaneously circling away from their pressure side. Use your posted hands to push off and create an angle rather than trying to elevate directly against their weight. As you create any space, immediately insert your knee between you and them to begin guard recovery or execute a granby roll away from their pressure. Never fight weight with weight - use angles and timing.
 
-### Dogfight entry to sweep
+**Q6**: How do you recognize when opponent movement has created a genuine guard recovery opportunity versus simply maintaining turtle?
+**A**: Genuine opportunities occur when opponent's weight shifts forward past your centerline (granby roll timing), when they lift to transition positions (technical standup timing), when they release a grip to reach for another (sit-out timing), or when their base narrows attempting to chase your hip movement (half guard insertion timing). You should feel their weight lighten or shift off-center. Static pressure with no weight transfer means maintain turtle and continue movement.
 
-`Crackhead Control Bottom → Dogfight Position → Dogfight Sweep → Back Control`
+**Q7**: What energy management strategy allows you to maintain crackhead control bottom for the 30-90 second duration typically required?
+**A**: Use small, efficient hip circles rather than large explosive movements constantly. Save explosive bursts for genuine escape opportunities. Focus defensive energy on grip prevention rather than grip breaking - it takes less effort to stop a grip from being established than to strip one that's locked in. Breathing should be controlled and rhythmic despite the intensity. Recognize that opponent's attacking efforts cost them energy too; the position favors the bottom player's conditioning if executed correctly.
+
+**Q8**: Your opponent begins inserting a hook while you're in crackhead control bottom - what is the emergency defense protocol?
+**A**: Immediately trap their foot with your same-side hand while circling your hips aggressively away from the hook. If the hook is already deep, drop your hip to the mat on that side while simultaneously granby rolling toward the hook to face them and establish guard. Never let a hook consolidate - either prevent it with hip movement and hand defense, or immediately transition to guard recovery. A single hook is manageable; two hooks means back control is imminent.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -443,7 +394,7 @@ Continuous flow drill alternating between turtle bottom and various guard positi
 - **[[Turtle to Guard]]** - Essential transition for position improvement
 - **[[Technical Standup]]** - Standing escape option from turtle
 - **[[Closed Guard]]** - Primary guard recovery target
-- **[[10th Planet No-Gi Guard System]]** - Originating system for crackhead control methodology
+- **[[Half Guard]]** - Alternative guard recovery target
 
 
 </section>

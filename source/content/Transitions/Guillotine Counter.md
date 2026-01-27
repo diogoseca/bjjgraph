@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Guillotine Counter | BJJ Technique | BJJ Graph"
 description: "Learn Guillotine Counter in BJJ. Step-by-step execution from Guillotine Defense to Side Control Top. Success rates: Beginner 50%, Intermediate 70%, Advanced 85%."
@@ -16,7 +17,7 @@ description: "Learn Guillotine Counter in BJJ. Step-by-step execution from Guill
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Guillotine Counter in BJJ",
-  "description": "Step-by-step guide for Guillotine Counter from Guillotine Control to Side Control.",
+  "description": "Step-by-step guide for Guillotine Counter from Guillotine Control/Top. Possible outcomes: Side Control/Top (75%), Guillotine Control/Top (15%), Guillotine Control/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -160,11 +161,25 @@ description: "Learn Guillotine Counter in BJJ. Step-by-step execution from Guill
 
 The Guillotine Counter is a critical defensive technique that transforms a dangerous submission threat into a dominant top position. When caught in a guillotine choke, whether standing or on the ground, understanding proper defensive mechanics can mean the difference between tapping and establishing control. This counter relies on fundamental principles of posture management, pressure application, and strategic hand positioning to neutralize the choking threat while simultaneously advancing position. The technique is particularly valuable in both gi and no-gi contexts, as guillotine attempts are common across all levels of competition. By mastering this counter, practitioners develop confidence in scramble situations and learn to remain calm under submission pressure. The guillotine counter exemplifies the BJJ principle that every offensive technique has a systematic defense, and that proper technique overcomes strength and panic.
 
-**Starting Position**: [[Guillotine Control]]
-**Ending Position**: [[Side Control]]
+**From Position**: [[Guillotine Control/Top]]
 **Success Rates**: Beginner 50%, Intermediate 70%, Advanced 85%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Side Control/Top]] | 75% |
+| Failure | [[Guillotine Control/Top]] | 15% |
+| Counter | [[Guillotine Control/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

@@ -9,8 +9,6 @@
     "transition",
     "advanced"
   ],
-  "starting_position": "Turtle",
-  "ending_position": "Back Control",
   "success_rates": {
     "beginner": 45,
     "intermediate": 60,
@@ -255,6 +253,24 @@
     {
       "name": "Crucifix",
       "relationship": "Follow-up transition if opponent defends the neck from back control"
+    }
+  ],
+  "from_position": "Turtle/Top",
+  "outcomes": [
+    {
+      "to": "Back Control/Top",
+      "probability": 75,
+      "result": "success"
+    },
+    {
+      "to": "Turtle/Top",
+      "probability": 15,
+      "result": "failure"
+    },
+    {
+      "to": "Turtle/Bottom",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

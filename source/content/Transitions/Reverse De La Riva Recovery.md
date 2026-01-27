@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Reverse De La Riva Recovery | BJJ Technique | BJJ Graph"
 description: "Master Reverse De La Riva Recovery in BJJ. Learn how to re-establish guard control from compromised positions. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%."
@@ -16,7 +17,7 @@ description: "Master Reverse De La Riva Recovery in BJJ. Learn how to re-establi
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Reverse De La Riva Recovery in BJJ",
-  "description": "Step-by-step guide for Reverse De La Riva Recovery from Reverse De La Riva Guard to Reverse De La Riva Guard.",
+  "description": "Step-by-step guide for Reverse De La Riva Recovery from Reverse De La Riva Guard/Bottom. Possible outcomes: Reverse De La Riva Guard/Bottom (75%), Reverse De La Riva Guard/Bottom (15%), Reverse De La Riva Guard/Top (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -158,11 +159,25 @@ The technique becomes necessary when opponents successfully clear the primary ho
 
 Mastering RDLR recovery creates a safety net that allows more aggressive guard play. When you know you can recover the position even when partially compromised, you can take calculated risks with sweeps and submissions without fear of immediate guard passage. This recovery sequence integrates seamlessly with other guard retention concepts, making it a fundamental component of any complete bottom game.
 
-**Starting Position**: [[Reverse De La Riva Guard]]
-**Ending Position**: [[Reverse De La Riva Guard]]
+**From Position**: [[Reverse De La Riva Guard/Bottom]]
 **Success Rates**: Beginner 45%, Intermediate 60%, Advanced 75%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Reverse De La Riva Guard/Bottom]] | 75% |
+| Failure | [[Reverse De La Riva Guard/Bottom]] | 15% |
+| Counter | [[Reverse De La Riva Guard/Top]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

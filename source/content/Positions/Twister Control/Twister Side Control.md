@@ -103,26 +103,20 @@ The learning curve for Twister Side Control is significant, requiring practition
 - Technical stand-up becomes viable only after creating sufficient upper body separation and partial leg extraction
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Granby Roll]]** → [[Half Guard]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+- **[[Granby Roll]]** (15% of attempts)
 
-- **[[Technical Stand-up]]** → [[Standing Position]]
-  - Success Rate: Beginner 10%, Intermediate 25%, Advanced 40%
+- **[[Technical Stand-up]]** (13% of attempts)
 
-- **[[Hip Escape]]** → [[Closed Guard]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Hip Escape]]** (17% of attempts)
 
-- **[[Frame and Shrimp]]** → [[Open Guard]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Frame and Shrimp]]** (18% of attempts)
 
-- **[[Turtle Transition]]** → [[Turtle]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Turtle Transition]]** (21% of attempts)
 
-- **[[Rolling to Guard]]** → [[Half Guard]]
-  - Success Rate: Beginner 18%, Intermediate 33%, Advanced 48%
+- **[[Rolling to Guard]]** (16% of attempts)
 
 
 ### Common Mistakes
@@ -180,38 +174,28 @@ The learning curve for Twister Side Control is significant, requiring practition
 - Dynamic engagement required rather than static pressure maintenance
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Twister Finish]]** → [[Won by Submission]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 55%
+- **[[Twister Finish]]** (9% of attempts)
 
-- **[[Darce Choke]]** → [[Won by Submission]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 60%
+- **[[Darce Choke]]** (10% of attempts)
 
-- **[[Anaconda Choke]]** → [[Won by Submission]]
-  - Success Rate: Beginner 22%, Intermediate 38%, Advanced 58%
+- **[[Anaconda Choke]]** (10% of attempts)
 
-- **[[Kimura]]** → [[Won by Submission]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 65%
+- **[[Kimura]]** (11% of attempts)
 
-- **[[Transition to Truck]]** → [[Truck]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Turtle to Truck]]** (11% of attempts)
 
-- **[[Back Take Generic]]** → [[Back Control]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Back Take Generic]]** (11% of attempts)
 
-- **[[Transition to North-South]]** → [[North-South]]
-  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+- **[[Side Control to North-South]]** (12% of attempts)
 
-- **[[Side Control to Mount]]** → [[Mount]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Side Control to Mount]]** (10% of attempts)
 
-- **[[Arm Triangle]]** → [[Won by Submission]]
-  - Success Rate: Beginner 18%, Intermediate 33%, Advanced 50%
+- **[[Arm Triangle]]** (8% of attempts)
 
-- **[[Calf Slicer]]** → [[Won by Submission]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 48%
+- **[[Calf Slicer]]** (8% of attempts)
 
 
 ### Common Mistakes

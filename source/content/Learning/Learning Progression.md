@@ -57,7 +57,7 @@ After mastering core positions, develop these fundamental technical systems.
 ### Phase 4: Basic Top Game System
 - [[Double leg takedown]] (T002)
 - Basic guard passing sequences
-- [[Transition to Mount]]
+- [[Side Control to Mount]]
 - [[Arm Triangle Setup]]
 
 #### Skills to Develop:

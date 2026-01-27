@@ -21,37 +21,37 @@ description: "Master overhook control from top positions. Wrestling-based whizze
     {
       "@type": "HowToStep",
       "name": "Execute Kimura",
-      "text": "From this position, execute Kimura to transition to Kimura Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Kimura. This technique is attempted in 12% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Darce Choke",
-      "text": "From this position, execute Darce Choke to transition to D'arce Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Darce Choke. This technique is attempted in 11% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Anaconda Choke",
-      "text": "From this position, execute Anaconda Choke to transition to Anaconda Control. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Anaconda Choke. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm Drag to Back",
-      "text": "From this position, execute Arm Drag to Back to transition to Back Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Arm Drag to Back. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Two-on-One to Back Take",
-      "text": "From this position, execute Two-on-One to Back Take to transition to Back Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Two-on-One to Back Take. This technique is attempted in 11% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Snap Down to Front Headlock",
-      "text": "From this position, execute Snap Down to Front Headlock to transition to Front Headlock. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Snap Down to Front Headlock. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -215,101 +215,24 @@ The transitional nature of top overhook distinguishes it from static control pos
 
 ## Available Attacks
 
-### [[Kimura]] → [[Kimura Control]]
+### [[Kimura]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Darce Choke]] (11% of attempts)
 
-### [[Darce Choke]] → [[D'arce Control]]
+### [[Anaconda Choke]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 60%
+### [[Arm Drag to Back]] (12% of attempts)
 
-### [[Anaconda Choke]] → [[Anaconda Control]]
+### [[Two-on-One to Back Take]] (11% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 55%
+### [[Snap Down to Front Headlock]] (12% of attempts)
 
-### [[Arm Drag to Back]] → [[Back Control]]
+### [[Crab Ride to Back]] (11% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 65%
+### [[Crucifix from Turtle]] (9% of attempts)
 
-### [[Two-on-One to Back Take]] → [[Back Control]]
+### [[Side Control to Mount]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 28%
-- Intermediate: 42%
-- Advanced: 60%
-
-### [[Snap Down to Front Headlock]] → [[Front Headlock]]
-
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
-
-### [[Crab Ride to Back]] → [[Crab Ride]]
-
-**Success Rates:**
-- Beginner: 22%
-- Intermediate: 38%
-- Advanced: 58%
-
-### [[Crucifix from Turtle]] → [[Crucifix]]
-
-**Success Rates:**
-- Beginner: 18%
-- Intermediate: 32%
-- Advanced: 50%
-
-### [[Transition to Mount]] → [[Mount]]
-
-**Success Rates:**
-- Beginner: 32%
-- Intermediate: 48%
-- Advanced: 64%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Limp Arm Escape]]** → [[Standing Position]] (Opponent Success: 45%)
-- **[[Circle Away and Recompose]]** → [[Clinch]] (Opponent Success: 35%)
-- **[[Drop Weight and Establish Underhook]]** → [[Underhook Control]] (Opponent Success: 30%)
-- **[[Roll Through to Guard]]** → [[Closed Guard]] (Opponent Success: 25%)
-- **[[Granby Roll]]** → [[Open Guard]] (Opponent Success: 22%)
-- **[[Stand Up and Defend]]** → [[Standing Position]] (Opponent Success: 28%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Kimura from Guard]]** → [[Kimura Control]]
-  - Opponent attempts to pull arm back through overhook by jerking or using backward pressure
-- **[[Darce Setup]]** → [[D'arce Control]]
-  - Opponent drops weight forward trying to escape overhook or drive into you
-- **[[Snap Down]]** → [[Front Headlock]]
-  - Opponent stands up or tries to posture away from overhook control
-- **[[Arm Drag to Back]]** → [[Back Control]]
-  - Opponent circles to trapped arm side attempting to create angle for escape
-- **[[Crab Ride to Back]]** → [[Crab Ride]]
-  - Opponent turns away from overhook to defend or attempts to turtle up
 
 
 </section>
@@ -319,7 +242,7 @@ The transitional nature of top overhook distinguishes it from static control pos
 ## Decision Making from This Position
 
 **If opponent's posture is upright and they are trying to pull their arm back against your pressure:**
-- Execute **[[Kimura]]** → [[Kimura Control]] (Probability: 65%)
+- Execute **[[Kimura]]** → [[Kimura Trap]] (Probability: 65%)
 - Execute **[[Two-on-One to Back Take]]** → [[Back Control]] (Probability: 60%)
 
 
@@ -398,7 +321,7 @@ Partner starts with arm extended from turtle or standing, you establish overhook
 
 ### Overhook to Submission Flow Drill
 
-Establish overhook from standing, turtle top, or front headlock position. Flow through chain of Kimura → Darce → Anaconda setups based on partner's defensive reactions. Focus on reading their movement and transitioning smoothly between attacks without losing overhook control. Partner provides progressive resistance.
+Establish overhook from standing, turtle top, or front headlock position. Flow through chain of Kimura to Darce to Anaconda setups based on partner's defensive reactions. Focus on reading their movement and transitioning smoothly between attacks without losing overhook control. Partner provides progressive resistance.
 
 **Duration**: 6 minutes (alternating 90-second rounds)
 
@@ -421,33 +344,39 @@ Start with overhook control from turtle top position. Practice different back ta
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Shortest path to submission
+## Test Your Knowledge
 
-`Overhook Control Top → Kimura Control → Kimura`
+**Q1**: Your opponent starts pulling their trapped arm backward forcefully - what immediate adjustment do you make?
+**A**: When opponent pulls back, immediately transition to a Kimura grip by releasing your hand grip and securing the figure-four on their wrist. Their backward pulling motion actually assists your Kimura entry by bending their arm into the proper position. Do not fight their pull with strength - use it to enter the submission. If they manage to create distance, follow by transitioning to an arm drag to take their back.
 
-### High-percentage front headlock path
+**Q2**: What are the three essential connection points for maintaining effective overhook control from top position?
+**A**: The three essential connection points are: first, the armpit seal over opponent's shoulder with zero gap, which creates the primary control mechanism; second, hip-to-hip proximity that prevents opponent from circling away or creating escape angles; and third, head positioning either tight to theirs or controlling their head with your free hand. These three points working together create inescapable control - losing any one significantly weakens the position.
 
-`Overhook Control Top → Front Headlock → D'arce Control → Darce Choke`
+**Q3**: You feel your armpit seal starting to loosen as opponent rotates their shoulder - how do you recover the control?
+**A**: Immediately drive your hips forward while simultaneously pulling your elbow tight to your ribs, re-sealing the armpit connection. Drop your shoulder weight downward onto their shoulder to flatten them and reestablish the seal. If the gap has opened too much, transition immediately to an alternative control - either secure a front headlock or transition to a back take attempt rather than fighting to recover a compromised overhook.
 
-### Wrestling-based submission path
+**Q4**: What is the primary weight distribution error that allows opponents to escape overhook control?
+**A**: Overcommitting weight forward without maintaining base is the primary error. When you lean too far forward, opponent can use your momentum to roll you over or escape underneath. The correct distribution maintains forward pressure through the overhook while keeping your feet positioned to support dynamic movement. You should be able to pressure forward but instantly adjust if opponent creates an escape opportunity - balance constant pressure with reactive mobility.
 
-`Overhook Control Top → Snap Down to Front Headlock → Anaconda Control → Anaconda Choke`
+**Q5**: Your opponent drives forward aggressively into your overhook - what submission entry does this create?
+**A**: Forward driving creates optimal entry for Darce or Anaconda chokes. As they drive in, their head drops forward and their arm is already controlled by your overhook. Thread your choking arm around their neck (Darce goes arm-side first, Anaconda goes head-side first), secure the figure-four grip, and finish by sprawling your hips away while pulling their head down. Their forward momentum assists your choke entry rather than hindering it.
 
-### Back attack pathway
+**Q6**: How do you manage energy expenditure when maintaining overhook control against a defensive opponent?
+**A**: Energy management requires understanding that overhook is transitional, not positional. Maximum control time is 3-5 seconds before attacking or advancing. Use skeletal alignment rather than muscular tension - your armpit seal should rest on their shoulder, not grip it with arm strength. Transfer pressure through body positioning rather than squeezing. If opponent is successfully defending, don't fight to maintain - transition to alternative attacks or reset to another control position.
 
-`Overhook Control Top → Arm Drag to Back → Back Control → Rear Naked Choke`
+**Q7**: You've partially lost the overhook as opponent circles their arm toward escape - what recovery options exist?
+**A**: Three recovery options depending on how far the escape has progressed: if arm is still elevated, quickly re-establish armpit seal by driving your shoulder down and forward; if they've brought their arm to centerline, immediately transition to an arm drag and pursue back control; if their arm is nearly free, release the overhook entirely and secure a front headlock or snap them down before they can recompose. Never chase a failing grip - transition proactively.
 
-### Crucifix pathway from turtle
-
-`Overhook Control Top → Crucifix from Turtle → Crucifix → Choke from Crucifix`
+**Q8**: What specific grip height provides maximum leverage from top overhook position?
+**A**: The grip should be high on opponent's shoulder blade or behind their neck, never low on their back near the waist. High grip positioning provides maximum control over their posture and structure - you can drive their shoulder down and restrict their head movement. Low grips allow opponent to use their body movement to escape because the lever arm is too short. As they move, constantly adjust your grip upward to maintain the high position.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -468,15 +397,15 @@ Start with overhook control from turtle top position. Practice different back ta
 
 ## Related Positions and Techniques
 
-- **[[Kimura Control]]** - Primary submission control accessed when opponent pulls back against overhook pressure
+- **[[Kimura Trap]]** - Primary submission control accessed when opponent pulls back against overhook pressure
 - **[[D'arce Control]]** - Front headlock submission position entered when opponent drives forward into overhook
 - **[[Front Headlock]]** - Often combined with overhook for complete upper body control and submission setup
 - **[[Anaconda Control]]** - Alternative front headlock submission from overhook when opponent drops their head
 - **[[Back Control]]** - Common advancement target using arm drag, two-on-one, or crab ride from overhook
-- **[[Underhook Control]]** - Opposite control that overhook is used to counter and dominate
 - **[[Crab Ride]]** - Transitional position accessed via overhook control when opponent turns away
 - **[[Crucifix]]** - Advanced control position accessible from overhook on turtle through proper mechanics
 - **[[Turtle]]** - Common bottom position where top player uses overhook to control and attack
+- **[[Overhook Guard]]** - Guard position that mirrors top overhook concepts from bottom perspective
 
 
 </section>

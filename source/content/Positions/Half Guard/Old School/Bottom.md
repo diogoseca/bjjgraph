@@ -4,7 +4,7 @@
 
 ---
 title: "Old School Bottom | BJJ Position Guide | BJJ Graph"
-description: "Master Old School Bottom position in BJJ half guard. Classic 10th Planet's sweep with 60% intermediate success rate. Control opponent's head and arm for powerful sweep to mount or back."
+description: "Master Old School Bottom position in BJJ half guard. Classic 10th Planet sweep with 60% intermediate success rate. Control opponent's head and arm for powerful sweep to mount or back."
 ---
 
 
@@ -21,38 +21,32 @@ description: "Master Old School Bottom position in BJJ half guard. Classic 10th 
     {
       "@type": "HowToStep",
       "name": "Execute Old School Sweep",
-      "text": "From this position, execute Old School Sweep to transition to Mount. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Old School Sweep. This technique is attempted in 35% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Old School Sweep",
-      "text": "From this position, execute Old School Sweep to transition to Back Control. Success rate for advanced practitioners: 70%.",
+      "name": "Execute Lockdown Sweeps",
+      "text": "From this position, attempt Lockdown Sweeps. This technique is attempted in 18% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Lockdown Sweeps",
-      "text": "From this position, execute Lockdown Sweeps to transition to Half Guard. Success rate for advanced practitioners: 60%.",
+      "name": "Execute Electric Chair Submission",
+      "text": "From this position, attempt Electric Chair Submission. This technique is attempted in 15% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Electric Chair Submission",
-      "text": "From this position, execute Electric Chair Submission to transition to Electric Chair. Success rate for advanced practitioners: 50%.",
+      "name": "Execute Underhook Sweep from Half",
+      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 17% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Underhook Sweep from Half",
-      "text": "From this position, execute Underhook Sweep from Half to transition to Side Control. Success rate for advanced practitioners: 65%.",
-      "position": 5
-    },
-    {
-      "@type": "HowToStep",
       "name": "Execute Half Guard to Back Take",
-      "text": "From this position, execute Half Guard to Back Take to transition to Back Control. Success rate for advanced practitioners: 55%.",
-      "position": 6
+      "text": "From this position, attempt Half Guard to Back Take. This technique is attempted in 15% of exchanges from this position.",
+      "position": 5
     }
   ],
   "totalTime": "PT2M"
@@ -115,7 +109,7 @@ description: "Master Old School Bottom position in BJJ half guard. Classic 10th 
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Old School Bottom",
-  "description": "Master Old School Bottom position in BJJ half guard. Classic 10th Planet's sweep with 60% intermediate success rate. Control opponent's head and arm for powerful sweep to mount or back.",
+  "description": "Master Old School Bottom position in BJJ half guard. Classic 10th Planet sweep with 60% intermediate success rate. Control opponent's head and arm for powerful sweep to mount or back.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -160,7 +154,7 @@ description: "Master Old School Bottom position in BJJ half guard. Classic 10th 
 
 <section id="overview" class="content-section">
 
-Old School Bottom Position is a classical half guard bottom position made famous by 10th Planet's and the 10th Planet system. From half guard bottom with lockdown control, the practitioner secures a deep underhook on one side while controlling the opponent's head with the opposite arm, creating a powerful sweeping position. This position is characterized by the bottom player's ability to break the opponent's posture down while maintaining lockdown control of their trapped leg, setting up the signature Old School sweep to mount or back control.
+Old School Bottom Position is a classical half guard bottom position made famous by the 10th Planet system. From half guard bottom with lockdown control, the practitioner secures a deep underhook on one side while controlling the opponent's head with the opposite arm, creating a powerful sweeping position. This position is characterized by the bottom player's ability to break the opponent's posture down while maintaining lockdown control of their trapped leg, setting up the signature Old School sweep to mount or back control.
 
 The position represents a fundamental component of the 10th Planet half guard system, offering both offensive sweeping opportunities and defensive frames against passing attempts. The head and arm control combined with lockdown creates a dilemma for the top player: defending the sweep requires posture, but maintaining posture breaks the lockdown control. This position is particularly effective in no-gi grappling where the lockdown's leg entanglement provides superior control compared to traditional gi grips.
 
@@ -213,76 +207,16 @@ Old School Bottom is considered a transitional attacking position rather than a 
 
 ## Available Escapes
 
-### [[Old School Sweep]] → [[Mount]]
+### [[Old School Sweep]] (35% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 60%
-- Advanced: 75%
+### [[Lockdown Sweeps]] (18% of attempts)
 
-### [[Old School Sweep]] → [[Back Control]]
+### [[Electric Chair Submission]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Underhook Sweep from Half]] (17% of attempts)
 
-### [[Lockdown Sweeps]] → [[Half Guard]]
+### [[Half Guard to Back Take]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[Electric Chair Submission]] → [[Electric Chair]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
-
-### [[Underhook Sweep from Half]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-### [[Half Guard to Back Take]] → [[Back Control]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Half Guard Pass]]** → [[Side Control]] (Opponent Success: 45%)
-- **[[Underhook Pass]]** → [[Side Control]] (Opponent Success: 40%)
-- **[[Knee Slice from Half]]** → [[Side Control]] (Opponent Success: 50%)
-- **[[Lockdown Defense]]** → [[Half Guard]] (Opponent Success: 35%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Deep Half Entry]]** → [[Deep Half Guard]]
-  - Opponent drives forward to smash and flatten lockdown
-- **[[Electric Chair Submission]]** → [[Electric Chair]]
-  - Opponent extends leg to clear lockdown while head is controlled
-- **[[Underhook Sweep from Half]]** → [[Side Control]]
-  - Opponent posts hand on mat to prevent Old School sweep
-- **[[Half Guard to Back Take]]** → [[Back Control]]
-  - Opponent turns away from underhook to defend sweep
 
 
 </section>
@@ -392,7 +326,7 @@ Start in Old School position. Partner attempts to clear lockdown by extending tr
 
 ### Old School Positional Sparring
 
-Start in Old School position with full controls established. Bottom player attempts to execute Old School sweep or transition to other attacks (Electric Chair, back take). Top player attempts to pass or break controls. Reset to Old School position after successful sweep, pass, or submission. Top player provides progressive resistance (50% → 75% → 100%). Focus on maintaining controls under pressure and recognizing high-percentage attack opportunities.
+Start in Old School position with full controls established. Bottom player attempts to execute Old School sweep or transition to other attacks (Electric Chair, back take). Top player attempts to pass or break controls. Reset to Old School position after successful sweep, pass, or submission. Top player provides progressive resistance (50% to 75% to 100%). Focus on maintaining controls under pressure and recognizing high-percentage attack opportunities.
 
 **Duration**: 5 rounds of 4 minutes
 
@@ -401,33 +335,39 @@ Start in Old School position with full controls established. Bottom player attem
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Shortest path to submission
+## Test Your Knowledge
 
-`Old School Bottom → Electric Chair → Electric Chair Submission`
+**Q1**: Your opponent starts driving heavy crossface pressure to flatten you - what adjustment maintains your sweeping position?
+**A**: Immediately pump the lockdown by extending your legs to create space and prevent being flattened. Simultaneously pull your underhook tighter and drive your head into their chest on the underhook side. If you feel yourself going flat, transition to deep half guard entry rather than fighting a losing battle. The angle is everything - once flat, your sweep leverage disappears entirely.
 
-### High-percentage sweep to mount submission path
+**Q2**: What are the essential grips for maintaining Old School Bottom position?
+**A**: Three essential grips work together: 1) Deep underhook with elbow tight to your ribs and hand gripping high on opponent's back or shoulder, 2) Head control with opposite arm wrapping around their head and hand gripping behind their neck, 3) Lockdown figure-four configuration with bottom foot hooking their ankle and legs actively extending. All three must work in concert - losing any one significantly reduces sweep effectiveness.
 
-`Old School Bottom → Old School Sweep → Mount → Americana from Mount`
+**Q3**: How do you shut down the opponent's primary escape of freeing their trapped leg?
+**A**: Actively extend the lockdown by driving your knees away while pulling with your hooked foot on their ankle. This creates constant tension that prevents leg extraction. When you feel them trying to pull their leg out, increase lockdown extension immediately and pull their head down harder to prevent them from generating the posture needed for extraction. The leg can only come free if you allow slack in the figure-four configuration.
 
-### High-percentage sweep to back submission path
+**Q4**: What grip priority sequence should you follow when establishing Old School from half guard?
+**A**: First secure the lockdown on their trapped leg - this is your foundation. Second, fight for the underhook on one side before they can establish whizzer control. Third, use your free arm to control their head once underhook is secured. This sequence matters because without lockdown they can base, without underhook you lack sweep power, and without head control they can posture up and defend everything.
 
-`Old School Bottom → Old School Sweep → Back Control → Rear Naked Choke`
+**Q5**: How should you apply pulling pressure to break opponent's posture without losing your angle?
+**A**: Pull their head down and across toward the underhook side using a combination of arm pull and hip rotation. Your hips should stay angled toward the underhook, not flatten to accommodate the pull. Think of creating a spiral motion - as you pull their head down, your body coils tighter on your side, building sweep tension. Never pull straight down as this flattens you and loses geometric advantage.
 
-### Lockdown control to leg attack path
+**Q6**: Your opponent begins to posture up strongly - how do you anticipate and prevent this escape?
+**A**: Feel for the moment their weight starts shifting backward and immediately respond by extending your lockdown while pulling harder on both head and underhook. If they're already partially up, pump the lockdown aggressively to off-balance them forward, then re-secure controls as they compensate. You can also transition the sweep timing - their posture attempt often creates the forward weight shift you need for the actual sweep.
 
-`Old School Bottom → Electric Chair → Electric Chair Submission`
+**Q7**: How do you manage energy in extended Old School battles without abandoning sweep attempts?
+**A**: Use structural holds rather than muscular squeezing. Your lockdown should hold through leg position, not calf strength. Your underhook pulls using back engagement, not bicep burn. Rest in the tension rather than fighting through it. When you feel opponent relaxing or adjusting, that's when to explode with the sweep - save energy for the right moment rather than constantly pulling at 100%.
 
-### Underhook to kimura path
-
-`Old School Bottom → Underhook Sweep from Half → Side Control → Kimura from Side Control`
+**Q8**: Opponent partially breaks your head control and begins establishing crossface - what recovery sequence maintains your attacking position?
+**A**: Immediately frame against their crossface shoulder with your freed arm to prevent full establishment. Simultaneously pump lockdown to create space and prevent flattening. If their crossface is too strong, accept the transition to deep half guard by diving under their hips rather than getting flattened and passed. The key is maintaining hip mobility - any position where you're on your side with active hips is better than flat on your back.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -448,7 +388,7 @@ Start in Old School position with full controls established. Bottom player attem
 
 ## Related Positions and Techniques
 
-- **[[Old School]]** - Sibling variant - opponent's perspective and defensive considerations
+- **[[Old School]]** - Hub position - this is the bottom perspective
 - **[[Lockdown]]** - Prerequisite position - foundational control before establishing Old School setup
 - **[[Half Guard]]** - Parent category - broader positional family
 - **[[Electric Chair]]** - Common transition - natural follow-up when opponent defends sweep
@@ -456,9 +396,8 @@ Start in Old School position with full controls established. Bottom player attem
 - **[[Mount]]** - Primary target position - most common sweep destination
 - **[[Back Control]]** - Alternative target position - second sweep destination option
 - **[[Old School Sweep]]** - Primary technique - signature attack from this position
-- **[[10th Planet Half Guard Bottom System]]** - System context - part of comprehensive 10th Planet's half guard system
-- **[[Lockdown to Electric Chair System]]** - System integration - tactical framework connecting related positions
-- **[[Underhook Control]]** - Similar position - shares underhook control theme with different leg configuration
+- **[[Dogfight Position]]** - Transitional position when coming up on underhook
+- **[[Knee Shield Half Guard]]** - Alternative half guard variation if lockdown is broken
 
 
 </section>

@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Knee Tap | BJJ Technique | BJJ Graph"
 description: "Master the Knee Tap takedown in BJJ. Wrestling-based technique from standing to top position. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%."
@@ -16,7 +17,7 @@ description: "Master the Knee Tap takedown in BJJ. Wrestling-based technique fro
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Knee Tap in BJJ",
-  "description": "Step-by-step guide for Knee Tap from Standing Position to Side Control.",
+  "description": "Step-by-step guide for Knee Tap from Standing Position/Top. Possible outcomes: Side Control/Top (65%), Standing Position/Top (25%), Standing Position/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -154,11 +155,25 @@ description: "Master the Knee Tap takedown in BJJ. Wrestling-based technique fro
 
 The Knee Tap is a fundamental wrestling-based takedown that exploits opponent's weight distribution and stance. By attacking the knee while controlling the upper body, you create a mechanical advantage that collapses their base. This technique is particularly effective against opponents who overcommit their weight forward or stand square in their stance. The Knee Tap works across all skill levels and translates seamlessly between gi and no-gi environments. It requires minimal setup compared to more complex takedowns, making it an essential tool for pulling guard practitioners who need reliable standing entries. The technique's beauty lies in its simplicity - by simultaneously pulling the upper body while sweeping the lower support, you create an unstoppable collapse that transitions directly into dominant top positions.
 
-**Starting Position**: [[Standing Position]]
-**Ending Position**: [[Side Control]]
+**From Position**: [[Standing Position/Top]]
 **Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Side Control/Top]] | 65% |
+| Failure | [[Standing Position/Top]] | 25% |
+| Counter | [[Standing Position/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

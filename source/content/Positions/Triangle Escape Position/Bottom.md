@@ -21,37 +21,37 @@ description: "Master Triangle Escape from bottom position in BJJ. Complete guide
     {
       "@type": "HowToStep",
       "name": "Execute Stack Pass",
-      "text": "From this position, execute Stack Pass to transition to Side Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Stack Pass. This technique is attempted in 18% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Escape",
-      "text": "From this position, execute Triangle Escape to transition to Closed Guard. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Triangle Escape. This technique is attempted in 19% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Posture Recovery",
-      "text": "From this position, execute Posture Recovery to transition to Combat Base. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Posture Recovery. This technique is attempted in 18% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Guard Pass",
-      "text": "From this position, execute Guard Pass to transition to Side Control. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Guard Pass. This technique is attempted in 15% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm Extraction",
-      "text": "From this position, execute Arm Extraction to transition to Open Guard. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Arm Extraction. This technique is attempted in 16% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Standing up in Base",
-      "text": "From this position, execute Standing up in Base to transition to Standing Position. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Standing up in Base. This technique is attempted in 14% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -213,74 +213,18 @@ Success from the bottom perspective typically leads directly to guard passing po
 
 ## Available Escapes
 
-### [[Stack Pass]] → [[Side Control]]
+### [[Stack Pass]] (18% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Triangle Escape]] (19% of attempts)
 
-### [[Triangle Escape]] → [[Closed Guard]]
+### [[Posture Recovery]] (18% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 45%
-- Advanced: 70%
+### [[Guard Pass]] (15% of attempts)
 
-### [[Posture Recovery]] → [[Combat Base]]
+### [[Arm Extraction]] (16% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Standing up in Base]] (14% of attempts)
 
-### [[Guard Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 55%
-
-### [[Arm Extraction]] → [[Open Guard]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 40%
-- Advanced: 60%
-
-### [[Standing up in Base]] → [[Standing Position]]
-
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 50%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Triangle Choke]]** → [[Won by Submission]] (Opponent Success: 55%)
-- **[[Triangle to Armbar]]** → [[Armbar Control]] (Opponent Success: 40%)
-- **[[Triangle to Omoplata]]** → [[Omoplata Control]] (Opponent Success: 25%)
-- **[[Switch to Triangle]]** → [[Triangle Control]] (Opponent Success: 35%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Stack Defense]]** → [[Side Control]]
-  - Opponent attempts to adjust angle by scooting hips laterally
-- **[[Posture Recovery]]** → [[Combat Base]]
-  - Opponent tries to break posture by pulling head down toward hips
-- **[[Guard Pass]]** → [[Closed Guard]]
-  - Opponent releases triangle to transition to armbar or other submission
 
 
 </section>
@@ -370,25 +314,39 @@ Partner attempts all triangle variations: armbar switches, omoplata transitions,
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Direct stack escape to dominant position
+## Test Your Knowledge
 
-`Triangle Escape Position Bottom → Stack Pass → Side Control → Mount`
+**Q1**: Your opponent scoots their hips to improve their choking angle - what adjustment maintains your defensive position?
+**A**: Immediately use your free hand to press down on their hip to stop the lateral movement while simultaneously stepping in the same direction to match their angle change. Maintain your stacking pressure throughout this adjustment. The goal is to prevent them from achieving the perpendicular angle that maximizes triangle effectiveness.
 
-### Conservative escape to neutral
+**Q2**: What are the essential hand and arm positions for surviving the initial triangle lock?
+**A**: The trapped arm must have its elbow pinned tightly against your ribs with your hand near your own chest - never extended. The free arm should be posted firmly on the mat beside their hip or pressing directly on their hip to control elevation. Both arms must remain tight to your centerline to prevent secondary attacks.
 
-`Triangle Escape Position Bottom → Posture Recovery → Combat Base → Guard Pass → Side Control`
+**Q3**: How do you shut down the opponent's ability to finish the triangle through hip elevation?
+**A**: Drive your weight forward aggressively to stack their hips over their shoulders, forcing their back flat on the mat. Use your free hand to pin their hip or thigh, preventing elevation. The stacking pressure removes their ability to create extension through their legs, which is essential for finishing the choke.
 
-### Explosive escape to standing
+**Q4**: What grip and posture priorities should guide your defensive sequence?
+**A**: First priority is creating space at your neck through posture - drive head up and spine straight. Second priority is securing your trapped arm position with elbow tight. Third is establishing your free hand post for base. Fourth is controlling opponent's hips. Never sacrifice postural integrity for better grips.
 
-`Triangle Escape Position Bottom → Standing up in Base → Standing Position → Guard Pass → Side Control`
+**Q5**: How should you distribute weight and pressure during the stacking escape?
+**A**: Drive forward from your legs with your weight centered over a wide base. Your pressure vector should go forward and down through opponent's hips toward their shoulders, not just forward which tips you off balance. Keep your hips low and knees spread for maximum stability during the stack.
+
+**Q6**: The opponent begins switching to an armbar attack - what movement pattern counters this transition?
+**A**: Immediately turn toward your trapped arm side while keeping that elbow pinned tight. Stack your weight even more aggressively onto their shoulders to limit their hip mobility. If they've committed to the armbar, follow their rotation by stepping around toward your trapped arm side and driving forward rather than pulling back.
+
+**Q7**: How do you maintain efficient energy expenditure when escape attempts are initially unsuccessful?
+**A**: Reset to fundamental defensive posture between attempts rather than continuously fighting. Use structural frames through bone alignment rather than muscular tension. Focus on controlled, purposeful movements that accomplish specific objectives. Accept that the first attempt may fail and build systematic pressure through repeated correct technique rather than explosive desperation.
+
+**Q8**: After partially escaping - the triangle loosens but opponent maintains leg control - how do you complete the escape?
+**A**: Continue driving forward pressure while circling toward your previously-trapped arm side. Extract your arm using a circular motion as you move, not by pulling straight back. Immediately transition to a guard passing sequence - don't pause to celebrate the escape. The momentum from your escape should flow directly into passing pressure to prevent opponent from recovering their attack.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 

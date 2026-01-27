@@ -10,8 +10,6 @@
     "eddie-10th Planet",
     "10th-planet"
   ],
-  "starting_position": "Half Guard",
-  "ending_position": "Side Control",
   "success_rates": {
     "beginner": 35,
     "intermediate": 55,
@@ -295,6 +293,24 @@
     {
       "name": "Dogfight Position",
       "relationship": "Transition option - can lead to dogfight if opponent counters by coming to knees"
+    }
+  ],
+  "from_position": "Half Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Side Control/Top",
+      "probability": 70,
+      "result": "success"
+    },
+    {
+      "to": "Half Guard/Bottom",
+      "probability": 20,
+      "result": "failure"
+    },
+    {
+      "to": "Half Guard/Top",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

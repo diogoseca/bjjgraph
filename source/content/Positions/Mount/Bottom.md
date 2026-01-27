@@ -21,37 +21,37 @@ description: "Master defensive strategies from bottom Mount. Learn systematic es
     {
       "@type": "HowToStep",
       "name": "Execute Elbow Escape",
-      "text": "From this position, execute Elbow Escape to transition to Closed Guard. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Elbow Escape. This technique is attempted in 25% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Upa Escape",
-      "text": "From this position, execute Upa Escape to transition to Closed Guard. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Upa Escape. This technique is attempted in 20% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Bridge and Roll",
-      "text": "From this position, execute Bridge and Roll to transition to Mount. Success rate for advanced practitioners: 45%.",
+      "name": "Execute Hip Escape",
+      "text": "From this position, attempt Hip Escape. This technique is attempted in 25% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Hip Escape",
-      "text": "From this position, execute Hip Escape to transition to Half Guard. Success rate for advanced practitioners: 70%.",
+      "name": "Execute Frame and Shrimp",
+      "text": "From this position, attempt Frame and Shrimp. This technique is attempted in 15% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Frame and Shrimp",
-      "text": "From this position, execute Frame and Shrimp to transition to Open Guard. Success rate for advanced practitioners: 60%.",
+      "name": "Execute Deep Half Entry",
+      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 5% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Deep Half Entry",
-      "text": "From this position, execute Deep Half Entry to transition to Deep Half Guard. Success rate for advanced practitioners: 45%.",
+      "name": "Execute Bridge and Roll",
+      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -208,91 +208,18 @@ Being mounted represents one of the most challenging defensive positions in Braz
 
 ## Available Escapes
 
-### [[Elbow Escape]] → [[Closed Guard]]
+### [[Elbow Escape]] (25% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 45%
-- Advanced: 65%
+### [[Upa Escape]] (20% of attempts)
 
-### [[Upa Escape]] → [[Closed Guard]]
+### [[Hip Escape]] (25% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
+### [[Frame and Shrimp]] (15% of attempts)
 
-### [[Bridge and Roll]] → [[Mount]]
+### [[Deep Half Entry]] (5% of attempts)
 
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 45%
+### [[Bridge and Roll]] (10% of attempts)
 
-### [[Hip Escape]] → [[Half Guard]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 70%
-
-### [[Frame and Shrimp]] → [[Open Guard]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 40%
-- Advanced: 60%
-
-### [[Deep Half Entry]] → [[Deep Half Guard]]
-
-**Success Rates:**
-- Beginner: 10%
-- Intermediate: 25%
-- Advanced: 45%
-
-### [[Lockdown Sweeps]] → [[Mount]]
-
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 50%
-
-### [[Technical Standup]] → [[Standing Position]]
-
-**Success Rates:**
-- Beginner: 10%
-- Intermediate: 20%
-- Advanced: 35%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Grapevine Control]]** → [[Mount]] (Opponent Success: 70%)
-- **[[Transition to High Mount]]** → [[High Mount]] (Opponent Success: 65%)
-- **[[Armbar from Mount]]** → [[Armbar Control]] (Opponent Success: 55%)
-- **[[Transition to Technical Mount]]** → [[Technical Mount]] (Opponent Success: 60%)
-- **[[Americana from Mount]]** → [[Americana Control]] (Opponent Success: 50%)
-- **[[Cross Collar Choke]]** → [[Won by Submission]] (Opponent Success: 45%)
-- **[[Ezekiel from Mount]]** → [[Won by Submission]] (Opponent Success: 40%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Trap and Roll]]** → [[Mount]]
-  - When opponent posts one arm high during submission attempt
-- **[[Elevator Sweep]]** → [[Mount]]
-  - When opponent leans too far forward during attack
-- **[[Lockdown Recovery]]** → [[Lockdown]]
-  - When escaping hip to side and can capture one leg
 
 
 </section>
@@ -313,11 +240,11 @@ Being mounted represents one of the most challenging defensive positions in Braz
 
 **If opponent isolates one arm for submission:**
 - Execute **[[Hip Escape]]** → [[Half Guard]] (Probability: 60%)
-- Execute **[[Trap and Roll]]** → [[Mount]] (Probability: 30%)
+- Execute **[[Bridge and Roll]]** → [[Mount]] (Probability: 30%)
 
 
 **If opponent transitions to technical mount:**
-- Execute **[[Guard Bottom Transition]]** → [[Turtle]] (Probability: 50%)
+- Execute **[[Back Defense to Turtle]]** → [[Turtle]] (Probability: 50%)
 - Execute **[[Deep Half Entry]]** → [[Deep Half Guard]] (Probability: 35%)
 
 
@@ -404,29 +331,7 @@ Partner in mount, bottom practitioner practices explosive bridges with proper ar
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
-
-### Primary Escape Sequence
-
-`Mount Bottom → Frame Creation → Hip Escape → Half Guard → Closed Guard`
-
-### Bridge and Roll Reversal
-
-`Mount Bottom → Arm Trap → Bridge and Roll → Mount → Submission Position`
-
-### Deep Half Recovery
-
-`Mount Bottom → Hip Escape → Deep Half Entry → Deep Half Guard → Sweep`
-
-### Technical Standup Escape
-
-`Mount Bottom → Frame and Shrimp → Technical Standup → Standing Position`
-
-
-
-</section>
 
 <section id="position-metrics" class="content-section">
 
@@ -447,12 +352,12 @@ Partner in mount, bottom practitioner practices explosive bridges with proper ar
 
 ## Related Positions and Techniques
 
-- **[[Mount Escape Hierarchy]]** - Systematic framework for prioritizing escape attempts based on position and opponent movement
-- **[[Hip Escape Mechanics]]** - Fundamental movement pattern underlying most effective mount escape techniques
-- **[[Frame Creation]]** - Essential defensive structure for creating space and preventing submission attacks
-- **[[Bridge and Shrimp]]** - Core movement principles combining to create space and recover guard
-- **[[Submission Defense]]** - Complementary skill set for defending attacks while working escape sequences
-- **[[Energy Conservation]]** - Critical principle for surviving extended periods in mount before escape opportunity
+- **[[Closed Guard]]** - Primary target position for successful mount escape
+- **[[Half Guard]]** - Common intermediate position during escape sequence
+- **[[Deep Half Guard]]** - Advanced recovery option from mount escape
+- **[[Elbow Escape]]** - Primary technical escape technique from mount
+- **[[Upa Escape]]** - Explosive reversal technique from mount bottom
+- **[[Lockdown]]** - Half guard control variation for mount escape recovery
 
 
 </section>

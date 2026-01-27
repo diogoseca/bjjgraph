@@ -21,37 +21,37 @@ description: "Master Piranha Guard Top in BJJ. Complete guide covering passing s
     {
       "@type": "HowToStep",
       "name": "Execute Toreando Pass",
-      "text": "From this position, execute Toreando Pass to transition to Side Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Toreando Pass. This technique is attempted in 16% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, execute Knee Slice Pass to transition to Side Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 15% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Long Step Pass",
-      "text": "From this position, execute Long Step Pass to transition to Side Control. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Long Step Pass. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Stack Pass",
-      "text": "From this position, execute Stack Pass to transition to Side Control. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Stack Pass. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag Pass",
-      "text": "From this position, execute Leg Drag Pass to transition to Side Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 15% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Pressure Pass",
-      "text": "From this position, execute Pressure Pass to transition to Half Guard. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Pressure Pass. This technique is attempted in 16% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -211,84 +211,20 @@ The Piranha Guard Top position requires excellent grip fighting skills, strong b
 
 ## Available Attacks
 
-### [[Toreando Pass]] → [[Side Control]]
+### [[Toreando Pass]] (16% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Knee Slice Pass]] (15% of attempts)
 
-### [[Knee Slice Pass]] → [[Side Control]]
+### [[Long Step Pass]] (13% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Stack Pass]] (12% of attempts)
 
-### [[Long Step Pass]] → [[Side Control]]
+### [[Leg Drag Pass]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
+### [[Pressure Pass]] (16% of attempts)
 
-### [[Stack Pass]] → [[Side Control]]
+### [[X Pass]] (13% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
-
-### [[Leg Drag Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[Pressure Pass]] → [[Half Guard]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-### [[X Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Pendulum Sweep]]** → [[Mount]] (Opponent Success: 40%)
-- **[[Triangle Setup]]** → [[Triangle Control]] (Opponent Success: 30%)
-- **[[Omoplata Sweep]]** → [[Omoplata Control]] (Opponent Success: 25%)
-- **[[Berimbolo Entry]]** → [[Back Control]] (Opponent Success: 30%)
-- **[[Flower Sweep]]** → [[Mount]] (Opponent Success: 35%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Grip Break to Toreando]]** → [[Side Control]]
-  - Bottom player attempts to reinforce lapel grips or improve configuration
-- **[[Smash Pass]]** → [[Half Guard]]
-  - Bottom player commits weight forward for sweep attempt creating forward pressure
-- **[[Backstep to Leg Drag]]** → [[Side Control]]
-  - Bottom player extends leg for off-balancing creating passing window
-- **[[Knee Cut Pass]]** → [[Side Control]]
-  - Bottom player loses lapel grip control temporarily
 
 
 </section>
@@ -405,33 +341,39 @@ Start with bottom player using 50% resistance with lapel grips. Top player works
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Shortest path to dominant control
+## Test Your Knowledge
 
-`Piranha Guard Top → Toreando Pass → Side Control → Mount → Armbar from Mount`
+**Q1**: What is the hierarchy of threat assessment when your collar is entangled in Piranha Guard?
+**A**: The threat hierarchy prioritizes neck and back lapel wraps as most dangerous since they create immediate choke threats and complete posture collapse. Second priority is clearing lapel configurations that cross your centerline, as these enable powerful sweeps. Third is addressing leg entanglements and secondary grips. Always address higher-level threats before attempting to pass, even if it means temporarily retreating to reset your base and posture.
 
-### High-percentage pressure path
+**Q2**: How should you distribute your weight to maintain base against Piranha Guard sweeps?
+**A**: Distribute weight low and wide with knees bent and hips dropped, keeping your center of gravity below the opponent's pulling forces. Weight should favor the balls of your feet for mobility rather than heels, which limits reactive movement. Avoid loading weight forward into the lapel tension, which gives the bottom player leverage for sweeps. Instead, maintain neutral or slightly backward pressure while your hands work to clear grips.
 
-`Piranha Guard Top → Pressure Pass → Half Guard → Half Guard Pass → Side Control → Kimura from Side Control`
+**Q3**: Your opponent suddenly pulls hard on the lapel through their legs and you feel yourself being pulled forward—what immediate adjustment do you make?
+**A**: Immediately widen your base by stepping your feet apart and dropping your hips while posting your free hand on the mat if necessary for stability. Avoid the instinct to pull backward against the tension, which creates a tug-of-war you will lose. Instead, step forward with one leg past their hip while simultaneously stripping the most dangerous grip with your hands. This converts their pulling force into your passing momentum.
 
-### Leg drag control path
+**Q4**: What are the essential grip priorities when working to pass Piranha Guard?
+**A**: Grip priority follows the inverse of threat hierarchy: first establish control on the bottom player's pants at the knee or hip to limit their ability to create angles. Second, secure your own free lapel or their belt to anchor your posture. Only then work to strip their lapel grips. Avoid gripping the same lapel they control, as this creates tension they can use against you. Focus on controlling what they need to attack while systematically clearing what threatens you.
 
-`Piranha Guard Top → Leg Drag Pass → Side Control → Mount → Triangle from Mount`
+**Q5**: How do you apply pressure effectively against Piranha Guard without feeding into their sweep setups?
+**A**: Apply lateral pressure rather than direct forward pressure by angling your body 45 degrees to the passing direction before driving weight. This prevents the bottom player from using your forward momentum for pendulum or off-balancing sweeps. Use your chest and shoulder pressure only after clearing the primary lapel threats, and maintain constant grip fighting rather than settling into static positions where they can build sweep momentum against your established pressure.
 
-### Stack passing path
+**Q6**: Your opponent begins inverting while maintaining lapel control—how do you prevent the berimbolo?
+**A**: As you recognize the inversion beginning, immediately backstep your lead leg away from their inverting direction while driving your hips down and away from their rotation. Control their inverting hip or pants to prevent them from completing the spin underneath you. If they have strong lapel control making backstep difficult, consider driving forward into a stack position to pin their hips and prevent rotation, then work grip breaks from the stacked position.
 
-`Piranha Guard Top → Stack Pass → Side Control → North-South Control → North-South Choke`
+**Q7**: When is the optimal moment to initiate a passing sequence against Piranha Guard?
+**A**: The optimal passing window opens when you successfully clear the primary lapel grip or when the bottom player overcommits to a sweep attempt and their grip structure temporarily weakens. Watch for moments when they transition between grips or adjust their hip angle—these adjustment moments create brief windows. Never attempt to pass when their lapel web is fully established and tight; patience in grip fighting creates better passing opportunities than rushing against strong configurations.
 
-### Knee slice pressure path
-
-`Piranha Guard Top → Knee Slice Pass → Side Control → Mount → Rear Naked Choke`
+**Q8**: How do you recover position if you partially fall into a Piranha Guard sweep but haven't been fully swept?
+**A**: If caught mid-sweep, immediately post your far hand on the mat and drive your head toward their hip on the posting side, creating a tripod base. Use your posted arm to push away from their control while your legs work to recover square positioning. Avoid trying to pull back to standing while off-balanced, which often accelerates the sweep. From the tripod, either complete a scramble to side control or reset to combat base before the opponent can reinforce their sweeping position.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -458,10 +400,10 @@ Start with bottom player using 50% resistance with lapel grips. Top player works
 - **[[Spider Guard]]** - Similar guard passing concepts regarding distance management and grip fighting
 - **[[Combat Base]]** - Common transitional position for posture recovery when lapel controls are threatening
 - **[[Toreando Pass]]** - Primary passing technique that capitalizes on extended leg position in lapel guards
-- **[[Grip Fighting Strategies]]** - Essential concept for managing lapel controls and establishing dominant grips
-- **[[Guard Passing Principles]]** - Fundamental concepts applied specifically to this lapel-based passing scenario
-- **[[Pressure Passing]]** - Alternative passing strategy effective when lapel controls are partially neutralized
-- **[[Base Maintenance]]** - Critical concept for defending sweeps while working to clear lapel configurations
+- **[[Knee Slice Pass]]** - Essential passing technique for cutting through lapel guard after grip clearing
+- **[[Long Step Pass]]** - Effective passing approach when opponent's lapel grips are partially neutralized
+- **[[Leg Drag Pass]]** - Alternative passing strategy effective when bottom player's legs become exposed
+- **[[Side Control]]** - Primary target position after successful pass completion from Piranha Guard Top
 
 
 </section>

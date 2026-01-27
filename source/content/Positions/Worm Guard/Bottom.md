@@ -4,7 +4,7 @@
 
 ---
 title: "Worm Guard Bottom | BJJ Position Guide | BJJ Graph"
-description: "Master Worm Guard Bottom in BJJ. Keenan Cornelius's lapel guard system with sleeve and pant control. Success rates: Beginner 25%, Intermediate 45%, Advanced 65%."
+description: "Master Worm Guard Bottom in BJJ. Advanced lapel guard system with sleeve and pant control. Success rates: Beginner 25%, Intermediate 45%, Advanced 65%."
 ---
 
 
@@ -21,37 +21,37 @@ description: "Master Worm Guard Bottom in BJJ. Keenan Cornelius's lapel guard sy
     {
       "@type": "HowToStep",
       "name": "Execute Omoplata Sweep",
-      "text": "From this position, execute Omoplata Sweep to transition to Mount. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 13% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Setup",
-      "text": "From this position, execute Triangle Setup to transition to Triangle Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Triangle Setup. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Omoplata to Back",
-      "text": "From this position, execute Omoplata to Back to transition to Back Control. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Omoplata to Back. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Lasso Guard Sweeps",
-      "text": "From this position, execute Lasso Guard Sweeps to transition to Side Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Lasso Guard Sweeps. This technique is attempted in 13% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute X-Guard Sweep",
-      "text": "From this position, execute X-Guard Sweep to transition to Mount. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt X-Guard Sweep. This technique is attempted in 14% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute De La Riva Sweep",
-      "text": "From this position, execute De La Riva Sweep to transition to Side Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt De La Riva Sweep. This technique is attempted in 13% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -115,7 +115,7 @@ description: "Master Worm Guard Bottom in BJJ. Keenan Cornelius's lapel guard sy
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Worm Guard Bottom",
-  "description": "Master Worm Guard Bottom in BJJ. Keenan Cornelius's lapel guard system with sleeve and pant control. Success rates: Beginner 25%, Intermediate 45%, Advanced 65%.",
+  "description": "Master Worm Guard Bottom in BJJ. Advanced lapel guard system with sleeve and pant control. Success rates: Beginner 25%, Intermediate 45%, Advanced 65%.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -211,94 +211,22 @@ Worm Guard Bottom is an innovative lapel-based guard system developed by Keenan 
 
 ## Available Escapes
 
-### [[Omoplata Sweep]] → [[Mount]]
+### [[Omoplata Sweep]] (13% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 45%
-- Advanced: 65%
+### [[Triangle Setup]] (12% of attempts)
 
-### [[Triangle Setup]] → [[Triangle Control]]
+### [[Omoplata to Back]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 40%
-- Advanced: 60%
+### [[Lasso Guard Sweeps]] (13% of attempts)
 
-### [[Omoplata to Back]] → [[Back Control]]
+### [[X-Guard Sweep]] (14% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 70%
+### [[De La Riva Sweep]] (13% of attempts)
 
-### [[Lasso Guard Sweeps]] → [[Side Control]]
+### [[Bolo Sweep]] (11% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 45%
-- Advanced: 65%
+### [[Triangle from Guard]] (12% of attempts)
 
-### [[X-Guard Sweep]] → [[Mount]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 70%
-
-### [[De La Riva Sweep]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 45%
-- Advanced: 65%
-
-### [[Bolo Sweep]] → [[Back Control]]
-
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 35%
-- Advanced: 55%
-
-### [[Triangle from Guard]] → [[Triangle Control]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 40%
-- Advanced: 60%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Lasso Guard Pass]]** → [[Side Control]] (Opponent Success: 30%)
-- **[[Knee Slice Pass]]** → [[Side Control]] (Opponent Success: 25%)
-- **[[Long Step Pass]]** → [[Side Control]] (Opponent Success: 35%)
-- **[[Pressure Pass]]** → [[Side Control]] (Opponent Success: 20%)
-- **[[Stack Pass]]** → [[Side Control]] (Opponent Success: 25%)
-- **[[Toreando Pass]]** → [[Side Control]] (Opponent Success: 30%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Triangle Setup]]** → [[Triangle Control]]
-  - Opponent attempts to posture up and break lapel grip
-- **[[Omoplata Sweep]]** → [[Mount]]
-  - Opponent tries to circle away from lapel-wrapped leg
-- **[[X-Guard Sweep]]** → [[Mount]]
-  - Opponent stands to escape lapel control
-- **[[De La Riva Sweep]]** → [[Side Control]]
-  - Opponent drives forward trying to smash through guard
-- **[[Omoplata to Back]]** → [[Back Control]]
-  - Opponent commits weight forward while defending sweep
 
 
 </section>
@@ -389,7 +317,7 @@ Establish full worm guard position. Partner attempts to pass using various metho
 
 ### Sweep Chain Flow Drill from Worm Guard
 
-Partner in worm guard, you attempt smooth chains: omoplata sweep → triangle setup → X-guard sweep → back take. Flow through sequences with moderate resistance. Focus on maintaining lapel control throughout transitions and creating proper angles for each attack. Switch roles every 5 minutes.
+Partner in worm guard, you attempt smooth chains: omoplata sweep to triangle setup to X-guard sweep to back take. Flow through sequences with moderate resistance. Focus on maintaining lapel control throughout transitions and creating proper angles for each attack. Switch roles every 5 minutes.
 
 **Duration**: 10 minutes total
 
@@ -405,33 +333,39 @@ Start in neutral open guard. Both partners grip fight—you attempt to establish
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Shortest path to triangle submission
+## Test Your Knowledge
 
-`Worm Guard Bottom → Triangle Setup → Triangle Control → Triangle from Guard`
+**Q1**: What is the most critical element for maintaining worm guard retention against passing attempts?
+**A**: Constant tension on the lapel wrap is the most critical element. The moment tension is lost, the entire mechanical advantage of worm guard disappears and the position degrades to a standard open guard. Maintain pulling pressure on the lapel throughout all movements and transitions. If tension loosens, immediately re-tighten or transition to an alternative guard before the opponent can capitalize on the momentary weakness.
 
-### High-percentage path to omoplata
+**Q2**: How do you properly feed the lapel to establish the worm guard configuration?
+**A**: Extract sufficient lapel material from the opponent's gi, then feed it deep under their leg from outside to inside, passing under their thigh rather than shallow across the surface. The lapel should travel a complete path under their leg before wrapping around your shin or foot. Shallow feeds create weak control that collapses under pressure. Practice pulling ample lapel material and feeding at proper depth to create tight, secure connection.
 
-`Worm Guard Bottom → Omoplata Sweep → Omoplata Control → Omoplata from Guard`
+**Q3**: Your opponent begins closing distance aggressively - what adjustment do you make to prevent the smash pass?
+**A**: Immediately engage your free leg to create frames against their hip or shoulder, pushing them back to optimal distance. If they continue advancing, extend your legs and use the lapel connection as a lever to off-balance them forward into a sweep opportunity. Never allow them to collapse distance without resistance, as close-range negates worm guard's off-balancing mechanics and enables smash passing sequences.
 
-### Back attack path
+**Q4**: Why is opposite side sleeve or pant control essential in worm guard?
+**A**: The opposite side grip breaks the opponent's symmetry and prevents them from establishing a stable base for passing. Without this secondary control, opponents can posture freely, generate passing pressure with their uncontrolled side, and more easily strip your lapel grip. This grip creates a two-point control system that makes the position exponentially more difficult to escape than lapel control alone.
 
-`Worm Guard Bottom → Omoplata to Back → Back Control → Rear Naked Choke`
+**Q5**: How should you adjust your hip angle when you feel the opponent trying to establish passing pressure?
+**A**: Continuously adjust hip angles relative to the opponent to create off-balancing forces. Move hips perpendicular, at angles, or in circular motions to generate momentum for sweeps and keep them off-balance. Static hip positioning makes your sweeps predictable and allows opponents to anchor their base. Dynamic hip movement is what transforms worm guard from a stalling position into an attacking platform.
 
-### Sweep to armbar chain
+**Q6**: When should you transition away from worm guard to an alternative guard system?
+**A**: Transition immediately when you recognize the lapel control is truly compromised rather than temporarily loosened. Signs include significant slack in the lapel, inability to generate off-balancing pressure, or feeling the opponent's leg moving independently of your control. Forcing a broken worm guard wastes energy and allows position advancement. Common transitions include spider guard, lasso guard, or De La Riva guard depending on the grips you can maintain.
 
-`Worm Guard Bottom → X-Guard Sweep → Mount → Armbar from Mount`
+**Q7**: What grip endurance strategies help maintain worm guard effectiveness during extended exchanges?
+**A**: Alternate between maximum tension when attacking and slightly reduced tension during neutral moments to prevent grip fatigue. Use your shin and foot to share the load rather than relying purely on hand strength. Train specific grip endurance exercises like dead hangs, farmer's carries, and gi pull-ups. During exchanges, if grip fatigue becomes critical, immediately transition to an alternative guard rather than fighting with compromised grips.
 
-### Alternative triangle finish path
-
-`Worm Guard Bottom → Lasso Guard Sweeps → Mount → Triangle from Mount`
+**Q8**: How do you create sweep opportunities when the opponent maintains a stable, wide base?
+**A**: Use the lapel control to continuously apply off-balancing pressure in the direction their trapped leg cannot recover, forcing them to narrow their base to resist. Create angles with hip movement that expose gaps in their base structure. Chain multiple sweep threats together so their defensive reaction to one threat opens them to another. The key is persistent pressure that gradually degrades their base rather than single explosive attempts.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -452,6 +386,7 @@ Start in neutral open guard. Both partners grip fight—you attempt to establish
 
 ## Related Positions and Techniques
 
+- **[[Worm Guard]]** - Hub position for both perspectives
 - **[[Lapel Guard]]** - Parent category - worm guard is specialized lapel guard variation
 - **[[Squid Guard]]** - Advanced progression - adds additional leg control to worm structure
 - **[[Lasso Guard]]** - Similar control mechanism - uses leg threading for control
@@ -461,8 +396,7 @@ Start in neutral open guard. Both partners grip fight—you attempt to establish
 - **[[Triangle Control]]** - Primary submission target - high-percentage finish from worm
 - **[[Omoplata Control]]** - Primary attack - signature submission from worm guard
 - **[[Back Control]]** - High-value transition - omoplata to back is key sequence
-- **[[Keenan Cornelius Lapel Guard System]]** - Source system - worm guard was developed as part of this system
-- **[[Guard Retention Concepts]]** - Fundamental principle - worm guard implements advanced retention
+- **[[Ringworm Guard]]** - Related lapel guard with similar mechanics
 
 
 </section>

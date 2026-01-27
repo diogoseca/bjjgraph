@@ -21,37 +21,37 @@ description: "Master Triangle Control Bottom in BJJ. Dominant submission control
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Choke Front",
-      "text": "From this position, execute Triangle Choke Front to transition to Won by Submission. Success rate for advanced practitioners: 80%.",
+      "text": "From this position, attempt Triangle Choke Front. This technique is attempted in 35% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle to Armbar",
-      "text": "From this position, execute Triangle to Armbar to transition to Armbar Control. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Triangle to Armbar. This technique is attempted in 25% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle to Omoplata",
-      "text": "From this position, execute Triangle to Omoplata to transition to Omoplata Control. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Triangle to Omoplata. This technique is attempted in 15% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle to Back",
-      "text": "From this position, execute Triangle to Back to transition to Back Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Triangle to Back. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Switch to Triangle",
-      "text": "From this position, execute Switch to Triangle to transition to Armbar Control. Success rate for advanced practitioners: 70%.",
+      "name": "Execute Mounted Triangle",
+      "text": "From this position, attempt Mounted Triangle. This technique is attempted in 8% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Inverted Triangle",
-      "text": "From this position, execute Inverted Triangle to transition to Won by Submission. Success rate for advanced practitioners: 60%.",
+      "name": "Execute Closed Guard to Omoplata",
+      "text": "From this position, attempt Closed Guard to Omoplata. This technique is attempted in 7% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -213,84 +213,18 @@ The biomechanics of triangle control favor the bottom practitioner significantly
 
 ## Available Escapes
 
-### [[Triangle Choke Front]] → [[Won by Submission]]
+### [[Triangle Choke Front]] (35% of attempts)
 
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 65%
-- Advanced: 80%
+### [[Triangle to Armbar]] (25% of attempts)
 
-### [[Triangle to Armbar]] → [[Armbar Control]]
+### [[Triangle to Omoplata]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 60%
-- Advanced: 75%
+### [[Triangle to Back]] (10% of attempts)
 
-### [[Triangle to Omoplata]] → [[Omoplata Control]]
+### [[Mounted Triangle]] (8% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Closed Guard to Omoplata]] (7% of attempts)
 
-### [[Triangle to Back]] → [[Back Control]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 65%
-
-### [[Switch to Triangle]] → [[Armbar Control]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 55%
-- Advanced: 70%
-
-### [[Inverted Triangle]] → [[Won by Submission]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[Transition to Omoplata]] → [[Omoplata Control]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 65%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Triangle Escape]]** → [[Closed Guard]] (Opponent Success: 35%)
-- **[[Posture Recovery]]** → [[Closed Guard]] (Opponent Success: 25%)
-- **[[Stack Defense]]** → [[Triangle Escape Position]] (Opponent Success: 30%)
-- **[[Arm Extraction]]** → [[Closed Guard]] (Opponent Success: 20%)
-- **[[Standing up in Base]]** → [[Standing Position]] (Opponent Success: 28%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Triangle to Armbar]]** → [[Armbar Control]]
-  - Opponent attempts to posture up or pull trapped arm free
-- **[[Triangle to Omoplata]]** → [[Omoplata Control]]
-  - Opponent turns shoulder inward to defend triangle or stacks forward
-- **[[Triangle to Back]]** → [[Back Control]]
-  - Opponent successfully extracts trapped arm but remains broken down
-- **[[Switch to Triangle]]** → [[Armbar Control]]
-  - Opponent defends triangle by pulling head back, exposing arm
 
 
 </section>
@@ -306,12 +240,12 @@ The biomechanics of triangle control favor the bottom practitioner significantly
 
 **If opponent attempts to posture up vertically or pull head back:**
 - Execute **[[Triangle to Armbar]]** → [[Armbar Control]] (Probability: 70%)
-- Execute **[[Triangle Choke Front]]** → [[Won by Submission]] (Probability: 75%)
+- Execute **[[Triangle Choke Front]]** → [[game-over]] (Probability: 75%)
 
 
 **If opponent successfully extracts trapped arm:**
 - Execute **[[Triangle to Back]]** → [[Back Control]] (Probability: 60%)
-- Execute **[[Transition to Omoplata]]** → [[Omoplata Control]] (Probability: 50%)
+- Execute **[[Closed Guard to Omoplata]]** → [[Omoplata Control]] (Probability: 50%)
 
 
 **If opponent turns shoulder inward to defend choking pressure:**
@@ -397,29 +331,7 @@ Flow drill starting from triangle control: if partner defends choke → armbar, 
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
-
-### Direct finish path
-
-`Closed Guard → Triangle Control → Triangle Choke Front → Won by Submission`
-
-### Armbar transition path
-
-`Closed Guard → Triangle Control → Triangle to Armbar → Armbar Control → Armbar from Guard → Won by Submission`
-
-### Omoplata chain path
-
-`Closed Guard → Triangle Control → Triangle to Omoplata → Omoplata Control → Omoplata from Guard → Won by Submission`
-
-### Back attack path
-
-`Closed Guard → Triangle Control → Triangle to Back → Back Control → Rear Naked Choke → Won by Submission`
-
-
-
-</section>
 
 <section id="position-metrics" class="content-section">
 
@@ -446,9 +358,9 @@ Flow drill starting from triangle control: if partner defends choke → armbar, 
 - **[[Omoplata Control]]** - Alternative submission when opponent turns into triangle
 - **[[Triangle to Armbar]]** - Key transition technique for submission chain
 - **[[Triangle to Omoplata]]** - Counter-transition for stacking defense
-- **[[Ryan Hall Triangle System]]** - Comprehensive systematic approach to triangle attacks
-- **[[Posture Breaking]]** - Essential prerequisite concept for establishing triangle
-- **[[Submission Chains]]** - Strategic framework for triangle-armbar-omoplata connections
+- **[[Back Control]]** - Transition target when opponent extracts arm
+- **[[Mounted Triangle]]** - Position variation when opponent stands
+- **[[Spider Guard]]** - Alternative entry position for triangle
 
 
 </section>

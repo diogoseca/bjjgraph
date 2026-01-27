@@ -41,6 +41,8 @@ The effectiveness of Anaconda Control stems from its multi-layered control mecha
 
 - Top player must maintain tight connection throughout all transitions and adjustments
 
+- Rolling mechanics create optimal finishing angle through momentum and weight transfer
+
 
 </section>
 
@@ -89,26 +91,20 @@ The effectiveness of Anaconda Control stems from its multi-layered control mecha
 - Work systematically: first survive the choke, then create space, then escape to better position
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Hip Escape]]** → [[Closed Guard]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+- **[[Hip Escape]]** (17% of attempts)
 
-- **[[Technical Standup]]** → [[Turtle]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Technical Standup]]** (20% of attempts)
 
-- **[[Rolling to Guard]]** → [[Half Guard]]
-  - Success Rate: Beginner 10%, Intermediate 25%, Advanced 40%
+- **[[Rolling to Guard]]** (15% of attempts)
 
-- **[[Frame and Shrimp]]** → [[Butterfly Guard]]
-  - Success Rate: Beginner 18%, Intermediate 32%, Advanced 48%
+- **[[Frame and Shrimp]]** (18% of attempts)
 
-- **[[Rolling Escape]]** → [[Defensive Position]]
-  - Success Rate: Beginner 12%, Intermediate 28%, Advanced 42%
+- **[[Rolling Escape]]** (16% of attempts)
 
-- **[[Hip Movement]]** → [[Scramble Position]]
-  - Success Rate: Beginner 8%, Intermediate 22%, Advanced 38%
+- **[[Hip Movement]]** (14% of attempts)
 
 
 ### Common Mistakes
@@ -166,26 +162,20 @@ The effectiveness of Anaconda Control stems from its multi-layered control mecha
 - Use body weight strategically, shifting between shoulder pressure and rolling mechanics based on opponent's defensive reactions
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Anaconda Choke]]** → [[Lost by Submission]]
-  - Success Rate: Beginner 45%, Intermediate 65%, Advanced 80%
+- **[[Anaconda Choke]]** (18% of attempts)
 
-- **[[Anaconda from Turtle]]** → [[Side Control]]
-  - Success Rate: Beginner 50%, Intermediate 70%, Advanced 85%
+- **[[Anaconda from Turtle]]** (20% of attempts)
 
-- **[[Front Headlock to Anaconda]]** → [[Front Headlock]]
-  - Success Rate: Beginner 40%, Intermediate 60%, Advanced 75%
+- **[[Front Headlock to Anaconda]]** (17% of attempts)
 
-- **[[Front Headlock to Darce]]** → [[D'arce Control]]
-  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 70%
+- **[[Front Headlock to Darce]]** (16% of attempts)
 
-- **[[Back Take Generic]]** → [[Back Control]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 65%
+- **[[Back Take Generic]]** (15% of attempts)
 
-- **[[Transition to Mount]]** → [[Mount]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 60%
+- **[[Side Control to Mount]]** (14% of attempts)
 
 
 ### Common Mistakes
@@ -225,6 +215,14 @@ The effectiveness of Anaconda Control stems from its multi-layered control mecha
 - **[[D'arce Control]]** - Sister submission with similar arm-in mechanics but different hand positioning
 
 - **[[Guillotine Control]]** - Alternative front headlock submission accessible from same position
+
+- **[[Turtle]]** - Common entry position where anaconda attacks are initiated
+
+- **[[Side Control]]** - Position achieved after successful roll-through from anaconda
+
+- **[[Back Control]]** - Alternative advancement when opponent turns away from pressure
+
+- **[[Mount]]** - Possible advancement target from anaconda control
 
 
 </section>

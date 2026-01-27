@@ -225,6 +225,11 @@
       "safety_critical": true
     },
     {
+      "question": "What anatomical structures does the Kimura from north-south primarily attack, and what are the breaking point indicators?",
+      "answer": "The Kimura primarily attacks the glenohumeral (shoulder) joint, specifically stressing the rotator cuff muscles (supraspinatus, infraspinatus, subscapularis, teres minor), the anterior shoulder capsule, and the labrum. Breaking point indicators include: opponent's arm begins to visibly rotate beyond natural range of motion, partner's facial expression shows sudden distress or pain, audible popping or grinding sounds from the joint, visible muscle trembling in the shoulder complex, and partner suddenly going limp or stopping all resistance. You should never approach these indicators in training—always stop well before any breaking point.",
+      "safety_critical": true
+    },
+    {
       "question": "Why is maintaining chest pressure throughout the submission attempt more important than in other top positions?",
       "answer": "North-south control relies heavily on chest pressure to prevent opponent's hip escape and rotation. Unlike side control where you have more points of control (crossface, hip positioning), north-south offers fewer control mechanisms. Your chest pressure is the primary tool preventing opponent from shrimping away or turning into you. If you lighten this pressure while attempting the Kimura, opponent can create the hip movement necessary to escape or reverse position. Additionally, the perpendicular body alignment in north-south means your weight distribution must remain constant—any shift away from the chest pressure allows opponent to exploit the gap. Maintain heavy chest pressure throughout the entire submission sequence to ensure positional security.",
       "safety_critical": false
@@ -237,6 +242,31 @@
     {
       "question": "How do you adjust your attack when opponent defends by rolling toward the submission, and what higher-value position can you secure?",
       "answer": "When opponent rolls toward the Kimura to relieve shoulder pressure, you must follow their rotation while maintaining the figure-four grip initially. As they turn into you, their back becomes exposed. At this point, you have a choice: either maintain the Kimura grip and continue applying pressure from the new angle, or release the wrist control and transition to back control by establishing the seat belt grip (one arm over their shoulder, one under their armpit). The back control transition is often higher-value because back control offers multiple submission opportunities and awards maximum points in competition. The key is recognizing that their rolling defense, while effective against the Kimura, creates a different vulnerability you can exploit.",
+      "safety_critical": false
+    },
+    {
+      "question": "Your opponent starts to posture up by pushing their hips toward the ceiling and creating space—what adjustment prevents escape?",
+      "answer": "When opponent bridges or drives their hips upward, immediately drop your hips lower and widen your knee base to absorb the movement and maintain stability. Keep your chest pressure driving downward through their sternum to prevent them from creating the space needed to escape. If they generate significant momentum, temporarily pause the rotational pressure on the Kimura but maintain the grip configuration. Once they settle back down, reestablish your perpendicular hip angle and resume the submission sequence. Never sacrifice positional control to chase the finish—your ability to maintain the position allows you to reattempt the submission once they stop moving.",
+      "safety_critical": false
+    },
+    {
+      "question": "What grip adjustments are necessary when opponent begins straightening their arm to slip out of the figure-four?",
+      "answer": "When opponent attempts to straighten their arm to escape, immediately tighten your figure-four by pulling your wrist grip closer to your chest and driving your controlling elbow (the one over their arm) downward toward the mat. This creates a barrier preventing full arm extension. Simultaneously, increase the upward lifting pressure on their elbow to maintain the bent-arm position. If they've already significantly straightened the arm, consider transitioning to an armbar by releasing the figure-four and stepping over their head while maintaining wrist control. The key is recognizing early when they're attempting to straighten—once fully extended, the Kimura opportunity is lost.",
+      "safety_critical": false
+    },
+    {
+      "question": "What is the point of no escape for the Kimura from north-south, and what control requirements must be established before reaching it?",
+      "answer": "The point of no escape occurs when you have established: (1) secure figure-four grip with your elbow positioned directly over their elbow preventing straightening, (2) their wrist controlled and beginning to rotate past the parallel line with their body, (3) perpendicular hip positioning with stable base preventing their bridge from disrupting you, and (4) continuous chest pressure pinning their torso to the mat. Once all four elements are in place and you begin the rotational pressure, the opponent's only effective defense is to tap. Before reaching this point, opponent can still defend by hiding the arm, straightening the elbow, or bridging with enough force to disrupt your base. Ensure all control requirements are met before committing to the finish.",
+      "safety_critical": false
+    },
+    {
+      "question": "What are the most common finishing errors that allow opponents to escape the Kimura from north-south?",
+      "answer": "The most common finishing errors are: (1) applying only rotation without sufficient upward elbow pressure, allowing opponent to keep elbow tight to body; (2) releasing chest pressure while focusing on the arm attack, permitting hip escape; (3) having hips parallel instead of perpendicular, reducing leverage and allowing opponent to rotate with the pressure; (4) loose figure-four grip that allows opponent to slip the wrist and straighten arm; (5) rushing the finish without establishing all control points first; and (6) failing to follow opponent's rolling defense, allowing them to relieve pressure. Each error represents a breakdown in the systematic approach—the submission requires all elements working together.",
+      "safety_critical": false
+    },
+    {
+      "question": "In competition, when should you abandon the Kimura from north-south and transition to an alternative attack or position?",
+      "answer": "Abandon the Kimura attempt when: (1) opponent successfully hides their arm tight to their body for more than 3-4 seconds despite your attempts to extract it; (2) your base becomes significantly compromised and you risk being swept or reversed; (3) opponent is rolling away from you (not into you) creating distance and breaking your chest pressure; (4) you've lost the figure-four grip and cannot quickly reestablish it; or (5) time pressure in competition requires a faster scoring option. In these scenarios, transition to north-south choke if they're framing, take mount if they're turning toward you, or secure back control if they've exposed their back during defense. Never force a submission at the expense of losing position entirely.",
       "safety_critical": false
     }
   ],
@@ -320,10 +350,6 @@
       "relationship": "Positional foundation requiring heavy chest pressure and head control"
     },
     {
-      "name": "Kimura Control",
-      "relationship": "Intermediate control position when figure-four grip is established but submission not yet applied"
-    },
-    {
       "name": "Kimura Trap",
       "relationship": "System utilizing Kimura grip for positional control and submission chains"
     },
@@ -332,23 +358,19 @@
       "relationship": "Transition technique specifically addressing entry from north-south position"
     },
     {
-      "name": "Kimura to Back Take",
-      "relationship": "Counter-transition when opponent defends by rolling into the submission"
-    },
-    {
       "name": "Side Control",
       "relationship": "Related top control position offering alternative Kimura angles"
     },
     {
-      "name": "Americana Control",
+      "name": "Americana",
       "relationship": "Alternative shoulder lock using similar figure-four mechanics but different rotation direction"
     },
     {
       "name": "Armbar Control",
-      "relationship": "Alternative joint lock option if Kimura grip is defended"
+      "relationship": "Alternative joint lock control position if Kimura grip is defended"
     },
     {
-      "name": "Transition to North-South",
+      "name": "Side Control to North-South",
       "relationship": "Entry methodology from various positions to establish north-south control"
     },
     {
@@ -358,6 +380,14 @@
     {
       "name": "Back Control",
       "relationship": "Positional transition when opponent rolls into Kimura defense"
+    },
+    {
+      "name": "Kimura from Side Control",
+      "relationship": "Related submission with different leverage angle and control requirements"
+    },
+    {
+      "name": "North-South Choke",
+      "relationship": "Complementary attack creating dilemma when opponent defends Kimura by hiding arm"
     }
   ]
 }

@@ -21,37 +21,37 @@ description: "Master 50-50 Guard Top position in BJJ. Complete guide covering le
     {
       "@type": "HowToStep",
       "name": "Execute Inside Heel Hook",
-      "text": "From this position, execute Inside Heel Hook to transition to Inside Heel Hook. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Inside Heel Hook. This technique is attempted in 11% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kneebar from 50-50",
-      "text": "From this position, execute Kneebar from 50-50 to transition to Kneebar Control. Success rate for advanced practitioners: 45%.",
+      "text": "From this position, attempt Kneebar from 50-50. This technique is attempted in 10% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Straight Ankle Lock",
-      "text": "From this position, execute Straight Ankle Lock to transition to Straight Ankle Lock Control. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Straight Ankle Lock. This technique is attempted in 11% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Calf Slicer from 50-50",
-      "text": "From this position, execute Calf Slicer from 50-50 to transition to Calf Slicer from 50-50. Success rate for advanced practitioners: 35%.",
+      "text": "From this position, attempt Calf Slicer from 50-50. This technique is attempted in 8% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Take from 50-50",
-      "text": "From this position, execute Back Take from 50-50 to transition to Back Control. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Back Take from 50-50. This technique is attempted in 17% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Outside Ashi",
-      "text": "From this position, execute Transition to Outside Ashi to transition to Outside Ashi-Garami. Success rate for advanced practitioners: 70%.",
+      "name": "Execute 50-50 Guard to Outside Ashi",
+      "text": "From this position, attempt 50-50 Guard to Outside Ashi. This technique is attempted in 16% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -212,90 +212,22 @@ The 50-50 Guard Top is particularly effective in no-gi competition where heel ho
 
 ## Available Attacks
 
-### [[Inside Heel Hook]] → [[Inside Heel Hook]]
+### [[Inside Heel Hook]] (11% of attempts)
 
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 50%
+### [[Kneebar from 50-50]] (10% of attempts)
 
-### [[Kneebar from 50-50]] → [[Kneebar Control]]
+### [[Straight Ankle Lock]] (11% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 45%
+### [[Calf Slicer from 50-50]] (8% of attempts)
 
-### [[Straight Ankle Lock]] → [[Straight Ankle Lock Control]]
+### [[Back Take from 50-50]] (17% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 50%
+### [[50-50 Guard to Outside Ashi]] (16% of attempts)
 
-### [[Calf Slicer from 50-50]] → [[Calf Slicer from 50-50]]
+### [[50-50 Guard to Inside Ashi]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 10%
-- Intermediate: 20%
-- Advanced: 35%
+### [[Pass to Side Control]] (12% of attempts)
 
-### [[Back Take from 50-50]] → [[Back Control]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 70%
-
-### [[Transition to Outside Ashi]] → [[Outside Ashi-Garami]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 55%
-- Advanced: 70%
-
-### [[Transition to Inside Ashi]] → [[Inside Ashi-Garami]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 65%
-
-### [[Pass to Side Control]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 55%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Heel exposure defense]]** → [[50-50 Guard Bottom]] (Opponent Success: 40%)
-- **[[Inside control recovery]]** → [[50-50 Guard Bottom]] (Opponent Success: 45%)
-- **[[Leg extraction to guard]]** → [[Open Guard]] (Opponent Success: 30%)
-- **[[Roll under reversal]]** → [[50-50 Guard Bottom]] (Opponent Success: 25%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Back take on leg extraction]]** → [[Back Control]]
-  - Opponent attempts to extract their leg from entanglement
-- **[[Outside Ashi on inside control loss]]** → [[Outside Ashi-Garami]]
-  - Opponent begins to match your inside position
-- **[[Kneebar on heel defense]]** → [[Kneebar Control]]
-  - Opponent hides their heel preventing heel hook finish
-- **[[Calf slicer on sitting defense]]** → [[Calf Slicer from 50-50]]
-  - Opponent sits up attempting to equalize position
 
 
 </section>
@@ -311,7 +243,7 @@ The 50-50 Guard Top is particularly effective in no-gi competition where heel ho
 
 **If opponent hides heel by tucking it close to their body or you lose heel control:**
 - Execute **[[Kneebar from 50-50]]** → [[Kneebar Control]] (Probability: 45%)
-- Execute **[[Transition to Inside Ashi]]** → [[Inside Ashi-Garami]] (Probability: 40%)
+- Execute **[[50-50 Guard to Inside Ashi]]** → [[Inside Ashi-Garami]] (Probability: 40%)
 - Execute **[[Back Take from 50-50]]** → [[Back Control]] (Probability: 60%)
 
 
@@ -387,29 +319,39 @@ Partner in 50-50 bottom attempts to sit up and equalize position. You maintain h
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Direct Heel Hook
+## Test Your Knowledge
 
-`50-50 Guard Top → Inside Heel Hook → Won by Submission`
+**Q1**: What is the most critical element for maintaining offensive advantage in 50-50 Guard Top?
+**A**: Inside position control with your leg is the most critical element. When your leg maintains the inside angle against opponent's leg structure, you control the submission hierarchy and prevent them from attacking your legs effectively. Loss of inside position immediately equalizes the position or puts you at disadvantage.
 
-### Heel Hook to Kneebar Chain
+**Q2**: Your opponent starts hip escaping to create angle - what immediate adjustment prevents them from equalizing?
+**A**: Drive your hips forward and downward while following their hip movement with your own hip pressure. Simultaneously tighten your inside leg control by pressing your shin deeper into their leg structure. This reestablishes vertical pressure and prevents them from creating the angle needed to escape or counter-attack.
 
-`50-50 Guard Top → Inside Heel Hook (defended) → Kneebar → Won by Submission`
+**Q3**: What are the essential grips for maintaining control and attacking from 50-50 Guard Top?
+**A**: Two-handed control on opponent's heel or ankle is essential - one hand cups the heel while the other controls the ankle or Achilles area. These grips enable heel hook attacks, prevent leg extraction, and allow you to control opponent's leg rotation. Never release both grips simultaneously when adjusting.
 
-### Back Take to Submission
+**Q4**: How should you distribute your weight to maintain top position effectively?
+**A**: Weight should drive primarily through your hips and pelvis into opponent's lower abdomen, not through your hands or upper body. Maintain upright torso posture with chest up and spine relatively vertical. This creates maximum downward pressure while keeping your base stable and preventing forward rolls.
 
-`50-50 Guard Top → Back Take → Back Control → Rear Naked Choke → Won by Submission`
+**Q5**: Your opponent successfully hides their heel by tucking it close to their body - what is the correct response?
+**A**: Do not stubbornly chase the hidden heel. After 3-5 seconds of attempted heel exposure fails, immediately transition to alternative attacks: kneebar by controlling above the knee, back take by releasing legs and circling to their back, or transition to Inside Ashi-Garami or Saddle for better heel exposure angles.
 
-### Ashi Transition to Heel Hook
+**Q6**: When opponent begins matching your inside position, what counter should you immediately execute?
+**A**: Transition to Outside Ashi-Garami before they fully establish inside control parity. This involves releasing your inside leg position and reattaching with outside control while maintaining heel grips. Alternatively, immediately attack their heel before they complete the position recovery, as their focus on inside position creates momentary grip vulnerability.
 
-`50-50 Guard Top → Outside Ashi-Garami → Outside Heel Hook → Won by Submission`
+**Q7**: How do you manage energy expenditure during extended 50-50 exchanges?
+**A**: Use grip efficiency by securing controlling grips rather than constantly fighting. Apply sustained hip pressure through skeletal alignment rather than muscular tension. Attack in bursts when opportunities arise rather than constantly chasing submissions. Rest between submission attempts by maintaining position with minimal muscular effort.
+
+**Q8**: What signals indicate opponent is about to attempt leg extraction, and how do you counter?
+**A**: Signals include opponent breaking your ankle grip, straightening their trapped leg, turning their hips away, or dropping their inside leg control to push off. Counter by immediately tightening your leg triangle around their leg, driving hips forward to pin them flat, and transitioning to back take as they create space by extracting.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 

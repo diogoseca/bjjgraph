@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Posture Recovery | BJJ Technique | BJJ Graph"
 description: "Learn Posture Recovery in BJJ. Defensive technique for regaining upright position from broken posture. Success rates: Beginner 55%, Intermediate 70%, Advanced 85%."
@@ -16,7 +17,7 @@ description: "Learn Posture Recovery in BJJ. Defensive technique for regaining u
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Posture Recovery in BJJ",
-  "description": "Step-by-step guide for Posture Recovery from Closed Guard to Combat Base.",
+  "description": "Step-by-step guide for Posture Recovery from Closed Guard/Bottom. Possible outcomes: Combat Base/Top (75%), Closed Guard/Bottom (15%), Closed Guard/Top (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -160,11 +161,25 @@ description: "Learn Posture Recovery in BJJ. Defensive technique for regaining u
 
 Posture Recovery is a fundamental defensive technique used when your posture has been broken while inside an opponent's guard. This critical skill allows you to regain an upright, stable position from which you can effectively pass or defend against submissions and sweeps. Breaking an opponent's posture is one of the primary objectives from guard positions, making posture recovery an essential skill for any top player. The technique involves a systematic approach to creating space, establishing proper base, and using controlled movements to return to an advantageous position. Mastering posture recovery is crucial because it represents the difference between maintaining offensive potential and being swept or submitted. When executed properly, it neutralizes the guard player's attacks while preserving your energy and positioning for continued passing attempts.
 
-**Starting Position**: [[Closed Guard]]
-**Ending Position**: [[Combat Base]]
+**From Position**: [[Closed Guard/Bottom]]
 **Success Rates**: Beginner 55%, Intermediate 70%, Advanced 85%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Combat Base/Top]] | 75% |
+| Failure | [[Closed Guard/Bottom]] | 15% |
+| Counter | [[Closed Guard/Top]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

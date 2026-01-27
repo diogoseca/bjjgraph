@@ -21,37 +21,37 @@ description: "Master Standing Guard Top position in BJJ. Complete guide covering
     {
       "@type": "HowToStep",
       "name": "Execute Toreando Pass",
-      "text": "From this position, execute Toreando Pass to transition to Side Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Toreando Pass. This technique is attempted in 14% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag Pass",
-      "text": "From this position, execute Leg Drag Pass to transition to Side Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 13% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, execute Knee Slice Pass to transition to Side Control. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Double Under Pass",
-      "text": "From this position, execute Double Under Pass to transition to Side Control. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Double Under Pass. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute X Pass",
-      "text": "From this position, execute X Pass to transition to Side Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt X Pass. This technique is attempted in 13% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Long Step Pass",
-      "text": "From this position, execute Long Step Pass to transition to Side Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Long Step Pass. This technique is attempted in 14% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -211,95 +211,22 @@ The position is particularly valuable in competition settings where maintaining 
 
 ## Available Attacks
 
-### [[Toreando Pass]] → [[Side Control]]
+### [[Toreando Pass]] (14% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Leg Drag Pass]] (13% of attempts)
 
-### [[Leg Drag Pass]] → [[Side Control]]
+### [[Knee Slice Pass]] (13% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Double Under Pass]] (12% of attempts)
 
-### [[Knee Slice Pass]] → [[Side Control]]
+### [[X Pass]] (13% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Long Step Pass]] (14% of attempts)
 
-### [[Double Under Pass]] → [[Side Control]]
+### [[Stack Pass]] (11% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
+### [[Back Step]] (10% of attempts)
 
-### [[X Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[Long Step Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-### [[Stack Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
-
-### [[Back Step]] → [[Back Control]]
-
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 45%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[De La Riva Sweep]]** → [[De La Riva Guard]] (Opponent Success: 40%)
-- **[[Butterfly Sweep]]** → [[Butterfly Guard]] (Opponent Success: 35%)
-- **[[Spider Guard Sweeps]]** → [[Spider Guard]] (Opponent Success: 45%)
-- **[[Lasso Guard Sweeps]]** → [[Lasso Guard]] (Opponent Success: 40%)
-- **[[X-Guard Sweep]]** → [[X-Guard]] (Opponent Success: 50%)
-- **[[Reverse De La Riva Recovery]]** → [[Reverse De La Riva Guard]] (Opponent Success: 35%)
-- **[[Single Leg X Sweep]]** → [[Single Leg X-Guard]] (Opponent Success: 45%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Sprawl Defense]]** → [[Front Headlock]]
-  - Opponent attempts single leg entry from guard
-- **[[Grip Break]]** → [[Standing Guard]]
-  - Opponent establishes collar or sleeve grips
-- **[[Smash Pass]]** → [[Side Control]]
-  - Opponent creates space with frames
-- **[[Knee Cut Pass]]** → [[Side Control]]
-  - Opponent extends legs for distance management
-- **[[Back Step]]** → [[Back Control]]
-  - Opponent commits to De La Riva hook
 
 
 </section>
@@ -423,33 +350,39 @@ Bottom player establishes specific guard type (De La Riva, Spider, Lasso, etc.) 
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Fastest passing path to submission
+## Test Your Knowledge
 
-`Standing Guard Top → Toreando Pass → Side Control → Transition to Mount → Mount → Armbar from Mount`
+**Q1**: What is the most critical weight distribution adjustment when your opponent attempts a butterfly sweep from open guard?
+**A**: When opponent attempts a butterfly sweep, immediately shift your weight backward and lower your hips while widening your base. Drive your hips back rather than forward, as forward weight gives them the leverage they need. Your hands should maintain control of their legs or hips while your center of gravity moves away from their lifting vector. This neutralizes the sweep angle and allows you to either reset your passing position or capitalize on their extended hooks.
 
-### High-percentage pressure passing path
+**Q2**: How do you maintain your standing base when opponent establishes strong collar and sleeve grips that threaten to pull you down?
+**A**: Maintain posture by keeping your hips back and chest elevated rather than fighting with arm strength alone. Step back slightly to create tension in their grips while maintaining your own control points. Systematically strip their grips using two-on-one breaks or circular wrist movements before they can set up attacks. Never allow both grips to fully settle - address each grip attempt immediately and use footwork to create angles that reduce their pulling leverage.
 
-`Standing Guard Top → Knee Slice Pass → Side Control → Transition to North-South → North-South Choke`
+**Q3**: Your opponent is playing seated guard and keeps scooting toward you as you try to maintain distance. What is the correct strategic response?
+**A**: Control the engagement distance by using your hands to maintain frames on their shoulders or collar while using footwork to circle laterally rather than backing straight up. When they scoot, time your entry to coincide with their movement, attacking with passing grips as they commit weight forward. Alternatively, establish grips that prevent their forward movement and force them to address your control before continuing to advance. The key is to make them pay for each forward movement rather than allowing free advancement.
 
-### Back attack path
+**Q4**: What are the essential grips to establish before initiating a Toreando pass from Standing Guard Top?
+**A**: The primary grips are bilateral control of opponent's knees or pants at the thigh level. Secondary options include collar grip combined with single leg control, or ankle grips for low Toreando variations. Your grip configuration must allow you to redirect both legs simultaneously while maintaining your balance. Before initiating the pass, ensure your grips can control the direction of both legs and that you have a clear angle for lateral movement without obstruction from opponent's frames.
 
-`Standing Guard Top → Back Step → Back Control → Rear Naked Choke`
+**Q5**: How should you respond when your opponent successfully establishes a De La Riva hook on your lead leg?
+**A**: Address the hook immediately before it strengthens their position. Options include: backstep to remove your leg from the hook while maintaining upper body connection, push their hooking knee across their body to flatten their hips, or immediately switch to a passing angle that uses their hook against them such as the reverse De La Riva pass. Never allow them to establish both the hook and strong collar/sleeve grips - address whichever element is weaker first while preventing the second from solidifying.
 
-### Leg drag to back path
+**Q6**: What is the proper stance width and weight distribution for maintaining stability in Standing Guard Top?
+**A**: Maintain shoulder-width or slightly wider stance with weight distributed through the balls of your feet, allowing quick direction changes. Your hips should be slightly back with knees bent in an athletic position. Avoid having weight too far forward which enables sweeps, or too far back which reduces your ability to generate passing pressure. The ideal distribution is approximately 60% through your base leg and 40% through your mobile leg when circling, with the ability to quickly redistribute based on opponent's attacks.
 
-`Standing Guard Top → Leg Drag Pass → Back Control → Rear Naked Choke`
+**Q7**: Your passing attempt stalls and opponent recovers to a strong framing position with feet on your hips. How do you reset without losing positional advantage?
+**A**: Maintain grip control while stepping back just enough to remove their feet from your hips, but not so far that you lose all connection. Immediately re-engage with new angle or grip configuration rather than allowing them time to establish new guards. Strip their grips systematically before re-initiating your pass, and consider switching passing styles - if your pressure pass stalled, try speed passing, or vice versa. The key is maintaining engagement pressure while creating new angles that bypass their established frames.
 
-### Stack passing to submission
-
-`Standing Guard Top → Stack Pass → Side Control → Kimura from Side Control`
+**Q8**: How do you anticipate and shut down an opponent's inversion attempts while maintaining your passing position?
+**A**: Watch for the hip elevation and shoulder rotation that precede inversion. When you see these precursors, immediately drive forward pressure onto their hips to flatten them, or control their collar to prevent the shoulder rotation needed for successful inversion. Alternatively, time your pass to coincide with their inversion attempt, as their commitment to inverting creates openings for quick directional passing. Never back away from an inverting opponent - either pressure forward to prevent the inversion or use their momentum against them.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -477,11 +410,11 @@ Bottom player establishes specific guard type (De La Riva, Spider, Lasso, etc.) 
 - **[[Side Control]]** - Common target position after successful pass
 - **[[De La Riva Guard]]** - Common guard type faced from this position
 - **[[Spider Guard]]** - Common guard type faced from this position
-- **[[Guard Pass]]** - General concept applied from this position
-- **[[Grip Fighting]]** - Essential concept for success in this position
-- **[[Guard Passing Principles]]** - Fundamental concepts governing this position
-- **[[Pressure Passing Framework]]** - Strategic system applicable from this position
-- **[[Speed Passing]]** - Alternative strategic approach from this position
+- **[[Knee Slice Pass]]** - High-percentage passing technique from this position
+- **[[Headquarters Position]]** - Transitional position during passing sequences
+- **[[Butterfly Guard]]** - Common guard configuration encountered
+- **[[Lasso Guard]]** - Gi-specific guard requiring specialized passing
+- **[[Long Step Pass]]** - Speed-based passing option from standing
 
 
 </section>

@@ -21,37 +21,37 @@ description: "Defensive perspective in reversed leg entanglement. Learn escape s
     {
       "@type": "HowToStep",
       "name": "Execute Ushiro Ashi-Garami Escape",
-      "text": "From this position, execute Ushiro Ashi-Garami Escape to transition to Standing Position. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Ushiro Ashi-Garami Escape. This technique is attempted in 15% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Inversion to Turtle",
-      "text": "From this position, execute Inversion to Turtle to transition to Turtle. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Inversion to Turtle. This technique is attempted in 17% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Counter Ashi Entry",
-      "text": "From this position, execute Counter Ashi Entry to transition to Outside Ashi-Garami. Success rate for advanced practitioners: 40%.",
+      "text": "From this position, attempt Counter Ashi Entry. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Deep Half",
-      "text": "From this position, execute Transition to Deep Half to transition to Deep Half Guard. Success rate for advanced practitioners: 50%.",
+      "name": "Execute Ushiro Ashi-Garami to Deep Half",
+      "text": "From this position, attempt Ushiro Ashi-Garami to Deep Half. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Single Leg X Recovery",
-      "text": "From this position, execute Single Leg X Recovery to transition to Single Leg X-Guard. Success rate for advanced practitioners: 45%.",
+      "text": "From this position, attempt Single Leg X Recovery. This technique is attempted in 11% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Reverse Heel Hook Counter",
-      "text": "From this position, execute Reverse Heel Hook Counter to transition to Inside Ashi-Garami. Success rate for advanced practitioners: 35%.",
+      "text": "From this position, attempt Reverse Heel Hook Counter. This technique is attempted in 9% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -215,91 +215,22 @@ Energy management in ushiro ashi-garami bottom is critical, as panicked escape a
 
 ## Available Escapes
 
-### [[Ushiro Ashi-Garami Escape]] → [[Standing Position]]
+### [[Ushiro Ashi-Garami Escape]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 60%
+### [[Inversion to Turtle]] (17% of attempts)
 
-### [[Inversion to Turtle]] → [[Turtle]]
+### [[Counter Ashi Entry]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Ushiro Ashi-Garami to Deep Half]] (12% of attempts)
 
-### [[Counter Ashi Entry]] → [[Outside Ashi-Garami]]
+### [[Single Leg X Recovery]] (11% of attempts)
 
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 25%
-- Advanced: 40%
+### [[Reverse Heel Hook Counter]] (9% of attempts)
 
-### [[Transition to Deep Half]] → [[Deep Half Guard]]
+### [[Leg Extraction to Guard]] (14% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
+### [[Granby Roll Escape]] (12% of attempts)
 
-### [[Single Leg X Recovery]] → [[Single Leg X-Guard]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 30%
-- Advanced: 45%
-
-### [[Reverse Heel Hook Counter]] → [[Inside Ashi-Garami]]
-
-**Success Rates:**
-- Beginner: 10%
-- Intermediate: 20%
-- Advanced: 35%
-
-### [[Leg Extraction to Guard]] → [[Open Guard]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-### [[Granby Roll Escape]] → [[Turtle]]
-
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 50%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Heel Hook Adjustment]]** → [[Ushiro Ashi-Garami Top]] (Opponent Success: 45%)
-- **[[Saddle Transition]]** → [[Saddle]] (Opponent Success: 35%)
-- **[[Back Take from Inversion]]** → [[Back Control]] (Opponent Success: 40%)
-- **[[Ankle Lock Finish]]** → [[Won by Submission]] (Opponent Success: 30%)
-- **[[Cross Ashi Transition]]** → [[Cross Ashi-Garami]] (Opponent Success: 35%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Hip Escape to Standing]]** → [[Standing Position]]
-  - When opponent releases inside leg to adjust grips for heel hook
-- **[[Counter Heel Hook]]** → [[Inside Ashi-Garami]]
-  - When opponent overextends reaching for heel and exposes their own leg
-- **[[Turtle Roll Through]]** → [[Turtle]]
-  - When opponent attempts to follow inversion but loses leg control momentarily
-- **[[Deep Half Recovery]]** → [[Deep Half Guard]]
-  - When clearing outside leg successfully but inside leg remains engaged
 
 
 </section>
@@ -406,25 +337,39 @@ Start in ushiro ashi-garami with partner attempting to secure heel hook grips. P
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Defensive Counter to Submission
+## Test Your Knowledge
 
-`Ushiro Ashi-Garami Bottom → Counter Heel Hook → Inside Ashi-Garami → Heel Hook`
+**Q1**: You've inverted to escape but your leg is still trapped - what is the critical first priority?
+**A**: The critical first priority is protecting your heel from exposure by maintaining dorsiflexion (foot flexed toward shin) throughout the entire escape sequence. Never point your toes or relax your foot, as this creates the opening for a finishing heel hook grip. Simultaneously use your hands to control the opponent's inside knee to prevent them from deepening the entanglement or transitioning to saddle.
 
-### Escape to Guard Attack
+**Q2**: What distinguishes a shallow entanglement you can escape from versus a deep entanglement requiring alternative strategy?
+**A**: In shallow entanglement, the opponent's inside leg has minimal control below your knee and their upper body grips haven't established heel access. You can complete rotation to standing or turtle. In deep entanglement, their inside leg controls your thigh deeply, their outside leg is tight over your knee line, and they're working heel grips. Deep entanglement requires accepting turtle or deep half guard rather than forcing extraction.
 
-`Ushiro Ashi-Garami Bottom → Leg Extraction → Open Guard → Triangle Choke`
+**Q3**: Your opponent is adjusting their grips to attack the heel hook - what counter-attack window does this create?
+**A**: When the opponent releases their inside leg control or shifts their hands to establish heel grips, their own legs often become exposed for counter-entanglement. Watch for their adjustment phase where they're focused on offense rather than defense. You can enter your own outside ashi-garami on their free leg during this window, creating a leg lock exchange situation that favors whoever established position first.
 
-### Inversion to Back
+**Q4**: How do you systematically clear your opponent's leg entanglement without creating submission opportunities?
+**A**: Clear legs in sequence while maintaining heel protection. Use your hands to control opponent's inside knee first, preventing saddle transition. Then work to clear their outside leg by pulling your trapped leg away while pushing their hip with your free leg. Never extend your trapped leg toward the opponent as this deepens control. Create space incrementally rather than explosive movement that creates heel exposure.
 
-`Ushiro Ashi-Garami Bottom → Turtle Recovery → Opponent Attacks Turtle → Counter to Back Control → Rear Naked Choke`
+**Q5**: When should you accept turtle position instead of continuing to fight the leg extraction?
+**A**: Accept turtle when opponent's control is too deep to safely extract your leg, when their heel hook grip is established and continuing rotation is the only way to prevent the finish, when you've been defending for more than 5-6 seconds without progress, or when your energy is depleting rapidly from escape attempts. Turtle is a safer transitional position than remaining in deep ushiro entanglement.
+
+**Q6**: What foot position must you maintain throughout the entire escape sequence and why?
+**A**: Maintain dorsiflexion (foot flexed toward shin with toes pulled up) throughout the entire escape. This position protects the heel by pulling it closer to your lower leg, making it difficult for the opponent to establish the grip needed for heel hook finishing. Pointing toes or relaxing the foot creates slack that exposes the heel to finishing grips even during successful escape attempts.
+
+**Q7**: Your opponent's inside leg is controlling your thigh deeply - what does this indicate about their next likely action?
+**A**: Deep inside leg control on your thigh indicates they're preparing to transition to saddle or honey hole rather than finishing from ushiro. Their next action will likely involve stepping their outside leg through to complete the saddle configuration. You must use your hands to block their inside knee and create separation before they can complete this transition, or accelerate your turtle rotation to deny the positional improvement.
+
+**Q8**: How do you manage energy expenditure when escape attempts aren't immediately successful?
+**A**: Execute deliberate, methodical escape sequences rather than explosive scrambling. Focus energy on grip fighting to prevent heel exposure and controlling opponent's inside knee. Rest in relative safety by maintaining heel protection rather than continuous escape attempts. Recognize when to accept transitional positions like turtle or deep half guard rather than exhausting yourself on low-percentage extraction attempts from deep entanglement.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -446,13 +391,13 @@ Start in ushiro ashi-garami with partner attempting to secure heel hook grips. P
 ## Related Positions and Techniques
 
 - **[[Outside Ashi-Garami]]** - Primary position that inversion attempts originate from during escape sequences
-- **[[Saddle Defense]]** - Related defensive skill set for preventing deeper leg entanglements during escape
+- **[[Saddle]]** - Position opponent may transition to during escape, requiring defensive awareness
 - **[[Ashi Garami Escape]]** - Core escape system that includes ushiro variation as one technique branch
 - **[[Turtle]]** - Common transitional position when accepting safe recovery over forced leg extraction
 - **[[Deep Half Guard]]** - Alternative recovery position accessible during partial leg clearing
 - **[[Leg Entanglement]]** - Fundamental principle governing all ashi-garami escape and counter-attack options
-- **[[Submission Defense]]** - Broader defensive framework that ushiro ashi-garami escape fits within
-- **[[Lachlan Giles Leg Lock Defense Framework]]** - Comprehensive system including specific ushiro ashi-garami defensive protocols
+- **[[Single Leg X-Guard]]** - Recovery position accessible when partially clearing reversed entanglement
+- **[[Inside Ashi-Garami]]** - Counter-attack position accessible when opponent exposes their leg during adjustments
 
 
 </section>

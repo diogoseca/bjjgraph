@@ -93,26 +93,20 @@ From the top perspective, the Buggy Choke position serves as a central hub in mo
 - Accept tactical retreat to half guard or other defensive positions rather than allowing choke to develop in turtle
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Sit to Half Guard]]** → [[Half Guard]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Sit to Half Guard]]** (18% of attempts)
 
-- **[[Granby Roll to Guard]]** → [[Closed Guard]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Granby Roll to Guard]]** (18% of attempts)
 
-- **[[Technical Stand Up]]** → [[Standing Position]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+- **[[Technical Stand Up]]** (16% of attempts)
 
-- **[[Turn In and Face]]** → [[Open Guard]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Turn In and Face]]** (18% of attempts)
 
-- **[[Roll to Deep Half Guard]]** → [[Deep Half Guard]]
-  - Success Rate: Beginner 15%, Intermediate 25%, Advanced 40%
+- **[[Roll to Deep Half Guard]]** (14% of attempts)
 
-- **[[Elbow Escape to Guard]]** → [[Closed Guard]]
-  - Success Rate: Beginner 20%, Intermediate 30%, Advanced 45%
+- **[[Elbow Escape to Guard]]** (16% of attempts)
 
 
 ### Common Mistakes
@@ -166,38 +160,28 @@ From the top perspective, the Buggy Choke position serves as a central hub in mo
 - Treat position as transitional attack hub connecting multiple high-percentage outcomes based on opponent's defensive choices
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Finish Buggy Choke]]** → [[Won by Submission]]
-  - Success Rate: Beginner 45%, Intermediate 65%, Advanced 80%
+- **[[Finish Buggy Choke]]** (11% of attempts)
 
-- **[[Transition to Back Control]]** → [[Back Control]]
-  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 75%
+- **[[Aoki Lock to Back Control]]** (11% of attempts)
 
-- **[[Hook Leg and Take Back]]** → [[Back Control]]
-  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 72%
+- **[[Hook Leg and Take Back]]** (11% of attempts)
 
-- **[[Transition to Crucifix]]** → [[Crucifix]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Aoki Lock to Crucifix]]** (10% of attempts)
 
-- **[[Roll to Truck]]** → [[Truck]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Roll to Truck]]** (9% of attempts)
 
-- **[[Switch to Darce Configuration]]** → [[D'arce Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Switch to Darce Configuration]]** (8% of attempts)
 
-- **[[Switch to Anaconda Configuration]]** → [[Anaconda Control]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Switch to Anaconda Configuration]]** (8% of attempts)
 
-- **[[Transition to Side Control]]** → [[Side Control]]
-  - Success Rate: Beginner 55%, Intermediate 70%, Advanced 80%
+- **[[Buggy Choke to Side Control]]** (12% of attempts)
 
-- **[[Rolling Back Take]]** → [[Back Control]]
-  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+- **[[Rolling Back Take]]** (10% of attempts)
 
-- **[[Transition to Front Headlock]]** → [[Front Headlock]]
-  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+- **[[Buggy Choke to Front Headlock]]** (10% of attempts)
 
 
 ### Common Mistakes

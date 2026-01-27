@@ -21,37 +21,37 @@ description: "Master body triangle from bottom perspective. Powerful leg control
     {
       "@type": "HowToStep",
       "name": "Execute Rear Naked Choke",
-      "text": "From this position, execute Rear Naked Choke to transition to Won by Submission. Success rate for advanced practitioners: 80%.",
+      "text": "From this position, attempt Rear Naked Choke. This technique is attempted in 15% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Armbar from Back with Legs",
-      "text": "From this position, execute Armbar from Back with Legs to transition to Armbar Control. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Armbar from Back with Legs. This technique is attempted in 13% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bow and Arrow Choke",
-      "text": "From this position, execute Bow and Arrow Choke to transition to Won by Submission. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Bow and Arrow Choke. This technique is attempted in 14% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Short Choke",
-      "text": "From this position, execute Short Choke to transition to Won by Submission. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Short Choke. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Choke Back",
-      "text": "From this position, execute Triangle Choke Back to transition to Won by Submission. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Triangle Choke Back. This technique is attempted in 11% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Control to Crucifix",
-      "text": "From this position, execute Back Control to Crucifix to transition to Crucifix. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Back Control to Crucifix. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -211,91 +211,22 @@ From this bottom position, you maintain constant chest-to-back pressure while yo
 
 ## Available Escapes
 
-### [[Rear Naked Choke]] → [[Won by Submission]]
+### [[Rear Naked Choke]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 50%
-- Intermediate: 65%
-- Advanced: 80%
+### [[Armbar from Back with Legs]] (13% of attempts)
 
-### [[Armbar from Back with Legs]] → [[Armbar Control]]
+### [[Bow and Arrow Choke]] (14% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Short Choke]] (12% of attempts)
 
-### [[Bow and Arrow Choke]] → [[Won by Submission]]
+### [[Triangle Choke Back]] (11% of attempts)
 
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 60%
-- Advanced: 75%
+### [[Back Control to Crucifix]] (12% of attempts)
 
-### [[Short Choke]] → [[Won by Submission]]
+### [[Turtle to Truck]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Side Control to Mount]] (13% of attempts)
 
-### [[Triangle Choke Back]] → [[Won by Submission]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[Back Control to Crucifix]] → [[Crucifix]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-### [[Transition to Truck]] → [[Truck]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-### [[Transition to Mount]] → [[Mount]]
-
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Hip Escape to Turtle]]** → [[Turtle]] (Opponent Success: 25%)
-- **[[Rolling Back Take Reversal]]** → [[Guard Recovery]] (Opponent Success: 20%)
-- **[[Frame and Shrimp to Half Guard]]** → [[Half Guard]] (Opponent Success: 15%)
-- **[[Granby Roll Escape]]** → [[Defensive Position]] (Opponent Success: 18%)
-- **[[Chin Protection Defense]]** → [[Body Triangle]] (Opponent Success: 40%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Rear Naked Choke]]** → [[Won by Submission]]
-  - Opponent focuses on clearing triangle and exposes neck by raising hands to attack legs
-- **[[Armbar from Back with Legs]]** → [[Armbar Control]]
-  - Opponent attempts to grip-fight and extends arm away from body to defend neck or attack triangle
-- **[[Back Control to Crucifix]]** → [[Crucifix]]
-  - Opponent reaches back with arm to attack the triangle lock or pull at your legs
-- **[[Bow and Arrow Choke]]** → [[Won by Submission]]
-  - Opponent turns into you trying to escape triangle pressure or roll to face you
 
 
 </section>
@@ -306,7 +237,7 @@ From this bottom position, you maintain constant chest-to-back pressure while yo
 
 **If opponent is defensive with hands protecting neck and not attempting to clear triangle:**
 - Execute **[[Increase squeeze pressure gradually]]** → [[Body Triangle]] (Probability: 70%)
-- Execute **[[Work for collar grips systematically]]** → [[Rear Naked Choke]] (Probability: 60%)
+- Execute **[[Work for collar grips systematically]]** → [[game-over]] (Probability: 60%)
 
 
 **If opponent reaches back to attack triangle lock or grab your legs:**
@@ -315,8 +246,8 @@ From this bottom position, you maintain constant chest-to-back pressure while yo
 
 
 **If opponent attempts to turn into you to escape:**
-- Execute **[[Bow and Arrow Choke]]** → [[Won by Submission]] (Probability: 70%)
-- Execute **[[Transition to Truck]]** → [[Truck]] (Probability: 50%)
+- Execute **[[Bow and Arrow Choke]]** → [[game-over]] (Probability: 70%)
+- Execute **[[Turtle to Truck]]** → [[Truck]] (Probability: 50%)
 
 
 **If opponent turtles or rolls forward trying to clear position:**
@@ -402,33 +333,39 @@ In body triangle position, practice applying different levels of squeeze pressur
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Shortest path to submission
+## Test Your Knowledge
 
-`Body Triangle → Rear Naked Choke → Won by Submission`
+**Q1**: Your opponent starts turning their body toward your triangle leg - what adjustment maintains your control?
+**A**: Follow their turn by adjusting your hip angle to stay behind them, and increase squeeze pressure momentarily to discourage the turning motion. Use your upper body control (seatbelt) to pull them back toward a flatter position. If they persist, prepare to transition to crucifix or armbar as their turning creates arm exposure opportunities.
 
-### High-percentage choke path
+**Q2**: What are the essential grip configurations for maintaining body triangle control?
+**A**: The seatbelt grip (over-under around their torso with hands clasped) is primary, with the choking arm over their shoulder and control arm under their armpit. Keep elbows tight to prevent grip breaks. In gi, collar grips provide additional neck threat. Your upper body grips work together with the triangle to create complete body immobilization.
 
-`Body Triangle → Short Choke → Won by Submission`
+**Q3**: How do you modulate squeeze pressure effectively to conserve energy while maintaining control?
+**A**: Apply baseline light squeeze sufficient to maintain the lock without exhausting your legs. Increase pressure strategically when opponent attempts escape, when hunting submissions, or to accelerate their fatigue. Use pulsing pressure (squeeze-release-squeeze) rather than constant maximum effort to prevent your own muscle fatigue while keeping opponent uncomfortable.
 
-### Arm attack path
+**Q4**: Your opponent posts their hands on your locked foot trying to clear the triangle - what is your response?
+**A**: This exposes their arms for attack. Immediately transition to armbar by isolating the reaching arm, or transition to crucifix by trapping that arm while maintaining back control. Their hands on your foot mean hands not protecting their neck, so alternatively increase neck attack pressure. The clearing attempt itself creates the submission opportunity.
 
-`Body Triangle → Armbar from Back with Legs → Armbar Control → Won by Submission`
+**Q5**: What is the optimal height to position your body triangle on opponent's torso and why?
+**A**: Position the triangle around the lower ribcage and diaphragm area, typically just above the belly button level. Too high allows better breathing and easier clearing. Too low provides less control and may slip off. The lower rib position maximizes breathing restriction while securing the locked legs against the hip bones to prevent downward slippage.
 
-### Gi-specific path
+**Q6**: How do you recover control if opponent partially clears the triangle lock?
+**A**: Immediately re-engage by pulling your escaping foot back behind your knee, using your hand to assist if necessary. Simultaneously tighten chest-to-back connection and pull them toward you with your upper body grips. If the full triangle cannot be immediately re-established, transition to hooks momentarily, stabilize, then work to re-lock the triangle from the hooks position.
 
-`Body Triangle → Bow and Arrow Choke → Won by Submission`
+**Q7**: What base adjustments prevent opponent from rolling you over while maintaining the body triangle?
+**A**: Keep your hips on the mat beside opponent rather than elevated on their back. This creates a post that prevents rolling. If they attempt to roll toward your triangle leg, post your elbow or hand on the mat. If they roll away from the triangle leg, follow the roll while maintaining chest connection and use the momentum to end up in mount with triangle still locked.
 
-### Position advancement path
-
-`Body Triangle → Back Control to Crucifix → Crucifix → Choke from Crucifix → Won by Submission`
+**Q8**: Your opponent begins aggressive hand fighting against your seatbelt control - how do you maintain position stability?
+**A**: Keep elbows extremely tight to your body to prevent grip breaks. Use your triangle squeeze to restrict their movement and breathing, which limits their hand fighting effectiveness. Cycle between different upper body grip configurations - if they break seatbelt, transition to collar grips or over-under, then work back to seatbelt. The triangle provides positional security even during grip transitions.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -456,7 +393,7 @@ In body triangle position, practice applying different levels of squeeze pressur
 - **[[Bow and Arrow Choke]]** - Gi-specific submission utilizing triangle control
 - **[[Crucifix]]** - Transition target when opponent reaches back
 - **[[Truck]]** - Advanced transition option from body triangle
-- **[[Back Attack System]]** - System incorporating body triangle as key control position
+- **[[Body Triangle Lock]]** - Transition to establish this position from standard hooks
 
 
 </section>

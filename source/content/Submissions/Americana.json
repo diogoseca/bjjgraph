@@ -276,6 +276,31 @@
       "question": "What are the key differences in Americana execution from mount versus side control positions?",
       "answer": "From mount, the elbow is pinned to the mat and rotation is toward the mat near their head with chest weight distributed over their torso. From side control, the elbow is pinned to their own ribcage or body, and rotation is toward their face. Mount provides better base and allows more direct downward pressure, while side control requires more hip pressure and careful angle management. From mount, your knees drive into their sides for base; from side control, your hips are heavy and chest covers their shoulder. Both require maintaining pressure throughout, but weight distribution and rotation angles differ.",
       "safety_critical": false
+    },
+    {
+      "question": "Your opponent begins posturing up and attempting to straighten their trapped arm - what adjustment do you make to secure the finish?",
+      "answer": "When the opponent straightens their arm, you have two primary options. First, you can transition immediately to a straight armbar by following their extension and attacking the elbow joint instead of the shoulder. Second, you can switch to a Kimura by reversing your grip direction. Do not fight their straightening force with arm strength - this creates a losing battle. Instead, use their movement as an invitation to attack the newly exposed extended arm or reverse the submission direction. The key is flowing with their defense rather than resisting it.",
+      "safety_critical": false
+    },
+    {
+      "question": "What indicates the 'point of no escape' in the Americana where the opponent must tap or suffer injury?",
+      "answer": "The point of no escape occurs when the elbow is fully pinned to the mat or body, the wrist is secured in the figure-four with palm facing toward the opponent's head, and rotation has begun past approximately 45 degrees toward the mat. At this point, the shoulder is in external rotation beyond its comfortable range, and any further movement will stress the joint capsule and rotator cuff. The opponent will feel intense pressure in the front of the shoulder and may experience the beginning of sharp pain. This is the moment they must tap - continuing past this point risks structural damage even with slow application.",
+      "safety_critical": true
+    },
+    {
+      "question": "How do you maintain positional control while finishing the Americana in competition to prevent losing position during the submission attempt?",
+      "answer": "Maintain at least 70% of your weight on the opponent's upper body throughout the submission. From mount, keep your knees squeezed against their sides and use grapevines if needed to prevent bridging. Your chest stays heavy on their chest even as you work the submission mechanics. From side control, keep your hips low and heavy with constant crossface pressure. Never lift your base to create more rotation - instead, use your entire upper body rotation while maintaining hip and chest contact. If you feel your position becoming unstable, abandon the submission attempt and re-establish control before trying again.",
+      "safety_critical": false
+    },
+    {
+      "question": "What grip adjustments should you make during the finish if your initial grip begins slipping under sweat or resistance?",
+      "answer": "If the grip slips, immediately re-grip on the wrist bones (radius and ulna) rather than the hand. In no-gi, consider using a monkey grip where all four fingers wrap on the same side rather than a traditional thumb wrap. You can also adjust by sliding your forearm deeper under their wrist, trapping more of their forearm between your arms. If in the gi, you may grip the sleeve material for additional friction. Never continue applying pressure with a compromised grip - this risks sudden slip and potential injury from uncontrolled movement. Re-establish grip security before continuing.",
+      "safety_critical": false
+    },
+    {
+      "question": "What common finishing error allows opponents to escape the Americana at the last moment, and how do you correct it?",
+      "answer": "The most common error is lifting your chest pressure to create more rotation angle, which simultaneously gives the opponent space to bridge, turn, or pull their arm free. The correction is to maintain downward chest pressure while using whole-body rotation rather than arm strength. Another frequent error is rushing the finish with jerky motion - the opponent can use the momentum change to explosively escape. Apply pressure in one smooth, continuous arc while keeping your body heavy. The finish should feel like controlled, inevitable pressure rather than a sudden attack.",
+      "safety_critical": false
     }
   ],
   "training_progressions_and_safety_protocols": [
@@ -345,8 +370,6 @@
     "Americana from Mount",
     "Americana from Side Control",
     "Americana Variations",
-    "Reverse Kimura",
-    "North-South to Kimura",
     "Kimura Variations",
     "Arm Triangle",
     "Ezekiel from Mount"

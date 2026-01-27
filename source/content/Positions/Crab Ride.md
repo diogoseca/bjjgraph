@@ -93,26 +93,20 @@ From the defensive perspective, Crab Ride Bottom is a high-pressure situation th
 - Create frames with elbows and shoulders to prevent top player from consolidating control
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Hip Escape]]** → [[Turtle]]
-  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+- **[[Hip Escape]]** (22% of attempts)
 
-- **[[Granby Roll]]** → [[Closed Guard]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Granby Roll]]** (20% of attempts)
 
-- **[[Standing up in Base]]** → [[Standing Position]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+- **[[Technical Standup]]** (18% of attempts)
 
-- **[[Sit Through Escape]]** → [[Half Guard]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+- **[[Turtle to Guard]]** (15% of attempts)
 
-- **[[Rolling Back Take]]** → [[Back Control]]
-  - Success Rate: Beginner 10%, Intermediate 20%, Advanced 35%
+- **[[Rolling Back Take]]** (10% of attempts)
 
-- **[[Hook Strip to Re-Guard]]** → [[Butterfly Guard]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Guard Replacement]]** (15% of attempts)
 
 
 ### Common Mistakes
@@ -170,32 +164,22 @@ From the defensive perspective, Crab Ride Bottom is a high-pressure situation th
 - Transition smoothly between crab ride variations and back attacks based on opponent's defensive reactions
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Crab Ride to Back]]** → [[Back Control]]
-  - Success Rate: Beginner 45%, Intermediate 65%, Advanced 80%
+- **[[Crab Ride to Back]]** (25% of attempts)
 
-- **[[Back Control to Crucifix]]** → [[Crucifix]]
-  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 70%
+- **[[Back Control to Crucifix]]** (15% of attempts)
 
-- **[[Darce from Turtle]]** → [[D'arce Control]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 65%
+- **[[Darce from Turtle]]** (15% of attempts)
 
-- **[[Anaconda from Turtle]]** → [[Anaconda Control]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 65%
+- **[[Anaconda from Turtle]]** (15% of attempts)
 
-- **[[Guillotine from Turtle]]** → [[Guillotine Control]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 60%
+- **[[Guillotine from Turtle]]** (10% of attempts)
 
-- **[[Arm Triangle from Turtle]]** → [[Arm Triangle]]
-  - Success Rate: Beginner 20%, Intermediate 40%, Advanced 55%
+- **[[Kimura from Turtle]]** (10% of attempts)
 
-- **[[Transition to Mount]]** → [[Mount]]
-  - Success Rate: Beginner 40%, Intermediate 60%, Advanced 75%
-
-- **[[Side Control to Mount]]** → [[Side Control]]
-  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 80%
+- **[[Truck Entry]]** (10% of attempts)
 
 
 ### Common Mistakes

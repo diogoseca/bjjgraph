@@ -21,38 +21,32 @@ description: "Master Dead Orchard Control Bottom defense in BJJ. Systematic esca
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape",
-      "text": "From this position, execute Hip Escape to transition to Turtle. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Hip Escape. This technique is attempted in 25% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling to Guard",
-      "text": "From this position, execute Rolling to Guard to transition to Closed Guard. Success rate for advanced practitioners: 40%.",
+      "text": "From this position, attempt Rolling to Guard. This technique is attempted in 20% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Frame and Shrimp",
-      "text": "From this position, execute Frame and Shrimp to transition to Turtle. Success rate for advanced practitioners: 50%.",
+      "name": "Execute Granby Roll",
+      "text": "From this position, attempt Granby Roll. This technique is attempted in 18% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Granby Roll",
-      "text": "From this position, execute Granby Roll to transition to Half Guard. Success rate for advanced practitioners: 35%.",
+      "name": "Execute Arm Extraction",
+      "text": "From this position, attempt Arm Extraction. This technique is attempted in 20% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Arm Extraction",
-      "text": "From this position, execute Arm Extraction to transition to Front Headlock. Success rate for advanced practitioners: 45%.",
-      "position": 5
-    },
-    {
-      "@type": "HowToStep",
       "name": "Execute Technical Standup",
-      "text": "From this position, execute Technical Standup to transition to Standing Position. Success rate for advanced practitioners: 25%.",
-      "position": 6
+      "text": "From this position, attempt Technical Standup. This technique is attempted in 17% of exchanges from this position.",
+      "position": 5
     }
   ],
   "totalTime": "PT2M"
@@ -209,78 +203,16 @@ Dead Orchard Control Bottom represents one of the most disadvantageous positions
 
 ## Available Escapes
 
-### [[Hip Escape]] → [[Turtle]]
+### [[Hip Escape]] (25% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
+### [[Rolling to Guard]] (20% of attempts)
 
-### [[Rolling to Guard]] → [[Closed Guard]]
+### [[Granby Roll]] (18% of attempts)
 
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 25%
-- Advanced: 40%
+### [[Arm Extraction]] (20% of attempts)
 
-### [[Frame and Shrimp]] → [[Turtle]]
+### [[Technical Standup]] (17% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
-
-### [[Granby Roll]] → [[Half Guard]]
-
-**Success Rates:**
-- Beginner: 10%
-- Intermediate: 20%
-- Advanced: 35%
-
-### [[Arm Extraction]] → [[Front Headlock]]
-
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 45%
-
-### [[Technical Standup]] → [[Standing Position]]
-
-**Success Rates:**
-- Beginner: 5%
-- Intermediate: 15%
-- Advanced: 25%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Anaconda from Turtle]]** → [[Anaconda Control]] (Opponent Success: 65%)
-- **[[Darce Setup]]** → [[D'arce Control]] (Opponent Success: 60%)
-- **[[Guillotine Setup]]** → [[Guillotine Control]] (Opponent Success: 55%)
-- **[[Transition to Mount]]** → [[Mount]] (Opponent Success: 50%)
-- **[[Turtle to Back Take]]** → [[Back Control]] (Opponent Success: 45%)
-- **[[Transition to North-South]]** → [[North-South]] (Opponent Success: 40%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Hip Escape]]** → [[Turtle]]
-  - Opponent attempts to flatten you completely by driving weight forward
-- **[[Rolling to Guard]]** → [[Closed Guard]]
-  - Opponent shifts weight to isolate arm for anaconda grip
-- **[[Granby Roll]]** → [[Half Guard]]
-  - Opponent transitions weight to secure back control
-- **[[Frame Creation]]** → [[Turtle]]
-  - Opponent attempts to lock submission before fully consolidating position
 
 
 </section>
@@ -290,21 +222,21 @@ Dead Orchard Control Bottom represents one of the most disadvantageous positions
 ## Decision Making from This Position
 
 **If opponent is actively working to lock anaconda or darce choke with arm trapped deep:**
-- Execute **[[Arm Extraction]]** → [[Front Headlock]] (Probability: 35%)
-- Execute **[[Rolling to Guard]]** → [[Closed Guard]] (Probability: 30%)
+- Execute **[[Arm Extraction]]** → [[Front Headlock]] (Probability: 40%)
+- Execute **[[Rolling to Guard]]** → [[Closed Guard]] (Probability: 35%)
 - Execute **[[Hip Escape]]** → [[Turtle]] (Probability: 25%)
 
 
 **If opponent is transitioning to mount or back control rather than immediate submission:**
-- Execute **[[Frame and Shrimp]]** → [[Turtle]] (Probability: 45%)
-- Execute **[[Hip Escape]]** → [[Turtle]] (Probability: 35%)
+- Execute **[[Hip Escape]]** → [[Turtle]] (Probability: 45%)
 - Execute **[[Granby Roll]]** → [[Half Guard]] (Probability: 30%)
+- Execute **[[Sit Out]]** → [[Turtle]] (Probability: 25%)
 
 
 **If opponent's grip is loose or pressure is temporarily reduced:**
-- Execute **[[Hip Escape]]** → [[Turtle]] (Probability: 45%)
-- Execute **[[Technical Standup]]** → [[Standing Position]] (Probability: 40%)
-- Execute **[[Rolling to Guard]]** → [[Closed Guard]] (Probability: 35%)
+- Execute **[[Hip Escape]]** → [[Turtle]] (Probability: 40%)
+- Execute **[[Technical Standup]]** → [[Standing Position]] (Probability: 35%)
+- Execute **[[Rolling to Guard]]** → [[Closed Guard]] (Probability: 25%)
 
 
 
@@ -390,29 +322,39 @@ Start in established dead orchard control bottom position. Bottom player works t
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Highest percentage escape path
+## Test Your Knowledge
 
-`Dead Orchard Control Bottom → Hip Escape → Turtle → Closed Guard`
+**Q1**: What is your immediate priority when opponent locks the dead orchard grip around your neck?
+**A**: Immediate priority is getting your free hand to the choking arm at the crook of the elbow and creating a frame to prevent the grip from tightening further. Do not waste energy trying to peel their hands apart - focus on blocking the squeeze at the elbow joint where leverage is most effective. Simultaneously, tuck your chin and turn your face toward their body to protect your neck and reduce choke effectiveness.
 
-### Secondary escape via guard restoration
+**Q2**: Your opponent increases shoulder pressure and you feel the choke tightening - what adjustment prevents the finish?
+**A**: Turn your body toward your trapped arm side while simultaneously hip escaping away from opponent. This changes the angle of the choke and reduces the circular compression on your neck. Use your free hand to create space at the elbow of the choking arm, not by pushing outward but by wedging your forearm between your neck and their grip. The combination of angle change and frame creates survival space.
 
-`Dead Orchard Control Bottom → Frame and Shrimp → Turtle → Half Guard`
+**Q3**: How do you maintain proper breathing when your airway is partially restricted?
+**A**: Focus on slow, controlled nasal breathing rather than gasping through your mouth. Accept that full breaths are impossible and work with shallow but consistent breathing rhythm. Exhale fully when creating frames or executing movements, then inhale during brief pauses. Mental calm is essential - panic breathing accelerates fatigue dramatically. Your body can function on restricted oxygen longer than most people realize if you remain calm.
 
-### Emergency scramble path when submissions imminent
+**Q4**: When should you attempt to extract your trapped arm versus focusing on other escape routes?
+**A**: Attempt arm extraction when opponent's grip is not fully locked and their weight is transitioning - such as when they're adjusting position or reaching for a secondary grip. If the arm is deeply trapped with full weight commitment, arm extraction wastes energy and often tightens the position. In that case, focus on hip escape and guard recovery first. Once you've created hip angle, arm extraction becomes more viable as opponent must adjust to follow you.
 
-`Dead Orchard Control Bottom → Rolling to Guard → Closed Guard`
+**Q5**: Your opponent starts walking their hips toward your head for the anaconda finish - what is your defensive response?
+**A**: As opponent walks hips toward your head, you must follow their movement by walking your hips in the same direction to prevent them from achieving the finishing angle. Simultaneously, use your free arm to push on their far hip to slow their rotation. If you cannot match their speed, immediately execute a forward roll in the direction they're rotating to invert the position and potentially escape to guard. Staying static while they rotate guarantees the finish.
 
-### Standing escape path when space available
+**Q6**: What body position minimizes the effectiveness of the dead orchard choke while you work escapes?
+**A**: Keep your chin tucked tight to your chest with your face turned toward opponent's body. Your shoulders should be slightly curled forward creating a defensive shell shape. Keep your trapped arm elbow tight to your ribs rather than allowing it to extend across your neck. Your hips should be slightly turned toward the trapped arm side, not flat. This position reduces choke effectiveness by 30-40% compared to flat positioning with chin up.
 
-`Dead Orchard Control Bottom → Technical Standup → Standing Position`
+**Q7**: How do you recognize the optimal moment to execute your primary escape?
+**A**: The optimal escape moment occurs when opponent shifts their weight - either to adjust their grip, transition to a different position, or respond to your defensive movements. Feel for when pressure momentarily reduces on your trapped shoulder or when their hips lift slightly. Their movement creates windows where your hip escape can succeed. Never try to escape against settled, committed pressure - make small movements to force them to adjust, then escape during their adjustment.
+
+**Q8**: What indicates you should stop fighting and tap rather than continue escape attempts?
+**A**: Tap when you feel sharp pressure on the blood vessels in your neck combined with vision changes, ringing in ears, or a sensation of pressure building in your head. Also tap if you've been fighting the position for extended time and feel your movements becoming sluggish or uncoordinated. Never wait until you're about to lose consciousness. In training, tap early and learn - an early tap is far better than brain hypoxia or cervical injury. The position will be there tomorrow to practice again.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -442,9 +384,7 @@ Start in established dead orchard control bottom position. Bottom player works t
 - **[[Anaconda Choke]]** - Primary submission threat requiring specific defense
 - **[[Darce Choke]]** - Secondary submission threat with different mechanics
 - **[[Hip Escape]]** - Essential escape technique from compressed positions
-- **[[Frame Creation]]** - Core defensive concept for creating space under pressure
-- **[[Submission Defense]]** - Broader defensive framework applicable to this position
-- **[[Escape Hierarchy]]** - Conceptual framework for prioritizing defensive actions
+- **[[Half Guard]]** - Secondary escape target accessible via granby roll
 
 
 </section>

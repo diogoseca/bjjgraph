@@ -211,8 +211,8 @@
       "safety_critical": true
     },
     {
-      "question": "Why is shoulder control and body connection critical to the success of the belly down armbar, and what happens if you fail to maintain it?",
-      "answer": "Shoulder control pins the opponent's shoulder blade to the mat and prevents them from rolling through the position to escape - the most common and effective defense against this submission. Body connection ensures you move with the opponent rather than creating space. Without proper shoulder pressure, the opponent can easily initiate a roll toward you, creating slack in the arm and escaping before the submission is secured. Your chest and hip pressure must remain constant throughout the entire finishing sequence.",
+      "question": "What anatomical structure does the belly down armbar attack, and what makes it vulnerable in this position?",
+      "answer": "The belly down armbar primarily attacks the elbow joint, specifically hyperextending the arm against the natural range of motion. The elbow becomes vulnerable because the opponent is face-down with their shoulder pinned, eliminating their ability to rotate their body to relieve pressure. With the thumb pointing upward and your hips driving down while pulling the wrist toward you, the fulcrum created by your forearms against their tricep area places direct hyperextension force on the elbow joint's collateral ligaments and joint capsule.",
       "safety_critical": false
     },
     {
@@ -221,8 +221,28 @@
       "safety_critical": true
     },
     {
-      "question": "What is the proper sequence of steps for establishing the belly down armbar, and why does this order matter?",
-      "answer": "The correct sequence is: (1) Isolate and control the arm with two-on-one grips, (2) Drop weight across the shoulder to pin it, (3) Position hips perpendicular to the arm, (4) Orient the elbow correctly, (5) Apply progressive extension through hip drive. This order matters because attempting to drop weight before securing the arm allows escape, and applying pressure before orienting the elbow creates injury risk. Each step builds the control necessary for the next step to be effective and safe.",
+      "question": "Your opponent starts to rotate their body during the finish - what grip adjustment prevents them from escaping?",
+      "answer": "When the opponent attempts to rotate, immediately increase your two-on-one wrist control by pulling the wrist tighter to your chest while simultaneously dropping more bodyweight through your chest onto their shoulder blade. The key adjustment is to follow their rotation rather than fighting it rigidly - if they roll toward you, maintain wrist control and transition to a traditional armbar with leg control over their head. The grip must remain anchored at the wrist; losing wrist control during rotation allows the arm to slip free entirely.",
+      "safety_critical": false
+    },
+    {
+      "question": "What are the key indicators that you have reached the point of no escape and can safely apply finishing pressure?",
+      "answer": "The point of no escape is reached when three conditions are met: (1) your chest weight is pinning their shoulder blade to the mat preventing body rotation, (2) your hips are positioned perpendicular to their arm with your forearms creating the fulcrum across their tricep/elbow, and (3) the elbow is properly oriented with thumb up. At this point, their only defense is tapping - they cannot pull the arm back due to your body positioning, cannot roll due to shoulder pressure, and cannot rotate the arm due to your grip configuration. Only then should you apply progressive extension pressure.",
+      "safety_critical": false
+    },
+    {
+      "question": "What immediate action must you take if you hear or feel popping, cracking, or unusual sounds from the opponent's joint during application?",
+      "answer": "You must IMMEDIATELY stop all pressure and release the submission, regardless of whether the opponent has tapped. Joint sounds indicate potential structural damage occurring in real-time and demand instant cessation. After releasing, verbally check with your training partner to assess if injury has occurred before continuing any rolling. In training, partner safety always supersedes securing the tap. Joint sounds are an absolute stop signal that cannot be ignored.",
+      "safety_critical": true
+    },
+    {
+      "question": "Your opponent is defending by keeping their elbow bent and pulling toward their body - what finishing adjustment overcomes this?",
+      "answer": "When the opponent keeps their elbow bent defensively, you must address the bent arm before applying hyperextension. First, increase chest pressure on their shoulder to eliminate any rotation possibility. Then, rather than pulling straight toward your chest, angle your wrist pull slightly toward their head while maintaining hip pressure - this creates a straightening force that opens the elbow angle. You can also walk your hips slightly toward their head to change the leverage angle. Never try to force extension on a bent arm; work to straighten it first through positioning adjustments.",
+      "safety_critical": false
+    },
+    {
+      "question": "What is the biomechanical principle that makes hip drive more effective than arm strength for finishing the belly down armbar?",
+      "answer": "The biomechanical principle is leverage amplification through the fulcrum system. Your forearms positioned across their tricep/elbow area create a fulcrum point, while your hip drive provides the downward force on the long lever (their upper arm) and your wrist grip provides the upward force on the short lever (their forearm/wrist). This lever system multiplies the force applied to the elbow joint. Hip drive engages your entire posterior chain (glutes, hamstrings, core), which generates far more force than arm muscles alone while requiring less energy expenditure.",
       "safety_critical": false
     },
     {
@@ -231,9 +251,19 @@
       "safety_critical": false
     },
     {
-      "question": "What immediate action must you take if you hear or feel popping, cracking, or unusual sounds from the opponent's joint during application?",
-      "answer": "You must IMMEDIATELY stop all pressure and release the submission, regardless of whether the opponent has tapped. Joint sounds indicate potential structural damage occurring in real-time and demand instant cessation. After releasing, verbally check with your training partner to assess if injury has occurred before continuing any rolling. In training, partner safety always supersedes securing the tap. Joint sounds are an absolute stop signal that cannot be ignored.",
-      "safety_critical": true
+      "question": "In competition with limited time remaining, what adjustments allow faster finishing while maintaining safety?",
+      "answer": "For faster competition finishing, pre-establish as much control as possible before committing to extension: have wrist grip, shoulder pressure, and hip positioning all secured before beginning the finish. Once control is absolute, the extension can be applied more quickly because less adjustment is needed during the finish. However, even in competition, application should be smooth and controlled rather than explosive - the difference is eliminating setup time, not increasing extension speed. A 2-3 second controlled extension is acceptable in competition versus the 5+ second training standard. Never sacrifice technical precision for speed.",
+      "safety_critical": false
+    },
+    {
+      "question": "What specific wrist grip configuration provides maximum control for the finishing phase?",
+      "answer": "The optimal grip configuration for finishing is a two-handed wrist control with both thumbs pointing toward their fingers (monkey grip or same-side grip), positioning your forearms across their tricep just above the elbow. Your outside hand controls the wrist while your inside hand reinforces the grip and helps position the forearm fulcrum. The grip should be high on the wrist near the base of the hand for maximum leverage. Avoid gripping too far down the forearm as this reduces your mechanical advantage and allows more elbow bend resistance.",
+      "safety_critical": false
+    },
+    {
+      "question": "What common finishing error leads to ineffective pressure despite having correct positioning?",
+      "answer": "The most common finishing error with correct positioning is pulling the wrist away from your body rather than toward your chest. When you pull outward, you create space between your forearms and their arm, eliminating the fulcrum effect. The correct finishing motion is to drive your hips down while pulling their wrist tight to your sternum/chest, keeping your forearms pressed firmly against their tricep throughout. Think of closing the distance between your chest and their elbow while maintaining the arm in the hyperextension plane. The arm should feel trapped between your chest and your forearms.",
+      "safety_critical": false
     }
   ],
   "training_progressions_and_safety_protocols": [
@@ -295,15 +325,13 @@
     "Armbar from Guard",
     "Armbar from Side Control",
     "Armbar from Back",
-    "Straight Armbar",
-    "Rolling Armbar",
-    "Spinning Armbar",
     "Far Side Armbar",
-    "Kimura from Turtle",
     "Kimura",
     "Guillotine Choke",
     "Rear Naked Choke",
-    "Arm Triangle"
+    "Arm Triangle",
+    "Anaconda Choke",
+    "Darce Choke"
   ],
   "related_content": [
     {
@@ -315,7 +343,7 @@
       "relationship": "Traditional armbar variation that can transition to belly down position if defended with stacking"
     },
     {
-      "name": "Kimura from Turtle",
+      "name": "Kimura",
       "relationship": "Alternative arm lock from same position creating submission combinations"
     },
     {
@@ -331,28 +359,20 @@
       "relationship": "Setup position where opponent's defensive reactions expose arms for belly down armbar"
     },
     {
-      "name": "Rolling Armbar",
-      "relationship": "Technical variation that can transition to belly down finish if opponent defends by turning away"
+      "name": "Far Side Armbar",
+      "relationship": "Related armbar variation accessible from similar control positions"
     },
     {
-      "name": "Submission Chains",
-      "relationship": "Principle of linking submissions where belly down armbar serves as follow-up to defended attacks"
+      "name": "Armbar Control",
+      "relationship": "Control position for maintaining arm isolation before finishing"
     },
     {
-      "name": "Hip Elevation",
-      "relationship": "Biomechanical principle essential for generating breaking pressure in this submission"
+      "name": "Scramble Position",
+      "relationship": "Dynamic transitional state where belly down armbar opportunities frequently emerge"
     },
     {
-      "name": "Leverage Principles",
-      "relationship": "Fundamental concept explaining why proper body positioning creates more effective submissions than strength"
-    },
-    {
-      "name": "Turtle to Back Take",
-      "relationship": "Transition technique that creates setup opportunities for belly down armbar when opponent defends"
-    },
-    {
-      "name": "Guard Pass",
-      "relationship": "After passing, opponent often turtles creating opportunity for this submission"
+      "name": "Anaconda Choke",
+      "relationship": "Alternative submission from front headlock that can chain with armbar attempts"
     }
   ]
 }

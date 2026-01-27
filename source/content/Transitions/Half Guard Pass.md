@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Half Guard Pass | BJJ Technique | BJJ Graph"
 description: "Master the Half Guard Pass in BJJ. Systematic approach from Half Guard Top to Side Control. Success rates: Beginner 40%, Intermediate 60%, Advanced 80%."
@@ -16,7 +17,7 @@ description: "Master the Half Guard Pass in BJJ. Systematic approach from Half G
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Half Guard Pass in BJJ",
-  "description": "Step-by-step guide for Half Guard Pass from Half Guard to Side Control.",
+  "description": "Step-by-step guide for Half Guard Pass from Half Guard/Bottom. Possible outcomes: Side Control/Top (75%), Half Guard/Bottom (15%), Half Guard/Top (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -158,11 +159,25 @@ The effectiveness of the half guard pass lies in understanding the bottom player
 
 Successful half guard passing requires a combination of technical precision, pressure application, and strategic decision-making. The passer must recognize which variation of half guard they're facing (traditional half guard, lockdown, knee shield, deep half, etc.) and adapt their passing strategy accordingly. This technique forms the foundation for more advanced passing systems and represents a critical skill progression from beginner to advanced levels, with success rates improving dramatically as practitioners develop better pressure, timing, and recognition of defensive reactions.
 
-**Starting Position**: [[Half Guard]]
-**Ending Position**: [[Side Control]]
+**From Position**: [[Half Guard/Bottom]]
 **Success Rates**: Beginner 40%, Intermediate 60%, Advanced 80%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Side Control/Top]] | 75% |
+| Failure | [[Half Guard/Bottom]] | 15% |
+| Counter | [[Half Guard/Top]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

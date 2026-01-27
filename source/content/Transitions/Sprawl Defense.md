@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Sprawl Defense | BJJ Technique | BJJ Graph"
 description: "Master the sprawl defense in BJJ. Essential takedown defense technique with hip drive and base mechanics. Success rates: Beginner 45%, Intermediate 65%, Advanced 85%."
@@ -16,7 +17,7 @@ description: "Master the sprawl defense in BJJ. Essential takedown defense techn
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Sprawl Defense in BJJ",
-  "description": "Step-by-step guide for Sprawl Defense from Standing Position to Front Headlock.",
+  "description": "Step-by-step guide for Sprawl Defense from Standing Position/Top. Possible outcomes: Front Headlock/Top (75%), Standing Position/Top (15%), Standing Position/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -166,11 +167,25 @@ description: "Master the sprawl defense in BJJ. Essential takedown defense techn
 
 The sprawl is the fundamental defensive response to takedown attempts in Brazilian Jiu-Jitsu and wrestling. It involves explosively driving the hips back and down while simultaneously shooting the legs back to prevent an opponent from completing a double leg or single leg takedown. This critical defensive technique transforms a potentially vulnerable position into an offensive opportunity, often transitioning to front headlock control or guillotine attacks. The sprawl's effectiveness lies in its ability to redirect an opponent's forward momentum while creating downward pressure that flattens them to the mat. When executed properly, the sprawl not only defends the takedown but establishes dominant top position, forcing the attacker to carry your weight while you control their head and arm. Mastering the sprawl is essential for maintaining standing position in BJJ, preventing takedowns in competition, and creating offensive opportunities from defensive situations.
 
-**Starting Position**: [[Standing Position]]
-**Ending Position**: [[Front Headlock]]
+**From Position**: [[Standing Position/Top]]
 **Success Rates**: Beginner 45%, Intermediate 65%, Advanced 85%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Front Headlock/Top]] | 75% |
+| Failure | [[Standing Position/Top]] | 15% |
+| Counter | [[Standing Position/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

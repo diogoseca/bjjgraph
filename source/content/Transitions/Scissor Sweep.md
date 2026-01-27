@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Scissor Sweep | BJJ Technique | BJJ Graph"
 description: "Learn Scissor Sweep in BJJ. Step-by-step execution from Closed Guard to Mount. Success rates: Beginner 55%, Intermediate 75%, Advanced 90%. Master this fundamental sweep technique."
@@ -16,7 +17,7 @@ description: "Learn Scissor Sweep in BJJ. Step-by-step execution from Closed Gua
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Scissor Sweep in BJJ",
-  "description": "Step-by-step guide for Scissor Sweep from Closed Guard to Mount.",
+  "description": "Step-by-step guide for Scissor Sweep from Closed Guard/Bottom. Possible outcomes: Mount/Top (75%), Closed Guard/Bottom (15%), Closed Guard/Top (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -158,11 +159,25 @@ What makes the Scissor Sweep particularly effective is its reliance on timing an
 
 The Scissor Sweep integrates seamlessly into the closed guard attack system, working in combination with other sweeps like the Hip Bump and Pendulum Sweep. When opponents defend one sweep, they often create the opening for another, establishing a systematic approach to attacking from guard. Mastering this technique provides practitioners with a cornerstone skill that remains effective throughout their BJJ journey.
 
-**Starting Position**: [[Closed Guard]]
-**Ending Position**: [[Mount]]
+**From Position**: [[Closed Guard/Bottom]]
 **Success Rates**: Beginner 55%, Intermediate 75%, Advanced 90%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Mount/Top]] | 75% |
+| Failure | [[Closed Guard/Bottom]] | 15% |
+| Counter | [[Closed Guard/Top]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

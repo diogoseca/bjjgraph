@@ -426,4 +426,14 @@ The Armbar from Back with Legs is an advanced finishing technique that leverages
 
 </section>
 
+<section id="terminal-state" class="content-section">
+
+## Match Outcome
+
+Successful execution of Armbar from Back with Legs leads to → [[game-over|Game Over]]
+
+*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+
+</section>
+
 </main>

@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Crucifix from Turtle | BJJ Technique | BJJ Graph"
 description: "Learn Crucifix from Turtle in BJJ. Step-by-step execution from Turtle to Crucifix. Success rates: Beginner 45%, Intermediate 65%, Advanced 80%."
@@ -16,7 +17,7 @@ description: "Learn Crucifix from Turtle in BJJ. Step-by-step execution from Tur
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Crucifix from Turtle in BJJ",
-  "description": "Step-by-step guide for Crucifix from Turtle from Turtle to Crucifix.",
+  "description": "Step-by-step guide for Crucifix from Turtle from Turtle/Top. Possible outcomes: Crucifix/Top (75%), Turtle/Top (15%), Turtle/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -154,11 +155,25 @@ description: "Learn Crucifix from Turtle in BJJ. Step-by-step execution from Tur
 
 The Crucifix from Turtle is a sophisticated back attack transition that capitalizes on your opponent's defensive turtle position. This technique involves controlling both of your opponent's arms while establishing back control, creating one of the most dominant positions in Brazilian Jiu-Jitsu. The crucifix offers exceptional control with minimal energy expenditure while presenting multiple submission opportunities including chokes, armbars, and joint locks. The transition requires precise timing and coordination, as you must simultaneously secure arm control while establishing your hooks. This position is particularly valuable in both gi and no-gi competition, as it effectively neutralizes your opponent's defensive capabilities while maximizing your offensive options. The crucifix from turtle represents a fundamental component of modern back attack systems.
 
-**Starting Position**: [[Turtle]]
-**Ending Position**: [[Crucifix]]
+**From Position**: [[Turtle/Top]]
 **Success Rates**: Beginner 45%, Intermediate 65%, Advanced 80%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Crucifix/Top]] | 75% |
+| Failure | [[Turtle/Top]] | 15% |
+| Counter | [[Turtle/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

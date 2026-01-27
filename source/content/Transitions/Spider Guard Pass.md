@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Spider Guard Pass | BJJ Technique | BJJ Graph"
 description: "Master Spider Guard Pass techniques in BJJ. Complete guide with grip breaking, posture control, and pressure passing. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%."
@@ -16,7 +17,7 @@ description: "Master Spider Guard Pass techniques in BJJ. Complete guide with gr
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Spider Guard Pass in BJJ",
-  "description": "Step-by-step guide for Spider Guard Pass from Spider Guard to Side Control.",
+  "description": "Step-by-step guide for Spider Guard Pass from Spider Guard/Bottom. Possible outcomes: Side Control/Top (65%), Spider Guard/Bottom (25%), Spider Guard/Top (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -154,11 +155,25 @@ description: "Master Spider Guard Pass techniques in BJJ. Complete guide with gr
 
 The Spider Guard Pass represents a fundamental challenge in modern Brazilian Jiu-Jitsu, requiring systematic grip breaking, precise posture control, and strategic pressure application. This passing sequence targets one of the most common guard retention systems by neutralizing the opponent's foot-on-bicep control and collar grips that define spider guard. The pass succeeds by combining aggressive grip stripping with forward pressure and hip positioning to overcome the guard player's distance management. Understanding spider guard mechanics reveals that the guard's strength lies in creating distance and angles through arm extension and foot placement—the pass systematically removes these advantages through posture maintenance, grip dominance, and positional pressure. Success requires patience in grip fighting exchanges, explosive movement during passing windows, and technical precision in controlling the opponent's hips during the final consolidation phase.
 
-**Starting Position**: [[Spider Guard]]
-**Ending Position**: [[Side Control]]
+**From Position**: [[Spider Guard/Bottom]]
 **Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Side Control/Top]] | 65% |
+| Failure | [[Spider Guard/Bottom]] | 25% |
+| Counter | [[Spider Guard/Top]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

@@ -47,284 +47,6 @@
       "relationship": "Guard structure bottom attempts to recover"
     }
   ],
-  "bottom": {
-    "name": "Leg Drag Position Bottom",
-    "description": "Defend and escape the leg drag position with systematic recovery sequences, frame creation, and guard re-establishment techniques to prevent passes and back exposure.",
-    "tags": [
-      "defensive position",
-      "guard recovery",
-      "leg drag defense",
-      "passing defense",
-      "intermediate"
-    ],
-    "overview": "Being on bottom in the leg drag position is one of the most challenging defensive scenarios in Brazilian Jiu-Jitsu. The position represents a critical moment where your guard structure has been compromised and your opponent has achieved a dominant angle with control over your hip and leg. Understanding the mechanics of escape and prevention is essential for any practitioner looking to develop a complete defensive game.\n\nThe fundamental problem from bottom is that your hip has been controlled and one leg has been dragged across your body, eliminating many of your primary defensive tools. Your ability to create frames, maintain distance, and use your legs for guard retention has been severely compromised. The top player can apply significant pressure while maintaining the mobility to address your escape attempts. This asymmetry in position quality means that defensive actions must be immediate, decisive, and technically precise.\n\nSuccessful defense begins with early recognition and prevention. Once your opponent has established the leg drag with chest pressure and hip control, your options become increasingly limited. The key defensive principle is to never accept the position passively - you must immediately choose between recovering guard structures (butterfly, half guard, or leg-based guards) or creating a scramble to neutral positions. Half measures and tentative movements typically result in the pass completing or your back being taken.\n\nThe biomechanical challenge lies in the fact that the top player's pressure pins your hip while their control of your leg prevents normal shrimping mechanics. Standard hip escapes become ineffective because your mobility is restricted. Therefore, successful escapes often involve either creating frames to lift the pressure temporarily, granby rolling to invert and reset, or using the bottom leg to create butterfly hooks or half guard structures. Each option requires precise timing and commitment - hesitation almost always results in further positional deterioration.\n\nAdvanced practitioners develop sensitivity to the weight distribution and pressure patterns in the leg drag, allowing them to exploit moments of adjustment or transition. The goal is not merely to survive but to actively threaten reversals or sweeps that make the top player adjust their position, creating windows for guard recovery. Understanding the connection between the leg drag and back exposure is critical - you must never turn away from your opponent as this immediately exposes your back for taking.",
-    "state_properties": {
-      "point_value": 0,
-      "position_type": "Defensive",
-      "risk_level": "High",
-      "energy_cost": "Medium",
-      "time_sustainability": "Short"
-    },
-    "state_invariants": [
-      "One leg is controlled and dragged across the body by the opponent, with their grip or pressure on the hip or knee preventing that leg from returning to guard position",
-      "The top player's chest or shoulder applies downward pressure on the dragged leg, pinning the bottom player's hip to the mat and restricting hip mobility",
-      "The bottom player's shoulders remain on or near the mat while the hips are partially turned, creating an asymmetric position where normal defensive frames are compromised"
-    ],
-    "prerequisites": [
-      "Guard has been partially passed with one leg controlled",
-      "Top player has established hip control and chest pressure",
-      "Bottom player's ability to create distance has been compromised"
-    ],
-    "key_principles": [
-      "Never turn away from opponent - this immediately exposes the back",
-      "Create frames immediately using the free leg and far side arm",
-      "Target recovery to butterfly hooks or half guard as primary objectives",
-      "Use granby rolls or inversions when direct recovery is blocked",
-      "Recognize early and prevent completion - late defense rarely succeeds"
-    ],
-    "offensive_transitions": [
-      {
-        "technique": "Butterfly Hook Recovery",
-        "target_position": "Butterfly Guard",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 40,
-          "advanced": 55
-        }
-      },
-      {
-        "technique": "Half Guard Recovery",
-        "target_position": "Knee Shield Half Guard",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 45,
-          "advanced": 60
-        }
-      },
-      {
-        "technique": "Deep Half Entry",
-        "target_position": "Deep Half Guard",
-        "success_rates": {
-          "beginner": 20,
-          "intermediate": 35,
-          "advanced": 50
-        }
-      },
-      {
-        "technique": "Granby Roll",
-        "target_position": "Butterfly Guard",
-        "success_rates": {
-          "beginner": 15,
-          "intermediate": 30,
-          "advanced": 50
-        }
-      },
-      {
-        "technique": "Frame and Shrimp",
-        "target_position": "Open Guard",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 40,
-          "advanced": 55
-        }
-      },
-      {
-        "technique": "Underhook Battle",
-        "target_position": "Underhook Control",
-        "success_rates": {
-          "beginner": 20,
-          "intermediate": 35,
-          "advanced": 50
-        }
-      }
-    ],
-    "defensive_responses": [
-      {
-        "technique": "Knee Slice Pass",
-        "target_position": "Side Control"
-      },
-      {
-        "technique": "Back Step",
-        "target_position": "Back Control"
-      },
-      {
-        "technique": "Pressure Pass",
-        "target_position": "Side Control"
-      },
-      {
-        "technique": "Transition to Mount",
-        "target_position": "Mount"
-      }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Re-Guard",
-        "target_position": "Butterfly Guard",
-        "trigger": "When top player shifts weight to complete pass"
-      },
-      {
-        "technique": "Rolling Back Take",
-        "target_position": "Back Control",
-        "trigger": "When top player overcommits to chest pressure"
-      }
-    ],
-    "decision_tree": [
-      {
-        "condition": "If opponent maintains chest pressure but has not secured underhook",
-        "actions": [
-          {
-            "technique": "Butterfly Hook Recovery",
-            "target": "Butterfly Guard",
-            "probability": 45
-          },
-          {
-            "technique": "Frame and Shrimp",
-            "target": "Open Guard",
-            "probability": 40
-          }
-        ]
-      },
-      {
-        "condition": "If opponent begins back step motion to take back",
-        "actions": [
-          {
-            "technique": "Half Guard Recovery",
-            "target": "Knee Shield Half Guard",
-            "probability": 50
-          },
-          {
-            "technique": "Rolling Back Take",
-            "target": "Back Control",
-            "probability": 35
-          }
-        ]
-      },
-      {
-        "condition": "If opponent's pressure is high but balance is compromised",
-        "actions": [
-          {
-            "technique": "Granby Roll",
-            "target": "Butterfly Guard",
-            "probability": 40
-          },
-          {
-            "technique": "Deep Half Entry",
-            "target": "Deep Half Guard",
-            "probability": 45
-          }
-        ]
-      }
-    ],
-    "common_errors": [
-      {
-        "error": "Turning away from opponent to escape pressure",
-        "consequence": "Immediately exposes back for easy back take",
-        "correction": "Always face opponent and work frames toward them, never turn away"
-      },
-      {
-        "error": "Passive acceptance of position waiting for opponent mistake",
-        "consequence": "Pass completes or position deteriorates further as top player consolidates",
-        "correction": "Immediately begin active escape sequence upon recognizing leg drag"
-      },
-      {
-        "error": "Attempting to push opponent's chest without creating frames",
-        "consequence": "Wastes energy while top player maintains pressure and control",
-        "correction": "Create frames with shin and arm before attempting to move opponent's weight"
-      },
-      {
-        "error": "Shrimping directly away without addressing leg control",
-        "consequence": "Movement is ineffective as dragged leg prevents hip escape",
-        "correction": "First recover butterfly hook or half guard before attempting major hip movement"
-      },
-      {
-        "error": "Posting free foot on mat without active defense",
-        "consequence": "Top player easily controls posted leg and completes pass",
-        "correction": "Use free leg actively for butterfly hooks or frames, never static posting"
-      }
-    ],
-    "training_drills": [
-      {
-        "name": "Leg Drag Recovery Flow",
-        "description": "Partner establishes leg drag position with 50% resistance. Bottom player practices cycling through butterfly hook recovery, half guard recovery, and granby roll options. 3 minutes per round.",
-        "duration": "3 minutes"
-      },
-      {
-        "name": "Progressive Resistance Escape",
-        "description": "Start with partner giving light pressure in leg drag. Bottom player escapes, then repeat with increasing resistance levels. Focus on timing and commitment to escape paths.",
-        "duration": "5 minutes"
-      },
-      {
-        "name": "Frame Creation Under Pressure",
-        "description": "Partner maintains heavy leg drag pressure. Bottom player works exclusively on creating and maintaining frames with free leg and far arm without attempting escape. Builds frame strength and pressure management.",
-        "duration": "2 minutes"
-      }
-    ],
-    "optimal_submission_paths": [
-      {
-        "name": "Guard Recovery to Sweep to Submission",
-        "path": "Leg Drag Position Bottom → Butterfly Guard → Butterfly Sweep → Mount → Armbar from Mount"
-      },
-      {
-        "name": "Deep Half to Back",
-        "path": "Leg Drag Position Bottom → Deep Half Guard → Rolling Back Take → Back Control → Rear Naked Choke"
-      },
-      {
-        "name": "Counter Back Take",
-        "path": "Leg Drag Position Bottom → Rolling Back Take → Back Control → Rear Naked Choke"
-      }
-    ],
-    "related_content": [
-      {
-        "name": "Butterfly Guard",
-        "relationship": "Primary guard recovery target"
-      },
-      {
-        "name": "Knee Shield Half Guard",
-        "relationship": "Alternative recovery structure"
-      },
-      {
-        "name": "Deep Half Guard",
-        "relationship": "Advanced recovery option when direct paths blocked"
-      },
-      {
-        "name": "Frame Creation",
-        "relationship": "Essential principle for creating escape space"
-      },
-      {
-        "name": "Guard Retention",
-        "relationship": "Prevents reaching leg drag position"
-      },
-      {
-        "name": "Granby Roll Concept",
-        "relationship": "Key movement pattern for escaping leg drag"
-      },
-      {
-        "name": "Back Control",
-        "relationship": "Danger position if escape fails and you turn away"
-      }
-    ],
-    "position_metrics": {
-      "retention_rate": {
-        "beginner": 15,
-        "intermediate": 30,
-        "advanced": 50,
-        "description": "Ability to prevent pass completion from leg drag"
-      },
-      "advancement_probability": {
-        "beginner": 20,
-        "intermediate": 35,
-        "advanced": 55,
-        "description": "Successfully recovering to guard position"
-      },
-      "submission_probability": {
-        "beginner": 5,
-        "intermediate": 10,
-        "advanced": 20,
-        "description": "Rare but possible through reversals and counters"
-      },
-      "average_time": "10-20 seconds before pass completes or guard recovered"
-    }
-  },
   "top": {
     "name": "Leg Drag Position Top",
     "description": "Control and finish the leg drag position with systematic passing sequences, pressure application, and back-taking opportunities from this dominant passing position.",
@@ -360,119 +82,6 @@
       "React to escape attempts by transitioning to back or completing pass",
       "Never allow opponent to establish butterfly hooks with free leg",
       "Control far hip to prevent granby rolls and inversions"
-    ],
-    "offensive_transitions": [
-      {
-        "technique": "Knee Slice Pass",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 40,
-          "intermediate": 60,
-          "advanced": 75
-        }
-      },
-      {
-        "technique": "Back Step",
-        "target_position": "Back Control",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 50,
-          "advanced": 70
-        }
-      },
-      {
-        "technique": "Pressure Pass",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 45,
-          "intermediate": 60,
-          "advanced": 75
-        }
-      },
-      {
-        "technique": "Transition to Mount",
-        "target_position": "Mount",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 40,
-          "advanced": 60
-        }
-      },
-      {
-        "technique": "Body Lock Pass",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 50,
-          "advanced": 65
-        }
-      },
-      {
-        "technique": "Transition to North-South",
-        "target_position": "North-South",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 45,
-          "advanced": 60
-        }
-      },
-      {
-        "technique": "Knee on Belly",
-        "target_position": "Knee on Belly",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 50,
-          "advanced": 65
-        }
-      },
-      {
-        "technique": "Leg Weave Pass",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 40,
-          "advanced": 55
-        }
-      }
-    ],
-    "defensive_responses": [
-      {
-        "technique": "Butterfly Hook Recovery",
-        "target_position": "Butterfly Guard",
-        "success_rate": 35
-      },
-      {
-        "technique": "Half Guard Recovery",
-        "target_position": "Knee Shield Half Guard",
-        "success_rate": 40
-      },
-      {
-        "technique": "Granby Roll",
-        "target_position": "Butterfly Guard",
-        "success_rate": 25
-      },
-      {
-        "technique": "Deep Half Entry",
-        "target_position": "Deep Half Guard",
-        "success_rate": 30
-      }
-    ],
-    "counter_transitions": [
-      {
-        "technique": "Back Step to Back Take",
-        "target_position": "Back Control",
-        "trigger": "When opponent turns away to escape chest pressure"
-      },
-      {
-        "technique": "Immediate Knee Slice",
-        "target_position": "Side Control",
-        "trigger": "When opponent attempts to create butterfly hook with free leg"
-      },
-      {
-        "technique": "Body Lock Consolidation",
-        "target_position": "Body Lock",
-        "trigger": "When opponent's hip mobility increases and standard leg drag weakens"
-      }
     ],
     "decision_tree": [
       {
@@ -590,24 +199,6 @@
         "duration": "3 minutes"
       }
     ],
-    "optimal_submission_paths": [
-      {
-        "name": "Direct Pass to Mounted Submissions",
-        "path": "Leg Drag Position Top → Knee Slice Pass → Side Control → Transition to Mount → Armbar from Mount"
-      },
-      {
-        "name": "Back Take to Strangle",
-        "path": "Leg Drag Position Top → Back Step → Back Control → Rear Naked Choke"
-      },
-      {
-        "name": "North-South Transition",
-        "path": "Leg Drag Position Top → Pressure Pass → North-South → North-South Choke"
-      },
-      {
-        "name": "Mount via Knee on Belly",
-        "path": "Leg Drag Position Top → Knee Slice Pass → Knee on Belly → Transition to Mount → Kimura from Mount"
-      }
-    ],
     "related_content": [
       {
         "name": "Headquarters Position",
@@ -634,16 +225,16 @@
         "relationship": "Alternative passing finish"
       },
       {
-        "name": "Guard Passing Principles",
-        "relationship": "Fundamental concepts applied in leg drag"
-      },
-      {
         "name": "Leg Drag Pass",
         "relationship": "Entry technique to establish this position"
       },
       {
-        "name": "Modern No-Gi Passing System",
-        "relationship": "Leg drag as core component"
+        "name": "Butterfly Guard",
+        "relationship": "Guard opponent attempts to recover"
+      },
+      {
+        "name": "De La Riva Guard",
+        "relationship": "Guard that leg drag effectively counters"
       }
     ],
     "position_metrics": {
@@ -666,6 +257,312 @@
         "description": "Finishing submission from positions accessed via leg drag"
       },
       "average_time": "8-15 seconds to complete pass or transition to back"
-    }
+    },
+    "transitions": [
+      {
+        "transition": "Knee Slice Pass",
+        "attempt_probability": 17
+      },
+      {
+        "transition": "Back Step",
+        "attempt_probability": 13
+      },
+      {
+        "transition": "Pressure Pass",
+        "attempt_probability": 14
+      },
+      {
+        "transition": "Side Control to Mount",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Body Lock Pass",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Side Control to North-South",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Knee on Belly",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Leg Weave Pass",
+        "attempt_probability": 10
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "Your opponent begins to hip escape and insert their free leg for a butterfly hook - what is your immediate response?",
+        "answer": "Immediately drop your weight lower and drive your knee into the space where they're trying to insert the hook. Simultaneously increase chest pressure and use your near hand to control their free leg at the knee, preventing the hook from establishing. If the hook begins to form, immediately transition to a knee slice pass before they can elevate."
+      },
+      {
+        "question": "What are the essential grips and control points for maintaining the leg drag position?",
+        "answer": "The primary control points are: 1) Your chest or shoulder driving pressure onto the dragged leg to pin their hip, 2) Far hip control with your near hand gripping their belt, pants, or directly on the hip bone to prevent rotation, 3) Head position tight to their body on the far side to prevent space creation. Secondary control includes controlling their near arm to prevent frames."
+      },
+      {
+        "question": "How should you distribute your weight to maximize pressure while remaining mobile?",
+        "answer": "Keep your hips low and driving forward toward their centerline while your chest creates downward pressure on the dragged leg. Your weight should be concentrated through your chest rather than sitting back on your heels. Stay on your toes with your base slightly wide to allow quick directional changes. The key is maintaining heavy pressure while keeping enough mobility to react to their escape attempts."
+      },
+      {
+        "question": "Your opponent starts to turn away from you to escape - what adjustment do you make?",
+        "answer": "This is a back take opportunity, not a problem. Immediately recognize the turn and begin your back step by stepping your inside leg over their body toward their far hip. Simultaneously secure a seatbelt grip (one arm over the shoulder, one under the armpit) as you transition. Never let them complete the turn to turtle without taking the back - this is the highest percentage attack from leg drag."
+      },
+      {
+        "question": "What is the primary error that allows opponents to granby roll out of the leg drag?",
+        "answer": "The primary error is overcommitting chest pressure forward without controlling the far hip. When you drive your weight forward without anchoring their hip, the opponent can use your momentum to initiate an inversion or granby roll underneath you. The solution is to always maintain far hip control with your hand while applying chest pressure, creating a pinching effect that prevents the hip rotation necessary for the granby."
+      },
+      {
+        "question": "How do you manage energy when your opponent is actively fighting to escape the leg drag?",
+        "answer": "The leg drag should be treated as a transitional position, not a holding position. Rather than burning energy to maintain static control against an actively escaping opponent, commit to finishing the pass with a knee slice or back step within 5-10 seconds. If they're fighting hard, their defensive reactions will open opportunities - a butterfly hook attempt opens knee slice, turning away opens back take. Use their energy against them rather than fighting to hold position."
+      },
+      {
+        "question": "Your opponent frames on your shoulder and begins to create space - how do you recover pressure?",
+        "answer": "First, lower your level by bending your elbows and driving your chest down to collapse underneath their frame. Simultaneously, circle your head to the opposite side of their frame to bypass it entirely. If they're framing with their near arm, secure control of that arm at the wrist or tricep while continuing to drive pressure. The key is going around or under the frame rather than trying to power through it, which wastes energy."
+      },
+      {
+        "question": "When should you abandon the leg drag and transition to a different passing strategy?",
+        "answer": "Transition away from leg drag when: 1) They successfully establish a strong butterfly hook that you cannot clear, 2) They recover half guard with a strong knee shield, 3) They create significant distance with frames that you cannot collapse efficiently, or 4) They enter deep half guard. In these cases, switch to the appropriate counter-strategy: smash pass or body lock for butterfly, knee slice for half guard, toreando for distance, or deep half passing sequence."
+      }
+    ]
+  },
+  "bottom": {
+    "name": "Leg Drag Position Bottom",
+    "description": "Defend and escape the leg drag position with systematic recovery sequences, frame creation, and guard re-establishment techniques to prevent passes and back exposure.",
+    "tags": [
+      "defensive position",
+      "guard recovery",
+      "leg drag defense",
+      "passing defense",
+      "intermediate"
+    ],
+    "overview": "Being on bottom in the leg drag position is one of the most challenging defensive scenarios in Brazilian Jiu-Jitsu. The position represents a critical moment where your guard structure has been compromised and your opponent has achieved a dominant angle with control over your hip and leg. Understanding the mechanics of escape and prevention is essential for any practitioner looking to develop a complete defensive game.\n\nThe fundamental problem from bottom is that your hip has been controlled and one leg has been dragged across your body, eliminating many of your primary defensive tools. Your ability to create frames, maintain distance, and use your legs for guard retention has been severely compromised. The top player can apply significant pressure while maintaining the mobility to address your escape attempts. This asymmetry in position quality means that defensive actions must be immediate, decisive, and technically precise.\n\nSuccessful defense begins with early recognition and prevention. Once your opponent has established the leg drag with chest pressure and hip control, your options become increasingly limited. The key defensive principle is to never accept the position passively - you must immediately choose between recovering guard structures (butterfly, half guard, or leg-based guards) or creating a scramble to neutral positions. Half measures and tentative movements typically result in the pass completing or your back being taken.\n\nThe biomechanical challenge lies in the fact that the top player's pressure pins your hip while their control of your leg prevents normal shrimping mechanics. Standard hip escapes become ineffective because your mobility is restricted. Therefore, successful escapes often involve either creating frames to lift the pressure temporarily, granby rolling to invert and reset, or using the bottom leg to create butterfly hooks or half guard structures. Each option requires precise timing and commitment - hesitation almost always results in further positional deterioration.\n\nAdvanced practitioners develop sensitivity to the weight distribution and pressure patterns in the leg drag, allowing them to exploit moments of adjustment or transition. The goal is not merely to survive but to actively threaten reversals or sweeps that make the top player adjust their position, creating windows for guard recovery. Understanding the connection between the leg drag and back exposure is critical - you must never turn away from your opponent as this immediately exposes your back for taking.",
+    "state_properties": {
+      "point_value": 0,
+      "position_type": "Defensive",
+      "risk_level": "High",
+      "energy_cost": "Medium",
+      "time_sustainability": "Short"
+    },
+    "state_invariants": [
+      "One leg is controlled and dragged across the body by the opponent, with their grip or pressure on the hip or knee preventing that leg from returning to guard position",
+      "The top player's chest or shoulder applies downward pressure on the dragged leg, pinning the bottom player's hip to the mat and restricting hip mobility",
+      "The bottom player's shoulders remain on or near the mat while the hips are partially turned, creating an asymmetric position where normal defensive frames are compromised"
+    ],
+    "prerequisites": [
+      "Guard has been partially passed with one leg controlled",
+      "Top player has established hip control and chest pressure",
+      "Bottom player's ability to create distance has been compromised"
+    ],
+    "key_principles": [
+      "Never turn away from opponent - this immediately exposes the back",
+      "Create frames immediately using the free leg and far side arm",
+      "Target recovery to butterfly hooks or half guard as primary objectives",
+      "Use granby rolls or inversions when direct recovery is blocked",
+      "Recognize early and prevent completion - late defense rarely succeeds"
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent maintains chest pressure but has not secured underhook",
+        "actions": [
+          {
+            "technique": "Butterfly Hook Recovery",
+            "target": "Butterfly Guard",
+            "probability": 45
+          },
+          {
+            "technique": "Frame and Shrimp",
+            "target": "Open Guard",
+            "probability": 40
+          }
+        ]
+      },
+      {
+        "condition": "If opponent begins back step motion to take back",
+        "actions": [
+          {
+            "technique": "Half Guard Recovery",
+            "target": "Knee Shield Half Guard",
+            "probability": 50
+          },
+          {
+            "technique": "Rolling Back Take",
+            "target": "Back Control",
+            "probability": 35
+          }
+        ]
+      },
+      {
+        "condition": "If opponent's pressure is high but balance is compromised",
+        "actions": [
+          {
+            "technique": "Granby Roll",
+            "target": "Butterfly Guard",
+            "probability": 40
+          },
+          {
+            "technique": "Deep Half Entry",
+            "target": "Deep Half Guard",
+            "probability": 45
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Turning away from opponent to escape pressure",
+        "consequence": "Immediately exposes back for easy back take",
+        "correction": "Always face opponent and work frames toward them, never turn away"
+      },
+      {
+        "error": "Passive acceptance of position waiting for opponent mistake",
+        "consequence": "Pass completes or position deteriorates further as top player consolidates",
+        "correction": "Immediately begin active escape sequence upon recognizing leg drag"
+      },
+      {
+        "error": "Attempting to push opponent's chest without creating frames",
+        "consequence": "Wastes energy while top player maintains pressure and control",
+        "correction": "Create frames with shin and arm before attempting to move opponent's weight"
+      },
+      {
+        "error": "Shrimping directly away without addressing leg control",
+        "consequence": "Movement is ineffective as dragged leg prevents hip escape",
+        "correction": "First recover butterfly hook or half guard before attempting major hip movement"
+      },
+      {
+        "error": "Posting free foot on mat without active defense",
+        "consequence": "Top player easily controls posted leg and completes pass",
+        "correction": "Use free leg actively for butterfly hooks or frames, never static posting"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Leg Drag Recovery Flow",
+        "description": "Partner establishes leg drag position with 50% resistance. Bottom player practices cycling through butterfly hook recovery, half guard recovery, and granby roll options. 3 minutes per round.",
+        "duration": "3 minutes"
+      },
+      {
+        "name": "Progressive Resistance Escape",
+        "description": "Start with partner giving light pressure in leg drag. Bottom player escapes, then repeat with increasing resistance levels. Focus on timing and commitment to escape paths.",
+        "duration": "5 minutes"
+      },
+      {
+        "name": "Frame Creation Under Pressure",
+        "description": "Partner maintains heavy leg drag pressure. Bottom player works exclusively on creating and maintaining frames with free leg and far arm without attempting escape. Builds frame strength and pressure management.",
+        "duration": "2 minutes"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Butterfly Guard",
+        "relationship": "Primary guard recovery target"
+      },
+      {
+        "name": "Knee Shield Half Guard",
+        "relationship": "Alternative recovery structure"
+      },
+      {
+        "name": "Deep Half Guard",
+        "relationship": "Advanced recovery option when direct paths blocked"
+      },
+      {
+        "name": "Half Guard",
+        "relationship": "Common recovery target from leg drag bottom"
+      },
+      {
+        "name": "Open Guard",
+        "relationship": "Guard structure to recover distance"
+      },
+      {
+        "name": "Turtle",
+        "relationship": "Emergency defensive position if guard recovery fails"
+      },
+      {
+        "name": "Back Control",
+        "relationship": "Danger position if escape fails and you turn away"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "beginner": 15,
+        "intermediate": 30,
+        "advanced": 50,
+        "description": "Ability to prevent pass completion from leg drag"
+      },
+      "advancement_probability": {
+        "beginner": 20,
+        "intermediate": 35,
+        "advanced": 55,
+        "description": "Successfully recovering to guard position"
+      },
+      "submission_probability": {
+        "beginner": 5,
+        "intermediate": 10,
+        "advanced": 20,
+        "description": "Rare but possible through reversals and counters"
+      },
+      "average_time": "10-20 seconds before pass completes or guard recovered"
+    },
+    "transitions": [
+      {
+        "transition": "Butterfly Hook Recovery",
+        "attempt_probability": 20
+      },
+      {
+        "transition": "Half Guard Recovery",
+        "attempt_probability": 20
+      },
+      {
+        "transition": "Deep Half Entry",
+        "attempt_probability": 16
+      },
+      {
+        "transition": "Granby Roll",
+        "attempt_probability": 16
+      },
+      {
+        "transition": "Frame and Shrimp",
+        "attempt_probability": 17
+      },
+      {
+        "transition": "Arm Drag Escape",
+        "attempt_probability": 11
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "Your opponent is applying heavy chest pressure on your dragged leg - what is your immediate priority?",
+        "answer": "Your immediate priority is to create frames using your free leg and far-side arm to lift or redirect the pressure, not to escape directly. Place your free shin across their hip or chest as a frame while your far arm posts on their shoulder or bicep. These frames create the space needed to insert a butterfly hook or begin shrimping. Without frames first, any escape attempt will fail against heavy pressure."
+      },
+      {
+        "question": "What are the key frames needed to create escape opportunities from leg drag bottom?",
+        "answer": "The essential frames are: 1) Free leg shin placed across opponent's hip or stomach to prevent them from driving forward, 2) Far-side arm posting on their shoulder or collar to create upper body distance, 3) Near-side elbow tight to your body preventing the crossface. These three frames create a defensive structure that gives you space to work. The free leg frame is particularly important as it can directly lead to butterfly hook recovery."
+      },
+      {
+        "question": "Why is turning away from your opponent the worst possible escape attempt from leg drag?",
+        "answer": "Turning away immediately exposes your back for taking. The leg drag position already has your hip compromised and your opponent at a dominant angle - turning away completes their path to back control. They simply need to follow your turn, secure a seatbelt grip, and establish hooks. This is the highest percentage back take from leg drag. Always face your opponent and work your escapes toward them, never away."
+      },
+      {
+        "question": "Your opponent begins transitioning to a knee slice pass - what is your recovery window?",
+        "answer": "The knee slice creates a brief recovery window as they shift weight to slice through. As they lift pressure to move their knee, immediately insert your free leg as a butterfly hook or half guard knee shield in the space created. Your hip must move first - shrimp toward them as they transition, not away. This is your best opportunity to recover guard, as their forward momentum during the slice creates the necessary space."
+      },
+      {
+        "question": "How do you prevent the pass from completing when your frames are failing?",
+        "answer": "When frames fail, commit fully to either granby roll or turtle. For granby roll, use the momentum of their pressure by rolling your hips over your shoulder toward them, inverting underneath to reset to butterfly or open guard. For turtle, bring both knees tight to your chest and turn to all fours before they can establish side control. Half-committed defensive movements always fail - pick one escape path and execute with full commitment."
+      },
+      {
+        "question": "What timing cues indicate when to attempt butterfly hook recovery versus granby roll?",
+        "answer": "Attempt butterfly hook recovery when: opponent's chest pressure is moderate but they haven't secured far hip control, giving you space to insert the hook. Attempt granby roll when: opponent is driving forward heavily with committed chest pressure but their base is high or narrow. The granby uses their forward momentum against them. If they're balanced with moderate pressure and good hip control, you may need to frame first to create either opportunity."
+      },
+      {
+        "question": "Your opponent controls your far hip, preventing your primary escapes - what options remain?",
+        "answer": "When far hip is controlled, your primary options are: 1) Attack their grip by stripping their hand off your hip using your far arm, 2) Use your near-side underhook attempt to force them to address the threat, creating a moment to recover, 3) Commit to deep half guard by threading under their base using the mobility you still have in your upper body, 4) If they're very heavy, accept turtle as a transitional position rather than having your back taken. The key is recognizing that standard escapes won't work and adapting."
+      },
+      {
+        "question": "How do you manage energy when stuck in leg drag bottom against a patient passer?",
+        "answer": "Against a patient passer, avoid burning energy on low-percentage escape attempts. Maintain your frames efficiently without pushing hard - frames should redirect, not fight. Wait for them to initiate their pass (knee slice, back step, pressure pass), as each transition creates a specific recovery window. Time your explosive escape effort to coincide with their movement, not against their static pressure. This gives you maximum effect for minimum energy expenditure."
+      }
+    ]
   }
 }

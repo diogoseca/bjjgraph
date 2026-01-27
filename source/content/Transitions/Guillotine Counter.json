@@ -11,8 +11,6 @@
     "scramble",
     "guard-passing"
   ],
-  "starting_position": "Guillotine Control",
-  "ending_position": "Side Control",
   "success_rates": {
     "beginner": 50,
     "intermediate": 70,
@@ -268,6 +266,24 @@
     {
       "name": "Posture Up",
       "relationship": "Fundamental skill required for effective guillotine defense"
+    }
+  ],
+  "from_position": "Guillotine Control/Top",
+  "outcomes": [
+    {
+      "to": "Side Control/Top",
+      "probability": 75,
+      "result": "success"
+    },
+    {
+      "to": "Guillotine Control/Top",
+      "probability": 15,
+      "result": "failure"
+    },
+    {
+      "to": "Guillotine Control/Bottom",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

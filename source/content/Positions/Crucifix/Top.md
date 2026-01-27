@@ -21,37 +21,37 @@ description: "Master Crucifix Top Position in BJJ. Dominant arm-trapping control
     {
       "@type": "HowToStep",
       "name": "Execute Rear Naked Choke",
-      "text": "From this position, execute Rear Naked Choke to transition to Won by Submission. Success rate for advanced practitioners: 85%.",
+      "text": "From this position, attempt Rear Naked Choke. This technique is attempted in 16% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Choke from Crucifix",
-      "text": "From this position, execute Choke from Crucifix to transition to Won by Submission. Success rate for advanced practitioners: 80%.",
+      "text": "From this position, attempt Choke from Crucifix. This technique is attempted in 14% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Armbar from Crucifix",
-      "text": "From this position, execute Armbar from Crucifix to transition to Won by Submission. Success rate for advanced practitioners: 80%.",
+      "text": "From this position, attempt Armbar from Crucifix. This technique is attempted in 14% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kimura",
-      "text": "From this position, execute Kimura to transition to Won by Submission. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Kimura. This technique is attempted in 13% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Mount",
-      "text": "From this position, execute Transition to Mount to transition to Mount. Success rate for advanced practitioners: 80%.",
+      "name": "Execute Side Control to Mount",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 14% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Control to Crucifix",
-      "text": "From this position, execute Back Control to Crucifix to transition to Back Control. Success rate for advanced practitioners: 85%.",
+      "text": "From this position, attempt Back Control to Crucifix. This technique is attempted in 15% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -213,83 +213,20 @@ Mastery of Crucifix Top requires understanding precise weight distribution to pr
 
 ## Available Attacks
 
-### [[Rear Naked Choke]] → [[Won by Submission]]
+### [[Rear Naked Choke]] (16% of attempts)
 
-**Success Rates:**
-- Beginner: 55%
-- Intermediate: 70%
-- Advanced: 85%
+### [[Choke from Crucifix]] (14% of attempts)
 
-### [[Choke from Crucifix]] → [[Won by Submission]]
+### [[Armbar from Crucifix]] (14% of attempts)
 
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 60%
-- Advanced: 80%
+### [[Kimura]] (13% of attempts)
 
-### [[Armbar from Crucifix]] → [[Won by Submission]]
+### [[Side Control to Mount]] (14% of attempts)
 
-**Success Rates:**
-- Beginner: 50%
-- Intermediate: 65%
-- Advanced: 80%
+### [[Back Control to Crucifix]] (15% of attempts)
 
-### [[Kimura]] → [[Won by Submission]]
+### [[Side Control to North-South]] (14% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
-
-### [[Transition to Mount]] → [[Mount]]
-
-**Success Rates:**
-- Beginner: 60%
-- Intermediate: 70%
-- Advanced: 80%
-
-### [[Back Control to Crucifix]] → [[Back Control]]
-
-**Success Rates:**
-- Beginner: 65%
-- Intermediate: 75%
-- Advanced: 85%
-
-### [[Transition to North-South]] → [[North-South]]
-
-**Success Rates:**
-- Beginner: 55%
-- Intermediate: 65%
-- Advanced: 75%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Arm Extraction]]** → [[Back Control]] (Opponent Success: 15%)
-- **[[Hip Escape]]** → [[Turtle]] (Opponent Success: 10%)
-- **[[Rolling Escape]]** → [[Closed Guard]] (Opponent Success: 8%)
-- **[[Bridge and Roll]]** → [[Scramble Position]] (Opponent Success: 5%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Rear Naked Choke]]** → [[Won by Submission]]
-  - Opponent attempts to free trapped arm by pulling
-- **[[Transition to Mount]]** → [[Mount]]
-  - Opponent creates space by bridging or turning away from trapped arm
-- **[[Armbar from Crucifix]]** → [[Won by Submission]]
-  - Opponent exposes elbow while attempting to defend neck
-- **[[Back Control to Crucifix]]** → [[Back Control]]
-  - Opponent manages to partially free one arm but exposes back
 
 
 </section>
@@ -299,23 +236,23 @@ Mastery of Crucifix Top requires understanding precise weight distribution to pr
 ## Decision Making from This Position
 
 **If opponent is flat on back with both arms fully controlled and neck exposed:**
-- Execute **[[Rear Naked Choke]]** → [[Won by Submission]] (Probability: 85%)
-- Execute **[[Choke from Crucifix]]** → [[Won by Submission]] (Probability: 80%)
+- Execute **[[Rear Naked Choke]]** → [[game-over]] (Probability: 85%)
+- Execute **[[Choke from Crucifix]]** → [[game-over]] (Probability: 80%)
 
 
 **If opponent tucks chin and defends neck aggressively:**
-- Execute **[[Armbar from Crucifix]]** → [[Won by Submission]] (Probability: 75%)
-- Execute **[[Kimura]]** → [[Won by Submission]] (Probability: 70%)
+- Execute **[[Armbar from Crucifix]]** → [[game-over]] (Probability: 75%)
+- Execute **[[Kimura]]** → [[game-over]] (Probability: 70%)
 
 
 **If opponent creates space and begins to extract trapped arm:**
-- Execute **[[Transition to Mount]]** → [[Mount]] (Probability: 80%)
+- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 80%)
 - Execute **[[Back Control to Crucifix]]** → [[Back Control]] (Probability: 85%)
 
 
 **If opponent attempts to roll or bridge explosively:**
-- Execute **[[Rear Naked Choke]]** → [[Won by Submission]] (Probability: 70%)
-- Execute **[[Transition to Mount]]** → [[Mount]] (Probability: 75%)
+- Execute **[[Rear Naked Choke]]** → [[game-over]] (Probability: 70%)
+- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 75%)
 
 
 
@@ -396,29 +333,39 @@ Bottom player knows specific escape they will attempt (arm extraction, rolling e
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Highest percentage path (choke finish)
+## Test Your Knowledge
 
-`Crucifix Top → Rear Naked Choke setup → Won by Submission`
+**Q1**: What is the optimal weight distribution for maintaining crucifix top position?
+**A**: Weight should be distributed primarily through the hips onto the opponent's torso and shoulder, keeping heavy pressure on the upper body while maintaining a mobile upper body for attacks. The hips serve as the anchor point, preventing bridging and rolling escapes. Avoid placing excessive weight forward on the hands, as this reduces control over the leg trap and allows the opponent to create space. The chest stays tight to the opponent's back and shoulders to eliminate escape angles.
 
-### Alternative attack path (arm attack)
+**Q2**: Your opponent begins shrimping their hips away from you while in crucifix—what adjustment do you make?
+**A**: Immediately follow with your hips, maintaining perpendicular alignment to their body. Increase the squeeze on the leg triangle trapping their arm and use your free hand to control their hip or pull them back toward you. If they continue creating space, transition your weight forward and consider securing a submission while they're focused on escaping, or transition to back control or mount position if the crucifix becomes untenable.
 
-`Crucifix Top → Armbar from Crucifix → Won by Submission`
+**Q3**: What are the essential control points for maintaining crucifix position?
+**A**: The two essential control points are: (1) the leg triangle trapping the near arm—this must maintain constant inward squeeze with one leg over the shoulder and one under the armpit; and (2) hand control of the far arm through wrist grip, overhook, or kimura configuration. Both arms must remain controlled at all times. Secondary controls include chest-to-back connection, hip positioning perpendicular to opponent, and head control to prevent them from finding escape angles.
 
-### Control to dominant position path
+**Q4**: How do you shut down the primary escape attempt from crucifix—the arm extraction?
+**A**: The arm extraction is prevented by maintaining constant inward pressure with the leg triangle, keeping the legs tight over the shoulder and under the armpit without any slack. When you feel the opponent pulling on the trapped arm, increase the squeeze rather than trying to outmuscle them. Adjust your body angle to take away their leverage—if they're pulling, angle your hips to make the extraction angle worse for them. Simultaneously threaten the neck to give them a more urgent problem to address.
 
-`Crucifix Top → Transition to Mount → Mount → Armbar from Mount → Won by Submission`
+**Q5**: What grip should you prioritize when controlling the far arm in crucifix?
+**A**: The wrist grip is the highest priority initial control, allowing you to manipulate the arm position and prevent defensive frames. Once established, transition to an overhook or kimura grip configuration for more secure control that opens submission pathways. The kimura grip is particularly effective as it simultaneously controls the arm and threatens a submission. Never release control of the far arm completely—always maintain at least one hand in a controlling position while the other attacks.
 
-### Back attack chain path
+**Q6**: How do you apply pressure from crucifix top without exhausting yourself?
+**A**: Pressure in crucifix comes from proper positioning rather than muscular effort. Keep your hips heavy on the opponent's torso using gravity, not active pressing. The leg triangle maintains control through the mechanical advantage of the figure-four configuration, not constant squeezing. Use your body weight by staying tight rather than pushing. Breathe normally and maintain relaxed muscles in non-essential areas. The position should feel sustainable—if you're working hard to maintain it, your positioning is wrong.
 
-`Crucifix Top → Back Control to Crucifix → Back Control → Rear Naked Choke → Won by Submission`
+**Q7**: Your opponent explosively bridges while you have crucifix—how do you anticipate and respond?
+**A**: Anticipate bridging by feeling for tension building in their hips and core. When the bridge comes, stay tight to their back rather than posting—posting creates space. Roll with the bridge if necessary, maintaining your leg triangle and arm control throughout. As they return from the bridge (the moment of greatest vulnerability), immediately threaten a submission or advance your position. The bridge actually exposes the neck momentarily, creating an opportunity for the rear naked choke if you're ready for it.
+
+**Q8**: How do you recover if your opponent partially frees their trapped arm from the leg triangle?
+**A**: If the arm begins to slip, immediately adjust your leg position—typically the bottom leg has slipped too far from under the armpit. Pull the leg back into position using hip movement, not just leg strength. If the arm is significantly free, transition to back control rather than fighting to re-establish crucifix from a compromised position. Alternatively, if they've freed the arm but remain controlled, immediately switch your attack to the neck since they've committed their free hand to the escape rather than defense.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 

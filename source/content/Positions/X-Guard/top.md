@@ -21,37 +21,37 @@ description: "Master X-Guard Top in BJJ. Control opponent's inverted guard with 
     {
       "@type": "HowToStep",
       "name": "Execute Smash Pass",
-      "text": "From this position, execute Smash Pass to transition to Side Control. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Smash Pass. This technique is attempted in 18% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, execute Knee Slice Pass to transition to Side Control. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 20% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Long Step Pass",
-      "text": "From this position, execute Long Step Pass to transition to Side Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Long Step Pass. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Saddle Entry from Top",
-      "text": "From this position, execute Saddle Entry from Top to transition to Honey Hole. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Saddle Entry from Top. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Outside Ashi Entry",
-      "text": "From this position, execute Outside Ashi Entry to transition to Outside Ashi-Garami. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Outside Ashi Entry. This technique is attempted in 8% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Weave Pass",
-      "text": "From this position, execute Leg Weave Pass to transition to Headquarters Position. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Leg Weave Pass. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -209,91 +209,22 @@ X-Guard Top represents the top player's position when facing an opponent in X-Gu
 
 ## Available Attacks
 
-### [[Smash Pass]] → [[Side Control]]
+### [[Smash Pass]] (18% of attempts)
 
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 60%
-- Advanced: 75%
+### [[Knee Slice Pass]] (20% of attempts)
 
-### [[Knee Slice Pass]] → [[Side Control]]
+### [[Long Step Pass]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Saddle Entry from Top]] (10% of attempts)
 
-### [[Long Step Pass]] → [[Side Control]]
+### [[Outside Ashi Entry]] (8% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Leg Weave Pass]] (12% of attempts)
 
-### [[Saddle Entry from Top]] → [[Honey Hole]]
+### [[Back Step]] (8% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 60%
+### [[Stack Pass]] (12% of attempts)
 
-### [[Outside Ashi Entry]] → [[Outside Ashi-Garami]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[Leg Weave Pass]] → [[Headquarters Position]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-### [[Stack Pass]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[Back Step]] → [[Back Control]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[X-Guard Sweep]]** → [[Mount]] (Opponent Success: 45%)
-- **[[Single Leg X Entry]]** → [[Single Leg X-Guard]] (Opponent Success: 40%)
-- **[[X-Guard to Ashi Transition]]** → [[Ashi Garami]] (Opponent Success: 35%)
-- **[[Technical Stand Up to Single Leg]]** → [[Standing Position]] (Opponent Success: 30%)
-- **[[Butterfly Guard to X-Guard]]** → [[Butterfly Guard]] (Opponent Success: 35%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Saddle Entry from Top]]** → [[Honey Hole]]
-  - Opponent attempts to invert deeper or transition to Ashi Garami
-- **[[Smash Pass]]** → [[Side Control]]
-  - Opponent's far leg hook releases or weakens during sweep attempt
-- **[[Back Step]]** → [[Back Control]]
-  - Opponent commits heavily to one side during sweep attempt
-- **[[Stack Pass]]** → [[Side Control]]
-  - Opponent attempts to recover guard or extend legs
 
 
 </section>
@@ -400,29 +331,7 @@ Start from X-Guard top with hooks already weakened. Practice smooth transitions 
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
-
-### Leg entanglement finish path
-
-`X-Guard Top → Saddle Entry from Top → Honey Hole → Heel Hook`
-
-### Smash pass to submission path
-
-`X-Guard Top → Smash Pass → Side Control → Kimura from Side Control`
-
-### Back attack path
-
-`X-Guard Top → Back Step → Back Control → Rear Naked Choke`
-
-### Outside ashi finish path
-
-`X-Guard Top → Outside Ashi Entry → Outside Ashi-Garami → Straight Ankle Lock`
-
-
-
-</section>
 
 <section id="position-metrics" class="content-section">
 
@@ -449,7 +358,6 @@ Start from X-Guard top with hooks already weakened. Practice smooth transitions 
 - **[[X-Guard Sweep]]** - Primary defensive threat - opponent's main attack to defend against
 - **[[Headquarters Position]]** - Related passing position - intermediate control position during pass
 - **[[Outside Ashi-Garami]]** - Counter-attack option - leg entanglement transition
-- **[[Lachlan Giles Leg Lock Defense Framework]]** - Relevant system - understanding leg attack prevention while passing
 - **[[Back Control]]** - Advanced transition target - opportunistic back take during sweep defense
 - **[[Combat Base]]** - Foundational position - base posture for defending X-Guard
 - **[[Honey Hole]]** - Common transition target - leg entanglement counter option

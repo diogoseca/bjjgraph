@@ -410,11 +410,21 @@ The Armbar from Side Control is a fundamental finishing technique that targets t
 - [[Kimura Control]] - Chain attack if armbar is defended
 - [[Submission Control Position]] - Fundamental principle for maintaining control during finish
 - [[Leverage Principles]] - Core principle explaining the biomechanics of the technique
-- [[Transition to Mount]] - Alternative transition if armbar is not available
-- [[Transition to North-South]] - Position transition that can lead to armbar setup
+- [[Side Control to Mount]] - Alternative transition if armbar is not available
+- [[Side Control to North-South]] - Position transition that can lead to armbar setup
 - [[Armbar Finish]] - General finishing mechanics applicable to all armbar variations
 - [[Gift Wrap]] - Control position that can transition to armbar
 
+
+</section>
+
+<section id="terminal-state" class="content-section">
+
+## Match Outcome
+
+Successful execution of Armbar from Side Control leads to → [[game-over|Game Over]]
+
+*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
 
 </section>
 

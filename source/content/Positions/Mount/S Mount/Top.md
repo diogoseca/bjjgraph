@@ -21,37 +21,37 @@ description: "Dominate with S Mount attacks in BJJ. Master arm isolation, armbar
     {
       "@type": "HowToStep",
       "name": "Execute Armbar from Mount",
-      "text": "From this position, execute Armbar from Mount to transition to Armbar Control. Success rate for advanced practitioners: 85%.",
+      "text": "From this position, attempt Armbar from Mount. This technique is attempted in 35% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle from Mount",
-      "text": "From this position, execute Triangle from Mount to transition to Mounted Triangle. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Triangle from Mount. This technique is attempted in 20% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Americana from Mount",
-      "text": "From this position, execute Americana from Mount to transition to Americana Control. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Americana from Mount. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kimura from Mount",
-      "text": "From this position, execute Kimura from Mount to transition to Kimura Control. Success rate for advanced practitioners: 50%.",
+      "text": "From this position, attempt Kimura from Mount. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Back Control",
-      "text": "From this position, execute Transition to Back Control to transition to Back Control. Success rate for advanced practitioners: 70%.",
+      "name": "Execute Back Take",
+      "text": "From this position, attempt Back Take. This technique is attempted in 15% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Mount",
-      "text": "From this position, execute Transition to Mount to transition to Mount. Success rate for advanced practitioners: 90%.",
+      "name": "Execute Mounted Crucifix Entry",
+      "text": "From this position, attempt Mounted Crucifix Entry. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -215,91 +215,18 @@ S Mount appears throughout BJJ history as a signature position of submission spe
 
 ## Available Attacks
 
-### [[Armbar from Mount]] → [[Armbar Control]]
+### [[Armbar from Mount]] (35% of attempts)
 
-**Success Rates:**
-- Beginner: 60%
-- Intermediate: 75%
-- Advanced: 85%
+### [[Triangle from Mount]] (20% of attempts)
 
-### [[Triangle from Mount]] → [[Mounted Triangle]]
+### [[Americana from Mount]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Kimura from Mount]] (10% of attempts)
 
-### [[Americana from Mount]] → [[Americana Control]]
+### [[Back Take]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 55%
+### [[Mounted Crucifix Entry]] (10% of attempts)
 
-### [[Kimura from Mount]] → [[Kimura Control]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 50%
-
-### [[Transition to Back Control]] → [[Back Control]]
-
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
-
-### [[Transition to Mount]] → [[Mount]]
-
-**Success Rates:**
-- Beginner: 70%
-- Intermediate: 80%
-- Advanced: 90%
-
-### [[Mounted Crucifix Entry]] → [[Mounted Crucifix]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
-
-### [[Gift Wrap to Back]] → [[Gift Wrap]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Elbow Escape]]** → [[Half Guard]] (Opponent Success: 25%)
-- **[[Hip Escape]]** → [[Closed Guard]] (Opponent Success: 20%)
-- **[[Bridge and Roll]]** → [[Mount]] (Opponent Success: 10%)
-- **[[Frame and Shrimp]]** → [[Open Guard]] (Opponent Success: 15%)
-- **[[Technical Standup]]** → [[Standing Position]] (Opponent Success: 10%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Step-over Armbar Completion]]** → [[Armbar Control]]
-  - When opponent tries to pull their arm back to defend
-- **[[Switch to Triangle]]** → [[Mounted Triangle]]
-  - When opponent brings their free arm across their body to defend armbar
-- **[[Back Take]]** → [[Back Control]]
-  - When opponent turns away from S Mount to protect their arm
-- **[[Remount]]** → [[Mount]]
-  - When opponent creates space by shrimping but hasn't escaped leg control
 
 
 </section>
@@ -326,7 +253,7 @@ S Mount appears throughout BJJ history as a signature position of submission spe
 
 **If opponent brings free arm across body to defend:**
 - Execute **[[Switch to triangle setup]]** → [[Mounted Triangle]] (Probability: 70%)
-- Execute **[[Attack second arm with americana]]** → [[Americana Control]] (Probability: 60%)
+- Execute **[[Attack second arm with americana]]** → [[Kimura Trap]] (Probability: 60%)
 - Execute **[[Transition to mounted crucifix]]** → [[Mounted Crucifix]] (Probability: 50%)
 
 
@@ -425,33 +352,39 @@ Start in S Mount top, partner starts in S Mount bottom. Full resistance sparring
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Direct Armbar Finish
+## Test Your Knowledge
 
-`Mount → S Mount Top → Armbar Control → Won by Submission`
+**Q1**: What hip adjustment should you make when your opponent starts to bridge explosively from S Mount bottom?
+**A**: Drop your hips lower and tighter against their shoulder while posting your near foot wider for stability. The bridge creates upward force, so you counter by driving your weight down and forward toward their trapped arm. Keep your center of gravity low and avoid sitting up, which would make you vulnerable to being displaced.
 
-### Triangle Chain
+**Q2**: What are the essential grip and leg positions for maintaining S Mount control?
+**A**: Your near leg extends over their head with foot firmly planted on the mat beyond their far shoulder. Your far leg crosses their torso at chest level, creating a structural barrier. Hands grip their wrist and control the isolated arm - one hand on the wrist, the other securing the elbow or bicep. Your hips must stay glued to their shoulder to eliminate space.
 
-`Mount → S Mount Top → Mounted Triangle → Triangle Choke Front → Won by Submission`
+**Q3**: How do you shut down the primary escape where opponent tries to pull their arm back to their body?
+**A**: Maintain constant two-on-one control of their wrist, keeping their arm extended across your centerline. Drive your hip weight into their shoulder to pin it to the mat. If they start pulling, immediately transition to the armbar finish or switch to a mounted triangle by threading your leg under their chin as they expose the neck.
 
-### Back Attack Series
+**Q4**: What grip priorities should you maintain from S Mount top when the opponent is actively defending?
+**A**: Primary grip is wrist control on the isolated arm - never release this without transitioning to another control. Secondary grip pins their far arm or posts on the mat for base. If attacking armbar, add elbow control with your second hand. The wrist grip is non-negotiable; losing it typically means losing the position or submission opportunity.
 
-`Mount → S Mount Top → Gift Wrap → Back Control → Rear Naked Choke`
+**Q5**: How should you apply pressure from S Mount to drain opponent's energy while maintaining control?
+**A**: Drive your hip bone into their shoulder joint, creating constant grinding pressure. Your weight should flow through this hip connection, not through your hands. The perpendicular body angle allows you to apply focused pressure on their shoulder while your legs control their movement. This pressure forces them to carry your weight through their trapped arm, fatiguing them rapidly.
 
-### Mounted Crucifix Path
+**Q6**: Your opponent creates a small hip escape and begins to recover space - what immediate adjustment prevents full escape?
+**A**: Follow their hip movement by scooting your hips with them, maintaining the hip-to-shoulder connection. Do not chase with your upper body first - lead with hip pressure. If space opens, either complete the armbar immediately before they recover, or abandon S Mount and drop back to standard mount to reset. The worst option is staying in compromised S Mount with space.
 
-`Mount → S Mount Top → Mounted Crucifix → Choke from Crucifix → Won by Submission`
+**Q7**: How do you manage energy expenditure when opponent is actively defending from S Mount bottom?
+**A**: Use structural control rather than muscular effort - let your skeletal frame and body weight do the work through proper positioning. Avoid death-gripping the wrist; instead, use body position to make escape mechanically difficult. If they're defending successfully, return to mount to rest rather than burning energy forcing a low-percentage finish. Patient pressure eventually creates openings.
 
-### Alternative Arm Attack
-
-`Mount → S Mount Top → Americana Control → Americana from Mount → Won by Submission`
+**Q8**: What should you do immediately after a partial escape where opponent frees their arm but you still have positional control?
+**A**: Immediately transition back to standard mount and consolidate control before they can fully escape. Once in mount, reset your grips and wait for another arm isolation opportunity. Do not chase the escaped arm or attempt to re-enter S Mount while unstable. Secure the position first, then look for the next submission opportunity from a position of control.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -477,10 +410,10 @@ Start in S Mount top, partner starts in S Mount bottom. Full resistance sparring
 - **[[High Mount]]** - Alternative attacking position - can flow between high mount and S Mount
 - **[[Mounted Triangle]]** - Alternative submission - common transition when armbar is defended
 - **[[Back Control]]** - Alternative advancement - take back when opponent turns away from S Mount
-- **[[Submission Position]]** - Core principle - S Mount exemplifies position before submission philosophy
-- **[[Control Maintenance]]** - Essential principle - maintaining control while transitioning to submissions
 - **[[Armbar from Mount]]** - Primary technique - the exact submission S Mount is designed to facilitate
-- **[[Roger Gracie Fundamental System]]** - Strategic framework - Roger Gracie's mount-to-armbar system uses S Mount extensively
+- **[[Triangle from Mount]]** - Alternative submission - common chain attack when armbar is defended
+- **[[Mounted Crucifix]]** - Alternative control - similar arm isolation with different configuration
+- **[[Gift Wrap]]** - Control transition - can lead to S Mount or back take
 
 
 </section>

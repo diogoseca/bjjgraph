@@ -21,37 +21,37 @@ description: "Master defensive strategies from top of straight ankle lock contro
     {
       "@type": "HowToStep",
       "name": "Execute Ashi Garami Escape",
-      "text": "From this position, execute Ashi Garami Escape to transition to Standing Position. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Ashi Garami Escape. This technique is attempted in 15% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Counter Entry to Opponent's Leg",
-      "text": "From this position, execute Counter Entry to Opponent's Leg to transition to 50-50 Guard. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Counter Entry to Opponent's Leg. This technique is attempted in 14% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Standing Escape",
-      "text": "From this position, execute Standing Escape to transition to Standing Position. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Standing Escape. This technique is attempted in 15% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Rotation Defense",
-      "text": "From this position, execute Hip Rotation Defense to transition to Defensive Position. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Hip Rotation Defense. This technique is attempted in 15% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Extraction",
-      "text": "From this position, execute Knee Extraction to transition to Half Guard. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Knee Extraction. This technique is attempted in 14% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Frame and Distance Creation",
-      "text": "From this position, execute Frame and Distance Creation to transition to Open Guard. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Frame and Distance Creation. This technique is attempted in 15% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -218,84 +218,20 @@ The psychological dimension of defending straight ankle lock control cannot be u
 
 ## Available Attacks
 
-### [[Ashi Garami Escape]] → [[Standing Position]]
+### [[Ashi Garami Escape]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Counter Entry to Opponent's Leg]] (14% of attempts)
 
-### [[Counter Entry to Opponent's Leg]] → [[50-50 Guard]]
+### [[Standing Escape]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Hip Rotation Defense]] (15% of attempts)
 
-### [[Standing Escape]] → [[Standing Position]]
+### [[Knee Extraction]] (14% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Frame and Distance Creation]] (15% of attempts)
 
-### [[Hip Rotation Defense]] → [[Defensive Position]]
+### [[Pass to Top Control]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-### [[Knee Extraction]] → [[Half Guard]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[Frame and Distance Creation]] → [[Open Guard]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-### [[Pass to Top Control]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Inside Ashi Entry]]** → [[Inside Ashi-Garami]] (Opponent Success: 60%)
-- **[[Outside Ashi Entry]]** → [[Outside Ashi-Garami]] (Opponent Success: 55%)
-- **[[Straight Ankle Lock]]** → [[Lost by Submission]] (Opponent Success: 45%)
-- **[[50-50 Entry from Standing]]** → [[50-50 Guard]] (Opponent Success: 50%)
-- **[[Kneebar Finish]]** → [[Lost by Submission]] (Opponent Success: 35%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Ashi Garami Escape]]** → [[Standing Position]]
-  - When attacker's leg control is incomplete or grip security is temporarily compromised
-- **[[Counter Entry to Opponent's Leg]]** → [[50-50 Guard]]
-  - When both legs are engaged and symmetrical control can be established
-- **[[Standing Escape]]** → [[Standing Position]]
-  - When sufficient distance is created to safely stand and extract foot
-- **[[Pass to Top Control]]** → [[Side Control]]
-  - When attacker commits fully to ankle grip and temporarily sacrifices positional control
 
 
 </section>
@@ -306,7 +242,7 @@ The psychological dimension of defending straight ankle lock control cannot be u
 
 **If attacker has not yet completed leg triangle and grip security is moderate:**
 - Execute **[[Ashi Garami Escape]]** → [[Standing Position]] (Probability: 65%)
-- Execute **[[Rotate hip away and extract knee]]** → [[Defensive Position]] (Probability: 60%)
+- Execute **[[Rotate hip away and extract knee]]** → [[Open Guard]] (Probability: 60%)
 
 
 **If attacker has established strong grips but leg control remains incomplete:**
@@ -325,7 +261,7 @@ The psychological dimension of defending straight ankle lock control cannot be u
 
 
 **If leg extraction proves impossible but attacker's control remains unstable:**
-- Execute **[[Hip Rotation Defense]]** → [[Defensive Position]] (Probability: 60%)
+- Execute **[[Hip Rotation Defense]]** → [[Open Guard]] (Probability: 60%)
 - Execute **[[Prevent progression to inside or outside ashi]]** → [[Straight Ankle Lock Control]] (Probability: 55%)
 
 
@@ -407,33 +343,39 @@ Partner establishes straight ankle lock control and applies moderate submission 
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Direct Standing Escape
+## Test Your Knowledge
 
-`Straight Ankle Lock Control Top → Standing Escape → Standing Position`
+**Q1**: What is the primary defensive resource you must protect when caught in straight ankle lock control?
+**A**: Hip mobility and rotational freedom is your primary defensive resource. Any position adjustment that restricts hip movement substantially increases danger and reduces escape probability. Your ability to rotate your hip in the correct direction creates angles that reduce submission leverage and facilitate foot extraction, making this the foundation of all successful escape sequences.
 
-### Hip Rotation to Extraction
+**Q2**: Your opponent begins tightening their leg triangle around your trapped leg - what immediate adjustment do you make?
+**A**: Immediately use your free leg to kick or push down on their bottom leg while simultaneously rotating your hip away from their control. You must prevent the leg triangle from completing because once full leg control is established, escape becomes exponentially harder. Address leg control as equal priority to grip fighting, never allowing them to consolidate position.
 
-`Straight Ankle Lock Control Top → Hip Rotation Defense → Ashi Garami Escape → Standing Position`
+**Q3**: Why should you keep your trapped knee bent rather than letting your leg straighten during escape attempts?
+**A**: Full leg extension eliminates your ability to use hip rotation for escape while maximizing the attacker's submission leverage, dramatically increasing injury risk. Keeping the knee bent and pulled toward your chest maintains structural integrity that limits submission pressure on the ankle joint while preserving the mobility needed for technical escapes and hip rotation.
 
-### Symmetrical Control Neutralization
+**Q4**: What are the essential grip fighting priorities when defending straight ankle lock control?
+**A**: Two-on-one grip breaking on the attacker's hand controlling your heel is the primary priority, as the heel grip provides most of their finishing leverage. Secondary priority is preventing them from deepening their forearm position against your Achilles. Use constant pressure against their thumb line while creating frames with your free arm to generate distance.
 
-`Straight Ankle Lock Control Top → Counter Entry to Opponent's Leg → 50-50 Guard → Ashi Garami Escape → Standing Position`
+**Q5**: How do you determine which direction to rotate your hip during escape?
+**A**: Rotate in the direction that complicates the attacker's transition attempts rather than facilitating them. If rotating hip away would give them inside ashi-garami, rotate toward them instead. If rotating toward would give them outside ashi-garami, rotate away. The key is understanding what position they want to achieve and deliberately choosing the opposite rotation direction.
 
-### Pass to Dominant Position
+**Q6**: The attacker commits heavily to a submission attempt and temporarily sacrifices their leg positioning - what opportunity does this create?
+**A**: When the attacker over-commits to the finish, they often sacrifice upper body positioning and leg control to maximize breaking pressure. This creates a window to pass to top control by circling around their guard or to establish frames and distance that facilitate standing escape. Their focused commitment to finishing opens counter-attack and escape opportunities that disappear once they recompose.
 
-`Straight Ankle Lock Control Top → Pass to Top Control → Side Control`
+**Q7**: What is the optimal time window for escape before the attacker typically advances to a more dangerous position?
+**A**: The optimal escape window is 5-12 seconds from when ankle control is established. Beyond this timeframe, the attacker has had sufficient time to consolidate grips, complete leg triangle control, and begin transitioning to more dominant entanglements. Immediate aggressive escape sequences dramatically improve success probability compared to passive waiting.
 
-### Frame and Distance Escape
-
-`Straight Ankle Lock Control Top → Frame and Distance Creation → Open Guard → Standing Position`
+**Q8**: How do you recover if your initial escape attempt fails but you've partially freed your leg?
+**A**: Immediately re-establish frames on the attacker's upper body while keeping your partially freed knee bent and protected. Use the momentum of your escape attempt to create additional distance before the attacker can recompose their control. If complete extraction is still impossible, prevent progression to worse positions by blocking their leg advancement while preparing your next escape sequence.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -458,10 +400,10 @@ Partner establishes straight ankle lock control and applies moderate submission 
 - **[[Outside Ashi-Garami]]** - Alternative danger position defender must avoid when rotating hip toward
 - **[[50-50 Guard]]** - Symmetrical neutralization option through counter-entry on attacker's leg
 - **[[Ashi Garami Escape]]** - Primary technical escape sequence from this defensive position
-- **[[Submission Defense]]** - Fundamental principle governing defensive approach to this position
 - **[[Standing Position]]** - Primary objective destination for successful escape sequences
 - **[[Leg Entanglement]]** - Conceptual framework principle for understanding position category
-- **[[Defensive Position]]** - Intermediate state during progressive escape execution
+- **[[Open Guard]]** - Intermediate recovery state during progressive escape execution
+- **[[Half Guard]]** - Alternative recovery position when full extraction is not possible
 
 
 </section>

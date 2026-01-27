@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Hook Sweep | BJJ Technique | BJJ Graph"
 description: "Learn Hook Sweep in BJJ. Step-by-step execution from Butterfly Guard to Side Control Top. Success: Beginner 40%, Intermediate 60%, Advanced 75%."
@@ -16,7 +17,7 @@ description: "Learn Hook Sweep in BJJ. Step-by-step execution from Butterfly Gua
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Hook Sweep in BJJ",
-  "description": "Step-by-step guide for Hook Sweep from Butterfly Guard to Side Control.",
+  "description": "Step-by-step guide for Hook Sweep from Butterfly Guard/Bottom. Possible outcomes: Side Control/Top (75%), Butterfly Guard/Bottom (15%), Butterfly Guard/Top (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -154,11 +155,25 @@ description: "Learn Hook Sweep in BJJ. Step-by-step execution from Butterfly Gua
 
 The Hook Sweep is a fundamental butterfly guard technique that leverages proper hook placement, angle creation, and weight manipulation to off-balance and sweep an opponent. This sweep is particularly effective when the opponent's weight is distributed forward or when they're attempting to pass your guard. The technique relies on elevating the opponent using butterfly hooks while simultaneously pulling them off-balance, creating a sweeping motion that results in a dominant top position. The Hook Sweep is one of the most high-percentage sweeps from butterfly guard due to its mechanical efficiency and the difficulty opponents face in defending once proper grips and hooks are established. This technique forms the foundation of the butterfly guard system and connects seamlessly with other butterfly guard attacks, making it essential for any practitioner looking to develop a comprehensive guard game. The sweep can be executed from both seated and combat base butterfly positions, and its success depends on timing, proper hook placement, and the ability to create and exploit angles.
 
-**Starting Position**: [[Butterfly Guard]]
-**Ending Position**: [[Side Control]]
+**From Position**: [[Butterfly Guard/Bottom]]
 **Success Rates**: Beginner 40%, Intermediate 60%, Advanced 75%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Side Control/Top]] | 75% |
+| Failure | [[Butterfly Guard/Bottom]] | 15% |
+| Counter | [[Butterfly Guard/Top]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

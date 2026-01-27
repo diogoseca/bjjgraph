@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Stack Defense | BJJ Technique | BJJ Graph"
 description: "Learn Stack Defense in BJJ. Counter stack passes with frame management, hip escape mechanics, and angle recovery. Beginner 35%, Intermediate 50%, Advanced 65%."
@@ -16,7 +17,7 @@ description: "Learn Stack Defense in BJJ. Counter stack passes with frame manage
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Stack Defense in BJJ",
-  "description": "Step-by-step guide for Stack Defense from Closed Guard to Closed Guard.",
+  "description": "Step-by-step guide for Stack Defense from Closed Guard/Bottom. Possible outcomes: Closed Guard/Bottom (65%), Closed Guard/Bottom (25%), Closed Guard/Top (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -154,11 +155,25 @@ description: "Learn Stack Defense in BJJ. Counter stack passes with frame manage
 
 Stack Defense is a fundamental defensive skill for maintaining guard when an opponent attempts to stack you by driving your knees toward your shoulders and passing around your legs. This defensive framework combines frame management, hip escape mechanics, and strategic angle recovery to neutralize one of the most common guard passing approaches in both gi and no-gi grappling. The stack pass creates pressure by folding your body, compressing your spine, and limiting your hip mobility—making it essential to understand proper defensive posture and escape mechanics. Effective stack defense requires recognizing the pass early, establishing strong frames to create distance, using hip movement to recover optimal angles, and maintaining active leg engagement to prevent the passer from consolidating control. This technique is critical for guard players at all levels, as the stack pass is a high-percentage attack that can lead to mount, side control, or submission opportunities if not properly defended.
 
-**Starting Position**: [[Closed Guard]]
-**Ending Position**: [[Closed Guard]]
+**From Position**: [[Closed Guard/Bottom]]
 **Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Closed Guard/Bottom]] | 65% |
+| Failure | [[Closed Guard/Bottom]] | 25% |
+| Counter | [[Closed Guard/Top]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

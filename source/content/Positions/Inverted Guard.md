@@ -89,38 +89,28 @@ Inverted Guard is a modern guard position where the practitioner turns upside-do
 - Develop clear pathways to more dominant positions like back control, X-guard, or leg entanglements rather than remaining inverted
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Berimbolo Entry]]** → [[Back Control]]
-  - Success Rate: Beginner 20%, Intermediate 40%, Advanced 60%
+- **[[Berimbolo Entry]]** (9% of attempts)
 
-- **[[Rolling Back Take]]** → [[Back Control]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 65%
+- **[[Rolling Back Take]]** (10% of attempts)
 
-- **[[Kiss of the Dragon]]** → [[Back Control]]
-  - Success Rate: Beginner 15%, Intermediate 35%, Advanced 55%
+- **[[Kiss of the Dragon]]** (9% of attempts)
 
-- **[[Single Leg X Entry]]** → [[Single Leg X-Guard]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 70%
+- **[[Single Leg X Entry]]** (11% of attempts)
 
-- **[[X-Guard Sweep]]** → [[X-Guard]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 65%
+- **[[X-Guard Sweep]]** (10% of attempts)
 
-- **[[Granby Roll]]** → [[Closed Guard]]
-  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 75%
+- **[[Granby Roll]]** (12% of attempts)
 
-- **[[Omoplata to Sweep]]** → [[Mount]]
-  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+- **[[Omoplata from Guard]]** (8% of attempts)
 
-- **[[Truck Entry]]** → [[Truck]]
-  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 50%
+- **[[Truck Entry]]** (8% of attempts)
 
-- **[[Reverse X-Guard Entry]]** → [[Reverse X-Guard]]
-  - Success Rate: Beginner 22%, Intermediate 42%, Advanced 62%
+- **[[Reverse X-Guard Entry]]** (10% of attempts)
 
-- **[[Technical Stand-up]]** → [[Standing Guard]]
-  - Success Rate: Beginner 40%, Intermediate 60%, Advanced 80%
+- **[[Technical Stand-up]]** (13% of attempts)
 
 
 ### Common Mistakes
@@ -182,32 +172,24 @@ Inverted Guard is a modern guard position where the practitioner turns upside-do
 - Capitalize on transitional moments when opponent moves from inverted guard to other positions
 
 
-### Primary Techniques
+### Available Transitions
 
 
-- **[[Smash Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 70%
+- **[[Smash Pass]]** (13% of attempts)
 
-- **[[Stack Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 75%
+- **[[Stack Pass]]** (12% of attempts)
 
-- **[[Pressure Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 70%
+- **[[Pressure Pass]]** (13% of attempts)
 
-- **[[Leg Weave Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 28%, Intermediate 48%, Advanced 68%
+- **[[Leg Weave Pass]]** (12% of attempts)
 
-- **[[Knee Slice Pass]]** → [[Side Control]]
-  - Success Rate: Beginner 32%, Intermediate 52%, Advanced 72%
+- **[[Knee Slice Pass]]** (13% of attempts)
 
-- **[[Headquarters Pass]]** → [[Headquarters Position]]
-  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 75%
+- **[[Headquarters Pass]]** (14% of attempts)
 
-- **[[Knee on Belly]]** → [[Knee on Belly]]
-  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 65%
+- **[[Knee on Belly]]** (12% of attempts)
 
-- **[[Mount Control]]** → [[Mount]]
-  - Success Rate: Beginner 20%, Intermediate 40%, Advanced 60%
+- **[[Toreando Pass]]** (11% of attempts)
 
 
 ### Common Mistakes

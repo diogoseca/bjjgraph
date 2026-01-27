@@ -20,7 +20,7 @@
     "intermediate": 55,
     "advanced": 70
   },
-  "overview": "The Electric Chair is a signature submission technique from 10th Planet Jiu-Jitsu, primarily executed from the lockdown position in half guard. This compression-based submission creates intense pressure on the opponent's trapped leg by combining hip extension, knee torque, and spinal rotation. Unlike traditional joint locks that isolate a single articulation, the Electric Chair simultaneously attacks multiple anatomical structures including the knee joint, hip flexors, IT band, and lower back.\n\nThe submission derives its effectiveness from the lockdown control system, where the bottom player uses a figure-four leg configuration to trap and extend the opponent's leg while controlling their posture. From this foundation, the practitioner transitions to an inverted position, creating a powerful lever that forces the opponent's knee into hyperextension while applying rotational torque to the hip joint. The Electric Chair represents a perfect example of how systematic position control can lead to high-percentage finishing opportunities.\n\nHistorically developed and refined by 10th Planet's and the 10th Planet system, the Electric Chair has proven effective in both gi and no-gi competition contexts. The technique emphasizes pressure over speed, rewarding practitioners who develop strong lockdown mechanics and understand the progressive nature of compression submissions. When executed properly with controlled application speed, it serves as both a legitimate finishing threat and a powerful sweeping mechanism that forces opponents into defensive reactions.",
+  "overview": "The Electric Chair is a signature submission technique from 10th Planet Jiu-Jitsu, primarily executed from the lockdown position in half guard. This compression-based submission creates intense pressure on the opponent's trapped leg by combining hip extension, knee torque, and spinal rotation. Unlike traditional joint locks that isolate a single articulation, the Electric Chair simultaneously attacks multiple anatomical structures including the knee joint, hip flexors, IT band, and lower back.\n\nThe submission derives its effectiveness from the lockdown control system, where the bottom player uses a figure-four leg configuration to trap and extend the opponent's leg while controlling their posture. From this foundation, the practitioner transitions to an inverted position, creating a powerful lever that forces the opponent's knee into hyperextension while applying rotational torque to the hip joint. The Electric Chair represents a perfect example of how systematic position control can lead to high-percentage finishing opportunities.\n\nHistorically developed and refined within the 10th Planet system, the Electric Chair has proven effective in both gi and no-gi competition contexts. The technique emphasizes pressure over speed, rewarding practitioners who develop strong lockdown mechanics and understand the progressive nature of compression submissions. When executed properly with controlled application speed, it serves as both a legitimate finishing threat and a powerful sweeping mechanism that forces opponents into defensive reactions.",
   "safety_considerations": {
     "injury_risks": [
       {
@@ -258,13 +258,13 @@
       "safety_critical": true
     },
     {
-      "question": "Why is the lockdown position essential for Electric Chair effectiveness, and what happens if it's released during submission attempt?",
-      "answer": "The lockdown provides the foundational control system that enables all Electric Chair mechanics. The figure-four leg configuration traps opponent's leg and creates the platform for hip extension and rotational pressure. If lockdown is released during the submission attempt, opponent can immediately free their trapped leg and escape, completely eliminating the submission threat. The lockdown must remain tight and active throughout all phases - setup, inversion, and finish.",
+      "question": "What are the three primary anatomical structures attacked by the Electric Chair submission?",
+      "answer": "The Electric Chair simultaneously attacks: (1) the knee joint through hyperextension and rotational torque, (2) the hip flexors and IT band through compression and stretching, and (3) the lower back and posterior chain through spinal rotation combined with leg extension. This multi-structure attack is what makes the submission so effective - it creates pressure across multiple pain points simultaneously, making it difficult for opponents to defend against all components.",
       "safety_critical": false
     },
     {
-      "question": "What are the three primary anatomical structures attacked by the Electric Chair submission?",
-      "answer": "The Electric Chair simultaneously attacks: (1) the knee joint through hyperextension and rotational torque, (2) the hip flexors and IT band through compression and stretching, and (3) the lower back and posterior chain through spinal rotation combined with leg extension. This multi-structure attack is what makes the submission so effective - it creates pressure across multiple pain points simultaneously, making it difficult for opponents to defend against all components.",
+      "question": "Your opponent starts to posture up and base out with their free hand during your Electric Chair attempt - what adjustment prevents escape?",
+      "answer": "When opponent attempts to posture and base, immediately use your free hand to control their posting arm by grabbing their wrist or sleeve and pulling it across their body. Simultaneously increase your lockdown squeeze and accelerate your inversion to remove their base. If you cannot control the posting arm, transition to a whip-up motion using your underhook to pull their weight forward and break their posture. The key is disrupting their ability to establish a stable base before they can complete the posture recovery.",
       "safety_critical": false
     },
     {
@@ -273,19 +273,44 @@
       "safety_critical": true
     },
     {
-      "question": "What is the relationship between hip extension and rotational torque in creating Electric Chair pressure?",
-      "answer": "Hip extension and rotational torque work synergistically to create the characteristic Electric Chair compression. Hip extension (driving hips forward and up) creates the primary lever arm that stretches opponent's trapped leg and compresses the knee joint. Rotational torque (turning shoulders and chest away from opponent) adds a twisting component that amplifies pressure on the IT band, hip flexors, and medial knee structures. Neither component alone produces optimal submission pressure - maximum effectiveness requires smooth integration of both extension and rotation applied progressively.",
+      "question": "At what point during the Electric Chair does the opponent reach the 'point of no escape' where the tap becomes inevitable?",
+      "answer": "The point of no escape occurs when you have established full inversion with maximum hip extension and rotational torque while maintaining tight lockdown control. At this stage, opponent's trapped leg is hyperextended, their hip is being torqued by your spinal rotation, and they have no remaining leverage to extract their leg or counter the pressure. The combination of extension and rotation creates a mechanical lock where any defensive movement actually increases pressure. Once this configuration is achieved with proper angle, the opponent cannot escape without tapping or risking injury.",
       "safety_critical": false
     },
     {
-      "question": "Why is 10th Planet's Electric Chair considered both a submission and a sweeping mechanism?",
-      "answer": "The Electric Chair functions as both submission and sweep because the inverted position and hip extension required for the submission naturally create sweeping momentum. When opponent defends the submission by attempting to maintain posture and pull their leg back, their defensive movements often facilitate sweep completion into Old School position or complete reversal. This dual-threat nature is strategic - if opponent focuses on defending the submission, the sweep becomes available; if they defend the sweep, submission pressure increases. This represents the '10th Planet dilemma' philosophy where every position offers multiple attacking options.",
+      "question": "What grip adjustments should you make if your opponent begins successfully extracting their trapped leg during the finish?",
+      "answer": "If opponent begins extracting their leg, immediately tighten your lockdown by pulling your feet closer to your hip and squeezing your knees together harder. Accelerate your hip extension to maintain pressure on the trapped leg before they can complete extraction. Use your underhook arm to pull their upper body toward you, which transfers their weight onto the trapped leg and makes extraction harder. If extraction continues despite these adjustments, follow their leg movement by continuing your inversion while maintaining lockdown contact - their backward movement often opens the Old School sweep as a high-percentage backup option.",
       "safety_critical": false
     },
     {
       "question": "What specific flexibility limitations make an opponent more vulnerable to Electric Chair injury risk?",
       "answer": "Opponents with limited hip flexor flexibility, tight hamstrings, or restricted IT band mobility face increased injury risk from Electric Chair even when proper application speed is used. These flexibility limitations mean their anatomical structures reach dangerous stress levels at lower compression intensities. Training partners should communicate about flexibility restrictions, use extended warm-up protocols focusing on hip mobility, and consider avoiding or significantly reducing Electric Chair pressure on partners with known flexibility limitations. The compression nature of this submission makes it particularly important to account for individual flexibility variations.",
       "safety_critical": true
+    },
+    {
+      "question": "What are the breaking point indicators that signal the opponent is about to tap to Electric Chair?",
+      "answer": "Key breaking point indicators include: opponent's body becoming rigid and tense as they absorb maximum pressure, audible grunting or pain vocalization, visible grimacing or facial distress, frantic attempts to create space or unlock the lockdown, cessation of all escape attempts as pressure overwhelms defensive capacity, and opponent reaching for your body or mat to tap. Experienced practitioners learn to read these signals and apply final pressure slowly to allow adequate tap opportunity before injury threshold.",
+      "safety_critical": false
+    },
+    {
+      "question": "Why must you establish the lockdown before attempting any Electric Chair mechanics?",
+      "answer": "The lockdown provides the foundational control system that enables all Electric Chair mechanics. The figure-four leg configuration traps opponent's leg and creates the platform for hip extension and rotational pressure. Without lockdown established first, there is no anchor point to generate leverage, no control over opponent's trapped leg, and no mechanism to prevent immediate escape. Attempting inversion or hip extension without secure lockdown results in opponent simply freeing their leg and escaping. The lockdown is not just recommended - it is the essential prerequisite that makes the entire submission system possible.",
+      "safety_critical": false
+    },
+    {
+      "question": "In competition, how do you maximize finishing percentage when opponent is aggressively defending the Electric Chair?",
+      "answer": "Against aggressive defense, employ a systematic approach: first, maintain absolute lockdown integrity regardless of their defensive efforts. Second, use their defensive reactions to create secondary attacks - if they turn away, pursue back take; if they posture, transition to Old School sweep; if they attack your feet, accelerate submission pressure. Third, combine hip extension with rotational torque simultaneously rather than sequentially for compound pressure. Fourth, control their posting arm to eliminate their primary escape mechanism. Finally, be patient and recognize that in competition, the dilemma you create between submission and sweep forces them into compromised defensive choices.",
+      "safety_critical": false
+    },
+    {
+      "question": "What common finishing error causes the Electric Chair to fail even when setup and control are correct?",
+      "answer": "The most common finishing error is focusing exclusively on hip extension without adequate spinal rotation. While hip extension creates the primary compression force, rotation is what transforms pressure from uncomfortable to submission-inducing. Without rotation, opponent can often absorb the extension pressure and wait for opportunity to escape. The fix is to consciously turn your chest and shoulders away from opponent while extending, creating the synergistic combination of extension and rotational torque that attacks the knee, hip, and IT band simultaneously. Think of 'extending away' rather than just 'extending up.'",
+      "safety_critical": false
+    },
+    {
+      "question": "What control requirements must be maintained throughout the finish to prevent escape at the final moment?",
+      "answer": "Throughout the finish, maintain: (1) tight lockdown with constant squeeze - never relax leg pressure even during final extension, (2) underhook control pulling opponent's weight forward to prevent posture recovery, (3) control or monitoring of opponent's posting arm to prevent base establishment, (4) hip-to-hip connection through your inversion angle to maintain leverage, and (5) continuous pressure application without gaps that allow defensive reset. Loss of any single control point can enable escape even at maximum extension, so all controls must work in concert through the finish.",
+      "safety_critical": false
     }
   ],
   "training_progressions_and_safety_protocols": [
@@ -351,7 +376,6 @@
     "Heel Hook",
     "Straight Ankle Lock",
     "Achilles Lock",
-    "Spine Lock",
     "Boston Crab",
     "Estima Lock"
   ],
@@ -379,10 +403,6 @@
     {
       "name": "Truck",
       "relationship": "Advanced position transition available from Electric Chair defensive reactions"
-    },
-    {
-      "name": "Lockdown to Electric Chair System",
-      "relationship": "Complete systematic approach to lockdown attacks centering on Electric Chair as primary submission"
     },
     {
       "name": "Half Guard",

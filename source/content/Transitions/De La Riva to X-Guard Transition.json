@@ -10,8 +10,6 @@
     "x-guard",
     "advanced"
   ],
-  "starting_position": "De La Riva Guard",
-  "ending_position": "X-Guard",
   "success_rates": {
     "beginner": 35,
     "intermediate": 55,
@@ -256,6 +254,24 @@
     {
       "name": "De La Riva Sweep Variations",
       "relationship": "Alternative attacks when transition timing is not optimal"
+    }
+  ],
+  "from_position": "De La Riva Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "X-Guard/Bottom",
+      "probability": 75,
+      "result": "success"
+    },
+    {
+      "to": "De La Riva Guard/Bottom",
+      "probability": 15,
+      "result": "failure"
+    },
+    {
+      "to": "De La Riva Guard/Top",
+      "probability": 10,
+      "result": "counter"
     }
   ]
 }

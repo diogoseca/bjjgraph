@@ -174,17 +174,20 @@
     {
       "error": "Failing to control opponent's head with non-choking hand",
       "consequence": "Opponent can turn their head away from the choke and escape; wasted energy; loss of position control",
-      "correction": "Your non-choking hand must actively control their head throughout the submission. Cup the back of their head, grab their far collar, or use your forearm across their face. This hand prevents escape and maintains proper angle for the choke."
+      "correction": "Your non-choking hand must actively control their head throughout the submission. Cup the back of their head, grab their far collar, or use your forearm across their face. This hand prevents escape and maintains proper angle for the choke.",
+      "danger_level": "Medium"
     },
     {
       "error": "Lifting your chest off opponent to reach for the collar grip",
       "consequence": "Creates space for opponent to escape side control; allows them to frame and shrimp away; loss of dominant position",
-      "correction": "Maintain heavy chest pressure throughout the setup. Work your collar grip patiently without relieving pressure on their torso. If you must create slight space to insert your hand, do so momentarily and immediately return to chest-to-chest connection."
+      "correction": "Maintain heavy chest pressure throughout the setup. Work your collar grip patiently without relieving pressure on their torso. If you must create slight space to insert your hand, do so momentarily and immediately return to chest-to-chest connection.",
+      "danger_level": "Medium"
     },
     {
       "error": "Attempting the choke from poor angle without adjusting hips",
       "consequence": "Insufficient pressure on carotid arteries; opponent can defend easily; telegraphs your intention without threat",
-      "correction": "Shift your hips toward opponent's head to create the proper 45-degree angle before finishing. Your forearm must cut across their neck at the correct diagonal for the scissoring action to work. Take the time to adjust your position before pulling the collar."
+      "correction": "Shift your hips toward opponent's head to create the proper 45-degree angle before finishing. Your forearm must cut across their neck at the correct diagonal for the scissoring action to work. Take the time to adjust your position before pulling the collar.",
+      "danger_level": "Low"
     },
     {
       "error": "Continuing to apply pressure after partner goes limp or unresponsive",
@@ -228,19 +231,53 @@
     },
     {
       "question": "What are the key indicators that your collar grip is deep enough to finish the Paper Cutter Choke effectively?",
-      "answer": "Your four fingers should be inserted into the collar at least to the second knuckle, with the ideal depth being all the way to the back of their neck. You should be able to feel the fabric of the collar against your palm, not just holding with your fingertips. A proper depth grip will feel secure and difficult for opponent to break, and when you pull the collar you should immediately feel compression on their neck. If you can only grip with fingertips or if the collar easily pulls out of your hand, the grip is too shallow. Additionally, your thumb should remain outside the collar for maximum leverage, and your wrist should be relatively straight, not bent at an extreme angle."
+      "answer": "Your four fingers should be inserted into the collar at least to the second knuckle, with the ideal depth being all the way to the back of their neck. You should be able to feel the fabric of the collar against your palm, not just holding with your fingertips. A proper depth grip will feel secure and difficult for opponent to break, and when you pull the collar you should immediately feel compression on their neck. If you can only grip with fingertips or if the collar easily pulls out of your hand, the grip is too shallow. Additionally, your thumb should remain outside the collar for maximum leverage, and your wrist should be relatively straight, not bent at an extreme angle.",
+      "safety_critical": false
     },
     {
       "question": "How does the Paper Cutter Choke create bilateral carotid compression, and what role does body angle play?",
-      "answer": "The Paper Cutter creates bilateral compression through a scissoring action between two pressure points: your forearm blade pressing on one carotid artery and the pulled collar compressing the opposite carotid artery. Body angle is critical—you must shift your hips approximately 45 degrees toward opponent's head from standard side control. This angle allows your forearm to cut diagonally across their neck while your grip hand pulls the far collar in the opposite direction. If you maintain perpendicular side control positioning, the forearm cannot create proper lateral pressure and the choke will not work effectively. The angle transforms the technique from two separate pressure points into a unified scissoring motion that closes both arteries simultaneously."
+      "answer": "The Paper Cutter creates bilateral compression through a scissoring action between two pressure points: your forearm blade pressing on one carotid artery and the pulled collar compressing the opposite carotid artery. Body angle is critical—you must shift your hips approximately 45 degrees toward opponent's head from standard side control. This angle allows your forearm to cut diagonally across their neck while your grip hand pulls the far collar in the opposite direction. If you maintain perpendicular side control positioning, the forearm cannot create proper lateral pressure and the choke will not work effectively. The angle transforms the technique from two separate pressure points into a unified scissoring motion that closes both arteries simultaneously.",
+      "safety_critical": false
     },
     {
       "question": "What are the three most effective defensive responses for the bottom player, and how should the top player counter each?",
-      "answer": "First, framing against the attacker's neck with the near arm creates space and prevents tight chest pressure—counter by trapping their arm with an overhook or collapsing the frame with your weight before they can extend it. Second, tucking the chin and turning toward the attacker blocks collar access—counter by using shoulder pressure on their jaw, pulling their chin away with your non-choking hand, or waiting patiently for them to relax their defense. Third, gripping the choking wrist with both hands and pulling it away—counter by maintaining your collar grip with a strong four-finger hold and using body weight and angle rather than arm strength to finish, or transition to arm triangle if they commit both arms to defending the wrist. The key is recognizing which defense they're using early and having a prepared counter rather than forcing a finish from poor position."
+      "answer": "First, framing against the attacker's neck with the near arm creates space and prevents tight chest pressure—counter by trapping their arm with an overhook or collapsing the frame with your weight before they can extend it. Second, tucking the chin and turning toward the attacker blocks collar access—counter by using shoulder pressure on their jaw, pulling their chin away with your non-choking hand, or waiting patiently for them to relax their defense. Third, gripping the choking wrist with both hands and pulling it away—counter by maintaining your collar grip with a strong four-finger hold and using body weight and angle rather than arm strength to finish, or transition to arm triangle if they commit both arms to defending the wrist. The key is recognizing which defense they're using early and having a prepared counter rather than forcing a finish from poor position.",
+      "safety_critical": false
     },
     {
       "question": "Describe the proper progression from setup to finish, including when to apply maximum pressure and when to release?",
-      "answer": "The proper progression begins with establishing dominant side control with chest pressure (3-5 seconds), then working the collar grip deep while maintaining pressure (2-3 seconds). Next, secure head control with the non-choking hand and create the proper body angle (1-2 seconds). Then drive the shoulder forward and pull the collar to initiate the scissoring action, applying pressure progressively over 3-4 seconds. Maximum pressure should only be applied once all previous steps are complete and the choke feels tight. In training, hold maximum pressure for no more than 3-5 seconds total. Release immediately when partner taps using any signal, when they go limp or unresponsive, when they make distress sounds, or when defensive hand fighting suddenly stops. The release must be complete—fully release the collar grip and remove your forearm from their neck, not just reducing pressure slightly."
+      "answer": "The proper progression begins with establishing dominant side control with chest pressure (3-5 seconds), then working the collar grip deep while maintaining pressure (2-3 seconds). Next, secure head control with the non-choking hand and create the proper body angle (1-2 seconds). Then drive the shoulder forward and pull the collar to initiate the scissoring action, applying pressure progressively over 3-4 seconds. Maximum pressure should only be applied once all previous steps are complete and the choke feels tight. In training, hold maximum pressure for no more than 3-5 seconds total. Release immediately when partner taps using any signal, when they go limp or unresponsive, when they make distress sounds, or when defensive hand fighting suddenly stops. The release must be complete—fully release the collar grip and remove your forearm from their neck, not just reducing pressure slightly.",
+      "safety_critical": true
+    },
+    {
+      "question": "Your opponent starts to posture up and turn their chin away from your collar grip - what adjustment prevents escape?",
+      "answer": "When opponent postures or turns their chin away, immediately increase shoulder pressure on their jaw or cheekbone using your choking-side shoulder to drive their head back down and toward your chest. Simultaneously, your non-choking hand should cup the back of their head or grab their far collar to pull their head toward your choking arm. If they continue to create distance, consider briefly transitioning your hips more toward their head to increase the cutting angle across their neck. The key is preventing them from creating the space needed to extract their neck from the choke—maintaining constant forward pressure while adjusting your angle typically defeats this escape attempt.",
+      "safety_critical": false
+    },
+    {
+      "question": "What mechanical principle makes the Paper Cutter effective against larger, stronger opponents?",
+      "answer": "The Paper Cutter works through leverage and angle rather than raw strength, creating mechanical advantage through the scissoring action of opposing forces. Your entire body weight drives through your shoulder and forearm on one side of the neck, while your grip pulls the collar in the opposite direction on the other side. This means a 150-pound practitioner can generate more than sufficient pressure to compress arteries against a 250-pound opponent. The key is proper angle creation (45 degrees toward their head) and deep collar grip placement—once these are established, the submission becomes about positioning your body correctly rather than overpowering their neck muscles. Strength only matters if technical positioning is compromised.",
+      "safety_critical": false
+    },
+    {
+      "question": "How do you recognize when the choke is properly set versus when you need to adjust before committing to the finish?",
+      "answer": "A properly set Paper Cutter will feel tight almost immediately when you begin driving your shoulder and pulling the collar—you should feel compression against resistance on both sides of the neck within 1-2 seconds. If you're applying force and not feeling this bilateral tightness, something needs adjustment: either your grip is too shallow, your angle is wrong, or your forearm isn't cutting across the proper line on their neck. Signs of improper setup include opponent coughing (you're on trachea, not carotids), minimal resistance despite pulling hard (grip too shallow), or opponent easily turning out (angle wrong). Never commit maximum pressure to a choke that doesn't feel right—release, adjust your position, deepen your grip, and re-attack with proper mechanics.",
+      "safety_critical": false
+    },
+    {
+      "question": "What competition strategies maximize Paper Cutter success rate against skilled opponents who know the defense?",
+      "answer": "Against skilled opponents, the Paper Cutter works best as part of an attack chain rather than an isolated technique. Set up dilemmas by threatening the arm triangle or kimura first—when they defend their arm by pulling it away, this often opens access to the far collar for the Paper Cutter. Use positional transitions as attack windows: the moment you pass to side control or transition from knee on belly, opponents are most vulnerable before they can establish defensive frames. Grip fighting patience is essential—rather than rushing a shallow grip, take time to work your hand deep into the collar even if it means briefly stalling your attack. Finally, combine with collar drags and baseball bat choke threats to create a collar-based attack system where defending one option opens another.",
+      "safety_critical": false
+    },
+    {
+      "question": "Your choke feels tight but opponent is not tapping after 5 seconds - how do you diagnose and fix the problem?",
+      "answer": "If the choke feels tight but opponent isn't tapping after 5 seconds, the most likely issues are: you're applying an air choke rather than blood choke (check if opponent is coughing or their face is turning purple—adjust angle to target carotid arteries laterally), your grip depth is insufficient (you feel resistance but aren't actually compressing arteries—release slightly and re-grip deeper), or your angle is creating pressure on only one carotid (adjust your hip position and shoulder drive angle). The solution is never to simply apply more force—that creates injury risk. Instead, briefly release pressure, reassess your grip depth and body angle, then reapply with corrected mechanics. A properly positioned Paper Cutter causes unconsciousness in 3-8 seconds; if it's taking longer, the mechanics are wrong.",
+      "safety_critical": true
+    },
+    {
+      "question": "How does the Paper Cutter integrate with other side control attacks to create an effective submission system?",
+      "answer": "The Paper Cutter fits naturally into a side control attack system through shared setup positions and complementary defensive dilemmas. When you threaten the Paper Cutter with a deep collar grip, opponents typically defend by bringing their far arm across to fight your grip—this exposes them to the arm triangle. If they keep elbows tight to defend the arm triangle, the far collar becomes accessible for the Paper Cutter. The kimura serves as a third option when they extend their near arm to frame against you. All three attacks benefit from the same foundational chest pressure and hip control, allowing you to flow between them based on opponent reactions. The baseball bat choke adds another collar-based option from the same grip position, creating a system where every defensive choice opens a different attack.",
+      "safety_critical": false
     }
   ],
   "training_progressions_and_safety_protocols": [
@@ -302,7 +339,6 @@
     "Darce Choke",
     "Anaconda Choke",
     "Ezekiel Choke",
-    "Loop Choke",
     "Clock Choke",
     "Breadcutter Choke",
     "Baseball Bat Choke",
@@ -335,24 +371,20 @@
       "relationship": "Common backup submission when paper cutter is defended"
     },
     {
-      "name": "Transition to North-South",
-      "relationship": "Transition that creates paper cutter opportunities"
+      "name": "Kimura from Side Control",
+      "relationship": "Complementary attack creating defensive dilemmas with paper cutter"
     },
     {
-      "name": "Side Control to Mount",
-      "relationship": "Alternative transition when opponent defends paper cutter by turning"
+      "name": "Baseball Bat Choke",
+      "relationship": "Alternative collar-based choke from similar positioning"
     },
     {
-      "name": "Collar Control",
-      "relationship": "Fundamental principle for establishing effective grip"
+      "name": "Breadcutter Choke",
+      "relationship": "Related technique using similar collar grip mechanics"
     },
     {
-      "name": "Pressure Application",
-      "relationship": "Core principle for maintaining side control during setup"
-    },
-    {
-      "name": "Submission Chains",
-      "relationship": "Principle for combining paper cutter with other side control attacks"
+      "name": "Clock Choke",
+      "relationship": "Variation accessible when opponent defends standard paper cutter"
     }
   ]
 }

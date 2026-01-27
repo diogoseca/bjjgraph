@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Anaconda Setup | BJJ Technique | BJJ Graph"
 description: "Master Anaconda Setup from turtle with arm threading, grip mechanics, and control principles. Success rates: Beginner 35%, Intermediate 55%, Advanced 75%."
@@ -16,7 +17,7 @@ description: "Master Anaconda Setup from turtle with arm threading, grip mechani
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Anaconda Setup in BJJ",
-  "description": "Step-by-step guide for Anaconda Setup from Turtle to Anaconda Control.",
+  "description": "Step-by-step guide for Anaconda Setup from Front Headlock. Possible outcomes: Anaconda Control (75%), Turtle (15%), Half Guard (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -164,11 +165,25 @@ Unlike the traditional guillotine or D'arce choke setups, the anaconda requires 
 
 This technique exemplifies the modern front headlock system's emphasis on control, patience, and positional dominance before attempting the finish. Rushing the setup often results in the opponent escaping to guard or achieving a single leg position, making methodical execution essential for success at all levels of competition.
 
-**Starting Position**: [[Turtle]]
-**Ending Position**: [[Anaconda Control]]
+**From Position**: [[Front Headlock]]
 **Success Rates**: Beginner 35%, Intermediate 55%, Advanced 75%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Anaconda Control]] | 75% |
+| Failure | [[Turtle]] | 15% |
+| Counter | [[Half Guard]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 
@@ -318,6 +333,24 @@ Develop your preferred grips (gable vs S-grip), finishing positions (from setup,
 **Q6**: When should you consider switching from an anaconda setup to a D'arce setup, and what is the primary indicator that triggers this decision?
 **A**: You should switch to a D'arce setup when the opponent successfully tucks their near arm very tight to their body, making it impossible to trap that arm for the anaconda. The primary indicator is that when you attempt to thread your arm from the near side, you cannot get deep enough because their arm is glued to their ribs. In this scenario, switching to the D'arce (threading from the far side to trap their far arm instead) becomes the higher percentage option. Advanced practitioners flow between both setups based on which arm the opponent exposes.
 
+**Q7**: Your opponent posts their far hand on the mat as you begin threading - what adjustment should you make to complete the setup?
+**A**: When the opponent posts their far hand, drive more shoulder pressure into their head to collapse their posture and force them to carry your weight rather than posting effectively. Simultaneously, accelerate your arm threading to beat their defensive reaction. If the post is strong, use your free hand to control their posting wrist while continuing to thread, or walk your hips toward their head to increase the angle of pressure and make their post ineffective.
+
+**Q8**: What is the most critical hip movement during the transition from front headlock to secured anaconda grip?
+**A**: The most critical hip movement is walking your hips away from the opponent and toward an angle perpendicular to their spine while keeping them low. This creates the leverage necessary to maintain top pressure and prevents the opponent from turning into you. Moving your hips away also lengthens your body relative to theirs, which tightens the anaconda configuration and makes it harder for them to extract their trapped arm.
+
+**Q9**: What grip configuration provides the strongest anaconda control, and why is grip placement relative to your body important?
+**A**: The gable grip (palm-to-palm) provides the strongest structural integrity. The grip must be secured tight to your own chest/sternum, not extended away from your body. When the grip is close to your body, your elbows naturally pull inward, creating maximum compression. Extended grips create space the opponent can exploit to turn into you or extract their arm. Think of your forearms and chest as a triangle that must collapse completely around their neck and arm.
+
+**Q10**: Your opponent begins a granby roll escape as you're establishing the anaconda grip - should you follow or disengage?
+**A**: You should absolutely follow the roll while maintaining your grip. The granby roll actually helps you if you stay connected - their momentum assists the transition to mounted anaconda position. Keep your chest glued to their back throughout the rotation and use their movement to tighten your grip. Disengaging would waste the positional advantage you've established and give them a free escape to guard recovery.
+
+**Q11**: What are the entry requirements that must exist before you can successfully attempt the anaconda setup from turtle?
+**A**: Four conditions must exist: 1) You must have front headlock control with at least one hand securing their head, 2) Their near-side arm must be accessible and not completely tucked to their body, 3) Your body position must be perpendicular or angled to their spine with chest pressure on their upper back, and 4) Your hips must be lower than theirs to maintain downward pressure. Missing any of these requirements significantly reduces success probability.
+
+**Q12**: If your anaconda setup is blocked and the opponent successfully tucks their arm, what chain attack should you transition to?
+**A**: The primary chain attack when the near arm is tucked is the D'arce choke setup, which threads from the opposite direction to trap their far arm instead. Secondary options include transitioning to a guillotine if they lift their head to create space, or circling to their back if they over-commit to defending the front headlock. The key is recognizing which arm becomes available based on their defensive reaction and flowing to the appropriate attack rather than forcing the anaconda.
+
 
 
 </section>
@@ -350,8 +383,8 @@ The anaconda setup is a fundamental component of the modern front headlock syste
 - [[Front Headlock to Darce]] - Related transition technique with similar mechanics
 - [[Japanese Necktie]] - Alternative choke from front headlock position
 - [[Arm Triangle]] - Another head-and-arm choke option from turtle top
-- [[Front Headlock to Back]] - Positional alternative when submission setup fails
-- [[Front Headlock Series]] - Overarching system this technique belongs to
+- [[Turtle to Back Control]] - Positional alternative when submission setup fails
+- [[Anaconda Control]] - Target control position after successful setup
 
 
 </section>

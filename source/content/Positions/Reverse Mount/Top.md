@@ -20,39 +20,33 @@ description: "Master Reverse Mount position in BJJ. Learn transitional control m
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Mount",
-      "text": "From this position, execute Transition to Mount to transition to Mount. Success rate for advanced practitioners: 85%.",
+      "name": "Execute Side Control to Mount",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 35% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Take Generic",
-      "text": "From this position, execute Back Take Generic to transition to Back Control. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Back Take Generic. This technique is attempted in 30% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Mount to Armbar",
-      "text": "From this position, execute Mount to Armbar to transition to Armbar Control. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Mount to Armbar. This technique is attempted in 15% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Truck",
-      "text": "From this position, execute Transition to Truck to transition to Truck. Success rate for advanced practitioners: 50%.",
+      "name": "Execute Turtle to Truck",
+      "text": "From this position, attempt Turtle to Truck. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Side Control to Mount",
-      "text": "From this position, execute Side Control to Mount to transition to S Mount. Success rate for advanced practitioners: 60%.",
+      "name": "Execute Side Control to North-South",
+      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Transition to North-South",
-      "text": "From this position, execute Transition to North-South to transition to North-South. Success rate for advanced practitioners: 65%.",
-      "position": 6
     }
   ],
   "totalTime": "PT2M"
@@ -212,77 +206,16 @@ The position's main strategic value is as a stepping stone rather than a destina
 
 ## Available Attacks
 
-### [[Transition to Mount]] → [[Mount]]
+### [[Side Control to Mount]] (35% of attempts)
 
-**Success Rates:**
-- Beginner: 50%
-- Intermediate: 70%
-- Advanced: 85%
+### [[Back Take Generic]] (30% of attempts)
 
-### [[Back Take Generic]] → [[Back Control]]
+### [[Mount to Armbar]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 60%
-- Advanced: 75%
+### [[Turtle to Truck]] (10% of attempts)
 
-### [[Mount to Armbar]] → [[Armbar Control]]
+### [[Side Control to North-South]] (10% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-### [[Transition to Truck]] → [[Truck]]
-
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 50%
-
-### [[Side Control to Mount]] → [[S Mount]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[Transition to North-South]] → [[North-South]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Bridge and Roll]]** → [[Open Guard]] (Opponent Success: 45%)
-- **[[Upa Escape]]** → [[Half Guard]] (Opponent Success: 40%)
-- **[[Hip Escape]]** → [[Closed Guard]] (Opponent Success: 35%)
-- **[[Shrimp Escape]]** → [[Butterfly Guard]] (Opponent Success: 30%)
-- **[[Technical Standup]]** → [[Standing Position]] (Opponent Success: 25%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Side Control to Mount]]** → [[Mount]]
-  - Opponent attempts to bridge or buck upward
-- **[[Back Take Generic]]** → [[Back Control]]
-  - Opponent turns to side attempting hip escape
-- **[[Transition to North-South]]** → [[North-South]]
-  - Opponent creates space by pushing with frames
-- **[[Mount to Armbar]]** → [[Armbar Control]]
-  - Opponent extends arm defensively or attempts to push
 
 
 </section>
@@ -293,22 +226,22 @@ The position's main strategic value is as a stepping stone rather than a destina
 
 **If opponent is relatively flat and not actively defending, assess back control opportunity:**
 - Execute **[[Back Take Generic]]** → [[Back Control]] (Probability: 65%)
-- Execute **[[Transition to Mount]]** → [[Mount]] (Probability: 70%)
+- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 70%)
 
 
 **If opponent begins to bridge or create upward pressure through hips:**
-- Execute **[[Transition to Mount]]** → [[Mount]] (Probability: 75%)
+- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 75%)
 - Execute **[[Side Control to Mount]]** → [[S Mount]] (Probability: 60%)
 
 
 **If opponent turns to either side attempting hip escape:**
 - Execute **[[Back Take Generic]]** → [[Back Control]] (Probability: 70%)
-- Execute **[[Transition to Truck]]** → [[Truck]] (Probability: 50%)
+- Execute **[[Turtle to Truck]]** → [[Truck]] (Probability: 50%)
 
 
 **If opponent extends arm in defensive reaction or attempts to push:**
 - Execute **[[Mount to Armbar]]** → [[Armbar Control]] (Probability: 55%)
-- Execute **[[Transition to Mount]]** → [[Mount]] (Probability: 65%)
+- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 65%)
 
 
 
@@ -389,29 +322,39 @@ Start from various scramble positions (failed back take, turtle transitions, mou
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Shortest Armbar Path
+## Test Your Knowledge
 
-`Reverse Mount Top → Mount to Armbar → Armbar Control → Armbar from Mount → Won by Submission`
+**Q1**: What is the most important principle when finding yourself in reverse mount top position?
+**A**: Recognize that reverse mount is a transitional position and must be converted quickly to either standard mount or back control within 3-5 seconds. Attempting to maintain reverse mount long-term leads to progressively decreasing stability and increasing escape probability for the opponent.
 
-### High-Percentage Mount Consolidation Path
+**Q2**: How should you distribute your weight to maintain control in reverse mount despite the backward orientation?
+**A**: Keep hips heavy and sink your weight directly onto the opponent's sternum or upper abdomen through your buttocks and lower back. Maintain forward lean with core engagement to eliminate space between your lower body and their chest. The weight should feel oppressive to the bottom player even without head control.
 
-`Reverse Mount Top → Transition to Mount → Mount → Mount to Armbar → Armbar Control → Armbar from Mount → Won by Submission`
+**Q3**: Your opponent starts bridging strongly while you're in reverse mount - what adjustment should you make?
+**A**: Ride the bridge by maintaining heavy hips and wide knee base while using your posted hands for balance. As they land from the bridge, immediately initiate your transition to standard mount by spinning toward their head, using their exhausted moment post-bridge as your window for smooth conversion.
 
-### Back Control Progression Path
+**Q4**: What are the essential base requirements for maintaining stability in reverse mount?
+**A**: Keep knees wide and positioned outside opponent's ribcage to create a broad base similar to standard mount but adjusted for backward orientation. Feet should be positioned near or past opponent's shoulders. At least one hand should be posted on the mat at all times for balance support and to sense opponent's movement.
 
-`Reverse Mount Top → Back Take Generic → Back Control → Rear Naked Choke → Won by Submission`
+**Q5**: When does reverse mount naturally occur during rolling, and how should you respond upon recognizing it?
+**A**: Reverse mount typically occurs during scrambles, failed back take attempts, or when opponents turn away during standard mount control. Upon recognition, immediately assess whether back control (inserting hooks from the reverse position) or standard mount (180-degree rotation) is the better option based on opponent's body position and defensive posture.
 
-### Advanced Twister Path
+**Q6**: Your opponent turns to their side attempting a hip escape from reverse mount - how do you capitalize?
+**A**: Their turn exposes their back, creating an excellent opportunity for back take. Insert your first hook on the side they're turning toward, establish seat belt control, and follow with your second hook to secure full back control. This is often a higher-percentage transition than forcing them flat for standard mount.
 
-`Reverse Mount Top → Transition to Truck → Truck → Twister Finish → Twister → Won by Submission`
+**Q7**: Why is over-committing to submissions from reverse mount considered a critical error?
+**A**: Reverse mount is inherently unstable and submission attempts require committing your base and control to the attack. Over-committing often results in complete position loss as the opponent escapes during the submission attempt. Standard mount and back control offer far superior submission platforms, so prioritize transitioning to these positions rather than forcing low-percentage attacks from reverse mount.
+
+**Q8**: How do you manage energy expenditure when controlling from reverse mount?
+**A**: Minimize energy expenditure by keeping transitions brief - make your decision within 3-5 seconds and execute smoothly. Use structural control through proper knee and hip positioning rather than muscular effort. Relying on proprioception rather than constantly looking backward reduces tension and conserves energy. The goal is efficient flow to a superior position, not prolonged battle for unstable control.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 

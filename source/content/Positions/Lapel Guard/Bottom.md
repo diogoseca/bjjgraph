@@ -21,37 +21,37 @@ description: "Control opponents with innovative lapel grips and configurations. 
     {
       "@type": "HowToStep",
       "name": "Execute Worm Guard Entry",
-      "text": "From this position, execute Worm Guard Entry to transition to Worm Guard. Success rate for advanced practitioners: 80%.",
+      "text": "From this position, attempt Worm Guard Entry. This technique is attempted in 11% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Squid Guard Entry",
-      "text": "From this position, execute Squid Guard Entry to transition to Squid Guard. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Squid Guard Entry. This technique is attempted in 10% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Ringworm Guard Entry",
-      "text": "From this position, execute Ringworm Guard Entry to transition to Ringworm Guard. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Ringworm Guard Entry. This technique is attempted in 9% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Lapel Sweep to Back",
-      "text": "From this position, execute Lapel Sweep to Back to transition to Back Control. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Lapel Sweep to Back. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Lapel Omoplata Entry",
-      "text": "From this position, execute Lapel Omoplata Entry to transition to Omoplata Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Lapel Omoplata Entry. This technique is attempted in 9% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Lapel Triangle Setup",
-      "text": "From this position, execute Lapel Triangle Setup to transition to Triangle Control. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Lapel Triangle Setup. This technique is attempted in 8% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -217,107 +217,26 @@ The learning curve for lapel guard is steep but rewarding. Initial sessions focu
 
 ## Available Escapes
 
-### [[Worm Guard Entry]] → [[Worm Guard]]
+### [[Worm Guard Entry]] (11% of attempts)
 
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 65%
-- Advanced: 80%
+### [[Squid Guard Entry]] (10% of attempts)
 
-### [[Squid Guard Entry]] → [[Squid Guard]]
+### [[Ringworm Guard Entry]] (9% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 60%
-- Advanced: 75%
+### [[Lapel Sweep to Back]] (10% of attempts)
 
-### [[Ringworm Guard Entry]] → [[Ringworm Guard]]
+### [[Lapel Omoplata Entry]] (9% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 45%
-- Advanced: 65%
+### [[Lapel Triangle Setup]] (8% of attempts)
 
-### [[Lapel Sweep to Back]] → [[Back Control]]
+### [[Lapel to Lasso Transition]] (11% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 55%
-- Advanced: 70%
+### [[Lapel to Spider Transition]] (12% of attempts)
 
-### [[Lapel Omoplata Entry]] → [[Omoplata Control]]
+### [[Lapel to De La Riva]] (11% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Lapel Elevator Sweep]] (9% of attempts)
 
-### [[Lapel Triangle Setup]] → [[Triangle Control]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 45%
-- Advanced: 60%
-
-### [[Lapel to Lasso Transition]] → [[Lasso Guard]]
-
-**Success Rates:**
-- Beginner: 50%
-- Intermediate: 65%
-- Advanced: 80%
-
-### [[Lapel to Spider Transition]] → [[Spider Guard]]
-
-**Success Rates:**
-- Beginner: 55%
-- Intermediate: 70%
-- Advanced: 85%
-
-### [[Lapel to De La Riva]] → [[De La Riva Guard]]
-
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 65%
-- Advanced: 80%
-
-### [[Lapel Elevator Sweep]] → [[Mount]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 65%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Lapel Grip Break and Distance Creation]]** → [[Standing Guard]] (Opponent Success: 45%)
-- **[[Pressure Pass Through Lapel]]** → [[Half Guard Pass]] (Opponent Success: 35%)
-- **[[Toreando Around Lapel Configuration]]** → [[Side Control]] (Opponent Success: 40%)
-- **[[Backstep to Clear Lapel]]** → [[Turtle]] (Opponent Success: 50%)
-- **[[Leg Drag Despite Lapel]]** → [[Leg Drag Control]] (Opponent Success: 30%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Re-configure to Squid When Worm is Cleared]]** → [[Squid Guard]]
-  - Opponent clears leg from worm guard lapel wrap
-- **[[Triangle Lock When Arm Posted]]** → [[Triangle Control]]
-  - Opponent posts arm to prevent sweep from lapel guard
-- **[[Back Take When Forward Pressure Applied]]** → [[Back Control]]
-  - Opponent drives forward trying to pressure through lapel barrier
-- **[[Omoplata When Grip Stripped]]** → [[Omoplata Control]]
-  - Opponent strips lapel grip but leaves arm extended
-- **[[De La Riva Recovery]]** → [[De La Riva Guard]]
-  - Lapel configuration is partially cleared but leg position remains
 
 
 </section>
@@ -424,29 +343,39 @@ From established lapel guard, partner defends first submission attempt (triangle
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Worm Guard to Triangle
+## Test Your Knowledge
 
-`Lapel Guard → Worm Guard → Triangle Setup → Triangle Control → Triangle Choke`
+**Q1**: What are the essential grips for maintaining lapel guard once a worm guard configuration is established?
+**A**: The primary grip threads through the lapel fabric behind the opponent's knee, using a pistol grip or four-finger hook. The secondary grip controls the far sleeve or collar to prevent them from posturing away. Use skeletal alignment rather than muscular squeeze—hook fingers through the lapel and let body positioning maintain tension to preserve grip endurance.
 
-### Squid Guard to Omoplata
+**Q2**: Your opponent starts driving heavy forward pressure trying to smash through your lapel configuration—what adjustment prevents the pass?
+**A**: Transition to squid guard by redirecting the lapel around their posting arm instead of their leg. Their forward pressure actually aids this reconfiguration. Alternatively, use their forward momentum to load a back take, as driving forward opens the path behind them. The key is converting their pressure into your offensive opportunity rather than fighting it directly.
 
-`Lapel Guard → Squid Guard → Omoplata → Omoplata Control → Omoplata`
+**Q3**: How do you distribute your weight to maintain lapel guard against a standing opponent?
+**A**: Keep your hips angled toward your lapel grip side, not flat on your back. Your non-lapel leg creates an active frame or hooks their lead leg for additional control. Shoulder weight stays light with the ability to sit up quickly for back takes. The lapel provides primary control while your hips and legs remain dynamic for transitions.
 
-### Ringworm to Back Attack
+**Q4**: What is the most common error when holding lapel grips, and how does it compromise retention?
+**A**: Gripping the lapel fabric with excessive forearm tension rather than structural alignment causes rapid forearm fatigue. Within 2-3 minutes of death-gripping, your control fails completely. The correction is hooking fingers through the lapel and using body positioning to maintain tension, allowing the skeletal structure rather than muscles to do the work.
 
-`Lapel Guard → Ringworm Guard → Back Take Generic → Back Control → Rear Naked Choke`
+**Q5**: Your opponent successfully strips your primary lapel grip—what immediate recovery maintains guard?
+**A**: Transition to spider guard by immediately bicep controlling both arms, or flow to lasso guard by wrapping your leg around their arm. These traditional guards share similar control principles and don't require re-establishing the lapel configuration. Alternatively, re-extract the lapel from a safer angle before they advance position.
 
-### Lapel to Kimura Trap
+**Q6**: How do you shut down the backstep escape when your opponent recognizes they're in worm guard?
+**A**: Maintain sleeve control on the same side as your lapel wrap to prevent them from posting and changing angle. When they begin the backstep motion, sit up aggressively and pursue the back take rather than trying to hold them in place. Their backstep actually opens the path to their back if you follow their rotation.
 
-`Lapel Guard → Squid Guard → Kimura Defense → Kimura Control → Kimura`
+**Q7**: Your opponent posts their hand to base while you threaten a sweep—what attack capitalizes on this reaction?
+**A**: The posted arm is vulnerable to omoplata. Rotate your hips under their posting arm while maintaining lapel control, threading your leg over their shoulder. Their base post becomes the setup for shoulder lock control. This is a classic lapel guard dilemma—defending the sweep opens the submission.
+
+**Q8**: How do you manage energy when your opponent is aggressively trying to clear your lapel configuration?
+**A**: Let the lapel configuration do the work rather than actively fighting their clearing attempts. Maintain structural grips and wait for specific reactions—their energy expenditure far exceeds yours. When they create openings through aggressive clearing, capitalize with sweeps or submissions. Patience is a weapon when you control the exchange with low energy output.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -476,7 +405,7 @@ From established lapel guard, partner defends first submission attempt (triangle
 - **[[Collar Sleeve Guard]]** - Traditional guard that transitions naturally to lapel variations
 - **[[Triangle Control]]** - Common submission finish from lapel guard setups
 - **[[Omoplata Control]]** - Shoulder lock option from squid guard configurations
-- **[[Keenan Cornelius Lapel Guard System]]** - Comprehensive system for lapel guard techniques and variations
+- **[[Back Control]]** - High-percentage destination from lapel guard back takes
 
 
 </section>

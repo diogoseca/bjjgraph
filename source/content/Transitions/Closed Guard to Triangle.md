@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Closed Guard to Triangle | BJJ Technique | BJJ Graph"
 description: "Learn the Triangle setup from Closed Guard in BJJ. Complete execution sequence with grip control and angle creation. Success rates: Beginner 25%, Intermediate 40%, Advanced 60%."
@@ -16,7 +17,7 @@ description: "Learn the Triangle setup from Closed Guard in BJJ. Complete execut
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Closed Guard to Triangle in BJJ",
-  "description": "Step-by-step guide for Closed Guard to Triangle from Closed Guard to Triangle Control.",
+  "description": "Step-by-step guide for Closed Guard to Triangle from Closed Guard/Bottom. Possible outcomes: Triangle Control/Top (60%), Closed Guard/Bottom (30%), Closed Guard/Top (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -154,11 +155,25 @@ description: "Learn the Triangle setup from Closed Guard in BJJ. Complete execut
 
 The transition from Closed Guard to Triangle represents one of the most fundamental and high-percentage attacks in Brazilian Jiu-Jitsu. This technique exploits the opponent's defensive posturing by converting arm positioning into a powerful strangulation threat. The beauty of this transition lies in its ability to capitalize on the opponent's natural defensive reactions—whether they maintain their base or attempt to posture, the guard player can manipulate limb placement to secure the triangle lock. The closed guard provides an ideal launching platform because it offers control of distance, hip mobility, and the ability to break posture repeatedly until the optimal angle presents itself. This transition teaches fundamental principles of angle creation, hip movement, and limb isolation that apply throughout guard-based submissions. Mastery of this sequence provides a reliable pathway to finish matches while simultaneously opening opportunities for sweeps and back takes when opponents defend the primary threat.
 
-**Starting Position**: [[Closed Guard]]
-**Ending Position**: [[Triangle Control]]
+**From Position**: [[Closed Guard/Bottom]]
 **Success Rates**: Beginner 25%, Intermediate 40%, Advanced 60%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Triangle Control/Top]] | 60% |
+| Failure | [[Closed Guard/Bottom]] | 30% |
+| Counter | [[Closed Guard/Top]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

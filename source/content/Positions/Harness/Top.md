@@ -21,37 +21,37 @@ description: "Master Harness Top Position in BJJ - dominant back control with se
     {
       "@type": "HowToStep",
       "name": "Execute Rear Naked Choke",
-      "text": "From this position, execute Rear Naked Choke to transition to Won by Submission. Success rate for advanced practitioners: 85%.",
+      "text": "From this position, attempt Rear Naked Choke. This technique is attempted in 15% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Armbar from Back with Legs",
-      "text": "From this position, execute Armbar from Back with Legs to transition to Armbar Control. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Armbar from Back with Legs. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Control to Crucifix",
-      "text": "From this position, execute Back Control to Crucifix to transition to Crucifix. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Back Control to Crucifix. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle from Back",
-      "text": "From this position, execute Triangle from Back to transition to Rear Triangle. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Triangle from Back. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bow and Arrow Choke",
-      "text": "From this position, execute Bow and Arrow Choke to transition to Won by Submission. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Bow and Arrow Choke. This technique is attempted in 13% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Armbar from Back",
-      "text": "From this position, execute Armbar from Back to transition to Armbar Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, attempt Armbar from Back. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -214,94 +214,22 @@ Strategically, Harness Top Position is considered a premium scoring position (4 
 
 ## Available Attacks
 
-### [[Rear Naked Choke]] → [[Won by Submission]]
+### [[Rear Naked Choke]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 65%
-- Advanced: 85%
+### [[Armbar from Back with Legs]] (12% of attempts)
 
-### [[Armbar from Back with Legs]] → [[Armbar Control]]
+### [[Back Control to Crucifix]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 70%
+### [[Triangle from Back]] (10% of attempts)
 
-### [[Back Control to Crucifix]] → [[Crucifix]]
+### [[Bow and Arrow Choke]] (13% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 45%
-- Advanced: 65%
+### [[Armbar from Back]] (12% of attempts)
 
-### [[Triangle from Back]] → [[Rear Triangle]]
+### [[Choke from Crucifix]] (14% of attempts)
 
-**Success Rates:**
-- Beginner: 20%
-- Intermediate: 35%
-- Advanced: 55%
+### [[Rolling Back Take]] (12% of attempts)
 
-### [[Bow and Arrow Choke]] → [[Won by Submission]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 55%
-- Advanced: 75%
-
-### [[Armbar from Back]] → [[Armbar Control]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 45%
-- Advanced: 65%
-
-### [[Choke from Crucifix]] → [[Won by Submission]]
-
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 60%
-- Advanced: 80%
-
-### [[Rolling Back Take]] → [[Body Triangle]]
-
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 50%
-- Advanced: 70%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Hip Escape]]** → [[Turtle]] (Opponent Success: 25%)
-- **[[Back Escape Series]]** → [[Half Guard]] (Opponent Success: 30%)
-- **[[Granby Roll]]** → [[Open Guard]] (Opponent Success: 20%)
-- **[[Elbow Escape]]** → [[Turtle]] (Opponent Success: 35%)
-- **[[Hand Fighting from Back]]** → [[Back Control]] (Opponent Success: 40%)
-- **[[Technical Standup]]** → [[Standing Position]] (Opponent Success: 15%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Back Control to Crucifix]]** → [[Crucifix]]
-  - Opponent attempts to strip top arm of seat belt grip
-- **[[Rolling Back Take]]** → [[Body Triangle]]
-  - Opponent begins to turn into you or drives forward
-- **[[Rear Naked Choke]]** → [[Won by Submission]]
-  - Opponent focuses on removing hooks and neglects hand fighting
-- **[[Armbar from Back with Legs]]** → [[Armbar Control]]
-  - Opponent successfully grabs top arm to defend choke
-- **[[Triangle from Back]]** → [[Rear Triangle]]
-  - Opponent turns shoulder down to escape hooks
 
 
 </section>
@@ -317,7 +245,7 @@ Strategically, Harness Top Position is considered a premium scoring position (4 
 
 **If opponent is working to remove hooks and turn into you:**
 - Execute **[[Rolling Back Take]]** → [[Body Triangle]] (Probability: 60%)
-- Execute **[[Rear Naked Choke]]** → [[Won by Submission]] (Probability: 75%)
+- Execute **[[Rear Naked Choke]]** → [[game-over]] (Probability: 75%)
 
 
 **If opponent strips top arm and begins to turn to guard:**
@@ -326,13 +254,13 @@ Strategically, Harness Top Position is considered a premium scoring position (4 
 
 
 **If opponent turtles and hides arms defensively:**
-- Execute **[[Bow and Arrow Choke]]** → [[Won by Submission]] (Probability: 70%)
-- Execute **[[Rear Naked Choke]]** → [[Won by Submission]] (Probability: 80%)
+- Execute **[[Bow and Arrow Choke]]** → [[game-over]] (Probability: 70%)
+- Execute **[[Rear Naked Choke]]** → [[game-over]] (Probability: 80%)
 
 
 **If opponent is flat on stomach trying to prevent hooks:**
 - Execute **[[Rolling Back Take]]** → [[Body Triangle]] (Probability: 65%)
-- Execute **[[Choke from Crucifix]]** → [[Won by Submission]] (Probability: 60%)
+- Execute **[[Choke from Crucifix]]** → [[game-over]] (Probability: 60%)
 
 
 
@@ -425,37 +353,39 @@ Partner starts in turtle position. Practice back take entry establishing harness
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Highest Percentage Path
+## Test Your Knowledge
 
-`Harness Top → Rear Naked Choke → Won by Submission`
+**Q1**: Your opponent begins to bridge and turn toward your underhook side - what adjustment do you make?
+**A**: Immediately drop your weight lower and switch your hips to follow their movement, keeping your chest glued to their back. Drive your top hook deeper while adjusting your bottom hook to prevent them from completing the turn. If they continue rotating, be prepared to transition to crucifix by trapping their near arm with your leg, or follow them with a rolling back take to maintain back control from the opposite side.
 
-### Armbar Chain Path
+**Q2**: What are the essential grips for maintaining harness position?
+**A**: The seat belt grip requires one arm over the opponent's shoulder and one under the opposite armpit, with hands clasped together on the chest or sternum. Use either a palm-to-palm grip or gable grip (wrist-to-wrist) for maximum strength. Keep grip high on the chest near the collarbone for better choke access and harder grip breaks. The over-arm (choking arm) should be the arm that goes across their neck when attacking.
 
-`Harness Top → Armbar from Back with Legs → Armbar Control → Straight Armbar → Won by Submission`
+**Q3**: How do you shut down your opponent's primary escape of sliding down and turning to face you?
+**A**: Prevent this escape by maintaining constant forward chest pressure while keeping your hips close to theirs. Use your hooks actively - pull your heels toward your body while keeping insteps hooked inside their thighs. When they attempt to slide down, follow their movement by lowering your own hips and increasing downward pressure through your hooks. If they create space, immediately tighten the harness grip and close the distance.
 
-### Crucifix Development Path
+**Q4**: What is the grip priority hierarchy when your opponent is fighting your hands?
+**A**: The seat belt grip is more valuable than both hooks combined. If you must sacrifice something, give up one hook before releasing the harness. Within the harness, the choking arm (over the shoulder) takes priority over the underhook arm. If opponent strips your underhook, immediately swim it back or transition to a single collar tie while maintaining the over-arm. Never release both grip connection points simultaneously.
 
-`Harness Top → Back Control to Crucifix → Crucifix → Choke from Crucifix → Won by Submission`
+**Q5**: How should you apply pressure to drain your opponent's energy while maintaining control?
+**A**: Apply forward pressure through your chest into their upper back, not by squeezing with your arms. Drive your hips forward to push their hips down while your chest pressure pins their shoulders. Keep hooks active with constant tension pulling their legs back. This pressure is exhausting to defend because your weight is distributed through your core and skeleton, not muscles. Every defensive movement they make should require effort while your pressure remains constant and relatively low-energy.
 
-### Triangle Alternative Path
+**Q6**: Your opponent successfully strips your bottom hook - how do you recover?
+**A**: Immediately tighten your harness grip to prevent further escapes while you recover. Use your free leg to either re-insert the hook by threading it back inside their thigh, or transition to a body triangle by throwing your leg over their near hip. If body triangle isn't available, post your foot on the mat temporarily for base while working to re-establish the hook. Never chase the hook frantically - maintain grip control first, then methodically recover the hook.
 
-`Harness Top → Triangle from Back → Rear Triangle → Triangle Choke → Won by Submission`
+**Q7**: How do you manage your energy to maintain this position for extended periods?
+**A**: Rely on skeletal structure and body weight rather than muscular effort. Keep your chest heavy on their back through proper alignment, not by flexing muscles. Use gable grip rather than finger grips to reduce forearm fatigue. Breathe steadily and stay relaxed while maintaining structure. Only increase intensity when attacking or countering escape attempts. Between attacks, settle your weight and recover while opponent expends energy on unsuccessful escape attempts.
 
-### Gi-Specific Path
-
-`Harness Top → Bow and Arrow Choke → Won by Submission`
-
-### Body Triangle Advancement
-
-`Harness Top → Rolling Back Take → Body Triangle → Rear Naked Choke → Won by Submission`
+**Q8**: Your opponent successfully creates an angle by hip escaping - how do you recover the flat back position?
+**A**: Follow their hip escape by switching your hooks and readjusting your body angle to stay behind them. If they've angled significantly, use your choking-side hook to prevent further rotation while your other leg works to flatten them. Pull with your harness grip while driving forward pressure to collapse their angle. If they've created substantial space, consider transitioning to a gift wrap or crucifix rather than forcing the flat back position - use their defensive movement to access different control or submission opportunities.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -484,10 +414,10 @@ Partner starts in turtle position. Practice back take entry establishing harness
 - **[[Rear Triangle]]** - Submission position accessible from here
 - **[[Mounted Crucifix]]** - Related dominant control position
 - **[[Turtle]]** - Common entry position before back take
-- **[[Back Attack System]]** - Systematic offensive framework for this position
-- **[[systematic approach Straight Jacket System]]** - Expert system featuring harness control as foundation
-- **[[Back Defense Protocol]]** - Defensive counterpart system opponent uses
 - **[[Standing Back Control]]** - Standing application of same principles
+- **[[Armbar Control]]** - Control position for armbar finish from back
+- **[[Rear Naked Choke]]** - Primary submission from this position
+- **[[Bow and Arrow Choke]]** - High-percentage gi choke from back control
 
 
 </section>

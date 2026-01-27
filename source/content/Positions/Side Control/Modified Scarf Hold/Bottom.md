@@ -21,37 +21,37 @@ description: "Defensive guide for Modified Scarf Hold bottom position. Learn sys
     {
       "@type": "HowToStep",
       "name": "Execute Elbow Escape",
-      "text": "From this position, execute Elbow Escape to transition to Half Guard. Success rate for advanced practitioners: 45%.",
+      "text": "From this position, attempt Elbow Escape. This technique is attempted in 18% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bridge and Roll",
-      "text": "From this position, execute Bridge and Roll to transition to Closed Guard. Success rate for advanced practitioners: 35%.",
+      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 14% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Turtle Transition",
-      "text": "From this position, execute Turtle Transition to transition to Turtle. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Turtle Transition. This technique is attempted in 21% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Frame and Shrimp",
-      "text": "From this position, execute Frame and Shrimp to transition to Open Guard. Success rate for advanced practitioners: 40%.",
+      "text": "From this position, attempt Frame and Shrimp. This technique is attempted in 16% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm Extraction",
-      "text": "From this position, execute Arm Extraction to transition to Side Control. Success rate for advanced practitioners: 48%.",
+      "text": "From this position, attempt Arm Extraction. This technique is attempted in 19% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Ghost Escape",
-      "text": "From this position, execute Ghost Escape to transition to Standing Position. Success rate for advanced practitioners: 30%.",
+      "text": "From this position, attempt Ghost Escape. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -216,75 +216,18 @@ The psychological component cannot be overlooked. Modified Scarf Hold creates in
 
 ## Available Escapes
 
-### [[Elbow Escape]] → [[Half Guard]]
+### [[Elbow Escape]] (18% of attempts)
 
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 30%
-- Advanced: 45%
+### [[Bridge and Roll]] (14% of attempts)
 
-### [[Bridge and Roll]] → [[Closed Guard]]
+### [[Turtle Transition]] (21% of attempts)
 
-**Success Rates:**
-- Beginner: 10%
-- Intermediate: 20%
-- Advanced: 35%
+### [[Frame and Shrimp]] (16% of attempts)
 
-### [[Turtle Transition]] → [[Turtle]]
+### [[Arm Extraction]] (19% of attempts)
 
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
+### [[Ghost Escape]] (12% of attempts)
 
-### [[Frame and Shrimp]] → [[Open Guard]]
-
-**Success Rates:**
-- Beginner: 12%
-- Intermediate: 25%
-- Advanced: 40%
-
-### [[Arm Extraction]] → [[Side Control]]
-
-**Success Rates:**
-- Beginner: 18%
-- Intermediate: 32%
-- Advanced: 48%
-
-### [[Ghost Escape]] → [[Standing Position]]
-
-**Success Rates:**
-- Beginner: 8%
-- Intermediate: 18%
-- Advanced: 30%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Counters
-
-- **[[Shoulder Pressure]]** → [[Modified Scarf Hold]] (Opponent Success: 75%)
-- **[[Transition to Mount]]** → [[Mount]] (Opponent Success: 55%)
-- **[[Transition to North-South]]** → [[North-South]] (Opponent Success: 65%)
-- **[[Americana from Side Control]]** → [[Americana Control]] (Opponent Success: 60%)
-- **[[Kimura from Side Control]]** → [[Kimura Control]] (Opponent Success: 50%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Counter-Attacks
-
-- **[[Re-Guard]]** → [[Half Guard]]
-  - When opponent shifts weight to attack far arm or transitions to mount
-- **[[Technical Standup]]** → [[Standing Position]]
-  - When opponent's base is high and chest pressure temporarily releases
-- **[[Turtle Transition]]** → [[Turtle]]
-  - When creating enough space to turn away from pressure
 
 
 </section>
@@ -374,25 +317,39 @@ Partner starts in Modified Scarf Hold, you attempt specific escape technique, pa
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Escape and Survival Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Frame to Guard Recovery
+## Test Your Knowledge
 
-`Modified Scarf Hold Bottom → Frame and Shrimp → Half Guard → Butterfly Guard → Back Take Generic → Back Control → Rear Naked Choke`
+**Q1**: Your opponent increases chest pressure and you feel your breathing becoming restricted - what immediate adjustment do you make?
+**A**: Turn your head to the side away from the pressure and tuck your chin toward your far shoulder to protect your airway. Create micro-space by pressing your free hand against their hip or shoulder - not pushing up, but creating a frame to prevent them from settling deeper. Take shallow breaths using your diaphragm rather than trying to expand your chest against their weight.
 
-### Bridge to Reversal
+**Q2**: What are the essential frames you need to establish before attempting any escape from Modified Scarf Hold bottom?
+**A**: The primary frame is your free (far) arm positioned with elbow against their hip and hand on their shoulder or bicep, creating a diagonal barrier. This prevents them from advancing to mount and creates the initial space for hip movement. Secondary frame is protecting your trapped arm by keeping elbow connected to your ribs. Never attempt escapes without frames - you need structure before movement.
 
-`Modified Scarf Hold Bottom → Bridge and Roll → Closed Guard → Triangle Setup → Triangle Choke`
+**Q3**: How do you prevent your opponent from isolating your near arm for americana or kimura submissions?
+**A**: Keep your near arm elbow glued to your ribs at all times - the arm only becomes vulnerable when it extends away from your body. If they begin prying your arm loose, grab your own lapel (gi) or grip your far bicep (no-gi) to anchor the arm. Fight to keep your elbow pointing down toward your hip, never allow it to point toward your head or away from your centerline.
 
-### Turtle to Counter
+**Q4**: What is the proper timing for a bridge escape attempt from Modified Scarf Hold bottom?
+**A**: Bridge only when your opponent shifts their weight - typically when they reach for a submission, adjust their position, or begin transitioning. Never bridge against a fully settled opponent as they will simply ride it and potentially advance to mount. Feel for the moment their hips lift or their chest pressure lightens, then bridge immediately and directionally toward their trapped side.
 
-`Modified Scarf Hold Bottom → Turtle Transition → Turtle → Standing up → Standing Position → Double Leg Entry → Mount → Armbar from Mount`
+**Q5**: How should you apply your frames to create the initial space needed for hip escape?
+**A**: Use your free arm frame to push at their hip at a 45-degree angle away from you - not straight up. Simultaneously turn your hips away from them, even just a few inches. The goal is incremental space creation, not explosive movement. Once you have any hip angle, immediately insert your near knee between your bodies to establish a guard recovery pathway.
+
+**Q6**: Your opponent begins to transition toward mount while maintaining chest pressure - how do you anticipate and respond?
+**A**: The mount transition telegraph is when they shift their weight toward your far side and begin walking their knees up. The moment you feel this weight shift, turn aggressively toward them and shoot your near knee across their path to block the mount. If too late to block, immediately switch to a mount escape - do not try to recover side control bottom once mount is being established.
+
+**Q7**: How do you manage your energy when trapped in an extended Modified Scarf Hold situation?
+**A**: Avoid explosive movements that deplete energy without creating escape opportunities. Maintain steady breathing despite pressure. Make small, purposeful adjustments rather than large desperate movements. Accept that you may need to survive for extended periods - settle mentally into efficient defense mode. Save explosive movements for high-percentage escape moments only.
+
+**Q8**: You partially escape to turtle position but opponent still has hooks and chest contact - how do you complete the escape?
+**A**: From turtle with opponent still attached, immediately post on your hands and drive your hips backward to create separation. Turn to face them to recover guard, or continue circling away to create space for a sit-out or granby roll. Never remain static in turtle with opponent maintaining contact - either complete the escape to guard/standing or be prepared to defend back takes.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -419,7 +376,7 @@ Partner starts in Modified Scarf Hold, you attempt specific escape technique, pa
 - **[[Half Guard]]** - Primary guard recovery target
 - **[[Elbow Escape]]** - Primary escape technique
 - **[[Frame and Shrimp]]** - Fundamental escape movement
-- **[[Escape Hierarchy]]** - Systematic escape framework
+- **[[Bridge and Roll]]** - Secondary escape technique
 
 
 </section>

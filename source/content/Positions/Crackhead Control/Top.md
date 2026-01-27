@@ -21,37 +21,37 @@ description: "Master Crackhead Control Top in BJJ. Dominant turtle attack with c
     {
       "@type": "HowToStep",
       "name": "Execute Turtle to Back Take",
-      "text": "From this position, execute Turtle to Back Take to transition to Back Control. Success rate for advanced practitioners: 75%.",
+      "text": "From this position, attempt Turtle to Back Take. This technique is attempted in 17% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Truck",
-      "text": "From this position, execute Transition to Truck to transition to Truck. Success rate for advanced practitioners: 65%.",
+      "name": "Execute Turtle to Truck",
+      "text": "From this position, attempt Turtle to Truck. This technique is attempted in 15% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Crucifix from Turtle",
-      "text": "From this position, execute Crucifix from Turtle to transition to Crucifix. Success rate for advanced practitioners: 60%.",
+      "text": "From this position, attempt Crucifix from Turtle. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Crab Ride to Back",
-      "text": "From this position, execute Crab Ride to Back to transition to Crab Ride. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Crab Ride to Back. This technique is attempted in 16% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Anaconda from Turtle",
-      "text": "From this position, execute Anaconda from Turtle to transition to Anaconda Control. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Anaconda from Turtle. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Darce from Turtle",
-      "text": "From this position, execute Darce from Turtle to transition to D'arce Control. Success rate for advanced practitioners: 55%.",
+      "text": "From this position, attempt Darce from Turtle. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -213,82 +213,20 @@ Advanced practitioners understand that crackhead control is not a static positio
 
 ## Available Attacks
 
-### [[Turtle to Back Take]] → [[Back Control]]
+### [[Turtle to Back Take]] (17% of attempts)
 
-**Success Rates:**
-- Beginner: 45%
-- Intermediate: 60%
-- Advanced: 75%
+### [[Turtle to Truck]] (15% of attempts)
 
-### [[Transition to Truck]] → [[Truck]]
+### [[Crucifix from Turtle]] (13% of attempts)
 
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
+### [[Crab Ride to Back]] (16% of attempts)
 
-### [[Crucifix from Turtle]] → [[Crucifix]]
+### [[Anaconda from Turtle]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 30%
-- Intermediate: 45%
-- Advanced: 60%
+### [[Darce from Turtle]] (12% of attempts)
 
-### [[Crab Ride to Back]] → [[Crab Ride]]
+### [[Rolling Back Take]] (15% of attempts)
 
-**Success Rates:**
-- Beginner: 40%
-- Intermediate: 55%
-- Advanced: 70%
-
-### [[Anaconda from Turtle]] → [[Anaconda Control]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-### [[Darce from Turtle]] → [[D'arce Control]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-### [[Rolling Back Take]] → [[Back Control]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 50%
-- Advanced: 65%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Hip Escape]]** → [[Half Guard]] (Opponent Success: 25%)
-- **[[Technical Standup]]** → [[Standing Position]] (Opponent Success: 20%)
-- **[[Granby Roll]]** → [[Closed Guard]] (Opponent Success: 30%)
-- **[[Rolling to Guard]]** → [[Half Guard]] (Opponent Success: 35%)
-- **[[Forward Roll]]** → [[Closed Guard]] (Opponent Success: 15%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Back Take Generic]]** → [[Back Control]]
-  - Opponent attempts to sit through to guard
-- **[[Transition to Truck]]** → [[Truck]]
-  - Opponent rolls forward or attempts granby escape
-- **[[Crucifix from Turtle]]** → [[Crucifix]]
-  - Opponent extends arm to post or push away
 
 
 </section>
@@ -303,12 +241,12 @@ Advanced practitioners understand that crackhead control is not a static positio
 
 
 **If opponent attempts to sit through to guard or turn into you:**
-- Execute **[[Back Take Generic]]** → [[Back Control]] (Probability: 65%)
+- Execute **[[Turtle to Back Take]]** → [[Back Control]] (Probability: 65%)
 - Execute **[[Darce from Turtle]]** → [[D'arce Control]] (Probability: 50%)
 
 
 **If opponent rolls forward or attempts granby escape:**
-- Execute **[[Transition to Truck]]** → [[Truck]] (Probability: 70%)
+- Execute **[[Turtle to Truck]]** → [[Twister Control]] (Probability: 70%)
 - Execute **[[Rolling Back Take]]** → [[Back Control]] (Probability: 55%)
 
 
@@ -395,33 +333,39 @@ Partner in bottom turtle attempts specific escapes in sequence (sit through, gra
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### Shortest path to submission
+## Test Your Knowledge
 
-`Crackhead Control Top → Darce from Turtle → D'arce Control → Darce Choke`
+**Q1**: What is the optimal hip placement for maintaining crackhead control top, and why does this positioning matter?
+**A**: The hips should be loaded directly onto the opponent's lower back and sacrum area, not on the upper back or shoulder blades. This placement creates a fulcrum effect that severely limits the opponent's ability to generate forward movement or recover their base. Sitting too high allows granby rolls and forward escapes, while the lower hip position isolates their movement by placing your weight at their center of rotation.
 
-### High-percentage back attack sequence
+**Q2**: Your opponent starts circling their hips trying to create space - how do you adjust your weight distribution to maintain control?
+**A**: Follow their hip movement by keeping your hips connected to theirs while shifting your upper body weight in the opposite direction to counterbalance. Your inside leg hook should tighten to prevent them from completing the rotation, and you should drive your hips forward momentarily to break their momentum before resettling your weight. The key is maintaining the hip-to-hip connection rather than trying to anchor your upper body.
 
-`Crackhead Control Top → Turtle to Back Take → Back Control → Rear Naked Choke`
+**Q3**: What are the essential grips for maintaining crackhead control, and in what order of priority should you establish them?
+**A**: The inside leg hook is the primary control point, not the upper body grips. First establish the leg hook controlling the space between opponent's legs. Second, secure an overhook or underhook on the near arm to prevent posting. Third, establish a collar tie or cross-face to control head position. The upper body grips are supplementary - they redirect movement rather than providing primary control. If forced to choose, maintain the leg hook over any hand grip.
 
-### Truck to twister path
+**Q4**: How do you shut down the opponent's primary escape - sitting through to guard - from crackhead control?
+**A**: The inside leg hook is the primary prevention mechanism. Keep your foot controlling the space between their legs, which physically blocks them from sitting their hips back toward you. Additionally, maintain forward weight pressure through your hips onto their lower back to prevent them from generating backward momentum. If they begin sitting through, immediately transition to back take by following their rotation while maintaining upper body control.
 
-`Crackhead Control Top → Transition to Truck → Truck → Twister Control → Twister`
+**Q5**: What is the correct pressure application for crackhead control - where should your weight be distributed?
+**A**: Approximately 70% of your weight should be on your hips pressing into their lower back/sacrum, with 30% distributed between your posted leg and upper body. Your upper body should remain mobile while your hips stay heavy. Avoid putting excessive weight forward onto their upper back as this compromises your ability to follow their movement and makes you vulnerable to forward rolls. The glutes should be the primary weight-bearing surface, creating the characteristic 'chair sit' position.
 
-### Crucifix submission chain
+**Q6**: Your opponent creates a brief moment of space by explosively bridging - how do you recover control without losing position?
+**A**: Follow their bridge by staying connected through your hip pressure rather than trying to anchor down. As they bridge, your hips should ride with the movement while your inside leg hook tightens. When they return from the bridge, immediately resettle your weight and look to advance - their energy expenditure from bridging creates an opportunity for back take or truck entry. Never disconnect your hips from their body during the recovery.
 
-`Crackhead Control Top → Crucifix from Turtle → Crucifix → Choke from Crucifix`
+**Q7**: How do you manage energy expenditure from crackhead control top to avoid fatigue while maintaining offensive pressure?
+**A**: Use positional weight rather than muscular tension for control. Your skeletal structure and gravity should do the work, not your grip strength. Keep hands relaxed unless actively redirecting movement, and use your hips as the primary anchor. Threaten transitions constantly to keep opponent reactive - their defensive efforts burn far more energy than your offensive positioning. Maintain the position for 30-90 seconds before committing to advancement rather than fighting for immediate submissions.
 
-### Anaconda finish sequence
-
-`Crackhead Control Top → Anaconda from Turtle → Anaconda Control → Anaconda Choke`
+**Q8**: Your opponent successfully strips your overhook grip - what is your immediate recovery priority and why?
+**A**: First verify your inside leg hook is still secure, as this is your primary control mechanism. If the leg hook is intact, immediately re-establish upper body control by swimming for an underhook on the same side or transitioning to a cross-face. Do not chase the grip if they're pulling the arm away - instead, use their arm extension as an opportunity to threaten crucifix entry or transition to crab ride position. The leg hook matters more than any single arm grip.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -444,13 +388,13 @@ Partner in bottom turtle attempts specific escapes in sequence (sit through, gra
 
 - **[[Turtle]]** - Parent position - crackhead control is a specific variant of turtle top control
 - **[[Back Control]]** - Primary advancement target - most common progression from crackhead
-- **[[Truck]]** - Alternative advancement - accessible when opponent rolls forward
+- **[[Twister Control]]** - Alternative advancement - accessible when opponent rolls forward via truck entry
 - **[[Crab Ride]]** - Similar control mechanics - alternative chair sit control position
 - **[[Crucifix]]** - Submission position - accessible when opponent extends arms
 - **[[Turtle to Back Take]]** - Primary technique - most direct path from position
-- **[[Twister Control]]** - Advanced submission position accessible through truck entry
 - **[[D'arce Control]]** - Submission control - available when opponent turns in
-- **[[10th Planet No-Gi Guard System]]** - Originating system for crackhead control methodology
+- **[[Anaconda Control]]** - Submission control - available from front headlock transitions
+- **[[Turtle to Truck]]** - Key transition for leg attack and twister system entries
 
 
 </section>

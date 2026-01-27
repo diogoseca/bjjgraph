@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Ippon Seoi Nage | BJJ Technique | BJJ Graph"
 description: "Master Ippon Seoi Nage in BJJ. Complete judo-to-BJJ adaptation with gripping, entry mechanics, and ground transitions. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%."
@@ -16,7 +17,7 @@ description: "Master Ippon Seoi Nage in BJJ. Complete judo-to-BJJ adaptation wit
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Ippon Seoi Nage in BJJ",
-  "description": "Step-by-step guide for Ippon Seoi Nage from Standing Position to Side Control.",
+  "description": "Step-by-step guide for Ippon Seoi Nage from Standing Position/Top. Possible outcomes: Side Control/Top (70%), Standing Position/Top (20%), Standing Position/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -158,11 +159,25 @@ In the BJJ context, Ippon Seoi Nage offers several strategic advantages: it gene
 
 The modern application of Ippon Seoi Nage in BJJ emphasizes grip control, timing against forward pressure, and smooth transitions to ground control positions. Successful execution requires coordinating multiple elements: breaking your opponent's balance forward and to the side, achieving deep penetration with your hips below theirs, maintaining continuous pulling action throughout the throw, and controlling the landing to secure top position immediately.
 
-**Starting Position**: [[Standing Position]]
-**Ending Position**: [[Side Control]]
+**From Position**: [[Standing Position/Top]]
 **Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Side Control/Top]] | 70% |
+| Failure | [[Standing Position/Top]] | 20% |
+| Counter | [[Standing Position/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

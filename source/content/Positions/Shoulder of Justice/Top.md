@@ -21,37 +21,37 @@ description: "Master Shoulder of Justice Top in BJJ. Complete offensive guide wi
     {
       "@type": "HowToStep",
       "name": "Execute Kimura from Side Control",
-      "text": "From this position, execute Kimura from Side Control to transition to Kimura Control. Success rate for advanced practitioners: 82%.",
+      "text": "From this position, attempt Kimura from Side Control. This technique is attempted in 12% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Americana from Side Control",
-      "text": "From this position, execute Americana from Side Control to transition to Americana Control. Success rate for advanced practitioners: 77%.",
+      "text": "From this position, attempt Americana from Side Control. This technique is attempted in 11% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Mount",
-      "text": "From this position, execute Transition to Mount to transition to Mount. Success rate for advanced practitioners: 87%.",
+      "name": "Execute Side Control to Mount",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to North-South",
-      "text": "From this position, execute Transition to North-South to transition to North-South. Success rate for advanced practitioners: 90%.",
+      "name": "Execute Side Control to North-South",
+      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to Mount",
-      "text": "From this position, execute Side Control to Mount to transition to Knee on Belly. Success rate for advanced practitioners: 80%.",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 11% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm Triangle",
-      "text": "From this position, execute Arm Triangle to transition to Armbar Control. Success rate for advanced practitioners: 70%.",
+      "text": "From this position, attempt Arm Triangle. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -212,104 +212,24 @@ The Shoulder of Justice Top is characterized by driving your shoulder blade deep
 
 ## Available Attacks
 
-### [[Kimura from Side Control]] → [[Kimura Control]]
+### [[Kimura from Side Control]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 52%
-- Intermediate: 67%
-- Advanced: 82%
+### [[Americana from Side Control]] (11% of attempts)
 
-### [[Americana from Side Control]] → [[Americana Control]]
+### [[Side Control to Mount]] (12% of attempts)
 
-**Success Rates:**
-- Beginner: 47%
-- Intermediate: 62%
-- Advanced: 77%
+### [[Side Control to North-South]] (12% of attempts)
 
-### [[Transition to Mount]] → [[Mount]]
+### [[Side Control to Mount]] (11% of attempts)
 
-**Success Rates:**
-- Beginner: 58%
-- Intermediate: 73%
-- Advanced: 87%
+### [[Arm Triangle]] (10% of attempts)
 
-### [[Transition to North-South]] → [[North-South]]
+### [[North-South Choke]] (9% of attempts)
 
-**Success Rates:**
-- Beginner: 62%
-- Intermediate: 77%
-- Advanced: 90%
+### [[Position Change]] (12% of attempts)
 
-### [[Side Control to Mount]] → [[Knee on Belly]]
+### [[Side Control to North-South]] (11% of attempts)
 
-**Success Rates:**
-- Beginner: 50%
-- Intermediate: 65%
-- Advanced: 80%
-
-### [[Arm Triangle]] → [[Armbar Control]]
-
-**Success Rates:**
-- Beginner: 38%
-- Intermediate: 53%
-- Advanced: 70%
-
-### [[North-South Choke]] → [[North-South]]
-
-**Success Rates:**
-- Beginner: 33%
-- Intermediate: 48%
-- Advanced: 65%
-
-### [[Position Change]] → [[Scarf Hold Position]]
-
-**Success Rates:**
-- Beginner: 55%
-- Intermediate: 70%
-- Advanced: 84%
-
-### [[Transition to North-South]] → [[Kesa Gatame]]
-
-**Success Rates:**
-- Beginner: 48%
-- Intermediate: 63%
-- Advanced: 78%
-
-
-
-</section>
-
-<section id="defensive-responses" class="content-section hide-minimal">
-
-## Opponent Escapes
-
-- **[[Shrimp Escape]]** → [[Half Guard]] (Opponent Success: 22%)
-- **[[Elbow Escape]]** → [[Half Guard]] (Opponent Success: 27%)
-- **[[Bridge and Roll]]** → [[Side Control]] (Opponent Success: 12%)
-- **[[Frame and Shrimp]]** → [[Closed Guard]] (Opponent Success: 25%)
-- **[[Technical Standup]]** → [[Standing Position]] (Opponent Success: 18%)
-- **[[Re-Guard]]** → [[Open Guard]] (Opponent Success: 20%)
-- **[[Hip Escape]]** → [[Open Guard]] (Opponent Success: 23%)
-
-
-</section>
-
-<section id="counter-transitions" class="content-section hide-minimal">
-
-## Escape Counters
-
-- **[[Kimura from Side Control]]** → [[Kimura Control]]
-  - Opponent attempts to create frames or push away with near-side arm to relieve shoulder pressure
-- **[[Transition to Mount]]** → [[Mount]]
-  - Opponent turns into you or attempts to go to turtle position to escape pressure
-- **[[Transition to North-South]]** → [[North-South]]
-  - Opponent attempts to shrimp away and turn toward you to escape shoulder pressure
-- **[[Americana from Side Control]]** → [[Americana Control]]
-  - Opponent brings near arm across body defensively to shield against shoulder pressure
-- **[[Arm Triangle]]** → [[Armbar Control]]
-  - Opponent brings far arm across their body to defend face from relentless shoulder pressure
-- **[[Side Control to Mount]]** → [[Knee on Belly]]
-  - Opponent creates space by shrimping but exposes their far side for knee insertion
 
 
 </section>
@@ -319,17 +239,17 @@ The Shoulder of Justice Top is characterized by driving your shoulder blade deep
 ## Decision Making from This Position
 
 **If opponent attempts to create frames or push away with near-side arm to relieve pressure:**
-- Execute **[[Kimura from Side Control]]** → [[Kimura Control]] (Probability: 72%)
-- Execute **[[Americana from Side Control]]** → [[Americana Control]] (Probability: 67%)
+- Execute **[[Kimura from Side Control]]** → [[Kimura Trap]] (Probability: 72%)
+- Execute **[[Americana from Side Control]]** → [[Armbar Control]] (Probability: 67%)
 
 
 **If opponent shrimps away or attempts to recover guard by creating distance:**
-- Execute **[[Transition to Mount]]** → [[Mount]] (Probability: 77%)
+- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 77%)
 - Execute **[[Side Control to Mount]]** → [[Knee on Belly]] (Probability: 70%)
 
 
 **If opponent turns toward you to escape shoulder pressure or go to turtle:**
-- Execute **[[Transition to North-South]]** → [[North-South]] (Probability: 82%)
+- Execute **[[Side Control to North-South]]** → [[North-South]] (Probability: 82%)
 - Execute **[[Position Change]]** → [[Scarf Hold Position]] (Probability: 74%)
 
 
@@ -339,8 +259,8 @@ The Shoulder of Justice Top is characterized by driving your shoulder blade deep
 
 
 **If opponent flattens out completely and stops resisting to conserve energy:**
-- Execute **[[Transition to Mount]]** → [[Mount]] (Probability: 80%)
-- Execute **[[Kimura from Side Control]]** → [[Kimura Control]] (Probability: 68%)
+- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 80%)
+- Execute **[[Kimura from Side Control]]** → [[Kimura Trap]] (Probability: 68%)
 
 
 
@@ -438,37 +358,39 @@ Partner in bottom position actively moves their head to different defensive posi
 
 </section>
 
-<section id="optimal-submission-paths" class="content-section">
 
-## Optimal Submission Paths
+<section id="knowledge-assessment" class="content-section">
 
-### High-percentage kimura path from pressure reaction
+## Test Your Knowledge
 
-`Shoulder of Justice Top → Kimura from Side Control → Kimura Control → Kimura finish (when opponent frames with near arm)`
+**Q1**: What is the optimal angle for driving shoulder pressure into the opponent's jaw?
+**A**: The optimal angle is approximately 45 degrees toward the opponent's far shoulder, not straight down. This angle creates a pressure vector that travels through their cervical spine, limits head rotation completely, and makes it biomechanically impossible for them to turn their head back toward you. Straight-down pressure allows them to turn away and begin escape sequences.
 
-### Arm triangle from defensive arm position
+**Q2**: Your opponent starts bridging explosively - what adjustment do you make to maintain the position?
+**A**: When opponent bridges, you should base out with your far knee posted even wider for stability, drop your hips heavier onto their near hip line, and wait for the bridge to exhaust itself. Do not fight the bridge directly - instead, ride it out while maintaining your shoulder pressure angle. As they return to the mat, immediately re-consolidate your pressure and look for submission opportunities created by their energy expenditure.
 
-`Shoulder of Justice Top → Arm Triangle setup → Armbar Control → Arm Triangle finish (when opponent defends face with far arm)`
+**Q3**: Why must your hips stay connected to the opponent's near hip line throughout the position?
+**A**: Connected hips serve multiple critical functions: they prevent shrimping movements by blocking the primary escape vector, they transfer your body weight efficiently through your center of mass into the shoulder pressure point, and they create unified body pressure rather than isolated upper body pressure. When hips disconnect or rise, opponent can shrimp underneath and begin guard recovery.
 
-### North-south choke from turning escape attempt
+**Q4**: What are the essential grip priorities when establishing Shoulder of Justice Top?
+**A**: Primary priority is controlling or trapping the opponent's near-side arm to prevent defensive frames. Secondary is maintaining crossface control or head position. Tertiary is controlling the far arm if it becomes active. The near arm is most critical because extending it for relief immediately exposes high-percentage kimura attacks, making it the cornerstone of your submission dilemma system.
 
-`Shoulder of Justice Top → Transition to North-South → North-South → North-South Choke finish (when opponent turns away from pressure)`
+**Q5**: How do you maintain shoulder pressure when opponent repositions their head defensively?
+**A**: Continuously adjust your shoulder blade angle and pressure direction based on their head position. Think of your shoulder as tracking their jaw - wherever they move their head, your shoulder follows and re-establishes the 45-degree angle toward their far shoulder. Use micro-adjustments of chest position and hip angle to maintain constant pressure without major positional changes that could create escape opportunities.
 
-### Americana from isolated near arm
+**Q6**: Your opponent attempts to shrimp away - what is the appropriate counter transition?
+**A**: When opponent shrimps away, immediately transition to mount by stepping your near leg over their body, or advance to knee-on-belly if they create significant space. Their shrimping movement exposes their far side for these transitions. Alternatively, if they shrimp toward you, transition to north-south by spinning around their head while maintaining pressure. The key is capitalizing on their movement rather than simply trying to maintain the original position.
 
-`Shoulder of Justice Top → Americana from Side Control → Americana Control → Americana finish (when near arm is trapped and isolated)`
+**Q7**: What common error causes rapid fatigue when applying shoulder pressure?
+**A**: Using only shoulder and neck muscles to generate pressure without engaging full body weight and core causes rapid fatigue. The correction is to drive pressure through your center of mass - engage core, hips, and legs to transfer your body weight efficiently through the shoulder point of contact. Proper mechanics allow sustained pressure with minimal energy expenditure, while muscular pressing exhausts you quickly.
 
-### Mount advancement to submission series
-
-`Shoulder of Justice Top → Transition to Mount → Mount → Armbar from Mount or Americana from Mount (when opponent shrimps or flattens)`
-
-### Back take from turning defense
-
-`Shoulder of Justice Top → Opponent turns to turtle → Transition to North-South → Back Control → Rear Naked Choke (when opponent turns to escape pressure)`
+**Q8**: How do you recover if opponent partially escapes and establishes a frame?
+**A**: First, re-establish hip connection by dropping your hips back to their hip line. Then systematically collapse their frame using your body weight rather than arm strength - walk your pressure into their frame until it fails. If the frame is elbow-to-knee connected, you may need to switch to north-south or knee-on-belly to attack from a different angle. Never try to maintain Shoulder of Justice against an established structural frame.
 
 
 
 </section>
+
 
 <section id="position-metrics" class="content-section">
 
@@ -493,11 +415,8 @@ Partner in bottom position actively moves their head to different defensive posi
 - **[[Side Control]]** - Parent category - Shoulder of Justice Top is specialized variation of side control
 - **[[Kesa Gatame]]** - Similar position - related cross-face control and shoulder pressure concepts
 - **[[North-South]]** - Common transition target from pressure-induced turning reactions
-- **[[Kimura Control]]** - Primary submission target when opponent frames with near arm
+- **[[Kimura Trap]]** - Primary submission control when opponent frames with near arm
 - **[[Mount]]** - Position advancement target when opponent turns or shrimps away
-- **[[Shoulder Pressure]]** - Core concept - fundamental pressure application principle for this position
-- **[[Cross Face Control]]** - Core concept - essential control mechanism underlying shoulder pressure
-- **[[Pressure Application]]** - Core concept - technical framework defining pressure mechanics
 - **[[Kimura from Side Control]]** - Primary offensive technique - highest percentage submission from this position
 - **[[Americana from Side Control]]** - Secondary submission option when near arm is isolated and trapped
 

@@ -235,6 +235,36 @@
       "question": "How should you adjust your Clock Choke when an opponent attempts a granby roll defense?",
       "answer": "When opponent granby rolls toward your choking arm, you should maintain your collar grip and continue your circular walking motion, essentially following their roll. Often the roll actually assists in completing your rotation and can tighten the choke. Keep your chest connected to the back of their head and stay heavy throughout the motion. You may need to post with your free hand momentarily to maintain base, but your primary focus is maintaining the collar grip and body connection. Many practitioners make the mistake of releasing pressure during the roll, but the rotation actually works in your favor if you stay connected.",
       "safety_critical": false
+    },
+    {
+      "question": "What physical indicators tell you the Clock Choke is properly locked and the opponent has reached the point of no escape?",
+      "answer": "The choke is properly locked when you feel the collar material tight across the carotid artery with no slack, your forearm blade is firmly pressed into the side of their neck, and your chest is driving their head forward into the choke. The point of no escape occurs when you've walked past perpendicular to their body and their own shoulder has become trapped against their neck on the opposite side. At this point, any movement they make - rolling, turning, or posturing - actually increases the choking pressure rather than relieving it. You'll often feel their body become less resistant as blood flow restriction begins.",
+      "safety_critical": false
+    },
+    {
+      "question": "Your opponent begins posturing up and creating space while you're attempting the Clock Choke - what adjustment secures the finish?",
+      "answer": "When opponent postures up, immediately drive your chest weight down harder onto their upper back and the back of their head to re-flatten them. Simultaneously, pull your collar grip tighter while continuing your circular walking motion. If they create significant space, you may need to momentarily abandon the walking motion to re-establish heavy chest pressure, then resume once they're flattened. The key is never allowing space between your chest and their back - that space is what enables their postural defense. Consider also controlling their far hip more aggressively to prevent them from pushing off the mat.",
+      "safety_critical": false
+    },
+    {
+      "question": "What grip adjustment should you make during the finish when your initial collar grip starts slipping?",
+      "answer": "If your collar grip begins slipping during the finish, immediately use your free hand to reinforce the grip by grabbing your own wrist (gable grip style) or by gripping the gi material near your choking hand. Do not release and re-grip with your choking hand - this creates a window for escape. Alternatively, you can adjust by pulling your elbow tighter to your body and driving your forearm deeper across the neck. In competition, you can also transition to a two-on-one grip configuration, sacrificing far-side control for maximum choking pressure. The key is maintaining constant pressure throughout any grip adjustment.",
+      "safety_critical": false
+    },
+    {
+      "question": "How do you recognize when the Clock Choke is a blood choke versus an air choke, and why does this distinction matter for finishing?",
+      "answer": "A properly executed Clock Choke is a blood choke targeting the carotid arteries, not an air choke targeting the trachea. You know it's a blood choke when your forearm blade is positioned on the side of the neck rather than across the front, and when opponent's face begins changing color (reddening) rather than them gasping for air. This distinction matters because blood chokes work much faster (3-8 seconds to unconsciousness) but are also safer as they don't damage the trachea. If you feel the choke is positioned across the front of the throat, adjust by rotating your grip and body angle to target the side of the neck instead.",
+      "safety_critical": true
+    },
+    {
+      "question": "In competition, what finishing strategies maximize your Clock Choke success rate when the opponent is defending strongly?",
+      "answer": "In competition, chain the Clock Choke with other attacks to create dilemmas. If opponent defends the choke by turning toward you, transition to taking their back with hooks. If they defend by posting the far arm, threaten the arm with a kimura or transition to crucifix. The walking motion itself can be used to tire the opponent - continue walking in circles while maintaining pressure, forcing them to expend energy defending. Also consider the rolling Clock Choke variation when they're bracing hard against the traditional setup. Finally, use the edge of the mat strategically - opponents near the boundary cannot roll away, making the choke significantly higher percentage.",
+      "safety_critical": false
+    },
+    {
+      "question": "What are the breaking point indicators that signal the Clock Choke is about to produce a tap or unconsciousness?",
+      "answer": "Key breaking point indicators include: opponent's defensive hand fighting becomes weaker and less coordinated, their body begins to relax or go limp, visible color change in their face (reddening or darkening), their breathing becomes labored or stops momentarily, and their resistance to your rotation decreases noticeably. You may also feel small involuntary twitches or their body settling into the mat. When you notice these signs, maintain steady pressure - do not increase explosively. In training, these are critical signals to be prepared for an immediate tap or to release if training partner becomes unresponsive. Always err on the side of safety.",
+      "safety_critical": true
     }
   ],
   "training_progressions_and_safety_protocols": [
@@ -297,12 +327,9 @@
     "Darce Choke",
     "Anaconda Choke",
     "Arm Triangle",
-    "Paper Cutter Choke",
     "Breadcutter Choke",
     "North-South Choke",
     "Armbar from Back",
-    "Kimura from Turtle",
-    "Short Choke",
     "Loop Choke"
   ],
   "related_content": [
@@ -331,28 +358,28 @@
       "relationship": "Complementary gi choke from similar positions; can chain between techniques"
     },
     {
-      "name": "Turtle to Back Take",
-      "relationship": "Primary transition that opponent defends, creating Clock Choke opportunities"
-    },
-    {
-      "name": "Crucifix from Turtle",
+      "name": "Crucifix",
       "relationship": "Alternative control position from turtle; can transition to Clock Choke when crucifix is defended"
     },
     {
-      "name": "Back Escape Series",
-      "relationship": "Defensive framework opponent uses; understanding escapes helps you prevent them during Clock Choke"
+      "name": "North-South",
+      "relationship": "Alternative position from which Clock Choke variation can be applied"
     },
     {
-      "name": "Chin Protection",
-      "relationship": "Primary defensive principle opponent employs; must overcome to establish collar grip"
+      "name": "Darce Choke",
+      "relationship": "Alternative front headlock choke that chains with Clock Choke attacks from turtle"
     },
     {
-      "name": "Back Attack System",
-      "relationship": "Overall systematic approach that includes Clock Choke as alternative finishing option"
+      "name": "Anaconda Choke",
+      "relationship": "Related head and arm choke available from similar turtle attacking positions"
     },
     {
-      "name": "Hand Fighting from Back",
-      "relationship": "Grip fighting concepts necessary to establish deep collar control for Clock Choke"
+      "name": "Kesa Gatame",
+      "relationship": "Side control variation that can transition to Clock Choke opportunities"
+    },
+    {
+      "name": "Gift Wrap",
+      "relationship": "Arm control position that creates collar access for Clock Choke setup"
     }
   ]
 }

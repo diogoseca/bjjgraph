@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "X-Guard to Ashi Transition | BJJ Technique | BJJ Graph"
 description: "Master the X-Guard to Ashi Garami transition in BJJ. Strategic leg entanglement entry with systematic control breakdown. Beginner 35%, Intermediate 50%, Advanced 65%."
@@ -16,7 +17,7 @@ description: "Master the X-Guard to Ashi Garami transition in BJJ. Strategic leg
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute X-Guard to Ashi Transition in BJJ",
-  "description": "Step-by-step guide for X-Guard to Ashi Transition from X-Guard to Inside Ashi-Garami.",
+  "description": "Step-by-step guide for X-Guard to Ashi Transition from X-Guard/Bottom. Possible outcomes: Inside Ashi-Garami/Top (65%), X-Guard/Bottom (25%), X-Guard/Top (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -166,11 +167,25 @@ description: "Master the X-Guard to Ashi Garami transition in BJJ. Strategic leg
 
 The X-Guard to Ashi Garami transition represents a fundamental connection between traditional sweeping systems and modern leg entanglement attacks. This transition exploits the inherent vulnerability of the standing opponent's near leg while maintaining the control framework established in X-Guard. The technique creates a seamless progression from a sweep-oriented position into a submission-focused leg entanglement, forcing opponents into a defensive dilemma where defending the sweep opens the leg lock, and defending the leg opens the sweep. This dual-threat system exemplifies modern no-gi grappling's evolution toward integrated positional systems. The transition requires precise timing, as the window of opportunity opens when the opponent attempts to disengage from X-Guard by pulling their trapped leg backward. Success depends on maintaining hip connection throughout the transition while simultaneously transitioning grip configurations from sweep-oriented controls to leg entanglement frames. Mastery of this transition fundamentally changes the threat landscape from X-Guard, transforming it from a purely sweeping position into a submission entry system.
 
-**Starting Position**: [[X-Guard]]
-**Ending Position**: [[Inside Ashi-Garami]]
+**From Position**: [[X-Guard/Bottom]]
 **Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Inside Ashi-Garami/Top]] | 65% |
+| Failure | [[X-Guard/Bottom]] | 25% |
+| Counter | [[X-Guard/Top]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "Lockdown Sweeps | BJJ Technique | BJJ Graph"
 description: "Master Lockdown Sweeps from half guard. Learn Electric Chair, Old School, and Whipover variations. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%."
@@ -16,7 +17,7 @@ description: "Master Lockdown Sweeps from half guard. Learn Electric Chair, Old 
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Lockdown Sweeps in BJJ",
-  "description": "Step-by-step guide for Lockdown Sweeps from Lockdown to Side Control.",
+  "description": "Step-by-step guide for Lockdown Sweeps from Lockdown/Top. Possible outcomes: Side Control/Top (65%), Lockdown/Top (25%), Lockdown/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -156,11 +157,25 @@ These sweeps exploit the fundamental biomechanical principle that an opponent wi
 
 The lockdown system excels in no-gi competition and MMA applications where traditional gi-based controls are unavailable. By removing the opponent's ability to pass while simultaneously creating offensive opportunities, the lockdown represents a paradigm shift from defensive half guard retention to aggressive attacking sequences. Understanding when to tighten the lockdown for sweeps versus when to release for transitions is critical to maximizing the effectiveness of this system.
 
-**Starting Position**: [[Lockdown]]
-**Ending Position**: [[Side Control]]
+**From Position**: [[Lockdown/Top]]
 **Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
 
 </section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Side Control/Top]] | 65% |
+| Failure | [[Lockdown/Top]] | 25% |
+| Counter | [[Lockdown/Bottom]] | 10% |
+
+
+</section>
+
+
 
 <section id="key-principles" class="content-section">
 

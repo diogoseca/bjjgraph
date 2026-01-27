@@ -8,7 +8,7 @@
     "spinal-lock",
     "truck-position",
     "10th-planet",
-    "eddie-10th Planet",
+    "no-gi",
     "advanced-technique"
   ],
   "submission_category": "Compression",
@@ -20,7 +20,7 @@
     "intermediate": 35,
     "advanced": 55
   },
-  "overview": "The Twister is an advanced spinal compression submission that targets the opponent's spine and shoulder through opposed rotational forces. Popularized by 10th Planet's and the 10th Planet system, the Twister represents one of the most sophisticated control-to-submission sequences in no-gi grappling. The submission works by creating a figure-four configuration with your legs to isolate the opponent's lower body while your arms control the upper body, creating a corkscrew effect on the spine. The finish involves pulling the opponent's head and shoulder in one direction while their hips are locked in the opposite direction, creating immense pressure on the thoracic spine. This technique requires exceptional positional control from the Truck position and precise understanding of spinal mechanics. The Twister is primarily a no-gi submission due to its reliance on body control rather than gi grips, though variations exist for gi training. Safety is paramount - this submission can cause serious spinal injury if applied carelessly. The technique's effectiveness lies in its multi-layered control system: leg entanglement prevents hip escape, body positioning eliminates space, and arm control secures the finish. Understanding the progression from back control through the Truck to the Twister finish is essential for safe and effective application.",
+  "overview": "The Twister is an advanced spinal compression submission that targets the opponent's spine and shoulder through opposed rotational forces. Popularized through the 10th Planet system, the Twister represents one of the most sophisticated control-to-submission sequences in no-gi grappling. The submission works by creating a figure-four configuration with your legs to isolate the opponent's lower body while your arms control the upper body, creating a corkscrew effect on the spine. The finish involves pulling the opponent's head and shoulder in one direction while their hips are locked in the opposite direction, creating immense pressure on the thoracic spine. This technique requires exceptional positional control from the Truck position and precise understanding of spinal mechanics. The Twister is primarily a no-gi submission due to its reliance on body control rather than gi grips, though variations exist for gi training. Safety is paramount - this submission can cause serious spinal injury if applied carelessly. The technique's effectiveness lies in its multi-layered control system: leg entanglement prevents hip escape, body positioning eliminates space, and arm control secures the finish. Understanding the progression from back control through the Truck to the Twister finish is essential for safe and effective application.",
   "safety_considerations": {
     "injury_risks": [
       {
@@ -208,7 +208,7 @@
     },
     {
       "variation_name": "Twister from Lockdown Half Guard",
-      "description": "The classic 10th Planet entry starting from lockdown half guard. Use the Old School sweep setup to create back exposure, then roll through to establish the Truck position. This is 10th Planet's signature Twister entry and represents the systematic approach to the submission.",
+      "description": "The classic 10th Planet entry starting from lockdown half guard. Use the Old School sweep setup to create back exposure, then roll through to establish the Truck position. This is the signature Twister entry and represents the systematic approach to the submission.",
       "when_to_use": "From bottom half guard when you have the lockdown secured. Particularly effective against opponents who try to smash through your half guard with forward pressure."
     },
     {
@@ -246,6 +246,36 @@
     {
       "question": "What factors determine whether a training partner is experienced enough to safely receive the Twister submission?",
       "answer": "A training partner should have significant grappling experience (typically purple belt or higher), thorough understanding of the Truck position and Twister mechanics, clear communication established about tap signals, history of training complex submissions safely, awareness of their own spinal flexibility limits, and absolute trust in your control and application speed. They should be able to recognize early pressure and tap preventatively rather than testing their limits. Beginners or less experienced grapplers may not understand the danger until serious injury has occurred, making them inappropriate partners for this submission. Prior discussion and demonstration of the technique is essential before first application with any new partner.",
+      "safety_critical": true
+    },
+    {
+      "question": "Your opponent begins straightening their trapped leg while you have established the Truck - what adjustment maintains finishing position?",
+      "answer": "When the opponent attempts to straighten their trapped leg, immediately tighten your figure-four by driving your top leg deeper across their body and pulling your bottom leg tighter underneath. Simultaneously increase your chest pressure into their back to prevent them from creating space. If they continue creating extension, you have two options: transition to a calf slicer attack on the now-extended leg, or use the straightening motion as an opportunity to deepen your leg entanglement by re-crossing at a higher position on their thigh. Never allow the leg to fully extend without either attacking it or re-securing control.",
+      "safety_critical": false
+    },
+    {
+      "question": "What anatomical structures are specifically at risk during the Twister finish, and what symptoms indicate potential injury?",
+      "answer": "The primary structures at risk are the cervical and thoracic vertebrae, intervertebral discs, facet joints, and the surrounding spinal ligaments. Secondary risks include the shoulder joint and rotator cuff on the controlled arm side. Warning symptoms indicating potential injury include: sharp shooting pain down the spine or into the arms/legs, any numbness or tingling in extremities, sudden loss of grip strength, difficulty breathing beyond normal exertion, and any sensation of instability in the spine. If any of these symptoms occur, stop training immediately, do not attempt to continue, and seek medical evaluation. These symptoms can indicate disc herniation, nerve impingement, or vertebral damage.",
+      "safety_critical": true
+    },
+    {
+      "question": "During the finish, your opponent's body suddenly goes rigid and they stop resisting - what does this indicate and how should you respond?",
+      "answer": "Sudden rigidity and cessation of resistance typically indicates one of three things: the submission is locked and the opponent is about to tap, the opponent is experiencing a panic response and may be unable to tap verbally, or the opponent has exceeded their flexibility limits and is in pain. Regardless of the cause, you should immediately pause any increase in pressure and verbally confirm if they want to tap. If there is no verbal response within 1-2 seconds, release the submission immediately using proper protocol (upper body first, then legs). The rigidity could indicate the opponent is in too much distress to communicate effectively. Never interpret a frozen opponent as an invitation to increase pressure.",
+      "safety_critical": true
+    },
+    {
+      "question": "What grip adjustments maximize finishing pressure while maintaining control over an actively defending opponent?",
+      "answer": "For the head control arm, transition from cupping the chin to a deeper position where your forearm runs along the side of their neck and your hand connects to your opposite shoulder or bicep, creating a figure-four on their head. For the arm controlling their far shoulder, secure their wrist and pull it high across their chest while your elbow drives into their shoulder blade. The key adjustment is synchronizing these controls - as you pull their far shoulder across, simultaneously pull your head control arm toward their trapped shoulder, creating converging forces. Your chest must maintain constant pressure on their mid-back throughout. Small hip adjustments forward will increase the rotation angle without requiring more arm strength.",
+      "safety_critical": false
+    },
+    {
+      "question": "What is the point of no escape for the defender in the Twister, and what defensive window exists before that point?",
+      "answer": "The point of no escape occurs when the attacker has simultaneously established: secure figure-four leg control with boot pressure on the hip, head control with the arm locked in position, and the far shoulder pulled across the body with the twist initiated. Before all three are established, the defender has meaningful escape options. The primary defensive window is before the head control arm locks in - at this stage, the defender can still turn into the attacker, extract their leg, or hand fight to prevent the final control. Once the head is controlled and the twist begins, defensive options become extremely limited. The defender's best strategy is recognizing the danger early and defending aggressively before the position consolidates, or tapping immediately once the twist is locked.",
+      "safety_critical": false
+    },
+    {
+      "question": "How do you distinguish between a competition-legal neck crank and a properly applied Twister in training?",
+      "answer": "A properly applied Twister creates rotational compression through the entire spinal column by opposing the locked hips against the rotating shoulders - the pressure is distributed across the thoracic spine. A neck crank isolates pressure on the cervical vertebrae alone by cranking the head without proper hip control or by focusing force on the neck rather than the shoulder. In training, you can verify proper mechanics by ensuring: your leg control is the anchor (not just arm strength), the opponent's far shoulder is being pulled dramatically across their body (not just their head being twisted), and the pressure feels distributed through their torso (they should feel it in their ribs and thoracic spine, not just their neck). If the opponent only reports neck pain without torso compression, you are applying a crank rather than a Twister.",
       "safety_critical": true
     }
   ],
@@ -306,39 +336,34 @@
   "related_submissions": [
     "Calf Slicer from Truck",
     "Banana Split",
-    "Spine Lock",
     "Rear Naked Choke",
     "Bow and Arrow Choke",
-    "Straight Ankle Lock",
     "Electric Chair Submission",
     "Darce Choke",
     "Anaconda Choke",
-    "Guillotine Choke"
+    "Guillotine Choke",
+    "Neck Crank"
   ],
   "related_content": [
     {
-      "name": "Truck Entry",
-      "relationship": "Primary entry transition to establish position for Twister"
+      "name": "Truck",
+      "relationship": "Primary entry position - Twister is finished from established Truck control"
     },
     {
-      "name": "Twister System",
-      "relationship": "Comprehensive system containing this submission as primary finish"
+      "name": "Twister Control",
+      "relationship": "Comprehensive control system containing this submission as primary finish"
     },
     {
       "name": "Lockdown",
-      "relationship": "Common starting position for systematic Twister entries"
+      "relationship": "Common starting position for systematic Twister entries from half guard"
     },
     {
       "name": "Old School",
       "relationship": "Sweep that creates back exposure for Truck entry"
     },
     {
-      "name": "Flexibility Training",
-      "relationship": "Essential physical attribute for safely practicing this submission"
-    },
-    {
-      "name": "Turtle to Back Take",
-      "relationship": "Alternative entry when opponent turtles from Truck attempt"
+      "name": "Crab Ride",
+      "relationship": "Alternative entry position for establishing Truck control"
     },
     {
       "name": "Deep Half Guard",
@@ -347,6 +372,10 @@
     {
       "name": "Gift Wrap",
       "relationship": "Upper body control that can transition to Truck setup"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Traditional back position that can transition to Truck for Twister"
     }
   ]
 }
