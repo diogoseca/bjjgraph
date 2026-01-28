@@ -1,0 +1,307 @@
+================================================================================
+PEOPLE ALSO ASK (PAA) ANALYSIS SUMMARY
+BJJGraph AI Search Optimization Report
+Generated: 2026-01-28
+================================================================================
+
+ARTICLES ANALYZED:
+1. source/content/Positions/Crab Ride.json
+2. source/content/Positions/Dogfight Position.json
+
+================================================================================
+EXECUTIVE SUMMARY
+================================================================================
+
+Total PAA Questions Identified: 22 (10 for Crab Ride, 12 for Dogfight)
+High Priority Questions: 16 (73%)
+Medium Priority Questions: 5 (23%)
+Low Priority Questions: 1 (4%)
+
+Overall Assessment:
+Both articles have excellent technical content but lack optimization for
+conversational search queries and AI answer engines. Primary opportunities
+exist in heading optimization, FAQ section creation, and strategic comparison
+content.
+
+================================================================================
+HIGH-PRIORITY PAA QUESTIONS (DIRECT ANSWERS NEEDED)
+================================================================================
+
+CRAB RIDE (8 HIGH-PRIORITY):
+✓ "What is crab ride in BJJ?" - CONTENT EXISTS, needs heading optimization
+✓ "How do you get to crab ride position?" - PARTIAL, needs dedicated entry section
+✓ "What are the best submissions from crab ride?" - CONTENT EXISTS, needs FAQ
+✓ "How do you escape crab ride from bottom?" - CONTENT EXISTS, heading optimization
+✓ "What is the difference between crab ride top and bottom?" - WELL-COVERED
+✓ "How to defend crab ride back take?" - CONTENT EXISTS, needs FAQ prominence
+✗ "Is crab ride legal in IBJJF?" - MISSING CONTENT
+✗ "Crab ride vs truck position difference" - MISSING COMPARISON
+
+DOGFIGHT POSITION (10 HIGH-PRIORITY):
+✓ "What is the dogfight position in BJJ?" - CONTENT EXISTS, heading optimization
+✓ "How do you sweep from dogfight position?" - CONTENT EXISTS, needs FAQ
+✓ "How to win the underhook battle in dogfight?" - PARTIAL, needs dedicated section
+✓ "What is the difference between dogfight and regular half guard?" - PARTIAL
+✓ "How do you get to dogfight from half guard?" - PARTIAL, needs step-by-step
+✓ "What are the best back takes from dogfight?" - CONTENT EXISTS, needs FAQ
+✗ "How to defend dogfight position from top?" - UNDERSERVED top player perspective
+✓ "What is the Old School sweep from dogfight?" - MENTIONED, needs deep-dive
+✗ "How to pass dogfight position?" - LIMITED strategic passing guidance
+
+================================================================================
+CONTENT GAP ANALYSIS
+================================================================================
+
+CRITICAL GAPS (Create New Content):
+
+1. Competition Strategy & Rules
+   - IBJJF legality and restrictions for both positions
+   - Point implications and scoring considerations
+   - Time management strategies in competition
+
+2. Comparison Content
+   - Crab Ride vs Truck Position vs Cross Body Ride
+   - Dogfight vs Flat Half Guard vs Deep Half Guard
+   - When to choose each variation tactically
+
+3. Entry Mechanics Deep-Dives
+   - Step-by-step crab ride entries from turtle
+   - Progressive dogfight entries from flat half guard
+   - Common entry mistakes and corrections
+
+4. Top Player Perspective
+   - Systematic passing strategies for dogfight
+   - Defending crab ride attacks from turtle top
+   - Counter-offensive tactics
+
+5. System-Specific Variations
+   - 10th Planet lockdown system (Electric Chair/93 Guard)
+   - Danaher back attack system integration
+   - Gi vs No-Gi application differences
+
+6. Belt-Specific Progression
+   - What beginners should focus on first
+   - Intermediate development milestones
+   - Advanced refinements and competition tactics
+
+================================================================================
+HEADING OPTIMIZATION RECOMMENDATIONS
+================================================================================
+
+CRAB RIDE - Priority Changes:
+• "Overview" → "What is Crab Ride in BJJ?"
+• "Key Principles" → "How to Control Crab Ride Position (Key Principles)"
+• "Common Errors" → "What Are Common Mistakes in Crab Ride?"
+• "Training Drills" → "Best Crab Ride Drills and Training Methods"
+
+DOGFIGHT - Priority Changes:
+• "Overview" → "What is the Dogfight Position in BJJ Half Guard?"
+• "Key Principles" → "How to Control Dogfight Position (Essential Principles)"
+• "Offensive Transitions" → "Best Sweeps and Attacks from Dogfight Position"
+• "Common Errors" → "What Are Common Dogfight Mistakes and How to Fix Them?"
+• "Training Drills" → "Top Dogfight Position Drills for Competition"
+• "Expert Insights" → "What Do BJJ Experts Say About Dogfight? (Danaher, Gordon Ryan, Bravo)"
+
+Rationale: Question-format headings match conversational search patterns and
+improve featured snippet eligibility in AI answer engines.
+
+================================================================================
+INTEGRATION STRATEGIES
+================================================================================
+
+IMMEDIATE ACTIONS (Current Articles):
+
+1. Add FAQ Sections (High Impact, Low Effort)
+   - Crab Ride: 5-7 frequently asked questions with concise answers
+   - Dogfight: 8-10 frequently asked questions covering sweep/pass/defend
+   - Place FAQ section near top of article for AI parsing
+
+2. Optimize Existing Headings (High Impact, Low Effort)
+   - Convert declarative headings to question format where appropriate
+   - Add keywords like "best," "how to," "what is" in headings
+   - Maintain current structure but enhance discoverability
+
+3. Front-Load Definitions (High Impact, Low Effort)
+   - First paragraph should directly answer "What is X?" query
+   - Include success rate statistics in opening
+   - Use bold emphasis for key terms and canonical names
+
+4. Add Comparison Subsections (Medium Effort)
+   - Within related_positions, expand comparisons
+   - Create "When to Use This vs That" decision frameworks
+   - Include visual differentiation where possible
+
+MEDIUM-TERM ACTIONS (New Content):
+
+5. Create Dedicated Entry Guides (See suggested_new_files.csv)
+   - "How to Enter Crab Ride" standalone article
+   - "How to Enter Dogfight from Half Guard" standalone article
+   - Cross-link from main position articles
+
+6. Create Comparison Articles (See suggested_new_files.csv)
+   - "Crab Ride vs Truck Position"
+   - "Dogfight vs Flat Half Guard"
+   - "Gi vs No-Gi Applications for Half Guard Positions"
+
+7. Create Top Player Guides (See suggested_new_files.csv)
+   - "Passing Dogfight Position: Complete Guide"
+   - "Defending Crab Ride Attacks from Turtle Top"
+
+8. Create Belt-Specific Content
+   - "Half Guard Progression: Beginner to Advanced"
+   - Position-specific learning roadmaps
+
+================================================================================
+AI SEARCH OPTIMIZATION CHECKLIST
+================================================================================
+
+FOR EACH ARTICLE, IMPLEMENT:
+
+☐ Question-format primary heading (H1)
+☐ FAQ section with 5-10 high-intent questions
+☐ Front-loaded definition in first 100 words
+☐ Bold emphasis on canonical entity names
+☐ Structured data / schema markup (if applicable)
+☐ Internal linking to comparison content
+☐ Success rate statistics in introduction
+☐ "When to use" tactical guidance section
+☐ Competition context (IBJJF/ADCC rules)
+☐ Belt-specific progression notes
+
+================================================================================
+SUGGESTED NEW ARTICLES (Priority Order)
+================================================================================
+
+See: tests/artifacts/suggested_new_files.csv
+
+Top 5 Priority:
+1. How to Enter Dogfight from Half Guard (HIGH search volume expected)
+2. Underhook Battle Strategy (HIGH search volume, applies across positions)
+3. Old School Sweep: Complete Guide (HIGH search volume, signature technique)
+4. Passing Dogfight Position (HIGH search volume, top player need)
+5. Dogfight vs Half Guard Comparison (HIGH search volume, beginner query)
+
+Next 5 Priority:
+6. How to Enter Crab Ride (MEDIUM search volume)
+7. Crab Ride vs Truck Position (MEDIUM search volume, technical audience)
+8. Competition Strategy: Crab Ride (MEDIUM search volume)
+9. Gi vs No-Gi Half Guard Positions (MEDIUM search volume, broad application)
+10. Belt-Specific Half Guard Strategies (MEDIUM search volume, educational)
+
+================================================================================
+COMPETITIVE ANALYSIS INSIGHTS
+================================================================================
+
+Current Competitive Landscape:
+- Most BJJ instructional content lacks AI search optimization
+- Question-format content is underutilized in BJJ space
+- Comparison articles ("X vs Y") are rare but high-value
+- Entry mechanics guides exist but lack depth and structure
+- Competition strategy content is fragmented
+
+BJJGraph Opportunity:
+By implementing question-format headings, comprehensive FAQ sections, and
+strategic comparison content, BJJGraph can dominate AI answer engines
+(ChatGPT, Perplexity, Claude) for BJJ position queries.
+
+Key Differentiators to Emphasize:
+✓ Success rate statistics (data-driven)
+✓ Expert insights from Danaher, Gordon Ryan, Eddie Bravo (authority)
+✓ Position state machines and decision trees (systematic)
+✓ Belt-specific progression guidance (personalized)
+✓ Competition context integration (practical)
+
+================================================================================
+IMPLEMENTATION PRIORITY MATRIX
+================================================================================
+
+QUICK WINS (Do First - High Impact, Low Effort):
+1. Add FAQ sections to both articles (2-3 hours)
+2. Optimize headings to question format (1 hour)
+3. Front-load definitions in first paragraph (1 hour)
+4. Add bold emphasis to entity names (30 minutes)
+
+MEDIUM EFFORT (Do Second - High Impact, Medium Effort):
+5. Create "How to Enter" sections in current articles (3-4 hours)
+6. Expand comparison content in related_positions (2-3 hours)
+7. Add "When to Use" tactical guidance sections (2-3 hours)
+
+LONGER-TERM (Do Third - High Impact, High Effort):
+8. Create 10 new standalone guide articles (see CSV) (20-30 hours)
+9. Develop belt-specific learning roadmaps (5-7 hours)
+10. Build comprehensive comparison matrix across all positions (8-10 hours)
+
+================================================================================
+SUCCESS METRICS TO TRACK
+================================================================================
+
+After Implementation, Monitor:
+
+1. AI Answer Engine Citations
+   - Track BJJGraph mentions in ChatGPT/Claude/Perplexity responses
+   - Monitor featured snippet capture rate in Google
+
+2. Search Query Performance
+   - "What is [position]" query rankings
+   - "How to [technique]" query rankings
+   - "[Position A] vs [Position B]" query rankings
+
+3. User Engagement Metrics (PostHog)
+   - Time on page for optimized articles
+   - Scroll depth and FAQ interaction rates
+   - Internal link click-through rates
+
+4. Conversion Metrics
+   - New article creation from suggested list
+   - Cross-linking implementation rate
+   - Schema markup coverage
+
+================================================================================
+NEXT STEPS
+================================================================================
+
+1. IMMEDIATE (This Week):
+   ✓ Review this PAA analysis report
+   ✓ Prioritize quick wins (FAQ sections, heading optimization)
+   ✓ Implement changes to Crab Ride and Dogfight articles
+   ✓ Monitor initial impact on search performance
+
+2. SHORT-TERM (Next 2 Weeks):
+   ✓ Create top 3 priority new articles from suggested list
+   ✓ Implement comparison content sections
+   ✓ Add "How to Enter" dedicated sections
+   ✓ Expand top player perspective content
+
+3. MEDIUM-TERM (Next Month):
+   ✓ Complete all 10 suggested new articles
+   ✓ Develop belt-specific progression framework
+   ✓ Create comprehensive position comparison matrix
+   ✓ Implement schema markup for FAQ sections
+
+4. ONGOING:
+   ✓ Monitor AI answer engine performance
+   ✓ Track search query rankings for optimized terms
+   ✓ Iterate based on user engagement metrics
+   ✓ Apply learnings to additional position articles
+
+================================================================================
+CONTACT & RESOURCES
+================================================================================
+
+Analysis Generated By: Claude (Anthropic)
+Project: BJJGraph AI Search Optimization
+Date: 2026-01-28
+
+Related Files:
+- tests/artifacts/crab_ride_paa.json (Detailed PAA data)
+- tests/artifacts/dogfight_position_paa.json (Detailed PAA data)
+- tests/artifacts/suggested_new_files.csv (New article proposals)
+
+For Questions:
+- Review CLAUDE.md for AI workflow guidance
+- Review docs/SEO.md for schema markup and analytics
+- Review docs/Content.md for content standards
+
+================================================================================
+END OF REPORT
+================================================================================
