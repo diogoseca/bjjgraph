@@ -1,0 +1,118 @@
+{
+  "article_path": "source/content/Positions/Crab Ride.json",
+  "seed_keyword": "Crab Ride",
+  "paa_questions": [
+    {
+      "question": "What is crab ride in BJJ?",
+      "answer_snippet": "Crab Ride is a highly effective transitional position from turtle where the top practitioner establishes a dominant perpendicular control position alongside the opponent's torso",
+      "source_url": "https://bjjgraph.org",
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "rationale": "Primary definitional query - should be front-loaded in overview with clear, conversational answer"
+    },
+    {
+      "question": "How do you get to crab ride position?",
+      "answer_snippet": "Establish crab ride from turtle by positioning perpendicular to opponent's spine, inserting bottom hook under hip, establishing far-side upper body control",
+      "source_url": "https://bjjgraph.org",
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "rationale": "Entry mechanics are mentioned but could be expanded with dedicated 'How to Enter' section"
+    },
+    {
+      "question": "What are the best submissions from crab ride?",
+      "answer_snippet": "Primary attacks from crab ride include back control leading to rear naked choke, darce choke, anaconda choke, and crucifix transitions",
+      "source_url": "https://bjjgraph.org",
+      "priority": "high",
+      "integration_strategy": "dedicated_faq",
+      "rationale": "User intent is submission-focused - already covered in offensive transitions but could use FAQ callout"
+    },
+    {
+      "question": "How do you escape crab ride from bottom?",
+      "answer_snippet": "Escape crab ride by stripping the inserted hook, explosive hip movement, granby roll to guard, or standing up in base",
+      "source_url": "https://bjjgraph.org",
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "rationale": "Defensive perspective well-covered in bottom section - ensure heading uses question format"
+    },
+    {
+      "question": "Is crab ride legal in IBJJF?",
+      "answer_snippet": "Crab ride position itself is legal in IBJJF competition as a turtle attack position, but specific submissions may have belt restrictions",
+      "source_url": "https://bjjgraph.org",
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "rationale": "Competition legality queries are common - missing from current content"
+    },
+    {
+      "question": "Crab ride vs truck position difference",
+      "answer_snippet": "Crab ride focuses on perpendicular control with hooks for back takes, while truck position involves more extensive leg entanglement for twister-system attacks",
+      "source_url": "https://bjjgraph.org",
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "rationale": "Comparison query - related_positions mentions truck but no detailed comparison"
+    },
+    {
+      "question": "Who invented crab ride in BJJ?",
+      "answer_snippet": "Crab ride is taught as part of modern turtle attack systems by instructors like John Danaher and Garry Tonon, popularized in no-gi grappling",
+      "source_url": "https://bjjgraph.org",
+      "priority": "low",
+      "integration_strategy": "add_section",
+      "rationale": "Historical context missing - minor priority but adds depth"
+    },
+    {
+      "question": "What is the difference between crab ride top and bottom?",
+      "answer_snippet": "Crab ride top is an offensive attacking position with 70%+ advancement rate, while crab ride bottom is defensive requiring immediate escape action",
+      "source_url": "https://bjjgraph.org",
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "rationale": "Dual-perspective explanation - already well-structured but heading optimization needed"
+    },
+    {
+      "question": "How to defend crab ride back take?",
+      "answer_snippet": "Defend by keeping chin tucked, preventing second hook insertion, maintaining four-point base, and timing explosive movements during grip changes",
+      "source_url": "https://bjjgraph.org",
+      "priority": "high",
+      "integration_strategy": "dedicated_faq",
+      "rationale": "Specific defensive technique query - content exists but needs prominent FAQ placement"
+    },
+    {
+      "question": "Best crab ride drills for beginners",
+      "answer_snippet": "Hook strip repetitions, turtle to guard transitions under pressure, positional sparring from crab ride, defensive movement flow drills",
+      "source_url": "https://bjjgraph.org",
+      "priority": "medium",
+      "integration_strategy": "improve_heading",
+      "rationale": "Training methodology query - training_drills section exists, optimize heading for search"
+    }
+  ],
+  "heading_optimizations": [
+    {
+      "current": "Overview",
+      "suggested": "What is Crab Ride in BJJ?",
+      "rationale": "Matches primary search query pattern, improves featured snippet eligibility"
+    },
+    {
+      "current": "Key Principles",
+      "suggested": "How to Control Crab Ride Position (Key Principles)",
+      "rationale": "Action-oriented heading that captures 'how to' queries"
+    },
+    {
+      "current": "Common Errors",
+      "suggested": "What Are Common Mistakes in Crab Ride?",
+      "rationale": "Question format matches PAA patterns and conversational search"
+    },
+    {
+      "current": "Training Drills",
+      "suggested": "Best Crab Ride Drills and Training Methods",
+      "rationale": "Includes 'best' modifier which is high-intent search pattern"
+    }
+  ],
+  "missing_content_opportunities": [
+    "Add 'When to Use Crab Ride' section - situational application guidance",
+    "Add 'Crab Ride vs Similar Positions' comparison section (truck, cross body ride, rodeo ride)",
+    "Add 'Competition Strategy' section - IBJJF rules, point implications, time management",
+    "Add 'Belt-Specific Progression' - what beginners vs advanced should focus on",
+    "Add 'Common Questions' FAQ section with 5-7 high-intent questions",
+    "Add 'Video Resources' section linking to instructional content",
+    "Add 'Etymology/History' brief section explaining position naming and evolution",
+    "Add 'Gi vs No-Gi Differences' section for crab ride applications"
+  ]
+}
