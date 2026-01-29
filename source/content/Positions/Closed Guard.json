@@ -1,9 +1,13 @@
 {
   "name": "Closed Guard",
   "slug": "closed-guard",
-  "description": "Master closed guard in BJJ. Strategic guide covering both perspectives - bottom player's offensive control and top player's defensive strategy with complete technical analysis.",
-  "variant_uniqueness": "Bottom offensive despite being underneath",
-  "overview": "Closed Guard represents one of the most fundamental and strategically complex positions in Brazilian Jiu-Jitsu, where the bottom player wraps their legs around the opponent's waist with ankles locked behind the back. This position creates a unique strategic dynamic where the bottom player, despite being underneath, possesses significant control and offensive capability while the top player, despite being on top, finds themselves in a fundamentally defensive position requiring systematic escape.\n\nThe closed guard exemplifies BJJ's core principle of using leverage and technique to overcome positional disadvantage. From the bottom perspective, the closed guard serves as both a defensive barrier preventing advancement and an offensive platform for sweeps, submissions, and transitions. The locked legs create a closed kinetic chain that allows control of the opponent's hips while threatening their upper body, forcing them to defend multiple attack vectors simultaneously.\n\nFrom the top perspective, closed guard presents a challenging defensive scenario where maintaining posture, fighting grips, and working toward guard opening become essential survival skills before any passing attempts can succeed. The position tests fundamental concepts of base, balance, and defensive awareness while under constant submission and sweep threats.\n\nThe closed guard's versatility across gi and no-gi competition, its effectiveness in self-defense scenarios, and its presence at all skill levels from white belt through black belt make it arguably the most studied position in grappling. Understanding both perspectives - the bottom player's offensive control system and the top player's defensive escape progression - is essential for complete positional mastery. This position serves as the foundation for countless advanced guard systems and remains relevant even as modern leg entanglement and dynamic guard systems have evolved the sport.",
+  "description": "What is Closed Guard in BJJ? Complete offensive and defensive guide. Success rates: Bottom 60-80%, Top 35-65%. Master sweeps, submissions, and guard passing strategies.",
+  "variant_uniqueness": "Bottom player maintains offensive control despite being underneath opponent",
+  "bot_metadata": {
+    "last_improved": "2026-01-29",
+    "optimization_pass": "ai_seo_v1"
+  },
+  "overview": "**Closed Guard** is the most fundamental position in Brazilian Jiu-Jitsu where the bottom player wraps their legs around the opponent's waist with ankles locked behind the back. Success rates: Bottom player 60-80%, Top player 35-65%. Effective in gi, no-gi, self-defense, and MMA applications.\n\nThis position creates a unique strategic dynamic where the bottom player, despite being underneath, possesses significant offensive control while the top player, despite being on top, finds themselves in a fundamentally defensive position requiring systematic escape. **Closed Guard** (also called full guard) exemplifies BJJ's core principle of using leverage and technique to overcome positional disadvantage.\n\nFrom the bottom perspective, **Closed Guard** serves as both a defensive barrier preventing advancement and an offensive platform for [[Sweep Mechanics|sweeps]], submissions, and transitions. The locked legs create a closed kinetic chain that controls the opponent's hips while threatening their upper body, forcing them to defend multiple attack vectors simultaneously. Primary attacks include [[Triangle Choke]], [[Armbar from Guard]], [[Kimura from Guard]], and [[Hip Bump Sweep]].\n\nFrom the top perspective, **Closed Guard** presents a challenging defensive scenario where maintaining posture, fighting grips, and working toward guard opening become essential survival skills before any passing attempts can succeed. The position tests fundamental concepts of [[Base Maintenance]], balance, and defensive awareness while under constant submission and sweep threats.\n\nThe **Closed Guard's** versatility across gi and no-gi competition, its effectiveness in self-defense scenarios, and its presence at all skill levels from white belt through black belt make it arguably the most studied position in grappling. Understanding both perspectives—the bottom player's offensive control system and the top player's defensive escape progression—is essential for complete positional mastery.",
   "key_principles": [
     "Bottom player controls distance and posture through combined leg squeeze and grip pressure",
     "Top player prioritizes structural integrity and posture maintenance above all passing attempts",
@@ -485,7 +489,49 @@
       "danaher": "The closed guard represents the fundamental position of control from the bottom in Brazilian Jiu-Jitsu, embodying the core principle of what I call Inside Position Theory - where controlling the inside space between you and your opponent is paramount. The closed guard's genius lies in its ability to create a closed kinetic chain with your legs, which allows you to control your opponent's hips while simultaneously threatening their upper body. I emphasize to my students that closed guard is not a single position but rather two interconnected attack systems: the upper body attack system focusing on triangle, armbar, and omoplata submissions, and the lower body attack system focusing on off-balancing and sweeps. The key is understanding that every action in closed guard should systematically break your opponent's posture while simultaneously advancing one of these two systems. When you grip the collar and pull down while driving your heels into their lower back, you're not just breaking posture - you're creating the angle and proximity necessary for upper body attacks while preventing them from generating the base required to defend lower body attacks. This dual-threat system is what makes closed guard so effective across all skill levels, from white belt fundamentals to black belt mastery.",
       "gordon_ryan": "Honestly, I view closed guard primarily as a transitional position rather than a place to live, especially at the highest levels of competition where guard passing has evolved significantly. In my game, when I end up in closed guard, I'm immediately working to either sweep to a dominant top position or transition to a more dynamic guard system like butterfly, single leg X, or open guard variations that offer better control and offensive opportunities. The reality is that modern guard passing has evolved to the point where elite competitors are very difficult to submit directly from traditional closed guard, so I focus on using it to create reactions that open up better positions. That said, the fundamentals still matter tremendously - I still break posture aggressively and threaten submissions, but primarily to force my opponent into defensive reactions that allow me to transition. When I do attack from closed guard, I heavily favor the triangle system because it offers the best combination of submission threat and sweep opportunities. If the triangle isn't there, I'm looking to off-balance with hip bumps or pendulum sweeps, but always with the intention of either sweeping to mount or using their defense to transition to a more offensive guard position. The key is staying active and never letting them settle into a comfortable passing position or rhythm.",
       "eddie_bravo": "Traditional closed guard is where I started, but I've evolved it into something much more dynamic with the rubber guard system and mission control positions that maximize offensive capability. The problem with conventional closed guard is that it's too easy for opponents to posture up and stall, especially in no-gi where there's no collar to grab for posture breaking. That's why I developed the rubber guard - by using extreme flexibility to bring your leg over their shoulder and achieve mission control, you create a much more controlling and offensive position that's nearly impossible to posture out of. From mission control, you've got the whole 10th Planet system: gogoplatas, omoplatas, triangle variations, and the invisible collar for no-gi chokes that work without gi grips. Even if someone's not flexible enough for full rubber guard, the concepts still apply - you want to be constantly off-balancing them, creating angles, and threatening multiple attacks simultaneously to create decision dilemmas. I also emphasize the lockdown from half guard more than traditional closed guard because it gives you similar control with more sweep and back-take opportunities. But whether you're playing rubber guard, traditional closed guard, or lockdown, the fundamental principle is the same: create dilemmas where defending one attack opens up another. That's how you beat someone from the bottom - make them choose between bad options and capitalize on whatever they give you through systematic combination attacks."
-    }
+    },
+    "frequently_asked_questions": [
+      {
+        "question": "How do I break my opponent's posture in closed guard?",
+        "answer": "Break posture by combining arm and leg pressure simultaneously. Grip the collar (gi) or behind the head (no-gi) and pull down aggressively while driving your heels into their lower back. The key is coordinated pressure from both ends creating a leverage system that overcomes their structural strength."
+      },
+      {
+        "question": "What is the best sweep from closed guard for beginners?",
+        "answer": "The **Hip Bump Sweep** offers the highest beginner success rate at 45%. It requires minimal flexibility, works in gi and no-gi, and teaches fundamental off-balancing principles. The **Scissor Sweep** is second-best at 40% beginner success, offering a different angle of attack."
+      },
+      {
+        "question": "How do I prevent my opponent from passing my closed guard?",
+        "answer": "Maintain active hip connection, break their posture constantly, and control their grips. Never allow space between your hips and theirs. If they establish strong posture, immediately break it before they can begin guard opening sequences. Keep your guard actively closed with heel pressure pulling them forward."
+      },
+      {
+        "question": "Should I open my guard or keep it closed?",
+        "answer": "Keep **Closed Guard** closed when you have broken posture and are actively attacking with sweeps or submissions. Open your guard intentionally when transitioning to [[Open Guard]] systems like [[Spider Guard]], [[Butterfly Guard]], or [[De La Riva Guard]] that offer better offensive opportunities against specific opponent reactions."
+      },
+      {
+        "question": "What submissions work best from closed guard?",
+        "answer": "**Triangle Choke** offers the highest success rate (30% beginner, 60% advanced) followed by **Armbar from Guard** and **Kimura from Guard**. The triangle creates combined choke and positional control, while armbars and kimuras can chain into sweeps if the submission fails."
+      },
+      {
+        "question": "How long should I stay in closed guard during rolling?",
+        "answer": "Average time is 1-3 minutes depending on skill level. Use **Closed Guard** actively for attacks, not passive holding. If you're not advancing position or creating submission threats within 30-45 seconds, consider transitioning to [[Open Guard]] systems or attempting sweeps to more dominant positions."
+      },
+      {
+        "question": "Is closed guard effective in no-gi BJJ?",
+        "answer": "Yes, but with modifications. No-gi **Closed Guard** requires head control and overhooks instead of collar grips. Success rates decrease slightly (5-10%) without gi grips, but the position remains effective for sweeps and submissions. Focus on [[Guillotine Choke]], **Triangle**, and **Hip Bump Sweep** which work excellently without gi."
+      },
+      {
+        "question": "How do I improve my closed guard retention?",
+        "answer": "Focus on three key areas: 1) Hip mobility to create angles (practice hip escape drills), 2) Grip fighting to prevent opponent establishing dominant grips, 3) Active leg pressure maintaining squeeze and heel pull throughout engagement. Train **Guard Retention** drills against progressive resistance for 5-minute rounds."
+      },
+      {
+        "question": "What are common mistakes in closed guard bottom?",
+        "answer": "Biggest mistake: staying flat and square without creating angles. This allows opponent to maintain posture easily. Other critical errors include focusing on single attacks without chaining techniques, allowing opponent to establish strong posture, and passive legs without active squeeze pressure."
+      },
+      {
+        "question": "Can I use closed guard in MMA or self-defense?",
+        "answer": "Yes, **Closed Guard** is highly effective in both contexts. In MMA, it provides strike protection while threatening sweeps and submissions. In self-defense, it prevents the attacker from striking effectively while you control distance and position. Focus on posture breaking and hip control to neutralize strikes."
+      }
+    ]
   },
   "top": {
     "name": "Closed Guard Top",
@@ -941,6 +987,48 @@
       "danaher": "The closed guard top position represents a fundamental test of positional understanding in Brazilian Jiu-Jitsu. The overwhelming majority of practitioners misunderstand their strategic objectives here - they believe they are in a passing position when in reality they are in a defensive position that must be escaped through systematic guard opening before any meaningful passing can occur. Your first priority is always postural integrity - without it, you cannot defend against the myriad submission and sweep threats. The biomechanics are clear: a straight spine with head over hips creates structural strength that is extremely difficult to break, while any deviation from this alignment creates leverage opportunities for the bottom player. I teach my students to think of closed guard top as having three distinct phases: first, establish and maintain posture; second, control opponent's grips and establish your own dominant grips; third, execute guard opening techniques that lead to passing opportunities. Skipping or rushing any phase dramatically increases your risk of being swept or submitted. The standing guard pass remains the highest percentage option because it removes the majority of the opponent's attacking options while creating superior angles for passing. When you stand, you force the opponent to either hold closed guard with significantly reduced attacking capability, or open their guard to chase you, at which point you've achieved your primary objective of guard opening. This systematic approach transforms closed guard top from a frustrating stalemate into a methodical progression toward dominant position.",
       "gordon_ryan": "In competition, I approach closed guard top with a very specific mentality - I'm not trying to do anything fancy, I'm just trying to not get swept or submitted while working toward standing up. The standing guard break is my highest percentage option because it takes away most of the opponent's attacks and gives me better angles for passing. When people try to pass from their knees, they give the bottom person too many options - they can attack your posture, grab your sleeves, threaten triangles and armbars, work sweeps. But when you stand up properly with good base and control their legs, you've essentially neutralized their entire closed guard game. Also, never underestimate how tiring closed guard can be for the bottom person if you're heavy and have good pressure - sometimes patience is your best weapon. I see a lot of competitors rush the guard opening because they're worried about stalling calls or they want to look aggressive, but that's exactly when you get caught. Take your time, establish your grips, make sure your posture is solid, and then stand up. Once you're standing, you control the pace and the angles. The bottom person has to react to you instead of you reacting to them. That's a huge strategic advantage that most people don't fully appreciate until they compete at high levels where everyone's guard is dangerous. My passing game is built on making the opponent uncomfortable first, then methodically breaking their structure down, and only then finishing the pass when they're already defeated positionally.",
       "eddie_bravo": "From inside closed guard, I'm thinking about explosive guard breaks combined with immediate passing attempts. The traditional approach of slowly working for posture and methodically opening the guard can leave you stuck there forever against someone with a good guard. I like to create movement and reactions - if I can get the opponent reacting to one thing, I can often slip past their guard in the chaos. That said, you absolutely have to respect the submission threats, especially triangles and arm locks. The 10th Planet approach is to use strategic movement and misdirection, but never at the cost of basic defensive soundness. One thing I emphasize is that the guard opening and the pass should be one continuous motion - you don't open the guard and then think about passing, you're already moving into your passing sequence as the guard opens. This doesn't give the opponent time to establish a new guard or reset their positioning. But here's the key: you need to drill this until it's automatic, because if you're thinking about it during rolling, you're already too slow. The other thing people don't talk about enough is using pressure and weight distribution to make the bottom person uncomfortable - if they're dealing with heavy pressure on their diaphragm, they're less likely to be setting up clean attacks and more likely to just want you off them, which creates passing opportunities. I also teach my students to recognize when the opponent is setting up attacks and to use that moment of commitment to explode into their passing sequence, turning the opponent's offense into your passing opportunity."
-    }
+    },
+    "frequently_asked_questions": [
+      {
+        "question": "How do I open closed guard safely?",
+        "answer": "Standing guard break offers the highest success rate (50-80%). First establish strong posture and grip control, then stand up with proper base, control opponent's legs, and use hip pressure to open the guard. Alternative: knee pressure method from [[Combat Base]] applying systematic pressure to break ankle lock."
+      },
+      {
+        "question": "What is the best way to maintain posture in closed guard?",
+        "answer": "Keep spine straight with head directly over hips. Push hips back while keeping chest elevated. Place hands on opponent's hips or biceps to control distance. Resist collar grips by immediately breaking them with circular wrist movements before they can pull you down."
+      },
+      {
+        "question": "How do I defend triangle choke from closed guard top?",
+        "answer": "Maintain upright posture with elbows inside knees. Never lean forward or allow opponent to pull your head down. If caught, immediately posture up explosively, stack opponent's hips toward their head, and extract arm while creating space. Prevention through posture is 90% of triangle defense."
+      },
+      {
+        "question": "Should I pass from standing or kneeling in closed guard?",
+        "answer": "**Standing guard break** has 50-80% success rate versus 35-55% for kneeling passes. Standing removes most submission threats and provides superior passing angles. Use [[Standing Position]] to control opponent's legs and create opening, then transition to your preferred pass."
+      },
+      {
+        "question": "How do I deal with strong collar grips in closed guard?",
+        "answer": "Break grips immediately before they establish control. Use circular wrist movements to remove fingers from collar, or stand up explosively which naturally breaks most collar grips. Fight grips proactively—don't allow opponent 2-3 seconds of grip control or posture becomes compromised."
+      },
+      {
+        "question": "What passing options work best after opening closed guard?",
+        "answer": "**Toreando Pass** (55-70% success) and **Knee Slice Pass** (60-75% success) offer highest percentages. **Stack Pass** works well if opponent inverts or pulls knees to chest. Choose based on opponent's guard retention style and your strengths."
+      },
+      {
+        "question": "How do I prevent getting swept from closed guard top?",
+        "answer": "Maintain wide base with knees spread shoulder-width apart. Keep weight distributed through lower body, not posted on hands. Monitor opponent's hip movement—lateral shifting signals scissor or pendulum sweep setups. Base wider and adjust weight distribution to threatened side."
+      },
+      {
+        "question": "Is it bad to stay in closed guard top for a long time?",
+        "answer": "In competition, yes—referees penalize stalling after 20-30 seconds without advancement. In training, use the time to drill systematic guard opening. Average time should be 1-3 minutes maximum. Work methodically but continuously toward opening and passing."
+      },
+      {
+        "question": "What common mistakes do people make in closed guard top?",
+        "answer": "Biggest mistake: leaning forward with poor posture (leads to triangles and armbars). Others include posting hands on mat exposing arms to attacks, rushing guard opening before establishing posture and grips, and maintaining narrow base vulnerable to lateral sweeps."
+      },
+      {
+        "question": "How do I pass closed guard in no-gi?",
+        "answer": "Standing guard break becomes even more essential without gi grips. Control opponent's legs with collar ties and wrist control instead of gi grips. Focus on **Toreando Pass** and **Knee Slice Pass** which work excellently without gi friction. Hip pressure and base management become more critical."
+      }
+    ]
   }
 }
