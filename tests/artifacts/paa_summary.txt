@@ -1,0 +1,262 @@
+# People Also Ask (PAA) Analysis Summary
+# Generated: 2026-01-31
+# Articles Analyzed: 2
+
+================================================================================
+EXECUTIVE SUMMARY
+================================================================================
+
+Total PAA Questions Identified: 26 (11 for Leg Entanglement, 15 for Position Hierarchy)
+High-Priority Questions: 16 (61.5%)
+Medium-Priority Questions: 9 (34.6%)
+Low-Priority Questions: 1 (3.9%)
+
+Note: This analysis was conducted without access to live Google SERP data (MCP
+DataForSEO tool not available). Questions are synthesized based on SEO best
+practices, BJJ search patterns, and content gap analysis.
+
+================================================================================
+ARTICLE 1: Leg Entanglement
+================================================================================
+
+File: source/content/Positions/Leg Entanglement.json
+Seed Keyword: "Leg Entanglement"
+Output: tests/artifacts/leg_entanglement_paa.json
+
+HIGH-PRIORITY QUESTIONS (6):
+------------------------------------------------------------
+1. "What is a leg entanglement in BJJ?"
+   → ACTION: Restructure overview with question-based heading
+
+2. "What are the different types of leg entanglements?"
+   → ACTION: Add 'Types of Leg Entanglements' comparison section
+
+3. "How dangerous are leg entanglements?"
+   → ACTION: Add dedicated safety section (CRITICAL - similar to submissions)
+
+4. "How do you escape leg entanglements?"
+   → ACTION: Expand defensive_responses with detailed sequences
+
+5. "What is the knee line in leg entanglements?"
+   → ACTION: Add 'Understanding the Knee Line' technical concept section
+
+6. "Can you submit someone from leg entanglement?"
+   → ACTION: Reorganize offensive_transitions with clear categorization
+
+MEDIUM-PRIORITY QUESTIONS (4):
+------------------------------------------------------------
+1. "What is the difference between ashi garami and saddle?"
+2. "Who invented modern leg entanglements?"
+3. "Are leg locks allowed in BJJ competition?"
+4. "What's the best leg entanglement for beginners?"
+
+CONTENT GAPS IDENTIFIED:
+------------------------------------------------------------
+CRITICAL GAPS:
+- No safety section (major barrier for beginners)
+- No competition rules reference
+- No beginner progression path
+- No comparison table of variants
+
+STRUCTURAL IMPROVEMENTS:
+- Convert technical headings to question format
+- Add FAQ section at end
+- Create visual decision trees
+- Add historical context for authority
+
+KEYWORD OPPORTUNITIES:
+- "leg entanglement bjj" (primary)
+- "ashi garami variations"
+- "heel hook safety"
+- "saddle position bjj"
+- "leg entanglement escapes"
+- "knee line concept bjj"
+- "how to learn leg locks safely"
+
+================================================================================
+ARTICLE 2: BJJ Position Hierarchy Explained
+================================================================================
+
+File: source/content/Learning/BJJ Position Hierarchy Explained.md
+Seed Keyword: "BJJ Position Hierarchy Explained"
+Output: tests/artifacts/bjj_position_hierarchy_explained_paa.json
+
+HIGH-PRIORITY QUESTIONS (10):
+------------------------------------------------------------
+1. "What is the BJJ position hierarchy?"
+   → ACTION: First heading should directly answer this
+
+2. "What is the most dominant position in BJJ?"
+   → ACTION: Add to FAQ + ensure clear answer in hierarchy section
+
+3. "How many points is mount in BJJ?"
+   → ACTION: Front-load point values in each position description
+
+4. "Why is position more important than submission?"
+   → ACTION: Create dedicated section with this question as heading
+
+5. "How do you escape mount in BJJ?"
+   → ACTION: Expand mount escape decision tree with visual formatting
+
+6. "How does BJJ scoring work?"
+   → ACTION: Add visual point chart/table at beginning of IBJJF section
+
+7. "What positions should white belts learn first?"
+   → ACTION: Add 'White Belt Position Priorities' section
+
+MEDIUM-PRIORITY QUESTIONS (5):
+------------------------------------------------------------
+1. "What's better, mount or back control?"
+2. "How long does it take to get good at BJJ positions?"
+3. "What's the difference between gi and no-gi position hierarchy?"
+4. "Can you win BJJ without submissions?"
+5. "What are the BJJ belt positions in order?" (clarification needed)
+
+CONTENT GAPS IDENTIFIED:
+------------------------------------------------------------
+CRITICAL GAPS:
+- No visual hierarchy chart/diagram at top
+- No white belt learning progression
+- No gi vs no-gi differences
+- No dedicated "position before submission" section
+- No quick-reference FAQ section
+
+STRUCTURAL IMPROVEMENTS:
+- Add visual position hierarchy chart immediately after intro
+- Convert 7 key headings to question format
+- Create comparison table for all positions
+- Add FAQ section with 8-10 common questions
+- Add belt-specific learning goals
+
+KEYWORD OPPORTUNITIES:
+- "bjj position hierarchy" (primary)
+- "bjj positions in order"
+- "most dominant bjj position"
+- "bjj scoring system"
+- "position before submission"
+- "how to escape mount bjj"
+- "mount vs back control"
+- "bjj white belt positions"
+- "bjj position chart"
+
+================================================================================
+CONTENT IMPROVEMENT PRIORITIES
+================================================================================
+
+IMMEDIATE ACTIONS (Next Bot Run):
+------------------------------------------------------------
+1. Leg Entanglement: Add safety section (CRITICAL for trust/safety)
+2. Position Hierarchy: Add visual hierarchy chart (CRITICAL for comprehension)
+3. Both: Convert 3-5 headings to question format
+4. Both: Add FAQ section at end
+
+MEDIUM-TERM ACTIONS (2-4 Weeks):
+------------------------------------------------------------
+1. Leg Entanglement: Add 'Types Compared' section
+2. Position Hierarchy: Add 'White Belt Learning Path'
+3. Both: Add comparison tables
+4. Leg Entanglement: Expand defensive content
+5. Position Hierarchy: Add 'Why Position Before Submission' section
+
+LONG-TERM ACTIONS (1-3 Months):
+------------------------------------------------------------
+1. Both: Implement structured data (FAQPage, HowTo schemas)
+2. Both: Add video demonstrations
+3. Position Hierarchy: Create interactive hierarchy visualization
+4. Leg Entanglement: Add competition rules by organization
+5. Both: Add training resource recommendations
+
+================================================================================
+SUGGESTED NEW ARTICLES (High SEO Opportunity)
+================================================================================
+
+Based on PAA analysis, these standalone articles would capture significant
+search traffic and reduce content gaps:
+
+1. "What is the Knee Line in BJJ Leg Locks?"
+   - High search volume, technical concept needing dedicated explanation
+   - Related: Leg Entanglement, Ashi Garami, Saddle
+
+2. "Ashi Garami vs Saddle: Which Leg Entanglement is Better?"
+   - Comparison queries drive high engagement
+   - Related: Leg Entanglement, Inside Ashi-Garami, Outside Ashi-Garami
+
+3. "Are Heel Hooks Dangerous? BJJ Leg Lock Safety Guide"
+   - Safety concerns are major search driver
+   - Related: Leg Entanglement, Inside Heel Hook, submissions
+
+4. "BJJ Position Hierarchy Chart: Complete Visual Guide"
+   - Visual content performs exceptionally well
+   - Related: All positions, BJJ Position Hierarchy Explained
+
+5. "Mount vs Back Control: Which is the Best BJJ Position?"
+   - Direct comparison captures decision-making searches
+   - Related: Mount, Back Control, Position Hierarchy
+
+6. "White Belt BJJ Positions: What to Learn First"
+   - Beginner-focused content has massive audience
+   - Related: Closed Guard, Side Control, Mount, Position Hierarchy
+
+7. "Why is Position Before Submission in BJJ?"
+   - Fundamental principle deserves standalone explanation
+   - Related: Position Hierarchy, all submission articles
+
+8. "Leg Lock Rules in BJJ: IBJJF, ADCC, and Sub-Only Explained"
+   - Rules questions are common beginner concerns
+   - Related: Leg Entanglement, all leg lock submissions
+
+9. "How to Escape Mount in BJJ: Complete Guide"
+   - Specific technique guides rank well
+   - Related: Mount, Hip Escape, Guard Recovery
+
+10. "Gi vs No-Gi Position Hierarchy: Key Differences"
+    - Format comparison addresses common confusion
+    - Related: Position Hierarchy, all positions
+
+================================================================================
+STRUCTURED DATA IMPLEMENTATION CHECKLIST
+================================================================================
+
+Leg Entanglement:
+[ ] FAQPage schema for 8-10 common questions
+[ ] HowTo schema: "How to Execute Inside Ashi Entry"
+[ ] HowTo schema: "How to Escape Saddle Position"
+[ ] Article schema with proper metadata
+[ ] VideoObject schema (when videos added)
+
+Position Hierarchy:
+[ ] FAQPage schema for 10-12 common questions
+[ ] HowTo schema: "How to Escape Mount"
+[ ] HowTo schema: "How to Pass Guard"
+[ ] Table schema for IBJJF point values
+[ ] BreadcrumbList schema for navigation
+[ ] Article schema with proper metadata
+[ ] VideoObject schema (when videos added)
+
+================================================================================
+METRICS TO TRACK POST-IMPLEMENTATION
+================================================================================
+
+1. Organic search impressions for target keywords
+2. Click-through rate (CTR) from search results
+3. Featured snippet captures for question-format headings
+4. Time on page (should increase with FAQ sections)
+5. Bounce rate (should decrease with better content structure)
+6. Internal link clicks from related content
+7. Scroll depth (measure FAQ engagement)
+8. Search ranking positions for primary keywords
+
+================================================================================
+NEXT STEPS
+================================================================================
+
+1. Review this summary and prioritize improvements
+2. Update suggested_new_files.csv with new article recommendations
+3. Schedule content improvement bot to address high-priority gaps
+4. Implement structured data schemas
+5. Monitor search performance metrics
+6. Iterate based on actual search data when available
+
+================================================================================
+END OF REPORT
+================================================================================

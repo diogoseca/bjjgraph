@@ -1,0 +1,175 @@
+{
+  "article_path": "source/content/Positions/Leg Entanglement.json",
+  "seed_keyword": "Leg Entanglement",
+  "note": "PAA questions synthesized based on BJJ search patterns and SEO best practices (WebSearch/MCP tools not available)",
+  "paa_questions": [
+    {
+      "question": "What is a leg entanglement in BJJ?",
+      "answer_snippet": "A leg entanglement is a position where a practitioner controls their opponent's lower body through configurations of leg positioning, creating opportunities for leg lock submissions.",
+      "source_url": "N/A - Synthesized",
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "rationale": "Primary informational query - current 'overview' section should be restructured with question-based heading"
+    },
+    {
+      "question": "What are the different types of leg entanglements?",
+      "answer_snippet": "Main types include ashi garami (standard), inside ashi-garami, outside ashi-garami, saddle (honey hole), and 50-50 guard.",
+      "source_url": "N/A - Synthesized",
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "rationale": "Users want categorization - add dedicated 'Types of Leg Entanglements' section before detailed mechanics"
+    },
+    {
+      "question": "How dangerous are leg entanglements?",
+      "answer_snippet": "Leg entanglements can be dangerous, particularly heel hooks which can cause severe knee ligament damage. Proper training protocols and awareness are essential.",
+      "source_url": "N/A - Synthesized",
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "rationale": "Safety is a major concern for beginners - needs dedicated safety section similar to submission pages"
+    },
+    {
+      "question": "What is the difference between ashi garami and saddle?",
+      "answer_snippet": "Ashi garami is a standard leg entanglement with one leg controlled, while saddle (honey hole) is a more dominant position with both legs entangled and superior heel hook access.",
+      "source_url": "N/A - Synthesized",
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "rationale": "Common comparison query - add 'Position Variants Compared' section"
+    },
+    {
+      "question": "Who invented modern leg entanglements?",
+      "answer_snippet": "John Danaher systematized modern leg entanglements, though earlier practitioners like Dean Lister contributed. The Danaher Death Squad popularized the positions.",
+      "source_url": "N/A - Synthesized",
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "rationale": "Historical context query - add 'History and Evolution' section"
+    },
+    {
+      "question": "How do you escape leg entanglements?",
+      "answer_snippet": "Escapes involve clearing the knee line, hip positioning, and recognizing the specific entanglement type to execute appropriate defensive movements.",
+      "source_url": "N/A - Synthesized",
+      "priority": "high",
+      "integration_strategy": "improve_existing",
+      "rationale": "Critical defensive question - expand defensive_responses section with more detail"
+    },
+    {
+      "question": "Are leg locks allowed in BJJ competition?",
+      "answer_snippet": "Depends on ruleset and belt level. IBJJF restricts heel hooks to brown/black belt no-gi. Other organizations like ADCC and sub-only allow them at all levels.",
+      "source_url": "N/A - Synthesized",
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "rationale": "Competition legality is a common concern - add 'Competition Rules' section"
+    },
+    {
+      "question": "What is the knee line in leg entanglements?",
+      "answer_snippet": "The knee line is an imaginary line across the opponent's knee that determines which submissions are available and defensive structures remain viable.",
+      "source_url": "N/A - Synthesized",
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "rationale": "Technical concept frequently searched - add 'Understanding the Knee Line' section"
+    },
+    {
+      "question": "How long does it take to learn leg entanglements?",
+      "answer_snippet": "Basic understanding takes 6-12 months, competency 1-2 years, mastery 3-5+ years. Requires systematic study and safe training partners.",
+      "source_url": "N/A - Synthesized",
+      "priority": "low",
+      "integration_strategy": "add_section",
+      "rationale": "Beginner timeline query - add to training section or create learning progression section"
+    },
+    {
+      "question": "What's the best leg entanglement for beginners?",
+      "answer_snippet": "Straight ankle lock from standard ashi garami is the safest and most fundamental leg entanglement for beginners to learn.",
+      "source_url": "N/A - Synthesized",
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "rationale": "Beginner guidance query - add 'Beginner-Friendly Entry Points' section"
+    },
+    {
+      "question": "Can you submit someone from leg entanglement?",
+      "answer_snippet": "Yes, leg entanglements provide access to heel hooks, kneebars, ankle locks, and toe holds depending on the specific position and configuration.",
+      "source_url": "N/A - Synthesized",
+      "priority": "medium",
+      "integration_strategy": "improve_existing",
+      "rationale": "Offensive capability question - restructure offensive_transitions with clearer categorization"
+    }
+  ],
+  "heading_optimizations": [
+    {
+      "current": "Overview (implied section)",
+      "suggested": "What is Leg Entanglement in BJJ?",
+      "rationale": "Matches primary informational query pattern, improves SEO and readability"
+    },
+    {
+      "current": "State Properties (technical)",
+      "suggested": "Position Characteristics and Properties",
+      "rationale": "More accessible language for general audience while maintaining technical accuracy"
+    },
+    {
+      "current": "Key Principles (generic)",
+      "suggested": "How to Control Leg Entanglements Effectively",
+      "rationale": "Action-oriented heading that matches how-to query intent"
+    },
+    {
+      "current": "Common Errors (generic)",
+      "suggested": "What Mistakes Do People Make in Leg Entanglements?",
+      "rationale": "Question format increases engagement and matches common search pattern"
+    },
+    {
+      "current": "Training Drills (generic)",
+      "suggested": "How to Train Leg Entanglements: Essential Drills",
+      "rationale": "Combines how-to format with specificity for better search visibility"
+    }
+  ],
+  "missing_content_opportunities": [
+    "Add 'Safety Protocols and Injury Prevention' section - high-priority for beginners concerned about heel hook danger",
+    "Add 'Types of Leg Entanglements Compared' section - helps users understand the positional hierarchy within leg locks",
+    "Add 'Understanding the Knee Line Concept' section - fundamental technical concept that deserves dedicated explanation",
+    "Add 'Competition Rules by Organization' section - addresses legality questions across IBJJF, ADCC, sub-only",
+    "Add 'History and Evolution of Leg Entanglements' section - provides context and authority",
+    "Add 'When to Use Leg Entanglements vs Traditional Positions' section - strategic decision-making content",
+    "Add 'Beginner's Learning Path' section - structured progression from ankle locks to heel hooks",
+    "Add FAQ section at end with quick answers to top 5-10 questions",
+    "Expand defensive_responses with detailed escape sequences and visual decision trees",
+    "Add 'Common Defensive Mistakes' to mirror offensive errors section",
+    "Add 'Leg Entanglement Success Rates by Belt Level' data visualization opportunity",
+    "Add 'Integration with Passing Game' section - how to enter from headquarters, knee cut, etc."
+  ],
+  "structured_data_recommendations": [
+    "Add HowTo schema for 'How to Execute Inside Ashi Entry'",
+    "Add HowTo schema for 'How to Escape Saddle Position'",
+    "Add FAQPage schema for common leg entanglement questions",
+    "Add VideoObject schema if training videos are added",
+    "Ensure all related_content links use proper schema markup"
+  ],
+  "content_gap_analysis": {
+    "informational_gaps": [
+      "No safety section (critical for beginner confidence)",
+      "No competition rules reference (common beginner question)",
+      "No historical context (reduces authority)",
+      "No beginner progression path (leaves learners directionless)"
+    ],
+    "navigational_gaps": [
+      "No clear 'start here' guidance for beginners vs advanced",
+      "Missing comparison table of entanglement variants",
+      "No visual decision tree for position selection"
+    ],
+    "transactional_gaps": [
+      "No training resource recommendations",
+      "No instructor/gym finder integration",
+      "No course/instructional references"
+    ]
+  },
+  "keyword_opportunities": [
+    "leg entanglement bjj",
+    "ashi garami variations",
+    "heel hook safety",
+    "leg lock positions",
+    "saddle position bjj",
+    "50-50 guard",
+    "leg entanglement escapes",
+    "knee line concept bjj",
+    "john danaher leg locks",
+    "leg entanglement rules",
+    "how to learn leg locks safely",
+    "leg entanglement for beginners"
+  ]
+}

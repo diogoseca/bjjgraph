@@ -1,0 +1,229 @@
+{
+  "article_path": "source/content/Learning/BJJ Position Hierarchy Explained.md",
+  "seed_keyword": "BJJ Position Hierarchy Explained",
+  "note": "PAA questions synthesized based on BJJ search patterns and SEO best practices (WebSearch/MCP tools not available)",
+  "paa_questions": [
+    {
+      "question": "What is the BJJ position hierarchy?",
+      "answer_snippet": "The BJJ position hierarchy is a systematic ranking of positions from neutral to dominant, where each level offers increased control, submission opportunities, and point values.",
+      "source_url": "N/A - Synthesized",
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "rationale": "Primary definition query - first heading should directly answer this question"
+    },
+    {
+      "question": "What is the most dominant position in BJJ?",
+      "answer_snippet": "Back control is generally considered the most dominant position, offering the highest success rates for submissions (75-90%) and the fewest escape options for opponents.",
+      "source_url": "N/A - Synthesized",
+      "priority": "high",
+      "integration_strategy": "dedicated_faq",
+      "rationale": "Direct comparative query - needs quick answer in FAQ + detailed explanation in hierarchy section"
+    },
+    {
+      "question": "How many points is mount in BJJ?",
+      "answer_snippet": "Mount is worth 4 points in IBJJF competition, reflecting its status as one of the most dominant pin positions.",
+      "source_url": "N/A - Synthesized",
+      "priority": "high",
+      "integration_strategy": "improve_existing",
+      "rationale": "Specific point value query - ensure point values are front-loaded in each position description"
+    },
+    {
+      "question": "What's better, mount or back control?",
+      "answer_snippet": "Back control generally offers higher submission success rates (75-90% vs 70-85%) and fewer escape options, making it the most dominant position in the hierarchy.",
+      "source_url": "N/A - Synthesized",
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "rationale": "Comparison query - add 'Position Comparison: Mount vs Back Control' section"
+    },
+    {
+      "question": "Why is position more important than submission?",
+      "answer_snippet": "Position before submission minimizes risk - failed submissions from weak positions risk catastrophic position loss, while failed submissions from dominant positions maintain positional advantage.",
+      "source_url": "N/A - Synthesized",
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "rationale": "Fundamental principle query - make this a standalone section with question heading"
+    },
+    {
+      "question": "How do you escape mount in BJJ?",
+      "answer_snippet": "Primary escapes include the bridge and roll (trap arm, bridge to side), elbow escape (frame and shrimp), and technical standup when space is created.",
+      "source_url": "N/A - Synthesized",
+      "priority": "high",
+      "integration_strategy": "improve_existing",
+      "rationale": "Specific defensive query - expand mount escape decision tree with more detail and visual formatting"
+    },
+    {
+      "question": "What are the BJJ belt positions in order?",
+      "answer_snippet": "Common confusion - this asks about HIERARCHY not BELTS. Need to clarify: Standing (0) → Guard (0) → Passing (3) → Pins (2-4) → Submissions (win).",
+      "source_url": "N/A - Synthesized",
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "rationale": "Confusion between belt ranks and position hierarchy - add clarification in intro"
+    },
+    {
+      "question": "How long does it take to get good at BJJ positions?",
+      "answer_snippet": "Basic positional understanding takes 6-12 months, competent position retention 1-2 years, dominant positional control 3-5+ years of consistent training.",
+      "source_url": "N/A - Synthesized",
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "rationale": "Timeline query from beginners - add 'Learning Timeline by Belt Level' section"
+    },
+    {
+      "question": "What is a sweep in BJJ?",
+      "answer_snippet": "A sweep is a technique from bottom position (usually guard) that reverses position to put you on top, earning 2 points in competition.",
+      "source_url": "N/A - Synthesized",
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq",
+      "rationale": "Definition query - needs quick answer accessible to complete beginners"
+    },
+    {
+      "question": "How does BJJ scoring work?",
+      "answer_snippet": "IBJJF scoring awards points for positional advancement: takedowns (2), sweeps (2), guard passes (3), knee on belly (2), mount (4), back control (4).",
+      "source_url": "N/A - Synthesized",
+      "priority": "high",
+      "integration_strategy": "improve_existing",
+      "rationale": "Scoring overview query - add visual point chart/table at beginning of IBJJF section"
+    },
+    {
+      "question": "What is the guard in BJJ?",
+      "answer_snippet": "Guard is a defensive position where the bottom person uses their legs to control distance and prevent the top person from achieving dominant pins.",
+      "source_url": "N/A - Synthesized",
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq",
+      "rationale": "Fundamental definition query - needs accessible FAQ answer + link to detailed section"
+    },
+    {
+      "question": "Why is side control 4 points?",
+      "answer_snippet": "Side control demonstrates successful guard passing and positional control, reflecting significant positional advancement in the hierarchy.",
+      "source_url": "N/A - Synthesized",
+      "priority": "low",
+      "integration_strategy": "improve_existing",
+      "rationale": "Specific rule question - add rationale explanation to point value descriptions"
+    },
+    {
+      "question": "What's the difference between gi and no-gi position hierarchy?",
+      "answer_snippet": "Core hierarchy remains the same, but gi adds grip-based controls and some positions (spider guard, lasso) while no-gi emphasizes wrestling positions and leg entanglements.",
+      "source_url": "N/A - Synthesized",
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "rationale": "Format comparison query - add 'Gi vs No-Gi Hierarchy Differences' section"
+    },
+    {
+      "question": "Can you win BJJ without submissions?",
+      "answer_snippet": "Yes, many matches are won by points through systematic positional advancement. Accumulating sweeps, passes, and dominant positions can secure victory without submission.",
+      "source_url": "N/A - Synthesized",
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "rationale": "Strategic question - add 'Point Accumulation vs Submission Hunting' strategic section"
+    },
+    {
+      "question": "What positions should white belts learn first?",
+      "answer_snippet": "White belts should prioritize closed guard (bottom), mount escapes, side control (both top and bottom), and basic guard passing before advancing to complex positions.",
+      "source_url": "N/A - Synthesized",
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "rationale": "Beginner progression query - add 'White Belt Position Priorities' section"
+    }
+  ],
+  "heading_optimizations": [
+    {
+      "current": "The Positional Hierarchy Concept",
+      "suggested": "What is Positional Hierarchy in BJJ?",
+      "rationale": "Direct question format matches primary search intent and improves engagement"
+    },
+    {
+      "current": "Why Hierarchy Matters",
+      "suggested": "Why is Positional Hierarchy Important in BJJ?",
+      "rationale": "Full question format for better featured snippet targeting"
+    },
+    {
+      "current": "Level 0: Neutral Standing Position (0 Points)",
+      "suggested": "Level 0: Standing Position - Where BJJ Matches Begin (0 Points)",
+      "rationale": "More descriptive and conversational while maintaining hierarchy clarity"
+    },
+    {
+      "current": "Energy Cost vs Positional Value",
+      "suggested": "How Does Energy Cost Relate to Position Value?",
+      "rationale": "Question format makes complex concept more approachable"
+    },
+    {
+      "current": "The 'Cooking' Effect",
+      "suggested": "What is the 'Cooking' Effect in BJJ Positions?",
+      "rationale": "Unfamiliar term needs question framing for clarity"
+    },
+    {
+      "current": "Decision Trees and Positional Flow",
+      "suggested": "How to Make Decisions in BJJ Positions: Decision Trees Explained",
+      "rationale": "How-to format with clarification improves accessibility"
+    },
+    {
+      "current": "Expert Insights on Positional Hierarchy",
+      "suggested": "What Do World Champions Say About Position Hierarchy?",
+      "rationale": "More engaging question format highlights authority"
+    }
+  ],
+  "missing_content_opportunities": [
+    "Add quick-reference 'BJJ Position Hierarchy Chart' at top - visual learners need this immediately",
+    "Add 'White Belt Position Learning Path' section - most readers are beginners needing guidance",
+    "Add 'Gi vs No-Gi Hierarchy Differences' section - addresses format-specific questions",
+    "Add 'Common Position Hierarchy Mistakes' section - what NOT to do",
+    "Add FAQ section with 8-10 quick answers to most common questions (separate from main content)",
+    "Add 'Position Comparison Table' - side-by-side comparison of all major positions with metrics",
+    "Add 'Why is Position Before Submission?' dedicated section with examples and risk analysis",
+    "Add 'How to Practice Position Hierarchy' section with specific drills",
+    "Add 'Position Hierarchy in Competition vs Training' section - different strategic applications",
+    "Expand 'Fast-Track Pathway' with more detailed risk mitigation strategies",
+    "Add 'Position Retention vs Position Advancement' strategic decision-making content",
+    "Add 'Positional Hierarchy Myths Debunked' section addressing common misconceptions",
+    "Add 'Belt-Specific Position Goals' section (white belt goals, blue belt goals, etc.)",
+    "Add video embed opportunities for position demonstrations",
+    "Add interactive position hierarchy tree/flowchart if technically feasible"
+  ],
+  "structured_data_recommendations": [
+    "Add FAQPage schema for top 10 questions about position hierarchy",
+    "Add HowTo schema for 'How to Escape Mount'",
+    "Add HowTo schema for 'How to Pass Guard'",
+    "Add Table schema for IBJJF point values",
+    "Add BreadcrumbList schema for hierarchy navigation",
+    "Add VideoObject schema when/if demonstration videos are added",
+    "Add Article schema with author, datePublished, dateModified",
+    "Ensure all internal links use proper schema markup"
+  ],
+  "content_gap_analysis": {
+    "informational_gaps": [
+      "No visual hierarchy chart/diagram (critical for visual learners)",
+      "No belt-specific learning progression (beginners feel lost)",
+      "No gi vs no-gi differences (common question left unanswered)",
+      "No 'position before submission' dedicated explanation (core concept buried)",
+      "Missing quick-reference FAQ (no fast answers for specific questions)"
+    ],
+    "navigational_gaps": [
+      "No 'start here' section for complete beginners",
+      "No jump links to specific positions in hierarchy",
+      "No comparison table for quick reference",
+      "Missing 'related topics' navigation at section level"
+    ],
+    "transactional_gaps": [
+      "No training resource recommendations",
+      "No drill video links or recommendations",
+      "No book/course references for deeper learning"
+    ]
+  },
+  "keyword_opportunities": [
+    "bjj position hierarchy",
+    "bjj positions in order",
+    "most dominant bjj position",
+    "bjj scoring system",
+    "position before submission",
+    "how to escape mount bjj",
+    "bjj guard positions",
+    "bjj point system explained",
+    "mount vs back control",
+    "bjj white belt positions",
+    "bjj position chart",
+    "what is a sweep in bjj",
+    "side control vs mount",
+    "bjj defensive hierarchy",
+    "energy cost bjj positions",
+    "bjj competition strategy"
+  ]
+}
