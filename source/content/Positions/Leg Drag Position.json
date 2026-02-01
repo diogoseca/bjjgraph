@@ -1,50 +1,58 @@
 {
   "name": "Leg Drag Position",
   "slug": "leg-drag-position",
-  "description": "Master the leg drag position in BJJ with comprehensive coverage of passing mechanics, pressure application, and back-taking opportunities for all skill levels.",
-  "variant_uniqueness": "Hip control removes guard retention options",
-  "overview": "The leg drag position is one of the most versatile and effective passing positions in modern Brazilian Jiu-Jitsu. It represents a critical transitional state where the top practitioner has successfully controlled one of the bottom player's legs and dragged it across their body, disrupting the guard structure while maintaining a strategic angle of attack. This position creates multiple offensive opportunities including direct passes to side control, transitions to the back, and knee slice variations.\n\nFrom the top perspective, the leg drag offers exceptional control with relatively low energy expenditure. The key mechanical advantage comes from controlling the opponent's hip and leg simultaneously, preventing their ability to create frames or recover guard. The top player can apply significant pressure through their chest and shoulder while maintaining mobility to react to escape attempts. The position naturally facilitates progression to more dominant positions, as the bottom player's defensive options are severely limited by the compromised hip position.\n\nFrom the bottom perspective, the leg drag represents a dangerous situation requiring immediate and decisive action. The bottom player must recognize the position early and choose between attempting to recover guard structures (butterfly, De La Riva, or half guard) or creating scrambles to establish neutral positions. The primary danger lies in allowing the pass to complete or exposing the back, both of which result from passive defense. Understanding the biomechanics of the position allows skilled practitioners to exploit the top player's weight distribution and create escape opportunities.\n\nThe leg drag has become increasingly prominent in high-level competition due to its effectiveness against modern guard systems. It bypasses many traditional guard retention mechanisms by controlling the legs directly rather than dealing with grips and frames first. This makes it particularly effective against practitioners who rely heavily on distance management and leg-based guards. The position also scales well with skill level - beginners can use it for basic passing while advanced practitioners can chain it into complex sequences involving back takes and submission threats.\n\nHistorically, the leg drag evolved from traditional gi passing but has found even greater application in no-gi grappling where grip-based defenses are absent. The Miyao brothers, the Mendes brothers, and competitors like Lucas Lepri have demonstrated the position's effectiveness at the highest levels of sport BJJ. The position continues to evolve with new variations emerging regularly, including the body lock pass connection, headquarters integration, and leg drag to back take sequences that have become staples of modern grappling.",
+  "description": "Master the leg drag position in BJJ: comprehensive passing mechanics, pressure application, and back-taking opportunities. Learn systematic entries, finishes, and defenses for all skill levels.",
+  "variant_uniqueness": "Hip control removes guard retention options while creating dual passing/back-taking threats",
+  "overview": "The **Leg Drag Position** is one of the most versatile and effective passing positions in modern Brazilian Jiu-Jitsu. It represents a critical transitional state where the top practitioner has successfully controlled one of the bottom player's legs and dragged it across their body, disrupting the guard structure while maintaining a strategic angle of attack. This position creates multiple offensive opportunities including direct passes to **[[Side Control]]**, transitions to **[[Back Control]]**, and **[[Knee Slice Pass]]** variations.\n\nFrom the top perspective, the leg drag offers exceptional control with relatively low energy expenditure. The key mechanical advantage comes from controlling the opponent's hip and leg simultaneously, preventing their ability to create frames or recover guard structures. The top player can apply significant pressure through their chest and shoulder while maintaining mobility to react to escape attempts. The position naturally facilitates progression to more dominant positions, as the bottom player's defensive options are severely limited by the compromised hip position.\n\nFrom the bottom perspective, the leg drag represents a dangerous situation requiring immediate and decisive action. The bottom player must recognize the position early and choose between attempting to recover guard structures (**[[Butterfly Guard]]**, **[[De La Riva Guard]]**, or **[[Half Guard]]**) or creating scrambles to establish neutral positions. The primary danger lies in allowing the pass to complete or exposing the back—both of which result from passive defense. Understanding the biomechanics of the position allows skilled practitioners to exploit the top player's weight distribution and create escape opportunities.\n\nThe leg drag has become increasingly prominent in high-level competition due to its effectiveness against modern guard systems. It bypasses many traditional guard retention mechanisms by controlling the legs directly rather than dealing with grips and frames first. This makes it particularly effective against practitioners who rely heavily on distance management and leg-based guards. The position also scales well with skill level—beginners can use it for basic passing while advanced practitioners can chain it into complex sequences involving back takes and submission threats.\n\nHistorically, the leg drag evolved from traditional gi passing but has found even greater application in no-gi grappling where grip-based defenses are absent. The Miyao brothers, the Mendes brothers, and competitors like Lucas Lepri have demonstrated the position's effectiveness at the highest levels of sport BJJ. The position continues to evolve with new variations emerging regularly, including the **[[Body Lock Pass]]** connection, **[[Headquarters Position]]** integration, and leg drag to back take sequences that have become staples of modern grappling.",
   "key_principles": [
-    "Control the far hip to prevent guard recovery and frame creation",
-    "Maintain chest pressure on the dragged leg to pin the hip",
-    "Stay perpendicular to opponent to prevent them turning into you",
-    "Keep your head tight to their body to prevent space creation",
-    "From bottom, immediate action prevents the pass - never accept the position passively",
-    "Bottom must choose between guard recovery and scrambling - half measures fail",
-    "The dragged leg creates a wedge that exposes the back if not addressed"
+    "Control the far hip to prevent guard recovery and frame creation—this is the critical control point that makes the position work",
+    "Maintain chest pressure on the dragged leg to pin the hip and restrict mobility throughout the passing sequence",
+    "Stay perpendicular to opponent to prevent them turning into you while maintaining balance and offensive options",
+    "Keep your head tight to their body to prevent space creation and maintain constant pressure",
+    "From bottom, immediate action prevents the pass—never accept the position passively or wait for opportunities",
+    "Bottom must choose between guard recovery and scrambling—half measures fail and result in completed passes",
+    "The dragged leg creates a wedge that exposes the back if not addressed with proper defensive framing"
   ],
   "related_positions": [
     {
       "name": "Headquarters Position",
-      "relationship": "Precursor position where leg drag is often initiated"
+      "relationship": "Precursor position where leg drag is often initiated from standing or knee cut attempts"
     },
     {
       "name": "Side Control",
-      "relationship": "Common completion target from successful leg drag"
+      "relationship": "Common completion target from successful leg drag via knee slice or pressure pass"
     },
     {
       "name": "Back Control",
-      "relationship": "High-percentage transition when bottom player turns away"
+      "relationship": "High-percentage transition when bottom player turns away to escape chest pressure"
     },
     {
       "name": "Knee Shield Half Guard",
-      "relationship": "Bottom player's primary recovery target"
+      "relationship": "Bottom player's primary recovery target when defending leg drag"
     },
     {
       "name": "Body Lock",
-      "relationship": "Can be combined with leg drag for enhanced control"
+      "relationship": "Can be combined with leg drag for enhanced control and passing sequences"
     },
     {
       "name": "Deep Half Guard",
-      "relationship": "Alternative recovery option for bottom player"
+      "relationship": "Alternative recovery option for bottom player when standard escapes are blocked"
     },
     {
       "name": "Turtle",
-      "relationship": "Defensive position bottom may transition to during escape attempts"
+      "relationship": "Defensive position bottom may transition to during escape attempts—risky but sometimes necessary"
     },
     {
       "name": "Butterfly Guard",
-      "relationship": "Guard structure bottom attempts to recover"
+      "relationship": "Guard structure bottom attempts to recover using free leg butterfly hook insertion"
+    },
+    {
+      "name": "Knee Slice Pass",
+      "relationship": "Primary finishing technique from leg drag position to side control"
+    },
+    {
+      "name": "Modern No-Gi Passing System",
+      "relationship": "Leg drag serves as core component of modern no-gi passing approaches"
     }
   ],
   "bottom": {
@@ -55,9 +63,11 @@
       "guard recovery",
       "leg drag defense",
       "passing defense",
-      "intermediate"
+      "intermediate",
+      "escape technique",
+      "guard retention"
     ],
-    "overview": "Being on bottom in the leg drag position is one of the most challenging defensive scenarios in Brazilian Jiu-Jitsu. The position represents a critical moment where your guard structure has been compromised and your opponent has achieved a dominant angle with control over your hip and leg. Understanding the mechanics of escape and prevention is essential for any practitioner looking to develop a complete defensive game.\n\nThe fundamental problem from bottom is that your hip has been controlled and one leg has been dragged across your body, eliminating many of your primary defensive tools. Your ability to create frames, maintain distance, and use your legs for guard retention has been severely compromised. The top player can apply significant pressure while maintaining the mobility to address your escape attempts. This asymmetry in position quality means that defensive actions must be immediate, decisive, and technically precise.\n\nSuccessful defense begins with early recognition and prevention. Once your opponent has established the leg drag with chest pressure and hip control, your options become increasingly limited. The key defensive principle is to never accept the position passively - you must immediately choose between recovering guard structures (butterfly, half guard, or leg-based guards) or creating a scramble to neutral positions. Half measures and tentative movements typically result in the pass completing or your back being taken.\n\nThe biomechanical challenge lies in the fact that the top player's pressure pins your hip while their control of your leg prevents normal shrimping mechanics. Standard hip escapes become ineffective because your mobility is restricted. Therefore, successful escapes often involve either creating frames to lift the pressure temporarily, granby rolling to invert and reset, or using the bottom leg to create butterfly hooks or half guard structures. Each option requires precise timing and commitment - hesitation almost always results in further positional deterioration.\n\nAdvanced practitioners develop sensitivity to the weight distribution and pressure patterns in the leg drag, allowing them to exploit moments of adjustment or transition. The goal is not merely to survive but to actively threaten reversals or sweeps that make the top player adjust their position, creating windows for guard recovery. Understanding the connection between the leg drag and back exposure is critical - you must never turn away from your opponent as this immediately exposes your back for taking.",
+    "overview": "Being on bottom in the **Leg Drag Position** is one of the most challenging defensive scenarios in Brazilian Jiu-Jitsu. The position represents a critical moment where your guard structure has been compromised and your opponent has achieved a dominant angle with control over your hip and leg. Understanding the mechanics of escape and prevention is essential for any practitioner looking to develop a complete defensive game.\n\nThe fundamental problem from bottom is that your hip has been controlled and one leg has been dragged across your body, eliminating many of your primary defensive tools. Your ability to create frames, maintain distance, and use your legs for guard retention has been severely compromised. The top player can apply significant pressure while maintaining the mobility to address your escape attempts. This asymmetry in position quality means that defensive actions must be immediate, decisive, and technically precise—hesitation almost always results in the pass completing.\n\nSuccessful defense begins with early recognition and prevention. Once your opponent has established the leg drag with chest pressure and hip control, your options become increasingly limited. The key defensive principle is to **never accept the position passively**—you must immediately choose between recovering guard structures (**[[Butterfly Guard]]**, **[[Half Guard]]**, or leg-based guards) or creating a scramble to neutral positions. Half measures and tentative movements typically result in the pass completing or your back being taken.\n\nThe biomechanical challenge lies in the fact that the top player's pressure pins your hip while their control of your leg prevents normal shrimping mechanics. Standard **[[Hip Escape]]** techniques become ineffective because your mobility is restricted. Therefore, successful escapes often involve either creating frames to lift the pressure temporarily, **[[Granby Roll]]** techniques to invert and reset, or using the bottom leg to create butterfly hooks or half guard structures. Each option requires precise timing and full commitment—hesitation almost always results in further positional deterioration.\n\nAdvanced practitioners develop sensitivity to the weight distribution and pressure patterns in the leg drag, allowing them to exploit moments of adjustment or transition. The goal is not merely to survive but to actively threaten reversals or sweeps that make the top player adjust their position, creating windows for guard recovery. Understanding the connection between the leg drag and back exposure is critical—you must **never turn away from your opponent** as this immediately exposes your back for taking through the back step transition.",
     "state_properties": {
       "point_value": 0,
       "position_type": "Defensive",
@@ -66,21 +76,21 @@
       "time_sustainability": "Short"
     },
     "state_invariants": [
-      "One leg is controlled and dragged across the body by the opponent, with their grip or pressure on the hip or knee preventing that leg from returning to guard position",
-      "The top player's chest or shoulder applies downward pressure on the dragged leg, pinning the bottom player's hip to the mat and restricting hip mobility",
-      "The bottom player's shoulders remain on or near the mat while the hips are partially turned, creating an asymmetric position where normal defensive frames are compromised"
+      "One leg is controlled and dragged across the body by the opponent, with their grip or pressure on the hip or knee preventing that leg from returning to guard position—this creates the fundamental control mechanism of the position",
+      "The top player's chest or shoulder applies continuous downward pressure on the dragged leg, pinning the bottom player's hip to the mat and restricting hip mobility necessary for standard escape techniques",
+      "The bottom player's shoulders remain on or near the mat while the hips are partially turned, creating an asymmetric position where normal defensive frames are compromised and standard shrimping becomes ineffective"
     ],
     "prerequisites": [
-      "Guard has been partially passed with one leg controlled",
-      "Top player has established hip control and chest pressure",
-      "Bottom player's ability to create distance has been compromised"
+      "Guard has been partially passed with one leg controlled by top player's grip or pressure",
+      "Top player has established hip control and chest pressure creating pin mechanics",
+      "Bottom player's ability to create distance has been compromised by leg positioning"
     ],
     "key_principles": [
-      "Never turn away from opponent - this immediately exposes the back",
-      "Create frames immediately using the free leg and far side arm",
-      "Target recovery to butterfly hooks or half guard as primary objectives",
-      "Use granby rolls or inversions when direct recovery is blocked",
-      "Recognize early and prevent completion - late defense rarely succeeds"
+      "Never turn away from opponent—this immediately exposes the back through the back step transition which is the top player's highest percentage finish from leg drag",
+      "Create frames immediately using the free leg and far side arm before pressure consolidates—proactive framing is exponentially more effective than reactive",
+      "Target recovery to butterfly hooks or half guard as primary objectives—these provide the leverage needed to escape or reverse",
+      "Use granby rolls or inversions when direct recovery is blocked—changing the plane of movement creates escape opportunities",
+      "Recognize early and prevent completion—late defense rarely succeeds as the position favors the top player exponentially over time"
     ],
     "offensive_transitions": [
       {
@@ -89,7 +99,8 @@
         "success_rates": {
           "beginner": 25,
           "intermediate": 40,
-          "advanced": 55
+          "advanced": 55,
+          "description": "Inserting butterfly hook with free leg to create lifting leverage and recover guard"
         }
       },
       {
@@ -98,7 +109,8 @@
         "success_rates": {
           "beginner": 30,
           "intermediate": 45,
-          "advanced": 60
+          "advanced": 60,
+          "description": "Most common recovery path—using bottom leg to secure half guard and establish knee shield"
         }
       },
       {
@@ -107,7 +119,8 @@
         "success_rates": {
           "beginner": 20,
           "intermediate": 35,
-          "advanced": 50
+          "advanced": 50,
+          "description": "Advanced option when standard recovery paths are blocked by top player's pressure"
         }
       },
       {
@@ -116,7 +129,8 @@
         "success_rates": {
           "beginner": 15,
           "intermediate": 30,
-          "advanced": 50
+          "advanced": 50,
+          "description": "Inverted rolling escape changing the plane of movement to create guard recovery"
         }
       },
       {
@@ -125,7 +139,8 @@
         "success_rates": {
           "beginner": 25,
           "intermediate": 40,
-          "advanced": 55
+          "advanced": 55,
+          "description": "Creating structural frames then shrimping to recover open guard distance"
         }
       },
       {
@@ -134,43 +149,48 @@
         "success_rates": {
           "beginner": 20,
           "intermediate": 35,
-          "advanced": 50
+          "advanced": 50,
+          "description": "Fighting for underhook control to prevent pass completion and create scramble opportunities"
         }
       }
     ],
     "defensive_responses": [
       {
         "technique": "Knee Slice Pass",
-        "target_position": "Side Control"
+        "target_position": "Side Control",
+        "success_rate": 60
       },
       {
         "technique": "Back Step",
-        "target_position": "Back Control"
+        "target_position": "Back Control",
+        "success_rate": 55
       },
       {
         "technique": "Pressure Pass",
-        "target_position": "Side Control"
+        "target_position": "Side Control",
+        "success_rate": 65
       },
       {
         "technique": "Transition to Mount",
-        "target_position": "Mount"
+        "target_position": "Mount",
+        "success_rate": 40
       }
     ],
     "counter_transitions": [
       {
         "technique": "Re-Guard",
         "target_position": "Butterfly Guard",
-        "trigger": "When top player shifts weight to complete pass"
+        "trigger": "When top player shifts weight forward to complete pass—exploit the weight shift to insert butterfly hook"
       },
       {
         "technique": "Rolling Back Take",
         "target_position": "Back Control",
-        "trigger": "When top player overcommits to chest pressure"
+        "trigger": "When top player overcommits to chest pressure—use their forward momentum to roll through and take their back"
       }
     ],
     "decision_tree": [
       {
-        "condition": "If opponent maintains chest pressure but has not secured underhook",
+        "condition": "If opponent maintains chest pressure but has not secured underhook control",
         "actions": [
           {
             "technique": "Butterfly Hook Recovery",
@@ -185,7 +205,7 @@
         ]
       },
       {
-        "condition": "If opponent begins back step motion to take back",
+        "condition": "If opponent begins back step motion to take back control",
         "actions": [
           {
             "technique": "Half Guard Recovery",
@@ -200,7 +220,7 @@
         ]
       },
       {
-        "condition": "If opponent's pressure is high but balance is compromised",
+        "condition": "If opponent's pressure is high but balance is compromised forward",
         "actions": [
           {
             "technique": "Granby Roll",
@@ -217,45 +237,45 @@
     ],
     "common_errors": [
       {
-        "error": "Turning away from opponent to escape pressure",
-        "consequence": "Immediately exposes back for easy back take",
-        "correction": "Always face opponent and work frames toward them, never turn away"
+        "error": "Turning away from opponent to escape uncomfortable chest pressure",
+        "consequence": "Immediately exposes back for easy back take via back step—this is the top player's highest percentage finish",
+        "correction": "Always face opponent and work frames toward them, never turn away even when pressure is intense"
       },
       {
-        "error": "Passive acceptance of position waiting for opponent mistake",
-        "consequence": "Pass completes or position deteriorates further as top player consolidates",
-        "correction": "Immediately begin active escape sequence upon recognizing leg drag"
+        "error": "Passive acceptance of position waiting for opponent mistake or opportunity",
+        "consequence": "Pass completes or position deteriorates further as top player consolidates control and pressure",
+        "correction": "Immediately begin active escape sequence upon recognizing leg drag—window for escape closes rapidly"
       },
       {
-        "error": "Attempting to push opponent's chest without creating frames",
-        "consequence": "Wastes energy while top player maintains pressure and control",
-        "correction": "Create frames with shin and arm before attempting to move opponent's weight"
+        "error": "Attempting to push opponent's chest without creating structural frames first",
+        "consequence": "Wastes energy while top player maintains pressure and control—muscular pushing fails against proper pressure",
+        "correction": "Create frames with shin and arm using bone structure before attempting to move opponent's weight"
       },
       {
-        "error": "Shrimping directly away without addressing leg control",
-        "consequence": "Movement is ineffective as dragged leg prevents hip escape",
-        "correction": "First recover butterfly hook or half guard before attempting major hip movement"
+        "error": "Shrimping directly away without addressing leg control mechanism",
+        "consequence": "Movement is ineffective as dragged leg prevents hip escape—energy wasted on ineffective technique",
+        "correction": "First recover butterfly hook or half guard before attempting major hip movement and escapes"
       },
       {
-        "error": "Posting free foot on mat without active defense",
-        "consequence": "Top player easily controls posted leg and completes pass",
-        "correction": "Use free leg actively for butterfly hooks or frames, never static posting"
+        "error": "Posting free foot on mat without active defensive purpose",
+        "consequence": "Top player easily controls posted leg and completes pass to side control or mount",
+        "correction": "Use free leg actively for butterfly hooks or frames, never static posting which creates vulnerability"
       }
     ],
     "training_drills": [
       {
         "name": "Leg Drag Recovery Flow",
-        "description": "Partner establishes leg drag position with 50% resistance. Bottom player practices cycling through butterfly hook recovery, half guard recovery, and granby roll options. 3 minutes per round.",
+        "description": "Partner establishes leg drag position with 50% resistance. Bottom player practices cycling through butterfly hook recovery, half guard recovery, and granby roll options. Focus on smooth transitions between recovery paths and recognizing which option is available based on top player's pressure distribution. Reset and repeat continuously.",
         "duration": "3 minutes"
       },
       {
         "name": "Progressive Resistance Escape",
-        "description": "Start with partner giving light pressure in leg drag. Bottom player escapes, then repeat with increasing resistance levels. Focus on timing and commitment to escape paths.",
+        "description": "Start with partner giving light pressure in leg drag position. Bottom player executes escape, then repeat with increasing resistance levels (30%, 50%, 70%, 90%). Focus on timing and commitment to escape paths. This builds understanding of how techniques change under increasing pressure and develops power in escape movements.",
         "duration": "5 minutes"
       },
       {
         "name": "Frame Creation Under Pressure",
-        "description": "Partner maintains heavy leg drag pressure. Bottom player works exclusively on creating and maintaining frames with free leg and far arm without attempting escape. Builds frame strength and pressure management.",
+        "description": "Partner maintains heavy leg drag pressure at 80-90% intensity. Bottom player works exclusively on creating and maintaining frames with free leg and far arm without attempting full escape. Builds frame strength, pressure management, and understanding of structural framing versus muscular pushing. Critical foundational drill for all pin escapes.",
         "duration": "2 minutes"
       }
     ],
@@ -276,31 +296,35 @@
     "related_content": [
       {
         "name": "Butterfly Guard",
-        "relationship": "Primary guard recovery target"
+        "relationship": "Primary guard recovery target using free leg butterfly hook insertion"
       },
       {
         "name": "Knee Shield Half Guard",
-        "relationship": "Alternative recovery structure"
+        "relationship": "Alternative recovery structure when butterfly hooks are blocked"
       },
       {
         "name": "Deep Half Guard",
-        "relationship": "Advanced recovery option when direct paths blocked"
+        "relationship": "Advanced recovery option when direct paths blocked by top pressure"
       },
       {
         "name": "Frame Creation",
-        "relationship": "Essential principle for creating escape space"
+        "relationship": "Essential principle for creating escape space under pin pressure"
       },
       {
         "name": "Guard Retention",
-        "relationship": "Prevents reaching leg drag position"
+        "relationship": "Prevents reaching leg drag position through proper distance management"
       },
       {
         "name": "Granby Roll Concept",
-        "relationship": "Key movement pattern for escaping leg drag"
+        "relationship": "Key movement pattern for escaping leg drag when standard paths fail"
       },
       {
         "name": "Back Control",
-        "relationship": "Danger position if escape fails and you turn away"
+        "relationship": "Danger position if escape fails and you turn away from opponent"
+      },
+      {
+        "name": "Pin Escape Methodology",
+        "relationship": "General framework for escaping pins applies to leg drag defense"
       }
     ],
     "position_metrics": {
@@ -308,26 +332,21 @@
         "beginner": 15,
         "intermediate": 30,
         "advanced": 50,
-        "description": "Ability to prevent pass completion from leg drag"
+        "description": "Ability to prevent pass completion from leg drag position"
       },
       "advancement_probability": {
         "beginner": 20,
         "intermediate": 35,
         "advanced": 55,
-        "description": "Successfully recovering to guard position"
+        "description": "Successfully recovering to guard position from leg drag"
       },
       "submission_probability": {
         "beginner": 5,
         "intermediate": 10,
         "advanced": 20,
-        "description": "Rare but possible through reversals and counters"
+        "description": "Rare but possible through reversals and counter attacks"
       },
       "average_time": "10-20 seconds before pass completes or guard recovered"
-    },
-    "expert_insights": {
-      "danaher": "The leg drag bottom position represents a failure of distance management and connection control. The bottom player's primary error occurred earlier when they allowed the opponent to achieve the angle and leg control necessary for the drag. Once in the position, the biomechanical reality is that your hip mobility has been severely compromised by the interaction of their chest pressure and leg control. The solution requires understanding that you cannot escape through the same plane they're controlling - you must either go underneath via granby rolls and inversions, or you must recover connection points through butterfly hooks or half guard structures. The key technical detail is that your free leg must be active, not reactive. Create butterfly hooks immediately while using your far arm to frame against their head or shoulder. Never turn away as this creates the precise angle for back exposure that makes the leg drag dangerous. The position punishes passive defense more severely than almost any other passing position.",
-      "gordon_ryan": "In competition, the leg drag is one of the highest percentage passing positions because it removes so many defensive options simultaneously. When I'm on bottom here, I know I have a very short window to act - maybe 3-4 seconds before the position becomes nearly impossible to escape. My priority is immediately getting a butterfly hook with the free leg while framing with my far arm. If that's blocked, I'm granby rolling without hesitation because staying flat is death. The guys who get passed from here are the ones who wait and try to feel out what the top player is doing. You can't afford that luxury - you need to attack the position immediately with full commitment. I also never turn away from the leg drag even though the pressure is uncomfortable. Turning away is how you give up your back instantly. If I can't recover guard in the first exchange, I'm looking to create a scramble or at minimum get to turtle with defensive grips, which is better than getting passed flat.",
-      "eddie_bravo": "The leg drag is tough because it shuts down a lot of the flexibility-based escapes that work from other positions. You can't really rubber guard your way out of this one. What I teach is that you need to be unpredictable and explosive. If the guy is expecting you to try to recover half guard, maybe you invert and granby instead. If he's ready for the granby, you attack the butterfly hook. The key is not letting him settle and apply that crushing pressure. We also work a lot on the transition from leg drag defense into lockdown if you can get your leg around - it's a narrow window but it exists. The worst thing you can do is accept the position and just defend. You need to make him work and create chaos because that's where your opportunities are. Sometimes creating a scramble is better than a perfect technical escape that he's already prepared to counter."
     }
   },
   "top": {
@@ -338,9 +357,11 @@
       "guard passing",
       "leg drag",
       "passing position",
-      "intermediate"
+      "intermediate",
+      "pressure passing",
+      "modern passing"
     ],
-    "overview": "The leg drag position from top is one of the most powerful and versatile passing positions in modern Brazilian Jiu-Jitsu. It represents a critical juncture where you have successfully controlled your opponent's leg and hip, creating a dominant angle that facilitates multiple high-percentage passing and back-taking opportunities. The position's effectiveness lies in its ability to simultaneously restrict the bottom player's defensive options while maintaining your mobility and offensive initiative.\n\nThe fundamental mechanics of the position involve dragging one of the opponent's legs across their body while maintaining chest pressure and hip control. This configuration creates a powerful mechanical advantage where you can apply significant pressure while the opponent's ability to create frames, maintain distance, or recover guard is severely compromised. The angle you create by moving perpendicular to their body is crucial - it prevents them from turning into you while setting up direct paths to side control, mount, or the back.\n\nFrom a strategic perspective, the leg drag excels because it bypasses many modern guard retention systems. Rather than dealing with complex grips, frames, and leg configurations, you're directly controlling the hip and removing their ability to use their legs defensively. This makes it particularly effective against practitioners who rely heavily on distance management and leg-based guards like De La Riva, X-guard, or butterfly guard. The position scales exceptionally well from beginner to advanced levels - the basic mechanics are accessible to newer practitioners while advanced variations and combinations provide depth for experienced grapplers.\n\nThe position requires careful pressure management and positional awareness. Too much commitment to chest pressure without controlling the far hip can allow granby rolls or inversions. Insufficient pressure allows the bottom player to create butterfly hooks or recover half guard. The sweet spot involves maintaining enough pressure to restrict their movement while staying mobile enough to react to their escape attempts. Your head position is critical - keeping it tight to their body prevents space creation while maintaining enough awareness to react to their movements.\n\nAdvanced applications of the leg drag involve chaining it with other positions and creating multiple layers of control. The body lock connection, headquarters integration, and seamless transitions to back takes have made the position a cornerstone of modern passing systems. Competitors like Lucas Lepri, the Miyao brothers, and Lachlan Giles have demonstrated the position's effectiveness at the highest levels, developing variations that continue to evolve the technique. Understanding the leg drag from top is essential for any practitioner looking to develop a complete modern passing game.",
+    "overview": "The **Leg Drag Position** from top is one of the most powerful and versatile passing positions in modern Brazilian Jiu-Jitsu. It represents a critical juncture where you have successfully controlled your opponent's leg and hip, creating a dominant angle that facilitates multiple high-percentage passing and back-taking opportunities. The position's effectiveness lies in its ability to simultaneously restrict the bottom player's defensive options while maintaining your mobility and offensive initiative.\n\nThe fundamental mechanics of the position involve dragging one of the opponent's legs across their body while maintaining chest pressure and hip control. This configuration creates a powerful mechanical advantage where you can apply significant pressure while the opponent's ability to create frames, maintain distance, or recover guard is severely compromised. The angle you create by moving perpendicular to their body is crucial—it prevents them from turning into you while setting up direct paths to **[[Side Control]]**, **[[Mount]]**, or **[[Back Control]]**.\n\nFrom a strategic perspective, the leg drag excels because it bypasses many modern guard retention systems. Rather than dealing with complex grips, frames, and leg configurations, you're directly controlling the hip and removing their ability to use their legs defensively. This makes it particularly effective against practitioners who rely heavily on distance management and leg-based guards like **[[De La Riva Guard]]**, **[[X-Guard]]**, or **[[Butterfly Guard]]**. The position scales exceptionally well from beginner to advanced levels—the basic mechanics are accessible to newer practitioners while advanced variations and combinations provide depth for experienced grapplers.\n\nThe position requires careful pressure management and positional awareness. Too much commitment to chest pressure without controlling the far hip can allow **[[Granby Roll]]** escapes or inversions. Insufficient pressure allows the bottom player to create butterfly hooks or recover **[[Half Guard]]**. The sweet spot involves maintaining enough pressure to restrict their movement while staying mobile enough to react to their escape attempts. Your head position is critical—keeping it tight to their body prevents space creation while maintaining enough awareness to react to their movements.\n\nAdvanced applications of the leg drag involve chaining it with other positions and creating multiple layers of control. The **[[Body Lock Pass]]** connection, **[[Headquarters Position]]** integration, and seamless transitions to back takes have made the position a cornerstone of modern passing systems. Competitors like Lucas Lepri, the Miyao brothers, and Lachlan Giles have demonstrated the position's effectiveness at the highest levels, developing variations that continue to evolve the technique. Understanding the leg drag from top is essential for any practitioner looking to develop a complete modern passing game.",
     "state_properties": {
       "point_value": 0,
       "position_type": "Offensive",
@@ -349,22 +370,22 @@
       "time_sustainability": "Short to Medium"
     },
     "state_invariants": [
-      "One of the opponent's legs is controlled and dragged across their body, with your grip on their hip or knee preventing that leg from returning to a guard structure",
-      "Your chest or shoulder applies continuous downward pressure on the dragged leg, pinning their hip to the mat and restricting their ability to shrimp or create frames",
-      "Your body position is perpendicular or at an acute angle to the opponent's torso, preventing them from squaring up or turning into you while maintaining your balance and mobility"
+      "One of the opponent's legs is controlled and dragged across their body, with your grip on their hip or knee preventing that leg from returning to a guard structure—this is the fundamental control mechanism",
+      "Your chest or shoulder applies continuous downward pressure on the dragged leg, pinning their hip to the mat and restricting their ability to shrimp or create defensive frames",
+      "Your body position is perpendicular or at an acute angle to the opponent's torso, preventing them from squaring up or turning into you while maintaining your balance and mobility to finish the pass"
     ],
     "prerequisites": [
-      "Initial leg control established from standing, headquarters, or guard passing entry",
-      "Opponent's guard structure has been disrupted",
-      "Angle created to drag leg across opponent's body"
+      "Initial leg control established from standing, headquarters, or guard passing entry sequence",
+      "Opponent's guard structure has been disrupted through grip breaking or leg control",
+      "Angle created to drag leg across opponent's body perpendicular to their torso"
     ],
     "key_principles": [
-      "Maintain chest pressure on dragged leg while controlling far hip",
-      "Stay perpendicular to opponent to prevent them squaring up",
-      "Keep head tight to body to prevent space creation",
-      "React to escape attempts by transitioning to back or completing pass",
-      "Never allow opponent to establish butterfly hooks with free leg",
-      "Control far hip to prevent granby rolls and inversions"
+      "Maintain chest pressure on dragged leg while controlling far hip—dual control points are critical for position maintenance",
+      "Stay perpendicular to opponent to prevent them squaring up or recovering guard structures",
+      "Keep head tight to body to prevent space creation and maintain constant pressure awareness",
+      "React to escape attempts by transitioning to back or completing pass—leg drag is transitional, not static",
+      "Never allow opponent to establish butterfly hooks with free leg—this provides leverage to escape",
+      "Control far hip to prevent granby rolls and inversions which are primary escape mechanisms"
     ],
     "offensive_transitions": [
       {
@@ -373,7 +394,8 @@
         "success_rates": {
           "beginner": 40,
           "intermediate": 60,
-          "advanced": 75
+          "advanced": 75,
+          "description": "Primary finishing technique—driving knee through to side control"
         }
       },
       {
@@ -382,7 +404,8 @@
         "success_rates": {
           "beginner": 30,
           "intermediate": 50,
-          "advanced": 70
+          "advanced": 70,
+          "description": "When opponent turns away—step over to take back control"
         }
       },
       {
@@ -391,7 +414,8 @@
         "success_rates": {
           "beginner": 45,
           "intermediate": 60,
-          "advanced": 75
+          "advanced": 75,
+          "description": "Maintaining heavy pressure while passing to side control"
         }
       },
       {
@@ -400,7 +424,8 @@
         "success_rates": {
           "beginner": 25,
           "intermediate": 40,
-          "advanced": 60
+          "advanced": 60,
+          "description": "Direct mount transition bypassing side control"
         }
       },
       {
@@ -409,7 +434,8 @@
         "success_rates": {
           "beginner": 35,
           "intermediate": 50,
-          "advanced": 65
+          "advanced": 65,
+          "description": "Combining body lock with leg drag for enhanced control"
         }
       },
       {
@@ -418,7 +444,8 @@
         "success_rates": {
           "beginner": 30,
           "intermediate": 45,
-          "advanced": 60
+          "advanced": 60,
+          "description": "Alternative passing finish to north-south control"
         }
       },
       {
@@ -427,7 +454,8 @@
         "success_rates": {
           "beginner": 35,
           "intermediate": 50,
-          "advanced": 65
+          "advanced": 65,
+          "description": "Transitional pressure position before finalizing pass"
         }
       },
       {
@@ -436,7 +464,8 @@
         "success_rates": {
           "beginner": 25,
           "intermediate": 40,
-          "advanced": 55
+          "advanced": 55,
+          "description": "Weaving leg through to secure passing position"
         }
       }
     ],
@@ -466,17 +495,17 @@
       {
         "technique": "Back Step to Back Take",
         "target_position": "Back Control",
-        "trigger": "When opponent turns away to escape chest pressure"
+        "trigger": "When opponent turns away to escape chest pressure—immediately step over to take back"
       },
       {
         "technique": "Immediate Knee Slice",
         "target_position": "Side Control",
-        "trigger": "When opponent attempts to create butterfly hook with free leg"
+        "trigger": "When opponent attempts to create butterfly hook with free leg—drive knee through immediately"
       },
       {
         "technique": "Body Lock Consolidation",
         "target_position": "Body Lock",
-        "trigger": "When opponent's hip mobility increases and standard leg drag weakens"
+        "trigger": "When opponent's hip mobility increases and standard leg drag weakens—transition to body lock for enhanced control"
       }
     ],
     "decision_tree": [
@@ -526,7 +555,7 @@
         ]
       },
       {
-        "condition": "If opponent begins granby roll or inversion",
+        "condition": "If opponent begins granby roll or inversion escape attempt",
         "actions": [
           {
             "technique": "Follow to Back",
@@ -544,54 +573,54 @@
     "common_errors": [
       {
         "error": "Overcommitting weight to chest pressure without controlling far hip",
-        "consequence": "Opponent can granby roll underneath or invert to escape",
-        "correction": "Balance chest pressure with far hip control using arm or head position"
+        "consequence": "Opponent can granby roll underneath or invert to escape the position entirely",
+        "correction": "Balance chest pressure with far hip control using arm or head position for dual control points"
       },
       {
-        "error": "Staying too square to opponent instead of perpendicular",
+        "error": "Staying too square to opponent instead of maintaining perpendicular angle",
         "consequence": "Opponent can turn into you and recover guard or half guard easily",
-        "correction": "Maintain perpendicular angle with head tight to their body"
+        "correction": "Maintain perpendicular angle with head tight to their body preventing them from squaring up"
       },
       {
         "error": "Allowing opponent to establish butterfly hook with free leg",
-        "consequence": "Hook provides lever to lift and escape, negating leg drag control",
+        "consequence": "Hook provides lever to lift and escape, negating all leg drag control mechanisms",
         "correction": "React immediately to butterfly hook attempt with knee slice or pressure adjustment"
       },
       {
         "error": "Lifting chest pressure prematurely during passing transition",
-        "consequence": "Creates space for opponent to recover guard structures",
+        "consequence": "Creates space for opponent to recover guard structures or insert defensive frames",
         "correction": "Maintain pressure throughout transition, only releasing when control is established in next position"
       },
       {
-        "error": "Ignoring opponent's turn away movement",
-        "consequence": "Misses high-percentage back take opportunity",
-        "correction": "Recognize turn away immediately and transition to back step or back take"
+        "error": "Ignoring opponent's turn away movement to escape pressure",
+        "consequence": "Misses high-percentage back take opportunity which is often easier than completing the pass",
+        "correction": "Recognize turn away immediately and transition to back step or back take without hesitation"
       },
       {
-        "error": "Static pressure without positional progression",
-        "consequence": "Wastes energy while opponent finds escape timing",
-        "correction": "Use leg drag as transitional position, immediately progress to pass or back take"
+        "error": "Static pressure without positional progression or finishing commitment",
+        "consequence": "Wastes energy while opponent finds escape timing—leg drag is transitional, not a resting position",
+        "correction": "Use leg drag as transitional position, immediately progress to pass or back take within 5-10 seconds"
       }
     ],
     "training_drills": [
       {
         "name": "Leg Drag to Multiple Finishes",
-        "description": "Establish leg drag position and practice transitioning between knee slice, back step, and pressure pass finishes. Partner provides 50% resistance. Focus on maintaining control throughout transitions.",
+        "description": "Establish leg drag position and practice transitioning between knee slice, back step, and pressure pass finishes. Partner provides 50% resistance. Focus on maintaining control throughout transitions and recognizing which finish is appropriate based on opponent's defensive reactions. Develop smooth, flowing transitions between finishing options.",
         "duration": "5 minutes"
       },
       {
         "name": "Leg Drag Entry Flow",
-        "description": "Partner plays various guards (butterfly, De La Riva, open guard). Practice entering leg drag position from each guard structure. Emphasize angle creation and initial control establishment.",
+        "description": "Partner plays various guards (butterfly, De La Riva, open guard). Practice entering leg drag position from each guard structure. Emphasize angle creation and initial control establishment. This develops pattern recognition for leg drag opportunities from different guard types and improves entry timing and execution.",
         "duration": "5 minutes"
       },
       {
         "name": "Pressure Management Drill",
-        "description": "Hold leg drag position while partner attempts specific escapes (butterfly hook, granby roll, half guard recovery). Focus on adjusting pressure and position to shut down each escape without losing control.",
+        "description": "Hold leg drag position while partner attempts specific escapes (butterfly hook, granby roll, half guard recovery). Focus on adjusting pressure and position to shut down each escape without losing control. Develops sensitivity to opponent's movements and appropriate pressure adjustments. Partner cycles through different escape attempts.",
         "duration": "3 minutes"
       },
       {
-        "name": "Back Take Recognition",
-        "description": "Partner in leg drag bottom randomly turns away during the round. Practice immediate recognition and back step transition. Develop sensitivity to opponent's turning movement.",
+        "name": "Back Take Recognition Drill",
+        "description": "Partner in leg drag bottom randomly turns away during the round. Practice immediate recognition and back step transition. Develop sensitivity to opponent's turning movement and automatic response patterns. This is critical as back take from leg drag is often higher percentage than completing the pass.",
         "duration": "3 minutes"
       }
     ],
@@ -616,39 +645,39 @@
     "related_content": [
       {
         "name": "Headquarters Position",
-        "relationship": "Common entry position to leg drag"
+        "relationship": "Common entry position to leg drag from standing or kneeling"
       },
       {
         "name": "Side Control",
-        "relationship": "Primary finishing position from leg drag pass"
+        "relationship": "Primary finishing position from leg drag pass via knee slice"
       },
       {
         "name": "Back Control",
-        "relationship": "Alternative finish when opponent turns away"
+        "relationship": "Alternative finish when opponent turns away to escape pressure"
       },
       {
         "name": "Body Lock",
-        "relationship": "Can be combined for enhanced control"
+        "relationship": "Can be combined with leg drag for enhanced control and passing"
       },
       {
         "name": "Knee Slice Pass",
-        "relationship": "Primary passing technique from leg drag"
+        "relationship": "Primary passing technique from leg drag to side control"
       },
       {
         "name": "Pressure Pass",
-        "relationship": "Alternative passing finish"
+        "relationship": "Alternative passing finish maintaining heavy pressure throughout"
       },
       {
-        "name": "Guard Passing Principles",
-        "relationship": "Fundamental concepts applied in leg drag"
+        "name": "Guard Passing System Overview",
+        "relationship": "Fundamental concepts applied in leg drag passing sequences"
       },
       {
         "name": "Leg Drag Pass",
-        "relationship": "Entry technique to establish this position"
+        "relationship": "Entry technique to establish this position from various guards"
       },
       {
         "name": "Modern No-Gi Passing System",
-        "relationship": "Leg drag as core component"
+        "relationship": "Leg drag as core component of modern no-gi passing approaches"
       }
     ],
     "position_metrics": {
@@ -662,7 +691,7 @@
         "beginner": 55,
         "intermediate": 70,
         "advanced": 85,
-        "description": "Successfully completing pass or taking back"
+        "description": "Successfully completing pass or taking back from leg drag"
       },
       "submission_probability": {
         "beginner": 15,
@@ -671,11 +700,6 @@
         "description": "Finishing submission from positions accessed via leg drag"
       },
       "average_time": "8-15 seconds to complete pass or transition to back"
-    },
-    "expert_insights": {
-      "danaher": "The leg drag represents one of the most mechanically efficient passing positions available to the modern grappler. Its effectiveness stems from the simultaneous achievement of multiple objectives: you control the opponent's hip directly, you remove their ability to create distance with their legs, and you establish an angle that naturally facilitates progression to dominant positions. The critical technical detail that separates effective from ineffective leg drags is the perpendicular relationship between your torso and theirs. When you maintain this angle while applying chest pressure to the dragged leg, you create a geometric configuration where their escape options are severely limited. They cannot turn into you without exposing their back, they cannot create frames because your pressure pins their hip, and they cannot shrimp effectively because their leg position prevents normal hip mobility. The position demands active finishing - you must immediately transition to either the knee slice pass, back step to back control, or pressure pass. Static maintenance of the leg drag allows skilled opponents to find timing for escapes through granby rolls or butterfly hook recovery.",
-      "gordon_ryan": "The leg drag is one of my highest percentage passing positions in competition because it gives me multiple finishing options while keeping the opponent extremely limited in what they can do. When I establish the leg drag, I'm immediately reading whether they're staying flat or starting to turn away. If they stay flat and try to frame, I'm finishing with the knee slice or pressure pass. If they turn away even slightly, I'm taking the back without hesitation - that back step is probably 80% effective at my level. The key is not sitting in the position trying to hold them down. You use the leg drag as a checkpoint position - you establish it, read their defensive reaction, and immediately go to the appropriate finish. I also pay close attention to their free leg. If I feel them trying to get a butterfly hook, I'm adjusting my angle or driving my knee through immediately. The worst thing you can do is let them establish frames and hooks while you're trying to hold the position. Be aggressive in finishing from the leg drag.",
-      "eddie_bravo": "The leg drag works great in no-gi because you don't have to worry about their grips slowing you down. What I like about it is that it naturally flows into other positions - if they defend the pass, you can often get the back, and if they defend the back take, you can finish the pass. It's a win-win situation. The thing we emphasize is keeping your head tight to their body and staying mobile. You're not sitting there holding them down forever - you're actively working to finish. We also chain the leg drag with the body lock a lot in 10th Planet because they complement each other really well. If the leg drag is getting defended, you can switch to the body lock and vice versa. The beauty of modern passing is that everything connects and flows together. The leg drag is one of those positions that opens up so many doors if you know how to use it right."
     }
   }
 }
