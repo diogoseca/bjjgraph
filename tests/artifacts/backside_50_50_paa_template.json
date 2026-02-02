@@ -1,0 +1,116 @@
+{
+  "article_path": "source/content/Positions/Ashi Garami/Backside 50-50.json",
+  "seed_keyword": "Backside 50-50",
+  "paa_questions": [
+    {
+      "question": "What is backside 50-50 in BJJ?",
+      "answer_snippet": "[TO BE FILLED FROM DATAFORSEO]",
+      "source_url": "[TO BE FILLED FROM DATAFORSEO]",
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "rationale": "Core definitional question - should be front-loaded in overview section with clear, concise answer"
+    },
+    {
+      "question": "How do you escape backside 50-50?",
+      "answer_snippet": "[TO BE FILLED FROM DATAFORSEO]",
+      "source_url": "[TO BE FILLED FROM DATAFORSEO]",
+      "priority": "high",
+      "integration_strategy": "dedicated_faq",
+      "rationale": "High-intent user query - practical application question that drives traffic"
+    },
+    {
+      "question": "What are the best submissions from backside 50-50?",
+      "answer_snippet": "[TO BE FILLED FROM DATAFORSEO]",
+      "source_url": "[TO BE FILLED FROM DATAFORSEO]",
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "rationale": "Aligns with offensive_transitions section - optimize heading to match query"
+    },
+    {
+      "question": "Is backside 50-50 good for beginners?",
+      "answer_snippet": "[TO BE FILLED FROM DATAFORSEO]",
+      "source_url": "[TO BE FILLED FROM DATAFORSEO]",
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "rationale": "Skill level assessment question - add to prerequisites or overview"
+    },
+    {
+      "question": "What's the difference between 50-50 and backside 50-50?",
+      "answer_snippet": "[TO BE FILLED FROM DATAFORSEO]",
+      "source_url": "[TO BE FILLED FROM DATAFORSEO]",
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "rationale": "Comparison query - strengthen related_positions section with clear differentiation"
+    },
+    {
+      "question": "How do you defend heel hooks from backside 50-50?",
+      "answer_snippet": "[TO BE FILLED FROM DATAFORSEO]",
+      "source_url": "[TO BE FILLED FROM DATAFORSEO]",
+      "priority": "medium",
+      "integration_strategy": "improve_heading",
+      "rationale": "Defensive technique question - optimize key_principles or defensive_responses"
+    },
+    {
+      "question": "When should you use backside 50-50?",
+      "answer_snippet": "[TO BE FILLED FROM DATAFORSEO]",
+      "source_url": "[TO BE FILLED FROM DATAFORSEO]",
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "rationale": "Strategic timing question - currently missing from content"
+    }
+  ],
+  "heading_optimizations": [
+    {
+      "current": "Overview",
+      "suggested": "What is Backside 50-50 in BJJ? Complete Position Overview",
+      "rationale": "Matches primary PAA question pattern - front-loads definition for featured snippets"
+    },
+    {
+      "current": "Offensive Transitions (Bottom)",
+      "suggested": "How to Escape Backside 50-50: Bottom Player Techniques",
+      "rationale": "Reframes defensive perspective in question format to match user search intent"
+    },
+    {
+      "current": "Offensive Transitions (Top)",
+      "suggested": "Best Submissions from Backside 50-50 Top Position",
+      "rationale": "Directly answers high-intent submission query with keyword optimization"
+    },
+    {
+      "current": "Key Principles",
+      "suggested": "What Makes Backside 50-50 Different? Key Mechanical Principles",
+      "rationale": "Addresses comparison query while maintaining technical depth"
+    }
+  ],
+  "missing_content_opportunities": [
+    {
+      "section": "When to Use Backside 50-50",
+      "priority": "medium",
+      "description": "Add dedicated section explaining strategic contexts for entering this position - leg lock exchanges, scrambles, transitions from standard 50-50"
+    },
+    {
+      "section": "Beginner vs Advanced Application",
+      "priority": "medium",
+      "description": "Explicitly address skill level requirements and progression path - currently only implied through success rates"
+    },
+    {
+      "section": "Common Mistakes in Backside 50-50",
+      "priority": "low",
+      "description": "Already covered in common_errors but could optimize heading to match conversational query pattern"
+    },
+    {
+      "section": "Backside 50-50 vs Standard 50-50 Comparison",
+      "priority": "high",
+      "description": "Add explicit comparison table or section highlighting mechanical and tactical differences between variants"
+    }
+  ],
+  "seo_recommendations": {
+    "title_optimization": "Current title should include primary keyword earlier and match PAA question format",
+    "meta_description": "Should answer 'What is backside 50-50?' in first sentence, then highlight escapes and submissions",
+    "featured_snippet_targets": [
+      "What is backside 50-50 in BJJ?",
+      "How do you escape backside 50-50?",
+      "What are the best submissions from backside 50-50?"
+    ],
+    "internal_linking": "Add links to 50-50 Guard, Inside Ashi-Garami, and Saddle with anchor text matching PAA questions"
+  }
+}
