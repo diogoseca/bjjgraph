@@ -8,7 +8,7 @@ description: "Master Crackhead Control in BJJ. Complete guide to Eddie Bravo's i
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub">
 
 
 

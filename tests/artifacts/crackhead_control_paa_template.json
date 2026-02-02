@@ -1,0 +1,147 @@
+{
+  "article_path": "source/content/Positions/Crackhead Control.json",
+  "seed_keyword": "Crackhead Control",
+  "paa_questions": [
+    {
+      "question": "What is crackhead control in BJJ?",
+      "answer_snippet": "[TO BE FILLED FROM DATAFORSEO]",
+      "source_url": "[TO BE FILLED FROM DATAFORSEO]",
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "rationale": "Primary definitional query - must be answered immediately in overview with clear explanation"
+    },
+    {
+      "question": "Who invented crackhead control?",
+      "answer_snippet": "[TO BE FILLED FROM DATAFORSEO]",
+      "source_url": "[TO BE FILLED FROM DATAFORSEO]",
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "rationale": "Historical context question - currently mentions Eddie Bravo/10th Planet but not explicitly in QA format"
+    },
+    {
+      "question": "How do you escape crackhead control?",
+      "answer_snippet": "[TO BE FILLED FROM DATAFORSEO]",
+      "source_url": "[TO BE FILLED FROM DATAFORSEO]",
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "rationale": "High-intent defensive question - optimize bottom perspective sections with this phrasing"
+    },
+    {
+      "question": "What is the chair sit position in BJJ?",
+      "answer_snippet": "[TO BE FILLED FROM DATAFORSEO]",
+      "source_url": "[TO BE FILLED FROM DATAFORSEO]",
+      "priority": "high",
+      "integration_strategy": "dedicated_faq",
+      "rationale": "Related technical term - needs explicit definition as it's core to crackhead control mechanics"
+    },
+    {
+      "question": "What submissions work from crackhead control?",
+      "answer_snippet": "[TO BE FILLED FROM DATAFORSEO]",
+      "source_url": "[TO BE FILLED FROM DATAFORSEO]",
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "rationale": "Offensive application query - reframe top position offensive transitions section"
+    },
+    {
+      "question": "Is crackhead control legal in IBJJF?",
+      "answer_snippet": "[TO BE FILLED FROM DATAFORSEO]",
+      "source_url": "[TO BE FILLED FROM DATAFORSEO]",
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "rationale": "Competition legality question - currently not addressed but important for competitive practitioners"
+    },
+    {
+      "question": "How do you enter crackhead control?",
+      "answer_snippet": "[TO BE FILLED FROM DATAFORSEO]",
+      "source_url": "[TO BE FILLED FROM DATAFORSEO]",
+      "priority": "medium",
+      "integration_strategy": "improve_heading",
+      "rationale": "Entry mechanics query - optimize prerequisites or add dedicated entry section"
+    },
+    {
+      "question": "What is 10th Planet crackhead control?",
+      "answer_snippet": "[TO BE FILLED FROM DATAFORSEO]",
+      "source_url": "[TO BE FILLED FROM DATAFORSEO]",
+      "priority": "medium",
+      "integration_strategy": "improve_heading",
+      "rationale": "System-specific variant question - emphasize 10th Planet origin in overview"
+    }
+  ],
+  "heading_optimizations": [
+    {
+      "current": "Overview",
+      "suggested": "What is Crackhead Control? Eddie Bravo's Innovative Turtle System",
+      "rationale": "Combines primary PAA question with inventor attribution for comprehensive snippet targeting"
+    },
+    {
+      "current": "Crackhead Control Bottom",
+      "suggested": "How to Escape Crackhead Control: Bottom Defense Guide",
+      "rationale": "Reframes section as answer to high-intent escape query"
+    },
+    {
+      "current": "Crackhead Control Top",
+      "suggested": "What Submissions Work from Crackhead Control Top?",
+      "rationale": "Directly answers offensive application query in heading"
+    },
+    {
+      "current": "Key Principles (Bottom)",
+      "suggested": "Why is Crackhead Control Effective? Core Defense Principles",
+      "rationale": "Transforms principle list into why/effectiveness question format"
+    },
+    {
+      "current": "State Invariants (Top)",
+      "suggested": "What is the Chair Sit Position in Crackhead Control?",
+      "rationale": "Addresses related technical term query directly"
+    }
+  ],
+  "missing_content_opportunities": [
+    {
+      "section": "History and Origin of Crackhead Control",
+      "priority": "high",
+      "description": "Add dedicated section explaining Eddie Bravo's development of this position within 10th Planet system - currently scattered throughout text"
+    },
+    {
+      "section": "IBJJF Legality and Competition Rules",
+      "priority": "medium",
+      "description": "Address competition legality explicitly - practitioners need to know if they can use this in tournaments"
+    },
+    {
+      "section": "Step-by-Step Entry Mechanics",
+      "priority": "high",
+      "description": "Add detailed entry section for top position - currently only prerequisites listed"
+    },
+    {
+      "section": "Chair Sit Mechanics Explained",
+      "priority": "high",
+      "description": "Create standalone explanation section for chair sit position since it's queried independently"
+    },
+    {
+      "section": "Crackhead Control vs Traditional Turtle Control",
+      "priority": "medium",
+      "description": "Add explicit comparison highlighting what makes crackhead control different from standard turtle attacks"
+    },
+    {
+      "section": "Why is it Called Crackhead Control?",
+      "priority": "low",
+      "description": "Address the unusual name - currently mentioned but could be made more explicit for SEO"
+    }
+  ],
+  "seo_recommendations": {
+    "title_optimization": "Should lead with 'What is Crackhead Control?' and include 'Eddie Bravo' for inventor attribution",
+    "meta_description": "Must answer definitional question first, then mention inventor, escapes, and submissions within 155 characters",
+    "featured_snippet_targets": [
+      "What is crackhead control in BJJ?",
+      "Who invented crackhead control?",
+      "What is the chair sit position?",
+      "What submissions work from crackhead control?"
+    ],
+    "internal_linking": "Add links to Turtle, Back Control, Truck, and Eddie Bravo-related positions with PAA-optimized anchor text",
+    "keyword_variations": [
+      "crackhead control BJJ",
+      "crackhead position jiu jitsu",
+      "10th planet crackhead control",
+      "chair sit position BJJ",
+      "Eddie Bravo crackhead control"
+    ]
+  }
+}
