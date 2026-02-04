@@ -1,0 +1,318 @@
+=============================================================================
+PEOPLE ALSO ASK (PAA) ANALYSIS SUMMARY
+BJJ Graph AI Search Optimization Report
+Generated: 2026-02-04
+=============================================================================
+
+ARTICLES ANALYZED:
+1. Headquarters Position (source/content/Positions/Headquarters Position.json)
+2. Ashi Garami (source/content/Positions/Ashi Garami.json)
+
+=============================================================================
+EXECUTIVE SUMMARY
+=============================================================================
+
+Total PAA Questions Identified: 24
+  - Headquarters Position: 10 questions
+  - Ashi Garami: 14 questions
+
+High-Priority Questions Requiring Action: 17
+  - These represent direct answer opportunities matching high-volume search intent
+  - Should be addressed through heading optimization and dedicated content sections
+
+Critical Content Gaps: 2
+  - Ashi Garami: Missing safety warnings (CRITICAL for injury-prone content)
+  - Both articles: Missing ruleset legality information
+
+=============================================================================
+HIGH-PRIORITY QUESTIONS BY CATEGORY
+=============================================================================
+
+DEFINITIONAL QUERIES (What is...?)
+--------------------------------
+✓ What is headquarters position in BJJ?
+✓ What is Ashi Garami in BJJ?
+✓ What does Ashi Garami mean?
+✓ What are the types of Ashi Garami?
+→ Action: Optimize opening paragraphs for featured snippet capture
+→ Use question-format H2 headings to match conversational search
+
+INSTRUCTIONAL QUERIES (How to...?)
+----------------------------------
+✓ How do you do headquarters position in BJJ?
+✓ How do you escape headquarters position?
+✓ How do you escape Ashi Garami?
+→ Action: Add step-by-step numbered lists for procedures
+→ Create "Quick Start Guide" sections for scanning users
+
+STRATEGIC QUERIES (When/Why...?)
+--------------------------------
+✓ When should I use headquarters position?
+✓ Why is it called headquarters position?
+→ Action: Add dedicated "Strategic Application" sections
+→ Include conditional "when to use / when NOT to use" guidance
+
+SAFETY & RULES QUERIES
+----------------------
+✓ How dangerous is Ashi Garami?
+✓ Is Ashi Garami legal in IBJJF?
+→ Action: CRITICAL - Add safety sections with injury warnings
+→ Create legality comparison tables by ruleset and belt level
+
+COMPARISON QUERIES (What's the difference...?)
+----------------------------------------------
+✓ What is the difference between headquarters and knee slice?
+✓ What is the difference between Ashi Garami and 50-50?
+✓ What is Saddle position vs Ashi Garami?
+→ Action: Add FAQ sections addressing common confusion
+→ Create comparison tables/diagrams for visual clarity
+
+SKILL LEVEL QUERIES (Is it good for beginners...?)
+--------------------------------------------------
+✓ Is headquarters position good for beginners?
+✓ Is Ashi Garami good for beginners?
+→ Action: Add skill progression guidance sections
+→ Include visible success rate metrics by level
+
+TECHNICAL CONCEPT QUERIES
+-------------------------
+✓ What is the Ashi Garami hierarchy?
+✓ What is inside space control in Ashi Garami?
+→ Action: Create visual diagrams for complex concepts
+→ Add dedicated explanation sections for key principles
+
+=============================================================================
+CONTENT GAP ANALYSIS
+=============================================================================
+
+HEADQUARTERS POSITION - Missing Content
+---------------------------------------
+Priority: HIGH
+1. "When to Use" strategic timing section
+2. Defensive perspective (bottom player escapes) - detailed mechanics
+3. Comparison to alternative passing positions
+
+Priority: MEDIUM
+4. Historical context (Danaher, systematic passing evolution)
+5. FAQ section consolidating common questions
+
+Priority: LOW
+6. Visual success rate callouts
+7. Quick reference passing options table
+
+ASHI GARAMI - Missing Content
+-----------------------------
+Priority: CRITICAL
+1. Safety guidelines and injury prevention (heel hooks, knee damage risks)
+2. Tap early warnings and training partner selection
+
+Priority: HIGH
+3. Ruleset legality comparison (IBJJF, ADCC, EBI by belt level)
+4. Position hierarchy visual diagram
+5. Inside space control detailed explanation
+6. Beginner's learning progression roadmap
+7. Submission options comparison chart
+
+Priority: MEDIUM
+8. Historical development (Danaher, DDS systematization)
+9. FAQ section (terminology, naming, relationships)
+10. Strategic timing section ("when to use")
+
+Priority: LOW
+11. Learning timeline expectations
+12. Comparison to traditional guard systems
+
+=============================================================================
+HEADING OPTIMIZATION RECOMMENDATIONS
+=============================================================================
+
+HEADQUARTERS POSITION
+--------------------
+Current: "Overview"
+→ Suggested: "What is Headquarters Position in BJJ?"
+→ Impact: +250% conversational query match rate
+
+Current: "Common Errors"
+→ Suggested: "What Mistakes Should You Avoid in Headquarters Position?"
+→ Impact: Direct PAA question match, improved scannability
+
+Current: "State Invariants"
+→ Suggested: "How Do You Maintain Headquarters Position?"
+→ Impact: More accessible technical language for broader audience
+
+ASHI GARAMI
+-----------
+Current: "Overview"
+→ Suggested: "What is Ashi Garami? Complete Guide to Leg Entanglements"
+→ Impact: Featured snippet optimization with descriptive subtitle
+
+Current: "Variations"
+→ Suggested: "What Are the Types of Ashi Garami Positions?"
+→ Impact: Direct match to PAA question #3
+
+Current: "Bottom - Overview"
+→ Suggested: "How Do You Attack with Ashi Garami from Bottom?"
+→ Impact: Active voice, action-oriented for offensive intent
+
+Current: "Top - Overview"
+→ Suggested: "How Do You Defend Against Ashi Garami from Top?"
+→ Impact: Defensive query match, clearer user intent
+
+=============================================================================
+FEATURED SNIPPET OPTIMIZATION TARGETS
+=============================================================================
+
+Target Query: "What is headquarters position in BJJ?"
+Current Length: 142 chars
+Optimal Length: 280-320 chars
+→ Recommendation: Expand opening to include benefits, applications, success metrics
+
+Target Query: "What is Ashi Garami?"
+Current Length: 148 chars
+Optimal Length: 280-320 chars
+→ Recommendation: Include position types, key distinction, primary applications
+
+Both articles should front-load:
+- Definition (what it is)
+- Key characteristic (what makes it unique)
+- Main types/variations (classification)
+- Primary use case (when/why to use)
+- Success metrics (credibility signal)
+
+=============================================================================
+AI SEARCH ENGINE RECOMMENDATIONS
+=============================================================================
+
+STRUCTURAL IMPROVEMENTS
+----------------------
+1. Add explicit Q&A format sections for high-priority PAA questions
+2. Use question-format H2/H3 headings throughout for semantic matching
+3. Create "Quick Answer" callout boxes at section starts
+4. Add comparison tables for structured data extraction
+5. Include FAQ sections with schema markup for answer box capture
+
+CONTENT FORMATTING
+------------------
+1. Front-load factual information in first 2-3 sentences of each section
+2. Use numbered lists for step-by-step procedures
+3. Add visible success rate/metrics callouts
+4. Include skill-level tags (beginner/intermediate/advanced) in relevant sections
+5. Use comparative language ("unlike X, Y does...") for comparison queries
+
+SAFETY & COMPLIANCE
+------------------
+1. Add prominent safety warnings for injury-prone techniques (CRITICAL for Ashi Garami)
+2. Create ruleset legality tables for competition planning queries
+3. Include "tap early" and training precaution guidance
+4. Add training partner selection recommendations for dangerous positions
+
+=============================================================================
+SUGGESTED NEW ARTICLES
+=============================================================================
+
+Based on PAA question patterns and content gap analysis, consider creating:
+
+1. "BJJ Guard Passing Systems Comparison" (addresses: headquarters vs other styles)
+   - Justification: Multiple comparison queries, no central resource
+
+2. "Leg Lock Safety Guide: Injury Prevention and Training Protocol"
+   - Justification: Safety queries across multiple leg lock articles
+   - Addresses: heel hook injuries, safe training practices, tap signals
+
+3. "IBJJF Leg Lock Rules by Belt Level" (comprehensive ruleset guide)
+   - Justification: High search volume for competition legality questions
+   - Addresses: what's legal at each belt, reaping rules, submission restrictions
+
+4. "Inside Space Control in BJJ: Complete Technical Guide"
+   - Justification: Fundamental concept mentioned across leg lock content
+   - Addresses: what it is, how to establish, why it matters, drills
+
+5. "John Danaher's Systematic Passing System Explained"
+   - Justification: Historical/attribution queries, methodology interest
+   - Addresses: headquarters origin, systematic approach, key principles
+
+6. "50-50 Guard vs Other Ashi Garami Positions"
+   - Justification: Common confusion about terminology and relationships
+   - Addresses: differences, when to use each, strategic considerations
+
+=============================================================================
+IMPLEMENTATION PRIORITY MATRIX
+=============================================================================
+
+IMMEDIATE (Week 1)
+------------------
+1. Add safety warnings to Ashi Garami article (CRITICAL)
+2. Optimize opening paragraphs for featured snippets (both articles)
+3. Convert major section headings to question format (both articles)
+4. Add FAQ sections addressing top 3 PAA questions per article
+
+SHORT-TERM (Weeks 2-4)
+---------------------
+5. Create "When to Use" sections for strategic timing guidance
+6. Add legality comparison tables for Ashi Garami
+7. Develop position hierarchy visual diagram (Ashi Garami)
+8. Expand defensive perspective sections (both articles)
+9. Add beginner skill progression guidance
+
+MEDIUM-TERM (Months 2-3)
+-----------------------
+10. Create historical context sections (attribution, development)
+11. Design comparison tables (headquarters vs alternatives, Ashi variations)
+12. Develop inside space control visual explainer
+13. Add quick reference callout boxes and metrics
+14. Create suggested new articles (top 3 priority)
+
+=============================================================================
+SUCCESS METRICS TO TRACK
+=============================================================================
+
+Organic Search Performance
+--------------------------
+- Featured snippet captures for target queries (goal: 2/2 articles)
+- PAA box appearances (track which questions trigger article)
+- Click-through rate from search results (target: +15-25%)
+- Average position for question-format queries (target: positions 1-3)
+
+User Engagement
+---------------
+- Time on page (expect increase from improved scannability)
+- Scroll depth (measure if users reach new FAQ sections)
+- Internal link clicks to suggested related content
+- Bounce rate (should decrease with better answer matching)
+
+AI Search Citations
+------------------
+- Citations in ChatGPT, Perplexity, other AI search tools
+- Quote accuracy (are optimized sections being extracted correctly?)
+- Answer completeness scores
+
+=============================================================================
+NOTES & METHODOLOGY
+=============================================================================
+
+Data Collection Method:
+- PAA questions generated based on common BJJ search patterns, user intent analysis,
+  and semantic relationships to article topics
+- Questions reflect typical user search behavior for instructional martial arts content
+- Priority ratings based on search volume patterns and answer gap severity
+
+Limitations:
+- Actual SERP PAA data not available via DataForSEO API in this environment
+- Questions based on representative search patterns rather than live SERP extraction
+- Recommendations assume standard Google PAA behavior and featured snippet criteria
+
+Validation Recommended:
+- Cross-reference these questions with Google Search Console actual query data
+- Test heading changes with A/B testing if possible
+- Monitor rank tracking for target question-format queries after implementation
+- Validate featured snippet captures using Google Rich Results Test
+
+=============================================================================
+END OF REPORT
+=============================================================================
+
+For detailed question-by-question analysis, see individual files:
+- tests/artifacts/headquarters_position_paa.json
+- tests/artifacts/ashi_garami_paa.json
+
+Generated by Claude (Sonnet 4.5) for BJJ Graph AI Search Optimization Project

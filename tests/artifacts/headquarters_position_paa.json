@@ -1,0 +1,165 @@
+{
+  "article_path": "source/content/Positions/Headquarters Position.json",
+  "seed_keyword": "Headquarters Position",
+  "paa_questions": [
+    {
+      "question": "What is headquarters position in BJJ?",
+      "answer_snippet": "Headquarters position is a fundamental guard passing control position where the top player establishes dominant leg control while maintaining strong base and upright posture. It serves as the central hub of modern systematic guard passing.",
+      "source_url": "https://bjjgraph.org",
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "rationale": "Direct 'what is' query matches user search intent for definition and overview"
+    },
+    {
+      "question": "How do you do headquarters position in BJJ?",
+      "answer_snippet": "To establish headquarters position: control one opponent leg by pinning it between your legs with knee pressure, post your supporting leg wide for stable base, maintain upright posture, and control opponent's knee or thigh with grips while preventing frames.",
+      "source_url": "https://bjjgraph.org",
+      "priority": "high",
+      "integration_strategy": "dedicated_faq",
+      "rationale": "High-intent 'how to' query requires step-by-step mechanics"
+    },
+    {
+      "question": "What passes can you do from headquarters position?",
+      "answer_snippet": "From headquarters position you can execute knee slice pass, long step pass, smash pass, leg weave pass, over-under pass, underhook pass, and crossface pass depending on opponent's defensive reactions.",
+      "source_url": "https://bjjgraph.org",
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "rationale": "Users want to know offensive options from this position"
+    },
+    {
+      "question": "When should I use headquarters position?",
+      "answer_snippet": "Use headquarters position when you need systematic guard passing control with low risk. It's ideal for bypassing various guard configurations while maintaining multiple offensive pathways and limiting opponent's defensive options.",
+      "source_url": "https://bjjgraph.org",
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "rationale": "Strategic decision-making query about timing and application"
+    },
+    {
+      "question": "Why is it called headquarters position?",
+      "answer_snippet": "Headquarters position is named because it serves as the central 'command hub' of systematic guard passing methodology, where the passer makes strategic decisions about which passing route to select based on opponent reactions.",
+      "source_url": "https://bjjgraph.org",
+      "priority": "medium",
+      "integration_strategy": "improve_heading",
+      "rationale": "Etymology/naming origin query common for BJJ terminology"
+    },
+    {
+      "question": "How do you escape headquarters position?",
+      "answer_snippet": "To escape headquarters position from bottom: create frames with hands on shoulder and hip, shrimp to create space, attempt to recover half guard, use technical standup, or enter deep half guard to neutralize passing pressure.",
+      "source_url": "https://bjjgraph.org",
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "rationale": "Defensive perspective highly relevant for bottom players"
+    },
+    {
+      "question": "What is the difference between headquarters and knee slice?",
+      "answer_snippet": "Headquarters is a control position and decision point, while knee slice is a specific passing technique executed from headquarters. Headquarters is the static position; knee slice is one of several dynamic passing options from that position.",
+      "source_url": "https://bjjgraph.org",
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq",
+      "rationale": "Common confusion between position vs technique"
+    },
+    {
+      "question": "Who invented headquarters position?",
+      "answer_snippet": "Headquarters position was popularized by John Danaher and his systematic guard passing methodology. It represents modern evolution in guard passing theory toward measured, reactive approaches rather than explosive passes.",
+      "source_url": "https://bjjgraph.org",
+      "priority": "low",
+      "integration_strategy": "add_section",
+      "rationale": "Historical context query adds credibility"
+    },
+    {
+      "question": "What mistakes do beginners make in headquarters position?",
+      "answer_snippet": "Common beginner mistakes include poor knee control with insufficient pressure, excessive forward lean creating sweep vulnerabilities, insufficient base width, passive positioning without pressure, telegraphing pass direction, and losing connection during transitions.",
+      "source_url": "https://bjjgraph.org",
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "rationale": "Problem-solving query matches existing common errors section"
+    },
+    {
+      "question": "Is headquarters position good for beginners?",
+      "answer_snippet": "Yes, headquarters position is excellent for beginners as it provides systematic guard passing structure with low risk (70% retention rate for beginners), multiple offensive options, and clear decision-making framework to simplify guard passing complexity.",
+      "source_url": "https://bjjgraph.org",
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "rationale": "Skill-level appropriateness query common for instructional content"
+    }
+  ],
+  "heading_optimizations": [
+    {
+      "current": "Overview",
+      "suggested": "What is Headquarters Position in BJJ?",
+      "rationale": "Matches conversational query pattern from PAA question #1 (high priority)"
+    },
+    {
+      "current": "State Invariants",
+      "suggested": "How Do You Maintain Headquarters Position?",
+      "rationale": "More accessible heading that matches user search intent for technique execution"
+    },
+    {
+      "current": "Common Errors",
+      "suggested": "What Mistakes Should You Avoid in Headquarters Position?",
+      "rationale": "Question format matches PAA question #9 and improves search visibility"
+    },
+    {
+      "current": "Prerequisites",
+      "suggested": "What Do You Need to Learn Before Headquarters Position?",
+      "rationale": "More conversational heading that answers learning sequence questions"
+    },
+    {
+      "current": "Key Principles",
+      "suggested": "How Does Headquarters Position Work?",
+      "rationale": "Matches 'how does it work' query pattern for technical understanding"
+    }
+  ],
+  "missing_content_opportunities": [
+    "Add 'When to Use Headquarters Position' section explaining strategic timing and guard scenarios where this position excels",
+    "Add 'Headquarters Position vs Other Passing Styles' comparison section addressing related search queries",
+    "Add 'History and Origins' brief section covering John Danaher's systematic passing development",
+    "Add FAQ section consolidating common questions: 'Why is it called headquarters?', 'What's the difference from knee slice?', 'Is it good for beginners?'",
+    "Add 'From Bottom Perspective' section addressing defensive concerns and escape strategies (matches PAA question #6)",
+    "Enhance opening paragraph with front-loaded answer to 'what is headquarters position' for featured snippet optimization",
+    "Add 'Success Rate by Skill Level' visible callout box for quick scanning users",
+    "Add 'Quick Reference: Best Passes from Headquarters' visual guide or table"
+  ],
+  "content_gaps": [
+    {
+      "gap": "No explicit 'when to use' guidance",
+      "search_intent": "Strategic application timing",
+      "priority": "high",
+      "suggested_solution": "Add dedicated section with scenarios: after guard break, against specific guard types, in competition vs training"
+    },
+    {
+      "gap": "Limited defensive perspective",
+      "search_intent": "How to defend/escape headquarters",
+      "priority": "high",
+      "suggested_solution": "Expand defensive_responses section with detailed mechanics, not just technique names"
+    },
+    {
+      "gap": "No historical context or attribution",
+      "search_intent": "Who created/popularized this position",
+      "priority": "medium",
+      "suggested_solution": "Add brief history paragraph mentioning Danaher, systematic passing evolution"
+    },
+    {
+      "gap": "Comparison to alternative passing positions",
+      "search_intent": "Headquarters vs knee shield vs combat base",
+      "priority": "medium",
+      "suggested_solution": "Add comparison table or section distinguishing from related positions"
+    }
+  ],
+  "featured_snippet_optimization": {
+    "target_query": "What is headquarters position in BJJ?",
+    "current_opening": "Headquarters Position is a fundamental guard passing control position where the top player establishes dominant leg control while maintaining strong base and upright posture.",
+    "optimized_opening": "Headquarters Position in BJJ is a guard passing control position where you control one of your opponent's legs while maintaining an upright posture and wide base. It serves as the central hub for modern systematic guard passing, allowing you to choose from multiple passing options (knee slice, long step, smash pass) based on your opponent's defensive reactions. This position offers low-risk, high-control passing with 70% advancement rate for beginners.",
+    "rationale": "Expanded opening provides complete answer with benefits, applications, and success metrics within featured snippet character limits (~300 chars optimal)"
+  },
+  "ai_search_recommendations": [
+    "Add explicit Q&A format sections for high-priority PAA questions to optimize for AI answer engines",
+    "Front-load factual information in first 2-3 sentences of each major section for quick extraction",
+    "Use question-format subheadings (H3/H4) throughout article for better semantic matching",
+    "Add 'Quick Answer' callout boxes at section starts for scanning users and AI scrapers",
+    "Include comparative language ('unlike X, headquarters Y') to capture comparison queries",
+    "Add 'When to use' and 'When NOT to use' conditional guidance for strategic queries",
+    "Incorporate skill-level tags (beginner-friendly, intermediate, advanced) in relevant sections",
+    "Use numbered lists for step-by-step processes to match 'how to' query intent"
+  ]
+}

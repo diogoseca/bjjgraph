@@ -1,0 +1,225 @@
+{
+  "article_path": "source/content/Positions/Ashi Garami.json",
+  "seed_keyword": "Ashi Garami",
+  "paa_questions": [
+    {
+      "question": "What is Ashi Garami in BJJ?",
+      "answer_snippet": "Ashi Garami (足絡み, Japanese for 'leg entanglement') is a comprehensive family of leg control positions that form the foundation of modern leg lock systems in Brazilian Jiu-Jitsu, creating horizontal control where both practitioners compete for leg control and finishing opportunities.",
+      "source_url": "https://bjjgraph.org",
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "rationale": "Primary definitional query with exact match to article topic"
+    },
+    {
+      "question": "What does Ashi Garami mean?",
+      "answer_snippet": "Ashi Garami is Japanese for 'leg entanglement' (足絡み). 'Ashi' means leg/foot and 'Garami' means entanglement or entwining, describing the fundamental characteristic of these leg control positions.",
+      "source_url": "https://bjjgraph.org",
+      "priority": "high",
+      "integration_strategy": "dedicated_faq",
+      "rationale": "Etymology query common for Japanese terminology in BJJ"
+    },
+    {
+      "question": "What are the types of Ashi Garami?",
+      "answer_snippet": "The main types of Ashi Garami include Outside Ashi-Garami (standard), Inside Ashi-Garami, Cross Ashi-Garami, Saddle (Honey Hole), 50-50 Guard, Backside 50-50, and Ushiro Ashi-Garami (reverse entanglement). Each offers distinct tactical advantages and submission pathways.",
+      "source_url": "https://bjjgraph.org",
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "rationale": "Classification query seeking comprehensive list of variations"
+    },
+    {
+      "question": "How dangerous is Ashi Garami?",
+      "answer_snippet": "Ashi Garami positions are high-risk for knee and ankle injuries, particularly heel hooks which can cause catastrophic ligament damage before pain signals occur. Risk level is 'Medium' from bottom (offensive) and 'High' from top (defensive). Always tap early and train with experienced partners.",
+      "source_url": "https://bjjgraph.org",
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "rationale": "Safety concern query critical for injury prevention"
+    },
+    {
+      "question": "Is Ashi Garami legal in IBJJF?",
+      "answer_snippet": "Ashi Garami legality varies by belt level in IBJJF. Straight ankle locks are legal at all belts. Heel hooks and reaping positions (crossing centerline) are illegal below brown belt. Outside Ashi is generally legal; Inside/Cross/Saddle have restrictions at lower belts.",
+      "source_url": "https://bjjgraph.org",
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "rationale": "Rule compliance query essential for competition planning"
+    },
+    {
+      "question": "How do you escape Ashi Garami?",
+      "answer_snippet": "To escape Ashi Garami: maintain straight leg alignment to protect heel, deny inside space control, recover standing or kneeling base, systematically clear leg entanglement through mechanical sequences rather than explosive ripping, and recognize positional hierarchy to determine defensive urgency.",
+      "source_url": "https://bjjgraph.org",
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "rationale": "Defensive technique query highly relevant for practitioners"
+    },
+    {
+      "question": "What is the difference between Ashi Garami and 50-50?",
+      "answer_snippet": "50-50 Guard is a specific type of Ashi Garami featuring bilateral leg entanglement with symmetrical control where both players have similar offensive and defensive positions. Ashi Garami is the broader family; 50-50 is one variation within it.",
+      "source_url": "https://bjjgraph.org",
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq",
+      "rationale": "Common confusion between family term and specific variation"
+    },
+    {
+      "question": "What is the Ashi Garami hierarchy?",
+      "answer_snippet": "The Ashi Garami positional hierarchy progresses from least to most dominant: Outside Ashi-Garami → Inside Ashi-Garami → Cross Ashi-Garami → Saddle. Advancement up the hierarchy increases control quality, heel exposure, and finishing probability.",
+      "source_url": "https://bjjgraph.org",
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "rationale": "Technical understanding query about position progression system"
+    },
+    {
+      "question": "Who popularized Ashi Garami in BJJ?",
+      "answer_snippet": "John Danaher and the Danaher Death Squad (Gordon Ryan, Garry Tonon, Eddie Cummings) revolutionized and systematized Ashi Garami positions in modern BJJ, treating leg entanglements as controllable positions with clear hierarchies rather than scrambles.",
+      "source_url": "https://bjjgraph.org",
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "rationale": "Historical context adds credibility and lineage understanding"
+    },
+    {
+      "question": "What submissions can you do from Ashi Garami?",
+      "answer_snippet": "From Ashi Garami positions you can execute heel hooks (primary), straight ankle locks, toe holds, knee bars, and calf slicers. Heel hooks are most common from Saddle and Cross Ashi; straight ankle locks work from all variations.",
+      "source_url": "https://bjjgraph.org",
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "rationale": "Offensive application query about submission options"
+    },
+    {
+      "question": "Is Ashi Garami good for beginners?",
+      "answer_snippet": "Beginners should approach Ashi Garami cautiously. Start with Outside Ashi and straight ankle locks before progressing to heel hooks. Retention rate for beginners is 40%, requiring understanding of leg lock safety protocols and tap-early mentality to prevent injury.",
+      "source_url": "https://bjjgraph.org",
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "rationale": "Skill appropriateness query for learning progression"
+    },
+    {
+      "question": "What is Saddle position vs Ashi Garami?",
+      "answer_snippet": "Saddle (formerly called Honey Hole) is the apex position within the Ashi Garami family, offering maximum leg control and heel exposure. It's the most dominant variation of Ashi Garami, not a separate position system.",
+      "source_url": "https://bjjgraph.org",
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq",
+      "rationale": "Terminology clarification for position relationships"
+    },
+    {
+      "question": "How long does it take to learn Ashi Garami?",
+      "answer_snippet": "Basic Ashi Garami competency takes 6-12 months of focused training. Advanced mastery of the complete hierarchy and transitions requires 2-3 years. Position metrics show beginner success rates around 15-40%, intermediate 30-60%, advanced 50-75%.",
+      "source_url": "https://bjjgraph.org",
+      "priority": "low",
+      "integration_strategy": "add_section",
+      "rationale": "Learning timeline query for training expectations"
+    },
+    {
+      "question": "What is inside space control in Ashi Garami?",
+      "answer_snippet": "Inside space control means maintaining control of the space between your hip and opponent's hip in leg entanglements. It's the key principle determining position quality - controlling inside space prevents escapes and enables hierarchical advancement.",
+      "source_url": "https://bjjgraph.org",
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "rationale": "Technical concept query fundamental to understanding the system"
+    }
+  ],
+  "heading_optimizations": [
+    {
+      "current": "Overview",
+      "suggested": "What is Ashi Garami? Complete Guide to Leg Entanglements",
+      "rationale": "Matches PAA question #1 and improves SEO with descriptive subtitle"
+    },
+    {
+      "current": "Variations",
+      "suggested": "What Are the Types of Ashi Garami Positions?",
+      "rationale": "Question format matches PAA question #3 and improves conversational search matching"
+    },
+    {
+      "current": "Key Principles",
+      "suggested": "How Does Ashi Garami Work? Key Control Principles",
+      "rationale": "More accessible heading explaining fundamental mechanics"
+    },
+    {
+      "current": "Bottom - Overview",
+      "suggested": "How Do You Attack with Ashi Garami from Bottom?",
+      "rationale": "Active voice question format for better user engagement"
+    },
+    {
+      "current": "Top - Overview",
+      "suggested": "How Do You Defend Against Ashi Garami from Top?",
+      "rationale": "Matches defensive query intent from PAA question #6"
+    },
+    {
+      "current": "Common Errors",
+      "suggested": "What Mistakes Should You Avoid in Ashi Garami?",
+      "rationale": "Question format improves scannability and search matching"
+    }
+  ],
+  "missing_content_opportunities": [
+    "Add 'Safety Guidelines for Ashi Garami Training' section addressing injury risk concerns (PAA question #4)",
+    "Add 'Ashi Garami Legality by Ruleset' section with IBJJF, ADCC, submission-only rules comparison (PAA question #5)",
+    "Add 'Position Hierarchy Explained' visual diagram showing Outside → Inside → Cross → Saddle progression (PAA question #8)",
+    "Add FAQ section consolidating: 'What does Ashi Garami mean?', 'Difference from 50-50?', 'Saddle vs Ashi Garami?' (PAA questions #2, #7, #12)",
+    "Add 'Historical Development' section covering Danaher, DDS, and modern systematization (PAA question #9)",
+    "Add 'Submission Options from Ashi Garami' comparison chart showing which submissions work from which variations (PAA question #10)",
+    "Add 'Beginner's Guide to Ashi Garami' section with safety-first approach and learning progression (PAA question #11)",
+    "Add 'Inside Space Control Explained' visual guide or detailed breakdown (PAA question #14)",
+    "Add 'When to Use Ashi Garami' strategic timing section for guard players",
+    "Add 'Ashi Garami vs Traditional Guard' comparison explaining horizontal vs vertical hierarchy",
+    "Add visible 'Tap Early Warning' callout box at article start for safety emphasis"
+  ],
+  "content_gaps": [
+    {
+      "gap": "No safety warnings or injury prevention guidance",
+      "search_intent": "Safety concerns, injury risks, training precautions",
+      "priority": "critical",
+      "suggested_solution": "Add prominent safety section with tap early emphasis, common injuries, training partner selection guidance"
+    },
+    {
+      "gap": "No ruleset legality information",
+      "search_intent": "Competition legality by organization and belt level",
+      "priority": "high",
+      "suggested_solution": "Add legality matrix table: IBJJF, ADCC, EBI, NAGA rules for each Ashi variation by rank"
+    },
+    {
+      "gap": "No visual hierarchy diagram",
+      "search_intent": "Understanding position progression and advancement",
+      "priority": "high",
+      "suggested_solution": "Create flowchart: Outside → Inside → Cross → Saddle with control indicators"
+    },
+    {
+      "gap": "Limited terminology clarification",
+      "search_intent": "Japanese meaning, alternative names (Honey Hole), relationship to other positions",
+      "priority": "medium",
+      "suggested_solution": "Add terminology section or FAQ addressing naming conventions and translations"
+    },
+    {
+      "gap": "No historical context or attribution",
+      "search_intent": "Who developed these positions, modern evolution",
+      "priority": "medium",
+      "suggested_solution": "Add history paragraph covering Japanese roots, Danaher systematization, DDS impact"
+    },
+    {
+      "gap": "No explicit beginner guidance",
+      "search_intent": "Is this safe for beginners, where to start, learning timeline",
+      "priority": "high",
+      "suggested_solution": "Add beginner's roadmap: straight ankle locks first, Outside Ashi foundation, no heel hooks until blue/purple"
+    },
+    {
+      "gap": "Inside space control mentioned but not fully explained",
+      "search_intent": "What is inside space control, how to establish it, why it matters",
+      "priority": "high",
+      "suggested_solution": "Add detailed breakdown with visual aid showing inside space concept"
+    }
+  ],
+  "featured_snippet_optimization": {
+    "target_query": "What is Ashi Garami?",
+    "current_opening": "Ashi Garami (足絡み, Japanese for \"leg entanglement\") represents a comprehensive family of leg control positions that form the foundation of modern leg lock systems.",
+    "optimized_opening": "Ashi Garami (足絡み, meaning \"leg entanglement\" in Japanese) is a family of leg control positions in Brazilian Jiu-Jitsu used for leg lock submissions. Unlike traditional top-bottom positions, Ashi Garami creates horizontal control where both practitioners compete for leg control. The main types include Outside Ashi, Inside Ashi, Cross Ashi, and Saddle (most dominant). These positions revolutionized modern BJJ and submission grappling, particularly in no-gi competition, offering high-percentage submissions through systematic position advancement.",
+    "rationale": "Expanded opening includes definition, key distinction, main types, applications, and benefits within featured snippet optimal length (~320 chars)"
+  },
+  "ai_search_recommendations": [
+    "Add critical safety warning callout at article top for AI scrapers to prioritize injury prevention information",
+    "Use FAQ schema markup for terminology questions (meaning, types, differences) to capture answer box results",
+    "Front-load hierarchy explanation in first paragraph for quick AI extraction of position progression concept",
+    "Add comparison tables (Ashi variations, ruleset legality, skill progression) for structured data optimization",
+    "Use explicit Q&A section formatting for 'How dangerous is...', 'Is it legal...', 'How do you escape...' queries",
+    "Include skill-level tags and safety prerequisites in metadata for AI filtering recommendations",
+    "Add 'Quick Facts' summary box at article start with: variations count, primary submissions, risk level, legality",
+    "Structure defensive and offensive sections with parallel 'How to Attack' / 'How to Defend' headings for clarity",
+    "Use numbered step-by-step lists for escape sequences and entry mechanics to match 'how to' query patterns",
+    "Add conditional guidance using 'if-then' language for decision tree queries"
+  ]
+}
