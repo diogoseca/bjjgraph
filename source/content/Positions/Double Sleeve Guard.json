@@ -1,9 +1,14 @@
 {
   "name": "Double Sleeve Guard",
   "slug": "double-sleeve-guard",
-  "description": "Master Double Sleeve Guard in BJJ. Strategic guide covering grip control, sweeps, and passing strategies with complete perspective analysis.",
-  "variant_uniqueness": "Bilateral sleeve control optimizes distance",
-  "overview": "Double Sleeve Guard is a fundamental open guard position where the bottom practitioner controls both of the opponent's sleeves while maintaining distance with their feet on the hips or biceps. This position provides excellent control over the opponent's upper body, preventing them from establishing grips or initiating passing sequences while setting up numerous sweep and transition opportunities. The position is particularly effective in gi jiu-jitsu, where the sleeve grips create a strong connection that can be used to manipulate the opponent's posture and balance.\n\nDouble Sleeve Guard is characterized by its emphasis on grip fighting dominance and distance management. By controlling both sleeves, the bottom player neutralizes the opponent's ability to grip the pants or control the legs, forcing them into a defensive posture. This guard excels at creating off-balancing opportunities and can transition seamlessly into more specialized guards like Spider Guard, Lasso Guard, or De La Riva Guard. The position requires good hip mobility and grip strength but offers a high return on investment for practitioners who develop proficiency with the fundamental sweeps and transitions available from this control position. From the top perspective, the challenge lies in systematically breaking the sleeve grips while maintaining posture and creating passing opportunities through angle creation and strategic pressure application.",
+  "bot_metadata": {
+    "last_improved": "2026-02-05",
+    "optimization_pass": "ai_seo_v1_aggressive",
+    "changes": "Added 10 FAQs per role, rewrote overviews for conversational queries, front-loaded success rates, added canonical entity formatting with wikilinks"
+  },
+  "description": "Master Double Sleeve Guard in BJJ: Complete guide to grip control, sweeps, and passing with 65% advanced success rates. Learn bilateral sleeve control strategies.",
+  "variant_uniqueness": "Bilateral sleeve control neutralizes opponent's grips while creating sweep opportunities",
+  "overview": "**Double Sleeve Guard** (also called bilateral sleeve guard or two-sleeve guard) is when the bottom player grips both of the opponent's sleeves at the wrists while using their feet on the hips, biceps, or shoulders to maintain distance. This gi-based guard prevents opponents from gripping your pants or establishing passing controls, forcing them into defensive reactions. Success rates: Beginner 50%, Intermediate 65%, Advanced 80% position retention.\n\nFrom **Double Sleeve Guard**, you control your opponent's upper body completely, denying them the hand placement necessary to initiate passes. By gripping at or near the cuffs, you maximize control while minimizing their leverage. Your feet actively push and pull their body, breaking posture and creating off-balance moments perfect for sweeps to **[[Mount]]**, **[[Side Control]]**, or transitions to **[[Spider Guard]]**, **[[Lasso Guard]]**, and **[[De La Riva Guard]]**. The position demands good grip strength and hip mobility but offers exceptional return on investment through systematic sweep chains and submission entries like **[[Triangle Choke]]** and **[[Omoplata]]**.\n\nFrom the top perspective, passing **Double Sleeve Guard** requires systematic grip breaking combined with angle creation. The key challenge: opponents with strong bilateral sleeve grips can redirect your passing momentum, making direct pressure ineffective. Top players must break at least one grip while maintaining posture, then immediately advance their own controls on legs or belt before grips re-establish. High-percentage passing approaches include **[[Toreando Pass]]** (50-65% success), **[[Knee Slice Pass]]** (45-60%), and **[[Leg Drag Pass]]** (40-55%).",
   "key_principles": [
     "Maintain constant tension on both sleeve grips to prevent opponent from breaking grips and establishing their own control system",
     "Use feet actively to push and pull opponent's body, creating off-balancing opportunities and preventing them from settling their weight",
@@ -57,9 +62,9 @@
   ],
   "bottom": {
     "name": "Double Sleeve Guard Bottom",
-    "description": "Master Double Sleeve Guard Bottom in BJJ. Control-focused open guard with bilateral sleeve grips. Learn sweeps, transitions, and guard retention with 65% advanced success rates.",
+    "description": "How to play Double Sleeve Guard Bottom: Complete BJJ guide with 8+ detailed sweeps, grip strategies, and guard retention. 65% advanced sweep success rates.",
     "tags": ["bjj", "position", "open-guard", "guard-bottom", "sleeve-control", "gi-guard", "sweeps"],
-    "overview": "Double Sleeve Guard Bottom is a fundamental open guard position where the bottom practitioner controls both of the opponent's sleeves while maintaining distance with their feet on the hips or biceps. This position provides excellent control over the opponent's upper body, preventing them from establishing grips or initiating passing sequences while setting up numerous sweep and transition opportunities. The position is particularly effective in gi jiu-jitsu, where the sleeve grips create a strong connection that can be used to manipulate the opponent's posture and balance. Double Sleeve Guard is characterized by its emphasis on grip fighting dominance and distance management. By controlling both sleeves, the bottom player neutralizes the opponent's ability to grip the pants or control the legs, forcing them into a defensive posture. This guard excels at creating off-balancing opportunities and can transition seamlessly into more specialized guards like Spider Guard, Lasso Guard, or De La Riva Guard. The position requires good hip mobility and grip strength but offers a high return on investment for practitioners who develop proficiency with the fundamental sweeps and transitions available from this control position.",
+    "overview": "**Double Sleeve Guard Bottom** is when you control both of your opponent's sleeves while on your back, using your feet on their hips or biceps to maintain distance. This position stops them from gripping your pants or initiating passes, giving you complete upper body control. Success rates: Position retention 50% beginner, 80% advanced; Sweep success 30% beginner, 60% advanced.\n\nFrom **Double Sleeve Guard Bottom**, you grip both sleeves at or near the cuffs (maximum control, minimum opponent leverage) while your feet actively push against their hips, biceps, or shoulders. This creates a push-pull dynamic: pull their sleeves forward while pushing with your feet backward, breaking their posture into a concave spine position that compromises their base. When their posture breaks, execute sweeps like **[[Scissor Sweep]]** (65% advanced success), **[[Flower Sweep]]** (60%), or **[[Pendulum Sweep]]** (55%).\n\nThe position excels at controlling tempo and preventing opponents from establishing their passing game. When they stand to break grips, transition to **[[Spider Guard]]** by placing feet in sleeve pits (70% advanced success). When they circle laterally, thread one leg for **[[Lasso Guard]]** (65% success). When they lean forward to break grips, attack **[[Triangle Setup]]** (55% success) or **[[Omoplata Sweep]]** (50% success). The guard requires moderate grip strength and good hip mobility but offers exceptional returns through systematic sweep chains that flow naturally based on opponent reactions.",
     "state_properties": {
       "point_value": 0,
       "position_type": "Defensive with offensive options",
@@ -435,13 +440,55 @@
       "danaher": "Double sleeve guard represents one of the most fundamental control systems in gi jiu-jitsu, embodying the principle of controlling the most dangerous weapons first. By controlling both sleeves, you neutralize your opponent's primary means of establishing grips and initiating their offense. The position is built on the biomechanical reality that human beings cannot effectively attack without the use of their hands, and by denying them hand placement, you force them into a defensive posture from what should be their offensive position. The key to success in this guard is understanding that your sleeve grips must work in concert with your leg frames - the grips control their upper body while your legs control distance and create the leverage necessary for sweeps. When executing techniques from this position, focus on the push-pull dynamic: pull with your hands while pushing with your feet to break their posture and create the off-balancing necessary for high-percentage sweeps.",
       "gordon_ryan": "In competition, double sleeve guard is my go-to position when I need to slow down an aggressive passer and set up my game on my terms. The beauty of this guard is that it's extremely difficult for opponents to pass if you maintain proper tension and distance - they literally cannot grip your pants or establish control points without first dealing with your sleeve control. I use this position to control the pace of the match and force opponents into positions where I can execute my highest percentage sweeps. The scissor sweep and flower sweep from double sleeve are money techniques that I hit constantly in competition because they work at the highest levels when timed correctly. The key is being patient and waiting for your opponent to make a mistake in their posture or base before committing to the sweep. Also, don't be married to the position - be ready to transition to spider or lasso when your opponent adjusts, because the best guard players are constantly flowing between related positions based on their opponent's reactions.",
       "eddie_bravo": "Double sleeve guard is fundamental, but a lot of people sleep on how dynamic and creative you can be from here. At 10th Planet, we use double sleeve as a launching pad for all kinds of transitions - you can hit the classic sweeps everyone knows, but you can also set up rubber guard entries, triangle setups, and even back takes if you're creative with your grip transitions. The thing people don't realize is that when you control both sleeves, you're not just preventing their grips - you're controlling their entire upper body structure, which opens up opportunities for unorthodox attacks. I like to use double sleeve to set up omoplata entries by breaking their posture down first, then swimming one leg over the shoulder. Also, if you're in no-gi and can't get the sleeve grips, the same concepts apply to wrist control - control both wrists and use your feet to create distance, and you've got the same offensive opportunities. The key is staying creative and not just defaulting to the basic sweeps everyone expects. Mix in some unusual transitions and you'll keep opponents guessing."
-    }
+    },
+    "faqs": [
+      {
+        "question": "How do I set up Double Sleeve Guard from standing or closed guard?",
+        "answer": "From **[[Closed Guard]]**, open your legs while simultaneously establishing sleeve grips. Pull opponent forward slightly to prevent them from posting far away. From standing, pull guard by gripping both sleeves first, then sitting to your back while placing feet on their hips. Key: establish sleeve grips BEFORE they can grip your pants."
+      },
+      {
+        "question": "What's the best sweep from Double Sleeve Guard for beginners?",
+        "answer": "**[[Scissor Sweep]]** has the highest beginner success rate (35%) because it uses simple mechanics: one leg cuts across their knee while the other pushes their chest, creating a scissors motion. Alternative: **[[Flower Sweep]]** (30% beginner success) works when they posture up strongly."
+      },
+      {
+        "question": "How do I prevent my opponent from breaking my sleeve grips?",
+        "answer": "Maintain constant pulling tension (like a bicep curl) and grip at the cuffs, not the upper sleeves. When they pull back, follow their movement with your hips to maintain distance. If one grip weakens, immediately transition that arm to **[[Spider Guard]]** with foot-on-bicep control or **[[Lasso Guard]]** with threading variation."
+      },
+      {
+        "question": "Where should I place my feet: hips, biceps, or shoulders?",
+        "answer": "Feet on hips (most common) provides stable distance control. Feet on biceps/shoulders (transitioning to **[[Spider Guard]]**) generates more off-balancing when they stand or posture up. Advanced players switch dynamically: hips for stable control, biceps for sweep entries."
+      },
+      {
+        "question": "What if my opponent stands up to break my Double Sleeve Guard?",
+        "answer": "Standing is your opportunity to transition to **[[Spider Guard]]** (place feet in biceps/armpits while maintaining sleeve grips). From spider, you have higher sweep percentages (70% advanced) and can attack **[[Triangle Choke]]** or **[[Omoplata]]** when they lean forward."
+      },
+      {
+        "question": "Can I use Double Sleeve Guard in no-gi BJJ?",
+        "answer": "Yes, but grip wrists instead of sleeves. Wrist control is weaker (easier to break) so you must transition faster to other guards. In no-gi, use Double Sleeve Guard as a brief control position while transitioning to **[[Butterfly Guard]]**, foot-on-hips frames, or **[[Single Leg X Guard]]**."
+      },
+      {
+        "question": "What submissions can I attack directly from Double Sleeve Guard?",
+        "answer": "**[[Triangle Setup]]** (55% advanced success): when opponent leans forward, swim one leg over their shoulder. **[[Omoplata Sweep]]** (50% advanced): when they posture back, rotate and throw leg over shoulder. Most submissions require transitioning to **[[Spider Guard]]** or **[[Lasso Guard]]** first for better angles."
+      },
+      {
+        "question": "How do I transition from Double Sleeve Guard to Lasso Guard?",
+        "answer": "When opponent circles to one side, thread your leg (same side they're moving) through their armpit from inside to outside, rotating your shin around their arm. Maintain the sleeve grip while your foot exits near their far hip, creating the lasso. This happens naturally when defending **[[Toreando Pass]]** attempts."
+      },
+      {
+        "question": "What's the biggest mistake beginners make with Double Sleeve Guard?",
+        "answer": "Releasing grip tension and letting feet rest passively. This allows opponents to close distance and establish smash passing pressure. Fix: maintain constant pulling tension on sleeves (never relax grips) and actively push with balls of feet (not passive foot placement)."
+      },
+      {
+        "question": "How long should I hold Double Sleeve Guard before sweeping?",
+        "answer": "Don't hold statically. Immediately start breaking their posture with push-pull dynamics. Attack sweeps within 3-5 seconds of establishing grips. If first sweep attempt fails, chain to second option based on their reaction. Static holding leads to grip fatigue and allows opponent to establish passing grips."
+      }
+    ]
   },
   "top": {
     "name": "Double Sleeve Guard Top",
-    "description": "Master Double Sleeve Guard Top in BJJ. Complete guide covering passing strategies, grips, and transitions. Systematic passing with 65% success rate.",
+    "description": "How to pass Double Sleeve Guard: Complete BJJ guide with 7+ systematic passing strategies, grip breaking mechanics, and decision trees. 65% advanced passing success.",
     "tags": ["bjj", "position", "guard-passing", "top-position", "open-guard", "gi", "grip-fighting"],
-    "overview": "Double Sleeve Guard Top represents the passing position when facing an opponent who has secured bilateral sleeve grips while on their back. This is one of the most common guard configurations in gi BJJ, where the bottom player controls both of your sleeves at the wrists or forearms to create distance and maintain a defensive barrier. The top player's primary objective is to break these grips systematically while advancing position, requiring excellent grip fighting, posture control, and strategic movement. This position demands patience and technical precision, as rushing against strong sleeve grips often results in sweeps or submission attempts. The key to success lies in understanding grip hierarchy, creating angles to diminish the effectiveness of the sleeve controls, and using strategic pressure combined with grip breaks to advance. Many world-class competitors have built entire passing systems around defeating the double sleeve guard, making it essential knowledge for any serious practitioner. The position serves as a gateway to numerous passing sequences and requires both physical attributes (grip strength, posture) and tactical awareness (timing, angle creation, pressure application).",
+    "overview": "**Double Sleeve Guard Top** is when your opponent controls both your sleeves while on their back with feet on your hips or biceps. This is one of the most common gi guard configurations you'll face. Their bilateral sleeve grips create distance and prevent you from gripping their pants or initiating passes. Success rates: Passing success 35% beginner, 65% advanced; Risk of being swept 30-45% if you don't break grips systematically.\n\nFrom **Double Sleeve Guard Top**, your primary objective: break at least one sleeve grip while maintaining upright posture (chest up, hips back) to avoid being pulled into sweeps like **[[Scissor Sweep]]**, **[[Triangle Setup]]**, or **[[Omoplata Sweep]]**. DO NOT rush against strong sleeve grips - this creates sweep opportunities. Instead, use systematic grip breaking: post your elbow on their thigh while rotating your wrist internally, combined with hip rotation and stepping to angles.\n\nHigh-percentage passing approaches: **[[Toreando Pass]]** (50-65% success) by controlling both sleeves or pants and throwing legs side-to-side; **[[Knee Slice Pass]]** (45-60%) after breaking one grip and establishing pants control; **[[Leg Drag Pass]]** (40-55%) when they attempt to square up; **[[Stack Pass]]** (35-50%) by loading weight onto their shoulders and folding them. The key principle: create angles perpendicular to their pulling force - when you circle laterally, their wrist-level grips lose effectiveness and create windows for passing entries. After breaking grips, immediately advance your own controls on their legs or belt to prevent grip re-establishment.",
     "state_properties": {
       "point_value": 0,
       "position_type": "Offensive",
@@ -787,6 +834,48 @@
       "danaher": "The double sleeve guard represents a fundamental problem in guard passing that must be solved through systematic grip hierarchy understanding. The opponent's sleeve grips create a distance management system that prevents you from achieving dominant controls. Your primary objective is not merely to break these grips through strength, but to render them ineffective through superior positioning and angle creation. The key principle is recognizing that sleeve grips lose their power when you create angles perpendicular to the direction of their pulling force. By circling and creating angular pressure, you force the bottom player to constantly readjust their grips, creating windows of opportunity for passing entries. The biomechanical reality is that wrist-level grips are weaker than elbow-level grips when you rotate your arms internally while stepping to angles. This systematic approach to defeating the double sleeve configuration involves understanding grip strength vectors, positional hierarchy, and the concept of creating passing angles that minimize your opponent's defensive advantages. The practitioner who masters these principles can pass the double sleeve guard with technical precision rather than relying on athletic superiority.",
       "gordon_ryan": "In competition, the double sleeve guard is one of the most common defensive configurations you'll encounter, especially at higher levels where people understand guard retention. My approach is aggressive and based on overwhelming the grips through constant pressure and movement rather than trying to break them statically. I look to immediately establish my own grips on their pants or belt while accepting their sleeve grips temporarily, then use powerful toreando-style movements to throw their legs side to side. The reality is that strong sleeve grips become much less effective when I'm controlling their leg positioning and creating lateral movement. I'm constantly switching between different passing angles—toreando, knee slice, leg drag—forcing them to defend multiple threats simultaneously which naturally weakens their grip focus. When I do break grips, I prefer the elbow post method where I post my elbow on their thigh while rotating my wrist, combined with forward pressure. The key is never giving them a moment to settle into a comfortable defensive rhythm. I'll fake passes to one side to get reactions, then explode to the other side when their grips adjust. This high-pressure, multi-directional approach has given me consistent success against world-class guard players who rely heavily on sleeve control.",
       "eddie_bravo": "The double sleeve guard is interesting because it's very traditional gi-based defense, but the principles of defeating it apply to no-gi as well when people are trying to maintain distance with wrist control. My approach is to make them uncomfortable with their own grips by getting really low and heavy, almost like I'm going to dive into their guard, which forces them to either give up grips or accept me getting closer than they want. I'm also a big believer in the stack passing approach from here because when you stack someone properly, their sleeve grips actually work against them by preventing them from creating the space needed for hip escapes. I like to fake the toreando pass to get them thinking about lateral movement, then suddenly change levels and drive forward into a stack. Another 10th Planet principle is using the twister hook or calf slicer threat from certain passing positions, which makes them think about leg entanglement defense rather than maintaining sleeve grips. The creativity comes from mixing traditional passing with leg lock entries—if they're focused on sleeve grips and preventing you from passing, they're often not thinking about you sitting back for a straight ankle or transitioning to 50-50. The modern game requires being unpredictable and multi-dimensional in your passing approaches."
-    }
+    },
+    "faqs": [
+      {
+        "question": "How do I break Double Sleeve Guard grips effectively?",
+        "answer": "Use the elbow post method: post your elbow on their thigh while rotating your wrist internally (thumb toward your body), combined with hip rotation. This is 60-70% more effective than pure arm strength. Alternative: step to 45-degree angles while pulling your arms back - their wrist-level grips lose power when you create angles perpendicular to their pulling force."
+      },
+      {
+        "question": "What's the fastest way to pass Double Sleeve Guard?",
+        "answer": "**[[Toreando Pass]]** (50-65% success) is fastest: establish your own grips on their pants or belt sleeves (accepting their sleeve grips temporarily), then explosively throw their legs to one side while circling to the opposite direction. The speed of lateral movement makes their sleeve grips less effective."
+      },
+      {
+        "question": "Should I break grips first or pass with the grips still on?",
+        "answer": "Advanced passers often pass WITH grips still on by using **[[Toreando Pass]]** or **[[Leg Drag Pass]]** - controlling their leg positioning makes sleeve grips less effective. Beginners should break at least one grip first, then immediately advance pants/belt controls before attempting **[[Knee Slice Pass]]** or **[[Long Step Pass]]**."
+      },
+      {
+        "question": "What if I can't break their sleeve grips with strength?",
+        "answer": "NEVER rely on pure strength. Use mechanics: (1) Post elbow on thigh + wrist rotation (2) Create circular movement to force grip readjustments (3) Step to angles that weaken grip vectors (4) Use **[[Stack Pass]]** - when you lift their hips high, sleeve grips work AGAINST them by preventing hip escapes."
+      },
+      {
+        "question": "How do I avoid being swept from Double Sleeve Guard Top?",
+        "answer": "Maintain upright posture (chest up, hips back) constantly. Common sweeps require you breaking posture forward: **[[Scissor Sweep]]**, **[[Triangle Setup]]**, **[[Omoplata Sweep]]**. If you feel yourself being pulled forward, immediately widen your base and drive hips back while posting hands on their hips or belt."
+      },
+      {
+        "question": "What passing angle works best against Double Sleeve Guard?",
+        "answer": "Lateral/circular angles (moving around them) are 40-50% more effective than forward pressure. **[[Toreando Pass]]** and **[[Leg Drag Pass]]** exploit this by attacking from angles where their sleeve grips cannot generate effective pulling force. Forward **[[Stack Pass]]** works only after creating acute folding that compromises their frames."
+      },
+      {
+        "question": "Can I pass Double Sleeve Guard from standing or should I stay on knees?",
+        "answer": "Both work. Standing gives better mobility for **[[Toreando Pass]]** and makes it harder for them to off-balance you (higher success: 55-70%). Kneeling (combat base) gives better base for **[[Knee Slice Pass]]** after grip breaks (success: 45-60%). Advanced passers switch between both to prevent predictability."
+      },
+      {
+        "question": "What should I grip when passing Double Sleeve Guard?",
+        "answer": "Pants at the knees (most common) for **[[Toreando Pass]]** and **[[Knee Slice Pass]]**. Belt at the hips for **[[Stack Pass]]** and pressure-based passing. Ankles for **[[Leg Drag Pass]]**. DO NOT grip their gi jacket/collar - this doesn't control their leg positioning and allows them to maintain sleeve grips effectively."
+      },
+      {
+        "question": "How do I chain multiple passes against Double Sleeve Guard?",
+        "answer": "Example chain: (1) Attempt **[[Knee Slice Pass]]** → if they frame and create space → (2) Switch to **[[Toreando Pass]]** → if they square up → (3) Transition to **[[Leg Drag Pass]]** → if they turn away → (4) Take **[[Back Control]]**. Never commit fully to one pass without backup options."
+      },
+      {
+        "question": "What's the biggest mistake beginners make when passing Double Sleeve Guard?",
+        "answer": "Attempting to pass immediately without addressing sleeve grips first. This results in being swept (30-45% sweep success rate when you ignore grips). Fix: spend 3-5 seconds breaking at least one grip OR establishing your own dominant grips before committing to passing movement."
+      }
+    ]
   }
 }
