@@ -1,54 +1,62 @@
 {
   "name": "Electric Chair",
   "slug": "electric-chair",
-  "description": "Master Electric Chair position in BJJ. Eddie Bravo's lockdown sweep with hip pressure. Setup, execution, finish guide. Success: Beginner 45%, Intermediate 60%, Advanced 75%.",
-  "variant_uniqueness": "Lockdown leverages sweep and submission threat",
-  "overview": "Electric Chair is a devastating attacking position from the lockdown half guard system, popularized by Eddie Bravo and 10th Planet Jiu-Jitsu. This position combines elements of a sweep, submission threat, and positional control, creating a powerful offensive weapon from bottom half guard. The practitioner uses the lockdown to control the opponent's leg while simultaneously elevating their hips and creating a crotch-splitting pressure that forces the opponent into increasingly compromised positions.\n\nThe Electric Chair represents a fundamental departure from traditional half guard sweeps by utilizing the lockdown's control to create a unique mechanical advantage. Rather than simply sweeping the opponent, the bottom player generates intense pressure on the hip joint and groin area, creating both a submission threat and a powerful sweeping mechanism. This dual-threat nature makes the position exceptionally difficult to defend, as opponents must simultaneously address the submission danger while preventing the sweep.\n\nFrom a tactical perspective, Electric Chair serves as a cornerstone of the lockdown system, providing a high-percentage pathway to dominant positions or submissions. The position's effectiveness stems from its ability to break down the opponent's base while maintaining tight control throughout the transition. Advanced practitioners can chain the Electric Chair with other lockdown attacks, creating a comprehensive offensive system that keeps opponents constantly defending.",
+  "description": "Master Electric Chair position in BJJ - Eddie Bravo's devastating lockdown sweep combining submission threat and positional dominance. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%. Complete guide to setup, execution, and finish.",
+  "variant_uniqueness": "Lockdown leverage creates dual sweep-submission threat",
+  "overview": "**Electric Chair** is a devastating attacking position from the **[[Lockdown]]** half guard system, popularized by Eddie Bravo and 10th Planet Jiu-Jitsu. This position combines elements of a sweep, submission threat, and positional control, creating a powerful offensive weapon from **[[Half Guard]]** bottom. The practitioner uses the lockdown to control the opponent's leg while simultaneously elevating their hips and creating a crotch-splitting pressure that forces the opponent into increasingly compromised positions.\n\nThe **Electric Chair** represents a fundamental departure from traditional half guard sweeps by utilizing the lockdown's control to create a unique mechanical advantage. Rather than simply sweeping the opponent, the bottom player generates intense pressure on the hip joint and groin area, creating both a submission threat and a powerful sweeping mechanism. This dual-threat nature makes the position exceptionally difficult to defend, as opponents must simultaneously address the submission danger while preventing the sweep.\n\nFrom a tactical perspective, **Electric Chair** serves as a cornerstone of the **[[Lockdown to Electric Chair System]]**, providing a high-percentage pathway to dominant positions like **[[Mount]]** or submissions like the **[[Electric Chair Submission]]** (also called Banana Split). The position's effectiveness stems from its ability to break down the opponent's base while maintaining tight control throughout the transition. Advanced practitioners can chain the Electric Chair with other lockdown attacks like the **[[Truck]]** and **[[Old School]]** sweep, creating a comprehensive offensive system that keeps opponents constantly defending.",
   "key_principles": [
-    "Maintain tight lockdown throughout the entire sequence - any loosening allows opponent to extract their leg and escape",
-    "Elevate hips powerfully using the lockdown as a lever to create maximum pressure on opponent's hip joint",
-    "Drive the knee of the lockdown leg upward into opponent's groin and inner thigh to intensify the stretching pressure",
-    "Control opponent's upper body with underhook to prevent them from rolling forward or circling away from the attack",
-    "Keep shoulders flat to the mat initially, then rotate toward opponent to increase sweeping power",
-    "Time the sweep for when opponent is maximally stretched and off-balance from the submission pressure"
+    "Maintain tight **[[Lockdown]]** throughout the entire sequence with ankles crossed and locked - any loosening allows opponent to extract their leg and escape",
+    "Elevate hips powerfully using the lockdown as a lever to create maximum pressure on opponent's hip joint and groin area",
+    "Drive the knee of the lockdown leg upward into opponent's groin and inner thigh to intensify the stretching pressure that defines the position",
+    "Control opponent's upper body with deep underhook reaching across their back to prevent them from rolling forward or circling away from the attack",
+    "Keep shoulders flat to the mat initially, then rotate toward opponent at approximately 45-degree angle to increase sweeping power and submission pressure",
+    "Time the sweep for when opponent is maximally stretched and off-balance from the submission pressure, capitalizing on their defensive reactions"
   ],
   "related_positions": [
     {
       "name": "Lockdown",
-      "relationship": "Parent position - Electric Chair develops from established lockdown control"
+      "relationship": "Parent position - Electric Chair develops from established lockdown control with figure-four leg configuration"
     },
     {
       "name": "Half Guard",
-      "relationship": "Base position - Traditional half guard that lockdown modifies"
+      "relationship": "Base position - Traditional half guard that lockdown modifies into offensive platform"
     },
     {
       "name": "Truck",
-      "relationship": "Alternative transition - Available when opponent defends sweep"
+      "relationship": "Alternative transition - Available when opponent defends sweep by rolling or turning away"
     },
     {
       "name": "Vaporizer",
-      "relationship": "Related technique - Alternative sweep when electric chair is defended"
+      "relationship": "Related technique - Alternative lockdown sweep when electric chair is defended"
     },
     {
       "name": "Deep Half Guard",
-      "relationship": "Transition option - Can transition if lockdown is broken"
+      "relationship": "Transition option - Can transition if lockdown is broken and need alternative control"
     },
     {
       "name": "Old School",
-      "relationship": "Common finish - Primary sweep from electric chair pressure"
+      "relationship": "Common finish - Primary sweep destination from electric chair pressure"
     },
     {
       "name": "Back Control",
-      "relationship": "Advanced transition - Available when opponent turns into pressure"
+      "relationship": "Advanced transition - Available when opponent turns into pressure to defend submission"
     },
     {
       "name": "Mount",
-      "relationship": "Sweep destination - Common target after successful old school sweep"
+      "relationship": "Sweep destination - Common target position after successful old school sweep completion"
+    },
+    {
+      "name": "10th Planet Half Guard Bottom System",
+      "relationship": "Parent system - Electric Chair is signature technique within this systematic framework"
+    },
+    {
+      "name": "Lockdown to Electric Chair System",
+      "relationship": "Direct system - Specialized progression training for this position and submission"
     }
   ],
   "bottom": {
     "name": "Electric Chair Bottom",
-    "description": "Master Electric Chair Bottom position in BJJ. Complete guide covering control, submissions, and transitions from the lockdown. High-percentage sweep with 55-70% success rate.",
+    "description": "Master Electric Chair Bottom position in BJJ - Eddie Bravo's signature lockdown attack combining sweep and submission threats. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%. Complete control, execution, and transition guide.",
     "tags": [
       "bjj",
       "position",
@@ -57,9 +65,10 @@
       "lockdown",
       "10th-planet",
       "bottom-position",
-      "sweep"
+      "sweep",
+      "submission-threat"
     ],
-    "overview": "Electric Chair Bottom is an advanced attacking position from the lockdown half guard system, primarily associated with Eddie Bravo's 10th Planet Jiu-Jitsu methodology. This position combines the lockdown leg configuration with specific grips and body positioning to create a powerful sweeping mechanism and submission threat simultaneously. The practitioner on bottom uses the lockdown to trap one of the opponent's legs while securing an underhook and specific grips that allow them to extend the opponent's trapped leg, creating intense pressure on the knee, hip, and groin.\n\nThe position is characterized by its dual-threat nature: it functions as both a high-percentage sweep to reverse position and a legitimate submission threat through the banana split/electric chair submission. The bottom practitioner maintains active offensive pressure while the top player is forced into defensive postures, making this a position-reversal technique within the half guard hierarchy. Success in this position requires precise lockdown mechanics, proper grip sequencing, and understanding of the biomechanical leverage that makes the position effective.\n\nElectric Chair Bottom represents a systematic approach to bottom half guard where the practitioner doesn't merely defend but actively hunts for dominant position reversals and submissions. It exemplifies the 10th Planet philosophy of creating attacking sequences from traditionally defensive positions, forcing opponents to respect submission threats while setting up sweeps and transitions.",
+    "overview": "**Electric Chair Bottom** is an advanced attacking position from the **[[Lockdown]]** half guard system, primarily associated with Eddie Bravo's 10th Planet Jiu-Jitsu methodology. This position combines the lockdown leg configuration with specific grips and body positioning to create a powerful sweeping mechanism and submission threat simultaneously. The practitioner on bottom uses the lockdown to trap one of the opponent's legs while securing an underhook and specific grips that allow them to extend the opponent's trapped leg, creating intense pressure on the knee, hip, and groin.\n\nThe position is characterized by its dual-threat nature: it functions as both a high-percentage sweep to reverse position (45-75% success rate depending on skill level) and a legitimate submission threat through the **[[Electric Chair Submission]]** (also called **Banana Split**). The bottom practitioner maintains active offensive pressure while the top player is forced into defensive postures, making this a position-reversal technique within the **[[Half Guard]]** hierarchy. Success in this position requires precise lockdown mechanics, proper grip sequencing, and understanding of the biomechanical leverage that makes the position effective.\n\n**Electric Chair Bottom** represents a systematic approach to bottom half guard where the practitioner doesn't merely defend but actively hunts for dominant position reversals and submissions. It exemplifies the **10th Planet philosophy** of creating attacking sequences from traditionally defensive positions, forcing opponents to respect submission threats while setting up sweeps to **[[Mount]]**, **[[Back Control]]**, or transitions to the **[[Truck]]**.",
     "state_properties": {
       "point_value": 0,
       "position_type": "Offensive",
@@ -68,28 +77,28 @@
       "time_sustainability": "Short to Medium"
     },
     "state_invariants": [
-      "Bottom practitioner's legs configured in lockdown position with figure-four leg entanglement trapping opponent's near leg, heel pulling down on opponent's thigh while instep hooks behind opponent's calf",
-      "Bottom practitioner maintains deep underhook on opponent's far side, with underhooking arm reaching across opponent's back and gripping their far lat or belt region for maximum extension control",
-      "Bottom practitioner's free hand controls opponent's near ankle or foot, pulling it toward their own hip to create the splitting action that defines the electric chair mechanism",
-      "Opponent's trapped leg is extended and split away from their body, creating pressure through the groin, hip flexor, and knee while limiting their base and mobility",
-      "Bottom practitioner's hips are angled and positioned to maximize leverage on the lockdown while creating space to extend opponent's trapped leg outward"
+      "Bottom practitioner's legs configured in **[[Lockdown]]** position with figure-four leg entanglement trapping opponent's near leg, heel pulling down on opponent's thigh while instep hooks behind opponent's calf, creating immobilization",
+      "Bottom practitioner maintains deep underhook on opponent's far side, with underhooking arm reaching across opponent's back and gripping their far lat or belt region for maximum extension control and sweep leverage",
+      "Bottom practitioner's free hand controls opponent's near ankle or foot, pulling it toward their own hip to create the splitting action that defines the electric chair mechanism and generates submission pressure",
+      "Opponent's trapped leg is extended and split away from their body at approximately 45-degree angle, creating pressure through the groin, hip flexor, and knee while limiting their base and mobility significantly",
+      "Bottom practitioner's hips are angled and positioned to maximize leverage on the lockdown while creating space to extend opponent's trapped leg outward, generating simultaneous sweep and submission threats"
     ],
     "prerequisites": [
-      "Established lockdown half guard position with figure-four leg configuration secure",
-      "Deep underhook control on opponent's far side with arm reaching across their back",
-      "Opponent's weight committed forward or positioned where their trapped leg can be controlled",
-      "Understanding of lockdown maintenance and hip extension mechanics",
-      "Ability to grip and control opponent's near ankle or foot",
-      "Proper hip positioning to create splitting angle on opponent's trapped leg"
+      "Established **[[Lockdown]]** half guard position with figure-four leg configuration secure and opponent's leg immobilized",
+      "Deep underhook control on opponent's far side with arm reaching across their back to far lat or belt",
+      "Opponent's weight committed forward or positioned where their trapped leg can be controlled and extended",
+      "Understanding of lockdown maintenance mechanics including hip extension, ankle pressure, and leg control",
+      "Ability to grip and control opponent's near ankle or foot while maintaining lockdown tension",
+      "Proper hip positioning to create splitting angle on opponent's trapped leg at approximately 45 degrees"
     ],
     "key_principles": [
-      "Maintain constant tension on the lockdown to prevent opponent from extracting their leg and establish baseline control",
-      "Secure deep underhook that reaches across opponent's back to their far side, maximizing extension and preventing them from posturing away",
-      "Control opponent's near ankle with precision, pulling it toward your hip to create the splitting mechanism that defines the position",
-      "Angle your hips and body to create maximum leverage on the trapped leg, positioning yourself at approximately 45 degrees to your opponent",
-      "Coordinate lockdown extension with ankle control and underhook pressure to create simultaneous threats of sweep and submission",
-      "Keep opponent's weight distributed forward and off-balance to prevent them from establishing defensive base or extracting their leg",
-      "Maintain active offensive pressure throughout, never allowing opponent to settle or establish counters to your control"
+      "Maintain constant tension on the **[[Lockdown]]** to prevent opponent from extracting their leg and establish baseline control - this is your foundation",
+      "Secure deep underhook that reaches across opponent's back to their far side, maximizing extension and preventing them from posturing away or establishing crossface",
+      "Control opponent's near ankle with precision, pulling it toward your hip to create the splitting mechanism that defines the position and generates submission threat",
+      "Angle your hips and body to create maximum leverage on the trapped leg, positioning yourself at approximately 45 degrees to your opponent for optimal pressure",
+      "Coordinate lockdown extension with ankle control and underhook pressure to create simultaneous threats of sweep (**[[Old School]]**) and submission (**[[Electric Chair Submission]]**)",
+      "Keep opponent's weight distributed forward and off-balance to prevent them from establishing defensive base or extracting their leg through windshield wiper motion",
+      "Maintain active offensive pressure throughout, never allowing opponent to settle or establish counters to your control - constant movement is key"
     ],
     "offensive_transitions": [
       {
@@ -173,27 +182,27 @@
       {
         "technique": "Truck Entry",
         "target_position": "Truck",
-        "trigger": "Opponent attempts to extract their leg from lockdown"
+        "trigger": "Opponent attempts to extract their leg from lockdown using windshield wiper or circular motion"
       },
       {
         "technique": "Deep Half Entry",
         "target_position": "Deep Half Guard",
-        "trigger": "Opponent posts their hand to defend electric chair"
+        "trigger": "Opponent posts their hand far to defend electric chair submission threat"
       },
       {
         "technique": "Old School Sweep",
         "target_position": "Mount",
-        "trigger": "Opponent commits weight forward to counter submission threat"
+        "trigger": "Opponent commits weight forward to counter submission threat and flatten position"
       },
       {
         "technique": "Transition to Omoplata",
         "target_position": "Omoplata Control",
-        "trigger": "Opponent pulls their trapped leg back defensively"
+        "trigger": "Opponent pulls their trapped leg back defensively and exposes far arm"
       }
     ],
     "decision_tree": [
       {
-        "condition": "If opponent maintains heavy forward pressure and low posture defending the electric chair",
+        "condition": "If opponent maintains heavy forward pressure and low posture defending the electric chair submission",
         "actions": [
           {
             "technique": "Old School Sweep",
@@ -208,7 +217,7 @@
         ]
       },
       {
-        "condition": "Else if opponent postures up and attempts to extract their trapped leg",
+        "condition": "Else if opponent postures up and attempts to extract their trapped leg with high hips",
         "actions": [
           {
             "technique": "Electric Chair Submission",
@@ -223,7 +232,7 @@
         ]
       },
       {
-        "condition": "Else if opponent posts their far arm to defend underhook",
+        "condition": "Else if opponent posts their far arm to defend underhook and prevent extension",
         "actions": [
           {
             "technique": "Transition to Omoplata",
@@ -238,7 +247,7 @@
         ]
       },
       {
-        "condition": "Else if opponent attempts to windshield wiper their leg free",
+        "condition": "Else if opponent attempts to windshield wiper their leg free using circular motion",
         "actions": [
           {
             "technique": "Truck Entry",
@@ -255,55 +264,55 @@
     ],
     "common_errors": [
       {
-        "error": "Releasing lockdown tension while attempting to secure ankle control",
-        "consequence": "Opponent can extract their leg and pass to side control, completely neutralizing the electric chair threat",
-        "correction": "Maintain constant pressure through the lockdown while using your free hand to secure the ankle, never sacrificing leg control for grip adjustments"
+        "error": "Releasing lockdown tension while attempting to secure ankle control for the split",
+        "consequence": "Opponent can extract their leg and pass to **[[Side Control]]**, completely neutralizing the electric chair threat and losing all offensive pressure",
+        "correction": "Maintain constant pressure through the **[[Lockdown]]** while using your free hand to secure the ankle, never sacrificing leg control for grip adjustments - lockdown first, grips second"
       },
       {
-        "error": "Shallow underhook that doesn't reach across opponent's back to far side",
-        "consequence": "Insufficient extension leverage allows opponent to posture and defend, reducing sweep and submission effectiveness by 40-50%",
-        "correction": "Drive underhook deep across opponent's back until your hand grips their far lat or belt, creating maximum extension control"
+        "error": "Shallow underhook that doesn't reach across opponent's back to far side or far lat",
+        "consequence": "Insufficient extension leverage allows opponent to posture and defend, reducing sweep and submission effectiveness by 40-50% and enabling them to establish crossface",
+        "correction": "Drive underhook deep across opponent's back until your hand grips their far lat or belt, creating maximum extension control and preventing defensive posturing"
       },
       {
-        "error": "Failing to angle hips properly for splitting action",
-        "consequence": "Reduced pressure on opponent's trapped leg minimizes submission threat and sweep leverage, making position easily defensible",
-        "correction": "Angle your body approximately 45 degrees relative to opponent, creating perpendicular force on their trapped leg while maintaining lockdown control"
+        "error": "Failing to angle hips properly for splitting action at 45-degree angle to opponent",
+        "consequence": "Reduced pressure on opponent's trapped leg minimizes submission threat and sweep leverage, making position easily defensible and allowing opponent to extract leg",
+        "correction": "Angle your body approximately 45 degrees relative to opponent, creating perpendicular force on their trapped leg while maintaining **[[Lockdown]]** control - geometry is critical"
       },
       {
-        "error": "Attempting submission without establishing proper grips first",
-        "consequence": "Opponent easily defends and can counter-pass, often securing side control or mount",
-        "correction": "Follow systematic grip sequence: lockdown first, then underhook, finally ankle control before initiating splitting action"
+        "error": "Attempting submission without establishing proper grip sequence and control hierarchy",
+        "consequence": "Opponent easily defends and can counter-pass, often securing **[[Side Control]]** or **[[Mount]]** while you're focused on incomplete attack",
+        "correction": "Follow systematic grip sequence: lockdown first, then underhook, finally ankle control before initiating splitting action - never skip steps"
       },
       {
         "error": "Allowing opponent to establish crossface or overhook on underhooking arm",
-        "consequence": "Loss of extension control and sweep leverage, typically resulting in opponent passing to side control",
-        "correction": "Keep underhooking arm active and deep, using head position and shoulder pressure to prevent opponent from controlling it"
+        "consequence": "Loss of extension control and sweep leverage, typically resulting in opponent flattening you and passing to **[[Side Control]]** or breaking lockdown",
+        "correction": "Keep underhooking arm active and deep, using head position and shoulder pressure to prevent opponent from controlling it - fight for underhook dominance"
       },
       {
-        "error": "Static position maintenance without creating dynamic pressure",
-        "consequence": "Opponent settles into defensive position and systematically works to extract leg, eventually passing guard",
-        "correction": "Constantly adjust lockdown pressure, underhook depth, and ankle control to keep opponent reacting and off-balance"
+        "error": "Static position maintenance without creating dynamic pressure or active extensions",
+        "consequence": "Opponent settles into defensive position and systematically works to extract leg, eventually passing guard as you hold passively",
+        "correction": "Constantly adjust lockdown pressure, underhook depth, and ankle control to keep opponent reacting and off-balance - movement creates opportunities"
       }
     ],
     "training_drills": [
       {
         "name": "Lockdown Control and Ankle Grip Sequence Drill",
-        "description": "Partner starts in half guard top position. Bottom practitioner establishes lockdown, then works through systematic grip progression: secure lockdown, establish underhook, control ankle. Practice maintaining each stage for 30 seconds before advancing. Partner provides progressive resistance. Focus on maintaining lockdown tension throughout all grip changes.",
+        "description": "Partner starts in **[[Half Guard]]** top position. Bottom practitioner establishes **[[Lockdown]]**, then works through systematic grip progression: secure lockdown, establish underhook, control ankle. Practice maintaining each stage for 30 seconds before advancing to next grip. Partner provides progressive resistance levels (10%, 30%, 50%). Focus on maintaining lockdown tension throughout all grip changes without compromising leg control.",
         "duration": "5 minutes per partner"
       },
       {
         "name": "Electric Chair Sweep Repetition",
-        "description": "From established electric chair position, practice the sweeping motion repeatedly. Partner maintains position but doesn't resist sweep. Focus on hip extension, lockdown mechanics, and coordinated pressure through all control points. Perform 10 repetitions per side, emphasizing smooth technique over speed.",
+        "description": "From established electric chair position with all grips secure, practice the sweeping motion repeatedly focusing on technical precision. Partner maintains position but doesn't resist sweep actively. Focus on hip extension, lockdown mechanics, and coordinated pressure through all control points (lockdown, underhook, ankle). Perform 10 repetitions per side, emphasizing smooth technique over speed and power.",
         "duration": "10 minutes total"
       },
       {
         "name": "Transition Flow: Electric Chair to Truck to Deep Half",
-        "description": "Starting from electric chair bottom, flow through transitions based on partner's defensive reactions. Partner provides realistic defense without full resistance. Practice reading opponent's weight distribution and selecting appropriate transition. Cycle through all offensive options continuously.",
+        "description": "Starting from electric chair bottom with all grips established, flow through transitions based on partner's defensive reactions. Partner provides realistic defense without full resistance. Practice reading opponent's weight distribution and selecting appropriate transition: **[[Old School]]** for forward pressure, **[[Truck]]** for windshield wiper defense, **[[Deep Half Guard]]** for posted hand defense. Cycle through all offensive options continuously for pattern recognition.",
         "duration": "5 minutes per partner"
       },
       {
         "name": "Electric Chair Positional Sparring",
-        "description": "Start in electric chair bottom position with all grips established. Bottom practitioner works for sweep or submission. Top practitioner works to extract leg and pass. Reset when position is fully lost by either partner. 2-minute rounds with emphasis on technique over strength.",
+        "description": "Start in electric chair bottom position with all grips established (**[[Lockdown]]**, underhook, ankle control). Bottom practitioner works for sweep or **[[Electric Chair Submission]]**. Top practitioner works to extract leg and pass. Reset when position is fully lost by either partner (sweep completed or pass achieved). 2-minute rounds with emphasis on technique over strength and explosive movement.",
         "duration": "6 rounds (2 minutes each)"
       }
     ],
@@ -328,43 +337,43 @@
     "related_content": [
       {
         "name": "Lockdown",
-        "relationship": "Parent position - electric chair is advanced attacking variation"
+        "relationship": "Parent position - electric chair is advanced attacking variation requiring established lockdown control"
       },
       {
         "name": "Electric Chair Top",
-        "relationship": "Opponent's perspective from same position"
+        "relationship": "Opponent's perspective from same position - critical for understanding defensive counters"
       },
       {
         "name": "Truck",
-        "relationship": "Common transition target when opponent defends electric chair"
+        "relationship": "Common transition target when opponent defends electric chair with windshield wiper leg extraction"
       },
       {
         "name": "Deep Half Guard",
-        "relationship": "Alternative transition when electric chair is defended"
+        "relationship": "Alternative transition when electric chair is defended with posted hand or crossface pressure"
       },
       {
         "name": "Old School",
-        "relationship": "Primary sweeping technique from this position"
+        "relationship": "Primary sweeping technique from this position when opponent commits weight forward"
       },
       {
         "name": "Electric Chair Submission",
-        "relationship": "Primary submission threat from this position"
+        "relationship": "Primary submission threat from this position (also called Banana Split)"
       },
       {
         "name": "10th Planet Half Guard Bottom System",
-        "relationship": "Systematic framework containing this position"
+        "relationship": "Systematic framework containing this position as signature technique"
       },
       {
         "name": "Lockdown to Electric Chair System",
-        "relationship": "Systematic progression leading to this position"
+        "relationship": "Systematic progression leading to this position from basic lockdown control"
       },
       {
         "name": "Banana Split",
-        "relationship": "Alternative name for electric chair submission finish"
+        "relationship": "Alternative name for electric chair submission finish - same technique"
       },
       {
         "name": "Vaporizer",
-        "relationship": "Related sweep from lockdown position"
+        "relationship": "Related sweep from lockdown position when electric chair angle isn't available"
       }
     ],
     "position_metrics": {
@@ -383,17 +392,17 @@
         "intermediate": 40,
         "advanced": 55
       },
-      "average_time": "30-90 seconds before sweep or transition"
+      "average_time": "30-90 seconds before sweep or transition in competition scenarios"
     },
     "expert_insights": {
-      "danaher": "The electric chair represents a sophisticated application of leverage principles within the half guard system, combining leg entanglement mechanics with strategic grip configurations to create simultaneous threats across multiple vectors. The position's effectiveness derives from its ability to compromise the opponent's base through lockdown control while simultaneously attacking their structural integrity via the splitting mechanism. What makes this position particularly valuable from a systematic perspective is its integration of position control with submission threat—the opponent cannot simply defend one aspect without exposing themselves to the other. The biomechanical principle at work involves creating perpendicular force on the trapped leg while maintaining rotational control through the underhook, forcing the opponent into increasingly disadvantageous positions regardless of their defensive choice. Practitioners must understand that the lockdown itself is not merely a holding mechanism but an active control system that generates offensive pressure when combined with proper hip extension and grip sequencing.",
-      "gordon_ryan": "In competition, electric chair bottom is one of the highest percentage attacking positions from bottom half guard when executed with proper timing and control. The key to making this work at the highest levels is understanding that it's not just about getting to the position—it's about controlling the grips and maintaining constant pressure so your opponent never gets comfortable. I've finished multiple high-level black belts with the electric chair submission because once you have the position locked in correctly, they're basically choosing between getting swept or getting submitted. The split they face is real: defend the sweep and get your leg torn apart, or defend the submission and get reversed. What separates advanced practitioners is the ability to maintain lockdown control while seamlessly transitioning between sweep and submission threats based on the opponent's defensive reactions. In my experience, the most effective approach is to threaten the submission first to get their weight moving forward, then capitalize on that reaction with the sweep. The position also sets up the entire truck game beautifully when opponents try to windshield wiper their leg free.",
-      "eddie_bravo": "The electric chair is the crown jewel of the lockdown system and represents everything we're about at 10th Planet—taking traditionally defensive positions and turning them into high-percentage attacking sequences. This isn't just a sweep or just a submission; it's a complete position that forces your opponent into a no-win dilemma. When you lock in that electric chair correctly with the deep underhook, the lockdown cranked tight, and that ankle controlled perfectly, your opponent is basically screwed either way they move. The beauty of the electric chair is how it flows into the entire rubber guard and truck system—if they defend the chair, you can transition to old school sweep, if they try to extract their leg you go to the truck and hunt the twister. We've built an entire systematic approach around this position because it exemplifies the 10th Planet philosophy: constant pressure, multiple threats, and making your opponent choose which way they want to lose. What most people miss is that the lockdown has to be active, not passive—you're constantly extending through it, creating that pressure that makes the electric chair submission a legitimate threat while setting up all your sweeps and transitions."
+      "danaher": "The **Electric Chair** represents a sophisticated application of leverage principles within the **half guard system**, combining leg entanglement mechanics with strategic grip configurations to create simultaneous threats across multiple vectors. The position's effectiveness derives from its ability to compromise the opponent's base through **[[Lockdown]]** control while simultaneously attacking their structural integrity via the splitting mechanism. What makes this position particularly valuable from a systematic perspective is its integration of position control with submission threat—the opponent cannot simply defend one aspect without exposing themselves to the other. The biomechanical principle at work involves creating perpendicular force on the trapped leg while maintaining rotational control through the underhook, forcing the opponent into increasingly disadvantageous positions regardless of their defensive choice. Practitioners must understand that the lockdown itself is not merely a holding mechanism but an active control system that generates offensive pressure when combined with proper hip extension and grip sequencing. The angle of attack is critical: by positioning yourself at approximately 45 degrees to your opponent and coordinating lockdown extension with ankle control, you create a mechanical advantage that multiplies your force application exponentially.",
+      "gordon_ryan": "In competition, **Electric Chair Bottom** is one of the highest percentage attacking positions from bottom half guard when executed with proper timing and control. The key to making this work at the highest levels is understanding that it's not just about getting to the position—it's about controlling the grips and maintaining constant pressure so your opponent never gets comfortable. I've finished multiple high-level black belts with the **[[Electric Chair Submission]]** because once you have the position locked in correctly with the deep underhook, the lockdown cranked tight, and that ankle controlled perfectly, they're basically choosing between getting swept or getting their leg torn apart. The split they face is real: defend the sweep and get submitted, or defend the submission and get reversed to bottom position. What separates advanced practitioners is the ability to maintain **[[Lockdown]]** control while seamlessly transitioning between sweep and submission threats based on the opponent's defensive reactions. In my experience, the most effective approach is to threaten the submission first to get their weight moving forward, then capitalize on that reaction with the **[[Old School]]** sweep. The position also sets up the entire **[[Truck]]** game beautifully when opponents try to windshield wiper their leg free—that's when you roll with them and take the back.",
+      "eddie_bravo": "The **Electric Chair** is the crown jewel of the **[[Lockdown]]** system and represents everything we're about at **10th Planet**—taking traditionally defensive positions and turning them into high-percentage attacking sequences. This isn't just a sweep or just a submission; it's a complete position that forces your opponent into a no-win dilemma. When you lock in that electric chair correctly with the deep underhook, the lockdown cranked tight, and that ankle controlled perfectly, your opponent is basically screwed either way they move. The beauty of the electric chair is how it flows into the entire **rubber guard** and **[[Truck]]** system—if they defend the chair, you can transition to **[[Old School]]** sweep, if they try to extract their leg you go to the truck and hunt the **[[Twister]]**. We've built an entire systematic approach around this position because it exemplifies the 10th Planet philosophy: constant pressure, multiple threats, and making your opponent choose which way they want to lose. What most people miss is that the **[[Lockdown]]** has to be active, not passive—you're constantly extending through it, creating that pressure that makes the **[[Electric Chair Submission]]** a legitimate threat while setting up all your sweeps and transitions. This position has won championships and submitted world champions because when it's locked in properly, there's no good answer."
     }
   },
   "top": {
     "name": "Electric Chair Top",
-    "description": "Master Electric Chair Top position in BJJ. Control opponent's lockdown and threaten back takes, passes, and submissions. Advanced half guard top control with 60% pass rate.",
+    "description": "Master Electric Chair Top defense in BJJ - Counter Eddie Bravo's lockdown system with strategic leg extraction and passing. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%. Complete defensive guide.",
     "tags": [
       "bjj",
       "position",
@@ -401,9 +410,10 @@
       "top",
       "electric-chair",
       "lockdown-counter",
-      "10th-planet"
+      "10th-planet",
+      "defensive-position"
     ],
-    "overview": "Electric Chair Top is the controlling position from top when your opponent has you locked in the Electric Chair lockdown position from half guard bottom. This position represents the top player's defensive and offensive posture while trapped in the opponent's lockdown control, where the bottom player is attempting to stretch and off-balance you while setting up the Electric Chair submission or sweeps. The position requires specific defensive awareness to prevent the submission while simultaneously working to escape the lockdown and advance position.\n\nFrom this position, the top player must balance between defending the Electric Chair submission (which targets the knee and ankle), preventing sweeps like the Old School, and working to extract the trapped leg to pass the guard. Success in this position comes from understanding proper weight distribution, maintaining upper body control, and executing systematic lockdown breaking sequences. While seemingly disadvantageous, experienced practitioners can use this position to set up powerful passing sequences, back takes, and even counter-submissions once the lockdown is neutralized.\n\nThe Electric Chair Top position is particularly common in 10th Planet Jiu-Jitsu competition and no-gi grappling where the lockdown system is heavily utilized. Understanding this position is essential for any practitioner facing lockdown-based half guard players, as improper defense can lead to quick submissions or sweeps. The position demands both technical precision in escape mechanics and strategic patience in timing your counters against an opponent attempting to create the dilemma that defines the lockdown system.",
+    "overview": "**Electric Chair Top** is the controlling position from top when your opponent has you locked in the **Electric Chair** lockdown position from **[[Half Guard]]** bottom. This position represents the top player's defensive and offensive posture while trapped in the opponent's **[[Lockdown]]** control, where the bottom player is attempting to stretch and off-balance you while setting up the **[[Electric Chair Submission]]** or sweeps like the **[[Old School]]**. The position requires specific defensive awareness to prevent the submission while simultaneously working to escape the lockdown and advance position.\n\nFrom this position, the top player must balance between defending the **Electric Chair Submission** (which targets the knee and ankle with splitting pressure), preventing sweeps like the **[[Old School]]**, and working to extract the trapped leg to pass the guard. Success in this position comes from understanding proper weight distribution, maintaining upper body control with crossface or underhook dominance, and executing systematic lockdown breaking sequences. While seemingly disadvantageous, experienced practitioners can use this position to set up powerful passing sequences to **[[Side Control]]**, back takes to **[[Back Control]]**, and even counter-submissions like the **[[Darce Choke]]** once the lockdown is neutralized.\n\nThe **Electric Chair Top** position is particularly common in **10th Planet Jiu-Jitsu** competition and no-gi grappling where the **[[Lockdown]]** system is heavily utilized. Understanding this position is essential for any practitioner facing lockdown-based half guard players, as improper defense can lead to quick submissions or sweeps. The position demands both technical precision in escape mechanics and strategic patience in timing your counters against an opponent attempting to create the dilemma that defines the lockdown system.",
     "state_properties": {
       "point_value": 0,
       "position_type": "Defensive",
@@ -412,26 +422,26 @@
       "time_sustainability": "Short"
     },
     "state_invariants": [
-      "One leg (usually the inside leg) is trapped between opponent's legs in the lockdown configuration, with opponent's shin across your shin/ankle and their foot triangled behind their own knee",
-      "Top player's hips are typically elevated and pulled toward the opponent's outside hip due to the lockdown's stretching mechanism, creating uncomfortable torque on the trapped knee",
-      "Opponent is on their side or back in half guard bottom position with the lockdown engaged, often with an underhook or whizzer controlling your upper body",
-      "Top player's free leg (outside leg) is usually posted wide for base or actively working to counter the lockdown's off-balancing effects",
+      "One leg (usually the inside leg) is trapped between opponent's legs in the **[[Lockdown]]** configuration, with opponent's shin across your shin/ankle and their foot triangled behind their own knee, creating immobilization",
+      "Top player's hips are typically elevated and pulled toward the opponent's outside hip due to the lockdown's stretching mechanism, creating uncomfortable torque on the trapped knee and ankle",
+      "Opponent is on their side or back in **[[Half Guard]]** bottom position with the lockdown engaged, often with an underhook or whizzer controlling your upper body and preventing crossface",
+      "Top player's free leg (outside leg) is usually posted wide for base or actively working to counter the lockdown's off-balancing effects and sweep attempts",
       "Upper body positioning varies but typically involves crossface pressure, underhook control, or whizzer defense depending on the opponent's grips and sweep attempts"
     ],
     "prerequisites": [
-      "Opponent has secured lockdown control from half guard bottom",
-      "One of your legs is trapped in the lockdown configuration",
-      "Opponent has achieved sufficient hip extension to create the Electric Chair stretch",
-      "You are aware of the submission threat and sweep dangers",
-      "You maintain some upper body control to prevent immediate back take"
+      "Opponent has secured **[[Lockdown]]** control from **[[Half Guard]]** bottom with figure-four leg configuration",
+      "One of your legs is trapped in the lockdown configuration with mobility restricted",
+      "Opponent has achieved sufficient hip extension to create the **Electric Chair** stretch and submission pressure",
+      "You are aware of the submission threat to knee and ankle and sweep dangers",
+      "You maintain some upper body control to prevent immediate back take or **[[Old School]]** sweep"
     ],
     "key_principles": [
-      "Immediately recognize the lockdown and Electric Chair setup to prevent the submission from being finished",
-      "Keep your weight forward and chest pressure down on opponent to prevent them from creating the optimal angle for the submission",
-      "Control opponent's upper body with crossface, underhook, or head control to limit their mobility and sweep options",
-      "Work systematically to break the lockdown by addressing the foot triangle first, then extracting your trapped leg",
-      "Maintain wide base with your free leg to counter off-balancing attempts and sweep threats like the Old School",
-      "Stay patient and methodical - rushing the escape often leads to giving up back control or being swept"
+      "Immediately recognize the **[[Lockdown]]** and **Electric Chair** setup to prevent the submission from being finished - early recognition is critical",
+      "Keep your weight forward and chest pressure down on opponent to prevent them from creating the optimal angle for the submission (approximately 45 degrees)",
+      "Control opponent's upper body with crossface, underhook, or head control to limit their mobility and sweep options like **[[Old School]]**",
+      "Work systematically to break the lockdown by addressing the foot triangle first, then extracting your trapped leg using circular motion",
+      "Maintain wide base with your free leg to counter off-balancing attempts and sweep threats - never allow narrow base",
+      "Stay patient and methodical in your escape - rushing the extraction often leads to giving up **[[Back Control]]** or being swept to bottom position"
     ],
     "offensive_transitions": [
       {
@@ -515,22 +525,22 @@
       {
         "technique": "Counter Old School with Whizzer",
         "target_position": "Side Control",
-        "trigger": "Opponent attempts Old School sweep by rolling back over shoulder"
+        "trigger": "Opponent attempts **[[Old School]]** sweep by rolling back over shoulder with underhook leverage"
       },
       {
         "technique": "Backstep to Back Control",
         "target_position": "Back Control",
-        "trigger": "Opponent overcommits to Electric Chair finish and exposes their back"
+        "trigger": "Opponent overcommits to **[[Electric Chair Submission]]** finish and exposes their back"
       },
       {
         "technique": "Pressure and Extract",
         "target_position": "Half Guard",
-        "trigger": "Opponent loses lockdown pressure or foot triangle opens"
+        "trigger": "Opponent loses **[[Lockdown]]** pressure or foot triangle opens during grip adjustment"
       }
     ],
     "decision_tree": [
       {
-        "condition": "If opponent has strong lockdown with underhook and is attempting Electric Chair submission",
+        "condition": "If opponent has strong **[[Lockdown]]** with underhook and is attempting **[[Electric Chair Submission]]**",
         "actions": [
           {
             "technique": "Limp Leg Defense",
@@ -545,7 +555,7 @@
         ]
       },
       {
-        "condition": "If opponent releases lockdown pressure to attempt sweep or transition",
+        "condition": "Else if opponent releases lockdown pressure to attempt sweep or transition",
         "actions": [
           {
             "technique": "Immediate Leg Extraction",
@@ -560,7 +570,7 @@
         ]
       },
       {
-        "condition": "If opponent attempts Old School sweep by rolling backwards",
+        "condition": "Else if opponent attempts **[[Old School]]** sweep by rolling backwards over shoulder",
         "actions": [
           {
             "technique": "Whizzer Counter",
@@ -575,7 +585,7 @@
         ]
       },
       {
-        "condition": "If opponent exposes back while attempting lockdown attacks",
+        "condition": "Else if opponent exposes back while attempting lockdown attacks",
         "actions": [
           {
             "technique": "Backstep to Back Take",
@@ -592,55 +602,55 @@
     ],
     "common_errors": [
       {
-        "error": "Pulling leg out forcefully without breaking the lockdown first",
-        "consequence": "Increases torque on knee joint and makes the Electric Chair submission more effective, risking injury",
-        "correction": "First break the foot triangle by creating space and addressing the lockdown mechanics, then extract the leg systematically"
+        "error": "Pulling leg out forcefully without breaking the **[[Lockdown]]** first",
+        "consequence": "Increases torque on knee joint and makes the **[[Electric Chair Submission]]** more effective, risking serious injury to knee and ankle",
+        "correction": "First break the foot triangle by creating space and addressing the lockdown mechanics systematically, then extract the leg using circular motion"
       },
       {
         "error": "Posting hands behind you or sitting back in response to the stretch",
-        "consequence": "Gives opponent ideal angle and leverage for the Electric Chair finish and opens Old School sweep opportunities",
-        "correction": "Maintain forward pressure with chest and shoulders, keep weight distributed over opponent to limit their mobility"
+        "consequence": "Gives opponent ideal angle and leverage for the **[[Electric Chair Submission]]** finish and opens **[[Old School]]** sweep opportunities",
+        "correction": "Maintain forward pressure with chest and shoulders, keep weight distributed over opponent to limit their mobility and angle creation"
       },
       {
         "error": "Ignoring upper body control while focusing only on leg extraction",
-        "consequence": "Opponent easily takes back or sweeps as you become one-dimensional in your escape",
-        "correction": "Maintain crossface, underhook, or head control throughout the escape process to limit opponent's options"
+        "consequence": "Opponent easily takes **[[Back Control]]** or sweeps as you become one-dimensional in your escape attempts",
+        "correction": "Maintain crossface, underhook, or head control throughout the escape process to limit opponent's options and prevent back exposure"
       },
       {
-        "error": "Allowing opponent to get perpendicular angle with their hips",
-        "consequence": "Significantly increases effectiveness of Electric Chair submission and sweep attempts",
+        "error": "Allowing opponent to get perpendicular angle with their hips at 45 degrees",
+        "consequence": "Significantly increases effectiveness of **[[Electric Chair Submission]]** and sweep attempts by optimizing leverage geometry",
         "correction": "Use free leg to drive opponent's hips flat to the mat, preventing them from achieving optimal submission angle"
       },
       {
-        "error": "Panicking and attempting explosive escapes without technique",
-        "consequence": "Wastes energy, increases injury risk, and often results in giving up worse positions like back control",
-        "correction": "Stay calm, work systematically through escape steps, and time movements with opponent's adjustments"
+        "error": "Panicking and attempting explosive escapes without technical precision",
+        "consequence": "Wastes energy, increases injury risk to knee and ankle, and often results in giving up worse positions like **[[Back Control]]**",
+        "correction": "Stay calm, work systematically through escape steps (pressure, control, break, extract), and time movements with opponent's adjustments"
       },
       {
-        "error": "Keeping trapped leg stiff and locked out",
-        "consequence": "Makes the leg more vulnerable to the stretch and harder to extract from lockdown",
+        "error": "Keeping trapped leg stiff and locked out against the stretch",
+        "consequence": "Makes the leg more vulnerable to the stretch and harder to extract from **[[Lockdown]]** configuration",
         "correction": "Relax the trapped leg (limp leg concept), allowing it to be more mobile and less susceptible to the submission mechanics"
       }
     ],
     "training_drills": [
       {
         "name": "Lockdown Escape Repetitions",
-        "description": "Partner holds lockdown with varying degrees of pressure. Practice systematic lockdown break sequence focusing on foot triangle opening, knee pressure, and leg extraction. Start with light resistance and gradually increase intensity.",
+        "description": "Partner holds **[[Lockdown]]** with varying degrees of pressure (light, medium, strong). Practice systematic lockdown break sequence focusing on foot triangle opening, knee pressure, and leg extraction using circular motion. Start with light resistance (30%) and gradually increase intensity to competition level (80%). Focus on maintaining posture and preventing submission threat throughout.",
         "duration": "5 minutes per round, 3 rounds"
       },
       {
         "name": "Electric Chair Defense Flow",
-        "description": "Partner attempts Electric Chair submission from lockdown bottom while you defend using proper weight distribution, limp leg technique, and lockdown breaking. Reset after each successful defense or submission. Focus on recognizing the submission early.",
+        "description": "Partner attempts **[[Electric Chair Submission]]** from **[[Lockdown]]** bottom while you defend using proper weight distribution, limp leg technique, and lockdown breaking. Reset after each successful defense or submission. Focus on recognizing the submission early (before full extension) and applying defensive principles immediately.",
         "duration": "4 minutes per round, 4 rounds"
       },
       {
         "name": "Lockdown Counter Passing",
-        "description": "Positional sparring starting from Electric Chair Top position. Top player works to escape lockdown and pass while bottom player attacks with Electric Chair, Old School sweep, and other lockdown-based techniques. Reset to starting position after pass or sweep.",
+        "description": "Positional sparring starting from **Electric Chair Top** position with opponent having established grips. Top player works to escape lockdown and pass while bottom player attacks with **[[Electric Chair Submission]]**, **[[Old School]]** sweep, and other lockdown-based techniques. Reset to starting position after pass completion or sweep. Winner stays top for continuous rounds.",
         "duration": "5 minutes per round, winner stays top"
       },
       {
         "name": "Old School Sweep Defense Drilling",
-        "description": "Partner attempts Old School sweep from lockdown while you defend with proper base, whizzer control, and counter pressure. Practice timing the whizzer and maintaining balance as opponent rolls backwards.",
+        "description": "Partner attempts **[[Old School]]** sweep from **[[Lockdown]]** while you defend with proper base, whizzer control, and counter pressure. Practice timing the whizzer and maintaining balance as opponent rolls backwards. Focus on recognizing sweep initiation early and applying defensive posture before full commitment.",
         "duration": "3 minutes per round, alternating roles"
       }
     ],
@@ -661,43 +671,43 @@
     "related_content": [
       {
         "name": "Electric Chair Bottom",
-        "relationship": "Opponent's perspective from this position"
+        "relationship": "Opponent's perspective from this position - essential for understanding attacking sequences"
       },
       {
         "name": "Lockdown",
-        "relationship": "Common entry position for opponent"
+        "relationship": "Common entry position for opponent - parent position of electric chair"
       },
       {
         "name": "Half Guard",
-        "relationship": "Target position after lockdown escape"
+        "relationship": "Target position after lockdown escape - traditional half guard without lockdown"
       },
       {
         "name": "Old School",
-        "relationship": "Common sweep threat from this position"
+        "relationship": "Common sweep threat from this position requiring specific defensive response"
       },
       {
         "name": "Dogfight Position",
-        "relationship": "Possible transition if opponent releases lockdown"
+        "relationship": "Possible transition if opponent releases lockdown for whip-up sweep"
       },
       {
         "name": "Side Control",
-        "relationship": "Common passing target after lockdown break"
+        "relationship": "Common passing target after lockdown break and leg extraction"
       },
       {
         "name": "Back Control",
-        "relationship": "Counter-attack option if opponent overextends"
+        "relationship": "Counter-attack option if opponent overextends on submission or sweep"
       },
       {
         "name": "Lockdown to Electric Chair System",
-        "relationship": "System opponent is using against you"
+        "relationship": "System opponent is using against you - study for prevention"
       },
       {
         "name": "10th Planet Half Guard Bottom System",
-        "relationship": "Source system for opponent's attacks"
+        "relationship": "Source system for opponent's attacks - comprehensive framework"
       },
       {
         "name": "Defensive Strategy",
-        "relationship": "Conceptual framework for this defensive position"
+        "relationship": "Conceptual framework for this defensive position - general principles"
       }
     ],
     "position_metrics": {
@@ -716,12 +726,16 @@
         "intermediate": 15,
         "advanced": 25
       },
-      "average_time": "30-90 seconds before escape or submission/sweep"
+      "average_time": "30-90 seconds before escape or submission/sweep in competition"
     },
     "expert_insights": {
-      "danaher": "The Electric Chair Top position represents a critical juncture in the half guard passing game where systematic understanding separates competent passers from those who simply muscle through. The lockdown creates a mechanical advantage for the bottom player by utilizing the strength of their entire posterior chain against your isolated leg, making brute force extraction both ineffective and dangerous. The key principle is to recognize that the lockdown is a system of connected controls - the foot triangle, hip extension, and upper body manipulation work together to create the submission threat and sweep opportunities. Your escape must therefore be systematic: first neutralize the most dangerous element (the submission threat through proper weight distribution and limp leg mechanics), then methodically dismantle the lockdown structure by addressing the foot triangle, and finally extract your leg once the system is weakened. The common error of attempting immediate leg extraction while the lockdown is fully engaged not only fails but actively assists your opponent by creating the very torque that makes the Electric Chair effective. Instead, use forward pressure, proper angle management, and patience to systematically overcome what is essentially a well-designed trap.",
-      "gordon_ryan": "When I'm stuck in someone's lockdown, my first thought is always 'how did I let this happen' because prevention is way easier than escape. But once you're there, you need to be smart about it. The Electric Chair submission is actually pretty easy to defend if you know what you're doing - keep your weight forward, don't let them get perpendicular, and relax that trapped leg. Most people tense up and try to yank their leg out, which is exactly what makes the submission work. I've been caught in the lockdown by high-level 10th Planet guys, and the key is not panicking. They want you to react, to give them the Old School sweep or to overcommit to passing. I focus on shutting down their upper body control first - if they can't control my shoulders and head, they can't create the angles they need for their attacks. Once I've established dominant upper body position with a crossface or by controlling their bottom arm, I work the lockdown break methodically. The limp leg technique is legit - by relaxing the trapped leg, you take away most of the submission threat. From there, it's about being patient and waiting for them to adjust, and that's when you extract. Most people who get swept or submitted from here are just being impatient and trying to force things. Stay calm, stay heavy, and work the system.",
-      "eddie_bravo": "As the guy who helped popularize the lockdown and Electric Chair, I can tell you exactly what I hate when I'm on bottom - a calm, knowledgeable top player who understands the position. The whole lockdown system is designed to create panic and force reactions. We want you to pull that leg out hard because that's what makes the Electric Chair work. We want you to sit back because that gives us the Old School. We want you to ignore your upper body defense because that's how we take the back. But when someone knows what they're doing on top, it becomes a much harder game. The limp leg defense is probably the most frustrating thing for a lockdown player - when you relax that leg and keep your weight forward, it neutralizes like 70% of what we're trying to do. From there, if you're patient and methodical with your escape, you're probably getting out. The thing is, most people don't train this position enough from top because they see it as 'that weird 10th Planet thing,' so when they encounter it, they don't know what to do. My advice is to drill this specifically with someone who knows the lockdown system well. Understand all the attacks we can throw at you - the Electric Chair, the Old School, the Dogfight sweep, the back take. Once you know what's coming, you can stay calm and work your escapes. And honestly, if you shut down the lockdown player's initial attacks and start passing, a lot of them don't have a Plan B because they're so invested in that system."
+      "danaher": "The **Electric Chair Top** position represents a critical juncture in the **half guard passing game** where systematic understanding separates competent passers from those who simply muscle through. The **[[Lockdown]]** creates a mechanical advantage for the bottom player by utilizing the strength of their entire posterior chain against your isolated leg, making brute force extraction both ineffective and dangerous. The key principle is to recognize that the lockdown is a system of connected controls - the foot triangle, hip extension, and upper body manipulation work together to create the submission threat and sweep opportunities. Your escape must therefore be systematic: first neutralize the most dangerous element (the submission threat through proper weight distribution and limp leg mechanics), then methodically dismantle the lockdown structure by addressing the foot triangle, and finally extract your leg once the system is weakened. The common error of attempting immediate leg extraction while the lockdown is fully engaged not only fails but actively assists your opponent by creating the very torque that makes the **[[Electric Chair Submission]]** effective. Instead, use forward pressure, proper angle management, and patience to systematically overcome what is essentially a well-designed trap.",
+      "gordon_ryan": "When I'm stuck in someone's **[[Lockdown]]**, my first thought is always 'how did I let this happen' because prevention is way easier than escape. But once you're there, you need to be smart about it. The **[[Electric Chair Submission]]** is actually pretty easy to defend if you know what you're doing - keep your weight forward, don't let them get perpendicular at that 45-degree angle, and relax that trapped leg using the limp leg technique. Most people tense up and try to yank their leg out, which is exactly what makes the submission work. I've been caught in the **[[Lockdown]]** by high-level **10th Planet** guys, and the key is not panicking. They want you to react, to give them the **[[Old School]]** sweep or to overcommit to passing. I focus on shutting down their upper body control first - if they can't control my shoulders and head, they can't create the angles they need for their attacks. Once I've established dominant upper body position with a crossface or by controlling their bottom arm, I work the lockdown break methodically. The limp leg technique is legit - by relaxing the trapped leg, you take away most of the submission threat. From there, it's about being patient and waiting for them to adjust, and that's when you extract. Most people who get swept or submitted from here are just being impatient and trying to force things. Stay calm, stay heavy, and work the system.",
+      "eddie_bravo": "As the guy who helped popularize the **[[Lockdown]]** and **Electric Chair**, I can tell you exactly what I hate when I'm on bottom - a calm, knowledgeable top player who understands the position. The whole lockdown system is designed to create panic and force reactions. We want you to pull that leg out hard because that's what makes the **[[Electric Chair Submission]]** work. We want you to sit back because that gives us the **[[Old School]]**. We want you to ignore your upper body defense because that's how we take the **[[Back Control]]**. But when someone knows what they're doing on top, it becomes a much harder game. The limp leg defense is probably the most frustrating thing for a lockdown player - when you relax that leg and keep your weight forward, it neutralizes like 70% of what we're trying to do. From there, if you're patient and methodical with your escape, you're probably getting out. The thing is, most people don't train this position enough from top because they see it as 'that weird **10th Planet** thing,' so when they encounter it, they don't know what to do. My advice is to drill this specifically with someone who knows the **[[Lockdown to Electric Chair System]]** well. Understand all the attacks we can throw at you - the **Electric Chair**, the **[[Old School]]**, the **[[Dogfight Position]]** sweep, the back take. Once you know what's coming, you can stay calm and work your escapes. And honestly, if you shut down the lockdown player's initial attacks and start passing, a lot of them don't have a Plan B because they're so invested in that system."
     }
+  },
+  "bot_metadata": {
+    "last_improved": "2026-02-06",
+    "optimization_pass": "ai_seo_v1"
   }
 }
