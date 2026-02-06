@@ -8,7 +8,7 @@ description: "Master Lockdown position in BJJ. Eddie Bravo's revolutionary half 
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub">
 
 
 
