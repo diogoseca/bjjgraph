@@ -1,0 +1,234 @@
+{
+  "article_path": "source/content/Positions/Half Guard/Z-Lock Half Guard.json",
+  "seed_keyword": "Z-Lock Half Guard",
+  "paa_questions": [
+    {
+      "question": "What is Z-Lock Half Guard in BJJ?",
+      "answer_snippet": "Advanced lockdown variation with Z-shaped leg configuration combining lockdown and butterfly hook mechanics",
+      "source_url": "internal",
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "rationale": "Primary definition query - overview should have conversational heading format"
+    },
+    {
+      "question": "How is Z-Lock different from regular lockdown?",
+      "answer_snippet": "Z-Lock adds butterfly hook element with outside leg while maintaining lockdown, creating dual-threat system",
+      "source_url": "internal",
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "rationale": "Comparison question - needs explicit 'Lockdown vs Z-Lock' section near top"
+    },
+    {
+      "question": "How do you set up Z-Lock Half Guard?",
+      "answer_snippet": "Set up butterfly hook first with outside leg, then secure lockdown with inside leg on trapped leg",
+      "source_url": "internal",
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "rationale": "Setup sequence buried in prerequisites - needs step-by-step 'How to Set Up' section"
+    },
+    {
+      "question": "What are the best sweeps from Z-Lock?",
+      "answer_snippet": "Butterfly Sweep (65% advanced), Deep Half Entry (70% advanced), Old School Sweep (60% advanced)",
+      "source_url": "internal",
+      "priority": "high",
+      "integration_strategy": "dedicated_faq",
+      "rationale": "Success-focused query - create sweep comparison with visual success rate table"
+    },
+    {
+      "question": "Is Z-Lock good for beginners?",
+      "answer_snippet": "Challenging for beginners (50% retention) - requires hip mobility and understanding of lockdown mechanics first",
+      "source_url": "internal",
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "rationale": "Skill progression question - add 'Prerequisites and Skill Requirements' callout"
+    },
+    {
+      "question": "What is the Electric Chair from Z-Lock?",
+      "answer_snippet": "Primary submission threat with 50% advanced success rate, targeting opponent's trapped leg with lockdown pressure",
+      "source_url": "internal",
+      "priority": "high",
+      "integration_strategy": "dedicated_faq",
+      "rationale": "Submission-specific query - Electric Chair relationship should be explained prominently"
+    },
+    {
+      "question": "How do you defend against Z-Lock from top?",
+      "answer_snippet": "Establish Z-lock control with knee across hip, maintain heavy shoulder pressure, prevent underhook recovery",
+      "source_url": "internal",
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "rationale": "Top player defensive query - defensive_responses and top section need conversational headings"
+    },
+    {
+      "question": "What's the retention rate of Z-Lock Half Guard?",
+      "answer_snippet": "Beginner: 50%, Intermediate: 65%, Advanced: 78% retention rate",
+      "source_url": "internal",
+      "priority": "medium",
+      "integration_strategy": "improve_heading",
+      "rationale": "Effectiveness query - position_metrics should be surfaced earlier with visual emphasis"
+    },
+    {
+      "question": "When should I use Z-Lock instead of regular lockdown?",
+      "answer_snippet": "Use Z-Lock when opponent bases wide to counter lockdown, allowing butterfly hook attacks to opposite side",
+      "source_url": "internal",
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "rationale": "Strategic decision query - needs 'When to Use Z-Lock' tactical guide"
+    },
+    {
+      "question": "Is Z-Lock a 10th Planet technique?",
+      "answer_snippet": "Developed primarily within 10th Planet Jiu-Jitsu system and refined by lockdown specialists",
+      "source_url": "internal",
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "rationale": "Origin/lineage question - brief 'History and Development' note adds context"
+    },
+    {
+      "question": "What are common mistakes with Z-Lock Half Guard?",
+      "answer_snippet": "Remaining flat instead of maintaining hip angle, committing to single attack, neglecting upper body control",
+      "source_url": "internal",
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "rationale": "Error-prevention query - common_errors heading should be question format"
+    },
+    {
+      "question": "Can you use Z-Lock in gi BJJ?",
+      "answer_snippet": "Effective in both gi and no-gi, though developed for no-gi where grip-based controls are unavailable",
+      "source_url": "internal",
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "rationale": "Context specification - 'Gi vs No-Gi Applications' subsection needed"
+    },
+    {
+      "question": "How long does Z-Lock Half Guard last?",
+      "answer_snippet": "Average 45-90 seconds before transition to sweep, submission, or opponent pass",
+      "source_url": "internal",
+      "priority": "low",
+      "integration_strategy": "improve_heading",
+      "rationale": "Duration query - time sustainability data should be more prominent in state properties"
+    },
+    {
+      "question": "What does Eddie Bravo say about Z-Lock?",
+      "answer_snippet": "Eddie Bravo: 'One of my favorite developments in 10th Planet system - takes lockdown to next level of complexity'",
+      "source_url": "internal",
+      "priority": "medium",
+      "integration_strategy": "improve_heading",
+      "rationale": "Authority query - expert_insights exists but heading should mention Eddie Bravo by name"
+    },
+    {
+      "question": "How flexible do you need to be for Z-Lock?",
+      "answer_snippet": "Requires significant hip flexibility to maintain Z-configuration and butterfly hook simultaneously",
+      "source_url": "internal",
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "rationale": "Physical requirements query - add 'Mobility Requirements' note with flexibility tips"
+    },
+    {
+      "question": "What's the difference between Z-Lock and Z-Guard?",
+      "answer_snippet": "Z-Lock uses lockdown element, Z-Guard uses knee shield; both utilize Z-configuration leg geometry",
+      "source_url": "internal",
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "rationale": "Terminology confusion - needs explicit comparison to prevent mix-up"
+    },
+    {
+      "question": "How do you pass Z-Lock Half Guard?",
+      "answer_snippet": "Knee Slice (75% advanced), Smash Pass (80% advanced), establish Z-lock control from top position",
+      "source_url": "internal",
+      "priority": "high",
+      "integration_strategy": "dedicated_faq",
+      "rationale": "Passing query - top section data should be accessible with FAQ linking"
+    }
+  ],
+  "heading_optimizations": [
+    {
+      "current": "Overview",
+      "suggested": "What is Z-Lock Half Guard in BJJ?",
+      "rationale": "Exact match for primary definition query - optimized for AI search featured snippets"
+    },
+    {
+      "current": "Key Principles (Bottom)",
+      "suggested": "How to Execute Z-Lock Half Guard Successfully",
+      "rationale": "Action-oriented, captures 'how to use' queries while maintaining instructional focus"
+    },
+    {
+      "current": "Offensive Transitions (Bottom)",
+      "suggested": "What Are the Best Attacks and Sweeps from Z-Lock?",
+      "rationale": "Question format surfaces success rate comparisons for decision-making queries"
+    },
+    {
+      "current": "Common Errors (Bottom)",
+      "suggested": "What Are Common Mistakes When Using Z-Lock Half Guard?",
+      "rationale": "Direct PAA match - high-intent error-prevention search pattern"
+    },
+    {
+      "current": "Training Drills (Bottom)",
+      "suggested": "How to Practice and Drill Z-Lock Half Guard",
+      "rationale": "Matches training-focused search intent with clear instructional promise"
+    },
+    {
+      "current": "Expert Insights (Bottom)",
+      "suggested": "What Do Danaher, Gordon Ryan, and Eddie Bravo Say About Z-Lock?",
+      "rationale": "Authority-seeking queries expect named experts - improves credibility signals"
+    },
+    {
+      "current": "Top Section Overview",
+      "suggested": "How to Control and Pass Z-Lock Half Guard from Top",
+      "rationale": "Counter-perspective query - top players searching for defensive tactics"
+    }
+  ],
+  "missing_content_opportunities": [
+    "Add section: Z-Lock vs Regular Lockdown - Key Differences (comparison table)",
+    "Add section: How to Set Up Z-Lock Step-by-Step (with prerequisites)",
+    "Add section: Z-Lock vs Z-Guard - What's the Difference? (terminology clarification)",
+    "Add section: When Should You Use Z-Lock? (tactical decision guide)",
+    "Add section: 10th Planet Origins - History of Z-Lock Development",
+    "Add section: Mobility and Flexibility Requirements for Z-Lock",
+    "Add section: Z-Lock in Gi vs No-Gi - Application Differences",
+    "Add callout: Is Z-Lock Right for Your Skill Level? (with progression path)",
+    "Add FAQ section: Common Questions About Z-Lock Half Guard",
+    "Add comparison table: All Sweep Success Rates Side-by-Side",
+    "Add visual: Z-Configuration Diagram - Leg Positioning Breakdown",
+    "Add video embed suggestions: Best Z-Lock instructional content",
+    "Add progression guide: Master Regular Lockdown First, Then Z-Lock",
+    "Add related techniques grid: Lockdown system family tree"
+  ],
+  "content_gaps": [
+    "No explicit setup sequence (prerequisites mention it but not step-by-step)",
+    "Missing comparison with regular lockdown (parent technique)",
+    "Missing comparison with Z-Guard (terminology confusion risk)",
+    "No 10th Planet lineage/history context",
+    "Gi vs no-gi differences not discussed",
+    "Mobility requirements not explicitly stated",
+    "Skill progression path unclear (when to learn this)",
+    "No FAQ section to aggregate common questions",
+    "Electric Chair relationship explained in related_positions but needs prominence",
+    "Video/instructional resources not mentioned"
+  ],
+  "keyword_opportunities": [
+    "z-lock half guard BJJ",
+    "z lock half guard",
+    "z-lock vs lockdown",
+    "z-lock half guard sweeps",
+    "how to do z-lock half guard",
+    "z-lock half guard setup",
+    "electric chair from z-lock",
+    "z-lock vs z-guard difference",
+    "10th planet z-lock",
+    "z-lock half guard mistakes",
+    "z-lock half guard passing",
+    "butterfly sweep from z-lock",
+    "z-lock half guard retention rate",
+    "eddie bravo z-lock",
+    "z-lock half guard drills",
+    "no-gi z-lock half guard",
+    "z-lock half guard flexibility"
+  ],
+  "schema_enhancements": [
+    "Add FAQPage schema with top 7-8 questions",
+    "Add HowTo schema for setup sequence",
+    "Add VideoObject schema when instructionals added",
+    "Add 'isPartOf' property linking to Lockdown as parent technique",
+    "Enhance breadcrumb schema with half guard hierarchy"
+  ],
+  "hub_page_note": "This is hub page for Top/Bottom role pages - ensure consistent PAA context across all three pages with role-specific adaptations"
+}
