@@ -1,0 +1,207 @@
+{
+  "article_path": "source/content/Positions/Dogfight Position.json",
+  "seed_keyword": "Dogfight Position",
+  "paa_questions": [
+    {
+      "question": "What is the Dogfight Position in BJJ?",
+      "answer_snippet": "Dynamic half guard variation where both practitioners are up on their knees facing each other in an underhook battle",
+      "source_url": "internal",
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "rationale": "Primary definition question - should be front-loaded in overview with conversational heading"
+    },
+    {
+      "question": "How do you get to Dogfight from half guard?",
+      "answer_snippet": "Establish underhook from flat half guard, elevate hips off mat, come up to knees while maintaining frames",
+      "source_url": "internal",
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "rationale": "Entry mechanics are in prerequisites but need dedicated 'How to Enter' section"
+    },
+    {
+      "question": "What are the best sweeps from Dogfight Position?",
+      "answer_snippet": "Old School Sweep (70% advanced), Back Take (65% advanced), Deep Half Entry (75% advanced)",
+      "source_url": "internal",
+      "priority": "high",
+      "integration_strategy": "dedicated_faq",
+      "rationale": "Success-focused query - create comparison table of sweep options with success rates"
+    },
+    {
+      "question": "Why is it called the Dogfight Position?",
+      "answer_snippet": "The term describes the scrambling, competitive nature where both players vie for dominant grips like dogs fighting",
+      "source_url": "internal",
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "rationale": "Etymology question adds context - brief sidebar or callout in overview"
+    },
+    {
+      "question": "How do you defend against Dogfight Position?",
+      "answer_snippet": "Whizzer control (55% success), crossface pressure, flatten opponent with smash pass (50% success)",
+      "source_url": "internal",
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "rationale": "Top player perspective - defensive_responses should have conversational heading"
+    },
+    {
+      "question": "What's the difference between Dogfight and regular half guard?",
+      "answer_snippet": "Dogfight is elevated on knees with underhook battle, while flat half guard has bottom player on back",
+      "source_url": "internal",
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "rationale": "Comparison question - needs explicit comparison section near overview"
+    },
+    {
+      "question": "When should I use Dogfight Position instead of Deep Half?",
+      "answer_snippet": "Use Dogfight when you have space to elevate and want aggressive back takes; Deep Half when opponent applies heavy pressure",
+      "source_url": "internal",
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq",
+      "rationale": "Strategic decision-making query - FAQ section at bottom"
+    },
+    {
+      "question": "What are common mistakes in Dogfight Position?",
+      "answer_snippet": "Allowing opponent to flatten you, staying static, losing underhook battle, dropping head too low",
+      "source_url": "internal",
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "rationale": "Already has common_errors section but heading should be conversational"
+    },
+    {
+      "question": "How long can you stay in Dogfight Position?",
+      "answer_snippet": "30-90 seconds typically - highly dynamic position resolves quickly to sweep, back take, or pass",
+      "source_url": "internal",
+      "priority": "low",
+      "integration_strategy": "improve_heading",
+      "rationale": "Time-based query - position_metrics data should be surfaced earlier"
+    },
+    {
+      "question": "Is Dogfight Position good for beginners?",
+      "answer_snippet": "Challenging for beginners (45% retention rate) but teaches essential underhook battles and frames",
+      "source_url": "internal",
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "rationale": "Skill level appropriateness - add 'For Which Skill Levels?' callout"
+    },
+    {
+      "question": "What submissions can you do from Dogfight?",
+      "answer_snippet": "Electric Chair (50% advanced), chained through Back Control for RNC, or sweep to Mount for armbars",
+      "source_url": "internal",
+      "priority": "high",
+      "integration_strategy": "dedicated_faq",
+      "rationale": "Submission-focused query - highlight optimal_submission_paths more prominently"
+    },
+    {
+      "question": "How do you maintain underhook in Dogfight?",
+      "answer_snippet": "Drive forward pressure constantly, keep head high, never voluntarily give space or pull backward",
+      "source_url": "internal",
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "rationale": "Technical detail query - extract from key_principles into dedicated subsection"
+    },
+    {
+      "question": "What does Gordon Ryan say about Dogfight Position?",
+      "answer_snippet": "Gordon Ryan: 'One of my favorite half guard positions because it's inherently aggressive and threatens back take first'",
+      "source_url": "internal",
+      "priority": "low",
+      "integration_strategy": "improve_heading",
+      "rationale": "Authority/expert query - expert_insights already exists but heading could be more specific"
+    },
+    {
+      "question": "Can you use Dogfight in gi BJJ or just no-gi?",
+      "answer_snippet": "Works in both gi and no-gi but especially dynamic in no-gi where lack of grips creates faster scrambles",
+      "source_url": "internal",
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "rationale": "Context specification - add brief 'Gi vs No-Gi Considerations' note"
+    },
+    {
+      "question": "What's the success rate of Old School Sweep from Dogfight?",
+      "answer_snippet": "Beginner: 40%, Intermediate: 55%, Advanced: 70% success rate",
+      "source_url": "internal",
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "rationale": "Specific data query - success rates should be in scannable format with visual emphasis"
+    }
+  ],
+  "heading_optimizations": [
+    {
+      "current": "Overview",
+      "suggested": "What is the Dogfight Position in BJJ?",
+      "rationale": "Matches exact conversational query pattern for AI search and featured snippets"
+    },
+    {
+      "current": "Key Principles",
+      "suggested": "How to Execute Dogfight Position Successfully",
+      "rationale": "Action-oriented heading that captures 'how to' queries while maintaining instructional value"
+    },
+    {
+      "current": "Offensive Transitions",
+      "suggested": "What Are the Best Sweeps and Attacks from Dogfight?",
+      "rationale": "Question format surfaces success rate data for comparison queries"
+    },
+    {
+      "current": "Defensive Responses",
+      "suggested": "How to Defend Against and Pass Dogfight Position",
+      "rationale": "Top player perspective - answers counter-technique queries"
+    },
+    {
+      "current": "Common Errors",
+      "suggested": "What Are Common Mistakes in Dogfight Position?",
+      "rationale": "Direct PAA match - extremely high search intent for error-prevention content"
+    },
+    {
+      "current": "Training Drills",
+      "suggested": "How to Practice and Drill Dogfight Position",
+      "rationale": "Training-focused queries expect drill recommendations with this phrasing"
+    },
+    {
+      "current": "Expert Insights",
+      "suggested": "What Do Danaher, Gordon Ryan, and Eddie Bravo Say About Dogfight?",
+      "rationale": "Authority-seeking queries want named experts in headings for credibility signals"
+    }
+  ],
+  "missing_content_opportunities": [
+    "Add section: How to Enter Dogfight from Flat Half Guard (step-by-step)",
+    "Add section: Dogfight vs Deep Half Guard - When to Use Each",
+    "Add section: Dogfight in Gi vs No-Gi - Key Differences",
+    "Add callout: Is Dogfight Good for Your Skill Level? (with retention rates)",
+    "Add visual: Decision Tree Flowchart - Which Attack Based on Opponent's Defense",
+    "Add FAQ section: Common Questions About Dogfight Position",
+    "Add comparison table: Success Rates of All Sweeps Side-by-Side",
+    "Add section: Why It's Called 'Dogfight' - Etymology and History",
+    "Add video embed suggestions: Best instructional videos for Dogfight",
+    "Add related techniques grid: Techniques that naturally flow into/out of Dogfight"
+  ],
+  "content_gaps": [
+    "No explicit entry sequence (prerequisites mention it but not step-by-step)",
+    "Missing comparison with related positions (Deep Half, Butterfly, Z-Guard)",
+    "No gi/no-gi differences discussed",
+    "Skill level appropriateness buried in metrics instead of prominent",
+    "Etymology/naming not explained",
+    "Video resources not mentioned",
+    "FAQ section absent - should aggregate common questions"
+  ],
+  "keyword_opportunities": [
+    "dogfight position BJJ",
+    "dogfight half guard",
+    "dogfight sweeps BJJ",
+    "old school sweep from dogfight",
+    "how to enter dogfight position",
+    "dogfight vs deep half guard",
+    "underhook battle half guard",
+    "dogfight position mistakes",
+    "back take from dogfight",
+    "dogfight position defense",
+    "electric chair from dogfight",
+    "10th planet dogfight",
+    "dogfight position drills",
+    "dogfight position retention rate",
+    "no-gi dogfight position"
+  ],
+  "schema_enhancements": [
+    "Add FAQPage schema with top 5-7 questions",
+    "Add HowTo schema for entry sequence",
+    "Add VideoObject schema when videos added",
+    "Enhance breadcrumb schema with position hierarchy"
+  ]
+}
