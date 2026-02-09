@@ -1,0 +1,264 @@
+{
+  "name": "Ezekiel from Mount",
+  "description": "Master the Ezekiel Choke from Mount in BJJ. Step-by-step gi-based strangle from dominant position. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "tags": [
+    "bjj",
+    "submission",
+    "choke",
+    "mount",
+    "gi",
+    "ezekiel",
+    "strangle"
+  ],
+  "from_position": "Mount/Top",
+  "outcomes": [
+    {
+      "to": "Game Over",
+      "probability": 55,
+      "result": "success"
+    },
+    {
+      "to": "Mount",
+      "probability": 30,
+      "result": "failure"
+    },
+    {
+      "to": "Half Guard",
+      "probability": 15,
+      "result": "counter"
+    }
+  ],
+  "success_rates": {
+    "beginner": 30,
+    "intermediate": 50,
+    "advanced": 65
+  },
+  "overview": "The Ezekiel Choke from Mount is a devastating gi-based strangle that capitalizes on the dominant mounted position to attack the opponent's neck using sleeve-assisted pressure. Named after Brazilian judoka Ezequiel Paraguassu, this technique became notorious for its effectiveness when applied from mount, where the top player's weight and position make defense extremely difficult. The choke functions by creating a figure-four configuration with your arms around the opponent's neck, using the inside of your own gi sleeve as the choking surface against their carotid arteries.\n\nStrategically, the Ezekiel excels as a direct submission threat that requires minimal positional adjustment from mount. Unlike armbars or triangles that require significant movement and create escape opportunities, the Ezekiel allows you to maintain heavy chest pressure while attacking. The setup appears innocuous—simply reaching across to grip your own sleeve—which makes it difficult for opponents to recognize the threat until the choke is already secured. This element of disguise makes it particularly effective against experienced practitioners who would otherwise recognize submission attempts early.\n\nThe technique integrates seamlessly into the mount attack system as a Type A direct submission—there is no distinct control position before the finish. You secure the grip configuration and apply pressure until the opponent taps or goes unconscious. This directness makes it an excellent option when opponents are defending traditional mount attacks like the cross collar choke or armbar, as their arm positioning to defend those attacks often leaves their neck exposed to the Ezekiel. The choke works through blood strangulation by compressing both carotid arteries simultaneously, making it extremely efficient when properly applied.",
+  "key_principles": [
+    "Maintain heavy chest-to-chest pressure throughout the attack to prevent opponent from creating space or escaping",
+    "Grip deep inside your own sleeve at the wrist seam for maximum mechanical advantage on the choking arm",
+    "Position the blade of your wrist (not forearm) directly against the side of opponent's neck for efficient carotid compression",
+    "Keep elbows tight together throughout the squeeze to maximize inward pressure on both carotid arteries",
+    "Use your chest and shoulder weight to drive the choking arm deeper rather than relying solely on arm strength",
+    "Disguise the attack by appearing to simply establish head control before shooting the choking hand through"
+  ],
+  "setup_requirements": [
+    "Stable mount position with hips heavy on opponent's torso and chest pressure established",
+    "Opponent's arms positioned away from their neck or occupied defending other threats",
+    "Your posting hand controlling opponent's head or shoulder to prevent them from turning away",
+    "Gi sleeve accessible for grip—long-sleeved gi in good condition required",
+    "Opponent flat on their back rather than bridging or creating significant movement"
+  ],
+  "execution_steps": [
+    {
+      "step_number": 1,
+      "action": "Establish head control",
+      "description": "From mount, swim your non-dominant hand underneath opponent's head, cupping the far side of their neck with your palm. Keep your elbow tight to their ear and maintain heavy chest pressure throughout.",
+      "timing": "2-3 seconds"
+    },
+    {
+      "step_number": 2,
+      "action": "Grip sleeve",
+      "description": "With your dominant hand, reach across your body and grip deep inside your own opposite sleeve at the wrist seam. The grip should be four fingers inside the sleeve opening, creating a secure anchor point.",
+      "timing": "1-2 seconds"
+    },
+    {
+      "step_number": 3,
+      "action": "Thread choking hand",
+      "description": "Shoot your dominant hand straight through the space between your underhooking arm and opponent's neck. The blade of your wrist should contact the near side of their neck directly against the carotid artery.",
+      "timing": "1 second"
+    },
+    {
+      "step_number": 4,
+      "action": "Secure figure-four",
+      "description": "Pull your sleeve grip tight against the back of opponent's neck while your choking wrist maintains contact with the front-side of their neck. Your arms should form a figure-four configuration around their throat.",
+      "timing": "1 second"
+    },
+    {
+      "step_number": 5,
+      "action": "Apply pressure",
+      "description": "Squeeze your elbows together toward the centerline while simultaneously driving your chest weight forward and down. The compression should come from both arms closing inward, not from pulling backward.",
+      "timing": "2-4 seconds"
+    },
+    {
+      "step_number": 6,
+      "action": "Finish submission",
+      "description": "Maintain constant inward pressure on both elbows while keeping chest heavy. Adjust wrist angle if necessary to ensure blade contact with carotid. The opponent should tap within 3-5 seconds of proper application.",
+      "timing": "3-5 seconds to tap"
+    }
+  ],
+  "common_counters": [
+    {
+      "counter": "Opponent tucks chin to chest, blocking access to neck",
+      "effectiveness": "High",
+      "your_response": "Attack the chin directly—slide your choking hand under their chin rather than around the neck, then pry the chin up before transitioning back to the neck. Alternatively, switch to a cross collar choke threat to force them to lift their chin."
+    },
+    {
+      "counter": "Opponent bridges explosively while trapping your arm",
+      "effectiveness": "Medium",
+      "your_response": "Post your free hand wide for base and ride the bridge, keeping your hips heavy. If they successfully turn you, abandon the choke grip immediately and work to recover mount or establish side control."
+    },
+    {
+      "counter": "Opponent creates a frame with forearms against your chest to create space",
+      "effectiveness": "Medium",
+      "your_response": "Drive your chest forward through their frames using your body weight. If they maintain space, transition to attacking their exposed arms with Americana or armbar setups before returning to the Ezekiel."
+    },
+    {
+      "counter": "Opponent grips your choking sleeve to prevent it from closing",
+      "effectiveness": "Low",
+      "your_response": "Strip their grip by circling your wrist and yanking sharply, or maintain pressure and work your wrist incrementally deeper despite their grip. Their defensive grip occupies both their arms, limiting other escape options."
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "Sitting upright to apply the choke instead of maintaining chest pressure",
+      "consequence": "Creates space for opponent to bridge and roll, escape to half guard, or establish defensive frames. Reduces choking efficiency by removing body weight assistance.",
+      "correction": "Stay chest-to-chest throughout the entire attack. Drive forward and down with your torso weight as you squeeze, using gravity and body mass to enhance the strangle."
+    },
+    {
+      "error": "Gripping too shallow on the sleeve, only grabbing fabric near the elbow",
+      "consequence": "Insufficient mechanical advantage for the choke. The slack in the sleeve reduces pressure transmission to opponent's neck, resulting in failed submission attempts.",
+      "correction": "Grip at the wrist seam of your sleeve where the fabric is tightest. Your four fingers should be completely inside the sleeve opening for maximum grip security and leverage."
+    },
+    {
+      "error": "Positioning forearm rather than wrist blade against opponent's neck",
+      "consequence": "Diffuse pressure across a larger surface area makes the choke feel like a crank rather than a strangle. Opponent can endure longer and may escape before blood choke takes effect.",
+      "correction": "Focus on placing the thin blade edge of your wrist directly against the carotid artery. Rotate your hand so the bony wrist ridge creates concentrated pressure on the blood vessels."
+    },
+    {
+      "error": "Pulling backward with the choking arm instead of squeezing elbows inward",
+      "consequence": "Creates a neck crank that relies on pain compliance rather than blood restriction. Experienced opponents can defend longer, and the technique becomes less effective at higher levels.",
+      "correction": "Think about bringing your elbows together toward an imaginary centerline in front of opponent's throat. The squeeze should be inward and forward, not backward."
+    },
+    {
+      "error": "Telegraphing the attack by reaching for sleeve before establishing head control",
+      "consequence": "Opponent recognizes the threat and immediately tucks chin, frames against shoulders, or initiates escape attempt before the choke can be secured.",
+      "correction": "Always establish the underhook around their head first, appearing to simply control their posture. Only reach for your sleeve once the head control is secure and their neck is accessible."
+    }
+  ],
+  "training_progressions": [
+    {
+      "phase": "Week 1-2",
+      "focus": "Grip mechanics and positioning",
+      "description": "Practice the sleeve grip and figure-four arm configuration against a compliant partner lying flat. Focus on wrist blade placement against neck, proper sleeve depth, and maintaining chest pressure throughout. Drill 50 repetitions per session without resistance.",
+      "resistance_level": "None"
+    },
+    {
+      "phase": "Week 3-4",
+      "focus": "Entry timing and disguise",
+      "description": "Work on seamlessly transitioning from mount control to Ezekiel setup. Partner provides light defensive frames and chin tucks. Focus on disguising the sleeve grip by appearing to establish standard head control first. Practice recognizing when opponent's arms are occupied defending other attacks.",
+      "resistance_level": "Light"
+    },
+    {
+      "phase": "Week 5-6",
+      "focus": "Counter response and combinations",
+      "description": "Train against partners who actively defend with bridges, chin tucks, and frame creation. Practice switching between Ezekiel attempts and other mount submissions when defense is successful. Develop the ability to maintain mount throughout failed submission attempts.",
+      "resistance_level": "Medium"
+    },
+    {
+      "phase": "Week 7+",
+      "focus": "Live application and pressure testing",
+      "description": "Implement the Ezekiel in positional sparring starting from mount. Track success rate and identify personal weak points. Focus on integrating the technique into your mount attack system alongside armbars, Americanas, and collar chokes. Refine timing based on opponent's defensive patterns.",
+      "resistance_level": "Full"
+    }
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "No-Gi Ezekiel",
+      "description": "Execute the choke without the gi by gripping your own wrist or bicep instead of the sleeve. The mechanics remain similar but require stronger grip endurance and often finish as more of a forearm choke. Less efficient than the gi version but viable when wearing rashguards or in no-gi competition.",
+      "when_to_use": "When training or competing no-gi, or when opponent's gi is unavailable or too sweaty to grip effectively."
+    },
+    {
+      "variant_name": "Arm-In Ezekiel",
+      "description": "Apply the choke with opponent's arm trapped inside the configuration alongside their neck. This variation often occurs when opponent attempts to frame or push against your chest. The trapped arm adds pressure to the strangle and prevents them from defending with that limb.",
+      "when_to_use": "When opponent establishes a strong frame against your chest that you cannot easily clear. Rather than fighting the frame, incorporate their arm into the choke."
+    },
+    {
+      "variant_name": "Ezekiel from Side Control",
+      "description": "Apply the same grip configuration from side control by threading the choking arm under opponent's head from the far side. Requires adjusting body position to maintain pressure without mount's weight advantage. Often used when transitioning between positions.",
+      "when_to_use": "When opponent escapes mount to half guard or side control but you maintain the head control underhook. Can salvage the submission attempt without needing to re-establish mount."
+    }
+  ],
+  "knowledge_assessment": [
+    {
+      "question": "What is the primary choking mechanism of the Ezekiel from Mount?",
+      "answer": "The Ezekiel functions as a blood choke by compressing both carotid arteries simultaneously using a figure-four arm configuration. Your sleeve-gripping arm presses against one side of the neck while the wrist blade of your choking arm compresses the opposite carotid. This bilateral compression restricts blood flow to the brain, causing unconsciousness within seconds when properly applied. Unlike air chokes that target the windpipe, the Ezekiel causes no direct breathing obstruction.",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "Why must you grip deep at the wrist seam rather than mid-sleeve?",
+      "answer": "Gripping at the wrist seam provides maximum mechanical advantage because there is minimal slack in the fabric at this location. A shallow grip near the elbow creates excessive gi material between your grip and the choking surface, absorbing force that should transfer to opponent's neck. The deep grip also allows your elbow to stay closer to your body, maintaining tighter configuration and more efficient squeeze mechanics. The wrist seam grip is also more secure against stripping attempts.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "Your opponent tucks their chin aggressively when you establish head control. How do you create access to the neck?",
+      "answer": "Attack the chin directly by sliding your choking hand under their chin and using the wrist blade to pry it upward. Alternatively, threaten a cross collar choke or Americana to force them to move their hands to defend, which often causes them to lift their chin reflexively. You can also drive your forehead into their jaw from the side to turn their head, exposing the far-side neck. Never force the choke against a fully tucked chin—use misdirection to create the opening.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "What distinguishes the Ezekiel as a Type A direct submission from Type B submission setups?",
+      "answer": "Type A direct submissions like the Ezekiel have no distinct control position between the mount and the finish—you apply the grip configuration and squeeze until submission. Type B techniques like armbars require transitioning through a control position (Armbar Control) before finishing. The Ezekiel's directness means you maintain mount throughout the entire attack sequence, with success leading immediately to tap or unconsciousness rather than an intermediate controlling position.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "Your opponent explosively bridges as you secure the figure-four configuration. What is your immediate response?",
+      "answer": "Post your free hand wide on the mat toward the direction they're bridging to create a tripod base. Keep your hips heavy and ride the bridge rather than fighting it with upper body strength. If you feel the mount becoming unstable, immediately prioritize position over submission—release the choke grip and use both hands to maintain mount or transition to side control. A failed Ezekiel attempt that costs you mount is a significant positional loss.",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "Why is chest pressure critical throughout the Ezekiel execution rather than sitting upright?",
+      "answer": "Chest pressure serves multiple functions: it restricts opponent's breathing and movement capacity, adds body weight to the choking pressure without additional arm effort, prevents space creation that would enable frames or bridges, and disguises the attack by appearing to simply maintain mount control. Sitting upright removes your primary weight advantage, shifts your center of gravity higher making you vulnerable to sweeps, and forces you to rely solely on arm strength for the choke—significantly reducing finishing percentage.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "When should you abandon the Ezekiel attempt and transition to another submission?",
+      "answer": "Abandon the Ezekiel when: opponent creates significant space through successful frames that you cannot collapse; your sleeve grip is stripped and cannot be re-established; opponent begins a bridge-and-roll sequence that threatens your mount; or opponent successfully turns to their side, eliminating the flat-back position needed for the choke. Rather than forcing a failing technique, transition to Americana if their arm is exposed, armbar if they push against your chest, or simply re-establish mount control before attempting again.",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "What arm positioning from your opponent creates the optimal window for Ezekiel entry?",
+      "answer": "The optimal window occurs when opponent's hands are occupied away from their neck—either pushing against your hips to attempt an elbow escape, reaching down to defend mount escapes, or defending against a different submission threat like collar grips for cross choke. When both their arms are low defending against sweeps or posting on the mat, their neck is maximally exposed. Conversely, when their arms are framing against your chest or shoulders, you must clear these frames first or work the arm-in variation.",
+      "difficulty": "Advanced"
+    }
+  ],
+  "safety_considerations": "The Ezekiel Choke is a blood strangle that can cause unconsciousness within 5-10 seconds of proper application. Partners must tap early and clearly when they feel the choke taking effect. The choking practitioner must release immediately upon feeling or hearing a tap—there is no safe margin for delayed release with blood chokes. In training, apply pressure gradually to give partners adequate time to recognize the choke and submit. Never apply jerking or explosive force to the neck configuration. Be aware that some practitioners have reduced blood flow tolerance due to medical conditions; encourage training partners to disclose any cardiovascular concerns. If a partner becomes limp or unresponsive, release immediately and place them in recovery position. The technique should not cause windpipe discomfort—if your partner reports throat pain rather than strangulation sensation, adjust your wrist placement. Avoid this technique on partners with neck injuries or cervical spine issues.",
+  "position_integration": "The Ezekiel from Mount functions as a primary direct submission within the mount attack hierarchy, complementing the cross collar choke, Americana, and armbar as core threats. Its disguised entry makes it particularly effective when opponents are focused on defending the more obvious submission attacks—the sleeve grip appears innocuous until the choking hand shoots through. The technique maintains mount position throughout execution, making it lower-risk than attacks requiring significant positional transition. When the Ezekiel fails or is defended, you retain mount and can immediately threaten other submissions based on how the opponent defended. This creates attack chains where defending the Ezekiel often exposes the arms for Americana, defending the Americana lifts the elbows for collar choke access, and defending the collar choke returns you to Ezekiel opportunity. Elite mount attackers cycle through these options continuously, using each defense to set up the next attack.",
+  "related_content": [
+    {
+      "name": "Mount",
+      "relationship": "Starting position - dominant control position from which Ezekiel is executed"
+    },
+    {
+      "name": "3-4 Mount",
+      "relationship": "Alternative starting position - asymmetric mount that also allows Ezekiel entry"
+    },
+    {
+      "name": "Cross Collar Choke",
+      "relationship": "Complementary attack - threatening collar choke opens neck for Ezekiel entry"
+    },
+    {
+      "name": "Americana from Mount",
+      "relationship": "Chain attack - failed Ezekiel defense often exposes arm for Americana"
+    },
+    {
+      "name": "Armbar from Mount",
+      "relationship": "Alternative submission - armbar becomes available when opponent pushes against chest to defend chokes"
+    },
+    {
+      "name": "High Mount",
+      "relationship": "Positional advancement - higher mount increases Ezekiel finishing angle"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Transition target - Ezekiel can be maintained during transition if opponent escapes mount"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Counter position - where opponent may end up if they successfully escape during attack"
+    },
+    {
+      "name": "Game Over",
+      "relationship": "Successful outcome - terminal state when submission is completed"
+    }
+  ]
+}

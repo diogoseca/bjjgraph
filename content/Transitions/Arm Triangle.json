@@ -1,0 +1,268 @@
+{
+  "name": "Arm Triangle",
+  "description": "Master the Arm Triangle choke from High Mount. Step-by-step setup and finish mechanics. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "tags": [
+    "bjj",
+    "transition",
+    "choke",
+    "mount",
+    "submission",
+    "head-and-arm"
+  ],
+  "from_position": "High Mount/Top",
+  "outcomes": [
+    {
+      "to": "D'arce Control",
+      "probability": 65,
+      "result": "success"
+    },
+    {
+      "to": "High Mount",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Half Guard",
+      "probability": 10,
+      "result": "counter"
+    }
+  ],
+  "success_rates": {
+    "beginner": 30,
+    "intermediate": 50,
+    "advanced": 65
+  },
+  "overview": "The Arm Triangle from High Mount is a powerful head-and-arm choke that uses the opponent's own shoulder as a choking mechanism against their carotid artery. This technique exploits the natural defensive reaction of opponents who turn away from pressure, trapping their arm across their neck and creating a figure-four choking structure with your arms around their head and trapped arm.\n\nFrom High Mount, the Arm Triangle becomes available when the opponent attempts to frame or push on your chest, creating the opportunity to drive their arm across their face. The elevated position provides excellent weight distribution for finishing the choke, though many practitioners prefer to dismount to side control for the final squeeze. The technique exemplifies systematic control—once the arm is trapped across the neck, the opponent faces a binary choice: keep the arm trapped and get choked, or expose the arm and get submitted via armbar.\n\nStrategically, the Arm Triangle serves as a cornerstone technique that chains seamlessly with other attacks. When opponents defend by keeping elbows tight to prevent the arm from crossing, they expose themselves to americanas and collar chokes. When they extend arms to create frames, they create the exact opening needed for the Arm Triangle setup. This dilemma-based approach makes the Arm Triangle particularly effective at higher levels where opponents understand the danger but must choose which submission to defend.",
+  "key_principles": [
+    "Drive opponent's arm across their face using shoulder pressure and head positioning before attempting to lock the choke",
+    "Create a tight figure-four grip by connecting your hands palm-to-palm or gable grip behind opponent's neck",
+    "Eliminate all space between your choking arm and opponent's neck by walking your elbow toward the mat",
+    "Use your head as a wedge against opponent's trapped arm to prevent them from extracting it",
+    "Squeeze by expanding your chest and pulling your elbows together rather than cranking the neck",
+    "Control opponent's hips with your legs throughout the transition to prevent escape movements"
+  ],
+  "setup_requirements": [
+    "Established High Mount position with weight forward on opponent's chest",
+    "Opponent's near-side arm positioned across their centerline toward their opposite shoulder",
+    "Head control established with your head driving into opponent's trapped arm side",
+    "Base maintained through proper hip positioning and leg hooks or grapevines",
+    "Opponent flat on their back or turned slightly toward the choking side"
+  ],
+  "execution_steps": [
+    {
+      "step_number": 1,
+      "action": "Isolate the arm",
+      "description": "From High Mount, use cross-face pressure with your shoulder to drive opponent's near-side arm across their face toward their opposite shoulder. Your head should be tight against their head on the trapped arm side.",
+      "timing": "When opponent frames on your chest or turns their head away"
+    },
+    {
+      "step_number": 2,
+      "action": "Thread choking arm",
+      "description": "Slide your arm that is closest to their trapped arm underneath their head, threading it through the space between their neck and trapped arm. Your bicep should be against one side of their neck.",
+      "timing": "Immediately after arm crosses centerline"
+    },
+    {
+      "step_number": 3,
+      "action": "Connect the grip",
+      "description": "Bring your other hand to meet your choking hand, establishing a palm-to-palm grip or gable grip behind their head and neck. Your forearm now presses against the opposite side of their neck from your bicep.",
+      "timing": "As soon as arm threads through"
+    },
+    {
+      "step_number": 4,
+      "action": "Secure head position",
+      "description": "Drive your head down and toward the mat on the trapped arm side, using it as a wedge to prevent opponent from extracting their arm. Your ear should be tight against their temple.",
+      "timing": "Before dismounting or adjusting position"
+    },
+    {
+      "step_number": 5,
+      "action": "Dismount to side",
+      "description": "Step your leg over to the trapped arm side into a side control position, keeping your hips heavy on their chest. This angle provides better leverage for the finishing squeeze than remaining in mount.",
+      "timing": "Once grip and head position are secured"
+    },
+    {
+      "step_number": 6,
+      "action": "Walk elbow and squeeze",
+      "description": "Walk your choking-side elbow toward the mat while expanding your chest and pulling your elbows together. The squeeze comes from chest expansion and elbow compression, not from cranking sideways on the neck.",
+      "timing": "After position is fully stabilized"
+    }
+  ],
+  "common_counters": [
+    {
+      "counter": "Frame on bicep and create space before arm crosses centerline",
+      "effectiveness": "High",
+      "your_response": "Switch to americana or kimura attack on the framing arm, or use their extended arm for armbar setup"
+    },
+    {
+      "counter": "Turn into the attacker and attempt to come to knees before choke is locked",
+      "effectiveness": "Medium",
+      "your_response": "Follow their turn and transition to back control, or maintain the choke grip and finish from back mount"
+    },
+    {
+      "counter": "Extract trapped arm by turning shoulder and pulling elbow back before grip connects",
+      "effectiveness": "Medium",
+      "your_response": "Immediately attack the exposed neck with cross collar choke or transition to gift wrap control"
+    },
+    {
+      "counter": "Bridge explosively during dismount transition to destabilize position",
+      "effectiveness": "Low",
+      "your_response": "Maintain heavy hip pressure and use grapevines to control legs, or abandon and retain mount"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "Attempting to lock the choke before driving arm fully across opponent's face",
+      "consequence": "Opponent can frame on your face and create enough space to extract their arm or prevent the choke from being tight",
+      "correction": "Use sustained shoulder pressure and head drive to force the arm across centerline before attempting to thread your choking arm"
+    },
+    {
+      "error": "Leaving space between your head and opponent's head during the choke",
+      "consequence": "Opponent can extract their trapped arm by turning their shoulder and pulling elbow back",
+      "correction": "Drive your head down like a wedge against their trapped arm, keeping your ear tight against their temple throughout"
+    },
+    {
+      "error": "Squeezing by cranking sideways on the neck rather than using chest expansion",
+      "consequence": "Applies a neck crank rather than a blood choke, which is less effective and potentially dangerous",
+      "correction": "Focus on pulling elbows together and expanding your chest while walking your choking elbow toward the mat"
+    },
+    {
+      "error": "Dismounting too early before the grip and head position are secured",
+      "consequence": "Opponent escapes during transition by bridging or extracting their arm",
+      "correction": "Complete the figure-four grip and establish head wedge position before stepping over to side control"
+    },
+    {
+      "error": "Losing hip control during the transition from mount to side control",
+      "consequence": "Opponent can shrimp away, recover guard, or escape to turtle position",
+      "correction": "Keep heavy hip pressure throughout transition and use your legs to control their hips until the choke is finished"
+    },
+    {
+      "error": "Gripping too high on opponent's neck instead of deep behind the head",
+      "consequence": "Reduces choking power and allows opponent to tuck chin and defend",
+      "correction": "Thread your arm deep so your grip connects behind the base of their skull, not on top of their neck"
+    }
+  ],
+  "training_progressions": [
+    {
+      "phase": "Week 1-2",
+      "focus": "Arm isolation mechanics",
+      "description": "Practice driving opponent's arm across their face using shoulder pressure from mount. Partner offers no resistance. Focus on the angle and pressure needed to move the arm across centerline without using your hands.",
+      "resistance_level": "None"
+    },
+    {
+      "phase": "Week 3-4",
+      "focus": "Grip connection and head positioning",
+      "description": "Drill the full sequence from arm isolation through grip connection with light resistance. Partner allows arm to be driven across but tests your head positioning by attempting to extract arm.",
+      "resistance_level": "Light"
+    },
+    {
+      "phase": "Week 5-6",
+      "focus": "Transition and finishing mechanics",
+      "description": "Practice the dismount to side control and finishing squeeze with partner providing moderate resistance during transition. Focus on maintaining control throughout position change.",
+      "resistance_level": "Medium"
+    },
+    {
+      "phase": "Week 7+",
+      "focus": "Live application and chaining",
+      "description": "Apply the Arm Triangle in live rolling from mount. Work on recognizing the setup opportunity, executing against full resistance, and chaining to alternatives when defended.",
+      "resistance_level": "Full"
+    }
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Mounted Arm Triangle Finish",
+      "description": "Complete the choke without dismounting by staying in mount and squeezing from the top. Works well when opponent is already compromised or exhausted, but provides less mechanical advantage than the side control finish.",
+      "when_to_use": "When opponent is exhausted or when dismounting risks losing position"
+    },
+    {
+      "variant_name": "No-Arm Triangle (Anaconda Grip)",
+      "description": "Instead of trapping opponent's arm, use an anaconda-style grip with both arms around just their head. Less common from mount but effective when opponent keeps arms extremely tight.",
+      "when_to_use": "When opponent refuses to expose arm for traditional setup"
+    },
+    {
+      "variant_name": "Gift Wrap to Arm Triangle",
+      "description": "Establish gift wrap control first, then use the trapped arm position to transition into the arm triangle setup. Provides more control during the setup phase.",
+      "when_to_use": "When opponent is defending mount aggressively with frames"
+    }
+  ],
+  "knowledge_assessment": [
+    {
+      "question": "What is the primary goal of the Arm Triangle from High Mount?",
+      "answer": "The primary goal is to trap opponent's arm across their own neck and create a figure-four choking structure using your arms. The opponent's shoulder becomes a choking mechanism against their carotid artery, creating a blood choke that restricts blood flow to the brain.",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "What position do you start the Arm Triangle from?",
+      "answer": "This technique starts from High Mount Top, where your knees are positioned high near the opponent's armpits and your weight is distributed forward on their upper chest. The elevated position provides leverage for driving the opponent's arm across their face.",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "What grip configuration creates the choking pressure in an Arm Triangle?",
+      "answer": "A palm-to-palm or gable grip connected behind opponent's head creates the choking structure. Your bicep presses against one side of their neck while your forearm presses against the other side, with their own shoulder completing the triangle against their carotid artery.",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "Your opponent frames strongly on your chest to prevent the arm from crossing - how do you capitalize?",
+      "answer": "When they extend arms to frame, they expose those arms for submission attacks. Switch to an americana on their near arm, attack a kimura on the far arm, or use their extended arm for an armbar setup. Their defensive frame becomes your offensive opportunity.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "Why is head position critical in preventing the opponent from extracting their trapped arm?",
+      "answer": "Your head acts as a wedge that blocks their shoulder from rotating backward. By driving your head down with your ear tight against their temple, you eliminate the space they need to turn their shoulder and pull their elbow back. Without this wedge, they can extract the arm before you finish.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "What is the correct direction of force when finishing the Arm Triangle choke?",
+      "answer": "The squeeze comes from pulling your elbows together while expanding your chest, not from cranking sideways on the neck. Walk your choking elbow toward the mat while your chest expands into the choke. This creates a blood choke through bilateral carotid compression.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "Your opponent begins turning into you during the setup - what is your response?",
+      "answer": "Follow their turn and transition to back control while maintaining your arm position. You can either finish the choke from back mount or abandon the choke and establish hooks for back control. Their turn gives you their back if you follow rather than fight it.",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "Why do many practitioners prefer finishing the Arm Triangle from side control rather than mount?",
+      "answer": "Side control provides better mechanical advantage for the finishing squeeze. The angle allows you to walk your elbow toward the mat more effectively and creates perpendicular pressure across the neck. Mount limits this angle and makes it harder to generate maximum squeeze without lifting your hips.",
+      "difficulty": "Advanced"
+    }
+  ],
+  "safety_considerations": "The Arm Triangle is a blood choke that can cause unconsciousness rapidly when applied correctly. Training partners should tap early and often, ideally before the choke is fully locked. The attacker must release immediately upon feeling a tap or verbal submission. Be aware that some practitioners may not feel the choke building until it is nearly complete. When drilling, apply the squeeze gradually and give partners time to tap. Avoid cranking sideways on the neck, which can cause cervical spine injury. If training with a partner who goes unconscious, release immediately, position them on their side, and they should regain consciousness within seconds. Seek medical attention if recovery is delayed.",
+  "position_integration": "The Arm Triangle from High Mount integrates seamlessly into the mount submission system as a high-percentage choke option. It chains directly from failed armbar attempts when opponents bring their arm back across their body, and it threatens when opponents attempt to push on your chest or turn away from pressure. The technique creates a powerful dilemma with americanas and armbars: keeping elbows tight exposes the neck for collar chokes, while framing exposes arms for the Arm Triangle or joint locks. When the Arm Triangle is defended by turning into the attacker, it opens back take opportunities, making it a gateway to multiple dominant positions and submissions.",
+  "related_content": [
+    {
+      "name": "High Mount",
+      "relationship": "Starting position - optimal platform for initiating the arm triangle setup"
+    },
+    {
+      "name": "D'arce Control",
+      "relationship": "Success outcome - control position for finishing the choke"
+    },
+    {
+      "name": "Darce Choke",
+      "relationship": "Related submission - same choking mechanics from different entry positions"
+    },
+    {
+      "name": "Arm Triangle from Top",
+      "relationship": "Alternative entry - same submission from side control starting position"
+    },
+    {
+      "name": "Americana from Mount",
+      "relationship": "Chain attack - option when opponent defends arm triangle by keeping elbows tight"
+    },
+    {
+      "name": "Armbar from Mount",
+      "relationship": "Chain attack - option when opponent extends arm attempting to frame"
+    },
+    {
+      "name": "Gift Wrap",
+      "relationship": "Setup control - arm control position that facilitates arm triangle entry"
+    },
+    {
+      "name": "Back Take from Top",
+      "relationship": "Alternative outcome - available when opponent turns into the choke"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Finishing position - common position for completing the arm triangle squeeze"
+    }
+  ]
+}

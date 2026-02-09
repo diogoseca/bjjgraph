@@ -1,0 +1,283 @@
+{
+  "name": "Inside Position Recovery",
+  "description": "Master Inside Position Recovery from Leg Drag Control. Step-by-step escape to Butterfly Guard. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "tags": [
+    "bjj",
+    "transition",
+    "escape",
+    "guard-recovery",
+    "leg-drag-defense",
+    "intermediate"
+  ],
+  "from_position": "Leg Drag Control/Bottom",
+  "outcomes": [
+    {
+      "to": "Butterfly Guard",
+      "probability": 65,
+      "result": "success"
+    },
+    {
+      "to": "Leg Drag Control",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Side Control",
+      "probability": 10,
+      "result": "counter"
+    }
+  ],
+  "success_rates": {
+    "beginner": 30,
+    "intermediate": 50,
+    "advanced": 65
+  },
+  "overview": "Inside Position Recovery is a critical escape technique from leg drag control that focuses on re-establishing an inside position with your legs before your opponent can consolidate to side control or take your back. When caught in the leg drag, your primary defensive goal is preventing back exposure and positional advancement. Inside Position Recovery addresses this by using precise hip movement and frame positioning to extract your trapped leg and insert a butterfly hook, transitioning you from a compromised defensive position to an active offensive guard.\n\nThe technical foundation of this escape relies on understanding the mechanical disadvantage created by the leg drag configuration. Your opponent uses your crossed leg as a control point while driving pressure into your hip. Inside Position Recovery exploits the moment when your opponent must shift weight to advance, creating a window to extract your leg and establish inside position. The key is timing your hip escape precisely with their weight transition while maintaining frames that prevent them from flattening you or taking your back.\n\nStrategically, Inside Position Recovery represents the preferred escape pathway when you cannot prevent the leg drag but have maintained enough hip mobility to create space. Unlike rolling to turtle (which concedes position) or fighting for half guard (which may still leave you in a compromised state), successful Inside Position Recovery puts you in butterfly guard with active hooks and offensive options. This makes it particularly valuable in competition where guard retention and immediate counter-attacks are essential for scoring and momentum.",
+  "key_principles": [
+    "Frame at the shoulder and hip simultaneously to create space before attempting leg extraction",
+    "Time your hip escape to the moment when opponent shifts weight to advance position",
+    "Keep your shoulders flat to prevent back exposure while working your trapped leg free",
+    "Insert butterfly hook immediately upon freeing your leg to establish inside position",
+    "Never turn away from opponent during the recovery—stay chest-to-chest",
+    "Use your free leg actively to push against opponent's hip and create separation",
+    "Prioritize getting inside position over perfect guard recovery—hook first, adjust second"
+  ],
+  "setup_requirements": [
+    "You are caught in leg drag control with opponent controlling your near leg across your body",
+    "Your back is not yet fully exposed and opponent has not inserted hooks",
+    "You have sufficient hip mobility remaining to execute a shrimp movement",
+    "Your far-side arm is free to establish frames against opponent's shoulder or head",
+    "Opponent's weight has not fully settled into side control position"
+  ],
+  "execution_steps": [
+    {
+      "step_number": 1,
+      "action": "Establish primary frame",
+      "description": "Place your far-side forearm against opponent's shoulder or neck, creating a structural frame that prevents them from driving their weight forward and flattening you to the mat",
+      "timing": "Immediately upon recognizing leg drag control"
+    },
+    {
+      "step_number": 2,
+      "action": "Post free leg",
+      "description": "Plant your free leg's foot flat on the mat with knee bent, positioning it close to your hip to generate power for the upcoming hip escape movement",
+      "timing": "Simultaneous with establishing frame"
+    },
+    {
+      "step_number": 3,
+      "action": "Execute hip escape",
+      "description": "Push off your posted foot while driving your frame into opponent's shoulder, creating space by moving your hips away from them while keeping your shoulders relatively flat to prevent back exposure",
+      "timing": "When opponent shifts weight to advance"
+    },
+    {
+      "step_number": 4,
+      "action": "Extract trapped leg",
+      "description": "As space opens from your hip escape, pull your trapped knee toward your chest by engaging your hip flexors, threading your foot back inside their control to free the leg",
+      "timing": "During the hip escape movement"
+    },
+    {
+      "step_number": 5,
+      "action": "Insert butterfly hook",
+      "description": "Immediately convert your freed leg into a butterfly hook by placing your instep against their inner thigh, establishing inside position before they can re-establish leg control",
+      "timing": "Immediately upon leg extraction"
+    },
+    {
+      "step_number": 6,
+      "action": "Establish butterfly guard",
+      "description": "Bring your second leg into position with both butterfly hooks active, grip their collar or underhook their arm, and sit up slightly into proper butterfly guard posture with offensive options",
+      "timing": "Within 1-2 seconds of first hook insertion"
+    }
+  ],
+  "common_counters": [
+    {
+      "counter": "Opponent drives shoulder pressure forward to flatten you before leg extraction",
+      "effectiveness": "High",
+      "your_response": "Increase frame pressure and angle your body slightly toward them rather than away; if they commit weight forward, use their momentum to technical standup or granby roll"
+    },
+    {
+      "counter": "Opponent backsteps to maintain leg control when you create hip space",
+      "effectiveness": "Medium",
+      "your_response": "Follow their movement with your hips, continuing to extract leg; if they backstep significantly, their base is compromised and you can sweep or come to knees"
+    },
+    {
+      "counter": "Opponent releases leg drag to immediately take back as you move",
+      "effectiveness": "High",
+      "your_response": "If you feel them releasing for back take, abandon leg recovery and fight for underhook on the exposed side, turning into them rather than away"
+    },
+    {
+      "counter": "Opponent drops hips low to kill your hip escape space",
+      "effectiveness": "Medium",
+      "your_response": "Switch to pummel your inside knee through their hip control; low hips make them vulnerable to elevation sweeps if you can get underneath"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "Turning away from opponent while attempting to free trapped leg",
+      "consequence": "Exposes your back and gives opponent easy hook insertion for back control",
+      "correction": "Keep chest facing opponent throughout the movement; frame and hip escape without rotating your shoulders away"
+    },
+    {
+      "error": "Attempting leg extraction before establishing proper frames",
+      "consequence": "Opponent flattens you with shoulder pressure and consolidates to side control",
+      "correction": "Always establish frame against shoulder and post your free leg before attempting any hip movement"
+    },
+    {
+      "error": "Pulling leg straight back against opponent's grip without creating hip angle",
+      "consequence": "Wastes energy fighting directly against their control; leg remains trapped",
+      "correction": "Hip escape first to create angle, then extract leg along the path of least resistance"
+    },
+    {
+      "error": "Stopping after freeing leg without immediately establishing butterfly hook",
+      "consequence": "Opponent re-captures leg or advances to side control in the gap",
+      "correction": "Treat leg extraction and hook insertion as one continuous movement; never pause between them"
+    },
+    {
+      "error": "Using weak frames at opponent's chest instead of structural points",
+      "consequence": "Opponent easily collapses through your defense and smashes past your guard",
+      "correction": "Frame at the shoulder joint or neck with forearm, not hand; keep elbow tight to body for structural strength"
+    },
+    {
+      "error": "Attempting recovery when opponent's weight is fully settled",
+      "consequence": "Movement fails and you exhaust yourself against a locked position",
+      "correction": "Wait for opponent to shift weight to advance, then time your escape to that transition moment"
+    }
+  ],
+  "training_progressions": [
+    {
+      "phase": "Week 1-2",
+      "focus": "Frame and hip escape mechanics",
+      "description": "Practice the frame positioning and hip escape movement in isolation. Partner establishes leg drag control with no resistance while you work on timing the hip escape with proper frame placement. Focus on keeping shoulders flat while moving hips.",
+      "resistance_level": "None"
+    },
+    {
+      "phase": "Week 3-4",
+      "focus": "Leg extraction timing",
+      "description": "Partner provides light resistance during leg drag control. Practice recognizing the window when partner shifts weight and executing the full sequence from frame to butterfly hook insertion. Drill both sides equally.",
+      "resistance_level": "Light"
+    },
+    {
+      "phase": "Week 5-6",
+      "focus": "Counter integration",
+      "description": "Partner actively attempts to counter your recovery with shoulder pressure, backsteps, or back takes. Work on reading their reactions and adjusting your technique. Begin linking to follow-up attacks from butterfly guard.",
+      "resistance_level": "Medium"
+    },
+    {
+      "phase": "Week 7+",
+      "focus": "Live application",
+      "description": "Implement Inside Position Recovery during live rolling with full resistance. Focus on early recognition of leg drag entries and immediate defensive response. Track success rate and analyze failures for continued improvement.",
+      "resistance_level": "Full"
+    }
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Single Leg X-Guard Recovery",
+      "description": "Instead of establishing butterfly guard, thread your freed leg deeper to establish Single Leg X-Guard position with your outside foot on their hip and inside hook behind their knee. Particularly effective when opponent's base is narrow.",
+      "when_to_use": "When opponent stands tall or has narrow base during your escape attempt"
+    },
+    {
+      "variant_name": "Knee Shield Recovery",
+      "description": "Rather than inserting butterfly hook, establish a knee shield by placing your freed knee across opponent's torso with foot on their hip. Allows you to recover to half guard with strong frames against heavier opponents.",
+      "when_to_use": "When opponent is significantly heavier or when butterfly guard feels unstable"
+    },
+    {
+      "variant_name": "No-Gi Underhook Variation",
+      "description": "In no-gi where collar grips are unavailable, prioritize getting an underhook on the near side as you free your leg. The underhook prevents flattening and creates immediate sweep and back take opportunities.",
+      "when_to_use": "No-gi grappling or when opponent is preventing collar grips"
+    }
+  ],
+  "knowledge_assessment": [
+    {
+      "question": "What is the primary goal of Inside Position Recovery?",
+      "answer": "The primary goal is to escape leg drag control by extracting your trapped leg and establishing inside position with a butterfly hook, transitioning from a defensive compromised position to an offensive guard where you have active hooks and sweep/submission opportunities.",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "What position do you start Inside Position Recovery from?",
+      "answer": "This technique starts from Leg Drag Control Bottom, where your opponent has your near leg crossed over your body and is driving hip pressure while controlling your upper body.",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "What are the key frames needed for Inside Position Recovery?",
+      "answer": "The primary frame is your far-side forearm against opponent's shoulder or neck to prevent them from driving forward and flattening you. Your free leg posts on the mat near your hip to generate power for hip escape. These frames work together to create the space needed for leg extraction.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "When is the optimal timing window to attempt Inside Position Recovery?",
+      "answer": "The optimal window is when your opponent shifts their weight to advance position—either moving toward side control consolidation or adjusting their grips. This weight shift momentarily reduces their pressure on your trapped leg and creates the space necessary for successful extraction.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "Your opponent drives heavy shoulder pressure as you attempt to hip escape—how do you adjust?",
+      "answer": "Angle your body slightly toward them rather than away, which prevents back exposure while allowing your frame to redirect their pressure. If they commit their weight fully forward, use their momentum against them by executing a technical standup to their loaded side or a granby roll to create distance.",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "Why is it critical to keep your shoulders flat during Inside Position Recovery?",
+      "answer": "Keeping shoulders flat prevents back exposure. If you turn your shoulders away from opponent while freeing your leg, you expose your back and they can easily transition to back control with hook insertion. The flat shoulder position maintains your defensive integrity while your hips create the necessary angle.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "What immediate action must follow successful leg extraction?",
+      "answer": "Immediately insert a butterfly hook with your freed leg by placing your instep against their inner thigh. There should be no pause between leg extraction and hook insertion—treating them as one continuous movement prevents opponent from re-capturing your leg or advancing to side control.",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "Your opponent releases the leg drag and goes for your back as you begin the recovery—what is your response?",
+      "answer": "Abandon the leg recovery and immediately fight for an underhook on the side they're taking your back from. Turn into them rather than away, using the underhook to prevent their hook insertion and face them. Accepting half guard facing your opponent is far better than giving up back control.",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "How does the direction of your hip escape affect the success of leg extraction?",
+      "answer": "Your hips must escape away from opponent while your shoulders stay relatively flat. This creates an angle that shortens the path your trapped leg needs to travel for extraction. Hip escaping directly backward is ineffective because it fights against opponent's control rather than around it.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "What distinguishes Inside Position Recovery from simply recovering half guard?",
+      "answer": "Inside Position Recovery establishes butterfly guard with active hooks, putting you in an offensive position with immediate sweep and submission options. Half guard recovery often leaves you in a defensive posture still fighting for position. Butterfly guard from successful Inside Position Recovery represents a complete guard recovery with offensive initiative.",
+      "difficulty": "Advanced"
+    }
+  ],
+  "safety_considerations": "Inside Position Recovery is a relatively safe technique with low injury risk when practiced correctly. The primary safety concern is protecting your lower back and hip during the hip escape movement—avoid explosive twisting motions if you have existing hip or spine issues. When drilling, communicate with your partner about pressure levels during the leg drag, as excessive weight on a crossed leg can strain the knee. In live rolling, be aware that failed recovery attempts may result in your opponent advancing aggressively, so maintain protective frames even if the technique fails. Tap early if caught in any subsequent submission rather than fighting from a compromised position.",
+  "position_integration": "Inside Position Recovery sits at the intersection of guard retention and guard recovery in the BJJ positional hierarchy. From a systems perspective, it is the preferred escape when caught in leg drag control because it returns you to an offensive guard rather than merely a defensive position. This technique integrates directly with the butterfly guard attack system—successful recovery gives you immediate access to butterfly sweeps, arm drags, guillotine setups, and leg entanglement entries. It also connects to the broader leg drag defense framework, where recognizing the leg drag early and choosing the appropriate response (prevention, turtle, half guard, or inside position recovery) determines your positional outcome. Mastering this technique is essential for anyone facing modern guard passers who utilize the leg drag as a primary passing method.",
+  "related_content": [
+    {
+      "name": "Leg Drag Control",
+      "relationship": "Starting position for this escape"
+    },
+    {
+      "name": "Butterfly Guard",
+      "relationship": "Primary target position upon successful recovery"
+    },
+    {
+      "name": "Single Leg X-Guard",
+      "relationship": "Alternative guard recovery when opponent stands"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Fallback position if full recovery is blocked"
+    },
+    {
+      "name": "Butterfly Sweep",
+      "relationship": "Primary follow-up attack after successful recovery"
+    },
+    {
+      "name": "Technical Standup",
+      "relationship": "Alternative escape when inside recovery fails"
+    },
+    {
+      "name": "Granby Roll Escape",
+      "relationship": "Alternative escape creating distance"
+    },
+    {
+      "name": "Arm Drag",
+      "relationship": "Follow-up technique from butterfly guard"
+    },
+    {
+      "name": "Hip Escape",
+      "relationship": "Fundamental movement underlying this technique"
+    },
+    {
+      "name": "Guillotine Control",
+      "relationship": "Submission threat available from recovered butterfly guard"
+    }
+  ]
+}

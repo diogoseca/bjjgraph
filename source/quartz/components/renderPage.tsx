@@ -50,7 +50,7 @@ function loadGraphData(): any {
   if (_graphJson !== null) return _graphJson
 
   try {
-    const graphPath = path.join(process.cwd(), "quartz", "static", "graph.json")
+    const graphPath = path.join(process.cwd(), "..", "graph.json")
     _graphJson = JSON.parse(fs.readFileSync(graphPath, "utf-8"))
   } catch {
     _graphJson = {}

@@ -1,0 +1,279 @@
+{
+  "name": "Rolling Armbar",
+  "description": "Master the Rolling Armbar from Rubber Guard. Dynamic submission using rotational momentum to secure armbar control. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "tags": [
+    "bjj",
+    "transition",
+    "armbar",
+    "rubber guard",
+    "submission",
+    "10th planet",
+    "rolling attack"
+  ],
+  "from_position": "Rubber Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Armbar Control",
+      "probability": 65,
+      "result": "success"
+    },
+    {
+      "to": "Rubber Guard",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Side Control",
+      "probability": 10,
+      "result": "counter"
+    }
+  ],
+  "success_rates": {
+    "beginner": 30,
+    "intermediate": 50,
+    "advanced": 65
+  },
+  "overview": "The Rolling Armbar from Rubber Guard represents one of the most dynamic submission entries in the 10th Planet system. This technique exploits the unique arm isolation achieved through Rubber Guard control by converting that static control into rotational momentum that sweeps the bottom player into top armbar position. The fundamental mechanic relies on using the trapped arm as a pivot point while the practitioner's body rotates underneath and around the opponent, emerging on top with the arm already extended and isolated. Unlike traditional armbars that require fighting for position and then attacking the arm, the Rolling Armbar accomplishes both objectives simultaneously through its explosive rotational entry.\n\nThe strategic value of this technique lies in its element of surprise and the difficulty opponents face in defending a dynamic rolling attack compared to static submission attempts. When the opponent focuses on maintaining posture and extracting their trapped arm, they become vulnerable to the sudden directional change that the rolling entry creates. The technique works particularly well when the opponent begins stacking or driving forward, as their forward momentum can be redirected into the roll. This makes the Rolling Armbar an excellent counter to common Rubber Guard escape attempts.\n\nSuccess with this technique requires excellent timing, proper hip mobility, and the ability to maintain arm control throughout the rotational movement. The practitioner must commit fully to the roll while keeping the arm trapped tight against the body. Hesitation or partial commitment typically results in the opponent recovering position or escaping the arm trap entirely.",
+  "key_principles": [
+    "Maintain constant pressure on trapped arm throughout rotational movement to prevent extraction",
+    "Use hip mobility rather than upper body strength to generate rotation momentum",
+    "Commit fully to the rolling motion once initiated as partial attempts lose arm control",
+    "Time the roll when opponent drives forward or attempts to posture to use their momentum",
+    "Keep elbow of trapped arm pinched tight to body during entire rotation for control",
+    "Complete the rotation with hips high and arm perpendicular to opponent's body for finish"
+  ],
+  "setup_requirements": [
+    "Established Rubber Guard control with Mission Control or New York position secured",
+    "Opponent's near-side arm trapped against chest with leg pressure maintaining isolation",
+    "Opponent beginning to drive forward or attempting to stack creating forward momentum",
+    "Clear space on rolling side without obstruction from training partner or cage wall",
+    "Opposite hand controlling opponent's head or far shoulder to prevent posture recovery"
+  ],
+  "execution_steps": [
+    {
+      "step_number": 1,
+      "action": "Secure arm trap",
+      "description": "From Mission Control or New York position, ensure the opponent's trapped arm is pinched tightly against your chest with your shin applying constant pressure across their back and shoulder. The arm must be fully isolated before initiating.",
+      "timing": "Continuous pressure before roll"
+    },
+    {
+      "step_number": 2,
+      "action": "Release guard lock",
+      "description": "Uncross your ankles and release the closed guard configuration while maintaining the arm trap with your leg. Your bottom leg begins to post on the mat on the same side as the trapped arm to initiate hip rotation.",
+      "timing": "When opponent drives forward"
+    },
+    {
+      "step_number": 3,
+      "action": "Hip escape and angle",
+      "description": "Perform a sharp hip escape toward the trapped arm side, creating approximately 45 degrees of angle. Your hips should move underneath the opponent's centerline while the trapped arm remains pinched tight against your torso.",
+      "timing": "Immediately after guard unlock"
+    },
+    {
+      "step_number": 4,
+      "action": "Initiate rotation",
+      "description": "Push off your posted foot and begin rotating your body underneath the opponent. Your top leg swings over their head while maintaining arm isolation. The rotation should feel like rolling onto your shoulder on the trapped arm side.",
+      "timing": "Explosive movement using opponent's forward pressure"
+    },
+    {
+      "step_number": 5,
+      "action": "Complete the roll",
+      "description": "Continue the rotation until you emerge on top with the opponent's arm between your legs. Your hips should clear their shoulder completely. The leg that was applying Rubber Guard pressure now crosses over their face to secure the armbar position.",
+      "timing": "Continuous motion without pause"
+    },
+    {
+      "step_number": 6,
+      "action": "Secure armbar control",
+      "description": "Land in top armbar position with knees pinched tight, hips elevated against opponent's elbow, and their thumb pointing toward the ceiling. Squeeze your knees together and begin extending your hips for the finish while controlling their wrist with both hands.",
+      "timing": "Immediately upon completing rotation"
+    }
+  ],
+  "common_counters": [
+    {
+      "counter": "Stacking and driving hips forward to prevent rotation",
+      "effectiveness": "High",
+      "your_response": "Use their forward pressure to accelerate the roll or transition to omoplata if they overcommit"
+    },
+    {
+      "counter": "Pulling trapped arm out during rotation initiation",
+      "effectiveness": "High",
+      "your_response": "Maintain tight elbow pinch and consider switching to triangle if arm begins extracting"
+    },
+    {
+      "counter": "Stepping over the rolling leg to establish passing position",
+      "effectiveness": "Medium",
+      "your_response": "Accelerate the roll to complete before they can establish passing position or retain guard"
+    },
+    {
+      "counter": "Posturing up and creating distance before roll initiates",
+      "effectiveness": "Medium",
+      "your_response": "Do not attempt roll against strong posture; reset to Mission Control and reattempt when posture breaks"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "Initiating roll before arm is properly trapped and isolated",
+      "consequence": "Opponent easily extracts arm during rotation leaving you in inferior scramble position with back potentially exposed",
+      "correction": "Verify arm is pinched tight against chest with constant leg pressure before unlocking guard. Test by attempting small hip movement to confirm arm moves with your body"
+    },
+    {
+      "error": "Rolling away from trapped arm instead of toward it",
+      "consequence": "Arm escapes immediately as rotation creates space rather than maintaining trap. Complete loss of submission opportunity",
+      "correction": "Always roll toward the trapped arm side. Your hip escape and rotation should move underneath the opponent toward the isolated limb"
+    },
+    {
+      "error": "Hesitating mid-roll or attempting partial rotation",
+      "consequence": "Getting stuck in compromised position underneath opponent with no control. Potential back exposure or guard pass",
+      "correction": "Commit fully once roll initiates. The technique requires continuous momentum. If conditions change, abort before starting rather than stopping mid-rotation"
+    },
+    {
+      "error": "Losing head control during rotation allowing opponent to posture",
+      "consequence": "Opponent postures up and pulls arm free before rotation completes. May stack you or pass guard",
+      "correction": "Maintain opposite hand control on head or far shoulder throughout rotation. This prevents posture recovery and keeps opponent's weight forward into the roll"
+    },
+    {
+      "error": "Landing in armbar with hips too far from opponent's elbow",
+      "consequence": "Opponent can bend arm and begin stacking to escape. Armbar finish becomes much more difficult",
+      "correction": "Complete rotation with hips tight against their tricep/elbow junction. Immediately squeeze knees and elevate hips upon landing to secure proper finishing position"
+    },
+    {
+      "error": "Attempting roll when opponent has strong posture and base",
+      "consequence": "Roll fails entirely as opponent simply maintains position. Potential guard pass as you expose space",
+      "correction": "Only attempt when opponent's posture is broken and they are driving forward or have compromised base. Use their momentum against them"
+    }
+  ],
+  "training_progressions": [
+    {
+      "phase": "Week 1-2",
+      "focus": "Rotation mechanics",
+      "description": "Practice rolling motion solo and with compliant partner. Focus on hip escape angle, rotation direction, and landing in proper armbar position. No resistance, emphasize technical precision of body mechanics.",
+      "resistance_level": "None"
+    },
+    {
+      "phase": "Week 3-4",
+      "focus": "Arm isolation maintenance",
+      "description": "Drill maintaining arm trap throughout rotation. Partner provides light resistance attempting to extract arm during roll. Focus on elbow pinch and using rotation to tighten rather than loosen control.",
+      "resistance_level": "Light"
+    },
+    {
+      "phase": "Week 5-6",
+      "focus": "Timing and entries",
+      "description": "Practice recognizing optimal timing windows. Partner provides varying levels of forward pressure and posture breaks. Learn to initiate roll when opponent's momentum creates opportunity.",
+      "resistance_level": "Medium"
+    },
+    {
+      "phase": "Week 7+",
+      "focus": "Live application",
+      "description": "Implement in positional sparring from Rubber Guard. Chain with other attacks when roll is defended. Develop ability to abort and recover when conditions change mid-attempt.",
+      "resistance_level": "Full"
+    }
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Rolling Armbar from Mission Control",
+      "description": "Standard entry from basic Rubber Guard position. Foot secured with same-side hand, roll initiated when opponent drives forward. Most common variation with highest success percentage for beginners.",
+      "when_to_use": "When opponent maintains consistent forward pressure against Mission Control"
+    },
+    {
+      "variant_name": "Rolling Armbar from New York",
+      "description": "Entry from advanced Rubber Guard position with enhanced arm isolation. The omoplata threat from New York creates additional reactions that open rolling armbar opportunity when opponent defends the shoulder attack.",
+      "when_to_use": "When opponent defends omoplata threat by pulling arm back creating rolling opportunity"
+    },
+    {
+      "variant_name": "Helicopter Armbar Variation",
+      "description": "Higher amplitude rotation that creates more momentum but requires better timing. The practitioner's body rotates more vertically before descending into armbar position. More spectacular but higher risk.",
+      "when_to_use": "Against larger opponents where standard roll lacks sufficient momentum to complete"
+    }
+  ],
+  "knowledge_assessment": [
+    {
+      "question": "What is the primary goal of Rolling Armbar from Rubber Guard?",
+      "answer": "The primary goal is to convert the static arm isolation of Rubber Guard into a dynamic rolling attack that simultaneously sweeps the practitioner to top position while securing the armbar. This accomplishes positional advancement and submission entry in a single explosive movement.",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "What position do you start Rolling Armbar from?",
+      "answer": "This technique starts from Rubber Guard bottom, specifically from Mission Control or New York positions where the opponent's arm is trapped against your chest by your elevated leg. The arm isolation must be established before the roll can be attempted.",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "What are the key grips needed for Rolling Armbar?",
+      "answer": "The primary control is the leg pressure trapping the arm against your chest from Rubber Guard. Additionally, the same-side hand secures your foot maintaining Mission Control, while the opposite hand controls the opponent's head or far shoulder to prevent posture recovery during rotation.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "How do you counter Rolling Armbar as the defending opponent?",
+      "answer": "The most effective defenses include maintaining strong posture to prevent roll initiation, extracting the trapped arm before rotation begins by pulling elbow tight and driving forward, or stepping over the rolling leg to establish passing position. The key is recognizing the attack early before momentum builds.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "When is the best time to attempt Rolling Armbar?",
+      "answer": "The optimal timing is when the opponent drives forward attempting to stack or pressure pass, or when they attempt to extract their trapped arm by pulling backward. Their momentum in either direction can be redirected into the roll. Never attempt against strong upright posture.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "Your opponent begins stacking hard after you establish Mission Control. How do you adjust your Rolling Armbar entry?",
+      "answer": "Use their forward stacking pressure to accelerate the roll. As they drive forward, immediately unlock the guard and initiate hip escape toward the trapped arm. Their momentum carries them over as you rotate underneath. The stack actually makes the roll easier by providing forward energy.",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "What is the critical hip movement that makes Rolling Armbar successful?",
+      "answer": "The initial hip escape toward the trapped arm side at approximately 45 degrees is critical. This angles your body underneath the opponent's centerline while maintaining arm isolation. Without this angular hip escape, the rotation lacks the proper trajectory to emerge on top.",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "What are the most common failure points during Rolling Armbar execution?",
+      "answer": "The most common failures are initiating without proper arm isolation resulting in arm extraction, rolling in the wrong direction away from trapped arm, hesitating mid-roll allowing opponent to stabilize, and landing with hips too far from elbow making finish difficult. Each requires specific preventive focus during drilling.",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "If your Rolling Armbar is blocked by the opponent posting their free hand, what chain attacks become available?",
+      "answer": "When the roll is blocked, you can transition to triangle by releasing the trapped arm and shooting your leg over their posting arm head, switch to omoplata if rotation partially completes, or return to Rubber Guard to reset. The posting hand often creates openings for these alternative attacks.",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "What direction of force should you apply to maintain arm control throughout the rotation?",
+      "answer": "The trapped arm should be pulled toward your chest with constant inward elbow pinching pressure throughout rotation. As you roll, the arm should feel like it is rotating with your torso as a single unit. The force direction remains perpendicular to your chest, not pulling the arm toward the mat.",
+      "difficulty": "Advanced"
+    }
+  ],
+  "safety_considerations": "The Rolling Armbar involves dynamic rotational movement that requires adequate space and awareness of surroundings. When training, ensure sufficient mat space on the rolling side to prevent collision with walls, training partners, or equipment. The armbar finish applies significant pressure to the elbow joint and requires controlled application with immediate release upon tap. Partners should tap early when caught, as the momentum of the roll can make the submission come on faster than expected. Practitioners with shoulder or neck issues should approach the rotation carefully, as the movement places stress on these areas. When drilling, start with slow controlled repetitions before adding speed. Never attempt full-speed rolls on beginners who may not know to tap quickly. The technique should be avoided when fatigued as loss of body control during rotation can result in awkward landings or failed arm control leading to scrambles where injuries occur.",
+  "position_integration": "The Rolling Armbar fits into the Rubber Guard system as a dynamic submission option that complements the more static attacks like triangles and omoplatas. While Mission Control and New York positions offer excellent control for methodical submission chains, the Rolling Armbar provides an explosive option when opponents defend the standard attacks or attempt to escape through pressure. This technique represents the 10th Planet philosophy of using unorthodox movement patterns to create problems that conventional defenses cannot address. Within a complete Rubber Guard game, the Rolling Armbar serves as a surprise attack that keeps opponents from settling into defensive patterns. The threat of the roll prevents opponents from simply stacking forward, which opens opportunities for the standard submission chain. Conversely, when opponents maintain too much distance to prevent triangles and omoplatas, the rolling entry can close that distance explosively. The technique also connects to broader armbar systems, as the finishing position is identical to traditional armbars and the same finishing mechanics apply.",
+  "related_content": [
+    {
+      "name": "Rubber Guard",
+      "relationship": "Starting position providing arm isolation necessary for roll"
+    },
+    {
+      "name": "Armbar Control",
+      "relationship": "Target position upon successful completion of roll"
+    },
+    {
+      "name": "Armbar Finish",
+      "relationship": "Finishing technique applied after securing armbar control"
+    },
+    {
+      "name": "Mission Control",
+      "relationship": "Primary Rubber Guard variation for initiating roll"
+    },
+    {
+      "name": "Triangle Setup",
+      "relationship": "Alternative attack when roll is defended"
+    },
+    {
+      "name": "Omoplata",
+      "relationship": "Chain attack available from partial roll completion"
+    },
+    {
+      "name": "Armbar from Guard",
+      "relationship": "Related submission with different entry mechanics"
+    },
+    {
+      "name": "New York Control",
+      "relationship": "Advanced starting position for rolling armbar variation"
+    },
+    {
+      "name": "Closed Guard",
+      "relationship": "Foundational position that Rubber Guard builds upon"
+    }
+  ]
+}

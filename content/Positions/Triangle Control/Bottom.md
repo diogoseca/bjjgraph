@@ -1,0 +1,369 @@
+
+
+
+
+---
+title: "Triangle Control Bottom | BJJ Position Guide | BJJ Graph"
+description: "Master Triangle Control Bottom in BJJ. Dominant submission control with 75% advanced finish rate. Complete guide to attacks, transitions, and submissions."
+---
+
+
+<body data-content-type="positions">
+
+<!-- Schema Markup - HowTo for Escapes -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Escape Triangle Control Bottom",
+  "description": "Step-by-step guide to escaping and defending Triangle Control position in BJJ.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute Triangle Choke Front",
+      "text": "From this position, attempt Triangle Choke Front. This technique is attempted in 35% of exchanges from this position.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Triangle to Armbar",
+      "text": "From this position, attempt Triangle to Armbar. This technique is attempted in 25% of exchanges from this position.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Triangle to Omoplata",
+      "text": "From this position, attempt Triangle to Omoplata. This technique is attempted in 15% of exchanges from this position.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Triangle to Back",
+      "text": "From this position, attempt Triangle to Back. This technique is attempted in 10% of exchanges from this position.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Mounted Triangle",
+      "text": "From this position, attempt Mounted Triangle. This technique is attempted in 8% of exchanges from this position.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Closed Guard to Omoplata",
+      "text": "From this position, attempt Closed Guard to Omoplata. This technique is attempted in 7% of exchanges from this position.",
+      "position": 6
+    }
+  ],
+  "totalTime": "PT2M"
+}
+</script>
+
+<!-- Schema Markup - FAQ from Common Mistakes -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What happens if you crossing legs too low on opponent's back instead of high behind the neck?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Reduces choking pressure significantly and allows opponent to posture up and begin escape sequences The correct approach is: Lock triangle as high as possible behind opponent's neck, pulling their head down while crossing ankles tightly"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you maintaining body position parallel to opponent instead of angling off to the side?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Creates weak choking angle that opponent can defend indefinitely through posture maintenance The correct approach is: Angle hips 30-45 degrees with choking leg's knee pointing toward trapped shoulder for optimal compression"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you releasing head control to adjust position or attempt to relock triangle configuration?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Allows opponent to posture up, relieve pressure, and begin escape sequence immediately The correct approach is: Maintain constant head control with grips throughout triangle adjustment and finishing sequence without releasing"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you explosive squeezing instead of sustained compression with legs around opponent's neck?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Fatigues leg muscles quickly without achieving submission, allowing opponent to wait out the pressure burst The correct approach is: Apply steady, constant pressure with legs while pulling head down—submission comes from sustained arterial compression over time"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you failing to pull trapped arm across opponent's neck to amplify choking mechanism?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Reduces choking effectiveness significantly as opponent's own arm is not contributing to the compression The correct approach is: Grip opponent's wrist or sleeve and pull trapped arm diagonally across their neck to amplify overall pressure"
+      }
+    }
+  ]
+}
+</script>
+
+<!-- Schema Markup - WebPage -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Triangle Control Bottom",
+  "description": "Master Triangle Control Bottom in BJJ. Dominant submission control with 75% advanced finish rate. Complete guide to attacks, transitions, and submissions.",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.org/Positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Triangle Control Bottom",
+      "item": "https://bjjgraph.org/Positions/Triangle-Control-Bottom"
+    }
+  ]
+}
+</script>
+
+
+<main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+<section id="overview" class="content-section">
+
+Triangle Control Bottom represents one of the most powerful submission positions in Brazilian Jiu-Jitsu, where the bottom practitioner has locked their legs around the opponent's neck and one arm, creating an imminent choking threat. This position is reached from various guard positions, most commonly closed guard, when the opponent's posture is broken and one arm is isolated. The triangle configuration creates a mechanical advantage where the practitioner's legs compress the carotid arteries while trapping one of the opponent's arms across their own neck, amplifying the choking pressure.
+
+From a strategic perspective, triangle control is not merely a submission position but a highly dynamic platform for launching multiple attacks. The position offers exceptional control over the opponent's upper body while simultaneously threatening the choke, armbar transitions, and omoplata variations. Advanced practitioners understand that the triangle itself is often a forcing mechanism—creating defensive reactions that open pathways to other submissions. The position's power lies in its ability to control distance, limit the opponent's defensive options, and create a submission chain that becomes increasingly difficult to escape as time progresses.
+
+The biomechanics of triangle control favor the bottom practitioner significantly, as the leg muscles are substantially stronger than the neck and arm muscles the opponent must use to defend. Proper angle adjustment and hip positioning are critical—the practitioner must angle their body approximately 30-45 degrees relative to the opponent's centerline to maximize choking pressure while minimizing the opponent's ability to posture or stack. This position exemplifies the fundamental BJJ principle of using superior leverage and positioning to overcome strength disadvantages, making it equally effective for practitioners of all sizes when executed with proper technique.
+
+The submission chain available from triangle control represents one of the most complete offensive systems in guard work. When the opponent defends the choke by posturing, the armbar becomes immediately available. When they stack forward, the omoplata opens. When they extract the trapped arm, back takes present themselves. This three-directional attack system means that every defensive response creates a new vulnerability, placing the defender in a perpetual dilemma that only deepens as fatigue accumulates under sustained choking pressure.
+
+</section>
+
+<section id="state-invariants" class="content-section">
+
+## Position Definition
+
+- Both legs wrapped around opponent's neck and shoulder, with one leg crossed over the other behind opponent's neck, creating a closed triangle configuration that controls head position and restricts movement
+- One of opponent's arms trapped inside the triangle across their own neck, while the other arm remains outside, creating asymmetric pressure that amplifies the choking mechanism
+- Practitioner's hips angled 30-45 degrees off centerline relative to opponent's torso, with the choking leg's knee pointing toward opponent's trapped shoulder to maximize arterial compression
+- Practitioner's upper body positioned to pull opponent's head down and forward into the triangle, maintaining head control through grips on the back of the head, neck, or sleeve
+- Opponent's posture broken forward with their head pulled down toward practitioner's chest, preventing them from creating the vertical space needed to relieve choking pressure
+
+
+</section>
+
+<section id="prerequisites" class="content-section">
+
+## Prerequisites
+
+- Successful isolation of one of opponent's arms inside guard position using arm drag, overhook, or collar sleeve control
+- Breaking of opponent's posture to bring their head and shoulders forward, eliminating vertical base
+- Initial triangle lock with legs secured around neck and shoulder, with ankle crossed behind opponent's neck
+- Hip angle adjustment to create proper choking geometry at 30-45 degrees off centerline
+- Control of opponent's head or posture through grips to prevent escape attempts and maintain pressure
+
+
+</section>
+
+<section id="key-principles" class="content-section">
+
+## Key Defensive Principles
+
+- Maintain tight triangle lock with ankles crossed behind opponent's neck, squeezing knees together to compress carotid arteries using full leg engagement
+- Keep hips angled 30-45 degrees off centerline with choking leg's knee directed toward trapped shoulder for optimal compression geometry
+- Pull opponent's head down and forward constantly to prevent posture recovery and maintain choking pressure throughout the attack sequence
+- Control the angle by adjusting hip position—too straight reduces choking pressure, proper perpendicular angle maximizes arterial compression
+- Use the trapped arm as a lever by pulling it across opponent's neck to amplify choking pressure through their own limb
+- Maintain active leg pressure throughout—the submission comes from sustained compression, not explosive squeezing that fatigues quickly
+- Keep elbows tight to body and maintain grips to control opponent's posture and prevent explosive escape attempts
+
+
+</section>
+
+<section id="offensive-transitions" class="content-section">
+
+## Available Escapes
+
+### [[Triangle Choke Front]] (35% of attempts)
+
+### [[Triangle to Armbar]] (25% of attempts)
+
+### [[Triangle to Omoplata]] (15% of attempts)
+
+### [[Triangle to Back]] (10% of attempts)
+
+### [[Mounted Triangle]] (8% of attempts)
+
+### [[Closed Guard to Omoplata]] (7% of attempts)
+
+
+
+</section>
+
+<section id="decision-tree" class="content-section">
+
+## Decision Making from This Position
+
+**If opponent attempts to stack by driving forward and lifting hips:**
+- Execute **[[Triangle to Omoplata]]** → [[Omoplata Control]] (Probability: 65%)
+- Execute **[[Triangle to Back]]** → [[Back Control]] (Probability: 55%)
+
+
+**If opponent attempts to posture up vertically or pull head back:**
+- Execute **[[Triangle Choke Front]]** → [[Game Over]] (Probability: 75%)
+- Execute **[[Triangle to Armbar]]** → [[Armbar Control]] (Probability: 70%)
+
+
+**If opponent successfully extracts trapped arm from triangle configuration:**
+- Execute **[[Triangle to Back]]** → [[Back Control]] (Probability: 60%)
+- Execute **[[Closed Guard to Omoplata]]** → [[Omoplata Control]] (Probability: 50%)
+
+
+**If opponent turns shoulder inward to defend choking pressure on neck:**
+- Execute **[[Triangle to Omoplata]]** → [[Omoplata Control]] (Probability: 70%)
+- Execute **[[Triangle to Armbar]]** → [[Armbar Control]] (Probability: 55%)
+
+
+
+
+</section>
+
+<section id="common-mistakes" class="content-section hide-minimal">
+
+## Common Defensive Mistakes
+
+### 1. Crossing legs too low on opponent's back instead of high behind the neck
+
+- ❌ **Consequence**: Reduces choking pressure significantly and allows opponent to posture up and begin escape sequences
+- ✅ **Correction**: Lock triangle as high as possible behind opponent's neck, pulling their head down while crossing ankles tightly
+
+### 2. Maintaining body position parallel to opponent instead of angling off to the side
+
+- ❌ **Consequence**: Creates weak choking angle that opponent can defend indefinitely through posture maintenance
+- ✅ **Correction**: Angle hips 30-45 degrees with choking leg's knee pointing toward trapped shoulder for optimal compression
+
+### 3. Releasing head control to adjust position or attempt to relock triangle configuration
+
+- ❌ **Consequence**: Allows opponent to posture up, relieve pressure, and begin escape sequence immediately
+- ✅ **Correction**: Maintain constant head control with grips throughout triangle adjustment and finishing sequence without releasing
+
+### 4. Explosive squeezing instead of sustained compression with legs around opponent's neck
+
+- ❌ **Consequence**: Fatigues leg muscles quickly without achieving submission, allowing opponent to wait out the pressure burst
+- ✅ **Correction**: Apply steady, constant pressure with legs while pulling head down—submission comes from sustained arterial compression over time
+
+### 5. Failing to pull trapped arm across opponent's neck to amplify choking mechanism
+
+- ❌ **Consequence**: Reduces choking effectiveness significantly as opponent's own arm is not contributing to the compression
+- ✅ **Correction**: Grip opponent's wrist or sleeve and pull trapped arm diagonally across their neck to amplify overall pressure
+
+### 6. Keeping hips flat on ground instead of elevating to create downward pressure angle
+
+- ❌ **Consequence**: Reduces choking angle and allows opponent to create defensive space with their hip positioning
+- ✅ **Correction**: Elevate hips off ground, using shoulder and upper back as base point while extending legs for maximum compression
+
+
+
+</section>
+
+<section id="training-drills" class="content-section hide-minimal">
+
+## Training Drills for Defense
+
+### Triangle Lock Repetitions
+
+Partner starts in closed guard with broken posture. Practice locking triangle from various arm positions (high, low, reaching) focusing on speed and tight lock. Complete 10 repetitions each side, emphasizing correct ankle positioning behind the neck.
+
+**Duration**: 10 minutes total
+
+
+### Angle Adjustment Drill
+
+Start with triangle locked but body parallel to partner. Practice quickly adjusting to proper 30-45 degree angle while maintaining lock and head control. Partner provides progressive resistance to simulate realistic defensive movement.
+
+**Duration**: 10 minutes
+
+
+### Triangle Retention Against Escapes
+
+Maintain triangle control while partner attempts specific escapes (posture up, stack, arm extraction) using 70% resistance. Focus on recognizing escape attempts early and countering with appropriate transitions or tightening adjustments.
+
+**Duration**: 3 rounds of 2 minutes each
+
+
+### Triangle Submission Chain Flow
+
+Flow drill starting from triangle control: if partner defends choke transition to armbar, if they defend armbar transition to omoplata, if they defend omoplata transition to back take. Complete full chain both sides without stopping.
+
+**Duration**: 10 minutes
+
+
+
+
+</section>
+
+
+
+<section id="position-metrics" class="content-section">
+
+## Success Rates and Statistics
+
+| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
+|--------------|----------------|-------------------------|------------------------|
+| Beginner     | 50% | 45% | 40% |
+| Intermediate | 70% | 65% | 60% |
+| Advanced     | 85% | 80% | 75% |
+
+**Average Time in Position**: 30-90 seconds
+
+
+</section>
+
+<section id="related-content" class="content-section">
+
+## Related Positions and Techniques
+
+- **[[Triangle Choke Front]]** - Primary submission finish executed from this control position
+- **[[Closed Guard]]** - Most common entry position for establishing triangle control
+- **[[Armbar Control]]** - Primary transition target when opponent defends triangle choke
+- **[[Omoplata Control]]** - Alternative submission when opponent turns shoulder into triangle
+- **[[Triangle to Armbar]]** - Key transition technique for the triangle submission chain
+- **[[Triangle to Omoplata]]** - Counter-transition used against stacking defense attempts
+- **[[Triangle to Back]]** - Transition option when opponent extracts trapped arm
+- **[[Back Control]]** - Dominant position reached via back take from triangle
+- **[[Mounted Triangle]]** - Position variation achieved when opponent stands in triangle
+- **[[Inverted Triangle]]** - Alternative triangle finishing variation from different angle
+- **[[Closed Guard to Omoplata]]** - Related guard attack sharing similar hip mechanics
+
+
+</section>
+
+</main>

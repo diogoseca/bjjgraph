@@ -132,6 +132,7 @@ function executeTransition(
     name: transition.technique,
     type: transition.isSubmission ? "submission" : "transition",
     success,
+    action: "dice-roll",
   })
 
   if (success) {
@@ -200,6 +201,7 @@ interface JourneyStep {
   name: string
   type: "position" | "transition" | "submission"
   success?: boolean
+  action?: "dice-roll" | "flashcard"
 }
 
 function getJourney(): JourneyStep[] {

@@ -1,0 +1,275 @@
+{
+  "name": "Armbar from Side Control",
+  "description": "Learn Armbar from Side Control in BJJ. Step-by-step execution from Kesa Gatame to Armbar Control. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "tags": [
+    "bjj",
+    "transition",
+    "technique",
+    "armbar",
+    "side-control",
+    "kesa-gatame",
+    "submission-setup",
+    "arm-attack"
+  ],
+  "from_position": "Kesa Gatame/Top",
+  "outcomes": [
+    {
+      "to": "Armbar Control",
+      "probability": 65,
+      "result": "success"
+    },
+    {
+      "to": "Kesa Gatame",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Half Guard",
+      "probability": 10,
+      "result": "counter"
+    }
+  ],
+  "success_rates": {
+    "beginner": 30,
+    "intermediate": 50,
+    "advanced": 65
+  },
+  "overview": "The Armbar from Side Control is a high-percentage submission setup that capitalizes on the unique arm exposure created by Kesa Gatame. Unlike standard side control where the near arm is protected, Kesa Gatame's scarf hold mechanics trap the opponent's arm in an extended position, creating an ideal attacking angle for the armbar. The technique requires transitioning from chest-to-chest pressure to a perpendicular hip position while maintaining absolute control of the isolated limb throughout the movement.\n\nThis attack works particularly well when the opponent attempts to push against your face or chest to create escape space—their extended arm becomes the very weapon used against them. The transition demands precise weight distribution as you swing your leg over their head, and premature movement before securing proper arm control will result in escape. Mastery requires understanding the specific hip positioning that creates breaking pressure while preventing the opponent from turning into you.\n\nStrategically, this armbar pairs exceptionally well with Americana and Kimura attacks from Kesa Gatame. When opponents defend the bent-arm locks by straightening their arm, they expose themselves to the armbar. Conversely, when they bend to defend the armbar threat, Americana and Kimura opportunities open. This creates a synergistic attack system where each defense feeds into another offensive opportunity.",
+  "key_principles": [
+    "Maintain constant wrist control throughout the entire transition—releasing grip for even a moment allows arm extraction",
+    "Hips must clear opponent's shoulder before swinging leg over their face to prevent them from sitting up",
+    "Pinch knees tightly together to prevent arm from slipping out during the finishing position",
+    "Keep opponent's thumb pointed toward ceiling to ensure proper elbow alignment for breaking mechanics",
+    "Control the head with your near leg to prevent opponent from posturing up and stacking",
+    "Apply breaking pressure by lifting hips rather than pulling down on the arm for maximum leverage"
+  ],
+  "setup_requirements": [
+    "Secure Kesa Gatame with tight head control and opponent's near arm trapped under your armpit",
+    "Opponent's arm is extended or can be manipulated into extension through pressure",
+    "Your chest weight is distributed across opponent's upper torso, limiting their hip movement",
+    "Opponent's far arm is controlled or pinned to prevent effective framing during transition",
+    "Base leg is posted wide enough to allow hip transition without losing balance"
+  ],
+  "execution_steps": [
+    {
+      "step_number": 1,
+      "action": "Secure wrist control",
+      "description": "From Kesa Gatame, release head control with your near arm and immediately secure a two-on-one grip on opponent's trapped arm at the wrist. Your grip must be unbreakable—use both hands with thumbs pointing same direction, pulling their wrist tight against your chest.",
+      "timing": "Execute when opponent pushes or extends arm"
+    },
+    {
+      "step_number": 2,
+      "action": "Hip switch preparation",
+      "description": "Shift your weight onto your far hip while maintaining the wrist grip. Your near leg should begin sliding toward opponent's far hip. Keep heavy chest pressure to prevent opponent from sitting up or creating space during this transitional moment.",
+      "timing": "Immediately after securing wrist"
+    },
+    {
+      "step_number": 3,
+      "action": "Clear the shoulder",
+      "description": "Push off your posted leg and swing your hips perpendicular to opponent's body. Your near hip must completely clear their shoulder, creating space for your leg to pass over their face. Maintain wrist control throughout—this is the most vulnerable moment for arm escape.",
+      "timing": "Smooth continuous motion from hip switch"
+    },
+    {
+      "step_number": 4,
+      "action": "Leg over face",
+      "description": "Swing your far leg over opponent's face in an arc, with your calf landing across their neck and jaw. Your heel should hook under their far shoulder to prevent them from turning toward you. Keep knees pinched together around their upper arm.",
+      "timing": "As hips clear shoulder"
+    },
+    {
+      "step_number": 5,
+      "action": "Secure control position",
+      "description": "Settle your hips close to opponent's shoulder with their arm trapped between your thighs. Their elbow should be positioned just above your hip line. Squeeze knees together and control their wrist with both hands, thumb pointing toward ceiling.",
+      "timing": "Pause to verify control before finishing"
+    },
+    {
+      "step_number": 6,
+      "action": "Apply breaking pressure",
+      "description": "With opponent's arm fully controlled and their thumb pointing up, bridge your hips toward the ceiling while pulling their wrist toward your chest. The breaking pressure comes from your hip lift against their elbow joint—do not simply pull the arm down.",
+      "timing": "Controlled steady pressure"
+    }
+  ],
+  "common_counters": [
+    {
+      "counter": "Opponent clasps hands together to prevent arm extension",
+      "effectiveness": "High",
+      "your_response": "Attack the grip by pushing their top elbow toward their face while pulling wrist toward you, or transition to triangle by feeding their arm across and swinging leg over their head"
+    },
+    {
+      "counter": "Opponent stacks forward and drives into you during transition",
+      "effectiveness": "Medium",
+      "your_response": "Use your leg across their face to block the stack. If they continue driving, release leg control and swing back to Kesa Gatame or transition to mounted triangle position"
+    },
+    {
+      "counter": "Opponent turns into you and attempts to come on top",
+      "effectiveness": "Medium",
+      "your_response": "If they turn before you complete the position, disengage and take mount as they rotate into you. Their turn actually facilitates your mount transition"
+    },
+    {
+      "counter": "Opponent pulls arm out during hip transition",
+      "effectiveness": "High",
+      "your_response": "You've lost the armbar—immediately return to Kesa Gatame before they can escape further. This counter indicates you released wrist control prematurely"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "Releasing head control before securing unbreakable wrist grip",
+      "consequence": "Opponent immediately postures up and escapes Kesa Gatame entirely, losing both the armbar and the dominant position",
+      "correction": "Only release head control when you have a two-on-one grip locked on their wrist with hands clasped tight against your chest"
+    },
+    {
+      "error": "Swinging leg over face before hips clear opponent's shoulder",
+      "consequence": "Opponent can sit up into you, creating a scramble where they may achieve top position or recover guard",
+      "correction": "Complete the hip switch fully, ensuring your hip clears their shoulder before initiating the leg swing"
+    },
+    {
+      "error": "Allowing opponent's elbow to slip below hip line in finishing position",
+      "consequence": "No breaking angle exists—opponent can simply pull arm out with no resistance despite apparent control",
+      "correction": "Position their elbow above your hip crease and squeeze knees together. Their elbow joint must be against your pubic bone area for proper leverage"
+    },
+    {
+      "error": "Thumb pointing sideways instead of toward ceiling during finish",
+      "consequence": "Pressure goes against the stronger rotation plane of the elbow rather than the hyperextension plane, dramatically reducing effectiveness",
+      "correction": "Always rotate their arm so thumb points directly at ceiling—this aligns their elbow for hyperextension rather than rotation"
+    },
+    {
+      "error": "Pulling arm down rather than bridging hips up for finish",
+      "consequence": "Uses arm strength against their entire body strength. Significantly less breaking power and higher chance of escape",
+      "correction": "Anchor their wrist to your chest and bridge your hips toward ceiling. Your hip power far exceeds your arm pulling strength"
+    }
+  ],
+  "training_progressions": [
+    {
+      "phase": "Week 1-2",
+      "focus": "Entry mechanics",
+      "description": "Practice the wrist grip transfer from Kesa Gatame with no resistance. Focus on maintaining constant contact with opponent's arm throughout transition. Drill the hip switch movement slowly, pausing at each position to verify proper alignment. Partner remains completely passive.",
+      "resistance_level": "None"
+    },
+    {
+      "phase": "Week 3-4",
+      "focus": "Leg placement and control",
+      "description": "Add focus on proper leg positioning over opponent's face and head control. Practice the squeeze and pinch with knees. Partner provides light resistance by attempting to pull arm free during transition. Work on timing the leg swing to coincide with hip clearance.",
+      "resistance_level": "Light"
+    },
+    {
+      "phase": "Week 5-6",
+      "focus": "Chain attacks",
+      "description": "Integrate with Americana and Kimura attacks. When partner defends armbar by bending arm, transition to bent-arm locks. When partner straightens to defend those, return to armbar. Partner defends intelligently but allows successful techniques when executed properly.",
+      "resistance_level": "Medium"
+    },
+    {
+      "phase": "Week 7+",
+      "focus": "Live application",
+      "description": "Positional sparring starting from Kesa Gatame. Top player works to achieve armbar, bottom player uses all defensive options. Emphasis on reading opponent's defensive reactions and selecting appropriate attack. Full resistance with controlled submissions.",
+      "resistance_level": "Full"
+    }
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Spinning Armbar Entry",
+      "description": "Instead of swinging leg over face while staying chest-down, spin your entire body perpendicular while maintaining wrist control. This faster entry sacrifices some control for speed and works well against explosive opponents who might escape during traditional entry.",
+      "when_to_use": "When opponent is actively fighting and you need faster entry before they can establish defensive grips"
+    },
+    {
+      "variant_name": "Far-Side Armbar",
+      "description": "Attack the arm furthest from you rather than the trapped near arm. Requires reaching across opponent's body to secure their far wrist, then transitioning similarly. Less common but effective when opponent protects near arm well.",
+      "when_to_use": "When opponent successfully defends the near arm by keeping elbow tight or when their far arm is extended pushing against you"
+    },
+    {
+      "variant_name": "Belly-Down Armbar Finish",
+      "description": "Rather than finishing on your back, maintain chest-down position and rotate to finish with your stomach facing the mat. Provides additional control against larger opponents who might stack or escape traditional finish.",
+      "when_to_use": "Against larger opponents or those with strong stacking ability who might escape the standard finish"
+    }
+  ],
+  "knowledge_assessment": [
+    {
+      "question": "What is the primary goal of Armbar from Side Control?",
+      "answer": "The primary goal is to transition from the controlling Kesa Gatame position to Armbar Control, isolating the opponent's arm in a position where hyperextension pressure can be applied to force a submission tap. This is a submission setup that leads to the Armbar Control position, not an immediate finish.",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "What position do you start Armbar from Side Control from?",
+      "answer": "This technique starts from Kesa Gatame (Scarf Hold) from the top position. The unique arm exposure created by Kesa Gatame, where the opponent's near arm is trapped under your armpit, creates the opportunity for this armbar transition.",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "What grip must be secured before releasing head control during entry?",
+      "answer": "You must secure an unbreakable two-on-one wrist grip before releasing head control. Both hands clasp around opponent's wrist with thumbs pointing the same direction, pulling their wrist tight against your chest. Releasing head control without this grip allows opponent to posture up and escape entirely.",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "Your opponent clasps their hands together to prevent arm extension—how do you break this grip?",
+      "answer": "Attack the grip by pushing their top elbow toward their face while simultaneously pulling their wrist toward you—this creates opposing forces that separate the hands. Alternatively, accept the grip and transition to a triangle by feeding their arm across your body and swinging your leg over their head.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "When is the best time to attempt Armbar from Side Control?",
+      "answer": "The optimal timing is when the opponent extends their arm to push against your face, chest, or to create framing for escape. Their extended arm provides the exposure needed for the attack. Also effective when they attempt to bridge and their arm extends reflexively for posting.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "Why must your hips clear opponent's shoulder before swinging your leg over their face?",
+      "answer": "If you swing your leg before clearing the shoulder, the opponent can sit up into you during the transition, creating a scramble where they may achieve top position or recover guard. The hip clearance removes the space they need to posture up and establishes the perpendicular angle required for the finishing position.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "How should opponent's thumb be oriented in the finishing position and why?",
+      "answer": "The opponent's thumb must point directly toward the ceiling. This orientation aligns their elbow joint for hyperextension rather than rotation. If the thumb points sideways, the breaking pressure goes against the stronger rotational plane of the elbow, dramatically reducing effectiveness and allowing easier escape.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "You're applying the armbar but opponent isn't tapping despite significant pressure—what's likely wrong?",
+      "answer": "Most likely their elbow has slipped below your hip line, eliminating the breaking angle. Reposition by squeezing knees tighter and ensuring their elbow sits above your hip crease against your pubic bone area. Also verify their thumb points up and that you're bridging hips rather than pulling arm down.",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "Your opponent starts turning into you during the leg swing transition—how do you respond?",
+      "answer": "If they turn before you complete the position, disengage from the armbar and take mount as they rotate toward you. Their turn actually facilitates your mount transition. Do not fight to complete the armbar against their rotation—accept the positional gift and advance to mount instead.",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "How does this armbar integrate with Americana and Kimura attacks from Kesa Gatame?",
+      "answer": "These three attacks form a synergistic chain. When opponents defend bent-arm locks (Americana/Kimura) by straightening their arm, they expose themselves to the armbar. When they bend their arm to defend the armbar threat, Americana and Kimura opportunities open. This forces opponents into a lose-lose defensive dilemma.",
+      "difficulty": "Advanced"
+    }
+  ],
+  "safety_considerations": "The armbar creates hyperextension pressure on the elbow joint, which can cause serious ligament and tendon damage if applied too quickly or if the opponent fails to tap in time. Always apply finishing pressure gradually in training, giving your partner time to recognize the submission and tap. Never crank or jerk the arm suddenly. When drilling, use verbal communication to ensure your partner is comfortable with the pressure level. Be especially cautious with training partners who have previous elbow injuries. In competition, be prepared to release immediately upon tap or referee stoppage. The transition phase also carries risk—swinging your leg forcefully could accidentally strike your partner's face, so practice controlled leg movement until the technique is smooth.",
+  "position_integration": "The Armbar from Side Control is a cornerstone technique in the Kesa Gatame attack system, working synergistically with Americana and Kimura attacks to create a complete offensive framework. When opponents defend one attack, they often expose themselves to another in this triangle of threats. This armbar also connects to the broader side control submission system, as the finishing position (Armbar Control) is identical whether entered from Kesa Gatame, standard side control, or mount. Mastering this entry expands your attack options from any top pin. The technique also serves as a bail-out when Kesa Gatame control is being compromised—transitioning to the armbar can convert a deteriorating position into a submission rather than losing position entirely.",
+  "related_content": [
+    {
+      "name": "Kesa Gatame",
+      "relationship": "Starting position"
+    },
+    {
+      "name": "Armbar Control",
+      "relationship": "Target control position"
+    },
+    {
+      "name": "Armbar Finish",
+      "relationship": "Follow-up submission"
+    },
+    {
+      "name": "Americana from Side Control",
+      "relationship": "Alternative attack - opponent defends by extending arm"
+    },
+    {
+      "name": "Kimura from Side Control",
+      "relationship": "Alternative attack - chains with armbar"
+    },
+    {
+      "name": "Armbar from Mount",
+      "relationship": "Similar technique from different position"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Parent position category"
+    },
+    {
+      "name": "Mounted Triangle",
+      "relationship": "Alternative when opponent clasps hands"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Common counter position if transition fails"
+    }
+  ]
+}

@@ -1,0 +1,287 @@
+{
+  "name": "Guard Recovery",
+  "description": "Master Guard Recovery from Jailbreak Bottom. Re-establish half guard or closed guard using frames and hip movement. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "tags": [
+    "bjj",
+    "transition",
+    "guard-recovery",
+    "escape",
+    "half-guard",
+    "defensive"
+  ],
+  "from_position": "Jailbreak/Bottom",
+  "outcomes": [
+    {
+      "to": "Half Guard",
+      "probability": 50,
+      "result": "success"
+    },
+    {
+      "to": "Closed Guard",
+      "probability": 15,
+      "result": "success"
+    },
+    {
+      "to": "Jailbreak",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Side Control",
+      "probability": 10,
+      "result": "counter"
+    }
+  ],
+  "success_rates": {
+    "beginner": 30,
+    "intermediate": 50,
+    "advanced": 65
+  },
+  "overview": "Guard Recovery from Jailbreak Bottom is a fundamental defensive transition that prioritizes re-establishing a functional guard position when the jailbreak escape sequence fails to fully complete or when a more conservative approach is warranted. Unlike the explosive jailbreak roll that commits to turtle or back takes, guard recovery focuses on creating frames, generating hip movement, and systematically retracting the legs to restore a protective guard structure.\n\nThe technique becomes critical when the top player successfully defends the primary jailbreak options or when energy conservation dictates a less explosive response. Guard recovery relies on precise framing mechanics - using the forearm against the opponent's neck or shoulder to create space while the hips shrimp away to extract the trapped leg. The non-trapped leg plays an active role in creating barriers and hooks that facilitate the transition back to half guard or potentially closed guard.\n\nStrategically, guard recovery represents the defensive reset option within the jailbreak system. Advanced practitioners chain between jailbreak attacks and guard recovery based on opponent reactions - if the top player bases wide to prevent the roll, the space created becomes the opening for guard recovery. This interplay between offensive and defensive options makes the bottom player unpredictable and difficult to pass.",
+  "key_principles": [
+    "Frame creation precedes all hip movement - establish forearm frame against opponent's neck or shoulder before attempting to shrimp",
+    "Hip escape direction matters - shrimp away from the trapped leg to create extraction space rather than shrimping into the opponent",
+    "The non-trapped leg must actively post against opponent's hip or create hooks to prevent them from following your hip escape",
+    "Maintain underhook control throughout if possible as it prevents the opponent from driving crossface pressure during recovery",
+    "Retract legs in sequence - extract trapped leg first, then immediately establish knee shield or butterfly hook before opponent can re-engage",
+    "Speed of guard recovery must match opponent's passing speed - rushing creates openings while hesitation allows pass completion"
+  ],
+  "setup_requirements": [
+    "Underhook on the same side as trapped leg is secured or can be re-established during the recovery sequence",
+    "Sufficient space exists between your chest and opponent's chest to create a forearm frame",
+    "Top player has not fully consolidated crossface control pinning your head to the mat",
+    "Your non-trapped leg is free to post against opponent's hip or mat for shrimping power",
+    "You have recognized that primary jailbreak roll options are being defended or are suboptimal given current energy levels"
+  ],
+  "execution_steps": [
+    {
+      "step_number": 1,
+      "action": "Establish frame",
+      "description": "Create a forearm frame against opponent's neck or shoulder by placing your forearm bone across their throat line. Elbow stays tight to your body while hand connects to their far shoulder or collar tie position. This frame creates the space buffer needed for hip movement.",
+      "timing": "Immediately when recognizing jailbreak roll is defended"
+    },
+    {
+      "step_number": 2,
+      "action": "Post non-trapped leg",
+      "description": "Place your free foot flat on the mat with knee bent at approximately 90 degrees. Position this foot close to your hip on the opposite side from your trapped leg. This leg provides the driving force for your upcoming hip escape and acts as a barrier against the opponent following.",
+      "timing": "Simultaneous with frame establishment"
+    },
+    {
+      "step_number": 3,
+      "action": "Execute hip escape",
+      "description": "Drive off your posted foot while turning your hips away from the trapped leg. Your butt should move in an arc away from the opponent, not straight back. The frame maintains distance while your hips create the space needed to extract your trapped leg.",
+      "timing": "Explosive movement once frame and post are solid"
+    },
+    {
+      "step_number": 4,
+      "action": "Extract trapped leg",
+      "description": "As space opens from the hip escape, pull your trapped knee toward your chest by engaging your hip flexors. Simultaneously push against opponent's thigh or hip with your free foot to create additional separation. The leg should slide out cleanly without getting caught on opponent's legs.",
+      "timing": "During the peak of hip escape movement"
+    },
+    {
+      "step_number": 5,
+      "action": "Establish knee shield",
+      "description": "Immediately upon freeing the trapped leg, insert your shin across opponent's torso creating a knee shield. The knee points toward opponent's far shoulder while the foot hooks behind their near hip. This barrier prevents them from immediately re-establishing top pressure.",
+      "timing": "Instant after leg extraction"
+    },
+    {
+      "step_number": 6,
+      "action": "Consolidate guard position",
+      "description": "Complete the recovery by either maintaining knee shield half guard or continuing to closed guard by hooking your free leg around opponent's back. Adjust grips to collar and sleeve or double underhooks depending on gi or no-gi context. Reset your defensive structure completely before considering offensive options.",
+      "timing": "Within 2 seconds of establishing knee shield"
+    }
+  ],
+  "common_counters": [
+    {
+      "counter": "Top player drives heavy crossface to pin your head and prevent framing",
+      "effectiveness": "High",
+      "your_response": "Tuck chin and turn face toward opponent while fighting to maintain underhook. If crossface is established, switch to defensive bridge and turn escape rather than frame-based recovery"
+    },
+    {
+      "counter": "Top player backsteps and attempts leg entanglement when you create space",
+      "effectiveness": "Medium",
+      "your_response": "Keep knees tight together during leg extraction and immediately establish butterfly hooks to prevent leg exposure. Be prepared to enter 50-50 defense if they secure a heel hook position"
+    },
+    {
+      "counter": "Top player sprawls and drives hips forward to flatten you as you attempt to shrimp",
+      "effectiveness": "Medium",
+      "your_response": "Use the underhook to pull yourself under their hips rather than away. Convert the failed guard recovery into a deep half guard entry by diving under their center of gravity"
+    },
+    {
+      "counter": "Top player strips your underhook and establishes dominant overhook control",
+      "effectiveness": "High",
+      "your_response": "Immediately pummel to re-establish underhook or switch to collar tie frame. Without the underhook, prioritize creating distance with both feet on hips rather than half guard retention"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "Attempting to hip escape without establishing frame first",
+      "consequence": "Opponent follows your hip movement and maintains or improves their position, often leading to direct pass to side control",
+      "correction": "Always establish forearm frame and feel it creating space before initiating hip escape. The frame buys time and distance that makes the shrimp effective"
+    },
+    {
+      "error": "Shrimping toward the trapped leg instead of away from it",
+      "consequence": "Creates no extraction space for the trapped leg and actually tightens opponent's leg control, making escape harder",
+      "correction": "Visualize your hips moving in an arc away from the trapped side. Your butt should move toward the opposite side of the mat from your trapped leg"
+    },
+    {
+      "error": "Releasing underhook to reach for frame or grips",
+      "consequence": "Opponent immediately establishes heavy crossface with the freed arm, pinning your head and killing all escape options",
+      "correction": "Maintain underhook throughout the entire recovery sequence. Create frame with the non-underhook arm or use underhook arm's shoulder as partial frame"
+    },
+    {
+      "error": "Extracting leg but failing to immediately establish knee shield",
+      "consequence": "Brief window where opponent can immediately re-pass by driving knees through the momentary opening",
+      "correction": "Treat leg extraction and knee shield insertion as one continuous motion. The shield must be in place before opponent can react to the space created"
+    },
+    {
+      "error": "Using arms to push opponent away instead of creating structural frames",
+      "consequence": "Arms tire quickly, opponent collapses through the push, and you end up flattened with exhausted arms",
+      "correction": "Frames use bone structure and angles, not muscle. Forearm across neck with elbow tight creates immovable barrier using skeletal alignment"
+    },
+    {
+      "error": "Rushing the recovery when opponent has heavy top pressure established",
+      "consequence": "Incomplete technique execution results in worse position - often half-extracted leg caught in passing position",
+      "correction": "Be patient and methodical. Create frame, feel space, then execute. Against heavy pressure, small incremental shrimps are more effective than one explosive attempt"
+    }
+  ],
+  "training_progressions": [
+    {
+      "phase": "Week 1-2",
+      "focus": "Frame and shrimp mechanics",
+      "description": "Solo drilling of hip escapes focusing on arc direction. Partner drilling with compliant partner holding light top half guard while you practice frame establishment and shrimping motion. No resistance, focusing on correct movement pattern.",
+      "resistance_level": "None"
+    },
+    {
+      "phase": "Week 3-4",
+      "focus": "Leg extraction timing",
+      "description": "Partner provides static pressure while you execute complete sequence from frame to guard establishment. Focus on the timing of leg extraction during peak hip escape. Partner gives immediate feedback if knee shield establishment is delayed.",
+      "resistance_level": "Light"
+    },
+    {
+      "phase": "Week 5-6",
+      "focus": "Counter integration",
+      "description": "Partner actively resists and attempts the common counters - crossface, backstep, sprawl. Practice recognizing each counter and executing appropriate response. Chain between guard recovery and deep half entry based on opponent reaction.",
+      "resistance_level": "Medium"
+    },
+    {
+      "phase": "Week 7+",
+      "focus": "Live situational sparring",
+      "description": "Start from jailbreak bottom position with full resistance. Win condition is establishing guard with 3-second control. Integrate guard recovery with other jailbreak options - sometimes roll, sometimes recover guard, making choice based on opponent reactions.",
+      "resistance_level": "Full"
+    }
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Feet on Hips Recovery",
+      "description": "When underhook is lost or opponent has heavy crossface, abandon half guard recovery in favor of full guard distance. Push both feet into opponent's hips, extend arms for frames on biceps, and use leg extension to push opponent away. Re-engage with open guard or stand up.",
+      "when_to_use": "When upper body control is lost and opponent has dominant grips. Prioritizes distance creation over guard retention."
+    },
+    {
+      "variant_name": "Deep Half Conversion",
+      "description": "Instead of extracting leg and establishing knee shield, dive under opponent's hips by pulling yourself beneath them with the underhook. The trapped leg swings under their base while you rotate to deep half position. Converts defensive recovery into offensive sweep position.",
+      "when_to_use": "When opponent sprawls heavy or bases wide to prevent standard recovery. Their defensive reaction creates the space for deep half entry."
+    },
+    {
+      "variant_name": "Granby Roll to Guard",
+      "description": "From failed jailbreak attempt, continue inverting momentum but use it to roll through to open guard rather than turtle. Requires significant flexibility. Roll over your shoulder while maintaining some form of guard hook throughout the inversion.",
+      "when_to_use": "When you have space for inversion but opponent is too heavy to take to turtle. Useful for flexible practitioners with strong inversion game."
+    }
+  ],
+  "knowledge_assessment": [
+    {
+      "question": "What is the primary goal of Guard Recovery from Jailbreak Bottom?",
+      "answer": "The primary goal is to re-establish a functional guard position (half guard, knee shield, or closed guard) when the primary jailbreak escape options are being defended or when a conservative approach is needed. Rather than committing to explosive turtle escapes or back takes, guard recovery prioritizes returning to a neutral defensive position where you can reset and attack again.",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "Why must the frame be established before initiating the hip escape?",
+      "answer": "The frame creates space and prevents the opponent from following your hip movement. Without the frame, when you hip escape the opponent simply drives into the space you create and maintains or improves their position. The frame acts as a barrier that buys you time and distance, making your hip escape effective at creating extraction space for the trapped leg rather than just repositioning under pressure.",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "Your opponent drives heavy crossface as you attempt to frame - what adjustment do you make?",
+      "answer": "When crossface is established, frame-based recovery becomes extremely difficult. Tuck your chin and turn your face toward the opponent to reduce the crossface pressure. If the underhook is maintained, use it to pull yourself under the opponent rather than away - converting to a deep half entry. If underhook is lost, abandon guard recovery and focus on turning to turtle with good defensive position.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "What determines whether you should extract to knee shield half guard versus closed guard?",
+      "answer": "The decision depends on opponent position and your energy state. Knee shield is faster to establish and provides immediate barrier but requires active management. Closed guard offers more control but takes longer to complete and opponent may pass during the extra time. If opponent is already retreating or off-balance, pursue closed guard. If they are driving forward aggressively, establish knee shield first then work to upgrade.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "Why is shrimping away from the trapped leg critical rather than shrimping toward it?",
+      "answer": "Shrimping away from the trapped leg creates space on that side for extraction. Your hip movement opens an arc of space where the trapped leg can slide free. Shrimping toward the trapped leg actually tightens the opponent's leg control because you're moving into their legs rather than away. Visualize needing space on the trapped side - you create that space by moving your center mass to the opposite side.",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "Your opponent backsteps and attacks your legs as you create space for recovery - how do you respond?",
+      "answer": "Keep knees pinched together during leg extraction to prevent them from isolating a leg for attack. Immediately establish butterfly hooks rather than knee shield to keep both legs connected and mobile. Be prepared to enter 50-50 leg entanglement defense if they secure inside position. The key is recognizing the backstep early and switching from guard recovery to leg defense posture.",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "When should you choose guard recovery over the primary jailbreak roll escape?",
+      "answer": "Choose guard recovery when: opponent bases wide defensively making the roll unlikely to succeed, your energy is depleted and explosive movement is unsustainable, you need a reset to assess the situation, or the opponent's reaction to jailbreak threat creates space better suited for guard recovery. Advanced practitioners read the opponent's base and weight distribution to choose between options instantly.",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "What is the relationship between underhook maintenance and successful guard recovery?",
+      "answer": "The underhook is the essential connection that makes guard recovery possible. It prevents the opponent from driving heavy crossface pressure during your recovery sequence, gives you a handle to pull yourself into position during hip escapes, and blocks them from establishing the dominant grips that kill guard recovery. Losing the underhook typically means abandoning frame-based recovery for distance creation with feet on hips instead.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "You successfully extract your leg but opponent immediately re-engages before you establish knee shield - what went wrong?",
+      "answer": "The leg extraction and knee shield establishment must be one continuous motion, not two separate steps. The error was likely pausing or adjusting after extraction rather than immediately inserting the shield. Practice making the shin cross the opponent's torso at the same moment the leg comes free. The shield must be in place before the opponent can recognize and exploit the momentary opening.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "How do you convert a failed guard recovery into a deep half guard entry?",
+      "answer": "When the opponent sprawls and drives forward during your guard recovery attempt, use your underhook to pull yourself underneath them rather than continuing to push away. The same forward pressure they use to stop your recovery becomes the momentum that sends you under their base. Swing your formerly trapped leg under their body as you rotate, using the underhook as your pivot point to enter deep half from beneath their sprawl.",
+      "difficulty": "Advanced"
+    }
+  ],
+  "safety_considerations": "Guard recovery is generally a low-injury-risk technique when executed properly. Primary safety concerns involve neck positioning during frame establishment - ensure chin stays tucked if opponent drives crossface to prevent neck hyperextension. Avoid explosive hip escapes when your lower back is cold or fatigued as the rotational shrimping motion can strain lumbar muscles. When practicing with partners, communicate clearly about resistance levels and tap immediately if you feel any knee torque during leg extraction. The trapped leg should slide out cleanly - never yank or jerk it free as this can strain the knee ligaments. If partner's leg lock is too tight during drilling, ask them to adjust rather than forcing extraction.",
+  "position_integration": "Guard Recovery occupies a critical role in the jailbreak escape system as the conservative reset option that complements the aggressive roll escapes. When opponents successfully defend the jailbreak roll by basing wide or retreating their hips, their defensive reaction often creates exactly the space needed for guard recovery. This creates a dilemma for the top player - commit forward to stop the roll and open guard recovery, or base back to stop recovery and enable the roll. Advanced practitioners flow between these options based on opponent reactions, making them extremely difficult to pass. Guard recovery also serves as the energy management option - when fatigued, recovering guard is more sustainable than explosive rolling escapes. The technique chains directly into standard half guard and closed guard attack sequences, making it a bridge between defensive survival and offensive re-engagement.",
+  "related_content": [
+    {
+      "name": "Jailbreak",
+      "relationship": "Starting position - guard recovery is executed from jailbreak bottom"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Primary destination - most common guard recovery endpoint"
+    },
+    {
+      "name": "Closed Guard",
+      "relationship": "Alternative destination - achieved when full guard recovery completes"
+    },
+    {
+      "name": "Deep Half Guard",
+      "relationship": "Conversion option - when recovery fails, deep half entry becomes available"
+    },
+    {
+      "name": "Knee Shield Half Guard",
+      "relationship": "Immediate guard structure established after leg extraction"
+    },
+    {
+      "name": "Jailbreak to Turtle",
+      "relationship": "Alternative escape - primary jailbreak option when roll succeeds"
+    },
+    {
+      "name": "Jailbreak to Back Take",
+      "relationship": "Alternative escape - aggressive option when opponent follows roll"
+    },
+    {
+      "name": "Old School Sweep",
+      "relationship": "Related technique - uses similar underhook mechanics from half guard"
+    },
+    {
+      "name": "Lockdown",
+      "relationship": "Related system - alternative half guard control when guard recovery completes"
+    },
+    {
+      "name": "Elbow Escape to Guard",
+      "relationship": "Similar concept - frame-based guard recovery from different starting position"
+    }
+  ]
+}

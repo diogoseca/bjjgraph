@@ -5,7 +5,7 @@ BJJ Graph JSON Schema Validator
 Validates JSON content files against category TEMPLATE.json schemas.
 
 Usage:
-    python3 scripts/validate_json.py --file source/content/Positions/Mount.json
+    python3 scripts/validate_json.py --file content/Positions/Mount.json
     python3 scripts/validate_json.py --category Positions --all
     python3 scripts/validate_json.py --all
     python3 scripts/validate_json.py --all --strict
@@ -26,11 +26,11 @@ except ImportError:
 
 # Category configurations
 CATEGORIES = {
-    "Positions": "source/content/Positions",
-    "Transitions": "source/content/Transitions",
-    "Submissions": "source/content/Submissions",
-    "Principles": "source/content/Principles",
-    "Systems": "source/content/Systems"
+    "Positions": "content/Positions",
+    "Transitions": "content/Transitions",
+    "Submissions": "content/Submissions",
+    "Principles": "content/Principles",
+    "Systems": "content/Systems"
 }
 
 # Reference fields by category
@@ -243,17 +243,17 @@ def detect_position_template_type(json_file):
         return 'DUAL'
 
 def load_schema(category_name, json_file=None):
-    """Load TEMPLATE.json schema for category from source/templates/"""
+    """Load TEMPLATE.json schema for category from templates/"""
     # For Positions, detect which template to use
     if category_name == "Positions":
         if not json_file:
             raise ValueError("Positions category requires json_file parameter for template detection")
 
         template_type = detect_position_template_type(json_file)
-        schema_path = Path(f"source/templates/Positions/TEMPLATE-POSITION-{template_type}.json")
+        schema_path = Path(f"templates/Positions/TEMPLATE-POSITION-{template_type}.json")
     else:
         # Other categories use flat structure
-        schema_path = Path("source/templates") / f"{category_name}.json"
+        schema_path = Path("templates") / f"{category_name}.json"
 
     if not schema_path.exists():
         print(f"ERROR: Schema not found: {schema_path}")
@@ -606,40 +606,55 @@ def validate_family_variants(data, json_file_path):
 
 
 def validate_json_file(json_path, schema, category, strict=False):
-    """Validate a single JSON file against schema"""
+    """Validate a single JSON file against schema.
+
+    Returns:
+        Tuple of (errors, warnings, categories) where categories is a dict
+        with 'blocking' and 'non_blocking' lists for error severity.
+    """
     errors = []
     warnings = []
+    categories = {"blocking": [], "non_blocking": []}
 
     # Load JSON data
     try:
         with open(json_path, 'r', encoding='utf-8') as f:
             data = json.load(f)
     except FileNotFoundError:
-        return [f"File not found: {json_path}"], []
+        msg = f"File not found: {json_path}"
+        return [msg], [], {"blocking": [msg], "non_blocking": []}
     except json.JSONDecodeError as e:
-        return [f"Invalid JSON: {e}"], []
+        msg = f"Invalid JSON: {e}"
+        return [msg], [], {"blocking": [msg], "non_blocking": []}
 
-    # Validate against JSON Schema
+    # Validate against JSON Schema → blocking
     try:
         validate(instance=data, schema=schema)
     except ValidationError as e:
-        errors.append(f"Schema validation error: {e.message} at {'.'.join(str(p) for p in e.path)}")
+        msg = f"Schema validation error: {e.message} at {'.'.join(str(p) for p in e.path)}"
+        errors.append(msg)
+        categories["blocking"].append(msg)
 
-    # Custom validations
+    # Name mismatch → non_blocking
     name_errors = validate_name_matches_filename(data, json_path, category)
     errors.extend(name_errors)
+    categories["non_blocking"].extend(name_errors)
 
+    # Success rate ordering → blocking
     success_rate_errors = validate_success_rate_ordering(data, json_path.name)
     errors.extend(success_rate_errors)
+    categories["blocking"].extend(success_rate_errors)
 
-    # Validate FAMILY variations array matches filesystem
+    # Validate FAMILY variations → non_blocking
     if category == "Positions":
         family_variant_errors = validate_family_variants(data, json_path)
         errors.extend(family_variant_errors)
+        categories["non_blocking"].extend(family_variant_errors)
 
-    # Reference validation
+    # Reference validation → non_blocking
     reference_errors = validate_references(data, category, json_path.name)
     errors.extend(reference_errors)
+    categories["non_blocking"].extend(reference_errors)
 
     # Build content index for cross-file validation (cached in function)
     if not hasattr(validate_json_file, 'content_index'):
@@ -651,21 +666,33 @@ def validate_json_file(json_path, schema, category, strict=False):
         transition_errors, transition_warnings = validate_position_transitions(
             data, category, content_index, json_path.name + ":"
         )
-        errors.extend(transition_errors)
-        warnings.extend(transition_warnings)
+        # attempt_probability sum errors → blocking, link warnings → non_blocking
+        for err in transition_errors:
+            errors.append(err)
+            categories["blocking"].append(err)
+        for warn in transition_warnings:
+            warnings.append(warn)
+            categories["non_blocking"].append(warn)
 
     # Validate Transition outcomes array
     if category == "Transitions" and isinstance(data, dict):
         outcome_errors = validate_transition_outcomes(
             data, category, content_index, json_path.name + ":"
         )
-        errors.extend(outcome_errors)
+        for err in outcome_errors:
+            errors.append(err)
+            # Probability sum errors are blocking, link errors are non_blocking
+            if "probability sum" in err:
+                categories["blocking"].append(err)
+            else:
+                categories["non_blocking"].append(err)
 
-        # Validate role consistency for from_position
+        # Role consistency → non_blocking
         role_errors = validate_role_consistency(data, category, json_path.name + ":")
         errors.extend(role_errors)
+        categories["non_blocking"].extend(role_errors)
 
-    return errors, warnings
+    return errors, warnings, categories
 
 
 def validate_category(category, strict=False):
@@ -696,17 +723,22 @@ def validate_category(category, strict=False):
     for json_file in sorted(json_files):
         # Load appropriate schema for this file (Positions uses file-specific detection)
         schema = load_schema(category, json_file)
-        errors, warnings = validate_json_file(json_file, schema, category, strict)
+        errors, warnings, cats = validate_json_file(json_file, schema, category, strict)
 
         # Show relative path for nested files
         relative_path = json_file.relative_to(category_path)
 
         if errors or (warnings and strict):
             print(f"\n✗ {relative_path}:")
-            for error in errors:
-                print(f"  - ERROR: {error}")
+            for error in cats["blocking"]:
+                print(f"  - BLOCKING: {error}")
+            for error in cats["non_blocking"]:
+                print(f"  - NON_BLOCKING: {error}")
+            # Print any warnings not already in categories
+            cat_all = set(cats["blocking"]) | set(cats["non_blocking"])
             for warning in warnings:
-                print(f"  - WARNING: {warning}")
+                if warning not in cat_all:
+                    print(f"  - WARNING: {warning}")
             total_errors += len(errors)
             if strict:
                 total_errors += len(warnings)
@@ -757,7 +789,7 @@ def main():
         epilog="""
 Examples:
   # Validate single file
-  python3 scripts/validate_json.py --file source/content/Positions/Mount.json
+  python3 scripts/validate_json.py --file content/Positions/Mount.json
 
   # Validate all files in category
   python3 scripts/validate_json.py --category Positions --all
@@ -795,14 +827,18 @@ Examples:
             sys.exit(1)
 
         schema = load_schema(category, json_path)
-        errors, warnings = validate_json_file(json_path, schema, category, args.strict)
+        errors, warnings, cats = validate_json_file(json_path, schema, category, args.strict)
 
         if errors or (warnings and args.strict):
             print(f"✗ {json_path.name}:")
-            for error in errors:
-                print(f"  - ERROR: {error}")
+            for error in cats["blocking"]:
+                print(f"  - BLOCKING: {error}")
+            for error in cats["non_blocking"]:
+                print(f"  - NON_BLOCKING: {error}")
+            cat_all = set(cats["blocking"]) | set(cats["non_blocking"])
             for warning in warnings:
-                print(f"  - WARNING: {warning}")
+                if warning not in cat_all:
+                    print(f"  - WARNING: {warning}")
             sys.exit(1)
         elif warnings:
             print(f"⚠ {json_path.name}: Valid with warnings")

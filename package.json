@@ -1,16 +1,16 @@
 {
   "name": "bjjgraph",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "BJJ knowledge graph and state machine",
   "scripts": {
     "regenerate:issues": "./scripts/regenerate_list_of_content_files_to_fix.sh",
     "regenerate:json": "python3 scripts/regenerate_content_json.py --batch",
     "regenerate:md": "python3 scripts/regenerate_md_from_json.py --all",
-    "regenerate:hubs": "python3 scripts/reregenerate_category_hub_pages.py",
+    "regenerate:hubs": "python3 scripts/regenerate_category_hub_pages.py",
     "regenerate:graph": "python3 scripts/regenerate_graph.py",
     "regenerate": "npm run regenerate:issues && npm run regenerate:json && npm run regenerate:md && npm run regenerate:hubs && npm run regenerate:graph",
-    "build": "cd source && npx quartz build",
+    "build": "cd source && npx quartz build -d ../content",
     "regenerate:build": "npm run regenerate && npm run build",
-    "dev": "cd source && npx quartz build --serve"
+    "dev": "cd source && npx quartz build --serve -d ../content"
   }
 }

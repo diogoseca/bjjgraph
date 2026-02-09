@@ -38,7 +38,7 @@ class ContentItem:
 class CategoryHubPageGenerator:
     """Generates category hub pages from content directories"""
     
-    def __init__(self, source_dir: str = "source/content"):
+    def __init__(self, source_dir: str = "content"):
         self.source_dir = Path(source_dir)
         self.files_needing_json_fix = []  # Track files that need JSON repair
         self.categories = {
@@ -420,8 +420,8 @@ def main():
     )
     parser.add_argument(
         "--source-dir",
-        default="source/content",
-        help="Source content directory (default: source/content)"
+        default="content",
+        help="Source content directory (default: content)"
     )
     
     args = parser.parse_args()

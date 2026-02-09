@@ -77,19 +77,19 @@ export default ((userOpts?: Partial<Options>) => {
       if (relativePath.match(/\/(Top|Bottom)\.md$/)) {
         // "Positions/Mount/Bottom.md" -> "Positions/Mount.json"
         const parentPath = relativePath.replace(/\/[^/]+\.md$/, ".json")
-        sourcePath = `source/content/${parentPath}`
+        sourcePath = `content/${parentPath}`
       } else {
         // "Transitions/Hip Bump Sweep.md" -> "Transitions/Hip Bump Sweep.json"
-        sourcePath = `source/content/${relativePath.replace(/\.md$/, ".json")}`
+        sourcePath = `content/${relativePath.replace(/\.md$/, ".json")}`
       }
     } else {
       // Non-templated content: link to .md file directly
-      sourcePath = `source/content/${relativePath}`
+      sourcePath = `content/${relativePath}`
     }
 
     // Handle index page
     if (slug === "index" || slug === "") {
-      sourcePath = "source/content/index.md"
+      sourcePath = "content/index.md"
     }
 
     // URL encode path segments for GitHub (handles spaces -> %20)

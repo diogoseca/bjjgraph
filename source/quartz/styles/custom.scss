@@ -456,6 +456,33 @@ body[data-slug="index"] .search > .search-button {
   margin: 1.5rem 0;
 }
 
+.stats-section {
+  margin: 1.5rem 0;
+}
+
+.stats-heading {
+  font-size: 0.85rem;
+  color: var(--gray);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin: 0 0 0.75rem 0;
+  text-align: center;
+}
+
+.lifetime-stats-section {
+  border-top: 1px solid var(--lightgray);
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+}
+
+.stat-success {
+  color: #2e7d32 !important;
+}
+
+.stat-failure {
+  color: #c62828 !important;
+}
+
 .victory-stats {
   display: flex;
   justify-content: center;

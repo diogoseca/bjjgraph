@@ -1,0 +1,270 @@
+{
+  "name": "Banana Split",
+  "description": "Master the Banana Split from Truck in BJJ. Groin stretch submission with hip separation mechanics. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "tags": [
+    "bjj",
+    "submission",
+    "truck",
+    "leg-attack",
+    "10th-planet",
+    "groin-stretch"
+  ],
+  "from_position": "Truck/Top",
+  "outcomes": [
+    {
+      "to": "game-over",
+      "probability": 65,
+      "result": "success"
+    },
+    {
+      "to": "Truck",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Half Guard",
+      "probability": 10,
+      "result": "counter"
+    }
+  ],
+  "success_rates": {
+    "beginner": 30,
+    "intermediate": 50,
+    "advanced": 65
+  },
+  "overview": "The Banana Split is a devastating groin stretch submission executed from the Truck position, popularized within the 10th Planet Jiu-Jitsu system. This technique exploits the leg entanglement inherent to the Truck by separating the opponent's legs in opposite directions, creating intense pressure on the groin, hip flexors, and inner thigh muscles. The submission is particularly effective because it attacks an area with limited defensive options once proper control is established.\n\nThe technique functions as part of the Truck's multiple-threat system, creating a dilemma where defending against upper body attacks (Twister) exposes vulnerability to the Banana Split, and vice versa. This positional chess makes the Banana Split a high-percentage finish when opponents focus their defensive efforts on protecting their spine from the Twister. The submission requires precise leg positioning and coordinated hip extension to generate the splitting force necessary for the tap.\n\nAdvanced practitioners use the Banana Split threat to create openings for other attacks, understanding that the mere threat of the groin stretch often causes opponents to abandon proper Twister defense. The technique is particularly effective in no-gi grappling where the lack of friction allows for smoother leg manipulation and deeper control positions.",
+  "key_principles": [
+    "Control opponent's far leg completely before initiating the split - rushing without leg control allows escape",
+    "Use your hips as the primary engine for the split, not just arm strength pulling the legs apart",
+    "Maintain boot pressure on near hip throughout to prevent opponent from rotating and relieving pressure",
+    "Create the split by extending your hips forward while pulling their far leg toward you with your arms",
+    "Keep your chest connected to opponent's back to prevent forward rolling escape attempts",
+    "Apply pressure gradually to allow opponent time to tap - this is a high-injury-risk submission",
+    "Coordinate leg control with upper body positioning to prevent granby roll escapes"
+  ],
+  "setup_requirements": [
+    "Established Truck position with strong boot pressure against opponent's near hip creating torque",
+    "Opponent's near leg trapped and controlled by your leg entanglement preventing straightening",
+    "Control of opponent's far leg secured with your hands hooking behind the knee or ankle",
+    "Upper body connection maintained with chest against opponent's back preventing forward escape",
+    "Opponent defending Twister by hiding arms or protecting neck, exposing lower body to attack"
+  ],
+  "execution_steps": [
+    {
+      "step_number": 1,
+      "action": "Secure far leg",
+      "description": "From established Truck position, release upper body control and reach for opponent's far leg. Hook your hands behind their knee or around their ankle, pulling the leg toward your chest while maintaining boot pressure on their near hip.",
+      "timing": "When opponent commits to Twister defense"
+    },
+    {
+      "step_number": 2,
+      "action": "Lock leg position",
+      "description": "Bring their far leg across your body, securing it in the crook of your elbow or by clasping your hands together around their thigh. The leg should be positioned perpendicular to your torso for maximum leverage.",
+      "timing": "Immediately after securing grip"
+    },
+    {
+      "step_number": 3,
+      "action": "Adjust hip alignment",
+      "description": "Position your hips directly behind opponent's hips, creating a straight line between your hip extension force and their groin. Your body should be perpendicular to theirs with boot pressure still maintained on their near hip.",
+      "timing": "1-2 seconds to settle position"
+    },
+    {
+      "step_number": 4,
+      "action": "Initiate the split",
+      "description": "Begin extending your hips forward while simultaneously pulling their far leg toward your shoulder. The splitting force comes from the opposition between your boot pushing their near leg away and your arms pulling their far leg toward you.",
+      "timing": "Gradual, controlled pressure"
+    },
+    {
+      "step_number": 5,
+      "action": "Increase separation",
+      "description": "Drive your hips through while arching your back slightly, increasing the distance between their legs. Your boot continues pressing against their near hip while your arms pull the far leg past 90 degrees of separation.",
+      "timing": "Slow, steady increase"
+    },
+    {
+      "step_number": 6,
+      "action": "Finish the submission",
+      "description": "Complete the split by fully extending your hips and pulling the far leg toward your head. The opponent will tap from pressure on groin muscles, hip flexors, or inner thigh. Release immediately upon tap to prevent injury.",
+      "timing": "Hold for tap, release instantly"
+    }
+  ],
+  "common_counters": [
+    {
+      "counter": "Granby roll escape before split is locked - opponent rolls forward through your control to escape leg entanglement",
+      "effectiveness": "High",
+      "your_response": "Maintain chest pressure on their back and follow the roll, transitioning to Back Control as they rotate"
+    },
+    {
+      "counter": "Straightening near leg to reduce boot leverage - opponent extends trapped leg to diminish splitting force",
+      "effectiveness": "Medium",
+      "your_response": "Immediately transition to Calf Slicer attack on the straightened leg, using their extension against them"
+    },
+    {
+      "counter": "Pulling far leg back before grip is secured - opponent retracts leg before you establish control",
+      "effectiveness": "Medium",
+      "your_response": "Transition back to Twister attack since their arms are now exposed while defending the leg"
+    },
+    {
+      "counter": "Turning into you to face and reduce angle - opponent rotates hips toward you to eliminate splitting angle",
+      "effectiveness": "Low",
+      "your_response": "Increase boot pressure and use their rotation to transition to traditional Back Control with hooks"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "Releasing boot pressure to reach for far leg",
+      "consequence": "Opponent escapes the torque control and can roll through or straighten their trapped leg, negating the entire attack",
+      "correction": "Maintain boot pressure throughout the entire technique - reach for far leg while keeping boot firmly pressed against their hip"
+    },
+    {
+      "error": "Using only arm strength to create the split",
+      "consequence": "Insufficient force to finish the submission and rapid arm fatigue, giving opponent time to develop escape",
+      "correction": "Use hip extension as the primary force generator - your arms guide and secure the leg while your hips create the splitting power"
+    },
+    {
+      "error": "Attempting split before securing far leg control",
+      "consequence": "Opponent pulls leg away and escapes, often transitioning to better defensive position or counterattack",
+      "correction": "Establish secure grip on far leg with hands clasped or leg in elbow crook before initiating any splitting motion"
+    },
+    {
+      "error": "Applying pressure too quickly without allowing tap",
+      "consequence": "Causes groin strain, hip flexor tears, or adductor injuries before opponent can submit - damages training partners",
+      "correction": "Apply pressure gradually over 3-5 seconds minimum, allowing opponent adequate time to recognize danger and tap"
+    },
+    {
+      "error": "Losing chest connection during the attack",
+      "consequence": "Opponent performs granby roll escape, ending up in guard or turtle with you losing all control",
+      "correction": "Keep your chest pressed against their back throughout - your upper body follows their torso even during leg manipulation"
+    }
+  ],
+  "training_progressions": [
+    {
+      "phase": "Week 1-2",
+      "focus": "Position and grip mechanics",
+      "description": "Practice transitioning from Truck to Banana Split grip without resistance. Focus on maintaining boot pressure while reaching for far leg. Drill the hand positioning and leg placement for optimal leverage. Partner remains passive, allowing you to feel proper alignment.",
+      "resistance_level": "None"
+    },
+    {
+      "phase": "Week 3-4",
+      "focus": "Hip mechanics and pressure application",
+      "description": "Add light resistance where partner provides minimal defense. Focus on using hip extension rather than arm pulling. Practice graduated pressure application, stopping well before submission threshold. Develop timing for when to initiate split based on opponent's defensive positioning.",
+      "resistance_level": "Light"
+    },
+    {
+      "phase": "Week 5-6",
+      "focus": "Counter and recounter",
+      "description": "Partner provides specific counters (granby roll, leg retraction, rotation). Practice recognizing each counter and applying appropriate response. Chain Banana Split with Twister and Calf Slicer threats. Begin positional sparring starting from Truck with Banana Split as primary objective.",
+      "resistance_level": "Medium"
+    },
+    {
+      "phase": "Week 7+",
+      "focus": "Live application and competition scenarios",
+      "description": "Full resistance rolling with Banana Split integrated into complete Truck attack system. Focus on threat creation and dilemma forcing. Develop ability to switch between upper and lower body attacks based on defensive reactions. Competition-speed entries and finishes with safety-conscious pressure.",
+      "resistance_level": "Full"
+    }
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Lockdown Banana Split",
+      "description": "Execute from Lockdown position by transitioning to Truck configuration. The Lockdown leg control substitutes for traditional boot pressure, creating similar splitting mechanics from a different entry point.",
+      "when_to_use": "When opponent defends traditional Truck entry but you have established Lockdown from Half Guard"
+    },
+    {
+      "variant_name": "Standing Banana Split",
+      "description": "Applied from standing back control with one leg trapped. Control opponent's far leg with your arms while their near leg is hooked, then sit back to create the split while taking them to the ground.",
+      "when_to_use": "During wrestling scrambles or when opponent attempts to stand from Truck position"
+    },
+    {
+      "variant_name": "Crucifix Banana Split",
+      "description": "Transition from Crucifix position by releasing arm control and securing leg entanglement. Creates unexpected attack angle since opponent is defending arm attacks rather than leg attacks.",
+      "when_to_use": "When Crucifix arm attacks are well-defended and opponent's legs become accessible"
+    }
+  ],
+  "knowledge_assessment": [
+    {
+      "question": "What is the primary goal of the Banana Split submission?",
+      "answer": "The primary goal is to create a groin stretch by separating the opponent's legs in opposite directions. This attacks the adductor muscles, hip flexors, and groin area by using the opposition between your boot pushing their near leg away and your arms pulling their far leg toward you, forcing a tap from the intense stretching pressure.",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "What position do you start the Banana Split from and what control must be maintained?",
+      "answer": "The Banana Split starts from Truck Top position. You must maintain boot pressure on opponent's near hip throughout the entire technique - this is non-negotiable. The boot creates the torque that controls their lower body and provides the anchoring force that makes the split effective. Releasing boot pressure negates the entire attack.",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "What are the key grips needed for executing the Banana Split?",
+      "answer": "You need to secure the opponent's far leg by hooking your hands behind their knee or around their ankle, then bring the leg across your body and lock it in the crook of your elbow or by clasping hands around their thigh. The grip must be secure enough to prevent them from retracting the leg while you generate splitting force with your hips.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "Your opponent starts pulling their far leg back as you reach for it - what is your response?",
+      "answer": "Immediately transition back to Twister attack since their defensive focus on protecting their leg means their arms are now exposed. This exemplifies the Truck dilemma system - defending lower body exposes upper body and vice versa. You can also attempt to follow the retracting leg and secure grip before they fully escape.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "When is the optimal timing window to initiate the Banana Split attack?",
+      "answer": "The optimal timing is when the opponent commits to Twister defense by hiding their arms, protecting their neck, or focusing their defensive efforts on preventing spinal rotation. This defensive commitment to upper body protection leaves their far leg accessible and their attention divided, creating the perfect moment to transition to the lower body attack.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "What is the primary force generator for the splitting motion - arms or hips?",
+      "answer": "The hips are the primary force generator. Your arms guide and secure the far leg in position, but the splitting power comes from hip extension driving forward while the boot maintains pressure on the near hip. Using only arm strength creates insufficient force and rapid fatigue, while hip extension provides powerful, sustainable splitting force.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "Your opponent begins a granby roll as you secure their far leg - how do you respond?",
+      "answer": "Maintain chest pressure against their back and follow their roll, transitioning to traditional Back Control as they rotate. Do not fight the roll directly - use their momentum to advance to Back Control with hooks. The key is keeping your chest connected so you roll with them rather than being left behind.",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "How should pressure be applied to ensure training partner safety?",
+      "answer": "Apply pressure gradually over 3-5 seconds minimum, never explosively. The groin, hip flexors, and adductors can tear with minimal warning if pressure is applied too quickly. Maintain communication with your training partner, watching for tap signals and verbal submission. Release immediately upon any tap indication - this submission can cause serious injury if held too long.",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "What determines whether to attack Banana Split versus Calf Slicer from Truck?",
+      "answer": "Attack Banana Split when opponent is defending upper body (hiding arms, protecting neck) with their far leg accessible. Attack Calf Slicer when opponent straightens their trapped near leg to reduce boot leverage - their extension creates the fulcrum needed for the Calf Slicer. The opponent's defensive choices determine which lower body attack is optimal.",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "How do you chain the Banana Split with other Truck attacks?",
+      "answer": "Create a dilemma system: threaten Twister to force upper body defense, then transition to Banana Split on the exposed far leg. If opponent defends by pulling leg back, return to Twister. If they straighten near leg to reduce boot pressure, attack Calf Slicer. If they attempt escape, transition to Back Control. Each defensive reaction opens a different attack.",
+      "difficulty": "Advanced"
+    }
+  ],
+  "safety_considerations": "The Banana Split is a high-injury-risk submission that attacks the groin, hip flexors, and adductor muscles. These muscle groups can tear with relatively little warning, especially in practitioners with limited flexibility. Always apply pressure gradually over several seconds - never explosively or with jerking motions. Maintain clear communication with training partners and watch for verbal or physical tap signals. Release immediately upon any indication of submission. Practitioners with pre-existing hip or groin injuries should avoid this technique entirely. When training, stop well before full pressure is achieved until both partners understand the submission dynamics. In competition, be prepared for opponents who may not tap early enough - prioritize safety over finishing.",
+  "position_integration": "The Banana Split occupies a critical role in the Truck position's multiple-threat attack system. It creates the lower body half of the fundamental Truck dilemma: when opponents defend the Twister (upper body attack), their lower body becomes vulnerable to Banana Split and Calf Slicer. This threat forces opponents into impossible defensive choices where protecting one area exposes another. The technique integrates seamlessly with the 10th Planet Jiu-Jitsu system, connecting to Electric Chair, Lockdown, and other leg entanglement positions. Advanced practitioners use the Banana Split threat to open up Twister opportunities rather than always finishing the groin stretch itself.",
+  "related_content": [
+    {
+      "name": "Truck",
+      "relationship": "Starting position - Banana Split is primary lower body attack from Truck"
+    },
+    {
+      "name": "Twister",
+      "relationship": "Complementary attack - upper body submission that creates Banana Split openings"
+    },
+    {
+      "name": "Calf Slicer from Truck",
+      "relationship": "Alternative attack - targets near leg when opponent defends Banana Split"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Transition target - fallback position when submissions are defended"
+    },
+    {
+      "name": "Electric Chair",
+      "relationship": "Related position - similar leg entanglement mechanics in 10th Planet system"
+    },
+    {
+      "name": "Lockdown",
+      "relationship": "Entry position - Lockdown can transition to Truck for Banana Split"
+    },
+    {
+      "name": "Crab Ride",
+      "relationship": "Related position - alternative back attack with similar entry paths"
+    },
+    {
+      "name": "Granby Roll",
+      "relationship": "Primary counter - escape technique defenders use against Banana Split"
+    }
+  ]
+}

@@ -150,7 +150,7 @@ function initNotFoundPage() {
     const issueBody = `## Page Request
 
 **Requested Path:** \`${pathname}\`
-**Expected File:** \`source/content/${cleanPath}.md\`
+**Expected File:** \`content/${cleanPath}.md\`
 ${contentTypeHint ? `**Detected Type:** ${contentTypeHint}` : ""}
 
 ## Content Type

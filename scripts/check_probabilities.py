@@ -23,7 +23,7 @@ from pathlib import Path
 from collections import defaultdict
 
 # Paths
-CONTENT_PATH = Path("source/content")
+CONTENT_PATH = Path("content")
 POSITIONS_PATH = CONTENT_PATH / "Positions"
 TRANSITIONS_PATH = CONTENT_PATH / "Transitions"
 SUBMISSIONS_PATH = CONTENT_PATH / "Submissions"

@@ -10,7 +10,7 @@ Usage:
     python scripts/regenerate_graph.py --verbose    # print every missing/orphan node
     python scripts/regenerate_graph.py --strict     # exit non-zero on missing nodes
 
-Output: source/quartz/static/graph.json
+Output: graph.json
 """
 
 import argparse
@@ -408,7 +408,7 @@ def validate_graph(graph: dict, *, verbose: bool = False) -> dict:
 # ---------------------------------------------------------------------------
 
 def generate_state_graph(project_root: Path) -> dict:
-    content_dir = project_root / 'source' / 'content'
+    content_dir = project_root / 'content'
     print(f"Processing content from: {content_dir}")
 
     positions = process_positions(content_dir)
@@ -430,8 +430,7 @@ def generate_state_graph(project_root: Path) -> dict:
             'generated': datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
             'positionCount': len(positions),
             'transitionCount': len(transitions),
-            'submissionCount': len(submissions),
-            'allPositionSlugs': all_position_slugs
+            'submissionCount': len(submissions)
         }
     }
 
@@ -453,10 +452,7 @@ def main():
     report = validate_graph(state_graph, verbose=args.verbose)
 
     # Write output
-    output_dir = project_root / 'source' / 'quartz' / 'static'
-    output_dir.mkdir(parents=True, exist_ok=True)
-
-    output_file = output_dir / 'graph.json'
+    output_file = project_root / 'graph.json'
     with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(state_graph, f, indent=2, ensure_ascii=False)
 

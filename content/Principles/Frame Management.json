@@ -1,0 +1,397 @@
+{
+  "name": "Frame Management",
+  "description": "Master Frame Management in BJJ. Learn skeletal framing, pressure redirection, dynamic adaptation across all positions. Build efficient defensive structure.",
+  "tags": [
+    "bjj",
+    "principle",
+    "fundamental",
+    "defense",
+    "frames",
+    "structure",
+    "distance-control",
+    "pressure-management"
+  ],
+  "application_level": "Fundamental",
+  "complexity_level": "Medium",
+  "development_timeline": "Beginner to Advanced",
+  "overview": "Frame Management represents the fundamental skill of creating, maintaining, and strategically utilizing structural barriers using limbs and body alignment to control distance, redirect pressure, and create space necessary for defensive and offensive techniques. Unlike isolated framing techniques, frame management is a comprehensive conceptual framework that encompasses frame construction principles, pressure distribution mechanics, dynamic frame adaptation under variable loads, and strategic frame deployment across all positions and scenarios. This concept serves as both a critical defensive mechanism preventing opponent from establishing dominant control and an essential offensive tool for creating attacking opportunities through distance management. Frame management determines the effectiveness of escape sequences, guard retention systems, and submission defense protocols, making it one of the most foundational conceptual elements spanning from white belt basics through black belt sophistication. The ability to manage frames effectively under pressure often distinguishes successful defensive responses from positional submission to dominant control.",
+  "key_principles": [
+    "Construct frames using skeletal structure rather than muscular strength to maximize efficiency and sustainability",
+    "Position frame contact points on opponent's skeletal landmarks (hips, shoulders, head) rather than muscle groups for optimal pressure distribution",
+    "Maintain frame integrity by keeping joints in strong alignment preventing collapse under opponent's pressure",
+    "Redirect incoming pressure along frame structure toward ground rather than absorbing it muscularly",
+    "Create multiple layered frames when single frame proves insufficient for pressure management",
+    "Adjust frame configuration dynamically based on opponent's pressure vectors and positional changes",
+    "Use frames to control critical distances preventing opponent from achieving optimal control positions",
+    "Coordinate frame maintenance with hip movement to maximize defensive effectiveness and create escape opportunities",
+    "Preserve frame structures throughout dynamic exchanges rather than abandoning under fatigue or pressure"
+  ],
+  "component_skills": [
+    {
+      "skill_name": "Skeletal Frame Construction",
+      "description": "Building frames through proper bone alignment rather than muscle tension, creating structures capable of managing heavy pressure with minimal energy expenditure by utilizing mechanical advantage of skeletal system"
+    },
+    {
+      "skill_name": "Contact Point Selection",
+      "description": "Identifying and targeting optimal frame placement on opponent's skeletal landmarks (hip bones, shoulder joints, skull) to maximize leverage and pressure distribution effectiveness while minimizing opponent's ability to collapse frame"
+    },
+    {
+      "skill_name": "Joint Alignment Maintenance",
+      "description": "Keeping elbow, shoulder, and wrist joints in strong structural positions that resist collapse under pressure, avoiding weak angles that allow opponent to easily break through defensive barriers"
+    },
+    {
+      "skill_name": "Pressure Redirection",
+      "description": "Channeling opponent's incoming force along frame structure toward the ground rather than absorbing it muscularly, transforming opponent's pressure into wasted energy while preserving defender's stamina"
+    },
+    {
+      "skill_name": "Multi-Layered Frame Systems",
+      "description": "Creating backup frame structures when primary frames become compromised, establishing defensive depth that forces opponent to break through multiple barriers before achieving dominant control"
+    },
+    {
+      "skill_name": "Dynamic Frame Adaptation",
+      "description": "Continuously adjusting frame configuration as opponent changes pressure angles and position, maintaining effective distance control throughout fluid exchanges rather than relying on static defensive structures"
+    },
+    {
+      "skill_name": "Frame-Hip Coordination",
+      "description": "Synchronizing frame maintenance with hip escape movements to create compound defensive actions where frames control distance while hips generate escape momentum and positional recovery"
+    },
+    {
+      "skill_name": "Frame Preservation Under Fatigue",
+      "description": "Maintaining structural frame integrity even when exhausted or under sustained pressure, developing mental discipline to preserve defensive barriers when instinct suggests abandoning technique for explosive scrambling"
+    }
+  ],
+  "principle_relationships": [
+    {
+      "principle_name": "Defensive Frame",
+      "relationship_type": "Complementary",
+      "description": "Defensive framing provides specific tactical applications of frame management principles in various positional contexts, representing practical implementation of broader frame management concepts"
+    },
+    {
+      "principle_name": "Creating Space",
+      "relationship_type": "Complementary",
+      "description": "Frame management creates the structural barriers necessary for space creation, with frames controlling distance while hip movement generates actual spatial separation from opponent"
+    },
+    {
+      "principle_name": "Biomechanical Principles",
+      "relationship_type": "Prerequisite",
+      "description": "Understanding leverage and biomechanics is fundamental to effective frame construction, as proper frames utilize mechanical advantage through skeletal alignment rather than brute strength"
+    },
+    {
+      "principle_name": "Energy Conservation",
+      "relationship_type": "Complementary",
+      "description": "Proper frame management dramatically reduces energy expenditure in defensive situations by utilizing structure rather than muscular effort, making it essential component of energy-efficient defensive strategy"
+    },
+    {
+      "principle_name": "Dealing with Pressure",
+      "relationship_type": "Advanced form",
+      "description": "Frame management represents primary tactical method for managing opponent's pressure effectively, providing structural solutions to pressure problems that would otherwise require excessive strength or athleticism"
+    },
+    {
+      "principle_name": "Escape Fundamentals",
+      "relationship_type": "Prerequisite",
+      "description": "Nearly all escape sequences begin with establishing effective frames to create initial distance from opponent, making frame management foundational skill enabling all other escape techniques to function"
+    },
+    {
+      "principle_name": "Defensive Framing",
+      "relationship_type": "Complementary",
+      "description": "Defensive framing techniques represent specific positional implementations of broader frame management principles across all defensive scenarios"
+    },
+    {
+      "principle_name": "Frame Creation",
+      "relationship_type": "Complementary",
+      "description": "Frame creation describes the initial establishment of frames, while frame management encompasses ongoing maintenance and dynamic adaptation of those structures"
+    },
+    {
+      "principle_name": "Distance Creation",
+      "relationship_type": "Complementary",
+      "description": "Frames provide the structural mechanism enabling distance creation, controlling space between practitioner and opponent to facilitate escapes and transitions"
+    },
+    {
+      "principle_name": "Grip Fighting",
+      "relationship_type": "Extension",
+      "description": "Frame management integrates with grip fighting as a guard retention component, maintaining distance control that prevents opponent from completing passing sequences while contesting grips"
+    },
+    {
+      "principle_name": "Bridge and Shrimp",
+      "relationship_type": "Complementary",
+      "description": "Bridging and shrimping movements must be coordinated with frame maintenance to create effective escape sequences from bad positions"
+    }
+  ],
+  "application_contexts": [
+    {
+      "context": "Side Control",
+      "how_applied": "Establishing frames against opponent's shoulder and hip to prevent chest-to-chest pressure, creating space necessary for hip escape and guard recovery while managing opponent's crossface attempts"
+    },
+    {
+      "context": "Mount",
+      "how_applied": "Using elbow frames against opponent's hips to control distance and prevent high mount progression, combined with hip bridge movements to create escape opportunities while managing submission threats"
+    },
+    {
+      "context": "Closed Guard",
+      "how_applied": "Creating frames to break opponent's posture and maintain optimal attacking distance, preventing opponent from establishing strong base while controlling their upper body positioning for sweeps and submissions"
+    },
+    {
+      "context": "Half Guard",
+      "how_applied": "Utilizing frames to maintain distance from opponent's upper body pressure, controlling space necessary for underhook battles and preventing opponent from flattening defender completely"
+    },
+    {
+      "context": "Knee Shield Half Guard",
+      "how_applied": "Employing knee shield as primary frame structure to maintain maximum distance from opponent's upper body, creating space for underhook acquisition and sweep opportunities"
+    },
+    {
+      "context": "North-South",
+      "how_applied": "Establishing frames against opponent's hips while managing head control, creating just enough space to initiate hip escape and begin positional recovery despite opponent's heavy shoulder pressure"
+    },
+    {
+      "context": "Back Control",
+      "how_applied": "Using frames to defend against choking attempts by maintaining chin protection and hand fighting, while creating space to address hooks and begin escape sequences"
+    },
+    {
+      "context": "Knee on Belly",
+      "how_applied": "Framing against opponent's knee and maintaining distance from upper body, controlling the intense pressure while creating leverage for hip escape and guard recovery movements"
+    },
+    {
+      "context": "Quarter Guard",
+      "how_applied": "Establishing defensive frames to prevent opponent from consolidating passing position, maintaining critical distance during transition phases while working to reestablish full guard structure"
+    },
+    {
+      "context": "Turtle",
+      "how_applied": "Creating defensive frames to prevent opponent from flattening or taking back, maintaining structural integrity while looking for opportunities to return to guard or stand up"
+    },
+    {
+      "context": "Kesa Gatame",
+      "how_applied": "Using frames as primary defensive barrier against heavy scarf hold pressure, establishing structural defense on opponent's hip and shoulder to create turning space rather than relying on scrambling or strength"
+    },
+    {
+      "context": "Open Guard",
+      "how_applied": "Maintaining frames on opponent's hips, shoulders, or biceps to control distance and prevent passing, creating space necessary for guard retention and attacking sequences"
+    },
+    {
+      "context": "Lasso Guard",
+      "how_applied": "Using extended leg frames on opponent's biceps combined with sleeve grips to maintain maximum distance control, preventing forward pressure while creating sweep opportunities"
+    },
+    {
+      "context": "De La Riva Guard",
+      "how_applied": "Employing frames on opponent's far leg and collar to maintain optimal distance while DLR hook controls base, preventing opponent from settling weight and completing passes"
+    },
+    {
+      "context": "Butterfly Guard",
+      "how_applied": "Framing on opponent's shoulders or biceps while butterfly hooks control lower body, maintaining upright posture and distance necessary for sweep execution and guard retention"
+    }
+  ],
+  "decision_framework": [
+    {
+      "step_number": 1,
+      "decision_point": "Assess immediate pressure threat and identify primary pressure vector",
+      "action": "Determine where opponent is applying heaviest pressure and which direction their force is traveling to identify optimal frame placement location"
+    },
+    {
+      "step_number": 2,
+      "decision_point": "Select appropriate frame contact points on opponent's skeletal structure",
+      "action": "Position hands, forearms, or shins against opponent's hips, shoulders, or head rather than muscular areas to maximize structural efficiency"
+    },
+    {
+      "step_number": 3,
+      "decision_point": "Construct frame using proper joint alignment and skeletal structure",
+      "action": "Establish frame with elbows positioned correctly relative to shoulders, creating strong angles that resist collapse under opponent's pressure"
+    },
+    {
+      "step_number": 4,
+      "decision_point": "Redirect opponent's pressure along frame structure toward ground",
+      "action": "Channel incoming force through skeletal system into mat rather than absorbing it muscularly, transforming opponent's energy into wasted effort"
+    },
+    {
+      "step_number": 5,
+      "decision_point": "Monitor frame integrity as opponent adjusts pressure angles",
+      "action": "Continuously assess whether frame is maintaining structural strength or beginning to collapse, preparing backup frame if primary structure weakens"
+    },
+    {
+      "step_number": 6,
+      "decision_point": "Coordinate frame maintenance with hip escape movements",
+      "action": "Synchronize hip shrimping or bridging with frame preservation, using frames to control distance while hips generate actual escape momentum"
+    },
+    {
+      "step_number": 7,
+      "decision_point": "Establish secondary frames if opponent breaks primary frame",
+      "action": "Immediately construct new frame structure using different limbs or contact points, maintaining defensive depth through layered frame systems"
+    },
+    {
+      "step_number": 8,
+      "decision_point": "Preserve frame structure despite fatigue or sustained pressure",
+      "action": "Maintain technical frame integrity even when exhausted, relying on structural mechanics rather than abandoning technique for desperate scrambling"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "Relying on muscular strength rather than skeletal alignment to maintain frames",
+      "consequence": "Rapid fatigue and frame collapse under sustained pressure, particularly against larger or stronger opponents who can overpower muscular effort",
+      "correction": "Focus on proper bone alignment and joint positioning, using skeletal structure to create frames that manage pressure through mechanical advantage rather than strength"
+    },
+    {
+      "error": "Placing frame contact points on opponent's muscle groups instead of skeletal landmarks",
+      "consequence": "Ineffective frames that opponent can easily collapse by flexing muscles or changing position, losing critical distance control in defensive situations",
+      "correction": "Target opponent's hip bones, shoulder joints, and skull with frame placement, creating contact points on rigid skeletal structure that cannot flex or compress"
+    },
+    {
+      "error": "Abandoning frames prematurely when opponent applies pressure",
+      "consequence": "Allowing opponent to close distance completely and establish dominant control, eliminating defensive options and making escape dramatically more difficult",
+      "correction": "Maintain frame integrity even under heavy pressure, reconstructing frames immediately if broken rather than accepting opponent's dominant positioning"
+    },
+    {
+      "error": "Creating static frames without adapting to opponent's pressure changes",
+      "consequence": "Frames become ineffective as opponent adjusts angles and pressure vectors, finding routes around fixed defensive structures to establish control",
+      "correction": "Continuously adjust frame configuration based on opponent's movements, maintaining dynamic defensive barriers that adapt to changing pressure patterns"
+    },
+    {
+      "error": "Failing to coordinate frame maintenance with hip movement",
+      "consequence": "Frames control distance but no escape progress occurs, or hip movement without frames allows opponent to immediately reestablish pressure and control",
+      "correction": "Synchronize frame preservation with hip escapes, using frames to maintain space while hips generate actual positional improvement and recovery"
+    },
+    {
+      "error": "Overextending arms to create frames instead of maintaining strong elbow position",
+      "consequence": "Weak structural angles that opponent easily collapses by applying pressure toward defender's shoulder, breaking through defensive barriers with minimal effort",
+      "correction": "Keep elbows positioned at strong angles relative to shoulders, creating frames through proper joint alignment rather than arm extension"
+    },
+    {
+      "error": "Establishing only single-layer frames without backup structures",
+      "consequence": "When opponent breaks primary frame, no secondary defensive barrier exists, allowing immediate progression to dominant control without resistance",
+      "correction": "Create layered frame systems where breaking one frame immediately encounters another defensive structure, forcing opponent to work through multiple barriers"
+    }
+  ],
+  "training_approaches": [
+    {
+      "approach_name": "Positional Survival Drills",
+      "description": "Partner maintains dominant position while applying gradual increasing pressure, defender focuses exclusively on maintaining frames without attempting escapes, developing frame integrity under sustained load",
+      "focus": "Building structural frame strength and psychological resilience to maintain technique under pressure and fatigue"
+    },
+    {
+      "approach_name": "Frame Reconstruction Exercises",
+      "description": "Partner repeatedly breaks defender's frames from various positions, defender immediately reconstructs new frame structures without allowing complete distance closure, developing rapid adaptive framing",
+      "focus": "Training automatic frame rebuilding responses and multi-layered defensive systems that maintain barriers despite opponent's frame-breaking attempts"
+    },
+    {
+      "approach_name": "Frame-Escape Integration Practice",
+      "description": "Executing complete escape sequences from bad positions with emphasis on coordinating frame maintenance with hip movements, ensuring frames control distance throughout entire escape process",
+      "focus": "Developing seamless integration between frame management and escape execution, creating compound defensive actions where structure and movement work together"
+    },
+    {
+      "approach_name": "Pressure Variance Training",
+      "description": "Partner varies pressure intensity and direction randomly while defender maintains optimal frames, developing ability to adapt frame configuration to changing pressure patterns without breaking structure",
+      "focus": "Building dynamic frame adaptation capabilities that respond automatically to opponent's pressure changes and positional adjustments"
+    },
+    {
+      "approach_name": "Skeletal Structure Focus Drilling",
+      "description": "Practicing frame construction with emphasis on joint alignment and bone positioning rather than muscular effort, potentially using lighter resistance to eliminate strength compensation",
+      "focus": "Developing pure structural framing technique that relies on mechanical advantage and proper positioning rather than athleticism or strength"
+    },
+    {
+      "approach_name": "Fatigue Resistance Frame Maintenance",
+      "description": "Maintaining frames from bad positions during extended rounds or after exhaustive exercise, training ability to preserve technical structure despite complete physical fatigue",
+      "focus": "Building mental discipline and technical habits that maintain frame integrity even when exhausted, preventing instinctive abandonment of technique under stress"
+    }
+  ],
+  "developmental_metrics": [
+    {
+      "level": "Beginner",
+      "observable_behaviors": [
+        "Establishes basic frames using arms against opponent's chest or shoulders but relies heavily on muscular strength",
+        "Maintains frames briefly under light pressure but abandons structure when opponent applies sustained force",
+        "Understands conceptually that frames create space but struggles to coordinate framing with escape movements",
+        "Creates single-layer frames without backup defensive structures when primary frame breaks"
+      ]
+    },
+    {
+      "level": "Intermediate",
+      "observable_behaviors": [
+        "Constructs frames using improved skeletal alignment with reduced muscular tension, managing moderate pressure more efficiently",
+        "Targets opponent's skeletal landmarks (hips, shoulders) more consistently with frame placement rather than muscular areas",
+        "Coordinates basic frame maintenance with hip escape movements, creating compound defensive actions in common positions",
+        "Rebuilds frames when broken but reconstruction may be slow or require conscious thought rather than automatic response",
+        "Maintains frame integrity for extended periods under moderate pressure without excessive fatigue"
+      ]
+    },
+    {
+      "level": "Advanced",
+      "observable_behaviors": [
+        "Utilizes pure skeletal structure for frame construction, managing heavy pressure from larger opponents with minimal energy expenditure",
+        "Adapts frame configuration dynamically as opponent changes pressure angles and positions without losing structural integrity",
+        "Seamlessly integrates frame maintenance with complex escape sequences across multiple positions and scenarios",
+        "Establishes multi-layered frame systems where breaking one frame immediately encounters secondary defensive barriers",
+        "Preserves frame structures even under extreme fatigue or sustained pressure, maintaining technical precision despite physical stress",
+        "Identifies optimal frame contact points automatically based on opponent's skeletal structure and pressure vectors"
+      ]
+    },
+    {
+      "level": "Expert",
+      "observable_behaviors": [
+        "Demonstrates flawless frame management against elite opponents regardless of size or strength differential",
+        "Adjusts frame configuration preemptively based on subtle cues about opponent's intended pressure changes",
+        "Integrates frame management seamlessly into offensive guard retention and attacking systems, using frames to create opportunities rather than purely defensive applications",
+        "Maintains perfect frame integrity under maximum pressure while simultaneously executing complex technical sequences",
+        "Teaches frame management principles effectively to others, identifying and correcting subtle technical errors in frame construction and maintenance"
+      ]
+    }
+  ],
+  "related_content": [
+    {
+      "name": "Defensive Frame",
+      "content_type": "Principle",
+      "relationship": "Complementary principle providing specific tactical framing applications in positional contexts"
+    },
+    {
+      "name": "Creating Space",
+      "content_type": "Principle",
+      "relationship": "Frames provide structural foundation enabling space generation through hip movement"
+    },
+    {
+      "name": "Bridging Mechanics",
+      "content_type": "Principle",
+      "relationship": "Frame management controls distance while bridging generates actual positional recovery and escape momentum"
+    },
+    {
+      "name": "Biomechanical Principles",
+      "content_type": "Principle",
+      "relationship": "Fundamental mechanical concepts underlying effective frame construction through skeletal alignment"
+    },
+    {
+      "name": "Energy Conservation",
+      "content_type": "Principle",
+      "relationship": "Proper frames dramatically reduce energy expenditure in defensive situations"
+    },
+    {
+      "name": "Escape Fundamentals",
+      "content_type": "Principle",
+      "relationship": "Frame management provides critical distance control enabling escape execution from all bottom positions"
+    },
+    {
+      "name": "Elbow Escape",
+      "content_type": "Transition",
+      "relationship": "Classic escape sequence requiring proper frame maintenance for successful execution"
+    },
+    {
+      "name": "Bridge and Roll",
+      "content_type": "Transition",
+      "relationship": "Fundamental escape technique integrating frame management with bridging movement"
+    },
+    {
+      "name": "Closed Guard",
+      "content_type": "Position",
+      "relationship": "Primary guard position where frame management controls opponent posture and enables attacks"
+    },
+    {
+      "name": "Half Guard",
+      "content_type": "Position",
+      "relationship": "Position where frame management is critical for preventing flattening and enabling underhook recovery"
+    },
+    {
+      "name": "Defensive Framing",
+      "content_type": "Principle",
+      "relationship": "Specific defensive framing techniques implementing frame management principles"
+    },
+    {
+      "name": "Grip Fighting",
+      "content_type": "Principle",
+      "relationship": "Frame management integrates with grip fighting as complementary distance control mechanisms"
+    }
+  ]
+}

@@ -1,0 +1,278 @@
+{
+  "name": "Elevation Sweep to Mount",
+  "description": "Learn Elevation Sweep from Reverse X-Guard in BJJ. Step-by-step execution using hip lift mechanics. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "tags": [
+    "bjj",
+    "sweep",
+    "reverse-x-guard",
+    "mount",
+    "elevation",
+    "guard-attack"
+  ],
+  "from_position": "Reverse X-Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Mount",
+      "probability": 65,
+      "result": "success"
+    },
+    {
+      "to": "Reverse X-Guard",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Half Guard",
+      "probability": 10,
+      "result": "counter"
+    }
+  ],
+  "success_rates": {
+    "beginner": 30,
+    "intermediate": 50,
+    "advanced": 65
+  },
+  "overview": "The Elevation Sweep to Mount is a high-amplitude sweep executed from Reverse X-Guard that uses powerful hip extension to lift and topple the opponent directly into the mounted position. This technique capitalizes on the inverted hook configuration of Reverse X-Guard, where the primary hook behind the opponent's knee and secondary hook on the hip create an optimal platform for vertical lifting. The sweep generates power through coordinated hip elevation, leg extension, and upper body grip manipulation to completely disrupt the opponent's base.\n\nStrategically, the Elevation Sweep represents the highest-reward option from Reverse X-Guard because it bypasses intermediate positions entirely, taking you directly to the 4-point mount position. The technique works best against opponents who maintain an upright posture with evenly distributed weight, as this positioning makes them vulnerable to being lifted straight up and over. The key mechanical principle involves loading your hips underneath the opponent's center of gravity, then explosively extending to project them backward while you follow to establish mount.\n\nThis sweep integrates naturally into the Reverse X-Guard attack system, functioning as the primary direct sweep when the opponent fails to widen their base or drop their hips defensively. When the opponent defends by widening stance or lowering weight, alternative attacks like the Reverse X-Guard Sweep (technical sweep) or transitions to Single Leg X-Guard become available, creating an offensive system where each defense opens new attack vectors.",
+  "key_principles": [
+    "Load hips directly underneath opponent's center of gravity before initiating elevation",
+    "Coordinate hip extension with both hooks simultaneously for maximum lifting power",
+    "Use sleeve or collar grip to pull opponent forward while elevating, preventing backward recovery",
+    "Extend through the legs completely rather than just lifting with hip flexors",
+    "Follow the sweep immediately by posting and establishing mount before opponent can recover",
+    "Time the elevation when opponent's weight shifts forward or they attempt to establish grips",
+    "Maintain hook connection throughout the entire sweep motion to control direction"
+  ],
+  "setup_requirements": [
+    "Reverse X-Guard established with primary hook behind opponent's near knee and secondary hook controlling hip or thigh",
+    "Hips positioned directly underneath opponent's base with shoulders on mat for leverage",
+    "Controlling grip on opponent's sleeve, wrist, or collar on the trapped leg side",
+    "Opponent maintaining standing posture with weight relatively centered over their base",
+    "Sufficient space to execute full hip extension without obstruction"
+  ],
+  "execution_steps": [
+    {
+      "step_number": 1,
+      "action": "Secure hooks and grip",
+      "description": "Establish strong primary hook behind opponent's knee with your outside leg, secondary hook controlling their hip with inside leg. Secure sleeve or wrist grip on same side as hooks to control their posting ability.",
+      "timing": "Before opponent establishes defensive grips"
+    },
+    {
+      "step_number": 2,
+      "action": "Load hips under center",
+      "description": "Slide your hips underneath the opponent's center of gravity by extending your body diagonally. Your hooks should create a platform directly under their standing leg while your shoulders anchor to the mat.",
+      "timing": "When opponent's weight is centered"
+    },
+    {
+      "step_number": 3,
+      "action": "Pull upper body forward",
+      "description": "Use your controlling grip to pull the opponent's upper body toward you, breaking their posture forward. This loads weight onto your hooks and prevents them from stepping back to recover balance.",
+      "timing": "Immediately before hip extension"
+    },
+    {
+      "step_number": 4,
+      "action": "Explosive hip elevation",
+      "description": "Drive your hips upward explosively while extending both legs simultaneously. The primary hook lifts their knee while the secondary hook pushes their hip backward, creating rotational force that topples them over you.",
+      "timing": "Commit fully once opponent's weight is loaded"
+    },
+    {
+      "step_number": 5,
+      "action": "Guide and follow",
+      "description": "As opponent falls backward over your body, maintain grip control and follow their momentum by turning your body in the direction of the sweep. Release hooks as you transition from under to on top.",
+      "timing": "During opponent's fall"
+    },
+    {
+      "step_number": 6,
+      "action": "Establish mount",
+      "description": "Land with your knees on either side of opponent's torso, immediately establishing heavy hip pressure at their solar plexus. Control their arms or establish collar grips to prevent early escape attempts.",
+      "timing": "Upon landing"
+    }
+  ],
+  "common_counters": [
+    {
+      "counter": "Widening base and dropping hips low to prevent elevation",
+      "effectiveness": "High",
+      "your_response": "Transition to technical Reverse X-Guard Sweep or follow their base widening to Single Leg X-Guard entry"
+    },
+    {
+      "counter": "Stepping back with trapped leg to remove hooks",
+      "effectiveness": "Medium",
+      "your_response": "Follow their movement with inversion and transition to back take, or immediately switch to Ashi Garami entry"
+    },
+    {
+      "counter": "Posting hand on mat behind to prevent backward fall",
+      "effectiveness": "Medium",
+      "your_response": "Increase forward pull on sleeve grip to prevent posting, or switch to technical sweep angle that takes advantage of their weight shift"
+    },
+    {
+      "counter": "Sprawling forward to flatten guard player",
+      "effectiveness": "Low",
+      "your_response": "Use their forward pressure to transition to Deep Half Guard entry, as sprawl actually assists this transition"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "Attempting elevation without loading hips under opponent's center of gravity",
+      "consequence": "Insufficient leverage for lift, opponent easily maintains balance and may begin pass",
+      "correction": "Slide hips further underneath before initiating elevation, ensuring hooks create direct upward force"
+    },
+    {
+      "error": "Extending legs without coordinating upper body grip pull",
+      "consequence": "Opponent steps or leans backward to counter elevation, escaping hooks",
+      "correction": "Synchronize sleeve pull with hip extension to keep opponent's weight loaded forward"
+    },
+    {
+      "error": "Releasing hooks too early during the sweep motion",
+      "consequence": "Opponent lands in neutral position rather than giving up mount, or recovers guard",
+      "correction": "Maintain hook connection throughout entire elevation and only release as you transition to top"
+    },
+    {
+      "error": "Lifting with hip flexors only instead of full leg extension",
+      "consequence": "Insufficient power to complete sweep against resisting opponent",
+      "correction": "Drive through entire leg extending from hip through knee, using glutes and quads for power"
+    },
+    {
+      "error": "Failing to follow the sweep and establish mount immediately",
+      "consequence": "Opponent recovers guard or scrambles to neutral position despite successful sweep",
+      "correction": "Commit to following momentum and landing in mount position before opponent can create frames"
+    }
+  ],
+  "training_progressions": [
+    {
+      "phase": "Week 1-2",
+      "focus": "Hook placement and hip loading",
+      "description": "Drill establishing Reverse X-Guard hooks and positioning hips underneath partner. Practice loading weight onto hooks without attempting full sweep. Partner stands stationary providing feedback on hook pressure and positioning.",
+      "resistance_level": "None"
+    },
+    {
+      "phase": "Week 3-4",
+      "focus": "Elevation mechanics and timing",
+      "description": "Add the elevation component with partner providing light resistance. Focus on coordinating grip pull with hip extension. Partner gives slight forward pressure to simulate realistic weight distribution. Practice following the sweep to mount.",
+      "resistance_level": "Light"
+    },
+    {
+      "phase": "Week 5-6",
+      "focus": "Counter recognition and chains",
+      "description": "Partner provides common defensive reactions (base widening, stepping back, posting). Practice recognizing counters and transitioning to appropriate alternatives. Develop automatic chain from Elevation Sweep to Single Leg X to Ashi Garami based on reactions.",
+      "resistance_level": "Medium"
+    },
+    {
+      "phase": "Week 7+",
+      "focus": "Live application and integration",
+      "description": "Positional sparring starting from Reverse X-Guard Bottom. Full resistance with goal of completing sweep or transitioning to advantageous position. Integrate with full guard system including entries from De La Riva and butterfly positions.",
+      "resistance_level": "Full"
+    }
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Belt Grip Elevation Sweep",
+      "description": "In gi, secure belt grip instead of sleeve to generate more forward pull and rotational power. The belt grip allows you to control their entire hip structure during elevation.",
+      "when_to_use": "When opponent defends sleeve grip or when extra rotational control is needed against larger opponents"
+    },
+    {
+      "variant_name": "Collar Drag Elevation Sweep",
+      "description": "Combine deep collar grip with elevation mechanics, pulling opponent's upper body downward while elevating their hips. Creates diagonal sweep trajectory.",
+      "when_to_use": "Against opponents who maintain very upright posture with head and shoulders back"
+    },
+    {
+      "variant_name": "No-Gi Wrist Control Variation",
+      "description": "Without gi grips, secure two-on-one wrist control on near side. Use this grip to pull opponent forward while executing standard elevation mechanics.",
+      "when_to_use": "No-gi training or when sleeve grips are not available"
+    }
+  ],
+  "knowledge_assessment": [
+    {
+      "question": "What is the primary goal of Elevation Sweep to Mount?",
+      "answer": "The primary goal is to use the hook configuration of Reverse X-Guard to lift the opponent's base entirely off the ground, toppling them backward while you follow to land directly in mount position. This bypasses intermediate positions and achieves maximum positional advancement in a single movement.",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "What position do you start Elevation Sweep to Mount from?",
+      "answer": "This technique starts from Reverse X-Guard Bottom, with your primary hook behind the opponent's near knee, secondary hook controlling their hip, and your body angled away with hips positioned underneath their center of gravity.",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "What are the key grips needed for Elevation Sweep to Mount?",
+      "answer": "The essential grip is sleeve or wrist control on the same side as your hooks, preventing the opponent from posting when swept. In gi, alternatives include belt grip for enhanced rotational control or deep collar grip for diagonal pulling. The grip must enable forward pulling to load the opponent's weight onto your hooks.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "How do you counter Elevation Sweep to Mount when defending?",
+      "answer": "The primary defensive responses are widening your base to resist the vertical lift, dropping your hips low to remove elevation leverage, or stepping back with the trapped leg to extract from the hooks. Posting a hand behind you can stop the backward fall, though this is less effective against proper grip control.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "When is the best time to attempt Elevation Sweep to Mount?",
+      "answer": "The optimal timing is when the opponent maintains centered weight distribution with upright posture, particularly when they are reaching to establish grips on your upper body. Their forward weight shift and elevated center of gravity create the ideal conditions for the elevation mechanics to work.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "Your opponent widens their base significantly when you attempt the elevation - what is your response?",
+      "answer": "When the opponent widens base, the direct elevation becomes difficult. Immediately transition to the technical Reverse X-Guard Sweep that works with their lateral base extension, or follow their widening movement to establish Single Leg X-Guard. Their wide stance actually creates vulnerability to directional sweeps that exploit the lateral imbalance.",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "What is the critical hip position required before initiating the sweep?",
+      "answer": "Your hips must be positioned directly underneath the opponent's center of gravity, creating a platform where your hook extension generates vertical force through their base. If hips are too far away, you lift toward you rather than up. If too close, you lack extension range. The optimal position creates a fulcrum directly under their standing leg.",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "How do you coordinate upper body and lower body mechanics during the sweep?",
+      "answer": "The sleeve pull and hip extension must be perfectly synchronized. Begin the forward pull slightly before hip extension to load weight onto hooks, then extend hips explosively as you continue pulling. The upper body pull prevents backward recovery while the hip extension provides lifting power. Disconnecting these creates weakness the opponent can exploit.",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "What distinguishes this sweep from the standard Reverse X-Guard Sweep?",
+      "answer": "The Elevation Sweep uses vertical lifting mechanics to topple the opponent directly backward to mount, while the standard Reverse X-Guard Sweep uses rotational force to sweep laterally. Elevation Sweep works against centered opponents and leads to mount. The standard sweep works against opponents with lateral base and typically leads to top position requiring guard passing.",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "If your hooks start slipping during the elevation attempt, what is your recovery option?",
+      "answer": "If hooks slip, immediately abandon the elevation and transition before losing control entirely. If primary hook slips, transition to Single Leg X-Guard which requires less hook depth. If secondary hook slips, use remaining hook to follow opponent and attempt back take or Ashi Garami entry. Never continue a sweep attempt with compromised hooks.",
+      "difficulty": "Advanced"
+    }
+  ],
+  "safety_considerations": "When practicing the Elevation Sweep, ensure controlled execution throughout the movement to protect both training partners. The sweep generates significant rotational force that can cause the opponent to fall unexpectedly. The landing partner should practice controlled breakfalls and the sweeping partner should guide the fall rather than dumping. Avoid executing at full power until both partners are comfortable with the mechanics. During drilling, the landing partner should tap immediately if they feel loss of control. Be cautious of knee strain when hooks are loaded heavily - release if the position feels compromised rather than forcing technique. Partners with lower back issues should communicate limitations as the elevation requires significant hip mobility.",
+  "position_integration": "The Elevation Sweep to Mount occupies a central position within the Reverse X-Guard attack system as the highest-value direct sweep option. It forms the primary attack when opponents maintain upright posture, while the technical Reverse X-Guard Sweep handles wide-base defenders. When opponents drop their hips or sprawl, transitions to Deep Half Guard or back takes become available. The sweep connects Reverse X-Guard to the mount attack system including Americana, Armbar, and Cross Collar Choke chains. Failed sweep attempts flow naturally to Single Leg X-Guard or Ashi Garami entries, making the position a hub for both sweeping and leg entanglement systems. Understanding this integration allows practitioners to use the Elevation Sweep threat to open other attack vectors.",
+  "related_content": [
+    {
+      "name": "Reverse X-Guard",
+      "relationship": "Starting position"
+    },
+    {
+      "name": "Mount",
+      "relationship": "Target position on successful sweep"
+    },
+    {
+      "name": "Reverse X-Guard Sweep",
+      "relationship": "Alternative sweep when opponent widens base"
+    },
+    {
+      "name": "Single Leg X-Guard",
+      "relationship": "Transition when hooks slip or opponent disengages"
+    },
+    {
+      "name": "Ashi Garami",
+      "relationship": "Leg entanglement transition option"
+    },
+    {
+      "name": "X-Guard",
+      "relationship": "Related guard position with similar elevation mechanics"
+    },
+    {
+      "name": "Deep Half Guard",
+      "relationship": "Recovery position when opponent sprawls"
+    },
+    {
+      "name": "Armbar from Mount",
+      "relationship": "Follow-up submission from achieved position"
+    },
+    {
+      "name": "Americana from Mount",
+      "relationship": "Follow-up submission from achieved position"
+    },
+    {
+      "name": "Back Take from Top",
+      "relationship": "Alternative advancement from mount"
+    }
+  ]
+}

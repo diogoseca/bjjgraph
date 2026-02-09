@@ -1,0 +1,261 @@
+{
+  "name": "Pressure Pass through Center",
+  "description": "Learn Pressure Pass through Center from Grasshopper Guard. Step-by-step guide with stack mechanics and hip pressure. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "tags": [
+    "bjj",
+    "transition",
+    "guard-pass",
+    "pressure-passing",
+    "inverted-guard-counter",
+    "no-gi",
+    "advanced"
+  ],
+  "from_position": "Grasshopper Guard/Top",
+  "outcomes": [
+    {
+      "to": "Side Control",
+      "probability": 65,
+      "result": "success"
+    },
+    {
+      "to": "Grasshopper Guard",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Closed Guard",
+      "probability": 10,
+      "result": "counter"
+    }
+  ],
+  "success_rates": {
+    "beginner": 30,
+    "intermediate": 50,
+    "advanced": 65
+  },
+  "overview": "The Pressure Pass through Center is a direct, aggressive passing method used when facing an opponent in Grasshopper Guard or similar inverted positions. Rather than circling around the guard or attempting back steps, this pass drives straight through the opponent's defensive structure by collapsing their hip elevation and stacking their inverted posture. The technique capitalizes on the inherent vulnerability of inverted guards—the bottom player's core cannot sustain heavy forward pressure indefinitely.\n\nThis pass is most effective when the bottom player's hips begin to sag from fatigue or when they commit to a leg entanglement attempt that temporarily compromises their defensive structure. The key mechanical principle involves driving your weight through your chest and hips directly into the opponent's elevated legs and hips, forcing them to bear your weight while inverted. As their inversion collapses under the pressure, you continue driving forward, flattening them and transitioning past their legs to side control.\n\nStrategically, this pass works as a pressure-based counter to the high-energy inverted guard game. While many practitioners attempt to avoid engagement with inverted guards entirely, the pressure pass through center embraces direct confrontation, using superior weight distribution and timing to break through the guard structure. This approach is particularly valuable when you recognize that the bottom player is tiring or has overcommitted to an attack, creating the window for your forward drive.",
+  "key_principles": [
+    "Time your forward drive when opponent's hips drop or they commit to an attack",
+    "Drive weight through your chest and hips, not through extended arms",
+    "Maintain low hip position throughout to prevent being elevated",
+    "Control opponent's legs by pinning them against their body as you advance",
+    "Use heavy crossface pressure to prevent them from creating angles or re-inverting",
+    "Continue forward momentum until you clear their legs completely",
+    "Establish side control grips immediately upon passing to prevent guard recovery"
+  ],
+  "setup_requirements": [
+    "Opponent established in Grasshopper Guard with elevated hips and inverted posture",
+    "Recognition that opponent's hip elevation is weakening or they are committing to an attack",
+    "Your base positioned low with hips loaded for forward drive",
+    "Clear path through center without your legs being deeply entangled",
+    "Hands positioned to control opponent's legs or hips as you drive forward"
+  ],
+  "execution_steps": [
+    {
+      "step_number": 1,
+      "action": "Recognize timing window",
+      "description": "Watch for opponent's hips to sag below chest height or for them to commit both legs to an entanglement attempt, creating momentary vulnerability in their inverted structure.",
+      "timing": "Wait for hip drop or attack commitment"
+    },
+    {
+      "step_number": 2,
+      "action": "Lower your level",
+      "description": "Drop your hips and chest low, positioning your weight to drive forward rather than down. Your knees should be bent with your weight loaded on your toes, ready to explode forward through their guard.",
+      "timing": "Immediately upon recognizing window"
+    },
+    {
+      "step_number": 3,
+      "action": "Control the legs",
+      "description": "As you initiate forward drive, use your arms to trap opponent's legs against their body or push them toward their chest. This prevents them from re-establishing hooks or creating space for guard recovery.",
+      "timing": "Simultaneous with forward drive"
+    },
+    {
+      "step_number": 4,
+      "action": "Drive through center",
+      "description": "Explode forward with your chest and hips, driving your weight directly through the center of their guard. Your shoulder should contact their midsection as you stack their inverted posture, collapsing their hip elevation.",
+      "timing": "Explosive forward movement"
+    },
+    {
+      "step_number": 5,
+      "action": "Establish crossface",
+      "description": "As you drive past their legs, immediately establish heavy crossface pressure with your shoulder and forearm against their jaw and neck. This prevents them from turning into you or re-inverting to recover guard.",
+      "timing": "As you clear their legs"
+    },
+    {
+      "step_number": 6,
+      "action": "Consolidate side control",
+      "description": "Complete the pass by settling your hips low against their hips, maintaining crossface pressure, and controlling their far arm with your free hand. Ensure their legs are completely cleared before settling weight.",
+      "timing": "Immediately after clearing legs"
+    }
+  ],
+  "common_counters": [
+    {
+      "counter": "Re-inversion and leg hook insertion before pass completes",
+      "effectiveness": "High",
+      "your_response": "Maintain continuous forward pressure without pausing; if they begin to re-invert, increase speed of your forward drive and pin their near leg to prevent hook insertion"
+    },
+    {
+      "counter": "Granby roll to guard recovery using your forward momentum",
+      "effectiveness": "Medium",
+      "your_response": "Recognize the roll initiation and sprawl your hips back momentarily, then resume forward pressure once their roll stalls; avoid chasing their movement"
+    },
+    {
+      "counter": "Leg entanglement entry during your forward drive",
+      "effectiveness": "Medium",
+      "your_response": "If you feel a hook behind your knee during the drive, immediately backstep that leg while continuing upper body pressure forward; clear the hook before resuming the pass"
+    },
+    {
+      "counter": "Frame creation with arms against your shoulders",
+      "effectiveness": "Low",
+      "your_response": "Drive through the frames with chest pressure; their inverted position provides poor leverage for maintaining strong frames"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "Driving forward when opponent's hips are still fully elevated and strong",
+      "consequence": "Opponent uses your forward momentum against you, elevating for a sweep or transitioning to X-guard underneath your drive",
+      "correction": "Wait for clear timing window when hips sag or opponent commits to an attack; never drive into a strong inverted structure"
+    },
+    {
+      "error": "Keeping hips high during the forward drive",
+      "consequence": "Creates space underneath you that opponent exploits for leg entanglements or sweep elevation",
+      "correction": "Keep hips low and heavy throughout the pass; think about driving your hips toward the mat as you advance"
+    },
+    {
+      "error": "Using arms to push opponent rather than driving with chest and hips",
+      "consequence": "Weak pressure that opponent can easily redirect or frame against; also exposes your arms to entanglement",
+      "correction": "Generate pressure through body weight and forward hip drive; arms control legs but don't provide primary force"
+    },
+    {
+      "error": "Pausing mid-pass to adjust position",
+      "consequence": "Gives opponent time to recover, re-invert, or insert defensive hooks",
+      "correction": "Commit fully to the forward drive once initiated; continuous pressure is essential for success"
+    },
+    {
+      "error": "Failing to establish crossface immediately after clearing legs",
+      "consequence": "Opponent turns into you and recovers guard before you can consolidate side control",
+      "correction": "Crossface must be your first priority as you clear their legs; side control grips come second"
+    }
+  ],
+  "training_progressions": [
+    {
+      "phase": "Week 1-2",
+      "focus": "Timing recognition",
+      "description": "Partner holds grasshopper guard and signals when their hips drop. Practice recognizing the timing window without fully executing the pass. Focus on reading hip elevation and body tension that indicates fatigue or commitment to attack.",
+      "resistance_level": "None"
+    },
+    {
+      "phase": "Week 3-4",
+      "focus": "Mechanics and pressure",
+      "description": "Execute full pass with partner providing light resistance. Focus on generating pressure through chest and hips rather than arms. Partner allows pass to complete but provides feedback on pressure quality and timing.",
+      "resistance_level": "Light"
+    },
+    {
+      "phase": "Week 5-6",
+      "focus": "Counter-defense integration",
+      "description": "Partner actively attempts counters including re-inversion, Granby rolls, and leg entanglements. Practice adjusting your drive and maintaining pressure through their defensive attempts. Develop feel for when to backstep versus continue forward.",
+      "resistance_level": "Medium"
+    },
+    {
+      "phase": "Week 7+",
+      "focus": "Live application",
+      "description": "Apply pressure pass in live rolling situations against various inverted guard players. Integrate with other passing options, using pressure pass when timing is right and circling or backstep passes when opponent's structure is strong.",
+      "resistance_level": "Full"
+    }
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Stack Pass Variation",
+      "description": "Instead of driving through to side control, stack opponent's legs over their head and walk around to north-south. This variation is effective when opponent has strong hip flexibility that prevents flattening.",
+      "when_to_use": "When opponent maintains hip elevation despite your forward pressure"
+    },
+    {
+      "variant_name": "Leg Drag Hybrid",
+      "description": "As you drive forward, drag one of opponent's legs across your body toward leg drag position. Continue pressure while transitioning to leg drag control, then complete pass to side control from the drag position.",
+      "when_to_use": "When opponent has one leg extended and vulnerable during your forward drive"
+    },
+    {
+      "variant_name": "Knee Cut Finish",
+      "description": "Rather than driving fully through center, use the initial pressure to collapse their inversion, then finish with a knee cut through their guard. Effective when opponent's legs split during your pressure.",
+      "when_to_use": "When opponent's legs separate creating a clear lane for knee cut"
+    }
+  ],
+  "knowledge_assessment": [
+    {
+      "question": "What is the primary goal of Pressure Pass through Center?",
+      "answer": "The primary goal is to collapse the opponent's inverted guard structure by driving heavy forward pressure through the center of their guard, flattening their elevated hips and advancing directly to side control. This bypasses the need to circle around or backstep, instead confronting the guard directly when the timing is right.",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "What position do you start Pressure Pass through Center from?",
+      "answer": "This technique starts from facing an opponent in Grasshopper Guard, with you in the top position standing or in low combat base. The opponent is inverted with elevated hips, creating the characteristic grasshopper guard structure that you will collapse with forward pressure.",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "What are the key grips needed for Pressure Pass through Center?",
+      "answer": "Rather than specific grips, this pass relies on body positioning and pressure. Your hands control opponent's legs by pinning them against their body or pushing them toward their chest as you drive forward. After clearing the legs, your priority shifts to establishing crossface with forearm against their jaw and neck. Traditional grips are less important than weight distribution.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "How do you recognize the optimal timing window to attempt this pass?",
+      "answer": "The optimal timing window occurs when the opponent's hips drop below chest height due to core fatigue, or when they commit both legs to a leg entanglement or attack attempt. Both scenarios temporarily weaken their inverted structure, creating vulnerability to forward pressure. Never attempt this pass against a strong, fresh inverted position.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "Your opponent begins a Granby roll as you drive forward - what adjustment should you make?",
+      "answer": "When opponent initiates a Granby roll, sprawl your hips back momentarily to avoid being rolled through. Do not chase their rolling movement, as this feeds their escape. Once their roll stalls due to lack of your forward momentum, resume your forward pressure drive. The key is recognizing the roll early and denying the momentum they need.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "Why must your hips stay low throughout this pass?",
+      "answer": "Low hip position prevents the opponent from inserting hooks underneath you or using your forward momentum for an elevation sweep. High hips create space that skilled guard players exploit for leg entanglements or X-guard transitions. Your low hips also maximize the crushing pressure against their inverted structure, making the pass effective.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "What is the consequence of using arm pushing rather than chest and hip pressure?",
+      "answer": "Arm pushing generates weak, easily redirected pressure that the opponent can frame against. It also exposes your arms to leg entanglement attacks and kimura grip attempts. Additionally, extended arms disconnect your body weight from the pressure, reducing effectiveness. Chest and hip drive maintains connection and generates overwhelming force.",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "How does this pass integrate with other grasshopper guard passing options?",
+      "answer": "Pressure Pass through Center works as part of a passing system that includes backstep passes and leg drag options. When opponent's structure is strong and elevated, use backsteps and circling to tire them. When you recognize hip drop or attack commitment, shift to the pressure pass. This creates a complete system where patient movement sets up aggressive pressure timing.",
+      "difficulty": "Advanced"
+    }
+  ],
+  "safety_considerations": "When executing the Pressure Pass through Center, maintain awareness of your opponent's neck and spine position during the stacking motion. Avoid driving their chin toward their chest excessively, which can compress the cervical spine. If opponent taps or verbally indicates discomfort during the stack, release pressure immediately. When training this technique, start with controlled, gradual pressure increases rather than explosive drives, allowing both partners to adjust to the positions. Partners with neck injuries or limited spinal flexibility should avoid receiving this pass until cleared by a medical professional. The stacking position can also compress the chest and restrict breathing, so maintain communication with your training partner throughout.",
+  "position_integration": "The Pressure Pass through Center occupies a specific niche in the guard passing hierarchy against inverted opponents. It functions as the aggressive, direct option when patience-based circling and backstep passes have created fatigue in the guard player. Within a complete Grasshopper Guard passing system, you begin with patient standing base and small circling movements that force the bottom player to expend energy maintaining their inversion. As they tire and their hips begin to drop, or when they commit to an attack that compromises their structure, you shift from patient movement to explosive forward pressure. After completing the pass to side control, standard top game progressions apply—you can work toward mount, north-south, or submission attacks from side control. The pass also chains well with leg drag and knee cut options if the direct center path is blocked.",
+  "related_content": [
+    {
+      "name": "Grasshopper Guard",
+      "relationship": "Starting position - opponent holds this guard"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Primary destination after successful pass"
+    },
+    {
+      "name": "Back Step Pass",
+      "relationship": "Alternative passing option when opponent's structure is strong"
+    },
+    {
+      "name": "Leg Drag Pass",
+      "relationship": "Alternative pass that can combine with pressure pass"
+    },
+    {
+      "name": "Knee Slice Pass",
+      "relationship": "Finishing option when opponent's legs separate"
+    },
+    {
+      "name": "Stack Pass from Inversion",
+      "relationship": "Related technique with different finishing mechanics"
+    },
+    {
+      "name": "Toreando Pass",
+      "relationship": "Alternative passing approach using leg control"
+    },
+    {
+      "name": "Inverted Guard",
+      "relationship": "Parent guard category that grasshopper belongs to"
+    }
+  ]
+}

@@ -1,0 +1,283 @@
+{
+  "name": "Lockdown Recovery",
+  "description": "Master Lockdown Recovery from Modified Mount bottom. Step-by-step escape capturing opponent's posted leg. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "tags": [
+    "bjj",
+    "escape",
+    "half guard recovery",
+    "lockdown",
+    "modified mount escape",
+    "10th planet"
+  ],
+  "from_position": "Modified Mount/Bottom",
+  "outcomes": [
+    {
+      "to": "Lockdown",
+      "probability": 65,
+      "result": "success"
+    },
+    {
+      "to": "Modified Mount",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Mount",
+      "probability": 10,
+      "result": "counter"
+    }
+  ],
+  "success_rates": {
+    "beginner": 30,
+    "intermediate": 50,
+    "advanced": 65
+  },
+  "overview": "Lockdown Recovery is a specialized escape from Modified Mount that exploits the position's asymmetric structure to capture the opponent's posted leg and establish the powerful Lockdown half guard control. When mounted in Modified Mount, the opponent's posted leg creates both stability for them and an opportunity for the bottom practitioner - that extended leg is vulnerable to being captured if proper timing and technique are applied. The escape centers on creating enough hip space through frames and movement to shoot your legs around the posted leg and establish the figure-four lockdown configuration before the opponent can retract. This technique represents a fundamental principle in BJJ defensive strategy: rather than fighting directly against the mount, you transition to a position where your leg control creates immediate problems for the top player. Once Lockdown is established, the dynamic shifts dramatically - the opponent cannot effectively pass or mount because their leg mobility is completely compromised. The technique requires precise timing, as attempting the leg capture too early leaves you vulnerable to submission attempts, while waiting too long allows the opponent to consolidate mount or transition to a more dominant position. Advanced practitioners use this recovery as part of a broader escape system, threatening the Lockdown entry to create reactions that open other escape paths like deep half guard or standard hip escapes.",
+  "key_principles": [
+    "Target the posted leg - Modified Mount's extended leg creates the capture opportunity unavailable in standard mount",
+    "Frame before movement - Establish hip frames to create the space necessary for leg insertion",
+    "Timing over power - The escape window exists when opponent commits weight forward or reaches for grips",
+    "Figure-four configuration - Lockdown requires proper leg weaving where your bottom leg hooks their ankle while top leg locks over",
+    "Hip angle matters - Turn your hips toward the posted leg side to create the angle for leg insertion",
+    "Immediate consolidation - Once legs are around their leg, squeeze and extend to complete the Lockdown before they can extract",
+    "Integrate with other escapes - Use Lockdown threat to open hip escape opportunities if the capture fails"
+  ],
+  "setup_requirements": [
+    "Opponent in Modified Mount with one leg clearly posted out to the side creating the capture target",
+    "Arms positioned defensively protecting neck and near-side arm from submission attempts",
+    "Initial frame established on opponent's hip on the posted leg side to create space",
+    "Hips turned at least partially toward the posted leg rather than flat on back",
+    "Recognition that the posted leg is within range for the leg capture attempt"
+  ],
+  "execution_steps": [
+    {
+      "step_number": 1,
+      "action": "Establish defensive frame",
+      "description": "Place your far-side forearm or hand on opponent's hip on the posted leg side, creating initial separation between their body and yours. Keep near-side arm tight against your body protecting from armbar threats.",
+      "timing": "Immediately when recognizing Modified Mount configuration"
+    },
+    {
+      "step_number": 2,
+      "action": "Turn hips toward posted leg",
+      "description": "Bridge slightly and turn your hips toward the posted leg side, creating an angle that allows your legs to access the posted leg. Your shoulder on the across-body knee side stays on mat while opposite hip rises.",
+      "timing": "As opponent settles weight or reaches for grips"
+    },
+    {
+      "step_number": 3,
+      "action": "Thread bottom leg",
+      "description": "Shoot your bottom leg (closest to mat on the posted leg side) between your body and opponent's posted leg, hooking your instep behind their ankle. This is the critical entry point that begins the capture.",
+      "timing": "When frame has created sufficient space"
+    },
+    {
+      "step_number": 4,
+      "action": "Wrap top leg over",
+      "description": "Bring your top leg over opponent's trapped leg and triangle your legs together, with your top foot hooking behind your bottom knee or calf. This creates the figure-four configuration essential to Lockdown control.",
+      "timing": "Immediately after bottom leg hooks"
+    },
+    {
+      "step_number": 5,
+      "action": "Extend and squeeze",
+      "description": "Straighten your legs while maintaining the figure-four lock, extending opponent's trapped leg outward. This hyperextends their knee slightly and locks their hip in place, preventing them from extracting or adjusting position.",
+      "timing": "Before opponent can pull leg free"
+    },
+    {
+      "step_number": 6,
+      "action": "Consolidate Lockdown position",
+      "description": "Secure an underhook on the trapped leg side or establish frames to prevent flattening. Hip out if needed to create better angle. You are now in Lockdown half guard with dominant leg control ready to work sweeps or further escapes.",
+      "timing": "Continuous once Lockdown is established"
+    }
+  ],
+  "common_counters": [
+    {
+      "counter": "Opponent retracts posted leg before capture is complete",
+      "effectiveness": "High",
+      "your_response": "Use the reaction to immediately hip escape toward the now-empty space where the posted leg was, recovering to standard half guard or open guard"
+    },
+    {
+      "counter": "Opponent sprawls weight back and drives posted leg forward to pin",
+      "effectiveness": "Medium",
+      "your_response": "If they commit weight backward, bridge and roll toward the across-body knee side which is now lighter, or transition to hip escape in opposite direction"
+    },
+    {
+      "counter": "Opponent attempts armbar as you reach for leg capture",
+      "effectiveness": "High",
+      "your_response": "Keep near-side arm completely tight to body throughout - never reach with this arm. If armbar threat materializes, abandon leg capture and defend submission first"
+    },
+    {
+      "counter": "Opponent transitions to standard mount or high mount when feeling leg movement",
+      "effectiveness": "Medium",
+      "your_response": "Follow their movement with your hip escape, using their transition to create space for standard mount escape sequences"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "Attempting leg capture while flat on back without turning hips toward posted leg",
+      "consequence": "Cannot generate the angle needed to thread legs around posted leg, attempt fails and energy wasted",
+      "correction": "Always turn hips toward the posted leg side before attempting the capture, creating the necessary insertion angle"
+    },
+    {
+      "error": "Reaching with near-side arm during the escape attempt",
+      "consequence": "Creates immediate armbar opportunity as Modified Mount naturally funnels into armbar mechanics",
+      "correction": "Keep near-side arm glued to body throughout, use only far-side arm for framing on their hip"
+    },
+    {
+      "error": "Failing to extend and squeeze immediately after completing figure-four",
+      "consequence": "Opponent extracts leg before Lockdown is secure, returns to mount with improved awareness",
+      "correction": "The moment both legs are triangled around their leg, immediately extend outward to lock the position"
+    },
+    {
+      "error": "Attempting capture when posted leg is too far from body",
+      "consequence": "Cannot reach posted leg, escape attempt telegraphed, opponent adjusts or attacks",
+      "correction": "Wait for posted leg to be within reasonable range - if too far, use frames to draw them closer or switch to hip escape"
+    },
+    {
+      "error": "Neglecting upper body control after establishing Lockdown",
+      "consequence": "Opponent flattens you in Lockdown making sweeps impossible and creating smash pass opportunities",
+      "correction": "Immediately work for underhook or frames after leg capture, never settle flat on back in Lockdown"
+    },
+    {
+      "error": "Over-committing to single attempt without reading opponent's reaction",
+      "consequence": "Miss secondary escape opportunities created by opponent's defensive adjustments",
+      "correction": "Treat Lockdown attempt as one option in escape chain - if it fails, immediately capitalize on space created"
+    }
+  ],
+  "training_progressions": [
+    {
+      "phase": "Week 1-2",
+      "focus": "Lockdown mechanics isolation",
+      "description": "Practice figure-four leg configuration from static half guard. Focus on proper leg weaving: bottom leg hooks ankle, top leg triangles over. Partner allows leg capture without resistance. Drill extension and squeeze motion until automatic.",
+      "resistance_level": "None"
+    },
+    {
+      "phase": "Week 3-4",
+      "focus": "Entry timing from Modified Mount",
+      "description": "Partner establishes Modified Mount with posted leg at various distances. Practice identifying posted leg, turning hips, and threading legs. Partner gives light resistance, allowing successful captures but requiring proper technique. Add hip frame before leg capture.",
+      "resistance_level": "Light"
+    },
+    {
+      "phase": "Week 5-6",
+      "focus": "Integration with escape chains",
+      "description": "Partner resists Lockdown capture at medium intensity, retracting leg or sprawling back. Practice switching between Lockdown attempt and hip escape based on reactions. Develop flow between escape options using opponent's counter-movements as opportunities.",
+      "resistance_level": "Medium"
+    },
+    {
+      "phase": "Week 7+",
+      "focus": "Live application and follow-ups",
+      "description": "Apply in specific sparring starting from Modified Mount bottom. Focus on timing entries during transitions and when opponent reaches for submissions. Chain Lockdown recovery into immediate sweeps like Electric Chair or Whip-up. Full resistance with goal of consistent successful recoveries.",
+      "resistance_level": "Full"
+    }
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Electric Chair Entry Lockdown Recovery",
+      "description": "Instead of settling into standard Lockdown after leg capture, immediately transition to Electric Chair position by reaching under their leg with your underhook arm. This aggressive variation bypasses the standard Lockdown game and goes directly to sweep or submission threat.",
+      "when_to_use": "When opponent's upper body posture is broken and you can get the underhook easily during the recovery"
+    },
+    {
+      "variant_name": "Deep Half Conversion",
+      "description": "If the full Lockdown capture fails but you get legs partially around their posted leg, dive under toward their far leg and convert to Deep Half Guard. Uses the same initial entry but commits to going deeper rather than locking their near leg.",
+      "when_to_use": "When opponent pulls posted leg back but you've already committed to the leg entry, converting rather than abandoning"
+    },
+    {
+      "variant_name": "No-Gi Butterfly Hook Recovery",
+      "description": "In no-gi where the Lockdown squeeze is less effective without pants grips, capture the leg but establish a butterfly hook configuration instead. Thread leg to instep hook on their hip and use this to create elevation angles for sweeps.",
+      "when_to_use": "No-gi grappling where traditional Lockdown control is harder to maintain without gi friction"
+    }
+  ],
+  "knowledge_assessment": [
+    {
+      "question": "What is the primary goal of Lockdown Recovery from Modified Mount?",
+      "answer": "The primary goal is to capture the opponent's posted leg in a figure-four Lockdown configuration, transitioning from the mounted position to Lockdown half guard. This dramatically changes the positional dynamic - you go from being controlled in mount to having dominant leg control that prevents passing and opens sweep opportunities. The technique exploits Modified Mount's structural weakness (the extended posted leg) rather than fighting directly against the mount.",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "Why is Modified Mount specifically vulnerable to Lockdown Recovery compared to standard mount?",
+      "answer": "Modified Mount has one leg posted outward for stability rather than both knees pinching the torso. This posted leg is extended away from the opponent's body, creating an accessible target that doesn't exist in standard mount. The space between the posted leg and their hip allows you to thread your legs through for the capture. In standard mount with both knees tight, there's no exposed leg to target for this recovery.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "What are the key grips and frames needed before attempting Lockdown Recovery?",
+      "answer": "Establish a frame with your far-side hand on opponent's hip on the posted leg side - this creates separation and prevents them from settling their weight. Keep your near-side arm completely tight against your body protecting from armbar attempts. No gripping is required for the leg capture itself, but the hip frame is essential for creating the space to turn your hips and thread your legs. After capturing, work for an underhook on the trapped leg side.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "Your opponent starts retracting their posted leg when they feel your hip turn - how do you adapt?",
+      "answer": "Use their leg retraction as an opportunity rather than a failure. As they pull the posted leg back toward their body, they create space on that side and shift weight toward the across-body knee. Immediately hip escape toward the now-empty space where the posted leg was, using their defensive reaction to recover standard half guard or create distance for open guard. The Lockdown threat forced a reaction that opened another escape path.",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "What is the exact figure-four leg configuration for completing the Lockdown?",
+      "answer": "Your bottom leg (closest to the mat on the posted leg side) threads between your body and their posted leg, hooking your instep behind their ankle. Your top leg crosses over their trapped leg and triangles with your bottom leg - typically your top foot hooks behind your bottom knee or calf. Once triangled, you extend your legs outward while squeezing together, straightening their trapped leg and locking their hip in place. This hyperextension prevents extraction.",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "What is the most critical timing window for attempting Lockdown Recovery?",
+      "answer": "The optimal timing is when the opponent commits weight forward or reaches for grips, collar, or submission setups. When they reach, their base becomes lighter and they cannot quickly retract the posted leg to defend. Additionally, during transitions - when they move from standard mount to Modified Mount, or adjust their posting - there's a window where their structure is temporarily compromised. Avoid attempting when they're settled with good base and attention on your hip movement.",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "How should you immediately consolidate after successfully capturing their leg in Lockdown?",
+      "answer": "The moment the figure-four is complete, extend your legs outward while squeezing to lock their leg before they can extract. Simultaneously work for an underhook on the trapped leg side to prevent them from flattening you. Turn your hips to face their leg rather than staying flat on your back. Establish frames with your upper body if underhook isn't immediately available. Never settle flat in Lockdown - you need lateral hip positioning to enable sweeps.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "If the Lockdown capture fails, what follow-up escapes become available from the created reactions?",
+      "answer": "Multiple follow-ups exist: 1) If they retract the posted leg, hip escape into the space created and recover half guard or create distance. 2) If they sprawl backward to defend, bridge toward the now-lighter across-body knee side or dive for deep half under their far leg. 3) If they transition to standard mount, use the transition movement to execute standard mount escape sequences. The Lockdown attempt creates reactions that open other paths - treat it as part of an escape chain rather than a single technique.",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "Why is it dangerous to reach with your near-side arm during Lockdown Recovery?",
+      "answer": "Modified Mount naturally funnels into armbar mechanics because the posted leg is already partially positioned for the swing-over motion. Your near-side arm (closest to the across-body knee) is the primary armbar target. If you extend this arm to frame on their chest, reach for their leg, or push, you create the exact arm isolation the opponent needs. They can immediately transition to armbar by swinging the posted leg over your face while controlling your extended arm. Keep this arm glued to your body throughout.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "How does Lockdown Recovery integrate with the broader 10th Planet escape system from mount?",
+      "answer": "Lockdown Recovery is a cornerstone of the 10th Planet mount escape system because it transitions to their signature half guard position. Once in Lockdown, you access the Electric Chair sweep system, Whip-up sweep, and other 10th Planet attacks. The escape philosophy prioritizes getting to Lockdown over other half guard variants because the leg control is so restrictive. It also chains with deep half entries and back takes if the opponent over-defends the Lockdown. This systematic approach means every escape attempt feeds into the next option.",
+      "difficulty": "Advanced"
+    }
+  ],
+  "safety_considerations": "Lockdown Recovery is generally low-risk when performed correctly, but several safety considerations apply. First, never reach with your near-side arm during the escape attempt - this exposes you to armbar attacks and can result in hyperextension injury if caught. Second, when extending the Lockdown squeeze, be aware that excessive hyperextension of your opponent's knee can cause injury during training - apply controlled pressure sufficient to maintain position without cranking. Third, if your partner taps during Lockdown practice, release immediately as the knee hyperextension can be painful even before injury threshold. Fourth, avoid explosive bridging attempts that could strain your lower back, especially when flat under mount - use technical hip movement instead. Finally, communicate with training partners about intensity levels since the Lockdown position can be uncomfortable even when applied correctly.",
+  "position_integration": "Lockdown Recovery occupies a critical position in the BJJ escape hierarchy, specifically targeting Modified Mount's structural vulnerability. The technique bridges mount defense with the offensive half guard game - rather than merely escaping to a neutral position, you recover to an advantageous control position. This represents the advanced defensive concept of escaping 'to' something rather than just escaping 'from' something. The technique integrates with the broader 10th Planet system where Lockdown serves as a hub position connecting to Electric Chair sweeps, Vaporizer entries, and Twister attacks. From a positional flow perspective, Lockdown Recovery connects Mount Bottom → Lockdown → Electric Chair or Whip-up sweeps → top position. It also creates decision trees for opponents where defending Lockdown entry opens hip escape paths, and defending hip escape exposes the posted leg for Lockdown capture. Advanced practitioners use the Lockdown threat proactively to generate escape opportunities rather than waiting for perfect capture timing.",
+  "related_content": [
+    {
+      "name": "Modified Mount",
+      "relationship": "Starting position - the asymmetric mount configuration this escape targets"
+    },
+    {
+      "name": "Lockdown",
+      "relationship": "Target position - the half guard control position established upon success"
+    },
+    {
+      "name": "Electric Chair Submission",
+      "relationship": "Primary follow-up - immediate attack chain available after Lockdown recovery"
+    },
+    {
+      "name": "Whip-up Sweep",
+      "relationship": "Alternative follow-up - powerful sweep option from established Lockdown"
+    },
+    {
+      "name": "Hip Escape",
+      "relationship": "Chain option - backup escape when Lockdown capture fails"
+    },
+    {
+      "name": "Deep Half Guard",
+      "relationship": "Conversion option - alternative guard recovery when Lockdown entry is partially blocked"
+    },
+    {
+      "name": "Lockdown Sweeps",
+      "relationship": "Follow-up system - sweep series available after successful recovery"
+    },
+    {
+      "name": "Electric Chair Transition",
+      "relationship": "Advanced follow-up - direct transition bypassing standard Lockdown consolidation"
+    },
+    {
+      "name": "Half Guard Recovery",
+      "relationship": "Related escape - similar concept targeting leg capture from mounted position"
+    },
+    {
+      "name": "Mount",
+      "relationship": "Counter outcome - position opponent achieves if they consolidate during failed attempt"
+    }
+  ]
+}

@@ -1,0 +1,278 @@
+{
+  "name": "Kimura from Guard",
+  "description": "Master the Kimura from Guard in BJJ. Complete step-by-step execution from Closed Guard to Kimura Trap. Success rates: Beginner 35%, Intermediate 55%, Advanced 70%.",
+  "tags": [
+    "bjj",
+    "transition",
+    "technique",
+    "kimura",
+    "guard",
+    "submission-setup",
+    "arm-attack"
+  ],
+  "from_position": "Closed Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Kimura Trap",
+      "probability": 55,
+      "result": "success"
+    },
+    {
+      "to": "Closed Guard",
+      "probability": 30,
+      "result": "failure"
+    },
+    {
+      "to": "Half Guard",
+      "probability": 15,
+      "result": "counter"
+    }
+  ],
+  "success_rates": {
+    "beginner": 35,
+    "intermediate": 55,
+    "advanced": 70
+  },
+  "overview": "The Kimura from Guard is a fundamental shoulder lock attack initiated from the closed guard position. This technique targets the opponent's shoulder joint through a double wrist grip configuration that creates rotational torque on the glenohumeral joint. The attack begins when the opponent posts their hand on the mat or places it on your hip, creating the opportunity to isolate and control the arm.\n\nStrategically, the Kimura from Guard serves multiple purposes beyond the submission itself. It functions as a powerful positional control tool that can be used to sweep opponents, transition to back control, or set up other attacks in the submission chain. The figure-four grip configuration creates a dilemma where defending the submission often exposes other vulnerabilities. When the opponent defends by straightening their arm, the hip bump sweep becomes available. When they pull their elbow tight to their body, the opportunity to take the back emerges.\n\nThe technique requires precise timing and grip placement. The attacking arm must thread under the opponent's triceps while the other hand secures their wrist, creating the characteristic figure-four configuration. Hip movement and angle creation are essential for generating the leverage needed to either finish the submission or use the control to advance position. This attack represents a cornerstone of guard offense that connects to numerous other techniques in the BJJ system.",
+  "key_principles": [
+    "Control the wrist before threading under the triceps to prevent arm extraction",
+    "Create a perpendicular angle to the opponent by hip escaping to generate maximum rotational leverage",
+    "Keep elbows tight to your body throughout the grip sequence to maintain structural integrity",
+    "Use your legs to control opponent's posture and prevent them from stacking or standing",
+    "Apply rotational force by driving the captured wrist toward the mat while lifting the elbow",
+    "Maintain constant grip pressure and eliminate slack in the figure-four configuration"
+  ],
+  "setup_requirements": [
+    "Closed guard established with legs locked around opponent's waist",
+    "Opponent has one hand posted on the mat or placed on your hip",
+    "Your same-side hand controls their wrist with a firm C-grip",
+    "Space exists to thread your opposite arm under their triceps",
+    "Opponent's posture is broken or they are leaning forward into you"
+  ],
+  "execution_steps": [
+    {
+      "step_number": 1,
+      "action": "Control the wrist",
+      "description": "When opponent posts their hand on the mat or your hip, immediately grip their wrist with your same-side hand using a firm C-grip with your thumb on top. Pull their wrist toward your centerline to prevent them from retracting the arm.",
+      "timing": "The instant they post their hand"
+    },
+    {
+      "step_number": 2,
+      "action": "Hip escape to create angle",
+      "description": "Unlock your guard and hip escape away from the trapped arm side, creating a 45-degree angle to your opponent. This angle is essential for generating the rotational leverage needed for the submission and prevents them from simply pulling their arm back.",
+      "timing": "Immediately after securing wrist control"
+    },
+    {
+      "step_number": 3,
+      "action": "Thread the arm",
+      "description": "Bring your opposite arm over their trapped arm and thread it underneath their triceps, reaching toward your own controlling hand. Your forearm should rest against the back of their triceps with your elbow tight to their elbow.",
+      "timing": "While maintaining strong wrist control"
+    },
+    {
+      "step_number": 4,
+      "action": "Establish figure-four grip",
+      "description": "Grip your own wrist with the arm that threaded under their triceps, creating the classic Kimura figure-four configuration. Your palm grabs your wrist with fingers wrapping around. Squeeze your elbows together to eliminate any slack in the grip.",
+      "timing": "Before opponent can straighten their arm"
+    },
+    {
+      "step_number": 5,
+      "action": "Relock guard and create pressure",
+      "description": "Reestablish your closed guard by crossing your ankles behind their back. Pull them down with your legs while sitting up slightly to compress the space and prevent them from posturing up or stacking.",
+      "timing": "Once figure-four is secured"
+    },
+    {
+      "step_number": 6,
+      "action": "Apply rotational torque",
+      "description": "Keep their elbow pinned to your chest and drive their wrist toward the mat in an arc motion while simultaneously lifting their elbow upward. The rotation occurs at the shoulder joint. Continue until you achieve the submission or transition to Kimura Trap control.",
+      "timing": "Controlled application with constant pressure"
+    }
+  ],
+  "common_counters": [
+    {
+      "counter": "Opponent straightens their arm to prevent the figure-four grip from locking",
+      "effectiveness": "High",
+      "your_response": "Transition immediately to hip bump sweep - their straight arm removes their posting base, making them vulnerable to being swept to mount"
+    },
+    {
+      "counter": "Opponent pulls their elbow tight to their body and turns away",
+      "effectiveness": "Medium",
+      "your_response": "Follow their turn and use the Kimura grip to take their back, threading your hook on the side they're turning toward"
+    },
+    {
+      "counter": "Opponent stacks forward and drives their weight onto you",
+      "effectiveness": "Medium",
+      "your_response": "Maintain grip and use their forward momentum to execute a Kimura sweep, rolling them over the shoulder of the trapped arm"
+    },
+    {
+      "counter": "Opponent grabs their own belt or pants to prevent rotation",
+      "effectiveness": "Low",
+      "your_response": "Maintain constant grip pressure and work to break their grip by circling your hips and creating incremental rotation until their grip fails"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "Attempting the Kimura without first creating an angle through hip escape",
+      "consequence": "Insufficient leverage to complete the submission, opponent easily extracts their arm or stacks you flat",
+      "correction": "Always hip escape to create at least a 45-degree angle before attempting to secure the figure-four grip"
+    },
+    {
+      "error": "Reaching for the far arm instead of the near arm (cross-body reach)",
+      "consequence": "Exposes your back and creates openings for opponent to pass guard or take top position",
+      "correction": "Attack the arm that is closest to you - the one posting on the mat or placed on your hip on that same side"
+    },
+    {
+      "error": "Allowing space between your chest and opponent's elbow during the finish",
+      "consequence": "Opponent can slip their elbow free or straighten their arm to escape the submission",
+      "correction": "Pin their elbow tight to your chest throughout the entire finishing sequence, treating it as a fixed pivot point"
+    },
+    {
+      "error": "Applying force by pushing the wrist away from your body instead of rotating",
+      "consequence": "Dramatically reduced mechanical advantage and high energy expenditure with low submission success",
+      "correction": "Drive the wrist toward the mat in a circular arc while keeping their elbow pinned - focus on rotation not extension"
+    },
+    {
+      "error": "Releasing guard control while attempting the submission",
+      "consequence": "Opponent can posture up, stack, or stand to escape the attack and pass guard",
+      "correction": "Maintain closed guard or at minimum keep legs active and controlling opponent's hips throughout the attack"
+    }
+  ],
+  "training_progressions": [
+    {
+      "phase": "Week 1-2",
+      "focus": "Grip mechanics",
+      "description": "Practice the wrist control to figure-four sequence in isolation. Partner offers their arm in posting position, you execute grip sequence 20 times per side focusing on hand placement, threading under triceps, and creating zero-slack grip configuration.",
+      "resistance_level": "None"
+    },
+    {
+      "phase": "Week 3-4",
+      "focus": "Angle creation",
+      "description": "Add the hip escape component. Start from closed guard, partner posts hand, execute hip escape while maintaining wrist control, then complete figure-four. Emphasis on timing the hip escape with grip establishment. Partner provides light defensive movement.",
+      "resistance_level": "Light"
+    },
+    {
+      "phase": "Week 5-6",
+      "focus": "Chain attacks",
+      "description": "Practice the Kimura to sweep and Kimura to back take transitions. Partner defends the initial submission by straightening arm or turning away, you flow to the appropriate follow-up attack. Develop recognition of which defense leads to which counter.",
+      "resistance_level": "Medium"
+    },
+    {
+      "phase": "Week 7+",
+      "focus": "Live application",
+      "description": "Implement in positional sparring starting from closed guard. Partner works to pass or submit, you hunt for Kimura entries and complete the submission or chain to sweeps and back takes. Full resistance with submission-only rounds.",
+      "resistance_level": "Full"
+    }
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Kimura Trap System Entry",
+      "description": "Rather than finishing the submission immediately, use the Kimura grip to establish the Kimura Trap control position. From here, maintain the grip while working to sweep, take the back, or transition to other attacks. This turns the Kimura into a positional control tool rather than a direct submission attempt.",
+      "when_to_use": "When opponent has strong defensive grips or you want to use the control to advance position rather than submit"
+    },
+    {
+      "variant_name": "Hip Bump to Kimura",
+      "description": "Start with a hip bump sweep attempt. When opponent posts their hand to prevent the sweep, immediately transition to the Kimura attack on the posting arm. The hip bump forces them to create the exact opening the Kimura requires.",
+      "when_to_use": "Against opponents who maintain good posture in your guard and don't naturally offer their arm"
+    },
+    {
+      "variant_name": "Guillotine to Kimura",
+      "description": "Threaten a guillotine choke to force opponent to defend their neck by posting their hands on the mat. Release the guillotine threat and immediately transition to Kimura on the newly posted arm. Creates the setup through misdirection.",
+      "when_to_use": "When opponent defends guillotine attempts by posting hands rather than tucking chin"
+    }
+  ],
+  "knowledge_assessment": [
+    {
+      "question": "What is the primary goal of Kimura from Guard?",
+      "answer": "The primary goal is to isolate and control the opponent's arm using a figure-four grip configuration, then apply rotational torque to the shoulder joint to achieve either a submission tap or establish the Kimura Trap control position for sweeps and back takes.",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "What position do you start Kimura from Guard from?",
+      "answer": "This technique starts from Closed Guard with the bottom player (you) attacking the arm of the top player when they post their hand on the mat or place it on your hip.",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "What are the key grips needed for Kimura from Guard?",
+      "answer": "The Kimura requires a figure-four grip: your same-side hand controls the opponent's wrist with a C-grip (thumb on top), while your opposite arm threads under their triceps and grips your own wrist. The figure-four creates a powerful lever system with your forearm against the back of their triceps.",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "Your opponent straightens their arm when you attempt to lock the figure-four - how do you respond?",
+      "answer": "Immediately transition to the hip bump sweep. Their straight arm has removed their posting base on that side. Maintain your wrist grip, sit up explosively while bridging toward the trapped arm side, and sweep them to mount. The arm straightening that defends the Kimura creates the exact vulnerability for the sweep.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "When is the best time to attempt Kimura from Guard?",
+      "answer": "The optimal timing is when the opponent voluntarily places their hand on the mat to post for base, places their hand on your hip to control distance, or is off-balanced forward with compromised posture. You can also create the timing by threatening other attacks like the hip bump sweep or guillotine that force them to post their hand.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "Why is hip escaping to create an angle essential for the Kimura?",
+      "answer": "The hip escape creates a perpendicular angle to the opponent that provides the mechanical leverage needed for the rotational submission. Without the angle, you're trying to rotate their shoulder while parallel to their body, which offers minimal leverage. The angle also prevents them from simply driving forward to stack you and extract their arm.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "Your opponent defends by pulling their elbow tight and turning away from you - what opportunity does this create?",
+      "answer": "This defense exposes their back. Maintain your Kimura grip, unlock your guard, and follow their rotation. Thread your near-side hook as they turn, using the Kimura control to prevent them from completing the escape. Transition to back control while maintaining the Kimura grip as a secondary attack threat.",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "How do you apply the finishing rotational force correctly in the Kimura?",
+      "answer": "Pin their elbow tight to your chest as a fixed pivot point. Drive their wrist toward the mat in a circular arc motion while simultaneously lifting their elbow upward. The force creates rotation at the shoulder joint specifically. Keep your elbows squeezed together to maintain grip integrity and apply pressure gradually to allow for the tap.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "What is the critical difference between the Kimura as a submission versus the Kimura Trap as a control position?",
+      "answer": "The Kimura submission applies immediate rotational pressure to finish. The Kimura Trap maintains the figure-four grip without immediate finishing pressure, using it instead as a control position to threaten sweeps, back takes, and submission chains. The Trap approach prioritizes positional advancement over direct submission, creating a dilemma where any defense opens another attack.",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "Against a larger opponent who is very strong, how do you modify your Kimura attack strategy?",
+      "answer": "Focus on using the Kimura grip as a control and sweeping tool rather than a direct submission. Emphasize hip movement and angle creation over grip strength. Use the Kimura Trap system to threaten multiple attacks, forcing them to defend movement rather than resist static pressure. Chain to hip bump sweep when they straighten, or back take when they turn away.",
+      "difficulty": "Advanced"
+    }
+  ],
+  "safety_considerations": "The Kimura attacks the shoulder joint, specifically the glenohumeral joint and surrounding rotator cuff structures. Apply pressure gradually and in a controlled manner, especially during training. The shoulder can rotate significantly before reaching its limit, so partners must tap early rather than waiting for pain. Release immediately upon tap - do not hold or crank after submission. Avoid explosive finishing motions which can cause injury before the partner has time to tap. Partners with pre-existing shoulder injuries should communicate limitations before drilling. When drilling repetitions, alternate sides to avoid overloading one shoulder joint.",
+  "position_integration": "The Kimura from Guard is a cornerstone technique that connects to numerous other attacks in the closed guard system. It forms a natural chain with the hip bump sweep - when opponents defend one, they become vulnerable to the other. The Kimura grip also provides a pathway to back control when opponents turn away to defend. This creates a three-way dilemma from guard: submit with the Kimura, sweep with the hip bump, or take the back. The technique also connects to the broader arm attack system including americanas and armbars, as the controlling grip positions can transition between these submissions based on opponent reactions.",
+  "related_content": [
+    {
+      "name": "Closed Guard",
+      "relationship": "Starting position"
+    },
+    {
+      "name": "Kimura Trap",
+      "relationship": "Primary success outcome - control position"
+    },
+    {
+      "name": "Hip Bump Sweep",
+      "relationship": "Chain attack when opponent straightens arm"
+    },
+    {
+      "name": "Back Take from Bottom",
+      "relationship": "Transition when opponent turns away"
+    },
+    {
+      "name": "Americana from Mount",
+      "relationship": "Related shoulder lock using similar grip mechanics"
+    },
+    {
+      "name": "Armbar from Guard",
+      "relationship": "Alternative arm attack from same position"
+    },
+    {
+      "name": "Guillotine Choke",
+      "relationship": "Setup technique that forces hand posting"
+    },
+    {
+      "name": "Mount",
+      "relationship": "Position achieved after hip bump sweep"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Common counter outcome"
+    },
+    {
+      "name": "Kimura Sweep",
+      "relationship": "Sweep using Kimura grip against stacking defense"
+    }
+  ]
+}

@@ -1,0 +1,273 @@
+{
+  "name": "Stack Pass from Inversion",
+  "description": "Master Stack Pass from Inversion in BJJ. Defeat inverted guards by driving hips over shoulders. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "tags": [
+    "bjj",
+    "guard-pass",
+    "stack-pass",
+    "inverted-guard",
+    "pressure-passing",
+    "grasshopper-guard"
+  ],
+  "from_position": "Grasshopper Guard/Top",
+  "outcomes": [
+    {
+      "to": "Side Control",
+      "probability": 65,
+      "result": "success"
+    },
+    {
+      "to": "Grasshopper Guard",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Closed Guard",
+      "probability": 10,
+      "result": "counter"
+    }
+  ],
+  "success_rates": {
+    "beginner": 30,
+    "intermediate": 50,
+    "advanced": 65
+  },
+  "overview": "The Stack Pass from Inversion is a high-pressure passing technique designed to neutralize inverted guard players by driving their hips over their shoulders, compressing their spine and eliminating their mobility. When facing grasshopper guard or similar inverted positions, the bottom player relies on hip elevation and leg mobility to threaten sweeps and leg entanglements. The stack pass directly attacks this mechanic by reversing the pressure dynamic - instead of allowing them to use their elevated hips offensively, you fold them over themselves, making their legs heavy and immobile.\n\nThis pass requires precise timing, as attempting to stack against a fully established inversion with active legs will likely result in leg entanglements or sweeps. The optimal window occurs when the bottom player's hips begin to drop from fatigue or during transitions between leg configurations. Recognizing this window separates successful stack passers from those who get caught in leg attacks.\n\nStrategically, the stack pass represents a commitment - once you drive forward, you cannot easily disengage without giving up position. This makes it critical to secure adequate leg control before initiating the stack. The technique works best as part of a pressure passing system where you've already forced the opponent to work hard maintaining their inversion, creating the fatigue that opens the stacking opportunity.",
+  "key_principles": [
+    "Control opponent's legs before initiating forward pressure to prevent leg entanglements",
+    "Drive hips over shoulders rather than just pressing down to create true compression",
+    "Maintain constant forward pressure once committed to prevent opponent from resetting inversion",
+    "Use your chest and shoulder weight rather than arm strength to generate stacking force",
+    "Keep your base wide and heavy to resist any sweep attempts during the pass",
+    "Time the stack to coincide with opponent's hip drop or inversion weakness"
+  ],
+  "setup_requirements": [
+    "Opponent in inverted guard position with hips elevated",
+    "Both of opponent's legs controlled or pinned to prevent leg threading",
+    "Your posture lowered with hips driving forward rather than standing tall",
+    "Clear path to drive forward without opponent's legs blocking your hips",
+    "Recognition that opponent's inversion is weakening through fatigue or positioning error"
+  ],
+  "execution_steps": [
+    {
+      "step_number": 1,
+      "action": "Secure leg control",
+      "description": "Pin opponent's legs together by gripping behind both knees or controlling their ankles, preventing them from separating legs to create hooks or entanglements",
+      "timing": "Before initiating any forward pressure"
+    },
+    {
+      "step_number": 2,
+      "action": "Lower your level",
+      "description": "Drop your hips and chest toward opponent, bringing your center of gravity low to generate maximum forward pressure while maintaining a stable, sprawled base",
+      "timing": "Immediately after securing leg control"
+    },
+    {
+      "step_number": 3,
+      "action": "Drive forward",
+      "description": "Push your hips and chest forward into opponent's legs, beginning to fold their hips toward their face while walking your feet forward to maintain driving pressure",
+      "timing": "Continuous once initiated"
+    },
+    {
+      "step_number": 4,
+      "action": "Stack the hips",
+      "description": "Continue driving until opponent's hips pass over their shoulders, compressing their spine into a folded position with their weight resting on their upper back and neck",
+      "timing": "When you feel their resistance collapse"
+    },
+    {
+      "step_number": 5,
+      "action": "Pin and redirect",
+      "description": "Use your shoulder pressure on their thighs or hips to pin them in the stacked position while you begin walking your hips to one side to clear their legs",
+      "timing": "Once stack is established"
+    },
+    {
+      "step_number": 6,
+      "action": "Complete the pass",
+      "description": "Slide your hips past their legs to one side, transitioning to side control by establishing crossface and hip-to-hip contact as their legs fall away",
+      "timing": "When path to side control opens"
+    }
+  ],
+  "common_counters": [
+    {
+      "counter": "Re-inverting and shooting legs through for leg entanglement before stack is complete",
+      "effectiveness": "High",
+      "your_response": "Maintain tight leg control throughout and do not release grip until you have cleared to side control"
+    },
+    {
+      "counter": "Granby roll away from stacking pressure to reset guard",
+      "effectiveness": "Medium",
+      "your_response": "Follow their roll direction and transition to a leg drag or toreando pass as they turn"
+    },
+    {
+      "counter": "Posting on your hips with hands to prevent forward pressure",
+      "effectiveness": "Medium",
+      "your_response": "Strip their hand posts by circling your arms inside their frames and continue driving forward"
+    },
+    {
+      "counter": "Technical standup using the stacking momentum to come up on top",
+      "effectiveness": "Low",
+      "your_response": "Drive your weight down and forward if they attempt to post - a fully committed stack prevents standing"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "Attempting to stack before controlling opponent's legs",
+      "consequence": "Opponent threads legs for entanglements, catches ankle lock, or enters ashi garami position",
+      "correction": "Always secure leg control by pinning legs together before initiating any forward pressure"
+    },
+    {
+      "error": "Standing too tall during the stack attempt",
+      "consequence": "Cannot generate adequate forward pressure, opponent easily re-inverts or creates scramble",
+      "correction": "Keep your level low with chest driving forward, walking feet forward rather than bending at waist"
+    },
+    {
+      "error": "Releasing pressure after initial stack to look for pass",
+      "consequence": "Opponent immediately recovers hip elevation and resets inverted guard position",
+      "correction": "Maintain constant forward pressure throughout the entire pass sequence until side control is secured"
+    },
+    {
+      "error": "Stacking straight down instead of driving hips over shoulders",
+      "consequence": "Opponent maintains mobility and can still generate sweeping power with their legs",
+      "correction": "Drive at an angle that folds opponent's hips past their face, compressing spine to eliminate leg power"
+    },
+    {
+      "error": "Attempting stack when opponent has strong, fresh inversion",
+      "consequence": "Opponent uses your forward momentum for elevation sweep or X-guard entry",
+      "correction": "Wait for hip drop indicating fatigue or inversion weakness before committing to the stack"
+    }
+  ],
+  "training_progressions": [
+    {
+      "phase": "Week 1-2",
+      "focus": "Stacking mechanics",
+      "description": "Practice the folding motion against a compliant partner, learning proper body positioning to drive hips over shoulders without relying on arm strength",
+      "resistance_level": "None"
+    },
+    {
+      "phase": "Week 3-4",
+      "focus": "Timing recognition",
+      "description": "Partner holds grasshopper guard with 50% intensity, randomly allowing hip drops. Practice recognizing the window and initiating stack at the right moment",
+      "resistance_level": "Light"
+    },
+    {
+      "phase": "Week 5-6",
+      "focus": "Counter integration",
+      "description": "Partner actively attempts counters including leg threading and Granby rolls. Learn to maintain leg control through counters and adjust pass direction",
+      "resistance_level": "Medium"
+    },
+    {
+      "phase": "Week 7+",
+      "focus": "Live application",
+      "description": "Full resistance positional sparring starting with partner in grasshopper guard. Integrate stack pass into complete passing game with chain attacks",
+      "resistance_level": "Full"
+    }
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Double Under Stack Pass",
+      "description": "Secure both legs over your shoulders with double underhooks before stacking, providing maximum control against flexible opponents who might escape single-leg control",
+      "when_to_use": "Against very flexible opponents or when they have strong leg pummeling"
+    },
+    {
+      "variant_name": "Stack to Leg Drag",
+      "description": "Use the initial stacking pressure to collapse their guard, then transition to a leg drag by pulling one leg across your body rather than completing the stack",
+      "when_to_use": "When opponent successfully defends the full stack but cannot re-invert"
+    },
+    {
+      "variant_name": "Stack to Mount",
+      "description": "Instead of passing to side control, step directly over into mount as opponent's legs are compressed, using the stacked position to bypass side control entirely",
+      "when_to_use": "When opponent's guard collapses completely and mount path is clear"
+    }
+  ],
+  "knowledge_assessment": [
+    {
+      "question": "What is the primary goal of the Stack Pass from Inversion?",
+      "answer": "The primary goal is to neutralize the bottom player's hip elevation by driving their hips over their shoulders, compressing their spine and eliminating the mobility and leverage they need for sweeps and leg attacks. This transforms their offensive position into a defensive one where they cannot generate power.",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "What position do you start Stack Pass from Inversion from?",
+      "answer": "This technique starts from top position against an inverted guard, most commonly Grasshopper Guard. You are standing or in low combat base facing an opponent who has inverted with elevated hips and legs seeking to create entanglements or sweeps.",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "What are the key grips needed for Stack Pass from Inversion?",
+      "answer": "The essential grip is control of both legs, typically achieved by gripping behind both knees to pin the legs together, or controlling both ankles. The specific grip matters less than ensuring the opponent cannot separate their legs to thread for entanglements or create hooks.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "How do you counter the Stack Pass from Inversion as the bottom player?",
+      "answer": "The most effective counter is preventing leg control by keeping legs active and separated. If the stack begins, a Granby roll in the direction of pressure can reset the guard. Early in the stack, shooting legs through for ashi garami entries is possible. Once fully stacked, options become limited - prevention is key.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "When is the best time to attempt the Stack Pass from Inversion?",
+      "answer": "The optimal timing is when the opponent's hips begin dropping from core fatigue or during transitions between leg configurations. Attempting against a fresh, fully established inversion with active legs risks leg entanglements. Patience and timing recognition are critical - let the position fatigue work for you.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "Your opponent begins threading a leg inside yours as you initiate the stack - what adjustment do you make?",
+      "answer": "Immediately halt forward pressure and address the leg control issue by squaring your hips and pinning both legs together again. Attempting to continue the stack with compromised leg control leads directly to ashi garami or other leg entanglements. Reset the leg control before resuming.",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "What is the difference between pressing down and actually stacking an opponent?",
+      "answer": "Pressing down puts weight on the opponent but allows them to retain hip mobility and leg power. True stacking drives the hips past the shoulders so the spine compresses and folds, making the opponent's legs heavy and immobile. The angle of pressure determines effectiveness - forward and through, not straight down.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "Why must you maintain constant pressure once you commit to the stack pass?",
+      "answer": "Any release of pressure allows the opponent to immediately recover hip elevation and reset their inverted guard. The inverted position requires constant core engagement to maintain - if you relieve pressure even momentarily, their hips spring back to offensive position. The pass requires continuous commitment from initiation to side control.",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "Your opponent posts their hands on your hips to prevent the stack - how do you address this?",
+      "answer": "Circle your arms inside their arm posts to strip the frames, bringing your elbows inside their elbows. As you strip the posts, continue driving forward. Their arm posts cannot match your leg-driven forward pressure once you've cleared the frames. Do not try to rip through the posts - swim inside them.",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "How does the Stack Pass integrate with other pressure passing techniques?",
+      "answer": "The stack pass works best as part of a pressure system. Use toreando or leg drag attempts to force the opponent to invert defensively, which fatigues their core. When their inversion weakens, the stack becomes available. If the stack is defended with a Granby roll, follow with a leg drag or toreando. The techniques chain together based on opponent's reactions.",
+      "difficulty": "Advanced"
+    }
+  ],
+  "safety_considerations": "The Stack Pass from Inversion puts significant pressure on the opponent's cervical spine and lower back when fully stacked. Apply pressure progressively rather than explosively to allow training partners to tap if their neck or back is compromised. Be especially cautious with older training partners or those with existing spine issues. Never hold a stack position statically for extended periods in training. If your partner signals discomfort or taps, release pressure immediately. Avoid this technique entirely if your partner has known cervical spine problems or recent back injuries.",
+  "position_integration": "The Stack Pass from Inversion fits within the pressure passing system as a response to inverted guards. It typically appears after guard engagement when the opponent inverts to defend leg drags or toreando passes. The technique chains naturally with other pressure passes - a defended stack often opens leg drag opportunities when the opponent Granby rolls, while a successful stack leads directly to side control and the submission chains available there. Understanding when to stack versus when to use alternative passes (back step, leg drag) based on the opponent's leg configuration and fatigue level is essential for high-level guard passing.",
+  "related_content": [
+    {
+      "name": "Grasshopper Guard",
+      "relationship": "Starting position - the inverted guard this pass is designed to defeat"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Primary destination after successful pass completion"
+    },
+    {
+      "name": "Leg Drag Pass",
+      "relationship": "Alternative pass when stack is defended with Granby roll"
+    },
+    {
+      "name": "Toreando Pass",
+      "relationship": "Complementary pass that can force inversions setting up the stack"
+    },
+    {
+      "name": "Back Step Pass",
+      "relationship": "Alternative when opponent threatens leg entanglements"
+    },
+    {
+      "name": "Double Under Pass",
+      "relationship": "Related technique with similar stacking mechanics"
+    },
+    {
+      "name": "Inverted Guard",
+      "relationship": "Parent category of guards this pass addresses"
+    },
+    {
+      "name": "Closed Guard",
+      "relationship": "Possible counter destination if opponent Granby rolls successfully"
+    },
+    {
+      "name": "Mount",
+      "relationship": "Alternative destination when passing directly over stacked opponent"
+    }
+  ]
+}

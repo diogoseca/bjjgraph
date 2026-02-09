@@ -1,0 +1,285 @@
+{
+  "name": "Leg Drag to Knee on Belly",
+  "description": "Master Leg Drag to Knee on Belly transition in BJJ. Execute from Leg Drag Control to dominant pressure. Success rates: Beginner 50%, Intermediate 70%, Advanced 85%.",
+  "tags": [
+    "bjj",
+    "transition",
+    "guard-passing",
+    "knee-on-belly",
+    "leg-drag",
+    "pressure-passing",
+    "intermediate"
+  ],
+  "from_position": "Leg Drag Control/Top",
+  "outcomes": [
+    {
+      "to": "Knee on Belly",
+      "probability": 65,
+      "result": "success"
+    },
+    {
+      "to": "Leg Drag Control",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Half Guard",
+      "probability": 10,
+      "result": "counter"
+    }
+  ],
+  "success_rates": {
+    "beginner": 50,
+    "intermediate": 70,
+    "advanced": 85
+  },
+  "overview": "The Leg Drag to Knee on Belly transition represents a high-percentage pathway from one of the most dominant passing positions directly into a scoring and attacking position. Rather than settling into side control after completing the leg drag, this transition capitalizes on the opponent's compromised hip position to immediately establish knee on belly pressure. The timing is critical—you must move before the opponent can establish frames or recover their guard structure.\n\nStrategically, this transition serves multiple purposes in your passing game. Knee on belly from leg drag creates immediate scoring opportunities in competition while simultaneously opening submission pathways including cross collar chokes, armbars, and baseball bat chokes. The psychological pressure of knee on belly often forces desperate reactions that create secondary opportunities. Additionally, if the opponent manages to escape knee on belly, you typically maintain a passing position rather than being fully swept.\n\nThe biomechanical advantage of this transition lies in the leg drag's control over the opponent's hips. With their leg dragged across their body, the opponent cannot effectively bridge or create the hip movement necessary to prevent your knee placement. Your existing shoulder control from the leg drag position provides the upper body dominance needed to safely release the leg and transition your knee to their midsection. Understanding this connection between leg drag mechanics and knee on belly establishment is essential for high-percentage execution.",
+  "key_principles": [
+    "Maintain shoulder or head control throughout the transition to prevent opponent from sitting up",
+    "Release the trapped leg only after your knee is already moving to their belly",
+    "Drive your knee across the opponent's centerline at a 45-degree angle for maximum pressure",
+    "Keep your posting foot wide and active for base during the transition",
+    "Transfer weight to knee on belly immediately—hesitation allows escape",
+    "Your grip hand transitions from leg control to collar or belt as you establish knee on belly",
+    "Stay on the balls of your feet to maintain mobility and adjust to opponent's reactions"
+  ],
+  "setup_requirements": [
+    "Established leg drag control with opponent's near leg pulled across their body",
+    "Strong shoulder or head control preventing opponent from facing you",
+    "Opponent's hips turned away from you due to leg drag configuration",
+    "Your weight distribution allows for quick transition without losing balance",
+    "Opponent is not actively threatening leg entanglement counters",
+    "Clear pathway to opponent's midsection without obstructions"
+  ],
+  "execution_steps": [
+    {
+      "step_number": 1,
+      "action": "Secure upper body control",
+      "description": "Ensure your crossface or shoulder control is firmly established before initiating transition. Your free hand should control their far shoulder, head, or have a collar grip that prevents them from sitting up or turning into you.",
+      "timing": "Before releasing any leg control"
+    },
+    {
+      "step_number": 2,
+      "action": "Shift weight forward",
+      "description": "Begin transferring your weight from your hips toward your chest, driving more pressure into their upper body. This loads your weight onto your shoulder control hand and frees your hip-side leg for movement while keeping them pinned.",
+      "timing": "1-2 seconds"
+    },
+    {
+      "step_number": 3,
+      "action": "Release leg control",
+      "description": "Release your grip on their trapped leg while maintaining chest pressure on their hip. Your leg-controlling hand immediately moves to secure belt, hip, or collar grip to replace the leg control with upper body control.",
+      "timing": "Simultaneous with knee movement"
+    },
+    {
+      "step_number": 4,
+      "action": "Drive knee to belly",
+      "description": "Bring your near-side knee directly across to their solar plexus or lower ribcage, driving at a 45-degree angle across their centerline. Your shin should be perpendicular to their body with your knee pointing toward their far hip.",
+      "timing": "Explosive movement"
+    },
+    {
+      "step_number": 5,
+      "action": "Establish posting foot",
+      "description": "Plant your far-side foot wide on the mat, heel off the ground, toes pointed outward for maximum base. This foot provides the foundation for your balance and allows rapid adjustment to opponent's escape attempts.",
+      "timing": "Simultaneous with knee placement"
+    },
+    {
+      "step_number": 6,
+      "action": "Settle weight and grip",
+      "description": "Drive your bodyweight through your knee into their midsection while securing your preferred grip—typically collar and belt, or double collar in gi, or head and hip control in no-gi. Your posture should be upright with hips forward to maximize pressure.",
+      "timing": "Immediately after knee placement"
+    }
+  ],
+  "common_counters": [
+    {
+      "counter": "Opponent frames on knee and hip escapes before knee settles",
+      "effectiveness": "High",
+      "your_response": "Anticipate the frame by driving your knee lower toward their hip initially, then slide it up to belly once past their hands. Alternatively, switch to north-south if they successfully create space."
+    },
+    {
+      "counter": "Opponent bridges and attempts to turn away as you release leg",
+      "effectiveness": "Medium",
+      "your_response": "Follow their turning motion and take their back instead of forcing knee on belly. The bridge actually assists your back take if you maintain shoulder control and insert hooks."
+    },
+    {
+      "counter": "Opponent attempts leg recovery by pulling knee to chest",
+      "effectiveness": "Medium",
+      "your_response": "Drive your knee across their thigh to pin it down while establishing knee on belly. Use your grip hand to push their recovering knee away or transition to leg weave control."
+    },
+    {
+      "counter": "Opponent sits up aggressively toward you during transition",
+      "effectiveness": "Low",
+      "your_response": "Meet their sit-up with increased shoulder pressure and consider transitioning to front headlock or guillotine rather than forcing knee on belly. Their forward momentum creates submission opportunities."
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "Releasing leg control before establishing alternative upper body grip",
+      "consequence": "Opponent immediately recovers guard by pulling knee to chest and re-establishing frames",
+      "correction": "Your leg-controlling hand must have a new grip (collar, belt, or hip) before releasing the leg—never have a moment with only one control point"
+    },
+    {
+      "error": "Placing knee too high on chest instead of belly or lower ribcage",
+      "consequence": "Less effective pressure, easier for opponent to breathe, and vulnerable to being pushed off balance",
+      "correction": "Target the solar plexus area where diaphragm meets ribcage for maximum pressure effect and optimal weight distribution"
+    },
+    {
+      "error": "Keeping posting foot too close to opponent's body",
+      "consequence": "Poor base allows opponent to easily off-balance you with hip escape or bridge",
+      "correction": "Plant your posting foot at least shoulder-width away from opponent's body with toes pointed outward for maximum stability"
+    },
+    {
+      "error": "Transitioning too slowly or hesitantly",
+      "consequence": "Opponent has time to establish defensive frames and prevent knee placement",
+      "correction": "The transition must be one fluid explosive movement—practice until the release-and-knee-drive feels like a single action"
+    },
+    {
+      "error": "Losing shoulder control during transition",
+      "consequence": "Opponent sits up, faces you, and potentially reverses or recovers half guard",
+      "correction": "Maintain crossface or head control throughout—your upper body control must never break during the transition"
+    },
+    {
+      "error": "Sitting too upright immediately after establishing knee on belly",
+      "consequence": "Weight comes off opponent, reducing pressure and control effectiveness",
+      "correction": "Drive hips forward and lean slightly toward opponent after knee placement to maximize weight through the knee"
+    }
+  ],
+  "training_progressions": [
+    {
+      "phase": "Week 1-2",
+      "focus": "Mechanics and weight transfer",
+      "description": "Practice the transition slowly with a cooperative partner, focusing on maintaining shoulder control throughout and proper knee placement. Drill the hand switch from leg control to collar grip until it becomes automatic. Work on foot positioning for optimal base.",
+      "resistance_level": "None"
+    },
+    {
+      "phase": "Week 3-4",
+      "focus": "Timing and speed",
+      "description": "Increase transition speed while partner provides light frames and defensive movement. Work on recognizing the optimal moment to transition based on opponent's position and reactions. Begin drilling from dynamic leg drag entries rather than static starting positions.",
+      "resistance_level": "Light"
+    },
+    {
+      "phase": "Week 5-6",
+      "focus": "Counter recognition and combinations",
+      "description": "Partner actively attempts counters (frame, bridge, sit up, leg recovery). Practice adapting your transition based on their response—switching to back take, north-south, or re-establishing leg drag as needed. Chain into submissions from knee on belly.",
+      "resistance_level": "Medium"
+    },
+    {
+      "phase": "Week 7+",
+      "focus": "Competition application",
+      "description": "Full resistance drilling and specific training from leg drag position. Work on hitting the transition during live rolling from actual guard passes. Develop ability to score and attack from knee on belly against actively resisting opponents of various sizes and skill levels.",
+      "resistance_level": "Full"
+    }
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Floating knee on belly entry",
+      "description": "Instead of driving knee directly to belly, briefly float your knee above opponent while maintaining pressure through your hands. This allows you to read their defensive reaction and place your knee in the optimal position based on where they're NOT defending.",
+      "when_to_use": "Against opponents with strong frame timing who consistently block direct knee placement"
+    },
+    {
+      "variant_name": "Reverse knee on belly transition",
+      "description": "When opponent turns away strongly during leg drag, instead of following to back, step over their hip with your far leg to establish reverse knee on belly facing their legs. This opens leg attack opportunities while maintaining dominant position.",
+      "when_to_use": "When opponent's strong turning defense prevents standard knee on belly or back take"
+    },
+    {
+      "variant_name": "No-gi hip control variation",
+      "description": "Without collar grip available, transition emphasizes underhook control of far arm combined with driving crossface. Knee placement stays lower on hip initially before sliding to belly to prevent opponent's arm frames.",
+      "when_to_use": "In no-gi grappling where collar and belt grips are unavailable"
+    }
+  ],
+  "knowledge_assessment": [
+    {
+      "question": "What is the primary goal of Leg Drag to Knee on Belly?",
+      "answer": "The primary goal is to capitalize on the leg drag's hip control to immediately establish a scoring and attacking position before the opponent can recover their guard. Knee on belly creates immediate scoring opportunities while opening submission pathways including collar chokes, armbars, and baseball bat chokes.",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "What position do you start Leg Drag to Knee on Belly from?",
+      "answer": "This technique starts from Leg Drag Control with you on top. You must have the opponent's near leg pulled across their body with shoulder or head control preventing them from facing you. Their hips should be turned away due to the leg drag configuration.",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "What grip transition must occur as you release the trapped leg?",
+      "answer": "Your leg-controlling hand must immediately transition to a collar grip, belt grip, or hip control before fully releasing the leg. This ensures you never have a moment with only one control point, which would allow guard recovery. The transition should feel like replacing one grip with another in a single motion.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "Your opponent frames on your knee as you attempt the transition—how do you adapt?",
+      "answer": "Drive your knee lower initially, targeting their hip rather than belly, to get underneath their frame. Once past their hands, slide the knee up to the solar plexus area. Alternatively, if their frame is particularly strong, use their extended arms to switch to north-south control or circle back to leg drag position for a reattempt.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "When is the best time to attempt Leg Drag to Knee on Belly?",
+      "answer": "The optimal time is immediately after establishing solid leg drag control when the opponent's hips are most compromised and they haven't yet established defensive frames. Transitioning too early risks guard recovery; too late gives them time to build a defensive structure. The moment your shoulder control is secure and their leg is fully dragged is your window.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "Where exactly should your knee be placed for maximum pressure effectiveness?",
+      "answer": "Target the solar plexus area where the diaphragm meets the lower ribcage. This placement maximizes pressure effect on breathing while providing optimal weight distribution and balance. Placing too high on the chest reduces pressure and stability; too low on the belly allows easier escape and breathing.",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "Your opponent bridges explosively as you release leg control—what adjustment do you make?",
+      "answer": "Follow their bridge rather than fighting it. Their turning motion actually assists a back take if you maintain shoulder control. Release the knee on belly attempt, drive your chest into their back, and work to insert your bottom hook as they expose their back. The bridge creates the angle you need for back control.",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "What is the critical principle regarding upper body control during this transition?",
+      "answer": "Shoulder or head control must be maintained throughout the entire transition—it must never break. This upper body control is what prevents the opponent from sitting up, turning into you, or recovering their guard. The transition only involves changing your grip and knee position while upper body dominance remains constant.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "How should your posting foot be positioned and why?",
+      "answer": "The posting foot should be planted at least shoulder-width away from the opponent's body with the heel off the ground and toes pointed outward. This wide, active posting position provides maximum base against hip escapes and bridges while allowing rapid adjustment to the opponent's movement. A narrow foot position invites easy off-balancing.",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "Your opponent pulls their knee to their chest during your transition—how do you address this leg recovery attempt?",
+      "answer": "Drive your transitioning knee across their thigh to pin it down before it reaches their chest, using your shin as a barrier. Simultaneously, use your grip hand to push their recovering knee away while continuing to establish knee on belly. If they succeed in getting their knee high, transition to leg weave or smash pass rather than forcing knee on belly.",
+      "difficulty": "Advanced"
+    }
+  ],
+  "safety_considerations": "This transition involves driving significant bodyweight through your knee into the opponent's midsection. During training, always apply pressure gradually rather than dropping your full weight explosively, especially with smaller or newer training partners. Be attentive to tap signals that may indicate rib discomfort rather than submission. Partners with rib injuries, recent abdominal surgery, or breathing conditions should communicate these issues before drilling. When first learning, practice the movement pattern without pressure to develop proper mechanics before adding intensity.",
+  "position_integration": "The Leg Drag to Knee on Belly transition sits at a critical junction in the pressure passing system. It connects the guard passing phase (leg drag) directly to a dominant attacking position without the intermediate step of side control consolidation. This transition exemplifies the modern passing philosophy of continuous advancement—rather than stopping at each position, you flow through control points toward immediate scoring and submission opportunities. The connection to knee on belly also creates a decision tree where you can attack immediately with collar chokes, transition to mount, or drop back to leg attacks based on opponent's reactions. Mastering this transition elevates your leg drag from a passing technique into a complete attacking system.",
+  "related_content": [
+    {
+      "name": "Leg Drag Control",
+      "relationship": "Starting position"
+    },
+    {
+      "name": "Knee on Belly",
+      "relationship": "Target position"
+    },
+    {
+      "name": "Leg Drag Pass to Side Control",
+      "relationship": "Alternative transition from same position"
+    },
+    {
+      "name": "Leg Drag to Back Take",
+      "relationship": "Alternative when opponent turns away"
+    },
+    {
+      "name": "Leg Drag to Mount",
+      "relationship": "Alternative advancement option"
+    },
+    {
+      "name": "Baseball Bat Choke",
+      "relationship": "Follow-up submission from knee on belly"
+    },
+    {
+      "name": "Armbar from Side Control",
+      "relationship": "Follow-up attack from knee on belly"
+    },
+    {
+      "name": "Cross Collar Choke",
+      "relationship": "Follow-up submission from knee on belly"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Common recovery position if transition fails"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Alternative consolidation from knee on belly"
+    }
+  ]
+}

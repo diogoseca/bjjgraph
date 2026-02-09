@@ -1,0 +1,603 @@
+{
+  "name": "Side Control",
+  "slug": "side-control",
+  "description": "Master Side Control in BJJ with complete guides for top pressure, submissions, escapes, and transitions. Techniques for dominant control and defensive recovery.",
+  "variant_uniqueness": "Perpendicular alignment maximizes control",
+  "overview": "Side Control (also known as side mount or cross-side) is one of the most fundamental and dominant positions in Brazilian Jiu-Jitsu, achieved when the top player lies perpendicularly across the opponent's torso, controlling them without the opponent's legs interfering. This position offers significant control and multiple attacking opportunities while providing a stable base from which to advance to more dominant positions. As one of the fundamental controlling positions in Brazilian Jiu-Jitsu, Side Control serves as a critical gateway between guard passing and more dominant positions like mount or back control. The position is valued at 3 points in IBJJF competition and is considered one of the most versatile positions for both maintaining control and launching attacks. Mastery of Side Control requires understanding weight distribution, pressure application, and the ability to transition fluidly between variations while maintaining constant offensive pressure. The perpendicular body alignment creates maximum control surface area while minimizing the opponent's leverage options, making it one of the most efficient positions for control relative to energy expenditure. From this position, the top player can methodically work toward submissions including Americana, kimura, and arm triangle chokes, advance to more dominant positions such as mount, north-south, or knee on belly, or simply maintain control to manage energy and score points. The psychological advantage is also significant - being trapped under side control is one of the most uncomfortable experiences in BJJ, and the constant threat of submissions and position advancement forces the bottom player into reactive, often desperate escape attempts that can be countered and capitalized upon. Understanding both the top and bottom perspectives of this position is essential for all BJJ practitioners, as it represents a critical stage in the positional hierarchy and offers numerous opportunities for both offensive advancement and defensive recovery depending on your position.",
+  "key_principles": [
+    "Distribute weight strategically across opponent's chest and hips using shoulder pressure, chest weight, and hip positioning to maximize control while maintaining mobility",
+    "Eliminate space between bodies through constant pressure and connection, preventing opponent from creating frames or inserting defensive structures",
+    "Control opponent's head and far-side arm using crossface, underhook, or gift wrap positions to limit their mobility and escape options"
+  ],
+  "variations": [
+    {
+      "name": "Kesa Gatame",
+      "slug": "kesa-gatame",
+      "description": "Traditional scarf hold with head control and far arm trapped"
+    },
+    {
+      "name": "Kuzure Kesa-Gatame",
+      "slug": "kuzure-kesa-gatame",
+      "description": "Modified scarf hold with variations in arm control"
+    },
+    {
+      "name": "Modified Scarf Hold",
+      "slug": "modified-scarf-hold",
+      "description": "Adapted scarf position with enhanced mobility"
+    },
+    {
+      "name": "Reverse Kesa-Gatame",
+      "slug": "reverse-kesa-gatame",
+      "description": "Inverted scarf hold facing opponent's legs"
+    },
+    {
+      "name": "Reverse Scarf Hold",
+      "slug": "reverse-scarf-hold",
+      "description": "Alternative reverse positioning with different control points"
+    },
+    {
+      "name": "Scarf Hold Position",
+      "slug": "scarf-hold-position",
+      "description": "Classic scarf hold with traditional grips"
+    },
+    {
+      "name": "Side Control Consolidation",
+      "slug": "side-control-consolidation",
+      "description": "Transition phase establishing dominant control"
+    }
+  ],
+  "related_positions": [
+    {
+      "name": "Mount",
+      "relationship": "Primary advancement target offering higher point value and increased control"
+    },
+    {
+      "name": "North-South",
+      "relationship": "Alternative dominant position accessed via head control transition"
+    },
+    {
+      "name": "Knee on Belly",
+      "relationship": "Transitional control position offering mobility and additional points"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Advanced position when opponent turns incorrectly during escape attempts"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Common escape target for bottom player attempting guard recovery"
+    }
+  ],
+  "top": {
+    "name": "Side Control Top",
+    "description": "Master Side Control Top in BJJ. Complete guide to submissions, transitions, pressure control, and positional advancement from the dominant side position.",
+    "tags": [
+      "side control top techniques and strategy",
+      "bjj top game control position",
+      "dominant position submission platform",
+      "guard passing result side control",
+      "side control pressure and transitions",
+      "positional advancement from side control"
+    ],
+    "overview": "Side Control Top is one of the most fundamental and dominant positions in Brazilian Jiu-Jitsu, achieved when the top player pins the opponent from the side with their chest perpendicular to the opponent's torso while controlling their hips and head. Worth 3 points in IBJJF competition for passing the guard, this position offers exceptional control with minimal energy expenditure when executed correctly. It provides numerous submission opportunities, transitions to even more dominant positions like mount or back control, and presents significant defensive challenges for the bottom player. Side control is often considered the home base of top position work, as it offers stability, control, and offensive options while maintaining relatively low risk of reversal. The position's effectiveness comes from the mechanical advantage of perpendicular body positioning combined with strategic weight distribution that limits the opponent's movement while preserving the top player's mobility. Mastery of side control is essential for all BJJ practitioners, as it represents a critical stage in the positional hierarchy between guard passing and mount. From this position, the top player can methodically work toward submissions, advance to more dominant positions, or simply maintain control to manage energy and score points. The psychological advantage is also significant - being trapped under side control is one of the most uncomfortable experiences in BJJ, and the constant threat of submissions and position advancement forces the bottom player into reactive, often desperate escape attempts that can be countered and capitalized upon.",
+    "state_properties": {
+      "point_value": 3,
+      "position_type": "Offensive/Controlling",
+      "risk_level": "Low",
+      "energy_cost": "Low",
+      "time_sustainability": "Long"
+    },
+    "state_invariants": [
+      "Chest positioned perpendicular to opponent's torso with direct contact across their upper body, creating maximum surface area for control and weight distribution",
+      "Opponent flat on their back with shoulders pinned to the mat, unable to turn into you or create significant angles for escape",
+      "Crossface established with forearm or bicep pressure across opponent's neck and face, controlling their head position and preventing them from turning toward you",
+      "Hip-to-hip connection maintained with your hips low and heavy against opponent's hips, eliminating space and preventing guard recovery"
+    ],
+    "prerequisites": [
+      "Successful guard pass completion from any guard type",
+      "Understanding of weight distribution principles and pressure passing mechanics",
+      "Basic submission mechanics from top position including arm isolations and chokes",
+      "Crossface technique fundamentals and head control principles",
+      "Ability to recognize and counter common escape attempts"
+    ],
+    "key_principles": [
+      "Crossface Control: Forearm or bicep pressure across neck and face prevents opponent from turning into you and creates discomfort that forces reactions",
+      "Hip Pressure: Keep hips low and heavy on opponent's hips to eliminate space and prevent guard recovery",
+      "Weight Distribution: Strategic placement of weight across torso limits opponent's movement while preserving your mobility for transitions",
+      "Head Position: Your head positioned opposite the crossface creates additional pressure and prevents opponent from sitting up",
+      "Hip Control: Near hand blocks opponent's far hip to prevent knee insertion and guard recovery",
+      "Base Management: Appropriate leg positioning with near leg posted and far leg sprawled provides stability against escape attempts",
+      "Chest Pressure: Perpendicular chest contact maximizes control surface and distributes weight effectively"
+    ],
+    "transitions": [
+      {
+        "transition": "Side Control to Mount",
+        "attempt_probability": 25
+      },
+      {
+        "transition": "Side Control to North-South",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Americana from Side Control",
+        "attempt_probability": 15
+      },
+      {
+        "transition": "Kimura from Side Control",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Arm Triangle",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Armbar from Side Control",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Knee on Belly",
+        "attempt_probability": 13
+      },
+      {
+        "transition": "North-South Choke",
+        "attempt_probability": 5
+      }
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent's near arm is extended or pushing against your neck or head",
+        "actions": [
+          {
+            "technique": "Americana from Side Control",
+            "target": "Game Over",
+            "probability": 50
+          },
+          {
+            "technique": "Kimura from Side Control",
+            "target": "Game Over",
+            "probability": 45
+          }
+        ]
+      },
+      {
+        "condition": "If opponent creates space by bridging or frames with both arms",
+        "actions": [
+          {
+            "technique": "Side Control to Mount",
+            "target": "Mount",
+            "probability": 60
+          },
+          {
+            "technique": "Knee on Belly",
+            "target": "Knee on Belly",
+            "probability": 55
+          }
+        ]
+      },
+      {
+        "condition": "If opponent turns into you attempting to recover guard",
+        "actions": [
+          {
+            "technique": "Side Control to North-South",
+            "target": "North-South",
+            "probability": 70
+          },
+          {
+            "technique": "Darce Choke",
+            "target": "Game Over",
+            "probability": 35
+          }
+        ]
+      },
+      {
+        "condition": "If opponent's far arm crosses their own neck while defending",
+        "actions": [
+          {
+            "technique": "Arm Triangle",
+            "target": "Game Over",
+            "probability": 55
+          },
+          {
+            "technique": "Breadcutter Choke",
+            "target": "Game Over",
+            "probability": 40
+          }
+        ]
+      },
+      {
+        "condition": "If opponent attempts to insert knee for half guard recovery",
+        "actions": [
+          {
+            "technique": "Knee on Belly",
+            "target": "Knee on Belly",
+            "probability": 65
+          },
+          {
+            "technique": "Side Control to Mount",
+            "target": "Mount",
+            "probability": 50
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Positioning too high on opponent's chest without hip contact",
+        "consequence": "Allows opponent to create space with their hips, insert a knee for guard recovery, losing the dominant position and potentially the pass points",
+        "correction": "Keep your hips low and in contact with opponent's hips, distributing weight across their torso rather than stacking it high on their chest"
+      },
+      {
+        "error": "Insufficient crossface pressure allowing opponent head mobility",
+        "consequence": "Opponent can turn their head toward you, create angles for escape, and begin bridging or shrimping effectively to recover guard",
+        "correction": "Maintain constant forearm or bicep pressure across opponent's face and neck, driving their head away from you with heavy uncomfortable pressure"
+      },
+      {
+        "error": "Failing to control opponent's far hip with near hand",
+        "consequence": "Opponent can easily insert their knee between your bodies, immediately recovering half guard and nullifying your positional advantage",
+        "correction": "Keep your near hand actively blocking opponent's far hip, preventing any knee insertion with constant downward pressure"
+      },
+      {
+        "error": "Placing too much weight on hands instead of hips",
+        "consequence": "Creates space under your chest that opponent can exploit with frames and escapes, reduces control effectiveness significantly",
+        "correction": "Distribute weight through your hips and torso onto opponent's body, hands should be light and mobile for control rather than bearing weight"
+      },
+      {
+        "error": "Staying static without transitioning or attacking",
+        "consequence": "Allows opponent time to develop escape strategy, recover energy, and potentially create opportunities for reversal",
+        "correction": "Constantly threaten submissions or position advancements to keep opponent reactive and defensive with small weight shifts"
+      },
+      {
+        "error": "Overcommitting to submissions without maintaining position",
+        "consequence": "Opponent escapes to guard or neutral position during your submission attempt, losing your dominant position entirely",
+        "correction": "Maintain positional control throughout submission attempts, return to solid side control if submission isn't immediately available"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Position Maintenance Against Progressive Resistance",
+        "description": "Partner attempts various escape sequences including bridge-and-shrimp, underhook attempts, and ghost escape while you maintain side control with progressive resistance levels. Start at 50% resistance and increase to 100%. Focus on weight distribution, crossface pressure, and hip control. Reset after each successful escape or after 60 seconds of control.",
+        "duration": "5 rounds of 2 minutes"
+      },
+      {
+        "name": "Submission Flow Drill",
+        "description": "Flow between Americana, kimura, arm triangle, and armbar attacks based on partner's defensive positioning. Partner defends with realistic frames and movements. Develop recognition of which submission is available based on arm placement and body position. Emphasize smooth transitions without losing control.",
+        "duration": "4 rounds of 3 minutes"
+      },
+      {
+        "name": "Position Chain Transitions",
+        "description": "Practice sequences from side control to mount to knee on belly to north-south and back to side control. Emphasize smooth transitions and weight distribution adjustments between positions. Partner provides moderate resistance and attempts to escape during transitions.",
+        "duration": "3 rounds of 4 minutes"
+      },
+      {
+        "name": "Counter-Escape Drill",
+        "description": "Partner attempts specific escape such as elbow escape, bridge and roll, or turning in while you practice appropriate counter including mount transition, kimura, or north-south. Build automatic responses to common escape attempts while maintaining dominant position throughout.",
+        "duration": "3 rounds of 3 minutes"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Mount",
+        "relationship": "Primary advancement target from side control offering higher point value"
+      },
+      {
+        "name": "North-South",
+        "relationship": "Alternative dominant position via transition when opponent turns into you"
+      },
+      {
+        "name": "Knee on Belly",
+        "relationship": "Transitional control position for point scoring and mobility"
+      },
+      {
+        "name": "Kesa Gatame",
+        "relationship": "Variation of side control with different control mechanics and head emphasis"
+      },
+      {
+        "name": "Scarf Hold Position",
+        "relationship": "Related holding position with head control emphasis"
+      },
+      {
+        "name": "Half Guard",
+        "relationship": "Common escape target for bottom player attempting guard recovery"
+      },
+      {
+        "name": "Back Control",
+        "relationship": "Advanced position when opponent turns incorrectly during escape"
+      },
+      {
+        "name": "Americana from Side Control",
+        "relationship": "Primary shoulder lock submission from this position"
+      },
+      {
+        "name": "Kimura from Side Control",
+        "relationship": "High-percentage shoulder lock with back take potential"
+      },
+      {
+        "name": "Arm Triangle",
+        "relationship": "Head and arm choke available when opponent defends arms incorrectly"
+      },
+      {
+        "name": "Darce Choke",
+        "relationship": "Effective choke when opponent turns into you from bottom"
+      },
+      {
+        "name": "North-South Choke",
+        "relationship": "Powerful submission from north-south transition"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "beginner": 40,
+        "intermediate": 60,
+        "advanced": 80,
+        "description": "Percentage of time position is maintained without opponent escaping"
+      },
+      "advancement_probability": {
+        "beginner": 35,
+        "intermediate": 55,
+        "advanced": 70,
+        "description": "Likelihood of advancing to more dominant position like mount or back"
+      },
+      "submission_probability": {
+        "beginner": 20,
+        "intermediate": 35,
+        "advanced": 50,
+        "description": "Probability of finishing submission directly from side control"
+      },
+      "average_time": "1-3 minutes for controlled work, 10-30 seconds for dynamic transitions"
+    }
+  },
+  "bottom": {
+    "name": "Side Control Bottom",
+    "description": "Master escaping Side Control Bottom in BJJ. Systematic defensive frameworks covering frames, guard recovery, and escape techniques for all skill levels.",
+    "tags": [
+      "side control bottom escape techniques",
+      "side control escape and defense",
+      "defensive bjj position strategies",
+      "guard recovery from side control",
+      "bjj bottom game fundamentals",
+      "escape fundamentals and framing"
+    ],
+    "overview": "Side Control Bottom is one of the most challenging defensive positions in Brazilian Jiu-Jitsu, where you are pinned on your back with your opponent's chest perpendicular to your torso, controlling your upper body and hips. This position represents a critical moment where effective defense can prevent submission and enable escape or guard recovery. Understanding the systematic approach to escaping side control is essential for all practitioners, as it directly impacts your ability to survive and counter dominant positions. The bottom player must focus on creating frames, generating space through hip movement, and systematically working toward guard recovery or escape while defending against constant submission threats. Success from this position requires technical precision, timing, patience, and the ability to recognize and exploit small windows of opportunity when the top player transitions or attacks. The defensive hierarchy prioritizes first preventing submissions, second preventing position advancement to mount or back, and third creating escape opportunities through systematic space creation and guard recovery sequences. The mechanical principle that makes side control escapes possible is the creation of space through hip movement combined with framing structures that prevent the opponent from following your movement. When you shrimp your hips away, you must simultaneously create a frame with your forearms against the opponent's shoulders or hips to prevent them from simply following your movement and maintaining the pin. The timing element is critical - attempts to escape when the opponent has stable base and settled weight will fail regardless of technique quality.",
+    "state_properties": {
+      "point_value": -3,
+      "position_type": "Defensive",
+      "risk_level": "High",
+      "energy_cost": "High",
+      "time_sustainability": "Short"
+    },
+    "state_invariants": [
+      "Opponent's chest positioned perpendicular to your torso with direct contact across your upper body, creating constant pressure and control surface",
+      "Your shoulders pinned flat on the mat with limited rotational mobility due to opponent's weight distribution",
+      "Opponent's crossface established across your neck and face, preventing you from turning toward them",
+      "Opponent's hips positioned low and heavy against your hips, eliminating space and preventing guard recovery"
+    ],
+    "prerequisites": [
+      "Understanding of framing principles and creating defensive structures with arms and legs",
+      "Hip escape (shrimping) mechanics for creating space under pressure",
+      "Bridge and roll fundamentals for generating explosive movement",
+      "Recognition of submission threats from side control positions",
+      "Guard recovery sequences and systematic escape progressions"
+    ],
+    "key_principles": [
+      "Create frames immediately to prevent opponent from settling full weight and establishing complete control",
+      "Protect neck and arms from submission attempts while working escape sequences",
+      "Generate space through hip movement (shrimping) and explosive bridging at opportune moments",
+      "Never allow opponent to advance to mount or back control during escape attempts",
+      "Work systematically toward guard recovery rather than attempting explosive escapes that expose you to submissions",
+      "Maintain defensive posture with elbows tight to body and chin protected from chokes",
+      "Time escape attempts with opponent's transitions or submission setups when their base is compromised"
+    ],
+    "transitions": [
+      {
+        "transition": "Elbow Escape",
+        "attempt_probability": 28
+      },
+      {
+        "transition": "Frame and Shrimp",
+        "attempt_probability": 22
+      },
+      {
+        "transition": "Bridge and Roll",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Hip Escape",
+        "attempt_probability": 25
+      },
+      {
+        "transition": "Ghost Escape",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Side Control Escape",
+        "attempt_probability": 5
+      }
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent settles heavy chest pressure with tight crossface and hip control",
+        "actions": [
+          {
+            "technique": "Frame Creation",
+            "target": "Defensive frames established",
+            "probability": 60
+          },
+          {
+            "technique": "Ghost Escape",
+            "target": "Turtle",
+            "probability": 35
+          }
+        ]
+      },
+      {
+        "condition": "If opponent transitions toward mount raising hips",
+        "actions": [
+          {
+            "technique": "Elbow Escape",
+            "target": "Half Guard",
+            "probability": 50
+          },
+          {
+            "technique": "Hip Escape",
+            "target": "Knee Shield Half Guard",
+            "probability": 45
+          }
+        ]
+      },
+      {
+        "condition": "If opponent attacks submission lifting weight off hips",
+        "actions": [
+          {
+            "technique": "Side Control Escape",
+            "target": "Butterfly Guard",
+            "probability": 40
+          },
+          {
+            "technique": "Frame and Shrimp",
+            "target": "Closed Guard",
+            "probability": 38
+          }
+        ]
+      },
+      {
+        "condition": "If opponent transitions to north-south creating hip space",
+        "actions": [
+          {
+            "technique": "Hip Escape",
+            "target": "Knee Shield Half Guard",
+            "probability": 45
+          },
+          {
+            "technique": "Hip Escape to Guard",
+            "target": "Deep Half Guard",
+            "probability": 35
+          }
+        ]
+      },
+      {
+        "condition": "If opponent drives aggressive crossface creating turning momentum",
+        "actions": [
+          {
+            "technique": "Ghost Escape",
+            "target": "Turtle",
+            "probability": 50
+          },
+          {
+            "technique": "Bridge and Roll",
+            "target": "Closed Guard",
+            "probability": 25
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting explosive escape movements without creating frames first",
+        "consequence": "Wastes energy, fails to create necessary space, and often exposes arms or neck to submission attacks",
+        "correction": "Establish defensive frames with forearms creating structure before attempting any hip movement or escape sequence"
+      },
+      {
+        "error": "Pushing opponent's head or chest with arms extended",
+        "consequence": "Exposes arms to kimura and americana submissions, weakens defensive structure, and provides opponent with easy submission opportunities",
+        "correction": "Keep elbows tight to body, frame against opponent's hips and shoulders rather than pushing their head or chest directly"
+      },
+      {
+        "error": "Turning toward opponent attempting to face them",
+        "consequence": "Gives up back control, exposes neck to chokes, and transitions from bad position to worse position",
+        "correction": "Turn away from opponent if must turn, always protect back and neck, work systematic escape sequences rather than desperate turning"
+      },
+      {
+        "error": "Lying flat without creating any defensive structure",
+        "consequence": "Allows opponent to settle complete weight and control, makes escape extremely difficult, increases submission vulnerability dramatically",
+        "correction": "Immediately create frames even under heavy pressure, never accept flat position, constantly work to create small amounts of space"
+      },
+      {
+        "error": "Attempting escapes at random times without timing",
+        "consequence": "Escapes fail against stable base, wastes energy on low-percentage attempts, allows opponent to counter and advance position",
+        "correction": "Time escape attempts with opponent's transitions or submission attacks when their base is momentarily compromised"
+      },
+      {
+        "error": "Neglecting to protect neck while focusing only on position escape",
+        "consequence": "Gets submitted by chokes during escape attempts, loses match despite having escape opportunity",
+        "correction": "Maintain chin protection and neck defense throughout all escape sequences, survival takes priority over escape"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Systematic Escape Sequence Drill",
+        "description": "Partner establishes side control with moderate pressure. Practice complete escape sequence from frame creation through space generation to guard recovery. Partner provides realistic but controlled resistance. Focus on proper technique execution and timing. Reset after successful escape or 60 seconds.",
+        "duration": "5 rounds of 2 minutes"
+      },
+      {
+        "name": "Survival Under Pressure Drill",
+        "description": "Partner maintains heavy side control with maximum pressure for extended periods. Focus solely on maintaining defensive frames, protecting neck, and preventing position advancement. Build mental toughness and defensive endurance. No escape attempts, pure survival training.",
+        "duration": "3 rounds of 3 minutes"
+      },
+      {
+        "name": "Counter-Attack Response Drill",
+        "description": "Partner establishes side control and attempts specific submissions (americana, kimura, arm triangle). Practice defending submission while simultaneously working escape sequences. Develop ability to multitask defense and escape. Reset after submission defense or successful escape.",
+        "duration": "4 rounds of 2 minutes"
+      },
+      {
+        "name": "Timing-Based Escape Drill",
+        "description": "Partner transitions between side control variations and mount attempts. Practice recognizing optimal escape timing windows and executing hip escapes only during transitions. Develop timing recognition and opportunistic escape skills.",
+        "duration": "3 rounds of 3 minutes"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Half Guard",
+        "relationship": "Primary escape target providing immediate guard recovery option"
+      },
+      {
+        "name": "Closed Guard",
+        "relationship": "Advanced escape target requiring more space and movement"
+      },
+      {
+        "name": "Turtle",
+        "relationship": "Survival position when full escape not immediately possible"
+      },
+      {
+        "name": "Knee Shield Half Guard",
+        "relationship": "Strong defensive position accessible via hip escape"
+      },
+      {
+        "name": "Deep Half Guard",
+        "relationship": "Advanced recovery position with sweep potential"
+      },
+      {
+        "name": "Elbow Escape",
+        "relationship": "Primary escape technique for recovering half guard"
+      },
+      {
+        "name": "Frame and Shrimp",
+        "relationship": "Fundamental escape combining framing with hip movement"
+      },
+      {
+        "name": "Bridge and Roll",
+        "relationship": "Explosive reversal technique when opponent overcommits"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "beginner": 15,
+        "intermediate": 30,
+        "advanced": 50,
+        "description": "Percentage of time position is maintained without being submitted or advanced upon"
+      },
+      "advancement_probability": {
+        "beginner": 20,
+        "intermediate": 35,
+        "advanced": 50,
+        "description": "Likelihood of successfully escaping to guard or better position"
+      },
+      "submission_probability": {
+        "beginner": 5,
+        "intermediate": 10,
+        "advanced": 15,
+        "description": "Probability of submitting opponent from defensive position (very low)"
+      },
+      "average_time": "30-90 seconds for competent players attempting systematic escape"
+    }
+  }
+}

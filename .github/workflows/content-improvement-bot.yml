@@ -70,7 +70,7 @@ jobs:
 
           # 1. Generate complete content catalog for [[Wikilinks]]
           echo "Generating content catalog..."
-          find source/content -type f \( -name "*.json" -o -name "*.md" \) \
+          find content -type f \( -name "*.json" -o -name "*.md" \) \
             ! -name "CONTRIBUTING-*" ! -name "TEMPLATE*" ! -name "index.md" \
             -exec basename {} \; | \
             sed 's/\.json$//; s/\.md$//' | \
@@ -117,33 +117,33 @@ jobs:
 
                 # Detect SINGLE/DUAL/FAMILY
                 position_name="${file_base}"
-                variant_folder="source/content/Positions/$position_name"
+                variant_folder="content/Positions/$position_name"
 
                 if [ ! -d "$variant_folder" ]; then
                   template_type="SINGLE"
-                  template_file="source/templates/Positions/TEMPLATE-POSITION-SINGLE.json"
+                  template_file="templates/Positions/TEMPLATE-POSITION-SINGLE.json"
                 elif ls "$variant_folder"/*.json >/dev/null 2>&1; then
                   template_type="FAMILY"
-                  template_file="source/templates/Positions/TEMPLATE-POSITION-FAMILY.json"
+                  template_file="templates/Positions/TEMPLATE-POSITION-FAMILY.json"
                 else
                   template_type="DUAL"
-                  template_file="source/templates/Positions/TEMPLATE-POSITION-DUAL.json"
+                  template_file="templates/Positions/TEMPLATE-POSITION-DUAL.json"
                 fi
 
                 echo "  → Position template: $template_type"
 
               elif [[ "$file" == *"/Submissions/"* ]]; then
                 category="Submissions"
-                template_file="source/templates/Submissions.json"
+                template_file="templates/Submissions.json"
               elif [[ "$file" == *"/Transitions/"* ]]; then
                 category="Transitions"
-                template_file="source/templates/Transitions.json"
+                template_file="templates/Transitions.json"
               elif [[ "$file" == *"/Principles/"* ]]; then
                 category="Principles"
-                template_file="source/templates/Principles.json"
+                template_file="templates/Principles.json"
               elif [[ "$file" == *"/Systems/"* ]]; then
                 category="Systems"
-                template_file="source/templates/Systems.json"
+                template_file="templates/Systems.json"
               else
                 echo "  ✗ Unknown category - skipping"
                 continue
@@ -172,8 +172,8 @@ jobs:
               echo "  → Markdown file in $category"
 
               # Try to find template
-              if ls "source/templates/$category"/*.json >/dev/null 2>&1; then
-                template_file=$(ls "source/templates/$category"/*.json | head -1)
+              if ls "templates/$category"/*.json >/dev/null 2>&1; then
+                template_file=$(ls "templates/$category"/*.json | head -1)
                 cp "$template_file" "/tmp/preprocessing/${file_base}_template.json"
                 echo "  ✓ Template found: $template_file"
               else
@@ -247,7 +247,7 @@ jobs:
                For each article, create `/tmp/paa_output/<filename>_paa.json`:
                ```json
                {
-                 "article_path": "source/content/...",
+                 "article_path": "content/...",
                  "seed_keyword": "extracted keyword",
                  "paa_questions": [
                    {
@@ -482,7 +482,7 @@ jobs:
             If PAA reveals content gaps or you identify opportunities:
             - Append to `tests/artifacts/suggested_new_files.csv`
             - Format: `relative_path,"plan with why/target/sections"`
-            - Example: `source/content/Principles/Base-Maintenance.md,"Core principle referenced in 20+ positions; target: beginners; sections: definition, mechanics, drills; gap: no dedicated article exists"`
+            - Example: `content/Principles/Base-Maintenance.md,"Core principle referenced in 20+ positions; target: beginners; sections: definition, mechanics, drills; gap: no dedicated article exists"`
 
             # Execution Order
 

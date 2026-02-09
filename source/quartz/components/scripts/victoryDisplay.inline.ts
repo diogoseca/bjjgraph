@@ -6,6 +6,7 @@ interface JourneyStep {
   name: string
   type: "position" | "transition" | "submission"
   success?: boolean
+  action?: "dice-roll" | "flashcard"
 }
 
 interface VictoryData {
@@ -17,6 +18,94 @@ interface TechniqueRecord {
   name: string
   attempts: number
   successes: number
+}
+
+interface TechniqueLifetime {
+  diceAttempts: number
+  diceSuccesses: number
+  flashcardAttempts: number
+  flashcardCorrect: number
+}
+
+interface LifetimeStats {
+  totalRolls: number
+  totalVictories: number
+  totalMoves: number
+  diceRolls: { total: number; successes: number }
+  flashcards: { total: number; correct: number }
+  techniques: Record<string, TechniqueLifetime>
+}
+
+const LIFETIME_KEY = "bjj-lifetime-stats"
+
+function loadLifetimeStats(): LifetimeStats {
+  try {
+    const raw = localStorage.getItem(LIFETIME_KEY)
+    if (raw) return JSON.parse(raw)
+  } catch {
+    // corrupt data, start fresh
+  }
+  return {
+    totalRolls: 0,
+    totalVictories: 0,
+    totalMoves: 0,
+    diceRolls: { total: 0, successes: 0 },
+    flashcards: { total: 0, correct: 0 },
+    techniques: {},
+  }
+}
+
+function saveLifetimeStats(stats: LifetimeStats) {
+  localStorage.setItem(LIFETIME_KEY, JSON.stringify(stats))
+}
+
+/** Backward-compat: old journey data lacks action field */
+function inferAction(step: JourneyStep): "dice-roll" | "flashcard" {
+  return step.action ?? "dice-roll"
+}
+
+/** Merge current roll into lifetime stats (called once per victory) */
+function accumulateStats(journey: JourneyStep[]): LifetimeStats {
+  const stats = loadLifetimeStats()
+
+  stats.totalRolls++
+  stats.totalVictories++
+  stats.totalMoves += journey.length
+
+  for (const step of journey) {
+    if (step.success === undefined) continue
+
+    const action = inferAction(step)
+
+    if (action === "dice-roll") {
+      stats.diceRolls.total++
+      if (step.success) stats.diceRolls.successes++
+    } else {
+      stats.flashcards.total++
+      if (step.success) stats.flashcards.correct++
+    }
+
+    // Per-technique tracking
+    if (!stats.techniques[step.name]) {
+      stats.techniques[step.name] = {
+        diceAttempts: 0,
+        diceSuccesses: 0,
+        flashcardAttempts: 0,
+        flashcardCorrect: 0,
+      }
+    }
+    const tech = stats.techniques[step.name]
+    if (action === "dice-roll") {
+      tech.diceAttempts++
+      if (step.success) tech.diceSuccesses++
+    } else {
+      tech.flashcardAttempts++
+      if (step.success) tech.flashcardCorrect++
+    }
+  }
+
+  saveLifetimeStats(stats)
+  return stats
 }
 
 function createConfetti(container: HTMLElement) {
@@ -95,6 +184,27 @@ function analyzePerformance(journey: JourneyStep[]): {
   return { strengths, weaknesses }
 }
 
+function renderReportList(
+  list: HTMLElement,
+  records: TechniqueRecord[],
+  emptyMessage: string,
+  cssClass: string,
+) {
+  for (const tech of records) {
+    const li = document.createElement("li")
+    li.className = `report-item ${cssClass}`
+    const pct = Math.round((tech.successes / tech.attempts) * 100)
+    li.innerHTML = `<span class="report-technique">${tech.name}</span><span class="report-rate">${pct}%</span>`
+    list.appendChild(li)
+  }
+  if (records.length === 0) {
+    const li = document.createElement("li")
+    li.className = "report-item empty"
+    li.textContent = emptyMessage
+    list.appendChild(li)
+  }
+}
+
 function renderReport(journey: JourneyStep[]) {
   const reportEl = document.getElementById("performance-report")
   const strengthsList = document.getElementById("report-strengths")
@@ -108,38 +218,88 @@ function renderReport(journey: JourneyStep[]) {
   const totalAttempts = journey.filter((s) => s.success !== undefined).length
   if (totalAttempts < 2) return
 
-  for (const tech of strengths) {
-    const li = document.createElement("li")
-    li.className = "report-item strength"
-    const pct = Math.round((tech.successes / tech.attempts) * 100)
-    li.innerHTML = `<span class="report-technique">${tech.name}</span><span class="report-rate">${pct}%</span>`
-    strengthsList.appendChild(li)
-  }
-
-  for (const tech of weaknesses) {
-    const li = document.createElement("li")
-    li.className = "report-item weakness"
-    const pct = Math.round((tech.successes / tech.attempts) * 100)
-    li.innerHTML = `<span class="report-technique">${tech.name}</span><span class="report-rate">${pct}%</span>`
-    weaknessesList.appendChild(li)
-  }
-
-  // Show "Clean sheet" or "All defended" if one side is empty
-  if (strengths.length === 0) {
-    const li = document.createElement("li")
-    li.className = "report-item empty"
-    li.textContent = "Keep drilling!"
-    strengthsList.appendChild(li)
-  }
-
-  if (weaknesses.length === 0) {
-    const li = document.createElement("li")
-    li.className = "report-item empty"
-    li.textContent = "Clean sheet"
-    weaknessesList.appendChild(li)
-  }
+  renderReportList(strengthsList, strengths, "Keep drilling!", "strength")
+  renderReportList(weaknessesList, weaknesses, "Clean sheet", "weakness")
 
   reportEl.style.display = "block"
+}
+
+function renderLifetimeStats(stats: LifetimeStats, prefix: string) {
+  const container = document.getElementById(`${prefix}lifetime-stats`)
+  if (!container) return
+
+  if (stats.totalRolls === 0) {
+    container.style.display = "none"
+    return
+  }
+
+  container.style.display = "block"
+
+  const setEl = (id: string, text: string) => {
+    const el = document.getElementById(id)
+    if (el) el.textContent = text
+  }
+
+  setEl(`${prefix}lifetime-rolls`, String(stats.totalRolls))
+  setEl(`${prefix}lifetime-victories`, String(stats.totalVictories))
+
+  const diceRate =
+    stats.diceRolls.total > 0
+      ? Math.round((stats.diceRolls.successes / stats.diceRolls.total) * 100) + "%"
+      : "--"
+  setEl(`${prefix}lifetime-dice-rate`, diceRate)
+
+  const flashRate =
+    stats.flashcards.total > 0
+      ? Math.round((stats.flashcards.correct / stats.flashcards.total) * 100) + "%"
+      : "--"
+  setEl(`${prefix}lifetime-flash-rate`, flashRate)
+
+  // Lifetime technique performance (only in victory view, not fallback)
+  const perfEl = document.getElementById("lifetime-performance")
+  const strengthsList = document.getElementById("lifetime-strengths")
+  const weaknessesList = document.getElementById("lifetime-weaknesses")
+
+  if (!perfEl || !strengthsList || !weaknessesList) return
+
+  const entries = Object.entries(stats.techniques)
+  if (entries.length < 2) return
+
+  const strengths: TechniqueRecord[] = []
+  const weaknesses: TechniqueRecord[] = []
+
+  for (const [name, t] of entries) {
+    const total = t.diceAttempts + t.flashcardAttempts
+    const successes = t.diceSuccesses + t.flashcardCorrect
+    if (total === 0) continue
+
+    const rate = successes / total
+    const record = { name, attempts: total, successes }
+    if (rate >= 0.5) {
+      strengths.push(record)
+    } else {
+      weaknesses.push(record)
+    }
+  }
+
+  strengths.sort((a, b) => b.successes / b.attempts - a.successes / a.attempts)
+  weaknesses.sort((a, b) => b.attempts - a.attempts)
+
+  // Only show top 5 of each
+  renderReportList(
+    strengthsList,
+    strengths.slice(0, 5),
+    "Keep drilling!",
+    "strength",
+  )
+  renderReportList(
+    weaknessesList,
+    weaknesses.slice(0, 5),
+    "Clean sheet",
+    "weakness",
+  )
+
+  perfEl.style.display = "block"
 }
 
 // Uses build-time injected window.__rollPositions (no runtime fetch needed)
@@ -182,13 +342,24 @@ document.addEventListener("nav", () => {
   const victoryTitle = document.getElementById("victory-title")
   const victorySubtitle = document.getElementById("victory-subtitle")
   const statMoves = document.getElementById("stat-moves")
-  const statSuccesses = document.getElementById("stat-successes")
-  const statFailures = document.getElementById("stat-failures")
+  const statDiceWon = document.getElementById("stat-dice-won")
+  const statDiceLost = document.getElementById("stat-dice-lost")
+  const statFlashRight = document.getElementById("stat-flash-right")
+  const statFlashWrong = document.getElementById("stat-flash-wrong")
   const journeyPath = document.getElementById("journey-path")
   const rollAgainBtn = document.getElementById("roll-again-btn")
   const startRollBtn = document.getElementById("start-roll-btn")
 
-  if (!victoryContent || !victoryFallback || !statMoves || !statSuccesses || !statFailures || !journeyPath) {
+  if (
+    !victoryContent ||
+    !victoryFallback ||
+    !statMoves ||
+    !statDiceWon ||
+    !statDiceLost ||
+    !statFlashRight ||
+    !statFlashWrong ||
+    !journeyPath
+  ) {
     return
   }
 
@@ -199,24 +370,35 @@ document.addEventListener("nav", () => {
       const victoryData: VictoryData = JSON.parse(victoryDataRaw)
       const journey = victoryData.journey || []
 
+      // Compute current roll stats
       const totalMoves = journey.length
-      const successes = journey.filter((step) => step.success === true).length
-      const failures = journey.filter((step) => step.success === false).length
+
+      const diceSteps = journey.filter((s) => inferAction(s) === "dice-roll" && s.success !== undefined)
+      const diceWon = diceSteps.filter((s) => s.success === true).length
+      const diceLost = diceSteps.filter((s) => s.success === false).length
+
+      const flashSteps = journey.filter((s) => inferAction(s) === "flashcard" && s.success !== undefined)
+      const flashRight = flashSteps.filter((s) => s.success === true).length
+      const flashWrong = flashSteps.filter((s) => s.success === false).length
 
       statMoves.textContent = String(totalMoves)
-      statSuccesses.textContent = String(successes)
-      statFailures.textContent = String(failures)
+      statDiceWon.textContent = String(diceWon)
+      statDiceLost.textContent = String(diceLost)
+      statFlashRight.textContent = String(flashRight)
+      statFlashWrong.textContent = String(flashWrong)
 
       if (victoryTitle && victoryData.submissionName) {
         victoryTitle.textContent = `Victory by ${victoryData.submissionName}!`
       }
 
       if (victorySubtitle) {
+        const totalSuccesses = diceWon + flashRight
+        const totalFailures = diceLost + flashWrong
         if (totalMoves === 1) {
           victorySubtitle.textContent = "Lightning fast submission!"
-        } else if (failures === 0) {
+        } else if (totalFailures === 0) {
           victorySubtitle.textContent = "Flawless victory - perfect technique!"
-        } else if (successes > failures) {
+        } else if (totalSuccesses > totalFailures) {
           victorySubtitle.textContent = "Great work! You outmaneuvered your opponent."
         } else {
           victorySubtitle.textContent = "Hard-fought victory!"
@@ -252,6 +434,9 @@ document.addEventListener("nav", () => {
         }
       })
 
+      // Accumulate into lifetime stats
+      const lifetimeStats = accumulateStats(journey)
+
       victoryContent.style.display = "block"
       victoryFallback.style.display = "none"
       hideAllContent()
@@ -260,16 +445,25 @@ document.addEventListener("nav", () => {
         createConfetti(confettiContainer)
       }
 
+      // Render lifetime stats in victory view
+      renderLifetimeStats(lifetimeStats, "")
+
       sessionStorage.removeItem("victory-data")
     } catch {
       victoryContent.style.display = "none"
       victoryFallback.style.display = "block"
       hideAllContent()
+
+      // Still show lifetime stats in fallback
+      renderLifetimeStats(loadLifetimeStats(), "fallback-")
     }
   } else {
     victoryContent.style.display = "none"
     victoryFallback.style.display = "block"
     hideAllContent()
+
+    // Show lifetime stats in fallback if any exist
+    renderLifetimeStats(loadLifetimeStats(), "fallback-")
   }
 
   if (rollAgainBtn) {

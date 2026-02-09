@@ -1,0 +1,266 @@
+{
+  "name": "Kimura from Standing",
+  "description": "Learn Kimura from Standing in BJJ. Counter lasso guard with this shoulder lock attack. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "tags": [
+    "bjj",
+    "kimura",
+    "standing submission",
+    "guard passing counter",
+    "lasso guard",
+    "shoulder lock",
+    "submission attack"
+  ],
+  "from_position": "Lasso Guard/Top",
+  "outcomes": [
+    {
+      "to": "Kimura Trap",
+      "probability": 50,
+      "result": "success"
+    },
+    {
+      "to": "Lasso Guard",
+      "probability": 30,
+      "result": "failure"
+    },
+    {
+      "to": "Closed Guard",
+      "probability": 20,
+      "result": "counter"
+    }
+  ],
+  "success_rates": {
+    "beginner": 30,
+    "intermediate": 50,
+    "advanced": 65
+  },
+  "overview": "The Kimura from Standing represents a counter-offensive opportunity when facing an opponent's lasso guard. When the bottom player over-commits to extending their lasso control, they expose their non-lasso arm to attack. This technique capitalizes on that vulnerability by establishing the figure-four grip on the free arm and using your standing position to generate rotational torque against the shoulder joint.\n\nStrategically, this attack serves multiple purposes within your guard passing game. It punishes opponents who become too focused on maintaining their lasso grip at the expense of protecting their secondary arm. Even when the submission itself doesn't finish, the Kimura grip creates a powerful control position that can be used to break the lasso, advance your passing, or transition to the Kimura Trap position where additional attacks become available.\n\nThe standing variation offers distinct mechanical advantages over seated or ground-based Kimura attacks. Your elevated position allows gravity to assist the rotational pressure, and your legs remain free to adjust base and prevent sweeps. However, this also means you must be vigilant about the opponent pulling you down into their guard or using your extended position to create sweep opportunities. Timing the attack when the opponent is most committed to their lasso extension is critical for success.",
+  "key_principles": [
+    "Attack when the opponent over-extends their lasso leg and exposes their non-lasso arm reaching for additional grips",
+    "Establish the figure-four grip quickly before the opponent can retract their arm or adjust their guard position",
+    "Maintain strong posture and base throughout the attack to prevent being pulled into closed guard or swept",
+    "Use rotational torque rather than pulling straight back to maximize pressure on the shoulder joint",
+    "Keep your elbows tight to your body to maintain grip integrity and prevent the opponent from straightening their arm",
+    "Control the opponent's hips with your leg positioning to limit their ability to create angles or complete sweeps"
+  ],
+  "setup_requirements": [
+    "Opponent has established lasso guard with their shin threaded across your arm",
+    "Opponent's non-lasso arm is extended, reaching for collar, lapel, or secondary grips",
+    "You maintain upright posture and stable base while in the lasso guard top position",
+    "Your non-trapped arm is free to attack and establish the initial grip on opponent's wrist",
+    "Opponent is focused on maintaining lasso control rather than protecting their exposed arm"
+  ],
+  "execution_steps": [
+    {
+      "step_number": 1,
+      "action": "Identify the opening",
+      "description": "Recognize when the opponent's non-lasso arm extends for grips, creating vulnerability at the wrist and elbow. Their focus on lasso maintenance leaves this arm exposed.",
+      "timing": "When opponent reaches for collar or lapel grip"
+    },
+    {
+      "step_number": 2,
+      "action": "Secure wrist control",
+      "description": "With your free hand (non-lassoed arm), grip the opponent's exposed wrist firmly using a C-grip or pistol grip. Your thumb should wrap around their wrist with fingers on top.",
+      "timing": "Before they can retract their arm"
+    },
+    {
+      "step_number": 3,
+      "action": "Thread your arm",
+      "description": "Drive your lassoed arm underneath their captured arm, threading between their elbow and body. Despite the lasso constraint, create enough space to get your forearm under their tricep.",
+      "timing": "Immediately after securing wrist"
+    },
+    {
+      "step_number": 4,
+      "action": "Establish figure-four",
+      "description": "Connect your hands by gripping your own wrist with the threading arm, creating the classic Kimura figure-four configuration. Your grip should be palm-to-palm with their arm trapped in the bend of your elbow.",
+      "timing": "Ensure grip is locked before applying pressure"
+    },
+    {
+      "step_number": 5,
+      "action": "Adjust your base",
+      "description": "Widen your stance and lower your hips slightly to create a stable platform. Position your feet outside shoulder width with knees bent to prevent being swept during the attack.",
+      "timing": "Before beginning rotation"
+    },
+    {
+      "step_number": 6,
+      "action": "Apply rotational pressure",
+      "description": "Rotate their arm toward their back using your entire body, not just arm strength. Keep their elbow pinned to your chest while rotating their wrist toward their shoulder blade, creating torque on the shoulder joint.",
+      "timing": "Controlled rotation with consistent pressure"
+    },
+    {
+      "step_number": 7,
+      "action": "Transition or finish",
+      "description": "If opponent defends by grabbing their own belt or gi, step back and pull them up toward you to break their grip. If they release the lasso to defend, capitalize by transitioning to Kimura Trap or completing the submission.",
+      "timing": "Adjust based on opponent's defensive reaction"
+    }
+  ],
+  "common_counters": [
+    {
+      "counter": "Opponent grabs their own belt or lapel to defend the rotation",
+      "effectiveness": "High",
+      "your_response": "Step backward while maintaining the grip, using your body weight to pull them up and break their defensive grip. Alternatively, transition to Kimura Trap position."
+    },
+    {
+      "counter": "Opponent releases lasso and shoots their hips up for armbar",
+      "effectiveness": "Medium",
+      "your_response": "Stack them immediately by driving forward and stepping over their hip. Keep your posture upright and use the Kimura grip to control their arm position."
+    },
+    {
+      "counter": "Opponent straightens their arm and attempts to pull away",
+      "effectiveness": "Medium",
+      "your_response": "Transition to a straight armbar by keeping wrist control and stepping your leg over their face while falling back with their straightened arm."
+    },
+    {
+      "counter": "Opponent pulls you down into closed guard while you're focused on the grip",
+      "effectiveness": "High",
+      "your_response": "Maintain strong posture and base. If pulled down, immediately work to break open the guard while maintaining the Kimura grip as a control tool."
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "Attempting the Kimura with poor base and narrow stance",
+      "consequence": "Opponent easily sweeps you using the lasso or hooks as you become unbalanced during the attack",
+      "correction": "Widen your stance before committing to the attack and keep your hips low. Test your base before applying rotational pressure."
+    },
+    {
+      "error": "Pulling straight back on the arm instead of using rotational torque",
+      "consequence": "Attack becomes a strength battle that you're likely to lose, and the shoulder joint isn't properly isolated",
+      "correction": "Focus on rotating their wrist toward their back while pinning their elbow against your chest. Use your entire body to create the rotation, not just arm strength."
+    },
+    {
+      "error": "Losing the grip by allowing elbows to flare out",
+      "consequence": "Opponent slips their arm free and immediately attacks or recovers full guard control",
+      "correction": "Keep elbows pinched tight to your body throughout the attack. The figure-four loses power when elbows separate."
+    },
+    {
+      "error": "Attacking before the opponent fully commits to lasso extension",
+      "consequence": "Opponent easily retracts their arm and you've given up your passing pressure for nothing",
+      "correction": "Wait for the opponent to reach and extend before attacking. Patience in timing dramatically increases success rate."
+    },
+    {
+      "error": "Neglecting the lasso leg while focusing on the Kimura",
+      "consequence": "Opponent uses the lasso to off-balance you or transition to triangle setup",
+      "correction": "Use your leg positioning to control or pin their lasso leg. Consider stepping over it or pressuring it down while maintaining the Kimura grip."
+    }
+  ],
+  "training_progressions": [
+    {
+      "phase": "Week 1-2",
+      "focus": "Grip mechanics and recognition",
+      "description": "Practice the figure-four grip configuration from standing position. Partner offers their arm statically while you drill establishing the grip correctly. Focus on hand placement, elbow position, and the connection between your arms. Practice recognizing when the non-lasso arm is exposed.",
+      "resistance_level": "None"
+    },
+    {
+      "phase": "Week 3-4",
+      "focus": "Base and rotation",
+      "description": "Add movement and base work. Partner creates light lasso guard while you practice maintaining base and applying rotational pressure. Focus on the body mechanics of the finish - rotation should come from your core and legs, not just arms. Partner gives 30% resistance.",
+      "resistance_level": "Light"
+    },
+    {
+      "phase": "Week 5-6",
+      "focus": "Timing and counter response",
+      "description": "Partner actively plays lasso guard and randomly exposes their arm. Practice recognizing the opening and attacking with proper timing. When partner defends, drill the appropriate responses: breaking belt grips, transitioning to Kimura Trap, or adjusting to armbar.",
+      "resistance_level": "Medium"
+    },
+    {
+      "phase": "Week 7+",
+      "focus": "Live integration",
+      "description": "Full sparring from lasso guard top position. Look for Kimura opportunities within your regular passing game. Track success rate and identify patterns in when the attack lands versus when it fails. Integrate with your complete guard passing system.",
+      "resistance_level": "Full"
+    }
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Knee-on-belly Kimura transition",
+      "description": "Instead of finishing from standing, use the Kimura grip to clear the lasso and immediately establish knee-on-belly while maintaining arm control",
+      "when_to_use": "When opponent's guard opens but they maintain arm defense, allowing you to advance position while keeping the submission threat"
+    },
+    {
+      "variant_name": "Step-over Kimura",
+      "description": "Step your leg over the opponent's face while maintaining the Kimura grip, transitioning to a north-south Kimura finish position",
+      "when_to_use": "When opponent creates too much space defending the standing attack, allowing you to change the angle and finish from top position"
+    },
+    {
+      "variant_name": "Kimura to back take",
+      "description": "Use the Kimura grip to force the opponent to turn away, then release the submission grip and take the back as they expose it",
+      "when_to_use": "When opponent defends strongly but turns to escape the shoulder pressure, creating back exposure"
+    }
+  ],
+  "knowledge_assessment": [
+    {
+      "question": "What is the primary goal of Kimura from Standing against lasso guard?",
+      "answer": "The primary goal is to punish opponents who over-extend their non-lasso arm while focusing on maintaining their lasso grip. This attack capitalizes on their divided attention to either submit them directly or establish the Kimura Trap control position for follow-up attacks.",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "When should you attack the Kimura from standing position?",
+      "answer": "Attack when the opponent reaches with their non-lasso arm for secondary grips like the collar or lapel. This extension creates vulnerability as they cannot quickly retract the arm while maintaining their lasso control. Timing is critical - attacking too early allows them to simply pull their arm back.",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "What are the key grips needed for Kimura from Standing?",
+      "answer": "You need a C-grip or pistol grip on the opponent's wrist with your free hand, then thread your other arm under their tricep to establish the figure-four by gripping your own wrist. The connection between your arms creates the lever system that generates rotational pressure on the shoulder.",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "Your opponent grabs their belt to defend the Kimura - how do you respond?",
+      "answer": "Step backward while maintaining your grip, using your body weight and the backward movement to pull them upward and break their defensive grip. You can also transition to the Kimura Trap position if they refuse to release, using the control to advance position rather than forcing the submission.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "Why is rotational torque more effective than pulling straight back?",
+      "answer": "Rotational torque properly isolates the shoulder joint by moving the wrist toward the back while the elbow remains pinned. Pulling straight back becomes a strength contest that doesn't create proper shoulder isolation. The rotation uses the mechanical structure of the shoulder against itself.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "What base adjustments are critical before applying the Kimura pressure?",
+      "answer": "Widen your stance beyond shoulder width, lower your hips slightly, and position your feet to resist being pulled forward or swept sideways. Your base must be stable enough to apply rotational pressure without being off-balanced by the lasso or the opponent's defensive movements.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "If the opponent straightens their arm to escape the Kimura, what transition becomes available?",
+      "answer": "A straightened arm creates an armbar opportunity. Maintain wrist control, step your leg over their face, and fall back while keeping their arm straight. The figure-four grip transitions naturally to armbar control as their arm extends.",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "How does the Kimura from Standing integrate with your overall guard passing strategy?",
+      "answer": "This technique forces a dilemma - opponents must choose between maintaining optimal lasso control and protecting their arm. Even if the submission fails, the threat changes their behavior, often causing them to abandon aggressive lasso extension. This opens up passing opportunities as they become defensive about arm exposure.",
+      "difficulty": "Advanced"
+    }
+  ],
+  "safety_considerations": "The Kimura attacks the shoulder joint through external rotation, which can cause serious injury if applied too quickly or without control. Apply pressure gradually and be prepared to release immediately upon tap. Training partners should tap early when they feel the rotational pressure beginning - the shoulder can be damaged before significant pain is felt. Avoid jerky or explosive applications. When drilling, communicate clearly about resistance levels and always prioritize your partner's safety over completing the technique.",
+  "position_integration": "The Kimura from Standing fits into the guard passing ecosystem as a counter-attacking option that punishes aggressive lasso guard players. It creates a decision tree where the opponent must balance their offensive guard retention against submission defense. When integrated properly, this attack opens up passing by forcing opponents to play more conservatively with their arm positioning. The technique chains naturally into the Kimura Trap position for continued control, transitions to armbar if they straighten their arm, or can be used to break the lasso grip and continue passing. Understanding this attack makes your entire lasso passing game more effective by adding a credible threat that changes opponent behavior.",
+  "related_content": [
+    {
+      "name": "Lasso Guard",
+      "relationship": "Starting position where this attack is initiated from top"
+    },
+    {
+      "name": "Kimura Trap",
+      "relationship": "Primary success outcome and control position for follow-up attacks"
+    },
+    {
+      "name": "Kimura from Guard",
+      "relationship": "Related submission sharing grip mechanics from different position"
+    },
+    {
+      "name": "Armbar from Guard",
+      "relationship": "Alternative submission when opponent straightens arm to defend Kimura"
+    },
+    {
+      "name": "Spider Guard",
+      "relationship": "Related guard position with similar arm exposure vulnerabilities"
+    },
+    {
+      "name": "Knee on Belly",
+      "relationship": "Positional advancement option while maintaining Kimura control"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Common passing destination after disrupting lasso with Kimura threat"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Transition option when opponent turns to escape shoulder pressure"
+    }
+  ]
+}

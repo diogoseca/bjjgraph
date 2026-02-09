@@ -1,0 +1,272 @@
+{
+  "name": "Armbar from Guard",
+  "description": "Master the Armbar from Guard in BJJ. Step-by-step execution from Crackhead Control to Armbar Control. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "tags": [
+    "bjj",
+    "transition",
+    "technique",
+    "armbar",
+    "submission-setup",
+    "guard-attack",
+    "10th-planet",
+    "arm-attack"
+  ],
+  "from_position": "Crackhead Control/Bottom",
+  "outcomes": [
+    {
+      "to": "Armbar Control",
+      "probability": 65,
+      "result": "success"
+    },
+    {
+      "to": "Crackhead Control",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Side Control",
+      "probability": 10,
+      "result": "counter"
+    }
+  ],
+  "success_rates": {
+    "beginner": 30,
+    "intermediate": 50,
+    "advanced": 65
+  },
+  "overview": "The Armbar from Guard executed from Crackhead Control represents an advanced submission setup that capitalizes on the unique arm isolation opportunities created by this 10th Planet position. Unlike traditional closed guard armbars, this variation exploits the broken posture and compromised base that defines effective crackhead control. The bottom player uses their constant hip movement and grip fighting to create momentary arm extension opportunities, then rapidly transitions into armbar control by pivoting their hips perpendicular to the opponent's trapped arm.\n\nThe technique's effectiveness stems from the element of surprise combined with the opponent's already-compromised defensive positioning. When maintaining crackhead control bottom, practitioners naturally fight for wrist control and manage distance through hip movement. The armbar entry leverages these existing defensive movements, transforming them into offensive attacks when the opponent overcommits to passing or establishing control. The hip pivot that characterizes crackhead control's defensive mobility becomes the same mechanical action that creates the angle for armbar entry.\n\nStrategically, this technique serves dual purposes: it threatens a high-percentage submission that forces the opponent to respect your offensive capabilities from a supposedly defensive position, and it creates a submission chain that includes triangle and omoplata transitions if the armbar is defended. Advanced practitioners understand that the threat of this armbar fundamentally changes the top player's passing strategy, as aggressive forward pressure now carries submission risk. This transforms crackhead control from pure survival into an active offensive platform with multiple attack vectors.",
+  "key_principles": [
+    "Maintain constant wrist control throughout the transition - losing grip control allows the opponent to posture and escape",
+    "Hip pivot must be explosive and committed - half-measures result in scrambles that favor the passer",
+    "Create perpendicular angle between your hips and opponent's shoulder before committing weight",
+    "Use the leg that crosses the face to control opponent's posture throughout the entry sequence",
+    "Maintain elbow-to-knee connection on the arm being attacked to prevent withdrawal",
+    "The entry timing correlates with opponent's forward pressure - use their momentum against them",
+    "Secure the arm across your centerline before attempting to drop back for control position"
+  ],
+  "setup_requirements": [
+    "Crackhead control bottom established with active hip movement preventing opponent from settling",
+    "Wrist control secured on the arm you intend to attack, preferably two-on-one configuration",
+    "Opponent's posture compromised with their weight committed forward over your hips",
+    "Space created for hip pivot through defensive movement patterns characteristic of crackhead control",
+    "Free leg positioned to swing over opponent's head during the pivot transition",
+    "Opponent's elbow exposed away from their centerline creating isolation opportunity"
+  ],
+  "execution_steps": [
+    {
+      "step_number": 1,
+      "action": "Secure wrist control",
+      "description": "From crackhead control bottom, establish two-on-one grip control on the target arm with both hands gripping at the wrist. Your dominant hand controls their wrist while your secondary hand reinforces by gripping their forearm just above the wrist joint. Maintain active hip movement to prevent opponent from settling their weight.",
+      "timing": "As opponent reaches forward or posts hand"
+    },
+    {
+      "step_number": 2,
+      "action": "Create hip angle",
+      "description": "Using the explosive hip mobility characteristic of crackhead control, pivot your hips perpendicular to the opponent's arm. Your body rotates approximately 90 degrees so that your hips face directly toward their shoulder rather than straight up. This creates the angle necessary for the armbar while maintaining continuous wrist control.",
+      "timing": "Immediately after securing grip"
+    },
+    {
+      "step_number": 3,
+      "action": "Swing leg over face",
+      "description": "As your hips pivot, swing your outside leg over the opponent's head in a smooth arc. The leg should cross their face with your hamstring making contact with their cheek and ear. This leg controls their posture and prevents them from sitting up or stacking. Keep the motion continuous - don't pause at any point during the swing.",
+      "timing": "Simultaneous with hip pivot"
+    },
+    {
+      "step_number": 4,
+      "action": "Clamp arm to chest",
+      "description": "Pull the opponent's trapped arm tight to your chest, securing it between both hands and your sternum. The arm should cross your centerline with their elbow pointing toward the ceiling. Pinch your knees together to create a vice-like structure that prevents them from retracting the limb.",
+      "timing": "As leg crosses face"
+    },
+    {
+      "step_number": 5,
+      "action": "Position hips to shoulder",
+      "description": "Scoot your hips as close to the opponent's shoulder as possible, eliminating any gap between your hip bone and their shoulder joint. This maximizes your leverage and minimizes their defensive options. Your legs should be controlling their upper body with one across the face and one across the chest.",
+      "timing": "After arm is secured"
+    },
+    {
+      "step_number": 6,
+      "action": "Establish armbar control",
+      "description": "Settle into armbar control position with proper arm orientation (opponent's thumb pointing toward ceiling), tight hip-to-shoulder connection, and both legs actively controlling their posture. From here you can either attempt the finish immediately or consolidate the control position before committing to the submission.",
+      "timing": "Final position establishment"
+    }
+  ],
+  "common_counters": [
+    {
+      "counter": "Posture up and stack forward before leg crosses face",
+      "effectiveness": "High",
+      "your_response": "If they posture before your leg crosses, abort the armbar and use their forward pressure to transition to triangle setup or maintain crackhead control. Do not fight their posture with arm strength alone."
+    },
+    {
+      "counter": "Retract arm by pulling elbow tight to ribs before hip pivot completes",
+      "effectiveness": "High",
+      "your_response": "Immediately transition to overhook control on the same arm and threaten omoplata or return to active crackhead control. The arm retraction exposes their opposite arm for alternative attacks."
+    },
+    {
+      "counter": "Roll forward through the armbar attempt toward your legs",
+      "effectiveness": "Medium",
+      "your_response": "Follow their roll by maintaining your grip and transitioning to belly-down armbar position. Their forward roll actually assists your control if you stay connected through the transition."
+    },
+    {
+      "counter": "Strip wrist grip using free hand before pivot completes",
+      "effectiveness": "Medium",
+      "your_response": "Immediately re-grip higher on their arm toward the elbow and continue the entry. If grip is completely broken, return to crackhead control defensive posture and await next opportunity."
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "Initiating the pivot without secure two-on-one wrist control",
+      "consequence": "Opponent easily retracts arm and establishes passing position, losing crackhead control entirely",
+      "correction": "Never begin the hip pivot until both hands have secured the wrist. The grip is the non-negotiable prerequisite for every subsequent step."
+    },
+    {
+      "error": "Slow or hesitant hip pivot that allows opponent to adjust",
+      "consequence": "Opponent recognizes the attack and either postures to defend or accelerates their pass to neutralize the threat",
+      "correction": "The hip pivot must be explosive and committed. Once you decide to attack, execute with maximum speed and commitment to the movement."
+    },
+    {
+      "error": "Failing to swing leg far enough over opponent's face",
+      "consequence": "Opponent can sit up freely and stack, compromising your finishing angle and potentially reversing position",
+      "correction": "Your hamstring should make firm contact with their cheek. The leg must cross completely with your calf hooking behind their head to control posture."
+    },
+    {
+      "error": "Leaving space between hips and opponent's shoulder",
+      "consequence": "Opponent can extract arm or create defensive angles that make finishing impossible without significant positional adjustment",
+      "correction": "Constantly scoot hips tight to their shoulder. If space develops, immediately close it before attempting any finishing mechanics."
+    },
+    {
+      "error": "Allowing opponent's arm to rotate so thumb points downward",
+      "consequence": "Significantly reduced submission effectiveness as arm can rotate under pressure and structural joint vulnerability decreases",
+      "correction": "Before settling into control, verify thumb-up orientation. Adjust your grips to correct arm position before proceeding to the finish."
+    },
+    {
+      "error": "Releasing hip movement during crackhead control to set up the armbar",
+      "consequence": "Opponent recognizes static positioning as attack setup and preemptively defends or accelerates passing pressure",
+      "correction": "Maintain continuous hip movement until the moment of explosive pivot. The armbar entry should appear to emerge from defensive movement, not replace it."
+    }
+  ],
+  "training_progressions": [
+    {
+      "phase": "Week 1-2",
+      "focus": "Entry mechanics",
+      "description": "Practice the hip pivot and leg swing from crackhead control with a fully cooperative partner. Focus on the grip-to-pivot-to-leg swing sequence as one continuous motion. Perform 20-30 repetitions per session, emphasizing smooth mechanics over speed. Partner provides no resistance but maintains realistic body positioning.",
+      "resistance_level": "None"
+    },
+    {
+      "phase": "Week 3-4",
+      "focus": "Timing recognition",
+      "description": "Partner begins applying light passing pressure from crackhead control. Identify the optimal moment to attack when opponent's weight shifts forward or arm extends. Practice recognizing the timing window and executing the entry. Partner defends lightly if entry timing is poor, succeeds if timing is correct.",
+      "resistance_level": "Light"
+    },
+    {
+      "phase": "Week 5-6",
+      "focus": "Chain attacks",
+      "description": "Practice the armbar entry with partner providing moderate resistance including common defenses (posturing, arm retraction, rolling). When armbar is defended, flow to triangle setup or omoplata rather than forcing the armbar. Develop recognition of which follow-up is appropriate based on opponent's defensive reaction.",
+      "resistance_level": "Medium"
+    },
+    {
+      "phase": "Week 7+",
+      "focus": "Live integration",
+      "description": "Incorporate the armbar from crackhead control into live rolling and specific training. Start in crackhead control and attempt to hit the armbar against full resistance. Track success rates and common failure points. Refine timing based on live feedback and opponent tendencies.",
+      "resistance_level": "Full"
+    }
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Hip-bump entry variation",
+      "description": "Instead of pivoting from flat crackhead control, use a hip-bump motion to off-balance the opponent before pivoting into the armbar. The hip bump creates forward pressure that opponent must counter, and their counter-pressure provides the setup energy for your pivot.",
+      "when_to_use": "When opponent maintains strong base and resists standard pivot entry"
+    },
+    {
+      "variant_name": "Pendulum swing entry",
+      "description": "Use a pendulum motion with your legs to generate momentum for the pivot, swinging both legs together before splitting them to cross the face. This creates more explosive entry that's harder to react to but requires more precise timing.",
+      "when_to_use": "Against opponents who consistently defend the standard entry timing"
+    },
+    {
+      "variant_name": "Scissor entry variation",
+      "description": "Close your guard momentarily before executing a scissor motion that combines the arm pull with leg swing. One leg pushes opponent's hip away while the other swings over the face, creating rotational force that assists the pivot.",
+      "when_to_use": "When you have the flexibility and opponent is postured relatively high"
+    }
+  ],
+  "knowledge_assessment": [
+    {
+      "question": "What is the primary grip configuration required before initiating the armbar from crackhead control?",
+      "answer": "A secure two-on-one grip on the target wrist with both hands controlling at or near the wrist joint. Your dominant hand controls their wrist directly while your secondary hand reinforces the grip on their forearm. This configuration ensures you maintain control throughout the explosive pivot and prevents arm retraction during the entry sequence.",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "Why must the hip pivot be explosive rather than gradual?",
+      "answer": "A gradual pivot telegraphs your intentions and gives the opponent time to posture up, retract their arm, or accelerate their passing pressure. The explosive pivot catches them mid-transition before they can organize a defensive response. The speed differential between your attack and their reaction creates the opening for successful entry. Hesitation converts a high-percentage attack into an easily defended one.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "Your opponent begins stacking forward as your leg crosses their face - what is the correct response?",
+      "answer": "Allow the stack to continue while maintaining your grip on their wrist. Their forward momentum actually assists a triangle transition - as they drive forward, swing your outside leg over their head and lock the triangle. The stack defense they're attempting becomes the setup for your alternative submission. Do not fight the stack with arm strength; flow to the triangle entry that their pressure creates.",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "What determines the optimal timing window for attacking the armbar from crackhead control?",
+      "answer": "The optimal timing occurs when the opponent's weight shifts forward over your hips, typically when they reach to establish grips, post their hand, or commit to a passing attempt. Their forward pressure loads their arm in an extended position and compromises their ability to retract quickly. Attack when you feel their weight commit forward, not when they're settled or retreating.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "How should your leg contact the opponent's face during the entry?",
+      "answer": "Your hamstring should make firm contact with their cheek, with your calf hooking behind their head. The leg crosses completely over their face, not partially across their neck or chest. This positioning controls their posture by preventing them from lifting their head or sitting up. Insufficient leg contact is the most common reason for failed armbar entries from this position.",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "Your opponent successfully retracts their arm before you complete the pivot - what follow-up options exist?",
+      "answer": "Immediately transition to overhook control on the arm they just retracted - their retraction motion actually helps you establish the overhook. From overhook, you can threaten omoplata, sweep, or return to active crackhead control. The arm retraction also exposes their opposite arm, which may now be extended forward for balance, creating an alternative armbar or kimura opportunity on that side.",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "What body orientation error most commonly leads to failed armbar entries from crackhead control?",
+      "answer": "Failing to achieve perpendicular hip angle relative to the opponent's shoulder. Many practitioners pivot only partially, leaving their body at 45 degrees rather than 90 degrees to the trapped arm. This compromised angle reduces leverage, makes leg control less effective, and allows the opponent defensive space that wouldn't exist with proper perpendicular positioning.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "How does the armbar threat from crackhead control strategically affect the top player's passing approach?",
+      "answer": "The armbar threat forces the top player to be cautious about forward pressure and arm extension, which are typically essential for effective passing. They must keep their arms retracted and posture controlled, which limits their offensive options and slows their passing progression. This transforms crackhead control from passive defense into an active deterrent that shapes opponent behavior and creates time for guard recovery or sweep attempts.",
+      "difficulty": "Advanced"
+    }
+  ],
+  "safety_considerations": "The armbar attacks the elbow joint and carries significant injury risk if applied without control. When training this technique, always apply the finish slowly and give partners adequate time to tap. The entry sequence involves explosive hip movement that can cause groin strains if insufficient warm-up is performed. Communicate clearly with training partners about resistance levels and ensure mutual understanding of tap expectations. When caught in an armbar, tap early before hyperextension occurs - training longevity requires protecting your joints. Never crank submissions on partners who have not tapped, and recognize that some practitioners require additional time to verbalize or physically tap. In competition, maintain control even after the tap until the referee intervenes.",
+  "position_integration": "The Armbar from Guard executed from crackhead control represents a critical bridge between defensive guard retention and offensive submission hunting. This technique transforms the 10th Planet system's innovative turtle-guard hybrid into a legitimate submission threat, fundamentally changing how opponents must approach the position. The armbar integrates with the broader submission chain including triangle and omoplata transitions, creating a web of threats that emanates from what appears to be a survival position. Mastery of this technique elevates crackhead control from defensive necessity to strategic weapon, allowing practitioners to threaten submissions even when their guard has been nominally compromised. The position exemplifies modern BJJ's trend toward positions that blur the line between offense and defense.",
+  "related_content": [
+    {
+      "name": "Crackhead Control",
+      "relationship": "Starting position for this technique"
+    },
+    {
+      "name": "Armbar Control",
+      "relationship": "Target control position after successful entry"
+    },
+    {
+      "name": "Triangle Control",
+      "relationship": "Alternative submission when opponent defends by stacking"
+    },
+    {
+      "name": "Omoplata Control",
+      "relationship": "Alternative submission when opponent bends arm defensively"
+    },
+    {
+      "name": "Closed Guard",
+      "relationship": "Traditional position for similar armbar entries"
+    },
+    {
+      "name": "Armbar Finish",
+      "relationship": "Finishing technique from armbar control position"
+    },
+    {
+      "name": "Armbar from Mount",
+      "relationship": "Related armbar entry from different position"
+    },
+    {
+      "name": "Kimura Trap",
+      "relationship": "Alternative arm control position from similar gripping scenarios"
+    },
+    {
+      "name": "Turtle",
+      "relationship": "Related defensive position in the guard recovery system"
+    }
+  ]
+}

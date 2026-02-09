@@ -21,7 +21,6 @@ const config: QuartzConfig = {
     baseUrl: "bjjgraph.org",
     ignorePatterns: [
       "private",
-      "templates",
       ".obsidian",
       "CONTRIBUTING-*.md",
       "**/CONTRIBUTING*.md",
@@ -30,7 +29,6 @@ const config: QuartzConfig = {
       "TEMPLATE.*",
       "**/TEMPLATE.*",
       "**/!(bjj-graph).json",
-      "**/*.jinja2",
     ],
     defaultDateType: "created",
     theme: {

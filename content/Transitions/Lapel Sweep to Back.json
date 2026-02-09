@@ -1,0 +1,274 @@
+{
+  "name": "Lapel Sweep to Back",
+  "description": "Master the Lapel Sweep to Back in BJJ. Step-by-step execution from Lapel Guard to Back Control. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "tags": [
+    "bjj",
+    "transition",
+    "technique",
+    "sweep",
+    "lapel-guard",
+    "back-take",
+    "gi-specific"
+  ],
+  "from_position": "Lapel Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Back Control",
+      "probability": 55,
+      "result": "success"
+    },
+    {
+      "to": "Mount",
+      "probability": 10,
+      "result": "success"
+    },
+    {
+      "to": "Lapel Guard",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Half Guard",
+      "probability": 10,
+      "result": "counter"
+    }
+  ],
+  "success_rates": {
+    "beginner": 30,
+    "intermediate": 50,
+    "advanced": 65
+  },
+  "overview": "The Lapel Sweep to Back represents one of the highest-percentage attacks available from lapel guard systems, combining sweep mechanics with immediate back exposure. This technique capitalizes on the opponent's natural defensive reactions when threatened with lapel guard sweeps, using their weight distribution adjustments to create pathways directly to the back. The fundamental concept involves creating a sweep threat that forces the opponent to post or base, then following their defensive rotation to establish back control rather than settling for the sweep position.\n\nStrategically, this technique exemplifies the dilemma-based approach that makes lapel guard so effective at high levels. The opponent faces a lose-lose scenario: commit to defending the sweep and expose the back, or address the back take threat and get swept. The lapel configuration provides the persistent control necessary to follow the opponent through their defensive rotations, maintaining attachment throughout the transition. Unlike traditional sweeps where the bottom player must release grips to complete the position, the lapel wrap maintains connection during the entire back take sequence.\n\nThe technique requires timing recognition and commitment to the back take pathway. Many practitioners successfully initiate the sweep but hesitate when the opponent begins rotating, losing the back take opportunity. Understanding that the opponent's rotation IS the technique working—not a failed sweep—is critical for successful execution.",
+  "key_principles": [
+    "Create genuine sweep threat first—the back take depends on opponent's defensive reaction",
+    "Follow opponent's rotation rather than fighting against it—their defense opens the back",
+    "Maintain lapel control throughout the transition to stay attached during rotation",
+    "Commit fully to the back take pathway once opponent begins defending the sweep",
+    "Use sleeve control to prevent opponent from posting and blocking your path to the back",
+    "Time the sit-up with opponent's weight shift for maximum efficiency",
+    "Establish hooks immediately upon reaching back position to secure control"
+  ],
+  "setup_requirements": [
+    "Established lapel guard with lapel threaded around opponent's leg or body",
+    "Strong grip on the lapel fabric with structural alignment, not muscular tension",
+    "Sleeve or wrist control on the far arm to prevent posting",
+    "Hip angle oriented toward the sweep direction with active leg frames",
+    "Opponent's weight slightly forward or moving in response to guard attacks"
+  ],
+  "execution_steps": [
+    {
+      "step_number": 1,
+      "action": "Establish lapel configuration",
+      "description": "From seated or supine lapel guard, ensure your lapel grip is secure with the fabric wrapped around the opponent's leg behind the knee (worm guard style) or around their arm. Use a pistol grip or four-finger hook through the lapel fabric for maximum security.",
+      "timing": "Before opponent establishes strong passing grips"
+    },
+    {
+      "step_number": 2,
+      "action": "Secure sleeve control",
+      "description": "Grip the opponent's far sleeve at the wrist or cuff with your free hand. This grip prevents them from posting their hand when you initiate the sweep, which is essential for opening the back take pathway. Without this control, they can simply post and base out.",
+      "timing": "Immediately after establishing lapel configuration"
+    },
+    {
+      "step_number": 3,
+      "action": "Load the sweep",
+      "description": "Use your legs and hip movement to begin disrupting the opponent's base, pulling them forward and to the side with your lapel grip while controlling their posting arm. Create the genuine sweep threat by elevating your hips and directing their weight over their base.",
+      "timing": "When opponent's weight shifts forward"
+    },
+    {
+      "step_number": 4,
+      "action": "Follow the rotation",
+      "description": "As the opponent defends the sweep by rotating or attempting to backstep, do not release your grips. Instead, sit up aggressively and follow their rotation, using the lapel as your anchor point. Your momentum should carry you toward their back as they turn to prevent being swept.",
+      "timing": "Immediately when opponent begins defensive rotation"
+    },
+    {
+      "step_number": 5,
+      "action": "Transition to back",
+      "description": "Continue following the opponent's rotation while maintaining lapel control. Use your free arm to establish an underhook or seatbelt grip as you come up to their back. The lapel grip maintains your connection throughout the transition, preventing them from facing you.",
+      "timing": "During opponent's defensive movement"
+    },
+    {
+      "step_number": 6,
+      "action": "Secure back control",
+      "description": "Insert your hooks as you establish the seatbelt grip with your arms. The lapel grip can now be released or maintained as additional control. Ensure your chest is tight to their back with your head positioned on the choking side before settling into the position.",
+      "timing": "As soon as you reach the back position"
+    }
+  ],
+  "common_counters": [
+    {
+      "counter": "Posting the hand to base and prevent rotation",
+      "effectiveness": "High",
+      "your_response": "Ensure sleeve control is established before initiating sweep; if they free the arm, switch to alternative sweep that doesn't require rotation"
+    },
+    {
+      "counter": "Backstep escape to clear lapel and disengage",
+      "effectiveness": "Medium",
+      "your_response": "Follow their backstep aggressively with your sit-up; their backstep actually accelerates your path to their back if you stay attached"
+    },
+    {
+      "counter": "Dropping weight and driving forward to flatten guard player",
+      "effectiveness": "Medium",
+      "your_response": "Use their forward pressure to load a different sweep direction; transition to squid guard configuration if they commit heavily forward"
+    },
+    {
+      "counter": "Stripping the lapel grip before sweep is loaded",
+      "effectiveness": "Low",
+      "your_response": "Transition to spider guard or lasso guard using the same collar/sleeve grips; re-extract lapel from safer position once they tire from clearing"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "Releasing the lapel grip when opponent begins rotating",
+      "consequence": "Lose connection to opponent during critical transition phase, allowing them to face you and recover guard passing position",
+      "correction": "Maintain lapel grip throughout entire transition—it's your anchor that keeps you attached as they rotate"
+    },
+    {
+      "error": "Attempting sweep without controlling the far sleeve",
+      "consequence": "Opponent posts their hand, bases out, and prevents both the sweep and the back take opportunity",
+      "correction": "Always establish sleeve control before loading the sweep; this grip is non-negotiable for the back take pathway"
+    },
+    {
+      "error": "Hesitating when opponent starts defensive rotation instead of following aggressively",
+      "consequence": "Opponent completes their defensive rotation and faces you, returning to a neutral guard passing situation",
+      "correction": "Commit fully to the back take the moment they begin rotating; their defense IS the technique working"
+    },
+    {
+      "error": "Sitting up too early before creating genuine sweep threat",
+      "consequence": "Opponent recognizes back take attempt and defends specifically for that rather than being caught in the dilemma",
+      "correction": "Create a real sweep threat first that forces them to react; the back take works because they're defending something else"
+    },
+    {
+      "error": "Failing to insert hooks immediately upon reaching the back",
+      "consequence": "Opponent escapes back control before position is secured, often returning to turtle or guard",
+      "correction": "Prioritize hook insertion as soon as you reach the back; seatbelt grip without hooks is incomplete back control"
+    }
+  ],
+  "training_progressions": [
+    {
+      "phase": "Week 1-2",
+      "focus": "Grip mechanics and lapel configuration",
+      "description": "Focus on establishing and maintaining the lapel grip while adding sleeve control. Practice the sweep motion without resistance, emphasizing the connection between lapel pull and sleeve control.",
+      "resistance_level": "None"
+    },
+    {
+      "phase": "Week 3-4",
+      "focus": "Rotation recognition and following",
+      "description": "Partner provides common defensive reactions (rotation, backstep, posting). Practice recognizing these reactions and following the rotation to the back without forcing the sweep.",
+      "resistance_level": "Light"
+    },
+    {
+      "phase": "Week 5-6",
+      "focus": "Sweep-to-back chain combinations",
+      "description": "Combine with other lapel guard attacks. Practice flowing between sweep threat and back take based on opponent reaction. Add alternative attacks when back is defended.",
+      "resistance_level": "Medium"
+    },
+    {
+      "phase": "Week 7+",
+      "focus": "Live application and troubleshooting",
+      "description": "Apply technique in live rolling situations. Identify personal timing issues and grip failures. Develop sensitivity to when back take is available versus when to complete the sweep.",
+      "resistance_level": "Full"
+    }
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Worm Guard to Back",
+      "description": "Starting from classic worm guard with lapel wrapped behind opponent's knee. The leg configuration provides additional control during the back take transition, making it harder for opponent to turn and face you.",
+      "when_to_use": "When you have established a deep worm guard configuration and opponent attempts to backstep or rotate out"
+    },
+    {
+      "variant_name": "Squid Guard Back Take",
+      "description": "Starting from squid guard with lapel wrapped around opponent's arm. The arm control version works when opponent's posting arm is already compromised, removing that defensive option entirely.",
+      "when_to_use": "When opponent is focused on clearing the arm wrap and neglects their base; their forward pressure aids the back take"
+    },
+    {
+      "variant_name": "Collar and Lapel Combination",
+      "description": "Using collar grip in addition to lapel wrap for enhanced control. The collar grip aids the sit-up motion and provides choking threat that further distracts opponent from the sweep.",
+      "when_to_use": "When opponent is very defensively aware of back takes; the collar grip creates additional threat layers"
+    }
+  ],
+  "knowledge_assessment": [
+    {
+      "question": "What is the primary goal of Lapel Sweep to Back?",
+      "answer": "The primary goal is to use the sweep threat to force a defensive reaction from the opponent, then follow their rotation to establish back control. The technique creates a dilemma where defending the sweep exposes the back, making it a two-for-one attack.",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "Why is sleeve control essential for this technique?",
+      "answer": "Sleeve control prevents the opponent from posting their hand to base when you initiate the sweep. Without this control, they can simply post and stabilize, eliminating both the sweep threat and the back take opportunity. The sleeve grip is non-negotiable for the back take pathway to open.",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "What should you do when the opponent begins rotating to defend the sweep?",
+      "answer": "Follow their rotation aggressively while maintaining your lapel grip. Do not release grips or hesitate—sit up and pursue the back immediately. Their defensive rotation IS the technique working correctly; it's opening the pathway to their back. The lapel grip keeps you attached throughout.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "Your opponent drops their weight and drives forward to flatten you—how do you adjust?",
+      "answer": "Use their forward pressure to load a different sweep direction or transition to squid guard by redirecting the lapel around their posting arm. Their forward drive aids this reconfiguration. Alternatively, use their momentum for an elevator sweep variation that works with forward pressure rather than against it.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "How do you counter the backstep escape when opponent recognizes your attack?",
+      "answer": "Follow their backstep aggressively with your sit-up motion—their backstep actually accelerates your path to their back if you stay attached via the lapel grip. Maintain sleeve control to prevent posting. The backstep escape only works if you release grips; staying attached converts their escape into your technique.",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "What distinguishes a successful back take attempt from a failed sweep?",
+      "answer": "The distinction is in commitment and recognition. A failed sweep happens when you treat the opponent's rotation as technique failure and release grips. A successful back take recognizes that rotation IS the goal—the sweep threat is the setup, not the end goal. Maintaining grips and following the rotation converts 'failed sweep' into successful back take.",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "When is it better to complete the sweep rather than pursue the back?",
+      "answer": "Complete the sweep when the opponent doesn't rotate (they accept the sweep rather than expose the back), when you've lost sleeve control and they can post effectively, or when their rotation is minimal and mount is more accessible than back. Read the opponent's reaction to determine which path offers higher success probability.",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "What grips must be maintained throughout the entire transition to the back?",
+      "answer": "The lapel grip must be maintained throughout the entire transition—it's your anchor that keeps you attached as the opponent rotates. The sleeve grip should be maintained until you can convert it to seatbelt control. Only release the lapel after hooks and seatbelt are fully established.",
+      "difficulty": "Intermediate"
+    }
+  ],
+  "safety_considerations": "The Lapel Sweep to Back is generally a low-risk technique with minimal injury potential when executed with control. Primary safety considerations include avoiding excessive twisting force on the opponent's knee when using worm guard configurations, and ensuring controlled transitions that don't result in falling heavily onto training partners. When drilling, communicate with partners about grip pressure intensity on lapels to prevent gi damage and finger injuries. Avoid yanking or jerking motions that could strain fingers or wrists. During the back take transition, maintain awareness of head position to prevent accidental head collisions. Partners should tap if they feel knee discomfort from the lapel wrap configuration.",
+  "position_integration": "The Lapel Sweep to Back serves as a cornerstone technique within the lapel guard system, representing the highest-value attacking option available from these configurations. It integrates directly with worm guard, squid guard, and ringworm variations, providing a back take pathway from each. The technique complements other lapel attacks including omoplata entries, triangle setups, and elevator sweeps, creating a comprehensive attack system where defending one option opens another. Within the broader BJJ positional hierarchy, this technique connects bottom guard play directly to back control—the highest-value controlling position—bypassing intermediate positions like mount or side control. It pairs naturally with collar grip attacks for additional pressure.",
+  "related_content": [
+    {
+      "name": "Lapel Guard",
+      "relationship": "Starting position"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Primary target position"
+    },
+    {
+      "name": "Worm Guard Entry",
+      "relationship": "Setup variation"
+    },
+    {
+      "name": "Squid Guard Entry",
+      "relationship": "Alternative setup"
+    },
+    {
+      "name": "Lapel Omoplata Entry",
+      "relationship": "Chain attack when back is defended"
+    },
+    {
+      "name": "Lapel Elevator Sweep",
+      "relationship": "Alternative when opponent prevents rotation"
+    },
+    {
+      "name": "Mount",
+      "relationship": "Alternative outcome when back unavailable"
+    },
+    {
+      "name": "De La Riva Guard",
+      "relationship": "Entry position for lapel extraction"
+    },
+    {
+      "name": "Spider Guard",
+      "relationship": "Fallback guard when lapel stripped"
+    },
+    {
+      "name": "Backstep Around Worm Guard",
+      "relationship": "Common counter to defend against"
+    }
+  ]
+}

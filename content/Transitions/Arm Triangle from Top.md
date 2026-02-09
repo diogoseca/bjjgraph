@@ -1,0 +1,373 @@
+
+
+
+
+
+---
+title: "Arm Triangle from Top | BJJ Technique | BJJ Graph"
+description: "Master the Arm Triangle from Top in BJJ. Setup from Side Control with step-by-step execution. Success rates: Beginner 25%, Intermediate 45%, Advanced 65%."
+---
+
+
+<body data-content-type="transitions">
+
+<!-- Schema Markup - Auto-generated from JSON -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Execute Arm Triangle from Top in BJJ",
+  "description": "Step-by-step guide for Arm Triangle from Top from Side Control/Top. Possible outcomes: game-over (55%), Side Control (30%), Half Guard (15%).",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Establish crossface control",
+      "text": "From side control, drive heavy crossface pressure with your near-side arm across the opponent's jaw and neck, forcing their head to turn away from you. Your weight should be distributed through your chest and shoulder into their upper body, pinning their shoulders flat to the mat.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Manipulate the near arm across",
+      "text": "Use your far-side hand to push the opponent's near elbow across their centerline, driving their forearm against their own neck. If the opponent is already framing against your head or neck, use that frame by swimming your head underneath their arm and trapping it tight against their neck with your shoulder pressure.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Set the head position",
+      "text": "Drop your head tight against the side of the opponent's trapped arm, pressing your temple into the pocket between their shoulder and neck. There should be zero space between your head and their body—your ear should feel their pulse. This head position creates one side of the choking V while the opponent's own bicep creates the other.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Lock the grip behind the head",
+      "text": "Thread your crossface arm behind the opponent's head and connect it with your other hand using a gable grip or palm-to-palm clasp. The grip should sit at the base of the opponent's skull, pulling their head forward slightly to tighten the arm-and-neck configuration. Squeeze your elbows together to test the seal before committing to the walk-around.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Walk to the finishing side",
+      "text": "Keeping chest-to-chest contact and the grip locked, walk your feet in an arc toward the opposite side of the opponent's body (the side their trapped arm is on). Step over their torso with your far leg first, then follow with your near leg. Maintain constant downward pressure through your chest throughout the transition—any lift allows arm extraction.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Sprawl and angle the squeeze",
+      "text": "Once on the finishing side, sprawl both legs back with hips driving into the mat at a 45-degree angle toward the opponent's trapped arm. Drop your choking-side shoulder forward and down while pulling your elbow tight to your ribs. The squeeze comes from your body angle and hip pressure compressing inward, not from arm strength alone.",
+      "position": 6
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Apply finishing compression",
+      "text": "With hips sprawled low and heavy, raise your non-choking shoulder slightly while driving the choking shoulder deeper into the neck. Imagine trying to touch your choking-side elbow to your own opposite hip—this inward rotation maximizes carotid compression. Hold steady pressure and monitor the opponent for tap signals, verbal submission, or signs of unconsciousness.",
+      "position": 7
+    }
+  ],
+  "tool": ["BJJ Gi or No-Gi attire", "Training partner", "Mat space"],
+  "totalTime": "PT5M"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the correct head position when setting up the arm triangle from side control?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Your temple should press directly into the pocket between the opponent's shoulder and neck on the choking side, with zero space between your head and their body. Your ear should be in contact with their shoulder or neck. This position creates one side of the choking V, while the opponent's own trapped bicep compresses the other carotid artery. Any gap allows the opponent to extract their arm or reduces compression effectiveness."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Your opponent is pushing against your head with their near arm from side control bottom—how do you convert this into an arm triangle entry?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Swim your head underneath their pushing arm by dipping your chin and threading your head to the opposite side of their forearm, trapping their arm against their own neck with your shoulder. As their arm crosses their centerline, immediately press your temple into the shoulder-neck pocket and begin locking the gable grip behind their head. Their defensive push has created the exact arm configuration you need—capitalize before they recognize the danger and retract."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why is the walk-around to the opposite side critical for finishing the arm triangle?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Walking to the opposite side creates the diagonal body angle necessary for proper carotid compression. From perpendicular side control, your squeeze generates downward pressure but lacks the inward angle needed to close both carotid arteries. By sprawling on the finishing side at a 45-degree angle, your shoulder drives forward and inward while your hips create downward pressure, producing a V-shaped compression that occludes both arteries simultaneously. Without the walk-around, you get a pressure squeeze rather than a blood choke."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "You have the arm triangle locked but your opponent bridges toward the choking side—what adjustment do you make?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absorb the bridge by widening your base slightly and dropping your hips heavier into the mat. Do not release the grip or abandon the position. Their bridge toward the choking side actually helps tighten the configuration by driving their own shoulder deeper into the choke. As they return to the mat after the bridge, increase your squeeze angle by driving your choking shoulder forward and pulling your elbow tighter to your ribs. The bridge is the lowest-percentage counter precisely because it assists the choke mechanics."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does the arm triangle from top differ mechanically from a darce choke setup?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The arm triangle traps the opponent's arm and head within a loop formed by your arms, with your shoulder providing one compression point and their own bicep providing the other. You finish by sprawling to the side. The darce choke threads your arm under the opponent's armpit and behind their neck, creating compression between your bicep and their own shoulder from the front. The darce works best when the opponent is on their side or turtled with their arm forward, while the arm triangle works best when the opponent is flat on their back with their arm pushed across their neck. The force vectors are approximately 90 degrees different."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What grip should you use behind the opponent's head, and why does it matter?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Use a gable grip (palm-to-palm with fingers wrapped over the back of the opposite hand) or an S-grip. Interlocked fingers create a structurally weaker connection that can be broken by explosive bridging or head movement, and the finger interlock risks injury when force is applied laterally. The gable grip distributes force across the entire hand surface and allows you to adjust squeeze angle by rotating your wrists without releasing pressure. The grip placement should sit at the base of the opponent's skull, pulling their head slightly forward to tighten the neck-arm seal."
+      }
+    }
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Arm Triangle from Top",
+  "description": "Master the Arm Triangle from Top in BJJ. Setup from Side Control with step-by-step execution. Success rates: Beginner 25%, Intermediate 45%, Advanced 65%.",
+  "url": "https://bjjgraph.org/Transitions/Arm-Triangle-from-Top",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/"},
+    {"@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/"},
+    {"@type": "ListItem", "position": 3, "name": "Arm Triangle from Top", "item": "https://bjjgraph.org/Transitions/Arm-Triangle-from-Top"}
+  ]
+}
+</script>
+
+
+<main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+<section id="overview" class="content-section">
+
+The Arm Triangle from Top (kata gatame) is a powerful blood choke initiated from side control that traps the opponent's arm against their own neck, using your shoulder and head as the secondary compression point. The mechanic is deceptively simple: drive the opponent's arm across their centerline so their own bicep occludes one carotid artery while your shoulder compresses the other. What separates competent execution from failed attempts is the walk-around finish—once the arm-and-head configuration is locked, you must step over to the opposite side of the opponent's body, sprawling your hips low and angling your squeeze inward rather than simply bearing down with chest pressure.
+
+Strategically, this technique thrives on a predictable defensive reaction: when trapped under side control, most practitioners instinctively push on your head or neck with their near arm, which is exactly the arm placement you need. The setup exploits the natural frames your opponent creates, turning their defense into the architecture of their own submission. Because the choke operates as a blood restriction rather than an airway crush, properly applied arm triangles produce unconsciousness rapidly—often within four to six seconds of full compression—making recognition and release protocol essential training components.
+
+The arm triangle from top integrates seamlessly with side control attacks. If the opponent defends the americana by bringing their elbow tight, they expose the arm triangle. If they frame against your neck to create escape space, they feed the configuration. This creates a submission chain where defending one attack opens the next, embodying the dilemma-based approach that characterizes high-level top control.
+
+**From Position**: [[Side Control/Top]]
+**Success Rates**: Beginner 25%, Intermediate 45%, Advanced 65%
+
+</section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[game-over]] | 55% |
+| Failure | [[Side Control]] | 30% |
+| Counter | [[Half Guard]] | 15% |
+
+
+</section>
+
+
+
+<section id="key-principles" class="content-section">
+
+## Key Principles
+- Drive the opponent's arm across their centerline so their bicep compresses one carotid artery while your shoulder compresses the other—both sides must be occluded for the blood choke to work
+- Lock a palm-to-palm or gable grip behind the opponent's head before transitioning to the finish side, ensuring the configuration cannot be disrupted during the walk-around
+- Walk your feet to the opposite side of the opponent's body during the finish, sprawling hips low and heavy to generate compression through body angle rather than arm squeeze alone
+- Keep your choking-side elbow tight to your own ribs throughout the squeeze to prevent the opponent from creating space between your shoulder and their neck
+- Angle your head toward the mat on the choking side, driving your shoulder forward and down to maximize the V-shape compression against both carotid arteries
+- Maintain chest-to-chest connection throughout the transition from side control to the finishing position—any space allows the opponent to extract their trapped arm
+- Control the opponent's far hip with your free hand during setup to prevent them from turning into you or shrimping away before the configuration is locked
+
+
+</section>
+
+<section id="setup-requirements" class="content-section">
+
+## Prerequisites
+- Established side control with crossface pressure driving the opponent's head away, creating the initial angle for arm entrapment
+- Opponent's near arm pushed or framed across the centerline of their own body—either through their defensive reaction or your active manipulation of their elbow
+- Your head positioned tight against the opponent's trapped arm and neck, closing the gap on the choking side with no space between your temple and their shoulder
+- Secure grip (gable or palm-to-palm) locked behind the opponent's head, encircling both their arm and neck within the loop of your arms
+- Hip-to-hip connection maintained to prevent the opponent from creating space or turning away before you begin the walk-around transition
+
+
+</section>
+
+<section id="execution-steps" class="content-section">
+
+## Execution Steps
+1. **Establish crossface control**: From side control, drive heavy crossface pressure with your near-side arm across the opponent's jaw and neck, forcing their head to turn away from you. Your weight should be distributed through your chest and shoulder into their upper body, pinning their shoulders flat to the mat. (Timing: Begin when you have stable side control with hip-to-hip connection)
+2. **Manipulate the near arm across**: Use your far-side hand to push the opponent's near elbow across their centerline, driving their forearm against their own neck. If the opponent is already framing against your head or neck, use that frame by swimming your head underneath their arm and trapping it tight against their neck with your shoulder pressure. (Timing: Capitalize on the opponent's natural framing reaction within the first 5-10 seconds of establishing side control)
+3. **Set the head position**: Drop your head tight against the side of the opponent's trapped arm, pressing your temple into the pocket between their shoulder and neck. There should be zero space between your head and their body—your ear should feel their pulse. This head position creates one side of the choking V while the opponent's own bicep creates the other. (Timing: Immediately after the arm crosses centerline, before they can retract)
+4. **Lock the grip behind the head**: Thread your crossface arm behind the opponent's head and connect it with your other hand using a gable grip or palm-to-palm clasp. The grip should sit at the base of the opponent's skull, pulling their head forward slightly to tighten the arm-and-neck configuration. Squeeze your elbows together to test the seal before committing to the walk-around. (Timing: Secure grip within 2-3 seconds of head positioning to prevent arm extraction)
+5. **Walk to the finishing side**: Keeping chest-to-chest contact and the grip locked, walk your feet in an arc toward the opposite side of the opponent's body (the side their trapped arm is on). Step over their torso with your far leg first, then follow with your near leg. Maintain constant downward pressure through your chest throughout the transition—any lift allows arm extraction. (Timing: Move deliberately in 3-4 steps, maintaining pressure throughout the arc)
+6. **Sprawl and angle the squeeze**: Once on the finishing side, sprawl both legs back with hips driving into the mat at a 45-degree angle toward the opponent's trapped arm. Drop your choking-side shoulder forward and down while pulling your elbow tight to your ribs. The squeeze comes from your body angle and hip pressure compressing inward, not from arm strength alone. (Timing: Begin the squeeze as soon as hips are settled on the finishing side)
+7. **Apply finishing compression**: With hips sprawled low and heavy, raise your non-choking shoulder slightly while driving the choking shoulder deeper into the neck. Imagine trying to touch your choking-side elbow to your own opposite hip—this inward rotation maximizes carotid compression. Hold steady pressure and monitor the opponent for tap signals, verbal submission, or signs of unconsciousness. (Timing: Full compression should produce tap within 4-8 seconds if configuration is correct)
+
+
+</section>
+
+<section id="common-counters" class="content-section">
+
+## Opponent Counters
+- **Opponent frames with both arms against your chest and shrimps away before you lock the grip, creating enough space to extract the trapped arm and recover guard** (Effectiveness: High) - Your Response: Maintain heavy chest pressure and control the far hip with your free hand throughout setup. If they begin shrimping, switch to knee on belly or mount transition to capitalize on the space they create rather than chasing the arm triangle
+- **Opponent clasps their hands together in a prayer grip or grabs their own collar to prevent their arm from being pushed across the centerline** (Effectiveness: Medium) - Your Response: Use your knee or hip to bump their elbow upward while driving your shoulder into the gap. Alternatively, switch to attacking the americana or kimura on the now-extended arm, forcing them to release the defensive grip
+- **Opponent turns into you during the walk-around, getting to their knees or recovering half guard by inserting a knee before you complete the transition** (Effectiveness: Medium) - Your Response: If they turn in, immediately transition to a darce choke or guillotine as their neck becomes exposed during the turn. If they recover half guard, maintain the head-and-arm configuration and work the arm triangle finish from half guard top instead
+- **Opponent bridges explosively toward the choking side during the finishing squeeze, creating space and disrupting your angle** (Effectiveness: Low) - Your Response: Absorb the bridge by widening your base and dropping your hips heavier. Their bridge actually helps tighten the choke if you maintain the configuration—ride the movement and increase your squeeze angle as they return to the mat
+
+
+</section>
+
+<section id="common-mistakes" class="content-section hide-minimal">
+
+## Common Mistakes
+- **Mistake**: Squeezing with arm strength rather than body angle and hip pressure during the finish
+  - **Consequence**: Arms fatigue rapidly, the choke becomes a neck crank rather than a blood choke, and the opponent has time to work defensive frames and extract their trapped arm
+  - **Correction**: Sprawl hips low on the finishing side at a 45-degree angle toward the opponent's trapped arm. The compression comes from driving your shoulder forward while your hips create downward pressure—your arms maintain the configuration but do not generate the force
+- **Mistake**: Lifting chest off the opponent during the walk-around transition to the finishing side
+  - **Consequence**: Creates space that allows the opponent to pull their trapped arm free, turn into you for guard recovery, or insert frames that block the choke entirely
+  - **Correction**: Maintain constant chest-to-chest contact throughout the entire walk-around. Move your feet in small steps while your upper body stays glued to the opponent—imagine sliding across their chest rather than stepping over them
+- **Mistake**: Failing to walk far enough to the opposite side before attempting the finishing squeeze
+  - **Consequence**: The angle is insufficient to generate proper carotid compression, resulting in a pressure choke that the opponent can endure or a neck crank that causes injury without submission
+  - **Correction**: Walk your feet fully to the opposite side until your hips are past the opponent's centerline on the finishing side. Your body should form a diagonal line across their torso, not remain perpendicular as in side control
+- **Mistake**: Leaving space between your head and the opponent's shoulder during the setup phase
+  - **Consequence**: The opponent can extract their arm through the gap, the choke becomes loose and ineffective, and you waste the setup window while they establish defensive frames
+  - **Correction**: Press your temple directly into the pocket between the opponent's shoulder and neck. Your ear should be in contact with their body—eliminate all daylight between your head and their trapped arm before locking the grip
+- **Mistake**: Gripping behind the opponent's head with fingers interlocked rather than a gable or palm-to-palm grip
+  - **Consequence**: Interlocked fingers create a weaker grip that can be broken by the opponent's head movement, and risk finger injury when the opponent bridges or turns explosively
+  - **Correction**: Use a gable grip (palm-to-palm with fingers wrapped over the back of the opposite hand) or an S-grip for maximum structural integrity and injury prevention
+- **Mistake**: Attempting the arm triangle when the opponent's arm is only partially across their centerline
+  - **Consequence**: The opponent's bicep does not compress their carotid artery because the arm is not deep enough, resulting in a squeeze that generates pressure but not a blood choke
+  - **Correction**: Ensure the opponent's elbow has crossed their chin line before locking the grip. Their forearm should be pressing against their own neck—if you can see daylight between their arm and neck, the configuration is not deep enough
+
+
+</section>
+
+<section id="training-progressions" class="content-section hide-minimal">
+
+## Training Progressions
+**Foundation** - Configuration mechanics and grip placement
+Drill the arm-and-head trapping sequence from side control with a non-resisting partner. Focus on pushing the arm across centerline, setting head position with zero space, and locking the gable grip behind the head. Repeat 20 reps per side, emphasizing the feel of a properly sealed configuration before any walk-around or squeeze.
+(Resistance: None)
+
+**Technique** - Walk-around transition and finishing angle
+With a cooperative partner, practice the complete sequence from side control setup through walk-around to finishing squeeze. Partner allows the setup but provides light frames to develop the habit of maintaining chest contact during transition. Focus on foot placement during the walk-around and proper hip angle on the finishing side. Partner signals tightness so you calibrate squeeze pressure.
+(Resistance: Light)
+
+**Timing** - Setup recognition and entry timing
+Partner works realistic side control bottom defense—framing, shrimping, attempting escapes. Identify the moment the near arm crosses centerline during defensive frames and enter the arm triangle in real time. Practice switching between the arm triangle and alternative attacks (americana, kimura) when the opponent successfully defends the initial setup. Develop the ability to read the defensive reaction and choose the correct attack.
+(Resistance: Medium)
+
+**Live application** - Full-resistance integration and chain attacks
+Positional sparring starting from side control top. Opponent defends with full resistance. Work the arm triangle as part of a submission chain: americana threatens low arm → opponent pushes arm up → arm triangle entry. Track success rate over 10-round blocks and identify which defensive reactions consistently open the arm triangle versus requiring alternative attacks.
+(Resistance: Full)
+
+
+
+</section>
+
+<section id="variants-and-adaptations" class="content-section hide-minimal">
+
+## Variations
+**Mounted Arm Triangle**: Initiated from mount rather than side control. Trap the opponent's arm across their neck using crossface pressure from mount, lock the grip, then slide off to the finishing side. The mount entry offers stronger initial control and makes arm extraction more difficult because your weight pins the opponent flat. (When to use: When you have established mount and the opponent frames against your chest or neck with their near arm, pushing it across their own centerline)
+
+**Arm Triangle from North-South**: Set up by transitioning to north-south and catching the opponent's arm as they reach to frame or defend. Thread your arm around their head and trapped arm from the north-south angle, then rotate back to the standard finishing position. The north-south entry catches opponents who are familiar with the side control setup. (When to use: When the opponent successfully defends the side control arm triangle entry and you transition to north-south, or when their arm position from north-south naturally creates the head-and-arm configuration)
+
+**Half Guard Arm Triangle Finish**: When the opponent recovers half guard during your walk-around transition, maintain the head-and-arm grip and finish the choke from half guard top. Use your free leg to backstep and generate the same diagonal angle you would achieve from full side transition. The half guard entanglement can actually assist the finish by preventing the opponent from turning away. (When to use: When the opponent successfully inserts a knee during the walk-around but you still have the grip and head-arm configuration locked)
+
+**No-Arm Arm Triangle (Shoulder Pressure Variation)**: Instead of locking a traditional grip behind the head, use your bodyweight and shoulder to drive the opponent's arm across their neck while controlling their far hip. Finish by sprawling heavy and using shoulder pressure alone. Requires excellent weight distribution and body mechanics but is harder for opponents to defend because there is no grip to fight. (When to use: When the opponent is defending grip attempts behind the head but their arm is already deep across their own centerline and your shoulder pressure is sufficient)
+
+
+
+</section>
+
+<section id="knowledge-assessment" class="content-section">
+
+## Test Your Knowledge
+**Q1**: What is the correct head position when setting up the arm triangle from side control?
+**A**: Your temple should press directly into the pocket between the opponent's shoulder and neck on the choking side, with zero space between your head and their body. Your ear should be in contact with their shoulder or neck. This position creates one side of the choking V, while the opponent's own trapped bicep compresses the other carotid artery. Any gap allows the opponent to extract their arm or reduces compression effectiveness.
+
+**Q2**: Your opponent is pushing against your head with their near arm from side control bottom—how do you convert this into an arm triangle entry?
+**A**: Swim your head underneath their pushing arm by dipping your chin and threading your head to the opposite side of their forearm, trapping their arm against their own neck with your shoulder. As their arm crosses their centerline, immediately press your temple into the shoulder-neck pocket and begin locking the gable grip behind their head. Their defensive push has created the exact arm configuration you need—capitalize before they recognize the danger and retract.
+
+**Q3**: Why is the walk-around to the opposite side critical for finishing the arm triangle?
+**A**: Walking to the opposite side creates the diagonal body angle necessary for proper carotid compression. From perpendicular side control, your squeeze generates downward pressure but lacks the inward angle needed to close both carotid arteries. By sprawling on the finishing side at a 45-degree angle, your shoulder drives forward and inward while your hips create downward pressure, producing a V-shaped compression that occludes both arteries simultaneously. Without the walk-around, you get a pressure squeeze rather than a blood choke.
+
+**Q4**: You have the arm triangle locked but your opponent bridges toward the choking side—what adjustment do you make?
+**A**: Absorb the bridge by widening your base slightly and dropping your hips heavier into the mat. Do not release the grip or abandon the position. Their bridge toward the choking side actually helps tighten the configuration by driving their own shoulder deeper into the choke. As they return to the mat after the bridge, increase your squeeze angle by driving your choking shoulder forward and pulling your elbow tighter to your ribs. The bridge is the lowest-percentage counter precisely because it assists the choke mechanics.
+
+**Q5**: How does the arm triangle from top differ mechanically from a darce choke setup?
+**A**: The arm triangle traps the opponent's arm and head within a loop formed by your arms, with your shoulder providing one compression point and their own bicep providing the other. You finish by sprawling to the side. The darce choke threads your arm under the opponent's armpit and behind their neck, creating compression between your bicep and their own shoulder from the front. The darce works best when the opponent is on their side or turtled with their arm forward, while the arm triangle works best when the opponent is flat on their back with their arm pushed across their neck. The force vectors are approximately 90 degrees different.
+
+**Q6**: What grip should you use behind the opponent's head, and why does it matter?
+**A**: Use a gable grip (palm-to-palm with fingers wrapped over the back of the opposite hand) or an S-grip. Interlocked fingers create a structurally weaker connection that can be broken by explosive bridging or head movement, and the finger interlock risks injury when force is applied laterally. The gable grip distributes force across the entire hand surface and allows you to adjust squeeze angle by rotating your wrists without releasing pressure. The grip placement should sit at the base of the opponent's skull, pulling their head slightly forward to tighten the neck-arm seal.
+
+**Q7**: Your opponent grabs their own hands together in a prayer grip to prevent you from pushing their arm across—what is your counter?
+**A**: Use your knee or hip to bump their elbow upward, breaking the prayer grip structure by attacking the weakest point of their hand connection. Alternatively, abandon the arm triangle temporarily and attack the americana or kimura on their now-extended arm—this forces them to release the prayer grip to defend the shoulder lock, which reopens the arm triangle entry. The key principle is creating a submission dilemma: defending one attack exposes them to the other, so their prayer grip becomes a temporary obstacle rather than a permanent defense.
+
+**Q8**: During the walk-around, the opponent inserts their knee and recovers half guard—how do you still finish the arm triangle?
+**A**: Maintain the head-and-arm grip configuration and do not release. From half guard top with the arm triangle locked, backstep your free leg to create the same diagonal angle you would achieve from a full side transition. The half guard leg entanglement can actually assist the finish by preventing the opponent from turning away or shrimping out. Drive your weight forward through the choking shoulder while using your trapped leg as a post. Many arm triangles in competition are finished from this half-guard position because practitioners abandon the choke too early when half guard is recovered.
+
+**Q9**: What are the optimal timing windows for entering the arm triangle from side control?
+**A**: The three primary timing windows are: (1) immediately after establishing side control when the opponent instinctively frames against your head or neck, pushing their arm across their own centerline; (2) when the opponent defends an americana and brings their elbow upward, creating the arm-across-neck configuration as a defensive byproduct; (3) when the opponent attempts to shrimp away and uses their near arm to push against your shoulder, which naturally drives their arm toward their own neck. The common thread is that the opponent's defensive movements create the setup—you exploit reactions rather than forcing the arm into position.
+
+**Q10**: What is the primary direction of force during the finishing squeeze, and why do many practitioners get this wrong?
+**A**: The primary force direction is inward and forward at approximately 45 degrees, driving the choking shoulder toward the opponent's far hip. Most practitioners make the error of squeezing straight down with their arms, which generates chest pressure but not carotid compression. The correct squeeze comes from your body angle and hip position—sprawl on the finishing side and rotate your choking shoulder inward while pulling your elbow tight to your ribs. Think of driving your shoulder through the opponent's neck rather than crushing down on top of them. The hip sprawl generates the force; the arms simply maintain the configuration.
+
+
+
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Considerations
+
+The arm triangle is a blood choke that compresses both carotid arteries, producing unconsciousness within 4-8 seconds of full compression. Training partners must understand that this choke can render someone unconscious before they feel significant discomfort, unlike airway chokes where pain precedes unconsciousness. Always honor verbal taps, physical taps (two or more deliberate taps on any surface), and foot taps immediately. Release all pressure instantly upon any tap signal—do not 'finish the rep' or 'hold for one more second.' During drilling, apply the squeeze progressively and pause when your partner signals tightness rather than sinking the choke fully. Monitor your partner's face for color changes (reddening or pallor) and eye responsiveness, as some practitioners lose consciousness without tapping due to the rapid onset of blood chokes. If a training partner goes unconscious, immediately release all pressure, elevate their legs slightly, and ensure their airway is clear—they will typically regain consciousness within 10-15 seconds. Never apply the arm triangle with explosive jerking motions, as this risks cervical spine injury. During the walk-around transition, be mindful of your partner's shoulder joint—the configuration places their arm in a vulnerable position that could cause shoulder strain if you drive weight suddenly.
+
+</section>
+
+<section id="position-integration" class="content-section">
+
+## Position Integration
+
+The arm triangle from top is a cornerstone of the side control submission system, functioning as a natural complement to americana and kimura attacks. When the opponent defends the americana by keeping their elbow tight, they expose the arm triangle configuration. When they frame against your neck to escape side control, they feed the arm across their own centerline. This creates a three-way submission dilemma from side control where each defense to one attack opens vulnerability to another. The technique connects to the broader top control game plan through multiple entry points: side control (primary), mount (via mounted arm triangle variant), north-south (via arm catch during transition), and even half guard top (when the opponent's arm is trapped during passing sequences). If the arm triangle attempt fails and you return to side control, the opponent's defensive reactions often open mount transitions or knee on belly entries, maintaining offensive momentum even without the submission finish. Advanced practitioners chain the arm triangle with the darce choke, creating a head-and-arm choke system where turning toward you exposes the darce and staying flat exposes the arm triangle.
+
+</section>
+
+<section id="related-content" class="content-section">
+
+## Related Techniques
+
+- [[Arm Triangle]] - Parent submission technique—the arm triangle from top is the setup transition that leads to the finishing choke
+- [[Side Control]] - Primary starting position from which the arm triangle is initiated
+- [[Darce Choke]] - Complementary head-and-arm choke—when the opponent turns to defend the arm triangle, the darce becomes available
+- [[Americana from Side Control]] - Chain attack—americana defense (elbow high) creates the arm-across-neck configuration for the arm triangle
+- [[Kimura from Side Control]] - Chain attack—kimura and arm triangle form a two-way dilemma when the opponent's arm is exposed
+- [[Arm Triangle Setup]] - Related transition for establishing the head-and-arm configuration from various positions
+- [[Arm Triangle Transition]] - Related transition covering the movement between positions during arm triangle sequences
+- [[Arm Triangle from Front Headlock]] - Alternative entry—arm triangle setup from front headlock rather than side control
+- [[Arm Triangle from Turtle]] - Alternative entry—arm triangle catch when opponent turtles from side control
+- [[Mount]] - Alternative starting position for the mounted arm triangle variant
+- [[North-South]] - Transition position that can expose arm triangle opportunities during north-south attacks
+- [[Half Guard]] - Counter outcome position—opponent may recover half guard during the walk-around, but the arm triangle can still be finished
+- [[Arm Triangle Progression]] - Submission progression covering the complete arm triangle finishing system
+
+
+</section>
+
+</main>

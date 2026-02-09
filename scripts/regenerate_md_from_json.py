@@ -5,7 +5,7 @@ BJJ Graph JSON to Markdown Generator
 Generates markdown files from JSON data using category-specific Jinja2 templates.
 
 Usage:
-    python3 scripts/json_to_md.py --file source/content/Positions/Mount.json
+    python3 scripts/json_to_md.py --file content/Positions/Mount.json
     python3 scripts/json_to_md.py --category Positions --all
     python3 scripts/json_to_md.py --all
     python3 scripts/json_to_md.py --all --dry-run
@@ -17,27 +17,37 @@ import sys
 from pathlib import Path
 from jinja2 import Template, Environment, FileSystemLoader
 
+try:
+    import jsonschema
+except ImportError:
+    print("ERROR: jsonschema library not installed")
+    print("Install with: pip install jsonschema")
+    sys.exit(1)
+
 # Category configurations
 CATEGORIES = {
-    "Positions": "source/content/Positions",
-    "Transitions": "source/content/Transitions",
-    "Submissions": "source/content/Submissions",
-    "Principles": "source/content/Principles",
-    "Systems": "source/content/Systems"
+    "Positions": "content/Positions",
+    "Transitions": "content/Transitions",
+    "Submissions": "content/Submissions",
+    "Principles": "content/Principles",
+    "Systems": "content/Systems"
 }
 
 
 def load_json_file(json_path):
-    """Load and parse JSON file"""
+    """Load and parse JSON file.
+
+    Raises:
+        FileNotFoundError: If the file does not exist.
+        ValueError: If the file contains invalid JSON.
+    """
     try:
         with open(json_path, 'r', encoding='utf-8') as f:
             return json.load(f)
     except FileNotFoundError:
-        print(f"ERROR: File not found: {json_path}")
-        sys.exit(1)
+        raise FileNotFoundError(f"File not found: {json_path}")
     except json.JSONDecodeError as e:
-        print(f"ERROR: Invalid JSON in {json_path}: {e}")
-        sys.exit(1)
+        raise ValueError(f"Invalid JSON in {json_path}: {e}")
 
 
 def detect_position_template_type(json_file, data=None):
@@ -67,13 +77,13 @@ def detect_position_template_type(json_file, data=None):
 
 
 def load_template(category, template_name):
-    """Load Jinja2 template from source/templates/"""
+    """Load Jinja2 template from templates/"""
     if category == "Positions":
         # Positions templates are in subdirectory
-        template_path = Path(f"source/templates/Positions/{template_name}")
+        template_path = Path(f"templates/Positions/{template_name}")
     else:
         # Other categories use flat structure
-        template_path = Path(f"source/templates/{template_name}")
+        template_path = Path(f"templates/{template_name}")
 
     if not template_path.exists():
         raise FileNotFoundError(f"Template not found: {template_path}")
@@ -86,16 +96,23 @@ def load_template(category, template_name):
 
 
 def generate_markdown(json_data, template):
-    """Generate markdown from JSON data using Jinja2 template"""
+    """Generate markdown from JSON data using Jinja2 template.
+
+    Raises:
+        RuntimeError: If template rendering fails.
+    """
     try:
         return template.render(**json_data)
     except Exception as e:
-        print(f"ERROR: Template rendering failed: {e}")
-        sys.exit(1)
+        raise RuntimeError(f"Template rendering failed: {e}")
 
 
 def write_markdown_file(md_path, content, dry_run=False):
-    """Write markdown content to file"""
+    """Write markdown content to file.
+
+    Raises:
+        IOError: If writing the file fails.
+    """
     if dry_run:
         print(f"[DRY RUN] Would write: {md_path}")
         return
@@ -105,8 +122,7 @@ def write_markdown_file(md_path, content, dry_run=False):
             f.write(content)
         print(f"✓ Generated: {md_path}")
     except Exception as e:
-        print(f"ERROR: Failed to write {md_path}: {e}")
-        sys.exit(1)
+        raise IOError(f"Failed to write {md_path}: {e}")
 
 
 def find_variant_file(variant_folder, slug):
@@ -166,8 +182,48 @@ def aggregate_family_variants(data, json_path):
     return variants_comparison
 
 
+def load_schema(category, json_path=None):
+    """Load JSON schema for a category from templates/.
+
+    Uses the same schema files as validate_json.py. For Positions, detects
+    the template type (SINGLE/DUAL/FAMILY) from the JSON structure.
+
+    Args:
+        category: Category name (e.g., "Positions", "Transitions").
+        json_path: Path to the JSON file (required for Positions to detect type).
+
+    Returns:
+        Parsed JSON schema dict.
+
+    Raises:
+        FileNotFoundError: If the schema file does not exist.
+        ValueError: If the schema contains invalid JSON.
+    """
+    if category == "Positions":
+        template_type = detect_position_template_type(json_path)
+        schema_path = Path(f"templates/Positions/TEMPLATE-POSITION-{template_type}.json")
+    else:
+        schema_path = Path(f"templates/{category}.json")
+
+    if not schema_path.exists():
+        raise FileNotFoundError(f"Schema not found: {schema_path}")
+
+    try:
+        with open(schema_path, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    except json.JSONDecodeError as e:
+        raise ValueError(f"Invalid JSON in schema {schema_path}: {e}")
+
+
 def process_json_file(json_path, dry_run=False):
-    """Process a single JSON file: load data, render template(s), write MD"""
+    """Process a single JSON file: load data, render template(s), write MD.
+
+    Raises:
+        ValueError: If category cannot be determined or schema validation fails.
+        FileNotFoundError: If required files are missing.
+        RuntimeError: If template rendering fails.
+        IOError: If writing output fails.
+    """
     json_path = Path(json_path)
 
     # Determine category from path
@@ -178,12 +234,23 @@ def process_json_file(json_path, dry_run=False):
             break
 
     if not category:
-        print(f"ERROR: Could not determine category for {json_path}")
-        print(f"File must be in one of: {', '.join(CATEGORIES.values())}")
-        sys.exit(1)
+        raise ValueError(
+            f"Could not determine category for {json_path}. "
+            f"File must be in one of: {', '.join(CATEGORIES.values())}"
+        )
 
     # Load JSON data
     data = load_json_file(json_path)
+
+    # Validate against schema before rendering
+    schema = load_schema(category, json_path)
+    try:
+        jsonschema.validate(instance=data, schema=schema)
+    except jsonschema.ValidationError as e:
+        raise ValueError(
+            f"Schema validation failed for {json_path}: {e.message} "
+            f"at path {'.'.join(str(p) for p in e.path)}"
+        )
 
     # Handle different category types
     if category != "Positions":
@@ -250,7 +317,14 @@ def process_json_file(json_path, dry_run=False):
 
 
 def process_category(category, dry_run=False):
-    """Process all JSON files in a category"""
+    """Process all JSON files in a category.
+
+    Collects failures and continues processing remaining files instead of
+    stopping on the first error. Prints a summary of all failures at the end.
+
+    Returns:
+        List of (file_path, error_message) tuples for failed files.
+    """
     if category not in CATEGORIES:
         print(f"ERROR: Unknown category '{category}'")
         print(f"Available categories: {', '.join(CATEGORIES.keys())}")
@@ -279,11 +353,12 @@ def process_category(category, dry_run=False):
 
     if not json_files:
         print(f"No JSON files found in {category_path}")
-        return
+        return []
 
     print(f"\nProcessing {len(json_files)} files in {category} ({len(root_json_files)} root, {len(variant_json_files)} variants)...")
 
     processed = 0
+    failures = []
     for json_file in sorted(json_files):
         try:
             generated_files = process_json_file(json_file, dry_run)
@@ -291,19 +366,40 @@ def process_category(category, dry_run=False):
             if len(generated_files) > 1:
                 print(f"  → Generated {len(generated_files)} files")
         except Exception as e:
-            print(f"ERROR processing {json_file}: {e}")
-            import traceback
-            traceback.print_exc()
+            failures.append((str(json_file), str(e)))
+            print(f"⚠ SKIPPED {json_file}: {e}")
 
     print(f"\n✓ Processed {processed}/{len(json_files)} files in {category}")
 
+    if failures:
+        print(f"✗ {len(failures)} file(s) failed in {category}:")
+        for file_path, error_msg in failures:
+            print(f"  - {file_path}: {error_msg}")
+
+    return failures
+
 
 def process_all_categories(dry_run=False):
-    """Process all JSON files in all categories"""
+    """Process all JSON files in all categories.
+
+    Prints a summary of all failures across categories at the end.
+    """
     print("Processing all categories...")
 
+    all_failures = []
     for category in CATEGORIES.keys():
-        process_category(category, dry_run)
+        failures = process_category(category, dry_run)
+        if failures:
+            all_failures.extend(failures)
+
+    if all_failures:
+        print(f"\n{'='*60}")
+        print(f"⚠ TOTAL: {len(all_failures)} file(s) failed across all categories:")
+        for file_path, error_msg in all_failures:
+            print(f"  - {file_path}: {error_msg}")
+    else:
+        print(f"\n{'='*60}")
+        print("✓ All files processed successfully")
 
 
 def main():
@@ -313,7 +409,7 @@ def main():
         epilog="""
 Examples:
   # Generate single file
-  python3 scripts/json_to_md.py --file source/content/Positions/Mount.json
+  python3 scripts/json_to_md.py --file content/Positions/Mount.json
 
   # Generate all files in category
   python3 scripts/json_to_md.py --category Positions --all

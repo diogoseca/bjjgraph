@@ -36,7 +36,7 @@ jobs:
         working-directory: ./source
 
       - name: Ensure Quartz builds
-        run: npx quartz build --bundleInfo
+        run: npx quartz build --bundleInfo -d ../content
         working-directory: ./source
 
   deploy:
@@ -64,7 +64,7 @@ jobs:
           POSTHOG_API_HOST: ${{ secrets.POSTHOG_API_HOST }}
         run: |
           npm install
-          npx quartz build
+          npx quartz build -d ../content
         working-directory: ./source
 
       - name: Copy raw HTML folder
@@ -115,3 +115,33 @@ jobs:
           sitemap-location: "https://bjjgraph.org/sitemap.xml"
           # The IndexNow key - must match the key file at https://bjjgraph.org/77f7cddd8fa9441797b0c5b19106919a.txt
           key: "77f7cddd8fa9441797b0c5b19106919a"
+
+  release:
+    needs: deploy
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Compute date-based tag
+        id: tag
+        run: |
+          BASE="v$(date -u +%Y.%m.%d)"
+          TAG="$BASE"
+          N=1
+          while git ls-remote --tags origin "refs/tags/$TAG" | grep -q .; do
+            TAG="${BASE}.${N}"
+            N=$((N + 1))
+          done
+          echo "tag=$TAG" >> "$GITHUB_OUTPUT"
+
+      - name: Create release with graph.json
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "${{ steps.tag.outputs.tag }}" \
+            graph.json \
+            --title "${{ steps.tag.outputs.tag }}" \
+            --notes "Auto-release of BJJGraph knowledge graph data." \
+            --latest

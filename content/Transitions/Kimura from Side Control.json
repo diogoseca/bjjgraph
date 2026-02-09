@@ -1,0 +1,295 @@
+{
+  "name": "Kimura from Side Control",
+  "description": "Master the Kimura from Side Control in BJJ. Learn step-by-step execution, grip mechanics, and back take transitions. Success: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "tags": [
+    "bjj",
+    "kimura",
+    "shoulder lock",
+    "side control attack",
+    "submission setup",
+    "arm isolation"
+  ],
+  "from_position": "Side Control/Top",
+  "outcomes": [
+    {
+      "to": "Kimura Trap",
+      "probability": 50,
+      "result": "success"
+    },
+    {
+      "to": "Side Control",
+      "probability": 30,
+      "result": "failure"
+    },
+    {
+      "to": "Half Guard",
+      "probability": 20,
+      "result": "counter"
+    }
+  ],
+  "success_rates": {
+    "beginner": 30,
+    "intermediate": 50,
+    "advanced": 65
+  },
+  "overview": "The Kimura from Side Control is one of the most versatile and high-percentage attacks available from the top position, functioning both as a direct submission threat and as a powerful positional control tool. Named after judoka Masahiko Kimura who famously used it to defeat Helio Gracie, this double wrist lock targets the shoulder joint through external rotation and can finish opponents at any skill level when properly applied. Unlike submissions that require you to sacrifice position, the kimura grip from side control actually enhances your control while attacking, creating a win-win scenario where failed submission attempts often lead to improved position or back takes.\n\nThe strategic value of the kimura extends far beyond the submission itself. The grip creates a powerful control mechanism that limits your opponent's defensive options while opening multiple attack chains. When opponents defend the kimura by straightening their arm, you can transition to an armbar. When they roll to escape, you follow to take the back. When they bridge aggressively, you use their momentum to sweep them into mount. This creates what high-level competitors call the 'kimura trap' - a position where every defensive action leads to another attacking opportunity.\n\nFrom a biomechanical perspective, the kimura works by isolating the shoulder joint and applying rotational force while the arm is bent at approximately 90 degrees. The figure-four grip creates exceptional mechanical advantage, allowing you to overcome significant strength differentials. The key to success lies in proper angle creation, hip positioning, and understanding the sequential stages of the attack from initial grip acquisition through final submission or positional advancement.",
+  "key_principles": [
+    "Isolate the near arm before attacking - the far arm requires position abandonment and creates escape opportunities",
+    "Establish the figure-four grip with your wrist controlling their wrist and your opposite hand gripping your own wrist for maximum leverage",
+    "Create perpendicular angle to opponent's body - the kimura becomes exponentially more powerful as you achieve north-south alignment",
+    "Keep their elbow glued tight to their ribs during grip establishment to prevent straightening defense",
+    "Use your head as a third hand pressing down on their trapped arm to prevent them from sitting up into you",
+    "Generate rotational force through hip drive rather than arm strength alone - your hips create far more torque than your arms",
+    "Maintain constant pressure throughout the sequence - any relaxation allows defensive frame creation"
+  ],
+  "setup_requirements": [
+    "Established side control with crossface pressure controlling opponent's head position",
+    "Opponent's near arm isolated and accessible, either reaching across your body, framing against your hip, or defending your crossface",
+    "Your weight distributed low with hips heavy to prevent opponent from generating escape momentum",
+    "Near-side underhook position or ability to quickly secure the figure-four grip when arm becomes available",
+    "Space to transition your hips toward north-south position as the attack develops",
+    "Control of opponent's far hip to prevent them from turning into you during the attack"
+  ],
+  "execution_steps": [
+    {
+      "step_number": 1,
+      "action": "Bait the arm",
+      "description": "From solid side control with crossface established, slightly lift pressure on opponent's near-side arm to invite them to push against your chest or frame against your hip - this creates the opening you need for grip acquisition.",
+      "timing": "When opponent begins active escape attempts"
+    },
+    {
+      "step_number": 2,
+      "action": "Secure wrist control",
+      "description": "As their arm extends or reaches, your near-side hand shoots underneath their elbow and cups their wrist from below, palm up, ensuring their forearm is trapped against your forearm in a figure-four configuration.",
+      "timing": "Immediately when arm becomes accessible"
+    },
+    {
+      "step_number": 3,
+      "action": "Complete figure-four grip",
+      "description": "Your far-side hand reaches over their trapped arm and grips your own wrist firmly, creating the classic figure-four lock. Squeeze your elbows together to cinch the grip tight against their body.",
+      "timing": "Within 1-2 seconds of initial wrist control"
+    },
+    {
+      "step_number": 4,
+      "action": "Pin elbow to hip",
+      "description": "Pull their trapped elbow tight against your hip bone while keeping their wrist elevated. This 90-degree arm position is essential - a straight arm cannot be kimura'd effectively and indicates you should transition to armbar.",
+      "timing": "Simultaneously with grip completion"
+    },
+    {
+      "step_number": 5,
+      "action": "Create angle toward head",
+      "description": "Walk your hips toward opponent's head in a north-south direction while maintaining the figure-four grip. Each step increases your mechanical advantage dramatically. Your chest should end up over their shoulder.",
+      "timing": "Gradual hip walk over 2-3 seconds"
+    },
+    {
+      "step_number": 6,
+      "action": "Apply rotational pressure",
+      "description": "With angle established, drive their wrist toward the mat while keeping their elbow pinned. The rotation should come from your hip drive pushing their hand down, not from pulling with arm strength alone.",
+      "timing": "Controlled steady pressure"
+    },
+    {
+      "step_number": 7,
+      "action": "Finish or transition",
+      "description": "Continue rotational pressure until tap. If opponent rolls to escape the shoulder lock, follow them maintaining the grip to take the back. If they straighten the arm, immediately transition to armbar by throwing your leg over their face.",
+      "timing": "Maintain pressure until resolution"
+    }
+  ],
+  "common_counters": [
+    {
+      "counter": "Straightening the arm and extending to prevent the lock - the bent arm position is essential for the kimura to work",
+      "effectiveness": "High",
+      "your_response": "Immediately transition to armbar by releasing the figure-four, controlling the wrist, and throwing your leg over their face"
+    },
+    {
+      "counter": "Gripping their own belt or pants to anchor the arm in place and prevent rotation",
+      "effectiveness": "High",
+      "your_response": "Pry their grip loose by driving your hips into their elbow, or transition to north-south position where their grip becomes ineffective"
+    },
+    {
+      "counter": "Rolling toward you explosively to relieve shoulder pressure and potentially reverse position",
+      "effectiveness": "Medium",
+      "your_response": "Maintain the grip and follow their roll, ending up in back control with the kimura grip still intact for continued attack"
+    },
+    {
+      "counter": "Sitting up into you while you establish the grip to prevent angle creation",
+      "effectiveness": "Medium",
+      "your_response": "Use your head pressed against their shoulder as a post to drive them back down, or circle to north-south position"
+    },
+    {
+      "counter": "Framing with far arm against your face or neck to create distance and disrupt your position",
+      "effectiveness": "Low",
+      "your_response": "Maintain grip pressure on trapped arm while using shoulder pressure to collapse their frame - their far arm cannot save the near arm"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "Attacking the far arm instead of the near arm from side control",
+      "consequence": "Must abandon side control position to reach the arm, creating scramble opportunities and potential reversal",
+      "correction": "Always target the near arm from side control - if you want the far arm, transition to north-south or mount first"
+    },
+    {
+      "error": "Allowing opponent's elbow to flare away from their body during grip establishment",
+      "consequence": "They can straighten the arm and escape, or generate enough space to turn into you and recover guard",
+      "correction": "Pin their elbow tight against their ribs throughout the entire attack sequence using your hip and body pressure"
+    },
+    {
+      "error": "Trying to finish the kimura with arm strength while staying perpendicular to opponent",
+      "consequence": "Insufficient leverage results in failed submission and exhausted arms, allowing opponent to escape",
+      "correction": "Walk your hips toward north-south position before applying finishing pressure - angle creates leverage"
+    },
+    {
+      "error": "Releasing crossface control too early to establish the kimura grip",
+      "consequence": "Opponent sits up into you, turns to face you, or creates frames that prevent the attack",
+      "correction": "Maintain crossface until figure-four grip is fully established, then use the grip itself as your control mechanism"
+    },
+    {
+      "error": "Focusing only on the submission and ignoring positional transitions",
+      "consequence": "Miss opportunities for back takes when opponent rolls, or armbars when they straighten",
+      "correction": "Train the kimura as a position/system with multiple outcomes, not just a single submission technique"
+    },
+    {
+      "error": "Cranking rapidly without controlled pressure application",
+      "consequence": "Risk injuring training partner, miss the tap window, or create space for explosive escape",
+      "correction": "Apply slow, steady, increasing pressure that allows partner to tap safely while eliminating escape windows"
+    }
+  ],
+  "training_progressions": [
+    {
+      "phase": "Week 1-2",
+      "focus": "Grip mechanics and isolation",
+      "description": "Practice the figure-four grip mechanics from side control with a compliant partner. Focus on proper wrist cup position, elbow pinning, and grip tightness. Drill the initial arm isolation entry 50+ times per session without attempting the finish.",
+      "resistance_level": "None"
+    },
+    {
+      "phase": "Week 3-4",
+      "focus": "Angle creation and finishing",
+      "description": "Add the hip walk toward north-south and the finishing rotation. Partner provides light resistance to help you feel when angle is insufficient. Practice recognizing the tap window and applying controlled finishing pressure.",
+      "resistance_level": "Light"
+    },
+    {
+      "phase": "Week 5-6",
+      "focus": "Counter chains and transitions",
+      "description": "Partner actively defends with straightening, belt grip, and rolling escapes. Practice the armbar transition when they straighten, the back take when they roll, and the north-south shift when they grip. Build the full kimura trap system.",
+      "resistance_level": "Medium"
+    },
+    {
+      "phase": "Week 7+",
+      "focus": "Live integration and timing",
+      "description": "Apply the kimura from side control in live rolling with full resistance. Focus on recognizing when the arm becomes available during natural exchanges. Chain with other side control attacks to create dilemma-based offense.",
+      "resistance_level": "Full"
+    }
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "North-South Kimura",
+      "description": "Complete the hip walk to full north-south position before finishing. This creates maximum mechanical advantage and eliminates most defensive options, though requires more setup time.",
+      "when_to_use": "When opponent has strong grip defense or when you have time to methodically work the position"
+    },
+    {
+      "variant_name": "Kimura Trap Hold",
+      "description": "Use the kimura grip as a control position rather than immediately seeking the finish. Maintain the grip while transitioning to mount or back, keeping the submission threat constant.",
+      "when_to_use": "Against defensive opponents who grip early, or when positional advancement is prioritized over immediate submission"
+    },
+    {
+      "variant_name": "Paper Cutter Kimura Combination",
+      "description": "Threaten the paper cutter choke with your crossface arm to force opponent to defend with their near arm, then immediately transition to kimura grip when they reach to defend their neck.",
+      "when_to_use": "When opponent keeps arms tight to body and refuses to give openings for standard kimura entry"
+    }
+  ],
+  "knowledge_assessment": [
+    {
+      "question": "Why is the near arm targeted from side control rather than the far arm?",
+      "answer": "The near arm can be attacked while maintaining full side control position with crossface and hip pressure intact. Attacking the far arm requires abandoning position, lifting weight, and creating scramble opportunities for the opponent. The near arm is accessible without sacrificing control.",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "Your opponent grabs their own belt to prevent the kimura rotation. What are your two best responses?",
+      "answer": "First option: drive your hips into their elbow to pry the grip loose while maintaining the figure-four. Second option: walk your hips to full north-south position where their belt grip becomes mechanically ineffective due to the angle change. The north-south transition is usually higher percentage.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "What body position creates maximum mechanical advantage for the kimura finish?",
+      "answer": "North-south alignment with your chest positioned over their shoulder creates maximum leverage. The perpendicular side control position provides less rotational force. Walking your hips toward their head progressively increases your mechanical advantage for the finish.",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "Your opponent straightens their arm while you have the kimura grip. What immediate transition should you make?",
+      "answer": "Release the figure-four grip, maintain wrist control, and immediately throw your leg over their face to transition to armbar. The straight arm that defeats the kimura is exactly what you need for the armbar. This is the fundamental kimura-to-armbar chain.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "How should you apply finishing pressure - through arm strength or hip drive?",
+      "answer": "The finishing pressure should come primarily from hip drive, not arm strength. Your hips generate far more torque than your arms. Drive their wrist toward the mat by rotating your hips while keeping their elbow pinned. Using arm strength alone leads to exhaustion and failed submissions.",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "Your opponent rolls toward you to escape the kimura. How do you capitalize on this defense?",
+      "answer": "Maintain the kimura grip and follow their roll. As they turn, you end up on their back with the kimura grip intact. From back control, you can continue the shoulder lock attack or transition to rear naked choke while using the arm control. The roll escape gives you the back.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "What role does the head play during the kimura attack from side control?",
+      "answer": "Your head functions as a third hand, pressing down on opponent's trapped arm or shoulder to prevent them from sitting up into you. This head pressure maintains your angle and control while your hands are occupied with the figure-four grip. Without head pressure, opponents can posture up and defend more effectively.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "Why must the opponent's elbow stay bent at approximately 90 degrees for the kimura to work?",
+      "answer": "The kimura applies rotational force to the shoulder joint through external rotation of the humerus. This rotation is only possible when the elbow is bent - a straight arm converts the rotational force into a different vector that doesn't stress the shoulder. Bent arm equals kimura; straight arm equals armbar.",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "What is the 'kimura trap' concept and how does it create dilemma-based offense?",
+      "answer": "The kimura trap is a positional system where the kimura grip is maintained while transitioning between positions. Every defensive action leads to another attack: straighten arm leads to armbar, roll gives up back, bridge creates mount opportunity, grab belt allows north-south finish. The opponent has no safe defensive option.",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "When should you release the crossface control during the kimura attack sequence?",
+      "answer": "Maintain crossface control until the figure-four grip is fully established and tight. Only then can you release the crossface, as the kimura grip itself becomes your primary control mechanism. Releasing crossface before grip establishment allows opponent to sit up, turn, or create defensive frames.",
+      "difficulty": "Intermediate"
+    }
+  ],
+  "safety_considerations": "The kimura attacks the shoulder joint through external rotation and can cause serious injury including rotator cuff tears, labrum damage, and shoulder dislocation if applied too quickly or without control. Always apply pressure slowly and progressively, giving your training partner adequate time to tap. Be especially careful when opponent is rolling to escape, as the shoulder can be compromised in transition. In training, release immediately upon any tap and never hold the position after submission. Recognize that shoulder flexibility varies significantly between individuals - what feels like moderate pressure for a flexible person may be near-injury for someone with limited mobility. When drilling, communicate with your partner about their shoulder health and adjust intensity accordingly. Competition application requires different mindset but training should always prioritize partner safety.",
+  "position_integration": "The Kimura from Side Control occupies a central position in the top game attacking hierarchy, functioning as both a direct submission threat and a gateway to positional advancement. From side control, the kimura creates what systematic coaches call a 'submission hub' - a position from which multiple attack chains originate. The kimura grip connects directly to armbar when straightened, back control when opponent rolls, north-south attacks via hip walk, and mount transitions via positional pressure. This makes the kimura valuable even when not finished, as the threat alone forces defensive reactions that open other opportunities. Within the broader BJJ system, the kimura from side control represents the quintessential example of 'position before submission' - you attack without sacrificing your dominant position, and failed attacks often improve your position rather than creating scrambles.",
+  "related_content": [
+    {
+      "name": "Side Control",
+      "relationship": "Starting position for this attack"
+    },
+    {
+      "name": "Kimura Trap",
+      "relationship": "Control position established via successful grip"
+    },
+    {
+      "name": "Americana from Side Control",
+      "relationship": "Alternative shoulder lock when near arm position differs"
+    },
+    {
+      "name": "Armbar from Side Control",
+      "relationship": "Chain attack when opponent straightens arm to defend"
+    },
+    {
+      "name": "Kimura to Back Take",
+      "relationship": "Transition when opponent rolls to escape"
+    },
+    {
+      "name": "North-South",
+      "relationship": "Position accessed via hip walk for stronger finish"
+    },
+    {
+      "name": "Kimura from North-South",
+      "relationship": "Continuation attack after transitioning"
+    },
+    {
+      "name": "Side Control to Mount",
+      "relationship": "Positional advancement option with kimura threat"
+    },
+    {
+      "name": "Arm Triangle",
+      "relationship": "Alternative attack when opponent defends with far arm"
+    },
+    {
+      "name": "Kimura Trap System",
+      "relationship": "Systematic approach incorporating this technique"
+    }
+  ]
+}

@@ -1,0 +1,284 @@
+{
+  "name": "Armbar from Back with Legs",
+  "description": "Learn Armbar from Back with Legs in BJJ. Step-by-step execution from Back Control to Armbar Control. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "tags": [
+    "bjj",
+    "transition",
+    "armbar",
+    "back control",
+    "submission setup",
+    "arm attack"
+  ],
+  "from_position": "Back Control/Top",
+  "outcomes": [
+    {
+      "to": "Armbar Control",
+      "probability": 65,
+      "result": "success"
+    },
+    {
+      "to": "Back Control",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Closed Guard",
+      "probability": 10,
+      "result": "counter"
+    }
+  ],
+  "success_rates": {
+    "beginner": 30,
+    "intermediate": 50,
+    "advanced": 65
+  },
+  "overview": "The Armbar from Back with Legs is an advanced arm attack initiated from back control where the attacker uses their legs to trap and hyperextend the opponent's elbow joint. Unlike the traditional armbar from back that requires releasing hooks and transitioning to a perpendicular angle, this variation maintains leg entanglement throughout the attack sequence, using the legs as the primary isolation and control mechanism. This technique capitalizes on the opponent's natural defensive reaction of using their arms to protect the neck from rear naked choke attempts.\n\nStrategically, this attack functions as an excellent complement to choke attacks from back control. When opponents defend their neck with both hands, they expose their arms to joint attacks. The legs-based armbar allows you to attack without fully committing to a positional transition, maintaining back control as a fallback if the submission attempt fails. The technique requires precise leg positioning and hip mechanics to generate sufficient leverage for the submission while maintaining upper body control.\n\nThis transition represents a Type B submission setup, leading to Armbar Control rather than an immediate finish. The distinct control position allows for systematic breakdown of defensive grips before attempting the final hyperextension. Advanced practitioners chain this attack with traditional armbar variations and back-to-mount transitions, creating a comprehensive attacking system from back control.",
+  "key_principles": [
+    "Maintain chest-to-back connection throughout the attack to prevent opponent from creating escape distance",
+    "Use leg positioning to isolate and trap the target arm before releasing upper body grips",
+    "Control the wrist of the target arm with both hands to prevent grip breaks and hitchhiker escapes",
+    "Generate hip pressure against the elbow joint by bridging rather than pulling with arm strength alone",
+    "Keep the target arm's thumb pointing upward to ensure proper joint alignment for hyperextension",
+    "Maintain secondary hook control on the non-attacked side to prevent complete position loss",
+    "Commit to the finish only when positional control is secured to avoid losing back control entirely"
+  ],
+  "setup_requirements": [
+    "Back control established with at least one hook in and seatbelt grip secured",
+    "Opponent defending neck with hands creating arm exposure opportunity",
+    "Target arm isolated from opponent's defensive grip configuration",
+    "Hip positioning allows leg to swing over and trap opponent's shoulder and head",
+    "Upper body control sufficient to prevent opponent from turning into attacker",
+    "Energy reserves adequate for potential multi-step attack sequence"
+  ],
+  "execution_steps": [
+    {
+      "step_number": 1,
+      "action": "Identify target arm",
+      "description": "From back control with seatbelt grip, identify which arm the opponent is using to defend their neck. Target the arm on the choking arm side (overhook side) as it provides optimal mechanical advantage.",
+      "timing": "When opponent commits both hands to neck defense"
+    },
+    {
+      "step_number": 2,
+      "action": "Isolate the arm",
+      "description": "Release the seatbelt grip and use both hands to control the target arm's wrist. Pull the arm across opponent's centerline while maintaining chest-to-back pressure to prevent escape.",
+      "timing": "Immediately after identifying the target"
+    },
+    {
+      "step_number": 3,
+      "action": "Position choking-side leg",
+      "description": "Swing the leg from the choking-arm side over opponent's head and shoulder, placing your calf across their face and neck. The foot should land near their opposite shoulder, trapping their upper body.",
+      "timing": "As wrist control is established"
+    },
+    {
+      "step_number": 4,
+      "action": "Secure leg triangle configuration",
+      "description": "Figure-four your legs by placing the ankle of your top leg behind your bottom knee, creating a triangle configuration that locks opponent's shoulder and head in place while isolating the arm.",
+      "timing": "Before releasing any wrist control"
+    },
+    {
+      "step_number": 5,
+      "action": "Adjust hip angle",
+      "description": "Rotate your hips to position your pubic bone against the back of opponent's elbow. This creates the fulcrum point necessary for hyperextension. Keep opponent's thumb pointing toward the ceiling.",
+      "timing": "After leg triangle is locked"
+    },
+    {
+      "step_number": 6,
+      "action": "Apply breaking pressure",
+      "description": "Bridge your hips upward while pulling the wrist toward your chest to hyperextend the elbow joint. Squeeze your knees together to prevent arm extraction and maintain constant pressure until tap.",
+      "timing": "When control is complete"
+    }
+  ],
+  "common_counters": [
+    {
+      "counter": "Opponent stacks forward, driving weight onto attacker to relieve elbow pressure",
+      "effectiveness": "High",
+      "your_response": "Release the leg triangle and transition to traditional armbar position, swinging your hips perpendicular to opponent's body"
+    },
+    {
+      "counter": "Hitchhiker escape where opponent rotates arm and turns toward the trapped limb",
+      "effectiveness": "High",
+      "your_response": "Anticipate the rotation and follow with your hips, or transition to omoplata control as they turn"
+    },
+    {
+      "counter": "Opponent clasps hands together in defensive grip to prevent arm isolation",
+      "effectiveness": "Medium",
+      "your_response": "Attack the grip with wrist control breaks, or transition to rear naked choke as their hands are occupied"
+    },
+    {
+      "counter": "Explosive bridge and roll toward the attacked arm side",
+      "effectiveness": "Medium",
+      "your_response": "Maintain leg triangle tightness and follow the roll, finishing the armbar from the rolled position"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "Releasing back control hooks before establishing leg triangle",
+      "consequence": "Opponent escapes back control entirely and may reverse to top position or guard",
+      "correction": "Maintain at least one hook until the leg triangle is fully locked around opponent's head and shoulder"
+    },
+    {
+      "error": "Positioning hips too far from opponent's elbow joint",
+      "consequence": "Insufficient leverage to finish the submission, allowing opponent to defend and escape",
+      "correction": "Ensure your hip crease is tight against the back of opponent's elbow before attempting the finish"
+    },
+    {
+      "error": "Allowing opponent's thumb to rotate downward during the attack",
+      "consequence": "Elbow joint alignment changes, reducing hyperextension effectiveness and enabling escape",
+      "correction": "Maintain constant wrist control keeping thumb pointed toward ceiling throughout the attack"
+    },
+    {
+      "error": "Pulling arm with upper body strength rather than hip bridge",
+      "consequence": "Fatigues quickly and provides less breaking force than proper hip mechanics",
+      "correction": "Generate primary pressure through hip bridge while arms maintain wrist position control"
+    },
+    {
+      "error": "Crossing feet during leg triangle configuration",
+      "consequence": "Creates vulnerability to opponent grabbing and torquing your foot or ankle",
+      "correction": "Use proper figure-four leg configuration with ankle behind knee, never crossed ankles"
+    },
+    {
+      "error": "Rushing the submission without securing positional control first",
+      "consequence": "Opponent defends easily and you lose back control with nothing gained",
+      "correction": "Follow position-before-submission principle: complete leg triangle and hip positioning before finishing"
+    }
+  ],
+  "training_progressions": [
+    {
+      "phase": "Week 1-2",
+      "focus": "Leg positioning mechanics",
+      "description": "Practice the leg swing and figure-four triangle configuration in isolation. Partner remains stationary while you drill the motion of bringing leg over head and locking the triangle. Focus on smooth transitions without releasing chest-to-back connection.",
+      "resistance_level": "None"
+    },
+    {
+      "phase": "Week 3-4",
+      "focus": "Arm isolation and control",
+      "description": "Add wrist control and arm isolation to the sequence. Partner provides light grip defense, requiring you to break grips and maintain arm control while transitioning to leg triangle. Emphasize the timing of releasing seatbelt and establishing wrist control.",
+      "resistance_level": "Light"
+    },
+    {
+      "phase": "Week 5-6",
+      "focus": "Finishing mechanics and counters",
+      "description": "Practice the complete submission sequence with partner providing moderate resistance and common defensive reactions. Work on hip bridge timing, maintaining control through escape attempts, and transitioning to alternative attacks when primary finish is blocked.",
+      "resistance_level": "Medium"
+    },
+    {
+      "phase": "Week 7+",
+      "focus": "Live integration",
+      "description": "Incorporate the technique into live rolling from back control. Practice recognizing opportunities when opponent defends neck, executing under pressure, and chaining with rear naked choke and traditional armbar attacks. Develop sensitivity to when this attack is available versus when other options are superior.",
+      "resistance_level": "Full"
+    }
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Belly-down armbar transition",
+      "description": "Instead of finishing with legs triangled, release the leg configuration and rotate to belly-down armbar position. This provides stronger finishing mechanics when opponent defends the legs-trapped variation.",
+      "when_to_use": "When opponent successfully stacks or creates angle that prevents leg triangle finish"
+    },
+    {
+      "variant_name": "Gift wrap to leg armbar",
+      "description": "Establish gift wrap control before transitioning to the leg armbar, using opponent's own arm across their neck to immobilize them during the leg swing transition.",
+      "when_to_use": "When opponent keeps one arm tight to their body, making direct arm isolation difficult"
+    },
+    {
+      "variant_name": "Body triangle leg armbar",
+      "description": "Execute the attack from body triangle back control rather than hooks, using the triangle legs to assist with the arm isolation and providing additional control during the transition.",
+      "when_to_use": "When you have established body triangle and opponent defends neck aggressively"
+    }
+  ],
+  "knowledge_assessment": [
+    {
+      "question": "What is the primary goal of Armbar from Back with Legs?",
+      "answer": "The primary goal is to hyperextend the opponent's elbow joint using your legs as the primary control mechanism while maintaining back control position as a fallback. This attack targets opponents who defend their neck, creating an arm attack opportunity from the dominant back position.",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "What position do you start Armbar from Back with Legs from?",
+      "answer": "This technique starts from Back Control/Top with at least one hook in and seatbelt grip established. The position requires sufficient control to execute the leg swing transition without losing the back.",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "What are the key grips needed for Armbar from Back with Legs?",
+      "answer": "You need two-on-one wrist control of the target arm with both hands gripping the wrist to prevent escape and hitchhiker defense. The seatbelt is released to establish this wrist control, making the timing of grip transfer critical to prevent losing back position.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "How do you counter the hitchhiker escape during this armbar?",
+      "answer": "When opponent attempts the hitchhiker escape by rotating their arm and turning toward the trapped limb, follow their rotation with your hips to maintain elbow pressure. Alternatively, anticipate the turn and transition to omoplata control, using their rotation momentum against them.",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "When is the best time to attempt Armbar from Back with Legs?",
+      "answer": "The optimal timing is when the opponent commits both hands to defending their neck against rear naked choke attempts. This neck defense creates arm exposure and occupies their hands, making arm isolation easier. Attempting when arms are free invites defensive grip fighting.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "Why should the thumb point toward the ceiling during the finish?",
+      "answer": "Keeping the thumb pointed toward the ceiling ensures proper elbow joint alignment for hyperextension. If the thumb rotates downward, the elbow joint can rotate with it, changing the angle of pressure and allowing the opponent to slip out or resist the submission more effectively.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "What happens if you cross your feet during the leg triangle?",
+      "answer": "Crossing your feet instead of using proper figure-four configuration creates vulnerability to opponent grabbing and torquing your ankle or foot. The crossed position is mechanically weaker and can result in ankle injuries. Always lock ankle behind knee for the triangle.",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "Your opponent begins stacking forward during the attack. How do you adjust?",
+      "answer": "When opponent stacks forward, the legs-trapped position becomes difficult to finish. Release the leg triangle and transition to traditional perpendicular armbar position by swinging your hips to the side. Use their forward momentum to assist your rotation into the standard armbar angle.",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "Why is hip bridge more effective than arm pulling for the finish?",
+      "answer": "Hip bridge generates significantly more force than arm pulling while using larger muscle groups that fatigue slower. The hips provide a stable fulcrum against the elbow while arms maintain wrist position. Arm-dominant finishing leads to rapid fatigue and insufficient breaking pressure against resistant opponents.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "What chain attacks complement this technique when the finish is blocked?",
+      "answer": "When the leg armbar is blocked, chain to rear naked choke as opponent moves hands to defend the arm, traditional armbar by releasing legs and rotating perpendicular, or back-to-mount transition if positional control degrades. The attack creates reactions that open secondary opportunities.",
+      "difficulty": "Advanced"
+    }
+  ],
+  "safety_considerations": "The armbar attacks the elbow joint and can cause serious injury including hyperextension, ligament tears, and dislocation if applied with excessive force or speed. Always apply pressure gradually during training and release immediately upon tap or verbal submission. Partners should communicate discomfort before reaching injury threshold. Avoid jerking or explosive finishing motions. Practitioners with existing elbow injuries should avoid this technique or use extreme caution. During drilling, practice the positioning without finishing pressure until mechanics are smooth. In competition, be aware that adrenaline may mask pain signals, so apply controlled pressure and give opponent adequate time to tap.",
+  "position_integration": "The Armbar from Back with Legs fits within the back control attacking system as a secondary threat that complements rear naked choke attempts. When opponents successfully defend their neck, they typically expose their arms, creating the opportunity for this attack. The technique integrates with the position-before-submission principle by leading to Armbar Control rather than immediate finish, allowing systematic grip breakdown. This attack chains naturally with rear naked choke (opponent must choose between defending neck or arm), traditional armbar (transition when leg version is blocked), and crucifix transitions (when arm isolation creates further trapping opportunities). The technique represents advanced back control methodology where multiple submission threats force defensive decisions that open additional attacking opportunities.",
+  "related_content": [
+    {
+      "name": "Back Control",
+      "relationship": "Starting position"
+    },
+    {
+      "name": "Armbar Control",
+      "relationship": "Success outcome position"
+    },
+    {
+      "name": "Armbar from Back",
+      "relationship": "Alternative armbar variation from same position"
+    },
+    {
+      "name": "Rear Naked Choke",
+      "relationship": "Primary complementary attack that creates arm exposure"
+    },
+    {
+      "name": "Armbar Finish",
+      "relationship": "Finishing transition from Armbar Control"
+    },
+    {
+      "name": "Gift Wrap",
+      "relationship": "Setup position that facilitates arm isolation"
+    },
+    {
+      "name": "Crucifix",
+      "relationship": "Alternative arm trap position from back control"
+    },
+    {
+      "name": "Body Triangle",
+      "relationship": "Alternative leg control enabling this attack"
+    },
+    {
+      "name": "Omoplata Control",
+      "relationship": "Transition option when opponent hitchhiker escapes"
+    },
+    {
+      "name": "Closed Guard",
+      "relationship": "Counter outcome when opponent successfully escapes"
+    }
+  ]
+}

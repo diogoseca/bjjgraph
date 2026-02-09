@@ -15,6 +15,7 @@ interface JourneyStep {
   name: string
   type: "position" | "transition" | "submission"
   success?: boolean
+  action?: "dice-roll" | "flashcard"
 }
 
 function getPageData(): PageGraphData | null {
@@ -158,6 +159,7 @@ document.addEventListener("nav", () => {
       name: data!.name,
       type: pageType as "transition" | "submission",
       success: true,
+      action: "flashcard",
     })
 
     if (pageType === "submission") {
@@ -185,6 +187,7 @@ document.addEventListener("nav", () => {
       name: data!.name,
       type: pageType as "transition" | "submission",
       success: false,
+      action: "flashcard",
     })
 
     // Show another question

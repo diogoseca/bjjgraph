@@ -4,11 +4,11 @@
 
 ### Editing Content (JSON-First)
 
-1. **Edit JSON source** in `source/templates/*.json`
+1. **Edit JSON source** in `templates/*.json`
 2. **Validate & Regenerate** with `npm run regenerate`
 3. **Test build** with `npm run dev`
 
-Never edit files in `source/content/` directly - they are regenerated from JSON.
+Never edit files in `content/` directly - they are regenerated from JSON.
 
 ---
 
@@ -308,13 +308,13 @@ ERROR: Armbar from Mount outcomes sum to 110% (expected 100%)
 
 ### Fixing Validation Errors
 
-The validation output shows files needing fixes. Edit the JSON source files directly in `source/templates/`.
+The validation output shows files needing fixes. Edit the JSON source files directly in `templates/`.
 
 ---
 
 ## Complete Schema Reference
 
-For full schema details, see the JSON template files in `source/templates/Positions/`:
+For full schema details, see the JSON template files in `templates/Positions/`:
 - `TEMPLATE-POSITION-FAMILY.json` — Family positions (hub + top + bottom)
 - `TEMPLATE-POSITION-DUAL.json` — Dual positions (top + bottom)
 - `TEMPLATE-POSITION-SINGLE.json` — Single/neutral positions
@@ -325,7 +325,7 @@ For full schema details, see the JSON template files in `source/templates/Positi
 
 | Do | Don't |
 |----|-------|
-| Edit JSON in `source/templates/` | Edit markdown in `source/content/` |
+| Edit JSON in `templates/` | Edit markdown in `content/` |
 | Run validation before commits | Skip validation |
 | Verify wikilinks exist | Guess at link targets |
 | Use integer success rates 0-100 | Use decimals or percentages > 100 |

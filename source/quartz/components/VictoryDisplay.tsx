@@ -26,31 +26,43 @@ const VictoryDisplay: QuartzComponent = ({ fileData, displayClass }: QuartzCompo
         <h2 id="victory-title">Victory!</h2>
         <p id="victory-subtitle" class="victory-subtitle"></p>
 
-        {/* Stats Row */}
-        <div id="victory-stats" class="victory-stats">
-          <div class="stat-item">
-            <span class="stat-value" id="stat-moves">0</span>
-            <span class="stat-label">Moves</span>
-          </div>
-          <div class="stat-item">
-            <span class="stat-value" id="stat-successes">0</span>
-            <span class="stat-label">Successes</span>
-          </div>
-          <div class="stat-item">
-            <span class="stat-value" id="stat-failures">0</span>
-            <span class="stat-label">Defended</span>
+        {/* Current Roll Stats */}
+        <div class="stats-section">
+          <h4 class="stats-heading">Current Roll</h4>
+          <div id="victory-stats" class="victory-stats">
+            <div class="stat-item">
+              <span class="stat-value" id="stat-moves">0</span>
+              <span class="stat-label">Moves</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-value stat-success" id="stat-dice-won">0</span>
+              <span class="stat-label">Dice Won</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-value stat-failure" id="stat-dice-lost">0</span>
+              <span class="stat-label">Dice Lost</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-value stat-success" id="stat-flash-right">0</span>
+              <span class="stat-label">Flashcards Right</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-value stat-failure" id="stat-flash-wrong">0</span>
+              <span class="stat-label">Flashcards Wrong</span>
+            </div>
           </div>
         </div>
 
-        {/* Performance Report */}
+        {/* Technique Performance */}
         <div id="performance-report" class="performance-report" style="display: none;">
+          <h4 class="stats-heading">Technique Performance</h4>
           <div class="report-columns">
             <div class="report-column strengths">
-              <h4 class="report-heading">Strengths</h4>
+              <h4 class="report-heading">Strongest</h4>
               <ul id="report-strengths" class="report-list"></ul>
             </div>
             <div class="report-column weaknesses">
-              <h4 class="report-heading">Revisit</h4>
+              <h4 class="report-heading">Needs Drilling</h4>
               <ul id="report-weaknesses" class="report-list"></ul>
             </div>
           </div>
@@ -67,6 +79,41 @@ const VictoryDisplay: QuartzComponent = ({ fileData, displayClass }: QuartzCompo
           <h4>Your Path to Victory</h4>
           <div id="journey-path" class="journey-path"></div>
         </div>
+
+        {/* Lifetime Stats */}
+        <div id="lifetime-stats" class="lifetime-stats-section" style="display: none;">
+          <h4 class="stats-heading">Lifetime Stats</h4>
+          <div class="victory-stats">
+            <div class="stat-item">
+              <span class="stat-value" id="lifetime-rolls">0</span>
+              <span class="stat-label">Total Rolls</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-value" id="lifetime-victories">0</span>
+              <span class="stat-label">Victories</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-value" id="lifetime-dice-rate">0%</span>
+              <span class="stat-label">Dice Win Rate</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-value" id="lifetime-flash-rate">0%</span>
+              <span class="stat-label">Flashcard Rate</span>
+            </div>
+          </div>
+          <div id="lifetime-performance" class="performance-report" style="display: none;">
+            <div class="report-columns">
+              <div class="report-column strengths">
+                <h4 class="report-heading">All-Time Strengths</h4>
+                <ul id="lifetime-strengths" class="report-list"></ul>
+              </div>
+              <div class="report-column weaknesses">
+                <h4 class="report-heading">All-Time Weaknesses</h4>
+                <ul id="lifetime-weaknesses" class="report-list"></ul>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
       {/* Fallback for direct navigation (no victory data) */}
@@ -76,6 +123,29 @@ const VictoryDisplay: QuartzComponent = ({ fileData, displayClass }: QuartzCompo
           <img src="/static/dice-icon.svg" alt="" class="roll-icon" />
           <span>Start Rolling</span>
         </button>
+
+        {/* Lifetime Stats in fallback */}
+        <div id="fallback-lifetime-stats" class="lifetime-stats-section" style="display: none;">
+          <h4 class="stats-heading">Your Progress</h4>
+          <div class="victory-stats">
+            <div class="stat-item">
+              <span class="stat-value" id="fallback-lifetime-rolls">0</span>
+              <span class="stat-label">Total Rolls</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-value" id="fallback-lifetime-victories">0</span>
+              <span class="stat-label">Victories</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-value" id="fallback-lifetime-dice-rate">0%</span>
+              <span class="stat-label">Dice Win Rate</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-value" id="fallback-lifetime-flash-rate">0%</span>
+              <span class="stat-label">Flashcard Rate</span>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   )

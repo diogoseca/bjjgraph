@@ -52,11 +52,11 @@ cd source && npm run check # Type checking
 
 BJJGraph uses a **JSON-first** content system:
 
-1. **Edit** JSON source files in `source/templates/`
+1. **Edit** JSON source files in `content/` (JSON) or `templates/` (schemas)
 2. **Validate & Regenerate** with `npm run regenerate`
 3. **Test** build with `npm run dev`
 
-Never edit `.md` files in `source/content/` directly - they are generated from JSON.
+Never edit `.md` files in `content/` directly - they are generated from JSON.
 
 ### Documentation
 
@@ -81,15 +81,15 @@ Built on [Quartz 4.0](https://quartz.jzhao.xyz/) with:
 
 ```
 bjjgraph/
-├── source/
-│   ├── content/           # Content files (JSON source + generated MD)
-│   │   ├── Positions/     # 95+ positions
-│   │   ├── Transitions/   # 71+ transitions
-│   │   ├── Submissions/   # 49+ submissions
-│   │   ├── Systems/       # Expert systems
-│   │   └── Principles/    # Fundamental principles
-│   ├── templates/         # Jinja2 templates for MD generation
-│   └── quartz/            # Static site generator
+├── content/               # Content files (JSON source + generated MD)
+│   ├── Positions/         # 95+ positions
+│   ├── Transitions/       # 71+ transitions
+│   ├── Submissions/       # 49+ submissions
+│   ├── Systems/           # Expert systems
+│   └── Principles/        # Fundamental principles
+├── templates/             # JSON schemas + Jinja2 templates for MD generation
+├── source/                # Quartz static site generator (MIT)
+│   └── quartz/
 ├── scripts/               # Validation and automation
 ├── docs/                  # Project documentation
 └── tests/                 # Test artifacts

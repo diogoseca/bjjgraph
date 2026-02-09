@@ -1,0 +1,291 @@
+{
+  "name": "Frame Creation",
+  "description": "Master Frame Creation from High Mount Bottom. Defensive framing technique creating space for escapes. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "tags": [
+    "bjj",
+    "transition",
+    "technique",
+    "defensive",
+    "escape",
+    "mount",
+    "framing",
+    "survival"
+  ],
+  "from_position": "High Mount/Bottom",
+  "outcomes": [
+    {
+      "to": "Open Guard",
+      "probability": 45,
+      "result": "success"
+    },
+    {
+      "to": "Half Guard",
+      "probability": 20,
+      "result": "success"
+    },
+    {
+      "to": "High Mount",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "S Mount",
+      "probability": 10,
+      "result": "counter"
+    }
+  ],
+  "success_rates": {
+    "beginner": 30,
+    "intermediate": 50,
+    "advanced": 65
+  },
+  "overview": "Frame Creation from High Mount Bottom is a fundamental defensive technique that establishes structural barriers between your body and the opponent's pressure, creating the space necessary to initiate escape sequences. Unlike passive survival tactics, Frame Creation is an active defensive system that uses skeletal alignment rather than muscular strength to resist the crushing weight of High Mount.\n\nThe technique operates on the principle that properly aligned bone structure can withstand significantly more pressure than muscle alone. By positioning forearms, elbows, and hands in specific configurations against the opponent's hips, chest, or shoulders, the bottom player creates rigid barriers that prevent the top player from fully consolidating their weight. These frames serve dual purposes: immediate pressure relief and creation of escape opportunities.\n\nStrategically, Frame Creation must be timed with the opponent's movements rather than applied statically. Attempting to frame against a settled, stable High Mount typically fails and exhausts energy. The optimal timing occurs when the opponent reaches for grips, transitions between positions, or initiates submission attempts—moments when their weight distribution shifts and their base becomes temporarily compromised.\n\nAdvanced practitioners understand that Frame Creation is not an end goal but rather a transitional tool that enables other escapes. The frames themselves do not escape mount; they create the conditions under which hip escapes, bridges, and guard recovery become mechanically possible. This distinction separates effective defensive play from futile struggling.",
+  "key_principles": [
+    "Use skeletal structure over muscular strength - align forearms and elbows to create rigid barriers that distribute pressure across bone rather than requiring constant muscular tension",
+    "Time frame insertion with opponent's weight shifts - frames are most effective when opponent reaches for grips, transitions positions, or initiates attacks",
+    "Maintain elbow connection to torso - frames should extend from a connected base rather than isolated arm positions that invite armbar attacks",
+    "Create angles with frames - diagonal frame lines are stronger than perpendicular ones and better redirect opponent's pressure away from your center",
+    "Use frames as transitional tools - frames create space for hip escapes, not as a static holding position",
+    "Protect the neck while framing - one arm can frame while the other protects the collar and neck area from choke threats",
+    "Chain frames into escapes immediately - the space created by frames closes rapidly, requiring immediate follow-up movement"
+  ],
+  "setup_requirements": [
+    "Trapped in High Mount with opponent's knees positioned near armpits and weight on upper chest",
+    "Arms bent with elbows connected to torso in protective shell position, not extended or isolated",
+    "Awareness of opponent's current grip situation and weight distribution patterns",
+    "Mental recognition of opponent's next likely attack based on hand positioning and weight shifts",
+    "Sufficient energy reserves for explosive follow-up movement after frame is established",
+    "Chin tucked and neck protected to prevent opportunistic choke attempts during framing"
+  ],
+  "execution_steps": [
+    {
+      "step_number": 1,
+      "action": "Assess timing window",
+      "description": "Wait for opponent to shift weight or reach for grips - do not attempt frames against a fully settled, heavy opponent as this wastes energy and likely fails. Watch for hand movement toward your collar, lapel, or head as the trigger.",
+      "timing": "When opponent reaches or transitions"
+    },
+    {
+      "step_number": 2,
+      "action": "Establish primary frame",
+      "description": "Insert your forearm across opponent's hip line with elbow connected to your own hip or ribs. The frame should create a diagonal barrier from your hip to their hip, using bone alignment to resist their downward pressure.",
+      "timing": "During opponent's weight shift"
+    },
+    {
+      "step_number": 3,
+      "action": "Protect secondary targets",
+      "description": "While one arm frames on the hip, position the other arm to protect your neck and collar area. Hand should be near your chin with elbow tight to prevent collar grip access and choke setups.",
+      "timing": "Simultaneously with primary frame"
+    },
+    {
+      "step_number": 4,
+      "action": "Create hip space",
+      "description": "Use the frame to create 2-3 inches of space between your hip and the mat. This slight elevation is the gateway to hip escape - without this space, shrimping is mechanically impossible.",
+      "timing": "Immediately after frame establishment"
+    },
+    {
+      "step_number": 5,
+      "action": "Execute hip escape",
+      "description": "Shrimp your hips away from the framing side while maintaining the frame structure. Your goal is to insert your knee into the space created between your body and the opponent's leg, beginning guard recovery.",
+      "timing": "Within 1-2 seconds of creating space"
+    },
+    {
+      "step_number": 6,
+      "action": "Recover guard position",
+      "description": "As your knee enters the space, convert the frame into a push while threading your leg to half guard or butterfly hook. Continue shrimping until you establish a recognized guard position with your legs between bodies.",
+      "timing": "Continuous flow from hip escape"
+    }
+  ],
+  "common_counters": [
+    {
+      "counter": "Opponent drives forward and smashes through the frame with chest pressure",
+      "effectiveness": "High",
+      "your_response": "If they commit forward pressure, use it for an upa - trap their posting arm and same-side foot, bridge explosively toward the trapped side"
+    },
+    {
+      "counter": "Opponent isolates the framing arm and transitions to armbar or kimura attack",
+      "effectiveness": "High",
+      "your_response": "Immediately retract the frame and reconnect elbow to torso. The frame must stay connected to your body structure - never let it become isolated"
+    },
+    {
+      "counter": "Opponent swims under the frame and re-establishes chest-to-chest pressure",
+      "effectiveness": "Medium",
+      "your_response": "Anticipate the swim and redirect your frame to their shoulder or neck level. Chain to a different frame angle rather than fighting for the same position"
+    },
+    {
+      "counter": "Opponent posts wide and drops weight onto your frame, collapsing it",
+      "effectiveness": "Medium",
+      "your_response": "When they post wide, their base is compromised laterally. Use the opening to hip escape toward their posting hand side where they cannot block"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "Extending arms fully while framing, creating straight-arm frames",
+      "consequence": "Straight arms are immediately vulnerable to armbar, kimura, and americana attacks - opponent can isolate and attack the extended limb",
+      "correction": "Keep elbows bent at 90 degrees or less with constant connection between your elbow and your own torso or hip"
+    },
+    {
+      "error": "Framing against a settled opponent without timing the movement",
+      "consequence": "Wastes significant energy as opponent's full weight bears down on your frame, and frame typically collapses without creating escape opportunity",
+      "correction": "Wait for opponent to move or reach before inserting frames - time your action with their weight shifts"
+    },
+    {
+      "error": "Creating space but failing to immediately escape",
+      "consequence": "Space closes within 1-2 seconds as opponent resettles - the frame effort is wasted and you've expended energy for nothing",
+      "correction": "Execute hip escape simultaneously with frame creation - space and movement must happen together, not sequentially"
+    },
+    {
+      "error": "Abandoning neck protection to establish both-handed frame",
+      "consequence": "Creates opportunity for cross-collar choke, Ezekiel, or head-and-arm attacks while you focus on hip frames",
+      "correction": "Always maintain one hand near your chin and neck area - frame with one arm while protecting with the other"
+    },
+    {
+      "error": "Pushing on opponent's chest instead of their hips",
+      "consequence": "Chest frames do not create the hip space needed for shrimp escapes and opponent can simply lean forward into the frame",
+      "correction": "Direct frames to opponent's hip line where leverage allows you to create space beneath your own hips"
+    },
+    {
+      "error": "Using muscular effort rather than skeletal alignment",
+      "consequence": "Arms fatigue rapidly under mount pressure, collapsing the frame and leaving you exhausted without escape progress",
+      "correction": "Position forearm bones to bear the weight through skeletal structure - the frame should feel solid without requiring constant muscular strain"
+    }
+  ],
+  "training_progressions": [
+    {
+      "phase": "Week 1-2",
+      "focus": "Frame structure mechanics",
+      "description": "Practice frame positioning without resistance. Partner in mount maintains position without pressure while you drill correct bone alignment, elbow connection, and hand positioning. Focus on building muscle memory for proper frame architecture.",
+      "resistance_level": "None"
+    },
+    {
+      "phase": "Week 3-4",
+      "focus": "Timing recognition",
+      "description": "Partner begins reaching for grips and shifting weight while you identify and exploit timing windows for frame insertion. Learn to recognize the weight shift patterns that signal frame opportunities. Partner provides feedback on timing accuracy.",
+      "resistance_level": "Light"
+    },
+    {
+      "phase": "Week 5-6",
+      "focus": "Frame-to-escape chains",
+      "description": "Drill complete sequences from frame creation through hip escape to guard recovery against moderate resistance. Partner maintains mount but allows escapes when technique is correct. Focus on eliminating pauses between frame and escape.",
+      "resistance_level": "Medium"
+    },
+    {
+      "phase": "Week 7+",
+      "focus": "Live integration",
+      "description": "Apply Frame Creation in live rolling situations starting from High Mount Bottom. Partner maintains full resistance. Track success rate and identify patterns in failures for continued refinement.",
+      "resistance_level": "Full"
+    }
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Stiff arm to hip frame",
+      "description": "A momentary straight-arm frame used only during explosive escape attempts when partner's weight is already shifting. The stiff arm provides maximum pushing distance but must immediately transition to bent-arm frame or escape - never held statically.",
+      "when_to_use": "When opponent dramatically over-commits forward and you need maximum distance for explosive escape attempt"
+    },
+    {
+      "variant_name": "Knee-elbow connection frame",
+      "description": "Frame that connects your elbow to your own knee, creating a structural bridge between upper and lower body. This frame is used when beginning hip escape sequence, as the knee-elbow connection provides reinforced structure.",
+      "when_to_use": "During the transition phase of hip escape when you need to maintain frame while threading your knee into position"
+    },
+    {
+      "variant_name": "Cross-body shoulder frame",
+      "description": "Frame positioned across opponent's shoulders rather than hips, used when opponent is leaning forward for collar grips or choke attempts. Creates space at head/neck level rather than hip level.",
+      "when_to_use": "When opponent leans forward heavily for collar attacks, creating opportunity to push on shoulders and slide out backward"
+    }
+  ],
+  "knowledge_assessment": [
+    {
+      "question": "What is the primary goal of Frame Creation from High Mount Bottom?",
+      "answer": "The primary goal is to create 2-3 inches of space between your hip and the mat, enabling hip escape movements. Frames are transitional tools that make other escapes mechanically possible - they are not an end goal but rather create the conditions under which shrimping and guard recovery can occur.",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "Why should frames use skeletal alignment rather than muscular strength?",
+      "answer": "Properly aligned bone structure can withstand significantly more pressure than muscle alone and requires far less energy to maintain. Under High Mount pressure, muscular frames fatigue rapidly (often within 10-15 seconds), collapsing and leaving you exhausted. Skeletal frames using forearm bone alignment can be maintained much longer with minimal energy expenditure.",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "Your opponent reaches for a cross-collar grip - how does this create a framing opportunity?",
+      "answer": "When they reach for the collar, their weight shifts forward onto their posting hand and their hips become lighter. This weight redistribution reduces the pressure bearing down on your frame position, making frame insertion significantly easier. Additionally, their reaching arm is occupied, reducing their ability to counter your frame or attack the framing arm.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "What is the critical mechanical difference between framing on the hips versus framing on the chest?",
+      "answer": "Hip frames create space beneath your own hips, which is where space is needed for shrimp escapes. Chest frames only push the opponent's torso without creating the hip clearance required for escape movement. Additionally, opponents can easily lean forward into chest frames, whereas hip frames provide better leverage for lateral escape movement.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "How do you protect against armbar attacks while framing?",
+      "answer": "Maintain bent arms with elbows connected to your torso or hip - never extend arms fully or allow them to become isolated from your body structure. The framing arm should feel integrated with your core, not reaching independently. If opponent begins isolating your framing arm, immediately retract it and reconnect elbow to ribs.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "Your frame creates space but opponent immediately resettles - what went wrong?",
+      "answer": "The hip escape was not executed simultaneously with the frame. Space created by frames closes within 1-2 seconds as the opponent resettles their weight. Frame creation and hip escape must be a single flowing movement - the moment space appears, you must already be moving your hips into that space rather than holding the frame statically.",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "When the opponent drives forward through your frame with heavy chest pressure, how do you adapt?",
+      "answer": "Convert their forward commitment into an upa escape opportunity. Their forward drive means their weight is already moving in your bridge direction. Trap their posting arm by pulling it across your chest, trap their foot on the same side with your heel, and bridge explosively toward the trapped side. Their own momentum assists the reversal.",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "What should your non-framing hand be doing during Frame Creation?",
+      "answer": "The non-framing hand should be positioned near your chin and neck, protecting against collar grips and choke setups. It maintains defensive responsibility while the other arm creates escape opportunity. Never commit both arms to framing as this abandons neck protection and invites choke attacks.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "How do you chain Frame Creation with Elbow Escape when your initial frame is countered?",
+      "answer": "If opponent swims under your hip frame or collapses it, immediately redirect to a shoulder-level frame and begin turning to your side for elbow escape. Use the shoulder frame to prevent them from flattening you while you insert your knee shield. The key is recognizing when hip frames fail and transitioning to alternative escapes rather than repeatedly fighting for the same frame.",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "At what angle should your forearm be positioned relative to opponent's body for maximum frame effectiveness?",
+      "answer": "Diagonal frame lines (approximately 45 degrees) are stronger than perpendicular ones because they redirect pressure away from your center rather than absorbing it directly. A frame running diagonally from your hip toward their opposite hip creates a ramp that deflects their weight rather than a wall that must absorb it entirely.",
+      "difficulty": "Advanced"
+    }
+  ],
+  "safety_considerations": "Frame Creation is generally a low-injury-risk technique when performed correctly, but improper execution can create vulnerabilities. Never extend arms fully during framing as this exposes the elbow joint to armbar attacks - rapid hyperextension can cause ligament damage. Avoid framing directly against opponent's face or throat, which is considered unsportsmanlike and can cause injury in training. When drilling against heavy resistance, tap if opponent isolates and attacks your framing arm rather than fighting from a compromised position. Practitioners with existing shoulder or elbow injuries should be cautious with frame-heavy defensive play and may need to emphasize bridge-based escapes instead.",
+  "position_integration": "Frame Creation is the gateway defensive technique that enables all other High Mount escapes. Within the escape hierarchy from mount, frames must be established before hip escapes, shrimp movements, or guard recovery can succeed. The technique chains directly into Elbow Escape (when frames create lateral space), Upa Escape (when opponent over-commits forward into frames), and Half Guard recovery (when frames enable knee insertion). Frame Creation represents the transition from survival mode to escape mode - without effective frames, the bottom player remains trapped in passive defense. Advanced practitioners integrate Frame Creation seamlessly with their escape timing, using frames as the first movement in a flowing escape sequence rather than as a separate preparatory step.",
+  "related_content": [
+    {
+      "name": "High Mount",
+      "relationship": "Starting position - Frame Creation initiates from High Mount Bottom defensive situation"
+    },
+    {
+      "name": "Open Guard",
+      "relationship": "Primary success outcome - successful frames lead to guard recovery"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Success outcome - frames enable knee insertion for half guard recovery"
+    },
+    {
+      "name": "S Mount",
+      "relationship": "Counter outcome - failed frames may result in opponent advancing to S Mount"
+    },
+    {
+      "name": "Elbow Escape",
+      "relationship": "Chain technique - frames create space for elbow escape execution"
+    },
+    {
+      "name": "Upa Escape",
+      "relationship": "Alternative escape - when opponent drives into frames, upa becomes available"
+    },
+    {
+      "name": "Hip Escape",
+      "relationship": "Chain technique - frames enable hip movement for shrimp-based escapes"
+    },
+    {
+      "name": "Mount",
+      "relationship": "Related position - Frame Creation concepts apply to standard mount escape as well"
+    },
+    {
+      "name": "Technical Mount",
+      "relationship": "Potential counter position - aggressive framing may trigger transition to technical mount"
+    },
+    {
+      "name": "Armbar Defense",
+      "relationship": "Defensive complement - required when framing arm becomes isolated and attacked"
+    }
+  ]
+}

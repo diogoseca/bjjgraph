@@ -5,24 +5,24 @@
 BJJGraph transforms structured JSON into a static site:
 
 ```
-source/templates/*.json  →  *.md.jinja2  →  source/content/*.md  →  Quartz Build  →  Static Site
-        (SOURCE)              (TEMPLATES)         (GENERATED)           (BUILD)        (OUTPUT)
+templates/*.json  →  *.md.jinja2  →  content/*.md  →  Quartz Build  →  Static Site
+     (SOURCE)         (TEMPLATES)      (GENERATED)       (BUILD)        (OUTPUT)
 ```
 
 ### Pipeline Components
 
-1. **JSON Source Files** (`source/templates/`)
+1. **JSON Source Files** (`templates/`)
    - `Positions.json` - All position state data
    - `Transitions.json` - All transition technique data
    - `Submissions.json` - All submission data
    - `Principles.json` - Conceptual principles
    - `Systems.json` - Expert systems
 
-2. **Jinja2 Templates** (`source/templates/*.md.jinja2`)
+2. **Jinja2 Templates** (`templates/*.md.jinja2`)
    - Generate markdown content from JSON
    - Inject SEO schema markup (HowTo, FAQ, BreadcrumbList)
 
-3. **Generated Markdown** (`source/content/`)
+3. **Generated Markdown** (`content/`)
    - Content pages with YAML frontmatter
    - Wikilinks for internal navigation
    - Schema.org JSON-LD for SEO
@@ -241,7 +241,7 @@ All submission finishes connect to `game-over`, the single terminal state:
 }
 ```
 
-The `game-over` page (`source/content/game-over.md`) is a sink node representing match end via submission. This replaces the previous `Won by Submission` / `Lost by Submission` architecture.
+The `game-over` page (`content/game-over.md`) is a sink node representing match end via submission. This replaces the previous `Won by Submission` / `Lost by Submission` architecture.
 
 ### Transition Types (Submission Modeling)
 
@@ -327,12 +327,12 @@ Inferior Position → [Control Tool] → Better Position (success) / Same Positi
 
 ### Submissions vs Transitions
 
-**Submissions** (in `source/content/Submissions/`) are educational reference pages, NOT state machine nodes. They contain:
+**Submissions** (in `content/Submissions/`) are educational reference pages, NOT state machine nodes. They contain:
 - Safety protocols (injury risks, tap signals, release protocol)
 - Execution steps and training progressions
 - Position-specific variations
 
-**Transitions** (in `source/content/Transitions/`) are state machine edges. They carry:
+**Transitions** (in `content/Transitions/`) are state machine edges. They carry:
 - `from_position` (where the technique starts)
 - `outcomes[]` (probabilistic results)
 - `success_rates` (beginner/intermediate/advanced)

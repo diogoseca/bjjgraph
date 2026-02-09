@@ -1,0 +1,260 @@
+{
+  "name": "Kneebar from 50-50",
+  "description": "Learn Kneebar from 50-50 Guard in BJJ. Step-by-step leg lock attack when opponent defends heel hook. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "tags": [
+    "bjj",
+    "transition",
+    "leg_lock",
+    "kneebar",
+    "50-50",
+    "submission_setup",
+    "advanced"
+  ],
+  "from_position": "50-50 Guard/Top",
+  "outcomes": [
+    {
+      "to": "Kneebar Control",
+      "probability": 55,
+      "result": "success"
+    },
+    {
+      "to": "50-50 Guard",
+      "probability": 30,
+      "result": "failure"
+    },
+    {
+      "to": "Inside Ashi-Garami",
+      "probability": 15,
+      "result": "counter"
+    }
+  ],
+  "success_rates": {
+    "beginner": 30,
+    "intermediate": 50,
+    "advanced": 65
+  },
+  "overview": "The Kneebar from 50-50 is a high-percentage leg lock attack that exploits a common defensive reaction in the 50-50 Guard. When opponents successfully hide their heel to defend heel hook attacks, they often straighten their leg or create space that exposes the knee joint to hyperextension. This attack represents the primary alternative when heel hooks are defended and forms a critical component of the complete 50-50 attack system.\n\nFrom the top position in 50-50, you control the opponent's leg with both legs wrapped in the characteristic entanglement. The kneebar transition requires releasing the heel grip and redirecting your attack to control above the knee while your hips create the hyperextension pressure. The key mechanical principle is using your hip-to-armpit line as a fulcrum against their knee joint while both legs triangle around their thigh to prevent rotation and escape.\n\nThis technique is particularly effective in no-gi competition where leg locks are permitted, and serves as an essential chain attack with heel hooks. The transition window is narrow - you must recognize when the heel hook is sufficiently defended and redirect within 2-3 seconds before opponent can adjust their defensive posture. Delayed commitment results in a scramble where neither attack succeeds.",
+  "key_principles": [
+    "Attack the defended position - when opponent successfully hides heel, their knee becomes exposed",
+    "Control above the knee joint with clasped hands or figure-four grip to prevent leg extraction",
+    "Hip-to-armpit alignment creates the primary hyperextension fulcrum against opponent's knee",
+    "Triangle your legs around opponent's thigh to prevent rotation escape and control hip movement",
+    "Commit fully to the transition - half-measures allow opponent to recover and defend both attacks",
+    "Extend your hips while pulling the leg toward your chest to create maximum breaking pressure"
+  ],
+  "setup_requirements": [
+    "Established top position in 50-50 Guard with inside control maintained",
+    "Opponent has successfully defended heel hook by hiding or tucking their heel",
+    "Your legs are properly entangled with opponent's leg in 50-50 configuration",
+    "Clear path to control above opponent's knee without obstruction from their defensive grips",
+    "Opponent's leg is relatively straight or you can force extension as part of the attack"
+  ],
+  "execution_steps": [
+    {
+      "step_number": 1,
+      "action": "Recognize heel defense",
+      "description": "Identify that opponent has successfully hidden their heel by tucking it close to their body, rotating their knee inward, or establishing defensive grips that prevent heel exposure. This recognition window is 2-3 seconds of attempted heel hook.",
+      "timing": "Within 3 seconds of heel hook attempt"
+    },
+    {
+      "step_number": 2,
+      "action": "Release heel grip",
+      "description": "Release your two-handed grip on opponent's heel and redirect your hands toward controlling above their knee. Maintain leg entanglement throughout this transition - your legs keep them trapped while hands reposition.",
+      "timing": "Immediate upon recognition"
+    },
+    {
+      "step_number": 3,
+      "action": "Secure knee control",
+      "description": "Clasp hands together above opponent's knee cap using a gable grip (palm-to-palm) or figure-four configuration. Pull the leg tight against your chest with their knee positioned at your hip-to-armpit line.",
+      "timing": "0.5-1 second transition"
+    },
+    {
+      "step_number": 4,
+      "action": "Triangle legs",
+      "description": "Adjust your leg entanglement to triangle around opponent's upper thigh. Your inside leg crosses over your outside leg's ankle, creating a figure-four lock that controls their hip and prevents rotation escape.",
+      "timing": "Simultaneous with knee control"
+    },
+    {
+      "step_number": 5,
+      "action": "Align fulcrum",
+      "description": "Position opponent's knee joint directly at your hip crease where hip meets torso. Their shin should extend along your centerline with their ankle near your shoulder. This alignment maximizes hyperextension leverage.",
+      "timing": "Adjustment phase"
+    },
+    {
+      "step_number": 6,
+      "action": "Apply breaking pressure",
+      "description": "Simultaneously extend your hips forward and upward while pulling their leg toward your chest with your gripped hands. Keep their toes pointed and leg straight - any knee bend reduces pressure. Control hip rotation with your leg triangle.",
+      "timing": "Controlled application"
+    }
+  ],
+  "common_counters": [
+    {
+      "counter": "Knee rotation and bend to prevent hyperextension angle",
+      "effectiveness": "High",
+      "your_response": "Increase hip drive and pull leg tighter to chest while using your leg triangle to control their hip rotation"
+    },
+    {
+      "counter": "Sitting up to relieve pressure and grip fight your hands",
+      "effectiveness": "Medium",
+      "your_response": "Drive hips higher and angle your body away to maintain distance while keeping tight knee control"
+    },
+    {
+      "counter": "Rolling toward you to relieve pressure and potentially take top position",
+      "effectiveness": "Medium",
+      "your_response": "Follow the roll while maintaining control - you can finish belly-down kneebar or transition to calf slicer"
+    },
+    {
+      "counter": "Extracting leg by straightening and pushing off your hips",
+      "effectiveness": "Low",
+      "your_response": "Tighten leg triangle immediately and pull knee closer - their extraction attempt often exposes heel for return to heel hook"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "Releasing leg entanglement during hand transition",
+      "consequence": "Opponent extracts their leg entirely and escapes to standing or reverses position",
+      "correction": "Maintain tight leg triangle throughout the transition - your legs must control while hands reposition"
+    },
+    {
+      "error": "Gripping below the knee instead of above",
+      "consequence": "No control over the joint being attacked - opponent can bend knee freely to relieve pressure",
+      "correction": "Always secure control above the knee cap with hands clasped around the lower thigh"
+    },
+    {
+      "error": "Poor hip-to-knee alignment with joint not at fulcrum point",
+      "consequence": "Minimal breaking pressure despite hip extension - opponent can defend indefinitely",
+      "correction": "Position their knee directly at your hip crease before applying pressure"
+    },
+    {
+      "error": "Allowing opponent's knee to bend during the finish",
+      "consequence": "Bent knee dissipates hyperextension force completely",
+      "correction": "Keep leg straight by pulling toes toward your shoulder and using leg triangle to prevent hip rotation"
+    },
+    {
+      "error": "Delayed recognition of heel defense leading to scramble",
+      "consequence": "Neither heel hook nor kneebar succeeds as opponent has time to fully adjust defense",
+      "correction": "Commit to kneebar transition within 2-3 seconds of recognizing effective heel defense"
+    }
+  ],
+  "training_progressions": [
+    {
+      "phase": "Week 1-2",
+      "focus": "Mechanics isolation",
+      "description": "Practice kneebar finishing mechanics from static kneebar control position. Focus on hip-to-knee alignment, leg triangle configuration, and coordinated hip extension with arm pull. Partner provides no resistance.",
+      "resistance_level": "None"
+    },
+    {
+      "phase": "Week 3-4",
+      "focus": "Transition drilling",
+      "description": "Start from 50-50 top position. Partner hides heel on command. Practice releasing heel grip and transitioning to kneebar control. Focus on maintaining leg entanglement throughout transition. Partner provides light defensive movement.",
+      "resistance_level": "Light"
+    },
+    {
+      "phase": "Week 5-6",
+      "focus": "Chain attacks",
+      "description": "Flow between heel hook attempts and kneebar based on partner's defense. When they hide heel, attack kneebar. When they straighten leg to defend kneebar, return to heel hook. Partner defends one attack at a time with medium resistance.",
+      "resistance_level": "Medium"
+    },
+    {
+      "phase": "Week 7+",
+      "focus": "Live application",
+      "description": "Apply technique in live rolling from 50-50 positions. Focus on recognition timing and commitment speed. Integrate with full leg lock game including back takes when both attacks are defended. Full resistance sparring.",
+      "resistance_level": "Full"
+    }
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Belly-down kneebar finish",
+      "description": "When opponent rolls toward you during the attack, follow them over to finish in belly-down position. Pinch knees together around their thigh, keep hips heavy on their leg, and arch back to hyperextend.",
+      "when_to_use": "Opponent attempts to roll escape or you lose control of supine position"
+    },
+    {
+      "variant_name": "Kneebar with calf slicer threat",
+      "description": "Triangle your legs lower around opponent's calf rather than thigh, creating simultaneous kneebar hyperextension and calf slicer compression. Opponent must defend two attacks with single leg.",
+      "when_to_use": "Against flexible opponents who can tolerate standard kneebar pressure"
+    },
+    {
+      "variant_name": "Standing kneebar from 50-50",
+      "description": "When opponent attempts to stand to escape 50-50, follow them up while maintaining leg control. Cup behind their knee with your arm and sit back for kneebar while they are weight-bearing on the leg.",
+      "when_to_use": "Opponent attempts standing escape from 50-50"
+    }
+  ],
+  "knowledge_assessment": [
+    {
+      "question": "What is the primary goal of Kneebar from 50-50?",
+      "answer": "The primary goal is to attack the knee joint with hyperextension when opponent successfully defends the heel hook. By redirecting from heel to knee, you exploit their defensive positioning which often creates an exposed knee line. This attack either finishes via tap or forces them to abandon heel defense, reopening heel hook opportunities.",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "What position do you start Kneebar from 50-50 from?",
+      "answer": "This technique starts from 50-50 Guard/Top position, where you have established inside control and hip pressure over your opponent. You must have the characteristic leg entanglement with both practitioners' legs intertwined in mirror configuration.",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "What are the key grips needed for Kneebar from 50-50?",
+      "answer": "The key grip is a gable grip (palm-to-palm) or figure-four configuration secured above the opponent's knee cap, controlling their lower thigh. This grip prevents them from bending their knee to relieve pressure. Additionally, your legs must maintain a triangle configuration around their thigh or calf to control hip rotation.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "How do you counter an opponent's knee rotation defense?",
+      "answer": "When opponent rotates their knee to prevent hyperextension angle, increase your hip drive forward while simultaneously pulling their leg tighter to your chest. Use your leg triangle to control their hip - the rotation originates from their hip, so controlling the hip prevents the knee rotation. You may also angle your body slightly to redirect the fulcrum point.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "When is the best time to attempt Kneebar from 50-50?",
+      "answer": "The optimal timing is within 2-3 seconds of recognizing effective heel defense. When opponent tucks their heel, rotates knee inward, or establishes defensive grips that prevent heel exposure, immediately transition to kneebar. Delayed commitment allows them to establish defenses for both attacks. The transition window is narrow - commit fully or abandon for positional advancement.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "Your opponent begins sitting up during your kneebar attempt - what adjustment maintains the attack?",
+      "answer": "Drive your hips higher while angling your body away from them to maintain distance. Keep your knee control tight and use your leg triangle to prevent them from fully sitting up. If they continue rising, you can transition to belly-down kneebar by following their movement, or redirect to back take if the leg lock position is compromised.",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "What distinguishes proper hip-to-knee alignment for maximum breaking pressure?",
+      "answer": "Their knee joint must be positioned directly at your hip crease where your hip meets your torso. Their shin extends along your centerline with their ankle near your shoulder. The leg must be straight with toes pointed. This alignment creates maximum fulcrum leverage - too high or low significantly reduces hyperextension force. Think of your hip crease as the breaking point for their knee.",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "How do you chain between heel hook and kneebar based on opponent's defensive reactions?",
+      "answer": "The chain works on defensive reaction: when they hide heel (knee bent, heel tucked), their straight leg exposes knee for kneebar. When they defend kneebar by bending knee and rotating, their heel often becomes re-exposed for heel hook. Cycle between attacks based on their defensive choice. The key is committing within 2-3 seconds of recognizing each defense rather than pursuing the fully-defended attack.",
+      "difficulty": "Advanced"
+    }
+  ],
+  "safety_considerations": "The kneebar attacks the knee joint through hyperextension, which can cause serious ligament damage (ACL, PCL, MCL) if applied too quickly or if the defender fails to tap in time. Always apply controlled, progressive pressure in training - never explosive cranking. Tap early when caught and release immediately when partner taps. Avoid this technique entirely on training partners with knee injuries or hypermobility. In competition, be aware that kneebars are prohibited at certain belt levels under IBJJF rules (typically illegal until brown belt in gi, purple belt in no-gi). Ensure both training partners understand the tap signal and release protocol before drilling. Knee injuries can be career-ending - prioritize your training partner's safety over finishing the submission.",
+  "position_integration": "The Kneebar from 50-50 is an essential component of the complete 50-50 Guard attack system. It functions as the primary alternative when heel hooks are defended, creating a two-attack dilemma that prevents opponents from committing fully to either defense. Within the broader leg lock game, this attack connects 50-50 Guard to Kneebar Control position and chains with heel hooks, calf slicers, and back takes. Practitioners who develop both attacks from 50-50 force opponents into difficult defensive choices - defending the heel exposes the knee, and defending the knee re-exposes the heel. This technique also connects to the Saddle and Inside Ashi-Garami positions, as failed kneebar attempts can transition to these superior control positions for continued leg attack pressure.",
+  "related_content": [
+    {
+      "name": "50-50 Guard",
+      "relationship": "Starting position"
+    },
+    {
+      "name": "Kneebar Control",
+      "relationship": "Target control position on success"
+    },
+    {
+      "name": "Inside Heel Hook",
+      "relationship": "Primary chain attack - kneebar opens when heel hook is defended"
+    },
+    {
+      "name": "Calf Slicer from 50-50",
+      "relationship": "Alternative leg attack from same position"
+    },
+    {
+      "name": "Back Take from 50-50",
+      "relationship": "Positional advancement when leg locks are fully defended"
+    },
+    {
+      "name": "Inside Ashi-Garami",
+      "relationship": "Related leg entanglement with kneebar opportunities"
+    },
+    {
+      "name": "Saddle",
+      "relationship": "Superior control position for continued leg attacks"
+    },
+    {
+      "name": "Kneebar Finish",
+      "relationship": "Finishing sequence from established control"
+    }
+  ]
+}

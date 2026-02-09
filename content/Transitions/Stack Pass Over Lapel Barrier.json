@@ -1,0 +1,273 @@
+{
+  "name": "Stack Pass Over Lapel Barrier",
+  "description": "Master the Stack Pass Over Lapel Barrier in BJJ. Defeat lapel guard by driving forward pressure to fold opponent. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "tags": [
+    "bjj",
+    "guard-passing",
+    "lapel-guard",
+    "stack-pass",
+    "pressure-passing",
+    "gi-technique"
+  ],
+  "from_position": "Lapel Guard/Top",
+  "outcomes": [
+    {
+      "to": "Side Control",
+      "probability": 65,
+      "result": "success"
+    },
+    {
+      "to": "Lapel Guard",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Closed Guard",
+      "probability": 10,
+      "result": "counter"
+    }
+  ],
+  "success_rates": {
+    "beginner": 30,
+    "intermediate": 50,
+    "advanced": 65
+  },
+  "overview": "The Stack Pass Over Lapel Barrier is a high-pressure passing technique designed to neutralize lapel guard configurations by driving the opponent's knees toward their face, compressing their spine and eliminating the mechanical advantages created by the lapel wrap. Unlike techniques that attempt to clear the lapel configuration first, this pass embraces direct confrontation by using superior pressure and body positioning to pass despite the fabric entanglement.\n\nThis technique becomes particularly effective when the opponent has established a worm guard or similar lapel configuration around your leg. Rather than spending energy fighting the grip, you accept the entanglement temporarily while using forward pressure to fold the opponent, making their lapel control irrelevant. The compressed position prevents them from using hip movement or angle changes that make lapel guard dangerous.\n\nStrategically, the stack pass works best against opponents who rely heavily on the technical advantages of their lapel configuration without adequate upper body frames. The forward drive nullifies the pull of the lapel while your weight distribution prevents sweep attempts. Success requires committing fully to the pressure rather than hesitating in a compromised standing position where the lapel player has maximum leverage.",
+  "key_principles": [
+    "Commit fully to forward pressure rather than attempting to clear lapel configuration first",
+    "Drive opponent's knees toward their face to compress their spine and neutralize hip mobility",
+    "Maintain heavy shoulder pressure on opponent's thighs throughout the pass sequence",
+    "Control opponent's head position with crossface or head control to prevent defensive rotation",
+    "Keep your hips low and heavy to prevent being elevated or swept during the stack",
+    "Use your bodyweight perpendicular to opponent's spine to maximize compression efficiency",
+    "Extract leg from lapel configuration only after passing, not before"
+  ],
+  "setup_requirements": [
+    "Opponent has established lapel guard configuration (worm guard, squid guard, or similar)",
+    "You have achieved grips on opponent's collar and pants or belt",
+    "Your posture is broken forward with weight committed to the pass rather than standing upright",
+    "Opponent's far leg is controlled or pinned to prevent them from rotating away",
+    "You have identified that clearing the lapel will be more energy-costly than passing through it"
+  ],
+  "execution_steps": [
+    {
+      "step_number": 1,
+      "action": "Establish grips",
+      "description": "Secure a deep collar grip with your lead hand while your trailing hand controls opponent's pants at the knee or their belt. These grips provide the anchor points needed to drive forward pressure without slipping off.",
+      "timing": "Before committing weight forward"
+    },
+    {
+      "step_number": 2,
+      "action": "Lower level",
+      "description": "Drop your hips and drive your shoulder into opponent's thigh or hip area. Your chest should make contact with their legs, beginning the compression that will neutralize their guard mechanics.",
+      "timing": "Immediately after grips secured"
+    },
+    {
+      "step_number": 3,
+      "action": "Drive forward",
+      "description": "Walk your feet forward while maintaining shoulder pressure, driving opponent's knees toward their face. Keep your hips low throughout—raising your hips allows them to create angles and recover guard structure.",
+      "timing": "Continuous pressure, 3-5 seconds"
+    },
+    {
+      "step_number": 4,
+      "action": "Control head",
+      "description": "As you achieve compression, switch your collar grip hand to control opponent's head with a crossface or by cupping behind their neck. Head control prevents them from turning away and escaping the pressure.",
+      "timing": "When opponent's knees reach their chest"
+    },
+    {
+      "step_number": 5,
+      "action": "Clear hips",
+      "description": "With opponent fully compressed, walk your hips around their legs to the side. The lapel configuration loses effectiveness because their hip mobility is eliminated. Extract your trapped leg last, not first.",
+      "timing": "Once compression is complete"
+    },
+    {
+      "step_number": 6,
+      "action": "Consolidate position",
+      "description": "Establish side control by bringing your knee to their hip and settling your weight across their torso. Only now address any remaining lapel grip by unwinding or stripping it while maintaining dominant position.",
+      "timing": "Immediately after clearing hips"
+    }
+  ],
+  "common_counters": [
+    {
+      "counter": "Opponent creates angle by turning hips before compression is complete, preventing full stack",
+      "effectiveness": "High",
+      "your_response": "Address early by controlling their far leg grip and using your head position to block their rotation. If they create significant angle, abandon the stack and transition to a leg drag or toreando pass."
+    },
+    {
+      "counter": "Opponent frames on your shoulder to prevent forward drive and maintain space",
+      "effectiveness": "Medium",
+      "your_response": "Swim under their frames by dipping your shoulder and attacking from a lower angle. Use your collar grip to pull their upper body toward you while driving forward, collapsing their frame structure."
+    },
+    {
+      "counter": "Opponent releases lapel grip and transitions to spider guard or lasso as you commit forward",
+      "effectiveness": "Medium",
+      "your_response": "Continue the pass momentum—their guard transition is reactive and won't be fully established. The forward pressure that worked against lapel guard works equally well against partially-formed spider or lasso configurations."
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "Standing upright while attempting to clear lapel before committing to pass",
+      "consequence": "Gives opponent time to adjust their configuration, load sweeps, and use the full mechanical advantage of their lapel guard system",
+      "correction": "Commit immediately to forward pressure rather than fighting the lapel. Accept the entanglement temporarily and make it irrelevant through compression."
+    },
+    {
+      "error": "Driving forward with hips raised high in the air",
+      "consequence": "Opponent can use your elevated hips to create angles, load sweeps, or take your back as you pass",
+      "correction": "Keep hips low and heavy throughout the stack. Your weight should drive through your shoulder into their legs, not through elevated hips."
+    },
+    {
+      "error": "Neglecting head control during the compression phase",
+      "consequence": "Opponent turns their head and shoulders away, creating escape angles and potentially recovering guard or exposing you to back takes",
+      "correction": "Establish crossface or head control before attempting to clear your hips around their legs. Head control makes the position inescapable."
+    },
+    {
+      "error": "Attempting to extract trapped leg from lapel before passing",
+      "consequence": "Creates space and time for opponent to re-establish guard, recover position, or attack with sweeps while you're focused on grip fighting",
+      "correction": "Pass first, extract leg second. The lapel loses its effectiveness once you've cleared their hips—address it from the dominant position."
+    },
+    {
+      "error": "Half-committing to the stack without full forward pressure",
+      "consequence": "Stalls in a compromised position where opponent maintains lapel advantages while you lack the compression to pass",
+      "correction": "Commit fully once you decide to stack. Hesitation in the middle range is the worst outcome—either retreat to reset or drive through completely."
+    }
+  ],
+  "training_progressions": [
+    {
+      "phase": "Week 1-2",
+      "focus": "Stack mechanics without lapel",
+      "description": "Practice basic stack pass against open guard without lapel involvement. Focus on driving shoulder pressure, keeping hips low, walking feet forward, and establishing head control during compression. Build the muscle memory for the movement pattern before adding complexity.",
+      "resistance_level": "None"
+    },
+    {
+      "phase": "Week 3-4",
+      "focus": "Stack against static lapel configurations",
+      "description": "Partner establishes worm guard or squid guard and holds position without actively attacking. Practice committing to forward pressure despite the lapel, learning to accept the entanglement and pass through compression rather than clearing first.",
+      "resistance_level": "Light"
+    },
+    {
+      "phase": "Week 5-6",
+      "focus": "Counter-timing with active resistance",
+      "description": "Partner actively defends with frames and angle creation while you time your compression around their defensive movements. Learn to recognize when frames are weak and when to accelerate the stack versus when to adjust grip positioning.",
+      "resistance_level": "Medium"
+    },
+    {
+      "phase": "Week 7+",
+      "focus": "Live integration and chain passing",
+      "description": "Integrate stack pass into full guard passing sequences during sparring. Recognize when stack is appropriate versus when to use other lapel guard solutions like backstep or long step. Develop ability to transition between passing methods fluidly based on opponent reactions.",
+      "resistance_level": "Full"
+    }
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Double Under Stack",
+      "description": "Instead of collar and pants grips, secure double underhooks on opponent's legs before driving forward. This variation provides more control against opponents who fight collar grips but requires getting past their initial frames to establish the underhooks.",
+      "when_to_use": "When opponent has strong collar grip defense or when their lapel configuration makes collar grip less accessible"
+    },
+    {
+      "variant_name": "Over-Under Stack",
+      "description": "Establish one underhook and one overhook on opponent's legs before driving the stack. The asymmetric grip allows you to angle the pass toward the underhook side, making it effective when you can't achieve symmetrical control.",
+      "when_to_use": "When opponent's lapel is wrapped around only one leg, allowing you to underhook the free leg while overhooking the trapped one"
+    },
+    {
+      "variant_name": "Headquarters to Stack",
+      "description": "From headquarters position with one leg trapped between yours, drive forward to stack rather than attempting traditional knee slice. The trapped leg provides additional control point for the compression phase.",
+      "when_to_use": "When you've achieved partial pass to headquarters but opponent maintains lapel control on your trailing leg"
+    }
+  ],
+  "knowledge_assessment": [
+    {
+      "question": "What is the primary goal of Stack Pass Over Lapel Barrier?",
+      "answer": "The primary goal is to neutralize the mechanical advantages of the lapel configuration by compressing the opponent's spine and eliminating their hip mobility, passing to side control without first clearing the lapel grip. You make the lapel irrelevant through pressure rather than spending energy fighting it.",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "What position do you start Stack Pass Over Lapel Barrier from?",
+      "answer": "This technique starts from Lapel Guard/Top, specifically when the opponent has established a lapel configuration such as worm guard, squid guard, or similar variations that wrap your gi lapel around your body or legs to create control points.",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "What are the key grips needed for Stack Pass Over Lapel Barrier?",
+      "answer": "The essential grips are a deep collar grip with your lead hand and a pants grip at the knee or belt grip with your trailing hand. These provide the anchor points needed to drive forward pressure without slipping. Alternative variations use double underhooks or over-under leg control.",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "Your opponent creates a strong frame on your shoulder as you attempt to stack—what adjustment addresses this?",
+      "answer": "Swim under their frame by dipping your shoulder and attacking from a lower angle. Simultaneously use your collar grip to pull their upper body toward you while driving forward. This collapses their frame structure by removing the distance they need for the frame to be effective.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "Why should you extract your trapped leg from the lapel AFTER passing rather than before?",
+      "answer": "Attempting to extract your leg first creates space and time for the opponent to re-establish guard structure, load sweeps, or attack while you're focused on grip fighting. Once you've passed and achieved side control, the lapel configuration has lost its effectiveness and can be safely addressed from the dominant position.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "When is the best time to attempt Stack Pass Over Lapel Barrier?",
+      "answer": "The optimal timing is when you recognize that clearing the lapel configuration will be more energy-costly than passing through it—particularly when the opponent lacks strong upper body frames, when you've already committed forward weight, or when their lapel system is optimized for distance control rather than close-range defense.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "How do you counter Stack Pass Over Lapel Barrier when you're the guard player?",
+      "answer": "The highest-percentage counter is creating angle before compression is complete by turning your hips and using frames on the passer's shoulders. If they achieve compression, transitioning to spider or lasso guard as they commit forward can also work. The key is preventing full compression by maintaining hip mobility and frame distance.",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "What is the critical error when attempting this pass that makes you vulnerable to sweeps?",
+      "answer": "Driving forward with hips raised high exposes you to sweeps because the opponent can use your elevated hips to create angles and load their legs underneath you. Keeping hips low throughout the stack ensures your weight drives through your shoulder into their legs, making sweeps mechanically difficult.",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "How does head control affect the success rate of this pass?",
+      "answer": "Head control is critical because it prevents the opponent from turning their shoulders away to create escape angles. Without head control, even a fully compressed opponent can turn and recover guard or expose you to back takes. Establishing crossface or cupping behind the neck before clearing your hips makes the pass inescapable.",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "What determines whether you should use stack pass versus backstep or long step against lapel guard?",
+      "answer": "Stack pass is optimal when the opponent lacks strong upper body frames and you've already committed forward weight. Backstep works better against worm guard specifically when you have mobility. Long step is preferred against complex ringworm configurations requiring more distance. Read the opponent's frame strength and lapel configuration type to select the appropriate pass.",
+      "difficulty": "Advanced"
+    }
+  ],
+  "safety_considerations": "The stack pass compresses the opponent's spine significantly, which can cause discomfort or injury if applied excessively. During training, communicate with your partner and release pressure immediately if they tap or express discomfort. Avoid driving excessive weight onto opponents with pre-existing neck or back issues. The pass should fold them, not injure them. When drilling, start with controlled pressure and increase gradually as both partners become comfortable with the compression mechanics. In competition, be aware that fully compressed opponents may tap from discomfort rather than submission—this is a valid outcome but should not be the primary goal in training contexts where you want to develop passing mechanics.",
+  "position_integration": "Stack Pass Over Lapel Barrier occupies a specific niche in the guard passing hierarchy as a pressure-based solution to gi-specific guard configurations. It complements other lapel guard passes like the backstep (better for worm guard mobility) and long step (better for ringworm complexity). The stack is most effective when you've already committed forward and recognize that grip-fighting the lapel will be energy-costly. After completing the pass to side control, you enter the standard top game progression with options to advance to mount, attack submissions like americana or kimura, or transition to north-south. The technique bridges the gap between failed technical lapel clearing and successful position advancement, providing a high-percentage option when other passing methods stall.",
+  "related_content": [
+    {
+      "name": "Lapel Guard",
+      "relationship": "Starting position"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Primary target position after successful pass"
+    },
+    {
+      "name": "Backstep Around Worm Guard",
+      "relationship": "Alternative lapel guard pass using movement instead of pressure"
+    },
+    {
+      "name": "Long Step Around Ringworm",
+      "relationship": "Alternative pass for complex lapel configurations"
+    },
+    {
+      "name": "Pressure Pass Through Squid",
+      "relationship": "Related pressure passing concept against squid guard variation"
+    },
+    {
+      "name": "Double Under Pass",
+      "relationship": "Related stacking technique sharing similar compression mechanics"
+    },
+    {
+      "name": "Knee Slice Despite Lapel",
+      "relationship": "Alternative pass option when stack is defended"
+    },
+    {
+      "name": "Worm Guard",
+      "relationship": "Common lapel configuration this pass addresses"
+    },
+    {
+      "name": "Squid Guard",
+      "relationship": "Lapel variation addressed by this passing approach"
+    },
+    {
+      "name": "Headquarters Position",
+      "relationship": "Intermediate position that can transition to stack pass"
+    }
+  ]
+}

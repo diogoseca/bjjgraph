@@ -1,0 +1,260 @@
+{
+  "name": "Counter Roll to Top",
+  "description": "Master Counter Roll to Top escape from Gift Wrap Bottom in BJJ. Step-by-step reversal technique. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "tags": [
+    "bjj",
+    "transition",
+    "escape",
+    "reversal",
+    "gift-wrap",
+    "back-control"
+  ],
+  "from_position": "Gift Wrap/Bottom",
+  "outcomes": [
+    {
+      "to": "Gift Wrap",
+      "probability": 55,
+      "result": "success"
+    },
+    {
+      "to": "Gift Wrap",
+      "probability": 30,
+      "result": "failure"
+    },
+    {
+      "to": "Back Control",
+      "probability": 15,
+      "result": "counter"
+    }
+  ],
+  "success_rates": {
+    "beginner": 30,
+    "intermediate": 50,
+    "advanced": 65
+  },
+  "overview": "The Counter Roll to Top is a high-risk, high-reward reversal technique executed from the Gift Wrap Bottom position. This escape exploits the moment when the top player commits their weight to establish deeper control or initiates a submission attack. By timing a coordinated roll that uses the opponent's committed weight against them, the defender can reverse the position entirely and end up in a dominant Gift Wrap control position.\n\nThe technique requires precise timing and commitment. Unlike incremental escapes that focus on recovering the trapped arm or creating defensive frames, the Counter Roll to Top embraces the chaos of full positional reversal. The defender must accept the risk of accelerating their opponent's attack if the timing is wrong, but the reward is a complete reversal of fortune from one of the worst defensive positions in grappling.\n\nFrom a strategic perspective, this escape is most effective against aggressive opponents who overcommit to submission attacks or positional advancement. The technique capitalizes on the temporary weight distribution changes that occur when the top player shifts to attack the neck, transition to mount, or secure a tighter arm trap. Understanding these windows is essential for successful execution.",
+  "key_principles": [
+    "Timing is everything - initiate the roll when opponent commits weight for an attack or adjustment",
+    "Use opponent's trapped arm control as a pivot point to generate rotational momentum",
+    "Bridge explosively toward the side of the trapped arm to create the rotational axis",
+    "Maintain connection throughout the roll to prevent opponent from disengaging and resettling",
+    "Commit fully to the roll - half measures result in worse positions",
+    "Post with the free hand immediately upon completing the roll to establish top position",
+    "Control opponent's arm trap grip throughout to inherit the Gift Wrap control on top"
+  ],
+  "setup_requirements": [
+    "Gift Wrap Bottom position established with one arm trapped across the body",
+    "Opponent commits weight forward for submission attack or positional adjustment",
+    "Free arm available to post and generate initial push-off momentum",
+    "Ability to bridge toward trapped arm side without immediate submission threat",
+    "Sufficient space to execute full rotation without mat or cage obstruction"
+  ],
+  "execution_steps": [
+    {
+      "step_number": 1,
+      "action": "Identify timing window",
+      "description": "Wait for opponent to commit weight forward, typically when attacking neck, transitioning to mount, or tightening arm trap. The weight shift creates the opportunity for reversal.",
+      "timing": "When opponent's weight shifts forward or laterally"
+    },
+    {
+      "step_number": 2,
+      "action": "Secure grip on controlling arm",
+      "description": "With your free hand, grip the arm that is threading under your armpit controlling your trapped arm. Secure a firm grip on their wrist or forearm to maintain connection throughout the roll.",
+      "timing": "Immediately before initiating bridge"
+    },
+    {
+      "step_number": 3,
+      "action": "Explosive bridge toward trapped arm",
+      "description": "Bridge powerfully toward the side of your trapped arm, driving off your feet and rotating your hips explosively. The bridge should lift opponent's weight and create rotational momentum in their direction of imbalance.",
+      "timing": "During opponent's weight commitment"
+    },
+    {
+      "step_number": 4,
+      "action": "Continue rotation over shoulder",
+      "description": "Follow through with the bridge by rolling over your shoulder on the trapped arm side. Maintain grip on opponent's controlling arm throughout the rotation to keep them connected and prevent escape.",
+      "timing": "Continuous momentum from bridge"
+    },
+    {
+      "step_number": 5,
+      "action": "Post and stabilize on top",
+      "description": "As you complete the rotation, post your free hand on the mat to stabilize your top position. Your weight should now be on top of the opponent with their back exposed to the mat.",
+      "timing": "Upon completing 180-degree rotation"
+    },
+    {
+      "step_number": 6,
+      "action": "Establish Gift Wrap control",
+      "description": "Immediately work to establish your own Gift Wrap control by threading your arm under opponent's armpit and controlling their wrist. Secure hooks or establish dominant back control to capitalize on the reversal.",
+      "timing": "Within 2 seconds of completing roll"
+    }
+  ],
+  "common_counters": [
+    {
+      "counter": "Opponent releases Gift Wrap and posts to prevent roll",
+      "effectiveness": "High",
+      "your_response": "If opponent releases arm trap to post, immediately recover the freed arm and address back control through standard escape sequences - you have successfully eliminated the Gift Wrap even if reversal fails"
+    },
+    {
+      "counter": "Opponent drops weight and flattens hips to kill momentum",
+      "effectiveness": "High",
+      "your_response": "If bridge is stuffed, switch to hip escape sequence immediately rather than repeatedly attempting the roll. Use the energy opponent spent stopping the roll to create space for guard recovery"
+    },
+    {
+      "counter": "Opponent transitions to crucifix during roll attempt",
+      "effectiveness": "Medium",
+      "your_response": "If roll stalls midway, tuck the elbow of the freed arm tight to prevent crucifix entry. Be prepared to turtle and address crucifix defense if the roll fails partway through"
+    },
+    {
+      "counter": "Opponent accelerates their own roll to maintain back control",
+      "effectiveness": "Medium",
+      "your_response": "Continue your rotation with full commitment. If opponent rolls with you, the scramble often results in neutral position which is vastly preferable to Gift Wrap Bottom"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "Initiating roll when opponent has settled weight and is not attacking",
+      "consequence": "Opponent easily absorbs the bridge and may accelerate their submission attack using your movement against you",
+      "correction": "Wait for clear timing windows when opponent shifts weight for attacks or adjustments. Patience in recognizing the right moment is essential"
+    },
+    {
+      "error": "Releasing grip on opponent's controlling arm during the roll",
+      "consequence": "Opponent disengages and either resettles into Gift Wrap or transitions to mount while you complete an ineffective rotation",
+      "correction": "Maintain death grip on the arm threading under your armpit throughout the entire rotation. This connection is what pulls them over with you"
+    },
+    {
+      "error": "Bridging toward the free arm side instead of trapped arm side",
+      "consequence": "Roll mechanics fail completely as you bridge into opponent's base rather than their imbalanced side",
+      "correction": "Always bridge toward the trapped arm side where opponent's weight is committed and their Gift Wrap control creates a rotation point"
+    },
+    {
+      "error": "Half-committing to the roll and stalling midway",
+      "consequence": "Position often deteriorates to crucifix or mounted back control as you expose your second arm during incomplete rotation",
+      "correction": "Commit fully to the roll once initiated. The technique requires explosive commitment - hesitation creates worse outcomes than either full success or outright failure"
+    },
+    {
+      "error": "Failing to post and establish control immediately after completing roll",
+      "consequence": "Opponent recovers and either re-establishes Gift Wrap or escapes to neutral position, wasting the successful reversal",
+      "correction": "Post immediately upon rotation completion and work to establish your own Gift Wrap control within 2 seconds. The position is not won until you secure top control"
+    }
+  ],
+  "training_progressions": [
+    {
+      "phase": "Week 1-2",
+      "focus": "Roll mechanics isolation",
+      "description": "Practice the bridging and rolling mechanics without resistance. Partner maintains Gift Wrap position statically while you drill the timing of gripping their controlling arm, executing the bridge, and completing the full rotation. Focus on smooth continuous motion.",
+      "resistance_level": "None"
+    },
+    {
+      "phase": "Week 3-4",
+      "focus": "Timing recognition",
+      "description": "Partner provides 30% resistance and initiates attacks from Gift Wrap (choke attempts, mount transitions). Defender identifies timing windows and executes roll when appropriate. Develops pattern recognition for when the technique is viable.",
+      "resistance_level": "Light"
+    },
+    {
+      "phase": "Week 5-6",
+      "focus": "Counter integration",
+      "description": "Partner counters roll attempts with 60% resistance using realistic defensive responses (posting, weight drop, crucifix entries). Defender practices recognizing when roll will fail and transitioning to backup escapes. Develops ability to abandon technique safely.",
+      "resistance_level": "Medium"
+    },
+    {
+      "phase": "Week 7+",
+      "focus": "Live application",
+      "description": "Positional sparring from Gift Wrap Bottom with full resistance. Defender attempts Counter Roll when windows appear, executes backup escapes when they don't, and practices establishing control after successful reversals. Test success rate against progressive skill levels.",
+      "resistance_level": "Full"
+    }
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Rolling Back Take Counter",
+      "description": "When opponent attempts to transition from Gift Wrap to mounted back control, use their weight shift to initiate the roll while they are mid-transition. The movement window during mount transition is often more pronounced than during static control.",
+      "when_to_use": "When opponent begins transitioning toward mount while maintaining Gift Wrap"
+    },
+    {
+      "variant_name": "Submission Bait Counter Roll",
+      "description": "When opponent commits deeply to rear naked choke attempt, use their forward pressure and the choking arm's commitment as additional leverage for the roll. Accept temporary neck pressure during roll knowing reversal will eliminate the threat.",
+      "when_to_use": "When opponent over-commits to choke attempt with forward pressure"
+    },
+    {
+      "variant_name": "Modified Hip Heist Variation",
+      "description": "Instead of rolling over the shoulder, use a hip heist motion to spin underneath opponent while maintaining grip on their controlling arm. Works better for smaller or more flexible practitioners.",
+      "when_to_use": "When standard shoulder roll path is blocked or for more agile grapplers"
+    }
+  ],
+  "knowledge_assessment": [
+    {
+      "question": "What is the primary goal of Counter Roll to Top?",
+      "answer": "The primary goal is to completely reverse the Gift Wrap position by using a timed roll that capitalizes on the opponent's weight commitment, ending with the defender on top in a dominant Gift Wrap control position. Unlike incremental escapes, this technique aims for full positional reversal rather than gradual improvement.",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "What position do you start Counter Roll to Top from?",
+      "answer": "This technique starts from Gift Wrap Bottom, one of the most dangerous defensive positions in BJJ. One arm is trapped across your body with the opponent controlling your wrist or forearm while maintaining back control with hooks or body triangle.",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "What is the optimal timing window for initiating the Counter Roll?",
+      "answer": "The optimal timing is when the opponent commits their weight forward or laterally, typically during a submission attack (rear naked choke attempt), position transition (moving to mount), or grip adjustment (tightening the arm trap). These moments create temporary imbalance that the roll exploits.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "What grip must be maintained throughout the roll and why?",
+      "answer": "You must maintain a firm grip on the arm that threads under your armpit controlling your trapped arm. This grip serves two purposes: it pulls the opponent over with your rotation, and it allows you to inherit the Gift Wrap control on top after the reversal. Releasing this grip allows opponent to disengage and resettle.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "Which direction should you bridge when executing the Counter Roll?",
+      "answer": "Bridge toward the trapped arm side, not the free arm side. The trapped arm side is where the opponent's weight is committed through the Gift Wrap control, creating the natural rotation point. Bridging toward the free arm side bridges into opponent's base and fails completely.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "Your opponent drops their weight flat and stuffs your bridge attempt - what should you do?",
+      "answer": "Immediately abandon the Counter Roll attempt and transition to standard hip escape sequences. Do not repeatedly attempt the roll against settled resistance. Use the energy opponent expended stopping the roll to create space for guard recovery through shrimping and frames.",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "What is the risk if you half-commit to the roll and stall midway through?",
+      "answer": "Half-committing often results in worse positions than both success and outright failure. The incomplete rotation exposes your second arm and can lead to crucifix entries or mounted back control. The technique requires full explosive commitment - hesitation creates the worst possible outcomes.",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "What must you do immediately upon completing the roll to capitalize on the reversal?",
+      "answer": "Post your free hand on the mat to stabilize, then immediately work to establish your own Gift Wrap control within 2 seconds. Thread your arm under opponent's armpit and control their wrist while securing hooks or dominant back control. Failing to secure top control quickly allows opponent to recover or escape to neutral.",
+      "difficulty": "Advanced"
+    }
+  ],
+  "safety_considerations": "The Counter Roll to Top involves explosive rotational movement from a compromised position, which carries inherent risks. Primary injury concerns include: neck strain from rolling while under choke threat (never attempt if choke is already locked in), shoulder injury if the trapped arm is pulled beyond comfortable range during rotation, and collision injuries if training space is limited. Start all drilling with cooperative partners at low speed to develop the rolling mechanics safely. Never attempt this technique when a rear naked choke is fully secured - focus on choke defense first. Avoid this technique if you have pre-existing neck or shoulder injuries. In training, tap immediately if anything feels wrong during the rotation rather than trying to power through. Ensure adequate mat space before attempting in live rolling.",
+  "position_integration": "Counter Roll to Top represents a high-variance escape option within the Gift Wrap defensive system. While most Gift Wrap Bottom escapes focus on incremental improvement (arm recovery, hip escapes to guard), the Counter Roll offers direct reversal when conditions are favorable. This technique fits into the broader back control escape system as a complementary option to standard hip escapes, arm recovery sequences, and turtle transitions. The technique is best integrated as a surprise counter when the opponent becomes predictable with their attack timing. Practitioners should develop reliable fundamental escapes before relying on the Counter Roll, using it as an opportunistic weapon rather than primary defense. Successful execution leads directly to Gift Wrap Top or Back Control top positions, creating immediate offensive opportunities.",
+  "related_content": [
+    {
+      "name": "Gift Wrap",
+      "relationship": "Starting and ending position"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Alternative ending position after successful reversal"
+    },
+    {
+      "name": "Back Escape Series",
+      "relationship": "Broader escape system this technique belongs to"
+    },
+    {
+      "name": "Bridge and Roll",
+      "relationship": "Related escape mechanic using similar bridging principles"
+    },
+    {
+      "name": "Crucifix",
+      "relationship": "Risk position if roll fails midway"
+    },
+    {
+      "name": "Turtle",
+      "relationship": "Alternative escape target if reversal fails"
+    },
+    {
+      "name": "Hip Escape",
+      "relationship": "Backup technique when Counter Roll timing is wrong"
+    },
+    {
+      "name": "Technical Mount",
+      "relationship": "Opponent advancement risk if roll is poorly timed"
+    }
+  ]
+}

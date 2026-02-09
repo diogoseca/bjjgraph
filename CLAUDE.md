@@ -57,7 +57,7 @@ Follow **C-UD pattern** after completing work:
 
 | Action | Why | Do Instead |
 |--------|-----|------------|
-| Edit generated `.md` in `content/` | Overwrites on regeneration | Edit `.json` source in `templates/` |
+| Edit generated `.md` in `content/` | Overwrites on regeneration | Edit `.json` source in `content/` or schemas in `templates/` |
 | Skip validation before commits | Breaks build, bad data | Run `npm run regenerate:build` |
 | Create files >1000 lines | Unmaintainable | Split into focused modules |
 | Add docs without updating index | Orphaned content | Update relevant README/index |
@@ -80,6 +80,16 @@ bjjgraph/
 ├── CLAUDE.md                    # AI workflow (this file)
 ├── README.md                    # Quick start for contributors
 ├── PARTNERS.md                  # Partnership & sponsorship info
+├── content/                     # Generated markdown (DO NOT EDIT DIRECTLY)
+│   ├── Positions/               # 95 position pages
+│   ├── Transitions/             # 71 transition pages
+│   ├── Submissions/             # 49 submission pages
+│   └── CONTRIBUTING-YAML-SCHEMA.md  # Complete schema reference
+├── templates/                   # JSON source + Jinja2 templates
+│   ├── Positions.json           # Position data (EDIT THIS)
+│   ├── Transitions.json         # Transition data (EDIT THIS)
+│   ├── Submissions.json         # Submission data (EDIT THIS)
+│   └── *.md.jinja2              # Template files
 ├── docs/
 │   ├── Architecture.md          # JSON pipeline, Position model
 │   ├── Content.md               # Standards, validation rules
@@ -89,18 +99,10 @@ bjjgraph/
 │   ├── regenerate_md_from_json.py            # Regenerate markdown from JSON
 │   ├── regenerate_content_json.py           # Auto-fill TODOs in JSON
 │   └── select_oldest_files.sh   # File selection for bot
-├── source/
-│   ├── content/                 # Generated markdown (DO NOT EDIT DIRECTLY)
-│   │   ├── Positions/           # 95 position pages
-│   │   ├── Transitions/         # 71 transition pages
-│   │   ├── Submissions/         # 49 submission pages
-│   │   └── CONTRIBUTING-YAML-SCHEMA.md  # Complete schema reference
-│   ├── templates/               # JSON source + Jinja2 templates
-│   │   ├── Positions.json       # Position data (EDIT THIS)
-│   │   ├── Transitions.json     # Transition data (EDIT THIS)
-│   │   ├── Submissions.json     # Submission data (EDIT THIS)
-│   │   └── *.md.jinja2          # Template files
-│   └── quartz/                  # Static site generator components
+├── source/                      # Quartz code only (MIT)
+│   ├── quartz/                  # Static site generator components
+│   ├── quartz.config.ts
+│   └── ...
 ├── tests/
 │   └── artifacts/               # Validation reports, status files
 └── .github/
@@ -108,7 +110,7 @@ bjjgraph/
         └── content-improvement-bot.yml  # Daily content automation
 ```
 
-**Key Insight:** `source/content/` is OUTPUT. `source/templates/*.json` is SOURCE.
+**Key Insight:** `content/` is OUTPUT. `templates/*.json` is SOURCE.
 
 ---
 
@@ -117,8 +119,8 @@ bjjgraph/
 ### JSON-First Pipeline
 
 ```
-source/templates/*.json  →  *.md.jinja2  →  source/content/*.md  →  Quartz Build  →  Static Site
-        (SOURCE)              (TEMPLATES)         (GENERATED)           (BUILD)        (OUTPUT)
+templates/*.json  →  *.md.jinja2  →  content/*.md  →  Quartz Build  →  Static Site
+     (SOURCE)         (TEMPLATES)      (GENERATED)       (BUILD)        (OUTPUT)
 ```
 
 1. **JSON Source** - Structured data in `Positions.json`, `Transitions.json`, etc.
@@ -214,7 +216,7 @@ All submissions implicitly connect to `game-over`, the single terminal state pag
 Submission Control Position → Submission Finish Transition → game-over
 ```
 
-The `game-over` page (`source/content/game-over.md`) is a sink node - once reached, the match ends. This replaces the previous `Won by Submission` / `Lost by Submission` split.
+The `game-over` page (`content/game-over.md`) is a sink node - once reached, the match ends. This replaces the previous `Won by Submission` / `Lost by Submission` split.
 
 ### Graph Component
 
@@ -264,7 +266,7 @@ cd source && npm run test    # Run path and depgraph tests
 
 ```bash
 # 1. Edit JSON source
-vim source/templates/Positions.json
+vim templates/Positions.json
 
 # 2. Validate and regenerate all content
 npm run regenerate
@@ -383,7 +385,7 @@ Every submission MUST include:
 | `docs/Architecture.md` | JSON pipeline, Position model |
 | `docs/Content.md` | Full content standards, validation rules |
 | `docs/SEO.md` | Schema markup, keywords, analytics setup |
-| `source/content/CONTRIBUTING-YAML-SCHEMA.md` | Complete YAML schema reference |
+| `content/CONTRIBUTING-YAML-SCHEMA.md` | Complete YAML schema reference |
 
 ---
 

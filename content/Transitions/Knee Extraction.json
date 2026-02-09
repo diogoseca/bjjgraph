@@ -1,0 +1,275 @@
+{
+  "name": "Knee Extraction",
+  "description": "Learn Knee Extraction defense from straight ankle lock control. Step-by-step escape to standing or guard. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "tags": [
+    "bjj",
+    "leg lock defense",
+    "escape",
+    "ankle lock defense",
+    "knee extraction",
+    "positional escape"
+  ],
+  "from_position": "Straight Ankle Lock Control/Top",
+  "outcomes": [
+    {
+      "to": "Standing Position",
+      "probability": 45,
+      "result": "success"
+    },
+    {
+      "to": "Open Guard",
+      "probability": 20,
+      "result": "success"
+    },
+    {
+      "to": "Straight Ankle Lock Control",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Inside Ashi-Garami",
+      "probability": 10,
+      "result": "counter"
+    }
+  ],
+  "success_rates": {
+    "beginner": 30,
+    "intermediate": 50,
+    "advanced": 65
+  },
+  "overview": "The Knee Extraction is a fundamental defensive technique used to escape straight ankle lock control by systematically freeing the trapped knee and creating distance. When caught in ankle lock control, the defender's primary objective is to extract the knee toward their chest while preventing the attacker from completing their leg triangle or transitioning to more dominant entanglements like inside ashi-garami or the saddle position.\n\nThis escape relies on precise timing and coordinated movement rather than explosive strength. The defender must simultaneously address multiple control points: breaking the attacker's grip on the ankle, preventing leg wrapping around the trapped limb, and maintaining hip mobility that enables rotational escape. The knee extraction specifically targets the mechanical weakness in ankle lock control where the attacker's legs have not yet fully secured the thigh, creating a window to pull the knee free.\n\nStrategically, knee extraction serves as the first-line defense before the attacker consolidates position. The optimal window for this escape is within the first 5-10 seconds of ankle lock control being established. Beyond this timeframe, the attacker typically secures tighter leg control, making extraction progressively more difficult. Understanding this temporal pressure drives the need for immediate recognition and rapid technical execution rather than waiting passively and hoping for escape opportunities.",
+  "key_principles": [
+    "Bent knee creates structural integrity - never allow full leg extension which maximizes submission leverage",
+    "Hip rotation direction matters - rotate away from attacker's leg triangle to complicate their control",
+    "Address leg control as equal priority to grip fighting - trapped leg must be freed simultaneously",
+    "Time is the enemy - every second allows attacker to improve position, act immediately",
+    "Two-on-one grip breaking on heel grip is highest priority - heel control provides finishing leverage",
+    "Create frames on attacker's upper body to generate distance that loosens overall control"
+  ],
+  "setup_requirements": [
+    "Opponent has established initial ankle control but leg triangle is incomplete",
+    "Defender maintains some degree of hip mobility and rotational freedom",
+    "Knee can still bend - full leg extension has not been forced",
+    "Free leg is available to push against attacker's controlling legs",
+    "Defender recognizes ankle lock threat and prepares immediate defensive response"
+  ],
+  "execution_steps": [
+    {
+      "step_number": 1,
+      "action": "Recognize threat",
+      "description": "Immediately identify that your ankle has been captured and assess the attacker's leg positioning around your trapped leg - determine if their leg triangle is incomplete",
+      "timing": "Within 1-2 seconds of ankle control"
+    },
+    {
+      "step_number": 2,
+      "action": "Bend knee aggressively",
+      "description": "Pull your trapped knee toward your chest with maximum effort, bending at the hip and knee simultaneously to prevent the attacker from straightening your leg and increasing submission leverage",
+      "timing": "Immediately upon recognition"
+    },
+    {
+      "step_number": 3,
+      "action": "Break heel grip",
+      "description": "Use both hands in a two-on-one configuration to attack the attacker's grip on your heel, targeting the thumb line and peeling fingers away while maintaining your bent knee position",
+      "timing": "Concurrent with knee bend"
+    },
+    {
+      "step_number": 4,
+      "action": "Push on attacker's legs",
+      "description": "Use your free leg to kick or push down on the attacker's bottom leg, preventing them from completing the leg triangle while creating space for your trapped knee to clear",
+      "timing": "As grip weakens"
+    },
+    {
+      "step_number": 5,
+      "action": "Hip rotation",
+      "description": "Rotate your hip away from the attacker's intended leg triangle direction, creating an angle that reduces their control leverage and facilitates knee extraction through the gap you've created",
+      "timing": "Coordinated with leg push"
+    },
+    {
+      "step_number": 6,
+      "action": "Extract and distance",
+      "description": "Once the knee clears their leg control, immediately create distance by scooting your hips away and establishing frames on the attacker's upper body to prevent re-engagement",
+      "timing": "As knee clears"
+    },
+    {
+      "step_number": 7,
+      "action": "Recover position",
+      "description": "Stand up to base if possible, or recover to open guard with feet on hips to establish defensive barriers against further leg attack attempts",
+      "timing": "Immediately after extraction"
+    }
+  ],
+  "common_counters": [
+    {
+      "counter": "Attacker completes leg triangle before knee clears",
+      "effectiveness": "High",
+      "your_response": "Transition to hip rotation defense or counter-entry to 50-50 guard rather than continuing extraction against consolidated control"
+    },
+    {
+      "counter": "Attacker follows hip rotation and transitions to inside ashi-garami",
+      "effectiveness": "High",
+      "your_response": "Recognize the transition early and change rotation direction or immediately address the new entanglement with appropriate escape sequence"
+    },
+    {
+      "counter": "Attacker maintains strong heel grip despite two-on-one attack",
+      "effectiveness": "Medium",
+      "your_response": "Add wrist rotation to grip break, peel fingers individually, or create angle change through hip movement that reduces grip efficacy"
+    },
+    {
+      "counter": "Attacker straightens your leg before you can bend knee",
+      "effectiveness": "Medium",
+      "your_response": "Frame on their hip to prevent full extension, use free leg to push on their chest creating space for knee bend"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "Allowing leg to straighten completely before attempting escape",
+      "consequence": "Full leg extension maximizes attacker's submission leverage and eliminates your ability to use hip rotation for escape, dramatically increasing injury risk",
+      "correction": "Immediately bend knee and pull toward chest the moment ankle control is recognized, maintaining structural integrity throughout escape"
+    },
+    {
+      "error": "Fighting only the ankle grip while ignoring attacker's leg positioning",
+      "consequence": "Attacker completes leg triangle around your thigh while you focus on hands, establishing dominant control where extraction becomes nearly impossible",
+      "correction": "Address leg control as equal priority - use free leg to prevent triangle completion while simultaneously attacking grip"
+    },
+    {
+      "error": "Making explosive uncontrolled movements without technical precision",
+      "consequence": "Wild movements without direction actually help attacker transition to better positions as they can redirect your momentum into their preferred entanglement",
+      "correction": "Execute systematic escape with controlled deliberate movement following established technical sequence"
+    },
+    {
+      "error": "Rotating hip in the direction that facilitates attacker's inside ashi entry",
+      "consequence": "Your escape movement actually helps attacker advance to inside ashi-garami where heel hooks become available and escape options narrow substantially",
+      "correction": "Understand attacker's leg configuration and rotate in direction that complicates their desired transition"
+    },
+    {
+      "error": "Waiting passively hoping attacker will make a mistake",
+      "consequence": "Time strongly favors attacker as every passing second allows improved control, tighter grips, and clearer transition pathways",
+      "correction": "Implement immediate escape attempt within 5 seconds of ankle control being established"
+    },
+    {
+      "error": "Neglecting to create distance after knee clears their control",
+      "consequence": "Attacker immediately re-establishes ankle control or transitions to different leg attack before you can recover position",
+      "correction": "Continue movement to standing or establish frames on attacker's upper body immediately after extraction"
+    }
+  ],
+  "training_progressions": [
+    {
+      "phase": "Week 1-2",
+      "focus": "Mechanics isolation",
+      "description": "Practice the knee bend and grip break sequence against a stationary partner who holds ankle control without resistance. Focus on proper hand positioning for two-on-one grip attack and coordinating knee bend with grip break timing.",
+      "resistance_level": "None"
+    },
+    {
+      "phase": "Week 3-4",
+      "focus": "Adding leg control element",
+      "description": "Partner establishes ankle control with partial leg wrapping. Practice using free leg to push on their controlling legs while executing knee extraction. Develop awareness of when leg triangle is completing versus still open.",
+      "resistance_level": "Light"
+    },
+    {
+      "phase": "Week 5-6",
+      "focus": "Timing under pressure",
+      "description": "Partner attempts to complete leg triangle and finish ankle lock at moderate intensity. Practice recognizing optimal escape window and executing full extraction sequence with hip rotation and distance creation.",
+      "resistance_level": "Medium"
+    },
+    {
+      "phase": "Week 7+",
+      "focus": "Live integration",
+      "description": "Full resistance positional sparring starting from straight ankle lock control. Partner uses full technical repertoire including transitions to inside ashi if extraction attempts create openings. Develop ability to chain into secondary escapes when extraction fails.",
+      "resistance_level": "Full"
+    }
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Standing Knee Extraction",
+      "description": "When caught in ankle lock from standing or when attacker has poor upper body control, use the extraction to come directly to standing position. Involves posting on floor with hands and using that base to power extraction while simultaneously standing up.",
+      "when_to_use": "When attacker is focused heavily on ankle and has minimal upper body control, or when you have underhook or head control available"
+    },
+    {
+      "variant_name": "Counter-Entry Knee Extraction",
+      "description": "During the extraction process, use your free leg to simultaneously attack the attacker's far leg, transitioning into 50-50 guard rather than simply escaping. The extraction movement creates angle for your own leg entry.",
+      "when_to_use": "When attacker's leg positioning leaves their far leg accessible and you prefer offensive transition over pure escape"
+    },
+    {
+      "variant_name": "Gi-Grip Assisted Extraction",
+      "description": "In gi competition, grip the attacker's pants near their ankle or knee with one hand while the other attacks their heel grip. The pants grip provides leverage to push their leg away while pulling your knee free.",
+      "when_to_use": "In gi training or competition where fabric grips are available for additional leverage"
+    }
+  ],
+  "knowledge_assessment": [
+    {
+      "question": "What is the primary goal of Knee Extraction?",
+      "answer": "The primary goal is to free your trapped knee from the attacker's leg control before they can complete their leg triangle and consolidate position. By extracting the knee toward your chest, you eliminate their submission leverage and create space to escape to standing or guard recovery.",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "Why must you keep your knee bent throughout the escape attempt?",
+      "answer": "Keeping the knee bent maintains structural integrity that limits the attacker's submission pressure on your ankle joint. Full leg extension maximizes their mechanical advantage for the finish and eliminates your ability to use hip rotation for escape. The bent knee position preserves mobility options and reduces injury risk substantially.",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "What is the optimal time window for attempting knee extraction?",
+      "answer": "The optimal window is within 5-10 seconds of ankle control being established. Beyond this timeframe, the attacker typically secures tighter leg control through completed leg triangle, making extraction progressively more difficult. Immediate recognition and rapid technical execution dramatically improve success probability compared to delayed attempts.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "Your opponent begins closing their leg triangle around your thigh - how do you adjust your escape?",
+      "answer": "Immediately shift priority to preventing the triangle completion by using your free leg to kick or push on their bottom leg. If you cannot prevent triangle completion, abandon extraction and transition to hip rotation defense or counter-entry to 50-50 guard. Continuing extraction against consolidated leg control wastes energy and time.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "How do you determine which direction to rotate your hip during extraction?",
+      "answer": "Rotate in the direction that complicates the attacker's transition attempts. If rotating away would give them inside ashi-garami, rotate toward them instead. If rotating toward would give them outside ashi-garami, rotate away. The key is recognizing their leg configuration and deliberately choosing rotation that denies their preferred advancement.",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "What grip breaking technique has highest priority when escaping ankle lock control?",
+      "answer": "Two-on-one grip breaking targeting the hand controlling your heel has highest priority because the heel grip provides most of their finishing leverage. Attack along the thumb line while peeling fingers. Secondary priority is preventing them from deepening their forearm position against your Achilles tendon.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "The attacker follows your hip rotation and begins transitioning to inside ashi - what is your response?",
+      "answer": "Immediately recognize the transition indicator and either change your rotation direction to deny the entry, or accept the position change and implement inside ashi-garami specific escape sequences. Do not continue the extraction motion that is facilitating their advancement to a more dangerous entanglement.",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "After successfully extracting your knee, what must you do immediately?",
+      "answer": "Create distance immediately by scooting hips away and establishing frames on the attacker's upper body. Then recover to standing position or establish open guard with feet on hips. Remaining close after extraction allows immediate re-engagement - the escape is not complete until you have established defensive position or returned to standing.",
+      "difficulty": "Intermediate"
+    }
+  ],
+  "safety_considerations": "Knee extraction is a relatively safe defensive technique when executed properly. The primary safety concern is avoiding the actual ankle lock submission by maintaining knee bend throughout - if you feel significant pressure on your ankle joint, tap immediately rather than forcing the extraction. Never allow full leg extension under load as this dramatically increases injury risk to the ankle and Achilles tendon. Practice grip breaking and leg positioning components separately before combining into the full sequence under resistance. Training partners should release immediately upon tap and avoid cranking submissions during extraction drilling.",
+  "position_integration": "Knee Extraction fits into the broader leg lock defense system as the first-line response to straight ankle lock control before the attacker consolidates position. It works in conjunction with other defensive options including hip rotation defense, standing escape, and counter-entry to 50-50 guard. When knee extraction fails due to completed leg control, practitioners should transition to these secondary defenses rather than forcing extraction against consolidated position. The technique integrates with the positional hierarchy by returning the defender to standing or guard positions where leg attack threats are substantially reduced.",
+  "related_content": [
+    {
+      "name": "Straight Ankle Lock Control",
+      "relationship": "Starting position"
+    },
+    {
+      "name": "Ashi Garami Escape",
+      "relationship": "Related escape technique"
+    },
+    {
+      "name": "Hip Rotation Defense",
+      "relationship": "Alternative defense when extraction fails"
+    },
+    {
+      "name": "Standing Escape",
+      "relationship": "Follow-up after successful extraction"
+    },
+    {
+      "name": "Counter Entry to Opponent's Leg",
+      "relationship": "Offensive alternative during extraction"
+    },
+    {
+      "name": "50-50 Guard",
+      "relationship": "Counter-entry destination"
+    },
+    {
+      "name": "Inside Ashi-Garami",
+      "relationship": "Position attacker may transition to"
+    },
+    {
+      "name": "Open Guard",
+      "relationship": "Recovery position after extraction"
+    }
+  ]
+}

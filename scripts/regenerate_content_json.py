@@ -11,15 +11,16 @@ Features:
 - Domain-specific prompts (RETENTION/EXECUTION/FINISHING)
 - Reference list building for wikilink validation
 - Stub creation for missing transitions
-- Uses Opus 4.5 for all Claude calls
+- Uses Opus 4.6 for all Claude calls
 
 Usage:
-    python3 scripts/regenerate_content_json.py --file "source/content/Positions/Mount.json"
+    python3 scripts/regenerate_content_json.py --file "content/Positions/Mount.json"
     python3 scripts/regenerate_content_json.py --interval 1200 --category Positions
     python3 scripts/regenerate_content_json.py --max-files 10 --dry-run
 """
 
 import argparse
+import copy
 import json
 import subprocess
 import sys
@@ -29,18 +30,27 @@ from pathlib import Path
 from datetime import datetime
 from typing import Optional, Tuple, List, Dict, Any
 
+# Ensure repo root is on sys.path for cross-script imports
+_repo_root = str(Path(__file__).resolve().parent.parent)
+if _repo_root not in sys.path:
+    sys.path.insert(0, _repo_root)
+
+from scripts.validate_json import validate_json_file as _validate_json_file, load_schema, detect_position_template_type
+
 # =============================================================================
 # PATHS
 # =============================================================================
-CONTENT_PATH = Path("source/content")
+CONTENT_PATH = Path("content")
 POSITIONS_PATH = CONTENT_PATH / "Positions"
 TRANSITIONS_PATH = CONTENT_PATH / "Transitions"
 SUBMISSIONS_PATH = CONTENT_PATH / "Submissions"
-TEMPLATES_PATH = Path("source/templates")
-LOGS_PATH = Path("logs/fix_content")
+PRINCIPLES_PATH = CONTENT_PATH / "Principles"
+SYSTEMS_PATH = CONTENT_PATH / "Systems"
+TEMPLATES_PATH = Path("templates")
+LOGS_PATH = Path("logs/regenerate_json")
 
 # Model to use for all Claude calls
-CLAUDE_MODEL = "claude-opus-4-5-20251101"
+CLAUDE_MODEL = "claude-opus-4-6"
 
 # =============================================================================
 # STATS
@@ -210,20 +220,33 @@ def find_file_by_name(name: str, category: str) -> Optional[Path]:
 # VALIDATION
 # =============================================================================
 
-def run_validation(file_path: Path) -> Tuple[bool, str]:
-    """Run validation on a single file."""
+def run_validation(file_path: Path) -> Tuple[bool, bool, list, list]:
+    """Run validation on a single file using direct import.
+
+    Returns:
+        (is_valid, has_blocking, blocking_errors, non_blocking_errors)
+    """
     try:
-        result = subprocess.run(
-            ["python3", "scripts/validate_json.py", "--file", str(file_path)],
-            capture_output=True,
-            text=True,
-            cwd=Path.cwd()
-        )
-        output = result.stdout + result.stderr
-        is_valid = "Valid" in output and "ERROR" not in output
-        return is_valid, output.strip()
+        # Detect category from path
+        category = detect_category(file_path)
+        if category == "Unknown":
+            return False, True, [f"Unknown category for {file_path}"], []
+
+        schema = load_schema(category, file_path if category == "Positions" else None)
+        errors, warnings, categories = _validate_json_file(file_path, schema, category)
+
+        is_valid = len(errors) == 0
+        blocking = categories.get("blocking", [])
+        non_blocking = categories.get("non_blocking", [])
+        # Include warnings in non_blocking for completeness
+        non_blocking_set = set(non_blocking)
+        for w in warnings:
+            if w not in non_blocking_set:
+                non_blocking.append(w)
+        has_blocking = len(blocking) > 0
+        return is_valid, has_blocking, blocking, non_blocking
     except Exception as e:
-        return False, f"Validation failed: {e}"
+        return False, True, [f"Validation failed: {e}"], []
 
 
 def has_todos(data: dict) -> bool:
@@ -232,26 +255,18 @@ def has_todos(data: dict) -> bool:
 
 
 def needs_enrichment(data: dict, category: str) -> bool:
-    """Check if file needs enrichment based on knowledge_assessment."""
-    # Check for TODOs
+    """Check if file needs enrichment beyond validation errors.
+
+    NOTE: Does NOT check knowledge_assessment count. The schema is the source of truth —
+    if it doesn't require the field, this heuristic shouldn't contradict it.
+    Checking knowledge_assessment caused an infinite loop where 12 family Position files
+    were re-selected every run (schema doesn't require knowledge_assessment, so Claude
+    never generates it, so this function always returned True).
+    """
     if has_todos(data):
         return True
 
-    # Check knowledge_assessment adequacy
-    min_qa = 5
-
-    if category == "Positions":
-        for role in ["top", "bottom"]:
-            if role in data:
-                ka = data[role].get("knowledge_assessment", [])
-                if len(ka) < min_qa:
-                    return True
-    else:
-        ka = data.get("knowledge_assessment", [])
-        if len(ka) < min_qa:
-            return True
-
-    # Check for placeholder outcomes
+    # Check for placeholder outcomes (Transitions/Submissions)
     outcomes = data.get("outcomes", [])
     for o in outcomes:
         if "Unknown" in o.get("to", "") or o.get("probability", 0) == 0:
@@ -268,12 +283,14 @@ def get_template_content(category: str, template_type: str = None) -> str:
     """Load the appropriate template file content."""
     template_map = {
         "Positions": {
-            "SINGLE": "source/templates/Positions/TEMPLATE-POSITION-SINGLE.json",
-            "DUAL": "source/templates/Positions/TEMPLATE-POSITION-DUAL.json",
-            "FAMILY": "source/templates/Positions/TEMPLATE-POSITION-FAMILY.json",
+            "SINGLE": "templates/Positions/TEMPLATE-POSITION-SINGLE.json",
+            "DUAL": "templates/Positions/TEMPLATE-POSITION-DUAL.json",
+            "FAMILY": "templates/Positions/TEMPLATE-POSITION-FAMILY.json",
         },
-        "Transitions": "source/templates/Transitions.json",
-        "Submissions": "source/templates/Submissions.json",
+        "Transitions": "templates/Transitions.json",
+        "Submissions": "templates/Submissions.json",
+        "Principles": "templates/Principles.json",
+        "Systems": "templates/Systems.json",
     }
 
     if category == "Positions" and template_type:
@@ -286,6 +303,87 @@ def get_template_content(category: str, template_type: str = None) -> str:
             return f.read()
     except:
         return "Template not available"
+
+
+def get_template_path(category: str, template_type: str = None) -> Path:
+    """Get the path to a template schema file."""
+    template_map = {
+        "Positions": {
+            "SINGLE": "templates/Positions/TEMPLATE-POSITION-SINGLE.json",
+            "DUAL": "templates/Positions/TEMPLATE-POSITION-DUAL.json",
+            "FAMILY": "templates/Positions/TEMPLATE-POSITION-FAMILY.json",
+        },
+        "Transitions": "templates/Transitions.json",
+        "Submissions": "templates/Submissions.json",
+        "Principles": "templates/Principles.json",
+        "Systems": "templates/Systems.json",
+    }
+
+    if category == "Positions" and template_type:
+        return Path(template_map["Positions"].get(template_type, template_map["Positions"]["DUAL"]))
+    return Path(template_map.get(category, template_map["Transitions"]))
+
+
+def resolve_schema_refs(schema: dict) -> dict:
+    """Recursively resolve $ref references within a JSON schema."""
+    defs = schema.get("$defs", schema.get("definitions", {}))
+    if not defs:
+        return schema
+
+    def _resolve(node):
+        if isinstance(node, dict):
+            if "$ref" in node:
+                ref_path = node["$ref"]  # e.g. "#/$defs/role_schema"
+                ref_name = ref_path.split("/")[-1]
+                if ref_name in defs:
+                    return _resolve(copy.deepcopy(defs[ref_name]))
+                return node
+            # Handle allOf with $ref (common in position_metrics)
+            if "allOf" in node:
+                merged = {}
+                for item in node["allOf"]:
+                    resolved_item = _resolve(item)
+                    merged.update(resolved_item)
+                # Preserve any keys outside allOf
+                for k, v in node.items():
+                    if k != "allOf":
+                        merged[k] = _resolve(v)
+                return merged
+            return {k: _resolve(v) for k, v in node.items()}
+        elif isinstance(node, list):
+            return [_resolve(item) for item in node]
+        return node
+
+    resolved = _resolve(schema)
+    resolved.pop("$defs", None)
+    resolved.pop("definitions", None)
+    return resolved
+
+
+def build_response_schema(category: str, template_type: str = None) -> dict:
+    """Build --json-schema using actual category template schema with resolved $refs."""
+    schema_path = get_template_path(category, template_type)
+    try:
+        with open(schema_path, 'r') as f:
+            category_schema = json.load(f)
+        # Strip meta-fields Claude CLI won't understand
+        for key in ("$schema", "$id", "title"):
+            category_schema.pop(key, None)
+        # Resolve $ref for Position DUAL/FAMILY/SINGLE
+        category_schema = resolve_schema_refs(category_schema)
+    except Exception:
+        category_schema = {"type": "object", "required": ["name"],
+                          "properties": {"name": {"type": "string"}}}
+
+    return {
+        "type": "object",
+        "properties": {
+            "fixed_content": category_schema,
+            "created_stubs": {"type": "array", "items": {"type": "object"}},
+            "changes_summary": {"type": "array", "items": {"type": "string"}}
+        },
+        "required": ["fixed_content", "changes_summary"]
+    }
 
 
 # =============================================================================
@@ -313,7 +411,7 @@ VARIANT UNIQUENESS (required, 50 char max):
 
 TRANSITIONS FIELD (CRITICAL - unified state machine model):
 - transitions[] is the ONLY transition field. No offensive_transitions, defensive_responses, or counter_transitions.
-- Each entry: { "transition": "Technique Name", "attempt_probability": N }
+- Each entry: {{ "transition": "Technique Name", "attempt_probability": N }}
 - attempt_probability values MUST sum to 100% per role (top/bottom)
 - top.transitions = what the practitioner does from the top role
 - bottom.transitions = what the practitioner does from the bottom role
@@ -347,6 +445,39 @@ SAFETY REQUIREMENTS:
 - safety_considerations must be comprehensive (100+ chars)
 - Include injury risks with severity
 - Document tap signals and release protocol"""
+
+    elif category == "Principles":
+        return f"""REQUIRED NAME FIELD:
+- Set name = '{filename}' (MUST MATCH FILENAME EXACTLY)
+- DO NOT include 'title' field (auto-generated from name)
+
+REFERENCES:
+- application_contexts[].context -> Position or scenario names where principle applies
+- principle_relationships[].principle_name -> Other Principle names (MUST exist in valid references)
+- related_content[] -> Array of objects with name/content_type/relationship (3-15 items, any type)
+
+KEY FIELDS:
+- overview: 2-3 paragraphs, 400+ characters
+- key_principles: 6-9 fundamental principles
+- component_skills: 5-8 discrete sub-skills with 50+ char descriptions
+- decision_framework: 6-8 steps for applying the principle
+- developmental_metrics: Exactly 4 levels (Beginner/Intermediate/Advanced/Expert)"""
+
+    elif category == "Systems":
+        return f"""REQUIRED NAME FIELD:
+- Set name = '{filename}' (MUST MATCH FILENAME EXACTLY)
+- DO NOT include 'title' field (auto-generated from name)
+
+REFERENCES:
+- related_content[] -> Array of objects with name/content_type/relationship (10-30 items for comprehensive SEO)
+
+KEY FIELDS:
+- overview: 2-3 paragraphs, 400+ characters
+- key_principles: 5-8 core principles
+- key_components: 4+ main elements with 50+ char descriptions
+- implementation_sequence: 5+ step-by-step implementation phases
+- training_methodology.drilling_approach: 200+ characters
+- training_methodology.progression_path: 4+ stages of mastery"""
 
     return f"Set name = '{filename}' (MUST MATCH FILENAME EXACTLY)"
 
@@ -677,6 +808,144 @@ Return ONLY valid JSON (no markdown, no explanation):
 '''
 
 
+PRINCIPLES_PROMPT = '''You are an expert Brazilian Jiu-Jitsu black belt instructor creating content for purple/brown belt practitioners (4-5x/week serious hobbyists).
+
+## Principle: {file_path}
+
+## TEMPLATE STRUCTURE (follow this format exactly):
+```json
+{template_content}
+```
+
+## Current Content (fix TODOs and validation errors):
+```json
+{content}
+```
+
+## Validation Errors to Fix:
+{validation_errors}
+
+## FIELD GUIDANCE:
+{field_guidance}
+
+## Tasks:
+
+### 1. Fix All Validation Errors
+{error_guidance}
+
+### 2. Ensure Cross-Position Application
+- application_contexts[] should reference real positions from the valid references list
+- principle_relationships[].principle_name MUST reference existing Principles
+
+### 3. Review Content Quality
+- overview must be 400+ characters with substantive BJJ analysis
+- component_skills descriptions must be 50+ characters each
+- decision_framework should have 6-8 actionable steps
+- developmental_metrics must have exactly 4 levels with 3+ observable behaviors each
+
+## Valid References by Category (ONLY use names from these lists):
+
+**Positions ({positions_count} available):**
+{positions_list}
+
+**Transitions ({transitions_count} available):**
+{transitions_list}
+
+**Submissions ({submissions_count} available):**
+{submissions_list}
+
+**Principles ({principles_count} available):**
+{principles_list}
+
+**Systems ({systems_count} available):**
+{systems_list}
+
+{reference_format_rules}
+
+{expert_guidelines}
+
+{requirements_section}
+
+## Output Format:
+Return ONLY valid JSON (no markdown, no explanation):
+```json
+{{
+  "fixed_content": {{ ... the complete fixed JSON matching template structure ... }},
+  "changes_summary": ["Change 1", "Change 2"]
+}}
+```
+'''
+
+SYSTEMS_PROMPT = '''You are an expert Brazilian Jiu-Jitsu black belt instructor creating content for purple/brown belt practitioners (4-5x/week serious hobbyists).
+
+## System: {file_path}
+
+## TEMPLATE STRUCTURE (follow this format exactly):
+```json
+{template_content}
+```
+
+## Current Content (fix TODOs and validation errors):
+```json
+{content}
+```
+
+## Validation Errors to Fix:
+{validation_errors}
+
+## FIELD GUIDANCE:
+{field_guidance}
+
+## Tasks:
+
+### 1. Fix All Validation Errors
+{error_guidance}
+
+### 2. Ensure System Completeness
+- key_components[] should reference real techniques and positions
+- implementation_sequence should be logical and progressive
+- related_content[] should have 10-30 items for comprehensive SEO
+
+### 3. Review Content Quality
+- overview must be 400+ characters with substantive BJJ analysis
+- key_components descriptions must be 50+ characters each
+- training_methodology.drilling_approach must be 200+ characters
+- training_methodology.progression_path must have 4+ stages
+
+## Valid References by Category (ONLY use names from these lists):
+
+**Positions ({positions_count} available):**
+{positions_list}
+
+**Transitions ({transitions_count} available):**
+{transitions_list}
+
+**Submissions ({submissions_count} available):**
+{submissions_list}
+
+**Principles ({principles_count} available):**
+{principles_list}
+
+**Systems ({systems_count} available):**
+{systems_list}
+
+{reference_format_rules}
+
+{expert_guidelines}
+
+{requirements_section}
+
+## Output Format:
+Return ONLY valid JSON (no markdown, no explanation):
+```json
+{{
+  "fixed_content": {{ ... the complete fixed JSON matching template structure ... }},
+  "changes_summary": ["Change 1", "Change 2"]
+}}
+```
+'''
+
+
 def build_prompt(file_path: Path, data: dict, validation_errors: str, refs: Dict[str, List[str]]) -> str:
     """Build the appropriate prompt for a file."""
     category = detect_category(file_path)
@@ -697,6 +966,8 @@ def build_prompt(file_path: Path, data: dict, validation_errors: str, refs: Dict
     positions_str = ", ".join(refs["positions"][:100])
     transitions_str = ", ".join(refs["transitions"][:100])
     submissions_str = ", ".join(refs["submissions"][:50])
+    principles_str = ", ".join(refs["principles"][:50])
+    systems_str = ", ".join(refs["systems"][:50])
 
     # Error guidance based on validation output
     error_guidance = ""
@@ -719,9 +990,13 @@ def build_prompt(file_path: Path, data: dict, validation_errors: str, refs: Dict
         "positions_list": positions_str,
         "transitions_list": transitions_str,
         "submissions_list": submissions_str,
+        "principles_list": principles_str,
+        "systems_list": systems_str,
         "positions_count": len(refs["positions"]),
         "transitions_count": len(refs["transitions"]),
         "submissions_count": len(refs["submissions"]),
+        "principles_count": len(refs["principles"]),
+        "systems_count": len(refs["systems"]),
         "context_content": context_content,
         "reference_format_rules": REFERENCE_FORMAT_RULES,
         "expert_guidelines": EXPERT_GUIDELINES,
@@ -746,6 +1021,16 @@ def build_prompt(file_path: Path, data: dict, validation_errors: str, refs: Dict
         common_params["field_guidance"] = get_field_guidance("Submissions", None, filename)
         return SUBMISSION_PROMPT.format(**common_params)
 
+    elif category == "Principles":
+        common_params["template_content"] = get_template_content("Principles")
+        common_params["field_guidance"] = get_field_guidance("Principles", None, filename)
+        return PRINCIPLES_PROMPT.format(**common_params)
+
+    elif category == "Systems":
+        common_params["template_content"] = get_template_content("Systems")
+        common_params["field_guidance"] = get_field_guidance("Systems", None, filename)
+        return SYSTEMS_PROMPT.format(**common_params)
+
     # Fallback to Transitions
     common_params["template_content"] = get_template_content("Transitions")
     common_params["field_guidance"] = get_field_guidance("Transitions", None, filename)
@@ -756,15 +1041,16 @@ def build_prompt(file_path: Path, data: dict, validation_errors: str, refs: Dict
 # CLAUDE INTERACTION
 # =============================================================================
 
-def call_claude(prompt: str, timeout: int = 300) -> Tuple[Optional[str], Optional[str]]:
-    """Call Claude CLI with Opus 4.5."""
+def call_claude(prompt: str, response_schema: dict, timeout: int = 300) -> Tuple[Optional[str], Optional[str]]:
+    """Call Claude CLI with Opus 4.5 and structured JSON output."""
     try:
         result = subprocess.run(
             [
                 "claude",
                 "-p", prompt,
                 "--model", CLAUDE_MODEL,
-                "--output-format", "text"
+                "--output-format", "json",
+                "--json-schema", json.dumps(response_schema)
             ],
             capture_output=True,
             text=True,
@@ -775,7 +1061,21 @@ def call_claude(prompt: str, timeout: int = 300) -> Tuple[Optional[str], Optiona
         if result.returncode != 0:
             return None, f"Claude CLI error: {result.stderr}"
 
-        return result.stdout.strip(), None
+        # --output-format json wraps response in {"type":"result","result":"...","structured_output":...}
+        # When using --json-schema, the schema-constrained JSON is in "structured_output"
+        # The "result" field contains plain text explanation
+        try:
+            cli_output = json.loads(result.stdout)
+            # Check structured_output first (for --json-schema), fall back to result
+            structured = cli_output.get("structured_output")
+            if structured is not None:
+                # structured_output is already a dict/object when present
+                if isinstance(structured, dict):
+                    return json.dumps(structured), None
+                return structured, None
+            return cli_output.get("result", result.stdout.strip()), None
+        except (json.JSONDecodeError, KeyError):
+            return result.stdout.strip(), None
 
     except subprocess.TimeoutExpired:
         return None, "Claude CLI timeout"
@@ -917,50 +1217,79 @@ def save_json(path: Path, data: dict) -> bool:
 
 
 def process_file(file_path: Path, refs: Dict[str, List[str]], dry_run: bool = False,
-                 max_retries: int = 2, verbose: bool = False) -> bool:
-    """Process a single file with validation loop."""
+                 max_retries: int = 2, verbose: bool = False) -> dict:
+    """Process a single file with severity-aware validation loop.
+
+    Returns:
+        dict with keys: outcome ("success"|"failed"|"skipped"), attempts (int), remaining_errors (list)
+    """
+    result_info = {"outcome": "failed", "attempts": 0, "remaining_errors": []}
 
     # Load file
     data = load_json(file_path)
     if not data:
         stats["failed"] += 1
-        return False
+        return result_info
 
     category = detect_category(file_path)
 
     # Pre-validation
-    is_valid, validation_output = run_validation(file_path)
+    is_valid, has_blocking, blocking_errs, non_blocking_errs = run_validation(file_path)
+
+    # Build validation summary for prompt
+    all_errors = blocking_errs + non_blocking_errs
+    validation_summary = "\n".join(f"- {e}" for e in all_errors) if all_errors else ""
 
     # Check if needs work
     if is_valid and not has_todos(data) and not needs_enrichment(data, category):
         print(f"  SKIP: Already valid and complete", flush=True)
         stats["skipped"] += 1
-        return True
+        result_info["outcome"] = "skipped"
+        return result_info
 
     # Show what we're fixing
-    if verbose and validation_output:
-        print(f"  Validation: {validation_output[:200]}...", flush=True)
+    if verbose and all_errors:
+        summary = "; ".join(all_errors[:3])
+        print(f"  Errors: {summary}", flush=True)
 
     if dry_run:
         print(f"  [DRY RUN] Would call Claude to fix/enrich", flush=True)
         stats["fixed"] += 1
-        return True
+        result_info["outcome"] = "success"
+        return result_info
+
+    # Build response schema dynamically per category
+    template_type = detect_position_template(file_path) if category == "Positions" else None
+    response_schema = build_response_schema(category, template_type)
 
     # Build prompt
-    prompt = build_prompt(file_path, data, validation_output, refs)
+    prompt = build_prompt(file_path, data, validation_summary, refs)
+
+    # Track the data state before any attempts (for revert on blocking errors)
+    current_data = copy.deepcopy(data)
 
     # Process with retries
     for attempt in range(max_retries + 1):
+        attempt_num = attempt + 1
+        result_info["attempts"] = attempt_num
+
         if attempt > 0:
             print(f"  Retry {attempt}/{max_retries}...", flush=True)
             stats["retries"] += 1
 
         # Call Claude
         print(f"  Calling Claude ({CLAUDE_MODEL})...", flush=True)
-        response, error = call_claude(prompt)
+        response, error = call_claude(prompt, response_schema)
 
         if error:
             stats["errors"].append(f"{file_path.name}: {error}")
+            print(f"  Attempt {attempt_num}: API error - {error}", flush=True)
+            # Log API error for debugging
+            LOGS_PATH.mkdir(parents=True, exist_ok=True)
+            debug_path = LOGS_PATH / f"{file_path.stem}_attempt{attempt_num}_{datetime.now().strftime('%H%M%S')}.txt"
+            with open(debug_path, 'w', encoding='utf-8') as f:
+                f.write(f"=== API Error ===\n{error}\n")
+            print(f"  Debug log: {debug_path}", flush=True)
             continue
 
         # Extract JSON
@@ -968,45 +1297,79 @@ def process_file(file_path: Path, refs: Dict[str, List[str]], dry_run: bool = Fa
 
         if extract_error:
             stats["errors"].append(f"{file_path.name}: {extract_error}")
-            # Save raw response for debugging
-            log_path = LOGS_PATH / f"{file_path.stem}_raw_{datetime.now().strftime('%H%M%S')}.txt"
-            log_path.parent.mkdir(parents=True, exist_ok=True)
-            with open(log_path, 'w') as f:
-                f.write(response)
+            print(f"  Attempt {attempt_num}: JSON extraction failed", flush=True)
+            # Log failed response for debugging
+            LOGS_PATH.mkdir(parents=True, exist_ok=True)
+            debug_path = LOGS_PATH / f"{file_path.stem}_attempt{attempt_num}_{datetime.now().strftime('%H%M%S')}.txt"
+            with open(debug_path, 'w', encoding='utf-8') as f:
+                f.write(f"=== Extract Error ===\n{extract_error}\n\n")
+                f.write(f"=== Response Type ===\n{type(response)}\n\n")
+                f.write(f"=== Response Length ===\n{len(response) if response else 0}\n\n")
+                f.write(f"=== Raw Response ===\n{response}\n")
+            print(f"  Debug log: {debug_path}", flush=True)
             continue
 
-        # Get fixed content
+        # --- Aggressive repair (safety nets) ---
         fixed_content = result.get("fixed_content")
-        if not fixed_content:
-            stats["errors"].append(f"{file_path.name}: No fixed_content in response")
-            continue
 
-        # Validate response structure before saving
+        # Safety net 1: No wrapper -> try whole response as content
+        if not fixed_content and isinstance(result, dict) and "name" in result:
+            fixed_content = result
+
+        # Safety net 2: String -> parse
+        if isinstance(fixed_content, str):
+            try:
+                fixed_content = json.loads(fixed_content)
+            except json.JSONDecodeError:
+                stats["errors"].append(f"{file_path.name}: fixed_content is unparseable string")
+                print(f"  Attempt {attempt_num}: fixed_content is unparseable string", flush=True)
+                # Log for debugging
+                LOGS_PATH.mkdir(parents=True, exist_ok=True)
+                debug_path = LOGS_PATH / f"{file_path.stem}_attempt{attempt_num}_{datetime.now().strftime('%H%M%S')}.txt"
+                with open(debug_path, 'w', encoding='utf-8') as f:
+                    f.write(f"=== Error ===\nfixed_content is unparseable string\n\n")
+                    f.write(f"=== fixed_content (string) ===\n{fixed_content}\n\n")
+                    f.write(f"=== Full result ===\n{json.dumps(result, indent=2)}\n")
+                print(f"  Debug log: {debug_path}", flush=True)
+                continue
+
+        # Safety net 3: Not a dict -> skip
         if not isinstance(fixed_content, dict):
             stats["errors"].append(f"{file_path.name}: fixed_content is {type(fixed_content).__name__}, not dict")
+            print(f"  Attempt {attempt_num}: fixed_content is not a dict", flush=True)
+            # Log for debugging
+            LOGS_PATH.mkdir(parents=True, exist_ok=True)
+            debug_path = LOGS_PATH / f"{file_path.stem}_attempt{attempt_num}_{datetime.now().strftime('%H%M%S')}.txt"
+            with open(debug_path, 'w', encoding='utf-8') as f:
+                f.write(f"=== Error ===\nfixed_content is {type(fixed_content).__name__}, not dict\n\n")
+                f.write(f"=== fixed_content ===\n{fixed_content}\n\n")
+                f.write(f"=== Full result ===\n{json.dumps(result, indent=2, default=str)}\n")
+            print(f"  Debug log: {debug_path}", flush=True)
             continue
-        if "name" not in fixed_content:
-            stats["errors"].append(f"{file_path.name}: fixed_content missing required 'name' field")
-            continue
+
+        # Safety net 4: Inject/correct name
         expected_name = file_path.stem
-        if fixed_content["name"] != expected_name:
-            print(f"  WARNING: name mismatch '{fixed_content['name']}' vs '{expected_name}', correcting", flush=True)
+        if "name" not in fixed_content:
+            fixed_content["name"] = expected_name
+        elif fixed_content["name"] != expected_name:
+            print(f"  Correcting name '{fixed_content['name']}' -> '{expected_name}'", flush=True)
             fixed_content["name"] = expected_name
 
-        # Save file
+        # Save to disk
         if not save_json(file_path, fixed_content):
+            print(f"  Attempt {attempt_num}: Failed to save file", flush=True)
             continue
 
-        # Post-validation
-        is_valid, validation_output = run_validation(file_path)
+        # Validate with severity
+        is_valid, has_blocking, blocking_errs, non_blocking_errs = run_validation(file_path)
 
         if is_valid:
-            # Check for remaining TODOs
+            # Fully valid
             final_data = load_json(file_path)
             if final_data and has_todos(final_data):
-                print(f"  WARNING: File still contains TODOs", flush=True)
+                print(f"  SUCCESS (with remaining TODOs)", flush=True)
             else:
-                print(f"  SUCCESS: File is valid", flush=True)
+                print(f"  SUCCESS", flush=True)
 
             # Handle stub creation
             created_stubs = result.get("created_stubs", [])
@@ -1018,7 +1381,7 @@ def process_file(file_path: Path, refs: Dict[str, List[str]], dry_run: bool = Fa
                     if save_transition_stub(stub_content):
                         print(f"  Created stub: {stub_name}", flush=True)
                         stats["stubs_created"] += 1
-                        refs["transitions"].append(stub_name)  # Update refs
+                        refs["transitions"].append(stub_name)
 
             # Log changes
             changes = result.get("changes_summary", [])
@@ -1026,19 +1389,46 @@ def process_file(file_path: Path, refs: Dict[str, List[str]], dry_run: bool = Fa
                 print(f"  Changes: {', '.join(changes[:3])}", flush=True)
 
             stats["fixed"] += 1
-            return True
+            result_info["outcome"] = "success"
+            result_info["remaining_errors"] = []
+            return result_info
 
-        # Validation failed - rebuild full prompt with updated content and errors
-        # This preserves reference lists, template schema, and field guidance
-        # that are essential for fixing broken references
-        print(f"  Rebuilding prompt with full context for retry...", flush=True)
-        prompt = build_prompt(file_path, fixed_content, validation_output, refs)
-        prompt = f"RETRY ATTEMPT {attempt + 1}: Previous fix attempt FAILED validation. Focus on fixing these specific errors FIRST, then ensure all other content remains valid.\n\n" + prompt
+        if has_blocking:
+            # Blocking errors: revert file to pre-attempt state, retry
+            save_json(file_path, current_data)
+            error_summary = "; ".join(blocking_errs[:3])
+            print(f"  {len(blocking_errs)} blocking errors: {error_summary}", flush=True)
+            print(f"  Reverted. Retrying...", flush=True)
+            # Rebuild prompt with failed attempt + errors for retry
+            all_retry_errors = blocking_errs + non_blocking_errs
+            validation_summary = "\n".join(f"- {e}" for e in all_retry_errors)
+            prompt = build_prompt(file_path, fixed_content, validation_summary, refs)
+            prompt = f"RETRY ATTEMPT {attempt_num}: Previous fix attempt FAILED validation with BLOCKING errors. Fix these specific errors FIRST:\n{validation_summary}\n\n" + prompt
+            continue
+
+        # Only non-blocking errors: file saved (structurally sound), update current_data, keep retrying
+        current_data = copy.deepcopy(fixed_content)
+        print(f"  Saved ({len(non_blocking_errs)} non-blocking errors). Retrying for links...", flush=True)
+        # Rebuild prompt with saved content + errors
+        validation_summary = "\n".join(f"- {e}" for e in non_blocking_errs)
+        prompt = build_prompt(file_path, fixed_content, validation_summary, refs)
+        prompt = f"RETRY ATTEMPT {attempt_num}: File saved but has {len(non_blocking_errs)} non-blocking errors (broken links). Fix these:\n{validation_summary}\n\n" + prompt
+        continue
 
     # All retries exhausted
-    print(f"  FAILED: Could not fix after {max_retries} retries", flush=True)
+    remaining = blocking_errs + non_blocking_errs
+    result_info["remaining_errors"] = remaining
+
+    print(f"  FAILED after {max_retries + 1} attempts.", flush=True)
+    if remaining:
+        print(f"  Remaining errors ({len(remaining)}):", flush=True)
+        for err in remaining[:5]:
+            print(f"    - {err}", flush=True)
+        if len(remaining) > 5:
+            print(f"    ... +{len(remaining) - 5} more", flush=True)
+
     stats["failed"] += 1
-    return False
+    return result_info
 
 
 # =============================================================================
@@ -1056,6 +1446,10 @@ def collect_files(category: str = "all", errors_only: bool = False) -> List[Path
         paths.extend(TRANSITIONS_PATH.rglob("*.json"))
     if category in ["Submissions", "all"]:
         paths.extend(SUBMISSIONS_PATH.rglob("*.json"))
+    if category in ["Principles", "all"]:
+        paths.extend(PRINCIPLES_PATH.rglob("*.json"))
+    if category in ["Systems", "all"]:
+        paths.extend(SYSTEMS_PATH.rglob("*.json"))
 
     for path in paths:
         if "TEMPLATE" in path.name:
@@ -1067,7 +1461,7 @@ def collect_files(category: str = "all", errors_only: bool = False) -> List[Path
             continue
 
         cat = detect_category(path)
-        is_valid, _ = run_validation(path)
+        is_valid, _, _, _ = run_validation(path)
 
         if errors_only:
             if not is_valid:
@@ -1090,7 +1484,7 @@ def main():
         epilog="""
 Examples:
   # Fix single file
-  python3 scripts/regenerate_content_json.py --file "source/content/Positions/Mount.json"
+  python3 scripts/regenerate_content_json.py --file "content/Positions/Mount.json"
 
   # Queue mode with 20-minute intervals
   python3 scripts/regenerate_content_json.py --interval 1200
@@ -1112,7 +1506,7 @@ Examples:
 
     # Filtering
     parser.add_argument("--category", "-c",
-                       choices=["Positions", "Transitions", "Submissions", "all"],
+                       choices=["Positions", "Transitions", "Submissions", "Principles", "Systems", "all"],
                        default="all", help="Category to process (queue mode)")
     parser.add_argument("--errors-only", "-e", action="store_true",
                        help="Only process files with validation errors")
@@ -1147,6 +1541,8 @@ Domain-specific prompts:
   - Positions: RETENTION focus (maintaining stable states)
   - Transitions: EXECUTION focus (performing motion)
   - Submissions: FINISHING focus (mechanics that cause tap)
+  - Principles: Cross-position application and decision frameworks
+  - Systems: Implementation sequence and training methodology
 {'=' * 70}
 """, flush=True)
 
@@ -1156,7 +1552,17 @@ Domain-specific prompts:
     print(f"  Positions: {len(refs['positions'])}", flush=True)
     print(f"  Transitions: {len(refs['transitions'])}", flush=True)
     print(f"  Submissions: {len(refs['submissions'])}", flush=True)
+    print(f"  Principles: {len(refs['principles'])}", flush=True)
+    print(f"  Systems: {len(refs['systems'])}", flush=True)
     print()
+
+    # Run-level summary
+    run_summary = {
+        "started_at": datetime.now().isoformat(),
+        "model": CLAUDE_MODEL,
+        "dry_run": args.dry_run,
+        "files": []
+    }
 
     # Single file mode
     if args.file:
@@ -1167,7 +1573,8 @@ Domain-specific prompts:
 
         print(f"Processing: {file_path.name}", flush=True)
         stats["processed"] = 1
-        success = process_file(file_path, refs, args.dry_run, args.max_retries, args.verbose)
+        file_result = process_file(file_path, refs, args.dry_run, args.max_retries, args.verbose)
+        run_summary["files"].append({"file": str(file_path), **file_result})
 
     # Queue mode
     else:
@@ -1188,7 +1595,8 @@ Domain-specific prompts:
             print(f"\n[{i+1}/{len(files)}] {file_path.relative_to(CONTENT_PATH)}", flush=True)
             stats["processed"] += 1
 
-            process_file(file_path, refs, args.dry_run, args.max_retries, args.verbose)
+            file_result = process_file(file_path, refs, args.dry_run, args.max_retries, args.verbose)
+            run_summary["files"].append({"file": str(file_path), **file_result})
 
             # Wait between files (skip in batch mode)
             if i < len(files) - 1 and not args.dry_run and not args.batch:
@@ -1215,6 +1623,17 @@ Errors:    {len(stats['errors'])}
             print(f"  - {e}", flush=True)
         if len(stats["errors"]) > 10:
             print(f"  ... and {len(stats['errors']) - 10} more", flush=True)
+
+    # Write run-level summary log
+    if stats["processed"] > 0 and not args.dry_run:
+        LOGS_PATH.mkdir(parents=True, exist_ok=True)
+        run_summary["finished_at"] = datetime.now().isoformat()
+        run_summary["stats"] = dict(stats)
+        timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+        summary_path = LOGS_PATH / f"run_{timestamp}.json"
+        with open(summary_path, 'w', encoding='utf-8') as f:
+            json.dump(run_summary, f, indent=2, ensure_ascii=False)
+        print(f"\nRun summary: {summary_path}", flush=True)
 
     return 0 if stats["failed"] == 0 else 1
 

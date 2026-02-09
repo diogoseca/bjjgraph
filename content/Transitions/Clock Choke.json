@@ -1,0 +1,270 @@
+{
+  "name": "Clock Choke",
+  "description": "Master the Clock Choke in BJJ. Step-by-step gi choke from Turtle top using rotational pressure. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "tags": [
+    "bjj",
+    "transition",
+    "technique",
+    "choke",
+    "gi",
+    "turtle-attack",
+    "collar-choke"
+  ],
+  "from_position": "Turtle/Top",
+  "outcomes": [
+    {
+      "to": "Game Over",
+      "probability": 65,
+      "result": "success"
+    },
+    {
+      "to": "Turtle",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Half Guard",
+      "probability": 10,
+      "result": "counter"
+    }
+  ],
+  "success_rates": {
+    "beginner": 30,
+    "intermediate": 50,
+    "advanced": 65
+  },
+  "overview": "The Clock Choke is a highly effective gi submission that derives its name from the rotational movement pattern used during execution—the attacker walks around the opponent's head like the hands of a clock while maintaining collar pressure. This technique is most commonly applied against a turtled opponent, exploiting their defensive posture by using their own gi collar as the choking mechanism. The choke combines collar grip mechanics with positional pressure, creating a blood choke that attacks both carotid arteries simultaneously.\n\nStrategically, the Clock Choke serves as a primary threat against turtle position, forcing opponents to choose between defending the choke and exposing their back or maintaining turtle and being submitted. This dilemma-based approach makes it a cornerstone technique for controlling and finishing turtled opponents. The technique requires precise grip placement—the choking hand must achieve deep collar penetration with the thumb inside, while the non-choking arm controls the far hip to prevent rolling escape.\n\nThe rotational finishing mechanic distinguishes the Clock Choke from static collar chokes. Rather than simply pulling on the collar, the attacker creates pressure by walking their body perpendicular to the opponent while sprawling their hips down, using body weight and leverage rather than arm strength alone. This makes the technique sustainable and difficult to defend once properly established, as the defender must address both the grip and the positional pressure simultaneously.",
+  "key_principles": [
+    "Deep collar grip with thumb inside creates the choking surface against the carotid arteries",
+    "Hip control on the far side prevents the opponent from rolling toward you to escape pressure",
+    "Walk perpendicular to opponent's spine to maximize rotational pressure on the neck",
+    "Sprawl hips low and drive chest weight forward to add body mass to the choke",
+    "Keep your head low and tight to their shoulder to maintain connection throughout the rotation",
+    "Use your legs to prevent them from sitting back into you during the finishing sequence"
+  ],
+  "setup_requirements": [
+    "Opponent is in turtle position with their hands and knees on the mat",
+    "Deep collar grip established with thumb inserted inside the collar on the near side",
+    "Control of opponent's far hip with your non-choking arm to prevent rolling",
+    "Your chest is connected to their upper back or shoulder to maintain pressure",
+    "Opponent's head is accessible and not buried between their arms"
+  ],
+  "execution_steps": [
+    {
+      "step_number": 1,
+      "action": "Establish collar grip",
+      "description": "From turtle top, reach across opponent's neck and insert your thumb deep inside their far-side collar, fingers wrapping outside. Your knuckles should press directly against their neck with the gi material creating the choking surface between your thumb and their carotid artery.",
+      "timing": "Immediately when opponent turtles"
+    },
+    {
+      "step_number": 2,
+      "action": "Secure hip control",
+      "description": "Place your non-choking hand on opponent's far hip, gripping the gi pants or belt. This anchor prevents them from rolling toward you to relieve pressure and gives you a reference point for your rotational movement around their body.",
+      "timing": "Before beginning rotation"
+    },
+    {
+      "step_number": 3,
+      "action": "Position your body",
+      "description": "Bring your chest tight to their shoulder on the choking side, keeping your head low near their ear. Your hips should be on the same side as your choking arm initially, with both knees on the mat for base and mobility.",
+      "timing": "As you settle the grip"
+    },
+    {
+      "step_number": 4,
+      "action": "Begin the clock rotation",
+      "description": "Start walking your body perpendicular to their spine, moving toward their head while maintaining collar grip tension. Take small steps with your knees, keeping your chest connected to their upper back throughout the movement. Your body traces an arc like clock hands moving.",
+      "timing": "Controlled, deliberate movement"
+    },
+    {
+      "step_number": 5,
+      "action": "Sprawl and drive",
+      "description": "As you reach approximately 90 degrees to their spine, sprawl your hips back and down toward the mat while driving your shoulder and chest weight forward into their neck and shoulder. This creates tremendous pressure on the choke without requiring arm strength.",
+      "timing": "When perpendicular to spine"
+    },
+    {
+      "step_number": 6,
+      "action": "Complete the finish",
+      "description": "Continue driving your hips to the mat while keeping your collar grip tight and your elbow pulling toward your own hip. The combination of downward body pressure and collar tension compresses both carotid arteries. Maintain until tap or opponent goes unconscious.",
+      "timing": "Hold pressure for submission"
+    }
+  ],
+  "common_counters": [
+    {
+      "counter": "Opponent rolls toward the choking side to relieve pressure and recover guard",
+      "effectiveness": "High",
+      "your_response": "Maintain strong hip control with your non-choking arm and follow their roll, transitioning to side control while keeping collar grip for potential cross collar finish"
+    },
+    {
+      "counter": "Opponent sits back into you before rotation is complete",
+      "effectiveness": "Medium",
+      "your_response": "Use your posted leg to prevent them from sitting fully back, or transition to back control as they create the opening by moving toward you"
+    },
+    {
+      "counter": "Opponent brings hands up to grip fight and strip the collar grip",
+      "effectiveness": "Medium",
+      "your_response": "Accelerate your rotation and sprawl to apply pressure before they can complete the grip break, or switch to guillotine if they expose their neck"
+    },
+    {
+      "counter": "Opponent flattens out completely to the mat to reduce neck exposure",
+      "effectiveness": "Low",
+      "your_response": "Maintain position and work for back take or flattening control, as going flat creates opportunities for other attacks while they cannot escape"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "Insufficient collar grip depth with thumb not penetrating deep enough inside the gi material",
+      "consequence": "Choke lacks effectiveness because the gi material doesn't compress the carotid arteries properly, allowing opponent to survive and escape",
+      "correction": "Drive your thumb as deep as possible inside the collar before beginning rotation, ensuring knuckles contact the neck with gi material creating the choking surface"
+    },
+    {
+      "error": "Neglecting far hip control during setup and rotation",
+      "consequence": "Opponent rolls into you easily, recovering guard or escaping to a neutral position while you lose your dominant control",
+      "correction": "Always establish and maintain control of the far hip with your non-choking arm throughout the entire technique, treating it as essential as the collar grip"
+    },
+    {
+      "error": "Walking too fast around the opponent without maintaining chest-to-back connection",
+      "consequence": "Creates space that allows opponent to turtle tighter, sit back, or initiate escape sequences before choke pressure develops",
+      "correction": "Take small, controlled steps while keeping your chest glued to their upper back, prioritizing connection over speed of rotation"
+    },
+    {
+      "error": "Attempting to finish the choke with arm strength instead of body weight",
+      "consequence": "Exhausts your grip and arm muscles quickly while generating insufficient pressure for a clean finish",
+      "correction": "Focus on sprawling your hips down and driving your body weight forward into the choke, letting gravity and body mass create the pressure"
+    },
+    {
+      "error": "Keeping hips too high during the finishing sprawl",
+      "consequence": "Reduces effective pressure on the choke and allows opponent to potentially explode out or roll through",
+      "correction": "Drive your hips as low as possible toward the mat during the finish, maximizing the downward pressure component of the technique"
+    }
+  ],
+  "training_progressions": [
+    {
+      "phase": "Week 1-2",
+      "focus": "Grip mechanics and positioning",
+      "description": "Practice establishing the deep collar grip with proper thumb placement on a compliant partner. Focus on the grip feel and learning to position your body correctly relative to the turtled opponent without any resistance. Drill the grip establishment and body positioning 20-30 times per session.",
+      "resistance_level": "None"
+    },
+    {
+      "phase": "Week 3-4",
+      "focus": "Rotation and pressure application",
+      "description": "Add the rotational movement and sprawling finish to your drilling. Partner provides light resistance by maintaining turtle position but not actively defending. Focus on maintaining connection throughout the rotation and feeling when proper pressure is achieved.",
+      "resistance_level": "Light"
+    },
+    {
+      "phase": "Week 5-6",
+      "focus": "Defensive recognition and counters",
+      "description": "Partner actively defends using common escapes: rolling, sitting back, and grip fighting. Practice recognizing these defenses and adjusting your technique or transitioning to alternative attacks. Begin chaining Clock Choke with back takes and other turtle attacks.",
+      "resistance_level": "Medium"
+    },
+    {
+      "phase": "Week 7+",
+      "focus": "Live application and integration",
+      "description": "Apply Clock Choke in positional sparring starting from turtle. Progress to full sparring where you must create the turtle situation and execute the technique against fully resisting opponents. Track success rate and identify patterns in failed attempts.",
+      "resistance_level": "Full"
+    }
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Near-side Clock Choke",
+      "description": "Instead of reaching across for the far collar, grip the near-side collar with thumb in. This requires less reaching but typically requires faster rotation and more aggressive hip pressure to finish.",
+      "when_to_use": "When opponent's far collar is difficult to access or when you need a quicker setup from a more dominant initial position"
+    },
+    {
+      "variant_name": "Clock Choke with leg hook",
+      "description": "Insert a butterfly hook under opponent's near-side hip as you rotate, using the hook to prevent them from basing out and to amplify the rotational pressure on their neck.",
+      "when_to_use": "Against opponents who have strong base and resist the standard rotational pressure by bracing with their arms"
+    },
+    {
+      "variant_name": "Rolling Clock Choke",
+      "description": "If opponent attempts to roll through, follow the roll while maintaining the collar grip, ending in a mounted or side control position with the choke still applied.",
+      "when_to_use": "When opponent's primary defense is rolling and you have confidence in your ability to follow while maintaining grip"
+    }
+  ],
+  "knowledge_assessment": [
+    {
+      "question": "What is the primary goal of the Clock Choke?",
+      "answer": "The primary goal is to create a blood choke that compresses both carotid arteries using the opponent's own gi collar as the choking mechanism. The rotational pressure and sprawling body weight create leverage that makes the choke extremely difficult to defend once properly established.",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "Why is thumb-inside collar grip essential for the Clock Choke?",
+      "answer": "The thumb-inside grip positions the gi material correctly against the opponent's neck to compress the carotid arteries. With thumb outside, the grip tends to slide or create an air choke rather than a blood choke. The thumb-inside placement also provides a more secure grip that resists being stripped during the rotation.",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "Your opponent begins rolling toward you as you initiate the rotation—how do you respond?",
+      "answer": "Maintain your hip control grip and follow their roll rather than fighting it. As they roll, you can transition to side control or mount while keeping the collar grip, potentially finishing with a cross collar choke from the new position. The roll actually opens opportunities if you stay connected and don't release your grips.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "What role does the non-choking arm play throughout the Clock Choke?",
+      "answer": "The non-choking arm controls the opponent's far hip, serving as an anchor that prevents rolling escapes and provides a reference point for your rotational movement. Without this hip control, the opponent can easily roll toward you to relieve choking pressure and potentially recover guard or escape to neutral.",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "Why is the sprawling motion critical to finishing the Clock Choke?",
+      "answer": "The sprawl converts your body weight into downward pressure on the choke, eliminating the need for arm strength to finish. This makes the technique more efficient and sustainable. The sprawl also lowers your center of gravity, making it harder for the opponent to explode out or create space for escape.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "Your opponent turtles very tight with their chin tucked—how do you create the opening for Clock Choke?",
+      "answer": "Use your hip control arm to threaten back takes or far-side attacks, forcing them to address those threats and potentially lift their head or create collar access. You can also work to flatten them first, which typically opens the neck. If they remain completely tucked, consider transitioning to crucifix or back control entries instead.",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "At what angle relative to the opponent's spine should you be when applying maximum finishing pressure?",
+      "answer": "You should be approximately perpendicular (90 degrees) to their spine when applying maximum pressure. This angle creates optimal leverage for the rotational pressure component of the choke. Being too parallel reduces the effectiveness of your sprawl, while going past 90 degrees can release tension on the collar grip.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "How do you chain the Clock Choke with back control if the initial attempt fails?",
+      "answer": "If the opponent defends by sitting back, this movement brings their back toward you—follow them and establish seat belt control for back take. If they roll, maintain the collar grip as you follow into side control, then threaten the cross collar to force them to turn away, giving you back access. The Clock Choke threat itself creates the dilemma that opens back control opportunities.",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "What distinguishes the Clock Choke from a standard cross collar choke?",
+      "answer": "The Clock Choke uses rotational body movement and sprawling pressure rather than pulling with both hands toward each other. It typically uses only one collar grip combined with hip control, whereas cross collar requires both hands on the collar. The Clock Choke is particularly suited for turtle attacks, while cross collar is more common from mount or closed guard.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "Your collar grip is being stripped during the rotation—should you fight for the grip or transition?",
+      "answer": "It depends on grip depth. If your grip is still reasonably deep, accelerate your sprawl and rotation to finish before they complete the strip. If the grip is compromised significantly, immediately transition to back control since your hip control and chest pressure are likely still intact. Fighting for a failing grip wastes time and energy when back control is readily available.",
+      "difficulty": "Advanced"
+    }
+  ],
+  "safety_considerations": "The Clock Choke is a blood choke that can render an opponent unconscious within seconds once fully applied. Always release immediately upon tap or when training unconsciousness is detected. Apply pressure gradually during drilling to allow your partner time to tap before the choke becomes fully tight. Never crank or jerk the rotation, as this can cause cervical spine injury. Partners should tap early when practicing, as the choke tightens rapidly during the sprawl phase. Practitioners with neck injuries should avoid this technique until fully healed. When drilling, communicate clearly about pressure levels and respect tap signals immediately.",
+  "position_integration": "The Clock Choke is a cornerstone submission for the turtle attack system, working in combination with back takes, crucifix entries, and flattening control to create a comprehensive pressure game against turtled opponents. When opponents defend the Clock Choke by rolling, it opens back control. When they sit back, it creates back take opportunities. When they flatten, crucifix and back control become available. This interconnected attack system makes the Clock Choke threat valuable even when not finished directly, as it forces defensive reactions that open alternative submissions and positional advances. The technique integrates naturally with front headlock attacks and gi collar control systems.",
+  "related_content": [
+    {
+      "name": "Turtle",
+      "relationship": "Starting position"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Alternative attack when opponent defends"
+    },
+    {
+      "name": "Crucifix",
+      "relationship": "Transition option against flattened opponent"
+    },
+    {
+      "name": "Front Headlock",
+      "relationship": "Related control position with similar collar threats"
+    },
+    {
+      "name": "Bow and Arrow Choke",
+      "relationship": "Alternative gi choke from back control"
+    },
+    {
+      "name": "Cross Collar Choke",
+      "relationship": "Related collar choke mechanics"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Position reached when opponent rolls through"
+    },
+    {
+      "name": "Turtle to Back Control",
+      "relationship": "Related transition for back take from turtle"
+    }
+  ]
+}

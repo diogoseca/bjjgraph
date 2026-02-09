@@ -1,0 +1,131 @@
+{# BJJ Position Hub Page Template #}
+{# Generates hub pages with summaries from bottom and top perspectives #}
+{# Input: Root fields (name, description, overview, etc.) + bottom_summary, top_summary, slug #}
+
+---
+title: "{{ name }} | BJJ Position Guide | BJJ Graph"
+description: "{{ description }}"
+---
+
+{# PostHog A/B Testing Metadata #}
+<body data-content-type="positions-hub">
+
+{# Flexbox wrapper for A/B testing #}
+<main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+<section id="overview" class="content-section">
+
+{{ overview }}
+
+</section>
+
+<section id="key-principles" class="content-section">
+
+### Key Principles
+
+{% for principle in key_principles %}
+- {{ principle }}
+{% endfor %}
+
+</section>
+
+<section class="content-section">
+
+## Top vs Bottom
+
+{% if variations %}
+{# FAMILY: Combined multi-variant table #}
+
+| Variant | Bottom Risk | Top Risk | Bottom Energy | Top Energy | Key Difference |
+|---------|-------------|----------|---------------|------------|----------------|
+| [[{{ name }}]] | {{ bottom_summary.state_properties.risk_level }} | {{ top_summary.state_properties.risk_level }} | {{ bottom_summary.state_properties.energy_cost }} | {{ top_summary.state_properties.energy_cost }} | {{ variant_uniqueness }} |
+{%- for variant in variants_comparison %}
+| [[{{ variant.name }}]] | {{ variant.bottom_risk }} | {{ variant.top_risk }} | {{ variant.bottom_energy }} | {{ variant.top_energy }} | {{ variant.uniqueness }} |
+{%- endfor %}
+
+{% else %}
+{# DUAL: Simple comparison table - playing_as roles #}
+
+| &nbsp; | Bottom | Top |
+|--------|--------|-----|
+| **Position Type** | {{ bottom_summary.state_properties.position_type }} | {{ top_summary.state_properties.position_type }} |
+| **Risk Level** | {{ bottom_summary.state_properties.risk_level }} | {{ top_summary.state_properties.risk_level }} |
+| **Energy Cost** | {{ bottom_summary.state_properties.energy_cost }} | {{ top_summary.state_properties.energy_cost }} |
+| **Time** | {{ bottom_summary.state_properties.time_sustainability }} | {{ top_summary.state_properties.time_sustainability }} |
+
+**Key Difference:** {{ variant_uniqueness }}
+
+{% endif %}
+
+</section>
+
+<section id="bottom-summary" class="content-section">
+
+{# Playing as bottom role #}
+## Playing as Bottom
+
+[[{{ name }}/Bottom|→ Full Bottom Guide]]
+
+### Key Principles
+
+{% for principle in bottom_summary.key_principles %}
+- {{ principle }}
+{% endfor %}
+
+### Available Transitions
+
+{% for t in bottom_summary.transitions %}
+- **[[{{ t.transition }}]]** ({{ t.attempt_probability }}% of attempts)
+{% endfor %}
+
+### Common Mistakes
+
+{% for error in bottom_summary.common_errors %}
+- ❌ **{{ error.error }}**
+  - Consequence: {{ error.consequence }}
+  - ✅ Correction: {{ error.correction }}
+{% endfor %}
+
+</section>
+
+<section id="top-summary" class="content-section">
+
+{# Playing as top role #}
+## Playing as Top
+
+[[{{ name }}/Top|→ Full Top Guide]]
+
+### Key Principles
+
+{% for principle in top_summary.key_principles %}
+- {{ principle }}
+{% endfor %}
+
+### Available Transitions
+
+{% for t in top_summary.transitions %}
+- **[[{{ t.transition }}]]** ({{ t.attempt_probability }}% of attempts)
+{% endfor %}
+
+### Common Mistakes
+
+{% for error in top_summary.common_errors %}
+- ❌ **{{ error.error }}**
+  - Consequence: {{ error.consequence }}
+  - ✅ Correction: {{ error.correction }}
+{% endfor %}
+
+</section>
+
+
+<section id="related-positions" class="content-section">
+
+## Related Positions
+
+{% for related in related_positions %}
+- **[[{{ related.name }}]]** - {{ related.relationship }}
+{% endfor %}
+
+</section>
+
+</main>

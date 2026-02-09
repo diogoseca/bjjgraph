@@ -1,0 +1,270 @@
+{
+  "name": "Rolling Counter to Top",
+  "description": "Master the Rolling Counter to Top escape from Aoki Lock bottom. Reversal technique using opponent's momentum. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "tags": [
+    "bjj",
+    "transition",
+    "escape",
+    "reversal",
+    "aoki-lock",
+    "advanced"
+  ],
+  "from_position": "Aoki Lock/Bottom",
+  "outcomes": [
+    {
+      "to": "Aoki Lock",
+      "probability": 65,
+      "result": "success"
+    },
+    {
+      "to": "Aoki Lock",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Back Control",
+      "probability": 10,
+      "result": "counter"
+    }
+  ],
+  "success_rates": {
+    "beginner": 30,
+    "intermediate": 50,
+    "advanced": 65
+  },
+  "overview": "The Rolling Counter to Top is an advanced reversal technique executed from the bottom of an Aoki Lock position. This technique capitalizes on the inherent instability created when an opponent commits their weight forward to apply shoulder lock pressure. By timing a rolling motion that follows the direction of pressure rather than fighting against it, you can use your opponent's momentum to reverse positions entirely, ending up in the dominant Aoki Lock top position yourself.\n\nThe key to this technique lies in understanding that the Aoki Lock top player must commit significant forward pressure through their hips to generate submission threat. This forward commitment creates a vulnerability - if you can time your roll correctly and redirect their momentum, you can sweep them over while maintaining control of the leg entanglement. The technique requires precise timing, proper shoulder positioning to protect the joint during the transition, and the ability to immediately consolidate top position upon reversal.\n\nThis counter is particularly effective against aggressive opponents who overcommit to the finish. It transforms a dangerous defensive situation into an immediate offensive opportunity. The psychological impact of being reversed from a dominant submission position often creates hesitation in subsequent attacks, giving you the initiative in the match. Understanding this technique also makes you a more dangerous Aoki Lock attacker, as you'll recognize the vulnerability and maintain better base.",
+  "key_principles": [
+    "Time the roll when opponent commits forward hip pressure for the submission finish",
+    "Roll toward your trapped arm direction, using opponent's momentum rather than fighting it",
+    "Maintain control of leg entanglement throughout the rolling motion to secure top position",
+    "Protect shoulder by keeping it internally rotated during the transition phase",
+    "Use free hand to grip opponent's hip or belt to assist the rolling motion",
+    "Complete the roll explosively once initiated to prevent opponent's base recovery",
+    "Immediately consolidate Aoki Lock top control upon reaching the reversal"
+  ],
+  "setup_requirements": [
+    "Opponent has established Aoki Lock top position with leg entanglement on your shoulder",
+    "Opponent is applying forward hip pressure indicating commitment to submission finish",
+    "Your shoulder is still in a safe range with internal rotation maintained",
+    "You have identified opponent's weight distribution and center of gravity",
+    "Free hand is positioned to assist the roll by gripping opponent's hip or belt area"
+  ],
+  "execution_steps": [
+    {
+      "step_number": 1,
+      "action": "Recognize timing window",
+      "description": "Feel for opponent's forward hip pressure commitment indicating they are loading up for the submission finish. This is your signal that their base has shifted forward and become vulnerable to reversal.",
+      "timing": "When hip pressure increases significantly"
+    },
+    {
+      "step_number": 2,
+      "action": "Secure hip control",
+      "description": "Use your free hand to grip opponent's far hip, belt, or pants material. This grip will serve as your primary handle for directing and accelerating the rolling motion throughout the technique.",
+      "timing": "Immediately before initiating roll"
+    },
+    {
+      "step_number": 3,
+      "action": "Protect shoulder alignment",
+      "description": "Ensure your trapped shoulder is internally rotated and your chin is tucked toward your chest. This protects the shoulder joint during the dynamic rolling motion and prevents injury as positions change rapidly.",
+      "timing": "Continuous throughout technique"
+    },
+    {
+      "step_number": 4,
+      "action": "Initiate rolling motion",
+      "description": "Roll toward your trapped arm direction, following the path of opponent's pressure rather than fighting against it. Use your free arm grip on their hip to pull them over your body while driving with your hips and legs.",
+      "timing": "Explosive execution"
+    },
+    {
+      "step_number": 5,
+      "action": "Maintain leg entanglement",
+      "description": "Throughout the rolling motion, keep your legs actively engaged with opponent's arm to maintain the Aoki Lock configuration. Do not release the leg control as this is what allows you to secure top position upon reversal completion.",
+      "timing": "Continuous throughout roll"
+    },
+    {
+      "step_number": 6,
+      "action": "Consolidate top position",
+      "description": "As you complete the roll and arrive on top, immediately post your free leg to establish base. Tighten your leg entanglement around opponent's shoulder and begin applying your own hip pressure to secure Aoki Lock top control.",
+      "timing": "Immediately upon reversal completion"
+    }
+  ],
+  "common_counters": [
+    {
+      "counter": "Opponent widens base with posted leg when feeling roll initiation",
+      "effectiveness": "High",
+      "your_response": "Wait for their next pressure commitment or switch to arm extraction escape if they maintain wide defensive base"
+    },
+    {
+      "counter": "Opponent releases leg entanglement to prevent being rolled over",
+      "effectiveness": "Medium",
+      "your_response": "Accept the release and immediately recover to guard position since the submission threat is neutralized"
+    },
+    {
+      "counter": "Opponent follows your roll and maintains top position",
+      "effectiveness": "Medium",
+      "your_response": "Continue rolling momentum to create scramble situation or return to defensive position and reset"
+    },
+    {
+      "counter": "Opponent transitions to back control as you attempt the roll",
+      "effectiveness": "High",
+      "your_response": "Tuck chin and protect neck immediately, transition to back escape protocols rather than continuing roll"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "Rolling away from trapped arm direction against the pressure vector",
+      "consequence": "Dramatically increases shoulder torque and injury risk while making reversal impossible",
+      "correction": "Always roll toward your trapped arm, following the natural path of opponent's pressure and momentum"
+    },
+    {
+      "error": "Releasing leg entanglement during the rolling motion",
+      "consequence": "Lose ability to secure Aoki Lock top position upon reversal, end up in scramble with no control",
+      "correction": "Actively maintain leg squeeze throughout entire rolling motion to preserve the submission configuration"
+    },
+    {
+      "error": "Attempting roll when opponent has wide defensive base",
+      "consequence": "Roll fails due to opponent's stability, waste energy and remain in vulnerable bottom position",
+      "correction": "Only attempt when opponent commits forward pressure with narrow base for submission finish"
+    },
+    {
+      "error": "Neglecting shoulder protection during dynamic transition",
+      "consequence": "Risk serious shoulder injury as joint moves through compromised positions during roll",
+      "correction": "Maintain internal shoulder rotation and chin tuck throughout the entire technique execution"
+    },
+    {
+      "error": "Failing to immediately consolidate top position after reversal",
+      "consequence": "Opponent can re-reverse or escape before you establish control, wasting the successful technique",
+      "correction": "Post free leg and tighten leg entanglement immediately upon reaching top position"
+    }
+  ],
+  "training_progressions": [
+    {
+      "phase": "Week 1-2",
+      "focus": "Rolling mechanics",
+      "description": "Practice the rolling motion solo and with compliant partner. Focus on rolling toward the trapped arm direction, maintaining imaginary leg entanglement, and shoulder protection. Develop muscle memory for correct movement pattern without resistance.",
+      "resistance_level": "None"
+    },
+    {
+      "phase": "Week 3-4",
+      "focus": "Timing recognition",
+      "description": "Partner applies light Aoki Lock pressure with varying intensity. Practice recognizing the forward pressure commitment that signals the timing window. Execute rolls when you feel appropriate pressure increase. Partner gives feedback on timing accuracy.",
+      "resistance_level": "Light"
+    },
+    {
+      "phase": "Week 5-6",
+      "focus": "Complete sequence",
+      "description": "Chain the technique from recognition through consolidation. Partner provides moderate resistance including some base adjustment attempts. Focus on maintaining leg entanglement throughout and immediately securing top position upon reversal.",
+      "resistance_level": "Medium"
+    },
+    {
+      "phase": "Week 7+",
+      "focus": "Live application",
+      "description": "Integrate into live rolling from Aoki Lock bottom position. Partner attacks with full intention to finish. Develop ability to recognize opportunity amidst real submission threat. Build confidence executing under pressure while maintaining safety awareness.",
+      "resistance_level": "Full"
+    }
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Belt Grip Rolling Counter",
+      "description": "Use a deep belt grip with your free hand to maximize pulling power during the roll. The belt provides a secure anchor point that doesn't slip, making the reversal more powerful against larger opponents.",
+      "when_to_use": "When opponent is wearing gi and belt is accessible"
+    },
+    {
+      "variant_name": "Hip Bump Assisted Roll",
+      "description": "Combine the roll with an explosive hip bump upward into opponent's body to destabilize their base before rolling. The vertical force breaks their stability while the roll uses the resulting momentum.",
+      "when_to_use": "When opponent has moderate base but is still committed forward with pressure"
+    },
+    {
+      "variant_name": "Partial Roll to Back Take",
+      "description": "If the full reversal stalls halfway, pivot to taking opponent's back instead of completing the Aoki Lock reversal. Use the partial roll momentum to establish hooks while they defend the sweep.",
+      "when_to_use": "When opponent counters the roll but creates back exposure"
+    }
+  ],
+  "knowledge_assessment": [
+    {
+      "question": "What is the primary goal of Rolling Counter to Top?",
+      "answer": "The primary goal is to reverse positions from Aoki Lock bottom to Aoki Lock top by using the opponent's forward pressure commitment against them. This transforms a dangerous defensive situation into an immediate dominant offensive position while maintaining the leg entanglement throughout the reversal.",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "What position do you start Rolling Counter to Top from?",
+      "answer": "This technique starts from Aoki Lock bottom position, where your opponent has established leg entanglement control over your shoulder and is applying hip pressure for the shoulder lock submission. You are typically on your side or stomach with limited mobility.",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "What are the key grips needed for Rolling Counter to Top?",
+      "answer": "The primary grip is your free hand controlling opponent's far hip, belt, or pants material. This grip serves as the handle for directing the rolling motion. Your legs maintain the Aoki Lock entanglement throughout, which is critical for securing top position after the reversal.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "How do you counter Rolling Counter to Top if you are the top player?",
+      "answer": "As the top player, widen your posted leg base when you feel the bottom player setup for the roll. Avoid overcommitting forward pressure that creates the timing window. If the roll initiates, release the leg entanglement to prevent being swept over and transition to a different control position.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "When is the best time to attempt Rolling Counter to Top?",
+      "answer": "The optimal timing is when the opponent commits significant forward hip pressure indicating they are loading up for the submission finish. This forward commitment shifts their weight and center of gravity, making them vulnerable to being rolled. Do not attempt when they maintain wide defensive base.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "Your opponent starts widening their base as you prepare to roll - how should you adjust?",
+      "answer": "Abort the roll attempt and switch to alternative escapes such as arm extraction or granby roll. A widened base indicates they have recognized the reversal threat and positioned to defend. Wait for their next pressure commitment or pursue different escape routes.",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "What direction must you roll and why is this critical?",
+      "answer": "You must roll toward your trapped arm direction, following the path of opponent's pressure. Rolling away from the trapped arm dramatically increases shoulder torque and injury risk. The correct direction uses opponent's momentum to assist the reversal while protecting your shoulder joint throughout the motion.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "Why is maintaining leg entanglement throughout the roll essential?",
+      "answer": "Maintaining leg entanglement preserves the Aoki Lock configuration through the reversal, allowing you to immediately secure top position with the submission still in place. Releasing the legs means you end in an undefined scramble rather than a dominant control position with finishing threat.",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "Your roll succeeds but opponent is already starting to re-reverse - what immediate actions secure your position?",
+      "answer": "Post your free leg immediately to establish base and prevent the re-reversal. Tighten your leg entanglement squeeze around their shoulder. Drive your hips forward to apply pressure and establish Aoki Lock top control. The first two seconds after reversal are critical for consolidation.",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "How do you protect your shoulder during the dynamic rolling motion?",
+      "answer": "Maintain internal rotation of your shoulder throughout the technique and tuck your chin toward your chest. These positions protect the shoulder joint as it moves through the transition. Never allow the shoulder to externally rotate under load during any phase of the rolling motion.",
+      "difficulty": "Intermediate"
+    }
+  ],
+  "safety_considerations": "The Rolling Counter to Top involves dynamic movement while your shoulder is under submission threat, creating inherent injury risk. Always maintain internal shoulder rotation throughout the technique to protect the joint. Never attempt this technique if your shoulder is already compromised or experiencing sharp pain. Practice at progressive resistance levels and communicate clearly with training partners about pressure limits. If the roll stalls or fails, immediately reassess shoulder safety rather than forcing completion. This technique should be developed gradually over weeks, not rushed. Tap immediately if shoulder position becomes dangerous during any phase of execution. In competition, weigh the reversal opportunity against current shoulder stress levels.",
+  "position_integration": "The Rolling Counter to Top represents a critical option within the Aoki Lock escape system, transforming a defensive nightmare into an offensive opportunity. This technique creates a meaningful dilemma for Aoki Lock top players - committing pressure for the finish creates reversal vulnerability, while playing conservatively reduces submission threat. Understanding this reversal makes you both a better defender from bottom and a smarter attacker from top, as you'll recognize the vulnerability and maintain appropriate base. The technique chains naturally with other Aoki Lock escapes including arm extraction to turtle and granby roll variations. Mastering the rolling counter completes your Aoki Lock defensive toolkit and creates unpredictability that makes opponents hesitate in their attacks.",
+  "related_content": [
+    {
+      "name": "Aoki Lock",
+      "relationship": "Starting position and destination position"
+    },
+    {
+      "name": "Arm Extraction to Turtle",
+      "relationship": "Alternative escape option from same position"
+    },
+    {
+      "name": "Granby Roll Escape",
+      "relationship": "Alternative rolling escape technique"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Counter position if opponent follows roll"
+    },
+    {
+      "name": "Aoki Lock Finish",
+      "relationship": "Follow-up submission after securing top position"
+    },
+    {
+      "name": "Omoplata Control",
+      "relationship": "Related shoulder lock position with similar escape concepts"
+    },
+    {
+      "name": "Kimura Trap",
+      "relationship": "Related shoulder lock defense principles"
+    },
+    {
+      "name": "Turtle",
+      "relationship": "Alternative escape destination"
+    }
+  ]
+}

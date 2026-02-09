@@ -1,0 +1,263 @@
+{
+  "name": "Lapel to Lasso Transition",
+  "description": "Master the Lapel to Lasso Transition in BJJ. Convert lapel guard to lasso control when grips are stripped. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "tags": [
+    "bjj",
+    "transition",
+    "guard-retention",
+    "lapel-guard",
+    "lasso-guard",
+    "gi-technique",
+    "open-guard"
+  ],
+  "from_position": "Lapel Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Lasso Guard",
+      "probability": 65,
+      "result": "success"
+    },
+    {
+      "to": "Lapel Guard",
+      "probability": 20,
+      "result": "failure"
+    },
+    {
+      "to": "Half Guard",
+      "probability": 15,
+      "result": "counter"
+    }
+  ],
+  "success_rates": {
+    "beginner": 30,
+    "intermediate": 50,
+    "advanced": 65
+  },
+  "overview": "The Lapel to Lasso Transition represents a critical guard retention pathway that converts the mechanically complex lapel guard into the proven control system of lasso guard. This transition becomes essential when opponents successfully strip your primary lapel configuration or when the lapel grip begins failing under sustained passing pressure. Rather than losing guard position entirely, skilled practitioners flow seamlessly into lasso control, maintaining offensive threats while denying the pass.\n\nStrategically, this transition exploits the opponent's moment of success—when they've invested energy clearing your lapel, their posture and grip fighting typically creates openings for lasso entry. The sleeve grip you maintained during lapel guard often transfers directly into lasso control, while your leg threading across their arm replaces the lapel barrier with an equally effective mechanical obstruction. This continuity of control frustrates passers who believed they'd solved the guard puzzle.\n\nThe transition also serves as intelligent position management within gi-based guard systems. Both lapel guard and lasso guard share sleeve control as a foundation, making the transition mechanically intuitive once drilled. Advanced practitioners treat these positions as interconnected systems rather than isolated guards, flowing between them based on opponent reactions. Mastering this transition transforms potential guard recovery situations into offensive opportunities, maintaining constant pressure even when your primary guard is threatened.",
+  "key_principles": [
+    "Maintain sleeve grip continuity throughout the transition—never release the sleeve control that supported your lapel configuration",
+    "Thread your shin across the opponent's tricep immediately as you abandon the lapel, converting one barrier into another",
+    "Use the opponent's clearing momentum against them—their forward drive or posture recovery creates the space needed for leg threading",
+    "Establish hip angle perpendicular to opponent as you complete the lasso to maximize sweep leverage from your new position",
+    "Transfer secondary grips from lapel to collar or opposite sleeve to maintain multi-point control in the new guard",
+    "Recognize the transition window—attempt too early and you abandon working lapel control; too late and opponent has already passed"
+  ],
+  "setup_requirements": [
+    "Active sleeve grip on one of opponent's arms that will become the lasso control point",
+    "Opponent has successfully cleared or is actively clearing your primary lapel configuration",
+    "Sufficient hip mobility to thread your shin across the opponent's arm between elbow and shoulder",
+    "Space between your hip and opponent's torso to execute the leg threading motion",
+    "Awareness that lapel grip is failing and guard retention requires immediate position change"
+  ],
+  "execution_steps": [
+    {
+      "step_number": 1,
+      "action": "Recognize transition window",
+      "description": "Identify the moment your lapel configuration is being successfully cleared—opponent has broken your lapel grip, stepped over your lapel leg, or driven through your lapel barrier. This recognition must happen before the pass completes.",
+      "timing": "Immediate recognition as lapel control fails"
+    },
+    {
+      "step_number": 2,
+      "action": "Secure sleeve grip",
+      "description": "Ensure your sleeve grip on the target arm is secure with a pistol grip near the wrist. This grip likely already exists from your lapel guard. If not, establish it immediately using your nearside hand while opponent focuses on clearing the lapel.",
+      "timing": "Simultaneous with lapel abandonment"
+    },
+    {
+      "step_number": 3,
+      "action": "Create hip angle",
+      "description": "Rotate your hips perpendicular to the opponent's centerline by pushing off with your non-lasso foot on their hip or the mat. This angle creates the space needed for leg threading and establishes optimal lasso control geometry.",
+      "timing": "0.5 seconds after securing sleeve"
+    },
+    {
+      "step_number": 4,
+      "action": "Thread lasso leg",
+      "description": "Bring your shin across the opponent's tricep, threading between their elbow and shoulder while pulling the sleeve toward your chest. Your shin should press firmly against the back of their arm, creating the characteristic lasso lever.",
+      "timing": "1 second, smooth controlled motion"
+    },
+    {
+      "step_number": 5,
+      "action": "Extend and tension",
+      "description": "Straighten your lasso leg to create maximum leverage against the opponent's shoulder while simultaneously pulling the sleeve grip toward your body. This tension is what makes the lasso effective—a bent or loose lasso provides minimal control.",
+      "timing": "Immediately upon completing thread"
+    },
+    {
+      "step_number": 6,
+      "action": "Establish secondary control",
+      "description": "Use your free hand to grab their collar, opposite sleeve, or pants to create a second control point. Post your non-lasso foot on their hip if they're standing, or hook their far leg if they're kneeling. This completes the lasso guard establishment.",
+      "timing": "Within 2 seconds of lasso completion"
+    }
+  ],
+  "common_counters": [
+    {
+      "counter": "Opponent immediately steps over your threading leg before lasso is established, preventing the shin from crossing their arm",
+      "effectiveness": "High",
+      "your_response": "If they step over, immediately transition to De La Riva guard using the same leg, hooking their lead leg from outside while maintaining sleeve control"
+    },
+    {
+      "counter": "Opponent drives aggressive forward pressure through your transition attempt, smashing your hips flat and preventing angle creation",
+      "effectiveness": "Medium",
+      "your_response": "Accept the pressure and transition to closed guard or butterfly guard instead, using their forward momentum to establish hooks under their thighs"
+    },
+    {
+      "counter": "Opponent strips sleeve grip during the transition moment when you're between positions and control is weakest",
+      "effectiveness": "Medium",
+      "your_response": "Immediately pummel for collar grip with both hands and frame against their shoulders, creating space to re-establish open guard controls or retreat to closed guard"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "Releasing sleeve grip to address the failing lapel, losing the control point needed for lasso establishment",
+      "consequence": "Opponent passes freely with no remaining grips to slow their advancement, resulting in side control or mount",
+      "correction": "Prioritize sleeve grip retention above all else—the lapel is already lost, but the sleeve becomes your new primary control"
+    },
+    {
+      "error": "Attempting the transition too late after opponent has already established dominant passing position",
+      "consequence": "Threading motion fails because opponent's weight is already past your hips, and the lasso attempt exposes your back",
+      "correction": "Recognize transition timing earlier—initiate as soon as you identify the lapel is failing, not after the pass has begun"
+    },
+    {
+      "error": "Threading the lasso leg with bent knee and minimal extension, creating weak control that opponent easily clears",
+      "consequence": "Opponent simply pulls their arm free from the loose lasso and continues passing without significant disruption",
+      "correction": "Fully extend the lasso leg while pulling sleeve toward your chest, creating maximum tension and mechanical advantage"
+    },
+    {
+      "error": "Keeping hips flat during transition instead of creating perpendicular angle",
+      "consequence": "Opponent settles their weight directly onto you, making the lasso ineffective and exposing you to pressure passing",
+      "correction": "Use non-lasso foot to push off opponent's hip or mat, rotating hips perpendicular to their centerline before completing the thread"
+    },
+    {
+      "error": "Neglecting secondary grips after establishing lasso, relying solely on the single-arm control",
+      "consequence": "Opponent's free arm establishes dominant grips that allow them to address the lasso systematically while you have limited offensive options",
+      "correction": "Immediately establish collar grip, opposite sleeve control, or pants grip to create multi-point control that supports sweeps and submissions"
+    }
+  ],
+  "training_progressions": [
+    {
+      "phase": "Week 1-2",
+      "focus": "Grip transfer mechanics",
+      "description": "Partner establishes light lapel guard pressure. Practice identifying when to abandon lapel, maintaining sleeve grip throughout, and executing the basic threading motion without resistance. Focus purely on mechanics and timing recognition.",
+      "resistance_level": "None"
+    },
+    {
+      "phase": "Week 3-4",
+      "focus": "Hip angle and timing",
+      "description": "Partner actively clears your lapel at 30-40% intensity. Practice creating perpendicular hip angle during transition and threading at the optimal moment. Partner provides feedback on timing—too early or too late—to develop proper recognition.",
+      "resistance_level": "Light"
+    },
+    {
+      "phase": "Week 5-6",
+      "focus": "Chain attacks from new position",
+      "description": "Partner clears lapel at 50-60% intensity. Complete full transition to lasso, then immediately attack with triangle sweep, omoplata, or hook sweep based on their reaction. Develops ability to maintain offensive pressure through position changes.",
+      "resistance_level": "Medium"
+    },
+    {
+      "phase": "Week 7+",
+      "focus": "Competition application",
+      "description": "Full intensity situational sparring starting from lapel guard. Partner actively passes while you flow between lapel configurations and lasso as needed. Success measured by guard retention and sweep completion over multiple rounds.",
+      "resistance_level": "Full"
+    }
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Deep Lasso Entry",
+      "description": "Thread the shin extra deep across the tricep, almost to the opponent's neck. Creates stronger control but requires more flexibility and precise timing.",
+      "when_to_use": "Against opponents with strong posture who might power through standard lasso depth"
+    },
+    {
+      "variant_name": "Lasso to Spider Hybrid",
+      "description": "Instead of completing full lasso, establish spider guard control on the same arm with foot on bicep while threading opposite leg into lasso position.",
+      "when_to_use": "When opponent's reaction to lapel clearing creates opportunity for dual-arm control rather than single-arm lasso"
+    },
+    {
+      "variant_name": "Inverted Lasso Entry",
+      "description": "Invert your hips during the transition to establish lasso from inverted angle, creating immediate berimbolo or back take threats.",
+      "when_to_use": "Against aggressive passers whose forward pressure can be redirected into sweeping momentum"
+    }
+  ],
+  "knowledge_assessment": [
+    {
+      "question": "What is the primary goal of the Lapel to Lasso Transition?",
+      "answer": "The primary goal is to maintain guard retention and offensive control when your lapel guard configuration is being successfully cleared by the opponent. Rather than losing position entirely, you convert into lasso guard which shares similar sleeve control foundations, denying the pass while establishing new sweep and submission threats.",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "What grip must you maintain throughout the transition, and why is it critical?",
+      "answer": "You must maintain the sleeve grip throughout the entire transition. This grip serves as your primary control point—it supported your lapel configuration and will become the foundation of your lasso control. Releasing it means losing all connection to your opponent, allowing them to pass freely. The sleeve grip is the constant that links both guard positions.",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "Your opponent drives aggressive forward pressure as you attempt the transition—how do you adapt?",
+      "answer": "Accept their forward momentum and transition to closed guard or butterfly guard instead of forcing the lasso. Their pressure eliminates the space needed for leg threading, but creates opportunities for guards that work with close range. Use their drive to establish hooks under their thighs for butterfly or close your guard completely to reset the engagement.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "What hip position maximizes lasso effectiveness after completing the transition?",
+      "answer": "Your hips should be perpendicular to the opponent's centerline, not flat on the mat. This perpendicular angle creates optimal sweep vectors, maximizes the mechanical leverage of your shin against their arm, and prevents them from settling their weight directly onto you. Flat hips allow pressure passing; angled hips create constant off-balancing threats.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "When during the opponent's clearing attempt should you initiate the transition?",
+      "answer": "Initiate immediately when you recognize the lapel is failing—not before (abandoning working control) and not after (when they've already established passing position). The optimal window is when they've committed energy to clearing but haven't yet capitalized on the success. Their focus on clearing creates the opening for your leg threading.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "Your opponent steps over your threading leg before the lasso is established—what immediate counter preserves your guard?",
+      "answer": "Transition immediately to De La Riva guard using the same leg. Hook their lead leg from the outside while maintaining your sleeve grip. Their step-over motion actually assists the DLR hook entry. This maintains guard continuity and offensive threats despite the failed lasso attempt.",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "What distinguishes a weak lasso from an effective one, and how do you ensure yours is effective?",
+      "answer": "A weak lasso has a bent knee with minimal tension, allowing opponents to simply pull their arm free. An effective lasso features a fully extended leg pressing the shin firmly against the opponent's tricep while you simultaneously pull the sleeve grip toward your chest. This opposition creates maximum leverage against their shoulder, making extraction extremely difficult.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "After establishing lasso, what secondary controls should you prioritize and why?",
+      "answer": "Prioritize collar grip, opposite sleeve control, or pants grip based on opponent's position. Standing opponents require hip posting with your non-lasso foot; kneeling opponents benefit from far leg hooks. Secondary controls create multi-point systems that support sweeps and submissions—single-arm lasso alone provides control but limited offensive options.",
+      "difficulty": "Advanced"
+    }
+  ],
+  "safety_considerations": "This transition involves threading your shin across an opponent's arm, which carries minimal injury risk when performed correctly. The primary safety concern is ensuring you don't hyperextend your own knee while creating the lasso extension—maintain slight bend at maximum extension rather than locking out completely. When drilling, communicate with partners about pressure levels as aggressive sleeve pulling combined with leg extension can strain shoulder joints. Practitioners with knee injuries should be cautious with the threading motion and may need to modify by using a shallower lasso angle. When transitioning under pressure, avoid explosive movements that could result in collision injuries. This technique is safe at all training intensities when both partners understand the mechanics.",
+  "position_integration": "The Lapel to Lasso Transition represents critical guard retention infrastructure within gi-based open guard systems. Both lapel guard and lasso guard share sleeve control as their foundation, making this transition mechanically intuitive—the grip that supported your lapel becomes your lasso anchor. This creates a subsystem where practitioners can flow between lapel configurations (worm, squid, ringworm) and lasso variants based on opponent reactions. Successful guard players don't view these as separate positions but as interconnected options within a unified control framework. The transition also connects to broader guard retention pathways: if lasso fails, you can continue to spider guard (same sleeve foundation) or De La Riva (same hip angle requirements). Mastering these connections transforms isolated techniques into a comprehensive guard game where opponents face continuous threats regardless of how they address individual configurations.",
+  "related_content": [
+    {
+      "name": "Lapel Guard",
+      "relationship": "Starting position - lapel configurations being cleared triggers this transition"
+    },
+    {
+      "name": "Lasso Guard",
+      "relationship": "Target position - successful transition establishes full lasso control"
+    },
+    {
+      "name": "Spider Guard",
+      "relationship": "Alternative target - can transition here if lasso threading fails"
+    },
+    {
+      "name": "De La Riva Guard",
+      "relationship": "Alternative pathway - use if opponent steps over threading attempt"
+    },
+    {
+      "name": "Lapel to Spider Transition",
+      "relationship": "Parallel technique - alternative guard retention from lapel"
+    },
+    {
+      "name": "Lasso Guard Sweeps",
+      "relationship": "Follow-up attacks - immediate offensive options after successful transition"
+    },
+    {
+      "name": "Triangle Setup",
+      "relationship": "Follow-up submission - available when opponent's posture breaks after lasso establishment"
+    },
+    {
+      "name": "Omoplata Sweep",
+      "relationship": "Follow-up attack - effective when opponent drives forward against new lasso control"
+    },
+    {
+      "name": "Collar Sleeve Guard",
+      "relationship": "Related system - shares sleeve control principles with both lapel and lasso"
+    },
+    {
+      "name": "Guard Retention",
+      "relationship": "Strategic concept - this transition exemplifies maintaining control through position changes"
+    }
+  ]
+}
