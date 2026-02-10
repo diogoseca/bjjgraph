@@ -90,6 +90,20 @@
       "Circle away from opponent's control attempts rather than moving in straight lines, using rotational movement to shed grips",
       "Time guard recovery attempts for moments when opponent is off-balance or overcommitted to control attempts"
     ],
+    "execution_steps": [
+      "Establish defensive turtle position on hands and knees with head protected between shoulders and elbows tight to body",
+      "Immediately begin shifting weight between knees in circular patterns, never allowing hips to remain static for more than 1-2 seconds",
+      "Keep chin tucked to chest creating protective wedge between shoulders while maintaining peripheral awareness of opponent's position",
+      "Actively fight opponent's grip attempts on collar or wrists using opposite hand to strip and redirect grip attempts",
+      "When opponent attempts far-side underhook, aggressively defend by keeping elbow tight and circling hips away from control",
+      "If opponent secures single grip, explosively rotate hips in opposite direction to prevent second grip establishment",
+      "Recognize opponent's weight commitment moments (forward pressure, grip changes) as opportunities for explosive counter-movement",
+      "When opponent is off-balance from your movement, burst into Granby Roll motion or Hip Escape toward guard recovery",
+      "If standing opportunity presents, execute Technical Standup by posting hand and explosive hip extension while protecting neck",
+      "Maintain frenetic energy level for 30-60 seconds, then transition to guard recovery or alternative defensive position before fatigue compromises technique",
+      "Never allow both seat belt grips to be established simultaneously - this is the critical failure point requiring immediate explosive escape attempt",
+      "Use circular footwork patterns rather than linear movement to create unpredictable scramble situations favoring defensive position"
+    ],
     "offensive_transitions": [
       {
         "technique": "Turtle to Guard",
@@ -391,6 +405,48 @@
       "eddie_bravo": "Crackhead Control is the embodiment of 10th Planet philosophy applied to turtle defense - we don't accept inferior positions as inevitable, we turn them into opportunities through movement, aggression, and unpredictability. The name itself reflects the energy required - you need to be absolutely relentless, moving like you've got unlimited energy even when you're exhausted. What makes this position so effective in no-gi is that without gi grips to anchor their control, your opponent is forced to rely entirely on body positioning and underhooks, both of which you can disrupt through constant hip movement and hand fighting. The traditional approach to turtle is to wait for your opponent to make a mistake, but that's passive and gives them all the control. With Crackhead Control, you're actively creating mistakes by forcing them to deal with constant movement and grip fighting. Every time they try to establish control, you're already moving away from it, creating angles, and looking for your escape. The best practitioners develop an almost manic quality to their movement - not random or panicked, but purposeful and relentless. You're not just defending, you're attacking their ability to attack you. The granby roll is your best friend here, and you should be threatening it constantly to keep them guessing. Mix in sit-throughs to dogfight and technical standups to keep them from predicting your movement patterns. This isn't a position you maintain for minutes - it's a high-intensity scramble position that you use to create guard recovery or standing opportunities within 20-40 seconds of explosive activity."
     }
   },
+  "faq": [
+    {
+      "question": "What is Crackhead Control in BJJ?",
+      "answer": "Crackhead Control is an innovative turtle position system developed by Eddie Bravo's 10th Planet Jiu-Jitsu, featuring unconventional chair-sit mechanics. From bottom, it emphasizes constant movement and aggressive grip fighting. From top, it uses asymmetric hip isolation to threaten back takes and submissions."
+    },
+    {
+      "question": "Who invented Crackhead Control?",
+      "answer": "Crackhead Control was developed within the 10th Planet Jiu-Jitsu system founded by Eddie Bravo. It gained prominence through 10th Planet competition success and represents the evolution of modern no-gi turtle attack and defense strategies."
+    },
+    {
+      "question": "How effective is Crackhead Control?",
+      "answer": "From bottom, advanced practitioners achieve 65% escape rates through constant movement. From top, advanced practitioners achieve 85% retention rates and 75% advancement to back control or submissions. Success requires exceptional conditioning and technical precision."
+    },
+    {
+      "question": "When should you use Crackhead Control?",
+      "answer": "Use Crackhead Control bottom when in defensive turtle to prevent back takes through dynamic movement. Use Crackhead Control top when attacking turtle to isolate hips and create back take or submission opportunities. Particularly effective in no-gi contexts where traditional grips are unavailable."
+    },
+    {
+      "question": "What's the difference between Crackhead Control and traditional Turtle?",
+      "answer": "Traditional Turtle emphasizes static defensive structure. Crackhead Control transforms turtle into an active scramble position through constant kinetic energy, aggressive hand fighting, and unpredictable movement patterns that force opponents to continuously re-establish control rather than consolidating grips."
+    },
+    {
+      "question": "How do you escape Crackhead Control?",
+      "answer": "From bottom defensive position, use Granby Roll to Closed Guard (65% advanced success), Hip Escape to Half Guard (60% advanced), or Technical Standup (60% advanced). Key is explosive bursts when opponent commits weight, combined with aggressive grip fighting to prevent seat belt control."
+    },
+    {
+      "question": "What submissions are available from Crackhead Control top?",
+      "answer": "Primary submissions include: Darce Choke (when opponent turns in), Anaconda Choke (alternative front headlock finish), Twister (through Truck entry), Chokes from Crucifix (when opponent extends arms), and various back attack chokes after progression to Back Control."
+    },
+    {
+      "question": "Is Crackhead Control better for gi or no-gi?",
+      "answer": "Crackhead Control is particularly effective in no-gi grappling where traditional collar and sleeve grips are unavailable. The position relies on body control and underhooks that opponents can disrupt through movement in no-gi contexts, making the dynamic scramble approach more necessary and effective."
+    },
+    {
+      "question": "What conditioning is needed for Crackhead Control?",
+      "answer": "Exceptional cardiovascular conditioning is required, especially for bottom defensive position. Expect to maintain high-intensity movement for 30-90 seconds before escaping or transitioning. Both perspectives require hip mobility, core strength, and ability to maintain explosive activity under fatigue."
+    },
+    {
+      "question": "How do you train Crackhead Control?",
+      "answer": "Key drills include: Constant Motion Turtle Drill (2-minute rounds maintaining hip movement), Grip Fighting from Turtle (30-second rounds), Positional Sparring (5-minute rounds from established position), and Transition Flow Drill (3-4 minutes flowing through progressions). Progressive resistance is essential."
+    }
+  ],
   "top": {
     "name": "Crackhead Control Top",
     "description": "Master Crackhead Control Top in BJJ. Dominant turtle attack with chair-sit mechanics isolating opponent's hips. Advanced practitioners achieve 85% retention and 75% advancement rates.",
@@ -423,6 +479,22 @@
       "Transition weight distribution dynamically to counter opponent's escape attempts without losing position",
       "Use the position as a control platform rather than static hold - constantly threaten progression to back control or submissions",
       "Maintain connection between your hips and opponent's hips while keeping upper body mobile for attacks"
+    ],
+    "execution_steps": [
+      "Approach opponent in defensive turtle position from side or three-quarter angle, establishing initial upper body contact with overhook or collar tie",
+      "Insert inside leg between opponent's legs, hooking around their near thigh to control inside space and prevent sit-through escapes",
+      "Load your hips onto opponent's lower back/sacrum area in chair-sit position, distributing weight through your glutes directly onto their lumbar spine",
+      "Establish second leg position either posting wide for base or hooking opponent's far leg for additional control depending on their reaction",
+      "Secure upper body control through seatbelt grip (one arm over shoulder, one under armpit) or overhook configuration on far side",
+      "Apply forward chest pressure onto opponent's upper back while keeping hips heavy on lower back, creating fulcrum effect that breaks defensive structure",
+      "Maintain perpendicular hip angle to opponent - your hips stay loaded on their lower back while their hips remain turned away from you",
+      "When opponent attempts to sit through toward guard, immediately transition weight forward and insert second hook for back take",
+      "If opponent rolls forward into Granby escape attempt, follow their rotation and transition to Truck position by capturing far leg",
+      "When opponent extends arm to post or push away, trap extended arm and transition to Crucifix control or Anaconda/Darce choke setup",
+      "For back take progression, walk hands up opponent's upper body toward head while maintaining hip pressure, then insert hooks as they flatten",
+      "Constantly threaten multiple progressions (back take, truck, submissions) to keep opponent defensive and reactive, preventing organized escape attempts",
+      "If opponent successfully creates space with explosive movement, maintain inside leg hook and re-establish hip pressure before they can fully escape to guard",
+      "Use upper body grips to redirect opponent's movement rather than as primary control - the hip isolation is the true controlling mechanism"
     ],
     "offensive_transitions": [
       {
@@ -732,5 +804,17 @@
       "gordon_ryan": "Crackhead control is one of the highest percentage turtle positions in modern competition, especially in no-gi where traditional collar grips aren't available. I use this position constantly because it puts me in perfect position for back takes while keeping my opponent completely defensive - they're spending all their energy just trying not to give up their back, which means they can't really attack or escape effectively. The key is staying patient and heavy with your hips while your upper body stays mobile and ready to capitalize on their movements. When I sit in crackhead, I'm already thinking two steps ahead - if they try to sit through, I take the back; if they roll forward, I go to truck; if they try to stand up, I ride them to the mat and take the back anyway. The position creates a dilemma where every escape attempt opens up a submission or progression. In competition, I've found that most opponents will eventually make a mistake from here because the position is so uncomfortable and energy-draining for them. The submission rate from this position is also exceptionally high - darce, anaconda, and twister are all readily available depending on how they defend. The modern game is all about these transitional control positions that create submission opportunities, and crackhead control is perfect for that strategic approach.",
       "eddie_bravo": "Crackhead control is pure 10th Planet innovation - it's that perfect blend of weird positioning that looks crazy but works incredibly well, especially in the no-gi game. The chair sit mechanics come from the lockdown and truck system philosophy where we use unconventional hip positions to create control that's hard to defend with traditional techniques. The beauty of crackhead is that it completely messes with your opponent's equilibrium - they can't use their normal turtle escapes because you're sitting on their hips in this awkward way that isolates their movement. From here, the truck is wide open, and that's where the magic happens - twister entries, banana splits, calf slicers, all kinds of leg attacks become available. The position also sets up some nasty choke sequences, especially the darce and anaconda when they try to turn into you. What makes crackhead control so effective is that it's not in most people's defensive vocabulary - they haven't drilled escapes from this position because it's still relatively uncommon in traditional BJJ schools. This gives you a huge competitive advantage because they're solving problems in real-time instead of relying on trained responses. The key is staying loose and flowing with their movements rather than fighting to maintain a rigid position - you want to be like water, following wherever they go and constantly threatening the next progression. It's a position that rewards creativity and unorthodox thinking, which is exactly what 10th Planet is all about."
     }
+  },
+  "bot_metadata": {
+    "last_improved": "2026-02-10",
+    "optimization_pass": "ai_seo_v1",
+    "changes_made": [
+      "Added comprehensive 10-question FAQ section covering position definition, inventor, effectiveness, usage context, comparison to traditional turtle, escapes, submissions, gi vs no-gi, conditioning requirements, and training methods",
+      "Added detailed 12-step execution sequence for bottom defensive perspective covering setup, movement patterns, grip fighting, and escape timing",
+      "Added detailed 14-step execution sequence for top attacking perspective covering entry mechanics, weight distribution, control progression, and transition opportunities",
+      "Optimized content for conversational AI search queries matching natural language patterns",
+      "Enhanced technical specificity with actionable step-by-step instructions",
+      "Maintained all existing comprehensive content while adding AI discoverability features"
+    ]
   }
 }

@@ -1,0 +1,84 @@
+{
+  "article_path": "source/content/Learning/Learning Psychology.md",
+  "seed_keyword": "Learning Psychology",
+  "alternate_keywords": [
+    "BJJ Learning Psychology",
+    "Learning Psychology in BJJ",
+    "Brazilian Jiu Jitsu Learning",
+    "How to learn BJJ effectively"
+  ],
+  "paa_questions": [
+    {
+      "question": "[AWAITING PAA DATA - Install MCP tool to fetch]",
+      "answer_snippet": "",
+      "source_url": "",
+      "priority": "high",
+      "integration_strategy": "dedicated_faq",
+      "notes": "Replace with actual PAA data from Google SERP"
+    }
+  ],
+  "heading_optimizations": [
+    {
+      "current": "Learning Psychology",
+      "suggested": "What is Learning Psychology in BJJ?",
+      "rationale": "Converts title to question format matching conversational AI search queries"
+    },
+    {
+      "current": "Core Principles",
+      "suggested": "What Are the Core Learning Principles in BJJ?",
+      "rationale": "Question format improves voice search and AI snippet potential"
+    },
+    {
+      "current": "Component Skills",
+      "suggested": "What Skills Are Needed for BJJ Learning?",
+      "rationale": "More discoverable for skill-focused searches"
+    },
+    {
+      "current": "Learning Optimization Strategies",
+      "suggested": "How Can I Optimize My BJJ Learning?",
+      "rationale": "Action-oriented question format"
+    },
+    {
+      "current": "Common Mistakes",
+      "suggested": "What Are Common BJJ Learning Mistakes?",
+      "rationale": "Matches problem-solving search intent"
+    },
+    {
+      "current": "Neurological Basis",
+      "suggested": "What Happens in the Brain When Learning BJJ?",
+      "rationale": "Makes scientific content more accessible"
+    }
+  ],
+  "missing_content_opportunities": [
+    "Add FAQ section addressing common learning questions",
+    "Add section: How Long Does It Take to Learn BJJ? (common search query)",
+    "Add section: Learning BJJ as an Adult vs. Child (demographic-specific)",
+    "Add section: Online vs. In-Person BJJ Learning (modern concern)",
+    "Expand motor learning theory with practical examples",
+    "Add case studies of successful learning progression",
+    "Include learning timeline expectations by belt level",
+    "Add section on learning plateaus and how to overcome them",
+    "Address learning differences between gi and no-gi",
+    "Include learning strategies for different age groups"
+  ],
+  "current_strengths": [
+    "Comprehensive coverage of cognitive science principles",
+    "Strong expert insights from Danaher, Ryan, and Bravo",
+    "Well-structured progression framework",
+    "Good integration of theory and practice",
+    "Computer science analogy provides unique angle"
+  ],
+  "seo_recommendations": [
+    "Add structured FAQ schema markup for PAA optimization",
+    "Convert more headings to question format",
+    "Add \"People Also Ask\" section with 5-7 high-priority questions",
+    "Include more beginner-focused how-to content",
+    "Add learning timeframe expectations (highly searched)",
+    "Include more specific, long-tail keyword variations",
+    "Add comparison content (learning methods, approaches)",
+    "Include age-specific and demographic-specific content"
+  ],
+  "status": "AWAITING_MCP_TOOL",
+  "last_updated": "2026-02-10",
+  "notes": "Template created. Requires DataForSEO MCP tool to fetch actual PAA data from Google SERP."
+}
