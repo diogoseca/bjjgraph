@@ -1,0 +1,104 @@
+{
+  "article_path": "source/content/Positions/Crackhead Control.json",
+  "seed_keyword": "Crackhead Control",
+  "alternate_keywords": [
+    "Crackhead Control BJJ",
+    "Crackhead Control Position",
+    "Eddie Bravo Crackhead Control",
+    "10th Planet Crackhead Control",
+    "What is Crackhead Control"
+  ],
+  "paa_questions": [
+    {
+      "question": "[AWAITING PAA DATA - Install MCP tool to fetch]",
+      "answer_snippet": "",
+      "source_url": "",
+      "priority": "high",
+      "integration_strategy": "dedicated_faq",
+      "notes": "Replace with actual PAA data from Google SERP"
+    }
+  ],
+  "heading_optimizations": [
+    {
+      "current": "Crackhead Control",
+      "suggested": "What is Crackhead Control in BJJ?",
+      "rationale": "Converts title to question format for better AI search visibility"
+    },
+    {
+      "current": "Overview",
+      "suggested": "How Does Crackhead Control Work?",
+      "rationale": "More actionable and search-friendly heading"
+    },
+    {
+      "current": "Key Principles (Bottom)",
+      "suggested": "How Do You Defend from Crackhead Control?",
+      "rationale": "Matches defensive search intent"
+    },
+    {
+      "current": "Key Principles (Top)",
+      "suggested": "How Do You Attack from Crackhead Control?",
+      "rationale": "Matches offensive search intent"
+    },
+    {
+      "current": "Common Errors",
+      "suggested": "What Are Common Crackhead Control Mistakes?",
+      "rationale": "Problem-solving query format"
+    },
+    {
+      "current": "Training Drills",
+      "suggested": "How Do You Train Crackhead Control?",
+      "rationale": "Action-oriented for practical seekers"
+    }
+  ],
+  "missing_content_opportunities": [
+    "Add FAQ section for common questions about the position",
+    "Add section: Who Invented Crackhead Control? (attribution/history)",
+    "Add section: When to Use Crackhead Control (situational guidance)",
+    "Add section: Crackhead Control vs Traditional Turtle (comparison)",
+    "Add section: Best Body Types for Crackhead Control",
+    "Add beginner progression path to learning the position",
+    "Include video tutorial recommendations",
+    "Add competition examples with timestamps",
+    "Expand on counter strategies for common defenses",
+    "Add section on Crackhead Control in gi vs no-gi contexts",
+    "Include conditioning requirements specific to this position",
+    "Add troubleshooting guide for common execution problems"
+  ],
+  "current_strengths": [
+    "Comprehensive dual-perspective coverage (top and bottom)",
+    "Excellent expert insights from Danaher, Ryan, and Bravo",
+    "Detailed success rates by skill level",
+    "Strong decision tree framework",
+    "Good integration with related positions and transitions",
+    "Extensive training drill descriptions"
+  ],
+  "seo_recommendations": [
+    "Add structured FAQ schema markup",
+    "Convert key headings to question format",
+    "Add \"People Also Ask\" section with top 5-7 questions",
+    "Include origin story/history section (highly searched for named positions)",
+    "Add comparison content with similar positions",
+    "Include more beginner-focused introductory content",
+    "Add video embed or tutorial links",
+    "Include competition highlights section",
+    "Add troubleshooting section for learning barriers",
+    "Create clearer distinction between top/bottom perspectives in headings",
+    "Add more specific long-tail keywords throughout",
+    "Include practitioner experience level recommendations"
+  ],
+  "related_search_opportunities": [
+    "Crackhead Control escape",
+    "Crackhead Control tutorial",
+    "Crackhead Control vs Turtle",
+    "How to do Crackhead Control",
+    "Eddie Bravo Crackhead Control",
+    "Crackhead Control defense",
+    "Crackhead Control submissions",
+    "10th Planet Crackhead Control",
+    "Crackhead Control for beginners",
+    "Crackhead Control competition"
+  ],
+  "status": "AWAITING_MCP_TOOL",
+  "last_updated": "2026-02-10",
+  "notes": "Template created. JSON file structure ready. Requires DataForSEO MCP tool to fetch actual PAA data from Google SERP. Position has dual perspectives which should be addressed separately in PAA questions."
+}

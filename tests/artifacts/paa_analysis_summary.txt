@@ -1,0 +1,259 @@
+================================================================================
+PAA (PEOPLE ALSO ASK) ANALYSIS SUMMARY
+BJJ Graph - AI Search Optimization Project
+Generated: 2026-02-10
+================================================================================
+
+STATUS: AWAITING MCP TOOL CONFIGURATION
+The DataForSEO MCP tool is required to fetch actual Google SERP PAA data.
+Templates and workflow documentation have been prepared for when tool is available.
+
+================================================================================
+ARTICLES ANALYZED
+================================================================================
+
+1. Learning Psychology
+   Path: source/content/Learning/Learning Psychology.md
+   Type: Educational/Framework
+   Seed Keyword: "Learning Psychology"
+   Current Length: ~136 lines
+   Status: Template created
+
+2. Crackhead Control
+   Path: source/content/Positions/Crackhead Control.json
+   Type: Position (Technical)
+   Seed Keyword: "Crackhead Control"
+   Current Length: ~736 lines (JSON with dual perspectives)
+   Status: Template created
+
+================================================================================
+DELIVERABLES CREATED
+================================================================================
+
+1. tests/artifacts/paa_workflow_documentation.md
+   - Complete workflow for PAA data fetching
+   - MCP tool setup instructions
+   - Manual fallback approach
+   - JSON output structure specification
+
+2. tests/artifacts/learning_psychology_paa_template.json
+   - Seed keywords and alternates identified
+   - 6 heading optimization suggestions
+   - 10 missing content opportunities
+   - 8 SEO recommendations
+   - Current strengths analysis
+
+3. tests/artifacts/crackhead_control_paa_template.json
+   - Seed keywords and alternates identified
+   - 6 heading optimization suggestions
+   - 12 missing content opportunities
+   - 12 SEO recommendations
+   - 10 related search opportunities
+   - Current strengths analysis
+
+4. tests/artifacts/paa_analysis_summary.txt (this file)
+
+================================================================================
+KEY FINDINGS & RECOMMENDATIONS
+================================================================================
+
+IMMEDIATE ACTIONS NEEDED:
+-------------------------
+1. Install DataForSEO MCP server: npm install @anthropic/mcp-dataforseo
+2. Configure MCP with DataForSEO API credentials
+3. Restart Claude Code to load MCP tool
+4. Re-run PAA analysis to fetch actual Google SERP data
+
+HEADING OPTIMIZATION STRATEGY:
+------------------------------
+Both articles would benefit from converting headings to question format:
+- Improves voice search discoverability
+- Better AI snippet potential
+- Matches conversational query patterns
+- Increases featured snippet likelihood
+
+Example transformations identified:
+- "Learning Psychology" → "What is Learning Psychology in BJJ?"
+- "Crackhead Control" → "What is Crackhead Control in BJJ?"
+- "Core Principles" → "What Are the Core Learning Principles in BJJ?"
+- "Common Errors" → "What Are Common Crackhead Control Mistakes?"
+
+CONTENT GAP ANALYSIS:
+--------------------
+
+Learning Psychology - Missing Content:
+- Timeline expectations (high search volume query)
+- Age-specific learning guidance
+- Online vs in-person learning comparison
+- Learning plateau troubleshooting
+- Gi vs no-gi learning differences
+
+Crackhead Control - Missing Content:
+- Origin story / who invented it (high interest for named techniques)
+- When to use the position (situational guidance)
+- Comparison with traditional turtle
+- Body type considerations
+- Video tutorial links/embeds
+- Competition examples
+
+PRIORITY CONTENT ADDITIONS:
+--------------------------
+
+HIGH PRIORITY (Add First):
+1. FAQ sections for both articles
+2. Origin/history for Crackhead Control
+3. Timeline expectations for Learning Psychology
+4. Question-format heading conversions
+
+MEDIUM PRIORITY:
+1. Comparison sections (vs similar positions/methods)
+2. Beginner-specific guidance
+3. Troubleshooting sections
+4. Video/media embeds
+
+LOW PRIORITY:
+1. Advanced variations
+2. Demographic-specific content
+3. Related technique deep-dives
+
+================================================================================
+SEO OPTIMIZATION RECOMMENDATIONS
+================================================================================
+
+SCHEMA MARKUP:
+- Add FAQ schema to both articles
+- Add HowTo schema where applicable
+- Add VideoObject schema when videos added
+
+CONTENT STRUCTURE:
+- Lead with direct answers to common questions
+- Use question-format subheadings
+- Add "People Also Ask" sections
+- Include comparison tables
+- Front-load key facts in first 100 words
+
+KEYWORD STRATEGY:
+- Target long-tail variations
+- Include "how to", "what is", "why" phrases
+- Add practitioner level qualifiers (beginner, advanced)
+- Include style qualifiers (gi, no-gi)
+- Add instructor names for attribution searches
+
+INTERNAL LINKING:
+- Cross-link related positions
+- Link to prerequisite concepts
+- Create learning path sequences
+- Link expert insights to their main articles
+
+================================================================================
+TECHNICAL IMPLEMENTATION NOTES
+================================================================================
+
+Once MCP tool is available:
+1. Fetch PAA data with depth=2 (questions + expanded questions)
+2. Prioritize questions with high search volume
+3. Filter questions relevant to article topic
+4. Map questions to integration strategies:
+   - dedicated_faq: Add to new FAQ section
+   - improve_heading: Convert existing heading
+   - add_section: Create new content section
+
+5. Generate structured data:
+   - FAQ schema for question-answer pairs
+   - HowTo schema for step-by-step guides
+   - Article schema for overall page
+
+6. Update JSON source files (not markdown)
+7. Regenerate markdown with json_to_md.py
+8. Validate with scripts/validate_json.py
+9. Test build with npx quartz build
+
+================================================================================
+EXPECTED IMPACT
+================================================================================
+
+After implementing PAA optimizations:
+
+IMPROVED DISCOVERABILITY:
+- Better rankings for question-based queries
+- Increased featured snippet chances
+- Enhanced voice search results
+- Better AI search engine responses
+
+USER EXPERIENCE:
+- Answers to common questions upfront
+- Clearer content navigation
+- Better match to search intent
+- More actionable content structure
+
+COMPETITIVE ADVANTAGE:
+- Most BJJ content not optimized for AI search
+- Question-format headings still uncommon
+- FAQ schema rarely implemented
+- Opportunity to dominate conversational queries
+
+================================================================================
+NEXT STEPS
+================================================================================
+
+PHASE 1 - TOOL SETUP (Required First):
+[ ] Install DataForSEO MCP server
+[ ] Configure API credentials
+[ ] Restart Claude Code
+[ ] Test MCP tool connection
+
+PHASE 2 - DATA COLLECTION:
+[ ] Fetch PAA data for Learning Psychology
+[ ] Fetch PAA data for Crackhead Control
+[ ] Analyze question relevance
+[ ] Prioritize by search volume/relevance
+
+PHASE 3 - CONTENT OPTIMIZATION:
+[ ] Convert headings to question format
+[ ] Add FAQ sections
+[ ] Fill content gaps
+[ ] Add structured data markup
+
+PHASE 4 - VALIDATION:
+[ ] Validate JSON schema
+[ ] Regenerate markdown
+[ ] Test build
+[ ] Verify schema markup with Google Rich Results Test
+
+PHASE 5 - SCALE:
+[ ] Apply learnings to more articles
+[ ] Create PAA optimization playbook
+[ ] Automate where possible
+[ ] Track ranking improvements
+
+================================================================================
+ESTIMATED EFFORT
+================================================================================
+
+Per Article (once MCP tool configured):
+- PAA data fetch: 5-10 minutes
+- Analysis and prioritization: 15-20 minutes
+- Content updates: 30-60 minutes
+- Validation and testing: 10-15 minutes
+Total: ~1-2 hours per article
+
+Project Scale:
+- 95 Position pages
+- 71 Transition pages
+- 49 Submission pages
+- Various learning/framework pages
+
+Recommendation: Start with highest-traffic 20-30 pages, measure impact, then scale.
+
+================================================================================
+CONTACT & RESOURCES
+================================================================================
+
+DataForSEO Documentation: https://dataforseo.com/apis/serp-api
+MCP Tools Setup: https://github.com/anthropics/anthropic-mcp
+Schema.org FAQ: https://schema.org/FAQPage
+Google Rich Results Test: https://search.google.com/test/rich-results
+
+================================================================================
+END OF SUMMARY
+================================================================================
