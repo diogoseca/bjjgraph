@@ -1,0 +1,112 @@
+{
+  "article_path": "source/content/Positions/Grasshopper Guard.json",
+  "seed_keyword": "Grasshopper Guard",
+  "search_intent": "Learn inverted guard technique for BJJ leg attacks and sweeps",
+  "paa_questions": [
+    {
+      "question": "What is grasshopper guard in BJJ?",
+      "answer_snippet": "Grasshopper guard is an inverted open guard position where the bottom practitioner inverts their body, placing shoulders near the mat while elevating hips toward the opponent for leg attacks and sweeps",
+      "source_url": "https://bjjgraph.org/Positions/Grasshopper-Guard",
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "rationale": "This is the primary definitional query users search for. Current overview is comprehensive but heading could be more conversational."
+    },
+    {
+      "question": "How do you do grasshopper guard?",
+      "answer_snippet": "To perform grasshopper guard, invert your body with shoulders on mat, elevate hips, and constantly adjust leg configurations to attack legs or sweep while maintaining mobility",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "rationale": "High-intent instructional query. Could add a 'Step-by-Step Setup' section after key principles."
+    },
+    {
+      "question": "Is grasshopper guard effective for beginners?",
+      "answer_snippet": "Grasshopper guard has low beginner success rates (20-40%) due to high flexibility, core strength, and inverted positioning requirements",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq",
+      "rationale": "Common user concern. Data shows beginner retention rate of 25%. Add FAQ section addressing prerequisites."
+    },
+    {
+      "question": "What are the best submissions from grasshopper guard?",
+      "answer_snippet": "The most effective submissions from grasshopper guard are kneebars (60% advanced success), straight ankle locks (65% advanced), and entries to ashi garami positions",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "rationale": "High search volume query. Change 'offensive_transitions' section heading to 'What Submissions Work from Grasshopper Guard?'"
+    },
+    {
+      "question": "When should you use grasshopper guard?",
+      "answer_snippet": "Use grasshopper guard when traditional guard retention fails, against standing passers attempting to disengage, or as a transitional position to hunt leg entanglements (8-15 seconds maximum)",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "rationale": "Tactical timing question. Add 'When to Use Grasshopper Guard' section before key principles."
+    },
+    {
+      "question": "What's the difference between grasshopper guard and inverted guard?",
+      "answer_snippet": "Grasshopper guard is a specific type of inverted guard featuring hopping transitions between leg configurations with hip elevation, while inverted guard is the broader category",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "rationale": "Disambiguation query. Add comparison paragraph in overview or related positions."
+    },
+    {
+      "question": "Can you do grasshopper guard in gi BJJ?",
+      "answer_snippet": "Grasshopper guard works better in no-gi BJJ as the absence of gi grips allows more freedom for inverted movement and leg positioning without collar/sleeve control interference",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq",
+      "rationale": "Applicability question. Current content mentions 'modern no-gi competition' but doesn't explicitly address gi vs no-gi."
+    },
+    {
+      "question": "How much flexibility do you need for grasshopper guard?",
+      "answer_snippet": "Grasshopper guard requires sufficient flexibility to fold body into inverted configuration without restriction, making it a listed prerequisite for the position",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "improve_existing",
+      "rationale": "Physical requirement query. Enhance prerequisites section with specific flexibility benchmarks."
+    }
+  ],
+  "heading_optimizations": [
+    {
+      "current": "Overview",
+      "suggested": "What is Grasshopper Guard in BJJ?",
+      "rationale": "Matches the #1 searched definitional query pattern for the position"
+    },
+    {
+      "current": "Offensive Transitions",
+      "suggested": "What Submissions Can You Hit from Grasshopper Guard?",
+      "rationale": "Conversational format matches high-volume user search intent for submission options"
+    },
+    {
+      "current": "Prerequisites",
+      "suggested": "What Do You Need to Learn Grasshopper Guard?",
+      "rationale": "Question format improves accessibility and matches beginner search patterns"
+    },
+    {
+      "current": "Common Errors",
+      "suggested": "What Are Common Grasshopper Guard Mistakes?",
+      "rationale": "More natural language pattern that appears in PAA results"
+    }
+  ],
+  "missing_content_opportunities": [
+    "Add section: 'When to Use Grasshopper Guard' - Tactical timing and situation guidance",
+    "Add section: 'How to Set Up Grasshopper Guard' - Step-by-step entry sequences from common positions",
+    "Add section: 'Gi vs No-Gi Grasshopper Guard' - Applicability and modification strategies",
+    "Add FAQ section addressing: flexibility requirements, beginner suitability, competition legality",
+    "Add comparison: 'Grasshopper Guard vs Other Inverted Guards' - X-Guard, Reverse DLR distinctions",
+    "Enhance training drills with specific flexibility/core conditioning exercises for prerequisites"
+  ],
+  "schema_enhancements": [
+    "Add HowTo schema for 'How to Set Up Grasshopper Guard' with step-by-step instructions",
+    "Add FAQ schema with 8 common questions about the position",
+    "Enhance existing Article schema with speakable sections for voice search optimization"
+  ],
+  "content_gaps_found": {
+    "entry_sequences": "No dedicated section on how to enter grasshopper guard from other positions",
+    "flexibility_benchmarks": "Prerequisites mention flexibility but don't quantify specific requirements",
+    "competition_context": "Limited guidance on when to use in competition vs training",
+    "common_defenses": "Top position covered but could expand on most common defensive patterns"
+  }
+}
